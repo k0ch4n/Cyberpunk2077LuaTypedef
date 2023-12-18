@@ -1,0 +1,33 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataApplyStatusEffectBasedOnDifficultyEffector_Record: gamedataApplyStatusEffectEffector_Record
+gamedataApplyStatusEffectBasedOnDifficultyEffector_Record = {}
+
+---@param fields? table
+---@return gamedataApplyStatusEffectBasedOnDifficultyEffector_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record.new(fields) return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnEasyDifficulty() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnEasyDifficultyHandle() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnHardDifficulty() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnHardDifficultyHandle() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnStoryDifficulty() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnStoryDifficultyHandle() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnVeryHardDifficulty() return end
+
+---@return gamedataStatusEffect_Record
+function gamedataApplyStatusEffectBasedOnDifficultyEffector_Record:StatusEffectOnVeryHardDifficultyHandle() return end

@@ -1,0 +1,21 @@
+---@meta _
+---@diagnostic disable
+
+---@class ActionsSequencer: InteractiveMasterDevice
+ActionsSequencer = {}
+
+---@param fields? table
+---@return ActionsSequencer
+function ActionsSequencer.new(fields) return end
+
+---@protected
+---@param ri entEntityResolveComponentsInterface
+---@return Bool
+function ActionsSequencer:OnTakeControl(ri) return end
+
+---@private
+---@return ActionsSequencerController
+function ActionsSequencer:GetController() return end
+
+---@return ActionsSequencerControllerPS
+function ActionsSequencer:GetDevicePS() return end

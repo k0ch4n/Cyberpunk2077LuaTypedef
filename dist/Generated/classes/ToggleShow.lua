@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class ToggleShow: ActionBool
+ToggleShow = {}
+
+---@param fields? table
+---@return ToggleShow
+function ToggleShow.new(fields) return end
+
+---@param isShown Bool
+---@return nil
+function ToggleShow:SetProperties(isShown) return end

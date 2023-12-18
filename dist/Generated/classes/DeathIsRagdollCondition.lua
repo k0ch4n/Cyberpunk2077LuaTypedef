@@ -1,0 +1,14 @@
+---@meta _
+---@diagnostic disable
+
+---@class DeathIsRagdollCondition: AIbehaviorconditionScript
+DeathIsRagdollCondition = {}
+
+---@param fields? table
+---@return DeathIsRagdollCondition
+function DeathIsRagdollCondition.new(fields) return end
+
+---@protected
+---@param context AIbehaviorScriptExecutionContext
+---@return AIbehaviorConditionOutcomes
+function DeathIsRagdollCondition:Check(context) return end

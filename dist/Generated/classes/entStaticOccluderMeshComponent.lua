@@ -1,0 +1,14 @@
+---@meta _
+---@diagnostic disable
+
+---@class entStaticOccluderMeshComponent: entIPlacedComponent
+---@field public mesh CMesh
+---@field public scale Vector3
+---@field public color Color
+---@field public occluderType visWorldOccluderType
+---@field public occluderAutohideDistanceScale Uint8
+entStaticOccluderMeshComponent = {}
+
+---@param fields? table
+---@return entStaticOccluderMeshComponent
+function entStaticOccluderMeshComponent.new(fields) return end

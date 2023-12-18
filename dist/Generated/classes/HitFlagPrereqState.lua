@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class HitFlagPrereqState: GenericHitPrereqState
+HitFlagPrereqState = {}
+
+---@param fields? table
+---@return HitFlagPrereqState
+function HitFlagPrereqState.new(fields) return end
+
+---@param hitEvent gameeventsHitEvent
+---@return Bool
+function HitFlagPrereqState:Evaluate(hitEvent) return end

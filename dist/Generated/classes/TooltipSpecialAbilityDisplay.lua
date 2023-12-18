@@ -1,0 +1,17 @@
+---@meta _
+---@diagnostic disable
+
+---@class TooltipSpecialAbilityDisplay: inkWidgetLogicController
+---@field private AbilityIcon inkImageWidgetReference
+---@field private AbilityDescription inkTextWidgetReference
+---@field private QualityRoot inkWidgetReference
+TooltipSpecialAbilityDisplay = {}
+
+---@param fields? table
+---@return TooltipSpecialAbilityDisplay
+function TooltipSpecialAbilityDisplay.new(fields) return end
+
+---@param qualityName CName
+---@param data gameInventoryItemAbility
+---@return nil
+function TooltipSpecialAbilityDisplay:Setup(qualityName, data) return end

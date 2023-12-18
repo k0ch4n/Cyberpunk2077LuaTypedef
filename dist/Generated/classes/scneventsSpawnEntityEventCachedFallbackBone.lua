@@ -1,0 +1,11 @@
+---@meta _
+---@diagnostic disable
+
+---@class scneventsSpawnEntityEventCachedFallbackBone
+---@field public boneName CName
+---@field public modelSpaceTransform Transform
+scneventsSpawnEntityEventCachedFallbackBone = {}
+
+---@param fields? table
+---@return scneventsSpawnEntityEventCachedFallbackBone
+function scneventsSpawnEntityEventCachedFallbackBone.new(fields) return end

@@ -1,0 +1,14 @@
+---@meta _
+---@diagnostic disable
+
+---@class CheckAbilityCanRetreat: AIbehaviorconditionScript
+CheckAbilityCanRetreat = {}
+
+---@param fields? table
+---@return CheckAbilityCanRetreat
+function CheckAbilityCanRetreat.new(fields) return end
+
+---@protected
+---@param context AIbehaviorScriptExecutionContext
+---@return AIbehaviorConditionOutcomes
+function CheckAbilityCanRetreat:Check(context) return end

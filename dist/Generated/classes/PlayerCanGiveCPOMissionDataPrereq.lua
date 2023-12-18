@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class PlayerCanGiveCPOMissionDataPrereq: gameinteractionsInteractionScriptedCondition
+PlayerCanGiveCPOMissionDataPrereq = {}
+
+---@param fields? table
+---@return PlayerCanGiveCPOMissionDataPrereq
+function PlayerCanGiveCPOMissionDataPrereq.new(fields) return end
+
+---@param activatorObject gameObject
+---@param hotSpotObject gameObject
+---@param hotSpotLayer gameinteractionsCHotSpotLayerDefinition
+---@return Bool
+function PlayerCanGiveCPOMissionDataPrereq:Test(activatorObject, hotSpotObject, hotSpotLayer) return end

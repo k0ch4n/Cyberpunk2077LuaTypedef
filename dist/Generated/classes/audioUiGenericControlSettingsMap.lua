@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class audioUiGenericControlSettingsMap: audioAudioMetadata
+---@field public uiControlMatrix audioUiGenericControlSettingsMapItem[]
+audioUiGenericControlSettingsMap = {}
+
+---@param fields? table
+---@return audioUiGenericControlSettingsMap
+function audioUiGenericControlSettingsMap.new(fields) return end

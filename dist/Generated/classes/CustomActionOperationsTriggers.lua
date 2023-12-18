@@ -1,0 +1,22 @@
+---@meta _
+---@diagnostic disable
+
+---@class CustomActionOperationsTriggers: DeviceOperationsTrigger
+---@field protected triggerData CustomActionOperationTriggerData
+CustomActionOperationsTriggers = {}
+
+---@param fields? table
+---@return CustomActionOperationsTriggers
+function CustomActionOperationsTriggers.new(fields) return end
+
+---@param actionID CName
+---@param owner gameObject
+---@param container DeviceOperationsContainer
+---@return nil
+function CustomActionOperationsTriggers:EvaluateTrigger(actionID, owner, container) return end
+
+---@param actionID CName
+---@param owner gameObject
+---@param container DeviceOperationsContainer
+---@return nil
+function CustomActionOperationsTriggers:RestoreOperation(actionID, owner, container) return end

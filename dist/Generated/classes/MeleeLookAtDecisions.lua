@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class MeleeLookAtDecisions: LookAtPresetMeleeBaseDecisions
+MeleeLookAtDecisions = {}
+
+---@param fields? table
+---@return MeleeLookAtDecisions
+function MeleeLookAtDecisions.new(fields) return end

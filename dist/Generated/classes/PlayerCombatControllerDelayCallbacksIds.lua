@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class PlayerCombatControllerDelayCallbacksIds
+---@field public crouch gameDelayID
+PlayerCombatControllerDelayCallbacksIds = {}
+
+---@param fields? table
+---@return PlayerCombatControllerDelayCallbacksIds
+function PlayerCombatControllerDelayCallbacksIds.new(fields) return end

@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class questGlitchLoadingScreen_NodeType: questIUIManagerNodeType
+questGlitchLoadingScreen_NodeType = {}
+
+---@param fields? table
+---@return questGlitchLoadingScreen_NodeType
+function questGlitchLoadingScreen_NodeType.new(fields) return end

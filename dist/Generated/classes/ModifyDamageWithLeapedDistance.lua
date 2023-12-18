@@ -1,0 +1,27 @@
+---@meta _
+---@diagnostic disable
+
+---@class ModifyDamageWithLeapedDistance: ModifyDamageEffector
+---@field public maxPercentMult Float
+---@field public minDistance Float
+---@field public maxDistance Float
+ModifyDamageWithLeapedDistance = {}
+
+---@param fields? table
+---@return ModifyDamageWithLeapedDistance
+function ModifyDamageWithLeapedDistance.new(fields) return end
+
+---@protected
+---@param record TweakDBID
+---@param parentRecord TweakDBID
+---@return nil
+function ModifyDamageWithLeapedDistance:Initialize(record, parentRecord) return end
+
+---@protected
+---@param owner gameObject
+---@return nil
+function ModifyDamageWithLeapedDistance:RepeatedAction(owner) return end
+
+---@protected
+---@return nil
+function ModifyDamageWithLeapedDistance:Uninitialize() return end

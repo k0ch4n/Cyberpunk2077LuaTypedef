@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataReactionLimit_Record: gamedataTweakDBRecord
+gamedataReactionLimit_Record = {}
+
+---@param fields? table
+---@return gamedataReactionLimit_Record
+function gamedataReactionLimit_Record.new(fields) return end
+
+---@return Int32
+function gamedataReactionLimit_Record:Limit() return end
+
+---@return CName
+function gamedataReactionLimit_Record:Name() return end

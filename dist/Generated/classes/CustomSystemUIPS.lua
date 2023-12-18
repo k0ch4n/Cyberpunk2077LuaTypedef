@@ -1,0 +1,16 @@
+---@meta _
+---@diagnostic disable
+
+---@class CustomSystemUIPS: VirtualSystemPS
+CustomSystemUIPS = {}
+
+---@param fields? table
+---@return CustomSystemUIPS
+function CustomSystemUIPS.new(fields) return end
+
+---@param slaves gameDeviceComponentPS[]
+---@param owner MasterControllerPS
+---@param systemName CName
+---@param actions CName[]
+---@return nil
+function CustomSystemUIPS:Initialize(slaves, owner, systemName, actions) return end

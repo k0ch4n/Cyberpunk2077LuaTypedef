@@ -1,0 +1,18 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataAISubActionFailIfFriendlyFire_Record: gamedataAISubAction_Record
+gamedataAISubActionFailIfFriendlyFire_Record = {}
+
+---@param fields? table
+---@return gamedataAISubActionFailIfFriendlyFire_Record
+function gamedataAISubActionFailIfFriendlyFire_Record.new(fields) return end
+
+---@return Bool
+function gamedataAISubActionFailIfFriendlyFire_Record:CheckOnlyFirstFrame() return end
+
+---@return gamedataAIActionTarget_Record
+function gamedataAISubActionFailIfFriendlyFire_Record:Target() return end
+
+---@return gamedataAIActionTarget_Record
+function gamedataAISubActionFailIfFriendlyFire_Record:TargetHandle() return end

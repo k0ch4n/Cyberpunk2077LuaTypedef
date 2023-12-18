@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class AuthorisationNotificationQueue: gameuiGenericNotificationGameController
+---@field private duration Float
+AuthorisationNotificationQueue = {}
+
+---@param fields? table
+---@return AuthorisationNotificationQueue
+function AuthorisationNotificationQueue.new(fields) return end
+
+---@protected
+---@param evt AuthorisationNotificationEvent
+---@return Bool
+function AuthorisationNotificationQueue:OnAuthorisationNotification(evt) return end

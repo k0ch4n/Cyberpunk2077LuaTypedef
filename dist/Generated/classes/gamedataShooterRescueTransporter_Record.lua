@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataShooterRescueTransporter_Record: gamedataShooterAI_Record
+gamedataShooterRescueTransporter_Record = {}
+
+---@param fields? table
+---@return gamedataShooterRescueTransporter_Record
+function gamedataShooterRescueTransporter_Record.new(fields) return end

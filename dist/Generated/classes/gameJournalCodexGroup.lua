@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class gameJournalCodexGroup: gameJournalContainerEntry
+---@field public groupName LocalizationString
+gameJournalCodexGroup = {}
+
+---@param fields? table
+---@return gameJournalCodexGroup
+function gameJournalCodexGroup.new(fields) return end
+
+---@return String
+function gameJournalCodexGroup:GetGroupName() return end

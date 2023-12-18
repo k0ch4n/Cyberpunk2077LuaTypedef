@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class worldTrafficCollisionResource: CResource
+---@field public data worldTrafficStaticCollisionData
+worldTrafficCollisionResource = {}
+
+---@param fields? table
+---@return worldTrafficCollisionResource
+function worldTrafficCollisionResource.new(fields) return end

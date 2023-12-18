@@ -1,0 +1,11 @@
+---@meta _
+---@diagnostic disable
+
+---@class audioAudioAttractAreaSounds: audioAudioMetadata
+---@field public NPCgrunts audioDynamicEventsPerVisualTags[]
+---@field public environmentSounds audioDynamicEventsWithInterval[]
+audioAudioAttractAreaSounds = {}
+
+---@param fields? table
+---@return audioAudioAttractAreaSounds
+function audioAudioAttractAreaSounds.new(fields) return end

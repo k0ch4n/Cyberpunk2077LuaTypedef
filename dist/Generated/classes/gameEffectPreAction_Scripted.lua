@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class gameEffectPreAction_Scripted: gameEffectPreAction
+gameEffectPreAction_Scripted = {}
+
+---@param fields? table
+---@return gameEffectPreAction_Scripted
+function gameEffectPreAction_Scripted.new(fields) return end

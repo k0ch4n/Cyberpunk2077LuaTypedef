@@ -1,0 +1,21 @@
+---@meta _
+---@diagnostic disable
+
+---@class ScannerWeaponDetailed: ScannerWeaponBasic
+---@field private damage CName
+ScannerWeaponDetailed = {}
+
+---@param fields? table
+---@return ScannerWeaponDetailed
+function ScannerWeaponDetailed.new(fields) return end
+
+---@return CName
+function ScannerWeaponDetailed:GetDamage() return end
+
+---@return ScannerDataType
+function ScannerWeaponDetailed:GetType() return end
+
+---@param displayName CName
+---@param displayDamage CName
+---@return nil
+function ScannerWeaponDetailed:Set(displayName, displayDamage) return end

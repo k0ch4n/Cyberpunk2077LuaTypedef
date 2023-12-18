@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class effectTrackItemFilmGrain: effectTrackItem
+---@field public override Bool
+---@field public luminanceBias effectEffectParameterEvaluatorFloat
+---@field public strength effectEffectParameterEvaluatorVector
+---@field public mask ERenderObjectType[]
+effectTrackItemFilmGrain = {}
+
+---@param fields? table
+---@return effectTrackItemFilmGrain
+function effectTrackItemFilmGrain.new(fields) return end

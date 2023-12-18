@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class inkInputContextChangedCallback: inkCallbackBase
+inkInputContextChangedCallback = {}
+
+---@param fields? table
+---@return inkInputContextChangedCallback
+function inkInputContextChangedCallback.new(fields) return end

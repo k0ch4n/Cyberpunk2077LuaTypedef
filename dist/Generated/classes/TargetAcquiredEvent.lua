@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class TargetAcquiredEvent: redEvent
+---@field public target ScriptedPuppet
+TargetAcquiredEvent = {}
+
+---@param fields? table
+---@return TargetAcquiredEvent
+function TargetAcquiredEvent.new(fields) return end

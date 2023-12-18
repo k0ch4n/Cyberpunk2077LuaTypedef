@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class AimAtTargetCommandCleanup: AIbehaviortaskScript
+---@field protected inCommand AIArgumentMapping
+AimAtTargetCommandCleanup = {}
+
+---@param fields? table
+---@return AimAtTargetCommandCleanup
+function AimAtTargetCommandCleanup.new(fields) return end
+
+---@private
+---@param context AIbehaviorScriptExecutionContext
+---@return nil
+function AimAtTargetCommandCleanup:Deactivate(context) return end

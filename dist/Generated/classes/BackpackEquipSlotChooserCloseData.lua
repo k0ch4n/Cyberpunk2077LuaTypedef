@@ -1,0 +1,12 @@
+---@meta _
+---@diagnostic disable
+
+---@class BackpackEquipSlotChooserCloseData: inkGameNotificationData
+---@field public confirm Bool
+---@field public itemData UIInventoryItem
+---@field public slotIndex Int32
+BackpackEquipSlotChooserCloseData = {}
+
+---@param fields? table
+---@return BackpackEquipSlotChooserCloseData
+function BackpackEquipSlotChooserCloseData.new(fields) return end

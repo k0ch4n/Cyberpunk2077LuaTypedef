@@ -1,0 +1,19 @@
+---@meta _
+---@diagnostic disable
+
+---@class AgentMovingHitPrereqCondition: BaseHitPrereqCondition
+---@field public isMoving Bool
+---@field public object CName
+AgentMovingHitPrereqCondition = {}
+
+---@param fields? table
+---@return AgentMovingHitPrereqCondition
+function AgentMovingHitPrereqCondition.new(fields) return end
+
+---@param hitEvent gameeventsHitEvent
+---@return Bool
+function AgentMovingHitPrereqCondition:Evaluate(hitEvent) return end
+
+---@param recordID TweakDBID
+---@return nil
+function AgentMovingHitPrereqCondition:SetData(recordID) return end

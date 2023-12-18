@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class HitIsBodyPartTorsoPrereqState: GenericHitPrereqState
+HitIsBodyPartTorsoPrereqState = {}
+
+---@param fields? table
+---@return HitIsBodyPartTorsoPrereqState
+function HitIsBodyPartTorsoPrereqState.new(fields) return end
+
+---@param hitEvent gameeventsHitEvent
+---@return Bool
+function HitIsBodyPartTorsoPrereqState:Evaluate(hitEvent) return end

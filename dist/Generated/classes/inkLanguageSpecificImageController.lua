@@ -1,0 +1,12 @@
+---@meta _
+---@diagnostic disable
+
+---@class inkLanguageSpecificImageController: inkWidgetLogicController
+---@field public languages inkLanguageSpecificImagData[]
+---@field public fallbackTextureAtlas inkTextureAtlas
+---@field public fallbackPartName CName
+inkLanguageSpecificImageController = {}
+
+---@param fields? table
+---@return inkLanguageSpecificImageController
+function inkLanguageSpecificImageController.new(fields) return end

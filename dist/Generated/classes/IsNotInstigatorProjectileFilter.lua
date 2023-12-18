@@ -1,0 +1,14 @@
+---@meta _
+---@diagnostic disable
+
+---@class IsNotInstigatorProjectileFilter: gameEffectObjectSingleFilter_Scripted
+IsNotInstigatorProjectileFilter = {}
+
+---@param fields? table
+---@return IsNotInstigatorProjectileFilter
+function IsNotInstigatorProjectileFilter.new(fields) return end
+
+---@param ctx gameEffectScriptContext
+---@param filterCtx gameEffectSingleFilterScriptContext
+---@return Bool
+function IsNotInstigatorProjectileFilter:Process(ctx, filterCtx) return end

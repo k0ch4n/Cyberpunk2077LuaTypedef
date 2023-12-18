@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class gameAIDirectorSystem: gameIAIDirectorSystem
+gameAIDirectorSystem = {}
+
+---@param fields? table
+---@return gameAIDirectorSystem
+function gameAIDirectorSystem.new(fields) return end

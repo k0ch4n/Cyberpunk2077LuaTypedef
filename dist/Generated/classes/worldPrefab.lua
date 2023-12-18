@@ -1,0 +1,42 @@
+---@meta _
+---@diagnostic disable
+
+---@class worldPrefab: resStreamedResource
+---@field public mainGroup worldNodesGroup
+---@field public type worldPrefabType
+---@field public teamOwnership worldPrefabOwnership
+---@field public streamingOcclusion worldPrefabStreamingOcclusion
+---@field public streamingImportance worldPrefabStreamingImportance
+---@field public defaultVariants worldPrefabVariantsList
+---@field public isLocked Bool
+---@field public maxBounds Box
+---@field public environmentDefinition worldEnvironmentDefinition
+---@field public terrainMultilayerSetup Multilayer_Setup
+---@field public foliageBrushToTerrainLayerMapping worldAutoFoliageMapping
+---@field public prefabUniqueId CRUID
+---@field public metadataArray worldPrefabMetadata[]
+---@field public isMerged Bool
+---@field public proxyMeshBuildParams worldProxyMeshBuildParams
+---@field public isProxyMeshOnly Bool
+---@field public proxyMesh CMesh
+---@field public proxyScale Vector3
+---@field public maxProxyStreamingDistance Float
+---@field public proxyDistanceFactor Float
+---@field public averageNodeDiagonal Float
+---@field public boostInnerNodesToProxyDistance Bool
+---@field public overrideStreamingPosWithBBoxCenter Bool
+---@field public ignoreMeshEmbeddedOccluders Bool
+---@field public ignoreAllOccluders Bool
+---@field public excludeOnConsole Bool
+---@field public excludeOnNextGenConsoles Bool
+---@field public isTerrainPrefab Bool
+---@field public minimapContribution worldPrefabMinimapContribution
+---@field public interiorMapContribution worldPrefabInteriorMapContribution
+---@field public booleanProxyHelper worldPrefab
+---@field public proxyLimiterHelper worldPrefab
+---@field public customProxyMeshHelper CMesh
+worldPrefab = {}
+
+---@param fields? table
+---@return worldPrefab
+function worldPrefab.new(fields) return end

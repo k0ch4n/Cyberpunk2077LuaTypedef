@@ -1,0 +1,21 @@
+---@meta _
+---@diagnostic disable
+
+---@class SafeEvents: WeaponEventsTransition
+SafeEvents = {}
+
+---@param fields? table
+---@return SafeEvents
+function SafeEvents.new(fields) return end
+
+---@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SafeEvents:OnEnter(stateContext, scriptInterface) return end
+
+---@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SafeEvents:OnExit(stateContext, scriptInterface) return end

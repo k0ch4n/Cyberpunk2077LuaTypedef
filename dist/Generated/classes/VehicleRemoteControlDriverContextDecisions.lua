@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class VehicleRemoteControlDriverContextDecisions: VehicleGameplayContextDecisions
+VehicleRemoteControlDriverContextDecisions = {}
+
+---@param fields? table
+---@return VehicleRemoteControlDriverContextDecisions
+function VehicleRemoteControlDriverContextDecisions.new(fields) return end
+
+---@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function VehicleRemoteControlDriverContextDecisions:ToBaseContext(stateContext, scriptInterface) return end

@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class DelayedAnimFeatureCall: gameDelaySystemScriptedDelayCallbackWrapper
+---@field public featureName CName
+---@field public animFeature animAnimFeature_EquipUnequipItem
+---@field public scriptInterface gamestateMachineGameScriptInterface
+DelayedAnimFeatureCall = {}
+
+---@param fields? table
+---@return DelayedAnimFeatureCall
+function DelayedAnimFeatureCall.new(fields) return end
+
+---@return nil
+function DelayedAnimFeatureCall:Call() return end

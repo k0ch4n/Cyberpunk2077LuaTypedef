@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class StackRelaxedState: StackChangeHighLevelStateAbstract
+StackRelaxedState = {}
+
+---@param fields? table
+---@return StackRelaxedState
+function StackRelaxedState.new(fields) return end
+
+---@param context AIbehaviorScriptExecutionContext
+---@return gamedataNPCHighLevelState
+function StackRelaxedState:GetDesiredHighLevelState(context) return end

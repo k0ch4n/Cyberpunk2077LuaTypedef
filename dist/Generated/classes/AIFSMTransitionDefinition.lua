@@ -1,0 +1,11 @@
+---@meta _
+---@diagnostic disable
+
+---@class AIFSMTransitionDefinition
+---@field public destination Uint16
+---@field public condition Uint16
+AIFSMTransitionDefinition = {}
+
+---@param fields? table
+---@return AIFSMTransitionDefinition
+function AIFSMTransitionDefinition.new(fields) return end

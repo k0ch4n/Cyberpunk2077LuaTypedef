@@ -1,0 +1,28 @@
+---@meta _
+---@diagnostic disable
+
+---@class ModifyCritWithDistance: ModifyAttackEffector
+---@field public critChanceBonus Float
+---@field public minDistance Float
+---@field public maxDistance Float
+---@field public improveWithDistance Bool
+ModifyCritWithDistance = {}
+
+---@param fields? table
+---@return ModifyCritWithDistance
+function ModifyCritWithDistance.new(fields) return end
+
+---@protected
+---@param record TweakDBID
+---@param parentRecord TweakDBID
+---@return nil
+function ModifyCritWithDistance:Initialize(record, parentRecord) return end
+
+---@protected
+---@param owner gameObject
+---@return nil
+function ModifyCritWithDistance:RepeatedAction(owner) return end
+
+---@protected
+---@return nil
+function ModifyCritWithDistance:Uninitialize() return end

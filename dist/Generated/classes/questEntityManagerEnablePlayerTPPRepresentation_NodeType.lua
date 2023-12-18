@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class questEntityManagerEnablePlayerTPPRepresentation_NodeType: questIEntityManager_NodeType
+---@field public enable Bool
+questEntityManagerEnablePlayerTPPRepresentation_NodeType = {}
+
+---@param fields? table
+---@return questEntityManagerEnablePlayerTPPRepresentation_NodeType
+function questEntityManagerEnablePlayerTPPRepresentation_NodeType.new(fields) return end

@@ -1,0 +1,11 @@
+---@meta _
+---@diagnostic disable
+
+---@class scnChoiceNodeNsAdaptiveLookAtReferencePoint
+---@field public referencePoint scnReferencePointId
+---@field public constantWeight Float
+scnChoiceNodeNsAdaptiveLookAtReferencePoint = {}
+
+---@param fields? table
+---@return scnChoiceNodeNsAdaptiveLookAtReferencePoint
+function scnChoiceNodeNsAdaptiveLookAtReferencePoint.new(fields) return end

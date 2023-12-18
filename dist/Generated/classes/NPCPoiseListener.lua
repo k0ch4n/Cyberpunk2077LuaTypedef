@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class NPCPoiseListener: gameScriptStatPoolsListener
+---@field public npc NPCPuppet
+NPCPoiseListener = {}
+
+---@param fields? table
+---@return NPCPoiseListener
+function NPCPoiseListener.new(fields) return end
+
+---@protected
+---@param value Float
+---@return Bool
+function NPCPoiseListener:OnStatPoolMinValueReached(value) return end

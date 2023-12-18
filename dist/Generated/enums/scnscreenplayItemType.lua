@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@enum scnscreenplayItemType
+scnscreenplayItemType = {
+    ["invalid"] = 0,
+    ["dialogLine"] = 1,
+    ["choiceOption"] = 2,
+    ["standaloneComment"] = 3
+}

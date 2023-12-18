@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class ResetProgressionForNewPerks: gamePlayerScriptableSystemRequest
+ResetProgressionForNewPerks = {}
+
+---@param fields? table
+---@return ResetProgressionForNewPerks
+function ResetProgressionForNewPerks.new(fields) return end
+
+---@param _owner gameObject
+---@return nil
+function ResetProgressionForNewPerks:Set(_owner) return end

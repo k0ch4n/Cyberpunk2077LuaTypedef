@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class InStealthHighLevelState: AINPCHighLevelStateCheck
+InStealthHighLevelState = {}
+
+---@param fields? table
+---@return InStealthHighLevelState
+function InStealthHighLevelState.new(fields) return end
+
+---@private
+---@return gamedataNPCHighLevelState
+function InStealthHighLevelState:GetStateToCheck() return end

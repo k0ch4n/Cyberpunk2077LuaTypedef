@@ -1,0 +1,11 @@
+---@meta _
+---@diagnostic disable
+
+---@class animAnimNode_MaskReset: animAnimNode_OnePoseInput
+---@field public weightNode animFloatLink
+---@field public transforms animTransformIndex[]
+animAnimNode_MaskReset = {}
+
+---@param fields? table
+---@return animAnimNode_MaskReset
+function animAnimNode_MaskReset.new(fields) return end

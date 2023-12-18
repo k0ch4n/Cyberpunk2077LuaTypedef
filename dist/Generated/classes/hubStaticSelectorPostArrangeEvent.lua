@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class hubStaticSelectorPostArrangeEvent: redEvent
+hubStaticSelectorPostArrangeEvent = {}
+
+---@param fields? table
+---@return hubStaticSelectorPostArrangeEvent
+function hubStaticSelectorPostArrangeEvent.new(fields) return end

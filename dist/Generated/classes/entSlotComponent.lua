@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class entSlotComponent: entIPlacedComponent
+---@field public slots entSlot[]
+---@field public fallbackSlots entFallbackSlot[]
+entSlotComponent = {}
+
+---@param fields? table
+---@return entSlotComponent
+function entSlotComponent.new(fields) return end
+
+---@param slotName CName
+---@return Bool, WorldTransform worldTransformOut
+function entSlotComponent:GetSlotTransform(slotName) return end

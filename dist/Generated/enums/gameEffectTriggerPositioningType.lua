@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@enum gameEffectTriggerPositioningType
+gameEffectTriggerPositioningType = {
+    ["PlayerRoot"] = 0,
+    ["CameraRoot"] = 1,
+    ["AtSpawn"] = 2,
+    ["XYCameraZPlayer"] = 3,
+    ["XYPlayerZCamera"] = 4,
+    ["XYCameraZTerrain"] = 5,
+    ["XYPlayerZTerrain"] = 6
+}

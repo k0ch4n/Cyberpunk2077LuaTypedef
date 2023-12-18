@@ -1,0 +1,14 @@
+---@meta _
+---@diagnostic disable
+
+---@class VehicleQuestCrystalDomeEvent: redEvent
+---@field public toggle Bool
+---@field public removeQuestControl Bool
+VehicleQuestCrystalDomeEvent = {}
+
+---@param fields? table
+---@return VehicleQuestCrystalDomeEvent
+function VehicleQuestCrystalDomeEvent.new(fields) return end
+
+---@return String
+function VehicleQuestCrystalDomeEvent:GetFriendlyDescription() return end

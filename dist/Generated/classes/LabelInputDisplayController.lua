@@ -1,0 +1,15 @@
+---@meta _
+---@diagnostic disable
+
+---@class LabelInputDisplayController: inkInputDisplayController
+---@field private inputLabel inkTextWidgetReference
+LabelInputDisplayController = {}
+
+---@param fields? table
+---@return LabelInputDisplayController
+function LabelInputDisplayController.new(fields) return end
+
+---@param actionName CName
+---@param label String
+---@return nil
+function LabelInputDisplayController:SetInputActionLabel(actionName, label) return end

@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataStatusEffect_inline1_Record: gamedataConstantStatModifier_Record
+gamedataStatusEffect_inline1_Record = {}
+
+---@param fields? table
+---@return gamedataStatusEffect_inline1_Record
+function gamedataStatusEffect_inline1_Record.new(fields) return end

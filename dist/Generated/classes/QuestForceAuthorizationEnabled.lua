@@ -1,0 +1,12 @@
+---@meta _
+---@diagnostic disable
+
+---@class QuestForceAuthorizationEnabled: ActionBool
+QuestForceAuthorizationEnabled = {}
+
+---@param fields? table
+---@return QuestForceAuthorizationEnabled
+function QuestForceAuthorizationEnabled.new(fields) return end
+
+---@return nil
+function QuestForceAuthorizationEnabled:SetProperties() return end

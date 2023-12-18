@@ -1,0 +1,29 @@
+---@meta _
+---@diagnostic disable
+
+---@class ArmsCWInSlotCallback: gameAttachmentSlotsScriptCallback
+---@field protected state ArmsCWInSlotPrereqState
+ArmsCWInSlotCallback = {}
+
+---@param fields? table
+---@return ArmsCWInSlotCallback
+function ArmsCWInSlotCallback.new(fields) return end
+
+---@param slot TweakDBID
+---@param item gameItemID
+---@return nil
+function ArmsCWInSlotCallback:OnAttachmentRefreshed(slot, item) return end
+
+---@param slot TweakDBID
+---@param item gameItemID
+---@return nil
+function ArmsCWInSlotCallback:OnItemEquipped(slot, item) return end
+
+---@param slot TweakDBID
+---@param item gameItemID
+---@return nil
+function ArmsCWInSlotCallback:OnItemUnequipped(slot, item) return end
+
+---@param state gamePrereqState
+---@return nil
+function ArmsCWInSlotCallback:RegisterState(state) return end

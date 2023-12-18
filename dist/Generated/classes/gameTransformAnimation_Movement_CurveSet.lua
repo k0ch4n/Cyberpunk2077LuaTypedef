@@ -1,0 +1,9 @@
+---@meta _
+---@diagnostic disable
+
+---@class gameTransformAnimation_Movement_CurveSet: gameTransformAnimation_Movement
+gameTransformAnimation_Movement_CurveSet = {}
+
+---@param fields? table
+---@return gameTransformAnimation_Movement_CurveSet
+function gameTransformAnimation_Movement_CurveSet.new(fields) return end

@@ -1,0 +1,21 @@
+---@meta _
+---@diagnostic disable
+
+---@class ChargeMaxEvents: ChargeEventsAbstract
+ChargeMaxEvents = {}
+
+---@param fields? table
+---@return ChargeMaxEvents
+function ChargeMaxEvents.new(fields) return end
+
+---@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function ChargeMaxEvents:OnEnter(stateContext, scriptInterface) return end
+
+---@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function ChargeMaxEvents:OnExitToShoot(stateContext, scriptInterface) return end

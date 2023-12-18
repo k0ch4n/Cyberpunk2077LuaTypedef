@@ -1,0 +1,21 @@
+---@meta _
+---@diagnostic disable
+
+---@class gamedataPreventionFallbackUnitData_Record: gamedataTweakDBRecord
+gamedataPreventionFallbackUnitData_Record = {}
+
+---@param fields? table
+---@return gamedataPreventionFallbackUnitData_Record
+function gamedataPreventionFallbackUnitData_Record.new(fields) return end
+
+---@return gamedataCharacter_Record
+function gamedataPreventionFallbackUnitData_Record:CharacterRecord() return end
+
+---@return gamedataCharacter_Record
+function gamedataPreventionFallbackUnitData_Record:CharacterRecordHandle() return end
+
+---@return Float
+function gamedataPreventionFallbackUnitData_Record:MinSpawnRange() return end
+
+---@return Int32
+function gamedataPreventionFallbackUnitData_Record:UnitsCount() return end

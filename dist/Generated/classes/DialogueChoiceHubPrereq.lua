@@ -1,0 +1,19 @@
+---@meta _
+---@diagnostic disable
+
+---@class DialogueChoiceHubPrereq: gameIScriptablePrereq
+---@field private isChoiceHubActive Bool
+DialogueChoiceHubPrereq = {}
+
+---@param fields? table
+---@return DialogueChoiceHubPrereq
+function DialogueChoiceHubPrereq.new(fields) return end
+
+---@protected
+---@param recordID TweakDBID
+---@return nil
+function DialogueChoiceHubPrereq:Initialize(recordID) return end
+
+---@param context IScriptable
+---@return Bool
+function DialogueChoiceHubPrereq:IsFulfilled(context) return end

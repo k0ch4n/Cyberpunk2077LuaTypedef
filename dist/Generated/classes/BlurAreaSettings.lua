@@ -1,0 +1,10 @@
+---@meta _
+---@diagnostic disable
+
+---@class BlurAreaSettings: IAreaSettings
+---@field public circularBlurRadius Float
+BlurAreaSettings = {}
+
+---@param fields? table
+---@return BlurAreaSettings
+function BlurAreaSettings.new(fields) return end

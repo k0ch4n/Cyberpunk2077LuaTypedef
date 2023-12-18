@@ -1,0 +1,44 @@
+---@meta _
+---@diagnostic disable
+
+---@class toolsJiraIssueFieldsResult
+---@field public project String
+---@field public summary String
+---@field public issuetype String
+---@field public priority String
+---@field public labels String
+---@field public assignee String
+---@field public description String
+---@field public versions String
+---@field public fixVersions String
+---@field public flagPosition String
+---@field public components String
+---@field public attachments toolsJiraAttachment[]
+---@field public customfield_17400 String
+---@field public customfield_18373 String
+---@field public customfield_34100 String
+---@field public customfield_15306 String
+---@field public customfield_13009 String
+---@field public customfield_10013 String
+---@field public customfield_10503 String
+---@field public customfield_10502 String
+---@field public customfield_34718 String
+---@field public customfield_36106 String
+---@field public customfield_10006 String
+---@field public customfield_10505 String
+---@field public customfield_10603 String
+---@field public customfield_24700 String
+---@field public customfield_34706 String
+---@field public customfield_25500 String
+---@field public customfield_15808 String
+---@field public customfield_33701 String
+---@field public customfield_18006 String
+---@field public customfield_29900 String
+---@field public customfield_10005 String
+---@field public customfield_10606 String
+---@field public customfield_10002 String
+toolsJiraIssueFieldsResult = {}
+
+---@param fields? table
+---@return toolsJiraIssueFieldsResult
+function toolsJiraIssueFieldsResult.new(fields) return end

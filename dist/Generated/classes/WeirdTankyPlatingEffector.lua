@@ -1,0 +1,31 @@
+---@meta _
+---@diagnostic disable
+
+---@class WeirdTankyPlatingEffector: ModifyAttackEffector
+---@field private armorMultiplier Float
+WeirdTankyPlatingEffector = {}
+
+---@param fields? table
+---@return WeirdTankyPlatingEffector
+function WeirdTankyPlatingEffector.new(fields) return end
+
+---@protected
+---@param owner gameObject
+---@return nil
+function WeirdTankyPlatingEffector:ActionOn(owner) return end
+
+---@protected
+---@param record TweakDBID
+---@param parentRecord TweakDBID
+---@return nil
+function WeirdTankyPlatingEffector:Initialize(record, parentRecord) return end
+
+---@private
+---@param owner gameObject
+---@return nil
+function WeirdTankyPlatingEffector:ProcessAction(owner) return end
+
+---@protected
+---@param owner gameObject
+---@return nil
+function WeirdTankyPlatingEffector:RepeatedAction(owner) return end

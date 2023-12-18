@@ -1,0 +1,13 @@
+---@meta _
+---@diagnostic disable
+
+---@class SelectedForMultiplayerChoiceDialog: gameIScriptablePrereq
+SelectedForMultiplayerChoiceDialog = {}
+
+---@param fields? table
+---@return SelectedForMultiplayerChoiceDialog
+function SelectedForMultiplayerChoiceDialog.new(fields) return end
+
+---@param context IScriptable
+---@return Bool
+function SelectedForMultiplayerChoiceDialog:IsFulfilled(context) return end

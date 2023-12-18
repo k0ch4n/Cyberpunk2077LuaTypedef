@@ -1,0 +1,12 @@
+---@meta _
+---@diagnostic disable
+
+---@enum animCompareFunc
+animCompareFunc = {
+    ["Equal"] = 0,
+    ["NotEqual"] = 1,
+    ["Less"] = 2,
+    ["LessEqual"] = 3,
+    ["Greater"] = 4,
+    ["GreaterEqual"] = 5
+}
