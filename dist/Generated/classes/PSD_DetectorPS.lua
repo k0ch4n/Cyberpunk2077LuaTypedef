@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PSD_DetectorPS: gameDeviceComponentPS
----@field protected counter Int32
----@field protected toggle Bool
----@field protected lastEntityID entEntityID
----@field protected lastPersistentID gamePersistentID
----@field protected name CName
+---@field protected ["counter"] Int32
+---@field protected ["toggle"] Bool
+---@field protected ["lastEntityID"] entEntityID
+---@field protected ["lastPersistentID"] gamePersistentID
+---@field protected ["name"] CName
 PSD_DetectorPS = {}
 
 ---@param fields? table

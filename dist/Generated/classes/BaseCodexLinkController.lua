@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BaseCodexLinkController: inkWidgetLogicController
----@field protected linkImage inkImageWidgetReference
----@field protected linkLabel inkTextWidgetReference
----@field protected inputContainer inkWidgetReference
----@field protected animProxy inkanimProxy
----@field protected isInteractive Bool
+---@field protected ["linkImage"] inkImageWidgetReference
+---@field protected ["linkLabel"] inkTextWidgetReference
+---@field protected ["inputContainer"] inkWidgetReference
+---@field protected ["animProxy"] inkanimProxy
+---@field protected ["isInteractive"] Bool
 BaseCodexLinkController = {}
 
 ---@param fields? table
@@ -45,6 +45,6 @@ function BaseCodexLinkController:ActivateSecondary() return end
 function BaseCodexLinkController:EnableInputHint(value) return end
 
 ---@private
----@param animationName CName
+---@param animationName CName|string
 ---@return nil
 function BaseCodexLinkController:ForcePlayAnimation(animationName) return end

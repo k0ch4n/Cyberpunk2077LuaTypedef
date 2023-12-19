@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AGenericTooltipController: inkWidgetLogicController
----@field protected Root inkCompoundWidget
+---@field protected ["Root"] inkCompoundWidget
 AGenericTooltipController = {}
 
 ---@protected

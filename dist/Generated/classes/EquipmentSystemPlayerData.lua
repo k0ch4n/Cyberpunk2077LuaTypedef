@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class EquipmentSystemPlayerData: IScriptable
----@field public owner ScriptedPuppet
----@field private ownerID entEntityID
----@field private equipment gameSLoadout
----@field private lastUsedStruct gameSLastUsedWeapon
----@field private slotActiveItemsInHands gameSSlotActiveItems
----@field private clothingSlotsInfo gameSSlotInfo[]
----@field private clothingVisualsInfo gameSSlotVisualInfo[]
----@field private visualUnequipTransition Bool
----@field private wardrobeDisabled Bool
----@field private lastActiveWardrobeSet gameWardrobeClothingSetIndex
----@field private visualTagProcessingInfo gameSVisualTagProcessing[]
----@field private eventsSent Int32
----@field private hotkeys Hotkey[]
----@field private inventoryManager InventoryDataManagerV2
----@field private wardrobeSystem gameWardrobeSystem
----@field private equipPending Bool
----@field private equipAreaIndexCache Int32[]
+---@field public ["owner"] ScriptedPuppet
+---@field private ["ownerID"] entEntityID
+---@field private ["equipment"] gameSLoadout
+---@field private ["lastUsedStruct"] gameSLastUsedWeapon
+---@field private ["slotActiveItemsInHands"] gameSSlotActiveItems
+---@field private ["clothingSlotsInfo"] gameSSlotInfo[]
+---@field private ["clothingVisualsInfo"] gameSSlotVisualInfo[]
+---@field private ["visualUnequipTransition"] Bool
+---@field private ["wardrobeDisabled"] Bool
+---@field private ["lastActiveWardrobeSet"] gameWardrobeClothingSetIndex
+---@field private ["visualTagProcessingInfo"] gameSVisualTagProcessing[]
+---@field private ["eventsSent"] Int32
+---@field private ["hotkeys"] Hotkey[]
+---@field private ["inventoryManager"] InventoryDataManagerV2
+---@field private ["wardrobeSystem"] gameWardrobeSystem
+---@field private ["equipPending"] Bool
+---@field private ["equipAreaIndexCache"] Int32[]
 EquipmentSystemPlayerData = {}
 
 ---@param fields? table
@@ -91,7 +91,7 @@ function EquipmentSystemPlayerData:CheckEquipPrereqs(itemID, randomVariant) retu
 
 ---@private
 ---@param itemID gameItemID
----@param requiredTags CName[]
+---@param requiredTags CName[]|string[]
 ---@return Bool
 function EquipmentSystemPlayerData:CheckTagsInItem(itemID, requiredTags) return end
 
@@ -142,7 +142,7 @@ function EquipmentSystemPlayerData:CreateClothingVisualSlotInfo(area) return end
 ---@private
 ---@param area gamedataEquipmentArea
 ---@param slot String
----@param visualTag CName
+---@param visualTag CName|string
 ---@return gameSSlotInfo
 function EquipmentSystemPlayerData:CreateSlotInfo(area, slot, visualTag) return end
 
@@ -226,7 +226,7 @@ function EquipmentSystemPlayerData:FinalizeVisualTagProcessing() return end
 ---@return gameItemID
 function EquipmentSystemPlayerData:FindItemInEquipArea(item, area) return end
 
----@param tag CName
+---@param tag CName|string
 ---@param area gamedataEquipmentArea
 ---@return gameItemID
 function EquipmentSystemPlayerData:FindItemInEquipAreaByTag(tag, area) return end
@@ -284,7 +284,7 @@ function EquipmentSystemPlayerData:GetAllAbilityCyberwareSlotsByEquipmentArea(eq
 function EquipmentSystemPlayerData:GetAllCyberwareEquipmentAreas() return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return gamedataEquipmentArea
 function EquipmentSystemPlayerData:GetAreaTypeByVisualTag(tag) return end
 
@@ -391,7 +391,7 @@ function EquipmentSystemPlayerData:GetLastUsedItemID(lastUsedWeaponType) return 
 ---@return gameItemID
 function EquipmentSystemPlayerData:GetLastUsedMeleeWeaponItemID() return end
 
----@param driverCombatWeaponTag CName
+---@param driverCombatWeaponTag CName|string
 ---@return gameItemID
 function EquipmentSystemPlayerData:GetLastUsedOrFirstAvailableDriverCombatWeapon(driverCombatWeaponTag) return end
 
@@ -428,7 +428,7 @@ function EquipmentSystemPlayerData:GetNextActiveItemIndex(equipAreaIndex) return
 
 ---@private
 ---@param equipAreaIndex Int32
----@param requiredTags CName[]
+---@param requiredTags CName[]|string[]
 ---@return Int32
 function EquipmentSystemPlayerData:GetNextActiveItemIndex(equipAreaIndex, requiredTags) return end
 
@@ -531,7 +531,7 @@ function EquipmentSystemPlayerData:GetSlotIndex(itemID) return end
 function EquipmentSystemPlayerData:GetSlotOverridenVisualItem(area) return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return Int32
 function EquipmentSystemPlayerData:GetSlotsInfoIndex(tag) return end
 
@@ -718,12 +718,12 @@ function EquipmentSystemPlayerData:IsVisualSetActive() return end
 function EquipmentSystemPlayerData:IsVisualSetUnequipInTransition() return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function EquipmentSystemPlayerData:IsVisualTagActive(tag) return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function EquipmentSystemPlayerData:IsVisualTagValid(tag) return end
 
@@ -945,8 +945,8 @@ function EquipmentSystemPlayerData:RemoveSlotGLPs(equipSlotID) return end
 ---@param reqType EquipmentManipulationRequestType
 ---@param reqSlot EquipmentManipulationRequestSlot
 ---@param equipAnim gameEquipAnimationType
----@param referenceName CName
----@param requestName CName
+---@param referenceName CName|string
+---@param requestName CName|string
 ---@return nil
 function EquipmentSystemPlayerData:RequestEquipmentStateMachine(reqType, reqSlot, equipAnim, referenceName, requestName) return end
 

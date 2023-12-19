@@ -3,8 +3,8 @@
 
 ---@enum scnscreenplayItemType
 scnscreenplayItemType = {
-    ["invalid"] = 0,
-    ["dialogLine"] = 1,
-    ["choiceOption"] = 2,
-    ["standaloneComment"] = 3
+    ["invalid"] = 0, ---@type Enum
+    ["dialogLine"] = 1, ---@type Enum
+    ["choiceOption"] = 2, ---@type Enum
+    ["standaloneComment"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionSystemPlayerCarHackFinishedEvent: gameScriptableSystemRequest
----@field public state VehiclePreventionHackState
+---@field public ["state"] VehiclePreventionHackState
 PreventionSystemPlayerCarHackFinishedEvent = {}
 
 ---@param fields? table

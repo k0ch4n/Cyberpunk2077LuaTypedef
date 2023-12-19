@@ -8,8 +8,8 @@ inkMenuInstance_SpawnAddressedEvent = {}
 ---@return inkMenuInstance_SpawnAddressedEvent
 function inkMenuInstance_SpawnAddressedEvent.new(fields) return end
 
----@param scenarioName CName
----@param eventName CName
+---@param scenarioName CName|string
+---@param eventName CName|string
 ---@param userData? inkUserData
 ---@return nil
 function inkMenuInstance_SpawnAddressedEvent:Init(scenarioName, eventName, userData) return end

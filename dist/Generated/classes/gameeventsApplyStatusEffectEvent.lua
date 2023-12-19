@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameeventsApplyStatusEffectEvent: gameeventsStatusEffectEvent
----@field public isNewApplication Bool
----@field public instigatorEntityID entEntityID
----@field public proxyEntityID entEntityID
----@field public isAppliedOnSpawn Bool
+---@field public ["isNewApplication"] Bool
+---@field public ["instigatorEntityID"] entEntityID
+---@field public ["proxyEntityID"] entEntityID
+---@field public ["isAppliedOnSpawn"] Bool
 gameeventsApplyStatusEffectEvent = {}
 
 ---@param fields? table

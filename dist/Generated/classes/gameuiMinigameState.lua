@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiMinigameState: IScriptable
----@field public currentLives Int32
----@field public currentScore Int32
+---@field public ["currentLives"] Int32
+---@field public ["currentScore"] Int32
 gameuiMinigameState = {}
 
 ---@param fields? table

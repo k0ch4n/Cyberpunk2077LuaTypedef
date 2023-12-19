@@ -3,13 +3,13 @@
 
 ---@enum renderDevSurfelView
 renderDevSurfelView = {
-    ["ALBEDO"] = 0,
-    ["NORMAL"] = 1,
-    ["SHADOWS"] = 2,
-    ["CLOSEST_PROBE"] = 3,
-    ["EMISSIVE"] = 4,
-    ["LIGHTING"] = 5,
-    ["BOUNCE"] = 6,
-    ["INSIDE"] = 7,
-    ["SHADOW"] = 8
+    ["ALBEDO"] = 0, ---@type Enum
+    ["NORMAL"] = 1, ---@type Enum
+    ["SHADOWS"] = 2, ---@type Enum
+    ["CLOSEST_PROBE"] = 3, ---@type Enum
+    ["EMISSIVE"] = 4, ---@type Enum
+    ["LIGHTING"] = 5, ---@type Enum
+    ["BOUNCE"] = 6, ---@type Enum
+    ["INSIDE"] = 7, ---@type Enum
+    ["SHADOW"] = 8, ---@type Enum
 }

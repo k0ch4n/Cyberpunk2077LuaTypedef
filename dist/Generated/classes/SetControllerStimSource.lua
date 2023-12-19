@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetControllerStimSource: AIbehaviortaskScript
----@field protected investigateData senseStimInvestigateData
+---@field protected ["investigateData"] senseStimInvestigateData
 SetControllerStimSource = {}
 
 ---@param fields? table

@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class ObjectiveEntryLogicController: inkWidgetLogicController
----@field public blinkInterval Float
----@field public blinkTotalTime Float
----@field public texturePart_Tracked CName
----@field public texturePart_Untracked CName
----@field public texturePart_Succeeded CName
----@field public texturePart_Failed CName
----@field public isLargeUpdateWidget Bool
----@field private entryName inkTextWidget
----@field private entryOptional inkTextWidget
----@field private stateIcon inkImageWidget
----@field private trackedIcon inkImageWidget
----@field private blinkWidget inkWidget
----@field private root inkWidget
----@field private animBlinkDef inkanimDefinition
----@field private animBlink inkanimProxy
----@field private animFadeDef inkanimDefinition
----@field private animFade inkanimProxy
----@field private entryId Int32
----@field private type UIObjectiveEntryType
----@field private state gameJournalEntryState
----@field private parentEntry ObjectiveEntryLogicController
----@field private childCount Int32
----@field private updated Bool
----@field private isTracked Bool
----@field public isOptional Bool
+---@field public ["blinkInterval"] Float
+---@field public ["blinkTotalTime"] Float
+---@field public ["texturePart_Tracked"] CName
+---@field public ["texturePart_Untracked"] CName
+---@field public ["texturePart_Succeeded"] CName
+---@field public ["texturePart_Failed"] CName
+---@field public ["isLargeUpdateWidget"] Bool
+---@field private ["entryName"] inkTextWidget
+---@field private ["entryOptional"] inkTextWidget
+---@field private ["stateIcon"] inkImageWidget
+---@field private ["trackedIcon"] inkImageWidget
+---@field private ["blinkWidget"] inkWidget
+---@field private ["root"] inkWidget
+---@field private ["animBlinkDef"] inkanimDefinition
+---@field private ["animBlink"] inkanimProxy
+---@field private ["animFadeDef"] inkanimDefinition
+---@field private ["animFade"] inkanimProxy
+---@field private ["entryId"] Int32
+---@field private ["type"] UIObjectiveEntryType
+---@field private ["state"] gameJournalEntryState
+---@field private ["parentEntry"] ObjectiveEntryLogicController
+---@field private ["childCount"] Int32
+---@field private ["updated"] Bool
+---@field private ["isTracked"] Bool
+---@field public ["isOptional"] Bool
 ObjectiveEntryLogicController = {}
 
 ---@param fields? table

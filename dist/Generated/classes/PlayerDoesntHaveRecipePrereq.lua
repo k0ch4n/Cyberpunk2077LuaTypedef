@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerDoesntHaveRecipePrereq: gameIScriptablePrereq
----@field public recipeID TweakDBID
----@field public invert Bool
+---@field public ["recipeID"] TweakDBID
+---@field public ["invert"] Bool
 PlayerDoesntHaveRecipePrereq = {}
 
 ---@param fields? table

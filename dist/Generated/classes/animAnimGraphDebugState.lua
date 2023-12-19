@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimGraphDebugState: ISerializable
----@field public nodes animAnimNodeDebugState[]
+---@field public ["nodes"] animAnimNodeDebugState[]
 animAnimGraphDebugState = {}
 
 ---@param fields? table

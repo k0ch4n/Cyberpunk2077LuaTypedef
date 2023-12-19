@@ -3,10 +3,10 @@
 
 ---@enum audioNumberComparer
 audioNumberComparer = {
-    ["Equal"] = 0,
-    ["NotEqual"] = 1,
-    ["Greater"] = 2,
-    ["GreaterOrEqual"] = 3,
-    ["Lower"] = 4,
-    ["LowerOrEqual"] = 5
+    ["Equal"] = 0, ---@type Enum
+    ["NotEqual"] = 1, ---@type Enum
+    ["Greater"] = 2, ---@type Enum
+    ["GreaterOrEqual"] = 3, ---@type Enum
+    ["Lower"] = 4, ---@type Enum
+    ["LowerOrEqual"] = 5, ---@type Enum
 }

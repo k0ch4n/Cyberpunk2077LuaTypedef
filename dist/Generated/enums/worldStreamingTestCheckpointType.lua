@@ -3,6 +3,6 @@
 
 ---@enum worldStreamingTestCheckpointType
 worldStreamingTestCheckpointType = {
-    ["BeginMove"] = 0,
-    ["EndMove"] = 1
+    ["BeginMove"] = 0, ---@type Enum
+    ["EndMove"] = 1, ---@type Enum
 }

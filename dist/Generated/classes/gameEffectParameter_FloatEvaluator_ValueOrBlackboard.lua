@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_FloatEvaluator_ValueOrBlackboard: gameIEffectParameter_FloatEvaluator
----@field public blackboardProperty gameBlackboardPropertyBindingDefinition
----@field public value Float
+---@field public ["blackboardProperty"] gameBlackboardPropertyBindingDefinition
+---@field public ["value"] Float
 gameEffectParameter_FloatEvaluator_ValueOrBlackboard = {}
 
 ---@param fields? table

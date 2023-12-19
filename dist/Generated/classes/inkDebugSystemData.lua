@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkDebugSystemData: inkILayerSystemData
----@field public entries inkDebugLayerEntry[]
----@field public rootLibrary inkWidgetLibraryResource
+---@field public ["entries"] inkDebugLayerEntry[]
+---@field public ["rootLibrary"] inkWidgetLibraryResource
 inkDebugSystemData = {}
 
 ---@param fields? table

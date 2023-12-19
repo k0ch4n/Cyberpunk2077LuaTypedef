@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SniperNestControllerPS: SensorDeviceControllerPS
----@field private vfxNameOnShoot CName
----@field private isRippedOff Bool
+---@field private ["vfxNameOnShoot"] CName
+---@field private ["isRippedOff"] Bool
 SniperNestControllerPS = {}
 
 ---@param fields? table

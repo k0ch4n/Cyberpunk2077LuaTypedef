@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ElectricBoxControllerPS: MasterControllerPS
----@field private techieSkillChecks EngineeringContainer
----@field private questFactSetup ComputerQuickHackData
----@field private isOverriden Bool
+---@field private ["techieSkillChecks"] EngineeringContainer
+---@field private ["questFactSetup"] ComputerQuickHackData
+---@field private ["isOverriden"] Bool
 ElectricBoxControllerPS = {}
 
 ---@param fields? table

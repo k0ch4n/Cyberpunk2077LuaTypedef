@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class PlayerDevelopmentData: IScriptable
----@field public owner gameObject
----@field private ownerID entEntityID
----@field private queuedCombatExp SExperiencePoints[]
----@field private proficiencies SProficiency[]
----@field private attributes SAttribute[]
----@field private perkAreas SPerkArea[]
----@field private traits STrait[]
----@field private devPoints SDevelopmentPoints[]
----@field private skillPrereqs SkillCheckPrereqState[]
----@field private statPrereqs StatCheckPrereqState[]
----@field private knownRecipes ItemRecipe[]
----@field private attributesData SAttributeData[]
----@field private highestCompletedMinigameLevel Int32
----@field private startingLevel Int32
----@field private startingExperience Int32
----@field private lifePath gamedataLifePath
----@field private displayActivityLog Bool
----@field private progressionBuildSetCompleted Bool
+---@field public ["owner"] gameObject
+---@field private ["ownerID"] entEntityID
+---@field private ["queuedCombatExp"] SExperiencePoints[]
+---@field private ["proficiencies"] SProficiency[]
+---@field private ["attributes"] SAttribute[]
+---@field private ["perkAreas"] SPerkArea[]
+---@field private ["traits"] STrait[]
+---@field private ["devPoints"] SDevelopmentPoints[]
+---@field private ["skillPrereqs"] SkillCheckPrereqState[]
+---@field private ["statPrereqs"] StatCheckPrereqState[]
+---@field private ["knownRecipes"] ItemRecipe[]
+---@field private ["attributesData"] SAttributeData[]
+---@field private ["highestCompletedMinigameLevel"] Int32
+---@field private ["startingLevel"] Int32
+---@field private ["startingExperience"] Int32
+---@field private ["lifePath"] gamedataLifePath
+---@field private ["displayActivityLog"] Bool
+---@field private ["progressionBuildSetCompleted"] Bool
 PlayerDevelopmentData = {}
 
 ---@param fields? table

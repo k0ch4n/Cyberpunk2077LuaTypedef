@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entIKTargetRemoveEvent: redEvent
----@field public ikTargetRef animIKTargetRef
+---@field public ["ikTargetRef"] animIKTargetRef
 entIKTargetRemoveEvent = {}
 
 ---@param fields? table

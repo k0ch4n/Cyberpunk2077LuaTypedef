@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HasPositionFarFromThreat: AIbehaviorconditionScript
----@field public desiredDistance Float
----@field public minDistance Float
----@field public minPathLength Float
+---@field public ["desiredDistance"] Float
+---@field public ["minDistance"] Float
+---@field public ["minPathLength"] Float
 HasPositionFarFromThreat = {}
 
 ---@param fields? table

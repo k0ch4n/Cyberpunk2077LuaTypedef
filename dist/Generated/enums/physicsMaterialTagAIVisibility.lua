@@ -3,7 +3,7 @@
 
 ---@enum physicsMaterialTagAIVisibility
 physicsMaterialTagAIVisibility = {
-    ["None"] = 0,
-    ["SemiTransparent"] = 1,
-    ["Transparent"] = 2
+    ["None"] = 0, ---@type Enum
+    ["SemiTransparent"] = 1, ---@type Enum
+    ["Transparent"] = 2, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animTEMP_IKTargetsControllerBodyType
----@field public genderTag CName
----@field public bodyTypeTag CName
----@field public ikChainSettings animIKChainSettings[]
+---@field public ["genderTag"] CName
+---@field public ["bodyTypeTag"] CName
+---@field public ["ikChainSettings"] animIKChainSettings[]
 animTEMP_IKTargetsControllerBodyType = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_WrapperValue: animIAnimStateTransitionCondition
----@field public wrapperName CName
----@field public checkIfWrapperIsSet Bool
+---@field public ["wrapperName"] CName
+---@field public ["checkIfWrapperIsSet"] Bool
 animAnimStateTransitionCondition_WrapperValue = {}
 
 ---@param fields? table

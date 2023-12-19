@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDeviceNode: worldEntityNode
----@field public deviceClassName CName
----@field public alphaHackStreamingDistanceOverride Float
----@field public deviceConnections worldDeviceConnections[]
+---@field public ["deviceClassName"] CName
+---@field public ["alphaHackStreamingDistanceOverride"] Float
+---@field public ["deviceConnections"] worldDeviceConnections[]
 worldDeviceNode = {}
 
 ---@param fields? table

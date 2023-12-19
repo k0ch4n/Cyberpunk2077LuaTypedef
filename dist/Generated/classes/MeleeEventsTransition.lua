@@ -47,7 +47,7 @@ function MeleeEventsTransition:TargetPrediction(targetPosition, targetPuppet, de
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@param b Bool
 ---@return nil
 function MeleeEventsTransition:ToggleWireVisualEffect(stateContext, scriptInterface, effectName, b) return end

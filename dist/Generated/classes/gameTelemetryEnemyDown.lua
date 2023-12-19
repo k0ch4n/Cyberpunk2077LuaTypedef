@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTelemetryEnemyDown
----@field public enemy gameTelemetryEnemy
----@field public situation gameTelemetryDamageSituation
----@field public killType gameKillType
+---@field public ["enemy"] gameTelemetryEnemy
+---@field public ["situation"] gameTelemetryDamageSituation
+---@field public ["killType"] gameKillType
 gameTelemetryEnemyDown = {}
 
 ---@param fields? table

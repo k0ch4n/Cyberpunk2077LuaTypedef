@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ArcadeMachine: InteractiveDevice
----@field protected arcadeMachineType ArcadeMachineType
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private currentGameVideo redResourceReferenceScriptToken
----@field protected currentGameAudio CName
----@field protected currentGameAudioStop CName
----@field private meshAppearanceOn CName
----@field private meshAppearanceOff CName
----@field private arcadeMinigameComponent workWorkspotResourceComponent
----@field protected minigame ArcadeMinigame
----@field private combatStateListener redCallbackObject
+---@field protected ["arcadeMachineType"] ArcadeMachineType
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
+---@field private ["currentGameVideo"] redResourceReferenceScriptToken
+---@field protected ["currentGameAudio"] CName
+---@field protected ["currentGameAudioStop"] CName
+---@field private ["meshAppearanceOn"] CName
+---@field private ["meshAppearanceOff"] CName
+---@field private ["arcadeMinigameComponent"] workWorkspotResourceComponent
+---@field protected ["minigame"] ArcadeMinigame
+---@field private ["combatStateListener"] redCallbackObject
 ArcadeMachine = {}
 
 ---@param fields? table

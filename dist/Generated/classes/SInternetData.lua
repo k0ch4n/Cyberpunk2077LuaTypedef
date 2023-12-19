@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SInternetData
----@field public startingPage String
+---@field public ["startingPage"] String
 SInternetData = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum entragdollActivationRequestType
 entragdollActivationRequestType = {
-    ["Default"] = 0,
-    ["Animated"] = 1,
-    ["Forced"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Animated"] = 1, ---@type Enum
+    ["Forced"] = 2, ---@type Enum
 }

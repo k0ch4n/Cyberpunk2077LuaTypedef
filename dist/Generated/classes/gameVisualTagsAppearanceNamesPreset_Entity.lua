@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameVisualTagsAppearanceNamesPreset_Entity: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath CName
----@field public tagsToAppearances gameVisualTagsAppearanceNamesPreset_TagsAppearances[]
+---@field public ["entityPathHash"] Uint64
+---@field public ["debugEntityPath"] CName
+---@field public ["tagsToAppearances"] gameVisualTagsAppearanceNamesPreset_TagsAppearances[]
 gameVisualTagsAppearanceNamesPreset_Entity = {}
 
 ---@param fields? table

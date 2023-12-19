@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateOpenedQuestEvent: redEvent
----@field public openedQuest gameJournalQuest
+---@field public ["openedQuest"] gameJournalQuest
 UpdateOpenedQuestEvent = {}
 
 ---@param fields? table

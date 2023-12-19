@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsPatrolProgressValid: AIbehaviorconditionScript
----@field public patrolProgress AIArgumentMapping
+---@field public ["patrolProgress"] AIArgumentMapping
 IsPatrolProgressValid = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsMessageLocation_Resource: toolsIMessageLocation
----@field public path MessageResourcePath
+---@field public ["path"] MessageResourcePath
 toolsMessageLocation_Resource = {}
 
 ---@param fields? table

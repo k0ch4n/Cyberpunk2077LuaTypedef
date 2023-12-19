@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scneventsSpawnEntityEventCachedFallbackBone
----@field public boneName CName
----@field public modelSpaceTransform Transform
+---@field public ["boneName"] CName
+---@field public ["modelSpaceTransform"] Transform
 scneventsSpawnEntityEventCachedFallbackBone = {}
 
 ---@param fields? table

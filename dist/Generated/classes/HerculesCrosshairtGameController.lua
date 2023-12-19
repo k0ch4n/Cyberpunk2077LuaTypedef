@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class HerculesCrosshairtGameController: IronsightGameController
----@field protected appearanceFill Int32
----@field protected appearanceOutline Int32
----@field protected appearanceShowThroughWalls Bool
----@field protected appearanceTransitionTime Float
----@field private weaponParamsListenerId redCallbackObject
----@field private game ScriptGameInstance
----@field private visionModeSystem gameVisionModeSystem
----@field private targetedApperance gameVisionAppearance
----@field private targets entEntityID[]
+---@field protected ["appearanceFill"] Int32
+---@field protected ["appearanceOutline"] Int32
+---@field protected ["appearanceShowThroughWalls"] Bool
+---@field protected ["appearanceTransitionTime"] Float
+---@field private ["weaponParamsListenerId"] redCallbackObject
+---@field private ["game"] ScriptGameInstance
+---@field private ["visionModeSystem"] gameVisionModeSystem
+---@field private ["targetedApperance"] gameVisionAppearance
+---@field private ["targets"] entEntityID[]
 HerculesCrosshairtGameController = {}
 
 ---@param fields? table

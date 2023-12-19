@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemModsManager: IScriptable
----@field private emptySlots TweakDBID[]
----@field private usedSlots TweakDBID[]
----@field private mods UIInventoryItemMod[]
----@field private attachments UIInventoryItemModAttachment[]
----@field private dedicatedMod UIInventoryItemModAttachment
----@field private transactionSystem gameTransactionSystem
+---@field private ["emptySlots"] TweakDBID[]
+---@field private ["usedSlots"] TweakDBID[]
+---@field private ["mods"] UIInventoryItemMod[]
+---@field private ["attachments"] UIInventoryItemModAttachment[]
+---@field private ["dedicatedMod"] UIInventoryItemModAttachment
+---@field private ["transactionSystem"] gameTransactionSystem
 UIInventoryItemModsManager = {}
 
 ---@param fields? table

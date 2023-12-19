@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemData
----@field public suppressIncomingEvents Bool
----@field public suppressOutgoingEvents Bool
+---@field public ["suppressIncomingEvents"] Bool
+---@field public ["suppressOutgoingEvents"] Bool
 SecuritySystemData = {}
 
 ---@param fields? table

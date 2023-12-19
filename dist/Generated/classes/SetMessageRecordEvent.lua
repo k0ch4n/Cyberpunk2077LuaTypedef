@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetMessageRecordEvent: redEvent
----@field public messageRecordID TweakDBID
----@field public replaceTextWithCustomNumber Bool
----@field public customNumber Int32
+---@field public ["messageRecordID"] TweakDBID
+---@field public ["replaceTextWithCustomNumber"] Bool
+---@field public ["customNumber"] Int32
 SetMessageRecordEvent = {}
 
 ---@param fields? table

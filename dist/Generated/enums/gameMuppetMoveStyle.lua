@@ -3,10 +3,10 @@
 
 ---@enum gameMuppetMoveStyle
 gameMuppetMoveStyle = {
-    ["Invalid"] = 0,
-    ["Walk"] = 1,
-    ["Sprint"] = 2,
-    ["Crouch"] = 3,
-    ["WalkAim"] = 4,
-    ["GravityOnly"] = 5
+    ["Invalid"] = 0, ---@type Enum
+    ["Walk"] = 1, ---@type Enum
+    ["Sprint"] = 2, ---@type Enum
+    ["Crouch"] = 3, ---@type Enum
+    ["WalkAim"] = 4, ---@type Enum
+    ["GravityOnly"] = 5, ---@type Enum
 }

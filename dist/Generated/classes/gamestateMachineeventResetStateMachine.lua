@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventResetStateMachine: redEvent
----@field public stateMachineIdentifier gamestateMachineStateMachineIdentifier
+---@field public ["stateMachineIdentifier"] gamestateMachineStateMachineIdentifier
 gamestateMachineeventResetStateMachine = {}
 
 ---@param fields? table

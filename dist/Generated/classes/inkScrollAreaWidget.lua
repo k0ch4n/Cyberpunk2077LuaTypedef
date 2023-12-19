@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkScrollAreaWidget: inkCompoundWidget
----@field public horizontalScrolling Float
----@field public verticalScrolling Float
----@field public constrainContentPosition Bool
----@field public fitToContentDirection inkFitToContentDirection
----@field public useInternalMask Bool
+---@field public ["horizontalScrolling"] Float
+---@field public ["verticalScrolling"] Float
+---@field public ["constrainContentPosition"] Bool
+---@field public ["fitToContentDirection"] inkFitToContentDirection
+---@field public ["useInternalMask"] Bool
 inkScrollAreaWidget = {}
 
 ---@param fields? table

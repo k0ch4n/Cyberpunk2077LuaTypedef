@@ -10,8 +10,8 @@ function entEntityGameInterface.new(fields) return end
 
 ---@param self entEntityGameInterface
 ---@param target entEntityGameInterface
----@param componentName CName
----@param slotName? CName
+---@param componentName CName|string
+---@param slotName? CName|string
 ---@param keepWorldTransform? Bool
 ---@return nil
 function entEntityGameInterface.BindToComponent(self, target, componentName, slotName, keepWorldTransform) return end

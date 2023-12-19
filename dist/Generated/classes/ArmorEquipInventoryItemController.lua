@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ArmorEquipInventoryItemController: inkButtonDpadSupportedController
----@field protected itemID gameItemID
----@field protected itemData gameItemData
----@field protected empty Bool
+---@field protected ["itemID"] gameItemID
+---@field protected ["itemData"] gameItemData
+---@field protected ["empty"] Bool
 ArmorEquipInventoryItemController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineResultFloat
----@field public value Float
----@field public valid Bool
+---@field public ["value"] Float
+---@field public ["valid"] Bool
 gamestateMachineResultFloat = {}
 
 ---@param fields? table

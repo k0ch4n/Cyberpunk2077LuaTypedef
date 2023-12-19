@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIArchetypeSet: CResource
----@field public archetypeResources AIArchetypeSetEntry[]
+---@field public ["archetypeResources"] AIArchetypeSetEntry[]
 AIArchetypeSet = {}
 
 ---@param fields? table

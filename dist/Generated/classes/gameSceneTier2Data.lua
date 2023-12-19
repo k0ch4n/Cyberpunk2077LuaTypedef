@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSceneTier2Data: gameSceneTierData
----@field public walkType Tier2WalkType
+---@field public ["walkType"] Tier2WalkType
 gameSceneTier2Data = {}
 
 ---@param fields? table

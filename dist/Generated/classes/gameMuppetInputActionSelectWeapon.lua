@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionSelectWeapon: gameIMuppetInputAction
----@field public wantedWeapon gameItemID
+---@field public ["wantedWeapon"] gameItemID
 gameMuppetInputActionSelectWeapon = {}
 
 ---@param fields? table

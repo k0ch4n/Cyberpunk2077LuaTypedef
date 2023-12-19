@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTypographyResource: CResource
----@field public languages inkLanguageDefinition[]
+---@field public ["languages"] inkLanguageDefinition[]
 inkTypographyResource = {}
 
 ---@param fields? table

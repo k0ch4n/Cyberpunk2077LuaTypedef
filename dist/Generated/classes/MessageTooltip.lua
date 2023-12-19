@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MessageTooltip: AGenericTooltipController
----@field protected Title inkTextWidgetReference
----@field protected Description inkTextWidgetReference
----@field private animProxy inkanimProxy
+---@field protected ["Title"] inkTextWidgetReference
+---@field protected ["Description"] inkTextWidgetReference
+---@field private ["animProxy"] inkanimProxy
 MessageTooltip = {}
 
 ---@param fields? table
@@ -22,8 +22,8 @@ function MessageTooltip:OnIntroComplete(proxy) return end
 function MessageTooltip:OnOutroComplete(proxy) return end
 
 ---@private
----@param animName CName
----@param callback CName
+---@param animName CName|string
+---@param callback CName|string
 ---@param forceVisible? Bool
 ---@return nil
 function MessageTooltip:PlayAnim(animName, callback, forceVisible) return end

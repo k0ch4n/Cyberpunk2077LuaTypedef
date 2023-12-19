@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NCPDJobDoneEvent: redEvent
----@field public levelXPAwarded Int32
----@field public streetCredXPAwarded Int32
+---@field public ["levelXPAwarded"] Int32
+---@field public ["streetCredXPAwarded"] Int32
 NCPDJobDoneEvent = {}
 
 ---@param fields? table

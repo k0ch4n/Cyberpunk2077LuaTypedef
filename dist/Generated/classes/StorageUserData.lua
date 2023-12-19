@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StorageUserData: IScriptable
----@field public storageObject gameObject
+---@field public ["storageObject"] gameObject
 StorageUserData = {}
 
 ---@param fields? table

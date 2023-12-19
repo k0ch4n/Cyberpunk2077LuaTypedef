@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkGridItemTemplate
----@field public sizeX Uint32
----@field public sizeY Uint32
----@field public widget inkWidgetLibraryReference
+---@field public ["sizeX"] Uint32
+---@field public ["sizeY"] Uint32
+---@field public ["widget"] inkWidgetLibraryReference
 inkGridItemTemplate = {}
 
 ---@param fields? table

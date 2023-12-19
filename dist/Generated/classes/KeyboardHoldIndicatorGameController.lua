@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KeyboardHoldIndicatorGameController: gameuiHoldIndicatorGameController
----@field private progress inkImageWidgetReference
+---@field private ["progress"] inkImageWidgetReference
 KeyboardHoldIndicatorGameController = {}
 
 ---@param fields? table

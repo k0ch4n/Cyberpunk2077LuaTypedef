@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FactInvokerDataEntry: IScriptable
----@field private fact CName
----@field private password CName
+---@field private ["fact"] CName
+---@field private ["password"] CName
 FactInvokerDataEntry = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MessagePopupDisplayController: inkWidgetLogicController
----@field protected title inkTextWidgetReference
----@field protected message inkTextWidgetReference
----@field protected image inkImageWidgetReference
+---@field protected ["title"] inkTextWidgetReference
+---@field protected ["message"] inkTextWidgetReference
+---@field protected ["image"] inkImageWidgetReference
 MessagePopupDisplayController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerDoesntHaveQuickhackPrereq: gameIScriptablePrereq
----@field public quickhackID TweakDBID
+---@field public ["quickhackID"] TweakDBID
 PlayerDoesntHaveQuickhackPrereq = {}
 
 ---@param fields? table

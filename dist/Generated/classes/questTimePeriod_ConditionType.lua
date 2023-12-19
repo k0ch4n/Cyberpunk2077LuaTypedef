@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTimePeriod_ConditionType: questITimeConditionType
----@field public begin GameTime
----@field public end GameTime
+---@field public ["begin"] GameTime
+---@field public ["end"] GameTime
 questTimePeriod_ConditionType = {}
 
 ---@param fields? table

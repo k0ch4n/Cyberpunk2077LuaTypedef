@@ -3,6 +3,6 @@
 
 ---@enum MessageViewType
 MessageViewType = {
-    ["Sent"] = 0,
-    ["Received"] = 1
+    ["Sent"] = 0, ---@type Enum
+    ["Received"] = 1, ---@type Enum
 }

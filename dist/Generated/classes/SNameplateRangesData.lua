@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SNameplateRangesData
----@field private c_DisplayRange Float
----@field private c_MaxDisplayRange Float
----@field private c_MaxDisplayRangeNotAggressive Float
----@field private c_DisplayRangeNotAggressive Float
+---@field private ["c_DisplayRange"] Float
+---@field private ["c_MaxDisplayRange"] Float
+---@field private ["c_MaxDisplayRangeNotAggressive"] Float
+---@field private ["c_DisplayRangeNotAggressive"] Float
 SNameplateRangesData = {}
 
 ---@param fields? table

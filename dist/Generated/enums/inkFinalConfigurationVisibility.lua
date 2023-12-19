@@ -3,6 +3,6 @@
 
 ---@enum inkFinalConfigurationVisibility
 inkFinalConfigurationVisibility = {
-    ["VisibleOnlyInFinal"] = 0,
-    ["HiddenOnlyInFinal"] = 1
+    ["VisibleOnlyInFinal"] = 0, ---@type Enum
+    ["HiddenOnlyInFinal"] = 1, ---@type Enum
 }

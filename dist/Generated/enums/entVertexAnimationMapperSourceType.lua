@@ -3,12 +3,12 @@
 
 ---@enum entVertexAnimationMapperSourceType
 entVertexAnimationMapperSourceType = {
-    ["FloatTrack"] = 0,
-    ["TranslationX"] = 1,
-    ["TranslationY"] = 2,
-    ["TranslationZ"] = 3,
-    ["RotationQuatX"] = 4,
-    ["RotationQuatY"] = 5,
-    ["RotationQuatZ"] = 6,
-    ["RotationQuatW"] = 7
+    ["FloatTrack"] = 0, ---@type Enum
+    ["TranslationX"] = 1, ---@type Enum
+    ["TranslationY"] = 2, ---@type Enum
+    ["TranslationZ"] = 3, ---@type Enum
+    ["RotationQuatX"] = 4, ---@type Enum
+    ["RotationQuatY"] = 5, ---@type Enum
+    ["RotationQuatZ"] = 6, ---@type Enum
+    ["RotationQuatW"] = 7, ---@type Enum
 }

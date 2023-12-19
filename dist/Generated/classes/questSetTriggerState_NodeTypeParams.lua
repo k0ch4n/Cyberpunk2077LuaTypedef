@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetTriggerState_NodeTypeParams
----@field public objectRef NodeRef
----@field public enable Bool
+---@field public ["objectRef"] NodeRef
+---@field public ["enable"] Bool
 questSetTriggerState_NodeTypeParams = {}
 
 ---@param fields? table

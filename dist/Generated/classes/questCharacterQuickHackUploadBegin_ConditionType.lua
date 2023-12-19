@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterQuickHackUploadBegin_ConditionType: questICharacterConditionType
----@field public objectRef gameEntityReference
+---@field public ["objectRef"] gameEntityReference
 questCharacterQuickHackUploadBegin_ConditionType = {}
 
 ---@param fields? table

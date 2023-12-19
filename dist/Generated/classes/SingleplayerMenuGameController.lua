@@ -2,44 +2,44 @@
 ---@diagnostic disable
 
 ---@class SingleplayerMenuGameController: gameuiMainMenuGameController
----@field private baseLogoContainer inkCompoundWidgetReference
----@field private ep1LogoContainer inkCompoundWidgetReference
----@field private gogButtonWidgetRef inkWidgetReference
----@field private accountSelector inkCompoundWidgetReference
----@field private gameVersionButton inkCompoundWidgetReference
----@field private patch2Notification inkCompoundWidgetReference
----@field private patch2NotificationDelay Float
----@field private expansionBanner inkCompoundWidgetReference
----@field private ep1IdName CName
----@field private buttonHintsManagerRef inkWidgetReference
----@field private continuetooltipContainer inkCompoundWidgetReference
----@field private tooltipsManagerRef inkWidgetReference
----@field private versionTextRef inkTextWidgetReference
----@field private onlineSystem gameIOnlineSystem
----@field private requestHandler inkISystemRequestsHandler
----@field private buttonHintsController ButtonHints
----@field private continueGameTooltipController ContinueGameTooltip
----@field private expansionHintController inkWidgetLogicController
----@field private expansionBannerController ExpansionBannerController
----@field private accountSelectorController inkMenuAccountLogicController
----@field private textAnimController inkTextReplaceAnimationController
----@field private tooltipsManager gameuiTooltipsManager
----@field private uiSystem gameuiGameSystemUI
----@field private dataSyncStatus servicesCloudSavesQueryStatus
----@field private savesCount Int32
----@field private savesReady Bool
----@field private isOffline Bool
----@field private isModded Bool
----@field private isExpansionHintShown Bool
----@field private isMainMenuShownFirstTime Bool
----@field private isPatch2NotificationShown Bool
----@field private isReloadPopupShown Bool
----@field private isEp1Enabled Bool
----@field private gameVersion String
----@field private patch2NotificationIntroName CName
----@field private patch2NotificationOutroName CName
----@field private patch2NotificationAnimProxy inkanimProxy
----@field private gameVersionAnim inkanimProxy
+---@field private ["baseLogoContainer"] inkCompoundWidgetReference
+---@field private ["ep1LogoContainer"] inkCompoundWidgetReference
+---@field private ["gogButtonWidgetRef"] inkWidgetReference
+---@field private ["accountSelector"] inkCompoundWidgetReference
+---@field private ["gameVersionButton"] inkCompoundWidgetReference
+---@field private ["patch2Notification"] inkCompoundWidgetReference
+---@field private ["patch2NotificationDelay"] Float
+---@field private ["expansionBanner"] inkCompoundWidgetReference
+---@field private ["ep1IdName"] CName
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["continuetooltipContainer"] inkCompoundWidgetReference
+---@field private ["tooltipsManagerRef"] inkWidgetReference
+---@field private ["versionTextRef"] inkTextWidgetReference
+---@field private ["onlineSystem"] gameIOnlineSystem
+---@field private ["requestHandler"] inkISystemRequestsHandler
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["continueGameTooltipController"] ContinueGameTooltip
+---@field private ["expansionHintController"] inkWidgetLogicController
+---@field private ["expansionBannerController"] ExpansionBannerController
+---@field private ["accountSelectorController"] inkMenuAccountLogicController
+---@field private ["textAnimController"] inkTextReplaceAnimationController
+---@field private ["tooltipsManager"] gameuiTooltipsManager
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["dataSyncStatus"] servicesCloudSavesQueryStatus
+---@field private ["savesCount"] Int32
+---@field private ["savesReady"] Bool
+---@field private ["isOffline"] Bool
+---@field private ["isModded"] Bool
+---@field private ["isExpansionHintShown"] Bool
+---@field private ["isMainMenuShownFirstTime"] Bool
+---@field private ["isPatch2NotificationShown"] Bool
+---@field private ["isReloadPopupShown"] Bool
+---@field private ["isEp1Enabled"] Bool
+---@field private ["gameVersion"] String
+---@field private ["patch2NotificationIntroName"] CName
+---@field private ["patch2NotificationOutroName"] CName
+---@field private ["patch2NotificationAnimProxy"] inkanimProxy
+---@field private ["gameVersionAnim"] inkanimProxy
 SingleplayerMenuGameController = {}
 
 ---@param fields? table
@@ -217,22 +217,22 @@ function SingleplayerMenuGameController:HandleMenuItemActivate(data) return end
 ---@return nil
 function SingleplayerMenuGameController:OnAdditionalContentDataReloadProgress_MainMenu(progress) return end
 
----@param id CName
+---@param id CName|string
 ---@param success Bool
 ---@return nil
 function SingleplayerMenuGameController:OnAdditionalContentInstallationRequestResult_MainMenu(id, success) return end
 
----@param id CName
+---@param id CName|string
 ---@param success Bool
 ---@return nil
 function SingleplayerMenuGameController:OnAdditionalContentInstallationResult_MainMenu(id, success) return end
 
----@param id CName
+---@param id CName|string
 ---@param success Bool
 ---@return nil
 function SingleplayerMenuGameController:OnAdditionalContentPurchaseResult_MainMenu(id, success) return end
 
----@param id CName
+---@param id CName|string
 ---@param success Bool
 ---@return nil
 function SingleplayerMenuGameController:OnAdditionalContentStatusUpdateResult_MainMenu(id, success) return end
@@ -253,8 +253,8 @@ function SingleplayerMenuGameController:OpenPatchNotesPopup(mode) return end
 function SingleplayerMenuGameController:PopulateMenuItemList() return end
 
 ---@private
----@param title CName
----@param description CName
+---@param title CName|string
+---@param description CName|string
 ---@param errorCode? Uint32
 ---@return nil
 function SingleplayerMenuGameController:PushErrorPopup(title, description, errorCode) return end

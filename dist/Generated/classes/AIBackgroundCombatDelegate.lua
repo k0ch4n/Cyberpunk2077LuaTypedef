@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class AIBackgroundCombatDelegate: AIbehaviorScriptBehaviorDelegate
----@field private command AIBackgroundCombatCommand
----@field private execute Bool
----@field private steps AIBackgroundCombatStep[]
----@field private currentStep Int32
----@field private desiredCover NodeRef
----@field private desiredCoverExposureMethod AICoverExposureMethod
----@field private desiredDestination NodeRef
----@field private hasDesiredTarget Bool
----@field private desiredTarget gameEntityReference
----@field private desiredCoverId Uint64
----@field private currentCoverId Uint64
----@field private currentTarget gameObject
----@field private canFireFromCover Bool
----@field private canFireOutOfCover Bool
+---@field private ["command"] AIBackgroundCombatCommand
+---@field private ["execute"] Bool
+---@field private ["steps"] AIBackgroundCombatStep[]
+---@field private ["currentStep"] Int32
+---@field private ["desiredCover"] NodeRef
+---@field private ["desiredCoverExposureMethod"] AICoverExposureMethod
+---@field private ["desiredDestination"] NodeRef
+---@field private ["hasDesiredTarget"] Bool
+---@field private ["desiredTarget"] gameEntityReference
+---@field private ["desiredCoverId"] Uint64
+---@field private ["currentCoverId"] Uint64
+---@field private ["currentTarget"] gameObject
+---@field private ["canFireFromCover"] Bool
+---@field private ["canFireOutOfCover"] Bool
 AIBackgroundCombatDelegate = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleToggleDoorWrapperEvent: redEvent
----@field public action vehicleEQuestVehicleDoorState
----@field public door vehicleEVehicleDoor
----@field public forceScene Bool
+---@field public ["action"] vehicleEQuestVehicleDoorState
+---@field public ["door"] vehicleEVehicleDoor
+---@field public ["forceScene"] Bool
 vehicleToggleDoorWrapperEvent = {}
 
 ---@param fields? table

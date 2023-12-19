@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class interopStringWithID
----@field public text String
----@field public id Uint64
+---@field public ["text"] String
+---@field public ["id"] Uint64
 interopStringWithID = {}
 
 ---@param fields? table

@@ -3,9 +3,9 @@
 
 ---@enum gamedataMinigameTrapType
 gamedataMinigameTrapType = {
-    ["Both"] = 0,
-    ["Device"] = 1,
-    ["NPC"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Both"] = 0, ---@type Enum
+    ["Device"] = 1, ---@type Enum
+    ["NPC"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

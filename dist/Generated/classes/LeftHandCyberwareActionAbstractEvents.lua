@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareActionAbstractEvents: LeftHandCyberwareEventsTransition
----@field public projectileReleased Bool
+---@field public ["projectileReleased"] Bool
 LeftHandCyberwareActionAbstractEvents = {}
 
 ---@protected

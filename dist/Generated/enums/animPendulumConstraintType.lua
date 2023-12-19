@@ -3,7 +3,7 @@
 
 ---@enum animPendulumConstraintType
 animPendulumConstraintType = {
-    ["Cone"] = 0,
-    ["HingePlane"] = 1,
-    ["HalfCone"] = 2
+    ["Cone"] = 0, ---@type Enum
+    ["HingePlane"] = 1, ---@type Enum
+    ["HalfCone"] = 2, ---@type Enum
 }

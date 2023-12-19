@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBloodPuddleSettingsEvent: redEvent
----@field public shouldSpawnBloodPuddle Bool
+---@field public ["shouldSpawnBloodPuddle"] Bool
 SetBloodPuddleSettingsEvent = {}
 
 ---@param fields? table

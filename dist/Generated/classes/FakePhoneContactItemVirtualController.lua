@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FakePhoneContactItemVirtualController: PhoneContactItemVirtualController
----@field private dots inkWidgetReference
+---@field private ["dots"] inkWidgetReference
 FakePhoneContactItemVirtualController = {}
 
 ---@param fields? table

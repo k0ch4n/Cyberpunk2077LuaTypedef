@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnLocalMarker
----@field public transformLS Transform
----@field public name CName
+---@field public ["transformLS"] Transform
+---@field public ["name"] CName
 scnLocalMarker = {}
 
 ---@param fields? table

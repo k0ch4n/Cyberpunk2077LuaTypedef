@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalImageEntry: gameJournalEntry
----@field public imageId TweakDBID
----@field public thumbnailImageId TweakDBID
+---@field public ["imageId"] TweakDBID
+---@field public ["thumbnailImageId"] TweakDBID
 gameJournalImageEntry = {}
 
 ---@param fields? table

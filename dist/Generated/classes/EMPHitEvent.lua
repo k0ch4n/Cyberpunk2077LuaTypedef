@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EMPHitEvent: redEvent
----@field public lifetime Float
+---@field public ["lifetime"] Float
 EMPHitEvent = {}
 
 ---@param fields? table

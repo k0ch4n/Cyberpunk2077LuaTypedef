@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAuthorisationNotificationViewData: gameuiGenericNotificationViewData
----@field public authType gameuiAuthorisationNotificationType
+---@field public ["authType"] gameuiAuthorisationNotificationType
 gameuiAuthorisationNotificationViewData = {}
 
 ---@param fields? table

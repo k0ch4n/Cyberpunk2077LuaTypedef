@@ -3,7 +3,7 @@
 
 ---@enum animPositionProjectionType
 animPositionProjectionType = {
-    ["Disabled"] = 0,
-    ["ShortestPath"] = 1,
-    ["Directional"] = 2
+    ["Disabled"] = 0, ---@type Enum
+    ["ShortestPath"] = 1, ---@type Enum
+    ["Directional"] = 2, ---@type Enum
 }

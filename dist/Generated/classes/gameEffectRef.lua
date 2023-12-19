@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectRef
----@field public set gameEffectSet
----@field public tag CName
+---@field public ["set"] gameEffectSet
+---@field public ["tag"] CName
 gameEffectRef = {}
 
 ---@param fields? table

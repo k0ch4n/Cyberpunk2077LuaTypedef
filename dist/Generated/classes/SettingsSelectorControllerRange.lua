@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerRange: inkSettingsSelectorController
----@field protected ValueText inkTextWidgetReference
----@field protected LeftArrow inkWidgetReference
----@field protected RightArrow inkWidgetReference
----@field protected ProgressBar inkWidgetReference
+---@field protected ["ValueText"] inkTextWidgetReference
+---@field protected ["LeftArrow"] inkWidgetReference
+---@field protected ["RightArrow"] inkWidgetReference
+---@field protected ["ProgressBar"] inkWidgetReference
 SettingsSelectorControllerRange = {}
 
 ---@param fields? table

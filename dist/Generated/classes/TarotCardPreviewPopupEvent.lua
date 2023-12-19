@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TarotCardPreviewPopupEvent: redEvent
----@field public data TarotCardPreviewData
+---@field public ["data"] TarotCardPreviewData
 TarotCardPreviewPopupEvent = {}
 
 ---@param fields? table

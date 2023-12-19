@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RipperdocTokenManager: IScriptable
----@field public player PlayerPuppet
----@field public tokenBlackboard gameIBlackboard
----@field public gameInstance ScriptGameInstance
+---@field public ["player"] PlayerPuppet
+---@field public ["tokenBlackboard"] gameIBlackboard
+---@field public ["gameInstance"] ScriptGameInstance
 RipperdocTokenManager = {}
 
 ---@param fields? table

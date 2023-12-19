@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEquipItemNodeDefinition: questAICommandNodeBase
----@field public entityReference questObservableUniversalRef
----@field public params questEquipItemParams
+---@field public ["entityReference"] questObservableUniversalRef
+---@field public ["params"] questEquipItemParams
 questEquipItemNodeDefinition = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected animationSetup ActivatedDeviceAnimSetup
----@field protected activatedDeviceSetup ActivatedDeviceSetup
----@field protected spiderbotInteractionLocationOverride NodeRef
----@field private industrialArmAnimationOverride Int32
+---@field protected ["animationSetup"] ActivatedDeviceAnimSetup
+---@field protected ["activatedDeviceSetup"] ActivatedDeviceSetup
+---@field protected ["spiderbotInteractionLocationOverride"] NodeRef
+---@field private ["industrialArmAnimationOverride"] Int32
 ActivatedDeviceControllerPS = {}
 
 ---@param fields? table
@@ -92,7 +92,7 @@ function ActivatedDeviceControllerPS:GetInteractionName() return end
 ---@return gameObject
 function ActivatedDeviceControllerPS:GetNearestViableParent() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ActivatedDeviceControllerPS:GetQuestActionByName(actionName) return end
 

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetDeviceInvestigationData: AIbehaviortaskScript
----@field public ownerPuppet ScriptedPuppet
----@field public listener gameObject
+---@field public ["ownerPuppet"] ScriptedPuppet
+---@field public ["listener"] gameObject
 SetDeviceInvestigationData = {}
 
 ---@param fields? table

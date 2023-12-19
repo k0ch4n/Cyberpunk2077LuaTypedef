@@ -3,9 +3,9 @@
 
 ---@enum GenericMessageNotificationResult
 GenericMessageNotificationResult = {
-    ["Cancel"] = 0,
-    ["Confirm"] = 1,
-    ["OK"] = 2,
-    ["Yes"] = 3,
-    ["No"] = 4
+    ["Cancel"] = 0, ---@type Enum
+    ["Confirm"] = 1, ---@type Enum
+    ["OK"] = 2, ---@type Enum
+    ["Yes"] = 3, ---@type Enum
+    ["No"] = 4, ---@type Enum
 }

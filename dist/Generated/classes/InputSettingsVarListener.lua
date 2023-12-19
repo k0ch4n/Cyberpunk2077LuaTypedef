@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class InputSettingsVarListener: userSettingsVarListener
----@field private ctrl gameuiControllerSettingsGameController
+---@field private ["ctrl"] gameuiControllerSettingsGameController
 InputSettingsVarListener = {}
 
 ---@param fields? table
 ---@return InputSettingsVarListener
 function InputSettingsVarListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

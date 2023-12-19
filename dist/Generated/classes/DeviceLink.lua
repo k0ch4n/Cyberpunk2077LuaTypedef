@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceLink
----@field private PSID gamePersistentID
----@field private className CName
+---@field private ["PSID"] gamePersistentID
+---@field private ["className"] CName
 DeviceLink = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function DeviceLink.Construct(persistentStates) return end
 function DeviceLink.Construct(ps) return end
 
 ---@param id gamePersistentID
----@param _className CName
+---@param _className CName|string
 ---@return DeviceLink
 function DeviceLink.Construct(id, _className) return end
 

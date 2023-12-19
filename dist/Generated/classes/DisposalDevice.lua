@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class DisposalDevice: InteractiveDevice
----@field protected additionalMeshComponent entMeshComponent
----@field protected npcBody NPCPuppet
----@field protected playerStateMachineBlackboard gameIBlackboard
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected currentDisposalSyncName CName
----@field protected currentKillSyncName CName
----@field protected isNonlethal Bool
----@field protected physicalMeshNames CName[]
----@field protected physicalMeshes entPhysicalMeshComponent[]
----@field protected lethalTakedownKillDelay Float
----@field protected lethalTakedownComponentNames CName[]
----@field protected lethalTakedownComponents entIPlacedComponent[]
----@field protected isReactToHit Bool
----@field protected distractionSoundName CName
----@field protected distractionSoundDuration Float
----@field protected workspotDuration Float
----@field private OnReplacerChangedCallback redCallbackObject
----@field private OnTakedownChangedCallback redCallbackObject
----@field private OnCarryingChangedCallback redCallbackObject
+---@field protected ["additionalMeshComponent"] entMeshComponent
+---@field protected ["npcBody"] NPCPuppet
+---@field protected ["playerStateMachineBlackboard"] gameIBlackboard
+---@field protected ["sideTriggerNames"] CName[]
+---@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
+---@field protected ["currentDisposalSyncName"] CName
+---@field protected ["currentKillSyncName"] CName
+---@field protected ["isNonlethal"] Bool
+---@field protected ["physicalMeshNames"] CName[]
+---@field protected ["physicalMeshes"] entPhysicalMeshComponent[]
+---@field protected ["lethalTakedownKillDelay"] Float
+---@field protected ["lethalTakedownComponentNames"] CName[]
+---@field protected ["lethalTakedownComponents"] entIPlacedComponent[]
+---@field protected ["isReactToHit"] Bool
+---@field protected ["distractionSoundName"] CName
+---@field protected ["distractionSoundDuration"] Float
+---@field protected ["workspotDuration"] Float
+---@field private ["OnReplacerChangedCallback"] redCallbackObject
+---@field private ["OnTakedownChangedCallback"] redCallbackObject
+---@field private ["OnCarryingChangedCallback"] redCallbackObject
 DisposalDevice = {}
 
 ---@param fields? table
@@ -123,7 +123,7 @@ function DisposalDevice:OnTimerEvent(evt) return end
 function DisposalDevice:OnToggleActivation(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function DisposalDevice:OnWorkspotFinished(componentName) return end
 
@@ -201,7 +201,7 @@ function DisposalDevice:IsBodyDisposalPossible() return end
 function DisposalDevice:OnMaraudersMapDeviceDebug(sink) return end
 
 ---@protected
----@param animationName CName
+---@param animationName CName|string
 ---@return nil
 function DisposalDevice:PlayTransformAnim(animationName) return end
 

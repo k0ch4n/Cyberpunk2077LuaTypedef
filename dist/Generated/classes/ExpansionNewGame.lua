@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class ExpansionNewGame: gameuiBaseCharacterCreationController
----@field public newGameDescription inkTextWidgetReference
----@field public textureTop inkImageWidgetReference
----@field public textureBottom inkImageWidgetReference
----@field public creditsBaseTexture inkImageWidgetReference
----@field public creditsExpansionTexture inkImageWidgetReference
----@field public creditsBase inkWidgetReference
----@field public creditsExpansion inkWidgetReference
----@field public creditsHoverFrameLeft inkWidgetReference
----@field public creditsHoverFrameRight inkWidgetReference
----@field private introAnimation CName
----@field private outroAnimation CName
----@field private hoverAnimation CName
----@field private animationProxy inkanimProxy
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private localizedText String
----@field private lastShownPart CName
----@field private baseGameButton inkWidgetReference
----@field private standaloneButton inkWidgetReference
----@field private isInputLocked Bool
+---@field public ["newGameDescription"] inkTextWidgetReference
+---@field public ["textureTop"] inkImageWidgetReference
+---@field public ["textureBottom"] inkImageWidgetReference
+---@field public ["creditsBaseTexture"] inkImageWidgetReference
+---@field public ["creditsExpansionTexture"] inkImageWidgetReference
+---@field public ["creditsBase"] inkWidgetReference
+---@field public ["creditsExpansion"] inkWidgetReference
+---@field public ["creditsHoverFrameLeft"] inkWidgetReference
+---@field public ["creditsHoverFrameRight"] inkWidgetReference
+---@field private ["introAnimation"] CName
+---@field private ["outroAnimation"] CName
+---@field private ["hoverAnimation"] CName
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
+---@field private ["localizedText"] String
+---@field private ["lastShownPart"] CName
+---@field private ["baseGameButton"] inkWidgetReference
+---@field private ["standaloneButton"] inkWidgetReference
+---@field private ["isInputLocked"] Bool
 ExpansionNewGame = {}
 
 ---@param fields? table
@@ -107,8 +107,8 @@ function ExpansionNewGame:OnIntro() return end
 ---@return nil
 function ExpansionNewGame:OnOutro() return end
 
----@param animName CName
----@param callBack? CName
+---@param animName CName|string
+---@param callBack? CName|string
 ---@param options? inkanimPlaybackOptions
 ---@return nil
 function ExpansionNewGame:PlayAnim(animName, callBack, options) return end
@@ -118,6 +118,6 @@ function ExpansionNewGame:PlayAnim(animName, callBack, options) return end
 function ExpansionNewGame:PriorMenu() return end
 
 ---@private
----@param part CName
+---@param part CName|string
 ---@return nil
 function ExpansionNewGame:TextureTransition(part) return end

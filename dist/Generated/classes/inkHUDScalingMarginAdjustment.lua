@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkHUDScalingMarginAdjustment: inkInitializedWidgetUserData
----@field public adjustmentMargin inkMargin
+---@field public ["adjustmentMargin"] inkMargin
 inkHUDScalingMarginAdjustment = {}
 
 ---@param fields? table

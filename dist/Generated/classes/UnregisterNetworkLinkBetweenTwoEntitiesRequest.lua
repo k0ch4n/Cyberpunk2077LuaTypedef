@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UnregisterNetworkLinkBetweenTwoEntitiesRequest: gameScriptableSystemRequest
----@field public firstID entEntityID
----@field public secondID entEntityID
----@field public onlyRemoveWeakLink Bool
+---@field public ["firstID"] entEntityID
+---@field public ["secondID"] entEntityID
+---@field public ["onlyRemoveWeakLink"] Bool
 UnregisterNetworkLinkBetweenTwoEntitiesRequest = {}
 
 ---@param fields? table

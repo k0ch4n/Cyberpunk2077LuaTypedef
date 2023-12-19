@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class entInstancedAnimationComponent: entISkinableComponent
----@field public animations animAnimSet
----@field public animToSample CName
----@field public variantAnimToSample CName
----@field public variantTriggerTag CName
+---@field public ["animations"] animAnimSet
+---@field public ["animToSample"] CName
+---@field public ["variantAnimToSample"] CName
+---@field public ["variantTriggerTag"] CName
 entInstancedAnimationComponent = {}
 
 ---@param fields? table

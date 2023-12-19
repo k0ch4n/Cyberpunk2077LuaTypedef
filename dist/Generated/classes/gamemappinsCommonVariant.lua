@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsCommonVariant: gamemappinsIPointOfInterestVariant
----@field public variant gamedataMappinVariant
+---@field public ["variant"] gamedataMappinVariant
 gamemappinsCommonVariant = {}
 
 ---@param fields? table

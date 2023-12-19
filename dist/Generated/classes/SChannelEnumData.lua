@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SChannelEnumData
----@field public channel ETVChannel
+---@field public ["channel"] ETVChannel
 SChannelEnumData = {}
 
 ---@param fields? table

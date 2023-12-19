@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class HighlightEffector: gameContinuousEffector
----@field protected owner gameObject
----@field protected maxDistance Float
----@field protected effectDuraton Float
----@field protected highlightVisible Bool
----@field protected searchFilter CName
----@field protected targetingSet CName
+---@field protected ["owner"] gameObject
+---@field protected ["maxDistance"] Float
+---@field protected ["effectDuraton"] Float
+---@field protected ["highlightVisible"] Bool
+---@field protected ["searchFilter"] CName
+---@field protected ["targetingSet"] CName
 HighlightEffector = {}
 
 ---@param fields? table

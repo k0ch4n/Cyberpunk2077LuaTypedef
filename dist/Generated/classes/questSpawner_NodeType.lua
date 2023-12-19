@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSpawner_NodeType: questSpawnManagerNodeType
----@field public spawnerReference NodeRef
+---@field public ["spawnerReference"] NodeRef
 questSpawner_NodeType = {}
 
 ---@param fields? table

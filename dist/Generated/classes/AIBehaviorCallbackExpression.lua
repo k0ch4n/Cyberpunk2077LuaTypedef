@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIBehaviorCallbackExpression: AIbehaviorexpressionScript
----@field protected callbackName CName
----@field protected initialValue Bool
----@field protected callbackAction ECallbackExpressionActions
----@field protected callbackId Uint32
----@field protected value Bool
+---@field protected ["callbackName"] CName
+---@field protected ["initialValue"] Bool
+---@field protected ["callbackAction"] ECallbackExpressionActions
+---@field protected ["callbackId"] Uint32
+---@field protected ["value"] Bool
 AIBehaviorCallbackExpression = {}
 
 ---@param fields? table
@@ -29,7 +29,7 @@ function AIBehaviorCallbackExpression:CalculateValue(context) return end
 function AIBehaviorCallbackExpression:Deactivate(context) return end
 
 ---@protected
----@param cbName CName
+---@param cbName CName|string
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
 function AIBehaviorCallbackExpression:OnBehaviorCallback(cbName, context) return end

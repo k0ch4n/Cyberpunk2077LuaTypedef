@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BillboardDevice: InteractiveDevice
----@field protected advUiComponent entIComponent
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field protected ["advUiComponent"] entIComponent
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
 BillboardDevice = {}
 
 ---@param fields? table

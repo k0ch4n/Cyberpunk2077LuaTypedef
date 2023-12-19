@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ConditionData
----@field public conditionOperator ELogicOperator
----@field public requirementList Condition[]
+---@field public ["conditionOperator"] ELogicOperator
+---@field public ["requirementList"] Condition[]
 ConditionData = {}
 
 ---@param fields? table

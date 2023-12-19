@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestSpotTargetReference: ActionEntityReference
----@field public ForcedTarget entEntityID
+---@field public ["ForcedTarget"] entEntityID
 QuestSpotTargetReference = {}
 
 ---@param fields? table

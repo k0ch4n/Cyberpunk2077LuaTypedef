@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSceneReturn_ConditionType: questISceneConditionType
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
----@field public returnConditions scnIReturnCondition[]
+---@field public ["sceneFile"] scnSceneResource
+---@field public ["SceneVersion"] scnSceneVersionCheck
+---@field public ["returnConditions"] scnIReturnCondition[]
 questSceneReturn_ConditionType = {}
 
 ---@param fields? table

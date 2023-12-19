@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RipperdocMeterArmorApplyEvent: redEvent
----@field public ArmorData RipperdocArmorData
----@field public IsPurchase Bool
+---@field public ["ArmorData"] RipperdocArmorData
+---@field public ["IsPurchase"] Bool
 RipperdocMeterArmorApplyEvent = {}
 
 ---@param fields? table

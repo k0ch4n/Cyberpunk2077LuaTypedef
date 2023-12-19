@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiItemAddedNotificationViewData: gameuiGenericNotificationViewData
----@field public itemID gameItemID
----@field public animation CName
----@field public itemRarity CName
+---@field public ["itemID"] gameItemID
+---@field public ["animation"] CName
+---@field public ["itemRarity"] CName
 gameuiItemAddedNotificationViewData = {}
 
 ---@param fields? table

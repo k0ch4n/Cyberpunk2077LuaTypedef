@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_CrosshairDef: gamebbScriptDefinition
----@field public EnemyNeutralized gamebbScriptID_Variant
+---@field public ["EnemyNeutralized"] gamebbScriptID_Variant
 UI_CrosshairDef = {}
 
 ---@param fields? table

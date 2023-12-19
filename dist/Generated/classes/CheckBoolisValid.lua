@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckBoolisValid: AIbehaviorconditionScript
----@field public actionTweakIDMapping AIArgumentMapping
+---@field public ["actionTweakIDMapping"] AIArgumentMapping
 CheckBoolisValid = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum questMultiplayerAIDirectorFunction
 questMultiplayerAIDirectorFunction = {
-    ["SetStatus"] = 0,
-    ["SetCurrentPath"] = 1,
-    ["OverrideScheduleEntry"] = 2,
-    ["SetCurrentShedule"] = 3
+    ["SetStatus"] = 0, ---@type Enum
+    ["SetCurrentPath"] = 1, ---@type Enum
+    ["OverrideScheduleEntry"] = 2, ---@type Enum
+    ["SetCurrentShedule"] = 3, ---@type Enum
 }

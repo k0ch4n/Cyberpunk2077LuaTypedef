@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HUDManagerAssociationRequest: HUDManagerRequest
----@field public associatedID entEntityID
----@field public isRegistering Bool
+---@field public ["associatedID"] entEntityID
+---@field public ["isRegistering"] Bool
 HUDManagerAssociationRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LaserSight: Attack_Beam
----@field private previousTarget entEntity
+---@field private ["previousTarget"] entEntity
 LaserSight = {}
 
 ---@param fields? table

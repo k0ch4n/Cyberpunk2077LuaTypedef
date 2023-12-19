@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioRadioStationMetadata: audioAudioMetadata
----@field public tracks CName[]
----@field public blips audioRadioBlip[]
----@field public speaker audioRadioSpeakerType
+---@field public ["tracks"] CName[]
+---@field public ["blips"] audioRadioBlip[]
+---@field public ["speaker"] audioRadioSpeakerType
 audioRadioStationMetadata = {}
 
 ---@param fields? table

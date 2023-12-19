@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkCreditsResource: CResource
----@field public sections inkCreditsSectionEntry[]
+---@field public ["sections"] inkCreditsSectionEntry[]
 inkCreditsResource = {}
 
 ---@param fields? table

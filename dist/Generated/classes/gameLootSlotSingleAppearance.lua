@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameLootSlotSingleAppearance: gameLootSlotSingleItem
----@field public lootAppearance CName
+---@field public ["lootAppearance"] CName
 gameLootSlotSingleAppearance = {}
 
 ---@param fields? table

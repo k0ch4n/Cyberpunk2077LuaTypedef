@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemSetItemPlayerFavourite: gameScriptableSystemRequest
----@field public itemID gameItemID
----@field public favourite Bool
+---@field public ["itemID"] gameItemID
+---@field public ["favourite"] Bool
 UIScriptableSystemSetItemPlayerFavourite = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entCharacterCustomizationSkinnedMeshComponent: entSkinnedMeshComponent
----@field public tags redTagList
+---@field public ["tags"] redTagList
 entCharacterCustomizationSkinnedMeshComponent = {}
 
 ---@param fields? table

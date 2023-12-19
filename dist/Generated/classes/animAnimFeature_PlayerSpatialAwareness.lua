@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_PlayerSpatialAwareness: animAnimFeature
----@field public leftClosestVector Vector4
----@field public rightClosestVector Vector4
----@field public upHitPosition Vector4
----@field public forwardDistance Float
+---@field public ["leftClosestVector"] Vector4
+---@field public ["rightClosestVector"] Vector4
+---@field public ["upHitPosition"] Vector4
+---@field public ["forwardDistance"] Float
 animAnimFeature_PlayerSpatialAwareness = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ZoneAlertNotification: GenericNotificationController
----@field private animation inkanimProxy
----@field private zone_data ZoneAlertNotificationViewData
----@field private ZoneLabelText inkTextWidgetReference
+---@field private ["animation"] inkanimProxy
+---@field private ["zone_data"] ZoneAlertNotificationViewData
+---@field private ["ZoneLabelText"] inkTextWidgetReference
 ZoneAlertNotification = {}
 
 ---@param fields? table

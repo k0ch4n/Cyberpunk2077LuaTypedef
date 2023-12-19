@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DropPointRequest: gameScriptableSystemRequest
----@field private record TweakDBID
----@field private status DropPointPackageStatus
----@field private holder gamePersistentID
+---@field private ["record"] TweakDBID
+---@field private ["status"] DropPointPackageStatus
+---@field private ["holder"] gamePersistentID
 DropPointRequest = {}
 
 ---@param fields? table

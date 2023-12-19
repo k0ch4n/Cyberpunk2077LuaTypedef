@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SellItemToVendor: ActionBool
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 SellItemToVendor = {}
 
 ---@param fields? table
@@ -16,7 +16,7 @@ function SellItemToVendor.IsDefaultConditionMet(device, context) return end
 
 ---@param displayText String
 ---@param additionalText String
----@param imageAtlasImageID CName
+---@param imageAtlasImageID CName|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
 function SellItemToVendor:CreateActionWidgetPackage(displayText, additionalText, imageAtlasImageID, actions) return end

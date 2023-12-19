@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FastTravelComponent: gameScriptableComponent
----@field private fastTravelNodes gameFastTravelPointData[]
+---@field private ["fastTravelNodes"] gameFastTravelPointData[]
 FastTravelComponent = {}
 
 ---@param fields? table

@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CyberdeckTooltipSettingsListener: userSettingsVarListener
----@field private ctrl CyberdeckTooltip
----@field private statctrl CyberdeckStatController
+---@field private ["ctrl"] CyberdeckTooltip
+---@field private ["statctrl"] CyberdeckStatController
 CyberdeckTooltipSettingsListener = {}
 
 ---@param fields? table
 ---@return CyberdeckTooltipSettingsListener
 function CyberdeckTooltipSettingsListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

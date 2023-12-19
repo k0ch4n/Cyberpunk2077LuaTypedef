@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AccessibilityControlsListener: userSettingsVarListener
----@field private ctrl PlayerPuppet
----@field private settings userSettingsUserSettings
----@field private settingsGroup userSettingsGroup
----@field private allowCycleToFistCyberware Bool
----@field private accessibilityControlsPath CName
+---@field private ["ctrl"] PlayerPuppet
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["settingsGroup"] userSettingsGroup
+---@field private ["allowCycleToFistCyberware"] Bool
+---@field private ["accessibilityControlsPath"] CName
 AccessibilityControlsListener = {}
 
 ---@param fields? table
@@ -20,8 +20,8 @@ function AccessibilityControlsListener:GetAllowCycleToFistCyberware() return end
 ---@return nil
 function AccessibilityControlsListener:Initialize(ctrl) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

@@ -31,7 +31,7 @@ function vehicleVehicleMountableComponent:DoStatusEffectsAllowMounting(executor)
 ---@protected
 ---@param parentID entEntityID
 ---@param childId entEntityID
----@param slot CName
+---@param slot CName|string
 ---@param mountType MountType
 ---@return nil
 function vehicleVehicleMountableComponent:MountEntityToSlot(parentID, childId, slot, mountType) return end

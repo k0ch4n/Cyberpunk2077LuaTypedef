@@ -3,7 +3,7 @@
 
 ---@enum CodexDataSource
 CodexDataSource = {
-    ["Undefined"] = 0,
-    ["Codex"] = 1,
-    ["Onscreen"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Codex"] = 1, ---@type Enum
+    ["Onscreen"] = 2, ---@type Enum
 }

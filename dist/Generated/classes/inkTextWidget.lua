@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class inkTextWidget: inkLeafWidget
----@field public localizationString LocalizationString
----@field public textIdKey CName
----@field public text String
----@field public fontFamily inkFontFamilyResource
----@field public fontStyle CName
----@field public fontSize Uint32
----@field public font rendFont
----@field public letterCase textLetterCase
----@field public tracking Uint32
----@field public lockFontInGame Bool
----@field public wrappingInfo textWrappingInfo
----@field public lineHeightPercentage Float
----@field public justification textJustificationType
----@field public textHorizontalAlignment textHorizontalAlignment
----@field public textVerticalAlignment textVerticalAlignment
----@field public textOverflowPolicy textOverflowPolicy
----@field public scrollTextSpeed Float
----@field public scrollDelay Uint16
----@field public contentHAlign inkEHorizontalAlign
----@field public contentVAlign inkEVerticalAlign
+---@field public ["localizationString"] LocalizationString
+---@field public ["textIdKey"] CName
+---@field public ["text"] String
+---@field public ["fontFamily"] inkFontFamilyResource
+---@field public ["fontStyle"] CName
+---@field public ["fontSize"] Uint32
+---@field public ["font"] rendFont
+---@field public ["letterCase"] textLetterCase
+---@field public ["tracking"] Uint32
+---@field public ["lockFontInGame"] Bool
+---@field public ["wrappingInfo"] textWrappingInfo
+---@field public ["lineHeightPercentage"] Float
+---@field public ["justification"] textJustificationType
+---@field public ["textHorizontalAlignment"] textHorizontalAlignment
+---@field public ["textVerticalAlignment"] textVerticalAlignment
+---@field public ["textOverflowPolicy"] textOverflowPolicy
+---@field public ["scrollTextSpeed"] Float
+---@field public ["scrollDelay"] Uint16
+---@field public ["contentHAlign"] inkEHorizontalAlign
+---@field public ["contentVAlign"] inkEVerticalAlign
 inkTextWidget = {}
 
 ---@param fields? table
@@ -70,7 +70,7 @@ function inkTextWidget:GetVerticalAlignment() return end
 function inkTextWidget:SetDateTimeByTimestamp(timestamp) return end
 
 ---@param fontFamilyPath String
----@param fontStyle? CName
+---@param fontStyle? CName|string
 ---@return nil
 function inkTextWidget:SetFontFamily(fontFamilyPath, fontStyle) return end
 
@@ -78,7 +78,7 @@ function inkTextWidget:SetFontFamily(fontFamilyPath, fontStyle) return end
 ---@return nil
 function inkTextWidget:SetFontSize(textSize) return end
 
----@param fontStyle CName
+---@param fontStyle CName|string
 ---@return nil
 function inkTextWidget:SetFontStyle(fontStyle) return end
 
@@ -90,7 +90,7 @@ function inkTextWidget:SetHorizontalAlignment(horizontalAlignment) return end
 ---@return nil
 function inkTextWidget:SetLetterCase(letterCase) return end
 
----@param displayText CName
+---@param displayText CName|string
 ---@return nil
 function inkTextWidget:SetLocalizationKey(displayText) return end
 
@@ -98,7 +98,7 @@ function inkTextWidget:SetLocalizationKey(displayText) return end
 ---@return nil
 function inkTextWidget:SetLocalizationKeyString(displayText) return end
 
----@param locKey CName
+---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
 function inkTextWidget:SetLocalizedText(locKey, textParams) return end
@@ -149,11 +149,11 @@ function inkTextWidget:SetWrappingAtPosition(position) return end
 ---@return nil
 function inkTextWidget:UpdateLanguageResources() return end
 
----@param nameValue CName
+---@param nameValue CName|string
 ---@return textHorizontalAlignment
 function inkTextWidget:GetHorizontalAlignmentEnumValue(nameValue) return end
 
----@param nameValue CName
+---@param nameValue CName|string
 ---@return textVerticalAlignment
 function inkTextWidget:GetVerticalAlignmentEnumValue(nameValue) return end
 
@@ -162,7 +162,7 @@ function inkTextWidget:GetVerticalAlignmentEnumValue(nameValue) return end
 ---@return nil
 function inkTextWidget:SetLocalizedTextScript(locKey, textParams) return end
 
----@param locKey CName
+---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
 function inkTextWidget:SetLocalizedTextScript(locKey, textParams) return end

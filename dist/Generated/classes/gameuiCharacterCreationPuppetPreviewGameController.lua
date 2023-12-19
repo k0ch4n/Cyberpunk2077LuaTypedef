@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCreationPuppetPreviewGameController: gameuiPuppetPreviewGameController
----@field public maleSceneName CName
----@field public femaleSceneName CName
----@field public maleCamera01Ref NodeRef
----@field public femaleCamera01Ref NodeRef
----@field public root inkCompoundWidgetReference
----@field public image inkImageWidgetReference
----@field public animLib inkWidgetLibraryReference
----@field public animName CName
----@field private characterCustomizationSystem gameuiICharacterCustomizationSystem
+---@field public ["maleSceneName"] CName
+---@field public ["femaleSceneName"] CName
+---@field public ["maleCamera01Ref"] NodeRef
+---@field public ["femaleCamera01Ref"] NodeRef
+---@field public ["root"] inkCompoundWidgetReference
+---@field public ["image"] inkImageWidgetReference
+---@field public ["animLib"] inkWidgetLibraryReference
+---@field public ["animName"] CName
+---@field private ["characterCustomizationSystem"] gameuiICharacterCustomizationSystem
 gameuiCharacterCreationPuppetPreviewGameController = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function gameuiCharacterCreationPuppetPreviewGameController:OnInitialize() retur
 
 ---@protected
 ---@param index Uint32
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function gameuiCharacterCreationPuppetPreviewGameController:OnSetCameraSetupEvent(index, slotName) return end
 

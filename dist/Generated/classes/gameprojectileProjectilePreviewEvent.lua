@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileProjectilePreviewEvent: gameprojectileSpawnerPreviewEvent
----@field public visualOffset Transform
+---@field public ["visualOffset"] Transform
 gameprojectileProjectilePreviewEvent = {}
 
 ---@param fields? table

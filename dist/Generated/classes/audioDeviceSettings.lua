@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class audioDeviceSettings: audioEntitySettings
----@field public deviceSettings audioDeviceStateSettings
+---@field public ["deviceSettings"] audioDeviceStateSettings
 audioDeviceSettings = {}

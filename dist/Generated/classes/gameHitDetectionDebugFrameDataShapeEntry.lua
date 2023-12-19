@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHitDetectionDebugFrameDataShapeEntry
----@field public ansformWS WorldTransform
+---@field public ["ansformWS"] WorldTransform
 gameHitDetectionDebugFrameDataShapeEntry = {}
 
 ---@param fields? table

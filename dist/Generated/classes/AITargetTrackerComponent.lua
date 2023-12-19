@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITargetTrackerComponent: gameComponent
----@field public TriggersCombat Bool
+---@field public ["TriggersCombat"] Bool
 AITargetTrackerComponent = {}
 
 ---@param fields? table
@@ -64,7 +64,7 @@ function AITargetTrackerComponent:GetRecentlyDroppedThreat() return end
 ---@param threat entEntity
 ---@param offset? Vector3
 ---@param failIfVisible? Bool
----@param slotName? CName
+---@param slotName? CName|string
 ---@param failSafeProvider? entIPositionProvider
 ---@return entIPositionProvider
 function AITargetTrackerComponent:GetThreatBeliefPositionProvider(threat, offset, failIfVisible, slotName, failSafeProvider) return end
@@ -72,7 +72,7 @@ function AITargetTrackerComponent:GetThreatBeliefPositionProvider(threat, offset
 ---@param threat entEntity
 ---@param offset? Vector3
 ---@param failIfVisible? Bool
----@param slotName? CName
+---@param slotName? CName|string
 ---@param failSafeProvider? entIPositionProvider
 ---@return entIPositionProvider
 function AITargetTrackerComponent:GetThreatLastKnownPositionProvider(threat, offset, failIfVisible, slotName, failSafeProvider) return end
@@ -105,7 +105,7 @@ function AITargetTrackerComponent:GetThreatPriorityModFromHisteresisCurve(timeSi
 ---@param threat entEntity
 ---@param offset? Vector3
 ---@param failIfVisible? Bool
----@param slotName? CName
+---@param slotName? CName|string
 ---@param failSafeProvider? entIPositionProvider
 ---@return entIPositionProvider
 function AITargetTrackerComponent:GetThreatSharedBeliefPositionProvider(threat, offset, failIfVisible, slotName, failSafeProvider) return end
@@ -113,7 +113,7 @@ function AITargetTrackerComponent:GetThreatSharedBeliefPositionProvider(threat, 
 ---@param threat entEntity
 ---@param offset? Vector3
 ---@param failIfVisible? Bool
----@param slotName? CName
+---@param slotName? CName|string
 ---@param failSafeProvider? entIPositionProvider
 ---@return entIPositionProvider
 function AITargetTrackerComponent:GetThreatSharedLastKnownPositionProvider(threat, offset, failIfVisible, slotName, failSafeProvider) return end
@@ -161,12 +161,12 @@ function AITargetTrackerComponent:RegisterListener(et, listener) return end
 function AITargetTrackerComponent:RemoveThreat(id) return end
 
 ---@param et entEntity
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function AITargetTrackerComponent:RemoveThreatBeliefAccuracyMinValue(et, reason) return end
 
 ---@param et entEntity
----@param reason CName
+---@param reason CName|string
 ---@param minAccuracy Float
 ---@return nil
 function AITargetTrackerComponent:RequestThreatBeliefAccuracyMinValue(et, reason, minAccuracy) return end
@@ -221,19 +221,19 @@ function AITargetTrackerComponent:SetThreatBeliefAccuracy(et, accuracy) return e
 ---@return nil
 function AITargetTrackerComponent:SetThreatPersistence(et, isPersistent, src) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return Bool
 function AITargetTrackerComponent:SetThreatPriorityAttackersCurve(curveName) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return Bool
 function AITargetTrackerComponent:SetThreatPriorityDistCurve(curveName) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return Bool
 function AITargetTrackerComponent:SetThreatPriorityDmgCurve(curveName) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return Bool
 function AITargetTrackerComponent:SetThreatPriorityHisteresisCurve(curveName) return end
 

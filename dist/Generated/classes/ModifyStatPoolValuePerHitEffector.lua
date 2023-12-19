@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ModifyStatPoolValuePerHitEffector: ModifyStatPoolValueEffector
----@field public damageScaleFactor Float
+---@field public ["damageScaleFactor"] Float
 ModifyStatPoolValuePerHitEffector = {}
 
 ---@param fields? table

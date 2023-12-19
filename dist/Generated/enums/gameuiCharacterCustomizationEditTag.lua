@@ -3,7 +3,7 @@
 
 ---@enum gameuiCharacterCustomizationEditTag
 gameuiCharacterCustomizationEditTag = {
-    ["NewGame"] = 0,
-    ["HairDresser"] = 1,
-    ["Ripperdoc"] = 2
+    ["NewGame"] = 0, ---@type Enum
+    ["HairDresser"] = 1, ---@type Enum
+    ["Ripperdoc"] = 2, ---@type Enum
 }

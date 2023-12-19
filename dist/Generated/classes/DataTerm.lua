@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class DataTerm: InteractiveDevice
----@field private linkedFastTravelPoint gameFastTravelPointData
----@field private exitNode NodeRef
----@field private metroAnimationNode NodeRef
----@field private SubwayGateBroken Bool
----@field private fastTravelComponent FastTravelComponent
----@field private lockColiderComponent entIPlacedComponent
----@field private mappinID gameNewMappinID
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private hologramMeshGreen entIPlacedComponent
----@field private hologramMeshRed entIPlacedComponent
+---@field private ["linkedFastTravelPoint"] gameFastTravelPointData
+---@field private ["exitNode"] NodeRef
+---@field private ["metroAnimationNode"] NodeRef
+---@field private ["SubwayGateBroken"] Bool
+---@field private ["fastTravelComponent"] FastTravelComponent
+---@field private ["lockColiderComponent"] entIPlacedComponent
+---@field private ["mappinID"] gameNewMappinID
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
+---@field private ["hologramMeshGreen"] entIPlacedComponent
+---@field private ["hologramMeshRed"] entIPlacedComponent
 DataTerm = {}
 
 ---@param fields? table

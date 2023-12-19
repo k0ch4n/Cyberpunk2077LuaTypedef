@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISpiderbotFindBoredMovePosition: AIFindPositionAroundSelf
----@field public maxWanderDistance AIArgumentMapping
+---@field public ["maxWanderDistance"] AIArgumentMapping
 AISpiderbotFindBoredMovePosition = {}
 
 ---@param fields? table

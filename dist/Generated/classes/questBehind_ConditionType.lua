@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questBehind_ConditionType: questISensesConditionType
----@field public targetRef gameEntityReference
----@field public eventType questBehindInteractionEventType
+---@field public ["targetRef"] gameEntityReference
+---@field public ["eventType"] questBehindInteractionEventType
 questBehind_ConditionType = {}
 
 ---@param fields? table

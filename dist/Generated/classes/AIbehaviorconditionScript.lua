@@ -9,7 +9,7 @@ AIbehaviorconditionScript = {}
 function AIbehaviorconditionScript.new(fields) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param signalName CName
+---@param signalName CName|string
 ---@return Uint16
 function AIbehaviorconditionScript:ListenToSignal(context, signalName) return end
 
@@ -19,7 +19,7 @@ function AIbehaviorconditionScript:ListenToSignal(context, signalName) return en
 function AIbehaviorconditionScript:SetUpdateInterval(context, interval) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param signalName CName
+---@param signalName CName|string
 ---@param callbackId Uint16
 ---@return nil
 function AIbehaviorconditionScript:StopListeningToSignal(context, signalName, callbackId) return end

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class entLookAtLimits
----@field public softLimitDegrees Float
----@field public hardLimitDegrees Float
----@field public hardLimitDistance Float
----@field public backLimitDegrees Float
+---@field public ["softLimitDegrees"] Float
+---@field public ["hardLimitDegrees"] Float
+---@field public ["hardLimitDistance"] Float
+---@field public ["backLimitDegrees"] Float
 entLookAtLimits = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelaySetCoverNPCCurrentlyExposed: redEvent
----@field public exposed Bool
+---@field public ["exposed"] Bool
 DelaySetCoverNPCCurrentlyExposed = {}
 
 ---@param fields? table

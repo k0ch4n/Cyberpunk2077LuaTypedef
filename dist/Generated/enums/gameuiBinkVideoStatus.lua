@@ -3,12 +3,12 @@
 
 ---@enum gameuiBinkVideoStatus
 gameuiBinkVideoStatus = {
-    ["Idle"] = 0,
-    ["NotStarted"] = 1,
-    ["Initializing"] = 2,
-    ["Playing"] = 3,
-    ["Finished"] = 4,
-    ["OutOfFrustum"] = 5,
-    ["Stopped"] = 6,
-    ["Error"] = 7
+    ["Idle"] = 0, ---@type Enum
+    ["NotStarted"] = 1, ---@type Enum
+    ["Initializing"] = 2, ---@type Enum
+    ["Playing"] = 3, ---@type Enum
+    ["Finished"] = 4, ---@type Enum
+    ["OutOfFrustum"] = 5, ---@type Enum
+    ["Stopped"] = 6, ---@type Enum
+    ["Error"] = 7, ---@type Enum
 }

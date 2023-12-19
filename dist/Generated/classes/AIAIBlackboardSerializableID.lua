@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAIBlackboardSerializableID
----@field public id gameBlackboardSerializableID
+---@field public ["id"] gameBlackboardSerializableID
 AIAIBlackboardSerializableID = {}
 
 ---@param fields? table

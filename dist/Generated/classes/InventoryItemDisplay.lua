@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class InventoryItemDisplay: BaseButtonView
----@field protected RarityRoot inkWidgetReference
----@field protected ModsRoot inkCompoundWidgetReference
----@field protected RarityWrapper inkWidgetReference
----@field protected IconImage inkImageWidgetReference
----@field protected IconShadowImage inkImageWidgetReference
----@field protected IconFallback inkImageWidgetReference
----@field protected BackgroundShape inkImageWidgetReference
----@field protected BackgroundHighlight inkImageWidgetReference
----@field protected BackgroundFrame inkImageWidgetReference
----@field protected QuantityText inkTextWidgetReference
----@field protected ModName CName
----@field protected toggleHighlight inkWidgetReference
----@field protected equippedIcon inkWidgetReference
----@field protected DefaultCategoryIconName String
----@field protected ItemData gameInventoryItemData
----@field protected AttachementsDisplay InventoryItemAttachmentDisplay[]
----@field protected smallSize Vector2
----@field protected bigSize Vector2
----@field private owner gameObject
+---@field protected ["RarityRoot"] inkWidgetReference
+---@field protected ["ModsRoot"] inkCompoundWidgetReference
+---@field protected ["RarityWrapper"] inkWidgetReference
+---@field protected ["IconImage"] inkImageWidgetReference
+---@field protected ["IconShadowImage"] inkImageWidgetReference
+---@field protected ["IconFallback"] inkImageWidgetReference
+---@field protected ["BackgroundShape"] inkImageWidgetReference
+---@field protected ["BackgroundHighlight"] inkImageWidgetReference
+---@field protected ["BackgroundFrame"] inkImageWidgetReference
+---@field protected ["QuantityText"] inkTextWidgetReference
+---@field protected ["ModName"] CName
+---@field protected ["toggleHighlight"] inkWidgetReference
+---@field protected ["equippedIcon"] inkWidgetReference
+---@field protected ["DefaultCategoryIconName"] String
+---@field protected ["ItemData"] gameInventoryItemData
+---@field protected ["AttachementsDisplay"] InventoryItemAttachmentDisplay[]
+---@field protected ["smallSize"] Vector2
+---@field protected ["bigSize"] Vector2
+---@field private ["owner"] gameObject
 InventoryItemDisplay = {}
 
 ---@param fields? table
@@ -83,7 +83,7 @@ function InventoryItemDisplay:SetItemSize() return end
 function InventoryItemDisplay:SetQuantity(itemQuantity) return end
 
 ---@protected
----@param quality CName
+---@param quality CName|string
 ---@return nil
 function InventoryItemDisplay:SetRarity(quality) return end
 

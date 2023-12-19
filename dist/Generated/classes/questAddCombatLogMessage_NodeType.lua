@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAddCombatLogMessage_NodeType: questIUIManagerNodeType
----@field public message String
----@field public localizedMessage LocalizationString
+---@field public ["message"] String
+---@field public ["localizedMessage"] LocalizationString
 questAddCombatLogMessage_NodeType = {}
 
 ---@param fields? table

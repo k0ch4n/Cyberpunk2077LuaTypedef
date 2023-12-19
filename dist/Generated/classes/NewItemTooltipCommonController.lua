@@ -2,55 +2,55 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipCommonController: AGenericTooltipControllerWithDebug
----@field protected backgroundContainer inkWidgetReference
----@field protected itemEquippedContainer inkWidgetReference
----@field protected itemRecipeContainer inkWidgetReference
----@field protected itemHeaderContainer inkWidgetReference
----@field protected itemBrokenContainer inkWidgetReference
----@field protected itemWeaponBarsContainer inkWidgetReference
----@field protected itemRequirementsContainer inkWidgetReference
----@field protected itemDetailsStatsContainer inkWidgetReference
----@field protected itemDescriptionContainer inkWidgetReference
----@field protected itemDetailsContainer inkWidgetReference
----@field protected itemBottomContainer inkWidgetReference
----@field protected cornerContainer inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field protected frames inkWidgetReference[]
----@field protected spawnedModules NewItemTooltipModuleController[]
----@field protected itemEquippedController NewItemTooltipEquippedModule
----@field protected itemRecipeController NewItemTooltipRepiceModule
----@field protected itemHeaderController NewItemTooltipHeaderController
----@field protected itemBrokenController NewItemTooltipBrokenModule
----@field protected itemWeaponBarsController NewItemTooltipWeaponBarsModule
----@field protected itemRequirementsController NewItemTooltipRequirementsModule
----@field protected itemDetailsStatsController NewItemTooltipDetailsStatsModule
----@field protected itemDescriptionController NewItemTooltipDescriptionModule
----@field protected itemDetailsController NewItemTooltipDetailsModule
----@field protected itemBottomController NewItemTooltipBottomModule
----@field protected DEBUG_showAdditionalInfo Bool
----@field protected data MinimalItemTooltipData
----@field protected itemData UIInventoryItem
----@field protected comparisonData UIInventoryItemComparisonManager
----@field protected player PlayerPuppet
----@field protected requestedModules CName[]
----@field protected pendingModules CName[]
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
----@field protected priceOverride Int32
----@field protected settings userSettingsUserSettings
----@field protected settingsListener NewItemTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field protected ["backgroundContainer"] inkWidgetReference
+---@field protected ["itemEquippedContainer"] inkWidgetReference
+---@field protected ["itemRecipeContainer"] inkWidgetReference
+---@field protected ["itemHeaderContainer"] inkWidgetReference
+---@field protected ["itemBrokenContainer"] inkWidgetReference
+---@field protected ["itemWeaponBarsContainer"] inkWidgetReference
+---@field protected ["itemRequirementsContainer"] inkWidgetReference
+---@field protected ["itemDetailsStatsContainer"] inkWidgetReference
+---@field protected ["itemDescriptionContainer"] inkWidgetReference
+---@field protected ["itemDetailsContainer"] inkWidgetReference
+---@field protected ["itemBottomContainer"] inkWidgetReference
+---@field protected ["cornerContainer"] inkWidgetReference
+---@field protected ["root"] inkWidgetReference
+---@field protected ["iconicBG"] inkWidgetReference
+---@field protected ["recipeBG"] inkWidgetReference
+---@field protected ["illegalBG"] inkWidgetReference
+---@field protected ["descriptionWrapper"] inkWidgetReference
+---@field protected ["descriptionText"] inkTextWidgetReference
+---@field protected ["DEBUG_iconErrorWrapper"] inkWidgetReference
+---@field protected ["DEBUG_iconErrorText"] inkTextWidgetReference
+---@field protected ["frames"] inkWidgetReference[]
+---@field protected ["spawnedModules"] NewItemTooltipModuleController[]
+---@field protected ["itemEquippedController"] NewItemTooltipEquippedModule
+---@field protected ["itemRecipeController"] NewItemTooltipRepiceModule
+---@field protected ["itemHeaderController"] NewItemTooltipHeaderController
+---@field protected ["itemBrokenController"] NewItemTooltipBrokenModule
+---@field protected ["itemWeaponBarsController"] NewItemTooltipWeaponBarsModule
+---@field protected ["itemRequirementsController"] NewItemTooltipRequirementsModule
+---@field protected ["itemDetailsStatsController"] NewItemTooltipDetailsStatsModule
+---@field protected ["itemDescriptionController"] NewItemTooltipDescriptionModule
+---@field protected ["itemDetailsController"] NewItemTooltipDetailsModule
+---@field protected ["itemBottomController"] NewItemTooltipBottomModule
+---@field protected ["DEBUG_showAdditionalInfo"] Bool
+---@field protected ["data"] MinimalItemTooltipData
+---@field protected ["itemData"] UIInventoryItem
+---@field protected ["comparisonData"] UIInventoryItemComparisonManager
+---@field protected ["player"] PlayerPuppet
+---@field protected ["requestedModules"] CName[]
+---@field protected ["pendingModules"] CName[]
+---@field protected ["displayContext"] ItemDisplayContextData
+---@field protected ["tooltipDisplayContext"] InventoryTooltipDisplayContext
+---@field protected ["itemDisplayContext"] gameItemDisplayContext
+---@field protected ["priceOverride"] Int32
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] NewItemTooltipSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["minWidth"] inkWidgetReference
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["inCrafting"] Bool
 NewItemTooltipCommonController = {}
 
 ---@param fields? table
@@ -260,8 +260,8 @@ function NewItemTooltipCommonController:NewSetTooltipSize(value) return end
 ---@return nil
 function NewItemTooltipCommonController:NewUpdateTooltipSize() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
@@ -276,8 +276,8 @@ function NewItemTooltipCommonController:RegisterUserSettingsListener() return en
 
 ---@protected
 ---@param container inkWidgetReference
----@param moduleName CName
----@param callback CName
+---@param moduleName CName|string
+---@param callback CName|string
 ---@param data? NewItemTooltipModuleSpawnedCallbackData
 ---@return Bool
 function NewItemTooltipCommonController:RequestModule(container, moduleName, callback, data) return end

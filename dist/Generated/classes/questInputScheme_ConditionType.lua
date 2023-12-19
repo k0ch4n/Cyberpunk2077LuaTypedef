@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInputScheme_ConditionType: questISystemConditionType
----@field public scheme questInputScheme
+---@field public ["scheme"] questInputScheme
 questInputScheme_ConditionType = {}
 
 ---@param fields? table

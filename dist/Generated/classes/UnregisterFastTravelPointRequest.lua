@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnregisterFastTravelPointRequest: gameScriptableSystemRequest
----@field public pointData gameFastTravelPointData
----@field public requesterID entEntityID
+---@field public ["pointData"] gameFastTravelPointData
+---@field public ["requesterID"] entEntityID
 UnregisterFastTravelPointRequest = {}
 
 ---@param fields? table

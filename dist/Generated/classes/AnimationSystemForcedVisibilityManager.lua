@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimationSystemForcedVisibilityManager: gameScriptableSystem
----@field private entities AnimationSystemForcedVisibilityEntityData[]
+---@field private ["entities"] AnimationSystemForcedVisibilityEntityData[]
 AnimationSystemForcedVisibilityManager = {}
 
 ---@param fields? table
@@ -63,7 +63,7 @@ function AnimationSystemForcedVisibilityManager:SendDelayedRequestForVisilityDat
 
 ---@protected
 ---@param entityID entEntityID
----@param sourceName CName
+---@param sourceName CName|string
 ---@param isVisible Bool
 ---@param transitionTime? Float
 ---@param forcedVisibleOnlyInFrustum? Bool

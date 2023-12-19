@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ForcedVisibilityInAnimSystemData: IScriptable
----@field public sourceName CName
----@field public delayID gameDelayID
----@field public forcedVisibleOnlyInFrustum Bool
+---@field public ["sourceName"] CName
+---@field public ["delayID"] gameDelayID
+---@field public ["forcedVisibleOnlyInFrustum"] Bool
 ForcedVisibilityInAnimSystemData = {}
 
 ---@param fields? table

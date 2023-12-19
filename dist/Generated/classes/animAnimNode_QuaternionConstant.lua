@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_QuaternionConstant: animAnimNode_QuaternionValue
----@field public value Quaternion
+---@field public ["value"] Quaternion
 animAnimNode_QuaternionConstant = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_WeaponOwnerVehicleData: animAnimFeature
----@field public isOwnerDriver Bool
----@field public isOwnerMountedToVehicle Bool
+---@field public ["isOwnerDriver"] Bool
+---@field public ["isOwnerMountedToVehicle"] Bool
 AnimFeature_WeaponOwnerVehicleData = {}
 
 ---@param fields? table

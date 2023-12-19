@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AmmoLogicController: inkWidgetLogicController
----@field protected count Uint32
----@field protected capacity Uint32
+---@field protected ["count"] Uint32
+---@field protected ["capacity"] Uint32
 AmmoLogicController = {}
 
 ---@param value Uint32

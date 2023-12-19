@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeshAppearanceDeviceOperation: DeviceOperationBase
----@field public meshesAppearence CName
+---@field public ["meshesAppearence"] CName
 MeshAppearanceDeviceOperation = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function MeshAppearanceDeviceOperation.new(fields) return end
 function MeshAppearanceDeviceOperation:Execute(owner) return end
 
 ---@private
----@param appearanceName CName
+---@param appearanceName CName|string
 ---@param owner gameObject
 ---@return nil
 function MeshAppearanceDeviceOperation:ResolveMeshesAppearence(appearanceName, owner) return end

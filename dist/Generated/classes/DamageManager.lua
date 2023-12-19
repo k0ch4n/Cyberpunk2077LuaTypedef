@@ -57,7 +57,7 @@ function DamageManager.PostProcess(hitEvent) return end
 function DamageManager.ProcessDefensiveState(hitEvent) return end
 
 ---@protected
----@param eventName CName
+---@param eventName CName|string
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
 function DamageManager.SendNameEventToPSM(eventName, hitEvent) return end

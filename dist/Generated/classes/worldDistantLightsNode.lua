@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDistantLightsNode: worldNode
----@field public data CDistantLightsResource
+---@field public ["data"] CDistantLightsResource
 worldDistantLightsNode = {}
 
 ---@param fields? table

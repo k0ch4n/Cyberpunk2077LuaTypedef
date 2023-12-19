@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GetCurrentPatrolSpotActionPath: AIbehaviortaskScript
----@field public outPathArgument AIArgumentMapping
+---@field public ["outPathArgument"] AIArgumentMapping
 GetCurrentPatrolSpotActionPath = {}
 
 ---@param fields? table

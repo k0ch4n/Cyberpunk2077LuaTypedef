@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMonitorConditionDefinition: ISerializable
----@field public condition AIbehaviorConditionDefinition
----@field public timeout Float
+---@field public ["condition"] AIbehaviorConditionDefinition
+---@field public ["timeout"] Float
 AIbehaviorMonitorConditionDefinition = {}
 
 ---@param fields? table

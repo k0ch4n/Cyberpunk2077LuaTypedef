@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ItemLabelController: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected moneyIcon inkImageWidgetReference
----@field protected type ItemLabelType
+---@field protected ["label"] inkTextWidgetReference
+---@field protected ["moneyIcon"] inkImageWidgetReference
+---@field protected ["type"] ItemLabelType
 ItemLabelController = {}
 
 ---@param fields? table

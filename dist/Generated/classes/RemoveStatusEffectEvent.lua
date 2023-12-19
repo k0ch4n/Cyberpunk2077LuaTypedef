@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemoveStatusEffectEvent: redEvent
----@field public effectID TweakDBID
----@field public removeCount Uint32
+---@field public ["effectID"] TweakDBID
+---@field public ["removeCount"] Uint32
 RemoveStatusEffectEvent = {}
 
 ---@param fields? table

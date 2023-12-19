@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnNotablePoint
----@field public name CName
----@field public nodeId scnNodeId
+---@field public ["name"] CName
+---@field public ["nodeId"] scnNodeId
 scnNotablePoint = {}
 
 ---@param fields? table

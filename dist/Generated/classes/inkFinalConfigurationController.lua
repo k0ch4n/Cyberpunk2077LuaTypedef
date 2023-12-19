@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkFinalConfigurationController: inkWidgetLogicController
----@field public visibilityFlag inkFinalConfigurationVisibility
+---@field public ["visibilityFlag"] inkFinalConfigurationVisibility
 inkFinalConfigurationController = {}
 
 ---@param fields? table

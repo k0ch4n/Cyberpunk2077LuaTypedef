@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsCollisionPresetsOverridesResource: ISerializable
----@field public overrides physicsCollisionPresetOverride[]
+---@field public ["overrides"] physicsCollisionPresetOverride[]
 physicsCollisionPresetsOverridesResource = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IncrementArgumentInt: AIbehaviortaskScript
----@field public argumentIntName CName
+---@field public ["argumentIntName"] CName
 IncrementArgumentInt = {}
 
 ---@param fields? table

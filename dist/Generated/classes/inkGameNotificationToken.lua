@@ -9,7 +9,7 @@ inkGameNotificationToken = {}
 function inkGameNotificationToken.new(fields) return end
 
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkGameNotificationToken:RegisterListener(object, functionName) return end
 

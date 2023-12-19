@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChimeraHealthChangeListener: gameCustomValueStatPoolsListener
----@field private owner NPCPuppet
+---@field private ["owner"] NPCPuppet
 ChimeraHealthChangeListener = {}
 
 ---@param fields? table

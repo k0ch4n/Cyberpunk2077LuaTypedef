@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseVisibleObjectTypeEvent: redEvent
----@field public type gamedataSenseObjectType
+---@field public ["type"] gamedataSenseObjectType
 senseVisibleObjectTypeEvent = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class SubtitlesSettingsListener: userSettingsVarListener
----@field private ctrl BaseSubtitlesGameController
+---@field private ["ctrl"] BaseSubtitlesGameController
 SubtitlesSettingsListener = {}
 
 ---@param fields? table
 ---@return SubtitlesSettingsListener
 function SubtitlesSettingsListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

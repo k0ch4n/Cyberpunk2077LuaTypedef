@@ -3,7 +3,7 @@
 
 ---@enum rendRayTracedShadowsPlatform
 rendRayTracedShadowsPlatform = {
-    ["RLSP_All"] = 0,
-    ["RLSP_PC"] = 1,
-    ["RLSP_Consoles"] = 2
+    ["RLSP_All"] = 0, ---@type Enum
+    ["RLSP_PC"] = 1, ---@type Enum
+    ["RLSP_Consoles"] = 2, ---@type Enum
 }

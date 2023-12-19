@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkVideoWidget: inkLeafWidget
----@field public videoResource Bink
----@field public loop Bool
----@field public overriddenPlayerName CName
----@field public isParallaxEnabled Bool
----@field public prefetchVideo Bool
+---@field public ["videoResource"] Bink
+---@field public ["loop"] Bool
+---@field public ["overriddenPlayerName"] CName
+---@field public ["isParallaxEnabled"] Bool
+---@field public ["prefetchVideo"] Bool
 inkVideoWidget = {}
 
 ---@param fields? table
@@ -58,7 +58,7 @@ function inkVideoWidget:Resume() return end
 ---@return nil
 function inkVideoWidget:RewindTo(numberOfFrames) return end
 
----@param audioEvent CName
+---@param audioEvent CName|string
 ---@return nil
 function inkVideoWidget:SetAudioEvent(audioEvent) return end
 

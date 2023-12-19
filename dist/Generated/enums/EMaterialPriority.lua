@@ -3,6 +3,6 @@
 
 ---@enum EMaterialPriority
 EMaterialPriority = {
-    ["EMP_Normal"] = 0,
-    ["EMP_Front"] = 1
+    ["EMP_Normal"] = 0, ---@type Enum
+    ["EMP_Front"] = 1, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectTrackGroup: effectTrackBase
----@field public tracks effectTrackBase[]
----@field public componentName CName
+---@field public ["tracks"] effectTrackBase[]
+---@field public ["componentName"] CName
 effectTrackGroup = {}
 
 ---@param fields? table

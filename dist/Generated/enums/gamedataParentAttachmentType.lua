@@ -3,9 +3,9 @@
 
 ---@enum gamedataParentAttachmentType
 gamedataParentAttachmentType = {
-    ["Animated"] = 0,
-    ["Skinned"] = 1,
-    ["Slot"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Animated"] = 0, ---@type Enum
+    ["Skinned"] = 1, ---@type Enum
+    ["Slot"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

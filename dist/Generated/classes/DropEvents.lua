@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropEvents: CarriedObjectEvents
----@field public ragdollReenabled Bool
+---@field public ["ragdollReenabled"] Bool
 DropEvents = {}
 
 ---@param fields? table

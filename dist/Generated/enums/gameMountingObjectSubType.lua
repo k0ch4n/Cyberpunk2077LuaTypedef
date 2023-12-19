@@ -3,7 +3,7 @@
 
 ---@enum gameMountingObjectSubType
 gameMountingObjectSubType = {
-    ["Invalid"] = -1,
-    ["Car"] = 0,
-    ["Bike"] = 1
+    ["Invalid"] = -1, ---@type Enum
+    ["Car"] = 0, ---@type Enum
+    ["Bike"] = 1, ---@type Enum
 }

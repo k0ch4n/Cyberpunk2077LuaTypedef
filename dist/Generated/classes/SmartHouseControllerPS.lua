@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SmartHouseControllerPS: MasterControllerPS
----@field protected timetable SPresetTimetableEntry[]
----@field protected activePreset SmartHousePreset
----@field protected availablePresets SmartHousePreset[]
----@field protected smartHouseCustomization SmartHouseConfiguration
----@field protected callbackID Uint32
+---@field protected ["timetable"] SPresetTimetableEntry[]
+---@field protected ["activePreset"] SmartHousePreset
+---@field protected ["availablePresets"] SmartHousePreset[]
+---@field protected ["smartHouseCustomization"] SmartHouseConfiguration
+---@field protected ["callbackID"] Uint32
 SmartHouseControllerPS = {}
 
 ---@param fields? table
@@ -89,7 +89,7 @@ function SmartHouseControllerPS:OnOpenInteriorManager(evt) return end
 ---@return EntityNotificationType
 function SmartHouseControllerPS:OnPresetAction(evt) return end
 
----@param preset CName
+---@param preset CName|string
 ---@return nil
 function SmartHouseControllerPS:QuestForcePreset(preset) return end
 

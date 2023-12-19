@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class appearanceAppearancePartOverrides
----@field public partResource entEntityTemplate
----@field public componentsOverrides appearancePartComponentOverrides[]
+---@field public ["partResource"] entEntityTemplate
+---@field public ["componentsOverrides"] appearancePartComponentOverrides[]
 appearanceAppearancePartOverrides = {}
 
 ---@param fields? table

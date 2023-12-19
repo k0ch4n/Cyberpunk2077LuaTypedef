@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipAttachmentEntryController: inkWidgetLogicController
----@field protected text inkTextWidgetReference
----@field protected attunementContainer inkWidgetReference
----@field protected attunementText inkTextWidgetReference
----@field protected attunementIcon inkImageWidgetReference
----@field protected settings userSettingsUserSettings
----@field protected settingsListener NewItemTooltipAttachmentEntrySettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected isCrafting Bool
+---@field protected ["text"] inkTextWidgetReference
+---@field protected ["attunementContainer"] inkWidgetReference
+---@field protected ["attunementText"] inkTextWidgetReference
+---@field protected ["attunementIcon"] inkImageWidgetReference
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] NewItemTooltipAttachmentEntrySettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["isCrafting"] Bool
 NewItemTooltipAttachmentEntryController = {}
 
 ---@param fields? table
@@ -34,8 +34,8 @@ function NewItemTooltipAttachmentEntryController:NewSetTooltipSize(value) return
 ---@return nil
 function NewItemTooltipAttachmentEntryController:NewUpdateTooltipSize() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

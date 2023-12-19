@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeactivateNetworkLinkTaskData: gameScriptTaskData
----@field public linkIndex Int32
----@field public instant Bool
+---@field public ["linkIndex"] Int32
+---@field public ["instant"] Bool
 DeactivateNetworkLinkTaskData = {}
 
 ---@param fields? table

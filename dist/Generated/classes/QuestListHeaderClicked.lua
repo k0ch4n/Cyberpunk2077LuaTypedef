@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestListHeaderClicked: redEvent
----@field public questType Int32
+---@field public ["questType"] Int32
 QuestListHeaderClicked = {}
 
 ---@param fields? table

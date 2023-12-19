@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameObjectListener: IScriptable
----@field public prereqOwner gamePrereqState
----@field public e3HackBlock Bool
+---@field public ["prereqOwner"] gamePrereqState
+---@field public ["e3HackBlock"] Bool
 GameObjectListener = {}
 
 ---@param fields? table

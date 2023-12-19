@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioVehicleDoorsSettingsMetadata
----@field public door audioVehicleDoorsSettings
----@field public trunk audioVehicleDoorsSettings
----@field public hood audioVehicleDoorsSettings
+---@field public ["door"] audioVehicleDoorsSettings
+---@field public ["trunk"] audioVehicleDoorsSettings
+---@field public ["hood"] audioVehicleDoorsSettings
 audioVehicleDoorsSettingsMetadata = {}
 
 ---@param fields? table

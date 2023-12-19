@@ -3,7 +3,7 @@
 
 ---@enum inkTextureType
 inkTextureType = {
-    ["StaticTexture"] = 0,
-    ["DynamicTexture"] = 1,
-    ["InvalidTexture"] = 2
+    ["StaticTexture"] = 0, ---@type Enum
+    ["DynamicTexture"] = 1, ---@type Enum
+    ["InvalidTexture"] = 2, ---@type Enum
 }

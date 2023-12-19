@@ -3,8 +3,8 @@
 
 ---@enum RenderDecalOrderPriority
 RenderDecalOrderPriority = {
-    ["Priority0"] = 0,
-    ["Priority1"] = 1,
-    ["Priority2"] = 2,
-    ["Priority3"] = 3
+    ["Priority0"] = 0, ---@type Enum
+    ["Priority1"] = 1, ---@type Enum
+    ["Priority2"] = 2, ---@type Enum
+    ["Priority3"] = 3, ---@type Enum
 }

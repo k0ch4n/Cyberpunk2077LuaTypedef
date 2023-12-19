@@ -3,7 +3,7 @@
 
 ---@enum DerivedFilterResult
 DerivedFilterResult = {
-    ["False"] = 0,
-    ["True"] = 1,
-    ["Pass"] = 2
+    ["False"] = 0, ---@type Enum
+    ["True"] = 1, ---@type Enum
+    ["Pass"] = 2, ---@type Enum
 }

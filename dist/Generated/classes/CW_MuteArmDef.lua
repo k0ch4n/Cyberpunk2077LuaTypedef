@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CW_MuteArmDef: gamebbScriptDefinition
----@field public MuteArmActive gamebbScriptID_Bool
----@field public MuteArmRadius gamebbScriptID_Float
+---@field public ["MuteArmActive"] gamebbScriptID_Bool
+---@field public ["MuteArmRadius"] gamebbScriptID_Float
 CW_MuteArmDef = {}
 
 ---@param fields? table

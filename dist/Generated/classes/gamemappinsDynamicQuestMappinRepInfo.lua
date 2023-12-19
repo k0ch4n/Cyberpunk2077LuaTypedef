@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamemappinsDynamicQuestMappinRepInfo
----@field public journalPathHash Uint32
----@field public entity entEntity
+---@field public ["journalPathHash"] Uint32
+---@field public ["entity"] entEntity
 gamemappinsDynamicQuestMappinRepInfo = {}
 
 ---@param fields? table

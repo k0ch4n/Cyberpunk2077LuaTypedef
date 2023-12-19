@@ -3,6 +3,6 @@
 
 ---@enum EComponentOperation
 EComponentOperation = {
-    ["Enable"] = 0,
-    ["Disable"] = 1
+    ["Enable"] = 0, ---@type Enum
+    ["Disable"] = 1, ---@type Enum
 }

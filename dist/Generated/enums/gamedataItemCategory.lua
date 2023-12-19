@@ -3,14 +3,14 @@
 
 ---@enum gamedataItemCategory
 gamedataItemCategory = {
-    ["Clothing"] = 0,
-    ["Consumable"] = 1,
-    ["Cyberware"] = 2,
-    ["Gadget"] = 3,
-    ["General"] = 4,
-    ["Part"] = 5,
-    ["Weapon"] = 6,
-    ["WeaponMod"] = 7,
-    ["Count"] = 8,
-    ["Invalid"] = 9
+    ["Clothing"] = 0, ---@type Enum
+    ["Consumable"] = 1, ---@type Enum
+    ["Cyberware"] = 2, ---@type Enum
+    ["Gadget"] = 3, ---@type Enum
+    ["General"] = 4, ---@type Enum
+    ["Part"] = 5, ---@type Enum
+    ["Weapon"] = 6, ---@type Enum
+    ["WeaponMod"] = 7, ---@type Enum
+    ["Count"] = 8, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

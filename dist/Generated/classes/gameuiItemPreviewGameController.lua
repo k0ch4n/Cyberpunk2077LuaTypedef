@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiItemPreviewGameController: gameuiPreviewGameController
----@field public root inkWidgetReference
----@field public image inkImageWidgetReference
----@field public sceneName CName
----@field public cameraRef NodeRef
+---@field public ["root"] inkWidgetReference
+---@field public ["image"] inkImageWidgetReference
+---@field public ["sceneName"] CName
+---@field public ["cameraRef"] NodeRef
 gameuiItemPreviewGameController = {}
 
 ---@param fields? table

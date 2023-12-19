@@ -3,7 +3,7 @@
 
 ---@enum EForcedElevatorArrowsState
 EForcedElevatorArrowsState = {
-    ["Disabled"] = 0,
-    ["ArrowsUp"] = 1,
-    ["ArrowsDown"] = 2
+    ["Disabled"] = 0, ---@type Enum
+    ["ArrowsUp"] = 1, ---@type Enum
+    ["ArrowsDown"] = 2, ---@type Enum
 }

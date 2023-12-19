@@ -3,14 +3,14 @@
 
 ---@enum scnDialogLineVisualStyle
 scnDialogLineVisualStyle = {
-    ["regular"] = 0,
-    ["overHead"] = 1,
-    ["radio"] = 2,
-    ["globalTV"] = 3,
-    ["invisible"] = 4,
-    ["innerDialog"] = 5,
-    ["overHeadAlwaysVisible"] = 6,
-    ["alwaysCinematicNoSpeaker"] = 7,
-    ["globalTVAlwaysVisible"] = 8,
-    ["narrator"] = 9
+    ["regular"] = 0, ---@type Enum
+    ["overHead"] = 1, ---@type Enum
+    ["radio"] = 2, ---@type Enum
+    ["globalTV"] = 3, ---@type Enum
+    ["invisible"] = 4, ---@type Enum
+    ["innerDialog"] = 5, ---@type Enum
+    ["overHeadAlwaysVisible"] = 6, ---@type Enum
+    ["alwaysCinematicNoSpeaker"] = 7, ---@type Enum
+    ["globalTVAlwaysVisible"] = 8, ---@type Enum
+    ["narrator"] = 9, ---@type Enum
 }

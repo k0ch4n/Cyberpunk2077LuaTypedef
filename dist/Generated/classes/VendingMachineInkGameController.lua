@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class VendingMachineInkGameController: DeviceInkGameControllerBase
----@field protected ActionsPanel inkHorizontalPanelWidgetReference
----@field protected ActionsPanel2 inkHorizontalPanelWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected noMoneyPanel inkCompoundWidgetReference
----@field protected soldOutPanel inkCompoundWidgetReference
----@field protected state PaymentStatus
----@field protected soldOut Bool
----@field private onUpdateStatusListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onSoldOutListener redCallbackObject
+---@field protected ["ActionsPanel"] inkHorizontalPanelWidgetReference
+---@field protected ["ActionsPanel2"] inkHorizontalPanelWidgetReference
+---@field protected ["priceText"] inkTextWidgetReference
+---@field protected ["noMoneyPanel"] inkCompoundWidgetReference
+---@field protected ["soldOutPanel"] inkCompoundWidgetReference
+---@field protected ["state"] PaymentStatus
+---@field protected ["soldOut"] Bool
+---@field private ["onUpdateStatusListener"] redCallbackObject
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
+---@field private ["onSoldOutListener"] redCallbackObject
 VendingMachineInkGameController = {}
 
 ---@param fields? table

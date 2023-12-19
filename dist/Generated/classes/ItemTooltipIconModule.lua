@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipIconModule: ItemTooltipModuleController
----@field private container inkImageWidgetReference
----@field private icon inkImageWidgetReference
----@field private iconicLines inkImageWidgetReference
----@field private transmogged inkImageWidgetReference
----@field private iconsNameResolver gameuiIconsNameResolver
+---@field private ["container"] inkImageWidgetReference
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["iconicLines"] inkImageWidgetReference
+---@field private ["transmogged"] inkImageWidgetReference
+---@field private ["iconsNameResolver"] gameuiIconsNameResolver
 ItemTooltipIconModule = {}
 
 ---@param fields? table

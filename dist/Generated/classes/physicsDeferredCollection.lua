@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsDeferredCollection: ISerializable
----@field public buffer serializationDeferredDataBuffer
+---@field public ["buffer"] serializationDeferredDataBuffer
 physicsDeferredCollection = {}
 
 ---@param fields? table

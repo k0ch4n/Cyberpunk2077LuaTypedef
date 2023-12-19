@@ -13,6 +13,6 @@ function SpiderbotDistractionPerformed.new(fields) return end
 ---@return Bool
 function SpiderbotDistractionPerformed.IsDefaultConditionMet(device, context) return end
 
----@param action_name CName
+---@param action_name CName|string
 ---@return nil
 function SpiderbotDistractionPerformed:SetProperties(action_name) return end

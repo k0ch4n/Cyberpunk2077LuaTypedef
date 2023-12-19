@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_SingleRicochetTarget: gameEffectObjectProvider
----@field public filterData physicsFilterData
----@field public queryPreset physicsQueryPreset
+---@field public ["filterData"] physicsFilterData
+---@field public ["queryPreset"] physicsQueryPreset
 gameEffectObjectProvider_SingleRicochetTarget = {}
 
 ---@param fields? table

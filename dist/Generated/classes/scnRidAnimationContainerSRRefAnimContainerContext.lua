@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidAnimationContainerSRRefAnimContainerContext
----@field public genderMask scnGenderMask
+---@field public ["genderMask"] scnGenderMask
 scnRidAnimationContainerSRRefAnimContainerContext = {}
 
 ---@param fields? table

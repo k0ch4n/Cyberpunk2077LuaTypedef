@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GetRandomThreat: AIRandomTasks
----@field public outThreatArgument AIArgumentMapping
+---@field public ["outThreatArgument"] AIArgumentMapping
 GetRandomThreat = {}
 
 ---@param fields? table

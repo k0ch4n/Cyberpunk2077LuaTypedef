@@ -3,5 +3,5 @@
 
 ---@enum gameEInventoryFlags
 gameEInventoryFlags = {
-    ["MustSave"] = 1
+    ["MustSave"] = 1, ---@type Enum
 }

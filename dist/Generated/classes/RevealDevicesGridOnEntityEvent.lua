@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RevealDevicesGridOnEntityEvent: redEvent
----@field public shouldDraw Bool
+---@field public ["shouldDraw"] Bool
 RevealDevicesGridOnEntityEvent = {}
 
 ---@param fields? table

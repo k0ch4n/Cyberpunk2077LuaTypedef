@@ -13,7 +13,7 @@ function MenuScenario_Vendor.new(fields) return end
 function MenuScenario_Vendor:OnCloseHubMenuRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_Vendor:OnEnterScenario(prevScenario, userData) return end
@@ -24,7 +24,7 @@ function MenuScenario_Vendor:OnEnterScenario(prevScenario, userData) return end
 function MenuScenario_Vendor:OnEquipAnimationDataUpdate(userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_Vendor:OnLeaveScenario(nextScenario) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TrajectoryFromMetaPose: animAnimNode_OnePoseInput
----@field public metaPoseTrajectoryLs animTransformIndex
+---@field public ["metaPoseTrajectoryLs"] animTransformIndex
 animAnimNode_TrajectoryFromMetaPose = {}
 
 ---@param fields? table

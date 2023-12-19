@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class entPhysicalMeshComponent: entMeshComponent
----@field public visibilityAnimationParam CName
----@field public simulationType physicsSimulationType
----@field public useResourceSimulationType Bool
----@field public startInactive Bool
----@field public filterDataSource physicsFilterDataSource
----@field public filterData physicsFilterData
+---@field public ["visibilityAnimationParam"] CName
+---@field public ["simulationType"] physicsSimulationType
+---@field public ["useResourceSimulationType"] Bool
+---@field public ["startInactive"] Bool
+---@field public ["filterDataSource"] physicsFilterDataSource
+---@field public ["filterData"] physicsFilterData
 entPhysicalMeshComponent = {}
 
 ---@param fields? table

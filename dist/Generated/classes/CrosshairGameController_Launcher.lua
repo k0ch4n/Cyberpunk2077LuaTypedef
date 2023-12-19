@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Launcher: gameuiCrosshairBaseGameController
----@field private weaponBBID redCallbackObject
----@field private animationProxy inkanimProxy
----@field private Cori_S inkCanvasWidgetReference
----@field private Cori_M inkCanvasWidgetReference
----@field private rightStickX Float
----@field private rightStickY Float
----@field private currentState gamePSMLeftHandCyberware
+---@field private ["weaponBBID"] redCallbackObject
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["Cori_S"] inkCanvasWidgetReference
+---@field private ["Cori_M"] inkCanvasWidgetReference
+---@field private ["rightStickX"] Float
+---@field private ["rightStickY"] Float
+---@field private ["currentState"] gamePSMLeftHandCyberware
 CrosshairGameController_Launcher = {}
 
 ---@param fields? table

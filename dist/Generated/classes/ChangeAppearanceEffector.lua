@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ChangeAppearanceEffector: gameEffector
----@field private appearanceName CName
----@field private resetAppearance Bool
----@field private previousAppearance CName
----@field private owner gameObject
+---@field private ["appearanceName"] CName
+---@field private ["resetAppearance"] Bool
+---@field private ["previousAppearance"] CName
+---@field private ["owner"] gameObject
 ChangeAppearanceEffector = {}
 
 ---@param fields? table

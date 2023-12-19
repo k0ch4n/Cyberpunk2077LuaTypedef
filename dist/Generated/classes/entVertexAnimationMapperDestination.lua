@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entVertexAnimationMapperDestination
----@field public vertexCustomSlotIndex Uint32
+---@field public ["vertexCustomSlotIndex"] Uint32
 entVertexAnimationMapperDestination = {}
 
 ---@param fields? table

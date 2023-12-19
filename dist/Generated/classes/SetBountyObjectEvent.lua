@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBountyObjectEvent: redEvent
----@field public bounty Bounty
+---@field public ["bounty"] Bounty
 SetBountyObjectEvent = {}
 
 ---@param fields? table

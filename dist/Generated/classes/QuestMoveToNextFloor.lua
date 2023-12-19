@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestMoveToNextFloor: ActionBool
----@field public floor NodeRef
+---@field public ["floor"] NodeRef
 QuestMoveToNextFloor = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum worldTrafficSpotDirection
 worldTrafficSpotDirection = {
-    ["Forward"] = 0,
-    ["Backward"] = 1,
-    ["Both"] = 2
+    ["Forward"] = 0, ---@type Enum
+    ["Backward"] = 1, ---@type Enum
+    ["Both"] = 2, ---@type Enum
 }

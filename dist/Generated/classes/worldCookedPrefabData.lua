@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCookedPrefabData: CResource
----@field public precookedDependencies CResource[]
----@field public dependencies CResource[]
+---@field public ["precookedDependencies"] CResource[]
+---@field public ["dependencies"] CResource[]
 worldCookedPrefabData = {}
 
 ---@param fields? table

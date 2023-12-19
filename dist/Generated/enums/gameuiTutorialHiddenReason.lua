@@ -3,7 +3,7 @@
 
 ---@enum gameuiTutorialHiddenReason
 gameuiTutorialHiddenReason = {
-    ["None"] = 0,
-    ["DefaultHiddenReason"] = 1,
-    ["InPhotomode"] = 2
+    ["None"] = 0, ---@type Enum
+    ["DefaultHiddenReason"] = 1, ---@type Enum
+    ["InPhotomode"] = 2, ---@type Enum
 }

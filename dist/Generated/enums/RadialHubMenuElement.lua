@@ -3,9 +3,9 @@
 
 ---@enum RadialHubMenuElement
 RadialHubMenuElement = {
-    ["None"] = 0,
-    ["Inventory"] = 1,
-    ["Map"] = 2,
-    ["Character"] = 3,
-    ["Journal"] = 4
+    ["None"] = 0, ---@type Enum
+    ["Inventory"] = 1, ---@type Enum
+    ["Map"] = 2, ---@type Enum
+    ["Character"] = 3, ---@type Enum
+    ["Journal"] = 4, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entdismembermentFillMeshInfo: entdismembermentMeshInfo
----@field public Placement entdismembermentPlacementE
----@field public Simulation entdismembermentSimulationTypeE
----@field public Dangle entdismembermentDangleInfo
+---@field public ["Placement"] entdismembermentPlacementE
+---@field public ["Simulation"] entdismembermentSimulationTypeE
+---@field public ["Dangle"] entdismembermentDangleInfo
 entdismembermentFillMeshInfo = {}
 
 ---@param fields? table

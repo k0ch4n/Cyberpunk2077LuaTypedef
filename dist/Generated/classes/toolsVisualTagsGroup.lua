@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsVisualTagsGroup: ISerializable
----@field public name CName
----@field public tags toolsVisualTagsDefinition[]
+---@field public ["name"] CName
+---@field public ["tags"] toolsVisualTagsDefinition[]
 toolsVisualTagsGroup = {}
 
 ---@param fields? table

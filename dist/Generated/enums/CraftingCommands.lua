@@ -3,8 +3,8 @@
 
 ---@enum CraftingCommands
 CraftingCommands = {
-    ["CraftingFinished"] = 0,
-    ["DisassemblingFinished"] = 1,
-    ["UpgradingFinished"] = 2,
-    ["Failed"] = 3
+    ["CraftingFinished"] = 0, ---@type Enum
+    ["DisassemblingFinished"] = 1, ---@type Enum
+    ["UpgradingFinished"] = 2, ---@type Enum
+    ["Failed"] = 3, ---@type Enum
 }

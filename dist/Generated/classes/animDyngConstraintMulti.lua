@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animDyngConstraintMulti: animIDyngConstraint
----@field public innerConstraints animIDyngConstraint[]
+---@field public ["innerConstraints"] animIDyngConstraint[]
 animDyngConstraintMulti = {}
 
 ---@param fields? table

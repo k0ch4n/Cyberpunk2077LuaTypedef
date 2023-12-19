@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiUIInteractionData
----@field public interactionListActive Bool
----@field public terminalInteractionActive Bool
+---@field public ["interactionListActive"] Bool
+---@field public ["terminalInteractionActive"] Bool
 gameuiUIInteractionData = {}
 
 ---@param fields? table

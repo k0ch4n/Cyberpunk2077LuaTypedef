@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class buffListItemLogicController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private iconBg inkImageWidgetReference
----@field private fill inkWidgetReference
----@field private fillWidget inkWidget
----@field private timeLabel inkTextWidgetReference
----@field private stackCounter inkTextWidgetReference
----@field private stackCounterContainer inkWidgetReference
----@field private statusEffectRecord gamedataStatusEffect_Record
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["iconBg"] inkImageWidgetReference
+---@field private ["fill"] inkWidgetReference
+---@field private ["fillWidget"] inkWidget
+---@field private ["timeLabel"] inkTextWidgetReference
+---@field private ["stackCounter"] inkTextWidgetReference
+---@field private ["stackCounterContainer"] inkWidgetReference
+---@field private ["statusEffectRecord"] gamedataStatusEffect_Record
 buffListItemLogicController = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function buffListItemLogicController:OnInitialize() return end
 ---@return gamedataStatusEffect_Record
 function buffListItemLogicController:GetStatusEffectRecord() return end
 
----@param icon CName
+---@param icon CName|string
 ---@param time Float
 ---@param totalTime Float
 ---@param stackCount? Int32
@@ -36,7 +36,7 @@ function buffListItemLogicController:SetData(icon, time, totalTime, stackCount) 
 ---@return nil
 function buffListItemLogicController:SetData(icon, time, totalTime) return end
 
----@param icon CName
+---@param icon CName|string
 ---@param stackCount Int32
 ---@return nil
 function buffListItemLogicController:SetData(icon, stackCount) return end

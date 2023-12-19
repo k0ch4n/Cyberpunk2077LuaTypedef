@@ -12,7 +12,7 @@ function ScriptGameInstance.new(fields) return end
 ---@return entEntity
 function ScriptGameInstance.FindEntityByID(entityId) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil, Vector4[] waypoints
 function ScriptGameInstance.FindWaypointsByTag(tag) return end
 
@@ -329,7 +329,7 @@ function ScriptGameInstance.IsTweakContentTagActive() return end
 ---@return Bool
 function ScriptGameInstance.IsValid() return end
 
----@param scriptableSystemName CName
+---@param scriptableSystemName CName|string
 ---@param request gameScriptableSystemRequest
 ---@return Bool
 function ScriptGameInstance.QueueScriptableSystemRequest(scriptableSystemName, request) return end

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkNavigationOverrideEntry
----@field public from inkWidgetReference
----@field public direction inkDiscreteNavigationDirection
----@field public to inkWidgetReference
+---@field public ["from"] inkWidgetReference
+---@field public ["direction"] inkDiscreteNavigationDirection
+---@field public ["to"] inkWidgetReference
 inkNavigationOverrideEntry = {}
 
 ---@param fields? table

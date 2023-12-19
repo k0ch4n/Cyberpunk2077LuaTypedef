@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatusEffectTriggerListener: gameCustomValueStatPoolsListener
----@field public owner gameObject
----@field public statusEffect TweakDBID
----@field public statPoolType gamedataStatPoolType
----@field public instigator gameObject
+---@field public ["owner"] gameObject
+---@field public ["statusEffect"] TweakDBID
+---@field public ["statPoolType"] gamedataStatPoolType
+---@field public ["instigator"] gameObject
 StatusEffectTriggerListener = {}
 
 ---@param fields? table

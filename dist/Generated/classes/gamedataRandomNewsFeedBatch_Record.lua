@@ -11,7 +11,7 @@ function gamedataRandomNewsFeedBatch_Record.new(fields) return end
 ---@return CName[]
 function gamedataRandomNewsFeedBatch_Record:FeedList() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataRandomNewsFeedBatch_Record:FeedListContains(item) return end
 

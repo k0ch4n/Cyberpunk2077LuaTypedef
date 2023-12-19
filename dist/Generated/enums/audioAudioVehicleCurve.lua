@@ -3,7 +3,7 @@
 
 ---@enum audioAudioVehicleCurve
 audioAudioVehicleCurve = {
-    ["ThrottleInput"] = 0,
-    ["RPM"] = 1,
-    ["Gear"] = 2
+    ["ThrottleInput"] = 0, ---@type Enum
+    ["RPM"] = 1, ---@type Enum
+    ["Gear"] = 2, ---@type Enum
 }

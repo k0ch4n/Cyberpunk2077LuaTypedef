@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficCollisionDebug: ISerializable
----@field public overlapBoxes worldDbgOverlapBox[]
+---@field public ["overlapBoxes"] worldDbgOverlapBox[]
 worldTrafficCollisionDebug = {}
 
 ---@param fields? table

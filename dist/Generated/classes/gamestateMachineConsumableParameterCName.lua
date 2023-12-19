@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineConsumableParameterCName: gamestateMachineActionParameterCName
----@field public consumed Bool
+---@field public ["consumed"] Bool
 gamestateMachineConsumableParameterCName = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MonowireSpreadableNPC: IScriptable
----@field public NPCPuppet NPCPuppet
----@field public HitEvent gameeventsHitEvent
+---@field public ["NPCPuppet"] NPCPuppet
+---@field public ["HitEvent"] gameeventsHitEvent
 MonowireSpreadableNPC = {}
 
 ---@param fields? table

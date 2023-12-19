@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OnBeingTarget: redEvent
----@field public objectThatTargets gameObject
----@field public noLongerTarget Bool
+---@field public ["objectThatTargets"] gameObject
+---@field public ["noLongerTarget"] Bool
 OnBeingTarget = {}
 
 ---@param fields? table

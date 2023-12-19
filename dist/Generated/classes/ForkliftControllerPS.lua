@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ForkliftControllerPS: ScriptableDeviceComponentPS
----@field private forkliftSetup ForkliftSetup
----@field private isUp Bool
+---@field private ["forkliftSetup"] ForkliftSetup
+---@field private ["isUp"] Bool
 ForkliftControllerPS = {}
 
 ---@param fields? table

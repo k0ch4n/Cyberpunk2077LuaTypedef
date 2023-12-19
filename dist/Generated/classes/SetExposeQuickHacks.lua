@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetExposeQuickHacks: ActionBool
----@field public isRemote Bool
+---@field public ["isRemote"] Bool
 SetExposeQuickHacks = {}
 
 ---@param fields? table

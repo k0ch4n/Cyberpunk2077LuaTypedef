@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleEventReceiverSpawn: IParticleEvent
----@field public spawnObject EParticleEventSpawnObject
+---@field public ["spawnObject"] EParticleEventSpawnObject
 CParticleEventReceiverSpawn = {}
 
 ---@param fields? table

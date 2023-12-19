@@ -27,7 +27,7 @@ function AirThrustersEvents:OnExit(stateContext, scriptInterface) return end
 
 ---@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AirThrustersEvents:PlayEffectOnItem(scriptInterface, effectName) return end
 
@@ -46,6 +46,6 @@ function AirThrustersEvents:SetUpwardsThrustStats(stateContext, scriptInterface)
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AirThrustersEvents:StopEffectOnItem(scriptInterface, effectName) return end

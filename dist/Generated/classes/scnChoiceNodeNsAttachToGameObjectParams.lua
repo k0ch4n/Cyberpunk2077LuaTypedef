@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsAttachToGameObjectParams
----@field public nodeRef NodeRef
----@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
+---@field public ["nodeRef"] NodeRef
+---@field public ["visualizerStyle"] scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToGameObjectParams = {}
 
 ---@param fields? table

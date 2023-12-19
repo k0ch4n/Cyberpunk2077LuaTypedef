@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class navgendebugCompactSpan
----@field public spanData Uint32
+---@field public ["spanData"] Uint32
 navgendebugCompactSpan = {}
 
 ---@param fields? table

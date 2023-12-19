@@ -12,6 +12,19 @@
 ---@alias Uint64 integer
 ---@alias Float number
 ---@alias Double number
+---@class string: CName
+
+---@param aValue any
+---@param aTypeName? string
+---@return Variant?
+function ToVariant(aValue, aTypeName) end
+
+---@param aVariant Variant
+---@return any
+function FromVariant(aVariant) end
+
+---@return inkISystemRequestsHandler
+function Game.GetSystemRequestsHandler() end
 
 ---@param acStr string
 ---@param acChunkName string
@@ -194,7 +207,6 @@ function Override(acTypeName, acFullName, aFunction) end
 ---@param aFunction fun(self: T, ...: any): any The callback function
 ---@return nil
 function ObserveBefore(acTypeName, acFullName, aFunction) end
-
 Observe = ObserveBefore
 
 ---

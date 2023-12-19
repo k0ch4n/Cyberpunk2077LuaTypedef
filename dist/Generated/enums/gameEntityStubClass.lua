@@ -3,7 +3,7 @@
 
 ---@enum gameEntityStubClass
 gameEntityStubClass = {
-    ["Other"] = 0,
-    ["Puppet"] = 1,
-    ["Vehicle"] = 2
+    ["Other"] = 0, ---@type Enum
+    ["Puppet"] = 1, ---@type Enum
+    ["Vehicle"] = 2, ---@type Enum
 }

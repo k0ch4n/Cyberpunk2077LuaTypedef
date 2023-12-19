@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entDistanceLODsPresets: ISerializable
----@field public definitions entLODDefinition
+---@field public ["definitions"] entLODDefinition
 entDistanceLODsPresets = {}
 
 ---@param fields? table

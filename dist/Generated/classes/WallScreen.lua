@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WallScreen: TV
----@field private movementPattern SMovementPattern
----@field private factOnFullyOpened CName
----@field private objectMover ObjectMoverComponent
+---@field private ["movementPattern"] SMovementPattern
+---@field private ["factOnFullyOpened"] CName
+---@field private ["objectMover"] ObjectMoverComponent
 WallScreen = {}
 
 ---@param fields? table

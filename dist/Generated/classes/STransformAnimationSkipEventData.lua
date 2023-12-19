@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class STransformAnimationSkipEventData
----@field public time Float
----@field public skipToEnd Bool
+---@field public ["time"] Float
+---@field public ["skipToEnd"] Bool
 STransformAnimationSkipEventData = {}
 
 ---@param fields? table

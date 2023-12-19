@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_Device: gameEffectExecutor_Scripted
----@field public maxDelay Float
+---@field public ["maxDelay"] Float
 EffectExecutor_Device = {}
 
 ---@protected

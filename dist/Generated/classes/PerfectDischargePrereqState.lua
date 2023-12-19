@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PerfectDischargePrereqState: StatPoolPrereqState
----@field public owner gameObject
----@field public perfectDischargeListener PerfectDischargePrereqListener
----@field public wasPerfectlyCharged Bool
+---@field public ["owner"] gameObject
+---@field public ["perfectDischargeListener"] PerfectDischargePrereqListener
+---@field public ["wasPerfectlyCharged"] Bool
 PerfectDischargePrereqState = {}
 
 ---@param fields? table

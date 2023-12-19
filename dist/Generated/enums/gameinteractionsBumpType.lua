@@ -3,6 +3,6 @@
 
 ---@enum gameinteractionsBumpType
 gameinteractionsBumpType = {
-    ["Workspot"] = 0,
-    ["Crowd"] = 1
+    ["Workspot"] = 0, ---@type Enum
+    ["Crowd"] = 1, ---@type Enum
 }

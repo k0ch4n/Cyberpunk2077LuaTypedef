@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentResource: resStreamedResource
----@field public data worldTrafficPersistentData
+---@field public ["data"] worldTrafficPersistentData
 worldTrafficPersistentResource = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class VehicleMappinComponent: IScriptable
----@field private questMappinController QuestMappinController
----@field private vehicleMappin gamemappinsVehicleMappin
----@field private vehicle vehicleBaseObject
----@field private vehicleEntityID entEntityID
----@field private playerMounted Bool
----@field private vehicleEnRoute Bool
----@field private scheduleDiscreteModeDelayID gameDelayID
----@field private invalidDelayID gameDelayID
----@field private init Bool
----@field private vehicleSummonDataDef VehicleSummonDataDef
----@field private vehicleSummonDataBB gameIBlackboard
----@field private vehicleSummonStateCallback redCallbackObject
----@field private uiActiveVehicleDataDef UI_ActiveVehicleDataDef
----@field private uiActiveVehicleDataBB gameIBlackboard
----@field private vehPlayerStateDataCallback redCallbackObject
+---@field private ["questMappinController"] QuestMappinController
+---@field private ["vehicleMappin"] gamemappinsVehicleMappin
+---@field private ["vehicle"] vehicleBaseObject
+---@field private ["vehicleEntityID"] entEntityID
+---@field private ["playerMounted"] Bool
+---@field private ["vehicleEnRoute"] Bool
+---@field private ["scheduleDiscreteModeDelayID"] gameDelayID
+---@field private ["invalidDelayID"] gameDelayID
+---@field private ["init"] Bool
+---@field private ["vehicleSummonDataDef"] VehicleSummonDataDef
+---@field private ["vehicleSummonDataBB"] gameIBlackboard
+---@field private ["vehicleSummonStateCallback"] redCallbackObject
+---@field private ["uiActiveVehicleDataDef"] UI_ActiveVehicleDataDef
+---@field private ["uiActiveVehicleDataBB"] gameIBlackboard
+---@field private ["vehPlayerStateDataCallback"] redCallbackObject
 VehicleMappinComponent = {}
 
 ---@param fields? table

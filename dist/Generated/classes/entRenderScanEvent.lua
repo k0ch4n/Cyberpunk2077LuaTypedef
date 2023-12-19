@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entRenderScanEvent: redEvent
----@field public scanState rendPostFx_ScanningState
+---@field public ["scanState"] rendPostFx_ScanningState
 entRenderScanEvent = {}
 
 ---@param fields? table

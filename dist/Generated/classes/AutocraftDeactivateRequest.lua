@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AutocraftDeactivateRequest: gameScriptableSystemRequest
----@field public resetMemory Bool
+---@field public ["resetMemory"] Bool
 AutocraftDeactivateRequest = {}
 
 ---@param fields? table

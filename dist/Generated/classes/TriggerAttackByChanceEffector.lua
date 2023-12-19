@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackByChanceEffector: gameEffector
----@field protected attackTDBID TweakDBID
----@field protected selfStatusEffectID TweakDBID
----@field protected chance Float
----@field protected statType gamedataStatType
----@field private ownerID entEntityID
----@field private statListener TriggerAttackByChanceStatListener
----@field public statBasedChance Float
+---@field protected ["attackTDBID"] TweakDBID
+---@field protected ["selfStatusEffectID"] TweakDBID
+---@field protected ["chance"] Float
+---@field protected ["statType"] gamedataStatType
+---@field private ["ownerID"] entEntityID
+---@field private ["statListener"] TriggerAttackByChanceStatListener
+---@field public ["statBasedChance"] Float
 TriggerAttackByChanceEffector = {}
 
 ---@param fields? table

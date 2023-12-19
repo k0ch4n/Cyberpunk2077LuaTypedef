@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StrikeFilterSingle_NPC: gameEffectObjectSingleFilter_Scripted
----@field public onlyAlive Bool
----@field public onlyEnemies Bool
+---@field public ["onlyAlive"] Bool
+---@field public ["onlyEnemies"] Bool
 StrikeFilterSingle_NPC = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum moveLineOfSight
 moveLineOfSight = {
-    ["None"] = 0,
-    ["Keep"] = 1,
-    ["Avoid"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Keep"] = 1, ---@type Enum
+    ["Avoid"] = 2, ---@type Enum
 }

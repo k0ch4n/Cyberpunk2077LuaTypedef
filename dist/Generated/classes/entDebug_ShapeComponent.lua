@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class entDebug_ShapeComponent: entIVisualComponent
----@field public shape entDebug_ShapeType
----@field public radius Float
----@field public halfHeight Float
----@field public color Color
----@field public isEnabled Bool
+---@field public ["shape"] entDebug_ShapeType
+---@field public ["radius"] Float
+---@field public ["halfHeight"] Float
+---@field public ["color"] Color
+---@field public ["isEnabled"] Bool
 entDebug_ShapeComponent = {}
 
 ---@param fields? table

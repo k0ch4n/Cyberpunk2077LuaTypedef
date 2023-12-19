@@ -48,6 +48,6 @@ function gamedataAINPCTypeCond_Record:TargetHandle() return end
 ---@return CName[]
 function gamedataAINPCTypeCond_Record:VisualTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAINPCTypeCond_Record:VisualTagsContains(item) return end

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InputProgressView: inkWidgetLogicController
----@field private TargetImage inkImageWidget
----@field private ProgressPercent Int32
----@field private PartName String
+---@field private ["TargetImage"] inkImageWidget
+---@field private ["ProgressPercent"] Int32
+---@field private ["PartName"] String
 InputProgressView = {}
 
 ---@param fields? table

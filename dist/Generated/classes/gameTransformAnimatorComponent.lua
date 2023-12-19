@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimatorComponent: entIPlacedComponent
----@field public animations gameTransformAnimationDefinition[]
+---@field public ["animations"] gameTransformAnimationDefinition[]
 gameTransformAnimatorComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneSolutionHash
----@field public sceneSolutionHash scnSceneSolutionHashHash
+---@field public ["sceneSolutionHash"] scnSceneSolutionHashHash
 scnSceneSolutionHash = {}
 
 ---@param fields? table

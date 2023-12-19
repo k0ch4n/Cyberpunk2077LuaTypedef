@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPoseBlendMethod_Mask: animIPoseBlendMethod
----@field public maskName CName
+---@field public ["maskName"] CName
 animPoseBlendMethod_Mask = {}
 
 ---@param fields? table

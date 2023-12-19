@@ -3,11 +3,11 @@
 
 ---@enum gameInitalChoiceStage
 gameInitalChoiceStage = {
-    ["None"] = 0,
-    ["Difficulty"] = 1,
-    ["LifePath"] = 2,
-    ["Gender"] = 3,
-    ["Customizations"] = 4,
-    ["Attributes"] = 5,
-    ["Finished"] = 6
+    ["None"] = 0, ---@type Enum
+    ["Difficulty"] = 1, ---@type Enum
+    ["LifePath"] = 2, ---@type Enum
+    ["Gender"] = 3, ---@type Enum
+    ["Customizations"] = 4, ---@type Enum
+    ["Attributes"] = 5, ---@type Enum
+    ["Finished"] = 6, ---@type Enum
 }

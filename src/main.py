@@ -91,6 +91,31 @@ class Dump:
 
 
 class Annotation:
+    reserved = [
+        "and",
+        "break",
+        "do",
+        "else",
+        "elseif",
+        "end",
+        "false",
+        "for",
+        "function",
+        "if",
+        "in",
+        "local",
+        "nil",
+        "not",
+        "or",
+        "repeat",
+        "return",
+        "then",
+        "true",
+        "until",
+        "while",
+        "goto",
+    ]
+
     def __init__(self, lua_code: str = "") -> None:
         self.lua_code = lua_code
 
@@ -133,17 +158,13 @@ class Annotation:
         self.add_custom(f"---@param {name} {type}")
 
     def add_function(self, name: str, type: str, params: list[dict], flags: int):
-        class_name = self.class_name
-        operator = "."
+        if re.match(r"(proxy|wrapper)\$\d+", name):
+            return
 
-        if (idx := name.rfind(operator)) != -1:
-            name = name[idx + 1 :]
-            class_name += operator + name[:idx]
+        operator = "."
 
         if ~flags & Flags.Function.isStatic:
             operator = ":"
-
-        name = class_name + operator + name
 
         if flags & Flags.Function.isPrivate:
             self.add_custom(f"---@private")
@@ -156,9 +177,15 @@ class Annotation:
             if param["type"] == "ScriptGameInstance":
                 continue
 
+            if param["name"] in self.reserved:
+                param["name"] = param["name"] + "_"
+
             if param["flags"] & Flags.Property.isOut:
                 types.append(f'{param["type"]} {param["name"]}')
                 continue
+
+            if re.match(r"CName(\[\])*", param["type"]):
+                param["type"] += "|" + param["type"].replace("CName", "string")
 
             self.add_param(param["name"], param["type"], param["flags"])
             param_names.append(param["name"])
@@ -166,7 +193,7 @@ class Annotation:
         separator = ", "
 
         self.add_custom(f"---@return {separator.join(types)}")
-        self.add_custom(f"function {name}({separator.join(param_names)}) return end")
+        self.add_custom(f"function {self.class_name}{operator}{name}({separator.join(param_names)}) return end")
 
     def add_constructor(self):
         params = [{"name": "fields", "type": "table", "flags": Flags.Property.isOptional}]
@@ -185,15 +212,16 @@ class Annotation:
         elif flags & Flags.Property.isPublic:
             scope = "public"
 
-        self.add_custom(f"---@field {scope} {name} {type}")
+        self.add_custom(f'---@field {scope} ["{name}"] {type}')
 
     def add_enum(self, name: str, options: list[dict]):
-        table = [f'    ["{option["name"]}"] = {option["value"]}' for option in options]
+        table = [f'["{option["name"]}"] = {option["value"]}' for option in options]
 
-        separator = ",\n"
+        separator = ","
+        type_anotation = "---@type Enum\n"
 
         self.add_custom(f"---@enum {name}")
-        self.add_custom(f"{name} = {{\n{separator.join(table)}\n}}\n")
+        self.add_custom(f'{name} = {{\n{"".join(f"    {f}{separator} {type_anotation}" for f in table)}}}\n')
 
     def add_bitfields(self, name: str, bits: list[dict]):
         table = [f'    {bit["name"]} = 0x{(1 << bit["bit"]):X}' for bit in bits]
@@ -206,11 +234,17 @@ class Annotation:
 
 class NameParser:
     @staticmethod
-    def function(name: str):
-        return name.split("::")[-1].split(";")[0]
+    def class_name(name: str):
+        return name.replace(".", "_")
 
     @staticmethod
-    def type(type_str: str):
+    def function(name: str):
+        # If the function name contains dots, it may not be callable from CET,
+        # but it needs to be replaced to avoid Lua syntax errors.
+        return name.split("::")[-1].split(";")[0].replace(".", "_")
+
+    @staticmethod
+    def type(type_name: str):
         type_map = [
             "array",
             "handle",
@@ -223,14 +257,14 @@ class NameParser:
         array_count = 0
 
         static_array_pt = re.compile(r"static:\d+")
-        split_type = type_str.split(",")
+        split_type = type_name.replace(".", "_").split(",")
 
         for i in range(len(split_type) - 1, -1, -1):
             if static_array_pt.match(split_type[i]):
                 split_type.pop(i)
 
         if len(split_type) != 1:
-            raise ValueError(f"Failed to parse type name: {type_str}.")
+            raise ValueError(f"Failed to parse type name: {type_name}.")
 
         dynamic_array_pt = re.compile(r"\[\d+\]")
         split_type = split_type[0].split(":")
@@ -276,7 +310,7 @@ class Writer:
             "SharedDataBuffer": "userdata",
             "String": "string",
             "TweakDBID": "TweakDBID",
-            "Variant": "userdata",
+            "Variant": "Variant",
         }
 
         for type_data in Dump.redmod["simple_types"]:
@@ -311,7 +345,7 @@ class Writer:
 
             annotation = Annotation()
             annotation.add_meta()
-            annotation.add_class(class_name, parent, class_flags, fields)
+            annotation.add_class(NameParser.class_name(class_name), NameParser.class_name(parent), class_flags, fields)
 
             if "funcs" in class_data:
                 for func_data in class_data["funcs"]:

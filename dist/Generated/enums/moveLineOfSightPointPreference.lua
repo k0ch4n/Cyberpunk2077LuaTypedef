@@ -3,8 +3,8 @@
 
 ---@enum moveLineOfSightPointPreference
 moveLineOfSightPointPreference = {
-    ["None"] = 0,
-    ["ClosestToOwner"] = 1,
-    ["ClosestToTarget"] = 2,
-    ["FurthestFromTarget"] = 3
+    ["None"] = 0, ---@type Enum
+    ["ClosestToOwner"] = 1, ---@type Enum
+    ["ClosestToTarget"] = 2, ---@type Enum
+    ["FurthestFromTarget"] = 3, ---@type Enum
 }

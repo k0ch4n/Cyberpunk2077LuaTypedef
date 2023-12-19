@@ -3,10 +3,10 @@
 
 ---@enum gamedataAIActionSecurityAreaType
 gamedataAIActionSecurityAreaType = {
-    ["DANGEROUS"] = 0,
-    ["DISABLED"] = 1,
-    ["RESTRICTED"] = 2,
-    ["SAFE"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["DANGEROUS"] = 0, ---@type Enum
+    ["DISABLED"] = 1, ---@type Enum
+    ["RESTRICTED"] = 2, ---@type Enum
+    ["SAFE"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

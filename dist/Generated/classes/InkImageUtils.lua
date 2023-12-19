@@ -23,83 +23,83 @@ function InkImageUtils.RequestAvatarOrUnknown(controller, target, iconID) return
 ---@param controller inkIWidgetController
 ---@param target inkImageWidget
 ---@param iconID TweakDBID
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidget
 ---@param iconID TweakDBID
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidgetReference
 ---@param iconID String
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidgetReference
----@param iconID CName
----@param callbackFunction? CName
+---@param iconID CName|string
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidgetReference
----@param iconID CName
----@param callbackFunction? CName
+---@param iconID CName|string
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidget
 ---@param iconID String
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidget
 ---@param iconID String
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidgetReference
 ---@param iconID TweakDBID
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidgetReference
 ---@param iconID TweakDBID
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidget
----@param iconID CName
----@param callbackFunction? CName
+---@param iconID CName|string
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidgetReference
 ---@param iconID String
----@param callbackFunction? CName
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidget
----@param iconID CName
----@param callbackFunction? CName
+---@param iconID CName|string
+---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end

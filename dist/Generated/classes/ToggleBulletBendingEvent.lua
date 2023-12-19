@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleBulletBendingEvent: redEvent
----@field public enabled Bool
+---@field public ["enabled"] Bool
 ToggleBulletBendingEvent = {}
 
 ---@param fields? table

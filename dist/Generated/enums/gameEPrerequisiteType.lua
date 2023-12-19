@@ -3,17 +3,17 @@
 
 ---@enum gameEPrerequisiteType
 gameEPrerequisiteType = {
-    ["None"] = 0,
-    ["NestedPrereq"] = 1,
-    ["StatValue"] = 2,
-    ["StatPoolValue"] = 3,
-    ["HealthAbsolute"] = 4,
-    ["HealthPercent"] = 5,
-    ["ItemInInventory"] = 6,
-    ["ItemEquipped"] = 7,
-    ["ItemCount"] = 8,
-    ["QuestAchieved"] = 9,
-    ["WasScanned"] = 10,
-    ["Attitude"] = 11,
-    ["Count"] = 12
+    ["None"] = 0, ---@type Enum
+    ["NestedPrereq"] = 1, ---@type Enum
+    ["StatValue"] = 2, ---@type Enum
+    ["StatPoolValue"] = 3, ---@type Enum
+    ["HealthAbsolute"] = 4, ---@type Enum
+    ["HealthPercent"] = 5, ---@type Enum
+    ["ItemInInventory"] = 6, ---@type Enum
+    ["ItemEquipped"] = 7, ---@type Enum
+    ["ItemCount"] = 8, ---@type Enum
+    ["QuestAchieved"] = 9, ---@type Enum
+    ["WasScanned"] = 10, ---@type Enum
+    ["Attitude"] = 11, ---@type Enum
+    ["Count"] = 12, ---@type Enum
 }

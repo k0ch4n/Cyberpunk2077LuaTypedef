@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class megatronChargeController: ChargeLogicController
----@field private chargeBar inkImageWidget
+---@field private ["chargeBar"] inkImageWidget
 megatronChargeController = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum inkanimLoopType
 inkanimLoopType = {
-    ["None"] = 0,
-    ["Cycle"] = 1,
-    ["PingPong"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Cycle"] = 1, ---@type Enum
+    ["PingPong"] = 2, ---@type Enum
 }

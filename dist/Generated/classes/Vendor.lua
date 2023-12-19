@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class Vendor: IScriptable
----@field public gameInstance ScriptGameInstance
----@field public vendorObject gameObject
----@field private tweakID TweakDBID
----@field private lastInteractionTime Float
----@field private stock gameSItemStack[]
----@field private newItems TweakDBID[]
----@field private soldItems SoldItemsCache
----@field private priceMultiplier Float
----@field private vendorPersistentID gamePersistentID
----@field private stockInit Bool
----@field private playerHacksInit Bool
----@field private inventoryInit Bool
----@field private isAttached Bool
----@field private inventoryReinitWithPlayerStats Bool
----@field private vendorRecord gamedataVendor_Record
----@field private playerHacks gameItemID[]
+---@field public ["gameInstance"] ScriptGameInstance
+---@field public ["vendorObject"] gameObject
+---@field private ["tweakID"] TweakDBID
+---@field private ["lastInteractionTime"] Float
+---@field private ["stock"] gameSItemStack[]
+---@field private ["newItems"] TweakDBID[]
+---@field private ["soldItems"] SoldItemsCache
+---@field private ["priceMultiplier"] Float
+---@field private ["vendorPersistentID"] gamePersistentID
+---@field private ["stockInit"] Bool
+---@field private ["playerHacksInit"] Bool
+---@field private ["inventoryInit"] Bool
+---@field private ["isAttached"] Bool
+---@field private ["inventoryReinitWithPlayerStats"] Bool
+---@field private ["vendorRecord"] gamedataVendor_Record
+---@field private ["playerHacks"] gameItemID[]
 Vendor = {}
 
 ---@param fields? table

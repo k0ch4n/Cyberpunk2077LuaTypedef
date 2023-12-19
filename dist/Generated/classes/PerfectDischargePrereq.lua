@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerfectDischargePrereq: StatPoolPrereq
----@field public invert Bool
+---@field public ["invert"] Bool
 PerfectDischargePrereq = {}
 
 ---@param fields? table

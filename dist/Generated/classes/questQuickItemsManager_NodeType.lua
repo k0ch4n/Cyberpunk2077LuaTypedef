@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questQuickItemsManager_NodeType: questIUIManagerNodeType
----@field public set questQuickItemsSet
+---@field public ["set"] questQuickItemsSet
 questQuickItemsManager_NodeType = {}
 
 ---@param fields? table

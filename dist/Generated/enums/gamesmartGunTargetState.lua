@@ -3,9 +3,9 @@
 
 ---@enum gamesmartGunTargetState
 gamesmartGunTargetState = {
-    ["Visible"] = 1,
-    ["Targetable"] = 2,
-    ["Locking"] = 4,
-    ["Locked"] = 16,
-    ["Unlocking"] = 8
+    ["Visible"] = 1, ---@type Enum
+    ["Targetable"] = 2, ---@type Enum
+    ["Locking"] = 4, ---@type Enum
+    ["Locked"] = 16, ---@type Enum
+    ["Unlocking"] = 8, ---@type Enum
 }

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class TonemappingModeLottes: ITonemappingMode
----@field public maxInput Float
----@field public contrast Float
----@field public midIn Float
----@field public midOut Float
----@field public crosstalk Vector3
----@field public crosstalkSaturation Vector3
+---@field public ["maxInput"] Float
+---@field public ["contrast"] Float
+---@field public ["midIn"] Float
+---@field public ["midOut"] Float
+---@field public ["crosstalk"] Vector3
+---@field public ["crosstalkSaturation"] Vector3
 TonemappingModeLottes = {}
 
 ---@param fields? table

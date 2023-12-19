@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ArmsCWInSlotPrereq: gameIScriptablePrereq
----@field public equipmentArea gamedataEquipmentArea
----@field public slotCheckType gamedataCheckType
----@field public itemType gamedataItemType
----@field public itemTag CName
----@field public invert Bool
+---@field public ["equipmentArea"] gamedataEquipmentArea
+---@field public ["slotCheckType"] gamedataCheckType
+---@field public ["itemType"] gamedataItemType
+---@field public ["itemTag"] CName
+---@field public ["invert"] Bool
 ArmsCWInSlotPrereq = {}
 
 ---@param fields? table
@@ -22,7 +22,7 @@ function ArmsCWInSlotPrereq:Evaluate(itemID) return end
 function ArmsCWInSlotPrereq:EvaluateAll(owner) return end
 
 ---@param itemID gameItemID
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function ArmsCWInSlotPrereq:EvaluateTag(itemID, tag) return end
 

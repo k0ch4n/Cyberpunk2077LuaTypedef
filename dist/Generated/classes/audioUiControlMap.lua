@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioUiControlMap: audioAudioMetadata
----@field public uiControlsByName audioKeyUiControlDictionary
+---@field public ["uiControlsByName"] audioKeyUiControlDictionary
 audioUiControlMap = {}
 
 ---@param fields? table

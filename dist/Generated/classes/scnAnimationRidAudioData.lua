@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnAnimationRidAudioData: ISerializable
----@field public events animAnimEvent[]
+---@field public ["events"] animAnimEvent[]
 scnAnimationRidAudioData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorComparisonExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public leftHandSide AIbehaviorExpressionSocket
----@field public operator EComparisonType
----@field public rightHandSide AIbehaviorExpressionSocket
+---@field public ["leftHandSide"] AIbehaviorExpressionSocket
+---@field public ["operator"] EComparisonType
+---@field public ["rightHandSide"] AIbehaviorExpressionSocket
 AIbehaviorComparisonExpressionDefinition = {}
 
 ---@param fields? table

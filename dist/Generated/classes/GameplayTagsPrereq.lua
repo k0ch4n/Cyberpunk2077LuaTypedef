@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplayTagsPrereq: gameIScriptablePrereq
----@field public allowedTags CName[]
----@field public invert Bool
+---@field public ["allowedTags"] CName[]
+---@field public ["invert"] Bool
 GameplayTagsPrereq = {}
 
 ---@param fields? table

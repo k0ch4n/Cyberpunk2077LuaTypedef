@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEnablePlayerGameplayLookAt_NodeType: questISceneManagerNodeType
----@field public enable Bool
+---@field public ["enable"] Bool
 questEnablePlayerGameplayLookAt_NodeType = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum ESaveFormat
 ESaveFormat = {
-    ["SF_PNG"] = 2,
-    ["SF_EXR"] = 32,
-    ["SF_PNG_AND_EXR"] = 34
+    ["SF_PNG"] = 2, ---@type Enum
+    ["SF_EXR"] = 32, ---@type Enum
+    ["SF_PNG_AND_EXR"] = 34, ---@type Enum
 }

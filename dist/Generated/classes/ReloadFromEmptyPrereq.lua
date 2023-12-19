@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReloadFromEmptyPrereq: gameIScriptablePrereq
----@field private minAmountOfAmmoReloaded Int32
+---@field private ["minAmountOfAmmoReloaded"] Int32
 ReloadFromEmptyPrereq = {}
 
 ---@param fields? table

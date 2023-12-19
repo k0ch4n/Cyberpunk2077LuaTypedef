@@ -43,7 +43,7 @@ function gamestateMachineFunctor:GetStaticCNameArrayParameter(parameterName) ret
 function gamestateMachineFunctor:GetStaticCNameParameter(parameterName) return end
 
 ---@param parameterName String
----@param defaultVal CName
+---@param defaultVal CName|string
 ---@return CName
 function gamestateMachineFunctor:GetStaticCNameParameterDefault(parameterName, defaultVal) return end
 
@@ -89,6 +89,6 @@ function gamestateMachineFunctor:GetStaticStringParameterDefault(parameterName, 
 ---@return Bool
 function gamestateMachineFunctor:IsOnEnterConditionEnabled() return end
 
----@param flavourName CName
+---@param flavourName CName|string
 ---@return nil
 function gamestateMachineFunctor:SetFlavour(flavourName) return end

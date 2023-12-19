@@ -3,7 +3,7 @@
 
 ---@enum gameStatPoolDataStatPoolModificationStatus
 gameStatPoolDataStatPoolModificationStatus = {
-    ["Regeneration"] = 0,
-    ["Decay"] = 1,
-    ["NoModification"] = 2
+    ["Regeneration"] = 0, ---@type Enum
+    ["Decay"] = 1, ---@type Enum
+    ["NoModification"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetCombatSpace: questICharacterManagerCombat_NodeSubType
----@field public puppetRef gameEntityReference
----@field public combatSpaceSize AICombatSpaceSize
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["combatSpaceSize"] AICombatSpaceSize
 questCharacterManagerParameters_SetCombatSpace = {}
 
 ---@param fields? table

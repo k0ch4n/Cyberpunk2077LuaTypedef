@@ -3,9 +3,9 @@
 
 ---@enum IntercomStatus
 IntercomStatus = {
-    ["DEFAULT"] = 0,
-    ["CALLING"] = 1,
-    ["TALKING"] = 2,
-    ["CALL_MISSED"] = 3,
-    ["CALL_ENDED"] = 4
+    ["DEFAULT"] = 0, ---@type Enum
+    ["CALLING"] = 1, ---@type Enum
+    ["TALKING"] = 2, ---@type Enum
+    ["CALL_MISSED"] = 3, ---@type Enum
+    ["CALL_ENDED"] = 4, ---@type Enum
 }

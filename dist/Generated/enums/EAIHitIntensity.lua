@@ -3,9 +3,9 @@
 
 ---@enum EAIHitIntensity
 EAIHitIntensity = {
-    ["None"] = -1,
-    ["Light"] = 0,
-    ["Medium"] = 1,
-    ["Heavy"] = 2,
-    ["Explosion"] = 3
+    ["None"] = -1, ---@type Enum
+    ["Light"] = 0, ---@type Enum
+    ["Medium"] = 1, ---@type Enum
+    ["Heavy"] = 2, ---@type Enum
+    ["Explosion"] = 3, ---@type Enum
 }

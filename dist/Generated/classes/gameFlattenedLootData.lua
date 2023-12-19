@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameFlattenedLootData
----@field public lootID TweakDBID
+---@field public ["lootID"] TweakDBID
 gameFlattenedLootData = {}
 
 ---@param fields? table

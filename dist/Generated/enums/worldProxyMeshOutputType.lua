@@ -3,15 +3,15 @@
 
 ---@enum worldProxyMeshOutputType
 worldProxyMeshOutputType = {
-    ["RayScan"] = 0,
-    ["SurfaceReconstruction"] = 1,
-    ["LegacyFromVoxels"] = 2,
-    ["FromCustomMesh"] = 3,
-    ["FromBoxes"] = 4,
-    ["FromCollision"] = 5,
-    ["FromConvexHull"] = 6,
-    ["BoundsCombine"] = 7,
-    ["BlobCrowd"] = 8,
-    ["ReduceTarps"] = 9,
-    ["KeepCurrent"] = 127
+    ["RayScan"] = 0, ---@type Enum
+    ["SurfaceReconstruction"] = 1, ---@type Enum
+    ["LegacyFromVoxels"] = 2, ---@type Enum
+    ["FromCustomMesh"] = 3, ---@type Enum
+    ["FromBoxes"] = 4, ---@type Enum
+    ["FromCollision"] = 5, ---@type Enum
+    ["FromConvexHull"] = 6, ---@type Enum
+    ["BoundsCombine"] = 7, ---@type Enum
+    ["BlobCrowd"] = 8, ---@type Enum
+    ["ReduceTarps"] = 9, ---@type Enum
+    ["KeepCurrent"] = 127, ---@type Enum
 }

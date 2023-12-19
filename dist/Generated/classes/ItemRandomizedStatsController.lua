@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemRandomizedStatsController: inkWidgetLogicController
----@field protected statName inkTextWidgetReference
+---@field protected ["statName"] inkTextWidgetReference
 ItemRandomizedStatsController = {}
 
 ---@param fields? table

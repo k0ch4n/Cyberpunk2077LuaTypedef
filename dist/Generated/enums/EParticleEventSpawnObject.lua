@@ -3,6 +3,6 @@
 
 ---@enum EParticleEventSpawnObject
 EParticleEventSpawnObject = {
-    ["PESO_Particle"] = 0,
-    ["PESO_Decal"] = 1
+    ["PESO_Particle"] = 0, ---@type Enum
+    ["PESO_Decal"] = 1, ---@type Enum
 }

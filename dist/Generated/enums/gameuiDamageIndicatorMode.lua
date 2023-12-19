@@ -3,7 +3,7 @@
 
 ---@enum gameuiDamageIndicatorMode
 gameuiDamageIndicatorMode = {
-    ["Off"] = 0,
-    ["DamageOnly"] = 1,
-    ["On"] = 2
+    ["Off"] = 0, ---@type Enum
+    ["DamageOnly"] = 1, ---@type Enum
+    ["On"] = 2, ---@type Enum
 }

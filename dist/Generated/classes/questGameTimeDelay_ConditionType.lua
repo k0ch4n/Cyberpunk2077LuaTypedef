@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questGameTimeDelay_ConditionType: questITimeConditionType
----@field public days Uint32
----@field public hours Uint32
----@field public minutes Uint32
----@field public seconds Uint32
+---@field public ["days"] Uint32
+---@field public ["hours"] Uint32
+---@field public ["minutes"] Uint32
+---@field public ["seconds"] Uint32
 questGameTimeDelay_ConditionType = {}
 
 ---@param fields? table

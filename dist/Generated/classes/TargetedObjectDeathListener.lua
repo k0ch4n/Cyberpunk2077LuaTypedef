@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TargetedObjectDeathListener: gameCustomValueStatPoolsListener
----@field public lsitener SensorDevice
----@field public lsitenTarget gameObject
+---@field public ["lsitener"] SensorDevice
+---@field public ["lsitenTarget"] gameObject
 TargetedObjectDeathListener = {}
 
 ---@param fields? table

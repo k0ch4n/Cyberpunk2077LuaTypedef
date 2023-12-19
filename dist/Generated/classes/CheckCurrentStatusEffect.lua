@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckCurrentStatusEffect: AIStatusEffectCondition
----@field public statusEffectTypeToCompare gamedataStatusEffectType
----@field public statusEffectTagToCompare CName
+---@field public ["statusEffectTypeToCompare"] gamedataStatusEffectType
+---@field public ["statusEffectTagToCompare"] CName
 CheckCurrentStatusEffect = {}
 
 ---@param fields? table

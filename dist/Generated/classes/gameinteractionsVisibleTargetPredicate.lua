@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsVisibleTargetPredicate: gameinteractionsIPredicateType
----@field public stopOnTransparent Bool
+---@field public ["stopOnTransparent"] Bool
 gameinteractionsVisibleTargetPredicate = {}
 
 ---@param fields? table

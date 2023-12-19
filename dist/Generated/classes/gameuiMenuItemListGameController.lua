@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiMenuItemListGameController: gameuiSaveHandlingController
----@field protected menuList inkCompoundWidgetReference
----@field protected menuEventDispatcher inkMenuEventDispatcher
----@field protected menuListController inkListController
+---@field protected ["menuList"] inkCompoundWidgetReference
+---@field protected ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field protected ["menuListController"] inkListController
 gameuiMenuItemListGameController = {}
 
 ---@param fields? table
@@ -41,7 +41,7 @@ function gameuiMenuItemListGameController:OnUninitialize() return end
 
 ---@protected
 ---@param label String
----@param spawnEvent CName
+---@param spawnEvent CName|string
 ---@return nil
 function gameuiMenuItemListGameController:AddMenuItem(label, spawnEvent) return end
 

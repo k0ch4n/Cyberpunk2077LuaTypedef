@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_BoolVariable: animIAnimStateTransitionCondition
----@field public variableName CName
----@field public compareValue Bool
+---@field public ["variableName"] CName
+---@field public ["compareValue"] Bool
 animAnimStateTransitionCondition_BoolVariable = {}
 
 ---@param fields? table

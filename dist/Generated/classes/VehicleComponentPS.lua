@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class VehicleComponentPS: ScriptableDeviceComponentPS
----@field protected defaultStateSet Bool
----@field protected stateModifiedByQuest Bool
----@field protected playerVehicle Bool
----@field protected npcOccupiedSlots CName[]
----@field protected isDestroyed Bool
----@field protected isStolen Bool
----@field protected crystalDomeQuestModified Bool
----@field protected crystalDomeQuestState Bool
----@field protected crystalDomeState Bool
----@field protected visualDestructionSet Bool
----@field protected visualDestructionNeeded Bool
----@field protected exploded Bool
----@field protected submerged Bool
----@field protected sirenOn Bool
----@field protected sirenSoundOn Bool
----@field protected sirenLightsOn Bool
----@field protected isDefaultLightToggleSet Bool
----@field protected anyDoorOpen Bool
----@field protected previousInteractionState TemporaryDoorState[]
----@field protected thrusterState Bool
----@field protected uiQuestModified Bool
----@field protected uiState Bool
----@field protected vehicleSkillChecks EngDemoContainer
----@field private controlStimShouldBeActive Bool
----@field private controlStimRunning Bool
----@field public ready Bool
----@field public isPlayerPerformingBodyDisposal Bool
----@field public submergedTimestamp Float
----@field private vehicleControllerPS vehicleControllerPS
+---@field protected ["defaultStateSet"] Bool
+---@field protected ["stateModifiedByQuest"] Bool
+---@field protected ["playerVehicle"] Bool
+---@field protected ["npcOccupiedSlots"] CName[]
+---@field protected ["isDestroyed"] Bool
+---@field protected ["isStolen"] Bool
+---@field protected ["crystalDomeQuestModified"] Bool
+---@field protected ["crystalDomeQuestState"] Bool
+---@field protected ["crystalDomeState"] Bool
+---@field protected ["visualDestructionSet"] Bool
+---@field protected ["visualDestructionNeeded"] Bool
+---@field protected ["exploded"] Bool
+---@field protected ["submerged"] Bool
+---@field protected ["sirenOn"] Bool
+---@field protected ["sirenSoundOn"] Bool
+---@field protected ["sirenLightsOn"] Bool
+---@field protected ["isDefaultLightToggleSet"] Bool
+---@field protected ["anyDoorOpen"] Bool
+---@field protected ["previousInteractionState"] TemporaryDoorState[]
+---@field protected ["thrusterState"] Bool
+---@field protected ["uiQuestModified"] Bool
+---@field protected ["uiState"] Bool
+---@field protected ["vehicleSkillChecks"] EngDemoContainer
+---@field private ["controlStimShouldBeActive"] Bool
+---@field private ["controlStimRunning"] Bool
+---@field public ["ready"] Bool
+---@field public ["isPlayerPerformingBodyDisposal"] Bool
+---@field public ["submergedTimestamp"] Float
+---@field private ["vehicleControllerPS"] vehicleControllerPS
 VehicleComponentPS = {}
 
 ---@param fields? table
@@ -285,7 +285,7 @@ function VehicleComponentPS:GetVehicleControllerPS() return end
 ---@return vehicleControllerPS
 function VehicleComponentPS:GetVehicleControllerPSConst() return end
 
----@param doorName CName
+---@param doorName CName|string
 ---@return Bool, vehicleEVehicleDoor door
 function VehicleComponentPS:GetVehicleDoorEnum(doorName) return end
 
@@ -306,7 +306,7 @@ function VehicleComponentPS:InitializeDoorInteractionState() return end
 function VehicleComponentPS:InitializeTempDoorStateStruct() return end
 
 ---@protected
----@param layer CName
+---@param layer CName|string
 ---@return Bool
 function VehicleComponentPS:IsDoorLayer(layer) return end
 
@@ -317,7 +317,7 @@ function VehicleComponentPS:IsPlayerCarryingBody(includePickupPhase) return end
 ---@return Bool
 function VehicleComponentPS:IsPlayerSwimming() return end
 
----@param slotID CName
+---@param slotID CName|string
 ---@return Bool
 function VehicleComponentPS:IsSlotOccupiedByNPC(slotID) return end
 
@@ -716,7 +716,7 @@ function VehicleComponentPS:SetUiQuestState(value) return end
 function VehicleComponentPS:SetWindowState(door, state) return end
 
 ---@param active Bool
----@param slotID CName
+---@param slotID CName|string
 ---@return nil
 function VehicleComponentPS:ToggleReserveSeatDuringUnmounting(active, slotID) return end
 

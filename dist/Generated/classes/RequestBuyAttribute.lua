@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RequestBuyAttribute: redEvent
----@field public type gamedataStatType
+---@field public ["type"] gamedataStatType
 RequestBuyAttribute = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FinisherLeapToTargetEvents: FinisherTransition
----@field public stateMachineInitData FinisherInitData
+---@field public ["stateMachineInitData"] FinisherInitData
 FinisherLeapToTargetEvents = {}
 
 ---@param fields? table

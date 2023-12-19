@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceBumpComponent: entIPlacedComponent
----@field public isPlayerControlled Bool
----@field public movementSpreadDistance Float
----@field public movementSpreadRadius Float
----@field public distanceToReactBack Float
----@field public distanceToReactFront Float
----@field public reactionSettings gameinfluenceBumpReactionSetting[]
----@field public autoPlayBumpAnimation Bool
----@field public isEnabled Bool
----@field public isBumpable Bool
+---@field public ["isPlayerControlled"] Bool
+---@field public ["movementSpreadDistance"] Float
+---@field public ["movementSpreadRadius"] Float
+---@field public ["distanceToReactBack"] Float
+---@field public ["distanceToReactFront"] Float
+---@field public ["reactionSettings"] gameinfluenceBumpReactionSetting[]
+---@field public ["autoPlayBumpAnimation"] Bool
+---@field public ["isEnabled"] Bool
+---@field public ["isBumpable"] Bool
 gameinfluenceBumpComponent = {}
 
 ---@param fields? table

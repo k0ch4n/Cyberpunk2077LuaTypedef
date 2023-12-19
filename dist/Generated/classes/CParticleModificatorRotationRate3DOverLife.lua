@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorRotationRate3DOverLife: IParticleModificator
----@field public rotationRate IEvaluatorVector
+---@field public ["rotationRate"] IEvaluatorVector
 CParticleModificatorRotationRate3DOverLife = {}
 
 ---@param fields? table

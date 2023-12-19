@@ -3,17 +3,17 @@
 
 ---@enum ItemSortMode
 ItemSortMode = {
-    ["Default"] = 0,
-    ["NewItems"] = 1,
-    ["NameAsc"] = 2,
-    ["NameDesc"] = 3,
-    ["QualityAsc"] = 4,
-    ["QualityDesc"] = 5,
-    ["WeightAsc"] = 6,
-    ["WeightDesc"] = 7,
-    ["PriceAsc"] = 8,
-    ["PriceDesc"] = 9,
-    ["ItemType"] = 10,
-    ["DpsAsc"] = 11,
-    ["DpsDesc"] = 12
+    ["Default"] = 0, ---@type Enum
+    ["NewItems"] = 1, ---@type Enum
+    ["NameAsc"] = 2, ---@type Enum
+    ["NameDesc"] = 3, ---@type Enum
+    ["QualityAsc"] = 4, ---@type Enum
+    ["QualityDesc"] = 5, ---@type Enum
+    ["WeightAsc"] = 6, ---@type Enum
+    ["WeightDesc"] = 7, ---@type Enum
+    ["PriceAsc"] = 8, ---@type Enum
+    ["PriceDesc"] = 9, ---@type Enum
+    ["ItemType"] = 10, ---@type Enum
+    ["DpsAsc"] = 11, ---@type Enum
+    ["DpsDesc"] = 12, ---@type Enum
 }

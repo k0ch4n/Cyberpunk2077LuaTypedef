@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BlackBoardRequestEvent: redEvent
----@field protected blackBoard gameIBlackboard
----@field protected storageClass gameScriptedBlackboardStorage
----@field protected entryTag CName
+---@field protected ["blackBoard"] gameIBlackboard
+---@field protected ["storageClass"] gameScriptedBlackboardStorage
+---@field protected ["entryTag"] CName
 BlackBoardRequestEvent = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function BlackBoardRequestEvent:GetEntryTag() return end
 function BlackBoardRequestEvent:GetStorageType() return end
 
 ---@param newBlackbord gameIBlackboard
----@param blackBoardName CName
+---@param blackBoardName CName|string
 ---@return nil
 function BlackBoardRequestEvent:PassBlackBoardReference(newBlackbord, blackBoardName) return end
 

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LerpToColorControllerLightRequest: gameScriptableSystemRequest
----@field public rgb Vector3
----@field public timeToLerp Float
----@field public useExponentialCurve Bool
+---@field public ["rgb"] Vector3
+---@field public ["timeToLerp"] Float
+---@field public ["useExponentialCurve"] Bool
 LerpToColorControllerLightRequest = {}
 
 ---@param fields? table

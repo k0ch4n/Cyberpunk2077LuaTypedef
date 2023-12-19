@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PropagateStatusEffectInAreaEffector: ApplyEffectToDismemberedEffector
----@field private statusEffect TweakDBID
----@field private range Float
----@field private duration Float
----@field private applicationTarget CName
----@field private propagateToInstigator Bool
+---@field private ["statusEffect"] TweakDBID
+---@field private ["range"] Float
+---@field private ["duration"] Float
+---@field private ["applicationTarget"] CName
+---@field private ["propagateToInstigator"] Bool
 PropagateStatusEffectInAreaEffector = {}
 
 ---@param fields? table

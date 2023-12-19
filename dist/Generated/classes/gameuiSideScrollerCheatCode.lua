@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerCheatCode
----@field public name CName
----@field public keys CName[]
+---@field public ["name"] CName
+---@field public ["keys"] CName[]
 gameuiSideScrollerCheatCode = {}
 
 ---@param fields? table

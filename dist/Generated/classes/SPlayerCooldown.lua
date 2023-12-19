@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SPlayerCooldown
----@field public effectID TweakDBID
----@field public instigatorID TweakDBID
+---@field public ["effectID"] TweakDBID
+---@field public ["instigatorID"] TweakDBID
 SPlayerCooldown = {}
 
 ---@param fields? table

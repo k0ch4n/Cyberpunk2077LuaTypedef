@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ClimbEvents: LocomotionGroundEvents
----@field public ikHandEvents entIKTargetAddEvent[]
----@field public shouldIkHands Bool
----@field public framesDelayingAnimStart Int32
----@field public climbedEntity entEntity
----@field public playerCapsuleDimensions Vector4
+---@field public ["ikHandEvents"] entIKTargetAddEvent[]
+---@field public ["shouldIkHands"] Bool
+---@field public ["framesDelayingAnimStart"] Int32
+---@field public ["climbedEntity"] entEntity
+---@field public ["playerCapsuleDimensions"] Vector4
 ClimbEvents = {}
 
 ---@param fields? table
@@ -22,7 +22,7 @@ function ClimbEvents:AddHandIK(scriptInterface) return end
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param handData worldgeometryHandIKDescriptionResult
 ---@param refUpVector Vector4
----@param ikChainName CName
+---@param ikChainName CName|string
 ---@param climbedEntity entEntity
 ---@return nil
 function ClimbEvents:CreateIKConstraint(scriptInterface, handData, refUpVector, ikChainName, climbedEntity) return end

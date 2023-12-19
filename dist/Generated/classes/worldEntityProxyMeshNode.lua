@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldEntityProxyMeshNode: worldPrefabProxyMeshNode
----@field public ownerGlobalId worldGlobalNodeID
----@field public entityAttachDistance Float
+---@field public ["ownerGlobalId"] worldGlobalNodeID
+---@field public ["entityAttachDistance"] Float
 worldEntityProxyMeshNode = {}
 
 ---@param fields? table

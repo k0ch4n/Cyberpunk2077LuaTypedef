@@ -3,10 +3,10 @@
 
 ---@enum questLogicalOperation
 questLogicalOperation = {
-    ["AND"] = 0,
-    ["OR"] = 1,
-    ["XOR"] = 2,
-    ["NAND"] = 3,
-    ["NOR"] = 4,
-    ["NXOR"] = 5
+    ["AND"] = 0, ---@type Enum
+    ["OR"] = 1, ---@type Enum
+    ["XOR"] = 2, ---@type Enum
+    ["NAND"] = 3, ---@type Enum
+    ["NOR"] = 4, ---@type Enum
+    ["NXOR"] = 5, ---@type Enum
 }

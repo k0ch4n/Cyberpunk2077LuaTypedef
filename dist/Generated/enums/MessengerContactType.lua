@@ -3,8 +3,8 @@
 
 ---@enum MessengerContactType
 MessengerContactType = {
-    ["SingleThread"] = 0,
-    ["MultiThread"] = 1,
-    ["Contact"] = 2,
-    ["Fake_ShowAll"] = 3
+    ["SingleThread"] = 0, ---@type Enum
+    ["MultiThread"] = 1, ---@type Enum
+    ["Contact"] = 2, ---@type Enum
+    ["Fake_ShowAll"] = 3, ---@type Enum
 }

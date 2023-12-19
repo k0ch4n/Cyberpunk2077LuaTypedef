@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class DiodeControlComponent: gameScriptableComponent
----@field private affectedLights CName[]
----@field private lightsState Bool
----@field private primaryLightPreset DiodeLightPreset
----@field private secondaryLightPreset DiodeLightPreset
----@field private secondaryPresetActive Bool
----@field private secondaryPresetRemovalID gameDelayID
+---@field private ["affectedLights"] CName[]
+---@field private ["lightsState"] Bool
+---@field private ["primaryLightPreset"] DiodeLightPreset
+---@field private ["secondaryLightPreset"] DiodeLightPreset
+---@field private ["secondaryPresetActive"] Bool
+---@field private ["secondaryPresetRemovalID"] gameDelayID
 DiodeControlComponent = {}
 
 ---@param fields? table
@@ -69,7 +69,7 @@ function DiodeControlComponent:ApplySecondaryPreset(preset, delay, duration) ret
 ---@param colorValues Int32[]
 ---@param strength Float
 ---@param time Float
----@param curve CName
+---@param curve CName|string
 ---@param loop Bool
 ---@return nil
 function DiodeControlComponent:ChangeLightSettings(colorValues, strength, time, curve, loop) return end
@@ -78,7 +78,7 @@ function DiodeControlComponent:ChangeLightSettings(colorValues, strength, time, 
 ---@param colorValues Int32[]
 ---@param strength Float
 ---@param time Float
----@param curve CName
+---@param curve CName|string
 ---@param loop Bool
 ---@param delay Float
 ---@return nil

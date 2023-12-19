@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class QuickhackBarController: inkWidgetLogicController
----@field private emptyMask inkWidgetReference
----@field private empty inkWidgetReference
----@field private full inkWidgetReference
+---@field private ["emptyMask"] inkWidgetReference
+---@field private ["empty"] inkWidgetReference
+---@field private ["full"] inkWidgetReference
 QuickhackBarController = {}
 
 ---@param fields? table

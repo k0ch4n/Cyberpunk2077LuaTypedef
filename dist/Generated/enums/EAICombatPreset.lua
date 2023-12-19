@@ -3,10 +3,10 @@
 
 ---@enum EAICombatPreset
 EAICombatPreset = {
-    ["None"] = 0,
-    ["IsReckless"] = 1,
-    ["IsAggressive"] = 2,
-    ["IsBalanced"] = 3,
-    ["IsDefensive"] = 4,
-    ["IsCautious"] = 5
+    ["None"] = 0, ---@type Enum
+    ["IsReckless"] = 1, ---@type Enum
+    ["IsAggressive"] = 2, ---@type Enum
+    ["IsBalanced"] = 3, ---@type Enum
+    ["IsDefensive"] = 4, ---@type Enum
+    ["IsCautious"] = 5, ---@type Enum
 }

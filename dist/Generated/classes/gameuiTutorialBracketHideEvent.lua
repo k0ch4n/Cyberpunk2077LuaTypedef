@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialBracketHideEvent: redEvent
----@field public bracketID CName
+---@field public ["bracketID"] CName
 gameuiTutorialBracketHideEvent = {}
 
 ---@param fields? table

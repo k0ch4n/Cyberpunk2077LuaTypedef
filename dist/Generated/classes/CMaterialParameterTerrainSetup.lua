@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterTerrainSetup: CMaterialParameter
----@field public setup CTerrainSetup
+---@field public ["setup"] CTerrainSetup
 CMaterialParameterTerrainSetup = {}
 
 ---@param fields? table

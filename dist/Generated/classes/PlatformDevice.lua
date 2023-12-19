@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PlatformDevice: InteractiveDevice
----@field private movingPlatform gameMovingPlatform
----@field private offMeshConnection AIOffMeshConnectionComponent
----@field public StartAudioEvent CName
----@field public StopAudioEvent CName
----@field public MovingVFX CName
+---@field private ["movingPlatform"] gameMovingPlatform
+---@field private ["offMeshConnection"] AIOffMeshConnectionComponent
+---@field public ["StartAudioEvent"] CName
+---@field public ["StopAudioEvent"] CName
+---@field public ["MovingVFX"] CName
 PlatformDevice = {}
 
 ---@param fields? table

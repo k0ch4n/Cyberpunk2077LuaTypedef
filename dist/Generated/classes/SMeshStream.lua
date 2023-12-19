@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SMeshStream
----@field public data serializationDeferredDataBuffer
----@field public type EMeshStreamType
+---@field public ["data"] serializationDeferredDataBuffer
+---@field public ["type"] EMeshStreamType
 SMeshStream = {}
 
 ---@param fields? table

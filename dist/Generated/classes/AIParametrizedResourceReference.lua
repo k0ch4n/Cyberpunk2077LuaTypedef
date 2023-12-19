@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIParametrizedResourceReference: AIResourceReference
----@field public overrides LibTreeParametersForwarder
+---@field public ["overrides"] LibTreeParametersForwarder
 AIParametrizedResourceReference = {}
 
 ---@param fields? table

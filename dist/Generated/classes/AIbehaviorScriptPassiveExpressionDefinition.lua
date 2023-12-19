@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorScriptPassiveExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public script AIbehaviorexpressionScript
+---@field public ["script"] AIbehaviorexpressionScript
 AIbehaviorScriptPassiveExpressionDefinition = {}
 
 ---@param fields? table

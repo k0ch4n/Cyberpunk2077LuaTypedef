@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileForwardEventToProjectileEvent: redEvent
----@field public eventToForward redEvent
+---@field public ["eventToForward"] redEvent
 gameprojectileForwardEventToProjectileEvent = {}
 
 ---@param fields? table

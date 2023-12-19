@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SampleCounterDisplayComponent: gameScriptableComponent
----@field public targetPersistentID gamePersistentID
+---@field public ["targetPersistentID"] gamePersistentID
 SampleCounterDisplayComponent = {}
 
 ---@param fields? table

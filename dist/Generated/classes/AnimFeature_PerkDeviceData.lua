@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PerkDeviceData: animAnimFeature
----@field public isUsed Bool
+---@field public ["isUsed"] Bool
 AnimFeature_PerkDeviceData = {}
 
 ---@param fields? table

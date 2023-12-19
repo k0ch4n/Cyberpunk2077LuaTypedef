@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemIdWrapper: IScriptable
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 ItemIdWrapper = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventPostponedParameterFloat: gamestateMachineeventPostponedParameterBase
----@field public value Float
+---@field public ["value"] Float
 gamestateMachineeventPostponedParameterFloat = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIInterruptionHandlerBehaviorDefinition: AIInterruptionHandlerDefinition
----@field public ai LibTreeINodeDefinition
----@field public parallelActivation Bool
----@field public parallelExecution Bool
----@field public blockInterruption Bool
+---@field public ["ai"] LibTreeINodeDefinition
+---@field public ["parallelActivation"] Bool
+---@field public ["parallelExecution"] Bool
+---@field public ["blockInterruption"] Bool
 AIInterruptionHandlerBehaviorDefinition = {}
 
 ---@param fields? table

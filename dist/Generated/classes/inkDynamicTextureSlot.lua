@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkDynamicTextureSlot
----@field public texture DynamicTexture
----@field public parts inkTextureAtlasMapper[]
+---@field public ["texture"] DynamicTexture
+---@field public ["parts"] inkTextureAtlasMapper[]
 inkDynamicTextureSlot = {}
 
 ---@param fields? table

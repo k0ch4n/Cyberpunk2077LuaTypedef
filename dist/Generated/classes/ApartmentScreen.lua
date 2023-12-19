@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApartmentScreen: LcdScreen
----@field public timeSystemCallbackID Uint32
+---@field public ["timeSystemCallbackID"] Uint32
 ApartmentScreen = {}
 
 ---@param fields? table

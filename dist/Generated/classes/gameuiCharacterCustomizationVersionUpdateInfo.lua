@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationVersionUpdateInfo
----@field public newVersion Uint32
----@field public optionUpdates gameuiCharacterCustomizationOptionVersionUpdateInfo[]
+---@field public ["newVersion"] Uint32
+---@field public ["optionUpdates"] gameuiCharacterCustomizationOptionVersionUpdateInfo[]
 gameuiCharacterCustomizationVersionUpdateInfo = {}
 
 ---@param fields? table

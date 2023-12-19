@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class RadialHubTimeSkipController: inkWidgetLogicController
----@field private gameTimeText inkTextWidgetReference
----@field private cantSkipTimeContainer inkWidgetReference
----@field private timeSkipButton inkWidgetReference
----@field private gameCtrlRef gameuiMenuGameController
----@field private timeSystem gameTimeSystem
----@field private timeSkipPopupToken inkGameNotificationToken
----@field private cantSkipTimeAnim inkanimProxy
----@field private gameTimeTextParams textTextParameterSet
----@field private canSkipTime Bool
+---@field private ["gameTimeText"] inkTextWidgetReference
+---@field private ["cantSkipTimeContainer"] inkWidgetReference
+---@field private ["timeSkipButton"] inkWidgetReference
+---@field private ["gameCtrlRef"] gameuiMenuGameController
+---@field private ["timeSystem"] gameTimeSystem
+---@field private ["timeSkipPopupToken"] inkGameNotificationToken
+---@field private ["cantSkipTimeAnim"] inkanimProxy
+---@field private ["gameTimeTextParams"] textTextParameterSet
+---@field private ["canSkipTime"] Bool
 RadialHubTimeSkipController = {}
 
 ---@param fields? table

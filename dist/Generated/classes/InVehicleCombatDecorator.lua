@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InVehicleCombatDecorator: AIVehicleTaskAbstract
----@field public targetToChase gameObject
----@field public vehCommand AIVehicleChaseCommand
+---@field public ["targetToChase"] gameObject
+---@field public ["vehCommand"] AIVehicleChaseCommand
 InVehicleCombatDecorator = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entContextualLookAtAddEvent: entLookAtAddEvent
----@field public contextName CName
+---@field public ["contextName"] CName
 entContextualLookAtAddEvent = {}
 
 ---@param fields? table

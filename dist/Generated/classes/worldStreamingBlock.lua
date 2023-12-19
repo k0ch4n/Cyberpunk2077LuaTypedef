@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldStreamingBlock: CResource
----@field public descriptors worldStreamingSectorDescriptor[]
----@field public index worldStreamingBlockIndex
+---@field public ["descriptors"] worldStreamingSectorDescriptor[]
+---@field public ["index"] worldStreamingBlockIndex
 worldStreamingBlock = {}
 
 ---@param fields? table

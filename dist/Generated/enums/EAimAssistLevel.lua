@@ -3,8 +3,8 @@
 
 ---@enum EAimAssistLevel
 EAimAssistLevel = {
-    ["Off"] = 0,
-    ["Light"] = 1,
-    ["Standard"] = 2,
-    ["Heavy"] = 3
+    ["Off"] = 0, ---@type Enum
+    ["Light"] = 1, ---@type Enum
+    ["Standard"] = 2, ---@type Enum
+    ["Heavy"] = 3, ---@type Enum
 }

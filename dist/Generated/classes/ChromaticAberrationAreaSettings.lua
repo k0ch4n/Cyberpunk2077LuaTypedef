@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ChromaticAberrationAreaSettings: IAreaSettings
----@field public chromaticAberrationEnabled Bool
----@field public chromaticAberrationMargin Float
----@field public chromaticAberrationSize Vector2
----@field public chromaticAberrationExp Float
----@field public subpixelDispersal Float
+---@field public ["chromaticAberrationEnabled"] Bool
+---@field public ["chromaticAberrationMargin"] Float
+---@field public ["chromaticAberrationSize"] Vector2
+---@field public ["chromaticAberrationExp"] Float
+---@field public ["subpixelDispersal"] Float
 ChromaticAberrationAreaSettings = {}
 
 ---@param fields? table

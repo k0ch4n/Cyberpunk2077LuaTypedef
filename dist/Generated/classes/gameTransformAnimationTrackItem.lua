@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimationTrackItem: ISerializable
----@field public impl gameTransformAnimationTrackItemImpl
----@field public startTime Float
----@field public duration Float
+---@field public ["impl"] gameTransformAnimationTrackItemImpl
+---@field public ["startTime"] Float
+---@field public ["duration"] Float
 gameTransformAnimationTrackItem = {}
 
 ---@param fields? table

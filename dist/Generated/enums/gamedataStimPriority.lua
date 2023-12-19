@@ -3,8 +3,8 @@
 
 ---@enum gamedataStimPriority
 gamedataStimPriority = {
-    ["High"] = 0,
-    ["Low"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = 3
+    ["High"] = 0, ---@type Enum
+    ["Low"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

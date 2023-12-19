@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnlockPerkArea: gamePlayerScriptableSystemRequest
----@field public perkArea gamedataPerkArea
+---@field public ["perkArea"] gamedataPerkArea
 UnlockPerkArea = {}
 
 ---@param fields? table

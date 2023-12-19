@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetConveyorState_NodeType: questIInteractiveObjectManagerNodeType
----@field public objectRef NodeRef
----@field public enable Bool
+---@field public ["objectRef"] NodeRef
+---@field public ["enable"] Bool
 questSetConveyorState_NodeType = {}
 
 ---@param fields? table

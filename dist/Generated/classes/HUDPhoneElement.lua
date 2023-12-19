@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDPhoneElement: inkWidgetLogicController
----@field protected RootWidget inkWidget
+---@field protected ["RootWidget"] inkWidget
 HUDPhoneElement = {}
 
 ---@protected
@@ -11,8 +11,8 @@ function HUDPhoneElement:OnInitialize() return end
 
 ---@protected
 ---@param widget inkWidget
----@param oldState CName
----@param newState CName
+---@param oldState CName|string
+---@param newState CName|string
 ---@return Bool
 function HUDPhoneElement:OnStateChanged(widget, oldState, newState) return end
 
@@ -24,7 +24,7 @@ function HUDPhoneElement:OnUninitialize() return end
 function HUDPhoneElement:GetState() return end
 
 ---@protected
----@param stateName CName
+---@param stateName CName|string
 ---@return EHudPhoneVisibility
 function HUDPhoneElement:GetStateFromName(stateName) return end
 

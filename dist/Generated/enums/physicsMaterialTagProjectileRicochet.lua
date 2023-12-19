@@ -3,6 +3,6 @@
 
 ---@enum physicsMaterialTagProjectileRicochet
 physicsMaterialTagProjectileRicochet = {
-    ["Default"] = 0,
-    ["Always"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Always"] = 1, ---@type Enum
 }

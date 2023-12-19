@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimTransparencyInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
+---@field public ["startValue"] Float
+---@field public ["endValue"] Float
 inkanimTransparencyInterpolator = {}
 
 ---@param fields? table

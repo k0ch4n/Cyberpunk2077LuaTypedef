@@ -3,8 +3,8 @@
 
 ---@enum inkIconResult
 inkIconResult = {
-    ["Success"] = 0,
-    ["UnknownIconTweak"] = 1,
-    ["AtlasResourceNotFound"] = 2,
-    ["PartNotFoundInAtlas"] = 3
+    ["Success"] = 0, ---@type Enum
+    ["UnknownIconTweak"] = 1, ---@type Enum
+    ["AtlasResourceNotFound"] = 2, ---@type Enum
+    ["PartNotFoundInAtlas"] = 3, ---@type Enum
 }

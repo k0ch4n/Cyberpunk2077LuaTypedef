@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EquipSecondaryWeaponCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public command AISwitchToSecondaryWeaponCommand
----@field public unEquip Bool
+---@field public ["command"] AISwitchToSecondaryWeaponCommand
+---@field public ["unEquip"] Bool
 EquipSecondaryWeaponCommandDelegate = {}
 
 ---@param fields? table

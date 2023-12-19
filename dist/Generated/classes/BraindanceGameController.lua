@@ -2,44 +2,44 @@
 ---@diagnostic disable
 
 ---@class BraindanceGameController: gameuiHUDGameController
----@field private currentTimerMarker inkWidgetReference
----@field private currentTimerText inkTextWidgetReference
----@field private activeLayer inkTextWidgetReference
----@field private layerIcon inkImageWidgetReference
----@field private layerThermalIcon inkImageWidgetReference
----@field private layerVisualIcon inkImageWidgetReference
----@field private layerAudioIcon inkImageWidgetReference
----@field private cursorPoint inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private clueHolder inkCompoundWidgetReference[]
----@field private clueBarHolder inkWidgetReference[]
----@field private speedIndicatorManagers inkWidgetReference[]
----@field private clueArray BraindanceClueLogicController[]
----@field private buttonHintsController ButtonHints
----@field private barSize Float
----@field private braindanceDuration Float
----@field private currentTime Float
----@field private rootWidget inkWidget
----@field private currentLayer gameuiEBraindanceLayer
----@field private currentSpeed scnPlaySpeed
----@field private currentDirection scnPlayDirection
----@field private startingTimerTopMargin Float
----@field private gameInstance ScriptGameInstance
----@field private braindanceBB gameIBlackboard
----@field private braindanceDef BraindanceBlackboardDef
----@field private ClueBBID redCallbackObject
----@field private VisionModeBBID redCallbackObject
----@field private ProgressBBID redCallbackObject
----@field private SectionTimeBBID redCallbackObject
----@field private IsActiveBBID redCallbackObject
----@field private EnableExitBBID redCallbackObject
----@field private IsFPPBBID redCallbackObject
----@field private PlaybackSpeedID redCallbackObject
----@field private PlaybackDirectionID redCallbackObject
----@field private isFPPMode Bool
----@field private showTimelineAnimation inkanimProxy
----@field private hideTimelineAnimation inkanimProxy
----@field private showWidgetAnimation inkanimProxy
+---@field private ["currentTimerMarker"] inkWidgetReference
+---@field private ["currentTimerText"] inkTextWidgetReference
+---@field private ["activeLayer"] inkTextWidgetReference
+---@field private ["layerIcon"] inkImageWidgetReference
+---@field private ["layerThermalIcon"] inkImageWidgetReference
+---@field private ["layerVisualIcon"] inkImageWidgetReference
+---@field private ["layerAudioIcon"] inkImageWidgetReference
+---@field private ["cursorPoint"] inkWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["clueHolder"] inkCompoundWidgetReference[]
+---@field private ["clueBarHolder"] inkWidgetReference[]
+---@field private ["speedIndicatorManagers"] inkWidgetReference[]
+---@field private ["clueArray"] BraindanceClueLogicController[]
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["barSize"] Float
+---@field private ["braindanceDuration"] Float
+---@field private ["currentTime"] Float
+---@field private ["rootWidget"] inkWidget
+---@field private ["currentLayer"] gameuiEBraindanceLayer
+---@field private ["currentSpeed"] scnPlaySpeed
+---@field private ["currentDirection"] scnPlayDirection
+---@field private ["startingTimerTopMargin"] Float
+---@field private ["gameInstance"] ScriptGameInstance
+---@field private ["braindanceBB"] gameIBlackboard
+---@field private ["braindanceDef"] BraindanceBlackboardDef
+---@field private ["ClueBBID"] redCallbackObject
+---@field private ["VisionModeBBID"] redCallbackObject
+---@field private ["ProgressBBID"] redCallbackObject
+---@field private ["SectionTimeBBID"] redCallbackObject
+---@field private ["IsActiveBBID"] redCallbackObject
+---@field private ["EnableExitBBID"] redCallbackObject
+---@field private ["IsFPPBBID"] redCallbackObject
+---@field private ["PlaybackSpeedID"] redCallbackObject
+---@field private ["PlaybackDirectionID"] redCallbackObject
+---@field private ["isFPPMode"] Bool
+---@field private ["showTimelineAnimation"] inkanimProxy
+---@field private ["hideTimelineAnimation"] inkanimProxy
+---@field private ["showWidgetAnimation"] inkanimProxy
 BraindanceGameController = {}
 
 ---@param fields? table
@@ -126,7 +126,7 @@ function BraindanceGameController:GetTimeMS(seconds) return end
 function BraindanceGameController:Hide() return end
 
 ---@private
----@param action CName
+---@param action CName|string
 ---@return nil
 function BraindanceGameController:HideInputHint(action) return end
 
@@ -155,8 +155,8 @@ function BraindanceGameController:SetVisionMode(layer) return end
 function BraindanceGameController:SetupBB() return end
 
 ---@private
----@param action CName
----@param label CName
+---@param action CName|string
+---@param label CName|string
 ---@return nil
 function BraindanceGameController:ShowInputHint(action, label) return end
 

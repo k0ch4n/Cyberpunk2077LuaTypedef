@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiOnGameFinishEventAdvanced: redEvent
----@field public gameState gameuiSideScrollerMiniGameStateAdvanced
+---@field public ["gameState"] gameuiSideScrollerMiniGameStateAdvanced
 gameuiOnGameFinishEventAdvanced = {}
 
 ---@param fields? table

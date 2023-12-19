@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TrafficPersistentData
----@field public invertTrafficEvents Bool
+---@field public ["invertTrafficEvents"] Bool
 TrafficPersistentData = {}
 
 ---@param fields? table

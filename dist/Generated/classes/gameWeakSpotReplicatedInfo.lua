@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameWeakSpotReplicatedInfo
----@field public weakSpotRecordID Uint64
----@field public wsHealthValue Float
----@field public LastDamageInstigator gamePuppet
+---@field public ["weakSpotRecordID"] Uint64
+---@field public ["wsHealthValue"] Float
+---@field public ["LastDamageInstigator"] gamePuppet
 gameWeakSpotReplicatedInfo = {}
 
 ---@param fields? table

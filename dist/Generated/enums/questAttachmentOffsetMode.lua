@@ -3,6 +3,6 @@
 
 ---@enum questAttachmentOffsetMode
 questAttachmentOffsetMode = {
-    ["UseRealOffset"] = 0,
-    ["UseCustomOffset"] = 1
+    ["UseRealOffset"] = 0, ---@type Enum
+    ["UseCustomOffset"] = 1, ---@type Enum
 }

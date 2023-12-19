@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ImageButtonCustomData: WidgetCustomData
----@field public imageAtlasImageID CName
----@field public additionalText String
+---@field public ["imageAtlasImageID"] CName
+---@field public ["additionalText"] String
 ImageButtonCustomData = {}
 
 ---@param fields? table

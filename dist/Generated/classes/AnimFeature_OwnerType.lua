@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_OwnerType: animAnimFeature
----@field public ownerEnum Int32
+---@field public ["ownerEnum"] Int32
 AnimFeature_OwnerType = {}
 
 ---@param fields? table

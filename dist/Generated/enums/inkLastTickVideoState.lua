@@ -3,7 +3,7 @@
 
 ---@enum inkLastTickVideoState
 inkLastTickVideoState = {
-    ["NotDrawn"] = 0,
-    ["Drawn"] = 1,
-    ["Paused"] = 2
+    ["NotDrawn"] = 0, ---@type Enum
+    ["Drawn"] = 1, ---@type Enum
+    ["Paused"] = 2, ---@type Enum
 }

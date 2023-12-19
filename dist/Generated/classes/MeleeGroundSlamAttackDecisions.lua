@@ -32,6 +32,6 @@ function MeleeGroundSlamAttackDecisions:ExitCondition(stateContext, scriptInterf
 function MeleeGroundSlamAttackDecisions:IsGroundSlamming(stateContext, scriptInterface) return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@return Bool
 function MeleeGroundSlamAttackDecisions:IsValidLocomotionState(state) return end

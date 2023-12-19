@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_ForegroundSegmentEnd: animAnimNode_OnePoseInput
----@field public isAlwaysEnabledForHighEndHardware Bool
+---@field public ["isAlwaysEnabledForHighEndHardware"] Bool
 animAnimNode_ForegroundSegmentEnd = {}
 
 ---@param fields? table

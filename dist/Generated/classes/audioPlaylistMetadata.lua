@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioPlaylistMetadata: audioAudioMetadata
----@field public broadcastChannel Uint8
----@field public tracks CName[]
+---@field public ["broadcastChannel"] Uint8
+---@field public ["tracks"] CName[]
 audioPlaylistMetadata = {}
 
 ---@param fields? table

@@ -2,48 +2,48 @@
 ---@diagnostic disable
 
 ---@class DpadWheelGameController: gameuiHUDGameController
----@field private haskMarkContainer inkCompoundWidgetReference
----@field private itemContainer inkCompoundWidgetReference
----@field private selectorWrapper inkWidgetReference
----@field private centerIcon inkWidgetReference
----@field private centerGlow inkWidgetReference
----@field private itemLabel inkTextWidgetReference
----@field private itemDesc inkTextWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private indicator02 inkImageWidgetReference
----@field private indicator03 inkImageWidgetReference
----@field private indicator04 inkImageWidgetReference
----@field private indicator05 inkImageWidgetReference
----@field private indicator06 inkImageWidgetReference
----@field private indicator07 inkImageWidgetReference
----@field private indicator08 inkImageWidgetReference
----@field private itemDistance Float
----@field private hashMarkDistance Float
----@field private minDistance Float
----@field private root inkWidget
----@field private Player PlayerPuppet
----@field private QuickSlotsManager QuickSlotsManager
----@field private InventoryDataManager InventoryDataManagerV2
----@field private dpadItemsList DpadWheelItemController[]
----@field private commandsList QuickSlotCommand[]
----@field private selectedWheelItem DpadWheelItemController
----@field private buttonHintsController ButtonHints
----@field private selectedIndicator inkWidgetReference
----@field private angleInterval Float
----@field private previousAmount Float
----@field private previousAngle Float
----@field private data QuickWheelStartUIStructure
----@field private masterListOfAllCyberware AbilityData[]
----@field private listOfUnassignedCyberware AbilityData[]
----@field private dpadWheelOpen Bool
----@field private neutralChoiceDelayId gameDelayID
----@field private previouslySelectedData QuickSlotCommand
----@field private UiQuickItemsBlackboard gameIBlackboard
----@field private UiQuickSlotDef UI_QuickSlotsDataDef
----@field private DPadWheelAngleBBID redCallbackObject
----@field private DPadWheelInterationStartedBBID redCallbackObject
----@field private DPadWheelInterationEndedBBID redCallbackObject
----@field private DpadWheelCyberwareAssignedBBID redCallbackObject
+---@field private ["haskMarkContainer"] inkCompoundWidgetReference
+---@field private ["itemContainer"] inkCompoundWidgetReference
+---@field private ["selectorWrapper"] inkWidgetReference
+---@field private ["centerIcon"] inkWidgetReference
+---@field private ["centerGlow"] inkWidgetReference
+---@field private ["itemLabel"] inkTextWidgetReference
+---@field private ["itemDesc"] inkTextWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["indicator02"] inkImageWidgetReference
+---@field private ["indicator03"] inkImageWidgetReference
+---@field private ["indicator04"] inkImageWidgetReference
+---@field private ["indicator05"] inkImageWidgetReference
+---@field private ["indicator06"] inkImageWidgetReference
+---@field private ["indicator07"] inkImageWidgetReference
+---@field private ["indicator08"] inkImageWidgetReference
+---@field private ["itemDistance"] Float
+---@field private ["hashMarkDistance"] Float
+---@field private ["minDistance"] Float
+---@field private ["root"] inkWidget
+---@field private ["Player"] PlayerPuppet
+---@field private ["QuickSlotsManager"] QuickSlotsManager
+---@field private ["InventoryDataManager"] InventoryDataManagerV2
+---@field private ["dpadItemsList"] DpadWheelItemController[]
+---@field private ["commandsList"] QuickSlotCommand[]
+---@field private ["selectedWheelItem"] DpadWheelItemController
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["selectedIndicator"] inkWidgetReference
+---@field private ["angleInterval"] Float
+---@field private ["previousAmount"] Float
+---@field private ["previousAngle"] Float
+---@field private ["data"] QuickWheelStartUIStructure
+---@field private ["masterListOfAllCyberware"] AbilityData[]
+---@field private ["listOfUnassignedCyberware"] AbilityData[]
+---@field private ["dpadWheelOpen"] Bool
+---@field private ["neutralChoiceDelayId"] gameDelayID
+---@field private ["previouslySelectedData"] QuickSlotCommand
+---@field private ["UiQuickItemsBlackboard"] gameIBlackboard
+---@field private ["UiQuickSlotDef"] UI_QuickSlotsDataDef
+---@field private ["DPadWheelAngleBBID"] redCallbackObject
+---@field private ["DPadWheelInterationStartedBBID"] redCallbackObject
+---@field private ["DPadWheelInterationEndedBBID"] redCallbackObject
+---@field private ["DpadWheelCyberwareAssignedBBID"] redCallbackObject
 DpadWheelGameController = {}
 
 ---@param fields? table
@@ -196,7 +196,7 @@ function DpadWheelGameController:UnselectAllItems() return end
 
 ---@private
 ---@param value Float
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function DpadWheelGameController:UpdateAxisIndicator(value, actionName) return end
 

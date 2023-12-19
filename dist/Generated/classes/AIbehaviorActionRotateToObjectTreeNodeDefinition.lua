@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionRotateToObjectTreeNodeDefinition: AIbehaviorActionRotateBaseTreeNodeDefinition
----@field public completeWhenRotated AIArgumentMapping
+---@field public ["completeWhenRotated"] AIArgumentMapping
 AIbehaviorActionRotateToObjectTreeNodeDefinition = {}
 
 ---@param fields? table

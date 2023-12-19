@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ActivatorControllerPS: MasterControllerPS
----@field private hasSpiderbotInteraction Bool
----@field private spiderbotInteractionLocationOverride NodeRef
----@field private hasSimpleInteraction Bool
----@field private alternativeInteractionName TweakDBID
----@field private alternativeSpiderbotInteractionName TweakDBID
----@field private alternativeQuickHackName TweakDBID
----@field private activatorSkillChecks GenericContainer
----@field private alternativeInteractionString String
+---@field private ["hasSpiderbotInteraction"] Bool
+---@field private ["spiderbotInteractionLocationOverride"] NodeRef
+---@field private ["hasSimpleInteraction"] Bool
+---@field private ["alternativeInteractionName"] TweakDBID
+---@field private ["alternativeSpiderbotInteractionName"] TweakDBID
+---@field private ["alternativeQuickHackName"] TweakDBID
+---@field private ["activatorSkillChecks"] GenericContainer
+---@field private ["alternativeInteractionString"] String
 ActivatorControllerPS = {}
 
 ---@param fields? table
@@ -55,7 +55,7 @@ function ActivatorControllerPS:GameAttached() return end
 ---@return Bool, gamedeviceAction[] outActions
 function ActivatorControllerPS:GetActions(context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ActivatorControllerPS:GetQuestActionByName(actionName) return end
 

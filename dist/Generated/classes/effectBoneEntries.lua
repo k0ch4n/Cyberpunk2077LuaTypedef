@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectBoneEntries: effectIPlacementEntries
----@field public inheritRotation Bool
----@field public bones effectBoneEntry[]
+---@field public ["inheritRotation"] Bool
+---@field public ["bones"] effectBoneEntry[]
 effectBoneEntries = {}
 
 ---@param fields? table

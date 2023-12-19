@@ -18,6 +18,6 @@ function gamedataSceneInterruptionScenarios_Record:GetScenarioNamesItem(index) r
 ---@return CName[]
 function gamedataSceneInterruptionScenarios_Record:ScenarioNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataSceneInterruptionScenarios_Record:ScenarioNamesContains(item) return end

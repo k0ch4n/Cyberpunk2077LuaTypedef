@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemDLCAddedItemInspected: gameScriptableSystemRequest
----@field public itemTDBID TweakDBID
+---@field public ["itemTDBID"] TweakDBID
 UIScriptableSystemDLCAddedItemInspected = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnLookAtHeadProperties
----@field public enableFactor Float
----@field public override Float
----@field public mode Int32
+---@field public ["enableFactor"] Float
+---@field public ["override"] Float
+---@field public ["mode"] Int32
 scnLookAtHeadProperties = {}
 
 ---@param fields? table

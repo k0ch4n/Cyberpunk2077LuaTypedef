@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameLootBag: gameObject
----@field private lootQuality gamedataQuality
----@field private hasQuestItems Bool
----@field private isInIconForcedVisibilityRange Bool
----@field private isIconic Bool
----@field private isEmpty Bool
----@field private activeQualityRangeInteraction CName
+---@field private ["lootQuality"] gamedataQuality
+---@field private ["hasQuestItems"] Bool
+---@field private ["isInIconForcedVisibilityRange"] Bool
+---@field private ["isIconic"] Bool
+---@field private ["isEmpty"] Bool
+---@field private ["activeQualityRangeInteraction"] CName
 gameLootBag = {}
 
 ---@param fields? table
@@ -103,7 +103,7 @@ function gameLootBag:IsEmpty() return end
 function gameLootBag:IsInIconForcedVisibilityRange() return end
 
 ---@private
----@param layerTag CName
+---@param layerTag CName|string
 ---@return Bool
 function gameLootBag:IsQualityRangeInteractionLayer(layerTag) return end
 

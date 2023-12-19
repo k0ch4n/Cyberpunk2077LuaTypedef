@@ -3,13 +3,13 @@
 
 ---@enum gameSimpleMessageType
 gameSimpleMessageType = {
-    ["Undefined"] = 0,
-    ["Negative"] = 1,
-    ["Neutral"] = 2,
-    ["Vehicle"] = 3,
-    ["Apartment"] = 4,
-    ["Relic"] = 5,
-    ["Money"] = 6,
-    ["Reveal"] = 7,
-    ["Boss"] = 8
+    ["Undefined"] = 0, ---@type Enum
+    ["Negative"] = 1, ---@type Enum
+    ["Neutral"] = 2, ---@type Enum
+    ["Vehicle"] = 3, ---@type Enum
+    ["Apartment"] = 4, ---@type Enum
+    ["Relic"] = 5, ---@type Enum
+    ["Money"] = 6, ---@type Enum
+    ["Reveal"] = 7, ---@type Enum
+    ["Boss"] = 8, ---@type Enum
 }

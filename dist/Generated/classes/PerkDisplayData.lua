@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayData: BasePerkDisplayData
----@field public area gamedataPerkArea
----@field public type gamedataPerkType
+---@field public ["area"] gamedataPerkArea
+---@field public ["type"] gamedataPerkType
 PerkDisplayData = {}
 
 ---@param fields? table

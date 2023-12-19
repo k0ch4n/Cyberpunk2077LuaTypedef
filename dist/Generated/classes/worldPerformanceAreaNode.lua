@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldPerformanceAreaNode: worldTriggerAreaNode
----@field public qualitySettingsArray worldQualitySetting[]
----@field public disableCrowdUniqueName CName
----@field public globalStreamingDistanceScale Float
----@field public globalEntityLODDistanceScale Float
+---@field public ["qualitySettingsArray"] worldQualitySetting[]
+---@field public ["disableCrowdUniqueName"] CName
+---@field public ["globalStreamingDistanceScale"] Float
+---@field public ["globalEntityLODDistanceScale"] Float
 worldPerformanceAreaNode = {}
 
 ---@param fields? table

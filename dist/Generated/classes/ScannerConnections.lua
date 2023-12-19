@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerConnections: ScannerChunk
----@field private deviceConnections DeviceConnectionScannerData[]
+---@field private ["deviceConnections"] DeviceConnectionScannerData[]
 ScannerConnections = {}
 
 ---@param fields? table

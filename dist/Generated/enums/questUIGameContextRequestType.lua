@@ -3,7 +3,7 @@
 
 ---@enum questUIGameContextRequestType
 questUIGameContextRequestType = {
-    ["Push"] = 0,
-    ["Pop"] = 1,
-    ["Reset"] = 2
+    ["Push"] = 0, ---@type Enum
+    ["Pop"] = 1, ---@type Enum
+    ["Reset"] = 2, ---@type Enum
 }

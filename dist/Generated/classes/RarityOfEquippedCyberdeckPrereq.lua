@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RarityOfEquippedCyberdeckPrereq: gameIScriptablePrereq
----@field public minimumQuality Int32
+---@field public ["minimumQuality"] Int32
 RarityOfEquippedCyberdeckPrereq = {}
 
 ---@param fields? table

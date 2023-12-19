@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GogRewardsController: inkWidgetLogicController
----@field public containerWidget inkWidgetReference
+---@field public ["containerWidget"] inkWidgetReference
 GogRewardsController = {}
 
 ---@param fields? table

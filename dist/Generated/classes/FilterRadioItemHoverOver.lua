@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FilterRadioItemHoverOver: redEvent
----@field public target inkWidget
----@field public identifier Int32
+---@field public ["target"] inkWidget
+---@field public ["identifier"] Int32
 FilterRadioItemHoverOver = {}
 
 ---@param fields? table

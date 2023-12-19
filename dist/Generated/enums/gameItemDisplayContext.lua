@@ -3,14 +3,14 @@
 
 ---@enum gameItemDisplayContext
 gameItemDisplayContext = {
-    ["None"] = 0,
-    ["Vendor"] = 1,
-    ["Tooltip"] = 2,
-    ["VendorPlayer"] = 3,
-    ["GearPanel"] = 4,
-    ["Backpack"] = 5,
-    ["DPAD_RADIAL"] = 6,
-    ["Attachment"] = 7,
-    ["Ripperdoc"] = 8,
-    ["Crafting"] = 9
+    ["None"] = 0, ---@type Enum
+    ["Vendor"] = 1, ---@type Enum
+    ["Tooltip"] = 2, ---@type Enum
+    ["VendorPlayer"] = 3, ---@type Enum
+    ["GearPanel"] = 4, ---@type Enum
+    ["Backpack"] = 5, ---@type Enum
+    ["DPAD_RADIAL"] = 6, ---@type Enum
+    ["Attachment"] = 7, ---@type Enum
+    ["Ripperdoc"] = 8, ---@type Enum
+    ["Crafting"] = 9, ---@type Enum
 }

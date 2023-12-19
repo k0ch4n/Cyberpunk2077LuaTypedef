@@ -3,6 +3,6 @@
 
 ---@enum scnAdditionalSpeakerType
 scnAdditionalSpeakerType = {
-    ["Normal"] = 0,
-    ["Holocall"] = 1
+    ["Normal"] = 0, ---@type Enum
+    ["Holocall"] = 1, ---@type Enum
 }

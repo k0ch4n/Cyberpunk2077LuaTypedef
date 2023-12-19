@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimatedSign: InteractiveDevice
----@field private animFeature AnimFeature_AnimatedDevice
+---@field private ["animFeature"] AnimFeature_AnimatedDevice
 AnimatedSign = {}
 
 ---@param fields? table

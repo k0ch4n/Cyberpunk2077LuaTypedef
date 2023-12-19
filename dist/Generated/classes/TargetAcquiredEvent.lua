@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetAcquiredEvent: redEvent
----@field public target ScriptedPuppet
+---@field public ["target"] ScriptedPuppet
 TargetAcquiredEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questRumble_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public rumbleEvent CName
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
+---@field public ["rumbleEvent"] CName
+---@field public ["objectRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
 questRumble_NodeType = {}
 
 ---@param fields? table

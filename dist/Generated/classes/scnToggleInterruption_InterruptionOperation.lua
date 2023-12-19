@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnToggleInterruption_InterruptionOperation: scnIInterruptionOperation
----@field public enable Bool
+---@field public ["enable"] Bool
 scnToggleInterruption_InterruptionOperation = {}
 
 ---@param fields? table

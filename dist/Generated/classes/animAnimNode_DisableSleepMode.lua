@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_DisableSleepMode: animAnimNode_OnePoseInput
----@field public forceUpdate Bool
+---@field public ["forceUpdate"] Bool
 animAnimNode_DisableSleepMode = {}
 
 ---@param fields? table

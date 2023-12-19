@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleAudioCurvesParam: IScriptable
----@field public audioCurves vehicleAudioVehicleCurveSet
+---@field public ["audioCurves"] vehicleAudioVehicleCurveSet
 vehicleAudioCurvesParam = {}
 
 ---@param fields? table

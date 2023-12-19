@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipBottomModule: NewItemTooltipModuleController
----@field private weightWrapper inkWidgetReference
----@field private priceWrapper inkWidgetReference
----@field private ammoWrapper inkWidgetReference
----@field private weightText inkTextWidgetReference
----@field private priceText inkTextWidgetReference
----@field private ammoText inkTextWidgetReference
----@field private ammoIcon inkImageWidgetReference
+---@field private ["weightWrapper"] inkWidgetReference
+---@field private ["priceWrapper"] inkWidgetReference
+---@field private ["ammoWrapper"] inkWidgetReference
+---@field private ["weightText"] inkTextWidgetReference
+---@field private ["priceText"] inkTextWidgetReference
+---@field private ["ammoText"] inkTextWidgetReference
+---@field private ["ammoIcon"] inkImageWidgetReference
 NewItemTooltipBottomModule = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveCustomMoveEvent: gameActionEvent
----@field public test Int32
+---@field public ["test"] Int32
 moveCustomMoveEvent = {}
 
 ---@param fields? table

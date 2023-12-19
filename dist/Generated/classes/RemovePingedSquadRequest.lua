@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemovePingedSquadRequest: gameScriptableSystemRequest
----@field public squadName CName
+---@field public ["squadName"] CName
 RemovePingedSquadRequest = {}
 
 ---@param fields? table

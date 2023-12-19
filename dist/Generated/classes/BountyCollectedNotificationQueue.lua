@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BountyCollectedNotificationQueue: gameuiGenericNotificationGameController
----@field protected duration Float
----@field private bountyNotification CName
+---@field protected ["duration"] Float
+---@field private ["bountyNotification"] CName
 BountyCollectedNotificationQueue = {}
 
 ---@param fields? table

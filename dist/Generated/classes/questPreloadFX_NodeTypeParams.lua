@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questPreloadFX_NodeTypeParams
----@field public preload Bool
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
----@field public effectName CName
+---@field public ["preload"] Bool
+---@field public ["objectRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
+---@field public ["effectName"] CName
 questPreloadFX_NodeTypeParams = {}
 
 ---@param fields? table

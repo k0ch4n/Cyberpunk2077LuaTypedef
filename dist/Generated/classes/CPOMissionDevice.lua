@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CPOMissionDevice: gameObject
----@field protected compatibleDeviceName CName
----@field protected blockAfterOperation Bool
----@field protected factToUnblock CName
----@field protected isBlocked Bool
----@field private factUnblockCallbackID Uint32
+---@field protected ["compatibleDeviceName"] CName
+---@field protected ["blockAfterOperation"] Bool
+---@field protected ["factToUnblock"] CName
+---@field protected ["isBlocked"] Bool
+---@field private ["factUnblockCallbackID"] Uint32
 CPOMissionDevice = {}
 
 ---@param fields? table
@@ -37,7 +37,7 @@ function CPOMissionDevice:IsBlocked() return end
 function CPOMissionDevice:RegisterFactsListener() return end
 
 ---@protected
----@param factName CName
+---@param factName CName|string
 ---@param factValue Int32
 ---@param factOperationType EMathOperationType
 ---@return nil

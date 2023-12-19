@@ -13,13 +13,13 @@ function MenuScenario_CreditsPickerPause.new(fields) return end
 function MenuScenario_CreditsPickerPause:OnBack() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_CreditsPickerPause:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_CreditsPickerPause:OnLeaveScenario(nextScenario) return end
 

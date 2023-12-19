@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GiveRewardEffector: gameEffector
----@field public reward TweakDBID
----@field public target entEntityID
+---@field public ["reward"] TweakDBID
+---@field public ["target"] entEntityID
 GiveRewardEffector = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entAnimGraphResourceContainerEntry
----@field public graphName CName
----@field public animGraphResource animAnimGraph
+---@field public ["graphName"] CName
+---@field public ["animGraphResource"] animAnimGraph
 entAnimGraphResourceContainerEntry = {}
 
 ---@param fields? table

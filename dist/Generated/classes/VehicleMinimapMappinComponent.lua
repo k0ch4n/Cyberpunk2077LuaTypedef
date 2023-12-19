@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class VehicleMinimapMappinComponent: IScriptable
----@field private minimapPOIMappinController MinimapPOIMappinController
----@field private vehicle vehicleBaseObject
----@field private uiVehicleBB gameIBlackboard
----@field private vehicleBBDef VehicleDef
----@field private deleteAnimCallback redCallbackObject
----@field private destroyMappinOnAnimEnd Bool
----@field private vehicleIsLatestSummoned Bool
----@field private vehicleEntityID entEntityID
----@field private vehicleSummonDataDef VehicleSummonDataDef
----@field private vehicleSummonDataBB gameIBlackboard
----@field private vehicleSummonStateCallback redCallbackObject
+---@field private ["minimapPOIMappinController"] MinimapPOIMappinController
+---@field private ["vehicle"] vehicleBaseObject
+---@field private ["uiVehicleBB"] gameIBlackboard
+---@field private ["vehicleBBDef"] VehicleDef
+---@field private ["deleteAnimCallback"] redCallbackObject
+---@field private ["destroyMappinOnAnimEnd"] Bool
+---@field private ["vehicleIsLatestSummoned"] Bool
+---@field private ["vehicleEntityID"] entEntityID
+---@field private ["vehicleSummonDataDef"] VehicleSummonDataDef
+---@field private ["vehicleSummonDataBB"] gameIBlackboard
+---@field private ["vehicleSummonStateCallback"] redCallbackObject
 VehicleMinimapMappinComponent = {}
 
 ---@param fields? table
@@ -20,7 +20,7 @@ VehicleMinimapMappinComponent = {}
 function VehicleMinimapMappinComponent.new(fields) return end
 
 ---@protected
----@param deleteAnimName CName
+---@param deleteAnimName CName|string
 ---@return Bool
 function VehicleMinimapMappinComponent:OnDeleteAnimSet(deleteAnimName) return end
 

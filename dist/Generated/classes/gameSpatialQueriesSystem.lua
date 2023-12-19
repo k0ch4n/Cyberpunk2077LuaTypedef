@@ -20,7 +20,7 @@ function gameSpatialQueriesSystem:GetPlayerObstacleSystem() return end
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
----@param collisionGroup? CName
+---@param collisionGroup? CName|string
 ---@return Bool, physicsTraceResult result
 function gameSpatialQueriesSystem:Overlap(primitiveDimension, position, rotation, collisionGroup) return end
 
@@ -32,33 +32,33 @@ function gameSpatialQueriesSystem:Overlap(primitiveDimension, position, rotation
 function gameSpatialQueriesSystem:OverlapByQueryFilter(primitiveDimension, position, rotation, queryFilter) return end
 
 ---@param start Vector4
----@param end Vector4
----@param collisionGroup? CName
+---@param end_ Vector4
+---@param collisionGroup? CName|string
 ---@param staticOnly? Bool
 ---@param dynamicOnly? Bool
 ---@return Bool, physicsTraceResult result
-function gameSpatialQueriesSystem:SyncRaycastByCollisionGroup(start, end, collisionGroup, staticOnly, dynamicOnly) return end
+function gameSpatialQueriesSystem:SyncRaycastByCollisionGroup(start, end_, collisionGroup, staticOnly, dynamicOnly) return end
 
 ---@param start Vector4
----@param end Vector4
----@param collisionPreset? CName
+---@param end_ Vector4
+---@param collisionPreset? CName|string
 ---@param staticOnly? Bool
 ---@param dynamicOnly? Bool
 ---@return Bool, physicsTraceResult result
-function gameSpatialQueriesSystem:SyncRaycastByCollisionPreset(start, end, collisionPreset, staticOnly, dynamicOnly) return end
+function gameSpatialQueriesSystem:SyncRaycastByCollisionPreset(start, end_, collisionPreset, staticOnly, dynamicOnly) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@param queryFilter physicsQueryFilter
 ---@param staticOnly? Bool
 ---@param dynamicOnly? Bool
 ---@return Bool, physicsTraceResult result
-function gameSpatialQueriesSystem:SyncRaycastByQueryFilter(start, end, queryFilter, staticOnly, dynamicOnly) return end
+function gameSpatialQueriesSystem:SyncRaycastByQueryFilter(start, end_, queryFilter, staticOnly, dynamicOnly) return end
 
 ---@param start Vector4
----@param end Vector4
----@param queryPreset? CName
+---@param end_ Vector4
+---@param queryPreset? CName|string
 ---@param staticOnly? Bool
 ---@param dynamicOnly? Bool
 ---@return Bool, physicsTraceResult result
-function gameSpatialQueriesSystem:SyncRaycastByQueryPreset(start, end, queryPreset, staticOnly, dynamicOnly) return end
+function gameSpatialQueriesSystem:SyncRaycastByQueryPreset(start, end_, queryPreset, staticOnly, dynamicOnly) return end

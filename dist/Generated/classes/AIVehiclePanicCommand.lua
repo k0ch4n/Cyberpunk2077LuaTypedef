@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIVehiclePanicCommand: AIVehicleCommand
----@field public allowSimplifiedMovement Bool
----@field public ignoreTickets Bool
----@field public disableStuckDetection Bool
----@field public useSpeedBasedLookupRange Bool
----@field public tryDriveAwayFromPlayer Bool
+---@field public ["allowSimplifiedMovement"] Bool
+---@field public ["ignoreTickets"] Bool
+---@field public ["disableStuckDetection"] Bool
+---@field public ["useSpeedBasedLookupRange"] Bool
+---@field public ["tryDriveAwayFromPlayer"] Bool
 AIVehiclePanicCommand = {}
 
 ---@param fields? table

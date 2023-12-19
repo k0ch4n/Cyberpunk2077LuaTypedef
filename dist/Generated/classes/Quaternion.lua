@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Quaternion
----@field public i Float
----@field public j Float
----@field public k Float
----@field public r Float
+---@field public ["i"] Float
+---@field public ["j"] Float
+---@field public ["k"] Float
+---@field public ["r"] Float
 Quaternion = {}
 
 ---@param fields? table

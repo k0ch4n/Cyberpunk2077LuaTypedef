@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HotkeyRadioStatusListener: gameScriptStatusEffectListener
----@field public radioWidgetController HotkeyConsumableWidgetController
+---@field public ["radioWidgetController"] HotkeyConsumableWidgetController
 HotkeyRadioStatusListener = {}
 
 ---@param fields? table

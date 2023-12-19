@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HubMenuInstanceData: IScriptable
----@field public ID Uint32
+---@field public ["ID"] Uint32
 HubMenuInstanceData = {}
 
 ---@param fields? table

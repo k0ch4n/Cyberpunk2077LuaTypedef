@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ClearItemAppearanceEvent: redEvent
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 ClearItemAppearanceEvent = {}
 
 ---@param fields? table

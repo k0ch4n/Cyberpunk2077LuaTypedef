@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SAttribute
----@field public attributeName gamedataStatType
----@field public value Int32
----@field public id TweakDBID
+---@field public ["attributeName"] gamedataStatType
+---@field public ["value"] Int32
+---@field public ["id"] TweakDBID
 SAttribute = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialReference
----@field public name CName
+---@field public ["name"] CName
 physicsMaterialReference = {}
 
 ---@param fields? table

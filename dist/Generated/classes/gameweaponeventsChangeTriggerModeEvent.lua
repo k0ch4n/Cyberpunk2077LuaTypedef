@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameweaponeventsChangeTriggerModeEvent: redEvent
----@field public triggerMode gamedataTriggerMode
+---@field public ["triggerMode"] gamedataTriggerMode
 gameweaponeventsChangeTriggerModeEvent = {}
 
 ---@param fields? table

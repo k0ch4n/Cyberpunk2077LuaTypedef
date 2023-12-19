@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeHalfLights: redEvent
----@field public isAuthorization Bool
+---@field public ["isAuthorization"] Bool
 ChangeHalfLights = {}
 
 ---@param fields? table

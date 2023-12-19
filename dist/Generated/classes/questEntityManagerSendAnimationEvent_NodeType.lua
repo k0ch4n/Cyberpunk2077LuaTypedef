@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSendAnimationEvent_NodeType: questIEntityManager_NodeType
----@field public objectRef gameEntityReference
----@field public eventName CName
+---@field public ["objectRef"] gameEntityReference
+---@field public ["eventName"] CName
 questEntityManagerSendAnimationEvent_NodeType = {}
 
 ---@param fields? table

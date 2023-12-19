@@ -3,6 +3,6 @@
 
 ---@enum inputESimplifiedInputDevice
 inputESimplifiedInputDevice = {
-    ["KBM"] = 0,
-    ["PAD"] = 1
+    ["KBM"] = 0, ---@type Enum
+    ["PAD"] = 1, ---@type Enum
 }

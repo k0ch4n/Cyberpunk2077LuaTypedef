@@ -18,6 +18,6 @@ function gamedataAppearance_Record:GetTagsItem(index) return end
 ---@return CName[]
 function gamedataAppearance_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAppearance_Record:TagsContains(item) return end

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorDrag: IParticleModificator
----@field public dragCoefficient IEvaluatorFloat
----@field public scale Float
+---@field public ["dragCoefficient"] IEvaluatorFloat
+---@field public ["scale"] Float
 CParticleModificatorDrag = {}
 
 ---@param fields? table

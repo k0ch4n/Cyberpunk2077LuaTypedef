@@ -25,7 +25,7 @@ function gameinputScriptListenerAction.GetType(me) return end
 function gameinputScriptListenerAction.GetValue(me) return end
 
 ---@param me gameinputScriptListenerAction
----@param name CName
+---@param name CName|string
 ---@return Bool
 function gameinputScriptListenerAction.IsAction(me, name) return end
 

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamShadowMeshCreationData: meshMeshParameter
----@field public geometries physicsICollider[]
----@field public bonesPerGeometry Int32[]
+---@field public ["geometries"] physicsICollider[]
+---@field public ["bonesPerGeometry"] Int32[]
 meshMeshParamShadowMeshCreationData = {}
 
 ---@param fields? table

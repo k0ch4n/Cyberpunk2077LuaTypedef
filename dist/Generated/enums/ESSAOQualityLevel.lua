@@ -3,9 +3,9 @@
 
 ---@enum ESSAOQualityLevel
 ESSAOQualityLevel = {
-    ["SSAOQUALITY_VeryLow"] = 0,
-    ["SSAOQUALITY_Low"] = 1,
-    ["SSAOQUALITY_Medium"] = 2,
-    ["SSAOQUALITY_High"] = 3,
-    ["SSAOQUALITY_VeryHigh"] = 4
+    ["SSAOQUALITY_VeryLow"] = 0, ---@type Enum
+    ["SSAOQUALITY_Low"] = 1, ---@type Enum
+    ["SSAOQUALITY_Medium"] = 2, ---@type Enum
+    ["SSAOQUALITY_High"] = 3, ---@type Enum
+    ["SSAOQUALITY_VeryHigh"] = 4, ---@type Enum
 }

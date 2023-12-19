@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class WeakFence: InteractiveDevice
----@field protected impulseForce Float
----@field protected impulseVector Vector4
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected currentWorkspotSuffix CName
----@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
----@field protected physicalMesh entIPlacedComponent
+---@field protected ["impulseForce"] Float
+---@field protected ["impulseVector"] Vector4
+---@field protected ["sideTriggerNames"] CName[]
+---@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
+---@field protected ["currentWorkspotSuffix"] CName
+---@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
+---@field protected ["physicalMesh"] entIPlacedComponent
 WeakFence = {}
 
 ---@param fields? table
@@ -36,7 +36,7 @@ function WeakFence:OnRequestComponents(ri) return end
 function WeakFence:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function WeakFence:OnWorkspotFinished(componentName) return end
 

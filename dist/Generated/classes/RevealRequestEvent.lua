@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RevealRequestEvent: redEvent
----@field private shouldReveal Bool
----@field private requester entEntityID
----@field private oneFrame Bool
+---@field private ["shouldReveal"] Bool
+---@field private ["requester"] entEntityID
+---@field private ["oneFrame"] Bool
 RevealRequestEvent = {}
 
 ---@param fields? table

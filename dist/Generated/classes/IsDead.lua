@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IsDead: AIbehaviorconditionScript
----@field public statPoolsSystem gameStatPoolsSystem
----@field public entityID entEntityID
+---@field public ["statPoolsSystem"] gameStatPoolsSystem
+---@field public ["entityID"] entEntityID
 IsDead = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioPhysicalMaterialToAudioMetadataMatrix: audioAudioMetadata
----@field public physicalToAudioMaterialAssignments audioAudioMaterialMetadataMapItem[]
+---@field public ["physicalToAudioMaterialAssignments"] audioAudioMaterialMetadataMapItem[]
 audioPhysicalMaterialToAudioMetadataMatrix = {}
 
 ---@param fields? table

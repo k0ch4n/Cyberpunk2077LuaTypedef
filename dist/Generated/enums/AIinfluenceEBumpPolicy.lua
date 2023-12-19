@@ -3,7 +3,7 @@
 
 ---@enum AIinfluenceEBumpPolicy
 AIinfluenceEBumpPolicy = {
-    ["Static"] = 0,
-    ["Lean"] = 1,
-    ["Move"] = 2
+    ["Static"] = 0, ---@type Enum
+    ["Lean"] = 1, ---@type Enum
+    ["Move"] = 2, ---@type Enum
 }

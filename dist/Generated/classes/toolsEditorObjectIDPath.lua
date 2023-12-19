@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsEditorObjectIDPath
----@field public elements EditorObjectID[]
+---@field public ["elements"] EditorObjectID[]
 toolsEditorObjectIDPath = {}
 
 ---@param fields? table

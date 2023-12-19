@@ -3,7 +3,7 @@
 
 ---@enum vehicleBikeCurve
 vehicleBikeCurve = {
-    ["SpeedToTilt"] = 0,
-    ["InputToTilt"] = 1,
-    ["SpeedToTiltSpeed"] = 2
+    ["SpeedToTilt"] = 0, ---@type Enum
+    ["InputToTilt"] = 1, ---@type Enum
+    ["SpeedToTiltSpeed"] = 2, ---@type Enum
 }

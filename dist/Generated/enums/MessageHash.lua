@@ -3,6 +3,6 @@
 
 ---@enum MessageHash
 MessageHash = {
-    ["Invalid"] = 0,
-    ["Fake"] = -1
+    ["Invalid"] = 0, ---@type Enum
+    ["Fake"] = -1, ---@type Enum
 }

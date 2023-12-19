@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsSoundSwitch: redEvent
----@field public switchName CName
----@field public switchValue CName
+---@field public ["switchName"] CName
+---@field public ["switchValue"] CName
 gameaudioeventsSoundSwitch = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum EFastTravelSystemInstruction
 EFastTravelSystemInstruction = {
-    ["Forward"] = 0,
-    ["Previous"] = 1
+    ["Forward"] = 0, ---@type Enum
+    ["Previous"] = 1, ---@type Enum
 }

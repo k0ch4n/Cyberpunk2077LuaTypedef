@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SCustomActionOperationData
----@field public actionID CName
----@field public operation SBaseDeviceOperationData
+---@field public ["actionID"] CName
+---@field public ["operation"] SBaseDeviceOperationData
 SCustomActionOperationData = {}
 
 ---@param fields? table

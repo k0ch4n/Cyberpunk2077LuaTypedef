@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NPCKillDelayEvent: redEvent
----@field public target gameObject
----@field public isLethalTakedown Bool
----@field public disableKillReward Bool
+---@field public ["target"] gameObject
+---@field public ["isLethalTakedown"] Bool
+---@field public ["disableKillReward"] Bool
 NPCKillDelayEvent = {}
 
 ---@param fields? table

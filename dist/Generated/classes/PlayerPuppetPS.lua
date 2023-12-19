@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PlayerPuppetPS: ScriptedPuppetPS
----@field private keybindigs KeyBindings
----@field private availablePrograms gameuiMinigameProgramData[]
----@field private hasAutoReveal Bool
----@field private combatExitTimestamp Float
----@field private isInDriverCombat Bool
----@field private permanentHealthBonus Float
----@field private permanentStaminaBonus Float
----@field private permanentMemoryBonus Float
----@field private minigameBB gameIBlackboard
+---@field private ["keybindigs"] KeyBindings
+---@field private ["availablePrograms"] gameuiMinigameProgramData[]
+---@field private ["hasAutoReveal"] Bool
+---@field private ["combatExitTimestamp"] Float
+---@field private ["isInDriverCombat"] Bool
+---@field private ["permanentHealthBonus"] Float
+---@field private ["permanentStaminaBonus"] Float
+---@field private ["permanentMemoryBonus"] Float
+---@field private ["minigameBB"] gameIBlackboard
 PlayerPuppetPS = {}
 
 ---@param fields? table

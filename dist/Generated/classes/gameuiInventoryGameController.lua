@@ -2,77 +2,77 @@
 ---@diagnostic disable
 
 ---@class gameuiInventoryGameController: gameuiMenuGameController
----@field private TooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private itemModeControllerRef inkWidgetReference
----@field private defaultWrapper inkWidgetReference
----@field private itemWrapper inkWidgetReference
----@field private cyberwareSlotRootRefs inkCompoundWidgetReference
----@field private cyberwareHolder inkWidgetReference
----@field private paperDollWidget inkWidgetReference
----@field private sortingButton inkWidgetReference
----@field private sortingDropdown inkWidgetReference
----@field private notificationRoot inkWidgetReference
----@field private playerStatsWidget inkWidgetReference
----@field private btnBackpack inkWidgetReference
----@field private btnCyberware inkWidgetReference
----@field private btnCrafting inkWidgetReference
----@field private btnStats inkWidgetReference
----@field private btnSets inkWidgetReference
----@field private itemNotificationRoot inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private buttonHintsController ButtonHints
----@field private player PlayerPuppet
----@field private mode InventoryModes
----@field private itemViewMode ItemViewModes
----@field private itemModeLogicController InventoryItemModeLogicController
----@field private animationProxy inkanimProxy
----@field private animDef inkanimDefinition
----@field private itemModeProxy inkanimProxy
----@field private itemModeOutroProxy inkanimProxy
----@field private paperDollProxy inkanimProxy
----@field private targetPaperDollVisibility Bool
----@field private refreshUIRequested Bool
----@field private InventoryList InventoryItemDisplay[]
----@field private WeaponsList InventoryItemDisplayController[]
----@field private EquipmentList InventoryItemDisplayController[]
----@field private CyberwareList InventoryItemDisplayController[]
----@field private PocketList InventoryItemDisplayController[]
----@field private ConsumablesList InventoryItemDisplayController[]
----@field private animationList InventoryItemDisplayController[]
----@field private InventoryManager InventoryDataManagerV2
----@field private uiScriptableSystem UIScriptableSystem
----@field private comparisonResolver ItemPreferredComparisonResolver
----@field private equipmentSystem EquipmentSystem
----@field private EquipAreas gamedataEquipmentArea[]
----@field private CyberwareAreas gamedataEquipmentArea[]
----@field private WeaponAreas gamedataItemType[]
----@field private PocketAreas gamedataEquipmentArea[]
----@field private ConsumablesAreas gamedataEquipmentArea[]
----@field protected UIBBEquipment UI_EquipmentDef
----@field protected UIBBItemMod UI_ItemModSystemDef
----@field private DisassembleCallback UI_CraftingDef
----@field protected UIBBEquipmentBlackboard gameIBlackboard
----@field protected UIBBItemModBlackbord gameIBlackboard
----@field private DisassembleBlackboard gameIBlackboard
----@field private InventoryBBID redCallbackObject
----@field private EquipmentBBID redCallbackObject
----@field private SubEquipmentBBID redCallbackObject
----@field private ItemModBBID redCallbackObject
----@field private DisassembleBBID redCallbackObject
----@field private isE3Demo Bool
----@field private inventoryStatsListener InventoryStatsListener
----@field private quantityPickerPopupToken inkGameNotificationToken
----@field private psmBlackboard gameIBlackboard
----@field private equipmentAreaCategoryEventQueue EquipmentAreaCategoryCreated[]
----@field private cyberwareItems gameInventoryItemData[]
----@field private equipmentAreaCategories EquipmentAreaCategory[]
----@field private wardrobeOutfitAreas gamedataEquipmentArea[]
----@field private lastClothingSetIndex Int32
----@field private telemetrySystem gameTelemetryTelemetrySystem
----@field private CyberwareScreenUserData CyberwareDisplayWrapper
----@field private openItemMode Bool
+---@field private ["TooltipsManagerRef"] inkWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["itemModeControllerRef"] inkWidgetReference
+---@field private ["defaultWrapper"] inkWidgetReference
+---@field private ["itemWrapper"] inkWidgetReference
+---@field private ["cyberwareSlotRootRefs"] inkCompoundWidgetReference
+---@field private ["cyberwareHolder"] inkWidgetReference
+---@field private ["paperDollWidget"] inkWidgetReference
+---@field private ["sortingButton"] inkWidgetReference
+---@field private ["sortingDropdown"] inkWidgetReference
+---@field private ["notificationRoot"] inkWidgetReference
+---@field private ["playerStatsWidget"] inkWidgetReference
+---@field private ["btnBackpack"] inkWidgetReference
+---@field private ["btnCyberware"] inkWidgetReference
+---@field private ["btnCrafting"] inkWidgetReference
+---@field private ["btnStats"] inkWidgetReference
+---@field private ["btnSets"] inkWidgetReference
+---@field private ["itemNotificationRoot"] inkWidgetReference
+---@field private ["TooltipsManager"] gameuiTooltipsManager
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["player"] PlayerPuppet
+---@field private ["mode"] InventoryModes
+---@field private ["itemViewMode"] ItemViewModes
+---@field private ["itemModeLogicController"] InventoryItemModeLogicController
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["animDef"] inkanimDefinition
+---@field private ["itemModeProxy"] inkanimProxy
+---@field private ["itemModeOutroProxy"] inkanimProxy
+---@field private ["paperDollProxy"] inkanimProxy
+---@field private ["targetPaperDollVisibility"] Bool
+---@field private ["refreshUIRequested"] Bool
+---@field private ["InventoryList"] InventoryItemDisplay[]
+---@field private ["WeaponsList"] InventoryItemDisplayController[]
+---@field private ["EquipmentList"] InventoryItemDisplayController[]
+---@field private ["CyberwareList"] InventoryItemDisplayController[]
+---@field private ["PocketList"] InventoryItemDisplayController[]
+---@field private ["ConsumablesList"] InventoryItemDisplayController[]
+---@field private ["animationList"] InventoryItemDisplayController[]
+---@field private ["InventoryManager"] InventoryDataManagerV2
+---@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field private ["comparisonResolver"] ItemPreferredComparisonResolver
+---@field private ["equipmentSystem"] EquipmentSystem
+---@field private ["EquipAreas"] gamedataEquipmentArea[]
+---@field private ["CyberwareAreas"] gamedataEquipmentArea[]
+---@field private ["WeaponAreas"] gamedataItemType[]
+---@field private ["PocketAreas"] gamedataEquipmentArea[]
+---@field private ["ConsumablesAreas"] gamedataEquipmentArea[]
+---@field protected ["UIBBEquipment"] UI_EquipmentDef
+---@field protected ["UIBBItemMod"] UI_ItemModSystemDef
+---@field private ["DisassembleCallback"] UI_CraftingDef
+---@field protected ["UIBBEquipmentBlackboard"] gameIBlackboard
+---@field protected ["UIBBItemModBlackbord"] gameIBlackboard
+---@field private ["DisassembleBlackboard"] gameIBlackboard
+---@field private ["InventoryBBID"] redCallbackObject
+---@field private ["EquipmentBBID"] redCallbackObject
+---@field private ["SubEquipmentBBID"] redCallbackObject
+---@field private ["ItemModBBID"] redCallbackObject
+---@field private ["DisassembleBBID"] redCallbackObject
+---@field private ["isE3Demo"] Bool
+---@field private ["inventoryStatsListener"] InventoryStatsListener
+---@field private ["quantityPickerPopupToken"] inkGameNotificationToken
+---@field private ["psmBlackboard"] gameIBlackboard
+---@field private ["equipmentAreaCategoryEventQueue"] EquipmentAreaCategoryCreated[]
+---@field private ["cyberwareItems"] gameInventoryItemData[]
+---@field private ["equipmentAreaCategories"] EquipmentAreaCategory[]
+---@field private ["wardrobeOutfitAreas"] gamedataEquipmentArea[]
+---@field private ["lastClothingSetIndex"] Int32
+---@field private ["telemetrySystem"] gameTelemetryTelemetrySystem
+---@field private ["CyberwareScreenUserData"] CyberwareDisplayWrapper
+---@field private ["openItemMode"] Bool
 gameuiInventoryGameController = {}
 
 ---@param fields? table
@@ -400,13 +400,13 @@ function gameuiInventoryGameController:OpenItemMode(displayData) return end
 ---@private
 ---@param itemData gameInventoryItemData
 ---@param actionType QuantityPickerActionType
----@param local? Bool
+---@param local_? Bool
 ---@return nil
-function gameuiInventoryGameController:OpenQuantityPicker(itemData, actionType, local) return end
+function gameuiInventoryGameController:OpenQuantityPicker(itemData, actionType, local_) return end
 
 ---@private
----@param moveAnimation CName
----@param hideAnimation CName
+---@param moveAnimation CName|string
+---@param hideAnimation CName|string
 ---@param target InventoryItemDisplayController
 ---@param itemToHide InventoryItemDisplayController[]
 ---@return nil

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeAttackCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIMeleeAttackCommand
+---@field protected ["inCommand"] AIArgumentMapping
+---@field protected ["currentCommand"] AIMeleeAttackCommand
 MeleeAttackCommandHandler = {}
 
 ---@param fields? table

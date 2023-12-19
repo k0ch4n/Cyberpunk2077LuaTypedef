@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetVideo: gameJournalInternetBase
----@field public videoResource Bink
+---@field public ["videoResource"] Bink
 gameJournalInternetVideo = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeGroundSlamAttackEvents: MeleeAttackGenericEvents
----@field public knockdownImmunityModifier gameStatModifierData_Deprecated
----@field public stunImmunityModifier gameStatModifierData_Deprecated
+---@field public ["knockdownImmunityModifier"] gameStatModifierData_Deprecated
+---@field public ["stunImmunityModifier"] gameStatModifierData_Deprecated
 MeleeGroundSlamAttackEvents = {}
 
 ---@param fields? table

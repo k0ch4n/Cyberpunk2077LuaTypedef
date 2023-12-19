@@ -3,13 +3,13 @@
 
 ---@enum gamedataNPCStanceState
 gamedataNPCStanceState = {
-    ["Any"] = 0,
-    ["Cover"] = 1,
-    ["Crouch"] = 2,
-    ["Stand"] = 3,
-    ["Swim"] = 4,
-    ["Vehicle"] = 5,
-    ["VehicleWindow"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["Any"] = 0, ---@type Enum
+    ["Cover"] = 1, ---@type Enum
+    ["Crouch"] = 2, ---@type Enum
+    ["Stand"] = 3, ---@type Enum
+    ["Swim"] = 4, ---@type Enum
+    ["Vehicle"] = 5, ---@type Enum
+    ["VehicleWindow"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

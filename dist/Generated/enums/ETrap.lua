@@ -3,9 +3,9 @@
 
 ---@enum ETrap
 ETrap = {
-    ["Invalid"] = 0,
-    ["GridRegen"] = 1,
-    ["AppendStart"] = 2,
-    ["Hidden"] = 3,
-    ["Virus"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["GridRegen"] = 1, ---@type Enum
+    ["AppendStart"] = 2, ---@type Enum
+    ["Hidden"] = 3, ---@type Enum
+    ["Virus"] = 4, ---@type Enum
 }

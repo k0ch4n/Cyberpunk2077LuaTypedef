@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class workIWorkspotCondition: ISerializable
----@field public expectedResult workWorkspotLogic
----@field public equals Bool
+---@field public ["expectedResult"] workWorkspotLogic
+---@field public ["equals"] Bool
 workIWorkspotCondition = {}

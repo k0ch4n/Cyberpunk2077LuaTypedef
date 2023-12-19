@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FocusCluesSystem: gameScriptableSystem
----@field private linkedClues LinkedFocusClueData[]
----@field private disabledGroupes CName[]
----@field private activeLinkedClue LinkedFocusClueData
+---@field private ["linkedClues"] LinkedFocusClueData[]
+---@field private ["disabledGroupes"] CName[]
+---@field private ["activeLinkedClue"] LinkedFocusClueData
 FocusCluesSystem = {}
 
 ---@param fields? table
@@ -17,12 +17,12 @@ function FocusCluesSystem.new(fields) return end
 function FocusCluesSystem:AddLinkedClue(clue) return end
 
 ---@private
----@param groupID CName
+---@param groupID CName|string
 ---@return nil
 function FocusCluesSystem:DisableGroup(groupID) return end
 
 ---@private
----@param groupID CName
+---@param groupID CName|string
 ---@return nil
 function FocusCluesSystem:EnableGroup(groupID) return end
 
@@ -32,13 +32,13 @@ function FocusCluesSystem:GetActiveLinkedClue() return end
 ---@return gameScanningTooltipElementDef[]
 function FocusCluesSystem:GetActiveLinkedClueScannableData() return end
 
----@param groupID CName
+---@param groupID CName|string
 ---@param clue FocusClueDefinition
 ---@return Bool
 function FocusCluesSystem:GetClueGroupData(groupID, clue) return end
 
 ---@private
----@param groupID CName
+---@param groupID CName|string
 ---@param clue LinkedFocusClueData
 ---@return Bool
 function FocusCluesSystem:GetLinkedClueGroupData(groupID, clue) return end
@@ -48,7 +48,7 @@ function FocusCluesSystem:GetLinkedClueGroupData(groupID, clue) return end
 ---@return Bool
 function FocusCluesSystem:HasLinkedClue(clue) return end
 
----@param groupID CName
+---@param groupID CName|string
 ---@return Bool
 function FocusCluesSystem:IsGroupDisabled(groupID) return end
 
@@ -62,7 +62,7 @@ function FocusCluesSystem:IsGroupTagged(clue) return end
 function FocusCluesSystem:IsGroupped(ownerID) return end
 
 ---@param ownerID entEntityID
----@param groupID CName
+---@param groupID CName|string
 ---@return Bool
 function FocusCluesSystem:IsRegistered(ownerID, groupID) return end
 

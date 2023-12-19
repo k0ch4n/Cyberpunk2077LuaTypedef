@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DlcMenuGameController: gameuiMenuGameController
----@field private buttonHintsRef inkWidgetReference
----@field private containersRef inkCompoundWidgetReference
----@field private settings userSettingsUserSettings
----@field private dlcSettingsGroup userSettingsGroup
+---@field private ["buttonHintsRef"] inkWidgetReference
+---@field private ["containersRef"] inkCompoundWidgetReference
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["dlcSettingsGroup"] userSettingsGroup
 DlcMenuGameController = {}
 
 ---@param fields? table
@@ -23,11 +23,11 @@ function DlcMenuGameController:OnDescriptionSpawned(widget, userData) return end
 function DlcMenuGameController:OnInitialize() return end
 
 ---@private
----@param title CName
----@param description CName
----@param guide CName
----@param imagePart CName
----@param settingVarName? CName
+---@param title CName|string
+---@param description CName|string
+---@param guide CName|string
+---@param imagePart CName|string
+---@param settingVarName? CName|string
 ---@return nil
 function DlcMenuGameController:SpawnDescriptions(title, description, guide, imagePart, settingVarName) return end
 

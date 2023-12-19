@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SendSpiderbotToPerformActionEvent: redEvent
----@field public executor gameObject
+---@field public ["executor"] gameObject
 SendSpiderbotToPerformActionEvent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class WeaponTraining: InteractiveDevice
----@field protected rewardRecord TweakDBID
----@field protected weaponTypes gamedataItemType[]
----@field protected limitOfHits Int32
----@field protected amountOfHits Int32
+---@field protected ["rewardRecord"] TweakDBID
+---@field protected ["weaponTypes"] gamedataItemType[]
+---@field protected ["limitOfHits"] Int32
+---@field protected ["amountOfHits"] Int32
 WeaponTraining = {}
 
 ---@param fields? table

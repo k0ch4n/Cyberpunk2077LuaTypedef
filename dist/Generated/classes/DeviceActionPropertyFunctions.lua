@@ -55,64 +55,64 @@ function DeviceActionPropertyFunctions.GetProperty_RadioStatus(prop, stationName
 ---@return Bool, Int32 deviceStatus
 function DeviceActionPropertyFunctions.GetProperty_TvStatus(prop, stationName) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value Bool
----@param nameOnTrue CName
----@param nameOnFalse CName
+---@param nameOnTrue CName|string
+---@param nameOnFalse CName|string
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_Bool(propertyName, value, nameOnTrue, nameOnFalse) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value Int32
 ---@param displayValue Int32
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_ElevatorInt(propertyName, value, displayValue) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value gameEntityReference
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_EntityReference(propertyName, value) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value Float
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_Float(propertyName, value) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value Int32
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_Int(propertyName, value) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value Int32
 ---@param rangeMin Int32
 ---@param rangeMax Int32
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_IntRanged(propertyName, value, rangeMin, rangeMax) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param deviceStatus Int32
 ---@param stationName String
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_MediaStatus(propertyName, deviceStatus, stationName) return end
 
----@param propertyName CName
----@param value CName
+---@param propertyName CName|string
+---@param value CName|string
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_Name(propertyName, value) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param value NodeRef
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_NodeRef(propertyName, value) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param deviceStatus Int32
 ---@param stationName String
 ---@return gamedeviceActionProperty
 function DeviceActionPropertyFunctions.SetUpProperty_RadioStatus(propertyName, deviceStatus, stationName) return end
 
----@param propertyName CName
+---@param propertyName CName|string
 ---@param deviceStatus Int32
 ---@param stationName String
 ---@return gamedeviceActionProperty

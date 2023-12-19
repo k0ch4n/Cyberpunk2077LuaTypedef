@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsValidCombatTarget: AIbehaviorconditionScript
----@field public considerSourceAVehicleDriver Bool
+---@field public ["considerSourceAVehicleDriver"] Bool
 IsValidCombatTarget = {}
 
 ---@param fields? table

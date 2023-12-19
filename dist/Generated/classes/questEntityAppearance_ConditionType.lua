@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEntityAppearance_ConditionType: questIEntityConditionType
----@field public entityRef gameEntityReference
----@field public appearance CName
+---@field public ["entityRef"] gameEntityReference
+---@field public ["appearance"] CName
 questEntityAppearance_ConditionType = {}
 
 ---@param fields? table

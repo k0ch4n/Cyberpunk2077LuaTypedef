@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class SniperNest: SensorDevice
----@field private animFeature AnimFeature_SecurityTurretData
----@field private animFeatureName CName
----@field protected weapon gameweaponObject
----@field protected itemID gameItemID
----@field private teleportAfterEnter NodeRef
----@field private burstDelayEvtID gameDelayID
----@field private isBurstDelayOngoing Bool
----@field private nextShootCycleDelayEvtID gameDelayID
----@field private isShootingOngoing Bool
----@field private timeToNextShot Float
----@field private player PlayerPuppet
----@field private targetZoom Float
----@field private startZoom Float
----@field private zoomLerpTimeStamp Float
----@field private zoomLerpDuration Float
+---@field private ["animFeature"] AnimFeature_SecurityTurretData
+---@field private ["animFeatureName"] CName
+---@field protected ["weapon"] gameweaponObject
+---@field protected ["itemID"] gameItemID
+---@field private ["teleportAfterEnter"] NodeRef
+---@field private ["burstDelayEvtID"] gameDelayID
+---@field private ["isBurstDelayOngoing"] Bool
+---@field private ["nextShootCycleDelayEvtID"] gameDelayID
+---@field private ["isShootingOngoing"] Bool
+---@field private ["timeToNextShot"] Float
+---@field private ["player"] PlayerPuppet
+---@field private ["targetZoom"] Float
+---@field private ["startZoom"] Float
+---@field private ["zoomLerpTimeStamp"] Float
+---@field private ["zoomLerpDuration"] Float
 SniperNest = {}
 
 ---@param fields? table
@@ -101,7 +101,7 @@ function SniperNest:OnToggleTakeOverControl(evt) return end
 function SniperNest:OnTurretShootingIntervalEvent(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function SniperNest:OnWorkspotFinished(componentName) return end
 
@@ -132,8 +132,8 @@ function SniperNest:DeviceUpdate() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function SniperNest:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

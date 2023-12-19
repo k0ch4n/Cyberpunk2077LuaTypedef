@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PayActionWidgetController: DeviceActionWidgetControllerBase
----@field protected priceContainer inkWidgetReference
----@field protected moneyStatusContainer inkWidgetReference
----@field protected processingStatusContainer inkWidgetReference
----@field protected moneyStatusAnimName CName
----@field protected processingAnimName CName
----@field private isProcessingPayment Bool
+---@field protected ["priceContainer"] inkWidgetReference
+---@field protected ["moneyStatusContainer"] inkWidgetReference
+---@field protected ["processingStatusContainer"] inkWidgetReference
+---@field protected ["moneyStatusAnimName"] CName
+---@field protected ["processingAnimName"] CName
+---@field private ["isProcessingPayment"] Bool
 PayActionWidgetController = {}
 
 ---@param fields? table

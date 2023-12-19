@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShouldContinuePatrolFromClosestPoint: AIbehaviorconditionScript
----@field public patrolContinuationPolicy AIArgumentMapping
+---@field public ["patrolContinuationPolicy"] AIArgumentMapping
 ShouldContinuePatrolFromClosestPoint = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnCheckDistractedReturnConditionParams
----@field public distracted Bool
----@field public target scnDistractedConditionTarget
+---@field public ["distracted"] Bool
+---@field public ["target"] scnDistractedConditionTarget
 scnCheckDistractedReturnConditionParams = {}
 
 ---@param fields? table

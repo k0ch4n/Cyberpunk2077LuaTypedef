@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class DifficultySelectionMenu: gameuiBaseCharacterCreationController
----@field public difficultyTitle inkTextWidgetReference
----@field public textureTop inkImageWidgetReference
----@field public textureBottom inkImageWidgetReference
----@field private hoverAnimation CName
----@field public difficulty0 inkWidgetReference
----@field public difficulty1 inkWidgetReference
----@field public difficulty2 inkWidgetReference
----@field public difficulty3 inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private lastShownPart CName
----@field private lastAtlas redResourceReferenceScriptToken
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private localizedText String
----@field private c_atlas1 redResourceReferenceScriptToken
----@field private c_atlas2 redResourceReferenceScriptToken
----@field private isInputLocked Bool
+---@field public ["difficultyTitle"] inkTextWidgetReference
+---@field public ["textureTop"] inkImageWidgetReference
+---@field public ["textureBottom"] inkImageWidgetReference
+---@field private ["hoverAnimation"] CName
+---@field public ["difficulty0"] inkWidgetReference
+---@field public ["difficulty1"] inkWidgetReference
+---@field public ["difficulty2"] inkWidgetReference
+---@field public ["difficulty3"] inkWidgetReference
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["lastShownPart"] CName
+---@field private ["lastAtlas"] redResourceReferenceScriptToken
+---@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
+---@field private ["localizedText"] String
+---@field private ["c_atlas1"] redResourceReferenceScriptToken
+---@field private ["c_atlas2"] redResourceReferenceScriptToken
+---@field private ["isInputLocked"] Bool
 DifficultySelectionMenu = {}
 
 ---@param fields? table
@@ -79,8 +79,8 @@ function DifficultySelectionMenu:OnIntro() return end
 ---@return nil
 function DifficultySelectionMenu:OnOutro() return end
 
----@param animName CName
----@param callBack? CName
+---@param animName CName|string
+---@param callBack? CName|string
 ---@return nil
 function DifficultySelectionMenu:PlayAnim(animName, callBack) return end
 
@@ -94,6 +94,6 @@ function DifficultySelectionMenu:PriorMenu() return end
 
 ---@private
 ---@param atlas redResourceReferenceScriptToken
----@param part CName
+---@param part CName|string
 ---@return nil
 function DifficultySelectionMenu:TextureTransition(atlas, part) return end

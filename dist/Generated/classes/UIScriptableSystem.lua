@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystem: gameScriptableSystem
----@field private backpackActiveSorting Int32
----@field private backpackActiveFilter Int32
----@field private isBackpackActiveFilterSaved Bool
----@field private vendorPanelPlayerActiveSorting Int32
----@field private vendorPanelVendorActiveSorting Int32
----@field private playerFavouriteItems gameItemID[]
----@field private newItems gameItemID[]
----@field private DLCAddedItems TweakDBID[]
----@field private newWardrobeSets gameWardrobeClothingSetIndex[]
----@field private newWardrobeItems gameItemID[]
----@field private availableCars CName[]
----@field private previousAttributeLevels UIScriptableSystemAttributeLevel[]
----@field private comparisionTooltipDisabled Bool
----@field private attachedPlayer PlayerPuppet
----@field private inventoryListenerCallback UIScriptableInventoryListenerCallback
----@field private inventoryListener gameInventoryScriptListener
----@field private DEV_useNewTooltips Bool
----@field private DEV_useLongScanTooltips Bool
+---@field private ["backpackActiveSorting"] Int32
+---@field private ["backpackActiveFilter"] Int32
+---@field private ["isBackpackActiveFilterSaved"] Bool
+---@field private ["vendorPanelPlayerActiveSorting"] Int32
+---@field private ["vendorPanelVendorActiveSorting"] Int32
+---@field private ["playerFavouriteItems"] gameItemID[]
+---@field private ["newItems"] gameItemID[]
+---@field private ["DLCAddedItems"] TweakDBID[]
+---@field private ["newWardrobeSets"] gameWardrobeClothingSetIndex[]
+---@field private ["newWardrobeItems"] gameItemID[]
+---@field private ["availableCars"] CName[]
+---@field private ["previousAttributeLevels"] UIScriptableSystemAttributeLevel[]
+---@field private ["comparisionTooltipDisabled"] Bool
+---@field private ["attachedPlayer"] PlayerPuppet
+---@field private ["inventoryListenerCallback"] UIScriptableInventoryListenerCallback
+---@field private ["inventoryListener"] gameInventoryScriptListener
+---@field private ["DEV_useNewTooltips"] Bool
+---@field private ["DEV_useLongScanTooltips"] Bool
 UIScriptableSystem = {}
 
 ---@param fields? table
@@ -55,7 +55,7 @@ function UIScriptableSystem:GetVendorPanelPlayerActiveSorting(defaultValue) retu
 ---@return Int32
 function UIScriptableSystem:GetVendorPanelVendorActiveSorting(defaultValue) return end
 
----@param carFact CName
+---@param carFact CName|string
 ---@return Bool
 function UIScriptableSystem:IsAvailableCarNew(carFact) return end
 

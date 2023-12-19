@@ -3,21 +3,21 @@
 
 ---@enum AICombatSectorType
 AICombatSectorType = {
-    ["ToBackLeft"] = 0,
-    ["ToBackMid"] = 1,
-    ["ToBackRight"] = 2,
-    ["ToLeft"] = 3,
-    ["ToMid"] = 4,
-    ["ToRight"] = 5,
-    ["FromLeft"] = 6,
-    ["FromMid"] = 7,
-    ["FromRight"] = 8,
-    ["FromBackLeft"] = 9,
-    ["FromBackMid"] = 10,
-    ["FromBackRight"] = 11,
-    ["BeyondToLeft"] = 12,
-    ["BeyondToRight"] = 13,
-    ["BeyondFromLeft"] = 14,
-    ["BeyondFromRight"] = 15,
-    ["Unknown"] = 16
+    ["ToBackLeft"] = 0, ---@type Enum
+    ["ToBackMid"] = 1, ---@type Enum
+    ["ToBackRight"] = 2, ---@type Enum
+    ["ToLeft"] = 3, ---@type Enum
+    ["ToMid"] = 4, ---@type Enum
+    ["ToRight"] = 5, ---@type Enum
+    ["FromLeft"] = 6, ---@type Enum
+    ["FromMid"] = 7, ---@type Enum
+    ["FromRight"] = 8, ---@type Enum
+    ["FromBackLeft"] = 9, ---@type Enum
+    ["FromBackMid"] = 10, ---@type Enum
+    ["FromBackRight"] = 11, ---@type Enum
+    ["BeyondToLeft"] = 12, ---@type Enum
+    ["BeyondToRight"] = 13, ---@type Enum
+    ["BeyondFromLeft"] = 14, ---@type Enum
+    ["BeyondFromRight"] = 15, ---@type Enum
+    ["Unknown"] = 16, ---@type Enum
 }

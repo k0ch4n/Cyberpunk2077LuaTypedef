@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_PhysicalRayFan: gameEffectObjectProvider_PhysicalRay
----@field public inputMinRayAngleDiff gameEffectInputParameter_Float
+---@field public ["inputMinRayAngleDiff"] gameEffectInputParameter_Float
 gameEffectObjectProvider_PhysicalRayFan = {}
 
 ---@param fields? table

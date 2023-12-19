@@ -3,8 +3,8 @@
 
 ---@enum AIForcedBehaviourPriority
 AIForcedBehaviourPriority = {
-    ["AboveIdle"] = 0,
-    ["AboveCombat"] = 1,
-    ["AboveCriticalState"] = 2,
-    ["AboveDeath"] = 3
+    ["AboveIdle"] = 0, ---@type Enum
+    ["AboveCombat"] = 1, ---@type Enum
+    ["AboveCriticalState"] = 2, ---@type Enum
+    ["AboveDeath"] = 3, ---@type Enum
 }

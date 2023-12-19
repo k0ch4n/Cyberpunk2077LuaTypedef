@@ -3,18 +3,18 @@
 
 ---@enum navNavAreaID
 navNavAreaID = {
-    ["Unwalkable"] = 0,
-    ["Terrain"] = 1,
-    ["Crouchable"] = 2,
-    ["Regular"] = 3,
-    ["Road"] = 4,
-    ["Pavement"] = 5,
-    ["Door"] = 10,
-    ["Ladder"] = 11,
-    ["Jump"] = 12,
-    ["Elevator"] = 14,
-    ["Stairs"] = 15,
-    ["Drones"] = 16,
-    ["Exploration"] = 17,
-    ["CrowdWalkable"] = 5
+    ["Unwalkable"] = 0, ---@type Enum
+    ["Terrain"] = 1, ---@type Enum
+    ["Crouchable"] = 2, ---@type Enum
+    ["Regular"] = 3, ---@type Enum
+    ["Road"] = 4, ---@type Enum
+    ["Pavement"] = 5, ---@type Enum
+    ["Door"] = 10, ---@type Enum
+    ["Ladder"] = 11, ---@type Enum
+    ["Jump"] = 12, ---@type Enum
+    ["Elevator"] = 14, ---@type Enum
+    ["Stairs"] = 15, ---@type Enum
+    ["Drones"] = 16, ---@type Enum
+    ["Exploration"] = 17, ---@type Enum
+    ["CrowdWalkable"] = 5, ---@type Enum
 }

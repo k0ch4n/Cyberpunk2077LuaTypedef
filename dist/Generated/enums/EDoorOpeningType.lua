@@ -3,10 +3,10 @@
 
 ---@enum EDoorOpeningType
 EDoorOpeningType = {
-    ["SLIDING_HORIZONTALLY"] = 0,
-    ["SLIDING_VERTICALLY"] = 1,
-    ["HINGED"] = 2,
-    ["GATE"] = 3,
-    ["HINGED_SIDE_ONE"] = 4,
-    ["HINGED_SIDE_TWO"] = 5
+    ["SLIDING_HORIZONTALLY"] = 0, ---@type Enum
+    ["SLIDING_VERTICALLY"] = 1, ---@type Enum
+    ["HINGED"] = 2, ---@type Enum
+    ["GATE"] = 3, ---@type Enum
+    ["HINGED_SIDE_ONE"] = 4, ---@type Enum
+    ["HINGED_SIDE_TWO"] = 5, ---@type Enum
 }

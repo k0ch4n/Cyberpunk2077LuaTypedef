@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class LiftStatus: BaseDeviceStatus
----@field public libraryName CName
+---@field public ["libraryName"] CName
 LiftStatus = {}
 
 ---@param fields? table
 ---@return LiftStatus
 function LiftStatus.new(fields) return end
 
----@param libraryName CName
+---@param libraryName CName|string
 ---@param authorizationTextOverride String
 ---@return nil
 function LiftStatus:CreateActionWidgetPackage(libraryName, authorizationTextOverride) return end

@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ProgressBarButton: inkWidgetLogicController
----@field protected craftingFill inkWidgetReference
----@field protected craftingLabel inkTextWidgetReference
----@field protected craftingIconGlyph inkWidgetReference
----@field public ButtonController inkButtonController
----@field private progressController ProgressBarsController
----@field private available Bool
----@field private progress Float
----@field private isLocked Bool
----@field private justFinished Bool
----@field private animProxy inkanimProxy
+---@field protected ["craftingFill"] inkWidgetReference
+---@field protected ["craftingLabel"] inkTextWidgetReference
+---@field protected ["craftingIconGlyph"] inkWidgetReference
+---@field public ["ButtonController"] inkButtonController
+---@field private ["progressController"] ProgressBarsController
+---@field private ["available"] Bool
+---@field private ["progress"] Float
+---@field private ["isLocked"] Bool
+---@field private ["justFinished"] Bool
+---@field private ["animProxy"] inkanimProxy
 ProgressBarButton = {}
 
 ---@param fields? table

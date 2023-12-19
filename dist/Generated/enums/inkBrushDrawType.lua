@@ -3,7 +3,7 @@
 
 ---@enum inkBrushDrawType
 inkBrushDrawType = {
-    ["NoDraw"] = 0,
-    ["Solid"] = 1,
-    ["Wire"] = 2
+    ["NoDraw"] = 0, ---@type Enum
+    ["Solid"] = 1, ---@type Enum
+    ["Wire"] = 2, ---@type Enum
 }

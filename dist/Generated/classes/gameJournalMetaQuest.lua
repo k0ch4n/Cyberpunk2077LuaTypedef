@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalMetaQuest: gameJournalFileEntry
----@field public title LocalizationString
+---@field public ["title"] LocalizationString
 gameJournalMetaQuest = {}
 
 ---@param fields? table

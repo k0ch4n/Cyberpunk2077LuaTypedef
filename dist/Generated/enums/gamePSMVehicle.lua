@@ -3,13 +3,13 @@
 
 ---@enum gamePSMVehicle
 gamePSMVehicle = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["Driving"] = 1,
-    ["Combat"] = 2,
-    ["Passenger"] = 3,
-    ["Transition"] = 4,
-    ["Turret"] = 5,
-    ["DriverCombat"] = 6,
-    ["Scene"] = 7
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["Driving"] = 1, ---@type Enum
+    ["Combat"] = 2, ---@type Enum
+    ["Passenger"] = 3, ---@type Enum
+    ["Transition"] = 4, ---@type Enum
+    ["Turret"] = 5, ---@type Enum
+    ["DriverCombat"] = 6, ---@type Enum
+    ["Scene"] = 7, ---@type Enum
 }

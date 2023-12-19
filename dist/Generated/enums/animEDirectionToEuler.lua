@@ -3,7 +3,7 @@
 
 ---@enum animEDirectionToEuler
 animEDirectionToEuler = {
-    ["Pitch"] = 0,
-    ["Yaw"] = 1,
-    ["Roll"] = 2
+    ["Pitch"] = 0, ---@type Enum
+    ["Yaw"] = 1, ---@type Enum
+    ["Roll"] = 2, ---@type Enum
 }

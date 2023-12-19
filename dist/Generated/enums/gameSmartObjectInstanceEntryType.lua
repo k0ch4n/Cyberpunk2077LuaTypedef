@@ -3,6 +3,6 @@
 
 ---@enum gameSmartObjectInstanceEntryType
 gameSmartObjectInstanceEntryType = {
-    ["UseEntryAnimation"] = 0,
-    ["UseLocomotion"] = 1
+    ["UseEntryAnimation"] = 0, ---@type Enum
+    ["UseLocomotion"] = 1, ---@type Enum
 }

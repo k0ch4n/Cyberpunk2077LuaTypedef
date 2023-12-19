@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponMaxStatValueData: IScriptable
----@field public stat gamedataStatType
----@field public value Float
+---@field public ["stat"] gamedataStatType
+---@field public ["value"] Float
 WeaponMaxStatValueData = {}
 
 ---@param fields? table

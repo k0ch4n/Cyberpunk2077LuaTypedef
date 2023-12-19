@@ -3,8 +3,8 @@
 
 ---@enum worldRoadMaterial
 worldRoadMaterial = {
-    ["Concrete"] = 0,
-    ["ConcreteDestroyed"] = 1,
-    ["Dirt"] = 2,
-    ["HardenedDirtDestroyed"] = 3
+    ["Concrete"] = 0, ---@type Enum
+    ["ConcreteDestroyed"] = 1, ---@type Enum
+    ["Dirt"] = 2, ---@type Enum
+    ["HardenedDirtDestroyed"] = 3, ---@type Enum
 }

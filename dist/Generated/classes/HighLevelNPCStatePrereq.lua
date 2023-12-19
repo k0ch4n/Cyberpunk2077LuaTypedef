@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HighLevelNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCHighLevelState
+---@field public ["valueToListen"] gamedataNPCHighLevelState
 HighLevelNPCStatePrereq = {}
 
 ---@param fields? table

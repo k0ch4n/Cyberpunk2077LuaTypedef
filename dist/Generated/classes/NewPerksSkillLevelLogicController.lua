@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NewPerksSkillLevelLogicController: inkWidgetLogicController
----@field private levelText inkTextWidgetReference
----@field private levelData LevelRewardDisplayData
----@field private active Bool
----@field private hovered Bool
+---@field private ["levelText"] inkTextWidgetReference
+---@field private ["levelData"] LevelRewardDisplayData
+---@field private ["active"] Bool
+---@field private ["hovered"] Bool
 NewPerksSkillLevelLogicController = {}
 
 ---@param fields? table

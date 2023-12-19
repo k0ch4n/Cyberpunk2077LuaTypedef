@@ -3,11 +3,11 @@
 
 ---@enum renderDevEnvProbeView
 renderDevEnvProbeView = {
-    ["RADIANCE"] = 0,
-    ["ALBEDO"] = 1,
-    ["NORMAL"] = 2,
-    ["ROUGHNESS"] = 3,
-    ["METALNESS"] = 4,
-    ["EMISSIVE"] = 5,
-    ["SKY_MASK"] = 6
+    ["RADIANCE"] = 0, ---@type Enum
+    ["ALBEDO"] = 1, ---@type Enum
+    ["NORMAL"] = 2, ---@type Enum
+    ["ROUGHNESS"] = 3, ---@type Enum
+    ["METALNESS"] = 4, ---@type Enum
+    ["EMISSIVE"] = 5, ---@type Enum
+    ["SKY_MASK"] = 6, ---@type Enum
 }

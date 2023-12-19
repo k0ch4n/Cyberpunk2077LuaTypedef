@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LerpToDefaultControllerLightColorRequest: gameScriptableSystemRequest
----@field public notQuest Bool
+---@field public ["notQuest"] Bool
 LerpToDefaultControllerLightColorRequest = {}
 
 ---@param fields? table

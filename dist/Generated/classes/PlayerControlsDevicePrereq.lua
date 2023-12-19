@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerControlsDevicePrereq: gameIScriptablePrereq
----@field private inverse Bool
+---@field private ["inverse"] Bool
 PlayerControlsDevicePrereq = {}
 
 ---@param fields? table

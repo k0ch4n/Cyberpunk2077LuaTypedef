@@ -3,7 +3,7 @@
 
 ---@enum questObjectInspectEventType
 questObjectInspectEventType = {
-    ["Undefined"] = 0,
-    ["Started"] = 1,
-    ["Finished"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Started"] = 1, ---@type Enum
+    ["Finished"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhotoModeMenuListItemData: ListItemData
----@field public attributeKey Uint32
+---@field public ["attributeKey"] Uint32
 PhotoModeMenuListItemData = {}
 
 ---@param fields? table

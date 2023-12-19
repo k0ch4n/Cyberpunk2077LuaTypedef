@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAppearancesGroup: audioAudioMetadata
----@field public appearances CName[]
+---@field public ["appearances"] CName[]
 audioAppearancesGroup = {}
 
 ---@param fields? table

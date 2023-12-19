@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterDebuggerCanditateEvent: redEvent
----@field public device Device
+---@field public ["device"] Device
 RegisterDebuggerCanditateEvent = {}
 
 ---@param fields? table

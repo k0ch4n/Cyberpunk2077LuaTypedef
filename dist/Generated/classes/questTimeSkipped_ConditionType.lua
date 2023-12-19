@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questTimeSkipped_ConditionType: questIUIConditionType
----@field public mode questTimeSkipMode
+---@field public ["mode"] questTimeSkipMode
 questTimeSkipped_ConditionType = {}
 
 ---@param fields? table

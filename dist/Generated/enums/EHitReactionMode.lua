@@ -3,18 +3,18 @@
 
 ---@enum EHitReactionMode
 EHitReactionMode = {
-    ["Regular"] = 0,
-    ["ForceImpact"] = 1,
-    ["ForceStagger"] = 2,
-    ["ForceKnockdown"] = 3,
-    ["Fragile"] = 4,
-    ["Weak"] = 5,
-    ["Tough"] = 6,
-    ["Bulky"] = 7,
-    ["Unstoppable"] = 8,
-    ["UnstoppableTwitchMin"] = 9,
-    ["UnstoppableTwitchNone"] = 10,
-    ["StaggerMin"] = 11,
-    ["BulkyStaggerMin"] = 12,
-    ["Invalid"] = 13
+    ["Regular"] = 0, ---@type Enum
+    ["ForceImpact"] = 1, ---@type Enum
+    ["ForceStagger"] = 2, ---@type Enum
+    ["ForceKnockdown"] = 3, ---@type Enum
+    ["Fragile"] = 4, ---@type Enum
+    ["Weak"] = 5, ---@type Enum
+    ["Tough"] = 6, ---@type Enum
+    ["Bulky"] = 7, ---@type Enum
+    ["Unstoppable"] = 8, ---@type Enum
+    ["UnstoppableTwitchMin"] = 9, ---@type Enum
+    ["UnstoppableTwitchNone"] = 10, ---@type Enum
+    ["StaggerMin"] = 11, ---@type Enum
+    ["BulkyStaggerMin"] = 12, ---@type Enum
+    ["Invalid"] = 13, ---@type Enum
 }

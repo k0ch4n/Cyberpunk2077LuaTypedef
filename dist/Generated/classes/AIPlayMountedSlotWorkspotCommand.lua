@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIPlayMountedSlotWorkspotCommand: AICommand
----@field public mountData gameMountDescriptor
+---@field public ["mountData"] gameMountDescriptor
 AIPlayMountedSlotWorkspotCommand = {}
 
 ---@param fields? table

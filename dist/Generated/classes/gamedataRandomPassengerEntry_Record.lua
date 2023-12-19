@@ -42,6 +42,6 @@ function gamedataRandomPassengerEntry_Record:Role() return end
 ---@return CName[]
 function gamedataRandomPassengerEntry_Record:ValidSlotNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataRandomPassengerEntry_Record:ValidSlotNamesContains(item) return end

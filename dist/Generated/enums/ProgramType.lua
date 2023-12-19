@@ -3,9 +3,9 @@
 
 ---@enum ProgramType
 ProgramType = {
-    ["BasicAccess"] = 0,
-    ["ExtraPlayerProgram"] = 1,
-    ["ExtraServerProgram"] = 2,
-    ["EnemyProgram"] = 3,
-    ["EnemyLockNetwork"] = 4
+    ["BasicAccess"] = 0, ---@type Enum
+    ["ExtraPlayerProgram"] = 1, ---@type Enum
+    ["ExtraServerProgram"] = 2, ---@type Enum
+    ["EnemyProgram"] = 3, ---@type Enum
+    ["EnemyLockNetwork"] = 4, ---@type Enum
 }

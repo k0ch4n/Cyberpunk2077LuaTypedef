@@ -56,7 +56,7 @@ function StatusEffectHelper.CheckStatusEffectBehaviorPrereqs(target, statusEffec
 function StatusEffectHelper.GetAppliedEffects(target) return end
 
 ---@param target gameObject
----@param tag CName
+---@param tag CName|string
 ---@param statusEffects gameStatusEffect[]
 ---@param instigatorID? entEntityID
 ---@return Bool
@@ -83,7 +83,7 @@ function StatusEffectHelper.GetStateStartTimeKey() return end
 function StatusEffectHelper.GetStatusEffectByID(target, statusEffectID) return end
 
 ---@param target gameObject
----@param gameplayTag CName
+---@param gameplayTag CName|string
 ---@return gameStatusEffect
 function StatusEffectHelper.GetStatusEffectWithTag(target, gameplayTag) return end
 
@@ -108,12 +108,12 @@ function StatusEffectHelper.HasStatusEffectAttack(statusEffect) return end
 function StatusEffectHelper.HasStatusEffectFromInstigator(target, statusEffectID, instigator) return end
 
 ---@param target gameObject
----@param gameplayTag CName
+---@param gameplayTag CName|string
 ---@return Bool
 function StatusEffectHelper.HasStatusEffectWithTagConst(target, gameplayTag) return end
 
 ---@param record gamedataStatusEffect_Record
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function StatusEffectHelper.HasTag(record, tag) return end
 
@@ -139,7 +139,7 @@ function StatusEffectHelper.RemoveAllStatusEffectsByType(target, type) return en
 function StatusEffectHelper.RemoveAllStatusEffectsByType(target, type) return end
 
 ---@param target gameObject
----@param gameplayTag CName
+---@param gameplayTag CName|string
 ---@param beside TweakDBID
 ---@return nil
 function StatusEffectHelper.RemoveAllStatusEffectsWithTagBeside(target, gameplayTag, beside) return end
@@ -162,12 +162,12 @@ function StatusEffectHelper.RemoveStatusEffect(target, statusEffectID, removeCou
 function StatusEffectHelper.RemoveStatusEffectsByInstigatorID(target, instigatorID) return end
 
 ---@param target entEntityID
----@param gameplayTag CName
+---@param gameplayTag CName|string
 ---@return nil
 function StatusEffectHelper.RemoveStatusEffectsWithTag(target, gameplayTag) return end
 
 ---@param target gameObject
----@param gameplayTag CName
+---@param gameplayTag CName|string
 ---@param delay? Float
 ---@return nil
 function StatusEffectHelper.RemoveStatusEffectsWithTag(target, gameplayTag, delay) return end

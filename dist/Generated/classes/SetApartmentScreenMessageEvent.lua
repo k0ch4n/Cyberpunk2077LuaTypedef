@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetApartmentScreenMessageEvent: redEvent
----@field public messageRecordID TweakDBID
----@field public targetRentStatus ERentStatus
+---@field public ["messageRecordID"] TweakDBID
+---@field public ["targetRentStatus"] ERentStatus
 SetApartmentScreenMessageEvent = {}
 
 ---@param fields? table

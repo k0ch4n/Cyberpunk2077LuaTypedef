@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitReactionBehaviorData: IScriptable
----@field public hitReactionType animHitReactionType
----@field public hitReactionActivationTimeStamp Float
----@field public hitReactionDuration Float
+---@field public ["hitReactionType"] animHitReactionType
+---@field public ["hitReactionActivationTimeStamp"] Float
+---@field public ["hitReactionDuration"] Float
 HitReactionBehaviorData = {}
 
 ---@param fields? table

@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationStatsMenu: gameuiBaseCharacterCreationController
----@field public attribute_01 inkWidgetReference
----@field public attribute_02 inkWidgetReference
----@field public attribute_03 inkWidgetReference
----@field public attribute_04 inkWidgetReference
----@field public attribute_05 inkWidgetReference
----@field public pointsLabel inkWidgetReference
----@field public tooltipSlot inkWidgetReference
----@field public skillPointLabel inkTextWidgetReference
----@field private reset inkWidgetReference
----@field public nextMenuConfirmation inkWidgetReference
----@field public nextMenukConfirmationLibraryWidget inkWidgetReference
----@field public ConfirmationConfirmBtn inkWidgetReference
----@field public ConfirmationCloseBtn inkWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field public previousPageBtn inkWidgetReference
----@field public navigationButtons inkWidgetReference
----@field public optionSwitchHint inkWidgetReference
----@field private attributesControllers characterCreationStatsAttributeBtn[]
----@field private attributePointsAvailable Int32
----@field private startingAttributePoints Int32
----@field private TooltipsManager gameuiTooltipsManager
----@field private toolTipOffset inkMargin
----@field private animationProxy inkanimProxy
----@field private confirmAnimationProxy inkanimProxy
----@field private hoverdWidget inkWidget
----@field private menuVisited Bool
+---@field public ["attribute_01"] inkWidgetReference
+---@field public ["attribute_02"] inkWidgetReference
+---@field public ["attribute_03"] inkWidgetReference
+---@field public ["attribute_04"] inkWidgetReference
+---@field public ["attribute_05"] inkWidgetReference
+---@field public ["pointsLabel"] inkWidgetReference
+---@field public ["tooltipSlot"] inkWidgetReference
+---@field public ["skillPointLabel"] inkTextWidgetReference
+---@field private ["reset"] inkWidgetReference
+---@field public ["nextMenuConfirmation"] inkWidgetReference
+---@field public ["nextMenukConfirmationLibraryWidget"] inkWidgetReference
+---@field public ["ConfirmationConfirmBtn"] inkWidgetReference
+---@field public ["ConfirmationCloseBtn"] inkWidgetReference
+---@field private ["TooltipsManagerRef"] inkWidgetReference
+---@field public ["previousPageBtn"] inkWidgetReference
+---@field public ["navigationButtons"] inkWidgetReference
+---@field public ["optionSwitchHint"] inkWidgetReference
+---@field private ["attributesControllers"] characterCreationStatsAttributeBtn[]
+---@field private ["attributePointsAvailable"] Int32
+---@field private ["startingAttributePoints"] Int32
+---@field private ["TooltipsManager"] gameuiTooltipsManager
+---@field private ["toolTipOffset"] inkMargin
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["confirmAnimationProxy"] inkanimProxy
+---@field private ["hoverdWidget"] inkWidget
+---@field private ["menuVisited"] Bool
 CharacterCreationStatsMenu = {}
 
 ---@param fields? table
@@ -157,8 +157,8 @@ function CharacterCreationStatsMenu:OnIntro() return end
 ---@return nil
 function CharacterCreationStatsMenu:OnOutro() return end
 
----@param animName CName
----@param callBack? CName
+---@param animName CName|string
+---@param callBack? CName|string
 ---@return nil
 function CharacterCreationStatsMenu:PlayAnim(animName, callBack) return end
 

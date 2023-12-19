@@ -8,7 +8,7 @@ ConsumablesChargesHelper = {}
 ---@return ConsumablesChargesHelper
 function ConsumablesChargesHelper.new(fields) return end
 
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@return CName
 function ConsumablesChargesHelper.GetConsumableTag(tags) return end
 
@@ -19,7 +19,7 @@ function ConsumablesChargesHelper.HideConsumableRecipe(recipeToHide) return end
 ---@return nil
 function ConsumablesChargesHelper.HotkeyRefresh() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function ConsumablesChargesHelper.LeaveTheBestQualityConsumable(tag) return end
 

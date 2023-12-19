@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ScannerNPCBodyGameController: BaseChunkGameController
----@field private factionText inkTextWidgetReference
----@field private dataBaseWidgetHolder inkWidgetReference
----@field private factionCallbackID redCallbackObject
----@field private rarityCallbackID redCallbackObject
----@field private isValidFaction Bool
----@field private asyncSpawnRequest inkAsyncSpawnRequest
+---@field private ["factionText"] inkTextWidgetReference
+---@field private ["dataBaseWidgetHolder"] inkWidgetReference
+---@field private ["factionCallbackID"] redCallbackObject
+---@field private ["rarityCallbackID"] redCallbackObject
+---@field private ["isValidFaction"] Bool
+---@field private ["asyncSpawnRequest"] inkAsyncSpawnRequest
 ScannerNPCBodyGameController = {}
 
 ---@param fields? table

@@ -77,18 +77,18 @@ function AIScriptSquad.GetBaseSquadRecord() return end
 ---@return Bool, gamedataAISquadParams_Record squadRecord
 function AIScriptSquad.GetSquadRecord(entity) return end
 
----@param ticketName CName
+---@param ticketName CName|string
 ---@param squadRecord gamedataAISquadParams_Record
 ---@return Bool, gamedataAITicket_Record ticketRecord
 function AIScriptSquad.GetTicketRecord(ticketName, squadRecord) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param ticketName CName
+---@param ticketName CName|string
 ---@return Bool
 function AIScriptSquad.HasOrder(context, ticketName) return end
 
 ---@param puppet ScriptedPuppet
----@param ticketName CName
+---@param ticketName CName|string
 ---@return Bool
 function AIScriptSquad.HasOrder(puppet, ticketName) return end
 
@@ -113,7 +113,7 @@ function AIScriptSquad.RevokeTicket(context, actionType) return end
 function AIScriptSquad.RevokeTickets(context, actionRecord) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param actionName CName
+---@param actionName CName|string
 ---@param verb EAISquadVerb
 ---@return nil
 function AIScriptSquad.SignalSquad(context, actionName, verb) return end

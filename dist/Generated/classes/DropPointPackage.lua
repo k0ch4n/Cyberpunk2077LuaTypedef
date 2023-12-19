@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropPointPackage: IScriptable
----@field private itemID TweakDBID
----@field private status DropPointPackageStatus
----@field private predefinedDrop gamePersistentID
----@field private statusHistory DropPointPackageStatus[]
+---@field private ["itemID"] TweakDBID
+---@field private ["status"] DropPointPackageStatus
+---@field private ["predefinedDrop"] gamePersistentID
+---@field private ["statusHistory"] DropPointPackageStatus[]
 DropPointPackage = {}
 
 ---@param fields? table

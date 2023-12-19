@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entVertexAnimationMapperEntry
----@field public sources entVertexAnimationMapperSource
----@field public destination entVertexAnimationMapperDestination
+---@field public ["sources"] entVertexAnimationMapperSource
+---@field public ["destination"] entVertexAnimationMapperDestination
 entVertexAnimationMapperEntry = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayerProximityPrereq: gameIPrereq
----@field public squaredRange Float
+---@field public ["squaredRange"] Float
 gamePlayerProximityPrereq = {}
 
 ---@param fields? table

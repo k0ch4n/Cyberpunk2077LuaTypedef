@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIUnequipCommand: AICommand
----@field public slotId TweakDBID
----@field public durationOverride Float
+---@field public ["slotId"] TweakDBID
+---@field public ["durationOverride"] Float
 AIUnequipCommand = {}
 
 ---@param fields? table

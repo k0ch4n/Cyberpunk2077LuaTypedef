@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionSelectSlot: gameIMuppetInputAction
----@field public targetSlot Int32
+---@field public ["targetSlot"] Int32
 gameMuppetInputActionSelectSlot = {}
 
 ---@param fields? table

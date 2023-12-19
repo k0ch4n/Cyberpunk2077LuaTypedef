@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HandleReactionEvent: redEvent
----@field public fearPhase Int32
----@field public stimEvent senseStimuliEvent
+---@field public ["fearPhase"] Int32
+---@field public ["stimEvent"] senseStimuliEvent
 HandleReactionEvent = {}
 
 ---@param fields? table

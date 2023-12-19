@@ -3,9 +3,9 @@
 
 ---@enum EDodgeMovementInput
 EDodgeMovementInput = {
-    ["Invalid"] = 0,
-    ["Forward"] = 1,
-    ["Right"] = 2,
-    ["Left"] = 3,
-    ["Back"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["Forward"] = 1, ---@type Enum
+    ["Right"] = 2, ---@type Enum
+    ["Left"] = 3, ---@type Enum
+    ["Back"] = 4, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCBreachEvent: redEvent
----@field public state gameuiHackingMinigameState
+---@field public ["state"] gameuiHackingMinigameState
 NPCBreachEvent = {}
 
 ---@param fields? table

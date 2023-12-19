@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorFloatConst: IEvaluatorFloat
----@field public value Float
+---@field public ["value"] Float
 CEvaluatorFloatConst = {}
 
 ---@param fields? table

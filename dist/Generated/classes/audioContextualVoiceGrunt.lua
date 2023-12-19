@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioContextualVoiceGrunt
----@field public regularGrunt CName
----@field public stealthGrunt CName
+---@field public ["regularGrunt"] CName
+---@field public ["stealthGrunt"] CName
 audioContextualVoiceGrunt = {}
 
 ---@param fields? table

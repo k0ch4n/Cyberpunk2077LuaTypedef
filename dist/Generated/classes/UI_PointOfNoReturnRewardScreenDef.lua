@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_PointOfNoReturnRewardScreenDef: gamebbScriptDefinition
----@field public Rewards gamebbScriptID_Variant
+---@field public ["Rewards"] gamebbScriptID_Variant
 UI_PointOfNoReturnRewardScreenDef = {}
 
 ---@param fields? table

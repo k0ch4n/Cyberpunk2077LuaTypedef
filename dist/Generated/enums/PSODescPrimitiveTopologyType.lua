@@ -3,9 +3,9 @@
 
 ---@enum PSODescPrimitiveTopologyType
 PSODescPrimitiveTopologyType = {
-    ["Invalid"] = 0,
-    ["Point"] = 1,
-    ["Line"] = 2,
-    ["Triangle"] = 3,
-    ["Patch"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["Point"] = 1, ---@type Enum
+    ["Line"] = 2, ---@type Enum
+    ["Triangle"] = 3, ---@type Enum
+    ["Patch"] = 4, ---@type Enum
 }

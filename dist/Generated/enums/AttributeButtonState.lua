@@ -3,6 +3,6 @@
 
 ---@enum AttributeButtonState
 AttributeButtonState = {
-    ["Default"] = 0,
-    ["Hover"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Hover"] = 1, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum gameBoolSignalAction
 gameBoolSignalAction = {
-    ["None"] = 0,
-    ["TurnOn"] = 1,
-    ["TurnOff"] = 2
+    ["None"] = 0, ---@type Enum
+    ["TurnOn"] = 1, ---@type Enum
+    ["TurnOff"] = 2, ---@type Enum
 }

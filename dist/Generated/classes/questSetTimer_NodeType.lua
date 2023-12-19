@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetTimer_NodeType: questIGameManagerNodeType
----@field public enable Bool
----@field public duration Float
+---@field public ["enable"] Bool
+---@field public ["duration"] Float
 questSetTimer_NodeType = {}
 
 ---@param fields? table

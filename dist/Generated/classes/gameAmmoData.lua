@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameAmmoData
----@field public id gameItemID
----@field public available Int32
----@field public equipped Int32
+---@field public ["id"] gameItemID
+---@field public ["available"] Int32
+---@field public ["equipped"] Int32
 gameAmmoData = {}
 
 ---@param fields? table

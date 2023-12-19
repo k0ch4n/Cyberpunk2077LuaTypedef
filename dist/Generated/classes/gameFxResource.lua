@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameFxResource
----@field public effect worldEffect
+---@field public ["effect"] worldEffect
 gameFxResource = {}
 
 ---@param fields? table

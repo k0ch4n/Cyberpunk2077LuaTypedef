@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioNpcGunChoirSettings: audioAudioMetadata
----@field public voices CName[]
+---@field public ["voices"] CName[]
 audioNpcGunChoirSettings = {}
 
 ---@param fields? table

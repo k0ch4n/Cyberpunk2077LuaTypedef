@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorConstantExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public type AIbehaviorTypeRef
----@field public value Variant
+---@field public ["type"] AIbehaviorTypeRef
+---@field public ["value"] Variant
 AIbehaviorConstantExpressionDefinition = {}
 
 ---@param fields? table

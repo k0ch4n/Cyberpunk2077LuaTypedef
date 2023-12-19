@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SceneScreenGameController: gameuiWidgetGameController
----@field private onQuestAnimChangeListener redCallbackObject
+---@field private ["onQuestAnimChangeListener"] redCallbackObject
 SceneScreenGameController = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function SceneScreenGameController.new(fields) return end
 function SceneScreenGameController:OnInitialize() return end
 
 ---@protected
----@param value CName
+---@param value CName|string
 ---@return Bool
 function SceneScreenGameController:OnQuestAnimChange(value) return end
 

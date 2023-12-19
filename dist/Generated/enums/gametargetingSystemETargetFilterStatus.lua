@@ -3,6 +3,6 @@
 
 ---@enum gametargetingSystemETargetFilterStatus
 gametargetingSystemETargetFilterStatus = {
-    ["Stop"] = 0,
-    ["Continue"] = 1
+    ["Stop"] = 0, ---@type Enum
+    ["Continue"] = 1, ---@type Enum
 }

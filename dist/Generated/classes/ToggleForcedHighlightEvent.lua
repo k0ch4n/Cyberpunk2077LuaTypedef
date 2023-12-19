@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleForcedHighlightEvent: redEvent
----@field public sourceName CName
----@field public highlightData HighlightEditableData
----@field public operation EToggleOperationType
+---@field public ["sourceName"] CName
+---@field public ["highlightData"] HighlightEditableData
+---@field public ["operation"] EToggleOperationType
 ToggleForcedHighlightEvent = {}
 
 ---@param fields? table

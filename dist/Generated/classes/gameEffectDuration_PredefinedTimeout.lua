@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectDuration_PredefinedTimeout: gameEffectDurationModifier
----@field public timeToLive Float
+---@field public ["timeToLive"] Float
 gameEffectDuration_PredefinedTimeout = {}
 
 ---@param fields? table

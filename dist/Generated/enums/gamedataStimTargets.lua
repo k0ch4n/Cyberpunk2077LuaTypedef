@@ -3,9 +3,9 @@
 
 ---@enum gamedataStimTargets
 gamedataStimTargets = {
-    ["All"] = 0,
-    ["Puppets"] = 1,
-    ["Vehicles"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["All"] = 0, ---@type Enum
+    ["Puppets"] = 1, ---@type Enum
+    ["Vehicles"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

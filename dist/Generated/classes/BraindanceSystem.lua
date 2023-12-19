@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BraindanceSystem: gameScriptableSystem
----@field private inputMask SBraindanceInputMask
----@field private requestCameraToggle Bool
----@field private requestEditorState Bool
----@field private pauseBraindanceRequest Bool
----@field private isInBraindance Bool
----@field private debugFFSceneThrehsold Int32
+---@field private ["inputMask"] SBraindanceInputMask
+---@field private ["requestCameraToggle"] Bool
+---@field private ["requestEditorState"] Bool
+---@field private ["pauseBraindanceRequest"] Bool
+---@field private ["isInBraindance"] Bool
+---@field private ["debugFFSceneThrehsold"] Int32
 BraindanceSystem = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameeventsReactionChangeRequestEvent: redEvent
----@field public reactionPresetRecord gamedataReactionPreset_Record
+---@field public ["reactionPresetRecord"] gamedataReactionPreset_Record
 gameeventsReactionChangeRequestEvent = {}

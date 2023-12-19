@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnBeingNoticed: redEvent
----@field public objectThatNoticed gameObject
+---@field public ["objectThatNoticed"] gameObject
 OnBeingNoticed = {}
 
 ---@param fields? table

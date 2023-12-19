@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCensorshipInfo
----@field public censorFlag CensorshipFlags
----@field public censorFlagAction gameuiCharacterCustomizationActionType
+---@field public ["censorFlag"] CensorshipFlags
+---@field public ["censorFlagAction"] gameuiCharacterCustomizationActionType
 gameuiCensorshipInfo = {}
 
 ---@param fields? table

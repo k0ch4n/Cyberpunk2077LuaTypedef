@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VehiclesManagerListItemController: inkVirtualCompoundItemController
----@field private label inkTextWidgetReference
----@field private typeIcon inkImageWidgetReference
----@field private repairTime inkTextWidgetReference
----@field private vehicleData VehicleListItemData
+---@field private ["label"] inkTextWidgetReference
+---@field private ["typeIcon"] inkImageWidgetReference
+---@field private ["repairTime"] inkTextWidgetReference
+---@field private ["vehicleData"] VehicleListItemData
 VehiclesManagerListItemController = {}
 
 ---@param fields? table

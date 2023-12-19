@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleUnableToStartPanicDriving: redEvent
----@field public forceExitVehicle Bool
+---@field public ["forceExitVehicle"] Bool
 vehicleUnableToStartPanicDriving = {}
 
 ---@param fields? table

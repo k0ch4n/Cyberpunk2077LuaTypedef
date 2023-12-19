@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeTimeoutDefinition: AICTreeExtendableNodeDefinition
----@field public timeout Float
+---@field public ["timeout"] Float
 AICTreeNodeTimeoutDefinition = {}
 
 ---@param fields? table

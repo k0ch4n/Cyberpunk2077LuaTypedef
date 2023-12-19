@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class SaveGameMenuGameController: gameuiSaveHandlingController
----@field private list inkCompoundWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private gogButtonWidgetRef inkWidgetReference
----@field private gogContainer inkWidgetReference
----@field private scrollbar inkWidgetReference
----@field private eventDispatcher inkMenuEventDispatcher
----@field private handler inkISystemRequestsHandler
----@field private buttonHintsController ButtonHints
----@field private saveInfo inkSaveMetadataInfo
----@field private saves String[]
----@field private pendingRegistration Bool
----@field private hasEmptySlot Bool
----@field private saveInProgress Bool
----@field private loadComplete Bool
----@field private saveFilesReady Bool
----@field private cloudSynced Bool
----@field private emptySlotController LoadListItem
----@field private isEp1Enabled Bool
+---@field private ["list"] inkCompoundWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["gogButtonWidgetRef"] inkWidgetReference
+---@field private ["gogContainer"] inkWidgetReference
+---@field private ["scrollbar"] inkWidgetReference
+---@field private ["eventDispatcher"] inkMenuEventDispatcher
+---@field private ["handler"] inkISystemRequestsHandler
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["saveInfo"] inkSaveMetadataInfo
+---@field private ["saves"] String[]
+---@field private ["pendingRegistration"] Bool
+---@field private ["hasEmptySlot"] Bool
+---@field private ["saveInProgress"] Bool
+---@field private ["loadComplete"] Bool
+---@field private ["saveFilesReady"] Bool
+---@field private ["cloudSynced"] Bool
+---@field private ["emptySlotController"] LoadListItem
+---@field private ["isEp1Enabled"] Bool
 SaveGameMenuGameController = {}
 
 ---@param fields? table

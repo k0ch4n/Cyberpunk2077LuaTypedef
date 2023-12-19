@@ -3,7 +3,7 @@
 
 ---@enum EstatusEffectsState
 EstatusEffectsState = {
-    ["Deactivated"] = 0,
-    ["Activating"] = 1,
-    ["Activated"] = 2
+    ["Deactivated"] = 0, ---@type Enum
+    ["Activating"] = 1, ---@type Enum
+    ["Activated"] = 2, ---@type Enum
 }

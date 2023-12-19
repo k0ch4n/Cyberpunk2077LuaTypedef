@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RevealQuickhackMenu: HUDManagerRequest
----@field public shouldOpenWheel Bool
+---@field public ["shouldOpenWheel"] Bool
 RevealQuickhackMenu = {}
 
 ---@param fields? table

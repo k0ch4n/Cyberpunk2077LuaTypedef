@@ -33,7 +33,7 @@ function gameScriptsDebugOverlaySink.PushInt32(sink, key, value) return end
 
 ---@param sink gameScriptsDebugOverlaySink
 ---@param key String
----@param value CName
+---@param value CName|string
 ---@return nil
 function gameScriptsDebugOverlaySink.PushName(sink, key, value) return end
 
@@ -86,6 +86,6 @@ function gameScriptsDebugOverlaySink.SetRoot(sink, rootPath) return end
 
 ---@param sink gameScriptsDebugOverlaySink
 ---@param system gameScriptableSystem
----@param fullPath CName
+---@param fullPath CName|string
 ---@return nil
 function gameScriptsDebugOverlaySink.UnregisterListener_OnClicked(sink, system, fullPath) return end

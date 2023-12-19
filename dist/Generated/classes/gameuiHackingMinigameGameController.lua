@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gameuiHackingMinigameGameController: gameuiWidgetGameController
----@field public symbolsRecordTDBID TweakDBID
----@field public minigameDefaultsTDBID TweakDBID
----@field public deviceMode Bool
----@field private isAlternativeVariant Bool
----@field private helpInputHintRef inkWidgetReference
----@field private miniGameRecord gamedataMinigame_Def_Record
----@field private dimension Int32
----@field private isTutorialActive Bool
----@field private isOfficerBreach Bool
----@field private isRemoteBreach Bool
----@field private isItemBreach Bool
----@field private numberAttempts Int32
----@field private tooltipsManagerRef inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private uiSystem gameuiGameSystemUI
----@field private contextHelpOverlay Bool
----@field private bbMinigame gameIBlackboard
----@field private bbMinigameStateListener redCallbackObject
----@field private bbUiData gameIBlackboard
----@field private bbControllerStateListener redCallbackObject
+---@field public ["symbolsRecordTDBID"] TweakDBID
+---@field public ["minigameDefaultsTDBID"] TweakDBID
+---@field public ["deviceMode"] Bool
+---@field private ["isAlternativeVariant"] Bool
+---@field private ["helpInputHintRef"] inkWidgetReference
+---@field private ["miniGameRecord"] gamedataMinigame_Def_Record
+---@field private ["dimension"] Int32
+---@field private ["isTutorialActive"] Bool
+---@field private ["isOfficerBreach"] Bool
+---@field private ["isRemoteBreach"] Bool
+---@field private ["isItemBreach"] Bool
+---@field private ["numberAttempts"] Int32
+---@field private ["tooltipsManagerRef"] inkWidgetReference
+---@field private ["TooltipsManager"] gameuiTooltipsManager
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["contextHelpOverlay"] Bool
+---@field private ["bbMinigame"] gameIBlackboard
+---@field private ["bbMinigameStateListener"] redCallbackObject
+---@field private ["bbUiData"] gameIBlackboard
+---@field private ["bbControllerStateListener"] redCallbackObject
 gameuiHackingMinigameGameController = {}
 
 ---@param fields? table
@@ -68,7 +68,7 @@ function gameuiHackingMinigameGameController:RemoveWhitelistedPosition(position)
 function gameuiHackingMinigameGameController:ResumeTheTimer() return end
 
 ---@param cellCoordinates Vector2
----@param trap CName
+---@param trap CName|string
 ---@return nil
 function gameuiHackingMinigameGameController:SetTrapIconAtCell(cellCoordinates, trap) return end
 

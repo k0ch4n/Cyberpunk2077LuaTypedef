@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LootingScrollBlockController: IScriptable
----@field private rectangle inkWidgetReference
+---@field private ["rectangle"] inkWidgetReference
 LootingScrollBlockController = {}
 
 ---@param fields? table

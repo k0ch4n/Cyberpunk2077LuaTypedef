@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrappleFallEvents: FallEvents
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field public ["stateMachineInitData"] LocomotionTakedownInitData
 GrappleFallEvents = {}
 
 ---@param fields? table

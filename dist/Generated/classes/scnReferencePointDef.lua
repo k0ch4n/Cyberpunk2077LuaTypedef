@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnReferencePointDef
----@field public id scnReferencePointId
----@field public offset Vector3
----@field public originMarker scnMarker
+---@field public ["id"] scnReferencePointId
+---@field public ["offset"] Vector3
+---@field public ["originMarker"] scnMarker
 scnReferencePointDef = {}
 
 ---@param fields? table

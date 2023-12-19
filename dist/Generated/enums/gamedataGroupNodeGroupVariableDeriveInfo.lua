@@ -3,8 +3,8 @@
 
 ---@enum gamedataGroupNodeGroupVariableDeriveInfo
 gamedataGroupNodeGroupVariableDeriveInfo = {
-    ["FullyDerived"] = 0,
-    ["TypeDerived"] = 1,
-    ["ValueChanged"] = 2,
-    ["NotDerived"] = 3
+    ["FullyDerived"] = 0, ---@type Enum
+    ["TypeDerived"] = 1, ---@type Enum
+    ["ValueChanged"] = 2, ---@type Enum
+    ["NotDerived"] = 3, ---@type Enum
 }

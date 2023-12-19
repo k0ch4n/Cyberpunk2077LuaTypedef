@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleShopPurchaseEvent: redEvent
----@field public offerRecord gamedataVehicleOffer_Record
+---@field public ["offerRecord"] gamedataVehicleOffer_Record
 VehicleShopPurchaseEvent = {}
 
 ---@param fields? table

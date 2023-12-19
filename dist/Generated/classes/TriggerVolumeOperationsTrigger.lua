@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class TriggerVolumeOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData TriggerVolumeOperationTriggerData
+---@field protected ["triggerData"] TriggerVolumeOperationTriggerData
 TriggerVolumeOperationsTrigger = {}
 
 ---@param fields? table
 ---@return TriggerVolumeOperationsTrigger
 function TriggerVolumeOperationsTrigger.new(fields) return end
 
----@param componentName CName
+---@param componentName CName|string
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType ETriggerOperationType

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsManager: gameScriptableComponent
----@field private Player PlayerPuppet
----@field private QuickSlotsBB gameIBlackboard
----@field private IsPlayerInCar Bool
----@field private PlayerVehicleID entEntityID
----@field private QuickDpadCommands QuickSlotCommand[]
----@field private QuickDpadCommands_Vehicle QuickSlotCommand[]
----@field private DefaultHoldCommands QuickSlotCommand[]
----@field private DefaultHoldCommands_Vehicle QuickSlotCommand[]
----@field private NumberOfItemsPerWheel Int32
----@field private QuickKeyboardCommands QuickSlotCommand[]
----@field private QuickKeyboardCommands_Vehicle QuickSlotCommand[]
----@field private lastPressAndHoldBtn QuickSlotButtonHoldEndEvent
----@field private WheelList_Vehicles QuickSlotCommand[]
----@field private currentWheelItem QuickSlotCommand
----@field private currentWeaponWheelItem QuickSlotCommand
----@field private currentGadgetWheelConsumable QuickSlotCommand
----@field private currentGadgetWheelGadget QuickSlotCommand
----@field private currentVehicleWheelItem QuickSlotCommand
----@field private currentGadgetWheelItem QuickSlotCommand
----@field private currentInteractionWheelItem QuickSlotCommand
----@field private OnVehPlayerStateDataChangedCallback redCallbackObject
+---@field private ["Player"] PlayerPuppet
+---@field private ["QuickSlotsBB"] gameIBlackboard
+---@field private ["IsPlayerInCar"] Bool
+---@field private ["PlayerVehicleID"] entEntityID
+---@field private ["QuickDpadCommands"] QuickSlotCommand[]
+---@field private ["QuickDpadCommands_Vehicle"] QuickSlotCommand[]
+---@field private ["DefaultHoldCommands"] QuickSlotCommand[]
+---@field private ["DefaultHoldCommands_Vehicle"] QuickSlotCommand[]
+---@field private ["NumberOfItemsPerWheel"] Int32
+---@field private ["QuickKeyboardCommands"] QuickSlotCommand[]
+---@field private ["QuickKeyboardCommands_Vehicle"] QuickSlotCommand[]
+---@field private ["lastPressAndHoldBtn"] QuickSlotButtonHoldEndEvent
+---@field private ["WheelList_Vehicles"] QuickSlotCommand[]
+---@field private ["currentWheelItem"] QuickSlotCommand
+---@field private ["currentWeaponWheelItem"] QuickSlotCommand
+---@field private ["currentGadgetWheelConsumable"] QuickSlotCommand
+---@field private ["currentGadgetWheelGadget"] QuickSlotCommand
+---@field private ["currentVehicleWheelItem"] QuickSlotCommand
+---@field private ["currentGadgetWheelItem"] QuickSlotCommand
+---@field private ["currentInteractionWheelItem"] QuickSlotCommand
+---@field private ["OnVehPlayerStateDataChangedCallback"] redCallbackObject
 QuickSlotsManager = {}
 
 ---@param fields? table
@@ -84,8 +84,8 @@ function QuickSlotsManager:CreateEmptyQuickSlotCommand() return end
 
 ---@private
 ---@param actionType QuickSlotActionType
----@param imageAtlasPath CName
----@param actionName CName
+---@param imageAtlasPath CName|string
+---@param actionName CName|string
 ---@param maxTier Int32
 ---@param vehicleState Int32
 ---@param isLocked Bool
@@ -99,7 +99,7 @@ function QuickSlotsManager:CreateQuickSlotCommand(actionType, imageAtlasPath, ac
 ---@private
 ---@param itemID gameItemID
 ---@param argActionType QuickSlotActionType
----@param argIcon CName
+---@param argIcon CName|string
 ---@param argTitle String
 ---@param argType String
 ---@param argDesc String
@@ -163,7 +163,7 @@ function QuickSlotsManager:GetEmptyWheel(weaponsWheel) return end
 
 ---@param equipArea gamedataEquipmentArea
 ---@param allowedItemTypes? gamedataItemType[]
----@param allowedTag? CName
+---@param allowedTag? CName|string
 ---@return QuickSlotCommand[]
 function QuickSlotsManager:GetEquipAreaCommands(equipArea, allowedItemTypes, allowedTag) return end
 
@@ -251,7 +251,7 @@ function QuickSlotsManager:GetVehicleWheelCommands(direction) return end
 ---@private
 ---@param weaponsWheel QuickSlotCommand[]
 ---@param allowedItemTypes? gamedataItemType[]
----@param allowedTag? CName
+---@param allowedTag? CName|string
 ---@return nil
 function QuickSlotsManager:GetWeaponsWheel(weaponsWheel, allowedItemTypes, allowedTag) return end
 
@@ -307,7 +307,7 @@ function QuickSlotsManager:OnVehPlayerStateDataChanged(vehPlayerStateData) retur
 ---@param area gamedataEquipmentArea
 ---@param commandList QuickSlotCommand[]
 ---@param allowedItemTypes? gamedataItemType[]
----@param allowedTag? CName
+---@param allowedTag? CName|string
 ---@return nil
 function QuickSlotsManager:PushBackCommands(area, commandList, allowedItemTypes, allowedTag) return end
 

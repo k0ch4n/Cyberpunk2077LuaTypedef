@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InteractionAreaOperations: DeviceOperations
----@field protected interactionAreaOperations SInteractionAreaOperationData[]
+---@field protected ["interactionAreaOperations"] SInteractionAreaOperationData[]
 InteractionAreaOperations = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function InteractionAreaOperations.new(fields) return end
 ---@return nil
 function InteractionAreaOperations:ClearDelayIdOnOperation(operationID) return end
 
----@param areaTag CName
+---@param areaTag CName|string
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType gameinteractionsEInteractionEventType
@@ -28,7 +28,7 @@ function InteractionAreaOperations:IsOperationEnabled(index) return end
 ---@return nil
 function InteractionAreaOperations:RequestComponents(ri) return end
 
----@param areaTag CName
+---@param areaTag CName|string
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType gameinteractionsEInteractionEventType

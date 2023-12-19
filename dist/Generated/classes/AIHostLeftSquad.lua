@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIHostLeftSquad: AIAIEvent
----@field public squadInterface AISquadScriptInterface
+---@field public ["squadInterface"] AISquadScriptInterface
 AIHostLeftSquad = {}
 
 ---@param fields? table

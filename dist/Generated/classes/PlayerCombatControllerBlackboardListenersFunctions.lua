@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerBlackboardListenersFunctions
----@field public crouchActive CName
+---@field public ["crouchActive"] CName
 PlayerCombatControllerBlackboardListenersFunctions = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum ERevealDurationType
 ERevealDurationType = {
-    ["TEMPORARY"] = 0,
-    ["PERMANENT"] = 1
+    ["TEMPORARY"] = 0, ---@type Enum
+    ["PERMANENT"] = 1, ---@type Enum
 }

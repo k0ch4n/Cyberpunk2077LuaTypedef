@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleTakeOverControl: ActionBool
----@field public isRequestedFormOtherDevice Bool
+---@field public ["isRequestedFormOtherDevice"] Bool
 ToggleTakeOverControl = {}
 
 ---@param fields? table

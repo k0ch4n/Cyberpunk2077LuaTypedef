@@ -3,6 +3,6 @@
 
 ---@enum EAIPlayerSquadOrder
 EAIPlayerSquadOrder = {
-    ["Takedown"] = 0,
-    ["Invalid"] = 1
+    ["Takedown"] = 0, ---@type Enum
+    ["Invalid"] = 1, ---@type Enum
 }

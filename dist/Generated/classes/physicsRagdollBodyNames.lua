@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsRagdollBodyNames
----@field public ParentAnimName CName
----@field public ChildAnimName CName
+---@field public ["ParentAnimName"] CName
+---@field public ["ChildAnimName"] CName
 physicsRagdollBodyNames = {}
 
 ---@param fields? table

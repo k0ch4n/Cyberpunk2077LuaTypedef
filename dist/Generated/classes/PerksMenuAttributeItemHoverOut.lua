@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PerksMenuAttributeItemHoverOut: redEvent
----@field public widget inkWidget
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
+---@field public ["widget"] inkWidget
+---@field public ["attributeType"] PerkMenuAttribute
+---@field public ["attributeData"] AttributeData
 PerksMenuAttributeItemHoverOut = {}
 
 ---@param fields? table

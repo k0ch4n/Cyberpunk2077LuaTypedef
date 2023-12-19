@@ -3,7 +3,7 @@
 
 ---@enum CyberwareScreenType
 CyberwareScreenType = {
-    ["Invalid"] = 0,
-    ["Ripperdoc"] = 1,
-    ["Inventory"] = 2
+    ["Invalid"] = 0, ---@type Enum
+    ["Ripperdoc"] = 1, ---@type Enum
+    ["Inventory"] = 2, ---@type Enum
 }

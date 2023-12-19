@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareTransition: DefaultTransition
----@field public leftCWFeature AnimFeature_LeftHandCyberware
----@field public overchargeStatFlag gameStatModifierData_Deprecated
+---@field public ["leftCWFeature"] AnimFeature_LeftHandCyberware
+---@field public ["overchargeStatFlag"] gameStatModifierData_Deprecated
 LeftHandCyberwareTransition = {}
 
 ---@protected
@@ -95,7 +95,7 @@ function LeftHandCyberwareTransition:IsUsingCyberwareAllowed(stateContext, scrip
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function LeftHandCyberwareTransition:LeftHandCyberwareHasTag(scriptInterface, tag) return end
 
@@ -106,15 +106,15 @@ function LeftHandCyberwareTransition:LeftHandCyberwareHasTag(scriptInterface, ta
 function LeftHandCyberwareTransition:LockLeftHandAnimation(scriptInterface, newState) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param eventTag? CName
+---@param eventTag? CName|string
 ---@return nil
 function LeftHandCyberwareTransition:PlayEffect(effectName, scriptInterface, eventTag) return end
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function LeftHandCyberwareTransition:QuickwheelHasTag(scriptInterface, tag) return end
 
@@ -198,7 +198,7 @@ function LeftHandCyberwareTransition:SetLeftHandWeaponCharged(scriptInterface, c
 function LeftHandCyberwareTransition:ShouldInstantlyUnequipCyberware(scriptInterface, stateContext) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function LeftHandCyberwareTransition:StopEffect(effectName, scriptInterface) return end

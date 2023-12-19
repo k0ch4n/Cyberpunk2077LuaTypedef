@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_CrowdLocomotion: animAnimFeature
----@field public speed Float
----@field public slopeAngle Float
----@field public isCrowd Bool
+---@field public ["speed"] Float
+---@field public ["slopeAngle"] Float
+---@field public ["isCrowd"] Bool
 animAnimFeature_CrowdLocomotion = {}
 
 ---@param fields? table

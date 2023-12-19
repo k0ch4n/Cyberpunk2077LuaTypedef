@@ -3,7 +3,7 @@
 
 ---@enum ItemDisplayNotificationMessage
 ItemDisplayNotificationMessage = {
-    ["Default"] = 0,
-    ["AddRef"] = 1,
-    ["RemoveRef"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["AddRef"] = 1, ---@type Enum
+    ["RemoveRef"] = 2, ---@type Enum
 }

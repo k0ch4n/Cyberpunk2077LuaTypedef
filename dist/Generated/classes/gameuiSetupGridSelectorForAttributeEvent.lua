@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiSetupGridSelectorForAttributeEvent: redEvent
----@field public attribute Uint32
+---@field public ["attribute"] Uint32
 gameuiSetupGridSelectorForAttributeEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DismembermentTriggeredPrereq: gameIScriptablePrereq
----@field public currValue Uint32
+---@field public ["currValue"] Uint32
 DismembermentTriggeredPrereq = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workEquipItemToSlotAction: workIWorkspotItemAction
----@field public item TweakDBID
----@field public itemSlot TweakDBID
+---@field public ["item"] TweakDBID
+---@field public ["itemSlot"] TweakDBID
 workEquipItemToSlotAction = {}
 
 ---@param fields? table

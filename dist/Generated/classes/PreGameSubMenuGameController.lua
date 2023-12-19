@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreGameSubMenuGameController: gameuiWidgetGameController
----@field protected menuEventDispatcher inkMenuEventDispatcher
+---@field protected ["menuEventDispatcher"] inkMenuEventDispatcher
 PreGameSubMenuGameController = {}
 
 ---@param fields? table
@@ -21,14 +21,14 @@ function PreGameSubMenuGameController:OnSetMenuEventDispatcher(menuEventDispatch
 ---@protected
 ---@param buttonsList inkCompoundWidget
 ---@param text String
----@param callBackName CName
+---@param callBackName CName|string
 ---@return nil
 function PreGameSubMenuGameController:AddBigButton(buttonsList, text, callBackName) return end
 
 ---@protected
 ---@param buttonsList inkVerticalPanelWidget
 ---@param text String
----@param callBackName CName
+---@param callBackName CName|string
 ---@return nil
 function PreGameSubMenuGameController:AddButton(buttonsList, text, callBackName) return end
 

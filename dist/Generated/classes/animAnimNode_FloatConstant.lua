@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatConstant: animAnimNode_FloatValue
----@field public value Float
+---@field public ["value"] Float
 animAnimNode_FloatConstant = {}
 
 ---@param fields? table

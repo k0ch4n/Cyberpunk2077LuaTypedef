@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_Pose360: animAnimNode_Base
----@field public angle animFloatLink
----@field public animation CName
+---@field public ["angle"] animFloatLink
+---@field public ["animation"] CName
 animAnimNode_Pose360 = {}
 
 ---@param fields? table

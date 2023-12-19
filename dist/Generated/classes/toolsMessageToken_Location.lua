@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsMessageToken_Location: toolsIMessageToken
----@field public location toolsIMessageLocation
+---@field public ["location"] toolsIMessageLocation
 toolsMessageToken_Location = {}
 
 ---@param fields? table

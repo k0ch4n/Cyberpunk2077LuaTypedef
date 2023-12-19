@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RadioInkGameController: DeviceInkGameControllerBase
----@field protected stationNameWidget inkTextWidgetReference
----@field protected stationLogoWidget inkImageWidgetReference
+---@field protected ["stationNameWidget"] inkTextWidgetReference
+---@field protected ["stationLogoWidget"] inkImageWidgetReference
 RadioInkGameController = {}
 
 ---@param fields? table

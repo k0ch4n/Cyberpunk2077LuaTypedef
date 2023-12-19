@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponChargeStatListener: gameCustomValueStatPoolsListener
----@field public weapon gameweaponObject
+---@field public ["weapon"] gameweaponObject
 WeaponChargeStatListener = {}
 
 ---@param fields? table

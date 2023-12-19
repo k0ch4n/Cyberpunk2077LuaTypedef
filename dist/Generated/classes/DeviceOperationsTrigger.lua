@@ -15,7 +15,7 @@ function DeviceOperationsTrigger:ClearDelayIdOnNamedOperation(namedOperation) re
 function DeviceOperationsTrigger:DelayTriggerExecution(namedOperation, owner) return end
 
 ---@protected
----@param operationName CName
+---@param operationName CName|string
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
@@ -43,7 +43,7 @@ function DeviceOperationsTrigger:IsPlayerActivator(activator) return end
 function DeviceOperationsTrigger:ResolveOperationsOnTrigger(trigger, owner, container) return end
 
 ---@protected
----@param operationName CName
+---@param operationName CName|string
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil

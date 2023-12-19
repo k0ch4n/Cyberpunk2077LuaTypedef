@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CoverActionTransition: LocomotionTransition
----@field protected gameInstance ScriptGameInstance
----@field protected locomotionStateCallbackID redCallbackObject
----@field protected lastSlidingTime Float
----@field protected isSliding Bool
+---@field protected ["gameInstance"] ScriptGameInstance
+---@field protected ["locomotionStateCallbackID"] redCallbackObject
+---@field protected ["lastSlidingTime"] Float
+---@field protected ["isSliding"] Bool
 CoverActionTransition = {}
 
 ---@protected
@@ -22,7 +22,7 @@ function CoverActionTransition:GetManualLeanIdleTime(scriptInterface, stateConte
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function CoverActionTransition:IsManualLeanInputPressed(stateContext, scriptInterface, actionName) return end
 

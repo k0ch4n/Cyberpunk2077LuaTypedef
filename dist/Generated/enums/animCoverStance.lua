@@ -3,9 +3,9 @@
 
 ---@enum animCoverStance
 animCoverStance = {
-    ["None"] = 0,
-    ["LowLeft"] = 1,
-    ["HighLeft"] = 2,
-    ["LowRight"] = 3,
-    ["HighRight"] = 4
+    ["None"] = 0, ---@type Enum
+    ["LowLeft"] = 1, ---@type Enum
+    ["HighLeft"] = 2, ---@type Enum
+    ["LowRight"] = 3, ---@type Enum
+    ["HighRight"] = 4, ---@type Enum
 }

@@ -3,8 +3,8 @@
 
 ---@enum inkEEndCapStyle
 inkEEndCapStyle = {
-    ["BUTT"] = 0,
-    ["SQUARE"] = 1,
-    ["ROUND"] = 2,
-    ["JOINED"] = 3
+    ["BUTT"] = 0, ---@type Enum
+    ["SQUARE"] = 1, ---@type Enum
+    ["ROUND"] = 2, ---@type Enum
+    ["JOINED"] = 3, ---@type Enum
 }

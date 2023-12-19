@@ -3,7 +3,7 @@
 
 ---@enum textLetterCase
 textLetterCase = {
-    ["OriginalCase"] = 0,
-    ["UpperCase"] = 1,
-    ["LowerCase"] = 2
+    ["OriginalCase"] = 0, ---@type Enum
+    ["UpperCase"] = 1, ---@type Enum
+    ["LowerCase"] = 2, ---@type Enum
 }

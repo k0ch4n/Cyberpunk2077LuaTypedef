@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TestStackPassiveExpression: AIbehaviorStackScriptPassiveExpressionDefinition
----@field public SomeNameProperty CName
+---@field public ["SomeNameProperty"] CName
 TestStackPassiveExpression = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum EDeviceDurabilityState
 EDeviceDurabilityState = {
-    ["NOMINAL"] = 0,
-    ["MALFUNCTIONING"] = 1,
-    ["BROKEN"] = 2,
-    ["DESTROYED"] = 3
+    ["NOMINAL"] = 0, ---@type Enum
+    ["MALFUNCTIONING"] = 1, ---@type Enum
+    ["BROKEN"] = 2, ---@type Enum
+    ["DESTROYED"] = 3, ---@type Enum
 }

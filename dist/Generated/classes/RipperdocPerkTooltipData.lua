@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RipperdocPerkTooltipData: ATooltipData
----@field public ripperdocHoverState RipperdocHoverState
+---@field public ["ripperdocHoverState"] RipperdocHoverState
 RipperdocPerkTooltipData = {}
 
 ---@param fields? table

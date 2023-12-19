@@ -3,8 +3,8 @@
 
 ---@enum physicsFilterDataSource
 physicsFilterDataSource = {
-    ["Parent"] = 0,
-    ["Collider"] = 1,
-    ["Component"] = 0,
-    ["Body"] = 1
+    ["Parent"] = 0, ---@type Enum
+    ["Collider"] = 1, ---@type Enum
+    ["Component"] = 0, ---@type Enum
+    ["Body"] = 1, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class WorldMapTooltipBaseController: inkWidgetLogicController
----@field protected root inkWidgetReference
----@field private showHideAnim inkanimProxy
----@field public visible Bool
----@field public active Bool
+---@field protected ["root"] inkWidgetReference
+---@field private ["showHideAnim"] inkanimProxy
+---@field public ["visible"] Bool
+---@field public ["active"] Bool
 WorldMapTooltipBaseController = {}
 
 ---@param fields? table

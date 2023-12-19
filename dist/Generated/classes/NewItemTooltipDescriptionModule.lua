@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipDescriptionModule: NewItemTooltipModuleController
----@field private descriptionText inkTextWidgetReference
----@field private defaultMargin inkMargin
+---@field private ["descriptionText"] inkTextWidgetReference
+---@field private ["defaultMargin"] inkMargin
 NewItemTooltipDescriptionModule = {}
 
 ---@param fields? table

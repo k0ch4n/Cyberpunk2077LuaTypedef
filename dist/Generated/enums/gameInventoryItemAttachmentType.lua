@@ -3,6 +3,6 @@
 
 ---@enum gameInventoryItemAttachmentType
 gameInventoryItemAttachmentType = {
-    ["Generic"] = 0,
-    ["Dedicated"] = 1
+    ["Generic"] = 0, ---@type Enum
+    ["Dedicated"] = 1, ---@type Enum
 }

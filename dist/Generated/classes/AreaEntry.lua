@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AreaEntry
----@field public user entEntityID
+---@field public ["user"] entEntityID
 AreaEntry = {}
 
 ---@param fields? table

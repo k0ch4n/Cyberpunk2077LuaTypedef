@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetProgressionBuild: gamePlayerScriptableSystemRequest
----@field public buildType gamedataBuildType
----@field public isDebug Bool
+---@field public ["buildType"] gamedataBuildType
+---@field public ["isDebug"] Bool
 SetProgressionBuild = {}
 
 ---@param fields? table

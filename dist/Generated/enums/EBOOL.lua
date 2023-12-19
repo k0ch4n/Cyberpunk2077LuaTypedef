@@ -3,7 +3,7 @@
 
 ---@enum EBOOL
 EBOOL = {
-    ["UNINITIALZED"] = 0,
-    ["FALSE"] = 1,
-    ["TRUE"] = 2
+    ["UNINITIALZED"] = 0, ---@type Enum
+    ["FALSE"] = 1, ---@type Enum
+    ["TRUE"] = 2, ---@type Enum
 }

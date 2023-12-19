@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class questLogV2GameController: gameuiMenuGameController
----@field private QuestDetailsRef inkWidgetReference
----@field private QuestDetailsHeader inkWidgetReference
----@field private OptinalObjectivesGroupRef inkWidgetReference
----@field private CompletedObjectivesGroupRef inkWidgetReference
----@field private QuestListRef inkCompoundWidgetReference
----@field private ObjectivesListRef inkCompoundWidgetReference
----@field private OptinalObjectivesListRef inkCompoundWidgetReference
----@field private CompletedObjectivesListRef inkCompoundWidgetReference
----@field private QuestTitleRef inkTextWidgetReference
----@field private QuestDescriptionRef inkTextWidgetReference
----@field private recommendedLevel inkTextWidgetReference
----@field private rewardsList inkCompoundWidgetReference
----@field private codexLinksList inkCompoundWidgetReference
----@field private CodexEntryParent inkCompoundWidgetReference
----@field private CodexButtonRef inkCompoundWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private codexLibraryPath redResourceReferenceScriptToken
----@field private ObjectiveViewName CName
----@field private QuestGroupName CName
----@field private JournalWrapper JournalWrapper
----@field private CurrentQuestData QuestDataWrapper
----@field private ObjectiveItems ObjectiveController[]
----@field private QuestLists QuestListController[]
----@field private CodexLinksListController inkListController
----@field private codexButton inkButtonController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private buttonHintsController ButtonHints
+---@field private ["QuestDetailsRef"] inkWidgetReference
+---@field private ["QuestDetailsHeader"] inkWidgetReference
+---@field private ["OptinalObjectivesGroupRef"] inkWidgetReference
+---@field private ["CompletedObjectivesGroupRef"] inkWidgetReference
+---@field private ["QuestListRef"] inkCompoundWidgetReference
+---@field private ["ObjectivesListRef"] inkCompoundWidgetReference
+---@field private ["OptinalObjectivesListRef"] inkCompoundWidgetReference
+---@field private ["CompletedObjectivesListRef"] inkCompoundWidgetReference
+---@field private ["QuestTitleRef"] inkTextWidgetReference
+---@field private ["QuestDescriptionRef"] inkTextWidgetReference
+---@field private ["recommendedLevel"] inkTextWidgetReference
+---@field private ["rewardsList"] inkCompoundWidgetReference
+---@field private ["codexLinksList"] inkCompoundWidgetReference
+---@field private ["CodexEntryParent"] inkCompoundWidgetReference
+---@field private ["CodexButtonRef"] inkCompoundWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["codexLibraryPath"] redResourceReferenceScriptToken
+---@field private ["ObjectiveViewName"] CName
+---@field private ["QuestGroupName"] CName
+---@field private ["JournalWrapper"] JournalWrapper
+---@field private ["CurrentQuestData"] QuestDataWrapper
+---@field private ["ObjectiveItems"] ObjectiveController[]
+---@field private ["QuestLists"] QuestListController[]
+---@field private ["CodexLinksListController"] inkListController
+---@field private ["codexButton"] inkButtonController
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["buttonHintsController"] ButtonHints
 questLogV2GameController = {}
 
 ---@param fields? table

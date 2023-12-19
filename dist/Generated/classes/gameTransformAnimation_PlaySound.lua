@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_PlaySound: gameTransformAnimationTrackItemImpl
----@field public soundName CName
----@field public unique Bool
+---@field public ["soundName"] CName
+---@field public ["unique"] Bool
 gameTransformAnimation_PlaySound = {}
 
 ---@param fields? table

@@ -3,11 +3,11 @@
 
 ---@enum audiottsvoicesMale
 audiottsvoicesMale = {
-    ["Andrew"] = 0,
-    ["Oliver"] = 1,
-    ["Jack"] = 2,
-    ["Harry"] = 3,
-    ["Simon"] = 4,
-    ["Charlie"] = 5,
-    ["Thomas"] = 6
+    ["Andrew"] = 0, ---@type Enum
+    ["Oliver"] = 1, ---@type Enum
+    ["Jack"] = 2, ---@type Enum
+    ["Harry"] = 3, ---@type Enum
+    ["Simon"] = 4, ---@type Enum
+    ["Charlie"] = 5, ---@type Enum
+    ["Thomas"] = 6, ---@type Enum
 }

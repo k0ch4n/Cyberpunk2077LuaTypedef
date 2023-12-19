@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitData_Base: gameHitShapeUserData
----@field public hitShapeTag CName
----@field public bodyPartStatPoolName CName
----@field public hitShapeType HitShape_Type
+---@field public ["hitShapeTag"] CName
+---@field public ["bodyPartStatPoolName"] CName
+---@field public ["hitShapeType"] HitShape_Type
 HitData_Base = {}
 
 ---@param fields? table

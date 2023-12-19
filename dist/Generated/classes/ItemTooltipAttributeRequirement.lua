@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipAttributeRequirement: inkWidgetLogicController
----@field private labelRef inkTextWidgetReference
+---@field private ["labelRef"] inkTextWidgetReference
 ItemTooltipAttributeRequirement = {}
 
 ---@param fields? table

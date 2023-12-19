@@ -3,9 +3,9 @@
 
 ---@enum ETextureAddressing
 ETextureAddressing = {
-    ["TA_Wrap"] = 0,
-    ["TA_Mirror"] = 1,
-    ["TA_Clamp"] = 2,
-    ["TA_MirrorOnce"] = 3,
-    ["TA_Border"] = 4
+    ["TA_Wrap"] = 0, ---@type Enum
+    ["TA_Mirror"] = 1, ---@type Enum
+    ["TA_Clamp"] = 2, ---@type Enum
+    ["TA_MirrorOnce"] = 3, ---@type Enum
+    ["TA_Border"] = 4, ---@type Enum
 }

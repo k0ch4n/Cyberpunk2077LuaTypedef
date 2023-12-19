@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeescalationEvent: redEvent
----@field public originalNotification SecuritySystemInput
+---@field public ["originalNotification"] SecuritySystemInput
 DeescalationEvent = {}
 
 ---@param fields? table

@@ -73,7 +73,7 @@ function AINavigationSystem:FindPointBelowForCharacter(origin, querySphereRadius
 ---@param numberOfSpheres Int32
 ---@param offsetFromOrigin? Vector4
 ---@param checkPathToOrigin? Bool
----@param ratioCurveName? CName
+---@param ratioCurveName? CName|string
 ---@return Bool, Vector4 point
 function AINavigationSystem:GetFurthestNavmeshPointBehind(origin, querySphereRadius, numberOfSpheres, offsetFromOrigin, checkPathToOrigin, ratioCurveName) return end
 
@@ -82,7 +82,7 @@ function AINavigationSystem:GetFurthestNavmeshPointBehind(origin, querySphereRad
 ---@param numberOfSpheres Int32
 ---@param offsetFromOrigin? Vector4
 ---@param checkPathToOrigin? Bool
----@param ratioCurveName? CName
+---@param ratioCurveName? CName|string
 ---@return Bool, Vector4 point
 function AINavigationSystem:GetFurthestNavmeshPointInFront(origin, querySphereRadius, numberOfSpheres, offsetFromOrigin, checkPathToOrigin, ratioCurveName) return end
 

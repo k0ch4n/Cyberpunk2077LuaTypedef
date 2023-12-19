@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questToggleVisionMode_NodeType: questIVisionModeNodeType
----@field public objectRef gameEntityReference
----@field public enable Bool
+---@field public ["objectRef"] gameEntityReference
+---@field public ["enable"] Bool
 questToggleVisionMode_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnVoicesetComponent: gameComponent
----@field public combatVoSettingsName CName
+---@field public ["combatVoSettingsName"] CName
 scnVoicesetComponent = {}
 
 ---@param fields? table

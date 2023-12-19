@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ElevatorTerminalLogicController: DeviceWidgetControllerBase
----@field private elevatorUpArrowsWidget inkFlexWidgetReference
----@field private elevatorDownArrowsWidget inkFlexWidgetReference
----@field private forcedElevatorArrowsState EForcedElevatorArrowsState
+---@field private ["elevatorUpArrowsWidget"] inkFlexWidgetReference
+---@field private ["elevatorDownArrowsWidget"] inkFlexWidgetReference
+---@field private ["forcedElevatorArrowsState"] EForcedElevatorArrowsState
 ElevatorTerminalLogicController = {}
 
 ---@param fields? table

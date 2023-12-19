@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_Duplicates: worldEditorDebugColoringSettings
----@field public defaultColor Color
----@field public duplicateColor Color
----@field public refreshPrefab worldPrefab
----@field public refresh Bool
+---@field public ["defaultColor"] Color
+---@field public ["duplicateColor"] Color
+---@field public ["refreshPrefab"] worldPrefab
+---@field public ["refresh"] Bool
 worldDebugColoring_Duplicates = {}
 
 ---@param fields? table

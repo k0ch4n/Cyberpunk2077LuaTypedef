@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SaveLockRequest: gameScriptableSystemRequest
----@field public operation EItemOperationType
----@field public reason CName
+---@field public ["operation"] EItemOperationType
+---@field public ["reason"] CName
 SaveLockRequest = {}
 
 ---@param fields? table

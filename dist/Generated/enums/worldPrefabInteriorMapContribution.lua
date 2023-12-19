@@ -3,7 +3,7 @@
 
 ---@enum worldPrefabInteriorMapContribution
 worldPrefabInteriorMapContribution = {
-    ["Auto"] = 0,
-    ["Include"] = 1,
-    ["Discard"] = 2
+    ["Auto"] = 0, ---@type Enum
+    ["Include"] = 1, ---@type Enum
+    ["Discard"] = 2, ---@type Enum
 }

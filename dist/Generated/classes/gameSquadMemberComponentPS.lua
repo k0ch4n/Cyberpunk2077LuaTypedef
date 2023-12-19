@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSquadMemberComponentPS: gameComponentPS
----@field public entries gameSquadMemberDataEntry[]
+---@field public ["entries"] gameSquadMemberDataEntry[]
 gameSquadMemberComponentPS = {}
 
 ---@param fields? table

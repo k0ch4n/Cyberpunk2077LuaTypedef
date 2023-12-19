@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VendingTerminal: InteractiveDevice
----@field public position Vector4
----@field protected canMeshComponent entMeshComponent
----@field protected vendingBlacklist EVendorMode[]
+---@field public ["position"] Vector4
+---@field protected ["canMeshComponent"] entMeshComponent
+---@field protected ["vendingBlacklist"] EVendorMode[]
 VendingTerminal = {}
 
 ---@param fields? table

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BunkerDoorControllerPS: DoorControllerPS
----@field private NpcOpenSpeed Float
----@field private NpcOpenTime Float
----@field private malfunctioningType EMalfunctioningType
----@field private malfunctioningChance Int32
----@field private malfunctioningStimRange Float
----@field private malfanctioningBehaviourActive Bool
+---@field private ["NpcOpenSpeed"] Float
+---@field private ["NpcOpenTime"] Float
+---@field private ["malfunctioningType"] EMalfunctioningType
+---@field private ["malfunctioningChance"] Int32
+---@field private ["malfunctioningStimRange"] Float
+---@field private ["malfanctioningBehaviourActive"] Bool
 BunkerDoorControllerPS = {}
 
 ---@param fields? table

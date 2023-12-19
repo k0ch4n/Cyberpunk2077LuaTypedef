@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsNpcMountedInSlotPrereqState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field public ["psListener"] gameScriptedPrereqPSChangeListenerWrapper
 IsNpcMountedInSlotPrereqState = {}
 
 ---@param fields? table

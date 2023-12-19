@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class gameuiTooltipsManager: inkWidgetLogicController
----@field public tooltipsContainer inkWidgetReference
----@field public flipX Bool
----@field public flipY Bool
----@field public flipVerticalAttachment Bool
----@field public rootMargin inkMargin
----@field public screenMargin inkMargin
----@field private TooltipRequesters inkWidgetReference[]
----@field private GenericTooltipsNames CName[]
----@field private TooltipLibrariesReferences TooltipWidgetReference[]
----@field private TooltipLibrariesStyledReferences TooltipWidgetStyledReference[]
----@field private TooltipsLibrary redResourceReferenceScriptToken
----@field private MenuTooltipStylePath redResourceReferenceScriptToken
----@field private HudTooltipStylePath redResourceReferenceScriptToken
----@field private prespawnLazyModules Bool
----@field private IndexedTooltips AGenericTooltipController[]
----@field private NamedTooltips NamedTooltipController[]
----@field private TooltipStylePath redResourceReferenceScriptToken
----@field private enableTransitionAnimation Bool
----@field private tooltipAnimHideDef inkanimDefinition
----@field private tooltipDelayedShowDef inkanimDefinition
----@field private tooltipAnimHide inkanimProxy
----@field private tooltipDelayedShow inkanimProxy
----@field private tooltipShowAnimProxy inkanimProxy
----@field private axisDataThreshold Float
----@field private mouseDataThreshold Float
----@field private isHidden Bool
+---@field public ["tooltipsContainer"] inkWidgetReference
+---@field public ["flipX"] Bool
+---@field public ["flipY"] Bool
+---@field public ["flipVerticalAttachment"] Bool
+---@field public ["rootMargin"] inkMargin
+---@field public ["screenMargin"] inkMargin
+---@field private ["TooltipRequesters"] inkWidgetReference[]
+---@field private ["GenericTooltipsNames"] CName[]
+---@field private ["TooltipLibrariesReferences"] TooltipWidgetReference[]
+---@field private ["TooltipLibrariesStyledReferences"] TooltipWidgetStyledReference[]
+---@field private ["TooltipsLibrary"] redResourceReferenceScriptToken
+---@field private ["MenuTooltipStylePath"] redResourceReferenceScriptToken
+---@field private ["HudTooltipStylePath"] redResourceReferenceScriptToken
+---@field private ["prespawnLazyModules"] Bool
+---@field private ["IndexedTooltips"] AGenericTooltipController[]
+---@field private ["NamedTooltips"] NamedTooltipController[]
+---@field private ["TooltipStylePath"] redResourceReferenceScriptToken
+---@field private ["enableTransitionAnimation"] Bool
+---@field private ["tooltipAnimHideDef"] inkanimDefinition
+---@field private ["tooltipDelayedShowDef"] inkanimDefinition
+---@field private ["tooltipAnimHide"] inkanimProxy
+---@field private ["tooltipDelayedShow"] inkanimProxy
+---@field private ["tooltipShowAnimProxy"] inkanimProxy
+---@field private ["axisDataThreshold"] Float
+---@field private ["mouseDataThreshold"] Float
+---@field private ["isHidden"] Bool
 gameuiTooltipsManager = {}
 
 ---@param fields? table
@@ -108,7 +108,7 @@ function gameuiTooltipsManager:GetDefaultStyleResRef(tooltipStyle) return end
 function gameuiTooltipsManager:GetHidingAnimation() return end
 
 ---@private
----@param identifier CName
+---@param identifier CName|string
 ---@return AGenericTooltipController
 function gameuiTooltipsManager:GetNamedWidget(identifier) return end
 
@@ -134,7 +134,7 @@ function gameuiTooltipsManager:PlayShowingAnimation() return end
 ---@return nil
 function gameuiTooltipsManager:RefreshTooltip(index) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@return nil
 function gameuiTooltipsManager:RefreshTooltip(identifier) return end
 
@@ -187,7 +187,7 @@ function gameuiTooltipsManager:ShowTooltip(index, tooltipData) return end
 ---@return nil
 function gameuiTooltipsManager:ShowTooltip(index, tooltipData, margin) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@param tooltipData ATooltipData
 ---@param margin inkMargin
 ---@return nil
@@ -199,7 +199,7 @@ function gameuiTooltipsManager:ShowTooltip(identifier, tooltipData, margin) retu
 ---@return nil
 function gameuiTooltipsManager:ShowTooltip(tooltipController, tooltipData, margin) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@param tooltipData ATooltipData
 ---@return nil
 function gameuiTooltipsManager:ShowTooltip(identifier, tooltipData) return end
@@ -219,7 +219,7 @@ function gameuiTooltipsManager:ShowTooltip(tooltipController, tooltipData) retur
 ---@return nil
 function gameuiTooltipsManager:ShowTooltipAtPosition(index, position, tooltipData) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@param position Vector2
 ---@param tooltipData ATooltipData
 ---@return nil
@@ -240,7 +240,7 @@ function gameuiTooltipsManager:ShowTooltipAtPosition(tooltipController, position
 ---@return nil
 function gameuiTooltipsManager:ShowTooltipAtWidget(index, widget, tooltipData, placement, playAnim, margin) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@param widget inkWidget
 ---@param tooltipData ATooltipData
 ---@param placement? gameuiETooltipPlacement
@@ -264,7 +264,7 @@ function gameuiTooltipsManager:ShowTooltipAtWidget(tooltipController, widget, to
 ---@return nil
 function gameuiTooltipsManager:ShowTooltipInSlot(index, tooltipData, widget) return end
 
----@param identifier CName
+---@param identifier CName|string
 ---@param tooltipData ATooltipData
 ---@param widget inkWidget
 ---@return nil

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scneventsUnequipItemFromPerformer: scnSceneEvent
----@field public performerId scnPerformerId
----@field public slotId TweakDBID
----@field public restoreGameplayItem Bool
+---@field public ["performerId"] scnPerformerId
+---@field public ["slotId"] TweakDBID
+---@field public ["restoreGameplayItem"] Bool
 scneventsUnequipItemFromPerformer = {}
 
 ---@param fields? table

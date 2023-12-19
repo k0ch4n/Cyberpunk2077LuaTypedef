@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Mantis_Blade: gameuiCrosshairBaseGameController
----@field private weaponBBID redCallbackObject
----@field private meleeWeaponState gamePSMMeleeWeapon
----@field private targetColorChange inkWidgetReference
----@field private holdAnim inkanimProxy
----@field private aimAnim inkanimProxy
----@field private isInHoldState Bool
----@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
+---@field private ["weaponBBID"] redCallbackObject
+---@field private ["meleeWeaponState"] gamePSMMeleeWeapon
+---@field private ["targetColorChange"] inkWidgetReference
+---@field private ["holdAnim"] inkanimProxy
+---@field private ["aimAnim"] inkanimProxy
+---@field private ["isInHoldState"] Bool
+---@field private ["meleeLeapAttackObjectTagger"] MeleeLeapAttackObjectTagger
 CrosshairGameController_Mantis_Blade = {}
 
 ---@param fields? table
@@ -31,7 +31,7 @@ function CrosshairGameController_Mantis_Blade:OnPlayerAttach(playerPuppet) retur
 function CrosshairGameController_Mantis_Blade:OnPlayerDetach(playerPuppet) return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function CrosshairGameController_Mantis_Blade:ApplyCrosshairGUIState(state, aimedAtEntity) return end
@@ -58,7 +58,7 @@ function CrosshairGameController_Mantis_Blade:OnState_Default() return end
 function CrosshairGameController_Mantis_Blade:OnState_Hold() return end
 
 ---@private
----@param animName CName
+---@param animName CName|string
 ---@return inkanimProxy
 function CrosshairGameController_Mantis_Blade:PlayAnimation(animName) return end
 

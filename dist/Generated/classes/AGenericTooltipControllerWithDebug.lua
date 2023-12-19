@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AGenericTooltipControllerWithDebug: AGenericTooltipController
----@field protected DEBUG_showDebug Bool
----@field protected DEBUG_openInVSCode Bool
----@field protected DEBUG_openInVSCodeBlocked Bool
+---@field protected ["DEBUG_showDebug"] Bool
+---@field protected ["DEBUG_openInVSCode"] Bool
+---@field protected ["DEBUG_openInVSCodeBlocked"] Bool
 AGenericTooltipControllerWithDebug = {}
 
 ---@protected

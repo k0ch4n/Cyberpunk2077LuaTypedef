@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadioVolumeSettingsController: inkSettingsSelectorController
----@field private value inkTextWidgetReference
+---@field private ["value"] inkTextWidgetReference
 RadioVolumeSettingsController = {}
 
 ---@param fields? table

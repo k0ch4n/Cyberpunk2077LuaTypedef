@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TCSInputXYAxisEvent: redEvent
----@field public isAnyInput Bool
+---@field public ["isAnyInput"] Bool
 TCSInputXYAxisEvent = {}
 
 ---@param fields? table

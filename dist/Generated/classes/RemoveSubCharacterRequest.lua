@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharType gamedataSubCharacter
+---@field public ["subCharType"] gamedataSubCharacter
 RemoveSubCharacterRequest = {}
 
 ---@param fields? table

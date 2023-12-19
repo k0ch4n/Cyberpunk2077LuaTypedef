@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkTextureAtlasMapper
----@field public partName CName
----@field public clippingRectInPixels Rect
----@field public clippingRectInUVCoords RectF
+---@field public ["partName"] CName
+---@field public ["clippingRectInPixels"] Rect
+---@field public ["clippingRectInUVCoords"] RectF
 inkTextureAtlasMapper = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverloadDevice: ActionBool
----@field protected killDelay Float
+---@field protected ["killDelay"] Float
 OverloadDevice = {}
 
 ---@param fields? table

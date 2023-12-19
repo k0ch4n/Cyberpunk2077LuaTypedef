@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetFriendlyEffector: gameEffector
----@field public target gameObject
----@field public duration Float
+---@field public ["target"] gameObject
+---@field public ["duration"] Float
 SetFriendlyEffector = {}
 
 ---@param fields? table

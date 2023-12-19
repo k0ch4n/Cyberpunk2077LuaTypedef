@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioContextualAudEventMap: audioAudioMetadata
----@field public contextualAudEventMapItems audioContextualAudEventMapItem[]
+---@field public ["contextualAudEventMapItems"] audioContextualAudEventMapItem[]
 audioContextualAudEventMap = {}
 
 ---@param fields? table

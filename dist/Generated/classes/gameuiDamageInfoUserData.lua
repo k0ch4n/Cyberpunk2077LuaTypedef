@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiDamageInfoUserData: IScriptable
----@field public flags SHitFlag[]
----@field public hitShapeType EHitShapeType
+---@field public ["flags"] SHitFlag[]
+---@field public ["hitShapeType"] EHitShapeType
 gameuiDamageInfoUserData = {}
 
 ---@param fields? table

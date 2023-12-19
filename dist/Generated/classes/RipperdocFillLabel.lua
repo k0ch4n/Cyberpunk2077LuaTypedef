@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class RipperdocFillLabel: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private useMargin Bool
----@field private root inkWidget
----@field private labelAnimator inkTextValueProgressAnimationController
----@field private height Float
----@field private startSize Vector2
----@field private positionAnimation inkanimProxy
----@field private labelAnimation inkanimProxy
----@field private labelValue Float
+---@field private ["label"] inkTextWidgetReference
+---@field private ["useMargin"] Bool
+---@field private ["root"] inkWidget
+---@field private ["labelAnimator"] inkTextValueProgressAnimationController
+---@field private ["height"] Float
+---@field private ["startSize"] Vector2
+---@field private ["positionAnimation"] inkanimProxy
+---@field private ["labelAnimation"] inkanimProxy
+---@field private ["labelValue"] Float
 RipperdocFillLabel = {}
 
 ---@param fields? table

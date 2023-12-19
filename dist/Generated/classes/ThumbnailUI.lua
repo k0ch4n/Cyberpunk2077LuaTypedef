@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ThumbnailUI: ActionBool
----@field protected thumbnailWidgetPackage SThumbnailWidgetPackage
+---@field protected ["thumbnailWidgetPackage"] SThumbnailWidgetPackage
 ThumbnailUI = {}
 
 ---@param fields? table

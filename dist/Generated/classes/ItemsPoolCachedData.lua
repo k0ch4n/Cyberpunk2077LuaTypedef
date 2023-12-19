@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemsPoolCachedData: IScriptable
----@field public tooltipData ATooltipData
+---@field public ["tooltipData"] ATooltipData
 ItemsPoolCachedData = {}
 
 ---@param fields? table

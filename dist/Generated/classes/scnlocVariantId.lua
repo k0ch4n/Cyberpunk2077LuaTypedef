@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnlocVariantId
----@field public ruid CRUID
+---@field public ["ruid"] CRUID
 scnlocVariantId = {}
 
 ---@param fields? table

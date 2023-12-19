@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_AimConstraint_ObjectUp: animAnimNode_OnePoseInput
----@field public targetTransform animTransformIndex
----@field public upTransform animTransformIndex
----@field public transformIndex animTransformIndex
----@field public forwardAxisLS Vector3
----@field public upAxisLS Vector3
----@field public weightMode animConstraintWeightMode
----@field public weight Float
----@field public weightFloatTrack animNamedTrackIndex
+---@field public ["targetTransform"] animTransformIndex
+---@field public ["upTransform"] animTransformIndex
+---@field public ["transformIndex"] animTransformIndex
+---@field public ["forwardAxisLS"] Vector3
+---@field public ["upAxisLS"] Vector3
+---@field public ["weightMode"] animConstraintWeightMode
+---@field public ["weight"] Float
+---@field public ["weightFloatTrack"] animNamedTrackIndex
 animAnimNode_AimConstraint_ObjectUp = {}
 
 ---@param fields? table

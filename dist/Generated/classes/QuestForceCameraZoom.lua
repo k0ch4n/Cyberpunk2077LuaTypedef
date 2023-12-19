@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestForceCameraZoom: ActionBool
----@field private useWorkspot Bool
----@field private instant Bool
+---@field private ["useWorkspot"] Bool
+---@field private ["instant"] Bool
 QuestForceCameraZoom = {}
 
 ---@param fields? table

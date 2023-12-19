@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetDestinationActionEvent: gameActionEvent
----@field public position Vector3
+---@field public ["position"] Vector3
 gameSetDestinationActionEvent = {}
 
 ---@param fields? table

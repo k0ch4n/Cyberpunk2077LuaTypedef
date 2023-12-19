@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAssignRoleCommand: AICommand
----@field public role AIRole
+---@field public ["role"] AIRole
 AIAssignRoleCommand = {}
 
 ---@param fields? table

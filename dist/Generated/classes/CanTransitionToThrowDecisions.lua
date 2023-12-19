@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CanTransitionToThrowDecisions: CarriedObjectDecisions
----@field protected throwNPCActionReleasedName CName
----@field private throwNPCActionReleasedTime Float
----@field private canThrow Bool
----@field private canThrowInitialized Bool
+---@field protected ["throwNPCActionReleasedName"] CName
+---@field private ["throwNPCActionReleasedTime"] Float
+---@field private ["canThrow"] Bool
+---@field private ["canThrowInitialized"] Bool
 CanTransitionToThrowDecisions = {}
 
 ---@param fields? table

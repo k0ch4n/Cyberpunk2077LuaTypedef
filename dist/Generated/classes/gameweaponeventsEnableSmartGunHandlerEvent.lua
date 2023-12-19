@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameweaponeventsEnableSmartGunHandlerEvent: redEvent
----@field public owner gameObject
----@field public enable Bool
+---@field public ["owner"] gameObject
+---@field public ["enable"] Bool
 gameweaponeventsEnableSmartGunHandlerEvent = {}
 
 ---@param fields? table

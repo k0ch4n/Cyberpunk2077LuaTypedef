@@ -3,7 +3,7 @@
 
 ---@enum ButtonStatus
 ButtonStatus = {
-    ["DEFAULT"] = 0,
-    ["PROCESSING"] = 1,
-    ["DISABLED"] = 2
+    ["DEFAULT"] = 0, ---@type Enum
+    ["PROCESSING"] = 1, ---@type Enum
+    ["DISABLED"] = 2, ---@type Enum
 }

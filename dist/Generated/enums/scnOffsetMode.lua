@@ -3,6 +3,6 @@
 
 ---@enum scnOffsetMode
 scnOffsetMode = {
-    ["useRealOffset"] = 0,
-    ["useCustomOffset"] = 1
+    ["useRealOffset"] = 0, ---@type Enum
+    ["useCustomOffset"] = 1, ---@type Enum
 }

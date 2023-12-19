@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnUseSceneWorkspotParamsV1: questUseWorkspotParamsV1
----@field public workspotInstanceId scnSceneWorkspotInstanceId
----@field public playAtActorLocation Bool
----@field public itemOverride workWorkspotItemOverride
+---@field public ["workspotInstanceId"] scnSceneWorkspotInstanceId
+---@field public ["playAtActorLocation"] Bool
+---@field public ["itemOverride"] workWorkspotItemOverride
 scnUseSceneWorkspotParamsV1 = {}
 
 ---@param fields? table

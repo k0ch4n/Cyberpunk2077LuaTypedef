@@ -3,12 +3,12 @@
 
 ---@enum AIESharedVarDefinitionType
 AIESharedVarDefinitionType = {
-    ["SVInt"] = 0,
-    ["SVFloat"] = 1,
-    ["SVBool"] = 2,
-    ["SVName"] = 3,
-    ["SVTarget"] = 4,
-    ["SVPosition"] = 5,
-    ["SVNodeInstance"] = 6,
-    ["SVGlobalNodeRef"] = 7
+    ["SVInt"] = 0, ---@type Enum
+    ["SVFloat"] = 1, ---@type Enum
+    ["SVBool"] = 2, ---@type Enum
+    ["SVName"] = 3, ---@type Enum
+    ["SVTarget"] = 4, ---@type Enum
+    ["SVPosition"] = 5, ---@type Enum
+    ["SVNodeInstance"] = 6, ---@type Enum
+    ["SVGlobalNodeRef"] = 7, ---@type Enum
 }

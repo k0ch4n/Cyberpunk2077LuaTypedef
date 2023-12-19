@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OrderTakedownEvent: redEvent
----@field public target gameObject
+---@field public ["target"] gameObject
 OrderTakedownEvent = {}
 
 ---@param fields? table

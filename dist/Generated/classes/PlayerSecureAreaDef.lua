@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerSecureAreaDef: gamebbScriptDefinition
----@field public inside gamebbScriptID_Bool
+---@field public ["inside"] gamebbScriptID_Bool
 PlayerSecureAreaDef = {}
 
 ---@param fields? table

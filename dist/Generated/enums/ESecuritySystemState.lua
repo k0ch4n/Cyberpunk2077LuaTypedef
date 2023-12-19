@@ -3,8 +3,8 @@
 
 ---@enum ESecuritySystemState
 ESecuritySystemState = {
-    ["UNINITIALIZED"] = 0,
-    ["SAFE"] = 1,
-    ["ALERTED"] = 2,
-    ["COMBAT"] = 3
+    ["UNINITIALIZED"] = 0, ---@type Enum
+    ["SAFE"] = 1, ---@type Enum
+    ["ALERTED"] = 2, ---@type Enum
+    ["COMBAT"] = 3, ---@type Enum
 }

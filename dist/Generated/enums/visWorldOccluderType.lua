@@ -3,10 +3,10 @@
 
 ---@enum visWorldOccluderType
 visWorldOccluderType = {
-    ["Default"] = 0,
-    ["None"] = 1,
-    ["Detail"] = 2,
-    ["MinorInterior"] = 3,
-    ["MajorInterior"] = 4,
-    ["Exterior"] = 5
+    ["Default"] = 0, ---@type Enum
+    ["None"] = 1, ---@type Enum
+    ["Detail"] = 2, ---@type Enum
+    ["MinorInterior"] = 3, ---@type Enum
+    ["MajorInterior"] = 4, ---@type Enum
+    ["Exterior"] = 5, ---@type Enum
 }

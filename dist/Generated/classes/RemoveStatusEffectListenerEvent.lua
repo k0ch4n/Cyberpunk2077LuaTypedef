@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveStatusEffectListenerEvent: redEvent
----@field public listener StatusEffectTriggerListener
+---@field public ["listener"] StatusEffectTriggerListener
 RemoveStatusEffectListenerEvent = {}
 
 ---@param fields? table

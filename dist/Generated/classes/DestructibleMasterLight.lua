@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DestructibleMasterLight: DestructibleMasterDevice
----@field private lightComponents gameLightComponent[]
----@field private lightDefinitions gamedataLightPreset[]
+---@field private ["lightComponents"] gameLightComponent[]
+---@field private ["lightDefinitions"] gamedataLightPreset[]
 DestructibleMasterLight = {}
 
 ---@param fields? table

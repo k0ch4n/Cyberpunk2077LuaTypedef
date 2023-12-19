@@ -3,8 +3,8 @@
 
 ---@enum meleeMoveDirection
 meleeMoveDirection = {
-    ["Forward"] = 0,
-    ["Right"] = 1,
-    ["Back"] = 2,
-    ["Left"] = 3
+    ["Forward"] = 0, ---@type Enum
+    ["Right"] = 1, ---@type Enum
+    ["Back"] = 2, ---@type Enum
+    ["Left"] = 3, ---@type Enum
 }

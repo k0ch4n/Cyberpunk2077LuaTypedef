@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeTransition: DefaultTransition
----@field public stateNameString String
----@field protected driverCombatListener DriverCombatListener
+---@field public ["stateNameString"] String
+---@field protected ["driverCombatListener"] DriverCombatListener
 MeleeTransition = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -593,7 +593,7 @@ function MeleeTransition:ToMeleeChargedHold(stateContext, scriptInterface) retur
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param enable Bool
 ---@param setPosition? Bool
 ---@param slotPosition? Vector4

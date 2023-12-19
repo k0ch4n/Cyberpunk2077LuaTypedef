@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMenuGameController: gameuiWidgetGameController
----@field private baseEventDispatcher inkMenuEventDispatcher
+---@field private ["baseEventDispatcher"] inkMenuEventDispatcher
 gameuiMenuGameController = {}
 
 ---@param fields? table
@@ -15,8 +15,8 @@ function gameuiMenuGameController:GetTelemetrySystem() return end
 ---@return Bool
 function gameuiMenuGameController:IsAnyActionWithoutAssignedKey() return end
 
----@param notificationTitle CName
----@param noticationDescription CName
+---@param notificationTitle CName|string
+---@param noticationDescription CName|string
 ---@return nil
 function gameuiMenuGameController:PushNotification(notificationTitle, noticationDescription) return end
 

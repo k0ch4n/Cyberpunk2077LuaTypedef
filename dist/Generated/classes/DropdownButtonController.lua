@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropdownButtonController: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected frame inkWidgetReference
----@field protected arrow inkImageWidgetReference
+---@field protected ["label"] inkTextWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["frame"] inkWidgetReference
+---@field protected ["arrow"] inkImageWidgetReference
 DropdownButtonController = {}
 
 ---@param fields? table

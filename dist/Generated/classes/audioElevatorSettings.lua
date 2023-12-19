@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class audioElevatorSettings: audioEntitySettings
----@field public musicEvents audioMusicController
----@field public movementEvents audioLoopingSoundController
----@field public callingEvent CName
----@field public destinationReachedEvent CName
----@field public panelSelectionEvent CName
+---@field public ["musicEvents"] audioMusicController
+---@field public ["movementEvents"] audioLoopingSoundController
+---@field public ["callingEvent"] CName
+---@field public ["destinationReachedEvent"] CName
+---@field public ["panelSelectionEvent"] CName
 audioElevatorSettings = {}
 
 ---@param fields? table

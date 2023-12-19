@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AICombatGuardAreaConnectedCommunity
----@field public communityArea gameEntityReference
----@field public conditions AIICombatGuardAreaCondition[]
+---@field public ["communityArea"] gameEntityReference
+---@field public ["conditions"] AIICombatGuardAreaCondition[]
 AICombatGuardAreaConnectedCommunity = {}
 
 ---@param fields? table

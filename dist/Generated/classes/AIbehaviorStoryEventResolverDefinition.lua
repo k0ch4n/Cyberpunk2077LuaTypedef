@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStoryEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public storyTier AIArgumentMapping
+---@field public ["storyTier"] AIArgumentMapping
 AIbehaviorStoryEventResolverDefinition = {}
 
 ---@param fields? table

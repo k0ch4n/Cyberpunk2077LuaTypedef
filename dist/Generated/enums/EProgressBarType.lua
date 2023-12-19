@@ -3,6 +3,6 @@
 
 ---@enum EProgressBarType
 EProgressBarType = {
-    ["UPLOAD"] = 0,
-    ["DURATION"] = 1
+    ["UPLOAD"] = 0, ---@type Enum
+    ["DURATION"] = 1, ---@type Enum
 }

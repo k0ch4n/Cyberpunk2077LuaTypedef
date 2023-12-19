@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameScanningControllerReplicatedState: ISerializable
----@field public taggedObjectIDs entEntityID[]
+---@field public ["taggedObjectIDs"] entEntityID[]
 gameScanningControllerReplicatedState = {}
 
 ---@param fields? table

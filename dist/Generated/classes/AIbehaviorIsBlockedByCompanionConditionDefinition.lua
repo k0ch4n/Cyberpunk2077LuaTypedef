@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorIsBlockedByCompanionConditionDefinition: AIbehaviorCompanionConditionDefinition
----@field public distance AIArgumentMapping
+---@field public ["distance"] AIArgumentMapping
 AIbehaviorIsBlockedByCompanionConditionDefinition = {}
 
 ---@param fields? table

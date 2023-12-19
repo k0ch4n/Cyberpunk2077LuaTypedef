@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AIDeathReactionsTask: AIbehaviortaskScript
----@field public fastForwardAnimation AIArgumentMapping
----@field protected hitData animAnimFeature_HitReactionsData
----@field private hitReactionAction ActionHitReactionScriptProxy
----@field private previousRagdollTimeStamp Float
----@field private deathHasBeenPlayed Bool
----@field private updateFrame Int32
+---@field public ["fastForwardAnimation"] AIArgumentMapping
+---@field protected ["hitData"] animAnimFeature_HitReactionsData
+---@field private ["hitReactionAction"] ActionHitReactionScriptProxy
+---@field private ["previousRagdollTimeStamp"] Float
+---@field private ["deathHasBeenPlayed"] Bool
+---@field private ["updateFrame"] Int32
 AIDeathReactionsTask = {}
 
 ---@param owner ScriptedPuppet
@@ -81,7 +81,7 @@ function AIDeathReactionsTask:StopMotionExtraction(context) return end
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param activationReason CName
+---@param activationReason CName|string
 ---@return nil
 function AIDeathReactionsTask:TurnOnRagdoll(context, activationReason) return end
 

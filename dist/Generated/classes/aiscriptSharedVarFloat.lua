@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class aiscriptSharedVarFloat
----@field public varName LibTreeSharedVarReferenceName
+---@field public ["varName"] LibTreeSharedVarReferenceName
 aiscriptSharedVarFloat = {}
 
 ---@param fields? table

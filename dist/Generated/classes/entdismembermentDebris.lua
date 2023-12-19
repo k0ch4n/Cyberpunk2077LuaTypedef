@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entdismembermentDebris: CResource
----@field public items entdismembermentDebrisResourceItem[]
+---@field public ["items"] entdismembermentDebrisResourceItem[]
 entdismembermentDebris = {}
 
 ---@param fields? table

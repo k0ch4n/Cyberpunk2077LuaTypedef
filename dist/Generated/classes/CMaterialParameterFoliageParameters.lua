@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterFoliageParameters: CMaterialParameter
----@field public foliageProfile CFoliageProfile
+---@field public ["foliageProfile"] CFoliageProfile
 CMaterialParameterFoliageParameters = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum questJournalAlignmentEventType
 questJournalAlignmentEventType = {
-    ["Left"] = 0,
-    ["Center"] = 1,
-    ["Right"] = 2
+    ["Left"] = 0, ---@type Enum
+    ["Center"] = 1, ---@type Enum
+    ["Right"] = 2, ---@type Enum
 }

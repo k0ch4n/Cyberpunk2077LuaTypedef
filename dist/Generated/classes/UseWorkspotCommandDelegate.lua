@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UseWorkspotCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public inCommand AIArgumentMapping
----@field public movementType moveMovementType
+---@field public ["inCommand"] AIArgumentMapping
+---@field public ["movementType"] moveMovementType
 UseWorkspotCommandDelegate = {}
 
 ---@param fields? table

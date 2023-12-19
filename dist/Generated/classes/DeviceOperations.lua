@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceOperations: IScriptable
----@field protected components entIPlacedComponent[]
----@field protected fxInstances SVfxInstanceData[]
+---@field protected ["components"] entIPlacedComponent[]
+---@field protected ["fxInstances"] SVfxInstanceData[]
 DeviceOperations = {}
 
 ---@param operationID Int32
@@ -12,7 +12,7 @@ function DeviceOperations:ClearDelayIdOnOperation(operationID) return end
 
 ---@private
 ---@param owner gameObject
----@param id CName
+---@param id CName|string
 ---@param resource gameFxResource
 ---@param transform WorldTransform
 ---@return gameFxInstance
@@ -28,7 +28,7 @@ function DeviceOperations:DelayOperation(operation, owner) return end
 ---@param target Device
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
+---@param componentName? CName|string
 ---@return nil
 function DeviceOperations:EnterWorkspot(target, activator, freeCamera, componentName) return end
 
@@ -38,7 +38,7 @@ function DeviceOperations:EnterWorkspot(target, activator, freeCamera, component
 function DeviceOperations:Execute(operation, owner) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@return gameFxInstance
 function DeviceOperations:GetFxInstance(id) return end
 
@@ -52,7 +52,7 @@ function DeviceOperations:IsOperationEnabled(index) return end
 function DeviceOperations:LeaveWorkspot(activator) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@return nil
 function DeviceOperations:RemoveFxInstance(id) return end
 
@@ -90,7 +90,7 @@ function DeviceOperations:ResolveFacts(facts, owner) return end
 function DeviceOperations:ResolveItems(items, owner) return end
 
 ---@private
----@param appearanceName CName
+---@param appearanceName CName|string
 ---@param owner gameObject
 ---@return nil
 function DeviceOperations:ResolveMeshesAppearence(appearanceName, owner) return end
@@ -162,7 +162,7 @@ function DeviceOperations:SendToggleOperataionEvent(enable, index, type, owner) 
 function DeviceOperations:SetDelayIdOnOperation(delayId, operationID) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@param fx gameFxInstance
 ---@return nil
 function DeviceOperations:StoreFxInstance(id, fx) return end

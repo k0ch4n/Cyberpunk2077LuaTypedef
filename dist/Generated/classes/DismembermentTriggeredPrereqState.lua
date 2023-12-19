@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DismembermentTriggeredPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInfo redCallbackObject
----@field protected dismembermentInfo DismembermentInstigatedInfo
+---@field public ["owner"] gameObject
+---@field public ["listenerInfo"] redCallbackObject
+---@field protected ["dismembermentInfo"] DismembermentInstigatedInfo
 DismembermentTriggeredPrereqState = {}
 
 ---@param fields? table

@@ -3,12 +3,12 @@
 
 ---@enum populationSpawnerObjectCtrlAction
 populationSpawnerObjectCtrlAction = {
-    ["Undefined"] = 0,
-    ["Activate"] = 1,
-    ["Deactivate"] = 2,
-    ["Reactivate"] = 3,
-    ["ResetKillCount"] = 4,
-    ["Spawn"] = 1,
-    ["Despawn"] = 2,
-    ["Respawn"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["Activate"] = 1, ---@type Enum
+    ["Deactivate"] = 2, ---@type Enum
+    ["Reactivate"] = 3, ---@type Enum
+    ["ResetKillCount"] = 4, ---@type Enum
+    ["Spawn"] = 1, ---@type Enum
+    ["Despawn"] = 2, ---@type Enum
+    ["Respawn"] = 3, ---@type Enum
 }

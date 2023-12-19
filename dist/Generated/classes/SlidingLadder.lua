@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SlidingLadder: BaseAnimatedDevice
----@field protected offMeshConnectionDown AIOffMeshConnectionComponent
----@field protected offMeshConnectionUp AIOffMeshConnectionComponent
----@field protected ladderInteraction gameinteractionsComponent
----@field private wasShot Bool
+---@field protected ["offMeshConnectionDown"] AIOffMeshConnectionComponent
+---@field protected ["offMeshConnectionUp"] AIOffMeshConnectionComponent
+---@field protected ["ladderInteraction"] gameinteractionsComponent
+---@field private ["wasShot"] Bool
 SlidingLadder = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum questSetDestructionStateAction
 questSetDestructionStateAction = {
-    ["Undefined"] = 0,
-    ["Trigger"] = 1
+    ["Undefined"] = 0, ---@type Enum
+    ["Trigger"] = 1, ---@type Enum
 }

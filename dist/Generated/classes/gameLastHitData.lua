@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameLastHitData
----@field public targetEntityId entEntityID
----@field public hitType Uint32
----@field public hitShapes CName[]
+---@field public ["targetEntityId"] entEntityID
+---@field public ["hitType"] Uint32
+---@field public ["hitShapes"] CName[]
 gameLastHitData = {}
 
 ---@param fields? table

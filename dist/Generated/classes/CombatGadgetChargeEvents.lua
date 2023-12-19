@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CombatGadgetChargeEvents: CombatGadgetTransitions
----@field public initiated Bool
----@field public itemSwitched Bool
+---@field public ["initiated"] Bool
+---@field public ["itemSwitched"] Bool
 CombatGadgetChargeEvents = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum audiobreathingLoopBehavior
 audiobreathingLoopBehavior = {
-    ["TimedBreathing"] = 0,
-    ["BreathEvery2ndStep"] = 1,
-    ["BreathEveryStep"] = 2,
-    ["HoldingBreath"] = 3
+    ["TimedBreathing"] = 0, ---@type Enum
+    ["BreathEvery2ndStep"] = 1, ---@type Enum
+    ["BreathEveryStep"] = 2, ---@type Enum
+    ["HoldingBreath"] = 3, ---@type Enum
 }

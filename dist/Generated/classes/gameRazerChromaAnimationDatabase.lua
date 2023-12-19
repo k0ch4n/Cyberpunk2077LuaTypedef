@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameRazerChromaAnimationDatabase: CResource
----@field public setsSerialized gameRazerChromaAnimationSet[]
+---@field public ["setsSerialized"] gameRazerChromaAnimationSet[]
 gameRazerChromaAnimationDatabase = {}
 
 ---@param fields? table

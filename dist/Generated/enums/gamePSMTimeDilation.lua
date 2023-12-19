@@ -3,7 +3,7 @@
 
 ---@enum gamePSMTimeDilation
 gamePSMTimeDilation = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["Sandevistan"] = 1
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["Sandevistan"] = 1, ---@type Enum
 }

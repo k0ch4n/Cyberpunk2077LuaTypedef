@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiRoachRacePlayerController: gameuiSideScrollerMiniGamePlayerController
----@field private runAnimation CName
----@field private jumpAnimation CName
----@field private currentAnimation inkanimProxy
+---@field private ["runAnimation"] CName
+---@field private ["jumpAnimation"] CName
+---@field private ["currentAnimation"] inkanimProxy
 gameuiRoachRacePlayerController = {}
 
 ---@param fields? table

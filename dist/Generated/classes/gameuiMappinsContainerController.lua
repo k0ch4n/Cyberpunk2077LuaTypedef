@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameuiMappinsContainerController: gameuiProjectedHUDGameController
----@field public psmVision gamePSMVision
----@field public psmCombat gamePSMCombat
----@field public psmZone gamePSMZones
----@field public tier GameplayTier
----@field public spawnContainerPath inkWidgetPath
----@field public gpsQuestPathWidget inkLinePatternWidgetReference
----@field public gpsPlayerTrackedPathWidget inkLinePatternWidgetReference
+---@field public ["psmVision"] gamePSMVision
+---@field public ["psmCombat"] gamePSMCombat
+---@field public ["psmZone"] gamePSMZones
+---@field public ["tier"] GameplayTier
+---@field public ["spawnContainerPath"] inkWidgetPath
+---@field public ["gpsQuestPathWidget"] inkLinePatternWidgetReference
+---@field public ["gpsPlayerTrackedPathWidget"] inkLinePatternWidgetReference
 gameuiMappinsContainerController = {}
 
 ---@param fields? table

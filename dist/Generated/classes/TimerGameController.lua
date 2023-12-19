@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class TimerGameController: gameuiHUDGameController
----@field private value inkTextWidgetReference
----@field private rootWidget inkWidget
----@field private timerBB gameIBlackboard
----@field private timerDef UIGameDataDef
----@field private activeBBID redCallbackObject
----@field private progressBBID redCallbackObject
+---@field private ["value"] inkTextWidgetReference
+---@field private ["rootWidget"] inkWidget
+---@field private ["timerBB"] gameIBlackboard
+---@field private ["timerDef"] UIGameDataDef
+---@field private ["activeBBID"] redCallbackObject
+---@field private ["progressBBID"] redCallbackObject
 TimerGameController = {}
 
 ---@param fields? table

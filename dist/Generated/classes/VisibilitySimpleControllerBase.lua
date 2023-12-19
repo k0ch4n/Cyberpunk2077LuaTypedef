@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VisibilitySimpleControllerBase: inkWidgetLogicController
----@field public affectedWidgets CName[]
----@field private isVisible Bool
----@field private widget inkWidget
+---@field public ["affectedWidgets"] CName[]
+---@field private ["isVisible"] Bool
+---@field private ["widget"] inkWidget
 VisibilitySimpleControllerBase = {}
 
 ---@param fields? table

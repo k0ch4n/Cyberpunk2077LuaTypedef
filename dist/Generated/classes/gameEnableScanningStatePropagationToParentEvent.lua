@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEnableScanningStatePropagationToParentEvent: redEvent
----@field public isEnabled Bool
+---@field public ["isEnabled"] Bool
 gameEnableScanningStatePropagationToParentEvent = {}
 
 ---@param fields? table

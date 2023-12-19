@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InitializationSoundController: inkWidgetLogicController
----@field private soundControlName CName
----@field private initializeSoundName CName
----@field private unitializeSoundName CName
+---@field private ["soundControlName"] CName
+---@field private ["initializeSoundName"] CName
+---@field private ["unitializeSoundName"] CName
 InitializationSoundController = {}
 
 ---@param fields? table

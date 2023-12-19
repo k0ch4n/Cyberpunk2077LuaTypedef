@@ -9,17 +9,17 @@ gameChatterHelper = {}
 function gameChatterHelper.new(fields) return end
 
 ---@param instigator gameObject
----@param voName CName
+---@param voName CName|string
 ---@return nil
 function gameChatterHelper.PlayCpoClientVoiceOver(instigator, voName) return end
 
 ---@param instigator gameObject
----@param voName CName
+---@param voName CName|string
 ---@return nil
 function gameChatterHelper.PlayCpoServerSyncVoiceOver(instigator, voName) return end
 
 ---@param instigator gameObject
----@param voName CName
+---@param voName CName|string
 ---@return nil
 function gameChatterHelper.PlayVoiceOver(instigator, voName) return end
 

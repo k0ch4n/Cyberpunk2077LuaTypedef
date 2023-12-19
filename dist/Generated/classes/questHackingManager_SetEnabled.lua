@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questHackingManager_SetEnabled: questHackingManager_ActionType
----@field public enabled Bool
+---@field public ["enabled"] Bool
 questHackingManager_SetEnabled = {}
 
 ---@param fields? table

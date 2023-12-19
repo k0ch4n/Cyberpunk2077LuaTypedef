@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_CrowdRunningAway: animAnimFeature
----@field public isRunningAwayFromPlayersCar Bool
+---@field public ["isRunningAwayFromPlayersCar"] Bool
 AnimFeature_CrowdRunningAway = {}
 
 ---@param fields? table

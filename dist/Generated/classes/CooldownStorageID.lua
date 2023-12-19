@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CooldownStorageID
----@field public ID Uint32
----@field public isValid EBOOL
+---@field public ["ID"] Uint32
+---@field public ["isValid"] EBOOL
 CooldownStorageID = {}
 
 ---@param fields? table

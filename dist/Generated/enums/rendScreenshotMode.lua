@@ -3,10 +3,10 @@
 
 ---@enum rendScreenshotMode
 rendScreenshotMode = {
-    ["NONE"] = 0,
-    ["NORMAL"] = 1,
-    ["NORMAL_MULTISAMPLE"] = 2,
-    ["LAYERED"] = 4,
-    ["HIGH_RESOLUTION"] = 5,
-    ["HIGH_RESOLUTION_LAYERED"] = 6
+    ["NONE"] = 0, ---@type Enum
+    ["NORMAL"] = 1, ---@type Enum
+    ["NORMAL_MULTISAMPLE"] = 2, ---@type Enum
+    ["LAYERED"] = 4, ---@type Enum
+    ["HIGH_RESOLUTION"] = 5, ---@type Enum
+    ["HIGH_RESOLUTION_LAYERED"] = 6, ---@type Enum
 }

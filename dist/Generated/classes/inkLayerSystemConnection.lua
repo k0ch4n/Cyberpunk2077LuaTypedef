@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkLayerSystemConnection
----@field public layerName CName
----@field public system inkILayerSystemData
+---@field public ["layerName"] CName
+---@field public ["system"] inkILayerSystemData
 inkLayerSystemConnection = {}
 
 ---@param fields? table

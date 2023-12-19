@@ -3,6 +3,6 @@
 
 ---@enum inkInputHintKeyCombinationType
 inkInputHintKeyCombinationType = {
-    ["Or"] = 0,
-    ["And"] = 1
+    ["Or"] = 0, ---@type Enum
+    ["And"] = 1, ---@type Enum
 }

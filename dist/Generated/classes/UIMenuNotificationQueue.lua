@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIMenuNotificationQueue: gameuiGenericNotificationGameController
----@field private duration Float
+---@field private ["duration"] Float
 UIMenuNotificationQueue = {}
 
 ---@param fields? table

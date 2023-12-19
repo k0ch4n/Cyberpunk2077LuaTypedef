@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnBraindancePaused_ConditionType: scnIBraindanceConditionType
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
+---@field public ["sceneFile"] scnSceneResource
+---@field public ["SceneVersion"] scnSceneVersionCheck
 scnBraindancePaused_ConditionType = {}
 
 ---@param fields? table

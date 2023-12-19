@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LogEntryLogicController: inkWidgetLogicController
----@field private root inkWidget
----@field private textWidget inkTextWidgetReference
----@field private animProxyTimeout inkanimProxy
----@field private animProxyFadeOut inkanimProxy
+---@field private ["root"] inkWidget
+---@field private ["textWidget"] inkTextWidgetReference
+---@field private ["animProxyTimeout"] inkanimProxy
+---@field private ["animProxyFadeOut"] inkanimProxy
 LogEntryLogicController = {}
 
 ---@param fields? table

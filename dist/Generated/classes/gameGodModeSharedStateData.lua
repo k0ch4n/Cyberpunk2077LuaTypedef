@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGodModeSharedStateData
----@field public entity entEntity
----@field public flags Int32
+---@field public ["entity"] entEntity
+---@field public ["flags"] Int32
 gameGodModeSharedStateData = {}
 
 ---@param fields? table

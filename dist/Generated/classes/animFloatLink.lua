@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animFloatLink
----@field public node animAnimNode_FloatValue
+---@field public ["node"] animAnimNode_FloatValue
 animFloatLink = {}
 
 ---@param fields? table

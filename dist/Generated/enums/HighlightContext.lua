@@ -3,8 +3,8 @@
 
 ---@enum HighlightContext
 HighlightContext = {
-    ["DEFAULT"] = 0,
-    ["OUTLINE"] = 1,
-    ["FILL"] = 2,
-    ["FULL"] = 3
+    ["DEFAULT"] = 0, ---@type Enum
+    ["OUTLINE"] = 1, ---@type Enum
+    ["FILL"] = 2, ---@type Enum
+    ["FULL"] = 3, ---@type Enum
 }

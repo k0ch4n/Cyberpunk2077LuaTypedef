@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceLocDataMap: ISerializable
----@field public entries localizationPersistenceLocDataMapEntry[]
+---@field public ["entries"] localizationPersistenceLocDataMapEntry[]
 localizationPersistenceLocDataMap = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioLocomotionStateVfxDictionaryItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value CResource
+---@field public ["key"] CName
+---@field public ["value"] CResource
 audioLocomotionStateVfxDictionaryItem = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionUnequipItemNodeDefinition: AIbehaviorActionItemHandlingNodeDefinition
----@field public slotId AIArgumentMapping
----@field public duration AIArgumentMapping
+---@field public ["slotId"] AIArgumentMapping
+---@field public ["duration"] AIArgumentMapping
 AIbehaviorActionUnequipItemNodeDefinition = {}
 
 ---@param fields? table

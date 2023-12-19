@@ -2,61 +2,61 @@
 ---@diagnostic disable
 
 ---@class MinimalItemTooltipData: ATooltipData
----@field public itemID gameItemID
----@field public itemTweakID TweakDBID
----@field public itemData gameItemData
----@field public transmogItem gameItemID
----@field public itemName String
----@field public quality gamedataQuality
----@field public quantity Int32
----@field public description String
----@field public gameplayDescription String
----@field public weight Float
----@field public price Float
----@field public dpsValue Float
----@field public dpsDiff Float
----@field public armorValue Float
----@field public armorDiff Float
----@field public compareDPS Bool
----@field public compareArmor Bool
----@field public comparedQuality gamedataQuality
----@field public qualityF Float
----@field public comparisonQualityF Float
----@field public attackSpeed Float
----@field public projectilesPerShot Float
----@field public grenadeData InventoryTooltiData_GrenadeData
----@field public ammoCount Int32
----@field public hasSilencer Bool
----@field public hasScope Bool
----@field public isSilencerInstalled Bool
----@field public isScopeInstalled Bool
----@field public requirements MinimalItemTooltipDataRequirements
----@field public recipeData MinimalItemTooltipRecipeData
----@field public attributeAllocationStats MinimalItemTooltipStatData[]
----@field public stats MinimalItemTooltipStatData[]
----@field public mods MinimalItemTooltipModData[]
----@field public dedicatedMods MinimalItemTooltipModAttachmentData[]
----@field public cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
----@field public itemType gamedataItemType
----@field public itemCategory gamedataItemCategory
----@field public equipmentArea gamedataEquipmentArea
----@field public itemEvolution gamedataWeaponEvolution
----@field public itemPerkGroup gamedataPerkWeaponGroupType
----@field public lootItemType gameLootItemType
----@field public iconPath String
----@field public useMaleIcon Bool
----@field public isIconic Bool
----@field public isPlus Float
----@field public isBroken Bool
----@field public isCrafted Bool
----@field public isEquipped Bool
----@field public hasRarity Bool
----@field public displayContextData ItemDisplayContextData
----@field public displayContext InventoryTooltipDisplayContext
----@field public DEBUG_iconErrorInfo DEBUG_IconErrorInfo
----@field private statsManager UIInventoryItemStatsManager
----@field private statsManagerFetched Bool
----@field private managerRef UIInventoryItemsManager
+---@field public ["itemID"] gameItemID
+---@field public ["itemTweakID"] TweakDBID
+---@field public ["itemData"] gameItemData
+---@field public ["transmogItem"] gameItemID
+---@field public ["itemName"] String
+---@field public ["quality"] gamedataQuality
+---@field public ["quantity"] Int32
+---@field public ["description"] String
+---@field public ["gameplayDescription"] String
+---@field public ["weight"] Float
+---@field public ["price"] Float
+---@field public ["dpsValue"] Float
+---@field public ["dpsDiff"] Float
+---@field public ["armorValue"] Float
+---@field public ["armorDiff"] Float
+---@field public ["compareDPS"] Bool
+---@field public ["compareArmor"] Bool
+---@field public ["comparedQuality"] gamedataQuality
+---@field public ["qualityF"] Float
+---@field public ["comparisonQualityF"] Float
+---@field public ["attackSpeed"] Float
+---@field public ["projectilesPerShot"] Float
+---@field public ["grenadeData"] InventoryTooltiData_GrenadeData
+---@field public ["ammoCount"] Int32
+---@field public ["hasSilencer"] Bool
+---@field public ["hasScope"] Bool
+---@field public ["isSilencerInstalled"] Bool
+---@field public ["isScopeInstalled"] Bool
+---@field public ["requirements"] MinimalItemTooltipDataRequirements
+---@field public ["recipeData"] MinimalItemTooltipRecipeData
+---@field public ["attributeAllocationStats"] MinimalItemTooltipStatData[]
+---@field public ["stats"] MinimalItemTooltipStatData[]
+---@field public ["mods"] MinimalItemTooltipModData[]
+---@field public ["dedicatedMods"] MinimalItemTooltipModAttachmentData[]
+---@field public ["cyberwareUpgradeData"] InventoryTooltiData_CyberwareUpgradeData
+---@field public ["itemType"] gamedataItemType
+---@field public ["itemCategory"] gamedataItemCategory
+---@field public ["equipmentArea"] gamedataEquipmentArea
+---@field public ["itemEvolution"] gamedataWeaponEvolution
+---@field public ["itemPerkGroup"] gamedataPerkWeaponGroupType
+---@field public ["lootItemType"] gameLootItemType
+---@field public ["iconPath"] String
+---@field public ["useMaleIcon"] Bool
+---@field public ["isIconic"] Bool
+---@field public ["isPlus"] Float
+---@field public ["isBroken"] Bool
+---@field public ["isCrafted"] Bool
+---@field public ["isEquipped"] Bool
+---@field public ["hasRarity"] Bool
+---@field public ["displayContextData"] ItemDisplayContextData
+---@field public ["displayContext"] InventoryTooltipDisplayContext
+---@field public ["DEBUG_iconErrorInfo"] DEBUG_IconErrorInfo
+---@field private ["statsManager"] UIInventoryItemStatsManager
+---@field private ["statsManagerFetched"] Bool
+---@field private ["managerRef"] UIInventoryItemsManager
 MinimalItemTooltipData = {}
 
 ---@param fields? table
@@ -91,7 +91,7 @@ function MinimalItemTooltipData.GetDefaultModAttachmentData(data, index, type) r
 
 ---@private
 ---@param isEmpty Bool
----@param qualityName CName
+---@param qualityName CName|string
 ---@param slotID TweakDBID
 ---@param itemName String
 ---@param abilities gameInventoryItemAbility[]

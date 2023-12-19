@@ -3,6 +3,6 @@
 
 ---@enum EAIBackgroundCombatStep
 EAIBackgroundCombatStep = {
-    ["ChangeCover"] = 0,
-    ["ChangeTarget"] = 1
+    ["ChangeCover"] = 0, ---@type Enum
+    ["ChangeTarget"] = 1, ---@type Enum
 }

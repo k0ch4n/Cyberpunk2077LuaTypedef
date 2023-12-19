@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CustomAnimationsGameController: gameuiWidgetGameController
----@field protected customAnimations WidgetAnimationManager
----@field protected onSpawnAnimations CName[]
----@field protected defaultLibraryItemName CName
----@field protected defaultLibraryItemAnchor inkEAnchor
----@field protected spawnedLibrararyItem inkWidget
----@field protected curentLibraryItemName CName
----@field protected currentLibraryItemAnchor inkEAnchor
----@field protected root inkCompoundWidget
----@field protected isInitialized Bool
----@field private ownerID entEntityID
+---@field protected ["customAnimations"] WidgetAnimationManager
+---@field protected ["onSpawnAnimations"] CName[]
+---@field protected ["defaultLibraryItemName"] CName
+---@field protected ["defaultLibraryItemAnchor"] inkEAnchor
+---@field protected ["spawnedLibrararyItem"] inkWidget
+---@field protected ["curentLibraryItemName"] CName
+---@field protected ["currentLibraryItemAnchor"] inkEAnchor
+---@field protected ["root"] inkCompoundWidget
+---@field protected ["isInitialized"] Bool
+---@field private ["ownerID"] entEntityID
 CustomAnimationsGameController = {}
 
 ---@param fields? table
@@ -38,7 +38,7 @@ function CustomAnimationsGameController:OnInitialize() return end
 function CustomAnimationsGameController:InitalizeAnimationsData() return end
 
 ---@protected
----@param animationName CName
+---@param animationName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@return nil
 function CustomAnimationsGameController:PlayAnimation(animationName, playbackOption) return end
@@ -48,7 +48,7 @@ function CustomAnimationsGameController:PlayAnimation(animationName, playbackOpt
 function CustomAnimationsGameController:PlayOnSpawnAnimations() return end
 
 ---@private
----@param itemName CName
+---@param itemName CName|string
 ---@param anchor inkEAnchor
 ---@param async? Bool
 ---@param forceRespawnLibraryItem? Bool

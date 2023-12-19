@@ -3,10 +3,10 @@
 
 ---@enum scnChoiceNodeNsSizePreset
 scnChoiceNodeNsSizePreset = {
-    ["small"] = 0,
-    ["normal"] = 1,
-    ["big"] = 2,
-    ["Dialogue"] = 3,
-    ["Interaction"] = 4,
-    ["Dialogue360"] = 5
+    ["small"] = 0, ---@type Enum
+    ["normal"] = 1, ---@type Enum
+    ["big"] = 2, ---@type Enum
+    ["Dialogue"] = 3, ---@type Enum
+    ["Interaction"] = 4, ---@type Enum
+    ["Dialogue360"] = 5, ---@type Enum
 }

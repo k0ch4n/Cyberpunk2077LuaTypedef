@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BaseResaveData
----@field public baseDeviceData BaseDeviceData
----@field public tweakDBRecord TweakDBID
+---@field public ["baseDeviceData"] BaseDeviceData
+---@field public ["tweakDBRecord"] TweakDBID
 BaseResaveData = {}
 
 ---@param fields? table

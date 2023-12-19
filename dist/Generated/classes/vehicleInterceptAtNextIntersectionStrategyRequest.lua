@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleInterceptAtNextIntersectionStrategyRequest: vehicleBaseStrategyRequest
----@field public distancesToIntersectionRatio Float
+---@field public ["distancesToIntersectionRatio"] Float
 vehicleInterceptAtNextIntersectionStrategyRequest = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entLightChannelComponent: entIVisualComponent
----@field public isEnabled Bool
----@field public channels rendLightChannel
----@field public shape GeometryShape
+---@field public ["isEnabled"] Bool
+---@field public ["channels"] rendLightChannel
+---@field public ["shape"] GeometryShape
 entLightChannelComponent = {}
 
 ---@param fields? table

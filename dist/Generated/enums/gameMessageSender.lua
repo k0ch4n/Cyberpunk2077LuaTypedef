@@ -3,6 +3,6 @@
 
 ---@enum gameMessageSender
 gameMessageSender = {
-    ["NPC"] = 0,
-    ["Player"] = 1
+    ["NPC"] = 0, ---@type Enum
+    ["Player"] = 1, ---@type Enum
 }

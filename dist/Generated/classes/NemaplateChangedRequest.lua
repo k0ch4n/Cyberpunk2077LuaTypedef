@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NemaplateChangedRequest: gameScriptableSystemRequest
----@field public playerTarget entEntityID
+---@field public ["playerTarget"] entEntityID
 NemaplateChangedRequest = {}
 
 ---@param fields? table

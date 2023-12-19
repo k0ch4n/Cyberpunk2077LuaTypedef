@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class WeaponVendorActionWidgetController: DeviceActionWidgetControllerBase
----@field protected buttonText inkTextWidgetReference
----@field protected standardButtonContainer inkWidgetReference
----@field protected hoveredButtonContainer inkWidgetReference
----@field private buttonState ButtonStatus
----@field private hoverState HoverStatus
----@field private isBusy Bool
+---@field protected ["buttonText"] inkTextWidgetReference
+---@field protected ["standardButtonContainer"] inkWidgetReference
+---@field protected ["hoveredButtonContainer"] inkWidgetReference
+---@field private ["buttonState"] ButtonStatus
+---@field private ["hoverState"] HoverStatus
+---@field private ["isBusy"] Bool
 WeaponVendorActionWidgetController = {}
 
 ---@param fields? table

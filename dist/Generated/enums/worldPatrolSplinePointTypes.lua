@@ -3,7 +3,7 @@
 
 ---@enum worldPatrolSplinePointTypes
 worldPatrolSplinePointTypes = {
-    ["Workspot"] = 0,
-    ["LookAt"] = 1,
-    ["ClearLookAt"] = 2
+    ["Workspot"] = 0, ---@type Enum
+    ["LookAt"] = 1, ---@type Enum
+    ["ClearLookAt"] = 2, ---@type Enum
 }

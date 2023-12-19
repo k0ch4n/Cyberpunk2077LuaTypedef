@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RewardNotificationCurrencyDelayed: gameDelaySystemScriptedDelayCallbackWrapper
----@field private notificationQueue ItemsNotificationQueue
----@field private notificationData gameuiGenericNotificationData
+---@field private ["notificationQueue"] ItemsNotificationQueue
+---@field private ["notificationData"] gameuiGenericNotificationData
 RewardNotificationCurrencyDelayed = {}
 
 ---@param fields? table

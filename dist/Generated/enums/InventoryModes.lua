@@ -3,6 +3,6 @@
 
 ---@enum InventoryModes
 InventoryModes = {
-    ["Default"] = 0,
-    ["Item"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Item"] = 1, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum questEComparisonTypeEquality
 questEComparisonTypeEquality = {
-    ["Equal"] = 0,
-    ["NotEqual"] = 1
+    ["Equal"] = 0, ---@type Enum
+    ["NotEqual"] = 1, ---@type Enum
 }

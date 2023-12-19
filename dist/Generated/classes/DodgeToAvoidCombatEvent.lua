@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DodgeToAvoidCombatEvent: redEvent
----@field public delayID gameDelayID
----@field public npcID entEntityID
+---@field public ["delayID"] gameDelayID
+---@field public ["npcID"] entEntityID
 DodgeToAvoidCombatEvent = {}
 
 ---@param fields? table

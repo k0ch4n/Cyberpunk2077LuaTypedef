@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkWidgetBrush: IScriptable
----@field public textureAtlas inkTextureAtlas
----@field public texturePartId CName
----@field public tileType inkBrushTileType
----@field public mirrorType inkBrushMirrorType
+---@field public ["textureAtlas"] inkTextureAtlas
+---@field public ["texturePartId"] CName
+---@field public ["tileType"] inkBrushTileType
+---@field public ["mirrorType"] inkBrushMirrorType
 inkWidgetBrush = {}
 
 ---@param fields? table

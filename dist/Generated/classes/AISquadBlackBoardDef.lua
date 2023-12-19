@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AISquadBlackBoardDef: gamebbScriptDefinition
----@field public BarkPlayed gamebbScriptID_Bool
----@field public LowHealthBarkPlayed gamebbScriptID_Bool
----@field public BarkPlayedTimeStamp gamebbScriptID_Float
+---@field public ["BarkPlayed"] gamebbScriptID_Bool
+---@field public ["LowHealthBarkPlayed"] gamebbScriptID_Bool
+---@field public ["BarkPlayedTimeStamp"] gamebbScriptID_Float
 AISquadBlackBoardDef = {}
 
 ---@param fields? table

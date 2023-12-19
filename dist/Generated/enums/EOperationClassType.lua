@@ -3,14 +3,14 @@
 
 ---@enum EOperationClassType
 EOperationClassType = {
-    ["Local"] = 0,
-    ["BaseState"] = 1,
-    ["DoorState"] = 2,
-    ["BaseAction"] = 3,
-    ["CustomActions"] = 4,
-    ["TriggerVolume"] = 5,
-    ["Hit"] = 6,
-    ["InteractionArea"] = 7,
-    ["Senses"] = 8,
-    ["FocusMode"] = 9
+    ["Local"] = 0, ---@type Enum
+    ["BaseState"] = 1, ---@type Enum
+    ["DoorState"] = 2, ---@type Enum
+    ["BaseAction"] = 3, ---@type Enum
+    ["CustomActions"] = 4, ---@type Enum
+    ["TriggerVolume"] = 5, ---@type Enum
+    ["Hit"] = 6, ---@type Enum
+    ["InteractionArea"] = 7, ---@type Enum
+    ["Senses"] = 8, ---@type Enum
+    ["FocusMode"] = 9, ---@type Enum
 }

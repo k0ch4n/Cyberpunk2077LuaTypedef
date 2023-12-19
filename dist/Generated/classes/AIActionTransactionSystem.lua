@@ -5,7 +5,7 @@
 AIActionTransactionSystem = {}
 
 ---@param puppet ScriptedPuppet
----@param equipmentGroupName CName
+---@param equipmentGroupName CName|string
 ---@param powerLevel? Int32
 ---@return nil, gamedataNPCEquipmentItem_Record[] items
 function AIActionTransactionSystem.CalculateEquipmentItems(puppet, equipmentGroupName, powerLevel) return end
@@ -22,7 +22,7 @@ function AIActionTransactionSystem.CalculateEquipmentItems(puppet, equipmentGrou
 function AIActionTransactionSystem.CheckEquipmentGroupForEquipment(context, condition) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param equipmentGroup CName
+---@param equipmentGroup CName|string
 ---@return Bool
 function AIActionTransactionSystem.CheckSlotsForEquipment(context, equipmentGroup) return end
 
@@ -59,19 +59,19 @@ function AIActionTransactionSystem.GetEquipment(context, checkPrimaryEquipment, 
 function AIActionTransactionSystem.GetEquipmentWithCondition(context, checkPrimaryEquipment, checkForUnequip, itemsList) return end
 
 ---@param owner gameObject
----@param itemTag CName
+---@param itemTag CName|string
 ---@return Bool, gameItemID itemID
 function AIActionTransactionSystem.GetFirstItemID(owner, itemTag) return end
 
 ---@param owner gameObject
 ---@param itemType gamedataItemType_Record
----@param itemTag CName
+---@param itemTag CName|string
 ---@return Bool, gameItemID itemID
 function AIActionTransactionSystem.GetFirstItemID(owner, itemType, itemTag) return end
 
 ---@param owner gameObject
 ---@param itemCategory gamedataItemCategory_Record
----@param itemTag CName
+---@param itemTag CName|string
 ---@return Bool, gameItemID itemID
 function AIActionTransactionSystem.GetFirstItemID(owner, itemCategory, itemTag) return end
 
@@ -106,6 +106,6 @@ function AIActionTransactionSystem.GetOnBodyEquipmentRecords(obj, outEquipmentRe
 function AIActionTransactionSystem.IsSlotEmptySpawningItem(owner, slotID) return end
 
 ---@param obj ScriptedPuppet
----@param equipmentGroup CName
+---@param equipmentGroup CName|string
 ---@return Bool
 function AIActionTransactionSystem.ShouldPerformEquipmentCheck(obj, equipmentGroup) return end

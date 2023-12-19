@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_QuaternionVariable: animAnimNode_QuaternionValue
----@field public variableName CName
+---@field public ["variableName"] CName
 animAnimNode_QuaternionVariable = {}
 
 ---@param fields? table

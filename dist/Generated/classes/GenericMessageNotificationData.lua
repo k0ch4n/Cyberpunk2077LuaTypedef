@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotificationData: inkGameNotificationData
----@field public identifier Int32
----@field public type GenericMessageNotificationType
----@field public title String
----@field public message String
+---@field public ["identifier"] Int32
+---@field public ["type"] GenericMessageNotificationType
+---@field public ["title"] String
+---@field public ["message"] String
 GenericMessageNotificationData = {}
 
 ---@param fields? table

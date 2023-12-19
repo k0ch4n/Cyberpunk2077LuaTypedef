@@ -3,15 +3,15 @@
 
 ---@enum gamedataMinigameCategory
 gamedataMinigameCategory = {
-    ["CameraAccess"] = 0,
-    ["CyberwareAccess"] = 1,
-    ["DataAccess"] = 2,
-    ["DefenseSystemAccess"] = 3,
-    ["NeuralAccess"] = 4,
-    ["SecurityAccess"] = 5,
-    ["Trojan"] = 6,
-    ["TurretAccess"] = 7,
-    ["WeaponAccess"] = 8,
-    ["Count"] = 9,
-    ["Invalid"] = 10
+    ["CameraAccess"] = 0, ---@type Enum
+    ["CyberwareAccess"] = 1, ---@type Enum
+    ["DataAccess"] = 2, ---@type Enum
+    ["DefenseSystemAccess"] = 3, ---@type Enum
+    ["NeuralAccess"] = 4, ---@type Enum
+    ["SecurityAccess"] = 5, ---@type Enum
+    ["Trojan"] = 6, ---@type Enum
+    ["TurretAccess"] = 7, ---@type Enum
+    ["WeaponAccess"] = 8, ---@type Enum
+    ["Count"] = 9, ---@type Enum
+    ["Invalid"] = 10, ---@type Enum
 }

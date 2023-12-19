@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewPerkTabsArrowController: inkWidgetLogicController
----@field private direction NewPerkTabsArrowDirection
----@field private hovered Bool
----@field private pressed Bool
+---@field private ["direction"] NewPerkTabsArrowDirection
+---@field private ["hovered"] Bool
+---@field private ["pressed"] Bool
 NewPerkTabsArrowController = {}
 
 ---@param fields? table

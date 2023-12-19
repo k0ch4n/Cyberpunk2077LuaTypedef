@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SetTopThreatToCombatTarget: AIbehaviortaskScript
----@field public refreshTimer Float
----@field private previousChecktime Float
----@field private targetTrackerComponent TargetTrackingExtension
----@field private movePoliciesComponent movePoliciesComponent
----@field private targetChangeTime Float
+---@field public ["refreshTimer"] Float
+---@field private ["previousChecktime"] Float
+---@field private ["targetTrackerComponent"] TargetTrackingExtension
+---@field private ["movePoliciesComponent"] movePoliciesComponent
+---@field private ["targetChangeTime"] Float
 SetTopThreatToCombatTarget = {}
 
 ---@param fields? table

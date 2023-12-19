@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckArgumentBoolean: CheckArguments
----@field public customVar Bool
+---@field public ["customVar"] Bool
 CheckArgumentBoolean = {}
 
 ---@param fields? table

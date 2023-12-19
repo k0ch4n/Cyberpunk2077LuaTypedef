@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class CyberwareMainGameController: gameuiWidgetGameController
----@field private MainViewRoot inkWidgetReference
----@field private CyberwareColumnLeft inkCompoundWidgetReference
----@field private CyberwareColumnRight inkCompoundWidgetReference
----@field private personalStatsList inkCompoundWidgetReference
----@field private attributesList inkCompoundWidgetReference
----@field private resistancesList inkCompoundWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private resistanceView CName
----@field private statView CName
----@field private toolTipOffset inkMargin
----@field private rawStatsData gameStatViewData[]
+---@field private ["MainViewRoot"] inkWidgetReference
+---@field private ["CyberwareColumnLeft"] inkCompoundWidgetReference
+---@field private ["CyberwareColumnRight"] inkCompoundWidgetReference
+---@field private ["personalStatsList"] inkCompoundWidgetReference
+---@field private ["attributesList"] inkCompoundWidgetReference
+---@field private ["resistancesList"] inkCompoundWidgetReference
+---@field private ["TooltipsManagerRef"] inkWidgetReference
+---@field private ["TooltipsManager"] gameuiTooltipsManager
+---@field private ["InventoryManager"] InventoryDataManagerV2
+---@field private ["player"] PlayerPuppet
+---@field private ["resistanceView"] CName
+---@field private ["statView"] CName
+---@field private ["toolTipOffset"] inkMargin
+---@field private ["rawStatsData"] gameStatViewData[]
 CyberwareMainGameController = {}
 
 ---@param fields? table
@@ -49,7 +49,7 @@ function CyberwareMainGameController:AddCyberwareSlot(equipArea, parentRef) retu
 ---@private
 ---@param statType gamedataStatType
 ---@param list inkCompoundWidgetReference
----@param viewElement? CName
+---@param viewElement? CName|string
 ---@return nil
 function CyberwareMainGameController:AddStat(statType, list, viewElement) return end
 

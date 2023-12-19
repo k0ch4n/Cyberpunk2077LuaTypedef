@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemSetBackpackFilter: gameScriptableSystemRequest
----@field public filterMode Int32
+---@field public ["filterMode"] Int32
 UIScriptableSystemSetBackpackFilter = {}
 
 ---@param fields? table

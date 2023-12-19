@@ -3,9 +3,9 @@
 
 ---@enum audioReflectionVariant
 audioReflectionVariant = {
-    ["WorldSpaceFixedDrections"] = 0,
-    ["LocalSpaceFixedDirections"] = 1,
-    ["FindingMaximumFaceAlignemnt"] = 2,
-    ["LocalSpaceSideDirections"] = 3,
-    ["FindingMaximumFaceAligment2Sides"] = 4
+    ["WorldSpaceFixedDrections"] = 0, ---@type Enum
+    ["LocalSpaceFixedDirections"] = 1, ---@type Enum
+    ["FindingMaximumFaceAlignemnt"] = 2, ---@type Enum
+    ["LocalSpaceSideDirections"] = 3, ---@type Enum
+    ["FindingMaximumFaceAligment2Sides"] = 4, ---@type Enum
 }

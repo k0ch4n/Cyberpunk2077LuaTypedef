@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_AnimEnd: animIAnimStateTransitionCondition
----@field public eventName CName
+---@field public ["eventName"] CName
 animAnimStateTransitionCondition_AnimEnd = {}
 
 ---@param fields? table

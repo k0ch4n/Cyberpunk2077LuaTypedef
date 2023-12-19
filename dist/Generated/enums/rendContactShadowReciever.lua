@@ -3,7 +3,7 @@
 
 ---@enum rendContactShadowReciever
 rendContactShadowReciever = {
-    ["CSR_None"] = 0,
-    ["CSR_All"] = 3,
-    ["CSR_CharacterOnly"] = 2
+    ["CSR_None"] = 0, ---@type Enum
+    ["CSR_All"] = 3, ---@type Enum
+    ["CSR_CharacterOnly"] = 2, ---@type Enum
 }

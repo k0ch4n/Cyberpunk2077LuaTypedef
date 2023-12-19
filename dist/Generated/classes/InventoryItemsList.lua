@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class InventoryItemsList: inkWidgetLogicController
----@field protected InventoryItemName CName
----@field protected ItemsLayoutRef inkCompoundWidgetReference
----@field protected TooltipsData ATooltipData[]
----@field protected ItemsOwner gameObject
----@field protected ItemsLayout inkCompoundWidget
----@field protected InventoryItems inkWidget[]
----@field protected IsDevice Bool
----@field protected InventoryManager InventoryDataManagerV2
+---@field protected ["InventoryItemName"] CName
+---@field protected ["ItemsLayoutRef"] inkCompoundWidgetReference
+---@field protected ["TooltipsData"] ATooltipData[]
+---@field protected ["ItemsOwner"] gameObject
+---@field protected ["ItemsLayout"] inkCompoundWidget
+---@field protected ["InventoryItems"] inkWidget[]
+---@field protected ["IsDevice"] Bool
+---@field protected ["InventoryManager"] InventoryDataManagerV2
 InventoryItemsList = {}
 
 ---@param fields? table

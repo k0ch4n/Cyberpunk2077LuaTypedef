@@ -123,7 +123,7 @@ function EquipmentBaseTransition:GetItemCategoryFromItemID(item) return end
 function EquipmentBaseTransition:GetItemIDFromParam(stateMachineInstanceData, stateContext) return end
 
 ---@protected
----@param referenceName CName
+---@param referenceName CName|string
 ---@return InstanceDataMappedToReferenceName
 function EquipmentBaseTransition:GetMappedInstanceData(referenceName) return end
 

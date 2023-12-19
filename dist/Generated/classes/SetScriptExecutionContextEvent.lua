@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetScriptExecutionContextEvent: redEvent
----@field public scriptExecutionContext AIbehaviorScriptExecutionContext
+---@field public ["scriptExecutionContext"] AIbehaviorScriptExecutionContext
 SetScriptExecutionContextEvent = {}
 
 ---@param fields? table

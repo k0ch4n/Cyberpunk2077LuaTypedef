@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameBinkComponent: entIVisualComponent
----@field public meshTargetBinding gameBinkMeshTargetBinding
----@field public videoPlayerName CName
----@field public binkResource Bink
----@field public audioEvent CName
----@field public loopVideo Bool
----@field public forceVideoFrameRate Bool
----@field public isEnabled Bool
+---@field public ["meshTargetBinding"] gameBinkMeshTargetBinding
+---@field public ["videoPlayerName"] CName
+---@field public ["binkResource"] Bink
+---@field public ["audioEvent"] CName
+---@field public ["loopVideo"] Bool
+---@field public ["forceVideoFrameRate"] Bool
+---@field public ["isEnabled"] Bool
 gameBinkComponent = {}
 
 ---@param fields? table
@@ -40,7 +40,7 @@ function gameBinkComponent:SetIsLooped(loopVideo) return end
 ---@return nil
 function gameBinkComponent:SetVideoPath(videoPath) return end
 
----@param videoPlayerName CName
+---@param videoPlayerName CName|string
 ---@return nil
 function gameBinkComponent:SetVideoPlayerName(videoPlayerName) return end
 

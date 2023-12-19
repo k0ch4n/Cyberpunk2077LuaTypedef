@@ -3,8 +3,8 @@
 
 ---@enum audioFoleyItemType
 audioFoleyItemType = {
-    ["Jacket"] = 0,
-    ["Top"] = 1,
-    ["Bottom"] = 2,
-    ["Jewelry"] = 3
+    ["Jacket"] = 0, ---@type Enum
+    ["Top"] = 1, ---@type Enum
+    ["Bottom"] = 2, ---@type Enum
+    ["Jewelry"] = 3, ---@type Enum
 }

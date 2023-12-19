@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SimpleMessengerContactDataView: inkScriptableDataViewWrapper
----@field private compareBuilder CompareBuilder
+---@field private ["compareBuilder"] CompareBuilder
 SimpleMessengerContactDataView = {}
 
 ---@param fields? table

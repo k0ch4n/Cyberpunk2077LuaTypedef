@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraTransitionIssueBody: ISerializable
----@field public transition toolsJiraIssueTransition
+---@field public ["transition"] toolsJiraIssueTransition
 toolsJiraTransitionIssueBody = {}
 
 ---@param fields? table

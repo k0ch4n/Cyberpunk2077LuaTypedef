@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamTerrain: meshMeshParameter
----@field public chunkBoundingBoxes Box[]
+---@field public ["chunkBoundingBoxes"] Box[]
 meshMeshParamTerrain = {}
 
 ---@param fields? table

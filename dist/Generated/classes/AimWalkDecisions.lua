@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AimWalkDecisions: LocomotionGroundDecisions
----@field public callbackIDs redCallbackObject[]
----@field private isBlocking Bool
----@field private isAiming Bool
----@field private inFocusMode Bool
----@field private isLeftHandChanging Bool
+---@field public ["callbackIDs"] redCallbackObject[]
+---@field private ["isBlocking"] Bool
+---@field private ["isAiming"] Bool
+---@field private ["inFocusMode"] Bool
+---@field private ["isLeftHandChanging"] Bool
 AimWalkDecisions = {}
 
 ---@param fields? table

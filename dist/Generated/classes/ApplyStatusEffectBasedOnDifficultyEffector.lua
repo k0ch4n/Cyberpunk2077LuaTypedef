@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ApplyStatusEffectBasedOnDifficultyEffector: ApplyStatusEffectEffector
----@field public statusEffectOnStoryDifficulty TweakDBID
----@field public statusEffectOnEasyDifficulty TweakDBID
----@field public statusEffectOnHardDifficulty TweakDBID
----@field public statusEffectOnVeryHardDifficulty TweakDBID
+---@field public ["statusEffectOnStoryDifficulty"] TweakDBID
+---@field public ["statusEffectOnEasyDifficulty"] TweakDBID
+---@field public ["statusEffectOnHardDifficulty"] TweakDBID
+---@field public ["statusEffectOnVeryHardDifficulty"] TweakDBID
 ApplyStatusEffectBasedOnDifficultyEffector = {}
 
 ---@param fields? table

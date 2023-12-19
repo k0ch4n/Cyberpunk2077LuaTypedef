@@ -38,7 +38,7 @@ function gameITelemetrySystem:LogInitialChoiceLifePathSelected(lifePathID) retur
 ---@return nil
 function gameITelemetrySystem:LogInitialChoiceOptionSelected(option, value) return end
 
----@param presetName CName
+---@param presetName CName|string
 ---@param fromInit? Bool
 ---@return nil
 function gameITelemetrySystem:LogInitialChoicePresetSelected(presetName, fromInit) return end

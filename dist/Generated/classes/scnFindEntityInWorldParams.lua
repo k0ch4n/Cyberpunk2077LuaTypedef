@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnFindEntityInWorldParams
----@field public actorRef gameEntityReference
----@field public forceMaxVisibility Bool
+---@field public ["actorRef"] gameEntityReference
+---@field public ["forceMaxVisibility"] Bool
 scnFindEntityInWorldParams = {}
 
 ---@param fields? table

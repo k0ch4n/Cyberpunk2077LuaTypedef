@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsInteractionDescriptorResource: CResource
----@field public definition gameinteractionsCHotSpotDefinition
+---@field public ["definition"] gameinteractionsCHotSpotDefinition
 gameinteractionsInteractionDescriptorResource = {}
 
 ---@param fields? table

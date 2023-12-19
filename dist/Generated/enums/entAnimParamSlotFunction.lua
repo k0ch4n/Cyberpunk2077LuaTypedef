@@ -3,6 +3,6 @@
 
 ---@enum entAnimParamSlotFunction
 entAnimParamSlotFunction = {
-    ["RenderingPlane"] = 0,
-    ["Visibility"] = 1
+    ["RenderingPlane"] = 0, ---@type Enum
+    ["Visibility"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadioDelayedRequest: gameScriptableSystemRequest
----@field public data PlayRadioArgs
+---@field public ["data"] PlayRadioArgs
 RadioDelayedRequest = {}
 
 ---@param fields? table

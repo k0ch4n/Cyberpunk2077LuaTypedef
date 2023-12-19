@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ClothingSetIconsPopup: gameuiWidgetGameController
----@field private iconGrid inkWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field private data ClothingSetIconsPopupData
----@field private libraryPath inkWidgetLibraryReference
+---@field private ["iconGrid"] inkWidgetReference
+---@field private ["buttonHintsRoot"] inkWidgetReference
+---@field private ["data"] ClothingSetIconsPopupData
+---@field private ["libraryPath"] inkWidgetLibraryReference
 ClothingSetIconsPopup = {}
 
 ---@param fields? table
@@ -31,7 +31,7 @@ function ClothingSetIconsPopup:OnSetIconClick(e) return end
 function ClothingSetIconsPopup:OnUninitialize() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param label String
 ---@return nil
 function ClothingSetIconsPopup:AddButtonHints(actionName, label) return end

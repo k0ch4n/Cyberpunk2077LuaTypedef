@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class NewPerksSkillBarLogicController: inkVirtualCompoundItemController
----@field private statsProgressWidget inkWidgetReference
----@field private levelsContainer inkCompoundWidgetReference
----@field private data ProficiencyDisplayData
----@field private requestedSkills Int32
----@field private statsProgressController StatsProgressController
----@field private levelsControllers NewPerksSkillLevelLogicController[]
+---@field private ["statsProgressWidget"] inkWidgetReference
+---@field private ["levelsContainer"] inkCompoundWidgetReference
+---@field private ["data"] ProficiencyDisplayData
+---@field private ["requestedSkills"] Int32
+---@field private ["statsProgressController"] StatsProgressController
+---@field private ["levelsControllers"] NewPerksSkillLevelLogicController[]
 NewPerksSkillBarLogicController = {}
 
 ---@param fields? table

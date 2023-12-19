@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ForceDismembermentEffector: gameEffector
----@field public bodyPart gameDismBodyPart
----@field public woundType gameDismWoundType
----@field public isCritical Bool
----@field public skipDeathAnim Bool
----@field public shouldKillNPC Bool
----@field public dismembermentChance Float
----@field public effectorRecord gamedataForceDismembermentEffector_Record
+---@field public ["bodyPart"] gameDismBodyPart
+---@field public ["woundType"] gameDismWoundType
+---@field public ["isCritical"] Bool
+---@field public ["skipDeathAnim"] Bool
+---@field public ["shouldKillNPC"] Bool
+---@field public ["dismembermentChance"] Float
+---@field public ["effectorRecord"] gamedataForceDismembermentEffector_Record
 ForceDismembermentEffector = {}
 
 ---@param fields? table

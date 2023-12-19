@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PuppetSquadInterface: AICombatSquadScriptInterface
----@field private baseSquadRecord gamedataAISquadParams_Record
----@field private ticketHistory SquadTicketReceipt[]
----@field private enumValueToNdx gameEnumNameToIndexCache
----@field private sectorsInitialized Bool
+---@field private ["baseSquadRecord"] gamedataAISquadParams_Record
+---@field private ["ticketHistory"] SquadTicketReceipt[]
+---@field private ["enumValueToNdx"] gameEnumNameToIndexCache
+---@field private ["sectorsInitialized"] Bool
 PuppetSquadInterface = {}
 
 ---@param fields? table
@@ -14,39 +14,39 @@ function PuppetSquadInterface.new(fields) return end
 
 ---@protected
 ---@param orderId Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnAckOrder(orderId, actionName, entity) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnCloseSquadAction(actionName, entity) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param orderId Uint32
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnCommitToOrder(actionName, orderId, entity) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnEvaluationActivation(actionName, entity) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnEvaluationDeActivation(actionName, entity) return end
 
 ---@protected
 ---@param orderId Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnGiveOrder(orderId, actionName, entity) return end
@@ -56,34 +56,34 @@ function PuppetSquadInterface:OnGiveOrder(orderId, actionName, entity) return en
 function PuppetSquadInterface:OnInitialise() return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnOpenSquadAction(actionName, entity) return end
 
 ---@protected
 ---@param orderId Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnOrderDone(orderId, actionName, entity) return end
 
 ---@protected
 ---@param orderId Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnOrderFail(orderId, actionName, entity) return end
 
 ---@protected
 ---@param orderId Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:OnOrderRevoked(orderId, actionName, entity) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
@@ -106,13 +106,13 @@ function PuppetSquadInterface:AllocateTicketHistoryArray() return end
 ---@return Bool
 function PuppetSquadInterface:CheckCooldown(entity, ticketRecord, ticketHistoryID) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:CheckTicketConditions(actionName, entity) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
@@ -121,7 +121,7 @@ function PuppetSquadInterface:CheckTicketConditions(actionName, entity) return e
 function PuppetSquadInterface:EvaluateTicketActivation(actionName, entity, ticketRecord, ticketHistoryID, squadRecord) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
@@ -141,7 +141,7 @@ function PuppetSquadInterface:GetAITime(entity) return end
 ---@return Bool, Float acknowledgeDelay
 function PuppetSquadInterface:GetAcknowledgeDelay(entity, ticketRecord, ticketHistoryID) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return entEntityID
 function PuppetSquadInterface:GetLastTicketRecipient(actionName) return end
 
@@ -151,18 +151,18 @@ function PuppetSquadInterface:GetLastTicketRecipient(actionName) return end
 function PuppetSquadInterface:GetSquadRecord(entity) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@return Int32
 function PuppetSquadInterface:GetTicketHistoryID(actionName) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord, Int32 ticketHistoryID, gamedataAISquadParams_Record squadRecord
 function PuppetSquadInterface:GetTicketType(actionName, entity) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord, Int32 ticketHistoryID
 function PuppetSquadInterface:GetTicketType(actionName, entity) return end
@@ -180,12 +180,12 @@ function PuppetSquadInterface:ProcessRingTicket(entity, ticketRecord) return end
 function PuppetSquadInterface:RandomizeDeactivationConditionCheckInterval(ticketRecord, ticketHistoryID) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return nil
 function PuppetSquadInterface:ReleaseSquadMembersTickets(actionName, entity) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
 function PuppetSquadInterface:SimpleTicketConditionsCheck(actionName, entity) return end

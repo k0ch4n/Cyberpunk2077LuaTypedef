@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationUiPresetInfo
----@field public name CName
----@field public resource gameuiCharacterCustomizationUiPreset
+---@field public ["name"] CName
+---@field public ["resource"] gameuiCharacterCustomizationUiPreset
 gameuiCharacterCustomizationUiPresetInfo = {}
 
 ---@param fields? table

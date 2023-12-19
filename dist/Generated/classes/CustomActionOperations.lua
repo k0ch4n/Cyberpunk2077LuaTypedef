@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CustomActionOperations: DeviceOperations
----@field public customActions SCustomDeviceActionsData
----@field protected customActionsOperations SCustomActionOperationData[]
+---@field public ["customActions"] SCustomDeviceActionsData
+---@field protected ["customActionsOperations"] SCustomActionOperationData[]
 CustomActionOperations = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function CustomActionOperations.new(fields) return end
 ---@return nil
 function CustomActionOperations:ClearDelayIdOnOperation(operationID) return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@param owner gameObject
 ---@return nil
 function CustomActionOperations:ExecuteOperation(actionID, owner) return end
@@ -27,7 +27,7 @@ function CustomActionOperations:IsOperationEnabled(index) return end
 ---@return nil
 function CustomActionOperations:RequestComponents(ri) return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@param owner gameObject
 ---@return nil
 function CustomActionOperations:RestoreOperation(actionID, owner) return end

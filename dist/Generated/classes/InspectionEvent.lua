@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InspectionEvent: redEvent
----@field public enabled Bool
+---@field public ["enabled"] Bool
 InspectionEvent = {}
 
 ---@param fields? table

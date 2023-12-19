@@ -3,9 +3,9 @@
 
 ---@enum EWeaponNamesList
 EWeaponNamesList = {
-    ["EWNL_PowerStreetRifle"] = 0,
-    ["EWNL_TechStreetShotgun"] = 1,
-    ["EWNL_PowerCorpHandgun"] = 2,
-    ["EWNL_SmartCorpRifle"] = 3,
-    ["EWNL_PowerCorpHandgunJackie"] = 4
+    ["EWNL_PowerStreetRifle"] = 0, ---@type Enum
+    ["EWNL_TechStreetShotgun"] = 1, ---@type Enum
+    ["EWNL_PowerCorpHandgun"] = 2, ---@type Enum
+    ["EWNL_SmartCorpRifle"] = 3, ---@type Enum
+    ["EWNL_PowerCorpHandgunJackie"] = 4, ---@type Enum
 }

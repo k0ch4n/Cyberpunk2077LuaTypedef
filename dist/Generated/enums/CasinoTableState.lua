@@ -3,6 +3,6 @@
 
 ---@enum CasinoTableState
 CasinoTableState = {
-    ["Idle"] = 0,
-    ["Game"] = 1
+    ["Idle"] = 0, ---@type Enum
+    ["Game"] = 1, ---@type Enum
 }

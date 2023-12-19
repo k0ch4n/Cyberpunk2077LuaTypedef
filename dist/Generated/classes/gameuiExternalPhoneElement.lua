@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiExternalPhoneElement: gameuiLocalPhoneElement
----@field public libraryResource inkWidgetLibraryResource
+---@field public ["libraryResource"] inkWidgetLibraryResource
 gameuiExternalPhoneElement = {}
 
 ---@param fields? table

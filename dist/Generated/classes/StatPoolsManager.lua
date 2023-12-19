@@ -69,7 +69,7 @@ function StatPoolsManager.DrainStatPool(hitEvent, statPoolType, value) return en
 
 ---@private
 ---@param obj gameObject
----@param bodyPartName CName
+---@param bodyPartName CName|string
 ---@return Bool, gamedataStatPoolType poolType
 function StatPoolsManager.GetBodyPartStatPool(obj, bodyPartName) return end
 

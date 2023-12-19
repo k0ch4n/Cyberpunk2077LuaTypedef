@@ -2,68 +2,68 @@
 ---@diagnostic disable
 
 ---@class BaseGrenade: gameweaponGrenade
----@field protected projectileComponent gameprojectileComponent
----@field protected user gameObject
----@field protected projectileSpawnPoint Vector4
----@field protected shootCollision entSimpleColliderComponent
----@field protected visualComponent entIComponent
----@field protected stickyMeshComponent entIComponent
----@field protected decalsStickyComponent entIComponent
----@field protected homingMeshComponent entIComponent
----@field protected targetingComponent gameTargetingComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected mappinID gameNewMappinID
----@field protected timeSinceLaunch Float
----@field protected timeSinceExplosion Float
----@field protected detonationTimer Float
----@field protected stickyTrackerTimeout Float
----@field protected timeOfFreezing Float
----@field protected spawnBlinkEffectDelayID gameDelayID
----@field protected detonateRequestDelayID gameDelayID
----@field protected releaseRequestDelayID gameDelayID
----@field protected delayToDetonate Float
----@field protected detonationTimerActive Bool
----@field protected isAlive Bool
----@field protected isSinking Bool
----@field protected landedOnGround Bool
----@field protected isStuck Bool
----@field protected isTracking Bool
----@field protected isLockingOn Bool
----@field protected isLockedOn Bool
----@field protected readyToTrack Bool
----@field protected lockOnFailed Bool
----@field protected canBeShot Bool
----@field protected shotDownByThePlayer Bool
----@field protected forceExplosion Bool
----@field protected hasClearedIgnoredObject Bool
----@field protected detonateOnImpact Bool
----@field protected setStickyTracker Bool
----@field protected isContinuousEffect Bool
----@field protected additionalAttackOnDetonate Bool
----@field protected additionalAttackOnCollision Bool
----@field protected targetAcquired Bool
----@field protected collidedWithNPC Bool
----@field protected isBroadcastingStim Bool
----@field protected playingFastBeep Bool
----@field protected hasExploded Bool
----@field protected targetTracker gameEffectInstance
----@field protected potentialHomingTargets GrenadePotentialHomingTarget[]
----@field protected homingGrenadeTarget GrenadePotentialHomingTarget
----@field protected cuttingGrenadePotentialTargets CuttingGrenadePotentialTarget[]
----@field protected drillTargetPosition Vector4
----@field protected attacksSpawned gameEffectInstance[]
----@field protected tweakRecord gamedataGrenade_Record
----@field private additionalEffect gameFxResource
----@field protected landedCooldownActive Bool
----@field protected landedCooldownTimer Float
----@field protected hasHitWater Bool
----@field protected waterHeight Float
----@field protected smokeEffectRadius Float
----@field protected smokeEffectDuration Float
----@field protected smokeVisionBlockerId Uint32
----@field private isSmokeEffectActive Bool
----@field private smokeVFXDeescalationOffset Float
----@field protected cpoTimeBeforeRelease Float
+---@field protected ["projectileComponent"] gameprojectileComponent
+---@field protected ["user"] gameObject
+---@field protected ["projectileSpawnPoint"] Vector4
+---@field protected ["shootCollision"] entSimpleColliderComponent
+---@field protected ["visualComponent"] entIComponent
+---@field protected ["stickyMeshComponent"] entIComponent
+---@field protected ["decalsStickyComponent"] entIComponent
+---@field protected ["homingMeshComponent"] entIComponent
+---@field protected ["targetingComponent"] gameTargetingComponent
+---@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
+---@field protected ["mappinID"] gameNewMappinID
+---@field protected ["timeSinceLaunch"] Float
+---@field protected ["timeSinceExplosion"] Float
+---@field protected ["detonationTimer"] Float
+---@field protected ["stickyTrackerTimeout"] Float
+---@field protected ["timeOfFreezing"] Float
+---@field protected ["spawnBlinkEffectDelayID"] gameDelayID
+---@field protected ["detonateRequestDelayID"] gameDelayID
+---@field protected ["releaseRequestDelayID"] gameDelayID
+---@field protected ["delayToDetonate"] Float
+---@field protected ["detonationTimerActive"] Bool
+---@field protected ["isAlive"] Bool
+---@field protected ["isSinking"] Bool
+---@field protected ["landedOnGround"] Bool
+---@field protected ["isStuck"] Bool
+---@field protected ["isTracking"] Bool
+---@field protected ["isLockingOn"] Bool
+---@field protected ["isLockedOn"] Bool
+---@field protected ["readyToTrack"] Bool
+---@field protected ["lockOnFailed"] Bool
+---@field protected ["canBeShot"] Bool
+---@field protected ["shotDownByThePlayer"] Bool
+---@field protected ["forceExplosion"] Bool
+---@field protected ["hasClearedIgnoredObject"] Bool
+---@field protected ["detonateOnImpact"] Bool
+---@field protected ["setStickyTracker"] Bool
+---@field protected ["isContinuousEffect"] Bool
+---@field protected ["additionalAttackOnDetonate"] Bool
+---@field protected ["additionalAttackOnCollision"] Bool
+---@field protected ["targetAcquired"] Bool
+---@field protected ["collidedWithNPC"] Bool
+---@field protected ["isBroadcastingStim"] Bool
+---@field protected ["playingFastBeep"] Bool
+---@field protected ["hasExploded"] Bool
+---@field protected ["targetTracker"] gameEffectInstance
+---@field protected ["potentialHomingTargets"] GrenadePotentialHomingTarget[]
+---@field protected ["homingGrenadeTarget"] GrenadePotentialHomingTarget
+---@field protected ["cuttingGrenadePotentialTargets"] CuttingGrenadePotentialTarget[]
+---@field protected ["drillTargetPosition"] Vector4
+---@field protected ["attacksSpawned"] gameEffectInstance[]
+---@field protected ["tweakRecord"] gamedataGrenade_Record
+---@field private ["additionalEffect"] gameFxResource
+---@field protected ["landedCooldownActive"] Bool
+---@field protected ["landedCooldownTimer"] Float
+---@field protected ["hasHitWater"] Bool
+---@field protected ["waterHeight"] Float
+---@field protected ["smokeEffectRadius"] Float
+---@field protected ["smokeEffectDuration"] Float
+---@field protected ["smokeVisionBlockerId"] Uint32
+---@field private ["isSmokeEffectActive"] Bool
+---@field private ["smokeVFXDeescalationOffset"] Float
+---@field protected ["cpoTimeBeforeRelease"] Float
 BaseGrenade = {}
 
 ---@param fields? table
@@ -447,7 +447,7 @@ function BaseGrenade:ShouldUsePlayerAttack() return end
 function BaseGrenade:SpawnAttack(attackRecord, range, duration, hitNormal, position, vfxOffset) return end
 
 ---@protected
----@param key CName
+---@param key CName|string
 ---@return nil
 function BaseGrenade:SpawnEffectFromLibrary(key) return end
 

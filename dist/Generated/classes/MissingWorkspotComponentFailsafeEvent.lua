@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MissingWorkspotComponentFailsafeEvent: redEvent
----@field public playerEntityID entEntityID
+---@field public ["playerEntityID"] entEntityID
 MissingWorkspotComponentFailsafeEvent = {}
 
 ---@param fields? table

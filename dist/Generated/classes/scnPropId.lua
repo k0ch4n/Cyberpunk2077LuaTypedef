@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnPropId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnPropId = {}
 
 ---@param fields? table

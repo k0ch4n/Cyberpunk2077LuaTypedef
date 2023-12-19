@@ -3,8 +3,8 @@
 
 ---@enum gameEntityReferenceType
 gameEntityReferenceType = {
-    ["EntityRef"] = 0,
-    ["Tag"] = 1,
-    ["SlotID"] = 2,
-    ["SceneActorContextName"] = 3
+    ["EntityRef"] = 0, ---@type Enum
+    ["Tag"] = 1, ---@type Enum
+    ["SlotID"] = 2, ---@type Enum
+    ["SceneActorContextName"] = 3, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSuspiciousObjectEvent: redEvent
----@field public target gameObject
----@field public description CName
+---@field public ["target"] gameObject
+---@field public ["description"] CName
 AIbehaviorSuspiciousObjectEvent = {}
 
 ---@param fields? table

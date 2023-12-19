@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseCharacterCreationController: gameuiMenuGameController
----@field protected eventDispatcher inkMenuEventDispatcher
----@field protected characterCustomizationState gameuiICharacterCustomizationState
----@field protected nextPageHitArea inkWidgetReference
+---@field protected ["eventDispatcher"] inkMenuEventDispatcher
+---@field protected ["characterCustomizationState"] gameuiICharacterCustomizationState
+---@field protected ["nextPageHitArea"] inkWidgetReference
 gameuiBaseCharacterCreationController = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function gameuiBaseCharacterCreationController.new(fields) return end
 ---@return gameuiICharacterCustomizationSystem
 function gameuiBaseCharacterCreationController:GetCharacterCustomizationSystem() return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@param delayed? Bool
 ---@return nil
 function gameuiBaseCharacterCreationController:RequestCameraChange(slotName, delayed) return end

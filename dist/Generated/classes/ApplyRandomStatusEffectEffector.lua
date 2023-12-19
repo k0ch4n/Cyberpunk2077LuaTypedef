@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ApplyRandomStatusEffectEffector: gameEffector
----@field public targetEntityID entEntityID
----@field public applicationTarget CName
----@field public effects TweakDBID[]
----@field public appliedEffect TweakDBID
+---@field public ["targetEntityID"] entEntityID
+---@field public ["applicationTarget"] CName
+---@field public ["effects"] TweakDBID[]
+---@field public ["appliedEffect"] TweakDBID
 ApplyRandomStatusEffectEffector = {}
 
 ---@param fields? table

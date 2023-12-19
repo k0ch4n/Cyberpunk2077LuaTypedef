@@ -3,12 +3,12 @@
 
 ---@enum gamedataWorkspotCategory
 gamedataWorkspotCategory = {
-    ["Any"] = 0,
-    ["Eating"] = 1,
-    ["Nervous"] = 2,
-    ["Sitting"] = 3,
-    ["Sleeping"] = 4,
-    ["Smoking"] = 5,
-    ["Count"] = 6,
-    ["Invalid"] = 7
+    ["Any"] = 0, ---@type Enum
+    ["Eating"] = 1, ---@type Enum
+    ["Nervous"] = 2, ---@type Enum
+    ["Sitting"] = 3, ---@type Enum
+    ["Sleeping"] = 4, ---@type Enum
+    ["Smoking"] = 5, ---@type Enum
+    ["Count"] = 6, ---@type Enum
+    ["Invalid"] = 7, ---@type Enum
 }

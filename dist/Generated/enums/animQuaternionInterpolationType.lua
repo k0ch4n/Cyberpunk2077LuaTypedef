@@ -3,6 +3,6 @@
 
 ---@enum animQuaternionInterpolationType
 animQuaternionInterpolationType = {
-    ["Linear"] = 0,
-    ["Spherical"] = 1
+    ["Linear"] = 0, ---@type Enum
+    ["Spherical"] = 1, ---@type Enum
 }

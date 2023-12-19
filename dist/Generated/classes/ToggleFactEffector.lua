@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleFactEffector: gameEffector
----@field public fact CName
----@field public valueOn Int32
----@field public valueOff Int32
+---@field public ["fact"] CName
+---@field public ["valueOn"] Int32
+---@field public ["valueOff"] Int32
 ToggleFactEffector = {}
 
 ---@param fields? table

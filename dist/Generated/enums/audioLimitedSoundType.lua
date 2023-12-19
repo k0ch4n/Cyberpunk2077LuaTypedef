@@ -3,12 +3,12 @@
 
 ---@enum audioLimitedSoundType
 audioLimitedSoundType = {
-    ["Locomotion"] = 0,
-    ["Footsteps"] = 1,
-    ["Impact"] = 2,
-    ["Ragdoll"] = 3,
-    ["Physics"] = 4,
-    ["Destructibles"] = 5,
-    ["Ono"] = 6,
-    ["VO"] = 7
+    ["Locomotion"] = 0, ---@type Enum
+    ["Footsteps"] = 1, ---@type Enum
+    ["Impact"] = 2, ---@type Enum
+    ["Ragdoll"] = 3, ---@type Enum
+    ["Physics"] = 4, ---@type Enum
+    ["Destructibles"] = 5, ---@type Enum
+    ["Ono"] = 6, ---@type Enum
+    ["VO"] = 7, ---@type Enum
 }

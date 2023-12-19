@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterTransporterSpawnData
----@field public aiType gameuiarcadeShooterAIType
----@field public parameter CName
----@field public count Int32
+---@field public ["aiType"] gameuiarcadeShooterAIType
+---@field public ["parameter"] CName
+---@field public ["count"] Int32
 gameuiarcadeShooterTransporterSpawnData = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum PSODescRasterizerModeOffsetMode
 PSODescRasterizerModeOffsetMode = {
-    ["OFFSET_None"] = 0,
-    ["OFFSET_NormalBias"] = 1,
-    ["OFFSET_ShadowBias"] = 2,
-    ["OFFSET_DecalBias"] = 3
+    ["OFFSET_None"] = 0, ---@type Enum
+    ["OFFSET_NormalBias"] = 1, ---@type Enum
+    ["OFFSET_ShadowBias"] = 2, ---@type Enum
+    ["OFFSET_DecalBias"] = 3, ---@type Enum
 }

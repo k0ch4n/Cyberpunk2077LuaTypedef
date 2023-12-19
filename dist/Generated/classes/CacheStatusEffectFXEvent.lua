@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CacheStatusEffectFXEvent: redEvent
----@field public vfxToCache gamedataStatusEffectFX_Record[]
----@field public sfxToCache gamedataStatusEffectFX_Record[]
+---@field public ["vfxToCache"] gamedataStatusEffectFX_Record[]
+---@field public ["sfxToCache"] gamedataStatusEffectFX_Record[]
 CacheStatusEffectFXEvent = {}
 
 ---@param fields? table

@@ -3,10 +3,10 @@
 
 ---@enum animFloatTrackOperationType
 animFloatTrackOperationType = {
-    ["Override"] = 0,
-    ["Multiply"] = 1,
-    ["Add"] = 2,
-    ["Subtract"] = 3,
-    ["SubtractSwapped"] = 4,
-    ["WeightComplement"] = 5
+    ["Override"] = 0, ---@type Enum
+    ["Multiply"] = 1, ---@type Enum
+    ["Add"] = 2, ---@type Enum
+    ["Subtract"] = 3, ---@type Enum
+    ["SubtractSwapped"] = 4, ---@type Enum
+    ["WeightComplement"] = 5, ---@type Enum
 }

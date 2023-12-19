@@ -3,8 +3,8 @@
 
 ---@enum ESecurityAreaType
 ESecurityAreaType = {
-    ["DISABLED"] = 0,
-    ["SAFE"] = 1,
-    ["RESTRICTED"] = 2,
-    ["DANGEROUS"] = 3
+    ["DISABLED"] = 0, ---@type Enum
+    ["SAFE"] = 1, ---@type Enum
+    ["RESTRICTED"] = 2, ---@type Enum
+    ["DANGEROUS"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LootContainerAccessPointControllerPS: AccessPointControllerPS
----@field protected objRef NodeRef
+---@field protected ["objRef"] NodeRef
 LootContainerAccessPointControllerPS = {}
 
 ---@param fields? table

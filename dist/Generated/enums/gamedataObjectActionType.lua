@@ -3,14 +3,14 @@
 
 ---@enum gamedataObjectActionType
 gamedataObjectActionType = {
-    ["DeviceQuickHack"] = 0,
-    ["Direct"] = 1,
-    ["Item"] = 2,
-    ["MinigameUpload"] = 3,
-    ["Payment"] = 4,
-    ["PuppetQuickHack"] = 5,
-    ["Remote"] = 6,
-    ["VehicleQuickHack"] = 7,
-    ["Count"] = 8,
-    ["Invalid"] = 9
+    ["DeviceQuickHack"] = 0, ---@type Enum
+    ["Direct"] = 1, ---@type Enum
+    ["Item"] = 2, ---@type Enum
+    ["MinigameUpload"] = 3, ---@type Enum
+    ["Payment"] = 4, ---@type Enum
+    ["PuppetQuickHack"] = 5, ---@type Enum
+    ["Remote"] = 6, ---@type Enum
+    ["VehicleQuickHack"] = 7, ---@type Enum
+    ["Count"] = 8, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

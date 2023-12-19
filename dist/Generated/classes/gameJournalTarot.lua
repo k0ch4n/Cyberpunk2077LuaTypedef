@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameJournalTarot: gameJournalEntry
----@field public index Int32
----@field public name LocalizationString
----@field public description LocalizationString
----@field public imagePart CName
+---@field public ["index"] Int32
+---@field public ["name"] LocalizationString
+---@field public ["description"] LocalizationString
+---@field public ["imagePart"] CName
 gameJournalTarot = {}
 
 ---@param fields? table

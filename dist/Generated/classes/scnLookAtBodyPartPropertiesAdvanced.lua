@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnLookAtBodyPartPropertiesAdvanced
----@field public bodyPartName CName
+---@field public ["bodyPartName"] CName
 scnLookAtBodyPartPropertiesAdvanced = {}
 
 ---@param fields? table

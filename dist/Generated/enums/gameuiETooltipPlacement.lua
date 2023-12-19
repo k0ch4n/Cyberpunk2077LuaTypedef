@@ -3,8 +3,8 @@
 
 ---@enum gameuiETooltipPlacement
 gameuiETooltipPlacement = {
-    ["LeftCenter"] = 0,
-    ["RightCenter"] = 1,
-    ["LeftTop"] = 2,
-    ["RightTop"] = 3
+    ["LeftCenter"] = 0, ---@type Enum
+    ["RightCenter"] = 1, ---@type Enum
+    ["LeftTop"] = 2, ---@type Enum
+    ["RightTop"] = 3, ---@type Enum
 }

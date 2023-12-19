@@ -3,5 +3,5 @@
 
 ---@enum AIFiniteRoleType
 AIFiniteRoleType = {
-    ["Patrol"] = 0
+    ["Patrol"] = 0, ---@type Enum
 }

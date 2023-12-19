@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_Climbable: worldEditorDebugColoringSettings
----@field public climbableColour Color
----@field public notClimbableColour Color
+---@field public ["climbableColour"] Color
+---@field public ["notClimbableColour"] Color
 worldDebugColoring_Climbable = {}
 
 ---@param fields? table

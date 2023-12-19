@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyDroneProceduralAnimFeatureEvent: redEvent
----@field public feature AnimFeature_DroneProcedural
+---@field public ["feature"] AnimFeature_DroneProcedural
 ApplyDroneProceduralAnimFeatureEvent = {}
 
 ---@param fields? table

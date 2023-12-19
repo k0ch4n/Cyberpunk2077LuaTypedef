@@ -3,7 +3,7 @@
 
 ---@enum gameuiarcadeShooterTriggerType
 gameuiarcadeShooterTriggerType = {
-    ["Delay"] = 0,
-    ["SpawnerFinish"] = 1,
-    ["SpawnerObjectsDeath"] = 2
+    ["Delay"] = 0, ---@type Enum
+    ["SpawnerFinish"] = 1, ---@type Enum
+    ["SpawnerObjectsDeath"] = 2, ---@type Enum
 }

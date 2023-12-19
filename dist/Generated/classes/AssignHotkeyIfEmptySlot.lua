@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AssignHotkeyIfEmptySlot: gamePlayerScriptableSystemRequest
----@field private itemID gameItemID
+---@field private ["itemID"] gameItemID
 AssignHotkeyIfEmptySlot = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewAreaGameController: gameuiHUDGameController
----@field private label inkTextWidgetReference
----@field private animationProxy inkanimProxy
----@field private data NewAreaDiscoveredUserData
+---@field private ["label"] inkTextWidgetReference
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["data"] NewAreaDiscoveredUserData
 NewAreaGameController = {}
 
 ---@param fields? table

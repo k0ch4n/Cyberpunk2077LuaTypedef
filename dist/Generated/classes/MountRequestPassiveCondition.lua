@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class MountRequestPassiveCondition: AIbehaviorexpressionScript
----@field private unmountRequest Bool
----@field private acceptInstant Bool
----@field private acceptNotInstant Bool
----@field private acceptForcedTransition Bool
----@field private succeedOnMissingMountedEntity Bool
----@field private callbackId Uint32
----@field private highLevelStateCallbackId Uint32
+---@field private ["unmountRequest"] Bool
+---@field private ["acceptInstant"] Bool
+---@field private ["acceptNotInstant"] Bool
+---@field private ["acceptForcedTransition"] Bool
+---@field private ["succeedOnMissingMountedEntity"] Bool
+---@field private ["callbackId"] Uint32
+---@field private ["highLevelStateCallbackId"] Uint32
 MountRequestPassiveCondition = {}
 
 ---@param fields? table

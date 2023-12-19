@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleBlockSceneInteractions: gameScriptableSystemRequest
----@field public block Bool
+---@field public ["block"] Bool
 ToggleBlockSceneInteractions = {}
 
 ---@param fields? table

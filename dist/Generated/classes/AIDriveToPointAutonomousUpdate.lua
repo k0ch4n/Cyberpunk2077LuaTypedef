@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIDriveToPointAutonomousUpdate: AIDriveCommandUpdate
----@field public targetPosition Vector4
----@field public minimumDistanceToTarget Float
----@field public driveDownTheRoadIndefinitely Bool
+---@field public ["targetPosition"] Vector4
+---@field public ["minimumDistanceToTarget"] Float
+---@field public ["driveDownTheRoadIndefinitely"] Bool
 AIDriveToPointAutonomousUpdate = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TriggerVolumeOperations: DeviceOperations
----@field protected triggerVolumeOperations STriggerVolumeOperationData[]
+---@field protected ["triggerVolumeOperations"] STriggerVolumeOperationData[]
 TriggerVolumeOperations = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function TriggerVolumeOperations.new(fields) return end
 ---@return nil
 function TriggerVolumeOperations:ClearDelayIdOnOperation(operationID) return end
 
----@param componentName CName
+---@param componentName CName|string
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType ETriggerOperationType
@@ -28,7 +28,7 @@ function TriggerVolumeOperations:IsOperationEnabled(index) return end
 ---@return nil
 function TriggerVolumeOperations:RequestComponents(ri) return end
 
----@param componentName CName
+---@param componentName CName|string
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType ETriggerOperationType

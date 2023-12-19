@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entCameraData
----@field public rotation Quaternion
+---@field public ["rotation"] Quaternion
 entCameraData = {}
 
 ---@param fields? table

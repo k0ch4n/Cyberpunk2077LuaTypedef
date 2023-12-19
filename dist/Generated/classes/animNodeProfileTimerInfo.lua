@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animNodeProfileTimerInfo
----@field public name CName
----@field public mode animNodeProfileTimerMode
+---@field public ["name"] CName
+---@field public ["mode"] animNodeProfileTimerMode
 animNodeProfileTimerInfo = {}
 
 ---@param fields? table

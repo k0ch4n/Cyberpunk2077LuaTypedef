@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LedColors
----@field public off ScriptLightSettings
----@field public red ScriptLightSettings
----@field public green ScriptLightSettings
+---@field public ["off"] ScriptLightSettings
+---@field public ["red"] ScriptLightSettings
+---@field public ["green"] ScriptLightSettings
 LedColors = {}
 
 ---@param fields? table

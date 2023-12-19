@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class GOGProfileGameController: gameuiBaseGOGProfileController
----@field public retryButton inkWidgetReference
----@field public parentContainerWidget inkWidgetReference
----@field private isFirstLogin Bool
----@field private showingFirstLogin Bool
----@field private canRetry Bool
----@field private currentScreenType GogPopupScreenType
----@field private currentWidget inkWidget
----@field private gogRewardsList GogRewardEntryData[]
----@field private uiSystem gameuiGameSystemUI
+---@field public ["retryButton"] inkWidgetReference
+---@field public ["parentContainerWidget"] inkWidgetReference
+---@field private ["isFirstLogin"] Bool
+---@field private ["showingFirstLogin"] Bool
+---@field private ["canRetry"] Bool
+---@field private ["currentScreenType"] GogPopupScreenType
+---@field private ["currentWidget"] inkWidget
+---@field private ["gogRewardsList"] GogRewardEntryData[]
+---@field private ["uiSystem"] gameuiGameSystemUI
 GOGProfileGameController = {}
 
 ---@param fields? table
@@ -87,7 +87,7 @@ function GOGProfileGameController:HandleRetry() return end
 function GOGProfileGameController:HidePreviousWidget() return end
 
 ---@private
----@param groupName CName
+---@param groupName CName|string
 ---@return Bool
 function GOGProfileGameController:IsBaseRewardGroup(groupName) return end
 

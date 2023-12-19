@@ -24,6 +24,6 @@ function gamedataDetectionCurve_Record:Name() return end
 ---@return CName[]
 function gamedataDetectionCurve_Record:States() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataDetectionCurve_Record:StatesContains(item) return end

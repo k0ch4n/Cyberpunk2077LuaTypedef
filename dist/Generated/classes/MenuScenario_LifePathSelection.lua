@@ -13,12 +13,12 @@ function MenuScenario_LifePathSelection.new(fields) return end
 function MenuScenario_LifePathSelection:OnAccept() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_LifePathSelection:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_LifePathSelection:OnLeaveScenario(nextScenario) return end

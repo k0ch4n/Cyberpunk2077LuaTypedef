@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameTelemetryQuickHack
----@field public actionName CName
----@field public titleLocKey String
----@field public targetType String
----@field public quickHackRecordID TweakDBID
----@field public quality gamedataQuality
+---@field public ["actionName"] CName
+---@field public ["titleLocKey"] String
+---@field public ["targetType"] String
+---@field public ["quickHackRecordID"] TweakDBID
+---@field public ["quality"] gamedataQuality
 gameTelemetryQuickHack = {}
 
 ---@param fields? table

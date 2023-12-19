@@ -3,8 +3,8 @@
 
 ---@enum animEventFilterType
 animEventFilterType = {
-    ["Default"] = 0,
-    ["AlwaysCollect"] = 1,
-    ["Solo"] = 2,
-    ["Mute"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["AlwaysCollect"] = 1, ---@type Enum
+    ["Solo"] = 2, ---@type Enum
+    ["Mute"] = 3, ---@type Enum
 }

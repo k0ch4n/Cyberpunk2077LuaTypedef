@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameEffectTargetVisualizationData: IScriptable
----@field private bucketName CName
----@field private forceHighlightTargets entEntityID[]
+---@field private ["bucketName"] CName
+---@field private ["forceHighlightTargets"] entEntityID[]
 GameEffectTargetVisualizationData = {}
 
 ---@param fields? table
@@ -24,6 +24,6 @@ function GameEffectTargetVisualizationData:GetBucketName() return end
 ---@return nil
 function GameEffectTargetVisualizationData:SendEventToAll(evt) return end
 
----@param _bucketName CName
+---@param _bucketName CName|string
 ---@return nil
 function GameEffectTargetVisualizationData:SetBucketName(_bucketName) return end

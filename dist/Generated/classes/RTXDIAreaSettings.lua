@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RTXDIAreaSettings: IAreaSettings
----@field public diffuseSkyScale Float
----@field public specularSkyScale Float
+---@field public ["diffuseSkyScale"] Float
+---@field public ["specularSkyScale"] Float
 RTXDIAreaSettings = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InvestigateController: AIbehaviorconditionScript
----@field protected investigateData senseStimInvestigateData
+---@field protected ["investigateData"] senseStimInvestigateData
 InvestigateController = {}
 
 ---@param fields? table

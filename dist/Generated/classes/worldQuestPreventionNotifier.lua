@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldQuestPreventionNotifier: worldITriggerAreaNotifer
----@field public type worldQuestPreventionNotifierType
----@field public activation worldQuestPreventionNotifierActivation
+---@field public ["type"] worldQuestPreventionNotifierType
+---@field public ["activation"] worldQuestPreventionNotifierActivation
 worldQuestPreventionNotifier = {}
 
 ---@param fields? table

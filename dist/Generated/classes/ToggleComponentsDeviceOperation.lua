@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleComponentsDeviceOperation: DeviceOperationBase
----@field public components SComponentOperationData[]
+---@field public ["components"] SComponentOperationData[]
 ToggleComponentsDeviceOperation = {}
 
 ---@param fields? table

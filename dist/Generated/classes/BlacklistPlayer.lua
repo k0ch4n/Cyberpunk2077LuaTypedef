@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BlacklistPlayer: redEvent
----@field public blacklist Bool
----@field public reason BlacklistReason
----@field public forceRemoveAuthorization Bool
+---@field public ["blacklist"] Bool
+---@field public ["reason"] BlacklistReason
+---@field public ["forceRemoveAuthorization"] Bool
 BlacklistPlayer = {}
 
 ---@param fields? table

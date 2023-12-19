@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineConsumableParameterTweakDBID: gamestateMachineActionParameterTweakDBID
----@field public consumed Bool
+---@field public ["consumed"] Bool
 gamestateMachineConsumableParameterTweakDBID = {}
 
 ---@param fields? table

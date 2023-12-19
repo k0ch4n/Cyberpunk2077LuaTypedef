@@ -3,6 +3,6 @@
 
 ---@enum rendEStreamingObserverMode
 rendEStreamingObserverMode = {
-    ["Point"] = 0,
-    ["Box"] = 1
+    ["Point"] = 0, ---@type Enum
+    ["Box"] = 1, ---@type Enum
 }

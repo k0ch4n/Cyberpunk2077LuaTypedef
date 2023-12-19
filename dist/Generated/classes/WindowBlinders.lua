@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class WindowBlinders: InteractiveDevice
----@field private animFeature AnimFeature_SimpleDevice
----@field private workspotSideName CName
----@field protected portalLight gameLightComponent
----@field protected portalLight2 gameLightComponent
----@field protected portalLight3 gameLightComponent
----@field protected portalLight4 gameLightComponent
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected interactionBlockingCollider entIPlacedComponent
+---@field private ["animFeature"] AnimFeature_SimpleDevice
+---@field private ["workspotSideName"] CName
+---@field protected ["portalLight"] gameLightComponent
+---@field protected ["portalLight2"] gameLightComponent
+---@field protected ["portalLight3"] gameLightComponent
+---@field protected ["portalLight4"] gameLightComponent
+---@field protected ["sideTriggerNames"] CName[]
+---@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
+---@field protected ["interactionBlockingCollider"] entIPlacedComponent
 WindowBlinders = {}
 
 ---@param fields? table

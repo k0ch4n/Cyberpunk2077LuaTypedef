@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class HDRSettingsVarListener: userSettingsVarListener
----@field private ctrl gameuiHDRSettingsGameController
+---@field private ["ctrl"] gameuiHDRSettingsGameController
 HDRSettingsVarListener = {}
 
 ---@param fields? table
 ---@return HDRSettingsVarListener
 function HDRSettingsVarListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

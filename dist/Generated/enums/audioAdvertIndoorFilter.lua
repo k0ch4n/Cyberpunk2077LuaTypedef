@@ -3,7 +3,7 @@
 
 ---@enum audioAdvertIndoorFilter
 audioAdvertIndoorFilter = {
-    ["Always"] = 0,
-    ["OnlyIndoor"] = 1,
-    ["OnlyOutdoor"] = 2
+    ["Always"] = 0, ---@type Enum
+    ["OnlyIndoor"] = 1, ---@type Enum
+    ["OnlyOutdoor"] = 2, ---@type Enum
 }

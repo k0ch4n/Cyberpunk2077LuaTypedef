@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SasquatchComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private weakspotDestroyed Bool
----@field private player PlayerPuppet
+---@field private ["owner"] NPCPuppet
+---@field private ["owner_id"] entEntityID
+---@field private ["weakspotDestroyed"] Bool
+---@field private ["player"] PlayerPuppet
 SasquatchComponent = {}
 
 ---@param fields? table

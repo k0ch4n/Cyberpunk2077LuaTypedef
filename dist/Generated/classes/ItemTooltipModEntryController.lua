@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipModEntryController: inkWidgetLogicController
----@field protected modName inkTextWidgetReference
----@field protected attunementContainer inkWidgetReference
----@field protected attunementText inkTextWidgetReference
----@field protected attunementIcon inkImageWidgetReference
----@field protected attunementLine inkWidgetReference
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipModSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected isCrafting Bool
+---@field protected ["modName"] inkTextWidgetReference
+---@field protected ["attunementContainer"] inkWidgetReference
+---@field protected ["attunementText"] inkTextWidgetReference
+---@field protected ["attunementIcon"] inkImageWidgetReference
+---@field protected ["attunementLine"] inkWidgetReference
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] ItemTooltipModSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["isCrafting"] Bool
 ItemTooltipModEntryController = {}
 
 ---@param fields? table
@@ -31,8 +31,8 @@ function ItemTooltipModEntryController:NewSetTooltipSize(value) return end
 ---@return nil
 function ItemTooltipModEntryController:NewUpdateTooltipSize() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

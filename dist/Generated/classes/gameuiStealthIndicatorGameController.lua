@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiStealthIndicatorGameController: gameuiHUDGameController
----@field private rootWidget inkCompoundWidget
+---@field private ["rootWidget"] inkCompoundWidget
 gameuiStealthIndicatorGameController = {}
 
 ---@param fields? table

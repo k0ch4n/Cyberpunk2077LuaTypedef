@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questRotateToParams: questAICommandParams
----@field public facingTargetRef questUniversalRef
----@field public angleOffset Float
----@field public speed Float
+---@field public ["facingTargetRef"] questUniversalRef
+---@field public ["angleOffset"] Float
+---@field public ["speed"] Float
 questRotateToParams = {}
 
 ---@param fields? table

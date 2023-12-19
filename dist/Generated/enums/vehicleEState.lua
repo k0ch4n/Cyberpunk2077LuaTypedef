@@ -3,8 +3,8 @@
 
 ---@enum vehicleEState
 vehicleEState = {
-    ["Default"] = 1,
-    ["On"] = 2,
-    ["Disabled"] = 3,
-    ["Destroyed"] = 4
+    ["Default"] = 1, ---@type Enum
+    ["On"] = 2, ---@type Enum
+    ["Disabled"] = 3, ---@type Enum
+    ["Destroyed"] = 4, ---@type Enum
 }

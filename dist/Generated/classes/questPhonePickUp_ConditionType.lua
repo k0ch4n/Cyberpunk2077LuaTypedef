@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questPhonePickUp_ConditionType: questISystemConditionType
----@field public caller gameJournalPath
----@field public addressee gameJournalPath
----@field public releaseOnRejection Bool
+---@field public ["caller"] gameJournalPath
+---@field public ["addressee"] gameJournalPath
+---@field public ["releaseOnRejection"] Bool
 questPhonePickUp_ConditionType = {}
 
 ---@param fields? table

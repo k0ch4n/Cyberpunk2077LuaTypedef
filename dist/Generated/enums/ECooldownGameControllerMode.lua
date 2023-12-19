@@ -3,6 +3,6 @@
 
 ---@enum ECooldownGameControllerMode
 ECooldownGameControllerMode = {
-    ["COOLDOWNS"] = 0,
-    ["BUFFS_AND_DEBUFFS"] = 1
+    ["COOLDOWNS"] = 0, ---@type Enum
+    ["BUFFS_AND_DEBUFFS"] = 1, ---@type Enum
 }

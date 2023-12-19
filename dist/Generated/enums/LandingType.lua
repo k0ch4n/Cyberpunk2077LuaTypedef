@@ -3,10 +3,10 @@
 
 ---@enum LandingType
 LandingType = {
-    ["Off"] = 0,
-    ["Regular"] = 1,
-    ["Hard"] = 2,
-    ["VeryHard"] = 3,
-    ["Superhero"] = 4,
-    ["Death"] = 5
+    ["Off"] = 0, ---@type Enum
+    ["Regular"] = 1, ---@type Enum
+    ["Hard"] = 2, ---@type Enum
+    ["VeryHard"] = 3, ---@type Enum
+    ["Superhero"] = 4, ---@type Enum
+    ["Death"] = 5, ---@type Enum
 }

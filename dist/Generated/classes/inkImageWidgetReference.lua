@@ -23,14 +23,14 @@ function inkImageWidgetReference.GetContentVAlign() return end
 function inkImageWidgetReference.GetTexturePart(self) return end
 
 ---@param self inkImageWidgetReference
----@param texturePart CName
+---@param texturePart CName|string
 ---@return Bool
 function inkImageWidgetReference.IsTexturePartExist(self, texturePart) return end
 
 ---@param self inkImageWidgetReference
 ---@param iconRefernce inkIconReference
 ---@param callbackTarget? IScriptable
----@param callbackName? CName
+---@param callbackName? CName|string
 ---@return nil
 function inkImageWidgetReference.RequestSetImage(self, iconRefernce, callbackTarget, callbackName) return end
 
@@ -61,6 +61,6 @@ function inkImageWidgetReference.SetContentHAlign() return end
 function inkImageWidgetReference.SetContentVAlign() return end
 
 ---@param self inkImageWidgetReference
----@param texturePart CName
+---@param texturePart CName|string
 ---@return Bool
 function inkImageWidgetReference.SetTexturePart(self, texturePart) return end

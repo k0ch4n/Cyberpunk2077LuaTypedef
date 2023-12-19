@@ -3,6 +3,6 @@
 
 ---@enum ClueState
 ClueState = {
-    ["active"] = 0,
-    ["complete"] = 1
+    ["active"] = 0, ---@type Enum
+    ["complete"] = 1, ---@type Enum
 }

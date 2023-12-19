@@ -3,9 +3,9 @@
 
 ---@enum EUIActionState
 EUIActionState = {
-    ["Invalid"] = 0,
-    ["DEFAULT"] = 1,
-    ["STARTED"] = 2,
-    ["COMPLETED"] = 3,
-    ["ABORTED"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["DEFAULT"] = 1, ---@type Enum
+    ["STARTED"] = 2, ---@type Enum
+    ["COMPLETED"] = 3, ---@type Enum
+    ["ABORTED"] = 4, ---@type Enum
 }

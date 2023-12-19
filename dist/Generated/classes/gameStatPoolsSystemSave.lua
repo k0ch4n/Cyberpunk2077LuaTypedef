@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatPoolsSystemSave: ISerializable
----@field public mapping gameStatsObjectID[]
----@field public statPools gameStatPoolData[]
+---@field public ["mapping"] gameStatsObjectID[]
+---@field public ["statPools"] gameStatPoolData[]
 gameStatPoolsSystemSave = {}
 
 ---@param fields? table

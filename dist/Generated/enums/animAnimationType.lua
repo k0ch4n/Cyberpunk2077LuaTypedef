@@ -3,9 +3,9 @@
 
 ---@enum animAnimationType
 animAnimationType = {
-    ["Normal"] = 0,
-    ["AdditiveFromRefPose"] = 1,
-    ["AdditiveFromFirstFrame"] = 2,
-    ["Additive"] = 3,
-    ["AdditiveWithoutFirstFrame"] = 4
+    ["Normal"] = 0, ---@type Enum
+    ["AdditiveFromRefPose"] = 1, ---@type Enum
+    ["AdditiveFromFirstFrame"] = 2, ---@type Enum
+    ["Additive"] = 3, ---@type Enum
+    ["AdditiveWithoutFirstFrame"] = 4, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCRoleChangeEvent: redEvent
----@field public newRole AIRole
+---@field public ["newRole"] AIRole
 NPCRoleChangeEvent = {}
 
 ---@param fields? table

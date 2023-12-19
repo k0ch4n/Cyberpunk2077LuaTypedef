@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIRoadBlockadeMemberCommandParams: questScriptedAICommandParams
----@field public duration Float
+---@field public ["duration"] Float
 AIRoadBlockadeMemberCommandParams = {}
 
 ---@param fields? table

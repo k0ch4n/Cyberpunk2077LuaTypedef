@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameuiHUDGameController: gameuiWidgetGameController
----@field protected showAnimDef inkanimDefinition
----@field protected hideAnimDef inkanimDefinition
----@field private showAnimationName CName
----@field private hideAnimationName CName
----@field private moduleShown Bool
----@field private showAnimProxy inkanimProxy
----@field private hideAnimProxy inkanimProxy
+---@field protected ["showAnimDef"] inkanimDefinition
+---@field protected ["hideAnimDef"] inkanimDefinition
+---@field private ["showAnimationName"] CName
+---@field private ["hideAnimationName"] CName
+---@field private ["moduleShown"] Bool
+---@field private ["showAnimProxy"] inkanimProxy
+---@field private ["hideAnimProxy"] inkanimProxy
 gameuiHUDGameController = {}
 
 ---@param fields? table

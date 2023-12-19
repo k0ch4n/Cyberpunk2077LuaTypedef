@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OxygenStatListener: gameCustomValueStatPoolsListener
----@field public ownerPuppet PlayerPuppet
----@field public oxygenVfxBlackboard worldEffectBlackboard
+---@field public ["ownerPuppet"] PlayerPuppet
+---@field public ["oxygenVfxBlackboard"] worldEffectBlackboard
 OxygenStatListener = {}
 
 ---@param fields? table

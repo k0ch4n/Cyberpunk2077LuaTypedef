@@ -51,7 +51,7 @@ function gamedataBounty_Record:TransgressionsContains(item) return end
 ---@return CName[]
 function gamedataBounty_Record:VisualTagsFilter() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataBounty_Record:VisualTagsFilterContains(item) return end
 

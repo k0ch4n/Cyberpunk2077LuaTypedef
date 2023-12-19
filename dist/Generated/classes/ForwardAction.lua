@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ForwardAction: redEvent
----@field public requester gamePersistentID
----@field public actionToForward ScriptableDeviceAction
+---@field public ["requester"] gamePersistentID
+---@field public ["actionToForward"] ScriptableDeviceAction
 ForwardAction = {}
 
 ---@param fields? table

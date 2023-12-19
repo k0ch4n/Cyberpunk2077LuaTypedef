@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SimpleSwitch: InteractiveMasterDevice
----@field protected animationType EAnimationType
----@field protected animationSpeed Float
+---@field protected ["animationType"] EAnimationType
+---@field protected ["animationSpeed"] Float
 SimpleSwitch = {}
 
 ---@param fields? table
@@ -31,7 +31,7 @@ function SimpleSwitch:GetController() return end
 function SimpleSwitch:GetDevicePS() return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@return nil
 function SimpleSwitch:PlayAnimation(id) return end
 

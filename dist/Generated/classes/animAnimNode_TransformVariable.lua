@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TransformVariable: animAnimNode_TransformValue
----@field public variableName CName
+---@field public ["variableName"] CName
 animAnimNode_TransformVariable = {}
 
 ---@param fields? table

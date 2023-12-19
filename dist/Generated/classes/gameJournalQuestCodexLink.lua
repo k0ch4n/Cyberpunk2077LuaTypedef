@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestCodexLink: gameJournalEntry
----@field public path gameJournalPath
+---@field public ["path"] gameJournalPath
 gameJournalQuestCodexLink = {}
 
 ---@param fields? table

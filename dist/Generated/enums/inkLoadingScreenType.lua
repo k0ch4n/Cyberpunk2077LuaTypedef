@@ -3,8 +3,8 @@
 
 ---@enum inkLoadingScreenType
 inkLoadingScreenType = {
-    ["Unknown"] = 0,
-    ["SplashScreen"] = 1,
-    ["Initial"] = 2,
-    ["FastTravel"] = 3
+    ["Unknown"] = 0, ---@type Enum
+    ["SplashScreen"] = 1, ---@type Enum
+    ["Initial"] = 2, ---@type Enum
+    ["FastTravel"] = 3, ---@type Enum
 }

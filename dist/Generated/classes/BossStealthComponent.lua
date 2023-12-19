@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BossStealthComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private player PlayerPuppet
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private targetTrackerComponent AITargetTrackerComponent
+---@field private ["owner"] NPCPuppet
+---@field private ["owner_id"] entEntityID
+---@field private ["player"] PlayerPuppet
+---@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
 BossStealthComponent = {}
 
 ---@param fields? table

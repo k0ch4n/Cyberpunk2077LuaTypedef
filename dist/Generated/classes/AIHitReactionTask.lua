@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIHitReactionTask: AIbehaviortaskScript
----@field protected activationTimeStamp Float
----@field private reactionDuration Float
----@field private hitReactionAction ActionHitReactionScriptProxy
----@field private hitReactionType animHitReactionType
+---@field protected ["activationTimeStamp"] Float
+---@field private ["reactionDuration"] Float
+---@field private ["hitReactionAction"] ActionHitReactionScriptProxy
+---@field private ["hitReactionType"] animHitReactionType
 AIHitReactionTask = {}
 
 ---@protected

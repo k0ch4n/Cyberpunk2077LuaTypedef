@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NetworkMinigameAnimatedElementController: NetworkMinigameElementController
----@field protected onConsumeAnimation CName
----@field protected onSetContentAnimation CName
----@field protected onHighlightOnAnimation CName
----@field protected onHighlightOffAnimation CName
+---@field protected ["onConsumeAnimation"] CName
+---@field protected ["onSetContentAnimation"] CName
+---@field protected ["onHighlightOnAnimation"] CName
+---@field protected ["onHighlightOffAnimation"] CName
 NetworkMinigameAnimatedElementController = {}
 
 ---@param fields? table

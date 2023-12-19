@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameTimeWrapper
----@field public gameTime GameTime
+---@field public ["gameTime"] GameTime
 GameTimeWrapper = {}
 
 ---@param fields? table

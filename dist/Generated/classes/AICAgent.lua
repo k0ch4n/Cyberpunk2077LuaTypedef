@@ -18,7 +18,7 @@ function AICAgent.CancelCommand(obj, cmd) return end
 function AICAgent.DebugLogEnabled(puppet) return end
 
 ---@param obj ScriptedPuppet
----@param cbName CName
+---@param cbName CName|string
 ---@return nil
 function AICAgent.InvokeBehaviorCallback(obj, cbName) return end
 
@@ -36,13 +36,13 @@ function AICAgent:CancelCommand(cmd) return end
 ---@return Bool
 function AICAgent:CancelCommandById(cmdId, doNotRepeat) return end
 
----@param commandName CName
+---@param commandName CName|string
 ---@param useInheritance Bool
 ---@param success Bool
 ---@return Bool
 function AICAgent:CancelOrInterruptCommand(commandName, useInheritance, success) return end
 
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function AICAgent:DebugLog(category, message) return end
@@ -62,7 +62,7 @@ function AICAgent:ForceTickNextFrame() return end
 ---@return AIRole
 function AICAgent:GetAIRole() return end
 
----@param n CName
+---@param n CName|string
 ---@return Variant
 function AICAgent:GetBehaviorArgument(n) return end
 
@@ -79,7 +79,7 @@ function AICAgent:GetCombatSpaceSizeMultiplier() return end
 ---@return AICommandState
 function AICAgent:GetCommandState(cmd) return end
 
----@param commandName CName
+---@param commandName CName|string
 ---@param useInheritance Bool
 ---@return AICommand
 function AICAgent:GetEnqueuedOrExecutingCommand(commandName, useInheritance) return end
@@ -110,16 +110,16 @@ function AICAgent:GetStoryTier() return end
 ---@return Uint32
 function AICAgent:GetUpdateTickCount() return end
 
----@param cbName CName
+---@param cbName CName|string
 ---@return nil
 function AICAgent:InvokeBehaviorCallback(cbName) return end
 
----@param commandName CName
+---@param commandName CName|string
 ---@param useInheritance Bool
 ---@return Bool
 function AICAgent:IsCommandExecuting(commandName, useInheritance) return end
 
----@param commandName CName
+---@param commandName CName|string
 ---@param useInheritance Bool
 ---@return Bool
 function AICAgent:IsCommandWaiting(commandName, useInheritance) return end
@@ -132,7 +132,7 @@ function AICAgent:SendCommand(cmd) return end
 ---@return nil
 function AICAgent:SetAIRole(role) return end
 
----@param n CName
+---@param n CName|string
 ---@param nv Variant
 ---@return nil
 function AICAgent:SetBehaviorArgument(n, nv) return end

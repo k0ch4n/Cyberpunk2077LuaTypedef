@@ -3,7 +3,7 @@
 
 ---@enum gamePlayerCoverMode
 gamePlayerCoverMode = {
-    ["None"] = 0,
-    ["Auto"] = 1,
-    ["Manual"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Auto"] = 1, ---@type Enum
+    ["Manual"] = 2, ---@type Enum
 }

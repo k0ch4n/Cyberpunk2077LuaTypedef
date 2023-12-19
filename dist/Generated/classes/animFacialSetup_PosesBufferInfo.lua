@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animFacialSetup_PosesBufferInfo
----@field public face animFacialSetup_OneSermoPoseBufferInfo
----@field public tongue animFacialSetup_OneSermoPoseBufferInfo
----@field public eyes animFacialSetup_OneSermoPoseBufferInfo
+---@field public ["face"] animFacialSetup_OneSermoPoseBufferInfo
+---@field public ["tongue"] animFacialSetup_OneSermoPoseBufferInfo
+---@field public ["eyes"] animFacialSetup_OneSermoPoseBufferInfo
 animFacialSetup_PosesBufferInfo = {}
 
 ---@param fields? table

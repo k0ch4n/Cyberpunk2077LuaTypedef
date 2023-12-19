@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestDelayedHornEvent: redEvent
----@field public honkTime Float
----@field public delayTime Float
+---@field public ["honkTime"] Float
+---@field public ["delayTime"] Float
 VehicleQuestDelayedHornEvent = {}
 
 ---@param fields? table

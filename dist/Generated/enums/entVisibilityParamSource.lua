@@ -3,5 +3,5 @@
 
 ---@enum entVisibilityParamSource
 entVisibilityParamSource = {
-    ["PhantomEntitySystem"] = 7
+    ["PhantomEntitySystem"] = 7, ---@type Enum
 }

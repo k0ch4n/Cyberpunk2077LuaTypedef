@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class JukeboxBlackboardDef: DeviceBaseBlackboardDef
----@field public IsPlaying gamebbScriptID_Bool
+---@field public ["IsPlaying"] gamebbScriptID_Bool
 JukeboxBlackboardDef = {}
 
 ---@param fields? table

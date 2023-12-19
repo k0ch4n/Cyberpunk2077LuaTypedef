@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PersistentDotSettingsListener: userSettingsVarListener
----@field private controller CrosshairGameControllerPersistentDot
+---@field private ["controller"] CrosshairGameControllerPersistentDot
 PersistentDotSettingsListener = {}
 
 ---@param fields? table
 ---@return PersistentDotSettingsListener
 function PersistentDotSettingsListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

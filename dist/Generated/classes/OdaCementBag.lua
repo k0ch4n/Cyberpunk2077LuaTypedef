@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OdaCementBag: InteractiveDevice
----@field private onCooldown Bool
+---@field private ["onCooldown"] Bool
 OdaCementBag = {}
 
 ---@param fields? table

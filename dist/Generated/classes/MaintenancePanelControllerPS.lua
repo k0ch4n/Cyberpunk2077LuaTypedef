@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MaintenancePanelControllerPS: MasterControllerPS
----@field private maintenancePanelSkillChecks EngineeringContainer
+---@field private ["maintenancePanelSkillChecks"] EngineeringContainer
 MaintenancePanelControllerPS = {}
 
 ---@param fields? table

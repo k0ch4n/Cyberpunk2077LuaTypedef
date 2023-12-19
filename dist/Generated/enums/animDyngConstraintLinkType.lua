@@ -3,8 +3,8 @@
 
 ---@enum animDyngConstraintLinkType
 animDyngConstraintLinkType = {
-    ["KeepFixedDistance"] = 0,
-    ["KeepVariableDistance"] = 1,
-    ["Greater"] = 2,
-    ["Closer"] = 3
+    ["KeepFixedDistance"] = 0, ---@type Enum
+    ["KeepVariableDistance"] = 1, ---@type Enum
+    ["Greater"] = 2, ---@type Enum
+    ["Closer"] = 3, ---@type Enum
 }

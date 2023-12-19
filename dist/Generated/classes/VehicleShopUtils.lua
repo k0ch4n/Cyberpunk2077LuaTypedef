@@ -8,11 +8,11 @@ VehicleShopUtils = {}
 ---@return VehicleShopUtils
 function VehicleShopUtils.new(fields) return end
 
----@param carBrand CName
+---@param carBrand CName|string
 ---@return String
 function VehicleShopUtils.BrandToLocKey(carBrand) return end
 
----@param carBrand CName
+---@param carBrand CName|string
 ---@return String
 function VehicleShopUtils.BrandToTexturePartString(carBrand) return end
 

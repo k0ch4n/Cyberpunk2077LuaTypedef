@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InspectionObject: gameObject
----@field public interaction gameinteractionsComponent
+---@field public ["interaction"] gameinteractionsComponent
 InspectionObject = {}
 
 ---@param fields? table

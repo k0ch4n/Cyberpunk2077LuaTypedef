@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Basic_Replicated_Property
----@field public property Bool
+---@field public ["property"] Bool
 Sample_Basic_Replicated_Property = {}
 
 ---@param fields? table

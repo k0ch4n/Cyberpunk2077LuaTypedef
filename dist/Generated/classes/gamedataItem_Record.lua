@@ -20,7 +20,7 @@ function gamedataItem_Record:AnimSetResource() return end
 ---@return CName[]
 function gamedataItem_Record:AnimationParameters() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItem_Record:AnimationParametersContains(item) return end
 
@@ -408,7 +408,7 @@ function gamedataItem_Record:GetVisualTagsItem(index) return end
 ---@return CName[]
 function gamedataItem_Record:HairSkinnedMeshComponents() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItem_Record:HairSkinnedMeshComponentsContains(item) return end
 
@@ -608,7 +608,7 @@ function gamedataItem_Record:StateMachineName() return end
 ---@return CName[]
 function gamedataItem_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItem_Record:TagsContains(item) return end
 
@@ -634,6 +634,6 @@ function gamedataItem_Record:VariantsContains(item) return end
 ---@return CName[]
 function gamedataItem_Record:VisualTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItem_Record:VisualTagsContains(item) return end

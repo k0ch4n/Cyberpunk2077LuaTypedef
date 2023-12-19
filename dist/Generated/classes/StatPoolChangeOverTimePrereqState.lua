@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class StatPoolChangeOverTimePrereqState: gamePrereqState
----@field public statPoolListener BaseStatPoolPrereqListener
----@field public ownerID gameStatsObjectID
----@field public valueToCheck Float
----@field public timeFrame Float
----@field public comparePercentage Bool
----@field public checkGain Bool
----@field public history ChangeInfoWithTimeStamp[]
----@field public GameInstance ScriptGameInstance
+---@field public ["statPoolListener"] BaseStatPoolPrereqListener
+---@field public ["ownerID"] gameStatsObjectID
+---@field public ["valueToCheck"] Float
+---@field public ["timeFrame"] Float
+---@field public ["comparePercentage"] Bool
+---@field public ["checkGain"] Bool
+---@field public ["history"] ChangeInfoWithTimeStamp[]
+---@field public ["GameInstance"] ScriptGameInstance
 StatPoolChangeOverTimePrereqState = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum questBriefingSequencePlayerFunction
 questBriefingSequencePlayerFunction = {
-    ["StartSequence"] = 0,
-    ["ChangeSequence"] = 1,
-    ["FinishSequence"] = 2
+    ["StartSequence"] = 0, ---@type Enum
+    ["ChangeSequence"] = 1, ---@type Enum
+    ["FinishSequence"] = 2, ---@type Enum
 }

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class worldCommunityRegistryNode: worldNode
----@field public spawnSetNameToCommunityID gameCommunitySpawnSetNameToID
----@field public crowdCreationRegistry gameCrowdCreationDataRegistry
----@field public communitiesData worldCommunityRegistryItem[]
----@field public workspotsPersistentData AISpotPersistentData[]
----@field public representsCrowd Bool
+---@field public ["spawnSetNameToCommunityID"] gameCommunitySpawnSetNameToID
+---@field public ["crowdCreationRegistry"] gameCrowdCreationDataRegistry
+---@field public ["communitiesData"] worldCommunityRegistryItem[]
+---@field public ["workspotsPersistentData"] AISpotPersistentData[]
+---@field public ["representsCrowd"] Bool
 worldCommunityRegistryNode = {}
 
 ---@param fields? table

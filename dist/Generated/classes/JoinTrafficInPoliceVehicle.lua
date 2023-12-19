@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class JoinTrafficInPoliceVehicle: AIVehicleTaskAbstract
----@field public vehicle vehicleBaseObject
----@field public panicDrivingCmd AIVehiclePanicCommand
+---@field public ["vehicle"] vehicleBaseObject
+---@field public ["panicDrivingCmd"] AIVehiclePanicCommand
 JoinTrafficInPoliceVehicle = {}
 
 ---@param fields? table

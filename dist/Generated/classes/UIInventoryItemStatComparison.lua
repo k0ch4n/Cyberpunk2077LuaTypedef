@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemStatComparison: IScriptable
----@field public Type gamedataStatType
----@field public Value Float
+---@field public ["Type"] gamedataStatType
+---@field public ["Value"] Float
 UIInventoryItemStatComparison = {}
 
 ---@param fields? table

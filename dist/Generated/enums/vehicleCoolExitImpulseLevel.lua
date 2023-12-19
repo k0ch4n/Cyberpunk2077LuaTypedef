@@ -3,8 +3,8 @@
 
 ---@enum vehicleCoolExitImpulseLevel
 vehicleCoolExitImpulseLevel = {
-    ["NoExit"] = 0,
-    ["NoImpulse"] = 1,
-    ["LowImpulse"] = 2,
-    ["MaxImpulse"] = 3
+    ["NoExit"] = 0, ---@type Enum
+    ["NoImpulse"] = 1, ---@type Enum
+    ["LowImpulse"] = 2, ---@type Enum
+    ["MaxImpulse"] = 3, ---@type Enum
 }

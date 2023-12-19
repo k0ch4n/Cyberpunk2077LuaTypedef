@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SceneScreen: gameObject
----@field public uiAnimationsData SceneScreenUIAnimationsData
----@field protected blackboard gameIBlackboard
+---@field public ["uiAnimationsData"] SceneScreenUIAnimationsData
+---@field protected ["blackboard"] gameIBlackboard
 SceneScreen = {}
 
 ---@param fields? table
@@ -36,6 +36,6 @@ function SceneScreen:GetBlackboard() return end
 function SceneScreen:GetUIAnimationData() return end
 
 ---@protected
----@param animName CName
+---@param animName CName|string
 ---@return nil
 function SceneScreen:SendDataToUIBlackboard(animName) return end

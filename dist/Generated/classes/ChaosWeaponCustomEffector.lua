@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ChaosWeaponCustomEffector: gameEffector
----@field public effectorOwnerID entEntityID
----@field public target gameStatsObjectID
----@field public record TweakDBID
----@field public applicationTarget CName
----@field public modGroupID Uint64
+---@field public ["effectorOwnerID"] entEntityID
+---@field public ["target"] gameStatsObjectID
+---@field public ["record"] TweakDBID
+---@field public ["applicationTarget"] CName
+---@field public ["modGroupID"] Uint64
 ChaosWeaponCustomEffector = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnEffectInstance
----@field public effectInstanceId scnEffectInstanceId
----@field public compiledEffect worldCompiledEffectInfo
+---@field public ["effectInstanceId"] scnEffectInstanceId
+---@field public ["compiledEffect"] worldCompiledEffectInfo
 scnEffectInstance = {}
 
 ---@param fields? table

@@ -3,14 +3,14 @@
 
 ---@enum gamedataHackCategory
 gamedataHackCategory = {
-    ["BreachingHack"] = 0,
-    ["ControlHack"] = 1,
-    ["CovertHack"] = 2,
-    ["DamageHack"] = 3,
-    ["DeviceHack"] = 4,
-    ["NotAHack"] = 5,
-    ["UltimateHack"] = 6,
-    ["VehicleHack"] = 7,
-    ["Count"] = 8,
-    ["Invalid"] = 9
+    ["BreachingHack"] = 0, ---@type Enum
+    ["ControlHack"] = 1, ---@type Enum
+    ["CovertHack"] = 2, ---@type Enum
+    ["DamageHack"] = 3, ---@type Enum
+    ["DeviceHack"] = 4, ---@type Enum
+    ["NotAHack"] = 5, ---@type Enum
+    ["UltimateHack"] = 6, ---@type Enum
+    ["VehicleHack"] = 7, ---@type Enum
+    ["Count"] = 8, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

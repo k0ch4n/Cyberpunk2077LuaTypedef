@@ -3,7 +3,7 @@
 
 ---@enum vehicleVehicleDoorState
 vehicleVehicleDoorState = {
-    ["Closed"] = 0,
-    ["Open"] = 1,
-    ["Detached"] = 2
+    ["Closed"] = 0, ---@type Enum
+    ["Open"] = 1, ---@type Enum
+    ["Detached"] = 2, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AutocraftSystem: gameScriptableSystem
----@field private active Bool
----@field private cycleDuration Float
----@field private currentDelayID gameDelayID
----@field private itemsUsed gameItemID[]
+---@field private ["active"] Bool
+---@field private ["cycleDuration"] Float
+---@field private ["currentDelayID"] gameDelayID
+---@field private ["itemsUsed"] gameItemID[]
 AutocraftSystem = {}
 
 ---@param fields? table

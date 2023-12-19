@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameActionHitReactionState: gameActionReplicatedState
----@field public animFeature animAnimFeature_HitReactionsData
+---@field public ["animFeature"] animAnimFeature_HitReactionsData
 gameActionHitReactionState = {}
 
 ---@param fields? table

@@ -3,10 +3,10 @@
 
 ---@enum inkFocusCause
 inkFocusCause = {
-    ["Mouse"] = 0,
-    ["Navigation"] = 1,
-    ["SetDirectly"] = 2,
-    ["Cleared"] = 3,
-    ["OtherWidgetLostFocus"] = 4,
-    ["WindowActivate"] = 5
+    ["Mouse"] = 0, ---@type Enum
+    ["Navigation"] = 1, ---@type Enum
+    ["SetDirectly"] = 2, ---@type Enum
+    ["Cleared"] = 3, ---@type Enum
+    ["OtherWidgetLostFocus"] = 4, ---@type Enum
+    ["WindowActivate"] = 5, ---@type Enum
 }

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameScanningComponentPS: gameComponentPS
----@field public scanningState gameScanningState
----@field public pctScanned Float
----@field public isBlocked Bool
----@field private storedClues CluePSData[]
----@field private isScanningDisabled Bool
----@field private isDecriptionEnabled Bool
----@field private objectDescriptionOverride ObjectScanningDescription
+---@field public ["scanningState"] gameScanningState
+---@field public ["pctScanned"] Float
+---@field public ["isBlocked"] Bool
+---@field private ["storedClues"] CluePSData[]
+---@field private ["isScanningDisabled"] Bool
+---@field private ["isDecriptionEnabled"] Bool
+---@field private ["objectDescriptionOverride"] ObjectScanningDescription
 gameScanningComponentPS = {}
 
 ---@param fields? table

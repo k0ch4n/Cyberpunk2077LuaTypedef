@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatusEffectEvents: LocomotionGroundEvents
----@field public statusEffectRecord gamedataStatusEffect_Record
----@field public playerStatusEffectRecordData gamedataStatusEffectPlayerData_Record
----@field public animFeatureStatusEffect AnimFeature_StatusEffect
----@field private statusEffectEnumName String
+---@field public ["statusEffectRecord"] gamedataStatusEffect_Record
+---@field public ["playerStatusEffectRecordData"] gamedataStatusEffectPlayerData_Record
+---@field public ["animFeatureStatusEffect"] AnimFeature_StatusEffect
+---@field private ["statusEffectEnumName"] String
 StatusEffectEvents = {}
 
 ---@param fields? table

@@ -17,7 +17,7 @@ function gameWorkspotGameSystem:GetDeviceUser(deviceID) return end
 function gameWorkspotGameSystem:GetExtendedInfo(actor) return end
 
 ---@param actor gameObject
----@param animName CName
+---@param animName CName|string
 ---@return Int32
 function gameWorkspotGameSystem:GetIdOfExitAnim(actor, animName) return end
 
@@ -38,12 +38,12 @@ function gameWorkspotGameSystem:IsActorInWorkspot(actor) return end
 
 ---@param vehicle gameObject
 ---@param child gameObject
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function gameWorkspotGameSystem:IsInVehicleWorkspot(vehicle, child, slotName) return end
 
 ---@param actor gameObject
----@param reactionName CName
+---@param reactionName CName|string
 ---@return Bool
 function gameWorkspotGameSystem:IsReactionAvailable(actor, reactionName) return end
 
@@ -55,20 +55,20 @@ function gameWorkspotGameSystem:IsWorkspotEnabled(actor) return end
 ---@param child gameObject
 ---@param slideTime Float
 ---@param animDelay Float
----@param workspotResourceContainer CName
----@param slotName CName
+---@param workspotResourceContainer CName|string
+---@param slotName CName|string
 ---@param syncronizedObjects? entEntityID[]
----@param entrySlotName? CName
----@param animVariables? CName[]
+---@param entrySlotName? CName|string
+---@param animVariables? CName[]|string[]
 ---@return Bool
 function gameWorkspotGameSystem:MountToVehicle(parent, child, slideTime, animDelay, workspotResourceContainer, slotName, syncronizedObjects, entrySlotName, animVariables) return end
 
 ---@param device gameObject
 ---@param actor gameObject
----@param workspotStateFlavourName? CName
----@param actorDataCompName? CName
----@param deviceDataCompName? CName
----@param syncSlotName? CName
+---@param workspotStateFlavourName? CName|string
+---@param actorDataCompName? CName|string
+---@param deviceDataCompName? CName|string
+---@param syncSlotName? CName|string
 ---@param slideTime? Float
 ---@param slideBehaviour? gameWorkspotSlidingBehaviour
 ---@param callbackEventRecipient? entEntity
@@ -78,9 +78,9 @@ function gameWorkspotGameSystem:PlayInDevice(device, actor, workspotStateFlavour
 ---@param device gameObject
 ---@param actor gameObject
 ---@param allowCameraMov Bool
----@param actorDataCompName? CName
----@param deviceDataCompName? CName
----@param syncSlotName? CName
+---@param actorDataCompName? CName|string
+---@param deviceDataCompName? CName|string
+---@param syncSlotName? CName|string
 ---@param slideTime? Float
 ---@param slideBehaviour? gameWorkspotSlidingBehaviour
 ---@param callbackEventRecipient? entEntity
@@ -90,10 +90,10 @@ function gameWorkspotGameSystem:PlayInDeviceSimple(device, actor, allowCameraMov
 ---@param npc gameObject
 ---@param master gameObject
 ---@param referenceEntity gameObject
----@param actorDataCompName CName
----@param syncSlotName? CName
+---@param actorDataCompName CName|string
+---@param syncSlotName? CName|string
 ---@param slideTime? Float
----@param syncOffsetSourceCompName? CName
+---@param syncOffsetSourceCompName? CName|string
 ---@return nil
 function gameWorkspotGameSystem:PlayNpcInWorkspot(npc, master, referenceEntity, actorDataCompName, syncSlotName, slideTime, syncOffsetSourceCompName) return end
 
@@ -127,7 +127,7 @@ function gameWorkspotGameSystem:SendDynamicSyncBindSignal(actor, master) return 
 function gameWorkspotGameSystem:SendDynamicSyncUnbindSignal(actor) return end
 
 ---@param actor gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@return Bool
 function gameWorkspotGameSystem:SendEventToConnectedSpots(actor, eventName) return end
 
@@ -151,13 +151,13 @@ function gameWorkspotGameSystem:SendForwardSignal(actor) return end
 function gameWorkspotGameSystem:SendJumpCommandEnt(actor, entryId, instant) return end
 
 ---@param actor gameObject
----@param animName CName
+---@param animName CName|string
 ---@param instant Bool
 ---@return nil
 function gameWorkspotGameSystem:SendJumpToAnimEnt(actor, animName, instant) return end
 
 ---@param actor gameObject
----@param entryTag CName
+---@param entryTag CName|string
 ---@param instant Bool
 ---@param deviceId? entEntityID
 ---@return nil
@@ -168,12 +168,12 @@ function gameWorkspotGameSystem:SendJumpToTagCommandEnt(actor, entryTag, instant
 function gameWorkspotGameSystem:SendPlaySignal(actor) return end
 
 ---@param actor gameObject
----@param reactionName CName
+---@param reactionName CName|string
 ---@return Bool
 function gameWorkspotGameSystem:SendReactionSignal(actor, reactionName) return end
 
 ---@param actor gameObject
----@param animationName? CName
+---@param animationName? CName|string
 ---@param dontWaitForCurrentAnimationToFinish? Bool
 ---@return nil
 function gameWorkspotGameSystem:SendSlowExitSignal(actor, animationName, dontWaitForCurrentAnimationToFinish) return end
@@ -190,11 +190,11 @@ function gameWorkspotGameSystem:StopNpcInWorkspot(actor) return end
 
 ---@param parent gameObject
 ---@param child gameObject
----@param workspotResourceContainer CName
----@param slotName CName
----@param exitSlotName? CName
----@param activateAnimVariables? CName[]
----@param deactivateAnimVariables? CName[]
+---@param workspotResourceContainer CName|string
+---@param slotName CName|string
+---@param exitSlotName? CName|string
+---@param activateAnimVariables? CName[]|string[]
+---@param deactivateAnimVariables? CName[]|string[]
 ---@return nil
 function gameWorkspotGameSystem:SwitchSeatVehicle(parent, child, workspotResourceContainer, slotName, exitSlotName, activateAnimVariables, deactivateAnimVariables) return end
 
@@ -208,6 +208,6 @@ function gameWorkspotGameSystem:SynchronizeItemWithOwner(item, owner) return end
 ---@param instant? Bool
 ---@param posDelta? Vector4
 ---@param orientDelta? Quaternion
----@param exitSlotName? CName
+---@param exitSlotName? CName|string
 ---@return nil
 function gameWorkspotGameSystem:UnmountFromVehicle(parent, child, instant, posDelta, orientDelta, exitSlotName) return end

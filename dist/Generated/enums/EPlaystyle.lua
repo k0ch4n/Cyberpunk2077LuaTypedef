@@ -3,7 +3,7 @@
 
 ---@enum EPlaystyle
 EPlaystyle = {
-    ["NETRUNNER"] = 0,
-    ["SOLO"] = 1,
-    ["TECHIE"] = 2
+    ["NETRUNNER"] = 0, ---@type Enum
+    ["SOLO"] = 1, ---@type Enum
+    ["TECHIE"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAppearance: AIActionHelperTask
----@field public appearance CName
+---@field public ["appearance"] CName
 SetAppearance = {}
 
 ---@param fields? table
@@ -16,6 +16,6 @@ function SetAppearance:Activate(context) return end
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param appearance CName
+---@param appearance CName|string
 ---@return nil
 function SetAppearance:ApplyAppearance(context, appearance) return end

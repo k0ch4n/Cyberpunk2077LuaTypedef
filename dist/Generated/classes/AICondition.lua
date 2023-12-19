@@ -540,7 +540,7 @@ function AICondition.IsAwareOfBeingFlankedByThreat(ownerPuppet, threat) return e
 ---@return Bool
 function AICondition.NextPhaseCheck(context, phase, actionRecord) return end
 
----@param conditionName CName
+---@param conditionName CName|string
 ---@return nil
 function AICondition.OnCantFindProperCheck(conditionName) return end
 

@@ -3,10 +3,10 @@
 
 ---@enum PauseMenuAction
 PauseMenuAction = {
-    ["OpenSubMenu"] = 0,
-    ["QuickSave"] = 1,
-    ["Save"] = 2,
-    ["ExitGame"] = 3,
-    ["ExitToMainMenu"] = 4,
-    ["QuickLoad"] = 5
+    ["OpenSubMenu"] = 0, ---@type Enum
+    ["QuickSave"] = 1, ---@type Enum
+    ["Save"] = 2, ---@type Enum
+    ["ExitGame"] = 3, ---@type Enum
+    ["ExitToMainMenu"] = 4, ---@type Enum
+    ["QuickLoad"] = 5, ---@type Enum
 }

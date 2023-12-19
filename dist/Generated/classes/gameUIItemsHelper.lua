@@ -28,11 +28,11 @@ function gameUIItemsHelper.QualityEnumToString(quality) return end
 ---@return CName
 function gameUIItemsHelper.QualityIntToName(quality) return end
 
----@param quality CName
+---@param quality CName|string
 ---@return gamedataQuality
 function gameUIItemsHelper.QualityNameToEnum(quality) return end
 
----@param quality CName
+---@param quality CName|string
 ---@return Int32
 function gameUIItemsHelper.QualityNameToInt(quality) return end
 

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class VehicleDeathTask: AIDeathReactionsTask
----@field public vehNPCDeathData AnimFeature_VehicleNPCDeathData
----@field public previousState gamedataNPCHighLevelState
----@field public timeToRagdoll Float
----@field public hasRagdolled Bool
----@field public activationTimeStamp Float
----@field private readyToUnmount Bool
+---@field public ["vehNPCDeathData"] AnimFeature_VehicleNPCDeathData
+---@field public ["previousState"] gamedataNPCHighLevelState
+---@field public ["timeToRagdoll"] Float
+---@field public ["hasRagdolled"] Bool
+---@field public ["activationTimeStamp"] Float
+---@field private ["readyToUnmount"] Bool
 VehicleDeathTask = {}
 
 ---@param fields? table
@@ -45,7 +45,7 @@ function VehicleDeathTask:PlayHitReactionAction(context) return end
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param eventName CName
+---@param eventName CName|string
 ---@return Bool
 function VehicleDeathTask:SendAIEventToMountedVehicle(context, eventName) return end
 

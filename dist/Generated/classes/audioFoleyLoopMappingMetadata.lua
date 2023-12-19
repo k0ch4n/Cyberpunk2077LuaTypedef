@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioFoleyLoopMappingMetadata: audioAudioMetadata
----@field public loopsPerAppearance audioAppearanceToFoleyLoopMetadata[]
----@field public loopsPerVisualTag audioVisualTagToFoleyLoopMetadata[]
+---@field public ["loopsPerAppearance"] audioAppearanceToFoleyLoopMetadata[]
+---@field public ["loopsPerVisualTag"] audioVisualTagToFoleyLoopMetadata[]
 audioFoleyLoopMappingMetadata = {}
 
 ---@param fields? table

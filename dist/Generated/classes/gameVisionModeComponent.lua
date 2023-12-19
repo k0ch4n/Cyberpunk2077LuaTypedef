@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeComponent: gameComponent
----@field private defaultHighlightData HighlightEditableData
----@field private forcedHighlights FocusForcedHighlightData[]
----@field private activeForcedHighlight FocusForcedHighlightData
----@field private currentDefaultHighlight FocusForcedHighlightData
----@field private activeRevealRequests gameVisionModeSystemRevealIdentifier[]
----@field private isFocusModeActive Bool
----@field private wasCleanedUp Bool
----@field private slaveObjectsToHighlight entEntityID[]
+---@field private ["defaultHighlightData"] HighlightEditableData
+---@field private ["forcedHighlights"] FocusForcedHighlightData[]
+---@field private ["activeForcedHighlight"] FocusForcedHighlightData
+---@field private ["currentDefaultHighlight"] FocusForcedHighlightData
+---@field private ["activeRevealRequests"] gameVisionModeSystemRevealIdentifier[]
+---@field private ["isFocusModeActive"] Bool
+---@field private ["wasCleanedUp"] Bool
+---@field private ["slaveObjectsToHighlight"] entEntityID[]
 gameVisionModeComponent = {}
 
 ---@param fields? table
@@ -177,7 +177,7 @@ function gameVisionModeComponent:HasForcedHighlightOnStack(data) return end
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@param sourceID entEntityID
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function gameVisionModeComponent:HasHighlight(highlightType, outlineType, sourceID, sourceName) return end
 
@@ -275,7 +275,7 @@ function gameVisionModeComponent:RevealObject(reveal, reason, lifetime, onlyReve
 function gameVisionModeComponent:SendRevealStateChangedEvent(state, reason, onlyRevealWeakspots) return end
 
 ---@private
----@param sourceName CName
+---@param sourceName CName|string
 ---@param highlightData HighlightEditableData
 ---@param operation EToggleOperationType
 ---@return nil

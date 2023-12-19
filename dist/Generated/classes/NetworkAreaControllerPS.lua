@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class NetworkAreaControllerPS: MasterControllerPS
----@field private isActive Bool
----@field private visualizerID Uint32
----@field private hudActivated Bool
----@field private currentlyAvailableCharges Int32
----@field private maxAvailableCharges Int32
+---@field private ["isActive"] Bool
+---@field private ["visualizerID"] Uint32
+---@field private ["hudActivated"] Bool
+---@field private ["currentlyAvailableCharges"] Int32
+---@field private ["maxAvailableCharges"] Int32
 NetworkAreaControllerPS = {}
 
 ---@param fields? table

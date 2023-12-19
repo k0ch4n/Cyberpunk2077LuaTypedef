@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiDeleteInputHintBySourceEvent: redEvent
----@field public source CName
----@field public targetHintContainer CName
+---@field public ["source"] CName
+---@field public ["targetHintContainer"] CName
 gameuiDeleteInputHintBySourceEvent = {}
 
 ---@param fields? table

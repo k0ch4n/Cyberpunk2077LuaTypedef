@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questCharacterEquippedWeapon_ConditionType: questICharacterConditionType
----@field public anyWeaponEquipped Bool
----@field public weaponID String
----@field public weaponTag CName
----@field public inverted Bool
+---@field public ["anyWeaponEquipped"] Bool
+---@field public ["weaponID"] String
+---@field public ["weaponTag"] CName
+---@field public ["inverted"] Bool
 questCharacterEquippedWeapon_ConditionType = {}
 
 ---@param fields? table

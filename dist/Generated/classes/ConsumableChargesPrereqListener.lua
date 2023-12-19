@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConsumableChargesPrereqListener: gameScriptStatPoolsListener
----@field protected state ConsumableChargesPrereqState
+---@field protected ["state"] ConsumableChargesPrereqState
 ConsumableChargesPrereqListener = {}
 
 ---@param fields? table

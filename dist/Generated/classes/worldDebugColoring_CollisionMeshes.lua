@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_CollisionMeshes: worldEditorDebugColoringSettings
----@field public defaultColor Color
----@field public prefabColor Color
----@field public collisionMeshColor Color
+---@field public ["defaultColor"] Color
+---@field public ["prefabColor"] Color
+---@field public ["collisionMeshColor"] Color
 worldDebugColoring_CollisionMeshes = {}
 
 ---@param fields? table

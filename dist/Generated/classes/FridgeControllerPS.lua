@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FridgeControllerPS: ScriptableDeviceComponentPS
----@field private isOpen Bool
+---@field private ["isOpen"] Bool
 FridgeControllerPS = {}
 
 ---@param fields? table

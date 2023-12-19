@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAmbientPaletteExclusionAreaNode: worldAreaShapeNode
----@field public exclusionPaletteEntries audioAmbientPaletteEntry[]
+---@field public ["exclusionPaletteEntries"] audioAmbientPaletteEntry[]
 worldAmbientPaletteExclusionAreaNode = {}
 
 ---@param fields? table

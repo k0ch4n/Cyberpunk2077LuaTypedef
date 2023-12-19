@@ -13,12 +13,12 @@ function MenuScenario_BodyTypeSelection.new(fields) return end
 function MenuScenario_BodyTypeSelection:OnAccept() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_BodyTypeSelection:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_BodyTypeSelection:OnLeaveScenario(nextScenario) return end

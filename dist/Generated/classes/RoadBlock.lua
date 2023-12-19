@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class RoadBlock: InteractiveDevice
----@field public openingSpeed Float
----@field private coverObjectRefs NodeRef[]
----@field protected animationController entAnimationControllerComponent
----@field protected offMeshConnection AIOffMeshConnectionComponent
----@field private animFeature AnimFeature_RoadBlock
----@field protected animationType EAnimationType
----@field protected forceEnableLink Bool
----@field private globalCoverObjectRefs worldGlobalNodeRef[]
----@field private areGlobalCoverRefsInitialized Bool
+---@field public ["openingSpeed"] Float
+---@field private ["coverObjectRefs"] NodeRef[]
+---@field protected ["animationController"] entAnimationControllerComponent
+---@field protected ["offMeshConnection"] AIOffMeshConnectionComponent
+---@field private ["animFeature"] AnimFeature_RoadBlock
+---@field protected ["animationType"] EAnimationType
+---@field protected ["forceEnableLink"] Bool
+---@field private ["globalCoverObjectRefs"] worldGlobalNodeRef[]
+---@field private ["areGlobalCoverRefsInitialized"] Bool
 RoadBlock = {}
 
 ---@param fields? table

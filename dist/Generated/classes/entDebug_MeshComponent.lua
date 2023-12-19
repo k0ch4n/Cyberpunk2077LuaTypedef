@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entDebug_MeshComponent: entMeshComponent
----@field public filterName String
+---@field public ["filterName"] String
 entDebug_MeshComponent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectEffectParameterEvaluatorVector
----@field public evaluator IEvaluatorVector
----@field public inputParameterOverride CName
+---@field public ["evaluator"] IEvaluatorVector
+---@field public ["inputParameterOverride"] CName
 effectEffectParameterEvaluatorVector = {}
 
 ---@param fields? table

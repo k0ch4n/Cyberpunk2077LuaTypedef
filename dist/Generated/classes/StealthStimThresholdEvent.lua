@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StealthStimThresholdEvent: redEvent
----@field public reset Bool
----@field public timeThreshold Float
+---@field public ["reset"] Bool
+---@field public ["timeThreshold"] Float
 StealthStimThresholdEvent = {}
 
 ---@param fields? table

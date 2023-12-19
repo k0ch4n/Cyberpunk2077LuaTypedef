@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class characterCreationSummaryListItem: inkListItemController
----@field public headerLabel inkTextWidgetReference
----@field public descLabel inkTextWidgetReference
----@field public data CharacterCreationSummaryListItemData
+---@field public ["headerLabel"] inkTextWidgetReference
+---@field public ["descLabel"] inkTextWidgetReference
+---@field public ["data"] CharacterCreationSummaryListItemData
 characterCreationSummaryListItem = {}
 
 ---@param fields? table

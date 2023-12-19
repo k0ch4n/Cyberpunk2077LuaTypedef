@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioFootstepDecalMaterialEntry
----@field public materialTag CName
----@field public eventsByLocomotionState audioLocomotionStateEventDictionary
+---@field public ["materialTag"] CName
+---@field public ["eventsByLocomotionState"] audioLocomotionStateEventDictionary
 audioFootstepDecalMaterialEntry = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMovementPolicyTaskItemDefinition: ISerializable
----@field public function AIbehaviorMovementPolicyTaskFunctions
----@field public params AIbehaviorExpressionSocket
+---@field public ["function"] AIbehaviorMovementPolicyTaskFunctions
+---@field public ["params"] AIbehaviorExpressionSocket
 AIbehaviorMovementPolicyTaskItemDefinition = {}
 
 ---@param fields? table

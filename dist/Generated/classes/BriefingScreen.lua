@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BriefingScreen: gameuiHUDGameController
----@field public logicControllerRef inkWidgetReference
----@field protected journalManager gameJournalManager
----@field private bbOpenerEventID redCallbackObject
----@field private bbSizeEventID redCallbackObject
----@field private bbAlignmentEventID redCallbackObject
+---@field public ["logicControllerRef"] inkWidgetReference
+---@field protected ["journalManager"] gameJournalManager
+---@field private ["bbOpenerEventID"] redCallbackObject
+---@field private ["bbSizeEventID"] redCallbackObject
+---@field private ["bbAlignmentEventID"] redCallbackObject
 BriefingScreen = {}
 
 ---@param fields? table

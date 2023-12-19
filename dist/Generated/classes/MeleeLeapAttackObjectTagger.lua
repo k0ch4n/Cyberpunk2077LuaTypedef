@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class MeleeLeapAttackObjectTagger: IScriptable
----@field private game ScriptGameInstance
----@field private playerPuppet gameObject
----@field private playerDevelopmentData PlayerDevelopmentData
----@field private visionModeSystem gameVisionModeSystem
----@field private target gameObject
----@field private minDistanceToTarget Float
+---@field private ["game"] ScriptGameInstance
+---@field private ["playerPuppet"] gameObject
+---@field private ["playerDevelopmentData"] PlayerDevelopmentData
+---@field private ["visionModeSystem"] gameVisionModeSystem
+---@field private ["target"] gameObject
+---@field private ["minDistanceToTarget"] Float
 MeleeLeapAttackObjectTagger = {}
 
 ---@param fields? table

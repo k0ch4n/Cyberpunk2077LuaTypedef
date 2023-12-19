@@ -13,7 +13,7 @@ function MenuScenario_E3EndMenu.new(fields) return end
 function MenuScenario_E3EndMenu:OnCloseDeathMenu() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_E3EndMenu:OnEnterScenario(prevScenario, userData) return end

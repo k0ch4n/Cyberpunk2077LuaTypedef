@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GamplayQuestData: IScriptable
----@field public questUniqueID String
----@field public objectives GemplayObjectiveData[]
+---@field public ["questUniqueID"] String
+---@field public ["objectives"] GemplayObjectiveData[]
 GamplayQuestData = {}
 
 ---@param fields? table

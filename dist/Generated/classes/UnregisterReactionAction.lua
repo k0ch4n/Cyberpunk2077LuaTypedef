@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnregisterReactionAction: AIbehaviortaskScript
----@field public reactionName CName
----@field public onDeactivation Bool
+---@field public ["reactionName"] CName
+---@field public ["onDeactivation"] Bool
 UnregisterReactionAction = {}
 
 ---@param fields? table

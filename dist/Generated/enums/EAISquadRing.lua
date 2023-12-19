@@ -3,10 +3,10 @@
 
 ---@enum EAISquadRing
 EAISquadRing = {
-    ["Invalid"] = 0,
-    ["Melee"] = 1,
-    ["Close"] = 2,
-    ["Medium"] = 3,
-    ["Far"] = 4,
-    ["Extreme"] = 5
+    ["Invalid"] = 0, ---@type Enum
+    ["Melee"] = 1, ---@type Enum
+    ["Close"] = 2, ---@type Enum
+    ["Medium"] = 3, ---@type Enum
+    ["Far"] = 4, ---@type Enum
+    ["Extreme"] = 5, ---@type Enum
 }

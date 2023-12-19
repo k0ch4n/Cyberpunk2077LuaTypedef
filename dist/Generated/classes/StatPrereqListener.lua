@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatPrereqListener: gameScriptStatsListener
----@field protected state StatPrereqState
+---@field protected ["state"] StatPrereqState
 StatPrereqListener = {}
 
 ---@param fields? table

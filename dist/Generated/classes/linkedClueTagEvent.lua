@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class linkedClueTagEvent: redEvent
----@field public tag Bool
----@field public requesterID entEntityID
+---@field public ["tag"] Bool
+---@field public ["requesterID"] entEntityID
 linkedClueTagEvent = {}
 
 ---@param fields? table

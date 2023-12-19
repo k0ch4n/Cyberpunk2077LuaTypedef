@@ -3,7 +3,7 @@
 
 ---@enum gamePSMStamina
 gamePSMStamina = {
-    ["Rested"] = 0,
-    ["Fatigued"] = 1,
-    ["Exhausted"] = 2
+    ["Rested"] = 0, ---@type Enum
+    ["Fatigued"] = 1, ---@type Enum
+    ["Exhausted"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioPlaylistTrackEventStruct
----@field public playlistName CName
----@field public trackName CName
+---@field public ["playlistName"] CName
+---@field public ["trackName"] CName
 audioPlaylistTrackEventStruct = {}
 
 ---@param fields? table

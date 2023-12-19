@@ -3,11 +3,11 @@
 
 ---@enum AICommandState
 AICommandState = {
-    ["NotExecuting"] = 0,
-    ["Enqueued"] = 1,
-    ["Executing"] = 2,
-    ["Cancelled"] = 3,
-    ["Interrupted"] = 4,
-    ["Success"] = 5,
-    ["Failure"] = 6
+    ["NotExecuting"] = 0, ---@type Enum
+    ["Enqueued"] = 1, ---@type Enum
+    ["Executing"] = 2, ---@type Enum
+    ["Cancelled"] = 3, ---@type Enum
+    ["Interrupted"] = 4, ---@type Enum
+    ["Success"] = 5, ---@type Enum
+    ["Failure"] = 6, ---@type Enum
 }

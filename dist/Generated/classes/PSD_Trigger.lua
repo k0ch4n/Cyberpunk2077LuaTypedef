@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PSD_Trigger: gameObject
----@field public ref NodeRef
----@field public className CName
+---@field public ["ref"] NodeRef
+---@field public ["className"] CName
 PSD_Trigger = {}
 
 ---@param fields? table

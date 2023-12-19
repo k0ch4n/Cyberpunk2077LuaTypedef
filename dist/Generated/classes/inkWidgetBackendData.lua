@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkWidgetBackendData: IBackendData
----@field public owner inkWidget
----@field public isHiddenInEditor Bool
----@field public isLocked Bool
----@field public boundLibraryItemName CName
+---@field public ["owner"] inkWidget
+---@field public ["isHiddenInEditor"] Bool
+---@field public ["isLocked"] Bool
+---@field public ["boundLibraryItemName"] CName
 inkWidgetBackendData = {}
 
 ---@param fields? table

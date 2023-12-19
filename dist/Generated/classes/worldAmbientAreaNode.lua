@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAmbientAreaNode: worldTriggerAreaNode
----@field public useCustomColor Bool
+---@field public ["useCustomColor"] Bool
 worldAmbientAreaNode = {}
 
 ---@param fields? table

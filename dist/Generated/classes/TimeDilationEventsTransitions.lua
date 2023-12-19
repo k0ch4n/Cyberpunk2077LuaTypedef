@@ -23,28 +23,28 @@ function TimeDilationEventsTransitions:OnExit(stateContext, scriptInterface) ret
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param curveName CName
+---@param curveName CName|string
 ---@return nil
 function TimeDilationEventsTransitions:SetCameraTimeDilationCurve(stateContext, scriptInterface, curveName) return end
 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param reason CName
+---@param reason CName|string
 ---@param timeDilation Float
 ---@param duration? Float
----@param easeInCurve? CName
----@param easeOutCurve? CName
+---@param easeInCurve? CName|string
+---@param easeOutCurve? CName|string
 ---@param listener? tickScriptTimeDilationListener
 ---@return nil
 function TimeDilationEventsTransitions:SetTimeDilationGlobal(stateContext, scriptInterface, reason, timeDilation, duration, easeInCurve, easeOutCurve, listener) return end
 
 ---@protected
----@param reason CName
+---@param reason CName|string
 ---@param timeDilation Float
 ---@param duration? Float
----@param easeInCurve CName
----@param easeOutCurve CName
+---@param easeInCurve CName|string
+---@param easeOutCurve CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
@@ -53,7 +53,7 @@ function TimeDilationEventsTransitions:SetTimeDilationOnLocalPlayer(reason, time
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param reason CName
----@param easeOutCurve? CName
+---@param reason CName|string
+---@param easeOutCurve? CName|string
 ---@return nil
 function TimeDilationEventsTransitions:UnsetTimeDilation(stateContext, scriptInterface, reason, easeOutCurve) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialArea: inkWidgetLogicController
----@field public bracketID CName
+---@field public ["bracketID"] CName
 gameuiTutorialArea = {}
 
 ---@param fields? table

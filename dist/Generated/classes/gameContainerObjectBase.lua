@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameContainerObjectBase: gameLootContainerBase
----@field public giveHandicapAmmo Bool
----@field protected lockedByKey TweakDBID
+---@field public ["giveHandicapAmmo"] Bool
+---@field protected ["lockedByKey"] TweakDBID
 gameContainerObjectBase = {}
 
 ---@param fields? table
@@ -25,7 +25,7 @@ function gameContainerObjectBase:OnToggleContainerLockEvent(evt) return end
 function gameContainerObjectBase:IsLocked(activator) return end
 
 ---@private
----@param layerTag CName
+---@param layerTag CName|string
 ---@return Bool
 function gameContainerObjectBase:IsQualityRangeInteractionLayer(layerTag) return end
 

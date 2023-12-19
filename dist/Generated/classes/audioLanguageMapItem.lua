@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioLanguageMapItem: audioAudioMetadata
----@field public language audioLanguage
+---@field public ["language"] audioLanguage
 audioLanguageMapItem = {}
 
 ---@param fields? table

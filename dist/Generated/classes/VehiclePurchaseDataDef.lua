@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehiclePurchaseDataDef: gamebbScriptDefinition
----@field public PurchasedVehicleRecordID gamebbScriptID_Variant
+---@field public ["PurchasedVehicleRecordID"] gamebbScriptID_Variant
 VehiclePurchaseDataDef = {}
 
 ---@param fields? table

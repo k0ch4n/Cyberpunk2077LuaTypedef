@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PerkDeviceMappinData: IScriptable
----@field private ownerID entEntityID
----@field private isUsed Bool
----@field private position Vector4
----@field private mappinID gameNewMappinID
+---@field private ["ownerID"] entEntityID
+---@field private ["isUsed"] Bool
+---@field private ["position"] Vector4
+---@field private ["mappinID"] gameNewMappinID
 PerkDeviceMappinData = {}
 
 ---@param fields? table

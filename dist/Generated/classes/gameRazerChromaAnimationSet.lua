@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameRazerChromaAnimationSet
----@field public name CName
----@field public animations gameRazerChromaAnimation[]
+---@field public ["name"] CName
+---@field public ["animations"] gameRazerChromaAnimation[]
 gameRazerChromaAnimationSet = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum EPersonalLinkSlotSide
 EPersonalLinkSlotSide = {
-    ["FRONT"] = 0,
-    ["RIGHT"] = 1,
-    ["BOTTOM"] = 2
+    ["FRONT"] = 0, ---@type Enum
+    ["RIGHT"] = 1, ---@type Enum
+    ["BOTTOM"] = 2, ---@type Enum
 }

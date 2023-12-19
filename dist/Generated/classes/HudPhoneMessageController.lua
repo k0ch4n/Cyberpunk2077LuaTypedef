@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class HudPhoneMessageController: HUDPhoneElement
----@field private MessageText inkTextWidgetReference
----@field private MessageAnim inkanimProxy
----@field private ShowingAnimationName CName
----@field private HidingAnimationName CName
----@field private VisibleAnimationName CName
----@field private MessageMaxLength Int32
----@field private MessageTopper String
----@field private Paused Bool
----@field private CurrentMessage gameJournalPhoneMessage
----@field private Queue gameJournalPhoneMessage[]
+---@field private ["MessageText"] inkTextWidgetReference
+---@field private ["MessageAnim"] inkanimProxy
+---@field private ["ShowingAnimationName"] CName
+---@field private ["HidingAnimationName"] CName
+---@field private ["VisibleAnimationName"] CName
+---@field private ["MessageMaxLength"] Int32
+---@field private ["MessageTopper"] String
+---@field private ["Paused"] Bool
+---@field private ["CurrentMessage"] gameJournalPhoneMessage
+---@field private ["Queue"] gameJournalPhoneMessage[]
 HudPhoneMessageController = {}
 
 ---@param fields? table
@@ -25,8 +25,8 @@ function HudPhoneMessageController:OnAnimationFinished(anim) return end
 
 ---@protected
 ---@param widget inkWidget
----@param oldState CName
----@param newState CName
+---@param oldState CName|string
+---@param newState CName|string
 ---@return Bool
 function HudPhoneMessageController:OnStateChanged(widget, oldState, newState) return end
 

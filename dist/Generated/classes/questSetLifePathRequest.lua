@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetLifePathRequest: gamePlayerScriptableSystemRequest
----@field public lifePathID TweakDBID
+---@field public ["lifePathID"] TweakDBID
 questSetLifePathRequest = {}
 
 ---@param fields? table

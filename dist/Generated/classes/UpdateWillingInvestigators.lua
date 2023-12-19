@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateWillingInvestigators: redEvent
----@field public investigator entEntityID
+---@field public ["investigator"] entEntityID
 UpdateWillingInvestigators = {}
 
 ---@param fields? table

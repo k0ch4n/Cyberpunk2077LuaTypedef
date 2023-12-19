@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioDynamicEventsPerVisualTags
----@field public visualTags CName[]
----@field public grunts audioDynamicEventsWithInterval[]
+---@field public ["visualTags"] CName[]
+---@field public ["grunts"] audioDynamicEventsWithInterval[]
 audioDynamicEventsPerVisualTags = {}
 
 ---@param fields? table

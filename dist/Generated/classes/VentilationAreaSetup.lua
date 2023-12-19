@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VentilationAreaSetup
----@field public areaEffect ETrapEffects
----@field public actionName CName
+---@field public ["areaEffect"] ETrapEffects
+---@field public ["actionName"] CName
 VentilationAreaSetup = {}
 
 ---@param fields? table

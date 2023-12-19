@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleStreamFeed: ActionBool
----@field public vRoomFake Bool
+---@field public ["vRoomFake"] Bool
 ToggleStreamFeed = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsColliderSphere: physicsICollider
----@field public radius Float
+---@field public ["radius"] Float
 physicsColliderSphere = {}
 
 ---@param fields? table

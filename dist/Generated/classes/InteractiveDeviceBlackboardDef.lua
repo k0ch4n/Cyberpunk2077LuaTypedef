@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InteractiveDeviceBlackboardDef: DeviceBaseBlackboardDef
----@field public showAd gamebbScriptID_Bool
----@field public showVendor gamebbScriptID_Bool
+---@field public ["showAd"] gamebbScriptID_Bool
+---@field public ["showVendor"] gamebbScriptID_Bool
 InteractiveDeviceBlackboardDef = {}
 
 ---@param fields? table

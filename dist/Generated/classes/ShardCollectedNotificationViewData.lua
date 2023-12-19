@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ShardCollectedNotificationViewData: gameuiGenericNotificationViewData
----@field public entry gameJournalOnscreen
----@field public isCrypted Bool
----@field public itemID gameItemID
----@field public shardTitle String
----@field public imageId TweakDBID
+---@field public ["entry"] gameJournalOnscreen
+---@field public ["isCrypted"] Bool
+---@field public ["itemID"] gameItemID
+---@field public ["shardTitle"] String
+---@field public ["imageId"] TweakDBID
 ShardCollectedNotificationViewData = {}
 
 ---@param fields? table

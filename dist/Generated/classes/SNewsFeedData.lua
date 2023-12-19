@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SNewsFeedData
----@field public interval Float
----@field public elements SNewsFeedElementData[]
+---@field public ["interval"] Float
+---@field public ["elements"] SNewsFeedElementData[]
 SNewsFeedData = {}
 
 ---@param fields? table

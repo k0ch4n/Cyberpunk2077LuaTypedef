@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStaticTriggerAreaComponent: gameStaticAreaShapeComponent
----@field public includeMask Uint32
----@field public excludeMask Uint32
+---@field public ["includeMask"] Uint32
+---@field public ["excludeMask"] Uint32
 gameStaticTriggerAreaComponent = {}
 
 ---@param fields? table

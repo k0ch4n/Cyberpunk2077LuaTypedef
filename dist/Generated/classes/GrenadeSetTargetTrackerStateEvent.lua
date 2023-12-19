@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrenadeSetTargetTrackerStateEvent: redEvent
----@field public state Bool
+---@field public ["state"] Bool
 GrenadeSetTargetTrackerStateEvent = {}
 
 ---@param fields? table

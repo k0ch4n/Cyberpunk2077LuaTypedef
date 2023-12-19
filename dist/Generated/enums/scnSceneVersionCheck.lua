@@ -3,6 +3,6 @@
 
 ---@enum scnSceneVersionCheck
 scnSceneVersionCheck = {
-    ["OlderOrEqual"] = 0,
-    ["Equal"] = 1
+    ["OlderOrEqual"] = 0, ---@type Enum
+    ["Equal"] = 1, ---@type Enum
 }

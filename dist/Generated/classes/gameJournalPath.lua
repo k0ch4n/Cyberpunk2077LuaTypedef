@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalPath: IScriptable
----@field public realPath String
----@field public fileEntryIndex Int32
----@field public className CName
+---@field public ["realPath"] String
+---@field public ["fileEntryIndex"] Int32
+---@field public ["className"] CName
 gameJournalPath = {}
 
 ---@param fields? table

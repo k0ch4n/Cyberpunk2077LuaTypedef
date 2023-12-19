@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class MinimapPOIMappinController: gameuiBaseMinimapMappinController
----@field protected pulseWidget inkWidgetReference
----@field protected pingAnimationOnStateChange Bool
----@field private poiMappin gamemappinsPointOfInterestMappin
----@field private questMappin gamemappinsQuestMappin
----@field private isCompletedPhase Bool
----@field private mappinPhase gamedataMappinPhase
----@field private pingAnim inkanimProxy
----@field private mappinVariant gamedataMappinVariant
----@field private c_pingAnimCount Uint32
----@field private isNcpdScanner Bool
----@field private vehicleMinimapMappinComponent VehicleMinimapMappinComponent
----@field private keepIconOnClamping Bool
+---@field protected ["pulseWidget"] inkWidgetReference
+---@field protected ["pingAnimationOnStateChange"] Bool
+---@field private ["poiMappin"] gamemappinsPointOfInterestMappin
+---@field private ["questMappin"] gamemappinsQuestMappin
+---@field private ["isCompletedPhase"] Bool
+---@field private ["mappinPhase"] gamedataMappinPhase
+---@field private ["pingAnim"] inkanimProxy
+---@field private ["mappinVariant"] gamedataMappinVariant
+---@field private ["c_pingAnimCount"] Uint32
+---@field private ["isNcpdScanner"] Bool
+---@field private ["vehicleMinimapMappinComponent"] VehicleMinimapMappinComponent
+---@field private ["keepIconOnClamping"] Bool
 MinimapPOIMappinController = {}
 
 ---@param fields? table
@@ -56,7 +56,7 @@ function MinimapPOIMappinController:IsNcpdScanner(variant) return end
 function MinimapPOIMappinController:KeepIconOnClamping() return end
 
 ---@param loopInfinite? Bool
----@param overrideAnimName? CName
+---@param overrideAnimName? CName|string
 ---@return Bool
 function MinimapPOIMappinController:PlayPingAnimation(loopInfinite, overrideAnimName) return end
 

@@ -10,7 +10,7 @@ function AIReactionSystem.new(fields) return end
 
 ---@param sourcePos Vector3
 ---@param halfExtend Float
----@param debugInfo? CName
+---@param debugInfo? CName|string
 ---@return nil
 function AIReactionSystem:AddFearSource(sourcePos, halfExtend, debugInfo) return end
 
@@ -42,7 +42,7 @@ function AIReactionSystem:MarkDespawnCandidate(id) return end
 ---@return nil
 function AIReactionSystem:RegisterFearReaction(npc, threat) return end
 
----@param reaction CName
+---@param reaction CName|string
 ---@return AIReactionCountOutcome
 function AIReactionSystem:RegisterReaction(reaction) return end
 
@@ -69,7 +69,7 @@ function AIReactionSystem:UnmarkDespawnCandidate(id) return end
 ---@return nil
 function AIReactionSystem:UnregisterFearReaction(runner) return end
 
----@param reaction CName
+---@param reaction CName|string
 ---@return AIReactionCountOutcome
 function AIReactionSystem:UnregisterReaction(reaction) return end
 

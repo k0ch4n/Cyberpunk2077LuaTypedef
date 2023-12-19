@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecuritySupportListener: AIScriptsTargetTrackingListener
----@field public npc ScriptedPuppet
+---@field public ["npc"] ScriptedPuppet
 SecuritySupportListener = {}
 
 ---@param fields? table

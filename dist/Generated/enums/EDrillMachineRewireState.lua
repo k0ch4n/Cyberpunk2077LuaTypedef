@@ -3,10 +3,10 @@
 
 ---@enum EDrillMachineRewireState
 EDrillMachineRewireState = {
-    ["InsideInteractionRange"] = 0,
-    ["OutsideInteractionRange"] = 1,
-    ["InteractionStarted"] = 2,
-    ["InteractionFinished"] = 3,
-    ["RewireStarted"] = 4,
-    ["RewireFinished"] = 5
+    ["InsideInteractionRange"] = 0, ---@type Enum
+    ["OutsideInteractionRange"] = 1, ---@type Enum
+    ["InteractionStarted"] = 2, ---@type Enum
+    ["InteractionFinished"] = 3, ---@type Enum
+    ["RewireStarted"] = 4, ---@type Enum
+    ["RewireFinished"] = 5, ---@type Enum
 }

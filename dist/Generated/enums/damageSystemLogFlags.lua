@@ -3,7 +3,7 @@
 
 ---@enum damageSystemLogFlags
 damageSystemLogFlags = {
-    ["GENERAL"] = 1,
-    ["ASSERT"] = 2,
-    ["WEAKSPOTS"] = 4
+    ["GENERAL"] = 1, ---@type Enum
+    ["ASSERT"] = 2, ---@type Enum
+    ["WEAKSPOTS"] = 4, ---@type Enum
 }

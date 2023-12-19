@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BaseTechCrosshairController: gameuiCrosshairBaseGameController
----@field private player gameObject
----@field private statsSystem gameStatsSystem
----@field private fullChargeAvailable Bool
----@field private overChargeAvailable Bool
----@field private fullChargeListener CrosshairWeaponStatsListener
----@field private overChargeListener CrosshairWeaponStatsListener
+---@field private ["player"] gameObject
+---@field private ["statsSystem"] gameStatsSystem
+---@field private ["fullChargeAvailable"] Bool
+---@field private ["overChargeAvailable"] Bool
+---@field private ["fullChargeListener"] CrosshairWeaponStatsListener
+---@field private ["overChargeListener"] CrosshairWeaponStatsListener
 BaseTechCrosshairController = {}
 
 ---@param fields? table

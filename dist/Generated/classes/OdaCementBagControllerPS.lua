@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OdaCementBagControllerPS: ScriptableDeviceComponentPS
----@field protected cementEffectCooldown Float
+---@field protected ["cementEffectCooldown"] Float
 OdaCementBagControllerPS = {}
 
 ---@param fields? table

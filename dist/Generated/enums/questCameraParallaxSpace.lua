@@ -3,7 +3,7 @@
 
 ---@enum questCameraParallaxSpace
 questCameraParallaxSpace = {
-    ["Trajectory"] = 0,
-    ["Camera"] = 1,
-    ["Chest"] = 2
+    ["Trajectory"] = 0, ---@type Enum
+    ["Camera"] = 1, ---@type Enum
+    ["Chest"] = 2, ---@type Enum
 }

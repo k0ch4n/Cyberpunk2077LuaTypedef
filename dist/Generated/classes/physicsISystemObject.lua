@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class physicsISystemObject: ISerializable
----@field public name CName
+---@field public ["name"] CName
 physicsISystemObject = {}

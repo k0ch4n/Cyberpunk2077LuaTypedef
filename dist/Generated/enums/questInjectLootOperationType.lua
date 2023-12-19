@@ -3,7 +3,7 @@
 
 ---@enum questInjectLootOperationType
 questInjectLootOperationType = {
-    ["Inject"] = 0,
-    ["Remove"] = 1,
-    ["RemoveAll"] = 2
+    ["Inject"] = 0, ---@type Enum
+    ["Remove"] = 1, ---@type Enum
+    ["RemoveAll"] = 2, ---@type Enum
 }

@@ -21,7 +21,7 @@ function QuickHackUploadListener:OnStatPoolMaxValueReached(value) return end
 function QuickHackUploadListener:Initialize() return end
 
 ---@protected
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function QuickHackUploadListener:PlayQuickHackSound(eventName) return end
 

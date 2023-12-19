@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StartGrenadeThrowQueryEvent: redEvent
----@field public queryParams gameGrenadeThrowQueryParams
+---@field public ["queryParams"] gameGrenadeThrowQueryParams
 StartGrenadeThrowQueryEvent = {}
 
 ---@param fields? table

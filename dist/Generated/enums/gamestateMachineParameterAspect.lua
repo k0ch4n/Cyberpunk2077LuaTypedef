@@ -3,7 +3,7 @@
 
 ---@enum gamestateMachineParameterAspect
 gamestateMachineParameterAspect = {
-    ["Temporary"] = 0,
-    ["Permanent"] = 1,
-    ["Conditional"] = 2
+    ["Temporary"] = 0, ---@type Enum
+    ["Permanent"] = 1, ---@type Enum
+    ["Conditional"] = 2, ---@type Enum
 }

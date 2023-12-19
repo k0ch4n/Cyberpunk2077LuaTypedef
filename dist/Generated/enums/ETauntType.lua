@@ -3,7 +3,7 @@
 
 ---@enum ETauntType
 ETauntType = {
-    ["Normal"] = 0,
-    ["Melee"] = 1,
-    ["Ranged"] = 2
+    ["Normal"] = 0, ---@type Enum
+    ["Melee"] = 1, ---@type Enum
+    ["Ranged"] = 2, ---@type Enum
 }

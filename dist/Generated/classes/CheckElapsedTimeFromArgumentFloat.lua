@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckElapsedTimeFromArgumentFloat: CheckArguments
----@field public customVar Float
----@field public comparator ECompareOp
+---@field public ["customVar"] Float
+---@field public ["comparator"] ECompareOp
 CheckElapsedTimeFromArgumentFloat = {}
 
 ---@param fields? table

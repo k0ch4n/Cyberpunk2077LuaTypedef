@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexEntrySelectedEvent: redEvent
----@field public hash Uint32
+---@field public ["hash"] Uint32
 CodexEntrySelectedEvent = {}
 
 ---@param fields? table

@@ -29,7 +29,7 @@ function AIActionHelper.ActionDebugHelper(actionNameCheck, entity, actionName) r
 function AIActionHelper.AnimationsLoadedSignal(ownerPuppet) return end
 
 ---@param weapon gameweaponObject
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AIActionHelper.BreakWeaponEffectLoop(weapon, effectName) return end
 
@@ -161,12 +161,12 @@ function AIActionHelper.GetShootingBlackboard(owner) return end
 function AIActionHelper.GetTargetPositionFromPast(target, delay) return end
 
 ---@param target gameObject
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool, Vector4 slotPosition
 function AIActionHelper.GetTargetSlotPosition(target, slotName) return end
 
 ---@param target gameObject
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool, WorldTransform slotTransform
 function AIActionHelper.GetTargetSlotTransform(target, slotName) return end
 
@@ -175,7 +175,7 @@ function AIActionHelper.GetTargetSlotTransform(target, slotName) return end
 function AIActionHelper.HasCombatAICommand(owner) return end
 
 ---@param owner gameObject
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function AIActionHelper.HasEquippedWeaponWithTag(owner, tag) return end
 
@@ -193,7 +193,7 @@ function AIActionHelper.HasLostTarget(owner, target) return end
 function AIActionHelper.HasWorkspotAICommand(owner) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param commandName CName
+---@param commandName CName|string
 ---@return Bool
 function AIActionHelper.IsCommandCombatTargetValid(context, commandName) return end
 
@@ -218,7 +218,7 @@ function AIActionHelper.IsCurrentlyInCoverAttackAction(puppet) return end
 ---@return Bool
 function AIActionHelper.IsInWorkspot(owner) return end
 
----@param commandName CName
+---@param commandName CName|string
 ---@return Bool
 function AIActionHelper.IsMoveCommand(commandName) return end
 
@@ -233,12 +233,12 @@ function AIActionHelper.IsPointInRMA(ownerPuppet, point) return end
 function AIActionHelper.IsPointInRestrictedMovementArea(ownerPuppet, point) return end
 
 ---@param weapon gameweaponObject
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AIActionHelper.KillWeaponEffect(weapon, effectName) return end
 
 ---@param weapon gameweaponObject
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AIActionHelper.PlayWeaponEffect(weapon, effectName) return end
 
@@ -247,7 +247,7 @@ function AIActionHelper.PlayWeaponEffect(weapon, effectName) return end
 function AIActionHelper.PreloadAllBaseAnimations(puppet) return end
 
 ---@param puppet ScriptedPuppet
----@param streamingContextName CName
+---@param streamingContextName CName|string
 ---@param highPriority Bool
 ---@return Bool
 function AIActionHelper.PreloadAnimations(puppet, streamingContextName, highPriority) return end
@@ -286,7 +286,7 @@ function AIActionHelper.QueueSecuritySystemCombatNotification(owner, postCombatS
 
 ---@param owner gameObject
 ---@param itemRecord gamedataItem_Record
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param equipped Bool
 ---@return nil
 function AIActionHelper.SendItemHandling(owner, itemRecord, animFeatureName, equipped) return end
@@ -325,7 +325,7 @@ function AIActionHelper.SetItemsUnequipData(puppet, itemsToUnequip, dropItem) re
 function AIActionHelper.ShouldShootDirectlyAtTarget(weaponOwner, weapon, targetPosition) return end
 
 ---@param self gameObject
----@param cooldownName CName
+---@param cooldownName CName|string
 ---@param duration Float
 ---@return Int32
 function AIActionHelper.StartCooldown(self, cooldownName, duration) return end

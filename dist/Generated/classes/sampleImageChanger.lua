@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class sampleImageChanger: inkWidgetLogicController
----@field public imagePath CName
----@field public imageName_1 CName
----@field public imageName_2 CName
----@field private imageWidget inkImageWidget
+---@field public ["imagePath"] CName
+---@field public ["imageName_1"] CName
+---@field public ["imageName_2"] CName
+---@field private ["imageWidget"] inkImageWidget
 sampleImageChanger = {}
 
 ---@param fields? table
@@ -17,7 +17,7 @@ function sampleImageChanger.new(fields) return end
 function sampleImageChanger:OnInitialize() return end
 
 ---@private
----@param imageName CName
+---@param imageName CName|string
 ---@return nil
 function sampleImageChanger:ChangeImage(imageName) return end
 

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CarRadioGameController: gameuiHUDGameController
----@field private radioStationName inkTextWidgetReference
----@field private songName inkTextWidgetReference
----@field private root inkWidget
----@field private stateChangesBlackboardId redCallbackObject
----@field private songNameChangeBlackboardId redCallbackObject
----@field private blackboard gameIBlackboard
----@field private animationProxy inkanimProxy
+---@field private ["radioStationName"] inkTextWidgetReference
+---@field private ["songName"] inkTextWidgetReference
+---@field private ["root"] inkWidget
+---@field private ["stateChangesBlackboardId"] redCallbackObject
+---@field private ["songNameChangeBlackboardId"] redCallbackObject
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["animationProxy"] inkanimProxy
 CarRadioGameController = {}
 
 ---@param fields? table
@@ -30,7 +30,7 @@ function CarRadioGameController:OnOutroAnimFinished(anim) return end
 function CarRadioGameController:OnRadioChange(value) return end
 
 ---@protected
----@param value CName
+---@param value CName|string
 ---@return Bool
 function CarRadioGameController:OnSongChange(value) return end
 

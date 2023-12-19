@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EulerAngles
----@field public Pitch Float
----@field public Yaw Float
----@field public Roll Float
+---@field public ["Pitch"] Float
+---@field public ["Yaw"] Float
+---@field public ["Roll"] Float
 EulerAngles = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProgressBarsController: inkWidgetLogicController
----@field protected mask inkWidgetReference
+---@field protected ["mask"] inkWidgetReference
 ProgressBarsController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_TopbarHubMenuDef: gamebbScriptDefinition
----@field public IsSubmenuHidden gamebbScriptID_Bool
----@field public MetaQuestStatus gamebbScriptID_Variant
+---@field public ["IsSubmenuHidden"] gamebbScriptID_Bool
+---@field public ["MetaQuestStatus"] gamebbScriptID_Variant
 UI_TopbarHubMenuDef = {}
 
 ---@param fields? table

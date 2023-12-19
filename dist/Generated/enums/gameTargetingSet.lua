@@ -3,9 +3,9 @@
 
 ---@enum gameTargetingSet
 gameTargetingSet = {
-    ["Visible"] = 0,
-    ["ClearlyVisible"] = 1,
-    ["Frustum"] = 2,
-    ["Complete"] = 3,
-    ["None"] = 4
+    ["Visible"] = 0, ---@type Enum
+    ["ClearlyVisible"] = 1, ---@type Enum
+    ["Frustum"] = 2, ---@type Enum
+    ["Complete"] = 3, ---@type Enum
+    ["None"] = 4, ---@type Enum
 }

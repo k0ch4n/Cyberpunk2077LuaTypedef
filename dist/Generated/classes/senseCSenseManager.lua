@@ -17,7 +17,7 @@ function senseCSenseManager:GetVisionBlockersRegistrar() return end
 function senseCSenseManager:IsObjectVisible(source, target) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@param blockByNonPenetrableObj? Bool
 ---@return Bool
-function senseCSenseManager:IsPositionVisible(start, end, blockByNonPenetrableObj) return end
+function senseCSenseManager:IsPositionVisible(start, end_, blockByNonPenetrableObj) return end

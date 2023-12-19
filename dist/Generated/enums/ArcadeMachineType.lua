@@ -3,6 +3,6 @@
 
 ---@enum ArcadeMachineType
 ArcadeMachineType = {
-    ["Default"] = 0,
-    ["Pachinko"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Pachinko"] = 1, ---@type Enum
 }

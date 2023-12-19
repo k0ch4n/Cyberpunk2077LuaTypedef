@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class IWorldWidgetComponent: WidgetBaseComponent
----@field public glitchValue Float
----@field public tintColor Color
----@field public screenAreaMultiplier Float
----@field public textureMinMipBias Uint32
----@field public textureMaxMipBias Uint32
----@field public meshTargetBinding worlduiMeshTargetBinding
----@field public isEnabled Bool
+---@field public ["glitchValue"] Float
+---@field public ["tintColor"] Color
+---@field public ["screenAreaMultiplier"] Float
+---@field public ["textureMinMipBias"] Uint32
+---@field public ["textureMaxMipBias"] Uint32
+---@field public ["meshTargetBinding"] worlduiMeshTargetBinding
+---@field public ["isEnabled"] Bool
 IWorldWidgetComponent = {}
 
 ---@return worlduiIWidgetGameController

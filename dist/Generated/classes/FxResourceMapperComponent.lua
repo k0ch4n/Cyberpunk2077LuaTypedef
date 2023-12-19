@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class FxResourceMapperComponent: gameScriptableComponent
----@field protected areaEffectData AreaEffectData[]
----@field protected investigationSlotOffsetMultiplier Float
----@field protected areaEffectInFocusMode AreaEffectTargetData[]
----@field protected optionalAreaEffectData OptionalAreaEffectData[]
----@field private DEBUG_copiedDataFromEntity Bool
----@field private DEBUG_copiedDataFromFXStruct Bool
----@field private isInitialized Bool
+---@field protected ["areaEffectData"] AreaEffectData[]
+---@field protected ["investigationSlotOffsetMultiplier"] Float
+---@field protected ["areaEffectInFocusMode"] AreaEffectTargetData[]
+---@field protected ["optionalAreaEffectData"] OptionalAreaEffectData[]
+---@field private ["DEBUG_copiedDataFromEntity"] Bool
+---@field private ["DEBUG_copiedDataFromFXStruct"] Bool
+---@field private ["isInitialized"] Bool
 FxResourceMapperComponent = {}
 
 ---@param fields? table
@@ -44,14 +44,14 @@ function FxResourceMapperComponent:CreateAreaEffectTargetData(mainEffect) return
 ---@private
 ---@param attackTDBID TweakDBID
 ---@param index Int32
----@param gameEffectNameOverride? CName
+---@param gameEffectNameOverride? CName|string
 ---@param dontHighlightOnLookat? Bool
 ---@return nil
 function FxResourceMapperComponent:CreateData(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) return end
 
 ---@param attackTDBID TweakDBID
 ---@param index Int32
----@param gameEffectNameOverride? CName
+---@param gameEffectNameOverride? CName|string
 ---@param dontHighlightOnLookat? Bool
 ---@return nil
 function FxResourceMapperComponent:CreateEffectStructDataFromAttack(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) return end
@@ -67,7 +67,7 @@ function FxResourceMapperComponent:GetAreaEffectDataByIndex(index) return end
 ---@return Int32
 function FxResourceMapperComponent:GetAreaEffectDataIndexByAction(action) return end
 
----@param effectName CName
+---@param effectName CName|string
 ---@return Int32
 function FxResourceMapperComponent:GetAreaEffectDataIndexByName(effectName) return end
 

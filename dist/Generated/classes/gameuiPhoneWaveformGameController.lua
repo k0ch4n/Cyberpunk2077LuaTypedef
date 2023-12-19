@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameuiPhoneWaveformGameController: gameuiWidgetGameController
----@field public measurementsIntreval Float
----@field public measurementsCount Int32
----@field private barItemName CName
----@field private root inkCompoundWidget
----@field private bars inkWidget[]
----@field private traces inkWidget[]
----@field private cachedRootSize Vector2
----@field private maxValue Float
----@field private barsPadding Float
----@field private barSize Vector2
+---@field public ["measurementsIntreval"] Float
+---@field public ["measurementsCount"] Int32
+---@field private ["barItemName"] CName
+---@field private ["root"] inkCompoundWidget
+---@field private ["bars"] inkWidget[]
+---@field private ["traces"] inkWidget[]
+---@field private ["cachedRootSize"] Vector2
+---@field private ["maxValue"] Float
+---@field private ["barsPadding"] Float
+---@field private ["barSize"] Vector2
 gameuiPhoneWaveformGameController = {}
 
 ---@param fields? table
@@ -51,7 +51,7 @@ function gameuiPhoneWaveformGameController:FixSize(bar, value) return end
 ---@return nil
 function gameuiPhoneWaveformGameController:InitWaveform() return end
 
----@param value CName
+---@param value CName|string
 ---@return nil
 function gameuiPhoneWaveformGameController:SetItemName(value) return end
 

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipClothingInfoModule: ItemTooltipModuleController
----@field private allocationCostsWrapper inkCompoundWidgetReference
----@field private armorContainer inkWidgetReference
----@field private value inkTextWidgetReference
----@field private arrow inkImageWidgetReference
+---@field private ["allocationCostsWrapper"] inkCompoundWidgetReference
+---@field private ["armorContainer"] inkWidgetReference
+---@field private ["value"] inkTextWidgetReference
+---@field private ["arrow"] inkImageWidgetReference
 ItemTooltipClothingInfoModule = {}
 
 ---@param fields? table

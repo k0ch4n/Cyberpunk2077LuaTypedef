@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceFadeOutlineEventForWeapon: redEvent
----@field public entityID entEntityID
+---@field public ["entityID"] entEntityID
 ForceFadeOutlineEventForWeapon = {}
 
 ---@param fields? table

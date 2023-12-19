@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animOverrideBlendBoneInfo
----@field public transformIndex animTransformIndex
----@field public weight Float
+---@field public ["transformIndex"] animTransformIndex
+---@field public ["weight"] Float
 animOverrideBlendBoneInfo = {}
 
 ---@param fields? table

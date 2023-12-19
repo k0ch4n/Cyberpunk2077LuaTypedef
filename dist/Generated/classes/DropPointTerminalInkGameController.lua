@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DropPointTerminalInkGameController: DeviceInkGameControllerBase
----@field private sellAction inkWidgetReference
----@field private statusText inkTextWidgetReference
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field private ["sellAction"] inkWidgetReference
+---@field private ["statusText"] inkTextWidgetReference
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
 DropPointTerminalInkGameController = {}
 
 ---@param fields? table

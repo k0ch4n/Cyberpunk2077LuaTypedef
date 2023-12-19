@@ -9,9 +9,9 @@ gameEntitySpawnerEventsBroadcasterImpl = {}
 function gameEntitySpawnerEventsBroadcasterImpl.new(fields) return end
 
 ---@param spawnerOrCommunityId entEntityID
----@param communityEntryName CName
+---@param communityEntryName CName|string
 ---@param psListenerPersistentId gamePersistentID
----@param psListenerClassName CName
+---@param psListenerClassName CName|string
 ---@return Uint32
 function gameEntitySpawnerEventsBroadcasterImpl:RegisterSpawnerEventPSListener(spawnerOrCommunityId, communityEntryName, psListenerPersistentId, psListenerClassName) return end
 

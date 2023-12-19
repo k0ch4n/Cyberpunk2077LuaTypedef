@@ -11,7 +11,7 @@ function gamedataAISubActionSetTargetByTag_Record.new(fields) return end
 ---@return CName[]
 function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTagsContains(item) return end
 

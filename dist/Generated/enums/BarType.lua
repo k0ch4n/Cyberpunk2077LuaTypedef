@@ -3,7 +3,7 @@
 
 ---@enum BarType
 BarType = {
-    ["Armor"] = 0,
-    ["CurrentCapacity"] = 1,
-    ["Edgerunner"] = 2
+    ["Armor"] = 0, ---@type Enum
+    ["CurrentCapacity"] = 1, ---@type Enum
+    ["Edgerunner"] = 2, ---@type Enum
 }

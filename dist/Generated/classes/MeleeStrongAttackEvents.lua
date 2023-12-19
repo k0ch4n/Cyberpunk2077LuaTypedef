@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeStrongAttackEvents: MeleeAttackGenericEvents
----@field public slowMoSet Bool
----@field public crouchedAfterLeapAttack Bool
+---@field public ["slowMoSet"] Bool
+---@field public ["crouchedAfterLeapAttack"] Bool
 MeleeStrongAttackEvents = {}
 
 ---@param fields? table

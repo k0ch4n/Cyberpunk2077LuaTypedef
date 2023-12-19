@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityGateResponseProperties
----@field public securityGateResponseType ESecurityGateResponseType
----@field public securityLevelAccessGranted ESecurityAccessLevel
+---@field public ["securityGateResponseType"] ESecurityGateResponseType
+---@field public ["securityLevelAccessGranted"] ESecurityAccessLevel
 SecurityGateResponseProperties = {}
 
 ---@param fields? table

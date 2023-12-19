@@ -17,7 +17,7 @@ function inkInputEvent:GetActionName() return end
 ---@return Float
 function inkInputEvent:GetHoldProgress() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function inkInputEvent:IsAction(actionName) return end
 

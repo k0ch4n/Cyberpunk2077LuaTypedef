@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetDeviceAttitude: ActionBool
----@field public Repeat Bool
----@field public IgnoreHostiles Bool
----@field public Attitude EAIAttitude
+---@field public ["Repeat"] Bool
+---@field public ["IgnoreHostiles"] Bool
+---@field public ["Attitude"] EAIAttitude
 SetDeviceAttitude = {}
 
 ---@param fields? table

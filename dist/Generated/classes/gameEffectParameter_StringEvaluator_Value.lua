@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_StringEvaluator_Value: gameIEffectParameter_StringEvaluator
----@field public value String
+---@field public ["value"] String
 gameEffectParameter_StringEvaluator_Value = {}
 
 ---@param fields? table

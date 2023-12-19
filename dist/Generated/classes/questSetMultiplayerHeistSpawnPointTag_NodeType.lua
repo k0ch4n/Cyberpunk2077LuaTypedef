@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetMultiplayerHeistSpawnPointTag_NodeType: questIMultiplayerHeistNodeType
----@field public spawnPointTag CName
+---@field public ["spawnPointTag"] CName
 questSetMultiplayerHeistSpawnPointTag_NodeType = {}
 
 ---@param fields? table

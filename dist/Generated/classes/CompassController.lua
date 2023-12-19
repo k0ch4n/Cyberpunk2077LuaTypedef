@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CompassController: inkWidgetLogicController
----@field private faceLeft inkWidgetReference
----@field private faceRight inkWidgetReference
----@field private textWidget inkTextWidgetReference
----@field private decimalPrecision Uint32
----@field private faceRightStartPosition Vector2
----@field private faceLeftStartPosition Vector2
----@field private isVertical Bool
----@field private valueFloat Float
----@field private playerPuppet gameObject
----@field private precisionEpsilon Float
+---@field private ["faceLeft"] inkWidgetReference
+---@field private ["faceRight"] inkWidgetReference
+---@field private ["textWidget"] inkTextWidgetReference
+---@field private ["decimalPrecision"] Uint32
+---@field private ["faceRightStartPosition"] Vector2
+---@field private ["faceLeftStartPosition"] Vector2
+---@field private ["isVertical"] Bool
+---@field private ["valueFloat"] Float
+---@field private ["playerPuppet"] gameObject
+---@field private ["precisionEpsilon"] Float
 CompassController = {}
 
 ---@param fields? table

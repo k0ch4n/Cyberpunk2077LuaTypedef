@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiGenderSelectionPuppetPreviewGameController: gameuiPuppetPreviewGameController
----@field public sceneName CName
----@field public cameraRef NodeRef
+---@field public ["sceneName"] CName
+---@field public ["cameraRef"] NodeRef
 gameuiGenderSelectionPuppetPreviewGameController = {}
 
 ---@param fields? table

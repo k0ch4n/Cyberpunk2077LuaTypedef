@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCompositeTreeNodeDefinition: AIbehaviorTreeNodeDefinition
----@field public children AIbehaviorTreeNodeDefinition[]
+---@field public ["children"] AIbehaviorTreeNodeDefinition[]
 AIbehaviorCompositeTreeNodeDefinition = {}

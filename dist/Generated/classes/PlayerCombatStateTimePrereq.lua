@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatStateTimePrereq: gameIScriptablePrereq
----@field private minTime Float
----@field private maxTime Float
+---@field private ["minTime"] Float
+---@field private ["maxTime"] Float
 PlayerCombatStateTimePrereq = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetGlitchOnUIEvent: redEvent
----@field public intensity Float
+---@field public ["intensity"] Float
 SetGlitchOnUIEvent = {}
 
 ---@param fields? table

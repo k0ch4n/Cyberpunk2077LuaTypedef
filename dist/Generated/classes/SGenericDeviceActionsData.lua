@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SGenericDeviceActionsData
----@field public toggleON SDeviceActionBoolData
----@field public togglePower SDeviceActionBoolData
+---@field public ["toggleON"] SDeviceActionBoolData
+---@field public ["togglePower"] SDeviceActionBoolData
 SGenericDeviceActionsData = {}
 
 ---@param fields? table

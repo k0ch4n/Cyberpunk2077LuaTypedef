@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVisionModesManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIVisionModeNodeType
+---@field public ["type"] questIVisionModeNodeType
 questVisionModesManagerNodeDefinition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NonStealthQuickHackVictimEvent: redEvent
----@field public instigatorID entEntityID
+---@field public ["instigatorID"] entEntityID
 NonStealthQuickHackVictimEvent = {}
 
 ---@param fields? table

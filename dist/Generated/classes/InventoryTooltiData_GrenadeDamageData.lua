@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryTooltiData_GrenadeDamageData: IScriptable
----@field public statType gamedataStatType
----@field public value Float
+---@field public ["statType"] gamedataStatType
+---@field public ["value"] Float
 InventoryTooltiData_GrenadeDamageData = {}
 
 ---@param fields? table

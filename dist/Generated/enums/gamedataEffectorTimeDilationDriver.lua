@@ -3,9 +3,9 @@
 
 ---@enum gamedataEffectorTimeDilationDriver
 gamedataEffectorTimeDilationDriver = {
-    ["Source"] = 0,
-    ["Target"] = 1,
-    ["World"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Source"] = 0, ---@type Enum
+    ["Target"] = 1, ---@type Enum
+    ["World"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

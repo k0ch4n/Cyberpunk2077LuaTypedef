@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCombatNodeParams_SwitchWeapon: questCombatNodeParams
----@field public mode questSwitchWeaponModes
+---@field public ["mode"] questSwitchWeaponModes
 questCombatNodeParams_SwitchWeapon = {}
 
 ---@param fields? table

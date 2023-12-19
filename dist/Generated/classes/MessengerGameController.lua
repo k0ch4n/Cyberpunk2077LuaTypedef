@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class MessengerGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private contactsRef inkWidgetReference
----@field private dialogRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private dialogController MessengerDialogViewController
----@field private listController SimpleMessengerContactsVirtualListController
----@field private journalManager gameJournalManager
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private activeData MessengerContactSyncData
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["contactsRef"] inkWidgetReference
+---@field private ["dialogRef"] inkWidgetReference
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["dialogController"] MessengerDialogViewController
+---@field private ["listController"] SimpleMessengerContactsVirtualListController
+---@field private ["journalManager"] gameJournalManager
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["activeData"] MessengerContactSyncData
 MessengerGameController = {}
 
 ---@param fields? table
@@ -33,7 +33,7 @@ function MessengerGameController:OnInitialize() return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool

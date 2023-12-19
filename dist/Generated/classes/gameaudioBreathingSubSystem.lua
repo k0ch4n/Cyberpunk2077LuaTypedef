@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioBreathingSubSystem: gameaudioISoundComponentSubSystem
----@field public metadataName CName
+---@field public ["metadataName"] CName
 gameaudioBreathingSubSystem = {}
 
 ---@param fields? table

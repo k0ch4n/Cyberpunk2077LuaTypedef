@@ -3,10 +3,10 @@
 
 ---@enum gameTStatModifier
 gameTStatModifier = {
-    ["Constant"] = 0,
-    ["Random"] = 1,
-    ["Curve"] = 2,
-    ["Combined"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["Constant"] = 0, ---@type Enum
+    ["Random"] = 1, ---@type Enum
+    ["Curve"] = 2, ---@type Enum
+    ["Combined"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

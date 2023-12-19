@@ -3,7 +3,7 @@
 
 ---@enum gameSceneAnimationMotionActionParamsPlacementMode
 gameSceneAnimationMotionActionParamsPlacementMode = {
-    ["Blend"] = 0,
-    ["TeleportToStart"] = 1,
-    ["PlayAtActorPosition"] = 2
+    ["Blend"] = 0, ---@type Enum
+    ["TeleportToStart"] = 1, ---@type Enum
+    ["PlayAtActorPosition"] = 2, ---@type Enum
 }

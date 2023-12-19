@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioUiGenericControlSettingsMapItem: audioAudioMetadata
----@field public uiEventToAudioEventDictionary audioKeySoundEventDictionary
+---@field public ["uiEventToAudioEventDictionary"] audioKeySoundEventDictionary
 audioUiGenericControlSettingsMapItem = {}
 
 ---@param fields? table

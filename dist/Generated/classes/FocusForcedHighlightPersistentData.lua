@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class FocusForcedHighlightPersistentData: IScriptable
----@field private sourceID entEntityID
----@field private sourceName CName
----@field private highlightType EFocusForcedHighlightType
----@field private outlineType EFocusOutlineType
----@field private priority EPriority
----@field private inTransitionTime Float
----@field private outTransitionTime Float
----@field private isRevealed Bool
----@field private patternType gameVisionModePatternType
+---@field private ["sourceID"] entEntityID
+---@field private ["sourceName"] CName
+---@field private ["highlightType"] EFocusForcedHighlightType
+---@field private ["outlineType"] EFocusOutlineType
+---@field private ["priority"] EPriority
+---@field private ["inTransitionTime"] Float
+---@field private ["outTransitionTime"] Float
+---@field private ["isRevealed"] Bool
+---@field private ["patternType"] gameVisionModePatternType
 FocusForcedHighlightPersistentData = {}
 
 ---@param fields? table

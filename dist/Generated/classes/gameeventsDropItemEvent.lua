@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsDropItemEvent: redEvent
----@field public slotId TweakDBID
+---@field public ["slotId"] TweakDBID
 gameeventsDropItemEvent = {}
 
 ---@param fields? table

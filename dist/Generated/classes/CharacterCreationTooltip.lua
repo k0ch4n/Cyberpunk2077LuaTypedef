@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationTooltip: MessageTooltip
----@field protected attribiuteLevel inkTextWidgetReference
----@field protected maxedOrMinimumLabelText inkTextWidgetReference
----@field protected maxedOrMinimumLabel inkWidgetReference
----@field protected attribiuteLevelLabel inkWidgetReference
+---@field protected ["attribiuteLevel"] inkTextWidgetReference
+---@field protected ["maxedOrMinimumLabelText"] inkTextWidgetReference
+---@field protected ["maxedOrMinimumLabel"] inkWidgetReference
+---@field protected ["attribiuteLevelLabel"] inkWidgetReference
 CharacterCreationTooltip = {}
 
 ---@param fields? table

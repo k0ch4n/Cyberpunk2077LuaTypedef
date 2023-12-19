@@ -25,14 +25,14 @@ function gamedataAICommandCond_Record:GetHasNewOrOverridenCommandsItem(index) re
 ---@return CName[]
 function gamedataAICommandCond_Record:HasCommands() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAICommandCond_Record:HasCommandsContains(item) return end
 
 ---@return CName[]
 function gamedataAICommandCond_Record:HasNewOrOverridenCommands() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAICommandCond_Record:HasNewOrOverridenCommandsContains(item) return end
 

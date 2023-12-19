@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnlockMinigameProgramEffector: gameEffector
----@field public minigameProgram gameuiMinigameProgramData
+---@field public ["minigameProgram"] gameuiMinigameProgramData
 UnlockMinigameProgramEffector = {}
 
 ---@param fields? table

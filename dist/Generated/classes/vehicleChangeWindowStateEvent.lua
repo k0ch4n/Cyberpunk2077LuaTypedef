@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleChangeWindowStateEvent: redEvent
----@field public state vehicleEQuestVehicleWindowState
----@field public door vehicleEVehicleDoor
+---@field public ["state"] vehicleEQuestVehicleWindowState
+---@field public ["door"] vehicleEVehicleDoor
 vehicleChangeWindowStateEvent = {}
 
 ---@param fields? table

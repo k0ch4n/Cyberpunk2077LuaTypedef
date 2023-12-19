@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BunkerMapGameController: StatusScreenGameController
----@field public mapPosition01 inkWidgetReference
----@field public mapPosition02 inkWidgetReference
----@field public mapPosition03 inkWidgetReference
+---@field public ["mapPosition01"] inkWidgetReference
+---@field public ["mapPosition02"] inkWidgetReference
+---@field public ["mapPosition03"] inkWidgetReference
 BunkerMapGameController = {}
 
 ---@param fields? table
@@ -12,7 +12,7 @@ BunkerMapGameController = {}
 function BunkerMapGameController.new(fields) return end
 
 ---@protected
----@param fact CName
+---@param fact CName|string
 ---@param value Int32
 ---@return Bool
 function BunkerMapGameController:OnFactChanged(fact, value) return end

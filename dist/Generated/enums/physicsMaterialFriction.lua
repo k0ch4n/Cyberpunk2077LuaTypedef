@@ -3,7 +3,7 @@
 
 ---@enum physicsMaterialFriction
 physicsMaterialFriction = {
-    ["Enabled"] = 0,
-    ["DisabledStrong"] = 1,
-    ["Disabled"] = 2
+    ["Enabled"] = 0, ---@type Enum
+    ["DisabledStrong"] = 1, ---@type Enum
+    ["Disabled"] = 2, ---@type Enum
 }

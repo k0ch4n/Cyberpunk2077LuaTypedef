@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InvestedPerksPrereq: gameIScriptablePrereq
----@field public amount Int32
----@field public proficiency gamedataProficiencyType
+---@field public ["amount"] Int32
+---@field public ["proficiency"] gamedataProficiencyType
 InvestedPerksPrereq = {}
 
 ---@param fields? table

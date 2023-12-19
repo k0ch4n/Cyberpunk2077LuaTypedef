@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InstigatorTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public instigatorType CName
+---@field public ["instigatorType"] CName
 InstigatorTypeHitPrereqCondition = {}
 
 ---@param fields? table

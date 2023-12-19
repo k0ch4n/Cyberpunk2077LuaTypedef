@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioRigMetadata: audioAudioMetadata
----@field public positionBones CName[]
----@field public defaultBone CName
+---@field public ["positionBones"] CName[]
+---@field public ["defaultBone"] CName
 audioRigMetadata = {}
 
 ---@param fields? table

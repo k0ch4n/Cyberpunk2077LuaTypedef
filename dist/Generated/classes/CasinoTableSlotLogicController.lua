@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CasinoTableSlotLogicController: inkWidgetLogicController
----@field public state CasinoTableState
----@field public betData BetData
----@field public spawnRequest inkAsyncSpawnRequest
----@field public page inkWidget
+---@field public ["state"] CasinoTableState
+---@field public ["betData"] BetData
+---@field public ["spawnRequest"] inkAsyncSpawnRequest
+---@field public ["page"] inkWidget
 CasinoTableSlotLogicController = {}
 
 ---@param fields? table

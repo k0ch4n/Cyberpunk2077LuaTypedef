@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AbstractApplyQuickhackEffector: ModifyAttackEffector
----@field protected blackboard gameIBlackboard
----@field protected applyQuickhackDelayConst Float
+---@field protected ["blackboard"] gameIBlackboard
+---@field protected ["applyQuickhackDelayConst"] Float
 AbstractApplyQuickhackEffector = {}
 
 ---@protected

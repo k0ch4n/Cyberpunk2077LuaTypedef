@@ -28,7 +28,7 @@ function gameLootManager:SpawnItemDrop(obj, itemID, position, rotation) return e
 
 ---@param obj gameObject
 ---@param itemInstructions gameDropInstruction[]
----@param dropItemName? CName
+---@param dropItemName? CName|string
 ---@param position? Vector4
 ---@param rotation? Quaternion
 ---@return Bool

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GravityChangeTrigger: gameObject
----@field public gravityType EGravityType
----@field public regularStateMachineName CName
----@field public lowGravityStateMachineName CName
+---@field public ["gravityType"] EGravityType
+---@field public ["regularStateMachineName"] CName
+---@field public ["lowGravityStateMachineName"] CName
 GravityChangeTrigger = {}
 
 ---@param fields? table

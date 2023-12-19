@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class hudCarController: gameuiHUDGameController
----@field private SpeedValue inkTextWidgetReference
----@field private SpeedUnits inkTextWidgetReference
----@field private RPMChunks inkImageWidgetReference[]
----@field private psmBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private currentZoom Float
----@field private currentTime GameTime
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private tppBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private leanAngleBBConnectionId redCallbackObject
----@field private playerStateBBConnectionId redCallbackObject
----@field private activeChunks Int32
----@field private rpmMaxValue Float
----@field private currentSpeed Int32
----@field private activeVehicle vehicleBaseObject
----@field private driver Bool
----@field protected settings userSettingsUserSettings
----@field protected settingsListener CarSpeedometerSettingsListener
----@field protected groupPath CName
----@field private kmOn Bool
+---@field private ["SpeedValue"] inkTextWidgetReference
+---@field private ["SpeedUnits"] inkTextWidgetReference
+---@field private ["RPMChunks"] inkImageWidgetReference[]
+---@field private ["psmBlackboard"] gameIBlackboard
+---@field private ["PSM_BBID"] redCallbackObject
+---@field private ["currentZoom"] Float
+---@field private ["currentTime"] GameTime
+---@field private ["activeVehicleUIBlackboard"] gameIBlackboard
+---@field private ["vehicleBBStateConectionId"] redCallbackObject
+---@field private ["speedBBConnectionId"] redCallbackObject
+---@field private ["gearBBConnectionId"] redCallbackObject
+---@field private ["tppBBConnectionId"] redCallbackObject
+---@field private ["rpmValueBBConnectionId"] redCallbackObject
+---@field private ["leanAngleBBConnectionId"] redCallbackObject
+---@field private ["playerStateBBConnectionId"] redCallbackObject
+---@field private ["activeChunks"] Int32
+---@field private ["rpmMaxValue"] Float
+---@field private ["currentSpeed"] Int32
+---@field private ["activeVehicle"] vehicleBaseObject
+---@field private ["driver"] Bool
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] CarSpeedometerSettingsListener
+---@field protected ["groupPath"] CName
+---@field private ["kmOn"] Bool
 hudCarController = {}
 
 ---@param fields? table
@@ -104,8 +104,8 @@ function hudCarController:CheckIfInTPP() return end
 ---@return nil
 function hudCarController:EvaluateRPMMeterWidget(currentAmountOfChunks) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PhotoModeListController: inkListController
----@field private LogoWidget inkWidgetReference
----@field private Panel inkVerticalPanelWidgetReference
----@field private fadeAnim inkanimProxy
----@field private isAnimating Bool
----@field private animationTime Float
----@field private animationTarget Float
----@field private elementsAnimationTime Float
----@field private elementsAnimationDelay Float
----@field private currentElementAnimation Int32
+---@field private ["LogoWidget"] inkWidgetReference
+---@field private ["Panel"] inkVerticalPanelWidgetReference
+---@field private ["fadeAnim"] inkanimProxy
+---@field private ["isAnimating"] Bool
+---@field private ["animationTime"] Float
+---@field private ["animationTarget"] Float
+---@field private ["elementsAnimationTime"] Float
+---@field private ["elementsAnimationDelay"] Float
+---@field private ["currentElementAnimation"] Int32
 PhotoModeListController = {}
 
 ---@param fields? table

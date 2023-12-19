@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiScreenProjectionsData: IScriptable
----@field public data inkScreenProjection[]
+---@field public ["data"] inkScreenProjection[]
 gameuiScreenProjectionsData = {}
 
 ---@param fields? table

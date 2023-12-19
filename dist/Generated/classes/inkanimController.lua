@@ -20,18 +20,18 @@ function inkanimController:FromSet(other) return end
 ---@return inkanimProxy
 function inkanimController:GetProxy(index) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@param endValue Variant
 ---@return inkanimBuilder
 function inkanimController:Interpolate(interpolatorName, startValue, endValue) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@return inkanimBuilder
 function inkanimController:InterpolateFrom(interpolatorName, startValue) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param endValue Variant
 ---@return inkanimBuilder
 function inkanimController:InterpolateTo(interpolatorName, endValue) return end
@@ -52,7 +52,7 @@ function inkanimController:PlayWithOptions(playbackOptions) return end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkanimController:RegisterToCallback(eventType, object, functionName) return end
 
@@ -70,6 +70,6 @@ function inkanimController:Stop() return end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkanimController:UnregisterFromCallback(eventType, object, functionName) return end

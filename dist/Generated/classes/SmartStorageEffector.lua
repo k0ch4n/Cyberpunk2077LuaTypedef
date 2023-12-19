@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SmartStorageEffector: ModifyAttackEffector
----@field protected baseRevengeChance Float
----@field protected revengeChanceStep Float
----@field protected revealDuration Float
----@field protected statusEffectForTarget TweakDBID
----@field protected statusEffectForSelf TweakDBID
----@field private currentChance Float
+---@field protected ["baseRevengeChance"] Float
+---@field protected ["revengeChanceStep"] Float
+---@field protected ["revealDuration"] Float
+---@field protected ["statusEffectForTarget"] TweakDBID
+---@field protected ["statusEffectForSelf"] TweakDBID
+---@field private ["currentChance"] Float
 SmartStorageEffector = {}
 
 ---@param fields? table

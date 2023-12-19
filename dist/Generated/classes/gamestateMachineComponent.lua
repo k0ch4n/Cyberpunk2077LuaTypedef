@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineComponent: gamePlayerControlledComponent
----@field public packageName String
+---@field public ["packageName"] String
 gamestateMachineComponent = {}
 
 ---@param fields? table
 ---@return gamestateMachineComponent
 function gamestateMachineComponent.new(fields) return end
 
----@param stateMachineName CName
+---@param stateMachineName CName|string
 ---@param instanceData gamestateMachineStateMachineInstanceData
 ---@param owner entEntity
 ---@param tryHotSwap? Bool

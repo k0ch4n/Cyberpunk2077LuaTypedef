@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalSharedStateData
----@field public pathHash Uint32
----@field public entryState gameJournalEntryState
+---@field public ["pathHash"] Uint32
+---@field public ["entryState"] gameJournalEntryState
 gameJournalSharedStateData = {}
 
 ---@param fields? table

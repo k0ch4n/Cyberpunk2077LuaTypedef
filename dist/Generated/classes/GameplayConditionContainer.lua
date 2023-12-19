@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplayConditionContainer: IScriptable
----@field protected logicOperator ELogicOperator
----@field protected conditionGroups ConditionGroupData[]
+---@field protected ["logicOperator"] ELogicOperator
+---@field protected ["conditionGroups"] ConditionGroupData[]
 GameplayConditionContainer = {}
 
 ---@param fields? table

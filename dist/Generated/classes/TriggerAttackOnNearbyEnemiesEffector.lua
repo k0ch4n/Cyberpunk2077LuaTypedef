@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackOnNearbyEnemiesEffector: gameEffector
----@field public owner gameObject
----@field public attackRecord gamedataAttack_Record
----@field public targetHowManyEnemies Int32
----@field public targetMaxDistance Float
----@field public targetMinDistance Float
----@field public ignoreCivilians Bool
----@field public gameInstance ScriptGameInstance
----@field public playVFXOnHitTargets CName
----@field public statusEffectRecord gamedataStatusEffect_Record
----@field public enemySlotTransform CName
+---@field public ["owner"] gameObject
+---@field public ["attackRecord"] gamedataAttack_Record
+---@field public ["targetHowManyEnemies"] Int32
+---@field public ["targetMaxDistance"] Float
+---@field public ["targetMinDistance"] Float
+---@field public ["ignoreCivilians"] Bool
+---@field public ["gameInstance"] ScriptGameInstance
+---@field public ["playVFXOnHitTargets"] CName
+---@field public ["statusEffectRecord"] gamedataStatusEffect_Record
+---@field public ["enemySlotTransform"] CName
 TriggerAttackOnNearbyEnemiesEffector = {}
 
 ---@param fields? table

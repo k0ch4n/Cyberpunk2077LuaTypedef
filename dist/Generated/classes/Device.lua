@@ -2,57 +2,57 @@
 ---@diagnostic disable
 
 ---@class Device: gameDeviceBase
----@field protected controller ScriptableDeviceComponent
----@field protected wasVisible Bool
----@field protected isVisible Bool
----@field protected controllerTypeName CName
----@field protected deviceState EDeviceStatus
----@field protected uiComponent IWorldWidgetComponent
----@field protected screenDefinition SUIScreenDefinition
----@field protected isUIdirty Bool
----@field private onInputHintManagerInitializedChangedCallback redCallbackObject
----@field protected personalLinkComponent workWorkspotResourceComponent
----@field protected durabilityType EDeviceDurabilityType
----@field protected disassemblableComponent DisassemblableComponent
----@field protected localization entLocalizationStringComponent
----@field protected IKslotComponent entSlotComponent
----@field private slotComponent entSlotComponent
----@field private isInitialized Bool
----@field protected isInsideLogicArea Bool
----@field protected cameraComponent gameCameraComponent
----@field protected cameraZoomComponent gameCameraComponent
----@field private cameraZoomActive Bool
----@field protected ToggleZoomInteractionWorkspot workWorkspotResourceComponent
----@field protected ZoomUIListenerID redCallbackObject
----@field protected ZoomStateMachineListenerID redCallbackObject
----@field protected advanceInteractionStateResolveDelayID gameDelayID
----@field protected activeStatusEffect TweakDBID
----@field protected activeProgramToUploadOnNPC TweakDBID
----@field protected isQhackUploadInProgerss Bool
----@field protected scanningTweakDBRecord TweakDBID
----@field private updateRunning Bool
----@field private updateID gameDelayID
----@field protected delayedUpdateDeviceStateID gameDelayID
----@field protected blackboard gameIBlackboard
----@field private currentPlayerTargetCallbackID redCallbackObject
----@field private wasLookedAtLast Bool
----@field private lastPingSourceID entEntityID
----@field protected networkGridBeamFX gameFxResource
----@field protected fxResourceMapper FxResourceMapperComponent
----@field protected effectVisualization AreaEffectVisualizationComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected gameplayRoleComponent GameplayRoleComponent
----@field protected personalLinkHackSend Bool
----@field protected personalLinkFailsafeID gameDelayID
----@field protected wasAnimationFastForwarded Bool
----@field private wasEngineeringSkillcheckTriggered Bool
----@field protected contentScale TweakDBID
----@field protected networkGridBeamOffset Vector4
----@field public areaEffectsData SAreaEffectData[]
----@field public areaEffectsInFocusMode SAreaEffectTargetData[]
----@field protected debugOptions DebuggerProperties
----@field public currentlyUploadingAction ScriptableDeviceAction
----@field protected workspotActivator gameObject
+---@field protected ["controller"] ScriptableDeviceComponent
+---@field protected ["wasVisible"] Bool
+---@field protected ["isVisible"] Bool
+---@field protected ["controllerTypeName"] CName
+---@field protected ["deviceState"] EDeviceStatus
+---@field protected ["uiComponent"] IWorldWidgetComponent
+---@field protected ["screenDefinition"] SUIScreenDefinition
+---@field protected ["isUIdirty"] Bool
+---@field private ["onInputHintManagerInitializedChangedCallback"] redCallbackObject
+---@field protected ["personalLinkComponent"] workWorkspotResourceComponent
+---@field protected ["durabilityType"] EDeviceDurabilityType
+---@field protected ["disassemblableComponent"] DisassemblableComponent
+---@field protected ["localization"] entLocalizationStringComponent
+---@field protected ["IKslotComponent"] entSlotComponent
+---@field private ["slotComponent"] entSlotComponent
+---@field private ["isInitialized"] Bool
+---@field protected ["isInsideLogicArea"] Bool
+---@field protected ["cameraComponent"] gameCameraComponent
+---@field protected ["cameraZoomComponent"] gameCameraComponent
+---@field private ["cameraZoomActive"] Bool
+---@field protected ["ToggleZoomInteractionWorkspot"] workWorkspotResourceComponent
+---@field protected ["ZoomUIListenerID"] redCallbackObject
+---@field protected ["ZoomStateMachineListenerID"] redCallbackObject
+---@field protected ["advanceInteractionStateResolveDelayID"] gameDelayID
+---@field protected ["activeStatusEffect"] TweakDBID
+---@field protected ["activeProgramToUploadOnNPC"] TweakDBID
+---@field protected ["isQhackUploadInProgerss"] Bool
+---@field protected ["scanningTweakDBRecord"] TweakDBID
+---@field private ["updateRunning"] Bool
+---@field private ["updateID"] gameDelayID
+---@field protected ["delayedUpdateDeviceStateID"] gameDelayID
+---@field protected ["blackboard"] gameIBlackboard
+---@field private ["currentPlayerTargetCallbackID"] redCallbackObject
+---@field private ["wasLookedAtLast"] Bool
+---@field private ["lastPingSourceID"] entEntityID
+---@field protected ["networkGridBeamFX"] gameFxResource
+---@field protected ["fxResourceMapper"] FxResourceMapperComponent
+---@field protected ["effectVisualization"] AreaEffectVisualizationComponent
+---@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
+---@field protected ["gameplayRoleComponent"] GameplayRoleComponent
+---@field protected ["personalLinkHackSend"] Bool
+---@field protected ["personalLinkFailsafeID"] gameDelayID
+---@field protected ["wasAnimationFastForwarded"] Bool
+---@field private ["wasEngineeringSkillcheckTriggered"] Bool
+---@field protected ["contentScale"] TweakDBID
+---@field protected ["networkGridBeamOffset"] Vector4
+---@field public ["areaEffectsData"] SAreaEffectData[]
+---@field public ["areaEffectsInFocusMode"] SAreaEffectTargetData[]
+---@field protected ["debugOptions"] DebuggerProperties
+---@field public ["currentlyUploadingAction"] ScriptableDeviceAction
+---@field protected ["workspotActivator"] gameObject
 Device = {}
 
 ---@param fields? table
@@ -663,7 +663,7 @@ function Device:OnUpdateWillingInvestigators(evt) return end
 function Device:OnUploadProgressStateChanged(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function Device:OnWorkspotFinished(componentName) return end
 
@@ -683,7 +683,7 @@ function Device:AddActiveContext(context) return end
 
 ---@protected
 ---@param argText String
----@param argIcon CName
+---@param argIcon CName|string
 ---@return nil
 function Device:AddHudButtonHelper(argText, argIcon) return end
 
@@ -855,16 +855,16 @@ function Device:EnableUpdate(shouldEnable, time) return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function Device:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 
 ---@protected
 ---@param activator gameObject
 ---@param shouldCrouch Bool
----@param cameraFlavour? CName
----@param componentName? CName
+---@param cameraFlavour? CName|string
+---@param componentName? CName|string
 ---@param cameraPosition? Vector4
 ---@param cameraRotation? Quaternion
 ---@param rightHandPosition? Vector4
@@ -891,7 +891,7 @@ function Device:EvaluateProximityRevealInteractionLayerState() return end
 ---@protected
 ---@param choice gameinteractionsChoice
 ---@param executor gameObject
----@param layerTag CName
+---@param layerTag CName|string
 ---@return nil
 function Device:ExecuteAction(choice, executor, layerTag) return end
 
@@ -902,7 +902,7 @@ function Device:ExecuteAction(choice, executor, layerTag) return end
 function Device:ExecuteAction(action, executor) return end
 
 ---@protected
----@param actionClassName CName
+---@param actionClassName CName|string
 ---@return nil
 function Device:ExecuteBaseActionOperation(actionClassName) return end
 
@@ -950,7 +950,7 @@ function Device:GetActiveStatusEffect() return end
 ---@return Float
 function Device:GetAreaEffectLifetimeByAction(action) return end
 
----@param effectName CName
+---@param effectName CName|string
 ---@return Float
 function Device:GetAreaEffectLifetimeByName(effectName) return end
 
@@ -1063,7 +1063,7 @@ function Device:GetEngineeringSkillcheckSFXName() return end
 ---@return entEntity
 function Device:GetEntityFromNode(nodeRef) return end
 
----@param key CName
+---@param key CName|string
 ---@return gameFxResource
 function Device:GetFxResourceByKey(key) return end
 
@@ -1499,8 +1499,8 @@ function Device:PingNetworkGrid(lifetime, pingType, revealSlave, revealMaster, i
 function Device:PingNetworkGrid_Event(ownerEntityPosition, fxResource, lifetime, pingType, revealSlave, revealMaster, ignoreRevealed) return end
 
 ---@protected
----@param effectEventName CName
----@param effectEventTag CName
+---@param effectEventName CName|string
+---@param effectEventTag CName|string
 ---@return nil
 function Device:PlayEffect(effectEventName, effectEventTag) return end
 
@@ -1746,8 +1746,8 @@ function Device:SetJuryrigTrapState(newState) return end
 function Device:SetLogicReady() return end
 
 ---@protected
----@param appearance CName
----@param component? CName
+---@param appearance CName|string
+---@param component? CName|string
 ---@return nil
 function Device:SetMeshAppearance(appearance, component) return end
 
@@ -1896,7 +1896,7 @@ function Device:ToggleAreaIndicator(turnOn) return end
 function Device:ToggleCameraZoom(toggle, instant) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@param toggle Bool
 ---@return nil
 function Device:ToggleComponentByName(componentName, toggle) return end
@@ -1913,7 +1913,7 @@ function Device:TogglePersonalLink(toggle, puppet) return end
 function Device:TriggerAreaEffectDistractionByAction(action) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function Device:TriggerAreaEffectDistractionByName(effectName) return end
 

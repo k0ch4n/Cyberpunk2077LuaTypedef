@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetMultiplayerHeistState_NodeType: questIMultiplayerHeistNodeType
----@field public state questMultiplayerHeistState
+---@field public ["state"] questMultiplayerHeistState
 questSetMultiplayerHeistState_NodeType = {}
 
 ---@param fields? table

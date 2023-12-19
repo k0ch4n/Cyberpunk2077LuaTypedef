@@ -9,7 +9,7 @@ MenuScenario_ClippedMenu = {}
 function MenuScenario_ClippedMenu.new(fields) return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_ClippedMenu:OnEnterScenario(prevScenario, userData) return end

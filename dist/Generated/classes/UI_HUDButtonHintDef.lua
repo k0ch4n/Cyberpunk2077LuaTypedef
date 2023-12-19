@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_HUDButtonHintDef: gamebbScriptDefinition
----@field public ActionsData gamebbScriptID_Variant
+---@field public ["ActionsData"] gamebbScriptID_Variant
 UI_HUDButtonHintDef = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ProficiencyButtonController: inkButtonController
----@field private labelText inkTextWidgetReference
----@field private levelText inkTextWidgetReference
----@field private frameHovered inkWidgetReference
----@field private transparencyAnimationProxy inkanimProxy
----@field private index Int32
+---@field private ["labelText"] inkTextWidgetReference
+---@field private ["levelText"] inkTextWidgetReference
+---@field private ["frameHovered"] inkWidgetReference
+---@field private ["transparencyAnimationProxy"] inkanimProxy
+---@field private ["index"] Int32
 ProficiencyButtonController = {}
 
 ---@param fields? table

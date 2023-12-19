@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpAnimFeature_Stairs: animAnimFeature
----@field public onOff Bool
+---@field public ["onOff"] Bool
 cpAnimFeature_Stairs = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AgentMovingHitPrereqCondition: BaseHitPrereqCondition
----@field public isMoving Bool
----@field public object CName
+---@field public ["isMoving"] Bool
+---@field public ["object"] CName
 AgentMovingHitPrereqCondition = {}
 
 ---@param fields? table

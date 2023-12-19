@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SwapItemPart: gameScriptableSystemRequest
----@field public obj gameObject
----@field public baseItem gameItemID
----@field public partToInstall gameItemID
----@field public slotID TweakDBID
+---@field public ["obj"] gameObject
+---@field public ["baseItem"] gameItemID
+---@field public ["partToInstall"] gameItemID
+---@field public ["slotID"] TweakDBID
 SwapItemPart = {}
 
 ---@param fields? table

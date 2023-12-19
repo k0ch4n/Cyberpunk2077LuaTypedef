@@ -8,7 +8,7 @@ DoorProximityDetectorControllerPS = {}
 ---@return DoorProximityDetectorControllerPS
 function DoorProximityDetectorControllerPS.new(fields) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function DoorProximityDetectorControllerPS:GetQuestActionByName(actionName) return end
 

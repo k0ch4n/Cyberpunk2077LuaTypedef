@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SwimmingFastDivingEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
+---@field public ["lapsedTime"] Float
 SwimmingFastDivingEvents = {}
 
 ---@param fields? table

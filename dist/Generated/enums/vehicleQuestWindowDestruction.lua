@@ -3,10 +3,10 @@
 
 ---@enum vehicleQuestWindowDestruction
 vehicleQuestWindowDestruction = {
-    ["window_f"] = 0,
-    ["window_fl"] = 1,
-    ["window_fr"] = 2,
-    ["window_bl"] = 3,
-    ["window_br"] = 4,
-    ["window_b"] = 5
+    ["window_f"] = 0, ---@type Enum
+    ["window_fl"] = 1, ---@type Enum
+    ["window_fr"] = 2, ---@type Enum
+    ["window_bl"] = 3, ---@type Enum
+    ["window_br"] = 4, ---@type Enum
+    ["window_b"] = 5, ---@type Enum
 }

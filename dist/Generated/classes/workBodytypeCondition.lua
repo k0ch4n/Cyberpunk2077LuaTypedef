@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workBodytypeCondition: workIWorkspotCondition
----@field public rig animRig
+---@field public ["rig"] animRig
 workBodytypeCondition = {}
 
 ---@param fields? table

@@ -15,7 +15,7 @@ function gameEffectInstance.new(fields) return end
 function gameEffectInstance:AttachToEntity(entity, positionParameter, offset) return end
 
 ---@param entity entEntity
----@param slotName CName
+---@param slotName CName|string
 ---@param positionParameter gamebbScriptID_Vector4
 ---@param directionParameter gamebbScriptID_Vector4
 ---@return nil

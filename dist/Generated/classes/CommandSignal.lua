@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CommandSignal: gameTaggedSignalUserData
----@field public track Bool
----@field public commandClassNames CName[]
+---@field public ["track"] Bool
+---@field public ["commandClassNames"] CName[]
 CommandSignal = {}
 
 ---@param fields? table

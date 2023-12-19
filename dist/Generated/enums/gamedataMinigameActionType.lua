@@ -3,10 +3,10 @@
 
 ---@enum gamedataMinigameActionType
 gamedataMinigameActionType = {
-    ["AccessPoint"] = 0,
-    ["Both"] = 1,
-    ["Device"] = 2,
-    ["NPC"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["AccessPoint"] = 0, ---@type Enum
+    ["Both"] = 1, ---@type Enum
+    ["Device"] = 2, ---@type Enum
+    ["NPC"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

@@ -3,8 +3,8 @@
 
 ---@enum inkEVerticalAlign
 inkEVerticalAlign = {
-    ["Fill"] = 0,
-    ["Top"] = 1,
-    ["Center"] = 2,
-    ["Bottom"] = 3
+    ["Fill"] = 0, ---@type Enum
+    ["Top"] = 1, ---@type Enum
+    ["Center"] = 2, ---@type Enum
+    ["Bottom"] = 3, ---@type Enum
 }

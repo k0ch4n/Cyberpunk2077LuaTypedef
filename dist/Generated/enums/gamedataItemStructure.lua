@@ -3,9 +3,9 @@
 
 ---@enum gamedataItemStructure
 gamedataItemStructure = {
-    ["BlueprintStackable"] = 0,
-    ["Stackable"] = 1,
-    ["Unique"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["BlueprintStackable"] = 0, ---@type Enum
+    ["Stackable"] = 1, ---@type Enum
+    ["Unique"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

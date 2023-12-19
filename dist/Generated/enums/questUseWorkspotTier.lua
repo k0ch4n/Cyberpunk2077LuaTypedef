@@ -3,6 +3,6 @@
 
 ---@enum questUseWorkspotTier
 questUseWorkspotTier = {
-    ["Tier3"] = 0,
-    ["Tier4"] = 1
+    ["Tier3"] = 0, ---@type Enum
+    ["Tier4"] = 1, ---@type Enum
 }

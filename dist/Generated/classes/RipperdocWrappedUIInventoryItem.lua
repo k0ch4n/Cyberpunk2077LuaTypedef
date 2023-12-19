@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class RipperdocWrappedUIInventoryItem: IScriptable
----@field public InventoryItem UIInventoryItem
----@field public Delay Float
----@field public DisplayContext ItemDisplayContextData
----@field public IsEnoughMoney Bool
----@field public IsNew Bool
----@field public IsEquippable Bool
----@field public ItemPrice Float
----@field public IsBuybackStack Bool
----@field public AdditionalData IScriptable
+---@field public ["InventoryItem"] UIInventoryItem
+---@field public ["Delay"] Float
+---@field public ["DisplayContext"] ItemDisplayContextData
+---@field public ["IsEnoughMoney"] Bool
+---@field public ["IsNew"] Bool
+---@field public ["IsEquippable"] Bool
+---@field public ["ItemPrice"] Float
+---@field public ["IsBuybackStack"] Bool
+---@field public ["AdditionalData"] IScriptable
 RipperdocWrappedUIInventoryItem = {}
 
 ---@param fields? table

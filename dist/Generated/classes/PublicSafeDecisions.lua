@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PublicSafeDecisions: WeaponReadyListenerTransition
----@field private isSprinting Bool
----@field private inKereznikov Bool
----@field private inCombat Bool
----@field private inDangerousZone Bool
----@field private inFocusMode Bool
----@field private isInVehicleCombat Bool
----@field private isInVehTurret Bool
----@field private isAiming Bool
----@field private rangedAttackPressed Bool
+---@field private ["isSprinting"] Bool
+---@field private ["inKereznikov"] Bool
+---@field private ["inCombat"] Bool
+---@field private ["inDangerousZone"] Bool
+---@field private ["inFocusMode"] Bool
+---@field private ["isInVehicleCombat"] Bool
+---@field private ["isInVehTurret"] Bool
+---@field private ["isAiming"] Bool
+---@field private ["rangedAttackPressed"] Bool
 PublicSafeDecisions = {}
 
 ---@param fields? table

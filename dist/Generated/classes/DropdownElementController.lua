@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class DropdownElementController: BaseButtonView
----@field protected text inkTextWidgetReference
----@field protected arrow inkImageWidgetReference
----@field protected frame inkWidgetReference
----@field protected contentContainer inkWidgetReference
----@field protected data DropdownItemData
----@field protected active Bool
+---@field protected ["text"] inkTextWidgetReference
+---@field protected ["arrow"] inkImageWidgetReference
+---@field protected ["frame"] inkWidgetReference
+---@field protected ["contentContainer"] inkWidgetReference
+---@field protected ["data"] DropdownItemData
+---@field protected ["active"] Bool
 DropdownElementController = {}
 
 ---@param fields? table

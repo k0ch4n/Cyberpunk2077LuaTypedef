@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuickhackInstance: ModuleInstance
----@field private open Bool
----@field private process Bool
+---@field private ["open"] Bool
+---@field private ["process"] Bool
 QuickhackInstance = {}
 
 ---@param fields? table

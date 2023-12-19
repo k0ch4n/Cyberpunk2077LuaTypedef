@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questActorOverrideEntry
----@field public MetadataForOverride CName
----@field public ActorName CName
+---@field public ["MetadataForOverride"] CName
+---@field public ["ActorName"] CName
 questActorOverrideEntry = {}
 
 ---@param fields? table

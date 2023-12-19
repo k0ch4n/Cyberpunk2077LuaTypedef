@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiBuffInfo
----@field public buffID TweakDBID
----@field public timeRemaining Float
----@field public timeTotal Float
----@field public stackCount Uint32
+---@field public ["buffID"] TweakDBID
+---@field public ["timeRemaining"] Float
+---@field public ["timeTotal"] Float
+---@field public ["stackCount"] Uint32
 gameuiBuffInfo = {}
 
 ---@param fields? table

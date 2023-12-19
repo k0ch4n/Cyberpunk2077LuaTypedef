@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AimAssistModule: HUDModule
----@field private activeAssists AimAssist[]
+---@field private ["activeAssists"] AimAssist[]
 AimAssistModule = {}
 
 ---@param fields? table

@@ -13,13 +13,13 @@ function MenuScenario_Credits.new(fields) return end
 function MenuScenario_Credits:OnBack() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_Credits:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_Credits:OnLeaveScenario(nextScenario) return end
 

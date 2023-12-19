@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TooltipProvider: inkWidgetLogicController
----@field private TooltipsData ATooltipData[]
----@field private visible Bool
+---@field private ["TooltipsData"] ATooltipData[]
+---@field private ["visible"] Bool
 TooltipProvider = {}
 
 ---@param fields? table

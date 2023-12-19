@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IceMachineInkGameController: DeviceInkGameControllerBase
----@field private buttonContainer inkWidgetReference
----@field private soldOutText inkTextWidgetReference
+---@field private ["buttonContainer"] inkWidgetReference
+---@field private ["soldOutText"] inkTextWidgetReference
 IceMachineInkGameController = {}
 
 ---@param fields? table

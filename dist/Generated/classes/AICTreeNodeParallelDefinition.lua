@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeParallelDefinition: AICTreeNodeChildrenListDefinition
----@field public forwardChildrenCompleteness Bool
+---@field public ["forwardChildrenCompleteness"] Bool
 AICTreeNodeParallelDefinition = {}
 
 ---@param fields? table

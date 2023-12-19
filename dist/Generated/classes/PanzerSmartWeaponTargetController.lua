@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PanzerSmartWeaponTargetController: inkWidgetLogicController
----@field private distanceText inkTextWidgetReference
----@field private lockingAnimationProxy inkanimProxy
+---@field private ["distanceText"] inkTextWidgetReference
+---@field private ["lockingAnimationProxy"] inkanimProxy
 PanzerSmartWeaponTargetController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorGetPatrolPointTaskDefinition: AIbehaviorTaskDefinition
----@field public inPatrolDistance AIArgumentMapping
----@field public inLastKnownPosition AIArgumentMapping
----@field public outFollowTrailPoint AIArgumentMapping
+---@field public ["inPatrolDistance"] AIArgumentMapping
+---@field public ["inLastKnownPosition"] AIArgumentMapping
+---@field public ["outFollowTrailPoint"] AIArgumentMapping
 AIbehaviorGetPatrolPointTaskDefinition = {}
 
 ---@param fields? table

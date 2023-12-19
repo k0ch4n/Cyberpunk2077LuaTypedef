@@ -3,9 +3,9 @@
 
 ---@enum curveEInterpolationType
 curveEInterpolationType = {
-    ["EIT_Constant"] = 0,
-    ["EIT_Linear"] = 1,
-    ["EIT_BezierQuadratic"] = 2,
-    ["EIT_BezierCubic"] = 3,
-    ["EIT_Hermite"] = 4
+    ["EIT_Constant"] = 0, ---@type Enum
+    ["EIT_Linear"] = 1, ---@type Enum
+    ["EIT_BezierQuadratic"] = 2, ---@type Enum
+    ["EIT_BezierCubic"] = 3, ---@type Enum
+    ["EIT_Hermite"] = 4, ---@type Enum
 }

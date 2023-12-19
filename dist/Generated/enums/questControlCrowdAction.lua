@@ -3,6 +3,6 @@
 
 ---@enum questControlCrowdAction
 questControlCrowdAction = {
-    ["Disable"] = 0,
-    ["Enable"] = 1
+    ["Disable"] = 0, ---@type Enum
+    ["Enable"] = 1, ---@type Enum
 }

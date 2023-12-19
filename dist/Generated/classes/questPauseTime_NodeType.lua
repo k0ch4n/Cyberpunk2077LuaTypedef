@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPauseTime_NodeType: questITimeManagerNodeType
----@field public pause Bool
----@field public source CName
+---@field public ["pause"] Bool
+---@field public ["source"] CName
 questPauseTime_NodeType = {}
 
 ---@param fields? table

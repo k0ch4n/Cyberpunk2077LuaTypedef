@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_MathExpressionPose: animAnimNode_OnePoseInput
----@field public expressionData animMathExpressionNodeData
----@field public outputFloatTrack animNamedTrackIndex
+---@field public ["expressionData"] animMathExpressionNodeData
+---@field public ["outputFloatTrack"] animNamedTrackIndex
 animAnimNode_MathExpressionPose = {}
 
 ---@param fields? table

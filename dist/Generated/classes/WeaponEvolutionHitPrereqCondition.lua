@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponEvolutionHitPrereqCondition: BaseHitPrereqCondition
----@field public weaponEvolution gamedataWeaponEvolution
+---@field public ["weaponEvolution"] gamedataWeaponEvolution
 WeaponEvolutionHitPrereqCondition = {}
 
 ---@param fields? table

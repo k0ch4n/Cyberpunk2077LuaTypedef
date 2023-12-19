@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityAccessLevelEntryClient: SecurityAccessLevelEntry
----@field public level ESecurityAccessLevel
+---@field public ["level"] ESecurityAccessLevel
 SecurityAccessLevelEntryClient = {}
 
 ---@param fields? table

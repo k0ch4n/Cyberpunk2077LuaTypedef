@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class CyberEquipGameController: ArmorEquipGameController
----@field private eyesTags CName[]
----@field private brainTags CName[]
----@field private musculoskeletalTags CName[]
----@field private nervousTags CName[]
----@field private cardiovascularTags CName[]
----@field private immuneTags CName[]
----@field private integumentaryTags CName[]
----@field private handsTags CName[]
----@field private armsTags CName[]
----@field private legsTags CName[]
----@field private quickSlotTags CName[]
----@field private weaponsQuickSlotTags CName[]
----@field private fragmentTags CName[]
+---@field private ["eyesTags"] CName[]
+---@field private ["brainTags"] CName[]
+---@field private ["musculoskeletalTags"] CName[]
+---@field private ["nervousTags"] CName[]
+---@field private ["cardiovascularTags"] CName[]
+---@field private ["immuneTags"] CName[]
+---@field private ["integumentaryTags"] CName[]
+---@field private ["handsTags"] CName[]
+---@field private ["armsTags"] CName[]
+---@field private ["legsTags"] CName[]
+---@field private ["quickSlotTags"] CName[]
+---@field private ["weaponsQuickSlotTags"] CName[]
+---@field private ["fragmentTags"] CName[]
 CyberEquipGameController = {}
 
 ---@param fields? table

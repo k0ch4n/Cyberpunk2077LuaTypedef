@@ -2,39 +2,39 @@
 ---@diagnostic disable
 
 ---@class movePolicies: IScriptable
----@field public destination Vector3
----@field public destinationTangent Vector3
----@field public startTangent Vector3
----@field public targetSmartObject AIObjectId
----@field public targetWorkspot gameSetupWorkspotActionEvent
----@field public targetSmartObjectHash Uint64
----@field public targetObject gameObject
----@field public strafingTarget moveStrafingTarget
----@field public useFollowSlots Bool
----@field public followSlotOverrides Vector3
----@field public hasLocalTargetOffset Bool
----@field public localTargetOffset Vector3
----@field public desiredDistance Float
----@field public toleranceRadius Float
----@field public minMovementDistance Float
----@field public strafingRotationOffset Float
----@field public minFollowerDistance Float
----@field public maxFollowerDistance Float
----@field public movementType moveMovementType
----@field public circlingDirection moveCirclingDirection
----@field public stopOnObstacle Bool
----@field public avoidObstacleWithinTolerance Bool
----@field public useCollisionAvoidance Bool
----@field public useDestReservation Bool
----@field public inRestrictedArea Bool
----@field public isSpline Bool
----@field public startFromClosestPoint Bool
----@field public ignoreNavigation Bool
----@field public useStart Bool
----@field public useStop Bool
----@field public isEvaluated Bool
----@field public useOffMeshAllowedTags Bool
----@field public useOffMeshBlockedTags Bool
+---@field public ["destination"] Vector3
+---@field public ["destinationTangent"] Vector3
+---@field public ["startTangent"] Vector3
+---@field public ["targetSmartObject"] AIObjectId
+---@field public ["targetWorkspot"] gameSetupWorkspotActionEvent
+---@field public ["targetSmartObjectHash"] Uint64
+---@field public ["targetObject"] gameObject
+---@field public ["strafingTarget"] moveStrafingTarget
+---@field public ["useFollowSlots"] Bool
+---@field public ["followSlotOverrides"] Vector3
+---@field public ["hasLocalTargetOffset"] Bool
+---@field public ["localTargetOffset"] Vector3
+---@field public ["desiredDistance"] Float
+---@field public ["toleranceRadius"] Float
+---@field public ["minMovementDistance"] Float
+---@field public ["strafingRotationOffset"] Float
+---@field public ["minFollowerDistance"] Float
+---@field public ["maxFollowerDistance"] Float
+---@field public ["movementType"] moveMovementType
+---@field public ["circlingDirection"] moveCirclingDirection
+---@field public ["stopOnObstacle"] Bool
+---@field public ["avoidObstacleWithinTolerance"] Bool
+---@field public ["useCollisionAvoidance"] Bool
+---@field public ["useDestReservation"] Bool
+---@field public ["inRestrictedArea"] Bool
+---@field public ["isSpline"] Bool
+---@field public ["startFromClosestPoint"] Bool
+---@field public ["ignoreNavigation"] Bool
+---@field public ["useStart"] Bool
+---@field public ["useStop"] Bool
+---@field public ["isEvaluated"] Bool
+---@field public ["useOffMeshAllowedTags"] Bool
+---@field public ["useOffMeshBlockedTags"] Bool
 movePolicies = {}
 
 ---@param fields? table
@@ -44,11 +44,11 @@ function movePolicies.new(fields) return end
 ---@return Vector4
 function movePolicies.GetInvalidPos() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function movePolicies:AddAllowedTag(tag) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function movePolicies:AddBlockedTag(tag) return end
 
@@ -101,7 +101,7 @@ function movePolicies:SetCollisionAvoidancePolicy(avoidance, reservation) return
 ---@return nil
 function movePolicies:SetCostModCircle(costModCircle) return end
 
----@param debugName CName
+---@param debugName CName|string
 ---@return nil
 function movePolicies:SetDebugName(debugName) return end
 
@@ -166,7 +166,7 @@ function movePolicies:SetLocalTargetOffset(position) return end
 ---@return nil
 function movePolicies:SetMaxPathLength(length) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return nil
 function movePolicies:SetMaxPathLengthToDirectDistanceRatioCurve(curveName) return end
 

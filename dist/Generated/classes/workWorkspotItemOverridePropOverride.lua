@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workWorkspotItemOverridePropOverride
----@field public prevItemId CName
----@field public newItemId CName
+---@field public ["prevItemId"] CName
+---@field public ["newItemId"] CName
 workWorkspotItemOverridePropOverride = {}
 
 ---@param fields? table

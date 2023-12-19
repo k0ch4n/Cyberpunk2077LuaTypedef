@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SystemDeviceWidgetController: DeviceWidgetControllerBase
----@field protected slavesConnectedCount inkTextWidgetReference
----@field protected connectedDevicesHolder inkWidgetReference
+---@field protected ["slavesConnectedCount"] inkTextWidgetReference
+---@field protected ["connectedDevicesHolder"] inkWidgetReference
 SystemDeviceWidgetController = {}
 
 ---@param fields? table

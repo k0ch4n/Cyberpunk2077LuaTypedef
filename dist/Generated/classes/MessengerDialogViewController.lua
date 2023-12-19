@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class MessengerDialogViewController: inkWidgetLogicController
----@field private messagesList inkCompoundWidgetReference
----@field private choicesList inkCompoundWidgetReference
----@field private replayFluff inkCompoundWidgetReference
----@field private typingFluff inkWidgetReference
----@field private typingIndicator inkWidgetReference
----@field private messagesListController JournalEntriesListController
----@field private choicesListController JournalEntriesListController
----@field private scrollController inkScrollController
----@field private typingIndicatorController MessengerTypingIndicator
----@field private journalManager gameJournalManager
----@field private playerObject gameObject
----@field private delaySystem gameDelaySystem
----@field private delayedTypingCallbackId gameDelayID
----@field private replyOptions gameJournalEntry[]
----@field private messages gameJournalEntry[]
----@field private parentEntry gameJournalEntry
----@field private parentHash Int32
----@field private conversationHash Int32
----@field private contactHash Int32
----@field private typingAnimProxy inkanimProxy
----@field private delayTypingAnimProxy inkanimProxy
----@field private singleThreadMode Bool
----@field private hasFocus Bool
----@field public audioSystem gameGameAudioSystem
----@field private minimumTypingDelay Float
----@field private breakingTypingAnimProxy inkanimProxy
+---@field private ["messagesList"] inkCompoundWidgetReference
+---@field private ["choicesList"] inkCompoundWidgetReference
+---@field private ["replayFluff"] inkCompoundWidgetReference
+---@field private ["typingFluff"] inkWidgetReference
+---@field private ["typingIndicator"] inkWidgetReference
+---@field private ["messagesListController"] JournalEntriesListController
+---@field private ["choicesListController"] JournalEntriesListController
+---@field private ["scrollController"] inkScrollController
+---@field private ["typingIndicatorController"] MessengerTypingIndicator
+---@field private ["journalManager"] gameJournalManager
+---@field private ["playerObject"] gameObject
+---@field private ["delaySystem"] gameDelaySystem
+---@field private ["delayedTypingCallbackId"] gameDelayID
+---@field private ["replyOptions"] gameJournalEntry[]
+---@field private ["messages"] gameJournalEntry[]
+---@field private ["parentEntry"] gameJournalEntry
+---@field private ["parentHash"] Int32
+---@field private ["conversationHash"] Int32
+---@field private ["contactHash"] Int32
+---@field private ["typingAnimProxy"] inkanimProxy
+---@field private ["delayTypingAnimProxy"] inkanimProxy
+---@field private ["singleThreadMode"] Bool
+---@field private ["hasFocus"] Bool
+---@field public ["audioSystem"] gameGameAudioSystem
+---@field private ["minimumTypingDelay"] Float
+---@field private ["breakingTypingAnimProxy"] inkanimProxy
 MessengerDialogViewController = {}
 
 ---@param fields? table
@@ -60,7 +60,7 @@ function MessengerDialogViewController:OnInitialize() return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -68,7 +68,7 @@ function MessengerDialogViewController:OnJournalUpdate(entryHash, className, not
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@param delay Float

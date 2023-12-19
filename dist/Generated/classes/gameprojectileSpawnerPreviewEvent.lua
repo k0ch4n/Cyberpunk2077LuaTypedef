@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileSpawnerPreviewEvent: redEvent
----@field public previewActive Bool
+---@field public ["previewActive"] Bool
 gameprojectileSpawnerPreviewEvent = {}
 
 ---@param fields? table

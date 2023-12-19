@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleCameraSceneEnableEvent: redEvent
----@field public scene Bool
+---@field public ["scene"] Bool
 vehicleCameraSceneEnableEvent = {}
 
 ---@param fields? table

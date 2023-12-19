@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_DEV_ScriptableSystemUseNewTooltips: gameScriptableSystemRequest
----@field public value Bool
+---@field public ["value"] Bool
 UI_DEV_ScriptableSystemUseNewTooltips = {}
 
 ---@param fields? table

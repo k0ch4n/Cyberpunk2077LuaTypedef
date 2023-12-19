@@ -3,7 +3,7 @@
 
 ---@enum UpdateBucketEnum
 UpdateBucketEnum = {
-    ["Vehicle"] = 0,
-    ["Character"] = 1,
-    ["AttachedObject"] = 2
+    ["Vehicle"] = 0, ---@type Enum
+    ["Character"] = 1, ---@type Enum
+    ["AttachedObject"] = 2, ---@type Enum
 }

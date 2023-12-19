@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VideoCarouselData
----@field public videoTitleKey CName
----@field public videoDescriptionKey CName
----@field public videoResPath redResourceReferenceScriptToken
+---@field public ["videoTitleKey"] CName
+---@field public ["videoDescriptionKey"] CName
+---@field public ["videoResPath"] redResourceReferenceScriptToken
 VideoCarouselData = {}
 
 ---@param fields? table

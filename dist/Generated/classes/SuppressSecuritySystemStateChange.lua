@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SuppressSecuritySystemStateChange: redEvent
----@field public forceSecuritySystemIntoStrictQuestControl Bool
+---@field public ["forceSecuritySystemIntoStrictQuestControl"] Bool
 SuppressSecuritySystemStateChange = {}
 
 ---@param fields? table

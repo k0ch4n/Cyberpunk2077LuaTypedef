@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class linkedClueUpdateEvent: redEvent
----@field public linkedCluekData LinkedFocusClueData
----@field public requesterID entEntityID
----@field public updatePS Bool
+---@field public ["linkedCluekData"] LinkedFocusClueData
+---@field public ["requesterID"] entEntityID
+---@field public ["updatePS"] Bool
 linkedClueUpdateEvent = {}
 
 ---@param fields? table

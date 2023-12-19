@@ -18,6 +18,6 @@ function gamedataDPadUIData_Record:GetRestrictionTagsItem(index) return end
 ---@return CName[]
 function gamedataDPadUIData_Record:RestrictionTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataDPadUIData_Record:RestrictionTagsContains(item) return end

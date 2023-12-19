@@ -69,7 +69,7 @@ function gamedataStatusEffectUIData_Record:IntValuesContains(item) return end
 ---@return CName[]
 function gamedataStatusEffectUIData_Record:NameValues() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStatusEffectUIData_Record:NameValuesContains(item) return end
 

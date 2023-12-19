@@ -3,8 +3,8 @@
 
 ---@enum worldPrefabStreamingOcclusion
 worldPrefabStreamingOcclusion = {
-    ["Default"] = 0,
-    ["Exterior"] = 1,
-    ["Interior"] = 2,
-    ["OpenInterior"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["Exterior"] = 1, ---@type Enum
+    ["Interior"] = 2, ---@type Enum
+    ["OpenInterior"] = 3, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeatureServer: animAnimFeature
----@field public coverState Int32
----@field public serverState Int32
+---@field public ["coverState"] Int32
+---@field public ["serverState"] Int32
 AnimFeatureServer = {}
 
 ---@param fields? table

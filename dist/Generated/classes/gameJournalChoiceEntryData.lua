@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalChoiceEntryData
----@field public entryPath gameJournalPath
+---@field public ["entryPath"] gameJournalPath
 gameJournalChoiceEntryData = {}
 
 ---@param fields? table

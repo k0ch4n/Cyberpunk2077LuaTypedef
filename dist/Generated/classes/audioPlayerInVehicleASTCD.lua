@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioPlayerInVehicleASTCD: audioAudioStateTransitionConditionData
----@field public isInside Bool
+---@field public ["isInside"] Bool
 audioPlayerInVehicleASTCD = {}
 
 ---@param fields? table

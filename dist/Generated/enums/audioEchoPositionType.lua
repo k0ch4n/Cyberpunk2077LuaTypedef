@@ -3,6 +3,6 @@
 
 ---@enum audioEchoPositionType
 audioEchoPositionType = {
-    ["DynamicEnvironment"] = 0,
-    ["Simple"] = 1
+    ["DynamicEnvironment"] = 0, ---@type Enum
+    ["Simple"] = 1, ---@type Enum
 }

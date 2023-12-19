@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workWorkspotStartedEvent: redEvent
----@field public nodeId worldGlobalNodeID
----@field public tags CName[]
----@field public statusEffectID TweakDBID
+---@field public ["nodeId"] worldGlobalNodeID
+---@field public ["tags"] CName[]
+---@field public ["statusEffectID"] TweakDBID
 workWorkspotStartedEvent = {}
 
 ---@param fields? table

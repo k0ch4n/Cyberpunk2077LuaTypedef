@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameprojectileSpawnComponent: entIPlacedComponent
----@field public spawnOffset Vector3
----@field public projectileTemplates CName[]
----@field public slotName CName
+---@field public ["spawnOffset"] Vector3
+---@field public ["projectileTemplates"] CName[]
+---@field public ["slotName"] CName
 gameprojectileSpawnComponent = {}
 
 ---@param fields? table

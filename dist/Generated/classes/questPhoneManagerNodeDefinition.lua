@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPhoneManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public type questIPhoneManagerNodeType
+---@field public ["type"] questIPhoneManagerNodeType
 questPhoneManagerNodeDefinition = {}
 
 ---@param fields? table

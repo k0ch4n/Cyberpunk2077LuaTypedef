@@ -34,7 +34,7 @@ function CustomDeviceAction:IsCustomClearanceValid(clearance) return end
 ---@return nil
 function CustomDeviceAction:SetObjectActionID(id) return end
 
----@param customActionName CName
----@param displayName CName
+---@param customActionName CName|string
+---@param displayName CName|string
 ---@return nil
 function CustomDeviceAction:SetProperties(customActionName, displayName) return end

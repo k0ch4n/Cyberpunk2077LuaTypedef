@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questStopWorkspot_NodeType: questIBehaviourManager_NodeType
----@field public allowCurrAnimToFinish Bool
----@field public exitAnim CName
+---@field public ["allowCurrAnimToFinish"] Bool
+---@field public ["exitAnim"] CName
 questStopWorkspot_NodeType = {}
 
 ---@param fields? table

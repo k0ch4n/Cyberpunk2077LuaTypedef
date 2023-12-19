@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class WorldMapPreloader: inkWidgetLogicController
----@field private splashAnim CName
----@field private spinnerAnim CName
----@field private spinnerFadeOutAnim CName
----@field private spinnerFadeInAnim CName
----@field private mapFadeOutAnim CName
----@field public isMapLoaded Bool
----@field public isMapFadeOutStarted Bool
----@field public isSpinnerVisible Bool
----@field public splashProxy inkanimProxy
----@field public spinnerFadeOutProxy inkanimProxy
+---@field private ["splashAnim"] CName
+---@field private ["spinnerAnim"] CName
+---@field private ["spinnerFadeOutAnim"] CName
+---@field private ["spinnerFadeInAnim"] CName
+---@field private ["mapFadeOutAnim"] CName
+---@field public ["isMapLoaded"] Bool
+---@field public ["isMapFadeOutStarted"] Bool
+---@field public ["isSpinnerVisible"] Bool
+---@field public ["splashProxy"] inkanimProxy
+---@field public ["spinnerFadeOutProxy"] inkanimProxy
 WorldMapPreloader = {}
 
 ---@param fields? table

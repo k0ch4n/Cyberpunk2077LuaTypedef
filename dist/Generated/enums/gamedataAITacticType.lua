@@ -3,15 +3,15 @@
 
 ---@enum gamedataAITacticType
 gamedataAITacticType = {
-    ["Assault"] = 0,
-    ["Defend"] = 1,
-    ["Flank"] = 2,
-    ["Medivac"] = 3,
-    ["Panic"] = 4,
-    ["Regroup"] = 5,
-    ["Retreat"] = 6,
-    ["Snipe"] = 7,
-    ["Suppress"] = 8,
-    ["Count"] = 9,
-    ["Invalid"] = 10
+    ["Assault"] = 0, ---@type Enum
+    ["Defend"] = 1, ---@type Enum
+    ["Flank"] = 2, ---@type Enum
+    ["Medivac"] = 3, ---@type Enum
+    ["Panic"] = 4, ---@type Enum
+    ["Regroup"] = 5, ---@type Enum
+    ["Retreat"] = 6, ---@type Enum
+    ["Snipe"] = 7, ---@type Enum
+    ["Suppress"] = 8, ---@type Enum
+    ["Count"] = 9, ---@type Enum
+    ["Invalid"] = 10, ---@type Enum
 }

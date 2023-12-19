@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerLevel: ScannerChunk
----@field private level Int32
----@field private isHard Bool
+---@field private ["level"] Int32
+---@field private ["isHard"] Bool
 ScannerLevel = {}
 
 ---@param fields? table

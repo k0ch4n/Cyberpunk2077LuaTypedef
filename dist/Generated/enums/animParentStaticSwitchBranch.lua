@@ -3,7 +3,7 @@
 
 ---@enum animParentStaticSwitchBranch
 animParentStaticSwitchBranch = {
-    ["None"] = 0,
-    ["TrueBranch"] = 1,
-    ["FalseBranch"] = 2
+    ["None"] = 0, ---@type Enum
+    ["TrueBranch"] = 1, ---@type Enum
+    ["FalseBranch"] = 2, ---@type Enum
 }

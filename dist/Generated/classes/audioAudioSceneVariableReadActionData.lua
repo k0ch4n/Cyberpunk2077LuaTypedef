@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioAudioSceneVariableReadActionData
----@field public name CName
----@field public comparer audioNumberComparer
----@field public value Int32
+---@field public ["name"] CName
+---@field public ["comparer"] audioNumberComparer
+---@field public ["value"] Int32
 audioAudioSceneVariableReadActionData = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class StatBonusFromFactEffector: gameEffector
----@field public applicationTarget CName
----@field public stat gamedataStat_Record
----@field public bonusPerStack Float
----@field public fact CName
----@field public modifier gameConstantStatModifierData_Deprecated
+---@field public ["applicationTarget"] CName
+---@field public ["stat"] gamedataStat_Record
+---@field public ["bonusPerStack"] Float
+---@field public ["fact"] CName
+---@field public ["modifier"] gameConstantStatModifierData_Deprecated
 StatBonusFromFactEffector = {}
 
 ---@param fields? table

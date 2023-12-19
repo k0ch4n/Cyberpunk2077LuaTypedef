@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftingSystemInventoryCallback: gameInventoryScriptCallback
----@field public player PlayerPuppet
+---@field public ["player"] PlayerPuppet
 CraftingSystemInventoryCallback = {}
 
 ---@param fields? table

@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class gameuiInGameMenuGameController: gameuiBaseMenuGameController
----@field public itemSceneInfos gameuiInGameMenuGameControllerItemSceneInfo[]
----@field public garmentSwitchEffectControllers gameuiGarmentSwitchEffectController[]
----@field private quickSaveInProgress Bool
----@field private wasHoldingMapHotKey Bool
----@field private controllerDisconnected Bool
----@field private showDeathScreenBBID redCallbackObject
----@field private breachingNetworkBBID redCallbackObject
----@field private triggerMenuEventBBID redCallbackObject
----@field private openStorageBBID redCallbackObject
----@field private controllerDisconnectedBBID redCallbackObject
----@field private bbOnEquipmentChangedID redCallbackObject
----@field private inputSchemesBBID redCallbackObject
----@field private inventoryListener gameAttachmentSlotsScriptListener
----@field private animContainer inGameMenuAnimContainer
----@field private lastInGameNotificationType UIInGameNotificationType
----@field private loadSaveDelayID gameDelayID
----@field private player gameObject
+---@field public ["itemSceneInfos"] gameuiInGameMenuGameControllerItemSceneInfo[]
+---@field public ["garmentSwitchEffectControllers"] gameuiGarmentSwitchEffectController[]
+---@field private ["quickSaveInProgress"] Bool
+---@field private ["wasHoldingMapHotKey"] Bool
+---@field private ["controllerDisconnected"] Bool
+---@field private ["showDeathScreenBBID"] redCallbackObject
+---@field private ["breachingNetworkBBID"] redCallbackObject
+---@field private ["triggerMenuEventBBID"] redCallbackObject
+---@field private ["openStorageBBID"] redCallbackObject
+---@field private ["controllerDisconnectedBBID"] redCallbackObject
+---@field private ["bbOnEquipmentChangedID"] redCallbackObject
+---@field private ["inputSchemesBBID"] redCallbackObject
+---@field private ["inventoryListener"] gameAttachmentSlotsScriptListener
+---@field private ["animContainer"] inGameMenuAnimContainer
+---@field private ["lastInGameNotificationType"] UIInGameNotificationType
+---@field private ["loadSaveDelayID"] gameDelayID
+---@field private ["player"] gameObject
 gameuiInGameMenuGameController = {}
 
 ---@param fields? table
@@ -117,7 +117,7 @@ function gameuiInGameMenuGameController:OnPlayerAttach(playerPuppet) return end
 function gameuiInGameMenuGameController:OnPlayerDetach(playerPuppet) return end
 
 ---@protected
----@param sceneName CName
+---@param sceneName CName|string
 ---@param puppet gamePuppet
 ---@return Bool
 function gameuiInGameMenuGameController:OnPuppetReady(sceneName, puppet) return end
@@ -149,13 +149,13 @@ function gameuiInGameMenuGameController:OnSavingComplete(success, locks) return 
 function gameuiInGameMenuGameController:OnTimeSkipFinishEvent(evt) return end
 
 ---@protected
----@param value CName
+---@param value CName|string
 ---@return Bool
 function gameuiInGameMenuGameController:OnTriggerMenuEvent(value) return end
 
 ---@protected
----@param previousStateName CName
----@param currentStateName CName
+---@param previousStateName CName|string
+---@param currentStateName CName|string
 ---@return Bool
 function gameuiInGameMenuGameController:OnUiStateChangedSuccessfully(previousStateName, currentStateName) return end
 
@@ -176,7 +176,7 @@ function gameuiInGameMenuGameController:HandleQuickSave() return end
 function gameuiInGameMenuGameController:IsPlayerInCombat() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function gameuiInGameMenuGameController:OpenShortcutMenu(actionName) return end
 
@@ -204,7 +204,7 @@ function gameuiInGameMenuGameController:RegisterPSMListeners(playerPuppet) retur
 function gameuiInGameMenuGameController:SendNotification(notificationEvent) return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function gameuiInGameMenuGameController:TryOpenCraftingMenu(actionName) return end
 

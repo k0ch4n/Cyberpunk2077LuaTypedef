@@ -3,6 +3,6 @@
 
 ---@enum entdismembermentSimulationTypeE
 entdismembermentSimulationTypeE = {
-    ["NONE"] = 0,
-    ["DANGLE"] = 128
+    ["NONE"] = 0, ---@type Enum
+    ["DANGLE"] = 128, ---@type Enum
 }

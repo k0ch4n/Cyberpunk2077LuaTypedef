@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetBriefingSize_NodeType: questIUIManagerNodeType
----@field public briefingSize questJournalSizeEventType
+---@field public ["briefingSize"] questJournalSizeEventType
 questSetBriefingSize_NodeType = {}
 
 ---@param fields? table

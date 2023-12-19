@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldStaticParticleNodeInstance: worldINodeInstance
----@field public renderLayerMask RenderSceneLayerMask
+---@field public ["renderLayerMask"] RenderSceneLayerMask
 worldStaticParticleNodeInstance = {}
 
 ---@param fields? table

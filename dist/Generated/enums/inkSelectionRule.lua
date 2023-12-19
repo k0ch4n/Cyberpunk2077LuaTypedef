@@ -3,9 +3,9 @@
 
 ---@enum inkSelectionRule
 inkSelectionRule = {
-    ["Single"] = 0,
-    ["Parent"] = 1,
-    ["Children"] = 2,
-    ["TypeBased"] = 3,
-    ["NameBased"] = 4
+    ["Single"] = 0, ---@type Enum
+    ["Parent"] = 1, ---@type Enum
+    ["Children"] = 2, ---@type Enum
+    ["TypeBased"] = 3, ---@type Enum
+    ["NameBased"] = 4, ---@type Enum
 }

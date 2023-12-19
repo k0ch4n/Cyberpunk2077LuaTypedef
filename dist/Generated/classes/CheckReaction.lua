@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckReaction: AIbehaviorconditionScript
----@field public reactionToCompare gamedataOutput
+---@field public ["reactionToCompare"] gamedataOutput
 CheckReaction = {}
 
 ---@param fields? table

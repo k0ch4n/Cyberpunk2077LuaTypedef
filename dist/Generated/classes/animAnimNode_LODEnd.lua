@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_LODEnd: animAnimNode_Base
----@field public inputLink animPoseLink
+---@field public ["inputLink"] animPoseLink
 animAnimNode_LODEnd = {}
 
 ---@param fields? table

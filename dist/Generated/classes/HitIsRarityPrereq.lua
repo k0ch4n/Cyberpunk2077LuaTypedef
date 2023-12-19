@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitIsRarityPrereq: GenericHitPrereq
----@field public invert Bool
----@field public rarity gamedataNPCRarity
+---@field public ["invert"] Bool
+---@field public ["rarity"] gamedataNPCRarity
 HitIsRarityPrereq = {}
 
 ---@param fields? table

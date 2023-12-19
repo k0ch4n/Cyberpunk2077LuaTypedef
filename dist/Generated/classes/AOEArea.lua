@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class AOEArea: InteractiveMasterDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field private gameEffect gameEffectInstance
----@field private highLightActive Bool
----@field private visionBlockerComponent entIComponent
----@field private obstacleComponent gameinfluenceObstacleComponent
----@field private activeStatusEffects gamedataStatusEffect_Record[]
----@field private extendPercentAABB Float
----@field private isAABBExtended Bool
+---@field protected ["areaComponent"] gameStaticTriggerAreaComponent
+---@field private ["gameEffect"] gameEffectInstance
+---@field private ["highLightActive"] Bool
+---@field private ["visionBlockerComponent"] entIComponent
+---@field private ["obstacleComponent"] gameinfluenceObstacleComponent
+---@field private ["activeStatusEffects"] gamedataStatusEffect_Record[]
+---@field private ["extendPercentAABB"] Float
+---@field private ["isAABBExtended"] Bool
 AOEArea = {}
 
 ---@param fields? table

@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class sampleUICustomizableAnimationsController: inkWidgetLogicController
----@field public imagePath CName
----@field public interpolationType inkanimInterpolationType
----@field public interpolationMode inkanimInterpolationMode
----@field public delayTime Float
----@field private rotation_anim inkanimDefinition
----@field private size_anim inkanimDefinition
----@field private color_anim inkanimDefinition
----@field private alpha_anim inkanimDefinition
----@field private position_anim inkanimDefinition
----@field private imageWidget inkWidget
----@field private animProxy inkanimProxy
----@field private CanRotate Bool
----@field private CanResize Bool
----@field private CanChangeColor Bool
----@field private CanChangeAlpha Bool
----@field private CanMove Bool
----@field private defaultSize Vector2
----@field private defaultMargin inkMargin
----@field private defaultRotation Float
----@field private defaultColor HDRColor
----@field private defaultAlpha Float
----@field private isHighlighted Bool
----@field private currentTarget inkWidget
----@field private currentAnimProxy inkanimProxy
+---@field public ["imagePath"] CName
+---@field public ["interpolationType"] inkanimInterpolationType
+---@field public ["interpolationMode"] inkanimInterpolationMode
+---@field public ["delayTime"] Float
+---@field private ["rotation_anim"] inkanimDefinition
+---@field private ["size_anim"] inkanimDefinition
+---@field private ["color_anim"] inkanimDefinition
+---@field private ["alpha_anim"] inkanimDefinition
+---@field private ["position_anim"] inkanimDefinition
+---@field private ["imageWidget"] inkWidget
+---@field private ["animProxy"] inkanimProxy
+---@field private ["CanRotate"] Bool
+---@field private ["CanResize"] Bool
+---@field private ["CanChangeColor"] Bool
+---@field private ["CanChangeAlpha"] Bool
+---@field private ["CanMove"] Bool
+---@field private ["defaultSize"] Vector2
+---@field private ["defaultMargin"] inkMargin
+---@field private ["defaultRotation"] Float
+---@field private ["defaultColor"] HDRColor
+---@field private ["defaultAlpha"] Float
+---@field private ["isHighlighted"] Bool
+---@field private ["currentTarget"] inkWidget
+---@field private ["currentAnimProxy"] inkanimProxy
 sampleUICustomizableAnimationsController = {}
 
 ---@param fields? table
@@ -57,7 +57,7 @@ function sampleUICustomizableAnimationsController:Reset(e) return end
 function sampleUICustomizableAnimationsController:SaveDefaults() return end
 
 ---@private
----@param buttonName CName
+---@param buttonName CName|string
 ---@param status Bool
 ---@return nil
 function sampleUICustomizableAnimationsController:SetText(buttonName, status) return end

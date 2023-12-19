@@ -3,8 +3,8 @@
 
 ---@enum EInputAction
 EInputAction = {
-    ["IACT_None"] = 0,
-    ["IACT_Press"] = 1,
-    ["IACT_Release"] = 2,
-    ["IACT_Axis"] = 3
+    ["IACT_None"] = 0, ---@type Enum
+    ["IACT_Press"] = 1, ---@type Enum
+    ["IACT_Release"] = 2, ---@type Enum
+    ["IACT_Axis"] = 3, ---@type Enum
 }

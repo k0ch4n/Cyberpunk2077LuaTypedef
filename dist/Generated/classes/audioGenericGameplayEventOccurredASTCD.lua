@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGenericGameplayEventOccurredASTCD: audioAudioStateTransitionConditionData
----@field public gameplayEvent CName
+---@field public ["gameplayEvent"] CName
 audioGenericGameplayEventOccurredASTCD = {}
 
 ---@param fields? table

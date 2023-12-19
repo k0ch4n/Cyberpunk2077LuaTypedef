@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsNotifySurfaceDirectionChanged: redEvent
----@field public surfaceDirection gameaudioeventsSurfaceDirection
+---@field public ["surfaceDirection"] gameaudioeventsSurfaceDirection
 gameaudioeventsNotifySurfaceDirectionChanged = {}
 
 ---@param fields? table

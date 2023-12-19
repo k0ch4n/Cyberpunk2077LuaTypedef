@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineStateSnapshotsContainer
----@field public snapshot gamestateMachineStateSnapshot[]
+---@field public ["snapshot"] gamestateMachineStateSnapshot[]
 gamestateMachineStateSnapshotsContainer = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PassengerEvents: VehicleEventsTransition
----@field private noWeaponsRestrictionApplied Bool
+---@field private ["noWeaponsRestrictionApplied"] Bool
 PassengerEvents = {}
 
 ---@param fields? table

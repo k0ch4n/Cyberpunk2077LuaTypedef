@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCpoPickableItem: gameObject
----@field public itemIDToEquip TweakDBID
----@field public quickSlotID Int32
+---@field public ["itemIDToEquip"] TweakDBID
+---@field public ["quickSlotID"] Int32
 gameCpoPickableItem = {}
 
 ---@param fields? table

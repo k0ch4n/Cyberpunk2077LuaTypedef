@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AssignRestrictMovementAreaTask: AIbehaviortaskScript
----@field public restrictMovementAreaRef AIArgumentMapping
+---@field public ["restrictMovementAreaRef"] AIArgumentMapping
 AssignRestrictMovementAreaTask = {}
 
 ---@param fields? table

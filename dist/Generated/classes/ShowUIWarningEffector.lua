@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ShowUIWarningEffector: gameEffector
----@field public duration Float
----@field public primaryText String
----@field public secondaryText String
----@field public owner gameObject
+---@field public ["duration"] Float
+---@field public ["primaryText"] String
+---@field public ["secondaryText"] String
+---@field public ["owner"] gameObject
 ShowUIWarningEffector = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum gameweaponReloadStatus
 gameweaponReloadStatus = {
-    ["Standard"] = 0,
-    ["Interrupted"] = 1
+    ["Standard"] = 0, ---@type Enum
+    ["Interrupted"] = 1, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LcdScreenControllerPS: ScriptableDeviceComponentPS
----@field private messageRecordID TweakDBID
----@field private replaceTextWithCustomNumber Bool
----@field private customNumber Int32
----@field private messageRecordSelector ScreenMessageSelector
+---@field private ["messageRecordID"] TweakDBID
+---@field private ["replaceTextWithCustomNumber"] Bool
+---@field private ["customNumber"] Int32
+---@field private ["messageRecordSelector"] ScreenMessageSelector
 LcdScreenControllerPS = {}
 
 ---@param fields? table

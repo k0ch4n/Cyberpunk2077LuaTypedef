@@ -3,7 +3,7 @@
 
 ---@enum ELaunchMode
 ELaunchMode = {
-    ["Primary"] = 0,
-    ["Secondary"] = 1,
-    ["None"] = 2
+    ["Primary"] = 0, ---@type Enum
+    ["Secondary"] = 1, ---@type Enum
+    ["None"] = 2, ---@type Enum
 }

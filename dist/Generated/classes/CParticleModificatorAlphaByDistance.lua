@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorAlphaByDistance: IParticleModificator
----@field public nearBlendDistance Vector2
----@field public farBlendDistance Vector2
+---@field public ["nearBlendDistance"] Vector2
+---@field public ["farBlendDistance"] Vector2
 CParticleModificatorAlphaByDistance = {}
 
 ---@param fields? table

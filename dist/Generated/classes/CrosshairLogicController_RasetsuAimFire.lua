@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CrosshairLogicController_RasetsuAimFire: inkWidgetLogicController
----@field public chargebarContainer inkWidgetReference
----@field public perfectChargeIndicator inkWidgetReference
----@field public chargeBar ChargebarController
----@field public animPerfectCharge inkanimProxy
+---@field public ["chargebarContainer"] inkWidgetReference
+---@field public ["perfectChargeIndicator"] inkWidgetReference
+---@field public ["chargeBar"] ChargebarController
+---@field public ["animPerfectCharge"] inkanimProxy
 CrosshairLogicController_RasetsuAimFire = {}
 
 ---@param fields? table
@@ -16,7 +16,7 @@ function CrosshairLogicController_RasetsuAimFire.new(fields) return end
 ---@return nil
 function CrosshairLogicController_RasetsuAimFire:ApplyChargeValue(value) return end
 
----@param type CName
+---@param type CName|string
 ---@return nil
 function CrosshairLogicController_RasetsuAimFire:ApplyPerfectCharge(type) return end
 

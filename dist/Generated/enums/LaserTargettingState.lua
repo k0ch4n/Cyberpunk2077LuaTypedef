@@ -3,7 +3,7 @@
 
 ---@enum LaserTargettingState
 LaserTargettingState = {
-    ["Start"] = 0,
-    ["Update"] = 1,
-    ["End"] = 2
+    ["Start"] = 0, ---@type Enum
+    ["Update"] = 1, ---@type Enum
+    ["End"] = 2, ---@type Enum
 }

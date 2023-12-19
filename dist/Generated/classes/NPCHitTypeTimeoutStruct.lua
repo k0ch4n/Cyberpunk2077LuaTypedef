@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCHitTypeTimeoutStruct
----@field public timeout Float
----@field public delayID gameDelayID
+---@field public ["timeout"] Float
+---@field public ["delayID"] gameDelayID
 NPCHitTypeTimeoutStruct = {}
 
 ---@param fields? table

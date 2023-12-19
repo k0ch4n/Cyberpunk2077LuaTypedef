@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddItemsEffector: gameEffector
----@field public items gamedataInventoryItem_Record[]
+---@field public ["items"] gamedataInventoryItem_Record[]
 AddItemsEffector = {}
 
 ---@param fields? table

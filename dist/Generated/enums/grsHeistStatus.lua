@@ -3,11 +3,11 @@
 
 ---@enum grsHeistStatus
 grsHeistStatus = {
-    ["Waiting"] = 0,
-    ["Starting"] = 1,
-    ["Lobby"] = 2,
-    ["InGame"] = 3,
-    ["Ending"] = 4,
-    ["Victory"] = 5,
-    ["Failure"] = 6
+    ["Waiting"] = 0, ---@type Enum
+    ["Starting"] = 1, ---@type Enum
+    ["Lobby"] = 2, ---@type Enum
+    ["InGame"] = 3, ---@type Enum
+    ["Ending"] = 4, ---@type Enum
+    ["Victory"] = 5, ---@type Enum
+    ["Failure"] = 6, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreviousMenuData: IScriptable
----@field public openMenuRequest OpenMenuRequest
+---@field public ["openMenuRequest"] OpenMenuRequest
 PreviousMenuData = {}
 
 ---@param fields? table

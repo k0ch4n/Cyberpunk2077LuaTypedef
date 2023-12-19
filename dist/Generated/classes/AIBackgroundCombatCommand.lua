@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIBackgroundCombatCommand: AICommand
----@field public steps AIBackgroundCombatStep[]
+---@field public ["steps"] AIBackgroundCombatStep[]
 AIBackgroundCombatCommand = {}
 
 ---@param fields? table

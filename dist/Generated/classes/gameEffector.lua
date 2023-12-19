@@ -38,19 +38,19 @@ function gameEffector:ActionOn(owner) return end
 
 ---@protected
 ---@param effectorOwner gameObject
----@param applicationTarget CName
+---@param applicationTarget CName|string
 ---@return Bool, entEntityID targetID
 function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) return end
 
 ---@protected
 ---@param effectorOwner gameObject
----@param applicationTarget CName
+---@param applicationTarget CName|string
 ---@return Bool, gameObject target
 function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) return end
 
 ---@protected
 ---@param effectorOwner gameObject
----@param applicationTarget CName
+---@param applicationTarget CName|string
 ---@return Bool, gameStatsObjectID targetID
 function gameEffector:GetApplicationTargetAsStatsObjectID(effectorOwner, applicationTarget) return end
 

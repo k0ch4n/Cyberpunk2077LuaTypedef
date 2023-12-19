@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SendEquipWeaponCommand: AIbehaviortaskScript
----@field public secondary Bool
+---@field public ["secondary"] Bool
 SendEquipWeaponCommand = {}
 
 ---@param fields? table

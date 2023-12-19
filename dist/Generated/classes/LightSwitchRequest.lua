@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LightSwitchRequest: redEvent
----@field public requestNumber Int32
+---@field public ["requestNumber"] Int32
 LightSwitchRequest = {}
 
 ---@param fields? table

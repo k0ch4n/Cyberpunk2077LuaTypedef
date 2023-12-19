@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckFriendlyNPCAboutToBeHit: StatusEffectTasks
----@field public outStatusArgument AIArgumentMapping
----@field public outPositionStatusArgument AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
+---@field public ["outStatusArgument"] AIArgumentMapping
+---@field public ["outPositionStatusArgument"] AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
 CheckFriendlyNPCAboutToBeHit = {}
 
 ---@param fields? table

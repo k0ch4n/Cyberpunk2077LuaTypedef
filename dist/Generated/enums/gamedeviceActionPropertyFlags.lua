@@ -3,6 +3,6 @@
 
 ---@enum gamedeviceActionPropertyFlags
 gamedeviceActionPropertyFlags = {
-    ["None"] = 0,
-    ["IsUsedByQuest"] = 1
+    ["None"] = 0, ---@type Enum
+    ["IsUsedByQuest"] = 1, ---@type Enum
 }

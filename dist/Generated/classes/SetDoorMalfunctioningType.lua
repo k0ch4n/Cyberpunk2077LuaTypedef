@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetDoorMalfunctioningType: redEvent
----@field public malfunctioningType EMalfunctioningType
+---@field public ["malfunctioningType"] EMalfunctioningType
 SetDoorMalfunctioningType = {}
 
 ---@param fields? table

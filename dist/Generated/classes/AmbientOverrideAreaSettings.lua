@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AmbientOverrideAreaSettings: IAreaSettings
----@field public color curveData[]
+---@field public ["color"] curveData[]
 AmbientOverrideAreaSettings = {}
 
 ---@param fields? table

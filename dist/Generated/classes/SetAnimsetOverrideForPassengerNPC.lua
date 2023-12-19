@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAnimsetOverrideForPassengerNPC: AIbehaviortaskScript
----@field public IsNPCMounted AIArgumentMapping
+---@field public ["IsNPCMounted"] AIArgumentMapping
 SetAnimsetOverrideForPassengerNPC = {}
 
 ---@param fields? table

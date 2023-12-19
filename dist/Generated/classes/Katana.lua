@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Katana: gameweaponObject
----@field private bentBulletTemplateName CName
----@field private bulletBendingReferenceSlotName CName
----@field private colliderComponent entIComponent
----@field private slotComponent entSlotComponent
+---@field private ["bentBulletTemplateName"] CName
+---@field private ["bulletBendingReferenceSlotName"] CName
+---@field private ["colliderComponent"] entIComponent
+---@field private ["slotComponent"] entSlotComponent
 Katana = {}
 
 ---@param fields? table

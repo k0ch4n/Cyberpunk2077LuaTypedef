@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetSkipDeathAnimationTask: AIbehaviortaskScript
----@field public value Bool
+---@field public ["value"] Bool
 SetSkipDeathAnimationTask = {}
 
 ---@param fields? table

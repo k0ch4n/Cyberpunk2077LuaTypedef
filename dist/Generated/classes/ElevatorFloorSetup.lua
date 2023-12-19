@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ElevatorFloorSetup
----@field public isHidden Bool
----@field public isInactive Bool
----@field public floorMarker NodeRef
----@field public floorName String
----@field public floorDisplayName CName
----@field public authorizationTextOverride String
----@field public doorShouldOpenFrontLeftRight Bool[]
+---@field public ["isHidden"] Bool
+---@field public ["isInactive"] Bool
+---@field public ["floorMarker"] NodeRef
+---@field public ["floorName"] String
+---@field public ["floorDisplayName"] CName
+---@field public ["authorizationTextOverride"] String
+---@field public ["doorShouldOpenFrontLeftRight"] Bool[]
 ElevatorFloorSetup = {}
 
 ---@param fields? table

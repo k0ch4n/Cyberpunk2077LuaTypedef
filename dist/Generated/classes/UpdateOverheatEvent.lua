@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateOverheatEvent: redEvent
----@field public value Float
+---@field public ["value"] Float
 UpdateOverheatEvent = {}
 
 ---@param fields? table

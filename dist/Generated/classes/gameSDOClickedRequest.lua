@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSDOClickedRequest: gameScriptableSystemRequest
----@field public fullPath CName
----@field public key CName
+---@field public ["fullPath"] CName
+---@field public ["key"] CName
 gameSDOClickedRequest = {}
 
 ---@param fields? table

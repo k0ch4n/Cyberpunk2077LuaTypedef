@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileLinearMovementEvent: redEvent
----@field public targetPosition Vector4
+---@field public ["targetPosition"] Vector4
 gameprojectileLinearMovementEvent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CallActionWidgetController: DeviceActionWidgetControllerBase
----@field protected statusText inkTextWidgetReference
----@field protected callingAnimName CName
----@field protected talkingAnimName CName
----@field protected status IntercomStatus
+---@field protected ["statusText"] inkTextWidgetReference
+---@field protected ["callingAnimName"] CName
+---@field protected ["talkingAnimName"] CName
+---@field protected ["status"] IntercomStatus
 CallActionWidgetController = {}
 
 ---@param fields? table

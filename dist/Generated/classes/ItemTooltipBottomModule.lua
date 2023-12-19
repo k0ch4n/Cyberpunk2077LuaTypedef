@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipBottomModule: ItemTooltipModuleController
----@field private weightWrapper inkWidgetReference
----@field private priceWrapper inkWidgetReference
----@field private weightText inkTextWidgetReference
----@field private priceText inkTextWidgetReference
+---@field private ["weightWrapper"] inkWidgetReference
+---@field private ["priceWrapper"] inkWidgetReference
+---@field private ["weightText"] inkTextWidgetReference
+---@field private ["priceText"] inkTextWidgetReference
 ItemTooltipBottomModule = {}
 
 ---@param fields? table

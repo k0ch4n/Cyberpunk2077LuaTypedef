@@ -9,7 +9,7 @@ MenuScenario_TimeSkip = {}
 function MenuScenario_TimeSkip.new(fields) return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_TimeSkip:OnEnterScenario(prevScenario, userData) return end

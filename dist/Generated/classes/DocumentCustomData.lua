@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DocumentCustomData: IScriptable
----@field public id Int32
----@field public type EDocumentType
+---@field public ["id"] Int32
+---@field public ["type"] EDocumentType
 DocumentCustomData = {}
 
 ---@param fields? table

@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ScriptableDeviceAction: BaseScriptableAction
----@field public prop gamedeviceActionProperty
----@field protected actionWidgetPackage SActionWidgetPackage
----@field protected spiderbotActionLocationOverride NodeRef
----@field protected duration Float
----@field private canTriggerStim Bool
----@field private wasPerformedOnOwner Bool
----@field private shouldActivateDevice Bool
----@field private disableSpread Bool
----@field protected isQuickHack Bool
----@field protected isSpiderbotAction Bool
----@field protected attachedProgram TweakDBID
----@field protected activeStatusEffect TweakDBID
----@field protected interactionIconType TweakDBID
----@field protected hasInteraction Bool
----@field protected inactiveReason String
----@field protected widgetStyle gamedataComputerUIStyle
+---@field public ["prop"] gamedeviceActionProperty
+---@field protected ["actionWidgetPackage"] SActionWidgetPackage
+---@field protected ["spiderbotActionLocationOverride"] NodeRef
+---@field protected ["duration"] Float
+---@field private ["canTriggerStim"] Bool
+---@field private ["wasPerformedOnOwner"] Bool
+---@field private ["shouldActivateDevice"] Bool
+---@field private ["disableSpread"] Bool
+---@field protected ["isQuickHack"] Bool
+---@field protected ["isSpiderbotAction"] Bool
+---@field protected ["attachedProgram"] TweakDBID
+---@field protected ["activeStatusEffect"] TweakDBID
+---@field protected ["interactionIconType"] TweakDBID
+---@field protected ["hasInteraction"] Bool
+---@field protected ["inactiveReason"] String
+---@field protected ["widgetStyle"] gamedataComputerUIStyle
 ScriptableDeviceAction = {}
 
 ---@param device ScriptableDeviceComponentPS
@@ -233,7 +233,7 @@ function ScriptableDeviceAction:SetInkWidgetTweakDBID(id) return end
 ---@return nil
 function ScriptableDeviceAction:SetInteractionIcon(iconType) return end
 
----@param layer CName
+---@param layer CName|string
 ---@return nil
 function ScriptableDeviceAction:SetInteractionLayer(layer) return end
 

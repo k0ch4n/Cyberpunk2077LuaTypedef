@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ActionWeightCondition: AIbehaviorconditionScript
----@field public selectedActionIndex AIArgumentMapping
----@field public thisIndex Int32
+---@field public ["selectedActionIndex"] AIArgumentMapping
+---@field public ["thisIndex"] Int32
 ActionWeightCondition = {}
 
 ---@param fields? table

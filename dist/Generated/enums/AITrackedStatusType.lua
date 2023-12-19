@@ -3,8 +3,8 @@
 
 ---@enum AITrackedStatusType
 AITrackedStatusType = {
-    ["Unknown"] = 0,
-    ["Friendly"] = 1,
-    ["Neutral"] = 2,
-    ["Hostile"] = 3
+    ["Unknown"] = 0, ---@type Enum
+    ["Friendly"] = 1, ---@type Enum
+    ["Neutral"] = 2, ---@type Enum
+    ["Hostile"] = 3, ---@type Enum
 }

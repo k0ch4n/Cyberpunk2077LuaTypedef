@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpBumpEvent: redEvent
----@field public amount Uint32
+---@field public ["amount"] Uint32
 cpBumpEvent = {}
 
 ---@param fields? table

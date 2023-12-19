@@ -3,7 +3,7 @@
 
 ---@enum InGameConfigUserSettingsSaveStatus
 InGameConfigUserSettingsSaveStatus = {
-    ["NotSaved"] = 0,
-    ["InternalError"] = 1,
-    ["Saved"] = 2
+    ["NotSaved"] = 0, ---@type Enum
+    ["InternalError"] = 1, ---@type Enum
+    ["Saved"] = 2, ---@type Enum
 }

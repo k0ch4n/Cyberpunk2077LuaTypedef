@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentGlobalNodeIdValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue worldGlobalNodeID
+---@field public ["type"] AIArgumentType
+---@field public ["defaultValue"] worldGlobalNodeID
 AIArgumentGlobalNodeIdValue = {}
 
 ---@param fields? table

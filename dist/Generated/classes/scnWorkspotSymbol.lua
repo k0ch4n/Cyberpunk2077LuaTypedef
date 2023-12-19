@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnWorkspotSymbol
----@field public wsInstance scnSceneWorkspotInstanceId
----@field public wsNodeId scnNodeId
----@field public wsEditorEventId Uint64
+---@field public ["wsInstance"] scnSceneWorkspotInstanceId
+---@field public ["wsNodeId"] scnNodeId
+---@field public ["wsEditorEventId"] Uint64
 scnWorkspotSymbol = {}
 
 ---@param fields? table

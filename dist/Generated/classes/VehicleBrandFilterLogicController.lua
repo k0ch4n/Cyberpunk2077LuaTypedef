@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class VehicleBrandFilterLogicController: BaseButtonView
----@field private brandLogo inkImageWidgetReference
----@field private brandText inkTextWidgetReference
----@field private brand CName
----@field private brandAsString String
----@field private state EVehicleBrandState
----@field private isHovered Bool
----@field private styleWidget inkWidget
----@field private newOffers CName[]
+---@field private ["brandLogo"] inkImageWidgetReference
+---@field private ["brandText"] inkTextWidgetReference
+---@field private ["brand"] CName
+---@field private ["brandAsString"] String
+---@field private ["state"] EVehicleBrandState
+---@field private ["isHovered"] Bool
+---@field private ["styleWidget"] inkWidget
+---@field private ["newOffers"] CName[]
 VehicleBrandFilterLogicController = {}
 
 ---@param fields? table
@@ -20,7 +20,7 @@ function VehicleBrandFilterLogicController.new(fields) return end
 ---@return Bool
 function VehicleBrandFilterLogicController:OnInitialize() return end
 
----@param offerFact CName
+---@param offerFact CName|string
 ---@return nil
 function VehicleBrandFilterLogicController:AddNewOffer(offerFact) return end
 
@@ -39,7 +39,7 @@ function VehicleBrandFilterLogicController:HasNewOffers() return end
 ---@return nil
 function VehicleBrandFilterLogicController:RefreshState() return end
 
----@param offerFact CName
+---@param offerFact CName|string
 ---@return nil
 function VehicleBrandFilterLogicController:RemoveNewOffer(offerFact) return end
 
@@ -47,7 +47,7 @@ function VehicleBrandFilterLogicController:RemoveNewOffer(offerFact) return end
 ---@return nil
 function VehicleBrandFilterLogicController:SetHoverState(isHovered) return end
 
----@param brand CName
+---@param brand CName|string
 ---@param state EVehicleBrandState
 ---@return nil
 function VehicleBrandFilterLogicController:SetUp(brand, state) return end

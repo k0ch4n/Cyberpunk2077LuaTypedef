@@ -8,7 +8,7 @@ gameuiItemDataViewWrapper = {}
 ---@return gameuiItemDataViewWrapper
 function gameuiItemDataViewWrapper.new(fields) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function gameuiItemDataViewWrapper:AddSkipTag(tag) return end
 
@@ -24,7 +24,7 @@ function gameuiItemDataViewWrapper:Filter() return end
 ---@return Bool
 function gameuiItemDataViewWrapper:IsSortingEnabled() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function gameuiItemDataViewWrapper:RemoveSkipTag(tag) return end
 
@@ -38,7 +38,7 @@ function gameuiItemDataViewWrapper:ResetSkipTags() return end
 ---@return nil
 function gameuiItemDataViewWrapper:SetItemTypesForSorting(types) return end
 
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@return nil
 function gameuiItemDataViewWrapper:SetSkipTags(tags) return end
 

@@ -3,7 +3,7 @@
 
 ---@enum questPhoneCallMode
 questPhoneCallMode = {
-    ["Undefined"] = 0,
-    ["Audio"] = 1,
-    ["Video"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Audio"] = 1, ---@type Enum
+    ["Video"] = 2, ---@type Enum
 }

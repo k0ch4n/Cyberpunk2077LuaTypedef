@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CluePSData: IScriptable
----@field private id Int32
----@field private isEnabled Bool
----@field private wasInspected Bool
----@field private isScanned Bool
----@field private conclusionQuestState EConclusionQuestState
+---@field private ["id"] Int32
+---@field private ["isEnabled"] Bool
+---@field private ["wasInspected"] Bool
+---@field private ["isScanned"] Bool
+---@field private ["conclusionQuestState"] EConclusionQuestState
 CluePSData = {}
 
 ---@param fields? table

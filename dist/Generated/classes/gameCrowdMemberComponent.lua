@@ -17,7 +17,7 @@ function gameCrowdMemberComponent:AllowWorkspotsUsage(allowUsage) return end
 ---@return Bool
 function gameCrowdMemberComponent:ChangeFearStage(stage, playInitAniation) return end
 
----@param name CName
+---@param name CName|string
 ---@return Bool
 function gameCrowdMemberComponent:ChangeMoveType(name) return end
 

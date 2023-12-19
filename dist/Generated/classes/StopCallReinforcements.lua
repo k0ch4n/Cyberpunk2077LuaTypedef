@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StopCallReinforcements: AIbehaviortaskScript
----@field protected puppet ScriptedPuppet
----@field protected pauseResumePhoneCallEvent PauseResumePhoneCallEvent
----@field protected statPoolType gamedataStatPoolType
+---@field protected ["puppet"] ScriptedPuppet
+---@field protected ["pauseResumePhoneCallEvent"] PauseResumePhoneCallEvent
+---@field protected ["statPoolType"] gamedataStatPoolType
 StopCallReinforcements = {}
 
 ---@param fields? table

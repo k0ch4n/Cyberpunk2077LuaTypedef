@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuyItemFromVendor: ActionBool
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 BuyItemFromVendor = {}
 
 ---@param fields? table
@@ -16,7 +16,7 @@ function BuyItemFromVendor.IsDefaultConditionMet(device, context) return end
 
 ---@param displayText String
 ---@param additionalText String
----@param imageAtlasImageID CName
+---@param imageAtlasImageID CName|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
 function BuyItemFromVendor:CreateActionWidgetPackage(displayText, additionalText, imageAtlasImageID, actions) return end

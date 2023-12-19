@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSignalId
----@field public value Uint16
+---@field public ["value"] Uint16
 gameSignalId = {}
 
 ---@param fields? table

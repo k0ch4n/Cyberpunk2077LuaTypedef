@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CarryEvents: CarriedObjectEvents
----@field public knockdownImmunityModifier gameStatModifierData_Deprecated
+---@field public ["knockdownImmunityModifier"] gameStatModifierData_Deprecated
 CarryEvents = {}
 
 ---@param fields? table

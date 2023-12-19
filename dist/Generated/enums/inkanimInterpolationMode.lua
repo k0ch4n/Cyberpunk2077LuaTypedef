@@ -3,8 +3,8 @@
 
 ---@enum inkanimInterpolationMode
 inkanimInterpolationMode = {
-    ["EasyIn"] = 0,
-    ["EasyOut"] = 1,
-    ["EasyInOut"] = 2,
-    ["EasyOutIn"] = 3
+    ["EasyIn"] = 0, ---@type Enum
+    ["EasyOut"] = 1, ---@type Enum
+    ["EasyInOut"] = 2, ---@type Enum
+    ["EasyOutIn"] = 3, ---@type Enum
 }

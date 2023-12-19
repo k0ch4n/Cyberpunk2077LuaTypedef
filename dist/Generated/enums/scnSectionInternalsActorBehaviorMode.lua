@@ -3,6 +3,6 @@
 
 ---@enum scnSectionInternalsActorBehaviorMode
 scnSectionInternalsActorBehaviorMode = {
-    ["OnlyIfAlive"] = 0,
-    ["EvenIfDead"] = 1
+    ["OnlyIfAlive"] = 0, ---@type Enum
+    ["EvenIfDead"] = 1, ---@type Enum
 }

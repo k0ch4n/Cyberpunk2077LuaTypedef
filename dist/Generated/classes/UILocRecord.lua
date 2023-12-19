@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UILocRecord
----@field public tag CName
----@field public value String
+---@field public ["tag"] CName
+---@field public ["value"] String
 UILocRecord = {}
 
 ---@param fields? table

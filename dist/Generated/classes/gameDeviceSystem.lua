@@ -9,9 +9,9 @@ gameDeviceSystem = {}
 function gameDeviceSystem.new(fields) return end
 
 ---@param deviceEntityID gamePersistentID
----@param deviceClassName CName
+---@param deviceClassName CName|string
 ---@param parentEntityID gamePersistentID
----@param parentClassName CName
+---@param parentClassName CName|string
 ---@return nil
 function gameDeviceSystem:AddDynamicConnection(deviceEntityID, deviceClassName, parentEntityID, parentClassName) return end
 

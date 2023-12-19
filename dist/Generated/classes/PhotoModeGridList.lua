@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class PhotoModeGridList: inkRadioGroupController
----@field private ScrollArea inkScrollAreaWidgetReference
----@field private ContentRoot inkWidgetReference
----@field private SliderWidget inkWidgetReference
----@field private rowOffset Int32
----@field private firstOffset Int32
----@field private rowLibraryId CName
----@field private buttonLibraryId CName
----@field private parentListItem PhotoModeMenuListItem
----@field private buttons PhotoModeGridButton[]
----@field private rows inkWidget[]
----@field private sliderController inkSliderController
----@field private ItemsInRow Int32
----@field private RowsCount Int32
----@field private SelectedIndex Int32
----@field private PreviousSelectedIndex Int32
----@field private visibleSize Float
----@field private visibleRows Int32
----@field private scrollRow Int32
----@field private isVisibleOnscreen Bool
+---@field private ["ScrollArea"] inkScrollAreaWidgetReference
+---@field private ["ContentRoot"] inkWidgetReference
+---@field private ["SliderWidget"] inkWidgetReference
+---@field private ["rowOffset"] Int32
+---@field private ["firstOffset"] Int32
+---@field private ["rowLibraryId"] CName
+---@field private ["buttonLibraryId"] CName
+---@field private ["parentListItem"] PhotoModeMenuListItem
+---@field private ["buttons"] PhotoModeGridButton[]
+---@field private ["rows"] inkWidget[]
+---@field private ["sliderController"] inkSliderController
+---@field private ["ItemsInRow"] Int32
+---@field private ["RowsCount"] Int32
+---@field private ["SelectedIndex"] Int32
+---@field private ["PreviousSelectedIndex"] Int32
+---@field private ["visibleSize"] Float
+---@field private ["visibleRows"] Int32
+---@field private ["scrollRow"] Int32
+---@field private ["isVisibleOnscreen"] Bool
 PhotoModeGridList = {}
 
 ---@param fields? table
@@ -105,7 +105,7 @@ function PhotoModeGridList:SelectButton(index) return end
 
 ---@param buttonIndex Uint32
 ---@param atlasPath redResourceReferenceScriptToken
----@param imagePart CName
+---@param imagePart CName|string
 ---@param buttonData Int32
 ---@return nil
 function PhotoModeGridList:SetGridButtonImage(buttonIndex, atlasPath, imagePart, buttonData) return end

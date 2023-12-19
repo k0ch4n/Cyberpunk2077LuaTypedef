@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameInventoryItemAttachments: IScriptable
----@field public SlotID TweakDBID
----@field public ItemData gameInventoryItemData
----@field public SlotName String
----@field public SlotType gameInventoryItemAttachmentType
+---@field public ["SlotID"] TweakDBID
+---@field public ["ItemData"] gameInventoryItemData
+---@field public ["SlotName"] String
+---@field public ["SlotType"] gameInventoryItemAttachmentType
 gameInventoryItemAttachments = {}
 
 ---@param fields? table

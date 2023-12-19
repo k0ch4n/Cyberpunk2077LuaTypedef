@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questContentLock_ConditionType: questIContentConditionType
----@field public isContentBlocked Bool
+---@field public ["isContentBlocked"] Bool
 questContentLock_ConditionType = {}
 
 ---@param fields? table

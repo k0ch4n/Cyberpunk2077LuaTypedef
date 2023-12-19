@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsMessageLocation_EditorObject: toolsIMessageLocation
----@field public path toolsEditorObjectIDPath
+---@field public ["path"] toolsEditorObjectIDPath
 toolsMessageLocation_EditorObject = {}
 
 ---@param fields? table

@@ -13,7 +13,7 @@ function AIbehaviorexpressionScript.new(fields) return end
 function AIbehaviorexpressionScript:MarkDirty(context) return end
 
 ---@protected
----@param cbName CName
+---@param cbName CName|string
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
 function AIbehaviorexpressionScript:OnBehaviorCallback(cbName, context) return end

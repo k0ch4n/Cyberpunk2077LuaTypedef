@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AISharedVarDefinition
----@field public type AIESharedVarDefinitionType
----@field public name LibTreeSharedVarRegistrationName
+---@field public ["type"] AIESharedVarDefinitionType
+---@field public ["name"] LibTreeSharedVarRegistrationName
 AISharedVarDefinition = {}
 
 ---@param fields? table

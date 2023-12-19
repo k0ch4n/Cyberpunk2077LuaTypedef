@@ -2,82 +2,82 @@
 ---@diagnostic disable
 
 ---@class NPCPuppet: ScriptedPuppet
----@field private lastHitEvent gameeventsHitEvent
----@field private totalFrameReactionDamageReceived Float
----@field private totalFrameWoundsDamageReceived Float
----@field private totalFrameDismembermentDamageReceived Float
----@field private hitEventLock ScriptReentrantRWLock
----@field private NPCManager NPCManager
----@field private customDeathDirection Int32
----@field private deathOverrideState Bool
----@field private agonyState Bool
----@field private defensiveState Bool
----@field private lastSetupWorkspotActionEvent gameSetupWorkspotActionEvent
----@field public wasJustKilledOrDefeated Bool
----@field private shouldDie Bool
----@field private shouldBeDefeated Bool
----@field private sentDownedEvent Bool
----@field private isRagdolling Bool
----@field private hasAnimatedRagdoll Bool
----@field private disableCollisionRequested Bool
----@field private ragdollInstigator gameObject
----@field private ragdollSplattersSpawned Int32
----@field private ragdollFloorSplashSpawned Bool
----@field private ragdollDamageData RagdollDamagePollData
----@field private ragdollInitialPosition Vector4
----@field private ragdollActivationTimestamp Float
----@field private ragdollImpactedNPCs NPCPuppet[]
----@field private disableRagdollAfterRecovery Bool
----@field private thrownNPCNearbyCrowdNPCs entEntity[]
----@field private isNotVisible Bool
----@field private deathListener NPCDeathListener
----@field private poiseListener NPCPoiseListener
----@field private godModeStatListener NPCGodModeListener
----@field private VehicleHitImmunityCallbackID Uint32
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private npcRagdollComponent entIComponent
----@field private npcTraceObstacleComponent entSimpleColliderComponent
----@field private npcMountedToPlayerComponents entIComponent[]
----@field private scavengeComponent ScavengeComponent
----@field private influenceComponent gameinfluenceComponent
----@field private comfortZoneComponent entIComponent
----@field public isTargetingPlayer Bool
----@field public shouldBeImmuneToVehicleHit Bool
----@field private playerStatsListener gameScriptStatsListener
----@field private upperBodyStateCallbackID redCallbackObject
----@field private leftCyberwareStateCallbackID redCallbackObject
----@field private meleeStateCallbackID redCallbackObject
----@field private combatGadgetStateCallbackID redCallbackObject
----@field private wasAimedAtLast Bool
----@field private wasCWChargedAtLast Bool
----@field private wasMeleeChargedAtLast Bool
----@field private wasChargingGadgetAtLast Bool
----@field private isLookedAt Bool
----@field private cachedPlayerID entEntityID
----@field private wasAggressiveCrowd Bool
----@field private canGoThroughDoors Bool
----@field private lastStatusEffectSignalSent gamedataStatusEffect_Record
----@field private cachedStatusEffectAnim gamedataStatusEffect_Record
----@field private resendStatusEffectSignalDelayID gameDelayID
----@field private lastSEAppliedByPlayer gameStatusEffect
----@field private pendingSEEvent gameeventsApplyStatusEffectEvent
----@field private pendingDueToCachedSEAnim Bool
----@field private bounty Bounty
----@field private cachedVFXList gamedataStatusEffectFX_Record[]
----@field private cachedSFXList gamedataStatusEffectFX_Record[]
----@field private isThrowingGrenadeToPlayer Bool
----@field private throwingGrenadeDelayEventID gameDelayID
----@field private myKiller gameObject
----@field private primaryThreatCalculationType EAIThreatCalculationType
----@field private temporaryThreatCalculationType EAIThreatCalculationType
----@field private isPlayerCompanionCached Bool
----@field private isPlayerCompanionCachedTimeStamp Float
----@field private quickHackEffectsApplied Uint32
----@field private hackingResistanceMod gameConstantStatModifierData_Deprecated
----@field private delayNonStealthQuickHackVictimEventID gameDelayID
----@field private cachedIsPaperdoll Int32
----@field private smartDespawnDelayID gameDelayID
----@field private despawnTicks Uint32
+---@field private ["lastHitEvent"] gameeventsHitEvent
+---@field private ["totalFrameReactionDamageReceived"] Float
+---@field private ["totalFrameWoundsDamageReceived"] Float
+---@field private ["totalFrameDismembermentDamageReceived"] Float
+---@field private ["hitEventLock"] ScriptReentrantRWLock
+---@field private ["NPCManager"] NPCManager
+---@field private ["customDeathDirection"] Int32
+---@field private ["deathOverrideState"] Bool
+---@field private ["agonyState"] Bool
+---@field private ["defensiveState"] Bool
+---@field private ["lastSetupWorkspotActionEvent"] gameSetupWorkspotActionEvent
+---@field public ["wasJustKilledOrDefeated"] Bool
+---@field private ["shouldDie"] Bool
+---@field private ["shouldBeDefeated"] Bool
+---@field private ["sentDownedEvent"] Bool
+---@field private ["isRagdolling"] Bool
+---@field private ["hasAnimatedRagdoll"] Bool
+---@field private ["disableCollisionRequested"] Bool
+---@field private ["ragdollInstigator"] gameObject
+---@field private ["ragdollSplattersSpawned"] Int32
+---@field private ["ragdollFloorSplashSpawned"] Bool
+---@field private ["ragdollDamageData"] RagdollDamagePollData
+---@field private ["ragdollInitialPosition"] Vector4
+---@field private ["ragdollActivationTimestamp"] Float
+---@field private ["ragdollImpactedNPCs"] NPCPuppet[]
+---@field private ["disableRagdollAfterRecovery"] Bool
+---@field private ["thrownNPCNearbyCrowdNPCs"] entEntity[]
+---@field private ["isNotVisible"] Bool
+---@field private ["deathListener"] NPCDeathListener
+---@field private ["poiseListener"] NPCPoiseListener
+---@field private ["godModeStatListener"] NPCGodModeListener
+---@field private ["VehicleHitImmunityCallbackID"] Uint32
+---@field private ["npcCollisionComponent"] entSimpleColliderComponent
+---@field private ["npcRagdollComponent"] entIComponent
+---@field private ["npcTraceObstacleComponent"] entSimpleColliderComponent
+---@field private ["npcMountedToPlayerComponents"] entIComponent[]
+---@field private ["scavengeComponent"] ScavengeComponent
+---@field private ["influenceComponent"] gameinfluenceComponent
+---@field private ["comfortZoneComponent"] entIComponent
+---@field public ["isTargetingPlayer"] Bool
+---@field public ["shouldBeImmuneToVehicleHit"] Bool
+---@field private ["playerStatsListener"] gameScriptStatsListener
+---@field private ["upperBodyStateCallbackID"] redCallbackObject
+---@field private ["leftCyberwareStateCallbackID"] redCallbackObject
+---@field private ["meleeStateCallbackID"] redCallbackObject
+---@field private ["combatGadgetStateCallbackID"] redCallbackObject
+---@field private ["wasAimedAtLast"] Bool
+---@field private ["wasCWChargedAtLast"] Bool
+---@field private ["wasMeleeChargedAtLast"] Bool
+---@field private ["wasChargingGadgetAtLast"] Bool
+---@field private ["isLookedAt"] Bool
+---@field private ["cachedPlayerID"] entEntityID
+---@field private ["wasAggressiveCrowd"] Bool
+---@field private ["canGoThroughDoors"] Bool
+---@field private ["lastStatusEffectSignalSent"] gamedataStatusEffect_Record
+---@field private ["cachedStatusEffectAnim"] gamedataStatusEffect_Record
+---@field private ["resendStatusEffectSignalDelayID"] gameDelayID
+---@field private ["lastSEAppliedByPlayer"] gameStatusEffect
+---@field private ["pendingSEEvent"] gameeventsApplyStatusEffectEvent
+---@field private ["pendingDueToCachedSEAnim"] Bool
+---@field private ["bounty"] Bounty
+---@field private ["cachedVFXList"] gamedataStatusEffectFX_Record[]
+---@field private ["cachedSFXList"] gamedataStatusEffectFX_Record[]
+---@field private ["isThrowingGrenadeToPlayer"] Bool
+---@field private ["throwingGrenadeDelayEventID"] gameDelayID
+---@field private ["myKiller"] gameObject
+---@field private ["primaryThreatCalculationType"] EAIThreatCalculationType
+---@field private ["temporaryThreatCalculationType"] EAIThreatCalculationType
+---@field private ["isPlayerCompanionCached"] Bool
+---@field private ["isPlayerCompanionCachedTimeStamp"] Float
+---@field private ["quickHackEffectsApplied"] Uint32
+---@field private ["hackingResistanceMod"] gameConstantStatModifierData_Deprecated
+---@field private ["delayNonStealthQuickHackVictimEventID"] gameDelayID
+---@field private ["cachedIsPaperdoll"] Int32
+---@field private ["smartDespawnDelayID"] gameDelayID
+---@field private ["despawnTicks"] Uint32
 NPCPuppet = {}
 
 ---@param fields? table
@@ -187,7 +187,7 @@ function NPCPuppet.SendNPCHitDataTrackingRequest(owner, telemetryData, modifyVal
 function NPCPuppet.SetAnimWrapperBasedOnEquippedItem(npc, slotID, itemID, value) return end
 
 ---@param npc NPCPuppet
----@param wrapperNameBasedOnID CName
+---@param wrapperNameBasedOnID CName|string
 ---@param slotID TweakDBID
 ---@param itemID gameItemID
 ---@param value Float
@@ -1129,7 +1129,7 @@ function NPCPuppet:SendRevealStateToAllWeakspots(revealState) return end
 
 ---@protected
 ---@param priority Float
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@param flags EAIGateSignalFlags[]
 ---@param statusEffectID TweakDBID
 ---@param repeatSignalDelay Float
@@ -1216,7 +1216,7 @@ function NPCPuppet:ShouldRequestHitReaction(hitEvent) return end
 function NPCPuppet:ShouldTripVictim(victim) return end
 
 ---@private
----@param n CName
+---@param n CName|string
 ---@return nil
 function NPCPuppet:SpawnHitVisualEffect(n) return end
 
@@ -1292,7 +1292,7 @@ function NPCPuppet:TriggerStatusEffectBehavior(evt, alwaysTrigger, checkCachedSE
 
 ---@protected
 ---@param priority Float
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@param flags EAIGateSignalFlags[]
 ---@param statusEffectID TweakDBID
 ---@param repeatSignalDelay Float

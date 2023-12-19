@@ -3,7 +3,7 @@
 
 ---@enum navNaviPositionType
 navNaviPositionType = {
-    ["None"] = 0,
-    ["Normal"] = 1,
-    ["Projected"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Normal"] = 1, ---@type Enum
+    ["Projected"] = 2, ---@type Enum
 }

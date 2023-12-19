@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class gameuiHDRSettingsGameController: gameuiMenuGameController
----@field public callibrationScreen CBitmapTexture
----@field public callibrationScreenTarget inkWidgetReference
----@field public callibrationScreenAtlas inkTextureAtlas
----@field private s_maxBrightnessGroup CName
----@field private s_paperWhiteGroup CName
----@field private s_toneMappingeGroup CName
----@field private s_saturationGroup CName
----@field private s_calibrationImageDay CName
----@field private s_calibrationImageNight CName
----@field private s_currentCalibrationImage CName
----@field private paperWhiteOptionSelector inkCompoundWidgetReference
----@field private maxBrightnessOptionSelector inkCompoundWidgetReference
----@field private toneMappingOptionSelector inkCompoundWidgetReference
----@field private saturationOptionSelector inkCompoundWidgetReference
----@field private targetImageWidget inkWidgetReference
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private settings userSettingsUserSettings
----@field private settingsListener HDRSettingsVarListener
----@field private SettingsElements inkSettingsSelectorController[]
----@field private isPreGame Bool
----@field private calibrationImagesCycleAnimDef inkanimDefinition
----@field private calibrationImagesCycleProxy inkanimProxy
+---@field public ["callibrationScreen"] CBitmapTexture
+---@field public ["callibrationScreenTarget"] inkWidgetReference
+---@field public ["callibrationScreenAtlas"] inkTextureAtlas
+---@field private ["s_maxBrightnessGroup"] CName
+---@field private ["s_paperWhiteGroup"] CName
+---@field private ["s_toneMappingeGroup"] CName
+---@field private ["s_saturationGroup"] CName
+---@field private ["s_calibrationImageDay"] CName
+---@field private ["s_calibrationImageNight"] CName
+---@field private ["s_currentCalibrationImage"] CName
+---@field private ["paperWhiteOptionSelector"] inkCompoundWidgetReference
+---@field private ["maxBrightnessOptionSelector"] inkCompoundWidgetReference
+---@field private ["toneMappingOptionSelector"] inkCompoundWidgetReference
+---@field private ["saturationOptionSelector"] inkCompoundWidgetReference
+---@field private ["targetImageWidget"] inkWidgetReference
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["settingsListener"] HDRSettingsVarListener
+---@field private ["SettingsElements"] inkSettingsSelectorController[]
+---@field private ["isPreGame"] Bool
+---@field private ["calibrationImagesCycleAnimDef"] inkanimDefinition
+---@field private ["calibrationImagesCycleProxy"] inkanimProxy
 gameuiHDRSettingsGameController = {}
 
 ---@param fields? table
@@ -38,7 +38,7 @@ function gameuiHDRSettingsGameController:SetHDRCalibrationScreen(enabled) return
 ---@return nil
 function gameuiHDRSettingsGameController:SetRenderGameInBackground(enabled) return end
 
----@param partName CName
+---@param partName CName|string
 ---@return nil
 function gameuiHDRSettingsGameController:SetTexturePart(partName) return end
 
@@ -70,8 +70,8 @@ function gameuiHDRSettingsGameController:OnUninitialize() return end
 ---@return Bool
 function gameuiHDRSettingsGameController:OnUpdateHDRCalibrationScreen(evt) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
@@ -82,6 +82,6 @@ function gameuiHDRSettingsGameController:OnVarModified(groupPath, varName, varTy
 function gameuiHDRSettingsGameController:PrepareHDRCycleAnimations() return end
 
 ---@private
----@param optionName CName
+---@param optionName CName|string
 ---@return nil
 function gameuiHDRSettingsGameController:SetOptionSelector(optionName) return end

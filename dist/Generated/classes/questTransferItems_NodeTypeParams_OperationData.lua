@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTransferItems_NodeTypeParams_OperationData
----@field public itemTDBID TweakDBID
----@field public quantity Int32
+---@field public ["itemTDBID"] TweakDBID
+---@field public ["quantity"] Int32
 questTransferItems_NodeTypeParams_OperationData = {}
 
 ---@param fields? table

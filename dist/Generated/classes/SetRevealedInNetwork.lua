@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetRevealedInNetwork: redEvent
----@field public wasRevealed Bool
+---@field public ["wasRevealed"] Bool
 SetRevealedInNetwork = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum toolsMessageTokenType
 toolsMessageTokenType = {
-    ["Text"] = 0,
-    ["Location"] = 1,
-    ["Tag"] = 2
+    ["Text"] = 0, ---@type Enum
+    ["Location"] = 1, ---@type Enum
+    ["Tag"] = 2, ---@type Enum
 }

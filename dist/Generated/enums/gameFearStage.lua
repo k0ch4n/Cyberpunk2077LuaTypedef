@@ -3,8 +3,8 @@
 
 ---@enum gameFearStage
 gameFearStage = {
-    ["Relaxed"] = 0,
-    ["Stressed"] = 1,
-    ["Alarmed"] = 2,
-    ["Panic"] = 3
+    ["Relaxed"] = 0, ---@type Enum
+    ["Stressed"] = 1, ---@type Enum
+    ["Alarmed"] = 2, ---@type Enum
+    ["Panic"] = 3, ---@type Enum
 }

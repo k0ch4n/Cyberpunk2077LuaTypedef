@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class gameBreachFinderComponent: entIComponent
----@field public owner gameObject
----@field public audioSystem gameGameAudioSystem
----@field public statsSystem gameStatsSystem
----@field public hitCount Int32
----@field public almostTimeout Bool
----@field public breachDurationMin Float
----@field public breachDurationMax Float
----@field public breachDurationIncreasePerStreak Float
----@field public breachDurationIncreaseForAnyStreak Float
----@field public breachDurationIncreaseOnFirstLookat Float
----@field public breachDurationIncreaseOnFirstHit Float
----@field public breachCooldownMin Float
----@field public breachCooldownMax Float
----@field public breachCooldownDecreasePerStreak Float
----@field public onBreachDestroyedAttackRecord gamedataAttack_GameEffect_Record
----@field public onBreachDestroyedHealthToDamage Float
----@field public onBreachDestroyedHealthToDamageBoss Float
----@field public desiredBreachDuration Float
----@field public cooldownAfterBreach Float
+---@field public ["owner"] gameObject
+---@field public ["audioSystem"] gameGameAudioSystem
+---@field public ["statsSystem"] gameStatsSystem
+---@field public ["hitCount"] Int32
+---@field public ["almostTimeout"] Bool
+---@field public ["breachDurationMin"] Float
+---@field public ["breachDurationMax"] Float
+---@field public ["breachDurationIncreasePerStreak"] Float
+---@field public ["breachDurationIncreaseForAnyStreak"] Float
+---@field public ["breachDurationIncreaseOnFirstLookat"] Float
+---@field public ["breachDurationIncreaseOnFirstHit"] Float
+---@field public ["breachCooldownMin"] Float
+---@field public ["breachCooldownMax"] Float
+---@field public ["breachCooldownDecreasePerStreak"] Float
+---@field public ["onBreachDestroyedAttackRecord"] gamedataAttack_GameEffect_Record
+---@field public ["onBreachDestroyedHealthToDamage"] Float
+---@field public ["onBreachDestroyedHealthToDamageBoss"] Float
+---@field public ["desiredBreachDuration"] Float
+---@field public ["cooldownAfterBreach"] Float
 gameBreachFinderComponent = {}
 
 ---@param fields? table

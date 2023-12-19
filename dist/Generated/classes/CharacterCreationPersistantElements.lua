@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationPersistantElements: inkWidgetLogicController
----@field private headerHolder inkCompoundWidgetReference
----@field private LBBtn inkWidgetReference
----@field private RBBtn inkWidgetReference
----@field private fluffHolderRight inkCompoundWidgetReference
----@field private fluffHolderDown inkCompoundWidgetReference
----@field private fluffHolderLeft inkCompoundWidgetReference
----@field private fluffText1 inkTextWidgetReference
----@field private fluffTextRight inkTextWidgetReference
----@field private fluffTextDown inkTextWidgetReference
----@field private fluffTextLeft inkTextWidgetReference
----@field private headers CharacterCreationTopBarHeader[]
----@field private selectedHeader CharacterCreationTopBarHeader
----@field public c_fluffMaxX Float
----@field public c_fluffMinY Float
----@field public c_fluffMaxY Float
+---@field private ["headerHolder"] inkCompoundWidgetReference
+---@field private ["LBBtn"] inkWidgetReference
+---@field private ["RBBtn"] inkWidgetReference
+---@field private ["fluffHolderRight"] inkCompoundWidgetReference
+---@field private ["fluffHolderDown"] inkCompoundWidgetReference
+---@field private ["fluffHolderLeft"] inkCompoundWidgetReference
+---@field private ["fluffText1"] inkTextWidgetReference
+---@field private ["fluffTextRight"] inkTextWidgetReference
+---@field private ["fluffTextDown"] inkTextWidgetReference
+---@field private ["fluffTextLeft"] inkTextWidgetReference
+---@field private ["headers"] CharacterCreationTopBarHeader[]
+---@field private ["selectedHeader"] CharacterCreationTopBarHeader
+---@field public ["c_fluffMaxX"] Float
+---@field public ["c_fluffMinY"] Float
+---@field public ["c_fluffMaxY"] Float
 CharacterCreationPersistantElements = {}
 
 ---@param fields? table
@@ -56,7 +56,7 @@ function CharacterCreationPersistantElements:ChangeNavigationButtonVisibility(pr
 function CharacterCreationPersistantElements:ChangeSelectedHeader(selectedIndex) return end
 
 ---@param label String
----@param icon CName
+---@param icon CName|string
 ---@return nil
 function CharacterCreationPersistantElements:CreateHeader(label, icon) return end
 

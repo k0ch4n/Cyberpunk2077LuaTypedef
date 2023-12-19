@@ -3,5 +3,5 @@
 
 ---@enum EWorldMapView
 EWorldMapView = {
-    ["Map"] = 0
+    ["Map"] = 0, ---@type Enum
 }

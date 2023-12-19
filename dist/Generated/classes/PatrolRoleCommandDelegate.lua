@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PatrolRoleCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public patrolWithWeapon Bool
----@field public forceAlerted Bool
+---@field public ["patrolWithWeapon"] Bool
+---@field public ["forceAlerted"] Bool
 PatrolRoleCommandDelegate = {}
 
 ---@param fields? table

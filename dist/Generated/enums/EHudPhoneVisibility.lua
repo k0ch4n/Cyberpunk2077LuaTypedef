@@ -3,8 +3,8 @@
 
 ---@enum EHudPhoneVisibility
 EHudPhoneVisibility = {
-    ["Invisible"] = 0,
-    ["Showing"] = 1,
-    ["Visible"] = 2,
-    ["Hiding"] = 3
+    ["Invisible"] = 0, ---@type Enum
+    ["Showing"] = 1, ---@type Enum
+    ["Visible"] = 2, ---@type Enum
+    ["Hiding"] = 3, ---@type Enum
 }

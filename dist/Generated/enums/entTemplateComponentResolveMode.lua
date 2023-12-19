@@ -3,7 +3,7 @@
 
 ---@enum entTemplateComponentResolveMode
 entTemplateComponentResolveMode = {
-    ["AutoSelect"] = 0,
-    ["Select"] = 1,
-    ["Suppress"] = 2
+    ["AutoSelect"] = 0, ---@type Enum
+    ["Select"] = 1, ---@type Enum
+    ["Suppress"] = 2, ---@type Enum
 }

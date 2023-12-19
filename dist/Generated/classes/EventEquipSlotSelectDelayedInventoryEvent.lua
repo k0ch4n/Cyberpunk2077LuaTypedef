@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EventEquipSlotSelectDelayedInventoryEvent: redEvent
----@field public controller InventoryItemDisplayController
+---@field public ["controller"] InventoryItemDisplayController
 EventEquipSlotSelectDelayedInventoryEvent = {}
 
 ---@param fields? table

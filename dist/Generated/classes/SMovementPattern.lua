@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SMovementPattern
----@field public speed Float
----@field public distance Float
----@field public direction EMovementDirection
+---@field public ["speed"] Float
+---@field public ["distance"] Float
+---@field public ["direction"] EMovementDirection
 SMovementPattern = {}
 
 ---@param fields? table

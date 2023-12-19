@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameOccupantSlotComponent: entSlotComponent
----@field public slotData gameOccupantSlotData[]
+---@field public ["slotData"] gameOccupantSlotData[]
 gameOccupantSlotComponent = {}
 
 ---@param fields? table

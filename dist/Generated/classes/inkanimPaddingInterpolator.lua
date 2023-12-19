@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimPaddingInterpolator: inkanimInterpolator
----@field public startValue inkMargin
----@field public endValue inkMargin
+---@field public ["startValue"] inkMargin
+---@field public ["endValue"] inkMargin
 inkanimPaddingInterpolator = {}
 
 ---@param fields? table

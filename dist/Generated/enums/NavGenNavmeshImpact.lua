@@ -3,12 +3,12 @@
 
 ---@enum NavGenNavmeshImpact
 NavGenNavmeshImpact = {
-    ["Ignored"] = 1,
-    ["Walkable"] = 0,
-    ["Blocking"] = 2,
-    ["Road"] = 3,
-    ["Stairs"] = 4,
-    ["Drones"] = 5,
-    ["Terrain"] = 6,
-    ["CrowdWalkable"] = 0
+    ["Ignored"] = 1, ---@type Enum
+    ["Walkable"] = 0, ---@type Enum
+    ["Blocking"] = 2, ---@type Enum
+    ["Road"] = 3, ---@type Enum
+    ["Stairs"] = 4, ---@type Enum
+    ["Drones"] = 5, ---@type Enum
+    ["Terrain"] = 6, ---@type Enum
+    ["CrowdWalkable"] = 0, ---@type Enum
 }

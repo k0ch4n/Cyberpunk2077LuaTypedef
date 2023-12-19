@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentTreeRefValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue AIbehaviorParameterizedBehavior
+---@field public ["type"] AIArgumentType
+---@field public ["defaultValue"] AIbehaviorParameterizedBehavior
 AIArgumentTreeRefValue = {}
 
 ---@param fields? table

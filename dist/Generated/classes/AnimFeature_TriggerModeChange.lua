@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_TriggerModeChange: animAnimFeature
----@field public cycleTime Float
+---@field public ["cycleTime"] Float
 AnimFeature_TriggerModeChange = {}
 
 ---@param fields? table

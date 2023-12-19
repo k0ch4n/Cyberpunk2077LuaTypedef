@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class MovableDevice: InteractiveDevice
----@field public workspotSideName CName
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected offMeshConnectionsToOpenNames CName[]
----@field protected offMeshConnectionsToOpen AIOffMeshConnectionComponent[]
----@field protected additionalMeshComponent entMeshComponent
----@field protected UseWorkspotComponentPosition Bool
----@field protected shouldMoveRight Bool
+---@field public ["workspotSideName"] CName
+---@field protected ["sideTriggerNames"] CName[]
+---@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
+---@field protected ["offMeshConnectionsToOpenNames"] CName[]
+---@field protected ["offMeshConnectionsToOpen"] AIOffMeshConnectionComponent[]
+---@field protected ["additionalMeshComponent"] entMeshComponent
+---@field protected ["UseWorkspotComponentPosition"] Bool
+---@field protected ["shouldMoveRight"] Bool
 MovableDevice = {}
 
 ---@param fields? table
@@ -50,8 +50,8 @@ function MovableDevice:DeterminGameplayRole() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param syncSlotName? CName
+---@param componentName? CName|string
+---@param syncSlotName? CName|string
 ---@return nil
 function MovableDevice:EnterWorkspot(activator, freeCamera, componentName, syncSlotName) return end
 

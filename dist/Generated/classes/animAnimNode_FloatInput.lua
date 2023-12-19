@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatInput: animAnimNode_FloatValue
----@field public group CName
----@field public name CName
+---@field public ["group"] CName
+---@field public ["name"] CName
 animAnimNode_FloatInput = {}
 
 ---@param fields? table

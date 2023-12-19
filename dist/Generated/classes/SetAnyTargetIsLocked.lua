@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAnyTargetIsLocked: redEvent
----@field public wasSeen Bool
+---@field public ["wasSeen"] Bool
 SetAnyTargetIsLocked = {}
 
 ---@param fields? table

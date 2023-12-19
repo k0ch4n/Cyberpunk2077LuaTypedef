@@ -3,9 +3,9 @@
 
 ---@enum AIbehaviorParallelNodeWaitFor
 AIbehaviorParallelNodeWaitFor = {
-    ["LeftChild"] = 0,
-    ["RightChild"] = 1,
-    ["AllChildren"] = 2,
-    ["BothChildren"] = 2,
-    ["AnyChild"] = 3
+    ["LeftChild"] = 0, ---@type Enum
+    ["RightChild"] = 1, ---@type Enum
+    ["AllChildren"] = 2, ---@type Enum
+    ["BothChildren"] = 2, ---@type Enum
+    ["AnyChild"] = 3, ---@type Enum
 }

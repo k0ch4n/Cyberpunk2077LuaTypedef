@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameweaponAnimFeature_WeaponData: animAnimFeature
----@field public cycleTime Float
----@field public chargePercentage Float
----@field public timeInMaxCharge Float
----@field public ammoRemaining Int32
----@field public triggerMode Int32
----@field public isMagazineFull Bool
----@field public isTriggerDown Bool
+---@field public ["cycleTime"] Float
+---@field public ["chargePercentage"] Float
+---@field public ["timeInMaxCharge"] Float
+---@field public ["ammoRemaining"] Int32
+---@field public ["triggerMode"] Int32
+---@field public ["isMagazineFull"] Bool
+---@field public ["isTriggerDown"] Bool
 gameweaponAnimFeature_WeaponData = {}
 
 ---@param fields? table

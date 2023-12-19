@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SComponentOperationData
----@field public componentName CName
----@field public operationType EComponentOperation
+---@field public ["componentName"] CName
+---@field public ["operationType"] EComponentOperation
 SComponentOperationData = {}
 
 ---@param fields? table

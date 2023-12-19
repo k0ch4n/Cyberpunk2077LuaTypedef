@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WeaponTransition: DefaultTransition
----@field public magazineID TweakDBID
----@field public magazineAttack TweakDBID
----@field public rangedAttackPackage gamedataRangedAttackPackage_Record
+---@field public ["magazineID"] TweakDBID
+---@field public ["magazineAttack"] TweakDBID
+---@field public ["rangedAttackPackage"] gamedataRangedAttackPackage_Record
 WeaponTransition = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -186,9 +186,9 @@ function WeaponTransition:IsReloadUninterruptible(stateContext, scriptInterface)
 function WeaponTransition:IsSemiAutoAction(weaponObject, stateContext, scriptInterface) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param eventTag? CName
+---@param eventTag? CName|string
 ---@return nil
 function WeaponTransition:PlayEffect(effectName, scriptInterface, eventTag) return end
 
@@ -248,7 +248,7 @@ function WeaponTransition:ShowDebugText(textToShow, scriptInterface) return end
 function WeaponTransition:StartShootingSequence(stateContext, scriptInterface, fireDelay, burstCycleTime, numShotsBurst, isFullChargeFullAuto) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function WeaponTransition:StopEffect(effectName, scriptInterface) return end

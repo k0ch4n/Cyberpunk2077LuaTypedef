@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipStatController: inkWidgetLogicController
----@field protected statName inkTextWidgetReference
----@field protected statValue inkTextWidgetReference
----@field protected statComparedContainer inkWidgetReference
----@field protected statComparedValue inkTextWidgetReference
----@field protected arrow inkImageWidgetReference
----@field private measurementUnit EMeasurementUnit
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipStatSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field protected ["statName"] inkTextWidgetReference
+---@field protected ["statValue"] inkTextWidgetReference
+---@field protected ["statComparedContainer"] inkWidgetReference
+---@field protected ["statComparedValue"] inkTextWidgetReference
+---@field protected ["arrow"] inkImageWidgetReference
+---@field private ["measurementUnit"] EMeasurementUnit
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] ItemTooltipStatSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["inCrafting"] Bool
 ItemTooltipStatController = {}
 
 ---@param fields? table
@@ -32,8 +32,8 @@ function ItemTooltipStatController:NewSetTooltipSize(value) return end
 ---@return nil
 function ItemTooltipStatController:NewUpdateTooltipSize() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
@@ -57,7 +57,7 @@ function ItemTooltipStatController:SetData(data) return end
 ---@return nil
 function ItemTooltipStatController:SetData(data, comparisonData) return end
 
----@param newState CName
+---@param newState CName|string
 ---@return nil
 function ItemTooltipStatController:SetTextState(newState) return end
 

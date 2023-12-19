@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class GenericDeviceOperation: DeviceOperationBase
----@field private fxInstances SVfxInstanceData[]
----@field public transformAnimations STransformAnimationData[]
----@field public VFXs SVFXOperationData[]
----@field public SFXs SSFXOperationData[]
----@field public facts SFactOperationData[]
----@field public components SComponentOperationData[]
----@field public stims SStimOperationData[]
----@field public statusEffects SStatusEffectOperationData[]
----@field public damages SDamageOperationData[]
----@field public items SInventoryOperationData[]
----@field public teleport STeleportOperationData
----@field public meshesAppearence CName
----@field public playerWorkspot SWorkspotData
+---@field private ["fxInstances"] SVfxInstanceData[]
+---@field public ["transformAnimations"] STransformAnimationData[]
+---@field public ["VFXs"] SVFXOperationData[]
+---@field public ["SFXs"] SSFXOperationData[]
+---@field public ["facts"] SFactOperationData[]
+---@field public ["components"] SComponentOperationData[]
+---@field public ["stims"] SStimOperationData[]
+---@field public ["statusEffects"] SStatusEffectOperationData[]
+---@field public ["damages"] SDamageOperationData[]
+---@field public ["items"] SInventoryOperationData[]
+---@field public ["teleport"] STeleportOperationData
+---@field public ["meshesAppearence"] CName
+---@field public ["playerWorkspot"] SWorkspotData
 GenericDeviceOperation = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function GenericDeviceOperation.new(fields) return end
 
 ---@private
 ---@param owner gameObject
----@param id CName
+---@param id CName|string
 ---@param resource gameFxResource
 ---@param transform WorldTransform
 ---@return gameFxInstance
@@ -33,7 +33,7 @@ function GenericDeviceOperation:CreateFxInstance(owner, id, resource, transform)
 ---@param target Device
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
+---@param componentName? CName|string
 ---@return nil
 function GenericDeviceOperation:EnterWorkspot(target, activator, freeCamera, componentName) return end
 
@@ -42,7 +42,7 @@ function GenericDeviceOperation:EnterWorkspot(target, activator, freeCamera, com
 function GenericDeviceOperation:Execute(owner) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@return gameFxInstance
 function GenericDeviceOperation:GetFxInstance(id) return end
 
@@ -52,7 +52,7 @@ function GenericDeviceOperation:GetFxInstance(id) return end
 function GenericDeviceOperation:LeaveWorkspot(activator) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@return nil
 function GenericDeviceOperation:RemoveFxInstance(id) return end
 
@@ -82,7 +82,7 @@ function GenericDeviceOperation:ResolveFacts(factsArg, owner, restore) return en
 function GenericDeviceOperation:ResolveItems(itemsArg, owner) return end
 
 ---@private
----@param appearanceName CName
+---@param appearanceName CName|string
 ---@param owner gameObject
 ---@return nil
 function GenericDeviceOperation:ResolveMeshesAppearence(appearanceName, owner) return end
@@ -134,7 +134,7 @@ function GenericDeviceOperation:ResolveWorkspots(workspot, owner) return end
 function GenericDeviceOperation:Restore(owner) return end
 
 ---@private
----@param id CName
+---@param id CName|string
 ---@param fx gameFxInstance
 ---@return nil
 function GenericDeviceOperation:StoreFxInstance(id, fx) return end

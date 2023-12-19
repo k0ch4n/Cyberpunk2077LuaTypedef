@@ -3,8 +3,8 @@
 
 ---@enum gameEStatFlags
 gameEStatFlags = {
-    ["Bool"] = 1,
-    ["EquipOnPlayer"] = 2,
-    ["EquipOnNPC"] = 4,
-    ["ExcludeRootCombination"] = 8
+    ["Bool"] = 1, ---@type Enum
+    ["EquipOnPlayer"] = 2, ---@type Enum
+    ["EquipOnNPC"] = 4, ---@type Enum
+    ["ExcludeRootCombination"] = 8, ---@type Enum
 }

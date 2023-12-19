@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TriggerHackingMinigameEffector: gameEffector
----@field public owner gameObject
----@field public listener redCallbackObject
----@field public item gameItemID
----@field public reward TweakDBID
----@field public journalEntry String
----@field public fact CName
----@field public factValue Int32
----@field public showPopup Bool
----@field public returnToJournal Bool
+---@field public ["owner"] gameObject
+---@field public ["listener"] redCallbackObject
+---@field public ["item"] gameItemID
+---@field public ["reward"] TweakDBID
+---@field public ["journalEntry"] String
+---@field public ["fact"] CName
+---@field public ["factValue"] Int32
+---@field public ["showPopup"] Bool
+---@field public ["returnToJournal"] Bool
 TriggerHackingMinigameEffector = {}
 
 ---@param fields? table

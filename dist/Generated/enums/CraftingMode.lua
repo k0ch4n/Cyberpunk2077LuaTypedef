@@ -3,6 +3,6 @@
 
 ---@enum CraftingMode
 CraftingMode = {
-    ["craft"] = 0,
-    ["upgrade"] = 1
+    ["craft"] = 0, ---@type Enum
+    ["upgrade"] = 1, ---@type Enum
 }

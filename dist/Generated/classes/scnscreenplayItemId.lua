@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnscreenplayItemId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnscreenplayItemId = {}
 
 ---@param fields? table

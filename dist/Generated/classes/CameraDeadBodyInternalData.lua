@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CameraDeadBodyInternalData: IScriptable
----@field public ownerID entEntityID
----@field public bodyIDs entEntityID[]
+---@field public ["ownerID"] entEntityID
+---@field public ["bodyIDs"] entEntityID[]
 CameraDeadBodyInternalData = {}
 
 ---@param fields? table

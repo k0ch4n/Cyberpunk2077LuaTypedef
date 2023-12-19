@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameweaponeventsSetMaxChargeEvent: redEvent
----@field public maxCharge Float
+---@field public ["maxCharge"] Float
 gameweaponeventsSetMaxChargeEvent = {}
 
 ---@param fields? table

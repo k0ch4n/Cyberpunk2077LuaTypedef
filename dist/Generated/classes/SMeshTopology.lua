@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SMeshTopology
----@field public data DataBuffer
----@field public metadata DataBuffer
+---@field public ["data"] DataBuffer
+---@field public ["metadata"] DataBuffer
 SMeshTopology = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RefreshInteractionTaskData: gameScriptTaskData
----@field public requestType gamedeviceRequestType
----@field public executor gameObject
+---@field public ["requestType"] gamedeviceRequestType
+---@field public ["executor"] gameObject
 RefreshInteractionTaskData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlindingLightControllerPS: BasicDistractionDeviceControllerPS
----@field protected reflectorSFX ReflectorSFX
+---@field protected ["reflectorSFX"] ReflectorSFX
 BlindingLightControllerPS = {}
 
 ---@param fields? table

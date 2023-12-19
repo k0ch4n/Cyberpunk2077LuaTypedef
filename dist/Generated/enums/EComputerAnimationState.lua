@@ -3,7 +3,7 @@
 
 ---@enum EComputerAnimationState
 EComputerAnimationState = {
-    ["None"] = 0,
-    ["Opened"] = 1,
-    ["Closed"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Opened"] = 1, ---@type Enum
+    ["Closed"] = 2, ---@type Enum
 }

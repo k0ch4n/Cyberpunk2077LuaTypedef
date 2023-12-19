@@ -3,8 +3,8 @@
 
 ---@enum gameuiDamageDigitsMode
 gameuiDamageDigitsMode = {
-    ["Off"] = 0,
-    ["Individual"] = 1,
-    ["Accumulated"] = 2,
-    ["Both"] = 3
+    ["Off"] = 0, ---@type Enum
+    ["Individual"] = 1, ---@type Enum
+    ["Accumulated"] = 2, ---@type Enum
+    ["Both"] = 3, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefTreeList
----@field public variableId Uint16
----@field public treeVariable CName
----@field public v LibTreeCTreeReference[]
+---@field public ["variableId"] Uint16
+---@field public ["treeVariable"] CName
+---@field public ["v"] LibTreeCTreeReference[]
 LibTreeDefTreeList = {}
 
 ---@param fields? table

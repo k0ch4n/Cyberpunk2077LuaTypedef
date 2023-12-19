@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlockReactionFlag: AIbehaviortaskScript
----@field public target gameObject
+---@field public ["target"] gameObject
 BlockReactionFlag = {}
 
 ---@param fields? table

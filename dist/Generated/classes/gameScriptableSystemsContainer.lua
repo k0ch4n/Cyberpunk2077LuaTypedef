@@ -8,7 +8,7 @@ gameScriptableSystemsContainer = {}
 ---@return gameScriptableSystemsContainer
 function gameScriptableSystemsContainer.new(fields) return end
 
----@param systemName CName
+---@param systemName CName|string
 ---@return gameScriptableSystem
 function gameScriptableSystemsContainer:Get(systemName) return end
 

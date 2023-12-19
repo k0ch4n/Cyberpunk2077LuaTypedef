@@ -41,7 +41,7 @@ function gamedataPhotoModeFrame_Record:GetImagePartsNamesItem(index) return end
 ---@return CName[]
 function gamedataPhotoModeFrame_Record:ImagePartsNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataPhotoModeFrame_Record:ImagePartsNamesContains(item) return end
 

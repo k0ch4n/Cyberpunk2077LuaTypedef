@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class entEntity: IScriptable
----@field public customCameraTarget ECustomCameraTarget
----@field public renderSceneLayerMask RenderSceneLayerMask
+---@field public ["customCameraTarget"] ECustomCameraTarget
+---@field public ["renderSceneLayerMask"] RenderSceneLayerMask
 entEntity = {}
 
 ---@param fields? table
 ---@return entEntity
 function entEntity.new(fields) return end
 
----@param evtName CName
+---@param evtName CName|string
 ---@return Bool
 function entEntity:CanServiceEvent(evtName) return end
 
 ---@return nil
 function entEntity:Dispose() return end
 
----@param componentName CName
+---@param componentName CName|string
 ---@return entIComponent
 function entEntity:FindComponentByName(componentName) return end
 
@@ -66,15 +66,15 @@ function entEntity:IsControlledByLocalPeer() return end
 ---@return Bool
 function entEntity:IsReplicated() return end
 
----@param visualTag CName
+---@param visualTag CName|string
 ---@return Bool
 function entEntity:MatchVisualTag(visualTag) return end
 
----@param visualTags CName[]
+---@param visualTags CName[]|string[]
 ---@return Bool
 function entEntity:MatchVisualTags(visualTags) return end
 
----@param newAppearanceName CName
+---@param newAppearanceName CName|string
 ---@return nil
 function entEntity:PrefetchAppearanceChange(newAppearanceName) return end
 
@@ -92,7 +92,7 @@ function entEntity:QueueEventForEntityID(entityID, evt) return end
 ---@return Bool
 function entEntity:QueueEventForNodeID(nodeID, evt) return end
 
----@param newAppearanceName CName
+---@param newAppearanceName CName|string
 ---@return nil
 function entEntity:ScheduleAppearanceChange(newAppearanceName) return end
 

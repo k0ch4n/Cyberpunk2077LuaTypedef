@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CharacterDataPrereq: gameIScriptablePrereq
----@field public idToCheck TweakDBID
+---@field public ["idToCheck"] TweakDBID
 CharacterDataPrereq = {}
 
 ---@param fields? table

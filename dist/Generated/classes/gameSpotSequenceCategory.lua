@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSpotSequenceCategory
----@field public type gamedataWorkspotCategory
----@field public probability Float
+---@field public ["type"] gamedataWorkspotCategory
+---@field public ["probability"] Float
 gameSpotSequenceCategory = {}
 
 ---@param fields? table

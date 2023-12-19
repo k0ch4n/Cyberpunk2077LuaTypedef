@@ -21,7 +21,7 @@ function gamedataGenericMetroSign_Record:IconName() return end
 ---@return CName[]
 function gamedataGenericMetroSign_Record:MetroLineName() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataGenericMetroSign_Record:MetroLineNameContains(item) return end
 

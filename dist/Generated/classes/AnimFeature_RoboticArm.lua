@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_RoboticArm: animAnimFeature
----@field public state Int32
+---@field public ["state"] Int32
 AnimFeature_RoboticArm = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SWorkspotData
----@field public componentName CName
----@field public freeCamera Bool
----@field public operationType EWorkspotOperationType
+---@field public ["componentName"] CName
+---@field public ["freeCamera"] Bool
+---@field public ["operationType"] EWorkspotOperationType
 SWorkspotData = {}
 
 ---@param fields? table

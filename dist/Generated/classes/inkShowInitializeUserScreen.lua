@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkShowInitializeUserScreen: IScriptable
----@field public show Bool
+---@field public ["show"] Bool
 inkShowInitializeUserScreen = {}
 
 ---@param fields? table

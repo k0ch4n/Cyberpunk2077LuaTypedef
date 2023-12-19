@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NameplateBarLogicController: ProgressBarSimpleWidgetLogicController
----@field private damagePreview DamagePreviewController
+---@field private ["damagePreview"] DamagePreviewController
 NameplateBarLogicController = {}
 
 ---@param fields? table

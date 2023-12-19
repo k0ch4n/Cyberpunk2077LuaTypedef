@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationBackstorySelectionMenu: gameuiBaseCharacterCreationController
----@field public nomad inkWidgetReference
----@field public streetRat inkWidgetReference
----@field public corpo inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private clickTarget String
----@field private nomadTarget String
----@field private streetTarget String
----@field private corpoTarget String
+---@field public ["nomad"] inkWidgetReference
+---@field public ["streetRat"] inkWidgetReference
+---@field public ["corpo"] inkWidgetReference
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["clickTarget"] String
+---@field private ["nomadTarget"] String
+---@field private ["streetTarget"] String
+---@field private ["corpoTarget"] String
 CharacterCreationBackstorySelectionMenu = {}
 
 ---@param fields? table
@@ -67,8 +67,8 @@ function CharacterCreationBackstorySelectionMenu:OnIntro() return end
 ---@return nil
 function CharacterCreationBackstorySelectionMenu:OnOutro() return end
 
----@param animName CName
----@param callBack? CName
+---@param animName CName|string
+---@param callBack? CName|string
 ---@return nil
 function CharacterCreationBackstorySelectionMenu:PlayAnim(animName, callBack) return end
 
@@ -78,12 +78,12 @@ function CharacterCreationBackstorySelectionMenu:PriorMenu() return end
 
 ---@private
 ---@param widget inkWidget
----@param desc CName
----@param imagePath CName
+---@param desc CName|string
+---@param imagePath CName|string
 ---@param videoPath redResourceReferenceScriptToken
----@param label CName
----@param onPressEvent CName
----@param onReleaseEvent CName
+---@param label CName|string
+---@param onPressEvent CName|string
+---@param onReleaseEvent CName|string
 ---@return nil
 function CharacterCreationBackstorySelectionMenu:SetupLifePathButton(widget, desc, imagePath, videoPath, label, onPressEvent, onReleaseEvent) return end
 

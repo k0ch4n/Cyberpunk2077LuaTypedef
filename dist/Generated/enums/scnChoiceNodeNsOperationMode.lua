@@ -3,9 +3,9 @@
 
 ---@enum scnChoiceNodeNsOperationMode
 scnChoiceNodeNsOperationMode = {
-    ["attachToActor"] = 0,
-    ["attachToProp"] = 1,
-    ["attachToGameObject"] = 2,
-    ["attachToScreen"] = 3,
-    ["attachToWorld"] = 4
+    ["attachToActor"] = 0, ---@type Enum
+    ["attachToProp"] = 1, ---@type Enum
+    ["attachToGameObject"] = 2, ---@type Enum
+    ["attachToScreen"] = 3, ---@type Enum
+    ["attachToWorld"] = 4, ---@type Enum
 }

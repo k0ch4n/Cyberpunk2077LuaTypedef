@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RipperdocFillBar: inkWidgetLogicController
----@field private root inkWidget
----@field private fillStart Float
----@field private fillEnd Float
----@field private maxSize Vector2
----@field private sizeAnimation inkanimProxy
----@field private marginAnimation inkanimProxy
+---@field private ["root"] inkWidget
+---@field private ["fillStart"] Float
+---@field private ["fillEnd"] Float
+---@field private ["maxSize"] Vector2
+---@field private ["sizeAnimation"] inkanimProxy
+---@field private ["marginAnimation"] inkanimProxy
 RipperdocFillBar = {}
 
 ---@param fields? table
@@ -28,10 +28,10 @@ function RipperdocFillBar:AnimateMargin(duration) return end
 ---@return nil
 function RipperdocFillBar:AnimateSize(duration) return end
 
----@param end Float
+---@param end_ Float
 ---@param duration? Float
 ---@return nil
-function RipperdocFillBar:SetEnd(end, duration) return end
+function RipperdocFillBar:SetEnd(end_, duration) return end
 
 ---@param start Float
 ---@param duration? Float

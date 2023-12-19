@@ -3,6 +3,6 @@
 
 ---@enum questSwitchWeaponModes
 questSwitchWeaponModes = {
-    ["PrimaryWeapon"] = 0,
-    ["SecondaryWeapon"] = 1
+    ["PrimaryWeapon"] = 0, ---@type Enum
+    ["SecondaryWeapon"] = 1, ---@type Enum
 }

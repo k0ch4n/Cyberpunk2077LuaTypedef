@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WeakspotRecordData
----@field public isInvulnerable Bool
----@field public slotID TweakDBID
----@field public reducedMeleeDamage Bool
+---@field public ["isInvulnerable"] Bool
+---@field public ["slotID"] TweakDBID
+---@field public ["reducedMeleeDamage"] Bool
 WeakspotRecordData = {}
 
 ---@param fields? table

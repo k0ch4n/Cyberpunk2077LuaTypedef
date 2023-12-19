@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetFOV_NodeType: questISceneManagerNodeType
----@field public FOV Float
+---@field public ["FOV"] Float
 questSetFOV_NodeType = {}
 
 ---@param fields? table

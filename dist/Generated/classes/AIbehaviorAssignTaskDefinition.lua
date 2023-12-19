@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorAssignTaskDefinition: AIbehaviorTaskDefinition
----@field public assignments AIbehaviorAssignTaskItem[]
----@field public endAssignments AIbehaviorAssignTaskItem[]
+---@field public ["assignments"] AIbehaviorAssignTaskItem[]
+---@field public ["endAssignments"] AIbehaviorAssignTaskItem[]
 AIbehaviorAssignTaskDefinition = {}
 
 ---@param fields? table

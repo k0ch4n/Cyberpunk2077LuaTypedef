@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entPhysicalFractureFieldComponent: entPhysicalTriggerComponent
----@field public fractureFieldParams physicsFractureFieldParams
+---@field public ["fractureFieldParams"] physicsFractureFieldParams
 entPhysicalFractureFieldComponent = {}
 
 ---@param fields? table

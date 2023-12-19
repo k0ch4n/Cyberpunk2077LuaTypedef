@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentObjectValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue gameObject
+---@field public ["type"] AIArgumentType
+---@field public ["defaultValue"] gameObject
 AIArgumentObjectValue = {}
 
 ---@param fields? table

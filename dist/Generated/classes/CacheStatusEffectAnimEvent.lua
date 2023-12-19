@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CacheStatusEffectAnimEvent: redEvent
----@field public removeCachedStatusEffect Bool
+---@field public ["removeCachedStatusEffect"] Bool
 CacheStatusEffectAnimEvent = {}
 
 ---@param fields? table

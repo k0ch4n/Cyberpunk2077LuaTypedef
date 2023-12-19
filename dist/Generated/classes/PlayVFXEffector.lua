@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PlayVFXEffector: gameEffector
----@field public vfxName CName
----@field public startOnUninitialize Bool
----@field public fireAndForget Bool
----@field public owner gameObject
+---@field public ["vfxName"] CName
+---@field public ["startOnUninitialize"] Bool
+---@field public ["fireAndForget"] Bool
+---@field public ["owner"] gameObject
 PlayVFXEffector = {}
 
 ---@param fields? table

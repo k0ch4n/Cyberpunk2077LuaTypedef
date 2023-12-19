@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PartData: animAnimFeatureMarkUnstable
----@field public state Int32
----@field public duration Float
+---@field public ["state"] Int32
+---@field public ["duration"] Float
 AnimFeature_PartData = {}
 
 ---@param fields? table

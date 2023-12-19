@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAttitudeAgentPS: gameComponentPS
----@field public currentAttitudeGroup CName
----@field public currentAttitudeGroupUnsavable CName
+---@field public ["currentAttitudeGroup"] CName
+---@field public ["currentAttitudeGroupUnsavable"] CName
 gameAttitudeAgentPS = {}
 
 ---@param fields? table

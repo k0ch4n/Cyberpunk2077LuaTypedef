@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemoveFromBlacklistEvent: redEvent
----@field public entityIDToRemove entEntityID
----@field public isPlayerEntity Bool
+---@field public ["entityIDToRemove"] entEntityID
+---@field public ["isPlayerEntity"] Bool
 RemoveFromBlacklistEvent = {}
 
 ---@param fields? table

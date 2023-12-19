@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuildButtonItemController: inkButtonDpadSupportedController
----@field private associatedBuild gamedataBuildType
+---@field private ["associatedBuild"] gamedataBuildType
 BuildButtonItemController = {}
 
 ---@param fields? table

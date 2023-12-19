@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class meshRegionData
----@field public chunkDataIntact meshChunkOffset[]
----@field public chunkDataFractured meshChunkOffset[]
----@field public chunkMaskIntact Uint64
----@field public chunkMaskFractured Uint64
----@field public isStaticRemains Bool
+---@field public ["chunkDataIntact"] meshChunkOffset[]
+---@field public ["chunkDataFractured"] meshChunkOffset[]
+---@field public ["chunkMaskIntact"] Uint64
+---@field public ["chunkMaskFractured"] Uint64
+---@field public ["isStaticRemains"] Bool
 meshRegionData = {}
 
 ---@param fields? table

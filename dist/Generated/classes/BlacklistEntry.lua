@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BlacklistEntry: IScriptable
----@field private entryID entEntityID
----@field private entryReason BlacklistReason
----@field private warningsCount Int32
----@field private reprimandID Int32
+---@field private ["entryID"] entEntityID
+---@field private ["entryReason"] BlacklistReason
+---@field private ["warningsCount"] Int32
+---@field private ["reprimandID"] Int32
 BlacklistEntry = {}
 
 ---@param fields? table

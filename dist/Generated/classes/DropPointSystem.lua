@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropPointSystem: gameScriptableSystem
----@field private packages DropPointPackage[]
----@field private mappins DropPointMappinRegistrationData[]
----@field private isEnabled Bool
----@field private dropPointSystemLocks DropPointSystemLock[]
+---@field private ["packages"] DropPointPackage[]
+---@field private ["mappins"] DropPointMappinRegistrationData[]
+---@field private ["isEnabled"] Bool
+---@field private ["dropPointSystemLocks"] DropPointSystemLock[]
 DropPointSystem = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ DropPointSystem = {}
 function DropPointSystem.new(fields) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function DropPointSystem:AddDropPointSystemLock(reason) return end
 
@@ -109,7 +109,7 @@ function DropPointSystem:OnUnregisterDropPointMappinRequest(request) return end
 function DropPointSystem:RegisterDropPointMappin(data) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function DropPointSystem:RemoveDropPointSystemLock(reason) return end
 

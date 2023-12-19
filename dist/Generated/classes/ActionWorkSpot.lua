@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActionWorkSpot: ActionBool
----@field private workspotTarget gamePuppet
+---@field private ["workspotTarget"] gamePuppet
 ActionWorkSpot = {}
 
 ---@return gamePuppet

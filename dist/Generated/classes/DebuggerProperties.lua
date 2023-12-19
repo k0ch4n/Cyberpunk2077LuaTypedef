@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DebuggerProperties
----@field public exclusiveMode Bool
----@field public factActivated CName
----@field public debugName CName
----@field public layerIDs Uint32[]
+---@field public ["exclusiveMode"] Bool
+---@field public ["factActivated"] CName
+---@field public ["debugName"] CName
+---@field public ["layerIDs"] Uint32[]
 DebuggerProperties = {}
 
 ---@param fields? table

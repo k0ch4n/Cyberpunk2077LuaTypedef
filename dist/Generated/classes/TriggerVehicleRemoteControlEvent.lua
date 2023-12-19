@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TriggerVehicleRemoteControlEvent: redEvent
----@field public enable Bool
----@field public shouldUnseatPassengers Bool
----@field public shouldModifyInteractionState Bool
+---@field public ["enable"] Bool
+---@field public ["shouldUnseatPassengers"] Bool
+---@field public ["shouldModifyInteractionState"] Bool
 TriggerVehicleRemoteControlEvent = {}
 
 ---@param fields? table

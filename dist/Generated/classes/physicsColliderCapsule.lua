@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsColliderCapsule: physicsICollider
----@field public radius Float
----@field public height Float
+---@field public ["radius"] Float
+---@field public ["height"] Float
 physicsColliderCapsule = {}
 
 ---@param fields? table

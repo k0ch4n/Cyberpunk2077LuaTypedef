@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameTargetingComponent: entIPlacedComponent
----@field public isPrimary Bool
----@field public isDirectional Bool
----@field public aimAssistData TweakDBID[]
----@field public isEnabled Bool
----@field public alwaysInTestRange Bool
+---@field public ["isPrimary"] Bool
+---@field public ["isDirectional"] Bool
+---@field public ["aimAssistData"] TweakDBID[]
+---@field public ["isEnabled"] Bool
+---@field public ["alwaysInTestRange"] Bool
 gameTargetingComponent = {}
 
 ---@param fields? table

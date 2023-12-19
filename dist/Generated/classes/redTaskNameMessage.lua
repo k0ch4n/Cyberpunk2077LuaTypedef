@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class redTaskNameMessage
----@field public id Uint32
----@field public parent Uint32
----@field public title String
----@field public uniqueName CName
+---@field public ["id"] Uint32
+---@field public ["parent"] Uint32
+---@field public ["title"] String
+---@field public ["uniqueName"] CName
 redTaskNameMessage = {}
 
 ---@param fields? table

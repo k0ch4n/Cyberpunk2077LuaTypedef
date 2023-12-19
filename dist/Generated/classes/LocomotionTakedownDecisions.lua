@@ -14,7 +14,7 @@ function LocomotionTakedownDecisions.new(fields) return end
 function LocomotionTakedownDecisions:IsPowerLevelDifferentialTooHigh(target) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function LocomotionTakedownDecisions:IsTakedownAction(actionName) return end
 

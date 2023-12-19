@@ -3,8 +3,8 @@
 
 ---@enum worldNavigationRequestStatus
 worldNavigationRequestStatus = {
-    ["OK"] = 0,
-    ["InvalidStartingPosition"] = 1,
-    ["InvalidEndPosition"] = 2,
-    ["OtherError"] = 3
+    ["OK"] = 0, ---@type Enum
+    ["InvalidStartingPosition"] = 1, ---@type Enum
+    ["InvalidEndPosition"] = 2, ---@type Enum
+    ["OtherError"] = 3, ---@type Enum
 }

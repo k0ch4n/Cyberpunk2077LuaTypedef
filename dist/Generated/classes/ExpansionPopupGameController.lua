@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class ExpansionPopupGameController: gameuiWidgetGameController
----@field private popupCanvasAnchor inkWidgetReference
----@field private expansionScreenName CName
----@field private thankYouScreenName CName
----@field private reloadingScreenName CName
----@field private preOrderScreenName CName
----@field private closeButtonRef inkWidgetReference
----@field private introAnimationName CName
----@field private uiSystem gameuiGameSystemUI
----@field private data ExpansionPopupData
----@field private requestHandler inkISystemRequestsHandler
----@field private showThankYouPanel Bool
----@field private introAnimProxy inkanimProxy
----@field private featuresExpansionPopupController FeaturesExpansionPopupController
----@field private preOrderPopupController PreOrderPopupController
----@field private reloadingPopupController ReloadingExpansionPopupController
----@field private buyButton inkWidgetReference
----@field private preOrderButton inkWidgetReference
----@field private isProcessingPurchase Bool
+---@field private ["popupCanvasAnchor"] inkWidgetReference
+---@field private ["expansionScreenName"] CName
+---@field private ["thankYouScreenName"] CName
+---@field private ["reloadingScreenName"] CName
+---@field private ["preOrderScreenName"] CName
+---@field private ["closeButtonRef"] inkWidgetReference
+---@field private ["introAnimationName"] CName
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["data"] ExpansionPopupData
+---@field private ["requestHandler"] inkISystemRequestsHandler
+---@field private ["showThankYouPanel"] Bool
+---@field private ["introAnimProxy"] inkanimProxy
+---@field private ["featuresExpansionPopupController"] FeaturesExpansionPopupController
+---@field private ["preOrderPopupController"] PreOrderPopupController
+---@field private ["reloadingPopupController"] ReloadingExpansionPopupController
+---@field private ["buyButton"] inkWidgetReference
+---@field private ["preOrderButton"] inkWidgetReference
+---@field private ["isProcessingPurchase"] Bool
 ExpansionPopupGameController = {}
 
 ---@param fields? table
@@ -81,7 +81,7 @@ function ExpansionPopupGameController:Close() return end
 ---@return CName
 function ExpansionPopupGameController:GetPanelName() return end
 
----@param id CName
+---@param id CName|string
 ---@param success Bool
 ---@return nil
 function ExpansionPopupGameController:OnAdditionalContentPurchaseResult_PopUp(id, success) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDestructibleProxyMeshNode: worldPrefabProxyMeshNode
----@field public ownerHash Uint64
+---@field public ["ownerHash"] Uint64
 worldDestructibleProxyMeshNode = {}
 
 ---@param fields? table

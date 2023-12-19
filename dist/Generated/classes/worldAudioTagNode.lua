@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldAudioTagNode: worldNode
----@field public audioTag CName
----@field public radius Float
+---@field public ["audioTag"] CName
+---@field public ["radius"] Float
 worldAudioTagNode = {}
 
 ---@param fields? table

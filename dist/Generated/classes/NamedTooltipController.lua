@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NamedTooltipController: IScriptable
----@field public identifier CName
----@field public controller AGenericTooltipController
+---@field public ["identifier"] CName
+---@field public ["controller"] AGenericTooltipController
 NamedTooltipController = {}
 
 ---@param fields? table

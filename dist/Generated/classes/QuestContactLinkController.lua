@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class QuestContactLinkController: BaseCodexLinkController
----@field private msgLabel inkTextWidgetReference
----@field private msgContainer inkWidgetReference
----@field private msgCounter Int32
----@field private contactEntry gameJournalContact
----@field private journalMgr gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private uiSystem gameuiGameSystemUI
+---@field private ["msgLabel"] inkTextWidgetReference
+---@field private ["msgContainer"] inkWidgetReference
+---@field private ["msgCounter"] Int32
+---@field private ["contactEntry"] gameJournalContact
+---@field private ["journalMgr"] gameJournalManager
+---@field private ["phoneSystem"] PhoneSystem
+---@field private ["uiSystem"] gameuiGameSystemUI
 QuestContactLinkController = {}
 
 ---@param fields? table

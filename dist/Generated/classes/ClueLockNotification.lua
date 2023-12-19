@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ClueLockNotification: HUDManagerRequest
----@field public isLocked Bool
+---@field public ["isLocked"] Bool
 ClueLockNotification = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEnterVisionMode_NodeType: questIVisionModeNodeType
----@field public objectRef gameEntityReference
----@field public visionModeType gameVisionModeType
+---@field public ["objectRef"] gameEntityReference
+---@field public ["visionModeType"] gameVisionModeType
 questEnterVisionMode_NodeType = {}
 
 ---@param fields? table

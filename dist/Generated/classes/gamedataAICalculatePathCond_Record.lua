@@ -11,7 +11,7 @@ function gamedataAICalculatePathCond_Record.new(fields) return end
 ---@return CName[]
 function gamedataAICalculatePathCond_Record:AllowedOffMeshTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAICalculatePathCond_Record:AllowedOffMeshTagsContains(item) return end
 

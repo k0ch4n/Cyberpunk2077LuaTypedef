@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioPanicModeVirtualizeList: audioAudioMetadata
----@field public tags CName[]
+---@field public ["tags"] CName[]
 audioPanicModeVirtualizeList = {}
 
 ---@param fields? table

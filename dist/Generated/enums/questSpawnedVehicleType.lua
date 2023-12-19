@@ -3,8 +3,8 @@
 
 ---@enum questSpawnedVehicleType
 questSpawnedVehicleType = {
-    ["EntityReferenced"] = 0,
-    ["AnyCar"] = 1,
-    ["AnyMotorcycle"] = 2,
-    ["SpecificVehicle"] = 3
+    ["EntityReferenced"] = 0, ---@type Enum
+    ["AnyCar"] = 1, ---@type Enum
+    ["AnyMotorcycle"] = 2, ---@type Enum
+    ["SpecificVehicle"] = 3, ---@type Enum
 }

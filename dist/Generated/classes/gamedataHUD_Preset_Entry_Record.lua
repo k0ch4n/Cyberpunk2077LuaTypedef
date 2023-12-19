@@ -18,6 +18,6 @@ function gamedataHUD_Preset_Entry_Record:GetHudEntriesItem(index) return end
 ---@return CName[]
 function gamedataHUD_Preset_Entry_Record:HudEntries() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataHUD_Preset_Entry_Record:HudEntriesContains(item) return end

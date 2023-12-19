@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentSpatialResource: resStreamedResource
----@field public neighborGroups Uint16[][]
+---@field public ["neighborGroups"] Uint16[][]
 worldTrafficPersistentSpatialResource = {}
 
 ---@param fields? table

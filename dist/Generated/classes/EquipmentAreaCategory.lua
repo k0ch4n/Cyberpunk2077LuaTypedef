@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EquipmentAreaCategory: IScriptable
----@field public parentCategory InventoryItemDisplayCategoryArea
----@field public areaDisplays EquipmentAreaDisplays[]
+---@field public ["parentCategory"] InventoryItemDisplayCategoryArea
+---@field public ["areaDisplays"] EquipmentAreaDisplays[]
 EquipmentAreaCategory = {}
 
 ---@param fields? table

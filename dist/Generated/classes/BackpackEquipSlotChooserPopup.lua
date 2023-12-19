@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class BackpackEquipSlotChooserPopup: gameuiWidgetGameController
----@field private titleText inkTextWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field private rairtyBar inkWidgetReference
----@field private root inkWidgetReference
----@field private background inkWidgetReference
----@field private weaponSlotsContainer inkCompoundWidgetReference
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private gameData gameItemData
----@field protected buttonOk inkWidgetReference
----@field protected buttonCancel inkWidgetReference
----@field private data BackpackEquipSlotChooserData
----@field private selectedSlotIndex Int32
----@field private tooltipsManager gameuiTooltipsManager
----@field private comparisonResolver InventoryItemPreferredComparisonResolver
----@field private libraryPath inkWidgetLibraryReference
----@field private closeData BackpackEquipSlotChooserCloseData
+---@field private ["titleText"] inkTextWidgetReference
+---@field private ["buttonHintsRoot"] inkWidgetReference
+---@field private ["rairtyBar"] inkWidgetReference
+---@field private ["root"] inkWidgetReference
+---@field private ["background"] inkWidgetReference
+---@field private ["weaponSlotsContainer"] inkCompoundWidgetReference
+---@field private ["tooltipsManagerRef"] inkWidgetReference
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["gameData"] gameItemData
+---@field protected ["buttonOk"] inkWidgetReference
+---@field protected ["buttonCancel"] inkWidgetReference
+---@field private ["data"] BackpackEquipSlotChooserData
+---@field private ["selectedSlotIndex"] Int32
+---@field private ["tooltipsManager"] gameuiTooltipsManager
+---@field private ["comparisonResolver"] InventoryItemPreferredComparisonResolver
+---@field private ["libraryPath"] inkWidgetLibraryReference
+---@field private ["closeData"] BackpackEquipSlotChooserCloseData
 BackpackEquipSlotChooserPopup = {}
 
 ---@param fields? table
@@ -69,7 +69,7 @@ function BackpackEquipSlotChooserPopup:OnSlotHoverOver(e) return end
 function BackpackEquipSlotChooserPopup:OnUninitialize() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param label String
 ---@return nil
 function BackpackEquipSlotChooserPopup:AddButtonHints(actionName, label) return end

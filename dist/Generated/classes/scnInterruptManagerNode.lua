@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterruptManagerNode: scnSceneGraphNode
----@field public interruptionOperations scnIInterruptionOperation[]
+---@field public ["interruptionOperations"] scnIInterruptionOperation[]
 scnInterruptManagerNode = {}
 
 ---@param fields? table

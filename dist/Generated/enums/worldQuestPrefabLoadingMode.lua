@@ -3,6 +3,6 @@
 
 ---@enum worldQuestPrefabLoadingMode
 worldQuestPrefabLoadingMode = {
-    ["Disable"] = 0,
-    ["ForceLoad"] = 1
+    ["Disable"] = 0, ---@type Enum
+    ["ForceLoad"] = 1, ---@type Enum
 }

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class RadioLogicController: IVehicleModuleController
----@field private radioTextWidget inkTextWidgetReference
----@field private radioEQWidget inkCanvasWidgetReference
----@field private radioStateBBConnectionId redCallbackObject
----@field private radioNameBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private eqLoopAnimProxy inkanimProxy
----@field private radioTextWidgetSize Vector2
+---@field private ["radioTextWidget"] inkTextWidgetReference
+---@field private ["radioEQWidget"] inkCanvasWidgetReference
+---@field private ["radioStateBBConnectionId"] redCallbackObject
+---@field private ["radioNameBBConnectionId"] redCallbackObject
+---@field private ["vehBB"] gameIBlackboard
+---@field private ["eqLoopAnimProxy"] inkanimProxy
+---@field private ["radioTextWidgetSize"] Vector2
 RadioLogicController = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function RadioLogicController:OnUninitialize() return end
 ---@return nil
 function RadioLogicController:InternalUnregisterCallbacks() return end
 
----@param station CName
+---@param station CName|string
 ---@return nil
 function RadioLogicController:OnRadioNameChanged(station) return end
 

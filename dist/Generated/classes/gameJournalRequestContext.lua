@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalRequestContext
----@field public stateFilter gameJournalRequestStateFilter
----@field public classFilter gameJournalRequestClassFilter
+---@field public ["stateFilter"] gameJournalRequestStateFilter
+---@field public ["classFilter"] gameJournalRequestClassFilter
 gameJournalRequestContext = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questVisionMode_ConditionType: questISystemConditionType
----@field public timeInterval Float
----@field public visionModeType questVisionModeType
+---@field public ["timeInterval"] Float
+---@field public ["visionModeType"] questVisionModeType
 questVisionMode_ConditionType = {}
 
 ---@param fields? table

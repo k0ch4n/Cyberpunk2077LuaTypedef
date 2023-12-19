@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiHoldIndicatorGameController: gameuiWidgetGameController
----@field public HoldProgress gameuiHoldIndicatorProgressCallback
----@field public HoldStart inkEmptyCallback
----@field public HoldFinish inkEmptyCallback
----@field public HoldStop inkEmptyCallback
+---@field public ["HoldProgress"] gameuiHoldIndicatorProgressCallback
+---@field public ["HoldStart"] inkEmptyCallback
+---@field public ["HoldFinish"] inkEmptyCallback
+---@field public ["HoldStop"] inkEmptyCallback
 gameuiHoldIndicatorGameController = {}
 
 ---@param fields? table

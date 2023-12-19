@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class inkCompoundWidget: inkWidget
----@field public childOrder inkEChildOrder
----@field public children inkMultiChildren
----@field public childMargin inkMargin
+---@field public ["childOrder"] inkEChildOrder
+---@field public ["children"] inkMultiChildren
+---@field public ["childMargin"] inkMargin
 inkCompoundWidget = {}
 
 ---@param fields? table
 ---@return inkCompoundWidget
 function inkCompoundWidget.new(fields) return end
 
----@param widgetTypeName CName
+---@param widgetTypeName CName|string
 ---@return inkWidget
 function inkCompoundWidget:AddChild(widgetTypeName) return end
 
@@ -44,7 +44,7 @@ function inkCompoundWidget:GetWidgetByIndex(index) return end
 ---@return inkWidget
 function inkCompoundWidget:GetWidgetByPath(path) return end
 
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidget
 function inkCompoundWidget:GetWidgetByPathName(widgetNamePath) return end
 
@@ -59,7 +59,7 @@ function inkCompoundWidget:RemoveChild(childWidget) return end
 ---@return nil
 function inkCompoundWidget:RemoveChildByIndex(index) return end
 
----@param widgetName CName
+---@param widgetName CName|string
 ---@return nil
 function inkCompoundWidget:RemoveChildByName(widgetName) return end
 
@@ -84,6 +84,6 @@ function inkCompoundWidget:GetWidget(path) return end
 ---@return inkWidget
 function inkCompoundWidget:GetWidget(index) return end
 
----@param path CName
+---@param path CName|string
 ---@return inkWidget
 function inkCompoundWidget:GetWidget(path) return end

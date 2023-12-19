@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class OxygenbarWidgetGameController: gameuiHUDGameController
----@field private oxygenControllerRef inkWidgetReference
----@field private oxygenPercTextPath inkTextWidgetReference
----@field private oxygenStatusTextPath inkTextWidgetReference
----@field private bbPSceneTierEventId redCallbackObject
----@field private swimmingStateBlackboardId redCallbackObject
----@field private oxygenController NameplateBarLogicController
----@field private RootWidget inkWidget
----@field private animHideTemp inkanimDefinition
----@field private animShortFade inkanimDefinition
----@field private animLongFade inkanimDefinition
----@field private animHideOxygenProxy inkanimProxy
----@field private currentOxygen Float
----@field private sceneTier GameplayTier
----@field private currentSwimmingState gamePSMSwimming
----@field private oxygenListener OxygenListener
+---@field private ["oxygenControllerRef"] inkWidgetReference
+---@field private ["oxygenPercTextPath"] inkTextWidgetReference
+---@field private ["oxygenStatusTextPath"] inkTextWidgetReference
+---@field private ["bbPSceneTierEventId"] redCallbackObject
+---@field private ["swimmingStateBlackboardId"] redCallbackObject
+---@field private ["oxygenController"] NameplateBarLogicController
+---@field private ["RootWidget"] inkWidget
+---@field private ["animHideTemp"] inkanimDefinition
+---@field private ["animShortFade"] inkanimDefinition
+---@field private ["animLongFade"] inkanimDefinition
+---@field private ["animHideOxygenProxy"] inkanimProxy
+---@field private ["currentOxygen"] Float
+---@field private ["sceneTier"] GameplayTier
+---@field private ["currentSwimmingState"] gamePSMSwimming
+---@field private ["oxygenListener"] OxygenListener
 OxygenbarWidgetGameController = {}
 
 ---@param fields? table

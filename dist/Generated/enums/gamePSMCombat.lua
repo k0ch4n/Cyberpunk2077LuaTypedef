@@ -3,9 +3,9 @@
 
 ---@enum gamePSMCombat
 gamePSMCombat = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["InCombat"] = 1,
-    ["OutOfCombat"] = 2,
-    ["Stealth"] = 3
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["InCombat"] = 1, ---@type Enum
+    ["OutOfCombat"] = 2, ---@type Enum
+    ["Stealth"] = 3, ---@type Enum
 }

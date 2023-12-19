@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleSwitchControllerPS: MasterControllerPS
----@field protected switchAction ESwitchAction
----@field protected nameForON TweakDBID
----@field protected nameForOFF TweakDBID
+---@field protected ["switchAction"] ESwitchAction
+---@field protected ["nameForON"] TweakDBID
+---@field protected ["nameForOFF"] TweakDBID
 SimpleSwitchControllerPS = {}
 
 ---@param fields? table

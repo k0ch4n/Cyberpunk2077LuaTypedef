@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class inkTextKiroshiAnimationController: inkTextAnimationController
----@field public timeToSkip Float
----@field public nativeText String
----@field public preTranslatedTextWidget inkTextWidgetReference
----@field public postTranslatedTextWidget inkTextWidgetReference
----@field public nativeTextWidget inkRichTextBoxWidgetReference
----@field public translatedTextWidget inkTextWidgetReference
+---@field public ["timeToSkip"] Float
+---@field public ["nativeText"] String
+---@field public ["preTranslatedTextWidget"] inkTextWidgetReference
+---@field public ["postTranslatedTextWidget"] inkTextWidgetReference
+---@field public ["nativeTextWidget"] inkRichTextBoxWidgetReference
+---@field public ["translatedTextWidget"] inkTextWidgetReference
 inkTextKiroshiAnimationController = {}
 
 ---@param fields? table

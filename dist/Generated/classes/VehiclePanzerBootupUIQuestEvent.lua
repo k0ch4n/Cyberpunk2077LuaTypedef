@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehiclePanzerBootupUIQuestEvent: redEvent
----@field public mode panzerBootupUI
+---@field public ["mode"] panzerBootupUI
 VehiclePanzerBootupUIQuestEvent = {}
 
 ---@param fields? table

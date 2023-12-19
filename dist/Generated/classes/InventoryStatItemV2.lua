@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InventoryStatItemV2: inkWidgetLogicController
----@field private LabelRef inkTextWidgetReference
----@field private ValueRef inkTextWidgetReference
----@field private Icon inkImageWidgetReference
----@field private BackgroundIcon inkImageWidgetReference
----@field private TextGroup inkWidgetReference
----@field private IntroPlayed Bool
+---@field private ["LabelRef"] inkTextWidgetReference
+---@field private ["ValueRef"] inkTextWidgetReference
+---@field private ["Icon"] inkImageWidgetReference
+---@field private ["BackgroundIcon"] inkImageWidgetReference
+---@field private ["TextGroup"] inkWidgetReference
+---@field private ["IntroPlayed"] Bool
 InventoryStatItemV2 = {}
 
 ---@param fields? table

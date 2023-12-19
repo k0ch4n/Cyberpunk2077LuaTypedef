@@ -3,8 +3,8 @@
 
 ---@enum gameuiarcadeTankEnemyMovementType
 gameuiarcadeTankEnemyMovementType = {
-    ["x_axis"] = 0,
-    ["x_axisL"] = 1,
-    ["x_axisR"] = 2,
-    ["y_axis"] = 3
+    ["x_axis"] = 0, ---@type Enum
+    ["x_axisL"] = 1, ---@type Enum
+    ["x_axisR"] = 2, ---@type Enum
+    ["y_axis"] = 3, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAppearanceToNPCMetadata
----@field public appearances CName[]
----@field public foleyNPCMetadata CName
+---@field public ["appearances"] CName[]
+---@field public ["foleyNPCMetadata"] CName
 audioAppearanceToNPCMetadata = {}
 
 ---@param fields? table

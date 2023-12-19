@@ -3,6 +3,6 @@
 
 ---@enum RequestType
 RequestType = {
-    ["INSTANTLY_TRIGGER"] = 0,
-    ["MANUALLY_TRIGGERED"] = 1
+    ["INSTANTLY_TRIGGER"] = 0, ---@type Enum
+    ["MANUALLY_TRIGGERED"] = 1, ---@type Enum
 }

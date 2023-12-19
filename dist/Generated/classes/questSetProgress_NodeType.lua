@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questSetProgress_NodeType: questIAchievementManagerNodeType
----@field public achievement TweakDBID
----@field public factName String
----@field public maxValue Uint32
----@field public currentValue Uint32
+---@field public ["achievement"] TweakDBID
+---@field public ["factName"] String
+---@field public ["maxValue"] Uint32
+---@field public ["currentValue"] Uint32
 questSetProgress_NodeType = {}
 
 ---@param fields? table

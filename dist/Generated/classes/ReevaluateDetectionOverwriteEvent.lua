@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReevaluateDetectionOverwriteEvent: redEvent
----@field public target entEntity
+---@field public ["target"] entEntity
 ReevaluateDetectionOverwriteEvent = {}
 
 ---@param fields? table

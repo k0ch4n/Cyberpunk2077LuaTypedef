@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GenericDevice: InteractiveDevice
----@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
----@field private currentSpiderbotAction CustomDeviceAction
+---@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
+---@field private ["currentSpiderbotAction"] CustomDeviceAction
 GenericDevice = {}
 
 ---@param fields? table
@@ -86,7 +86,7 @@ function GenericDevice:GetDevicePS() return end
 function GenericDevice:InitializeQuestDBCallbacks() return end
 
 ---@private
----@param actionID CName
+---@param actionID CName|string
 ---@return nil
 function GenericDevice:ResolveCustomAction(actionID) return end
 

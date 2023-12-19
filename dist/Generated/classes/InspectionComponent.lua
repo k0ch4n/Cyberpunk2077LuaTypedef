@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class InspectionComponent: gameScriptableComponent
----@field public slot String
----@field private cumulatedObjRotationX Float
----@field private cumulatedObjRotationY Float
----@field private maxObjOffset Float
----@field private minObjOffset Float
----@field private zoomSpeed Float
----@field private timeToScan Float
----@field private isPlayerInspecting Bool
----@field private activeClue String
----@field private isScanAvailable Bool
----@field private scanningInProgress Bool
----@field private objectScanned Bool
----@field private animFeature AnimFeature_Inspection
----@field private listener IScriptable
----@field private lastInspectedObjID entEntityID
+---@field public ["slot"] String
+---@field private ["cumulatedObjRotationX"] Float
+---@field private ["cumulatedObjRotationY"] Float
+---@field private ["maxObjOffset"] Float
+---@field private ["minObjOffset"] Float
+---@field private ["zoomSpeed"] Float
+---@field private ["timeToScan"] Float
+---@field private ["isPlayerInspecting"] Bool
+---@field private ["activeClue"] String
+---@field private ["isScanAvailable"] Bool
+---@field private ["scanningInProgress"] Bool
+---@field private ["objectScanned"] Bool
+---@field private ["animFeature"] AnimFeature_Inspection
+---@field private ["listener"] IScriptable
+---@field private ["lastInspectedObjID"] entEntityID
 InspectionComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DEBUG_DamageInputReceiver: IScriptable
----@field public player PlayerPuppet
+---@field public ["player"] PlayerPuppet
 DEBUG_DamageInputReceiver = {}
 
 ---@param fields? table

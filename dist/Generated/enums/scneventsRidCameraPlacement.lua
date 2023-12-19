@@ -3,7 +3,7 @@
 
 ---@enum scneventsRidCameraPlacement
 scneventsRidCameraPlacement = {
-    ["SceneOrigin"] = 0,
-    ["Actual"] = 1,
-    ["Player"] = 2
+    ["SceneOrigin"] = 0, ---@type Enum
+    ["Actual"] = 1, ---@type Enum
+    ["Player"] = 2, ---@type Enum
 }

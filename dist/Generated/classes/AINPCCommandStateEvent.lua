@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AINPCCommandStateEvent: redEvent
----@field public command AICommand
----@field public newState AICommandState
+---@field public ["command"] AICommand
+---@field public ["newState"] AICommandState
 AINPCCommandStateEvent = {}
 
 ---@param fields? table

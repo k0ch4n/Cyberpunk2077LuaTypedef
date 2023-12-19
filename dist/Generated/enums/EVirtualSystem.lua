@@ -3,9 +3,9 @@
 
 ---@enum EVirtualSystem
 EVirtualSystem = {
-    ["None"] = 0,
-    ["SurveillanceSystem"] = 1,
-    ["DoorSystem"] = 2,
-    ["MediaSystem"] = 3,
-    ["SecuritySystem"] = 4
+    ["None"] = 0, ---@type Enum
+    ["SurveillanceSystem"] = 1, ---@type Enum
+    ["DoorSystem"] = 2, ---@type Enum
+    ["MediaSystem"] = 3, ---@type Enum
+    ["SecuritySystem"] = 4, ---@type Enum
 }

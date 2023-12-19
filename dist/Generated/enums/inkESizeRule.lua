@@ -3,6 +3,6 @@
 
 ---@enum inkESizeRule
 inkESizeRule = {
-    ["Fixed"] = 0,
-    ["Stretch"] = 1
+    ["Fixed"] = 0, ---@type Enum
+    ["Stretch"] = 1, ---@type Enum
 }

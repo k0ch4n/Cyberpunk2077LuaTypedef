@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RefreshQhWithTagInAreaEffector: gameEffector
----@field public tags CName[]
----@field public range Float
+---@field public ["tags"] CName[]
+---@field public ["range"] Float
 RefreshQhWithTagInAreaEffector = {}
 
 ---@param fields? table

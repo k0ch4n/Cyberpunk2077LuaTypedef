@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiOnHitPlayerEvent: redEvent
----@field public gameState gameuiMinigameState
+---@field public ["gameState"] gameuiMinigameState
 gameuiOnHitPlayerEvent = {}
 
 ---@param fields? table

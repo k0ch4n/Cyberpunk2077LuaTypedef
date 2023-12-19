@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetPreventionPath: gameScriptableSystemRequest
----@field public blockSpawnFrom EVehicleSpawnBlockSide
----@field public resetToDefault Bool
----@field public source CName
+---@field public ["blockSpawnFrom"] EVehicleSpawnBlockSide
+---@field public ["resetToDefault"] Bool
+---@field public ["source"] CName
 SetPreventionPath = {}
 
 ---@param fields? table

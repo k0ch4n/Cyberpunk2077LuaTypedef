@@ -3,7 +3,7 @@
 
 ---@enum ChargeIndicatorWidgetType
 ChargeIndicatorWidgetType = {
-    ["INVALID"] = 0,
-    ["JENKINS"] = 1,
-    ["TIMEBANK"] = 2
+    ["INVALID"] = 0, ---@type Enum
+    ["JENKINS"] = 1, ---@type Enum
+    ["TIMEBANK"] = 2, ---@type Enum
 }

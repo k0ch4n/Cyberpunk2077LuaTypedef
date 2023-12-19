@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_Rotation_LocalRotation: gameTransformAnimation_Rotation
----@field public rotation Quaternion
+---@field public ["rotation"] Quaternion
 gameTransformAnimation_Rotation_LocalRotation = {}
 
 ---@param fields? table

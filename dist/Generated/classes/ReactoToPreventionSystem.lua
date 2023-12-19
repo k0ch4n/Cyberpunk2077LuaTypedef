@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReactoToPreventionSystem: redEvent
----@field public wakeUp Bool
+---@field public ["wakeUp"] Bool
 ReactoToPreventionSystem = {}
 
 ---@param fields? table

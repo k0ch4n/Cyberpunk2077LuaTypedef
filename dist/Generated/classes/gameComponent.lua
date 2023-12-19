@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameComponent: entIComponent
----@field public persistentState gamePersistentState
+---@field public ["persistentState"] gamePersistentState
 gameComponent = {}
 
 ---@param fields? table

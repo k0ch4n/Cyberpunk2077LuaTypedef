@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkVirtualListController: inkVirtualCompoundController
----@field public itemTemplates inkWidgetLibraryReference[]
----@field public cycleNavigation Bool
+---@field public ["itemTemplates"] inkWidgetLibraryReference[]
+---@field public ["cycleNavigation"] Bool
 inkVirtualListController = {}
 
 ---@param fields? table

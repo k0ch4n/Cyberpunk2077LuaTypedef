@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatModifierDetailedData
----@field public value Float
----@field public modifierType gameStatModifierType
+---@field public ["value"] Float
+---@field public ["modifierType"] gameStatModifierType
 gameStatModifierDetailedData = {}
 
 ---@param fields? table

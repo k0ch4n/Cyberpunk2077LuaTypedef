@@ -3,11 +3,11 @@
 
 ---@enum gamedataPlayerBuild
 gamedataPlayerBuild = {
-    ["Cool"] = 0,
-    ["Netrunner"] = 1,
-    ["Reflexes"] = 2,
-    ["Solo"] = 3,
-    ["Techie"] = 4,
-    ["Count"] = 5,
-    ["Invalid"] = 6
+    ["Cool"] = 0, ---@type Enum
+    ["Netrunner"] = 1, ---@type Enum
+    ["Reflexes"] = 2, ---@type Enum
+    ["Solo"] = 3, ---@type Enum
+    ["Techie"] = 4, ---@type Enum
+    ["Count"] = 5, ---@type Enum
+    ["Invalid"] = 6, ---@type Enum
 }

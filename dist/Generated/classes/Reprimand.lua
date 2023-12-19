@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Reprimand: MorphData
----@field public reprimandData ReprimandData
+---@field public ["reprimandData"] ReprimandData
 Reprimand = {}
 
 ---@param fields? table

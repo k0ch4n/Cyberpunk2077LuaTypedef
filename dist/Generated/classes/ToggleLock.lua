@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleLock: ActionBool
----@field protected shouldOpen Bool
+---@field protected ["shouldOpen"] Bool
 ToggleLock = {}
 
 ---@param fields? table

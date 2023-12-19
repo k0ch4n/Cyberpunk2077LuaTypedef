@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleSummonFinishedEvent: redEvent
----@field public state vehicleSummonState
+---@field public ["state"] vehicleSummonState
 vehicleSummonFinishedEvent = {}
 
 ---@param fields? table

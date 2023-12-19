@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnAddIdleWithBlendAnimEvent: scnSceneEvent
----@field public performerId scnPerformerId
----@field public actorComponent CName
----@field public targetWeight Float
+---@field public ["performerId"] scnPerformerId
+---@field public ["actorComponent"] CName
+---@field public ["targetWeight"] Float
 scnAddIdleWithBlendAnimEvent = {}
 
 ---@param fields? table

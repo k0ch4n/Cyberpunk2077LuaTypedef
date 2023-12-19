@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChargedHealingBlackBoardDef: gamebbScriptDefinition
----@field public currHealingItemCharge gamebbScriptID_Int32
----@field public rechargeGoingOn gamebbScriptID_Bool
+---@field public ["currHealingItemCharge"] gamebbScriptID_Int32
+---@field public ["rechargeGoingOn"] gamebbScriptID_Bool
 ChargedHealingBlackBoardDef = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsAlwaysSamePredicate: gameinteractionsIPredicateType
----@field public priority Float
+---@field public ["priority"] Float
 gameinteractionsAlwaysSamePredicate = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class InteractiveAdInkGameController: DeviceInkGameControllerBase
----@field private ProcessingVideo inkVideoWidgetReference
----@field private PersonalAd inkVideoWidgetReference
----@field private CommonAd inkVideoWidgetReference
----@field protected fadeDuration Float
----@field private animFade inkanimDefinition
----@field private animOptions inkanimPlaybackOptions
----@field private showAd Bool
----@field private onShowAdListener redCallbackObject
----@field private onShowVendorListener redCallbackObject
+---@field private ["ProcessingVideo"] inkVideoWidgetReference
+---@field private ["PersonalAd"] inkVideoWidgetReference
+---@field private ["CommonAd"] inkVideoWidgetReference
+---@field protected ["fadeDuration"] Float
+---@field private ["animFade"] inkanimDefinition
+---@field private ["animOptions"] inkanimPlaybackOptions
+---@field private ["showAd"] Bool
+---@field private ["onShowAdListener"] redCallbackObject
+---@field private ["onShowVendorListener"] redCallbackObject
 InteractiveAdInkGameController = {}
 
 ---@param fields? table

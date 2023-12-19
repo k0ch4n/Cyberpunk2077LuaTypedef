@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorUsedSpotTokensList: ISerializable
----@field public tokens AISpotUsageToken[]
+---@field public ["tokens"] AISpotUsageToken[]
 AIbehaviorUsedSpotTokensList = {}
 
 ---@param fields? table

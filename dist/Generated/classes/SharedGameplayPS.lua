@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class SharedGameplayPS: gameDeviceComponentPS
----@field protected deviceState EDeviceStatus
----@field protected authorizationProperties AuthorizationData
----@field protected wasStateCached Bool
----@field protected wasStateSet Bool
----@field protected cachedDeviceState EDeviceStatus
----@field protected revealDevicesGrid Bool
----@field protected revealDevicesGridWhenUnpowered Bool
----@field protected wasRevealedInNetworkPing Bool
----@field protected hasNetworkBackdoor Bool
+---@field protected ["deviceState"] EDeviceStatus
+---@field protected ["authorizationProperties"] AuthorizationData
+---@field protected ["wasStateCached"] Bool
+---@field protected ["wasStateSet"] Bool
+---@field protected ["cachedDeviceState"] EDeviceStatus
+---@field protected ["revealDevicesGrid"] Bool
+---@field protected ["revealDevicesGridWhenUnpowered"] Bool
+---@field protected ["wasRevealedInNetworkPing"] Bool
+---@field protected ["hasNetworkBackdoor"] Bool
 SharedGameplayPS = {}
 
 ---@param fields? table
@@ -89,7 +89,7 @@ function SharedGameplayPS:QueuePSEvent(targetPS, evt) return end
 
 ---@protected
 ---@param targetID gamePersistentID
----@param psClassName CName
+---@param psClassName CName|string
 ---@param evt redEvent
 ---@return nil
 function SharedGameplayPS:QueuePSEvent(targetID, psClassName, evt) return end
@@ -103,7 +103,7 @@ function SharedGameplayPS:QueuePSEventWithDelay(targetPS, evt, delay) return end
 
 ---@protected
 ---@param targetID gamePersistentID
----@param psClassName CName
+---@param psClassName CName|string
 ---@param evt redEvent
 ---@param delay Float
 ---@return nil

@@ -3,13 +3,13 @@
 
 ---@enum ECookingPlatform
 ECookingPlatform = {
-    ["PLATFORM_None"] = 0,
-    ["PLATFORM_PC"] = 1,
-    ["PLATFORM_XboxOne"] = 2,
-    ["PLATFORM_PS4"] = 3,
-    ["PLATFORM_PS5"] = 4,
-    ["PLATFORM_XSX"] = 5,
-    ["PLATFORM_WindowsServer"] = 6,
-    ["PLATFORM_LinuxServer"] = 7,
-    ["PLATFORM_GGP"] = 8
+    ["PLATFORM_None"] = 0, ---@type Enum
+    ["PLATFORM_PC"] = 1, ---@type Enum
+    ["PLATFORM_XboxOne"] = 2, ---@type Enum
+    ["PLATFORM_PS4"] = 3, ---@type Enum
+    ["PLATFORM_PS5"] = 4, ---@type Enum
+    ["PLATFORM_XSX"] = 5, ---@type Enum
+    ["PLATFORM_WindowsServer"] = 6, ---@type Enum
+    ["PLATFORM_LinuxServer"] = 7, ---@type Enum
+    ["PLATFORM_GGP"] = 8, ---@type Enum
 }

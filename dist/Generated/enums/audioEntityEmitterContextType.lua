@@ -3,6 +3,6 @@
 
 ---@enum audioEntityEmitterContextType
 audioEntityEmitterContextType = {
-    ["Entity Emitter"] = 0,
-    ["Radio Emitter"] = 2
+    ["Entity Emitter"] = 0, ---@type Enum
+    ["Radio Emitter"] = 2, ---@type Enum
 }

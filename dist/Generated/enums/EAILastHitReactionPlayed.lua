@@ -3,9 +3,9 @@
 
 ---@enum EAILastHitReactionPlayed
 EAILastHitReactionPlayed = {
-    ["None"] = -1,
-    ["Twitch"] = 0,
-    ["Impact"] = 1,
-    ["Stagger"] = 2,
-    ["Knockdown"] = 3
+    ["None"] = -1, ---@type Enum
+    ["Twitch"] = 0, ---@type Enum
+    ["Impact"] = 1, ---@type Enum
+    ["Stagger"] = 2, ---@type Enum
+    ["Knockdown"] = 3, ---@type Enum
 }

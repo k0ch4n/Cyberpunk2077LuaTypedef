@@ -3,6 +3,6 @@
 
 ---@enum gamedataVariableNodeVariableValueDeriveInfo
 gamedataVariableNodeVariableValueDeriveInfo = {
-    ["NotDerived"] = 0,
-    ["ArrayAddition"] = 1
+    ["NotDerived"] = 0, ---@type Enum
+    ["ArrayAddition"] = 1, ---@type Enum
 }

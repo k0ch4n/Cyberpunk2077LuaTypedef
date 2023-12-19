@@ -3,7 +3,7 @@
 
 ---@enum shadowsShadowCastingMode
 shadowsShadowCastingMode = {
-    ["Default"] = 0,
-    ["Always"] = 1,
-    ["Never"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Always"] = 1, ---@type Enum
+    ["Never"] = 2, ---@type Enum
 }

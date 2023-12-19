@@ -3,6 +3,6 @@
 
 ---@enum EToggleOperationType
 EToggleOperationType = {
-    ["ADD"] = 0,
-    ["REMOVE"] = 1
+    ["ADD"] = 0, ---@type Enum
+    ["REMOVE"] = 1, ---@type Enum
 }

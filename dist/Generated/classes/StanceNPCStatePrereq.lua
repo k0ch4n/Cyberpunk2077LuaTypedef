@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StanceNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCStanceState
+---@field public ["valueToListen"] gamedataNPCStanceState
 StanceNPCStatePrereq = {}
 
 ---@param fields? table

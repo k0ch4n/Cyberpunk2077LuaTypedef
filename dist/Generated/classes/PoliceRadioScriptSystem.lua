@@ -18,12 +18,12 @@ function PoliceRadioScriptSystem.GetHeatStageRadioEntryName(heatStage, currentDi
 function PoliceRadioScriptSystem.GetSystemName() return end
 
 ---@private
----@param entryName CName
+---@param entryName CName|string
 ---@return Bool
 function PoliceRadioScriptSystem.IsARecentEntry(entryName) return end
 
 ---@private
----@param line CName
+---@param line CName|string
 ---@param currentDistrict District
 ---@return Bool
 function PoliceRadioScriptSystem.IsHeat1Line(line, currentDistrict) return end
@@ -32,7 +32,7 @@ function PoliceRadioScriptSystem.IsHeat1Line(line, currentDistrict) return end
 ---@return Bool
 function PoliceRadioScriptSystem.IsPlayerInVehicle() return end
 
----@param entryName CName
+---@param entryName CName|string
 ---@return nil
 function PoliceRadioScriptSystem.PlayRadio(entryName) return end
 

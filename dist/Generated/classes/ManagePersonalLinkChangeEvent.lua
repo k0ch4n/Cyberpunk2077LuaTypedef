@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ManagePersonalLinkChangeEvent: redEvent
----@field public shouldEquip Bool
+---@field public ["shouldEquip"] Bool
 ManagePersonalLinkChangeEvent = {}
 
 ---@param fields? table

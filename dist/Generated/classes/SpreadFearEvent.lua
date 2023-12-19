@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpreadFearEvent: redEvent
----@field public player Bool
----@field public phase Int32
+---@field public ["player"] Bool
+---@field public ["phase"] Int32
 SpreadFearEvent = {}
 
 ---@param fields? table

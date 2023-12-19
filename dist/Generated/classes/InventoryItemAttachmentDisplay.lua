@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemAttachmentDisplay: inkWidgetLogicController
----@field private QualityRootRef inkWidgetReference
----@field private ShapeRef inkWidgetReference
----@field private BorderRef inkWidgetReference
----@field private MarkedStateName CName
+---@field private ["QualityRootRef"] inkWidgetReference
+---@field private ["ShapeRef"] inkWidgetReference
+---@field private ["BorderRef"] inkWidgetReference
+---@field private ["MarkedStateName"] CName
 InventoryItemAttachmentDisplay = {}
 
 ---@param fields? table
@@ -21,6 +21,6 @@ function InventoryItemAttachmentDisplay:Mark(marked) return end
 function InventoryItemAttachmentDisplay:Setup(itemData) return end
 
 ---@param visible Bool
----@param quality CName
+---@param quality CName|string
 ---@return nil
 function InventoryItemAttachmentDisplay:Setup(visible, quality) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DrillScanPostProcessEvent: redEvent
----@field public IsEnabled Bool
+---@field public ["IsEnabled"] Bool
 DrillScanPostProcessEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemoveAllPerks: gamePlayerScriptableSystemRequest
----@field public unequipPerkItems Bool
----@field public removeCost Bool
+---@field public ["unequipPerkItems"] Bool
+---@field public ["removeCost"] Bool
 RemoveAllPerks = {}
 
 ---@param fields? table

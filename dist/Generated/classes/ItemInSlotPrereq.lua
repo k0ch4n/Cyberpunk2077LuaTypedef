@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ItemInSlotPrereq: gameIScriptablePrereq
----@field public slotID TweakDBID
----@field public slotCheckType gamedataCheckType
----@field public itemType gamedataItemType
----@field public itemCategory gamedataItemCategory
----@field public weaponEvolution gamedataWeaponEvolution
----@field public itemTag CName
----@field public invert Bool
----@field public skipOnApply Bool
----@field public waitForVisuals Bool
+---@field public ["slotID"] TweakDBID
+---@field public ["slotCheckType"] gamedataCheckType
+---@field public ["itemType"] gamedataItemType
+---@field public ["itemCategory"] gamedataItemCategory
+---@field public ["weaponEvolution"] gamedataWeaponEvolution
+---@field public ["itemTag"] CName
+---@field public ["invert"] Bool
+---@field public ["skipOnApply"] Bool
+---@field public ["waitForVisuals"] Bool
 ItemInSlotPrereq = {}
 
 ---@param fields? table
@@ -40,7 +40,7 @@ function ItemInSlotPrereq:Evaluate(itemType) return end
 function ItemInSlotPrereq:Evaluate(weaponEvolution) return end
 
 ---@param itemID gameItemID
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function ItemInSlotPrereq:Evaluate(itemID, tag) return end
 

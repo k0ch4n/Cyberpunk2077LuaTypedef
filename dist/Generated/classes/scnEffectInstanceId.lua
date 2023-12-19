@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnEffectInstanceId
----@field public effectId scnEffectId
----@field public id Uint32
+---@field public ["effectId"] scnEffectId
+---@field public ["id"] Uint32
 scnEffectInstanceId = {}
 
 ---@param fields? table

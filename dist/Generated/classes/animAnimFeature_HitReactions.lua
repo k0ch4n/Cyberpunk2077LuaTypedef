@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_HitReactions: animAnimFeature
----@field public hitDirection Vector4
----@field public hitIntensity Float
----@field public hitType Int32
----@field public hitBodyPart Int32
+---@field public ["hitDirection"] Vector4
+---@field public ["hitIntensity"] Float
+---@field public ["hitType"] Int32
+---@field public ["hitBodyPart"] Int32
 animAnimFeature_HitReactions = {}
 
 ---@param fields? table

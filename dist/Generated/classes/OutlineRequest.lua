@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class OutlineRequest: IScriptable
----@field private requester CName
----@field private outlineDuration Float
----@field private outlineData OutlineData
+---@field private ["requester"] CName
+---@field private ["outlineDuration"] Float
+---@field private ["outlineData"] OutlineData
 OutlineRequest = {}
 
 ---@param fields? table
 ---@return OutlineRequest
 function OutlineRequest.new(fields) return end
 
----@param requester CName
+---@param requester CName|string
 ---@param data OutlineData
 ---@param expectedDuration? Float
 ---@return OutlineRequest

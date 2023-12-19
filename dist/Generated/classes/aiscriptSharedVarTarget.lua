@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class aiscriptSharedVarTarget
----@field public varName LibTreeSharedVarReferenceName
+---@field public ["varName"] LibTreeSharedVarReferenceName
 aiscriptSharedVarTarget = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ArcadeMinigameUserData: inkUserData
----@field public minigame ArcadeMinigame
+---@field public ["minigame"] ArcadeMinigame
 ArcadeMinigameUserData = {}
 
 ---@param fields? table

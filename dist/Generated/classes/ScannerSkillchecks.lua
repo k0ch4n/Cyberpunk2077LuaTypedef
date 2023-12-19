@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ScannerSkillchecks: ScannerChunk
----@field private skillchecks UIInteractionSkillCheck[]
----@field private authorizationRequired Bool
----@field private isPlayerAuthorized Bool
+---@field private ["skillchecks"] UIInteractionSkillCheck[]
+---@field private ["authorizationRequired"] Bool
+---@field private ["isPlayerAuthorized"] Bool
 ScannerSkillchecks = {}
 
 ---@param fields? table

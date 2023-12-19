@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkShowEngagementScreen: IScriptable
----@field public show Bool
+---@field public ["show"] Bool
 inkShowEngagementScreen = {}
 
 ---@param fields? table

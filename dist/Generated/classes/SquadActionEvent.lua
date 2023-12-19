@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SquadActionEvent: redEvent
----@field public squadActionName CName
----@field public squadVerb EAISquadVerb
+---@field public ["squadActionName"] CName
+---@field public ["squadVerb"] EAISquadVerb
 SquadActionEvent = {}
 
 ---@param fields? table

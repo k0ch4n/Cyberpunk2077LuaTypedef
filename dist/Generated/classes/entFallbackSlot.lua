@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entFallbackSlot
----@field public slotName CName
----@field public boneName CName
+---@field public ["slotName"] CName
+---@field public ["boneName"] CName
 entFallbackSlot = {}
 
 ---@param fields? table

@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class ReloadEvents: WeaponEventsTransition
----@field public statListener DefaultTransitionStatListener
----@field public randomSync AnimFeature_SelectRandomAnimSync
----@field public animReloadData AnimFeature_WeaponReload
----@field public animReloadSpeed AnimFeature_WeaponReloadSpeedData
----@field public weaponRecord gamedataWeaponItem_Record
----@field public animReloadDataDirty Bool
----@field public animReloadSpeedDirty Bool
----@field public uninteruptibleSet Bool
----@field public weaponHasAutoLoader Bool
----@field public canReloadWhileSprinting Bool
----@field public lastReloadWasEmpty Bool
----@field public isCoolPerkReload Bool
+---@field public ["statListener"] DefaultTransitionStatListener
+---@field public ["randomSync"] AnimFeature_SelectRandomAnimSync
+---@field public ["animReloadData"] AnimFeature_WeaponReload
+---@field public ["animReloadSpeed"] AnimFeature_WeaponReloadSpeedData
+---@field public ["weaponRecord"] gamedataWeaponItem_Record
+---@field public ["animReloadDataDirty"] Bool
+---@field public ["animReloadSpeedDirty"] Bool
+---@field public ["uninteruptibleSet"] Bool
+---@field public ["weaponHasAutoLoader"] Bool
+---@field public ["canReloadWhileSprinting"] Bool
+---@field public ["lastReloadWasEmpty"] Bool
+---@field public ["isCoolPerkReload"] Bool
 ReloadEvents = {}
 
 ---@param fields? table

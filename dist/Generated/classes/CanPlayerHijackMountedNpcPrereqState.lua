@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CanPlayerHijackMountedNpcPrereqState: gamePrereqState
----@field public mountingListener gameScriptedPrereqMountingListenerWrapper
+---@field public ["mountingListener"] gameScriptedPrereqMountingListenerWrapper
 CanPlayerHijackMountedNpcPrereqState = {}
 
 ---@param fields? table

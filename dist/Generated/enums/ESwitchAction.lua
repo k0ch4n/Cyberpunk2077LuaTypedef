@@ -3,6 +3,6 @@
 
 ---@enum ESwitchAction
 ESwitchAction = {
-    ["ToggleOn"] = 0,
-    ["ToggleActivate"] = 1
+    ["ToggleOn"] = 0, ---@type Enum
+    ["ToggleActivate"] = 1, ---@type Enum
 }

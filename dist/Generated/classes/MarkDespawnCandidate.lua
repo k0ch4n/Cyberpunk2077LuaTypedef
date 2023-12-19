@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MarkDespawnCandidate: AIbehaviortaskScript
----@field public onDeactivation Bool
+---@field public ["onDeactivation"] Bool
 MarkDespawnCandidate = {}
 
 ---@param fields? table

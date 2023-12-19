@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialOverlayHideEvent: redEvent
----@field public itemName CName
+---@field public ["itemName"] CName
 gameuiTutorialOverlayHideEvent = {}
 
 ---@param fields? table

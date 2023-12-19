@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RefreshPerkTooltipEvent: redEvent
----@field public target inkWidget
----@field public perkData NewPerkDisplayData
+---@field public ["target"] inkWidget
+---@field public ["perkData"] NewPerkDisplayData
 RefreshPerkTooltipEvent = {}
 
 ---@param fields? table

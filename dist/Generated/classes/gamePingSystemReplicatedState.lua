@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePingSystemReplicatedState: gameIGameSystemReplicatedState
----@field public replicatedPingEntries gamePingEntry[]
+---@field public ["replicatedPingEntries"] gamePingEntry[]
 gamePingSystemReplicatedState = {}
 
 ---@param fields? table

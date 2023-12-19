@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetAnimset: questICharacterManagerParameters_NodeSubType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public variableName CName
----@field public value Float
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
+---@field public ["variableName"] CName
+---@field public ["value"] Float
 questCharacterManagerParameters_SetAnimset = {}
 
 ---@param fields? table

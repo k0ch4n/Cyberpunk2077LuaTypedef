@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_LevelUpDef: gamebbScriptDefinition
----@field public level gamebbScriptID_Variant
+---@field public ["level"] gamebbScriptID_Variant
 UI_LevelUpDef = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_GraphSlot_Test: animAnimNode_GraphSlot
----@field public graph_TEST animAnimGraph
----@field public copyAnimInputsAtAttachTime Bool
+---@field public ["graph_TEST"] animAnimGraph
+---@field public ["copyAnimInputsAtAttachTime"] Bool
 animAnimNode_GraphSlot_Test = {}
 
 ---@param fields? table

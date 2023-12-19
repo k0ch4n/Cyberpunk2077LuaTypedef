@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleWaterEvent: redEvent
----@field public isInWater Bool
+---@field public ["isInWater"] Bool
 vehicleWaterEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CameraTagLockEvent: redEvent
----@field public isLocked Bool
+---@field public ["isLocked"] Bool
 CameraTagLockEvent = {}
 
 ---@param fields? table

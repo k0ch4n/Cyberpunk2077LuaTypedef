@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsContainedInShapesPredicate: gameinteractionsIPredicateType
----@field public useCameraPosition Bool
+---@field public ["useCameraPosition"] Bool
 gameinteractionsContainedInShapesPredicate = {}
 
 ---@param fields? table

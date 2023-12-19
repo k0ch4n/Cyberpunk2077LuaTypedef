@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ConsumableChargesPrereqState: gamePrereqState
----@field public owner PlayerPuppet
----@field public statPoolListener ConsumableChargesPrereqListener
----@field public object gameObject
----@field public statsObjID gameStatsObjectID
+---@field public ["owner"] PlayerPuppet
+---@field public ["statPoolListener"] ConsumableChargesPrereqListener
+---@field public ["object"] gameObject
+---@field public ["statsObjID"] gameStatsObjectID
 ConsumableChargesPrereqState = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class SettingsVarListener: userSettingsVarListener
----@field private ctrl SettingsMainGameController
+---@field private ["ctrl"] SettingsMainGameController
 SettingsVarListener = {}
 
 ---@param fields? table
 ---@return SettingsVarListener
 function SettingsVarListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

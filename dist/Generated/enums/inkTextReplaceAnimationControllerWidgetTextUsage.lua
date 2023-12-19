@@ -3,7 +3,7 @@
 
 ---@enum inkTextReplaceAnimationControllerWidgetTextUsage
 inkTextReplaceAnimationControllerWidgetTextUsage = {
-    ["BaseText"] = 0,
-    ["TargetText"] = 1,
-    ["NoUsage"] = 2
+    ["BaseText"] = 0, ---@type Enum
+    ["TargetText"] = 1, ---@type Enum
+    ["NoUsage"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_Rotation_MarkerRotation: gameTransformAnimation_Rotation
----@field public markerNode NodeRef
----@field public offset Vector3
+---@field public ["markerNode"] NodeRef
+---@field public ["offset"] Vector3
 gameTransformAnimation_Rotation_MarkerRotation = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SceneFirstEquipState: redEvent
----@field public prevented Bool
+---@field public ["prevented"] Bool
 SceneFirstEquipState = {}
 
 ---@param fields? table

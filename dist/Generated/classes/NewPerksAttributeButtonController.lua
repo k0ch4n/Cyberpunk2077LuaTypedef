@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class NewPerksAttributeButtonController: inkWidgetLogicController
----@field private attributePointsButton inkWidgetReference
----@field private attributeText inkTextWidgetReference
----@field private currentText inkTextWidgetReference
----@field private textGhost inkTextWidgetReference
----@field private requirementText inkTextWidgetReference
----@field private buttonWidget inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private totalPoints Int32
----@field private initData NewPerksScreenInitData
----@field private isHovered Bool
----@field private isPressed Bool
----@field private idleAnimProxy inkanimProxy
+---@field private ["attributePointsButton"] inkWidgetReference
+---@field private ["attributeText"] inkTextWidgetReference
+---@field private ["currentText"] inkTextWidgetReference
+---@field private ["textGhost"] inkTextWidgetReference
+---@field private ["requirementText"] inkTextWidgetReference
+---@field private ["buttonWidget"] inkWidgetReference
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["totalPoints"] Int32
+---@field private ["initData"] NewPerksScreenInitData
+---@field private ["isHovered"] Bool
+---@field private ["isPressed"] Bool
+---@field private ["idleAnimProxy"] inkanimProxy
 NewPerksAttributeButtonController = {}
 
 ---@param fields? table

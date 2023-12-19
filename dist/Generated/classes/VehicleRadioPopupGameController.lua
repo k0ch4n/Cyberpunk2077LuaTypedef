@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class VehicleRadioPopupGameController: BaseModalListPopupGameController
----@field private icon inkImageWidgetReference
----@field private trackName inkTextWidgetReference
----@field private scrollArea inkScrollAreaWidgetReference
----@field private scrollControllerWidget inkWidgetReference
----@field private radioVolumeSettings inkWidgetReference
----@field private volumeSettingGroupName CName
----@field private volumeSettingVarName CName
----@field private dataView RadioStationsDataView
----@field private dataSource inkScriptableDataSourceWrapper
----@field private quickSlotsManager QuickSlotsManager
----@field private player PlayerPuppet
----@field private playerVehicle vehicleBaseObject
----@field private startupIndex Uint32
----@field private currentRadioId Int32
----@field private selectedItem RadioStationListItemController
----@field private scrollController inkScrollController
----@field private canVolumeDown Bool
----@field private canVolumeUp Bool
----@field private radioVolumeSettingsController RadioVolumeSettingsController
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["trackName"] inkTextWidgetReference
+---@field private ["scrollArea"] inkScrollAreaWidgetReference
+---@field private ["scrollControllerWidget"] inkWidgetReference
+---@field private ["radioVolumeSettings"] inkWidgetReference
+---@field private ["volumeSettingGroupName"] CName
+---@field private ["volumeSettingVarName"] CName
+---@field private ["dataView"] RadioStationsDataView
+---@field private ["dataSource"] inkScriptableDataSourceWrapper
+---@field private ["quickSlotsManager"] QuickSlotsManager
+---@field private ["player"] PlayerPuppet
+---@field private ["playerVehicle"] vehicleBaseObject
+---@field private ["startupIndex"] Uint32
+---@field private ["currentRadioId"] Int32
+---@field private ["selectedItem"] RadioStationListItemController
+---@field private ["scrollController"] inkScrollController
+---@field private ["canVolumeDown"] Bool
+---@field private ["canVolumeUp"] Bool
+---@field private ["radioVolumeSettingsController"] RadioVolumeSettingsController
 VehicleRadioPopupGameController = {}
 
 ---@param fields? table
@@ -63,7 +63,7 @@ function VehicleRadioPopupGameController:OnVehicleRadioSongChanged(evt) return e
 function VehicleRadioPopupGameController:Activate() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param actionType gameinputActionType
 ---@return nil
 function VehicleRadioPopupGameController:AdjustRadioVolumeWithAction(actionName, actionType) return end
@@ -99,7 +99,7 @@ function VehicleRadioPopupGameController:OnClose() return end
 function VehicleRadioPopupGameController:Select(previous, next) return end
 
 ---@private
----@param track CName
+---@param track CName|string
 ---@return nil
 function VehicleRadioPopupGameController:SetTrackName(track) return end
 

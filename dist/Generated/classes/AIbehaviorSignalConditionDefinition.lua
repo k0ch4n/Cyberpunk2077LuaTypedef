@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSignalConditionDefinition: AIbehaviorConditionDefinition
----@field public signalName CName
----@field public mode AIbehaviorSignalConditionModes
----@field public tagSignal Bool
+---@field public ["signalName"] CName
+---@field public ["mode"] AIbehaviorSignalConditionModes
+---@field public ["tagSignal"] Bool
 AIbehaviorSignalConditionDefinition = {}
 
 ---@param fields? table

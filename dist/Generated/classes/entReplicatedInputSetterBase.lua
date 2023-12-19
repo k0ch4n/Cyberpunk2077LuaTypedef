@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entReplicatedInputSetterBase
----@field public name CName
----@field public applyServerTime netTime
+---@field public ["name"] CName
+---@field public ["applyServerTime"] netTime
 entReplicatedInputSetterBase = {}
 
 ---@param fields? table

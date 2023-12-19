@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class LoadListItem: AnimatedListItemController
----@field private imageReplacement inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private labelDate inkTextWidgetReference
----@field private type inkTextWidgetReference
----@field private quest inkTextWidgetReference
----@field private level inkTextWidgetReference
----@field private lifepath inkImageWidgetReference
----@field private cloudStatus inkImageWidgetReference
----@field private playTime inkTextWidgetReference
----@field private characterLevel inkTextWidgetReference
----@field private characterLevelLabel inkTextWidgetReference
----@field private gameVersion inkTextWidgetReference
----@field private emptySlotWrapper inkWidgetReference
----@field private wrapper inkWidgetReference
----@field private versionParams textTextParameterSet
----@field private index Int32
----@field private emptySlot Bool
----@field private validSlot Bool
----@field private initialLoadingID Uint64
----@field private metadata inkSaveMetadataInfo
----@field private defaultAtlasPath redResourceReferenceScriptToken
----@field private tranistionAnimProxy inkanimProxy
+---@field private ["imageReplacement"] inkImageWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["labelDate"] inkTextWidgetReference
+---@field private ["type"] inkTextWidgetReference
+---@field private ["quest"] inkTextWidgetReference
+---@field private ["level"] inkTextWidgetReference
+---@field private ["lifepath"] inkImageWidgetReference
+---@field private ["cloudStatus"] inkImageWidgetReference
+---@field private ["playTime"] inkTextWidgetReference
+---@field private ["characterLevel"] inkTextWidgetReference
+---@field private ["characterLevelLabel"] inkTextWidgetReference
+---@field private ["gameVersion"] inkTextWidgetReference
+---@field private ["emptySlotWrapper"] inkWidgetReference
+---@field private ["wrapper"] inkWidgetReference
+---@field private ["versionParams"] textTextParameterSet
+---@field private ["index"] Int32
+---@field private ["emptySlot"] Bool
+---@field private ["validSlot"] Bool
+---@field private ["initialLoadingID"] Uint64
+---@field private ["metadata"] inkSaveMetadataInfo
+---@field private ["defaultAtlasPath"] redResourceReferenceScriptToken
+---@field private ["tranistionAnimProxy"] inkanimProxy
 LoadListItem = {}
 
 ---@param fields? table
@@ -72,7 +72,7 @@ function LoadListItem:IsModded() return end
 ---@return Bool
 function LoadListItem:IsVisible() return end
 
----@param animName CName
+---@param animName CName|string
 ---@param animOptions inkanimPlaybackOptions
 ---@return nil
 function LoadListItem:PlayTransitionAnimation(animName, animOptions) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ServerNodeHealthChangeListener: gameCustomValueStatPoolsListener
----@field private serverNode ServerNode
+---@field private ["serverNode"] ServerNode
 ServerNodeHealthChangeListener = {}
 
 ---@param fields? table

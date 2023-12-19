@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckFactReturnConditionParams
----@field public factCondition scnInterruptFactConditionType
+---@field public ["factCondition"] scnInterruptFactConditionType
 scnCheckFactReturnConditionParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerStateMachineTestFourInput: IScriptable
----@field public counter Int32
+---@field public ["counter"] Int32
 PlayerStateMachineTestFourInput = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkSpeedAnim: animAnimNode_SkAnim
----@field public Speed animFloatLink
+---@field public ["Speed"] animFloatLink
 animAnimNode_SkSpeedAnim = {}
 
 ---@param fields? table

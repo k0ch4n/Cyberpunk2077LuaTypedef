@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class BenchmarkResultsGameController: gameuiWidgetGameController
----@field private exitButton inkWidgetReference
----@field private settingButton inkWidgetReference
----@field private leftEntriesListContainer inkCompoundWidgetReference
----@field private rightEntriesListContainer inkCompoundWidgetReference
----@field private lineEntryName CName
----@field private highlightLineEntryName CName
----@field private sectionEntryName CName
----@field private benchmarkSummary worldBenchmarkSummary
----@field private exitRequestToken inkGameNotificationToken
----@field private settingsAcive Bool
+---@field private ["exitButton"] inkWidgetReference
+---@field private ["settingButton"] inkWidgetReference
+---@field private ["leftEntriesListContainer"] inkCompoundWidgetReference
+---@field private ["rightEntriesListContainer"] inkCompoundWidgetReference
+---@field private ["lineEntryName"] CName
+---@field private ["highlightLineEntryName"] CName
+---@field private ["sectionEntryName"] CName
+---@field private ["benchmarkSummary"] worldBenchmarkSummary
+---@field private ["exitRequestToken"] inkGameNotificationToken
+---@field private ["settingsAcive"] Bool
 BenchmarkResultsGameController = {}
 
 ---@param fields? table
@@ -77,7 +77,7 @@ function BenchmarkResultsGameController:OnLineSpawned(widget, userData) return e
 function BenchmarkResultsGameController:ShowExitPrompt() return end
 
 ---@private
----@param entryName CName
+---@param entryName CName|string
 ---@param column EEntryColumn
 ---@param label String
 ---@param value String

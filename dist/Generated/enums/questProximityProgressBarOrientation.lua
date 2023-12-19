@@ -3,7 +3,7 @@
 
 ---@enum questProximityProgressBarOrientation
 questProximityProgressBarOrientation = {
-    ["Undefined"] = 0,
-    ["InRange"] = 1,
-    ["OutOfRange"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["InRange"] = 1, ---@type Enum
+    ["OutOfRange"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitOperations: DeviceOperations
----@field protected hitOperations SHitOperationData[]
+---@field protected ["hitOperations"] SHitOperationData[]
 HitOperations = {}
 
 ---@param fields? table

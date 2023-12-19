@@ -2,47 +2,47 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Tech_Round: BaseTechCrosshairController
----@field private root inkWidget
----@field private leftPart inkImageWidgetReference
----@field private rightPart inkImageWidgetReference
----@field private offsetLeftRight Float
----@field private offsetLeftRightExtra Float
----@field private latchVertical Float
----@field private topPart inkImageWidgetReference
----@field private bottomPart inkImageWidgetReference
----@field private horiPart inkWidgetReference
----@field private vertPart inkWidgetReference
----@field private chargeBar inkCanvasWidget
----@field private chargeBarFG inkRectangleWidget
----@field private chargeBarBG inkRectangleWidget
----@field private chargeBarMG inkRectangleWidget
----@field private centerPart inkWidget
----@field private crosshair inkWidget
----@field private bottom_hip_bar inkWidget
----@field private realFluffText_1 inkTextWidget
----@field private realFluffText_2 inkTextWidget
----@field private bufferedSpread Vector2
----@field private weaponlocalBB gameIBlackboard
----@field private bbcharge redCallbackObject
----@field private bbmagazineAmmoCapacity redCallbackObject
----@field private bbmagazineAmmoCount redCallbackObject
----@field private bbcurrentFireMode redCallbackObject
----@field private currentAmmo Int32
----@field private currentMaxAmmo Int32
----@field private maxSupportedAmmo Int32
----@field private currentFireMode gamedataTriggerMode
----@field private orgSideSize Vector2
----@field private sidesScale Float
----@field private chargeAnimationProxy inkanimProxy
----@field private bbNPCStatsInfo redCallbackObject
----@field private currentObstructedTargetBBID redCallbackObject
----@field private potentialVisibleTarget gameObject
----@field private potentialObstructedTarget gameObject
----@field private useVisibleTarget Bool
----@field public horizontalMinSpread Float
----@field public verticalMinSpread Float
----@field public gameplaySpreadMultiplier Float
----@field private stateADS Bool
+---@field private ["root"] inkWidget
+---@field private ["leftPart"] inkImageWidgetReference
+---@field private ["rightPart"] inkImageWidgetReference
+---@field private ["offsetLeftRight"] Float
+---@field private ["offsetLeftRightExtra"] Float
+---@field private ["latchVertical"] Float
+---@field private ["topPart"] inkImageWidgetReference
+---@field private ["bottomPart"] inkImageWidgetReference
+---@field private ["horiPart"] inkWidgetReference
+---@field private ["vertPart"] inkWidgetReference
+---@field private ["chargeBar"] inkCanvasWidget
+---@field private ["chargeBarFG"] inkRectangleWidget
+---@field private ["chargeBarBG"] inkRectangleWidget
+---@field private ["chargeBarMG"] inkRectangleWidget
+---@field private ["centerPart"] inkWidget
+---@field private ["crosshair"] inkWidget
+---@field private ["bottom_hip_bar"] inkWidget
+---@field private ["realFluffText_1"] inkTextWidget
+---@field private ["realFluffText_2"] inkTextWidget
+---@field private ["bufferedSpread"] Vector2
+---@field private ["weaponlocalBB"] gameIBlackboard
+---@field private ["bbcharge"] redCallbackObject
+---@field private ["bbmagazineAmmoCapacity"] redCallbackObject
+---@field private ["bbmagazineAmmoCount"] redCallbackObject
+---@field private ["bbcurrentFireMode"] redCallbackObject
+---@field private ["currentAmmo"] Int32
+---@field private ["currentMaxAmmo"] Int32
+---@field private ["maxSupportedAmmo"] Int32
+---@field private ["currentFireMode"] gamedataTriggerMode
+---@field private ["orgSideSize"] Vector2
+---@field private ["sidesScale"] Float
+---@field private ["chargeAnimationProxy"] inkanimProxy
+---@field private ["bbNPCStatsInfo"] redCallbackObject
+---@field private ["currentObstructedTargetBBID"] redCallbackObject
+---@field private ["potentialVisibleTarget"] gameObject
+---@field private ["potentialObstructedTarget"] gameObject
+---@field private ["useVisibleTarget"] Bool
+---@field public ["horizontalMinSpread"] Float
+---@field public ["verticalMinSpread"] Float
+---@field public ["gameplaySpreadMultiplier"] Float
+---@field private ["stateADS"] Bool
 CrosshairGameController_Tech_Round = {}
 
 ---@param fields? table
@@ -81,7 +81,7 @@ function CrosshairGameController_Tech_Round:OnPreOutro() return end
 function CrosshairGameController_Tech_Round:OnUninitialize() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function CrosshairGameController_Tech_Round:ApplyCrosshairGUIState(state, aimedAtEntity) return end

@@ -3,9 +3,9 @@
 
 ---@enum CasinoTableSlot
 CasinoTableSlot = {
-    ["Slot1"] = 0,
-    ["Slot2"] = 1,
-    ["Slot3"] = 2,
-    ["Slot4"] = 3,
-    ["Slot5"] = 4
+    ["Slot1"] = 0, ---@type Enum
+    ["Slot2"] = 1, ---@type Enum
+    ["Slot3"] = 2, ---@type Enum
+    ["Slot4"] = 3, ---@type Enum
+    ["Slot5"] = 4, ---@type Enum
 }

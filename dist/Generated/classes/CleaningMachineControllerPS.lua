@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CleaningMachineControllerPS: BasicDistractionDeviceControllerPS
----@field protected cleaningMachineSkillChecks EngDemoContainer
+---@field protected ["cleaningMachineSkillChecks"] EngDemoContainer
 CleaningMachineControllerPS = {}
 
 ---@param fields? table

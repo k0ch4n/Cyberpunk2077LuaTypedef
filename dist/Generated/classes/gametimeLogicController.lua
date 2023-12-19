@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gametimeLogicController: IVehicleModuleController
----@field private gametimeTextWidget inkTextWidgetReference
----@field private gametimeBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private vehicle vehicleBaseObject
----@field private parent vehicleUIGameController
+---@field private ["gametimeTextWidget"] inkTextWidgetReference
+---@field private ["gametimeBBConnectionId"] redCallbackObject
+---@field private ["vehBB"] gameIBlackboard
+---@field private ["vehicle"] vehicleBaseObject
+---@field private ["parent"] vehicleUIGameController
 gametimeLogicController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisableTargetingEffector: gameEffector
----@field private owner gameObject
+---@field private ["owner"] gameObject
 DisableTargetingEffector = {}
 
 ---@param fields? table

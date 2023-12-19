@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceCaptionBluelinePart: gameinteractionsChoiceCaptionPart
----@field public blueline gameinteractionsvisBluelineDescription
+---@field public ["blueline"] gameinteractionsvisBluelineDescription
 gameinteractionsChoiceCaptionBluelinePart = {}
 
 ---@param fields? table

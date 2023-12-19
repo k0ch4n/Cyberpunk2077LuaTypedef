@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BodyPartHitPrereqCondition: BaseHitPrereqCondition
----@field public bodyPart CName
----@field public attackSubtype gamedataAttackSubtype
+---@field public ["bodyPart"] CName
+---@field public ["attackSubtype"] gamedataAttackSubtype
 BodyPartHitPrereqCondition = {}
 
 ---@param fields? table

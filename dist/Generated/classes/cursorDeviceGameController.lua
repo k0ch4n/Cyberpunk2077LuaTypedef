@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class cursorDeviceGameController: gameuiWidgetGameController
----@field private bbUIData gameIBlackboard
----@field private bbWeaponInfo gameIBlackboard
----@field private bbWeaponEventId redCallbackObject
----@field private bbPlayerTierEventId redCallbackObject
----@field private interactionBlackboardId redCallbackObject
----@field private upperBodyStateBlackboardId redCallbackObject
----@field private sceneTier GameplayTier
----@field private upperBodyState gamePSMUpperBodyStates
----@field private isUnarmed Bool
----@field private cursorDevice inkImageWidget
----@field private fadeOutAnimation inkanimDefinition
----@field private fadeInAnimation inkanimDefinition
----@field private wasLastInteractionWithDevice Bool
----@field private interactionDeviceState Bool
+---@field private ["bbUIData"] gameIBlackboard
+---@field private ["bbWeaponInfo"] gameIBlackboard
+---@field private ["bbWeaponEventId"] redCallbackObject
+---@field private ["bbPlayerTierEventId"] redCallbackObject
+---@field private ["interactionBlackboardId"] redCallbackObject
+---@field private ["upperBodyStateBlackboardId"] redCallbackObject
+---@field private ["sceneTier"] GameplayTier
+---@field private ["upperBodyState"] gamePSMUpperBodyStates
+---@field private ["isUnarmed"] Bool
+---@field private ["cursorDevice"] inkImageWidget
+---@field private ["fadeOutAnimation"] inkanimDefinition
+---@field private ["fadeInAnimation"] inkanimDefinition
+---@field private ["wasLastInteractionWithDevice"] Bool
+---@field private ["interactionDeviceState"] Bool
 cursorDeviceGameController = {}
 
 ---@param fields? table

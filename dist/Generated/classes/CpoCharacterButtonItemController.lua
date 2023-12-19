@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CpoCharacterButtonItemController: inkButtonDpadSupportedController
----@field private characterRecordId TweakDBID
+---@field private ["characterRecordId"] TweakDBID
 CpoCharacterButtonItemController = {}
 
 ---@param fields? table

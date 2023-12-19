@@ -3,8 +3,8 @@
 
 ---@enum EAIShootingPatternRange
 EAIShootingPatternRange = {
-    ["Close"] = 0,
-    ["Medium"] = 1,
-    ["Long"] = 2,
-    ["Undefined"] = 3
+    ["Close"] = 0, ---@type Enum
+    ["Medium"] = 1, ---@type Enum
+    ["Long"] = 2, ---@type Enum
+    ["Undefined"] = 3, ---@type Enum
 }

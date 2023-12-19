@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerAttitude: ScannerChunk
----@field private attitude EAIAttitude
+---@field private ["attitude"] EAIAttitude
 ScannerAttitude = {}
 
 ---@param fields? table

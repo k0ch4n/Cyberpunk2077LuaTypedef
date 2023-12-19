@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsLayerData
----@field public tag CName
+---@field public ["tag"] CName
 gameinteractionsLayerData = {}
 
 ---@param fields? table

@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class vehicleBaseObject: gameObject
----@field public archetype AIArchetype
----@field public isVehicleOnStateLocked Bool
----@field private vehicleComponent VehicleComponent
----@field private uiComponent WorldWidgetComponent
----@field protected crowdMemberComponent CrowdMemberBaseComponent
----@field private attitudeAgent gameAttitudeAgent
----@field private hitTimestamp Float
----@field private drivingTrafficPattern CName
----@field private onPavement Bool
----@field private inTrafficLane Bool
----@field private timesSentReactionEvent Int32
----@field private timesToResendHandleReactionEvent Int32
----@field private hasReactedToStimuli Bool
----@field private gotStuckIncrement Int32
----@field private waitForPassengersToSpawnEventDelayID gameDelayID
----@field private triggerPanicDrivingEventDelayID gameDelayID
----@field private reactionTriggerEvent HandleReactionEvent
----@field private fearInside Bool
----@field private vehicleUpsideDown Bool
----@field private isQhackUploadInProgress Bool
----@field private hitByPlayer Bool
----@field private currentlyUploadingAction ScriptableDeviceAction
----@field private bumpedRecently Int32
----@field private bumpTimestamp Float
----@field private minUnconsciousImpact Float
----@field private driverUnconscious Bool
----@field private abandoned Bool
+---@field public ["archetype"] AIArchetype
+---@field public ["isVehicleOnStateLocked"] Bool
+---@field private ["vehicleComponent"] VehicleComponent
+---@field private ["uiComponent"] WorldWidgetComponent
+---@field protected ["crowdMemberComponent"] CrowdMemberBaseComponent
+---@field private ["attitudeAgent"] gameAttitudeAgent
+---@field private ["hitTimestamp"] Float
+---@field private ["drivingTrafficPattern"] CName
+---@field private ["onPavement"] Bool
+---@field private ["inTrafficLane"] Bool
+---@field private ["timesSentReactionEvent"] Int32
+---@field private ["timesToResendHandleReactionEvent"] Int32
+---@field private ["hasReactedToStimuli"] Bool
+---@field private ["gotStuckIncrement"] Int32
+---@field private ["waitForPassengersToSpawnEventDelayID"] gameDelayID
+---@field private ["triggerPanicDrivingEventDelayID"] gameDelayID
+---@field private ["reactionTriggerEvent"] HandleReactionEvent
+---@field private ["fearInside"] Bool
+---@field private ["vehicleUpsideDown"] Bool
+---@field private ["isQhackUploadInProgress"] Bool
+---@field private ["hitByPlayer"] Bool
+---@field private ["currentlyUploadingAction"] ScriptableDeviceAction
+---@field private ["bumpedRecently"] Int32
+---@field private ["bumpTimestamp"] Float
+---@field private ["minUnconsciousImpact"] Float
+---@field private ["driverUnconscious"] Bool
+---@field private ["abandoned"] Bool
 vehicleBaseObject = {}
 
 ---@param fields? table
@@ -79,7 +79,7 @@ function vehicleBaseObject:DestructionResetGrid() return end
 ---@return nil
 function vehicleBaseObject:DetachAllParts() return end
 
----@param partName CName
+---@param partName CName|string
 ---@return nil
 function vehicleBaseObject:DetachPart(partName) return end
 
@@ -120,22 +120,22 @@ function vehicleBaseObject:GetAccessoryController() return end
 ---@return nil, gameweaponObject[] weaponList
 function vehicleBaseObject:GetActiveWeapons() return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return CName
 function vehicleBaseObject:GetAnimsetOverrideForPassenger(slotName) return end
 
----@param boneName CName
+---@param boneName CName|string
 ---@return CName
 function vehicleBaseObject:GetAnimsetOverrideForPassengerFromBoneName(boneName) return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return CName
 function vehicleBaseObject:GetAnimsetOverrideForPassengerFromSlotName(slotName) return end
 
 ---@return gameIBlackboard
 function vehicleBaseObject:GetBlackboard() return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return CName
 function vehicleBaseObject:GetBoneNameFromSlot(slotName) return end
 
@@ -191,7 +191,7 @@ function vehicleBaseObject:GetUIComponents() return end
 ---@return Bool
 function vehicleBaseObject:HasNavPathToTarget(targetID, duration, invert) return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function vehicleBaseObject:HasOccupantSlot(slotName) return end
 
@@ -295,7 +295,7 @@ function vehicleBaseObject:NPCShoot(target, projectiles) return end
 ---@return nil
 function vehicleBaseObject:NextRadioReceiverStation() return end
 
----@param windowName CName
+---@param windowName CName|string
 ---@param isOpened Bool
 ---@return nil
 function vehicleBaseObject:NotifyWindowChange(windowName, isOpened) return end
@@ -307,7 +307,7 @@ function vehicleBaseObject:PhysicsWakeUp() return end
 function vehicleBaseObject:PreHijackPrepareDriverSlot() return end
 
 ---@param isMounting Bool
----@param slotID CName
+---@param slotID CName|string
 ---@param character gameObject
 ---@param delay Float
 ---@return nil
@@ -349,7 +349,7 @@ function vehicleBaseObject:SetRadioTier(radioTier, overrideTier) return end
 ---@return nil
 function vehicleBaseObject:SetVehicleRemoteControlled(enable, shouldUnseatPassengers, shouldModifyInteractionState) return end
 
----@param hitComponentName CName
+---@param hitComponentName CName|string
 ---@return Bool
 function vehicleBaseObject:ShouldDamageSystemIgnoreHit(hitComponentName) return end
 
@@ -533,7 +533,7 @@ function vehicleBaseObject:OnVehicleFlippedOverEvent(evt) return end
 function vehicleBaseObject:OnWaitForPassengersToSpawnEvent(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function vehicleBaseObject:OnWorkspotFinished(componentName) return end
 
@@ -677,17 +677,17 @@ function vehicleBaseObject:PanicDrivingBehavior() return end
 function vehicleBaseObject:ReactToHitProcess(hitEvent) return end
 
 ---@param vehicleRecord gamedataVehicle_Record
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function vehicleBaseObject:RecordHasTag(vehicleRecord, tag) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function vehicleBaseObject:RecordHasTag(tag) return end
 
 ---@private
 ---@param character gameObject
----@param slotID CName
+---@param slotID CName|string
 ---@param stealingAction Bool
 ---@return Bool
 function vehicleBaseObject:ReevaluateStealing(character, slotID, stealingAction) return end

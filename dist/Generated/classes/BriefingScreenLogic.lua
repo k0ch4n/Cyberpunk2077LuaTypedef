@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class BriefingScreenLogic: inkWidgetLogicController
----@field protected lastSizeSet Vector2
----@field protected isBriefingVisible Bool
----@field protected briefingToOpen gameJournalEntry
----@field private videoWidget inkVideoWidgetReference
----@field private mapWidget inkWidgetReference
----@field private paperdollWidget inkWidgetReference
----@field private animatedWidget inkWidgetReference
----@field private fadeDuration Float
----@field private InterpolationType inkanimInterpolationType
----@field private InterpolationMode inkanimInterpolationMode
----@field private minimizedSize Vector2
----@field private maximizedSize Vector2
+---@field protected ["lastSizeSet"] Vector2
+---@field protected ["isBriefingVisible"] Bool
+---@field protected ["briefingToOpen"] gameJournalEntry
+---@field private ["videoWidget"] inkVideoWidgetReference
+---@field private ["mapWidget"] inkWidgetReference
+---@field private ["paperdollWidget"] inkWidgetReference
+---@field private ["animatedWidget"] inkWidgetReference
+---@field private ["fadeDuration"] Float
+---@field private ["InterpolationType"] inkanimInterpolationType
+---@field private ["InterpolationMode"] inkanimInterpolationMode
+---@field private ["minimizedSize"] Vector2
+---@field private ["maximizedSize"] Vector2
 BriefingScreenLogic = {}
 
 ---@param fields? table
@@ -37,7 +37,7 @@ function BriefingScreenLogic:OnInitialize() return end
 ---@private
 ---@param startValue Float
 ---@param endValue Float
----@param callbackName CName
+---@param callbackName CName|string
 ---@return nil
 function BriefingScreenLogic:Fade(startValue, endValue, callbackName) return end
 

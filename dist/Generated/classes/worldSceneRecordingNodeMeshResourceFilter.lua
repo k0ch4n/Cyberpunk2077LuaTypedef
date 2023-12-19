@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldSceneRecordingNodeMeshResourceFilter
----@field public forceFilterIgnore CMesh[]
----@field public forceFilterMatch CMesh[]
+---@field public ["forceFilterIgnore"] CMesh[]
+---@field public ["forceFilterMatch"] CMesh[]
 worldSceneRecordingNodeMeshResourceFilter = {}
 
 ---@param fields? table

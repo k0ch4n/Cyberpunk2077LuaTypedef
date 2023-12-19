@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questdbgRuntimeData
----@field public version Uint64
----@field public questResourcePathHash Uint64
----@field public selectedBlockId Uint64
----@field public objects ISerializable[]
+---@field public ["version"] Uint64
+---@field public ["questResourcePathHash"] Uint64
+---@field public ["selectedBlockId"] Uint64
+---@field public ["objects"] ISerializable[]
 questdbgRuntimeData = {}
 
 ---@param fields? table

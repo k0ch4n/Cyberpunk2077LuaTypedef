@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ThrowingMeleeReloadListener: gameScriptStatPoolsListener
----@field private melee MeleeProjectile
+---@field private ["melee"] MeleeProjectile
 ThrowingMeleeReloadListener = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RoachRaceGameController: gameuiSideScrollerMiniGameController
----@field private gameMenu inkWidgetReference
----@field private scoreboardMenu inkWidgetReference
----@field private isCutsceneInProgress Bool
+---@field private ["gameMenu"] inkWidgetReference
+---@field private ["scoreboardMenu"] inkWidgetReference
+---@field private ["isCutsceneInProgress"] Bool
 RoachRaceGameController = {}
 
 ---@param fields? table

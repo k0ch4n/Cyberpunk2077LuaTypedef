@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class InputContextTransitionEvents: InputContextTransition
----@field public gameplaySettings GameplaySettingsSystem
----@field public onInputSchemeUpdatedCallback redCallbackObject
----@field public OnInputHintManagerInitializedChangedCallback redCallbackObject
----@field public onInputSchemeChanged Bool
----@field protected hasControllerChanged Bool
----@field protected hasControllerSchemeChanged Bool
----@field public isGameplayInputHintManagerInitialized Bool
----@field public isGameplayInputHintRefreshRequired Bool
+---@field public ["gameplaySettings"] GameplaySettingsSystem
+---@field public ["onInputSchemeUpdatedCallback"] redCallbackObject
+---@field public ["OnInputHintManagerInitializedChangedCallback"] redCallbackObject
+---@field public ["onInputSchemeChanged"] Bool
+---@field protected ["hasControllerChanged"] Bool
+---@field protected ["hasControllerSchemeChanged"] Bool
+---@field public ["isGameplayInputHintManagerInitialized"] Bool
+---@field public ["isGameplayInputHintRefreshRequired"] Bool
 InputContextTransitionEvents = {}
 
 ---@protected
@@ -155,14 +155,14 @@ function InputContextTransitionEvents:ShowBodyCarryInputHints(stateContext, scri
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param source CName
+---@param source CName|string
 ---@return nil
 function InputContextTransitionEvents:ShowCrouchInputHint(stateContext, scriptInterface, source) return end
 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param source CName
+---@param source CName|string
 ---@return nil
 function InputContextTransitionEvents:ShowDodgeInputHint(stateContext, scriptInterface, source) return end
 
@@ -215,7 +215,7 @@ function InputContextTransitionEvents:ShowVehicleDrawWeaponInputHint(stateContex
 function InputContextTransitionEvents:ShowVehicleDriverCombatInputHints(stateContext, scriptInterface) return end
 
 ---@private
----@param source CName
+---@param source CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
@@ -236,7 +236,7 @@ function InputContextTransitionEvents:ShowVehicleDriverInputHints(stateContext, 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param source CName
+---@param source CName|string
 ---@return nil
 function InputContextTransitionEvents:ShowVehicleExitInputHint(stateContext, scriptInterface, source) return end
 

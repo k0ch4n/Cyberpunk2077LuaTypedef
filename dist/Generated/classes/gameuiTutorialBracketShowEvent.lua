@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialBracketShowEvent: redEvent
----@field public data gameTutorialBracketData
+---@field public ["data"] gameTutorialBracketData
 gameuiTutorialBracketShowEvent = {}
 
 ---@param fields? table

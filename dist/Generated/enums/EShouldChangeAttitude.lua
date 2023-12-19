@@ -3,6 +3,6 @@
 
 ---@enum EShouldChangeAttitude
 EShouldChangeAttitude = {
-    ["PERSISTENTLY"] = 0,
-    ["TEMPORARLY"] = 1
+    ["PERSISTENTLY"] = 0, ---@type Enum
+    ["TEMPORARLY"] = 1, ---@type Enum
 }

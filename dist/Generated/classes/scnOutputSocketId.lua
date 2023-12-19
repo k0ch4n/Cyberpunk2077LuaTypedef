@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnOutputSocketId
----@field public nodeId scnNodeId
----@field public osockStamp scnOutputSocketStamp
+---@field public ["nodeId"] scnNodeId
+---@field public ["osockStamp"] scnOutputSocketStamp
 scnOutputSocketId = {}
 
 ---@param fields? table

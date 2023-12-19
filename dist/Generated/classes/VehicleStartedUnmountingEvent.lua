@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleStartedUnmountingEvent: redEvent
----@field public slotID CName
----@field public isMounting Bool
----@field public character gameObject
+---@field public ["slotID"] CName
+---@field public ["isMounting"] Bool
+---@field public ["character"] gameObject
 VehicleStartedUnmountingEvent = {}
 
 ---@param fields? table

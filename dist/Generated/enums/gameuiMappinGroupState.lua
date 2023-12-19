@@ -3,8 +3,8 @@
 
 ---@enum gameuiMappinGroupState
 gameuiMappinGroupState = {
-    ["Ungrouped"] = 0,
-    ["Grouped"] = 1,
-    ["GroupedCollection"] = 2,
-    ["GroupedHidden"] = 3
+    ["Ungrouped"] = 0, ---@type Enum
+    ["Grouped"] = 1, ---@type Enum
+    ["GroupedCollection"] = 2, ---@type Enum
+    ["GroupedHidden"] = 3, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemWeaponBars: IScriptable
----@field public Values UIInventoryItemWeaponBar[]
----@field private type UIInventoryItemWeaponBarsType
----@field private itemType gamedataItemType
----@field private comparedBars UIInventoryItemWeaponBars
+---@field public ["Values"] UIInventoryItemWeaponBar[]
+---@field private ["type"] UIInventoryItemWeaponBarsType
+---@field private ["itemType"] gamedataItemType
+---@field private ["comparedBars"] UIInventoryItemWeaponBars
 UIInventoryItemWeaponBars = {}
 
 ---@param fields? table

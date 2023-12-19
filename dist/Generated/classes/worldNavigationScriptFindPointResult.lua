@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldNavigationScriptFindPointResult
----@field public status worldNavigationRequestStatus
----@field public point Vector4
+---@field public ["status"] worldNavigationRequestStatus
+---@field public ["point"] Vector4
 worldNavigationScriptFindPointResult = {}
 
 ---@param fields? table

@@ -8,8 +8,8 @@ TurretTransition = {}
 ---@param turret gameObject
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function TurretTransition:EnterWorkspot(turret, activator, freeCamera, componentName, deviceData) return end
 

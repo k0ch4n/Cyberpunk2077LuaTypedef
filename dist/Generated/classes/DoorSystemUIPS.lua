@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DoorSystemUIPS: VirtualSystemPS
----@field private isOpen Bool
+---@field private ["isOpen"] Bool
 DoorSystemUIPS = {}
 
 ---@param fields? table

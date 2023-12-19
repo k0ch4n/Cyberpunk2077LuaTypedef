@@ -8,7 +8,7 @@ ActionAnimationScriptProxy = {}
 ---@return ActionAnimationScriptProxy
 function ActionAnimationScriptProxy.new(fields) return end
 
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
 ---@param useRootMotion Bool
 ---@param usePoseMatching Bool
@@ -21,12 +21,12 @@ function ActionAnimationScriptProxy.new(fields) return end
 ---@return nil
 function ActionAnimationScriptProxy:ForceLaunch(animFeatureName, animFeature, useRootMotion, usePoseMatching, resetRagdollOnStart, motionDynamicObjectsCheck, slideParams, targetObject, marginToPlayer, tagetPositionProvider) return end
 
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
 ---@return Float
 function ActionAnimationScriptProxy:GetPhaseDuration(animFeatureName, animFeature) return end
 
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
 ---@param useRootMotion Bool
 ---@param usePoseMatching Bool

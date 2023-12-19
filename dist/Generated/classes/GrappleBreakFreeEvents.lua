@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GrappleBreakFreeEvents: GrappleStandEvents
----@field public playerPositionVerified Bool
----@field public shouldPushPlayerAway Bool
+---@field public ["playerPositionVerified"] Bool
+---@field public ["shouldPushPlayerAway"] Bool
 GrappleBreakFreeEvents = {}
 
 ---@param fields? table

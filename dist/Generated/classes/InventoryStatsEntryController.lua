@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsEntryController: inkWidgetLogicController
----@field protected iconWidget inkImageWidgetReference
----@field protected labelWidget inkTextWidgetReference
----@field protected valueWidget inkTextWidgetReference
+---@field protected ["iconWidget"] inkImageWidgetReference
+---@field protected ["labelWidget"] inkTextWidgetReference
+---@field protected ["valueWidget"] inkTextWidgetReference
 InventoryStatsEntryController = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function InventoryStatsEntryController:AT_SetATID(ATID) return end
 ---@return nil
 function InventoryStatsEntryController:SetValue(value) return end
 
----@param icon CName
+---@param icon CName|string
 ---@param label String
 ---@param value Float
 ---@return nil

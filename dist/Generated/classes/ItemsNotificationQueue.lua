@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class ItemsNotificationQueue: gameuiGenericNotificationGameController
----@field private showDuration Float
----@field private transactionSystem gameTransactionSystem
----@field private currencyNotification CName
----@field private itemNotification CName
----@field private xpNotification CName
----@field private playerPuppet gameObject
----@field private inventoryListener gameInventoryScriptListener
----@field private currencyInventoryListener gameInventoryScriptListener
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private combatModeListener redCallbackObject
----@field private InventoryManager InventoryDataManagerV2
----@field private comparisonResolver ItemPreferredComparisonResolver
----@field private combatModePSM gamePSMCombat
----@field private delaySystem gameDelaySystem
+---@field private ["showDuration"] Float
+---@field private ["transactionSystem"] gameTransactionSystem
+---@field private ["currencyNotification"] CName
+---@field private ["itemNotification"] CName
+---@field private ["xpNotification"] CName
+---@field private ["playerPuppet"] gameObject
+---@field private ["inventoryListener"] gameInventoryScriptListener
+---@field private ["currencyInventoryListener"] gameInventoryScriptListener
+---@field private ["playerDevelopmentSystem"] PlayerDevelopmentSystem
+---@field private ["combatModeListener"] redCallbackObject
+---@field private ["InventoryManager"] InventoryDataManagerV2
+---@field private ["comparisonResolver"] ItemPreferredComparisonResolver
+---@field private ["combatModePSM"] gamePSMCombat
+---@field private ["delaySystem"] gameDelaySystem
 ItemsNotificationQueue = {}
 
 ---@param fields? table
@@ -84,14 +84,14 @@ function ItemsNotificationQueue:NeedsNotification(newItem) return end
 function ItemsNotificationQueue:PushCurrencyNotification(diff, total) return end
 
 ---@param itemID gameItemID
----@param itemRarity CName
+---@param itemRarity CName|string
 ---@return nil
 function ItemsNotificationQueue:PushItemNotification(itemID, itemRarity) return end
 
 ---@param value Int32
 ---@param remainingPointsToLevelUp Int32
 ---@param delta Int32
----@param notificationColorTheme CName
+---@param notificationColorTheme CName|string
 ---@param notificationName String
 ---@param type gamedataProficiencyType
 ---@param currentLevel Int32

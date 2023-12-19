@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animImportFacialTransformNoScale
----@field public rotation Quaternion
----@field public translation Vector3
+---@field public ["rotation"] Quaternion
+---@field public ["translation"] Vector3
 animImportFacialTransformNoScale = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vgAttributeTypeValuePair: ISerializable
----@field public pe vgEStyleAttributeType
----@field public lue Variant
+---@field public ["pe"] vgEStyleAttributeType
+---@field public ["lue"] Variant
 vgAttributeTypeValuePair = {}
 
 ---@param fields? table

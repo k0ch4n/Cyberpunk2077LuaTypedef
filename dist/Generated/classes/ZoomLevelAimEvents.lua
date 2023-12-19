@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ZoomLevelAimEvents: ZoomEventsTransition
----@field public isAmingWithWeapon Bool
+---@field public ["isAmingWithWeapon"] Bool
 ZoomLevelAimEvents = {}
 
 ---@param fields? table

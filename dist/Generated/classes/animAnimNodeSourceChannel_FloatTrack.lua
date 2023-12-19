@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNodeSourceChannel_FloatTrack: animIAnimNodeSourceChannel_Float
----@field public floatTrack animNamedTrackIndex
----@field public useComplementValue Bool
+---@field public ["floatTrack"] animNamedTrackIndex
+---@field public ["useComplementValue"] Bool
 animAnimNodeSourceChannel_FloatTrack = {}
 
 ---@param fields? table

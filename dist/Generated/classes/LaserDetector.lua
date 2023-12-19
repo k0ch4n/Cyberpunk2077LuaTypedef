@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LaserDetector: ProximityDetector
----@field private lasers handle[]
+---@field private ["lasers"] handle[]
 LaserDetector = {}
 
 ---@param fields? table

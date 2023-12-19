@@ -3,14 +3,14 @@
 
 ---@enum ExpansionStatus
 ExpansionStatus = {
-    ["NotAvailable"] = 0,
-    ["Available"] = 1,
-    ["Owned"] = 2,
-    ["Downloaded"] = 3,
-    ["Downloading"] = 4,
-    ["DownloadError"] = 5,
-    ["Reloading"] = 6,
-    ["Processing"] = 7,
-    ["PreOrder"] = 8,
-    ["PreOrderOwned"] = 9
+    ["NotAvailable"] = 0, ---@type Enum
+    ["Available"] = 1, ---@type Enum
+    ["Owned"] = 2, ---@type Enum
+    ["Downloaded"] = 3, ---@type Enum
+    ["Downloading"] = 4, ---@type Enum
+    ["DownloadError"] = 5, ---@type Enum
+    ["Reloading"] = 6, ---@type Enum
+    ["Processing"] = 7, ---@type Enum
+    ["PreOrder"] = 8, ---@type Enum
+    ["PreOrderOwned"] = 9, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questUpdateEntityHealthListeners_NodeType: questIUIManagerNodeType
----@field public entityRef gameEntityReference
+---@field public ["entityRef"] gameEntityReference
 questUpdateEntityHealthListeners_NodeType = {}
 
 ---@param fields? table

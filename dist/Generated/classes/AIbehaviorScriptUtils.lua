@@ -64,7 +64,7 @@ function AIbehaviorScriptUtils.CheckActionCondition(ctx, condition) return end
 function AIbehaviorScriptUtils.CheckActionCooldowns(context, check) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param animVariation Int32
 ---@param animState Int32
 ---@param triggerPreload Bool
@@ -77,7 +77,7 @@ function AIbehaviorScriptUtils.CheckAnimation(context, animFeatureName, animVari
 function AIbehaviorScriptUtils.CheckCooldownConditions(context, check) return end
 
 ---@param entityId entEntityID
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function AIbehaviorScriptUtils.DebugLog(entityId, category, message) return end
@@ -110,7 +110,7 @@ function AIbehaviorScriptUtils.GetEndPointOfSpline(splineRef) return end
 ---@return Bool, Vector4 startPoint
 function AIbehaviorScriptUtils.GetStartPointOfSpline(splineRef) return end
 
----@param ticketName CName
+---@param ticketName CName|string
 ---@param puppet gamePuppet
 ---@param fallbackSquad gamedataAISquadParams_Record
 ---@return Bool, gamedataAITicket_Record outTicket, gamedataAISquadParams_Record outSquadRecord

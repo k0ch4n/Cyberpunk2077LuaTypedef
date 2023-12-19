@@ -54,7 +54,7 @@ function ProjectileLaunchHelper.SetLinearLaunchTrajectory(projectileComponent, v
 function ProjectileLaunchHelper.SetParabolicLaunchTrajectory(projectileComponent, gravitySimulation, velocity, energyLossFactorAfterCollision) return end
 
 ---@param ownerObject gameObject
----@param projectileTemplateName CName
+---@param projectileTemplateName CName|string
 ---@param itemObj gameItemObject
 ---@param rotationRad? Float
 ---@return Bool
@@ -62,8 +62,8 @@ function ProjectileLaunchHelper.SpawnArmsLauncherProjectileWithRotation(ownerObj
 
 ---@private
 ---@param ownerObject gameObject
----@param projectileTemplateName CName
----@param appearance CName
+---@param projectileTemplateName CName|string
+---@param appearance CName|string
 ---@param itemObj gameItemObject
 ---@param logicalPositionProvider entIPositionProvider
 ---@param logicalOrientationProvider entIOrientationProvider
@@ -71,15 +71,15 @@ function ProjectileLaunchHelper.SpawnArmsLauncherProjectileWithRotation(ownerObj
 function ProjectileLaunchHelper.SpawnProjectile(ownerObject, projectileTemplateName, appearance, itemObj, logicalPositionProvider, logicalOrientationProvider) return end
 
 ---@param ownerObject gameObject
----@param projectileTemplateName CName
----@param appearance CName
+---@param projectileTemplateName CName|string
+---@param appearance CName|string
 ---@param itemObj gameItemObject
 ---@return Bool
 function ProjectileLaunchHelper.SpawnProjectileFromRightHand(ownerObject, projectileTemplateName, appearance, itemObj) return end
 
 ---@param ownerObject gameObject
----@param projectileTemplateName CName
----@param appearance CName
+---@param projectileTemplateName CName|string
+---@param appearance CName|string
 ---@param itemObj gameItemObject
 ---@return Bool
 function ProjectileLaunchHelper.SpawnProjectileFromScreenCenter(ownerObject, projectileTemplateName, appearance, itemObj) return end

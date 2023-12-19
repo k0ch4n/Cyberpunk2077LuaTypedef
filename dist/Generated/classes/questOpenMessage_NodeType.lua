@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questOpenMessage_NodeType: questIPhoneManagerNodeType
----@field public msg gameJournalPath
+---@field public ["msg"] gameJournalPath
 questOpenMessage_NodeType = {}
 
 ---@param fields? table

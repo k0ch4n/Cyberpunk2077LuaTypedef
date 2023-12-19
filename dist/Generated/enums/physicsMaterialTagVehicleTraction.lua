@@ -3,6 +3,6 @@
 
 ---@enum physicsMaterialTagVehicleTraction
 physicsMaterialTagVehicleTraction = {
-    ["Default"] = 0,
-    ["Gravel"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Gravel"] = 1, ---@type Enum
 }

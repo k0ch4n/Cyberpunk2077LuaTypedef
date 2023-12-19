@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WardrobeControllerPS: ScriptableDeviceComponentPS
----@field protected clothingSets gameClothingSet[]
----@field protected hasInteraction Bool
+---@field protected ["clothingSets"] gameClothingSet[]
+---@field protected ["hasInteraction"] Bool
 WardrobeControllerPS = {}
 
 ---@param fields? table

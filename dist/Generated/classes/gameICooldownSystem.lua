@@ -13,7 +13,7 @@ function gameICooldownSystem:DoesCooldownExist(id) return end
 function gameICooldownSystem:GetCIDByItemID(itemId) return end
 
 ---@param owner entEntity
----@param cdName CName
+---@param cdName CName|string
 ---@return Int32
 function gameICooldownSystem:GetCIDByOwnerAndName(owner, cdName) return end
 

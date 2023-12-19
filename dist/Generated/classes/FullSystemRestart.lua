@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FullSystemRestart: ActionBool
----@field public restartDuration Int32
+---@field public ["restartDuration"] Int32
 FullSystemRestart = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldLocationAreaNode: worldTriggerAreaNode
----@field public locationName String
+---@field public ["locationName"] String
 worldLocationAreaNode = {}
 
 ---@param fields? table

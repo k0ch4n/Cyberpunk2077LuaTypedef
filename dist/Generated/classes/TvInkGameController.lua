@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class TvInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private securedUI inkCanvasWidget
----@field private channellTextWidget inkTextWidget
----@field private securedTextWidget inkTextWidget
----@field protected mainDisplayWidget inkVideoWidget
----@field private actionsList inkWidget
----@field private activeChannelIDX Int32
----@field private activeSequence SequenceVideo[]
----@field private activeSequenceVideo Int32
----@field private globalTVChannels inkWidget[]
----@field protected messegeWidget inkTextWidget
----@field protected backgroundWidget inkLeafWidget
----@field private previousGlobalTVChannelID Int32
----@field private globalTVchanellsCount Int32
----@field private globalTVchanellsSpawned Int32
----@field private globalTVslot inkWidget
----@field private activeAudio CName
----@field private activeMessage gamedataScreenMessageData_Record
----@field private onChangeChannelListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field private ["defaultUI"] inkCanvasWidget
+---@field private ["securedUI"] inkCanvasWidget
+---@field private ["channellTextWidget"] inkTextWidget
+---@field private ["securedTextWidget"] inkTextWidget
+---@field protected ["mainDisplayWidget"] inkVideoWidget
+---@field private ["actionsList"] inkWidget
+---@field private ["activeChannelIDX"] Int32
+---@field private ["activeSequence"] SequenceVideo[]
+---@field private ["activeSequenceVideo"] Int32
+---@field private ["globalTVChannels"] inkWidget[]
+---@field protected ["messegeWidget"] inkTextWidget
+---@field protected ["backgroundWidget"] inkLeafWidget
+---@field private ["previousGlobalTVChannelID"] Int32
+---@field private ["globalTVchanellsCount"] Int32
+---@field private ["globalTVchanellsSpawned"] Int32
+---@field private ["globalTVslot"] inkWidget
+---@field private ["activeAudio"] CName
+---@field private ["activeMessage"] gamedataScreenMessageData_Record
+---@field private ["onChangeChannelListener"] redCallbackObject
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
 TvInkGameController = {}
 
 ---@param fields? table
@@ -95,7 +95,7 @@ function TvInkGameController:IsGlobalTVInitialized() return end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
----@param audioEvent CName
+---@param audioEvent CName|string
 ---@return nil
 function TvInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
 

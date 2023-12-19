@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIArgumentMapping: IScriptable
----@field public type AIArgumentType
----@field public parameterizationType AIParameterizationType
----@field public defaultValue Variant
----@field public prefixValue AIArgumentMapping
----@field public customTypeName CName
+---@field public ["type"] AIArgumentType
+---@field public ["parameterizationType"] AIParameterizationType
+---@field public ["defaultValue"] Variant
+---@field public ["prefixValue"] AIArgumentMapping
+---@field public ["customTypeName"] CName
 AIArgumentMapping = {}
 
 ---@param fields? table

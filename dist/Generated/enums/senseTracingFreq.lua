@@ -3,10 +3,10 @@
 
 ---@enum senseTracingFreq
 senseTracingFreq = {
-    ["Never"] = 0,
-    ["Lowest"] = 1,
-    ["Low"] = 2,
-    ["Medium"] = 3,
-    ["High"] = 4,
-    ["Highest"] = 5
+    ["Never"] = 0, ---@type Enum
+    ["Lowest"] = 1, ---@type Enum
+    ["Low"] = 2, ---@type Enum
+    ["Medium"] = 3, ---@type Enum
+    ["High"] = 4, ---@type Enum
+    ["Highest"] = 5, ---@type Enum
 }

@@ -3,21 +3,21 @@
 
 ---@enum animCoverAction
 animCoverAction = {
-    ["NoAction"] = 0,
-    ["LeanLeft"] = 1,
-    ["LeanRight"] = 2,
-    ["StepOutLeft"] = 3,
-    ["StepOutRight"] = 4,
-    ["LeanOver"] = 5,
-    ["StepUp"] = 6,
-    ["EnterCover"] = 7,
-    ["SlideTo"] = 8,
-    ["Vault"] = 9,
-    ["LeaveCover"] = 10,
-    ["BlindfireLeft"] = 11,
-    ["BlindfireRight"] = 12,
-    ["BlindfireOver"] = 13,
-    ["OverheadStepOutLeft"] = 14,
-    ["OverheadStepOutRight"] = 15,
-    ["OverheadStepUp"] = 16
+    ["NoAction"] = 0, ---@type Enum
+    ["LeanLeft"] = 1, ---@type Enum
+    ["LeanRight"] = 2, ---@type Enum
+    ["StepOutLeft"] = 3, ---@type Enum
+    ["StepOutRight"] = 4, ---@type Enum
+    ["LeanOver"] = 5, ---@type Enum
+    ["StepUp"] = 6, ---@type Enum
+    ["EnterCover"] = 7, ---@type Enum
+    ["SlideTo"] = 8, ---@type Enum
+    ["Vault"] = 9, ---@type Enum
+    ["LeaveCover"] = 10, ---@type Enum
+    ["BlindfireLeft"] = 11, ---@type Enum
+    ["BlindfireRight"] = 12, ---@type Enum
+    ["BlindfireOver"] = 13, ---@type Enum
+    ["OverheadStepOutLeft"] = 14, ---@type Enum
+    ["OverheadStepOutRight"] = 15, ---@type Enum
+    ["OverheadStepUp"] = 16, ---@type Enum
 }

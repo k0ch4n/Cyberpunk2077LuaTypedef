@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioDismembermentSoundSettings: audioAudioMetadata
----@field public headEvent CName
----@field public armEvent CName
----@field public legEvent CName
+---@field public ["headEvent"] CName
+---@field public ["armEvent"] CName
+---@field public ["legEvent"] CName
 audioDismembermentSoundSettings = {}
 
 ---@param fields? table

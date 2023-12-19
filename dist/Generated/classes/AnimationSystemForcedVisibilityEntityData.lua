@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AnimationSystemForcedVisibilityEntityData: IScriptable
----@field private owner AnimationSystemForcedVisibilityManager
----@field private entityID entEntityID
----@field private forcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
----@field private delayedForcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
----@field private hasVisibilityForcedInAnimSystem Bool
----@field private hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
+---@field private ["owner"] AnimationSystemForcedVisibilityManager
+---@field private ["entityID"] entEntityID
+---@field private ["forcedVisibilityInAnimSystemRequests"] ForcedVisibilityInAnimSystemData[]
+---@field private ["delayedForcedVisibilityInAnimSystemRequests"] ForcedVisibilityInAnimSystemData[]
+---@field private ["hasVisibilityForcedInAnimSystem"] Bool
+---@field private ["hasVisibilityForcedOnlyInFrustumInAnimSystem"] Bool
 AnimationSystemForcedVisibilityEntityData = {}
 
 ---@param fields? table
@@ -25,14 +25,14 @@ function AnimationSystemForcedVisibilityEntityData:AddForcedVisiblityInAnimSyste
 ---@return nil
 function AnimationSystemForcedVisibilityEntityData:ClearAllRequests() return end
 
----@param sourceName CName
+---@param sourceName CName|string
 ---@return ForcedVisibilityInAnimSystemData
 function AnimationSystemForcedVisibilityEntityData:GetDelayedForcedVisiblityInAnimSystemRequest(sourceName) return end
 
 ---@return entEntityID
 function AnimationSystemForcedVisibilityEntityData:GetEntityID() return end
 
----@param sourceName CName
+---@param sourceName CName|string
 ---@return ForcedVisibilityInAnimSystemData
 function AnimationSystemForcedVisibilityEntityData:GetForcedVisiblityInAnimSystemRequest(sourceName) return end
 
@@ -46,7 +46,7 @@ function AnimationSystemForcedVisibilityEntityData:HasActiveRequestsForForcedVis
 ---@return Bool
 function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(data) return end
 
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(sourceName) return end
 
@@ -54,7 +54,7 @@ function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAn
 ---@return Bool
 function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(data) return end
 
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(sourceName) return end
 
@@ -77,7 +77,7 @@ function AnimationSystemForcedVisibilityEntityData:RemoveDelayedForcedVisiblityI
 ---@return nil
 function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(data) return end
 
----@param sourceName CName
+---@param sourceName CName|string
 ---@return nil
 function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(sourceName) return end
 

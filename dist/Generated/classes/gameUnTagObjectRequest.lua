@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameUnTagObjectRequest: gameScriptableSystemRequest
----@field public object gameObject
+---@field public ["object"] gameObject
 gameUnTagObjectRequest = {}
 
 ---@param fields? table

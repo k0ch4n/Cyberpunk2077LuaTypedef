@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entdismembermentWoundsConfigSet
----@field public Configs entdismembermentWoundConfigContainer[]
+---@field public ["Configs"] entdismembermentWoundConfigContainer[]
 entdismembermentWoundsConfigSet = {}
 
 ---@param fields? table

@@ -21,7 +21,7 @@ function gamedataAIPreviousAttackCond_Record:PreviousAttackDirection() return en
 ---@return CName[]
 function gamedataAIPreviousAttackCond_Record:PreviousAttackName() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIPreviousAttackCond_Record:PreviousAttackNameContains(item) return end
 

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questJournalEntry_ConditionType: questIJournalConditionType
----@field public path gameJournalPath
----@field public state gameJournalEntryUserState
+---@field public ["path"] gameJournalPath
+---@field public ["state"] gameJournalEntryUserState
 questJournalEntry_ConditionType = {}
 
 ---@param fields? table

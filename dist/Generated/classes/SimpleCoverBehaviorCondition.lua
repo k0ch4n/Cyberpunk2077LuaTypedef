@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleCoverBehaviorCondition: AIbehaviorconditionScript
----@field private initialized Bool
----@field private isShotgunner Bool
----@field private isHeavyRanged Bool
+---@field private ["initialized"] Bool
+---@field private ["isShotgunner"] Bool
+---@field private ["isHeavyRanged"] Bool
 SimpleCoverBehaviorCondition = {}
 
 ---@param fields? table

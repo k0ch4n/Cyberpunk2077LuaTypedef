@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangePresetEvent: redEvent
----@field public presetID ESmartHousePreset
+---@field public ["presetID"] ESmartHousePreset
 ChangePresetEvent = {}
 
 ---@param fields? table

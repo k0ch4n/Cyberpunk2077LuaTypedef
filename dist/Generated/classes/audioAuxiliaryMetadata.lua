@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAuxiliaryMetadata
----@field public physicalPropSettings CName
+---@field public ["physicalPropSettings"] CName
 audioAuxiliaryMetadata = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpiderbotBoolAction: ActionBool
----@field protected TrueRecord String
----@field protected FalseRecord String
+---@field protected ["TrueRecord"] String
+---@field protected ["FalseRecord"] String
 SpiderbotBoolAction = {}
 
 ---@param fields? table
@@ -30,7 +30,7 @@ function SpiderbotBoolAction:GetTweakDBChoiceRecord() return end
 function SpiderbotBoolAction:SetProperties(status) return end
 
 ---@param status EDeviceStatus
----@param nameOnTrue CName
----@param nameOnFalse CName
+---@param nameOnTrue CName|string
+---@param nameOnFalse CName|string
 ---@return nil
 function SpiderbotBoolAction:SetProperties(status, nameOnTrue, nameOnFalse) return end

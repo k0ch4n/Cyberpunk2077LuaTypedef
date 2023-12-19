@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCInitTask: AIbehaviortaskStackScript
----@field public preventSkippingDeathAnimation Bool
+---@field public ["preventSkippingDeathAnimation"] Bool
 NPCInitTask = {}
 
 ---@param fields? table
@@ -36,8 +36,8 @@ function NPCInitTask:SendSetScriptExecutionContextEvent(context) return end
 
 ---@private
 ---@param context AIbehaviorScriptExecutionContext
----@param tag1 CName
----@param tag2 CName
+---@param tag1 CName|string
+---@param tag2 CName|string
 ---@param flag EAIGateSignalFlags
 ---@param priority Float
 ---@return nil

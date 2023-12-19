@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyStatusEffectOnOwner: StatusEffectTasks
----@field public statusEffectID TweakDBID
+---@field public ["statusEffectID"] TweakDBID
 ApplyStatusEffectOnOwner = {}
 
 ---@param fields? table

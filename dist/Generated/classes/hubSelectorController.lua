@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class hubSelectorController: inkSelectorController
----@field public leftArrowWidget inkWidgetReference
----@field public rightArrowWidget inkWidgetReference
----@field public menuLabelHolder inkHorizontalPanelWidgetReference
----@field public selectedMenuLabel HubMenuLabelController
----@field private previouslySelectedMenuLabel HubMenuLabelController
----@field private hubElementsData MenuData[]
----@field private previousIndex Int32
+---@field public ["leftArrowWidget"] inkWidgetReference
+---@field public ["rightArrowWidget"] inkWidgetReference
+---@field public ["menuLabelHolder"] inkHorizontalPanelWidgetReference
+---@field public ["selectedMenuLabel"] HubMenuLabelController
+---@field private ["previouslySelectedMenuLabel"] HubMenuLabelController
+---@field private ["hubElementsData"] MenuData[]
+---@field private ["previousIndex"] Int32
 hubSelectorController = {}
 
 ---@param fields? table
@@ -66,9 +66,9 @@ function hubSelectorController:FindLabel(label) return end
 ---@return MenuData[]
 function hubSelectorController:GetNearestWidgetsData(index) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function hubSelectorController:RegisterToMenuTabCallback(eventName, object, functionName) return end
 

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiChatBoxText
----@field public text String
----@field public id Int32
----@field public color Color
+---@field public ["text"] String
+---@field public ["id"] Int32
+---@field public ["color"] Color
 gameuiChatBoxText = {}
 
 ---@param fields? table

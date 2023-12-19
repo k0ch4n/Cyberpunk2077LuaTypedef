@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ModifyStatPoolValueEffector: HitEventEffector
----@field public statPoolUpdates gamedataStatPoolUpdate_Record[]
----@field public usePercent Bool
----@field public applicationTarget CName
----@field public setValue Bool
+---@field public ["statPoolUpdates"] gamedataStatPoolUpdate_Record[]
+---@field public ["usePercent"] Bool
+---@field public ["applicationTarget"] CName
+---@field public ["setValue"] Bool
 ModifyStatPoolValueEffector = {}
 
 ---@param fields? table

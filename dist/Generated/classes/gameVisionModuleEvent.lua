@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameVisionModuleEvent: redEvent
----@field public changedModule CName
----@field public activator gameObject
----@field public activated Bool
+---@field public ["changedModule"] CName
+---@field public ["activator"] gameObject
+---@field public ["activated"] Bool
 gameVisionModuleEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SensorJammed: redEvent
----@field public sensor SensorDevice
+---@field public ["sensor"] SensorDevice
 SensorJammed = {}
 
 ---@param fields? table

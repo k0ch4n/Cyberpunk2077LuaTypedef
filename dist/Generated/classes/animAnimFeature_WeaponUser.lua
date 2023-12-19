@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_WeaponUser: animAnimFeature
----@field public ikLeftHandLocalPosition Vector4
----@field public ikRightHandLocalPosition Vector4
+---@field public ["ikLeftHandLocalPosition"] Vector4
+---@field public ["ikRightHandLocalPosition"] Vector4
 animAnimFeature_WeaponUser = {}
 
 ---@param fields? table

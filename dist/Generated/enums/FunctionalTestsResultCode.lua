@@ -3,16 +3,16 @@
 
 ---@enum FunctionalTestsResultCode
 FunctionalTestsResultCode = {
-    ["Valid"] = 0,
-    ["MalformedEntityDescr"] = 1,
-    ["EntityNotFound"] = 2,
-    ["ComponentNotFound"] = 3,
-    ["InvalidEntityType"] = 4,
-    ["InvalidComponentType"] = 5,
-    ["InvalidNodeRef"] = 6,
-    ["SlotNotFound"] = 7,
-    ["InventoryError"] = 8,
-    ["InvalidInputAction"] = 9,
-    ["InvalidInputActionCallback"] = 10,
-    ["EmptyContainer"] = 12
+    ["Valid"] = 0, ---@type Enum
+    ["MalformedEntityDescr"] = 1, ---@type Enum
+    ["EntityNotFound"] = 2, ---@type Enum
+    ["ComponentNotFound"] = 3, ---@type Enum
+    ["InvalidEntityType"] = 4, ---@type Enum
+    ["InvalidComponentType"] = 5, ---@type Enum
+    ["InvalidNodeRef"] = 6, ---@type Enum
+    ["SlotNotFound"] = 7, ---@type Enum
+    ["InventoryError"] = 8, ---@type Enum
+    ["InvalidInputAction"] = 9, ---@type Enum
+    ["InvalidInputActionCallback"] = 10, ---@type Enum
+    ["EmptyContainer"] = 12, ---@type Enum
 }

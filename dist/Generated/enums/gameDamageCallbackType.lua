@@ -3,10 +3,10 @@
 
 ---@enum gameDamageCallbackType
 gameDamageCallbackType = {
-    ["HitTriggered"] = 0,
-    ["MissTriggered"] = 3,
-    ["HitReceived"] = 1,
-    ["PipelineProcessed"] = 2,
-    ["COUNT"] = 4,
-    ["INVALID"] = 5
+    ["HitTriggered"] = 0, ---@type Enum
+    ["MissTriggered"] = 3, ---@type Enum
+    ["HitReceived"] = 1, ---@type Enum
+    ["PipelineProcessed"] = 2, ---@type Enum
+    ["COUNT"] = 4, ---@type Enum
+    ["INVALID"] = 5, ---@type Enum
 }

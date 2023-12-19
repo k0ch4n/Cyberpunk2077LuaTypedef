@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDebugFailsafeConditionDefinition: AIbehaviorConditionDefinition
----@field public logMessage AIArgumentMapping
+---@field public ["logMessage"] AIArgumentMapping
 AIbehaviorDebugFailsafeConditionDefinition = {}
 
 ---@param fields? table

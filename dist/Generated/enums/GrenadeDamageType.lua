@@ -3,7 +3,7 @@
 
 ---@enum GrenadeDamageType
 GrenadeDamageType = {
-    ["Normal"] = 0,
-    ["DoT"] = 1,
-    ["None"] = 2
+    ["Normal"] = 0, ---@type Enum
+    ["DoT"] = 1, ---@type Enum
+    ["None"] = 2, ---@type Enum
 }

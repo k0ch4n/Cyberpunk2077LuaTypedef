@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICNameArgumentInstancePS: AIArgumentInstancePS
----@field public value CName
+---@field public ["value"] CName
 AICNameArgumentInstancePS = {}
 
 ---@param fields? table

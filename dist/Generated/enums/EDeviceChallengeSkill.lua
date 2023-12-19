@@ -3,8 +3,8 @@
 
 ---@enum EDeviceChallengeSkill
 EDeviceChallengeSkill = {
-    ["Invalid"] = 0,
-    ["Hacking"] = 1,
-    ["Engineering"] = 2,
-    ["Athletics"] = 3
+    ["Invalid"] = 0, ---@type Enum
+    ["Hacking"] = 1, ---@type Enum
+    ["Engineering"] = 2, ---@type Enum
+    ["Athletics"] = 3, ---@type Enum
 }

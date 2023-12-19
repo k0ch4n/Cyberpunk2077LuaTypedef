@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleRadioSongChanged: redEvent
----@field public radioSongName CName
+---@field public ["radioSongName"] CName
 vehicleRadioSongChanged = {}
 
 ---@param fields? table

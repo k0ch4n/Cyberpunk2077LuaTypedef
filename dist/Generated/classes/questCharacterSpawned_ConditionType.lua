@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterSpawned_ConditionType: questICharacterConditionType
----@field public objectRef gameEntityReference
----@field public comparisonParams questComparisonParam
+---@field public ["objectRef"] gameEntityReference
+---@field public ["comparisonParams"] questComparisonParam
 questCharacterSpawned_ConditionType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeScoreController: inkWidgetLogicController
----@field public scoreText inkWidgetReference
+---@field public ["scoreText"] inkWidgetReference
 gameuiarcadeArcadeScoreController = {}
 
 ---@param fields? table

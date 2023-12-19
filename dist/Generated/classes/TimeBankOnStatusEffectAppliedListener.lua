@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TimeBankOnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public effector StatusEffectBasedTimeBankEffector
+---@field public ["effector"] StatusEffectBasedTimeBankEffector
 TimeBankOnStatusEffectAppliedListener = {}
 
 ---@param fields? table

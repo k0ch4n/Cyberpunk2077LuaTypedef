@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleWindowClose: ActionBool
----@field public slotID CName
----@field public speed CName
----@field public isInteractionSource Bool
+---@field public ["slotID"] CName
+---@field public ["speed"] CName
+---@field public ["isInteractionSource"] Bool
 VehicleWindowClose = {}
 
 ---@param fields? table

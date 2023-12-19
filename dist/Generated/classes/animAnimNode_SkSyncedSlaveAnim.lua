@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkSyncedSlaveAnim: animAnimNode_SkAnim
----@field public syncTag CName
+---@field public ["syncTag"] CName
 animAnimNode_SkSyncedSlaveAnim = {}
 
 ---@param fields? table

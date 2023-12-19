@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scndevEvent
----@field public nodeId scnNodeId
----@field public type scndevEventType
----@field public message String
+---@field public ["nodeId"] scnNodeId
+---@field public ["type"] scndevEventType
+---@field public ["message"] String
 scndevEvent = {}
 
 ---@param fields? table

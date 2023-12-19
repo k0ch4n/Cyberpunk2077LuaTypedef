@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class piercingGrenade: BaseProjectile
----@field private piercingEffect gameEffectRef
----@field private pierceTime Float
----@field private energyLossFactor Float
----@field private startVelocity Float
----@field private grenadeLifetime Float
----@field private gravitySimulation Float
----@field private trailEffectName CName
----@field private alive Bool
+---@field private ["piercingEffect"] gameEffectRef
+---@field private ["pierceTime"] Float
+---@field private ["energyLossFactor"] Float
+---@field private ["startVelocity"] Float
+---@field private ["grenadeLifetime"] Float
+---@field private ["gravitySimulation"] Float
+---@field private ["trailEffectName"] CName
+---@field private ["alive"] Bool
 piercingGrenade = {}
 
 ---@param fields? table

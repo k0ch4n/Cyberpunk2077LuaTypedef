@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerBBIds
----@field public crouchActive gamebbScriptDefinition
+---@field public ["crouchActive"] gamebbScriptDefinition
 PlayerCombatControllerBBIds = {}
 
 ---@param fields? table

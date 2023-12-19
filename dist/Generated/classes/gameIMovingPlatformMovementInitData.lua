@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameIMovingPlatformMovementInitData
----@field public initType gameMovingPlatformMovementInitializationType
----@field public initValue Float
+---@field public ["initType"] gameMovingPlatformMovementInitializationType
+---@field public ["initValue"] Float
 gameIMovingPlatformMovementInitData = {}
 
 ---@param fields? table

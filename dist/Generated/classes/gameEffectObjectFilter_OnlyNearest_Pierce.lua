@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_OnlyNearest_Pierce: gameEffectObjectFilter_OnlyNearest
----@field public alwaysApplyFullWeaponCharge Bool
----@field public includePierced Bool
+---@field public ["alwaysApplyFullWeaponCharge"] Bool
+---@field public ["includePierced"] Bool
 gameEffectObjectFilter_OnlyNearest_Pierce = {}
 
 ---@param fields? table

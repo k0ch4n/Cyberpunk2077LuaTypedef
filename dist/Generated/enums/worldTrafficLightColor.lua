@@ -3,8 +3,8 @@
 
 ---@enum worldTrafficLightColor
 worldTrafficLightColor = {
-    ["GREEN"] = 0,
-    ["RED"] = 1,
-    ["YELLOW"] = 2,
-    ["INVALID"] = 3
+    ["GREEN"] = 0, ---@type Enum
+    ["RED"] = 1, ---@type Enum
+    ["YELLOW"] = 2, ---@type Enum
+    ["INVALID"] = 3, ---@type Enum
 }

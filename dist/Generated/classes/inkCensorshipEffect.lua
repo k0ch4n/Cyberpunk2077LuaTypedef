@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkCensorshipEffect: inkGlitchEffect
----@field public censorshipFlags CensorshipFlags
+---@field public ["censorshipFlags"] CensorshipFlags
 inkCensorshipEffect = {}
 
 ---@param fields? table

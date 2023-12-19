@@ -3,10 +3,10 @@
 
 ---@enum AIbehaviorDebugNodeStatus
 AIbehaviorDebugNodeStatus = {
-    ["Undefined"] = 0,
-    ["NotRunning"] = 1,
-    ["ForceStopped"] = 2,
-    ["Running"] = 3,
-    ["Success"] = 4,
-    ["Failure"] = 5
+    ["Undefined"] = 0, ---@type Enum
+    ["NotRunning"] = 1, ---@type Enum
+    ["ForceStopped"] = 2, ---@type Enum
+    ["Running"] = 3, ---@type Enum
+    ["Success"] = 4, ---@type Enum
+    ["Failure"] = 5, ---@type Enum
 }

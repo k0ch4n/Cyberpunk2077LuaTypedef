@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackOnTargetEffect: HitEventEffector
----@field public owner gameObject
----@field public attack gameAttack_GameEffect
----@field public attackTDBID TweakDBID
----@field public target gameObject
----@field public attackPositionSlotName CName
----@field public playerAsInstigator Bool
----@field public triggerHitReaction Bool
----@field public isRandom Bool
----@field public applicationChance Float
+---@field public ["owner"] gameObject
+---@field public ["attack"] gameAttack_GameEffect
+---@field public ["attackTDBID"] TweakDBID
+---@field public ["target"] gameObject
+---@field public ["attackPositionSlotName"] CName
+---@field public ["playerAsInstigator"] Bool
+---@field public ["triggerHitReaction"] Bool
+---@field public ["isRandom"] Bool
+---@field public ["applicationChance"] Float
 TriggerAttackOnTargetEffect = {}
 
 ---@param fields? table

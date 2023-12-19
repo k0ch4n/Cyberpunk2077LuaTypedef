@@ -10,14 +10,14 @@ function gameFxInstance.new(fields) return end
 
 ---@param entity entEntity
 ---@param targetType entAttachmentTarget
----@param componentName CName
+---@param componentName CName|string
 ---@param localTransform? WorldTransform
 ---@return nil
 function gameFxInstance:AttachToComponent(entity, targetType, componentName, localTransform) return end
 
 ---@param entity entEntity
 ---@param targetType entAttachmentTarget
----@param slotName CName
+---@param slotName CName|string
 ---@param localTransform? WorldTransform
 ---@return nil
 function gameFxInstance:AttachToSlot(entity, targetType, slotName, localTransform) return end
@@ -31,7 +31,7 @@ function gameFxInstance:IsValid() return end
 ---@return nil
 function gameFxInstance:Kill() return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param clampedValue Float
 ---@return nil
 function gameFxInstance:SetBlackboardValue(parameterName, clampedValue) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDeviceVisibilityChangedEvent: redEvent
----@field public isVisible Uint32
+---@field public ["isVisible"] Uint32
 gameDeviceVisibilityChangedEvent = {}
 
 ---@param fields? table

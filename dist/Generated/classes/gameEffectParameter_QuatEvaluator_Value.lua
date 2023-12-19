@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_QuatEvaluator_Value: gameIEffectParameter_QuatEvaluator
----@field public value Quaternion
+---@field public ["value"] Quaternion
 gameEffectParameter_QuatEvaluator_Value = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficLightStage
----@field public color worldTrafficLightColor
----@field public duration Float
+---@field public ["color"] worldTrafficLightColor
+---@field public ["duration"] Float
 worldTrafficLightStage = {}
 
 ---@param fields? table

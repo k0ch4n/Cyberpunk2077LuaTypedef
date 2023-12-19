@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_EyesLookAt: animAnimNode_OnePoseInput
----@field public targetALink animVectorLink
----@field public weightALink animFloatLink
----@field public targetBLink animVectorLink
----@field public weightBLink animFloatLink
----@field public transitionWeightLink animFloatLink
----@field public leftEye animTransformIndex
----@field public rightEye animTransformIndex
----@field public head animTransformIndex
----@field public forwardDirection animAxis
+---@field public ["targetALink"] animVectorLink
+---@field public ["weightALink"] animFloatLink
+---@field public ["targetBLink"] animVectorLink
+---@field public ["weightBLink"] animFloatLink
+---@field public ["transitionWeightLink"] animFloatLink
+---@field public ["leftEye"] animTransformIndex
+---@field public ["rightEye"] animTransformIndex
+---@field public ["head"] animTransformIndex
+---@field public ["forwardDirection"] animAxis
 animAnimNode_EyesLookAt = {}
 
 ---@param fields? table

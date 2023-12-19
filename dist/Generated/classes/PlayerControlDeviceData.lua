@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerControlDeviceData
----@field public currentYawModifier Float
----@field public currentPitchModifier Float
+---@field public ["currentYawModifier"] Float
+---@field public ["currentPitchModifier"] Float
 PlayerControlDeviceData = {}
 
 ---@param fields? table

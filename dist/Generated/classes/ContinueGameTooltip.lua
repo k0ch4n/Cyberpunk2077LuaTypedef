@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class ContinueGameTooltip: inkWidgetLogicController
----@field private mainContainer inkWidgetReference
----@field private imageReplacement inkImageWidgetReference
----@field private networkStatusError inkWidgetReference
----@field private networkSyncingIndicator inkWidgetReference
----@field private label inkTextWidgetReference
----@field private labelDate inkTextWidgetReference
----@field private location inkTextWidgetReference
----@field private quest inkTextWidgetReference
----@field private level inkTextWidgetReference
----@field private lifepath inkImageWidgetReference
----@field private cloudStatus inkImageWidgetReference
----@field private playTime inkTextWidgetReference
----@field private saveFileStatus inkSaveStatus
----@field private cloudSaveStatus servicesCloudSavesQueryStatus
----@field private metaDataLoaded Bool
----@field private isOffline Bool
----@field private defaultAtlasPath redResourceReferenceScriptToken
+---@field private ["mainContainer"] inkWidgetReference
+---@field private ["imageReplacement"] inkImageWidgetReference
+---@field private ["networkStatusError"] inkWidgetReference
+---@field private ["networkSyncingIndicator"] inkWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["labelDate"] inkTextWidgetReference
+---@field private ["location"] inkTextWidgetReference
+---@field private ["quest"] inkTextWidgetReference
+---@field private ["level"] inkTextWidgetReference
+---@field private ["lifepath"] inkImageWidgetReference
+---@field private ["cloudStatus"] inkImageWidgetReference
+---@field private ["playTime"] inkTextWidgetReference
+---@field private ["saveFileStatus"] inkSaveStatus
+---@field private ["cloudSaveStatus"] servicesCloudSavesQueryStatus
+---@field private ["metaDataLoaded"] Bool
+---@field private ["isOffline"] Bool
+---@field private ["defaultAtlasPath"] redResourceReferenceScriptToken
 ContinueGameTooltip = {}
 
 ---@param fields? table

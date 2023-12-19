@@ -3,13 +3,13 @@
 
 ---@enum meleeQueuedAttack
 meleeQueuedAttack = {
-    ["Block"] = 0,
-    ["Combo"] = 1,
-    ["Crouch"] = 2,
-    ["Final"] = 3,
-    ["Jump"] = 4,
-    ["Safe"] = 5,
-    ["Sprint"] = 6,
-    ["Strong"] = 7,
-    ["Throw"] = 8
+    ["Block"] = 0, ---@type Enum
+    ["Combo"] = 1, ---@type Enum
+    ["Crouch"] = 2, ---@type Enum
+    ["Final"] = 3, ---@type Enum
+    ["Jump"] = 4, ---@type Enum
+    ["Safe"] = 5, ---@type Enum
+    ["Sprint"] = 6, ---@type Enum
+    ["Strong"] = 7, ---@type Enum
+    ["Throw"] = 8, ---@type Enum
 }

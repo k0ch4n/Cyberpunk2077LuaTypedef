@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerWeaponDetailed: ScannerWeaponBasic
----@field private damage CName
+---@field private ["damage"] CName
 ScannerWeaponDetailed = {}
 
 ---@param fields? table
@@ -15,7 +15,7 @@ function ScannerWeaponDetailed:GetDamage() return end
 ---@return ScannerDataType
 function ScannerWeaponDetailed:GetType() return end
 
----@param displayName CName
----@param displayDamage CName
+---@param displayName CName|string
+---@param displayDamage CName|string
 ---@return nil
 function ScannerWeaponDetailed:Set(displayName, displayDamage) return end

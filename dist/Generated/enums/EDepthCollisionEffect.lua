@@ -3,7 +3,7 @@
 
 ---@enum EDepthCollisionEffect
 EDepthCollisionEffect = {
-    ["DCE_Bounce"] = 1,
-    ["DCE_Glide"] = 2,
-    ["DCE_Kill"] = 4
+    ["DCE_Bounce"] = 1, ---@type Enum
+    ["DCE_Glide"] = 2, ---@type Enum
+    ["DCE_Kill"] = 4, ---@type Enum
 }

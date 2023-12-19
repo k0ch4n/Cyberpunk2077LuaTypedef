@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class enteventsHitCharacterControllerEvent: redEvent
----@field public entity entEntity
----@field public component entIComponent
+---@field public ["entity"] entEntity
+---@field public ["component"] entIComponent
 enteventsHitCharacterControllerEvent = {}
 
 ---@param fields? table

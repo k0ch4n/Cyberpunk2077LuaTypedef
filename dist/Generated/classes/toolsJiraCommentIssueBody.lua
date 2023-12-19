@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraCommentIssueBody: ISerializable
----@field public body String
+---@field public ["body"] String
 toolsJiraCommentIssueBody = {}
 
 ---@param fields? table

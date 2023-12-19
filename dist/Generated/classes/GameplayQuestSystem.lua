@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameplayQuestSystem: gameScriptableSystem
----@field private quests GamplayQuestData[]
+---@field private ["quests"] GamplayQuestData[]
 GameplayQuestSystem = {}
 
 ---@param fields? table

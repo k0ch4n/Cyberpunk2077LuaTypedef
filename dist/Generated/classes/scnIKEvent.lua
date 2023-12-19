@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnIKEvent: scnSceneEvent
----@field public ikData scnIKEventData
+---@field public ["ikData"] scnIKEventData
 scnIKEvent = {}
 
 ---@param fields? table

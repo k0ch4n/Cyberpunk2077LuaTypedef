@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class GameplayRoleComponent: gameScriptableComponent
----@field private gameplayRole EGameplayRole
----@field private autoDeterminGameplayRole Bool
----@field private mappinsDisplayMode EMappinDisplayMode
----@field private displayAllRolesAsGeneric Bool
----@field private alwaysCreateMappinAsDynamic Bool
----@field private forcedMappinVisualState EMappinVisualState
----@field private mappins SDeviceMappinData[]
----@field private offsetValue Float
----@field private isBeingScanned Bool
----@field private isCurrentTarget Bool
----@field private isShowingMappins Bool
----@field private canShowMappinsByTask Bool
----@field private canHideMappinsByTask Bool
----@field private isHighlightedInFocusMode Bool
----@field private currentGameplayRole EGameplayRole
----@field private isGameplayRoleInitialized Bool
----@field private isForceHidden Bool
----@field private isForcedVisibleThroughWalls Bool
----@field private enabledMinimapMappins gamedataMappinVariant[]
+---@field private ["gameplayRole"] EGameplayRole
+---@field private ["autoDeterminGameplayRole"] Bool
+---@field private ["mappinsDisplayMode"] EMappinDisplayMode
+---@field private ["displayAllRolesAsGeneric"] Bool
+---@field private ["alwaysCreateMappinAsDynamic"] Bool
+---@field private ["forcedMappinVisualState"] EMappinVisualState
+---@field private ["mappins"] SDeviceMappinData[]
+---@field private ["offsetValue"] Float
+---@field private ["isBeingScanned"] Bool
+---@field private ["isCurrentTarget"] Bool
+---@field private ["isShowingMappins"] Bool
+---@field private ["canShowMappinsByTask"] Bool
+---@field private ["canHideMappinsByTask"] Bool
+---@field private ["isHighlightedInFocusMode"] Bool
+---@field private ["currentGameplayRole"] EGameplayRole
+---@field private ["isGameplayRoleInitialized"] Bool
+---@field private ["isForceHidden"] Bool
+---@field private ["isForcedVisibleThroughWalls"] Bool
+---@field private ["enabledMinimapMappins"] gamedataMappinVariant[]
 GameplayRoleComponent = {}
 
 ---@param fields? table
@@ -387,7 +387,7 @@ function GameplayRoleComponent:ShowSingleMappin(index) return end
 ---@private
 ---@param index Int32
 ---@param visualData GameplayRoleMappinData
----@param bindPositionToSlotName? CName
+---@param bindPositionToSlotName? CName|string
 ---@return nil
 function GameplayRoleComponent:ShowSingleMappin(index, visualData, bindPositionToSlotName) return end
 
@@ -400,7 +400,7 @@ function GameplayRoleComponent:ShowSingleMappin_Event(index) return end
 ---@param enable Bool
 ---@param show Bool
 ---@param visualData GameplayRoleMappinData
----@param bindPositionToSlotName? CName
+---@param bindPositionToSlotName? CName|string
 ---@return nil
 function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show, visualData, bindPositionToSlotName) return end
 

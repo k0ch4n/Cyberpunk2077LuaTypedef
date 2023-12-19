@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetNPCTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public type gamedataNPCType
+---@field public ["type"] gamedataNPCType
 TargetNPCTypeHitPrereqCondition = {}
 
 ---@param fields? table

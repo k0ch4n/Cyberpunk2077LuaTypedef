@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalRootFolderEntry: gameJournalFolderEntry
----@field public descriptor gameJournalDescriptorResource
+---@field public ["descriptor"] gameJournalDescriptorResource
 gameJournalRootFolderEntry = {}
 
 ---@param fields? table

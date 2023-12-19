@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceObstacleAgent: gameinfluenceIAgent
----@field public useMeshes Bool
----@field public radius Float
+---@field public ["useMeshes"] Bool
+---@field public ["radius"] Float
 gameinfluenceObstacleAgent = {}
 
 ---@param fields? table

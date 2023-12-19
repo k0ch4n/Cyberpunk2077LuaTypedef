@@ -3,6 +3,6 @@
 
 ---@enum gameinfluenceEBoundingBoxType
 gameinfluenceEBoundingBoxType = {
-    ["Colider"] = 0,
-    ["Custom"] = 1
+    ["Colider"] = 0, ---@type Enum
+    ["Custom"] = 1, ---@type Enum
 }

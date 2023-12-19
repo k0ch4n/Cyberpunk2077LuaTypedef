@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workWorkspotResource: animAnimGraph
----@field public workspotTree workWorkspotTree
+---@field public ["workspotTree"] workWorkspotTree
 workWorkspotResource = {}
 
 ---@param fields? table

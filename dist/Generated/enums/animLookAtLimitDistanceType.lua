@@ -3,8 +3,8 @@
 
 ---@enum animLookAtLimitDistanceType
 animLookAtLimitDistanceType = {
-    ["Short"] = 0,
-    ["Normal"] = 1,
-    ["Long"] = 2,
-    ["None"] = 3
+    ["Short"] = 0, ---@type Enum
+    ["Normal"] = 1, ---@type Enum
+    ["Long"] = 2, ---@type Enum
+    ["None"] = 3, ---@type Enum
 }

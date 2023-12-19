@@ -3,6 +3,6 @@
 
 ---@enum gameTelemetryHitDefenseType
 gameTelemetryHitDefenseType = {
-    ["Block"] = 0,
-    ["Deflect"] = 1
+    ["Block"] = 0, ---@type Enum
+    ["Deflect"] = 1, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum EDeathType
 EDeathType = {
-    ["Ground"] = 0,
-    ["Air"] = 1,
-    ["Swimming"] = 2
+    ["Ground"] = 0, ---@type Enum
+    ["Air"] = 1, ---@type Enum
+    ["Swimming"] = 2, ---@type Enum
 }

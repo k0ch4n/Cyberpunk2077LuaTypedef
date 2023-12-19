@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HighlightConnectionComponentEvent: redEvent
----@field public IsHighlightON Bool
+---@field public ["IsHighlightON"] Bool
 HighlightConnectionComponentEvent = {}
 
 ---@param fields? table

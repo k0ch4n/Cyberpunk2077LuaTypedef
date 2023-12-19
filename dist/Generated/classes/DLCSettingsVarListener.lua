@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class DLCSettingsVarListener: userSettingsVarListener
----@field private ctrl DlcDescriptionController
+---@field private ["ctrl"] DlcDescriptionController
 DLCSettingsVarListener = {}
 
 ---@param fields? table
 ---@return DLCSettingsVarListener
 function DLCSettingsVarListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

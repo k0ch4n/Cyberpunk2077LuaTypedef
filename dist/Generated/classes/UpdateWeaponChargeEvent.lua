@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UpdateWeaponChargeEvent: redEvent
----@field public newValue Float
----@field public oldValue Float
+---@field public ["newValue"] Float
+---@field public ["oldValue"] Float
 UpdateWeaponChargeEvent = {}
 
 ---@param fields? table

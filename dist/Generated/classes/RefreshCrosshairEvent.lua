@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RefreshCrosshairEvent: redEvent
----@field public force Bool
+---@field public ["force"] Bool
 RefreshCrosshairEvent = {}
 
 ---@param fields? table

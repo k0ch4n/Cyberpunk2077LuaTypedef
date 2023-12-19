@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyDroneLocomotionWrapperEvent: redEvent
----@field public movementType CName
+---@field public ["movementType"] CName
 ApplyDroneLocomotionWrapperEvent = {}
 
 ---@param fields? table

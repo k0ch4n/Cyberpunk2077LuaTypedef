@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_IK: animAnimFeature
----@field public point Vector4
----@field public normal Vector4
----@field public weight Float
+---@field public ["point"] Vector4
+---@field public ["normal"] Vector4
+---@field public ["weight"] Float
 animAnimFeature_IK = {}
 
 ---@param fields? table

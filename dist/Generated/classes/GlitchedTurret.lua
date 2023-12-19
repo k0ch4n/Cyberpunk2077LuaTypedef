@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GlitchedTurret: Device
----@field public animFeature AnimFeature_SensorDevice
+---@field public ["animFeature"] AnimFeature_SensorDevice
 GlitchedTurret = {}
 
 ---@param fields? table

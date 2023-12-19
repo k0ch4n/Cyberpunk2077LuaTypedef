@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReplicatedInputSetterVector: entReplicatedInputSetterBase
----@field public value Vector4
+---@field public ["value"] Vector4
 entReplicatedInputSetterVector = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CombatGadgetQuickThrowEvents: CombatGadgetTransitions
----@field public grenadeThrown Bool
----@field public event Bool
+---@field public ["grenadeThrown"] Bool
+---@field public ["event"] Bool
 CombatGadgetQuickThrowEvents = {}
 
 ---@param fields? table

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class audioDefaultMixingSignposts: audioAudioMetadata
----@field public endOfCombat CName
----@field public inCombat CName
----@field public inStealth CName
----@field public aiAlerted CName
----@field public sceneBootstrapSignpost CName
----@field public reservedSignposts CName[]
+---@field public ["endOfCombat"] CName
+---@field public ["inCombat"] CName
+---@field public ["inStealth"] CName
+---@field public ["aiAlerted"] CName
+---@field public ["sceneBootstrapSignpost"] CName
+---@field public ["reservedSignposts"] CName[]
 audioDefaultMixingSignposts = {}
 
 ---@param fields? table

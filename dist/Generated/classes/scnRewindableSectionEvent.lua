@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRewindableSectionEvent: redEvent
----@field public active Bool
+---@field public ["active"] Bool
 scnRewindableSectionEvent = {}
 
 ---@param fields? table

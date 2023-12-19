@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameTargetSearchQuery
----@field public testedSet gameTargetingSet
----@field public searchFilter gameTargetSearchFilter
----@field public includeSecondaryTargets Bool
----@field public ignoreInstigator Bool
----@field public maxDistance Float
----@field public filterObjectByDistance Bool
----@field public queryTarget entEntityID
+---@field public ["testedSet"] gameTargetingSet
+---@field public ["searchFilter"] gameTargetSearchFilter
+---@field public ["includeSecondaryTargets"] Bool
+---@field public ["ignoreInstigator"] Bool
+---@field public ["maxDistance"] Float
+---@field public ["filterObjectByDistance"] Bool
+---@field public ["queryTarget"] entEntityID
 gameTargetSearchQuery = {}
 
 ---@param fields? table

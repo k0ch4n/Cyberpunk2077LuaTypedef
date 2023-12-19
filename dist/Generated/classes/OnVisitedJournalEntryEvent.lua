@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnVisitedJournalEntryEvent: redEvent
----@field public entry gameJournalEntry
+---@field public ["entry"] gameJournalEntry
 OnVisitedJournalEntryEvent = {}
 
 ---@param fields? table

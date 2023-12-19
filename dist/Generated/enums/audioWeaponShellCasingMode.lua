@@ -3,7 +3,7 @@
 
 ---@enum audioWeaponShellCasingMode
 audioWeaponShellCasingMode = {
-    ["none"] = 0,
-    ["onShoot"] = 1,
-    ["onReload"] = 2
+    ["none"] = 0, ---@type Enum
+    ["onShoot"] = 1, ---@type Enum
+    ["onReload"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PerkPrereq: gameIScriptablePrereq
----@field public invert Bool
----@field public perk gamedataPerkType
+---@field public ["invert"] Bool
+---@field public ["perk"] gamedataPerkType
 PerkPrereq = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveTargetFromHighlightEvent: redEvent
----@field public target ScriptedPuppet
+---@field public ["target"] ScriptedPuppet
 RemoveTargetFromHighlightEvent = {}
 
 ---@param fields? table

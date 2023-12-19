@@ -3,14 +3,14 @@
 
 ---@enum gamePSMRangedWeaponStates
 gamePSMRangedWeaponStates = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["Charging"] = 1,
-    ["Reload"] = 2,
-    ["QuickMelee"] = 3,
-    ["NoAmmo"] = 4,
-    ["Ready"] = 5,
-    ["Safe"] = 6,
-    ["Overheat"] = 7,
-    ["Shoot"] = 8
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["Charging"] = 1, ---@type Enum
+    ["Reload"] = 2, ---@type Enum
+    ["QuickMelee"] = 3, ---@type Enum
+    ["NoAmmo"] = 4, ---@type Enum
+    ["Ready"] = 5, ---@type Enum
+    ["Safe"] = 6, ---@type Enum
+    ["Overheat"] = 7, ---@type Enum
+    ["Shoot"] = 8, ---@type Enum
 }

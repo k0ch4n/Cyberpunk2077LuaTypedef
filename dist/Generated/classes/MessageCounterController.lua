@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MessageCounterController: gameuiWidgetGameController
----@field protected messageCounter inkTextWidgetReference
----@field private rootWidget inkWidget
----@field private CallInformationBBID redCallbackObject
----@field private journalManager gameJournalManager
----@field private Owner gameObject
+---@field protected ["messageCounter"] inkTextWidgetReference
+---@field private ["rootWidget"] inkWidget
+---@field private ["CallInformationBBID"] redCallbackObject
+---@field private ["journalManager"] gameJournalManager
+---@field private ["Owner"] gameObject
 MessageCounterController = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function MessageCounterController:OnInitialize() return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool

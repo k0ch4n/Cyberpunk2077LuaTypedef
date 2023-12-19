@@ -3,8 +3,8 @@
 
 ---@enum moveSecureFootingFailureReason
 moveSecureFootingFailureReason = {
-    ["Invalid"] = 0,
-    ["Filter"] = 1,
-    ["SimulationType"] = 2,
-    ["Ground"] = 3
+    ["Invalid"] = 0, ---@type Enum
+    ["Filter"] = 1, ---@type Enum
+    ["SimulationType"] = 2, ---@type Enum
+    ["Ground"] = 3, ---@type Enum
 }

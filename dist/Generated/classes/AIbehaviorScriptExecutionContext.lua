@@ -9,7 +9,7 @@ AIbehaviorScriptExecutionContext = {}
 function AIbehaviorScriptExecutionContext.new(fields) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param cbName CName
+---@param cbName CName|string
 ---@param callback IScriptable
 ---@return Uint32
 function AIbehaviorScriptExecutionContext.AddBehaviorCallback(context, cbName, callback) return end
@@ -27,7 +27,7 @@ function AIbehaviorScriptExecutionContext.CreateActionID(context, actionStringNa
 function AIbehaviorScriptExecutionContext.CreateActionParamID(context, actionStringName, paramName) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function AIbehaviorScriptExecutionContext.DebugLog(context, category, message) return end
@@ -41,52 +41,52 @@ function AIbehaviorScriptExecutionContext.GetAITime(context) return end
 function AIbehaviorScriptExecutionContext.GetAITimeLastFrame(context) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return Bool
 function AIbehaviorScriptExecutionContext.GetArgumentBool(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return Float
 function AIbehaviorScriptExecutionContext.GetArgumentFloat(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return worldGlobalNodeID
 function AIbehaviorScriptExecutionContext.GetArgumentGlobalNodeId(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return Int32
 function AIbehaviorScriptExecutionContext.GetArgumentInt(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return CName
 function AIbehaviorScriptExecutionContext.GetArgumentName(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return NodeRef
 function AIbehaviorScriptExecutionContext.GetArgumentNodeRef(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return gameObject
 function AIbehaviorScriptExecutionContext.GetArgumentObject(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return IScriptable
 function AIbehaviorScriptExecutionContext.GetArgumentScriptable(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return Uint64
 function AIbehaviorScriptExecutionContext.GetArgumentUint64(context, entry) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@return Vector4
 function AIbehaviorScriptExecutionContext.GetArgumentVector(context, entry) return end
 
@@ -132,7 +132,7 @@ function AIbehaviorScriptExecutionContext.GetTweakActionSystem(context) return e
 function AIbehaviorScriptExecutionContext.GetTweakDBIDMappingValue(context, mapping) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param cbName CName
+---@param cbName CName|string
 ---@return nil
 function AIbehaviorScriptExecutionContext.InvokeBehaviorCallback(context, cbName) return end
 
@@ -150,61 +150,61 @@ function AIbehaviorScriptExecutionContext.PuppetRefToObject(context, puppetRef) 
 function AIbehaviorScriptExecutionContext.RemoveBehaviorCallback(context, id) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value Bool
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentBool(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value Float
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentFloat(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value worldGlobalNodeID
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentGlobalNodeId(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value Int32
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentInt(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
----@param value CName
+---@param entry CName|string
+---@param value CName|string
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentName(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value NodeRef
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentNodeRef(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value gameObject
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentObject(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value IScriptable
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentScriptable(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value Uint64
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentUint64(context, entry, value) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param entry CName
+---@param entry CName|string
 ---@param value Vector4
 ---@return nil
 function AIbehaviorScriptExecutionContext.SetArgumentVector(context, entry, value) return end

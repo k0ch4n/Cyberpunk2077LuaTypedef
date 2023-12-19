@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ReactiveEventSender: AISignalSenderTask
----@field public behaviorArgumentNameTag CName
----@field public behaviorArgumentFloatPriority CName
----@field public behaviorArgumentNameFlag CName
----@field public reactiveType CName
+---@field public ["behaviorArgumentNameTag"] CName
+---@field public ["behaviorArgumentFloatPriority"] CName
+---@field public ["behaviorArgumentNameFlag"] CName
+---@field public ["reactiveType"] CName
 ReactiveEventSender = {}
 
 ---@param fields? table
@@ -18,7 +18,7 @@ function ReactiveEventSender.new(fields) return end
 function ReactiveEventSender:Activate(context) return end
 
 ---@private
----@param FlagName CName
+---@param FlagName CName|string
 ---@return EAIGateSignalFlags
 function ReactiveEventSender:GateSignalFlagsNameToEnum(FlagName) return end
 

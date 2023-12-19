@@ -3,17 +3,17 @@
 
 ---@enum gamedataNPCUpperBodyState
 gamedataNPCUpperBodyState = {
-    ["Aim"] = 0,
-    ["Any"] = 1,
-    ["Attack"] = 2,
-    ["ChargedAttack"] = 3,
-    ["Defend"] = 4,
-    ["Equip"] = 5,
-    ["Normal"] = 6,
-    ["Parry"] = 7,
-    ["Reload"] = 8,
-    ["Shoot"] = 9,
-    ["Taunt"] = 10,
-    ["Count"] = 11,
-    ["Invalid"] = 12
+    ["Aim"] = 0, ---@type Enum
+    ["Any"] = 1, ---@type Enum
+    ["Attack"] = 2, ---@type Enum
+    ["ChargedAttack"] = 3, ---@type Enum
+    ["Defend"] = 4, ---@type Enum
+    ["Equip"] = 5, ---@type Enum
+    ["Normal"] = 6, ---@type Enum
+    ["Parry"] = 7, ---@type Enum
+    ["Reload"] = 8, ---@type Enum
+    ["Shoot"] = 9, ---@type Enum
+    ["Taunt"] = 10, ---@type Enum
+    ["Count"] = 11, ---@type Enum
+    ["Invalid"] = 12, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questDynamicVehicleSpawn_NodeType: questIDynamicSpawnSystemType
----@field public VehicleData TweakDBID[]
----@field public waveTag CName
----@field public spawnDirectionPreference questSpawnDirectionPreference
----@field public distanceRange Vector2
+---@field public ["VehicleData"] TweakDBID[]
+---@field public ["waveTag"] CName
+---@field public ["spawnDirectionPreference"] questSpawnDirectionPreference
+---@field public ["distanceRange"] Vector2
 questDynamicVehicleSpawn_NodeType = {}
 
 ---@param fields? table

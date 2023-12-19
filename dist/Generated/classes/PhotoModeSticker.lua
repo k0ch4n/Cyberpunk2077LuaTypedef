@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PhotoModeSticker: inkWidgetLogicController
----@field private image inkImageWidgetReference
----@field public stickersController gameuiPhotoModeStickersController
+---@field private ["image"] inkImageWidgetReference
+---@field public ["stickersController"] gameuiPhotoModeStickersController
 PhotoModeSticker = {}
 
 ---@param fields? table
@@ -28,6 +28,6 @@ function PhotoModeSticker:OnStickerHovered(e) return end
 ---@return nil
 function PhotoModeSticker:SetAtlas(atlasPath) return end
 
----@param imagePart CName
+---@param imagePart CName|string
 ---@return nil
 function PhotoModeSticker:SetImage(imagePart) return end

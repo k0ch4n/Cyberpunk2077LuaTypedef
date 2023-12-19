@@ -50,13 +50,13 @@ function gamedataSpawnableObject_Record:PriorityHandle() return end
 ---@return CName[]
 function gamedataSpawnableObject_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataSpawnableObject_Record:TagsContains(item) return end
 
 ---@return CName[]
 function gamedataSpawnableObject_Record:VisualTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataSpawnableObject_Record:VisualTagsContains(item) return end

@@ -3,14 +3,14 @@
 
 ---@enum EWoundedBodyPart
 EWoundedBodyPart = {
-    ["Invalid"] = 0,
-    ["WoundedLeftArm"] = 1,
-    ["WoundedRightArm"] = 2,
-    ["WoundedLeftLeg"] = 3,
-    ["WoundedRightLeg"] = 4,
-    ["DismemberedLeftArm"] = 5,
-    ["DismemberedRightArm"] = 6,
-    ["DismemberedLeftLeg"] = 7,
-    ["DismemberedRightLeg"] = 8,
-    ["DismemberedBothLegs"] = 9
+    ["Invalid"] = 0, ---@type Enum
+    ["WoundedLeftArm"] = 1, ---@type Enum
+    ["WoundedRightArm"] = 2, ---@type Enum
+    ["WoundedLeftLeg"] = 3, ---@type Enum
+    ["WoundedRightLeg"] = 4, ---@type Enum
+    ["DismemberedLeftArm"] = 5, ---@type Enum
+    ["DismemberedRightArm"] = 6, ---@type Enum
+    ["DismemberedLeftLeg"] = 7, ---@type Enum
+    ["DismemberedRightLeg"] = 8, ---@type Enum
+    ["DismemberedBothLegs"] = 9, ---@type Enum
 }

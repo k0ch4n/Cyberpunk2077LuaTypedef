@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class WeaponFirstReloadStatePrereqState: gamePrereqState
----@field public listenerWeaponInt redCallbackObject
----@field public listenerActiveWeaponVariant redCallbackObject
----@field public weaponObj gameweaponObject
----@field public owner gameObject
----@field public reloaded Bool
+---@field public ["listenerWeaponInt"] redCallbackObject
+---@field public ["listenerActiveWeaponVariant"] redCallbackObject
+---@field public ["weaponObj"] gameweaponObject
+---@field public ["owner"] gameObject
+---@field public ["reloaded"] Bool
 WeaponFirstReloadStatePrereqState = {}
 
 ---@param fields? table

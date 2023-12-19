@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShootCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIShootCommand
+---@field protected ["inCommand"] AIArgumentMapping
+---@field protected ["currentCommand"] AIShootCommand
 ShootCommandHandler = {}
 
 ---@param fields? table

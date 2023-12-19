@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameItemObject: gameTimeDilatable
----@field public updateBucket UpdateBucketEnum
----@field private lootQuality gamedataQuality
----@field private isIconic Bool
----@field private isBroken Bool
+---@field public ["updateBucket"] UpdateBucketEnum
+---@field private ["lootQuality"] gamedataQuality
+---@field private ["isIconic"] Bool
+---@field private ["isBroken"] Bool
 gameItemObject = {}
 
 ---@param fields? table

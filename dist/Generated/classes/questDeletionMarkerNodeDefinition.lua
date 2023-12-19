@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDeletionMarkerNodeDefinition: questSignalStoppingNodeDefinition
----@field public deletedNodeIds Uint16[]
+---@field public ["deletedNodeIds"] Uint16[]
 questDeletionMarkerNodeDefinition = {}
 
 ---@param fields? table

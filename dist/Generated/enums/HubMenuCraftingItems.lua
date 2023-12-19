@@ -3,6 +3,6 @@
 
 ---@enum HubMenuCraftingItems
 HubMenuCraftingItems = {
-    ["Crafting"] = 0,
-    ["Upgrade"] = 1
+    ["Crafting"] = 0, ---@type Enum
+    ["Upgrade"] = 1, ---@type Enum
 }

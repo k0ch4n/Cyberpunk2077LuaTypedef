@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UnregisterResult
----@field public success Bool
----@field public isVehicle Bool
----@field public spawnedType gameDynamicVehicleType
+---@field public ["success"] Bool
+---@field public ["isVehicle"] Bool
+---@field public ["spawnedType"] gameDynamicVehicleType
 UnregisterResult = {}
 
 ---@param fields? table

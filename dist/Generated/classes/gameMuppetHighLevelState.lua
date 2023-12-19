@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMuppetHighLevelState
----@field public isDead Bool
----@field public deathFrameId Uint32
+---@field public ["isDead"] Bool
+---@field public ["deathFrameId"] Uint32
 gameMuppetHighLevelState = {}
 
 ---@param fields? table

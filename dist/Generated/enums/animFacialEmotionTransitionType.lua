@@ -3,9 +3,9 @@
 
 ---@enum animFacialEmotionTransitionType
 animFacialEmotionTransitionType = {
-    ["Natural"] = 0,
-    ["Fast"] = 1,
-    ["Blend"] = 2,
-    ["Instant"] = 3,
-    ["Custom"] = 4
+    ["Natural"] = 0, ---@type Enum
+    ["Fast"] = 1, ---@type Enum
+    ["Blend"] = 2, ---@type Enum
+    ["Instant"] = 3, ---@type Enum
+    ["Custom"] = 4, ---@type Enum
 }

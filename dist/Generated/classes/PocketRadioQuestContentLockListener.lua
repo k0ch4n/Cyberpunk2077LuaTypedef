@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PocketRadioQuestContentLockListener: questScriptQuestContentLockListener
----@field private pocketRadio PocketRadio
+---@field private ["pocketRadio"] PocketRadio
 PocketRadioQuestContentLockListener = {}
 
 ---@param fields? table
@@ -10,12 +10,12 @@ PocketRadioQuestContentLockListener = {}
 function PocketRadioQuestContentLockListener.new(fields) return end
 
 ---@protected
----@param source CName
+---@param source CName|string
 ---@return Bool
 function PocketRadioQuestContentLockListener:OnBlocked(source) return end
 
 ---@protected
----@param source CName
+---@param source CName|string
 ---@return Bool
 function PocketRadioQuestContentLockListener:OnUnblocked(source) return end
 

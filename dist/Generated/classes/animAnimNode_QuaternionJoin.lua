@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_QuaternionJoin: animAnimNode_QuaternionValue
----@field public input animQuaternionLink
+---@field public ["input"] animQuaternionLink
 animAnimNode_QuaternionJoin = {}
 
 ---@param fields? table

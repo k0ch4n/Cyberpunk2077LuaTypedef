@@ -3,6 +3,6 @@
 
 ---@enum gameEffectObjectFilter_EntityTypeEntityTypeFilter
 gameEffectObjectFilter_EntityTypeEntityTypeFilter = {
-    ["Puppet"] = 0,
-    ["Device"] = 1
+    ["Puppet"] = 0, ---@type Enum
+    ["Device"] = 1, ---@type Enum
 }

@@ -98,7 +98,7 @@ function gamedataCharacter_Record:CpoClassName() return end
 ---@return CName[]
 function gamedataCharacter_Record:CrowdAppearanceNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataCharacter_Record:CrowdAppearanceNamesContains(item) return end
 

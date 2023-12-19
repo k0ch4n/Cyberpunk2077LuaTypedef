@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ListItemsGroupController: CodexListItemController
----@field protected menuList inkCompoundWidgetReference
----@field protected foldArrowRef inkWidgetReference
----@field protected foldoutButton inkWidgetReference
----@field protected foldoutIndipendently Bool
----@field protected menuListController inkListController
----@field private foldoutButtonController inkButtonController
----@field protected lastClickedData IScriptable
----@field protected data IScriptable[]
----@field protected isOpen Bool
+---@field protected ["menuList"] inkCompoundWidgetReference
+---@field protected ["foldArrowRef"] inkWidgetReference
+---@field protected ["foldoutButton"] inkWidgetReference
+---@field protected ["foldoutIndipendently"] Bool
+---@field protected ["menuListController"] inkListController
+---@field private ["foldoutButtonController"] inkButtonController
+---@field protected ["lastClickedData"] IScriptable
+---@field protected ["data"] IScriptable[]
+---@field protected ["isOpen"] Bool
 ListItemsGroupController = {}
 
 ---@param fields? table

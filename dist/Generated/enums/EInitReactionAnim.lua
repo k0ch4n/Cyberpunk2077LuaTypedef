@@ -3,8 +3,8 @@
 
 ---@enum EInitReactionAnim
 EInitReactionAnim = {
-    ["Shock"] = 0,
-    ["Fear"] = 1,
-    ["Curious"] = 2,
-    ["Call"] = 3
+    ["Shock"] = 0, ---@type Enum
+    ["Fear"] = 1, ---@type Enum
+    ["Curious"] = 2, ---@type Enum
+    ["Call"] = 3, ---@type Enum
 }

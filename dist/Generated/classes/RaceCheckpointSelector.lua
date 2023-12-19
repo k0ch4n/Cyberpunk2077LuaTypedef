@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RaceCheckpointSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field private ["recordID"] TweakDBID
 RaceCheckpointSelector = {}
 
 ---@param fields? table

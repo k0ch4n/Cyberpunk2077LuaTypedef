@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIHostJoinedSquad: AIAIEvent
----@field public squad CName
+---@field public ["squad"] CName
 AIHostJoinedSquad = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workActorTagCondition: workIWorkspotCondition
----@field public tag CName
+---@field public ["tag"] CName
 workActorTagCondition = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class PhotoModeToggle: inkToggleController
----@field private SelectedWidget inkWidgetReference
----@field private FrameWidget inkWidgetReference
----@field private IconWidget inkImageWidgetReference
----@field private LabelWidget inkTextWidgetReference
----@field public photoModeGroupController PhotoModeTopBarController
----@field private fadeAnim inkanimProxy
----@field private fade2Anim inkanimProxy
+---@field private ["SelectedWidget"] inkWidgetReference
+---@field private ["FrameWidget"] inkWidgetReference
+---@field private ["IconWidget"] inkImageWidgetReference
+---@field private ["LabelWidget"] inkTextWidgetReference
+---@field public ["photoModeGroupController"] PhotoModeTopBarController
+---@field private ["fadeAnim"] inkanimProxy
+---@field private ["fade2Anim"] inkanimProxy
 PhotoModeToggle = {}
 
 ---@param fields? table

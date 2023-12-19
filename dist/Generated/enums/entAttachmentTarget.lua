@@ -3,6 +3,6 @@
 
 ---@enum entAttachmentTarget
 entAttachmentTarget = {
-    ["Transform"] = 0,
-    ["TargetPosition"] = 1
+    ["Transform"] = 0, ---@type Enum
+    ["TargetPosition"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkStylePropertyReference
----@field public referencedPath CName
+---@field public ["referencedPath"] CName
 inkStylePropertyReference = {}
 
 ---@param fields? table

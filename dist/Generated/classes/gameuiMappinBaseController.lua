@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiMappinBaseController: inkWidgetLogicController
----@field public iconWidget inkImageWidgetReference
----@field public playerTrackedWidget inkWidgetReference
----@field public scaleWidget inkWidgetReference
----@field protected animPlayerTrackedWidget inkWidgetReference
----@field protected animPlayerAboveBelowWidget inkWidgetReference
----@field protected taggedWidgets inkWidgetReference[]
+---@field public ["iconWidget"] inkImageWidgetReference
+---@field public ["playerTrackedWidget"] inkWidgetReference
+---@field public ["scaleWidget"] inkWidgetReference
+---@field protected ["animPlayerTrackedWidget"] inkWidgetReference
+---@field protected ["animPlayerAboveBelowWidget"] inkWidgetReference
+---@field protected ["taggedWidgets"] inkWidgetReference[]
 gameuiMappinBaseController = {}
 
 ---@return Float

@@ -14,4 +14,3 @@
 ---@alias serializationDeferredDataBuffer userdata
 ---@alias SharedDataBuffer userdata
 ---@alias String string
----@alias Variant userdata

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsDisplay: inkWidgetLogicController
----@field private StatsRoot inkCompoundWidgetReference
----@field private StatItemName CName
----@field private StatItems InventoryStatItemV2[]
+---@field private ["StatsRoot"] inkCompoundWidgetReference
+---@field private ["StatItemName"] CName
+---@field private ["StatItems"] InventoryStatItemV2[]
 InventoryStatsDisplay = {}
 
 ---@param fields? table

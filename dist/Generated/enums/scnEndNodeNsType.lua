@@ -3,6 +3,6 @@
 
 ---@enum scnEndNodeNsType
 scnEndNodeNsType = {
-    ["Terminating"] = 0,
-    ["NonTerminating"] = 1
+    ["Terminating"] = 0, ---@type Enum
+    ["NonTerminating"] = 1, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleDriveToNodeRefEvent: redEvent
----@field public targetRef NodeRef
----@field public useTraffic Bool
----@field public speedInTraffic Float
+---@field public ["targetRef"] NodeRef
+---@field public ["useTraffic"] Bool
+---@field public ["speedInTraffic"] Float
 vehicleDriveToNodeRefEvent = {}
 
 ---@param fields? table

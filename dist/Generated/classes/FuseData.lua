@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FuseData
----@field public psOwnerData PSOwnerData
----@field public timeTable SDeviceTimetableEntry[]
----@field public lights Int32
+---@field public ["psOwnerData"] PSOwnerData
+---@field public ["timeTable"] SDeviceTimetableEntry[]
+---@field public ["lights"] Int32
 FuseData = {}
 
 ---@param fields? table

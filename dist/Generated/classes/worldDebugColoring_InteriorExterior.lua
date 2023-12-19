@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_InteriorExterior: worldEditorDebugColoringSettings
----@field public interiorColor Color
----@field public openInteriorColor Color
----@field public exteriorColor Color
+---@field public ["interiorColor"] Color
+---@field public ["openInteriorColor"] Color
+---@field public ["exteriorColor"] Color
 worldDebugColoring_InteriorExterior = {}
 
 ---@param fields? table

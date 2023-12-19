@@ -11,7 +11,7 @@ function gameContainerManager.new(fields) return end
 ---@param id entEntityID
 ---@param itemID gameItemID
 ---@param quantity Uint32
----@param dynamicTags? CName[]
+---@param dynamicTags? CName[]|string[]
 ---@return nil
 function gameContainerManager:InjectLoot(id, itemID, quantity, dynamicTags) return end
 

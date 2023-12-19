@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TooltipProgessBarController: inkWidgetLogicController
----@field protected progressFill inkWidgetReference
----@field protected hintHolder inkWidgetReference
----@field protected progressHolder inkWidgetReference
----@field protected postprogressHolder inkWidgetReference
----@field protected hintTextHolder inkCompoundWidgetReference
----@field protected libraryPath inkWidgetLibraryReference
----@field protected postprogressText inkTextWidgetReference
----@field private isCraftable Bool
----@field private isCrafted Bool
+---@field protected ["progressFill"] inkWidgetReference
+---@field protected ["hintHolder"] inkWidgetReference
+---@field protected ["progressHolder"] inkWidgetReference
+---@field protected ["postprogressHolder"] inkWidgetReference
+---@field protected ["hintTextHolder"] inkCompoundWidgetReference
+---@field protected ["libraryPath"] inkWidgetLibraryReference
+---@field protected ["postprogressText"] inkTextWidgetReference
+---@field private ["isCraftable"] Bool
+---@field private ["isCrafted"] Bool
 TooltipProgessBarController = {}
 
 ---@param fields? table
@@ -32,7 +32,7 @@ function TooltipProgessBarController:OnRelease(evt) return end
 function TooltipProgessBarController:OnUninitialize() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param label String
 ---@return nil
 function TooltipProgessBarController:AddButtonHints(actionName, label) return end

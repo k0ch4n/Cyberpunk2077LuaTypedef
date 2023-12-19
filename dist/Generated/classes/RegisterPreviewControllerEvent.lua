@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterPreviewControllerEvent: redEvent
----@field public controller gameuiWardrobeSetPreviewGameController
+---@field public ["controller"] gameuiWardrobeSetPreviewGameController
 RegisterPreviewControllerEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questUnequipItemNodeDefinition: questSignalStoppingNodeDefinition
----@field public entityReference gameEntityReference
----@field public params questUnequipItemParams
+---@field public ["entityReference"] gameEntityReference
+---@field public ["params"] questUnequipItemParams
 questUnequipItemNodeDefinition = {}
 
 ---@param fields? table

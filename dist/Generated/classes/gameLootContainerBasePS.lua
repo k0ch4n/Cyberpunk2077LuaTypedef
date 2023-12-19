@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameLootContainerBasePS: gameObjectPS
----@field protected markAsQuest Bool
----@field protected isDisabled Bool
----@field protected isLocked Bool
----@field protected shouldHideLockedUI Bool
----@field protected started Bool
+---@field protected ["markAsQuest"] Bool
+---@field protected ["isDisabled"] Bool
+---@field protected ["isLocked"] Bool
+---@field protected ["shouldHideLockedUI"] Bool
+---@field protected ["started"] Bool
 gameLootContainerBasePS = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BlackwallAnimDef: gamebbScriptDefinition
----@field public deathAnimNumber gamebbScriptID_Int32
----@field public handGestureAnimNumber gamebbScriptID_Int32
+---@field public ["deathAnimNumber"] gamebbScriptID_Int32
+---@field public ["handGestureAnimNumber"] gamebbScriptID_Int32
 BlackwallAnimDef = {}
 
 ---@param fields? table

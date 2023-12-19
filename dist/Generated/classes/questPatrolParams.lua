@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPatrolParams: questAICommandParams
----@field public pathParams AIPatrolPathParameters
----@field public repeatCommandOnInterrupt Bool
+---@field public ["pathParams"] AIPatrolPathParameters
+---@field public ["repeatCommandOnInterrupt"] Bool
 questPatrolParams = {}
 
 ---@param fields? table

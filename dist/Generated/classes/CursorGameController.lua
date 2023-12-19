@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CursorGameController: gameuiWidgetGameController
----@field private cursorRoot CursorRootController
----@field private currentContext CName
----@field private margin inkMargin
----@field private data MenuCursorUserData
----@field private isCursorVisible Bool
----@field private cursorType CName
----@field private cursorForDevice CName
----@field private dpadAnimProxy inkanimProxy
----@field private clickAnimProxy inkanimProxy
+---@field private ["cursorRoot"] CursorRootController
+---@field private ["currentContext"] CName
+---@field private ["margin"] inkMargin
+---@field private ["data"] MenuCursorUserData
+---@field private ["isCursorVisible"] Bool
+---@field private ["cursorType"] CName
+---@field private ["cursorForDevice"] CName
+---@field private ["dpadAnimProxy"] inkanimProxy
+---@field private ["clickAnimProxy"] inkanimProxy
 CursorGameController = {}
 
 ---@param fields? table
@@ -43,13 +43,13 @@ function CursorGameController:OnInitialize() return end
 function CursorGameController:OnRelease(evt) return end
 
 ---@protected
----@param context CName
+---@param context CName|string
 ---@param data inkUserData
 ---@return Bool
 function CursorGameController:OnSetCursorContext(context, data) return end
 
 ---@protected
----@param type CName
+---@param type CName|string
 ---@return Bool
 function CursorGameController:OnSetCursorForDevice(type) return end
 
@@ -64,7 +64,7 @@ function CursorGameController:OnSetCursorPosition(pos) return end
 function CursorGameController:OnSetCursorScale(scale) return end
 
 ---@protected
----@param type CName
+---@param type CName|string
 ---@return Bool
 function CursorGameController:OnSetCursorType(type) return end
 
@@ -79,7 +79,7 @@ function CursorGameController:OnUnitialize() return end
 
 ---@private
 ---@param evt inkPointerEvent
----@param actionsList CName[]
+---@param actionsList CName[]|string[]
 ---@return Bool
 function CursorGameController:DoesActionMatch(evt, actionsList) return end
 
@@ -88,7 +88,7 @@ function CursorGameController:DoesActionMatch(evt, actionsList) return end
 function CursorGameController:GetCursorType() return end
 
 ---@private
----@param context CName
+---@param context CName|string
 ---@param data inkUserData
 ---@param force? Bool
 ---@return nil

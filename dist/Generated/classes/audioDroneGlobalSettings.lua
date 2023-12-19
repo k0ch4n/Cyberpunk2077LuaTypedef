@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioDroneGlobalSettings: audioAudioMetadata
----@field public speedRtpc CName
----@field public thrustRtpc CName
+---@field public ["speedRtpc"] CName
+---@field public ["thrustRtpc"] CName
 audioDroneGlobalSettings = {}
 
 ---@param fields? table

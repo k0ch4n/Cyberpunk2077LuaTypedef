@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsToggleMinimapVisibilityEvent: redEvent
----@field public show Bool
+---@field public ["show"] Bool
 gameeventsToggleMinimapVisibilityEvent = {}
 
 ---@param fields? table

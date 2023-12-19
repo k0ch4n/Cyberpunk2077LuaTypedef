@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_NPCState: animAnimFeature
----@field public state Int32
+---@field public ["state"] Int32
 animAnimFeature_NPCState = {}
 
 ---@param fields? table

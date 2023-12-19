@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceNPCControllerPS: ActivatedDeviceControllerPS
----@field private activatedDeviceNPCSetup ActivatedDeviceNPCSetup
+---@field private ["activatedDeviceNPCSetup"] ActivatedDeviceNPCSetup
 ActivatedDeviceNPCControllerPS = {}
 
 ---@param fields? table

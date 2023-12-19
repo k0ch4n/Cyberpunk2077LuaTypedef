@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class BaseScriptableAction: gamedeviceAction
----@field protected requesterID entEntityID
----@field protected executor gameObject
----@field protected proxyExecutor gameObject
----@field protected costComponents gamedataObjectActionCost_Record[]
----@field protected objectActionID TweakDBID
----@field protected objectActionRecord gamedataObjectAction_Record
----@field protected inkWidgetID TweakDBID
----@field protected interactionChoice gameinteractionsChoice
----@field protected interactionLayer CName
----@field protected isActionRPGCheckDissabled Bool
----@field protected canSkipPayCost Bool
----@field protected calculatedBaseCost Int32
----@field public deviceActionQueue DeviceActionQueue
----@field public isActionQueueingUsed Bool
----@field public isQueuedAction Bool
----@field public isInactive Bool
----@field public isTargetDead Bool
----@field public activationTimeReduction Float
----@field public IsAppliedByMonowire Bool
+---@field protected ["requesterID"] entEntityID
+---@field protected ["executor"] gameObject
+---@field protected ["proxyExecutor"] gameObject
+---@field protected ["costComponents"] gamedataObjectActionCost_Record[]
+---@field protected ["objectActionID"] TweakDBID
+---@field protected ["objectActionRecord"] gamedataObjectAction_Record
+---@field protected ["inkWidgetID"] TweakDBID
+---@field protected ["interactionChoice"] gameinteractionsChoice
+---@field protected ["interactionLayer"] CName
+---@field protected ["isActionRPGCheckDissabled"] Bool
+---@field protected ["canSkipPayCost"] Bool
+---@field protected ["calculatedBaseCost"] Int32
+---@field public ["deviceActionQueue"] DeviceActionQueue
+---@field public ["isActionQueueingUsed"] Bool
+---@field public ["isQueuedAction"] Bool
+---@field public ["isInactive"] Bool
+---@field public ["isTargetDead"] Bool
+---@field public ["activationTimeReduction"] Float
+---@field public ["IsAppliedByMonowire"] Bool
 BaseScriptableAction = {}
 
 ---@param executor gameObject

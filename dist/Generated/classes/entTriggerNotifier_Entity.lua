@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entTriggerNotifier_Entity: worldITriggerAreaNotifer
----@field public entityRef NodeRef
+---@field public ["entityRef"] NodeRef
 entTriggerNotifier_Entity = {}
 
 ---@param fields? table

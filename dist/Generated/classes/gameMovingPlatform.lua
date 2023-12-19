@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatform: entIPlacedComponent
----@field public loopType gameMovingPlatformLoopType
----@field public supportLegacyUnalignedMarkers Bool
----@field public enableWaterInteractions Bool
----@field public soundPositionName CName
+---@field public ["loopType"] gameMovingPlatformLoopType
+---@field public ["supportLegacyUnalignedMarkers"] Bool
+---@field public ["enableWaterInteractions"] Bool
+---@field public ["soundPositionName"] CName
 gameMovingPlatform = {}
 
 ---@param fields? table

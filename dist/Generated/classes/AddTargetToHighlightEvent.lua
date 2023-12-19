@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddTargetToHighlightEvent: redEvent
----@field public target CombatTarget
+---@field public ["target"] CombatTarget
 AddTargetToHighlightEvent = {}
 
 ---@param fields? table

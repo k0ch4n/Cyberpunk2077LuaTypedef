@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class CyberwareAttributesSkills: gameuiWidgetGameController
----@field protected attributes CyberwareAttributes_ContainersStruct
----@field protected resistances CyberwareAttributes_ResistancesStruct
----@field protected levelUpPoints inkTextWidgetReference
----@field private uiBlackboard gameIBlackboard
----@field private playerPuppet PlayerPuppet
----@field private devPoints Int32
----@field private OnAttributesChangeCallback redCallbackObject
----@field private OnDevelopmentPointsChangeCallback redCallbackObject
----@field private OnProficiencyChangeCallback redCallbackObject
----@field private OnMaxHealthChangedCallback redCallbackObject
----@field private OnPhysicalResistanceChangedCallback redCallbackObject
----@field private OnThermalResistanceChangedCallback redCallbackObject
----@field private OnEnergyResistanceChangedCallback redCallbackObject
----@field private OnChemicalResistanceChangedCallback redCallbackObject
+---@field protected ["attributes"] CyberwareAttributes_ContainersStruct
+---@field protected ["resistances"] CyberwareAttributes_ResistancesStruct
+---@field protected ["levelUpPoints"] inkTextWidgetReference
+---@field private ["uiBlackboard"] gameIBlackboard
+---@field private ["playerPuppet"] PlayerPuppet
+---@field private ["devPoints"] Int32
+---@field private ["OnAttributesChangeCallback"] redCallbackObject
+---@field private ["OnDevelopmentPointsChangeCallback"] redCallbackObject
+---@field private ["OnProficiencyChangeCallback"] redCallbackObject
+---@field private ["OnMaxHealthChangedCallback"] redCallbackObject
+---@field private ["OnPhysicalResistanceChangedCallback"] redCallbackObject
+---@field private ["OnThermalResistanceChangedCallback"] redCallbackObject
+---@field private ["OnEnergyResistanceChangedCallback"] redCallbackObject
+---@field private ["OnChemicalResistanceChangedCallback"] redCallbackObject
 CyberwareAttributesSkills = {}
 
 ---@param fields? table

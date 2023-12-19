@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitDistanceCoveredPrereq: GenericHitPrereq
----@field public distanceRequired Float
----@field public comparisonType EComparisonType
+---@field public ["distanceRequired"] Float
+---@field public ["comparisonType"] EComparisonType
 HitDistanceCoveredPrereq = {}
 
 ---@param fields? table

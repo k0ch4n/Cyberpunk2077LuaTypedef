@@ -3,7 +3,7 @@
 
 ---@enum audioTriggerEffectTarget
 audioTriggerEffectTarget = {
-    ["L2"] = 0,
-    ["R2"] = 1,
-    ["Both"] = 2
+    ["L2"] = 0, ---@type Enum
+    ["R2"] = 1, ---@type Enum
+    ["Both"] = 2, ---@type Enum
 }

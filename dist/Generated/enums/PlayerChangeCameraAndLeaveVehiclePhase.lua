@@ -3,7 +3,7 @@
 
 ---@enum PlayerChangeCameraAndLeaveVehiclePhase
 PlayerChangeCameraAndLeaveVehiclePhase = {
-    ["ToggleCamera"] = 0,
-    ["ExitVehicle"] = 1,
-    ["Done"] = 2
+    ["ToggleCamera"] = 0, ---@type Enum
+    ["ExitVehicle"] = 1, ---@type Enum
+    ["Done"] = 2, ---@type Enum
 }

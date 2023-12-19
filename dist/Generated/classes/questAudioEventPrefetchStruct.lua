@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAudioEventPrefetchStruct
----@field public eventName CName
----@field public mode questAudioEventPrefetchMode
+---@field public ["eventName"] CName
+---@field public ["mode"] questAudioEventPrefetchMode
 questAudioEventPrefetchStruct = {}
 
 ---@param fields? table

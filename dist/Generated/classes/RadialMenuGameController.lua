@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RadialMenuGameController: gameuiHUDGameController
----@field private containerRef inkCompoundWidgetReference
----@field private highlightRef inkWidgetReference
----@field private itemListRef inkWidgetReference[]
----@field private quickSlotsBoard gameIBlackboard
----@field private quickSlotsDef UI_QuickSlotsDataDef
----@field private inputAxisCallbackId redCallbackObject
+---@field private ["containerRef"] inkCompoundWidgetReference
+---@field private ["highlightRef"] inkWidgetReference
+---@field private ["itemListRef"] inkWidgetReference[]
+---@field private ["quickSlotsBoard"] gameIBlackboard
+---@field private ["quickSlotsDef"] UI_QuickSlotsDataDef
+---@field private ["inputAxisCallbackId"] redCallbackObject
 RadialMenuGameController = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum ERevealState
 ERevealState = {
-    ["STARTED"] = 0,
-    ["CONTINUE"] = 1,
-    ["STOPPED"] = 2
+    ["STARTED"] = 0, ---@type Enum
+    ["CONTINUE"] = 1, ---@type Enum
+    ["STOPPED"] = 2, ---@type Enum
 }

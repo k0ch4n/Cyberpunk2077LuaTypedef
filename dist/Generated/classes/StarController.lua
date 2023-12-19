@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class StarController: inkWidgetLogicController
----@field private animIntroProxy inkanimProxy
----@field private animIntroOptions inkanimPlaybackOptions
----@field private rootWidget inkWidget
----@field private animBlink inkanimDefinition
----@field private animBlinkProxy inkanimProxy
----@field private animBlinkOptions inkanimPlaybackOptions
----@field private animBlinkLoops Uint32[]
----@field private animBlinkLastStage Int32
----@field private blinkAnimLoopType inkanimLoopType
----@field private blinkDuration Float
----@field private bountyBadgeWidget inkWidgetReference
----@field private blinkSpeed1 Float
----@field private blinkSpeed2 Float
----@field private blinkSpeed3 Float
----@field private blinkAnimInterpolationMode inkanimInterpolationMode
----@field private blinkAnimInterpolationType inkanimInterpolationType
----@field private icon inkImageWidgetReference
----@field private iconBg inkImageWidgetReference
----@field private ncpdIconName CName
----@field private ncpdIconBgName CName
----@field private dogtownIconName CName
----@field private dogtownIconBgName CName
+---@field private ["animIntroProxy"] inkanimProxy
+---@field private ["animIntroOptions"] inkanimPlaybackOptions
+---@field private ["rootWidget"] inkWidget
+---@field private ["animBlink"] inkanimDefinition
+---@field private ["animBlinkProxy"] inkanimProxy
+---@field private ["animBlinkOptions"] inkanimPlaybackOptions
+---@field private ["animBlinkLoops"] Uint32[]
+---@field private ["animBlinkLastStage"] Int32
+---@field private ["blinkAnimLoopType"] inkanimLoopType
+---@field private ["blinkDuration"] Float
+---@field private ["bountyBadgeWidget"] inkWidgetReference
+---@field private ["blinkSpeed1"] Float
+---@field private ["blinkSpeed2"] Float
+---@field private ["blinkSpeed3"] Float
+---@field private ["blinkAnimInterpolationMode"] inkanimInterpolationMode
+---@field private ["blinkAnimInterpolationType"] inkanimInterpolationType
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["iconBg"] inkImageWidgetReference
+---@field private ["ncpdIconName"] CName
+---@field private ["ncpdIconBgName"] CName
+---@field private ["dogtownIconName"] CName
+---@field private ["dogtownIconBgName"] CName
 StarController = {}
 
 ---@param fields? table
@@ -60,6 +60,6 @@ function StarController:StartBlink(timeTotal, stages) return end
 ---@return nil
 function StarController:StopBlink() return end
 
----@param newState CName
+---@param newState CName|string
 ---@return nil
 function StarController:UpdateState(newState) return end

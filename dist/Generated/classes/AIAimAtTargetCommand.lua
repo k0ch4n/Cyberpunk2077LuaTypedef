@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIAimAtTargetCommand: AICombatRelatedCommand
----@field public targetOverrideNodeRef NodeRef
----@field public targetOverridePuppetRef gameEntityReference
----@field public duration Float
+---@field public ["targetOverrideNodeRef"] NodeRef
+---@field public ["targetOverridePuppetRef"] gameEntityReference
+---@field public ["duration"] Float
 AIAimAtTargetCommand = {}
 
 ---@param fields? table

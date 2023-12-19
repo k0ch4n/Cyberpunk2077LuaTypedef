@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class InventoryGenericItemChooser: inkWidgetLogicController
----@field protected itemContainer inkCompoundWidgetReference
----@field protected slotsCategory inkWidgetReference
----@field protected slotsRootContainer inkWidgetReference
----@field protected slotsRootLabel inkTextWidgetReference
----@field protected slotsContainer inkCompoundWidgetReference
----@field protected player PlayerPuppet
----@field protected inventoryDataManager InventoryDataManagerV2
----@field protected uiScriptableSystem UIScriptableSystem
----@field protected equipmentArea gamedataEquipmentArea
----@field protected itemDisplay InventoryItemDisplayController
----@field protected slotIndex Int32
----@field protected selectedItem InventoryItemDisplayController
----@field protected tooltipsManager gameuiTooltipsManager
----@field private transmogCtrlsContainer inkCompoundWidgetReference
----@field private transmogIndicatorCtrl TransmogButtonView
----@field private transmogIndicator inkWidget
+---@field protected ["itemContainer"] inkCompoundWidgetReference
+---@field protected ["slotsCategory"] inkWidgetReference
+---@field protected ["slotsRootContainer"] inkWidgetReference
+---@field protected ["slotsRootLabel"] inkTextWidgetReference
+---@field protected ["slotsContainer"] inkCompoundWidgetReference
+---@field protected ["player"] PlayerPuppet
+---@field protected ["inventoryDataManager"] InventoryDataManagerV2
+---@field protected ["uiScriptableSystem"] UIScriptableSystem
+---@field protected ["equipmentArea"] gamedataEquipmentArea
+---@field protected ["itemDisplay"] InventoryItemDisplayController
+---@field protected ["slotIndex"] Int32
+---@field protected ["selectedItem"] InventoryItemDisplayController
+---@field protected ["tooltipsManager"] gameuiTooltipsManager
+---@field private ["transmogCtrlsContainer"] inkCompoundWidgetReference
+---@field private ["transmogIndicatorCtrl"] TransmogButtonView
+---@field private ["transmogIndicator"] inkWidget
 InventoryGenericItemChooser = {}
 
 ---@param fields? table

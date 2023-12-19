@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRemoveToken_NodeSubType: questIContentTokenManager_NodeSubType
----@field public removeAll Bool
+---@field public ["removeAll"] Bool
 questRemoveToken_NodeSubType = {}
 
 ---@param fields? table

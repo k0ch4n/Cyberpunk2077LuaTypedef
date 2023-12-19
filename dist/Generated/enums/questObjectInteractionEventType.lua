@@ -3,8 +3,8 @@
 
 ---@enum questObjectInteractionEventType
 questObjectInteractionEventType = {
-    ["Undefined"] = 0,
-    ["Entered"] = 1,
-    ["Exited"] = 2,
-    ["Executed"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["Entered"] = 1, ---@type Enum
+    ["Exited"] = 2, ---@type Enum
+    ["Executed"] = 3, ---@type Enum
 }

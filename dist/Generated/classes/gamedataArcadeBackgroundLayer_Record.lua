@@ -21,6 +21,6 @@ function gamedataArcadeBackgroundLayer_Record:ImageTextureAtlas() return end
 ---@return CName[]
 function gamedataArcadeBackgroundLayer_Record:ImageTexturePartList() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataArcadeBackgroundLayer_Record:ImageTexturePartListContains(item) return end

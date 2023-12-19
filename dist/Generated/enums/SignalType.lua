@@ -3,7 +3,7 @@
 
 ---@enum SignalType
 SignalType = {
-    ["DEFAULT"] = 0,
-    ["REGISTRATION"] = 1,
-    ["UNREGISTRATION"] = 2
+    ["DEFAULT"] = 0, ---@type Enum
+    ["REGISTRATION"] = 1, ---@type Enum
+    ["UNREGISTRATION"] = 2, ---@type Enum
 }

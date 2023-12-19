@@ -3,6 +3,6 @@
 
 ---@enum scnAudioPlaybackDirectionSupportFlag
 scnAudioPlaybackDirectionSupportFlag = {
-    ["Forward"] = 1,
-    ["Backward"] = 2
+    ["Forward"] = 1, ---@type Enum
+    ["Backward"] = 2, ---@type Enum
 }

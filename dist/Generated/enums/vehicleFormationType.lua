@@ -3,7 +3,7 @@
 
 ---@enum vehicleFormationType
 vehicleFormationType = {
-    ["FORMATION_TRIANGLE"] = 0,
-    ["FORMATION_TURTLE"] = 1,
-    ["FORMATION_QUINCUNX"] = 2
+    ["FORMATION_TRIANGLE"] = 0, ---@type Enum
+    ["FORMATION_TURTLE"] = 1, ---@type Enum
+    ["FORMATION_QUINCUNX"] = 2, ---@type Enum
 }

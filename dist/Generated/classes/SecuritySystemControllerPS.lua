@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemControllerPS: DeviceSystemBaseControllerPS
----@field private level_0 SecurityAccessLevelEntry[]
----@field private level_1 SecurityAccessLevelEntry[]
----@field private level_2 SecurityAccessLevelEntry[]
----@field private level_3 SecurityAccessLevelEntry[]
----@field private level_4 SecurityAccessLevelEntry[]
----@field private allowSecuritySystemToDisableItself Bool
----@field private attitudeGroup TweakDBID
----@field private suppressAbilityToModifyAttitude Bool
----@field private attitudeChangeMode EShouldChangeAttitude
----@field private performAutomaticResetAfter Time
----@field private hideAreasOnMinimap Bool
----@field private isUnderStrictQuestControl Bool
----@field private securitySystemState ESecuritySystemState
----@field private agentsRegistry AgentRegistry
----@field private securitySystem SecuritySystemControllerPS
----@field private latestOutputEngineTime Float
----@field private updateInterval Float
----@field private restartDuration Int32
----@field private protectedEntityIDs entEntityID[]
----@field private entitiesRemainingAtGate entEntityID[]
----@field private blacklist BlacklistEntry[]
----@field private currentReprimandID Int32
----@field private blacklistDelayValid Bool
----@field private blacklistDelayID gameDelayID
----@field private maxGlobalWarningsCount Int32
----@field private delayIDValid Bool
----@field private deescalationEventID gameDelayID
----@field private outputsSend Int32
----@field private inputsReceived Int32
+---@field private ["level_0"] SecurityAccessLevelEntry[]
+---@field private ["level_1"] SecurityAccessLevelEntry[]
+---@field private ["level_2"] SecurityAccessLevelEntry[]
+---@field private ["level_3"] SecurityAccessLevelEntry[]
+---@field private ["level_4"] SecurityAccessLevelEntry[]
+---@field private ["allowSecuritySystemToDisableItself"] Bool
+---@field private ["attitudeGroup"] TweakDBID
+---@field private ["suppressAbilityToModifyAttitude"] Bool
+---@field private ["attitudeChangeMode"] EShouldChangeAttitude
+---@field private ["performAutomaticResetAfter"] Time
+---@field private ["hideAreasOnMinimap"] Bool
+---@field private ["isUnderStrictQuestControl"] Bool
+---@field private ["securitySystemState"] ESecuritySystemState
+---@field private ["agentsRegistry"] AgentRegistry
+---@field private ["securitySystem"] SecuritySystemControllerPS
+---@field private ["latestOutputEngineTime"] Float
+---@field private ["updateInterval"] Float
+---@field private ["restartDuration"] Int32
+---@field private ["protectedEntityIDs"] entEntityID[]
+---@field private ["entitiesRemainingAtGate"] entEntityID[]
+---@field private ["blacklist"] BlacklistEntry[]
+---@field private ["currentReprimandID"] Int32
+---@field private ["blacklistDelayValid"] Bool
+---@field private ["blacklistDelayID"] gameDelayID
+---@field private ["maxGlobalWarningsCount"] Int32
+---@field private ["delayIDValid"] Bool
+---@field private ["deescalationEventID"] gameDelayID
+---@field private ["outputsSend"] Int32
+---@field private ["inputsReceived"] Int32
 SecuritySystemControllerPS = {}
 
 ---@param fields? table
@@ -58,14 +58,14 @@ function SecuritySystemControllerPS:ActionSecuritySystemStatus() return end
 function SecuritySystemControllerPS:ActionThumbnailUI() return end
 
 ---@param entryLevel ESecurityAccessLevel
----@param password? CName
+---@param password? CName|string
 ---@param keycard? TweakDBID
 ---@return nil
 function SecuritySystemControllerPS:AddAccessLevelData(entryLevel, password, keycard) return end
 
 ---@private
 ---@param level SecurityAccessLevelEntry[]
----@param password? CName
+---@param password? CName|string
 ---@param keycard? TweakDBID
 ---@return nil
 function SecuritySystemControllerPS:AddAccessLevelEntry(level, password, keycard) return end
@@ -83,7 +83,7 @@ function SecuritySystemControllerPS:AddAgentRecord(agent, connectedAreas, reques
 function SecuritySystemControllerPS:AuthorizeUser(user, level) return end
 
 ---@param user entEntityID
----@param password? CName
+---@param password? CName|string
 ---@return Bool
 function SecuritySystemControllerPS:AuthorizeUser(user, password) return end
 
@@ -176,7 +176,7 @@ function SecuritySystemControllerPS:GetAttitudeSystem() return end
 function SecuritySystemControllerPS:GetAttitudeTowards(target) return end
 
 ---@private
----@param otherGroup CName
+---@param otherGroup CName|string
 ---@return EAIAttitude
 function SecuritySystemControllerPS:GetAttitudeTowards(otherGroup) return end
 
@@ -434,7 +434,7 @@ function SecuritySystemControllerPS:IsUserAuthorized(user, level) return end
 function SecuritySystemControllerPS:IsUserAuthorizedViaCard(user, level) return end
 
 ---@private
----@param password CName
+---@param password CName|string
 ---@param level ESecurityAccessLevel
 ---@return Bool
 function SecuritySystemControllerPS:IsUserAuthorizedViaPassword(password, level) return end
@@ -588,7 +588,7 @@ function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingKeycard(user
 
 ---@private
 ---@param user entEntityID
----@param password CName
+---@param password CName|string
 ---@return ESecurityAccessLevel
 function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingPassword(user, password) return end
 

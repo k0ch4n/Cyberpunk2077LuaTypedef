@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PoliceChaseParamsDef: gamebbScriptDefinition
----@field public SearchAreaRadius gamebbScriptID_Float
----@field public ChasePlayerDistance gamebbScriptID_Float
+---@field public ["SearchAreaRadius"] gamebbScriptID_Float
+---@field public ["ChasePlayerDistance"] gamebbScriptID_Float
 PoliceChaseParamsDef = {}
 
 ---@param fields? table

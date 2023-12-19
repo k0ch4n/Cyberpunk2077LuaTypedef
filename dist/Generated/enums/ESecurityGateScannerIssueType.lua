@@ -3,8 +3,8 @@
 
 ---@enum ESecurityGateScannerIssueType
 ESecurityGateScannerIssueType = {
-    ["NoIssues"] = 0,
-    ["ScannerEmpty"] = 1,
-    ["Overcrowded"] = 2,
-    ["TargetAlreadyScanned"] = 3
+    ["NoIssues"] = 0, ---@type Enum
+    ["ScannerEmpty"] = 1, ---@type Enum
+    ["Overcrowded"] = 2, ---@type Enum
+    ["TargetAlreadyScanned"] = 3, ---@type Enum
 }

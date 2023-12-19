@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSlotOccupiedConditionDefinition: AIbehaviorConditionDefinition
----@field public slot AIArgumentMapping
+---@field public ["slot"] AIArgumentMapping
 AIbehaviorSlotOccupiedConditionDefinition = {}
 
 ---@param fields? table

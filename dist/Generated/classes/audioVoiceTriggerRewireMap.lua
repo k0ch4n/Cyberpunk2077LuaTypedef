@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVoiceTriggerRewireMap: audioAudioMetadata
----@field public includes CName[]
----@field public items audioVoiceTriggerRewireMapItem[]
+---@field public ["includes"] CName[]
+---@field public ["items"] audioVoiceTriggerRewireMapItem[]
 audioVoiceTriggerRewireMap = {}
 
 ---@param fields? table

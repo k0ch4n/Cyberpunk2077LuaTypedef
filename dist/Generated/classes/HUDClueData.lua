@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HUDClueData
----@field public isClue Bool
----@field public clueGroupID CName
+---@field public ["isClue"] Bool
+---@field public ["clueGroupID"] CName
 HUDClueData = {}
 
 ---@param fields? table

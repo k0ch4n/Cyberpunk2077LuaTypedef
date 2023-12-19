@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldFoliageDestructionMapping: ISerializable
----@field public baseMesh CMesh
----@field public destructibleMesh CMesh
+---@field public ["baseMesh"] CMesh
+---@field public ["destructibleMesh"] CMesh
 worldFoliageDestructionMapping = {}
 
 ---@param fields? table

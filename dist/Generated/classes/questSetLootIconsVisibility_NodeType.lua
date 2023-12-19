@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetLootIconsVisibility_NodeType: questIUIManagerNodeType
----@field public lootIconsVisible Bool
+---@field public ["lootIconsVisible"] Bool
 questSetLootIconsVisibility_NodeType = {}
 
 ---@param fields? table

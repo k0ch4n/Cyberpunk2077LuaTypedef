@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ThrowableKnifeNPC: BaseProjectile
----@field private visualComponent entIComponent
----@field private resourceLibraryComponent ResourceLibraryComponent
----@field private weapon gameweaponObject
----@field private attack_record gamedataAttack_Record
----@field private explosionRadius Float
----@field private tweakRecord gamedataGrenade_Record
----@field private isActive Bool
----@field private hasHitWater Bool
----@field private projectileStopped Bool
----@field private desiredLifetime Float
----@field private waterHeight Float
----@field private deactivationDepth Float
----@field private waterImpulseRadius Float
----@field private waterImpulseStrength Float
----@field private dbgCurrentLifetime Float
----@field protected projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
+---@field private ["visualComponent"] entIComponent
+---@field private ["resourceLibraryComponent"] ResourceLibraryComponent
+---@field private ["weapon"] gameweaponObject
+---@field private ["attack_record"] gamedataAttack_Record
+---@field private ["explosionRadius"] Float
+---@field private ["tweakRecord"] gamedataGrenade_Record
+---@field private ["isActive"] Bool
+---@field private ["hasHitWater"] Bool
+---@field private ["projectileStopped"] Bool
+---@field private ["desiredLifetime"] Float
+---@field private ["waterHeight"] Float
+---@field private ["deactivationDepth"] Float
+---@field private ["waterImpulseRadius"] Float
+---@field private ["waterImpulseStrength"] Float
+---@field private ["dbgCurrentLifetime"] Float
+---@field protected ["projectileCollisionEvaluator"] ThrowingMeleeCollisionEvaluator
 ThrowableKnifeNPC = {}
 
 ---@param fields? table

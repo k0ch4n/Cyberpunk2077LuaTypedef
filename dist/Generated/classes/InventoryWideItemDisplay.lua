@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class InventoryWideItemDisplay: InventoryItemDisplay
----@field protected itemNameText inkTextWidgetReference
----@field protected rarityBackground inkWidgetReference
----@field protected iconWrapper inkWidgetReference
----@field protected statsWrapper inkWidgetReference
----@field protected dpsText inkTextWidgetReference
----@field protected damageIndicatorRef inkWidgetReference
----@field protected additionalInfoText inkTextWidgetReference
----@field protected singleIconSize Vector2
----@field private damageTypeIndicator DamageTypeIndicator
----@field protected additionalInfoToShow ItemAdditionalInfoType
+---@field protected ["itemNameText"] inkTextWidgetReference
+---@field protected ["rarityBackground"] inkWidgetReference
+---@field protected ["iconWrapper"] inkWidgetReference
+---@field protected ["statsWrapper"] inkWidgetReference
+---@field protected ["dpsText"] inkTextWidgetReference
+---@field protected ["damageIndicatorRef"] inkWidgetReference
+---@field protected ["additionalInfoText"] inkTextWidgetReference
+---@field protected ["singleIconSize"] Vector2
+---@field private ["damageTypeIndicator"] DamageTypeIndicator
+---@field protected ["additionalInfoToShow"] ItemAdditionalInfoType
 InventoryWideItemDisplay = {}
 
 ---@param fields? table

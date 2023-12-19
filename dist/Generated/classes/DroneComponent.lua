@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class DroneComponent: gameScriptableComponent
----@field private senseComponent senseComponent
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private playerOnlyCollisionComponent entSimpleColliderComponent
----@field private highLevelCb Uint32
----@field private currentScanType MechanicalScanType
----@field private currentScanEffect gameEffectInstance
----@field private currentScanAnimation CName
----@field private isDetectionScanning Bool
----@field private trackedTarget gameObject
----@field private currentLocomotionWrapper CName
+---@field private ["senseComponent"] senseComponent
+---@field private ["npcCollisionComponent"] entSimpleColliderComponent
+---@field private ["playerOnlyCollisionComponent"] entSimpleColliderComponent
+---@field private ["highLevelCb"] Uint32
+---@field private ["currentScanType"] MechanicalScanType
+---@field private ["currentScanEffect"] gameEffectInstance
+---@field private ["currentScanAnimation"] CName
+---@field private ["isDetectionScanning"] Bool
+---@field private ["trackedTarget"] gameObject
+---@field private ["currentLocomotionWrapper"] CName
 DroneComponent = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ DroneComponent = {}
 function DroneComponent.new(fields) return end
 
 ---@param owner ScriptedPuppet
----@param movementType CName
+---@param movementType CName|string
 ---@return nil
 function DroneComponent.SetLocomotionWrappers(owner, movementType) return end
 
@@ -74,7 +74,7 @@ function DroneComponent:OnRequestComponents(ri) return end
 function DroneComponent:OnTakeControl(ri) return end
 
 ---@private
----@param movementType CName
+---@param movementType CName|string
 ---@return nil
 function DroneComponent:ApplyLocomotionWrappers(movementType) return end
 

@@ -2,55 +2,55 @@
 ---@diagnostic disable
 
 ---@class VehicleComponent: ScriptableDeviceComponent
----@field public interaction gameinteractionsComponent
----@field public scanningComponent gameScanningComponent
----@field public damageLevel Int32
----@field public coolerDestro Bool
----@field public bumperFrontState Int32
----@field public bumperBackState Int32
----@field public visualDestructionSet Bool
----@field public immuneInDecay Bool
----@field public healthDecayThreshold Float
----@field public isBroadcastingHazardStims Bool
----@field public healthStatPoolListener VehicleHealthStatPoolListener
----@field public vehicleBlackboard gameIBlackboard
----@field public radioState Bool
----@field public mounted Bool
----@field public enterTime Float
----@field public mappinID gameNewMappinID
----@field public quickhackMappinID gameNewMappinID
----@field public ignoreAutoDoorClose Bool
----@field public timeSystemCallbackID Uint32
----@field public vehicleTPPCallbackID redCallbackObject
----@field public vehicleSpeedCallbackID redCallbackObject
----@field public carAlarmCallbackID redCallbackObject
----@field public vehicleRPMCallbackID redCallbackObject
----@field public vehicleDisableAlarmDelayID gameDelayID
----@field public vehicleExitDelayId gameDelayID
----@field public broadcasting Bool
----@field public hasSpoiler Bool
----@field public spoilerUp Float
----@field public spoilerDown Float
----@field public spoilerDeployed Bool
----@field public hasTurboCharger Bool
----@field public overheatEffectBlackboard worldEffectBlackboard
----@field public overheatActive Bool
----@field public hornOn Bool
----@field public useAuxiliary Bool
----@field public sirenPressTime Float
----@field public radioPressTime Float
----@field public raceClockTickID gameDelayID
----@field public objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field public trunkNpcBody gameObject
----@field public mountedPlayer PlayerPuppet
----@field public isIgnoredInTargetingSystem Bool
----@field public arePlayerHitShapesEnabled Bool
----@field public uiWantedBarBB gameIBlackboard
----@field public currentWantedLevelCallback redCallbackObject
----@field public preventionPassengers Int32
----@field public timeSinceLastHit Float
----@field public dragTime Float
----@field private vehicleController vehicleController
+---@field public ["interaction"] gameinteractionsComponent
+---@field public ["scanningComponent"] gameScanningComponent
+---@field public ["damageLevel"] Int32
+---@field public ["coolerDestro"] Bool
+---@field public ["bumperFrontState"] Int32
+---@field public ["bumperBackState"] Int32
+---@field public ["visualDestructionSet"] Bool
+---@field public ["immuneInDecay"] Bool
+---@field public ["healthDecayThreshold"] Float
+---@field public ["isBroadcastingHazardStims"] Bool
+---@field public ["healthStatPoolListener"] VehicleHealthStatPoolListener
+---@field public ["vehicleBlackboard"] gameIBlackboard
+---@field public ["radioState"] Bool
+---@field public ["mounted"] Bool
+---@field public ["enterTime"] Float
+---@field public ["mappinID"] gameNewMappinID
+---@field public ["quickhackMappinID"] gameNewMappinID
+---@field public ["ignoreAutoDoorClose"] Bool
+---@field public ["timeSystemCallbackID"] Uint32
+---@field public ["vehicleTPPCallbackID"] redCallbackObject
+---@field public ["vehicleSpeedCallbackID"] redCallbackObject
+---@field public ["carAlarmCallbackID"] redCallbackObject
+---@field public ["vehicleRPMCallbackID"] redCallbackObject
+---@field public ["vehicleDisableAlarmDelayID"] gameDelayID
+---@field public ["vehicleExitDelayId"] gameDelayID
+---@field public ["broadcasting"] Bool
+---@field public ["hasSpoiler"] Bool
+---@field public ["spoilerUp"] Float
+---@field public ["spoilerDown"] Float
+---@field public ["spoilerDeployed"] Bool
+---@field public ["hasTurboCharger"] Bool
+---@field public ["overheatEffectBlackboard"] worldEffectBlackboard
+---@field public ["overheatActive"] Bool
+---@field public ["hornOn"] Bool
+---@field public ["useAuxiliary"] Bool
+---@field public ["sirenPressTime"] Float
+---@field public ["radioPressTime"] Float
+---@field public ["raceClockTickID"] gameDelayID
+---@field public ["objectActionsCallbackCtrl"] gameObjectActionsCallbackController
+---@field public ["trunkNpcBody"] gameObject
+---@field public ["mountedPlayer"] PlayerPuppet
+---@field public ["isIgnoredInTargetingSystem"] Bool
+---@field public ["arePlayerHitShapesEnabled"] Bool
+---@field public ["uiWantedBarBB"] gameIBlackboard
+---@field public ["currentWantedLevelCallback"] redCallbackObject
+---@field public ["preventionPassengers"] Int32
+---@field public ["timeSinceLastHit"] Float
+---@field public ["dragTime"] Float
+---@field private ["vehicleController"] vehicleController
 VehicleComponent = {}
 
 ---@param fields? table
@@ -72,12 +72,12 @@ function VehicleComponent.CanBeDriven(vehicle) return end
 function VehicleComponent.CheckIfPassengersCanLeaveCar(vehicleID, passengersCanLeaveCar, passengersCantLeaveCar) return end
 
 ---@param vehicle vehicleBaseObject
----@param desiredTag CName
+---@param desiredTag CName|string
 ---@return Bool
 function VehicleComponent.CheckVehicleDesiredTag(vehicle, desiredTag) return end
 
 ---@param owner gameObject
----@param desiredTag CName
+---@param desiredTag CName|string
 ---@return Bool
 function VehicleComponent.CheckVehicleDesiredTag(owner, desiredTag) return end
 
@@ -147,7 +147,7 @@ function VehicleComponent.GetNumberOfOccupiedSlots(vehicle) return end
 ---@return Float
 function VehicleComponent.GetOwnerVehicleSpeed(owner) return end
 
----@param slotNames CName[]
+---@param slotNames CName[]|string[]
 ---@return nil
 function VehicleComponent.GetPassengersSlotNames(slotNames) return end
 
@@ -255,7 +255,7 @@ function VehicleComponent.HasOnlyOneActivePassenger(vehicleID) return end
 function VehicleComponent.HasPassengersWithThreatOnPlayer(vehicleID) return end
 
 ---@param vehicle vehicleBaseObject
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleComponent.HasSlot(vehicle, slotName) return end
 
@@ -279,7 +279,7 @@ function VehicleComponent.IsDriver(ownerID) return end
 ---@return Bool
 function VehicleComponent.IsDriverSeatOccupiedByDeadNPC(vehicleID) return end
 
----@param slotId CName
+---@param slotId CName|string
 ---@return Bool
 function VehicleComponent.IsDriverSlot(slotId) return end
 
@@ -304,18 +304,18 @@ function VehicleComponent.IsMountedToVehicle(owner) return end
 ---@return Bool
 function VehicleComponent.IsMountedToVehicleWithDriverSeatOccupiedByDeadNPC(passengerID) return end
 
----@param slotId1 CName
----@param slotId2 CName
+---@param slotId1 CName|string
+---@param slotId2 CName|string
 ---@return Bool
 function VehicleComponent.IsSameSlot(slotId1, slotId2) return end
 
 ---@param vehicle vehicleBaseObject
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleComponent.IsSlotAvailable(vehicle, slotName) return end
 
 ---@param vehicleID entEntityID
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleComponent.IsSlotOccupied(vehicleID, slotName) return end
 
@@ -325,7 +325,7 @@ function VehicleComponent.IsSlotOccupied(vehicleID, slotName) return end
 function VehicleComponent.IsSlotOccupied(vehicleID, vehicleSlotID) return end
 
 ---@param vehicleID entEntityID
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleComponent.IsSlotOccupiedByActivePassenger(vehicleID, slotName) return end
 
@@ -438,7 +438,7 @@ function VehicleComponent.SendPoliceJustLostPlayerSearchCommand(vehicle) return 
 
 ---@param passenger gameObject
 ---@param vehicleID entEntityID
----@param slotName CName
+---@param slotName CName|string
 ---@param value Float
 ---@return CName[]
 function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, vehicleID, slotName, value) return end
@@ -451,7 +451,7 @@ function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, value) retur
 ---@param vehicle vehicleBaseObject
 ---@param slotID gamemountingMountingSlotId
 ---@param toggle Bool
----@param speed? CName
+---@param speed? CName|string
 ---@return Bool
 function VehicleComponent.ToggleVehicleWindow(vehicle, slotID, toggle, speed) return end
 
@@ -927,7 +927,7 @@ function VehicleComponent:OnVehicleWindowOpen(evt) return end
 function VehicleComponent:OnWeaponShootEvent(evt) return end
 
 ---@protected
----@param type? CName
+---@param type? CName|string
 ---@return nil
 function VehicleComponent:ApplyVehicleDOT(type) return end
 
@@ -965,7 +965,7 @@ function VehicleComponent:CleanUpRace() return end
 function VehicleComponent:ClearImmortalityMode() return end
 
 ---@private
----@param doors CName[]
+---@param doors CName[]|string[]
 ---@return nil
 function VehicleComponent:CloseSelectedDoors(doors) return end
 
@@ -1031,7 +1031,7 @@ function VehicleComponent:DetermineAdditionalEngineFX(gridID, gridState) return 
 function VehicleComponent:DetermineInteractionState() return end
 
 ---@protected
----@param layerName CName
+---@param layerName CName|string
 ---@return nil
 function VehicleComponent:DetermineInteractionState(layerName) return end
 
@@ -1074,7 +1074,7 @@ function VehicleComponent:EnableTargetingComponents() return end
 function VehicleComponent:EvaluateDamageLevel(destruction) return end
 
 ---@protected
----@param doorID CName
+---@param doorID CName|string
 ---@param immediate Bool
 ---@param doorState vehicleVehicleDoorState
 ---@return nil
@@ -1105,8 +1105,8 @@ function VehicleComponent:EvaluateTrunkAndHoodInteractions() return end
 function VehicleComponent:EvaluateTrunkInteractions() return end
 
 ---@protected
----@param doorID CName
----@param speed CName
+---@param doorID CName|string
+---@param speed CName|string
 ---@return nil
 function VehicleComponent:EvaluateWindowReaction(doorID, speed) return end
 
@@ -1176,7 +1176,7 @@ function VehicleComponent:GetVehicleControllerPS() return end
 function VehicleComponent:GetVehicleDecayThreshold() return end
 
 ---@protected
----@param doorName CName
+---@param doorName CName|string
 ---@return Bool, vehicleEVehicleDoor door
 function VehicleComponent:GetVehicleDoorEnum(doorName) return end
 
@@ -1246,7 +1246,7 @@ function VehicleComponent:MountBodyToPlayer(npcBody) return end
 ---@protected
 ---@param parentID entEntityID
 ---@param childId entEntityID
----@param slot CName
+---@param slot CName|string
 ---@return nil
 function VehicleComponent:MountEntityToSlot(parentID, childId, slot) return end
 
@@ -1311,14 +1311,14 @@ function VehicleComponent:ProcessExplosionEffects() return end
 function VehicleComponent:PushVehicleNPCDataToAllPassengers(id) return end
 
 ---@private
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function VehicleComponent:QueueLethalVehicleImpactToAllNonFriendlyAggressivePassengers(sourceName) return end
 
 ---@private
 ---@param target gameObject
 ---@param instigator gameObject
----@param sourceName CName
+---@param sourceName CName|string
 ---@return nil
 function VehicleComponent:QueueVehicleImpactLethalHitEvent(target, instigator, sourceName) return end
 
@@ -1381,7 +1381,7 @@ function VehicleComponent:SendParkEvent(park) return end
 
 ---@protected
 ---@param isMounting Bool
----@param slotID CName
+---@param slotID CName|string
 ---@param character gameObject
 ---@return nil
 function VehicleComponent:SendVehicleStartedUnmountingEventToPS(isMounting, slotID, character) return end
@@ -1460,7 +1460,7 @@ function VehicleComponent:ShouldVisualDestructionBeSet() return end
 
 ---@protected
 ---@param self gameObject
----@param effectName CName
+---@param effectName CName|string
 ---@param shouldPersist? Bool
 ---@param blackboard? worldEffectBlackboard
 ---@return nil
@@ -1485,7 +1485,7 @@ function VehicleComponent:ToggleCrystalDome(toggle, force, instant, instantDelay
 function VehicleComponent:ToggleInitialVehDoorInteractions() return end
 
 ---@private
----@param layer CName
+---@param layer CName|string
 ---@param toggle Bool
 ---@return nil
 function VehicleComponent:ToggleInteraction(layer, toggle) return end
@@ -1535,7 +1535,7 @@ function VehicleComponent:ToggleTargetingSystemForPanzer(mountedPlayer, enable) 
 
 ---@protected
 ---@param toggle Bool
----@param layer? CName
+---@param layer? CName|string
 ---@return nil
 function VehicleComponent:ToggleVehReadyInteractions(toggle, layer) return end
 

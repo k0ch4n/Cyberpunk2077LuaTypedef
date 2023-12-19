@@ -9,13 +9,13 @@ MenuScenario_CreditsPicker = {}
 function MenuScenario_CreditsPicker.new(fields) return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_CreditsPicker:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_CreditsPicker:OnLeaveScenario(nextScenario) return end
 

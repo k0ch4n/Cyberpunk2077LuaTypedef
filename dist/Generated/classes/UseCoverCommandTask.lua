@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UseCoverCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIUseCoverCommand
+---@field protected ["inCommand"] AIArgumentMapping
+---@field protected ["currentCommand"] AIUseCoverCommand
 UseCoverCommandTask = {}
 
 ---@param fields? table

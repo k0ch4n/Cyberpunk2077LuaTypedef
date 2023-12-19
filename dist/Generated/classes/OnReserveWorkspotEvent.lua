@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnReserveWorkspotEvent: OnWorkspotAvailabilityEvent
----@field public action gamedataWorkspotActionType
+---@field public ["action"] gamedataWorkspotActionType
 OnReserveWorkspotEvent = {}
 
 ---@param fields? table

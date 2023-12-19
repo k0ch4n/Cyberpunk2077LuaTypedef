@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipDetailsModule: NewItemTooltipModuleController
----@field private statsLine inkWidgetReference
----@field private statsWrapper inkWidgetReference
----@field private statsContainer inkCompoundWidgetReference
----@field private dedicatedModsLine inkWidgetReference
----@field private dedicatedModsWrapper inkWidgetReference
----@field private dedicatedModsText inkTextWidgetReference
----@field private modsLine inkWidgetReference
----@field private modsWrapper inkWidgetReference
----@field private modsContainer inkCompoundWidgetReference
----@field private modifierPowerLine inkWidgetReference
----@field private modifierPowerLabel inkTextWidgetReference
----@field private modifierPowerWrapper inkCompoundWidgetReference
----@field private isCrafting Bool
+---@field private ["statsLine"] inkWidgetReference
+---@field private ["statsWrapper"] inkWidgetReference
+---@field private ["statsContainer"] inkCompoundWidgetReference
+---@field private ["dedicatedModsLine"] inkWidgetReference
+---@field private ["dedicatedModsWrapper"] inkWidgetReference
+---@field private ["dedicatedModsText"] inkTextWidgetReference
+---@field private ["modsLine"] inkWidgetReference
+---@field private ["modsWrapper"] inkWidgetReference
+---@field private ["modsContainer"] inkCompoundWidgetReference
+---@field private ["modifierPowerLine"] inkWidgetReference
+---@field private ["modifierPowerLabel"] inkTextWidgetReference
+---@field private ["modifierPowerWrapper"] inkCompoundWidgetReference
+---@field private ["isCrafting"] Bool
 NewItemTooltipDetailsModule = {}
 
 ---@param fields? table

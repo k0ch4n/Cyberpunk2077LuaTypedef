@@ -8,7 +8,7 @@ gamestateMachineparameterTypeClimbParametersBase = {}
 ---@return gamestateMachineparameterTypeClimbParametersBase
 function gamestateMachineparameterTypeClimbParametersBase.new(fields) return end
 
----@param val CName
+---@param val CName|string
 ---@return nil
 function gamestateMachineparameterTypeClimbParametersBase:SetAnimationNameApproach(val) return end
 

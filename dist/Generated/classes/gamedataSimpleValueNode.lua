@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataSimpleValueNode: gamedataValueDataNode
----@field public type gamedataSimpleValueNodeValueType
----@field public data String
+---@field public ["type"] gamedataSimpleValueNodeValueType
+---@field public ["data"] String
 gamedataSimpleValueNode = {}
 
 ---@param fields? table

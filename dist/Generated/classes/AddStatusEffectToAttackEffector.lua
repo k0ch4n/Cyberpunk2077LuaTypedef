@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AddStatusEffectToAttackEffector: ModifyAttackEffector
----@field public isRandom Bool
----@field public applicationChanceMods gamedataStatModifier_Record[]
----@field public statusEffect SHitStatusEffect
----@field public stacks Float
+---@field public ["isRandom"] Bool
+---@field public ["applicationChanceMods"] gamedataStatModifier_Record[]
+---@field public ["statusEffect"] SHitStatusEffect
+---@field public ["stacks"] Float
 AddStatusEffectToAttackEffector = {}
 
 ---@param fields? table

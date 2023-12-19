@@ -3,7 +3,7 @@
 
 ---@enum AIbehaviorStateCompletionStatus
 AIbehaviorStateCompletionStatus = {
-    ["ForwardBehaviorStatus"] = 0,
-    ["Failure"] = 1,
-    ["Success"] = 2
+    ["ForwardBehaviorStatus"] = 0, ---@type Enum
+    ["Failure"] = 1, ---@type Enum
+    ["Success"] = 2, ---@type Enum
 }

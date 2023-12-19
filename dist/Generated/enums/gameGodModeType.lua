@@ -3,7 +3,7 @@
 
 ---@enum gameGodModeType
 gameGodModeType = {
-    ["Immortal"] = 1,
-    ["Invulnerable"] = 0,
-    ["Mortal"] = 2
+    ["Immortal"] = 1, ---@type Enum
+    ["Invulnerable"] = 0, ---@type Enum
+    ["Mortal"] = 2, ---@type Enum
 }

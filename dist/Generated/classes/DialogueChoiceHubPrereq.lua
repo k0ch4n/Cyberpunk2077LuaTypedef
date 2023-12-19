@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DialogueChoiceHubPrereq: gameIScriptablePrereq
----@field private isChoiceHubActive Bool
+---@field private ["isChoiceHubActive"] Bool
 DialogueChoiceHubPrereq = {}
 
 ---@param fields? table

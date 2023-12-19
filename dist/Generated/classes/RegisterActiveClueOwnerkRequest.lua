@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterActiveClueOwnerkRequest: gameScriptableSystemRequest
----@field public ownerID entEntityID
+---@field public ["ownerID"] entEntityID
 RegisterActiveClueOwnerkRequest = {}
 
 ---@param fields? table

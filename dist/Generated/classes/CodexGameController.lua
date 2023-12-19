@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class CodexGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private entryViewRef inkCompoundWidgetReference
----@field private characterEntryViewRef inkCompoundWidgetReference
----@field private noEntrySelectedWidget inkWidgetReference
----@field private virtualList inkWidgetReference
----@field private emptyPlaceholderRef inkWidgetReference
----@field private leftBlockControllerRef inkWidgetReference
----@field private filtersContainer inkCompoundWidgetReference
----@field private journalManager gameJournalManager
----@field private buttonHintsController ButtonHints
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private listController CodexListVirtualNestedListController
----@field private entryViewController CodexEntryViewController
----@field private characterEntryViewController CodexEntryViewController
----@field private player PlayerPuppet
----@field private activeData CodexListSyncData
----@field private selectedData CodexEntryData
----@field private userDataEntry Int32
----@field private doubleInputPreventionFlag Bool
----@field private filtersControllers CodexFilterButtonController[]
----@field private onInputDeviceChangedCallbackID redCallbackObject
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["entryViewRef"] inkCompoundWidgetReference
+---@field private ["characterEntryViewRef"] inkCompoundWidgetReference
+---@field private ["noEntrySelectedWidget"] inkWidgetReference
+---@field private ["virtualList"] inkWidgetReference
+---@field private ["emptyPlaceholderRef"] inkWidgetReference
+---@field private ["leftBlockControllerRef"] inkWidgetReference
+---@field private ["filtersContainer"] inkCompoundWidgetReference
+---@field private ["journalManager"] gameJournalManager
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["listController"] CodexListVirtualNestedListController
+---@field private ["entryViewController"] CodexEntryViewController
+---@field private ["characterEntryViewController"] CodexEntryViewController
+---@field private ["player"] PlayerPuppet
+---@field private ["activeData"] CodexListSyncData
+---@field private ["selectedData"] CodexEntryData
+---@field private ["userDataEntry"] Int32
+---@field private ["doubleInputPreventionFlag"] Bool
+---@field private ["filtersControllers"] CodexFilterButtonController[]
+---@field private ["onInputDeviceChangedCallbackID"] redCallbackObject
 CodexGameController = {}
 
 ---@param fields? table
@@ -51,7 +51,7 @@ function CodexGameController:OnEntryActivated(evt) return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool

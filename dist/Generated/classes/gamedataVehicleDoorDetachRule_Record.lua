@@ -24,6 +24,6 @@ function gamedataVehicleDoorDetachRule_Record:GetPartsToDetachItem(index) return
 ---@return CName[]
 function gamedataVehicleDoorDetachRule_Record:PartsToDetach() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleDoorDetachRule_Record:PartsToDetachContains(item) return end

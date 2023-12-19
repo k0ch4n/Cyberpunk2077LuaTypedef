@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questFlushAutopilot_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public playerVehicle Bool
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["playerVehicle"] Bool
 questFlushAutopilot_NodeType = {}
 
 ---@param fields? table

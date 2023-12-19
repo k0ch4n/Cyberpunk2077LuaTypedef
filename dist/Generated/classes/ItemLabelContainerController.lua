@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemLabelContainerController: inkWidgetLogicController
----@field protected items ItemLabelController[]
+---@field protected ["items"] ItemLabelController[]
 ItemLabelContainerController = {}
 
 ---@param fields? table

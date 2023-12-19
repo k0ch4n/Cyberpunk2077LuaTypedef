@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameIsQuickhackPanelOpenedPrereq
----@field public inverted Bool
+---@field public ["inverted"] Bool
 gameIsQuickhackPanelOpenedPrereq = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerVehicleDriveLayout: ScannerChunk
----@field private vehicleDriveLayout String
+---@field private ["vehicleDriveLayout"] String
 ScannerVehicleDriveLayout = {}
 
 ---@param fields? table

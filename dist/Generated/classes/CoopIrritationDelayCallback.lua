@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CoopIrritationDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public companion gameObject
+---@field public ["companion"] gameObject
 CoopIrritationDelayCallback = {}
 
 ---@param fields? table

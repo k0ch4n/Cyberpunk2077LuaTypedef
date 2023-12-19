@@ -3,9 +3,9 @@
 
 ---@enum EActionContext
 EActionContext = {
-    ["None"] = -1,
-    ["Direct"] = 0,
-    ["QHack"] = 1,
-    ["Master"] = 2,
-    ["Spiderbot"] = 3
+    ["None"] = -1, ---@type Enum
+    ["Direct"] = 0, ---@type Enum
+    ["QHack"] = 1, ---@type Enum
+    ["Master"] = 2, ---@type Enum
+    ["Spiderbot"] = 3, ---@type Enum
 }

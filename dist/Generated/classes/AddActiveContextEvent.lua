@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddActiveContextEvent: redEvent
----@field public context gamedeviceRequestType
+---@field public ["context"] gamedeviceRequestType
 AddActiveContextEvent = {}
 
 ---@param fields? table

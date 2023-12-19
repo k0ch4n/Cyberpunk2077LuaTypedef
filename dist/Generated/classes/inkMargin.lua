@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkMargin
----@field public left Float
----@field public top Float
----@field public right Float
----@field public bottom Float
+---@field public ["left"] Float
+---@field public ["top"] Float
+---@field public ["right"] Float
+---@field public ["bottom"] Float
 inkMargin = {}
 
 ---@param fields? table

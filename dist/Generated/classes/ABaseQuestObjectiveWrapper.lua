@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ABaseQuestObjectiveWrapper: AJournalEntryWrapper
----@field protected questObjective gameJournalQuestObjectiveBase
----@field protected objectiveStatus gameJournalEntryState
----@field protected isTracked Bool
----@field protected currentCounter Int32
----@field protected totalCounter Int32
+---@field protected ["questObjective"] gameJournalQuestObjectiveBase
+---@field protected ["objectiveStatus"] gameJournalEntryState
+---@field protected ["isTracked"] Bool
+---@field protected ["currentCounter"] Int32
+---@field protected ["totalCounter"] Int32
 ABaseQuestObjectiveWrapper = {}
 
 ---@return String

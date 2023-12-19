@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CodexSystem: gameScriptableSystem
----@field private codex SCodexRecord[]
----@field private blackboard gameIBlackboard
+---@field private ["codex"] SCodexRecord[]
+---@field private ["blackboard"] gameIBlackboard
 CodexSystem = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function CodexSystem:GetCodex() return end
 function CodexSystem:GetCodexRecordIndex(recordTweak) return end
 
 ---@param recordID TweakDBID
----@param partName CName
+---@param partName CName|string
 ---@return String
 function CodexSystem:GetCodexRecordPartContent(recordID, partName) return end
 
@@ -36,7 +36,7 @@ function CodexSystem:GetCodexRecordParts(recordTweak) return end
 function CodexSystem:IsRecordLocked(recordID) return end
 
 ---@param recordID TweakDBID
----@param partName CName
+---@param partName CName|string
 ---@return Bool
 function CodexSystem:IsRecordPartLocked(recordID, partName) return end
 
@@ -75,7 +75,7 @@ function CodexSystem:SendCallback() return end
 
 ---@private
 ---@param recordTweak TweakDBID
----@param partName CName
+---@param partName CName|string
 ---@return nil
 function CodexSystem:UnlockCodexPart(recordTweak, partName) return end
 

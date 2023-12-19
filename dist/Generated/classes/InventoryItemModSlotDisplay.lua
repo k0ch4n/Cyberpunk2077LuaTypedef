@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryItemModSlotDisplay: inkWidgetLogicController
----@field private slotBorder inkWidgetReference
----@field private slotBackground inkWidgetReference
+---@field private ["slotBorder"] inkWidgetReference
+---@field private ["slotBackground"] inkWidgetReference
 InventoryItemModSlotDisplay = {}
 
 ---@param fields? table

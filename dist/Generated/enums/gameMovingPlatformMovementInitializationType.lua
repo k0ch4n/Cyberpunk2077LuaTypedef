@@ -3,6 +3,6 @@
 
 ---@enum gameMovingPlatformMovementInitializationType
 gameMovingPlatformMovementInitializationType = {
-    ["Time"] = 0,
-    ["Speed"] = 1
+    ["Time"] = 0, ---@type Enum
+    ["Speed"] = 1, ---@type Enum
 }

@@ -3,13 +3,13 @@
 
 ---@enum questCombatNodeFunctions
 questCombatNodeFunctions = {
-    ["CombatTarget"] = 0,
-    ["ShootAt"] = 1,
-    ["LookAtTarget"] = 2,
-    ["ThrowGrenade"] = 3,
-    ["UseCover"] = 4,
-    ["SwitchWeapon"] = 5,
-    ["PrimaryWeapon"] = 6,
-    ["SecondaryWeapon"] = 7,
-    ["RestrictMovementToArea"] = 8
+    ["CombatTarget"] = 0, ---@type Enum
+    ["ShootAt"] = 1, ---@type Enum
+    ["LookAtTarget"] = 2, ---@type Enum
+    ["ThrowGrenade"] = 3, ---@type Enum
+    ["UseCover"] = 4, ---@type Enum
+    ["SwitchWeapon"] = 5, ---@type Enum
+    ["PrimaryWeapon"] = 6, ---@type Enum
+    ["SecondaryWeapon"] = 7, ---@type Enum
+    ["RestrictMovementToArea"] = 8, ---@type Enum
 }

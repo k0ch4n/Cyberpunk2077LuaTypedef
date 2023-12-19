@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class NewPerksGaugeController: inkWidgetLogicController
----@field public bar inkWidgetReference
----@field public possibleBar inkWidgetReference
----@field public currentLevelIndicator inkWidgetReference
----@field public possibleLevelIndicator inkWidgetReference
----@field public levelText inkTextWidgetReference
----@field public levels NewPerksGaugePointDetails[]
+---@field public ["bar"] inkWidgetReference
+---@field public ["possibleBar"] inkWidgetReference
+---@field public ["currentLevelIndicator"] inkWidgetReference
+---@field public ["possibleLevelIndicator"] inkWidgetReference
+---@field public ["levelText"] inkTextWidgetReference
+---@field public ["levels"] NewPerksGaugePointDetails[]
 NewPerksGaugeController = {}
 
 ---@param fields? table

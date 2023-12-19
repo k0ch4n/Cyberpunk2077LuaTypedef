@@ -3,7 +3,7 @@
 
 ---@enum vehicleDisabledReason
 vehicleDisabledReason = {
-    ["FrontTire"] = 0,
-    ["RearTire"] = 1,
-    ["Other"] = 2
+    ["FrontTire"] = 0, ---@type Enum
+    ["RearTire"] = 1, ---@type Enum
+    ["Other"] = 2, ---@type Enum
 }

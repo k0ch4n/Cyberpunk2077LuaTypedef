@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questLegacy_NodeType: questSpawnManagerNodeType
----@field public spawnerReference NodeRef
----@field public communityEntryName CName
----@field public communityEntryPhaseName CName
+---@field public ["spawnerReference"] NodeRef
+---@field public ["communityEntryName"] CName
+---@field public ["communityEntryPhaseName"] CName
 questLegacy_NodeType = {}
 
 ---@param fields? table

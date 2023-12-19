@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamemountingMountingEvent: redEvent
----@field public request gamemountingMountingRequest
----@field public relationship gamemountingMountingRelationship
+---@field public ["request"] gamemountingMountingRequest
+---@field public ["relationship"] gamemountingMountingRelationship
 gamemountingMountingEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FinisherAttackEvents: FinisherTransition
----@field public stateMachineInitData FinisherInitData
+---@field public ["stateMachineInitData"] FinisherInitData
 FinisherAttackEvents = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function FinisherAttackEvents.ApplyFinisherBuffs(playerPuppet, isWorkspotFinishe
 function FinisherAttackEvents.GetGameplayCameraParameters(tweakDBPath) return end
 
 ---@param target gameObject
----@param paramsName CName
+---@param paramsName CName|string
 ---@return nil
 function FinisherAttackEvents.SetCameraContext(target, paramsName) return end
 

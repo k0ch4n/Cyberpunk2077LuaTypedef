@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldStaticVectorFieldNode: worldNode
----@field public direction Vector3
----@field public autoHideDistance Float
+---@field public ["direction"] Vector3
+---@field public ["autoHideDistance"] Float
 worldStaticVectorFieldNode = {}
 
 ---@param fields? table

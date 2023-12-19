@@ -3,8 +3,8 @@
 
 ---@enum questPlatform
 questPlatform = {
-    ["PC"] = 0,
-    ["Console"] = 1,
-    ["LastGenConsole"] = 2,
-    ["CurrGenConsole"] = 3
+    ["PC"] = 0, ---@type Enum
+    ["Console"] = 1, ---@type Enum
+    ["LastGenConsole"] = 2, ---@type Enum
+    ["CurrGenConsole"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterQuaternion: entAnimInputSetter
----@field public value Quaternion
+---@field public ["value"] Quaternion
 entAnimInputSetterQuaternion = {}
 
 ---@param fields? table

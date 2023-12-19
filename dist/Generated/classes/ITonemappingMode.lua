@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class ITonemappingMode: ISerializable
----@field public colorPreservation curveData
+---@field public ["colorPreservation"] curveData
 ITonemappingMode = {}

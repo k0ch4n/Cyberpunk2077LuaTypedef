@@ -3,7 +3,7 @@
 
 ---@enum EAIThreatCalculationType
 EAIThreatCalculationType = {
-    ["Regular"] = 0,
-    ["Boss"] = 1,
-    ["Madness"] = 2
+    ["Regular"] = 0, ---@type Enum
+    ["Boss"] = 1, ---@type Enum
+    ["Madness"] = 2, ---@type Enum
 }

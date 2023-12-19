@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ZoneAlertNotificationViewData: gameuiGenericNotificationViewData
----@field public canBeMerged Bool
----@field public securityZoneData ESecurityAreaType
+---@field public ["canBeMerged"] Bool
+---@field public ["securityZoneData"] ESecurityAreaType
 ZoneAlertNotificationViewData = {}
 
 ---@param fields? table

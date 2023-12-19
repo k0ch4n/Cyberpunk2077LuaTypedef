@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LookedAtEvent: redEvent
----@field public isLookedAt Bool
+---@field public ["isLookedAt"] Bool
 LookedAtEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_BoolEvaluator_Value: gameIEffectParameter_BoolEvaluator
----@field public value Bool
+---@field public ["value"] Bool
 gameEffectParameter_BoolEvaluator_Value = {}
 
 ---@param fields? table

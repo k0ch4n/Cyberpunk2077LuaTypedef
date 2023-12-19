@@ -3,7 +3,7 @@
 
 ---@enum gameprojectileELaunchMode
 gameprojectileELaunchMode = {
-    ["Default"] = 0,
-    ["FromLogic"] = 1,
-    ["FromVisuals"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["FromLogic"] = 1, ---@type Enum
+    ["FromVisuals"] = 2, ---@type Enum
 }

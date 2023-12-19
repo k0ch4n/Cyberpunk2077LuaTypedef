@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatPoolChangeOverTimePrereqListener: BaseStatPoolPrereqListener
----@field protected state StatPoolChangeOverTimePrereqState
+---@field protected ["state"] StatPoolChangeOverTimePrereqState
 StatPoolChangeOverTimePrereqListener = {}
 
 ---@param fields? table

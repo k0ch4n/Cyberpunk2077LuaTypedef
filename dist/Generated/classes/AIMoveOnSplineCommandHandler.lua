@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AIMoveOnSplineCommandHandler: AICommandHandlerBase
----@field protected outSpline AIArgumentMapping
----@field protected outMovementType AIArgumentMapping
----@field protected outRotateTowardsFacingTarget AIArgumentMapping
----@field protected outFacingTarget AIArgumentMapping
----@field protected outSnapToTerrain AIArgumentMapping
----@field protected allowCrowdOnPath AIArgumentMapping
+---@field protected ["outSpline"] AIArgumentMapping
+---@field protected ["outMovementType"] AIArgumentMapping
+---@field protected ["outRotateTowardsFacingTarget"] AIArgumentMapping
+---@field protected ["outFacingTarget"] AIArgumentMapping
+---@field protected ["outSnapToTerrain"] AIArgumentMapping
+---@field protected ["allowCrowdOnPath"] AIArgumentMapping
 AIMoveOnSplineCommandHandler = {}
 
 ---@param fields? table

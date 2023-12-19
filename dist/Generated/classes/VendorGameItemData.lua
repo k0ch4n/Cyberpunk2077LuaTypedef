@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendorGameItemData: IScriptable
----@field public gameItemData gameItemData
----@field public itemStack gameSItemStack
+---@field public ["gameItemData"] gameItemData
+---@field public ["itemStack"] gameSItemStack
 VendorGameItemData = {}
 
 ---@param fields? table

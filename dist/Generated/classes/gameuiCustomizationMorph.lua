@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCustomizationMorph: gameuiCensorshipInfo
----@field public regionName CName
----@field public targetName CName
+---@field public ["regionName"] CName
+---@field public ["targetName"] CName
 gameuiCustomizationMorph = {}
 
 ---@param fields? table

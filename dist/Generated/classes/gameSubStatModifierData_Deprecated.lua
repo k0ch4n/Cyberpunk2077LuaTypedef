@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSubStatModifierData_Deprecated: gameStatModifierData_Deprecated
----@field public refStatType gamedataStatType
+---@field public ["refStatType"] gamedataStatType
 gameSubStatModifierData_Deprecated = {}
 
 ---@param fields? table

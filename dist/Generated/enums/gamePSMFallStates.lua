@@ -3,10 +3,10 @@
 
 ---@enum gamePSMFallStates
 gamePSMFallStates = {
-    ["Default"] = 0,
-    ["RegularFall"] = 1,
-    ["SafeFall"] = 2,
-    ["FastFall"] = 3,
-    ["VeryFastFall"] = 4,
-    ["DeathFall"] = 5
+    ["Default"] = 0, ---@type Enum
+    ["RegularFall"] = 1, ---@type Enum
+    ["SafeFall"] = 2, ---@type Enum
+    ["FastFall"] = 3, ---@type Enum
+    ["VeryFastFall"] = 4, ---@type Enum
+    ["DeathFall"] = 5, ---@type Enum
 }

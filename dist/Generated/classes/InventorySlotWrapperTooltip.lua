@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InventorySlotWrapperTooltip: AGenericTooltipController
----@field protected itemDisplayController InventoryItemDisplayController
+---@field protected ["itemDisplayController"] InventoryItemDisplayController
 InventorySlotWrapperTooltip = {}
 
 ---@param fields? table

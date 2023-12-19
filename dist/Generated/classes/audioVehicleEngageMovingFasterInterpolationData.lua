@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioVehicleEngageMovingFasterInterpolationData
----@field public enterCurveType audioESoundCurveType
----@field public enterCurveTime Float
----@field public exitCurveType audioESoundCurveType
----@field public exitCurveTime Float
+---@field public ["enterCurveType"] audioESoundCurveType
+---@field public ["enterCurveTime"] Float
+---@field public ["exitCurveType"] audioESoundCurveType
+---@field public ["exitCurveTime"] Float
 audioVehicleEngageMovingFasterInterpolationData = {}
 
 ---@param fields? table

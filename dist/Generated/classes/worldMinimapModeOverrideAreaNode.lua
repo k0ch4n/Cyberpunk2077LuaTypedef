@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldMinimapModeOverrideAreaNode: worldTriggerAreaNode
----@field public streamingOcclusion worldPrefabStreamingOcclusion
+---@field public ["streamingOcclusion"] worldPrefabStreamingOcclusion
 worldMinimapModeOverrideAreaNode = {}
 
 ---@param fields? table

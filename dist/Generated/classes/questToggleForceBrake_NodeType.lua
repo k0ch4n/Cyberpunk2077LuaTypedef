@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questToggleForceBrake_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public playerVehicle Bool
----@field public val Bool
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["playerVehicle"] Bool
+---@field public ["val"] Bool
 questToggleForceBrake_NodeType = {}
 
 ---@param fields? table

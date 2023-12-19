@@ -3,12 +3,12 @@
 
 ---@enum gamedataNPCQuestAffiliation
 gamedataNPCQuestAffiliation = {
-    ["General"] = 0,
-    ["MainQuest"] = 1,
-    ["MinorActivity"] = 2,
-    ["MinorQuest"] = 3,
-    ["SideQuest"] = 4,
-    ["StreetStory"] = 5,
-    ["Count"] = 6,
-    ["Invalid"] = 7
+    ["General"] = 0, ---@type Enum
+    ["MainQuest"] = 1, ---@type Enum
+    ["MinorActivity"] = 2, ---@type Enum
+    ["MinorQuest"] = 3, ---@type Enum
+    ["SideQuest"] = 4, ---@type Enum
+    ["StreetStory"] = 5, ---@type Enum
+    ["Count"] = 6, ---@type Enum
+    ["Invalid"] = 7, ---@type Enum
 }

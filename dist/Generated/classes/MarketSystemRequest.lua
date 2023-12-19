@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MarketSystemRequest: gameScriptableSystemRequest
----@field public owner gameObject
----@field public vendorID TweakDBID
+---@field public ["owner"] gameObject
+---@field public ["vendorID"] TweakDBID
 MarketSystemRequest = {}
 
 ---@param fields? table

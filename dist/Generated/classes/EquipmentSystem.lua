@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipmentSystem: gameIEquipmentSystem
----@field private ownerData EquipmentSystemPlayerData[]
+---@field private ["ownerData"] EquipmentSystemPlayerData[]
 EquipmentSystem = {}
 
 ---@param fields? table
@@ -79,7 +79,7 @@ function EquipmentSystem.GetSlotOverridenItem(owner, area) return end
 function EquipmentSystem.HasItemInArea(owner, area) return end
 
 ---@param item gameItemObject
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function EquipmentSystem.HasTag(item, tag) return end
 

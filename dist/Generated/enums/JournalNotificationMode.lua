@@ -3,7 +3,7 @@
 
 ---@enum JournalNotificationMode
 JournalNotificationMode = {
-    ["Default"] = 0,
-    ["Menu"] = 1,
-    ["HUD"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Menu"] = 1, ---@type Enum
+    ["HUD"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questDynamicVehicleDespawn_NodeType: questIDynamicSpawnSystemType
----@field public ImmediateDespawn Bool
----@field public waveTag CName
+---@field public ["ImmediateDespawn"] Bool
+---@field public ["waveTag"] CName
 questDynamicVehicleDespawn_NodeType = {}
 
 ---@param fields? table

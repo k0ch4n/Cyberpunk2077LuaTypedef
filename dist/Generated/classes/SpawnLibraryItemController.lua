@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SpawnLibraryItemController: inkWidgetLogicController
----@field protected libraryID CName
+---@field protected ["libraryID"] CName
 SpawnLibraryItemController = {}
 
 ---@param fields? table

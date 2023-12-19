@@ -51,7 +51,7 @@ function gamemappinsMappinSystem:OnAreaEntered(evt) return end
 function gamemappinsMappinSystem:OnAreaExited(obj, triggerId) return end
 
 ---@param entityID entEntityID
----@param areaType CName
+---@param areaType CName|string
 ---@return nil
 function gamemappinsMappinSystem:OnAreaTypeChanged(entityID, areaType) return end
 
@@ -72,7 +72,7 @@ function gamemappinsMappinSystem:RegisterMappin(data, position) return end
 
 ---@param data gamemappinsMappinData
 ---@param object gameObject
----@param slotName? CName
+---@param slotName? CName|string
 ---@param offset? Vector3
 ---@return gameNewMappinID
 function gamemappinsMappinSystem:RegisterMappinWithObject(data, object, slotName, offset) return end
@@ -84,7 +84,7 @@ function gamemappinsMappinSystem:RegisterRemotePlayerMappin(data, playerObject) 
 
 ---@param data gamemappinsMappinData
 ---@param object gameObject
----@param slotName? CName
+---@param slotName? CName|string
 ---@param offset? Vector3
 ---@return gameNewMappinID
 function gamemappinsMappinSystem:RegisterVehicleMappin(data, object, slotName, offset) return end

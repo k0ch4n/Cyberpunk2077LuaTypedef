@@ -3,6 +3,6 @@
 
 ---@enum vehicleCameraType
 vehicleCameraType = {
-    ["FPP"] = 0,
-    ["TPP"] = 1
+    ["FPP"] = 0, ---@type Enum
+    ["TPP"] = 1, ---@type Enum
 }

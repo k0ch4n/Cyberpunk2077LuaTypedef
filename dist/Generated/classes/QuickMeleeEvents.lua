@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class QuickMeleeEvents: WeaponEventsTransition
----@field public gameEffect gameEffectInstance
----@field public targetObject gameObject
----@field public targetComponent entIPlacedComponent
----@field public quickMeleeAttackCreated Bool
----@field public quickMeleeAttackData QuickMeleeAttackData
+---@field public ["gameEffect"] gameEffectInstance
+---@field public ["targetObject"] gameObject
+---@field public ["targetComponent"] entIPlacedComponent
+---@field public ["quickMeleeAttackCreated"] Bool
+---@field public ["quickMeleeAttackData"] QuickMeleeAttackData
 QuickMeleeEvents = {}
 
 ---@param fields? table

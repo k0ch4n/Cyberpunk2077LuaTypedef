@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetPhoneStatusRequest: gameScriptableSystemRequest
----@field public status CName
+---@field public ["status"] CName
 questSetPhoneStatusRequest = {}
 
 ---@param fields? table

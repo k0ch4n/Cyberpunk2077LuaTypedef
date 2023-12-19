@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GogRewardsEntryHoverOver: redEvent
----@field public widget inkWidget
----@field public controller GogRewardEntryController
+---@field public ["widget"] inkWidget
+---@field public ["controller"] GogRewardEntryController
 GogRewardsEntryHoverOver = {}
 
 ---@param fields? table

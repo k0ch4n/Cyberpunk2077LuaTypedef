@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SettingsLanguageInstallProgressBar: inkWidgetLogicController
----@field private progressBarRoot inkWidgetReference
----@field private progressBarFill inkWidgetReference
----@field private textProgress inkTextWidgetReference
----@field private isEnabled Bool
+---@field private ["progressBarRoot"] inkWidgetReference
+---@field private ["progressBarFill"] inkWidgetReference
+---@field private ["textProgress"] inkTextWidgetReference
+---@field private ["isEnabled"] Bool
 SettingsLanguageInstallProgressBar = {}
 
 ---@param fields? table

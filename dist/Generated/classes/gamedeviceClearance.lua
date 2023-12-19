@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedeviceClearance: IScriptable
----@field public min Int32
----@field public max Int32
+---@field public ["min"] Int32
+---@field public ["max"] Int32
 gamedeviceClearance = {}
 
 ---@param fields? table

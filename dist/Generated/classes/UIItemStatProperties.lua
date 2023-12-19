@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class UIItemStatProperties: IScriptable
----@field private localizedName String
----@field private decimalPlaces Int32
----@field private displayPercent Bool
----@field private displayPlus Bool
----@field private inMeters Bool
----@field private inSeconds Bool
----@field private inSpeed Bool
----@field private multiplyBy100InText Bool
----@field private roundValue Bool
----@field private maxValue Float
----@field private flipNegative Bool
+---@field private ["localizedName"] String
+---@field private ["decimalPlaces"] Int32
+---@field private ["displayPercent"] Bool
+---@field private ["displayPlus"] Bool
+---@field private ["inMeters"] Bool
+---@field private ["inSeconds"] Bool
+---@field private ["inSpeed"] Bool
+---@field private ["multiplyBy100InText"] Bool
+---@field private ["roundValue"] Bool
+---@field private ["maxValue"] Float
+---@field private ["flipNegative"] Bool
 UIItemStatProperties = {}
 
 ---@param fields? table

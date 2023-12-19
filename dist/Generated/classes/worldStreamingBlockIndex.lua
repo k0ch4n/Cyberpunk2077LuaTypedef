@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldStreamingBlockIndex
----@field public rldGridCell Uint32
----@field public oup worldStreamingDataGroup
+---@field public ["rldGridCell"] Uint32
+---@field public ["oup"] worldStreamingDataGroup
 worldStreamingBlockIndex = {}
 
 ---@param fields? table

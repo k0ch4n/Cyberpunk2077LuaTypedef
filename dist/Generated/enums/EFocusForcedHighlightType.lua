@@ -3,20 +3,20 @@
 
 ---@enum EFocusForcedHighlightType
 EFocusForcedHighlightType = {
-    ["INTERACTION"] = 0,
-    ["IMPORTANT_INTERACTION"] = 1,
-    ["QUEST"] = 2,
-    ["DISTRACTION"] = 3,
-    ["CLUE"] = 4,
-    ["NPC"] = 5,
-    ["WEAKSPOT"] = 6,
-    ["AOE"] = 7,
-    ["ITEM"] = 8,
-    ["HOSTILE"] = 9,
-    ["FRIENDLY"] = 10,
-    ["NEUTRAL"] = 11,
-    ["HACKABLE"] = 12,
-    ["ENEMY_NETRUNNER"] = 13,
-    ["BACKDOOR"] = 14,
-    ["INVALID"] = 15
+    ["INTERACTION"] = 0, ---@type Enum
+    ["IMPORTANT_INTERACTION"] = 1, ---@type Enum
+    ["QUEST"] = 2, ---@type Enum
+    ["DISTRACTION"] = 3, ---@type Enum
+    ["CLUE"] = 4, ---@type Enum
+    ["NPC"] = 5, ---@type Enum
+    ["WEAKSPOT"] = 6, ---@type Enum
+    ["AOE"] = 7, ---@type Enum
+    ["ITEM"] = 8, ---@type Enum
+    ["HOSTILE"] = 9, ---@type Enum
+    ["FRIENDLY"] = 10, ---@type Enum
+    ["NEUTRAL"] = 11, ---@type Enum
+    ["HACKABLE"] = 12, ---@type Enum
+    ["ENEMY_NETRUNNER"] = 13, ---@type Enum
+    ["BACKDOOR"] = 14, ---@type Enum
+    ["INVALID"] = 15, ---@type Enum
 }

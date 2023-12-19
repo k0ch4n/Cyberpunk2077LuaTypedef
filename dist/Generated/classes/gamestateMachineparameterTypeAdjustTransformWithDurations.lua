@@ -8,7 +8,7 @@ gamestateMachineparameterTypeAdjustTransformWithDurations = {}
 ---@return gamestateMachineparameterTypeAdjustTransformWithDurations
 function gamestateMachineparameterTypeAdjustTransformWithDurations.new(fields) return end
 
----@param value CName
+---@param value CName|string
 ---@return nil
 function gamestateMachineparameterTypeAdjustTransformWithDurations:SetCurve(value) return end
 

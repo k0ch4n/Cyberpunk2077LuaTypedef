@@ -3,7 +3,7 @@
 
 ---@enum gameJournalBriefingContentType
 gameJournalBriefingContentType = {
-    ["MapLocation"] = 0,
-    ["VideoContent"] = 1,
-    ["Paperdoll"] = 2
+    ["MapLocation"] = 0, ---@type Enum
+    ["VideoContent"] = 1, ---@type Enum
+    ["Paperdoll"] = 2, ---@type Enum
 }

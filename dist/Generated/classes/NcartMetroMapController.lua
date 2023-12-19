@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class NcartMetroMapController: CustomAnimationsHudGameController
----@field private playerMarkerPane inkWidgetReference
----@field private playerCurrentPositionReferences metroMapPlayerPositionReferences[]
----@field private questsSystem questQuestsSystem
----@field private selectedDestinationButtonListner Uint32
----@field private selectionMenuShouldBeActiveListener Uint32
----@field private previousAnimatioNumber Int32
----@field private directionAnimProxy inkanimProxy
----@field private startupAnimProxy inkanimProxy
----@field private playerPostionMarkerAnimProxy inkanimProxy
----@field private mapOpen Bool
----@field private LineOffOpacity Float
----@field private LineOnOpacity Float
+---@field private ["playerMarkerPane"] inkWidgetReference
+---@field private ["playerCurrentPositionReferences"] metroMapPlayerPositionReferences[]
+---@field private ["questsSystem"] questQuestsSystem
+---@field private ["selectedDestinationButtonListner"] Uint32
+---@field private ["selectionMenuShouldBeActiveListener"] Uint32
+---@field private ["previousAnimatioNumber"] Int32
+---@field private ["directionAnimProxy"] inkanimProxy
+---@field private ["startupAnimProxy"] inkanimProxy
+---@field private ["playerPostionMarkerAnimProxy"] inkanimProxy
+---@field private ["mapOpen"] Bool
+---@field private ["LineOffOpacity"] Float
+---@field private ["LineOnOpacity"] Float
 NcartMetroMapController = {}
 
 ---@param fields? table

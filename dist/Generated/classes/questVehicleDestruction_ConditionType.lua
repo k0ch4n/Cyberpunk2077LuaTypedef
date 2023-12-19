@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questVehicleDestruction_ConditionType: questIVehicleConditionType
----@field public vehicleRef gameEntityReference
----@field public destruction Float
----@field public comparisonType EComparisonType
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["destruction"] Float
+---@field public ["comparisonType"] EComparisonType
 questVehicleDestruction_ConditionType = {}
 
 ---@param fields? table

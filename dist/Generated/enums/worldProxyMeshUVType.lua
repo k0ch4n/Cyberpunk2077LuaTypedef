@@ -3,6 +3,6 @@
 
 ---@enum worldProxyMeshUVType
 worldProxyMeshUVType = {
-    ["UvUseExisting"] = 0,
-    ["UvGenerateNew"] = 1
+    ["UvUseExisting"] = 0, ---@type Enum
+    ["UvGenerateNew"] = 1, ---@type Enum
 }

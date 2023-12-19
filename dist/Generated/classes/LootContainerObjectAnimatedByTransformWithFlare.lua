@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LootContainerObjectAnimatedByTransformWithFlare: LootContainerObjectAnimatedByTransform
----@field public colliderWithInteraction entIComponent
----@field public colliderWithoutInteraction entIComponent
----@field public lightComponent1 entIComponent
----@field public lightComponent2 entIComponent
+---@field public ["colliderWithInteraction"] entIComponent
+---@field public ["colliderWithoutInteraction"] entIComponent
+---@field public ["lightComponent1"] entIComponent
+---@field public ["lightComponent2"] entIComponent
 LootContainerObjectAnimatedByTransformWithFlare = {}
 
 ---@param fields? table

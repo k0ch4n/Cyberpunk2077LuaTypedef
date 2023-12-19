@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameReplAnimTransformSyncMatrixRequest: gameReplAnimTransformRequestBase
----@field public transform Transform
+---@field public ["transform"] Transform
 gameReplAnimTransformSyncMatrixRequest = {}
 
 ---@param fields? table

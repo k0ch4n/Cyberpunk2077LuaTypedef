@@ -3,7 +3,7 @@
 
 ---@enum worldQuestPreventionNotifierActivation
 worldQuestPreventionNotifierActivation = {
-    ["OnFootOnly"] = 0,
-    ["InVehicleOnly"] = 1,
-    ["Always"] = 2
+    ["OnFootOnly"] = 0, ---@type Enum
+    ["InVehicleOnly"] = 1, ---@type Enum
+    ["Always"] = 2, ---@type Enum
 }

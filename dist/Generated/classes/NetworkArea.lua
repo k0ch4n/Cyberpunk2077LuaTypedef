@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NetworkArea: InteractiveMasterDevice
----@field private area gameStaticTriggerAreaComponent
+---@field private ["area"] gameStaticTriggerAreaComponent
 NetworkArea = {}
 
 ---@param fields? table

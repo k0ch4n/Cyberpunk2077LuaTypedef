@@ -3,7 +3,7 @@
 
 ---@enum inkVideoInstanceDoneReason
 inkVideoInstanceDoneReason = {
-    ["Failed"] = 0,
-    ["Stopped"] = 1,
-    ["Finished"] = 2
+    ["Failed"] = 0, ---@type Enum
+    ["Stopped"] = 1, ---@type Enum
+    ["Finished"] = 2, ---@type Enum
 }

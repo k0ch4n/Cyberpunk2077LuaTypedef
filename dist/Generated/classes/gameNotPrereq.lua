@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNotPrereq: gameIPrereq
----@field public negatedPrereq gameIPrereq
+---@field public ["negatedPrereq"] gameIPrereq
 gameNotPrereq = {}
 
 ---@param fields? table

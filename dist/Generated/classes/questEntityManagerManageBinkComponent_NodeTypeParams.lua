@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerManageBinkComponent_NodeTypeParams
----@field public objectRef gameEntityReference
----@field public videoPath String
----@field public action gameBinkVideoAction
+---@field public ["objectRef"] gameEntityReference
+---@field public ["videoPath"] String
+---@field public ["action"] gameBinkVideoAction
 questEntityManagerManageBinkComponent_NodeTypeParams = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class sampleScreenProjectionLogicController: inkWidgetLogicController
----@field private widgetPos inkTextWidget
----@field private worldPos inkTextWidget
----@field private projection inkScreenProjection
+---@field private ["widgetPos"] inkTextWidget
+---@field private ["worldPos"] inkTextWidget
+---@field private ["projection"] inkScreenProjection
 sampleScreenProjectionLogicController = {}
 
 ---@param fields? table

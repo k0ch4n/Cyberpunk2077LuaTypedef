@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickhackModule: HUDModule
----@field private calculateClose Bool
+---@field private ["calculateClose"] Bool
 QuickhackModule = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Hotkey: IScriptable
----@field private hotkey gameEHotkey
----@field private itemID gameItemID
----@field private scope gamedataItemType[]
+---@field private ["hotkey"] gameEHotkey
+---@field private ["itemID"] gameItemID
+---@field private ["scope"] gamedataItemType[]
 Hotkey = {}
 
 ---@param fields? table

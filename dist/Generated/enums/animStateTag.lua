@@ -3,7 +3,7 @@
 
 ---@enum animStateTag
 animStateTag = {
-    ["ST_Invalid"] = 0,
-    ["Idle"] = 1,
-    ["Cover"] = 2
+    ["ST_Invalid"] = 0, ---@type Enum
+    ["Idle"] = 1, ---@type Enum
+    ["Cover"] = 2, ---@type Enum
 }

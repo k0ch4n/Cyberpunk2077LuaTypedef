@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class grsDeathmatchState
----@field public time netTime
----@field public status grsDeathmatchStatus
----@field public sessionLength netTime
----@field public playersInfo grsDeathmatchPlayerGameInfo
+---@field public ["time"] netTime
+---@field public ["status"] grsDeathmatchStatus
+---@field public ["sessionLength"] netTime
+---@field public ["playersInfo"] grsDeathmatchPlayerGameInfo
 grsDeathmatchState = {}
 
 ---@param fields? table

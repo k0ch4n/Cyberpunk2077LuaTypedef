@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_PreGameSubMenu: inkMenuScenario
----@field protected prevScenario CName
----@field protected currSubMenuName CName
+---@field protected ["prevScenario"] CName
+---@field protected ["currSubMenuName"] CName
 MenuScenario_PreGameSubMenu = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function MenuScenario_PreGameSubMenu:OnBack() return end
 function MenuScenario_PreGameSubMenu:OnCloseInitializeUserScreen() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_PreGameSubMenu:OnEnterScenario(prevScenario, userData) return end
@@ -35,7 +35,7 @@ function MenuScenario_PreGameSubMenu:OnHandleEngagementScreen(evt) return end
 function MenuScenario_PreGameSubMenu:OnHandleInitializeUserScreen(evt) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_PreGameSubMenu:OnLeaveScenario(nextScenario) return end
 
@@ -85,7 +85,7 @@ function MenuScenario_PreGameSubMenu:DisplayGog() return end
 function MenuScenario_PreGameSubMenu:OnSubmenuOpen() return end
 
 ---@protected
----@param menuName CName
+---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return nil
 function MenuScenario_PreGameSubMenu:OpenSubMenu(menuName, userData) return end

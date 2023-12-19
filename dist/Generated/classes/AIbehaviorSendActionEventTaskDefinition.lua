@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSendActionEventTaskDefinition: AIbehaviorTaskDefinition
----@field public event gameActionEvent
+---@field public ["event"] gameActionEvent
 AIbehaviorSendActionEventTaskDefinition = {}
 
 ---@param fields? table

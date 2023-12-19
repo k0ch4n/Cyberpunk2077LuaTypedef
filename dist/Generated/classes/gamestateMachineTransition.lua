@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineTransition: graphGraphConnectionDefinition
----@field public transitionCondition gamestateMachineFunctor
+---@field public ["transitionCondition"] gamestateMachineFunctor
 gamestateMachineTransition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnlocLangId
----@field public langId Uint8
+---@field public ["langId"] Uint8
 scnlocLangId = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAmbientPaletteBrushDictionary: audioInlinedAudioMetadata
----@field public entries audioAmbientPaletteBrushDictionaryItem[]
----@field public entryType audioAmbientPaletteBrushDictionaryItem
+---@field public ["entries"] audioAmbientPaletteBrushDictionaryItem[]
+---@field public ["entryType"] audioAmbientPaletteBrushDictionaryItem
 audioAmbientPaletteBrushDictionary = {}
 
 ---@param fields? table

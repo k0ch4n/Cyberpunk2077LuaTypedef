@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPhoneCallPhase_ConditionType: questIPhoneConditionType
----@field public callPhase questPhoneCallPhase
+---@field public ["callPhase"] questPhoneCallPhase
 questPhoneCallPhase_ConditionType = {}
 
 ---@param fields? table

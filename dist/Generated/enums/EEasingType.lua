@@ -3,7 +3,7 @@
 
 ---@enum EEasingType
 EEasingType = {
-    ["EET_In"] = 0,
-    ["EET_Out"] = 1,
-    ["EET_InOut"] = 2
+    ["EET_In"] = 0, ---@type Enum
+    ["EET_Out"] = 1, ---@type Enum
+    ["EET_InOut"] = 2, ---@type Enum
 }

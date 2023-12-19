@@ -3,7 +3,7 @@
 
 ---@enum gamedataSubCharacter
 gamedataSubCharacter = {
-    ["Flathead"] = 0,
-    ["Count"] = 1,
-    ["Invalid"] = 2
+    ["Flathead"] = 0, ---@type Enum
+    ["Count"] = 1, ---@type Enum
+    ["Invalid"] = 2, ---@type Enum
 }

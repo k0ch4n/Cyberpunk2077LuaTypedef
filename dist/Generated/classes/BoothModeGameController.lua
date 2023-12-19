@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BoothModeGameController: gameuiWidgetGameController
----@field public buttonRef inkWidgetReference
+---@field public ["buttonRef"] inkWidgetReference
 BoothModeGameController = {}
 
 ---@param fields? table

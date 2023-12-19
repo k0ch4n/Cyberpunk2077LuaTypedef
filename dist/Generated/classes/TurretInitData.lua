@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TurretInitData: IScriptable
----@field public turret gameObject
+---@field public ["turret"] gameObject
 TurretInitData = {}
 
 ---@param fields? table

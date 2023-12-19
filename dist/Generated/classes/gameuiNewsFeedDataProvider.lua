@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiNewsFeedDataProvider: IScriptable
----@field public newsTitleTweak TweakDBID
----@field public randomNewsFeedPack TweakDBID
+---@field public ["newsTitleTweak"] TweakDBID
+---@field public ["randomNewsFeedPack"] TweakDBID
 gameuiNewsFeedDataProvider = {}
 
 ---@param fields? table

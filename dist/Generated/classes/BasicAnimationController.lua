@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BasicAnimationController: inkWidgetLogicController
----@field protected showAnimation CName
----@field protected idleAnimation CName
----@field protected hideAnimation CName
----@field protected animationPlayer AnimationChainPlayer
----@field protected currentAnimation CName
+---@field protected ["showAnimation"] CName
+---@field protected ["idleAnimation"] CName
+---@field protected ["hideAnimation"] CName
+---@field protected ["animationPlayer"] AnimationChainPlayer
+---@field protected ["currentAnimation"] CName
 BasicAnimationController = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CooldownPackage: IScriptable
----@field private actionID TweakDBID
----@field private addressees PSOwnerData[]
----@field private initialCooldown Float
----@field private label CooldownStorageID
----@field private packageStatus PackageStatus
+---@field private ["actionID"] TweakDBID
+---@field private ["addressees"] PSOwnerData[]
+---@field private ["initialCooldown"] Float
+---@field private ["label"] CooldownStorageID
+---@field private ["packageStatus"] PackageStatus
 CooldownPackage = {}
 
 ---@param fields? table

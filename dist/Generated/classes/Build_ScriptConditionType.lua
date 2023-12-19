@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Build_ScriptConditionType: BluelineConditionTypeBase
----@field public questAssignment TweakDBID
----@field public buildId TweakDBID
----@field public difficulty EGameplayChallengeLevel
----@field public comparisonType ECompareOp
+---@field public ["questAssignment"] TweakDBID
+---@field public ["buildId"] TweakDBID
+---@field public ["difficulty"] EGameplayChallengeLevel
+---@field public ["comparisonType"] ECompareOp
 Build_ScriptConditionType = {}
 
 ---@param fields? table

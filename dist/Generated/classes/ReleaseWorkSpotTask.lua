@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ReleaseWorkSpotTask: WorkSpotTask
----@field public workspotRef NodeRef
----@field public workspotObject gameObject
+---@field public ["workspotRef"] NodeRef
+---@field public ["workspotObject"] gameObject
 ReleaseWorkSpotTask = {}
 
 ---@param fields? table

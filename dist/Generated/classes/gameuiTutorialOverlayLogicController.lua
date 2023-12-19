@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialOverlayLogicController: inkWidgetLogicController
----@field public hideInMenu Bool
----@field public hideOnInput Bool
----@field private showAnimation CName
----@field private hideAnimation CName
----@field private animProxy inkanimProxy
----@field private tutorialManager questTutorialManager
+---@field public ["hideInMenu"] Bool
+---@field public ["hideOnInput"] Bool
+---@field private ["showAnimation"] CName
+---@field private ["hideAnimation"] CName
+---@field private ["animProxy"] inkanimProxy
+---@field private ["tutorialManager"] questTutorialManager
 gameuiTutorialOverlayLogicController = {}
 
 ---@param fields? table

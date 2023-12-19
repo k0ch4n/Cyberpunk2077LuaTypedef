@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetSaveDataLoadingScreen_NodeType: questIUIManagerNodeType
----@field public selectedLoading TweakDBID
+---@field public ["selectedLoading"] TweakDBID
 questSetSaveDataLoadingScreen_NodeType = {}
 
 ---@param fields? table

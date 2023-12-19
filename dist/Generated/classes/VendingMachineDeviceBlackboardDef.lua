@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendingMachineDeviceBlackboardDef: DeviceBaseBlackboardDef
----@field public ActionStatus gamebbScriptID_Variant
----@field public SoldOut gamebbScriptID_Bool
+---@field public ["ActionStatus"] gamebbScriptID_Variant
+---@field public ["SoldOut"] gamebbScriptID_Bool
 VendingMachineDeviceBlackboardDef = {}
 
 ---@param fields? table

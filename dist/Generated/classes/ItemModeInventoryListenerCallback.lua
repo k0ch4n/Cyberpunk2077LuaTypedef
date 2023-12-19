@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemModeInventoryListenerCallback: gameInventoryScriptCallback
----@field private itemModeInstance InventoryItemModeLogicController
+---@field private ["itemModeInstance"] InventoryItemModeLogicController
 ItemModeInventoryListenerCallback = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpawnUniqueSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharacterID TweakDBID
----@field public desiredDistance Float
+---@field public ["subCharacterID"] TweakDBID
+---@field public ["desiredDistance"] Float
 SpawnUniqueSubCharacterRequest = {}
 
 ---@param fields? table

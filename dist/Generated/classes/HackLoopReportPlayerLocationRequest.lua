@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HackLoopReportPlayerLocationRequest: gameScriptableSystemRequest
----@field public state VehiclePreventionHackState
+---@field public ["state"] VehiclePreventionHackState
 HackLoopReportPlayerLocationRequest = {}
 
 ---@param fields? table

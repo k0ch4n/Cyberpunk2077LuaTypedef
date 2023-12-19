@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVehicleDoorsSettings
----@field public openEvent CName
----@field public closeEvent CName
+---@field public ["openEvent"] CName
+---@field public ["closeEvent"] CName
 audioVehicleDoorsSettings = {}
 
 ---@param fields? table

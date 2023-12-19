@@ -3,7 +3,7 @@
 
 ---@enum ECLSForcedState
 ECLSForcedState = {
-    ["DEFAULT"] = 0,
-    ["ForcedON"] = 1,
-    ["ForcedOFF"] = 2
+    ["DEFAULT"] = 0, ---@type Enum
+    ["ForcedON"] = 1, ---@type Enum
+    ["ForcedOFF"] = 2, ---@type Enum
 }

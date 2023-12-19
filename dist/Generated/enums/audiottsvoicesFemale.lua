@@ -3,11 +3,11 @@
 
 ---@enum audiottsvoicesFemale
 audiottsvoicesFemale = {
-    ["Olivia"] = 7,
-    ["Emily"] = 8,
-    ["Jessica"] = 9,
-    ["Sophie"] = 10,
-    ["Elizabeth"] = 11,
-    ["Carolina"] = 12,
-    ["Sarah"] = 13
+    ["Olivia"] = 7, ---@type Enum
+    ["Emily"] = 8, ---@type Enum
+    ["Jessica"] = 9, ---@type Enum
+    ["Sophie"] = 10, ---@type Enum
+    ["Elizabeth"] = 11, ---@type Enum
+    ["Carolina"] = 12, ---@type Enum
+    ["Sarah"] = 13, ---@type Enum
 }

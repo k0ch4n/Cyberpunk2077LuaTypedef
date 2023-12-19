@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPlayVoiceset_NodeType: questIVoicesetManager_NodeType
----@field public params questPlayVoiceset_NodeTypeParams[]
+---@field public ["params"] questPlayVoiceset_NodeTypeParams[]
 questPlayVoiceset_NodeType = {}
 
 ---@param fields? table

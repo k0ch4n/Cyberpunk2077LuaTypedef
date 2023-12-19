@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VendingMachineSetup
----@field public timeToCompletePurchase Float
+---@field public ["timeToCompletePurchase"] Float
 VendingMachineSetup = {}
 
 ---@param fields? table

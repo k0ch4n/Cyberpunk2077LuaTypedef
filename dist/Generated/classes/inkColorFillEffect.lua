@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkColorFillEffect: inkIEffect
----@field public colorR Float
----@field public colorG Float
----@field public colorB Float
----@field public colorA Float
----@field public saturation Float
+---@field public ["colorR"] Float
+---@field public ["colorG"] Float
+---@field public ["colorB"] Float
+---@field public ["colorA"] Float
+---@field public ["saturation"] Float
 inkColorFillEffect = {}
 
 ---@param fields? table

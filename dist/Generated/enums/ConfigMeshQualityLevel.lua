@@ -3,7 +3,7 @@
 
 ---@enum ConfigMeshQualityLevel
 ConfigMeshQualityLevel = {
-    ["Default"] = 0,
-    ["Console"] = 1,
-    ["Console_XboxSeriesS"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Console"] = 1, ---@type Enum
+    ["Console_XboxSeriesS"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestMapPinBase: gameJournalContainerEntry
----@field public enableGPS Bool
+---@field public ["enableGPS"] Bool
 gameJournalQuestMapPinBase = {}
 
 ---@return String

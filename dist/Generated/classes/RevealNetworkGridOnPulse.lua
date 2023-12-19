@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RevealNetworkGridOnPulse: redEvent
----@field public duration Float
----@field public revealSlave Bool
----@field public revealMaster Bool
+---@field public ["duration"] Float
+---@field public ["revealSlave"] Bool
+---@field public ["revealMaster"] Bool
 RevealNetworkGridOnPulse = {}
 
 ---@param fields? table

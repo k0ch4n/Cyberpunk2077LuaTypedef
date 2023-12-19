@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAttachmentSlotsScriptCallback: IScriptable
----@field public slotID TweakDBID
----@field public itemID gameItemID
+---@field public ["slotID"] TweakDBID
+---@field public ["itemID"] gameItemID
 gameAttachmentSlotsScriptCallback = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TerminalSystemCustomData: WidgetCustomData
----@field public connectedDevices Int32
+---@field public ["connectedDevices"] Int32
 TerminalSystemCustomData = {}
 
 ---@param fields? table

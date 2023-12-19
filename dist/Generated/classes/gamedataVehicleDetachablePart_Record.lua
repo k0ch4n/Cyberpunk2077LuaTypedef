@@ -11,7 +11,7 @@ function gamedataVehicleDetachablePart_Record.new(fields) return end
 ---@return CName[]
 function gamedataVehicleDetachablePart_Record:Components() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleDetachablePart_Record:ComponentsContains(item) return end
 

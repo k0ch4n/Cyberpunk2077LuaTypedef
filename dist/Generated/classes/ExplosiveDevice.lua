@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class ExplosiveDevice: BasicDistractionDevice
----@field protected numberOfComponentsToON Int32
----@field protected numberOfComponentsToOFF Int32
----@field protected indexesOfComponentsToOFF Int32[]
----@field protected shouldDistractionEnableCollider Bool
----@field protected shouldDistractionVFXstay Bool
----@field protected loopAudioEvent CName
----@field protected spawnedFxInstancesToKill gameFxInstance[]
----@field public mesh entMeshComponent
----@field public collider entIPlacedComponent
----@field public distractionCollider entIPlacedComponent
----@field private numberOfReceivedHits Int32
----@field private devicePenetrationHealth Float
----@field private killedByExplosion Bool
----@field private distractionTimeStart Float
----@field private isBroadcastingEnvironmentalHazardStim Bool
----@field private explodedByQuickhack Bool
----@field private switchAppearanceOnExplosion Bool
----@field private explodedAppearanceName CName
----@field private componentsON entIPlacedComponent[]
----@field private componentsOFF entIPlacedComponent[]
+---@field protected ["numberOfComponentsToON"] Int32
+---@field protected ["numberOfComponentsToOFF"] Int32
+---@field protected ["indexesOfComponentsToOFF"] Int32[]
+---@field protected ["shouldDistractionEnableCollider"] Bool
+---@field protected ["shouldDistractionVFXstay"] Bool
+---@field protected ["loopAudioEvent"] CName
+---@field protected ["spawnedFxInstancesToKill"] gameFxInstance[]
+---@field public ["mesh"] entMeshComponent
+---@field public ["collider"] entIPlacedComponent
+---@field public ["distractionCollider"] entIPlacedComponent
+---@field private ["numberOfReceivedHits"] Int32
+---@field private ["devicePenetrationHealth"] Float
+---@field private ["killedByExplosion"] Bool
+---@field private ["distractionTimeStart"] Float
+---@field private ["isBroadcastingEnvironmentalHazardStim"] Bool
+---@field private ["explodedByQuickhack"] Bool
+---@field private ["switchAppearanceOnExplosion"] Bool
+---@field private ["explodedAppearanceName"] CName
+---@field private ["componentsON"] entIPlacedComponent[]
+---@field private ["componentsOFF"] entIPlacedComponent[]
 ExplosiveDevice = {}
 
 ---@param fields? table
@@ -218,7 +218,7 @@ function ExplosiveDevice:SendSwapMeshDelayedEvent(delay) return end
 function ExplosiveDevice:SpawnVFXs(fx, newPosition, hitDirection) return end
 
 ---@private
----@param fxEventName CName[]
+---@param fxEventName CName[]|string[]
 ---@return Bool
 function ExplosiveDevice:SpawnVFXs(fxEventName) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceTrap: ActivatedDeviceTransfromAnim
----@field protected areaComponent gameStaticTriggerAreaComponent
+---@field protected ["areaComponent"] gameStaticTriggerAreaComponent
 ActivatedDeviceTrap = {}
 
 ---@param fields? table

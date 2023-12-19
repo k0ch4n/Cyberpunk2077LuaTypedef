@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SocialPanelContactsList: inkWidgetLogicController
----@field private ListItemName CName
----@field private ItemsRoot inkBasePanelWidgetReference
----@field private ItemsList SocialPanelContactsListItem[]
----@field private CurrentContactHash Int32
----@field private LastClickedContact gameJournalContact
+---@field private ["ListItemName"] CName
+---@field private ["ItemsRoot"] inkBasePanelWidgetReference
+---@field private ["ItemsList"] SocialPanelContactsListItem[]
+---@field private ["CurrentContactHash"] Int32
+---@field private ["LastClickedContact"] gameJournalContact
 SocialPanelContactsList = {}
 
 ---@param fields? table

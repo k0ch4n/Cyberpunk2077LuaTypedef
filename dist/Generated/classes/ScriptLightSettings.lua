@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScriptLightSettings
----@field public strength Float
----@field public color Color
+---@field public ["strength"] Float
+---@field public ["color"] Color
 ScriptLightSettings = {}
 
 ---@param fields? table

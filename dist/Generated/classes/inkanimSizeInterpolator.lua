@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimSizeInterpolator: inkanimInterpolator
----@field public startValue Vector2
----@field public endValue Vector2
+---@field public ["startValue"] Vector2
+---@field public ["endValue"] Vector2
 inkanimSizeInterpolator = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum questJournalSizeEventType
 questJournalSizeEventType = {
-    ["Maximize"] = 0,
-    ["Minimize"] = 1
+    ["Maximize"] = 0, ---@type Enum
+    ["Minimize"] = 1, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum gameInventoryItemShape
 gameInventoryItemShape = {
-    ["SingleSlot"] = 0,
-    ["DoubleSlot"] = 1
+    ["SingleSlot"] = 0, ---@type Enum
+    ["DoubleSlot"] = 1, ---@type Enum
 }

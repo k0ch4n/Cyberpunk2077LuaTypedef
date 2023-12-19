@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_RadialHubMenu: MenuScenario_BaseMenu
----@field public hubMenuInitData HubMenuInitData
----@field public currentState inkMenusState
----@field public combatRestriction Bool
----@field public hubMenuInstanceID Uint32
+---@field public ["hubMenuInitData"] HubMenuInitData
+---@field public ["currentState"] inkMenusState
+---@field public ["combatRestriction"] Bool
+---@field public ["hubMenuInstanceID"] Uint32
 MenuScenario_RadialHubMenu = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function MenuScenario_RadialHubMenu:OnCloseHubMenu() return end
 function MenuScenario_RadialHubMenu:OnCloseHubMenuRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_RadialHubMenu:OnEnterScenario(prevScenario, userData) return end
@@ -51,7 +51,7 @@ function MenuScenario_RadialHubMenu:OnHotkeySwitchToPerks() return end
 function MenuScenario_RadialHubMenu:OnNetworkBreachBegin() return end
 
 ---@protected
----@param menuName CName
+---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return Bool
 function MenuScenario_RadialHubMenu:OnOpenMenu(menuName, userData) return end
@@ -76,6 +76,6 @@ function MenuScenario_RadialHubMenu:GetMenuName() return end
 ---@return nil
 function MenuScenario_RadialHubMenu:GotoIdleState() return end
 
----@param menuName CName
+---@param menuName CName|string
 ---@return nil
 function MenuScenario_RadialHubMenu:ToggleMenu(menuName) return end

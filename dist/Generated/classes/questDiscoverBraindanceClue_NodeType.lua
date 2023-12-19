@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDiscoverBraindanceClue_NodeType: questIUIManagerNodeType
----@field public clueName CName
+---@field public ["clueName"] CName
 questDiscoverBraindanceClue_NodeType = {}
 
 ---@param fields? table

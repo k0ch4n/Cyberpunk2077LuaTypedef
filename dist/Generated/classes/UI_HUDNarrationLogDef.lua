@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_HUDNarrationLogDef: gamebbScriptDefinition
----@field public LastEvent gamebbScriptID_Variant
+---@field public ["LastEvent"] gamebbScriptID_Variant
 UI_HUDNarrationLogDef = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionAgents: IScriptable
----@field private groupName CName
----@field private requsteredAgents SPreventionAgentData[]
+---@field private ["groupName"] CName
+---@field private ["requsteredAgents"] SPreventionAgentData[]
 PreventionAgents = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function PreventionAgents.new(fields) return end
 ---@return nil
 function PreventionAgents:AddAgent(ps) return end
 
----@param groupName CName
+---@param groupName CName|string
 ---@param ps gamePersistentState
 ---@return nil
 function PreventionAgents:CreateGroup(groupName, ps) return end

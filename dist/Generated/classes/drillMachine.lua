@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class drillMachine: gameweaponObject
----@field private rewireComponent RewireComponent
----@field private player gameObject
----@field private scanManager DrillMachineScanManager
----@field private screen_postprocess entIVisualComponent
----@field private screen_backside entIVisualComponent
----@field private isScanning Bool
----@field private isActive Bool
----@field private targetDevice gameObject
+---@field private ["rewireComponent"] RewireComponent
+---@field private ["player"] gameObject
+---@field private ["scanManager"] DrillMachineScanManager
+---@field private ["screen_postprocess"] entIVisualComponent
+---@field private ["screen_backside"] entIVisualComponent
+---@field private ["isScanning"] Bool
+---@field private ["isActive"] Bool
+---@field private ["targetDevice"] gameObject
 drillMachine = {}
 
 ---@param fields? table

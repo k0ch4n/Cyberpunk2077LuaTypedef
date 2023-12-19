@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PrimaryWeaponTypeCondition: workIScriptedCondition
----@field protected weaponType WorkspotWeaponConditionEnum
+---@field protected ["weaponType"] WorkspotWeaponConditionEnum
 PrimaryWeaponTypeCondition = {}
 
 ---@param fields? table

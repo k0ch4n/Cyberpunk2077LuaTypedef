@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTrialPeriodTimerController: inkGenericSystemNotificationLogicController
----@field public timerText inkTextWidgetReference
+---@field public ["timerText"] inkTextWidgetReference
 gameuiTrialPeriodTimerController = {}
 
 ---@param fields? table

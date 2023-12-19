@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameBinkVideoData: ISerializable
----@field public data gameBinkVideoRecord[]
+---@field public ["data"] gameBinkVideoRecord[]
 gameBinkVideoData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVehicleSummoned_ConditionType: questIVehicleConditionType
----@field public type vehicleESummonedVehicleType
+---@field public ["type"] vehicleESummonedVehicleType
 questVehicleSummoned_ConditionType = {}
 
 ---@param fields? table

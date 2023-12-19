@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProcessVendettaAchievementEvent: redEvent
----@field public deathInstigator gameObject
+---@field public ["deathInstigator"] gameObject
 ProcessVendettaAchievementEvent = {}
 
 ---@param fields? table

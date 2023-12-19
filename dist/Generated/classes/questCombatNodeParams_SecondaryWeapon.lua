@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCombatNodeParams_SecondaryWeapon: questCombatNodeParams
----@field public unEquip Bool
+---@field public ["unEquip"] Bool
 questCombatNodeParams_SecondaryWeapon = {}
 
 ---@param fields? table

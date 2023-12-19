@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetRagdollComponentStateEffector: gameEffector
----@field public state Bool
+---@field public ["state"] Bool
 SetRagdollComponentStateEffector = {}
 
 ---@param fields? table

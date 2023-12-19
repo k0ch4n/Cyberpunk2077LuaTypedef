@@ -3,6 +3,6 @@
 
 ---@enum MountType
 MountType = {
-    ["Hijack"] = 0,
-    ["Regular"] = 1
+    ["Hijack"] = 0, ---@type Enum
+    ["Regular"] = 1, ---@type Enum
 }

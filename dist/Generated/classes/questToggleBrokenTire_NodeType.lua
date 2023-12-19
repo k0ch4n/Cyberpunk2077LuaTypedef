@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questToggleBrokenTire_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public val Bool
----@field public tire Uint32
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["val"] Bool
+---@field public ["tire"] Uint32
 questToggleBrokenTire_NodeType = {}
 
 ---@param fields? table

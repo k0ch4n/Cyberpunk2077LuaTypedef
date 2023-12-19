@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StatPoolSpentPrereqListener: BaseStatPoolPrereqListener
----@field protected state StatPoolSpentPrereqState
----@field protected overallSpentValue Float
+---@field protected ["state"] StatPoolSpentPrereqState
+---@field protected ["overallSpentValue"] Float
 StatPoolSpentPrereqListener = {}
 
 ---@param fields? table

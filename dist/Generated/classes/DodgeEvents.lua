@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class DodgeEvents: LocomotionGroundEvents
----@field public blockStatFlag gameStatModifierData_Deprecated
----@field public dashDecelerationModifier gameStatModifierData_Deprecated
----@field public airDashDecelerationModifier gameStatModifierData_Deprecated
----@field public currentNumberOfJumps Int32
----@field public pressureWaveCreated Bool
----@field public crouching Bool
----@field public enteredFromSlide Bool
----@field public isAirDashSaveLockTriggered Bool
+---@field public ["blockStatFlag"] gameStatModifierData_Deprecated
+---@field public ["dashDecelerationModifier"] gameStatModifierData_Deprecated
+---@field public ["airDashDecelerationModifier"] gameStatModifierData_Deprecated
+---@field public ["currentNumberOfJumps"] Int32
+---@field public ["pressureWaveCreated"] Bool
+---@field public ["crouching"] Bool
+---@field public ["enteredFromSlide"] Bool
+---@field public ["isAirDashSaveLockTriggered"] Bool
 DodgeEvents = {}
 
 ---@param fields? table

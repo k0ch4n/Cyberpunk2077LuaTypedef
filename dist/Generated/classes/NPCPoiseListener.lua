@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCPoiseListener: gameScriptStatPoolsListener
----@field public npc NPCPuppet
+---@field public ["npc"] NPCPuppet
 NPCPoiseListener = {}
 
 ---@param fields? table

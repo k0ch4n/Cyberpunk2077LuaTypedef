@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkPhaseAnim: animAnimNode_SkAnim
----@field public phase CName
+---@field public ["phase"] CName
 animAnimNode_SkPhaseAnim = {}
 
 ---@param fields? table

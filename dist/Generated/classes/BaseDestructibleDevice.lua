@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BaseDestructibleDevice: Device
----@field protected minTime Float
----@field protected maxTime Float
----@field protected destroyedMesh entPhysicalMeshComponent
+---@field protected ["minTime"] Float
+---@field protected ["maxTime"] Float
+---@field protected ["destroyedMesh"] entPhysicalMeshComponent
 BaseDestructibleDevice = {}
 
 ---@param fields? table

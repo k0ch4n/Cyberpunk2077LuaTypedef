@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShardEntrySelectedEvent: redEvent
----@field public hash Uint32
+---@field public ["hash"] Uint32
 ShardEntrySelectedEvent = {}
 
 ---@param fields? table

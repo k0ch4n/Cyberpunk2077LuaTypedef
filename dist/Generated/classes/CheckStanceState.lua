@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckStanceState: AINPCStanceStateCheck
----@field public state gamedataNPCStanceState
+---@field public ["state"] gamedataNPCStanceState
 CheckStanceState = {}
 
 ---@param fields? table

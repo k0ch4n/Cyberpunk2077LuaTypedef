@@ -3,7 +3,7 @@
 
 ---@enum LifetimeStatus
 LifetimeStatus = {
-    ["Base"] = 0,
-    ["Near"] = 1,
-    ["Disengaging"] = 2
+    ["Base"] = 0, ---@type Enum
+    ["Near"] = 1, ---@type Enum
+    ["Disengaging"] = 2, ---@type Enum
 }

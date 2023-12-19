@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class QuestTrackerObjectiveLogicController: inkWidgetLogicController
----@field private objectiveTitle inkTextWidgetReference
----@field private trackingIcon inkWidgetReference
----@field private trackingFrame inkWidgetReference
----@field private objectiveEntry gameJournalQuestObjective
----@field private AnimProxy inkanimProxy
----@field private IntroAnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private readyToRemove Bool
+---@field private ["objectiveTitle"] inkTextWidgetReference
+---@field private ["trackingIcon"] inkWidgetReference
+---@field private ["trackingFrame"] inkWidgetReference
+---@field private ["objectiveEntry"] gameJournalQuestObjective
+---@field private ["AnimProxy"] inkanimProxy
+---@field private ["IntroAnimProxy"] inkanimProxy
+---@field private ["AnimOptions"] inkanimPlaybackOptions
+---@field private ["readyToRemove"] Bool
 QuestTrackerObjectiveLogicController = {}
 
 ---@param fields? table
@@ -63,10 +63,10 @@ function QuestTrackerObjectiveLogicController:SetFailed() return end
 function QuestTrackerObjectiveLogicController:SetFinished() return end
 
 ---@private
----@param state CName
+---@param state CName|string
 ---@return nil
 function QuestTrackerObjectiveLogicController:SetObjectiveState(state) return end
 
----@param state CName
+---@param state CName|string
 ---@return nil
 function QuestTrackerObjectiveLogicController:SetState(state) return end

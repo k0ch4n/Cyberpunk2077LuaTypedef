@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIMovementTypeSpec
----@field public useNPCMovementParams Bool
----@field public movementType moveMovementType
+---@field public ["useNPCMovementParams"] Bool
+---@field public ["movementType"] moveMovementType
 AIMovementTypeSpec = {}
 
 ---@param fields? table

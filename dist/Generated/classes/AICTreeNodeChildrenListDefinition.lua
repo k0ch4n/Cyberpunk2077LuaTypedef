@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeChildrenListDefinition: AICTreeNodeCompositeDefinition
----@field public children LibTreeINodeDefinition[]
+---@field public ["children"] LibTreeINodeDefinition[]
 AICTreeNodeChildrenListDefinition = {}
 
 ---@param fields? table

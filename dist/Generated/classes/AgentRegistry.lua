@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AgentRegistry: IScriptable
----@field protected isInitialized Bool
----@field protected agents Agent[]
----@field public agentsLock ScriptReentrantRWLock
----@field public maxReprimandsPerNPC Int32
----@field public maxReprimandsPerDEVICE Int32
+---@field protected ["isInitialized"] Bool
+---@field protected ["agents"] Agent[]
+---@field public ["agentsLock"] ScriptReentrantRWLock
+---@field public ["maxReprimandsPerNPC"] Int32
+---@field public ["maxReprimandsPerDEVICE"] Int32
 AgentRegistry = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function AgentRegistry.Construct() return end
 ---@return nil
 function AgentRegistry:AddArea(area, agents) return end
 
----@param newGroup CName
+---@param newGroup CName|string
 ---@return nil
 function AgentRegistry:CleanUpOnNewAttitudeGroup(newGroup) return end
 
@@ -153,7 +153,7 @@ function AgentRegistry:SaveAgent_NoLock(agent) return end
 ---@param agentID gamePersistentID
 ---@param target entEntityID
 ---@param reprimandID Int32
----@param targetAttitude CName
+---@param targetAttitude CName|string
 ---@return nil
 function AgentRegistry:StoreReprimand(agentID, target, reprimandID, targetAttitude) return end
 

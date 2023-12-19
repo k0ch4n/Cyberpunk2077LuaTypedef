@@ -11,7 +11,7 @@ function gamedataGameplayTagsPrereq_Record.new(fields) return end
 ---@return CName[]
 function gamedataGameplayTagsPrereq_Record:AllowedTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataGameplayTagsPrereq_Record:AllowedTagsContains(item) return end
 

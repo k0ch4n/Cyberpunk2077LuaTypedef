@@ -3,10 +3,10 @@
 
 ---@enum gameTelemetryDamageSituation
 gameTelemetryDamageSituation = {
-    ["Irrelevant"] = 0,
-    ["EnemyToPlayer"] = 1,
-    ["EnemyToCompanion"] = 2,
-    ["PlayerToEnemy"] = 3,
-    ["CompanionToEnemy"] = 4,
-    ["PlayerToPlayer"] = 5
+    ["Irrelevant"] = 0, ---@type Enum
+    ["EnemyToPlayer"] = 1, ---@type Enum
+    ["EnemyToCompanion"] = 2, ---@type Enum
+    ["PlayerToEnemy"] = 3, ---@type Enum
+    ["CompanionToEnemy"] = 4, ---@type Enum
+    ["PlayerToPlayer"] = 5, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum EAIRole
 EAIRole = {
-    ["None"] = 0,
-    ["Patrol"] = 1,
-    ["Follower"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Patrol"] = 1, ---@type Enum
+    ["Follower"] = 2, ---@type Enum
 }

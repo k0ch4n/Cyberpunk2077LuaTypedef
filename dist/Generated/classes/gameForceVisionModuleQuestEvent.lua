@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameForceVisionModuleQuestEvent: redEvent
----@field public moduleName CName
----@field public meshComponentNames CName[]
+---@field public ["moduleName"] CName
+---@field public ["meshComponentNames"] CName[]
 gameForceVisionModuleQuestEvent = {}
 
 ---@param fields? table

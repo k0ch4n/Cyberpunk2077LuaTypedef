@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class metroMapPlayerPositionReferences
----@field public lineNumber Uint32
----@field public positionRefWidget inkWidgetReference
+---@field public ["lineNumber"] Uint32
+---@field public ["positionRefWidget"] inkWidgetReference
 metroMapPlayerPositionReferences = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIEnemyPushedToSquad: AIAIEvent
----@field public threat entEntity
+---@field public ["threat"] entEntity
 AIEnemyPushedToSquad = {}
 
 ---@param fields? table

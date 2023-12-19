@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterInputListenerRequest: gameScriptableSystemRequest
----@field public object gameObject
+---@field public ["object"] gameObject
 RegisterInputListenerRequest = {}
 
 ---@param fields? table

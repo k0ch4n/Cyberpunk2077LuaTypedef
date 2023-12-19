@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorColorRandom: IEvaluatorColor
----@field public min Color
----@field public max Color
----@field public randomPerChannel Bool
+---@field public ["min"] Color
+---@field public ["max"] Color
+---@field public ["randomPerChannel"] Bool
 CEvaluatorColorRandom = {}
 
 ---@param fields? table

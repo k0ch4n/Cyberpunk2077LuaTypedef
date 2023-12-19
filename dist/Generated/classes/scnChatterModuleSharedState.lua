@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnChatterModuleSharedState: ISerializable
----@field public chatterHistory scnChatter[]
+---@field public ["chatterHistory"] scnChatter[]
 scnChatterModuleSharedState = {}
 
 ---@param fields? table

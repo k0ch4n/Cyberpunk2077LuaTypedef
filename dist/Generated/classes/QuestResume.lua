@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestResume: ActionBool
----@field public pauseTime Float
+---@field public ["pauseTime"] Float
 QuestResume = {}
 
 ---@param fields? table

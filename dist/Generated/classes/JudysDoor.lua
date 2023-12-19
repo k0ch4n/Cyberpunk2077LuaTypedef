@@ -2,51 +2,51 @@
 ---@diagnostic disable
 
 ---@class JudysDoor: InteractiveDevice
----@field protected animationController entAnimationControllerComponent
----@field protected triggerComponent gameStaticTriggerAreaComponent
----@field protected triggerSideOne gameStaticTriggerAreaComponent
----@field protected triggerSideTwo gameStaticTriggerAreaComponent
----@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
----@field protected strongSoloFrame entMeshComponent
----@field protected terminalNetrunner1 entMeshComponent
----@field protected terminalNetrunner2 entMeshComponent
----@field protected terminalTechie1 entMeshComponent
----@field protected terminalTechie2 entMeshComponent
----@field protected ledTechie1 gameLightComponent
----@field protected ledTechie2 gameLightComponent
----@field protected ledNetrunner1 gameLightComponent
----@field protected ledNetrunner2 gameLightComponent
----@field protected led1 gameLightComponent
----@field protected led2 gameLightComponent
----@field protected ledHandle1 gameLightComponent
----@field protected ledHandle2 gameLightComponent
----@field protected ledHandle1a gameLightComponent
----@field protected ledHandle2a gameLightComponent
----@field protected occluder entIPlacedComponent
----@field protected portalLight1 gameLightComponent
----@field protected portalLight2 gameLightComponent
----@field protected portalLight3 gameLightComponent
----@field protected portalLight4 gameLightComponent
----@field private playerBlocker entColliderComponent
----@field protected animFeatureDoor AnimFeatureDoor
----@field private isVisuallyOpened Bool
----@field protected lastDoorSide Int32
----@field protected colors LedColors
----@field protected activeSkillcheckLights gameLightComponent[]
----@field protected allActiveLights gameLightComponent[]
----@field private closingAnimationLength Float
----@field private automaticCloseDelay Float
----@field protected doorOpeningType EDoorOpeningType
----@field private forceOpeningAudioStimRange Float
----@field private openingAudioStimRange Float
----@field protected animationType EAnimationType
----@field private doorTriggerSide EDoorTriggerSide
----@field protected whoOpened gameObject
----@field private openedUsingForce Bool
----@field private illegalOpen Bool
----@field private audioForceOpen Bool
----@field private componentName CName
----@field private playerInWorkspot PlayerPuppet
+---@field protected ["animationController"] entAnimationControllerComponent
+---@field protected ["triggerComponent"] gameStaticTriggerAreaComponent
+---@field protected ["triggerSideOne"] gameStaticTriggerAreaComponent
+---@field protected ["triggerSideTwo"] gameStaticTriggerAreaComponent
+---@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
+---@field protected ["strongSoloFrame"] entMeshComponent
+---@field protected ["terminalNetrunner1"] entMeshComponent
+---@field protected ["terminalNetrunner2"] entMeshComponent
+---@field protected ["terminalTechie1"] entMeshComponent
+---@field protected ["terminalTechie2"] entMeshComponent
+---@field protected ["ledTechie1"] gameLightComponent
+---@field protected ["ledTechie2"] gameLightComponent
+---@field protected ["ledNetrunner1"] gameLightComponent
+---@field protected ["ledNetrunner2"] gameLightComponent
+---@field protected ["led1"] gameLightComponent
+---@field protected ["led2"] gameLightComponent
+---@field protected ["ledHandle1"] gameLightComponent
+---@field protected ["ledHandle2"] gameLightComponent
+---@field protected ["ledHandle1a"] gameLightComponent
+---@field protected ["ledHandle2a"] gameLightComponent
+---@field protected ["occluder"] entIPlacedComponent
+---@field protected ["portalLight1"] gameLightComponent
+---@field protected ["portalLight2"] gameLightComponent
+---@field protected ["portalLight3"] gameLightComponent
+---@field protected ["portalLight4"] gameLightComponent
+---@field private ["playerBlocker"] entColliderComponent
+---@field protected ["animFeatureDoor"] AnimFeatureDoor
+---@field private ["isVisuallyOpened"] Bool
+---@field protected ["lastDoorSide"] Int32
+---@field protected ["colors"] LedColors
+---@field protected ["activeSkillcheckLights"] gameLightComponent[]
+---@field protected ["allActiveLights"] gameLightComponent[]
+---@field private ["closingAnimationLength"] Float
+---@field private ["automaticCloseDelay"] Float
+---@field protected ["doorOpeningType"] EDoorOpeningType
+---@field private ["forceOpeningAudioStimRange"] Float
+---@field private ["openingAudioStimRange"] Float
+---@field protected ["animationType"] EAnimationType
+---@field private ["doorTriggerSide"] EDoorTriggerSide
+---@field protected ["whoOpened"] gameObject
+---@field private ["openedUsingForce"] Bool
+---@field private ["illegalOpen"] Bool
+---@field private ["audioForceOpen"] Bool
+---@field private ["componentName"] CName
+---@field private ["playerInWorkspot"] PlayerPuppet
 JudysDoor = {}
 
 ---@param fields? table
@@ -232,7 +232,7 @@ function JudysDoor:OnToggleLock(evt) return end
 function JudysDoor:OnToggleOpen(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function JudysDoor:OnWorkspotFinished(componentName) return end
 
@@ -316,8 +316,8 @@ function JudysDoor:EnablePlayerBlocker() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function JudysDoor:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

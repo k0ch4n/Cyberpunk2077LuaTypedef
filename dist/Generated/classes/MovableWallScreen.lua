@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MovableWallScreen: Door
----@field private animationLength Float
----@field private animFeature AnimFeature_SimpleDevice
+---@field private ["animationLength"] Float
+---@field private ["animFeature"] AnimFeature_SimpleDevice
 MovableWallScreen = {}
 
 ---@param fields? table
@@ -46,7 +46,7 @@ function MovableWallScreen:GetDevicePS() return end
 function MovableWallScreen:PlaySounds() return end
 
 ---@protected
----@param factName CName
+---@param factName CName|string
 ---@return nil
 function MovableWallScreen:SetQuestFact(factName) return end
 

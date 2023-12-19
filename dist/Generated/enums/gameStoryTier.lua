@@ -3,6 +3,6 @@
 
 ---@enum gameStoryTier
 gameStoryTier = {
-    ["Gameplay"] = 0,
-    ["Cinematic"] = 1
+    ["Gameplay"] = 0, ---@type Enum
+    ["Cinematic"] = 1, ---@type Enum
 }

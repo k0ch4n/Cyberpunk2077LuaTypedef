@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewBackdoorDeviceRequest: gameScriptableSystemRequest
----@field public device ScriptableDeviceComponentPS
+---@field public ["device"] ScriptableDeviceComponentPS
 NewBackdoorDeviceRequest = {}
 
 ---@param fields? table

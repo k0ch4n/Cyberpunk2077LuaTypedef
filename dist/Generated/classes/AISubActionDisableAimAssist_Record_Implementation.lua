@@ -17,7 +17,7 @@ function AISubActionDisableAimAssist_Record_Implementation.Activate(context, rec
 function AISubActionDisableAimAssist_Record_Implementation.Deactivate(context, record, duration, interrupted) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param reason? CName
+---@param reason? CName|string
 ---@return nil
 function AISubActionDisableAimAssist_Record_Implementation.DisableAimAssist(context, reason) return end
 

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DeviceMappinsContainer: IScriptable
----@field public mappins SDeviceMappinData[]
----@field public newNewFocusMappin SDeviceMappinData
----@field public useNewFocusMappin Bool
----@field private offsetValue Float
+---@field public ["mappins"] SDeviceMappinData[]
+---@field public ["newNewFocusMappin"] SDeviceMappinData
+---@field public ["useNewFocusMappin"] Bool
+---@field private ["offsetValue"] Float
 DeviceMappinsContainer = {}
 
 ---@param fields? table

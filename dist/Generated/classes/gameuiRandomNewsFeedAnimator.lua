@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiRandomNewsFeedAnimator: inkWidgetLogicController
----@field public textWidget inkTextWidgetReference
----@field public animDuration Float
+---@field public ["textWidget"] inkTextWidgetReference
+---@field public ["animDuration"] Float
 gameuiRandomNewsFeedAnimator = {}
 
 ---@param fields? table

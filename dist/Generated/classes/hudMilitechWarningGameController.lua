@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class hudMilitechWarningGameController: gameuiHUDGameController
----@field private root inkCompoundWidget
----@field private anim inkanimProxy
----@field private factListenerId Uint32
+---@field private ["root"] inkCompoundWidget
+---@field private ["anim"] inkanimProxy
+---@field private ["factListenerId"] Uint32
 hudMilitechWarningGameController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ICECounterHackEffector: gameEffector
----@field public quickhackObjectActionID TweakDBID
----@field public quickhackObjectActionRecord gamedataObjectAction_Record
+---@field public ["quickhackObjectActionID"] TweakDBID
+---@field public ["quickhackObjectActionRecord"] gamedataObjectAction_Record
 ICECounterHackEffector = {}
 
 ---@param fields? table

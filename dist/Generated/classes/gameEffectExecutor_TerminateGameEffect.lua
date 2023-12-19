@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_TerminateGameEffect: gameEffectExecutor
----@field public onlyWithPlayerInstigator Bool
+---@field public ["onlyWithPlayerInstigator"] Bool
 gameEffectExecutor_TerminateGameEffect = {}
 
 ---@param fields? table

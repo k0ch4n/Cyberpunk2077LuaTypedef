@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsTargetObjectPlayer: AIbehaviorconditionScript
----@field protected targetObject AIArgumentMapping
+---@field protected ["targetObject"] AIArgumentMapping
 IsTargetObjectPlayer = {}
 
 ---@param fields? table

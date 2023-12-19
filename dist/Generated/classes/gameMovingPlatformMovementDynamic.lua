@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformMovementDynamic: gameIMovingPlatformMovementPointToPoint
----@field public curveName CName
+---@field public ["curveName"] CName
 gameMovingPlatformMovementDynamic = {}
 
 ---@param fields? table

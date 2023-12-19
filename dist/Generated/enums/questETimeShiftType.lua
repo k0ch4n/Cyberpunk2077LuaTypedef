@@ -3,6 +3,6 @@
 
 ---@enum questETimeShiftType
 questETimeShiftType = {
-    ["ShiftByTime"] = 0,
-    ["ShiftToHour"] = 1
+    ["ShiftByTime"] = 0, ---@type Enum
+    ["ShiftToHour"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExhaustedDecisions: StaminaTransition
----@field private staminaRatioEnterCondition Float
+---@field private ["staminaRatioEnterCondition"] Float
 ExhaustedDecisions = {}
 
 ---@param fields? table

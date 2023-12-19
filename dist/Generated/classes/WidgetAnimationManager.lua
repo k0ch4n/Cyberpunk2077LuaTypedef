@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WidgetAnimationManager: IScriptable
----@field private animations SWidgetAnimationData[]
+---@field private ["animations"] SWidgetAnimationData[]
 WidgetAnimationManager = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function WidgetAnimationManager:GetAnimationCallbackName(animData, eventType) re
 ---@return SWidgetAnimationData[]
 function WidgetAnimationManager:GetAnimations() return end
 
----@param animName CName
+---@param animName CName|string
 ---@return Bool
 function WidgetAnimationManager:HasAnimation(animName) return end
 
@@ -52,7 +52,7 @@ function WidgetAnimationManager:ResolveActiveAnimDataPlaybackState(animData, req
 function WidgetAnimationManager:ResolveCallback(owner, animProxy, eventType) return end
 
 ---@param owner inkWidgetLogicController
----@param animName CName
+---@param animName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@param targetWidget? inkWidget
 ---@param playbackOptionsOverrideData? PlaybackOptionsUpdateData
@@ -60,7 +60,7 @@ function WidgetAnimationManager:ResolveCallback(owner, animProxy, eventType) ret
 function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playbackOption, targetWidget, playbackOptionsOverrideData) return end
 
 ---@param owner gameuiWidgetGameController
----@param animName CName
+---@param animName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@param targetWidget? inkWidget
 ---@param playbackOptionsOverrideData? PlaybackOptionsUpdateData
@@ -79,7 +79,7 @@ function WidgetAnimationManager:TriggerAnimations(owner) return end
 ---@return nil
 function WidgetAnimationManager:UnregisterAllCallbacks(animData) return end
 
----@param animName CName
+---@param animName CName|string
 ---@param updateData PlaybackOptionsUpdateData
 ---@return nil
 function WidgetAnimationManager:UpdateAnimationsList(animName, updateData) return end

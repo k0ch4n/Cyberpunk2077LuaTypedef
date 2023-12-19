@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactValuePrereqState: gamePrereqState
----@field public listenerID Uint32
+---@field public ["listenerID"] Uint32
 FactValuePrereqState = {}
 
 ---@param fields? table

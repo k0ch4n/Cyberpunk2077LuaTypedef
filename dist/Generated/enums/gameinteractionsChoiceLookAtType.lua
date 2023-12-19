@@ -3,7 +3,7 @@
 
 ---@enum gameinteractionsChoiceLookAtType
 gameinteractionsChoiceLookAtType = {
-    ["Root"] = 0,
-    ["Slot"] = 1,
-    ["Orb"] = 2
+    ["Root"] = 0, ---@type Enum
+    ["Slot"] = 1, ---@type Enum
+    ["Orb"] = 2, ---@type Enum
 }

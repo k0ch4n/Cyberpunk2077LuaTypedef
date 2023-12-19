@@ -59,6 +59,6 @@ function TakedownUtils.SetTargetBodyType(executionOwner, target, enable) return 
 ---@return Bool
 function TakedownUtils.ShouldForceTakedown(scriptInterface) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return ETakedownActionType
 function TakedownUtils.TakedownActionNameToEnum(actionName) return end

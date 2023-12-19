@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIDebugLogScope
----@field public index Uint32
----@field public id Uint32
+---@field public ["index"] Uint32
+---@field public ["id"] Uint32
 AIDebugLogScope = {}
 
 ---@param fields? table

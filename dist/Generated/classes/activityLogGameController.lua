@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class activityLogGameController: gameuiHUDGameController
----@field private readIndex Int32
----@field private writeIndex Int32
----@field private maxSize Int32
----@field private entries String[]
----@field private panel inkVerticalPanelWidgetReference
----@field private onNewEntries redCallbackObject
----@field private onHide redCallbackObject
+---@field private ["readIndex"] Int32
+---@field private ["writeIndex"] Int32
+---@field private ["maxSize"] Int32
+---@field private ["entries"] String[]
+---@field private ["panel"] inkVerticalPanelWidgetReference
+---@field private ["onNewEntries"] redCallbackObject
+---@field private ["onHide"] redCallbackObject
 activityLogGameController = {}
 
 ---@param fields? table

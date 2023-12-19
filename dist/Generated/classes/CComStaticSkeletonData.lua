@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CComStaticSkeletonData
----@field public entries CComStaticSkeletonDataEntry[]
+---@field public ["entries"] CComStaticSkeletonDataEntry[]
 CComStaticSkeletonData = {}
 
 ---@param fields? table

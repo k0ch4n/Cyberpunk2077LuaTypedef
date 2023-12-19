@@ -3,6 +3,6 @@
 
 ---@enum EWidgetPlacementType
 EWidgetPlacementType = {
-    ["DOCKED"] = 0,
-    ["FLOATING"] = 1
+    ["DOCKED"] = 0, ---@type Enum
+    ["FLOATING"] = 1, ---@type Enum
 }

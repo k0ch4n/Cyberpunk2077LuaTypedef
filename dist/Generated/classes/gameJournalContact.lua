@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameJournalContact: gameJournalFileEntry
----@field public name LocalizationString
----@field public avatarID TweakDBID
----@field public type gameContactType
----@field public useFlatMessageLayout Bool
----@field public isCallableDefault Bool
+---@field public ["name"] LocalizationString
+---@field public ["avatarID"] TweakDBID
+---@field public ["type"] gameContactType
+---@field public ["useFlatMessageLayout"] Bool
+---@field public ["isCallableDefault"] Bool
 gameJournalContact = {}
 
 ---@param fields? table

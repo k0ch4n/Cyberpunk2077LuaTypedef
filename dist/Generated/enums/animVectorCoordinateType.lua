@@ -3,8 +3,8 @@
 
 ---@enum animVectorCoordinateType
 animVectorCoordinateType = {
-    ["X"] = 0,
-    ["Y"] = 1,
-    ["Z"] = 2,
-    ["W"] = 3
+    ["X"] = 0, ---@type Enum
+    ["Y"] = 1, ---@type Enum
+    ["Z"] = 2, ---@type Enum
+    ["W"] = 3, ---@type Enum
 }

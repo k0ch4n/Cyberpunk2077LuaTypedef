@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemAddedInventoryCallback: gameInventoryScriptCallback
----@field public notificationQueue ItemsNotificationQueue
+---@field public ["notificationQueue"] ItemsNotificationQueue
 ItemAddedInventoryCallback = {}
 
 ---@param fields? table

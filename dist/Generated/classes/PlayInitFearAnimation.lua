@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayInitFearAnimation: AIbehaviorconditionScript
----@field public grenadePanic Bool
----@field public initialized Bool
+---@field public ["grenadePanic"] Bool
+---@field public ["initialized"] Bool
 PlayInitFearAnimation = {}
 
 ---@param fields? table

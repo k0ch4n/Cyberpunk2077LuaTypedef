@@ -3,9 +3,9 @@
 
 ---@enum EEquipmentState
 EEquipmentState = {
-    ["Unequipped"] = 0,
-    ["Equipped"] = 1,
-    ["Equipping"] = 2,
-    ["Unequipping"] = 3,
-    ["FirstEquip"] = 4
+    ["Unequipped"] = 0, ---@type Enum
+    ["Equipped"] = 1, ---@type Enum
+    ["Equipping"] = 2, ---@type Enum
+    ["Unequipping"] = 3, ---@type Enum
+    ["FirstEquip"] = 4, ---@type Enum
 }

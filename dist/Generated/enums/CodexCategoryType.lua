@@ -3,11 +3,11 @@
 
 ---@enum CodexCategoryType
 CodexCategoryType = {
-    ["All"] = 0,
-    ["Database"] = 1,
-    ["Characters"] = 2,
-    ["Locations"] = 3,
-    ["Tutorials"] = 4,
-    ["Count"] = 5,
-    ["Invalid"] = -1
+    ["All"] = 0, ---@type Enum
+    ["Database"] = 1, ---@type Enum
+    ["Characters"] = 2, ---@type Enum
+    ["Locations"] = 3, ---@type Enum
+    ["Tutorials"] = 4, ---@type Enum
+    ["Count"] = 5, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

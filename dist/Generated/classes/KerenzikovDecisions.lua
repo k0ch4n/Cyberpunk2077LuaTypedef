@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class KerenzikovDecisions: TimeDilationTransitions
----@field public statListener DefaultTransitionStatListener
----@field public activationGracePeriod Float
+---@field public ["statListener"] DefaultTransitionStatListener
+---@field public ["activationGracePeriod"] Float
 KerenzikovDecisions = {}
 
 ---@param fields? table

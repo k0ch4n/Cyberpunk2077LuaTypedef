@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetter: redEvent
----@field public key CName
+---@field public ["key"] CName
 entAnimInputSetter = {}
 
 ---@param fields? table

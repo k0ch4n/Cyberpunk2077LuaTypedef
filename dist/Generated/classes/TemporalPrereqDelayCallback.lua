@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TemporalPrereqDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field protected state TemporalPrereqState
+---@field protected ["state"] TemporalPrereqState
 TemporalPrereqDelayCallback = {}
 
 ---@param fields? table

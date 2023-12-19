@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class LevelUpNotificationQueue: gameuiGenericNotificationGameController
----@field private duration Float
----@field private levelUpBlackboard gameIBlackboard
----@field private playerLevelUpListener redCallbackObject
----@field private playerObject gameObject
----@field private combatModePSM gamePSMCombat
----@field private combatModeListener redCallbackObject
----@field private lastEspionageLevel Int32
----@field private warningBlackboard gameIBlackboard
----@field private warningBlackboardDef UI_NotificationsDef
----@field private warningMessageCallbackId redCallbackObject
+---@field private ["duration"] Float
+---@field private ["levelUpBlackboard"] gameIBlackboard
+---@field private ["playerLevelUpListener"] redCallbackObject
+---@field private ["playerObject"] gameObject
+---@field private ["combatModePSM"] gamePSMCombat
+---@field private ["combatModeListener"] redCallbackObject
+---@field private ["lastEspionageLevel"] Int32
+---@field private ["warningBlackboard"] gameIBlackboard
+---@field private ["warningBlackboardDef"] UI_NotificationsDef
+---@field private ["warningMessageCallbackId"] redCallbackObject
 LevelUpNotificationQueue = {}
 
 ---@param fields? table

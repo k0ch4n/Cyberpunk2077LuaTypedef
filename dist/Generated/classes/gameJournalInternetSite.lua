@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetSite: gameJournalFileEntry
----@field public shortName LocalizationString
----@field public mainPagePath gameJournalPath
----@field public ignoredAtDesktop Bool
----@field public textureAtlas inkTextureAtlas
----@field public texturePart CName
+---@field public ["shortName"] LocalizationString
+---@field public ["mainPagePath"] gameJournalPath
+---@field public ["ignoredAtDesktop"] Bool
+---@field public ["textureAtlas"] inkTextureAtlas
+---@field public ["texturePart"] CName
 gameJournalInternetSite = {}
 
 ---@param fields? table

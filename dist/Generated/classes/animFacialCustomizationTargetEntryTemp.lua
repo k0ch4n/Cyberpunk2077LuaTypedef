@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animFacialCustomizationTargetEntryTemp
----@field public setup animFacialSetup
----@field public targetNames CName[]
+---@field public ["setup"] animFacialSetup
+---@field public ["targetNames"] CName[]
 animFacialCustomizationTargetEntryTemp = {}
 
 ---@param fields? table

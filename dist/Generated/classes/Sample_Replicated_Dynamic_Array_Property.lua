@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Dynamic_Array_Property
----@field public property String[]
+---@field public ["property"] String[]
 Sample_Replicated_Dynamic_Array_Property = {}
 
 ---@param fields? table

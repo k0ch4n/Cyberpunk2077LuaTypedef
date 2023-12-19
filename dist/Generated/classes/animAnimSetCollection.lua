@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimSetCollection
----@field public animSets animAnimSet[]
----@field public overrideAnimSets animOverrideAnimSetRef[]
----@field public animWrapperVariables animAnimWrapperVariableDescription[]
+---@field public ["animSets"] animAnimSet[]
+---@field public ["overrideAnimSets"] animOverrideAnimSetRef[]
+---@field public ["animWrapperVariables"] animAnimWrapperVariableDescription[]
 animAnimSetCollection = {}
 
 ---@param fields? table

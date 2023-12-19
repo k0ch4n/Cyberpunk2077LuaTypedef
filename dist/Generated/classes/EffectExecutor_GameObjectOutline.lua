@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_GameObjectOutline: gameEffectExecutor_Scripted
----@field public outlineType EOutlineType
+---@field public ["outlineType"] EOutlineType
 EffectExecutor_GameObjectOutline = {}
 
 ---@param fields? table

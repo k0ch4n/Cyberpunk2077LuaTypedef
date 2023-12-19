@@ -3,10 +3,10 @@
 
 ---@enum EMovementDirection
 EMovementDirection = {
-    ["left"] = 0,
-    ["right"] = 1,
-    ["up"] = 2,
-    ["down"] = 3,
-    ["front"] = 4,
-    ["back"] = 5
+    ["left"] = 0, ---@type Enum
+    ["right"] = 1, ---@type Enum
+    ["up"] = 2, ---@type Enum
+    ["down"] = 3, ---@type Enum
+    ["front"] = 4, ---@type Enum
+    ["back"] = 5, ---@type Enum
 }

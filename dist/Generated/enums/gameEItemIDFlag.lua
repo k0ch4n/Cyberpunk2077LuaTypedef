@@ -3,5 +3,5 @@
 
 ---@enum gameEItemIDFlag
 gameEItemIDFlag = {
-    ["Preview"] = 1
+    ["Preview"] = 1, ---@type Enum
 }

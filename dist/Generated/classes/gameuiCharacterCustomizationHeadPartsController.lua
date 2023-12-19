@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationHeadPartsController: gameuiCharacterCustomizationBodyPartsController
----@field public groupName CName
+---@field public ["groupName"] CName
 gameuiCharacterCustomizationHeadPartsController = {}

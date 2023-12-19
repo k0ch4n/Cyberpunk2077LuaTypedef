@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerFaction: ScannerChunk
----@field public faction String
+---@field public ["faction"] String
 ScannerFaction = {}
 
 ---@param fields? table

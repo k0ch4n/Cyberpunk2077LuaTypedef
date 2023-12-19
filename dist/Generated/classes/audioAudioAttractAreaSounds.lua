@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAudioAttractAreaSounds: audioAudioMetadata
----@field public NPCgrunts audioDynamicEventsPerVisualTags[]
----@field public environmentSounds audioDynamicEventsWithInterval[]
+---@field public ["NPCgrunts"] audioDynamicEventsPerVisualTags[]
+---@field public ["environmentSounds"] audioDynamicEventsWithInterval[]
 audioAudioAttractAreaSounds = {}
 
 ---@param fields? table

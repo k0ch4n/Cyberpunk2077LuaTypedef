@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankScoreMultiplierHUDController: inkWidgetLogicController
----@field public scoreMultiplierBarFill inkImageWidgetReference
+---@field public ["scoreMultiplierBarFill"] inkImageWidgetReference
 gameuiarcadeTankScoreMultiplierHUDController = {}
 
 ---@param fields? table

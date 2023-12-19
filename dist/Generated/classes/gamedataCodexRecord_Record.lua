@@ -36,7 +36,7 @@ function gamedataCodexRecord_Record:RecordContentContains(item) return end
 ---@return CName[]
 function gamedataCodexRecord_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataCodexRecord_Record:TagsContains(item) return end
 

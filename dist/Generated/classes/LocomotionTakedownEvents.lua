@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LocomotionTakedownEvents: LocomotionEventsTransition
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field public ["stateMachineInitData"] LocomotionTakedownInitData
 LocomotionTakedownEvents = {}
 
 ---@param fields? table
@@ -14,8 +14,8 @@ function LocomotionTakedownEvents.new(fields) return end
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param activator gameObject
 ---@param target gameObject
----@param effectName CName
----@param effectTag CName
+---@param effectName CName|string
+---@param effectTag CName|string
 ---@return nil
 function LocomotionTakedownEvents:DefeatTarget(stateContext, scriptInterface, activator, target, effectName, effectTag) return end
 
@@ -121,7 +121,7 @@ function LocomotionTakedownEvents:OnForcedExit(stateContext, scriptInterface) re
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param owner gameObject
 ---@param target gameObject
----@param syncedAnimName CName
+---@param syncedAnimName CName|string
 ---@return nil
 function LocomotionTakedownEvents:PlayExitAnimation(scriptInterface, owner, target, syncedAnimName) return end
 
@@ -139,7 +139,7 @@ function LocomotionTakedownEvents:RequestTimeDilationActivation(stateContext, sc
 ---@param front? Bool
 ---@param left? Bool
 ---@param right? Bool
----@param action CName
+---@param action CName|string
 ---@return CName
 function LocomotionTakedownEvents:SelectAerialTakedownWorkspot(scriptInterface, owner, target, back, front, left, right, action) return end
 
@@ -153,7 +153,7 @@ function LocomotionTakedownEvents:SelectRandomSyncedAnimation(stateContext) retu
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param owner gameObject
 ---@param target gameObject
----@param action CName
+---@param action CName|string
 ---@return nil
 function LocomotionTakedownEvents:SelectSyncedAnimationAndExecuteAction(stateContext, scriptInterface, owner, target, action) return end
 

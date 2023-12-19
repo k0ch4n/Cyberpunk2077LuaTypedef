@@ -3,6 +3,6 @@
 
 ---@enum OutcomeMessage
 OutcomeMessage = {
-    ["Success"] = 0,
-    ["Failure"] = 1
+    ["Success"] = 0, ---@type Enum
+    ["Failure"] = 1, ---@type Enum
 }

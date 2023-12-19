@@ -54,31 +54,31 @@ function TimeDilationHelper.RestorePreviousIgnoreTimeDilationOnLocalPlayerZero(r
 function TimeDilationHelper.SetIgnoreTimeDilationOnLocalPlayerZero(requester, ignore) return end
 
 ---@param target gameObject
----@param reason CName
+---@param reason CName|string
 ---@param timeDilation Float
 ---@param duration? Float
----@param easeInCurve? CName
----@param easeOutCurve? CName
+---@param easeInCurve? CName|string
+---@param easeOutCurve? CName|string
 ---@return Bool
 function TimeDilationHelper.SetIndividualTimeDilation(target, reason, timeDilation, duration, easeInCurve, easeOutCurve) return end
 
 ---@param requester gameObject
----@param reason CName
+---@param reason CName|string
 ---@param timeDilation Float
 ---@param duration? Float
----@param easeInCurve CName
----@param easeOutCurve CName
+---@param easeInCurve CName|string
+---@param easeOutCurve CName|string
 ---@param allowMultipleTimeDilationSimultaneously Bool
 ---@param listener? tickScriptTimeDilationListener
 ---@return Bool
 function TimeDilationHelper.SetTimeDilation(requester, reason, timeDilation, duration, easeInCurve, easeOutCurve, allowMultipleTimeDilationSimultaneously, listener) return end
 
 ---@param requester gameObject
----@param reason CName
+---@param reason CName|string
 ---@param timeDilation Float
 ---@param duration? Float
----@param easeInCurve CName
----@param easeOutCurve CName
+---@param easeInCurve CName|string
+---@param easeOutCurve CName|string
 ---@param allowMultipleTimeDilationSimultaneously Bool
 ---@param listener? tickScriptTimeDilationListener
 ---@return Bool
@@ -92,18 +92,18 @@ function TimeDilationHelper.SetTimeDilationOnPlayer(requester, reason, timeDilat
 function TimeDilationHelper.SetTimeDilationWithProfile(requester, profileName, enable, allowMultipleTimeDilationSimultaneously) return end
 
 ---@param requester gameObject
----@param reason? CName
----@param easeOutCurve? CName
+---@param reason? CName|string
+---@param easeOutCurve? CName|string
 ---@return Bool
 function TimeDilationHelper.UnSetTimeDilation(requester, reason, easeOutCurve) return end
 
 ---@param requester gameObject
----@param reason? CName
----@param easeOutCurve? CName
+---@param reason? CName|string
+---@param easeOutCurve? CName|string
 ---@return Bool
 function TimeDilationHelper.UnSetTimeDilationOnPlayer(requester, reason, easeOutCurve) return end
 
 ---@param target gameObject
----@param easeOutCurve? CName
+---@param easeOutCurve? CName|string
 ---@return Bool
 function TimeDilationHelper.UnsetIndividualTimeDilation(target, easeOutCurve) return end

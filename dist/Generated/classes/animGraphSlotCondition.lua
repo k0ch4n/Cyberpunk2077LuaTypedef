@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animGraphSlotCondition
----@field public condition animIStaticCondition
----@field public graph animAnimGraph
+---@field public ["condition"] animIStaticCondition
+---@field public ["graph"] animAnimGraph
 animGraphSlotCondition = {}
 
 ---@param fields? table

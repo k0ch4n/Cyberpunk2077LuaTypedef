@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsMappinComponent: entIPlacedComponent
----@field public data gamemappinsMappinData
+---@field public ["data"] gamemappinsMappinData
 gamemappinsMappinComponent = {}
 
 ---@param fields? table

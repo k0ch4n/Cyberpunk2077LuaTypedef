@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePendingSubtitles
----@field public pendingSubtitles scnDialogLineData[]
+---@field public ["pendingSubtitles"] scnDialogLineData[]
 gamePendingSubtitles = {}
 
 ---@param fields? table

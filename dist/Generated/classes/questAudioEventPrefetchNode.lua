@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAudioEventPrefetchNode: questIAudioNodeType
----@field public prefetchEvents questAudioEventPrefetchStruct[]
+---@field public ["prefetchEvents"] questAudioEventPrefetchStruct[]
 questAudioEventPrefetchNode = {}
 
 ---@param fields? table

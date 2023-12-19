@@ -29,7 +29,7 @@ function UpperBodyTransition.HasRangedWeaponEquipped(executionOwner) return end
 function UpperBodyTransition.HasThrowableMeleeEqupped(executionOwner) return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function UpperBodyTransition:BreakEffectLoopOnHeldItems(scriptInterface, effectName) return end
 
@@ -62,7 +62,7 @@ function UpperBodyTransition:IsItemMeleeware(item) return end
 
 ---@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
+---@param actionName CName|string
 ---@param requestType EquipmentManipulationAction
 ---@return Bool
 function UpperBodyTransition:ProcessWeaponSlotInput(scriptInterface, actionName, requestType) return end
@@ -85,6 +85,6 @@ function UpperBodyTransition:SendDOFData(scriptInterface, dofSetting) return end
 function UpperBodyTransition:SetWeaponHolster(scriptInterface, newState) return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function UpperBodyTransition:StopEffectOnHeldItems(scriptInterface, effectName) return end

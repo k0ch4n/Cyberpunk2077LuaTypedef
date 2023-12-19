@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIShootCommand: AICombatRelatedCommand
----@field public targetOverrideNodeRef NodeRef
----@field public targetOverridePuppetRef gameEntityReference
----@field public duration Float
----@field public once Bool
+---@field public ["targetOverrideNodeRef"] NodeRef
+---@field public ["targetOverridePuppetRef"] gameEntityReference
+---@field public ["duration"] Float
+---@field public ["once"] Bool
 AIShootCommand = {}
 
 ---@param fields? table

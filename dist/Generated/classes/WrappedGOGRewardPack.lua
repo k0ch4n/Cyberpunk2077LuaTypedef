@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WrappedGOGRewardPack: IScriptable
----@field public index Uint64
----@field public data gameRewardPack
+---@field public ["index"] Uint64
+---@field public ["data"] gameRewardPack
 WrappedGOGRewardPack = {}
 
 ---@param fields? table

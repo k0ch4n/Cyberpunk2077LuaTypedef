@@ -3,9 +3,9 @@
 
 ---@enum AIUninterruptibleActionType
 AIUninterruptibleActionType = {
-    ["None"] = 0,
-    ["Default"] = 1,
-    ["EnteringCover"] = 2,
-    ["LeavingCover"] = 3,
-    ["Count"] = 4
+    ["None"] = 0, ---@type Enum
+    ["Default"] = 1, ---@type Enum
+    ["EnteringCover"] = 2, ---@type Enum
+    ["LeavingCover"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
 }

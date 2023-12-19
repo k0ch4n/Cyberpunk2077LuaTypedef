@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class ChimeraComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private ownerId entEntityID
----@field private player PlayerPuppet
----@field private statPoolSystem gameStatPoolsSystem
----@field private npcDeathCollisionComponent entSimpleColliderComponent
----@field private targetingBody gameTargetingComponent
----@field private healthListener ChimeraHealthChangeListener
----@field private defeatedOnAttach Bool
----@field private weakspotComponent gameWeakspotComponent
----@field private weakspots gameWeakspotObject[]
----@field private weakspotsInvulnerable Bool
----@field private weakspotsDelay gameDelayID
----@field private targetTrackerComponent AITargetTrackerComponent
+---@field private ["owner"] NPCPuppet
+---@field private ["ownerId"] entEntityID
+---@field private ["player"] PlayerPuppet
+---@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field private ["npcDeathCollisionComponent"] entSimpleColliderComponent
+---@field private ["targetingBody"] gameTargetingComponent
+---@field private ["healthListener"] ChimeraHealthChangeListener
+---@field private ["defeatedOnAttach"] Bool
+---@field private ["weakspotComponent"] gameWeakspotComponent
+---@field private ["weakspots"] gameWeakspotObject[]
+---@field private ["weakspotsInvulnerable"] Bool
+---@field private ["weakspotsDelay"] gameDelayID
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
 ChimeraComponent = {}
 
 ---@param fields? table

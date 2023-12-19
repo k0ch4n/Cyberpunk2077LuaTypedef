@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OpenPhoneMessageAction: GenericNotificationBaseAction
----@field public phoneSystem PhoneSystem
----@field public journalEntry gameJournalEntry
+---@field public ["phoneSystem"] PhoneSystem
+---@field public ["journalEntry"] gameJournalEntry
 OpenPhoneMessageAction = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class InventoryWeaponItemChooser: InventoryGenericItemChooser
----@field protected scopeRootContainer inkCompoundWidgetReference
----@field protected magazineRootContainer inkCompoundWidgetReference
----@field protected silencerRootContainer inkCompoundWidgetReference
----@field protected scopeContainer inkCompoundWidgetReference
----@field protected magazineContainer inkCompoundWidgetReference
----@field protected silencerContainer inkCompoundWidgetReference
----@field protected attachmentsLabel inkTextWidgetReference
----@field protected attachmentsContainer inkWidgetReference
----@field protected softwareModsLabel inkTextWidgetReference
----@field protected softwareModsPush inkWidgetReference
----@field protected softwareModsContainer inkWidgetReference
+---@field protected ["scopeRootContainer"] inkCompoundWidgetReference
+---@field protected ["magazineRootContainer"] inkCompoundWidgetReference
+---@field protected ["silencerRootContainer"] inkCompoundWidgetReference
+---@field protected ["scopeContainer"] inkCompoundWidgetReference
+---@field protected ["magazineContainer"] inkCompoundWidgetReference
+---@field protected ["silencerContainer"] inkCompoundWidgetReference
+---@field protected ["attachmentsLabel"] inkTextWidgetReference
+---@field protected ["attachmentsContainer"] inkWidgetReference
+---@field protected ["softwareModsLabel"] inkTextWidgetReference
+---@field protected ["softwareModsPush"] inkWidgetReference
+---@field protected ["softwareModsContainer"] inkWidgetReference
 InventoryWeaponItemChooser = {}
 
 ---@param fields? table

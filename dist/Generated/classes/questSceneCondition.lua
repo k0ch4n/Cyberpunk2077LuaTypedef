@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSceneCondition: questTypedCondition
----@field public type questISceneConditionType
+---@field public ["type"] questISceneConditionType
 questSceneCondition = {}
 
 ---@param fields? table

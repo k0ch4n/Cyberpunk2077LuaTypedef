@@ -3,7 +3,7 @@
 
 ---@enum ECustomCameraTarget
 ECustomCameraTarget = {
-    ["ECCTV_All"] = 0,
-    ["ECCTV_OnlyOffscreen"] = 1,
-    ["ECCTV_OnlyOnscreen"] = 2
+    ["ECCTV_All"] = 0, ---@type Enum
+    ["ECCTV_OnlyOffscreen"] = 1, ---@type Enum
+    ["ECCTV_OnlyOnscreen"] = 2, ---@type Enum
 }

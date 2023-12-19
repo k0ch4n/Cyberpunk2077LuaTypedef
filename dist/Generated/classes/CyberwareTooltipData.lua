@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CyberwareTooltipData: ATooltipData
----@field public label String
----@field public slotData CyberwareSlotTooltipData[]
+---@field public ["label"] String
+---@field public ["slotData"] CyberwareSlotTooltipData[]
 CyberwareTooltipData = {}
 
 ---@param fields? table

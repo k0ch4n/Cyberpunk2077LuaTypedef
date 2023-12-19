@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SimpleSprintHarassCondition: AIbehaviorconditionScript
----@field private initialized Bool
----@field private result Bool
+---@field private ["initialized"] Bool
+---@field private ["result"] Bool
 SimpleSprintHarassCondition = {}
 
 ---@param fields? table

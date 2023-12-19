@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIVehicleAgent: AICAgent
----@field private keepStrategyOnSearch Bool
----@field private initCmd AIVehicleCommand
+---@field private ["keepStrategyOnSearch"] Bool
+---@field private ["initCmd"] AIVehicleCommand
 AIVehicleAgent = {}
 
 ---@param fields? table
@@ -13,11 +13,11 @@ function AIVehicleAgent.new(fields) return end
 ---@return Uint32
 function AIVehicleAgent:GetReservedSeatsCount() return end
 
----@param seatName CName
+---@param seatName CName|string
 ---@return Bool
 function AIVehicleAgent:IsSeatReserved(seatName) return end
 
----@param seatName CName
+---@param seatName CName|string
 ---@return nil
 function AIVehicleAgent:ReleaseSeat(seatName) return end
 
@@ -34,14 +34,14 @@ function AIVehicleAgent:SetDrivePatrolUpdate(update) return end
 function AIVehicleAgent:SetDriveToPointAutonomousUpdate(update) return end
 
 ---@param reserver entEntityID
----@param preferredSeatName CName
+---@param preferredSeatName CName|string
 ---@return CName
 function AIVehicleAgent:TryReserveSeatOrFirstAvailable(reserver, preferredSeatName) return end
 
 ---@return AIVehicleCommand
 function AIVehicleAgent:GetInitCmd() return end
 
----@param commandClassName CName
+---@param commandClassName CName|string
 ---@return Bool
 function AIVehicleAgent:InitCommandIsA(commandClassName) return end
 

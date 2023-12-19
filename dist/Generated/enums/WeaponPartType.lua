@@ -3,7 +3,7 @@
 
 ---@enum WeaponPartType
 WeaponPartType = {
-    ["Scope"] = 0,
-    ["Magazine"] = 1,
-    ["Silencer"] = 2
+    ["Scope"] = 0, ---@type Enum
+    ["Magazine"] = 1, ---@type Enum
+    ["Silencer"] = 2, ---@type Enum
 }

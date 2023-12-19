@@ -3,7 +3,7 @@
 
 ---@enum EInputCustomKey
 EInputCustomKey = {
-    ["ICK_Pad_DigitLeftRight"] = 273,
-    ["ICK_Pad_DigitUpDown"] = 274,
-    ["ICK_Count"] = 275
+    ["ICK_Pad_DigitLeftRight"] = 273, ---@type Enum
+    ["ICK_Pad_DigitUpDown"] = 274, ---@type Enum
+    ["ICK_Count"] = 275, ---@type Enum
 }

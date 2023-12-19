@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class ShardsMenuGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private entryViewRef inkCompoundWidgetReference
----@field private virtualList inkWidgetReference
----@field private emptyPlaceholderRef inkWidgetReference
----@field private rightViewPlaceholderRef inkWidgetReference
----@field private leftBlockControllerRef inkWidgetReference
----@field private crackHint inkWidgetReference
----@field private journalManager gameJournalManager
----@field private buttonHintsController ButtonHints
----@field private entryViewController CodexEntryViewController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private listController ShardsVirtualNestedListController
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private activeData CodexListSyncData
----@field private hasNewCryptedEntries Bool
----@field private isEncryptedEntrySelected Bool
----@field private selectedData ShardEntryData
----@field private mingameBB gameIBlackboard
----@field private userDataEntry Int32
----@field private doubleInputPreventionFlag Bool
----@field private animationProxy inkanimProxy
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["entryViewRef"] inkCompoundWidgetReference
+---@field private ["virtualList"] inkWidgetReference
+---@field private ["emptyPlaceholderRef"] inkWidgetReference
+---@field private ["rightViewPlaceholderRef"] inkWidgetReference
+---@field private ["leftBlockControllerRef"] inkWidgetReference
+---@field private ["crackHint"] inkWidgetReference
+---@field private ["journalManager"] gameJournalManager
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["entryViewController"] CodexEntryViewController
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["listController"] ShardsVirtualNestedListController
+---@field private ["InventoryManager"] InventoryDataManagerV2
+---@field private ["player"] PlayerPuppet
+---@field private ["activeData"] CodexListSyncData
+---@field private ["hasNewCryptedEntries"] Bool
+---@field private ["isEncryptedEntrySelected"] Bool
+---@field private ["selectedData"] ShardEntryData
+---@field private ["mingameBB"] gameIBlackboard
+---@field private ["userDataEntry"] Int32
+---@field private ["doubleInputPreventionFlag"] Bool
+---@field private ["animationProxy"] inkanimProxy
 ShardsMenuGameController = {}
 
 ---@param fields? table
@@ -42,7 +42,7 @@ function ShardsMenuGameController:OnButtonRelease(e) return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -112,7 +112,7 @@ function ShardsMenuGameController:GetVirtualDataForCrypted(item, curShard, level
 ---@return nil
 function ShardsMenuGameController:HideNodataWarning() return end
 
----@param animName CName
+---@param animName CName|string
 ---@return nil
 function ShardsMenuGameController:PlayAnim(animName) return end
 

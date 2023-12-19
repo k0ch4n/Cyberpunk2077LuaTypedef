@@ -3,9 +3,9 @@
 
 ---@enum EAITicketStatus
 EAITicketStatus = {
-    ["Invalid"] = 0,
-    ["Evaluate"] = 1,
-    ["OrderFail"] = 2,
-    ["OrderDone"] = 3,
-    ["OrderRevoked"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["Evaluate"] = 1, ---@type Enum
+    ["OrderFail"] = 2, ---@type Enum
+    ["OrderDone"] = 3, ---@type Enum
+    ["OrderRevoked"] = 4, ---@type Enum
 }

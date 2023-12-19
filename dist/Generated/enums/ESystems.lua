@@ -3,10 +3,10 @@
 
 ---@enum ESystems
 ESystems = {
-    ["NONE"] = 0,
-    ["SecuritySystem"] = 1,
-    ["AccessPoints"] = 2,
-    ["MaintenanceSystem"] = 3,
-    ["PersonnelSystem"] = 4,
-    ["SurveillanceSystem"] = 5
+    ["NONE"] = 0, ---@type Enum
+    ["SecuritySystem"] = 1, ---@type Enum
+    ["AccessPoints"] = 2, ---@type Enum
+    ["MaintenanceSystem"] = 3, ---@type Enum
+    ["PersonnelSystem"] = 4, ---@type Enum
+    ["SurveillanceSystem"] = 5, ---@type Enum
 }

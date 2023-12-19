@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EquipItemCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public equipCommand AIEquipCommand
----@field public unequipCommand AIUnequipCommand
----@field public slotIdName TweakDBID
----@field public itemIdName TweakDBID
+---@field public ["equipCommand"] AIEquipCommand
+---@field public ["unequipCommand"] AIUnequipCommand
+---@field public ["slotIdName"] TweakDBID
+---@field public ["itemIdName"] TweakDBID
 EquipItemCommandDelegate = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterHairParameters: CMaterialParameter
----@field public hairProfile CHairProfile
+---@field public ["hairProfile"] CHairProfile
 CMaterialParameterHairParameters = {}
 
 ---@param fields? table

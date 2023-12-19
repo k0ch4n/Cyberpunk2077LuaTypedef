@@ -17,13 +17,13 @@ function gameuiICharacterCustomizationState:GetAttributes() return end
 ---@return TweakDBID
 function gameuiICharacterCustomizationState:GetLifePath() return end
 
----@param groupName CName
----@param optionName CName
+---@param groupName CName|string
+---@param optionName CName|string
 ---@param isFPP Bool
 ---@return Bool
 function gameuiICharacterCustomizationState:HasOption(groupName, optionName, isFPP) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameuiICharacterCustomizationState:HasTag(tag) return end
 

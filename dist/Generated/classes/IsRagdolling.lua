@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsRagdolling: AIbehaviorconditionScript
----@field public npc NPCPuppet
+---@field public ["npc"] NPCPuppet
 IsRagdolling = {}
 
 ---@param fields? table

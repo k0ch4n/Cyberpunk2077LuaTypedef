@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceNPC: ActivatedDeviceTransfromAnim
----@field public hasProperAnimations Bool
+---@field public ["hasProperAnimations"] Bool
 ActivatedDeviceNPC = {}
 
 ---@param fields? table
@@ -35,7 +35,7 @@ function ActivatedDeviceNPC:OnSpiderbotOrderCompletedEvent(evt) return end
 function ActivatedDeviceNPC:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function ActivatedDeviceNPC:OnWorkspotFinished(componentName) return end
 
@@ -45,9 +45,9 @@ function ActivatedDeviceNPC:DeterminGameplayRole() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
----@param typeOfEvent? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
+---@param typeOfEvent? CName|string
 ---@return nil
 function ActivatedDeviceNPC:EnterWorkspot(activator, freeCamera, componentName, deviceData, typeOfEvent) return end
 

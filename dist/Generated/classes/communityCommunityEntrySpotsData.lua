@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class communityCommunityEntrySpotsData
----@field public phasesData communityCommunityEntryPhaseSpotsData[]
----@field public entryName CName
+---@field public ["phasesData"] communityCommunityEntryPhaseSpotsData[]
+---@field public ["entryName"] CName
 communityCommunityEntrySpotsData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class IsPlayerOnGroundPrereqState: gamePrereqState
----@field public bbValue Bool
----@field public isOnGroundListener redCallbackObject
----@field public owner gameObject
+---@field public ["bbValue"] Bool
+---@field public ["isOnGroundListener"] redCallbackObject
+---@field public ["owner"] gameObject
 IsPlayerOnGroundPrereqState = {}
 
 ---@param fields? table

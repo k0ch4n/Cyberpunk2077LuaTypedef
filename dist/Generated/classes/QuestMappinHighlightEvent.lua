@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestMappinHighlightEvent: redEvent
----@field public hash Uint32
+---@field public ["hash"] Uint32
 QuestMappinHighlightEvent = {}
 
 ---@param fields? table

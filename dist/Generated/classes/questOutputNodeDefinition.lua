@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questOutputNodeDefinition: questIONodeDefinition
----@field public type questExitType
+---@field public ["type"] questExitType
 questOutputNodeDefinition = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CPOMissionDataState: IScriptable
----@field public CPOMissionDataDamagesPreset CName
----@field public compatibleDeviceName CName
----@field public ownerDecidesOnTransfer Bool
----@field public isChoiceToken Bool
----@field public choiceTokenTimeout Uint32
----@field public delayedGiveChoiceTokenEventId gameDelayID
----@field private dataDamageTextLayerId Uint32
+---@field public ["CPOMissionDataDamagesPreset"] CName
+---@field public ["compatibleDeviceName"] CName
+---@field public ["ownerDecidesOnTransfer"] Bool
+---@field public ["isChoiceToken"] Bool
+---@field public ["choiceTokenTimeout"] Uint32
+---@field public ["delayedGiveChoiceTokenEventId"] gameDelayID
+---@field private ["dataDamageTextLayerId"] Uint32
 CPOMissionDataState = {}
 
 ---@param fields? table

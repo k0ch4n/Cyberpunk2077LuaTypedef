@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class DebugNpcNameplateGameController: gameuiProjectedHUDGameController
----@field private isToggledOn Bool
----@field private uiBlackboard gameIBlackboard
----@field private bbNPCStatsInfo redCallbackObject
----@field private nameplateProjection inkScreenProjection
----@field private bufferedNPC gameObject
----@field private rootWidget inkWidget
----@field private debugText1 inkTextWidget
----@field private debugText2 inkTextWidget
+---@field private ["isToggledOn"] Bool
+---@field private ["uiBlackboard"] gameIBlackboard
+---@field private ["bbNPCStatsInfo"] redCallbackObject
+---@field private ["nameplateProjection"] inkScreenProjection
+---@field private ["bufferedNPC"] gameObject
+---@field private ["rootWidget"] inkWidget
+---@field private ["debugText1"] inkTextWidget
+---@field private ["debugText2"] inkTextWidget
 DebugNpcNameplateGameController = {}
 
 ---@param fields? table

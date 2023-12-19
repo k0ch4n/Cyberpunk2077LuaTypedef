@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsLayerActivatedPredicate: gameinteractionsIPredicateType
----@field public linkedLayersName CName
----@field public layerName CName
+---@field public ["linkedLayersName"] CName
+---@field public ["layerName"] CName
 gameinteractionsLayerActivatedPredicate = {}
 
 ---@param fields? table

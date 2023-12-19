@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SvgResource: CResource
----@field public vectorGraphicDef vgVectorGraphicDefinition
+---@field public ["vectorGraphicDef"] vgVectorGraphicDefinition
 SvgResource = {}
 
 ---@param fields? table

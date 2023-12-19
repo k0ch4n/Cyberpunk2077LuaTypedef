@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendRenderTextureBlobMemoryLayout
----@field public rowPitch Uint32
----@field public slicePitch Uint32
+---@field public ["rowPitch"] Uint32
+---@field public ["slicePitch"] Uint32
 rendRenderTextureBlobMemoryLayout = {}
 
 ---@param fields? table

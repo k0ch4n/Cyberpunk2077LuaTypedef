@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StimDeviceOperation: DeviceOperationBase
----@field public stims SStimOperationData[]
+---@field public ["stims"] SStimOperationData[]
 StimDeviceOperation = {}
 
 ---@param fields? table

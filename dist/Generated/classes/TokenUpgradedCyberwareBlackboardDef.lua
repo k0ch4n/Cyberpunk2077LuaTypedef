@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TokenUpgradedCyberwareBlackboardDef: gamebbScriptDefinition
----@field public CyberwareTypes gamebbScriptID_Variant
+---@field public ["CyberwareTypes"] gamebbScriptID_Variant
 TokenUpgradedCyberwareBlackboardDef = {}
 
 ---@param fields? table

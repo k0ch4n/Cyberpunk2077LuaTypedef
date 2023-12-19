@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DisarmComponent: gameScriptableComponent
----@field public isDisarmingOngoing Bool
----@field public owner gameObject
----@field public requester gameObject
+---@field public ["isDisarmingOngoing"] Bool
+---@field public ["owner"] gameObject
+---@field public ["requester"] gameObject
 DisarmComponent = {}
 
 ---@param fields? table

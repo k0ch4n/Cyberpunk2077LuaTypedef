@@ -3,7 +3,7 @@
 
 ---@enum CustomButtonType
 CustomButtonType = {
-    ["UnlockAllVehicles"] = 0,
-    ["ShowAllPoiMappins"] = 1,
-    ["DiscoverAllPoiMappins"] = 2
+    ["UnlockAllVehicles"] = 0, ---@type Enum
+    ["ShowAllPoiMappins"] = 1, ---@type Enum
+    ["DiscoverAllPoiMappins"] = 2, ---@type Enum
 }

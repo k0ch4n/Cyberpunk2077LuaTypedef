@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class VendorDataManager: IScriptable
----@field private VendorObject gameObject
----@field private BuyingCart VendorShoppingCartItem[]
----@field private SellingCart VendorShoppingCartItem[]
----@field private VendorID TweakDBID
----@field private VendingBlacklist EVendorMode[]
----@field private TimeToCompletePurchase Float
----@field protected UIBBEquipment UI_EquipmentDef
----@field private InventoryBBID redCallbackObject
----@field private EquipmentBBID redCallbackObject
----@field private openTime GameTime
+---@field private ["VendorObject"] gameObject
+---@field private ["BuyingCart"] VendorShoppingCartItem[]
+---@field private ["SellingCart"] VendorShoppingCartItem[]
+---@field private ["VendorID"] TweakDBID
+---@field private ["VendingBlacklist"] EVendorMode[]
+---@field private ["TimeToCompletePurchase"] Float
+---@field protected ["UIBBEquipment"] UI_EquipmentDef
+---@field private ["InventoryBBID"] redCallbackObject
+---@field private ["EquipmentBBID"] redCallbackObject
+---@field private ["openTime"] GameTime
 VendorDataManager = {}
 
 ---@param fields? table

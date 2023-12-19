@@ -3,9 +3,9 @@
 
 ---@enum EAICoverAction
 EAICoverAction = {
-    ["StepOut"] = 0,
-    ["LeanOut"] = 1,
-    ["StepUp"] = 2,
-    ["LeanOver"] = 3,
-    ["Undefined"] = 4
+    ["StepOut"] = 0, ---@type Enum
+    ["LeanOut"] = 1, ---@type Enum
+    ["StepUp"] = 2, ---@type Enum
+    ["LeanOver"] = 3, ---@type Enum
+    ["Undefined"] = 4, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum ThrowType
 ThrowType = {
-    ["Quick"] = 0,
-    ["Charge"] = 1
+    ["Quick"] = 0, ---@type Enum
+    ["Charge"] = 1, ---@type Enum
 }

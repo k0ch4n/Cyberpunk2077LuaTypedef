@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animLookAtRequestForPart
----@field public bodyPart CName
----@field public request animLookAtRequest
----@field public attachLeftHandToRightHand Int32
----@field public attachRightHandToLeftHand Int32
+---@field public ["bodyPart"] CName
+---@field public ["request"] animLookAtRequest
+---@field public ["attachLeftHandToRightHand"] Int32
+---@field public ["attachRightHandToLeftHand"] Int32
 animLookAtRequestForPart = {}
 
 ---@param fields? table

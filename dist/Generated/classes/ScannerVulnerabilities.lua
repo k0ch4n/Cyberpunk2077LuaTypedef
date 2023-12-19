@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerVulnerabilities: ScannerChunk
----@field private vulnerabilities Vulnerability[]
+---@field private ["vulnerabilities"] Vulnerability[]
 ScannerVulnerabilities = {}
 
 ---@param fields? table

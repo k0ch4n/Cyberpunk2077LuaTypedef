@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEnableVehicleSummon_NodeType: questIVehicleManagerNodeType
----@field public enable Bool
+---@field public ["enable"] Bool
 questEnableVehicleSummon_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SimpleShouldEvadeCondition: AIbehaviorconditionScript
----@field private hitReactionComponent HitReactionComponent
+---@field private ["hitReactionComponent"] HitReactionComponent
 SimpleShouldEvadeCondition = {}
 
 ---@param fields? table

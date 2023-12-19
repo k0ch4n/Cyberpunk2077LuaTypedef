@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceSystemBaseControllerPS: MasterControllerPS
----@field protected quickHacksEnabled Bool
+---@field protected ["quickHacksEnabled"] Bool
 DeviceSystemBaseControllerPS = {}
 
 ---@protected

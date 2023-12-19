@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameDamageSystem: gameIDamageSystem
----@field public previewTarget previewTargetStruct
----@field public previewLock Bool
----@field public previewRWLockTemp ScriptReentrantRWLock
+---@field public ["previewTarget"] previewTargetStruct
+---@field public ["previewLock"] Bool
+---@field public ["previewRWLockTemp"] ScriptReentrantRWLock
 gameDamageSystem = {}
 
 ---@param fields? table
 ---@return gameDamageSystem
 function gameDamageSystem.new(fields) return end
 
----@param curve CName
+---@param curve CName|string
 ---@param value Float
 ---@return Float
 function gameDamageSystem.GetDamageModFromCurve(curve, value) return end
@@ -583,7 +583,7 @@ function gameDamageSystem:SetPreviewLock(newState) return end
 function gameDamageSystem:SetPreviewTargetStruct(trackedTarget, bodyPart, hittingBreach) return end
 
 ---@private
----@param factName CName
+---@param factName CName|string
 ---@return nil
 function gameDamageSystem:SetTutorialFact(factName) return end
 

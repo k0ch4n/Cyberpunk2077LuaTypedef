@@ -3,16 +3,16 @@
 
 ---@enum animHitReactionType
 animHitReactionType = {
-    ["None"] = 0,
-    ["Twitch"] = 1,
-    ["Impact"] = 2,
-    ["Stagger"] = 3,
-    ["Pain"] = 4,
-    ["Knockdown"] = 5,
-    ["Ragdoll"] = 6,
-    ["Death"] = 7,
-    ["Block"] = 8,
-    ["GuardBreak"] = 9,
-    ["Parry"] = 10,
-    ["Bump"] = 11
+    ["None"] = 0, ---@type Enum
+    ["Twitch"] = 1, ---@type Enum
+    ["Impact"] = 2, ---@type Enum
+    ["Stagger"] = 3, ---@type Enum
+    ["Pain"] = 4, ---@type Enum
+    ["Knockdown"] = 5, ---@type Enum
+    ["Ragdoll"] = 6, ---@type Enum
+    ["Death"] = 7, ---@type Enum
+    ["Block"] = 8, ---@type Enum
+    ["GuardBreak"] = 9, ---@type Enum
+    ["Parry"] = 10, ---@type Enum
+    ["Bump"] = 11, ---@type Enum
 }

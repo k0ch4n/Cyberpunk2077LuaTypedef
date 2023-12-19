@@ -3,7 +3,7 @@
 
 ---@enum ECallbackExpressionActions
 ECallbackExpressionActions = {
-    ["SetTrue"] = 0,
-    ["SetFalse"] = 1,
-    ["Toggle"] = 2
+    ["SetTrue"] = 0, ---@type Enum
+    ["SetFalse"] = 1, ---@type Enum
+    ["Toggle"] = 2, ---@type Enum
 }

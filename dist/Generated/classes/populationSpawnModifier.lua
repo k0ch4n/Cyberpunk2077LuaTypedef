@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class populationSpawnModifier: populationModifier
----@field public spawnParameter gameObjectSpawnParameter
+---@field public ["spawnParameter"] gameObjectSpawnParameter
 populationSpawnModifier = {}
 
 ---@param fields? table

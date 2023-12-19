@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UseWorkspotCommandHandler: AICommandHandlerBase
----@field protected outMoveToWorkspot AIArgumentMapping
----@field protected outForceEntryAnimName AIArgumentMapping
----@field protected outContinueInCombat AIArgumentMapping
+---@field protected ["outMoveToWorkspot"] AIArgumentMapping
+---@field protected ["outForceEntryAnimName"] AIArgumentMapping
+---@field protected ["outContinueInCombat"] AIArgumentMapping
 UseWorkspotCommandHandler = {}
 
 ---@param fields? table

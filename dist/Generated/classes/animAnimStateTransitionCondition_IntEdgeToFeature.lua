@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_IntEdgeToFeature: animAnimStateTransitionCondition_IntEdgeFeature
----@field public toValue Int32
+---@field public ["toValue"] Int32
 animAnimStateTransitionCondition_IntEdgeToFeature = {}
 
 ---@param fields? table

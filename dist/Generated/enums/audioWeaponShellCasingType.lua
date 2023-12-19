@@ -3,7 +3,7 @@
 
 ---@enum audioWeaponShellCasingType
 audioWeaponShellCasingType = {
-    ["standard"] = 0,
-    ["large"] = 1,
-    ["cartridge"] = 2
+    ["standard"] = 0, ---@type Enum
+    ["large"] = 1, ---@type Enum
+    ["cartridge"] = 2, ---@type Enum
 }

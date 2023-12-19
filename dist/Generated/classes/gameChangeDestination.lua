@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameChangeDestination: gameActionInternalEvent
----@field public destination Vector4
+---@field public ["destination"] Vector4
 gameChangeDestination = {}
 
 ---@param fields? table

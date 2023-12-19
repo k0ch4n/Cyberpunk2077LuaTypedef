@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_Cover: animAnimFeature
----@field public coverPosition Vector4
----@field public coverDirection Vector4
----@field public coverState Int32
----@field public coverAngleToAction Float
----@field public stance Int32
----@field public behavior Int32
----@field public coverAction Int32
----@field public behaviorTime_PreAction Float
----@field public behaviorTime_Action Float
----@field public behaviorTime_PostAction Float
+---@field public ["coverPosition"] Vector4
+---@field public ["coverDirection"] Vector4
+---@field public ["coverState"] Int32
+---@field public ["coverAngleToAction"] Float
+---@field public ["stance"] Int32
+---@field public ["behavior"] Int32
+---@field public ["coverAction"] Int32
+---@field public ["behaviorTime_PreAction"] Float
+---@field public ["behaviorTime_Action"] Float
+---@field public ["behaviorTime_PostAction"] Float
 animAnimFeature_Cover = {}
 
 ---@param fields? table

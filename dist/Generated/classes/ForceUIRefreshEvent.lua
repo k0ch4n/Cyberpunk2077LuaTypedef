@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceUIRefreshEvent: redEvent
----@field public ownerID entEntityID
+---@field public ["ownerID"] entEntityID
 ForceUIRefreshEvent = {}
 
 ---@param fields? table

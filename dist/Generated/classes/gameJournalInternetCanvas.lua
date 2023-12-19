@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetCanvas: gameJournalInternetBase
----@field public isHidden Bool
+---@field public ["isHidden"] Bool
 gameJournalInternetCanvas = {}
 
 ---@param fields? table

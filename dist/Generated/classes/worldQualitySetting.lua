@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldQualitySetting
----@field public QualityLevel ConfigGraphicsQualityLevel
----@field public xEntitiesBudget Uint32
+---@field public ["QualityLevel"] ConfigGraphicsQualityLevel
+---@field public ["xEntitiesBudget"] Uint32
 worldQualitySetting = {}
 
 ---@param fields? table

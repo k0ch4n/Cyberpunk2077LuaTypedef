@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckRagdollOutOfNavmeshTask: StatusEffectTasks
----@field public outStatusArgument AIArgumentMapping
----@field public outPositionStatusArgument AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
+---@field public ["outStatusArgument"] AIArgumentMapping
+---@field public ["outPositionStatusArgument"] AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
 CheckRagdollOutOfNavmeshTask = {}
 
 ---@param fields? table

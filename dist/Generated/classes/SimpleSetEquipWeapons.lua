@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class SimpleSetEquipWeapons: AIbehaviortaskScript
----@field public primary Bool
----@field public secondary Bool
----@field private puppet ScriptedPuppet
----@field private game ScriptGameInstance
----@field private transactionSystem gameTransactionSystem
----@field private primaryItems gamedataNPCEquipmentItem_Record[]
----@field private secondaryItems gamedataNPCEquipmentItem_Record[]
----@field private initialized Bool
+---@field public ["primary"] Bool
+---@field public ["secondary"] Bool
+---@field private ["puppet"] ScriptedPuppet
+---@field private ["game"] ScriptGameInstance
+---@field private ["transactionSystem"] gameTransactionSystem
+---@field private ["primaryItems"] gamedataNPCEquipmentItem_Record[]
+---@field private ["secondaryItems"] gamedataNPCEquipmentItem_Record[]
+---@field private ["initialized"] Bool
 SimpleSetEquipWeapons = {}
 
 ---@param fields? table

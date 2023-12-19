@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectInputParameter_Bool
----@field public evaluator gameIEffectParameter_BoolEvaluator
+---@field public ["evaluator"] gameIEffectParameter_BoolEvaluator
 gameEffectInputParameter_Bool = {}
 
 ---@param fields? table

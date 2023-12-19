@@ -3,9 +3,9 @@
 
 ---@enum AIbehaviorSignalConditionModes
 AIbehaviorSignalConditionModes = {
-    ["CurrentValue"] = 0,
-    ["StartOfFrameValue"] = 1,
-    ["RisingEdge"] = 2,
-    ["FallingEdge"] = 3,
-    ["AnyEdge"] = 4
+    ["CurrentValue"] = 0, ---@type Enum
+    ["StartOfFrameValue"] = 1, ---@type Enum
+    ["RisingEdge"] = 2, ---@type Enum
+    ["FallingEdge"] = 3, ---@type Enum
+    ["AnyEdge"] = 4, ---@type Enum
 }

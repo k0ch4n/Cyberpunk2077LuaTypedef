@@ -3,6 +3,6 @@
 
 ---@enum EPingType
 EPingType = {
-    ["DIRECT"] = 0,
-    ["SPACE"] = 1
+    ["DIRECT"] = 0, ---@type Enum
+    ["SPACE"] = 1, ---@type Enum
 }

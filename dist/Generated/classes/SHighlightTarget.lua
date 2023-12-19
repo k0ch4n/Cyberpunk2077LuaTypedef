@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SHighlightTarget
----@field public targetID entEntityID
----@field public highlightType EFocusForcedHighlightType
+---@field public ["targetID"] entEntityID
+---@field public ["highlightType"] EFocusForcedHighlightType
 SHighlightTarget = {}
 
 ---@param fields? table

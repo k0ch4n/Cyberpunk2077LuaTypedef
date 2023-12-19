@@ -3,9 +3,9 @@
 
 ---@enum ActiveMode
 ActiveMode = {
-    ["UNINITIALIZED"] = 0,
-    ["CLEAR"] = 1,
-    ["SEMI"] = 2,
-    ["COMBAT"] = 3,
-    ["FOCUS"] = 4
+    ["UNINITIALIZED"] = 0, ---@type Enum
+    ["CLEAR"] = 1, ---@type Enum
+    ["SEMI"] = 2, ---@type Enum
+    ["COMBAT"] = 3, ---@type Enum
+    ["FOCUS"] = 4, ---@type Enum
 }

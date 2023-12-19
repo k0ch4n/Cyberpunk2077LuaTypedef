@@ -3,6 +3,6 @@
 
 ---@enum AIbehaviorNaryExpressionOperators
 AIbehaviorNaryExpressionOperators = {
-    ["LogicalAnd"] = 0,
-    ["LogicalOr"] = 1
+    ["LogicalAnd"] = 0, ---@type Enum
+    ["LogicalOr"] = 1, ---@type Enum
 }

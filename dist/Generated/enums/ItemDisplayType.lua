@@ -3,6 +3,6 @@
 
 ---@enum ItemDisplayType
 ItemDisplayType = {
-    ["Item"] = 0,
-    ["Weapon"] = 1
+    ["Item"] = 0, ---@type Enum
+    ["Weapon"] = 1, ---@type Enum
 }

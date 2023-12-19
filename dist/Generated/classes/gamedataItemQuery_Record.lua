@@ -34,13 +34,13 @@ function gamedataItemQuery_Record:QualityLevelModifier() return end
 ---@return CName[]
 function gamedataItemQuery_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItemQuery_Record:TagsContains(item) return end
 
 ---@return CName[]
 function gamedataItemQuery_Record:TagsToExclude() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataItemQuery_Record:TagsToExcludeContains(item) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ContactShadowsSettings: IAreaSettings
----@field public contactShadows ContactShadowsConfig
+---@field public ["contactShadows"] ContactShadowsConfig
 ContactShadowsSettings = {}
 
 ---@param fields? table

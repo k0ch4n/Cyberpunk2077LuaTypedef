@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineConsumableParameterVector: gamestateMachineActionParameterVector
----@field public consumed Bool
+---@field public ["consumed"] Bool
 gamestateMachineConsumableParameterVector = {}
 
 ---@param fields? table

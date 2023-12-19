@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsMappinParams: ISerializable
----@field public locationType scnChoiceNodeNsMappinLocation
----@field public mappinSettings TweakDBID
+---@field public ["locationType"] scnChoiceNodeNsMappinLocation
+---@field public ["mappinSettings"] TweakDBID
 scnChoiceNodeNsMappinParams = {}
 
 ---@param fields? table

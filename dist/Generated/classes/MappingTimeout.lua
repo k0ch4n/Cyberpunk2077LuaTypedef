@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MappingTimeout: AITimeoutCondition
----@field public timeoutMapping AIArgumentMapping
----@field protected timeoutValue Float
+---@field public ["timeoutMapping"] AIArgumentMapping
+---@field protected ["timeoutValue"] Float
 MappingTimeout = {}
 
 ---@param fields? table

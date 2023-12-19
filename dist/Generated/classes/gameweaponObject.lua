@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class gameweaponObject: gameItemObject
----@field public effect gameEffectSet
----@field private hasOverheat Bool
----@field private overheatEffectBlackboard worldEffectBlackboard
----@field private overheatListener OverheatStatListener
----@field private overheatDelaySent Bool
----@field private chargeEffectBlackboard worldEffectBlackboard
----@field private chargeStatListener WeaponChargeStatListener
----@field private triggerEffectName CName
----@field private meleeHitEffectBlackboard worldEffectBlackboard
----@field private meleeHitEffectValue Float
----@field private damageTypeListener DamageStatListener
----@field private trailName String
----@field private maxChargeThreshold Float
----@field private animOwner Int32
----@field private perfectChargeStarted Bool
----@field private perfectChargeReached Bool
----@field private perfectChargeShot Bool
----@field private lowAmmoEffectActive Bool
----@field private hasSecondaryTriggerMode Bool
----@field private weaponRecord gamedataWeaponItem_Record
----@field private isHeavyWeapon Bool
----@field private isMeleeWeapon Bool
----@field private isRangedWeapon Bool
----@field private isShotgunWeapon Bool
----@field private AIBlackboard gameIBlackboard
----@field private isCharged Bool
+---@field public ["effect"] gameEffectSet
+---@field private ["hasOverheat"] Bool
+---@field private ["overheatEffectBlackboard"] worldEffectBlackboard
+---@field private ["overheatListener"] OverheatStatListener
+---@field private ["overheatDelaySent"] Bool
+---@field private ["chargeEffectBlackboard"] worldEffectBlackboard
+---@field private ["chargeStatListener"] WeaponChargeStatListener
+---@field private ["triggerEffectName"] CName
+---@field private ["meleeHitEffectBlackboard"] worldEffectBlackboard
+---@field private ["meleeHitEffectValue"] Float
+---@field private ["damageTypeListener"] DamageStatListener
+---@field private ["trailName"] String
+---@field private ["maxChargeThreshold"] Float
+---@field private ["animOwner"] Int32
+---@field private ["perfectChargeStarted"] Bool
+---@field private ["perfectChargeReached"] Bool
+---@field private ["perfectChargeShot"] Bool
+---@field private ["lowAmmoEffectActive"] Bool
+---@field private ["hasSecondaryTriggerMode"] Bool
+---@field private ["weaponRecord"] gamedataWeaponItem_Record
+---@field private ["isHeavyWeapon"] Bool
+---@field private ["isMeleeWeapon"] Bool
+---@field private ["isRangedWeapon"] Bool
+---@field private ["isShotgunWeapon"] Bool
+---@field private ["AIBlackboard"] gameIBlackboard
+---@field private ["isCharged"] Bool
 gameweaponObject = {}
 
 ---@param fields? table
@@ -255,7 +255,7 @@ function gameweaponObject:AI_ShootSelfOffScreen(targetObject, ammoCost, projecti
 ---@return Bool
 function gameweaponObject:DefaultRangedAttackPackage() return end
 
----@param recordName CName
+---@param recordName CName|string
 ---@return gameIAttack
 function gameweaponObject:GetAttack(recordName) return end
 
@@ -481,7 +481,7 @@ function gameweaponObject:CheckLocked() return end
 ---@return gameIBlackboard
 function gameweaponObject:GetAIBlackboard() return end
 
----@param componentName CName
+---@param componentName CName|string
 ---@return CName
 function gameweaponObject:GetAppearanceNameFromComponent(componentName) return end
 
@@ -577,7 +577,7 @@ function gameweaponObject:OnUpdateWeaponStatsEvent(evt) return end
 
 ---@private
 ---@param self gameObject
----@param soundName CName
+---@param soundName CName|string
 ---@return nil
 function gameweaponObject:PlayMeleeSound(self, soundName) return end
 
@@ -587,12 +587,12 @@ function gameweaponObject:PlayMeleeSound() return end
 
 ---@private
 ---@param self gameObject
----@param type CName
+---@param type CName|string
 ---@return nil
 function gameweaponObject:PlayPerfectChargeEvent(self, type) return end
 
 ---@private
----@param type CName
+---@param type CName|string
 ---@return nil
 function gameweaponObject:PlayPerfectChargeUIEvent(type) return end
 
@@ -665,7 +665,7 @@ function gameweaponObject:StopCurrentMeleeTrailEffect(attackSide) return end
 
 ---@private
 ---@param self gameObject
----@param soundName CName
+---@param soundName CName|string
 ---@return nil
 function gameweaponObject:StopMeleeSound(self, soundName) return end
 
@@ -677,6 +677,6 @@ function gameweaponObject:StopMeleeSound() return end
 ---@return nil
 function gameweaponObject:UnregisterChargeStatListener() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameweaponObject:WeaponHasTag(tag) return end

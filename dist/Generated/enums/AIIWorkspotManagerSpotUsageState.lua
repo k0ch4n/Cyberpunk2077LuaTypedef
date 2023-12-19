@@ -3,7 +3,7 @@
 
 ---@enum AIIWorkspotManagerSpotUsageState
 AIIWorkspotManagerSpotUsageState = {
-    ["Reserved"] = 0,
-    ["Occupied"] = 1,
-    ["None"] = 2
+    ["Reserved"] = 0, ---@type Enum
+    ["Occupied"] = 1, ---@type Enum
+    ["None"] = 2, ---@type Enum
 }

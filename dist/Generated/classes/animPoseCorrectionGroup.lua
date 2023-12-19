@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPoseCorrectionGroup
----@field public poseCorrections animPoseCorrection
+---@field public ["poseCorrections"] animPoseCorrection
 animPoseCorrectionGroup = {}
 
 ---@param fields? table

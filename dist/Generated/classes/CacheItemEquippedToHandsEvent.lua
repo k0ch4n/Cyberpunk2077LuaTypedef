@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CacheItemEquippedToHandsEvent: redEvent
----@field public itemID gameItemID
----@field public slot TweakDBID
+---@field public ["itemID"] gameItemID
+---@field public ["slot"] TweakDBID
 CacheItemEquippedToHandsEvent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RoadBlockControllerPS: ScriptableDeviceComponentPS
----@field protected isBlocking Bool
----@field protected negateAnimState Bool
----@field protected nameForBlocking TweakDBID
----@field protected nameForUnblocking TweakDBID
+---@field protected ["isBlocking"] Bool
+---@field protected ["negateAnimState"] Bool
+---@field protected ["nameForBlocking"] TweakDBID
+---@field protected ["nameForUnblocking"] TweakDBID
 RoadBlockControllerPS = {}
 
 ---@param fields? table
@@ -48,7 +48,7 @@ function RoadBlockControllerPS:GetBackgroundTextureTweakDBID() return end
 ---@return TweakDBID
 function RoadBlockControllerPS:GetDeviceIconTweakDBID() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function RoadBlockControllerPS:GetQuestActionByName(actionName) return end
 

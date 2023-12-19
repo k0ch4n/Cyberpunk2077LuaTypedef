@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class inkGenericSystemNotificationLogicController: inkWidgetLogicController
----@field public titleTextWidget inkTextWidgetReference
----@field public descriptionTextWidget inkTextWidgetReference
----@field public additionalDataTextWidget inkTextWidgetReference
----@field public introAnimationName CName
----@field public outroAnimationName CName
----@field public confirmButton inkWidgetReference
----@field public cancelButton inkWidgetReference
----@field public DataSetByToken inkEmptyCallback
+---@field public ["titleTextWidget"] inkTextWidgetReference
+---@field public ["descriptionTextWidget"] inkTextWidgetReference
+---@field public ["additionalDataTextWidget"] inkTextWidgetReference
+---@field public ["introAnimationName"] CName
+---@field public ["outroAnimationName"] CName
+---@field public ["confirmButton"] inkWidgetReference
+---@field public ["cancelButton"] inkWidgetReference
+---@field public ["DataSetByToken"] inkEmptyCallback
 inkGenericSystemNotificationLogicController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CameraSetup
----@field public canStreamVideo Bool
+---@field public ["canStreamVideo"] Bool
 CameraSetup = {}
 
 ---@param fields? table

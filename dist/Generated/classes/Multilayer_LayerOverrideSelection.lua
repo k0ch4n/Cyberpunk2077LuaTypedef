@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Multilayer_LayerOverrideSelection
----@field public colorScale CName
----@field public normalStrength CName
----@field public roughLevelsIn CName
----@field public roughLevelsOut CName
----@field public metalLevelsIn CName
----@field public metalLevelsOut CName
+---@field public ["colorScale"] CName
+---@field public ["normalStrength"] CName
+---@field public ["roughLevelsIn"] CName
+---@field public ["roughLevelsOut"] CName
+---@field public ["metalLevelsIn"] CName
+---@field public ["metalLevelsOut"] CName
 Multilayer_LayerOverrideSelection = {}
 
 ---@param fields? table

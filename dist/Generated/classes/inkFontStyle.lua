@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkFontStyle
----@field public styleName CName
----@field public font rendFont
+---@field public ["styleName"] CName
+---@field public ["font"] rendFont
 inkFontStyle = {}
 
 ---@param fields? table

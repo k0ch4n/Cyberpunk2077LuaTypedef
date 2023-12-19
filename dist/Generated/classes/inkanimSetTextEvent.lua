@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimSetTextEvent: inkanimEvent
----@field public localizationString String
+---@field public ["localizationString"] String
 inkanimSetTextEvent = {}
 
 ---@param fields? table

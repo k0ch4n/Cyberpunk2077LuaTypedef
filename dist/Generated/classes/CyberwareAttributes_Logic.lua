@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CyberwareAttributes_Logic: inkWidgetLogicController
----@field protected textValue inkTextWidgetReference
----@field protected buttonRef inkWidgetReference
----@field protected tooltipRef inkWidgetReference
----@field protected connectorRef inkWidgetReference
+---@field protected ["textValue"] inkTextWidgetReference
+---@field protected ["buttonRef"] inkWidgetReference
+---@field protected ["tooltipRef"] inkWidgetReference
+---@field protected ["connectorRef"] inkWidgetReference
 CyberwareAttributes_Logic = {}
 
 ---@param fields? table

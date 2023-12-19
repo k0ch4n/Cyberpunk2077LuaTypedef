@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InspectableItemObject: gameItemObject
----@field public inspectableClues SInspectableClue[]
+---@field public ["inspectableClues"] SInspectableClue[]
 InspectableItemObject = {}
 
 ---@param fields? table
@@ -33,6 +33,6 @@ function InspectableItemObject:OnTakeControl(ri) return end
 ---@return nil
 function InspectableItemObject:DisplayScanButton(show) return end
 
----@param clueName CName
+---@param clueName CName|string
 ---@return Bool
 function InspectableItemObject:IsClueScanned(clueName) return end

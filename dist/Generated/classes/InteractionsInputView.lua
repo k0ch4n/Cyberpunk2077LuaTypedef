@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class InteractionsInputView: inkWidgetLogicController
----@field private TopArrowRef inkWidgetReference
----@field private BotArrowRef inkWidgetReference
----@field private InputImage inkImageWidgetReference
----@field private ShowArrows Bool
----@field private HasAbove Bool
----@field private HasBelow Bool
----@field private CurrentNum Int32
----@field private AllItemsNum Int32
----@field private DefaultInputPartName CName
+---@field private ["TopArrowRef"] inkWidgetReference
+---@field private ["BotArrowRef"] inkWidgetReference
+---@field private ["InputImage"] inkImageWidgetReference
+---@field private ["ShowArrows"] Bool
+---@field private ["HasAbove"] Bool
+---@field private ["HasBelow"] Bool
+---@field private ["CurrentNum"] Int32
+---@field private ["AllItemsNum"] Int32
+---@field private ["DefaultInputPartName"] CName
 InteractionsInputView = {}
 
 ---@param fields? table
@@ -24,7 +24,7 @@ function InteractionsInputView:RefreshView() return end
 ---@return nil
 function InteractionsInputView:ResetInputButton() return end
 
----@param inputPartName CName
+---@param inputPartName CName|string
 ---@return nil
 function InteractionsInputView:SetInputButton(inputPartName) return end
 

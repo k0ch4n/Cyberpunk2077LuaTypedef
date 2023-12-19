@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestTrackingEvent: redEvent
----@field public journalEntry gameJournalQuestObjectiveBase
----@field public objective QuestItemController
+---@field public ["journalEntry"] gameJournalQuestObjectiveBase
+---@field public ["objective"] QuestItemController
 QuestTrackingEvent = {}
 
 ---@param fields? table

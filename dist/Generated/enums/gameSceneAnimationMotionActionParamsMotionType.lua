@@ -3,6 +3,6 @@
 
 ---@enum gameSceneAnimationMotionActionParamsMotionType
 gameSceneAnimationMotionActionParamsMotionType = {
-    ["Rid"] = 0,
-    ["Anim"] = 1
+    ["Rid"] = 0, ---@type Enum
+    ["Anim"] = 1, ---@type Enum
 }

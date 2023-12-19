@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIFloatArgumentInstancePS: AIArgumentInstancePS
----@field public value Float
+---@field public ["value"] Float
 AIFloatArgumentInstancePS = {}
 
 ---@param fields? table

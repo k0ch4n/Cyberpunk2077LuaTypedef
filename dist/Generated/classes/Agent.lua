@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Agent
----@field public link DeviceLink
----@field public reprimands ReprimandData[]
----@field public supportingAgents gamePersistentID[]
----@field public areas DeviceLink[]
----@field public incomingFilter EFilterType
----@field public cachedDelayDuration Float
+---@field public ["link"] DeviceLink
+---@field public ["reprimands"] ReprimandData[]
+---@field public ["supportingAgents"] gamePersistentID[]
+---@field public ["areas"] DeviceLink[]
+---@field public ["incomingFilter"] EFilterType
+---@field public ["cachedDelayDuration"] Float
 Agent = {}
 
 ---@param fields? table
@@ -109,7 +109,7 @@ function Agent.SetIncomingFilter(self, areas) return end
 function Agent.StoreReprimand(self, reprimandData) return end
 
 ---@param self Agent
----@param attGroup CName
+---@param attGroup CName|string
 ---@param attSystem gameCAttitudeManager
 ---@return nil
 function Agent.WipeReprimand(self, attGroup, attSystem) return end

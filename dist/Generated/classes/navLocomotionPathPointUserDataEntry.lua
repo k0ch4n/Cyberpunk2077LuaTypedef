@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class navLocomotionPathPointUserDataEntry
----@field public userData navLocomotionPathPointUserData
----@field public nextUserData Uint32
+---@field public ["userData"] navLocomotionPathPointUserData
+---@field public ["nextUserData"] Uint32
 navLocomotionPathPointUserDataEntry = {}
 
 ---@param fields? table

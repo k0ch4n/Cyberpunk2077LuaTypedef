@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CLSWeatherListener: worldWeatherScriptListener
----@field private owner CityLightSystem
+---@field private ["owner"] CityLightSystem
 CLSWeatherListener = {}
 
 ---@param fields? table
@@ -22,11 +22,11 @@ function CLSWeatherListener:OnRainIntensityChanged(rainIntensity) return end
 function CLSWeatherListener:OnRainIntensityTypeChanged(rainIntensityType) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function CLSWeatherListener:TurnOffLights(reason) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function CLSWeatherListener:TurnOnLights(reason) return end

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BackpackDataView: inkScriptableDataViewWrapper
----@field private itemSortMode ItemSortMode
----@field private attachmentsList gamedataItemType[]
----@field private uiScriptableSystem UIScriptableSystem
----@field protected itemFilterType ItemFilterCategory
+---@field private ["itemSortMode"] ItemSortMode
+---@field private ["attachmentsList"] gamedataItemType[]
+---@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field protected ["itemFilterType"] ItemFilterCategory
 BackpackDataView = {}
 
 ---@param fields? table

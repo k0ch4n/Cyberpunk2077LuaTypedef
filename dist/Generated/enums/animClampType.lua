@@ -3,7 +3,7 @@
 
 ---@enum animClampType
 animClampType = {
-    ["None"] = 0,
-    ["Clamp"] = 1,
-    ["WrappedClamp"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Clamp"] = 1, ---@type Enum
+    ["WrappedClamp"] = 2, ---@type Enum
 }

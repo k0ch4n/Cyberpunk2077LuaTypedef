@@ -3,6 +3,6 @@
 
 ---@enum ERadialMode
 ERadialMode = {
-    ["ApplyOnlyActiveSlot"] = 0,
-    ["ApplyActiveSlotAndConsumables"] = 1
+    ["ApplyOnlyActiveSlot"] = 0, ---@type Enum
+    ["ApplyActiveSlotAndConsumables"] = 1, ---@type Enum
 }

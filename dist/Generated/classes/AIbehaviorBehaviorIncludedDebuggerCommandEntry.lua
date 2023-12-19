@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorBehaviorIncludedDebuggerCommandEntry
----@field public nodeId CGUID
----@field public includedBehaviorResourcePath String
+---@field public ["nodeId"] CGUID
+---@field public ["includedBehaviorResourcePath"] String
 AIbehaviorBehaviorIncludedDebuggerCommandEntry = {}
 
 ---@param fields? table

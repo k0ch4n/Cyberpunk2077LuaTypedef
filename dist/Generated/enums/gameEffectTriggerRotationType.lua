@@ -3,7 +3,7 @@
 
 ---@enum gameEffectTriggerRotationType
 gameEffectTriggerRotationType = {
-    ["None"] = 0,
-    ["AtSpawn"] = 1,
-    ["Continuous"] = 2
+    ["None"] = 0, ---@type Enum
+    ["AtSpawn"] = 1, ---@type Enum
+    ["Continuous"] = 2, ---@type Enum
 }

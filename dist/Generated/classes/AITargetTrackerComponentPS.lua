@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITargetTrackerComponentPS: gameComponentPS
----@field public threatsSaveData AIThreatSaveData[]
+---@field public ["threatsSaveData"] AIThreatSaveData[]
 AITargetTrackerComponentPS = {}
 
 ---@param fields? table

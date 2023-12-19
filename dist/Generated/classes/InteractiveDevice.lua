@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class InteractiveDevice: Device
----@field protected interaction gameinteractionsComponent
----@field protected interactionIndicator gameLightComponent
----@field protected disableAreaIndicatorID gameDelayID
----@field protected delayedUIRefreshID gameDelayID
----@field private isPlayerAround Bool
----@field protected disableAreaIndicatorDelayActive Bool
----@field private objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field private investigationData InvestigationData[]
----@field private actionRestrictionPlayerBB gameIBlackboard
----@field private actionRestrictionCallbackID redCallbackObject
+---@field protected ["interaction"] gameinteractionsComponent
+---@field protected ["interactionIndicator"] gameLightComponent
+---@field protected ["disableAreaIndicatorID"] gameDelayID
+---@field protected ["delayedUIRefreshID"] gameDelayID
+---@field private ["isPlayerAround"] Bool
+---@field protected ["disableAreaIndicatorDelayActive"] Bool
+---@field private ["objectActionsCallbackCtrl"] gameObjectActionsCallbackController
+---@field private ["investigationData"] InvestigationData[]
+---@field private ["actionRestrictionPlayerBB"] gameIBlackboard
+---@field private ["actionRestrictionCallbackID"] redCallbackObject
 InteractiveDevice = {}
 
 ---@param fields? table

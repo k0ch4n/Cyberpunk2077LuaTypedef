@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckReactionStimType: AIbehaviorconditionScript
----@field public stimToCompare gamedataStimType
+---@field public ["stimToCompare"] gamedataStimType
 CheckReactionStimType = {}
 
 ---@param fields? table

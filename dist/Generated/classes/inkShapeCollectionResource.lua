@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkShapeCollectionResource: CResource
----@field public presets inkShapePreset[]
+---@field public ["presets"] inkShapePreset[]
 inkShapeCollectionResource = {}
 
 ---@param fields? table

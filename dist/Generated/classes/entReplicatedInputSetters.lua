@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReplicatedInputSetters
----@field public serverReplicatedTime netTime
+---@field public ["serverReplicatedTime"] netTime
 entReplicatedInputSetters = {}
 
 ---@param fields? table

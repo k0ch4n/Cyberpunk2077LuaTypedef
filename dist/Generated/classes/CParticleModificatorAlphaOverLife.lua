@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorAlphaOverLife: IParticleModificator
----@field public alpha IEvaluatorFloat
----@field public modulate Bool
+---@field public ["alpha"] IEvaluatorFloat
+---@field public ["modulate"] Bool
 CParticleModificatorAlphaOverLife = {}
 
 ---@param fields? table

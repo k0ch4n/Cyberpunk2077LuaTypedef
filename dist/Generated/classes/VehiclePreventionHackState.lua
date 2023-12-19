@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class VehiclePreventionHackState: IScriptable
----@field public vehicle vehicleBaseObject
----@field public vehicleID entEntityID
----@field public progressBarProgressSoFar Float
----@field public progressBarProgressStart Float
----@field public hacked Bool
----@field public hackInProgress Bool
----@field public stoppedVehicle Bool
----@field public progressBar UploadFromNPCToPlayerListener
----@field public appliedHackSpeed EAppliedTriangulationHackSpeed
+---@field public ["vehicle"] vehicleBaseObject
+---@field public ["vehicleID"] entEntityID
+---@field public ["progressBarProgressSoFar"] Float
+---@field public ["progressBarProgressStart"] Float
+---@field public ["hacked"] Bool
+---@field public ["hackInProgress"] Bool
+---@field public ["stoppedVehicle"] Bool
+---@field public ["progressBar"] UploadFromNPCToPlayerListener
+---@field public ["appliedHackSpeed"] EAppliedTriangulationHackSpeed
 VehiclePreventionHackState = {}
 
 ---@param fields? table

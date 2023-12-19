@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gsmMainQuest: ISerializable
----@field public questFile questQuestResource
----@field public additionalContent Bool
----@field public additionalContentName CName
+---@field public ["questFile"] questQuestResource
+---@field public ["additionalContent"] Bool
+---@field public ["additionalContentName"] CName
 gsmMainQuest = {}
 
 ---@param fields? table

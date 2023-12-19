@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuDataBuilder: IScriptable
----@field public data MenuData[]
+---@field public ["data"] MenuData[]
 MenuDataBuilder = {}
 
 ---@param fields? table
@@ -13,9 +13,9 @@ function MenuDataBuilder.new(fields) return end
 function MenuDataBuilder.Make() return end
 
 ---@param identifier Int32
----@param fullscreenName CName
----@param icon CName
----@param labelKey CName
+---@param fullscreenName CName|string
+---@param icon CName|string
+---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuDataBuilder
 function MenuDataBuilder:Add(identifier, fullscreenName, icon, labelKey, userData) return end
@@ -24,8 +24,8 @@ function MenuDataBuilder:Add(identifier, fullscreenName, icon, labelKey, userDat
 ---@param data MenuData
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
----@param fullscreenName CName
----@param icon CName
+---@param fullscreenName CName|string
+---@param icon CName|string
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return MenuDataBuilder
@@ -33,8 +33,8 @@ function MenuDataBuilder:Add(data, identifier, parentIdentifier, fullscreenName,
 
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
----@param fullscreenName CName
----@param icon CName
+---@param fullscreenName CName|string
+---@param icon CName|string
 ---@param labelKey String
 ---@param userData? IScriptable
 ---@param disabled? Bool
@@ -43,9 +43,9 @@ function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon,
 
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
----@param fullscreenName CName
----@param icon CName
----@param labelName CName
+---@param fullscreenName CName|string
+---@param icon CName|string
+---@param labelName CName|string
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return MenuDataBuilder
@@ -53,17 +53,17 @@ function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon,
 
 ---@param condition Bool
 ---@param identifier Int32
----@param fullscreenName CName
----@param icon CName
----@param labelKey CName
+---@param fullscreenName CName|string
+---@param icon CName|string
+---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuDataBuilder
 function MenuDataBuilder:AddIf(condition, identifier, fullscreenName, icon, labelKey, userData) return end
 
 ---@param identifier Int32
----@param fullscreenName CName
----@param icon CName
----@param labelKey CName
+---@param fullscreenName CName|string
+---@param icon CName|string
+---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return SubmenuDataBuilder
@@ -76,7 +76,7 @@ function MenuDataBuilder:Get() return end
 ---@return MenuData
 function MenuDataBuilder:GetData(identifier) return end
 
----@param fullscreenName CName
+---@param fullscreenName CName|string
 ---@return MenuData
 function MenuDataBuilder:GetData(fullscreenName) return end
 

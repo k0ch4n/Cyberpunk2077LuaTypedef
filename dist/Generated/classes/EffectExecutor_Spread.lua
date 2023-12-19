@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_Spread: gameEffectExecutor_Scripted
----@field public objectActionRecord gamedataObjectAction_Record
----@field public prevEntity entEntity
----@field public player PlayerPuppet
----@field public spreadToAllTargetsInTheArea Bool
+---@field public ["objectActionRecord"] gamedataObjectAction_Record
+---@field public ["prevEntity"] entEntity
+---@field public ["player"] PlayerPuppet
+---@field public ["spreadToAllTargetsInTheArea"] Bool
 EffectExecutor_Spread = {}
 
 ---@param fields? table

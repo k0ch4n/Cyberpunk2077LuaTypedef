@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetCustomStyle_NodeType: questIPhoneManagerNodeType
----@field public style questCustomStyle
----@field public isActive Bool
+---@field public ["style"] questCustomStyle
+---@field public ["isActive"] Bool
 questSetCustomStyle_NodeType = {}
 
 ---@param fields? table

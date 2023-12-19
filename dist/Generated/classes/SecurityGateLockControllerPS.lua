@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecurityGateLockControllerPS: ScriptableDeviceComponentPS
----@field public tresspasserList TrespasserEntry[]
----@field public entranceToken entEntityID
----@field public isLeaving Bool
----@field public isLocked Bool
+---@field public ["tresspasserList"] TrespasserEntry[]
+---@field public ["entranceToken"] entEntityID
+---@field public ["isLeaving"] Bool
+---@field public ["isLocked"] Bool
 SecurityGateLockControllerPS = {}
 
 ---@param fields? table
@@ -14,7 +14,7 @@ function SecurityGateLockControllerPS.new(fields) return end
 
 ---@private
 ---@param trespasser ScriptedPuppet
----@param areaName CName
+---@param areaName CName|string
 ---@return nil
 function SecurityGateLockControllerPS:AddTrespasserEntry(trespasser, areaName) return end
 
@@ -70,7 +70,7 @@ function SecurityGateLockControllerPS:UpdateGatePosition() return end
 ---@private
 ---@param index Int32
 ---@param isEntering Bool
----@param areaName CName
+---@param areaName CName|string
 ---@return nil
 function SecurityGateLockControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) return end
 

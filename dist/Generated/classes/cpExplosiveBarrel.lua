@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class cpExplosiveBarrel: gameDestructibleObject
----@field public colliderComponentName CName
----@field public destructionComponentName CName
+---@field public ["colliderComponentName"] CName
+---@field public ["destructionComponentName"] CName
 cpExplosiveBarrel = {}
 
 ---@param fields? table

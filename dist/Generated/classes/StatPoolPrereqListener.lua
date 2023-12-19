@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatPoolPrereqListener: BaseStatPoolPrereqListener
----@field protected state StatPoolPrereqState
+---@field protected ["state"] StatPoolPrereqState
 StatPoolPrereqListener = {}
 
 ---@param fields? table

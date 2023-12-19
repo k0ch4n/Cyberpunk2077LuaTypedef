@@ -3,6 +3,6 @@
 
 ---@enum animAimState
 animAimState = {
-    ["Unaimed"] = 0,
-    ["Aimed"] = 1
+    ["Unaimed"] = 0, ---@type Enum
+    ["Aimed"] = 1, ---@type Enum
 }

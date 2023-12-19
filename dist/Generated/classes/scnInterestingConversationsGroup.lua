@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnInterestingConversationsGroup: ISerializable
----@field public condition questIBaseCondition
----@field public conversations scnInterestingConversationData[]
+---@field public ["condition"] questIBaseCondition
+---@field public ["conversations"] scnInterestingConversationData[]
 scnInterestingConversationsGroup = {}
 
 ---@param fields? table

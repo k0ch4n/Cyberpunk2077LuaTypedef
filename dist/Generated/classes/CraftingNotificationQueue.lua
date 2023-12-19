@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftingNotificationQueue: gameuiGenericNotificationGameController
----@field private duration Float
+---@field private ["duration"] Float
 CraftingNotificationQueue = {}
 
 ---@param fields? table

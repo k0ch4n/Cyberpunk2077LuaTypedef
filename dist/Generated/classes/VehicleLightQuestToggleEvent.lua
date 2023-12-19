@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleLightQuestToggleEvent: redEvent
----@field public toggle Bool
----@field public lightType vehicleELightType
+---@field public ["toggle"] Bool
+---@field public ["lightType"] vehicleELightType
 VehicleLightQuestToggleEvent = {}
 
 ---@param fields? table

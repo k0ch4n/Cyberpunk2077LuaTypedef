@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkanimEffectInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
----@field public effectType inkEffectType
----@field public effectName CName
----@field public paramName CName
+---@field public ["startValue"] Float
+---@field public ["endValue"] Float
+---@field public ["effectType"] inkEffectType
+---@field public ["effectName"] CName
+---@field public ["paramName"] CName
 inkanimEffectInterpolator = {}
 
 ---@param fields? table
@@ -19,7 +19,7 @@ function inkanimEffectInterpolator:GetEndValue() return end
 ---@return Float
 function inkanimEffectInterpolator:GetStartValue() return end
 
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function inkanimEffectInterpolator:SetEffectName(effectName) return end
 
@@ -31,7 +31,7 @@ function inkanimEffectInterpolator:SetEffectType(effectType) return end
 ---@return nil
 function inkanimEffectInterpolator:SetEndValue(endValue) return end
 
----@param paramName CName
+---@param paramName CName|string
 ---@return nil
 function inkanimEffectInterpolator:SetParamName(paramName) return end
 

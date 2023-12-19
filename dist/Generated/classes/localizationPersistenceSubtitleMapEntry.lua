@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceSubtitleMapEntry
----@field public subtitleGroup CName
----@field public subtitleFile JsonResource
+---@field public ["subtitleGroup"] CName
+---@field public ["subtitleFile"] JsonResource
 localizationPersistenceSubtitleMapEntry = {}
 
 ---@param fields? table

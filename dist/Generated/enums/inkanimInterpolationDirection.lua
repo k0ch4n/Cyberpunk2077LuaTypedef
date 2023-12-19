@@ -3,7 +3,7 @@
 
 ---@enum inkanimInterpolationDirection
 inkanimInterpolationDirection = {
-    ["To"] = 0,
-    ["From"] = 1,
-    ["FromTo"] = 2
+    ["To"] = 0, ---@type Enum
+    ["From"] = 1, ---@type Enum
+    ["FromTo"] = 2, ---@type Enum
 }

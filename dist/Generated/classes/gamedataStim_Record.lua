@@ -48,7 +48,7 @@ function gamedataStim_Record:Radius() return end
 ---@return CName[]
 function gamedataStim_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStim_Record:TagsContains(item) return end
 

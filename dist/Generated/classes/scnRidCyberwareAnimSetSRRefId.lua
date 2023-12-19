@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidCyberwareAnimSetSRRefId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnRidCyberwareAnimSetSRRefId = {}
 
 ---@param fields? table

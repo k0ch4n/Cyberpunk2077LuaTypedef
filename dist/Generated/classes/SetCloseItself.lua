@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetCloseItself: redEvent
----@field public automaticallyClosesItself Bool
+---@field public ["automaticallyClosesItself"] Bool
 SetCloseItself = {}
 
 ---@param fields? table

@@ -3,9 +3,9 @@
 
 ---@enum questSceneConditionType
 questSceneConditionType = {
-    ["Undefined"] = 0,
-    ["IsInside"] = 1,
-    ["IsOutside"] = 2,
-    ["Entered"] = 3,
-    ["Exited"] = 4
+    ["Undefined"] = 0, ---@type Enum
+    ["IsInside"] = 1, ---@type Enum
+    ["IsOutside"] = 2, ---@type Enum
+    ["Entered"] = 3, ---@type Enum
+    ["Exited"] = 4, ---@type Enum
 }

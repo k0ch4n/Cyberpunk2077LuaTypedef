@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BillboardDeviceControllerPS: ScriptableDeviceComponentPS
----@field public glitchSFX CName
----@field public useLights Bool
----@field public lightsSettings EditableGameLightSettings[]
----@field public useDeviceAppearence Bool
+---@field public ["glitchSFX"] CName
+---@field public ["useLights"] Bool
+---@field public ["lightsSettings"] EditableGameLightSettings[]
+---@field public ["useDeviceAppearence"] Bool
 BillboardDeviceControllerPS = {}
 
 ---@param fields? table

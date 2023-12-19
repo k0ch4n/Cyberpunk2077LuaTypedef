@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseSimpleBox: senseIShape
----@field public box Box
+---@field public ["box"] Box
 senseSimpleBox = {}
 
 ---@param fields? table

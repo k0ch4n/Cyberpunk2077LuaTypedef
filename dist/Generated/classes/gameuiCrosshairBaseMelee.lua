@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCrosshairBaseMelee: gameuiCrosshairBaseGameController
----@field private meleeStateBlackboardId redCallbackObject
+---@field private ["meleeStateBlackboardId"] redCallbackObject
 gameuiCrosshairBaseMelee = {}
 
 ---@param fields? table

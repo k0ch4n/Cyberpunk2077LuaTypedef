@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimMultiBoolToFloatEntry
----@field public group CName
----@field public name CName
+---@field public ["group"] CName
+---@field public ["name"] CName
 animAnimMultiBoolToFloatEntry = {}
 
 ---@param fields? table

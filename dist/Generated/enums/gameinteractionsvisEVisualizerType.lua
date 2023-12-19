@@ -3,8 +3,8 @@
 
 ---@enum gameinteractionsvisEVisualizerType
 gameinteractionsvisEVisualizerType = {
-    ["Device"] = 0,
-    ["Dialog"] = 1,
-    ["Loot"] = 2,
-    ["Invalid"] = 3
+    ["Device"] = 0, ---@type Enum
+    ["Dialog"] = 1, ---@type Enum
+    ["Loot"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

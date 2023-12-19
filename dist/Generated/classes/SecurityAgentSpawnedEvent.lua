@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SecurityAgentSpawnedEvent: redEvent
----@field public spawnedAgent DeviceLink
----@field public eventType gameEntitySpawnerEventType
----@field public securityAreas SecurityAreaControllerPS[]
+---@field public ["spawnedAgent"] DeviceLink
+---@field public ["eventType"] gameEntitySpawnerEventType
+---@field public ["securityAreas"] SecurityAreaControllerPS[]
 SecurityAgentSpawnedEvent = {}
 
 ---@param fields? table

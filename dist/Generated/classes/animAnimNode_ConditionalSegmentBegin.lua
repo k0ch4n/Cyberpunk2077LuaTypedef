@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_ConditionalSegmentBegin: animAnimNode_OnePoseInput
----@field public condition animConditionalSegmentCondition
+---@field public ["condition"] animConditionalSegmentCondition
 animAnimNode_ConditionalSegmentBegin = {}
 
 ---@param fields? table

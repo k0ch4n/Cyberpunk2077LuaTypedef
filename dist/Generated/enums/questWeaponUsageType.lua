@@ -3,9 +3,9 @@
 
 ---@enum questWeaponUsageType
 questWeaponUsageType = {
-    ["Shoot"] = 0,
-    ["StopShooting"] = 1,
-    ["Reload"] = 2,
-    ["StartAttack"] = 3,
-    ["StopAttack"] = 4
+    ["Shoot"] = 0, ---@type Enum
+    ["StopShooting"] = 1, ---@type Enum
+    ["Reload"] = 2, ---@type Enum
+    ["StartAttack"] = 3, ---@type Enum
+    ["StopAttack"] = 4, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterDynamicTexture: CMaterialParameter
----@field public texture ITexture
+---@field public ["texture"] ITexture
 CMaterialParameterDynamicTexture = {}
 
 ---@param fields? table

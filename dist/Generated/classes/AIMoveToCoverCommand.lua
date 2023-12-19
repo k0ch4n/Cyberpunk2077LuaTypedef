@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIMoveToCoverCommand: AIMoveCommand
----@field public coverNodeRef NodeRef
----@field public specialAction ECoverSpecialAction
+---@field public ["coverNodeRef"] NodeRef
+---@field public ["specialAction"] ECoverSpecialAction
 AIMoveToCoverCommand = {}
 
 ---@param fields? table

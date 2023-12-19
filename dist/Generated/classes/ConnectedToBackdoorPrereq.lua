@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConnectedToBackdoorPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field public ["invert"] Bool
 ConnectedToBackdoorPrereq = {}
 
 ---@param fields? table

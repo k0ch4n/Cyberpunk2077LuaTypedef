@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animSyncMethodByEvent: animISyncMethod
----@field public eventName CName
+---@field public ["eventName"] CName
 animSyncMethodByEvent = {}
 
 ---@param fields? table

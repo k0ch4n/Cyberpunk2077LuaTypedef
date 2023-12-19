@@ -3,9 +3,9 @@
 
 ---@enum gameEPowerDifferential
 gameEPowerDifferential = {
-    ["IMPOSSIBLE"] = -6,
-    ["HARD"] = -3,
-    ["NORMAL"] = 2,
-    ["EASY"] = 4,
-    ["TRASH"] = 5
+    ["IMPOSSIBLE"] = -6, ---@type Enum
+    ["HARD"] = -3, ---@type Enum
+    ["NORMAL"] = 2, ---@type Enum
+    ["EASY"] = 4, ---@type Enum
+    ["TRASH"] = 5, ---@type Enum
 }

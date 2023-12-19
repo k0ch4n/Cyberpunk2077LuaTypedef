@@ -39,6 +39,6 @@ function AIVehicleTaskAbstract:SendAICommandToMountedVehicle(context, command) r
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param eventName CName
+---@param eventName CName|string
 ---@return Bool
 function AIVehicleTaskAbstract:SendAIEventToMountedVehicle(context, eventName) return end

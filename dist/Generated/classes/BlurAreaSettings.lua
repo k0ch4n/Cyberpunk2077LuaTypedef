@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlurAreaSettings: IAreaSettings
----@field public circularBlurRadius Float
+---@field public ["circularBlurRadius"] Float
 BlurAreaSettings = {}
 
 ---@param fields? table

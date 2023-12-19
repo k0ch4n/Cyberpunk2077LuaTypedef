@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleGlassTint: ActionBool
----@field protected TrueRecord String
----@field protected FalseRecord String
+---@field protected ["TrueRecord"] String
+---@field protected ["FalseRecord"] String
 ToggleGlassTint = {}
 
 ---@param fields? table

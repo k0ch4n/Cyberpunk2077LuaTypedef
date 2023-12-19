@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class ChattersGameController: BaseSubtitlesGameController
----@field private c_DisplayRange Float
----@field private c_CloseDisplayRange Float
----@field private c_TimeToUnblockSec Float
----@field private rootWidget inkCompoundWidget
----@field private AllControllers ChatterKeyValuePair[]
----@field private targetingSystem gametargetingTargetingSystem
----@field private broadcastBlockingLines CRUID[]
----@field private playerInDialogChoice Bool
----@field private lastBroadcastBlockingLineTime EngineTime
----@field private lastChoiceTime EngineTime
----@field private bbPSceneTierEventId redCallbackObject
----@field private sceneTier Int32
----@field private OnNameplateEntityChangedCallback redCallbackObject
----@field private OnNameplateOffsetChangedCallback redCallbackObject
----@field private OnNameplateVisibilityChangedCallback redCallbackObject
----@field private OnScannerModeChangedCallback redCallbackObject
----@field private OnOnDialogsDataCallback redCallbackObject
+---@field private ["c_DisplayRange"] Float
+---@field private ["c_CloseDisplayRange"] Float
+---@field private ["c_TimeToUnblockSec"] Float
+---@field private ["rootWidget"] inkCompoundWidget
+---@field private ["AllControllers"] ChatterKeyValuePair[]
+---@field private ["targetingSystem"] gametargetingTargetingSystem
+---@field private ["broadcastBlockingLines"] CRUID[]
+---@field private ["playerInDialogChoice"] Bool
+---@field private ["lastBroadcastBlockingLineTime"] EngineTime
+---@field private ["lastChoiceTime"] EngineTime
+---@field private ["bbPSceneTierEventId"] redCallbackObject
+---@field private ["sceneTier"] Int32
+---@field private ["OnNameplateEntityChangedCallback"] redCallbackObject
+---@field private ["OnNameplateOffsetChangedCallback"] redCallbackObject
+---@field private ["OnNameplateVisibilityChangedCallback"] redCallbackObject
+---@field private ["OnScannerModeChangedCallback"] redCallbackObject
+---@field private ["OnOnDialogsDataCallback"] redCallbackObject
 ChattersGameController = {}
 
 ---@param fields? table

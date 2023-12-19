@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationGenderSelectionMenu: gameuiBaseCharacterCreationController
----@field public streetRat_male inkWidgetReference
----@field public streetRat_female inkWidgetReference
----@field private clickTarget inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private maleAnimProxy inkanimProxy
----@field private femaleAnimProxy inkanimProxy
+---@field public ["streetRat_male"] inkWidgetReference
+---@field public ["streetRat_female"] inkWidgetReference
+---@field private ["clickTarget"] inkWidgetReference
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["maleAnimProxy"] inkanimProxy
+---@field private ["femaleAnimProxy"] inkanimProxy
 CharacterCreationGenderSelectionMenu = {}
 
 ---@param fields? table
@@ -75,9 +75,9 @@ function CharacterCreationGenderSelectionMenu:OnIntro() return end
 ---@return nil
 function CharacterCreationGenderSelectionMenu:OnOutro() return end
 
----@param animName CName
+---@param animName CName|string
 ---@param animProxy? inkanimProxy
----@param callBack? CName
+---@param callBack? CName|string
 ---@return nil
 function CharacterCreationGenderSelectionMenu:PlayAnim(animName, animProxy, callBack) return end
 

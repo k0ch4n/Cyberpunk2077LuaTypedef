@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ClimbDecisions: LocomotionGroundDecisions
----@field public stateBodyDone Bool
+---@field public ["stateBodyDone"] Bool
 ClimbDecisions = {}
 
 ---@param fields? table

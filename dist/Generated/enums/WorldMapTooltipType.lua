@@ -3,6 +3,6 @@
 
 ---@enum WorldMapTooltipType
 WorldMapTooltipType = {
-    ["Default"] = 0,
-    ["Police"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Police"] = 1, ---@type Enum
 }

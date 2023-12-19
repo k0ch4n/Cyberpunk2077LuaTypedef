@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CharParamTimeout: AITimeoutCondition
----@field public timeoutParamName String
+---@field public ["timeoutParamName"] String
 CharParamTimeout = {}
 
 ---@param fields? table

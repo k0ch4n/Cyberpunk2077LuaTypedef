@@ -22,7 +22,7 @@ function textTextParameterSet:Internal_AddFloat(value, key) return end
 ---@return nil
 function textTextParameterSet:Internal_AddInteger(value, key) return end
 
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@param key? String
 ---@return nil
 function textTextParameterSet:Internal_AddLocalizedName(valueLocKey, key) return end
@@ -86,12 +86,12 @@ function textTextParameterSet:Internal_UpdateInteger(index, value) return end
 function textTextParameterSet:Internal_UpdateIntegerKey(key, value) return end
 
 ---@param index Int32
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:Internal_UpdateLocalizedName(index, valueLocKey) return end
 
 ---@param key String
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:Internal_UpdateLocalizedNameKey(key, valueLocKey) return end
 
@@ -145,11 +145,11 @@ function textTextParameterSet:AddCurrentDate() return end
 function textTextParameterSet:AddCurrentDate(key) return end
 
 ---@param key String
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:AddLocalizedName(key, valueLocKey) return end
 
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:AddLocalizedName(valueLocKey) return end
 
@@ -240,12 +240,12 @@ function textTextParameterSet:UpdateCurrentDate(index) return end
 function textTextParameterSet:UpdateCurrentDate(key) return end
 
 ---@param index Int32
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:UpdateLocalizedName(index, valueLocKey) return end
 
 ---@param key String
----@param valueLocKey CName
+---@param valueLocKey CName|string
 ---@return nil
 function textTextParameterSet:UpdateLocalizedName(key, valueLocKey) return end
 

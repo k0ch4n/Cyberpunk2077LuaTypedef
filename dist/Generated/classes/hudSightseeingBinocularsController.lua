@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class hudSightseeingBinocularsController: CustomAnimationsHudGameController
----@field private pitch_min Float
----@field private pitch_max Float
----@field private yaw_min Float
----@field private yaw_max Float
----@field private tele_min Float
----@field private tele_max Float
----@field private tele_scale Float
----@field private max_zoom_level Float
----@field private background inkCanvasWidgetReference
----@field private psmBlackboard gameIBlackboard
----@field private tcsBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private tcs_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private currentZoom Float
----@field private controlledObjectRef gameObject
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private ownerObject gameObject
----@field private maxZoomLevel Int32
+---@field private ["pitch_min"] Float
+---@field private ["pitch_max"] Float
+---@field private ["yaw_min"] Float
+---@field private ["yaw_max"] Float
+---@field private ["tele_min"] Float
+---@field private ["tele_max"] Float
+---@field private ["tele_scale"] Float
+---@field private ["max_zoom_level"] Float
+---@field private ["background"] inkCanvasWidgetReference
+---@field private ["psmBlackboard"] gameIBlackboard
+---@field private ["tcsBlackboard"] gameIBlackboard
+---@field private ["PSM_BBID"] redCallbackObject
+---@field private ["tcs_BBID"] redCallbackObject
+---@field private ["deviceChain_BBID"] redCallbackObject
+---@field private ["currentZoom"] Float
+---@field private ["controlledObjectRef"] gameObject
+---@field private ["alpha_fadein"] inkanimDefinition
+---@field private ["AnimProxy"] inkanimProxy
+---@field private ["AnimOptions"] inkanimPlaybackOptions
+---@field private ["ownerObject"] gameObject
+---@field private ["maxZoomLevel"] Int32
 hudSightseeingBinocularsController = {}
 
 ---@param fields? table

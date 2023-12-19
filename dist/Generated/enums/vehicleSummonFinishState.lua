@@ -3,5 +3,5 @@
 
 ---@enum vehicleSummonFinishState
 vehicleSummonFinishState = {
-    ["Arrived"] = 0
+    ["Arrived"] = 0, ---@type Enum
 }

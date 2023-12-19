@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveConsumableDelayedEvent: redEvent
----@field public consumeAction ConsumeAction
+---@field public ["consumeAction"] ConsumeAction
 RemoveConsumableDelayedEvent = {}
 
 ---@param fields? table

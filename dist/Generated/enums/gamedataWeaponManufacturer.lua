@@ -3,8 +3,8 @@
 
 ---@enum gamedataWeaponManufacturer
 gamedataWeaponManufacturer = {
-    ["Corporation"] = 0,
-    ["Street"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = 3
+    ["Corporation"] = 0, ---@type Enum
+    ["Street"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

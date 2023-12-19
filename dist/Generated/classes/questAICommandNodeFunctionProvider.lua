@@ -10,10 +10,10 @@ function questAICommandNodeFunctionProvider.new(fields) return end
 
 ---@private
 ---@param functions questAICommandNodeFunction[]
----@param nodeType CName
----@param category CName
+---@param nodeType CName|string
+---@param category CName|string
 ---@param friendlyName String
----@param paramsType CName
+---@param paramsType CName|string
 ---@param color Color
 ---@return nil
 function questAICommandNodeFunctionProvider.Add(functions, nodeType, category, friendlyName, paramsType, color) return end

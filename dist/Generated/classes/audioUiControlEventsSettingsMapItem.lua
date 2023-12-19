@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioUiControlEventsSettingsMapItem: audioAudioMetadata
----@field public baseEvent CName
----@field public customActionsDictionary audioKeySoundEventDictionary
+---@field public ["baseEvent"] CName
+---@field public ["customActionsDictionary"] audioKeySoundEventDictionary
 audioUiControlEventsSettingsMapItem = {}
 
 ---@param fields? table

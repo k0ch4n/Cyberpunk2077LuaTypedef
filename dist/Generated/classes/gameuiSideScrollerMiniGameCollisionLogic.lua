@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerMiniGameCollisionLogic: inkWidgetLogicController
----@field public colliderPositionOffset Vector2
----@field public colliderSizeOffset Vector2
+---@field public ["colliderPositionOffset"] Vector2
+---@field public ["colliderSizeOffset"] Vector2
 gameuiSideScrollerMiniGameCollisionLogic = {}
 
 ---@param fields? table

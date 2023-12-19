@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entdismembermentWoundMeshes
----@field public ResourceSet entdismembermentResourceSetE
----@field public Meshes entdismembermentMeshInfo[]
----@field public FillMeshes entdismembermentFillMeshInfo[]
+---@field public ["ResourceSet"] entdismembermentResourceSetE
+---@field public ["Meshes"] entdismembermentMeshInfo[]
+---@field public ["FillMeshes"] entdismembermentFillMeshInfo[]
 entdismembermentWoundMeshes = {}
 
 ---@param fields? table

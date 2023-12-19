@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CentaurShieldController: AICustomComponents
----@field private startWithShieldActive Bool
----@field private animFeatureName CName
----@field private shieldDestroyedModifierName CName
----@field private shieldState ECentaurShieldState
----@field private centaurBlackboard gameIBlackboard
+---@field private ["startWithShieldActive"] Bool
+---@field private ["animFeatureName"] CName
+---@field private ["shieldDestroyedModifierName"] CName
+---@field private ["shieldState"] ECentaurShieldState
+---@field private ["centaurBlackboard"] gameIBlackboard
 CentaurShieldController = {}
 
 ---@param fields? table

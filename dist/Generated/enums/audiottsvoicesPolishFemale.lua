@@ -3,6 +3,6 @@
 
 ---@enum audiottsvoicesPolishFemale
 audiottsvoicesPolishFemale = {
-    ["Iwona"] = 16,
-    ["Paulina"] = 17
+    ["Iwona"] = 16, ---@type Enum
+    ["Paulina"] = 17, ---@type Enum
 }

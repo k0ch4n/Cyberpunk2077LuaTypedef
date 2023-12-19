@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TagSwitch: animAnimNode_BaseSwitch
----@field public tags CName[]
+---@field public ["tags"] CName[]
 animAnimNode_TagSwitch = {}
 
 ---@param fields? table

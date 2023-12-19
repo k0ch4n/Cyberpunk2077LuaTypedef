@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PendingSecuritySystemDisable: redEvent
----@field public isPending Bool
+---@field public ["isPending"] Bool
 PendingSecuritySystemDisable = {}
 
 ---@param fields? table

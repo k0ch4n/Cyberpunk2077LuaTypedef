@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animSAnimationBufferBitwiseCompressedBoneTrack
----@field public position animSAnimationBufferBitwiseCompressedData
----@field public orientation animSAnimationBufferBitwiseCompressedData
----@field public scale animSAnimationBufferBitwiseCompressedData
+---@field public ["position"] animSAnimationBufferBitwiseCompressedData
+---@field public ["orientation"] animSAnimationBufferBitwiseCompressedData
+---@field public ["scale"] animSAnimationBufferBitwiseCompressedData
 animSAnimationBufferBitwiseCompressedBoneTrack = {}
 
 ---@param fields? table

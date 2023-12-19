@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestCodexLinkController: BaseCodexLinkController
----@field protected linkLabelContainer inkWidgetReference
----@field private journalEntry gameJournalEntry
+---@field protected ["linkLabelContainer"] inkWidgetReference
+---@field private ["journalEntry"] gameJournalEntry
 QuestCodexLinkController = {}
 
 ---@param fields? table

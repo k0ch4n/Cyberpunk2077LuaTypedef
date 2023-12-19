@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class PhotoModePlayerEntityComponent: gameScriptableComponent
----@field private usedWeaponItemId gameItemID
----@field private currentWeaponInSlot gameItemID
----@field private availableCurrentItemTypesList gamedataItemType[]
----@field private availableCurrentItemsList gameItemData[]
----@field private swapMeleeWeaponItemId gameItemID
----@field private swapHangunWeaponItemId gameItemID
----@field private swapRifleWeaponItemId gameItemID
----@field private swapShootgunWeaponItemId gameItemID
----@field private fakePuppet gamePuppet
----@field private mainPuppet PlayerPuppet
----@field private currentPuppet PlayerPuppet
----@field private TS gameTransactionSystem
----@field private loadingItems gameItemID[]
----@field private itemsLoadingTime Float
----@field private muzzleEffectEnabled Bool
----@field private customizable Bool
----@field private holsteredArmsShouldBeVisible Bool
----@field private holsteredArmsBeingSpawned Bool
----@field private holsteredArmsVisible Bool
----@field private holsteredArmsItem gameItemID
----@field private cyberwareArmsBeingSpawned Bool
----@field private cyberwareArmsVisible Bool
----@field private cyberwareArmsItem gameItemID
+---@field private ["usedWeaponItemId"] gameItemID
+---@field private ["currentWeaponInSlot"] gameItemID
+---@field private ["availableCurrentItemTypesList"] gamedataItemType[]
+---@field private ["availableCurrentItemsList"] gameItemData[]
+---@field private ["swapMeleeWeaponItemId"] gameItemID
+---@field private ["swapHangunWeaponItemId"] gameItemID
+---@field private ["swapRifleWeaponItemId"] gameItemID
+---@field private ["swapShootgunWeaponItemId"] gameItemID
+---@field private ["fakePuppet"] gamePuppet
+---@field private ["mainPuppet"] PlayerPuppet
+---@field private ["currentPuppet"] PlayerPuppet
+---@field private ["TS"] gameTransactionSystem
+---@field private ["loadingItems"] gameItemID[]
+---@field private ["itemsLoadingTime"] Float
+---@field private ["muzzleEffectEnabled"] Bool
+---@field private ["customizable"] Bool
+---@field private ["holsteredArmsShouldBeVisible"] Bool
+---@field private ["holsteredArmsBeingSpawned"] Bool
+---@field private ["holsteredArmsVisible"] Bool
+---@field private ["holsteredArmsItem"] gameItemID
+---@field private ["cyberwareArmsBeingSpawned"] Bool
+---@field private ["cyberwareArmsVisible"] Bool
+---@field private ["cyberwareArmsItem"] gameItemID
 PhotoModePlayerEntityComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhoneMessagePopupEvent: redEvent
----@field public data JournalNotificationData
+---@field public ["data"] JournalNotificationData
 PhoneMessagePopupEvent = {}
 
 ---@param fields? table

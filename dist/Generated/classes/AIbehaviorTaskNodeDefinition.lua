@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorTaskNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public task AIbehaviorTaskDefinition
+---@field public ["task"] AIbehaviorTaskDefinition
 AIbehaviorTaskNodeDefinition = {}

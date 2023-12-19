@@ -3,15 +3,15 @@
 
 ---@enum ETextureRawFormat
 ETextureRawFormat = {
-    ["TRF_Invalid"] = 0,
-    ["TRF_TrueColor"] = 1,
-    ["TRF_DeepColor"] = 2,
-    ["TRF_Grayscale"] = 3,
-    ["TRF_HDRFloat"] = 4,
-    ["TRF_HDRHalf"] = 5,
-    ["TRF_HDRFloatGrayscale"] = 6,
-    ["TRF_Grayscale_Font"] = 7,
-    ["TRF_R8G8"] = 8,
-    ["TRF_R32UI"] = 9,
-    ["TRF_AlphaGrayscale"] = 0
+    ["TRF_Invalid"] = 0, ---@type Enum
+    ["TRF_TrueColor"] = 1, ---@type Enum
+    ["TRF_DeepColor"] = 2, ---@type Enum
+    ["TRF_Grayscale"] = 3, ---@type Enum
+    ["TRF_HDRFloat"] = 4, ---@type Enum
+    ["TRF_HDRHalf"] = 5, ---@type Enum
+    ["TRF_HDRFloatGrayscale"] = 6, ---@type Enum
+    ["TRF_Grayscale_Font"] = 7, ---@type Enum
+    ["TRF_R8G8"] = 8, ---@type Enum
+    ["TRF_R32UI"] = 9, ---@type Enum
+    ["TRF_AlphaGrayscale"] = 0, ---@type Enum
 }

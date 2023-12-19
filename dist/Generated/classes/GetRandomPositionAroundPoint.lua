@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class GetRandomPositionAroundPoint: AIRandomTasks
----@field public originPoint AIArgumentMapping
----@field public distanceMin AIArgumentMapping
----@field public distanceMax AIArgumentMapping
----@field public angleMin AIArgumentMapping
----@field public angleMax AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
----@field protected finalPosition Vector4
+---@field public ["originPoint"] AIArgumentMapping
+---@field public ["distanceMin"] AIArgumentMapping
+---@field public ["distanceMax"] AIArgumentMapping
+---@field public ["angleMin"] AIArgumentMapping
+---@field public ["angleMax"] AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
+---@field protected ["finalPosition"] Vector4
 GetRandomPositionAroundPoint = {}
 
 ---@param fields? table

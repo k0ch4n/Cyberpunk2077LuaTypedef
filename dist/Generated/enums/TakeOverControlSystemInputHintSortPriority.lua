@@ -3,13 +3,13 @@
 
 ---@enum TakeOverControlSystemInputHintSortPriority
 TakeOverControlSystemInputHintSortPriority = {
-    ["Shoot"] = 0,
-    ["SpiderNextAim"] = 1,
-    ["Scanner"] = 2,
-    ["NextDevice"] = 3,
-    ["PreviousDevice"] = 4,
-    ["ZoomIn"] = 5,
-    ["ZoomOut"] = 6,
-    ["SpiderNestView"] = 7,
-    ["Exit"] = 8
+    ["Shoot"] = 0, ---@type Enum
+    ["SpiderNextAim"] = 1, ---@type Enum
+    ["Scanner"] = 2, ---@type Enum
+    ["NextDevice"] = 3, ---@type Enum
+    ["PreviousDevice"] = 4, ---@type Enum
+    ["ZoomIn"] = 5, ---@type Enum
+    ["ZoomOut"] = 6, ---@type Enum
+    ["SpiderNestView"] = 7, ---@type Enum
+    ["Exit"] = 8, ---@type Enum
 }

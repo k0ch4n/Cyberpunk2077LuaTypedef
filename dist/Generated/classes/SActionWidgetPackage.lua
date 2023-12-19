@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SActionWidgetPackage: SWidgetPackage
----@field public action gamedeviceAction
----@field public wasInitalized Bool
----@field public dependendActions gamedeviceAction[]
+---@field public ["action"] gamedeviceAction
+---@field public ["wasInitalized"] Bool
+---@field public ["dependendActions"] gamedeviceAction[]
 SActionWidgetPackage = {}
 
 ---@param fields? table

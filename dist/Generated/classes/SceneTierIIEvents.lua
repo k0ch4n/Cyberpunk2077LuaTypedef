@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SceneTierIIEvents: SceneTierAbstractEvents
----@field public cachedSpeedValue Float
----@field public maxSpeedStat gameStatModifierData_Deprecated
----@field public currentSpeedMovementPreset Tier2WalkType
----@field public currentSpeedValue Float
----@field public currentLocomotionState CName
+---@field public ["cachedSpeedValue"] Float
+---@field public ["maxSpeedStat"] gameStatModifierData_Deprecated
+---@field public ["currentSpeedMovementPreset"] Tier2WalkType
+---@field public ["currentSpeedValue"] Float
+---@field public ["currentLocomotionState"] CName
 SceneTierIIEvents = {}
 
 ---@param fields? table
@@ -58,7 +58,7 @@ function SceneTierIIEvents:SceneTierToEnter() return end
 function SceneTierIIEvents:UpdateLocomotionStatsBasedOnMovementType(stateContext, scriptInterface) return end
 
 ---@protected
----@param locomotionStateName CName
+---@param locomotionStateName CName|string
 ---@param movementPreset Tier2WalkType
 ---@return nil, Float speedValue
 function SceneTierIIEvents:UpdateMaxSpeedBasedOnPlayerState(locomotionStateName, movementPreset) return end

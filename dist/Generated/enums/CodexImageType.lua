@@ -3,6 +3,6 @@
 
 ---@enum CodexImageType
 CodexImageType = {
-    ["Default"] = 0,
-    ["Character"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Character"] = 1, ---@type Enum
 }

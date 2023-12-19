@@ -98,7 +98,7 @@ function gamedataWeaponFxPackage_Record:Vfx_impact_add_enable() return end
 ---@return CName[]
 function gamedataWeaponFxPackage_Record:Vfx_impact_add_names() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataWeaponFxPackage_Record:Vfx_impact_add_namesContains(item) return end
 

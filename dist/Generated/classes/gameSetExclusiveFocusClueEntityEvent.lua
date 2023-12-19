@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetExclusiveFocusClueEntityEvent: redEvent
----@field public isSetExclusive Bool
+---@field public ["isSetExclusive"] Bool
 gameSetExclusiveFocusClueEntityEvent = {}
 
 ---@param fields? table

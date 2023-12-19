@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewCodexEntryUserData: inkGameNotificationData
----@field public data String
+---@field public ["data"] String
 NewCodexEntryUserData = {}
 
 ---@param fields? table

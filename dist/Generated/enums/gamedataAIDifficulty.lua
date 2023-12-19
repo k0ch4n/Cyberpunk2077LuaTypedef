@@ -3,10 +3,10 @@
 
 ---@enum gamedataAIDifficulty
 gamedataAIDifficulty = {
-    ["Easy"] = 0,
-    ["Hard"] = 1,
-    ["Story"] = 2,
-    ["VeryHard"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["Easy"] = 0, ---@type Enum
+    ["Hard"] = 1, ---@type Enum
+    ["Story"] = 2, ---@type Enum
+    ["VeryHard"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

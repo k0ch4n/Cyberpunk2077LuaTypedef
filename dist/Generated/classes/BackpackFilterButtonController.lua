@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BackpackFilterButtonController: inkWidgetLogicController
----@field protected icon inkImageWidgetReference
----@field protected text inkTextWidgetReference
----@field private filterType ItemFilterCategory
----@field private active Bool
----@field private hovered Bool
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["text"] inkTextWidgetReference
+---@field private ["filterType"] ItemFilterCategory
+---@field private ["active"] Bool
+---@field private ["hovered"] Bool
 BackpackFilterButtonController = {}
 
 ---@param fields? table

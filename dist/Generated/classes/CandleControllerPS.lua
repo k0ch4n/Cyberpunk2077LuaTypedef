@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CandleControllerPS: ScriptableDeviceComponentPS
----@field protected candleSkillChecks EngDemoContainer
+---@field protected ["candleSkillChecks"] EngDemoContainer
 CandleControllerPS = {}
 
 ---@param fields? table

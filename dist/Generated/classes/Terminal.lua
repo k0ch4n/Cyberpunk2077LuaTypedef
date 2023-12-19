@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Terminal: InteractiveMasterDevice
----@field protected cameraFeed ScriptableVirtualCameraViewComponent
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field protected ["cameraFeed"] ScriptableVirtualCameraViewComponent
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
 Terminal = {}
 
 ---@param fields? table
@@ -61,7 +61,7 @@ function Terminal:OnStopShortGlitch(evt) return end
 function Terminal:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function Terminal:OnWorkspotFinished(componentName) return end
 

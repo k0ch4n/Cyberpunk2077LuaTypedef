@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameStatsUnit: ISerializable
----@field public recordID TweakDBID
+---@field public ["recordID"] TweakDBID
 gameStatsUnit = {}
 
 ---@param fields? table

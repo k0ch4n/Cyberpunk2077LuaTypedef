@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimPlayVOEvent: inkanimEvent
----@field public VOLine String
----@field public speakerName String
+---@field public ["VOLine"] String
+---@field public ["speakerName"] String
 inkanimPlayVOEvent = {}
 
 ---@param fields? table

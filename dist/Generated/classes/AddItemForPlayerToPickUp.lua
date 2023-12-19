@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AddItemForPlayerToPickUp: ScriptableDeviceAction
----@field public lootTable TweakDBID
----@field public shouldAdd Bool
+---@field public ["lootTable"] TweakDBID
+---@field public ["shouldAdd"] Bool
 AddItemForPlayerToPickUp = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_ItemModSystemDef: gamebbScriptDefinition
----@field public ItemModSystemUpdated gamebbScriptID_Variant
----@field public ItemModSystemUpgradingInProgress gamebbScriptID_Bool
+---@field public ["ItemModSystemUpdated"] gamebbScriptID_Variant
+---@field public ["ItemModSystemUpgradingInProgress"] gamebbScriptID_Bool
 UI_ItemModSystemDef = {}
 
 ---@param fields? table

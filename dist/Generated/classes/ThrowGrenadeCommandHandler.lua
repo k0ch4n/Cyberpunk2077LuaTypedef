@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ThrowGrenadeCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIThrowGrenadeCommand
+---@field protected ["inCommand"] AIArgumentMapping
+---@field protected ["currentCommand"] AIThrowGrenadeCommand
 ThrowGrenadeCommandHandler = {}
 
 ---@param fields? table

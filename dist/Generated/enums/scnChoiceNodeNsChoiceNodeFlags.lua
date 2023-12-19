@@ -3,6 +3,6 @@
 
 ---@enum scnChoiceNodeNsChoiceNodeFlags
 scnChoiceNodeNsChoiceNodeFlags = {
-    ["IsFocusClue"] = 1,
-    ["IsValidInteractionFailsafeDisabled"] = 2
+    ["IsFocusClue"] = 1, ---@type Enum
+    ["IsValidInteractionFailsafeDisabled"] = 2, ---@type Enum
 }

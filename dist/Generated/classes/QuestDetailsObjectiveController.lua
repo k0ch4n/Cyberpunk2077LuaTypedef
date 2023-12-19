@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class QuestDetailsObjectiveController: inkWidgetLogicController
----@field private objectiveName inkTextWidgetReference
----@field private trackingMarker inkWidgetReference
----@field private root inkWidgetReference
----@field private objective gameJournalQuestObjective
----@field private journalManager gameJournalManager
----@field private hovered Bool
----@field private isTracked Bool
+---@field private ["objectiveName"] inkTextWidgetReference
+---@field private ["trackingMarker"] inkWidgetReference
+---@field private ["root"] inkWidgetReference
+---@field private ["objective"] gameJournalQuestObjective
+---@field private ["journalManager"] gameJournalManager
+---@field private ["hovered"] Bool
+---@field private ["isTracked"] Bool
 QuestDetailsObjectiveController = {}
 
 ---@param fields? table

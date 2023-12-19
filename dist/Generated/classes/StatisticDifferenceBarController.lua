@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StatisticDifferenceBarController: inkWidgetLogicController
----@field private filled inkWidgetReference
----@field private difference inkWidgetReference
----@field private empty inkWidgetReference
+---@field private ["filled"] inkWidgetReference
+---@field private ["difference"] inkWidgetReference
+---@field private ["empty"] inkWidgetReference
 StatisticDifferenceBarController = {}
 
 ---@param fields? table

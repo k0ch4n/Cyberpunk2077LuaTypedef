@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsEmerge: redEvent
----@field public oxygen Float
+---@field public ["oxygen"] Float
 gameaudioeventsEmerge = {}
 
 ---@param fields? table

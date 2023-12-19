@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class PlayerVisionModeController: IScriptable
----@field private gameplayActiveFlagsRefreshPolicy PlayerVisionModeControllerRefreshPolicy
----@field private blackboardIds PlayerVisionModeControllerBBIds
----@field private blackboardValuesIds PlayerVisionModeControllerBBValuesIds
----@field private blackboardListenersFunctions PlayerVisionModeControllerBlackboardListenersFunctions
----@field private blackboardListeners PlayerVisionModeControllerBBListeners
----@field private gameplayActiveFlags PlayerVisionModeControllerActiveFlags
----@field private inputActionsNames PlayerVisionModeControllerInputActionsNames
----@field private inputListeners PlayerVisionModeControllerInputListeners
----@field private inputActiveFlags PlayerVisionModeControllerInputActiveFlags
----@field private otherVars PlayerVisionModeControllerOtherVars
----@field private owner gameObject
+---@field private ["gameplayActiveFlagsRefreshPolicy"] PlayerVisionModeControllerRefreshPolicy
+---@field private ["blackboardIds"] PlayerVisionModeControllerBBIds
+---@field private ["blackboardValuesIds"] PlayerVisionModeControllerBBValuesIds
+---@field private ["blackboardListenersFunctions"] PlayerVisionModeControllerBlackboardListenersFunctions
+---@field private ["blackboardListeners"] PlayerVisionModeControllerBBListeners
+---@field private ["gameplayActiveFlags"] PlayerVisionModeControllerActiveFlags
+---@field private ["inputActionsNames"] PlayerVisionModeControllerInputActionsNames
+---@field private ["inputListeners"] PlayerVisionModeControllerInputListeners
+---@field private ["inputActiveFlags"] PlayerVisionModeControllerInputActiveFlags
+---@field private ["otherVars"] PlayerVisionModeControllerOtherVars
+---@field private ["owner"] gameObject
 PlayerVisionModeController = {}
 
 ---@param fields? table
@@ -151,7 +151,7 @@ function PlayerVisionModeController:RegisterOwner(owner) return end
 function PlayerVisionModeController:RemoveFocusModeLocomotionRestriction() return end
 
 ---@protected
----@param id CName
+---@param id CName|string
 ---@param value Bool
 ---@param aspect gamestateMachineParameterAspect
 ---@return nil

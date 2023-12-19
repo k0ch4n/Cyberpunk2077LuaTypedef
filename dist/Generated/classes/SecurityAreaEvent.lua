@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityAreaEvent: ActionBool
----@field private securityAreaData SecurityAreaData
----@field private whoBreached gameObject
+---@field private ["securityAreaData"] SecurityAreaData
+---@field private ["whoBreached"] gameObject
 SecurityAreaEvent = {}
 
 ---@param fields? table

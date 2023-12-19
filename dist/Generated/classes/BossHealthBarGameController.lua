@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class BossHealthBarGameController: gameuiHUDGameController
----@field private healthControllerRef inkWidgetReference
----@field private healthPercentage inkTextWidgetReference
----@field private bossName inkTextWidgetReference
----@field private dividerContainerRef inkCompoundWidgetReference
----@field private statListener BossHealthStatListener
----@field private boss NPCPuppet
----@field private healthController NameplateBarLogicController
----@field private thresholds Float[]
----@field private root inkWidget
----@field private unfoldAnimation inkanimProxy
----@field private foldAnimation inkanimProxy
----@field private fastTravelCallbackID redCallbackObject
----@field private bossPuppets NPCPuppet[]
+---@field private ["healthControllerRef"] inkWidgetReference
+---@field private ["healthPercentage"] inkTextWidgetReference
+---@field private ["bossName"] inkTextWidgetReference
+---@field private ["dividerContainerRef"] inkCompoundWidgetReference
+---@field private ["statListener"] BossHealthStatListener
+---@field private ["boss"] NPCPuppet
+---@field private ["healthController"] NameplateBarLogicController
+---@field private ["thresholds"] Float[]
+---@field private ["root"] inkWidget
+---@field private ["unfoldAnimation"] inkanimProxy
+---@field private ["foldAnimation"] inkanimProxy
+---@field private ["fastTravelCallbackID"] redCallbackObject
+---@field private ["bossPuppets"] NPCPuppet[]
 BossHealthBarGameController = {}
 
 ---@param fields? table

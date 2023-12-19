@@ -1274,7 +1274,7 @@ function gamedataTweakDBInterface:GetBuildProficiencySetRecord(path) return end
 function gamedataTweakDBInterface:GetBuildProgramRecord(path) return end
 
 ---@param path TweakDBID
----@param defaultValue CName
+---@param defaultValue CName|string
 ---@return CName
 function gamedataTweakDBInterface:GetCName(path, defaultValue) return end
 
@@ -2088,7 +2088,7 @@ function gamedataTweakDBInterface:GetLinearAccuracyRecord(path) return end
 function gamedataTweakDBInterface:GetLoadingTipsGroupRecord(path) return end
 
 ---@param path TweakDBID
----@param defaultValue CName
+---@param defaultValue CName|string
 ---@return CName
 function gamedataTweakDBInterface:GetLocKey(path, defaultValue) return end
 

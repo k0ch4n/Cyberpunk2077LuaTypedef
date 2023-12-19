@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpPlayerDetector: gameObject
----@field public range Float
+---@field public ["range"] Float
 cpPlayerDetector = {}
 
 ---@param fields? table

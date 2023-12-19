@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveAllStatusEffectOfTypeEvent: redEvent
----@field public statusEffectType gamedataStatusEffectType
+---@field public ["statusEffectType"] gamedataStatusEffectType
 RemoveAllStatusEffectOfTypeEvent = {}
 
 ---@param fields? table

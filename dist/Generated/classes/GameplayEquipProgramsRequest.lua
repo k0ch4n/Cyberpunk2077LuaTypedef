@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameplayEquipProgramsRequest: gamePlayerScriptableSystemRequest
----@field public programIDs gameItemID[]
+---@field public ["programIDs"] gameItemID[]
 GameplayEquipProgramsRequest = {}
 
 ---@param fields? table

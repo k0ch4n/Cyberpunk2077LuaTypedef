@@ -2,48 +2,48 @@
 ---@diagnostic disable
 
 ---@class PhotoModeMenuListItem: inkListItemController
----@field private ScrollBarRef inkWidgetReference
----@field private CounterLabelRef inkTextWidgetReference
----@field private TextLabelRef inkTextWidgetReference
----@field private OptionSelectorRef inkWidgetReference
----@field private LeftArrow inkWidgetReference
----@field private RightArrow inkWidgetReference
----@field private LeftButton inkWidgetReference
----@field private RightButton inkWidgetReference
----@field private OptionLabelRef inkTextWidgetReference
----@field private SelectedWidgetRef inkWidgetReference
----@field private TextRootWidgetRef inkWidgetReference
----@field private SliderRootWidgetRef inkWidgetReference
----@field private OptionSelectorRootWidgetRef inkWidgetReference
----@field private HoldButtonRootWidgetRef inkWidgetReference
----@field private ScrollBarLineRef inkWidgetReference
----@field private ScrollBarHandleRef inkWidgetReference
----@field private ScrollSlidingAreaRef inkWidgetReference
----@field private HoldProgressRef inkWidgetReference
----@field private GridRoot inkWidgetReference
----@field private GridTopRow inkWidgetReference
----@field private GridBottomRow inkWidgetReference
----@field private ScrollBar inkSliderController
----@field private OptionSelector inkSelectorController
----@field private OptionSelectorValues gameuiPhotoModeOptionSelectorData[]
----@field private GridSelector PhotoModeGridList
----@field private SliderValue Float
----@field private StepValue Float
----@field private SliderShowPercents Bool
----@field public photoModeController gameuiPhotoModeMenuController
----@field private doApply Bool
----@field private holdBgInitMargin inkMargin
----@field private allowHold Bool
----@field private inputDirection Int32
----@field private inputStepTime Float
----@field private inputHoldTime Float
----@field private arrowClickedTime Float
----@field private isSelected Bool
----@field private fadeAnim inkanimProxy
----@field private RightArrowInitOpacity Float
----@field private LeftArrowInitOpacity Float
----@field private ScrollBarHandleInitOpacity Float
----@field private ScrollBarLineInitOpacity Float
+---@field private ["ScrollBarRef"] inkWidgetReference
+---@field private ["CounterLabelRef"] inkTextWidgetReference
+---@field private ["TextLabelRef"] inkTextWidgetReference
+---@field private ["OptionSelectorRef"] inkWidgetReference
+---@field private ["LeftArrow"] inkWidgetReference
+---@field private ["RightArrow"] inkWidgetReference
+---@field private ["LeftButton"] inkWidgetReference
+---@field private ["RightButton"] inkWidgetReference
+---@field private ["OptionLabelRef"] inkTextWidgetReference
+---@field private ["SelectedWidgetRef"] inkWidgetReference
+---@field private ["TextRootWidgetRef"] inkWidgetReference
+---@field private ["SliderRootWidgetRef"] inkWidgetReference
+---@field private ["OptionSelectorRootWidgetRef"] inkWidgetReference
+---@field private ["HoldButtonRootWidgetRef"] inkWidgetReference
+---@field private ["ScrollBarLineRef"] inkWidgetReference
+---@field private ["ScrollBarHandleRef"] inkWidgetReference
+---@field private ["ScrollSlidingAreaRef"] inkWidgetReference
+---@field private ["HoldProgressRef"] inkWidgetReference
+---@field private ["GridRoot"] inkWidgetReference
+---@field private ["GridTopRow"] inkWidgetReference
+---@field private ["GridBottomRow"] inkWidgetReference
+---@field private ["ScrollBar"] inkSliderController
+---@field private ["OptionSelector"] inkSelectorController
+---@field private ["OptionSelectorValues"] gameuiPhotoModeOptionSelectorData[]
+---@field private ["GridSelector"] PhotoModeGridList
+---@field private ["SliderValue"] Float
+---@field private ["StepValue"] Float
+---@field private ["SliderShowPercents"] Bool
+---@field public ["photoModeController"] gameuiPhotoModeMenuController
+---@field private ["doApply"] Bool
+---@field private ["holdBgInitMargin"] inkMargin
+---@field private ["allowHold"] Bool
+---@field private ["inputDirection"] Int32
+---@field private ["inputStepTime"] Float
+---@field private ["inputHoldTime"] Float
+---@field private ["arrowClickedTime"] Float
+---@field private ["isSelected"] Bool
+---@field private ["fadeAnim"] inkanimProxy
+---@field private ["RightArrowInitOpacity"] Float
+---@field private ["LeftArrowInitOpacity"] Float
+---@field private ["ScrollBarHandleInitOpacity"] Float
+---@field private ["ScrollBarLineInitOpacity"] Float
 PhotoModeMenuListItem = {}
 
 ---@param fields? table
@@ -138,7 +138,7 @@ function PhotoModeMenuListItem:ResetInputHold() return end
 
 ---@param buttonIndex Uint32
 ---@param atlasPath redResourceReferenceScriptToken
----@param imagePart CName
+---@param imagePart CName|string
 ---@param buttonData Int32
 ---@return nil
 function PhotoModeMenuListItem:SetGridButtonImage(buttonIndex, atlasPath, imagePart, buttonData) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatVariable: animAnimNode_FloatValue
----@field public variableName CName
+---@field public ["variableName"] CName
 animAnimNode_FloatVariable = {}
 
 ---@param fields? table

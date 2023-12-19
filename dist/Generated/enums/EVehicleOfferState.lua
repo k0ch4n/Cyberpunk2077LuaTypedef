@@ -3,8 +3,8 @@
 
 ---@enum EVehicleOfferState
 EVehicleOfferState = {
-    ["Default"] = 0,
-    ["New"] = 1,
-    ["Owned"] = 2,
-    ["Locked"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["New"] = 1, ---@type Enum
+    ["Owned"] = 2, ---@type Enum
+    ["Locked"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineStateMachineListDefinition: IScriptable
----@field public stateMachinesStorage gamestateMachineStateMachineDefinition[]
+---@field public ["stateMachinesStorage"] gamestateMachineStateMachineDefinition[]
 gamestateMachineStateMachineListDefinition = {}
 
 ---@param fields? table

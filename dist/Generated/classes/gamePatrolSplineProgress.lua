@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamePatrolSplineProgress: IScriptable
----@field public currentControlPoints gamePatrolSplineControlPoint[]
----@field public entrySplineParam Float
----@field public controlPointIndex Uint32
+---@field public ["currentControlPoints"] gamePatrolSplineControlPoint[]
+---@field public ["entrySplineParam"] Float
+---@field public ["controlPointIndex"] Uint32
 gamePatrolSplineProgress = {}
 
 ---@param fields? table

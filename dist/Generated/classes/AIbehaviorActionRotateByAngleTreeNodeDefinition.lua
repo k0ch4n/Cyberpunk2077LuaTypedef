@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionRotateByAngleTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public angle AIArgumentMapping
----@field public angleTolerance AIArgumentMapping
+---@field public ["angle"] AIArgumentMapping
+---@field public ["angleTolerance"] AIArgumentMapping
 AIbehaviorActionRotateByAngleTreeNodeDefinition = {}
 
 ---@param fields? table

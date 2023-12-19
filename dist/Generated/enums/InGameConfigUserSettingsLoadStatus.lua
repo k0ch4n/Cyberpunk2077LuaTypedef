@@ -3,10 +3,10 @@
 
 ---@enum InGameConfigUserSettingsLoadStatus
 InGameConfigUserSettingsLoadStatus = {
-    ["NotLoaded"] = 0,
-    ["InternalError"] = 1,
-    ["FileIsMissing"] = 2,
-    ["FileIsCorrupted"] = 3,
-    ["Loaded"] = 4,
-    ["ImportedFromOldVersion"] = 5
+    ["NotLoaded"] = 0, ---@type Enum
+    ["InternalError"] = 1, ---@type Enum
+    ["FileIsMissing"] = 2, ---@type Enum
+    ["FileIsCorrupted"] = 3, ---@type Enum
+    ["Loaded"] = 4, ---@type Enum
+    ["ImportedFromOldVersion"] = 5, ---@type Enum
 }

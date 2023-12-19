@@ -3,6 +3,6 @@
 
 ---@enum questDistanceType
 questDistanceType = {
-    ["Nearest"] = 0,
-    ["Furthest"] = 1
+    ["Nearest"] = 0, ---@type Enum
+    ["Furthest"] = 1, ---@type Enum
 }

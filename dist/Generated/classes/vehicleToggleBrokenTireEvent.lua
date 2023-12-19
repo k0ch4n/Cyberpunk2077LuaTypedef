@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleToggleBrokenTireEvent: redEvent
----@field public tireIndex Uint32
----@field public toggle Bool
+---@field public ["tireIndex"] Uint32
+---@field public ["toggle"] Bool
 vehicleToggleBrokenTireEvent = {}
 
 ---@param fields? table

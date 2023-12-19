@@ -3,6 +3,6 @@
 
 ---@enum physicsFractureFieldValueType
 physicsFractureFieldValueType = {
-    ["FFVT_Impulse"] = 0,
-    ["FFVT_Velocity"] = 1
+    ["FFVT_Impulse"] = 0, ---@type Enum
+    ["FFVT_Velocity"] = 1, ---@type Enum
 }

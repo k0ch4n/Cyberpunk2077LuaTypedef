@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponVendingMachine: VendingMachine
----@field protected bigAdScreen IWorldWidgetComponent
+---@field protected ["bigAdScreen"] IWorldWidgetComponent
 WeaponVendingMachine = {}
 
 ---@param fields? table

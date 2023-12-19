@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PassiveGlobalDeathCondition: AIbehaviorexpressionScript
----@field protected onDeathCbId Uint32
+---@field protected ["onDeathCbId"] Uint32
 PassiveGlobalDeathCondition = {}
 
 ---@param fields? table

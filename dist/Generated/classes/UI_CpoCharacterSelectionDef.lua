@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_CpoCharacterSelectionDef: gamebbScriptDefinition
----@field public SelectionMenuVisible gamebbScriptID_Bool
----@field public CharacterRecordId gamebbScriptID_Variant
+---@field public ["SelectionMenuVisible"] gamebbScriptID_Bool
+---@field public ["CharacterRecordId"] gamebbScriptID_Variant
 UI_CpoCharacterSelectionDef = {}
 
 ---@param fields? table

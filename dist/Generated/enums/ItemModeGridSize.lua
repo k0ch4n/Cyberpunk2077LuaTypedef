@@ -3,6 +3,6 @@
 
 ---@enum ItemModeGridSize
 ItemModeGridSize = {
-    ["Default"] = 0,
-    ["Outfit"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Outfit"] = 1, ---@type Enum
 }

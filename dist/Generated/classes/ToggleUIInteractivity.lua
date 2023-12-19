@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleUIInteractivity: redEvent
----@field public isInteractive Bool
+---@field public ["isInteractive"] Bool
 ToggleUIInteractivity = {}
 
 ---@param fields? table

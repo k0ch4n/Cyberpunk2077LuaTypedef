@@ -3,12 +3,12 @@
 
 ---@enum gamePSMUpperBodyStates
 gamePSMUpperBodyStates = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["SwitchItems"] = 1,
-    ["SwitchCyberware"] = 2,
-    ["Reload"] = 3,
-    ["Aim"] = 6,
-    ["TemporaryUnequip"] = 4,
-    ["ForceEmptyHands"] = 5
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["SwitchItems"] = 1, ---@type Enum
+    ["SwitchCyberware"] = 2, ---@type Enum
+    ["Reload"] = 3, ---@type Enum
+    ["Aim"] = 6, ---@type Enum
+    ["TemporaryUnequip"] = 4, ---@type Enum
+    ["ForceEmptyHands"] = 5, ---@type Enum
 }

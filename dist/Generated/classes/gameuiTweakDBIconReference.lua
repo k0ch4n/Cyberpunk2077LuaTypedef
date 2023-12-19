@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTweakDBIconReference: inkIconReference
----@field public iconID TweakDBID
+---@field public ["iconID"] TweakDBID
 gameuiTweakDBIconReference = {}
 
 ---@param fields? table

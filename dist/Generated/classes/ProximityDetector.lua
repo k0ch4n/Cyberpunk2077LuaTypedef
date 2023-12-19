@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ProximityDetector: Device
----@field protected scanningAreaName CName
----@field protected surroundingAreaName CName
----@field protected scanningArea gameStaticTriggerAreaComponent
----@field protected surroundingArea gameStaticTriggerAreaComponent
----@field private securityAreaType ESecurityAreaType
----@field private notifiactionType ESecurityNotificationType
+---@field protected ["scanningAreaName"] CName
+---@field protected ["surroundingAreaName"] CName
+---@field protected ["scanningArea"] gameStaticTriggerAreaComponent
+---@field protected ["surroundingArea"] gameStaticTriggerAreaComponent
+---@field private ["securityAreaType"] ESecurityAreaType
+---@field private ["notifiactionType"] ESecurityNotificationType
 ProximityDetector = {}
 
 ---@protected

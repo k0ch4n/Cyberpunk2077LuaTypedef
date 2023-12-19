@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_NotObstructed: gameEffectObjectGroupFilter
----@field public filterData physicsFilterData
----@field public queryPreset physicsQueryPreset
+---@field public ["filterData"] physicsFilterData
+---@field public ["queryPreset"] physicsQueryPreset
 gameEffectObjectFilter_NotObstructed = {}
 
 ---@param fields? table

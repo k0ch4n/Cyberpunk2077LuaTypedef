@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventImpulse: gamestateMachineeventBaseEvent
----@field public impulse Vector4
+---@field public ["impulse"] Vector4
 gamestateMachineeventImpulse = {}
 
 ---@param fields? table

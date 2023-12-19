@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class UIInventoryScriptableSystem: gameScriptableSystem
----@field private attachedPlayer PlayerPuppet
----@field private inventoryListenerCallback UIInventoryScriptableInventoryListenerCallback
----@field private inventoryListener gameInventoryScriptListener
----@field private equipmentListener UIInventoryScriptableEquipmentListener
----@field private playerStatsListener UIInventoryScriptableStatsListener
----@field private uiSystem gameuiGameSystemUI
----@field private playerItems inkScriptHashMap
----@field private transactionSystem gameTransactionSystem
----@field private uiScriptableSystem UIScriptableSystem
----@field private inventoryItemsManager UIInventoryItemsManager
----@field private blacklistedTags CName[]
----@field private cachedNonInventoryItems inkScriptHashMap
----@field private statsDependantItems inkScriptWeakHashMap
----@field private InventoryBlackboard gameIBlackboard
----@field private CraftingBlackboardDefinition UI_CraftingDef
----@field private Blackboard gameIBlackboard
----@field private UpgradeBlackboardCallback redCallbackObject
----@field private TEMP_questSystem questQuestsSystem
----@field private TEMP_cuverBarsListener Uint32
----@field private TEMP_separatorBarsListener Uint32
----@field private itemsRestored Bool
+---@field private ["attachedPlayer"] PlayerPuppet
+---@field private ["inventoryListenerCallback"] UIInventoryScriptableInventoryListenerCallback
+---@field private ["inventoryListener"] gameInventoryScriptListener
+---@field private ["equipmentListener"] UIInventoryScriptableEquipmentListener
+---@field private ["playerStatsListener"] UIInventoryScriptableStatsListener
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["playerItems"] inkScriptHashMap
+---@field private ["transactionSystem"] gameTransactionSystem
+---@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field private ["inventoryItemsManager"] UIInventoryItemsManager
+---@field private ["blacklistedTags"] CName[]
+---@field private ["cachedNonInventoryItems"] inkScriptHashMap
+---@field private ["statsDependantItems"] inkScriptWeakHashMap
+---@field private ["InventoryBlackboard"] gameIBlackboard
+---@field private ["CraftingBlackboardDefinition"] UI_CraftingDef
+---@field private ["Blackboard"] gameIBlackboard
+---@field private ["UpgradeBlackboardCallback"] redCallbackObject
+---@field private ["TEMP_questSystem"] questQuestsSystem
+---@field private ["TEMP_cuverBarsListener"] Uint32
+---@field private ["TEMP_separatorBarsListener"] Uint32
+---@field private ["itemsRestored"] Bool
 UIInventoryScriptableSystem = {}
 
 ---@param fields? table

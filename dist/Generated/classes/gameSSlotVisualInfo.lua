@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameSSlotVisualInfo
----@field public areaType gamedataEquipmentArea
----@field public isHidden Bool
----@field public visualItem gameItemID
+---@field public ["areaType"] gamedataEquipmentArea
+---@field public ["isHidden"] Bool
+---@field public ["visualItem"] gameItemID
 gameSSlotVisualInfo = {}
 
 ---@param fields? table

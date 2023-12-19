@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewPerkLevelData_Records: BasePerkLevelData_Records
----@field private perkRecord gamedataNewPerk_Record
----@field private arr gamedataNewPerkLevelData_Record[]
+---@field private ["perkRecord"] gamedataNewPerk_Record
+---@field private ["arr"] gamedataNewPerkLevelData_Record[]
 NewPerkLevelData_Records = {}
 
 ---@param fields? table

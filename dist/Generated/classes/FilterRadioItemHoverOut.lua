@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FilterRadioItemHoverOut: redEvent
----@field public target inkWidget
----@field public identifier Int32
+---@field public ["target"] inkWidget
+---@field public ["identifier"] Int32
 FilterRadioItemHoverOut = {}
 
 ---@param fields? table

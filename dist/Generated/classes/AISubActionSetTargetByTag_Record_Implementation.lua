@@ -12,7 +12,7 @@ function AISubActionSetTargetByTag_Record_Implementation.Activate(context, recor
 ---@param context AIbehaviorScriptExecutionContext
 ---@param startPosition Vector4
 ---@param endPosition Vector4
----@param offMeshTags? CName[]
+---@param offMeshTags? CName[]|string[]
 ---@return Bool
 function AISubActionSetTargetByTag_Record_Implementation.CheckPath(context, startPosition, endPosition, offMeshTags) return end
 
@@ -31,7 +31,7 @@ function AISubActionSetTargetByTag_Record_Implementation.Deactivate(context, rec
 ---@param maxDistanceObj Float
 ---@param distancesObj Float[]
 ---@param targetsPosition Vector4[]
----@param allowedOffMeshTags CName[]
+---@param allowedOffMeshTags CName[]|string[]
 ---@param lineOfSightTarget Vector4
 ---@param blockLoSByNonPenetrableObj Bool
 ---@return Int32
@@ -58,7 +58,7 @@ function AISubActionSetTargetByTag_Record_Implementation.GetDistancesFromTargetT
 ---@param maxDistanceObj Float
 ---@param distancesObj Float[]
 ---@param targetsPosition Vector4[]
----@param allowedOffMeshTags CName[]
+---@param allowedOffMeshTags CName[]|string[]
 ---@param lineOfSightTarget Vector4
 ---@param blockLoSByNonPenetrableObj Bool
 ---@return Int32
@@ -77,7 +77,7 @@ function AISubActionSetTargetByTag_Record_Implementation.GetPositionsFromEntity(
 ---@param minDistanceObj Float
 ---@param maxDistanceObj Float
 ---@param distancesObj Float[]
----@param allowedOffMeshTags CName[]
+---@param allowedOffMeshTags CName[]|string[]
 ---@param targetsPosition? Vector4[]
 ---@param lineOfSightTarget Vector4
 ---@param blockLoSByNonPenetrableObj Bool
@@ -85,7 +85,7 @@ function AISubActionSetTargetByTag_Record_Implementation.GetPositionsFromEntity(
 function AISubActionSetTargetByTag_Record_Implementation.GetRandomIndexInRange(context, minOwnerDistance, maxOwnerDistance, ownerDistances, minDistanceObj, maxDistanceObj, distancesObj, allowedOffMeshTags, targetsPosition, lineOfSightTarget, blockLoSByNonPenetrableObj) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param selectionPreference CName
+---@param selectionPreference CName|string
 ---@param minDistance Float
 ---@param maxDistance Float
 ---@param distances Float[]
@@ -93,7 +93,7 @@ function AISubActionSetTargetByTag_Record_Implementation.GetRandomIndexInRange(c
 ---@param maxDistanceObj Float
 ---@param distancesObj Float[]
 ---@param targetsPosition? Vector4[]
----@param allowedOffMeshTags CName[]
+---@param allowedOffMeshTags CName[]|string[]
 ---@param lineOfSightTarget Vector4
 ---@param blockLoSByNonPenetrableObj Bool
 ---@return Int32

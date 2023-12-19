@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workWorkspotAnimsetEntry
----@field public rig animRig
----@field public animations animAnimSetup
----@field public loadingHandles animAnimSet[]
+---@field public ["rig"] animRig
+---@field public ["animations"] animAnimSetup
+---@field public ["loadingHandles"] animAnimSet[]
 workWorkspotAnimsetEntry = {}
 
 ---@param fields? table

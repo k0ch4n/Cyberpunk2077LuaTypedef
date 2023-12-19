@@ -3,7 +3,7 @@
 
 ---@enum AIReactionCountOutcome
 AIReactionCountOutcome = {
-    ["Failed"] = 0,
-    ["Succeded"] = 1,
-    ["NotFound"] = 2
+    ["Failed"] = 0, ---@type Enum
+    ["Succeded"] = 1, ---@type Enum
+    ["NotFound"] = 2, ---@type Enum
 }

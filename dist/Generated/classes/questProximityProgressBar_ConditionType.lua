@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questProximityProgressBar_ConditionType: questIUIConditionType
----@field public action questProximityProgressBarAction
+---@field public ["action"] questProximityProgressBarAction
 questProximityProgressBar_ConditionType = {}
 
 ---@param fields? table

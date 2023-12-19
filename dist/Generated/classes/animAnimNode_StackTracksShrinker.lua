@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_StackTracksShrinker: animAnimNode_OnePoseInput
----@field public tag CName
+---@field public ["tag"] CName
 animAnimNode_StackTracksShrinker = {}
 
 ---@param fields? table

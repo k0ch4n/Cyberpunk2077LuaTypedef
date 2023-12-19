@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AddForceHighlightTargetEvent: redEvent
----@field public targetID entEntityID
----@field public effecName CName
+---@field public ["targetID"] entEntityID
+---@field public ["effecName"] CName
 AddForceHighlightTargetEvent = {}
 
 ---@param fields? table

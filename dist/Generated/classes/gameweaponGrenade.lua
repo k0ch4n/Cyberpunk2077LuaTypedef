@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameweaponGrenade: gameItemObject
----@field public lastHitNormal Vector4
----@field public deliveryMethod gamedataGrenadeDeliveryMethodType
+---@field public ["lastHitNormal"] Vector4
+---@field public ["deliveryMethod"] gamedataGrenadeDeliveryMethodType
 gameweaponGrenade = {}
 
 ---@param fields? table

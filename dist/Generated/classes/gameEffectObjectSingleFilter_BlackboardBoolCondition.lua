@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectSingleFilter_BlackboardBoolCondition: gameEffectObjectSingleFilter
----@field public parameter gameEffectInputParameter_Bool
----@field public filter gameEffectObjectSingleFilter
+---@field public ["parameter"] gameEffectInputParameter_Bool
+---@field public ["filter"] gameEffectObjectSingleFilter
 gameEffectObjectSingleFilter_BlackboardBoolCondition = {}
 
 ---@param fields? table

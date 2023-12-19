@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatMathOp: animAnimNode_FloatValue
----@field public operationType animEAnimGraphMathOp
----@field public firstInputNode animFloatLink
----@field public secondInputNode animFloatLink
+---@field public ["operationType"] animEAnimGraphMathOp
+---@field public ["firstInputNode"] animFloatLink
+---@field public ["secondInputNode"] animFloatLink
 animAnimNode_FloatMathOp = {}
 
 ---@param fields? table

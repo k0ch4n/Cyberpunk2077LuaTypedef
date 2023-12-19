@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questResetMovement_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
+---@field public ["vehicleRef"] gameEntityReference
 questResetMovement_NodeType = {}
 
 ---@param fields? table

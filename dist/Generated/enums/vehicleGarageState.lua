@@ -3,7 +3,7 @@
 
 ---@enum vehicleGarageState
 vehicleGarageState = {
-    ["NoVehiclesAvailable"] = 0,
-    ["SummonAvailable"] = 1,
-    ["SummonDisabled"] = 2
+    ["NoVehiclesAvailable"] = 0, ---@type Enum
+    ["SummonAvailable"] = 1, ---@type Enum
+    ["SummonDisabled"] = 2, ---@type Enum
 }

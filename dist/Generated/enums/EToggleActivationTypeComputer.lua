@@ -3,6 +3,6 @@
 
 ---@enum EToggleActivationTypeComputer
 EToggleActivationTypeComputer = {
-    ["None"] = 0,
-    ["Raise"] = 1
+    ["None"] = 0, ---@type Enum
+    ["Raise"] = 1, ---@type Enum
 }

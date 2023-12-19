@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexPopupData: inkGameNotificationData
----@field public entry gameJournalEntry
+---@field public ["entry"] gameJournalEntry
 CodexPopupData = {}
 
 ---@param fields? table

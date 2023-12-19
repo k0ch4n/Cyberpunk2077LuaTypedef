@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipRequirementsModule: NewItemTooltipModuleController
----@field private smartlinkGunWrapper inkWidgetReference
----@field private line inkWidgetReference
+---@field private ["smartlinkGunWrapper"] inkWidgetReference
+---@field private ["line"] inkWidgetReference
 NewItemTooltipRequirementsModule = {}
 
 ---@param fields? table

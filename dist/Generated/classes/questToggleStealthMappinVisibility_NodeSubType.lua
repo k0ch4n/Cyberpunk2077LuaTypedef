@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questToggleStealthMappinVisibility_NodeSubType: questIUIManagerNodeType
----@field public entityReference gameEntityReference
----@field public show Bool
+---@field public ["entityReference"] gameEntityReference
+---@field public ["show"] Bool
 questToggleStealthMappinVisibility_NodeSubType = {}
 
 ---@param fields? table

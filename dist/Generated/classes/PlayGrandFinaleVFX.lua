@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayGrandFinaleVFX: redEvent
----@field public target ScriptedPuppet
+---@field public ["target"] ScriptedPuppet
 PlayGrandFinaleVFX = {}
 
 ---@param fields? table

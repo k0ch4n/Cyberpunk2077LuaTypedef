@@ -44,7 +44,7 @@ function AISubActionShootWithWeapon_Record_Implementation.QueueNextShot(weapon, 
 function AISubActionShootWithWeapon_Record_Implementation.SetShootPointsByCoordinate(context, target, coordinateArray, shootPointPosition) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@param shootPointPosition Vector4[]
 ---@return Bool
 function AISubActionShootWithWeapon_Record_Implementation.SetShootPointsBytag(context, tags, shootPointPosition) return end
@@ -59,7 +59,7 @@ function AISubActionShootWithWeapon_Record_Implementation.SetShootPointsBytag(co
 ---@param offset? Vector4
 ---@param predictionTime? Float
 ---@param muzzleOffset? Vector4
----@param weaponCustomEvent? CName
+---@param weaponCustomEvent? CName|string
 ---@return nil
 function AISubActionShootWithWeapon_Record_Implementation.Shoot(context, record, duration, weapon, requestedTriggerMode, targetPosition, target, offset, predictionTime, muzzleOffset, weaponCustomEvent) return end
 

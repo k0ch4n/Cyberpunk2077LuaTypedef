@@ -21,7 +21,7 @@ function MenuScenario_DeathMenu:OnCloseDeathMenu() return end
 function MenuScenario_DeathMenu:OnCloseSettingsScreen() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_DeathMenu:OnEnterScenario(prevScenario, userData) return end

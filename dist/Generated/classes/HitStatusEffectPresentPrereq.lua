@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitStatusEffectPresentPrereq: GenericHitPrereq
----@field public checkType gamedataCheckType
----@field public statusEffectParam String
----@field public tag CName
+---@field public ["checkType"] gamedataCheckType
+---@field public ["statusEffectParam"] String
+---@field public ["tag"] CName
 HitStatusEffectPresentPrereq = {}
 
 ---@param fields? table

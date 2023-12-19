@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftingUserData: IScriptable
----@field public Mode CraftingMode
+---@field public ["Mode"] CraftingMode
 CraftingUserData = {}
 
 ---@param fields? table

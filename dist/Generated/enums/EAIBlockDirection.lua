@@ -3,8 +3,8 @@
 
 ---@enum EAIBlockDirection
 EAIBlockDirection = {
-    ["Undefined"] = 0,
-    ["Center"] = 1,
-    ["Left"] = 2,
-    ["Right"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["Center"] = 1, ---@type Enum
+    ["Left"] = 2, ---@type Enum
+    ["Right"] = 3, ---@type Enum
 }

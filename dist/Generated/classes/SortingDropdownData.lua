@@ -16,7 +16,7 @@ function SortingDropdownData.GetDefaultDropdownOptions() return end
 
 ---@private
 ---@param identifier Variant
----@param labelKey CName
+---@param labelKey CName|string
 ---@param direction DropdownItemDirection
 ---@return DropdownItemData
 function SortingDropdownData.GetDropdownItemData(identifier, labelKey, direction) return end

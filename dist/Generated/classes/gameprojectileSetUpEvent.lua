@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameprojectileSetUpEvent: redEvent
----@field public owner gameObject
----@field public weapon gameObject
----@field public trajectoryParams gameprojectileTrajectoryParams
----@field public lerpMultiplier Float
+---@field public ["owner"] gameObject
+---@field public ["weapon"] gameObject
+---@field public ["trajectoryParams"] gameprojectileTrajectoryParams
+---@field public ["lerpMultiplier"] Float
 gameprojectileSetUpEvent = {}
 
 ---@param fields? table

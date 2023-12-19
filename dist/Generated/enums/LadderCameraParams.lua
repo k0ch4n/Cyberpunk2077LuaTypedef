@@ -3,9 +3,9 @@
 
 ---@enum LadderCameraParams
 LadderCameraParams = {
-    ["None"] = 0,
-    ["Enter"] = 1,
-    ["Default"] = 2,
-    ["CameraReset"] = 3,
-    ["Exit"] = 4
+    ["None"] = 0, ---@type Enum
+    ["Enter"] = 1, ---@type Enum
+    ["Default"] = 2, ---@type Enum
+    ["CameraReset"] = 3, ---@type Enum
+    ["Exit"] = 4, ---@type Enum
 }

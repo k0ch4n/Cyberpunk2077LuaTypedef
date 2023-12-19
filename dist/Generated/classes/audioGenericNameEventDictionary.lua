@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioGenericNameEventDictionary: audioInlinedAudioMetadata
----@field public entries audioGenericNameEventItem[]
----@field public entryType audioGenericNameEventItem
+---@field public ["entries"] audioGenericNameEventItem[]
+---@field public ["entryType"] audioGenericNameEventItem
 audioGenericNameEventDictionary = {}
 
 ---@param fields? table

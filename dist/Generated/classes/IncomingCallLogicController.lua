@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class IncomingCallLogicController: inkWidgetLogicController
----@field private contactNameWidget inkTextWidgetReference
----@field private buttonHint inkWidgetReference
----@field private avatar inkImageWidgetReference
----@field private animProxy inkanimProxy
+---@field private ["contactNameWidget"] inkTextWidgetReference
+---@field private ["buttonHint"] inkWidgetReference
+---@field private ["avatar"] inkImageWidgetReference
+---@field private ["animProxy"] inkanimProxy
 IncomingCallLogicController = {}
 
 ---@param fields? table

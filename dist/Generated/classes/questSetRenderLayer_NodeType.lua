@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetRenderLayer_NodeType: questIRenderFxManagerNodeType
----@field public renderSceneLayer RenderSceneLayer
+---@field public ["renderSceneLayer"] RenderSceneLayer
 questSetRenderLayer_NodeType = {}
 
 ---@param fields? table

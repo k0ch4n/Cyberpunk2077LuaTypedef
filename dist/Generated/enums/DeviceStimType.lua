@@ -3,9 +3,9 @@
 
 ---@enum DeviceStimType
 DeviceStimType = {
-    ["Distract"] = 0,
-    ["VisualDistract"] = 1,
-    ["Explosion"] = 2,
-    ["VentilationAreaEffect"] = 3,
-    ["None"] = 4
+    ["Distract"] = 0, ---@type Enum
+    ["VisualDistract"] = 1, ---@type Enum
+    ["Explosion"] = 2, ---@type Enum
+    ["VentilationAreaEffect"] = 3, ---@type Enum
+    ["None"] = 4, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetText: gameJournalInternetBase
----@field public text LocalizationString
+---@field public ["text"] LocalizationString
 gameJournalInternetText = {}
 
 ---@param fields? table

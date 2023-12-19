@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIScanTargetTask: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field public ["inCommand"] AIArgumentMapping
 AIScanTargetTask = {}
 
 ---@param fields? table

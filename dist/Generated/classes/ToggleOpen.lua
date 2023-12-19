@@ -29,7 +29,7 @@ function ToggleOpen:GetInkWidgetTweakDBID() return end
 function ToggleOpen:GetTweakDBChoiceRecord() return end
 
 ---@param isOpen Bool
----@param altOpenChoice? CName
----@param altCloseChoice? CName
+---@param altOpenChoice? CName|string
+---@param altCloseChoice? CName|string
 ---@return nil
 function ToggleOpen:SetProperties(isOpen, altOpenChoice, altCloseChoice) return end

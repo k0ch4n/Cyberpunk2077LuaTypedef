@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterPostionEvent: BlackBoardRequestEvent
----@field public start Bool
+---@field public ["start"] Bool
 RegisterPostionEvent = {}
 
 ---@param fields? table

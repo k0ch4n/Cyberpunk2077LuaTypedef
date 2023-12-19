@@ -17,7 +17,7 @@ function MenuScenario_NetworkBreach:OnBack() return end
 function MenuScenario_NetworkBreach:OnCloseHubMenuRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_NetworkBreach:OnEnterScenario(prevScenario, userData) return end

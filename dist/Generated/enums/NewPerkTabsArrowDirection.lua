@@ -3,7 +3,7 @@
 
 ---@enum NewPerkTabsArrowDirection
 NewPerkTabsArrowDirection = {
-    ["Left"] = 0,
-    ["Right"] = 1,
-    ["Invalid"] = 2
+    ["Left"] = 0, ---@type Enum
+    ["Right"] = 1, ---@type Enum
+    ["Invalid"] = 2, ---@type Enum
 }

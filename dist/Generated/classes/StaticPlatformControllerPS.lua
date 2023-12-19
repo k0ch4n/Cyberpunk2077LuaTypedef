@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StaticPlatformControllerPS: ScriptableDeviceComponentPS
----@field private isTriggered Bool
+---@field private ["isTriggered"] Bool
 StaticPlatformControllerPS = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animCAnimationBufferUncompressed: animIAnimationBuffer
----@field public transforms QsTransform[][]
----@field public tracks Float[][]
----@field public duration Float
+---@field public ["transforms"] QsTransform[][]
+---@field public ["tracks"] Float[][]
+---@field public ["duration"] Float
 animCAnimationBufferUncompressed = {}
 
 ---@param fields? table

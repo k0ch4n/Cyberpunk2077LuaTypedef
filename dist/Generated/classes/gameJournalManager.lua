@@ -116,7 +116,7 @@ function gameJournalManager:GetObjectiveCurrentCounter(entry) return end
 function gameJournalManager:GetObjectiveTotalCounter(entry) return end
 
 ---@param context gameJournalRequestContext
----@param fallbackGroupName? CName
+---@param fallbackGroupName? CName|string
 ---@return nil, gameJournalOnscreensStructuredGroup[] entries
 function gameJournalManager:GetOnscreens(context, fallbackGroupName) return end
 
@@ -173,7 +173,7 @@ function gameJournalManager:IsEntryVisited(entry) return end
 function gameJournalManager:IsEp1Entry(entry) return end
 
 ---@param obj IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@param type gameJournalListenerType
 ---@return nil
 function gameJournalManager:RegisterScriptCallback(obj, functionName, type) return end
@@ -197,7 +197,7 @@ function gameJournalManager:TrackPrevNextEntry(next) return end
 function gameJournalManager:TryGetWebsiteData(address, context) return end
 
 ---@param obj IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function gameJournalManager:UnregisterScriptCallback(obj, functionName) return end
 

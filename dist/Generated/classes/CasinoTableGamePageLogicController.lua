@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CasinoTableGamePageLogicController: inkWidgetLogicController
----@field public cash inkTextWidgetReference
----@field public bet inkTextWidgetReference
----@field public marks BetOnMark[]
+---@field public ["cash"] inkTextWidgetReference
+---@field public ["bet"] inkTextWidgetReference
+---@field public ["marks"] BetOnMark[]
 CasinoTableGamePageLogicController = {}
 
 ---@param fields? table

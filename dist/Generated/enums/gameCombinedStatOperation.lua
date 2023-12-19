@@ -3,13 +3,13 @@
 
 ---@enum gameCombinedStatOperation
 gameCombinedStatOperation = {
-    ["Addition"] = 0,
-    ["Subtraction"] = 1,
-    ["Multiplication"] = 2,
-    ["Division"] = 3,
-    ["Modulo"] = 4,
-    ["Invert"] = 5,
-    ["ComplementMultiplication"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["Addition"] = 0, ---@type Enum
+    ["Subtraction"] = 1, ---@type Enum
+    ["Multiplication"] = 2, ---@type Enum
+    ["Division"] = 3, ---@type Enum
+    ["Modulo"] = 4, ---@type Enum
+    ["Invert"] = 5, ---@type Enum
+    ["ComplementMultiplication"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

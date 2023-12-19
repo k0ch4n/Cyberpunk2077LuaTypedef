@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnlocLocstringId
----@field public ruid CRUID
+---@field public ["ruid"] CRUID
 scnlocLocstringId = {}
 
 ---@param fields? table

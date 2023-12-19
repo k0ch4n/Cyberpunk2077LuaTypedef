@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetHeatCounterMultiplier: gameScriptableSystemRequest
----@field public heatMultiplier Float
----@field public reset Bool
----@field public source CName
+---@field public ["heatMultiplier"] Float
+---@field public ["reset"] Bool
+---@field public ["source"] CName
 SetHeatCounterMultiplier = {}
 
 ---@param fields? table

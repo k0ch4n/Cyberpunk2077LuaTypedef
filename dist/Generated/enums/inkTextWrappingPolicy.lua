@@ -3,7 +3,7 @@
 
 ---@enum inkTextWrappingPolicy
 inkTextWrappingPolicy = {
-    ["SingleLine"] = 0,
-    ["MultiLine"] = 1,
-    ["MultilineNoWrap"] = 2
+    ["SingleLine"] = 0, ---@type Enum
+    ["MultiLine"] = 1, ---@type Enum
+    ["MultilineNoWrap"] = 2, ---@type Enum
 }

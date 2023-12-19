@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCManager: IScriptable
----@field private owner NPCPuppet
+---@field private ["owner"] NPCPuppet
 NPCManager = {}
 
 ---@param fields? table
@@ -10,32 +10,32 @@ NPCManager = {}
 function NPCManager.new(fields) return end
 
 ---@param recordID TweakDBID
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAllTags(recordID, tags) return end
 
 ---@param puppet ScriptedPuppet
----@param visualTags CName[]
+---@param visualTags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAllVisualTags(puppet, visualTags) return end
 
 ---@param recordID TweakDBID
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAnyTags(recordID, tags) return end
 
 ---@param puppet ScriptedPuppet
----@param visualTags CName[]
+---@param visualTags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAnyVisualTags(puppet, visualTags) return end
 
 ---@param recordID TweakDBID
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function NPCManager.HasTag(recordID, tag) return end
 
 ---@param puppet ScriptedPuppet
----@param visualTag CName
+---@param visualTag CName|string
 ---@return Bool
 function NPCManager.HasVisualTag(puppet, visualTag) return end
 

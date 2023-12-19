@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetAsCrowdObstacle: questICharacterManagerParameters_NodeSubType
----@field public params questSetAsCrowdObstacle_NodeTypeParams[]
+---@field public ["params"] questSetAsCrowdObstacle_NodeTypeParams[]
 questCharacterManagerParameters_SetAsCrowdObstacle = {}
 
 ---@param fields? table

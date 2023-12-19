@@ -3,8 +3,8 @@
 
 ---@enum toolsMessageSeverity
 toolsMessageSeverity = {
-    ["Success"] = 0,
-    ["Info"] = 1,
-    ["Warning"] = 2,
-    ["Error"] = 3
+    ["Success"] = 0, ---@type Enum
+    ["Info"] = 1, ---@type Enum
+    ["Warning"] = 2, ---@type Enum
+    ["Error"] = 3, ---@type Enum
 }

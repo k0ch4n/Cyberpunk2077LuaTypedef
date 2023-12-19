@@ -3,7 +3,7 @@
 
 ---@enum QuestListSortType
 QuestListSortType = {
-    ["Updated"] = 0,
-    ["Distance"] = 1,
-    ["Size"] = 2
+    ["Updated"] = 0, ---@type Enum
+    ["Distance"] = 1, ---@type Enum
+    ["Size"] = 2, ---@type Enum
 }

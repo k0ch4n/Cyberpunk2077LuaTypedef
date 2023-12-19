@@ -2,40 +2,40 @@
 ---@diagnostic disable
 
 ---@class gameObject: entGameEntity
----@field public persistentState gamePersistentState
----@field public playerSocket gamePlayerSocket
----@field public uiSlotComponent entSlotComponent
----@field public tags redTagList
----@field public displayName LocalizationString
----@field public displayDescription LocalizationString
----@field public audioResourceName CName
----@field public visibilityCheckDistance Float
----@field protected forceRegisterInHudManager Bool
----@field protected prereqListeners GameObjectListener[]
----@field protected statusEffectListeners StatusEffectTriggerListener[]
----@field private lastEngineTime Float
----@field private accumulatedTimePasssed Float
----@field protected scanningComponent gameScanningComponent
----@field protected visionComponent gameVisionModeComponent
----@field protected isHighlightedInFocusMode Bool
----@field protected statusEffectComponent gameStatusEffectComponent
----@field protected markAsQuest Bool
----@field private e3ObjectRevealed Bool
----@field protected workspotMapper WorkspotMapperComponent
----@field protected stimBroadcaster StimBroadcasterComponent
----@field protected squadMemberComponent SquadMemberBaseComponent
----@field private sourceShootComponent gameSourceShootComponent
----@field private targetShootComponent gameTargetShootComponent
----@field protected receivedDamageHistory DamageHistoryEntry[]
----@field protected forceDefeatReward Bool
----@field protected killRewardDisabled Bool
----@field protected willDieSoon Bool
----@field private isScannerDataDirty Bool
----@field private hasVisibilityForcedInAnimSystem Bool
----@field protected isDead Bool
----@field private lastHitInstigatorID entEntityID
----@field private hitInstigatorCooldownID gameDelayID
----@field protected isTargetedWithSmartWeapon Bool
+---@field public ["persistentState"] gamePersistentState
+---@field public ["playerSocket"] gamePlayerSocket
+---@field public ["uiSlotComponent"] entSlotComponent
+---@field public ["tags"] redTagList
+---@field public ["displayName"] LocalizationString
+---@field public ["displayDescription"] LocalizationString
+---@field public ["audioResourceName"] CName
+---@field public ["visibilityCheckDistance"] Float
+---@field protected ["forceRegisterInHudManager"] Bool
+---@field protected ["prereqListeners"] GameObjectListener[]
+---@field protected ["statusEffectListeners"] StatusEffectTriggerListener[]
+---@field private ["lastEngineTime"] Float
+---@field private ["accumulatedTimePasssed"] Float
+---@field protected ["scanningComponent"] gameScanningComponent
+---@field protected ["visionComponent"] gameVisionModeComponent
+---@field protected ["isHighlightedInFocusMode"] Bool
+---@field protected ["statusEffectComponent"] gameStatusEffectComponent
+---@field protected ["markAsQuest"] Bool
+---@field private ["e3ObjectRevealed"] Bool
+---@field protected ["workspotMapper"] WorkspotMapperComponent
+---@field protected ["stimBroadcaster"] StimBroadcasterComponent
+---@field protected ["squadMemberComponent"] SquadMemberBaseComponent
+---@field private ["sourceShootComponent"] gameSourceShootComponent
+---@field private ["targetShootComponent"] gameTargetShootComponent
+---@field protected ["receivedDamageHistory"] DamageHistoryEntry[]
+---@field protected ["forceDefeatReward"] Bool
+---@field protected ["killRewardDisabled"] Bool
+---@field protected ["willDieSoon"] Bool
+---@field private ["isScannerDataDirty"] Bool
+---@field private ["hasVisibilityForcedInAnimSystem"] Bool
+---@field protected ["isDead"] Bool
+---@field private ["lastHitInstigatorID"] entEntityID
+---@field private ["hitInstigatorCooldownID"] gameDelayID
+---@field protected ["isTargetedWithSmartWeapon"] Bool
 gameObject = {}
 
 ---@param fields? table
@@ -58,21 +58,21 @@ function gameObject.AddStatusEffectTriggerListener(target, listener) return end
 function gameObject.ApplyModifierGroup(self, modifierGroupID) return end
 
 ---@param self gameObject
----@param parameterName CName
+---@param parameterName CName|string
 ---@param parameterValue Float
----@param emitterName? CName
+---@param emitterName? CName|string
 ---@return nil
 function gameObject.AudioParameter(self, parameterName, parameterValue, emitterName) return end
 
 ---@param self gameObject
----@param switchName CName
----@param switchValue CName
----@param emitterName? CName
+---@param switchName CName|string
+---@param switchValue CName|string
+---@param emitterName? CName|string
 ---@return nil
 function gameObject.AudioSwitch(self, switchName, switchValue, emitterName) return end
 
 ---@param self gameObject
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function gameObject.BreakReplicatedEffectLoopEvent(self, effectName) return end
 
@@ -145,7 +145,7 @@ function gameObject.GetTargetAngleInInt(target, owner) return end
 function gameObject.GetTargetAngleInInt(target, owner) return end
 
 ---@param self gameObject
----@param cooldownName CName
+---@param cooldownName CName|string
 ---@param id? Int32
 ---@return Bool
 function gameObject.IsCooldownActive(self, cooldownName, id) return end
@@ -159,39 +159,39 @@ function gameObject.IsFriendlyTowardsPlayer(obj) return end
 function gameObject.IsVehicle(object) return end
 
 ---@param self gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject.PlayMetadataEvent(self, eventName) return end
 
 ---@param self gameObject
----@param eventName CName
----@param emitterName? CName
+---@param eventName CName|string
+---@param emitterName? CName|string
 ---@return nil
 function gameObject.PlaySound(self, eventName, emitterName) return end
 
 ---@param self gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject.PlaySoundEvent(self, eventName) return end
 
 ---@param self gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@param flag? audioAudioEventFlags
 ---@param type? audioEventActionType
 ---@return nil
 function gameObject.PlaySoundEventWithParams(self, eventName, flag, type) return end
 
 ---@param self gameObject
----@param eventName CName
----@param emitterName? CName
+---@param eventName CName|string
+---@param emitterName? CName|string
 ---@param flag? audioAudioEventFlags
 ---@param type? audioEventActionType
 ---@return nil
 function gameObject.PlaySoundWithParams(self, eventName, emitterName, flag, type) return end
 
 ---@param self gameObject
----@param voName CName
----@param debugInitialContext CName
+---@param voName CName|string
+---@param debugInitialContext CName|string
 ---@param delay? Float
 ---@param answeringEntityID? entEntityID
 ---@param canPlayInVehicle? Bool
@@ -199,7 +199,7 @@ function gameObject.PlaySoundWithParams(self, eventName, emitterName, flag, type
 function gameObject.PlayVoiceOver(self, voName, debugInitialContext, delay, answeringEntityID, canPlayInVehicle) return end
 
 ---@param self gameObject
----@param cooldownName CName
+---@param cooldownName CName|string
 ---@return nil
 function gameObject.RemoveCooldown(self, cooldownName) return end
 
@@ -220,7 +220,7 @@ function gameObject.RemoveStatusEffectTriggerListener(target, listener) return e
 
 ---@param self gameObject
 ---@param reveal Bool
----@param reason CName
+---@param reason CName|string
 ---@param instigatorID? entEntityID
 ---@param lifetime? Float
 ---@param delay? Float
@@ -228,14 +228,14 @@ function gameObject.RemoveStatusEffectTriggerListener(target, listener) return e
 function gameObject.SendForceRevealObjectEvent(self, reveal, reason, instigatorID, lifetime, delay) return end
 
 ---@param self gameObject
----@param paramName CName
+---@param paramName CName|string
 ---@param paramValue Float
 ---@return nil
 function gameObject.SetAudioParameter(self, paramName, paramValue) return end
 
 ---@param self gameObject
----@param switchName CName
----@param switchValue CName
+---@param switchName CName|string
+---@param switchValue CName|string
 ---@return nil
 function gameObject.SetAudioSwitch(self, switchName, switchValue) return end
 
@@ -243,24 +243,24 @@ function gameObject.SetAudioSwitch(self, switchName, switchValue) return end
 ---@param highType EFocusForcedHighlightType
 ---@param prio EPriority
 ---@param id entEntityID
----@param className CName
+---@param className CName|string
 ---@return FocusForcedHighlightData
 function gameObject.SetFocusForcedHightlightData(outType, highType, prio, id, className) return end
 
 ---@param self gameObject
----@param appearance CName
+---@param appearance CName|string
 ---@return nil
 function gameObject.SetMeshAppearanceEvent(self, appearance) return end
 
 ---@param self gameObject
----@param cooldownName CName
+---@param cooldownName CName|string
 ---@param cooldownDuration Float
 ---@param ignoreTimeDilation? Bool
 ---@return Int32
 function gameObject.StartCooldown(self, cooldownName, cooldownDuration, ignoreTimeDilation) return end
 
 ---@param self gameObject
----@param effectName CName
+---@param effectName CName|string
 ---@param shouldPersist? Bool
 ---@param breakAllOnDestroy? Bool
 ---@return nil
@@ -268,23 +268,23 @@ function gameObject.StartReplicatedEffectEvent(self, effectName, shouldPersist, 
 
 ---@param self gameObject
 ---@param id entEntityID
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function gameObject.StopEffectEvent(self, id, effectName) return end
 
 ---@param self gameObject
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function gameObject.StopReplicatedEffectEvent(self, effectName) return end
 
 ---@param self gameObject
----@param eventName CName
----@param emitterName? CName
+---@param eventName CName|string
+---@param emitterName? CName|string
 ---@return nil
 function gameObject.StopSound(self, eventName, emitterName) return end
 
 ---@param self gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject.StopSoundEvent(self, eventName) return end
 
@@ -307,7 +307,7 @@ function gameObject.TargetHasLocomotionMalfunction(target) return end
 function gameObject.TargetIsStunned(target) return end
 
 ---@param owner gameObject
----@param sourceName CName
+---@param sourceName CName|string
 ---@param isVisibe Bool
 ---@param transitionTime? Float
 ---@return nil
@@ -330,7 +330,7 @@ function gameObject:GetBasePS() return end
 ---@return CName
 function gameObject:GetCurrentContext() return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@param isDebug Bool
 ---@return nil, Float x, Float y
 function gameObject:GetCurveValue(curveName, isDebug) return end
@@ -359,7 +359,7 @@ function gameObject:GetTracedActionName() return end
 ---@return entSlotComponent
 function gameObject:GetUISlotComponent() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameObject:HasTag(tag) return end
 
@@ -383,58 +383,58 @@ function gameObject:PlayerLastUsedPad() return end
 function gameObject:QueueReplicatedEvent(evt) return end
 
 ---@param listener IScriptable
----@param name? CName
+---@param name? CName|string
 ---@return nil
 function gameObject:RegisterInputListener(listener, name) return end
 
 ---@param listener IScriptable
----@param name CName
+---@param name CName|string
 ---@return nil
 function gameObject:RegisterInputListenerWithOwner(listener, name) return end
 
 ---@param obj gameObject
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject:ReplicateAnimEvent(obj, eventName) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
 function gameObject:ReplicateAnimFeature(obj, inputName, value) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value Bool
 ---@return nil
 function gameObject:ReplicateInputBool(obj, inputName, value) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value Float
 ---@return nil
 function gameObject:ReplicateInputFloat(obj, inputName, value) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value Int32
 ---@return nil
 function gameObject:ReplicateInputInt(obj, inputName, value) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value Vector4
 ---@return nil
 function gameObject:ReplicateInputVector(obj, inputName, value) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param data? IScriptable
 ---@param flags? Int32
 ---@return Bool
 function gameObject:TriggerEvent(eventName, data, flags) return end
 
 ---@param listener IScriptable
----@param name? CName
+---@param name? CName|string
 ---@return nil
 function gameObject:UnregisterInputListener(listener, name) return end
 
@@ -822,7 +822,7 @@ function gameObject:GetFreeWorkspotRefForAIAction(aiAction) return end
 ---@return Int32
 function gameObject:GetFreeWorkspotsCountForAIAction(aiAction) return end
 
----@param key CName
+---@param key CName|string
 ---@return gameFxResource
 function gameObject:GetFxResourceByKey(key) return end
 
@@ -1011,7 +1011,7 @@ function gameObject:HasHighlight(highlightType, outlineType, sourceID) return en
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@param sourceID entEntityID
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function gameObject:HasHighlight(highlightType, outlineType, sourceID, sourceName) return end
 
@@ -1269,11 +1269,11 @@ function gameObject:IsWardrobe() return end
 ---@return nil
 function gameObject:MarkAsQuest(isQuest) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject:OnAnimEventReplicated(eventName) return end
 
----@param inputName CName
+---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
 function gameObject:OnAnimFeatureReplicated(inputName, value) return end
@@ -1424,7 +1424,7 @@ function gameObject:SendEventToDefaultPS(evt) return end
 
 ---@protected
 ---@param reveal Bool
----@param reason CName
+---@param reason CName|string
 ---@param instigatorID? entEntityID
 ---@param lifetime? Float
 ---@param delay? Float
@@ -1496,7 +1496,7 @@ function gameObject:StopStatusEffectSFX(evt) return end
 function gameObject:StopStatusEffectVFX(evt) return end
 
 ---@protected
----@param sourceName CName
+---@param sourceName CName|string
 ---@param isVisibe Bool
 ---@param transitionTime? Float
 ---@param entityID? entEntityID
@@ -1510,7 +1510,7 @@ function gameObject:ToggleForcedVisibilityInAnimSystem(sourceName, isVisibe, tra
 function gameObject:ToggleQuestImportance(isImportant) return end
 
 ---@protected
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameObject:TriggerMenuEvent(eventName) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectFilter_ReachableByAcousticGraph: gameEffectObjectSingleFilter
----@field public maxPathLength gameEffectInputParameter_Float
+---@field public ["maxPathLength"] gameEffectInputParameter_Float
 gameEffectFilter_ReachableByAcousticGraph = {}
 
 ---@param fields? table

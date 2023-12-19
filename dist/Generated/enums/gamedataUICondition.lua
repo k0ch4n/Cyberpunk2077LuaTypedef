@@ -3,12 +3,12 @@
 
 ---@enum gamedataUICondition
 gamedataUICondition = {
-    ["InEyesSubMenu"] = 0,
-    ["InHandsSubMenu"] = 1,
-    ["InSubMenu"] = 2,
-    ["IsIntroFinished"] = 3,
-    ["IsSetEquippingSubMenu"] = 4,
-    ["Visible"] = 5,
-    ["Count"] = 6,
-    ["Invalid"] = 7
+    ["InEyesSubMenu"] = 0, ---@type Enum
+    ["InHandsSubMenu"] = 1, ---@type Enum
+    ["InSubMenu"] = 2, ---@type Enum
+    ["IsIntroFinished"] = 3, ---@type Enum
+    ["IsSetEquippingSubMenu"] = 4, ---@type Enum
+    ["Visible"] = 5, ---@type Enum
+    ["Count"] = 6, ---@type Enum
+    ["Invalid"] = 7, ---@type Enum
 }

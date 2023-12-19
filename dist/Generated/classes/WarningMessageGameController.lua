@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class WarningMessageGameController: gameuiHUDGameController
----@field private root inkWidget
----@field private mainTextWidget inkTextWidgetReference
----@field private attencionIcon inkWidgetReference
----@field private neutralIcon inkWidgetReference
----@field private vehicleIcon inkWidgetReference
----@field private apartmentIcon inkWidgetReference
----@field private relicIcon inkWidgetReference
----@field private moneyIcon inkWidgetReference
----@field private blackboard gameIBlackboard
----@field private blackboardDef UI_NotificationsDef
----@field private warningMessageCallbackId redCallbackObject
----@field private simpleMessage gameSimpleScreenMessage
----@field private blinkingAnim inkanimDefinition
----@field private showAnim inkanimDefinition
----@field private hideAnim inkanimDefinition
----@field private animProxyShow inkanimProxy
----@field private animProxyHide inkanimProxy
----@field private animProxyTimeout inkanimProxy
+---@field private ["root"] inkWidget
+---@field private ["mainTextWidget"] inkTextWidgetReference
+---@field private ["attencionIcon"] inkWidgetReference
+---@field private ["neutralIcon"] inkWidgetReference
+---@field private ["vehicleIcon"] inkWidgetReference
+---@field private ["apartmentIcon"] inkWidgetReference
+---@field private ["relicIcon"] inkWidgetReference
+---@field private ["moneyIcon"] inkWidgetReference
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["blackboardDef"] UI_NotificationsDef
+---@field private ["warningMessageCallbackId"] redCallbackObject
+---@field private ["simpleMessage"] gameSimpleScreenMessage
+---@field private ["blinkingAnim"] inkanimDefinition
+---@field private ["showAnim"] inkanimDefinition
+---@field private ["hideAnim"] inkanimDefinition
+---@field private ["animProxyShow"] inkanimProxy
+---@field private ["animProxyHide"] inkanimProxy
+---@field private ["animProxyTimeout"] inkanimProxy
 WarningMessageGameController = {}
 
 ---@param fields? table

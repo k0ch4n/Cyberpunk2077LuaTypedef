@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipModuleController: inkWidgetLogicController
----@field protected lineWidget inkWidgetReference
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
+---@field protected ["lineWidget"] inkWidgetReference
+---@field protected ["displayContext"] ItemDisplayContextData
+---@field protected ["tooltipDisplayContext"] InventoryTooltipDisplayContext
+---@field protected ["itemDisplayContext"] gameItemDisplayContext
 ItemTooltipModuleController = {}
 
 ---@param fields? table

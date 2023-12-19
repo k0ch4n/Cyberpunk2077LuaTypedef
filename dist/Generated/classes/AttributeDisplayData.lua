@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AttributeDisplayData: IDisplayData
----@field public attributeId TweakDBID
----@field public proficiencies ProficiencyDisplayData[]
+---@field public ["attributeId"] TweakDBID
+---@field public ["proficiencies"] ProficiencyDisplayData[]
 AttributeDisplayData = {}
 
 ---@param fields? table

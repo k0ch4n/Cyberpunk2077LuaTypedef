@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkWidgetLibraryUnpackedView: ISerializable
----@field public libraryItems inkWidgetLibraryItemUnpackedView[]
----@field public externalLibraries inkWidgetLibraryResource[]
+---@field public ["libraryItems"] inkWidgetLibraryItemUnpackedView[]
+---@field public ["externalLibraries"] inkWidgetLibraryResource[]
 inkWidgetLibraryUnpackedView = {}
 
 ---@param fields? table

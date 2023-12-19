@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class DataTermInkGameController: DeviceInkGameControllerBase
----@field private fcPointsPanel inkHorizontalPanelWidget
----@field private districtText inkTextWidget
----@field private pointText inkTextWidget
----@field private point gameFastTravelPointData
----@field private onFastTravelPointUpdateListener redCallbackObject
----@field private onToggleHologramListener redCallbackObject
+---@field private ["fcPointsPanel"] inkHorizontalPanelWidget
+---@field private ["districtText"] inkTextWidget
+---@field private ["pointText"] inkTextWidget
+---@field private ["point"] gameFastTravelPointData
+---@field private ["onFastTravelPointUpdateListener"] redCallbackObject
+---@field private ["onToggleHologramListener"] redCallbackObject
 DataTermInkGameController = {}
 
 ---@param fields? table

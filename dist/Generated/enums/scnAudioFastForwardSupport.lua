@@ -3,6 +3,6 @@
 
 ---@enum scnAudioFastForwardSupport
 scnAudioFastForwardSupport = {
-    ["MuteDuringFastForward"] = 1,
-    ["DontMuteDuringFastForward"] = 2
+    ["MuteDuringFastForward"] = 1, ---@type Enum
+    ["DontMuteDuringFastForward"] = 2, ---@type Enum
 }

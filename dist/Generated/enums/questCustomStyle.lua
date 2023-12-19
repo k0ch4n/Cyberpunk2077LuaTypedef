@@ -3,6 +3,6 @@
 
 ---@enum questCustomStyle
 questCustomStyle = {
-    ["PlacidePhone"] = 0,
-    ["VideoCallInterupt"] = 1
+    ["PlacidePhone"] = 0, ---@type Enum
+    ["VideoCallInterupt"] = 1, ---@type Enum
 }

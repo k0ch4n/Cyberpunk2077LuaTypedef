@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldWorldEnvironmentAreaParameters
----@field public enable Bool
----@field public globalLight worldWorldGlobalLightParameters
+---@field public ["enable"] Bool
+---@field public ["globalLight"] worldWorldGlobalLightParameters
 worldWorldEnvironmentAreaParameters = {}
 
 ---@param fields? table

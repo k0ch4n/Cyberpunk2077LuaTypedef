@@ -3,6 +3,6 @@
 
 ---@enum animEAnimGraphLogicOp
 animEAnimGraphLogicOp = {
-    ["AGLO_Or"] = 0,
-    ["AGLO_And"] = 1
+    ["AGLO_Or"] = 0, ---@type Enum
+    ["AGLO_And"] = 1, ---@type Enum
 }

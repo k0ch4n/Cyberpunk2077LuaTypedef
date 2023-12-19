@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_Ricochet: gameEffectExecutor
----@field public outputRicochetVector gameEffectOutputParameter_Vector
+---@field public ["outputRicochetVector"] gameEffectOutputParameter_Vector
 gameEffectExecutor_Ricochet = {}
 
 ---@param fields? table

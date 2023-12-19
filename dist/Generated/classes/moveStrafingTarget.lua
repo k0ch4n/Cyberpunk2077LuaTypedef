@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class moveStrafingTarget
----@field public position Vector3
----@field public object gameObject
+---@field public ["position"] Vector3
+---@field public ["object"] gameObject
 moveStrafingTarget = {}
 
 ---@param fields? table

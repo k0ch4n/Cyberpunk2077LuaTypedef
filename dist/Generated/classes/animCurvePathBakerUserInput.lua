@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animCurvePathBakerUserInput
----@field public controllersSetupName CName
----@field public useStart Bool
----@field public useStop Bool
----@field public blendTime Float
+---@field public ["controllersSetupName"] CName
+---@field public ["useStart"] Bool
+---@field public ["useStop"] Bool
+---@field public ["blendTime"] Float
 animCurvePathBakerUserInput = {}
 
 ---@param fields? table

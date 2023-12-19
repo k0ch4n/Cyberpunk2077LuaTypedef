@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAnimFeature_TPPRepresentation: animAnimFeature
----@field public IsActive Bool
+---@field public ["IsActive"] Bool
 gameAnimFeature_TPPRepresentation = {}
 
 ---@param fields? table

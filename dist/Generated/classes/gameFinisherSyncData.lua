@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameFinisherSyncData
----@field public syncAnimSlotName CName
----@field public effector TweakDBID
+---@field public ["syncAnimSlotName"] CName
+---@field public ["effector"] TweakDBID
 gameFinisherSyncData = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PhotoModeFrame: inkWidgetLogicController
----@field private images inkImageWidgetReference[]
----@field private keepImageAspectRatio Bool
----@field public stickersController gameuiPhotoModeStickersController
----@field private currentImagePart CName
----@field private opacity Float
+---@field private ["images"] inkImageWidgetReference[]
+---@field private ["keepImageAspectRatio"] Bool
+---@field public ["stickersController"] gameuiPhotoModeStickersController
+---@field private ["currentImagePart"] CName
+---@field private ["opacity"] Float
 PhotoModeFrame = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function PhotoModeFrame:SetColor(color) return end
 ---@return nil
 function PhotoModeFrame:SetFlip(horizontal, vertical) return end
 
----@param imageParts CName[]
+---@param imageParts CName[]|string[]
 ---@return nil
 function PhotoModeFrame:SetImages(imageParts) return end
 

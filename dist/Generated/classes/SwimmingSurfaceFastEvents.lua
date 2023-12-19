@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SwimmingSurfaceFastEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
----@field public timeSinceLastImpulse Float
----@field public timeBetweenMovementImpulses Float
----@field public movementImpulseRadius Float
----@field public movementImpulseStrength Float
----@field public movementImpulseOffset Float
+---@field public ["lapsedTime"] Float
+---@field public ["timeSinceLastImpulse"] Float
+---@field public ["timeBetweenMovementImpulses"] Float
+---@field public ["movementImpulseRadius"] Float
+---@field public ["movementImpulseStrength"] Float
+---@field public ["movementImpulseOffset"] Float
 SwimmingSurfaceFastEvents = {}
 
 ---@param fields? table

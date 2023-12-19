@@ -3,7 +3,7 @@
 
 ---@enum AIbehaviorUpdateOutcome
 AIbehaviorUpdateOutcome = {
-    ["IN_PROGRESS"] = 0,
-    ["SUCCESS"] = 1,
-    ["FAILURE"] = 2
+    ["IN_PROGRESS"] = 0, ---@type Enum
+    ["SUCCESS"] = 1, ---@type Enum
+    ["FAILURE"] = 2, ---@type Enum
 }

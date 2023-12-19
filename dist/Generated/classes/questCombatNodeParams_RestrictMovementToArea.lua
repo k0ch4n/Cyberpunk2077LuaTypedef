@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCombatNodeParams_RestrictMovementToArea: questCombatNodeParams
----@field public area NodeRef
+---@field public ["area"] NodeRef
 questCombatNodeParams_RestrictMovementToArea = {}
 
 ---@param fields? table

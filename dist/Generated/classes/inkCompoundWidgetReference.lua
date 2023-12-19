@@ -9,7 +9,7 @@ inkCompoundWidgetReference = {}
 function inkCompoundWidgetReference.new(fields) return end
 
 ---@param self inkCompoundWidgetReference
----@param widgetTypeName CName
+---@param widgetTypeName CName|string
 ---@return inkWidget
 function inkCompoundWidgetReference.AddChild(self, widgetTypeName) return end
 
@@ -47,7 +47,7 @@ function inkCompoundWidgetReference.GetWidgetByIndex(self, index) return end
 function inkCompoundWidgetReference.GetWidgetByPath(self, path) return end
 
 ---@param self inkCompoundWidgetReference
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidget
 function inkCompoundWidgetReference.GetWidgetByPathName(self, widgetNamePath) return end
 
@@ -66,7 +66,7 @@ function inkCompoundWidgetReference.RemoveChild(self, childWidget) return end
 function inkCompoundWidgetReference.RemoveChildByIndex(self, index) return end
 
 ---@param self inkCompoundWidgetReference
----@param widgetName CName
+---@param widgetName CName|string
 ---@return nil
 function inkCompoundWidgetReference.RemoveChildByName(self, widgetName) return end
 
@@ -92,6 +92,6 @@ function inkCompoundWidgetReference.GetWidget(self, index) return end
 function inkCompoundWidgetReference.GetWidget(self, path) return end
 
 ---@param self inkCompoundWidgetReference
----@param path CName
+---@param path CName|string
 ---@return inkWidget
 function inkCompoundWidgetReference.GetWidget(self, path) return end

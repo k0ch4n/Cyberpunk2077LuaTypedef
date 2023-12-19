@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerksMenuProficiencyItemClicked: PerksMenuAttributeItemClicked
----@field public index Int32
+---@field public ["index"] Int32
 PerksMenuProficiencyItemClicked = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum gameDebugViewETextAlignment
 gameDebugViewETextAlignment = {
-    ["Left"] = -1,
-    ["Center"] = 0,
-    ["Right"] = 1
+    ["Left"] = -1, ---@type Enum
+    ["Center"] = 0, ---@type Enum
+    ["Right"] = 1, ---@type Enum
 }

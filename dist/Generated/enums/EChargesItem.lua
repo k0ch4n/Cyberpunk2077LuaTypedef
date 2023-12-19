@@ -3,7 +3,7 @@
 
 ---@enum EChargesItem
 EChargesItem = {
-    ["Grenade"] = 0,
-    ["HealingItems"] = 1,
-    ["ProjectileLauncher"] = 2
+    ["Grenade"] = 0, ---@type Enum
+    ["HealingItems"] = 1, ---@type Enum
+    ["ProjectileLauncher"] = 2, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum workWorkspotLogic
 workWorkspotLogic = {
-    ["Allow"] = 0,
-    ["Deny"] = 1
+    ["Allow"] = 0, ---@type Enum
+    ["Deny"] = 1, ---@type Enum
 }

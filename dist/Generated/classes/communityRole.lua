@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityRole: ISerializable
----@field public roleName CName
+---@field public ["roleName"] CName
 communityRole = {}
 
 ---@param fields? table

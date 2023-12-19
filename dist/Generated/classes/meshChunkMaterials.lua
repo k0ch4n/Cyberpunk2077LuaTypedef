@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshChunkMaterials
----@field public materialNames CName[]
+---@field public ["materialNames"] CName[]
 meshChunkMaterials = {}
 
 ---@param fields? table

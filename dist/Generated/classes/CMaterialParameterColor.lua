@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterColor: CMaterialParameter
----@field public color Color
+---@field public ["color"] Color
 CMaterialParameterColor = {}
 
 ---@param fields? table

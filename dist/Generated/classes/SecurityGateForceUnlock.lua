@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityGateForceUnlock: redEvent
----@field public entranceAllowedFor entEntityID
----@field public shouldUnlock Bool
+---@field public ["entranceAllowedFor"] entEntityID
+---@field public ["shouldUnlock"] Bool
 SecurityGateForceUnlock = {}
 
 ---@param fields? table

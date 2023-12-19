@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class garmentHiddenTrianglesRemovalParams
----@field public garmentBorderThreshold Float
----@field public removeHiddenTriangles Bool
----@field public removeHiddenTrianglesRasterization Bool
----@field public rayLengthInCM Float
----@field public rayLengthMorphOffsetFactor Float
+---@field public ["garmentBorderThreshold"] Float
+---@field public ["removeHiddenTriangles"] Bool
+---@field public ["removeHiddenTrianglesRasterization"] Bool
+---@field public ["rayLengthInCM"] Float
+---@field public ["rayLengthMorphOffsetFactor"] Float
 garmentHiddenTrianglesRemovalParams = {}
 
 ---@param fields? table

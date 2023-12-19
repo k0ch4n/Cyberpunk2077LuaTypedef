@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkHUDLayerDefinition: inkLayerDefinition
----@field public entriesResource inkHudEntriesResource
+---@field public ["entriesResource"] inkHudEntriesResource
 inkHUDLayerDefinition = {}
 
 ---@param fields? table

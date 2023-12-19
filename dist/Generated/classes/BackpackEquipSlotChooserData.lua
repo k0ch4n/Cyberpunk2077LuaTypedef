@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BackpackEquipSlotChooserData: inkGameNotificationData
----@field public item UIInventoryItem
----@field public inventoryScriptableSystem UIInventoryScriptableSystem
+---@field public ["item"] UIInventoryItem
+---@field public ["inventoryScriptableSystem"] UIInventoryScriptableSystem
 BackpackEquipSlotChooserData = {}
 
 ---@param fields? table

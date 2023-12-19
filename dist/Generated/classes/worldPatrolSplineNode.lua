@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldPatrolSplineNode: worldSplineNode
----@field public patrolPointDefs worldPatrolSplinePointDefinition[]
----@field public patrolPoints NodeRef[]
----@field public spots worldTrafficSpotDefinition[]
+---@field public ["patrolPointDefs"] worldPatrolSplinePointDefinition[]
+---@field public ["patrolPoints"] NodeRef[]
+---@field public ["spots"] worldTrafficSpotDefinition[]
 worldPatrolSplineNode = {}
 
 ---@param fields? table

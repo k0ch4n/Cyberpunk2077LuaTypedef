@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entTagMask
----@field public hardTags redTagList
----@field public softTags redTagList
----@field public excludedTags redTagList
+---@field public ["hardTags"] redTagList
+---@field public ["softTags"] redTagList
+---@field public ["excludedTags"] redTagList
 entTagMask = {}
 
 ---@param fields? table

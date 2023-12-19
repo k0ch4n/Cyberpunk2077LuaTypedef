@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimRequestID
----@field public ID Uint32
----@field public isValid Bool
+---@field public ["ID"] Uint32
+---@field public ["isValid"] Bool
 StimRequestID = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CIESDataResource: CResource
----@field public samples Uint16[]
+---@field public ["samples"] Uint16[]
 CIESDataResource = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DPSPackage
----@field public value Float
----@field public type gamedataDamageType
+---@field public ["value"] Float
+---@field public ["type"] gamedataDamageType
 DPSPackage = {}
 
 ---@param fields? table

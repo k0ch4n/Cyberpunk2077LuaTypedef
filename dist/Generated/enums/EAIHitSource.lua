@@ -3,9 +3,9 @@
 
 ---@enum EAIHitSource
 EAIHitSource = {
-    ["None"] = -1,
-    ["Ranged"] = 0,
-    ["MeleeSharp"] = 1,
-    ["MeleeBlunt"] = 2,
-    ["QuickMelee"] = 3
+    ["None"] = -1, ---@type Enum
+    ["Ranged"] = 0, ---@type Enum
+    ["MeleeSharp"] = 1, ---@type Enum
+    ["MeleeBlunt"] = 2, ---@type Enum
+    ["QuickMelee"] = 3, ---@type Enum
 }

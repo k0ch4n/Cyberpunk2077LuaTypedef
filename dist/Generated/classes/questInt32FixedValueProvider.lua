@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInt32FixedValueProvider: questIInt32ValueProvider
----@field public value Int32
+---@field public ["value"] Int32
 questInt32FixedValueProvider = {}
 
 ---@param fields? table

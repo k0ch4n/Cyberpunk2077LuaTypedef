@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class netChargesWidgetGameController: gameuiHUDGameController
----@field private bbPlayerStats gameIBlackboard
----@field private bbPlayerEventId1 redCallbackObject
----@field private bbPlayerEventId2 redCallbackObject
----@field private bbPlayerEventId3 redCallbackObject
----@field private networkName inkTextWidget
----@field private networkStatus inkTextWidget
----@field private chargesList inkCompoundWidget[]
----@field private chargesCurrent Int32
----@field private chargesMax Int32
----@field private networkNameText String
----@field private networkStatusText String
----@field private rootWidget inkWidget
----@field private chargeList inkHorizontalPanelWidget
+---@field private ["bbPlayerStats"] gameIBlackboard
+---@field private ["bbPlayerEventId1"] redCallbackObject
+---@field private ["bbPlayerEventId2"] redCallbackObject
+---@field private ["bbPlayerEventId3"] redCallbackObject
+---@field private ["networkName"] inkTextWidget
+---@field private ["networkStatus"] inkTextWidget
+---@field private ["chargesList"] inkCompoundWidget[]
+---@field private ["chargesCurrent"] Int32
+---@field private ["chargesMax"] Int32
+---@field private ["networkNameText"] String
+---@field private ["networkStatusText"] String
+---@field private ["rootWidget"] inkWidget
+---@field private ["chargeList"] inkHorizontalPanelWidget
 netChargesWidgetGameController = {}
 
 ---@param fields? table
@@ -36,7 +36,7 @@ function netChargesWidgetGameController:OnInitialize() return end
 function netChargesWidgetGameController:OnMaxChargesChanged(value) return end
 
 ---@protected
----@param value CName
+---@param value CName|string
 ---@return Bool
 function netChargesWidgetGameController:OnNameChanged(value) return end
 

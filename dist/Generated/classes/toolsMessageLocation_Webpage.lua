@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsMessageLocation_Webpage: toolsIMessageLocation
----@field public link String
----@field public text String
+---@field public ["link"] String
+---@field public ["text"] String
 toolsMessageLocation_Webpage = {}
 
 ---@param fields? table

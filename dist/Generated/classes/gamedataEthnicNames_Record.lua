@@ -50,20 +50,20 @@ function gamedataEthnicNames_Record:NameOrderFormat() return end
 ---@return CName[]
 function gamedataEthnicNames_Record:Names() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataEthnicNames_Record:NamesContains(item) return end
 
 ---@return CName[]
 function gamedataEthnicNames_Record:Surnames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataEthnicNames_Record:SurnamesContains(item) return end
 
 ---@return CName[]
 function gamedataEthnicNames_Record:VisualTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataEthnicNames_Record:VisualTagsContains(item) return end

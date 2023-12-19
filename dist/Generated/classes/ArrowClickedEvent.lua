@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ArrowClickedEvent: redEvent
----@field public direction Direction
+---@field public ["direction"] Direction
 ArrowClickedEvent = {}
 
 ---@param fields? table

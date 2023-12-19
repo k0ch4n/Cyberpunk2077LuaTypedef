@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameObjectSpawnParametersList: gameObjectSpawnParameter
----@field public parameterList gameObjectSpawnParameter[]
+---@field public ["parameterList"] gameObjectSpawnParameter[]
 gameObjectSpawnParametersList = {}
 
 ---@param fields? table

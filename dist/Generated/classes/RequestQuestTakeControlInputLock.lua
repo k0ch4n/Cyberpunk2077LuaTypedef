@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestQuestTakeControlInputLock: gameScriptableSystemRequest
----@field public isLocked Bool
----@field public isChainForced Bool
+---@field public ["isLocked"] Bool
+---@field public ["isChainForced"] Bool
 RequestQuestTakeControlInputLock = {}
 
 ---@param fields? table

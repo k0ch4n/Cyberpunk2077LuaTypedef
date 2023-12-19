@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entTemplateComponentBackendDataOverrideInfo
----@field public componentName CName
----@field public offset Vector2
+---@field public ["componentName"] CName
+---@field public ["offset"] Vector2
 entTemplateComponentBackendDataOverrideInfo = {}
 
 ---@param fields? table

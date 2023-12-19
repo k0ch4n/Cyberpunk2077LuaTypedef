@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class UI_SystemDef: gamebbScriptDefinition
----@field public IsInMenu gamebbScriptID_Bool
----@field public CircularBlurEnabled gamebbScriptID_Bool
----@field public CircularBlurBlendTime gamebbScriptID_Float
----@field public TrackedMappin gamebbScriptID_Variant
+---@field public ["IsInMenu"] gamebbScriptID_Bool
+---@field public ["CircularBlurEnabled"] gamebbScriptID_Bool
+---@field public ["CircularBlurBlendTime"] gamebbScriptID_Float
+---@field public ["TrackedMappin"] gamebbScriptID_Variant
 UI_SystemDef = {}
 
 ---@param fields? table

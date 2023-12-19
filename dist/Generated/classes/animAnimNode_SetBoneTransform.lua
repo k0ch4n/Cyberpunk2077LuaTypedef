@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SetBoneTransform: animAnimNode_OnePoseInput
----@field public entries animSetBoneTransformEntry[]
+---@field public ["entries"] animSetBoneTransformEntry[]
 animAnimNode_SetBoneTransform = {}
 
 ---@param fields? table

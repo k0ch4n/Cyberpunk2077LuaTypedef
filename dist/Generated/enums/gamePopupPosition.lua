@@ -3,10 +3,10 @@
 
 ---@enum gamePopupPosition
 gamePopupPosition = {
-    ["Undefined"] = 0,
-    ["UpperRight"] = 1,
-    ["UpperLeft"] = 2,
-    ["LowerLeft"] = 3,
-    ["LowerRight"] = 4,
-    ["Center"] = 5
+    ["Undefined"] = 0, ---@type Enum
+    ["UpperRight"] = 1, ---@type Enum
+    ["UpperLeft"] = 2, ---@type Enum
+    ["LowerLeft"] = 3, ---@type Enum
+    ["LowerRight"] = 4, ---@type Enum
+    ["Center"] = 5, ---@type Enum
 }

@@ -3,22 +3,22 @@
 
 ---@enum ETakedownActionType
 ETakedownActionType = {
-    ["GrappleFailed"] = 0,
-    ["Grapple"] = 1,
-    ["Takedown"] = 2,
-    ["TakedownNonLethal"] = 3,
-    ["TakedownNetrunner"] = 4,
-    ["TakedownMassiveTarget"] = 5,
-    ["AerialTakedown"] = 6,
-    ["LeapToTarget"] = 7,
-    ["Struggle"] = 8,
-    ["BreakFree"] = 9,
-    ["TargetDead"] = 10,
-    ["KillTarget"] = 11,
-    ["SpareTarget"] = 12,
-    ["ForceShove"] = 13,
-    ["BossTakedown"] = 14,
-    ["DisposalTakedown"] = 15,
-    ["DisposalTakedownNonLethal"] = 16,
-    ["None"] = 17
+    ["GrappleFailed"] = 0, ---@type Enum
+    ["Grapple"] = 1, ---@type Enum
+    ["Takedown"] = 2, ---@type Enum
+    ["TakedownNonLethal"] = 3, ---@type Enum
+    ["TakedownNetrunner"] = 4, ---@type Enum
+    ["TakedownMassiveTarget"] = 5, ---@type Enum
+    ["AerialTakedown"] = 6, ---@type Enum
+    ["LeapToTarget"] = 7, ---@type Enum
+    ["Struggle"] = 8, ---@type Enum
+    ["BreakFree"] = 9, ---@type Enum
+    ["TargetDead"] = 10, ---@type Enum
+    ["KillTarget"] = 11, ---@type Enum
+    ["SpareTarget"] = 12, ---@type Enum
+    ["ForceShove"] = 13, ---@type Enum
+    ["BossTakedown"] = 14, ---@type Enum
+    ["DisposalTakedown"] = 15, ---@type Enum
+    ["DisposalTakedownNonLethal"] = 16, ---@type Enum
+    ["None"] = 17, ---@type Enum
 }

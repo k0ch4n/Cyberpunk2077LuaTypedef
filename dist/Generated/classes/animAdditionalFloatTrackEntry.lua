@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAdditionalFloatTrackEntry: ISerializable
----@field public name CName
----@field public trackInfo animFloatTrackInfo
----@field public values curveData
+---@field public ["name"] CName
+---@field public ["trackInfo"] animFloatTrackInfo
+---@field public ["values"] curveData
 animAdditionalFloatTrackEntry = {}
 
 ---@param fields? table

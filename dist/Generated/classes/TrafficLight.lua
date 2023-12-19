@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TrafficLight: Device
----@field protected lightState worldTrafficLightColor
----@field protected trafficLightMesh entPhysicalMeshComponent
----@field protected destroyedMesh entPhysicalMeshComponent
+---@field protected ["lightState"] worldTrafficLightColor
+---@field protected ["trafficLightMesh"] entPhysicalMeshComponent
+---@field protected ["destroyedMesh"] entPhysicalMeshComponent
 TrafficLight = {}
 
 ---@param fields? table

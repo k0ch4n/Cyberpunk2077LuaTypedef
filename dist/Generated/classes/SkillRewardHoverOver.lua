@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SkillRewardHoverOver: redEvent
----@field public data LevelRewardDisplayData
----@field public widget inkWidget
+---@field public ["data"] LevelRewardDisplayData
+---@field public ["widget"] inkWidget
 SkillRewardHoverOver = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ScannerQuestClue: inkWidgetLogicController
----@field private CategoryTextRef inkTextWidgetReference
----@field private DescriptionTextRef inkTextWidgetReference
----@field private IconRef inkImageWidgetReference
+---@field private ["CategoryTextRef"] inkTextWidgetReference
+---@field private ["DescriptionTextRef"] inkTextWidgetReference
+---@field private ["IconRef"] inkImageWidgetReference
 ScannerQuestClue = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsLootContainer: gameEffectObjectSingleFilter_Scripted
----@field public invert Bool
+---@field public ["invert"] Bool
 IsLootContainer = {}
 
 ---@param fields? table

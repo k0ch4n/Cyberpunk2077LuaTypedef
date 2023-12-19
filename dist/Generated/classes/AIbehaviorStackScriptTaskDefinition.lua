@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStackScriptTaskDefinition: AIbehaviorTaskDefinition
----@field public script AIbehaviortaskStackScript
+---@field public ["script"] AIbehaviortaskStackScript
 AIbehaviorStackScriptTaskDefinition = {}
 
 ---@param fields? table

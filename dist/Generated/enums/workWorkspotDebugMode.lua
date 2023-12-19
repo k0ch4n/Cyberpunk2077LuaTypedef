@@ -3,16 +3,16 @@
 
 ---@enum workWorkspotDebugMode
 workWorkspotDebugMode = {
-    ["VisualLogToogle"] = 2,
-    ["VisualLogOn"] = 4,
-    ["VisualLogOff"] = 8,
-    ["VisualStateToogle"] = 16,
-    ["VisualStateOn"] = 32,
-    ["VisualStateOff"] = 64,
-    ["RecorderOn"] = 128,
-    ["RecorderOff"] = 256,
-    ["PlaybackOn"] = 512,
-    ["PlaybackOff"] = 1024,
-    ["Invalid"] = 4096,
-    ["FunctionalTests"] = 8192
+    ["VisualLogToogle"] = 2, ---@type Enum
+    ["VisualLogOn"] = 4, ---@type Enum
+    ["VisualLogOff"] = 8, ---@type Enum
+    ["VisualStateToogle"] = 16, ---@type Enum
+    ["VisualStateOn"] = 32, ---@type Enum
+    ["VisualStateOff"] = 64, ---@type Enum
+    ["RecorderOn"] = 128, ---@type Enum
+    ["RecorderOff"] = 256, ---@type Enum
+    ["PlaybackOn"] = 512, ---@type Enum
+    ["PlaybackOff"] = 1024, ---@type Enum
+    ["Invalid"] = 4096, ---@type Enum
+    ["FunctionalTests"] = 8192, ---@type Enum
 }

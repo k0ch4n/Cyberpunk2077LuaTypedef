@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerDescription: ScannerChunk
----@field private defaultFluffDescription String
----@field private customDescriptions String[]
+---@field private ["defaultFluffDescription"] String
+---@field private ["customDescriptions"] String[]
 ScannerDescription = {}
 
 ---@param fields? table

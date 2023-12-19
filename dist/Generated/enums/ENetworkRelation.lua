@@ -3,7 +3,7 @@
 
 ---@enum ENetworkRelation
 ENetworkRelation = {
-    ["MASTER"] = 0,
-    ["SLAVE"] = 1,
-    ["NONE"] = 2
+    ["MASTER"] = 0, ---@type Enum
+    ["SLAVE"] = 1, ---@type Enum
+    ["NONE"] = 2, ---@type Enum
 }

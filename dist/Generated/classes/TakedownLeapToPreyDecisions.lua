@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TakedownLeapToPreyDecisions: LocomotionTakedownDecisions
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field public ["stateMachineInitData"] LocomotionTakedownInitData
 TakedownLeapToPreyDecisions = {}
 
 ---@param fields? table

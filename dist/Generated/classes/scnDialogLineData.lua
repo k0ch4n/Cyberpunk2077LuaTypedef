@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class scnDialogLineData
----@field public id CRUID
----@field public text String
----@field public type scnDialogLineType
----@field public speaker gameObject
----@field public speakerName String
----@field public isPersistent Bool
----@field public duration Float
+---@field public ["id"] CRUID
+---@field public ["text"] String
+---@field public ["type"] scnDialogLineType
+---@field public ["speaker"] gameObject
+---@field public ["speakerName"] String
+---@field public ["isPersistent"] Bool
+---@field public ["duration"] Float
 scnDialogLineData = {}
 
 ---@param fields? table

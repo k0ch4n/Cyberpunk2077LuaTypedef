@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterCover_ConditionType: questICharacterConditionType
----@field public puppetRef gameEntityReference
----@field public coverRef NodeRef
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["coverRef"] NodeRef
 questCharacterCover_ConditionType = {}
 
 ---@param fields? table

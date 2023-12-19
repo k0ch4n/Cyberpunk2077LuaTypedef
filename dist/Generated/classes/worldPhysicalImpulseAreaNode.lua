@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldPhysicalImpulseAreaNode: worldPhysicalTriggerAreaNode
----@field public impulse Vector3
----@field public impulseRadius Float
+---@field public ["impulse"] Vector3
+---@field public ["impulseRadius"] Float
 worldPhysicalImpulseAreaNode = {}
 
 ---@param fields? table

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ProgressionWidgetGameController: gameuiGenericNotificationGameController
----@field private duration Float
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private combatModePSM gamePSMCombat
----@field private combatModeListener redCallbackObject
----@field private playerObject gameObject
----@field private gameInstance ScriptGameInstance
+---@field private ["duration"] Float
+---@field private ["playerDevelopmentSystem"] PlayerDevelopmentSystem
+---@field private ["combatModePSM"] gamePSMCombat
+---@field private ["combatModeListener"] redCallbackObject
+---@field private ["playerObject"] gameObject
+---@field private ["gameInstance"] ScriptGameInstance
 ProgressionWidgetGameController = {}
 
 ---@param fields? table
@@ -37,7 +37,7 @@ function ProgressionWidgetGameController:OnPlayerDetach(playerGameObject) return
 ---@param value Int32
 ---@param remainingPointsToLevelUp Int32
 ---@param delta Int32
----@param notificationColorTheme CName
+---@param notificationColorTheme CName|string
 ---@param notificationName String
 ---@param type gamedataProficiencyType
 ---@param currentLevel Int32

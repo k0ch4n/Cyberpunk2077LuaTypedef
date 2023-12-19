@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityArea: ISerializable
----@field public entriesData communityCommunityEntrySpotsData[]
+---@field public ["entriesData"] communityCommunityEntrySpotsData[]
 communityArea = {}
 
 ---@param fields? table

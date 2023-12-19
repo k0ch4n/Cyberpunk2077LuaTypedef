@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCrowdNullAreaNode: worldAreaShapeNode
----@field public IsForBlockade Bool
----@field public permanentlyEnabledByDefault Bool
+---@field public ["IsForBlockade"] Bool
+---@field public ["permanentlyEnabledByDefault"] Bool
 worldCrowdNullAreaNode = {}
 
 ---@param fields? table

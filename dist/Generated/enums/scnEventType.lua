@@ -3,5 +3,4 @@
 
 ---@enum scnEventType
 scnEventType = {
-
 }

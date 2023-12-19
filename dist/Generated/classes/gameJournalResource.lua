@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalResource: gameJournalBaseResource
----@field public entry gameJournalEntry
+---@field public ["entry"] gameJournalEntry
 gameJournalResource = {}
 
 ---@param fields? table

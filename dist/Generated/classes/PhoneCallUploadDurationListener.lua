@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PhoneCallUploadDurationListener: gameCustomValueStatPoolsListener
----@field public gameInstance ScriptGameInstance
----@field public requesterPuppet ScriptedPuppet
----@field public requesterID entEntityID
----@field public duration Float
----@field public statPoolType gamedataStatPoolType
+---@field public ["gameInstance"] ScriptGameInstance
+---@field public ["requesterPuppet"] ScriptedPuppet
+---@field public ["requesterID"] entEntityID
+---@field public ["duration"] Float
+---@field public ["statPoolType"] gamedataStatPoolType
 PhoneCallUploadDurationListener = {}
 
 ---@param fields? table

@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class ScaleOvershieldDecayOverTimeEffector: gameContinuousEffector
----@field public effectApplied Bool
----@field public decayModifier gameStatModifierData_Deprecated
----@field public owner gameObject
----@field public overshieldListener OvershieldMinValueListener
----@field public delayTime Float
----@field public elapsedTime Float
----@field public bValue Float
----@field public kInitValue Float
----@field public kValue Float
----@field public maxDecay Float
----@field public maxValueApplied Bool
----@field public markedForReset Bool
+---@field public ["effectApplied"] Bool
+---@field public ["decayModifier"] gameStatModifierData_Deprecated
+---@field public ["owner"] gameObject
+---@field public ["overshieldListener"] OvershieldMinValueListener
+---@field public ["delayTime"] Float
+---@field public ["elapsedTime"] Float
+---@field public ["bValue"] Float
+---@field public ["kInitValue"] Float
+---@field public ["kValue"] Float
+---@field public ["maxDecay"] Float
+---@field public ["maxValueApplied"] Bool
+---@field public ["markedForReset"] Bool
 ScaleOvershieldDecayOverTimeEffector = {}
 
 ---@param fields? table

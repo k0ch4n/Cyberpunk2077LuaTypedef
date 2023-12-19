@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ChargedHotkeyItemGadgetController: ChargedHotkeyItemBaseController
----@field protected currentStatPoolType gamedataStatPoolType
----@field private c_grenadeKey CName
----@field private c_projectileLauncherKey CName
----@field private c_opticalCamoKey CName
----@field protected c_cwMaskKey CName
----@field private opticalCamoTags CName[]
----@field private currentCombatState gamePSMCombat
----@field private combatStateCallback redCallbackObject
----@field private c_grenadeFlashSalePerkType gamedataNewPerkType
+---@field protected ["currentStatPoolType"] gamedataStatPoolType
+---@field private ["c_grenadeKey"] CName
+---@field private ["c_projectileLauncherKey"] CName
+---@field private ["c_opticalCamoKey"] CName
+---@field protected ["c_cwMaskKey"] CName
+---@field private ["opticalCamoTags"] CName[]
+---@field private ["currentCombatState"] gamePSMCombat
+---@field private ["combatStateCallback"] redCallbackObject
+---@field private ["c_grenadeFlashSalePerkType"] gamedataNewPerkType
 ChargedHotkeyItemGadgetController = {}
 
 ---@param fields? table

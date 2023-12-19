@@ -3,11 +3,11 @@
 
 ---@enum gamedataTrackingMode
 gamedataTrackingMode = {
-    ["BeliefPosition"] = 0,
-    ["LastKnownPosition"] = 1,
-    ["RealPosition"] = 2,
-    ["SharedBeliefPosition"] = 3,
-    ["SharedLastKnownPosition"] = 4,
-    ["Count"] = 5,
-    ["Invalid"] = 6
+    ["BeliefPosition"] = 0, ---@type Enum
+    ["LastKnownPosition"] = 1, ---@type Enum
+    ["RealPosition"] = 2, ---@type Enum
+    ["SharedBeliefPosition"] = 3, ---@type Enum
+    ["SharedLastKnownPosition"] = 4, ---@type Enum
+    ["Count"] = 5, ---@type Enum
+    ["Invalid"] = 6, ---@type Enum
 }

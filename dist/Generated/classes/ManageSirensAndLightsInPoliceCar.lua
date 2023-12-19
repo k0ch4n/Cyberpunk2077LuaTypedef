@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ManageSirensAndLightsInPoliceCar: AIbehaviortaskScript
----@field public turnOnLights AIArgumentMapping
----@field public turnOnSirens AIArgumentMapping
+---@field public ["turnOnLights"] AIArgumentMapping
+---@field public ["turnOnSirens"] AIArgumentMapping
 ManageSirensAndLightsInPoliceCar = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class questNodeDefinition: graphGraphNodeDefinition
----@field public id Uint16
+---@field public ["id"] Uint16
 questNodeDefinition = {}

@@ -3,10 +3,10 @@
 
 ---@enum vehicleAudioEventAction
 vehicleAudioEventAction = {
-    ["OnPlayerDriving"] = 0,
-    ["OnPlayerPassenger"] = 1,
-    ["OnPlayerExitVehicle"] = 4,
-    ["OnPlayerEnterCombat"] = 2,
-    ["OnPlayerExitCombat"] = 3,
-    ["OnPlayerVehicleSummoned"] = 5
+    ["OnPlayerDriving"] = 0, ---@type Enum
+    ["OnPlayerPassenger"] = 1, ---@type Enum
+    ["OnPlayerExitVehicle"] = 4, ---@type Enum
+    ["OnPlayerEnterCombat"] = 2, ---@type Enum
+    ["OnPlayerExitCombat"] = 3, ---@type Enum
+    ["OnPlayerVehicleSummoned"] = 5, ---@type Enum
 }

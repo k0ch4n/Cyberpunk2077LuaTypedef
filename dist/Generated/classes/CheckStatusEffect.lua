@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckStatusEffect: AIStatusEffectCondition
----@field public statusEffectID TweakDBID
+---@field public ["statusEffectID"] TweakDBID
 CheckStatusEffect = {}
 
 ---@param fields? table

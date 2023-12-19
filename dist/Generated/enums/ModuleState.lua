@@ -3,9 +3,9 @@
 
 ---@enum ModuleState
 ModuleState = {
-    ["DISABLED"] = 0,
-    ["HIDDEN"] = 1,
-    ["ASLEEP"] = 2,
-    ["MALFUNCTIONING"] = 3,
-    ["ON"] = 4
+    ["DISABLED"] = 0, ---@type Enum
+    ["HIDDEN"] = 1, ---@type Enum
+    ["ASLEEP"] = 2, ---@type Enum
+    ["MALFUNCTIONING"] = 3, ---@type Enum
+    ["ON"] = 4, ---@type Enum
 }

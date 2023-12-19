@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCurrencyUpdateNotificationViewData: gameuiGenericNotificationViewData
----@field public diff Int32
----@field public total Uint32
+---@field public ["diff"] Int32
+---@field public ["total"] Uint32
 gameuiCurrencyUpdateNotificationViewData = {}
 
 ---@param fields? table

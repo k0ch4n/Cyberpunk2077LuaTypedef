@@ -8,7 +8,7 @@ mpCMultiplayerDebugFunctions = {}
 ---@return mpCMultiplayerDebugFunctions
 function mpCMultiplayerDebugFunctions.new(fields) return end
 
----@param sound CName
+---@param sound CName|string
 ---@param position Vector4
 ---@return nil
 function mpCMultiplayerDebugFunctions.MPDebugPlaySound(sound, position) return end

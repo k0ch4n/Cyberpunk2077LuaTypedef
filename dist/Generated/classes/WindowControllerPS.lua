@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WindowControllerPS: DoorControllerPS
----@field private windowSkillChecks EngDemoContainer
+---@field private ["windowSkillChecks"] EngDemoContainer
 WindowControllerPS = {}
 
 ---@param fields? table

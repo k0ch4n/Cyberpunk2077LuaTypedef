@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QueueQuickHackEvent: redEvent
----@field public mappinID gameNewMappinID
----@field public data GameplayRoleMappinData
+---@field public ["mappinID"] gameNewMappinID
+---@field public ["data"] GameplayRoleMappinData
 QueueQuickHackEvent = {}
 
 ---@param fields? table

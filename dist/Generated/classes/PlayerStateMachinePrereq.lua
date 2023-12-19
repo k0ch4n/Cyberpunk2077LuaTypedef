@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PlayerStateMachinePrereq: gameIScriptablePrereq
----@field private previousState Bool
----@field private isInState Bool
----@field private skipWhenApplied Bool
----@field public valueToListen Int32
+---@field private ["previousState"] Bool
+---@field private ["isInState"] Bool
+---@field private ["skipWhenApplied"] Bool
+---@field public ["valueToListen"] Int32
 PlayerStateMachinePrereq = {}
 
 ---@param fields? table

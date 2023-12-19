@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class AccessPointControllerPS: MasterControllerPS
----@field private rewardNotificationIcons String[]
----@field private rewardNotificationString String
----@field private accessPointSkillChecks HackingContainer
----@field private isBreached Bool
----@field private moneyAwarded Bool
----@field private isVirtual Bool
----@field private pingedSquads CName[]
+---@field private ["rewardNotificationIcons"] String[]
+---@field private ["rewardNotificationString"] String
+---@field private ["accessPointSkillChecks"] HackingContainer
+---@field private ["isBreached"] Bool
+---@field private ["moneyAwarded"] Bool
+---@field private ["isVirtual"] Bool
+---@field private ["pingedSquads"] CName[]
 AccessPointControllerPS = {}
 
 ---@param fields? table
@@ -39,7 +39,7 @@ function AccessPointControllerPS:ActionSpiderbotEnableAccessPoint() return end
 function AccessPointControllerPS:AddHackReward(TS, itemTweakID, amount) return end
 
 ---@private
----@param squadName CName
+---@param squadName CName|string
 ---@return nil
 function AccessPointControllerPS:AddPingedSquad(squadName) return end
 
@@ -140,7 +140,7 @@ function AccessPointControllerPS:GetNetworkSizeCount() return end
 ---@return TweakDBID[], TweakDBID[] playerHacksTweak
 function AccessPointControllerPS:GetPlayersUniqueHacks(TS, hacksPool, quality) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function AccessPointControllerPS:GetQuestActionByName(actionName) return end
 
@@ -183,7 +183,7 @@ function AccessPointControllerPS:IsNetworkBreached() return end
 function AccessPointControllerPS:IsSpiderbotHackingConditionFullfilled() return end
 
 ---@private
----@param squadName CName
+---@param squadName CName|string
 ---@return Bool
 function AccessPointControllerPS:IsSquadMarkedWithPing(squadName) return end
 
@@ -265,7 +265,7 @@ function AccessPointControllerPS:ProcessMinigameNetworkActions(device) return en
 function AccessPointControllerPS:RefreshSlaves(devices) return end
 
 ---@private
----@param squadName CName
+---@param squadName CName|string
 ---@return nil
 function AccessPointControllerPS:RemovePingedSquad(squadName) return end
 

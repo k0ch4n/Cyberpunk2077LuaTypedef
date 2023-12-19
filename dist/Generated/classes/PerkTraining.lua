@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PerkTraining: InteractiveDevice
----@field private progressBarHeaderText String
----@field private progressBarBottomText String
----@field private pulsingEndSoundName CName
----@field private animFeature AnimFeature_PerkDeviceData
----@field private uiSlots entSlotComponent
+---@field private ["progressBarHeaderText"] String
+---@field private ["progressBarBottomText"] String
+---@field private ["pulsingEndSoundName"] CName
+---@field private ["animFeature"] AnimFeature_PerkDeviceData
+---@field private ["uiSlots"] entSlotComponent
 PerkTraining = {}
 
 ---@param fields? table
@@ -57,8 +57,8 @@ function PerkTraining:DeterminGameplayRole() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function PerkTraining:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

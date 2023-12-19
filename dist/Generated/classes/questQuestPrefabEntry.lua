@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questQuestPrefabEntry
----@field public prefabNodeRef NodeRef
+---@field public ["prefabNodeRef"] NodeRef
 questQuestPrefabEntry = {}
 
 ---@param fields? table

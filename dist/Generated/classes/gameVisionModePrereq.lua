@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisionModePrereq: gameIPrereq
----@field public type gameVisionModeType
+---@field public ["type"] gameVisionModeType
 gameVisionModePrereq = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CTerrainSetup: CResource
----@field public tiling Float[]
----@field public physicalMaterial CName[]
+---@field public ["tiling"] Float[]
+---@field public ["physicalMaterial"] CName[]
 CTerrainSetup = {}
 
 ---@param fields? table

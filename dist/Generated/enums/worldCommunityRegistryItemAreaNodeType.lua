@@ -3,8 +3,8 @@
 
 ---@enum worldCommunityRegistryItemAreaNodeType
 worldCommunityRegistryItemAreaNodeType = {
-    ["Regular"] = 0,
-    ["Streamable"] = 1,
-    ["Background"] = 2,
-    ["Count"] = 3
+    ["Regular"] = 0, ---@type Enum
+    ["Streamable"] = 1, ---@type Enum
+    ["Background"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
 }

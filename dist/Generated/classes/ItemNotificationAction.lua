@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field public ["eventDispatcher"] worlduiIWidgetGameController
 ItemNotificationAction = {}
 
 ---@param fields? table

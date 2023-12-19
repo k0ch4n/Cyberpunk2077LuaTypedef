@@ -3,6 +3,6 @@
 
 ---@enum gameinteractionsEBinaryOperator
 gameinteractionsEBinaryOperator = {
-    ["EBinaryOperator_and"] = 0,
-    ["EBinaryOperator_or"] = 1
+    ["EBinaryOperator_and"] = 0, ---@type Enum
+    ["EBinaryOperator_or"] = 1, ---@type Enum
 }

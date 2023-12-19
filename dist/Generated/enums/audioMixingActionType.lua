@@ -3,10 +3,10 @@
 
 ---@enum audioMixingActionType
 audioMixingActionType = {
-    ["VoContext"] = 0,
-    ["EmitterTag"] = 1,
-    ["SoundTag"] = 2,
-    ["ActorName"] = 3,
-    ["DisableCombatVo"] = 4,
-    ["GlobalParameter"] = 5
+    ["VoContext"] = 0, ---@type Enum
+    ["EmitterTag"] = 1, ---@type Enum
+    ["SoundTag"] = 2, ---@type Enum
+    ["ActorName"] = 3, ---@type Enum
+    ["DisableCombatVo"] = 4, ---@type Enum
+    ["GlobalParameter"] = 5, ---@type Enum
 }

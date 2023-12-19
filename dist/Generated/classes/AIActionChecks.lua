@@ -39,7 +39,7 @@ function AIActionChecks.CheckHighLevelState(puppet, highLevelStates) return end
 function AIActionChecks.CheckLocomotionMode(puppet, locomotionMode) return end
 
 ---@param puppet ScriptedPuppet
----@param desiredTags CName[]
+---@param desiredTags CName[]|string[]
 ---@return Bool
 function AIActionChecks.CheckMountedVehicleDesiredTags(puppet, desiredTags) return end
 

@@ -3,12 +3,12 @@
 
 ---@enum audioMeleeMaterialType
 audioMeleeMaterialType = {
-    ["Hard"] = 0,
-    ["Soft"] = 1,
-    ["Solid"] = 2,
-    ["Flesh"] = 3,
-    ["Robot"] = 4,
-    ["Android"] = 5,
-    ["Mech"] = 6,
-    ["Water"] = 7
+    ["Hard"] = 0, ---@type Enum
+    ["Soft"] = 1, ---@type Enum
+    ["Solid"] = 2, ---@type Enum
+    ["Flesh"] = 3, ---@type Enum
+    ["Robot"] = 4, ---@type Enum
+    ["Android"] = 5, ---@type Enum
+    ["Mech"] = 6, ---@type Enum
+    ["Water"] = 7, ---@type Enum
 }

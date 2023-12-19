@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEP1RequestFilter: gameCustomRequestFilter
----@field public isEP1 Bool
+---@field public ["isEP1"] Bool
 gameEP1RequestFilter = {}
 
 ---@param fields? table

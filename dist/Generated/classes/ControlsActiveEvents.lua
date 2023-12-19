@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ControlsActiveEvents: BraindanceControlsTransition
----@field public BraindanceBB gameIBlackboard
----@field public BlockPerspectiveSwitchTimer Float
----@field public fxActive Bool
----@field public rewindFxActive Bool
----@field public holdDuration Float
----@field public cachedState scnPlaySpeed
----@field public cacheSet Bool
----@field public forwardInput Bool
----@field public backwardInput Bool
----@field public forwardInputLocked Bool
----@field public backwardInputLocked Bool
----@field public activeDirection scnPlayDirection
----@field public rewindRunning Bool
----@field public contextsSetup Bool
----@field public pauseLock Bool
----@field public endRecordingMessageSet Bool
+---@field public ["BraindanceBB"] gameIBlackboard
+---@field public ["BlockPerspectiveSwitchTimer"] Float
+---@field public ["fxActive"] Bool
+---@field public ["rewindFxActive"] Bool
+---@field public ["holdDuration"] Float
+---@field public ["cachedState"] scnPlaySpeed
+---@field public ["cacheSet"] Bool
+---@field public ["forwardInput"] Bool
+---@field public ["backwardInput"] Bool
+---@field public ["forwardInputLocked"] Bool
+---@field public ["backwardInputLocked"] Bool
+---@field public ["activeDirection"] scnPlayDirection
+---@field public ["rewindRunning"] Bool
+---@field public ["contextsSetup"] Bool
+---@field public ["pauseLock"] Bool
+---@field public ["endRecordingMessageSet"] Bool
 ControlsActiveEvents = {}
 
 ---@param fields? table

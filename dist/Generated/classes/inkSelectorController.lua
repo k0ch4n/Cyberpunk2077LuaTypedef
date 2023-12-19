@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class inkSelectorController: inkWidgetLogicController
----@field public index Int32
----@field public values String[]
----@field public cycledNavigation Bool
----@field public SelectionChanged inkSelectionChangeCallback
----@field public labelPath CName
----@field public valuePath CName
----@field public leftArrowPath CName
----@field public rightArrowPath CName
----@field protected label inkTextWidget
----@field protected value inkTextWidget
----@field protected leftArrow inkWidget
----@field protected rightArrow inkWidget
----@field protected rightArrowButton inkButtonController
----@field protected leftArrowButton inkButtonController
+---@field public ["index"] Int32
+---@field public ["values"] String[]
+---@field public ["cycledNavigation"] Bool
+---@field public ["SelectionChanged"] inkSelectionChangeCallback
+---@field public ["labelPath"] CName
+---@field public ["valuePath"] CName
+---@field public ["leftArrowPath"] CName
+---@field public ["rightArrowPath"] CName
+---@field protected ["label"] inkTextWidget
+---@field protected ["value"] inkTextWidget
+---@field protected ["leftArrow"] inkWidget
+---@field protected ["rightArrow"] inkWidget
+---@field protected ["rightArrowButton"] inkButtonController
+---@field protected ["leftArrowButton"] inkButtonController
 inkSelectorController = {}
 
 ---@param fields? table

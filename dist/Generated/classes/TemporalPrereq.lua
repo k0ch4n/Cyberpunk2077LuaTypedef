@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TemporalPrereq: gameIScriptablePrereq
----@field public totalDuration Float
+---@field public ["totalDuration"] Float
 TemporalPrereq = {}
 
 ---@param fields? table

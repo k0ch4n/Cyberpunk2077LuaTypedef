@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_SecurityTurretData: animAnimFeature
----@field public Shoot Bool
----@field public isRippedOff Bool
----@field public ripOffSide Bool
----@field public isOverriden Bool
+---@field public ["Shoot"] Bool
+---@field public ["isRippedOff"] Bool
+---@field public ["ripOffSide"] Bool
+---@field public ["isOverriden"] Bool
 AnimFeature_SecurityTurretData = {}
 
 ---@param fields? table

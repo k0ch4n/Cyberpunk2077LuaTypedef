@@ -3,7 +3,7 @@
 
 ---@enum rendWindShapeAnchorPointHorz
 rendWindShapeAnchorPointHorz = {
-    ["AP_CENTER"] = 0,
-    ["AP_RIGHT"] = 1,
-    ["AP_LEFT"] = 2
+    ["AP_CENTER"] = 0, ---@type Enum
+    ["AP_RIGHT"] = 1, ---@type Enum
+    ["AP_LEFT"] = 2, ---@type Enum
 }

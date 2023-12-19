@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HealthUpdateEvent: redEvent
----@field public value Float
----@field public healthDifference Float
+---@field public ["value"] Float
+---@field public ["healthDifference"] Float
 HealthUpdateEvent = {}
 
 ---@param fields? table

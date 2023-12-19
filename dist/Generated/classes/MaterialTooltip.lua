@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class MaterialTooltip: AGenericTooltipController
----@field protected titleWrapper inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionLine inkWidgetReference
----@field protected Title inkTextWidgetReference
----@field protected BasePrice inkTextWidgetReference
----@field protected Price inkTextWidgetReference
----@field private animProxy inkanimProxy
+---@field protected ["titleWrapper"] inkWidgetReference
+---@field protected ["descriptionWrapper"] inkWidgetReference
+---@field protected ["descriptionLine"] inkWidgetReference
+---@field protected ["Title"] inkTextWidgetReference
+---@field protected ["BasePrice"] inkTextWidgetReference
+---@field protected ["Price"] inkTextWidgetReference
+---@field private ["animProxy"] inkanimProxy
 MaterialTooltip = {}
 
 ---@param fields? table
@@ -26,8 +26,8 @@ function MaterialTooltip:OnIntroComplete(proxy) return end
 function MaterialTooltip:OnOutroComplete(proxy) return end
 
 ---@private
----@param animName CName
----@param callback CName
+---@param animName CName|string
+---@param callback CName|string
 ---@param forceVisible? Bool
 ---@return nil
 function MaterialTooltip:PlayAnim(animName, callback, forceVisible) return end

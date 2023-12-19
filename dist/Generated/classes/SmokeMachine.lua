@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SmokeMachine: BasicDistractionDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field protected highLightActive Bool
----@field protected entities entEntity[]
+---@field protected ["areaComponent"] gameStaticTriggerAreaComponent
+---@field protected ["highLightActive"] Bool
+---@field protected ["entities"] entEntity[]
 SmokeMachine = {}
 
 ---@param fields? table

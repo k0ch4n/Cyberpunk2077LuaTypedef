@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHitRepresentationResults
----@field public sults gameHitRepresentationResult[]
+---@field public ["sults"] gameHitRepresentationResult[]
 gameHitRepresentationResults = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum gameuiarcadeArcadeParallaxPlaneControllerLoopType
 gameuiarcadeArcadeParallaxPlaneControllerLoopType = {
-    ["None"] = 0,
-    ["Repeat"] = 1
+    ["None"] = 0, ---@type Enum
+    ["Repeat"] = 1, ---@type Enum
 }

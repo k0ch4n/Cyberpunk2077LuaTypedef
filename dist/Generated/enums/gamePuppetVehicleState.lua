@@ -3,10 +3,10 @@
 
 ---@enum gamePuppetVehicleState
 gamePuppetVehicleState = {
-    ["IdleMounted"] = 0,
-    ["IdleStand"] = 1,
-    ["CombatSeated"] = 3,
-    ["CombatWindowed"] = 2,
-    ["Turret"] = 4,
-    ["GunnerSlot"] = 5
+    ["IdleMounted"] = 0, ---@type Enum
+    ["IdleStand"] = 1, ---@type Enum
+    ["CombatSeated"] = 3, ---@type Enum
+    ["CombatWindowed"] = 2, ---@type Enum
+    ["Turret"] = 4, ---@type Enum
+    ["GunnerSlot"] = 5, ---@type Enum
 }

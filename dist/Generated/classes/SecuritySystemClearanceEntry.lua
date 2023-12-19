@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemClearanceEntry
----@field public user entEntityID
----@field public level ESecurityAccessLevel
+---@field public ["user"] entEntityID
+---@field public ["level"] ESecurityAccessLevel
 SecuritySystemClearanceEntry = {}
 
 ---@param fields? table

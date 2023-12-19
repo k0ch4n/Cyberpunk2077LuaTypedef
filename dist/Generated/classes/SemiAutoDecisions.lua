@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SemiAutoDecisions: WeaponTransition
----@field public callBackID redCallbackObject
+---@field public ["callBackID"] redCallbackObject
 SemiAutoDecisions = {}
 
 ---@param fields? table

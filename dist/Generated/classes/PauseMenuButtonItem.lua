@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PauseMenuButtonItem: AnimatedListItemController
----@field private Fluff inkTextWidgetReference
----@field private animLoop inkanimProxy
+---@field private ["Fluff"] inkTextWidgetReference
+---@field private ["animLoop"] inkanimProxy
 PauseMenuButtonItem = {}
 
 ---@param fields? table

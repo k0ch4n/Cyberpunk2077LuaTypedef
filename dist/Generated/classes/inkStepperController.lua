@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class inkStepperController: inkWidgetLogicController
----@field public cycledNavigation Bool
----@field public indicatorUnitLibraryID CName
----@field public currentValueDisplay inkTextWidgetReference
----@field public indicatorContainer inkCompoundWidgetReference
----@field public leftButton inkWidgetReference
----@field public rightButton inkWidgetReference
----@field public Change inkStepperChangedCallback
+---@field public ["cycledNavigation"] Bool
+---@field public ["indicatorUnitLibraryID"] CName
+---@field public ["currentValueDisplay"] inkTextWidgetReference
+---@field public ["indicatorContainer"] inkCompoundWidgetReference
+---@field public ["leftButton"] inkWidgetReference
+---@field public ["rightButton"] inkWidgetReference
+---@field public ["Change"] inkStepperChangedCallback
 inkStepperController = {}
 
 ---@param fields? table

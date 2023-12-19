@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TonemappingAreaSettings: IAreaSettings
----@field public mode ITonemappingMode
----@field public hdrMode ITonemappingMode
+---@field public ["mode"] ITonemappingMode
+---@field public ["hdrMode"] ITonemappingMode
 TonemappingAreaSettings = {}
 
 ---@param fields? table

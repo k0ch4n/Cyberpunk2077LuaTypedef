@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class dialogWidgetGameController: InteractionUIBase
----@field private root inkCanvasWidget
----@field private hubsContainer inkBasePanelWidgetReference
----@field private hubControllers DialogHubLogicController[]
----@field private activeHubController DialogHubLogicController
----@field private data gameinteractionsvisDialogChoiceHubs
----@field private activeHubID Int32
----@field private prevActiveHubID Int32
----@field private selectedIndex Int32
----@field private fadeAnimTime Float
----@field private fadeDelay Float
----@field private dialogFocusInputHintShown Bool
----@field private hubAvailable Bool
----@field private animCloseHudProxy inkanimProxy
----@field public currentFadeItem DialogHubLogicController
----@field private blackboard gameIBlackboard
----@field private uiSystemBB UI_SystemDef
----@field private uiSystemId redCallbackObject
+---@field private ["root"] inkCanvasWidget
+---@field private ["hubsContainer"] inkBasePanelWidgetReference
+---@field private ["hubControllers"] DialogHubLogicController[]
+---@field private ["activeHubController"] DialogHubLogicController
+---@field private ["data"] gameinteractionsvisDialogChoiceHubs
+---@field private ["activeHubID"] Int32
+---@field private ["prevActiveHubID"] Int32
+---@field private ["selectedIndex"] Int32
+---@field private ["fadeAnimTime"] Float
+---@field private ["fadeDelay"] Float
+---@field private ["dialogFocusInputHintShown"] Bool
+---@field private ["hubAvailable"] Bool
+---@field private ["animCloseHudProxy"] inkanimProxy
+---@field public ["currentFadeItem"] DialogHubLogicController
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["uiSystemBB"] UI_SystemDef
+---@field private ["uiSystemId"] redCallbackObject
 dialogWidgetGameController = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class NarrativePlateGameController: gameuiProjectedHUDGameController
----@field private plateHolder inkWidgetReference
----@field private projection inkScreenProjection
----@field private narrativePlateBlackboard gameIBlackboard
----@field private narrativePlateBlackboardText redCallbackObject
----@field private logicController NarrativePlateLogicController
+---@field private ["plateHolder"] inkWidgetReference
+---@field private ["projection"] inkScreenProjection
+---@field private ["narrativePlateBlackboard"] gameIBlackboard
+---@field private ["narrativePlateBlackboardText"] redCallbackObject
+---@field private ["logicController"] NarrativePlateLogicController
 NarrativePlateGameController = {}
 
 ---@param fields? table

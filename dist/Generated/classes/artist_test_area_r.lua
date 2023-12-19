@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class artist_test_area_r: gameuiHUDGameController
----@field private rootWidget inkWidget
----@field private linesWidget inkCanvasWidget
+---@field private ["rootWidget"] inkWidget
+---@field private ["linesWidget"] inkCanvasWidget
 artist_test_area_r = {}
 
 ---@param fields? table

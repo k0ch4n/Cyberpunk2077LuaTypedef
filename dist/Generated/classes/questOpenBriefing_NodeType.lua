@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questOpenBriefing_NodeType: questIUIManagerNodeType
----@field public briefingPath gameJournalPath
+---@field public ["briefingPath"] gameJournalPath
 questOpenBriefing_NodeType = {}
 
 ---@param fields? table

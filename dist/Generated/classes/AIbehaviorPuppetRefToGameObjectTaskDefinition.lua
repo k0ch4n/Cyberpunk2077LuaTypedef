@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorPuppetRefToGameObjectTaskDefinition: AIbehaviorTaskDefinition
----@field public puppetRef AIArgumentMapping
----@field public result AIArgumentMapping
+---@field public ["puppetRef"] AIArgumentMapping
+---@field public ["result"] AIArgumentMapping
 AIbehaviorPuppetRefToGameObjectTaskDefinition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkVisualStateBlackBarsVisibilityChangedEvent: redEvent
----@field public blackBarsVisible Bool
+---@field public ["blackBarsVisible"] Bool
 inkVisualStateBlackBarsVisibilityChangedEvent = {}
 
 ---@param fields? table

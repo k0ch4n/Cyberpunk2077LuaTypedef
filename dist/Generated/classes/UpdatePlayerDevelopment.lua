@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdatePlayerDevelopment: gamePlayerScriptableSystemRequest
----@field public ForceRefresh Bool
+---@field public ["ForceRefresh"] Bool
 UpdatePlayerDevelopment = {}
 
 ---@param fields? table

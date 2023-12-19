@@ -3,8 +3,8 @@
 
 ---@enum PackageStatus
 PackageStatus = {
-    ["UNINITIALIZED"] = 0,
-    ["ON_HOLD"] = 1,
-    ["FOR_IMMEDIATE_TRIGGER"] = 2,
-    ["TRIGGERED"] = 3
+    ["UNINITIALIZED"] = 0, ---@type Enum
+    ["ON_HOLD"] = 1, ---@type Enum
+    ["FOR_IMMEDIATE_TRIGGER"] = 2, ---@type Enum
+    ["TRIGGERED"] = 3, ---@type Enum
 }

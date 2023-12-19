@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldCompiledEffectPlacementInfo
----@field public placementTagIndex Uint8
----@field public relativePositionIndex Uint8
----@field public relativeRotationIndex Uint8
----@field public flags Uint8
+---@field public ["placementTagIndex"] Uint8
+---@field public ["relativePositionIndex"] Uint8
+---@field public ["relativeRotationIndex"] Uint8
+---@field public ["flags"] Uint8
 worldCompiledEffectPlacementInfo = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BasePerksMenuTooltipData: ATooltipData
----@field public manager PlayerDevelopmentDataManager
+---@field public ["manager"] PlayerDevelopmentDataManager
 BasePerksMenuTooltipData = {}
 
 ---@param fields? table

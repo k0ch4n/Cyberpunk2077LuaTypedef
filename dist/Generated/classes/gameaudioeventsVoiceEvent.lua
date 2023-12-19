@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsVoiceEvent: redEvent
----@field public eventName CName
----@field public gruntType audioVoGruntType
----@field public gruntInterruptMode audioVoGruntInterruptMode
----@field public isV Bool
+---@field public ["eventName"] CName
+---@field public ["gruntType"] audioVoGruntType
+---@field public ["gruntInterruptMode"] audioVoGruntInterruptMode
+---@field public ["isV"] Bool
 gameaudioeventsVoiceEvent = {}
 
 ---@param fields? table

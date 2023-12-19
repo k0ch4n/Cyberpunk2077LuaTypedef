@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioFootwearType: audioAudioMetadata
----@field public itemNames CName[]
+---@field public ["itemNames"] CName[]
 audioFootwearType = {}
 
 ---@param fields? table

@@ -16,7 +16,7 @@ function Distraction.IsDefaultConditionMet(device, context) return end
 ---@return String
 function Distraction:GetTweakDBChoiceRecord() return end
 
----@param action_name CName
+---@param action_name CName|string
 ---@return nil
 function Distraction:SetProperties(action_name) return end
 

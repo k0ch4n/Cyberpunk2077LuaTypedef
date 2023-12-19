@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateEquippedWeaponsHandlingEvent: redEvent
----@field public currentStaminaValue Float
+---@field public ["currentStaminaValue"] Float
 UpdateEquippedWeaponsHandlingEvent = {}
 
 ---@param fields? table

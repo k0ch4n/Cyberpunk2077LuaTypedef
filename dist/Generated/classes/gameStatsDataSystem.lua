@@ -15,14 +15,14 @@ function gameStatsDataSystem:GetArmorEffectivenessValue(isPlayer) return end
 ---@return gameDifficulty
 function gameStatsDataSystem:GetDifficulty() return end
 
----@param curveSetName CName
----@param curveName? CName
+---@param curveSetName CName|string
+---@param curveName? CName|string
 ---@param difficulty? gameDifficulty
 ---@return Float
 function gameStatsDataSystem:GetMaxValueFromCurve(curveSetName, curveName, difficulty) return end
 
----@param curveSetName CName
----@param curveName? CName
+---@param curveSetName CName|string
+---@param curveName? CName|string
 ---@param difficulty? gameDifficulty
 ---@return Float
 function gameStatsDataSystem:GetMinValueFromCurve(curveSetName, curveName, difficulty) return end
@@ -31,9 +31,9 @@ function gameStatsDataSystem:GetMinValueFromCurve(curveSetName, curveName, diffi
 ---@return gameSuggestedDefenseValues
 function gameStatsDataSystem:GetSuggestedDefenseValues(playerLevel) return end
 
----@param curveSetName CName
+---@param curveSetName CName|string
 ---@param argumentValue Float
----@param curveName? CName
+---@param curveName? CName|string
 ---@param difficulty? gameDifficulty
 ---@return Float
 function gameStatsDataSystem:GetValueFromCurve(curveSetName, argumentValue, curveName, difficulty) return end

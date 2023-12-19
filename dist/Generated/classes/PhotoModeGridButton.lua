@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class PhotoModeGridButton: inkToggleController
----@field private FrameImg inkImageWidgetReference
----@field private DynamicImg inkImageWidgetReference
----@field private BgWidget inkWidgetReference
----@field private HoverWidget inkWidgetReference
----@field private PlusImg inkImageWidgetReference
----@field private currentImagePart CName
----@field private atlasRef redResourceReferenceScriptToken
----@field private buttonData Int32
----@field private parentGrid PhotoModeGridList
----@field private index Int32
----@field private visibleOnGrid Bool
----@field private imageScalingSpeed Float
----@field private opacityScalingSpeed Float
+---@field private ["FrameImg"] inkImageWidgetReference
+---@field private ["DynamicImg"] inkImageWidgetReference
+---@field private ["BgWidget"] inkWidgetReference
+---@field private ["HoverWidget"] inkWidgetReference
+---@field private ["PlusImg"] inkImageWidgetReference
+---@field private ["currentImagePart"] CName
+---@field private ["atlasRef"] redResourceReferenceScriptToken
+---@field private ["buttonData"] Int32
+---@field private ["parentGrid"] PhotoModeGridList
+---@field private ["index"] Int32
+---@field private ["visibleOnGrid"] Bool
+---@field private ["imageScalingSpeed"] Float
+---@field private ["opacityScalingSpeed"] Float
 PhotoModeGridButton = {}
 
 ---@param fields? table
@@ -63,7 +63,7 @@ function PhotoModeGridButton:OnVisibilityOnGridChanged(visible) return end
 function PhotoModeGridButton:SetData(buttonData) return end
 
 ---@param atlasPath redResourceReferenceScriptToken
----@param imagePart CName
+---@param imagePart CName|string
 ---@return nil
 function PhotoModeGridButton:SetImage(atlasPath, imagePart) return end
 

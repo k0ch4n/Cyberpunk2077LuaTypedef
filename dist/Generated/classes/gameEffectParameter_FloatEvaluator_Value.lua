@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_FloatEvaluator_Value: gameIEffectParameter_FloatEvaluator
----@field public value Float
+---@field public ["value"] Float
 gameEffectParameter_FloatEvaluator_Value = {}
 
 ---@param fields? table

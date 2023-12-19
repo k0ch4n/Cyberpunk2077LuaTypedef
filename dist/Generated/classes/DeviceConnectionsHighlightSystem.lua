@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceConnectionsHighlightSystem: gameScriptableSystem
----@field private highlightedDeviceID entEntityID
----@field private highlightedConnectionsIDs entEntityID[]
+---@field private ["highlightedDeviceID"] entEntityID
+---@field private ["highlightedConnectionsIDs"] entEntityID[]
 DeviceConnectionsHighlightSystem = {}
 
 ---@param fields? table

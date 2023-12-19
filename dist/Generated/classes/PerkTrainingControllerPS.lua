@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PerkTrainingControllerPS: ScriptableDeviceComponentPS
----@field private interactionTweakDBID TweakDBID
----@field private loopTime Float
----@field private jackinStartTime Float
----@field protected isCorePerk Bool
----@field private perkGranted Bool
----@field private wasDetected Bool
+---@field private ["interactionTweakDBID"] TweakDBID
+---@field private ["loopTime"] Float
+---@field private ["jackinStartTime"] Float
+---@field protected ["isCorePerk"] Bool
+---@field private ["perkGranted"] Bool
+---@field private ["wasDetected"] Bool
 PerkTrainingControllerPS = {}
 
 ---@param fields? table

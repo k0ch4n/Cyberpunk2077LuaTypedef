@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FelledEvent: redEvent
----@field public active Bool
+---@field public ["active"] Bool
 FelledEvent = {}
 
 ---@param fields? table

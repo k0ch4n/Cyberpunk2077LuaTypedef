@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MovableDeviceControllerPS: ScriptableDeviceComponentPS
----@field private MovableDeviceSetup MovableDeviceSetup
----@field protected movableDeviceSkillChecks DemolitionContainer
+---@field private ["MovableDeviceSetup"] MovableDeviceSetup
+---@field protected ["movableDeviceSkillChecks"] DemolitionContainer
 MovableDeviceControllerPS = {}
 
 ---@param fields? table

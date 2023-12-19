@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationTooltipData: MessageTooltipData
----@field public attribiuteLevel String
----@field public maxedOrMinimumLabelText String
+---@field public ["attribiuteLevel"] String
+---@field public ["maxedOrMinimumLabelText"] String
 CharacterCreationTooltipData = {}
 
 ---@param fields? table

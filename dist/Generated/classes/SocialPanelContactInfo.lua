@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SocialPanelContactInfo
----@field public Hash Int32
----@field public Contact gameJournalContact
+---@field public ["Hash"] Int32
+---@field public ["Contact"] gameJournalContact
 SocialPanelContactInfo = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemObjectLookedAtEvent: redEvent
----@field public ownerID entEntityID
----@field public state Bool
+---@field public ["ownerID"] entEntityID
+---@field public ["state"] Bool
 gametargetingSystemObjectLookedAtEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVoiceGruntVariations
----@field public cachedVariations CName[]
+---@field public ["cachedVariations"] CName[]
 audioVoiceGruntVariations = {}
 
 ---@param fields? table

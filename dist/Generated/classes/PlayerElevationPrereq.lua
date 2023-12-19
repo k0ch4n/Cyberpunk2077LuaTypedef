@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerElevationPrereq: gameIScriptablePrereq
----@field public elevationThreshold Float
+---@field public ["elevationThreshold"] Float
 PlayerElevationPrereq = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SlideExitingEvents: ExitingEvents
----@field public exitMomentum Vector4
+---@field public ["exitMomentum"] Vector4
 SlideExitingEvents = {}
 
 ---@param fields? table

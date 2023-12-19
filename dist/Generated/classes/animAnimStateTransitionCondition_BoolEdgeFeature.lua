@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_BoolEdgeFeature: animIAnimStateTransitionCondition
----@field public featureName CName
----@field public featurePropertyName CName
+---@field public ["featureName"] CName
+---@field public ["featurePropertyName"] CName
 animAnimStateTransitionCondition_BoolEdgeFeature = {}
 
 ---@param fields? table

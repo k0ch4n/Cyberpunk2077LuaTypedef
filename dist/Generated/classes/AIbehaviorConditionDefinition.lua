@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorConditionDefinition: AIbehaviorBehaviorComponentDefinition
----@field public isInverted Bool
+---@field public ["isInverted"] Bool
 AIbehaviorConditionDefinition = {}

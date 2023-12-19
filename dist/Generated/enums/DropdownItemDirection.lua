@@ -3,7 +3,7 @@
 
 ---@enum DropdownItemDirection
 DropdownItemDirection = {
-    ["None"] = 0,
-    ["Down"] = 1,
-    ["Up"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Down"] = 1, ---@type Enum
+    ["Up"] = 2, ---@type Enum
 }

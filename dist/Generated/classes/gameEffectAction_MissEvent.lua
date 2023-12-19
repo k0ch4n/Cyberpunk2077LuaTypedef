@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectAction_MissEvent: gameEffectAction
----@field public npcMissEvents Bool
+---@field public ["npcMissEvents"] Bool
 gameEffectAction_MissEvent = {}
 
 ---@param fields? table

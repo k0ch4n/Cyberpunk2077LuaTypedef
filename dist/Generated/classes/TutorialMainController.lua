@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TutorialMainController: gameuiWidgetGameController
----@field private instructionPanel inkWidgetReference
----@field private instructionDesc inkTextWidgetReference
----@field private pointer inkWidgetReference
----@field private tutorialActive Bool
----@field private currentTutorialStep TutorialStep
+---@field private ["instructionPanel"] inkWidgetReference
+---@field private ["instructionDesc"] inkTextWidgetReference
+---@field private ["pointer"] inkWidgetReference
+---@field private ["tutorialActive"] Bool
+---@field private ["currentTutorialStep"] TutorialStep
 TutorialMainController = {}
 
 ---@param fields? table

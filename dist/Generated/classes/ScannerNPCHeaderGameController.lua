@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ScannerNPCHeaderGameController: BaseChunkGameController
----@field private nameText inkTextWidgetReference
----@field private skullIndicator inkWidgetReference
----@field private archetypeIcon inkImageWidgetReference
----@field private levelCallbackID redCallbackObject
----@field private nameCallbackID redCallbackObject
----@field private attitudeCallbackID redCallbackObject
----@field private archtypeCallbackID redCallbackObject
----@field private isValidName Bool
----@field private isValidRarity Bool
----@field private isValidArchetype Bool
+---@field private ["nameText"] inkTextWidgetReference
+---@field private ["skullIndicator"] inkWidgetReference
+---@field private ["archetypeIcon"] inkImageWidgetReference
+---@field private ["levelCallbackID"] redCallbackObject
+---@field private ["nameCallbackID"] redCallbackObject
+---@field private ["attitudeCallbackID"] redCallbackObject
+---@field private ["archtypeCallbackID"] redCallbackObject
+---@field private ["isValidName"] Bool
+---@field private ["isValidRarity"] Bool
+---@field private ["isValidArchetype"] Bool
 ScannerNPCHeaderGameController = {}
 
 ---@param fields? table

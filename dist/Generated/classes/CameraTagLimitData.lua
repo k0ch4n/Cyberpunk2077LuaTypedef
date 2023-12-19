@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CameraTagLimitData: IScriptable
----@field public add Bool
----@field public object SurveillanceCamera
+---@field public ["add"] Bool
+---@field public ["object"] SurveillanceCamera
 CameraTagLimitData = {}
 
 ---@param fields? table

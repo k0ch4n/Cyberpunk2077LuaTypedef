@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Color
----@field public Red Uint8
----@field public Green Uint8
----@field public Blue Uint8
----@field public Alpha Uint8
+---@field public ["Red"] Uint8
+---@field public ["Green"] Uint8
+---@field public ["Blue"] Uint8
+---@field public ["Alpha"] Uint8
 Color = {}
 
 ---@param fields? table

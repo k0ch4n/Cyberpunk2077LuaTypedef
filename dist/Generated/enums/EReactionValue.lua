@@ -3,6 +3,6 @@
 
 ---@enum EReactionValue
 EReactionValue = {
-    ["Fear"] = 0,
-    ["Aggressive"] = 1
+    ["Fear"] = 0, ---@type Enum
+    ["Aggressive"] = 1, ---@type Enum
 }

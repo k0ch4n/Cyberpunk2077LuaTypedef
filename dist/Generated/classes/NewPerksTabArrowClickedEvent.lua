@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewPerksTabArrowClickedEvent: redEvent
----@field public direction NewPerkTabsArrowDirection
+---@field public ["direction"] NewPerkTabsArrowDirection
 NewPerksTabArrowClickedEvent = {}
 
 ---@param fields? table

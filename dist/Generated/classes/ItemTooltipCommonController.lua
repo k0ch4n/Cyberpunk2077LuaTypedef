@@ -2,71 +2,71 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipCommonController: AGenericTooltipControllerWithDebug
----@field protected backgroundContainer inkWidgetReference
----@field protected itemEquippedContainer inkWidgetReference
----@field protected itemRecipeContainer inkWidgetReference
----@field protected itemHeaderContainer inkWidgetReference
----@field protected itemIconContainer inkWidgetReference
----@field protected itemWeaponInfoContainer inkWidgetReference
----@field protected itemClothingInfoContainer inkWidgetReference
----@field protected itemGrenadeInfoContainer inkWidgetReference
----@field protected itemCyberwareContainer inkWidgetReference
----@field protected itemRequirementsContainer inkWidgetReference
----@field protected itemDetailsContainer inkWidgetReference
----@field protected itemRecipeDataContainer inkWidgetReference
----@field protected itemEvolutionContainer inkWidgetReference
----@field protected itemCraftedContainer inkWidgetReference
----@field protected itemActionContainer inkWidgetReference
----@field protected itemBottomContainer inkWidgetReference
----@field protected itemCWUpgradeContainer inkWidgetReference
----@field protected itemCWQuickHackMenuLinkContainer inkWidgetReference
----@field protected contentWrapper inkWidgetReference
----@field protected cornerContainer inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected cyberwareUpgradeModuleName CName
----@field protected cyberwareQuickHackMenuLinkName CName
----@field protected cyberwareModulesLibraryRes redResourceReferenceScriptToken
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field protected spawnedModules ItemTooltipModuleController[]
----@field protected itemEquippedController ItemTooltipEquippedModule
----@field protected itemRecipeController ItemTooltipRepiceModule
----@field protected itemHeaderController ItemTooltipHeaderController
----@field protected itemIconController ItemTooltipIconModule
----@field protected itemWeaponInfoController ItemTooltipWeaponInfoModule
----@field protected itemClothingInfoController ItemTooltipClothingInfoModule
----@field protected itemGrenadeInfoController ItemTooltipGrenadeInfoModule
----@field protected itemCyberwareController ItemTooltipCyberwareWeaponModule
----@field protected itemRequirementsController ItemTooltipRequirementsModule
----@field protected itemDetailsController ItemTooltipDetailsModule
----@field protected itemRecipeDataController ItemTooltipRecipeDataModule
----@field protected itemEvolutionController ItemTooltipEvolutionModule
----@field protected itemCraftedController ItemTooltipCraftedModule
----@field protected itemCWUpgradeController ItemTooltipCyberwareUpgradeController
----@field protected itemBottomController ItemTooltipBottomModule
----@field protected DEBUG_showAdditionalInfo Bool
----@field protected data MinimalItemTooltipData
----@field protected inventoryTooltipData InventoryTooltipData
----@field protected itemData UIInventoryItem
----@field protected comparisonData UIInventoryItemComparisonManager
----@field public player PlayerPuppet
----@field protected requestedModules CName[]
----@field protected pendingModules CName[]
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
----@field protected priceOverride Int32
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field protected ["backgroundContainer"] inkWidgetReference
+---@field protected ["itemEquippedContainer"] inkWidgetReference
+---@field protected ["itemRecipeContainer"] inkWidgetReference
+---@field protected ["itemHeaderContainer"] inkWidgetReference
+---@field protected ["itemIconContainer"] inkWidgetReference
+---@field protected ["itemWeaponInfoContainer"] inkWidgetReference
+---@field protected ["itemClothingInfoContainer"] inkWidgetReference
+---@field protected ["itemGrenadeInfoContainer"] inkWidgetReference
+---@field protected ["itemCyberwareContainer"] inkWidgetReference
+---@field protected ["itemRequirementsContainer"] inkWidgetReference
+---@field protected ["itemDetailsContainer"] inkWidgetReference
+---@field protected ["itemRecipeDataContainer"] inkWidgetReference
+---@field protected ["itemEvolutionContainer"] inkWidgetReference
+---@field protected ["itemCraftedContainer"] inkWidgetReference
+---@field protected ["itemActionContainer"] inkWidgetReference
+---@field protected ["itemBottomContainer"] inkWidgetReference
+---@field protected ["itemCWUpgradeContainer"] inkWidgetReference
+---@field protected ["itemCWQuickHackMenuLinkContainer"] inkWidgetReference
+---@field protected ["contentWrapper"] inkWidgetReference
+---@field protected ["cornerContainer"] inkWidgetReference
+---@field protected ["root"] inkWidgetReference
+---@field protected ["iconicBG"] inkWidgetReference
+---@field protected ["recipeBG"] inkWidgetReference
+---@field protected ["illegalBG"] inkWidgetReference
+---@field protected ["descriptionWrapper"] inkWidgetReference
+---@field protected ["descriptionText"] inkTextWidgetReference
+---@field protected ["cyberwareUpgradeModuleName"] CName
+---@field protected ["cyberwareQuickHackMenuLinkName"] CName
+---@field protected ["cyberwareModulesLibraryRes"] redResourceReferenceScriptToken
+---@field protected ["DEBUG_iconErrorWrapper"] inkWidgetReference
+---@field protected ["DEBUG_iconErrorText"] inkTextWidgetReference
+---@field protected ["spawnedModules"] ItemTooltipModuleController[]
+---@field protected ["itemEquippedController"] ItemTooltipEquippedModule
+---@field protected ["itemRecipeController"] ItemTooltipRepiceModule
+---@field protected ["itemHeaderController"] ItemTooltipHeaderController
+---@field protected ["itemIconController"] ItemTooltipIconModule
+---@field protected ["itemWeaponInfoController"] ItemTooltipWeaponInfoModule
+---@field protected ["itemClothingInfoController"] ItemTooltipClothingInfoModule
+---@field protected ["itemGrenadeInfoController"] ItemTooltipGrenadeInfoModule
+---@field protected ["itemCyberwareController"] ItemTooltipCyberwareWeaponModule
+---@field protected ["itemRequirementsController"] ItemTooltipRequirementsModule
+---@field protected ["itemDetailsController"] ItemTooltipDetailsModule
+---@field protected ["itemRecipeDataController"] ItemTooltipRecipeDataModule
+---@field protected ["itemEvolutionController"] ItemTooltipEvolutionModule
+---@field protected ["itemCraftedController"] ItemTooltipCraftedModule
+---@field protected ["itemCWUpgradeController"] ItemTooltipCyberwareUpgradeController
+---@field protected ["itemBottomController"] ItemTooltipBottomModule
+---@field protected ["DEBUG_showAdditionalInfo"] Bool
+---@field protected ["data"] MinimalItemTooltipData
+---@field protected ["inventoryTooltipData"] InventoryTooltipData
+---@field protected ["itemData"] UIInventoryItem
+---@field protected ["comparisonData"] UIInventoryItemComparisonManager
+---@field public ["player"] PlayerPuppet
+---@field protected ["requestedModules"] CName[]
+---@field protected ["pendingModules"] CName[]
+---@field protected ["displayContext"] ItemDisplayContextData
+---@field protected ["tooltipDisplayContext"] InventoryTooltipDisplayContext
+---@field protected ["itemDisplayContext"] gameItemDisplayContext
+---@field protected ["priceOverride"] Int32
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] ItemTooltipSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["minWidth"] inkWidgetReference
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["inCrafting"] Bool
 ItemTooltipCommonController = {}
 
 ---@param fields? table
@@ -374,8 +374,8 @@ function ItemTooltipCommonController:NEW_UpdateTransmogModule() return end
 ---@return nil
 function ItemTooltipCommonController:NEW_UpdateWeaponInfoModule() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
@@ -390,17 +390,17 @@ function ItemTooltipCommonController:RegisterUserSettingsListener() return end
 
 ---@protected
 ---@param container inkWidgetReference
----@param moduleName CName
+---@param moduleName CName|string
 ---@param modulesLibraryRes redResourceReferenceScriptToken
----@param callback CName
+---@param callback CName|string
 ---@param data? ItemTooltipModuleSpawnedCallbackData
 ---@return Bool
 function ItemTooltipCommonController:RequestExternalModule(container, moduleName, modulesLibraryRes, callback, data) return end
 
 ---@protected
 ---@param container inkWidgetReference
----@param moduleName CName
----@param callback CName
+---@param moduleName CName|string
+---@param callback CName|string
 ---@param data? ItemTooltipModuleSpawnedCallbackData
 ---@return Bool
 function ItemTooltipCommonController:RequestModule(container, moduleName, callback, data) return end

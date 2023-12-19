@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIHoldPositionCommand: AIMoveCommand
----@field public duration Float
+---@field public ["duration"] Float
 AIHoldPositionCommand = {}
 
 ---@param fields? table

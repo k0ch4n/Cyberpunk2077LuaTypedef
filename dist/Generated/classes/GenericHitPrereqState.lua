@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GenericHitPrereqState: gamePrereqState
----@field public listener HitCallback
----@field public hitEvent gameeventsHitEvent
----@field public missEvent gameeventsMissEvent
+---@field public ["listener"] HitCallback
+---@field public ["hitEvent"] gameeventsHitEvent
+---@field public ["missEvent"] gameeventsMissEvent
 GenericHitPrereqState = {}
 
 ---@param fields? table

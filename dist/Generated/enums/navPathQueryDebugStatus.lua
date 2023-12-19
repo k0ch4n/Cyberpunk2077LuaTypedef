@@ -3,9 +3,9 @@
 
 ---@enum navPathQueryDebugStatus
 navPathQueryDebugStatus = {
-    ["InvalidQuery"] = 0,
-    ["Active"] = 1,
-    ["WaitingForStreaming"] = 2,
-    ["Completed"] = 3,
-    ["NoPathPossible"] = 4
+    ["InvalidQuery"] = 0, ---@type Enum
+    ["Active"] = 1, ---@type Enum
+    ["WaitingForStreaming"] = 2, ---@type Enum
+    ["Completed"] = 3, ---@type Enum
+    ["NoPathPossible"] = 4, ---@type Enum
 }

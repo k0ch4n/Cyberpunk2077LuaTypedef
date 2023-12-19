@@ -3,8 +3,8 @@
 
 ---@enum animCoverBehavior
 animCoverBehavior = {
-    ["Idle"] = 0,
-    ["PreAction"] = 1,
-    ["DoAction"] = 2,
-    ["PostAction"] = 3
+    ["Idle"] = 0, ---@type Enum
+    ["PreAction"] = 1, ---@type Enum
+    ["DoAction"] = 2, ---@type Enum
+    ["PostAction"] = 3, ---@type Enum
 }

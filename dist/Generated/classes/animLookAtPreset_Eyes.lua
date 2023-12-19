@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animLookAtPreset_Eyes: animLookAtPreset
----@field public softLimitAngle Float
+---@field public ["softLimitAngle"] Float
 animLookAtPreset_Eyes = {}
 
 ---@param fields? table

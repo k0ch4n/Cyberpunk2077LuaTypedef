@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentNode: worldNode
----@field public resource worldTrafficPersistentResource
+---@field public ["resource"] worldTrafficPersistentResource
 worldTrafficPersistentNode = {}
 
 ---@param fields? table

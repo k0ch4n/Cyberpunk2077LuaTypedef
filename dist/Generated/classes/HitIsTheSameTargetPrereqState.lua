@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitIsTheSameTargetPrereqState: GenericHitPrereqState
----@field public previousTarget gameObject
----@field public previousSource gameObject
----@field public previousWeapon gameweaponObject
+---@field public ["previousTarget"] gameObject
+---@field public ["previousSource"] gameObject
+---@field public ["previousWeapon"] gameweaponObject
 HitIsTheSameTargetPrereqState = {}
 
 ---@param fields? table

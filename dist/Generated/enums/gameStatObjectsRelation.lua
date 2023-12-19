@@ -3,13 +3,13 @@
 
 ---@enum gameStatObjectsRelation
 gameStatObjectsRelation = {
-    ["Self"] = 0,
-    ["Owner"] = 1,
-    ["Root"] = 2,
-    ["Parent"] = 3,
-    ["Target"] = 4,
-    ["Player"] = 5,
-    ["Instigator"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 9
+    ["Self"] = 0, ---@type Enum
+    ["Owner"] = 1, ---@type Enum
+    ["Root"] = 2, ---@type Enum
+    ["Parent"] = 3, ---@type Enum
+    ["Target"] = 4, ---@type Enum
+    ["Player"] = 5, ---@type Enum
+    ["Instigator"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

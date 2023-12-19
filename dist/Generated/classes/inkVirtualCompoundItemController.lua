@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkVirtualCompoundItemController: inkButtonController
----@field public ToggledOff inkVirtualCompoundItemControllerCallback
----@field public ToggledOn inkVirtualCompoundItemControllerCallback
----@field public Selected inkVirtualCompoundItemSelectControllerCallback
----@field public Deselected inkVirtualCompoundItemControllerCallback
----@field public Added inkVirtualCompoundItemControllerCallback
+---@field public ["ToggledOff"] inkVirtualCompoundItemControllerCallback
+---@field public ["ToggledOn"] inkVirtualCompoundItemControllerCallback
+---@field public ["Selected"] inkVirtualCompoundItemSelectControllerCallback
+---@field public ["Deselected"] inkVirtualCompoundItemControllerCallback
+---@field public ["Added"] inkVirtualCompoundItemControllerCallback
 inkVirtualCompoundItemController = {}
 
 ---@param fields? table

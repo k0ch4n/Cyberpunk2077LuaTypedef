@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SendScoreRequest: gameScriptableSystemRequest
----@field public score Int32
----@field public gameName String
+---@field public ["score"] Int32
+---@field public ["gameName"] String
 SendScoreRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkBrushWrapper
----@field public brush inkWidgetBrush
----@field public externalBrush inkWidgetBrushResource
+---@field public ["brush"] inkWidgetBrush
+---@field public ["externalBrush"] inkWidgetBrushResource
 inkBrushWrapper = {}
 
 ---@param fields? table

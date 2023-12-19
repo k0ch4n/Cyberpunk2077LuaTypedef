@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questObjectDistance: questIDistance
----@field public entityRef questUniversalRef
----@field public nodeRef2 gameEntityReference
+---@field public ["entityRef"] questUniversalRef
+---@field public ["nodeRef2"] gameEntityReference
 questObjectDistance = {}
 
 ---@param fields? table

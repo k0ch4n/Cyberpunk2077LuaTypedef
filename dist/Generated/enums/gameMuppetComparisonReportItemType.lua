@@ -3,7 +3,7 @@
 
 ---@enum gameMuppetComparisonReportItemType
 gameMuppetComparisonReportItemType = {
-    ["Different"] = 0,
-    ["WithinTolerance"] = 1,
-    ["Equal"] = 2
+    ["Different"] = 0, ---@type Enum
+    ["WithinTolerance"] = 1, ---@type Enum
+    ["Equal"] = 2, ---@type Enum
 }

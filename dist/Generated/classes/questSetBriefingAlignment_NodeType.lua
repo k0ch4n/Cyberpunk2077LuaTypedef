@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetBriefingAlignment_NodeType: questIUIManagerNodeType
----@field public briefingAlignment questJournalAlignmentEventType
+---@field public ["briefingAlignment"] questJournalAlignmentEventType
 questSetBriefingAlignment_NodeType = {}
 
 ---@param fields? table

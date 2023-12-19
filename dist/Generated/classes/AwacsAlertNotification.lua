@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AwacsAlertNotification: GenericNotificationController
----@field private animation inkanimProxy
----@field private zone_data VehicleAlertNotificationViewData
----@field private ZoneLabelText inkTextWidgetReference
+---@field private ["animation"] inkanimProxy
+---@field private ["zone_data"] VehicleAlertNotificationViewData
+---@field private ["ZoneLabelText"] inkTextWidgetReference
 AwacsAlertNotification = {}
 
 ---@param fields? table

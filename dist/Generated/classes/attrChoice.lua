@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class attrChoice: attrAttribute
----@field public tions String[]
+---@field public ["tions"] String[]
 attrChoice = {}
 
 ---@param fields? table

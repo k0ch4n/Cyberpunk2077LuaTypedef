@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entIPlacedComponent: entIComponent
----@field public localTransform WorldTransform
----@field public parentTransform entITransformBinding
+---@field public ["localTransform"] WorldTransform
+---@field public ["parentTransform"] entITransformBinding
 entIPlacedComponent = {}
 
 ---@return Quaternion

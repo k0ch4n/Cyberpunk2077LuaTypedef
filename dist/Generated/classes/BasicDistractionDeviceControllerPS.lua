@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BasicDistractionDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected distractorType EPlaystyleType
----@field protected basicDistractionDeviceSkillChecks EngDemoContainer
----@field protected effectOnStartNames CName[]
----@field protected animationType EAnimationType
----@field protected forceAnimationSystem Bool
----@field public overrideDistractionActionId TweakDBID
+---@field protected ["distractorType"] EPlaystyleType
+---@field protected ["basicDistractionDeviceSkillChecks"] EngDemoContainer
+---@field protected ["effectOnStartNames"] CName[]
+---@field protected ["animationType"] EAnimationType
+---@field protected ["forceAnimationSystem"] Bool
+---@field public ["overrideDistractionActionId"] TweakDBID
 BasicDistractionDeviceControllerPS = {}
 
 ---@param fields? table

@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ElevatorInkGameController: DeviceInkGameControllerBase
----@field private verticalPanel inkVerticalPanelWidgetReference
----@field private currentFloorTextWidget inkTextWidgetReference
----@field private openCloseButtonWidgets inkCanvasWidgetReference
----@field private elevatorUpArrowsWidget inkFlexWidgetReference
----@field private elevatorDownArrowsWidget inkFlexWidgetReference
----@field private waitingStateWidget inkCanvasWidgetReference
----@field private dataScanningWidget inkCanvasWidgetReference
----@field private elevatorStoppedWidget inkCanvasWidgetReference
----@field protected isPlayerScanned Bool
----@field protected isPaused Bool
----@field protected isAuthorized Bool
----@field protected animProxy inkanimProxy
----@field protected buttonSizes Float[]
----@field private onChangeFloorListener redCallbackObject
----@field private onPlayerScannedListener redCallbackObject
----@field private onPausedChangeListener redCallbackObject
+---@field private ["verticalPanel"] inkVerticalPanelWidgetReference
+---@field private ["currentFloorTextWidget"] inkTextWidgetReference
+---@field private ["openCloseButtonWidgets"] inkCanvasWidgetReference
+---@field private ["elevatorUpArrowsWidget"] inkFlexWidgetReference
+---@field private ["elevatorDownArrowsWidget"] inkFlexWidgetReference
+---@field private ["waitingStateWidget"] inkCanvasWidgetReference
+---@field private ["dataScanningWidget"] inkCanvasWidgetReference
+---@field private ["elevatorStoppedWidget"] inkCanvasWidgetReference
+---@field protected ["isPlayerScanned"] Bool
+---@field protected ["isPaused"] Bool
+---@field protected ["isAuthorized"] Bool
+---@field protected ["animProxy"] inkanimProxy
+---@field protected ["buttonSizes"] Float[]
+---@field private ["onChangeFloorListener"] redCallbackObject
+---@field private ["onPlayerScannedListener"] redCallbackObject
+---@field private ["onPausedChangeListener"] redCallbackObject
 ElevatorInkGameController = {}
 
 ---@param fields? table

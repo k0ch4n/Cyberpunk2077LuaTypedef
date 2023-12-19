@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FillTakeOverChainBBoardEvent: redEvent
----@field public requesterID gamePersistentID
+---@field public ["requesterID"] gamePersistentID
 FillTakeOverChainBBoardEvent = {}
 
 ---@param fields? table

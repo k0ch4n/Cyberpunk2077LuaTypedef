@@ -19,23 +19,23 @@ function gameIAttack:AddStatModifier(modifierData) return end
 ---@return gameAttackDebugData
 function gameIAttack:GetDebugData() return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param defaultValue? Bool
 ---@return Bool
 function gameIAttack:GetParameterBool(parameterName, defaultValue) return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param defaultValue? Float
 ---@return Float
 function gameIAttack:GetParameterFloat(parameterName, defaultValue) return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param defaultValue? Int32
 ---@return Int32
 function gameIAttack:GetParameterInt(parameterName, defaultValue) return end
 
----@param parameterName CName
----@param defaultValue? CName
+---@param parameterName CName|string
+---@param defaultValue? CName|string
 ---@return CName
 function gameIAttack:GetParameterName(parameterName, defaultValue) return end
 

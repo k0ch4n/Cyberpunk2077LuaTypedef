@@ -3,7 +3,7 @@
 
 ---@enum inkEShapeVariant
 inkEShapeVariant = {
-    ["Fill"] = 0,
-    ["Border"] = 1,
-    ["FillAndBorder"] = 2
+    ["Fill"] = 0, ---@type Enum
+    ["Border"] = 1, ---@type Enum
+    ["FillAndBorder"] = 2, ---@type Enum
 }

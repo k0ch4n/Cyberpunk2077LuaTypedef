@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class CraftingLogicController: CraftingMainLogicController
----@field private ingredientsWeaponContainer inkCompoundWidgetReference
----@field private itemPreviewContainer inkWidgetReference
----@field private weaponPreviewContainer inkWidgetReference
----@field private garmentPreviewContainer inkWidgetReference
----@field private perkNotificationContainer inkWidgetReference
----@field private perkNotificationText inkTextWidgetReference
----@field private itemTooltipController AGenericTooltipController
----@field private quickHackTooltipController AGenericTooltipController
----@field private tooltipData ATooltipData
----@field private ingredientWeaponController InventoryWeaponDisplayController
----@field private ingredientClothingController InventoryWeaponDisplayController
----@field private selectedItemGameData gameItemData
----@field private quantityPickerPopupToken inkGameNotificationToken
----@field private playerCraftBook CraftBook
----@field private hasSpawnedQuickHackTooltip Bool
----@field private timeUntilReset Float
+---@field private ["ingredientsWeaponContainer"] inkCompoundWidgetReference
+---@field private ["itemPreviewContainer"] inkWidgetReference
+---@field private ["weaponPreviewContainer"] inkWidgetReference
+---@field private ["garmentPreviewContainer"] inkWidgetReference
+---@field private ["perkNotificationContainer"] inkWidgetReference
+---@field private ["perkNotificationText"] inkTextWidgetReference
+---@field private ["itemTooltipController"] AGenericTooltipController
+---@field private ["quickHackTooltipController"] AGenericTooltipController
+---@field private ["tooltipData"] ATooltipData
+---@field private ["ingredientWeaponController"] InventoryWeaponDisplayController
+---@field private ["ingredientClothingController"] InventoryWeaponDisplayController
+---@field private ["selectedItemGameData"] gameItemData
+---@field private ["quantityPickerPopupToken"] inkGameNotificationToken
+---@field private ["playerCraftBook"] CraftBook
+---@field private ["hasSpawnedQuickHackTooltip"] Bool
+---@field private ["timeUntilReset"] Float
 CraftingLogicController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DisassemblableComponent: gameScriptableComponent
----@field private disassembled Bool
----@field private disassembleTargetRequesters gameObject[]
+---@field private ["disassembled"] Bool
+---@field private ["disassembleTargetRequesters"] gameObject[]
 DisassemblableComponent = {}
 
 ---@param fields? table

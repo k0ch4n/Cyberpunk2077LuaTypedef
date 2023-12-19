@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class sharedResourceCommandOutcome
----@field public result sharedCommandResult
----@field public modifiedFiles String[]
----@field public message String
+---@field public ["result"] sharedCommandResult
+---@field public ["modifiedFiles"] String[]
+---@field public ["message"] String
 sharedResourceCommandOutcome = {}
 
 ---@param fields? table

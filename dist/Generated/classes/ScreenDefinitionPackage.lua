@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScreenDefinitionPackage
----@field public screenDefinition gamedataDeviceUIDefinition_Record
----@field public style gamedataWidgetStyle_Record
+---@field public ["screenDefinition"] gamedataDeviceUIDefinition_Record
+---@field public ["style"] gamedataWidgetStyle_Record
 ScreenDefinitionPackage = {}
 
 ---@param fields? table

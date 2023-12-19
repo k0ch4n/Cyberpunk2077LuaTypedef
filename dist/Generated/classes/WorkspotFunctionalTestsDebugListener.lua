@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class WorkspotFunctionalTestsDebugListener: IScriptable
----@field private entityId entEntityID
----@field private instancesCreated Int32
----@field private instancesRemoved Int32
----@field private workspotsSetup Int32
----@field private workspotsStarted Int32
----@field private workspotsFinished Int32
----@field private animationsStack String[]
----@field private animationsSkippedStack String[]
----@field private animationsMissingStack String[]
----@field private skipOverflows Int32
----@field private teleportRequests Int32
----@field private movementRequests Int32
+---@field private ["entityId"] entEntityID
+---@field private ["instancesCreated"] Int32
+---@field private ["instancesRemoved"] Int32
+---@field private ["workspotsSetup"] Int32
+---@field private ["workspotsStarted"] Int32
+---@field private ["workspotsFinished"] Int32
+---@field private ["animationsStack"] String[]
+---@field private ["animationsSkippedStack"] String[]
+---@field private ["animationsMissingStack"] String[]
+---@field private ["skipOverflows"] Int32
+---@field private ["teleportRequests"] Int32
+---@field private ["movementRequests"] Int32
 WorkspotFunctionalTestsDebugListener = {}
 
 ---@param fields? table
@@ -21,19 +21,19 @@ WorkspotFunctionalTestsDebugListener = {}
 function WorkspotFunctionalTestsDebugListener.new(fields) return end
 
 ---@protected
----@param animName CName
+---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
 function WorkspotFunctionalTestsDebugListener:OnAnimationChanged(animName, workEntryID) return end
 
 ---@protected
----@param animName CName
+---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
 function WorkspotFunctionalTestsDebugListener:OnAnimationMissing(animName, workEntryID) return end
 
 ---@protected
----@param animName CName
+---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
 function WorkspotFunctionalTestsDebugListener:OnAnimationSkipped(animName, workEntryID) return end

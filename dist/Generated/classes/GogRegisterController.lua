@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GogRegisterController: gameuiBaseGOGRegisterController
----@field public linkWidget inkWidgetReference
----@field public qrImageWidget inkWidgetReference
----@field public textDescription inkTextWidgetReference
+---@field public ["linkWidget"] inkWidgetReference
+---@field public ["qrImageWidget"] inkWidgetReference
+---@field public ["textDescription"] inkTextWidgetReference
 GogRegisterController = {}
 
 ---@param fields? table

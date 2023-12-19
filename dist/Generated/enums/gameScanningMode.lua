@@ -3,7 +3,7 @@
 
 ---@enum gameScanningMode
 gameScanningMode = {
-    ["Inactive"] = 0,
-    ["Light"] = 1,
-    ["Heavy"] = 2
+    ["Inactive"] = 0, ---@type Enum
+    ["Light"] = 1, ---@type Enum
+    ["Heavy"] = 2, ---@type Enum
 }

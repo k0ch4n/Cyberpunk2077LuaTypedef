@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questVehicleDoor_ConditionType: questIVehicleConditionType
----@field public vehicleRef gameEntityReference
----@field public door vehicleEVehicleDoor
----@field public state vehicleVehicleDoorState
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["door"] vehicleEVehicleDoor
+---@field public ["state"] vehicleVehicleDoorState
 questVehicleDoor_ConditionType = {}
 
 ---@param fields? table

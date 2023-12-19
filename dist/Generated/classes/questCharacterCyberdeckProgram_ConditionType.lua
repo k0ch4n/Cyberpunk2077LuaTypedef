@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterCyberdeckProgram_ConditionType: questICharacterConditionType
----@field public cyberdeckProgramID TweakDBID
+---@field public ["cyberdeckProgramID"] TweakDBID
 questCharacterCyberdeckProgram_ConditionType = {}
 
 ---@param fields? table

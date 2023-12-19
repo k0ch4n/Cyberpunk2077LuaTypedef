@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questFinalBoardsLoadPonRSave_NodeType: questIUIManagerNodeType
----@field public loadPointOfNoReturnSave Bool
+---@field public ["loadPointOfNoReturnSave"] Bool
 questFinalBoardsLoadPonRSave_NodeType = {}
 
 ---@param fields? table

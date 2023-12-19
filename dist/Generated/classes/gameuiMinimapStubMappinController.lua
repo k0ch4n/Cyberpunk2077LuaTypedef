@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapStubMappinController: gameuiBaseMinimapMappinController
----@field private regularIconContainer inkCompoundWidgetReference
----@field private preventionVehicleIconContainer inkCompoundWidgetReference
----@field private stubMappin gamemappinsStubMappin
----@field private state CName
+---@field private ["regularIconContainer"] inkCompoundWidgetReference
+---@field private ["preventionVehicleIconContainer"] inkCompoundWidgetReference
+---@field private ["stubMappin"] gamemappinsStubMappin
+---@field private ["state"] CName
 gameuiMinimapStubMappinController = {}
 
 ---@param fields? table

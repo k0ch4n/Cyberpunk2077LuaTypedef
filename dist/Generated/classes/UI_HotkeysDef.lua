@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_HotkeysDef: gamebbScriptDefinition
----@field public ModifiedHotkey gamebbScriptID_Variant
+---@field public ["ModifiedHotkey"] gamebbScriptID_Variant
 UI_HotkeysDef = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CityFluffMessageSelector: ScreenMessageSelector
----@field private recordID TweakDBID
+---@field private ["recordID"] TweakDBID
 CityFluffMessageSelector = {}
 
 ---@param fields? table

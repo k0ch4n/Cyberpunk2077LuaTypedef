@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChangeLoopCurveEvent: redEvent
----@field public loopTime Float
----@field public loopCurve CName
+---@field public ["loopTime"] Float
+---@field public ["loopCurve"] CName
 ChangeLoopCurveEvent = {}
 
 ---@param fields? table

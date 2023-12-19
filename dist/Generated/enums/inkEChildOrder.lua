@@ -3,6 +3,6 @@
 
 ---@enum inkEChildOrder
 inkEChildOrder = {
-    ["Forward"] = 0,
-    ["Backward"] = 1
+    ["Forward"] = 0, ---@type Enum
+    ["Backward"] = 1, ---@type Enum
 }

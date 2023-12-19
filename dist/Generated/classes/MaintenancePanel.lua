@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MaintenancePanel: InteractiveMasterDevice
----@field private animFeature AnimFeature_SimpleDevice
+---@field private ["animFeature"] AnimFeature_SimpleDevice
 MaintenancePanel = {}
 
 ---@param fields? table
@@ -30,12 +30,12 @@ function MaintenancePanel:OnRequestComponents(ri) return end
 function MaintenancePanel:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function MaintenancePanel:OnWorkspotFinished(componentName) return end
 
 ---@private
----@param newApperance CName
+---@param newApperance CName|string
 ---@param time Float
 ---@return nil
 function MaintenancePanel:DelayApperanceSwitchEvent(newApperance, time) return end
@@ -43,8 +43,8 @@ function MaintenancePanel:DelayApperanceSwitchEvent(newApperance, time) return e
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function MaintenancePanel:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

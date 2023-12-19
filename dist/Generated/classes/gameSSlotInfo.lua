@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameSSlotInfo
----@field public areaType gamedataEquipmentArea
----@field public equipSlot TweakDBID
----@field public visualTag CName
+---@field public ["areaType"] gamedataEquipmentArea
+---@field public ["equipSlot"] TweakDBID
+---@field public ["visualTag"] CName
 gameSSlotInfo = {}
 
 ---@param fields? table

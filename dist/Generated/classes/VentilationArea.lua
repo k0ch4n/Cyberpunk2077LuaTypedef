@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class VentilationArea: InteractiveMasterDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field protected RestartGameEffectOnAttach Bool
----@field protected AttackRecord String
----@field private gameEffectRef gameEffectRef
----@field private gameEffect gameEffectInstance
----@field private highLightActive Bool
+---@field protected ["areaComponent"] gameStaticTriggerAreaComponent
+---@field protected ["RestartGameEffectOnAttach"] Bool
+---@field protected ["AttackRecord"] String
+---@field private ["gameEffectRef"] gameEffectRef
+---@field private ["gameEffect"] gameEffectInstance
+---@field private ["highLightActive"] Bool
 VentilationArea = {}
 
 ---@param fields? table

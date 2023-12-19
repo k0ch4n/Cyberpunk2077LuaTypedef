@@ -38,7 +38,7 @@ function Game.AcosF(a) return end
 AcosF = Game.AcosF
 
 ---@param entityID entEntityID
----@param componentName CName
+---@param componentName CName|string
 ---@param activate Bool
 ---@return nil
 function Game.ActivateTickForTransformAnimator(entityID, componentName, activate) return end
@@ -105,7 +105,7 @@ AtanF = Game.AtanF
 function Game.BoolToString(value) return end
 BoolToString = Game.BoolToString
 
----@param names CName[]
+---@param names CName[]|string[]
 ---@return inkWidgetPath
 function Game.BuildWidgetPath(names) return end
 BuildWidgetPath = Game.BuildWidgetPath
@@ -754,8 +754,8 @@ Clamp = Game.Clamp
 function Game.ClampF(v, min, max) return end
 ClampF = Game.ClampF
 
----@param arr1 CName[]
----@param arr2 CName[]
+---@param arr1 CName[]|string[]
+---@param arr2 CName[]|string[]
 ---@return Bool
 function Game.CompareArrayNameContents(arr1, arr2) return end
 CompareArrayNameContents = Game.CompareArrayNameContents
@@ -766,13 +766,13 @@ function Game.CosF(a) return end
 CosF = Game.CosF
 
 ---@param nodeRefString String
----@param communityEntryNames CName[]
+---@param communityEntryNames CName[]|string[]
 ---@return gameEntityReference
 function Game.CreateEntityReference(nodeRefString, communityEntryNames) return end
 CreateEntityReference = Game.CreateEntityReference
 
 ---@param entityID entEntityID
----@param componentName? CName
+---@param componentName? CName|string
 ---@return gamePersistentID
 function Game.CreatePersistentID(entityID, componentName) return end
 CreatePersistentID = Game.CreatePersistentID
@@ -795,18 +795,18 @@ DumpClassHierarchy = Game.DumpClassHierarchy
 function Game.EnsureFailure(message) return end
 EnsureFailure = Game.EnsureFailure
 
----@param type CName
+---@param type CName|string
 ---@return Int64
 function Game.EnumGetMax(type) return end
 EnumGetMax = Game.EnumGetMax
 
----@param type CName
+---@param type CName|string
 ---@return Int64
 function Game.EnumGetMin(type) return end
 EnumGetMin = Game.EnumGetMin
 
----@param enumName CName
----@param enumValue CName
+---@param enumName CName|string
+---@param enumValue CName|string
 ---@return Int64
 function Game.EnumValueFromName(enumName, enumValue) return end
 EnumValueFromName = Game.EnumValueFromName
@@ -817,7 +817,7 @@ EnumValueFromName = Game.EnumValueFromName
 function Game.EnumValueFromString(enumStr, enumValue) return end
 EnumValueFromString = Game.EnumValueFromString
 
----@param enumName CName
+---@param enumName CName|string
 ---@param enumValue Int64
 ---@return CName
 function Game.EnumValueToName(enumName, enumValue) return end
@@ -890,7 +890,7 @@ function Game.GetFixedEntityIdsFromEntityReference(puppetRef) return end
 GetFixedEntityIdsFromEntityReference = Game.GetFixedEntityIdsFromEntityReference
 
 ---@param entityID entEntityID
----@param communityEntryNames CName[]
+---@param communityEntryNames CName[]|string[]
 ---@return nil, entEntityID[] outEntityIds
 function Game.GetFixedEntityIdsFromSpawnerEntityID(entityID, communityEntryNames) return end
 GetFixedEntityIdsFromSpawnerEntityID = Game.GetFixedEntityIdsFromSpawnerEntityID
@@ -900,17 +900,17 @@ function Game.GetGameInstance() return end
 GetGameInstance = Game.GetGameInstance
 
 ---@param entityID entEntityID
----@param communityEntryNames CName[]
+---@param communityEntryNames CName[]|string[]
 ---@return nil, gameObject[] outGameObjects
 function Game.GetGameObjectsFromSpawnerEntityID(entityID, communityEntryNames) return end
 GetGameObjectsFromSpawnerEntityID = Game.GetGameObjectsFromSpawnerEntityID
 
----@param hashKey CName
+---@param hashKey CName|string
 ---@return String
 function Game.GetLocalizedItemNameByCName(hashKey) return end
 GetLocalizedItemNameByCName = Game.GetLocalizedItemNameByCName
 
----@param hashKey CName
+---@param hashKey CName|string
 ---@return String
 function Game.GetLocalizedItemNameByString(hashKey) return end
 GetLocalizedItemNameByString = Game.GetLocalizedItemNameByString
@@ -920,7 +920,7 @@ GetLocalizedItemNameByString = Game.GetLocalizedItemNameByString
 function Game.GetLocalizedText(textKey) return end
 GetLocalizedText = Game.GetLocalizedText
 
----@param hashKey CName
+---@param hashKey CName|string
 ---@return String
 function Game.GetLocalizedTextByKey(hashKey) return end
 GetLocalizedTextByKey = Game.GetLocalizedTextByKey
@@ -931,7 +931,7 @@ GetLocalizedTextByKey = Game.GetLocalizedTextByKey
 function Game.GetLocalizedTextGanderDepened(textKey, variantIsFemale) return end
 GetLocalizedTextGanderDepened = Game.GetLocalizedTextGanderDepened
 
----@param hashKey CName
+---@param hashKey CName|string
 ---@param variantIsFemale Bool
 ---@return String
 function Game.GetLocalizedTextGanderDepenedByKey(hashKey, variantIsFemale) return end
@@ -982,7 +982,7 @@ GetQueryMaskAll = Game.GetQueryMaskAll
 function Game.GetQueryMaskNONE() return end
 GetQueryMaskNONE = Game.GetQueryMaskNONE
 
----@param radioReceiverStationName CName
+---@param radioReceiverStationName CName|string
 ---@return CName
 function Game.GetRadioStationCurrentTrackName(radioReceiverStationName) return end
 GetRadioStationCurrentTrackName = Game.GetRadioStationCurrentTrackName
@@ -1035,7 +1035,7 @@ IsFinal = Game.IsFinal
 function Game.IsHost() return end
 IsHost = Game.IsHost
 
----@param language CName
+---@param language CName|string
 ---@return Bool
 function Game.IsLanguageVoicePackInstalled(language) return end
 IsLanguageVoicePackInstalled = Game.IsLanguageVoicePackInstalled
@@ -1044,7 +1044,7 @@ IsLanguageVoicePackInstalled = Game.IsLanguageVoicePackInstalled
 function Game.IsMultiplayer() return end
 IsMultiplayer = Game.IsMultiplayer
 
----@param n CName
+---@param n CName|string
 ---@return Bool
 function Game.IsNameValid(n) return end
 IsNameValid = Game.IsNameValid
@@ -1092,7 +1092,7 @@ LoadResource = Game.LoadResource
 function Game.LoadResourceAsync() return end
 LoadResourceAsync = Game.LoadResourceAsync
 
----@param hashKey CName
+---@param hashKey CName|string
 ---@return String
 function Game.LocKeyToString(hashKey) return end
 LocKeyToString = Game.LocKeyToString
@@ -1129,42 +1129,42 @@ LogWarning = Game.LogWarning
 ---@param message String
 ---@param senderID netPeerID
 ---@return nil
-function Game.Ad.AddChat(message, senderID) return end
-MP.AddChat = Game.MP.AddChat
+function Game.MP_AddChat(message, senderID) return end
+MP_AddChat = Game.MP_AddChat
 
 ---@param killerID netPeerID
 ---@param victimID netPeerID
 ---@return nil
-function Game.DebugMessageK.DebugMessageKill(killerID, victimID) return end
-MP.Deathmatch.DebugMessageKill = Game.MP.Deathmatch.DebugMessageKill
+function Game.MP_Deathmatch_DebugMessageKill(killerID, victimID) return end
+MP_Deathmatch_DebugMessageKill = Game.MP_Deathmatch_DebugMessageKill
 
 ---@param oldName String
 ---@param newName String
 ---@return nil
-function Game.DebugMessageN.DebugMessageNameChanged(oldName, newName) return end
-MP.Deathmatch.DebugMessageNameChanged = Game.MP.Deathmatch.DebugMessageNameChanged
+function Game.MP_Deathmatch_DebugMessageNameChanged(oldName, newName) return end
+MP_Deathmatch_DebugMessageNameChanged = Game.MP_Deathmatch_DebugMessageNameChanged
 
 ---@param oldName String
 ---@param newName String
 ---@return nil
-function Game.DebugMes.DebugMessageNameChanged(oldName, newName) return end
-MP.Heist.DebugMessageNameChanged = Game.MP.Heist.DebugMessageNameChanged
+function Game.MP_Heist_DebugMessageNameChanged(oldName, newName) return end
+MP_Heist_DebugMessageNameChanged = Game.MP_Heist_DebugMessageNameChanged
 
 ---@param peerID netPeerID
 ---@return nil
-function Game.MessageP.MessagePlayerReady(peerID) return end
-MP.Heist.MessagePlayerReady = Game.MP.Heist.MessagePlayerReady
+function Game.MP_Heist_MessagePlayerReady(peerID) return end
+MP_Heist_MessagePlayerReady = Game.MP_Heist_MessagePlayerReady
 
 ---@param peerID netPeerID
 ---@param characterRecordID TweakDBID
 ---@return nil
-function Game.SetPlaye.SetPlayerCharacterClass(peerID, characterRecordID) return end
-MP.Heist.SetPlayerCharacterClass = Game.MP.Heist.SetPlayerCharacterClass
+function Game.MP_Heist_SetPlayerCharacterClass(peerID, characterRecordID) return end
+MP_Heist_SetPlayerCharacterClass = Game.MP_Heist_SetPlayerCharacterClass
 
 ---@param message String
 ---@return nil
-function Game.Se.SendChat(message) return end
-MP.SendChat = Game.MP.SendChat
+function Game.MP_SendChat(message) return end
+MP_SendChat = Game.MP_SendChat
 
 ---@param data gamePopupData
 ---@param settings gamePopupSettings
@@ -1230,7 +1230,7 @@ Min = Game.Min
 function Game.MinF(a, b) return end
 MinF = Game.MinF
 
----@param n CName
+---@param n CName|string
 ---@return String
 function Game.NameToString(n) return end
 NameToString = Game.NameToString
@@ -1246,8 +1246,8 @@ NoTrailZeros = Game.NoTrailZeros
 function Game.OperatorAdd(a, b) return end
 OperatorAdd = Game.OperatorAdd
 
----@param a CName
----@param b CName
+---@param a CName|string
+---@param b CName|string
 ---@return CName
 function Game.OperatorAdd(a, b) return end
 OperatorAdd = Game.OperatorAdd
@@ -3184,7 +3184,7 @@ RepToggleGamePause = Game.RepToggleGamePause
 function Game.ReportFailure(message) return end
 ReportFailure = Game.ReportFailure
 
----@param language CName
+---@param language CName|string
 ---@return nil
 function Game.RequestInstallLanguagePackDialog(language) return end
 RequestInstallLanguagePackDialog = Game.RequestInstallLanguagePackDialog
@@ -3499,7 +3499,7 @@ UnicodeStringLessThanEqual = Game.UnicodeStringLessThanEqual
 function Game.UseProfiler() return end
 UseProfiler = Game.UseProfiler
 
----@param factName CName
+---@param factName CName|string
 ---@param factCount? Int32
 ---@return Bool
 function Game.AddFact(factName, factCount) return end
@@ -3531,7 +3531,7 @@ ArraySortReverse = Game.ArraySortReverse
 function Game.BasicAvailabilityTest(device) return end
 BasicAvailabilityTest = Game.BasicAvailabilityTest
 
----@param groupName CName
+---@param groupName CName|string
 ---@return Bool
 function Game.CanChangeAttitudeRelationFor(groupName) return end
 CanChangeAttitudeRelationFor = Game.CanChangeAttitudeRelationFor
@@ -3579,32 +3579,32 @@ Compare = Game.Compare
 function Game.CompareF(comparator, val1, val2) return end
 CompareF = Game.CompareF
 
----@param debugSourceName CName
+---@param debugSourceName CName|string
 ---@return entRagdollDisableEvent
 function Game.CreateDisableRagdollEvent(debugSourceName) return end
 CreateDisableRagdollEvent = Game.CreateDisableRagdollEvent
 
----@param debugSourceName CName
+---@param debugSourceName CName|string
 ---@return entRagdollActivationRequestEvent
 function Game.CreateForceRagdollEvent(debugSourceName) return end
 CreateForceRagdollEvent = Game.CreateForceRagdollEvent
 
----@param debugSourceName CName
+---@param debugSourceName CName|string
 ---@return entRagdollActivationRequestEvent
 function Game.CreateForceRagdollNoPowerPoseEvent(debugSourceName) return end
 CreateForceRagdollNoPowerPoseEvent = Game.CreateForceRagdollNoPowerPoseEvent
 
----@param customFilterData CName
----@param debugSourceName CName
+---@param customFilterData CName|string
+---@param debugSourceName CName|string
 ---@return entRagdollActivationRequestEvent
 function Game.CreateForceRagdollWithCustomFilterDataEvent(customFilterData, debugSourceName) return end
 CreateForceRagdollWithCustomFilterDataEvent = Game.CreateForceRagdollWithCustomFilterDataEvent
 
 ---@param activationType entragdollActivationRequestType
----@param filterDataOverride CName
+---@param filterDataOverride CName|string
 ---@param applyPowerPose Bool
 ---@param applyMomentum Bool
----@param debugSourceName CName
+---@param debugSourceName CName|string
 ---@return entRagdollActivationRequestEvent
 function Game.CreateRagdollActivationRequestEvent(activationType, filterDataOverride, applyPowerPose, applyMomentum, debugSourceName) return end
 CreateRagdollActivationRequestEvent = Game.CreateRagdollActivationRequestEvent
@@ -3673,7 +3673,7 @@ GetCaptionTagsFromArray = Game.GetCaptionTagsFromArray
 function Game.GetDamageSystemLogFlags() return end
 GetDamageSystemLogFlags = Game.GetDamageSystemLogFlags
 
----@param factName CName
+---@param factName CName|string
 ---@return Int32
 function Game.GetFact(factName) return end
 GetFact = Game.GetFact
@@ -4220,7 +4220,7 @@ SelectWidgets = Game.SelectWidgets
 
 ---@param show Bool
 ---@param data gameuiInputHintData
----@param targetHintContainer? CName
+---@param targetHintContainer? CName|string
 ---@return nil
 function Game.SendInputHintData(show, data, targetHintContainer) return end
 SendInputHintData = Game.SendInputHintData
@@ -4231,7 +4231,7 @@ SendInputHintData = Game.SendInputHintData
 function Game.SetDefaultStatPoolModifiers(statPoolTypeString, statPoolModType) return end
 SetDefaultStatPoolModifiers = Game.SetDefaultStatPoolModifiers
 
----@param factName CName
+---@param factName CName|string
 ---@param factCount Int32
 ---@return Bool
 function Game.SetFactValue(factName, factCount) return end
@@ -4251,8 +4251,8 @@ function Game.SpaceFill(str, length, mode, fillChar) return end
 SpaceFill = Game.SpaceFill
 
 ---@param entityID entEntityID
----@param componentName CName
----@param psClassName CName
+---@param componentName CName|string
+---@param psClassName CName|string
 ---@return gamePersistentState
 function Game.SpawnVirtualPS(entityID, componentName, psClassName) return end
 SpawnVirtualPS = Game.SpawnVirtualPS

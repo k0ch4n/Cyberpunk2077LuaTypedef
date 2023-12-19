@@ -3,7 +3,7 @@
 
 ---@enum gamePopulationEntityPriority
 gamePopulationEntityPriority = {
-    ["Quest"] = 0,
-    ["Community"] = 1,
-    ["Crowd"] = 2
+    ["Quest"] = 0, ---@type Enum
+    ["Community"] = 1, ---@type Enum
+    ["Crowd"] = 2, ---@type Enum
 }

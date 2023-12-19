@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_HubMenu: MenuScenario_BaseMenu
----@field public hubMenuInitData HubMenuInitData
----@field public currentState inkMenusState
----@field public combatRestriction Bool
----@field public hubMenuInstanceID Uint32
+---@field public ["hubMenuInitData"] HubMenuInitData
+---@field public ["currentState"] inkMenusState
+---@field public ["combatRestriction"] Bool
+---@field public ["hubMenuInstanceID"] Uint32
 MenuScenario_HubMenu = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function MenuScenario_HubMenu:OnCloseHubMenu() return end
 function MenuScenario_HubMenu:OnCloseHubMenuRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_HubMenu:OnEnterScenario(prevScenario, userData) return end
@@ -51,7 +51,7 @@ function MenuScenario_HubMenu:OnHotkeySwitchToPerks() return end
 function MenuScenario_HubMenu:OnNetworkBreachBegin() return end
 
 ---@protected
----@param menuName CName
+---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return Bool
 function MenuScenario_HubMenu:OnOpenMenu(menuName, userData) return end
@@ -76,6 +76,6 @@ function MenuScenario_HubMenu:GetMenuName() return end
 ---@return nil
 function MenuScenario_HubMenu:GotoIdleState() return end
 
----@param menuName CName
+---@param menuName CName|string
 ---@return nil
 function MenuScenario_HubMenu:ToggleMenu(menuName) return end

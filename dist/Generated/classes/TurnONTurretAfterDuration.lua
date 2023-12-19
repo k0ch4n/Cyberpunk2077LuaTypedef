@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TurnONTurretAfterDuration: redEvent
----@field public duration Int32
+---@field public ["duration"] Int32
 TurnONTurretAfterDuration = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetAutocraftingState: AIbehaviortaskScript
----@field public newState Bool
+---@field public ["newState"] Bool
 AISetAutocraftingState = {}
 
 ---@param fields? table

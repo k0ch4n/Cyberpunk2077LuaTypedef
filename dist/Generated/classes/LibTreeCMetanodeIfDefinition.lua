@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LibTreeCMetanodeIfDefinition: LibTreeCMetanodeDefinition
----@field public ifCondition LibTreeDefBool
----@field public ifBranch LibTreeINodeDefinition
----@field public elseBranch LibTreeINodeDefinition
+---@field public ["ifCondition"] LibTreeDefBool
+---@field public ["ifBranch"] LibTreeINodeDefinition
+---@field public ["elseBranch"] LibTreeINodeDefinition
 LibTreeCMetanodeIfDefinition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StealthMappinGameController: gameuiWidgetGameController
----@field private controller gameuiStealthMappinController
----@field private ownerNPC NPCPuppet
+---@field private ["controller"] gameuiStealthMappinController
+---@field private ["ownerNPC"] NPCPuppet
 StealthMappinGameController = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum gameuiDriverCombatCrosshairReticleDataState
 gameuiDriverCombatCrosshairReticleDataState = {
-    ["Default"] = 0,
-    ["Dot"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Dot"] = 1, ---@type Enum
 }

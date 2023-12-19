@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SurveillanceSystemControllerPS: DeviceSystemBaseControllerPS
----@field private isRevealingEnemies Bool
+---@field private ["isRevealingEnemies"] Bool
 SurveillanceSystemControllerPS = {}
 
 ---@param fields? table

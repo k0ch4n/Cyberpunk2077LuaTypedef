@@ -29,14 +29,14 @@ function gamedataAIAction_Record:AnimDataHandle() return end
 ---@return CName[]
 function gamedataAIAction_Record:AnimationWrapperOverrides() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIAction_Record:AnimationWrapperOverridesContains(item) return end
 
 ---@return CName[]
 function gamedataAIAction_Record:Commands() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIAction_Record:CommandsContains(item) return end
 

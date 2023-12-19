@@ -2,37 +2,37 @@
 ---@diagnostic disable
 
 ---@class AimingStateEvents: UpperBodyEventsTransition
----@field private aim gameweaponAnimFeature_AimPlayer
----@field private posAnimFeature AnimFeature_ProceduralIronsightData
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private weapon gameweaponObject
----@field private executionOwner gameObject
----@field private localBlackboard gameIBlackboard
----@field private mouseZoomLevel Float
----@field private zoomLevelNum Int32
----@field private numZoomLevels Int32
----@field private delayAimSnap Int32
----@field private isAiming Bool
----@field private aimInTimeRemaining Float
----@field private aimBroadcast Bool
----@field private zoomLevel Float
----@field private finalZoomLevel Float
----@field private previousZoomLevel Float
----@field private currentZoomLevel Float
----@field private timeToBlendZoom Float
----@field private time Float
----@field private speed Float
----@field private itemChanged Bool
----@field private firearmsNoUnequipNoSwitch Bool
----@field private shootingRangeCompetition Bool
----@field private weaponHasPerfectAim Bool
----@field private statsSystem gameStatsSystem
----@field private statusEffectSystem gameStatusEffectSystem
----@field private attachmentSlotListener gameAttachmentSlotsScriptListener
----@field private prevDownwardsGravity Float
----@field private downwardsGravityChanged Bool
----@field private accelerationMod gameConstantStatModifierData_Deprecated
----@field private decelerationMod gameConstantStatModifierData_Deprecated
+---@field private ["aim"] gameweaponAnimFeature_AimPlayer
+---@field private ["posAnimFeature"] AnimFeature_ProceduralIronsightData
+---@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
+---@field private ["weapon"] gameweaponObject
+---@field private ["executionOwner"] gameObject
+---@field private ["localBlackboard"] gameIBlackboard
+---@field private ["mouseZoomLevel"] Float
+---@field private ["zoomLevelNum"] Int32
+---@field private ["numZoomLevels"] Int32
+---@field private ["delayAimSnap"] Int32
+---@field private ["isAiming"] Bool
+---@field private ["aimInTimeRemaining"] Float
+---@field private ["aimBroadcast"] Bool
+---@field private ["zoomLevel"] Float
+---@field private ["finalZoomLevel"] Float
+---@field private ["previousZoomLevel"] Float
+---@field private ["currentZoomLevel"] Float
+---@field private ["timeToBlendZoom"] Float
+---@field private ["time"] Float
+---@field private ["speed"] Float
+---@field private ["itemChanged"] Bool
+---@field private ["firearmsNoUnequipNoSwitch"] Bool
+---@field private ["shootingRangeCompetition"] Bool
+---@field private ["weaponHasPerfectAim"] Bool
+---@field private ["statsSystem"] gameStatsSystem
+---@field private ["statusEffectSystem"] gameStatusEffectSystem
+---@field private ["attachmentSlotListener"] gameAttachmentSlotsScriptListener
+---@field private ["prevDownwardsGravity"] Float
+---@field private ["downwardsGravityChanged"] Bool
+---@field private ["accelerationMod"] gameConstantStatModifierData_Deprecated
+---@field private ["decelerationMod"] gameConstantStatModifierData_Deprecated
 AimingStateEvents = {}
 
 ---@param fields? table
@@ -124,7 +124,7 @@ function AimingStateEvents:OnStatusEffectRemoved(statusEffect) return end
 function AimingStateEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AimingStateEvents:PlayEffectOnHeldItems(scriptInterface, effectName) return end
 
@@ -136,7 +136,7 @@ function AimingStateEvents:RemoveAirKerenzikovPerk(stateContext, scriptInterface
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function AimingStateEvents:StartZoomEffect(scriptInterface, effectName) return end
 

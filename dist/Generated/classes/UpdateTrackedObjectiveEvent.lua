@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UpdateTrackedObjectiveEvent: redEvent
----@field public trackedObjective gameJournalQuestObjective
----@field public trackedQuest gameJournalQuest
+---@field public ["trackedObjective"] gameJournalQuestObjective
+---@field public ["trackedQuest"] gameJournalQuest
 UpdateTrackedObjectiveEvent = {}
 
 ---@param fields? table

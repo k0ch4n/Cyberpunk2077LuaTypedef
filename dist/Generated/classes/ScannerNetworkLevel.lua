@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerNetworkLevel: ScannerChunk
----@field private networkLevel Int32
+---@field private ["networkLevel"] Int32
 ScannerNetworkLevel = {}
 
 ---@param fields? table

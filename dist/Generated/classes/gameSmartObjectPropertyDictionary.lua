@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectPropertyDictionary: ISerializable
----@field public properties gameSmartObjectPropertyDictionaryPropertyEntry[]
+---@field public ["properties"] gameSmartObjectPropertyDictionaryPropertyEntry[]
 gameSmartObjectPropertyDictionary = {}
 
 ---@param fields? table

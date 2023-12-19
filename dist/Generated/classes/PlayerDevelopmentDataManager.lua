@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayerDevelopmentDataManager: IScriptable
----@field private player PlayerPuppet
----@field private playerDevSystem PlayerDevelopmentSystem
----@field private parentGameCtrl gameuiWidgetGameController
+---@field private ["player"] PlayerPuppet
+---@field private ["playerDevSystem"] PlayerDevelopmentSystem
+---@field private ["parentGameCtrl"] gameuiWidgetGameController
 PlayerDevelopmentDataManager = {}
 
 ---@param fields? table

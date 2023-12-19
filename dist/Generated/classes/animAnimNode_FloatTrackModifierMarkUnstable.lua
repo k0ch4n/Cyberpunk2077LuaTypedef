@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatTrackModifierMarkUnstable: animAnimNode_FloatTrackModifier
----@field public requiredQualityDistanceCategory Uint32
+---@field public ["requiredQualityDistanceCategory"] Uint32
 animAnimNode_FloatTrackModifierMarkUnstable = {}
 
 ---@param fields? table

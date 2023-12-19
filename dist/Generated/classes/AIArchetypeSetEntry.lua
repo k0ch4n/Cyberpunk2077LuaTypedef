@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArchetypeSetEntry
----@field public name CName
----@field public resource AIArchetype
+---@field public ["name"] CName
+---@field public ["resource"] AIArchetype
 AIArchetypeSetEntry = {}
 
 ---@param fields? table

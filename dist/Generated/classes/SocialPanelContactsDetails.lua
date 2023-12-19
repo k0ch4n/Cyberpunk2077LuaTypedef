@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SocialPanelContactsDetails: inkWidgetLogicController
----@field private ContactAvatarRef inkImageWidgetReference
----@field private ContactNameRef inkTextWidgetReference
----@field private ContactDescriptionRef inkTextWidgetReference
+---@field private ["ContactAvatarRef"] inkImageWidgetReference
+---@field private ["ContactNameRef"] inkTextWidgetReference
+---@field private ["ContactDescriptionRef"] inkTextWidgetReference
 SocialPanelContactsDetails = {}
 
 ---@param fields? table

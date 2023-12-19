@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetCustomObjectDescriptionEvent: redEvent
----@field private objectDescription ObjectScanningDescription
+---@field private ["objectDescription"] ObjectScanningDescription
 SetCustomObjectDescriptionEvent = {}
 
 ---@param fields? table

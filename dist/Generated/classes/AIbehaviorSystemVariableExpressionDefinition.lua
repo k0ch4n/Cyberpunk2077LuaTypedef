@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSystemVariableExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public variable AIbehaviorSystemVariableExpressionTypes
+---@field public ["variable"] AIbehaviorSystemVariableExpressionTypes
 AIbehaviorSystemVariableExpressionDefinition = {}
 
 ---@param fields? table

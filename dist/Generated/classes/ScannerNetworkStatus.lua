@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerNetworkStatus: ScannerChunk
----@field private networkStatus ScannerNetworkState
+---@field private ["networkStatus"] ScannerNetworkState
 ScannerNetworkStatus = {}
 
 ---@param fields? table

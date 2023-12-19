@@ -2,90 +2,90 @@
 ---@diagnostic disable
 
 ---@class ScriptableDeviceComponentPS: SharedGameplayPS
----@field protected isInitialized Bool
----@field protected forceResolveStateOnAttach Bool
----@field protected forceVisibilityInAnimSystemOnLogicReady Bool
----@field protected masters gameDeviceComponentPS[]
----@field protected mastersCached Bool
----@field protected deviceName String
----@field protected activationState EActivationState
----@field protected drawGridLink Bool
----@field protected isLinkDynamic Bool
----@field protected fullDepth Bool
----@field public virtualNetworkShapeID TweakDBID
----@field protected tweakDBRecord TweakDBID
----@field protected tweakDBDescriptionRecord TweakDBID
----@field protected contentScale TweakDBID
----@field protected skillCheckContainer BaseSkillCheckContainer
----@field protected hasUICameraZoom Bool
----@field protected allowUICameraZoomDynamicSwitch Bool
----@field protected hasFullScreenUI Bool
----@field protected hasAuthorizationModule Bool
----@field protected hasPersonalLinkSlot Bool
----@field protected backdoorBreachDifficulty EGameplayChallengeLevel
----@field protected shouldSkipNetrunnerMinigame Bool
----@field protected minigameDefinition TweakDBID
----@field protected minigameAttempt Int32
----@field protected hackingMinigameState gameuiHackingMinigameState
----@field protected disablePersonalLinkAutoDisconnect Bool
----@field protected canHandleAdvancedInteraction Bool
----@field protected canBeTrapped Bool
----@field protected disassembleProperties DisassembleOptions
----@field protected flatheadScavengeProperties SpiderbotScavengeOptions
----@field protected destructionProperties DestructionData
----@field protected canPlayerTakeOverControl Bool
----@field protected canBeInDeviceChain Bool
----@field protected personalLinkForced Bool
----@field protected personalLinkCustomInteraction TweakDBID
----@field protected personalLinkStatus EPersonalLinkConnectionStatus
----@field protected isAdvancedInteractionModeOn Bool
----@field protected juryrigTrapState EJuryrigTrapState
----@field protected isControlledByThePlayer Bool
----@field private isHighlightedInFocusMode Bool
----@field protected wasQuickHacked Bool
----@field protected wasQuickHackAttempt Bool
----@field protected lastPerformedQuickHack CName
----@field protected isGlitching Bool
----@field protected isTimedTurnOff Bool
----@field protected isRestarting Bool
----@field protected blockSecurityWakeUp Bool
----@field protected isLockedViaSequencer Bool
----@field protected distractExecuted Bool
----@field protected distractionTimeCompleted Bool
----@field protected hasNPCWorkspotKillInteraction Bool
----@field protected shouldNPCWorkspotFinishLoop Bool
----@field protected durabilityState EDeviceDurabilityState
----@field protected hasBeenScavenged Bool
----@field protected currentlyAuthorizedUsers SecuritySystemClearanceEntry[]
----@field protected performedActions SPerformedActions[]
----@field protected isInitialStateOperationPerformed Bool
----@field protected illegalActions IllegalActionTypes
----@field protected disableQuickHacks Bool
----@field private availableQuickHacks CName[]
----@field protected isKeyloggerInstalled Bool
----@field private actionsWithDisabledRPGChecks TweakDBID[]
----@field private availableSpiderbotActions CName[]
----@field protected currentSpiderbotActionPerformed ScriptableDeviceAction
----@field protected isSpiderbotInteractionOrdered Bool
----@field protected shouldScannerShowStatus Bool
----@field protected shouldScannerShowNetwork Bool
----@field protected shouldScannerShowAttitude Bool
----@field protected shouldScannerShowRole Bool
----@field protected shouldScannerShowHealth Bool
----@field protected debugDevice Bool
----@field protected debugName CName
----@field protected debugExposeQuickHacks Bool
----@field protected debugPath CName
----@field protected debugID Uint32
----@field private isUnderEMPEffect Bool
----@field protected deviceOperationsSetup DeviceOperationsContainer
----@field protected connectionHighlightObjects NodeRef[]
----@field private activeContexts gamedeviceRequestType[]
----@field private playstyles EPlaystyle[]
----@field private quickHackVulnerabilties TweakDBID[]
----@field private quickHackVulnerabiltiesInitialized Bool
----@field private willingInvestigators entEntityID[]
----@field private isInteractive Bool
+---@field protected ["isInitialized"] Bool
+---@field protected ["forceResolveStateOnAttach"] Bool
+---@field protected ["forceVisibilityInAnimSystemOnLogicReady"] Bool
+---@field protected ["masters"] gameDeviceComponentPS[]
+---@field protected ["mastersCached"] Bool
+---@field protected ["deviceName"] String
+---@field protected ["activationState"] EActivationState
+---@field protected ["drawGridLink"] Bool
+---@field protected ["isLinkDynamic"] Bool
+---@field protected ["fullDepth"] Bool
+---@field public ["virtualNetworkShapeID"] TweakDBID
+---@field protected ["tweakDBRecord"] TweakDBID
+---@field protected ["tweakDBDescriptionRecord"] TweakDBID
+---@field protected ["contentScale"] TweakDBID
+---@field protected ["skillCheckContainer"] BaseSkillCheckContainer
+---@field protected ["hasUICameraZoom"] Bool
+---@field protected ["allowUICameraZoomDynamicSwitch"] Bool
+---@field protected ["hasFullScreenUI"] Bool
+---@field protected ["hasAuthorizationModule"] Bool
+---@field protected ["hasPersonalLinkSlot"] Bool
+---@field protected ["backdoorBreachDifficulty"] EGameplayChallengeLevel
+---@field protected ["shouldSkipNetrunnerMinigame"] Bool
+---@field protected ["minigameDefinition"] TweakDBID
+---@field protected ["minigameAttempt"] Int32
+---@field protected ["hackingMinigameState"] gameuiHackingMinigameState
+---@field protected ["disablePersonalLinkAutoDisconnect"] Bool
+---@field protected ["canHandleAdvancedInteraction"] Bool
+---@field protected ["canBeTrapped"] Bool
+---@field protected ["disassembleProperties"] DisassembleOptions
+---@field protected ["flatheadScavengeProperties"] SpiderbotScavengeOptions
+---@field protected ["destructionProperties"] DestructionData
+---@field protected ["canPlayerTakeOverControl"] Bool
+---@field protected ["canBeInDeviceChain"] Bool
+---@field protected ["personalLinkForced"] Bool
+---@field protected ["personalLinkCustomInteraction"] TweakDBID
+---@field protected ["personalLinkStatus"] EPersonalLinkConnectionStatus
+---@field protected ["isAdvancedInteractionModeOn"] Bool
+---@field protected ["juryrigTrapState"] EJuryrigTrapState
+---@field protected ["isControlledByThePlayer"] Bool
+---@field private ["isHighlightedInFocusMode"] Bool
+---@field protected ["wasQuickHacked"] Bool
+---@field protected ["wasQuickHackAttempt"] Bool
+---@field protected ["lastPerformedQuickHack"] CName
+---@field protected ["isGlitching"] Bool
+---@field protected ["isTimedTurnOff"] Bool
+---@field protected ["isRestarting"] Bool
+---@field protected ["blockSecurityWakeUp"] Bool
+---@field protected ["isLockedViaSequencer"] Bool
+---@field protected ["distractExecuted"] Bool
+---@field protected ["distractionTimeCompleted"] Bool
+---@field protected ["hasNPCWorkspotKillInteraction"] Bool
+---@field protected ["shouldNPCWorkspotFinishLoop"] Bool
+---@field protected ["durabilityState"] EDeviceDurabilityState
+---@field protected ["hasBeenScavenged"] Bool
+---@field protected ["currentlyAuthorizedUsers"] SecuritySystemClearanceEntry[]
+---@field protected ["performedActions"] SPerformedActions[]
+---@field protected ["isInitialStateOperationPerformed"] Bool
+---@field protected ["illegalActions"] IllegalActionTypes
+---@field protected ["disableQuickHacks"] Bool
+---@field private ["availableQuickHacks"] CName[]
+---@field protected ["isKeyloggerInstalled"] Bool
+---@field private ["actionsWithDisabledRPGChecks"] TweakDBID[]
+---@field private ["availableSpiderbotActions"] CName[]
+---@field protected ["currentSpiderbotActionPerformed"] ScriptableDeviceAction
+---@field protected ["isSpiderbotInteractionOrdered"] Bool
+---@field protected ["shouldScannerShowStatus"] Bool
+---@field protected ["shouldScannerShowNetwork"] Bool
+---@field protected ["shouldScannerShowAttitude"] Bool
+---@field protected ["shouldScannerShowRole"] Bool
+---@field protected ["shouldScannerShowHealth"] Bool
+---@field protected ["debugDevice"] Bool
+---@field protected ["debugName"] CName
+---@field protected ["debugExposeQuickHacks"] Bool
+---@field protected ["debugPath"] CName
+---@field protected ["debugID"] Uint32
+---@field private ["isUnderEMPEffect"] Bool
+---@field protected ["deviceOperationsSetup"] DeviceOperationsContainer
+---@field protected ["connectionHighlightObjects"] NodeRef[]
+---@field private ["activeContexts"] gamedeviceRequestType[]
+---@field private ["playstyles"] EPlaystyle[]
+---@field private ["quickHackVulnerabilties"] TweakDBID[]
+---@field private ["quickHackVulnerabiltiesInitialized"] Bool
+---@field private ["willingInvestigators"] entEntityID[]
+---@field private ["isInteractive"] Bool
 ScriptableDeviceComponentPS = {}
 
 ---@param fields? table
@@ -97,7 +97,7 @@ function ScriptableDeviceComponentPS.IsConnectedToMaintenanceSystem() return end
 
 ---@param actions gamedeviceAction[]
 ---@param reason? String
----@param exludedAction? CName
+---@param exludedAction? CName|string
 ---@return nil
 function ScriptableDeviceComponentPS.SetActionsInactiveAll(actions, reason, exludedAction) return end
 
@@ -437,12 +437,12 @@ function ScriptableDeviceComponentPS:ActionVehicleOverrideForceBrakes() return e
 ---@return nil
 function ScriptableDeviceComponentPS:AddActiveContext(context) return end
 
----@param quickHackName CName
+---@param quickHackName CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:AddAvailableQuickHack(quickHackName) return end
 
 ---@protected
----@param SpiderbotActionName CName
+---@param SpiderbotActionName CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:AddAvailableSpiderbotActions(SpiderbotActionName) return end
 
@@ -596,7 +596,7 @@ function ScriptableDeviceComponentPS:DisableDevice() return end
 function ScriptableDeviceComponentPS:DisbaleRPGChecksForAction(actionID) return end
 
 ---@param executor gameObject
----@param layer CName
+---@param layer CName|string
 ---@param isForcedByQuest? Bool
 ---@return nil
 function ScriptableDeviceComponentPS:DisconnectPersonalLink(executor, layer, isForcedByQuest) return end
@@ -648,7 +648,7 @@ function ScriptableDeviceComponentPS:EvaluateActionsRPGAvailabilty(outActions, c
 function ScriptableDeviceComponentPS:ExecuteCurrentSpiderbotActionPerformed() return end
 
 ---@param action ScriptableDeviceAction
----@param layerTag? CName
+---@param layerTag? CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:ExecutePSAction(action, layerTag) return end
 
@@ -665,7 +665,7 @@ function ScriptableDeviceComponentPS:ExecutePSAction(action, persistentState) re
 function ScriptableDeviceComponentPS:ExecutePSActionWithDelay(action, persistentState, forcedDelay) return end
 
 ---@protected
----@param actionNames CName[]
+---@param actionNames CName[]|string[]
 ---@return gamedeviceAction[]
 function ScriptableDeviceComponentPS:ExtractActions(actionNames) return end
 
@@ -726,7 +726,7 @@ function ScriptableDeviceComponentPS:FinalizeNetrunnerDive(state) return end
 function ScriptableDeviceComponentPS:FinalizeNetworkLinkRegistration(registerAsMaster, relevantDevices, breachedResource, defaultResource, isPing, lifetime, revealSlave, revealMaster) return end
 
 ---@protected
----@param actionName CName
+---@param actionName CName|string
 ---@param allowedNames String[]
 ---@return Bool
 function ScriptableDeviceComponentPS:FindActionInTweakList(actionName, allowedNames) return end
@@ -765,12 +765,12 @@ function ScriptableDeviceComponentPS:GameAttached() return end
 ---@return gameGetActionsContext
 function ScriptableDeviceComponentPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param entityID? entEntityID
 ---@return gamedeviceAction
 function ScriptableDeviceComponentPS:GetActionByName(actionName, entityID) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction
 function ScriptableDeviceComponentPS:GetActionByName(actionName, context) return end
@@ -880,7 +880,7 @@ function ScriptableDeviceComponentPS:GetDeviceWidget(context) return end
 function ScriptableDeviceComponentPS:GetDistractionDuration(action) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return Float
 function ScriptableDeviceComponentPS:GetDistractionDuration(effectName) return end
 
@@ -902,7 +902,7 @@ function ScriptableDeviceComponentPS:GetEquipmentSystem() return end
 function ScriptableDeviceComponentPS:GetFullAuthorizationData() return end
 
 ---@private
----@param passwords CName[]
+---@param passwords CName[]|string[]
 ---@param keycards TweakDBID[]
 ---@return nil
 function ScriptableDeviceComponentPS:GetFullAuthorizationDataSegregated(passwords, keycards) return end
@@ -954,7 +954,7 @@ function ScriptableDeviceComponentPS:GetLocalPlayerControlledGameObject() return
 ---@return TweakDBID[]
 function ScriptableDeviceComponentPS:GetMasterDevicesTweaks() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction
 function ScriptableDeviceComponentPS:GetMinigameActionByName(actionName, context) return end
@@ -1014,7 +1014,7 @@ function ScriptableDeviceComponentPS:GetPlayerMainObject() return end
 ---@return EPlaystyle[]
 function ScriptableDeviceComponentPS:GetPlaystyles() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ScriptableDeviceComponentPS:GetQuestActionByName(actionName) return end
 
@@ -1447,7 +1447,7 @@ function ScriptableDeviceComponentPS:MarkActionsAsQuickHacks(actionsToMark) retu
 function ScriptableDeviceComponentPS:MarkActionsAsSpiderbotActions(actionsToMark) return end
 
 ---@param userToAuthorize entEntityID
----@param password? CName
+---@param password? CName|string
 ---@return Bool
 function ScriptableDeviceComponentPS:MasterUserAuthorizationAttempt(userToAuthorize, password) return end
 
@@ -1949,7 +1949,7 @@ function ScriptableDeviceComponentPS:OnVehicleOverrideForceBrakes(evt) return en
 function ScriptableDeviceComponentPS:OnWakeUpEvent(evt) return end
 
 ---@param deviceName String
----@param dbgDeviceName? CName
+---@param dbgDeviceName? CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:PassDeviceName(deviceName, dbgDeviceName) return end
 
@@ -2020,12 +2020,12 @@ function ScriptableDeviceComponentPS:RegisterDebugEnableQuickHacksListener() ret
 function ScriptableDeviceComponentPS:RemoveActiveContext(context) return end
 
 ---@protected
----@param quickHackName CName
+---@param quickHackName CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:RemoveAvailableQuickHack(quickHackName) return end
 
 ---@protected
----@param SpiderbotActionName CName
+---@param SpiderbotActionName CName|string
 ---@return nil
 function ScriptableDeviceComponentPS:RemoveAvailableSpiderbotActions(SpiderbotActionName) return end
 
@@ -2353,7 +2353,7 @@ function ScriptableDeviceComponentPS:UpdateQuickHackableState(isQuickHackable) r
 function ScriptableDeviceComponentPS:UseNotifier(action) return end
 
 ---@param userToAuthorize entEntityID
----@param password? CName
+---@param password? CName|string
 ---@param userToAuthorizeHandle? gameObject
 ---@return Bool
 function ScriptableDeviceComponentPS:UserAuthorizationAttempt(userToAuthorize, password, userToAuthorizeHandle) return end
@@ -2362,19 +2362,19 @@ function ScriptableDeviceComponentPS:UserAuthorizationAttempt(userToAuthorize, p
 ---@return Bool
 function ScriptableDeviceComponentPS:WakeUpDevice() return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@param context EActionContext
 ---@return Bool
 function ScriptableDeviceComponentPS:WasActionPerformed(actionID, context) return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@return Int32
 function ScriptableDeviceComponentPS:WasActionPerformed(actionID) return end
 
 ---@return Bool
 function ScriptableDeviceComponentPS:WasDemolitionSkillCheckActive() return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@return Bool
 function ScriptableDeviceComponentPS:WasDeviceActionPerformed(actionID) return end
 
@@ -2390,7 +2390,7 @@ function ScriptableDeviceComponentPS:WasHackingSkillCheckActive() return end
 ---@return Bool
 function ScriptableDeviceComponentPS:WasQuickHackAttempt() return end
 
----@param quickHackName CName
+---@param quickHackName CName|string
 ---@return Bool
 function ScriptableDeviceComponentPS:WasQuickHackJustPerformed(quickHackName) return end
 

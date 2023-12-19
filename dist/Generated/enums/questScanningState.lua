@@ -3,6 +3,6 @@
 
 ---@enum questScanningState
 questScanningState = {
-    ["NotScanned"] = 0,
-    ["Scanned"] = 1
+    ["NotScanned"] = 0, ---@type Enum
+    ["Scanned"] = 1, ---@type Enum
 }

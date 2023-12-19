@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimatedRagdollNotifyEnabledEvent: redEvent
----@field public instigator entEntityID
+---@field public ["instigator"] entEntityID
 entAnimatedRagdollNotifyEnabledEvent = {}
 
 ---@param fields? table

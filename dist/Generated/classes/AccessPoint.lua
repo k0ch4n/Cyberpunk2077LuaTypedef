@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AccessPoint: InteractiveMasterDevice
----@field private networkName String
----@field private isPlayerInBreachView Bool
----@field private isRevealed Bool
----@field private breachViewTimeListener BreachViewTimeListener
----@field private upload_program_listener_id Uint32
+---@field private ["networkName"] String
+---@field private ["isPlayerInBreachView"] Bool
+---@field private ["isRevealed"] Bool
+---@field private ["breachViewTimeListener"] BreachViewTimeListener
+---@field private ["upload_program_listener_id"] Uint32
 AccessPoint = {}
 
 ---@param fields? table
@@ -86,7 +86,7 @@ function AccessPoint:IsControllingDevices() return end
 ---@return Bool
 function AccessPoint:IsRevealed() return end
 
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function AccessPoint:OnDiveFinished(reason) return end
 

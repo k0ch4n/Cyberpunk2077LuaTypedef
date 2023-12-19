@@ -21,7 +21,7 @@ function userSettingsVarListName:GetDisplayValue(index) return end
 ---@return Int32
 function userSettingsVarListName:GetIndex() return end
 
----@param value CName
+---@param value CName|string
 ---@return Int32
 function userSettingsVarListName:GetIndexFor(value) return end
 

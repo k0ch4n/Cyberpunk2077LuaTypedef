@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapPingSystemMappinController: gameuiBaseMinimapMappinController
----@field public rootWidget inkWidgetReference
+---@field public ["rootWidget"] inkWidgetReference
 gameuiMinimapPingSystemMappinController = {}
 
 ---@param fields? table

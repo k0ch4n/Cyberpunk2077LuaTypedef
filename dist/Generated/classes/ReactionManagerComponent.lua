@@ -2,92 +2,92 @@
 ---@diagnostic disable
 
 ---@class ReactionManagerComponent: gameScriptableComponent
----@field private activeReaction AIReactionData
----@field private desiredReaction AIReactionData
----@field private stimuliCache StimEventTaskData[]
----@field private reactionCache AIReactionData[]
----@field private reactionPreset gamedataReactionPreset_Record
----@field private puppetReactionBlackboard gameIBlackboard
----@field private receivedStimType gamedataStimType
----@field private receivedStimPropagation gamedataStimPropagation
----@field private inCrowd Bool
----@field private inTrafficLane Bool
----@field private desiredFearPhase Int32
----@field private previousFearPhase Int32
----@field private NPCRadius Float
----@field private bumpTriggerDistanceBufferMounted Float
----@field private bumpTriggerDistanceBufferCrouched Float
----@field private delayReactionEventID gameDelayID
----@field private delay Vector2
----@field private delayDetectionEventID gameDelayID
----@field private delayStimEventID gameDelayID
----@field private resetReactionDataID gameDelayID
----@field private callingPoliceID gameDelayID
----@field private lookatEvent entLookAtAddEvent
----@field private ignoreList entEntityID[]
----@field private investigationList StimEventData[]
----@field private pendingReaction AIReactionData
----@field private ovefloodCooldown Float
----@field private stanceState gamedataNPCStanceState
----@field private highLevelState gamedataNPCHighLevelState
----@field private aiRole EAIRole
----@field private pendingBehaviorCb redCallbackObject
----@field private inPendingBehavior Bool
----@field private cacheSecuritySysOutput SecuritySystemOutput
----@field private environmentalHazards senseStimuliEvent[]
----@field private environmentalHazardsDelayIDs gameDelayID[]
----@field private stolenVehicle vehicleBaseObject
----@field private isAlertedByDeadBody Bool
----@field private isInCrosswalk Bool
----@field private beignHijacked Bool
----@field private owner_id entEntityID
----@field private presetName CName
----@field private updateByActive Bool
----@field private personalities gamedataStatType[]
----@field private workspotReactionPlayed Bool
----@field private inReactionSequence Bool
----@field private playerProximity Bool
----@field private fearToIdleDistance Vector2
----@field private exitWorkspotAim Vector2
----@field private bumpedRecently Int32
----@field private bumpTimestamp Float
----@field private crowdAimingReactionDistance Float
----@field private fearInPlaceAroundDistance Float
----@field private lookatRepeat Bool
----@field private disturbingComfortZoneInProgress Bool
----@field private entereProximityRecently Int32
----@field private comfortZoneTimestamp Float
----@field private disturbComfortZoneEventId gameDelayID
----@field private checkComfortZoneEventId gameDelayID
----@field private spreadingFearEventId gameDelayID
----@field private proximityLookatEventId gameDelayID
----@field private resetFacialEventId gameDelayID
----@field private exitWorkspotSequenceEventId gameDelayID
----@field private exitFearInVehicleEventId gameDelayID
----@field private fastWalk Bool
----@field private createThreshold Bool
----@field private initialized Bool
----@field private initCrowd Bool
----@field private facialCooldown Float
----@field private disturbComfortZoneAggressiveEventId gameDelayID
----@field private backOffInProgress Bool
----@field private backOffTimestamp Float
----@field private crowdFearStage gameFearStage
----@field private fearLocomotionWrapper Bool
----@field private successfulFearDeescalation Float
----@field private willingToCallPolice Bool
----@field private deadBodyInvestigators entEntityID[]
----@field private deadBodyStartingPosition Vector4
----@field private currentStimThresholdValue Int32
----@field private timeStampThreshold Float
----@field private currentStealthStimThresholdValue Int32
----@field private stealthTimeStampThreshold Float
----@field private driverAllowedToGetAggressive Bool
----@field private driverIsAggressive Bool
----@field private logSource EReactLogSource
----@field private gracePeriodDuration Float
----@field private recentAlertObject gameObject
----@field private recentAlertTimeStamp Float
+---@field private ["activeReaction"] AIReactionData
+---@field private ["desiredReaction"] AIReactionData
+---@field private ["stimuliCache"] StimEventTaskData[]
+---@field private ["reactionCache"] AIReactionData[]
+---@field private ["reactionPreset"] gamedataReactionPreset_Record
+---@field private ["puppetReactionBlackboard"] gameIBlackboard
+---@field private ["receivedStimType"] gamedataStimType
+---@field private ["receivedStimPropagation"] gamedataStimPropagation
+---@field private ["inCrowd"] Bool
+---@field private ["inTrafficLane"] Bool
+---@field private ["desiredFearPhase"] Int32
+---@field private ["previousFearPhase"] Int32
+---@field private ["NPCRadius"] Float
+---@field private ["bumpTriggerDistanceBufferMounted"] Float
+---@field private ["bumpTriggerDistanceBufferCrouched"] Float
+---@field private ["delayReactionEventID"] gameDelayID
+---@field private ["delay"] Vector2
+---@field private ["delayDetectionEventID"] gameDelayID
+---@field private ["delayStimEventID"] gameDelayID
+---@field private ["resetReactionDataID"] gameDelayID
+---@field private ["callingPoliceID"] gameDelayID
+---@field private ["lookatEvent"] entLookAtAddEvent
+---@field private ["ignoreList"] entEntityID[]
+---@field private ["investigationList"] StimEventData[]
+---@field private ["pendingReaction"] AIReactionData
+---@field private ["ovefloodCooldown"] Float
+---@field private ["stanceState"] gamedataNPCStanceState
+---@field private ["highLevelState"] gamedataNPCHighLevelState
+---@field private ["aiRole"] EAIRole
+---@field private ["pendingBehaviorCb"] redCallbackObject
+---@field private ["inPendingBehavior"] Bool
+---@field private ["cacheSecuritySysOutput"] SecuritySystemOutput
+---@field private ["environmentalHazards"] senseStimuliEvent[]
+---@field private ["environmentalHazardsDelayIDs"] gameDelayID[]
+---@field private ["stolenVehicle"] vehicleBaseObject
+---@field private ["isAlertedByDeadBody"] Bool
+---@field private ["isInCrosswalk"] Bool
+---@field private ["beignHijacked"] Bool
+---@field private ["owner_id"] entEntityID
+---@field private ["presetName"] CName
+---@field private ["updateByActive"] Bool
+---@field private ["personalities"] gamedataStatType[]
+---@field private ["workspotReactionPlayed"] Bool
+---@field private ["inReactionSequence"] Bool
+---@field private ["playerProximity"] Bool
+---@field private ["fearToIdleDistance"] Vector2
+---@field private ["exitWorkspotAim"] Vector2
+---@field private ["bumpedRecently"] Int32
+---@field private ["bumpTimestamp"] Float
+---@field private ["crowdAimingReactionDistance"] Float
+---@field private ["fearInPlaceAroundDistance"] Float
+---@field private ["lookatRepeat"] Bool
+---@field private ["disturbingComfortZoneInProgress"] Bool
+---@field private ["entereProximityRecently"] Int32
+---@field private ["comfortZoneTimestamp"] Float
+---@field private ["disturbComfortZoneEventId"] gameDelayID
+---@field private ["checkComfortZoneEventId"] gameDelayID
+---@field private ["spreadingFearEventId"] gameDelayID
+---@field private ["proximityLookatEventId"] gameDelayID
+---@field private ["resetFacialEventId"] gameDelayID
+---@field private ["exitWorkspotSequenceEventId"] gameDelayID
+---@field private ["exitFearInVehicleEventId"] gameDelayID
+---@field private ["fastWalk"] Bool
+---@field private ["createThreshold"] Bool
+---@field private ["initialized"] Bool
+---@field private ["initCrowd"] Bool
+---@field private ["facialCooldown"] Float
+---@field private ["disturbComfortZoneAggressiveEventId"] gameDelayID
+---@field private ["backOffInProgress"] Bool
+---@field private ["backOffTimestamp"] Float
+---@field private ["crowdFearStage"] gameFearStage
+---@field private ["fearLocomotionWrapper"] Bool
+---@field private ["successfulFearDeescalation"] Float
+---@field private ["willingToCallPolice"] Bool
+---@field private ["deadBodyInvestigators"] entEntityID[]
+---@field private ["deadBodyStartingPosition"] Vector4
+---@field private ["currentStimThresholdValue"] Int32
+---@field private ["timeStampThreshold"] Float
+---@field private ["currentStealthStimThresholdValue"] Int32
+---@field private ["stealthTimeStampThreshold"] Float
+---@field private ["driverAllowedToGetAggressive"] Bool
+---@field private ["driverIsAggressive"] Bool
+---@field private ["logSource"] EReactLogSource
+---@field private ["gracePeriodDuration"] Float
+---@field private ["recentAlertObject"] gameObject
+---@field private ["recentAlertTimeStamp"] Float
 ReactionManagerComponent = {}
 
 ---@param fields? table
@@ -118,7 +118,7 @@ function ReactionManagerComponent.IsTargetInFrontOfSource(source, target, frontA
 function ReactionManagerComponent.ReactOnPlayerStealthStim(owner, target) return end
 
 ---@param owner gameObject
----@param voEvent CName
+---@param voEvent CName|string
 ---@param setOwnerAsAnsweringEntity? Bool
 ---@param onlyForMembersInCombat? Bool
 ---@return nil
@@ -471,13 +471,13 @@ function ReactionManagerComponent:OnWorkspotStartedEvent(evt) return end
 
 ---@private
 ---@param targetEntity entEntity
----@param end? Bool
----@param repeat? Bool
+---@param end_? Bool
+---@param repeat_? Bool
 ---@param duration? Float
 ---@param upperBody? Bool
 ---@param inVehicle? Bool
 ---@return Bool
-function ReactionManagerComponent:ActivateReactionLookAt(targetEntity, end, repeat, duration, upperBody, inVehicle) return end
+function ReactionManagerComponent:ActivateReactionLookAt(targetEntity, end_, repeat_, duration, upperBody, inVehicle) return end
 
 ---@private
 ---@param targetEntity entEntity
@@ -593,9 +593,9 @@ function ReactionManagerComponent:CreateFearArea(stimEvent, fearPhase) return en
 function ReactionManagerComponent:CreateFearThreashold() return end
 
 ---@private
----@param repeat? Bool
+---@param repeat_? Bool
 ---@return Bool
-function ReactionManagerComponent:DeactiveLookAt(repeat) return end
+function ReactionManagerComponent:DeactiveLookAt(repeat_) return end
 
 ---@private
 ---@return nil
@@ -1023,7 +1023,7 @@ function ReactionManagerComponent:IsVisibleRaycast(stimEvent, stimOffset) return
 function ReactionManagerComponent:JoinSearchWithAlert(ownerPuppet, target, timeToLive) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function ReactionManagerComponent:Log(category, message) return end
@@ -1046,13 +1046,13 @@ function ReactionManagerComponent:LogFailure(message) return end
 function ReactionManagerComponent:LogInfo(message) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function ReactionManagerComponent:LogReaction(category, message) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param reactionData AIReactionData
 ---@param message String
 ---@return nil
@@ -1064,7 +1064,7 @@ function ReactionManagerComponent:LogReactionData(category, reactionData, messag
 function ReactionManagerComponent:LogStart(source, message) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param stimType gamedataStimType
 ---@param stimPropagation gamedataStimPropagation
 ---@param message String
@@ -1219,7 +1219,7 @@ function ReactionManagerComponent:SetBaseReactionPreset(ignoreSavedPreset) retur
 function ReactionManagerComponent:SetCrowdRunningAwayAnimFeature(stimType) return end
 
 ---@param visible Bool
----@param description CName
+---@param description CName|string
 ---@return nil
 function ReactionManagerComponent:SetDownedBodyVisibleComponent(visible, description) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BloodswellCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field private bloodswellEffector BloodswellEffector
+---@field private ["bloodswellEffector"] BloodswellEffector
 BloodswellCallback = {}
 
 ---@param fields? table

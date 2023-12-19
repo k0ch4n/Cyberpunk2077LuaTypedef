@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class worldPersistentSnapData
----@field public targetObjectPath worldRelativeNodePath
----@field public targetSocketName CName
----@field public snapTangent Bool
----@field public reverseTangent Bool
----@field public preserveLength Bool
+---@field public ["targetObjectPath"] worldRelativeNodePath
+---@field public ["targetSocketName"] CName
+---@field public ["snapTangent"] Bool
+---@field public ["reverseTangent"] Bool
+---@field public ["preserveLength"] Bool
 worldPersistentSnapData = {}
 
 ---@param fields? table

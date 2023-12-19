@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseActionOperations: DeviceOperations
----@field protected baseActionsOperations SBaseActionOperationData[]
+---@field protected ["baseActionsOperations"] SBaseActionOperationData[]
 BaseActionOperations = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function BaseActionOperations.new(fields) return end
 ---@return nil
 function BaseActionOperations:ClearDelayIdOnOperation(operationID) return end
 
----@param actionClassName CName
+---@param actionClassName CName|string
 ---@param owner gameObject
 ---@return nil
 function BaseActionOperations:ExecuteOperation(actionClassName, owner) return end
@@ -26,7 +26,7 @@ function BaseActionOperations:IsOperationEnabled(index) return end
 ---@return nil
 function BaseActionOperations:RequestComponents(ri) return end
 
----@param actionClassName CName
+---@param actionClassName CName|string
 ---@param owner gameObject
 ---@return nil
 function BaseActionOperations:RestoreOperation(actionClassName, owner) return end

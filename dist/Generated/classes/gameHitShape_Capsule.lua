@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameHitShape_Capsule: gameHitShapeBase
----@field public radius Float
----@field public height Float
+---@field public ["radius"] Float
+---@field public ["height"] Float
 gameHitShape_Capsule = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameIComparisonPrereq: gameIPrereq
----@field public comparisonType gameComparisonType
+---@field public ["comparisonType"] gameComparisonType
 gameIComparisonPrereq = {}

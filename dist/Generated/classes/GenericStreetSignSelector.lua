@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GenericStreetSignSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field private ["recordID"] TweakDBID
 GenericStreetSignSelector = {}
 
 ---@param fields? table

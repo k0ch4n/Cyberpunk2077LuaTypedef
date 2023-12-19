@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LinkController: inkButtonController
----@field private linkAddress String
----@field private defaultColor HDRColor
----@field private hoverColor HDRColor
----@field private IGNORED_COLOR HDRColor
+---@field private ["linkAddress"] String
+---@field private ["defaultColor"] HDRColor
+---@field private ["hoverColor"] HDRColor
+---@field private ["IGNORED_COLOR"] HDRColor
 LinkController = {}
 
 ---@param fields? table

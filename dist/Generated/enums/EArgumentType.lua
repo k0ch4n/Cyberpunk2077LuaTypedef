@@ -3,7 +3,7 @@
 
 ---@enum EArgumentType
 EArgumentType = {
-    ["Object"] = 0,
-    ["CoverID"] = 1,
-    ["Vector4"] = 2
+    ["Object"] = 0, ---@type Enum
+    ["CoverID"] = 1, ---@type Enum
+    ["Vector4"] = 2, ---@type Enum
 }

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class sampleUIEventTestLogicController: inkWidgetLogicController
----@field public eventTextWidgetPath CName
----@field public eventVerticalPanelPath CName
----@field public callbackTextWidgetPath CName
----@field public callbackVerticalPanelPath CName
----@field public customCallbackName CName
----@field private textWidget inkTextWidget
----@field private verticalPanelWidget inkVerticalPanelWidget
----@field private isEnabled Bool
+---@field public ["eventTextWidgetPath"] CName
+---@field public ["eventVerticalPanelPath"] CName
+---@field public ["callbackTextWidgetPath"] CName
+---@field public ["callbackVerticalPanelPath"] CName
+---@field public ["customCallbackName"] CName
+---@field private ["textWidget"] inkTextWidget
+---@field private ["verticalPanelWidget"] inkVerticalPanelWidget
+---@field private ["isEnabled"] Bool
 sampleUIEventTestLogicController = {}
 
 ---@param fields? table

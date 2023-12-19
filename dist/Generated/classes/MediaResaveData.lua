@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MediaResaveData
----@field public mediaDeviceData MediaDeviceData
+---@field public ["mediaDeviceData"] MediaDeviceData
 MediaResaveData = {}
 
 ---@param fields? table

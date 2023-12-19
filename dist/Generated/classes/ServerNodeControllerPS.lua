@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ServerNodeControllerPS: ScriptableDeviceComponentPS
----@field private coverState CoverState
----@field private serverState ServerState
----@field private destroyedPin Int32[]
+---@field private ["coverState"] CoverState
+---@field private ["serverState"] ServerState
+---@field private ["destroyedPin"] Int32[]
 ServerNodeControllerPS = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SNewsFeedElementData
----@field public banners SsimpleBanerData[]
----@field public currentBanner Int32
+---@field public ["banners"] SsimpleBanerData[]
+---@field public ["currentBanner"] Int32
 SNewsFeedElementData = {}
 
 ---@param fields? table

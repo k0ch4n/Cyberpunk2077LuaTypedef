@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineStateMachineIdentifier
----@field public definitionName CName
----@field public referenceName CName
+---@field public ["definitionName"] CName
+---@field public ["referenceName"] CName
 gamestateMachineStateMachineIdentifier = {}
 
 ---@param fields? table

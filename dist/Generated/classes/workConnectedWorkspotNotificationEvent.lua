@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workConnectedWorkspotNotificationEvent: redEvent
----@field public evtName CName
+---@field public ["evtName"] CName
 workConnectedWorkspotNotificationEvent = {}
 
 ---@param fields? table

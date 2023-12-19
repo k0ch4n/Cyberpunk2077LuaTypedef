@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class SetFactBasedOnClearAreaEffector: gameEffector
----@field public fact CName
----@field public factSuffixes CName[]
----@field public vectorRotations Float[]
----@field public value Int32
----@field public distance Float
----@field public width Float
----@field public fromHeight Float
----@field public height Float
+---@field public ["fact"] CName
+---@field public ["factSuffixes"] CName[]
+---@field public ["vectorRotations"] Float[]
+---@field public ["value"] Int32
+---@field public ["distance"] Float
+---@field public ["width"] Float
+---@field public ["fromHeight"] Float
+---@field public ["height"] Float
 SetFactBasedOnClearAreaEffector = {}
 
 ---@param fields? table

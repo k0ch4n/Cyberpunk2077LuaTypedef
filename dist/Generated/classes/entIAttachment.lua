@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entIAttachment: ISerializable
----@field public source entIComponent
----@field public destination entIComponent
+---@field public ["source"] entIComponent
+---@field public ["destination"] entIComponent
 entIAttachment = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum inkMaskDataSource
 inkMaskDataSource = {
-    ["TextureAtlas"] = 0,
-    ["DynamicTexture"] = 1
+    ["TextureAtlas"] = 0, ---@type Enum
+    ["DynamicTexture"] = 1, ---@type Enum
 }

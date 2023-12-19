@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackSetDescriptionVisibilityRequest: gameScriptableSystemRequest
----@field public visible Bool
+---@field public ["visible"] Bool
 QuickHackSetDescriptionVisibilityRequest = {}
 
 ---@param fields? table

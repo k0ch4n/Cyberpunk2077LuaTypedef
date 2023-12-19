@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameJournalPhoneMessage: gameJournalEntry
----@field public sender gameMessageSender
----@field public text LocalizationString
----@field public imageId TweakDBID
----@field public delay Float
----@field public attachment gameJournalPath
----@field public isQuestImportant Bool
+---@field public ["sender"] gameMessageSender
+---@field public ["text"] LocalizationString
+---@field public ["imageId"] TweakDBID
+---@field public ["delay"] Float
+---@field public ["attachment"] gameJournalPath
+---@field public ["isQuestImportant"] Bool
 gameJournalPhoneMessage = {}
 
 ---@param fields? table

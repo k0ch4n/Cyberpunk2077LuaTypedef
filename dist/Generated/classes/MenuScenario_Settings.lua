@@ -13,13 +13,13 @@ function MenuScenario_Settings.new(fields) return end
 function MenuScenario_Settings:OnCloseSettingsScreen() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_Settings:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_Settings:OnLeaveScenario(nextScenario) return end
 

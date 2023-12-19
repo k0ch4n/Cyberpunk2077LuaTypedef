@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterruptionScenarioId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnInterruptionScenarioId = {}
 
 ---@param fields? table

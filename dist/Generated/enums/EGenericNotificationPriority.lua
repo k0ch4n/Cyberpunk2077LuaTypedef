@@ -3,8 +3,8 @@
 
 ---@enum EGenericNotificationPriority
 EGenericNotificationPriority = {
-    ["Default"] = 0,
-    ["Low"] = 1,
-    ["Medium"] = 2,
-    ["Height"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["Low"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["Height"] = 3, ---@type Enum
 }

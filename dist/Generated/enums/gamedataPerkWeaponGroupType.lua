@@ -3,20 +3,20 @@
 
 ---@enum gamedataPerkWeaponGroupType
 gamedataPerkWeaponGroupType = {
-    ["AssaultRiflesPerkWeaponGroup"] = 0,
-    ["BladesPerkWeaponGroup"] = 1,
-    ["BluntsPerkWeaponGroup"] = 2,
-    ["BodyGunsPerkWeaponGroup"] = 3,
-    ["CoolGunsPerkWeaponGroup"] = 4,
-    ["HandgunsPerkWeaponGroup"] = 5,
-    ["LMGsPerkWeaponGroup"] = 6,
-    ["PrecisionGunsPerkWeaponGroup"] = 7,
-    ["ReflexesGunsPerkWeaponGroup"] = 8,
-    ["SMGsPerkWeaponGroup"] = 9,
-    ["ShotgunsPerkWeaponGroup"] = 10,
-    ["SmartGunsPerkWeaponGroup"] = 11,
-    ["TechGunsPerkWeaponGroup"] = 12,
-    ["ThrowablePerkWeaponGroup"] = 13,
-    ["Count"] = 14,
-    ["Invalid"] = 15
+    ["AssaultRiflesPerkWeaponGroup"] = 0, ---@type Enum
+    ["BladesPerkWeaponGroup"] = 1, ---@type Enum
+    ["BluntsPerkWeaponGroup"] = 2, ---@type Enum
+    ["BodyGunsPerkWeaponGroup"] = 3, ---@type Enum
+    ["CoolGunsPerkWeaponGroup"] = 4, ---@type Enum
+    ["HandgunsPerkWeaponGroup"] = 5, ---@type Enum
+    ["LMGsPerkWeaponGroup"] = 6, ---@type Enum
+    ["PrecisionGunsPerkWeaponGroup"] = 7, ---@type Enum
+    ["ReflexesGunsPerkWeaponGroup"] = 8, ---@type Enum
+    ["SMGsPerkWeaponGroup"] = 9, ---@type Enum
+    ["ShotgunsPerkWeaponGroup"] = 10, ---@type Enum
+    ["SmartGunsPerkWeaponGroup"] = 11, ---@type Enum
+    ["TechGunsPerkWeaponGroup"] = 12, ---@type Enum
+    ["ThrowablePerkWeaponGroup"] = 13, ---@type Enum
+    ["Count"] = 14, ---@type Enum
+    ["Invalid"] = 15, ---@type Enum
 }

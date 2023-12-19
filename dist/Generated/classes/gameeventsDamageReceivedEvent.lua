@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameeventsDamageReceivedEvent: redEvent
----@field public hitEvent gameeventsHitEvent
----@field public totalDamageReceived Float
+---@field public ["hitEvent"] gameeventsHitEvent
+---@field public ["totalDamageReceived"] Float
 gameeventsDamageReceivedEvent = {}
 
 ---@param fields? table

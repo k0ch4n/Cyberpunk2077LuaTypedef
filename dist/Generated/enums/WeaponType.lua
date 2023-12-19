@@ -3,8 +3,8 @@
 
 ---@enum WeaponType
 WeaponType = {
-    ["Ranged"] = 0,
-    ["Melee"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = -1
+    ["Ranged"] = 0, ---@type Enum
+    ["Melee"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

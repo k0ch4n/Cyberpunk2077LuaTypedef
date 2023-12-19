@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_Finisher: gameEffectExecutor
----@field public InfluencedByPlayerCostBlock Bool
----@field public finisherScenarios gameIFinisherScenario[]
----@field public alwaysUseEntryAnims Bool
----@field public allowCameraMovement Bool
+---@field public ["InfluencedByPlayerCostBlock"] Bool
+---@field public ["finisherScenarios"] gameIFinisherScenario[]
+---@field public ["alwaysUseEntryAnims"] Bool
+---@field public ["allowCameraMovement"] Bool
 gameEffectExecutor_Finisher = {}
 
 ---@param fields? table

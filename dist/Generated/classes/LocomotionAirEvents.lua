@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LocomotionAirEvents: LocomotionEventsTransition
----@field public maxSuperheroFallHeight Bool
----@field public updateInputToggles Bool
----@field public resetFallingParametersOnExit Bool
+---@field public ["maxSuperheroFallHeight"] Bool
+---@field public ["updateInputToggles"] Bool
+---@field public ["resetFallingParametersOnExit"] Bool
 LocomotionAirEvents = {}
 
 ---@param stateContext gamestateMachineStateContextScript

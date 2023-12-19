@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetJammedEvent: redEvent
----@field public newJammedState Bool
----@field public instigator gameweaponObject
+---@field public ["newJammedState"] Bool
+---@field public ["instigator"] gameweaponObject
 SetJammedEvent = {}
 
 ---@param fields? table

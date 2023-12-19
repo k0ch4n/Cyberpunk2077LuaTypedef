@@ -39,7 +39,7 @@ function gamedataAchievement_Record:SteamKey() return end
 ---@return CName[]
 function gamedataAchievement_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAchievement_Record:TagsContains(item) return end
 

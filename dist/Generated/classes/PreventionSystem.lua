@@ -2,114 +2,114 @@
 ---@diagnostic disable
 
 ---@class PreventionSystem: gameScriptableSystem
----@field private districtManager DistrictManager
----@field private agentRegistry PoliceAgentRegistry
----@field private ignoreSecurityAreasByQuest Bool
----@field private forceEternalGreyStars Bool
----@field private blockOnFootSpawnByQuest Bool
----@field private blockVehicleSpawnByQuest Bool
----@field private blockReconDroneSpawnByQuest Bool
----@field private crimeScoreMultiplierByQuest Float
----@field private preventionQuestEventSources CName[]
----@field private systemLockSources CName[]
----@field private systemEnabled Bool
----@field private player PlayerPuppet
----@field private preventionPreset gamedataDistrictPreventionData_Record
----@field private preventionDataMatrix gamedataPreventionHeatDataMatrix_Record
----@field private preventionDataTable gamedataPreventionHeatTable_Record
----@field private systemLocked Bool
----@field private nodeEventSources CName[]
----@field private heatStage EPreventionHeatStage
----@field private heatChangeReason String
----@field private ignoreSecurityAreas Bool
----@field private playerIsInSecurityArea gamePersistentID[]
----@field private playerIsInPreventionFreeArea Bool
----@field private policeSecuritySystems gamePersistentID[]
----@field private agentGroupsList PreventionAgents[]
----@field private lastKnownPosition Vector4
----@field private lastKnownVehicle vehicleBaseObject
----@field private districtMultiplier Float
----@field private shouldForceStarStateUIToActive Bool
----@field private lastAttackTime Float
----@field private lastAttackTargetIDs entEntityID[]
----@field private viewers gameObject[]
----@field private hasViewers Bool
----@field private starState EStarState
----@field private starStateUIChanged Bool
----@field private isPlayerMounted Bool
----@field private policeKnowsPlayerLocation Bool
----@field private isInitialSearchState Bool
----@field private heatLevelChanged Bool
----@field private playerCrossedBufferDistance Bool
----@field private crimescoreTimerDelayID gameDelayID
----@field private starStateBufferTimerDelayID gameDelayID
----@field private beliefAccuracyTimerDelayID gameDelayID
----@field private blinkingStatusDelayID gameDelayID
----@field private searchingStatusDelayID gameDelayID
----@field private transitionToGreyStateDelayID gameDelayID
----@field private policemenSpawnDelayID gameDelayID
----@field private securityAreaResetDelayID gameDelayID
----@field private inputlockDelayID gameDelayID
----@field private freeAreaResetDelayID gameDelayID
----@field private securityAreaResetCheck Bool
----@field private hadOngoingSpawnRequest Bool
----@field private totalCrimeScore Float
----@field private canSpawnFallbackEarly Bool
----@field private failsafePoliceRecordT1 TweakDBID
----@field private failsafePoliceRecordT2 TweakDBID
----@field private failsafePoliceRecordT3 TweakDBID
----@field private blinkReasonsStack CName[]
----@field private wantedBarBlackboard gameIBlackboard
----@field private onPlayerChoiceCallID redCallbackObject
----@field private playerAttachedCallbackID Uint32
----@field private playerDetachedCallbackID Uint32
----@field private playerHLSID redCallbackObject
----@field private playerVehicleStateID redCallbackObject
----@field private playerHLS gamePSMHighLevel
----@field private playerVehicleState gamePSMVehicle
----@field private unhandledInputsReceived Int32
----@field private preventionUnitKilledDuringLock Bool
----@field private previousHitTargetID entEntityID
----@field private previousHitAttackTime Float
----@field private reconPhaseEnabled Bool
----@field private reconDeployed Bool
----@field private reconDestroyed Bool
----@field private minHeatLevel EPreventionHeatStage
----@field private maxHeatLevel EPreventionHeatStage
----@field private defaultHeatLevels Bool
----@field private vehicleSpawnBlockSide EVehicleSpawnBlockSide
----@field private damageToPlayerMultiplier Float
----@field private chaseMultiplier Float
----@field private policeChaseBlackboard gameIBlackboard
----@field private blockShootingFromVehicle Bool
----@field private Debug_ProcessReason EPreventionDebugProcessReason
----@field private Debug_LastAttackType gamedataAttackType
----@field private Debug_LastDamageDealt Float
----@field private Debug_LastCrimeDistance Float
----@field private Debug_lastAVRequestedSpawnPosition Vector3
----@field private temp_const_false Bool
----@field private preventionTickCaller IntervalCaller
----@field private roadblockadeRespawnTickCaller IntervalCaller
----@field private maxtacTicketID Uint32
----@field private avSpawnPointList Vector3[]
----@field private maxAllowedDistanceToPlayer Float
----@field private lastAVRequestedSpawnPositionsArray Vector4[]
----@field private shouldPreventionUnitsStartRetreating Bool
----@field private numberOfMaxtacSquadsSpawned Int32
----@field private maxtacTroopBeingAliveTimeStamp Float
----@field private civilianVehicleDestructionCount Int32
----@field private lastCivilianVehicleDestructionTimeStamp Float
----@field private civilianVehicleDestructionThreshold Int32
----@field private civilianVehicleDestructionTimeout Float
----@field private vehicleSpawnTickCaller IntervalCaller
----@field private ressuplyVehicleTicketCaller IntervalCaller
----@field private isVehicleDelayOver Bool
----@field private currentVehicleTicketCount Int32
----@field private failedVehicleSpawnAttempts Int32
----@field private codeRedReinforcement Bool
----@field private lastStarChangeTimeStamp Float
----@field private firstStarTimeStamp Float
----@field private setCallRejectionIncrement Bool
+---@field private ["districtManager"] DistrictManager
+---@field private ["agentRegistry"] PoliceAgentRegistry
+---@field private ["ignoreSecurityAreasByQuest"] Bool
+---@field private ["forceEternalGreyStars"] Bool
+---@field private ["blockOnFootSpawnByQuest"] Bool
+---@field private ["blockVehicleSpawnByQuest"] Bool
+---@field private ["blockReconDroneSpawnByQuest"] Bool
+---@field private ["crimeScoreMultiplierByQuest"] Float
+---@field private ["preventionQuestEventSources"] CName[]
+---@field private ["systemLockSources"] CName[]
+---@field private ["systemEnabled"] Bool
+---@field private ["player"] PlayerPuppet
+---@field private ["preventionPreset"] gamedataDistrictPreventionData_Record
+---@field private ["preventionDataMatrix"] gamedataPreventionHeatDataMatrix_Record
+---@field private ["preventionDataTable"] gamedataPreventionHeatTable_Record
+---@field private ["systemLocked"] Bool
+---@field private ["nodeEventSources"] CName[]
+---@field private ["heatStage"] EPreventionHeatStage
+---@field private ["heatChangeReason"] String
+---@field private ["ignoreSecurityAreas"] Bool
+---@field private ["playerIsInSecurityArea"] gamePersistentID[]
+---@field private ["playerIsInPreventionFreeArea"] Bool
+---@field private ["policeSecuritySystems"] gamePersistentID[]
+---@field private ["agentGroupsList"] PreventionAgents[]
+---@field private ["lastKnownPosition"] Vector4
+---@field private ["lastKnownVehicle"] vehicleBaseObject
+---@field private ["districtMultiplier"] Float
+---@field private ["shouldForceStarStateUIToActive"] Bool
+---@field private ["lastAttackTime"] Float
+---@field private ["lastAttackTargetIDs"] entEntityID[]
+---@field private ["viewers"] gameObject[]
+---@field private ["hasViewers"] Bool
+---@field private ["starState"] EStarState
+---@field private ["starStateUIChanged"] Bool
+---@field private ["isPlayerMounted"] Bool
+---@field private ["policeKnowsPlayerLocation"] Bool
+---@field private ["isInitialSearchState"] Bool
+---@field private ["heatLevelChanged"] Bool
+---@field private ["playerCrossedBufferDistance"] Bool
+---@field private ["crimescoreTimerDelayID"] gameDelayID
+---@field private ["starStateBufferTimerDelayID"] gameDelayID
+---@field private ["beliefAccuracyTimerDelayID"] gameDelayID
+---@field private ["blinkingStatusDelayID"] gameDelayID
+---@field private ["searchingStatusDelayID"] gameDelayID
+---@field private ["transitionToGreyStateDelayID"] gameDelayID
+---@field private ["policemenSpawnDelayID"] gameDelayID
+---@field private ["securityAreaResetDelayID"] gameDelayID
+---@field private ["inputlockDelayID"] gameDelayID
+---@field private ["freeAreaResetDelayID"] gameDelayID
+---@field private ["securityAreaResetCheck"] Bool
+---@field private ["hadOngoingSpawnRequest"] Bool
+---@field private ["totalCrimeScore"] Float
+---@field private ["canSpawnFallbackEarly"] Bool
+---@field private ["failsafePoliceRecordT1"] TweakDBID
+---@field private ["failsafePoliceRecordT2"] TweakDBID
+---@field private ["failsafePoliceRecordT3"] TweakDBID
+---@field private ["blinkReasonsStack"] CName[]
+---@field private ["wantedBarBlackboard"] gameIBlackboard
+---@field private ["onPlayerChoiceCallID"] redCallbackObject
+---@field private ["playerAttachedCallbackID"] Uint32
+---@field private ["playerDetachedCallbackID"] Uint32
+---@field private ["playerHLSID"] redCallbackObject
+---@field private ["playerVehicleStateID"] redCallbackObject
+---@field private ["playerHLS"] gamePSMHighLevel
+---@field private ["playerVehicleState"] gamePSMVehicle
+---@field private ["unhandledInputsReceived"] Int32
+---@field private ["preventionUnitKilledDuringLock"] Bool
+---@field private ["previousHitTargetID"] entEntityID
+---@field private ["previousHitAttackTime"] Float
+---@field private ["reconPhaseEnabled"] Bool
+---@field private ["reconDeployed"] Bool
+---@field private ["reconDestroyed"] Bool
+---@field private ["minHeatLevel"] EPreventionHeatStage
+---@field private ["maxHeatLevel"] EPreventionHeatStage
+---@field private ["defaultHeatLevels"] Bool
+---@field private ["vehicleSpawnBlockSide"] EVehicleSpawnBlockSide
+---@field private ["damageToPlayerMultiplier"] Float
+---@field private ["chaseMultiplier"] Float
+---@field private ["policeChaseBlackboard"] gameIBlackboard
+---@field private ["blockShootingFromVehicle"] Bool
+---@field private ["Debug_ProcessReason"] EPreventionDebugProcessReason
+---@field private ["Debug_LastAttackType"] gamedataAttackType
+---@field private ["Debug_LastDamageDealt"] Float
+---@field private ["Debug_LastCrimeDistance"] Float
+---@field private ["Debug_lastAVRequestedSpawnPosition"] Vector3
+---@field private ["temp_const_false"] Bool
+---@field private ["preventionTickCaller"] IntervalCaller
+---@field private ["roadblockadeRespawnTickCaller"] IntervalCaller
+---@field private ["maxtacTicketID"] Uint32
+---@field private ["avSpawnPointList"] Vector3[]
+---@field private ["maxAllowedDistanceToPlayer"] Float
+---@field private ["lastAVRequestedSpawnPositionsArray"] Vector4[]
+---@field private ["shouldPreventionUnitsStartRetreating"] Bool
+---@field private ["numberOfMaxtacSquadsSpawned"] Int32
+---@field private ["maxtacTroopBeingAliveTimeStamp"] Float
+---@field private ["civilianVehicleDestructionCount"] Int32
+---@field private ["lastCivilianVehicleDestructionTimeStamp"] Float
+---@field private ["civilianVehicleDestructionThreshold"] Int32
+---@field private ["civilianVehicleDestructionTimeout"] Float
+---@field private ["vehicleSpawnTickCaller"] IntervalCaller
+---@field private ["ressuplyVehicleTicketCaller"] IntervalCaller
+---@field private ["isVehicleDelayOver"] Bool
+---@field private ["currentVehicleTicketCount"] Int32
+---@field private ["failedVehicleSpawnAttempts"] Int32
+---@field private ["codeRedReinforcement"] Bool
+---@field private ["lastStarChangeTimeStamp"] Float
+---@field private ["firstStarTimeStamp"] Float
+---@field private ["setCallRejectionIncrement"] Bool
 PreventionSystem = {}
 
 ---@param fields? table
@@ -567,7 +567,7 @@ function PreventionSystem:GetVehicleRecordFromPool(pool) return end
 function PreventionSystem:GetWantedLevelFact() return end
 
 ---@private
----@param sourceName CName
+---@param sourceName CName|string
 ---@param tryRemoveLock Bool
 ---@return nil
 function PreventionSystem:HandleDebugEventSourceTracking(sourceName, tryRemoveLock) return end
@@ -1036,7 +1036,7 @@ function PreventionSystem:RefreshDebugRemoveAllLockSources() return end
 function PreventionSystem:RefreshDebugSecAreaInfo() return end
 
 ---@private
----@param attitudeGroup CName
+---@param attitudeGroup CName|string
 ---@param ps gamePersistentState
 ---@return nil
 function PreventionSystem:Register(attitudeGroup, ps) return end
@@ -1319,7 +1319,7 @@ function PreventionSystem:SyncTweakDistrictData() return end
 
 ---@private
 ---@param preventionGlobalQuestDisabled Bool
----@param eventSource CName
+---@param eventSource CName|string
 ---@return nil
 function PreventionSystem:TogglePreventionGlobalQuestObjective_Internal(preventionGlobalQuestDisabled, eventSource) return end
 
@@ -1426,7 +1426,7 @@ function PreventionSystem:TryUpdateWantedLevelFact() return end
 function PreventionSystem:TutorialAddPoliceSystemFact() return end
 
 ---@private
----@param attitudeGroup CName
+---@param attitudeGroup CName|string
 ---@param ps gamePersistentState
 ---@return nil
 function PreventionSystem:UnRegister(attitudeGroup, ps) return end

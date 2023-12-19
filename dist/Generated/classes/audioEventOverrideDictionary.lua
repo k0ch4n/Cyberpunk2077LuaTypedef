@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioEventOverrideDictionary: audioInlinedAudioMetadata
----@field public entries audioEventOverrideDictionaryItem[]
----@field public entryType audioEventOverrideDictionaryItem
+---@field public ["entries"] audioEventOverrideDictionaryItem[]
+---@field public ["entryType"] audioEventOverrideDictionaryItem
 audioEventOverrideDictionary = {}
 
 ---@param fields? table

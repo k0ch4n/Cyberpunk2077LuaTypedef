@@ -3,13 +3,13 @@
 
 ---@enum gamedataWorkspotReactionType
 gamedataWorkspotReactionType = {
-    ["Anger"] = 0,
-    ["BumpLeftBack"] = 1,
-    ["BumpLeftFront"] = 2,
-    ["BumpRightBack"] = 3,
-    ["BumpRightFront"] = 4,
-    ["Curious"] = 5,
-    ["Fear"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["Anger"] = 0, ---@type Enum
+    ["BumpLeftBack"] = 1, ---@type Enum
+    ["BumpLeftFront"] = 2, ---@type Enum
+    ["BumpRightBack"] = 3, ---@type Enum
+    ["BumpRightFront"] = 4, ---@type Enum
+    ["Curious"] = 5, ---@type Enum
+    ["Fear"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

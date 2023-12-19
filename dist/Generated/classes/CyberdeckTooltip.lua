@@ -2,75 +2,75 @@
 ---@diagnostic disable
 
 ---@class CyberdeckTooltip: AGenericTooltipController
----@field protected itemNameText inkTextWidgetReference
----@field protected nameTextContainer inkWidgetReference
----@field protected nameForRecipeText inkTextWidgetReference
----@field protected itemRarityText inkTextWidgetReference
----@field protected rarityBars inkWidgetReference
----@field protected categoriesWrapper inkCompoundWidgetReference
----@field protected topContainer inkCompoundWidgetReference
----@field protected headerContainer inkCompoundWidgetReference
----@field protected statsContainer inkCompoundWidgetReference
----@field protected hacksContainer inkCompoundWidgetReference
----@field protected descriptionContainer inkCompoundWidgetReference
----@field protected bottomContainer inkCompoundWidgetReference
----@field protected statsList inkCompoundWidgetReference
----@field protected priceContainer inkCompoundWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected equipedWrapper inkWidgetReference
----@field protected itemTypeText inkTextWidgetReference
----@field protected itemWeightWrapper inkWidgetReference
----@field protected itemWeightText inkTextWidgetReference
----@field protected cybderdeckBaseMemoryValue inkTextWidgetReference
----@field protected cybderdeckBufferValue inkTextWidgetReference
----@field protected cybderdeckSlotsValue inkTextWidgetReference
----@field protected deviceHacksGrid inkCompoundWidgetReference
----@field protected deviceHackHeader inkTextWidgetReference
----@field protected namesTextContainer inkWidgetReference
----@field protected deviceHackNamesText inkTextWidgetReference
----@field protected textBG inkWidgetReference
----@field protected namesTextContainer2 inkWidgetReference
----@field protected deviceHackNamesText2 inkTextWidgetReference
----@field protected textBG2 inkWidgetReference
----@field protected namesTextContainer3 inkWidgetReference
----@field protected deviceHackNamesText3 inkTextWidgetReference
----@field protected textBG3 inkWidgetReference
----@field protected namesTextContainer4 inkWidgetReference
----@field protected deviceHackNamesText4 inkTextWidgetReference
----@field protected textBG4 inkWidgetReference
----@field protected itemIconImage inkImageWidgetReference
----@field protected itemAttributeRequirementsWrapper inkWidgetReference
----@field protected itemAttributeRequirements inkWidgetReference
----@field protected itemAttributeRequirementsText inkTextWidgetReference
----@field protected allocationCostsWrapper inkCompoundWidgetReference
----@field protected iconicLines inkImageWidgetReference
----@field protected equipedCorner inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeWrapper inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected cyberwareUpgradeContainer inkWidgetReference
----@field protected itemCWQuickHackMenuLinkContainer inkWidgetReference
----@field protected additionalModulesLibraryRes redResourceReferenceScriptToken
----@field protected cyberwareUpgradeModuleName CName
----@field protected rarityBarsController LevelBarsController
----@field protected data InventoryTooltipData
----@field private itemDisplayContext gameItemDisplayContext
----@field protected player PlayerPuppet
----@field protected cyberwareUpgradeController ItemTooltipCyberwareUpgradeController
----@field protected hasVehiclePerk Bool
----@field protected animProxy inkanimProxy
----@field protected settings userSettingsUserSettings
----@field protected settingsListener CyberdeckTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected itemData UIInventoryItem
----@field protected displayContext ItemDisplayContextData
----@field protected comparisonData UIInventoryItemComparisonManager
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
+---@field protected ["itemNameText"] inkTextWidgetReference
+---@field protected ["nameTextContainer"] inkWidgetReference
+---@field protected ["nameForRecipeText"] inkTextWidgetReference
+---@field protected ["itemRarityText"] inkTextWidgetReference
+---@field protected ["rarityBars"] inkWidgetReference
+---@field protected ["categoriesWrapper"] inkCompoundWidgetReference
+---@field protected ["topContainer"] inkCompoundWidgetReference
+---@field protected ["headerContainer"] inkCompoundWidgetReference
+---@field protected ["statsContainer"] inkCompoundWidgetReference
+---@field protected ["hacksContainer"] inkCompoundWidgetReference
+---@field protected ["descriptionContainer"] inkCompoundWidgetReference
+---@field protected ["bottomContainer"] inkCompoundWidgetReference
+---@field protected ["statsList"] inkCompoundWidgetReference
+---@field protected ["priceContainer"] inkCompoundWidgetReference
+---@field protected ["descriptionText"] inkTextWidgetReference
+---@field protected ["priceText"] inkTextWidgetReference
+---@field protected ["equipedWrapper"] inkWidgetReference
+---@field protected ["itemTypeText"] inkTextWidgetReference
+---@field protected ["itemWeightWrapper"] inkWidgetReference
+---@field protected ["itemWeightText"] inkTextWidgetReference
+---@field protected ["cybderdeckBaseMemoryValue"] inkTextWidgetReference
+---@field protected ["cybderdeckBufferValue"] inkTextWidgetReference
+---@field protected ["cybderdeckSlotsValue"] inkTextWidgetReference
+---@field protected ["deviceHacksGrid"] inkCompoundWidgetReference
+---@field protected ["deviceHackHeader"] inkTextWidgetReference
+---@field protected ["namesTextContainer"] inkWidgetReference
+---@field protected ["deviceHackNamesText"] inkTextWidgetReference
+---@field protected ["textBG"] inkWidgetReference
+---@field protected ["namesTextContainer2"] inkWidgetReference
+---@field protected ["deviceHackNamesText2"] inkTextWidgetReference
+---@field protected ["textBG2"] inkWidgetReference
+---@field protected ["namesTextContainer3"] inkWidgetReference
+---@field protected ["deviceHackNamesText3"] inkTextWidgetReference
+---@field protected ["textBG3"] inkWidgetReference
+---@field protected ["namesTextContainer4"] inkWidgetReference
+---@field protected ["deviceHackNamesText4"] inkTextWidgetReference
+---@field protected ["textBG4"] inkWidgetReference
+---@field protected ["itemIconImage"] inkImageWidgetReference
+---@field protected ["itemAttributeRequirementsWrapper"] inkWidgetReference
+---@field protected ["itemAttributeRequirements"] inkWidgetReference
+---@field protected ["itemAttributeRequirementsText"] inkTextWidgetReference
+---@field protected ["allocationCostsWrapper"] inkCompoundWidgetReference
+---@field protected ["iconicLines"] inkImageWidgetReference
+---@field protected ["equipedCorner"] inkWidgetReference
+---@field protected ["root"] inkWidgetReference
+---@field protected ["iconicBG"] inkWidgetReference
+---@field protected ["recipeWrapper"] inkWidgetReference
+---@field protected ["recipeBG"] inkWidgetReference
+---@field protected ["illegalBG"] inkWidgetReference
+---@field protected ["cyberwareUpgradeContainer"] inkWidgetReference
+---@field protected ["itemCWQuickHackMenuLinkContainer"] inkWidgetReference
+---@field protected ["additionalModulesLibraryRes"] redResourceReferenceScriptToken
+---@field protected ["cyberwareUpgradeModuleName"] CName
+---@field protected ["rarityBarsController"] LevelBarsController
+---@field protected ["data"] InventoryTooltipData
+---@field private ["itemDisplayContext"] gameItemDisplayContext
+---@field protected ["player"] PlayerPuppet
+---@field protected ["cyberwareUpgradeController"] ItemTooltipCyberwareUpgradeController
+---@field protected ["hasVehiclePerk"] Bool
+---@field protected ["animProxy"] inkanimProxy
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] CyberdeckTooltipSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["minWidth"] inkWidgetReference
+---@field protected ["bigFontEnabled"] Bool
+---@field protected ["itemData"] UIInventoryItem
+---@field protected ["displayContext"] ItemDisplayContextData
+---@field protected ["comparisonData"] UIInventoryItemComparisonManager
+---@field protected ["tooltipDisplayContext"] InventoryTooltipDisplayContext
 CyberdeckTooltip = {}
 
 ---@param fields? table
@@ -142,8 +142,8 @@ function CyberdeckTooltip:NEW_UpdatePrice() return end
 ---@return nil
 function CyberdeckTooltip:NEW_UpdateRarity() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

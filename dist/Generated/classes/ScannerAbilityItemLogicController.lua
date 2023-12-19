@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerAbilityItemLogicController: inkWidgetLogicController
----@field private abilityNameText inkTextWidgetReference
----@field private abilityIcon inkImageWidgetReference
+---@field private ["abilityNameText"] inkTextWidgetReference
+---@field private ["abilityIcon"] inkImageWidgetReference
 ScannerAbilityItemLogicController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_KillEffect: gameTransformAnimation_Effects
----@field public effectTag CName
+---@field public ["effectTag"] CName
 gameTransformAnimation_KillEffect = {}
 
 ---@param fields? table

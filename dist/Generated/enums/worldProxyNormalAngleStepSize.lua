@@ -3,8 +3,8 @@
 
 ---@enum worldProxyNormalAngleStepSize
 worldProxyNormalAngleStepSize = {
-    ["STEP_90"] = 0,
-    ["STEP_45"] = 1,
-    ["STEP_15"] = 2,
-    ["STEP_5"] = 3
+    ["STEP_90"] = 0, ---@type Enum
+    ["STEP_45"] = 1, ---@type Enum
+    ["STEP_15"] = 2, ---@type Enum
+    ["STEP_5"] = 3, ---@type Enum
 }

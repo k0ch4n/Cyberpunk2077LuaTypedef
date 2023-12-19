@@ -3,7 +3,7 @@
 
 ---@enum TweakWeaponPose
 TweakWeaponPose = {
-    ["Nothing"] = 0,
-    ["Position"] = 1,
-    ["Rotation"] = 2
+    ["Nothing"] = 0, ---@type Enum
+    ["Position"] = 1, ---@type Enum
+    ["Rotation"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnWorkspotData_EmbeddedWorkspotTree: scnWorkspotData
----@field public workspotTree workWorkspotTree
+---@field public ["workspotTree"] workWorkspotTree
 scnWorkspotData_EmbeddedWorkspotTree = {}
 
 ---@param fields? table

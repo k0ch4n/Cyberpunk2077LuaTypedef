@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionSystemPlayerCarHackTimeOutEvent: gameScriptableSystemRequest
----@field public state VehiclePreventionHackState
+---@field public ["state"] VehiclePreventionHackState
 PreventionSystemPlayerCarHackTimeOutEvent = {}
 
 ---@param fields? table

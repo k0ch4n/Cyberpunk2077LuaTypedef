@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitIsQuickhackPresentInQueuePrereqCondition: BaseHitPrereqCondition
----@field public hackCategory gamedataHackCategory_Record
----@field public isTheNextQhInQueue Bool
+---@field public ["hackCategory"] gamedataHackCategory_Record
+---@field public ["isTheNextQhInQueue"] Bool
 HitIsQuickhackPresentInQueuePrereqCondition = {}
 
 ---@param fields? table

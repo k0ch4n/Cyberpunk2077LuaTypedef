@@ -3,6 +3,6 @@
 
 ---@enum HoverStatus
 HoverStatus = {
-    ["DEFAULT"] = 0,
-    ["HOVER"] = 1
+    ["DEFAULT"] = 0, ---@type Enum
+    ["HOVER"] = 1, ---@type Enum
 }

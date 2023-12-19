@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleDoorDetached: ActionBool
----@field public slotID CName
----@field public isInteractionSource Bool
+---@field public ["slotID"] CName
+---@field public ["isInteractionSource"] Bool
 VehicleDoorDetached = {}
 
 ---@param fields? table

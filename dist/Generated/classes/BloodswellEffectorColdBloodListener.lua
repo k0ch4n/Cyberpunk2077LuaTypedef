@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BloodswellEffectorColdBloodListener: gameScriptStatsListener
----@field public effector BloodswellEffector
----@field public gameInstance ScriptGameInstance
+---@field public ["effector"] BloodswellEffector
+---@field public ["gameInstance"] ScriptGameInstance
 BloodswellEffectorColdBloodListener = {}
 
 ---@param fields? table

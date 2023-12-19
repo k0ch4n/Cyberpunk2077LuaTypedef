@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ButtonCursorStateView: BaseButtonView
----@field private HoverStateName CName
----@field private PressStateName CName
----@field private DefaultStateName CName
+---@field private ["HoverStateName"] CName
+---@field private ["PressStateName"] CName
+---@field private ["DefaultStateName"] CName
 ButtonCursorStateView = {}
 
 ---@param fields? table

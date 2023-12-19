@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTargetingLocalizedEffectComponent: entIComponent
----@field public streamingDistance Float
----@field public visibleTargetRange Float
+---@field public ["streamingDistance"] Float
+---@field public ["visibleTargetRange"] Float
 gameTargetingLocalizedEffectComponent = {}
 
 ---@param fields? table

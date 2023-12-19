@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGodModeEntityData
----@field public overrides gameGodModeData[]
----@field public base gameGodModeData[]
+---@field public ["overrides"] gameGodModeData[]
+---@field public ["base"] gameGodModeData[]
 gameGodModeEntityData = {}
 
 ---@param fields? table

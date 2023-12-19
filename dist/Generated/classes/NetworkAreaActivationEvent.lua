@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NetworkAreaActivationEvent: redEvent
----@field public enable Bool
+---@field public ["enable"] Bool
 NetworkAreaActivationEvent = {}
 
 ---@param fields? table

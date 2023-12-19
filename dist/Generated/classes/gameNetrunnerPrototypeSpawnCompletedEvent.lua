@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeSpawnCompletedEvent: redEvent
----@field public spawnedObject gameObject
+---@field public ["spawnedObject"] gameObject
 gameNetrunnerPrototypeSpawnCompletedEvent = {}
 
 ---@param fields? table

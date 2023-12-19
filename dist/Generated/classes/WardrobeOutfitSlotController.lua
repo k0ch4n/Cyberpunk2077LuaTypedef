@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class WardrobeOutfitSlotController: inkWidgetLogicController
----@field private slotNumberText inkTextWidgetReference
----@field private newSetIndicator inkWidgetReference
----@field private index Int32
----@field private hovered Bool
----@field private active Bool
----@field private equipped Bool
----@field private isNew Bool
+---@field private ["slotNumberText"] inkTextWidgetReference
+---@field private ["newSetIndicator"] inkWidgetReference
+---@field private ["index"] Int32
+---@field private ["hovered"] Bool
+---@field private ["active"] Bool
+---@field private ["equipped"] Bool
+---@field private ["isNew"] Bool
 WardrobeOutfitSlotController = {}
 
 ---@param fields? table

@@ -3,12 +3,12 @@
 
 ---@enum gameItemEquipContexts
 gameItemEquipContexts = {
-    ["LastWeaponEquipped"] = 0,
-    ["LastUsedMeleeWeapon"] = 1,
-    ["LastUsedRangedWeapon"] = 2,
-    ["Gadget"] = 3,
-    ["MeleeCyberware"] = 4,
-    ["LauncherCyberware"] = 5,
-    ["Fists"] = 6,
-    ["TutorialCyberware"] = 7
+    ["LastWeaponEquipped"] = 0, ---@type Enum
+    ["LastUsedMeleeWeapon"] = 1, ---@type Enum
+    ["LastUsedRangedWeapon"] = 2, ---@type Enum
+    ["Gadget"] = 3, ---@type Enum
+    ["MeleeCyberware"] = 4, ---@type Enum
+    ["LauncherCyberware"] = 5, ---@type Enum
+    ["Fists"] = 6, ---@type Enum
+    ["TutorialCyberware"] = 7, ---@type Enum
 }

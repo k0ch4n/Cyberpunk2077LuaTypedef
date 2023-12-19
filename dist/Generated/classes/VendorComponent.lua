@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VendorComponent: gameScriptableComponent
----@field private vendorTweakID TweakDBID
----@field private junkItemArray JunkItemRecord[]
----@field private brandProcessingSFX CName
----@field private itemFallSFX CName
+---@field private ["vendorTweakID"] TweakDBID
+---@field private ["junkItemArray"] JunkItemRecord[]
+---@field private ["brandProcessingSFX"] CName
+---@field private ["itemFallSFX"] CName
 VendorComponent = {}
 
 ---@param fields? table

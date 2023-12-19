@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class IntercomControllerPS: ScriptableDeviceComponentPS
----@field protected isCalling Bool
----@field protected sceneStarted Bool
----@field protected endingCall Bool
----@field private forceLookAt entEntityID
----@field private forceFollow Bool
+---@field protected ["isCalling"] Bool
+---@field protected ["sceneStarted"] Bool
+---@field protected ["endingCall"] Bool
+---@field private ["forceLookAt"] entEntityID
+---@field private ["forceFollow"] Bool
 IntercomControllerPS = {}
 
 ---@param fields? table
@@ -62,7 +62,7 @@ function IntercomControllerPS:GetBlackboardDef() return end
 ---@return gameDeviceComponentPS[]
 function IntercomControllerPS:GetImmediateSlaves() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function IntercomControllerPS:GetQuestActionByName(actionName) return end
 

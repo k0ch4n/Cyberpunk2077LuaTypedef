@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameTargetShootComponent: entIComponent
----@field public weaponRecord gamedataWeaponItem_Record
----@field public weaponTDBID TweakDBID
----@field public characterRecord gamedataCharacter_Record
----@field public characterTDBID TweakDBID
+---@field public ["weaponRecord"] gamedataWeaponItem_Record
+---@field public ["weaponTDBID"] TweakDBID
+---@field public ["characterRecord"] gamedataCharacter_Record
+---@field public ["characterTDBID"] TweakDBID
 gameTargetShootComponent = {}
 
 ---@param fields? table
@@ -69,7 +69,7 @@ function gameTargetShootComponent:GetDifficultyLevelCoefficient() return end
 function gameTargetShootComponent:GetDistanceCoefficient(weapon, targetPosition) return end
 
 ---@private
----@param curveName CName
+---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
 function gameTargetShootComponent:GetDistanceCoefficientFromCurve(curveName, lookupValue) return end
@@ -93,7 +93,7 @@ function gameTargetShootComponent:GetHMGGroupMultiplier() return end
 function gameTargetShootComponent:GetPlayersNumCoefficient(weaponOwner) return end
 
 ---@private
----@param curveName CName
+---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
 function gameTargetShootComponent:GetValueFromCurve(curveName, lookupValue) return end
@@ -107,7 +107,7 @@ function gameTargetShootComponent:GetValueFromCurve(curveName, lookupValue) retu
 function gameTargetShootComponent:GetVisibilityCoefficient(weaponOwner, weapon, target, visibilityThresholdCoefficient) return end
 
 ---@private
----@param curveName CName
+---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
 function gameTargetShootComponent:GetVisibilityCoefficientFromCurve(curveName, lookupValue) return end

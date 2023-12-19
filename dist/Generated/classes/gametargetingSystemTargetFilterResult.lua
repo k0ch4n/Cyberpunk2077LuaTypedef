@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemTargetFilterResult: IScriptable
----@field public hitEntId entEntityID
----@field public hitComponent entIComponent
+---@field public ["hitEntId"] entEntityID
+---@field public ["hitComponent"] entIComponent
 gametargetingSystemTargetFilterResult = {}
 
 ---@param fields? table

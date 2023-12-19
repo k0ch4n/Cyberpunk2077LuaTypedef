@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GrenadeLvl4HackEffector: gameEffector
----@field private grenadeChangeEntity gameObject
----@field private grenadeChangedListener gameAttachmentSlotsScriptListener
+---@field private ["grenadeChangeEntity"] gameObject
+---@field private ["grenadeChangedListener"] gameAttachmentSlotsScriptListener
 GrenadeLvl4HackEffector = {}
 
 ---@param fields? table

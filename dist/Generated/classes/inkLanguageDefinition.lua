@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkLanguageDefinition
----@field public languageCode CName
----@field public isoScriptCode CName
----@field public textDirection inkETextDirection
----@field public fonts inkLanguageFont[]
+---@field public ["languageCode"] CName
+---@field public ["isoScriptCode"] CName
+---@field public ["textDirection"] inkETextDirection
+---@field public ["fonts"] inkLanguageFont[]
 inkLanguageDefinition = {}
 
 ---@param fields? table

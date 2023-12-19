@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Melee_Knife: gameuiCrosshairBaseGameController
----@field private targetColorChange inkWidgetReference
----@field private leftPart inkWidgetReference
----@field private rightPart inkWidgetReference
----@field private topPart inkWidgetReference
----@field private botPart inkWidgetReference
----@field private chargeBar inkCanvasWidget
----@field private chargeBarFG inkRectangleWidget
----@field private throwingKnifeResourcePoolListener ThrowingKnifeResourcePoolListener
----@field private weaponID entEntityID
----@field private weaponBBID redCallbackObject
----@field private meleeWeaponState gamePSMMeleeWeapon
----@field protected animProxy inkanimProxy
----@field protected animOptions inkanimPlaybackOptions
----@field protected isCrosshairAnimationOpen Bool
----@field private preloaderThinL inkImageWidget
----@field private preloaderThinR inkImageWidget
----@field private preloaderThickL inkImageWidget
----@field private preloaderThickR inkImageWidget
----@field private preloader inkCanvasWidget
+---@field private ["targetColorChange"] inkWidgetReference
+---@field private ["leftPart"] inkWidgetReference
+---@field private ["rightPart"] inkWidgetReference
+---@field private ["topPart"] inkWidgetReference
+---@field private ["botPart"] inkWidgetReference
+---@field private ["chargeBar"] inkCanvasWidget
+---@field private ["chargeBarFG"] inkRectangleWidget
+---@field private ["throwingKnifeResourcePoolListener"] ThrowingKnifeResourcePoolListener
+---@field private ["weaponID"] entEntityID
+---@field private ["weaponBBID"] redCallbackObject
+---@field private ["meleeWeaponState"] gamePSMMeleeWeapon
+---@field protected ["animProxy"] inkanimProxy
+---@field protected ["animOptions"] inkanimPlaybackOptions
+---@field protected ["isCrosshairAnimationOpen"] Bool
+---@field private ["preloaderThinL"] inkImageWidget
+---@field private ["preloaderThinR"] inkImageWidget
+---@field private ["preloaderThickL"] inkImageWidget
+---@field private ["preloaderThickR"] inkImageWidget
+---@field private ["preloader"] inkCanvasWidget
 Crosshair_Melee_Knife = {}
 
 ---@param fields? table
@@ -64,7 +64,7 @@ function Crosshair_Melee_Knife:OnPreOutro() return end
 function Crosshair_Melee_Knife:OnUninitialize() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function Crosshair_Melee_Knife:ApplyCrosshairGUIState(state, aimedAtEntity) return end

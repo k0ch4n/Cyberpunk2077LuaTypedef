@@ -10,7 +10,7 @@ function CustomSystemUIPS.new(fields) return end
 
 ---@param slaves gameDeviceComponentPS[]
 ---@param owner MasterControllerPS
----@param systemName CName
----@param actions CName[]
+---@param systemName CName|string
+---@param actions CName[]|string[]
 ---@return nil
 function CustomSystemUIPS:Initialize(slaves, owner, systemName, actions) return end

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SecurityAlarm: InteractiveMasterDevice
----@field protected workingAlarm entMeshComponent
----@field protected destroyedAlarm entMeshComponent
----@field protected isGlitching Bool
+---@field protected ["workingAlarm"] entMeshComponent
+---@field protected ["destroyedAlarm"] entMeshComponent
+---@field protected ["isGlitching"] Bool
 SecurityAlarm = {}
 
 ---@param fields? table

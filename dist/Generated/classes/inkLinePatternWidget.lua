@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class inkLinePatternWidget: inkImageWidget
----@field public vertexList inkLineVertex[]
----@field public spacing Float
----@field public looseSpacing Float
----@field public startOffset Float
----@field public endOffset Float
----@field public fadeInLength Float
----@field public rotateWithSegment Bool
----@field public patternDirection inkEChildOrder
+---@field public ["vertexList"] inkLineVertex[]
+---@field public ["spacing"] Float
+---@field public ["looseSpacing"] Float
+---@field public ["startOffset"] Float
+---@field public ["endOffset"] Float
+---@field public ["fadeInLength"] Float
+---@field public ["rotateWithSegment"] Bool
+---@field public ["patternDirection"] inkEChildOrder
 inkLinePatternWidget = {}
 
 ---@param fields? table

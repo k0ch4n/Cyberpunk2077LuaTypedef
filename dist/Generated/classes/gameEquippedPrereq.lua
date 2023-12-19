@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEquippedPrereq: gameIPrereq
----@field public itemID gameItemID
----@field public slot TweakDBID
+---@field public ["itemID"] gameItemID
+---@field public ["slot"] TweakDBID
 gameEquippedPrereq = {}
 
 ---@param fields? table

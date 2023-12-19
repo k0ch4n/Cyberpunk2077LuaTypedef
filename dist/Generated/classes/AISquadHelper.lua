@@ -68,7 +68,7 @@ function AISquadHelper.GetThreatLocationFromSquad(puppet, threat, threatLocation
 function AISquadHelper.HasSquadMemberComponent(obj) return end
 
 ---@param owner ScriptedPuppet
----@param signalName CName
+---@param signalName CName|string
 ---@return Bool
 function AISquadHelper.IsSignalActive(owner, signalName) return end
 
@@ -111,7 +111,7 @@ function AISquadHelper.RemoveThreatFromSquad(puppet, threat) return end
 function AISquadHelper.RemoveThreatOnSquadmate(squadmate, threat) return end
 
 ---@param member entEntity
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function AISquadHelper.SendStimFromSquadTargetToMember(member, actionName) return end
 

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayController: inkButtonController
----@field protected levelText inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected fluffText inkTextWidgetReference
----@field protected requiredTrainerIcon inkWidgetReference
----@field protected requiredPointsText inkTextWidgetReference
----@field protected displayData BasePerkDisplayData
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected playerDevelopmentData PlayerDevelopmentData
----@field protected recentlyPurchased Bool
----@field protected holdStarted Bool
----@field protected isTrait Bool
----@field protected wasLocked Bool
----@field protected index Int32
----@field protected cool_in_proxy inkanimProxy
----@field protected cool_out_proxy inkanimProxy
+---@field protected ["levelText"] inkTextWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["fluffText"] inkTextWidgetReference
+---@field protected ["requiredTrainerIcon"] inkWidgetReference
+---@field protected ["requiredPointsText"] inkTextWidgetReference
+---@field protected ["displayData"] BasePerkDisplayData
+---@field protected ["dataManager"] PlayerDevelopmentDataManager
+---@field protected ["playerDevelopmentData"] PlayerDevelopmentData
+---@field protected ["recentlyPurchased"] Bool
+---@field protected ["holdStarted"] Bool
+---@field protected ["isTrait"] Bool
+---@field protected ["wasLocked"] Bool
+---@field protected ["index"] Int32
+---@field protected ["cool_in_proxy"] inkanimProxy
+---@field protected ["cool_out_proxy"] inkanimProxy
 PerkDisplayController = {}
 
 ---@param fields? table

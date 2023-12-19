@@ -3,8 +3,8 @@
 
 ---@enum AttitudeChange
 AttitudeChange = {
-    ["DONT_CHANGE"] = 0,
-    ["FRIENDLY"] = 1,
-    ["NEUTRAL"] = 2,
-    ["HOSTILE"] = 3
+    ["DONT_CHANGE"] = 0, ---@type Enum
+    ["FRIENDLY"] = 1, ---@type Enum
+    ["NEUTRAL"] = 2, ---@type Enum
+    ["HOSTILE"] = 3, ---@type Enum
 }

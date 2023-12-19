@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RevealRequestsStorage: IScriptable
----@field private currentRequestersAmount Int32
----@field private requestersList entEntityID[]
+---@field private ["currentRequestersAmount"] Int32
+---@field private ["requestersList"] entEntityID[]
 RevealRequestsStorage = {}
 
 ---@param fields? table

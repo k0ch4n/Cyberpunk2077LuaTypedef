@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldWaterPatchNodeType
----@field public typeName CName
+---@field public ["typeName"] CName
 worldWaterPatchNodeType = {}
 
 ---@param fields? table

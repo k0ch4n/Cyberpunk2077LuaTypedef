@@ -3,7 +3,7 @@
 
 ---@enum inkSelectorChangeDirection
 inkSelectorChangeDirection = {
-    ["None"] = 0,
-    ["Prior"] = 1,
-    ["Next"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Prior"] = 1, ---@type Enum
+    ["Next"] = 2, ---@type Enum
 }

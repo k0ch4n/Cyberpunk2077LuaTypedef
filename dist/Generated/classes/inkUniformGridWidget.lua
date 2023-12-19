@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkUniformGridWidget: inkCompoundWidget
----@field public wrappingWidgetCount Uint32
----@field public orientation inkEOrientation
+---@field public ["wrappingWidgetCount"] Uint32
+---@field public ["orientation"] inkEOrientation
 inkUniformGridWidget = {}
 
 ---@param fields? table

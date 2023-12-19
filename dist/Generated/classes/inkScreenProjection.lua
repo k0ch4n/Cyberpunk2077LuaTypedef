@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkScreenProjection: IScriptable
----@field public distanceToCamera Float
----@field public previousPosition Vector2
----@field public currentPosition Vector2
----@field public uvPosition Vector2
+---@field public ["distanceToCamera"] Float
+---@field public ["previousPosition"] Vector2
+---@field public ["currentPosition"] Vector2
+---@field public ["uvPosition"] Vector2
 inkScreenProjection = {}
 
 ---@param fields? table
@@ -37,7 +37,7 @@ function inkScreenProjection:GetUserData() return end
 function inkScreenProjection:IsInScreen() return end
 
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkScreenProjection:RegisterListener(object, functionName) return end
 
@@ -59,15 +59,15 @@ function inkScreenProjection:SetEntity(entity) return end
 ---@return nil
 function inkScreenProjection:SetFixedWorldOffset(offset) return end
 
----@param slotComponentName CName
+---@param slotComponentName CName|string
 ---@return nil
 function inkScreenProjection:SetSlotComponentName(slotComponentName) return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return nil
 function inkScreenProjection:SetSlotFallbackName(slotName) return end
 
----@param slotName CName
+---@param slotName CName|string
 ---@return nil
 function inkScreenProjection:SetSlotName(slotName) return end
 
@@ -80,7 +80,7 @@ function inkScreenProjection:SetStaticWorldPosition(position) return end
 function inkScreenProjection:SetUserData(userData) return end
 
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkScreenProjection:UnregisterListener(object, functionName) return end
 

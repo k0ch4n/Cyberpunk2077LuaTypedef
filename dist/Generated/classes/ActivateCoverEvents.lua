@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivateCoverEvents: CoverActionEventsTransition
----@field public usingCover Bool
+---@field public ["usingCover"] Bool
 ActivateCoverEvents = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TagObjectEvent: redEvent
----@field public isTagged Bool
+---@field public ["isTagged"] Bool
 TagObjectEvent = {}
 
 ---@param fields? table

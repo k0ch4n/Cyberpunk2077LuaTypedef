@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IsVehicleDoorLocked: gameIScriptablePrereq
----@field protected slotName CName
----@field protected isCheckInverted Bool
+---@field protected ["slotName"] CName
+---@field protected ["isCheckInverted"] Bool
 IsVehicleDoorLocked = {}
 
 ---@param fields? table

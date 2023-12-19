@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ApplyShaderEffector: gameEffector
----@field private overrideMaterialName CName
----@field private overrideMaterialTag CName
----@field private applyToOwner Bool
----@field private applyToWeapon Bool
----@field private owner gameObject
----@field private ownerWeapons gameItemObject[]
----@field private isEnabled Bool
+---@field private ["overrideMaterialName"] CName
+---@field private ["overrideMaterialTag"] CName
+---@field private ["applyToOwner"] Bool
+---@field private ["applyToWeapon"] Bool
+---@field private ["owner"] gameObject
+---@field private ["ownerWeapons"] gameItemObject[]
+---@field private ["isEnabled"] Bool
 ApplyShaderEffector = {}
 
 ---@param fields? table

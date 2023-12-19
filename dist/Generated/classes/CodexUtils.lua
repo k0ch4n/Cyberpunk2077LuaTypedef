@@ -49,7 +49,7 @@ function CodexUtils.GetCodexReplacementRecord(journal, currentEntry) return end
 function CodexUtils.GetGroupData(currentGroup) return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return String
 function CodexUtils.GetLocalizedTag(tag) return end
 

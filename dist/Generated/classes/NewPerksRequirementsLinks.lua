@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewPerksRequirementsLinks: IScriptable
----@field public perk gamedataNewPerkType
----@field public linkedPerks gamedataNewPerkType[]
+---@field public ["perk"] gamedataNewPerkType
+---@field public ["linkedPerks"] gamedataNewPerkType[]
 NewPerksRequirementsLinks = {}
 
 ---@param fields? table

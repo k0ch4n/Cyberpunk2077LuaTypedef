@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTeleportPuppetParams
----@field public destinationRef questUniversalRef
----@field public destinationOffset Vector3
+---@field public ["destinationRef"] questUniversalRef
+---@field public ["destinationOffset"] Vector3
 questTeleportPuppetParams = {}
 
 ---@param fields? table

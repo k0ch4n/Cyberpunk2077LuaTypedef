@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RadialPointerController: inkWidgetLogicController
----@field private pointer inkImageWidgetReference
----@field private feedback inkImageWidgetReference
+---@field private ["pointer"] inkImageWidgetReference
+---@field private ["feedback"] inkImageWidgetReference
 RadialPointerController = {}
 
 ---@param fields? table

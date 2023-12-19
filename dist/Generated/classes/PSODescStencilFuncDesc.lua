@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PSODescStencilFuncDesc
----@field public stencilPassOp PSODescDepthStencilModeStencilOpMode
----@field public stencilFunc PSODescDepthStencilModeComparisonMode
+---@field public ["stencilPassOp"] PSODescDepthStencilModeStencilOpMode
+---@field public ["stencilFunc"] PSODescDepthStencilModeComparisonMode
 PSODescStencilFuncDesc = {}
 
 ---@param fields? table

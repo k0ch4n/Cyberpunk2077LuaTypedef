@@ -3,7 +3,7 @@
 
 ---@enum gameinfluenceTestLineResult
 gameinfluenceTestLineResult = {
-    ["Fail"] = 0,
-    ["Success"] = 1,
-    ["Unknown"] = 2
+    ["Fail"] = 0, ---@type Enum
+    ["Success"] = 1, ---@type Enum
+    ["Unknown"] = 2, ---@type Enum
 }

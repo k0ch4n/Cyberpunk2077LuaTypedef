@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkListController: inkWidgetLogicController
----@field public itemLibraryID CName
----@field public cycledNavigation Bool
----@field public beginToggled Bool
----@field public ItemSelected inkListControllerCallback
----@field public ItemActivated inkListControllerCallback
+---@field public ["itemLibraryID"] CName
+---@field public ["cycledNavigation"] Bool
+---@field public ["beginToggled"] Bool
+---@field public ["ItemSelected"] inkListControllerCallback
+---@field public ["ItemActivated"] inkListControllerCallback
 inkListController = {}
 
 ---@param fields? table
@@ -53,7 +53,7 @@ function inkListController:PushDataList(value, refreshImmediately) return end
 ---@return nil
 function inkListController:Refresh() return end
 
----@param id CName
+---@param id CName|string
 ---@return nil
 function inkListController:SetLibraryID(id) return end
 

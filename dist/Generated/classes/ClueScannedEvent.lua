@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ClueScannedEvent: redEvent
----@field public clueIndex Int32
----@field public requesterID entEntityID
+---@field public ["clueIndex"] Int32
+---@field public ["requesterID"] entEntityID
 ClueScannedEvent = {}
 
 ---@param fields? table

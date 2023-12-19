@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InventoryItemDisplayCategoryArea: inkWidgetLogicController
----@field protected areasToHide inkWidgetReference[]
----@field protected equipmentAreas inkCompoundWidgetReference[]
----@field protected newItemsWrapper inkWidgetReference
----@field protected newItemsCounter inkTextWidgetReference
----@field protected categoryAreas InventoryItemDisplayEquipmentArea[]
+---@field protected ["areasToHide"] inkWidgetReference[]
+---@field protected ["equipmentAreas"] inkCompoundWidgetReference[]
+---@field protected ["newItemsWrapper"] inkWidgetReference
+---@field protected ["newItemsCounter"] inkTextWidgetReference
+---@field protected ["categoryAreas"] InventoryItemDisplayEquipmentArea[]
 InventoryItemDisplayCategoryArea = {}
 
 ---@param fields? table

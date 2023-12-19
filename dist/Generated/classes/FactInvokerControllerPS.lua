@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FactInvokerControllerPS: MasterControllerPS
----@field private factDataEntries FactInvokerDataEntry[]
----@field private passwords CName[]
----@field private arePasswordsInitialized Bool
+---@field private ["factDataEntries"] FactInvokerDataEntry[]
+---@field private ["passwords"] CName[]
+---@field private ["arePasswordsInitialized"] Bool
 FactInvokerControllerPS = {}
 
 ---@param fields? table
@@ -39,7 +39,7 @@ function FactInvokerControllerPS:IsDeviceSecured() return end
 function FactInvokerControllerPS:OnAuthorizeUser(evt) return end
 
 ---@private
----@param password CName
+---@param password CName|string
 ---@return Bool, CName fact
 function FactInvokerControllerPS:TryGetFact(password) return end
 

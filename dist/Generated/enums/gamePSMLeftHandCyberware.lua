@@ -3,17 +3,17 @@
 
 ---@enum gamePSMLeftHandCyberware
 gamePSMLeftHandCyberware = {
-    ["Default"] = 0,
-    ["Safe"] = 1,
-    ["EquipRequest"] = 2,
-    ["Idle"] = 3,
-    ["Equipped"] = 4,
-    ["Charge"] = 5,
-    ["Loop"] = 6,
-    ["Catch"] = 7,
-    ["QuickAction"] = 8,
-    ["ChargeAction"] = 9,
-    ["CatchAction"] = 10,
-    ["StartUnequip"] = 11,
-    ["Unequip"] = 12
+    ["Default"] = 0, ---@type Enum
+    ["Safe"] = 1, ---@type Enum
+    ["EquipRequest"] = 2, ---@type Enum
+    ["Idle"] = 3, ---@type Enum
+    ["Equipped"] = 4, ---@type Enum
+    ["Charge"] = 5, ---@type Enum
+    ["Loop"] = 6, ---@type Enum
+    ["Catch"] = 7, ---@type Enum
+    ["QuickAction"] = 8, ---@type Enum
+    ["ChargeAction"] = 9, ---@type Enum
+    ["CatchAction"] = 10, ---@type Enum
+    ["StartUnequip"] = 11, ---@type Enum
+    ["Unequip"] = 12, ---@type Enum
 }

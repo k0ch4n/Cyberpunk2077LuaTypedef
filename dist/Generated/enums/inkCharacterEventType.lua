@@ -3,9 +3,9 @@
 
 ---@enum inkCharacterEventType
 inkCharacterEventType = {
-    ["CharInput"] = 0,
-    ["MoveCaretForward"] = 1,
-    ["MoveCaretBackward"] = 2,
-    ["Delete"] = 3,
-    ["Backspace"] = 4
+    ["CharInput"] = 0, ---@type Enum
+    ["MoveCaretForward"] = 1, ---@type Enum
+    ["MoveCaretBackward"] = 2, ---@type Enum
+    ["Delete"] = 3, ---@type Enum
+    ["Backspace"] = 4, ---@type Enum
 }

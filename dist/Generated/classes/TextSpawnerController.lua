@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TextSpawnerController: inkWidgetLogicController
----@field private amountOfRows Int32
----@field private lineTextWidgetID CName
----@field private texts inkWidget[]
+---@field private ["amountOfRows"] Int32
+---@field private ["lineTextWidgetID"] CName
+---@field private ["texts"] inkWidget[]
 TextSpawnerController = {}
 
 ---@param fields? table

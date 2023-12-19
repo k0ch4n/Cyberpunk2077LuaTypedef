@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkComboBoxController: inkWidgetLogicController
----@field public comboBoxObjectRef inkWidgetReference
----@field public ComboBoxVisibleChanged inkComboBoxVisibleChangedCallback
+---@field public ["comboBoxObjectRef"] inkWidgetReference
+---@field public ["ComboBoxVisibleChanged"] inkComboBoxVisibleChangedCallback
 inkComboBoxController = {}
 
 ---@param fields? table

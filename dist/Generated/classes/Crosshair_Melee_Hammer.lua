@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Melee_Hammer: gameuiCrosshairBaseGameController
----@field private targetColorChange inkWidgetReference
+---@field private ["targetColorChange"] inkWidgetReference
 Crosshair_Melee_Hammer = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ Crosshair_Melee_Hammer = {}
 function Crosshair_Melee_Hammer.new(fields) return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function Crosshair_Melee_Hammer:ApplyCrosshairGUIState(state, aimedAtEntity) return end

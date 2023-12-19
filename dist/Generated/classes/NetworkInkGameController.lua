@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class NetworkInkGameController: gameuiWidgetGameController
----@field private turn String
----@field private dimension Int32
----@field private steps Int32
----@field private symbols String[]
----@field private symbolProbabilities Int32[]
----@field private endGame Bool
----@field private initRound Bool
----@field private oldPickX Int32
----@field private oldPickY Int32
----@field private pickX Int32
----@field private pickY Int32
----@field private regenGrid Bool
----@field public trapsDelayed String[]
----@field private networkData NetworkMinigameData
----@field public visualController NetworkMinigameVisualController
----@field private miniGameRecord gamedataHackingMiniGame_Record
----@field private officerBreach Bool
----@field private bufferElements ElementData[]
----@field private enemyBufferElements ElementData[]
----@field private completedPrograms String[]
----@field private completedProgramsPD ProgramData[]
----@field private enemyCompletedPrograms String[]
----@field private enemyCompletedProgramsPD ProgramData[]
----@field private playerProgramsCompletion ProgramProgressData[]
----@field private enemyProgramsCompletion ProgramProgressData[]
----@field private basicAccessCompletion ProgramProgressData
----@field private appliedViruses ExtraEffect[]
----@field private onBreachingNetworkListener redCallbackObject
----@field private onDevicesCountChangedListener redCallbackObject
+---@field private ["turn"] String
+---@field private ["dimension"] Int32
+---@field private ["steps"] Int32
+---@field private ["symbols"] String[]
+---@field private ["symbolProbabilities"] Int32[]
+---@field private ["endGame"] Bool
+---@field private ["initRound"] Bool
+---@field private ["oldPickX"] Int32
+---@field private ["oldPickY"] Int32
+---@field private ["pickX"] Int32
+---@field private ["pickY"] Int32
+---@field private ["regenGrid"] Bool
+---@field public ["trapsDelayed"] String[]
+---@field private ["networkData"] NetworkMinigameData
+---@field public ["visualController"] NetworkMinigameVisualController
+---@field private ["miniGameRecord"] gamedataHackingMiniGame_Record
+---@field private ["officerBreach"] Bool
+---@field private ["bufferElements"] ElementData[]
+---@field private ["enemyBufferElements"] ElementData[]
+---@field private ["completedPrograms"] String[]
+---@field private ["completedProgramsPD"] ProgramData[]
+---@field private ["enemyCompletedPrograms"] String[]
+---@field private ["enemyCompletedProgramsPD"] ProgramData[]
+---@field private ["playerProgramsCompletion"] ProgramProgressData[]
+---@field private ["enemyProgramsCompletion"] ProgramProgressData[]
+---@field private ["basicAccessCompletion"] ProgramProgressData
+---@field private ["appliedViruses"] ExtraEffect[]
+---@field private ["onBreachingNetworkListener"] redCallbackObject
+---@field private ["onDevicesCountChangedListener"] redCallbackObject
 NetworkInkGameController = {}
 
 ---@param fields? table

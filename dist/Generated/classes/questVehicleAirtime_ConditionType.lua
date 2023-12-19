@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVehicleAirtime_ConditionType: questIVehicleConditionType
----@field public seconds Float
+---@field public ["seconds"] Float
 questVehicleAirtime_ConditionType = {}
 
 ---@param fields? table

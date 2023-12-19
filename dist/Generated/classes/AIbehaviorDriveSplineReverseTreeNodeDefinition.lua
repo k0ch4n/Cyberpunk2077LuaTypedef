@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDriveSplineReverseTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
----@field public spline AIArgumentMapping
+---@field public ["spline"] AIArgumentMapping
 AIbehaviorDriveSplineReverseTreeNodeDefinition = {}
 
 ---@param fields? table

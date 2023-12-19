@@ -3,13 +3,13 @@
 
 ---@enum SAnimationBufferOrientationCompressionMethod
 SAnimationBufferOrientationCompressionMethod = {
-    ["ABOCM_PackIn64bitsW"] = 0,
-    ["ABOCM_PackIn48bitsW"] = 1,
-    ["ABOCM_PackIn40bitsW"] = 2,
-    ["ABOCM_AsFloat_XYZW"] = 3,
-    ["ABOCM_AsFloat_XYZSignedW"] = 4,
-    ["ABOCM_AsFloat_XYZSignedWInLastBit"] = 5,
-    ["ABOCM_PackIn48bits"] = 6,
-    ["ABOCM_PackIn40bits"] = 7,
-    ["ABOCM_PackIn32bits"] = 8
+    ["ABOCM_PackIn64bitsW"] = 0, ---@type Enum
+    ["ABOCM_PackIn48bitsW"] = 1, ---@type Enum
+    ["ABOCM_PackIn40bitsW"] = 2, ---@type Enum
+    ["ABOCM_AsFloat_XYZW"] = 3, ---@type Enum
+    ["ABOCM_AsFloat_XYZSignedW"] = 4, ---@type Enum
+    ["ABOCM_AsFloat_XYZSignedWInLastBit"] = 5, ---@type Enum
+    ["ABOCM_PackIn48bits"] = 6, ---@type Enum
+    ["ABOCM_PackIn40bits"] = 7, ---@type Enum
+    ["ABOCM_PackIn32bits"] = 8, ---@type Enum
 }

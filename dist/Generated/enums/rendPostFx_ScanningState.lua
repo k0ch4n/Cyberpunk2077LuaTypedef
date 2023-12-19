@@ -3,8 +3,8 @@
 
 ---@enum rendPostFx_ScanningState
 rendPostFx_ScanningState = {
-    ["Off"] = 0,
-    ["Scanning"] = 2,
-    ["Cancelled"] = 3,
-    ["Complete"] = 4
+    ["Off"] = 0, ---@type Enum
+    ["Scanning"] = 2, ---@type Enum
+    ["Cancelled"] = 3, ---@type Enum
+    ["Complete"] = 4, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum EBreachOrigin
 EBreachOrigin = {
-    ["LOCAL"] = 0,
-    ["EXTERNAL"] = 1,
-    ["GLOBAL"] = 2
+    ["LOCAL"] = 0, ---@type Enum
+    ["EXTERNAL"] = 1, ---@type Enum
+    ["GLOBAL"] = 2, ---@type Enum
 }

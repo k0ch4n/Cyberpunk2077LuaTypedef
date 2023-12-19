@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VehicleSummonDataDef: gamebbScriptDefinition
----@field public GarageState gamebbScriptID_Uint32
----@field public UnlockedVehiclesCount gamebbScriptID_Uint32
----@field public SummonState gamebbScriptID_Uint32
----@field public SummonedVehicleEntityID gamebbScriptID_EntityID
+---@field public ["GarageState"] gamebbScriptID_Uint32
+---@field public ["UnlockedVehiclesCount"] gamebbScriptID_Uint32
+---@field public ["SummonState"] gamebbScriptID_Uint32
+---@field public ["SummonedVehicleEntityID"] gamebbScriptID_EntityID
 VehicleSummonDataDef = {}
 
 ---@param fields? table

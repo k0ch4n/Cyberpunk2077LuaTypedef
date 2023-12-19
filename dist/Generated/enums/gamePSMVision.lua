@@ -3,7 +3,7 @@
 
 ---@enum gamePSMVision
 gamePSMVision = {
-    ["Any"] = -1,
-    ["Default"] = 0,
-    ["Focus"] = 1
+    ["Any"] = -1, ---@type Enum
+    ["Default"] = 0, ---@type Enum
+    ["Focus"] = 1, ---@type Enum
 }

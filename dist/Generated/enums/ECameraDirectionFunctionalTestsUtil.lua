@@ -3,8 +3,8 @@
 
 ---@enum ECameraDirectionFunctionalTestsUtil
 ECameraDirectionFunctionalTestsUtil = {
-    ["Up"] = 0,
-    ["Down"] = 1,
-    ["Left"] = 2,
-    ["Right"] = 3
+    ["Up"] = 0, ---@type Enum
+    ["Down"] = 1, ---@type Enum
+    ["Left"] = 2, ---@type Enum
+    ["Right"] = 3, ---@type Enum
 }

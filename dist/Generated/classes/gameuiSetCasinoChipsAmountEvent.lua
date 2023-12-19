@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiSetCasinoChipsAmountEvent: redEvent
----@field public value Uint32
+---@field public ["value"] Uint32
 gameuiSetCasinoChipsAmountEvent = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ScriptedWeakspotObject: gameWeakspotObject
----@field protected weakspotOnDestroyProperties WeakspotOnDestroyProperties
----@field protected mesh entMeshComponent
----@field protected interaction gameinteractionsComponent
----@field protected targeting gameTargetingComponent
----@field protected collider entIPlacedComponent
----@field protected instigator gameObject
----@field protected weakspotRecordData WeakspotRecordData
----@field protected alive Bool
----@field protected hasBeenScanned Bool
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private healthListener WeakspotHealthChangeListener
----@field private parentMaxhealth Float
----@field private blockHighlight Bool
----@field private blockDamage Bool
+---@field protected ["weakspotOnDestroyProperties"] WeakspotOnDestroyProperties
+---@field protected ["mesh"] entMeshComponent
+---@field protected ["interaction"] gameinteractionsComponent
+---@field protected ["targeting"] gameTargetingComponent
+---@field protected ["collider"] entIPlacedComponent
+---@field protected ["instigator"] gameObject
+---@field protected ["weakspotRecordData"] WeakspotRecordData
+---@field protected ["alive"] Bool
+---@field protected ["hasBeenScanned"] Bool
+---@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["healthListener"] WeakspotHealthChangeListener
+---@field private ["parentMaxhealth"] Float
+---@field private ["blockHighlight"] Bool
+---@field private ["blockDamage"] Bool
 ScriptedWeakspotObject = {}
 
 ---@param fields? table
@@ -83,7 +83,7 @@ function ScriptedWeakspotObject:OnWeakspotPinged(evt) return end
 function ScriptedWeakspotObject:OnWeakspotRequestAttributeChange(evt) return end
 
 ---@protected
----@param appName CName
+---@param appName CName|string
 ---@return nil
 function ScriptedWeakspotObject:ChangeAppearance(appName) return end
 
@@ -141,13 +141,13 @@ function ScriptedWeakspotObject:ReadTweakData() return end
 function ScriptedWeakspotObject:ResolveWeakspotOnLoad() return end
 
 ---@protected
----@param animFeatureName CName
+---@param animFeatureName CName|string
 ---@param value Int32
 ---@return nil
 function ScriptedWeakspotObject:SendAIActionAnimFeature(animFeatureName, value) return end
 
 ---@protected
----@param parameterName CName
+---@param parameterName CName|string
 ---@return nil
 function ScriptedWeakspotObject:SendHideMeshParameterValue(parameterName) return end
 

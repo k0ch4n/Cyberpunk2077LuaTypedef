@@ -3,8 +3,8 @@
 
 ---@enum AICombatSpaceSize
 AICombatSpaceSize = {
-    ["Undefined"] = 0,
-    ["Narrow"] = 1,
-    ["Medium"] = 2,
-    ["Huge"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["Narrow"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["Huge"] = 3, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NPCHitReactionTypePrereq: gameIScriptablePrereq
----@field public hitReactionType animHitReactionType
----@field public timeout Float
----@field public invert Bool
+---@field public ["hitReactionType"] animHitReactionType
+---@field public ["timeout"] Float
+---@field public ["invert"] Bool
 NPCHitReactionTypePrereq = {}
 
 ---@param fields? table

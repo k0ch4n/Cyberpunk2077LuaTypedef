@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class grenadeSpawner: gameweaponObject
----@field public isCombatGadgetActive Bool
+---@field public ["isCombatGadgetActive"] Bool
 grenadeSpawner = {}
 
 ---@param fields? table

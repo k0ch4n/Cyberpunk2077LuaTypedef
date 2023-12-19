@@ -3,6 +3,6 @@
 
 ---@enum gameVisionModePatternType
 gameVisionModePatternType = {
-    ["Default"] = 0,
-    ["Netrunner"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["Netrunner"] = 1, ---@type Enum
 }

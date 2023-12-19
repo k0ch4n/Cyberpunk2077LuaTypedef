@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class GameplayFactCondition: GameplayConditionBase
----@field public factName CName
----@field public value Int32
----@field public comparisonType ECompareOp
----@field public description String
+---@field public ["factName"] CName
+---@field public ["value"] Int32
+---@field public ["comparisonType"] ECompareOp
+---@field public ["description"] String
 GameplayFactCondition = {}
 
 ---@param fields? table

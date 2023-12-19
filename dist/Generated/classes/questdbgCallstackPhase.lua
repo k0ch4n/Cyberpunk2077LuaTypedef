@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questdbgCallstackPhase: questdbgCallstackBlock
----@field public phases Uint64[]
----@field public blocks Uint64[]
+---@field public ["phases"] Uint64[]
+---@field public ["blocks"] Uint64[]
 questdbgCallstackPhase = {}
 
 ---@param fields? table

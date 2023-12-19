@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipEvolutionModule: ItemTooltipModuleController
----@field private weaponEvolutionIcon inkImageWidgetReference
----@field private weaponEvolutionName inkTextWidgetReference
----@field private weaponEvolutionDescription inkTextWidgetReference
+---@field private ["weaponEvolutionIcon"] inkImageWidgetReference
+---@field private ["weaponEvolutionName"] inkTextWidgetReference
+---@field private ["weaponEvolutionDescription"] inkTextWidgetReference
 ItemTooltipEvolutionModule = {}
 
 ---@param fields? table

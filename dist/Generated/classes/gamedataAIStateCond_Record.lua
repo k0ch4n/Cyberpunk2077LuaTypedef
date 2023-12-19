@@ -21,7 +21,7 @@ function gamedataAIStateCond_Record:GetInStatesItem(index) return end
 ---@return CName[]
 function gamedataAIStateCond_Record:InStates() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIStateCond_Record:InStatesContains(item) return end
 

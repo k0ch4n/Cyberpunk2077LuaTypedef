@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisDialogChoiceHubs
----@field public choiceHubs gameinteractionsvisListChoiceHubData[]
+---@field public ["choiceHubs"] gameinteractionsvisListChoiceHubData[]
 gameinteractionsvisDialogChoiceHubs = {}
 
 ---@param fields? table

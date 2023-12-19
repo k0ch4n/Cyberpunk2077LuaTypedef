@@ -3,6 +3,6 @@
 
 ---@enum animESpaceMW
 animESpaceMW = {
-    ["Model"] = 0,
-    ["World"] = 1
+    ["Model"] = 0, ---@type Enum
+    ["World"] = 1, ---@type Enum
 }

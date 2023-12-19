@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MaterialParameterInstance
----@field public name CName
----@field public data Variant
+---@field public ["name"] CName
+---@field public ["data"] Variant
 MaterialParameterInstance = {}
 
 ---@param fields? table

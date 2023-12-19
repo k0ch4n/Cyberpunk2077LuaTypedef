@@ -3,6 +3,6 @@
 
 ---@enum audioObstructionTestType
 audioObstructionTestType = {
-    ["SingleShot"] = 0,
-    ["Continuous"] = 1
+    ["SingleShot"] = 0, ---@type Enum
+    ["Continuous"] = 1, ---@type Enum
 }

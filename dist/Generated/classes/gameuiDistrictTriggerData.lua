@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiDistrictTriggerData
----@field public district gamedataDistrict
----@field public triggerName CName
+---@field public ["district"] gamedataDistrict
+---@field public ["triggerName"] CName
 gameuiDistrictTriggerData = {}
 
 ---@param fields? table

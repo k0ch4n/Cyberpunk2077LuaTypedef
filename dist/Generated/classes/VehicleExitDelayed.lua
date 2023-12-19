@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleExitDelayed: redEvent
----@field public isEmergencyExit Bool
+---@field public ["isEmergencyExit"] Bool
 VehicleExitDelayed = {}
 
 ---@param fields? table

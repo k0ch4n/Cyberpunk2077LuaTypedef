@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ModifyStatPoolCustomLimitEffector: gameEffector
----@field public statPoolType gamedataStatPoolType
----@field public value Float
----@field public usePercent Bool
----@field public previousLimit Float
----@field public owner gameObject
+---@field public ["statPoolType"] gamedataStatPoolType
+---@field public ["value"] Float
+---@field public ["usePercent"] Bool
+---@field public ["previousLimit"] Float
+---@field public ["owner"] gameObject
 ModifyStatPoolCustomLimitEffector = {}
 
 ---@param fields? table

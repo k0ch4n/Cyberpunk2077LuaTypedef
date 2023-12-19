@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeActionTeleportToPositionDefinition: AICTreeNodeActionDefinition
----@field public positionName CName
----@field public doNavTest Bool
+---@field public ["positionName"] CName
+---@field public ["doNavTest"] Bool
 AICTreeNodeActionTeleportToPositionDefinition = {}
 
 ---@param fields? table

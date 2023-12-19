@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VendingTerminalControllerPS: ScriptableDeviceComponentPS
----@field private vendingTerminalSetup VendingTerminalSetup
----@field private isReady Bool
----@field private VendorDataManager VendorDataManager
+---@field private ["vendingTerminalSetup"] VendingTerminalSetup
+---@field private ["isReady"] Bool
+---@field private ["VendorDataManager"] VendorDataManager
 VendingTerminalControllerPS = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entMorphTargetWeightEntry
----@field public targetName CName
----@field public regionName CName
----@field public weight Float
+---@field public ["targetName"] CName
+---@field public ["regionName"] CName
+---@field public ["weight"] Float
 entMorphTargetWeightEntry = {}
 
 ---@param fields? table

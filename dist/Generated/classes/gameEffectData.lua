@@ -90,7 +90,7 @@ function gameEffectData.SetInt(ctx, id, value) return end
 
 ---@param ctx gameEffectData
 ---@param id gamebbScriptID_CName
----@param value CName
+---@param value CName|string
 ---@return Bool
 function gameEffectData.SetName(ctx, id, value) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputStates: gameMuppetComponent
----@field public replicationTime netTime
+---@field public ["replicationTime"] netTime
 gameMuppetInputStates = {}
 
 ---@param fields? table

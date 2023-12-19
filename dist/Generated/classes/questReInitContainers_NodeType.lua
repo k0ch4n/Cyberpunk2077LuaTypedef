@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questReInitContainers_NodeType: questIItemManagerNodeType
----@field public params questReInitContainers_NodeTypeParams[]
+---@field public ["params"] questReInitContainers_NodeTypeParams[]
 questReInitContainers_NodeType = {}
 
 ---@param fields? table

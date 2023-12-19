@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Window: Door
----@field protected soloCollider entIComponent
----@field protected strongSoloHandle entMeshComponent
----@field private duplicateDestruction Bool
+---@field protected ["soloCollider"] entIComponent
+---@field protected ["strongSoloHandle"] entMeshComponent
+---@field private ["duplicateDestruction"] Bool
 Window = {}
 
 ---@param fields? table

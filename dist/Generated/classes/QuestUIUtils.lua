@@ -8,7 +8,7 @@ QuestUIUtils = {}
 ---@return QuestUIUtils
 function QuestUIUtils.new(fields) return end
 
----@param entryTypeName CName
+---@param entryTypeName CName|string
 ---@return UIObjectiveEntryType
 function QuestUIUtils.GetEntryTypeFromName(entryTypeName) return end
 

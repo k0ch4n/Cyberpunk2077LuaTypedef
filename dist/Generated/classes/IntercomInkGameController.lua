@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class IntercomInkGameController: DeviceInkGameControllerBase
----@field private actionsList inkWidgetReference
----@field private mainDisplayWidget inkVideoWidget
----@field private buttonRef CallActionWidgetController
----@field private state IntercomStatus
----@field private onUpdateStatusListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field private ["actionsList"] inkWidgetReference
+---@field private ["mainDisplayWidget"] inkVideoWidget
+---@field private ["buttonRef"] CallActionWidgetController
+---@field private ["state"] IntercomStatus
+---@field private ["onUpdateStatusListener"] redCallbackObject
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
 IntercomInkGameController = {}
 
 ---@param fields? table
@@ -35,7 +35,7 @@ function IntercomInkGameController:GetOwner() return end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
----@param audioEvent CName
+---@param audioEvent CName|string
 ---@return nil
 function IntercomInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
 

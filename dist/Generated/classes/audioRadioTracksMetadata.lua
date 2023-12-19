@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioRadioTracksMetadata: audioAudioMetadata
----@field public radioTracks audioRadioTrack[]
+---@field public ["radioTracks"] audioRadioTrack[]
 audioRadioTracksMetadata = {}
 
 ---@param fields? table

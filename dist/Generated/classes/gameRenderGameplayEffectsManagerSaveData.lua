@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameRenderGameplayEffectsManagerSaveData: ISerializable
----@field public cyberspacePixelsortParams gameCyberspacePixelsortEffectParams
----@field public cyberspacePixelsortEnabled Bool
----@field public enforceScreenSpaceReflectionsUberQuality Bool
+---@field public ["cyberspacePixelsortParams"] gameCyberspacePixelsortEffectParams
+---@field public ["cyberspacePixelsortEnabled"] Bool
+---@field public ["enforceScreenSpaceReflectionsUberQuality"] Bool
 gameRenderGameplayEffectsManagerSaveData = {}
 
 ---@param fields? table

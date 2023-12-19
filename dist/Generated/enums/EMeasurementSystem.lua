@@ -3,6 +3,6 @@
 
 ---@enum EMeasurementSystem
 EMeasurementSystem = {
-    ["Metric"] = 0,
-    ["Imperial"] = 1
+    ["Metric"] = 0, ---@type Enum
+    ["Imperial"] = 1, ---@type Enum
 }

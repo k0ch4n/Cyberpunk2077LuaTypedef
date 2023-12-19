@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class CrouchDecisions: LocomotionGroundDecisions
----@field public gameplaySettings GameplaySettingsSystem
----@field public executionOwner gameObject
----@field public callbackID redCallbackObject
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private crouchPressed Bool
----@field private toggleCrouchPressed Bool
----@field private forcedCrouch Bool
----@field private controllingDevice Bool
+---@field public ["gameplaySettings"] GameplaySettingsSystem
+---@field public ["executionOwner"] gameObject
+---@field public ["callbackID"] redCallbackObject
+---@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
+---@field private ["crouchPressed"] Bool
+---@field private ["toggleCrouchPressed"] Bool
+---@field private ["forcedCrouch"] Bool
+---@field private ["controllingDevice"] Bool
 CrouchDecisions = {}
 
 ---@param fields? table

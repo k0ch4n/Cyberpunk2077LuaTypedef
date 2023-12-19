@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetProgressionBuildRequest: gamePlayerScriptableSystemRequest
----@field public buildID TweakDBID
+---@field public ["buildID"] TweakDBID
 gameSetProgressionBuildRequest = {}
 
 ---@param fields? table

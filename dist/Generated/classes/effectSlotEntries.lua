@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectSlotEntries: effectIPlacementEntries
----@field public inheritRotation Bool
----@field public slots effectSlotEntry[]
+---@field public ["inheritRotation"] Bool
+---@field public ["slots"] effectSlotEntry[]
 effectSlotEntries = {}
 
 ---@param fields? table

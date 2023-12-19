@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DelayedAchivementCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field protected id Int32
----@field protected progress Float
----@field protected dataTrackingSystem DataTrackingSystem
+---@field protected ["id"] Int32
+---@field protected ["progress"] Float
+---@field protected ["dataTrackingSystem"] DataTrackingSystem
 DelayedAchivementCallback = {}
 
 ---@param fields? table

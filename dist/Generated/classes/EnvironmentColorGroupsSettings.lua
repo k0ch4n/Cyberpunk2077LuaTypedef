@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EnvironmentColorGroupsSettings: IAreaSettings
----@field public skyTint curveData
----@field public colorGroup curveData[]
+---@field public ["skyTint"] curveData
+---@field public ["colorGroup"] curveData[]
 EnvironmentColorGroupsSettings = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Smart_Rifl_Bucket: inkWidgetLogicController
----@field public lockingAnimationLength Float
----@field public unlockingAnimationLength Float
----@field public deadEyeWidget inkWidgetReference
----@field public data gamesmartGunUITargetParameters
----@field public lockingAnimationProxy inkanimProxy
----@field public unlockingAnimationProxy inkanimProxy
----@field public activeCallbacks gameDelayID[]
----@field public hasDeadEye Bool
----@field public deadEyeAnimProxy inkanimProxy
+---@field public ["lockingAnimationLength"] Float
+---@field public ["unlockingAnimationLength"] Float
+---@field public ["deadEyeWidget"] inkWidgetReference
+---@field public ["data"] gamesmartGunUITargetParameters
+---@field public ["lockingAnimationProxy"] inkanimProxy
+---@field public ["unlockingAnimationProxy"] inkanimProxy
+---@field public ["activeCallbacks"] gameDelayID[]
+---@field public ["hasDeadEye"] Bool
+---@field public ["deadEyeAnimProxy"] inkanimProxy
 Crosshair_Smart_Rifl_Bucket = {}
 
 ---@param fields? table

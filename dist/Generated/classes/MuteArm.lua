@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MuteArm: gameweaponObject
----@field private gameEffectRef gameEffectRef
----@field private gameEffectInstance gameEffectInstance
+---@field private ["gameEffectRef"] gameEffectRef
+---@field private ["gameEffectInstance"] gameEffectInstance
 MuteArm = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function MuteArm:OnChargeEndedEvent(evt) return end
 function MuteArm:OnChargeStartedEvent(evt) return end
 
 ---@protected
----@param newAppearance CName
+---@param newAppearance CName|string
 ---@return nil
 function MuteArm:ChangeAppearance(newAppearance) return end
 

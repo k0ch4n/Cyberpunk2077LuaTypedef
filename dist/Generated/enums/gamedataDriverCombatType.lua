@@ -3,11 +3,11 @@
 
 ---@enum gamedataDriverCombatType
 gamedataDriverCombatType = {
-    ["CrystalDome"] = 0,
-    ["Disabled"] = 1,
-    ["Doors"] = 2,
-    ["MountedWeapons"] = 3,
-    ["Standard"] = 4,
-    ["Count"] = 5,
-    ["Invalid"] = 6
+    ["CrystalDome"] = 0, ---@type Enum
+    ["Disabled"] = 1, ---@type Enum
+    ["Doors"] = 2, ---@type Enum
+    ["MountedWeapons"] = 3, ---@type Enum
+    ["Standard"] = 4, ---@type Enum
+    ["Count"] = 5, ---@type Enum
+    ["Invalid"] = 6, ---@type Enum
 }

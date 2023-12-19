@@ -3,6 +3,6 @@
 
 ---@enum gameScriptTaskExecutionStage
 gameScriptTaskExecutionStage = {
-    ["Any"] = 0,
-    ["PostPhysics"] = 1
+    ["Any"] = 0, ---@type Enum
+    ["PostPhysics"] = 1, ---@type Enum
 }

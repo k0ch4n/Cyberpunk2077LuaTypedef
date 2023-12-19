@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DestroyWeakspot: AIActionHelperTask
----@field public weakspotIndex Int32
----@field public weakspotComponent gameWeakspotComponent
----@field public weakspotArray gameWeakspotObject[]
+---@field public ["weakspotIndex"] Int32
+---@field public ["weakspotComponent"] gameWeakspotComponent
+---@field public ["weakspotArray"] gameWeakspotObject[]
 DestroyWeakspot = {}
 
 ---@param fields? table

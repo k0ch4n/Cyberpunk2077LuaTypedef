@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class cpConveyorObject: gameObject
----@field public rotationLerpFactor Float
----@field public ignoreZAxis Bool
+---@field public ["rotationLerpFactor"] Float
+---@field public ["ignoreZAxis"] Bool
 cpConveyorObject = {}
 
 ---@param fields? table

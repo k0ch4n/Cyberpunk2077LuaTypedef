@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpPlayerDetector_PseudoDevice: gameObject
----@field public playerDetector NodeRef
+---@field public ["playerDetector"] NodeRef
 cpPlayerDetector_PseudoDevice = {}
 
 ---@param fields? table

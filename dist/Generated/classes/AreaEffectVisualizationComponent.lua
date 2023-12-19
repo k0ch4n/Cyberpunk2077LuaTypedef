@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AreaEffectVisualizationComponent: gameScriptableComponent
----@field protected fxResourceMapper FxResourceMapperComponent
----@field private forceHighlightTargetBuckets GameEffectTargetVisualizationData[]
----@field private availableQuickHacks CName[]
----@field private availablespiderbotActions CName[]
----@field private activeAction BaseScriptableAction
----@field private activeEffectIndex Int32
+---@field protected ["fxResourceMapper"] FxResourceMapperComponent
+---@field private ["forceHighlightTargetBuckets"] GameEffectTargetVisualizationData[]
+---@field private ["availableQuickHacks"] CName[]
+---@field private ["availablespiderbotActions"] CName[]
+---@field private ["activeAction"] BaseScriptableAction
+---@field private ["activeEffectIndex"] Int32
 AreaEffectVisualizationComponent = {}
 
 ---@param fields? table
@@ -50,7 +50,7 @@ function AreaEffectVisualizationComponent:OnResponse(evt) return end
 function AreaEffectVisualizationComponent:OnTakeControl(ri) return end
 
 ---@protected
----@param bucketName CName
+---@param bucketName CName|string
 ---@param entityID entEntityID
 ---@return nil
 function AreaEffectVisualizationComponent:AddTargetToBucket(bucketName, entityID) return end
@@ -70,7 +70,7 @@ function AreaEffectVisualizationComponent:ForceVisionAppearance(data) return end
 function AreaEffectVisualizationComponent:GetFxMapper() return end
 
 ---@protected
----@param bucketName CName
+---@param bucketName CName|string
 ---@return nil
 function AreaEffectVisualizationComponent:RemoveBucket(bucketName) return end
 
@@ -107,7 +107,7 @@ function AreaEffectVisualizationComponent:ResolveAreaQuickHacksVisibility(show, 
 function AreaEffectVisualizationComponent:ResolveAreaSpiderbotVisibility(show) return end
 
 ---@protected
----@param bucketName CName
+---@param bucketName CName|string
 ---@param evt redEvent
 ---@return nil
 function AreaEffectVisualizationComponent:SendEventToBucket(bucketName, evt) return end

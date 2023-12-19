@@ -8,7 +8,7 @@ gameSquadMemberComponent = {}
 ---@return gameSquadMemberComponent
 function gameSquadMemberComponent.new(fields) return end
 
----@param sqName CName
+---@param sqName CName|string
 ---@return AISquadScriptInterface
 function gameSquadMemberComponent:FindSquad(sqName) return end
 

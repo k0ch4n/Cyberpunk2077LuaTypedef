@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameFriendlyFireParams: IScriptable
----@field public attitude gameAttitudeAgent
----@field public slots entSlotComponent
----@field public attachmentName CName
----@field public slotId Int32
----@field public spread Float
----@field public maxRange Float
+---@field public ["attitude"] gameAttitudeAgent
+---@field public ["slots"] entSlotComponent
+---@field public ["attachmentName"] CName
+---@field public ["slotId"] Int32
+---@field public ["spread"] Float
+---@field public ["maxRange"] Float
 gameFriendlyFireParams = {}
 
 ---@param fields? table
@@ -32,7 +32,7 @@ function gameFriendlyFireParams:SetFFApplyAttitude(FFApplyAttitude) return end
 function gameFriendlyFireParams:SetGeometry(spread, maxRange) return end
 
 ---@param attitude gameAttitudeAgent
----@param slotName CName
----@param attachmentName CName
+---@param slotName CName|string
+---@param attachmentName CName|string
 ---@return nil
 function gameFriendlyFireParams:SetShooter(attitude, slotName, attachmentName) return end

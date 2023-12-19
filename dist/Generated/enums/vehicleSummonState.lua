@@ -3,9 +3,9 @@
 
 ---@enum vehicleSummonState
 vehicleSummonState = {
-    ["Idle"] = 0,
-    ["EnRoute"] = 1,
-    ["AlreadySummoned"] = 2,
-    ["PathfindingFailed"] = 3,
-    ["Arrived"] = 4
+    ["Idle"] = 0, ---@type Enum
+    ["EnRoute"] = 1, ---@type Enum
+    ["AlreadySummoned"] = 2, ---@type Enum
+    ["PathfindingFailed"] = 3, ---@type Enum
+    ["Arrived"] = 4, ---@type Enum
 }

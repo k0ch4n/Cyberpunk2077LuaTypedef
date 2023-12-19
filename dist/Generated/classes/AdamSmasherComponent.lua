@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class AdamSmasherComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private statusEffect_armor1_id TweakDBID
----@field private statusEffect_armor2_id TweakDBID
----@field private statusEffect_armor3_id TweakDBID
----@field private statusEffect_smashed_id TweakDBID
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private healthListener AdamSmasherHealthChangeListener
----@field private phase2Threshold Float
----@field private phase3Threshold Float
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field private weakspotDestroyed Bool
+---@field private ["owner"] NPCPuppet
+---@field private ["owner_id"] entEntityID
+---@field private ["statusEffect_armor1_id"] TweakDBID
+---@field private ["statusEffect_armor2_id"] TweakDBID
+---@field private ["statusEffect_armor3_id"] TweakDBID
+---@field private ["statusEffect_smashed_id"] TweakDBID
+---@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["healthListener"] AdamSmasherHealthChangeListener
+---@field private ["phase2Threshold"] Float
+---@field private ["phase3Threshold"] Float
+---@field private ["npcCollisionComponent"] entSimpleColliderComponent
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
+---@field private ["weakspotDestroyed"] Bool
 AdamSmasherComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DamageOverTimeTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public dotType gamedataStatusEffectType
+---@field public ["dotType"] gamedataStatusEffectType
 DamageOverTimeTypeHitPrereqCondition = {}
 
 ---@param fields? table

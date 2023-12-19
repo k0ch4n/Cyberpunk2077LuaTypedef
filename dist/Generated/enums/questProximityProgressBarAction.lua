@@ -3,8 +3,8 @@
 
 ---@enum questProximityProgressBarAction
 questProximityProgressBarAction = {
-    ["Activated"] = 0,
-    ["Inactivated"] = 1,
-    ["Completed"] = 2,
-    ["WentOutOfRange"] = 3
+    ["Activated"] = 0, ---@type Enum
+    ["Inactivated"] = 1, ---@type Enum
+    ["Completed"] = 2, ---@type Enum
+    ["WentOutOfRange"] = 3, ---@type Enum
 }

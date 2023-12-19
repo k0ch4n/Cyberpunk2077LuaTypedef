@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneGraphNode: ISerializable
----@field public nodeId scnNodeId
----@field public ffStrategy scnFastForwardStrategy
----@field public outputSockets scnOutputSocket[]
+---@field public ["nodeId"] scnNodeId
+---@field public ["ffStrategy"] scnFastForwardStrategy
+---@field public ["outputSockets"] scnOutputSocket[]
 scnSceneGraphNode = {}

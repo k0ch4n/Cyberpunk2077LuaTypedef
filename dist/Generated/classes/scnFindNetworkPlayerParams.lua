@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnFindNetworkPlayerParams
----@field public networkId Uint32
+---@field public ["networkId"] Uint32
 scnFindNetworkPlayerParams = {}
 
 ---@param fields? table

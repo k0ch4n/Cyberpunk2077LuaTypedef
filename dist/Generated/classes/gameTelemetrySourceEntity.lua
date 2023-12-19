@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTelemetrySourceEntity
----@field public className String
----@field public sourceEntityRecord TweakDBID
+---@field public ["className"] String
+---@field public ["sourceEntityRecord"] TweakDBID
 gameTelemetrySourceEntity = {}
 
 ---@param fields? table

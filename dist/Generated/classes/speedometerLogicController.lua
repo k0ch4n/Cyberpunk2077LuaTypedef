@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class speedometerLogicController: IVehicleModuleController
----@field private speedTextWidget inkTextWidgetReference
----@field private speedBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private vehicle vehicleBaseObject
----@field private currentSpeed Int32
+---@field private ["speedTextWidget"] inkTextWidgetReference
+---@field private ["speedBBConnectionId"] redCallbackObject
+---@field private ["vehBB"] gameIBlackboard
+---@field private ["vehicle"] vehicleBaseObject
+---@field private ["currentSpeed"] Int32
 speedometerLogicController = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum CurrencyNotificationAnimState
 CurrencyNotificationAnimState = {
-    ["Inactive"] = 0,
-    ["Intro"] = 1,
-    ["Active"] = 2,
-    ["Outro"] = 3
+    ["Inactive"] = 0, ---@type Enum
+    ["Intro"] = 1, ---@type Enum
+    ["Active"] = 2, ---@type Enum
+    ["Outro"] = 3, ---@type Enum
 }

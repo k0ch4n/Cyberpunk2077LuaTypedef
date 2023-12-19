@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPlayEnv_NodeType: questIEnvironmentManagerNodeType
----@field public params questPlayEnv_NodeTypeParams
+---@field public ["params"] questPlayEnv_NodeTypeParams
 questPlayEnv_NodeType = {}
 
 ---@param fields? table

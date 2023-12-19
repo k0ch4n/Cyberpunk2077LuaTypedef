@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NavGenNavigationSetting
----@field public navmeshImpact NavGenNavmeshImpact
+---@field public ["navmeshImpact"] NavGenNavmeshImpact
 NavGenNavigationSetting = {}
 
 ---@param fields? table

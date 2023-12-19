@@ -3,7 +3,7 @@
 
 ---@enum ECraftingIconPositioning
 ECraftingIconPositioning = {
-    ["generic"] = 0,
-    ["weaponBig"] = 1,
-    ["weaponSmall"] = 2
+    ["generic"] = 0, ---@type Enum
+    ["weaponBig"] = 1, ---@type Enum
+    ["weaponSmall"] = 2, ---@type Enum
 }

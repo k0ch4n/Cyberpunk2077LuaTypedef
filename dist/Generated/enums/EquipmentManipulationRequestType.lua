@@ -3,7 +3,7 @@
 
 ---@enum EquipmentManipulationRequestType
 EquipmentManipulationRequestType = {
-    ["Undefined"] = 0,
-    ["Equip"] = 1,
-    ["Unequip"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Equip"] = 1, ---@type Enum
+    ["Unequip"] = 2, ---@type Enum
 }

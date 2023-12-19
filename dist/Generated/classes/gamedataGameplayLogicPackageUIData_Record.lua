@@ -66,7 +66,7 @@ function gamedataGameplayLogicPackageUIData_Record:LocalizedName() return end
 ---@return CName[]
 function gamedataGameplayLogicPackageUIData_Record:NameValues() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataGameplayLogicPackageUIData_Record:NameValuesContains(item) return end
 

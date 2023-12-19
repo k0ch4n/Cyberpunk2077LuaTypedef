@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivateC4: ActionBool
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 ActivateC4 = {}
 
 ---@param fields? table

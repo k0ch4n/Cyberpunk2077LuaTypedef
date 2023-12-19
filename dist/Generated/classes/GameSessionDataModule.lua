@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameSessionDataModule: IScriptable
----@field protected moduleType EGameSessionDataType
+---@field protected ["moduleType"] EGameSessionDataType
 GameSessionDataModule = {}
 
 ---@param fields? table

@@ -11,7 +11,7 @@ function gamedataWeakspot_Record.new(fields) return end
 ---@return CName[]
 function gamedataWeakspot_Record:GameplayTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataWeakspot_Record:GameplayTagsContains(item) return end
 
@@ -56,6 +56,6 @@ function gamedataWeakspot_Record:SlotToAttachHandle() return end
 ---@return CName[]
 function gamedataWeakspot_Record:ValidCharacterAppearances() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataWeakspot_Record:ValidCharacterAppearancesContains(item) return end

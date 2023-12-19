@@ -3,7 +3,7 @@
 
 ---@enum gameEffectHitDataType
 gameEffectHitDataType = {
-    ["Entity"] = 0,
-    ["Node"] = 1,
-    ["Static"] = 2
+    ["Entity"] = 0, ---@type Enum
+    ["Node"] = 1, ---@type Enum
+    ["Static"] = 2, ---@type Enum
 }

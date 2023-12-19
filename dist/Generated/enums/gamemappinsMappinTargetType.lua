@@ -3,7 +3,7 @@
 
 ---@enum gamemappinsMappinTargetType
 gamemappinsMappinTargetType = {
-    ["World"] = 0,
-    ["Minimap"] = 1,
-    ["Map"] = 2
+    ["World"] = 0, ---@type Enum
+    ["Minimap"] = 1, ---@type Enum
+    ["Map"] = 2, ---@type Enum
 }

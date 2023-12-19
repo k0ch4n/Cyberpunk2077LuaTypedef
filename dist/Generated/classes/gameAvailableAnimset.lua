@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAvailableAnimset
----@field public hash Uint64
----@field public resourcePath String
+---@field public ["hash"] Uint64
+---@field public ["resourcePath"] String
 gameAvailableAnimset = {}
 
 ---@param fields? table

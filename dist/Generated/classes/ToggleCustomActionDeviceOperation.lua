@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleCustomActionDeviceOperation: DeviceOperationBase
----@field public customActionID CName
----@field public enabled Bool
+---@field public ["customActionID"] CName
+---@field public ["enabled"] Bool
 ToggleCustomActionDeviceOperation = {}
 
 ---@param fields? table
@@ -15,7 +15,7 @@ function ToggleCustomActionDeviceOperation.new(fields) return end
 function ToggleCustomActionDeviceOperation:Execute(owner) return end
 
 ---@private
----@param actionID CName
+---@param actionID CName|string
 ---@param state Bool
 ---@param owner gameObject
 ---@return nil

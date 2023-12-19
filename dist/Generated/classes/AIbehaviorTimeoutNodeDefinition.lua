@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorTimeoutNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public time AIArgumentMapping
+---@field public ["time"] AIArgumentMapping
 AIbehaviorTimeoutNodeDefinition = {}
 
 ---@param fields? table

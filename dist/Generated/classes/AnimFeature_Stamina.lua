@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_Stamina: animAnimFeature
----@field public staminaValue Float
----@field public tiredness Float
+---@field public ["staminaValue"] Float
+---@field public ["tiredness"] Float
 AnimFeature_Stamina = {}
 
 ---@param fields? table

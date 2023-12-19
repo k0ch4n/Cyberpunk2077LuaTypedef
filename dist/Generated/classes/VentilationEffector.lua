@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VentilationEffector: ActivatedDeviceTransfromAnim
----@field protected effectComponent entIPlacedComponent
+---@field protected ["effectComponent"] entIPlacedComponent
 VentilationEffector = {}
 
 ---@param fields? table

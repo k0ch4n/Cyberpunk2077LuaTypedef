@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionLook: gameIMuppetInputAction
----@field public rotation Vector2
+---@field public ["rotation"] Vector2
 gameMuppetInputActionLook = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleNetrunnerDive: ActionBool
----@field public skipMinigame Bool
----@field public attempt Int32
----@field public isRemote Bool
+---@field public ["skipMinigame"] Bool
+---@field public ["attempt"] Int32
+---@field public ["isRemote"] Bool
 ToggleNetrunnerDive = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetGlobalTvOnly: redEvent
----@field public isGlobalTvOnly Bool
+---@field public ["isGlobalTvOnly"] Bool
 SetGlobalTvOnly = {}
 
 ---@param fields? table

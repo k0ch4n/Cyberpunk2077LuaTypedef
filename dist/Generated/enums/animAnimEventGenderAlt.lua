@@ -3,7 +3,7 @@
 
 ---@enum animAnimEventGenderAlt
 animAnimEventGenderAlt = {
-    ["None"] = 0,
-    ["Female"] = 1,
-    ["Male"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Female"] = 1, ---@type Enum
+    ["Male"] = 2, ---@type Enum
 }

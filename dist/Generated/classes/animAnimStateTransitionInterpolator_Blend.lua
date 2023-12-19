@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionInterpolator_Blend: animIAnimStateTransitionInterpolator
----@field public interpolationType animAnimStateInterpolationType
+---@field public ["interpolationType"] animAnimStateInterpolationType
 animAnimStateTransitionInterpolator_Blend = {}
 
 ---@param fields? table

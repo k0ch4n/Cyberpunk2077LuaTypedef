@@ -3,9 +3,9 @@
 
 ---@enum gamedataWorkspotActionType
 gamedataWorkspotActionType = {
-    ["DeviceInvestigation"] = 0,
-    ["FearHide"] = 1,
-    ["LookAround"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["DeviceInvestigation"] = 0, ---@type Enum
+    ["FearHide"] = 1, ---@type Enum
+    ["LookAround"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

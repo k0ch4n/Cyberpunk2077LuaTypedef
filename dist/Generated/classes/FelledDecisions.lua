@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FelledDecisions: LocomotionGroundDecisions
----@field private felled Bool
----@field private callbackIDs redCallbackObject[]
+---@field private ["felled"] Bool
+---@field private ["callbackIDs"] redCallbackObject[]
 FelledDecisions = {}
 
 ---@param fields? table

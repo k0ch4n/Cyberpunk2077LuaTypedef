@@ -3,10 +3,10 @@
 
 ---@enum worldPrefabStreamingImportance
 worldPrefabStreamingImportance = {
-    ["Auto"] = 0,
-    ["P1"] = 1,
-    ["P2"] = 2,
-    ["P3"] = 3,
-    ["P4"] = 4,
-    ["P5"] = 5
+    ["Auto"] = 0, ---@type Enum
+    ["P1"] = 1, ---@type Enum
+    ["P2"] = 2, ---@type Enum
+    ["P3"] = 3, ---@type Enum
+    ["P4"] = 4, ---@type Enum
+    ["P5"] = 5, ---@type Enum
 }

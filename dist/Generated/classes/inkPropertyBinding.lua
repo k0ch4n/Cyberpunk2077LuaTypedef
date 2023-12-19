@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkPropertyBinding
----@field public propertyName CName
----@field public stylePath CName
+---@field public ["propertyName"] CName
+---@field public ["stylePath"] CName
 inkPropertyBinding = {}
 
 ---@param fields? table

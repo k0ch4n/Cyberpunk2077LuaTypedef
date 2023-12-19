@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TrafficGenTrafficSetting
----@field public meshImpact TrafficGenMeshImpact
+---@field public ["meshImpact"] TrafficGenMeshImpact
 TrafficGenTrafficSetting = {}
 
 ---@param fields? table

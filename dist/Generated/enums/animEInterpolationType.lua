@@ -3,6 +3,6 @@
 
 ---@enum animEInterpolationType
 animEInterpolationType = {
-    ["Lerp"] = 0,
-    ["Slerp"] = 1
+    ["Lerp"] = 0, ---@type Enum
+    ["Slerp"] = 1, ---@type Enum
 }

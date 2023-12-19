@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerVelocityInherit: IParticleInitializer
----@field public scale IEvaluatorFloat
+---@field public ["scale"] IEvaluatorFloat
 CParticleInitializerVelocityInherit = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehiclePortalsList: IScriptable
----@field public listPoints NodeRef[]
+---@field public ["listPoints"] NodeRef[]
 vehiclePortalsList = {}
 
 ---@param fields? table

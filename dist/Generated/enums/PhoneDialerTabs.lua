@@ -3,6 +3,6 @@
 
 ---@enum PhoneDialerTabs
 PhoneDialerTabs = {
-    ["Unread"] = 0,
-    ["Contacts"] = 1
+    ["Unread"] = 0, ---@type Enum
+    ["Contacts"] = 1, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TogglePreventionSystem: gameScriptableSystemRequest
----@field public sourceName CName
----@field public isActive Bool
+---@field public ["sourceName"] CName
+---@field public ["isActive"] Bool
 TogglePreventionSystem = {}
 
 ---@param fields? table

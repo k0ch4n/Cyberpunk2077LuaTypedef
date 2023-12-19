@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackToggleON: ActionBool
----@field public Repeat Bool
+---@field public ["Repeat"] Bool
 QuickHackToggleON = {}
 
 ---@param fields? table

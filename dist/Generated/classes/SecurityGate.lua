@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecurityGate: InteractiveMasterDevice
----@field private sideA gameStaticTriggerAreaComponent
----@field private sideB gameStaticTriggerAreaComponent
----@field private scanningArea gameStaticTriggerAreaComponent
----@field private trespassersDataList TrespasserEntry[]
+---@field private ["sideA"] gameStaticTriggerAreaComponent
+---@field private ["sideB"] gameStaticTriggerAreaComponent
+---@field private ["scanningArea"] gameStaticTriggerAreaComponent
+---@field private ["trespassersDataList"] TrespasserEntry[]
 SecurityGate = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestPhase: gameJournalContainerEntry
----@field public locationPrefabRef NodeRef
+---@field public ["locationPrefabRef"] NodeRef
 gameJournalQuestPhase = {}
 
 ---@param fields? table

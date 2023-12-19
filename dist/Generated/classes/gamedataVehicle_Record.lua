@@ -334,7 +334,7 @@ function gamedataVehicle_Record:PreventionPassengersContains(item) return end
 ---@return CName[]
 function gamedataVehicle_Record:QueryOnlyExceptions() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicle_Record:QueryOnlyExceptionsContains(item) return end
 

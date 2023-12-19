@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class interopTransformInfo
----@field public translation Vector3
----@field public rotation EulerAngles
+---@field public ["translation"] Vector3
+---@field public ["rotation"] EulerAngles
 interopTransformInfo = {}
 
 ---@param fields? table

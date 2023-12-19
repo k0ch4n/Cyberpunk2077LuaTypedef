@@ -3,8 +3,8 @@
 
 ---@enum EAIActionState
 EAIActionState = {
-    ["Inactive"] = 0,
-    ["Startup"] = 1,
-    ["Loop"] = 2,
-    ["Recover"] = 3
+    ["Inactive"] = 0, ---@type Enum
+    ["Startup"] = 1, ---@type Enum
+    ["Loop"] = 2, ---@type Enum
+    ["Recover"] = 3, ---@type Enum
 }

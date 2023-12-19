@@ -3,23 +3,23 @@
 
 ---@enum EMeshVertexType
 EMeshVertexType = {
-    ["MVT_StaticMesh"] = 0,
-    ["MVT_ProceduralMesh"] = 1,
-    ["MVT_SkinnedMesh"] = 2,
-    ["MVT_ExtSkinnedMesh"] = 3,
-    ["MVT_GarmentSkinnedMesh"] = 4,
-    ["MVT_ExtGarmentSkinnedMesh"] = 5,
-    ["MVT_SpeedTreeMesh"] = 6,
-    ["MVT_StaticMeshVehicle"] = 7,
-    ["MVT_SkinnedMeshVehicle"] = 8,
-    ["MVT_Terrain"] = 9,
-    ["MVT_DestructibleMesh"] = 10,
-    ["MVT_DestructibleMeshSkinned"] = 11,
-    ["MVT_SkinnedMeshLightBlocker"] = 12,
-    ["MVT_ExtSkinnedMeshLightBlocker"] = 13,
-    ["MVT_GarmentSkinnedMeshLightBlocker"] = 14,
-    ["MVT_ExtGarmentSkinnedMeshLightBlocker"] = 15,
-    ["MVT_SkinnedMeshSingleBone"] = 16,
-    ["MVT_ProxyMesh"] = 17,
-    ["MVT_ProxyWindowMesh"] = 18
+    ["MVT_StaticMesh"] = 0, ---@type Enum
+    ["MVT_ProceduralMesh"] = 1, ---@type Enum
+    ["MVT_SkinnedMesh"] = 2, ---@type Enum
+    ["MVT_ExtSkinnedMesh"] = 3, ---@type Enum
+    ["MVT_GarmentSkinnedMesh"] = 4, ---@type Enum
+    ["MVT_ExtGarmentSkinnedMesh"] = 5, ---@type Enum
+    ["MVT_SpeedTreeMesh"] = 6, ---@type Enum
+    ["MVT_StaticMeshVehicle"] = 7, ---@type Enum
+    ["MVT_SkinnedMeshVehicle"] = 8, ---@type Enum
+    ["MVT_Terrain"] = 9, ---@type Enum
+    ["MVT_DestructibleMesh"] = 10, ---@type Enum
+    ["MVT_DestructibleMeshSkinned"] = 11, ---@type Enum
+    ["MVT_SkinnedMeshLightBlocker"] = 12, ---@type Enum
+    ["MVT_ExtSkinnedMeshLightBlocker"] = 13, ---@type Enum
+    ["MVT_GarmentSkinnedMeshLightBlocker"] = 14, ---@type Enum
+    ["MVT_ExtGarmentSkinnedMeshLightBlocker"] = 15, ---@type Enum
+    ["MVT_SkinnedMeshSingleBone"] = 16, ---@type Enum
+    ["MVT_ProxyMesh"] = 17, ---@type Enum
+    ["MVT_ProxyWindowMesh"] = 18, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum ELightSwitchRandomizerType
 ELightSwitchRandomizerType = {
-    ["RANDOM"] = 0,
-    ["RANDOM_PROGRESSIVE"] = 1,
-    ["NONE"] = 2
+    ["RANDOM"] = 0, ---@type Enum
+    ["RANDOM_PROGRESSIVE"] = 1, ---@type Enum
+    ["NONE"] = 2, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum gameuiCharacterCustomizationPart
 gameuiCharacterCustomizationPart = {
-    ["Head"] = 0,
-    ["Body"] = 1,
-    ["Arms"] = 2
+    ["Head"] = 0, ---@type Enum
+    ["Body"] = 1, ---@type Enum
+    ["Arms"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SmartHousePreset: IScriptable
----@field protected timetable SPresetTimetableEntry
+---@field protected ["timetable"] SPresetTimetableEntry
 SmartHousePreset = {}
 
 ---@param devices gameDeviceComponentPS[]

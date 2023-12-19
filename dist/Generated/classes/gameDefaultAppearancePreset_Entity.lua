@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameDefaultAppearancePreset_Entity: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath CName
----@field public defaultAppearanceName CName
+---@field public ["entityPathHash"] Uint64
+---@field public ["debugEntityPath"] CName
+---@field public ["defaultAppearanceName"] CName
 gameDefaultAppearancePreset_Entity = {}
 
 ---@param fields? table

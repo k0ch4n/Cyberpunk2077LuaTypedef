@@ -3,17 +3,17 @@
 
 ---@enum gameinteractionsChoiceType
 gameinteractionsChoiceType = {
-    ["QuestImportant"] = 1,
-    ["AlreadyRead"] = 2,
-    ["Inactive"] = 4,
-    ["CheckSuccess"] = 8,
-    ["CheckFailed"] = 16,
-    ["InnerDialog"] = 32,
-    ["PossessedDialog"] = 64,
-    ["TimedDialog"] = 128,
-    ["Blueline"] = 256,
-    ["Pay"] = 512,
-    ["Selected"] = 1024,
-    ["Illegal"] = 2048,
-    ["Glowline"] = 4096
+    ["QuestImportant"] = 1, ---@type Enum
+    ["AlreadyRead"] = 2, ---@type Enum
+    ["Inactive"] = 4, ---@type Enum
+    ["CheckSuccess"] = 8, ---@type Enum
+    ["CheckFailed"] = 16, ---@type Enum
+    ["InnerDialog"] = 32, ---@type Enum
+    ["PossessedDialog"] = 64, ---@type Enum
+    ["TimedDialog"] = 128, ---@type Enum
+    ["Blueline"] = 256, ---@type Enum
+    ["Pay"] = 512, ---@type Enum
+    ["Selected"] = 1024, ---@type Enum
+    ["Illegal"] = 2048, ---@type Enum
+    ["Glowline"] = 4096, ---@type Enum
 }

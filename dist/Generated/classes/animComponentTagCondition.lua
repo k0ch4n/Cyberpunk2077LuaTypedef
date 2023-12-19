@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animComponentTagCondition: animIStaticCondition
----@field public animTag CName
+---@field public ["animTag"] CName
 animComponentTagCondition = {}
 
 ---@param fields? table

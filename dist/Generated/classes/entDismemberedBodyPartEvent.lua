@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entDismemberedBodyPartEvent: redEvent
----@field public bones CName
+---@field public ["bones"] CName
 entDismemberedBodyPartEvent = {}
 
 ---@param fields? table

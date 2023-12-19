@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AJournalEntryWrapper: ABaseWrapper
----@field private UniqueId Int32
+---@field private ["UniqueId"] Int32
 AJournalEntryWrapper = {}
 
 ---@return Int32

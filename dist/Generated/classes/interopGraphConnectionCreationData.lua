@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class interopGraphConnectionCreationData
----@field public data String
----@field public extraData String[]
+---@field public ["data"] String
+---@field public ["extraData"] String[]
 interopGraphConnectionCreationData = {}
 
 ---@param fields? table

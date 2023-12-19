@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPlayerProximityStartEvent: redEvent
----@field public profile CName
+---@field public ["profile"] CName
 worldPlayerProximityStartEvent = {}
 
 ---@param fields? table

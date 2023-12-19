@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class ExplodingBullet: BaseBullet
----@field public explosionTime Float
----@field public effectReference gameEffectRef
----@field public hasExploded Bool
----@field public initialPosition Vector4
----@field public trailStarted Bool
----@field public weapon gameweaponObject
----@field public attack_record gamedataAttack_Record
----@field public attackID TweakDBID
----@field public colliderBox Vector4
----@field public rotation Quaternion
----@field public range Float
----@field public explodeAfterRangeTravelled Bool
----@field private attack gameIAttack
----@field private BulletCollisionEvaluator BulletCollisionEvaluator
+---@field public ["explosionTime"] Float
+---@field public ["effectReference"] gameEffectRef
+---@field public ["hasExploded"] Bool
+---@field public ["initialPosition"] Vector4
+---@field public ["trailStarted"] Bool
+---@field public ["weapon"] gameweaponObject
+---@field public ["attack_record"] gamedataAttack_Record
+---@field public ["attackID"] TweakDBID
+---@field public ["colliderBox"] Vector4
+---@field public ["rotation"] Quaternion
+---@field public ["range"] Float
+---@field public ["explodeAfterRangeTravelled"] Bool
+---@field private ["attack"] gameIAttack
+---@field private ["BulletCollisionEvaluator"] BulletCollisionEvaluator
 ExplodingBullet = {}
 
 ---@param fields? table

@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class gameDeviceComponentPS: gameComponentPS
----@field protected markAsQuest Bool
----@field protected autoToggleQuestMark Bool
----@field protected factToDisableQuestMark CName
----@field protected callbackToDisableQuestMarkID Uint32
----@field protected backdoorObjectiveData BackDoorObjectiveData
----@field protected controlPanelObjectiveData ControlPanelObjectiveData
----@field protected deviceUIStyle gamedataComputerUIStyle
----@field protected blackboard gameIBlackboard
----@field protected isScanned Bool
----@field private isBeingScanned Bool
----@field protected exposeQuickHacks Bool
----@field protected isAttachedToGame Bool
----@field protected isLogicReady Bool
----@field protected maxDevicesToExtractInOneFrame Int32
+---@field protected ["markAsQuest"] Bool
+---@field protected ["autoToggleQuestMark"] Bool
+---@field protected ["factToDisableQuestMark"] CName
+---@field protected ["callbackToDisableQuestMarkID"] Uint32
+---@field protected ["backdoorObjectiveData"] BackDoorObjectiveData
+---@field protected ["controlPanelObjectiveData"] ControlPanelObjectiveData
+---@field protected ["deviceUIStyle"] gamedataComputerUIStyle
+---@field protected ["blackboard"] gameIBlackboard
+---@field protected ["isScanned"] Bool
+---@field private ["isBeingScanned"] Bool
+---@field protected ["exposeQuickHacks"] Bool
+---@field protected ["isAttachedToGame"] Bool
+---@field protected ["isLogicReady"] Bool
+---@field protected ["maxDevicesToExtractInOneFrame"] Int32
 gameDeviceComponentPS = {}
 
 ---@param fields? table
@@ -162,11 +162,11 @@ function gameDeviceComponentPS:GetParents() return end
 ---@return CName
 function gameDeviceComponentPS:GetPersistentStateName() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function gameDeviceComponentPS:GetQuestActionByName(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function gameDeviceComponentPS:GetQuestActionByNameToNative(actionName) return end
 

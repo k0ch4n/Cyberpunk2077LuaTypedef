@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class JumpPod: gameObject
----@field private activationLight entIVisualComponent
----@field private activationTrigger entIComponent
----@field public impulseForward Float
----@field public impulseRight Float
----@field public impulseUp Float
+---@field private ["activationLight"] entIVisualComponent
+---@field private ["activationTrigger"] entIComponent
+---@field public ["impulseForward"] Float
+---@field public ["impulseRight"] Float
+---@field public ["impulseUp"] Float
 JumpPod = {}
 
 ---@param fields? table

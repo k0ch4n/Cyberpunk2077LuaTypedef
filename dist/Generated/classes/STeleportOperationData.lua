@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class STeleportOperationData
----@field public nodeRef NodeRef
+---@field public ["nodeRef"] NodeRef
 STeleportOperationData = {}
 
 ---@param fields? table

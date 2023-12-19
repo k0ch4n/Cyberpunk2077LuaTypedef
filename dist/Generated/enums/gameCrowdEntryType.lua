@@ -3,7 +3,7 @@
 
 ---@enum gameCrowdEntryType
 gameCrowdEntryType = {
-    ["Pedestrian"] = 0,
-    ["Vehicle"] = 1,
-    ["AV"] = 2
+    ["Pedestrian"] = 0, ---@type Enum
+    ["Vehicle"] = 1, ---@type Enum
+    ["AV"] = 2, ---@type Enum
 }

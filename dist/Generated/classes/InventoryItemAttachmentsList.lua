@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemAttachmentsList: inkWidgetLogicController
----@field private libraryItemName CName
----@field private container inkCompoundWidgetReference
----@field private itemsList inkWidget[]
----@field private data CName[]
+---@field private ["libraryItemName"] CName
+---@field private ["container"] inkCompoundWidgetReference
+---@field private ["itemsList"] inkWidget[]
+---@field private ["data"] CName[]
 InventoryItemAttachmentsList = {}
 
 ---@param fields? table
@@ -16,7 +16,7 @@ function InventoryItemAttachmentsList.new(fields) return end
 ---@return nil
 function InventoryItemAttachmentsList:ClearData(toLeave) return end
 
----@param data CName[]
+---@param data CName[]|string[]
 ---@return nil
 function InventoryItemAttachmentsList:SetData(data) return end
 

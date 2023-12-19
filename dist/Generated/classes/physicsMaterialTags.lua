@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialTags
----@field public aiVisibility physicsMaterialTagVisibility
----@field public playerVisibility physicsMaterialTagVisibility
----@field public projectilePenetration physicsMaterialTagProjectilePenetration
----@field public projectileRicochet physicsMaterialTagProjectileRicochet
----@field public vehicleTraction physicsMaterialTagVehicleTraction
+---@field public ["aiVisibility"] physicsMaterialTagVisibility
+---@field public ["playerVisibility"] physicsMaterialTagVisibility
+---@field public ["projectilePenetration"] physicsMaterialTagProjectilePenetration
+---@field public ["projectileRicochet"] physicsMaterialTagProjectileRicochet
+---@field public ["vehicleTraction"] physicsMaterialTagVehicleTraction
 physicsMaterialTags = {}
 
 ---@param fields? table

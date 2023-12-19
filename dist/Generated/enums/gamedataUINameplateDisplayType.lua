@@ -3,10 +3,10 @@
 
 ---@enum gamedataUINameplateDisplayType
 gamedataUINameplateDisplayType = {
-    ["AfterScan"] = 0,
-    ["Always"] = 1,
-    ["Default"] = 2,
-    ["Never"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["AfterScan"] = 0, ---@type Enum
+    ["Always"] = 1, ---@type Enum
+    ["Default"] = 2, ---@type Enum
+    ["Never"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

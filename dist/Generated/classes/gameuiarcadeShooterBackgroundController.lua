@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterBackgroundController: inkWidgetLogicController
----@field public layerInfo gameuiarcadeShooterLayerInfo[]
----@field public allowMarginTranslation Bool
----@field public expPlatformImageDetails gameuiarcadeShooterExplodingPlatformsImageWidgetDetail[]
+---@field public ["layerInfo"] gameuiarcadeShooterLayerInfo[]
+---@field public ["allowMarginTranslation"] Bool
+---@field public ["expPlatformImageDetails"] gameuiarcadeShooterExplodingPlatformsImageWidgetDetail[]
 gameuiarcadeShooterBackgroundController = {}
 
 ---@param fields? table

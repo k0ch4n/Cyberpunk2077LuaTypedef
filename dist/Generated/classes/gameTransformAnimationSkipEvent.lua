@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimationSkipEvent: gameTransformAnimationEvent
----@field public time Float
----@field public skipToEnd Bool
----@field public forcePlay Bool
+---@field public ["time"] Float
+---@field public ["skipToEnd"] Bool
+---@field public ["forcePlay"] Bool
 gameTransformAnimationSkipEvent = {}
 
 ---@param fields? table

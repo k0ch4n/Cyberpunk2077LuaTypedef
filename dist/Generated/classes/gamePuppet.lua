@@ -47,7 +47,7 @@ function gamePuppet:GetBlackboard() return end
 ---@return CName
 function gamePuppet:GetBodyType() return end
 
----@param deviceGroup CName
+---@param deviceGroup CName|string
 ---@return Bool
 function gamePuppet:GetCPOMissionVoted(deviceGroup) return end
 
@@ -88,7 +88,7 @@ function gamePuppet:HasCrowdStaticLOD() return end
 ---@return Bool
 function gamePuppet:HasMechanicalImpactComponent() return end
 
----@param tagList CName[]
+---@param tagList CName[]|string[]
 ---@return Bool
 function gamePuppet:HasRuntimeAnimsetTags(tagList) return end
 
@@ -108,7 +108,7 @@ function gamePuppet:ProcessLoot() return end
 ---@return nil
 function gamePuppet:SetCPOMissionData(hasCPOMissionData) return end
 
----@param deviceGroup CName
+---@param deviceGroup CName|string
 ---@param hasVoted Bool
 ---@return nil
 function gamePuppet:SetCPOMissionVoted(deviceGroup, hasVoted) return end

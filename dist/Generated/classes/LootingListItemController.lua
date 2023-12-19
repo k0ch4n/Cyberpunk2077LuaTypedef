@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class LootingListItemController: inkWidgetLogicController
----@field protected widgetWrapper inkWidgetReference
----@field protected itemName inkTextWidgetReference
----@field protected itemRarity inkWidgetReference
----@field protected iconicLines inkWidgetReference
----@field protected itemQuantity inkTextWidgetReference
----@field protected defaultIcon inkWidgetReference
----@field protected specialIcon inkImageWidgetReference
----@field protected comparisionArrow inkImageWidgetReference
----@field protected itemTypeIconWrapper inkWidgetReference
----@field protected itemTypeIcon inkImageWidgetReference
----@field protected highlightFrames inkWidgetReference[]
----@field protected tooltipData InventoryTooltipData
----@field protected lootingData MinimalLootingListItemData
+---@field protected ["widgetWrapper"] inkWidgetReference
+---@field protected ["itemName"] inkTextWidgetReference
+---@field protected ["itemRarity"] inkWidgetReference
+---@field protected ["iconicLines"] inkWidgetReference
+---@field protected ["itemQuantity"] inkTextWidgetReference
+---@field protected ["defaultIcon"] inkWidgetReference
+---@field protected ["specialIcon"] inkImageWidgetReference
+---@field protected ["comparisionArrow"] inkImageWidgetReference
+---@field protected ["itemTypeIconWrapper"] inkWidgetReference
+---@field protected ["itemTypeIcon"] inkImageWidgetReference
+---@field protected ["highlightFrames"] inkWidgetReference[]
+---@field protected ["tooltipData"] InventoryTooltipData
+---@field protected ["lootingData"] MinimalLootingListItemData
 LootingListItemController = {}
 
 ---@param fields? table

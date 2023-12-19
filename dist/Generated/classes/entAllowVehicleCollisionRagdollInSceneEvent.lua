@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAllowVehicleCollisionRagdollInSceneEvent: redEvent
----@field public allow Bool
+---@field public ["allow"] Bool
 entAllowVehicleCollisionRagdollInSceneEvent = {}
 
 ---@param fields? table

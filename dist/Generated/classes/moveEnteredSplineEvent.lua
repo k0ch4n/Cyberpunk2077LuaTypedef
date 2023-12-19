@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveEnteredSplineEvent: redEvent
----@field public useDoors Bool
+---@field public ["useDoors"] Bool
 moveEnteredSplineEvent = {}
 
 ---@param fields? table

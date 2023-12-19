@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class SWidgetPackageBase
----@field public libraryPath redResourceReferenceScriptToken
----@field public libraryID CName
----@field public widgetTweakDBID TweakDBID
----@field public widget inkWidget
----@field public widgetName String
----@field public placement EWidgetPlacementType
----@field public orientation inkEOrientation
----@field public isValid Bool
+---@field public ["libraryPath"] redResourceReferenceScriptToken
+---@field public ["libraryID"] CName
+---@field public ["widgetTweakDBID"] TweakDBID
+---@field public ["widget"] inkWidget
+---@field public ["widgetName"] String
+---@field public ["placement"] EWidgetPlacementType
+---@field public ["orientation"] inkEOrientation
+---@field public ["isValid"] Bool
 SWidgetPackageBase = {}
 
 ---@param fields? table

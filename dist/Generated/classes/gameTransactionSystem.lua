@@ -16,7 +16,7 @@ function gameTransactionSystem.new(fields) return end
 ---@param plane? ERenderingPlane
 ---@param keepWorldTransform? Bool
 ---@param ignoreRestrictions? Bool
----@param garmentAppearanceName? CName
+---@param garmentAppearanceName? CName|string
 ---@param appearanceItem? gameItemID
 ---@param dontCacheEquippedItem? Bool
 ---@return Bool
@@ -56,7 +56,7 @@ function gameTransactionSystem:ChangeItemAppearanceByItemID(obj, itemID, newItem
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param newAppearanceName CName
+---@param newAppearanceName CName|string
 ---@return nil
 function gameTransactionSystem:ChangeItemAppearanceByName(obj, itemID, newAppearanceName) return end
 
@@ -158,23 +158,23 @@ function gameTransactionSystem:GetItemInSlotByItemID(obj, itemID) return end
 function gameTransactionSystem:GetItemList(obj) return end
 
 ---@param obj gameObject
----@param tag CName
+---@param tag CName|string
 ---@return Bool, gameItemData[] itemList
 function gameTransactionSystem:GetItemListByTag(obj, tag) return end
 
 ---@param obj gameObject
----@param tagList CName[]
+---@param tagList CName[]|string[]
 ---@return Bool, gameItemData[] itemList
 function gameTransactionSystem:GetItemListByTags(obj, tagList) return end
 
 ---@param obj gameObject
----@param tagList CName[]
+---@param tagList CName[]|string[]
 ---@return Bool, gameItemData[] itemList
 function gameTransactionSystem:GetItemListExcludingTags(obj, tagList) return end
 
 ---@param obj gameObject
----@param tags CName[]
----@param excludedTags CName[]
+---@param tags CName[]|string[]
+---@param excludedTags CName[]|string[]
 ---@return Bool, gameItemData[] itemList
 function gameTransactionSystem:GetItemListFilteredByTags(obj, tags, excludedTags) return end
 
@@ -184,7 +184,7 @@ function gameTransactionSystem:GetItemListFilteredByTags(obj, tags, excludedTags
 function gameTransactionSystem:GetItemQuantity(obj, itemID) return end
 
 ---@param obj gameObject
----@param tag CName
+---@param tag CName|string
 ---@return Int32
 function gameTransactionSystem:GetItemQuantityByTag(obj, tag) return end
 
@@ -205,7 +205,7 @@ function gameTransactionSystem:GetItemsInstallableInSlot(obj, itemID, slotID) re
 function gameTransactionSystem:GetNextActiveItemInSlot(obj, slotID) return end
 
 ---@param obj gameObject
----@param tagFilters? CName[]
+---@param tagFilters? CName[]|string[]
 ---@return Int32
 function gameTransactionSystem:GetNumItems(obj, tagFilters) return end
 
@@ -231,7 +231,7 @@ function gameTransactionSystem:GetVisualTagsByItemID(itemID, owner) return end
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param amount Int32
----@param dynamicTags? CName[]
+---@param dynamicTags? CName[]|string[]
 ---@return Bool
 function gameTransactionSystem:GiveItem(obj, itemID, amount, dynamicTags) return end
 
@@ -267,7 +267,7 @@ function gameTransactionSystem:GiveItems(obj, itemList) return end
 
 ---@param target gameObject
 ---@param amount Int32
----@param currency CName
+---@param currency CName|string
 ---@return Bool
 function gameTransactionSystem:GiveMoney(target, amount, currency) return end
 
@@ -304,7 +304,7 @@ function gameTransactionSystem:HasItemInAnySlot(obj, itemID) return end
 function gameTransactionSystem:HasItemInSlot(obj, slotID, itemID) return end
 
 ---@param obj gameObject
----@param tag CName
+---@param tag CName|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:HasTag(obj, tag, itemID) return end
@@ -324,20 +324,20 @@ function gameTransactionSystem:IsSlotEmpty(obj, slotID) return end
 function gameTransactionSystem:IsSlotEmptySpawningItem(obj, slotID) return end
 
 ---@param entity entEntity
----@param tag CName
+---@param tag CName|string
 ---@param matchUsingDefaultAppearance? Bool
 ---@return Bool
 function gameTransactionSystem:MatchVisualTag(entity, tag, matchUsingDefaultAppearance) return end
 
 ---@param itemID gameItemID
 ---@param owner gameObject
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameTransactionSystem:MatchVisualTagByItemID(itemID, owner, tag) return end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
----@param garmentAppearanceName? CName
+---@param garmentAppearanceName? CName|string
 ---@param appearanceItem? gameItemID
 ---@return Bool
 function gameTransactionSystem:OnItemAddedToEquipmentSlot(owner, itemID, garmentAppearanceName, appearanceItem) return end
@@ -349,7 +349,7 @@ function gameTransactionSystem:OnItemRemovedFromEquipmentSlot(owner, itemID) ret
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param newAppearanceName CName
+---@param newAppearanceName CName|string
 ---@return nil
 function gameTransactionSystem:PrefetchItemAppearance(obj, itemID, newAppearanceName) return end
 
@@ -411,7 +411,7 @@ function gameTransactionSystem:RemoveItemFromSlot(obj, slotID, shouldDestroyEnti
 
 ---@param obj gameObject
 ---@param amount Int32
----@param currency CName
+---@param currency CName|string
 ---@return Bool
 function gameTransactionSystem:RemoveMoney(obj, amount, currency) return end
 
@@ -445,7 +445,7 @@ function gameTransactionSystem:RunItemQuery(itemQueryTDBID, context, seed) retur
 ---@param buyer gameObject
 ---@param itemID gameItemID
 ---@param amount Int32
----@param currency CName
+---@param currency CName|string
 ---@param price? Int32
 ---@return Bool
 function gameTransactionSystem:SellItem(seller, buyer, itemID, amount, currency, price) return end
@@ -454,7 +454,7 @@ function gameTransactionSystem:SellItem(seller, buyer, itemID, amount, currency,
 ---@param buyer gameObject
 ---@param itemID gameItemID
 ---@param amount Int32
----@param currency CName
+---@param currency CName|string
 ---@param price? Int32
 ---@return Bool
 function gameTransactionSystem:SellItemStrict(seller, buyer, itemID, amount, currency, price) return end
@@ -485,7 +485,7 @@ function gameTransactionSystem:TransferAllItems(source, target) return end
 ---@param target gameObject
 ---@param itemID gameItemID
 ---@param amount Int32
----@param dynamicTags? CName[]
+---@param dynamicTags? CName[]|string[]
 ---@param force? Bool
 ---@param flagItemAsSilent? Bool
 ---@return Bool
@@ -494,7 +494,7 @@ function gameTransactionSystem:TransferItem(source, target, itemID, amount, dyna
 ---@param source gameObject
 ---@param target gameObject
 ---@param amount Int32
----@param currency CName
+---@param currency CName|string
 ---@return Bool
 function gameTransactionSystem:TransferMoney(source, target, amount, currency) return end
 

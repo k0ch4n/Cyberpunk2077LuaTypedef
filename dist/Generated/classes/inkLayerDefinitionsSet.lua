@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkLayerDefinitionsSet
----@field public layersDefinitions inkLayerDefinition_NEW[]
----@field public layersSystemConnections inkLayerSystemConnection[]
+---@field public ["layersDefinitions"] inkLayerDefinition_NEW[]
+---@field public ["layersSystemConnections"] inkLayerSystemConnection[]
 inkLayerDefinitionsSet = {}
 
 ---@param fields? table

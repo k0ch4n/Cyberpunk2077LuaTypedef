@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameplayConditionBase: IScriptable
----@field protected entityID entEntityID
+---@field protected ["entityID"] entEntityID
 GameplayConditionBase = {}
 
 ---@param requester gameObject

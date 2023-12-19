@@ -3,7 +3,7 @@
 
 ---@enum GogPopupScreenType
 GogPopupScreenType = {
-    ["Default"] = 0,
-    ["Rewards"] = 1,
-    ["Invalid"] = -1
+    ["Default"] = 0, ---@type Enum
+    ["Rewards"] = 1, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

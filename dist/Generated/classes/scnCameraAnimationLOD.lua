@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnCameraAnimationLOD
----@field public trajectory scnAnimationMotionSample
----@field public tracks Float
+---@field public ["trajectory"] scnAnimationMotionSample
+---@field public ["tracks"] Float
 scnCameraAnimationLOD = {}
 
 ---@param fields? table

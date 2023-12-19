@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseVisibleObjectDistanceEvent: redEvent
----@field public distance Float
+---@field public ["distance"] Float
 senseVisibleObjectDistanceEvent = {}
 
 ---@param fields? table

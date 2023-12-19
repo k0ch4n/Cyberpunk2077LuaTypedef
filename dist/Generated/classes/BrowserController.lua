@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class BrowserController: inkWidgetLogicController
----@field protected homeButton inkWidgetReference
----@field protected homeButtonCoontroller LinkController
----@field protected addressText inkTextWidgetReference
----@field protected pageContentRoot inkWidgetReference
----@field protected spinnerContentRoot inkWidgetReference
----@field protected journalManager gameJournalManager
----@field protected spinnerPath redResourceReferenceScriptToken
----@field protected webPageLibraryID CName
----@field protected defaultDevicePage String
----@field private gameController BrowserGameController
----@field private currentRequestedPage gameJournalInternetPage
----@field private currentPage inkCompoundWidget
----@field private webPageSpawnRequest inkAsyncSpawnRequest
+---@field protected ["homeButton"] inkWidgetReference
+---@field protected ["homeButtonCoontroller"] LinkController
+---@field protected ["addressText"] inkTextWidgetReference
+---@field protected ["pageContentRoot"] inkWidgetReference
+---@field protected ["spinnerContentRoot"] inkWidgetReference
+---@field protected ["journalManager"] gameJournalManager
+---@field protected ["spinnerPath"] redResourceReferenceScriptToken
+---@field protected ["webPageLibraryID"] CName
+---@field protected ["defaultDevicePage"] String
+---@field private ["gameController"] BrowserGameController
+---@field private ["currentRequestedPage"] gameJournalInternetPage
+---@field private ["currentPage"] inkCompoundWidget
+---@field private ["webPageSpawnRequest"] inkAsyncSpawnRequest
 BrowserController = {}
 
 ---@param fields? table

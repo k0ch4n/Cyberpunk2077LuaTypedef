@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ActionInteractivityInfo
----@field public isExternal Bool
----@field public isRemote Bool
----@field public isDirect Bool
+---@field public ["isExternal"] Bool
+---@field public ["isRemote"] Bool
+---@field public ["isDirect"] Bool
 ActionInteractivityInfo = {}
 
 ---@param fields? table

@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class SmasherPlayVFX: AIbehaviortaskScript
----@field private vfxOffset Vector3
----@field private vfxResource gameFxResource
----@field private fxDirection AIArgumentMapping
----@field private attachmentSlotName CName
----@field private delay Float
----@field private KillFx Bool
----@field private effectToKill CName
----@field private owner gameObject
----@field private vfxInstance gameFxInstance
----@field private startTime Float
+---@field private ["vfxOffset"] Vector3
+---@field private ["vfxResource"] gameFxResource
+---@field private ["fxDirection"] AIArgumentMapping
+---@field private ["attachmentSlotName"] CName
+---@field private ["delay"] Float
+---@field private ["KillFx"] Bool
+---@field private ["effectToKill"] CName
+---@field private ["owner"] gameObject
+---@field private ["vfxInstance"] gameFxInstance
+---@field private ["startTime"] Float
 SmasherPlayVFX = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum HUDState
 HUDState = {
-    ["UNINITIALIZED"] = 0,
-    ["DEACTIVATED"] = 1,
-    ["ACTIVATED"] = 2
+    ["UNINITIALIZED"] = 0, ---@type Enum
+    ["DEACTIVATED"] = 1, ---@type Enum
+    ["ACTIVATED"] = 2, ---@type Enum
 }

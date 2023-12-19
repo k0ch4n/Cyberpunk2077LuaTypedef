@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ElectricLight: Device
----@field private lightComponents gameLightComponent[]
----@field private lightDefinitions gamedataLightPreset[]
+---@field private ["lightComponents"] gameLightComponent[]
+---@field private ["lightDefinitions"] gamedataLightPreset[]
 ElectricLight = {}
 
 ---@param fields? table

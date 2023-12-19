@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameeventsDeathParamsEvent: redEvent
----@field public noAnimation Bool
----@field public noRagdoll Bool
+---@field public ["noAnimation"] Bool
+---@field public ["noRagdoll"] Bool
 gameeventsDeathParamsEvent = {}
 
 ---@param fields? table

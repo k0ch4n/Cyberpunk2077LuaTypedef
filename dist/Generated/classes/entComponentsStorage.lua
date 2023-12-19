@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entComponentsStorage: ISerializable
----@field public components entIComponent[]
+---@field public ["components"] entIComponent[]
 entComponentsStorage = {}
 
 ---@param fields? table

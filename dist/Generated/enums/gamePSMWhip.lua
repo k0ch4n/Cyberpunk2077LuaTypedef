@@ -3,7 +3,7 @@
 
 ---@enum gamePSMWhip
 gamePSMWhip = {
-    ["Default"] = 0,
-    ["Charging"] = 1,
-    ["Pulling"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Charging"] = 1, ---@type Enum
+    ["Pulling"] = 2, ---@type Enum
 }

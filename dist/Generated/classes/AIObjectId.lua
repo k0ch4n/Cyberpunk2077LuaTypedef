@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIObjectId
----@field public value Uint64
+---@field public ["value"] Uint64
 AIObjectId = {}
 
 ---@param fields? table

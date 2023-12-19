@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayBreathingAnimationEffector: gameEffector
----@field public animFeature AnimFeature_CameraBreathing
----@field public animFeatureName CName
----@field public owner gameObject
+---@field public ["animFeature"] AnimFeature_CameraBreathing
+---@field public ["animFeatureName"] CName
+---@field public ["owner"] gameObject
 PlayBreathingAnimationEffector = {}
 
 ---@param fields? table

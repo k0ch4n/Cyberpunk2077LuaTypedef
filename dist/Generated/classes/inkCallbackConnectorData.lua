@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkCallbackConnectorData: IScriptable
----@field public userData IScriptable
+---@field public ["userData"] IScriptable
 inkCallbackConnectorData = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ inkCallbackConnectorData = {}
 function inkCallbackConnectorData.new(fields) return end
 
 ---@param target IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkCallbackConnectorData:RegisterListener(target, functionName) return end
 

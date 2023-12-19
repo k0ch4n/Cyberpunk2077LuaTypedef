@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemOutput: ActionBool
----@field private currentSecurityState ESecuritySystemState
----@field private breachOrigin EBreachOrigin
----@field private originalInputEvent SecuritySystemInput
----@field private securityStateChanged Bool
+---@field private ["currentSecurityState"] ESecuritySystemState
+---@field private ["breachOrigin"] EBreachOrigin
+---@field private ["originalInputEvent"] SecuritySystemInput
+---@field private ["securityStateChanged"] Bool
 SecuritySystemOutput = {}
 
 ---@param fields? table

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class sampleBulletGeneric: BaseProjectile
----@field private meshComponent entIComponent
----@field private damage gameEffectInstance
----@field private countTime Float
----@field private startVelocity Float
----@field private lifetime Float
----@field private alive Bool
+---@field private ["meshComponent"] entIComponent
+---@field private ["damage"] gameEffectInstance
+---@field private ["countTime"] Float
+---@field private ["startVelocity"] Float
+---@field private ["lifetime"] Float
+---@field private ["alive"] Bool
 sampleBulletGeneric = {}
 
 ---@param fields? table

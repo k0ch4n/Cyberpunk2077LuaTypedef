@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AHintItemController: inkWidgetLogicController
----@field protected Icon inkImageWidgetReference
----@field protected UnavaliableText inkTextWidgetReference
----@field protected Root inkWidget
+---@field protected ["Icon"] inkImageWidgetReference
+---@field protected ["UnavaliableText"] inkTextWidgetReference
+---@field protected ["Root"] inkWidget
 AHintItemController = {}
 
 ---@protected
@@ -24,7 +24,7 @@ function AHintItemController:CacheAnimations() return end
 ---@return nil
 function AHintItemController:OnAnimFinished(anim) return end
 
----@param atlasPath CName
----@param iconName CName
+---@param atlasPath CName|string
+---@param iconName CName|string
 ---@return nil
 function AHintItemController:SetIcon(atlasPath, iconName) return end

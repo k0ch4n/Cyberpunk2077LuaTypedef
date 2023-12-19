@@ -24,6 +24,6 @@ function gamedataMovementPolicyTagList_Record:GetTagsItem(index) return end
 ---@return CName[]
 function gamedataMovementPolicyTagList_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataMovementPolicyTagList_Record:TagsContains(item) return end

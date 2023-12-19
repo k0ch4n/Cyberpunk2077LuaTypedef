@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WardrobeWrappedInventoryItemData: WrappedInventoryItemData
----@field public AppearanceName String
+---@field public ["AppearanceName"] String
 WardrobeWrappedInventoryItemData = {}
 
 ---@param fields? table

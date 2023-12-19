@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SHitStatusEffect
----@field public stacks Float
----@field public id TweakDBID
+---@field public ["stacks"] Float
+---@field public ["id"] TweakDBID
 SHitStatusEffect = {}
 
 ---@param fields? table

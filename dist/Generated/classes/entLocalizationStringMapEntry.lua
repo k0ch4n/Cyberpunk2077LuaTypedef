@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entLocalizationStringMapEntry
----@field public key CName
----@field public string LocalizationString
+---@field public ["key"] CName
+---@field public ["string"] LocalizationString
 entLocalizationStringMapEntry = {}
 
 ---@param fields? table

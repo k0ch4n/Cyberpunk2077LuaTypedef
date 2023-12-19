@@ -9,13 +9,13 @@ MenuScenario_LoadGame = {}
 function MenuScenario_LoadGame.new(fields) return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_LoadGame:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_LoadGame:OnLeaveScenario(nextScenario) return end
 

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeDecisionDefinition: AICTreeNodeCompositeDefinition
----@field public child LibTreeINodeDefinition
----@field public expressions LibTreeINodeDefinition[]
----@field public interruption AIInterruptionSignal
+---@field public ["child"] LibTreeINodeDefinition
+---@field public ["expressions"] LibTreeINodeDefinition[]
+---@field public ["interruption"] AIInterruptionSignal
 AICTreeNodeDecisionDefinition = {}
 
 ---@param fields? table

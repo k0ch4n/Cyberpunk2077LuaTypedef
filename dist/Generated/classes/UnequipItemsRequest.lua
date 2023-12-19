@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnequipItemsRequest: gamePlayerScriptableSystemRequest
----@field public items gameItemID[]
+---@field public ["items"] gameItemID[]
 UnequipItemsRequest = {}
 
 ---@param fields? table

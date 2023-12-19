@@ -29,7 +29,7 @@ function gamedataStat_Record:EnumName() return end
 ---@return CName[]
 function gamedataStat_Record:Flags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStat_Record:FlagsContains(item) return end
 
@@ -107,6 +107,6 @@ function gamedataStat_Record:SubstatsContains(item) return end
 ---@return CName[]
 function gamedataStat_Record:Themes() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStat_Record:ThemesContains(item) return end

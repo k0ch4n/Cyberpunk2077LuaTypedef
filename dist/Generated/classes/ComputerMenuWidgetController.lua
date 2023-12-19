@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ComputerMenuWidgetController: inkWidgetLogicController
----@field protected thumbnailsListWidget inkWidgetReference
----@field protected contentWidget inkWidgetReference
----@field protected isInitialized Bool
----@field private fileWidgetsData SDocumentWidgetPackage[]
----@field private fileThumbnailWidgetsData SDocumentThumbnailWidgetPackage[]
+---@field protected ["thumbnailsListWidget"] inkWidgetReference
+---@field protected ["contentWidget"] inkWidgetReference
+---@field protected ["isInitialized"] Bool
+---@field private ["fileWidgetsData"] SDocumentWidgetPackage[]
+---@field private ["fileThumbnailWidgetsData"] SDocumentThumbnailWidgetPackage[]
 ComputerMenuWidgetController = {}
 
 ---@param fields? table

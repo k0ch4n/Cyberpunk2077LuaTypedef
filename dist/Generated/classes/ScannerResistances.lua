@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerResistances: ScannerChunk
----@field public resists ScannerStatDetails[]
+---@field public ["resists"] ScannerStatDetails[]
 ScannerResistances = {}
 
 ---@param fields? table

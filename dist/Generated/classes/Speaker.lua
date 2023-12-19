@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Speaker: InteractiveDevice
----@field protected soundEventPlaying Bool
----@field protected soundEvent CName
----@field protected effectRef gameEffectRef
----@field protected deafGameEffect gameEffectInstance
----@field protected targets ScriptedPuppet[]
----@field protected statusEffect TweakDBID
+---@field protected ["soundEventPlaying"] Bool
+---@field protected ["soundEvent"] CName
+---@field protected ["effectRef"] gameEffectRef
+---@field protected ["deafGameEffect"] gameEffectInstance
+---@field protected ["targets"] ScriptedPuppet[]
+---@field protected ["statusEffect"] TweakDBID
 Speaker = {}
 
 ---@param fields? table

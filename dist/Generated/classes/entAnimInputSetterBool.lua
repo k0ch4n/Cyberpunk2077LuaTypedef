@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterBool: entAnimInputSetter
----@field public value Bool
+---@field public ["value"] Bool
 entAnimInputSetterBool = {}
 
 ---@param fields? table

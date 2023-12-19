@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetKilledHitPrereqCondition: BaseHitPrereqCondition
----@field private lastTarget gameObject
+---@field private ["lastTarget"] gameObject
 TargetKilledHitPrereqCondition = {}
 
 ---@param fields? table

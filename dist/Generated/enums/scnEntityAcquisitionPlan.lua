@@ -3,13 +3,13 @@
 
 ---@enum scnEntityAcquisitionPlan
 scnEntityAcquisitionPlan = {
-    ["findInContext"] = 1,
-    ["findInWorld"] = 2,
-    ["spawnDespawn"] = 3,
-    ["findInEntity"] = 4,
-    ["spawnSet"] = 5,
-    ["community"] = 6,
-    ["spawner"] = 7,
-    ["findNetworkPlayer"] = 9,
-    ["findInNode"] = 8
+    ["findInContext"] = 1, ---@type Enum
+    ["findInWorld"] = 2, ---@type Enum
+    ["spawnDespawn"] = 3, ---@type Enum
+    ["findInEntity"] = 4, ---@type Enum
+    ["spawnSet"] = 5, ---@type Enum
+    ["community"] = 6, ---@type Enum
+    ["spawner"] = 7, ---@type Enum
+    ["findNetworkPlayer"] = 9, ---@type Enum
+    ["findInNode"] = 8, ---@type Enum
 }

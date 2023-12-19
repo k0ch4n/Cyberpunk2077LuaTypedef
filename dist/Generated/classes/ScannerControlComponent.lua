@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ScannerControlComponent: gameScriptableComponent
----@field private currentScanType MechanicalScanType
----@field private currentScanEffect gameEffectInstance
----@field private currentScanAnimation CName
----@field private scannerTriggerComponentName CName
----@field private scannerTriggerComponent entIComponent
----@field private a gameStaticTriggerAreaComponent
----@field private isScanningPlayer Bool
+---@field private ["currentScanType"] MechanicalScanType
+---@field private ["currentScanEffect"] gameEffectInstance
+---@field private ["currentScanAnimation"] CName
+---@field private ["scannerTriggerComponentName"] CName
+---@field private ["scannerTriggerComponent"] entIComponent
+---@field private ["a"] gameStaticTriggerAreaComponent
+---@field private ["isScanningPlayer"] Bool
 ScannerControlComponent = {}
 
 ---@param fields? table
@@ -50,7 +50,7 @@ function ScannerControlComponent:OnTakeControl(ri) return end
 function ScannerControlComponent:OnGameAttach() return end
 
 ---@protected
----@param animationName CName
+---@param animationName CName|string
 ---@return nil
 function ScannerControlComponent:PlayScannerSlotAnimation(animationName) return end
 

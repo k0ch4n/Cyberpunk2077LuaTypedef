@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ResetAvoidLOSTimeStamp: AIbehaviortaskScript
----@field public onDeactivation Bool
----@field private initialized Bool
----@field private actionBBoard gameIBlackboard
+---@field public ["onDeactivation"] Bool
+---@field private ["initialized"] Bool
+---@field private ["actionBBoard"] gameIBlackboard
 ResetAvoidLOSTimeStamp = {}
 
 ---@param fields? table

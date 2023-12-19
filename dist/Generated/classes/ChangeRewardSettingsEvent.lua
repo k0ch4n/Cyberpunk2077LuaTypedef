@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChangeRewardSettingsEvent: redEvent
----@field public forceDefeatReward Bool
----@field public disableKillReward Bool
+---@field public ["forceDefeatReward"] Bool
+---@field public ["disableKillReward"] Bool
 ChangeRewardSettingsEvent = {}
 
 ---@param fields? table

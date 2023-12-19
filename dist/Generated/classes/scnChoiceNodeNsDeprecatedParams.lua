@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsDeprecatedParams
----@field public actorId scnActorId
----@field public propId scnPropId
+---@field public ["actorId"] scnActorId
+---@field public ["propId"] scnPropId
 scnChoiceNodeNsDeprecatedParams = {}
 
 ---@param fields? table

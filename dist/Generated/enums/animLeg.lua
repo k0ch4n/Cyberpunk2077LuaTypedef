@@ -3,6 +3,6 @@
 
 ---@enum animLeg
 animLeg = {
-    ["Left"] = 0,
-    ["Right"] = 1
+    ["Left"] = 0, ---@type Enum
+    ["Right"] = 1, ---@type Enum
 }

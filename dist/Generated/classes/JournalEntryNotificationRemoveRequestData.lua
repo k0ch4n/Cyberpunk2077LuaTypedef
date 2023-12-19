@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class JournalEntryNotificationRemoveRequestData: IScriptable
----@field public entryHash Uint32
+---@field public ["entryHash"] Uint32
 JournalEntryNotificationRemoveRequestData = {}
 
 ---@param fields? table

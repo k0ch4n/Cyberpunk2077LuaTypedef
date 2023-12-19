@@ -3,7 +3,7 @@
 
 ---@enum gameWorkspotSlidingBehaviour
 gameWorkspotSlidingBehaviour = {
-    ["PlayAtResourcePosition"] = 1,
-    ["DontPlayAtResourcePosition"] = 0,
-    ["SlideActorAndRotateDevice"] = 2
+    ["PlayAtResourcePosition"] = 1, ---@type Enum
+    ["DontPlayAtResourcePosition"] = 0, ---@type Enum
+    ["SlideActorAndRotateDevice"] = 2, ---@type Enum
 }

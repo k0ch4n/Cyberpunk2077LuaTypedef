@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SystemConsoleLogicController: inkWidgetLogicController
----@field public alphaSys inkWidgetReference
----@field public bravoSys inkWidgetReference
----@field public sierraSys inkWidgetReference
----@field public victorSys inkWidgetReference
+---@field public ["alphaSys"] inkWidgetReference
+---@field public ["bravoSys"] inkWidgetReference
+---@field public ["sierraSys"] inkWidgetReference
+---@field public ["victorSys"] inkWidgetReference
 SystemConsoleLogicController = {}
 
 ---@param fields? table

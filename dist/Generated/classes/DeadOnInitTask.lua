@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeadOnInitTask: AIbehaviortaskScript
----@field public preventSkippingDeathAnimation Bool
+---@field public ["preventSkippingDeathAnimation"] Bool
 DeadOnInitTask = {}
 
 ---@param fields? table

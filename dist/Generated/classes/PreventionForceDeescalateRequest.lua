@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionForceDeescalateRequest: gameScriptableSystemRequest
----@field public fakeBlinkingDuration Float
----@field public telemetryInfo String
+---@field public ["fakeBlinkingDuration"] Float
+---@field public ["telemetryInfo"] String
 PreventionForceDeescalateRequest = {}
 
 ---@param fields? table

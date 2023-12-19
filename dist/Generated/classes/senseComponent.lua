@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class senseComponent: entIPlacedComponent
----@field public enableBeingDetectable Bool
----@field public visibleObject senseVisibleObject
----@field public sensorObject senseSensorObject
----@field public isEnabled Bool
----@field public forceDisableUI Bool
----@field private highLevelCb redCallbackObject
----@field private reactionCb redCallbackObject
----@field private wantedLevelChangedCb redCallbackObject
----@field private highLevelState gamedataNPCHighLevelState
----@field private mainPreset TweakDBID
----@field private secondaryPreset TweakDBID
----@field private puppetBlackboard gameIBlackboard
----@field private uiWantedBarBB gameIBlackboard
----@field private hideUIElements Bool
----@field private enabledSenses Bool
----@field private shouldStartDetectingPlayerCached Bool
----@field private wasPlayerLastReactionTarget Bool
----@field private logSource ESenseLogSource
----@field private playerTakedownStateCallbackID redCallbackObject
----@field private playerUpperBodyStateCallbackID redCallbackObject
----@field private playerCarryingStateCallbackID redCallbackObject
----@field private playerInPerception PlayerPuppet
+---@field public ["enableBeingDetectable"] Bool
+---@field public ["visibleObject"] senseVisibleObject
+---@field public ["sensorObject"] senseSensorObject
+---@field public ["isEnabled"] Bool
+---@field public ["forceDisableUI"] Bool
+---@field private ["highLevelCb"] redCallbackObject
+---@field private ["reactionCb"] redCallbackObject
+---@field private ["wantedLevelChangedCb"] redCallbackObject
+---@field private ["highLevelState"] gamedataNPCHighLevelState
+---@field private ["mainPreset"] TweakDBID
+---@field private ["secondaryPreset"] TweakDBID
+---@field private ["puppetBlackboard"] gameIBlackboard
+---@field private ["uiWantedBarBB"] gameIBlackboard
+---@field private ["hideUIElements"] Bool
+---@field private ["enabledSenses"] Bool
+---@field private ["shouldStartDetectingPlayerCached"] Bool
+---@field private ["wasPlayerLastReactionTarget"] Bool
+---@field private ["logSource"] ESenseLogSource
+---@field private ["playerTakedownStateCallbackID"] redCallbackObject
+---@field private ["playerUpperBodyStateCallbackID"] redCallbackObject
+---@field private ["playerCarryingStateCallbackID"] redCallbackObject
+---@field private ["playerInPerception"] PlayerPuppet
 senseComponent = {}
 
 ---@param fields? table
@@ -106,7 +106,7 @@ function senseComponent:GetTimeSinceLastEntityVisible(entityID) return end
 ---@return Float
 function senseComponent:GetVisibilityTraceEndToAgentDist(object) return end
 
----@param attitudeGroup CName
+---@param attitudeGroup CName|string
 ---@return Bool
 function senseComponent:HasDetectionAttitudeOverwrite(attitudeGroup) return end
 
@@ -131,7 +131,7 @@ function senseComponent:IsAgentVisible(object) return end
 ---@return Bool
 function senseComponent:IsHearingEnabled() return end
 
----@param attitudeGroup CName
+---@param attitudeGroup CName|string
 ---@return Bool
 function senseComponent:RemoveDetectionAttitudeOverwrite(attitudeGroup) return end
 
@@ -161,7 +161,7 @@ function senseComponent:ResetDetection(entityID) return end
 ---@return nil
 function senseComponent:SetCrowdsAggressiveState(isAggresive) return end
 
----@param attitudeGroup CName
+---@param attitudeGroup CName|string
 ---@return nil
 function senseComponent:SetDetectionAttitudeOverwrite(attitudeGroup) return end
 
@@ -174,7 +174,7 @@ function senseComponent:SetDetectionCoolDown(coolDown) return end
 function senseComponent:SetDetectionDropFactor(detectionDrop) return end
 
 ---@param detection Float
----@param shapeName? CName
+---@param shapeName? CName|string
 ---@return Bool
 function senseComponent:SetDetectionFactor(detection, shapeName) return end
 
@@ -421,13 +421,13 @@ function senseComponent:IsTargetInterestingForSecuritySystem(target) return end
 function senseComponent:IsTargetPlayer(target) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function senseComponent:Log(category, message) return end
 
 ---@private
----@param category CName
+---@param category CName|string
 ---@param message String
 ---@return nil
 function senseComponent:LogBySource(category, message) return end

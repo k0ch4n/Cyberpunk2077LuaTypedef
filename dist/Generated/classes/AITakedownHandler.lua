@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITakedownHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field public ["inCommand"] AIArgumentMapping
 AITakedownHandler = {}
 
 ---@param fields? table

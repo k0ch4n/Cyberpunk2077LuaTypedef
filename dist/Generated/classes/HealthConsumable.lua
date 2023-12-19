@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HealthConsumable: gameCpoPickableItem
----@field private interactionComponent gameinteractionsComponent
----@field private meshComponent entMeshComponent
----@field private disappearAfterEquip Bool
----@field private respawnTime Float
+---@field private ["interactionComponent"] gameinteractionsComponent
+---@field private ["meshComponent"] entMeshComponent
+---@field private ["disappearAfterEquip"] Bool
+---@field private ["respawnTime"] Float
 HealthConsumable = {}
 
 ---@param fields? table

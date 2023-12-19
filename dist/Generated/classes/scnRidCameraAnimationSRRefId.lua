@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidCameraAnimationSRRefId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnRidCameraAnimationSRRefId = {}
 
 ---@param fields? table

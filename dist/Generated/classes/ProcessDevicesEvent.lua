@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProcessDevicesEvent: redEvent
----@field public devices gameDeviceComponentPS[]
+---@field public ["devices"] gameDeviceComponentPS[]
 ProcessDevicesEvent = {}
 
 ---@param fields? table

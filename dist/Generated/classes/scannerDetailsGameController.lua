@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class scannerDetailsGameController: gameuiHUDGameController
----@field private scannerCountainer inkCompoundWidgetReference
----@field private quickhackContainer inkCompoundWidgetReference
----@field private cluesContainer inkCompoundWidgetReference
----@field private toggleDescirptionHackPart inkWidgetReference
----@field private kiroshiLogo inkWidgetReference
----@field private player gameObject
----@field private scanningState gameScanningState
----@field private scannedObjectType ScannerObjectType
----@field private currentTab ScannerDetailTab
----@field private isQuickHackAble Bool
----@field private isQuickHackPanelOpened Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
----@field private uiScannedObjectTypeChangedCallbackID redCallbackObject
----@field private uiScanningStateChangedCallbackID redCallbackObject
----@field private uiScannedObjectChangedCallbackID redCallbackObject
----@field private uiQHDescriptionChangedCallbackID redCallbackObject
----@field private uiQHPanelOpenedCallbackID redCallbackObject
----@field private uiSystemIsInMenuCallbackID redCallbackObject
----@field private introAnimProxy inkanimProxy
----@field private outroAnimProxy inkanimProxy
----@field private scannerToggleTabAnimProxy inkanimProxy
+---@field private ["scannerCountainer"] inkCompoundWidgetReference
+---@field private ["quickhackContainer"] inkCompoundWidgetReference
+---@field private ["cluesContainer"] inkCompoundWidgetReference
+---@field private ["toggleDescirptionHackPart"] inkWidgetReference
+---@field private ["kiroshiLogo"] inkWidgetReference
+---@field private ["player"] gameObject
+---@field private ["scanningState"] gameScanningState
+---@field private ["scannedObjectType"] ScannerObjectType
+---@field private ["currentTab"] ScannerDetailTab
+---@field private ["isQuickHackAble"] Bool
+---@field private ["isQuickHackPanelOpened"] Bool
+---@field private ["asyncSpawnRequests"] inkAsyncSpawnRequest[]
+---@field private ["uiScannedObjectTypeChangedCallbackID"] redCallbackObject
+---@field private ["uiScanningStateChangedCallbackID"] redCallbackObject
+---@field private ["uiScannedObjectChangedCallbackID"] redCallbackObject
+---@field private ["uiQHDescriptionChangedCallbackID"] redCallbackObject
+---@field private ["uiQHPanelOpenedCallbackID"] redCallbackObject
+---@field private ["uiSystemIsInMenuCallbackID"] redCallbackObject
+---@field private ["introAnimProxy"] inkanimProxy
+---@field private ["outroAnimProxy"] inkanimProxy
+---@field private ["scannerToggleTabAnimProxy"] inkanimProxy
 scannerDetailsGameController = {}
 
 ---@param fields? table
@@ -83,7 +83,7 @@ function scannerDetailsGameController:OnScanningStateChanged(value) return end
 function scannerDetailsGameController:OnUnitialize() return end
 
 ---@private
----@param scannerWidgetLibraryName CName
+---@param scannerWidgetLibraryName CName|string
 ---@return nil
 function scannerDetailsGameController:AsyncSpawnScannerModule(scannerWidgetLibraryName) return end
 

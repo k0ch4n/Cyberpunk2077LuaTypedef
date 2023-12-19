@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class WebPage: inkWidgetLogicController
----@field protected textList inkTextWidgetReference[]
----@field protected rectangleList inkRectangleWidgetReference[]
----@field protected imageList inkImageWidgetReference[]
----@field protected videoList inkVideoWidgetReference[]
----@field protected canvasesList inkCanvasWidgetReference[]
----@field private lastClickedLinkAddress String
----@field private HOME_IMAGE_NAME String
----@field private HOME_TEXT_NAME String
+---@field protected ["textList"] inkTextWidgetReference[]
+---@field protected ["rectangleList"] inkRectangleWidgetReference[]
+---@field protected ["imageList"] inkImageWidgetReference[]
+---@field protected ["videoList"] inkVideoWidgetReference[]
+---@field protected ["canvasesList"] inkCanvasWidgetReference[]
+---@field private ["lastClickedLinkAddress"] String
+---@field private ["HOME_IMAGE_NAME"] String
+---@field private ["HOME_TEXT_NAME"] String
 WebPage = {}
 
 ---@param fields? table
@@ -54,7 +54,7 @@ function WebPage:FillPageFromJournal(page) return end
 function WebPage:FillPageFromScripts(address, journalManager) return end
 
 ---@private
----@param instanceName CName
+---@param instanceName CName|string
 ---@return inkImageWidgetReference
 function WebPage:GetImageRef(instanceName) return end
 
@@ -68,7 +68,7 @@ function WebPage:GetLastLinkClicked() return end
 function WebPage:GetRefName(prefix, number) return end
 
 ---@private
----@param instanceName CName
+---@param instanceName CName|string
 ---@return inkTextWidgetReference
 function WebPage:GetTextRef(instanceName) return end
 
@@ -82,6 +82,6 @@ function WebPage:OnLinkCallback(e) return end
 ---@param shortName String
 ---@param pageAddress String
 ---@param iconAtlasPath redResourceReferenceScriptToken
----@param iconTexturePart CName
+---@param iconTexturePart CName|string
 ---@return nil
 function WebPage:SetSlot(number, shortName, pageAddress, iconAtlasPath, iconTexturePart) return end

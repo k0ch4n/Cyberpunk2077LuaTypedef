@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_BulletImpact: gameEffectExecutor
----@field public isBackfaceImpact Bool
----@field public noAudio Bool
----@field public isMeleeAttack Bool
+---@field public ["isBackfaceImpact"] Bool
+---@field public ["noAudio"] Bool
+---@field public ["isMeleeAttack"] Bool
 gameEffectExecutor_BulletImpact = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function gameEffectExecutor_BulletImpact.new(fields) return end
 
 ---@param ctx gameEffectScriptContext
 ---@param isMelee Bool
----@param orginalHitMaterial CName
+---@param orginalHitMaterial CName|string
 ---@param target entEntity
 ---@param hitPosition Vector4
 ---@param hitDirection Vector4

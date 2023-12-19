@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemComparableTypesCache: IScriptable
----@field public itemType gamedataItemType
----@field public itemTypeRecord gamedataItemType_Record
----@field public comparableTypes gamedataItemType[]
----@field public comparableRecordTypes gamedataItemType_Record[]
+---@field public ["itemType"] gamedataItemType
+---@field public ["itemTypeRecord"] gamedataItemType_Record
+---@field public ["comparableTypes"] gamedataItemType[]
+---@field public ["comparableRecordTypes"] gamedataItemType_Record[]
 InventoryItemComparableTypesCache = {}
 
 ---@param fields? table

@@ -62,7 +62,7 @@ function gameItemData:GetUsedSlotsOnItem() return end
 ---@return Int32
 function gameItemData:GetVariant() return end
 
----@param tags CName[]
+---@param tags CName[]|string[]
 ---@return Bool
 function gameItemData:HasAnyOfTags(tags) return end
 
@@ -82,7 +82,7 @@ function gameItemData:HasPlacementSlot(slotID) return end
 ---@return Bool
 function gameItemData:HasStatData(type) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameItemData:HasTag(tag) return end
 
@@ -90,11 +90,11 @@ function gameItemData:HasTag(tag) return end
 ---@return nil
 function gameItemData:ReinitializePlayerStats(ownerID) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameItemData:RemoveDynamicTag(tag) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameItemData:SetDynamicTag(tag) return end
 

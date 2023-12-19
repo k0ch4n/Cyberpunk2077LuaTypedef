@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_IntEdgeGreaterFromZeroFeature: animAnimStateTransitionCondition_IntEdgeFeature
----@field public greaterThenValue Int32
+---@field public ["greaterThenValue"] Int32
 animAnimStateTransitionCondition_IntEdgeGreaterFromZeroFeature = {}
 
 ---@param fields? table

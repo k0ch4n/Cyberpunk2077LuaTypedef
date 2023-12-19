@@ -3,10 +3,10 @@
 
 ---@enum physicsShapeType
 physicsShapeType = {
-    ["Box"] = 0,
-    ["Sphere"] = 1,
-    ["Capsule"] = 2,
-    ["ConvexMesh"] = 3,
-    ["TriangleMesh"] = 4,
-    ["Invalid"] = 6
+    ["Box"] = 0, ---@type Enum
+    ["Sphere"] = 1, ---@type Enum
+    ["Capsule"] = 2, ---@type Enum
+    ["ConvexMesh"] = 3, ---@type Enum
+    ["TriangleMesh"] = 4, ---@type Enum
+    ["Invalid"] = 6, ---@type Enum
 }

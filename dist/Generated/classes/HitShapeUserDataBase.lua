@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class HitShapeUserDataBase: gameHitShapeUserData
----@field public hitShapeTag CName
----@field public hitShapeType EHitShapeType
----@field public hitReactionZone EHitReactionZone
----@field public dismembermentPart EAIDismembermentBodyPart
----@field public isProtectionLayer Bool
----@field public quickHacksPierceProtection Bool
----@field public isInternalWeakspot Bool
----@field public hitShapeDamageMod Float
+---@field public ["hitShapeTag"] CName
+---@field public ["hitShapeType"] EHitShapeType
+---@field public ["hitReactionZone"] EHitReactionZone
+---@field public ["dismembermentPart"] EAIDismembermentBodyPart
+---@field public ["isProtectionLayer"] Bool
+---@field public ["quickHacksPierceProtection"] Bool
+---@field public ["isInternalWeakspot"] Bool
+---@field public ["hitShapeDamageMod"] Float
 HitShapeUserDataBase = {}
 
 ---@param fields? table
@@ -17,7 +17,7 @@ HitShapeUserDataBase = {}
 function HitShapeUserDataBase.new(fields) return end
 
 ---@param gameObj gameObject
----@param shapeName CName
+---@param shapeName CName|string
 ---@param hierarchical Bool
 ---@return nil
 function HitShapeUserDataBase.DisableHitShape(gameObj, shapeName, hierarchical) return end
@@ -27,7 +27,7 @@ function HitShapeUserDataBase.DisableHitShape(gameObj, shapeName, hierarchical) 
 function HitShapeUserDataBase.DoQuickHacksPierceProtection(userData) return end
 
 ---@param gameObj gameObject
----@param shapeName CName
+---@param shapeName CName|string
 ---@param hierarchical Bool
 ---@return nil
 function HitShapeUserDataBase.EnableHitShape(gameObj, shapeName, hierarchical) return end

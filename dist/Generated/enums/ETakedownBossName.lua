@@ -3,9 +3,9 @@
 
 ---@enum ETakedownBossName
 ETakedownBossName = {
-    ["Smasher"] = 0,
-    ["Oda"] = 1,
-    ["Royce"] = 2,
-    ["Sasquatch"] = 3,
-    ["None"] = 4
+    ["Smasher"] = 0, ---@type Enum
+    ["Oda"] = 1, ---@type Enum
+    ["Royce"] = 2, ---@type Enum
+    ["Sasquatch"] = 3, ---@type Enum
+    ["None"] = 4, ---@type Enum
 }

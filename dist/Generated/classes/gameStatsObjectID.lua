@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatsObjectID
----@field public entityHash Uint64
----@field public idType gameStatIDType
+---@field public ["entityHash"] Uint64
+---@field public ["idType"] gameStatIDType
 gameStatsObjectID = {}
 
 ---@param fields? table

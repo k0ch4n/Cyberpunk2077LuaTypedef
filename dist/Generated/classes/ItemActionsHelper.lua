@@ -86,7 +86,7 @@ function ItemActionsHelper.GetEatAction(itemID) return end
 function ItemActionsHelper.GetEquipAction(itemID) return end
 
 ---@param itemID gameItemID
----@param type CName
+---@param type CName|string
 ---@return gamedataObjectAction_Record
 function ItemActionsHelper.GetItemActionByType(itemID, type) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraCurrentUserInfo: ISerializable
----@field public name String
+---@field public ["name"] String
 toolsJiraCurrentUserInfo = {}
 
 ---@param fields? table

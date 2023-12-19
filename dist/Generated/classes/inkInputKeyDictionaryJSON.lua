@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkInputKeyDictionaryJSON: ISerializable
----@field public devicesMappings inkInputDevicesMappingsJSON[]
+---@field public ["devicesMappings"] inkInputDevicesMappingsJSON[]
 inkInputKeyDictionaryJSON = {}
 
 ---@param fields? table

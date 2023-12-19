@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InventoryItemPreviewPopupEvent: redEvent
----@field public data InventoryItemPreviewData
+---@field public ["data"] InventoryItemPreviewData
 InventoryItemPreviewPopupEvent = {}
 
 ---@param fields? table

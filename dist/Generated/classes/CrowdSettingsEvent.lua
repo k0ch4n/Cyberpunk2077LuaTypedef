@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrowdSettingsEvent: redEvent
----@field public movementType CName
+---@field public ["movementType"] CName
 CrowdSettingsEvent = {}
 
 ---@param fields? table

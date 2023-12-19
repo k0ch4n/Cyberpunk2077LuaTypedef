@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorIncludedTreeDefinition: AIbehaviorNestedTreeDefinition
----@field public treeReference AIArgumentMapping
+---@field public ["treeReference"] AIArgumentMapping
 AIbehaviorIncludedTreeDefinition = {}
 
 ---@param fields? table

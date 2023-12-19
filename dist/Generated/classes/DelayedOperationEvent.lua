@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayedOperationEvent: redEvent
----@field public operationHandler DeviceOperations
----@field public operation SBaseDeviceOperationData
+---@field public ["operationHandler"] DeviceOperations
+---@field public ["operation"] SBaseDeviceOperationData
 DelayedOperationEvent = {}
 
 ---@param fields? table

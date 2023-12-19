@@ -3,9 +3,9 @@
 
 ---@enum EHudPhoneFunction
 EHudPhoneFunction = {
-    ["Inactive"] = 0,
-    ["DisplayingMessage"] = 1,
-    ["IncomingCall"] = 2,
-    ["Holocall"] = 3,
-    ["Audiocall"] = 4
+    ["Inactive"] = 0, ---@type Enum
+    ["DisplayingMessage"] = 1, ---@type Enum
+    ["IncomingCall"] = 2, ---@type Enum
+    ["Holocall"] = 3, ---@type Enum
+    ["Audiocall"] = 4, ---@type Enum
 }

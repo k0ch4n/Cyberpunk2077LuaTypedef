@@ -3,14 +3,14 @@
 
 ---@enum gamedataNPCRarity
 gamedataNPCRarity = {
-    ["Boss"] = 0,
-    ["Elite"] = 1,
-    ["MaxTac"] = 2,
-    ["Normal"] = 3,
-    ["Officer"] = 4,
-    ["Rare"] = 5,
-    ["Trash"] = 6,
-    ["Weak"] = 7,
-    ["Count"] = 8,
-    ["Invalid"] = 9
+    ["Boss"] = 0, ---@type Enum
+    ["Elite"] = 1, ---@type Enum
+    ["MaxTac"] = 2, ---@type Enum
+    ["Normal"] = 3, ---@type Enum
+    ["Officer"] = 4, ---@type Enum
+    ["Rare"] = 5, ---@type Enum
+    ["Trash"] = 6, ---@type Enum
+    ["Weak"] = 7, ---@type Enum
+    ["Count"] = 8, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

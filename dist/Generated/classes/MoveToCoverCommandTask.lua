@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MoveToCoverCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIMoveToCoverCommand
----@field private coverID Uint64
+---@field protected ["inCommand"] AIArgumentMapping
+---@field protected ["currentCommand"] AIMoveToCoverCommand
+---@field private ["coverID"] Uint64
 MoveToCoverCommandTask = {}
 
 ---@param fields? table

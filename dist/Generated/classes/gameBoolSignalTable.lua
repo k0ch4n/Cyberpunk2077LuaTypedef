@@ -16,11 +16,11 @@ function gameBoolSignalTable:GetCurrentData(signalId) return end
 ---@return Bool
 function gameBoolSignalTable:GetCurrentValue(signalId) return end
 
----@param signalName CName
+---@param signalName CName|string
 ---@return Uint16
 function gameBoolSignalTable:GetOrCreateSignal(signalName) return end
 
----@param signalName CName
+---@param signalName CName|string
 ---@return Uint16
 function gameBoolSignalTable:GetOrCreateTagSignal(signalName) return end
 
@@ -29,7 +29,7 @@ function gameBoolSignalTable:GetOrCreateTagSignal(signalName) return end
 ---@return Bool
 function gameBoolSignalTable:Set(signalId, value) return end
 
----@param signalName CName
+---@param signalName CName|string
 ---@param value Bool
 ---@return Bool
 function gameBoolSignalTable:SetByName(signalName, value) return end

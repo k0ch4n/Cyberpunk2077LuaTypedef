@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CarriedObjectEvents: CarriedObjectTransition
----@field public animFeature AnimFeature_Mounting
----@field public animCarryFeature AnimFeature_Carry
----@field public leftHandFeature AnimFeature_LeftHandAnimation
----@field public AnimWrapperWeightSetterStrong entAnimWrapperWeightSetter
----@field public AnimWrapperWeightSetterFriendly entAnimWrapperWeightSetter
----@field public styleName CName
----@field public forceStyleName CName
----@field public isFriendlyCarry Bool
----@field public forcedCarryStyle gamePSMBodyCarryingStyle
+---@field public ["animFeature"] AnimFeature_Mounting
+---@field public ["animCarryFeature"] AnimFeature_Carry
+---@field public ["leftHandFeature"] AnimFeature_LeftHandAnimation
+---@field public ["AnimWrapperWeightSetterStrong"] entAnimWrapperWeightSetter
+---@field public ["AnimWrapperWeightSetterFriendly"] entAnimWrapperWeightSetter
+---@field public ["styleName"] CName
+---@field public ["forceStyleName"] CName
+---@field public ["isFriendlyCarry"] Bool
+---@field public ["forcedCarryStyle"] gamePSMBodyCarryingStyle
 CarriedObjectEvents = {}
 
 ---@protected
@@ -61,7 +61,7 @@ function CarriedObjectEvents:DisableAndResetRagdoll(stateContext, scriptInterfac
 
 ---@private
 ---@param enable Bool
----@param animSet CName
+---@param animSet CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function CarriedObjectEvents:EnableAnimSet(enable, animSet, scriptInterface) return end
@@ -190,7 +190,7 @@ function CarriedObjectEvents:SetBodyPickUpCameraContext(stateContext, scriptInte
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param varName CName
+---@param varName CName|string
 ---@param value Bool
 ---@param skipCameraContextUpdate Bool
 ---@return nil

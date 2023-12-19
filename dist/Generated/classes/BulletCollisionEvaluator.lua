@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BulletCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field protected user gameObject
----@field private hasStopped Bool
----@field private stoppedPosition Vector4
----@field private weaponParams gameprojectileWeaponParams
----@field private isExplodingBullet Bool
----@field private isSmartBullet Bool
+---@field protected ["user"] gameObject
+---@field private ["hasStopped"] Bool
+---@field private ["stoppedPosition"] Vector4
+---@field private ["weaponParams"] gameprojectileWeaponParams
+---@field private ["isExplodingBullet"] Bool
+---@field private ["isSmartBullet"] Bool
 BulletCollisionEvaluator = {}
 
 ---@param fields? table

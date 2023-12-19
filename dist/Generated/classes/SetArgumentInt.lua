@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetArgumentInt: SetArguments
----@field public customVar Int32
+---@field public ["customVar"] Int32
 SetArgumentInt = {}
 
 ---@param fields? table

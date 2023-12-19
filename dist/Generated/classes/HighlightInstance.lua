@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HighlightInstance: ModuleInstance
----@field public context HighlightContext
----@field public instant Bool
+---@field public ["context"] HighlightContext
+---@field public ["instant"] Bool
 HighlightInstance = {}
 
 ---@param fields? table

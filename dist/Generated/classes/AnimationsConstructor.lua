@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AnimationsConstructor: IScriptable
----@field private duration Float
----@field private type inkanimInterpolationType
----@field private mode inkanimInterpolationMode
----@field private isAdditive Bool
+---@field private ["duration"] Float
+---@field private ["type"] inkanimInterpolationType
+---@field private ["mode"] inkanimInterpolationMode
+---@field private ["isAdditive"] Bool
 AnimationsConstructor = {}
 
 ---@param fields? table

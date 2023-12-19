@@ -3,8 +3,8 @@
 
 ---@enum EOutlineType
 EOutlineType = {
-    ["NONE"] = 0,
-    ["GREEN"] = 1,
-    ["RED"] = 2,
-    ["YELLOW"] = 3
+    ["NONE"] = 0, ---@type Enum
+    ["GREEN"] = 1, ---@type Enum
+    ["RED"] = 2, ---@type Enum
+    ["YELLOW"] = 3, ---@type Enum
 }

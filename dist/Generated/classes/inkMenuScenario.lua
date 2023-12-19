@@ -22,7 +22,7 @@ function inkMenuScenario:QueueBroadcastEvent(evt) return end
 ---@return nil
 function inkMenuScenario:QueueEvent(evt) return end
 
----@param name CName
+---@param name CName|string
 ---@param userData? IScriptable
 ---@return nil
 function inkMenuScenario:SwitchToScenario(name, userData) return end

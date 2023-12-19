@@ -3,6 +3,6 @@
 
 ---@enum ETransitionMode
 ETransitionMode = {
-    ["GENTLE"] = 0,
-    ["FORCED"] = 1
+    ["GENTLE"] = 0, ---@type Enum
+    ["FORCED"] = 1, ---@type Enum
 }

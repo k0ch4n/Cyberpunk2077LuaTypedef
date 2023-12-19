@@ -3,12 +3,12 @@
 
 ---@enum PSODescDepthStencilModeStencilOpMode
 PSODescDepthStencilModeStencilOpMode = {
-    ["STENCILOP_Keep"] = 0,
-    ["STENCILOP_Zero"] = 1,
-    ["STENCILOP_Replace"] = 2,
-    ["STENCILOP_IncreaseSaturate"] = 3,
-    ["STENCILOP_DecreaseSaturate"] = 4,
-    ["STENCILOP_Invert"] = 5,
-    ["STENCILOP_Increase"] = 6,
-    ["STENCILOP_Decrease"] = 7
+    ["STENCILOP_Keep"] = 0, ---@type Enum
+    ["STENCILOP_Zero"] = 1, ---@type Enum
+    ["STENCILOP_Replace"] = 2, ---@type Enum
+    ["STENCILOP_IncreaseSaturate"] = 3, ---@type Enum
+    ["STENCILOP_DecreaseSaturate"] = 4, ---@type Enum
+    ["STENCILOP_Invert"] = 5, ---@type Enum
+    ["STENCILOP_Increase"] = 6, ---@type Enum
+    ["STENCILOP_Decrease"] = 7, ---@type Enum
 }

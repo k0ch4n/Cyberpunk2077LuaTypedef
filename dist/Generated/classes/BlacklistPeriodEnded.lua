@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlacklistPeriodEnded: redEvent
----@field public entityID entEntityID
+---@field public ["entityID"] entEntityID
 BlacklistPeriodEnded = {}
 
 ---@param fields? table

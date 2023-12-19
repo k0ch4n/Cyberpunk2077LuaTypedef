@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_LadderEnterStyleData: animAnimFeature
----@field public enterStyle Int32
+---@field public ["enterStyle"] Int32
 AnimFeature_LadderEnterStyleData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITreeNodeInterruptionDecoratorDefinition: AICTreeNodeDecoratorDefinition
----@field public interruptions AIInterruptionHandlerDefinition[]
+---@field public ["interruptions"] AIInterruptionHandlerDefinition[]
 AITreeNodeInterruptionDecoratorDefinition = {}
 
 ---@param fields? table

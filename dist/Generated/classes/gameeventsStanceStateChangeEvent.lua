@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsStanceStateChangeEvent: redEvent
----@field public state gamedataNPCStanceState
+---@field public ["state"] gamedataNPCStanceState
 gameeventsStanceStateChangeEvent = {}
 
 ---@param fields? table

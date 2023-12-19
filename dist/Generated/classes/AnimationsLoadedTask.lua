@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AnimationsLoadedTask: AIbehaviortaskScript
----@field public coreAnims Bool
----@field public setSignal Bool
----@field public melee Bool
+---@field public ["coreAnims"] Bool
+---@field public ["setSignal"] Bool
+---@field public ["melee"] Bool
 AnimationsLoadedTask = {}
 
 ---@param fields? table

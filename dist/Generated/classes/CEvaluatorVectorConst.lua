@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorVectorConst: IEvaluatorVector
----@field public value Vector4
+---@field public ["value"] Vector4
 CEvaluatorVectorConst = {}
 
 ---@param fields? table

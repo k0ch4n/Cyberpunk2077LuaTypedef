@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scneventsDespawnEntityEventParams
----@field public performer scnPerformerId
+---@field public ["performer"] scnPerformerId
 scneventsDespawnEntityEventParams = {}
 
 ---@param fields? table

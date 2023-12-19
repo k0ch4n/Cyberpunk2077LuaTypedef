@@ -56,7 +56,7 @@ function QuickHackableQueueHelper.PopFromQuickHackQueue(evt, gameplayRoleCompone
 
 ---@param action ScriptableDeviceAction
 ---@param gameplayRoleComponent GameplayRoleComponent
----@param qhIndicatorSlotName CName
+---@param qhIndicatorSlotName CName|string
 ---@param requesterObject gameObject
 ---@return Bool
 function QuickHackableQueueHelper.PutActionInQuickhackQueue(action, gameplayRoleComponent, qhIndicatorSlotName, requesterObject) return end
@@ -67,7 +67,7 @@ function QuickHackableQueueHelper.PutActionInQuickhackQueue(action, gameplayRole
 function QuickHackableQueueHelper.RemoveQuickhackQueue(gameplayRoleComponent, currentlyUploadingAction) return end
 
 ---@param scriptableDeviceAction ScriptableDeviceAction
----@param actionName CName
+---@param actionName CName|string
 ---@param currentlyUploadingAction ScriptableDeviceAction
 ---@param failureExplanation String
 ---@return Bool

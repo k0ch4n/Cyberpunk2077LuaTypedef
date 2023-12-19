@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleDriverCombatContextEvents: InputContextTransitionEvents
----@field protected weapon gameweaponObject
+---@field protected ["weapon"] gameweaponObject
 VehicleDriverCombatContextEvents = {}
 
 ---@param fields? table

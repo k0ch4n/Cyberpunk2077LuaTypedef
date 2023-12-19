@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineSnapshotResult
----@field public snapshot gamestateMachineStateSnapshot
----@field public valid Bool
+---@field public ["snapshot"] gamestateMachineStateSnapshot
+---@field public ["valid"] Bool
 gamestateMachineSnapshotResult = {}
 
 ---@param fields? table

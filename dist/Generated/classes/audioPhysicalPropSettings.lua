@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioPhysicalPropSettings: audioAudioMetadata
----@field public shockwaveSound CName
----@field public damagedSound CName
----@field public destroyedSound CName
----@field public materialOverrides CName[]
+---@field public ["shockwaveSound"] CName
+---@field public ["damagedSound"] CName
+---@field public ["destroyedSound"] CName
+---@field public ["materialOverrides"] CName[]
 audioPhysicalPropSettings = {}
 
 ---@param fields? table

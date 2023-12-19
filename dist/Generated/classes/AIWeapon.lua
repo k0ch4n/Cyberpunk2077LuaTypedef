@@ -28,7 +28,7 @@ function AIWeapon.CompareAIPatternRecordArrays(arr1, arr2) return end
 ---@param predictionTime? Float
 ---@param posProviderOverride? entIPositionProvider
 ---@param muzzleOffset? Vector4
----@param weaponCustomEvent? CName
+---@param weaponCustomEvent? CName|string
 ---@return nil
 function AIWeapon.Fire(weaponOwner, weapon, timeStamp, tbhCoefficient, requestedTriggerMode, targetPosition, target, rangedAttack, maxSpreadOverride, aimingDelay, offset, shouldTrackTarget, predictionTime, posProviderOverride, muzzleOffset, weaponCustomEvent) return end
 

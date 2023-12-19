@@ -3,9 +3,9 @@
 
 ---@enum gamedataImprovementRelation
 gamedataImprovementRelation = {
-    ["Direct"] = 0,
-    ["Inverse"] = 1,
-    ["None"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Direct"] = 0, ---@type Enum
+    ["Inverse"] = 1, ---@type Enum
+    ["None"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

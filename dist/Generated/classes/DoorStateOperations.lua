@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DoorStateOperations: DeviceOperations
----@field protected doorStateOperations SDoorStateOperationData[]
----@field private wasStateCached Bool
----@field private cachedState EDoorStatus
+---@field protected ["doorStateOperations"] SDoorStateOperationData[]
+---@field private ["wasStateCached"] Bool
+---@field private ["cachedState"] EDoorStatus
 DoorStateOperations = {}
 
 ---@param fields? table

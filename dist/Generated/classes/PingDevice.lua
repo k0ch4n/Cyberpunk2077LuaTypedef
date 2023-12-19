@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PingDevice: ActionBool
----@field private shouldForward Bool
+---@field private ["shouldForward"] Bool
 PingDevice = {}
 
 ---@param fields? table

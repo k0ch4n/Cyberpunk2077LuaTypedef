@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Slave_Test: gameObject
----@field public deviceComponent PSD_Detector
+---@field public ["deviceComponent"] PSD_Detector
 Slave_Test = {}
 
 ---@param fields? table

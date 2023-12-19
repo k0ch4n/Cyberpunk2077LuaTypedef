@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendOpacityMicromapDatabase
----@field public ommChunks rendOpacityMicromapChunk[]
----@field public dataBuffer Uint8[]
+---@field public ["ommChunks"] rendOpacityMicromapChunk[]
+---@field public ["dataBuffer"] Uint8[]
 rendOpacityMicromapDatabase = {}
 
 ---@param fields? table

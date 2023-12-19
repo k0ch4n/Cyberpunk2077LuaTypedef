@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorInstantMountConditionDefinition: AIbehaviorConditionDefinition
----@field public mountData AIArgumentMapping
+---@field public ["mountData"] AIArgumentMapping
 AIbehaviorInstantMountConditionDefinition = {}
 
 ---@param fields? table

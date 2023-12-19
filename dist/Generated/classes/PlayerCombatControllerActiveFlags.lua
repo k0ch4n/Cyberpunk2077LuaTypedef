@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerActiveFlags
----@field public crouchActive Bool
----@field public crouchTimerPassed Bool
----@field public isTracked Bool
----@field public usingJhonnyReplacer Bool
----@field public usingQuickHack Bool
+---@field public ["crouchActive"] Bool
+---@field public ["crouchTimerPassed"] Bool
+---@field public ["isTracked"] Bool
+---@field public ["usingJhonnyReplacer"] Bool
+---@field public ["usingQuickHack"] Bool
 PlayerCombatControllerActiveFlags = {}
 
 ---@param fields? table

@@ -3,11 +3,11 @@
 
 ---@enum gamePSMBodyCarryingLocomotion
 gamePSMBodyCarryingLocomotion = {
-    ["Default"] = 0,
-    ["Jump"] = 1,
-    ["Crouch"] = 2,
-    ["Sprint"] = 3,
-    ["Fall"] = 4,
-    ["Land"] = 5,
-    ["DropBody"] = 6
+    ["Default"] = 0, ---@type Enum
+    ["Jump"] = 1, ---@type Enum
+    ["Crouch"] = 2, ---@type Enum
+    ["Sprint"] = 3, ---@type Enum
+    ["Fall"] = 4, ---@type Enum
+    ["Land"] = 5, ---@type Enum
+    ["DropBody"] = 6, ---@type Enum
 }

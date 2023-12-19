@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questLootTokenManager_NodeType: questIItemManagerNodeType
----@field public params questLootTokenManager_NodeTypeParams[]
+---@field public ["params"] questLootTokenManager_NodeTypeParams[]
 questLootTokenManager_NodeType = {}
 
 ---@param fields? table

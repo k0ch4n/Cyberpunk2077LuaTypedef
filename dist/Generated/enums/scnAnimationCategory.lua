@@ -3,7 +3,7 @@
 
 ---@enum scnAnimationCategory
 scnAnimationCategory = {
-    ["Body"] = 0,
-    ["Facial"] = 1,
-    ["Cyberware"] = 2
+    ["Body"] = 0, ---@type Enum
+    ["Facial"] = 1, ---@type Enum
+    ["Cyberware"] = 2, ---@type Enum
 }

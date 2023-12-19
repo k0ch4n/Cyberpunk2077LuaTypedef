@@ -3,6 +3,6 @@
 
 ---@enum ObjectToCheck
 ObjectToCheck = {
-    ["Player"] = 0,
-    ["Weapon"] = 1
+    ["Player"] = 0, ---@type Enum
+    ["Weapon"] = 1, ---@type Enum
 }

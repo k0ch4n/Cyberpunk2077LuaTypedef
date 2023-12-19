@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scneventsRagdollEvent: scnSceneEvent
----@field public performer scnPerformerId
----@field public enableRagdoll Bool
+---@field public ["performer"] scnPerformerId
+---@field public ["enableRagdoll"] Bool
 scneventsRagdollEvent = {}
 
 ---@param fields? table

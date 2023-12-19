@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalPhoneConversation: gameJournalContainerEntry
----@field public title LocalizationString
+---@field public ["title"] LocalizationString
 gameJournalPhoneConversation = {}
 
 ---@param fields? table

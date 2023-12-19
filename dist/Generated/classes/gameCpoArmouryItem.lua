@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCpoArmouryItem: gameObject
----@field public armouryItemID TweakDBID
+---@field public ["armouryItemID"] TweakDBID
 gameCpoArmouryItem = {}
 
 ---@param fields? table

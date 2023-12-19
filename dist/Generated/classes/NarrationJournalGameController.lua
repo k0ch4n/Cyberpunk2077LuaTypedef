@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NarrationJournalGameController: gameuiHUDGameController
----@field private entriesContainer inkCompoundWidgetReference
----@field private narrationJournalBlackboardId redCallbackObject
+---@field private ["entriesContainer"] inkCompoundWidgetReference
+---@field private ["narrationJournalBlackboardId"] redCallbackObject
 NarrationJournalGameController = {}
 
 ---@param fields? table

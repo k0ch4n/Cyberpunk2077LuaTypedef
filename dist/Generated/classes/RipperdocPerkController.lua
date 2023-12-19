@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RipperdocPerkController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private perkData RipperdocPerkData
----@field private hoverEvent RipperdocPerkHoverEvent
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["perkData"] RipperdocPerkData
+---@field private ["hoverEvent"] RipperdocPerkHoverEvent
 RipperdocPerkController = {}
 
 ---@param fields? table

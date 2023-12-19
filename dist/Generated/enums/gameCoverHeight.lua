@@ -3,7 +3,7 @@
 
 ---@enum gameCoverHeight
 gameCoverHeight = {
-    ["Invalid"] = 0,
-    ["Low"] = 1,
-    ["High"] = 2
+    ["Invalid"] = 0, ---@type Enum
+    ["Low"] = 1, ---@type Enum
+    ["High"] = 2, ---@type Enum
 }

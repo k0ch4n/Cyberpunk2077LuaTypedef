@@ -2,71 +2,71 @@
 ---@diagnostic disable
 
 ---@class ScriptedPuppet: gamePuppet
----@field private aiController AIHumanComponent
----@field private movePolicies movePoliciesComponent
----@field private aiStateHandlerComponent AIPhaseStateEventHandlerComponent
----@field protected hitReactionComponent HitReactionComponent
----@field private signalHandlerComponent AISignalHandlerComponent
----@field private reactionComponent ReactionManagerComponent
----@field private dismembermentComponent gameDismembermentComponent
----@field private hitRepresantation entSlotComponent
----@field private interactionComponent gameinteractionsComponent
----@field private slotComponent entSlotComponent
----@field private sensesComponent senseComponent
----@field protected visibleObjectComponent senseVisibleObjectComponent
----@field public visibleObjectPositionUpdated Bool
----@field private sensorObjectComponent senseSensorObjectComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field private targetingComponentsArray gameTargetingComponent[]
----@field private statesComponent NPCStatesComponent
----@field private fxResourceMapper FxResourceMapperComponent
----@field private linkedStatusEffect LinkedStatusEffect
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected crowdMemberComponent CrowdMemberBaseComponent
----@field private inventoryComponent gameInventory
----@field private objectSelectionComponent AIObjectSelectionComponent
----@field private transformHistoryComponent entTransformHistoryComponent
----@field private animationControllerComponent entAnimationControllerComponent
----@field private bumpComponent gameinfluenceBumpComponent
----@field private isCrowd Bool
----@field private incapacitatedOnAttach Bool
----@field private isIconic Bool
----@field private combatHUDManager CombatHUDManager
----@field private exposePosition Bool
----@field private puppetStateBlackboard gameIBlackboard
----@field private customBlackboard gameIBlackboard
----@field private securityAreaCallbackID Uint32
----@field private customAIComponents AICustomComponents[]
----@field protected listeners PuppetListener[]
----@field protected securitySupportListener SecuritySupportListener
----@field private shouldBeRevealedStorage RevealRequestsStorage
----@field private inputProcessed Bool
----@field private shouldSpawnBloodPuddle Bool
----@field private bloodPuddleSpawned Bool
----@field private skipDeathAnimation Bool
----@field private hitHistory HitHistory
----@field private currentWorkspotTags CName[]
----@field private lootQuality gamedataQuality
----@field private hasQuestItems Bool
----@field private activeQualityRangeInteraction CName
----@field private droppedWeapons Bool
----@field private weakspotComponent gameWeakspotComponent
----@field private breachControllerComponent gameBreachControllerComponent
----@field private highlightData FocusForcedHighlightData
----@field private currentTagsStack Uint32
----@field private killer entEntity
----@field private objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field private isActiveCached AIUtilsCachedBoolValue
----@field private isCyberpsycho Bool
----@field private isCivilian Bool
----@field private isPolice Bool
----@field private isGanger Bool
----@field private currentlyUploadingAction ScriptableDeviceAction
----@field private gameplayRoleComponent GameplayRoleComponent
----@field private activeQuickhackActionHistory ScriptableDeviceAction[]
----@field private completedQuickhackHistory ScriptableDeviceAction[]
----@field private isFinsherSoundPlayed Bool
----@field private attemptedShards gameItemID[]
+---@field private ["aiController"] AIHumanComponent
+---@field private ["movePolicies"] movePoliciesComponent
+---@field private ["aiStateHandlerComponent"] AIPhaseStateEventHandlerComponent
+---@field protected ["hitReactionComponent"] HitReactionComponent
+---@field private ["signalHandlerComponent"] AISignalHandlerComponent
+---@field private ["reactionComponent"] ReactionManagerComponent
+---@field private ["dismembermentComponent"] gameDismembermentComponent
+---@field private ["hitRepresantation"] entSlotComponent
+---@field private ["interactionComponent"] gameinteractionsComponent
+---@field private ["slotComponent"] entSlotComponent
+---@field private ["sensesComponent"] senseComponent
+---@field protected ["visibleObjectComponent"] senseVisibleObjectComponent
+---@field public ["visibleObjectPositionUpdated"] Bool
+---@field private ["sensorObjectComponent"] senseSensorObjectComponent
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
+---@field private ["targetingComponentsArray"] gameTargetingComponent[]
+---@field private ["statesComponent"] NPCStatesComponent
+---@field private ["fxResourceMapper"] FxResourceMapperComponent
+---@field private ["linkedStatusEffect"] LinkedStatusEffect
+---@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
+---@field protected ["crowdMemberComponent"] CrowdMemberBaseComponent
+---@field private ["inventoryComponent"] gameInventory
+---@field private ["objectSelectionComponent"] AIObjectSelectionComponent
+---@field private ["transformHistoryComponent"] entTransformHistoryComponent
+---@field private ["animationControllerComponent"] entAnimationControllerComponent
+---@field private ["bumpComponent"] gameinfluenceBumpComponent
+---@field private ["isCrowd"] Bool
+---@field private ["incapacitatedOnAttach"] Bool
+---@field private ["isIconic"] Bool
+---@field private ["combatHUDManager"] CombatHUDManager
+---@field private ["exposePosition"] Bool
+---@field private ["puppetStateBlackboard"] gameIBlackboard
+---@field private ["customBlackboard"] gameIBlackboard
+---@field private ["securityAreaCallbackID"] Uint32
+---@field private ["customAIComponents"] AICustomComponents[]
+---@field protected ["listeners"] PuppetListener[]
+---@field protected ["securitySupportListener"] SecuritySupportListener
+---@field private ["shouldBeRevealedStorage"] RevealRequestsStorage
+---@field private ["inputProcessed"] Bool
+---@field private ["shouldSpawnBloodPuddle"] Bool
+---@field private ["bloodPuddleSpawned"] Bool
+---@field private ["skipDeathAnimation"] Bool
+---@field private ["hitHistory"] HitHistory
+---@field private ["currentWorkspotTags"] CName[]
+---@field private ["lootQuality"] gamedataQuality
+---@field private ["hasQuestItems"] Bool
+---@field private ["activeQualityRangeInteraction"] CName
+---@field private ["droppedWeapons"] Bool
+---@field private ["weakspotComponent"] gameWeakspotComponent
+---@field private ["breachControllerComponent"] gameBreachControllerComponent
+---@field private ["highlightData"] FocusForcedHighlightData
+---@field private ["currentTagsStack"] Uint32
+---@field private ["killer"] entEntity
+---@field private ["objectActionsCallbackCtrl"] gameObjectActionsCallbackController
+---@field private ["isActiveCached"] AIUtilsCachedBoolValue
+---@field private ["isCyberpsycho"] Bool
+---@field private ["isCivilian"] Bool
+---@field private ["isPolice"] Bool
+---@field private ["isGanger"] Bool
+---@field private ["currentlyUploadingAction"] ScriptableDeviceAction
+---@field private ["gameplayRoleComponent"] GameplayRoleComponent
+---@field private ["activeQuickhackActionHistory"] ScriptableDeviceAction[]
+---@field private ["completedQuickhackHistory"] ScriptableDeviceAction[]
+---@field private ["isFinsherSoundPlayed"] Bool
+---@field private ["attemptedShards"] gameItemID[]
 ScriptedPuppet = {}
 
 ---@param fields? table
@@ -227,7 +227,7 @@ function ScriptedPuppet.RequestDeviceDebug(obj, device) return end
 function ScriptedPuppet.RequestRevealOutline(obj, doReveal, whoWantsToReveal) return end
 
 ---@param puppet ScriptedPuppet
----@param signalName CName
+---@param signalName CName|string
 ---@return Bool
 function ScriptedPuppet.ResetActionSignal(puppet, signalName) return end
 
@@ -236,7 +236,7 @@ function ScriptedPuppet.ResetActionSignal(puppet, signalName) return end
 function ScriptedPuppet.RevokeAllTicketsForPrevention(puppet) return end
 
 ---@param puppet ScriptedPuppet
----@param signalName CName
+---@param signalName CName|string
 ---@param duration? Float
 ---@return Bool
 function ScriptedPuppet.SendActionSignal(puppet, signalName, duration) return end
@@ -264,7 +264,7 @@ function ScriptedPuppet.SendResurrectEvent(obj) return end
 
 ---@private
 ---@param item gameItemObject
----@param animWrappers CName[]
+---@param animWrappers CName[]|string[]
 ---@return nil
 function ScriptedPuppet.SetAnimWrappersOnItem(item, animWrappers) return end
 
@@ -701,7 +701,7 @@ function ScriptedPuppet:DetermineInteractionStateTask(data) return end
 ---@return Bool
 function ScriptedPuppet:DropHeldItems() return end
 
----@param layer CName
+---@param layer CName|string
 ---@param b Bool
 ---@return nil
 function ScriptedPuppet:EnableInteraction(layer, b) return end
@@ -756,7 +756,7 @@ function ScriptedPuppet:ExecuteAction(choice) return end
 
 ---@param target gameObject
 ---@param sourceID entEntityID
----@param sourceName CName
+---@param sourceName CName|string
 ---@param toggle Bool
 ---@return nil
 function ScriptedPuppet:ForceVisionAppearanceNetrunner(target, sourceID, sourceName, toggle) return end
@@ -857,7 +857,7 @@ function ScriptedPuppet:GetDismembermentComponent() return end
 ---@return Float
 function ScriptedPuppet:GetDistToTraceEndFromPosToMainTrackedObject(traceSource) return end
 
----@param key CName
+---@param key CName|string
 ---@return gameFxResource
 function ScriptedPuppet:GetFxResourceByKey(key) return end
 
@@ -1074,7 +1074,7 @@ function ScriptedPuppet:HandleDefeatedByTask() return end
 ---@return nil
 function ScriptedPuppet:HandleDefeatedTask(data) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param verb EAISquadVerb
 ---@return nil
 function ScriptedPuppet:HandleSquadAction(actionName, verb) return end
@@ -1117,7 +1117,7 @@ function ScriptedPuppet:HasQuestItems() return end
 ---@return Bool
 function ScriptedPuppet:HasValidLootQuality() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function ScriptedPuppet:HasWorkspotTag(tag) return end
 
@@ -1271,7 +1271,7 @@ function ScriptedPuppet:IsPrevention() return end
 function ScriptedPuppet:IsPuppet() return end
 
 ---@private
----@param layerTag CName
+---@param layerTag CName|string
 ---@return Bool
 function ScriptedPuppet:IsQualityRangeInteractionLayer(layerTag) return end
 
@@ -1348,7 +1348,7 @@ function ScriptedPuppet:OnClearOutlinesRequest(evt) return end
 ---@return nil
 function ScriptedPuppet:OnDied() return end
 
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function ScriptedPuppet:OnDiveFinished(reason) return end
 
@@ -1527,7 +1527,7 @@ function ScriptedPuppet:SendAIDeathSignal() return end
 
 ---@private
 ---@param choiceEvent gameinteractionsChoiceEvent
----@param id CName
+---@param id CName|string
 ---@param isChoiceActive Bool
 ---@return nil
 function ScriptedPuppet:SendInteractionChoiceToPSM(choiceEvent, id, isChoiceActive) return end

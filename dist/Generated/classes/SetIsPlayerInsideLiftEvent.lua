@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetIsPlayerInsideLiftEvent: redEvent
----@field public value Bool
+---@field public ["value"] Bool
 SetIsPlayerInsideLiftEvent = {}
 
 ---@param fields? table

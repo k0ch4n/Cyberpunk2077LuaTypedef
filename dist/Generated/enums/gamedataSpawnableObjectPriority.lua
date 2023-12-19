@@ -3,9 +3,9 @@
 
 ---@enum gamedataSpawnableObjectPriority
 gamedataSpawnableObjectPriority = {
-    ["Crowd"] = 0,
-    ["Quest"] = 1,
-    ["Regular"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Crowd"] = 0, ---@type Enum
+    ["Quest"] = 1, ---@type Enum
+    ["Regular"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

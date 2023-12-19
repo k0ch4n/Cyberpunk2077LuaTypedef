@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WindAreaSettings: IAreaSettings
----@field public strength curveData
----@field public direction curveData
+---@field public ["strength"] curveData
+---@field public ["direction"] curveData
 WindAreaSettings = {}
 
 ---@param fields? table

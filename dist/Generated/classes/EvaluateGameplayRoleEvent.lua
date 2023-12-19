@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EvaluateGameplayRoleEvent: redEvent
----@field public force Bool
+---@field public ["force"] Bool
 EvaluateGameplayRoleEvent = {}
 
 ---@param fields? table

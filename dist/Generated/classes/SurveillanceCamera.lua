@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class SurveillanceCamera: SensorDevice
----@field private virtualCam entVirtualCameraComponent
----@field private cameraHead entIComponent
----@field private cameraHeadPhysics entIComponent
----@field private verticalDecal1 entIComponent
----@field private verticalDecal2 entIComponent
----@field private meshDestrSupport Bool
----@field private shouldRotate Bool
----@field private canStreamVideo Bool
----@field private canDetectIntruders Bool
----@field private currentAngle Float
----@field private rotateLeft Bool
----@field private targetPosition Vector4
----@field private factOnFeedReceived CName
----@field private questFactOnDetection CName
----@field private lookAtEvent entLookAtAddEvent
----@field public currentYawModifier Float
----@field public currentPitchModifier Float
+---@field private ["virtualCam"] entVirtualCameraComponent
+---@field private ["cameraHead"] entIComponent
+---@field private ["cameraHeadPhysics"] entIComponent
+---@field private ["verticalDecal1"] entIComponent
+---@field private ["verticalDecal2"] entIComponent
+---@field private ["meshDestrSupport"] Bool
+---@field private ["shouldRotate"] Bool
+---@field private ["canStreamVideo"] Bool
+---@field private ["canDetectIntruders"] Bool
+---@field private ["currentAngle"] Float
+---@field private ["rotateLeft"] Bool
+---@field private ["targetPosition"] Vector4
+---@field private ["factOnFeedReceived"] CName
+---@field private ["questFactOnDetection"] CName
+---@field private ["lookAtEvent"] entLookAtAddEvent
+---@field public ["currentYawModifier"] Float
+---@field public ["currentPitchModifier"] Float
 SurveillanceCamera = {}
 
 ---@param fields? table

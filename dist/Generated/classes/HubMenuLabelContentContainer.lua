@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class HubMenuLabelContentContainer: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected desiredSizeWrapper inkWidgetReference
----@field protected border inkBorderWidgetReference
----@field protected line inkWidgetReference
----@field protected carouselPosition Int32
----@field public labelName String
----@field public data MenuData
----@field public isRadialVariant Bool
+---@field protected ["label"] inkTextWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["desiredSizeWrapper"] inkWidgetReference
+---@field protected ["border"] inkBorderWidgetReference
+---@field protected ["line"] inkWidgetReference
+---@field protected ["carouselPosition"] Int32
+---@field public ["labelName"] String
+---@field public ["data"] MenuData
+---@field public ["isRadialVariant"] Bool
 HubMenuLabelContentContainer = {}
 
 ---@param fields? table
@@ -62,7 +62,7 @@ function HubMenuLabelContentContainer:SetData(data) return end
 ---@return nil
 function HubMenuLabelContentContainer:SetInteractive(value) return end
 
----@param state CName
+---@param state CName|string
 ---@return nil
 function HubMenuLabelContentContainer:SetTextState(state) return end
 

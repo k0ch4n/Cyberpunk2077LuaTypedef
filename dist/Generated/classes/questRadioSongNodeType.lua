@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRadioSongNodeType: questIAudioNodeType
----@field public radioStationEvents audioRadioStationSongEventStruct[]
+---@field public ["radioStationEvents"] audioRadioStationSongEventStruct[]
 questRadioSongNodeType = {}
 
 ---@param fields? table

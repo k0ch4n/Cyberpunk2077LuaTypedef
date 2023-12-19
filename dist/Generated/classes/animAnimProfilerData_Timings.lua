@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimProfilerData_Timings
----@field public className CName
----@field public avarageExclusiveTimeMS Float
----@field public avarageInclusiveTimeMS Float
+---@field public ["className"] CName
+---@field public ["avarageExclusiveTimeMS"] Float
+---@field public ["avarageInclusiveTimeMS"] Float
 animAnimProfilerData_Timings = {}
 
 ---@param fields? table

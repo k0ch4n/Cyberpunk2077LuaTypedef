@@ -3,6 +3,6 @@
 
 ---@enum HubVendorMenuItems
 HubVendorMenuItems = {
-    ["Trade"] = 0,
-    ["Cyberware"] = 1
+    ["Trade"] = 0, ---@type Enum
+    ["Cyberware"] = 1, ---@type Enum
 }

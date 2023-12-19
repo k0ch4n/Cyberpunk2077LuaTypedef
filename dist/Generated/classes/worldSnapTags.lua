@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldSnapTags
----@field public includeTags CName[]
----@field public excludeTags CName[]
+---@field public ["includeTags"] CName[]
+---@field public ["excludeTags"] CName[]
 worldSnapTags = {}
 
 ---@param fields? table

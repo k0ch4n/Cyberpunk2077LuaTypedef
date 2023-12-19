@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraIssueType
----@field public name String
+---@field public ["name"] String
 toolsJiraIssueType = {}
 
 ---@param fields? table

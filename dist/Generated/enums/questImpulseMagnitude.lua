@@ -3,8 +3,8 @@
 
 ---@enum questImpulseMagnitude
 questImpulseMagnitude = {
-    ["Any"] = 0,
-    ["Low"] = 1,
-    ["Medium"] = 2,
-    ["High"] = 3
+    ["Any"] = 0, ---@type Enum
+    ["Low"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["High"] = 3, ---@type Enum
 }

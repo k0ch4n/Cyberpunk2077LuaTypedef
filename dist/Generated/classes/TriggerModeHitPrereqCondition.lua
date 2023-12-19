@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TriggerModeHitPrereqCondition: BaseHitPrereqCondition
----@field public triggerMode gamedataTriggerMode
+---@field public ["triggerMode"] gamedataTriggerMode
 TriggerModeHitPrereqCondition = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HoloTable: InteractiveDevice
----@field public componentCounter Int32
----@field public meshTable entMeshComponent[]
----@field public currentMesh Int32
----@field public glitchMesh entMeshComponent
+---@field public ["componentCounter"] Int32
+---@field public ["meshTable"] entMeshComponent[]
+---@field public ["currentMesh"] Int32
+---@field public ["glitchMesh"] entMeshComponent
 HoloTable = {}
 
 ---@param fields? table

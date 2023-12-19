@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worlduiIWidgetGameController: inkIWidgetController
----@field public elementRecordID TweakDBID
+---@field public ["elementRecordID"] TweakDBID
 worlduiIWidgetGameController = {}
 
 ---@param worldPosition Vector4

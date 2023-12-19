@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AdamSmasherHealthChangeListener: gameCustomValueStatPoolsListener
----@field public owner NPCPuppet
----@field public player PlayerPuppet
----@field private adamSmasherComponent AdamSmasherComponent
----@field private statPoolType gamedataStatPoolType
----@field private statPoolSystem gameStatPoolsSystem
+---@field public ["owner"] NPCPuppet
+---@field public ["player"] PlayerPuppet
+---@field private ["adamSmasherComponent"] AdamSmasherComponent
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["statPoolSystem"] gameStatPoolsSystem
 AdamSmasherHealthChangeListener = {}
 
 ---@param fields? table

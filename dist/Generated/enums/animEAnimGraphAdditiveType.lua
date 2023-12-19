@@ -3,6 +3,6 @@
 
 ---@enum animEAnimGraphAdditiveType
 animEAnimGraphAdditiveType = {
-    ["AGAT_Local"] = 0,
-    ["AGAT_Ref"] = 1
+    ["AGAT_Local"] = 0, ---@type Enum
+    ["AGAT_Ref"] = 1, ---@type Enum
 }

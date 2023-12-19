@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class attrLabel: attrAttribute
----@field public xt String
+---@field public ["xt"] String
 attrLabel = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrenadeAnimFeatureChangeEvent: redEvent
----@field public newState Int32
+---@field public ["newState"] Int32
 GrenadeAnimFeatureChangeEvent = {}
 
 ---@param fields? table

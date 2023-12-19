@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TVControllerPS: MediaDeviceControllerPS
----@field protected tvSetup TVSetup
----@field protected defaultGlitchVideoPath redResourceReferenceScriptToken
----@field protected broadcastGlitchVideoPath redResourceReferenceScriptToken
----@field private globalTVInitialized Bool
----@field private backupCustomChannels STvChannel[]
+---@field protected ["tvSetup"] TVSetup
+---@field protected ["defaultGlitchVideoPath"] redResourceReferenceScriptToken
+---@field protected ["broadcastGlitchVideoPath"] redResourceReferenceScriptToken
+---@field private ["globalTVInitialized"] Bool
+---@field private ["backupCustomChannels"] STvChannel[]
 TVControllerPS = {}
 
 ---@param fields? table
@@ -111,7 +111,7 @@ function TVControllerPS:GetGlobalTVChannels() return end
 ---@return TweakDBID
 function TVControllerPS:GetInkWidgetTweakDBID(context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function TVControllerPS:GetQuestActionByName(actionName) return end
 

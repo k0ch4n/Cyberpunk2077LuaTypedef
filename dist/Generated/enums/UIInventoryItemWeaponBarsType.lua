@@ -3,9 +3,9 @@
 
 ---@enum UIInventoryItemWeaponBarsType
 UIInventoryItemWeaponBarsType = {
-    ["Ranged"] = 0,
-    ["Melee"] = 1,
-    ["Throwable"] = 2,
-    ["CyberwareWeapon"] = 3,
-    ["CyberwareRangedWeapon"] = 4
+    ["Ranged"] = 0, ---@type Enum
+    ["Melee"] = 1, ---@type Enum
+    ["Throwable"] = 2, ---@type Enum
+    ["CyberwareWeapon"] = 3, ---@type Enum
+    ["CyberwareRangedWeapon"] = 4, ---@type Enum
 }

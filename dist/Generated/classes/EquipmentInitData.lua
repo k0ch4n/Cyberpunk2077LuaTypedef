@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipmentInitData: IScriptable
----@field public eqManipulationVarName CName
+---@field public ["eqManipulationVarName"] CName
 EquipmentInitData = {}
 
 ---@param fields? table

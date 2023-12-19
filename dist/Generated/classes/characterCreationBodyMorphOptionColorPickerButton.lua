@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphOptionColorPickerButton: inkWidgetLogicController
----@field private background inkWidgetReference
----@field private icon inkImageWidgetReference
----@field private isTriggered Bool
+---@field private ["background"] inkWidgetReference
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["isTriggered"] Bool
 characterCreationBodyMorphOptionColorPickerButton = {}
 
 ---@param fields? table

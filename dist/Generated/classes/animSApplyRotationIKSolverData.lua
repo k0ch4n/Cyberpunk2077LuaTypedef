@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animSApplyRotationIKSolverData
----@field public bone animTransformIndex
+---@field public ["bone"] animTransformIndex
 animSApplyRotationIKSolverData = {}
 
 ---@param fields? table

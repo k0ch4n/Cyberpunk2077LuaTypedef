@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackTimeDilationOverride: redEvent
----@field public overrideDilationToTutorialPreset Bool
+---@field public ["overrideDilationToTutorialPreset"] Bool
 QuickHackTimeDilationOverride = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PersonnelSystem: DeviceSystemBase
----@field private EnableE3QuickHacks Bool
+---@field private ["EnableE3QuickHacks"] Bool
 PersonnelSystem = {}
 
 ---@param fields? table

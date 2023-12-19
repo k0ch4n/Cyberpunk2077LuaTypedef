@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IconsInstance: ModuleInstance
----@field public isForcedVisibleThroughWalls Bool
+---@field public ["isForcedVisibleThroughWalls"] Bool
 IconsInstance = {}
 
 ---@param fields? table

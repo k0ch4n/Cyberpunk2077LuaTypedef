@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckPlayerTargetEntityDistanceReturnCondition: scnIReturnCondition
----@field public params scnCheckPlayerTargetEntityDistanceReturnConditionParams
+---@field public ["params"] scnCheckPlayerTargetEntityDistanceReturnConditionParams
 scnCheckPlayerTargetEntityDistanceReturnCondition = {}
 
 ---@param fields? table

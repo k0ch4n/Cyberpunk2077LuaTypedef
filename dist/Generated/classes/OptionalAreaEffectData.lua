@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OptionalAreaEffectData: IScriptable
----@field private includeInAoeData Bool
----@field private aoeData AreaEffectData
+---@field private ["includeInAoeData"] Bool
+---@field private ["aoeData"] AreaEffectData
 OptionalAreaEffectData = {}
 
 ---@param fields? table

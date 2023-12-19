@@ -18,13 +18,13 @@ function MenuScenario_Idle:OnArcadeMinigameBegin(userData) return end
 function MenuScenario_Idle:OnBlockHub() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_Idle:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_Idle:OnLeaveScenario(nextScenario) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPreloadFX_NodeType: questIFXManagerNodeType
----@field public params questPreloadFX_NodeTypeParams[]
+---@field public ["params"] questPreloadFX_NodeTypeParams[]
 questPreloadFX_NodeType = {}
 
 ---@param fields? table

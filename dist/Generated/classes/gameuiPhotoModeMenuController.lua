@@ -2,43 +2,43 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeMenuController: gameuiWidgetGameController
----@field public SetAttributeOptionEnabled gameuiSetPhotoModeKeyEnabledCallback
----@field public SetCategoryEnabled gameuiSetPhotoModeKeyEnabledCallback
----@field public SetStickerImage gameuiStickerImageCallback
----@field private menuListRoot inkWidgetReference
----@field private additionalListRoot inkWidgetReference
----@field private radioButtons inkCompoundWidgetReference
----@field private listContainerId CName
----@field private menuArea inkWidgetReference
----@field private additionalMenuArea inkWidgetReference
----@field private inputCameraControlKbd inkWidgetReference
----@field private inputCameraKbd inkWidgetReference
----@field private inputCameraControlPad inkWidgetReference
----@field private inputCameraPad inkWidgetReference
----@field private inputStickersKbd inkWidgetReference
----@field private inputStickersPad inkWidgetReference
----@field private inputSaveLoadKbd inkWidgetReference
----@field private inputSaveLoadPad inkWidgetReference
----@field private inputExit inkWidgetReference
----@field private inputScreenshot inkWidgetReference
----@field private cameraLocation inkWidgetReference
----@field private inputBottomRoot inkHorizontalPanelWidgetReference
----@field private ps4InputLibraryId CName
----@field private xboxInputLibraryId CName
----@field private stadiaInputLibraryId CName
----@field private ps4InputWidget inkWidget
----@field private xboxInputWidget inkWidget
----@field private stadiaInputWidget inkWidget
----@field private menuPages inkWidget[]
----@field private topButtonsController PhotoModeTopBarController
----@field private cameraLocationController PhotoModeCameraLocation
----@field private currentPage Uint32
----@field private IsHoverOver Bool
----@field private holdSafeguard Bool
----@field private notificationUserData inkGameNotificationData
----@field private notificationToken inkGameNotificationToken
----@field private loopAnimproxy inkanimProxy
----@field private uiVisiblityFadeAnim inkanimProxy
+---@field public ["SetAttributeOptionEnabled"] gameuiSetPhotoModeKeyEnabledCallback
+---@field public ["SetCategoryEnabled"] gameuiSetPhotoModeKeyEnabledCallback
+---@field public ["SetStickerImage"] gameuiStickerImageCallback
+---@field private ["menuListRoot"] inkWidgetReference
+---@field private ["additionalListRoot"] inkWidgetReference
+---@field private ["radioButtons"] inkCompoundWidgetReference
+---@field private ["listContainerId"] CName
+---@field private ["menuArea"] inkWidgetReference
+---@field private ["additionalMenuArea"] inkWidgetReference
+---@field private ["inputCameraControlKbd"] inkWidgetReference
+---@field private ["inputCameraKbd"] inkWidgetReference
+---@field private ["inputCameraControlPad"] inkWidgetReference
+---@field private ["inputCameraPad"] inkWidgetReference
+---@field private ["inputStickersKbd"] inkWidgetReference
+---@field private ["inputStickersPad"] inkWidgetReference
+---@field private ["inputSaveLoadKbd"] inkWidgetReference
+---@field private ["inputSaveLoadPad"] inkWidgetReference
+---@field private ["inputExit"] inkWidgetReference
+---@field private ["inputScreenshot"] inkWidgetReference
+---@field private ["cameraLocation"] inkWidgetReference
+---@field private ["inputBottomRoot"] inkHorizontalPanelWidgetReference
+---@field private ["ps4InputLibraryId"] CName
+---@field private ["xboxInputLibraryId"] CName
+---@field private ["stadiaInputLibraryId"] CName
+---@field private ["ps4InputWidget"] inkWidget
+---@field private ["xboxInputWidget"] inkWidget
+---@field private ["stadiaInputWidget"] inkWidget
+---@field private ["menuPages"] inkWidget[]
+---@field private ["topButtonsController"] PhotoModeTopBarController
+---@field private ["cameraLocationController"] PhotoModeCameraLocation
+---@field private ["currentPage"] Uint32
+---@field private ["IsHoverOver"] Bool
+---@field private ["holdSafeguard"] Bool
+---@field private ["notificationUserData"] inkGameNotificationData
+---@field private ["notificationToken"] inkGameNotificationToken
+---@field private ["loopAnimproxy"] inkanimProxy
+---@field private ["uiVisiblityFadeAnim"] inkanimProxy
 gameuiPhotoModeMenuController = {}
 
 ---@param fields? table
@@ -64,7 +64,7 @@ function gameuiPhotoModeMenuController:OnAttributeUpdated(attributeKey, attribut
 function gameuiPhotoModeMenuController:OnEditCategoryChanged(editCategory) return end
 
 ---@param attributeKey Uint32
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function gameuiPhotoModeMenuController:OnHoldComplete(attributeKey, actionName) return end
 
@@ -213,7 +213,7 @@ function gameuiPhotoModeMenuController:OnSetScreenshotEnabled(screenshotVersion)
 ---@protected
 ---@param stickerIndex Uint32
 ---@param atlasPath redResourceReferenceScriptToken
----@param imagePart CName
+---@param imagePart CName|string
 ---@param imageIndex Int32
 ---@return Bool
 function gameuiPhotoModeMenuController:OnSetStickerImage(stickerIndex, atlasPath, imagePart, imageIndex) return end

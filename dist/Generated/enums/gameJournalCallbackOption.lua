@@ -3,6 +3,6 @@
 
 ---@enum gameJournalCallbackOption
 gameJournalCallbackOption = {
-    ["DoNotFire"] = 0,
-    ["Fire"] = 1
+    ["DoNotFire"] = 0, ---@type Enum
+    ["Fire"] = 1, ---@type Enum
 }

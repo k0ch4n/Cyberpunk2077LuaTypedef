@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDamageSystemSharedState: gameIGameSystemReplicatedState
----@field public hitHistory gamedamageServerHitData[]
----@field public killHistory gamedamageServerKillData[]
+---@field public ["hitHistory"] gamedamageServerHitData[]
+---@field public ["killHistory"] gamedamageServerKillData[]
 gameDamageSystemSharedState = {}
 
 ---@param fields? table

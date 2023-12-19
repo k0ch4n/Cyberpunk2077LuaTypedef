@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LockDeviceChainCreation: gameScriptableSystemRequest
----@field public isLocked Bool
----@field public source CName
+---@field public ["isLocked"] Bool
+---@field public ["source"] CName
 LockDeviceChainCreation = {}
 
 ---@param fields? table

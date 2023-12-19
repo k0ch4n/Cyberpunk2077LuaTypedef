@@ -3,11 +3,11 @@
 
 ---@enum gameSceneAnimationMotionActionParamsEasingType
 gameSceneAnimationMotionActionParamsEasingType = {
-    ["Linear"] = 0,
-    ["SinusoidalEaseInOut"] = 1,
-    ["QuadraticEaseIn"] = 2,
-    ["QuadraticEaseOut"] = 3,
-    ["CubicEaseInOut"] = 4,
-    ["CubicEaseIn"] = 5,
-    ["CubicEaseOut"] = 6
+    ["Linear"] = 0, ---@type Enum
+    ["SinusoidalEaseInOut"] = 1, ---@type Enum
+    ["QuadraticEaseIn"] = 2, ---@type Enum
+    ["QuadraticEaseOut"] = 3, ---@type Enum
+    ["CubicEaseInOut"] = 4, ---@type Enum
+    ["CubicEaseIn"] = 5, ---@type Enum
+    ["CubicEaseOut"] = 6, ---@type Enum
 }

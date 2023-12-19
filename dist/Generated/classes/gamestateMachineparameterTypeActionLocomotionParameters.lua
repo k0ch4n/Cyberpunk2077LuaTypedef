@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineparameterTypeActionLocomotionParameters: IScriptable
----@field public imperfectTurn Bool
----@field public speedBoostInputRequired Bool
----@field public speedBoostMultiplyByDot Bool
----@field public useCameraHeadingForMovement Bool
----@field public validImperfectTurn Bool
----@field public validSpeedBoostInputRequired Bool
----@field public validSpeedBoostMultiplyByDot Bool
----@field public validUseCameraHeadingForMovement Bool
----@field public doJump Bool
----@field public doSpeedBoost Bool
+---@field public ["imperfectTurn"] Bool
+---@field public ["speedBoostInputRequired"] Bool
+---@field public ["speedBoostMultiplyByDot"] Bool
+---@field public ["useCameraHeadingForMovement"] Bool
+---@field public ["validImperfectTurn"] Bool
+---@field public ["validSpeedBoostInputRequired"] Bool
+---@field public ["validSpeedBoostMultiplyByDot"] Bool
+---@field public ["validUseCameraHeadingForMovement"] Bool
+---@field public ["doJump"] Bool
+---@field public ["doSpeedBoost"] Bool
 gamestateMachineparameterTypeActionLocomotionParameters = {}
 
 ---@param fields? table

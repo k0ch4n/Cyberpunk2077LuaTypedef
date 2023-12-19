@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LiftSetMovementStateEvent: redEvent
----@field public movementState gamePlatformMovementState
+---@field public ["movementState"] gamePlatformMovementState
 LiftSetMovementStateEvent = {}
 
 ---@param fields? table

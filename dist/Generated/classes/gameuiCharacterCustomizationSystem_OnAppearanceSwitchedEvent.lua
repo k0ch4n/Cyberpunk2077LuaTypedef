@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationSystem_OnAppearanceSwitchedEvent: redEvent
----@field public pairs gameuiSwitchPair[]
+---@field public ["pairs"] gameuiSwitchPair[]
 gameuiCharacterCustomizationSystem_OnAppearanceSwitchedEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeHitAnimEventExecutor: gameEffectExecutor_Scripted
----@field private ignoreWaterImpacts Bool
+---@field private ["ignoreWaterImpacts"] Bool
 MeleeHitAnimEventExecutor = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TransactionRequest: MarketSystemRequest
----@field public requestID Int32
----@field public items TransactionRequestData[]
+---@field public ["requestID"] Int32
+---@field public ["items"] TransactionRequestData[]
 TransactionRequest = {}
 
 ---@param fields? table

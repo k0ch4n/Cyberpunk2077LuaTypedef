@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckStatusEffectState: AIStatusEffectCondition
----@field public statusEffectType gamedataStatusEffectType
----@field public stateToCheck EstatusEffectsState
----@field public topPrioStatusEffect gameStatusEffect
+---@field public ["statusEffectType"] gamedataStatusEffectType
+---@field public ["stateToCheck"] EstatusEffectsState
+---@field public ["topPrioStatusEffect"] gameStatusEffect
 CheckStatusEffectState = {}
 
 ---@param fields? table

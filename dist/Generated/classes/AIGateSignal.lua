@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIGateSignal
----@field public tags CName
----@field public flags AISignalFlags
----@field public priority Float
----@field public lifeTime Float
+---@field public ["tags"] CName
+---@field public ["flags"] AISignalFlags
+---@field public ["priority"] Float
+---@field public ["lifeTime"] Float
 AIGateSignal = {}
 
 ---@param fields? table
@@ -18,7 +18,7 @@ function AIGateSignal.new(fields) return end
 function AIGateSignal.AddFlag(self, flag) return end
 
 ---@param self AIGateSignal
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function AIGateSignal.AddTag(self, tag) return end
 
@@ -42,7 +42,7 @@ function AIGateSignal.HasAllTagsOf(self, other) return end
 function AIGateSignal.HasFlag(self, flag) return end
 
 ---@param self AIGateSignal
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function AIGateSignal.HasTag(self, tag) return end
 

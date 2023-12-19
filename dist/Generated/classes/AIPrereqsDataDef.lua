@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIPrereqsDataDef: AIBlackboardDef
----@field public npcHitTypeTimeout gamebbScriptID_Variant
+---@field public ["npcHitTypeTimeout"] gamebbScriptID_Variant
 AIPrereqsDataDef = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetContainerStateEvent: redEvent
----@field public isDisabled Bool
+---@field public ["isDisabled"] Bool
 SetContainerStateEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DLCAddedItemDisplayHoverOverEvent: redEvent
----@field public itemTDBID TweakDBID
+---@field public ["itemTDBID"] TweakDBID
 DLCAddedItemDisplayHoverOverEvent = {}
 
 ---@param fields? table

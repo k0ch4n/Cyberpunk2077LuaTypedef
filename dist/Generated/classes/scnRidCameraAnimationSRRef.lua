@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnRidCameraAnimationSRRef
----@field public resourceId scnRidResourceId
----@field public animationSN scnRidSerialNumber
+---@field public ["resourceId"] scnRidResourceId
+---@field public ["animationSN"] scnRidSerialNumber
 scnRidCameraAnimationSRRef = {}
 
 ---@param fields? table

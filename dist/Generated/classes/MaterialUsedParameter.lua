@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MaterialUsedParameter
----@field public name CName
----@field public register Uint8
+---@field public ["name"] CName
+---@field public ["register"] Uint8
 MaterialUsedParameter = {}
 
 ---@param fields? table

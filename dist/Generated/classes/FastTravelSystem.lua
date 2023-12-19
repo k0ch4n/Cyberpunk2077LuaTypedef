@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class FastTravelSystem: gameScriptableSystem
----@field private fastTravelNodes gameFastTravelPointData[]
----@field private isFastTravelEnabledOnMap Bool
----@field private fastTravelPointsTotal Int32
----@field private lastUpdatedAchievementCount Int32
----@field private fastTravelLocks FastTravelSystemLock[]
----@field private loadingScreenCallbackID redCallbackObject
----@field private requestAutoSafeAfterLoadingScreen Bool
----@field private fastTravelSystemRecord gamedataFastTravelSystem_Record
----@field private lockLisenerID CName
----@field private unlockLisenerID CName
----@field private removeAllLocksLisenerID CName
+---@field private ["fastTravelNodes"] gameFastTravelPointData[]
+---@field private ["isFastTravelEnabledOnMap"] Bool
+---@field private ["fastTravelPointsTotal"] Int32
+---@field private ["lastUpdatedAchievementCount"] Int32
+---@field private ["fastTravelLocks"] FastTravelSystemLock[]
+---@field private ["loadingScreenCallbackID"] redCallbackObject
+---@field private ["requestAutoSafeAfterLoadingScreen"] Bool
+---@field private ["fastTravelSystemRecord"] gamedataFastTravelSystem_Record
+---@field private ["lockLisenerID"] CName
+---@field private ["unlockLisenerID"] CName
+---@field private ["removeAllLocksLisenerID"] CName
 FastTravelSystem = {}
 
 ---@param fields? table
 ---@return FastTravelSystem
 function FastTravelSystem.new(fields) return end
 
----@param reason CName
+---@param reason CName|string
 ---@param statusEffectID? TweakDBID
 ---@return nil
 function FastTravelSystem.AddFastTravelLock(reason, statusEffectID) return end
 
 ---@param enable Bool
----@param reason CName
+---@param reason CName|string
 ---@param statusEffectID? TweakDBID
 ---@return nil
 function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) return end
@@ -33,7 +33,7 @@ function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) r
 ---@return nil
 function FastTravelSystem.RemoveAllFastTravelLocks() return end
 
----@param reason CName
+---@param reason CName|string
 ---@param statusEffectID? TweakDBID
 ---@return nil
 function FastTravelSystem.RemoveFastTravelLock(reason, statusEffectID) return end
@@ -44,7 +44,7 @@ function FastTravelSystem.RemoveFastTravelLock(reason, statusEffectID) return en
 function FastTravelSystem:OnLoadingScreenFinished(value) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@param statusEffectID? TweakDBID
 ---@return nil
 function FastTravelSystem:AddFastTravelLock(reason, statusEffectID) return end
@@ -201,7 +201,7 @@ function FastTravelSystem:RegisterLoadingScreenCallback() return end
 function FastTravelSystem:RegisterMappin(nodeData) return end
 
 ---@private
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function FastTravelSystem:RemoveFastTravelLock(reason) return end
 

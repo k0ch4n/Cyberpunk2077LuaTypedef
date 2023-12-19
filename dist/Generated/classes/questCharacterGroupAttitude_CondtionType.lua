@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterGroupAttitude_CondtionType: questICharacterConditionType
----@field public group1Name CName
----@field public group2Name CName
----@field public attitude EAIAttitude
+---@field public ["group1Name"] CName
+---@field public ["group2Name"] CName
+---@field public ["attitude"] EAIAttitude
 questCharacterGroupAttitude_CondtionType = {}
 
 ---@param fields? table

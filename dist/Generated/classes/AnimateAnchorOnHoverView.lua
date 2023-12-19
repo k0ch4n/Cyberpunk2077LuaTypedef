@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AnimateAnchorOnHoverView: inkWidgetLogicController
----@field private Raycaster inkWidgetReference
----@field private AnimProxy inkanimProxy
----@field private HoverAnchor Vector2
----@field private NormalAnchor Vector2
----@field private AnimTime Float
+---@field private ["Raycaster"] inkWidgetReference
+---@field private ["AnimProxy"] inkanimProxy
+---@field private ["HoverAnchor"] Vector2
+---@field private ["NormalAnchor"] Vector2
+---@field private ["AnimTime"] Float
 AnimateAnchorOnHoverView = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewGameMenuGameController: PreGameSubMenuGameController
----@field private categories inkSelectorController
----@field private gameDefinitions inkSelectorController
----@field private genders inkSelectorController
+---@field private ["categories"] inkSelectorController
+---@field private ["gameDefinitions"] inkSelectorController
+---@field private ["genders"] inkSelectorController
 NewGameMenuGameController = {}
 
 ---@param fields? table

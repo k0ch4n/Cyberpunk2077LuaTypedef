@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterestingConversation_DEPRECATED
----@field public sceneFilename scnSceneResource
+---@field public ["sceneFilename"] scnSceneResource
 scnInterestingConversation_DEPRECATED = {}
 
 ---@param fields? table

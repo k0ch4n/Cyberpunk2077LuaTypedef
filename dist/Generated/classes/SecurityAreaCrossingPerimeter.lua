@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityAreaCrossingPerimeter: SecurityAreaEvent
----@field private entered Bool
+---@field private ["entered"] Bool
 SecurityAreaCrossingPerimeter = {}
 
 ---@param fields? table

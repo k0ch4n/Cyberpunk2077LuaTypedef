@@ -3,11 +3,11 @@
 
 ---@enum EAIDismembermentBodyPart
 EAIDismembermentBodyPart = {
-    ["NONE"] = -1,
-    ["LEFT_ARM"] = 0,
-    ["RIGHT_ARM"] = 1,
-    ["LEFT_LEG"] = 2,
-    ["RIGHT_LEG"] = 3,
-    ["HEAD"] = 4,
-    ["BODY"] = 5
+    ["NONE"] = -1, ---@type Enum
+    ["LEFT_ARM"] = 0, ---@type Enum
+    ["RIGHT_ARM"] = 1, ---@type Enum
+    ["LEFT_LEG"] = 2, ---@type Enum
+    ["RIGHT_LEG"] = 3, ---@type Enum
+    ["HEAD"] = 4, ---@type Enum
+    ["BODY"] = 5, ---@type Enum
 }

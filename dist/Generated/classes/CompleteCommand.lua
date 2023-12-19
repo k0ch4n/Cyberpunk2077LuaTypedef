@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CompleteCommand: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field protected ["inCommand"] AIArgumentMapping
 CompleteCommand = {}
 
 ---@param fields? table

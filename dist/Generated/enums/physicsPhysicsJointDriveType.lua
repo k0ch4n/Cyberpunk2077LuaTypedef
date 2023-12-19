@@ -3,10 +3,10 @@
 
 ---@enum physicsPhysicsJointDriveType
 physicsPhysicsJointDriveType = {
-    ["AxisX"] = 0,
-    ["AxisY"] = 1,
-    ["AxisZ"] = 2,
-    ["Swing"] = 3,
-    ["Twist"] = 4,
-    ["SLERP"] = 5
+    ["AxisX"] = 0, ---@type Enum
+    ["AxisY"] = 1, ---@type Enum
+    ["AxisZ"] = 2, ---@type Enum
+    ["Swing"] = 3, ---@type Enum
+    ["Twist"] = 4, ---@type Enum
+    ["SLERP"] = 5, ---@type Enum
 }

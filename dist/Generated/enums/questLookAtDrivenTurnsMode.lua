@@ -3,9 +3,9 @@
 
 ---@enum questLookAtDrivenTurnsMode
 questLookAtDrivenTurnsMode = {
-    ["Start"] = 0,
-    ["Pause"] = 1,
-    ["Resume"] = 2,
-    ["Stop"] = 3,
-    ["ForceStop"] = 4
+    ["Start"] = 0, ---@type Enum
+    ["Pause"] = 1, ---@type Enum
+    ["Resume"] = 2, ---@type Enum
+    ["Stop"] = 3, ---@type Enum
+    ["ForceStop"] = 4, ---@type Enum
 }

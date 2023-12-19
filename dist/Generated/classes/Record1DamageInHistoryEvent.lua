@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Record1DamageInHistoryEvent: redEvent
----@field public source gameObject
+---@field public ["source"] gameObject
 Record1DamageInHistoryEvent = {}
 
 ---@param fields? table

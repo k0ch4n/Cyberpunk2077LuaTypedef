@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckPreviousHighLevelState: AINPCPreviousHighLevelStateCheck
----@field public state gamedataNPCHighLevelState
+---@field public ["state"] gamedataNPCHighLevelState
 CheckPreviousHighLevelState = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum EStatusEffectBehaviorType
 EStatusEffectBehaviorType = {
-    ["Invalid"] = 0,
-    ["Basic"] = 1,
-    ["Stoppable"] = 2,
-    ["Unstoppable"] = 3
+    ["Invalid"] = 0, ---@type Enum
+    ["Basic"] = 1, ---@type Enum
+    ["Stoppable"] = 2, ---@type Enum
+    ["Unstoppable"] = 3, ---@type Enum
 }

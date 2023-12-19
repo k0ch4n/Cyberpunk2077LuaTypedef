@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestAVThrusterEvent: redEvent
----@field public enable Bool
+---@field public ["enable"] Bool
 VehicleQuestAVThrusterEvent = {}
 
 ---@param fields? table

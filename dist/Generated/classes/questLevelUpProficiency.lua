@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questLevelUpProficiency: gamePlayerScriptableSystemRequest
----@field public proficiencyType gamedataProficiencyType
+---@field public ["proficiencyType"] gamedataProficiencyType
 questLevelUpProficiency = {}
 
 ---@param fields? table

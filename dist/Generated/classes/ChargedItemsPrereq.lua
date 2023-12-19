@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChargedItemsPrereq: gameIScriptablePrereq
----@field public chargesToCheck EChargesAmount
----@field public typeOfItem EChargesItem
+---@field public ["chargesToCheck"] EChargesAmount
+---@field public ["typeOfItem"] EChargesItem
 ChargedItemsPrereq = {}
 
 ---@param fields? table

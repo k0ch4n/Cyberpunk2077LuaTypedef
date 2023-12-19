@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class TvChannelSpawnData: IScriptable
----@field public channelName CName
----@field public localizedName String
----@field public order Int32
+---@field public ["channelName"] CName
+---@field public ["localizedName"] String
+---@field public ["order"] Int32
 TvChannelSpawnData = {}
 
 ---@param fields? table
 ---@return TvChannelSpawnData
 function TvChannelSpawnData.new(fields) return end
 
----@param channelName CName
+---@param channelName CName|string
 ---@param localizedName String
 ---@param order Int32
 ---@return nil

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckEquippedWeaponType: AIItemHandlingCondition
----@field public weaponTypeToCheck CName
+---@field public ["weaponTypeToCheck"] CName
 CheckEquippedWeaponType = {}
 
 ---@param fields? table

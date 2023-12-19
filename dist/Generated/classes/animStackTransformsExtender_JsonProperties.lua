@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animStackTransformsExtender_JsonProperties: ISerializable
----@field public entries animStackTransformsExtender_JsonEntry[]
+---@field public ["entries"] animStackTransformsExtender_JsonEntry[]
 animStackTransformsExtender_JsonProperties = {}
 
 ---@param fields? table

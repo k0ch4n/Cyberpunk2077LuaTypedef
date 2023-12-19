@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkAnimSlot: animAnimNode_SkAnim
----@field public forFacialIdle Bool
+---@field public ["forFacialIdle"] Bool
 animAnimNode_SkAnimSlot = {}
 
 ---@param fields? table

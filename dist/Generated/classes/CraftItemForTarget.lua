@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftItemForTarget: ActionBool
----@field public itemID TweakDBID
+---@field public ["itemID"] TweakDBID
 CraftItemForTarget = {}
 
 ---@param fields? table
@@ -16,7 +16,7 @@ function CraftItemForTarget.IsDefaultConditionMet(device, context) return end
 
 ---@param displayText String
 ---@param additionalText String
----@param imageAtlasImageID CName
+---@param imageAtlasImageID CName|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
 function CraftItemForTarget:CreateActionWidgetPackage(displayText, additionalText, imageAtlasImageID, actions) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetReference
----@field public widget inkWidget
+---@field public ["widget"] inkWidget
 inkWidgetReference = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function inkWidgetReference.new(fields) return end
 function inkWidgetReference.BindProperty() return end
 
 ---@param self inkWidgetReference
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function inkWidgetReference.CallCustomCallback(self, eventName) return end
 
@@ -28,7 +28,7 @@ function inkWidgetReference.ChangeTranslation(self, translationVector) return en
 function inkWidgetReference.Equals(self, other) return end
 
 ---@param self inkWidgetReference
----@param userDataTypeName CName
+---@param userDataTypeName CName|string
 ---@param userDataCollection inkUserData[]
 ---@return nil
 function inkWidgetReference.GatherUserData(self, userDataTypeName, userDataCollection) return end
@@ -50,7 +50,7 @@ function inkWidgetReference.GetAnchorPoint(self) return end
 function inkWidgetReference.GetController(self) return end
 
 ---@param self inkWidgetReference
----@param controllerType CName
+---@param controllerType CName|string
 ---@return inkWidgetLogicController
 function inkWidgetReference.GetControllerByType(self, controllerType) return end
 
@@ -59,7 +59,7 @@ function inkWidgetReference.GetControllerByType(self, controllerType) return end
 function inkWidgetReference.GetControllers(self) return end
 
 ---@param self inkWidgetReference
----@param controllerType CName
+---@param controllerType CName|string
 ---@return inkWidgetLogicController[]
 function inkWidgetReference.GetControllersByType(self, controllerType) return end
 
@@ -88,7 +88,7 @@ function inkWidgetReference.GetName(self) return end
 function inkWidgetReference.GetNumControllers(self) return end
 
 ---@param self inkWidgetReference
----@param controllerType CName
+---@param controllerType CName|string
 ---@return Int32
 function inkWidgetReference.GetNumControllersOfType(self, controllerType) return end
 
@@ -145,17 +145,17 @@ function inkWidgetReference.GetTintColor(self) return end
 function inkWidgetReference.GetTranslation(self) return end
 
 ---@param self inkWidgetReference
----@param userDataTypeName CName
+---@param userDataTypeName CName|string
 ---@return inkUserData
 function inkWidgetReference.GetUserData(self, userDataTypeName) return end
 
 ---@param self inkWidgetReference
----@param userDataTypeName CName
+---@param userDataTypeName CName|string
 ---@return inkUserData[]
 function inkWidgetReference.GetUserDataArray(self, userDataTypeName) return end
 
 ---@param self inkWidgetReference
----@param userDataTypeName CName
+---@param userDataTypeName CName|string
 ---@return Uint32
 function inkWidgetReference.GetUserDataObjectCount(self, userDataTypeName) return end
 
@@ -164,7 +164,7 @@ function inkWidgetReference.GetUserDataObjectCount(self, userDataTypeName) retur
 function inkWidgetReference.GetVAlign(self) return end
 
 ---@param self inkWidgetReference
----@param userDataTypeName CName
+---@param userDataTypeName CName|string
 ---@return Bool
 function inkWidgetReference.HasUserDataObject(self, userDataTypeName) return end
 
@@ -192,9 +192,9 @@ function inkWidgetReference.PlayAnimation(self, animationDefinition) return end
 function inkWidgetReference.PlayAnimationWithOptions(self, animationDefinition, playbackOptions) return end
 
 ---@param self inkWidgetReference
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkWidgetReference.RegisterToCallback(self, eventName, object, functionName) return end
 
@@ -240,7 +240,7 @@ function inkWidgetReference.SetLayout(self, layout) return end
 function inkWidgetReference.SetMargin(self, margin) return end
 
 ---@param self inkWidgetReference
----@param widgetName CName
+---@param widgetName CName|string
 ---@return nil
 function inkWidgetReference.SetName(self, widgetName) return end
 
@@ -290,7 +290,7 @@ function inkWidgetReference.SetSizeCoefficient(self, sizeCoefficient) return end
 function inkWidgetReference.SetSizeRule(self, sizeRule) return end
 
 ---@param self inkWidgetReference
----@param state CName
+---@param state CName|string
 ---@return nil
 function inkWidgetReference.SetState(self, state) return end
 
@@ -327,9 +327,9 @@ function inkWidgetReference.StopAllAnimations(self) return end
 function inkWidgetReference.UnbindProperty() return end
 
 ---@param self inkWidgetReference
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkWidgetReference.UnregisterFromCallback(self, eventName, object, functionName) return end
 

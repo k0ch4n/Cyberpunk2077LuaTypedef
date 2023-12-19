@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entMechanicalImpactComponent: entIComponent
----@field private c_impulseMagThreshold Float
+---@field private ["c_impulseMagThreshold"] Float
 entMechanicalImpactComponent = {}
 
 ---@param fields? table

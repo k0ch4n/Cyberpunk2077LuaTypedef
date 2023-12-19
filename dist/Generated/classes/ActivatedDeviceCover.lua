@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceCover: ActivatedDeviceTransfromAnim
----@field protected offMeshConnection AIOffMeshConnectionComponent
+---@field protected ["offMeshConnection"] AIOffMeshConnectionComponent
 ActivatedDeviceCover = {}
 
 ---@param fields? table

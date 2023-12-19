@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HoloAudioCallLogicController: inkWidgetLogicController
----@field private AvatarControllerRef inkWidgetReference
----@field private Holder inkWidgetReference
----@field private AvatarController HudPhoneAvatarController
----@field private Owner gameObject
+---@field private ["AvatarControllerRef"] inkWidgetReference
+---@field private ["Holder"] inkWidgetReference
+---@field private ["AvatarController"] HudPhoneAvatarController
+---@field private ["Owner"] gameObject
 HoloAudioCallLogicController = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum gameDifficulty
 gameDifficulty = {
-    ["Easy"] = 0,
-    ["Hard"] = 1,
-    ["VeryHard"] = 2,
-    ["Story"] = 3
+    ["Easy"] = 0, ---@type Enum
+    ["Hard"] = 1, ---@type Enum
+    ["VeryHard"] = 2, ---@type Enum
+    ["Story"] = 3, ---@type Enum
 }

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameJournalEmail: gameJournalEntry
----@field public sender LocalizationString
----@field public addressee LocalizationString
----@field public title LocalizationString
----@field public content LocalizationString
----@field public videoResource Bink
----@field public pictureTweak TweakDBID
+---@field public ["sender"] LocalizationString
+---@field public ["addressee"] LocalizationString
+---@field public ["title"] LocalizationString
+---@field public ["content"] LocalizationString
+---@field public ["videoResource"] Bink
+---@field public ["pictureTweak"] TweakDBID
 gameJournalEmail = {}
 
 ---@param fields? table

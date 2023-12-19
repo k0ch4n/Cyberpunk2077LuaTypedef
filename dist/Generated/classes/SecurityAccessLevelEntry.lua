@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityAccessLevelEntry
----@field public keycard TweakDBID
----@field public password CName
+---@field public ["keycard"] TweakDBID
+---@field public ["password"] CName
 SecurityAccessLevelEntry = {}
 
 ---@param fields? table

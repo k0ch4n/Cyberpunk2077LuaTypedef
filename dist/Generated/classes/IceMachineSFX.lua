@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IceMachineSFX: VendingMachineSFX
----@field public iceFalls CName
----@field public processing CName
+---@field public ["iceFalls"] CName
+---@field public ["processing"] CName
 IceMachineSFX = {}
 
 ---@param fields? table

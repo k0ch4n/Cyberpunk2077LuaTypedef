@@ -3,11 +3,11 @@
 
 ---@enum EWidgetState
 EWidgetState = {
-    ["DEFAULT"] = 0,
-    ["ON"] = 1,
-    ["OFF"] = 2,
-    ["INACTIVE"] = 3,
-    ["ALLOWED"] = 4,
-    ["LOCKED"] = 5,
-    ["SEALED"] = 6
+    ["DEFAULT"] = 0, ---@type Enum
+    ["ON"] = 1, ---@type Enum
+    ["OFF"] = 2, ---@type Enum
+    ["INACTIVE"] = 3, ---@type Enum
+    ["ALLOWED"] = 4, ---@type Enum
+    ["LOCKED"] = 5, ---@type Enum
+    ["SEALED"] = 6, ---@type Enum
 }

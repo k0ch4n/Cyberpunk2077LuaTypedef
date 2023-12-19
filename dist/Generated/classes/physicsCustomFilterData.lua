@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsCustomFilterData: ISerializable
----@field public collisionType CName[]
----@field public collideWith CName[]
----@field public queryDetect CName[]
+---@field public ["collisionType"] CName[]
+---@field public ["collideWith"] CName[]
+---@field public ["queryDetect"] CName[]
 physicsCustomFilterData = {}
 
 ---@param fields? table

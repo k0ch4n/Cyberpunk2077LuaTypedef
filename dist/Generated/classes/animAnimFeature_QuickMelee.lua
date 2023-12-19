@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_QuickMelee: animAnimFeature
----@field public state Int32
+---@field public ["state"] Int32
 animAnimFeature_QuickMelee = {}
 
 ---@param fields? table

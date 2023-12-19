@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class rendFont: CResource
----@field public fontBuffer DataBuffer
+---@field public ["fontBuffer"] DataBuffer
 rendFont = {}
 
 ---@param fields? table

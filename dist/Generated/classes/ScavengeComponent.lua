@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScavengeComponent: gameScriptableComponent
----@field public scavengeTargets gameObject[]
+---@field public ["scavengeTargets"] gameObject[]
 ScavengeComponent = {}
 
 ---@param fields? table

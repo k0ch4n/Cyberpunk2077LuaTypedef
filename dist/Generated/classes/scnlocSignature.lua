@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnlocSignature
----@field public val Uint64
+---@field public ["val"] Uint64
 scnlocSignature = {}
 
 ---@param fields? table

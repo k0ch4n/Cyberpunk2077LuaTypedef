@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PreventionRegisterRequest: gameScriptableSystemRequest
----@field public requester gamePersistentState
----@field public attitudeGroup CName
----@field public register Bool
+---@field public ["requester"] gamePersistentState
+---@field public ["attitudeGroup"] CName
+---@field public ["register"] Bool
 PreventionRegisterRequest = {}
 
 ---@param fields? table

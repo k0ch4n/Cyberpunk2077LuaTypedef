@@ -3,8 +3,8 @@
 
 ---@enum EAllowedTo
 EAllowedTo = {
-    ["UNDEFINED"] = 0,
-    ["TRESSPASSING"] = 1,
-    ["ILLEGAL_ACTIONS"] = 2,
-    ["COMBAT"] = 3
+    ["UNDEFINED"] = 0, ---@type Enum
+    ["TRESSPASSING"] = 1, ---@type Enum
+    ["ILLEGAL_ACTIONS"] = 2, ---@type Enum
+    ["COMBAT"] = 3, ---@type Enum
 }

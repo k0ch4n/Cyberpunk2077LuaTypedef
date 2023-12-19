@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomValueFromMappingTimeout: AITimeoutCondition
----@field public actionTweakIDMapping AIArgumentMapping
+---@field public ["actionTweakIDMapping"] AIArgumentMapping
 CustomValueFromMappingTimeout = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCAttitudeTowardsPlayerPrereqState: gamePrereqState
----@field public attitudeListener gameScriptedPrereqAttitudeListenerWrapper
+---@field public ["attitudeListener"] gameScriptedPrereqAttitudeListenerWrapper
 NPCAttitudeTowardsPlayerPrereqState = {}
 
 ---@param fields? table

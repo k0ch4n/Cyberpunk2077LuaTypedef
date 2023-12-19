@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseMenuGameControllerPuppetSceneInfo
----@field public sceneName CName
----@field public markerRef NodeRef
----@field public prefabRef NodeRef
----@field public entityTemplate entEntityTemplate
----@field public puppetRecordId TweakDBID
----@field public gender gameuiBaseMenuGameControllerPuppetGenderInfo
+---@field public ["sceneName"] CName
+---@field public ["markerRef"] NodeRef
+---@field public ["prefabRef"] NodeRef
+---@field public ["entityTemplate"] entEntityTemplate
+---@field public ["puppetRecordId"] TweakDBID
+---@field public ["gender"] gameuiBaseMenuGameControllerPuppetGenderInfo
 gameuiBaseMenuGameControllerPuppetSceneInfo = {}
 
 ---@param fields? table

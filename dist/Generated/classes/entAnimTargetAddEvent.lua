@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class entAnimTargetAddEvent: redEvent
----@field public targetPositionProvider entIPositionProvider
----@field public bodyPart CName
+---@field public ["targetPositionProvider"] entIPositionProvider
+---@field public ["bodyPart"] CName
 entAnimTargetAddEvent = {}
 
 ---@param targetEntity entEntity
----@param slotTargetName CName
+---@param slotTargetName CName|string
 ---@param targetOffsetEntity Vector4
 ---@return nil
 function entAnimTargetAddEvent:SetEntityTarget(targetEntity, slotTargetName, targetOffsetEntity) return end

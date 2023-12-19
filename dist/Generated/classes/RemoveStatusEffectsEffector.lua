@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RemoveStatusEffectsEffector: gameEffector
----@field private effectTypes String[]
----@field private effectString String[]
----@field private effectTags CName[]
+---@field private ["effectTypes"] String[]
+---@field private ["effectString"] String[]
+---@field private ["effectTags"] CName[]
 RemoveStatusEffectsEffector = {}
 
 ---@param fields? table

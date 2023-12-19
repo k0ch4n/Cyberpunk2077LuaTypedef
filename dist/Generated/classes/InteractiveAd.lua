@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InteractiveAd: InteractiveDevice
----@field protected triggerComponent gameStaticTriggerAreaComponent
----@field protected triggerExitComponent gameStaticTriggerAreaComponent
----@field protected aduiComponent WorldWidgetComponent
----@field protected showAd Bool
----@field protected showVendor Bool
+---@field protected ["triggerComponent"] gameStaticTriggerAreaComponent
+---@field protected ["triggerExitComponent"] gameStaticTriggerAreaComponent
+---@field protected ["aduiComponent"] WorldWidgetComponent
+---@field protected ["showAd"] Bool
+---@field protected ["showVendor"] Bool
 InteractiveAd = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleHealthStatPoolListener: gameCustomValueStatPoolsListener
----@field public owner vehicleBaseObject
+---@field public ["owner"] vehicleBaseObject
 VehicleHealthStatPoolListener = {}
 
 ---@param fields? table

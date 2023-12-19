@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questForceModule_NodeType: questIVisionModeNodeType
----@field public params questForceVMModule_NodeTypeParams[]
+---@field public ["params"] questForceVMModule_NodeTypeParams[]
 questForceModule_NodeType = {}
 
 ---@param fields? table

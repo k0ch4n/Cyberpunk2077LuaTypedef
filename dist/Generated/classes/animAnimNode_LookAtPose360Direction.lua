@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_LookAtPose360Direction: animAnimNode_FloatValue
----@field public angleOffset Float
----@field public defaultValue Float
----@field public negateOutput Bool
+---@field public ["angleOffset"] Float
+---@field public ["defaultValue"] Float
+---@field public ["negateOutput"] Bool
 animAnimNode_LookAtPose360Direction = {}
 
 ---@param fields? table

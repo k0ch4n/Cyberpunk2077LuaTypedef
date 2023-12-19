@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsDamageBlockedByNanoTechPlatesEvent: redEvent
----@field public hitEvent gameeventsHitEvent
+---@field public ["hitEvent"] gameeventsHitEvent
 gameeventsDamageBlockedByNanoTechPlatesEvent = {}
 
 ---@param fields? table

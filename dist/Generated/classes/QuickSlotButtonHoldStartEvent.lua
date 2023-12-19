@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickSlotButtonHoldStartEvent: redEvent
----@field public dPadItemDirection EDPadSlot
+---@field public ["dPadItemDirection"] EDPadSlot
 QuickSlotButtonHoldStartEvent = {}
 
 ---@param fields? table

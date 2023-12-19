@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckPathToCombatTarget: AIbehaviorconditionScript
----@field public path worldNavigationScriptPath
+---@field public ["path"] worldNavigationScriptPath
 CheckPathToCombatTarget = {}
 
 ---@param fields? table

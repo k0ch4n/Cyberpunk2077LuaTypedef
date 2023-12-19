@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class hudDroneController: gameuiHUDGameController
----@field private Date inkTextWidgetReference
----@field private Timer inkTextWidgetReference
----@field private CameraID inkTextWidgetReference
----@field private scanBlackboard gameIBlackboard
----@field private psmBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private root inkCompoundWidget
----@field private currentZoom Float
----@field private currentTime GameTime
+---@field private ["Date"] inkTextWidgetReference
+---@field private ["Timer"] inkTextWidgetReference
+---@field private ["CameraID"] inkTextWidgetReference
+---@field private ["scanBlackboard"] gameIBlackboard
+---@field private ["psmBlackboard"] gameIBlackboard
+---@field private ["PSM_BBID"] redCallbackObject
+---@field private ["root"] inkCompoundWidget
+---@field private ["currentZoom"] Float
+---@field private ["currentTime"] GameTime
 hudDroneController = {}
 
 ---@param fields? table

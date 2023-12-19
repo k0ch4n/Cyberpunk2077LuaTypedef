@@ -3,14 +3,14 @@
 
 ---@enum ESecurityNotificationType
 ESecurityNotificationType = {
-    ["REPRIMAND_SUCCESSFUL"] = -2,
-    ["DEESCALATE"] = -1,
-    ["DEFAULT"] = 0,
-    ["ILLEGAL_ACTION"] = 1,
-    ["REPRIMAND_ESCALATE"] = 2,
-    ["DEVICE_DESTROYED"] = 3,
-    ["ALARM"] = 4,
-    ["SECURITY_GATE"] = 5,
-    ["COMBAT"] = 6,
-    ["QUEST"] = 7
+    ["REPRIMAND_SUCCESSFUL"] = -2, ---@type Enum
+    ["DEESCALATE"] = -1, ---@type Enum
+    ["DEFAULT"] = 0, ---@type Enum
+    ["ILLEGAL_ACTION"] = 1, ---@type Enum
+    ["REPRIMAND_ESCALATE"] = 2, ---@type Enum
+    ["DEVICE_DESTROYED"] = 3, ---@type Enum
+    ["ALARM"] = 4, ---@type Enum
+    ["SECURITY_GATE"] = 5, ---@type Enum
+    ["COMBAT"] = 6, ---@type Enum
+    ["QUEST"] = 7, ---@type Enum
 }

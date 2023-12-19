@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BroadcastStimEffector: gameContinuousEffector
----@field public stimType gamedataStimType
----@field public radius Float
+---@field public ["stimType"] gamedataStimType
+---@field public ["radius"] Float
 BroadcastStimEffector = {}
 
 ---@param fields? table

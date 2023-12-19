@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GogErrorNotificationController: inkWidgetLogicController
----@field public errorMessageWidget inkWidgetReference
+---@field public ["errorMessageWidget"] inkWidgetReference
 GogErrorNotificationController = {}
 
 ---@param fields? table

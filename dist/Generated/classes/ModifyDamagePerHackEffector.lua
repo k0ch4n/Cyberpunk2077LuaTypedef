@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ModifyDamagePerHackEffector: ModifyDamageEffector
----@field public countOnlyUnique Bool
+---@field public ["countOnlyUnique"] Bool
 ModifyDamagePerHackEffector = {}
 
 ---@param fields? table

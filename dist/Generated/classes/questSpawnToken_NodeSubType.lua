@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSpawnToken_NodeSubType: questIContentTokenManager_NodeSubType
----@field public immediate Bool
+---@field public ["immediate"] Bool
 questSpawnToken_NodeSubType = {}
 
 ---@param fields? table

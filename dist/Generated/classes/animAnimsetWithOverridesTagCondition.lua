@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimsetWithOverridesTagCondition: animIRuntimeCondition
----@field public animsetTags redTagList
+---@field public ["animsetTags"] redTagList
 animAnimsetWithOverridesTagCondition = {}
 
 ---@param fields? table

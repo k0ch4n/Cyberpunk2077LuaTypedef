@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EdgrunnerPerkEvent: redEvent
----@field public isPurchased Bool
+---@field public ["isPurchased"] Bool
 EdgrunnerPerkEvent = {}
 
 ---@param fields? table

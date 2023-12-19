@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTPPRepresentationComponent: entIComponent
----@field public detachedObjectInfo gameFppRepDetachedObjectInfo[]
----@field public attachedObjectInfo gameTppRepAttachedObjectInfo[]
----@field public affectedAppearanceSlots TweakDBID[]
+---@field public ["detachedObjectInfo"] gameFppRepDetachedObjectInfo[]
+---@field public ["attachedObjectInfo"] gameTppRepAttachedObjectInfo[]
+---@field public ["affectedAppearanceSlots"] TweakDBID[]
 gameTPPRepresentationComponent = {}
 
 ---@param fields? table

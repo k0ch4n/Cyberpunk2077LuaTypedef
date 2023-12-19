@@ -3,7 +3,7 @@
 
 ---@enum gameEquipmentSetType
 gameEquipmentSetType = {
-    ["Offensive"] = 0,
-    ["Defensive"] = 1,
-    ["Cyberware"] = 2
+    ["Offensive"] = 0, ---@type Enum
+    ["Defensive"] = 1, ---@type Enum
+    ["Cyberware"] = 2, ---@type Enum
 }

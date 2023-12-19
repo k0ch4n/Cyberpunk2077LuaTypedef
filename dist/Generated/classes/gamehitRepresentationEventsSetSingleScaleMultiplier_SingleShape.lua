@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamehitRepresentationEventsSetSingleScaleMultiplier_SingleShape: gamehitRepresentationEventsSetSingleScaleMultiplier_AllShapes
----@field public shapeName CName
+---@field public ["shapeName"] CName
 gamehitRepresentationEventsSetSingleScaleMultiplier_SingleShape = {}
 
 ---@param fields? table

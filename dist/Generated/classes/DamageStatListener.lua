@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DamageStatListener: gameScriptStatsListener
----@field public weapon gameweaponObject
----@field private updateEvt UpdateDamageChangeEvent
+---@field public ["weapon"] gameweaponObject
+---@field private ["updateEvt"] UpdateDamageChangeEvent
 DamageStatListener = {}
 
 ---@param fields? table

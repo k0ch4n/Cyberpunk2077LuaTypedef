@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class navLocomotionPathPointInfo
----@field public point navSerializableSplineProgression
----@field public userDataIndex Uint32
+---@field public ["point"] navSerializableSplineProgression
+---@field public ["userDataIndex"] Uint32
 navLocomotionPathPointInfo = {}
 
 ---@param fields? table

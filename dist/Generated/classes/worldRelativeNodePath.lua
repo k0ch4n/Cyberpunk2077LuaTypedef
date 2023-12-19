@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldRelativeNodePath
----@field public parentsToSkip Uint32
----@field public elements worldRelativeNodePathElement[]
+---@field public ["parentsToSkip"] Uint32
+---@field public ["elements"] worldRelativeNodePathElement[]
 worldRelativeNodePath = {}
 
 ---@param fields? table

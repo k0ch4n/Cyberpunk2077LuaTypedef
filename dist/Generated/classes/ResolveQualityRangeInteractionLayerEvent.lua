@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResolveQualityRangeInteractionLayerEvent: redEvent
----@field public itemData gameItemData
+---@field public ["itemData"] gameItemData
 ResolveQualityRangeInteractionLayerEvent = {}
 
 ---@param fields? table

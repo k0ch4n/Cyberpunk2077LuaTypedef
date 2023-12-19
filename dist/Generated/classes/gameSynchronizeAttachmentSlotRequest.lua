@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSynchronizeAttachmentSlotRequest: gamePlayerScriptableSystemRequest
----@field public slotID TweakDBID
+---@field public ["slotID"] TweakDBID
 gameSynchronizeAttachmentSlotRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioContextualVoiceGruntSettings
----@field public painShort audioContextualVoiceGrunt
----@field public effort audioContextualVoiceGrunt
+---@field public ["painShort"] audioContextualVoiceGrunt
+---@field public ["effort"] audioContextualVoiceGrunt
 audioContextualVoiceGruntSettings = {}
 
 ---@param fields? table

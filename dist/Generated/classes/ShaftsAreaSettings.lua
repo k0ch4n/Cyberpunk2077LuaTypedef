@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ShaftsAreaSettings
----@field public shaftsLevelIndex Uint32
----@field public shaftsIntensity Float
----@field public shaftsThresholdsScale Float
+---@field public ["shaftsLevelIndex"] Uint32
+---@field public ["shaftsIntensity"] Float
+---@field public ["shaftsThresholdsScale"] Float
 ShaftsAreaSettings = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNodeSourceChannel_StaticQuat: animIAnimNodeSourceChannel_Quat
----@field public data Quaternion
+---@field public ["data"] Quaternion
 animAnimNodeSourceChannel_StaticQuat = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamecheatsystemObjCheats
----@field public object gameObject
----@field public flags Int32
+---@field public ["object"] gameObject
+---@field public ["flags"] Int32
 gamecheatsystemObjCheats = {}
 
 ---@param fields? table

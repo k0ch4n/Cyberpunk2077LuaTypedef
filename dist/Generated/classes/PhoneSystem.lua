@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class PhoneSystem: gameScriptableSystem
----@field private BlackboardSystem gameBlackboardSystem
----@field private Blackboard gameIBlackboard
----@field private PsmBlackboard gameIBlackboard
----@field private LastCallInformation questPhoneCallInformation
----@field private StatusEffectsListener PhoneStatusEffectListener
----@field private StatsListener PhoneStatsListener
----@field private ContactsOpen Bool
----@field private PhoneVisibilityBBId redCallbackObject
----@field private ContactsOpenBBId redCallbackObject
----@field private HighLevelBBId redCallbackObject
----@field private CombatBBId redCallbackObject
----@field private SwimmingBBId redCallbackObject
----@field private IsContrDeviceBBId redCallbackObject
----@field private IsUIZoomDeviceBBId redCallbackObject
----@field private PlayerAttachedCallbackID Uint32
----@field private PlayerDetachedCallbackID Uint32
+---@field private ["BlackboardSystem"] gameBlackboardSystem
+---@field private ["Blackboard"] gameIBlackboard
+---@field private ["PsmBlackboard"] gameIBlackboard
+---@field private ["LastCallInformation"] questPhoneCallInformation
+---@field private ["StatusEffectsListener"] PhoneStatusEffectListener
+---@field private ["StatsListener"] PhoneStatsListener
+---@field private ["ContactsOpen"] Bool
+---@field private ["PhoneVisibilityBBId"] redCallbackObject
+---@field private ["ContactsOpenBBId"] redCallbackObject
+---@field private ["HighLevelBBId"] redCallbackObject
+---@field private ["CombatBBId"] redCallbackObject
+---@field private ["SwimmingBBId"] redCallbackObject
+---@field private ["IsContrDeviceBBId"] redCallbackObject
+---@field private ["IsUIZoomDeviceBBId"] redCallbackObject
+---@field private ["PlayerAttachedCallbackID"] Uint32
+---@field private ["PlayerDetachedCallbackID"] Uint32
 PhoneSystem = {}
 
 ---@param fields? table
@@ -34,8 +34,8 @@ function PhoneSystem:OnPhoneEnabledChangedBool(value) return end
 ---@return Bool
 function PhoneSystem:OnPhoneEnabledChangedInt(value) return end
 
----@param contactName1 CName
----@param contactName2 CName
+---@param contactName1 CName|string
+---@param contactName2 CName|string
 ---@return String
 function PhoneSystem:GetPhoneCallFactName(contactName1, contactName2) return end
 
@@ -170,7 +170,7 @@ function PhoneSystem:RefreshPhoneEnabled() return end
 
 ---@private
 ---@param isPlayerCalling Bool
----@param contactName CName
+---@param contactName CName|string
 ---@param state questPhoneTalkingState
 ---@return nil
 function PhoneSystem:SetPhoneFact(isPlayerCalling, contactName, state) return end
@@ -183,7 +183,7 @@ function PhoneSystem:ToggleContacts(open) return end
 ---@private
 ---@param callMode questPhoneCallMode
 ---@param isAudio Bool
----@param contactName CName
+---@param contactName CName|string
 ---@param isPlayerCalling Bool
 ---@param callPhase questPhoneCallPhase
 ---@param isPlayerTriggered Bool

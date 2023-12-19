@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkMaskEffect: inkIEffect
----@field public angle Float
----@field public opacity Float
----@field public invert Bool
+---@field public ["angle"] Float
+---@field public ["opacity"] Float
+---@field public ["invert"] Bool
 inkMaskEffect = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum gameVehicleCommonCurve
 gameVehicleCommonCurve = {
-    ["RPMLimit"] = 0,
-    ["ForcedBrakeForce"] = 1,
-    ["COUNT"] = 2
+    ["RPMLimit"] = 0, ---@type Enum
+    ["ForcedBrakeForce"] = 1, ---@type Enum
+    ["COUNT"] = 2, ---@type Enum
 }

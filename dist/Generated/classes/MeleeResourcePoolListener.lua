@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeResourcePoolListener: gameScriptStatPoolsListener
----@field private meleeCrosshair CrosshairGameController_Melee
+---@field private ["meleeCrosshair"] CrosshairGameController_Melee
 MeleeResourcePoolListener = {}
 
 ---@param fields? table

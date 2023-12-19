@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class BaseModalListPopupGameController: gameuiWidgetGameController
----@field protected content inkWidgetReference
----@field protected listController inkVirtualListController
----@field protected playerPuppet gameObject
----@field protected popupData inkGameNotificationData
----@field protected timeDilationProfile String
----@field protected canPlaySwitchAnimation Bool
----@field private templateClassifier BaseModalListPopupTemplateClassifier
----@field private systemRequestsHandler inkISystemRequestsHandler
----@field private switchAnimProxy inkanimProxy
----@field private inoutTransitionAnimProxy inkanimProxy
----@field private isInMenuCallbackID redCallbackObject
----@field private c_scrollInputThreshold Float
----@field private firstInit Bool
+---@field protected ["content"] inkWidgetReference
+---@field protected ["listController"] inkVirtualListController
+---@field protected ["playerPuppet"] gameObject
+---@field protected ["popupData"] inkGameNotificationData
+---@field protected ["timeDilationProfile"] String
+---@field protected ["canPlaySwitchAnimation"] Bool
+---@field private ["templateClassifier"] BaseModalListPopupTemplateClassifier
+---@field private ["systemRequestsHandler"] inkISystemRequestsHandler
+---@field private ["switchAnimProxy"] inkanimProxy
+---@field private ["inoutTransitionAnimProxy"] inkanimProxy
+---@field private ["isInMenuCallbackID"] redCallbackObject
+---@field private ["c_scrollInputThreshold"] Float
+---@field private ["firstInit"] Bool
 BaseModalListPopupGameController = {}
 
 ---@param fields? table

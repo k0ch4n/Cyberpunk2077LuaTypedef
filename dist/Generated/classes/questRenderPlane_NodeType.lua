@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questRenderPlane_NodeType: questIRenderFxManagerNodeType
----@field public puppetRef gameEntityReference
----@field public renderPlane ERenderingPlane
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["renderPlane"] ERenderingPlane
 questRenderPlane_NodeType = {}
 
 ---@param fields? table

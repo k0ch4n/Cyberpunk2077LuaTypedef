@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageWithDistance: ModifyDamageEffector
----@field public percentMult Float
----@field public minDistance Float
----@field public maxDistance Float
----@field public improveWithDistance Bool
+---@field public ["percentMult"] Float
+---@field public ["minDistance"] Float
+---@field public ["maxDistance"] Float
+---@field public ["improveWithDistance"] Bool
 ModifyDamageWithDistance = {}
 
 ---@param fields? table

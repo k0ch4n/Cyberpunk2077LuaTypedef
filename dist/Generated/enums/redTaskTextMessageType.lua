@@ -3,6 +3,6 @@
 
 ---@enum redTaskTextMessageType
 redTaskTextMessageType = {
-    ["Info"] = 0,
-    ["Error"] = 1
+    ["Info"] = 0, ---@type Enum
+    ["Error"] = 1, ---@type Enum
 }

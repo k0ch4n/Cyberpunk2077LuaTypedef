@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DebugOutlineEvent: redEvent
----@field public type EOutlineType
----@field public opacity Float
----@field public requester entEntityID
----@field public duration Float
+---@field public ["type"] EOutlineType
+---@field public ["opacity"] Float
+---@field public ["requester"] entEntityID
+---@field public ["duration"] Float
 DebugOutlineEvent = {}
 
 ---@param fields? table

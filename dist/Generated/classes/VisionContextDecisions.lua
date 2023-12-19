@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class VisionContextDecisions: InputContextTransitionDecisions
----@field private vehicleCallbackID redCallbackObject
----@field private focusCallbackID redCallbackObject
----@field private vehicleTransition Bool
----@field private isFocusing Bool
----@field private visionHoldPressed Bool
+---@field private ["vehicleCallbackID"] redCallbackObject
+---@field private ["focusCallbackID"] redCallbackObject
+---@field private ["vehicleTransition"] Bool
+---@field private ["isFocusing"] Bool
+---@field private ["visionHoldPressed"] Bool
 VisionContextDecisions = {}
 
 ---@param fields? table

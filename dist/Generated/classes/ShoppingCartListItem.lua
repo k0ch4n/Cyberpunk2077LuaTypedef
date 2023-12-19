@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ShoppingCartListItem: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private quantity inkTextWidgetReference
----@field private value inkTextWidgetReference
----@field private removeBtn inkWidgetReference
----@field private data gameInventoryItemData
+---@field private ["label"] inkTextWidgetReference
+---@field private ["quantity"] inkTextWidgetReference
+---@field private ["value"] inkTextWidgetReference
+---@field private ["removeBtn"] inkWidgetReference
+---@field private ["data"] gameInventoryItemData
 ShoppingCartListItem = {}
 
 ---@param fields? table

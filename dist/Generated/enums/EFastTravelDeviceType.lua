@@ -3,6 +3,6 @@
 
 ---@enum EFastTravelDeviceType
 EFastTravelDeviceType = {
-    ["DataTerm"] = 0,
-    ["SubwayGate"] = 1
+    ["DataTerm"] = 0, ---@type Enum
+    ["SubwayGate"] = 1, ---@type Enum
 }

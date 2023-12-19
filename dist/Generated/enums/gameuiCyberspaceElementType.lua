@@ -3,6 +3,6 @@
 
 ---@enum gameuiCyberspaceElementType
 gameuiCyberspaceElementType = {
-    ["CyberspaceNPC"] = 0,
-    ["CyberspaceFakeObject"] = 1
+    ["CyberspaceNPC"] = 0, ---@type Enum
+    ["CyberspaceFakeObject"] = 1, ---@type Enum
 }

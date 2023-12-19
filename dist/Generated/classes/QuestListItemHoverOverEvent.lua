@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestListItemHoverOverEvent: redEvent
----@field public isQuestResolved Bool
+---@field public ["isQuestResolved"] Bool
 QuestListItemHoverOverEvent = {}
 
 ---@param fields? table

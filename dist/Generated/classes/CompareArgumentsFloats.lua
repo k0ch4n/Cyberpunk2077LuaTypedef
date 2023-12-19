@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CompareArgumentsFloats: CompareArguments
----@field public comparator ECompareOp
+---@field public ["comparator"] ECompareOp
 CompareArgumentsFloats = {}
 
 ---@param fields? table

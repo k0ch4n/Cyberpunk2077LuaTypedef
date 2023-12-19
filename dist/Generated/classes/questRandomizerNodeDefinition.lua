@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questRandomizerNodeDefinition: questDisableableNodeDefinition
----@field public mode questRandomizerMode
----@field public outputWeights Uint8[]
+---@field public ["mode"] questRandomizerMode
+---@field public ["outputWeights"] Uint8[]
 questRandomizerNodeDefinition = {}
 
 ---@param fields? table

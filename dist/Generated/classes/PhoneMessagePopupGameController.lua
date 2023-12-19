@@ -2,38 +2,38 @@
 ---@diagnostic disable
 
 ---@class PhoneMessagePopupGameController: gameuiNewPhoneRelatedGameController
----@field private content inkWidgetReference
----@field private title inkTextWidgetReference
----@field private avatarImage inkImageWidgetReference
----@field private menuBackgrouns inkWidgetReference
----@field private hintsContainer inkWidgetReference
----@field private hintTrack inkWidgetReference
----@field private hintClose inkWidgetReference
----@field private hintReply inkWidgetReference
----@field private scrollReply inkWidgetReference
----@field private hintMessenger inkWidgetReference
----@field private hintCall inkWidgetReference
----@field private scrollSlider inkWidgetReference
----@field private contactsPath inkWidgetReference
----@field private messagesPath inkWidgetReference
----@field private blackboard gameIBlackboard
----@field private blackboardDef UI_ComDeviceDef
----@field private uiSystem gameuiGameSystemUI
----@field private player gameObject
----@field private journalMgr gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private data JournalNotificationData
----@field private entry gameJournalPhoneMessage
----@field private contactEntry gameJournalContact
----@field private attachment gameJournalEntry
----@field private attachmentState gameJournalEntryState
----@field private attachmentHash Uint32
----@field private activeEntry gameJournalEntry
----@field private dialogViewController MessengerDialogViewController
----@field private journalEntryHash Int32
----@field private proxy inkanimProxy
----@field private isFocused Bool
----@field private isHubVisiale Bool
+---@field private ["content"] inkWidgetReference
+---@field private ["title"] inkTextWidgetReference
+---@field private ["avatarImage"] inkImageWidgetReference
+---@field private ["menuBackgrouns"] inkWidgetReference
+---@field private ["hintsContainer"] inkWidgetReference
+---@field private ["hintTrack"] inkWidgetReference
+---@field private ["hintClose"] inkWidgetReference
+---@field private ["hintReply"] inkWidgetReference
+---@field private ["scrollReply"] inkWidgetReference
+---@field private ["hintMessenger"] inkWidgetReference
+---@field private ["hintCall"] inkWidgetReference
+---@field private ["scrollSlider"] inkWidgetReference
+---@field private ["contactsPath"] inkWidgetReference
+---@field private ["messagesPath"] inkWidgetReference
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["blackboardDef"] UI_ComDeviceDef
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["player"] gameObject
+---@field private ["journalMgr"] gameJournalManager
+---@field private ["phoneSystem"] PhoneSystem
+---@field private ["data"] JournalNotificationData
+---@field private ["entry"] gameJournalPhoneMessage
+---@field private ["contactEntry"] gameJournalContact
+---@field private ["attachment"] gameJournalEntry
+---@field private ["attachmentState"] gameJournalEntryState
+---@field private ["attachmentHash"] Uint32
+---@field private ["activeEntry"] gameJournalEntry
+---@field private ["dialogViewController"] MessengerDialogViewController
+---@field private ["journalEntryHash"] Int32
+---@field private ["proxy"] inkanimProxy
+---@field private ["isFocused"] Bool
+---@field private ["isHubVisiale"] Bool
 PhoneMessagePopupGameController = {}
 
 ---@param fields? table
@@ -48,7 +48,7 @@ function PhoneMessagePopupGameController:OnAction(action, consumer) return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -137,7 +137,7 @@ function PhoneMessagePopupGameController:FindFirstMessageWithAttachment(entry) r
 function PhoneMessagePopupGameController:GetFirstObjectiveFromQuest(journalQuest) return end
 
 ---@private
----@param menuName CName
+---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return nil
 function PhoneMessagePopupGameController:GotoHubMenu(menuName, userData) return end
@@ -151,7 +151,7 @@ function PhoneMessagePopupGameController:GotoJournalMenu() return end
 function PhoneMessagePopupGameController:GotoMessengerMenu() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function PhoneMessagePopupGameController:HandleCommonInputActions(actionName) return end
 

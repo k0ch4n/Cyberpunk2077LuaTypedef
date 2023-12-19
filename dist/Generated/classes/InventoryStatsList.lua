@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsList: inkWidgetLogicController
----@field private titleText inkTextWidget
----@field private containerWidget inkCompoundWidget
----@field private widgtesList inkWidget[]
+---@field private ["titleText"] inkTextWidget
+---@field private ["containerWidget"] inkCompoundWidget
+---@field private ["widgtesList"] inkWidget[]
 InventoryStatsList = {}
 
 ---@param fields? table

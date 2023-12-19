@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RequestCLSStateChangeDeviceOperation: DeviceOperationBase
----@field private state ECLSForcedState
----@field private sourceName CName
----@field private priority EPriority
----@field private removePreviousRequests Bool
+---@field private ["state"] ECLSForcedState
+---@field private ["sourceName"] CName
+---@field private ["priority"] EPriority
+---@field private ["removePreviousRequests"] Bool
 RequestCLSStateChangeDeviceOperation = {}
 
 ---@param fields? table

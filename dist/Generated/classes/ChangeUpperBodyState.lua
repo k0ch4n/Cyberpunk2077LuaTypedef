@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeUpperBodyState: ChangeUpperBodyStateAbstract
----@field public newState gamedataNPCUpperBodyState
+---@field public ["newState"] gamedataNPCUpperBodyState
 ChangeUpperBodyState = {}
 
 ---@param fields? table

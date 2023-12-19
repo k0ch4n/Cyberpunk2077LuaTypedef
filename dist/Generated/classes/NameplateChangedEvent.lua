@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NameplateChangedEvent: gameScriptableSystemRequest
----@field public entity entEntityID
+---@field public ["entity"] entEntityID
 NameplateChangedEvent = {}
 
 ---@param fields? table

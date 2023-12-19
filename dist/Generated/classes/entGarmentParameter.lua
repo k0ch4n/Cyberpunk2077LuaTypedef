@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entGarmentParameter: entEntityParameter
----@field public componentsData entGarmentParameterComponentData[]
----@field public collarArea garmentCollarAreaParams
----@field public lastUpdateDateTime CDateTime
+---@field public ["componentsData"] entGarmentParameterComponentData[]
+---@field public ["collarArea"] garmentCollarAreaParams
+---@field public ["lastUpdateDateTime"] CDateTime
 entGarmentParameter = {}
 
 ---@param fields? table

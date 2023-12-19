@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiBriefingGameController: gameuiWidgetGameController
----@field public briefingPlayerType questBriefingPlayerType
+---@field public ["briefingPlayerType"] questBriefingPlayerType
 gameuiBriefingGameController = {}
 
 ---@param fields? table

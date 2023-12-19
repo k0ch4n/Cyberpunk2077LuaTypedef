@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DriverCombatMountedWeaponsEvents: DriverCombatEvents
----@field private activeWeapons gameweaponObject[]
+---@field private ["activeWeapons"] gameweaponObject[]
 DriverCombatMountedWeaponsEvents = {}
 
 ---@param fields? table

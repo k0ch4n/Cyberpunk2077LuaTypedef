@@ -10,9 +10,9 @@ function rendFragmentBuilderScriptProxy.new(fields) return end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@return nil
-function rendFragmentBuilderScriptProxy.AddArrow(self, start, end) return end
+function rendFragmentBuilderScriptProxy.AddArrow(self, start, end_) return end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param matrix Matrix

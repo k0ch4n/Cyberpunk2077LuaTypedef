@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LibTreeSharedVarReferenceName
----@field public name CName
+---@field public ["name"] CName
 LibTreeSharedVarReferenceName = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questGiveReward_NodeType: questIRewardManagerNodeType
----@field public rewards TweakDBID[]
+---@field public ["rewards"] TweakDBID[]
 questGiveReward_NodeType = {}
 
 ---@param fields? table

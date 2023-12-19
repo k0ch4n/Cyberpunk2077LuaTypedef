@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WorldLightingConfig
----@field public lightAttenuationClamp Float
+---@field public ["lightAttenuationClamp"] Float
 WorldLightingConfig = {}
 
 ---@param fields? table

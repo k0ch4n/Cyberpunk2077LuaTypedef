@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_CombatGadget: animAnimFeature
----@field public isQuickthrow Bool
----@field public isChargedThrow Bool
----@field public isDetonated Bool
+---@field public ["isQuickthrow"] Bool
+---@field public ["isChargedThrow"] Bool
+---@field public ["isDetonated"] Bool
 AnimFeature_CombatGadget = {}
 
 ---@param fields? table

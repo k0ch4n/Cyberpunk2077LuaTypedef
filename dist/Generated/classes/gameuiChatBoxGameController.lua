@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gameuiChatBoxGameController: gameuiHUDGameController
----@field private player gamePuppetBase
----@field private chatBoxBlackboardId redCallbackObject
----@field private chatBox inkWidgetReference
----@field private enteredText inkTextInputWidgetReference
----@field private chatBoxOpen Bool
----@field private recentChatsShown inkWidget[]
----@field private recentContainer inkVerticalPanelWidget
----@field private historyContainer inkVerticalPanelWidget
----@field private chatHistory gameuiChatBoxText[]
----@field private lastChatId Int32
----@field private maxChatsDisplayed Int32
----@field private maxChatHistory Int32
+---@field private ["player"] gamePuppetBase
+---@field private ["chatBoxBlackboardId"] redCallbackObject
+---@field private ["chatBox"] inkWidgetReference
+---@field private ["enteredText"] inkTextInputWidgetReference
+---@field private ["chatBoxOpen"] Bool
+---@field private ["recentChatsShown"] inkWidget[]
+---@field private ["recentContainer"] inkVerticalPanelWidget
+---@field private ["historyContainer"] inkVerticalPanelWidget
+---@field private ["chatHistory"] gameuiChatBoxText[]
+---@field private ["lastChatId"] Int32
+---@field private ["maxChatsDisplayed"] Int32
+---@field private ["maxChatHistory"] Int32
 gameuiChatBoxGameController = {}
 
 ---@param fields? table

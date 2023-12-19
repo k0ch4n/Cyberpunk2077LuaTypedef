@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkSystemNotificationsLayerDefinition: inkLayerDefinition
----@field public cursorResource inkWidgetLibraryResource
+---@field public ["cursorResource"] inkWidgetLibraryResource
 inkSystemNotificationsLayerDefinition = {}
 
 ---@param fields? table

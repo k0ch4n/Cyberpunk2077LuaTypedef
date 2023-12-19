@@ -3,6 +3,6 @@
 
 ---@enum animEVectorWsToMsType
 animEVectorWsToMsType = {
-    ["Position"] = 0,
-    ["Direction"] = 1
+    ["Position"] = 0, ---@type Enum
+    ["Direction"] = 1, ---@type Enum
 }

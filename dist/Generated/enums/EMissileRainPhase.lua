@@ -3,7 +3,7 @@
 
 ---@enum EMissileRainPhase
 EMissileRainPhase = {
-    ["Init"] = 0,
-    ["Phase1"] = 1,
-    ["Phase2"] = 2
+    ["Init"] = 0, ---@type Enum
+    ["Phase1"] = 1, ---@type Enum
+    ["Phase2"] = 2, ---@type Enum
 }

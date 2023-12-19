@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioSoundBankStruct
----@field public soundBank CName
+---@field public ["soundBank"] CName
 audioSoundBankStruct = {}
 
 ---@param fields? table

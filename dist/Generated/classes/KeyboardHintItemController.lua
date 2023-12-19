@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class KeyboardHintItemController: AHintItemController
----@field private NumberText inkTextWidgetReference
----@field private Frame inkImageWidgetReference
----@field private DisabledStateName CName
----@field private SelectedStateName CName
----@field private FrameSelectedName CName
----@field private FrameUnselectedName CName
----@field private AnimationName CName
+---@field private ["NumberText"] inkTextWidgetReference
+---@field private ["Frame"] inkImageWidgetReference
+---@field private ["DisabledStateName"] CName
+---@field private ["SelectedStateName"] CName
+---@field private ["FrameSelectedName"] CName
+---@field private ["FrameUnselectedName"] CName
+---@field private ["AnimationName"] CName
 KeyboardHintItemController = {}
 
 ---@param fields? table

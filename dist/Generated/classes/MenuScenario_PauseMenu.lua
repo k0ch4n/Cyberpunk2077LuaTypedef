@@ -33,7 +33,7 @@ function MenuScenario_PauseMenu:OnCloseSettingsScreen() return end
 function MenuScenario_PauseMenu:OnCreditsPicker() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_PauseMenu:OnEnterScenario(prevScenario, userData) return end

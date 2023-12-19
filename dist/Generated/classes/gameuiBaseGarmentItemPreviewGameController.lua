@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseGarmentItemPreviewGameController: gameuiInventoryPuppetPreviewGameController
----@field protected placementSlot TweakDBID
----@field protected givenItem gameItemID
----@field protected initialItem gameItemID
+---@field protected ["placementSlot"] TweakDBID
+---@field protected ["givenItem"] gameItemID
+---@field protected ["initialItem"] gameItemID
 gameuiBaseGarmentItemPreviewGameController = {}
 
 ---@param fields? table

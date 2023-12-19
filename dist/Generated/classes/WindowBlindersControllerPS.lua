@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class WindowBlindersControllerPS: ScriptableDeviceComponentPS
----@field private windowBlindersSkillChecks EngDemoContainer
----@field protected windowBlindersData WindowBlindersData
----@field protected cachedState EWindowBlindersStates
----@field protected alarmRaised Bool
+---@field private ["windowBlindersSkillChecks"] EngDemoContainer
+---@field protected ["windowBlindersData"] WindowBlindersData
+---@field protected ["cachedState"] EWindowBlindersStates
+---@field protected ["alarmRaised"] Bool
 WindowBlindersControllerPS = {}
 
 ---@param fields? table

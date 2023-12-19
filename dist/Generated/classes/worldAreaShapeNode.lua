@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldAreaShapeNode: worldNode
----@field public color Color
----@field public outline AreaShapeOutline
+---@field public ["color"] Color
+---@field public ["outline"] AreaShapeOutline
 worldAreaShapeNode = {}
 
 ---@param fields? table

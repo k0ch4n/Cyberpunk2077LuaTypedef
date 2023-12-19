@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MotionBlurAreaSettings: IAreaSettings
----@field public strength Float
+---@field public ["strength"] Float
 MotionBlurAreaSettings = {}
 
 ---@param fields? table

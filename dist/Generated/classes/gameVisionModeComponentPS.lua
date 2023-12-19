@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeComponentPS: gameComponentPS
----@field public hideInDefaultMode Bool
----@field public hideInFocusMode Bool
----@field public inactive Bool
----@field public questInactive Bool
----@field private storedHighlightData FocusForcedHighlightPersistentData
+---@field public ["hideInDefaultMode"] Bool
+---@field public ["hideInFocusMode"] Bool
+---@field public ["inactive"] Bool
+---@field public ["questInactive"] Bool
+---@field private ["storedHighlightData"] FocusForcedHighlightPersistentData
 gameVisionModeComponentPS = {}
 
 ---@param fields? table

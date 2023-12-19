@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeirdTankyPlatingEffector: ModifyAttackEffector
----@field private armorMultiplier Float
+---@field private ["armorMultiplier"] Float
 WeirdTankyPlatingEffector = {}
 
 ---@param fields? table

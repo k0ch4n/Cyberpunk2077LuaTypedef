@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DebugMenuScenario_HubMenu: MenuScenario_BaseMenu
----@field private defaultMenu CName
----@field private cpoDefaultMenu CName
+---@field private ["defaultMenu"] CName
+---@field private ["cpoDefaultMenu"] CName
 DebugMenuScenario_HubMenu = {}
 
 ---@param fields? table
@@ -15,18 +15,18 @@ function DebugMenuScenario_HubMenu.new(fields) return end
 function DebugMenuScenario_HubMenu:OnBack() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function DebugMenuScenario_HubMenu:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function DebugMenuScenario_HubMenu:OnLeaveScenario(nextScenario) return end
 
 ---@protected
----@param menuName CName
+---@param menuName CName|string
 ---@return Bool
 function DebugMenuScenario_HubMenu:OnOpenBaseMenu(menuName) return end
 
@@ -55,6 +55,6 @@ function DebugMenuScenario_HubMenu:OnSwitchToFastTravel() return end
 function DebugMenuScenario_HubMenu:GetDefaultMenu() return end
 
 ---@private
----@param menuName CName
+---@param menuName CName|string
 ---@return nil
 function DebugMenuScenario_HubMenu:SetDefaultMenu(menuName) return end

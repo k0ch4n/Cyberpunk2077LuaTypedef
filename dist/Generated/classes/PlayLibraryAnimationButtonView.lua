@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PlayLibraryAnimationButtonView: BaseButtonView
----@field protected ToHoverAnimationName CName
----@field protected ToPressedAnimationName CName
----@field protected ToDefaultAnimationName CName
----@field protected ToDisabledAnimationName CName
----@field private InputAnimation inkanimProxy
+---@field protected ["ToHoverAnimationName"] CName
+---@field protected ["ToPressedAnimationName"] CName
+---@field protected ["ToDefaultAnimationName"] CName
+---@field protected ["ToDisabledAnimationName"] CName
+---@field private ["InputAnimation"] inkanimProxy
 PlayLibraryAnimationButtonView = {}
 
 ---@param fields? table

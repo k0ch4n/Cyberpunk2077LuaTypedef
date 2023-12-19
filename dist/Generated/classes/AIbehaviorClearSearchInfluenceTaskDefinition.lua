@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorClearSearchInfluenceTaskDefinition: AIbehaviorTaskDefinition
----@field public clearedAreaRadius AIArgumentMapping
----@field public clearedAreaDistance AIArgumentMapping
----@field public clearedAreaAngle AIArgumentMapping
+---@field public ["clearedAreaRadius"] AIArgumentMapping
+---@field public ["clearedAreaDistance"] AIArgumentMapping
+---@field public ["clearedAreaAngle"] AIArgumentMapping
 AIbehaviorClearSearchInfluenceTaskDefinition = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterLayerInfo
----@field public referenceWidget inkWidgetReference
----@field public planeRelativeValue Vector2
----@field public layerName CName
+---@field public ["referenceWidget"] inkWidgetReference
+---@field public ["planeRelativeValue"] Vector2
+---@field public ["layerName"] CName
 gameuiarcadeShooterLayerInfo = {}
 
 ---@param fields? table

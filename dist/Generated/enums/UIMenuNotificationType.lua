@@ -3,23 +3,23 @@
 
 ---@enum UIMenuNotificationType
 UIMenuNotificationType = {
-    ["VendorNotEnoughMoney"] = 0,
-    ["VNotEnoughMoney"] = 1,
-    ["VendorRequirementsNotMet"] = 2,
-    ["InventoryActionBlocked"] = 3,
-    ["CraftingNoPerks"] = 4,
-    ["CraftingNotEnoughMaterial"] = 5,
-    ["UpgradingLevelToLow"] = 6,
-    ["NoPerksPoints"] = 7,
-    ["PerksLocked"] = 8,
-    ["MaxLevelPerks"] = 9,
-    ["NoAttributePoints"] = 10,
-    ["InCombat"] = 11,
-    ["InCombatExplicit"] = 12,
-    ["CraftingQuickhack"] = 13,
-    ["CraftingAmmoCap"] = 14,
-    ["PlayerReqLevelToLow"] = 15,
-    ["InventoryNoFreeSlot"] = 16,
-    ["FaceUnequipBlocked"] = 17,
-    ["TutorialUnequipBlocked"] = 18
+    ["VendorNotEnoughMoney"] = 0, ---@type Enum
+    ["VNotEnoughMoney"] = 1, ---@type Enum
+    ["VendorRequirementsNotMet"] = 2, ---@type Enum
+    ["InventoryActionBlocked"] = 3, ---@type Enum
+    ["CraftingNoPerks"] = 4, ---@type Enum
+    ["CraftingNotEnoughMaterial"] = 5, ---@type Enum
+    ["UpgradingLevelToLow"] = 6, ---@type Enum
+    ["NoPerksPoints"] = 7, ---@type Enum
+    ["PerksLocked"] = 8, ---@type Enum
+    ["MaxLevelPerks"] = 9, ---@type Enum
+    ["NoAttributePoints"] = 10, ---@type Enum
+    ["InCombat"] = 11, ---@type Enum
+    ["InCombatExplicit"] = 12, ---@type Enum
+    ["CraftingQuickhack"] = 13, ---@type Enum
+    ["CraftingAmmoCap"] = 14, ---@type Enum
+    ["PlayerReqLevelToLow"] = 15, ---@type Enum
+    ["InventoryNoFreeSlot"] = 16, ---@type Enum
+    ["FaceUnequipBlocked"] = 17, ---@type Enum
+    ["TutorialUnequipBlocked"] = 18, ---@type Enum
 }

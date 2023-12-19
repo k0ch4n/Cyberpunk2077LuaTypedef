@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerWeaponBasic: ScannerChunk
----@field protected weapon CName
+---@field protected ["weapon"] CName
 ScannerWeaponBasic = {}
 
 ---@param fields? table
@@ -15,6 +15,6 @@ function ScannerWeaponBasic:GetType() return end
 ---@return CName
 function ScannerWeaponBasic:GetWeapon() return end
 
----@param displayName CName
+---@param displayName CName|string
 ---@return nil
 function ScannerWeaponBasic:Set(displayName) return end

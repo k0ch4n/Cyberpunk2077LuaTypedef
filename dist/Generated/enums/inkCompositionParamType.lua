@@ -3,6 +3,6 @@
 
 ---@enum inkCompositionParamType
 inkCompositionParamType = {
-    ["FLOAT"] = 0,
-    ["VECTOR2"] = 1
+    ["FLOAT"] = 0, ---@type Enum
+    ["VECTOR2"] = 1, ---@type Enum
 }

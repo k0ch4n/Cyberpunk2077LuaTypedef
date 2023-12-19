@@ -3,12 +3,12 @@
 
 ---@enum moveLocomotionAction
 moveLocomotionAction = {
-    ["Undefined"] = 0,
-    ["Exploration"] = 1,
-    ["Idle"] = 2,
-    ["IdleTurn"] = 3,
-    ["Reposition"] = 4,
-    ["Start"] = 5,
-    ["Move"] = 6,
-    ["Stop"] = 7
+    ["Undefined"] = 0, ---@type Enum
+    ["Exploration"] = 1, ---@type Enum
+    ["Idle"] = 2, ---@type Enum
+    ["IdleTurn"] = 3, ---@type Enum
+    ["Reposition"] = 4, ---@type Enum
+    ["Start"] = 5, ---@type Enum
+    ["Move"] = 6, ---@type Enum
+    ["Stop"] = 7, ---@type Enum
 }

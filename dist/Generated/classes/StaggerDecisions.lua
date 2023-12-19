@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StaggerDecisions: ReactionTransition
----@field public textLayerId Uint32
+---@field public ["textLayerId"] Uint32
 StaggerDecisions = {}
 
 ---@param fields? table

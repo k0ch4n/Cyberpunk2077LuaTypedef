@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class STransformAnimationData
----@field public animationName CName
----@field public operationType ETransformAnimationOperationType
----@field public playData STransformAnimationPlayEventData
----@field public skipData STransformAnimationSkipEventData
+---@field public ["animationName"] CName
+---@field public ["operationType"] ETransformAnimationOperationType
+---@field public ["playData"] STransformAnimationPlayEventData
+---@field public ["skipData"] STransformAnimationSkipEventData
 STransformAnimationData = {}
 
 ---@param fields? table

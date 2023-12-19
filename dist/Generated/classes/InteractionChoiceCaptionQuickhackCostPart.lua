@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InteractionChoiceCaptionQuickhackCostPart: gameinteractionsChoiceCaptionScriptPart
----@field public cost Int32
+---@field public ["cost"] Int32
 InteractionChoiceCaptionQuickhackCostPart = {}
 
 ---@param fields? table

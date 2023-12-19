@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class saveMetadataContainer: ISerializable
----@field public metadata saveMetadata
+---@field public ["metadata"] saveMetadata
 saveMetadataContainer = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_InventoryDef: gamebbScriptDefinition
----@field public itemAdded gamebbScriptID_Variant
----@field public itemRemoved gamebbScriptID_Variant
+---@field public ["itemAdded"] gamebbScriptID_Variant
+---@field public ["itemRemoved"] gamebbScriptID_Variant
 UI_InventoryDef = {}
 
 ---@param fields? table

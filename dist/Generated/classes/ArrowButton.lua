@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ArrowButton: inkButtonController
----@field private direction Direction
+---@field private ["direction"] Direction
 ArrowButton = {}
 
 ---@param fields? table
@@ -33,6 +33,6 @@ function ArrowButton:OnHoverOut(evt) return end
 function ArrowButton:OnHoverOver(evt) return end
 
 ---@private
----@param stateName CName
+---@param stateName CName|string
 ---@return nil
 function ArrowButton:SetState(stateName) return end

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiQuestMappinController: gameuiInteractionMappinController
----@field public nameplateVisible Bool
----@field public distanceText inkTextWidgetReference
----@field public displayName inkTextWidgetReference
+---@field public ["nameplateVisible"] Bool
+---@field public ["distanceText"] inkTextWidgetReference
+---@field public ["displayName"] inkTextWidgetReference
 gameuiQuestMappinController = {}
 
 ---@param fields? table

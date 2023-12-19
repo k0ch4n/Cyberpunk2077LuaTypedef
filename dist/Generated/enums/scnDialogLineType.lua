@@ -3,17 +3,17 @@
 
 ---@enum scnDialogLineType
 scnDialogLineType = {
-    ["None"] = 0,
-    ["Regular"] = 1,
-    ["Holocall"] = 2,
-    ["SceneComment"] = 3,
-    ["OverHead"] = 4,
-    ["Radio"] = 5,
-    ["GlobalTV"] = 6,
-    ["Invisible"] = 7,
-    ["OverHeadAlwaysVisible"] = 9,
-    ["OwnerlessRegular"] = 10,
-    ["AlwaysCinematicNoSpeaker"] = 11,
-    ["GlobalTVAlwaysVisible"] = 12,
-    ["Narrator"] = 13
+    ["None"] = 0, ---@type Enum
+    ["Regular"] = 1, ---@type Enum
+    ["Holocall"] = 2, ---@type Enum
+    ["SceneComment"] = 3, ---@type Enum
+    ["OverHead"] = 4, ---@type Enum
+    ["Radio"] = 5, ---@type Enum
+    ["GlobalTV"] = 6, ---@type Enum
+    ["Invisible"] = 7, ---@type Enum
+    ["OverHeadAlwaysVisible"] = 9, ---@type Enum
+    ["OwnerlessRegular"] = 10, ---@type Enum
+    ["AlwaysCinematicNoSpeaker"] = 11, ---@type Enum
+    ["GlobalTVAlwaysVisible"] = 12, ---@type Enum
+    ["Narrator"] = 13, ---@type Enum
 }

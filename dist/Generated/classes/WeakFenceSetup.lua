@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeakFenceSetup
----@field public hasGenericInteraction Bool
+---@field public ["hasGenericInteraction"] Bool
 WeakFenceSetup = {}
 
 ---@param fields? table

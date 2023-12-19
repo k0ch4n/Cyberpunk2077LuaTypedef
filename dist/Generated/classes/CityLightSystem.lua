@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CityLightSystem: gameScriptableSystem
----@field private timeSystemCallbacks TimetableCallbackData[]
----@field private fuses FuseData[]
----@field private state ECLSForcedState
----@field private forcedStateSource CName
----@field private forcedStatesStack ForcedStateData[]
----@field private weatherListener CLSWeatherListener
----@field private turnOffLisenerID CName
----@field private turnOnLisenerID CName
----@field private resetLisenerID CName
----@field private weatherCallbackId Uint32
+---@field private ["timeSystemCallbacks"] TimetableCallbackData[]
+---@field private ["fuses"] FuseData[]
+---@field private ["state"] ECLSForcedState
+---@field private ["forcedStateSource"] CName
+---@field private ["forcedStatesStack"] ForcedStateData[]
+---@field private ["weatherListener"] CLSWeatherListener
+---@field private ["turnOffLisenerID"] CName
+---@field private ["turnOnLisenerID"] CName
+---@field private ["resetLisenerID"] CName
+---@field private ["weatherCallbackId"] Uint32
 CityLightSystem = {}
 
 ---@param fields? table
@@ -24,7 +24,7 @@ function CityLightSystem.GetMaxNotificationsPerFrame() return end
 
 ---@private
 ---@param state ECLSForcedState
----@param sourceName CName
+---@param sourceName CName|string
 ---@param priority EPriority
 ---@param savable Bool
 ---@return Bool
@@ -174,7 +174,7 @@ function CityLightSystem:OnTimeTableCallbackRequest(request) return end
 function CityLightSystem:RegisterTimetableCallback(callbackData) return end
 
 ---@private
----@param sourceName CName
+---@param sourceName CName|string
 ---@return Bool
 function CityLightSystem:RemoveForcedStateRequestForSource(sourceName) return end
 

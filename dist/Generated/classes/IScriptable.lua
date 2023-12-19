@@ -14,11 +14,11 @@ function IScriptable.DetectScriptableCycles() return end
 ---@return CName
 function IScriptable:GetClassName() return end
 
----@param className CName
+---@param className CName|string
 ---@return Bool
 function IScriptable:IsA(className) return end
 
----@param className CName
+---@param className CName|string
 ---@return Bool
 function IScriptable:IsExactlyA(className) return end
 

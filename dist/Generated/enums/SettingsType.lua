@@ -3,7 +3,7 @@
 
 ---@enum SettingsType
 SettingsType = {
-    ["Slider"] = 0,
-    ["Toggle"] = 1,
-    ["DropdownList"] = 2
+    ["Slider"] = 0, ---@type Enum
+    ["Toggle"] = 1, ---@type Enum
+    ["DropdownList"] = 2, ---@type Enum
 }

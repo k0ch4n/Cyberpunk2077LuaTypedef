@@ -225,7 +225,7 @@ function DefaultTransition:ActivateDamageProjection(newState, weapon, scriptInte
 ---@param duration Float
 ---@param distanceRadius Float
 ---@param rotationDuration Float
----@param curveName? CName
+---@param curveName? CName|string
 ---@param useParabolicMotion? Bool
 ---@param targetPosition? Vector4
 ---@return Bool
@@ -244,7 +244,7 @@ function DefaultTransition:BlockAimingForTime(stateContext, scriptInterface, blo
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function DefaultTransition:BreakEffectLoop(scriptInterface, effectName) return end
 
@@ -299,7 +299,7 @@ function DefaultTransition:CheckItemCategoryInQuickWheel(scriptInterface, compar
 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
----@param parameterName CName
+---@param parameterName CName|string
 ---@return nil
 function DefaultTransition:ClearItemIDWrapperPermanentParameter(stateContext, parameterName) return end
 
@@ -310,21 +310,21 @@ function DefaultTransition:ClearItemIDWrapperPermanentParameter(stateContext, pa
 ---@return Bool
 function DefaultTransition:CompareLocalBlackboardInt(scriptInterface, blackboardID, CompareTo) return end
 
----@param smName CName
----@param smState CName[]
+---@param smName CName|string
+---@param smState CName[]|string[]
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
 function DefaultTransition:CompareSMState(smName, smState, stateContext) return end
 
----@param smName CName
----@param smState CName
+---@param smName CName|string
+---@param smState CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
 function DefaultTransition:CompareSMState(smName, smState, stateContext) return end
 
----@param definitionName CName
----@param referenceName CName
----@param smState CName
+---@param definitionName CName|string
+---@param referenceName CName|string
+---@param smState CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
 function DefaultTransition:CompareSMStateWithIden(definitionName, referenceName, smState, stateContext) return end
@@ -388,12 +388,12 @@ function DefaultTransition:ForceIdleVehicle(stateContext) return end
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
+---@param actionName CName|string
 ---@return Float
 function DefaultTransition:GetActionHoldTime(stateContext, scriptInterface, actionName) return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param varName CName
+---@param varName CName|string
 ---@return Bool
 function DefaultTransition:GetBoolFromQuestDB(scriptInterface, varName) return end
 
@@ -452,7 +452,7 @@ function DefaultTransition:GetHudManager(scriptInterface) return end
 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
----@param parameterName CName
+---@param parameterName CName|string
 ---@return gameItemID
 function DefaultTransition:GetItemIDFromWrapperPermanentParameter(stateContext, parameterName) return end
 
@@ -542,7 +542,7 @@ function DefaultTransition:GetVerticalSpeed(scriptInterface) return end
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param tag CName
+---@param tag CName|string
 ---@param itemID? gameItemID
 ---@return Bool
 function DefaultTransition:GetWeaponItemTag(stateContext, scriptInterface, tag, itemID) return end
@@ -574,7 +574,7 @@ function DefaultTransition:HasStatPoolValueReachedMax(scriptInterface, entityID,
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param timeStampName CName
+---@param timeStampName CName|string
 ---@return Bool
 function DefaultTransition:HasTimeStampElapsed(stateContext, scriptInterface, timeStampName) return end
 
@@ -637,7 +637,7 @@ function DefaultTransition:IsDeepEnoughToSwim(scriptInterface) return end
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function DefaultTransition:IsDisplayingInputHintBlocked(scriptInterface, actionName) return end
 
@@ -688,12 +688,12 @@ function DefaultTransition:IsInFirstEquip(stateContext) return end
 function DefaultTransition:IsInFocusMode(scriptInterface) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param highLevelStateName CName
+---@param highLevelStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInHighLevelState(stateContext, highLevelStateName) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param inputContextStateName CName
+---@param inputContextStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInInputContextState(stateContext, inputContextStateName) return end
 
@@ -706,12 +706,12 @@ function DefaultTransition:IsInItemWheelState(stateContext) return end
 function DefaultTransition:IsInLadderState(stateContext) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param locomotionStateName CName
+---@param locomotionStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInLocomotionState(stateContext, locomotionStateName) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param meleeStateName CName
+---@param meleeStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInMeleeState(stateContext, meleeStateName) return end
 
@@ -755,12 +755,12 @@ function DefaultTransition:IsInTakedownState(stateContext) return end
 function DefaultTransition:IsInTier2Locomotion(scriptInterface) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param upperBodyStateName CName
+---@param upperBodyStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInUpperBodyState(stateContext, upperBodyStateName) return end
 
 ---@param stateContext gamestateMachineStateContextScript
----@param vehicleStateName CName
+---@param vehicleStateName CName|string
 ---@return Bool
 function DefaultTransition:IsInVehicleState(stateContext, vehicleStateName) return end
 
@@ -930,7 +930,7 @@ function DefaultTransition:IsSafeStateForced(stateContext, scriptInterface) retu
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param timeDilationReason CName
+---@param timeDilationReason CName|string
 ---@return Bool
 function DefaultTransition:IsTimeDilationActive(stateContext, scriptInterface, timeDilationReason) return end
 
@@ -1018,13 +1018,13 @@ function DefaultTransition:OnStatusEffectApplied(statusEffect) return end
 function DefaultTransition:OnStatusEffectRemoved(statusEffect) return end
 
 ---@protected
----@param soundName CName
+---@param soundName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function DefaultTransition:PlaySound(soundName, scriptInterface) return end
 
 ---@protected
----@param evtName CName
+---@param evtName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param evtParam Float
 ---@return nil
@@ -1049,14 +1049,14 @@ function DefaultTransition:PrepareGameEffectAoEAttack(stateContext, scriptInterf
 function DefaultTransition:ProcessCombatGadgetActionInputCaching(scriptInterface, stateContext) return end
 
 ---@protected
----@param parameterName CName
+---@param parameterName CName|string
 ---@param state Bool
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
 function DefaultTransition:ProcessPermanentBoolParameterToggle(parameterName, state, stateContext) return end
 
 ---@protected
----@param cameraParams CName
+---@param cameraParams CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function DefaultTransition:QueueSetCameraParamsEvent(cameraParams, scriptInterface) return end
@@ -1069,14 +1069,14 @@ function DefaultTransition:QueueSetCameraParamsEvent_Tier3Scene(stateContext, sc
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
----@param source CName
+---@param actionName CName|string
+---@param source CName|string
 ---@return nil
 function DefaultTransition:RemoveInputHint(scriptInterface, actionName, source) return end
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param source CName
+---@param source CName|string
 ---@return nil
 function DefaultTransition:RemoveInputHintsBySource(scriptInterface, source) return end
 
@@ -1098,7 +1098,7 @@ function DefaultTransition:RequestPlayerPositionAdjustment(stateContext, scriptI
 ---@param slideTime Float
 ---@param distanceRadius Float
 ---@param adjustPosition Vector4
----@param adjustCurveName CName
+---@param adjustCurveName CName|string
 ---@return Bool
 function DefaultTransition:RequestPlayerPositionAdjustmentWithCurve(stateContext, scriptInterface, slideTime, distanceRadius, adjustPosition, adjustCurveName) return end
 
@@ -1139,7 +1139,7 @@ function DefaultTransition:SendDrawItemRequest(scriptInterface, item, equipAnimT
 function DefaultTransition:SendEquipmentSystemWeaponManipulationRequest(scriptInterface, requestType, equipAnimType) return end
 
 ---@protected
----@param paramName CName
+---@param paramName CName|string
 ---@param paramValue Float
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
@@ -1176,7 +1176,7 @@ function DefaultTransition:SetGameplayCameraParameters(scriptInterface, tweakDBP
 
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
----@param parameterName CName
+---@param parameterName CName|string
 ---@param item gameItemID
 ---@return nil
 function DefaultTransition:SetItemIDWrapperPermanentParameter(stateContext, parameterName, item) return end
@@ -1221,8 +1221,8 @@ function DefaultTransition:ShowAttackPreview(showIfAiming, weaponObject, scriptI
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param actionName CName
----@param source CName
+---@param actionName CName|string
+---@param source CName|string
 ---@param label String
 ---@param holdIndicationType? inkInputHintHoldIndicationType
 ---@param enableHoldAnimation? Bool
@@ -1239,7 +1239,7 @@ function DefaultTransition:SoftBlockAimingForTime(stateContext, scriptInterface,
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@param blackboard? worldEffectBlackboard
 ---@return nil
 function DefaultTransition:StartEffect(scriptInterface, effectName, blackboard) return end
@@ -1262,7 +1262,7 @@ function DefaultTransition:StartStatPoolDecay(scriptInterface, statPoolType) ret
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function DefaultTransition:StopEffect(scriptInterface, effectName) return end
 
@@ -1301,14 +1301,14 @@ function DefaultTransition:TriggerNoiseStim(owner, takedownActionType) return en
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param factName CName
+---@param factName CName|string
 ---@param add Int32
 ---@return nil
 function DefaultTransition:TutorialAddFact(scriptInterface, factName, add) return end
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param factName CName
+---@param factName CName|string
 ---@return nil
 function DefaultTransition:TutorialSetFact(scriptInterface, factName) return end
 

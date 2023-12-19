@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class WireRepairable: gameObject
----@field public isBroken Bool
----@field private dependableEntities NodeRef[]
----@field private interaction gameinteractionsComponent
----@field private brokenmesh entIVisualComponent
----@field private fixedmesh entIVisualComponent
+---@field public ["isBroken"] Bool
+---@field private ["dependableEntities"] NodeRef[]
+---@field private ["interaction"] gameinteractionsComponent
+---@field private ["brokenmesh"] entIVisualComponent
+---@field private ["fixedmesh"] entIVisualComponent
 WireRepairable = {}
 
 ---@param fields? table

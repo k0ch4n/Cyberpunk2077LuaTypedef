@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_PingNetwork: gameEffectExecutor_Scripted
----@field private fxResource gameFxResource
+---@field private ["fxResource"] gameFxResource
 EffectExecutor_PingNetwork = {}
 
 ---@param fields? table

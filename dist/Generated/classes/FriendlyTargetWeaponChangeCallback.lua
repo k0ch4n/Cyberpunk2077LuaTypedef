@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FriendlyTargetWeaponChangeCallback: gameAttachmentSlotsScriptCallback
----@field public followerRole AIFollowerRole
+---@field public ["followerRole"] AIFollowerRole
 FriendlyTargetWeaponChangeCallback = {}
 
 ---@param fields? table

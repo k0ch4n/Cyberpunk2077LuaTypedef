@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gameuiCooldownGameController: gameuiWidgetGameController
----@field private maxCooldowns Int32
----@field private cooldownTitle inkWidgetReference
----@field private cooldownContainer inkCompoundWidgetReference
----@field private poolHolder inkCompoundWidgetReference
----@field private mode ECooldownGameControllerMode
----@field private effectTypes gamedataStatusEffectType[]
----@field private cooldownPool SingleCooldownManager[]
----@field private matchBuffer SingleCooldownManager[]
----@field private buffsCallback redCallbackObject
----@field private debuffsCallback redCallbackObject
----@field private blackboardDef UI_PlayerBioMonitorDef
----@field private blackboard gameIBlackboard
+---@field private ["maxCooldowns"] Int32
+---@field private ["cooldownTitle"] inkWidgetReference
+---@field private ["cooldownContainer"] inkCompoundWidgetReference
+---@field private ["poolHolder"] inkCompoundWidgetReference
+---@field private ["mode"] ECooldownGameControllerMode
+---@field private ["effectTypes"] gamedataStatusEffectType[]
+---@field private ["cooldownPool"] SingleCooldownManager[]
+---@field private ["matchBuffer"] SingleCooldownManager[]
+---@field private ["buffsCallback"] redCallbackObject
+---@field private ["debuffsCallback"] redCallbackObject
+---@field private ["blackboardDef"] UI_PlayerBioMonitorDef
+---@field private ["blackboard"] gameIBlackboard
 gameuiCooldownGameController = {}
 
 ---@param fields? table

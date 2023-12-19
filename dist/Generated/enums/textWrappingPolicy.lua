@@ -3,6 +3,6 @@
 
 ---@enum textWrappingPolicy
 textWrappingPolicy = {
-    ["Default"] = 0,
-    ["PerCharacter"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["PerCharacter"] = 1, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum gameuiEIconOrientation
 gameuiEIconOrientation = {
-    ["Upright"] = 0,
-    ["Entity"] = 1
+    ["Upright"] = 0, ---@type Enum
+    ["Entity"] = 1, ---@type Enum
 }

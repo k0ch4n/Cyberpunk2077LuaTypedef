@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkShapePresetWraper: ISerializable
----@field public shapePreset inkShapePreset
+---@field public ["shapePreset"] inkShapePreset
 inkShapePresetWraper = {}
 
 ---@param fields? table

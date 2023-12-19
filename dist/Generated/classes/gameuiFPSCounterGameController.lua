@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiFPSCounterGameController: gameuiHUDGameController
----@field public counterWidget inkTextWidgetReference
+---@field public ["counterWidget"] inkTextWidgetReference
 gameuiFPSCounterGameController = {}
 
 ---@param fields? table

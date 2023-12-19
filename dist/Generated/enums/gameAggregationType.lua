@@ -3,6 +3,6 @@
 
 ---@enum gameAggregationType
 gameAggregationType = {
-    ["AND"] = 0,
-    ["OR"] = 1
+    ["AND"] = 0, ---@type Enum
+    ["OR"] = 1, ---@type Enum
 }

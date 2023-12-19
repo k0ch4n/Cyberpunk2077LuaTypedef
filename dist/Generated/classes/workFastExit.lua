@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workFastExit: workIEntry
----@field public animName CName
----@field public forcedBlendIn Float
----@field public movementType moveMovementType
+---@field public ["animName"] CName
+---@field public ["forcedBlendIn"] Float
+---@field public ["movementType"] moveMovementType
 workFastExit = {}
 
 ---@param fields? table

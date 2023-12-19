@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicShape_Rect: vgBaseVectorGraphicShape
----@field public mensions Vector2
+---@field public ["mensions"] Vector2
 vgVectorGraphicShape_Rect = {}
 
 ---@param fields? table

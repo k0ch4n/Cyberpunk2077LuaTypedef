@@ -3,7 +3,7 @@
 
 ---@enum NavGenAgentSize
 NavGenAgentSize = {
-    ["Human"] = 0,
-    ["Vehicle"] = 1,
-    ["AgentSize_Count"] = 2
+    ["Human"] = 0, ---@type Enum
+    ["Vehicle"] = 1, ---@type Enum
+    ["AgentSize_Count"] = 2, ---@type Enum
 }

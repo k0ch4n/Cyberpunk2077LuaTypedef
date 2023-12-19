@@ -2,142 +2,142 @@
 ---@diagnostic disable
 
 ---@class PlayerPuppet: ScriptedPuppet
----@field private quickSlotsManager QuickSlotsManager
----@field private inspectionComponent InspectionComponent
----@field private enviroDamageRcvComponent gameEnvironmentDamageReceiverComponent
----@field private mountedVehicle vehicleBaseObject
----@field private vehicleKnockdownTimestamp Float
----@field public Phone PlayerPhone
----@field private fppCameraComponent gameFPPCameraComponent
----@field private primaryTargetingComponent gameTargetingComponent
----@field private breachFinderComponent gameBreachFinderComponent
----@field private chaseSpawnComponent gameChaseSpawnComponent
----@field private isInFinisher Bool
----@field public DEBUG_Visualizer DEBUG_VisualizerComponent
----@field private Debug_DamageInputRec DEBUG_DamageInputReceiver
----@field public highDamageThreshold Float
----@field public medDamageThreshold Float
----@field public lowDamageThreshold Float
----@field public meleeHighDamageThreshold Float
----@field public meleeMedDamageThreshold Float
----@field public meleeLowDamageThreshold Float
----@field public explosionHighDamageThreshold Float
----@field public explosionMedDamageThreshold Float
----@field public explosionLowDamageThreshold Float
----@field public effectTimeStamp Float
----@field public curInventoryWeight Float
----@field public healthVfxBlackboard worldEffectBlackboard
----@field public laserTargettingVfxBlackboard worldEffectBlackboard
----@field public itemLogBlackboard gameIBlackboard
----@field public interactionDataListener redCallbackObject
----@field public popupIsModalListener redCallbackObject
----@field public uiVendorContextListener redCallbackObject
----@field public uiRadialContextistener redCallbackObject
----@field public contactsActiveListener redCallbackObject
----@field public smsMessengerActiveListener redCallbackObject
----@field public currentVisibleTargetListener redCallbackObject
----@field public lastScanTarget gameObject
----@field public meleeSelectInputProcessed Bool
----@field private waitingForDelayEvent Bool
----@field private randomizedTime Float
----@field private isResetting Bool
----@field private delayEventID gameDelayID
----@field private resetTickID gameDelayID
----@field private katanaAnimProgression Float
----@field private coverModifierActive Bool
----@field private workspotDamageReductionActive Bool
----@field private workspotVisibilityReductionActive Bool
----@field private currentPlayerWorkspotTags CName[]
----@field private incapacitated Bool
----@field private remoteMappinId gameNewMappinID
----@field public CPOMissionDataState CPOMissionDataState
----@field private CPOMissionDataBbId redCallbackObject
----@field private visibilityListener VisibilityStatListener
----@field private secondHeartListener SecondHeartStatListener
----@field private armorStatListener ArmorStatListener
----@field private healthStatListener HealthStatListener
----@field private oxygenStatListener OxygenStatListener
----@field private aimAssistListener AimAssistSettingsListener
----@field private autoRevealListener AutoRevealStatListener
----@field private allStatsListener PlayerPuppetAllStatListener
----@field private rightHandAttachmentSlotListener gameAttachmentSlotsScriptListener
----@field private HealingItemsChargeStatListener HealingItemsChargeStatListener
----@field private GrenadesChargeStatListener GrenadesChargeStatListener
----@field private ProjectileLauncherChargeStatListener ProjectileLauncherChargeStatListener
----@field private OpticalCamoChargeStatListener OpticalCamoChargeStatListener
----@field private OverclockChargeListener OverclockChargeListener
----@field private accessibilityControlsListener AccessibilityControlsListener
----@field private isTalkingOnPhone Bool
----@field private DataDamageUpdateID gameDelayID
----@field private playerAttachedCallbackID Uint32
----@field private playerDetachedCallbackID Uint32
----@field private callbackHandles redCallbackObject[]
----@field private numberOfCombatants Int32
----@field private equipmentMeshOverlayEffectName CName
----@field private equipmentMeshOverlayEffectTag CName
----@field private equipmentMeshOverlaySlots TweakDBID[]
----@field private coverVisibilityPerkBlocked Bool
----@field private behindCover Bool
----@field private inCombat Bool
----@field private isBeingRevealed Bool
----@field private hasBeenDetected Bool
----@field private inCrouch Bool
----@field private hasKiroshiOpticsFragment Bool
----@field private doingQuickMelee Bool
----@field private vehicleState gamePSMVehicle
----@field private inMountedWeaponVehicle Bool
----@field private inDriverCombatTPP Bool
----@field private driverCombatWeaponType gamedataItemType
----@field private isAiming Bool
----@field private focusModeActive Bool
----@field private customFastForwardPossible Bool
----@field private equippedRightHandWeapon gameweaponObject
----@field private aimAssistUpdateQueued Bool
----@field private locomotionState Int32
----@field private leftHandCyberwareState Int32
----@field private meleeWeaponState Int32
----@field private weaponZoomLevel Float
----@field private controllingDeviceID entEntityID
----@field private gunshotRange Float
----@field private explosionRange Float
----@field private isInBodySlam Bool
----@field private combatGadgetState Int32
----@field private sceneTier GameplayTier
----@field private nextBufferModifier Int32
----@field private attackingNetrunnerID entEntityID
----@field private NPCDeathInstigator NPCPuppet
----@field private bestTargettingWeapon gameweaponObject
----@field private bestTargettingDot Float
----@field private targettingEnemies Int32
----@field private isAimingAtFriendly Bool
----@field private isAimingAtChild Bool
----@field private distanceFromTargetSquared Float
----@field private coverRecordID TweakDBID
----@field private damageReductionRecordID TweakDBID
----@field private visReductionRecordID TweakDBID
----@field private lastDmgInflicted EngineTime
----@field private critHealthRumblePlayed Bool
----@field private critHealthRumbleDurationID gameDelayID
----@field private lastHealthUpdate Float
----@field private staminaListener StaminaListener
----@field private memoryListener MemoryListener
----@field public securityAreaTypeE3HACK ESecurityAreaType
----@field private overlappedSecurityZones gamePersistentID[]
----@field private interestingFacts InterestingFacts
----@field private interestingFactsListenersIds InterestingFactsListenersIds
----@field private interestingFactsListenersFunctions InterestingFactsListenersFunctions
----@field private visionModeController PlayerVisionModeController
----@field private combatController PlayerCombatController
----@field private handlingModifiers PlayerWeaponHandlingModifiers
----@field private cachedGameplayRestrictions TweakDBID[]
----@field private delayEndGracePeriodAfterSpawnEventID gameDelayID
----@field private CWMaskInVehicleInputHeld Bool
----@field private friendlyDevicesHostileToEnemiesLock ScriptReentrantRWLock
----@field private friendlyDevicesHostileToEnemies entEntityID[]
----@field private pocketRadio PocketRadio
----@field private bossThatTargetsPlayer entEntityID
----@field private choiceTokenTextLayerId Uint32
----@field private choiceTokenTextDrawn Bool
+---@field private ["quickSlotsManager"] QuickSlotsManager
+---@field private ["inspectionComponent"] InspectionComponent
+---@field private ["enviroDamageRcvComponent"] gameEnvironmentDamageReceiverComponent
+---@field private ["mountedVehicle"] vehicleBaseObject
+---@field private ["vehicleKnockdownTimestamp"] Float
+---@field public ["Phone"] PlayerPhone
+---@field private ["fppCameraComponent"] gameFPPCameraComponent
+---@field private ["primaryTargetingComponent"] gameTargetingComponent
+---@field private ["breachFinderComponent"] gameBreachFinderComponent
+---@field private ["chaseSpawnComponent"] gameChaseSpawnComponent
+---@field private ["isInFinisher"] Bool
+---@field public ["DEBUG_Visualizer"] DEBUG_VisualizerComponent
+---@field private ["Debug_DamageInputRec"] DEBUG_DamageInputReceiver
+---@field public ["highDamageThreshold"] Float
+---@field public ["medDamageThreshold"] Float
+---@field public ["lowDamageThreshold"] Float
+---@field public ["meleeHighDamageThreshold"] Float
+---@field public ["meleeMedDamageThreshold"] Float
+---@field public ["meleeLowDamageThreshold"] Float
+---@field public ["explosionHighDamageThreshold"] Float
+---@field public ["explosionMedDamageThreshold"] Float
+---@field public ["explosionLowDamageThreshold"] Float
+---@field public ["effectTimeStamp"] Float
+---@field public ["curInventoryWeight"] Float
+---@field public ["healthVfxBlackboard"] worldEffectBlackboard
+---@field public ["laserTargettingVfxBlackboard"] worldEffectBlackboard
+---@field public ["itemLogBlackboard"] gameIBlackboard
+---@field public ["interactionDataListener"] redCallbackObject
+---@field public ["popupIsModalListener"] redCallbackObject
+---@field public ["uiVendorContextListener"] redCallbackObject
+---@field public ["uiRadialContextistener"] redCallbackObject
+---@field public ["contactsActiveListener"] redCallbackObject
+---@field public ["smsMessengerActiveListener"] redCallbackObject
+---@field public ["currentVisibleTargetListener"] redCallbackObject
+---@field public ["lastScanTarget"] gameObject
+---@field public ["meleeSelectInputProcessed"] Bool
+---@field private ["waitingForDelayEvent"] Bool
+---@field private ["randomizedTime"] Float
+---@field private ["isResetting"] Bool
+---@field private ["delayEventID"] gameDelayID
+---@field private ["resetTickID"] gameDelayID
+---@field private ["katanaAnimProgression"] Float
+---@field private ["coverModifierActive"] Bool
+---@field private ["workspotDamageReductionActive"] Bool
+---@field private ["workspotVisibilityReductionActive"] Bool
+---@field private ["currentPlayerWorkspotTags"] CName[]
+---@field private ["incapacitated"] Bool
+---@field private ["remoteMappinId"] gameNewMappinID
+---@field public ["CPOMissionDataState"] CPOMissionDataState
+---@field private ["CPOMissionDataBbId"] redCallbackObject
+---@field private ["visibilityListener"] VisibilityStatListener
+---@field private ["secondHeartListener"] SecondHeartStatListener
+---@field private ["armorStatListener"] ArmorStatListener
+---@field private ["healthStatListener"] HealthStatListener
+---@field private ["oxygenStatListener"] OxygenStatListener
+---@field private ["aimAssistListener"] AimAssistSettingsListener
+---@field private ["autoRevealListener"] AutoRevealStatListener
+---@field private ["allStatsListener"] PlayerPuppetAllStatListener
+---@field private ["rightHandAttachmentSlotListener"] gameAttachmentSlotsScriptListener
+---@field private ["HealingItemsChargeStatListener"] HealingItemsChargeStatListener
+---@field private ["GrenadesChargeStatListener"] GrenadesChargeStatListener
+---@field private ["ProjectileLauncherChargeStatListener"] ProjectileLauncherChargeStatListener
+---@field private ["OpticalCamoChargeStatListener"] OpticalCamoChargeStatListener
+---@field private ["OverclockChargeListener"] OverclockChargeListener
+---@field private ["accessibilityControlsListener"] AccessibilityControlsListener
+---@field private ["isTalkingOnPhone"] Bool
+---@field private ["DataDamageUpdateID"] gameDelayID
+---@field private ["playerAttachedCallbackID"] Uint32
+---@field private ["playerDetachedCallbackID"] Uint32
+---@field private ["callbackHandles"] redCallbackObject[]
+---@field private ["numberOfCombatants"] Int32
+---@field private ["equipmentMeshOverlayEffectName"] CName
+---@field private ["equipmentMeshOverlayEffectTag"] CName
+---@field private ["equipmentMeshOverlaySlots"] TweakDBID[]
+---@field private ["coverVisibilityPerkBlocked"] Bool
+---@field private ["behindCover"] Bool
+---@field private ["inCombat"] Bool
+---@field private ["isBeingRevealed"] Bool
+---@field private ["hasBeenDetected"] Bool
+---@field private ["inCrouch"] Bool
+---@field private ["hasKiroshiOpticsFragment"] Bool
+---@field private ["doingQuickMelee"] Bool
+---@field private ["vehicleState"] gamePSMVehicle
+---@field private ["inMountedWeaponVehicle"] Bool
+---@field private ["inDriverCombatTPP"] Bool
+---@field private ["driverCombatWeaponType"] gamedataItemType
+---@field private ["isAiming"] Bool
+---@field private ["focusModeActive"] Bool
+---@field private ["customFastForwardPossible"] Bool
+---@field private ["equippedRightHandWeapon"] gameweaponObject
+---@field private ["aimAssistUpdateQueued"] Bool
+---@field private ["locomotionState"] Int32
+---@field private ["leftHandCyberwareState"] Int32
+---@field private ["meleeWeaponState"] Int32
+---@field private ["weaponZoomLevel"] Float
+---@field private ["controllingDeviceID"] entEntityID
+---@field private ["gunshotRange"] Float
+---@field private ["explosionRange"] Float
+---@field private ["isInBodySlam"] Bool
+---@field private ["combatGadgetState"] Int32
+---@field private ["sceneTier"] GameplayTier
+---@field private ["nextBufferModifier"] Int32
+---@field private ["attackingNetrunnerID"] entEntityID
+---@field private ["NPCDeathInstigator"] NPCPuppet
+---@field private ["bestTargettingWeapon"] gameweaponObject
+---@field private ["bestTargettingDot"] Float
+---@field private ["targettingEnemies"] Int32
+---@field private ["isAimingAtFriendly"] Bool
+---@field private ["isAimingAtChild"] Bool
+---@field private ["distanceFromTargetSquared"] Float
+---@field private ["coverRecordID"] TweakDBID
+---@field private ["damageReductionRecordID"] TweakDBID
+---@field private ["visReductionRecordID"] TweakDBID
+---@field private ["lastDmgInflicted"] EngineTime
+---@field private ["critHealthRumblePlayed"] Bool
+---@field private ["critHealthRumbleDurationID"] gameDelayID
+---@field private ["lastHealthUpdate"] Float
+---@field private ["staminaListener"] StaminaListener
+---@field private ["memoryListener"] MemoryListener
+---@field public ["securityAreaTypeE3HACK"] ESecurityAreaType
+---@field private ["overlappedSecurityZones"] gamePersistentID[]
+---@field private ["interestingFacts"] InterestingFacts
+---@field private ["interestingFactsListenersIds"] InterestingFactsListenersIds
+---@field private ["interestingFactsListenersFunctions"] InterestingFactsListenersFunctions
+---@field private ["visionModeController"] PlayerVisionModeController
+---@field private ["combatController"] PlayerCombatController
+---@field private ["handlingModifiers"] PlayerWeaponHandlingModifiers
+---@field private ["cachedGameplayRestrictions"] TweakDBID[]
+---@field private ["delayEndGracePeriodAfterSpawnEventID"] gameDelayID
+---@field private ["CWMaskInVehicleInputHeld"] Bool
+---@field private ["friendlyDevicesHostileToEnemiesLock"] ScriptReentrantRWLock
+---@field private ["friendlyDevicesHostileToEnemies"] entEntityID[]
+---@field private ["pocketRadio"] PocketRadio
+---@field private ["bossThatTargetsPlayer"] entEntityID
+---@field private ["choiceTokenTextLayerId"] Uint32
+---@field private ["choiceTokenTextDrawn"] Bool
 PlayerPuppet = {}
 
 ---@param fields? table
@@ -1015,7 +1015,7 @@ function PlayerPuppet:ApplyAimAssistSettings(config) return end
 
 ---@private
 ---@param npc gameObject
----@param actionName CName
+---@param actionName CName|string
 ---@return nil
 function PlayerPuppet:ApplyNPCLevelAndProgressionBuild(npc, actionName) return end
 
@@ -1271,8 +1271,8 @@ function PlayerPuppet:GetPS() return end
 ---@return Float
 function PlayerPuppet:GetPermanentFoodBonus(type) return end
 
----@param contactName1 CName
----@param contactName2 CName
+---@param contactName1 CName|string
+---@param contactName2 CName|string
 ---@return String
 function PlayerPuppet:GetPhoneCallFactName(contactName1, contactName2) return end
 
@@ -1585,7 +1585,7 @@ function PlayerPuppet:PlayFootstepCameraShakeBasedOnProximity(evt) return end
 ---@return nil
 function PlayerPuppet:PlayerAttachedCallback(playerPuppet) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function PlayerPuppet:PlayerContainsWorkspotTag(tag) return end
 
@@ -1613,7 +1613,7 @@ function PlayerPuppet:ProcessCallVehicleAction(type) return end
 
 ---@private
 ---@param addDamage Bool
----@param damagesPreset CName
+---@param damagesPreset CName|string
 ---@return nil
 function PlayerPuppet:ProcessDamageEvents(addDamage, damagesPreset) return end
 
@@ -1756,8 +1756,8 @@ function PlayerPuppet:SetCustomFastForwardEnabled(enabled) return end
 function PlayerPuppet:SetEntityNoticedPlayerBBValue(b) return end
 
 ---@param setHasData Bool
----@param damagesPreset CName
----@param compatibleDeviceName CName
+---@param damagesPreset CName|string
+---@param compatibleDeviceName CName|string
 ---@param ownerDecidesOnTransfer Bool
 ---@return nil
 function PlayerPuppet:SetHasCPOMissionData(setHasData, damagesPreset, compatibleDeviceName, ownerDecidesOnTransfer) return end

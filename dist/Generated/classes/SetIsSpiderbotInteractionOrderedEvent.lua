@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetIsSpiderbotInteractionOrderedEvent: redEvent
----@field public value Bool
+---@field public ["value"] Bool
 SetIsSpiderbotInteractionOrderedEvent = {}
 
 ---@param fields? table

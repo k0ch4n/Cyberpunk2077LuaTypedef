@@ -3,10 +3,10 @@
 
 ---@enum grsDeathmatchStatus
 grsDeathmatchStatus = {
-    ["Waiting"] = 0,
-    ["AdditionalWaiting"] = 1,
-    ["Starting"] = 2,
-    ["InGame"] = 3,
-    ["Ending"] = 4,
-    ["Sumup"] = 5
+    ["Waiting"] = 0, ---@type Enum
+    ["AdditionalWaiting"] = 1, ---@type Enum
+    ["Starting"] = 2, ---@type Enum
+    ["InGame"] = 3, ---@type Enum
+    ["Ending"] = 4, ---@type Enum
+    ["Sumup"] = 5, ---@type Enum
 }

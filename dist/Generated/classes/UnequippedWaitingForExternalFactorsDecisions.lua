@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnequippedWaitingForExternalFactorsDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
+---@field public ["stateMachineInitData"] EquipmentInitData
 UnequippedWaitingForExternalFactorsDecisions = {}
 
 ---@param fields? table

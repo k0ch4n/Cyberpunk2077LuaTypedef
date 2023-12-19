@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StillageControllerPS: ScriptableDeviceComponentPS
----@field private isCleared Bool
+---@field private ["isCleared"] Bool
 StillageControllerPS = {}
 
 ---@param fields? table
@@ -17,7 +17,7 @@ function StillageControllerPS:ActionThrowStuff() return end
 ---@return Bool, gamedeviceAction[] actions
 function StillageControllerPS:GetActions(context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function StillageControllerPS:GetQuestActionByName(actionName) return end
 

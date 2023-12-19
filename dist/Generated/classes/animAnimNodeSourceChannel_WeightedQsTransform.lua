@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNodeSourceChannel_WeightedQsTransform: ISerializable
----@field public channel animIAnimNodeSourceChannel_QsTransform
----@field public weight Float
+---@field public ["channel"] animIAnimNodeSourceChannel_QsTransform
+---@field public ["weight"] Float
 animAnimNodeSourceChannel_WeightedQsTransform = {}
 
 ---@param fields? table

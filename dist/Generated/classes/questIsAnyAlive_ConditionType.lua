@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questIsAnyAlive_ConditionType: questIDynamicSpawnSystemConditionType
----@field public waveTag CName
----@field public inverted Bool
+---@field public ["waveTag"] CName
+---@field public ["inverted"] Bool
 questIsAnyAlive_ConditionType = {}
 
 ---@param fields? table

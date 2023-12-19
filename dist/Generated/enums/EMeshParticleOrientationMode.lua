@@ -3,7 +3,7 @@
 
 ---@enum EMeshParticleOrientationMode
 EMeshParticleOrientationMode = {
-    ["MPOM_Normal"] = 0,
-    ["MPOM_MovementDirection"] = 1,
-    ["MPOM_NoRotation"] = 2
+    ["MPOM_Normal"] = 0, ---@type Enum
+    ["MPOM_MovementDirection"] = 1, ---@type Enum
+    ["MPOM_NoRotation"] = 2, ---@type Enum
 }

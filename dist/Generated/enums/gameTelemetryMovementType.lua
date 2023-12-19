@@ -3,9 +3,9 @@
 
 ---@enum gameTelemetryMovementType
 gameTelemetryMovementType = {
-    ["Jump"] = 0,
-    ["DoubleJump"] = 1,
-    ["ChargedJump"] = 2,
-    ["Dodge"] = 3,
-    ["AirDodge"] = 4
+    ["Jump"] = 0, ---@type Enum
+    ["DoubleJump"] = 1, ---@type Enum
+    ["ChargedJump"] = 2, ---@type Enum
+    ["Dodge"] = 3, ---@type Enum
+    ["AirDodge"] = 4, ---@type Enum
 }

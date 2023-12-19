@@ -3,9 +3,9 @@
 
 ---@enum gameuiCharacterCustomizationActionType
 gameuiCharacterCustomizationActionType = {
-    ["Activate"] = 0,
-    ["Deactivate"] = 1,
-    ["EquipItem"] = 2,
-    ["UnequipItem"] = 3,
-    ["Refresh"] = 4
+    ["Activate"] = 0, ---@type Enum
+    ["Deactivate"] = 1, ---@type Enum
+    ["EquipItem"] = 2, ---@type Enum
+    ["UnequipItem"] = 3, ---@type Enum
+    ["Refresh"] = 4, ---@type Enum
 }

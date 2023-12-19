@@ -3,6 +3,6 @@
 
 ---@enum TransferSaveAction
 TransferSaveAction = {
-    ["Export"] = 0,
-    ["Import"] = 1
+    ["Export"] = 0, ---@type Enum
+    ["Import"] = 1, ---@type Enum
 }

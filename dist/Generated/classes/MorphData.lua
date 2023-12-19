@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MorphData: IScriptable
----@field public changed Bool
+---@field public ["changed"] Bool
 MorphData = {}
 
 ---@param fields? table

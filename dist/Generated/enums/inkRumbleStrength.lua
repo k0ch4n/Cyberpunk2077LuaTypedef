@@ -3,8 +3,8 @@
 
 ---@enum inkRumbleStrength
 inkRumbleStrength = {
-    ["SuperLight"] = 0,
-    ["Light"] = 1,
-    ["Medium"] = 2,
-    ["Heavy"] = 3
+    ["SuperLight"] = 0, ---@type Enum
+    ["Light"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["Heavy"] = 3, ---@type Enum
 }

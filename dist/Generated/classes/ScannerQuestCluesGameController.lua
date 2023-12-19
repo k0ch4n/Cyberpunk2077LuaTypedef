@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ScannerQuestCluesGameController: BaseChunkGameController
----@field private ScannerQuestPanel inkCompoundWidgetReference
----@field private questCluesCallbackID redCallbackObject
----@field private scannerDataCallbackID redCallbackObject
----@field private isValidQuestClues Bool
----@field private ScannerData scannerDataStructure
----@field private hasValidScannables Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
+---@field private ["ScannerQuestPanel"] inkCompoundWidgetReference
+---@field private ["questCluesCallbackID"] redCallbackObject
+---@field private ["scannerDataCallbackID"] redCallbackObject
+---@field private ["isValidQuestClues"] Bool
+---@field private ["ScannerData"] scannerDataStructure
+---@field private ["hasValidScannables"] Bool
+---@field private ["asyncSpawnRequests"] inkAsyncSpawnRequest[]
 ScannerQuestCluesGameController = {}
 
 ---@param fields? table

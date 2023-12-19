@@ -45,7 +45,7 @@ function gamedataAIVehicleCond_Record:GetHasTagsItem(index) return end
 ---@return CName[]
 function gamedataAIVehicleCond_Record:HasTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIVehicleCond_Record:HasTagsContains(item) return end
 

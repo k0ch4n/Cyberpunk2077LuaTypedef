@@ -3,7 +3,7 @@
 
 ---@enum inkEJointStyle
 inkEJointStyle = {
-    ["MITER"] = 0,
-    ["BEVEL"] = 1,
-    ["ROUND"] = 2
+    ["MITER"] = 0, ---@type Enum
+    ["BEVEL"] = 1, ---@type Enum
+    ["ROUND"] = 2, ---@type Enum
 }

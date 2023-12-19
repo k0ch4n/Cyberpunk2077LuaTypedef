@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questOverrideSplineSpeed_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public speed Float
----@field public adjustTime Float
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["speed"] Float
+---@field public ["adjustTime"] Float
 questOverrideSplineSpeed_NodeType = {}
 
 ---@param fields? table

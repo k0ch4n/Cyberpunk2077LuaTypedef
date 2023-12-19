@@ -3,10 +3,10 @@
 
 ---@enum gamedataAIAdditionalTraceType
 gamedataAIAdditionalTraceType = {
-    ["Chest"] = 0,
-    ["Hip"] = 1,
-    ["Knee"] = 2,
-    ["Undefined"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["Chest"] = 0, ---@type Enum
+    ["Hip"] = 1, ---@type Enum
+    ["Knee"] = 2, ---@type Enum
+    ["Undefined"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkCursorInfo: inkUserData
----@field public pos Vector2
----@field public isVisible Bool
----@field public cursorForDevice CName
+---@field public ["pos"] Vector2
+---@field public ["isVisible"] Bool
+---@field public ["cursorForDevice"] CName
 inkCursorInfo = {}
 
 ---@param fields? table

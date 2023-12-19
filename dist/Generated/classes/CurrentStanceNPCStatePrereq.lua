@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CurrentStanceNPCStatePrereq: gameIScriptablePrereq
----@field public valueToCheck gamedataNPCStanceState
----@field public invert Bool
+---@field public ["valueToCheck"] gamedataNPCStanceState
+---@field public ["invert"] Bool
 CurrentStanceNPCStatePrereq = {}
 
 ---@param fields? table

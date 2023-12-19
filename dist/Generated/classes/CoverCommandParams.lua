@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CoverCommandParams: IScriptable
----@field public exposureMethods AICoverExposureMethod[]
+---@field public ["exposureMethods"] AICoverExposureMethod[]
 CoverCommandParams = {}
 
 ---@param fields? table

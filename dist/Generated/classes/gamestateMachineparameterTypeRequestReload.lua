@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineparameterTypeRequestReload: IScriptable
----@field public item gameItemObject
+---@field public ["item"] gameItemObject
 gamestateMachineparameterTypeRequestReload = {}
 
 ---@param fields? table

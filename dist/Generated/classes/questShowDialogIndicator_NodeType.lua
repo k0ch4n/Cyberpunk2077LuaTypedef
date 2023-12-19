@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questShowDialogIndicator_NodeType: questIUIManagerNodeType
----@field public params questShowDialogIndicator_NodeTypeParams[]
+---@field public ["params"] questShowDialogIndicator_NodeTypeParams[]
 questShowDialogIndicator_NodeType = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ResetTimeDilation: redEvent
----@field public easeOut CName
----@field public global Bool
+---@field public ["easeOut"] CName
+---@field public ["global"] Bool
 ResetTimeDilation = {}
 
 ---@param fields? table

@@ -3,11 +3,11 @@
 
 ---@enum AIParameterizationType
 AIParameterizationType = {
-    ["BehaviorArgument"] = 0,
-    ["CustomValue"] = 1,
-    ["CharacterRecord"] = 2,
-    ["TweakDB"] = 3,
-    ["ActionRecord"] = 4,
-    ["Blackboard"] = 5,
-    ["Delegate"] = 6
+    ["BehaviorArgument"] = 0, ---@type Enum
+    ["CustomValue"] = 1, ---@type Enum
+    ["CharacterRecord"] = 2, ---@type Enum
+    ["TweakDB"] = 3, ---@type Enum
+    ["ActionRecord"] = 4, ---@type Enum
+    ["Blackboard"] = 5, ---@type Enum
+    ["Delegate"] = 6, ---@type Enum
 }

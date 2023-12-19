@@ -14,7 +14,7 @@ function gamedataAISubActionCompleteCommand_Record:CheckOneTimeExecutionFlag() r
 ---@return CName[]
 function gamedataAISubActionCompleteCommand_Record:Commands() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAISubActionCompleteCommand_Record:CommandsContains(item) return end
 

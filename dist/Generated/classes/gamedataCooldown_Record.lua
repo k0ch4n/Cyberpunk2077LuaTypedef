@@ -24,7 +24,7 @@ function gamedataCooldown_Record:Modifiable() return end
 ---@return CName[]
 function gamedataCooldown_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataCooldown_Record:TagsContains(item) return end
 

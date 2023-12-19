@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeJuryrigTrapState: redEvent
----@field public newState EJuryrigTrapState
+---@field public ["newState"] EJuryrigTrapState
 ChangeJuryrigTrapState = {}
 
 ---@param fields? table

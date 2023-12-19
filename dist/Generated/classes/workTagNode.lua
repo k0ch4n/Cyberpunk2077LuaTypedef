@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workTagNode: workIEntry
----@field public tag CName
+---@field public ["tag"] CName
 workTagNode = {}
 
 ---@param fields? table

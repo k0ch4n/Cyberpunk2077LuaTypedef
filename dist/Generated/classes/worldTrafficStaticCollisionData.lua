@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficStaticCollisionData: ISerializable
----@field public laneCollisions worldStaticLaneCollisions[]
+---@field public ["laneCollisions"] worldStaticLaneCollisions[]
 worldTrafficStaticCollisionData = {}
 
 ---@param fields? table

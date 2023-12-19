@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class MessangerReplyItemRenderer: JournalEntryListItemController
----@field private selectedState Bool
----@field private isQuestImportant Bool
----@field private isActive Bool
----@field private stateDefault CName
----@field private stateSelected CName
----@field private stateQuestDefault CName
----@field private stateQuestSelected CName
----@field private stateDisabled CName
+---@field private ["selectedState"] Bool
+---@field private ["isQuestImportant"] Bool
+---@field private ["isActive"] Bool
+---@field private ["stateDefault"] CName
+---@field private ["stateSelected"] CName
+---@field private ["stateQuestDefault"] CName
+---@field private ["stateQuestSelected"] CName
+---@field private ["stateDisabled"] CName
 MessangerReplyItemRenderer = {}
 
 ---@param fields? table

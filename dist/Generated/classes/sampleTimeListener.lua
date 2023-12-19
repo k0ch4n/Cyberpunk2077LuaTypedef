@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleTimeListener: tickScriptTimeDilationListener
----@field public myOwner sampleTimeDilatable
+---@field public ["myOwner"] sampleTimeDilatable
 sampleTimeListener = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ sampleTimeListener = {}
 function sampleTimeListener.new(fields) return end
 
 ---@protected
----@param reason CName
+---@param reason CName|string
 ---@return Bool
 function sampleTimeListener:OnFinished(reason) return end
 

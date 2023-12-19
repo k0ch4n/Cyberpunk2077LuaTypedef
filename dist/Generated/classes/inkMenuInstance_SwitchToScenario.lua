@@ -8,7 +8,7 @@ inkMenuInstance_SwitchToScenario = {}
 ---@return inkMenuInstance_SwitchToScenario
 function inkMenuInstance_SwitchToScenario.new(fields) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param userData? inkUserData
 ---@return nil
 function inkMenuInstance_SwitchToScenario:Init(eventName, userData) return end

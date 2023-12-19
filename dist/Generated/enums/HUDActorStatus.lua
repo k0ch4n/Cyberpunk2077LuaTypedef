@@ -3,7 +3,7 @@
 
 ---@enum HUDActorStatus
 HUDActorStatus = {
-    ["UNINITIALIZED"] = 0,
-    ["REGISTERED"] = 1,
-    ["ACTIVE"] = 2
+    ["UNINITIALIZED"] = 0, ---@type Enum
+    ["REGISTERED"] = 1, ---@type Enum
+    ["ACTIVE"] = 2, ---@type Enum
 }

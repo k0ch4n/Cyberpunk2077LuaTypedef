@@ -3,6 +3,6 @@
 
 ---@enum WorkspotConditionOperators
 WorkspotConditionOperators = {
-    ["OR"] = 0,
-    ["AND"] = 1
+    ["OR"] = 0, ---@type Enum
+    ["AND"] = 1, ---@type Enum
 }

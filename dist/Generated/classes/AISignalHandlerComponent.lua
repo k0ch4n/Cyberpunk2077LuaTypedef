@@ -17,7 +17,7 @@ function AISignalHandlerComponent.Get(entity) return end
 ---@return Uint32
 function AISignalHandlerComponent:AddSignal(signal, keepActive) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function AISignalHandlerComponent:ConsumeSignal(tag) return end
 
@@ -28,11 +28,11 @@ function AISignalHandlerComponent:GetHighestPrioritySignal() return end
 ---@return Bool, AIGateSignal signal
 function AISignalHandlerComponent:GetSignal(signalId) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function AISignalHandlerComponent:HasSignalWithTag(tag) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool, Uint32 signalId
 function AISignalHandlerComponent:IsHighestPriority(tag) return end
 

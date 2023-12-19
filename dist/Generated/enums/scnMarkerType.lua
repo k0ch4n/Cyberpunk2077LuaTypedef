@@ -3,7 +3,7 @@
 
 ---@enum scnMarkerType
 scnMarkerType = {
-    ["Local"] = 0,
-    ["Global"] = 1,
-    ["Entity"] = 2
+    ["Local"] = 0, ---@type Enum
+    ["Global"] = 1, ---@type Enum
+    ["Entity"] = 2, ---@type Enum
 }

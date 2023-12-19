@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetInteractionState_NodeType: questIInteractiveObjectManagerNodeType
----@field public objectRef NodeRef
----@field public enable Bool
+---@field public ["objectRef"] NodeRef
+---@field public ["enable"] Bool
 questSetInteractionState_NodeType = {}
 
 ---@param fields? table

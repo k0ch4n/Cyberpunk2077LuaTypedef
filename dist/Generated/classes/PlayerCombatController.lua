@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatController: IScriptable
----@field private gameplayActiveFlagsRefreshPolicy PlayerCombatControllerRefreshPolicy
----@field private blackboardIds PlayerCombatControllerBBIds
----@field private blackboardValuesIds PlayerCombatControllerBBValuesIds
----@field private blackboardListenersFunctions PlayerCombatControllerBlackboardListenersFunctions
----@field private blackboardListeners PlayerCombatControllerBBListeners
----@field private delayEventsIds PlayerCombatControllerDelayCallbacksIds
----@field private gameplayActiveFlags PlayerCombatControllerActiveFlags
----@field private otherVars PlayerCombatControllerOtherVars
----@field private owner gameObject
+---@field private ["gameplayActiveFlagsRefreshPolicy"] PlayerCombatControllerRefreshPolicy
+---@field private ["blackboardIds"] PlayerCombatControllerBBIds
+---@field private ["blackboardValuesIds"] PlayerCombatControllerBBValuesIds
+---@field private ["blackboardListenersFunctions"] PlayerCombatControllerBlackboardListenersFunctions
+---@field private ["blackboardListeners"] PlayerCombatControllerBBListeners
+---@field private ["delayEventsIds"] PlayerCombatControllerDelayCallbacksIds
+---@field private ["gameplayActiveFlags"] PlayerCombatControllerActiveFlags
+---@field private ["otherVars"] PlayerCombatControllerOtherVars
+---@field private ["owner"] gameObject
 PlayerCombatController = {}
 
 ---@param fields? table
@@ -29,7 +29,7 @@ function PlayerCombatController:ActivateOutOfCombat() return end
 ---@return nil
 function PlayerCombatController:ActivateStealth() return end
 
----@param varName CName
+---@param varName CName|string
 ---@return Bool
 function PlayerCombatController:GetBoolFromQuestDB(varName) return end
 
@@ -81,12 +81,12 @@ function PlayerCombatController:OnInvalidateActiveState(evt) return end
 function PlayerCombatController:OnStartedBeingTrackedAsHostile(evt) return end
 
 ---@param evt gameeventsApplyStatusEffectEvent
----@param gameplayTags CName[]
+---@param gameplayTags CName[]|string[]
 ---@return nil
 function PlayerCombatController:OnStatusEffectApplied(evt, gameplayTags) return end
 
 ---@param evt gameeventsRemoveStatusEffect
----@param gameplayTags CName[]
+---@param gameplayTags CName[]|string[]
 ---@return nil
 function PlayerCombatController:OnStatusEffectRemoved(evt, gameplayTags) return end
 
@@ -117,7 +117,7 @@ function PlayerCombatController:SendAnimFeatureData(inCombat) return end
 function PlayerCombatController:SetBlackboardIntVariable(id, value) return end
 
 ---@private
----@param factName CName
+---@param factName CName|string
 ---@return nil
 function PlayerCombatController:TutorialSetFact(factName) return end
 

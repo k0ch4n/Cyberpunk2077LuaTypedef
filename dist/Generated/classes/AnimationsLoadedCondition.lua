@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimationsLoadedCondition: AIbehaviorconditionScript
----@field public coreAnims Bool
----@field public melee Bool
+---@field public ["coreAnims"] Bool
+---@field public ["melee"] Bool
 AnimationsLoadedCondition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceTransfromAnim: InteractiveDevice
----@field private animationState Int32
+---@field private ["animationState"] Int32
 ActivatedDeviceTransfromAnim = {}
 
 ---@param fields? table
@@ -35,7 +35,7 @@ function ActivatedDeviceTransfromAnim:OnSpiderbotOrderCompletedEvent(evt) return
 function ActivatedDeviceTransfromAnim:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function ActivatedDeviceTransfromAnim:OnWorkspotFinished(componentName) return end
 
@@ -46,8 +46,8 @@ function ActivatedDeviceTransfromAnim:DeterminGameplayRoleMappinRange(data) retu
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function ActivatedDeviceTransfromAnim:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

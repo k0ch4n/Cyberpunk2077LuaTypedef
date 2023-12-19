@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EntityAttachementComponentPS: gameComponentPS
----@field private pendingChildAttachements EntityAttachementData[]
+---@field private ["pendingChildAttachements"] EntityAttachementData[]
 EntityAttachementComponentPS = {}
 
 ---@param fields? table

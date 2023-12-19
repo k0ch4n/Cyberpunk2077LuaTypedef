@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class LootingItemController: inkWidgetLogicController
----@field private itemNameText inkTextWidget
----@field private isCurrentlySelected Bool
----@field protected itemName inkTextWidgetReference
----@field protected itemType inkTextWidgetReference
----@field protected itemWeight inkTextWidgetReference
----@field protected itemQuantity inkTextWidgetReference
----@field protected itemQualityBar inkWidgetReference
----@field protected itemSelection inkWidgetReference
----@field protected itemIcon inkImageWidgetReference
+---@field private ["itemNameText"] inkTextWidget
+---@field private ["isCurrentlySelected"] Bool
+---@field protected ["itemName"] inkTextWidgetReference
+---@field protected ["itemType"] inkTextWidgetReference
+---@field protected ["itemWeight"] inkTextWidgetReference
+---@field protected ["itemQuantity"] inkTextWidgetReference
+---@field protected ["itemQualityBar"] inkWidgetReference
+---@field protected ["itemSelection"] inkWidgetReference
+---@field protected ["itemIcon"] inkImageWidgetReference
 LootingItemController = {}
 
 ---@param fields? table

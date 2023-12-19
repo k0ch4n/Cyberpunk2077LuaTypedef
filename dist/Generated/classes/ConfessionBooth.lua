@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ConfessionBooth: BasicDistractionDevice
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
 ConfessionBooth = {}
 
 ---@param fields? table

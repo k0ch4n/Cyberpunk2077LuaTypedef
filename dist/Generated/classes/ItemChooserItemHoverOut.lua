@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemChooserItemHoverOut: redEvent
----@field public sourceEvent inkPointerEvent
+---@field public ["sourceEvent"] inkPointerEvent
 ItemChooserItemHoverOut = {}
 
 ---@param fields? table

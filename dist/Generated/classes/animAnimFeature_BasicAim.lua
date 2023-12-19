@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_BasicAim: animAnimFeature
----@field public aimState Int32
----@field public zoomState Int32
+---@field public ["aimState"] Int32
+---@field public ["zoomState"] Int32
 animAnimFeature_BasicAim = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IncrimentStimThreshold: AIbehaviortaskScript
----@field public thresholdTimeout Float
+---@field public ["thresholdTimeout"] Float
 IncrimentStimThreshold = {}
 
 ---@param fields? table

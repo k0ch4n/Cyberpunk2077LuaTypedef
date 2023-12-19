@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAudioSetListenerOverrideNodeType: questIAudioNodeType
----@field public enable Bool
+---@field public ["enable"] Bool
 questAudioSetListenerOverrideNodeType = {}
 
 ---@param fields? table

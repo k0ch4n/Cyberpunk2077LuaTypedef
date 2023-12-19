@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class QuestDetailsPanelController: inkWidgetLogicController
----@field private questTitle inkTextWidgetReference
----@field private questDescription inkTextWidgetReference
----@field private questLevel inkTextWidgetReference
----@field private activeObjectives inkCompoundWidgetReference
----@field private optionalObjectives inkCompoundWidgetReference
----@field private completedObjectives inkCompoundWidgetReference
----@field private codexLinksContainer inkCompoundWidgetReference
----@field private missionLinksContainer inkCompoundWidgetReference
----@field private fluffLinksContainer inkCompoundWidgetReference
----@field private mapLinksContainer inkCompoundWidgetReference
----@field private missionLinkLine inkCompoundWidgetReference
----@field private fluffShardLinkLine inkCompoundWidgetReference
----@field private codexLinkLine inkCompoundWidgetReference
----@field private contentContainer inkWidgetReference
----@field private scrollContainer inkWidgetReference
----@field private noSelectedQuestContainer inkWidgetReference
----@field private ep1Marker inkWidgetReference
----@field private scrollContainerCtrl inkScrollController
----@field private currentQuestData gameJournalQuest
----@field private journalManager gameJournalManager
----@field private shardEntry gameJournalOnscreen
----@field private phoneSystem PhoneSystem
----@field private mappinSystem gamemappinsMappinSystem
----@field private uiSystem gameuiGameSystemUI
----@field private trackedObjective gameJournalQuestObjective
----@field private canUsePhone Bool
----@field private objectiveOffset Float
----@field private objectiveActionOffset Float
----@field private objectiveActionsCount Int32
+---@field private ["questTitle"] inkTextWidgetReference
+---@field private ["questDescription"] inkTextWidgetReference
+---@field private ["questLevel"] inkTextWidgetReference
+---@field private ["activeObjectives"] inkCompoundWidgetReference
+---@field private ["optionalObjectives"] inkCompoundWidgetReference
+---@field private ["completedObjectives"] inkCompoundWidgetReference
+---@field private ["codexLinksContainer"] inkCompoundWidgetReference
+---@field private ["missionLinksContainer"] inkCompoundWidgetReference
+---@field private ["fluffLinksContainer"] inkCompoundWidgetReference
+---@field private ["mapLinksContainer"] inkCompoundWidgetReference
+---@field private ["missionLinkLine"] inkCompoundWidgetReference
+---@field private ["fluffShardLinkLine"] inkCompoundWidgetReference
+---@field private ["codexLinkLine"] inkCompoundWidgetReference
+---@field private ["contentContainer"] inkWidgetReference
+---@field private ["scrollContainer"] inkWidgetReference
+---@field private ["noSelectedQuestContainer"] inkWidgetReference
+---@field private ["ep1Marker"] inkWidgetReference
+---@field private ["scrollContainerCtrl"] inkScrollController
+---@field private ["currentQuestData"] gameJournalQuest
+---@field private ["journalManager"] gameJournalManager
+---@field private ["shardEntry"] gameJournalOnscreen
+---@field private ["phoneSystem"] PhoneSystem
+---@field private ["mappinSystem"] gamemappinsMappinSystem
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["trackedObjective"] gameJournalQuestObjective
+---@field private ["canUsePhone"] Bool
+---@field private ["objectiveOffset"] Float
+---@field private ["objectiveActionOffset"] Float
+---@field private ["objectiveActionsCount"] Int32
 QuestDetailsPanelController = {}
 
 ---@param fields? table

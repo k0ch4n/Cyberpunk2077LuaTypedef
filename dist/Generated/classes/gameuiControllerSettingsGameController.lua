@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class gameuiControllerSettingsGameController: gameuiMenuGameController
----@field public defaultWidgets inkWidgetReference[]
----@field public southpawWidgets inkWidgetReference[]
----@field public legacyWidgets inkWidgetReference[]
----@field private generalInputPanel inkWidgetReference
----@field private vehicleInputPanel inkWidgetReference
----@field private vehicleCombatInputPanel inkWidgetReference
----@field private selectorWidget inkWidgetReference
----@field private schemeLegacyRef inkWidgetReference
----@field private schemeAgileRef inkWidgetReference
----@field private schemeAlternativeRef inkWidgetReference
----@field private inputSettingSelectorRef inkWidgetReference
----@field private inputSettingGroupName CName
----@field private inputSettingVarName CName
----@field private buttonHintsManagerRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private selectorCtrl inkListController
----@field private inputPanel inkWidgetReference[]
----@field private currentTab Int32
----@field private inputSettingSelector SettingsSelectorControllerListString
----@field private inputSettingsListener InputSettingsVarListener
----@field private settings userSettingsUserSettings
----@field private inputSettingGroup userSettingsGroup
----@field private inputSettingVar userSettingsVar
+---@field public ["defaultWidgets"] inkWidgetReference[]
+---@field public ["southpawWidgets"] inkWidgetReference[]
+---@field public ["legacyWidgets"] inkWidgetReference[]
+---@field private ["generalInputPanel"] inkWidgetReference
+---@field private ["vehicleInputPanel"] inkWidgetReference
+---@field private ["vehicleCombatInputPanel"] inkWidgetReference
+---@field private ["selectorWidget"] inkWidgetReference
+---@field private ["schemeLegacyRef"] inkWidgetReference
+---@field private ["schemeAgileRef"] inkWidgetReference
+---@field private ["schemeAlternativeRef"] inkWidgetReference
+---@field private ["inputSettingSelectorRef"] inkWidgetReference
+---@field private ["inputSettingGroupName"] CName
+---@field private ["inputSettingVarName"] CName
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["selectorCtrl"] inkListController
+---@field private ["inputPanel"] inkWidgetReference[]
+---@field private ["currentTab"] Int32
+---@field private ["inputSettingSelector"] SettingsSelectorControllerListString
+---@field private ["inputSettingsListener"] InputSettingsVarListener
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["inputSettingGroup"] userSettingsGroup
+---@field private ["inputSettingVar"] userSettingsVar
 gameuiControllerSettingsGameController = {}
 
 ---@param fields? table
@@ -50,8 +50,8 @@ function gameuiControllerSettingsGameController:OnMenuChanged(index, target) ret
 ---@return Bool
 function gameuiControllerSettingsGameController:OnUninitialize() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

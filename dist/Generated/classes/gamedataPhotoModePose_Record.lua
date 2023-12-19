@@ -26,14 +26,14 @@ function gamedataPhotoModePose_Record:Category() return end
 ---@return CName[]
 function gamedataPhotoModePose_Record:DisableLookAtForGarmentTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataPhotoModePose_Record:DisableLookAtForGarmentTagsContains(item) return end
 
 ---@return CName[]
 function gamedataPhotoModePose_Record:FilterOutForGarmentTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataPhotoModePose_Record:FilterOutForGarmentTagsContains(item) return end
 

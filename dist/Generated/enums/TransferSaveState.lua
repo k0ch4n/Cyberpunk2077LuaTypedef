@@ -3,13 +3,13 @@
 
 ---@enum TransferSaveState
 TransferSaveState = {
-    ["ExportConfirmation"] = 0,
-    ["ExportSpinner"] = 1,
-    ["ExportSuccess"] = 2,
-    ["ExportFailed"] = 3,
-    ["ImportSpinner"] = 4,
-    ["ImportLoading"] = 5,
-    ["ImportNoSave"] = 6,
-    ["ImportFailed"] = 7,
-    ["ImportNotEnoughSpace"] = 8
+    ["ExportConfirmation"] = 0, ---@type Enum
+    ["ExportSpinner"] = 1, ---@type Enum
+    ["ExportSuccess"] = 2, ---@type Enum
+    ["ExportFailed"] = 3, ---@type Enum
+    ["ImportSpinner"] = 4, ---@type Enum
+    ["ImportLoading"] = 5, ---@type Enum
+    ["ImportNoSave"] = 6, ---@type Enum
+    ["ImportFailed"] = 7, ---@type Enum
+    ["ImportNotEnoughSpace"] = 8, ---@type Enum
 }

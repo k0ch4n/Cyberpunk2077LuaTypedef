@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnGameplayActionSetVehicleSuspensionData: scnIGameplayActionData
----@field public active Bool
----@field public cooldownTime Float
+---@field public ["active"] Bool
+---@field public ["cooldownTime"] Float
 scnGameplayActionSetVehicleSuspensionData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LockReleaseOnHit: gameScriptableSystemRequest
----@field public isLocked Bool
+---@field public ["isLocked"] Bool
 LockReleaseOnHit = {}
 
 ---@param fields? table

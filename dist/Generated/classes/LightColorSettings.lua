@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LightColorSettings: IAreaSettings
----@field public light worldWorldGlobalLightParameters
+---@field public ["light"] worldWorldGlobalLightParameters
 LightColorSettings = {}
 
 ---@param fields? table

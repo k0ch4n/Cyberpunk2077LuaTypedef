@@ -3,10 +3,10 @@
 
 ---@enum gamedataCompanionDistancePreset
 gamedataCompanionDistancePreset = {
-    ["Close"] = 0,
-    ["Far"] = 1,
-    ["Medium"] = 2,
-    ["VeryFar"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["Close"] = 0, ---@type Enum
+    ["Far"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["VeryFar"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

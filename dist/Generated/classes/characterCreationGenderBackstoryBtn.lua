@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class characterCreationGenderBackstoryBtn: inkButtonController
----@field public selector inkWidgetReference
----@field public fluffText inkWidgetReference
+---@field public ["selector"] inkWidgetReference
+---@field public ["fluffText"] inkWidgetReference
 characterCreationGenderBackstoryBtn = {}
 
 ---@param fields? table

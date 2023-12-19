@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BackpackCraftingMaterialItemCallbackData: IScriptable
----@field public craftingMaterial CachedCraftingMaterial
+---@field public ["craftingMaterial"] CachedCraftingMaterial
 BackpackCraftingMaterialItemCallbackData = {}
 
 ---@param fields? table

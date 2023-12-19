@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WallScreenControllerPS: TVControllerPS
----@field private isShown Bool
+---@field private ["isShown"] Bool
 WallScreenControllerPS = {}
 
 ---@param fields? table

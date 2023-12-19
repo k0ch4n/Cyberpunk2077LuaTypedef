@@ -38,7 +38,7 @@ function AISubActionAttackWithWeapon_Record_Implementation.GetWeapon(context, re
 function AISubActionAttackWithWeapon_Record_Implementation.PrepareContinuousAttack(weapon) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param attackName CName
+---@param attackName CName|string
 ---@return nil
 function AISubActionAttackWithWeapon_Record_Implementation.SetAttackNameInBlackBoard(context, attackName) return end
 

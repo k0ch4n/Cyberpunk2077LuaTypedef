@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questVarVsVarComparison_ConditionType: questIFactsDBConditionType
----@field public factName1 String
----@field public factName2 String
----@field public comparisonType EComparisonType
+---@field public ["factName1"] String
+---@field public ["factName2"] String
+---@field public ["comparisonType"] EComparisonType
 questVarVsVarComparison_ConditionType = {}
 
 ---@param fields? table

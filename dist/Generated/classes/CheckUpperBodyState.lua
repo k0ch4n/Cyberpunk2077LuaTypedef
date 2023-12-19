@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckUpperBodyState: AINPCUpperBodyStateCheck
----@field public state gamedataNPCUpperBodyState
+---@field public ["state"] gamedataNPCUpperBodyState
 CheckUpperBodyState = {}
 
 ---@param fields? table

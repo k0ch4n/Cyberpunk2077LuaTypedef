@@ -3,8 +3,8 @@
 
 ---@enum PlayerCombatState
 PlayerCombatState = {
-    ["Invalid"] = 0,
-    ["InCombat"] = 1,
-    ["OutOfCombat"] = 2,
-    ["Stealth"] = 3
+    ["Invalid"] = 0, ---@type Enum
+    ["InCombat"] = 1, ---@type Enum
+    ["OutOfCombat"] = 2, ---@type Enum
+    ["Stealth"] = 3, ---@type Enum
 }

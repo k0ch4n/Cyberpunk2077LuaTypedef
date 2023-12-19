@@ -11,14 +11,14 @@ function gamedataVehicleDataPackage_Record.new(fields) return end
 ---@return CName[]
 function gamedataVehicleDataPackage_Record:AdditionalAnimFeatures() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleDataPackage_Record:AdditionalAnimFeaturesContains(item) return end
 
 ---@return CName[]
 function gamedataVehicleDataPackage_Record:AnimVars() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleDataPackage_Record:AnimVarsContains(item) return end
 
@@ -31,7 +31,7 @@ function gamedataVehicleDataPackage_Record:Body_dump_close_trunk_delay() return 
 ---@return CName[]
 function gamedataVehicleDataPackage_Record:BoneNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleDataPackage_Record:BoneNamesContains(item) return end
 

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class characterCreationNavigationBtn: inkButtonController
----@field public icon1 inkWidgetReference
----@field public shouldPlaySoundOnHover Bool
----@field private root inkWidget
+---@field public ["icon1"] inkWidgetReference
+---@field public ["shouldPlaySoundOnHover"] Bool
+---@field private ["root"] inkWidget
 characterCreationNavigationBtn = {}
 
 ---@param fields? table

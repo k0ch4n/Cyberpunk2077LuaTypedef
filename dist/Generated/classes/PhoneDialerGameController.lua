@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class PhoneDialerGameController: gameuiNewPhoneRelatedHUDGameController
----@field private contactsList inkWidgetReference
----@field private avatarImage inkImageWidgetReference
----@field private hintMessenger inkWidgetReference
----@field private scrollArea inkScrollAreaWidgetReference
----@field private scrollControllerWidget inkWidgetReference
----@field private journalManager gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private active Bool
----@field private listController inkVirtualListController
----@field private dataSource inkScriptableDataSourceWrapper
----@field private dataView DialerContactDataView
----@field private templateClassifier DialerContactTemplateClassifier
----@field private scrollController inkScrollController
----@field private soundName CName
----@field private audioPhoneNavigation CName
----@field private phoneBlackboard gameIBlackboard
----@field private phoneBBDefinition UI_ComDeviceDef
----@field private contactOpensBBID redCallbackObject
----@field private switchAnimProxy inkanimProxy
----@field private transitionAnimProxy inkanimProxy
----@field private repeatingScrollActionEnabled Bool
----@field private firstInit Bool
+---@field private ["contactsList"] inkWidgetReference
+---@field private ["avatarImage"] inkImageWidgetReference
+---@field private ["hintMessenger"] inkWidgetReference
+---@field private ["scrollArea"] inkScrollAreaWidgetReference
+---@field private ["scrollControllerWidget"] inkWidgetReference
+---@field private ["journalManager"] gameJournalManager
+---@field private ["phoneSystem"] PhoneSystem
+---@field private ["active"] Bool
+---@field private ["listController"] inkVirtualListController
+---@field private ["dataSource"] inkScriptableDataSourceWrapper
+---@field private ["dataView"] DialerContactDataView
+---@field private ["templateClassifier"] DialerContactTemplateClassifier
+---@field private ["scrollController"] inkScrollController
+---@field private ["soundName"] CName
+---@field private ["audioPhoneNavigation"] CName
+---@field private ["phoneBlackboard"] gameIBlackboard
+---@field private ["phoneBBDefinition"] UI_ComDeviceDef
+---@field private ["contactOpensBBID"] redCallbackObject
+---@field private ["switchAnimProxy"] inkanimProxy
+---@field private ["transitionAnimProxy"] inkanimProxy
+---@field private ["repeatingScrollActionEnabled"] Bool
+---@field private ["firstInit"] Bool
 PhoneDialerGameController = {}
 
 ---@param fields? table

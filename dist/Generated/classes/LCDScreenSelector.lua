@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LCDScreenSelector: inkTweakDBIDSelector
----@field protected customMessageID TweakDBID
----@field protected replaceTextWithCustomNumber Bool
----@field protected customNumber Int32
+---@field protected ["customMessageID"] TweakDBID
+---@field protected ["replaceTextWithCustomNumber"] Bool
+---@field protected ["customNumber"] Int32
 LCDScreenSelector = {}
 
 ---@return TweakDBID

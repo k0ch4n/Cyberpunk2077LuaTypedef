@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerListName: SettingsSelectorControllerList
----@field protected realValue userSettingsVarListName
----@field protected currentIndex Int32
+---@field protected ["realValue"] userSettingsVarListName
+---@field protected ["currentIndex"] Int32
 SettingsSelectorControllerListName = {}
 
 ---@param fields? table

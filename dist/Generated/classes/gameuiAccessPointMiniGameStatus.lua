@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAccessPointMiniGameStatus: redEvent
----@field public minigameState gameuiHackingMinigameState
+---@field public ["minigameState"] gameuiHackingMinigameState
 gameuiAccessPointMiniGameStatus = {}
 
 ---@param fields? table

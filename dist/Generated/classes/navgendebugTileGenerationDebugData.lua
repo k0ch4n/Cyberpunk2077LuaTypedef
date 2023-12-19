@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class navgendebugTileGenerationDebugData: ISerializable
----@field public tileIndex Uint32
----@field public heightfield navgendebugHeightfield
----@field public contours navgendebugContourSet
----@field public polyMesh navgendebugPolyMesh
+---@field public ["tileIndex"] Uint32
+---@field public ["heightfield"] navgendebugHeightfield
+---@field public ["contours"] navgendebugContourSet
+---@field public ["polyMesh"] navgendebugPolyMesh
 navgendebugTileGenerationDebugData = {}
 
 ---@param fields? table

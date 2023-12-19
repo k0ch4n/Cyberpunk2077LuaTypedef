@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CategoryClickedEvent: redEvent
----@field public statsData gameStatViewData
+---@field public ["statsData"] gameStatViewData
 CategoryClickedEvent = {}
 
 ---@param fields? table

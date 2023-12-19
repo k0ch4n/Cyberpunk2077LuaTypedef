@@ -11,7 +11,7 @@ function gamedataAffiliation_Record.new(fields) return end
 ---@return CName[]
 function gamedataAffiliation_Record:AnimWrappers() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAffiliation_Record:AnimWrappersContains(item) return end
 

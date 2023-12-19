@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckPlayerTargetEntityDistanceInterruptCondition: scnIInterruptCondition
----@field public params scnCheckPlayerTargetEntityDistanceInterruptConditionParams
+---@field public ["params"] scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 scnCheckPlayerTargetEntityDistanceInterruptCondition = {}
 
 ---@param fields? table

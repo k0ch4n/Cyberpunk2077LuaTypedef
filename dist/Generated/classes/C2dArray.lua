@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class C2dArray: CResource
----@field public headers String[]
----@field public data String[][]
+---@field public ["headers"] String[]
+---@field public ["data"] String[][]
 C2dArray = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum gameuiEWorldMapCameraMode
 gameuiEWorldMapCameraMode = {
-    ["TopDown"] = 0,
-    ["ZoomLevels"] = 1,
-    ["COUNT"] = 2
+    ["TopDown"] = 0, ---@type Enum
+    ["ZoomLevels"] = 1, ---@type Enum
+    ["COUNT"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioMeleeRigTypeMeleeWeaponConfigurationMap
----@field public mapItems audioMeleeRigTypeMeleeWeaponConfigurationMapItem[]
+---@field public ["mapItems"] audioMeleeRigTypeMeleeWeaponConfigurationMapItem[]
 audioMeleeRigTypeMeleeWeaponConfigurationMap = {}
 
 ---@param fields? table

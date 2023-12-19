@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectAction_KillFX: gameEffectAction
----@field public action gameEffectAction_KillFXAction
----@field public effectTag CName
+---@field public ["action"] gameEffectAction_KillFXAction
+---@field public ["effectTag"] CName
 gameEffectAction_KillFX = {}
 
 ---@param fields? table

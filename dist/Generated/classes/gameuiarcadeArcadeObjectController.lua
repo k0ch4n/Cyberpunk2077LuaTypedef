@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeObjectController: inkWidgetLogicController
----@field public image inkWidgetReference
----@field public colliderList gameuiarcadeArcadeColliderData[]
+---@field public ["image"] inkWidgetReference
+---@field public ["colliderList"] gameuiarcadeArcadeColliderData[]
 gameuiarcadeArcadeObjectController = {}
 
 ---@param fields? table

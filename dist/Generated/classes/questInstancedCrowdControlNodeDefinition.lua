@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questInstancedCrowdControlNodeDefinition: questDisableableNodeDefinition
----@field public crowdVariantTag CName
----@field public enable Bool
+---@field public ["crowdVariantTag"] CName
+---@field public ["enable"] Bool
 questInstancedCrowdControlNodeDefinition = {}
 
 ---@param fields? table

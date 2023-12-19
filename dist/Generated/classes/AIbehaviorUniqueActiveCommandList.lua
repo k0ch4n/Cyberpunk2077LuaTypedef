@@ -14,12 +14,12 @@ function AIbehaviorUniqueActiveCommandList.new(fields) return end
 function AIbehaviorUniqueActiveCommandList.Add(list, command) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param commandName CName
+---@param commandName CName|string
 ---@return nil
 function AIbehaviorUniqueActiveCommandList.ClearActionCommand(list, commandName) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param command CName
+---@param command CName|string
 ---@return Bool
 function AIbehaviorUniqueActiveCommandList.Contains(list, command) return end
 
@@ -29,7 +29,7 @@ function AIbehaviorUniqueActiveCommandList.Contains(list, command) return end
 function AIbehaviorUniqueActiveCommandList.ContainsById(list, commandId) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param command CName
+---@param command CName|string
 ---@return Bool, Uint32 id
 function AIbehaviorUniqueActiveCommandList.GetId(list, command) return end
 
@@ -39,12 +39,12 @@ function AIbehaviorUniqueActiveCommandList.GetId(list, command) return end
 function AIbehaviorUniqueActiveCommandList.IsActionCommandById(list, commandId) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param commandName CName
+---@param commandName CName|string
 ---@return Bool
 function AIbehaviorUniqueActiveCommandList.IsActionCommandByName(list, commandName) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param commandName CName
+---@param commandName CName|string
 ---@return nil
 function AIbehaviorUniqueActiveCommandList.Remove(list, commandName) return end
 
@@ -53,6 +53,6 @@ function AIbehaviorUniqueActiveCommandList.Remove(list, commandName) return end
 function AIbehaviorUniqueActiveCommandList.Size(list) return end
 
 ---@param list AIbehaviorUniqueActiveCommandList
----@param commandName CName
+---@param commandName CName|string
 ---@return nil
 function AIbehaviorUniqueActiveCommandList.TrackActionCommand(list, commandName) return end

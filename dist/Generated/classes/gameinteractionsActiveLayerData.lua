@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsActiveLayerData
----@field public activator gameObject
----@field public linkedLayersName CName
----@field public layerName CName
+---@field public ["activator"] gameObject
+---@field public ["linkedLayersName"] CName
+---@field public ["layerName"] CName
 gameinteractionsActiveLayerData = {}
 
 ---@param fields? table

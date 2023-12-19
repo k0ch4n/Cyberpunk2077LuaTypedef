@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TutorialPopupDisplayController: inkWidgetLogicController
----@field protected title inkTextWidgetReference
----@field protected message inkTextWidgetReference
----@field protected image inkImageWidgetReference
----@field protected video_1360x768 inkVideoWidgetReference
----@field protected video_1024x576 inkVideoWidgetReference
----@field protected video_1280x720 inkVideoWidgetReference
----@field protected video_720x405 inkVideoWidgetReference
----@field protected inputHint inkWidgetReference
----@field private data TutorialPopupData
+---@field protected ["title"] inkTextWidgetReference
+---@field protected ["message"] inkTextWidgetReference
+---@field protected ["image"] inkImageWidgetReference
+---@field protected ["video_1360x768"] inkVideoWidgetReference
+---@field protected ["video_1024x576"] inkVideoWidgetReference
+---@field protected ["video_1280x720"] inkVideoWidgetReference
+---@field protected ["video_720x405"] inkVideoWidgetReference
+---@field protected ["inputHint"] inkWidgetReference
+---@field private ["data"] TutorialPopupData
 TutorialPopupDisplayController = {}
 
 ---@param fields? table

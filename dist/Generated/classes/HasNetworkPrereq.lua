@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HasNetworkPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field public ["invert"] Bool
 HasNetworkPrereq = {}
 
 ---@param fields? table

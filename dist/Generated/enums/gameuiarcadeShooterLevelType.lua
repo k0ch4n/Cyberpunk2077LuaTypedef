@@ -3,7 +3,7 @@
 
 ---@enum gameuiarcadeShooterLevelType
 gameuiarcadeShooterLevelType = {
-    ["HORIZONTAL"] = 0,
-    ["VERTICALUP"] = 1,
-    ["VERTICALDOWN"] = 2
+    ["HORIZONTAL"] = 0, ---@type Enum
+    ["VERTICALUP"] = 1, ---@type Enum
+    ["VERTICALDOWN"] = 2, ---@type Enum
 }

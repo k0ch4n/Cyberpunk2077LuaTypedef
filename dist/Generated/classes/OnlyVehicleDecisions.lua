@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OnlyVehicleDecisions: QuickSlotsReadyDecisions
----@field private executionOwner gameObject
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private hasStatusEffect Bool
+---@field private ["executionOwner"] gameObject
+---@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
+---@field private ["hasStatusEffect"] Bool
 OnlyVehicleDecisions = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceOnScreenEntries: ISerializable
----@field public entries localizationPersistenceOnScreenEntry[]
+---@field public ["entries"] localizationPersistenceOnScreenEntry[]
 localizationPersistenceOnScreenEntries = {}
 
 ---@param fields? table

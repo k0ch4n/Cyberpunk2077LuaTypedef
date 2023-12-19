@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatsViewController: inkWidgetLogicController
----@field private StatLabelRef inkTextWidgetReference
----@field private StatValueRef inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private stat gameStatViewData
+---@field private ["StatLabelRef"] inkTextWidgetReference
+---@field private ["StatValueRef"] inkTextWidgetReference
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["stat"] gameStatViewData
 StatsViewController = {}
 
 ---@param fields? table

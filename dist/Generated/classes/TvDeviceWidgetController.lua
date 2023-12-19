@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class TvDeviceWidgetController: DeviceWidgetControllerBase
----@field protected videoWidget inkVideoWidgetReference
----@field protected globalTVChannelSlot inkBasePanelWidgetReference
----@field protected messegeWidget inkTextWidgetReference
----@field protected messageBackgroundWidget inkLeafWidgetReference
----@field private globalTVChannel inkWidget
----@field private activeVideo redResourceReferenceScriptToken
+---@field protected ["videoWidget"] inkVideoWidgetReference
+---@field protected ["globalTVChannelSlot"] inkBasePanelWidgetReference
+---@field protected ["messegeWidget"] inkTextWidgetReference
+---@field protected ["messageBackgroundWidget"] inkLeafWidgetReference
+---@field private ["globalTVChannel"] inkWidget
+---@field private ["activeVideo"] redResourceReferenceScriptToken
 TvDeviceWidgetController = {}
 
 ---@param fields? table

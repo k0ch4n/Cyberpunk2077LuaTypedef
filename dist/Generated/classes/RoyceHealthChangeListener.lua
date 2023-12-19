@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RoyceHealthChangeListener: gameCustomValueStatPoolsListener
----@field public owner NPCPuppet
----@field private royceComponent RoyceComponent
----@field private weakspots gameWeakspotObject[]
+---@field public ["owner"] NPCPuppet
+---@field private ["royceComponent"] RoyceComponent
+---@field private ["weakspots"] gameWeakspotObject[]
 RoyceHealthChangeListener = {}
 
 ---@param fields? table

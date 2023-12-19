@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiICharacterCustomizationSystem: gameIGameSystem
----@field private puppetPreviewGameController gameuiCharacterCreationPuppetPreviewGameController
+---@field private ["puppetPreviewGameController"] gameuiCharacterCreationPuppetPreviewGameController
 gameuiICharacterCustomizationSystem = {}
 
 ---@param option gameuiCharacterCustomizationOption
@@ -14,7 +14,7 @@ function gameuiICharacterCustomizationSystem:ApplyChangeToOption(option, newValu
 ---@return nil
 function gameuiICharacterCustomizationSystem:ApplyEditTag(editTag) return end
 
----@param presetName CName
+---@param presetName CName|string
 ---@return nil
 function gameuiICharacterCustomizationSystem:ApplyUIPreset(presetName) return end
 
@@ -27,15 +27,15 @@ function gameuiICharacterCustomizationSystem:ClearState() return end
 ---@return Bool
 function gameuiICharacterCustomizationSystem:FinalizeState() return end
 
----@param presetName? CName
+---@param presetName? CName|string
 ---@return gameuiCharacterCustomizationOption[]
 function gameuiICharacterCustomizationSystem:GetArmsOptions(presetName) return end
 
----@param presetName? CName
+---@param presetName? CName|string
 ---@return gameuiCharacterCustomizationOption[]
 function gameuiICharacterCustomizationSystem:GetBodyOptions(presetName) return end
 
----@param presetName? CName
+---@param presetName? CName|string
 ---@return gameuiCharacterCustomizationOption[]
 function gameuiICharacterCustomizationSystem:GetHeadOptions(presetName) return end
 
@@ -45,9 +45,9 @@ function gameuiICharacterCustomizationSystem:GetState() return end
 ---@param head Bool
 ---@param body Bool
 ---@param arms Bool
----@param headPreset? CName
----@param bodyPreset? CName
----@param armsPreset? CName
+---@param headPreset? CName|string
+---@param bodyPreset? CName|string
+---@param armsPreset? CName|string
 ---@return gameuiCharacterCustomizationOption[]
 function gameuiICharacterCustomizationSystem:GetUnitedOptions(head, body, arms, headPreset, bodyPreset, armsPreset) return end
 

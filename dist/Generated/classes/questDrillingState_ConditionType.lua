@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questDrillingState_ConditionType: questIObjectConditionType
----@field public objectRef NodeRef
----@field public state questDrillingState
+---@field public ["objectRef"] NodeRef
+---@field public ["state"] questDrillingState
 questDrillingState_ConditionType = {}
 
 ---@param fields? table

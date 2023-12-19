@@ -3,7 +3,7 @@
 
 ---@enum AIbehaviorConditionOutcomes
 AIbehaviorConditionOutcomes = {
-    ["True"] = 0,
-    ["False"] = 1,
-    ["Failure"] = 2
+    ["True"] = 0, ---@type Enum
+    ["False"] = 1, ---@type Enum
+    ["Failure"] = 2, ---@type Enum
 }

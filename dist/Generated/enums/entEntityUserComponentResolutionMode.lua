@@ -3,6 +3,6 @@
 
 ---@enum entEntityUserComponentResolutionMode
 entEntityUserComponentResolutionMode = {
-    ["Select"] = 0,
-    ["Suppress"] = 1
+    ["Select"] = 0, ---@type Enum
+    ["Suppress"] = 1, ---@type Enum
 }

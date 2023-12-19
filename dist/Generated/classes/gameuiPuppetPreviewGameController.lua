@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPuppetPreviewGameController: gameuiPreviewGameController
----@field public cameraController gameuiPuppetPreviewCameraController
+---@field public ["cameraController"] gameuiPuppetPreviewCameraController
 gameuiPuppetPreviewGameController = {}
 
 ---@param fields? table

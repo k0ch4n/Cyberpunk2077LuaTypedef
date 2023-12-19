@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEnforceScreenSpaceReflectionsUberQuality_NodeType: questIRenderFxManagerNodeType
----@field public enabled Bool
+---@field public ["enabled"] Bool
 questEnforceScreenSpaceReflectionsUberQuality_NodeType = {}
 
 ---@param fields? table

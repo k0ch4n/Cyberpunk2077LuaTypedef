@@ -25,14 +25,14 @@ function gamedataVendor_Record:CraftbooksContains(item) return end
 ---@return CName[]
 function gamedataVendor_Record:CustomerFilterTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVendor_Record:CustomerFilterTagsContains(item) return end
 
 ---@return CName[]
 function gamedataVendor_Record:CustomerInverseFilterTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVendor_Record:CustomerInverseFilterTagsContains(item) return end
 
@@ -176,14 +176,14 @@ function gamedataVendor_Record:MapVisibilityPrereqsContains(item) return end
 ---@return CName[]
 function gamedataVendor_Record:VendorFilterTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVendor_Record:VendorFilterTagsContains(item) return end
 
 ---@return CName[]
 function gamedataVendor_Record:VendorInverseFilterTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVendor_Record:VendorInverseFilterTagsContains(item) return end
 

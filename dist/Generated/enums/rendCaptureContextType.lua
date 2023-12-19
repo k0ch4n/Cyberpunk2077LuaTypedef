@@ -3,6 +3,6 @@
 
 ---@enum rendCaptureContextType
 rendCaptureContextType = {
-    ["SceneGamedef"] = 0,
-    ["AnimViewer"] = 1
+    ["SceneGamedef"] = 0, ---@type Enum
+    ["AnimViewer"] = 1, ---@type Enum
 }

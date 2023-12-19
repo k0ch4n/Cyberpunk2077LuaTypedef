@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsController: inkWidgetLogicController
----@field protected detailsButton inkWidgetReference
----@field protected entryContainer inkCompoundWidgetReference
----@field protected healthEntryController InventoryStatsEntryController
----@field protected armorEntryController InventoryStatsEntryController
----@field protected staminaEntryController InventoryStatsEntryController
+---@field protected ["detailsButton"] inkWidgetReference
+---@field protected ["entryContainer"] inkCompoundWidgetReference
+---@field protected ["healthEntryController"] InventoryStatsEntryController
+---@field protected ["armorEntryController"] InventoryStatsEntryController
+---@field protected ["staminaEntryController"] InventoryStatsEntryController
 InventoryStatsController = {}
 
 ---@param fields? table
@@ -24,7 +24,7 @@ function InventoryStatsController:Setup(player) return end
 
 ---@param player PlayerPuppet
 ---@param stat gamedataStatType
----@param localizationKey CName
----@param icon CName
+---@param localizationKey CName|string
+---@param icon CName|string
 ---@return InventoryStatsEntryController
 function InventoryStatsController:SetupEntry(player, stat, localizationKey, icon) return end

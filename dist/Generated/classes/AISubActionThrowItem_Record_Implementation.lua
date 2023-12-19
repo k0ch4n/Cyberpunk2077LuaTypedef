@@ -18,7 +18,7 @@ function AISubActionThrowItem_Record_Implementation.CreateCurvedTrajectory(targe
 
 ---@private
 ---@param target gameObject
----@param slotName CName
+---@param slotName CName|string
 ---@param paramsTDBRecord TweakDBID
 ---@return gameprojectileTrajectoryParams
 function AISubActionThrowItem_Record_Implementation.CreateCurvedTrajectoryFollowTargetSlot(target, slotName, paramsTDBRecord) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CyberspaceMappinController: gameuiQuestMappinController
----@field public image inkImageWidgetReference
+---@field public ["image"] inkImageWidgetReference
 CyberspaceMappinController = {}
 
 ---@param fields? table

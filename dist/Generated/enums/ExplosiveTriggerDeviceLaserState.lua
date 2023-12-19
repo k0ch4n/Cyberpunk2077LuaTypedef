@@ -3,7 +3,7 @@
 
 ---@enum ExplosiveTriggerDeviceLaserState
 ExplosiveTriggerDeviceLaserState = {
-    ["GREEN"] = 0,
-    ["RED"] = 1,
-    ["DISABLED"] = 2
+    ["GREEN"] = 0, ---@type Enum
+    ["RED"] = 1, ---@type Enum
+    ["DISABLED"] = 2, ---@type Enum
 }

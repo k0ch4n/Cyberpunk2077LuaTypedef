@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCrowdManagerNodeType_EnableNullArea: questICrowdManager_NodeType
----@field public areaReference NodeRef
----@field public enable Bool
+---@field public ["areaReference"] NodeRef
+---@field public ["enable"] Bool
 questCrowdManagerNodeType_EnableNullArea = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class NcartStationMarker: gameObject
----@field protected station ENcartStations
----@field protected callBackOnlyIfMatchesDestination Bool
----@field protected setAsNewActive Bool
----@field protected onTrainApproachingFact CName
----@field protected TrainGlobalRef CName
+---@field protected ["station"] ENcartStations
+---@field protected ["callBackOnlyIfMatchesDestination"] Bool
+---@field protected ["setAsNewActive"] Bool
+---@field protected ["onTrainApproachingFact"] CName
+---@field protected ["TrainGlobalRef"] CName
 NcartStationMarker = {}
 
 ---@param fields? table

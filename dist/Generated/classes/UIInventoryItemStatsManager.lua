@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemStatsManager: IScriptable
----@field public Stats UIInventoryItemStat[]
----@field public TooltipStats UIInventoryItemStat[]
----@field public AdditionalStats UIInventoryItemStat[]
----@field public AttributeAllocationStats UIInventoryItemStat[]
----@field private item UIInventoryItem
----@field private gameItemData gameItemData
----@field private itemType gamedataItemType
----@field private manager UIInventoryItemsManager
----@field private statMap gamedataUIStatsMap_Record
----@field private statsFetched Bool
----@field private tooltipStatsFetched Bool
----@field private weaponBars UIInventoryItemWeaponBars
----@field private weaponBarsFetched Bool
----@field private useBareStats Bool
+---@field public ["Stats"] UIInventoryItemStat[]
+---@field public ["TooltipStats"] UIInventoryItemStat[]
+---@field public ["AdditionalStats"] UIInventoryItemStat[]
+---@field public ["AttributeAllocationStats"] UIInventoryItemStat[]
+---@field private ["item"] UIInventoryItem
+---@field private ["gameItemData"] gameItemData
+---@field private ["itemType"] gamedataItemType
+---@field private ["manager"] UIInventoryItemsManager
+---@field private ["statMap"] gamedataUIStatsMap_Record
+---@field private ["statsFetched"] Bool
+---@field private ["tooltipStatsFetched"] Bool
+---@field private ["weaponBars"] UIInventoryItemWeaponBars
+---@field private ["weaponBarsFetched"] Bool
+---@field private ["useBareStats"] Bool
 UIInventoryItemStatsManager = {}
 
 ---@param fields? table

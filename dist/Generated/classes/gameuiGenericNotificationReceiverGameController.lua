@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiGenericNotificationReceiverGameController: gameuiWidgetGameController
----@field public ItemChanged inkEmptyCallback
----@field public NotificationPaused inkEmptyCallback
----@field public NotificationResumed inkEmptyCallback
+---@field public ["ItemChanged"] inkEmptyCallback
+---@field public ["NotificationPaused"] inkEmptyCallback
+---@field public ["NotificationResumed"] inkEmptyCallback
 gameuiGenericNotificationReceiverGameController = {}
 
 ---@param fields? table

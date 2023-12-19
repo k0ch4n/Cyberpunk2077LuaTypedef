@@ -3,12 +3,12 @@
 
 ---@enum gamedataAIComparison
 gamedataAIComparison = {
-    ["Equal"] = 0,
-    ["Greater"] = 1,
-    ["GreaterOrEqual"] = 2,
-    ["Less"] = 3,
-    ["LessOrEqual"] = 4,
-    ["NotEqual"] = 5,
-    ["Count"] = 6,
-    ["Invalid"] = 7
+    ["Equal"] = 0, ---@type Enum
+    ["Greater"] = 1, ---@type Enum
+    ["GreaterOrEqual"] = 2, ---@type Enum
+    ["Less"] = 3, ---@type Enum
+    ["LessOrEqual"] = 4, ---@type Enum
+    ["NotEqual"] = 5, ---@type Enum
+    ["Count"] = 6, ---@type Enum
+    ["Invalid"] = 7, ---@type Enum
 }

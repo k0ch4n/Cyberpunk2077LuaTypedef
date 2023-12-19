@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VisualDisplayController: InventoryItemDisplayController
----@field private equipped Bool
+---@field private ["equipped"] Bool
 VisualDisplayController = {}
 
 ---@param fields? table

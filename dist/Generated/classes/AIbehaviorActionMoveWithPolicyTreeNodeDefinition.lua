@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionMoveWithPolicyTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public stopWhenDestinationReached Bool
+---@field public ["stopWhenDestinationReached"] Bool
 AIbehaviorActionMoveWithPolicyTreeNodeDefinition = {}
 
 ---@param fields? table

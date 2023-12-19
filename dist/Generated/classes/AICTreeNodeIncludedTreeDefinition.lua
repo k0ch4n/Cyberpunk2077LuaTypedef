@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeIncludedTreeDefinition: AICTreeNodeDefinition
----@field public tree LibTreeDefTree
+---@field public ["tree"] LibTreeDefTree
 AICTreeNodeIncludedTreeDefinition = {}
 
 ---@param fields? table

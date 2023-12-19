@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BackpackInventoryListenerCallback: gameInventoryScriptCallback
----@field private backpackInstance gameuiBackpackMainGameController
+---@field private ["backpackInstance"] gameuiBackpackMainGameController
 BackpackInventoryListenerCallback = {}
 
 ---@param fields? table

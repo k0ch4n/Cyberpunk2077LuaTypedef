@@ -3,8 +3,8 @@
 
 ---@enum worldNodeSocketType
 worldNodeSocketType = {
-    ["Bidirectional"] = 0,
-    ["Inward"] = 1,
-    ["Outward"] = 2,
-    ["Disabled"] = 3
+    ["Bidirectional"] = 0, ---@type Enum
+    ["Inward"] = 1, ---@type Enum
+    ["Outward"] = 2, ---@type Enum
+    ["Disabled"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForcedKnockdownEvents: KnockdownEvents
----@field public firstUpdate Bool
+---@field public ["firstUpdate"] Bool
 ForcedKnockdownEvents = {}
 
 ---@param fields? table

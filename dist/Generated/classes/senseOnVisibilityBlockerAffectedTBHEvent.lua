@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseOnVisibilityBlockerAffectedTBHEvent: redEvent
----@field public newTBHModifier Float
+---@field public ["newTBHModifier"] Float
 senseOnVisibilityBlockerAffectedTBHEvent = {}
 
 ---@param fields? table

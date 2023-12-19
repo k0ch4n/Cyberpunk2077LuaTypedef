@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MoveCommandCleanup: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field protected ["inCommand"] AIArgumentMapping
 MoveCommandCleanup = {}
 
 ---@param fields? table

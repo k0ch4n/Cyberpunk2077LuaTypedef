@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Rasetsu: gameuiCrosshairBaseGameController
----@field public hipFire inkWidgetReference
----@field public aimFire inkWidgetReference
----@field public showAdsAnimName CName
----@field public hideAdsAnimName CName
----@field public loopAdsAnimName CName
----@field public targetHitAnimationName CName
----@field public shootAnimationName CName
----@field public hipFireLogicController CrosshairLogicController_RasetsuHipFire
----@field public aimFireLogicController CrosshairLogicController_RasetsuAimFire
----@field public weaponLocalBB gameIBlackboard
----@field public uiGameDataBB gameIBlackboard
----@field public onChargeChangeBBID redCallbackObject
----@field public onChargeTriggerModeBBID redCallbackObject
----@field public weaponDataTargetHitBBID redCallbackObject
----@field public weaponDataShootBBID redCallbackObject
----@field public targetHitAnimation inkanimProxy
----@field public shootAnimation inkanimProxy
----@field public visibilityAnimProxy inkanimProxy
----@field public rootAnimProxy inkanimProxy
----@field public isRootVisible Bool
+---@field public ["hipFire"] inkWidgetReference
+---@field public ["aimFire"] inkWidgetReference
+---@field public ["showAdsAnimName"] CName
+---@field public ["hideAdsAnimName"] CName
+---@field public ["loopAdsAnimName"] CName
+---@field public ["targetHitAnimationName"] CName
+---@field public ["shootAnimationName"] CName
+---@field public ["hipFireLogicController"] CrosshairLogicController_RasetsuHipFire
+---@field public ["aimFireLogicController"] CrosshairLogicController_RasetsuAimFire
+---@field public ["weaponLocalBB"] gameIBlackboard
+---@field public ["uiGameDataBB"] gameIBlackboard
+---@field public ["onChargeChangeBBID"] redCallbackObject
+---@field public ["onChargeTriggerModeBBID"] redCallbackObject
+---@field public ["weaponDataTargetHitBBID"] redCallbackObject
+---@field public ["weaponDataShootBBID"] redCallbackObject
+---@field public ["targetHitAnimation"] inkanimProxy
+---@field public ["shootAnimation"] inkanimProxy
+---@field public ["visibilityAnimProxy"] inkanimProxy
+---@field public ["rootAnimProxy"] inkanimProxy
+---@field public ["isRootVisible"] Bool
 CrosshairGameController_Rasetsu = {}
 
 ---@param fields? table
@@ -80,7 +80,7 @@ function CrosshairGameController_Rasetsu:OnTriggerModeChanged(triggerMode) retur
 function CrosshairGameController_Rasetsu:OnUninitialize() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function CrosshairGameController_Rasetsu:ApplyCrosshairGUIState(state, aimedAtEntity) return end

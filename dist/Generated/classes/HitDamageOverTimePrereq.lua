@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitDamageOverTimePrereq: GenericHitPrereq
----@field public dotType gamedataStatusEffectType
+---@field public ["dotType"] gamedataStatusEffectType
 HitDamageOverTimePrereq = {}
 
 ---@param fields? table

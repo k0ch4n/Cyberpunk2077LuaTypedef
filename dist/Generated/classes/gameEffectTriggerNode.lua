@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectTriggerNode: worldAreaShapeNode
----@field public effectDescs gameEffectTriggerEffectDesc[]
+---@field public ["effectDescs"] gameEffectTriggerEffectDesc[]
 gameEffectTriggerNode = {}
 
 ---@param fields? table

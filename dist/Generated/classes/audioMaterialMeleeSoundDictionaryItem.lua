@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioMaterialMeleeSoundDictionaryItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value audioMeleeSound
+---@field public ["key"] CName
+---@field public ["value"] audioMeleeSound
 audioMaterialMeleeSoundDictionaryItem = {}
 
 ---@param fields? table

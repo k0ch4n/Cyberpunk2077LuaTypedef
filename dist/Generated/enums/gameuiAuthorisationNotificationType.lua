@@ -3,7 +3,7 @@
 
 ---@enum gameuiAuthorisationNotificationType
 gameuiAuthorisationNotificationType = {
-    ["Unknown"] = 0,
-    ["GotKeycard"] = 1,
-    ["AccessGranted"] = 2
+    ["Unknown"] = 0, ---@type Enum
+    ["GotKeycard"] = 1, ---@type Enum
+    ["AccessGranted"] = 2, ---@type Enum
 }

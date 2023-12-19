@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IgnoreBarbedWirePrereq: gameIScriptablePrereq
----@field public minStateTime Float
----@field public invert Bool
+---@field public ["minStateTime"] Float
+---@field public ["invert"] Bool
 IgnoreBarbedWirePrereq = {}
 
 ---@param fields? table

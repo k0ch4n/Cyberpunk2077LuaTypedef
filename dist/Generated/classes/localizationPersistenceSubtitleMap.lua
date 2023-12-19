@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceSubtitleMap: ISerializable
----@field public entries localizationPersistenceSubtitleMapEntry[]
+---@field public ["entries"] localizationPersistenceSubtitleMapEntry[]
 localizationPersistenceSubtitleMap = {}
 
 ---@param fields? table

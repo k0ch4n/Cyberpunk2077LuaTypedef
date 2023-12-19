@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityAlarmBreachResponse: ActionBool
----@field private currentSecurityState ESecuritySystemState
+---@field private ["currentSecurityState"] ESecuritySystemState
 SecurityAlarmBreachResponse = {}
 
 ---@param fields? table

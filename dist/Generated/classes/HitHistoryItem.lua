@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitHistoryItem
----@field public instigator gameObject
----@field public hitTime Float
----@field public attackType gamedataAttackType
+---@field public ["instigator"] gameObject
+---@field public ["hitTime"] Float
+---@field public ["attackType"] gamedataAttackType
 HitHistoryItem = {}
 
 ---@param fields? table

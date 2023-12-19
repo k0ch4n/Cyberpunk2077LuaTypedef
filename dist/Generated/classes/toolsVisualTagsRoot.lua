@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsVisualTagsRoot: ISerializable
----@field public schemas toolsVisualTagsSchema[]
+---@field public ["schemas"] toolsVisualTagsSchema[]
 toolsVisualTagsRoot = {}
 
 ---@param fields? table

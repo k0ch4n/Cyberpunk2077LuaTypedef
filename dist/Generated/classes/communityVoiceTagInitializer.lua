@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityVoiceTagInitializer: communitySpawnInitializer
----@field public voiceTagName CName
+---@field public ["voiceTagName"] CName
 communityVoiceTagInitializer = {}
 
 ---@param fields? table

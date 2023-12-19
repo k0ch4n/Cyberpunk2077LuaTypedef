@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipCyberwareWeaponModule: ItemTooltipModuleController
----@field public wrapper inkWidgetReference
----@field public bars inkWidgetReference[]
----@field public diffBars inkWidgetReference[]
----@field public betterColorDummyHolder inkWidgetReference
----@field public worseColorDummyHolder inkWidgetReference
----@field private statsToDisplay WeaponBarType[]
----@field private disableSeparators Bool
+---@field public ["wrapper"] inkWidgetReference
+---@field public ["bars"] inkWidgetReference[]
+---@field public ["diffBars"] inkWidgetReference[]
+---@field public ["betterColorDummyHolder"] inkWidgetReference
+---@field public ["worseColorDummyHolder"] inkWidgetReference
+---@field private ["statsToDisplay"] WeaponBarType[]
+---@field private ["disableSeparators"] Bool
 ItemTooltipCyberwareWeaponModule = {}
 
 ---@param fields? table

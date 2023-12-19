@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayerQuickhackData
----@field public itemID gameItemID
----@field public actionRecord gamedataObjectAction_Record
----@field public quality Int32
+---@field public ["itemID"] gameItemID
+---@field public ["actionRecord"] gamedataObjectAction_Record
+---@field public ["quality"] Int32
 PlayerQuickhackData = {}
 
 ---@param fields? table

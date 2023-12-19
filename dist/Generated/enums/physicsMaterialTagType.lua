@@ -3,9 +3,9 @@
 
 ---@enum physicsMaterialTagType
 physicsMaterialTagType = {
-    ["AIVisibility"] = 0,
-    ["PlayerVisibility"] = 1,
-    ["ProjectilePenetration"] = 2,
-    ["ProjectileRicochet"] = 3,
-    ["VehicleTraction"] = 4
+    ["AIVisibility"] = 0, ---@type Enum
+    ["PlayerVisibility"] = 1, ---@type Enum
+    ["ProjectilePenetration"] = 2, ---@type Enum
+    ["ProjectileRicochet"] = 3, ---@type Enum
+    ["VehicleTraction"] = 4, ---@type Enum
 }

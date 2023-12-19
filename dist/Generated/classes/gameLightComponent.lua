@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class gameLightComponent: entLightComponent
----@field public emissiveOnly Bool
----@field public materialZone gameEMaterialZone
----@field public meshBrokenAppearance CName
----@field public onStrength Float
----@field public turnOnByDefault Bool
----@field public turnOnTime Float
----@field public turnOnCurve CName
----@field public turnOffTime Float
----@field public turnOffCurve CName
----@field public loopTime Float
----@field public loopCurve CName
----@field public synchronizedLoop Bool
----@field public isDestructible Bool
----@field public colliderName CName
----@field public colliderTag CName
----@field public destructionEffect worldEffect
----@field public genericCurveSetOverride CurveSet
+---@field public ["emissiveOnly"] Bool
+---@field public ["materialZone"] gameEMaterialZone
+---@field public ["meshBrokenAppearance"] CName
+---@field public ["onStrength"] Float
+---@field public ["turnOnByDefault"] Bool
+---@field public ["turnOnTime"] Float
+---@field public ["turnOnCurve"] CName
+---@field public ["turnOffTime"] Float
+---@field public ["turnOffCurve"] CName
+---@field public ["loopTime"] Float
+---@field public ["loopCurve"] CName
+---@field public ["synchronizedLoop"] Bool
+---@field public ["isDestructible"] Bool
+---@field public ["colliderName"] CName
+---@field public ["colliderTag"] CName
+---@field public ["destructionEffect"] worldEffect
+---@field public ["genericCurveSetOverride"] CurveSet
 gameLightComponent = {}
 
 ---@param fields? table
@@ -28,7 +28,7 @@ function gameLightComponent.new(fields) return end
 ---@param owner gameObject
 ---@param settings ScriptLightSettings
 ---@param time? Float
----@param curve? CName
+---@param curve? CName|string
 ---@param loop? Bool
 ---@return nil
 function gameLightComponent.ChangeAllLightsSettings(owner, settings, time, curve, loop) return end
@@ -36,7 +36,7 @@ function gameLightComponent.ChangeAllLightsSettings(owner, settings, time, curve
 ---@param lightRefs gameLightComponent[]
 ---@param setting ScriptLightSettings
 ---@param inTime? Float
----@param interpolationCurve? CName
+---@param interpolationCurve? CName|string
 ---@param loop? Bool
 ---@return nil
 function gameLightComponent.ChangeLightSettingByRefs(lightRefs, setting, inTime, interpolationCurve, loop) return end
@@ -98,7 +98,7 @@ function gameLightComponent:SetIntensity(intensity, inTime) return end
 
 ---@param settings gameLightSettings
 ---@param inTime? Float
----@param interpolationCurve? CName
+---@param interpolationCurve? CName|string
 ---@param loop? Bool
 ---@return nil
 function gameLightComponent:SetParameters(settings, inTime, interpolationCurve, loop) return end

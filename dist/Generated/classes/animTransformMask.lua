@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animTransformMask
----@field public index Int32
----@field public weight Float
+---@field public ["index"] Int32
+---@field public ["weight"] Float
 animTransformMask = {}
 
 ---@param fields? table

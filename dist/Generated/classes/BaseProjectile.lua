@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class BaseProjectile: gameItemObject
----@field protected projectileComponent gameprojectileComponent
----@field protected user gameObject
----@field protected projectile gameObject
----@field protected projectileSpawnPoint Vector4
----@field protected projectilePosition Vector4
----@field protected initialLaunchVelocity Float
----@field protected lifeTime Float
----@field public tweakDBPath String
+---@field protected ["projectileComponent"] gameprojectileComponent
+---@field protected ["user"] gameObject
+---@field protected ["projectile"] gameObject
+---@field protected ["projectileSpawnPoint"] Vector4
+---@field protected ["projectilePosition"] Vector4
+---@field protected ["initialLaunchVelocity"] Float
+---@field protected ["lifeTime"] Float
+---@field public ["tweakDBPath"] String
 BaseProjectile = {}
 
 ---@param fields? table
@@ -57,7 +57,7 @@ function BaseProjectile:OnTakeControl(ri) return end
 function BaseProjectile:OnUpdate(evt) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function BaseProjectile:BreakVisualEffectLoop(effectName) return end
 
@@ -138,7 +138,7 @@ function BaseProjectile:GetProjectileTweakDBFloatParameter(param) return end
 function BaseProjectile:HasTrajectory() return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function BaseProjectile:KillVisualEffect(effectName) return end
 
@@ -199,8 +199,8 @@ function BaseProjectile:SetProjectileLifetime() return end
 function BaseProjectile:SpawnLandVFXs(fx, fxposition) return end
 
 ---@protected
----@param effectName CName
----@param eventTag? CName
+---@param effectName CName|string
+---@param eventTag? CName|string
 ---@return nil
 function BaseProjectile:SpawnVisualEffect(effectName, eventTag) return end
 

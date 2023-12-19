@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkCacheWidget: inkCompoundWidget
----@field public innerScale Vector2
----@field public mode inkCacheMode
----@field public externalDynamicTexture CName
+---@field public ["innerScale"] Vector2
+---@field public ["mode"] inkCacheMode
+---@field public ["externalDynamicTexture"] CName
 inkCacheWidget = {}
 
 ---@param fields? table

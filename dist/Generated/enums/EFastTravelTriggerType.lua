@@ -3,6 +3,6 @@
 
 ---@enum EFastTravelTriggerType
 EFastTravelTriggerType = {
-    ["Manual"] = 0,
-    ["Auto"] = 1
+    ["Manual"] = 0, ---@type Enum
+    ["Auto"] = 1, ---@type Enum
 }

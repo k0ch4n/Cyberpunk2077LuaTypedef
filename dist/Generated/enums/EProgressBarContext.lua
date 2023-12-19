@@ -3,6 +3,6 @@
 
 ---@enum EProgressBarContext
 EProgressBarContext = {
-    ["QuickHack"] = 0,
-    ["PhoneCall"] = 1
+    ["QuickHack"] = 0, ---@type Enum
+    ["PhoneCall"] = 1, ---@type Enum
 }

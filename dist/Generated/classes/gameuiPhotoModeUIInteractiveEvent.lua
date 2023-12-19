@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeUIInteractiveEvent: redEvent
----@field public interactive Bool
+---@field public ["interactive"] Bool
 gameuiPhotoModeUIInteractiveEvent = {}
 
 ---@param fields? table

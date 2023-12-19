@@ -3,9 +3,9 @@
 
 ---@enum vehicleRaceUI
 vehicleRaceUI = {
-    ["PreRaceSetup"] = 0,
-    ["CountdownStart"] = 1,
-    ["RaceStart"] = 2,
-    ["RaceEnd"] = 3,
-    ["Disable"] = 4
+    ["PreRaceSetup"] = 0, ---@type Enum
+    ["CountdownStart"] = 1, ---@type Enum
+    ["RaceStart"] = 2, ---@type Enum
+    ["RaceEnd"] = 3, ---@type Enum
+    ["Disable"] = 4, ---@type Enum
 }

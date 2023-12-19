@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ActionsSequencerControllerPS: MasterControllerPS
----@field private sequenceDuration Float
----@field private sequencerMode EActionsSequencerMode
----@field private actionTypeToForward SActionTypeForward
----@field private ongoingSequence ActionsSequence
+---@field private ["sequenceDuration"] Float
+---@field private ["sequencerMode"] EActionsSequencerMode
+---@field private ["actionTypeToForward"] SActionTypeForward
+---@field private ["ongoingSequence"] ActionsSequence
 ActionsSequencerControllerPS = {}
 
 ---@param fields? table
@@ -29,7 +29,7 @@ function ActionsSequencerControllerPS:ForceLockOnAllSlaves() return end
 
 ---@private
 ---@param persistentID gamePersistentID
----@param className CName
+---@param className CName|string
 ---@return nil
 function ActionsSequencerControllerPS:ForceUnlockSlave(persistentID, className) return end
 

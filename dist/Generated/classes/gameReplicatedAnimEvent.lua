@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameReplicatedAnimEvent: entReplicatedItem
----@field public name CName
+---@field public ["name"] CName
 gameReplicatedAnimEvent = {}
 
 ---@param fields? table

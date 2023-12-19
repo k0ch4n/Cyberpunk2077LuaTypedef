@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ArcadeMachineInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private mainDisplayWidget inkVideoWidget
----@field private counterWidget inkTextWidget
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field private ["defaultUI"] inkCanvasWidget
+---@field private ["mainDisplayWidget"] inkVideoWidget
+---@field private ["counterWidget"] inkTextWidget
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
 ArcadeMachineInkGameController = {}
 
 ---@param fields? table
@@ -27,7 +27,7 @@ function ArcadeMachineInkGameController:GetOwner() return end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
----@param audioEvent CName
+---@param audioEvent CName|string
 ---@return nil
 function ArcadeMachineInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
 

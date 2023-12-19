@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class TransmogMessageDescTooltip: MessageTooltip
----@field protected titleWrapper inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionLine inkWidgetReference
----@field protected icon inkImageWidgetReference
+---@field protected ["titleWrapper"] inkWidgetReference
+---@field protected ["descriptionWrapper"] inkWidgetReference
+---@field protected ["descriptionLine"] inkWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
 TransmogMessageDescTooltip = {}
 
 ---@param fields? table

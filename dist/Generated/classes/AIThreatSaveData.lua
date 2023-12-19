@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIThreatSaveData
----@field public entityId entEntityID
----@field public persistenceSourceBitMask Uint32
+---@field public ["entityId"] entEntityID
+---@field public ["persistenceSourceBitMask"] Uint32
 AIThreatSaveData = {}
 
 ---@param fields? table

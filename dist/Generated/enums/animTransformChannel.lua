@@ -3,13 +3,13 @@
 
 ---@enum animTransformChannel
 animTransformChannel = {
-    ["PosX"] = 0,
-    ["PosY"] = 1,
-    ["PosZ"] = 2,
-    ["RotX"] = 3,
-    ["RotY"] = 4,
-    ["RotZ"] = 5,
-    ["ScaleX"] = 6,
-    ["ScaleY"] = 7,
-    ["ScaleZ"] = 8
+    ["PosX"] = 0, ---@type Enum
+    ["PosY"] = 1, ---@type Enum
+    ["PosZ"] = 2, ---@type Enum
+    ["RotX"] = 3, ---@type Enum
+    ["RotY"] = 4, ---@type Enum
+    ["RotZ"] = 5, ---@type Enum
+    ["ScaleX"] = 6, ---@type Enum
+    ["ScaleY"] = 7, ---@type Enum
+    ["ScaleZ"] = 8, ---@type Enum
 }

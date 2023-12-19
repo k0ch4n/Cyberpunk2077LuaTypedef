@@ -3,11 +3,11 @@
 
 ---@enum gameOnlineSystemErrors
 gameOnlineSystemErrors = {
-    ["None"] = 0,
-    ["RequestFailed"] = 1,
-    ["TemporaryFailure"] = 2,
-    ["NoInternetConnection"] = 3,
-    ["NotSignedInGalaxy"] = 4,
-    ["NotSignedInLauncher"] = 5,
-    ["NotSignedInGame"] = 6
+    ["None"] = 0, ---@type Enum
+    ["RequestFailed"] = 1, ---@type Enum
+    ["TemporaryFailure"] = 2, ---@type Enum
+    ["NoInternetConnection"] = 3, ---@type Enum
+    ["NotSignedInGalaxy"] = 4, ---@type Enum
+    ["NotSignedInLauncher"] = 5, ---@type Enum
+    ["NotSignedInGame"] = 6, ---@type Enum
 }

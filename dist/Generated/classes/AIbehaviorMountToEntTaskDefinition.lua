@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMountToEntTaskDefinition: AIbehaviorTaskDefinition
----@field public mountData AIArgumentMapping
+---@field public ["mountData"] AIArgumentMapping
 AIbehaviorMountToEntTaskDefinition = {}
 
 ---@param fields? table

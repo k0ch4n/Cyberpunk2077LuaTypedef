@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargedItemsPrereqListener: BaseStatPoolPrereqListener
----@field protected state ChargedItemsPrereqState
+---@field protected ["state"] ChargedItemsPrereqState
 ChargedItemsPrereqListener = {}
 
 ---@param fields? table

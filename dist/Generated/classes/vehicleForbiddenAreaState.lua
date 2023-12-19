@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vehicleForbiddenAreaState
----@field public globalNodeIDHash Uint64
----@field public enabled Bool
----@field public dismount Bool
----@field public blockCombat Bool
+---@field public ["globalNodeIDHash"] Uint64
+---@field public ["enabled"] Bool
+---@field public ["dismount"] Bool
+---@field public ["blockCombat"] Bool
 vehicleForbiddenAreaState = {}
 
 ---@param fields? table

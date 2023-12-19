@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetControllersSnapshot
----@field public controllers gameMuppetControllerSnapshot[]
+---@field public ["controllers"] gameMuppetControllerSnapshot[]
 gameMuppetControllersSnapshot = {}
 
 ---@param fields? table

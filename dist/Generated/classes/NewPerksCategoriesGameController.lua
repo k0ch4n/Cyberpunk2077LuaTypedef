@@ -2,62 +2,62 @@
 ---@diagnostic disable
 
 ---@class NewPerksCategoriesGameController: gameuiMenuGameController
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private perksCategoriesContainer inkWidgetReference
----@field private tabsContainer inkWidgetReference
----@field private perksScreenContainer inkWidgetReference
----@field private espionageScreenContainer inkWidgetReference
----@field private skillsScreenContainer inkWidgetReference
----@field private pointsDisplay inkWidgetReference
----@field private playerLevel inkTextWidgetReference
----@field private resetAttributesButton inkWidgetReference
----@field private skillsScreenButton inkWidgetReference
----@field private espionageAttributeMask inkWidgetReference
----@field private espionagePointsRef inkWidgetReference
----@field private attributeTooltipHolderRight inkWidgetReference
----@field private attributeTooltipHolderLeft inkWidgetReference
----@field private centerHiglightParts inkWidgetReference[]
----@field private perkTooltipPlacementLeft inkWidgetReference
----@field private perkTooltipPlacementRight inkWidgetReference
----@field private perkTooltipBgLeft inkWidgetReference
----@field private perkTooltipBgRight inkWidgetReference
----@field private perkTooltipBgAnimProxy inkanimProxy
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private tabsController NewPerkTabsController
----@field private perksScreenController NewPerksScreenLogicController
----@field private espionageScreenController NewPerksScreenLogicController
----@field private skillScreenController NewPerkSkillsLogicController
----@field private tooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private dataManager PlayerDevelopmentDataManager
----@field private questSystem questQuestsSystem
----@field private attributesControllersList PerksMenuAttributeItemController[]
----@field private perksMenuItemCreatedQueue PerksMenuAttributeItemCreated[]
----@field private pointsDisplayController PerksPointsDisplayController
----@field private playerStatsBlackboard gameIBlackboard
----@field private characterLevelListener redCallbackObject
----@field private player PlayerPuppet
----@field private previousScreen NewPeksActiveScreen
----@field private currentScreen NewPeksActiveScreen
----@field private currentStatScreen gamedataStatType
----@field private johnnyEspionageInitialized Bool
----@field private isEspionageUnlocked Bool
----@field private lastHoveredAttribute PerkMenuAttribute
----@field private cyberwarePerkDetailsPopupToken inkGameNotificationToken
----@field private perksScreenIntroAnimProxy inkanimProxy
----@field private perksScreenOutroAnimProxy inkanimProxy
----@field private perksScreenDirection NewPerkTabsArrowDirection
----@field private currentTooltipData PerkHoverEventTooltipData
----@field private uiSystem gameuiGameSystemUI
----@field private currentCursorPos Vector2
----@field private perkUserData PerkUserData
----@field private vendorUserData VendorUserData
----@field private skillsOpenData OpenSkillsMenuData
----@field private resetConfirmationToken inkGameNotificationToken
----@field private userData IScriptable
----@field private isPlayerInCombat Bool
----@field private screenDisplayContext ScreenDisplayContext
+---@field private ["tooltipsManagerRef"] inkWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["perksCategoriesContainer"] inkWidgetReference
+---@field private ["tabsContainer"] inkWidgetReference
+---@field private ["perksScreenContainer"] inkWidgetReference
+---@field private ["espionageScreenContainer"] inkWidgetReference
+---@field private ["skillsScreenContainer"] inkWidgetReference
+---@field private ["pointsDisplay"] inkWidgetReference
+---@field private ["playerLevel"] inkTextWidgetReference
+---@field private ["resetAttributesButton"] inkWidgetReference
+---@field private ["skillsScreenButton"] inkWidgetReference
+---@field private ["espionageAttributeMask"] inkWidgetReference
+---@field private ["espionagePointsRef"] inkWidgetReference
+---@field private ["attributeTooltipHolderRight"] inkWidgetReference
+---@field private ["attributeTooltipHolderLeft"] inkWidgetReference
+---@field private ["centerHiglightParts"] inkWidgetReference[]
+---@field private ["perkTooltipPlacementLeft"] inkWidgetReference
+---@field private ["perkTooltipPlacementRight"] inkWidgetReference
+---@field private ["perkTooltipBgLeft"] inkWidgetReference
+---@field private ["perkTooltipBgRight"] inkWidgetReference
+---@field private ["perkTooltipBgAnimProxy"] inkanimProxy
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["tabsController"] NewPerkTabsController
+---@field private ["perksScreenController"] NewPerksScreenLogicController
+---@field private ["espionageScreenController"] NewPerksScreenLogicController
+---@field private ["skillScreenController"] NewPerkSkillsLogicController
+---@field private ["tooltipsManager"] gameuiTooltipsManager
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["dataManager"] PlayerDevelopmentDataManager
+---@field private ["questSystem"] questQuestsSystem
+---@field private ["attributesControllersList"] PerksMenuAttributeItemController[]
+---@field private ["perksMenuItemCreatedQueue"] PerksMenuAttributeItemCreated[]
+---@field private ["pointsDisplayController"] PerksPointsDisplayController
+---@field private ["playerStatsBlackboard"] gameIBlackboard
+---@field private ["characterLevelListener"] redCallbackObject
+---@field private ["player"] PlayerPuppet
+---@field private ["previousScreen"] NewPeksActiveScreen
+---@field private ["currentScreen"] NewPeksActiveScreen
+---@field private ["currentStatScreen"] gamedataStatType
+---@field private ["johnnyEspionageInitialized"] Bool
+---@field private ["isEspionageUnlocked"] Bool
+---@field private ["lastHoveredAttribute"] PerkMenuAttribute
+---@field private ["cyberwarePerkDetailsPopupToken"] inkGameNotificationToken
+---@field private ["perksScreenIntroAnimProxy"] inkanimProxy
+---@field private ["perksScreenOutroAnimProxy"] inkanimProxy
+---@field private ["perksScreenDirection"] NewPerkTabsArrowDirection
+---@field private ["currentTooltipData"] PerkHoverEventTooltipData
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["currentCursorPos"] Vector2
+---@field private ["perkUserData"] PerkUserData
+---@field private ["vendorUserData"] VendorUserData
+---@field private ["skillsOpenData"] OpenSkillsMenuData
+---@field private ["resetConfirmationToken"] inkGameNotificationToken
+---@field private ["userData"] IScriptable
+---@field private ["isPlayerInCombat"] Bool
+---@field private ["screenDisplayContext"] ScreenDisplayContext
 NewPerksCategoriesGameController = {}
 
 ---@param fields? table
@@ -352,7 +352,7 @@ function NewPerksCategoriesGameController:PlayScreenIntro() return end
 ---@return inkanimProxy
 function NewPerksCategoriesGameController:PlayScreenOutro() return end
 
----@param soundName CName
+---@param soundName CName|string
 ---@param stopIfPlaying Bool
 ---@return nil
 function NewPerksCategoriesGameController:PlaySoundByName(soundName, stopIfPlaying) return end
@@ -400,7 +400,7 @@ function NewPerksCategoriesGameController:ShowTooltipBackground(bgWidget) return
 ---@return nil
 function NewPerksCategoriesGameController:StopPerkScreenAnims() return end
 
----@param soundName CName
+---@param soundName CName|string
 ---@return nil
 function NewPerksCategoriesGameController:StopSoundByName(soundName) return end
 

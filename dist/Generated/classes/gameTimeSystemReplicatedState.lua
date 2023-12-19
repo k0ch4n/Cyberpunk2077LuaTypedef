@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTimeSystemReplicatedState: gameIGameSystemReplicatedState
----@field public paused Bool
----@field public gameTime GameTime
+---@field public ["paused"] Bool
+---@field public ["gameTime"] GameTime
 gameTimeSystemReplicatedState = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class inkWaitingSignLayerDefinition: inkLayerDefinition
----@field public introAnimName CName
----@field public waitingAnimName CName
----@field public outroAnimName CName
----@field public delayTime Float
----@field public introTime Float
----@field public waitingTime Float
----@field public postWaitTime Float
----@field public outroTime Float
+---@field public ["introAnimName"] CName
+---@field public ["waitingAnimName"] CName
+---@field public ["outroAnimName"] CName
+---@field public ["delayTime"] Float
+---@field public ["introTime"] Float
+---@field public ["waitingTime"] Float
+---@field public ["postWaitTime"] Float
+---@field public ["outroTime"] Float
 inkWaitingSignLayerDefinition = {}
 
 ---@param fields? table

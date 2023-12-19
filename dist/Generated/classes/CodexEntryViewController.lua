@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class CodexEntryViewController: inkWidgetLogicController
----@field private titleText inkTextWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private imageWidget inkImageWidgetReference
----@field private imageWidgetFallback inkWidgetReference
----@field private imageWidgetWrapper inkWidgetReference
----@field private expansionWidget inkWidgetReference
----@field private scrollWidget inkWidgetReference
----@field private contentWrapper inkWidgetReference
----@field private noEntrySelectedWidget inkWidgetReference
----@field private data GenericCodexEntryData
----@field private scroll inkScrollController
+---@field private ["titleText"] inkTextWidgetReference
+---@field private ["descriptionText"] inkTextWidgetReference
+---@field private ["imageWidget"] inkImageWidgetReference
+---@field private ["imageWidgetFallback"] inkWidgetReference
+---@field private ["imageWidgetWrapper"] inkWidgetReference
+---@field private ["expansionWidget"] inkWidgetReference
+---@field private ["scrollWidget"] inkWidgetReference
+---@field private ["contentWrapper"] inkWidgetReference
+---@field private ["noEntrySelectedWidget"] inkWidgetReference
+---@field private ["data"] GenericCodexEntryData
+---@field private ["scroll"] inkScrollController
 CodexEntryViewController = {}
 
 ---@param fields? table

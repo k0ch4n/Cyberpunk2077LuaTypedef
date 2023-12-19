@@ -3,8 +3,8 @@
 
 ---@enum questUseWorkspotNodeFunctions
 questUseWorkspotNodeFunctions = {
-    ["UseWorkspot"] = 0,
-    ["JumpWorkspot"] = 1,
-    ["StopWorkspot"] = 2,
-    ["IdleOnlyMode"] = 3
+    ["UseWorkspot"] = 0, ---@type Enum
+    ["JumpWorkspot"] = 1, ---@type Enum
+    ["StopWorkspot"] = 2, ---@type Enum
+    ["IdleOnlyMode"] = 3, ---@type Enum
 }

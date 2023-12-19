@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimEvent: IScriptable
----@field public startTime Float
+---@field public ["startTime"] Float
 inkanimEvent = {}
 
 ---@return Float

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ObstacleCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field private hasTriggered Bool
----@field private invincibityBonusTime Float
+---@field private ["hasTriggered"] Bool
+---@field private ["invincibityBonusTime"] Float
 ObstacleCollisionLogic = {}
 
 ---@param fields? table

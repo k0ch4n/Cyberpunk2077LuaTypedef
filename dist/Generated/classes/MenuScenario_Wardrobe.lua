@@ -9,7 +9,7 @@ MenuScenario_Wardrobe = {}
 function MenuScenario_Wardrobe.new(fields) return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_Wardrobe:OnEnterScenario(prevScenario, userData) return end

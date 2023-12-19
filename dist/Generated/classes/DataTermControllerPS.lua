@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DataTermControllerPS: ScriptableDeviceComponentPS
----@field private linkedFastTravelPoint gameFastTravelPointData
----@field private triggerType EFastTravelTriggerType
----@field private fastTravelDeviceType EFastTravelDeviceType
+---@field private ["linkedFastTravelPoint"] gameFastTravelPointData
+---@field private ["triggerType"] EFastTravelTriggerType
+---@field private ["fastTravelDeviceType"] EFastTravelDeviceType
 DataTermControllerPS = {}
 
 ---@param fields? table

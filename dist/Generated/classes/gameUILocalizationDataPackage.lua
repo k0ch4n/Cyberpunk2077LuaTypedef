@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gameUILocalizationDataPackage: IScriptable
----@field public floatValues Float[]
----@field public intValues Int32[]
----@field public nameValues CName[]
----@field public statValues Float[]
----@field public statNames CName[]
----@field public paramsCount Int32
----@field public textParams textTextParameterSet
----@field private notReplacedWorkaroundEnabled Bool
+---@field public ["floatValues"] Float[]
+---@field public ["intValues"] Int32[]
+---@field public ["nameValues"] CName[]
+---@field public ["statValues"] Float[]
+---@field public ["statNames"] CName[]
+---@field public ["paramsCount"] Int32
+---@field public ["textParams"] textTextParameterSet
+---@field private ["notReplacedWorkaroundEnabled"] Bool
 gameUILocalizationDataPackage = {}
 
 ---@param fields? table

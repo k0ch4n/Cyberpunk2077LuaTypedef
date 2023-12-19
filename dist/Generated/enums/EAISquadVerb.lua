@@ -3,16 +3,16 @@
 
 ---@enum EAISquadVerb
 EAISquadVerb = {
-    ["Invalid"] = 0,
-    ["JoinSquad"] = 1,
-    ["LeaveSquad"] = 2,
-    ["OpenSquadAction"] = 3,
-    ["RevokeSquadAction"] = 4,
-    ["RevokeOrder"] = 5,
-    ["CommitToSquadAction"] = 6,
-    ["ReportDoneOnSquadAction"] = 7,
-    ["ReportFailureOnSquadAction"] = 8,
-    ["EvaluateTicketActivation"] = 9,
-    ["EvaluateTicketDeactivation"] = 10,
-    ["AcknowledgeOrder"] = 11
+    ["Invalid"] = 0, ---@type Enum
+    ["JoinSquad"] = 1, ---@type Enum
+    ["LeaveSquad"] = 2, ---@type Enum
+    ["OpenSquadAction"] = 3, ---@type Enum
+    ["RevokeSquadAction"] = 4, ---@type Enum
+    ["RevokeOrder"] = 5, ---@type Enum
+    ["CommitToSquadAction"] = 6, ---@type Enum
+    ["ReportDoneOnSquadAction"] = 7, ---@type Enum
+    ["ReportFailureOnSquadAction"] = 8, ---@type Enum
+    ["EvaluateTicketActivation"] = 9, ---@type Enum
+    ["EvaluateTicketDeactivation"] = 10, ---@type Enum
+    ["AcknowledgeOrder"] = 11, ---@type Enum
 }

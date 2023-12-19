@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameWeakspotComponentReplicatedState: netIComponentState
----@field public WeakspotRepInfos gameWeakSpotReplicatedInfo[]
+---@field public ["WeakspotRepInfos"] gameWeakSpotReplicatedInfo[]
 gameWeakspotComponentReplicatedState = {}
 
 ---@param fields? table

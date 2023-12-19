@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformTeleportTo: redEvent
----@field public destinationNode NodeRef
+---@field public ["destinationNode"] NodeRef
 gameMovingPlatformTeleportTo = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExampleNavigationTask: AIbehaviortaskScript
----@field private queryId Uint32
----@field private queryStarted Bool
+---@field private ["queryId"] Uint32
+---@field private ["queryStarted"] Bool
 ExampleNavigationTask = {}
 
 ---@param fields? table

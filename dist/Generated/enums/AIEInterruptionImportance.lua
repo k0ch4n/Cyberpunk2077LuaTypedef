@@ -3,9 +3,9 @@
 
 ---@enum AIEInterruptionImportance
 AIEInterruptionImportance = {
-    ["Undefined"] = 0,
-    ["Casual"] = 1,
-    ["Rush"] = 2,
-    ["Immediate"] = 3,
-    ["ForcedImmediate"] = 4
+    ["Undefined"] = 0, ---@type Enum
+    ["Casual"] = 1, ---@type Enum
+    ["Rush"] = 2, ---@type Enum
+    ["Immediate"] = 3, ---@type Enum
+    ["ForcedImmediate"] = 4, ---@type Enum
 }

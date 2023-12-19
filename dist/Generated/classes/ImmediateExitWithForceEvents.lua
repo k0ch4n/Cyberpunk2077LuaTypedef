@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ImmediateExitWithForceEvents: ExitingEventsBase
----@field public exitForce gamestateMachineResultVector
----@field public bikeForce gamestateMachineResultVector
----@field public knockOverBike KnockOverBikeEvent
+---@field public ["exitForce"] gamestateMachineResultVector
+---@field public ["bikeForce"] gamestateMachineResultVector
+---@field public ["knockOverBike"] KnockOverBikeEvent
 ImmediateExitWithForceEvents = {}
 
 ---@param fields? table

@@ -3,5 +3,5 @@
 
 ---@enum gameinteractionsELootVisualiserControlOperation
 gameinteractionsELootVisualiserControlOperation = {
-    ["Locked"] = 1
+    ["Locked"] = 1, ---@type Enum
 }

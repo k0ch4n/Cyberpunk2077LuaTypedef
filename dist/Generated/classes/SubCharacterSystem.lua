@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SubCharacterSystem: gameScriptableSystem
----@field private uniqueSubCharacters SSubCharacter[]
----@field private scriptSpawnedFlathead Bool
----@field private isDespawningFlathead Bool
+---@field private ["uniqueSubCharacters"] SSubCharacter[]
+---@field private ["scriptSpawnedFlathead"] Bool
+---@field private ["isDespawningFlathead"] Bool
 SubCharacterSystem = {}
 
 ---@param fields? table

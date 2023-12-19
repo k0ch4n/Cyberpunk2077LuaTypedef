@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ScannerSkillCheckLogicController: inkWidgetLogicController
----@field private ScannerSkillCheckItemName CName
----@field private SkillCheckObjects inkWidget[]
----@field public Root inkCompoundWidget
+---@field private ["ScannerSkillCheckItemName"] CName
+---@field private ["SkillCheckObjects"] inkWidget[]
+---@field public ["Root"] inkCompoundWidget
 ScannerSkillCheckLogicController = {}
 
 ---@param fields? table

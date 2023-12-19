@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsMessageLocation_Point: toolsIMessageLocation
----@field public resourcePath MessageResourcePath
----@field public point Vector3
+---@field public ["resourcePath"] MessageResourcePath
+---@field public ["point"] Vector3
 toolsMessageLocation_Point = {}
 
 ---@param fields? table

@@ -16,11 +16,11 @@ function gamestateMachineGameScriptInterface.new(fields) return end
 function gamestateMachineGameScriptInterface.CreateWaterImpulse(position, radius, strength, numFrames) return end
 
 ---@param item gameItemObject
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gamestateMachineGameScriptInterface.PushAnimationEventToItem(item, eventName) return end
 
----@param settingId CName
+---@param settingId CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:ActivateCameraSetting(settingId) return end
 
@@ -43,19 +43,19 @@ function gamestateMachineGameScriptInterface:GetAINavigationSystem() return end
 ---@return gameAchievementSystem
 function gamestateMachineGameScriptInterface:GetAchievementSystem() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Uint32
 function gamestateMachineGameScriptInterface:GetActionPressCount(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Float
 function gamestateMachineGameScriptInterface:GetActionPrevStateTime(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Float
 function gamestateMachineGameScriptInterface:GetActionStateTime(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Float
 function gamestateMachineGameScriptInterface:GetActionValue(actionName) return end
 
@@ -264,7 +264,7 @@ function gamestateMachineGameScriptInterface:GetRestrictMovementAreaManager() re
 
 ---@param slot gamemountingMountingSlotId
 ---@param parent gameObject
----@param occupantSlotComponentName? CName
+---@param occupantSlotComponentName? CName|string
 ---@return gameMountingSlotRole
 function gamestateMachineGameScriptInterface:GetRoleForSlot(slot, parent, occupantSlotComponentName) return end
 
@@ -274,7 +274,7 @@ function gamestateMachineGameScriptInterface:GetSafeAreaManager() return end
 ---@return scnISceneSystem
 function gamestateMachineGameScriptInterface:GetSceneSystem() return end
 
----@param name CName
+---@param name CName|string
 ---@return gameScriptableSystem
 function gamestateMachineGameScriptInterface:GetScriptableSystem(name) return end
 
@@ -359,27 +359,27 @@ function gamestateMachineGameScriptInterface:HasStatFlag(flag) return end
 ---@return Bool
 function gamestateMachineGameScriptInterface:HasStatFlagOwner(flag, owner) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsActionHeld(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsActionJustHeld(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsActionJustPressed(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsActionJustReleased(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsActionJustTapped(actionName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsAxisChangeAction(actionName) return end
 
@@ -416,7 +416,7 @@ function gamestateMachineGameScriptInterface:IsPassengerInVehicle(child, parent)
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsPlayerInBraindance() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:IsRelativeChangeAction(actionName) return end
 
@@ -441,9 +441,9 @@ function gamestateMachineGameScriptInterface:LocomotionOverlapTest(primitiveDime
 function gamestateMachineGameScriptInterface:LocomotionOverlapTestExcludeEntity(primitiveDimension, position, rotation, excludedEntity) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end) return end
+function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end_) return end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
@@ -461,87 +461,87 @@ function gamestateMachineGameScriptInterface:MeetsPrerequisites(prereqName) retu
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
----@param queryPreset CName
+---@param queryPreset CName|string
 ---@return Bool, physicsTraceResult result
 function gamestateMachineGameScriptInterface:Overlap(primitiveDimension, position, rotation, queryPreset) return end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
----@param queryPreset CName
+---@param queryPreset CName|string
 ---@return physicsTraceResult[]
 function gamestateMachineGameScriptInterface:OverlapMultipleHits(primitiveDimension, position, rotation, queryPreset) return end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
----@param queryGroup CName
+---@param queryGroup CName|string
 ---@return Bool, physicsTraceResult result
 function gamestateMachineGameScriptInterface:OverlapWithASingleGroup(primitiveDimension, position, rotation, queryGroup) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:PushAnimationEvent(eventName) return end
 
 ---@param start Vector4
----@param end Vector4
----@param queryPreset CName
+---@param end_ Vector4
+---@param queryPreset CName|string
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:Raycast(start, end, queryPreset) return end
+function gamestateMachineGameScriptInterface:Raycast(start, end_, queryPreset) return end
 
 ---@param start Vector4
----@param end Vector4
----@param queryPreset CName
+---@param end_ Vector4
+---@param queryPreset CName|string
 ---@return physicsTraceResult[]
-function gamestateMachineGameScriptInterface:RaycastMultipleHits(start, end, queryPreset) return end
+function gamestateMachineGameScriptInterface:RaycastMultipleHits(start, end_, queryPreset) return end
 
 ---@param start Vector4
----@param end Vector4
----@param queryGroup CName
+---@param end_ Vector4
+---@param queryGroup CName|string
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:RaycastWithASingleGroup(start, end, queryGroup) return end
+function gamestateMachineGameScriptInterface:RaycastWithASingleGroup(start, end_, queryGroup) return end
 
 ---@param slotName TweakDBID
 ---@param itemId gameItemID
 ---@return nil
 function gamestateMachineGameScriptInterface:RequestWeaponEquipOnServer(slotName, itemId) return end
 
----@param key CName
+---@param key CName|string
 ---@param value Bool
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterBool(key, value) return end
 
----@param key CName
+---@param key CName|string
 ---@param value animAnimFeature
 ---@param owner? gameObject
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterFeature(key, value, owner) return end
 
----@param key CName
+---@param key CName|string
 ---@param value Float
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterFloat(key, value) return end
 
----@param key CName
+---@param key CName|string
 ---@param value Int32
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterInt(key, value) return end
 
----@param key CName
+---@param key CName|string
 ---@param value Quaternion
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterQuaternion(key, value) return end
 
----@param key CName
+---@param key CName|string
 ---@param value Vector4
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetAnimationParameterVector(key, value) return end
 
----@param curveName CName
+---@param curveName CName|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetCameraTimeDilationCurve(curveName) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param visibility Bool
 ---@return Bool
 function gamestateMachineGameScriptInterface:SetComponentVisibility(actionName, visibility) return end
@@ -556,7 +556,7 @@ function gamestateMachineGameScriptInterface:SetStateVectorParameter(stateVector
 ---@param rotation EulerAngles
 ---@param direction Vector4
 ---@param distance Float
----@param queryPreset CName
+---@param queryPreset CName|string
 ---@param assumeInitialPositionClear? Bool
 ---@return Bool, physicsTraceResult result
 function gamestateMachineGameScriptInterface:Sweep(primitiveDimension, position, rotation, direction, distance, queryPreset, assumeInitialPositionClear) return end
@@ -566,7 +566,7 @@ function gamestateMachineGameScriptInterface:Sweep(primitiveDimension, position,
 ---@param rotation EulerAngles
 ---@param direction Vector4
 ---@param distance Float
----@param queryPreset CName
+---@param queryPreset CName|string
 ---@return physicsTraceResult[]
 function gamestateMachineGameScriptInterface:SweepMultipleHits(primitiveDimension, position, rotation, direction, distance, queryPreset) return end
 
@@ -575,7 +575,7 @@ function gamestateMachineGameScriptInterface:SweepMultipleHits(primitiveDimensio
 ---@param rotation EulerAngles
 ---@param direction Vector4
 ---@param distance Float
----@param queryGroup CName
+---@param queryGroup CName|string
 ---@param assumeInitialPositionClear? Bool
 ---@return Bool, physicsTraceResult result
 function gamestateMachineGameScriptInterface:SweepWithASingleGroup(primitiveDimension, position, rotation, direction, distance, queryGroup, assumeInitialPositionClear) return end

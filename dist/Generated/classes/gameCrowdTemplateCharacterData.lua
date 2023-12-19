@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCrowdTemplateCharacterData
----@field public characterRecordId TweakDBID
----@field public weight Float
+---@field public ["characterRecordId"] TweakDBID
+---@field public ["weight"] Float
 gameCrowdTemplateCharacterData = {}
 
 ---@param fields? table

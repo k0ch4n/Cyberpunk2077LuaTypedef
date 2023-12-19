@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioEditorSelectedData: audioAudioMetadata
----@field public selectedWeaponConfigurationName CName
----@field public selectedFootstepsEventName CName
+---@field public ["selectedWeaponConfigurationName"] CName
+---@field public ["selectedFootstepsEventName"] CName
 audioEditorSelectedData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class KillMarkerGameController: gameuiWidgetGameController
----@field private targetNeutralized redCallbackObject
----@field private blackboard gameIBlackboard
----@field private animProxy inkanimProxy
+---@field private ["targetNeutralized"] redCallbackObject
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["animProxy"] inkanimProxy
 KillMarkerGameController = {}
 
 ---@param fields? table

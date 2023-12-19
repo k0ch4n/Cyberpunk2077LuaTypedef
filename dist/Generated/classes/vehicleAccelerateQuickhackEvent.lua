@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleAccelerateQuickhackEvent: gameActionEvent
----@field public active Bool
+---@field public ["active"] Bool
 vehicleAccelerateQuickhackEvent = {}
 
 ---@param fields? table

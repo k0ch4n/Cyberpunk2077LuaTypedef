@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scneventsCameraOverrideSettings
----@field public overrideFov Bool
----@field public overrideDof Bool
----@field public resetFov Bool
----@field public resetDof Bool
+---@field public ["overrideFov"] Bool
+---@field public ["overrideDof"] Bool
+---@field public ["resetFov"] Bool
+---@field public ["resetDof"] Bool
 scneventsCameraOverrideSettings = {}
 
 ---@param fields? table

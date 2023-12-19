@@ -3,10 +3,10 @@
 
 ---@enum physicsPhysicsJointAxis
 physicsPhysicsJointAxis = {
-    ["AxisX"] = 0,
-    ["AxisY"] = 1,
-    ["AxisZ"] = 2,
-    ["Twist"] = 3,
-    ["Swing1"] = 4,
-    ["Swing2"] = 5
+    ["AxisX"] = 0, ---@type Enum
+    ["AxisY"] = 1, ---@type Enum
+    ["AxisZ"] = 2, ---@type Enum
+    ["Twist"] = 3, ---@type Enum
+    ["Swing1"] = 4, ---@type Enum
+    ["Swing2"] = 5, ---@type Enum
 }

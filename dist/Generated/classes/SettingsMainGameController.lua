@@ -2,50 +2,50 @@
 ---@diagnostic disable
 
 ---@class SettingsMainGameController: gameuiSettingsMenuGameController
----@field private scrollPanel inkWidgetReference
----@field private selectorWidget inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private settingsOptionsList inkCompoundWidgetReference
----@field private applyButton inkWidgetReference
----@field private resetButton inkWidgetReference
----@field private defaultButton inkWidgetReference
----@field private benchmarkButton inkWidgetReference
----@field private brightnessButton inkWidgetReference
----@field private hdrButton inkWidgetReference
----@field private controllerButton inkWidgetReference
----@field private safezonesButton inkWidgetReference
----@field private languageInstallProgressBarRoot inkWidgetReference
----@field private languageDisclaimer inkWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private settingGroupName_Video CName
----@field private settingGroupName_Graphics CName
----@field private settingGroupName_Interface CName
----@field private settingGroupName_Controls CName
----@field private settingGroupName_Language CName
----@field private settingGroupName_KeyBindings CName
----@field private languageInstallProgressBar SettingsLanguageInstallProgressBar
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private settingsElements inkSettingsSelectorController[]
----@field private buttonHintsController ButtonHints
----@field private data SettingsCategory[]
----@field private menusList CName[]
----@field private settingsListener SettingsVarListener
----@field private settingsNotificationListener SettingsNotificationListener
----@field private settings userSettingsUserSettings
----@field private isPreGame Bool
----@field private benchmarkNotificationToken inkGameNotificationToken
----@field private safezonesEditorToken inkGameNotificationToken
----@field private applyButtonEnabled Bool
----@field private resetButtonEnabled Bool
----@field private closeSettingsRequest Bool
----@field private resetSettingsRequest Bool
----@field private isDlcSettings Bool
----@field private isBenchmarkSettings Bool
----@field private showHdrButton Bool
----@field private showBrightnessButton Bool
----@field private useRightAligned Bool
----@field private currentHDRindex Int32
----@field private selectorCtrl inkListController
+---@field private ["scrollPanel"] inkWidgetReference
+---@field private ["selectorWidget"] inkWidgetReference
+---@field private ["buttonHintsManagerRef"] inkWidgetReference
+---@field private ["settingsOptionsList"] inkCompoundWidgetReference
+---@field private ["applyButton"] inkWidgetReference
+---@field private ["resetButton"] inkWidgetReference
+---@field private ["defaultButton"] inkWidgetReference
+---@field private ["benchmarkButton"] inkWidgetReference
+---@field private ["brightnessButton"] inkWidgetReference
+---@field private ["hdrButton"] inkWidgetReference
+---@field private ["controllerButton"] inkWidgetReference
+---@field private ["safezonesButton"] inkWidgetReference
+---@field private ["languageInstallProgressBarRoot"] inkWidgetReference
+---@field private ["languageDisclaimer"] inkWidgetReference
+---@field private ["descriptionText"] inkTextWidgetReference
+---@field private ["settingGroupName_Video"] CName
+---@field private ["settingGroupName_Graphics"] CName
+---@field private ["settingGroupName_Interface"] CName
+---@field private ["settingGroupName_Controls"] CName
+---@field private ["settingGroupName_Language"] CName
+---@field private ["settingGroupName_KeyBindings"] CName
+---@field private ["languageInstallProgressBar"] SettingsLanguageInstallProgressBar
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["settingsElements"] inkSettingsSelectorController[]
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["data"] SettingsCategory[]
+---@field private ["menusList"] CName[]
+---@field private ["settingsListener"] SettingsVarListener
+---@field private ["settingsNotificationListener"] SettingsNotificationListener
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["isPreGame"] Bool
+---@field private ["benchmarkNotificationToken"] inkGameNotificationToken
+---@field private ["safezonesEditorToken"] inkGameNotificationToken
+---@field private ["applyButtonEnabled"] Bool
+---@field private ["resetButtonEnabled"] Bool
+---@field private ["closeSettingsRequest"] Bool
+---@field private ["resetSettingsRequest"] Bool
+---@field private ["isDlcSettings"] Bool
+---@field private ["isBenchmarkSettings"] Bool
+---@field private ["showHdrButton"] Bool
+---@field private ["showBrightnessButton"] Bool
+---@field private ["useRightAligned"] Bool
+---@field private ["currentHDRindex"] Int32
+---@field private ["selectorCtrl"] inkListController
 SettingsMainGameController = {}
 
 ---@param fields? table
@@ -208,8 +208,8 @@ function SettingsMainGameController:OnResetButton() return end
 ---@return nil
 function SettingsMainGameController:OnSettingsNotify(status) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAddRemoveItem_NodeType: questIItemManagerNodeType
----@field public params questAddRemoveItem_NodeTypeParams[]
+---@field public ["params"] questAddRemoveItem_NodeTypeParams[]
 questAddRemoveItem_NodeType = {}
 
 ---@param fields? table

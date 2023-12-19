@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_WeaponStats: animAnimFeature
----@field public magazineCapacity Int32
----@field public cycleTime Float
+---@field public ["magazineCapacity"] Int32
+---@field public ["cycleTime"] Float
 AnimFeature_WeaponStats = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_MaskReset: animAnimNode_OnePoseInput
----@field public weightNode animFloatLink
----@field public transforms animTransformIndex[]
+---@field public ["weightNode"] animFloatLink
+---@field public ["transforms"] animTransformIndex[]
 animAnimNode_MaskReset = {}
 
 ---@param fields? table

@@ -3,5 +3,5 @@
 
 ---@enum gameEEquipmentManagerState
 gameEEquipmentManagerState = {
-    ["InfiniteAmmo"] = 1
+    ["InfiniteAmmo"] = 1, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CutCone
----@field public positionAndRadius1 Vector4
----@field public normalAndRadius2 Vector4
----@field public height Float
+---@field public ["positionAndRadius1"] Vector4
+---@field public ["normalAndRadius2"] Vector4
+---@field public ["height"] Float
 CutCone = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetInspectStateEvent: redEvent
----@field public state questObjectInspectEventType
+---@field public ["state"] questObjectInspectEventType
 SetInspectStateEvent = {}
 
 ---@param fields? table

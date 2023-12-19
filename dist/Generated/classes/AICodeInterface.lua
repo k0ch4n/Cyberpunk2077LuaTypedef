@@ -6,7 +6,7 @@ AICodeInterface = {}
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param puppet gamePuppet
----@param equipmentGroup CName
+---@param equipmentGroup CName|string
 ---@return AIbehaviorConditionOutcomes
 function AICodeInterface.CheckSlotsForEquipment(context, puppet, equipmentGroup) return end
 

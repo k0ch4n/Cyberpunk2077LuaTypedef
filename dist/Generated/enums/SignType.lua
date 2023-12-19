@@ -3,7 +3,7 @@
 
 ---@enum SignType
 SignType = {
-    ["INFORMATION"] = 0,
-    ["ATTENTION"] = 1,
-    ["WARNING"] = 2
+    ["INFORMATION"] = 0, ---@type Enum
+    ["ATTENTION"] = 1, ---@type Enum
+    ["WARNING"] = 2, ---@type Enum
 }

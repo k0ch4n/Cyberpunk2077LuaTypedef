@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsInteractionActivationEvent: gameinteractionsInteractionBaseEvent
----@field public eventType gameinteractionsEInteractionEventType
+---@field public ["eventType"] gameinteractionsEInteractionEventType
 gameinteractionsInteractionActivationEvent = {}
 
 ---@param fields? table

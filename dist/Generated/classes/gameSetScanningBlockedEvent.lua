@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetScanningBlockedEvent: redEvent
----@field public isBlocked Bool
+---@field public ["isBlocked"] Bool
 gameSetScanningBlockedEvent = {}
 
 ---@param fields? table

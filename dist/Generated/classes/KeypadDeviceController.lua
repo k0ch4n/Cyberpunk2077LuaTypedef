@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class KeypadDeviceController: DeviceWidgetControllerBase
----@field private hasButtonAuthorization Bool
----@field private enteredPasswordWidget inkTextWidget
----@field private passwordStatusWidget inkTextWidget
----@field private actionButton inkWidget
----@field private ActionText inkTextWidget
----@field private passwordsList CName[]
----@field private cardName String
----@field private isPasswordKnown Bool
----@field private maxDigitsCount Int32
----@field private row1 inkHorizontalPanelWidget
----@field private row2 inkHorizontalPanelWidget
----@field private row3 inkHorizontalPanelWidget
----@field private row4 inkHorizontalPanelWidget
----@field private arePasswordsInitialized Bool
----@field private blackboard gameIBlackboard
+---@field private ["hasButtonAuthorization"] Bool
+---@field private ["enteredPasswordWidget"] inkTextWidget
+---@field private ["passwordStatusWidget"] inkTextWidget
+---@field private ["actionButton"] inkWidget
+---@field private ["ActionText"] inkTextWidget
+---@field private ["passwordsList"] CName[]
+---@field private ["cardName"] String
+---@field private ["isPasswordKnown"] Bool
+---@field private ["maxDigitsCount"] Int32
+---@field private ["row1"] inkHorizontalPanelWidget
+---@field private ["row2"] inkHorizontalPanelWidget
+---@field private ["row3"] inkHorizontalPanelWidget
+---@field private ["row4"] inkHorizontalPanelWidget
+---@field private ["arePasswordsInitialized"] Bool
+---@field private ["blackboard"] gameIBlackboard
 KeypadDeviceController = {}
 
 ---@param fields? table
@@ -101,12 +101,12 @@ function KeypadDeviceController:HandleButtonClicked(button) return end
 function KeypadDeviceController:Initialize(gameController, widgetData) return end
 
 ---@private
----@param buttonName CName
+---@param buttonName CName|string
 ---@return Bool
 function KeypadDeviceController:IsDigit(buttonName) return end
 
 ---@private
----@param soundEventName CName
+---@param soundEventName CName|string
 ---@return nil
 function KeypadDeviceController:PlayTerminalSound(soundEventName) return end
 
@@ -128,7 +128,7 @@ function KeypadDeviceController:SetWidgetsAllowed() return end
 function KeypadDeviceController:SetWidgetsLocked() return end
 
 ---@private
----@param stateName CName
+---@param stateName CName|string
 ---@return nil
 function KeypadDeviceController:SetWidgetsState(stateName) return end
 

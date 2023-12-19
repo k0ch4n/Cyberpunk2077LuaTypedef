@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerCrosshairLogicController: inkWidgetLogicController
----@field private rootWidget inkWidget
----@field private projection inkScreenProjection
+---@field private ["rootWidget"] inkWidget
+---@field private ["projection"] inkScreenProjection
 ScannerCrosshairLogicController = {}
 
 ---@param fields? table

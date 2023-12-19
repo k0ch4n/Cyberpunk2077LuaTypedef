@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectRootEntry
----@field public relativePosition Vector3
----@field public relativeRotation Quaternion
+---@field public ["relativePosition"] Vector3
+---@field public ["relativeRotation"] Quaternion
 effectRootEntry = {}
 
 ---@param fields? table

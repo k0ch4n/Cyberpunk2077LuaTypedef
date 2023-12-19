@@ -16,25 +16,25 @@ function gameDebugVisualizerSystem:ClearAll() return end
 function gameDebugVisualizerSystem:ClearLayer(layerId) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@param color? Color
 ---@param lifetime? Float
 ---@return Uint32
-function gameDebugVisualizerSystem:DrawArrow(start, end, color, lifetime) return end
+function gameDebugVisualizerSystem:DrawArrow(start, end_, color, lifetime) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@param color? Color
 ---@param lifetime? Float
 ---@return Uint32
-function gameDebugVisualizerSystem:DrawLine(start, end, color, lifetime) return end
+function gameDebugVisualizerSystem:DrawLine(start, end_, color, lifetime) return end
 
 ---@param start Vector4
----@param end Vector4
+---@param end_ Vector4
 ---@param color? Color
 ---@param lifetime? Float
 ---@return Uint32
-function gameDebugVisualizerSystem:DrawLine3D(start, end, color, lifetime) return end
+function gameDebugVisualizerSystem:DrawLine3D(start, end_, color, lifetime) return end
 
 ---@param position Vector4
 ---@param size Vector4

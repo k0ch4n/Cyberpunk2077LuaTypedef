@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class inkISystemRequestsHandler: IScriptable
----@field public SavesForSaveReady inkSystemRequesResult
----@field public SavesForLoadReady inkSystemRequesResult
----@field public SaveMetadataReady inkSaveMetadataRequestResult
----@field public GogLoginStatusChanged inkOnGogLoginStatusChangedResult
----@field public SaveDeleted inkDeleteRequestResult
----@field public SaveTransferUpdate inkSaveTransferRequestUpdate
----@field public ServersSearchResult inkSystemServerRequesResult
----@field public AdditionalContentPurchaseResult inkAdditionalContentPurchaseCallback
----@field public AdditionalContentInstallationRequestResult inkAdditionalContentInstallRequestedCallback
----@field public AdditionalContentInstallationResult inkAdditionalContentInstalledCallback
----@field public AdditionalContentStatusUpdateResult inkAdditionalContentStatusUpdateCallback
----@field public AdditionalContentDataReloadProgressCallback inkAdditionalContentDataReloadProgress
----@field public ToggleBreachingCallback inkToggleBreachingCallback
----@field public UserChanged inkUserIdResult
----@field public UserIdResult inkUserIdResult
----@field public TrialVersionRemainingTimeUpdated inkTrialVersionRemainingTimeUpdate
----@field public BoughtFullGame inkTrialOnBuyFullGame
----@field public CloudSavesQueryStatusChanged inkCloudSavesQueryStatusChange
----@field public CloudSaveUploadFinish inkCloudSaveUploadFinish
+---@field public ["SavesForSaveReady"] inkSystemRequesResult
+---@field public ["SavesForLoadReady"] inkSystemRequesResult
+---@field public ["SaveMetadataReady"] inkSaveMetadataRequestResult
+---@field public ["GogLoginStatusChanged"] inkOnGogLoginStatusChangedResult
+---@field public ["SaveDeleted"] inkDeleteRequestResult
+---@field public ["SaveTransferUpdate"] inkSaveTransferRequestUpdate
+---@field public ["ServersSearchResult"] inkSystemServerRequesResult
+---@field public ["AdditionalContentPurchaseResult"] inkAdditionalContentPurchaseCallback
+---@field public ["AdditionalContentInstallationRequestResult"] inkAdditionalContentInstallRequestedCallback
+---@field public ["AdditionalContentInstallationResult"] inkAdditionalContentInstalledCallback
+---@field public ["AdditionalContentStatusUpdateResult"] inkAdditionalContentStatusUpdateCallback
+---@field public ["AdditionalContentDataReloadProgressCallback"] inkAdditionalContentDataReloadProgress
+---@field public ["ToggleBreachingCallback"] inkToggleBreachingCallback
+---@field public ["UserChanged"] inkUserIdResult
+---@field public ["UserIdResult"] inkUserIdResult
+---@field public ["TrialVersionRemainingTimeUpdated"] inkTrialVersionRemainingTimeUpdate
+---@field public ["BoughtFullGame"] inkTrialOnBuyFullGame
+---@field public ["CloudSavesQueryStatusChanged"] inkCloudSavesQueryStatusChange
+---@field public ["CloudSaveUploadFinish"] inkCloudSaveUploadFinish
 inkISystemRequestsHandler = {}
 
 ---@return nil
@@ -44,7 +44,7 @@ function inkISystemRequestsHandler:ExitGame() return end
 ---@return nil
 function inkISystemRequestsHandler:ExportSavedGame(saveId) return end
 
----@param id CName
+---@param id CName|string
 ---@return Uint32
 function inkISystemRequestsHandler:GetAdditionalContentValidationResult(id) return end
 
@@ -104,19 +104,19 @@ function inkISystemRequestsHandler:HasLastCheckpoint() return end
 ---@return nil
 function inkISystemRequestsHandler:ImportSavedGame() return end
 
----@param id CName
+---@param id CName|string
 ---@return Bool
 function inkISystemRequestsHandler:IsAdditionalContentEnabled(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return Bool
 function inkISystemRequestsHandler:IsAdditionalContentInstalled(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return Bool
 function inkISystemRequestsHandler:IsAdditionalContentOwned(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return Bool
 function inkISystemRequestsHandler:IsAdditionalContentReleased(id) return end
 
@@ -147,19 +147,19 @@ function inkISystemRequestsHandler:LoadLastCheckpoint(onlySamePlaythrough) retur
 ---@return nil
 function inkISystemRequestsHandler:LoadSavedGame(saveId) return end
 
----@param id CName
+---@param id CName|string
 ---@return nil
 function inkISystemRequestsHandler:LogPreorderBannerClick(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return nil
 function inkISystemRequestsHandler:LogPreorderBannerImpression(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return nil
 function inkISystemRequestsHandler:LogPreorderClick(id) return end
 
----@param id CName
+---@param id CName|string
 ---@return nil
 function inkISystemRequestsHandler:LogPreorderPopupImpression(id) return end
 
@@ -181,17 +181,17 @@ function inkISystemRequestsHandler:PlayRecord(filename) return end
 ---@return nil
 function inkISystemRequestsHandler:QuickSave() return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkISystemRequestsHandler:RegisterToCallback(eventName, object, functionName) return end
 
----@param title CName
+---@param title CName|string
 ---@return nil
 function inkISystemRequestsHandler:RequestAdditionalContentInstall(title) return end
 
----@param id CName
+---@param id CName|string
 ---@return Bool
 function inkISystemRequestsHandler:RequestAdditionalContentPurchase(id) return end
 
@@ -213,7 +213,7 @@ function inkISystemRequestsHandler:RequestSaveUserSettings() return end
 ---@param saveId Int32
 ---@param imageWidget inkImageWidget
 ---@param callbackListener? IScriptable
----@param functionName? CName
+---@param functionName? CName|string
 ---@return nil
 function inkISystemRequestsHandler:RequestSavedGameScreenshot(saveId, imageWidget, callbackListener, functionName) return end
 
@@ -226,8 +226,8 @@ function inkISystemRequestsHandler:RequestSavesForLoad() return end
 ---@return nil
 function inkISystemRequestsHandler:RequestSavesForSave() return end
 
----@param title CName
----@param message CName
+---@param title CName|string
+---@param message CName|string
 ---@return nil
 function inkISystemRequestsHandler:RequestSystemNotificationGeneric(title, message) return end
 
@@ -259,9 +259,9 @@ function inkISystemRequestsHandler:StartWorld(worldId, genderId) return end
 ---@return nil
 function inkISystemRequestsHandler:UnpauseGame() return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkISystemRequestsHandler:UnregisterFromCallback(eventName, object, functionName) return end
 

@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapPreventionVehicleMappinController: gameuiBaseMinimapMappinController
----@field protected pulseWidget inkWidgetReference
----@field protected visionWidget inkWidgetReference
----@field private outerIcon inkImageWidgetReference
----@field private maxTackIcon inkImageWidgetReference
----@field private fadeInAnimName CName
----@field private fadeOutAnimName CName
----@field private fadeAnimProxy inkanimProxy
----@field private UIWantedBarBB gameIBlackboard
----@field private UIWantedBarDef UI_WantedBarDef
----@field private currentWantedStateCallback redCallbackObject
----@field private playerEscapingPursuit Bool
----@field private playerWanted Bool
----@field private mappinState CName
----@field private keepIconOnClamping Bool
----@field private maxVisibilityDistance Float
----@field private currentChaseState CName
----@field private detectionDropThreshold Float
----@field private wasMaxDetectionReached Bool
----@field private vehicle vehicleBaseObject
----@field private isMaxTacAV Bool
+---@field protected ["pulseWidget"] inkWidgetReference
+---@field protected ["visionWidget"] inkWidgetReference
+---@field private ["outerIcon"] inkImageWidgetReference
+---@field private ["maxTackIcon"] inkImageWidgetReference
+---@field private ["fadeInAnimName"] CName
+---@field private ["fadeOutAnimName"] CName
+---@field private ["fadeAnimProxy"] inkanimProxy
+---@field private ["UIWantedBarBB"] gameIBlackboard
+---@field private ["UIWantedBarDef"] UI_WantedBarDef
+---@field private ["currentWantedStateCallback"] redCallbackObject
+---@field private ["playerEscapingPursuit"] Bool
+---@field private ["playerWanted"] Bool
+---@field private ["mappinState"] CName
+---@field private ["keepIconOnClamping"] Bool
+---@field private ["maxVisibilityDistance"] Float
+---@field private ["currentChaseState"] CName
+---@field private ["detectionDropThreshold"] Float
+---@field private ["wasMaxDetectionReached"] Bool
+---@field private ["vehicle"] vehicleBaseObject
+---@field private ["isMaxTacAV"] Bool
 gameuiMinimapPreventionVehicleMappinController = {}
 
 ---@param fields? table
@@ -29,7 +29,7 @@ gameuiMinimapPreventionVehicleMappinController = {}
 function gameuiMinimapPreventionVehicleMappinController.new(fields) return end
 
 ---@protected
----@param value CName
+---@param value CName|string
 ---@return Bool
 function gameuiMinimapPreventionVehicleMappinController:OnCurrentWantedStateChanged(value) return end
 
@@ -58,12 +58,12 @@ function gameuiMinimapPreventionVehicleMappinController:OnUninitialize() return 
 function gameuiMinimapPreventionVehicleMappinController:Update() return end
 
 ---@private
----@param value CName
+---@param value CName|string
 ---@return nil
 function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerEscapingPursuit(value) return end
 
 ---@private
----@param value CName
+---@param value CName|string
 ---@return nil
 function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerWanted(value) return end
 

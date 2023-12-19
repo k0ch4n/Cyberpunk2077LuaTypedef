@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PlayerDeathAnimation: animAnimFeature
----@field public animation Int32
+---@field public ["animation"] Int32
 AnimFeature_PlayerDeathAnimation = {}
 
 ---@param fields? table

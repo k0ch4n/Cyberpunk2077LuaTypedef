@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class GamepadHoldIndicatorGameController: gameuiHoldIndicatorGameController
----@field private image inkImageWidgetReference
----@field private partName String
----@field private progress Int32
----@field private animProxy inkanimProxy
+---@field private ["image"] inkImageWidgetReference
+---@field private ["partName"] String
+---@field private ["progress"] Int32
+---@field private ["animProxy"] inkanimProxy
 GamepadHoldIndicatorGameController = {}
 
 ---@param fields? table

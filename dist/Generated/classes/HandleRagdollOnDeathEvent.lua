@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HandleRagdollOnDeathEvent: redEvent
----@field public handleUncontrolledMovement Bool
+---@field public ["handleUncontrolledMovement"] Bool
 HandleRagdollOnDeathEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animPoseInfoLoggerEntry_Transform: animPoseInfoLoggerEntry
----@field public transform animTransformIndex
----@field public logInModelSpace Bool
+---@field public ["transform"] animTransformIndex
+---@field public ["logInModelSpace"] Bool
 animPoseInfoLoggerEntry_Transform = {}
 
 ---@param fields? table

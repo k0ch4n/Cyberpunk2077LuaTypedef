@@ -3,7 +3,7 @@
 
 ---@enum gameJournalNotifyOption
 gameJournalNotifyOption = {
-    ["Undefined"] = 0,
-    ["DoNotNotify"] = 1,
-    ["Notify"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["DoNotNotify"] = 1, ---@type Enum
+    ["Notify"] = 2, ---@type Enum
 }

@@ -8,12 +8,12 @@ worldEffectBlackboard = {}
 ---@return worldEffectBlackboard
 function worldEffectBlackboard.new(fields) return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param clampedValue Float
 ---@return nil
 function worldEffectBlackboard:SetValue(parameterName, clampedValue) return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param clampedValue Float
 ---@return nil
 function worldEffectBlackboard:SetValueUnclamped(parameterName, clampedValue) return end

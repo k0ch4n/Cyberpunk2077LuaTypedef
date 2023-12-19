@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SActionTypeForward
----@field public qHack Bool
----@field public techie Bool
----@field public master Bool
+---@field public ["qHack"] Bool
+---@field public ["techie"] Bool
+---@field public ["master"] Bool
 SActionTypeForward = {}
 
 ---@param fields? table

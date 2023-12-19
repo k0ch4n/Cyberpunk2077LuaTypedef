@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleStartDynamicMovementEvent: redEvent
----@field public targetPosition Vector3
+---@field public ["targetPosition"] Vector3
 vehicleStartDynamicMovementEvent = {}
 
 ---@param fields? table

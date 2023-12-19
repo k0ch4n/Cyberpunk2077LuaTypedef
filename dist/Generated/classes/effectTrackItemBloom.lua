@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class effectTrackItemBloom: effectTrackItem
----@field public override Bool
----@field public sceneColorScale effectEffectParameterEvaluatorFloat
----@field public bloomColorScale effectEffectParameterEvaluatorFloat
+---@field public ["override"] Bool
+---@field public ["sceneColorScale"] effectEffectParameterEvaluatorFloat
+---@field public ["bloomColorScale"] effectEffectParameterEvaluatorFloat
 effectTrackItemBloom = {}
 
 ---@param fields? table

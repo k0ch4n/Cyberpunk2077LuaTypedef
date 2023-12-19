@@ -3,7 +3,7 @@
 
 ---@enum gameLootItemType
 gameLootItemType = {
-    ["Default"] = 0,
-    ["Quest"] = 1,
-    ["Shard"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Quest"] = 1, ---@type Enum
+    ["Shard"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Multilayer_LayerTemplateOverridesColor
----@field public n CName
----@field public v Float[]
+---@field public ["n"] CName
+---@field public ["v"] Float[]
 Multilayer_LayerTemplateOverridesColor = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class entRagdollActivationRequestEvent: redEvent
----@field public data entragdollActivationRequestData
+---@field public ["data"] entragdollActivationRequestData
 entRagdollActivationRequestEvent = {}
 
 ---@param fields? table
 ---@return entRagdollActivationRequestEvent
 function entRagdollActivationRequestEvent.new(fields) return end
 
----@param debugSourceName CName
+---@param debugSourceName CName|string
 ---@return nil
 function entRagdollActivationRequestEvent:DebugSetSourceName(debugSourceName) return end

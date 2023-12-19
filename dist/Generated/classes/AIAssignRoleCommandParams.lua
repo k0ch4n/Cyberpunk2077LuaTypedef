@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAssignRoleCommandParams: questScriptedAICommandParams
----@field public role AIRole
+---@field public ["role"] AIRole
 AIAssignRoleCommandParams = {}
 
 ---@param fields? table

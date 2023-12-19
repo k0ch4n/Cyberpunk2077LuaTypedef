@@ -3,7 +3,7 @@
 
 ---@enum questMountVehicleType
 questMountVehicleType = {
-    ["Any"] = 0,
-    ["Car"] = 1,
-    ["Motorcycle"] = 2
+    ["Any"] = 0, ---@type Enum
+    ["Car"] = 1, ---@type Enum
+    ["Motorcycle"] = 2, ---@type Enum
 }

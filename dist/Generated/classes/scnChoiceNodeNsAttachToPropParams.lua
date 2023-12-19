@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsAttachToPropParams
----@field public propId scnPropId
----@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
+---@field public ["propId"] scnPropId
+---@field public ["visualizerStyle"] scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToPropParams = {}
 
 ---@param fields? table

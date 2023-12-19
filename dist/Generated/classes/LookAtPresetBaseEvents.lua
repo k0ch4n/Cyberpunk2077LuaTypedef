@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LookAtPresetBaseEvents: DefaultTransition
----@field public lookAtEvents entLookAtAddEvent[]
----@field public attachLeft Bool
----@field public attachRight Bool
+---@field public ["lookAtEvents"] entLookAtAddEvent[]
+---@field public ["attachLeft"] Bool
+---@field public ["attachRight"] Bool
 LookAtPresetBaseEvents = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface

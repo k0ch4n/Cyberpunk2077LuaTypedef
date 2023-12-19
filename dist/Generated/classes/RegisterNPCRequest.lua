@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterNPCRequest: gameScriptableSystemRequest
----@field public puppet ScriptedPuppet
+---@field public ["puppet"] ScriptedPuppet
 RegisterNPCRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameConveyorControlEvent: redEvent
----@field public enable Bool
+---@field public ["enable"] Bool
 gameConveyorControlEvent = {}
 
 ---@param fields? table

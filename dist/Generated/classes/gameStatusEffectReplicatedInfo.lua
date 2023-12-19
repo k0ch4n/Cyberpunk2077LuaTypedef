@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameStatusEffectReplicatedInfo
----@field public statusEffectRecordID TweakDBID
----@field public stackCount Uint32
----@field public source CName
+---@field public ["statusEffectRecordID"] TweakDBID
+---@field public ["stackCount"] Uint32
+---@field public ["source"] CName
 gameStatusEffectReplicatedInfo = {}
 
 ---@param fields? table

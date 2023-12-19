@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BaseBunkerComputerGameController: gameuiBaseBunkerComputerGameController
----@field public factsSet BunkerSystemsFactsSet
----@field public gateClosedFact CName
+---@field public ["factsSet"] BunkerSystemsFactsSet
+---@field public ["gateClosedFact"] CName
 BaseBunkerComputerGameController = {}
 
 ---@param fields? table
@@ -25,7 +25,7 @@ function BaseBunkerComputerGameController:GetGame() return end
 
 ---@protected
 ---@param controller inkWidgetLogicController
----@param fact CName
+---@param fact CName|string
 ---@return nil
 function BaseBunkerComputerGameController:SetStatusOffline(controller, fact) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RepeatPersonalLinkAnimFeaturesHACK: redEvent
----@field public activator gameObject
+---@field public ["activator"] gameObject
 RepeatPersonalLinkAnimFeaturesHACK = {}
 
 ---@param fields? table

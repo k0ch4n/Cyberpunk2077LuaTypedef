@@ -3,7 +3,7 @@
 
 ---@enum HubMenuInventoryItems
 HubMenuInventoryItems = {
-    ["Gear"] = 0,
-    ["Cyberware"] = 1,
-    ["Backpack"] = 2
+    ["Gear"] = 0, ---@type Enum
+    ["Cyberware"] = 1, ---@type Enum
+    ["Backpack"] = 2, ---@type Enum
 }

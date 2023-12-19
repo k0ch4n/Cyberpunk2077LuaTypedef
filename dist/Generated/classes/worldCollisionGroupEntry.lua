@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCollisionGroupEntry
----@field public neRef NodeRef
----@field public Reversed Bool
+---@field public ["neRef"] NodeRef
+---@field public ["Reversed"] Bool
 worldCollisionGroupEntry = {}
 
 ---@param fields? table

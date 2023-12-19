@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEnvironmentDamageReceiverBox: gameEnvironmentDamageReceiverShape
----@field public dimensions Vector3
+---@field public ["dimensions"] Vector3
 gameEnvironmentDamageReceiverBox = {}
 
 ---@param fields? table

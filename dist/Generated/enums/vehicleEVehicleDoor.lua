@@ -3,12 +3,12 @@
 
 ---@enum vehicleEVehicleDoor
 vehicleEVehicleDoor = {
-    ["seat_front_left"] = 0,
-    ["seat_front_right"] = 1,
-    ["seat_back_left"] = 2,
-    ["seat_back_right"] = 3,
-    ["trunk"] = 4,
-    ["hood"] = 5,
-    ["count"] = 6,
-    ["invalid"] = 7
+    ["seat_front_left"] = 0, ---@type Enum
+    ["seat_front_right"] = 1, ---@type Enum
+    ["seat_back_left"] = 2, ---@type Enum
+    ["seat_back_right"] = 3, ---@type Enum
+    ["trunk"] = 4, ---@type Enum
+    ["hood"] = 5, ---@type Enum
+    ["count"] = 6, ---@type Enum
+    ["invalid"] = 7, ---@type Enum
 }

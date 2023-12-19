@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scneventsSocket: scnSceneEvent
----@field public osockStamp scnOutputSocketStamp
+---@field public ["osockStamp"] scnOutputSocketStamp
 scneventsSocket = {}
 
 ---@param fields? table

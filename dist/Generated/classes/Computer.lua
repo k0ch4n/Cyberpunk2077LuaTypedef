@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Computer: Terminal
----@field private bannerUpdateActive Bool
----@field private bannerUpdateID gameDelayID
----@field private transformX entIPlacedComponent
----@field private transformY entIPlacedComponent
----@field private playerControlData PlayerControlDeviceData
----@field private currentAnimationState EComputerAnimationState
+---@field private ["bannerUpdateActive"] Bool
+---@field private ["bannerUpdateID"] gameDelayID
+---@field private ["transformX"] entIPlacedComponent
+---@field private ["transformY"] entIPlacedComponent
+---@field private ["playerControlData"] PlayerControlDeviceData
+---@field private ["currentAnimationState"] EComputerAnimationState
 Computer = {}
 
 ---@param fields? table

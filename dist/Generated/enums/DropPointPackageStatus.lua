@@ -3,7 +3,7 @@
 
 ---@enum DropPointPackageStatus
 DropPointPackageStatus = {
-    ["NOT_ACTIVE"] = 0,
-    ["ACTIVE"] = 1,
-    ["COLLECTED"] = 2
+    ["NOT_ACTIVE"] = 0, ---@type Enum
+    ["ACTIVE"] = 1, ---@type Enum
+    ["COLLECTED"] = 2, ---@type Enum
 }

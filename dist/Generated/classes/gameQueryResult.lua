@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameQueryResult
----@field public hitShapes gameShapeData[]
+---@field public ["hitShapes"] gameShapeData[]
 gameQueryResult = {}
 
 ---@param fields? table

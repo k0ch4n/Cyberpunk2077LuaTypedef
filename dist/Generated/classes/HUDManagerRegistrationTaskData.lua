@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDManagerRegistrationTaskData: gameScriptTaskData
----@field public shouldRegister Bool
+---@field public ["shouldRegister"] Bool
 HUDManagerRegistrationTaskData = {}
 
 ---@param fields? table

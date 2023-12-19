@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceCaptionStringPart: gameinteractionsChoiceCaptionPart
----@field public content String
+---@field public ["content"] String
 gameinteractionsChoiceCaptionStringPart = {}
 
 ---@param fields? table

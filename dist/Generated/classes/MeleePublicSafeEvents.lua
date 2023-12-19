@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleePublicSafeEvents: MeleeRumblingEvents
----@field public unequipTime Float
+---@field public ["unequipTime"] Float
 MeleePublicSafeEvents = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ExpansionErrorPopupController: gameuiWidgetGameController
----@field private title inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private errorCodeText inkTextWidgetReference
----@field private closeButtonRef inkWidgetReference
----@field private introAnimationName CName
----@field private outroAnimationName CName
----@field private data ExpansionErrorPopuppData
----@field private animProxy inkanimProxy
+---@field private ["title"] inkTextWidgetReference
+---@field private ["description"] inkTextWidgetReference
+---@field private ["errorCodeText"] inkTextWidgetReference
+---@field private ["closeButtonRef"] inkWidgetReference
+---@field private ["introAnimationName"] CName
+---@field private ["outroAnimationName"] CName
+---@field private ["data"] ExpansionErrorPopuppData
+---@field private ["animProxy"] inkanimProxy
 ExpansionErrorPopupController = {}
 
 ---@param fields? table

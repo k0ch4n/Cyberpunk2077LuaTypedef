@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class Crosshair_ChargeBar: gameuiCrosshairBaseGameController
----@field private bar inkWidgetReference
----@field private ammo inkTextWidgetReference
----@field private leftPart inkWidget
----@field private rightPart inkWidget
----@field private topPart inkWidget
----@field private chargeBar inkRectangleWidget
----@field private sizeOfChargeBar Vector2
----@field private chargeBBID redCallbackObject
+---@field private ["bar"] inkWidgetReference
+---@field private ["ammo"] inkTextWidgetReference
+---@field private ["leftPart"] inkWidget
+---@field private ["rightPart"] inkWidget
+---@field private ["topPart"] inkWidget
+---@field private ["chargeBar"] inkRectangleWidget
+---@field private ["sizeOfChargeBar"] Vector2
+---@field private ["chargeBBID"] redCallbackObject
 Crosshair_ChargeBar = {}
 
 ---@param fields? table
@@ -34,7 +34,7 @@ function Crosshair_ChargeBar:OnPreIntro() return end
 function Crosshair_ChargeBar:OnPreOutro() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function Crosshair_ChargeBar:ApplyCrosshairGUIState(state, aimedAtEntity) return end

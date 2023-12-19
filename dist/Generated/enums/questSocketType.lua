@@ -3,9 +3,9 @@
 
 ---@enum questSocketType
 questSocketType = {
-    ["Undefined"] = 0,
-    ["Input"] = 1,
-    ["Output"] = 2,
-    ["CutSource"] = 3,
-    ["CutDestination"] = 4
+    ["Undefined"] = 0, ---@type Enum
+    ["Input"] = 1, ---@type Enum
+    ["Output"] = 2, ---@type Enum
+    ["CutSource"] = 3, ---@type Enum
+    ["CutDestination"] = 4, ---@type Enum
 }

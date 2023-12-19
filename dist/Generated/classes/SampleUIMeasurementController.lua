@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SampleUIMeasurementController: inkWidgetLogicController
----@field private value Float
----@field private unit EMeasurementUnit
----@field private valueText inkTextWidgetReference
----@field private unitText inkTextWidgetReference
----@field private valueIncreaseButton inkWidgetReference
----@field private valueDecreaseButton inkWidgetReference
+---@field private ["value"] Float
+---@field private ["unit"] EMeasurementUnit
+---@field private ["valueText"] inkTextWidgetReference
+---@field private ["unitText"] inkTextWidgetReference
+---@field private ["valueIncreaseButton"] inkWidgetReference
+---@field private ["valueDecreaseButton"] inkWidgetReference
 SampleUIMeasurementController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field protected hasTriggered Bool
+---@field protected ["hasTriggered"] Bool
 BonusCollisionLogic = {}
 
 ---@param fields? table

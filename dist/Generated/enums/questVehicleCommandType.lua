@@ -3,11 +3,11 @@
 
 ---@enum questVehicleCommandType
 questVehicleCommandType = {
-    ["Move On Spline"] = 0,
-    ["Follow"] = 1,
-    ["Move To"] = 2,
-    ["Racing"] = 3,
-    ["Join Traffic"] = 4,
-    ["Panic"] = 5,
-    ["Chase"] = 6
+    ["Move On Spline"] = 0, ---@type Enum
+    ["Follow"] = 1, ---@type Enum
+    ["Move To"] = 2, ---@type Enum
+    ["Racing"] = 3, ---@type Enum
+    ["Join Traffic"] = 4, ---@type Enum
+    ["Panic"] = 5, ---@type Enum
+    ["Chase"] = 6, ---@type Enum
 }

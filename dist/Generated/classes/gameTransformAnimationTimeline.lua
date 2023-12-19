@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimationTimeline
----@field public items gameTransformAnimationTrackItem[]
+---@field public ["items"] gameTransformAnimationTrackItem[]
 gameTransformAnimationTimeline = {}
 
 ---@param fields? table

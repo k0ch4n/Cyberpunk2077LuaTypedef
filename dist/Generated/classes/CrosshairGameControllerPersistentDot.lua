@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameControllerPersistentDot: gameuiHUDGameController
----@field private settings userSettingsUserSettings
----@field private settingsListener PersistentDotSettingsListener
----@field private groupPath CName
----@field private isAiming Bool
----@field private psmUpperBodyStateCallback redCallbackObject
+---@field private ["settings"] userSettingsUserSettings
+---@field private ["settingsListener"] PersistentDotSettingsListener
+---@field private ["groupPath"] CName
+---@field private ["isAiming"] Bool
+---@field private ["psmUpperBodyStateCallback"] redCallbackObject
 CrosshairGameControllerPersistentDot = {}
 
 ---@param fields? table
@@ -32,8 +32,8 @@ function CrosshairGameControllerPersistentDot:OnPlayerAttach(player) return end
 ---@return Bool
 function CrosshairGameControllerPersistentDot:OnPlayerDetach(player) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

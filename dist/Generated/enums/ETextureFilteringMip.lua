@@ -3,7 +3,7 @@
 
 ---@enum ETextureFilteringMip
 ETextureFilteringMip = {
-    ["TFMip_None"] = 0,
-    ["TFMip_Point"] = 1,
-    ["TFMip_Linear"] = 2
+    ["TFMip_None"] = 0, ---@type Enum
+    ["TFMip_Point"] = 1, ---@type Enum
+    ["TFMip_Linear"] = 2, ---@type Enum
 }

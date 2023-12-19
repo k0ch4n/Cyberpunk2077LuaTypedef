@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SequencerLock: redEvent
----@field public shouldLock Bool
+---@field public ["shouldLock"] Bool
 SequencerLock = {}
 
 ---@param fields? table

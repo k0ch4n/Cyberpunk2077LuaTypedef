@@ -13,6 +13,6 @@ function DeactivateDevice.new(fields) return end
 ---@return Bool
 function DeactivateDevice.IsDefaultConditionMet(device, context) return end
 
----@param action_name? CName
+---@param action_name? CName|string
 ---@return nil
 function DeactivateDevice:SetProperties(action_name) return end

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkWidgetLibraryItemInstance: ISerializable
----@field public rootWidget inkWidget
----@field public gameController inkIWidgetController
----@field public rootResolution inkETextureResolution
+---@field public ["rootWidget"] inkWidget
+---@field public ["gameController"] inkIWidgetController
+---@field public ["rootResolution"] inkETextureResolution
 inkWidgetLibraryItemInstance = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ManageAreaComponent: redEvent
----@field public enable Bool
+---@field public ["enable"] Bool
 ManageAreaComponent = {}
 
 ---@param fields? table

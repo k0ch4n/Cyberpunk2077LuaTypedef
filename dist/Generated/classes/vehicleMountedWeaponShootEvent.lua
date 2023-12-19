@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleMountedWeaponShootEvent: redEvent
----@field public weaponID TweakDBID
----@field public slotID TweakDBID
+---@field public ["weaponID"] TweakDBID
+---@field public ["slotID"] TweakDBID
 vehicleMountedWeaponShootEvent = {}
 
 ---@param fields? table

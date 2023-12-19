@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LeaveCoverImmediately: AIbehaviortaskScript
----@field public delay Float
----@field public completeOnLeave Bool
----@field public timeStamp Float
----@field public triggered Bool
+---@field public ["delay"] Float
+---@field public ["completeOnLeave"] Bool
+---@field public ["timeStamp"] Float
+---@field public ["triggered"] Bool
 LeaveCoverImmediately = {}
 
 ---@param fields? table

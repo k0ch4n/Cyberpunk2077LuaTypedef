@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class WorldMapFiltersListItem: inkWidgetLogicController
----@field private checker inkWidgetReference
----@field private filterName inkTextWidgetReference
----@field private filterGroup gamedataMappinUIFilterGroup_Record
----@field private rootWidget inkWidget
----@field private isHovered Bool
+---@field private ["checker"] inkWidgetReference
+---@field private ["filterName"] inkTextWidgetReference
+---@field private ["filterGroup"] gamedataMappinUIFilterGroup_Record
+---@field private ["rootWidget"] inkWidget
+---@field private ["isHovered"] Bool
 WorldMapFiltersListItem = {}
 
 ---@param fields? table
@@ -52,7 +52,7 @@ function WorldMapFiltersListItem:PlayIntroAnimation(delay) return end
 ---@return nil
 function WorldMapFiltersListItem:SetFilterGroup(filterGroup) return end
 
----@param state CName
+---@param state CName|string
 ---@return nil
 function WorldMapFiltersListItem:SetFilterState(state) return end
 

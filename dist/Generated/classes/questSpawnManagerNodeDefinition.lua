@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSpawnManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public actions questSpawnManagerNodeActionEntry[]
+---@field public ["actions"] questSpawnManagerNodeActionEntry[]
 questSpawnManagerNodeDefinition = {}
 
 ---@param fields? table

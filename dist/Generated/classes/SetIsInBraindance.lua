@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetIsInBraindance: gameScriptableSystemRequest
----@field public newState Bool
+---@field public ["newState"] Bool
 SetIsInBraindance = {}
 
 ---@param fields? table

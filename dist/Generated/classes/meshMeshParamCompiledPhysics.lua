@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamCompiledPhysics: meshMeshParameter
----@field public collection physicsDeferredCollection
+---@field public ["collection"] physicsDeferredCollection
 meshMeshParamCompiledPhysics = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsDestructionLevelData
----@field public filterData physicsFilterData
----@field public fracturingEffect worldEffect
+---@field public ["filterData"] physicsFilterData
+---@field public ["fracturingEffect"] worldEffect
 physicsDestructionLevelData = {}
 
 ---@param fields? table

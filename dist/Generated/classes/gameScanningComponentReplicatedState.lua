@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameScanningComponentReplicatedState: netIComponentState
----@field public scanningState gameScanningState
----@field public pctScanned Float
----@field public controllingPeerIDs netPeerID
+---@field public ["scanningState"] gameScanningState
+---@field public ["pctScanned"] Float
+---@field public ["controllingPeerIDs"] netPeerID
 gameScanningComponentReplicatedState = {}
 
 ---@param fields? table

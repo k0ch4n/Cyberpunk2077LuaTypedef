@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MainframeControllerPS: BaseAnimatedDeviceControllerPS
----@field protected factName ComputerQuickHackData
+---@field protected ["factName"] ComputerQuickHackData
 MainframeControllerPS = {}
 
 ---@param fields? table

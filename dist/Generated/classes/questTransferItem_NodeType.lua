@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questTransferItem_NodeType: questIItemManagerNodeType
----@field public params questTransferItems_NodeTypeParams[]
+---@field public ["params"] questTransferItems_NodeTypeParams[]
 questTransferItem_NodeType = {}
 
 ---@param fields? table

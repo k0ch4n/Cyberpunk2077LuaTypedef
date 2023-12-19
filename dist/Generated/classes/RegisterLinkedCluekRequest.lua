@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RegisterLinkedCluekRequest: gameScriptableSystemRequest
----@field public linkedCluekData LinkedFocusClueData
----@field public forceUpdate Bool
+---@field public ["linkedCluekData"] LinkedFocusClueData
+---@field public ["forceUpdate"] Bool
 RegisterLinkedCluekRequest = {}
 
 ---@param fields? table

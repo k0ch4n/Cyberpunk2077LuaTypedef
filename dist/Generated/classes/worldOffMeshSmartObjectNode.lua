@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldOffMeshSmartObjectNode: worldOffMeshConnectionNode
----@field public object gameSmartObjectDefinition
+---@field public ["object"] gameSmartObjectDefinition
 worldOffMeshSmartObjectNode = {}
 
 ---@param fields? table

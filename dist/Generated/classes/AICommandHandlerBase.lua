@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICommandHandlerBase: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field protected ["inCommand"] AIArgumentMapping
 AICommandHandlerBase = {}
 
 ---@param fields? table
@@ -11,7 +11,7 @@ function AICommandHandlerBase.new(fields) return end
 
 ---@protected
 ---@param argument AIArgumentMapping
----@param argName CName
+---@param argName CName|string
 ---@return Bool
 function AICommandHandlerBase:CheckArgument(argument, argName) return end
 

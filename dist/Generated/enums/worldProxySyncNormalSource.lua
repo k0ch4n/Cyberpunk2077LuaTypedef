@@ -3,6 +3,6 @@
 
 ---@enum worldProxySyncNormalSource
 worldProxySyncNormalSource = {
-    ["From_Groups"] = 0,
-    ["From_Face_Average"] = 1
+    ["From_Groups"] = 0, ---@type Enum
+    ["From_Face_Average"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamebbScriptID
----@field public None gamebbID
+---@field public ["None"] gamebbID
 gamebbScriptID = {}
 
 ---@param fields? table

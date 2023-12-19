@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_VectorInput: animAnimNode_VectorValue
----@field public group CName
----@field public name CName
+---@field public ["group"] CName
+---@field public ["name"] CName
 animAnimNode_VectorInput = {}
 
 ---@param fields? table

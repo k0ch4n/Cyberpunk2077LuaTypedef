@@ -3,8 +3,8 @@
 
 ---@enum ETextureFilteringMin
 ETextureFilteringMin = {
-    ["TFMin_Point"] = 0,
-    ["TFMin_Linear"] = 1,
-    ["TFMin_Anisotropic"] = 2,
-    ["TFMin_AnisotropicLow"] = 3
+    ["TFMin_Point"] = 0, ---@type Enum
+    ["TFMin_Linear"] = 1, ---@type Enum
+    ["TFMin_Anisotropic"] = 2, ---@type Enum
+    ["TFMin_AnisotropicLow"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalCodexGroup: gameJournalContainerEntry
----@field public groupName LocalizationString
+---@field public ["groupName"] LocalizationString
 gameJournalCodexGroup = {}
 
 ---@param fields? table

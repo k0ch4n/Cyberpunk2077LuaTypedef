@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class at_uiUserData: inkUserData
----@field public atid String
+---@field public ["atid"] String
 at_uiUserData = {}
 
 ---@param fields? table

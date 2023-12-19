@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PuppetDeviceLinkPS: DeviceLinkComponentPS
----@field private securitySystemData SecuritySystemData
+---@field private ["securitySystemData"] SecuritySystemData
 PuppetDeviceLinkPS = {}
 
 ---@param fields? table

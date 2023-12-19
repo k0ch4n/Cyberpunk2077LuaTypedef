@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameItemDropObject: gameLootObject
----@field private isEmpty Bool
----@field private isIconic Bool
----@field private hasQuestItems Bool
----@field private spawnedItemID gameItemID
+---@field private ["isEmpty"] Bool
+---@field private ["isIconic"] Bool
+---@field private ["hasQuestItems"] Bool
+---@field private ["spawnedItemID"] gameItemID
 gameItemDropObject = {}
 
 ---@param fields? table

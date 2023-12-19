@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CraftingDataView: inkScriptableDataViewWrapper
----@field private itemFilterType ItemFilterCategory
----@field private itemSortMode ItemSortMode
----@field private attachmentsList gamedataItemType[]
----@field private uiScriptableSystem UIScriptableSystem
+---@field private ["itemFilterType"] ItemFilterCategory
+---@field private ["itemSortMode"] ItemSortMode
+---@field private ["attachmentsList"] gamedataItemType[]
+---@field private ["uiScriptableSystem"] UIScriptableSystem
 CraftingDataView = {}
 
 ---@param fields? table

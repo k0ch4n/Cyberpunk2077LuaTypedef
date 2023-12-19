@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamImportedSnapPoint: meshMeshParameter
----@field public snapFeatureData meshMeshImportedSnapPoint[]
+---@field public ["snapFeatureData"] meshMeshImportedSnapPoint[]
 meshMeshParamImportedSnapPoint = {}
 
 ---@param fields? table

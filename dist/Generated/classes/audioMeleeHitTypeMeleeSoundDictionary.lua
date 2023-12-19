@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioMeleeHitTypeMeleeSoundDictionary: audioInlinedAudioMetadata
----@field public entries audioMeleeHitTypeMeleeSoundDictionaryItem[]
----@field public entryType audioMeleeHitTypeMeleeSoundDictionaryItem
+---@field public ["entries"] audioMeleeHitTypeMeleeSoundDictionaryItem[]
+---@field public ["entryType"] audioMeleeHitTypeMeleeSoundDictionaryItem
 audioMeleeHitTypeMeleeSoundDictionary = {}
 
 ---@param fields? table

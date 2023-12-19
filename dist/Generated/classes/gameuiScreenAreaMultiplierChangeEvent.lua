@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiScreenAreaMultiplierChangeEvent: redEvent
----@field public screenAreaMultiplier Float
+---@field public ["screenAreaMultiplier"] Float
 gameuiScreenAreaMultiplierChangeEvent = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum HighlightMode
 HighlightMode = {
-    ["Row"] = 0,
-    ["Column"] = 1
+    ["Row"] = 0, ---@type Enum
+    ["Column"] = 1, ---@type Enum
 }

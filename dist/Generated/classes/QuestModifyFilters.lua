@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestModifyFilters: redEvent
----@field public incomingFilters EQuestFilterType
----@field public outgoingFilters EQuestFilterType
+---@field public ["incomingFilters"] EQuestFilterType
+---@field public ["outgoingFilters"] EQuestFilterType
 QuestModifyFilters = {}
 
 ---@param fields? table

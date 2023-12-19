@@ -3,11 +3,11 @@
 
 ---@enum ECartOperationResult
 ECartOperationResult = {
-    ["Success"] = 0,
-    ["NoItems"] = 1,
-    ["AllItems"] = 2,
-    ["WontSell"] = 3,
-    ["WontBuy"] = 4,
-    ["QuestItem"] = 5,
-    ["NotInCart"] = 6
+    ["Success"] = 0, ---@type Enum
+    ["NoItems"] = 1, ---@type Enum
+    ["AllItems"] = 2, ---@type Enum
+    ["WontSell"] = 3, ---@type Enum
+    ["WontBuy"] = 4, ---@type Enum
+    ["QuestItem"] = 5, ---@type Enum
+    ["NotInCart"] = 6, ---@type Enum
 }

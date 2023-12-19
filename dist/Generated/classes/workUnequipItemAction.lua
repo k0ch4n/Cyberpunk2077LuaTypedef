@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workUnequipItemAction: workIWorkspotItemAction
----@field public item TweakDBID
+---@field public ["item"] TweakDBID
 workUnequipItemAction = {}
 
 ---@param fields? table

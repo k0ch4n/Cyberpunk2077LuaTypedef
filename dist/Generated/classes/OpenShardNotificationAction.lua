@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenShardNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher gameuiGameSystemUI
+---@field public ["eventDispatcher"] gameuiGameSystemUI
 OpenShardNotificationAction = {}
 
 ---@param fields? table

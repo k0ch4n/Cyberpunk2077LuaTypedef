@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameBreachComponent: entIPlacedComponent
----@field public radius Float
----@field public healthPercentageOverride Float
+---@field public ["radius"] Float
+---@field public ["healthPercentageOverride"] Float
 gameBreachComponent = {}
 
 ---@param fields? table

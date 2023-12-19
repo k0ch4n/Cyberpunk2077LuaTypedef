@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SearchPatternMappingLookat: AISearchingLookat
----@field public targetObjectMapping AIArgumentMapping
----@field protected lookatTargetObject gameObject
+---@field public ["targetObjectMapping"] AIArgumentMapping
+---@field protected ["lookatTargetObject"] gameObject
 SearchPatternMappingLookat = {}
 
 ---@param fields? table

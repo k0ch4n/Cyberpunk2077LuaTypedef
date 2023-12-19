@@ -2,44 +2,44 @@
 ---@diagnostic disable
 
 ---@class InventoryDataManagerV2: IScriptable
----@field private owner gameuiHUDGameController
----@field private Player PlayerPuppet
----@field private TransactionSystem gameTransactionSystem
----@field private EquipmentSystem EquipmentSystem
----@field private StatsSystem gameStatsSystem
----@field private ItemModificationSystem ItemModificationSystem
----@field private LocMgr UILocalizationMap
----@field private InventoryItemsData gameInventoryItemData[]
----@field private EquipmentAreaInventoryItemsData gameInventoryItemData[][]
----@field private InventoryItemsDataWithoutEquipment gameInventoryItemData[]
----@field private EquipmentItemsData gameInventoryItemData[]
----@field private WeaponItemsData gameInventoryItemData[]
----@field private QuickSlotsData gameInventoryItemData[]
----@field private ConsumablesSlotsData gameInventoryItemData[]
----@field private PartsData InventoryPartsData[]
----@field private ToRebuild Bool
----@field private ToRebuildEquipmentArea Bool[]
----@field private ToRebuildItemsWithEquipped Bool
----@field private ToRebuildWeapons Bool
----@field private ToRebuildEquipment Bool
----@field private ToRebuildQuickSlots Bool
----@field private ToRebuildConsumables Bool
----@field private ActiveWeapon gameItemID
----@field private EquipRecords gamedataEquipmentArea_Record[]
----@field private ItemIconGender gameItemIconGender
----@field private WeaponUIBlackboard gameIBlackboard
----@field private UIBBEquipmentBlackboard gameIBlackboard
----@field private UIBBItemModBlackbord gameIBlackboard
----@field private UIBBEquipment UI_EquipmentDef
----@field private UIBBItemMod UI_ItemModSystemDef
----@field private InventoryBBID redCallbackObject
----@field private EquipmentBBID redCallbackObject
----@field private SubEquipmentBBID redCallbackObject
----@field private ItemModBBID redCallbackObject
----@field private BBWeaponList redCallbackObject
----@field private InventoryItemDataWrappers InventoryItemDataWrapper[]
----@field private HashMapCache inkScriptWeakHashMap
----@field private uiInventorySystem UIInventoryScriptableSystem
+---@field private ["owner"] gameuiHUDGameController
+---@field private ["Player"] PlayerPuppet
+---@field private ["TransactionSystem"] gameTransactionSystem
+---@field private ["EquipmentSystem"] EquipmentSystem
+---@field private ["StatsSystem"] gameStatsSystem
+---@field private ["ItemModificationSystem"] ItemModificationSystem
+---@field private ["LocMgr"] UILocalizationMap
+---@field private ["InventoryItemsData"] gameInventoryItemData[]
+---@field private ["EquipmentAreaInventoryItemsData"] gameInventoryItemData[][]
+---@field private ["InventoryItemsDataWithoutEquipment"] gameInventoryItemData[]
+---@field private ["EquipmentItemsData"] gameInventoryItemData[]
+---@field private ["WeaponItemsData"] gameInventoryItemData[]
+---@field private ["QuickSlotsData"] gameInventoryItemData[]
+---@field private ["ConsumablesSlotsData"] gameInventoryItemData[]
+---@field private ["PartsData"] InventoryPartsData[]
+---@field private ["ToRebuild"] Bool
+---@field private ["ToRebuildEquipmentArea"] Bool[]
+---@field private ["ToRebuildItemsWithEquipped"] Bool
+---@field private ["ToRebuildWeapons"] Bool
+---@field private ["ToRebuildEquipment"] Bool
+---@field private ["ToRebuildQuickSlots"] Bool
+---@field private ["ToRebuildConsumables"] Bool
+---@field private ["ActiveWeapon"] gameItemID
+---@field private ["EquipRecords"] gamedataEquipmentArea_Record[]
+---@field private ["ItemIconGender"] gameItemIconGender
+---@field private ["WeaponUIBlackboard"] gameIBlackboard
+---@field private ["UIBBEquipmentBlackboard"] gameIBlackboard
+---@field private ["UIBBItemModBlackbord"] gameIBlackboard
+---@field private ["UIBBEquipment"] UI_EquipmentDef
+---@field private ["UIBBItemMod"] UI_ItemModSystemDef
+---@field private ["InventoryBBID"] redCallbackObject
+---@field private ["EquipmentBBID"] redCallbackObject
+---@field private ["SubEquipmentBBID"] redCallbackObject
+---@field private ["ItemModBBID"] redCallbackObject
+---@field private ["BBWeaponList"] redCallbackObject
+---@field private ["InventoryItemDataWrappers"] InventoryItemDataWrapper[]
+---@field private ["HashMapCache"] inkScriptWeakHashMap
+---@field private ["uiInventorySystem"] UIInventoryScriptableSystem
 InventoryDataManagerV2 = {}
 
 ---@param fields? table
@@ -146,7 +146,7 @@ function InventoryDataManagerV2.IsEquipmentAreaCyberware(areaType) return end
 ---@param itemData gameItemData
 ---@param forceShowCurrencyOnHUDTooltip? Bool
 ---@param isRadialQuerying? Bool
----@param additionalTags? CName[]
+---@param additionalTags? CName[]|string[]
 ---@return Bool
 function InventoryDataManagerV2.IsItemBlacklisted(itemData, forceShowCurrencyOnHUDTooltip, isRadialQuerying, additionalTags) return end
 
@@ -701,17 +701,17 @@ function InventoryDataManagerV2:GetPlayerHealthStats(statsList) return end
 
 ---@param type gamedataItemType
 ---@param skipEquippedItems? Bool
----@param additionalTagFilters? CName[]
+---@param additionalTagFilters? CName[]|string[]
 ---@param filteredItems? gameItemModParams[]
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerIconicWeaponsByType(type, skipEquippedItems, additionalTagFilters, filteredItems) return end
 
----@param additionalTagFilters? CName[]
+---@param additionalTagFilters? CName[]|string[]
 ---@return gameItemData[]
 function InventoryDataManagerV2:GetPlayerInventory(additionalTagFilters) return end
 
 ---@private
----@param additionalTagFilters? CName[]
+---@param additionalTagFilters? CName[]|string[]
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryData(additionalTagFilters) return end
 
@@ -738,7 +738,7 @@ function InventoryDataManagerV2:GetPlayerInventoryDataExcludingLoadout() return 
 function InventoryDataManagerV2:GetPlayerInventoryDataRef(equipAreas, skipEquipped, filteredItems, outputItems) return end
 
 ---@private
----@param additionalTagFilters? CName[]
+---@param additionalTagFilters? CName[]|string[]
 ---@return gameItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryItems(additionalTagFilters) return end
 
@@ -800,7 +800,7 @@ function InventoryDataManagerV2:GetPlayerItems() return end
 
 ---@param type gamedataItemType
 ---@param skipEquippedItems? Bool
----@param additionalTagFilters? CName[]
+---@param additionalTagFilters? CName[]|string[]
 ---@param filteredItems? gameItemModParams[]
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerItemsByType(type, skipEquippedItems, additionalTagFilters, filteredItems) return end
@@ -1045,7 +1045,7 @@ function InventoryDataManagerV2:GetTransactionSystem() return end
 
 ---@param slot String
 ---@param transmogItem gameItemID
----@param iconPath CName
+---@param iconPath CName|string
 ---@param noIcon Bool
 ---@return TransmogMessageTooltipData
 function InventoryDataManagerV2:GetTransmogTooltipForEmptySlot(slot, transmogItem, iconPath, noIcon) return end
@@ -1128,8 +1128,8 @@ function InventoryDataManagerV2:PlacementSlotsContains(staticData, slotID) retur
 function InventoryDataManagerV2:PushComparisonTooltipsData(tooltipsData, equippedItem, inspectedItemData, iconErrorInfo, overrideRarity) return end
 
 ---@param tooltipsData ATooltipData[]
----@param name1 CName
----@param name2 CName
+---@param name1 CName|string
+---@param name2 CName|string
 ---@param equippedItem gameInventoryItemData
 ---@param inspectedItemData gameInventoryItemData
 ---@param iconErrorInfo? DEBUG_IconErrorInfo
@@ -1138,8 +1138,8 @@ function InventoryDataManagerV2:PushComparisonTooltipsData(tooltipsData, equippe
 function InventoryDataManagerV2:PushIdentifiedComparisonTooltipsData(tooltipsData, name1, name2, equippedItem, inspectedItemData, iconErrorInfo, overrideRarity) return end
 
 ---@param tooltipsData ATooltipData[]
----@param name1 CName
----@param name2 CName
+---@param name1 CName|string
+---@param name2 CName|string
 ---@param inspectedItem UIInventoryItem
 ---@param equippedItem UIInventoryItem
 ---@param equippedDisplayContext ItemDisplayContextData
@@ -1158,8 +1158,8 @@ function InventoryDataManagerV2:PushIdentifiedComparisonTooltipsData(tooltipsDat
 function InventoryDataManagerV2:PushIdentifiedProgramComparisionTooltipsData(tooltipsData, equippedItem, inspectedItemData, iconErrorInfo, overrideRarity) return end
 
 ---@param tooltipsData ATooltipData[]
----@param name1 CName
----@param name2 CName
+---@param name1 CName|string
+---@param name2 CName|string
 ---@param equippedItem gameInventoryItemData
 ---@param inspectedItemData gameInventoryItemData
 ---@param iconErrorInfo? DEBUG_IconErrorInfo
@@ -1168,8 +1168,8 @@ function InventoryDataManagerV2:PushIdentifiedProgramComparisionTooltipsData(too
 function InventoryDataManagerV2:PushIdentifiedProgramComparisionTooltipsData(tooltipsData, name1, name2, equippedItem, inspectedItemData, iconErrorInfo, overrideRarity) return end
 
 ---@param tooltipsData ATooltipData[]
----@param name1 CName
----@param name2 CName
+---@param name1 CName|string
+---@param name2 CName|string
 ---@param equippedItem gameInventoryItemData
 ---@param inspectedItemData gameInventoryItemData
 ---@param iconErrorInfo? DEBUG_IconErrorInfo

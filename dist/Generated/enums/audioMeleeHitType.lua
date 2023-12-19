@@ -3,13 +3,13 @@
 
 ---@enum audioMeleeHitType
 audioMeleeHitType = {
-    ["Light"] = 0,
-    ["Normal"] = 1,
-    ["Heavy"] = 2,
-    ["Slash"] = 3,
-    ["Cut"] = 4,
-    ["Stab"] = 5,
-    ["Finisher"] = 6,
-    ["Weak"] = 7,
-    ["Throw"] = 8
+    ["Light"] = 0, ---@type Enum
+    ["Normal"] = 1, ---@type Enum
+    ["Heavy"] = 2, ---@type Enum
+    ["Slash"] = 3, ---@type Enum
+    ["Cut"] = 4, ---@type Enum
+    ["Stab"] = 5, ---@type Enum
+    ["Finisher"] = 6, ---@type Enum
+    ["Weak"] = 7, ---@type Enum
+    ["Throw"] = 8, ---@type Enum
 }

@@ -30,6 +30,6 @@ function gamedataAIDirectorSchedulePlanEnemyEntry_Record:SpawnChanceFactor() ret
 ---@return CName[]
 function gamedataAIDirectorSchedulePlanEnemyEntry_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAIDirectorSchedulePlanEnemyEntry_Record:TagsContains(item) return end

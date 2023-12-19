@@ -3,8 +3,8 @@
 
 ---@enum ESenseLogSource
 ESenseLogSource = {
-    ["Undefined"] = 0,
-    ["AddToBlacklistEvent"] = 1,
-    ["RemoveFromBlacklistEvent"] = 2,
-    ["SecurityAreaCrossingPerimeter"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["AddToBlacklistEvent"] = 1, ---@type Enum
+    ["RemoveFromBlacklistEvent"] = 2, ---@type Enum
+    ["SecurityAreaCrossingPerimeter"] = 3, ---@type Enum
 }

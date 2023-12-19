@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IncreaseTraitLevel: gamePlayerScriptableSystemRequest
----@field public trait gamedataTraitType
+---@field public ["trait"] gamedataTraitType
 IncreaseTraitLevel = {}
 
 ---@param fields? table

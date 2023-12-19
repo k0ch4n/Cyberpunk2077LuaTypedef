@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Vector3
----@field public X Float
----@field public Y Float
----@field public Z Float
+---@field public ["X"] Float
+---@field public ["Y"] Float
+---@field public ["Z"] Float
 Vector3 = {}
 
 ---@param fields? table

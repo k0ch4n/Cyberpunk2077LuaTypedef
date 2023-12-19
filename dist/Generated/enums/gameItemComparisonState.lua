@@ -3,8 +3,8 @@
 
 ---@enum gameItemComparisonState
 gameItemComparisonState = {
-    ["Default"] = 0,
-    ["NoChange"] = 1,
-    ["Better"] = 2,
-    ["Worse"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["NoChange"] = 1, ---@type Enum
+    ["Better"] = 2, ---@type Enum
+    ["Worse"] = 3, ---@type Enum
 }

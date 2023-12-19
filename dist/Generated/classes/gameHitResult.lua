@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameHitResult
----@field public hitPositionEnter Vector4
----@field public hitPositionExit Vector4
----@field public enterDistanceFromOriginSq Float
+---@field public ["hitPositionEnter"] Vector4
+---@field public ["hitPositionExit"] Vector4
+---@field public ["enterDistanceFromOriginSq"] Float
 gameHitResult = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TwistConstraint: animAnimNode_OnePoseInput
----@field public frontAxis animAxis
----@field public transformA animTransformIndex
----@field public transformB animTransformIndex
----@field public outputs animTwistOutput[]
----@field public debug Bool
+---@field public ["frontAxis"] animAxis
+---@field public ["transformA"] animTransformIndex
+---@field public ["transformB"] animTransformIndex
+---@field public ["outputs"] animTwistOutput[]
+---@field public ["debug"] Bool
 animAnimNode_TwistConstraint = {}
 
 ---@param fields? table

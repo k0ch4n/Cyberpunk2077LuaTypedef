@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStyleProperty
----@field public propertyPath CName
----@field public value Variant
+---@field public ["propertyPath"] CName
+---@field public ["value"] Variant
 inkStyleProperty = {}
 
 ---@param fields? table

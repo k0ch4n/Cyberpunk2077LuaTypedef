@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnGenderMask
----@field public mask Uint8
+---@field public ["mask"] Uint8
 scnGenderMask = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SUIScreenDefinition
----@field public screenDefinition TweakDBID
----@field public style TweakDBID
+---@field public ["screenDefinition"] TweakDBID
+---@field public ["style"] TweakDBID
 SUIScreenDefinition = {}
 
 ---@param fields? table

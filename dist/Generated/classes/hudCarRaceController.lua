@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class hudCarRaceController: gameuiHUDGameController
----@field private Countdown inkCanvasWidgetReference
----@field private PositionCounter inkCanvasWidgetReference
----@field private RacePosition inkTextWidgetReference
----@field private RaceTime inkTextWidgetReference
----@field private RaceCheckpoint inkTextWidgetReference
----@field private maxPosition Int32
----@field private maxCheckpoint Int32
----@field private playerPosition Int32
----@field private minute Int32
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private activeVehicle vehicleBaseObject
----@field private raceStartEngineTime EngineTime
----@field private factCallbackID Uint32
+---@field private ["Countdown"] inkCanvasWidgetReference
+---@field private ["PositionCounter"] inkCanvasWidgetReference
+---@field private ["RacePosition"] inkTextWidgetReference
+---@field private ["RaceTime"] inkTextWidgetReference
+---@field private ["RaceCheckpoint"] inkTextWidgetReference
+---@field private ["maxPosition"] Int32
+---@field private ["maxCheckpoint"] Int32
+---@field private ["playerPosition"] Int32
+---@field private ["minute"] Int32
+---@field private ["activeVehicleUIBlackboard"] gameIBlackboard
+---@field private ["activeVehicle"] vehicleBaseObject
+---@field private ["raceStartEngineTime"] EngineTime
+---@field private ["factCallbackID"] Uint32
 hudCarRaceController = {}
 
 ---@param fields? table

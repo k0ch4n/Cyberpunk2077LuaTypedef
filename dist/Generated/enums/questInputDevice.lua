@@ -3,10 +3,10 @@
 
 ---@enum questInputDevice
 questInputDevice = {
-    ["Undefined"] = 0,
-    ["KeyboardMouse"] = 1,
-    ["XBoxGamepad"] = 2,
-    ["PS4Gamepad"] = 3,
-    ["StadiaGamepad"] = 4,
-    ["NintendoGamepad"] = 5
+    ["Undefined"] = 0, ---@type Enum
+    ["KeyboardMouse"] = 1, ---@type Enum
+    ["XBoxGamepad"] = 2, ---@type Enum
+    ["PS4Gamepad"] = 3, ---@type Enum
+    ["StadiaGamepad"] = 4, ---@type Enum
+    ["NintendoGamepad"] = 5, ---@type Enum
 }

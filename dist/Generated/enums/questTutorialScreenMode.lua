@@ -3,7 +3,7 @@
 
 ---@enum questTutorialScreenMode
 questTutorialScreenMode = {
-    ["Undefined"] = 0,
-    ["Fullscreen"] = 1,
-    ["Popup"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Fullscreen"] = 1, ---@type Enum
+    ["Popup"] = 2, ---@type Enum
 }

@@ -18,7 +18,7 @@ function gamedataLoadingTipsGroup_Record:GetHintLocalizationKeysItem(index) retu
 ---@return CName[]
 function gamedataLoadingTipsGroup_Record:HintLocalizationKeys() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataLoadingTipsGroup_Record:HintLocalizationKeysContains(item) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleUIactivateEvent: redEvent
----@field public activate Bool
+---@field public ["activate"] Bool
 VehicleUIactivateEvent = {}
 
 ---@param fields? table

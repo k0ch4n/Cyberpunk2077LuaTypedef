@@ -3,9 +3,9 @@
 
 ---@enum moveMovementOrientationType
 moveMovementOrientationType = {
-    ["NotSet"] = 0,
-    ["Forward"] = 1,
-    ["Backward"] = 2,
-    ["Left"] = 3,
-    ["Right"] = 4
+    ["NotSet"] = 0, ---@type Enum
+    ["Forward"] = 1, ---@type Enum
+    ["Backward"] = 2, ---@type Enum
+    ["Left"] = 3, ---@type Enum
+    ["Right"] = 4, ---@type Enum
 }

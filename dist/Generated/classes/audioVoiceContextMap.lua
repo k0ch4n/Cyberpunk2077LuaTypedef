@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVoiceContextMap: audioAudioMetadata
----@field public includes CName[]
----@field public contexts audioVoiceContextMapItem[]
+---@field public ["includes"] CName[]
+---@field public ["contexts"] audioVoiceContextMapItem[]
 audioVoiceContextMap = {}
 
 ---@param fields? table

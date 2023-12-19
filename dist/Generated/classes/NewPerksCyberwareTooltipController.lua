@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class NewPerksCyberwareTooltipController: AGenericTooltipController
----@field private title inkTextWidgetReference
----@field private subTitle inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private subDescription inkTextWidgetReference
----@field private videoWidget inkVideoWidgetReference
----@field private cornerContainer inkWidgetReference
----@field private relicCost inkWidgetReference
----@field private bars inkWidgetReference[]
----@field private inputHints inkWidgetReference
----@field private buyHint inkWidgetReference
----@field private sellHint inkWidgetReference
----@field private currentEntry NewPerksCyberwareDetailsMenu
----@field private swipeOutAnim inkanimProxy
----@field private swipeInAnim inkanimProxy
----@field private data NewPerkTooltipData
----@field protected settings userSettingsUserSettings
----@field protected settingsListener EspionageTooltipSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field private wrapper inkWidgetReference
----@field private c_swipeLeftOut CName
----@field private c_swipeLeftIn CName
----@field private c_swipeRightOut CName
----@field private c_swipeRightIn CName
+---@field private ["title"] inkTextWidgetReference
+---@field private ["subTitle"] inkTextWidgetReference
+---@field private ["description"] inkTextWidgetReference
+---@field private ["subDescription"] inkTextWidgetReference
+---@field private ["videoWidget"] inkVideoWidgetReference
+---@field private ["cornerContainer"] inkWidgetReference
+---@field private ["relicCost"] inkWidgetReference
+---@field private ["bars"] inkWidgetReference[]
+---@field private ["inputHints"] inkWidgetReference
+---@field private ["buyHint"] inkWidgetReference
+---@field private ["sellHint"] inkWidgetReference
+---@field private ["currentEntry"] NewPerksCyberwareDetailsMenu
+---@field private ["swipeOutAnim"] inkanimProxy
+---@field private ["swipeInAnim"] inkanimProxy
+---@field private ["data"] NewPerkTooltipData
+---@field protected ["settings"] userSettingsUserSettings
+---@field protected ["settingsListener"] EspionageTooltipSettingsListener
+---@field protected ["groupPath"] CName
+---@field protected ["bigFontEnabled"] Bool
+---@field private ["wrapper"] inkWidgetReference
+---@field private ["c_swipeLeftOut"] CName
+---@field private ["c_swipeLeftIn"] CName
+---@field private ["c_swipeRightOut"] CName
+---@field private ["c_swipeRightIn"] CName
 NewPerksCyberwareTooltipController = {}
 
 ---@param fields? table
@@ -71,8 +71,8 @@ function NewPerksCyberwareTooltipController:GetTitle() return end
 ---@return redResourceReferenceScriptToken
 function NewPerksCyberwareTooltipController:GetVideo() return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameUnequipByContextRequest: gamePlayerScriptableSystemRequest
----@field public itemUnequipContext gameItemUnequipContexts
+---@field public ["itemUnequipContext"] gameItemUnequipContexts
 gameUnequipByContextRequest = {}
 
 ---@param fields? table

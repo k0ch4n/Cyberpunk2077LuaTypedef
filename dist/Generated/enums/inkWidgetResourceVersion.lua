@@ -3,6 +3,6 @@
 
 ---@enum inkWidgetResourceVersion
 inkWidgetResourceVersion = {
-    ["Default"] = 0,
-    ["BrushToAtlas"] = 1
+    ["Default"] = 0, ---@type Enum
+    ["BrushToAtlas"] = 1, ---@type Enum
 }

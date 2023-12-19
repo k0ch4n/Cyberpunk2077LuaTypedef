@@ -3,9 +3,9 @@
 
 ---@enum gameGrenadeThrowStartType
 gameGrenadeThrowStartType = {
-    ["Invalid"] = 0,
-    ["LeftSide"] = 1,
-    ["RightSide"] = 2,
-    ["Top"] = 3,
-    ["Count"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["LeftSide"] = 1, ---@type Enum
+    ["RightSide"] = 2, ---@type Enum
+    ["Top"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
 }

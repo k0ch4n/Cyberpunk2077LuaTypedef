@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioVoiceTriggerData
----@field public name CName
----@field public variationIndex Uint32
----@field public variationNumber Uint32
----@field public overridingVoContext locVoiceoverContext
+---@field public ["name"] CName
+---@field public ["variationIndex"] Uint32
+---@field public ["variationNumber"] Uint32
+---@field public ["overridingVoContext"] locVoiceoverContext
 audioVoiceTriggerData = {}
 
 ---@param fields? table

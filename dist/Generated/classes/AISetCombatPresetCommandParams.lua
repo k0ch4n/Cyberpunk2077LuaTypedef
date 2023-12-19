@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetCombatPresetCommandParams: questScriptedAICommandParams
----@field public combatPreset EAICombatPreset
+---@field public ["combatPreset"] EAICombatPreset
 AISetCombatPresetCommandParams = {}
 
 ---@param fields? table

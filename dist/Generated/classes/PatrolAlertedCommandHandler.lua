@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PatrolAlertedCommandHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field public ["inCommand"] AIArgumentMapping
 PatrolAlertedCommandHandler = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum gamedataAIRole
 gamedataAIRole = {
-    ["Follower"] = 0,
-    ["Patrol"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = 3
+    ["Follower"] = 0, ---@type Enum
+    ["Patrol"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VRoomFeed: redEvent
----@field public On Bool
+---@field public ["On"] Bool
 VRoomFeed = {}
 
 ---@param fields? table

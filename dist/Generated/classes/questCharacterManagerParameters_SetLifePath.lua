@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetLifePath: questICharacterManagerParameters_NodeSubType
----@field public lifePathID TweakDBID
+---@field public ["lifePathID"] TweakDBID
 questCharacterManagerParameters_SetLifePath = {}
 
 ---@param fields? table

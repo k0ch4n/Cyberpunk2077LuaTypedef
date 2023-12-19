@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InteractiveSignDeviceWidgetController: DeviceWidgetControllerBase
----@field public messageWidgetPath CName
----@field public backgroundWidgetPath CName
----@field public messageWidget inkTextWidget
----@field public backgroundWidget inkWidget
+---@field public ["messageWidgetPath"] CName
+---@field public ["backgroundWidgetPath"] CName
+---@field public ["messageWidget"] inkTextWidget
+---@field public ["backgroundWidget"] inkWidget
 InteractiveSignDeviceWidgetController = {}
 
 ---@param fields? table

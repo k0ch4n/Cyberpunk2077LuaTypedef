@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeDeflectEvents: MeleeEventsTransition
----@field public deflectStatFlag gameStatModifierData_Deprecated
+---@field public ["deflectStatFlag"] gameStatModifierData_Deprecated
 MeleeDeflectEvents = {}
 
 ---@param fields? table

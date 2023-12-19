@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class TerminalInkGameControllerBase: MasterDeviceInkGameControllerBase
----@field protected layoutID TweakDBID
----@field protected currentLayoutLibraryID CName
----@field protected mainLayout inkWidget
----@field protected currentlyActiveDevices gamePersistentID[]
----@field private buttonVisibility Bool
----@field private mainDisplayWidget inkVideoWidget
----@field private terminalTitle String
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field protected ["layoutID"] TweakDBID
+---@field protected ["currentLayoutLibraryID"] CName
+---@field protected ["mainLayout"] inkWidget
+---@field protected ["currentlyActiveDevices"] gamePersistentID[]
+---@field private ["buttonVisibility"] Bool
+---@field private ["mainDisplayWidget"] inkVideoWidget
+---@field private ["terminalTitle"] String
+---@field private ["onGlitchingStateChangedListener"] redCallbackObject
 TerminalInkGameControllerBase = {}
 
 ---@param fields? table
@@ -51,7 +51,7 @@ function TerminalInkGameControllerBase:IsMainLayoutInitialized() return end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
----@param audioEvent CName
+---@param audioEvent CName|string
 ---@return nil
 function TerminalInkGameControllerBase:PlayVideo(videoPath, looped, audioEvent) return end
 

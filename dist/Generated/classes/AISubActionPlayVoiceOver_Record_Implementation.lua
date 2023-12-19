@@ -39,7 +39,7 @@ function AISubActionPlayVoiceOver_Record_Implementation.IsSquadmateConditionFulf
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionPlayVoiceOver_Record
----@param debugInitContext CName
+---@param debugInitContext CName|string
 ---@return nil
 function AISubActionPlayVoiceOver_Record_Implementation.SendVoiceOverEvent(context, record, debugInitContext) return end
 

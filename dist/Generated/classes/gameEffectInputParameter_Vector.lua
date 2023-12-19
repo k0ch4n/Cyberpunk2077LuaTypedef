@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectInputParameter_Vector
----@field public evaluator gameIEffectParameter_VectorEvaluator
+---@field public ["evaluator"] gameIEffectParameter_VectorEvaluator
 gameEffectInputParameter_Vector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConstantStatPoolPrereqState: StatPoolPrereqState
----@field public listenConstantly Bool
+---@field public ["listenConstantly"] Bool
 ConstantStatPoolPrereqState = {}
 
 ---@param fields? table

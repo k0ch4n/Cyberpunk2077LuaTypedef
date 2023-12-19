@@ -117,7 +117,7 @@ function gameRPGManager.GetItemDataQuality(itemData) return end
 ---@return nil
 function gameRPGManager.GetQualityBasedOnPowerLevel() return end
 
----@param refObjectName CName
+---@param refObjectName CName|string
 ---@param root gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigator? gameStatsObjectID
@@ -395,8 +395,8 @@ function gameRPGManager.CreateStatModifier(statType, modType, value) return end
 ---@param statType gamedataStatType
 ---@param modType gameStatModifierType
 ---@param refStat gamedataStatType
----@param curveName CName
----@param columnName CName
+---@param curveName CName|string
+---@param columnName CName|string
 ---@return gameStatModifierData_Deprecated
 function gameRPGManager.CreateStatModifierUsingCurve(statType, modType, refStat, curveName, columnName) return end
 
@@ -447,7 +447,7 @@ function gameRPGManager.ForceEquipStrongArms(player, instantStatChange) return e
 
 ---@param obj gameObject
 ---@param itemData gameItemData
----@param forcedQuality CName
+---@param forcedQuality CName|string
 ---@return nil
 function gameRPGManager.ForceItemTier(obj, itemData, forcedQuality) return end
 
@@ -635,7 +635,7 @@ function gameRPGManager.GetItemTierForUpgrades(itemData) return end
 ---@return gamedataQuality
 function gameRPGManager.GetItemTierForUpgrades(tierStat) return end
 
----@param tierName CName
+---@param tierName CName|string
 ---@return Float
 function gameRPGManager.GetItemTierFromName(tierName) return end
 
@@ -728,7 +728,7 @@ function gameRPGManager.GetRandomizedGadget(puppet) return end
 function gameRPGManager.GetRandomizedHealingConsumable(puppet) return end
 
 ---@param puppet NPCPuppet
----@param curveName CName
+---@param curveName CName|string
 ---@return Float
 function gameRPGManager.GetRarityMultiplier(puppet, curveName) return end
 
@@ -971,7 +971,7 @@ function gameRPGManager.IsWeaponMod(itemID) return end
 ---@return Float
 function gameRPGManager.ItemQualityEnumToValue(q) return end
 
----@param q CName
+---@param q CName|string
 ---@return Float
 function gameRPGManager.ItemQualityNameToValue(q) return end
 

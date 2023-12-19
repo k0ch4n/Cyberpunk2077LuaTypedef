@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UncontrolledMovementEffector: gameEffector
----@field public recordID TweakDBID
+---@field public ["recordID"] TweakDBID
 UncontrolledMovementEffector = {}
 
 ---@param fields? table

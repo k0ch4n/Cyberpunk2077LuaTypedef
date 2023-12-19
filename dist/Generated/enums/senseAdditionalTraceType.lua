@@ -3,7 +3,7 @@
 
 ---@enum senseAdditionalTraceType
 senseAdditionalTraceType = {
-    ["Knee"] = 0,
-    ["Hip"] = 1,
-    ["Chest"] = 2
+    ["Knee"] = 0, ---@type Enum
+    ["Hip"] = 1, ---@type Enum
+    ["Chest"] = 2, ---@type Enum
 }

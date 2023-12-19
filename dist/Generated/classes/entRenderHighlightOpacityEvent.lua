@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entRenderHighlightOpacityEvent: redEvent
----@field public opacity Float
+---@field public ["opacity"] Float
 entRenderHighlightOpacityEvent = {}
 
 ---@param fields? table

@@ -3,17 +3,17 @@
 
 ---@enum audioEventActionType
 audioEventActionType = {
-    ["Play"] = 0,
-    ["PlayAnimation"] = 1,
-    ["SetParameter"] = 2,
-    ["StopSound"] = 3,
-    ["SetSwitch"] = 4,
-    ["StopTagged"] = 5,
-    ["PlayExternal"] = 6,
-    ["Tag"] = 7,
-    ["Untag"] = 8,
-    ["SetAppearanceName"] = 9,
-    ["SetEntityName"] = 10,
-    ["AddContainerStreamingPrefetch"] = 11,
-    ["RemoveContainerStreamingPrefetch"] = 12
+    ["Play"] = 0, ---@type Enum
+    ["PlayAnimation"] = 1, ---@type Enum
+    ["SetParameter"] = 2, ---@type Enum
+    ["StopSound"] = 3, ---@type Enum
+    ["SetSwitch"] = 4, ---@type Enum
+    ["StopTagged"] = 5, ---@type Enum
+    ["PlayExternal"] = 6, ---@type Enum
+    ["Tag"] = 7, ---@type Enum
+    ["Untag"] = 8, ---@type Enum
+    ["SetAppearanceName"] = 9, ---@type Enum
+    ["SetEntityName"] = 10, ---@type Enum
+    ["AddContainerStreamingPrefetch"] = 11, ---@type Enum
+    ["RemoveContainerStreamingPrefetch"] = 12, ---@type Enum
 }

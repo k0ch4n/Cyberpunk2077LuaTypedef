@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StatsStreetCredRewardItem: inkButtonController
----@field private levelRef inkTextWidgetReference
----@field private iconRef inkImageWidgetReference
----@field private data LevelRewardDisplayData
+---@field private ["levelRef"] inkTextWidgetReference
+---@field private ["iconRef"] inkImageWidgetReference
+---@field private ["data"] LevelRewardDisplayData
 StatsStreetCredRewardItem = {}
 
 ---@param fields? table
@@ -15,6 +15,6 @@ function StatsStreetCredRewardItem.new(fields) return end
 function StatsStreetCredRewardItem:GetRewardData() return end
 
 ---@param data LevelRewardDisplayData
----@param state? CName
+---@param state? CName|string
 ---@return nil
 function StatsStreetCredRewardItem:SetData(data, state) return end

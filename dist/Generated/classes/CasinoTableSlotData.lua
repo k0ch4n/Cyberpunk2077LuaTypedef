@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CasinoTableSlotData
----@field public widget inkWidgetReference
----@field public controller CasinoTableSlotLogicController
----@field public casinoChipsListener gameInventoryScriptListener
----@field public slotUser gameObject
+---@field public ["widget"] inkWidgetReference
+---@field public ["controller"] CasinoTableSlotLogicController
+---@field public ["casinoChipsListener"] gameInventoryScriptListener
+---@field public ["slotUser"] gameObject
 CasinoTableSlotData = {}
 
 ---@param fields? table

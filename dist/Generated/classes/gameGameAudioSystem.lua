@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameGameAudioSystem: gameIGameAudioSystem
----@field private enemyPingStimCount Uint8
----@field private mixHasDetectedCombat Bool
+---@field private ["enemyPingStimCount"] Uint8
+---@field private ["mixHasDetectedCombat"] Bool
 gameGameAudioSystem = {}
 
 ---@param fields? table
 ---@return gameGameAudioSystem
 function gameGameAudioSystem.new(fields) return end
 
----@param effectName CName
----@param label CName
+---@param effectName CName|string
+---@param label CName|string
 ---@return nil
 function gameGameAudioSystem:AddTriggerEffect(effectName, label) return end
 
@@ -30,18 +30,18 @@ function gameGameAudioSystem:EquipNewOutfitByPlayer(itemID) return end
 ---@return gameInputTriggerState
 function gameGameAudioSystem:GetLeftTriggerState() return end
 
----@param playlistName CName
+---@param playlistName CName|string
 ---@return CName
 function gameGameAudioSystem:GetPlaylistCurrentSong(playlistName) return end
 
----@param playlistName CName
+---@param playlistName CName|string
 ---@return CName[]
 function gameGameAudioSystem:GetPlaylistSongs(playlistName) return end
 
 ---@return gameInputTriggerState
 function gameGameAudioSystem:GetRightTriggerState() return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param parameterValue Float
 ---@return nil
 function gameGameAudioSystem:GlobalParameter(parameterName, parameterValue) return end
@@ -49,7 +49,7 @@ function gameGameAudioSystem:GlobalParameter(parameterName, parameterValue) retu
 ---@return Bool
 function gameGameAudioSystem:IsInScanningMode() return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameGameAudioSystem:NotifyGameTone(eventName) return end
 
@@ -57,26 +57,26 @@ function gameGameAudioSystem:NotifyGameTone(eventName) return end
 ---@return nil
 function gameGameAudioSystem:OpenAcousticPortal(object) return end
 
----@param parameterName CName
+---@param parameterName CName|string
 ---@param parameterValue Float
 ---@param entityID? entEntityID
----@param emitterName? CName
+---@param emitterName? CName|string
 ---@return nil
 function gameGameAudioSystem:Parameter(parameterName, parameterValue, entityID, emitterName) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param entityID? entEntityID
----@param emitterName? CName
+---@param emitterName? CName|string
 ---@return nil
 function gameGameAudioSystem:Play(eventName, entityID, emitterName) return end
 
----@param impactContext CName
+---@param impactContext CName|string
 ---@param position Vector4
 ---@param object gameObject
 ---@return nil
 function gameGameAudioSystem:PlayImpact(impactContext, position, object) return end
 
----@param shockwaveType CName
+---@param shockwaveType CName|string
 ---@param position Vector4
 ---@return nil
 function gameGameAudioSystem:PlayShockwave(shockwaveType, position) return end
@@ -93,32 +93,32 @@ function gameGameAudioSystem:RegisterPreventionHeatStage(preventionHeatStage) re
 ---@return nil
 function gameGameAudioSystem:RemoveAllTriggerEffects() return end
 
----@param label CName
+---@param label CName|string
 ---@return nil
 function gameGameAudioSystem:RemoveTriggerEffect(label) return end
 
----@param effectName CName
----@param label CName
+---@param effectName CName|string
+---@param label CName|string
 ---@param createIfNotPresent? Bool
 ---@return nil
 function gameGameAudioSystem:ReplaceTriggerEffect(effectName, label, createIfNotPresent) return end
 
 ---@param id Uint16
----@param effect CName
+---@param effect CName|string
 ---@return nil
 function gameGameAudioSystem:ReplaceTriggerEffectMode(id, effect) return end
 
----@param playlistName CName
----@param songName CName
+---@param playlistName CName|string
+---@param songName CName|string
 ---@return nil
 function gameGameAudioSystem:RequestSongOnPlaylist(playlistName, songName) return end
 
----@param stationName CName
----@param songName CName
+---@param stationName CName|string
+---@param songName CName|string
 ---@return nil
 function gameGameAudioSystem:RequestSongOnRadioStation(stationName, songName) return end
 
----@param label CName
+---@param label CName|string
 ---@return nil
 function gameGameAudioSystem:RevertTriggerEffect(label) return end
 
@@ -130,11 +130,11 @@ function gameGameAudioSystem:SetBDCameraListenerOverride(value) return end
 ---@return nil
 function gameGameAudioSystem:SetInScanningMode(inScanningMode) return end
 
----@param effect CName
+---@param effect CName|string
 ---@return Uint16
 function gameGameAudioSystem:SetTriggerEffectMode(effect) return end
 
----@param effect CName
+---@param effect CName|string
 ---@param time Float
 ---@return Uint16
 function gameGameAudioSystem:SetTriggerEffectModeTimed(effect, time) return end
@@ -144,16 +144,16 @@ function gameGameAudioSystem:SetTriggerEffectModeTimed(effect, time) return end
 ---@return nil
 function gameGameAudioSystem:State(stateGroup, state) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param entityID? entEntityID
----@param emitterName? CName
+---@param emitterName? CName|string
 ---@return nil
 function gameGameAudioSystem:Stop(eventName, entityID, emitterName) return end
 
----@param switchName CName
----@param switchValue CName
+---@param switchName CName|string
+---@param switchValue CName|string
 ---@param entityID? entEntityID
----@param emitterName? CName
+---@param emitterName? CName|string
 ---@return nil
 function gameGameAudioSystem:Switch(switchName, switchValue, entityID, emitterName) return end
 
@@ -184,8 +184,8 @@ function gameGameAudioSystem:VoIsPerceptible(entityId) return end
 function gameGameAudioSystem:OnGameEnd() return end
 
 ---@param playerObject gameObject
----@param triggerName CName
----@param triggerLabel CName
+---@param triggerName CName|string
+---@param triggerLabel CName|string
 ---@return nil
 function gameGameAudioSystem:AddTriggerEffectIfPlayerNotInVehicleDriverSeat(playerObject, triggerName, triggerLabel) return end
 
@@ -210,7 +210,7 @@ function gameGameAudioSystem:HandleOutOfCombatMix(localPlayer) return end
 ---@return Bool
 function gameGameAudioSystem:IsPlayerInVehicleInDriverSeat(playerObject) return end
 
----@param action CName
+---@param action CName|string
 ---@param itemData gameItemData
 ---@return nil
 function gameGameAudioSystem:PlayItemActionSound(action, itemData) return end

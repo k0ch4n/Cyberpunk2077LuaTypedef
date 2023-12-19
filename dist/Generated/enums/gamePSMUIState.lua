@@ -3,6 +3,6 @@
 
 ---@enum gamePSMUIState
 gamePSMUIState = {
-    ["None"] = 0,
-    ["WeaponSelect"] = 1
+    ["None"] = 0, ---@type Enum
+    ["WeaponSelect"] = 1, ---@type Enum
 }

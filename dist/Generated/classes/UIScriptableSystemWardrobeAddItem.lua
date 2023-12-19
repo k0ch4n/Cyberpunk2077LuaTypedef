@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemWardrobeAddItem: gameScriptableSystemRequest
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 UIScriptableSystemWardrobeAddItem = {}
 
 ---@param fields? table

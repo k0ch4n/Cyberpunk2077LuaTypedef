@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckWoundedStatusEffectState: AIStatusEffectCondition
----@field public stateToCheck EstatusEffectsState
+---@field public ["stateToCheck"] EstatusEffectsState
 CheckWoundedStatusEffectState = {}
 
 ---@param fields? table

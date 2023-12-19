@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChestPress: InteractiveDevice
----@field private animFeatureData AnimFeature_ChestPress
----@field private animFeatureDataName CName
+---@field private ["animFeatureData"] AnimFeature_ChestPress
+---@field private ["animFeatureDataName"] CName
 ChestPress = {}
 
 ---@param fields? table

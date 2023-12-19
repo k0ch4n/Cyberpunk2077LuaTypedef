@@ -3,13 +3,13 @@
 
 ---@enum gamedataSenseObjectType
 gamedataSenseObjectType = {
-    ["Camera"] = 0,
-    ["Deadbody"] = 1,
-    ["Follower"] = 2,
-    ["Npc"] = 3,
-    ["Player"] = 4,
-    ["Turret"] = 5,
-    ["Undefined"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["Camera"] = 0, ---@type Enum
+    ["Deadbody"] = 1, ---@type Enum
+    ["Follower"] = 2, ---@type Enum
+    ["Npc"] = 3, ---@type Enum
+    ["Player"] = 4, ---@type Enum
+    ["Turret"] = 5, ---@type Enum
+    ["Undefined"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

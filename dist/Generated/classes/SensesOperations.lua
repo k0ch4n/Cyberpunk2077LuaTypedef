@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SensesOperations: DeviceOperations
----@field protected sensesOperations SSensesOperationData[]
+---@field protected ["sensesOperations"] SSensesOperationData[]
 SensesOperations = {}
 
 ---@param fields? table

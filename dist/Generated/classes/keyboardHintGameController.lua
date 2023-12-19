@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class keyboardHintGameController: gameuiHUDGameController
----@field private TopElementName CName
----@field private BottomElementName CName
----@field private Layout inkBasePanelWidgetReference
----@field private UIItems KeyboardHintItemController[]
----@field private Player PlayerPuppet
----@field private QuickSlotsManager QuickSlotsManager
----@field private UiQuickItemsBlackboard gameIBlackboard
----@field private KeyboardCommandBBID redCallbackObject
+---@field private ["TopElementName"] CName
+---@field private ["BottomElementName"] CName
+---@field private ["Layout"] inkBasePanelWidgetReference
+---@field private ["UIItems"] KeyboardHintItemController[]
+---@field private ["Player"] PlayerPuppet
+---@field private ["QuickSlotsManager"] QuickSlotsManager
+---@field private ["UiQuickItemsBlackboard"] gameIBlackboard
+---@field private ["KeyboardCommandBBID"] redCallbackObject
 keyboardHintGameController = {}
 
 ---@param fields? table

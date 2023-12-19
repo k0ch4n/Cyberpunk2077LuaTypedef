@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnLipsyncAnimSetSRRef
----@field public lipsyncAnimSet animAnimSet
----@field public asyncRefLipsyncAnimSet animAnimSet
+---@field public ["lipsyncAnimSet"] animAnimSet
+---@field public ["asyncRefLipsyncAnimSet"] animAnimSet
 scnLipsyncAnimSetSRRef = {}
 
 ---@param fields? table

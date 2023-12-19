@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameEnvironmentDamageReceiverShape: ISerializable
----@field public transform Transform
+---@field public ["transform"] Transform
 gameEnvironmentDamageReceiverShape = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTransformAnimatorNode_Action_Skip: questTransformAnimatorNode_ActionType
----@field public skipTo Float
----@field public skipToEnd Bool
+---@field public ["skipTo"] Float
+---@field public ["skipToEnd"] Bool
 questTransformAnimatorNode_Action_Skip = {}
 
 ---@param fields? table

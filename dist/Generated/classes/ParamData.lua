@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ParamData
----@field public name String
----@field public type String
----@field public defaultValue Variant
+---@field public ["name"] String
+---@field public ["type"] String
+---@field public ["defaultValue"] Variant
 ParamData = {}
 
 ---@param fields? table

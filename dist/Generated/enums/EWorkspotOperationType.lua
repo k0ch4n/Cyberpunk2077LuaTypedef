@@ -3,6 +3,6 @@
 
 ---@enum EWorkspotOperationType
 EWorkspotOperationType = {
-    ["ENTER"] = 0,
-    ["LEAVE"] = 1
+    ["ENTER"] = 0, ---@type Enum
+    ["LEAVE"] = 1, ---@type Enum
 }

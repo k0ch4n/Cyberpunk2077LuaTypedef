@@ -8,15 +8,15 @@ gameuiBaseBunkerComputerGameController = {}
 ---@return gameuiBaseBunkerComputerGameController
 function gameuiBaseBunkerComputerGameController.new(fields) return end
 
----@param timerName CName
+---@param timerName CName|string
 ---@param time Float
 ---@return nil
 function gameuiBaseBunkerComputerGameController:AddTimer(timerName, time) return end
 
----@param fact CName
+---@param fact CName|string
 ---@return nil
 function gameuiBaseBunkerComputerGameController:ListenToFact(fact) return end
 
----@param timerName CName
+---@param timerName CName|string
 ---@return nil
 function gameuiBaseBunkerComputerGameController:ResetTimer(timerName) return end

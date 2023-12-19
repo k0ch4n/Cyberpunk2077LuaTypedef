@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnVarComparison_FactConditionType: scnInterruptFactConditionType
----@field public params scnVarComparison_FactConditionTypeParams
+---@field public ["params"] scnVarComparison_FactConditionTypeParams
 scnVarComparison_FactConditionType = {}
 
 ---@param fields? table

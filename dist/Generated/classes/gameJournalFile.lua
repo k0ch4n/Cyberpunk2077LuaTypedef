@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameJournalFile: gameJournalEntry
----@field public title LocalizationString
----@field public content LocalizationString
----@field public videoResource Bink
----@field public PictureFilename(legacy) String
----@field public pictureTweak TweakDBID
+---@field public ["title"] LocalizationString
+---@field public ["content"] LocalizationString
+---@field public ["videoResource"] Bink
+---@field public ["PictureFilename(legacy)"] String
+---@field public ["pictureTweak"] TweakDBID
 gameJournalFile = {}
 
 ---@param fields? table

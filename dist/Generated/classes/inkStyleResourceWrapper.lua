@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkStyleResourceWrapper: ISerializable
----@field public styleResource inkStyleResource
+---@field public ["styleResource"] inkStyleResource
 inkStyleResourceWrapper = {}
 
 ---@param fields? table

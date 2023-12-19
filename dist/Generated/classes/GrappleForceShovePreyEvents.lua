@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrappleForceShovePreyEvents: LocomotionTakedownEvents
----@field public unmountCalled Bool
+---@field public ["unmountCalled"] Bool
 GrappleForceShovePreyEvents = {}
 
 ---@param fields? table

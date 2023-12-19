@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceSubtitleEntry
----@field public stringId CRUID
----@field public femaleVariant String
----@field public maleVariant String
+---@field public ["stringId"] CRUID
+---@field public ["femaleVariant"] String
+---@field public ["maleVariant"] String
 localizationPersistenceSubtitleEntry = {}
 
 ---@param fields? table

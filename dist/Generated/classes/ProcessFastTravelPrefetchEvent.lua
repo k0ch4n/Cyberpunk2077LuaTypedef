@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProcessFastTravelPrefetchEvent: redEvent
----@field public destinationRef NodeRef
+---@field public ["destinationRef"] NodeRef
 ProcessFastTravelPrefetchEvent = {}
 
 ---@param fields? table

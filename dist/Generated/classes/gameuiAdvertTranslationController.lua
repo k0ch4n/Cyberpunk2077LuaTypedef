@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAdvertTranslationController: gameuiWidgetGameController
----@field public advertText inkTextWidgetReference
+---@field public ["advertText"] inkTextWidgetReference
 gameuiAdvertTranslationController = {}
 
 ---@param fields? table

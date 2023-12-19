@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HubExperienceBarController: inkWidgetLogicController
----@field protected foregroundContainer inkWidgetReference
+---@field protected ["foregroundContainer"] inkWidgetReference
 HubExperienceBarController = {}
 
 ---@param fields? table

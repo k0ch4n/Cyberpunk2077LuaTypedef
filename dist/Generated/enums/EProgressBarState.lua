@@ -3,7 +3,7 @@
 
 ---@enum EProgressBarState
 EProgressBarState = {
-    ["Available"] = 0,
-    ["Blocked"] = 1,
-    ["Invisible"] = 2
+    ["Available"] = 0, ---@type Enum
+    ["Blocked"] = 1, ---@type Enum
+    ["Invisible"] = 2, ---@type Enum
 }

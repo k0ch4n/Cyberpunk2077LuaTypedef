@@ -3,7 +3,7 @@
 
 ---@enum gameuiarcadeArcadeMinigame
 gameuiarcadeArcadeMinigame = {
-    ["RoachRace"] = 0,
-    ["Shooter"] = 1,
-    ["Tank"] = 2
+    ["RoachRace"] = 0, ---@type Enum
+    ["Shooter"] = 1, ---@type Enum
+    ["Tank"] = 2, ---@type Enum
 }

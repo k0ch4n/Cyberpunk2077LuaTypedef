@@ -3,9 +3,9 @@
 
 ---@enum inkSaveType
 inkSaveType = {
-    ["ManualSave"] = 0,
-    ["QuickSave"] = 1,
-    ["AutoSave"] = 2,
-    ["PointOfNoReturn"] = 3,
-    ["EndGameSave"] = 4
+    ["ManualSave"] = 0, ---@type Enum
+    ["QuickSave"] = 1, ---@type Enum
+    ["AutoSave"] = 2, ---@type Enum
+    ["PointOfNoReturn"] = 3, ---@type Enum
+    ["EndGameSave"] = 4, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Example_FxSpawning: gameScriptableComponent
----@field private effect gameFxResource
----@field private effectBeam gameFxResource
+---@field private ["effect"] gameFxResource
+---@field private ["effectBeam"] gameFxResource
 Example_FxSpawning = {}
 
 ---@private

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioLocomotionCustomActionType: audioAudioMetadata
----@field public void Bool
+---@field public ["void"] Bool
 audioLocomotionCustomActionType = {}
 
 ---@param fields? table

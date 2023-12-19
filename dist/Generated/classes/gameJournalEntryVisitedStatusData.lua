@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalEntryVisitedStatusData
----@field public entryPath gameJournalPath
----@field public entryType CName
----@field public isVisited Bool
+---@field public ["entryPath"] gameJournalPath
+---@field public ["entryType"] CName
+---@field public ["isVisited"] Bool
 gameJournalEntryVisitedStatusData = {}
 
 ---@param fields? table

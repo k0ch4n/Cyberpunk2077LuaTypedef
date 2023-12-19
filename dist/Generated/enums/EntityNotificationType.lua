@@ -3,7 +3,7 @@
 
 ---@enum EntityNotificationType
 EntityNotificationType = {
-    ["DoNotNotifyEntity"] = 0,
-    ["SendThisEventToEntity"] = 1,
-    ["SendPSChangedEventToEntity"] = 2
+    ["DoNotNotifyEntity"] = 0, ---@type Enum
+    ["SendThisEventToEntity"] = 1, ---@type Enum
+    ["SendPSChangedEventToEntity"] = 2, ---@type Enum
 }

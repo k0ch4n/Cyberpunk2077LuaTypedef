@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DoorWidgetCustomData: WidgetCustomData
----@field private passcode Int32
----@field private card CName
----@field private isPasswordKnown Bool
+---@field private ["passcode"] Int32
+---@field private ["card"] CName
+---@field private ["isPasswordKnown"] Bool
 DoorWidgetCustomData = {}
 
 ---@param fields? table
@@ -20,7 +20,7 @@ function DoorWidgetCustomData:GetPasscode() return end
 ---@return Bool
 function DoorWidgetCustomData:IsPasswordKnown() return end
 
----@param cardName CName
+---@param cardName CName|string
 ---@return nil
 function DoorWidgetCustomData:SetCardName(cardName) return end
 

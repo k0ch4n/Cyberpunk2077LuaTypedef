@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestTitleModifier: gameJournalEntry
----@field public title LocalizationString
+---@field public ["title"] LocalizationString
 gameJournalQuestTitleModifier = {}
 
 ---@param fields? table

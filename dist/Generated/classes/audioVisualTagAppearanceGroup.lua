@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVisualTagAppearanceGroup
----@field public appearances CName[]
----@field public visualTags CName[]
+---@field public ["appearances"] CName[]
+---@field public ["visualTags"] CName[]
 audioVisualTagAppearanceGroup = {}
 
 ---@param fields? table

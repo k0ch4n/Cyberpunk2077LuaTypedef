@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class QuestListGameController: gameuiHUDGameController
----@field private entryList inkVerticalPanelWidgetReference
----@field private scanPulse inkCompoundWidgetReference
----@field private optionalHeader inkWidgetReference
----@field private toDoHeader inkWidgetReference
----@field private optionalList inkVerticalPanelWidgetReference
----@field private nonOptionalList inkVerticalPanelWidgetReference
----@field private entryControllers inkScriptDynArray
----@field private scanPulseAnimProxy inkanimProxy
----@field private stateChangesBlackboardId Uint32
----@field private trackedChangesBlackboardId Uint32
----@field private JournalWrapper JournalWrapper
----@field private player gameObject
----@field private optionalHeaderController QuestListHeaderLogicController
----@field private toDoHeaderController QuestListHeaderLogicController
----@field private lastNonOptionalObjective QuestObjectiveWrapper
+---@field private ["entryList"] inkVerticalPanelWidgetReference
+---@field private ["scanPulse"] inkCompoundWidgetReference
+---@field private ["optionalHeader"] inkWidgetReference
+---@field private ["toDoHeader"] inkWidgetReference
+---@field private ["optionalList"] inkVerticalPanelWidgetReference
+---@field private ["nonOptionalList"] inkVerticalPanelWidgetReference
+---@field private ["entryControllers"] inkScriptDynArray
+---@field private ["scanPulseAnimProxy"] inkanimProxy
+---@field private ["stateChangesBlackboardId"] Uint32
+---@field private ["trackedChangesBlackboardId"] Uint32
+---@field private ["JournalWrapper"] JournalWrapper
+---@field private ["player"] gameObject
+---@field private ["optionalHeaderController"] QuestListHeaderLogicController
+---@field private ["toDoHeaderController"] QuestListHeaderLogicController
+---@field private ["lastNonOptionalObjective"] QuestObjectiveWrapper
 QuestListGameController = {}
 
 ---@param fields? table
@@ -31,7 +31,7 @@ function QuestListGameController:OnAction(action, consumer) return end
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -43,7 +43,7 @@ function QuestListGameController:OnInitialize() return end
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -56,7 +56,7 @@ function QuestListGameController:OnRemoveEntry(entryWidget) return end
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -64,7 +64,7 @@ function QuestListGameController:OnStateChanges(hash, className, notifyOption, c
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool

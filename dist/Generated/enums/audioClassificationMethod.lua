@@ -3,9 +3,9 @@
 
 ---@enum audioClassificationMethod
 audioClassificationMethod = {
-    ["HasAnyTag"] = 0,
-    ["HasAllTags"] = 1,
-    ["NameEquals"] = 2,
-    ["EventNameEquals"] = 3,
-    ["HasAllEventTags"] = 4
+    ["HasAnyTag"] = 0, ---@type Enum
+    ["HasAllTags"] = 1, ---@type Enum
+    ["NameEquals"] = 2, ---@type Enum
+    ["EventNameEquals"] = 3, ---@type Enum
+    ["HasAllEventTags"] = 4, ---@type Enum
 }

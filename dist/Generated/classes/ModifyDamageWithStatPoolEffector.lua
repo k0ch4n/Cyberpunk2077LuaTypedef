@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageWithStatPoolEffector: ModifyDamageEffector
----@field public statPool gamedataStatPoolType
----@field public poolStatus String
----@field public maxDmg Float
----@field public percentMult Float
----@field public refObj String
+---@field public ["statPool"] gamedataStatPoolType
+---@field public ["poolStatus"] String
+---@field public ["maxDmg"] Float
+---@field public ["percentMult"] Float
+---@field public ["refObj"] String
 ModifyDamageWithStatPoolEffector = {}
 
 ---@param fields? table

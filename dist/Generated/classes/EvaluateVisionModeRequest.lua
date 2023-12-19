@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EvaluateVisionModeRequest: gameScriptableSystemRequest
----@field public mode gameVisionModeType
+---@field public ["mode"] gameVisionModeType
 EvaluateVisionModeRequest = {}
 
 ---@param fields? table

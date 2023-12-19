@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetRandomIntArgument: AIRandomTasks
----@field public MaxValue Int32
----@field public MinValue Int32
----@field public ArgumentName CName
+---@field public ["MaxValue"] Int32
+---@field public ["MinValue"] Int32
+---@field public ["ArgumentName"] CName
 SetRandomIntArgument = {}
 
 ---@param fields? table
@@ -18,7 +18,7 @@ function SetRandomIntArgument:Activate(context) return end
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param argumentName CName
+---@param argumentName CName|string
 ---@param intValue Int32
 ---@return nil
 function SetRandomIntArgument:SetArgument(context, argumentName, intValue) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimSetVisibilityEvent: inkanimEvent
----@field public isVisible Bool
+---@field public ["isVisible"] Bool
 inkanimSetVisibilityEvent = {}
 
 ---@param fields? table

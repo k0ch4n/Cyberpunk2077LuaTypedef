@@ -3,7 +3,7 @@
 
 ---@enum braindanceVisionMode
 braindanceVisionMode = {
-    ["Default"] = 0,
-    ["Audio"] = 1,
-    ["Thermal"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Audio"] = 1, ---@type Enum
+    ["Thermal"] = 2, ---@type Enum
 }

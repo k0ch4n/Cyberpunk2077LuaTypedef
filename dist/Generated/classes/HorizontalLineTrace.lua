@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class HorizontalLineTrace: AIbehaviorconditionScript
----@field public source AIArgumentMapping
----@field public target AIArgumentMapping
----@field public offset AIArgumentMapping
----@field public length AIArgumentMapping
----@field public azimuth AIArgumentMapping
+---@field public ["source"] AIArgumentMapping
+---@field public ["target"] AIArgumentMapping
+---@field public ["offset"] AIArgumentMapping
+---@field public ["length"] AIArgumentMapping
+---@field public ["azimuth"] AIArgumentMapping
 HorizontalLineTrace = {}
 
 ---@param fields? table

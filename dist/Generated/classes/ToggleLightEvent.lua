@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleLightEvent: redEvent
----@field public toggle Bool
----@field public loop Bool
+---@field public ["toggle"] Bool
+---@field public ["loop"] Bool
 ToggleLightEvent = {}
 
 ---@param fields? table

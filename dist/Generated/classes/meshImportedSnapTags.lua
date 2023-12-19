@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meshImportedSnapTags
----@field public includeTags CName[]
----@field public excludeTags CName[]
+---@field public ["includeTags"] CName[]
+---@field public ["excludeTags"] CName[]
 meshImportedSnapTags = {}
 
 ---@param fields? table

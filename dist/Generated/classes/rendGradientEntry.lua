@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendGradientEntry: ISerializable
----@field public value Float
----@field public color Color
+---@field public ["value"] Float
+---@field public ["color"] Color
 rendGradientEntry = {}
 
 ---@param fields? table

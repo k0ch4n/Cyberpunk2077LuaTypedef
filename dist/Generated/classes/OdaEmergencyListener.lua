@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class OdaEmergencyListener: gameCustomValueStatPoolsListener
----@field public owner NPCPuppet
----@field public healNumber Int32
----@field private heal1HealthPercentage Float
----@field private heal2HealthPercentage Float
----@field private heal3HealthPercentage Float
----@field private heal4HealthPercentage Float
----@field private heal5HealthPercentage Float
+---@field public ["owner"] NPCPuppet
+---@field public ["healNumber"] Int32
+---@field private ["heal1HealthPercentage"] Float
+---@field private ["heal2HealthPercentage"] Float
+---@field private ["heal3HealthPercentage"] Float
+---@field private ["heal4HealthPercentage"] Float
+---@field private ["heal5HealthPercentage"] Float
 OdaEmergencyListener = {}
 
 ---@param fields? table

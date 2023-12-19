@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TextAnimOnTextChange: inkWidgetLogicController
----@field private textField inkTextWidgetReference
----@field private animationName CName
----@field private BlinkAnim inkanimDefinition
----@field private ScaleAnim inkanimDefinition
----@field private bufferedValue String
+---@field private ["textField"] inkTextWidgetReference
+---@field private ["animationName"] CName
+---@field private ["BlinkAnim"] inkanimDefinition
+---@field private ["ScaleAnim"] inkanimDefinition
+---@field private ["bufferedValue"] String
 TextAnimOnTextChange = {}
 
 ---@param fields? table

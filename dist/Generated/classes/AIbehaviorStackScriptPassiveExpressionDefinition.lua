@@ -9,7 +9,7 @@ AIbehaviorStackScriptPassiveExpressionDefinition = {}
 function AIbehaviorStackScriptPassiveExpressionDefinition.new(fields) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param callbackName CName
+---@param callbackName CName|string
 ---@return Uint32
 function AIbehaviorStackScriptPassiveExpressionDefinition:AddBehaviorCallback(context, callbackName) return end
 
@@ -18,7 +18,7 @@ function AIbehaviorStackScriptPassiveExpressionDefinition:AddBehaviorCallback(co
 function AIbehaviorStackScriptPassiveExpressionDefinition:AddToUpdateQueue(context) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param signalName CName
+---@param signalName CName|string
 ---@return Uint16
 function AIbehaviorStackScriptPassiveExpressionDefinition:ListenToSignal(context, signalName) return end
 

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDamage: IScriptable
----@field public damageType gamedataDamageType
----@field public value Float
+---@field public ["damageType"] gamedataDamageType
+---@field public ["value"] Float
 gameDamage = {}
 
 ---@param fields? table

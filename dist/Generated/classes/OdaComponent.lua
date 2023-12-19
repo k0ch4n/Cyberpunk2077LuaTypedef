@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class OdaComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private odaAIComponent AIHumanComponent
----@field private actionBlackBoard gameIBlackboard
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private healthListener OdaEmergencyListener
----@field private statusEffect_emergency TweakDBID
----@field private targetTrackerComponent AITargetTrackerComponent
----@field private weakspotDestroyed Bool
+---@field private ["owner"] NPCPuppet
+---@field private ["owner_id"] entEntityID
+---@field private ["odaAIComponent"] AIHumanComponent
+---@field private ["actionBlackBoard"] gameIBlackboard
+---@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["healthListener"] OdaEmergencyListener
+---@field private ["statusEffect_emergency"] TweakDBID
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
+---@field private ["weakspotDestroyed"] Bool
 OdaComponent = {}
 
 ---@param fields? table

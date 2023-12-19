@@ -3,6 +3,6 @@
 
 ---@enum worldTrafficSplineNodeUsage
 worldTrafficSplineNodeUsage = {
-    ["Pavement"] = 0,
-    ["Road"] = 1
+    ["Pavement"] = 0, ---@type Enum
+    ["Road"] = 1, ---@type Enum
 }

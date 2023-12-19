@@ -3,10 +3,10 @@
 
 ---@enum textOverflowPolicy
 textOverflowPolicy = {
-    ["None"] = 0,
-    ["DotsEnd"] = 1,
-    ["DotsEndLastLine"] = 2,
-    ["AutoScroll"] = 3,
-    ["PingPongScroll"] = 4,
-    ["AdjustToSize"] = 5
+    ["None"] = 0, ---@type Enum
+    ["DotsEnd"] = 1, ---@type Enum
+    ["DotsEndLastLine"] = 2, ---@type Enum
+    ["AutoScroll"] = 3, ---@type Enum
+    ["PingPongScroll"] = 4, ---@type Enum
+    ["AdjustToSize"] = 5, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum gameMuppetDebugCommand
 gameMuppetDebugCommand = {
-    ["None"] = 0,
-    ["Kill"] = 1,
-    ["KillAll"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Kill"] = 1, ---@type Enum
+    ["KillAll"] = 2, ---@type Enum
 }

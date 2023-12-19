@@ -3,13 +3,13 @@
 
 ---@enum questVehicleWeaponQuestID
 questVehicleWeaponQuestID = {
-    ["Primary"] = 0,
-    ["Secondary"] = 1,
-    ["Tertiary"] = 2,
-    ["Quaternary"] = 3,
-    ["Quinary"] = 4,
-    ["Senary"] = 5,
-    ["Septenary"] = 6,
-    ["Octonary"] = 7,
-    ["All"] = 8
+    ["Primary"] = 0, ---@type Enum
+    ["Secondary"] = 1, ---@type Enum
+    ["Tertiary"] = 2, ---@type Enum
+    ["Quaternary"] = 3, ---@type Enum
+    ["Quinary"] = 4, ---@type Enum
+    ["Senary"] = 5, ---@type Enum
+    ["Septenary"] = 6, ---@type Enum
+    ["Octonary"] = 7, ---@type Enum
+    ["All"] = 8, ---@type Enum
 }

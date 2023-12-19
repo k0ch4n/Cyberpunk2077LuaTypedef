@@ -3,6 +3,6 @@
 
 ---@enum CraftingNotificationType
 CraftingNotificationType = {
-    ["NoPerks"] = 0,
-    ["NotEnoughMaterial"] = 1
+    ["NoPerks"] = 0, ---@type Enum
+    ["NotEnoughMaterial"] = 1, ---@type Enum
 }

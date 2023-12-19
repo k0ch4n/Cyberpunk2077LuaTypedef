@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiContextChangedEvent: redEvent
----@field public oldContext gameuiContext
----@field public newContext gameuiContext
+---@field public ["oldContext"] gameuiContext
+---@field public ["newContext"] gameuiContext
 gameuiContextChangedEvent = {}
 
 ---@param fields? table

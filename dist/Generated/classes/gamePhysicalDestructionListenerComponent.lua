@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePhysicalDestructionListenerComponent: entIComponent
----@field public physicalDestructionComponentName CName
----@field public thresholdLevels Float[]
+---@field public ["physicalDestructionComponentName"] CName
+---@field public ["thresholdLevels"] Float[]
 gamePhysicalDestructionListenerComponent = {}
 
 ---@param fields? table

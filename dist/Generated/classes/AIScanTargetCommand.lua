@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIScanTargetCommand: AICommand
----@field public targetPuppetRef gameEntityReference
+---@field public ["targetPuppetRef"] gameEntityReference
 AIScanTargetCommand = {}
 
 ---@param fields? table

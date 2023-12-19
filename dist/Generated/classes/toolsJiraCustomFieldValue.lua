@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraCustomFieldValue
----@field public value String
+---@field public ["value"] String
 toolsJiraCustomFieldValue = {}
 
 ---@param fields? table

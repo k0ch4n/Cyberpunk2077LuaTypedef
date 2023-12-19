@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class DrillMachineScanManager: gameScriptableComponent
----@field private ppStarting Bool
----@field private ppEnding Bool
----@field private ppCurrentStartTime Float
----@field private ppCurrentEndFrame Int32
----@field private idleToScanTime Float
----@field private ppOffFrameDelay Int32
+---@field private ["ppStarting"] Bool
+---@field private ["ppEnding"] Bool
+---@field private ["ppCurrentStartTime"] Float
+---@field private ["ppCurrentEndFrame"] Int32
+---@field private ["idleToScanTime"] Float
+---@field private ["ppOffFrameDelay"] Int32
 DrillMachineScanManager = {}
 
 ---@param fields? table

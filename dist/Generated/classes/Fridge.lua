@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Fridge: InteractiveDevice
----@field private animFeature AnimFeature_SimpleDevice
----@field private factOnDoorOpened CName
+---@field private ["animFeature"] AnimFeature_SimpleDevice
+---@field private ["factOnDoorOpened"] CName
 Fridge = {}
 
 ---@param fields? table

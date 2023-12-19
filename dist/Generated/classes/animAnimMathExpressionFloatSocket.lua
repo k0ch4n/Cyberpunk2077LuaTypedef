@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimMathExpressionFloatSocket
----@field public link animFloatLink
----@field public expressionVarId Uint16
----@field public inputFloatTrack animNamedTrackIndex
+---@field public ["link"] animFloatLink
+---@field public ["expressionVarId"] Uint16
+---@field public ["inputFloatTrack"] animNamedTrackIndex
 animAnimMathExpressionFloatSocket = {}
 
 ---@param fields? table

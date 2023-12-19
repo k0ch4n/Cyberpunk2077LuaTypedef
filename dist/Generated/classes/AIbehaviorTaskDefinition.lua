@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorTaskDefinition: ISerializable
----@field public ignoreTaskCompletion Bool
+---@field public ["ignoreTaskCompletion"] Bool
 AIbehaviorTaskDefinition = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LocalPlayerDef: gamebbScriptDefinition
----@field public InsideVehicleForbiddenAreasCount gamebbScriptID_Int32
+---@field public ["InsideVehicleForbiddenAreasCount"] gamebbScriptID_Int32
 LocalPlayerDef = {}
 
 ---@param fields? table

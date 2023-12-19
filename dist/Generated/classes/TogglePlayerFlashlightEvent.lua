@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TogglePlayerFlashlightEvent: redEvent
----@field public enable Bool
+---@field public ["enable"] Bool
 TogglePlayerFlashlightEvent = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum scnAnimNameType
 scnAnimNameType = {
-    ["direct"] = 0,
-    ["reference"] = 1,
-    ["container"] = 2,
-    ["dynamic"] = 3
+    ["direct"] = 0, ---@type Enum
+    ["reference"] = 1, ---@type Enum
+    ["container"] = 2, ---@type Enum
+    ["dynamic"] = 3, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameWeakspotComponent: entIComponent
----@field public defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties
+---@field public ["defaultPhysicalDestructionProperties"] gameWeakspotPhysicalDestructionProperties
 gameWeakspotComponent = {}
 
 ---@param fields? table

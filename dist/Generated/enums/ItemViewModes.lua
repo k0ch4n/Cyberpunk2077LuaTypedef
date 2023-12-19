@@ -3,6 +3,6 @@
 
 ---@enum ItemViewModes
 ItemViewModes = {
-    ["Item"] = 0,
-    ["Mod"] = 1
+    ["Item"] = 0, ---@type Enum
+    ["Mod"] = 1, ---@type Enum
 }

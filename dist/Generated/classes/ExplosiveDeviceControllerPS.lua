@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ExplosiveDeviceControllerPS: BasicDistractionDeviceControllerPS
----@field protected explosiveSkillChecks EngDemoContainer
----@field protected explosionDefinition ExplosiveDeviceResourceDefinition[]
----@field protected explosiveWithQhacks Bool
----@field protected HealthDecay Float
----@field protected timeToMeshSwap Float
----@field protected shouldDistractionHitVFXIgnoreHitPosition Bool
----@field protected canBeDisabledWithQhacks Bool
----@field protected disarmed Bool
----@field private exploded Bool
----@field protected provideExplodeAction Bool
----@field protected doExplosiveEngineerLogic Bool
+---@field protected ["explosiveSkillChecks"] EngDemoContainer
+---@field protected ["explosionDefinition"] ExplosiveDeviceResourceDefinition[]
+---@field protected ["explosiveWithQhacks"] Bool
+---@field protected ["HealthDecay"] Float
+---@field protected ["timeToMeshSwap"] Float
+---@field protected ["shouldDistractionHitVFXIgnoreHitPosition"] Bool
+---@field protected ["canBeDisabledWithQhacks"] Bool
+---@field protected ["disarmed"] Bool
+---@field private ["exploded"] Bool
+---@field protected ["provideExplodeAction"] Bool
+---@field protected ["doExplosiveEngineerLogic"] Bool
 ExplosiveDeviceControllerPS = {}
 
 ---@param fields? table
@@ -100,7 +100,7 @@ function ExplosiveDeviceControllerPS:GetExplosionDefinitionArray() return end
 ---@return Float
 function ExplosiveDeviceControllerPS:GetHealthDecay() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ExplosiveDeviceControllerPS:GetQuestActionByName(actionName) return end
 

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_FocusMode: animAnimFeature
----@field public isFocusModeActive Bool
+---@field public ["isFocusModeActive"] Bool
 AnimFeature_FocusMode = {}
 
 ---@param fields? table

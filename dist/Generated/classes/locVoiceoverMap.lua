@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class locVoiceoverMap: ISerializable
----@field public entries locVoLineEntry[]
+---@field public ["entries"] locVoLineEntry[]
 locVoiceoverMap = {}
 
 ---@param fields? table

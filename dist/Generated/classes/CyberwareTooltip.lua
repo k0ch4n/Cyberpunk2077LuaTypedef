@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CyberwareTooltip: AGenericTooltipController
----@field private slotList inkCompoundWidgetReference
----@field private label inkTextWidgetReference
----@field private data CyberwareTooltipData
+---@field private ["slotList"] inkCompoundWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["data"] CyberwareTooltipData
 CyberwareTooltip = {}
 
 ---@param fields? table

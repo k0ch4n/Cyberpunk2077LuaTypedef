@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnOverrideInterruptConditions_Operation: scnIInterruptManager_Operation
----@field public interruptConditions scnIInterruptCondition[]
+---@field public ["interruptConditions"] scnIInterruptCondition[]
 scnOverrideInterruptConditions_Operation = {}
 
 ---@param fields? table

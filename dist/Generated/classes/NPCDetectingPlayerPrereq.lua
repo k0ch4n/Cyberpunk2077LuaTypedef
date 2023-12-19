@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCDetectingPlayerPrereq: gameIScriptablePrereq
----@field public threshold Float
+---@field public ["threshold"] Float
 NPCDetectingPlayerPrereq = {}
 
 ---@param fields? table

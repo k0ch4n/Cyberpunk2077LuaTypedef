@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVoiceTagAppearanceMapping: audioAudioMetadata
----@field public mappings audioVoiceTagAppearanceGroup[]
+---@field public ["mappings"] audioVoiceTagAppearanceGroup[]
 audioVoiceTagAppearanceMapping = {}
 
 ---@param fields? table

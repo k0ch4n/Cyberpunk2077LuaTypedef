@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetUICameraZoomEvent: redEvent
----@field public hasUICameraZoom Bool
+---@field public ["hasUICameraZoom"] Bool
 SetUICameraZoomEvent = {}
 
 ---@param fields? table

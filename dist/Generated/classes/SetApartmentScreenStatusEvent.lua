@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetApartmentScreenStatusEvent: redEvent
----@field public rentStatus ERentStatus
+---@field public ["rentStatus"] ERentStatus
 SetApartmentScreenStatusEvent = {}
 
 ---@param fields? table

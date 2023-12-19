@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KiroshiEffectorIsAimingStatListener: gameScriptStatsListener
----@field public effector KiroshiHighlightEffector
+---@field public ["effector"] KiroshiHighlightEffector
 KiroshiEffectorIsAimingStatListener = {}
 
 ---@param fields? table

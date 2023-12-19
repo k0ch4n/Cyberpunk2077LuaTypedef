@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCAttitudeTowardsPlayerPrereq: gameIScriptablePrereq
----@field public attitude EAIAttitude
+---@field public ["attitude"] EAIAttitude
 NPCAttitudeTowardsPlayerPrereq = {}
 
 ---@param fields? table

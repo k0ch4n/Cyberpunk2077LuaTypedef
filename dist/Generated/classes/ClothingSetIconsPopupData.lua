@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ClothingSetIconsPopupData: inkGameNotificationData
----@field public IconID TweakDBID
----@field public IconChanged Bool
----@field public IconIDs TweakDBID[]
+---@field public ["IconID"] TweakDBID
+---@field public ["IconChanged"] Bool
+---@field public ["IconIDs"] TweakDBID[]
 ClothingSetIconsPopupData = {}
 
 ---@param fields? table

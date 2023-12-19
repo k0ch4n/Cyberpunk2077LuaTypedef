@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MessageMenuAttachmentData: IScriptable
----@field public entryHash Int32
+---@field public ["entryHash"] Int32
 MessageMenuAttachmentData = {}
 
 ---@param fields? table

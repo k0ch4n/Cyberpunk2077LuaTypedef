@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_EntityType: gameEffectObjectGroupFilter
----@field public typeFilter gameEffectObjectFilter_EntityTypeEntityTypeFilter
+---@field public ["typeFilter"] gameEffectObjectFilter_EntityTypeEntityTypeFilter
 gameEffectObjectFilter_EntityType = {}
 
 ---@param fields? table

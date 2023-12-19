@@ -3,12 +3,12 @@
 
 ---@enum gametargetingSystemScriptFilter
 gametargetingSystemScriptFilter = {
-    ["Melee"] = 1,
-    ["Shooting"] = 2,
-    ["Scanning"] = 4,
-    ["QuickHack"] = 8,
-    ["ShootingLimbCyber"] = 16,
-    ["HeadTarget"] = 32,
-    ["LegTarget"] = 64,
-    ["MechanicalTarget"] = 128
+    ["Melee"] = 1, ---@type Enum
+    ["Shooting"] = 2, ---@type Enum
+    ["Scanning"] = 4, ---@type Enum
+    ["QuickHack"] = 8, ---@type Enum
+    ["ShootingLimbCyber"] = 16, ---@type Enum
+    ["HeadTarget"] = 32, ---@type Enum
+    ["LegTarget"] = 64, ---@type Enum
+    ["MechanicalTarget"] = 128, ---@type Enum
 }

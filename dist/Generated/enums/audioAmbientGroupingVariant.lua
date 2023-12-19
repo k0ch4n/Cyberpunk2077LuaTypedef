@@ -3,13 +3,13 @@
 
 ---@enum audioAmbientGroupingVariant
 audioAmbientGroupingVariant = {
-    ["AllEntities"] = 0,
-    ["IndoorEntities"] = 1,
-    ["OutdoorEntities"] = 2,
-    ["AllEntitiesAllDirections"] = 3,
-    ["IndoorAllDirections"] = 4,
-    ["OutdoorAllDirections"] = 5,
-    ["SameRoomEntities"] = 6,
-    ["DifferentRoomEntities"] = 7,
-    ["DistanceExclusion"] = 8
+    ["AllEntities"] = 0, ---@type Enum
+    ["IndoorEntities"] = 1, ---@type Enum
+    ["OutdoorEntities"] = 2, ---@type Enum
+    ["AllEntitiesAllDirections"] = 3, ---@type Enum
+    ["IndoorAllDirections"] = 4, ---@type Enum
+    ["OutdoorAllDirections"] = 5, ---@type Enum
+    ["SameRoomEntities"] = 6, ---@type Enum
+    ["DifferentRoomEntities"] = 7, ---@type Enum
+    ["DistanceExclusion"] = 8, ---@type Enum
 }

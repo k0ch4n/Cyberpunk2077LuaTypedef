@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceThumbnailWidgetControllerBase: DeviceButtonLogicControllerBase
----@field protected deviceIconRef inkImageWidgetReference
----@field protected statusNameWidget inkTextWidgetReference
----@field private thumbnailAction ThumbnailUI
+---@field protected ["deviceIconRef"] inkImageWidgetReference
+---@field protected ["statusNameWidget"] inkTextWidgetReference
+---@field private ["thumbnailAction"] ThumbnailUI
 DeviceThumbnailWidgetControllerBase = {}
 
 ---@param fields? table

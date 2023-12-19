@@ -3,8 +3,8 @@
 
 ---@enum audioWeaponShellCasingDirection
 audioWeaponShellCasingDirection = {
-    ["rightFront"] = 0,
-    ["rightBack"] = 1,
-    ["leftFront"] = 2,
-    ["leftBack"] = 3
+    ["rightFront"] = 0, ---@type Enum
+    ["rightBack"] = 1, ---@type Enum
+    ["leftFront"] = 2, ---@type Enum
+    ["leftBack"] = 3, ---@type Enum
 }

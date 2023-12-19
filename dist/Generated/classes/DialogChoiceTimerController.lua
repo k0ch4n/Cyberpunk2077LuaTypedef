@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class DialogChoiceTimerController: inkWidgetLogicController
----@field public bar inkWidgetReference
----@field public timerValue inkTextWidgetReference
----@field private progressAnimDef inkanimDefinition
----@field private timerAnimDef inkanimDefinition
----@field private ProgressAnimInterpolator inkanimScaleInterpolator
----@field private timerAnimInterpolator inkanimTransparencyInterpolator
----@field private timerAnimProxy inkanimProxy
----@field private timerBarAnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private time Float
+---@field public ["bar"] inkWidgetReference
+---@field public ["timerValue"] inkTextWidgetReference
+---@field private ["progressAnimDef"] inkanimDefinition
+---@field private ["timerAnimDef"] inkanimDefinition
+---@field private ["ProgressAnimInterpolator"] inkanimScaleInterpolator
+---@field private ["timerAnimInterpolator"] inkanimTransparencyInterpolator
+---@field private ["timerAnimProxy"] inkanimProxy
+---@field private ["timerBarAnimProxy"] inkanimProxy
+---@field private ["AnimOptions"] inkanimPlaybackOptions
+---@field private ["time"] Float
 DialogChoiceTimerController = {}
 
 ---@param fields? table

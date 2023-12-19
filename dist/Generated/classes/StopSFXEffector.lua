@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StopSFXEffector: gameEffector
----@field public sfxName CName
----@field public owner gameObject
+---@field public ["sfxName"] CName
+---@field public ["owner"] gameObject
 StopSFXEffector = {}
 
 ---@param fields? table

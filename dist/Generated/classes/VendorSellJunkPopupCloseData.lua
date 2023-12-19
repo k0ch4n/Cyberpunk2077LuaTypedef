@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VendorSellJunkPopupCloseData: inkGameNotificationData
----@field public confirm Bool
----@field public items gameItemData[]
----@field public limitedItems VendorJunkSellItem[]
+---@field public ["confirm"] Bool
+---@field public ["items"] gameItemData[]
+---@field public ["limitedItems"] VendorJunkSellItem[]
 VendorSellJunkPopupCloseData = {}
 
 ---@param fields? table

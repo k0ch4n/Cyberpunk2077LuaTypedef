@@ -3,5 +3,5 @@
 
 ---@enum gameScriptedBlackboardStorage
 gameScriptedBlackboardStorage = {
-    ["Default"] = 0
+    ["Default"] = 0, ---@type Enum
 }

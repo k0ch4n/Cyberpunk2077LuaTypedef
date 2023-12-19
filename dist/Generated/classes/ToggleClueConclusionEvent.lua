@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleClueConclusionEvent: redEvent
----@field public toggleConclusion Bool
----@field public clueID Int32
----@field public updatePS Bool
+---@field public ["toggleConclusion"] Bool
+---@field public ["clueID"] Int32
+---@field public ["updatePS"] Bool
 ToggleClueConclusionEvent = {}
 
 ---@param fields? table

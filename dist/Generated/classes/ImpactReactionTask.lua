@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ImpactReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
+---@field public ["tweakDBPackage"] TweakDBID
 ImpactReactionTask = {}
 
 ---@param fields? table

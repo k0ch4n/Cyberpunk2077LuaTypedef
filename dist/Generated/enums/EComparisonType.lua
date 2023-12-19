@@ -3,10 +3,10 @@
 
 ---@enum EComparisonType
 EComparisonType = {
-    ["Greater"] = 0,
-    ["GreaterOrEqual"] = 1,
-    ["Equal"] = 2,
-    ["NotEqual"] = 3,
-    ["Less"] = 4,
-    ["LessOrEqual"] = 5
+    ["Greater"] = 0, ---@type Enum
+    ["GreaterOrEqual"] = 1, ---@type Enum
+    ["Equal"] = 2, ---@type Enum
+    ["NotEqual"] = 3, ---@type Enum
+    ["Less"] = 4, ---@type Enum
+    ["LessOrEqual"] = 5, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkWidgetLibraryReference
----@field public widgetLibrary inkWidgetLibraryResourceWrapper
----@field public widgetItem CName
+---@field public ["widgetLibrary"] inkWidgetLibraryResourceWrapper
+---@field public ["widgetItem"] CName
 inkWidgetLibraryReference = {}
 
 ---@param fields? table

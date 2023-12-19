@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PatrolSpotAction: TweakAIActionSmartComposite
----@field public patrolAction AIArgumentMapping
+---@field public ["patrolAction"] AIArgumentMapping
 PatrolSpotAction = {}
 
 ---@param fields? table

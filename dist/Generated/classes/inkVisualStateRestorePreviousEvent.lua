@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkVisualStateRestorePreviousEvent: redEvent
----@field public visualState CName
+---@field public ["visualState"] CName
 inkVisualStateRestorePreviousEvent = {}
 
 ---@param fields? table

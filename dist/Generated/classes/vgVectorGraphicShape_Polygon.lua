@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicShape_Polygon: vgBaseVectorGraphicShape
----@field public ints Vector2[]
+---@field public ["ints"] Vector2[]
 vgVectorGraphicShape_Polygon = {}
 
 ---@param fields? table

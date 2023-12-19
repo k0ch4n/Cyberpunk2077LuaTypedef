@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AICombatSquadTacticRatio
----@field public ratioSum Float
----@field public reachSum Float
----@field public area Float
+---@field public ["ratioSum"] Float
+---@field public ["reachSum"] Float
+---@field public ["area"] Float
 AICombatSquadTacticRatio = {}
 
 ---@param fields? table

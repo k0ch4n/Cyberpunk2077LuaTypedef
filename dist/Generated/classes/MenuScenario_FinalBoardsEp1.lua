@@ -17,12 +17,12 @@ function MenuScenario_FinalBoardsEp1:OnBack() return end
 function MenuScenario_FinalBoardsEp1:OnCloseFinalBoardsRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_FinalBoardsEp1:OnEnterScenario(prevScenario, userData) return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_FinalBoardsEp1:OnLeaveScenario(nextScenario) return end

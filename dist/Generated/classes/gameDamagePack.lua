@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDamagePack: IScriptable
----@field public damageList gameDamage[]
+---@field public ["damageList"] gameDamage[]
 gameDamagePack = {}
 
 ---@param fields? table

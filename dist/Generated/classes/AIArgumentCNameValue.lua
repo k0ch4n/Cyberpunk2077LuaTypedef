@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentCNameValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue CName
+---@field public ["type"] AIArgumentType
+---@field public ["defaultValue"] CName
 AIArgumentCNameValue = {}
 
 ---@param fields? table

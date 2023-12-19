@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_PlayerIgnoreFriendlyAndAlive: gameEffectObjectGroupFilter
----@field public ignoreCharacterRecord TweakDBID
+---@field public ["ignoreCharacterRecord"] TweakDBID
 gameEffectObjectFilter_PlayerIgnoreFriendlyAndAlive = {}
 
 ---@param fields? table

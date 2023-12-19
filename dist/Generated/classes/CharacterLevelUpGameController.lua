@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CharacterLevelUpGameController: gameuiHUDGameController
----@field private value inkTextWidgetReference
----@field private proficencyLabel inkTextWidgetReference
----@field private stateChangesBlackboardId Uint32
----@field private animationProxy inkanimProxy
----@field private data LevelUpUserData
+---@field private ["value"] inkTextWidgetReference
+---@field private ["proficencyLabel"] inkTextWidgetReference
+---@field private ["stateChangesBlackboardId"] Uint32
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["data"] LevelUpUserData
 CharacterLevelUpGameController = {}
 
 ---@param fields? table

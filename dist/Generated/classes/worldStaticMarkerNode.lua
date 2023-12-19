@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldStaticMarkerNode: worldSocketNode
----@field public isEnabled Bool
----@field public tags redTagList
----@field public data worldIMarker
+---@field public ["isEnabled"] Bool
+---@field public ["tags"] redTagList
+---@field public ["data"] worldIMarker
 worldStaticMarkerNode = {}
 
 ---@param fields? table

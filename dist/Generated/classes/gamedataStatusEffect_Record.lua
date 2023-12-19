@@ -20,7 +20,7 @@ function gamedataStatusEffect_Record:AdditionalParam() return end
 ---@return CName[]
 function gamedataStatusEffect_Record:DebugTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStatusEffect_Record:DebugTagsContains(item) return end
 
@@ -36,7 +36,7 @@ function gamedataStatusEffect_Record:DynamicDuration() return end
 ---@return CName[]
 function gamedataStatusEffect_Record:GameplayTags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataStatusEffect_Record:GameplayTagsContains(item) return end
 

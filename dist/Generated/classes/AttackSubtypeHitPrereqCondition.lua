@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AttackSubtypeHitPrereqCondition: BaseHitPrereqCondition
----@field public attackSubtype gamedataAttackSubtype
+---@field public ["attackSubtype"] gamedataAttackSubtype
 AttackSubtypeHitPrereqCondition = {}
 
 ---@param fields? table

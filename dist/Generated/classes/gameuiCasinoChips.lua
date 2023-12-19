@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCasinoChips: gameObject
----@field public digitNames CName[]
----@field public flippedDigitNames CName[]
+---@field public ["digitNames"] CName[]
+---@field public ["flippedDigitNames"] CName[]
 gameuiCasinoChips = {}
 
 ---@param fields? table

@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Melee: gameuiCrosshairBaseMelee
----@field private targetColorChange inkWidgetReference
----@field private chargeBar inkCanvasWidget
----@field private chargeBarFG inkRectangleWidget
----@field private chargeBarMonoTop inkImageWidget
----@field private chargeBarMonoBottom inkImageWidget
----@field private chargeBarMask inkMaskWidget
----@field private chargeValueL inkTextWidget
----@field private chargeValueR inkTextWidget
----@field private bbcharge Uint32
----@field private meleeResourcePoolListener MeleeResourcePoolListener
----@field private weaponID entEntityID
----@field private displayChargeBar Bool
----@field private currentState Int32
----@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
+---@field private ["targetColorChange"] inkWidgetReference
+---@field private ["chargeBar"] inkCanvasWidget
+---@field private ["chargeBarFG"] inkRectangleWidget
+---@field private ["chargeBarMonoTop"] inkImageWidget
+---@field private ["chargeBarMonoBottom"] inkImageWidget
+---@field private ["chargeBarMask"] inkMaskWidget
+---@field private ["chargeValueL"] inkTextWidget
+---@field private ["chargeValueR"] inkTextWidget
+---@field private ["bbcharge"] Uint32
+---@field private ["meleeResourcePoolListener"] MeleeResourcePoolListener
+---@field private ["weaponID"] entEntityID
+---@field private ["displayChargeBar"] Bool
+---@field private ["currentState"] Int32
+---@field private ["meleeLeapAttackObjectTagger"] MeleeLeapAttackObjectTagger
 CrosshairGameController_Melee = {}
 
 ---@param fields? table
@@ -49,7 +49,7 @@ function CrosshairGameController_Melee:OnPreOutro() return end
 function CrosshairGameController_Melee:OnUninitialize() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function CrosshairGameController_Melee:ApplyCrosshairGUIState(state, aimedAtEntity) return end

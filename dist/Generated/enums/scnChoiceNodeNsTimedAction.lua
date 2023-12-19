@@ -3,7 +3,7 @@
 
 ---@enum scnChoiceNodeNsTimedAction
 scnChoiceNodeNsTimedAction = {
-    ["appear"] = 0,
-    ["disappear"] = 1,
-    ["disappearFading"] = 2
+    ["appear"] = 0, ---@type Enum
+    ["disappear"] = 1, ---@type Enum
+    ["disappearFading"] = 2, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum ESoundStatusEffects
 ESoundStatusEffects = {
-    ["NONE"] = 0,
-    ["DEAFENED"] = 1,
-    ["SUPRESS_NOISE"] = 2
+    ["NONE"] = 0, ---@type Enum
+    ["DEAFENED"] = 1, ---@type Enum
+    ["SUPRESS_NOISE"] = 2, ---@type Enum
 }

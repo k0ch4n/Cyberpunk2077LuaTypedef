@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questRepair_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public playerVehicle Bool
+---@field public ["vehicleRef"] gameEntityReference
+---@field public ["playerVehicle"] Bool
 questRepair_NodeType = {}
 
 ---@param fields? table

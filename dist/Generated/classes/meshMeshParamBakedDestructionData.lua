@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamBakedDestructionData: meshMeshParameter
----@field public regionData meshRegionData[]
----@field public indices DataBuffer[]
+---@field public ["regionData"] meshRegionData[]
+---@field public ["indices"] DataBuffer[]
 meshMeshParamBakedDestructionData = {}
 
 ---@param fields? table

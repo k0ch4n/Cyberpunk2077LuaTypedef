@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class AIFollowerInterpolateFollowingSpeed: AIbehaviortaskScript
----@field public enterCondition TweakDBID
----@field public exitCondition TweakDBID
----@field public minInterpolationDistanceToDestination Float
----@field public maxInterpolationDistanceToDestination Float
----@field public maxTimeDilation Float
----@field private enterConditionInstance gamedataAIActionCondition_Record
----@field private exitConditionInstace gamedataAIActionCondition_Record
----@field private isActive Bool
----@field private reason CName
+---@field public ["enterCondition"] TweakDBID
+---@field public ["exitCondition"] TweakDBID
+---@field public ["minInterpolationDistanceToDestination"] Float
+---@field public ["maxInterpolationDistanceToDestination"] Float
+---@field public ["maxTimeDilation"] Float
+---@field private ["enterConditionInstance"] gamedataAIActionCondition_Record
+---@field private ["exitConditionInstace"] gamedataAIActionCondition_Record
+---@field private ["isActive"] Bool
+---@field private ["reason"] CName
 AIFollowerInterpolateFollowingSpeed = {}
 
 ---@param fields? table

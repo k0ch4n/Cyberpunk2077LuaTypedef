@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICombatRelatedCommand: AICommand
----@field public immediately Bool
+---@field public ["immediately"] Bool
 AICombatRelatedCommand = {}
 
 ---@param fields? table

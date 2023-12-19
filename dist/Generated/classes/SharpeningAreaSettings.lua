@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SharpeningAreaSettings: IAreaSettings
----@field public sharpeningStrength Float
----@field public sharpeningStrengthWhenUpsaling Float
----@field public sharpeningStrengthUpscalingTreshold Float
+---@field public ["sharpeningStrength"] Float
+---@field public ["sharpeningStrengthWhenUpsaling"] Float
+---@field public ["sharpeningStrengthUpscalingTreshold"] Float
 SharpeningAreaSettings = {}
 
 ---@param fields? table

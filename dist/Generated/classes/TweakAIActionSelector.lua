@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TweakAIActionSelector: TweakAIActionAbstract
----@field public selector TweakDBID
----@field public selectorRecord gamedataAIActionSelector_Record
----@field public nodeIterator Int32
+---@field public ["selector"] TweakDBID
+---@field public ["selectorRecord"] gamedataAIActionSelector_Record
+---@field public ["nodeIterator"] Int32
 TweakAIActionSelector = {}
 
 ---@param fields? table

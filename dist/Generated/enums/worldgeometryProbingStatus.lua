@@ -3,8 +3,8 @@
 
 ---@enum worldgeometryProbingStatus
 worldgeometryProbingStatus = {
-    ["None"] = 0,
-    ["StillInObstacle"] = 1,
-    ["GeometryDiverged"] = 2,
-    ["Failure"] = 3
+    ["None"] = 0, ---@type Enum
+    ["StillInObstacle"] = 1, ---@type Enum
+    ["GeometryDiverged"] = 2, ---@type Enum
+    ["Failure"] = 3, ---@type Enum
 }

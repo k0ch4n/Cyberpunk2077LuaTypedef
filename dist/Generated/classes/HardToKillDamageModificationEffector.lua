@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HardToKillDamageModificationEffector: ModifyAttackEffector
----@field public criticalHealthThreshold Float
+---@field public ["criticalHealthThreshold"] Float
 HardToKillDamageModificationEffector = {}
 
 ---@param fields? table

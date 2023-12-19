@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StatusEffectPrereqState: gamePrereqState
----@field public prereq StatusEffectPrereq
----@field public listener StatusEffectPrereqListener
+---@field public ["prereq"] StatusEffectPrereq
+---@field public ["listener"] StatusEffectPrereqListener
 StatusEffectPrereqState = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum gameaudioeventsSurfaceDirection
 gameaudioeventsSurfaceDirection = {
-    ["Normal"] = 0,
-    ["WallLeft"] = 1,
-    ["WallRight"] = 2
+    ["Normal"] = 0, ---@type Enum
+    ["WallLeft"] = 1, ---@type Enum
+    ["WallRight"] = 2, ---@type Enum
 }

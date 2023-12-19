@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AttributeTooltipData: BasePerksMenuTooltipData
----@field public attributeId TweakDBID
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
----@field public displayData AttributeDisplayData
+---@field public ["attributeId"] TweakDBID
+---@field public ["attributeType"] PerkMenuAttribute
+---@field public ["attributeData"] AttributeData
+---@field public ["displayData"] AttributeDisplayData
 AttributeTooltipData = {}
 
 ---@param fields? table

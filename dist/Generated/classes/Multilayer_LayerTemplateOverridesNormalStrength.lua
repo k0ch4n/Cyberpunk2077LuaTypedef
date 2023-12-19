@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Multilayer_LayerTemplateOverridesNormalStrength
----@field public n CName
----@field public v Float
+---@field public ["n"] CName
+---@field public ["v"] Float
 Multilayer_LayerTemplateOverridesNormalStrength = {}
 
 ---@param fields? table

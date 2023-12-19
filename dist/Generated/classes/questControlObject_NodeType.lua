@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questControlObject_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public objectRef gameEntityReference
+---@field public ["objectRef"] gameEntityReference
 questControlObject_NodeType = {}
 
 ---@param fields? table

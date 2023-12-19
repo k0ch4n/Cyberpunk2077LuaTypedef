@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class AIDriveToNodeCommandHandler: AICommandHandlerBase
----@field protected outUseKinematic AIArgumentMapping
----@field protected outNeedDriver AIArgumentMapping
----@field protected outNodeRef AIArgumentMapping
----@field protected outSecureTimeOut AIArgumentMapping
----@field protected outIsPlayer AIArgumentMapping
----@field protected outUseTraffic AIArgumentMapping
----@field protected forceGreenLights AIArgumentMapping
----@field protected portals AIArgumentMapping
----@field protected outTrafficTryNeighborsForStart AIArgumentMapping
----@field protected outTrafficTryNeighborsForEnd AIArgumentMapping
+---@field protected ["outUseKinematic"] AIArgumentMapping
+---@field protected ["outNeedDriver"] AIArgumentMapping
+---@field protected ["outNodeRef"] AIArgumentMapping
+---@field protected ["outSecureTimeOut"] AIArgumentMapping
+---@field protected ["outIsPlayer"] AIArgumentMapping
+---@field protected ["outUseTraffic"] AIArgumentMapping
+---@field protected ["forceGreenLights"] AIArgumentMapping
+---@field protected ["portals"] AIArgumentMapping
+---@field protected ["outTrafficTryNeighborsForStart"] AIArgumentMapping
+---@field protected ["outTrafficTryNeighborsForEnd"] AIArgumentMapping
 AIDriveToNodeCommandHandler = {}
 
 ---@param fields? table

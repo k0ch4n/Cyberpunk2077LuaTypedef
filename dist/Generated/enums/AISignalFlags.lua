@@ -3,9 +3,9 @@
 
 ---@enum AISignalFlags
 AISignalFlags = {
-    ["Undefined"] = 0,
-    ["OverridesSelf"] = 1,
-    ["InterruptsSamePriorityTask"] = 2,
-    ["InterruptsForcedBehavior"] = 4,
-    ["AcceptsAdditives"] = 8
+    ["Undefined"] = 0, ---@type Enum
+    ["OverridesSelf"] = 1, ---@type Enum
+    ["InterruptsSamePriorityTask"] = 2, ---@type Enum
+    ["InterruptsForcedBehavior"] = 4, ---@type Enum
+    ["AcceptsAdditives"] = 8, ---@type Enum
 }

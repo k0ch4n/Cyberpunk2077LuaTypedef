@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StimRequest: IScriptable
----@field public stimuli senseStimuliEvent
----@field public hasExpirationDate Bool
----@field public duration Float
----@field public requestID StimRequestID
+---@field public ["stimuli"] senseStimuliEvent
+---@field public ["hasExpirationDate"] Bool
+---@field public ["duration"] Float
+---@field public ["requestID"] StimRequestID
 StimRequest = {}
 
 ---@param fields? table

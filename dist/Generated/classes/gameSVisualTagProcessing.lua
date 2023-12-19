@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSVisualTagProcessing
----@field public areaType gamedataEquipmentArea
----@field public showItem Bool
+---@field public ["areaType"] gamedataEquipmentArea
+---@field public ["showItem"] Bool
 gameSVisualTagProcessing = {}
 
 ---@param fields? table

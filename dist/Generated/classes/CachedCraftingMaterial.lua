@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CachedCraftingMaterial: IScriptable
----@field public itemID gameItemID
----@field public displayName String
----@field public iconPath String
----@field public quantity Int32
+---@field public ["itemID"] gameItemID
+---@field public ["displayName"] String
+---@field public ["iconPath"] String
+---@field public ["quantity"] Int32
 CachedCraftingMaterial = {}
 
 ---@param fields? table

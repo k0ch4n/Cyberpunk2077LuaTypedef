@@ -3,7 +3,7 @@
 
 ---@enum gameuiEWorldMapDistrictView
 gameuiEWorldMapDistrictView = {
-    ["None"] = 0,
-    ["Districts"] = 1,
-    ["SubDistricts"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Districts"] = 1, ---@type Enum
+    ["SubDistricts"] = 2, ---@type Enum
 }

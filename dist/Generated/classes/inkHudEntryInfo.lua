@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkHudEntryInfo: inkUserData
----@field public size Vector2
----@field public offset Vector2
+---@field public ["size"] Vector2
+---@field public ["offset"] Vector2
 inkHudEntryInfo = {}
 
 ---@param fields? table

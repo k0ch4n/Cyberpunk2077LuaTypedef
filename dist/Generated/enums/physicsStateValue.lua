@@ -3,21 +3,21 @@
 
 ---@enum physicsStateValue
 physicsStateValue = {
-    ["Position"] = 1,
-    ["Rotation"] = 2,
-    ["Transform"] = 3,
-    ["LinearVelocity"] = 4,
-    ["AngularVelocity"] = 5,
-    ["LinearSpeed"] = 6,
-    ["TouchesGround"] = 10,
-    ["TouchesWalls"] = 11,
-    ["ImpulseAccumulator"] = 12,
-    ["IsSleeping"] = 13,
-    ["Mass"] = 16,
-    ["Volume"] = 18,
-    ["IsSimulated"] = 20,
-    ["IsKinematic"] = 21,
-    ["TimeDeltaOverride"] = 27,
-    ["SimulationFilter"] = 32,
-    ["Radius"] = 30
+    ["Position"] = 1, ---@type Enum
+    ["Rotation"] = 2, ---@type Enum
+    ["Transform"] = 3, ---@type Enum
+    ["LinearVelocity"] = 4, ---@type Enum
+    ["AngularVelocity"] = 5, ---@type Enum
+    ["LinearSpeed"] = 6, ---@type Enum
+    ["TouchesGround"] = 10, ---@type Enum
+    ["TouchesWalls"] = 11, ---@type Enum
+    ["ImpulseAccumulator"] = 12, ---@type Enum
+    ["IsSleeping"] = 13, ---@type Enum
+    ["Mass"] = 16, ---@type Enum
+    ["Volume"] = 18, ---@type Enum
+    ["IsSimulated"] = 20, ---@type Enum
+    ["IsKinematic"] = 21, ---@type Enum
+    ["TimeDeltaOverride"] = 27, ---@type Enum
+    ["SimulationFilter"] = 32, ---@type Enum
+    ["Radius"] = 30, ---@type Enum
 }

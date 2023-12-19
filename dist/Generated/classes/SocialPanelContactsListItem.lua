@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SocialPanelContactsListItem: inkToggleController
----@field private Label inkTextWidgetReference
----@field private ContactInfo SocialPanelContactInfo
+---@field private ["Label"] inkTextWidgetReference
+---@field private ["ContactInfo"] SocialPanelContactInfo
 SocialPanelContactsListItem = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleMappinsOnLookAtEvent: redEvent
----@field public state Bool
+---@field public ["state"] Bool
 ToggleMappinsOnLookAtEvent = {}
 
 ---@param fields? table

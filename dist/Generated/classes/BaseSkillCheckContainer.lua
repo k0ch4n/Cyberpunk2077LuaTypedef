@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BaseSkillCheckContainer: IScriptable
----@field protected hackingCheckSlot HackingSkillCheck
----@field protected engineeringCheckSlot EngineeringSkillCheck
----@field protected demolitionCheckSlot DemolitionSkillCheck
----@field protected isInitialized Bool
+---@field protected ["hackingCheckSlot"] HackingSkillCheck
+---@field protected ["engineeringCheckSlot"] EngineeringSkillCheck
+---@field protected ["demolitionCheckSlot"] DemolitionSkillCheck
+---@field protected ["isInitialized"] Bool
 BaseSkillCheckContainer = {}
 
 ---@return DemolitionSkillCheck

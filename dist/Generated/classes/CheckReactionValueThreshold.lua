@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckReactionValueThreshold: AIbehaviorconditionScript
----@field public reactionValue EReactionValue
+---@field public ["reactionValue"] EReactionValue
 CheckReactionValueThreshold = {}
 
 ---@param fields? table

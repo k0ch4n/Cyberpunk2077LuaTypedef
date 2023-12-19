@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnregisterLinkedCluekRequest: gameScriptableSystemRequest
----@field public linkedCluekData LinkedFocusClueData
+---@field public ["linkedCluekData"] LinkedFocusClueData
 UnregisterLinkedCluekRequest = {}
 
 ---@param fields? table

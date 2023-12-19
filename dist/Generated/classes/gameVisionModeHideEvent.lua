@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeHideEvent: redEvent
----@field public hide Bool
----@field public type gameVisionModeType
+---@field public ["hide"] Bool
+---@field public ["type"] gameVisionModeType
 gameVisionModeHideEvent = {}
 
 ---@param fields? table

@@ -3,9 +3,9 @@
 
 ---@enum audioVoCpoCharacter
 audioVoCpoCharacter = {
-    ["None"] = 0,
-    ["Solo"] = 1,
-    ["Assassin"] = 2,
-    ["Techie"] = 3,
-    ["Netrunner"] = 4
+    ["None"] = 0, ---@type Enum
+    ["Solo"] = 1, ---@type Enum
+    ["Assassin"] = 2, ---@type Enum
+    ["Techie"] = 3, ---@type Enum
+    ["Netrunner"] = 4, ---@type Enum
 }

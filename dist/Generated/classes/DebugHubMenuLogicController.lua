@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class DebugHubMenuLogicController: inkWidgetLogicController
----@field private selectorWidget inkWidget
----@field private selectorCtrl hubSelectorController
----@field private menusList CName[]
----@field private eventsList CName[]
----@field private defailtMenuName CName
+---@field private ["selectorWidget"] inkWidget
+---@field private ["selectorCtrl"] hubSelectorController
+---@field private ["menusList"] CName[]
+---@field private ["eventsList"] CName[]
+---@field private ["defailtMenuName"] CName
 DebugHubMenuLogicController = {}
 
 ---@param fields? table
@@ -19,8 +19,8 @@ function DebugHubMenuLogicController:OnInitialize() return end
 
 ---@private
 ---@param menuLabel String
----@param eventName CName
----@param menuName CName
+---@param eventName CName|string
+---@param menuName CName|string
 ---@return nil
 function DebugHubMenuLogicController:AddMenuItem(menuLabel, eventName, menuName) return end
 
@@ -31,6 +31,6 @@ function DebugHubMenuLogicController:GetEventNameByIndex(index) return end
 ---@return hubSelectorController
 function DebugHubMenuLogicController:GetSelectorController() return end
 
----@param defaultMenu CName
+---@param defaultMenu CName|string
 ---@return nil
 function DebugHubMenuLogicController:SetDefaultMenu(defaultMenu) return end

@@ -3,7 +3,7 @@
 
 ---@enum inkVideoOptimizationState
 inkVideoOptimizationState = {
-    ["None"] = 0,
-    ["TooManyBinks"] = 1,
-    ["FullscreenBinkVisible"] = 2
+    ["None"] = 0, ---@type Enum
+    ["TooManyBinks"] = 1, ---@type Enum
+    ["FullscreenBinkVisible"] = 2, ---@type Enum
 }

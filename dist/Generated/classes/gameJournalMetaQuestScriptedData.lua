@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalMetaQuestScriptedData
----@field public percent Uint32
----@field public hidden Bool
----@field public text String
+---@field public ["percent"] Uint32
+---@field public ["hidden"] Bool
+---@field public ["text"] String
 gameJournalMetaQuestScriptedData = {}
 
 ---@param fields? table

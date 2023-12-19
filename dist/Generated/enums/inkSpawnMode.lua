@@ -3,7 +3,7 @@
 
 ---@enum inkSpawnMode
 inkSpawnMode = {
-    ["SingleAndMultiplayer"] = 0,
-    ["OnlySingleplayer"] = 1,
-    ["OnlyMultiplayer"] = 2
+    ["SingleAndMultiplayer"] = 0, ---@type Enum
+    ["OnlySingleplayer"] = 1, ---@type Enum
+    ["OnlyMultiplayer"] = 2, ---@type Enum
 }

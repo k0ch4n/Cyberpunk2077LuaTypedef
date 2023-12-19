@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldProxyCustomGeometryParams
----@field public useLimiterHelper Bool
----@field public uvType worldProxyMeshUVType
+---@field public ["useLimiterHelper"] Bool
+---@field public ["uvType"] worldProxyMeshUVType
 worldProxyCustomGeometryParams = {}
 
 ---@param fields? table

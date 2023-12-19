@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTierSaveData: ISerializable
----@field public globalTiers gameGlobalTierSaveData[]
+---@field public ["globalTiers"] gameGlobalTierSaveData[]
 gameTierSaveData = {}
 
 ---@param fields? table

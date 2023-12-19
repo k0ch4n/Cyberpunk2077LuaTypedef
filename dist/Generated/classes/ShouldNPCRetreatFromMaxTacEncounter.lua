@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShouldNPCRetreatFromMaxTacEncounter: PreventionConditionAbstract
----@field public agentRegistry PoliceAgentRegistry
----@field public threatLocation AITrackedLocation
+---@field public ["agentRegistry"] PoliceAgentRegistry
+---@field public ["threatLocation"] AITrackedLocation
 ShouldNPCRetreatFromMaxTacEncounter = {}
 
 ---@param fields? table

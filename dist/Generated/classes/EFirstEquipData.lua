@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EFirstEquipData
----@field public weaponID TweakDBID
----@field public hasPlayedFirstEquip Bool
+---@field public ["weaponID"] TweakDBID
+---@field public ["hasPlayedFirstEquip"] Bool
 EFirstEquipData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CraftBook: IScriptable
----@field protected knownRecipes ItemRecipe[]
----@field public newRecipes TweakDBID[]
----@field public owner gameObject
+---@field protected ["knownRecipes"] ItemRecipe[]
+---@field public ["newRecipes"] TweakDBID[]
+---@field public ["owner"] gameObject
 CraftBook = {}
 
 ---@param fields? table

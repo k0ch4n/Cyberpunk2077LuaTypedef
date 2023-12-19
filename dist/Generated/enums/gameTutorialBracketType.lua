@@ -3,6 +3,6 @@
 
 ---@enum gameTutorialBracketType
 gameTutorialBracketType = {
-    ["WidgetArea"] = 0,
-    ["CustomArea"] = 1
+    ["WidgetArea"] = 0, ---@type Enum
+    ["CustomArea"] = 1, ---@type Enum
 }

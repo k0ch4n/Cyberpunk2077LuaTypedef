@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIEntityReuseEvent: AIAIEvent
----@field public destination worldGlobalNodeID
+---@field public ["destination"] worldGlobalNodeID
 AIEntityReuseEvent = {}
 
 ---@param fields? table

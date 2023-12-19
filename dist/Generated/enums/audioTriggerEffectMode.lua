@@ -3,8 +3,8 @@
 
 ---@enum audioTriggerEffectMode
 audioTriggerEffectMode = {
-    ["Off"] = 0,
-    ["Feedback"] = 1,
-    ["Weapon"] = 2,
-    ["Vibration"] = 3
+    ["Off"] = 0, ---@type Enum
+    ["Feedback"] = 1, ---@type Enum
+    ["Weapon"] = 2, ---@type Enum
+    ["Vibration"] = 3, ---@type Enum
 }

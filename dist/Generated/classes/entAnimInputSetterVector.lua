@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterVector: entAnimInputSetter
----@field public value Vector4
+---@field public ["value"] Vector4
 entAnimInputSetterVector = {}
 
 ---@param fields? table

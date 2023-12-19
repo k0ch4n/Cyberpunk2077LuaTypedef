@@ -3,8 +3,8 @@
 
 ---@enum questPhaseNodeType
 questPhaseNodeType = {
-    ["Quest"] = 0,
-    ["OpenWorld"] = 1,
-    ["Combat"] = 2,
-    ["Audio"] = 3
+    ["Quest"] = 0, ---@type Enum
+    ["OpenWorld"] = 1, ---@type Enum
+    ["Combat"] = 2, ---@type Enum
+    ["Audio"] = 3, ---@type Enum
 }

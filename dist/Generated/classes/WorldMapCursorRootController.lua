@@ -9,6 +9,6 @@ WorldMapCursorRootController = {}
 function WorldMapCursorRootController.new(fields) return end
 
 ---@protected
----@param context CName
+---@param context CName|string
 ---@return CName
 function WorldMapCursorRootController:GetAnimNameFromContext(context) return end

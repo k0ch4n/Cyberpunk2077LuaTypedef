@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questCustomQuestNotificationData
----@field public header String
----@field public desc String
----@field public icon CName
----@field public fluffHeader String
+---@field public ["header"] String
+---@field public ["desc"] String
+---@field public ["icon"] CName
+---@field public ["fluffHeader"] String
 questCustomQuestNotificationData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemAttachments
----@field public itemID gameItemID
----@field public attachmentSlotID TweakDBID
+---@field public ["itemID"] gameItemID
+---@field public ["attachmentSlotID"] TweakDBID
 ItemAttachments = {}
 
 ---@param fields? table

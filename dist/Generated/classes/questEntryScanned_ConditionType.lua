@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEntryScanned_ConditionType: questIObjectConditionType
----@field public objectRef gameEntityReference
----@field public entryID TweakDBID
+---@field public ["objectRef"] gameEntityReference
+---@field public ["entryID"] TweakDBID
 questEntryScanned_ConditionType = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum DamageEffectDisplayType
 DamageEffectDisplayType = {
-    ["Flat"] = 0,
-    ["TargetHealth"] = 1,
-    ["Invalid"] = -1
+    ["Flat"] = 0, ---@type Enum
+    ["TargetHealth"] = 1, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TurnOnPsychoSquadAvCammoEvent: gameScriptableSystemRequest
----@field public go gameObject
+---@field public ["go"] gameObject
 TurnOnPsychoSquadAvCammoEvent = {}
 
 ---@param fields? table

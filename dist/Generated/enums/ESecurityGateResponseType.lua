@@ -3,7 +3,7 @@
 
 ---@enum ESecurityGateResponseType
 ESecurityGateResponseType = {
-    ["AUDIOVISUAL_ONLY"] = 0,
-    ["SEC_SYS_REPRIMAND"] = 1,
-    ["SEC_SYS_COMBAT"] = 2
+    ["AUDIOVISUAL_ONLY"] = 0, ---@type Enum
+    ["SEC_SYS_REPRIMAND"] = 1, ---@type Enum
+    ["SEC_SYS_COMBAT"] = 2, ---@type Enum
 }

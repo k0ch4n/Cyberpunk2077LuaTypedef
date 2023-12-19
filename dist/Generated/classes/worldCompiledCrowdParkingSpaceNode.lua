@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCompiledCrowdParkingSpaceNode: worldNode
----@field public crowdCreationIndex Uint32
----@field public parkingSpaceId Uint32
+---@field public ["crowdCreationIndex"] Uint32
+---@field public ["parkingSpaceId"] Uint32
 worldCompiledCrowdParkingSpaceNode = {}
 
 ---@param fields? table

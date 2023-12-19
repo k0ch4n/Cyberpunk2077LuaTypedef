@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameJoinTrafficNPCContext
----@field public startPosition Vector3
----@field public threatPosition Vector3
----@field public threatRadius Float
----@field public checkRoadIntersection Bool
----@field public usePreviousPosition Bool
+---@field public ["startPosition"] Vector3
+---@field public ["threatPosition"] Vector3
+---@field public ["threatRadius"] Float
+---@field public ["checkRoadIntersection"] Bool
+---@field public ["usePreviousPosition"] Bool
 gameJoinTrafficNPCContext = {}
 
 ---@param fields? table

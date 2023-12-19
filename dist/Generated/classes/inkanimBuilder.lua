@@ -20,18 +20,18 @@ function inkanimBuilder:Delay(delay) return end
 ---@return inkanimBuilder
 function inkanimBuilder:Duration(duration) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@param endValue Variant
 ---@return inkanimBuilder
 function inkanimBuilder:Interpolate(interpolatorName, startValue, endValue) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@return inkanimBuilder
 function inkanimBuilder:InterpolateFrom(interpolatorName, startValue) return end
 
----@param interpolatorName CName
+---@param interpolatorName CName|string
 ---@param endValue Variant
 ---@return inkanimBuilder
 function inkanimBuilder:InterpolateTo(interpolatorName, endValue) return end

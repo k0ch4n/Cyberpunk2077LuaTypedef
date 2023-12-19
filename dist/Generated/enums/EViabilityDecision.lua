@@ -3,7 +3,7 @@
 
 ---@enum EViabilityDecision
 EViabilityDecision = {
-    ["INCONCLUSIVE"] = 0,
-    ["VIABLE"] = 1,
-    ["NONVIABLE"] = 2
+    ["INCONCLUSIVE"] = 0, ---@type Enum
+    ["VIABLE"] = 1, ---@type Enum
+    ["NONVIABLE"] = 2, ---@type Enum
 }

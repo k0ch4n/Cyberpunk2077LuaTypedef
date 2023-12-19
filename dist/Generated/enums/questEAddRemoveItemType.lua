@@ -3,8 +3,8 @@
 
 ---@enum questEAddRemoveItemType
 questEAddRemoveItemType = {
-    ["AddItem"] = 0,
-    ["RemoveByItemID"] = 1,
-    ["RemoveByTag"] = 2,
-    ["RemoveAll"] = 3
+    ["AddItem"] = 0, ---@type Enum
+    ["RemoveByItemID"] = 1, ---@type Enum
+    ["RemoveByTag"] = 2, ---@type Enum
+    ["RemoveAll"] = 3, ---@type Enum
 }

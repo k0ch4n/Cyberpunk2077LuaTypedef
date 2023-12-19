@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameVisionAppearance
----@field public fill Int32
----@field public outline Int32
----@field public showThroughWalls Bool
----@field public patternType gameVisionModePatternType
+---@field public ["fill"] Int32
+---@field public ["outline"] Int32
+---@field public ["showThroughWalls"] Bool
+---@field public ["patternType"] gameVisionModePatternType
 gameVisionAppearance = {}
 
 ---@param fields? table

@@ -2,59 +2,59 @@
 ---@diagnostic disable
 
 ---@class NewHudPhoneGameController: gameuiNewHudPhoneGameController
----@field public player PlayerPuppet
----@field public journalMgr gameJournalManager
----@field public questsSystem questQuestsSystem
----@field public uiSystem gameuiGameSystemUI
----@field public fact1ListenerId Uint32
----@field public fact2ListenerId Uint32
----@field public fact3ListenerId Uint32
----@field public onNotificationsQueueChanged redCallbackObject
----@field public currActiveQueueId Int32
----@field public CurrentFunction EHudPhoneFunction
----@field public gameplayRestrictions CName[]
----@field public buttonPressed Bool
----@field public repeatingScrollActionEnabled Bool
----@field public TimeoutPeroid Float
----@field public activePhoneElements Uint32
----@field public bbSystem gameBlackboardSystem
----@field public bbUiSystemDef UI_SystemDef
----@field public bbUiSystem gameIBlackboard
----@field public isInMenuCallback redCallbackObject
----@field public bbUiComDeviceDef UI_ComDeviceDef
----@field public bbUiComDevice gameIBlackboard
----@field public phoneCallInformationCallback redCallbackObject
----@field public phoneStatusChangedCallback redCallbackObject
----@field public phoneMinimizedCallback redCallbackObject
----@field public contactsActiveCallback redCallbackObject
----@field public messageToOpenCallback redCallbackObject
----@field public phoneEnabledBBId redCallbackObject
----@field public bbUiQuickSlotsDataDef UI_QuickSlotsDataDef
----@field public bbUiQuickSlotsData gameIBlackboard
----@field public bbUiPlayerStatsDef UI_PlayerStatsDef
----@field public bbUiPlayerStats gameIBlackboard
----@field public DelaySystem gameDelaySystem
----@field public DelayedTimeoutCallbackId gameDelayID
----@field public PhoneSystem PhoneSystem
----@field public CurrentCallInformation questPhoneCallInformation
----@field public CurrentPhoneCallContact gameJournalContact
----@field public holoAudioCallLogicController HoloAudioCallLogicController
----@field public contactListLogicController PhoneDialerLogicController
----@field public phoneIconAnimProxy inkanimProxy
----@field public backgroundAnimProxy inkanimProxy
----@field public screenType PhoneScreenType
----@field public messagesPanelVisible Bool
----@field public messagesPanelSpawned Bool
----@field public threadsVisible Bool
----@field public messageToOpenHash Int32
----@field public indexToSelect Uint32
----@field public isSingleThread Bool
----@field public isShowingAllMessages Bool
----@field public keepOpenWhenInHubMenu Bool
----@field public audioSystem gameGameAudioSystem
----@field private isRemoteControllingDevice Bool
----@field private psmIsControllingDeviceCallback redCallbackObject
----@field private vehicleEnterCallback redCallbackObject
+---@field public ["player"] PlayerPuppet
+---@field public ["journalMgr"] gameJournalManager
+---@field public ["questsSystem"] questQuestsSystem
+---@field public ["uiSystem"] gameuiGameSystemUI
+---@field public ["fact1ListenerId"] Uint32
+---@field public ["fact2ListenerId"] Uint32
+---@field public ["fact3ListenerId"] Uint32
+---@field public ["onNotificationsQueueChanged"] redCallbackObject
+---@field public ["currActiveQueueId"] Int32
+---@field public ["CurrentFunction"] EHudPhoneFunction
+---@field public ["gameplayRestrictions"] CName[]
+---@field public ["buttonPressed"] Bool
+---@field public ["repeatingScrollActionEnabled"] Bool
+---@field public ["TimeoutPeroid"] Float
+---@field public ["activePhoneElements"] Uint32
+---@field public ["bbSystem"] gameBlackboardSystem
+---@field public ["bbUiSystemDef"] UI_SystemDef
+---@field public ["bbUiSystem"] gameIBlackboard
+---@field public ["isInMenuCallback"] redCallbackObject
+---@field public ["bbUiComDeviceDef"] UI_ComDeviceDef
+---@field public ["bbUiComDevice"] gameIBlackboard
+---@field public ["phoneCallInformationCallback"] redCallbackObject
+---@field public ["phoneStatusChangedCallback"] redCallbackObject
+---@field public ["phoneMinimizedCallback"] redCallbackObject
+---@field public ["contactsActiveCallback"] redCallbackObject
+---@field public ["messageToOpenCallback"] redCallbackObject
+---@field public ["phoneEnabledBBId"] redCallbackObject
+---@field public ["bbUiQuickSlotsDataDef"] UI_QuickSlotsDataDef
+---@field public ["bbUiQuickSlotsData"] gameIBlackboard
+---@field public ["bbUiPlayerStatsDef"] UI_PlayerStatsDef
+---@field public ["bbUiPlayerStats"] gameIBlackboard
+---@field public ["DelaySystem"] gameDelaySystem
+---@field public ["DelayedTimeoutCallbackId"] gameDelayID
+---@field public ["PhoneSystem"] PhoneSystem
+---@field public ["CurrentCallInformation"] questPhoneCallInformation
+---@field public ["CurrentPhoneCallContact"] gameJournalContact
+---@field public ["holoAudioCallLogicController"] HoloAudioCallLogicController
+---@field public ["contactListLogicController"] PhoneDialerLogicController
+---@field public ["phoneIconAnimProxy"] inkanimProxy
+---@field public ["backgroundAnimProxy"] inkanimProxy
+---@field public ["screenType"] PhoneScreenType
+---@field public ["messagesPanelVisible"] Bool
+---@field public ["messagesPanelSpawned"] Bool
+---@field public ["threadsVisible"] Bool
+---@field public ["messageToOpenHash"] Int32
+---@field public ["indexToSelect"] Uint32
+---@field public ["isSingleThread"] Bool
+---@field public ["isShowingAllMessages"] Bool
+---@field public ["keepOpenWhenInHubMenu"] Bool
+---@field public ["audioSystem"] gameGameAudioSystem
+---@field private ["isRemoteControllingDevice"] Bool
+---@field private ["psmIsControllingDeviceCallback"] redCallbackObject
+---@field private ["vehicleEnterCallback"] redCallbackObject
 NewHudPhoneGameController = {}
 
 ---@param fields? table
@@ -156,7 +156,7 @@ function NewHudPhoneGameController:OnInitialize() return end
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -164,7 +164,7 @@ function NewHudPhoneGameController:OnJournalEntryVisited(hash, className, notify
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -217,7 +217,7 @@ function NewHudPhoneGameController:OnPhoneIconSpawned(widget, userData) return e
 function NewHudPhoneGameController:OnPhoneMinimized(value) return end
 
 ---@protected
----@param phoneStatus CName
+---@param phoneStatus CName|string
 ---@return Bool
 function NewHudPhoneGameController:OnPhoneStatusChanged(phoneStatus) return end
 
@@ -400,8 +400,8 @@ function NewHudPhoneGameController:PlayPhoneIconAnim(element, deactivation) retu
 
 ---@param title String
 ---@param text String
----@param widget CName
----@param animation CName
+---@param widget CName|string
+---@param animation CName|string
 ---@param action? GenericNotificationBaseAction
 ---@return nil
 function NewHudPhoneGameController:PushNewContactNotification(title, text, widget, animation, action) return end

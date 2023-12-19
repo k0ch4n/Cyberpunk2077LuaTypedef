@@ -3,10 +3,10 @@
 
 ---@enum gamedataDamageType
 gamedataDamageType = {
-    ["Chemical"] = 0,
-    ["Electric"] = 1,
-    ["Physical"] = 2,
-    ["Thermal"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["Chemical"] = 0, ---@type Enum
+    ["Electric"] = 1, ---@type Enum
+    ["Physical"] = 2, ---@type Enum
+    ["Thermal"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RefreshActorRequest: HUDManagerRequest
----@field private actorUpdateData HUDActorUpdateData
----@field private requestedModules HUDModule[]
+---@field private ["actorUpdateData"] HUDActorUpdateData
+---@field private ["requestedModules"] HUDModule[]
 RefreshActorRequest = {}
 
 ---@param fields? table

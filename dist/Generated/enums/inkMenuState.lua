@@ -3,6 +3,6 @@
 
 ---@enum inkMenuState
 inkMenuState = {
-    ["Enabled"] = 0,
-    ["Disabled"] = 1
+    ["Enabled"] = 0, ---@type Enum
+    ["Disabled"] = 1, ---@type Enum
 }

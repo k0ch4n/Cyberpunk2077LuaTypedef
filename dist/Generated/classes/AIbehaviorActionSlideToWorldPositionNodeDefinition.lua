@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionSlideToWorldPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
----@field public worldPosition AIArgumentMapping
----@field public useMovePlanner Bool
+---@field public ["worldPosition"] AIArgumentMapping
+---@field public ["useMovePlanner"] Bool
 AIbehaviorActionSlideToWorldPositionNodeDefinition = {}
 
 ---@param fields? table

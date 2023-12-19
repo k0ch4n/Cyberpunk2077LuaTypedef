@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class interactionItemLogicController: inkWidgetLogicController
----@field private inputButtonContainer inkCompoundWidgetReference
----@field private inputDisplayControllerRef inkWidgetReference
----@field private QuickHackCostHolder inkWidgetReference
----@field private QuickHackCost inkTextWidgetReference
----@field private QuickHackIcon inkImageWidgetReference
----@field private QuickHackHolder inkCompoundWidgetReference
----@field private label inkTextWidgetReference
----@field private labelFail inkTextWidgetReference
----@field private SkillCheckPassBG inkWidgetReference
----@field private SkillCheckFailBG inkWidgetReference
----@field private QHIllegalIndicator inkWidgetReference
----@field private SCIllegalIndicator inkWidgetReference
----@field private additionalReqsNeeded inkWidgetReference
----@field private skillCheck inkCompoundWidgetReference
----@field private skillCheckNormalReqs inkCompoundWidgetReference
----@field private skillCheckIcon inkImageWidgetReference
----@field private skillCheckText inkTextWidgetReference
----@field private RootWidget inkCompoundWidget
----@field private inActiveTransparency Float
----@field private inputDisplayController inkInputDisplayController
----@field private animProxy inkanimProxy
----@field private isSelected Bool
+---@field private ["inputButtonContainer"] inkCompoundWidgetReference
+---@field private ["inputDisplayControllerRef"] inkWidgetReference
+---@field private ["QuickHackCostHolder"] inkWidgetReference
+---@field private ["QuickHackCost"] inkTextWidgetReference
+---@field private ["QuickHackIcon"] inkImageWidgetReference
+---@field private ["QuickHackHolder"] inkCompoundWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["labelFail"] inkTextWidgetReference
+---@field private ["SkillCheckPassBG"] inkWidgetReference
+---@field private ["SkillCheckFailBG"] inkWidgetReference
+---@field private ["QHIllegalIndicator"] inkWidgetReference
+---@field private ["SCIllegalIndicator"] inkWidgetReference
+---@field private ["additionalReqsNeeded"] inkWidgetReference
+---@field private ["skillCheck"] inkCompoundWidgetReference
+---@field private ["skillCheckNormalReqs"] inkCompoundWidgetReference
+---@field private ["skillCheckIcon"] inkImageWidgetReference
+---@field private ["skillCheckText"] inkTextWidgetReference
+---@field private ["RootWidget"] inkCompoundWidget
+---@field private ["inActiveTransparency"] Float
+---@field private ["inputDisplayController"] inkInputDisplayController
+---@field private ["animProxy"] inkanimProxy
+---@field private ["isSelected"] Bool
 interactionItemLogicController = {}
 
 ---@param fields? table
@@ -38,7 +38,7 @@ function interactionItemLogicController:OnInitialize() return end
 function interactionItemLogicController:EmptyCaptionParts() return end
 
 ---@private
----@param animName CName
+---@param animName CName|string
 ---@return nil
 function interactionItemLogicController:PlayAnim(animName) return end
 

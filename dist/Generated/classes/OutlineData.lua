@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OutlineData
----@field public outlineType EOutlineType
----@field public outlineOpacity Float
+---@field public ["outlineType"] EOutlineType
+---@field public ["outlineOpacity"] Float
 OutlineData = {}
 
 ---@param fields? table

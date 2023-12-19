@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TimeSkipPopupCloseData: inkGameNotificationData
----@field public timeChanged Bool
+---@field public ["timeChanged"] Bool
 TimeSkipPopupCloseData = {}
 
 ---@param fields? table

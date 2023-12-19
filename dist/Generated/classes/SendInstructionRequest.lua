@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SendInstructionRequest: gameScriptableSystemRequest
----@field public jobs HUDJob[]
+---@field public ["jobs"] HUDJob[]
 SendInstructionRequest = {}
 
 ---@param fields? table

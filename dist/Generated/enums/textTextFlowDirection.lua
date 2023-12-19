@@ -3,7 +3,7 @@
 
 ---@enum textTextFlowDirection
 textTextFlowDirection = {
-    ["Auto"] = 0,
-    ["LeftToRight"] = 1,
-    ["RightToLeft"] = 2
+    ["Auto"] = 0, ---@type Enum
+    ["LeftToRight"] = 1, ---@type Enum
+    ["RightToLeft"] = 2, ---@type Enum
 }

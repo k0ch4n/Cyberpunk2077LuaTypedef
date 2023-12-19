@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveExplorationLeftEvent: redEvent
----@field public type moveExplorationType
+---@field public ["type"] moveExplorationType
 moveExplorationLeftEvent = {}
 
 ---@param fields? table

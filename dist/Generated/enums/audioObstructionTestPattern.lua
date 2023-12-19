@@ -3,6 +3,6 @@
 
 ---@enum audioObstructionTestPattern
 audioObstructionTestPattern = {
-    ["Direct"] = 0,
-    ["Cone"] = 1
+    ["Direct"] = 0, ---@type Enum
+    ["Cone"] = 1, ---@type Enum
 }

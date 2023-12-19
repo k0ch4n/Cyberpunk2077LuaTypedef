@@ -30,7 +30,7 @@ function gameuiWidgetGameController:GetUIBlackboard() return end
 ---@return nil
 function gameuiWidgetGameController:PlayRumble(rStrength, rType, rPosition) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function gameuiWidgetGameController:PlayRumbleByName(eventName) return end
 
@@ -38,17 +38,17 @@ function gameuiWidgetGameController:PlayRumbleByName(eventName) return end
 ---@return nil
 function gameuiWidgetGameController:PlayRumbleLoop(rStrength) return end
 
----@param widgetName CName
----@param eventName CName
----@param actionKey? CName
+---@param widgetName CName|string
+---@param eventName CName|string
+---@param actionKey? CName|string
 ---@return nil
 function gameuiWidgetGameController:PlaySound(widgetName, eventName, actionKey) return end
 
----@param debugFunctionName CName
+---@param debugFunctionName CName|string
 ---@return nil
 function gameuiWidgetGameController:RegisterDebugCommand(debugFunctionName) return end
 
----@param context CName
+---@param context CName|string
 ---@param data? inkUserData
 ---@return nil
 function gameuiWidgetGameController:SetCursorContext(context, data) return end

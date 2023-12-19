@@ -3,6 +3,6 @@
 
 ---@enum questStorage
 questStorage = {
-    ["Slow"] = 0,
-    ["Fast"] = 1
+    ["Slow"] = 0, ---@type Enum
+    ["Fast"] = 1, ---@type Enum
 }

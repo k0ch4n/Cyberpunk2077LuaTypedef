@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SpreadAreaEffector: gameEffector
----@field public maxTargetNum Int32
----@field public range Float
----@field public objectActionsRecord gamedataObjectAction_Record[]
----@field public player PlayerPuppet
+---@field public ["maxTargetNum"] Int32
+---@field public ["range"] Float
+---@field public ["objectActionsRecord"] gamedataObjectAction_Record[]
+---@field public ["player"] PlayerPuppet
 SpreadAreaEffector = {}
 
 ---@param fields? table

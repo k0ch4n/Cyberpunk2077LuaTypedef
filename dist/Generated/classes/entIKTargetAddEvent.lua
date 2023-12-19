@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entIKTargetAddEvent: entAnimTargetAddEvent
----@field public outIKTargetRef animIKTargetRef
----@field public orientationProvider entIOrientationProvider
----@field public request animIKTargetRequest
+---@field public ["outIKTargetRef"] animIKTargetRef
+---@field public ["orientationProvider"] entIOrientationProvider
+---@field public ["request"] animIKTargetRequest
 entIKTargetAddEvent = {}
 
 ---@param fields? table
@@ -12,7 +12,7 @@ entIKTargetAddEvent = {}
 function entIKTargetAddEvent.new(fields) return end
 
 ---@param targetEntity entEntity
----@param slotTargetName CName
+---@param slotTargetName CName|string
 ---@param orientationOffsetEntitySpace Quaternion
 ---@return nil
 function entIKTargetAddEvent:SetEntityOrientationTarget(targetEntity, slotTargetName, orientationOffsetEntitySpace) return end

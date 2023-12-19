@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetPossesion_NodeType: questISceneManagerNodeType
----@field public playerPossesion gamedataPlayerPossesion
+---@field public ["playerPossesion"] gamedataPlayerPossesion
 questSetPossesion_NodeType = {}
 
 ---@param fields? table

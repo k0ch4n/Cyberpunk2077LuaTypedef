@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ModifyStatPoolValueQuickhackCostEffector: HitEventEffector
----@field public statPoolValue Float
----@field public statPoolType gamedataStatPoolType
----@field public recoverMemoryAmount Float
----@field public skipLastCombatHack Bool
+---@field public ["statPoolValue"] Float
+---@field public ["statPoolType"] gamedataStatPoolType
+---@field public ["recoverMemoryAmount"] Float
+---@field public ["skipLastCombatHack"] Bool
 ModifyStatPoolValueQuickhackCostEffector = {}
 
 ---@param fields? table

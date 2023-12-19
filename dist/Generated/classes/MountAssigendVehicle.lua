@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MountAssigendVehicle: AIVehicleTaskAbstract
----@field private result AIbehaviorUpdateOutcome
+---@field private ["result"] AIbehaviorUpdateOutcome
 MountAssigendVehicle = {}
 
 ---@param fields? table

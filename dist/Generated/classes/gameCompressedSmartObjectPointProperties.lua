@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCompressedSmartObjectPointProperties
----@field public propertyId Uint16
+---@field public ["propertyId"] Uint16
 gameCompressedSmartObjectPointProperties = {}
 
 ---@param fields? table

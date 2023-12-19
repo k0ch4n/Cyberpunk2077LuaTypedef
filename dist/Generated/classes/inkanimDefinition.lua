@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimDefinition: IScriptable
----@field public interpolators inkanimInterpolator[]
----@field public events inkanimEvent[]
+---@field public ["interpolators"] inkanimInterpolator[]
+---@field public ["events"] inkanimEvent[]
 inkanimDefinition = {}
 
 ---@param fields? table

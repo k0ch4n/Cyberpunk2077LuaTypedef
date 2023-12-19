@@ -3,6 +3,6 @@
 
 ---@enum gameinteractionsELookAtTarget
 gameinteractionsELookAtTarget = {
-    ["Entity"] = 0,
-    ["Component"] = 1
+    ["Entity"] = 0, ---@type Enum
+    ["Component"] = 1, ---@type Enum
 }

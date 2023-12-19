@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerAlpha: IParticleInitializer
----@field public alpha IEvaluatorFloat
+---@field public ["alpha"] IEvaluatorFloat
 CParticleInitializerAlpha = {}
 
 ---@param fields? table

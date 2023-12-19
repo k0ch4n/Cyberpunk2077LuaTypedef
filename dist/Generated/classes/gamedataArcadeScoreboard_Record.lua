@@ -21,7 +21,7 @@ function gamedataArcadeScoreboard_Record:ArcadeScoreboardHighScoreSFX() return e
 ---@return CName[]
 function gamedataArcadeScoreboard_Record:ArcadeScoreboardQuestFactList() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataArcadeScoreboard_Record:ArcadeScoreboardQuestFactListContains(item) return end
 

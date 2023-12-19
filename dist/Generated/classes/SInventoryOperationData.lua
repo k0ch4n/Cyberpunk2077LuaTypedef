@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SInventoryOperationData
----@field public itemName TweakDBID
----@field public quantity Int32
----@field public operationType EItemOperationType
+---@field public ["itemName"] TweakDBID
+---@field public ["quantity"] Int32
+---@field public ["operationType"] EItemOperationType
 SInventoryOperationData = {}
 
 ---@param fields? table

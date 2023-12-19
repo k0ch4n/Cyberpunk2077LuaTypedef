@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class Radio: InteractiveDevice
----@field private effectAction ScriptableDeviceAction
----@field private effectRef gameEffectRef
----@field private statusEffect TweakDBID
----@field private damageType TweakDBID
----@field private startingStation Int32
----@field private isInteractive Bool
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private effectInstance gameEffectInstance
----@field private targets ScriptedPuppet[]
----@field private vfxInstance gameFxInstance
+---@field private ["effectAction"] ScriptableDeviceAction
+---@field private ["effectRef"] gameEffectRef
+---@field private ["statusEffect"] TweakDBID
+---@field private ["damageType"] TweakDBID
+---@field private ["startingStation"] Int32
+---@field private ["isInteractive"] Bool
+---@field private ["isShortGlitchActive"] Bool
+---@field private ["shortGlitchDelayID"] gameDelayID
+---@field private ["effectInstance"] gameEffectInstance
+---@field private ["targets"] ScriptedPuppet[]
+---@field private ["vfxInstance"] gameFxInstance
 Radio = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VendorRegisterBlackBoardDef: gamebbScriptDefinition
----@field public vendors gamebbScriptID_Variant
+---@field public ["vendors"] gamebbScriptID_Variant
 VendorRegisterBlackBoardDef = {}
 
 ---@param fields? table

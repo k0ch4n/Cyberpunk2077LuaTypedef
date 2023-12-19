@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecurityGateControllerPS: MasterControllerPS
----@field private securityGateDetectionProperties SecurityGateDetectionProperties
----@field private securityGateResponseProperties SecurityGateResponseProperties
----@field private securityGateStatus ESecurityGateStatus
----@field private trespassersDataList TrespasserEntry[]
+---@field private ["securityGateDetectionProperties"] SecurityGateDetectionProperties
+---@field private ["securityGateResponseProperties"] SecurityGateResponseProperties
+---@field private ["securityGateStatus"] ESecurityGateStatus
+---@field private ["trespassersDataList"] TrespasserEntry[]
 SecurityGateControllerPS = {}
 
 ---@param fields? table
@@ -18,7 +18,7 @@ function SecurityGateControllerPS:ActionQuickHackAuthorization() return end
 
 ---@private
 ---@param trespasser ScriptedPuppet
----@param areaName CName
+---@param areaName CName|string
 ---@return nil
 function SecurityGateControllerPS:AddTrespasserEntry(trespasser, areaName) return end
 
@@ -28,18 +28,18 @@ function SecurityGateControllerPS:CanCreateAnyQuickHackActions() return end
 
 ---@private
 ---@param trespasserIndex Int32
----@param areaName CName
+---@param areaName CName|string
 ---@return Bool
 function SecurityGateControllerPS:DetermineIfEnteredFromCorrectSide(trespasserIndex, areaName) return end
 
 ---@protected
 ---@param index Int32
----@param areaName CName
+---@param areaName CName|string
 ---@return Bool
 function SecurityGateControllerPS:DetermineIfEntityIsWithdrawing(index, areaName) return end
 
 ---@private
----@param mostRecentArea CName
+---@param mostRecentArea CName|string
 ---@param tresspasser entEntityID
 ---@param isEntering Bool
 ---@return nil
@@ -137,7 +137,7 @@ function SecurityGateControllerPS:TriggerScanResponse(isSuccessful) return end
 ---@private
 ---@param index Int32
 ---@param isEntering Bool
----@param areaName CName
+---@param areaName CName|string
 ---@return nil
 function SecurityGateControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) return end
 

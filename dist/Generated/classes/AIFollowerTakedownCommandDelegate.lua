@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIFollowerTakedownCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public inCommand AIArgumentMapping
----@field public approachBeforeTakedown Bool
----@field public doNotTeleportIfTargetIsVisible Bool
+---@field public ["inCommand"] AIArgumentMapping
+---@field public ["approachBeforeTakedown"] Bool
+---@field public ["doNotTeleportIfTargetIsVisible"] Bool
 AIFollowerTakedownCommandDelegate = {}
 
 ---@param fields? table

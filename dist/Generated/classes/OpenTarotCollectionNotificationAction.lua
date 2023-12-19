@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenTarotCollectionNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field public ["eventDispatcher"] worlduiIWidgetGameController
 OpenTarotCollectionNotificationAction = {}
 
 ---@param fields? table

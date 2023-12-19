@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemSetBackpackSorting: gameScriptableSystemRequest
----@field public sortMode Int32
+---@field public ["sortMode"] Int32
 UIScriptableSystemSetBackpackSorting = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestTrackedData
----@field public entryPath gameJournalPath
----@field public entryType CName
----@field public state gameJournalEntryState
+---@field public ["entryPath"] gameJournalPath
+---@field public ["entryType"] CName
+---@field public ["state"] gameJournalEntryState
 gameJournalQuestTrackedData = {}
 
 ---@param fields? table

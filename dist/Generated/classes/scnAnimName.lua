@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnAnimName: ISerializable
----@field public type scnAnimNameType
+---@field public ["type"] scnAnimNameType
 scnAnimName = {}
 
 ---@param fields? table

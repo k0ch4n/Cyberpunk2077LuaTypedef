@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class minimapuiSettings
----@field public showTime Float
----@field public hideTime Float
+---@field public ["showTime"] Float
+---@field public ["hideTime"] Float
 minimapuiSettings = {}
 
 ---@param fields? table

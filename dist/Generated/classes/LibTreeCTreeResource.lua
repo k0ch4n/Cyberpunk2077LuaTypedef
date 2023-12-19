@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class LibTreeCTreeResource: CResource
----@field public variables LibTreeDefTreeVariablesList
+---@field public ["variables"] LibTreeDefTreeVariablesList
 LibTreeCTreeResource = {}

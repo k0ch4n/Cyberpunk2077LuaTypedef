@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnUnmountEvent: scnSceneEvent
----@field public performer scnPerformerId
+---@field public ["performer"] scnPerformerId
 scnUnmountEvent = {}
 
 ---@param fields? table

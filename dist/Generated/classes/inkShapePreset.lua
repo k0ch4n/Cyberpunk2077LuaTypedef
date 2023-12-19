@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkShapePreset
----@field public name CName
----@field public points Vector2[]
+---@field public ["name"] CName
+---@field public ["points"] Vector2[]
 inkShapePreset = {}
 
 ---@param fields? table

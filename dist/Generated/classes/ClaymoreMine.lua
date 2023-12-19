@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ClaymoreMine: gameweaponObject
----@field private visualComponent entMeshComponent
----@field private triggerAreaIndicator entMeshComponent
----@field private shootCollision entSimpleColliderComponent
----@field private triggerComponent gameStaticTriggerAreaComponent
----@field private alive Bool
----@field private armed Bool
+---@field private ["visualComponent"] entMeshComponent
+---@field private ["triggerAreaIndicator"] entMeshComponent
+---@field private ["shootCollision"] entSimpleColliderComponent
+---@field private ["triggerComponent"] gameStaticTriggerAreaComponent
+---@field private ["alive"] Bool
+---@field private ["armed"] Bool
 ClaymoreMine = {}
 
 ---@param fields? table

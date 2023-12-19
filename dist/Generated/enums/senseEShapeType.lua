@@ -3,9 +3,9 @@
 
 ---@enum senseEShapeType
 senseEShapeType = {
-    ["INVALID"] = -1,
-    ["BOX"] = 0,
-    ["SPHERE"] = 1,
-    ["CONE"] = 2,
-    ["ANGLE_RANGE"] = 3
+    ["INVALID"] = -1, ---@type Enum
+    ["BOX"] = 0, ---@type Enum
+    ["SPHERE"] = 1, ---@type Enum
+    ["CONE"] = 2, ---@type Enum
+    ["ANGLE_RANGE"] = 3, ---@type Enum
 }

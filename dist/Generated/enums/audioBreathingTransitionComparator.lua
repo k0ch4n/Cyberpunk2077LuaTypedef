@@ -3,7 +3,7 @@
 
 ---@enum audioBreathingTransitionComparator
 audioBreathingTransitionComparator = {
-    ["Less"] = 0,
-    ["Equal"] = 1,
-    ["Greater"] = 2
+    ["Less"] = 0, ---@type Enum
+    ["Equal"] = 1, ---@type Enum
+    ["Greater"] = 2, ---@type Enum
 }

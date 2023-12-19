@@ -3,6 +3,6 @@
 
 ---@enum questAudioEventPrefetchMode
 questAudioEventPrefetchMode = {
-    ["AddEventPrefetch"] = 0,
-    ["RemoveEventPrefetch"] = 1
+    ["AddEventPrefetch"] = 0, ---@type Enum
+    ["RemoveEventPrefetch"] = 1, ---@type Enum
 }

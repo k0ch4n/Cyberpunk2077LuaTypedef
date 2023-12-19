@@ -8,7 +8,7 @@ inkMenuLayer_SetCursorType = {}
 ---@return inkMenuLayer_SetCursorType
 function inkMenuLayer_SetCursorType.new(fields) return end
 
----@param type CName
+---@param type CName|string
 ---@param overrideDpad? Bool
 ---@return nil
 function inkMenuLayer_SetCursorType:Init(type, overrideDpad) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyLightPresetEffector: gameEffector
----@field public lightPreset gamedataLightPreset_Record
+---@field public ["lightPreset"] gamedataLightPreset_Record
 ApplyLightPresetEffector = {}
 
 ---@param fields? table
@@ -25,7 +25,7 @@ function ApplyLightPresetEffector:Initialize(record, parentRecord) return end
 ---@param colorValues Int32[]
 ---@param strength Float
 ---@param time Float
----@param curve CName
+---@param curve CName|string
 ---@param loop Bool
 ---@return nil
 function ApplyLightPresetEffector:SendChangeLightEvent(owner, colorValues, strength, time, curve, loop) return end

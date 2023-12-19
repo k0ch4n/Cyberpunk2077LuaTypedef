@@ -50,6 +50,6 @@ function gamedataAISubActionShootToPoint_Record:TargetPositionObjHandle() return
 ---@return CName[]
 function gamedataAISubActionShootToPoint_Record:WaypointTag() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAISubActionShootToPoint_Record:WaypointTagContains(item) return end

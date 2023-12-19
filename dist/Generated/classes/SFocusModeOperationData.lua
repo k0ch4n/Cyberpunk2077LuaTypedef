@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SFocusModeOperationData
----@field public operationType ETriggerOperationType
----@field public isLookedAt Bool
----@field public operation SBaseDeviceOperationData
+---@field public ["operationType"] ETriggerOperationType
+---@field public ["isLookedAt"] Bool
+---@field public ["operation"] SBaseDeviceOperationData
 SFocusModeOperationData = {}
 
 ---@param fields? table

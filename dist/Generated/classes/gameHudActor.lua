@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class gameHudActor: IScriptable
----@field private entityID entEntityID
----@field private type HUDActorType
----@field private status HUDActorStatus
----@field private visibility ActorVisibilityStatus
----@field private activeModules HUDModule[]
----@field private isRevealed Bool
----@field private isTagged Bool
----@field private clueData HUDClueData
----@field private isRemotelyAccessed Bool
----@field private canOpenScannerInfo Bool
----@field private isInIconForcedVisibilityRange Bool
----@field private isIconForcedVisibleThroughWalls Bool
----@field private shouldRefreshQHack Bool
+---@field private ["entityID"] entEntityID
+---@field private ["type"] HUDActorType
+---@field private ["status"] HUDActorStatus
+---@field private ["visibility"] ActorVisibilityStatus
+---@field private ["activeModules"] HUDModule[]
+---@field private ["isRevealed"] Bool
+---@field private ["isTagged"] Bool
+---@field private ["clueData"] HUDClueData
+---@field private ["isRemotelyAccessed"] Bool
+---@field private ["canOpenScannerInfo"] Bool
+---@field private ["isInIconForcedVisibilityRange"] Bool
+---@field private ["isIconForcedVisibleThroughWalls"] Bool
+---@field private ["shouldRefreshQHack"] Bool
 gameHudActor = {}
 
 ---@param fields? table
@@ -87,7 +87,7 @@ function gameHudActor:SetCanOpenScannerInfo(value) return end
 ---@return nil
 function gameHudActor:SetClue(value) return end
 
----@param value CName
+---@param value CName|string
 ---@return nil
 function gameHudActor:SetClueGroup(value) return end
 

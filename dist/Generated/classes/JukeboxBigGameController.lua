@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class JukeboxBigGameController: DeviceInkGameControllerBase
----@field private onTogglePlayListener redCallbackObject
+---@field private ["onTogglePlayListener"] redCallbackObject
 JukeboxBigGameController = {}
 
 ---@param fields? table

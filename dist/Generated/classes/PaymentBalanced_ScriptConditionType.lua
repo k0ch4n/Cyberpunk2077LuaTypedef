@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PaymentBalanced_ScriptConditionType: PaymentConditionTypeBase
----@field public questAssignment TweakDBID
----@field public difficulty EGameplayChallengeLevel
+---@field public ["questAssignment"] TweakDBID
+---@field public ["difficulty"] EGameplayChallengeLevel
 PaymentBalanced_ScriptConditionType = {}
 
 ---@param fields? table

@@ -3,16 +3,16 @@
 
 ---@enum NewPerkCellAnimationType
 NewPerkCellAnimationType = {
-    ["Bought"] = 0,
-    ["Maxed"] = 1,
-    ["Locked"] = 2,
-    ["HoverOver"] = 3,
-    ["HoverOut"] = 4,
-    ["Sold"] = 5,
-    ["Reminder"] = 6,
-    ["SellLocked"] = 7,
-    ["InsufficientPoints"] = 8,
-    ["MaxedLocked"] = 9,
-    ["COUNT"] = 10,
-    ["INVALID"] = -1
+    ["Bought"] = 0, ---@type Enum
+    ["Maxed"] = 1, ---@type Enum
+    ["Locked"] = 2, ---@type Enum
+    ["HoverOver"] = 3, ---@type Enum
+    ["HoverOut"] = 4, ---@type Enum
+    ["Sold"] = 5, ---@type Enum
+    ["Reminder"] = 6, ---@type Enum
+    ["SellLocked"] = 7, ---@type Enum
+    ["InsufficientPoints"] = 8, ---@type Enum
+    ["MaxedLocked"] = 9, ---@type Enum
+    ["COUNT"] = 10, ---@type Enum
+    ["INVALID"] = -1, ---@type Enum
 }

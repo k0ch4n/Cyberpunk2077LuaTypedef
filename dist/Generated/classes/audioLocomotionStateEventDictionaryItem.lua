@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioLocomotionStateEventDictionaryItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value CName
+---@field public ["key"] CName
+---@field public ["value"] CName
 audioLocomotionStateEventDictionaryItem = {}
 
 ---@param fields? table

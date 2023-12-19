@@ -3,8 +3,8 @@
 
 ---@enum PaperdollPositionAnimation
 PaperdollPositionAnimation = {
-    ["Center"] = 0,
-    ["Left"] = 1,
-    ["Right"] = 2,
-    ["LeftFullBody"] = 3
+    ["Center"] = 0, ---@type Enum
+    ["Left"] = 1, ---@type Enum
+    ["Right"] = 2, ---@type Enum
+    ["LeftFullBody"] = 3, ---@type Enum
 }

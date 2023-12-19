@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class hudCorpoController: gameuiHUDGameController
----@field private ScrollText inkTextWidgetReference
----@field private ScrollTextWidget inkWidgetReference
----@field private root_canvas inkWidgetReference
----@field private root inkCompoundWidget
----@field private questsSystem questQuestsSystem
----@field private fact1ListenerId Uint32
----@field private fact2ListenerId Uint32
----@field private fact3ListenerId Uint32
----@field private fact4ListenerId Uint32
----@field private fact5ListenerId Uint32
+---@field private ["ScrollText"] inkTextWidgetReference
+---@field private ["ScrollTextWidget"] inkWidgetReference
+---@field private ["root_canvas"] inkWidgetReference
+---@field private ["root"] inkCompoundWidget
+---@field private ["questsSystem"] questQuestsSystem
+---@field private ["fact1ListenerId"] Uint32
+---@field private ["fact2ListenerId"] Uint32
+---@field private ["fact3ListenerId"] Uint32
+---@field private ["fact4ListenerId"] Uint32
+---@field private ["fact5ListenerId"] Uint32
 hudCorpoController = {}
 
 ---@param fields? table

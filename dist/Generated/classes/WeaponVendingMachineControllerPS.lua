@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponVendingMachineControllerPS: VendingMachineControllerPS
----@field private weaponVendingMachineSetup WeaponVendingMachineSetup
----@field private weaponVendingMachineSFX WeaponVendingMachineSFX
+---@field private ["weaponVendingMachineSetup"] WeaponVendingMachineSetup
+---@field private ["weaponVendingMachineSFX"] WeaponVendingMachineSFX
 WeaponVendingMachineControllerPS = {}
 
 ---@param fields? table

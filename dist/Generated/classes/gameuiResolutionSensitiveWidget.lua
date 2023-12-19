@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiResolutionSensitiveWidget
----@field public widget inkWidgetReference
----@field public marginToScalecorrectOverride inkMargin
+---@field public ["widget"] inkWidgetReference
+---@field public ["marginToScalecorrectOverride"] inkMargin
 gameuiResolutionSensitiveWidget = {}
 
 ---@param fields? table

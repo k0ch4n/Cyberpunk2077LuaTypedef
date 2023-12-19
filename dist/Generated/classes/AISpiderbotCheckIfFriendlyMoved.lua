@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISpiderbotCheckIfFriendlyMoved: AIAutonomousConditions
----@field public maxAllowedDelta AIArgumentMapping
+---@field public ["maxAllowedDelta"] AIArgumentMapping
 AISpiderbotCheckIfFriendlyMoved = {}
 
 ---@param fields? table

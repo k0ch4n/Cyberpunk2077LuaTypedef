@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BunkerMapObject: gameObject
----@field public mapIndex Int32
+---@field public ["mapIndex"] Int32
 BunkerMapObject = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimExecuteCodeEventEvent: inkanimEvent
----@field public eventToExecute redEvent
+---@field public ["eventToExecute"] redEvent
 inkanimExecuteCodeEventEvent = {}
 
 ---@param fields? table

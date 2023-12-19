@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class BasicDistractionDevice: InteractiveDevice
----@field protected animFeatureDataDistractor AnimFeature_DistractionState
----@field protected animFeatureDataNameDistractor CName
----@field protected distractionComponentSwapNamesToON CName[]
----@field protected distractionComponentSwapNamesToOFF CName[]
----@field private distractionComponentON entIPlacedComponent[]
----@field private distractionComponentOFF entIPlacedComponent[]
----@field protected meshAppearanceNameON CName
----@field protected meshAppearanceNameOFF CName
+---@field protected ["animFeatureDataDistractor"] AnimFeature_DistractionState
+---@field protected ["animFeatureDataNameDistractor"] CName
+---@field protected ["distractionComponentSwapNamesToON"] CName[]
+---@field protected ["distractionComponentSwapNamesToOFF"] CName[]
+---@field private ["distractionComponentON"] entIPlacedComponent[]
+---@field private ["distractionComponentOFF"] entIPlacedComponent[]
+---@field protected ["meshAppearanceNameON"] CName
+---@field protected ["meshAppearanceNameOFF"] CName
 BasicDistractionDevice = {}
 
 ---@param fields? table
@@ -88,7 +88,7 @@ function BasicDistractionDevice:PlayAnimgraphTransformAnimation() return end
 function BasicDistractionDevice:PlayDistractAnimation(loop) return end
 
 ---@protected
----@param animationName CName
+---@param animationName CName|string
 ---@param loop? Bool
 ---@return nil
 function BasicDistractionDevice:PlayTransformAnimation(animationName, loop) return end
@@ -111,7 +111,7 @@ function BasicDistractionDevice:StopDistractAnimation() return end
 function BasicDistractionDevice:StopDistraction() return end
 
 ---@protected
----@param animationName CName
+---@param animationName CName|string
 ---@return nil
 function BasicDistractionDevice:StopTransformDistractAnimation(animationName) return end
 

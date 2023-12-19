@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UploadFromNPCToNPCListener: QuickHackUploadListener
----@field public npcPuppet ScriptedPuppet
+---@field public ["npcPuppet"] ScriptedPuppet
 UploadFromNPCToNPCListener = {}
 
 ---@param fields? table

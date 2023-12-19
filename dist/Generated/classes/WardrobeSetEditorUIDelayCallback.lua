@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WardrobeSetEditorUIDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public owner WardrobeSetEditorUIController
+---@field public ["owner"] WardrobeSetEditorUIController
 WardrobeSetEditorUIDelayCallback = {}
 
 ---@param fields? table

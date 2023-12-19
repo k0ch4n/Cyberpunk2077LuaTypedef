@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class GogRewardsListController: inkWidgetLogicController
----@field private containerWidget inkWidgetReference
----@field private scrollArea inkWidgetReference
----@field private sizeRefWrapper inkWidgetReference
----@field private scrollBarRequiredHeight Int32
----@field private shouldUpdateLayout Bool
+---@field private ["containerWidget"] inkWidgetReference
+---@field private ["scrollArea"] inkWidgetReference
+---@field private ["sizeRefWrapper"] inkWidgetReference
+---@field private ["scrollBarRequiredHeight"] Int32
+---@field private ["shouldUpdateLayout"] Bool
 GogRewardsListController = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function GogRewardsListController:OnArrangeChildrenComplete() return end
 function GogRewardsListController:OnDelayedUpdateLayoutEvent(evt) return end
 
 ---@private
----@param groupName CName
+---@param groupName CName|string
 ---@return Int32
 function GogRewardsListController:GetGroupIndex(groupName) return end
 

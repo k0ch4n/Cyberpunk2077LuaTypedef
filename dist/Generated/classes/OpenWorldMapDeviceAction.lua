@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenWorldMapDeviceAction: ActionBool
----@field private fastTravelPointData gameFastTravelPointData
+---@field private ["fastTravelPointData"] gameFastTravelPointData
 OpenWorldMapDeviceAction = {}
 
 ---@param fields? table

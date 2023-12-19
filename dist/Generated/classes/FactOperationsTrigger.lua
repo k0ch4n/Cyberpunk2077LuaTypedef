@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactOperationsTrigger: DeviceOperationsTrigger
----@field public triggerData FactOperationTriggerData
+---@field public ["triggerData"] FactOperationTriggerData
 FactOperationsTrigger = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ FactOperationsTrigger = {}
 function FactOperationsTrigger.new(fields) return end
 
 ---@param owner gameObject
----@param factName CName
+---@param factName CName|string
 ---@param container DeviceOperationsContainer
 ---@return nil
 function FactOperationsTrigger:EvaluateTrigger(owner, factName, container) return end

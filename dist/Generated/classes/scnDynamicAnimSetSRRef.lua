@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnDynamicAnimSetSRRef
----@field public asyncAnimSet animAnimSet
+---@field public ["asyncAnimSet"] animAnimSet
 scnDynamicAnimSetSRRef = {}
 
 ---@param fields? table

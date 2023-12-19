@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkKeyBindingEvent: redEvent
----@field public keyName CName
+---@field public ["keyName"] CName
 inkKeyBindingEvent = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum ETransformAnimationOperationType
 ETransformAnimationOperationType = {
-    ["PLAY"] = 0,
-    ["PAUSE"] = 1,
-    ["RESET"] = 2,
-    ["SKIP"] = 3
+    ["PLAY"] = 0, ---@type Enum
+    ["PAUSE"] = 1, ---@type Enum
+    ["RESET"] = 2, ---@type Enum
+    ["SKIP"] = 3, ---@type Enum
 }

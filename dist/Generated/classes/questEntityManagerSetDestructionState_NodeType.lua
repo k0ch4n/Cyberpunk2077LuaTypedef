@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetDestructionState_NodeType: questIEntityManager_NodeType
----@field public action questSetDestructionStateAction
----@field public params questEntityManagerSetDestructionState_NodeTypeParams[]
+---@field public ["action"] questSetDestructionStateAction
+---@field public ["params"] questEntityManagerSetDestructionState_NodeTypeParams[]
 questEntityManagerSetDestructionState_NodeType = {}
 
 ---@param fields? table

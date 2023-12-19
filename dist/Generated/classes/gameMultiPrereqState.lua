@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMultiPrereqState: gamePrereqState
----@field public nestedStates gamePrereqState[]
+---@field public ["nestedStates"] gamePrereqState[]
 gameMultiPrereqState = {}
 
 ---@param fields? table

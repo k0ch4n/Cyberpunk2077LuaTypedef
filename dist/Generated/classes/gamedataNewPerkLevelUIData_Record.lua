@@ -46,6 +46,6 @@ function gamedataNewPerkLevelUIData_Record:IntValuesContains(item) return end
 ---@return CName[]
 function gamedataNewPerkLevelUIData_Record:NameValues() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataNewPerkLevelUIData_Record:NameValuesContains(item) return end

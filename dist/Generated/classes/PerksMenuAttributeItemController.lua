@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class PerksMenuAttributeItemController: inkWidgetLogicController
----@field protected attributeDisplay inkWidgetReference
----@field protected connectionLine inkImageWidgetReference
----@field protected attributeType PerkMenuAttribute
----@field protected skillsLevelsContainer inkCompoundWidgetReference
----@field protected proficiencyButtonRefs inkWidgetReference[]
----@field protected isReversed Bool
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected attributeDisplayController PerksMenuAttributeDisplayController
----@field protected recentlyPurchased Bool
----@field protected holdStarted Bool
----@field protected data AttributeData
----@field protected cool_in_proxy inkanimProxy
----@field protected cool_out_proxy inkanimProxy
+---@field protected ["attributeDisplay"] inkWidgetReference
+---@field protected ["connectionLine"] inkImageWidgetReference
+---@field protected ["attributeType"] PerkMenuAttribute
+---@field protected ["skillsLevelsContainer"] inkCompoundWidgetReference
+---@field protected ["proficiencyButtonRefs"] inkWidgetReference[]
+---@field protected ["isReversed"] Bool
+---@field protected ["dataManager"] PlayerDevelopmentDataManager
+---@field protected ["attributeDisplayController"] PerksMenuAttributeDisplayController
+---@field protected ["recentlyPurchased"] Bool
+---@field protected ["holdStarted"] Bool
+---@field protected ["data"] AttributeData
+---@field protected ["cool_in_proxy"] inkanimProxy
+---@field protected ["cool_out_proxy"] inkanimProxy
 PerksMenuAttributeItemController = {}
 
 ---@param fields? table

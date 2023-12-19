@@ -3,10 +3,10 @@
 
 ---@enum EKnockdownStates
 EKnockdownStates = {
-    ["Invalid"] = 0,
-    ["Start"] = 1,
-    ["FallLoop"] = 2,
-    ["Land"] = 3,
-    ["Recovery"] = 4,
-    ["AirRecovery"] = 5
+    ["Invalid"] = 0, ---@type Enum
+    ["Start"] = 1, ---@type Enum
+    ["FallLoop"] = 2, ---@type Enum
+    ["Land"] = 3, ---@type Enum
+    ["Recovery"] = 4, ---@type Enum
+    ["AirRecovery"] = 5, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsPuppetBreachedPrereqState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field public ["psListener"] gameScriptedPrereqPSChangeListenerWrapper
 IsPuppetBreachedPrereqState = {}
 
 ---@param fields? table

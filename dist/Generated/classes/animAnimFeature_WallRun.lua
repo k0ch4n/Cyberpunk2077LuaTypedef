@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_WallRun: animAnimFeature
----@field public wallOnRightSide Bool
----@field public wallPosition Vector4
----@field public wallNormal Vector4
+---@field public ["wallOnRightSide"] Bool
+---@field public ["wallPosition"] Vector4
+---@field public ["wallNormal"] Vector4
 animAnimFeature_WallRun = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum animEBlendTypeLBC
 animEBlendTypeLBC = {
-    ["Linear"] = 0,
-    ["Smoothstep"] = 1,
-    ["CustomCurve"] = 2
+    ["Linear"] = 0, ---@type Enum
+    ["Smoothstep"] = 1, ---@type Enum
+    ["CustomCurve"] = 2, ---@type Enum
 }

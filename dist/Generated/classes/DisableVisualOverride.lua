@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisableVisualOverride: redEvent
----@field public blockReequipping Bool
+---@field public ["blockReequipping"] Bool
 DisableVisualOverride = {}
 
 ---@param fields? table

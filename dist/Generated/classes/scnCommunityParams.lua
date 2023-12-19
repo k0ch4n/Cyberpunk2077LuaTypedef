@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnCommunityParams
----@field public reference NodeRef
----@field public entryName CName
----@field public forceMaxVisibility Bool
+---@field public ["reference"] NodeRef
+---@field public ["entryName"] CName
+---@field public ["forceMaxVisibility"] Bool
 scnCommunityParams = {}
 
 ---@param fields? table

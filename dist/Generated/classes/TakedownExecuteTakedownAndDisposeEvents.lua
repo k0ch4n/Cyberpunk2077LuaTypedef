@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TakedownExecuteTakedownAndDisposeEvents: LocomotionTakedownEvents
----@field public targetID entEntityID
+---@field public ["targetID"] entEntityID
 TakedownExecuteTakedownAndDisposeEvents = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum ESmartHousePreset
 ESmartHousePreset = {
-    ["MorningPreset"] = 0,
-    ["EveningPreset"] = 1,
-    ["NightPreset"] = 2
+    ["MorningPreset"] = 0, ---@type Enum
+    ["EveningPreset"] = 1, ---@type Enum
+    ["NightPreset"] = 2, ---@type Enum
 }

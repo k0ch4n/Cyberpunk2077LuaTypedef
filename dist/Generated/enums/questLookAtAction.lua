@@ -3,7 +3,7 @@
 
 ---@enum questLookAtAction
 questLookAtAction = {
-    ["Nothing"] = 0,
-    ["Reset"] = 1,
-    ["Set"] = 2
+    ["Nothing"] = 0, ---@type Enum
+    ["Reset"] = 1, ---@type Enum
+    ["Set"] = 2, ---@type Enum
 }

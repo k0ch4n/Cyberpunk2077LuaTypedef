@@ -3,7 +3,7 @@
 
 ---@enum EHotkeyRequestType
 EHotkeyRequestType = {
-    ["Assign"] = 0,
-    ["Cycle"] = 1,
-    ["Restore"] = 2
+    ["Assign"] = 0, ---@type Enum
+    ["Cycle"] = 1, ---@type Enum
+    ["Restore"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterNetworkLinkRequest: gameScriptableSystemRequest
----@field public linksData SNetworkLinkData[]
+---@field public ["linksData"] SNetworkLinkData[]
 RegisterNetworkLinkRequest = {}
 
 ---@param fields? table

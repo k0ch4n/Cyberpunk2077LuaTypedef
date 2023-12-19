@@ -3,9 +3,9 @@
 
 ---@enum questEUseWeapon_MissileOffsetsSource
 questEUseWeapon_MissileOffsetsSource = {
-    ["None"] = 0,
-    ["Predefined_Narrow"] = 1,
-    ["Predefined_Wide"] = 2,
-    ["TweakDB"] = 3,
-    ["List"] = 4
+    ["None"] = 0, ---@type Enum
+    ["Predefined_Narrow"] = 1, ---@type Enum
+    ["Predefined_Wide"] = 2, ---@type Enum
+    ["TweakDB"] = 3, ---@type Enum
+    ["List"] = 4, ---@type Enum
 }

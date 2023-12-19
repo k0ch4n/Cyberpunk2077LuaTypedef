@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TestStackScriptData
----@field public testVar Int32
----@field public anotherVar CName
+---@field public ["testVar"] Int32
+---@field public ["anotherVar"] CName
 TestStackScriptData = {}
 
 ---@param fields? table

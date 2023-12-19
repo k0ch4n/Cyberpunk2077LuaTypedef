@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NPCStatePrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
----@field public prevValue Int32
+---@field public ["owner"] gameObject
+---@field public ["listenerInt"] redCallbackObject
+---@field public ["prevValue"] Int32
 NPCStatePrereqState = {}
 
 ---@param fields? table

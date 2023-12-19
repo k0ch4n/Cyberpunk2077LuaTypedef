@@ -3,7 +3,7 @@
 
 ---@enum EPermissionSource
 EPermissionSource = {
-    ["GAMEPLAY"] = 0,
-    ["PLAYER"] = 1,
-    ["QUEST"] = 2
+    ["GAMEPLAY"] = 0, ---@type Enum
+    ["PLAYER"] = 1, ---@type Enum
+    ["QUEST"] = 2, ---@type Enum
 }

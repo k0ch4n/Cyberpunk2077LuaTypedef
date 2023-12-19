@@ -3,14 +3,14 @@
 
 ---@enum gamedataUIIconCensorFlag
 gamedataUIIconCensorFlag = {
-    ["Drugs"] = 0,
-    ["Gore"] = 1,
-    ["Homosexuality"] = 2,
-    ["None"] = 3,
-    ["Nudity"] = 4,
-    ["OverSexualised"] = 5,
-    ["Religion"] = 6,
-    ["Suggestive"] = 7,
-    ["Count"] = 8,
-    ["Invalid"] = 9
+    ["Drugs"] = 0, ---@type Enum
+    ["Gore"] = 1, ---@type Enum
+    ["Homosexuality"] = 2, ---@type Enum
+    ["None"] = 3, ---@type Enum
+    ["Nudity"] = 4, ---@type Enum
+    ["OverSexualised"] = 5, ---@type Enum
+    ["Religion"] = 6, ---@type Enum
+    ["Suggestive"] = 7, ---@type Enum
+    ["Count"] = 8, ---@type Enum
+    ["Invalid"] = 9, ---@type Enum
 }

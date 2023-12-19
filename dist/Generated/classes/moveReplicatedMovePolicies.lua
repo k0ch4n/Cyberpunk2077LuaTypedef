@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class moveReplicatedMovePolicies: entReplicatedItem
----@field public key Uint64
----@field public policies movePolicies
+---@field public ["key"] Uint64
+---@field public ["policies"] movePolicies
 moveReplicatedMovePolicies = {}
 
 ---@param fields? table

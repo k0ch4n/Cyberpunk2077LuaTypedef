@@ -3,7 +3,7 @@
 
 ---@enum ItemAdditionalInfoType
 ItemAdditionalInfoType = {
-    ["NONE"] = 0,
-    ["PRICE"] = 1,
-    ["TYPE"] = 2
+    ["NONE"] = 0, ---@type Enum
+    ["PRICE"] = 1, ---@type Enum
+    ["TYPE"] = 2, ---@type Enum
 }

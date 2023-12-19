@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AttributeUpgradePurchased: redEvent
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
+---@field public ["attributeType"] PerkMenuAttribute
+---@field public ["attributeData"] AttributeData
 AttributeUpgradePurchased = {}
 
 ---@param fields? table

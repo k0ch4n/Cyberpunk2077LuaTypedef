@@ -3,6 +3,6 @@
 
 ---@enum EPaymentSchedule
 EPaymentSchedule = {
-    ["WEEKLY"] = 0,
-    ["MONTHLY"] = 1
+    ["WEEKLY"] = 0, ---@type Enum
+    ["MONTHLY"] = 1, ---@type Enum
 }

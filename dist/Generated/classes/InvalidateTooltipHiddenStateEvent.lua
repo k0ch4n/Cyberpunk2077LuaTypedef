@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InvalidateTooltipHiddenStateEvent: redEvent
----@field public widget inkWidget
+---@field public ["widget"] inkWidget
 InvalidateTooltipHiddenStateEvent = {}
 
 ---@param fields? table

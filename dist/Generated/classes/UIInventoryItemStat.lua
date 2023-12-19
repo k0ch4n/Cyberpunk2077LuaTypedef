@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemStat: IScriptable
----@field public Type gamedataStatType
----@field public Value Float
----@field public PropertiesProvider IUIInventoryItemStatsProvider
----@field private properties UIItemStatProperties
----@field private propertiesFetched Bool
+---@field public ["Type"] gamedataStatType
+---@field public ["Value"] Float
+---@field public ["PropertiesProvider"] IUIInventoryItemStatsProvider
+---@field private ["properties"] UIItemStatProperties
+---@field private ["propertiesFetched"] Bool
 UIInventoryItemStat = {}
 
 ---@param fields? table

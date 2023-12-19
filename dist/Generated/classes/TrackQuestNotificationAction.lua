@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TrackQuestNotificationAction: GenericNotificationBaseAction
----@field public questEntry gameJournalQuest
----@field public journalMgr gameJournalManager
+---@field public ["questEntry"] gameJournalQuest
+---@field public ["journalMgr"] gameJournalManager
 TrackQuestNotificationAction = {}
 
 ---@param fields? table

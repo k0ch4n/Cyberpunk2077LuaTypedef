@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DispenceItemFromVendor: ActionBool
----@field private itemID gameItemID
----@field private price Int32
----@field private atlasTexture CName
+---@field private ["itemID"] gameItemID
+---@field private ["price"] Int32
+---@field private ["atlasTexture"] CName
 DispenceItemFromVendor = {}
 
 ---@param fields? table
@@ -45,6 +45,6 @@ function DispenceItemFromVendor:GetPrice() return end
 
 ---@param iteID gameItemID
 ---@param price? Int32
----@param texture? CName
+---@param texture? CName|string
 ---@return nil
 function DispenceItemFromVendor:SetProperties(iteID, price, texture) return end

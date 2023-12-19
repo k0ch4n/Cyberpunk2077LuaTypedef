@@ -3,20 +3,20 @@
 
 ---@enum inkELayerType
 inkELayerType = {
-    ["Watermarks"] = 0,
-    ["WaitingSign"] = 1,
-    ["SystemNotifications"] = 2,
-    ["Loading"] = 3,
-    ["GameNotifications"] = 4,
-    ["Menu"] = 5,
-    ["Video"] = 6,
-    ["HUD"] = 7,
-    ["Editor"] = 8,
-    ["World"] = 9,
-    ["Offscreen"] = 10,
-    ["Advertisements"] = 11,
-    ["StreetSigns"] = 12,
-    ["PhotoMode"] = 13,
-    ["Debug"] = 14,
-    ["MAX"] = 15
+    ["Watermarks"] = 0, ---@type Enum
+    ["WaitingSign"] = 1, ---@type Enum
+    ["SystemNotifications"] = 2, ---@type Enum
+    ["Loading"] = 3, ---@type Enum
+    ["GameNotifications"] = 4, ---@type Enum
+    ["Menu"] = 5, ---@type Enum
+    ["Video"] = 6, ---@type Enum
+    ["HUD"] = 7, ---@type Enum
+    ["Editor"] = 8, ---@type Enum
+    ["World"] = 9, ---@type Enum
+    ["Offscreen"] = 10, ---@type Enum
+    ["Advertisements"] = 11, ---@type Enum
+    ["StreetSigns"] = 12, ---@type Enum
+    ["PhotoMode"] = 13, ---@type Enum
+    ["Debug"] = 14, ---@type Enum
+    ["MAX"] = 15, ---@type Enum
 }

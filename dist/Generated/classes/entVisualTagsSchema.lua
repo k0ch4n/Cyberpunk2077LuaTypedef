@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entVisualTagsSchema: ISerializable
----@field public visualTags redTagList
----@field public schema CName
+---@field public ["visualTags"] redTagList
+---@field public ["schema"] CName
 entVisualTagsSchema = {}
 
 ---@param fields? table

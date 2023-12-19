@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameJournalOnscreen: gameJournalEntry
----@field public tag CName
----@field public title LocalizationString
----@field public description LocalizationString
----@field public iconID TweakDBID
+---@field public ["tag"] CName
+---@field public ["title"] LocalizationString
+---@field public ["description"] LocalizationString
+---@field public ["iconID"] TweakDBID
 gameJournalOnscreen = {}
 
 ---@param fields? table

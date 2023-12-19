@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceTimetable: gameScriptableComponent
----@field public timeTableSetup DeviceTimeTableManager
+---@field public ["timeTableSetup"] DeviceTimeTableManager
 DeviceTimetable = {}
 
 ---@param fields? table

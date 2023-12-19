@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questChangeVoicesetState_NodeTypeParams
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public enableVoicesetLines Bool
----@field public enableVoicesetGrunts Bool
----@field public inputsToBlock entVoicesetInputToBlock[]
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
+---@field public ["enableVoicesetLines"] Bool
+---@field public ["enableVoicesetGrunts"] Bool
+---@field public ["inputsToBlock"] entVoicesetInputToBlock[]
 questChangeVoicesetState_NodeTypeParams = {}
 
 ---@param fields? table

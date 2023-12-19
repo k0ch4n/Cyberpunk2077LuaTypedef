@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workPauseClip: workIEntry
----@field public timeMin Float
----@field public timeMax Float
----@field public blendOutTime Float
+---@field public ["timeMin"] Float
+---@field public ["timeMax"] Float
+---@field public ["blendOutTime"] Float
 workPauseClip = {}
 
 ---@param fields? table

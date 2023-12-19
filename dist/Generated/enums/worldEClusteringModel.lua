@@ -3,7 +3,7 @@
 
 ---@enum worldEClusteringModel
 worldEClusteringModel = {
-    ["HierarchicalGrid"] = 0,
-    ["AlwaysLoaded"] = 1,
-    ["Discard"] = 2
+    ["HierarchicalGrid"] = 0, ---@type Enum
+    ["AlwaysLoaded"] = 1, ---@type Enum
+    ["Discard"] = 2, ---@type Enum
 }

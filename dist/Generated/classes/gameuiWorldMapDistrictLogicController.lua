@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapDistrictLogicController: inkWidgetLogicController
----@field public record gamedataDistrict_Record
----@field public type gamedataDistrict
----@field public selected Bool
----@field public outlineWidget inkLinePatternWidgetReference
----@field public iconWidget inkImageWidgetReference
----@field private selectAnim inkanimProxy
----@field private rootWidget inkWidget
+---@field public ["record"] gamedataDistrict_Record
+---@field public ["type"] gamedataDistrict
+---@field public ["selected"] Bool
+---@field public ["outlineWidget"] inkLinePatternWidgetReference
+---@field public ["iconWidget"] inkImageWidgetReference
+---@field private ["selectAnim"] inkanimProxy
+---@field private ["rootWidget"] inkWidget
 gameuiWorldMapDistrictLogicController = {}
 
 ---@param fields? table

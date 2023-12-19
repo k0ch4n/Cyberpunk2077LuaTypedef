@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class SmasherFindTeleportPositionAroundTarget: AIbehaviortaskScript
----@field public target AIArgumentMapping
----@field public minDistance Float
----@field public maxDistance Float
----@field public minDistanceFromLastTeleport Float
----@field public rotateToTarget Bool
----@field public checkZLevel Bool
----@field public maintainLineOfSight Bool
----@field public teleportInPlayersFOV Bool
----@field public doPathCheck Bool
----@field public doWallCheck Bool
----@field public outPosition AIArgumentMapping
----@field public outRotation AIArgumentMapping
----@field public outDirection AIArgumentMapping
----@field private c_zLevelTolerance Float
----@field private referenceTarget gameObject
----@field private fallbackPosition Vector4
----@field private fallbackPositionQuality Int32
----@field private blackboard gameIBlackboard
+---@field public ["target"] AIArgumentMapping
+---@field public ["minDistance"] Float
+---@field public ["maxDistance"] Float
+---@field public ["minDistanceFromLastTeleport"] Float
+---@field public ["rotateToTarget"] Bool
+---@field public ["checkZLevel"] Bool
+---@field public ["maintainLineOfSight"] Bool
+---@field public ["teleportInPlayersFOV"] Bool
+---@field public ["doPathCheck"] Bool
+---@field public ["doWallCheck"] Bool
+---@field public ["outPosition"] AIArgumentMapping
+---@field public ["outRotation"] AIArgumentMapping
+---@field public ["outDirection"] AIArgumentMapping
+---@field private ["c_zLevelTolerance"] Float
+---@field private ["referenceTarget"] gameObject
+---@field private ["fallbackPosition"] Vector4
+---@field private ["fallbackPositionQuality"] Int32
+---@field private ["blackboard"] gameIBlackboard
 SmasherFindTeleportPositionAroundTarget = {}
 
 ---@param fields? table

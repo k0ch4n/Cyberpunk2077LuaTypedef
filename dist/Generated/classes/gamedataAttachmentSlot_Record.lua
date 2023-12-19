@@ -27,6 +27,6 @@ function gamedataAttachmentSlot_Record:LocalizedName() return end
 ---@return CName[]
 function gamedataAttachmentSlot_Record:TagsForActiveItemCycling() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAttachmentSlot_Record:TagsForActiveItemCyclingContains(item) return end

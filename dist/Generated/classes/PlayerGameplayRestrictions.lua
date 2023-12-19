@@ -9,13 +9,13 @@ PlayerGameplayRestrictions = {}
 function PlayerGameplayRestrictions.new(fields) return end
 
 ---@param hotkey gameEHotkey
----@param hotkeyTags CName[]
+---@param hotkeyTags CName[]|string[]
 ---@return Bool
 function PlayerGameplayRestrictions.AcquireHotkeyRestrictionTags(hotkey, hotkeyTags) return end
 
 ---@private
 ---@param enable Bool
----@param reason CName
+---@param reason CName|string
 ---@param player PlayerPuppet
 ---@param statusEffectID TweakDBID
 ---@return nil
@@ -27,13 +27,13 @@ function PlayerGameplayRestrictions.IsHotkeyRestricted(hotkey) return end
 
 ---@param player PlayerPuppet
 ---@param record gamedataStatusEffect_Record
----@param gameplayTags CName[]
+---@param gameplayTags CName[]|string[]
 ---@return nil
 function PlayerGameplayRestrictions.OnGameplayRestrictionAdded(player, record, gameplayTags) return end
 
 ---@param player PlayerPuppet
 ---@param evt gameeventsRemoveStatusEffect
----@param gameplayTags CName[]
+---@param gameplayTags CName[]|string[]
 ---@return nil
 function PlayerGameplayRestrictions.OnGameplayRestrictionRemoved(player, evt, gameplayTags) return end
 

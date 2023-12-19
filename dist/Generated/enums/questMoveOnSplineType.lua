@@ -3,7 +3,7 @@
 
 ---@enum questMoveOnSplineType
 questMoveOnSplineType = {
-    ["Simple"] = 0,
-    ["Anim"] = 1,
-    ["WithCompanion"] = 2
+    ["Simple"] = 0, ---@type Enum
+    ["Anim"] = 1, ---@type Enum
+    ["WithCompanion"] = 2, ---@type Enum
 }

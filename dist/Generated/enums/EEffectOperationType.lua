@@ -3,7 +3,7 @@
 
 ---@enum EEffectOperationType
 EEffectOperationType = {
-    ["START"] = 0,
-    ["STOP"] = 1,
-    ["BRAKE_LOOP"] = 2
+    ["START"] = 0, ---@type Enum
+    ["STOP"] = 1, ---@type Enum
+    ["BRAKE_LOOP"] = 2, ---@type Enum
 }

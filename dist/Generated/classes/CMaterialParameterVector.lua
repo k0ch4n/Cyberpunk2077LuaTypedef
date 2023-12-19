@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterVector: CMaterialParameter
----@field public vector Vector4
+---@field public ["vector"] Vector4
 CMaterialParameterVector = {}
 
 ---@param fields? table

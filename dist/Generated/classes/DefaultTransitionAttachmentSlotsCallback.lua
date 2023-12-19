@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DefaultTransitionAttachmentSlotsCallback: gameAttachmentSlotsScriptCallback
----@field public transitionOwner DefaultTransition
+---@field public ["transitionOwner"] DefaultTransition
 DefaultTransitionAttachmentSlotsCallback = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NumberPlateSelector: LCDScreenSelector
----@field private recordID TweakDBID
+---@field private ["recordID"] TweakDBID
 NumberPlateSelector = {}
 
 ---@param fields? table

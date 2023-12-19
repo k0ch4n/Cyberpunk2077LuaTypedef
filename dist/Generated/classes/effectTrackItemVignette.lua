@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class effectTrackItemVignette: effectTrackItem
----@field public overrideRadiusAndExp Bool
----@field public overrideColor Bool
----@field public vignetteRadius effectEffectParameterEvaluatorFloat
----@field public vignetteExp effectEffectParameterEvaluatorFloat
----@field public color effectEffectParameterEvaluatorColor
+---@field public ["overrideRadiusAndExp"] Bool
+---@field public ["overrideColor"] Bool
+---@field public ["vignetteRadius"] effectEffectParameterEvaluatorFloat
+---@field public ["vignetteExp"] effectEffectParameterEvaluatorFloat
+---@field public ["color"] effectEffectParameterEvaluatorColor
 effectTrackItemVignette = {}
 
 ---@param fields? table

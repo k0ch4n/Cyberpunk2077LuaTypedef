@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimParams
----@field public reactionOutput ReactionOutput
----@field public stimData StimEventData
+---@field public ["reactionOutput"] ReactionOutput
+---@field public ["stimData"] StimEventData
 StimParams = {}
 
 ---@param fields? table

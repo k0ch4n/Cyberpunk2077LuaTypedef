@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameReplicatedEntityEvent: entReplicatedItem
----@field public value redEvent
+---@field public ["value"] redEvent
 gameReplicatedEntityEvent = {}
 
 ---@param fields? table

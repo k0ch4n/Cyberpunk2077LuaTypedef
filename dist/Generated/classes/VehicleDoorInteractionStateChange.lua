@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleDoorInteractionStateChange: ActionBool
----@field public door vehicleEVehicleDoor
----@field public newState vehicleVehicleDoorInteractionState
----@field public source String
+---@field public ["door"] vehicleEVehicleDoor
+---@field public ["newState"] vehicleVehicleDoorInteractionState
+---@field public ["source"] String
 VehicleDoorInteractionStateChange = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipRequirementsModule: ItemTooltipModuleController
----@field private levelRequirementsWrapper inkWidgetReference
----@field private strenghtOrReflexWrapper inkWidgetReference
----@field private smartlinkGunWrapper inkWidgetReference
----@field private anyAttributeWrapper inkCompoundWidgetReference
----@field private line inkWidgetReference
----@field private levelRequirementsText inkTextWidgetReference
----@field private strenghtOrReflexText inkTextWidgetReference
----@field private perkText inkTextWidgetReference
----@field private perkDot inkImageWidgetReference
+---@field private ["levelRequirementsWrapper"] inkWidgetReference
+---@field private ["strenghtOrReflexWrapper"] inkWidgetReference
+---@field private ["smartlinkGunWrapper"] inkWidgetReference
+---@field private ["anyAttributeWrapper"] inkCompoundWidgetReference
+---@field private ["line"] inkWidgetReference
+---@field private ["levelRequirementsText"] inkTextWidgetReference
+---@field private ["strenghtOrReflexText"] inkTextWidgetReference
+---@field private ["perkText"] inkTextWidgetReference
+---@field private ["perkDot"] inkImageWidgetReference
 ItemTooltipRequirementsModule = {}
 
 ---@param fields? table

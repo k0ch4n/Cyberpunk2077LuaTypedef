@@ -3,11 +3,11 @@
 
 ---@enum AISocketsForRig
 AISocketsForRig = {
-    ["Undefined"] = 0,
-    ["ManAverage"] = 1,
-    ["ManBig"] = 2,
-    ["ManFat"] = 3,
-    ["WomanAverage"] = 4,
-    ["WomanBig"] = 5,
-    ["ChildMale"] = 6
+    ["Undefined"] = 0, ---@type Enum
+    ["ManAverage"] = 1, ---@type Enum
+    ["ManBig"] = 2, ---@type Enum
+    ["ManFat"] = 3, ---@type Enum
+    ["WomanAverage"] = 4, ---@type Enum
+    ["WomanBig"] = 5, ---@type Enum
+    ["ChildMale"] = 6, ---@type Enum
 }

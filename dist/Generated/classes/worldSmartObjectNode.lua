@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldSmartObjectNode: worldNode
----@field public object gameSmartObjectDefinition
+---@field public ["object"] gameSmartObjectDefinition
 worldSmartObjectNode = {}
 
 ---@param fields? table

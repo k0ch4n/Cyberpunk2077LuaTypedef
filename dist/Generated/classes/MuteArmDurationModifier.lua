@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MuteArmDurationModifier: gameEffectDurationModifier_Scripted
----@field public initialDuration Float
+---@field public ["initialDuration"] Float
 MuteArmDurationModifier = {}
 
 ---@param fields? table

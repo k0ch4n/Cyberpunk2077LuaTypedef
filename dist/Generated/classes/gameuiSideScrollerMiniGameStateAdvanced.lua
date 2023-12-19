@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerMiniGameStateAdvanced: IScriptable
----@field public opertyMaxScore CName
----@field public opertyCurrentLives CName
----@field public opertyCurrentScore CName
----@field public PropertyChanged gameuiGameStatePropertyChangedCallback
+---@field public ["opertyMaxScore"] CName
+---@field public ["opertyCurrentLives"] CName
+---@field public ["opertyCurrentScore"] CName
+---@field public ["PropertyChanged"] gameuiGameStatePropertyChangedCallback
 gameuiSideScrollerMiniGameStateAdvanced = {}
 
 ---@return nil

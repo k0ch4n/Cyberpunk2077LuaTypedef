@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionDelayedSpawnBaseRequest: gameScriptableSystemRequest
----@field public heatStage EPreventionHeatStage
+---@field public ["heatStage"] EPreventionHeatStage
 PreventionDelayedSpawnBaseRequest = {}
 
 ---@param fields? table

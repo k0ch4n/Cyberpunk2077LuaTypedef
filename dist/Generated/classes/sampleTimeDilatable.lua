@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleTimeDilatable: gameTimeDilatable
----@field public listener sampleTimeListener
+---@field public ["listener"] sampleTimeListener
 sampleTimeDilatable = {}
 
 ---@param fields? table
@@ -22,6 +22,6 @@ function sampleTimeDilatable:OnInteractionChoice(choice) return end
 ---@return Bool
 function sampleTimeDilatable:OnTimeDilationFinished() return end
 
----@param reason CName
+---@param reason CName|string
 ---@return nil
 function sampleTimeDilatable:OnFinished(reason) return end

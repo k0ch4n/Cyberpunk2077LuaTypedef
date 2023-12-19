@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AICooldown: AITimeCondition
----@field public cooldown Float
----@field protected timestamp Float
+---@field public ["cooldown"] Float
+---@field protected ["timestamp"] Float
 AICooldown = {}
 
 ---@protected

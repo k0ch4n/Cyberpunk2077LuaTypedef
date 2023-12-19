@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BaseAnimatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field private isActive Bool
----@field protected hasInteraction Bool
----@field protected randomizeAnimationTime Bool
----@field protected nameForActivation TweakDBID
----@field protected nameForDeactivation TweakDBID
+---@field private ["isActive"] Bool
+---@field protected ["hasInteraction"] Bool
+---@field protected ["randomizeAnimationTime"] Bool
+---@field protected ["nameForActivation"] TweakDBID
+---@field protected ["nameForDeactivation"] TweakDBID
 BaseAnimatedDeviceControllerPS = {}
 
 ---@param fields? table
@@ -33,7 +33,7 @@ function BaseAnimatedDeviceControllerPS:GameAttached() return end
 ---@return Bool, gamedeviceAction[] actions
 function BaseAnimatedDeviceControllerPS:GetActions(context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function BaseAnimatedDeviceControllerPS:GetQuestActionByName(actionName) return end
 

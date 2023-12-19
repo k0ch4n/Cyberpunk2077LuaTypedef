@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class PatchNotesGameController: gameuiWidgetGameController
----@field private 21NotesContainerRef inkWidgetReference
----@field private 20NotesContainerRef inkWidgetReference
----@field private itemLibraryName CName
----@field private introAnimationName CName
----@field private outroAnimationName CName
----@field private closeButtonRef inkWidgetReference
----@field private uiSystem gameuiGameSystemUI
----@field private introAnimProxy inkanimProxy
----@field private isInputBlocked Bool
----@field private data PatchNotesPopupData
----@field private requestHandler inkISystemRequestsHandler
+---@field private ["21NotesContainerRef"] inkWidgetReference
+---@field private ["20NotesContainerRef"] inkWidgetReference
+---@field private ["itemLibraryName"] CName
+---@field private ["introAnimationName"] CName
+---@field private ["outroAnimationName"] CName
+---@field private ["closeButtonRef"] inkWidgetReference
+---@field private ["uiSystem"] gameuiGameSystemUI
+---@field private ["introAnimProxy"] inkanimProxy
+---@field private ["isInputBlocked"] Bool
+---@field private ["data"] PatchNotesPopupData
+---@field private ["requestHandler"] inkISystemRequestsHandler
 PatchNotesGameController = {}
 
 ---@param fields? table
@@ -58,7 +58,7 @@ function PatchNotesGameController:OnUninitialize() return end
 function PatchNotesGameController:Close() return end
 
 ---@private
----@param animationName CName
+---@param animationName CName|string
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return nil
 function PatchNotesGameController:PlayAnimation(animationName, playbackOptions) return end
@@ -68,9 +68,9 @@ function PatchNotesGameController:PlayAnimation(animationName, playbackOptions) 
 function PatchNotesGameController:PopulateNotesList() return end
 
 ---@private
----@param title CName
----@param description CName
----@param patch CName
----@param imagePart CName
+---@param title CName|string
+---@param description CName|string
+---@param patch CName|string
+---@param imagePart CName|string
 ---@return nil
 function PatchNotesGameController:SpawnNote(title, description, patch, imagePart) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BreachViewTimeListener: tickScriptTimeDilationListener
----@field public myOwner gameObject
+---@field public ["myOwner"] gameObject
 BreachViewTimeListener = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ BreachViewTimeListener = {}
 function BreachViewTimeListener.new(fields) return end
 
 ---@protected
----@param reason CName
+---@param reason CName|string
 ---@return Bool
 function BreachViewTimeListener:OnFinished(reason) return end
 

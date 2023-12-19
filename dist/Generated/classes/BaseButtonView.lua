@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseButtonView: inkDiscreteNavigationController
----@field protected ButtonController inkButtonController
+---@field protected ["ButtonController"] inkButtonController
 BaseButtonView = {}
 
 ---@protected

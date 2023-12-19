@@ -21,6 +21,6 @@ function gamedataVehicleSurfaceType_Record:GetMaterialNamesItem(index) return en
 ---@return CName[]
 function gamedataVehicleSurfaceType_Record:MaterialNames() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataVehicleSurfaceType_Record:MaterialNamesContains(item) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShardEntryData: GenericCodexEntryData
----@field public isCrypted Bool
+---@field public ["isCrypted"] Bool
 ShardEntryData = {}
 
 ---@param fields? table

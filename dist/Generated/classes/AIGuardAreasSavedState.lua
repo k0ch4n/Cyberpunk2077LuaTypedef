@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIGuardAreasSavedState: ISerializable
----@field public data AIGuardAreaSavedData[]
----@field public cleared entEntityID[]
+---@field public ["data"] AIGuardAreaSavedData[]
+---@field public ["cleared"] entEntityID[]
 AIGuardAreasSavedState = {}
 
 ---@param fields? table

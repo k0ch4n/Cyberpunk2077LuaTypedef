@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GrenadeChangedCallback: gameAttachmentSlotsScriptCallback
----@field public grenadeChangeEntity gameObject
----@field public grenadeChangeListener gameAttachmentSlotsScriptListener
+---@field public ["grenadeChangeEntity"] gameObject
+---@field public ["grenadeChangeListener"] gameAttachmentSlotsScriptListener
 GrenadeChangedCallback = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkAnimatedAdvertController: inkWidgetLogicController
----@field public animName CName
----@field public loopType inkanimLoopType
+---@field public ["animName"] CName
+---@field public ["loopType"] inkanimLoopType
 inkAnimatedAdvertController = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum DronePose
 DronePose = {
-    ["Relaxed"] = 0,
-    ["Combat"] = 1
+    ["Relaxed"] = 0, ---@type Enum
+    ["Combat"] = 1, ---@type Enum
 }

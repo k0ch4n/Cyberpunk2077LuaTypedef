@@ -3,7 +3,7 @@
 
 ---@enum inkRumbleType
 inkRumbleType = {
-    ["Fast"] = 0,
-    ["Pulse"] = 1,
-    ["Slow"] = 2
+    ["Fast"] = 0, ---@type Enum
+    ["Pulse"] = 1, ---@type Enum
+    ["Slow"] = 2, ---@type Enum
 }

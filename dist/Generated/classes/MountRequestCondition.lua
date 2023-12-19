@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MountRequestCondition: AIbehaviorconditionScript
----@field public testMountRequest Bool
----@field public testUnmountRequest Bool
----@field public acceptInstant Bool
----@field public acceptNotInstant Bool
+---@field public ["testMountRequest"] Bool
+---@field public ["testUnmountRequest"] Bool
+---@field public ["acceptInstant"] Bool
+---@field public ["acceptNotInstant"] Bool
 MountRequestCondition = {}
 
 ---@param fields? table
@@ -24,6 +24,6 @@ function MountRequestCondition:Check(context) return end
 
 ---@protected
 ---@param context AIbehaviorScriptExecutionContext
----@param argumentName CName
+---@param argumentName CName|string
 ---@return AIbehaviorConditionOutcomes
 function MountRequestCondition:TestRequest(context, argumentName) return end

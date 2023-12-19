@@ -3,18 +3,18 @@
 
 ---@enum ERadioStationList
 ERadioStationList = {
-    ["AGGRO_INDUSTRIAL"] = 0,
-    ["ELECTRO_INDUSTRIAL"] = 1,
-    ["HIP_HOP"] = 2,
-    ["AGGRO_TECHNO"] = 3,
-    ["DOWNTEMPO"] = 4,
-    ["ATTITUDE_ROCK"] = 5,
-    ["POP"] = 6,
-    ["LATINO"] = 7,
-    ["METAL"] = 8,
-    ["MINIMAL_TECHNO"] = 9,
-    ["JAZZ"] = 10,
-    ["GROWL"] = 11,
-    ["DARK_STAR"] = 12,
-    ["IMPULSE_FM"] = 13
+    ["AGGRO_INDUSTRIAL"] = 0, ---@type Enum
+    ["ELECTRO_INDUSTRIAL"] = 1, ---@type Enum
+    ["HIP_HOP"] = 2, ---@type Enum
+    ["AGGRO_TECHNO"] = 3, ---@type Enum
+    ["DOWNTEMPO"] = 4, ---@type Enum
+    ["ATTITUDE_ROCK"] = 5, ---@type Enum
+    ["POP"] = 6, ---@type Enum
+    ["LATINO"] = 7, ---@type Enum
+    ["METAL"] = 8, ---@type Enum
+    ["MINIMAL_TECHNO"] = 9, ---@type Enum
+    ["JAZZ"] = 10, ---@type Enum
+    ["GROWL"] = 11, ---@type Enum
+    ["DARK_STAR"] = 12, ---@type Enum
+    ["IMPULSE_FM"] = 13, ---@type Enum
 }

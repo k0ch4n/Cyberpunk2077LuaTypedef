@@ -3,11 +3,11 @@
 
 ---@enum moveExplorationType
 moveExplorationType = {
-    ["None"] = 0,
-    ["Ladder"] = 1,
-    ["Jump"] = 2,
-    ["Climb"] = 3,
-    ["Vault"] = 4,
-    ["ChargedJump"] = 5,
-    ["ThrusterJump"] = 6
+    ["None"] = 0, ---@type Enum
+    ["Ladder"] = 1, ---@type Enum
+    ["Jump"] = 2, ---@type Enum
+    ["Climb"] = 3, ---@type Enum
+    ["Vault"] = 4, ---@type Enum
+    ["ChargedJump"] = 5, ---@type Enum
+    ["ThrusterJump"] = 6, ---@type Enum
 }

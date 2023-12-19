@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HUDManagerRegistrationRequest: HUDManagerRequest
----@field public isRegistering Bool
----@field public type HUDActorType
+---@field public ["isRegistering"] Bool
+---@field public ["type"] HUDActorType
 HUDManagerRegistrationRequest = {}
 
 ---@param fields? table

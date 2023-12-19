@@ -2,85 +2,85 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapMenuGameController: gameuiMappinsContainerController
----@field public settingsRecordID TweakDBID
----@field public selectedMappin gameuiBaseWorldMapMappinController
----@field public playerOnTop Bool
----@field public entityPreviewLibraryID CName
----@field public entityPreviewSpawnContainer inkCompoundWidgetReference
----@field public floorPlanSpawnContainer inkCompoundWidgetReference
----@field public compassWidget inkWidgetReference
----@field public districtsContainer inkCompoundWidgetReference
----@field public subdistrictsContainer inkCompoundWidgetReference
----@field public mappinOutlinesContainer inkCompoundWidgetReference
----@field public groupOutlinesContainer inkCompoundWidgetReference
----@field public tooltipContainer inkCompoundWidgetReference
----@field public tooltipOffset inkMargin
----@field public tooltipDistrictOffset inkMargin
----@field public districtView gameuiEWorldMapDistrictView
----@field public hoveredDistrict gamedataDistrict
----@field public hoveredSubDistrict gamedataDistrict
----@field public selectedDistrict gamedataDistrict
----@field public canChangeCustomFilter Bool
----@field public isZoomToMappinEnabled Bool
----@field private preloaderWidget inkWidgetReference
----@field private gameTimeText inkTextWidgetReference
----@field private fastTravelInstructions inkWidgetReference
----@field private filterSelector inkWidgetReference
----@field private filterSelectorWarning inkWidgetReference
----@field private filterText inkTextWidgetReference
----@field private districtIconImageContainer inkWidgetReference
----@field private districtIconImage inkImageWidgetReference
----@field private districtNameText inkTextWidgetReference
----@field private subdistrictNameText inkTextWidgetReference
----@field private locationAndGangsContainer inkWidgetReference
----@field private gangsInfoContainer inkWidgetReference
----@field private gangsList inkCompoundWidgetReference
----@field private questContainer inkWidgetReference
----@field private questName inkTextWidgetReference
----@field private openInJournalButton inkWidgetReference
----@field private objectiveName inkTextWidgetReference
----@field private objectiveBackground inkWidgetReference
----@field private objectiveFrame inkWidgetReference
----@field private topShadow inkWidgetReference
----@field private rightAxisZoomThreshold Float
----@field private customFilters inkWidgetReference
----@field private filtersList inkVerticalPanelWidgetReference
----@field private filterLeftArrow inkWidgetReference
----@field private filterRightArrow inkWidgetReference
----@field private quickFilterIndicators inkWidgetReference[]
----@field private customFiltersListAnimationDelay Float
----@field private cameraMode gameuiEWorldMapCameraMode
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private tooltipController WorldMapTooltipContainer
----@field private gameTimeTextParams textTextParameterSet
----@field private previousHoveredDistrict gamedataDistrict
----@field private currentHoveredDistrict gamedataDistrict
----@field private showedSubdistrictGangs Bool
----@field private player gameObject
----@field private audioSystem gameGameAudioSystem
----@field private journalManager gameJournalManager
----@field private mappinSystem gamemappinsMappinSystem
----@field private mapBlackboard gameIBlackboard
----@field private mapDefinition UI_MapDef
----@field private trackedObjective gameJournalQuestObjectiveBase
----@field private trackedQuest gameJournalQuest
----@field private mappinsPositions Vector3[]
----@field private lastRightAxisYAmount Float
----@field private justOpenedQuestJournal Bool
----@field public initMappinFocus MapMenuUserData
----@field private currentQuickFilterIndex Int32
----@field private currentCustomFilterIndex Int32
----@field private spawnedCustomFilterIndex Int32
----@field private gangsAsyncSpawnRequests inkAsyncSpawnRequest[]
----@field private customFiltersList WorldMapFiltersListItem[]
----@field private animationProxy inkanimProxy
----@field private entityAttached Bool
----@field private readyToZoom Bool
----@field private isHoveringOverFilters Bool
----@field private isPanning Bool
----@field private isZooming Bool
----@field private pressedRMB Bool
----@field private startedFastTraveling Bool
+---@field public ["settingsRecordID"] TweakDBID
+---@field public ["selectedMappin"] gameuiBaseWorldMapMappinController
+---@field public ["playerOnTop"] Bool
+---@field public ["entityPreviewLibraryID"] CName
+---@field public ["entityPreviewSpawnContainer"] inkCompoundWidgetReference
+---@field public ["floorPlanSpawnContainer"] inkCompoundWidgetReference
+---@field public ["compassWidget"] inkWidgetReference
+---@field public ["districtsContainer"] inkCompoundWidgetReference
+---@field public ["subdistrictsContainer"] inkCompoundWidgetReference
+---@field public ["mappinOutlinesContainer"] inkCompoundWidgetReference
+---@field public ["groupOutlinesContainer"] inkCompoundWidgetReference
+---@field public ["tooltipContainer"] inkCompoundWidgetReference
+---@field public ["tooltipOffset"] inkMargin
+---@field public ["tooltipDistrictOffset"] inkMargin
+---@field public ["districtView"] gameuiEWorldMapDistrictView
+---@field public ["hoveredDistrict"] gamedataDistrict
+---@field public ["hoveredSubDistrict"] gamedataDistrict
+---@field public ["selectedDistrict"] gamedataDistrict
+---@field public ["canChangeCustomFilter"] Bool
+---@field public ["isZoomToMappinEnabled"] Bool
+---@field private ["preloaderWidget"] inkWidgetReference
+---@field private ["gameTimeText"] inkTextWidgetReference
+---@field private ["fastTravelInstructions"] inkWidgetReference
+---@field private ["filterSelector"] inkWidgetReference
+---@field private ["filterSelectorWarning"] inkWidgetReference
+---@field private ["filterText"] inkTextWidgetReference
+---@field private ["districtIconImageContainer"] inkWidgetReference
+---@field private ["districtIconImage"] inkImageWidgetReference
+---@field private ["districtNameText"] inkTextWidgetReference
+---@field private ["subdistrictNameText"] inkTextWidgetReference
+---@field private ["locationAndGangsContainer"] inkWidgetReference
+---@field private ["gangsInfoContainer"] inkWidgetReference
+---@field private ["gangsList"] inkCompoundWidgetReference
+---@field private ["questContainer"] inkWidgetReference
+---@field private ["questName"] inkTextWidgetReference
+---@field private ["openInJournalButton"] inkWidgetReference
+---@field private ["objectiveName"] inkTextWidgetReference
+---@field private ["objectiveBackground"] inkWidgetReference
+---@field private ["objectiveFrame"] inkWidgetReference
+---@field private ["topShadow"] inkWidgetReference
+---@field private ["rightAxisZoomThreshold"] Float
+---@field private ["customFilters"] inkWidgetReference
+---@field private ["filtersList"] inkVerticalPanelWidgetReference
+---@field private ["filterLeftArrow"] inkWidgetReference
+---@field private ["filterRightArrow"] inkWidgetReference
+---@field private ["quickFilterIndicators"] inkWidgetReference[]
+---@field private ["customFiltersListAnimationDelay"] Float
+---@field private ["cameraMode"] gameuiEWorldMapCameraMode
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["tooltipController"] WorldMapTooltipContainer
+---@field private ["gameTimeTextParams"] textTextParameterSet
+---@field private ["previousHoveredDistrict"] gamedataDistrict
+---@field private ["currentHoveredDistrict"] gamedataDistrict
+---@field private ["showedSubdistrictGangs"] Bool
+---@field private ["player"] gameObject
+---@field private ["audioSystem"] gameGameAudioSystem
+---@field private ["journalManager"] gameJournalManager
+---@field private ["mappinSystem"] gamemappinsMappinSystem
+---@field private ["mapBlackboard"] gameIBlackboard
+---@field private ["mapDefinition"] UI_MapDef
+---@field private ["trackedObjective"] gameJournalQuestObjectiveBase
+---@field private ["trackedQuest"] gameJournalQuest
+---@field private ["mappinsPositions"] Vector3[]
+---@field private ["lastRightAxisYAmount"] Float
+---@field private ["justOpenedQuestJournal"] Bool
+---@field public ["initMappinFocus"] MapMenuUserData
+---@field private ["currentQuickFilterIndex"] Int32
+---@field private ["currentCustomFilterIndex"] Int32
+---@field private ["spawnedCustomFilterIndex"] Int32
+---@field private ["gangsAsyncSpawnRequests"] inkAsyncSpawnRequest[]
+---@field private ["customFiltersList"] WorldMapFiltersListItem[]
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["entityAttached"] Bool
+---@field private ["readyToZoom"] Bool
+---@field private ["isHoveringOverFilters"] Bool
+---@field private ["isPanning"] Bool
+---@field private ["isZooming"] Bool
+---@field private ["pressedRMB"] Bool
+---@field private ["startedFastTraveling"] Bool
 gameuiWorldMapMenuGameController = {}
 
 ---@param fields? table
@@ -331,7 +331,7 @@ function gameuiWorldMapMenuGameController:OnShowSpinner() return end
 
 ---@protected
 ---@param hash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
@@ -364,7 +364,7 @@ function gameuiWorldMapMenuGameController:OnZoomTransitionFinished() return end
 
 ---@protected
 ---@param show Bool
----@param action CName
+---@param action CName|string
 ---@param locKey String
 ---@return nil, gameuiUpdateInputHintMultipleEvent evt, Int32 priority
 function gameuiWorldMapMenuGameController:AddInputHintUpdate(show, action, locKey) return end

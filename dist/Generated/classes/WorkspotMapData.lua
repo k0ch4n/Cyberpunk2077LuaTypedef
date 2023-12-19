@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WorkspotMapData: IScriptable
----@field public action gamedataWorkspotActionType
----@field public workspots WorkspotEntryData[]
+---@field public ["action"] gamedataWorkspotActionType
+---@field public ["workspots"] WorkspotEntryData[]
 WorkspotMapData = {}
 
 ---@param fields? table

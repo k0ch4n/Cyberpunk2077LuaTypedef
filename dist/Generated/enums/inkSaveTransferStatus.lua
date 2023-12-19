@@ -3,13 +3,13 @@
 
 ---@enum inkSaveTransferStatus
 inkSaveTransferStatus = {
-    ["ExportStarted"] = 0,
-    ["ExportSuccess"] = 1,
-    ["ExportFailed"] = 2,
-    ["ImportChecking"] = 3,
-    ["ImportStarted"] = 4,
-    ["ImportSuccess"] = 5,
-    ["ImportNoSave"] = 6,
-    ["ImportFailed"] = 7,
-    ["ImportNotEnoughSpace"] = 8
+    ["ExportStarted"] = 0, ---@type Enum
+    ["ExportSuccess"] = 1, ---@type Enum
+    ["ExportFailed"] = 2, ---@type Enum
+    ["ImportChecking"] = 3, ---@type Enum
+    ["ImportStarted"] = 4, ---@type Enum
+    ["ImportSuccess"] = 5, ---@type Enum
+    ["ImportNoSave"] = 6, ---@type Enum
+    ["ImportFailed"] = 7, ---@type Enum
+    ["ImportNotEnoughSpace"] = 8, ---@type Enum
 }

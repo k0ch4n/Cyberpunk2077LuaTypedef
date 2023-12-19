@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveCommand: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field protected ["inCommand"] AIArgumentMapping
 RemoveCommand = {}
 
 ---@param fields? table

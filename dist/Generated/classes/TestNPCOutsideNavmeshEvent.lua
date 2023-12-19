@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TestNPCOutsideNavmeshEvent: redEvent
----@field public activator gameObject
----@field public target gameObject
----@field public enable Bool
+---@field public ["activator"] gameObject
+---@field public ["target"] gameObject
+---@field public ["enable"] Bool
 TestNPCOutsideNavmeshEvent = {}
 
 ---@param fields? table

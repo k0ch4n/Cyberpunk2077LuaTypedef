@@ -18,6 +18,6 @@ function gamedataQuestRestrictionMode_Record:GetInjectedActionsItem(index) retur
 ---@return CName[]
 function gamedataQuestRestrictionMode_Record:InjectedActions() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataQuestRestrictionMode_Record:InjectedActionsContains(item) return end

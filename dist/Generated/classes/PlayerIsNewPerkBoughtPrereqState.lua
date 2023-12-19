@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerIsNewPerkBoughtPrereqState: gamePrereqState
----@field public listenerPerksVariant redCallbackObject
----@field public owner gameObject
+---@field public ["listenerPerksVariant"] redCallbackObject
+---@field public ["owner"] gameObject
 PlayerIsNewPerkBoughtPrereqState = {}
 
 ---@param fields? table

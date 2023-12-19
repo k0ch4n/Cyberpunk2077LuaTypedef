@@ -3,7 +3,7 @@
 
 ---@enum DropdownDisplayContext
 DropdownDisplayContext = {
-    ["NotSet"] = 0,
-    ["Default"] = 1,
-    ["ItemChooserWeapon"] = 2
+    ["NotSet"] = 0, ---@type Enum
+    ["Default"] = 1, ---@type Enum
+    ["ItemChooserWeapon"] = 2, ---@type Enum
 }

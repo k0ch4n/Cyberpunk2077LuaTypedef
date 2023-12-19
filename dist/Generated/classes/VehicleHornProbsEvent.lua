@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleHornProbsEvent: redEvent
----@field public honkMinTime Float
----@field public honkMaxTime Float
----@field public probability Float
+---@field public ["honkMinTime"] Float
+---@field public ["honkMaxTime"] Float
+---@field public ["probability"] Float
 VehicleHornProbsEvent = {}
 
 ---@param fields? table

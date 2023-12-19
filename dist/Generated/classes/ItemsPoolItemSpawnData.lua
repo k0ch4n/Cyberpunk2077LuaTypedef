@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemsPoolItemSpawnData: IScriptable
----@field public index Int32
----@field public requestVersion Int32
+---@field public ["index"] Int32
+---@field public ["requestVersion"] Int32
 ItemsPoolItemSpawnData = {}
 
 ---@param fields? table

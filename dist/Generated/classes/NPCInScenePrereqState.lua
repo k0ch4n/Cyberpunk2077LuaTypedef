@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCInScenePrereqState: gamePrereqState
----@field public sceneListener gameScriptedPrereqSceneInspectionListenerWrapper
+---@field public ["sceneListener"] gameScriptedPrereqSceneInspectionListenerWrapper
 NPCInScenePrereqState = {}
 
 ---@param fields? table

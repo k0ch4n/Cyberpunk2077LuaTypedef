@@ -3,11 +3,11 @@
 
 ---@enum QuantityPickerActionType
 QuantityPickerActionType = {
-    ["Buy"] = 0,
-    ["Sell"] = 1,
-    ["TransferToStorage"] = 2,
-    ["TransferToPlayer"] = 3,
-    ["Drop"] = 4,
-    ["Disassembly"] = 5,
-    ["Craft"] = 6
+    ["Buy"] = 0, ---@type Enum
+    ["Sell"] = 1, ---@type Enum
+    ["TransferToStorage"] = 2, ---@type Enum
+    ["TransferToPlayer"] = 3, ---@type Enum
+    ["Drop"] = 4, ---@type Enum
+    ["Disassembly"] = 5, ---@type Enum
+    ["Craft"] = 6, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityTimePeriod
----@field public hour communityECommunitySpawnTime
+---@field public ["hour"] communityECommunitySpawnTime
 communityTimePeriod = {}
 
 ---@param fields? table

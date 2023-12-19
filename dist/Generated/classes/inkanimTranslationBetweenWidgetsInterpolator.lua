@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimTranslationBetweenWidgetsInterpolator: inkanimTranslationInterpolator
----@field public startWidgetPath CName
----@field public endWidgetPath CName
+---@field public ["startWidgetPath"] CName
+---@field public ["endWidgetPath"] CName
 inkanimTranslationBetweenWidgetsInterpolator = {}
 
 ---@param fields? table

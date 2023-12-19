@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamehitRepresentationEventsResetMultipleScaleMultipliers: redEvent
----@field public shapeNames CName[]
+---@field public ["shapeNames"] CName[]
 gamehitRepresentationEventsResetMultipleScaleMultipliers = {}
 
 ---@param fields? table

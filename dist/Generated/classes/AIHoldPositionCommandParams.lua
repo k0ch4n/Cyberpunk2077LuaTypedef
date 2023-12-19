@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIHoldPositionCommandParams: questScriptedAICommandParams
----@field public duration Float
+---@field public ["duration"] Float
 AIHoldPositionCommandParams = {}
 
 ---@param fields? table

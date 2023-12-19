@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SmartHouseConfiguration
----@field public enableInteraction Bool
----@field public factName CName
+---@field public ["enableInteraction"] Bool
+---@field public ["factName"] CName
 SmartHouseConfiguration = {}
 
 ---@param fields? table

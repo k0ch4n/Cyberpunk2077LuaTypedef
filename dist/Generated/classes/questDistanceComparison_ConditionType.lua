@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questDistanceComparison_ConditionType: questIDistanceConditionType
----@field public distanceDefinition1 questObjectDistance
----@field public distanceDefinition2 questValueDistance
----@field public comparisonType EComparisonType
+---@field public ["distanceDefinition1"] questObjectDistance
+---@field public ["distanceDefinition2"] questValueDistance
+---@field public ["comparisonType"] EComparisonType
 questDistanceComparison_ConditionType = {}
 
 ---@param fields? table

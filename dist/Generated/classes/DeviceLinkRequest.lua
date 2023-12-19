@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceLinkRequest: redEvent
----@field private deviceLink DeviceLink
+---@field private ["deviceLink"] DeviceLink
 DeviceLinkRequest = {}
 
 ---@param fields? table
@@ -10,7 +10,7 @@ DeviceLinkRequest = {}
 function DeviceLinkRequest.new(fields) return end
 
 ---@param id gamePersistentID
----@param _className CName
+---@param _className CName|string
 ---@return DeviceLinkRequest
 function DeviceLinkRequest.Construct(id, _className) return end
 

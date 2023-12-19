@@ -3,7 +3,7 @@
 
 ---@enum audioVoGruntInterruptMode
 audioVoGruntInterruptMode = {
-    ["DontInterrupt"] = 0,
-    ["PlayOnlyOnInterrupt"] = 1,
-    ["CanInterrupt"] = 2
+    ["DontInterrupt"] = 0, ---@type Enum
+    ["PlayOnlyOnInterrupt"] = 1, ---@type Enum
+    ["CanInterrupt"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DEBUG_ItemRebalancer: gameObject
----@field public nodeRef NodeRef
+---@field public ["nodeRef"] NodeRef
 DEBUG_ItemRebalancer = {}
 
 ---@param fields? table

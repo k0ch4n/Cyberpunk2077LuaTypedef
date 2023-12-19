@@ -13,7 +13,7 @@ function MenuScenario_FastTravel.new(fields) return end
 function MenuScenario_FastTravel:OnBack() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_FastTravel:OnEnterScenario(prevScenario, userData) return end

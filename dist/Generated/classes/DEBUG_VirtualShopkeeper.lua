@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DEBUG_VirtualShopkeeper: gameObject
----@field protected vendorID String
+---@field protected ["vendorID"] String
 DEBUG_VirtualShopkeeper = {}
 
 ---@param fields? table

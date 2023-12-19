@@ -11,7 +11,7 @@ function gamedataAICoverCond_Record.new(fields) return end
 ---@return CName[]
 function gamedataAICoverCond_Record:CheckChosenExposureMethod() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAICoverCond_Record:CheckChosenExposureMethodContains(item) return end
 
@@ -24,7 +24,7 @@ function gamedataAICoverCond_Record:Cover() return end
 ---@return CName[]
 function gamedataAICoverCond_Record:CoverExposureMethods() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAICoverCond_Record:CoverExposureMethodsContains(item) return end
 

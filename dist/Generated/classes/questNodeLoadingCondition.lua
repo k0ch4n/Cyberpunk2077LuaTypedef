@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questNodeLoadingCondition: questCondition
----@field public objectRef NodeRef
----@field public inverted Bool
+---@field public ["objectRef"] NodeRef
+---@field public ["inverted"] Bool
 questNodeLoadingCondition = {}
 
 ---@param fields? table

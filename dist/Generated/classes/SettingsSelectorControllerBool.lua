@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerBool: inkSettingsSelectorController
----@field protected onState inkWidgetReference
----@field protected offState inkWidgetReference
----@field protected onStateBody inkWidgetReference
----@field protected offStateBody inkWidgetReference
+---@field protected ["onState"] inkWidgetReference
+---@field protected ["offState"] inkWidgetReference
+---@field protected ["onStateBody"] inkWidgetReference
+---@field protected ["offStateBody"] inkWidgetReference
 SettingsSelectorControllerBool = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiPhoneElementVisibility
----@field public tierVisibility worlduiContextVisibility
----@field public gameContextVisibility gameuiContext
----@field public slot inkCompoundWidgetReference
+---@field public ["tierVisibility"] worlduiContextVisibility
+---@field public ["gameContextVisibility"] gameuiContext
+---@field public ["slot"] inkCompoundWidgetReference
 gameuiPhoneElementVisibility = {}
 
 ---@param fields? table

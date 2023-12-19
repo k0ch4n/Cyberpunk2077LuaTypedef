@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraAddAttachmentsResult: ISerializable
----@field public array toolsJiraAttachment[]
+---@field public ["array"] toolsJiraAttachment[]
 toolsJiraAddAttachmentsResult = {}
 
 ---@param fields? table

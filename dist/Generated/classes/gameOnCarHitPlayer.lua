@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameOnCarHitPlayer: redEvent
----@field public hitDirection Vector4
----@field public seperationImpulse Vector4
----@field public carId entEntityID
+---@field public ["hitDirection"] Vector4
+---@field public ["seperationImpulse"] Vector4
+---@field public ["carId"] entEntityID
 gameOnCarHitPlayer = {}
 
 ---@param fields? table

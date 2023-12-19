@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckCurrentWoundedState: AIStatusEffectCondition
----@field public woundedTypeToCompare EWoundedBodyPart
+---@field public ["woundedTypeToCompare"] EWoundedBodyPart
 CheckCurrentWoundedState = {}
 
 ---@param fields? table

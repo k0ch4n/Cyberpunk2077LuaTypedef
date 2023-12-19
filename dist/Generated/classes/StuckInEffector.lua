@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StuckInEffector: gameContinuousEffector
----@field public maxEnemyDistance Float
----@field public enemyCount Int32
----@field public statusEffectID TweakDBID
+---@field public ["maxEnemyDistance"] Float
+---@field public ["enemyCount"] Int32
+---@field public ["statusEffectID"] TweakDBID
 StuckInEffector = {}
 
 ---@param fields? table

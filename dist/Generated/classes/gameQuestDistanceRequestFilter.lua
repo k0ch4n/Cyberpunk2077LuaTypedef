@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameQuestDistanceRequestFilter: gameCustomRequestFilter
----@field public distanceSquared Float
+---@field public ["distanceSquared"] Float
 gameQuestDistanceRequestFilter = {}
 
 ---@param fields? table

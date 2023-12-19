@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HighwaySignSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field private ["recordID"] TweakDBID
 HighwaySignSelector = {}
 
 ---@param fields? table

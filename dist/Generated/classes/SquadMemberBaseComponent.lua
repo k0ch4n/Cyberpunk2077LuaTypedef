@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SquadMemberBaseComponent: gameSquadMemberComponent
----@field private baseSquadRecord gamedataAISquadParams_Record
+---@field private ["baseSquadRecord"] gamedataAISquadParams_Record
 SquadMemberBaseComponent = {}
 
 ---@param fields? table
@@ -23,7 +23,7 @@ function SquadMemberBaseComponent:GetBaseSquadRecord() return end
 function SquadMemberBaseComponent:GetSquadInterface() return end
 
 ---@private
----@param actionName CName
+---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord
 function SquadMemberBaseComponent:GetTicketType(actionName, entity) return end
@@ -32,7 +32,7 @@ function SquadMemberBaseComponent:GetTicketType(actionName, entity) return end
 ---@return nil
 function SquadMemberBaseComponent:OnSquadActionSignalReceived(signal) return end
 
----@param squadActionName CName
+---@param squadActionName CName|string
 ---@param squadVerb EAISquadVerb
 ---@return nil
 function SquadMemberBaseComponent:PerformSquadVerb(squadActionName, squadVerb) return end

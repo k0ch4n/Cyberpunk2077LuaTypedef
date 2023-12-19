@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatsMenuUserData: inkUserData
----@field public menuVisited Bool
+---@field public ["menuVisited"] Bool
 StatsMenuUserData = {}
 
 ---@param fields? table

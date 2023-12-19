@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIBackgroundCombatCommandParams: questScriptedAICommandParams
----@field public steps AIBackgroundCombatStep[]
+---@field public ["steps"] AIBackgroundCombatStep[]
 AIBackgroundCombatCommandParams = {}
 
 ---@param fields? table

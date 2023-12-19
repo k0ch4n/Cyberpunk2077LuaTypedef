@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamePuppetPS: gameObjectPS
----@field public gender CName
----@field public wasQuickHacked Bool
----@field public hasQuickHackBegunUpload Bool
----@field public hasAlternativeName Bool
----@field public isCrouch Bool
----@field public allowVehicleCollisionRagdoll Bool
+---@field public ["gender"] CName
+---@field public ["wasQuickHacked"] Bool
+---@field public ["hasQuickHackBegunUpload"] Bool
+---@field public ["hasAlternativeName"] Bool
+---@field public ["isCrouch"] Bool
+---@field public ["allowVehicleCollisionRagdoll"] Bool
 gamePuppetPS = {}
 
 ---@param fields? table

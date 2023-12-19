@@ -3,8 +3,8 @@
 
 ---@enum UIObjectiveEntryType
 UIObjectiveEntryType = {
-    ["Invalid"] = 0,
-    ["Quest"] = 1,
-    ["Objective"] = 2,
-    ["SubObjective"] = 3
+    ["Invalid"] = 0, ---@type Enum
+    ["Quest"] = 1, ---@type Enum
+    ["Objective"] = 2, ---@type Enum
+    ["SubObjective"] = 3, ---@type Enum
 }

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class genRandomizationDataEntry
----@field public id String
----@field public templateName CName
----@field public transform Transform
----@field public probability Float
+---@field public ["id"] String
+---@field public ["templateName"] CName
+---@field public ["transform"] Transform
+---@field public ["probability"] Float
 genRandomizationDataEntry = {}
 
 ---@param fields? table

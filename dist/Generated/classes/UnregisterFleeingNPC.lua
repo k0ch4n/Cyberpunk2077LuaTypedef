@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnregisterFleeingNPC: gameScriptableSystemRequest
----@field public runner entEntity
+---@field public ["runner"] entEntity
 UnregisterFleeingNPC = {}
 
 ---@param fields? table

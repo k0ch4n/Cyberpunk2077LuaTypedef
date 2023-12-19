@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioBreathingSettings: audioAudioMetadata
----@field public exhaustionRtpc CName
----@field public idleFadeOutRtpc CName
----@field public initialState CName
+---@field public ["exhaustionRtpc"] CName
+---@field public ["idleFadeOutRtpc"] CName
+---@field public ["initialState"] CName
 audioBreathingSettings = {}
 
 ---@param fields? table

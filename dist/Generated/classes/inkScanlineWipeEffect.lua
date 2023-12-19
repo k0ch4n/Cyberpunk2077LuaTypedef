@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkScanlineWipeEffect: inkIEffect
----@field public angle Float
----@field public transition Float
----@field public width Float
+---@field public ["angle"] Float
+---@field public ["transition"] Float
+---@field public ["width"] Float
 inkScanlineWipeEffect = {}
 
 ---@param fields? table

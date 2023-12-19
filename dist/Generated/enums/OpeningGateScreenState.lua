@@ -3,9 +3,9 @@
 
 ---@enum OpeningGateScreenState
 OpeningGateScreenState = {
-    ["Unknown"] = 0,
-    ["Idle"] = 1,
-    ["Loop"] = 2,
-    ["Open"] = 3,
-    ["Result"] = 4
+    ["Unknown"] = 0, ---@type Enum
+    ["Idle"] = 1, ---@type Enum
+    ["Loop"] = 2, ---@type Enum
+    ["Open"] = 3, ---@type Enum
+    ["Result"] = 4, ---@type Enum
 }

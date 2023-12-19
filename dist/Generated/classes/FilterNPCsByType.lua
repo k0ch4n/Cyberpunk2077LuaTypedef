@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FilterNPCsByType: gameEffectObjectSingleFilter_Scripted
----@field public allowedTypes gamedataNPCType[]
----@field public invert Bool
+---@field public ["allowedTypes"] gamedataNPCType[]
+---@field public ["invert"] Bool
 FilterNPCsByType = {}
 
 ---@param fields? table

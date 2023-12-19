@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationTopBarHeader: inkButtonController
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field public root inkWidget
----@field private animationProxy inkanimProxy
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field public ["root"] inkWidget
+---@field private ["animationProxy"] inkanimProxy
 CharacterCreationTopBarHeader = {}
 
 ---@param fields? table
@@ -20,7 +20,7 @@ function CharacterCreationTopBarHeader:OnInitialize() return end
 ---@return Bool
 function CharacterCreationTopBarHeader:OnUninitialize() return end
 
----@param animName CName
+---@param animName CName|string
 ---@return nil
 function CharacterCreationTopBarHeader:PlayAnim(animName) return end
 
@@ -28,7 +28,7 @@ function CharacterCreationTopBarHeader:PlayAnim(animName) return end
 function CharacterCreationTopBarHeader:Select() return end
 
 ---@param label String
----@param icon CName
+---@param icon CName|string
 ---@return nil
 function CharacterCreationTopBarHeader:SetData(label, icon) return end
 

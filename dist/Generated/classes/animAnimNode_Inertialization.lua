@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_Inertialization: animAnimNode_OnePoseInput
----@field public safeMode Bool
----@field public transformsCountUpperBound Uint32
----@field public tracksCountUpperBound Uint32
----@field public rotationLimits animInertializationRotationLimit[]
+---@field public ["safeMode"] Bool
+---@field public ["transformsCountUpperBound"] Uint32
+---@field public ["tracksCountUpperBound"] Uint32
+---@field public ["rotationLimits"] animInertializationRotationLimit[]
 animAnimNode_Inertialization = {}
 
 ---@param fields? table

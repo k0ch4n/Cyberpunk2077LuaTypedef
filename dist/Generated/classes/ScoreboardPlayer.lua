@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScoreboardPlayer
----@field public playerName String
----@field public playerScore Int32
+---@field public ["playerName"] String
+---@field public ["playerScore"] Int32
 ScoreboardPlayer = {}
 
 ---@param fields? table

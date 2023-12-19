@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCompassWidgetGameController: gameuiHUDGameController
----@field public compassWidget inkWidgetReference
+---@field public ["compassWidget"] inkWidgetReference
 gameuiCompassWidgetGameController = {}
 
 ---@param fields? table

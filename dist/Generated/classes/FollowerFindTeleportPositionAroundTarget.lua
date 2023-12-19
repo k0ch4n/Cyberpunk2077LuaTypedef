@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FollowerFindTeleportPositionAroundTarget: AIbehaviortaskScript
----@field public target AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
----@field private lastResultTimestamp Float
+---@field public ["target"] AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
+---@field private ["lastResultTimestamp"] Float
 FollowerFindTeleportPositionAroundTarget = {}
 
 ---@param fields? table

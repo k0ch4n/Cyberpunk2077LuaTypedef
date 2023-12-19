@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerChoiceTokenNodeDefinition: questSignalStoppingNodeDefinition
----@field public params questMultiplayerChoiceTokenParams
+---@field public ["params"] questMultiplayerChoiceTokenParams
 questMultiplayerChoiceTokenNodeDefinition = {}
 
 ---@param fields? table

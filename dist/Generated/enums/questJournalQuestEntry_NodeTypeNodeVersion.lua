@@ -3,6 +3,6 @@
 
 ---@enum questJournalQuestEntry_NodeTypeNodeVersion
 questJournalQuestEntry_NodeTypeNodeVersion = {
-    ["Initial"] = 0,
-    ["OptionalProperty"] = 1
+    ["Initial"] = 0, ---@type Enum
+    ["OptionalProperty"] = 1, ---@type Enum
 }

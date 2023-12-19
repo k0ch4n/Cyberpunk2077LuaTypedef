@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class C4ControllerPS: ExplosiveDeviceControllerPS
----@field private itemTweakDBString CName
+---@field private ["itemTweakDBString"] CName
 C4ControllerPS = {}
 
 ---@param fields? table

@@ -5,7 +5,7 @@
 entIOrientationProvider = {}
 
 ---@param slotComponent entSlotComponent
----@param slotName CName
+---@param slotName CName|string
 ---@param entity entEntity
 ---@param orientationEntitySpace? Quaternion
 ---@return entIOrientationProvider

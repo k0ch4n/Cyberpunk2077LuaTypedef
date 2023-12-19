@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class inkIWidgetController: IScriptable
----@field public audioMetadataName CName
+---@field public ["audioMetadataName"] CName
 inkIWidgetController = {}
 
 ---@param spawnData inkAsyncSpawnData
 ---@param callbackObject? IScriptable
----@param callbackFunctionName? CName
+---@param callbackFunctionName? CName|string
 ---@return inkAsyncSpawnRequest
 function inkIWidgetController:AsyncSpawnFromExternal(spawnData, callbackObject, callbackFunctionName) return end
 
 ---@param spawnData inkAsyncSpawnData
 ---@param callbackObject? IScriptable
----@param callbackFunctionName? CName
+---@param callbackFunctionName? CName|string
 ---@return inkAsyncSpawnRequest
 function inkIWidgetController:AsyncSpawnFromLocal(spawnData, callbackObject, callbackFunctionName) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@return nil
 function inkIWidgetController:CallCustomCallback(eventName) return end
 
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidgetLogicController
 function inkIWidgetController:GetChildControllerByPath(widgetNamePath) return end
 
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidget
 function inkIWidgetController:GetChildWidgetByPath(widgetNamePath) return end
 
@@ -33,7 +33,7 @@ function inkIWidgetController:GetChildWidgetByPath(widgetNamePath) return end
 ---@return inkWidgetLogicController
 function inkIWidgetController:GetController(path) return end
 
----@param controllerType CName
+---@param controllerType CName|string
 ---@param path? inkWidgetPath
 ---@return inkWidgetLogicController
 function inkIWidgetController:GetControllerByType(controllerType, path) return end
@@ -42,7 +42,7 @@ function inkIWidgetController:GetControllerByType(controllerType, path) return e
 ---@return inkWidgetLogicController[]
 function inkIWidgetController:GetControllers(path) return end
 
----@param controllerType CName
+---@param controllerType CName|string
 ---@param path? inkWidgetPath
 ---@return inkWidgetLogicController[]
 function inkIWidgetController:GetControllersByType(controllerType, path) return end
@@ -51,7 +51,7 @@ function inkIWidgetController:GetControllersByType(controllerType, path) return 
 ---@return Int32
 function inkIWidgetController:GetNumControllers(path) return end
 
----@param controllerType CName
+---@param controllerType CName|string
 ---@param path? inkWidgetPath
 ---@return Int32
 function inkIWidgetController:GetNumControllersOfType(controllerType, path) return end
@@ -70,29 +70,29 @@ function inkIWidgetController:GetSystemRequestsHandler() return end
 function inkIWidgetController:GetWidget(path) return end
 
 ---@param resourcePath redResourceReferenceScriptToken
----@param libraryID? CName
+---@param libraryID? CName|string
 ---@return Bool
 function inkIWidgetController:HasExternalLibrary(resourcePath, libraryID) return end
 
----@param libraryID CName
+---@param libraryID CName|string
 ---@return Bool
 function inkIWidgetController:HasLocalLibrary(libraryID) return end
 
 ---@return Bool
 function inkIWidgetController:IsKeyboardConnected() return end
 
----@param animationName CName
+---@param animationName CName|string
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return inkanimProxy
 function inkIWidgetController:PlayLibraryAnimation(animationName, playbackOptions) return end
 
----@param animationName CName
+---@param animationName CName|string
 ---@param target inkWidget
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return inkanimProxy
 function inkIWidgetController:PlayLibraryAnimationOnAutoSelectedTargets(animationName, target, playbackOptions) return end
 
----@param animationName CName
+---@param animationName CName|string
 ---@param targets inkWidgetsSet
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return inkanimProxy
@@ -102,15 +102,15 @@ function inkIWidgetController:PlayLibraryAnimationOnTargets(animationName, targe
 ---@return nil
 function inkIWidgetController:QueueEvent(evt) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkIWidgetController:RegisterToCallback(eventName, object, functionName) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkIWidgetController:RegisterToGlobalInputCallback(eventName, object, functionName) return end
 
@@ -123,54 +123,54 @@ function inkIWidgetController:RequestSetFocus(widget) return end
 
 ---@param parentWidget inkWidget
 ---@param resourcePath redResourceReferenceScriptToken
----@param libraryID CName
+---@param libraryID CName|string
 ---@return inkWidget
 function inkIWidgetController:SpawnFromExternal(parentWidget, resourcePath, libraryID) return end
 
 ---@param parentWidget inkWidget
----@param libraryID CName
+---@param libraryID CName|string
 ---@return inkWidget
 function inkIWidgetController:SpawnFromLocal(parentWidget, libraryID) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkIWidgetController:UnregisterFromCallback(eventName, object, functionName) return end
 
----@param eventName CName
+---@param eventName CName|string
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkIWidgetController:UnregisterFromGlobalInputCallback(eventName, object, functionName) return end
 
 ---@param parentWidget inkWidget
 ---@param resourcePath redResourceReferenceScriptToken
----@param libraryID CName
+---@param libraryID CName|string
 ---@param callbackObject? IScriptable
----@param callbackFunctionName? CName
+---@param callbackFunctionName? CName|string
 ---@param userData? IScriptable
 ---@return inkAsyncSpawnRequest
 function inkIWidgetController:AsyncSpawnFromExternal(parentWidget, resourcePath, libraryID, callbackObject, callbackFunctionName, userData) return end
 
 ---@param parentWidget inkWidget
----@param libraryID CName
+---@param libraryID CName|string
 ---@param callbackObject? IScriptable
----@param callbackFunctionName? CName
+---@param callbackFunctionName? CName|string
 ---@param userData? IScriptable
 ---@return inkAsyncSpawnRequest
 function inkIWidgetController:AsyncSpawnFromLocal(parentWidget, libraryID, callbackObject, callbackFunctionName, userData) return end
 
 ---@protected
 ---@param parentWidget inkWidget
----@param id CName
+---@param id CName|string
 ---@param path redResourceReferenceScriptToken
 ---@return inkWidget
 function inkIWidgetController:CreateWidget(parentWidget, id, path) return end
 
 ---@protected
 ---@param parentWidget inkWidget
----@param id CName
+---@param id CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@param spawnData AsyncSpawnData
 ---@return inkAsyncSpawnRequest
@@ -179,7 +179,7 @@ function inkIWidgetController:CreateWidgetAsync(parentWidget, id, path, spawnDat
 ---@param widgetRecord gamedataWidgetDefinition_Record
 ---@param screenTypeRecord? gamedataDeviceScreenType_Record
 ---@param styleRecord? gamedataWidgetStyle_Record
----@param id? CName
+---@param id? CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@return CName
 function inkIWidgetController:FindLibraryID(widgetRecord, screenTypeRecord, styleRecord, id, path) return end
@@ -188,7 +188,7 @@ function inkIWidgetController:FindLibraryID(widgetRecord, screenTypeRecord, styl
 ---@param widgetRecord gamedataWidgetDefinition_Record
 ---@param screenTypeRecord? gamedataDeviceScreenType_Record
 ---@param styleRecord? gamedataWidgetStyle_Record
----@param id? CName
+---@param id? CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@return SWidgetPackageBase
 function inkIWidgetController:FindWidgetDataInLibrary(parentWidget, widgetRecord, screenTypeRecord, styleRecord, id, path) return end
@@ -197,16 +197,16 @@ function inkIWidgetController:FindWidgetDataInLibrary(parentWidget, widgetRecord
 ---@param widgetRecord gamedataWidgetDefinition_Record
 ---@param screenTypeRecord? gamedataDeviceScreenType_Record
 ---@param styleRecord? gamedataWidgetStyle_Record
----@param id? CName
+---@param id? CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@return inkWidget
 function inkIWidgetController:FindWidgetInLibrary(parentWidget, widgetRecord, screenTypeRecord, styleRecord, id, path) return end
 
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidgetLogicController
 function inkIWidgetController:GetController(widgetNamePath) return end
 
----@param widgetNamePath CName
+---@param widgetNamePath CName|string
 ---@return inkWidget
 function inkIWidgetController:GetWidget(widgetNamePath) return end
 
@@ -219,14 +219,14 @@ function inkIWidgetController:ReadUICondition(condition) return end
 ---@param widgetRecord gamedataWidgetDefinition_Record
 ---@param screenTypeRecord? gamedataDeviceScreenType_Record
 ---@param styleRecord? gamedataWidgetStyle_Record
----@param id? CName
+---@param id? CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@param spawnData AsyncSpawnData
 ---@return CName
 function inkIWidgetController:RequestWidgetFromLibrary(parentWidget, widgetRecord, screenTypeRecord, styleRecord, id, path, spawnData) return end
 
 ---@param parentWidget inkWidget
----@param id CName
+---@param id CName|string
 ---@param path? redResourceReferenceScriptToken
 ---@param spawnData AsyncSpawnData
 ---@return CName, inkAsyncSpawnRequest asyncSpawnRequest

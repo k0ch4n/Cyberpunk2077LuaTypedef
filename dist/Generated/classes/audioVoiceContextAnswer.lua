@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVoiceContextAnswer
----@field public answerContext CName
----@field public radius Float
+---@field public ["answerContext"] CName
+---@field public ["radius"] Float
 audioVoiceContextAnswer = {}
 
 ---@param fields? table

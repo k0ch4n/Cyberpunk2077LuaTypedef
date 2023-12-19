@@ -3,6 +3,6 @@
 
 ---@enum questVehicleCameraPerspective
 questVehicleCameraPerspective = {
-    ["FPP"] = 1,
-    ["TPP"] = 0
+    ["FPP"] = 1, ---@type Enum
+    ["TPP"] = 0, ---@type Enum
 }

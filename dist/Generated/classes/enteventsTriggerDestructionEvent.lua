@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class enteventsTriggerDestructionEvent: redEvent
----@field public velocity Float
+---@field public ["velocity"] Float
 enteventsTriggerDestructionEvent = {}
 
 ---@param fields? table

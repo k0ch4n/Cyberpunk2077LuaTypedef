@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ncartStationListDef
----@field public station ENcartStations
+---@field public ["station"] ENcartStations
 ncartStationListDef = {}
 
 ---@param fields? table

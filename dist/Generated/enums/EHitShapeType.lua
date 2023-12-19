@@ -3,9 +3,9 @@
 
 ---@enum EHitShapeType
 EHitShapeType = {
-    ["None"] = -1,
-    ["Flesh"] = 0,
-    ["Metal"] = 1,
-    ["Cyberware"] = 2,
-    ["Armor"] = 3
+    ["None"] = -1, ---@type Enum
+    ["Flesh"] = 0, ---@type Enum
+    ["Metal"] = 1, ---@type Enum
+    ["Cyberware"] = 2, ---@type Enum
+    ["Armor"] = 3, ---@type Enum
 }

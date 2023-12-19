@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleCombatConditon: AIbehaviorconditionScript
----@field public firstCoverEvaluationDone Bool
----@field public takeCoverAbility gamedataGameplayAbility_Record
----@field public quickhackAbility gamedataGameplayAbility_Record
+---@field public ["firstCoverEvaluationDone"] Bool
+---@field public ["takeCoverAbility"] gamedataGameplayAbility_Record
+---@field public ["quickhackAbility"] gamedataGameplayAbility_Record
 SimpleCombatConditon = {}
 
 ---@param fields? table

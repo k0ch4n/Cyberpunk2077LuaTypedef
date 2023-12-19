@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StaggerReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
----@field public tumble Bool
----@field public onUpdateCompleted Bool
+---@field public ["tweakDBPackage"] TweakDBID
+---@field public ["tumble"] Bool
+---@field public ["onUpdateCompleted"] Bool
 StaggerReactionTask = {}
 
 ---@param fields? table

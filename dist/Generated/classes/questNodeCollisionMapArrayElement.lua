@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questNodeCollisionMapArrayElement
----@field public objectRef NodeRef
----@field public componentsCollisionMapArray questComponentCollisionMapArrayElement[]
+---@field public ["objectRef"] NodeRef
+---@field public ["componentsCollisionMapArray"] questComponentCollisionMapArrayElement[]
 questNodeCollisionMapArrayElement = {}
 
 ---@param fields? table

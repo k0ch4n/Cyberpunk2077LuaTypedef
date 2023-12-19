@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScanLongDescriptionCall: gameScriptableSystemRequest
----@field public isEnabled Bool
+---@field public ["isEnabled"] Bool
 ScanLongDescriptionCall = {}
 
 ---@param fields? table

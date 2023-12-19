@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InitiateScanner: redEvent
----@field public trespasserEntryIndex Int32
+---@field public ["trespasserEntryIndex"] Int32
 InitiateScanner = {}
 
 ---@param fields? table

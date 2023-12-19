@@ -3,11 +3,11 @@
 
 ---@enum ETelemetryData
 ETelemetryData = {
-    ["MeleeAttacksMade"] = 0,
-    ["RangedAttacksMade"] = 1,
-    ["BluelinesSelected"] = 2,
-    ["MeleeKills"] = 3,
-    ["RangedKills"] = 4,
-    ["QuickHacksMade"] = 5,
-    ["LegendaryItemsCrafted"] = 6
+    ["MeleeAttacksMade"] = 0, ---@type Enum
+    ["RangedAttacksMade"] = 1, ---@type Enum
+    ["BluelinesSelected"] = 2, ---@type Enum
+    ["MeleeKills"] = 3, ---@type Enum
+    ["RangedKills"] = 4, ---@type Enum
+    ["QuickHacksMade"] = 5, ---@type Enum
+    ["LegendaryItemsCrafted"] = 6, ---@type Enum
 }

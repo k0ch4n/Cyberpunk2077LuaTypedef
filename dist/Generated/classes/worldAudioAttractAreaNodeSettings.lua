@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAudioAttractAreaNodeSettings
----@field public metadataName CName
+---@field public ["metadataName"] CName
 worldAudioAttractAreaNodeSettings = {}
 
 ---@param fields? table

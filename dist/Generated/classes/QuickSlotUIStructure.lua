@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuickSlotUIStructure
----@field public ItemIndex Int32
----@field public OperationResult Bool
+---@field public ["ItemIndex"] Int32
+---@field public ["OperationResult"] Bool
 QuickSlotUIStructure = {}
 
 ---@param fields? table

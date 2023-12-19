@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEntityToAppearancesAndColorVariantsMapEntry: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath String
----@field public appearancesAndTheirColorVariants gameEntityAppearanceColorVariantsArray[]
+---@field public ["entityPathHash"] Uint64
+---@field public ["debugEntityPath"] String
+---@field public ["appearancesAndTheirColorVariants"] gameEntityAppearanceColorVariantsArray[]
 gameEntityToAppearancesAndColorVariantsMapEntry = {}
 
 ---@param fields? table

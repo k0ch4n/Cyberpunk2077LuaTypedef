@@ -3,7 +3,7 @@
 
 ---@enum ETargetManagerAnimGraphState
 ETargetManagerAnimGraphState = {
-    ["MODELOOKAT"] = 0,
-    ["IDLE"] = 1,
-    ["JAMMED"] = 2
+    ["MODELOOKAT"] = 0, ---@type Enum
+    ["IDLE"] = 1, ---@type Enum
+    ["JAMMED"] = 2, ---@type Enum
 }

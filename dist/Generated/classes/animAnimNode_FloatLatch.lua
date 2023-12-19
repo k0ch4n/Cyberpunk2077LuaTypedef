@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatLatch: animAnimNode_FloatValue
----@field public input animFloatLink
+---@field public ["input"] animFloatLink
 animAnimNode_FloatLatch = {}
 
 ---@param fields? table

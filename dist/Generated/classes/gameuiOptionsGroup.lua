@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiOptionsGroup
----@field public name CName
----@field public options CName[]
+---@field public ["name"] CName
+---@field public ["options"] CName[]
 gameuiOptionsGroup = {}
 
 ---@param fields? table

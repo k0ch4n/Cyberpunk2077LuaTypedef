@@ -3,7 +3,7 @@
 
 ---@enum gamePSMNanoWireLaunchMode
 gamePSMNanoWireLaunchMode = {
-    ["Default"] = 0,
-    ["Primary"] = 1,
-    ["Secondary"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Primary"] = 1, ---@type Enum
+    ["Secondary"] = 2, ---@type Enum
 }

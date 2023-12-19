@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questFactsDBManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIFactsDBManagerNodeType
+---@field public ["type"] questIFactsDBManagerNodeType
 questFactsDBManagerNodeDefinition = {}
 
 ---@param fields? table

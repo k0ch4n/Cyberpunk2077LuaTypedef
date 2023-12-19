@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiSwitchPair
----@field public prevOption gameuiCharacterCustomizationOption
----@field public currOption gameuiCharacterCustomizationOption
+---@field public ["prevOption"] gameuiCharacterCustomizationOption
+---@field public ["currOption"] gameuiCharacterCustomizationOption
 gameuiSwitchPair = {}
 
 ---@param fields? table

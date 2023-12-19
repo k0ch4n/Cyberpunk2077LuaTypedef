@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class QueueCombatExperience: gamePlayerScriptableSystemRequest
----@field public amount Float
----@field public experienceType gamedataProficiencyType
----@field public entity entEntityID
+---@field public ["amount"] Float
+---@field public ["experienceType"] gamedataProficiencyType
+---@field public ["entity"] entEntityID
 QueueCombatExperience = {}
 
 ---@param fields? table

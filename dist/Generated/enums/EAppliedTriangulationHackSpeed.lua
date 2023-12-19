@@ -3,8 +3,8 @@
 
 ---@enum EAppliedTriangulationHackSpeed
 EAppliedTriangulationHackSpeed = {
-    ["NotAssigned"] = 0,
-    ["Slow"] = 1,
-    ["Normal"] = 2,
-    ["Fast"] = 3
+    ["NotAssigned"] = 0, ---@type Enum
+    ["Slow"] = 1, ---@type Enum
+    ["Normal"] = 2, ---@type Enum
+    ["Fast"] = 3, ---@type Enum
 }

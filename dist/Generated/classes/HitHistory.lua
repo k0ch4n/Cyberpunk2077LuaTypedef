@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitHistory: IScriptable
----@field private hitHistory HitHistoryItem[]
----@field private maxEntries Int32
+---@field private ["hitHistory"] HitHistoryItem[]
+---@field private ["maxEntries"] Int32
 HitHistory = {}
 
 ---@param fields? table

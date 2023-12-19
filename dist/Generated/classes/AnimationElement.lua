@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimationElement
----@field public animation CName
----@field public animOptions inkanimPlaybackOptions
+---@field public ["animation"] CName
+---@field public ["animOptions"] inkanimPlaybackOptions
 AnimationElement = {}
 
 ---@param fields? table

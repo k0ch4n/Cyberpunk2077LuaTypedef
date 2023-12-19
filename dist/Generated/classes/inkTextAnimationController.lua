@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class inkTextAnimationController: inkWidgetLogicController
----@field public playOnInitialize Bool
----@field public animationName CName
----@field public useDefaultAnimation Bool
----@field public duration Float
----@field public startDelay Float
----@field public startValue Float
----@field public endValue Float
+---@field public ["playOnInitialize"] Bool
+---@field public ["animationName"] CName
+---@field public ["useDefaultAnimation"] Bool
+---@field public ["duration"] Float
+---@field public ["startDelay"] Float
+---@field public ["startValue"] Float
+---@field public ["endValue"] Float
 inkTextAnimationController = {}
 
 ---@return Float

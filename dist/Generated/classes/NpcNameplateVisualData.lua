@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NpcNameplateVisualData
----@field public npcNextToCrosshair gameuiNPCNextToTheCrosshair
+---@field public ["npcNextToCrosshair"] gameuiNPCNextToTheCrosshair
 NpcNameplateVisualData = {}
 
 ---@param fields? table

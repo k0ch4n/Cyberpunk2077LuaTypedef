@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryRipperdocDisplayController: InventoryItemDisplayController
----@field private ownedBackground inkWidgetReference
----@field private ownedSign inkWidgetReference
+---@field private ["ownedBackground"] inkWidgetReference
+---@field private ["ownedSign"] inkWidgetReference
 InventoryRipperdocDisplayController = {}
 
 ---@param fields? table

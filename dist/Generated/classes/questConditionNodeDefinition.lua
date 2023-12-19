@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questConditionNodeDefinition: questDisableableNodeDefinition
----@field public condition questIBaseCondition
+---@field public ["condition"] questIBaseCondition
 questConditionNodeDefinition = {}
 
 ---@param fields? table

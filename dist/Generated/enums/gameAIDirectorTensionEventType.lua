@@ -3,9 +3,9 @@
 
 ---@enum gameAIDirectorTensionEventType
 gameAIDirectorTensionEventType = {
-    ["Time"] = 0,
-    ["Progress"] = 1,
-    ["DealingDamage"] = 2,
-    ["TakingDamage"] = 3,
-    ["Kill"] = 4
+    ["Time"] = 0, ---@type Enum
+    ["Progress"] = 1, ---@type Enum
+    ["DealingDamage"] = 2, ---@type Enum
+    ["TakingDamage"] = 3, ---@type Enum
+    ["Kill"] = 4, ---@type Enum
 }

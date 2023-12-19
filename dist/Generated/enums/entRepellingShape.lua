@@ -3,6 +3,6 @@
 
 ---@enum entRepellingShape
 entRepellingShape = {
-    ["Sphere"] = 0,
-    ["Capsule"] = 1
+    ["Sphere"] = 0, ---@type Enum
+    ["Capsule"] = 1, ---@type Enum
 }

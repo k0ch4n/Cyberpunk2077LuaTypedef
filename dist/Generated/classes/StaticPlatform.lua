@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StaticPlatform: InteractiveDevice
----@field private componentsToToggleNames CName[]
----@field private meshName CName
----@field private sfxOnEnable CName
----@field private componentsToToggle entIComponent[]
+---@field private ["componentsToToggleNames"] CName[]
+---@field private ["meshName"] CName
+---@field private ["sfxOnEnable"] CName
+---@field private ["componentsToToggle"] entIComponent[]
 StaticPlatform = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AmmoStateChangeEvent: redEvent
----@field public weaponOwner gameObject
+---@field public ["weaponOwner"] gameObject
 AmmoStateChangeEvent = {}
 
 ---@param fields? table

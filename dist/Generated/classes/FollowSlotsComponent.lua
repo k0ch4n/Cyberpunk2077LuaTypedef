@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FollowSlotsComponent: gameScriptableComponent
----@field private followSlots FollowSlot[]
+---@field private ["followSlots"] FollowSlot[]
 FollowSlotsComponent = {}
 
 ---@param fields? table

@@ -48,6 +48,6 @@ function gamedataLootInjectionSettings_Record:StatsExlcudingBrokenContains(item)
 ---@return CName[]
 function gamedataLootInjectionSettings_Record:TagsExcludingBroken() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataLootInjectionSettings_Record:TagsExcludingBrokenContains(item) return end

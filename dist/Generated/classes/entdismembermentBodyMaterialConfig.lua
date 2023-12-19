@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entdismembermentBodyMaterialConfig
----@field public FleshBodyMask physicsRagdollBodyPartE
----@field public CyberBodyMask physicsRagdollBodyPartE
+---@field public ["FleshBodyMask"] physicsRagdollBodyPartE
+---@field public ["CyberBodyMask"] physicsRagdollBodyPartE
 entdismembermentBodyMaterialConfig = {}
 
 ---@param fields? table

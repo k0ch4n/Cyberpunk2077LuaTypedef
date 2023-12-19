@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameNPCstubData
----@field public spawnerID entEntityID
----@field public entryID CName
+---@field public ["spawnerID"] entEntityID
+---@field public ["entryID"] CName
 gameNPCstubData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NoAmmoDecisions: WeaponTransition
----@field private callbackID redCallbackObject
+---@field private ["callbackID"] redCallbackObject
 NoAmmoDecisions = {}
 
 ---@param fields? table

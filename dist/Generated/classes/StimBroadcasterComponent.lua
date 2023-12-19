@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class StimBroadcasterComponent: gameScriptableComponent
----@field public activeRequests StimRequest[]
----@field public currentID Uint32
----@field public shouldBroadcast Bool
----@field public targets gameNPCstubData[]
----@field private blockedStims StimIdentificationData[]
----@field public fallbackInterval Float
+---@field public ["activeRequests"] StimRequest[]
+---@field public ["currentID"] Uint32
+---@field public ["shouldBroadcast"] Bool
+---@field public ["targets"] gameNPCstubData[]
+---@field private ["blockedStims"] StimIdentificationData[]
+---@field public ["fallbackInterval"] Float
 StimBroadcasterComponent = {}
 
 ---@param fields? table
@@ -39,7 +39,7 @@ function StimBroadcasterComponent.BroadcastStim(sender, gdStimType, radius, inve
 ---@return nil
 function StimBroadcasterComponent.SendStimDirectly(sender, gdStimType, target, investigateData, delay) return end
 
----@param stimName CName
+---@param stimName CName|string
 ---@return nil, gamedataStimType stimType
 function StimBroadcasterComponent.nameToStimEnum(stimName) return end
 
@@ -190,7 +190,7 @@ function StimBroadcasterComponent:IsStimBlocked(data) return end
 
 ---@param sourceID entEntityID
 ---@param stimType gamedataStimType
----@param stimName? CName
+---@param stimName? CName|string
 ---@return Bool
 function StimBroadcasterComponent:IsStimProcessingBlocked(sourceID, stimType, stimName) return end
 
@@ -249,7 +249,7 @@ function StimBroadcasterComponent:RemoveRequest(index) return end
 
 ---@param sourceID entEntityID
 ---@param stimType gamedataStimType
----@param stimName? CName
+---@param stimName? CName|string
 ---@param cooldown Float
 ---@return Bool
 function StimBroadcasterComponent:ResolveStimProcessingCooldown(sourceID, stimType, stimName, cooldown) return end

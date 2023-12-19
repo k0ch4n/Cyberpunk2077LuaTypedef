@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorColorConst: IEvaluatorColor
----@field public value Color
+---@field public ["value"] Color
 CEvaluatorColorConst = {}
 
 ---@param fields? table

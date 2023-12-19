@@ -21,7 +21,7 @@ function gamedataAISubActionCover_Record:CommandCoverConditionsContains(item) re
 ---@return CName[]
 function gamedataAISubActionCover_Record:CoverExposureMethods() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataAISubActionCover_Record:CoverExposureMethodsContains(item) return end
 

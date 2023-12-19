@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ItemLogPopupLogicController: inkWidgetLogicController
----@field private quantity inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private duration Float
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimOptions inkanimPlaybackOptions
+---@field private ["quantity"] inkTextWidgetReference
+---@field private ["icon"] inkImageWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["duration"] Float
+---@field private ["animProxy"] inkanimProxy
+---@field private ["alpha_fadein"] inkanimDefinition
+---@field private ["AnimOptions"] inkanimPlaybackOptions
 ItemLogPopupLogicController = {}
 
 ---@param fields? table

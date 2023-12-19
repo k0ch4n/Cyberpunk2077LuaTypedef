@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkFrameAnim: animAnimNode_SkAnim
----@field public progressLink animFloatLink
----@field public timeLink animFloatLink
----@field public frameLink animFloatLink
----@field public fireAnimEndOnceOnAnimEnd Bool
+---@field public ["progressLink"] animFloatLink
+---@field public ["timeLink"] animFloatLink
+---@field public ["frameLink"] animFloatLink
+---@field public ["fireAnimEndOnceOnAnimEnd"] Bool
 animAnimNode_SkFrameAnim = {}
 
 ---@param fields? table

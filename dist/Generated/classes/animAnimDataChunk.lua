@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimDataChunk
----@field public buffer serializationDeferredDataBuffer
+---@field public ["buffer"] serializationDeferredDataBuffer
 animAnimDataChunk = {}
 
 ---@param fields? table

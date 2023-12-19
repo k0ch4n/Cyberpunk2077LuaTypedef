@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ChestPressControllerPS: ScriptableDeviceComponentPS
----@field protected chestPressSkillChecks EngDemoContainer
----@field private factOnQHack CName
----@field private wasWeighHacked Bool
+---@field protected ["chestPressSkillChecks"] EngDemoContainer
+---@field private ["factOnQHack"] CName
+---@field private ["wasWeighHacked"] Bool
 ChestPressControllerPS = {}
 
 ---@param fields? table
@@ -34,7 +34,7 @@ function ChestPressControllerPS:GameAttached() return end
 ---@return CName
 function ChestPressControllerPS:GetFactOnQHack() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ChestPressControllerPS:GetQuestActionByName(actionName) return end
 

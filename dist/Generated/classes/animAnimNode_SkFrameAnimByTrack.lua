@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkFrameAnimByTrack: animAnimNode_SkFrameAnim
----@field public progressFloatTrack animNamedTrackIndex
----@field public timeFloatTrack animNamedTrackIndex
----@field public frameFloatTrack animNamedTrackIndex
----@field public inputWithTracks animPoseLink
+---@field public ["progressFloatTrack"] animNamedTrackIndex
+---@field public ["timeFloatTrack"] animNamedTrackIndex
+---@field public ["frameFloatTrack"] animNamedTrackIndex
+---@field public ["inputWithTracks"] animPoseLink
 animAnimNode_SkFrameAnimByTrack = {}
 
 ---@param fields? table

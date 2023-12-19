@@ -3,11 +3,11 @@
 
 ---@enum gameJournalEntryUserState
 gameJournalEntryUserState = {
-    ["Undefined"] = 0,
-    ["Inactive"] = 1,
-    ["Active"] = 2,
-    ["Succeeded"] = 3,
-    ["Failed"] = 4,
-    ["Read"] = 5,
-    ["Open"] = 6
+    ["Undefined"] = 0, ---@type Enum
+    ["Inactive"] = 1, ---@type Enum
+    ["Active"] = 2, ---@type Enum
+    ["Succeeded"] = 3, ---@type Enum
+    ["Failed"] = 4, ---@type Enum
+    ["Read"] = 5, ---@type Enum
+    ["Open"] = 6, ---@type Enum
 }

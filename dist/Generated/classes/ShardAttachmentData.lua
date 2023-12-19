@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShardAttachmentData: IScriptable
----@field public hash Int32
+---@field public ["hash"] Int32
 ShardAttachmentData = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum telemetryLevelGainReason
 telemetryLevelGainReason = {
-    ["Ignore"] = 0,
-    ["Gameplay"] = 1,
-    ["IsDebug"] = 2
+    ["Ignore"] = 0, ---@type Enum
+    ["Gameplay"] = 1, ---@type Enum
+    ["IsDebug"] = 2, ---@type Enum
 }

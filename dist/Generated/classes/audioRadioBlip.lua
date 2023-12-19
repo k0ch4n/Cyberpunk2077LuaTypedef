@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioRadioBlip
----@field public blipEventName CName
+---@field public ["blipEventName"] CName
 audioRadioBlip = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphImageThumbnail: inkButtonAnimatedController
----@field public selector inkWidgetReference
----@field public equipped inkWidgetReference
----@field public bg inkWidgetReference
----@field public index Int32
+---@field public ["selector"] inkWidgetReference
+---@field public ["equipped"] inkWidgetReference
+---@field public ["bg"] inkWidgetReference
+---@field public ["index"] Int32
 characterCreationBodyMorphImageThumbnail = {}
 
 ---@param fields? table

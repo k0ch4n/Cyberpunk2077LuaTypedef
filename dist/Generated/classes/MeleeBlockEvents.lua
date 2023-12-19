@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeBlockEvents: MeleeRumblingEvents
----@field public blockStatFlag gameStatModifierData_Deprecated
+---@field public ["blockStatFlag"] gameStatModifierData_Deprecated
 MeleeBlockEvents = {}
 
 ---@param fields? table

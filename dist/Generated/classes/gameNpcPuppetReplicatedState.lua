@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNpcPuppetReplicatedState: gamePuppetReplicatedState
----@field public weaponStates gameWeaponsReplicatedState
+---@field public ["weaponStates"] gameWeaponsReplicatedState
 gameNpcPuppetReplicatedState = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickSlotCommandUsed: redEvent
----@field public action gamedeviceAction
+---@field public ["action"] gamedeviceAction
 QuickSlotCommandUsed = {}
 
 ---@param fields? table

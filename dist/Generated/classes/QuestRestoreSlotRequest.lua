@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestRestoreSlotRequest: gamePlayerScriptableSystemRequest
----@field public slot gamedataEquipmentArea
+---@field public ["slot"] gamedataEquipmentArea
 QuestRestoreSlotRequest = {}
 
 ---@param fields? table

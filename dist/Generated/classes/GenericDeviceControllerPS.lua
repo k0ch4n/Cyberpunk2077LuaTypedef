@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class GenericDeviceControllerPS: ScriptableDeviceComponentPS
----@field private isRecognizableBySenses Bool
----@field protected genericDeviceActionsSetup GenericDeviceActionsData
----@field protected genericDeviceSkillChecks GenericContainer
----@field public deviceWidgetRecord TweakDBID
----@field public thumbnailWidgetRecord TweakDBID
----@field private performedCustomActionsIDs CName[]
+---@field private ["isRecognizableBySenses"] Bool
+---@field protected ["genericDeviceActionsSetup"] GenericDeviceActionsData
+---@field protected ["genericDeviceSkillChecks"] GenericContainer
+---@field public ["deviceWidgetRecord"] TweakDBID
+---@field public ["thumbnailWidgetRecord"] TweakDBID
+---@field private ["performedCustomActionsIDs"] CName[]
 GenericDeviceControllerPS = {}
 
 ---@param fields? table
@@ -76,7 +76,7 @@ function GenericDeviceControllerPS:GetInkWidgetTweakDBID(context) return end
 ---@return CName[]
 function GenericDeviceControllerPS:GetPerformedCustomActionsStorage() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function GenericDeviceControllerPS:GetQuestActionByName(actionName) return end
 
@@ -113,7 +113,7 @@ function GenericDeviceControllerPS:GetSpiderbotActions(actions, context) return 
 function GenericDeviceControllerPS:GetThumbnailWidget() return end
 
 ---@private
----@param ID CName
+---@param ID CName|string
 ---@return Bool
 function GenericDeviceControllerPS:HasCustomActionStored(ID) return end
 
@@ -162,7 +162,7 @@ function GenericDeviceControllerPS:ResolveActionHackingCompleted(evt) return end
 ---@return nil
 function GenericDeviceControllerPS:ResolveBaseActionOperation(action) return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@return nil
 function GenericDeviceControllerPS:ResolveCustomAction(actionID) return end
 
@@ -171,7 +171,7 @@ function GenericDeviceControllerPS:ResolveCustomAction(actionID) return end
 ---@return nil
 function GenericDeviceControllerPS:ResolveCustomActionOperation(action) return end
 
----@param factName CName
+---@param factName CName|string
 ---@return Bool
 function GenericDeviceControllerPS:ResolveFactOnCustomAction(factName) return end
 
@@ -185,12 +185,12 @@ function GenericDeviceControllerPS:ResolveFactOnCustomActionByIndex(index) retur
 ---@return nil
 function GenericDeviceControllerPS:ResolveSkillCheckAction(skillAction) return end
 
----@param ID CName
+---@param ID CName|string
 ---@return nil
 function GenericDeviceControllerPS:StorePerformedCustomActionID(ID) return end
 
 ---@private
----@param actionID CName
+---@param actionID CName|string
 ---@param enable Bool
 ---@return Bool
 function GenericDeviceControllerPS:ToggleCustomAction(actionID, enable) return end
@@ -198,6 +198,6 @@ function GenericDeviceControllerPS:ToggleCustomAction(actionID, enable) return e
 ---@return nil
 function GenericDeviceControllerPS:UnInitializeQuestDBCallbacksForCustomActions() return end
 
----@param actionID CName
+---@param actionID CName|string
 ---@return Bool
 function GenericDeviceControllerPS:WasCustomActionPerformed(actionID) return end

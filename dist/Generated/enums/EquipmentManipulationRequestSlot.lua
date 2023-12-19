@@ -3,8 +3,8 @@
 
 ---@enum EquipmentManipulationRequestSlot
 EquipmentManipulationRequestSlot = {
-    ["Undefined"] = 0,
-    ["Right"] = 1,
-    ["Left"] = 2,
-    ["Both"] = 3
+    ["Undefined"] = 0, ---@type Enum
+    ["Right"] = 1, ---@type Enum
+    ["Left"] = 2, ---@type Enum
+    ["Both"] = 3, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DoorReplicatedState: gameDeviceReplicatedState
----@field public isOpen Bool
----@field public wasImmediateChange Bool
+---@field public ["isOpen"] Bool
+---@field public ["wasImmediateChange"] Bool
 DoorReplicatedState = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAudioSceneSignalOverride
----@field public templateSignal CName
----@field public signalOverride CName
+---@field public ["templateSignal"] CName
+---@field public ["signalOverride"] CName
 audioAudioSceneSignalOverride = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RestoreStatPoolEffector: gameEffector
----@field public statPoolType gamedataStatPoolType
----@field public valueToRestore Float
----@field public percentage Bool
+---@field public ["statPoolType"] gamedataStatPoolType
+---@field public ["valueToRestore"] Float
+---@field public ["percentage"] Bool
 RestoreStatPoolEffector = {}
 
 ---@param fields? table

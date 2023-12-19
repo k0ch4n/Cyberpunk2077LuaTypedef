@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamemappinsDistrictEnteredEvent: gameScriptableSystemRequest
----@field public entered Bool
----@field public sendNewLocationNotification Bool
----@field public district TweakDBID
+---@field public ["entered"] Bool
+---@field public ["sendNewLocationNotification"] Bool
+---@field public ["district"] TweakDBID
 gamemappinsDistrictEnteredEvent = {}
 
 ---@param fields? table

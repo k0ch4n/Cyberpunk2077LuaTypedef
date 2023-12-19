@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckLastHitReaction: HitConditions
----@field public hitReactionToCheck animHitReactionType
+---@field public ["hitReactionToCheck"] animHitReactionType
 CheckLastHitReaction = {}
 
 ---@param fields? table

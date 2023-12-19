@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OxygenListener: gameScriptStatPoolsListener
----@field private oxygenBar OxygenbarWidgetGameController
+---@field private ["oxygenBar"] OxygenbarWidgetGameController
 OxygenListener = {}
 
 ---@param fields? table

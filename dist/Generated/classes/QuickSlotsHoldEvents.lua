@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsHoldEvents: QuickSlotsEvents
----@field public holdDirection EDPadSlot
+---@field public ["holdDirection"] EDPadSlot
 QuickSlotsHoldEvents = {}
 
 ---@protected

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleApplyZOffsetFromGroundEvent: redEvent
----@field public sampleNavmesh Bool
+---@field public ["sampleNavmesh"] Bool
 vehicleApplyZOffsetFromGroundEvent = {}
 
 ---@param fields? table

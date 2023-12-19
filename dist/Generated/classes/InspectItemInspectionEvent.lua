@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InspectItemInspectionEvent: redEvent
----@field public owner gameObject
+---@field public ["owner"] gameObject
 InspectItemInspectionEvent = {}
 
 ---@param fields? table

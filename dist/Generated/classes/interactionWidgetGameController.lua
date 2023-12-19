@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class interactionWidgetGameController: gameuiHUDGameController
----@field private root inkWidget
----@field private titleLabel inkTextWidget
----@field private titleBorder inkWidget
----@field private optionsList inkHorizontalPanelWidget
----@field private widgetsPool inkWidget[]
----@field private widgetsCallbacks redCallbackObject[]
----@field private bbInteraction gameIBlackboard
----@field private bbPlayerStateMachine gameIBlackboard
----@field private bbInteractionDefinition UIInteractionsDef
----@field private updateInteractionId redCallbackObject
----@field private activeHubListenerId redCallbackObject
----@field private contactsActiveListenerId redCallbackObject
----@field private id Int32
----@field private isActive Bool
----@field private areContactsOpen Bool
----@field private progressBarHolder inkWidgetReference
----@field private progressBar DialogChoiceTimerController
----@field private hasProgressBar Bool
----@field private bb gameIBlackboard
----@field private bbUIInteractionsDef UIInteractionsDef
----@field private bbLastAttemptedChoiceCallbackId redCallbackObject
----@field private OnZoneChangeCallback redCallbackObject
----@field private pendingRequests Int32
----@field private spawnTokens inkAsyncSpawnRequest[]
----@field private currentOptions gameinteractionsvisInteractionChoiceData[]
+---@field private ["root"] inkWidget
+---@field private ["titleLabel"] inkTextWidget
+---@field private ["titleBorder"] inkWidget
+---@field private ["optionsList"] inkHorizontalPanelWidget
+---@field private ["widgetsPool"] inkWidget[]
+---@field private ["widgetsCallbacks"] redCallbackObject[]
+---@field private ["bbInteraction"] gameIBlackboard
+---@field private ["bbPlayerStateMachine"] gameIBlackboard
+---@field private ["bbInteractionDefinition"] UIInteractionsDef
+---@field private ["updateInteractionId"] redCallbackObject
+---@field private ["activeHubListenerId"] redCallbackObject
+---@field private ["contactsActiveListenerId"] redCallbackObject
+---@field private ["id"] Int32
+---@field private ["isActive"] Bool
+---@field private ["areContactsOpen"] Bool
+---@field private ["progressBarHolder"] inkWidgetReference
+---@field private ["progressBar"] DialogChoiceTimerController
+---@field private ["hasProgressBar"] Bool
+---@field private ["bb"] gameIBlackboard
+---@field private ["bbUIInteractionsDef"] UIInteractionsDef
+---@field private ["bbLastAttemptedChoiceCallbackId"] redCallbackObject
+---@field private ["OnZoneChangeCallback"] redCallbackObject
+---@field private ["pendingRequests"] Int32
+---@field private ["spawnTokens"] inkAsyncSpawnRequest[]
+---@field private ["currentOptions"] gameinteractionsvisInteractionChoiceData[]
 interactionWidgetGameController = {}
 
 ---@param fields? table

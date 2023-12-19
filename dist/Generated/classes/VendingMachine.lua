@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VendingMachine: InteractiveDevice
----@field private vendorID VendorComponent
----@field protected advUiComponent entIComponent
----@field protected isShortGlitchActive Bool
----@field protected shortGlitchDelayID gameDelayID
+---@field private ["vendorID"] VendorComponent
+---@field protected ["advUiComponent"] entIComponent
+---@field protected ["isShortGlitchActive"] Bool
+---@field protected ["shortGlitchDelayID"] gameDelayID
 VendingMachine = {}
 
 ---@param fields? table

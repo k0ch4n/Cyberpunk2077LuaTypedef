@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageWithVelocity: ModifyDamageEffector
----@field public percentMult Float
----@field public unitThreshold Float
+---@field public ["percentMult"] Float
+---@field public ["unitThreshold"] Float
 ModifyDamageWithVelocity = {}
 
 ---@param fields? table

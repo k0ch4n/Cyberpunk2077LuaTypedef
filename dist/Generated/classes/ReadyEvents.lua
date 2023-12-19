@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReadyEvents: WeaponEventsTransition
----@field public timeStamp Float
+---@field public ["timeStamp"] Float
 ReadyEvents = {}
 
 ---@param fields? table

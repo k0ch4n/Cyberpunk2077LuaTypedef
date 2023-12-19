@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointLimitConePair: physicsPhysicsJointLimitBase
----@field public swingY physicsPhysicsJointMotion
----@field public swingZ physicsPhysicsJointMotion
----@field public yAngle Float
----@field public zAngle Float
+---@field public ["swingY"] physicsPhysicsJointMotion
+---@field public ["swingZ"] physicsPhysicsJointMotion
+---@field public ["yAngle"] Float
+---@field public ["zAngle"] Float
 physicsPhysicsJointLimitConePair = {}
 
 ---@param fields? table

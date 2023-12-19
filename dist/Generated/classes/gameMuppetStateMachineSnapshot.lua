@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMuppetStateMachineSnapshot
----@field public stateMachineId CName
----@field public stateId CName
+---@field public ["stateMachineId"] CName
+---@field public ["stateId"] CName
 gameMuppetStateMachineSnapshot = {}
 
 ---@param fields? table

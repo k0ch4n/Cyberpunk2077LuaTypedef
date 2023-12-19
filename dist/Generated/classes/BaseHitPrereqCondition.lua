@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BaseHitPrereqCondition: IScriptable
----@field public invert Bool
----@field public onlyOncePerShot Bool
----@field public lastAttackTime Float
+---@field public ["invert"] Bool
+---@field public ["onlyOncePerShot"] Bool
+---@field public ["lastAttackTime"] Float
 BaseHitPrereqCondition = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function BaseHitPrereqCondition:CheckOnlyOncePerShot(hitEvent) return end
 function BaseHitPrereqCondition:Evaluate(hitEvent) return end
 
 ---@protected
----@param obj CName
+---@param obj CName|string
 ---@param hitEvent gameeventsHitEvent
 ---@return gameObject
 function BaseHitPrereqCondition:GetObjectToCheck(obj, hitEvent) return end

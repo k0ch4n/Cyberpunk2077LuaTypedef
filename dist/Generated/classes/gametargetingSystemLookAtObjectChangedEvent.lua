@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemLookAtObjectChangedEvent: redEvent
----@field public lookatObject gameObject
+---@field public ["lookatObject"] gameObject
 gametargetingSystemLookAtObjectChangedEvent = {}
 
 ---@param fields? table

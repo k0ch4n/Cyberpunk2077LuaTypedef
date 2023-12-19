@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineTransitionDefinition: graphGraphConnectionDefinition
----@field public priority Float
+---@field public ["priority"] Float
 gamestateMachineTransitionDefinition = {}
 
 ---@param fields? table

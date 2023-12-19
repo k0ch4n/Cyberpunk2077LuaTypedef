@@ -3,11 +3,11 @@
 
 ---@enum gamePSMLandingState
 gamePSMLandingState = {
-    ["Default"] = 0,
-    ["RegularLand"] = 1,
-    ["HardLand"] = 2,
-    ["VeryHardLand"] = 3,
-    ["DeathLand"] = 4,
-    ["SuperheroLand"] = 5,
-    ["SuperheroLandRecovery"] = 6
+    ["Default"] = 0, ---@type Enum
+    ["RegularLand"] = 1, ---@type Enum
+    ["HardLand"] = 2, ---@type Enum
+    ["VeryHardLand"] = 3, ---@type Enum
+    ["DeathLand"] = 4, ---@type Enum
+    ["SuperheroLand"] = 5, ---@type Enum
+    ["SuperheroLandRecovery"] = 6, ---@type Enum
 }

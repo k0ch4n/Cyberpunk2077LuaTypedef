@@ -3,10 +3,10 @@
 
 ---@enum EParticleEventType
 EParticleEventType = {
-    ["PET_Any"] = 5,
-    ["PET_Death"] = 0,
-    ["PET_OverLife"] = 1,
-    ["PET_OverDistance"] = 2,
-    ["PET_Collision"] = 3,
-    ["PET_PlayOneShotSoundOnSpawn"] = 4
+    ["PET_Any"] = 5, ---@type Enum
+    ["PET_Death"] = 0, ---@type Enum
+    ["PET_OverLife"] = 1, ---@type Enum
+    ["PET_OverDistance"] = 2, ---@type Enum
+    ["PET_Collision"] = 3, ---@type Enum
+    ["PET_PlayOneShotSoundOnSpawn"] = 4, ---@type Enum
 }

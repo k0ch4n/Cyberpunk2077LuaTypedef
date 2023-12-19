@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameGodModeSharedState: gameIGameSystemReplicatedState
----@field public datas gameGodModeSharedStateData[]
+---@field public ["datas"] gameGodModeSharedStateData[]
 gameGodModeSharedState = {}
 
 ---@param fields? table

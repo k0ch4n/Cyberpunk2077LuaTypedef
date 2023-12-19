@@ -3,6 +3,6 @@
 
 ---@enum CharacterScreenType
 CharacterScreenType = {
-    ["Attributes"] = 0,
-    ["Perks"] = 1
+    ["Attributes"] = 0, ---@type Enum
+    ["Perks"] = 1, ---@type Enum
 }

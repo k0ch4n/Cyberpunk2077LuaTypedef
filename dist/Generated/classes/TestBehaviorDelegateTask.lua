@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TestBehaviorDelegateTask: AIbehaviortaskScript
----@field public attrRef AIbehaviorDelegateAttrRef
----@field public taskRef AIbehaviorDelegateTaskRef
+---@field public ["attrRef"] AIbehaviorDelegateAttrRef
+---@field public ["taskRef"] AIbehaviorDelegateTaskRef
 TestBehaviorDelegateTask = {}
 
 ---@param fields? table

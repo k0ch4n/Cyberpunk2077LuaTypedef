@@ -3,7 +3,7 @@
 
 ---@enum gameStatPoolDataBonusType
 gameStatPoolDataBonusType = {
-    ["None"] = 0,
-    ["Persistent"] = 1,
-    ["NonPersistent"] = 2
+    ["None"] = 0, ---@type Enum
+    ["Persistent"] = 1, ---@type Enum
+    ["NonPersistent"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceTimeTableManager: IScriptable
----@field protected timeTable SDeviceTimetableEntry[]
+---@field protected ["timeTable"] SDeviceTimetableEntry[]
 DeviceTimeTableManager = {}
 
 ---@param fields? table

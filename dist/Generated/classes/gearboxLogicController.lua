@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gearboxLogicController: IVehicleModuleController
----@field private gearboxRImageWidget inkImageWidgetReference
----@field private gearboxNImageWidget inkImageWidgetReference
----@field private gearboxDImageWidget inkImageWidgetReference
----@field private gearboxBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
+---@field private ["gearboxRImageWidget"] inkImageWidgetReference
+---@field private ["gearboxNImageWidget"] inkImageWidgetReference
+---@field private ["gearboxDImageWidget"] inkImageWidgetReference
+---@field private ["gearboxBBConnectionId"] redCallbackObject
+---@field private ["vehBB"] gameIBlackboard
 gearboxLogicController = {}
 
 ---@param fields? table

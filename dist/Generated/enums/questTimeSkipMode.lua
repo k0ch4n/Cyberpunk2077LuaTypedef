@@ -3,6 +3,6 @@
 
 ---@enum questTimeSkipMode
 questTimeSkipMode = {
-    ["PreSkip"] = 0,
-    ["PostSkip"] = 1
+    ["PreSkip"] = 0, ---@type Enum
+    ["PostSkip"] = 1, ---@type Enum
 }

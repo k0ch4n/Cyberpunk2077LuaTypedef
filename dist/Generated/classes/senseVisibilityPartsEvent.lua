@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class senseVisibilityPartsEvent: redEvent
----@field public target gameObject
----@field public isPrimaryVisible Bool
----@field public isSecondaryVisible Bool
----@field public description CName
+---@field public ["target"] gameObject
+---@field public ["isPrimaryVisible"] Bool
+---@field public ["isSecondaryVisible"] Bool
+---@field public ["description"] CName
 senseVisibilityPartsEvent = {}
 
 ---@param fields? table

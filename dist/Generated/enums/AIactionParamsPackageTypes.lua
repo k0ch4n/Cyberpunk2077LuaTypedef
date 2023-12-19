@@ -3,8 +3,8 @@
 
 ---@enum AIactionParamsPackageTypes
 AIactionParamsPackageTypes = {
-    ["Default"] = 0,
-    ["Reaction"] = 1,
-    ["StatusEffect"] = 2,
-    ["Undefined"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["Reaction"] = 1, ---@type Enum
+    ["StatusEffect"] = 2, ---@type Enum
+    ["Undefined"] = 3, ---@type Enum
 }

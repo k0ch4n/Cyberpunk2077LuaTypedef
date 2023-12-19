@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class RipperdocInventoryController: inkWidgetLogicController
----@field private virtualGridContainer inkVirtualCompoundWidgetReference
----@field private scrollBarContainer inkWidgetReference
----@field private labelPrefix inkTextWidgetReference
----@field private labelSuffix inkTextWidgetReference
----@field private virtualGrid inkVirtualGridController
----@field private backpackItemsClassifier RipperdocInventoryTemplateClassifier
----@field private backpackItemsDataSource inkScriptableDataSourceWrapper
----@field private backpackItemsDataView inkScriptableDataViewWrapper
----@field private scrollBar inkScrollController
----@field private root inkWidget
----@field private opacityAnimation inkanimProxy
----@field private labelPulse PulseAnimation
----@field private cachedPlayerItems RipperdocWrappedUIInventoryItem[]
----@field private cachedVendorItems RipperdocWrappedUIInventoryItem[]
----@field private cachedArea gamedataEquipmentArea
----@field private openArea gamedataEquipmentArea
----@field private cachedAttribute gamedataStatType
----@field private openAttribute gamedataStatType
----@field private hasCache Bool
----@field private isAreaCache Bool
+---@field private ["virtualGridContainer"] inkVirtualCompoundWidgetReference
+---@field private ["scrollBarContainer"] inkWidgetReference
+---@field private ["labelPrefix"] inkTextWidgetReference
+---@field private ["labelSuffix"] inkTextWidgetReference
+---@field private ["virtualGrid"] inkVirtualGridController
+---@field private ["backpackItemsClassifier"] RipperdocInventoryTemplateClassifier
+---@field private ["backpackItemsDataSource"] inkScriptableDataSourceWrapper
+---@field private ["backpackItemsDataView"] inkScriptableDataViewWrapper
+---@field private ["scrollBar"] inkScrollController
+---@field private ["root"] inkWidget
+---@field private ["opacityAnimation"] inkanimProxy
+---@field private ["labelPulse"] PulseAnimation
+---@field private ["cachedPlayerItems"] RipperdocWrappedUIInventoryItem[]
+---@field private ["cachedVendorItems"] RipperdocWrappedUIInventoryItem[]
+---@field private ["cachedArea"] gamedataEquipmentArea
+---@field private ["openArea"] gamedataEquipmentArea
+---@field private ["cachedAttribute"] gamedataStatType
+---@field private ["openAttribute"] gamedataStatType
+---@field private ["hasCache"] Bool
+---@field private ["isAreaCache"] Bool
 RipperdocInventoryController = {}
 
 ---@param fields? table

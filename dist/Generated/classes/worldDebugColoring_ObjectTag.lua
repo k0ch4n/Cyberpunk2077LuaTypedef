@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_ObjectTag: worldEditorDebugColoringSettings
----@field public tag worldObjectTag
----@field public color Color
+---@field public ["tag"] worldObjectTag
+---@field public ["color"] Color
 worldDebugColoring_ObjectTag = {}
 
 ---@param fields? table

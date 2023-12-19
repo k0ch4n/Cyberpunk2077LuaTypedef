@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RefreshDistrictRequest: gameScriptableSystemRequest
----@field public preventionPreset gamedataDistrictPreventionData_Record
+---@field public ["preventionPreset"] gamedataDistrictPreventionData_Record
 RefreshDistrictRequest = {}
 
 ---@param fields? table

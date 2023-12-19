@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MadnessDebuff: redEvent
----@field public object gameObject
+---@field public ["object"] gameObject
 MadnessDebuff = {}
 
 ---@param fields? table

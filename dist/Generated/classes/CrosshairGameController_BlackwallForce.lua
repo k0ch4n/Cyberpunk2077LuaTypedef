@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_BlackwallForce: CrosshairGameController_Smart_Rifl
----@field public lastSmartParams gamesmartGunUIParameters
----@field public smartGunData gamesmartGunUIParameters
----@field public targetList gamesmartGunUITargetParameters[]
----@field public targetData gamesmartGunUITargetParameters
----@field public numOfTargets Int32
----@field public owner gameObject
+---@field public ["lastSmartParams"] gamesmartGunUIParameters
+---@field public ["smartGunData"] gamesmartGunUIParameters
+---@field public ["targetList"] gamesmartGunUITargetParameters[]
+---@field public ["targetData"] gamesmartGunUITargetParameters
+---@field public ["numOfTargets"] Int32
+---@field public ["owner"] gameObject
 CrosshairGameController_BlackwallForce = {}
 
 ---@param fields? table

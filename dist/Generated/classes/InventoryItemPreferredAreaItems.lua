@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryItemPreferredAreaItems: IScriptable
----@field public equipmentArea gamedataEquipmentArea
----@field public items UIInventoryItem[]
+---@field public ["equipmentArea"] gamedataEquipmentArea
+---@field public ["items"] UIInventoryItem[]
 InventoryItemPreferredAreaItems = {}
 
 ---@param fields? table

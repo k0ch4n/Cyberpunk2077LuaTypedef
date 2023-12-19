@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnregisterTimetableRequest: gameScriptableSystemRequest
----@field public requesterData PSOwnerData
+---@field public ["requesterData"] PSOwnerData
 UnregisterTimetableRequest = {}
 
 ---@param fields? table

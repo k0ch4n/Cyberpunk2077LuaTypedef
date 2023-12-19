@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TargetIndicatorEntry
----@field public targetID entEntityID
----@field public indicator inkWidget
+---@field public ["targetID"] entEntityID
+---@field public ["indicator"] inkWidget
 TargetIndicatorEntry = {}
 
 ---@param fields? table

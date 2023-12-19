@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsJiraProject
----@field public key String
----@field public name String
+---@field public ["key"] String
+---@field public ["name"] String
 toolsJiraProject = {}
 
 ---@param fields? table

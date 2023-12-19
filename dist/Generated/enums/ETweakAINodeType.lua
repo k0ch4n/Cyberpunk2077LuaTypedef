@@ -3,7 +3,7 @@
 
 ---@enum ETweakAINodeType
 ETweakAINodeType = {
-    ["Action"] = 0,
-    ["Selector"] = 1,
-    ["Sequence"] = 2
+    ["Action"] = 0, ---@type Enum
+    ["Selector"] = 1, ---@type Enum
+    ["Sequence"] = 2, ---@type Enum
 }

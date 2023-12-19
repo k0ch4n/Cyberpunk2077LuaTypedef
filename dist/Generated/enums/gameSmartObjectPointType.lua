@@ -3,7 +3,7 @@
 
 ---@enum gameSmartObjectPointType
 gameSmartObjectPointType = {
-    ["Entry"] = 0,
-    ["Exit"] = 1,
-    ["Action"] = 2
+    ["Entry"] = 0, ---@type Enum
+    ["Exit"] = 1, ---@type Enum
+    ["Action"] = 2, ---@type Enum
 }

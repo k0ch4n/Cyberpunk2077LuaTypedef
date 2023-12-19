@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiGenericNotificationViewData: IScriptable
----@field public title String
----@field public text String
----@field public soundEvent CName
----@field public soundAction CName
----@field public action GenericNotificationBaseAction
+---@field public ["title"] String
+---@field public ["text"] String
+---@field public ["soundEvent"] CName
+---@field public ["soundAction"] CName
+---@field public ["action"] GenericNotificationBaseAction
 gameuiGenericNotificationViewData = {}
 
 ---@param fields? table

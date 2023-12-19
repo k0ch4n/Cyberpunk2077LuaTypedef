@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDelegateExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public delegateAttribute AIbehaviorDelegateAttrRef
----@field public behaviorCallbackNames CName[]
+---@field public ["delegateAttribute"] AIbehaviorDelegateAttrRef
+---@field public ["behaviorCallbackNames"] CName[]
 AIbehaviorDelegateExpressionDefinition = {}
 
 ---@param fields? table

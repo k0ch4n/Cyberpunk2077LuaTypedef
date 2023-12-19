@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gsmGameDefinition: CResource
----@field public mainQuests gsmMainQuest[]
----@field public world worldWorld
----@field public streamingWorld CResource
----@field public worldName String
----@field public spawnPointTags redTagList
+---@field public ["mainQuests"] gsmMainQuest[]
+---@field public ["world"] worldWorld
+---@field public ["streamingWorld"] CResource
+---@field public ["worldName"] String
+---@field public ["spawnPointTags"] redTagList
 gsmGameDefinition = {}
 
 ---@param fields? table

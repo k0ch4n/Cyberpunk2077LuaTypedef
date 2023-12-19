@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class UpgradingScreenController: CraftingMainLogicController
----@field private itemNameUpgrade inkTextWidgetReference
----@field private arrowComparison inkWidgetReference
----@field private itemTooltipControllerLeft AGenericTooltipController
----@field private itemTooltipControllerRight AGenericTooltipController
----@field private tooltipDataLeft MinimalItemTooltipData
----@field private tooltipDataRight MinimalItemTooltipData
----@field private WeaponAreas gamedataItemType[]
----@field private EquipAreas gamedataEquipmentArea[]
----@field private DELAYED_TOOLTIP_RIGHT Float
+---@field private ["itemNameUpgrade"] inkTextWidgetReference
+---@field private ["arrowComparison"] inkWidgetReference
+---@field private ["itemTooltipControllerLeft"] AGenericTooltipController
+---@field private ["itemTooltipControllerRight"] AGenericTooltipController
+---@field private ["tooltipDataLeft"] MinimalItemTooltipData
+---@field private ["tooltipDataRight"] MinimalItemTooltipData
+---@field private ["WeaponAreas"] gamedataItemType[]
+---@field private ["EquipAreas"] gamedataEquipmentArea[]
+---@field private ["DELAYED_TOOLTIP_RIGHT"] Float
 UpgradingScreenController = {}
 
 ---@param fields? table

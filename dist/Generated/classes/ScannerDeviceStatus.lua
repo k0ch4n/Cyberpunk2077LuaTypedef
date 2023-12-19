@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerDeviceStatus: ScannerChunk
----@field private deviceStatus String
----@field private deviceStatusFriendlyName String
+---@field private ["deviceStatus"] String
+---@field private ["deviceStatusFriendlyName"] String
 ScannerDeviceStatus = {}
 
 ---@param fields? table

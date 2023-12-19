@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questForcePhysicsWakeUp_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
+---@field public ["vehicleRef"] gameEntityReference
 questForcePhysicsWakeUp_NodeType = {}
 
 ---@param fields? table

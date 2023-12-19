@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkSize
----@field public width Float
----@field public height Float
+---@field public ["width"] Float
+---@field public ["height"] Float
 inkSize = {}
 
 ---@param fields? table

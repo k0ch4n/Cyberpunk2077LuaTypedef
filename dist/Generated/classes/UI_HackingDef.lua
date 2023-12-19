@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_HackingDef: gamebbScriptDefinition
----@field public ammoIndicator gamebbScriptID_Bool
+---@field public ["ammoIndicator"] gamebbScriptID_Bool
 UI_HackingDef = {}
 
 ---@param fields? table

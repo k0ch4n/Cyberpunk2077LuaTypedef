@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PulseAnimation: IScriptable
----@field public root inkWidget
----@field public anim inkanimProxy
----@field public top Float
----@field public bot Float
----@field public time Float
----@field public delay Float
+---@field public ["root"] inkWidget
+---@field public ["anim"] inkanimProxy
+---@field public ["top"] Float
+---@field public ["bot"] Float
+---@field public ["time"] Float
+---@field public ["delay"] Float
 PulseAnimation = {}
 
 ---@param fields? table

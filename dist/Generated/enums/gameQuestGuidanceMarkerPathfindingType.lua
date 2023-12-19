@@ -3,7 +3,7 @@
 
 ---@enum gameQuestGuidanceMarkerPathfindingType
 gameQuestGuidanceMarkerPathfindingType = {
-    ["Auto"] = 0,
-    ["Navmesh"] = 1,
-    ["Traffic"] = 2
+    ["Auto"] = 0, ---@type Enum
+    ["Navmesh"] = 1, ---@type Enum
+    ["Traffic"] = 2, ---@type Enum
 }

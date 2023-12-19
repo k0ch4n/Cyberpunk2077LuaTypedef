@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CombatGadgetChargedThrowEvents: CombatGadgetTransitions
----@field public grenadeThrown Bool
----@field public localAimForward Vector4
----@field public localAimPosition Vector4
+---@field public ["grenadeThrown"] Bool
+---@field public ["localAimForward"] Vector4
+---@field public ["localAimPosition"] Vector4
 CombatGadgetChargedThrowEvents = {}
 
 ---@param fields? table

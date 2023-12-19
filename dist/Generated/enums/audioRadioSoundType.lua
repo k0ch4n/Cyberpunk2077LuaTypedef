@@ -3,6 +3,6 @@
 
 ---@enum audioRadioSoundType
 audioRadioSoundType = {
-    ["Song"] = 0,
-    ["AnnouncementScene"] = 1
+    ["Song"] = 0, ---@type Enum
+    ["AnnouncementScene"] = 1, ---@type Enum
 }

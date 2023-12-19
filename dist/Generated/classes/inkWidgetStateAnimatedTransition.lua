@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkWidgetStateAnimatedTransition
----@field public startState CName
----@field public endState CName
----@field public animationName CName
----@field public playbackOptions inkanimPlaybackOptions
+---@field public ["startState"] CName
+---@field public ["endState"] CName
+---@field public ["animationName"] CName
+---@field public ["playbackOptions"] inkanimPlaybackOptions
 inkWidgetStateAnimatedTransition = {}
 
 ---@param fields? table

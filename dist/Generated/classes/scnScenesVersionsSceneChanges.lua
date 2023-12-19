@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnScenesVersionsSceneChanges
----@field public scene scnSceneResource
----@field public sceneChanges scnScenesVersionsChangedRecord[]
+---@field public ["scene"] scnSceneResource
+---@field public ["sceneChanges"] scnScenesVersionsChangedRecord[]
 scnScenesVersionsSceneChanges = {}
 
 ---@param fields? table

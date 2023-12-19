@@ -38,8 +38,8 @@ function ElectricBox:DeterminGameplayRole() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function ElectricBox:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

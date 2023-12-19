@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleTriggerAttackEffect: gameEffector
----@field public owner gameObject
----@field public attackTDBID TweakDBID
----@field public shouldDelay Bool
+---@field public ["owner"] gameObject
+---@field public ["attackTDBID"] TweakDBID
+---@field public ["shouldDelay"] Bool
 SimpleTriggerAttackEffect = {}
 
 ---@param fields? table

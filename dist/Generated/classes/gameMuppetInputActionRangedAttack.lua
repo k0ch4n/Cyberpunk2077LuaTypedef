@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionRangedAttack: gameIMuppetInputAction
----@field public actionType gameMuppetInputActionType
+---@field public ["actionType"] gameMuppetInputActionType
 gameMuppetInputActionRangedAttack = {}
 
 ---@param fields? table

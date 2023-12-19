@@ -3,8 +3,8 @@
 
 ---@enum panzerBootupUI
 panzerBootupUI = {
-    ["UnbootedIdle"] = 0,
-    ["BootingAttempt"] = 1,
-    ["BootingSuccess"] = 2,
-    ["Loop"] = 3
+    ["UnbootedIdle"] = 0, ---@type Enum
+    ["BootingAttempt"] = 1, ---@type Enum
+    ["BootingSuccess"] = 2, ---@type Enum
+    ["Loop"] = 3, ---@type Enum
 }

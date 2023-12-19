@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIGuardAreaConnectedCommunity
----@field public communityArea gameEntityReference
----@field public isPrimary Bool
+---@field public ["communityArea"] gameEntityReference
+---@field public ["isPrimary"] Bool
 AIGuardAreaConnectedCommunity = {}
 
 ---@param fields? table

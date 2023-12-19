@@ -3,6 +3,6 @@
 
 ---@enum inkLayerDrawingPolicy
 inkLayerDrawingPolicy = {
-    ["InOrder"] = 0,
-    ["InParallel"] = 1
+    ["InOrder"] = 0, ---@type Enum
+    ["InParallel"] = 1, ---@type Enum
 }

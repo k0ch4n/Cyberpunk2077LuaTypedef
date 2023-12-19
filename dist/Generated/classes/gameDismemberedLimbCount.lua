@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDismemberedLimbCount
----@field public fleshDismemberments Uint32
----@field public cyberDismemberments Uint32
+---@field public ["fleshDismemberments"] Uint32
+---@field public ["cyberDismemberments"] Uint32
 gameDismemberedLimbCount = {}
 
 ---@param fields? table

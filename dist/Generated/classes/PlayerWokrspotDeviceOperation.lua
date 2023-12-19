@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerWokrspotDeviceOperation: DeviceOperationBase
----@field public playerWorkspot SWorkspotData
+---@field public ["playerWorkspot"] SWorkspotData
 PlayerWokrspotDeviceOperation = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function PlayerWokrspotDeviceOperation.new(fields) return end
 ---@param target Device
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
+---@param componentName? CName|string
 ---@return nil
 function PlayerWokrspotDeviceOperation:EnterWorkspot(target, activator, freeCamera, componentName) return end
 

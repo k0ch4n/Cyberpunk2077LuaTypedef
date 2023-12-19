@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpperBodyNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCUpperBodyState
+---@field public ["valueToListen"] gamedataNPCUpperBodyState
 UpperBodyNPCStatePrereq = {}
 
 ---@param fields? table

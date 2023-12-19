@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PauseMenuListItemData: ListItemData
----@field public eventName CName
----@field public action PauseMenuAction
+---@field public ["eventName"] CName
+---@field public ["action"] PauseMenuAction
 PauseMenuListItemData = {}
 
 ---@param fields? table

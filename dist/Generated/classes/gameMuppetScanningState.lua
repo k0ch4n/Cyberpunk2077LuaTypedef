@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetScanningState
----@field public isScanning Bool
+---@field public ["isScanning"] Bool
 gameMuppetScanningState = {}
 
 ---@param fields? table

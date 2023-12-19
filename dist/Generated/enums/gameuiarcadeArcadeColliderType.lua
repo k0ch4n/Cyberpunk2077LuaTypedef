@@ -3,9 +3,9 @@
 
 ---@enum gameuiarcadeArcadeColliderType
 gameuiarcadeArcadeColliderType = {
-    ["Body"] = 0,
-    ["Up"] = 1,
-    ["Right"] = 2,
-    ["Bottom"] = 3,
-    ["Left"] = 4
+    ["Body"] = 0, ---@type Enum
+    ["Up"] = 1, ---@type Enum
+    ["Right"] = 2, ---@type Enum
+    ["Bottom"] = 3, ---@type Enum
+    ["Left"] = 4, ---@type Enum
 }

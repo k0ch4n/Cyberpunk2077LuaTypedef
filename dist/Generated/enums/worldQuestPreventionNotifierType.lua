@@ -3,6 +3,6 @@
 
 ---@enum worldQuestPreventionNotifierType
 worldQuestPreventionNotifierType = {
-    ["Deescalation"] = 0,
-    ["Clear"] = 1
+    ["Deescalation"] = 0, ---@type Enum
+    ["Clear"] = 1, ---@type Enum
 }

@@ -3,6 +3,6 @@
 
 ---@enum gameinteractionsvisInteractionType
 gameinteractionsvisInteractionType = {
-    ["LookAt"] = 0,
-    ["Proximity"] = 1
+    ["LookAt"] = 0, ---@type Enum
+    ["Proximity"] = 1, ---@type Enum
 }

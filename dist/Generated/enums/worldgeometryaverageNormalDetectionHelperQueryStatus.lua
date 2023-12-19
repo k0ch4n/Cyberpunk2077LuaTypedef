@@ -3,6 +3,6 @@
 
 ---@enum worldgeometryaverageNormalDetectionHelperQueryStatus
 worldgeometryaverageNormalDetectionHelperQueryStatus = {
-    ["Finished"] = 0,
-    ["NoGeometry"] = 1
+    ["Finished"] = 0, ---@type Enum
+    ["NoGeometry"] = 1, ---@type Enum
 }

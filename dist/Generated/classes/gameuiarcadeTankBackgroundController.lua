@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankBackgroundController: gameuiarcadeArcadeBackgroundController
----@field public decorationSpawner inkWidgetReference
+---@field public ["decorationSpawner"] inkWidgetReference
 gameuiarcadeTankBackgroundController = {}
 
 ---@param fields? table

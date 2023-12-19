@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterMultilayerSetup: CMaterialParameter
----@field public setup Multilayer_Setup
+---@field public ["setup"] Multilayer_Setup
 CMaterialParameterMultilayerSetup = {}
 
 ---@param fields? table

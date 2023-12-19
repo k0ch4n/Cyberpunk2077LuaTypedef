@@ -3,7 +3,7 @@
 
 ---@enum ERentStatus
 ERentStatus = {
-    ["PAID"] = 0,
-    ["OVERDUE"] = 1,
-    ["EVICTED"] = 2
+    ["PAID"] = 0, ---@type Enum
+    ["OVERDUE"] = 1, ---@type Enum
+    ["EVICTED"] = 2, ---@type Enum
 }

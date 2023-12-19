@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnBraindancePlaying_ConditionType: scnIBraindanceConditionType
----@field public speed scnBraindanceSpeed
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
+---@field public ["speed"] scnBraindanceSpeed
+---@field public ["sceneFile"] scnSceneResource
+---@field public ["SceneVersion"] scnSceneVersionCheck
 scnBraindancePlaying_ConditionType = {}
 
 ---@param fields? table

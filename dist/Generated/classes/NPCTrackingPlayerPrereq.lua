@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCTrackingPlayerPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field public ["invert"] Bool
 NPCTrackingPlayerPrereq = {}
 
 ---@param fields? table

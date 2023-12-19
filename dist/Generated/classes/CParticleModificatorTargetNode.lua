@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorTargetNode: IParticleModificator
----@field public forceScale IEvaluatorFloat
----@field public killRadius IEvaluatorFloat
----@field public maxForce Float
+---@field public ["forceScale"] IEvaluatorFloat
+---@field public ["killRadius"] IEvaluatorFloat
+---@field public ["maxForce"] Float
 CParticleModificatorTargetNode = {}
 
 ---@param fields? table

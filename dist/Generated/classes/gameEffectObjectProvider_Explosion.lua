@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_Explosion: gameEffectObjectProvider
----@field public puppets Bool
----@field public gameObjects Bool
----@field public destructibleAndDynamic Bool
+---@field public ["puppets"] Bool
+---@field public ["gameObjects"] Bool
+---@field public ["destructibleAndDynamic"] Bool
 gameEffectObjectProvider_Explosion = {}
 
 ---@param fields? table

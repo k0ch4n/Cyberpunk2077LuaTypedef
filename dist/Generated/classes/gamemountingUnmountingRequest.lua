@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamemountingUnmountingRequest: IScriptable
----@field public lowLevelMountingInfo gamemountingMountingInfo
----@field public mountData gameMountEventData
----@field public delay Float
+---@field public ["lowLevelMountingInfo"] gamemountingMountingInfo
+---@field public ["mountData"] gameMountEventData
+---@field public ["delay"] Float
 gamemountingUnmountingRequest = {}
 
 ---@param fields? table

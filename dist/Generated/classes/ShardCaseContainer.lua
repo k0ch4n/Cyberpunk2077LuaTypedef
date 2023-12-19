@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShardCaseContainer: gameContainerObjectSingleItem
----@field public wasOpened Bool
----@field public shardMesh entMeshComponent
+---@field public ["wasOpened"] Bool
+---@field public ["shardMesh"] entMeshComponent
 ShardCaseContainer = {}
 
 ---@param fields? table

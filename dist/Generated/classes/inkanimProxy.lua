@@ -52,7 +52,7 @@ function inkanimProxy:Pause() return end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkanimProxy:RegisterToCallback(eventType, object, functionName) return end
 
@@ -74,6 +74,6 @@ function inkanimProxy:UnregisterFromAllCallbacks(eventType) return end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function inkanimProxy:UnregisterFromCallback(eventType, object, functionName) return end

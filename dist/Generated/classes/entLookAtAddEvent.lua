@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entLookAtAddEvent: entAnimTargetAddEvent
----@field public outLookAtRef animLookAtRef
----@field public request animLookAtRequest
+---@field public ["outLookAtRef"] animLookAtRef
+---@field public ["request"] animLookAtRequest
 entLookAtAddEvent = {}
 
 ---@param fields? table

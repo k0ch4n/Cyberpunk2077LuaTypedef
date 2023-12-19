@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AssignRestrictMovementAreaHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
----@field public resultOnNoChange AIbehaviorCompletionStatus
+---@field public ["inCommand"] AIArgumentMapping
+---@field public ["resultOnNoChange"] AIbehaviorCompletionStatus
 AssignRestrictMovementAreaHandler = {}
 
 ---@param fields? table

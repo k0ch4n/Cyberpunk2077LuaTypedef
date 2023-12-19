@@ -3,9 +3,9 @@
 
 ---@enum NewPerksCyberwareDetailsMenu
 NewPerksCyberwareDetailsMenu = {
-    ["MantisBlades"] = 0,
-    ["GorillaArms"] = 1,
-    ["ProjectileLauncher"] = 2,
-    ["Monowire"] = 3,
-    ["COUNT"] = 4
+    ["MantisBlades"] = 0, ---@type Enum
+    ["GorillaArms"] = 1, ---@type Enum
+    ["ProjectileLauncher"] = 2, ---@type Enum
+    ["Monowire"] = 3, ---@type Enum
+    ["COUNT"] = 4, ---@type Enum
 }

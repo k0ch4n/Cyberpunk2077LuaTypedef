@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CyberwareDisplayWrapper: IScriptable
----@field public displayData InventoryItemDisplayData
+---@field public ["displayData"] InventoryItemDisplayData
 CyberwareDisplayWrapper = {}
 
 ---@param fields? table

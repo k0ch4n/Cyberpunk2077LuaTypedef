@@ -28,7 +28,7 @@ function entIPositionProvider.CreateEntityPositionProvider(entity, localOffset) 
 function entIPositionProvider.CreatePlacedComponentPositionProvider(entity, localOffset) return end
 
 ---@param entity entEntity
----@param slotName CName
+---@param slotName CName|string
 ---@param localOffset? Vector3
 ---@return entIPositionProvider
 function entIPositionProvider.CreateSlotPositionProvider(entity, slotName, localOffset) return end

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SecurityTurretControllerPS: SensorDeviceControllerPS
----@field private pendingSecuritySystemDisableRequest Bool
----@field private turretSkillChecks EngDemoContainer
----@field protected ignoreSkillcheckGeneration Bool
----@field protected laserGameEffectRef gameEffectRef
----@field private weaponItemRecordString String
----@field private vfxNameOnShoot CName
+---@field private ["pendingSecuritySystemDisableRequest"] Bool
+---@field private ["turretSkillChecks"] EngDemoContainer
+---@field protected ["ignoreSkillcheckGeneration"] Bool
+---@field protected ["laserGameEffectRef"] gameEffectRef
+---@field private ["weaponItemRecordString"] String
+---@field private ["vfxNameOnShoot"] CName
 SecurityTurretControllerPS = {}
 
 ---@param fields? table
@@ -97,7 +97,7 @@ function SecurityTurretControllerPS:GetLaserGameEffectRef() return end
 ---@return nil
 function SecurityTurretControllerPS:GetMinigameActions(actions, context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function SecurityTurretControllerPS:GetQuestActionByName(actionName) return end
 

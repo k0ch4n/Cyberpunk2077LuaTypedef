@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SprintEvents: LocomotionGroundEvents
----@field public previousStimTimeStamp Float
----@field public reloadModifier gameStatModifierData_Deprecated
----@field public isInSecondSprint Bool
----@field public sprintModifier gameStatModifierData_Deprecated
----@field public sprintAnimBlocked Bool
+---@field public ["previousStimTimeStamp"] Float
+---@field public ["reloadModifier"] gameStatModifierData_Deprecated
+---@field public ["isInSecondSprint"] Bool
+---@field public ["sprintModifier"] gameStatModifierData_Deprecated
+---@field public ["sprintAnimBlocked"] Bool
 SprintEvents = {}
 
 ---@param fields? table

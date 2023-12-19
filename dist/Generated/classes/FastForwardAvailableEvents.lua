@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FastForwardAvailableEvents: ScenesFastForwardTransition
----@field public forceCloseFX Bool
----@field public delay Float
+---@field public ["forceCloseFX"] Bool
+---@field public ["delay"] Float
 FastForwardAvailableEvents = {}
 
 ---@param fields? table

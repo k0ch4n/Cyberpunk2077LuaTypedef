@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayRecordedSessionMenuGameController: PreGameSubMenuGameController
----@field private recordsSelector inkSelectorController
----@field private records String[]
+---@field private ["recordsSelector"] inkSelectorController
+---@field private ["records"] String[]
 PlayRecordedSessionMenuGameController = {}
 
 ---@param fields? table

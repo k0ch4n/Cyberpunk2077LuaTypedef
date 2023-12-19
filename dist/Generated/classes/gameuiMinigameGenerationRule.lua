@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameuiMinigameGenerationRule: IScriptable
----@field public minigameController gameuiHackingMinigameGameController
----@field public blackboardSystem gameBlackboardSystem
----@field public entity entEntity
----@field public player PlayerPuppet
----@field public minigameRecord gamedataMinigame_Def_Record
----@field public bufferSize Int32
----@field public isItemBreach Bool
+---@field public ["minigameController"] gameuiHackingMinigameGameController
+---@field public ["blackboardSystem"] gameBlackboardSystem
+---@field public ["entity"] entEntity
+---@field public ["player"] PlayerPuppet
+---@field public ["minigameRecord"] gamedataMinigame_Def_Record
+---@field public ["bufferSize"] Int32
+---@field public ["isItemBreach"] Bool
 gameuiMinigameGenerationRule = {}
 
 ---@param fields? table

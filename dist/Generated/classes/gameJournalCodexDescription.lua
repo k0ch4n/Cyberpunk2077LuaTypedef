@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalCodexDescription: gameJournalEntry
----@field public subTitle LocalizationString
----@field public textContent LocalizationString
+---@field public ["subTitle"] LocalizationString
+---@field public ["textContent"] LocalizationString
 gameJournalCodexDescription = {}
 
 ---@param fields? table

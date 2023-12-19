@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class VehicleTransition: DefaultTransition
----@field public stateMachineInitData VehicleTransitionInitData
----@field protected exitSlot CName
+---@field public ["stateMachineInitData"] VehicleTransitionInitData
+---@field protected ["exitSlot"] CName
 VehicleTransition = {}
 
 ---@return Bool
 function VehicleTransition.CanEnterDriverCombat() return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param desiredTag CName
+---@param desiredTag CName|string
 ---@return Bool
 function VehicleTransition.CheckVehicleDesiredTag(scriptInterface, desiredTag) return end
 
@@ -44,7 +44,7 @@ function VehicleTransition:DriverSwitchSeatsCondition(stateContext, scriptInterf
 function VehicleTransition:ExitWorkspot(stateContext, scriptInterface, isInstant, upsideDown) return end
 
 ---@protected
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool, CName nextSlotName
 function VehicleTransition:GetAdjacentSeat(slotName) return end
 
@@ -111,7 +111,7 @@ function VehicleTransition:GetVehiclePS(scriptInterface) return end
 ---@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleTransition:IsAdjacentSeatAvailable(stateContext, scriptInterface, slotName) return end
 
@@ -132,7 +132,7 @@ function VehicleTransition:IsExitForced(stateContext) return end
 function VehicleTransition:IsInScene(stateContext, scriptInterface) return end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param slotName CName
+---@param slotName CName|string
 ---@return Bool
 function VehicleTransition:IsInVehicleWorkspot(scriptInterface, slotName) return end
 
@@ -409,7 +409,7 @@ function VehicleTransition:StartLeavingVehicle(stateContext, scriptInterface) re
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param slotName CName
+---@param slotName CName|string
 ---@param shouldopen Bool
 ---@return nil
 function VehicleTransition:ToggleWindowForOccupiedSeat(scriptInterface, slotName, shouldopen) return end

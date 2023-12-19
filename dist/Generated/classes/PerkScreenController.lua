@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class PerkScreenController: inkWidgetLogicController
----@field protected hubSelector inkWidgetReference
----@field protected connectionLinesContainer inkCompoundWidgetReference
----@field protected boughtConnectionLinesContainer inkCompoundWidgetReference
----@field protected maxedConnectionLinesContainer inkCompoundWidgetReference
----@field protected boughtMaskContainer inkCanvasWidgetReference
----@field protected maxedMaskContainer inkCanvasWidgetReference
----@field protected attributeNameText inkTextWidgetReference
----@field protected attributeLevelText inkTextWidgetReference
----@field protected levelControllerRef inkWidgetReference
----@field protected rewardsControllerRef inkWidgetReference
----@field protected TooltipsManagerRef inkWidgetReference
----@field protected proficiencyRootRef inkWidgetReference
----@field protected proficiencyDescriptionText inkTextWidgetReference
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected displayData AttributeDisplayData
----@field private proficiencyRoot TabRadioGroup
----@field private widgetMap PerkDisplayContainerController[]
----@field private traitController PerkDisplayContainerController
----@field private currentIndex Int32
----@field private connectionLines Int32[]
----@field private levelController StatsProgressController
----@field private rewardsController StatsStreetCredReward
----@field private tooltipsManager gameuiTooltipsManager
+---@field protected ["hubSelector"] inkWidgetReference
+---@field protected ["connectionLinesContainer"] inkCompoundWidgetReference
+---@field protected ["boughtConnectionLinesContainer"] inkCompoundWidgetReference
+---@field protected ["maxedConnectionLinesContainer"] inkCompoundWidgetReference
+---@field protected ["boughtMaskContainer"] inkCanvasWidgetReference
+---@field protected ["maxedMaskContainer"] inkCanvasWidgetReference
+---@field protected ["attributeNameText"] inkTextWidgetReference
+---@field protected ["attributeLevelText"] inkTextWidgetReference
+---@field protected ["levelControllerRef"] inkWidgetReference
+---@field protected ["rewardsControllerRef"] inkWidgetReference
+---@field protected ["TooltipsManagerRef"] inkWidgetReference
+---@field protected ["proficiencyRootRef"] inkWidgetReference
+---@field protected ["proficiencyDescriptionText"] inkTextWidgetReference
+---@field protected ["dataManager"] PlayerDevelopmentDataManager
+---@field protected ["displayData"] AttributeDisplayData
+---@field private ["proficiencyRoot"] TabRadioGroup
+---@field private ["widgetMap"] PerkDisplayContainerController[]
+---@field private ["traitController"] PerkDisplayContainerController
+---@field private ["currentIndex"] Int32
+---@field private ["connectionLines"] Int32[]
+---@field private ["levelController"] StatsProgressController
+---@field private ["rewardsController"] StatsStreetCredReward
+---@field private ["tooltipsManager"] gameuiTooltipsManager
 PerkScreenController = {}
 
 ---@param fields? table

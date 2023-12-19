@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameReplAnimTransformOperationRequest: gameReplAnimTransformRequestBase
----@field public animName CName
----@field public operationType Uint8
+---@field public ["animName"] CName
+---@field public ["operationType"] Uint8
 gameReplAnimTransformOperationRequest = {}
 
 ---@param fields? table

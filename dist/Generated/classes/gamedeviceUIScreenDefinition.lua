@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamedeviceUIScreenDefinition
----@field public screenType TweakDBID
+---@field public ["screenType"] TweakDBID
 gamedeviceUIScreenDefinition = {}
 
 ---@param fields? table

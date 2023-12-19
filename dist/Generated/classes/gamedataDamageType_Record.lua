@@ -48,6 +48,6 @@ function gamedataDamageType_Record:ResistancesContains(item) return end
 ---@return CName[]
 function gamedataDamageType_Record:Tags() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataDamageType_Record:TagsContains(item) return end

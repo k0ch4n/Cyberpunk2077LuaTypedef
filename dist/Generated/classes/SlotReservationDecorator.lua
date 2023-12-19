@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SlotReservationDecorator: AIVehicleTaskAbstract
----@field protected mountData AIArgumentMapping
----@field private mountEventData gameMountEventData
+---@field protected ["mountData"] AIArgumentMapping
+---@field private ["mountEventData"] gameMountEventData
 SlotReservationDecorator = {}
 
 ---@param fields? table

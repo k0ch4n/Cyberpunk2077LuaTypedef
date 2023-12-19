@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questMappinVariantChangedEvent: redEvent
----@field public entry gameJournalEntry
----@field public phase gamedataMappinPhase
----@field public variant gamedataMappinVariant
+---@field public ["entry"] gameJournalEntry
+---@field public ["phase"] gamedataMappinPhase
+---@field public ["variant"] gamedataMappinVariant
 questMappinVariantChangedEvent = {}
 
 ---@param fields? table

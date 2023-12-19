@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ListItemStateMapper: inkWidgetLogicController
----@field private toggled Bool
----@field private selected Bool
----@field private new Bool
----@field private widget inkWidget
+---@field private ["toggled"] Bool
+---@field private ["selected"] Bool
+---@field private ["new"] Bool
+---@field private ["widget"] inkWidget
 ListItemStateMapper = {}
 
 ---@param fields? table

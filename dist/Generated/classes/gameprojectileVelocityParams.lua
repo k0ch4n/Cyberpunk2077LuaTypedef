@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameprojectileVelocityParams
----@field public xFactor Float
----@field public yFactor Float
----@field public zFactor Float
+---@field public ["xFactor"] Float
+---@field public ["yFactor"] Float
+---@field public ["zFactor"] Float
 gameprojectileVelocityParams = {}
 
 ---@param fields? table

@@ -3,11 +3,11 @@
 
 ---@enum gamedataAIDirectorEntryStartType
 gamedataAIDirectorEntryStartType = {
-    ["Default"] = 0,
-    ["DespawnAllEnemies"] = 1,
-    ["DespawnExcessedEnemies"] = 2,
-    ["WaitUntilNoEnemies"] = 3,
-    ["WaitUntilSameOrLessAmountOfEnemies"] = 4,
-    ["Count"] = 5,
-    ["Invalid"] = 6
+    ["Default"] = 0, ---@type Enum
+    ["DespawnAllEnemies"] = 1, ---@type Enum
+    ["DespawnExcessedEnemies"] = 2, ---@type Enum
+    ["WaitUntilNoEnemies"] = 3, ---@type Enum
+    ["WaitUntilSameOrLessAmountOfEnemies"] = 4, ---@type Enum
+    ["Count"] = 5, ---@type Enum
+    ["Invalid"] = 6, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TerminalSetState: redEvent
----@field public state gameinteractionsReactionState
+---@field public ["state"] gameinteractionsReactionState
 TerminalSetState = {}
 
 ---@param fields? table

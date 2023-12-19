@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Transform
----@field public position Vector4
----@field public orientation Quaternion
+---@field public ["position"] Vector4
+---@field public ["orientation"] Quaternion
 Transform = {}
 
 ---@param fields? table

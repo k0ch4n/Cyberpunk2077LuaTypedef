@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnPlayDefaultMountedSlotWorkspotEvent: scnSceneEvent
----@field public performer scnPerformerId
----@field public parentRef gameEntityReference
----@field public slotName CName
----@field public puppetVehicleState scnPuppetVehicleState
+---@field public ["performer"] scnPerformerId
+---@field public ["parentRef"] gameEntityReference
+---@field public ["slotName"] CName
+---@field public ["puppetVehicleState"] scnPuppetVehicleState
 scnPlayDefaultMountedSlotWorkspotEvent = {}
 
 ---@param fields? table

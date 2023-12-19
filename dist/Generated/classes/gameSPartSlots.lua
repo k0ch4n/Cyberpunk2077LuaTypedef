@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameSPartSlots
----@field public status gameESlotState
----@field public installedPart gameItemID
----@field public slotID TweakDBID
----@field public innerItemData gameInnerItemData
+---@field public ["status"] gameESlotState
+---@field public ["installedPart"] gameItemID
+---@field public ["slotID"] TweakDBID
+---@field public ["innerItemData"] gameInnerItemData
 gameSPartSlots = {}
 
 ---@param fields? table

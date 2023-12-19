@@ -3,7 +3,7 @@
 
 ---@enum RenderSceneLayer
 RenderSceneLayer = {
-    ["Default"] = 0,
-    ["Cyberspace"] = 1,
-    ["WorldMap"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Cyberspace"] = 1, ---@type Enum
+    ["WorldMap"] = 2, ---@type Enum
 }

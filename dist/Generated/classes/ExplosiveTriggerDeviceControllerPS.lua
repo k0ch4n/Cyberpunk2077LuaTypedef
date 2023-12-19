@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExplosiveTriggerDeviceControllerPS: ExplosiveDeviceControllerPS
----@field private playerSafePass Bool
----@field private triggerExploded Bool
+---@field private ["playerSafePass"] Bool
+---@field private ["triggerExploded"] Bool
 ExplosiveTriggerDeviceControllerPS = {}
 
 ---@param fields? table
@@ -59,7 +59,7 @@ function ExplosiveTriggerDeviceControllerPS:GameAttached() return end
 ---@return Bool, gamedeviceAction[] actions
 function ExplosiveTriggerDeviceControllerPS:GetActions(context) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ExplosiveTriggerDeviceControllerPS:GetQuestActionByName(actionName) return end
 

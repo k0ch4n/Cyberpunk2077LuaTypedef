@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CTextureArray: ITexture
----@field public setup STextureGroupSetup
----@field public renderResourceBlob IRenderResourceBlob
----@field public renderTextureResource rendRenderTextureResource
+---@field public ["setup"] STextureGroupSetup
+---@field public ["renderResourceBlob"] IRenderResourceBlob
+---@field public ["renderTextureResource"] rendRenderTextureResource
 CTextureArray = {}
 
 ---@param fields? table

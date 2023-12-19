@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class TargetAttitudeAnimationController: BasicAnimationController
----@field private hostileShowAnimation CName
----@field private hostileIdleAnimation CName
----@field private hostileHideAnimation CName
----@field private attitude EAIAttitude
+---@field private ["hostileShowAnimation"] CName
+---@field private ["hostileIdleAnimation"] CName
+---@field private ["hostileHideAnimation"] CName
+---@field private ["attitude"] EAIAttitude
 TargetAttitudeAnimationController = {}
 
 ---@param fields? table

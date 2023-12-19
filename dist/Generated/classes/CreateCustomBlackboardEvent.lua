@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CreateCustomBlackboardEvent: redEvent
----@field public blackboardDef CustomBlackboardDef
----@field public blackboard gameIBlackboard
+---@field public ["blackboardDef"] CustomBlackboardDef
+---@field public ["blackboard"] gameIBlackboard
 CreateCustomBlackboardEvent = {}
 
 ---@param fields? table

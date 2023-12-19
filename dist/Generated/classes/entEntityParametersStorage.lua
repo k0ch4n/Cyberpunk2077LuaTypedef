@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entEntityParametersStorage: ISerializable
----@field public parameters entEntityParameter[]
+---@field public ["parameters"] entEntityParameter[]
 entEntityParametersStorage = {}
 
 ---@param fields? table

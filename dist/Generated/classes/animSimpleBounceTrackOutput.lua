@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animSimpleBounceTrackOutput
----@field public targetTrack animNamedTrackIndex
----@field public multiplier Float
+---@field public ["targetTrack"] animNamedTrackIndex
+---@field public ["multiplier"] Float
 animSimpleBounceTrackOutput = {}
 
 ---@param fields? table

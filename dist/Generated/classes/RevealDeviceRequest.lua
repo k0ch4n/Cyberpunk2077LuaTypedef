@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RevealDeviceRequest: redEvent
----@field public shouldReveal Bool
----@field public sourceID entEntityID
----@field public linkData SNetworkLinkData
+---@field public ["shouldReveal"] Bool
+---@field public ["sourceID"] entEntityID
+---@field public ["linkData"] SNetworkLinkData
 RevealDeviceRequest = {}
 
 ---@param fields? table

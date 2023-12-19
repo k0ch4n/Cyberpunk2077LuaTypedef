@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CurrentHighLevelNPCStatePrereq: gameIScriptablePrereq
----@field public valueToCheck gamedataNPCHighLevelState
----@field public invert Bool
+---@field public ["valueToCheck"] gamedataNPCHighLevelState
+---@field public ["invert"] Bool
 CurrentHighLevelNPCStatePrereq = {}
 
 ---@param fields? table

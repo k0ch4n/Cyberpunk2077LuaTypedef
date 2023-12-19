@@ -2,64 +2,64 @@
 ---@diagnostic disable
 
 ---@class gameInventoryItemData
----@field public ID gameItemID
----@field public SlotID TweakDBID
----@field public Name String
----@field public Quality CName
----@field public QualityF Float
----@field public Quantity Int32
----@field public Ammo Int32
----@field public Shape gameInventoryItemShape
----@field public ItemShape gameInventoryItemShape
----@field public IconPath String
----@field public CategoryName String
----@field public ItemType gamedataItemType
----@field public LocalizedItemType String
----@field public Description String
----@field public AdditionalDescription String
----@field public GameplayDescription String
----@field public Price Float
----@field public BuyPrice Float
----@field public UnlockProgress Float
----@field public RequiredLevel Int32
----@field public ItemLevel Int32
----@field public DamageType gamedataDamageType
----@field public EquipmentArea gamedataEquipmentArea
----@field public ComparedQuality gamedataQuality
----@field public Empty Bool
----@field public IsPart Bool
----@field public IsCraftingMaterial Bool
----@field public IsEquipped Bool
----@field public IsNew Bool
----@field public IsAvailable Bool
----@field public IsVendorItem Bool
----@field public IsBroken Bool
----@field public SlotIndex Int32
----@field public PositionInBackpack Uint32
----@field public IconGender gameItemIconGender
----@field public GameItemData gameItemData
----@field public HasPlayerSmartGunLink Bool
----@field public PlayerLevel Int32
----@field public PlayerStrength Int32
----@field public PlayerReflexes Int32
----@field public PlayerStreetCred Int32
----@field public IsRequirementMet Bool
----@field public IsEquippable Bool
----@field public IsVisualsEquipped Bool
----@field public Requirement gameSItemStackRequirementData
----@field public EquipRequirement gameSItemStackRequirementData
----@field public EquipRequirements gameSItemStackRequirementData[]
----@field public LootItemType gameLootItemType
----@field public Attachments gameInventoryItemAttachments[]
----@field public Abilities gameInventoryItemAbility[]
----@field public PlacementSlots TweakDBID[]
----@field public PrimaryStats gameStatViewData[]
----@field public SecondaryStats gameStatViewData[]
----@field public SortData gameInventoryItemSortData
----@field public IsPerkRequired Bool
----@field public PerkRequiredName String
----@field public IsCrafted Bool
----@field public IsIconic Bool
+---@field public ["ID"] gameItemID
+---@field public ["SlotID"] TweakDBID
+---@field public ["Name"] String
+---@field public ["Quality"] CName
+---@field public ["QualityF"] Float
+---@field public ["Quantity"] Int32
+---@field public ["Ammo"] Int32
+---@field public ["Shape"] gameInventoryItemShape
+---@field public ["ItemShape"] gameInventoryItemShape
+---@field public ["IconPath"] String
+---@field public ["CategoryName"] String
+---@field public ["ItemType"] gamedataItemType
+---@field public ["LocalizedItemType"] String
+---@field public ["Description"] String
+---@field public ["AdditionalDescription"] String
+---@field public ["GameplayDescription"] String
+---@field public ["Price"] Float
+---@field public ["BuyPrice"] Float
+---@field public ["UnlockProgress"] Float
+---@field public ["RequiredLevel"] Int32
+---@field public ["ItemLevel"] Int32
+---@field public ["DamageType"] gamedataDamageType
+---@field public ["EquipmentArea"] gamedataEquipmentArea
+---@field public ["ComparedQuality"] gamedataQuality
+---@field public ["Empty"] Bool
+---@field public ["IsPart"] Bool
+---@field public ["IsCraftingMaterial"] Bool
+---@field public ["IsEquipped"] Bool
+---@field public ["IsNew"] Bool
+---@field public ["IsAvailable"] Bool
+---@field public ["IsVendorItem"] Bool
+---@field public ["IsBroken"] Bool
+---@field public ["SlotIndex"] Int32
+---@field public ["PositionInBackpack"] Uint32
+---@field public ["IconGender"] gameItemIconGender
+---@field public ["GameItemData"] gameItemData
+---@field public ["HasPlayerSmartGunLink"] Bool
+---@field public ["PlayerLevel"] Int32
+---@field public ["PlayerStrength"] Int32
+---@field public ["PlayerReflexes"] Int32
+---@field public ["PlayerStreetCred"] Int32
+---@field public ["IsRequirementMet"] Bool
+---@field public ["IsEquippable"] Bool
+---@field public ["IsVisualsEquipped"] Bool
+---@field public ["Requirement"] gameSItemStackRequirementData
+---@field public ["EquipRequirement"] gameSItemStackRequirementData
+---@field public ["EquipRequirements"] gameSItemStackRequirementData[]
+---@field public ["LootItemType"] gameLootItemType
+---@field public ["Attachments"] gameInventoryItemAttachments[]
+---@field public ["Abilities"] gameInventoryItemAbility[]
+---@field public ["PlacementSlots"] TweakDBID[]
+---@field public ["PrimaryStats"] gameStatViewData[]
+---@field public ["SecondaryStats"] gameStatViewData[]
+---@field public ["SortData"] gameInventoryItemSortData
+---@field public ["IsPerkRequired"] Bool
+---@field public ["PerkRequiredName"] String
+---@field public ["IsCrafted"] Bool
+---@field public ["IsIconic"] Bool
 gameInventoryItemData = {}
 
 ---@param fields? table
@@ -585,7 +585,7 @@ function gameInventoryItemData.SetPrice(self, price) return end
 function gameInventoryItemData.SetPrimaryStats(self, primaryStats) return end
 
 ---@param self gameInventoryItemData
----@param quality CName
+---@param quality CName|string
 ---@return nil
 function gameInventoryItemData.SetQuality(self, quality) return end
 

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleController: gameComponent
----@field public alarmCurve CName
----@field public alarmTime Float
----@field public overrideHeadlightsSettingsForPlayer Bool
+---@field public ["alarmCurve"] CName
+---@field public ["alarmTime"] Float
+---@field public ["overrideHeadlightsSettingsForPlayer"] Bool
 vehicleController = {}
 
 ---@param fields? table
@@ -51,7 +51,7 @@ function vehicleController:SetLightStrength(lightType, strength, inTime) return 
 ---@param on Bool
 ---@param lightType? vehicleELightType
 ---@param inTime? Float
----@param lerpCurve? CName
+---@param lerpCurve? CName|string
 ---@param loop? Bool
 ---@return nil
 function vehicleController:ToggleLights(on, lightType, inTime, lerpCurve, loop) return end

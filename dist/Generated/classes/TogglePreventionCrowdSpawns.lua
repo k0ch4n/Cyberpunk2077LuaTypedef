@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TogglePreventionCrowdSpawns: gameScriptableSystemRequest
----@field public toggle Bool
+---@field public ["toggle"] Bool
 TogglePreventionCrowdSpawns = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameLootObject: gameObject
----@field public lootID TweakDBID
----@field protected isInIconForcedVisibilityRange Bool
----@field protected activeQualityRangeInteraction CName
----@field protected lootQuality gamedataQuality
+---@field public ["lootID"] TweakDBID
+---@field protected ["isInIconForcedVisibilityRange"] Bool
+---@field protected ["activeQualityRangeInteraction"] CName
+---@field protected ["lootQuality"] gamedataQuality
 gameLootObject = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function gameLootObject:OnRequestComponents(ri) return end
 function gameLootObject:IsInIconForcedVisibilityRange() return end
 
 ---@protected
----@param layerTag CName
+---@param layerTag CName|string
 ---@return Bool
 function gameLootObject:IsQualityRangeInteractionLayer(layerTag) return end
 

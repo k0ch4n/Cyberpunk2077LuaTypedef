@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDynamicSpawnSystemCondition: questTypedCondition
----@field public type questIDynamicSpawnSystemConditionType
+---@field public ["type"] questIDynamicSpawnSystemConditionType
 questDynamicSpawnSystemCondition = {}
 
 ---@param fields? table

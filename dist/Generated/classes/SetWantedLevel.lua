@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SetWantedLevel: gameScriptableSystemRequest
----@field public wantedLevel EPreventionHeatStage
----@field public forceGreyStars Bool
----@field public resetGreyStars Bool
----@field public forcePlayerPositionAsLastCrimePoint Bool
----@field public forceIgnoreSecurityAreas Bool
+---@field public ["wantedLevel"] EPreventionHeatStage
+---@field public ["forceGreyStars"] Bool
+---@field public ["resetGreyStars"] Bool
+---@field public ["forcePlayerPositionAsLastCrimePoint"] Bool
+---@field public ["forceIgnoreSecurityAreas"] Bool
 SetWantedLevel = {}
 
 ---@param fields? table

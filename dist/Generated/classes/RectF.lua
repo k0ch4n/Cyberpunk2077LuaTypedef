@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RectF
----@field public Left Float
----@field public Top Float
----@field public Right Float
----@field public Bottom Float
+---@field public ["Left"] Float
+---@field public ["Top"] Float
+---@field public ["Right"] Float
+---@field public ["Bottom"] Float
 RectF = {}
 
 ---@param fields? table

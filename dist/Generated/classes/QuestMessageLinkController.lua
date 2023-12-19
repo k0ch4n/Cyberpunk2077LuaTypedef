@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class QuestMessageLinkController: BaseCodexLinkController
----@field private contactEntry gameJournalContact
----@field private messageEntry gameJournalPhoneMessage
----@field private journalManager gameJournalManager
----@field private childEntry gameJournalEntry
----@field private conversation gameJournalPhoneConversation
----@field private phoneSystem PhoneSystem
+---@field private ["contactEntry"] gameJournalContact
+---@field private ["messageEntry"] gameJournalPhoneMessage
+---@field private ["journalManager"] gameJournalManager
+---@field private ["childEntry"] gameJournalEntry
+---@field private ["conversation"] gameJournalPhoneConversation
+---@field private ["phoneSystem"] PhoneSystem
 QuestMessageLinkController = {}
 
 ---@param fields? table

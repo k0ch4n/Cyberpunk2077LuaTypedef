@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_PointConstraint_WeightedTransform
----@field public transform animTransformIndex
----@field public weight Float
+---@field public ["transform"] animTransformIndex
+---@field public ["weight"] Float
 animAnimNode_PointConstraint_WeightedTransform = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugFilterSetting_MeshResource: worldEditorDebugFilterSettings
----@field public resourcePaths String[]
+---@field public ["resourcePaths"] String[]
 worldDebugFilterSetting_MeshResource = {}
 
 ---@param fields? table

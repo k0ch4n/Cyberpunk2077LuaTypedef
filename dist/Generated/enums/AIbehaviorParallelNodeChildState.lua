@@ -3,7 +3,7 @@
 
 ---@enum AIbehaviorParallelNodeChildState
 AIbehaviorParallelNodeChildState = {
-    ["Inactive"] = 0,
-    ["Active"] = 1,
-    ["Completed"] = 2
+    ["Inactive"] = 0, ---@type Enum
+    ["Active"] = 1, ---@type Enum
+    ["Completed"] = 2, ---@type Enum
 }

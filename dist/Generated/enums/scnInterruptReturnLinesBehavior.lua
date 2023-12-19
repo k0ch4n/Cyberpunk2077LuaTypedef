@@ -3,7 +3,7 @@
 
 ---@enum scnInterruptReturnLinesBehavior
 scnInterruptReturnLinesBehavior = {
-    ["Default"] = 0,
-    ["Vehicle"] = 1,
-    ["Holocall"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["Vehicle"] = 1, ---@type Enum
+    ["Holocall"] = 2, ---@type Enum
 }

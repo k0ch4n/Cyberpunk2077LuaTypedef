@@ -3,7 +3,7 @@
 
 ---@enum gameMovingPlatformLoopType
 gameMovingPlatformLoopType = {
-    ["NoLooping"] = 0,
-    ["Bounce"] = 1,
-    ["Repeat"] = 2
+    ["NoLooping"] = 0, ---@type Enum
+    ["Bounce"] = 1, ---@type Enum
+    ["Repeat"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class redResourceReferenceScriptToken
----@field public resource CResource
+---@field public ["resource"] CResource
 redResourceReferenceScriptToken = {}
 
 ---@param fields? table
@@ -13,7 +13,7 @@ function redResourceReferenceScriptToken.new(fields) return end
 ---@return redResourceReferenceScriptToken
 function redResourceReferenceScriptToken.FromHash(hash) return end
 
----@param path CName
+---@param path CName|string
 ---@return redResourceReferenceScriptToken
 function redResourceReferenceScriptToken.FromName(path) return end
 

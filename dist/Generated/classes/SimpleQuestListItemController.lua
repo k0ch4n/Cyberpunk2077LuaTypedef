@@ -2,39 +2,39 @@
 ---@diagnostic disable
 
 ---@class SimpleQuestListItemController: inkVirtualCompoundItemController
----@field private title inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private typeIcon inkImageWidgetReference
----@field private difficultIcon inkImageWidgetReference
----@field private fixerIcon inkImageWidgetReference
----@field private ep1Icon inkImageWidgetReference
----@field private toggleAnimatedIndicator inkWidgetReference
----@field private hoverIndicator inkWidgetReference
----@field private questItemFrame inkWidgetReference
----@field private questItemBg inkWidgetReference
----@field private questItemBgButton inkWidgetReference
----@field private distanceContainer inkWidgetReference
----@field private defaultDistance inkTextWidgetReference
----@field private trackedDistance inkTextWidgetReference
----@field private isNewMarker inkWidgetReference
----@field private toggleMarkAnimation CName
----@field private trackMarkAnimation CName
----@field private distanceAnim_toDefault CName
----@field private distanceAnim_toHover CName
----@field private distanceAnim_toTracked CName
----@field private distanceAnim_toHover_delay Float
----@field private pinIcon_toHover CName
----@field private pinIcon_toDefault CName
----@field private toggleOnAnimProxy inkanimProxy
----@field private toggleOffAnimProxy inkanimProxy
----@field private pinIconAnimProxy inkanimProxy
----@field private distanceMarkerAnimProxy inkanimProxy
----@field private data QuestListItemData
----@field private openedQuest gameJournalQuest
----@field private hovered Bool
----@field private toggled Bool
----@field private tracked Bool
----@field private rootWidget inkWidget
+---@field private ["title"] inkTextWidgetReference
+---@field private ["description"] inkTextWidgetReference
+---@field private ["typeIcon"] inkImageWidgetReference
+---@field private ["difficultIcon"] inkImageWidgetReference
+---@field private ["fixerIcon"] inkImageWidgetReference
+---@field private ["ep1Icon"] inkImageWidgetReference
+---@field private ["toggleAnimatedIndicator"] inkWidgetReference
+---@field private ["hoverIndicator"] inkWidgetReference
+---@field private ["questItemFrame"] inkWidgetReference
+---@field private ["questItemBg"] inkWidgetReference
+---@field private ["questItemBgButton"] inkWidgetReference
+---@field private ["distanceContainer"] inkWidgetReference
+---@field private ["defaultDistance"] inkTextWidgetReference
+---@field private ["trackedDistance"] inkTextWidgetReference
+---@field private ["isNewMarker"] inkWidgetReference
+---@field private ["toggleMarkAnimation"] CName
+---@field private ["trackMarkAnimation"] CName
+---@field private ["distanceAnim_toDefault"] CName
+---@field private ["distanceAnim_toHover"] CName
+---@field private ["distanceAnim_toTracked"] CName
+---@field private ["distanceAnim_toHover_delay"] Float
+---@field private ["pinIcon_toHover"] CName
+---@field private ["pinIcon_toDefault"] CName
+---@field private ["toggleOnAnimProxy"] inkanimProxy
+---@field private ["toggleOffAnimProxy"] inkanimProxy
+---@field private ["pinIconAnimProxy"] inkanimProxy
+---@field private ["distanceMarkerAnimProxy"] inkanimProxy
+---@field private ["data"] QuestListItemData
+---@field private ["openedQuest"] gameJournalQuest
+---@field private ["hovered"] Bool
+---@field private ["toggled"] Bool
+---@field private ["tracked"] Bool
+---@field private ["rootWidget"] inkWidget
 SimpleQuestListItemController = {}
 
 ---@param fields? table
@@ -126,7 +126,7 @@ function SimpleQuestListItemController:OnUpdateOpenedQuestEvent(e) return end
 function SimpleQuestListItemController:OnUpdateTrackedObjectiveEvent(e) return end
 
 ---@private
----@param targetAnimation CName
+---@param targetAnimation CName|string
 ---@param instant? Bool
 ---@param playReversed? Bool
 ---@return nil

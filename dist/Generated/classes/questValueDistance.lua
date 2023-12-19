@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questValueDistance: questIDistance
----@field public distanceValue Float
+---@field public ["distanceValue"] Float
 questValueDistance = {}
 
 ---@param fields? table

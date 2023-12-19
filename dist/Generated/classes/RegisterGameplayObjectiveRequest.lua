@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterGameplayObjectiveRequest: gameScriptableSystemRequest
----@field public objectiveData GemplayObjectiveData
+---@field public ["objectiveData"] GemplayObjectiveData
 RegisterGameplayObjectiveRequest = {}
 
 ---@param fields? table

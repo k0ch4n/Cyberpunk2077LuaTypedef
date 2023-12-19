@@ -3,6 +3,6 @@
 
 ---@enum EMathOperationType
 EMathOperationType = {
-    ["Add"] = 0,
-    ["Set"] = 1
+    ["Add"] = 0, ---@type Enum
+    ["Set"] = 1, ---@type Enum
 }

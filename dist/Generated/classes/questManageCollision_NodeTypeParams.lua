@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questManageCollision_NodeTypeParams
----@field public objectRef NodeRef
----@field public enableCollision Bool
----@field public enableQueries Bool
----@field public components CName[]
+---@field public ["objectRef"] NodeRef
+---@field public ["enableCollision"] Bool
+---@field public ["enableQueries"] Bool
+---@field public ["components"] CName[]
 questManageCollision_NodeTypeParams = {}
 
 ---@param fields? table

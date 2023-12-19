@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animLookAtAdditionalPreset_BothArms: animLookAtAdditionalPreset
----@field public rightHanded Bool
----@field public softLimitAngle Float
+---@field public ["rightHanded"] Bool
+---@field public ["softLimitAngle"] Float
 animLookAtAdditionalPreset_BothArms = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class forklift: InteractiveDevice
----@field protected reversed Bool
----@field protected animFeature AnimFeature_ForkliftDevice
----@field protected animationController entAnimationControllerComponent
----@field protected isPlayerUnder Bool
----@field protected cargoBox entPhysicalMeshComponent
+---@field protected ["reversed"] Bool
+---@field protected ["animFeature"] AnimFeature_ForkliftDevice
+---@field protected ["animationController"] entAnimationControllerComponent
+---@field protected ["isPlayerUnder"] Bool
+---@field protected ["cargoBox"] entPhysicalMeshComponent
 forklift = {}
 
 ---@param fields? table

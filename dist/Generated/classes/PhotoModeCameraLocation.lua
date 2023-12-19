@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhotoModeCameraLocation: inkWidgetLogicController
----@field public textWidget inkWidgetReference
+---@field public ["textWidget"] inkWidgetReference
 PhotoModeCameraLocation = {}
 
 ---@param fields? table

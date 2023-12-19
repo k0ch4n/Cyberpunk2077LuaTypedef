@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponChangedListener: gameAttachmentSlotsScriptCallback
----@field public gameController TargetHitIndicatorGameController
+---@field public ["gameController"] TargetHitIndicatorGameController
 WeaponChangedListener = {}
 
 ---@param fields? table

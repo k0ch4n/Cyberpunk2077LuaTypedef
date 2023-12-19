@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class JukeboxInkGameController: DeviceInkGameControllerBase
----@field private ActionsPanel inkHorizontalPanelWidgetReference
----@field private PriceText inkTextWidgetReference
----@field private playButton PlayPauseActionWidgetController
----@field private nextButton NextPreviousActionWidgetController
----@field private previousButton NextPreviousActionWidgetController
+---@field private ["ActionsPanel"] inkHorizontalPanelWidgetReference
+---@field private ["PriceText"] inkTextWidgetReference
+---@field private ["playButton"] PlayPauseActionWidgetController
+---@field private ["nextButton"] NextPreviousActionWidgetController
+---@field private ["previousButton"] NextPreviousActionWidgetController
 JukeboxInkGameController = {}
 
 ---@param fields? table

@@ -3,19 +3,19 @@
 
 ---@enum gamedataAimAssistType
 gamedataAimAssistType = {
-    ["BreachTarget"] = 0,
-    ["ChestTarget"] = 1,
-    ["DriverCombat"] = 2,
-    ["HeadTarget"] = 3,
-    ["LegTarget"] = 4,
-    ["MechanicalTarget"] = 5,
-    ["Melee"] = 6,
-    ["None"] = 7,
-    ["QuickHack"] = 8,
-    ["Scanning"] = 9,
-    ["Shooting"] = 10,
-    ["ShootingLimbCyber"] = 11,
-    ["WeakSpotTarget"] = 12,
-    ["Count"] = 13,
-    ["Invalid"] = 14
+    ["BreachTarget"] = 0, ---@type Enum
+    ["ChestTarget"] = 1, ---@type Enum
+    ["DriverCombat"] = 2, ---@type Enum
+    ["HeadTarget"] = 3, ---@type Enum
+    ["LegTarget"] = 4, ---@type Enum
+    ["MechanicalTarget"] = 5, ---@type Enum
+    ["Melee"] = 6, ---@type Enum
+    ["None"] = 7, ---@type Enum
+    ["QuickHack"] = 8, ---@type Enum
+    ["Scanning"] = 9, ---@type Enum
+    ["Shooting"] = 10, ---@type Enum
+    ["ShootingLimbCyber"] = 11, ---@type Enum
+    ["WeakSpotTarget"] = 12, ---@type Enum
+    ["Count"] = 13, ---@type Enum
+    ["Invalid"] = 14, ---@type Enum
 }

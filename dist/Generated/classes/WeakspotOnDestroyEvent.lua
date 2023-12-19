@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeakspotOnDestroyEvent: redEvent
----@field public weakspotRecordData WeakspotRecordData
+---@field public ["weakspotRecordData"] WeakspotRecordData
 WeakspotOnDestroyEvent = {}
 
 ---@param fields? table

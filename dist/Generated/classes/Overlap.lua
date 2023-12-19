@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Overlap
----@field public instructionNumber Int32
----@field public otherInstruction Int32
----@field public atStart Bool
----@field public rarity Int32
+---@field public ["instructionNumber"] Int32
+---@field public ["otherInstruction"] Int32
+---@field public ["atStart"] Bool
+---@field public ["rarity"] Int32
 Overlap = {}
 
 ---@param fields? table

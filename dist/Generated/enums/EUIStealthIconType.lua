@@ -3,9 +3,9 @@
 
 ---@enum EUIStealthIconType
 EUIStealthIconType = {
-    ["Invalid"] = 0,
-    ["HostileHuman"] = 1,
-    ["Camera"] = 2,
-    ["Turret"] = 3,
-    ["Drone"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["HostileHuman"] = 1, ---@type Enum
+    ["Camera"] = 2, ---@type Enum
+    ["Turret"] = 3, ---@type Enum
+    ["Drone"] = 4, ---@type Enum
 }

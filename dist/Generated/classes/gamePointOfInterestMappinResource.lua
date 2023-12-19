@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePointOfInterestMappinResource: CResource
----@field public cookedData gameCookedPointOfInterestMappinData[]
+---@field public ["cookedData"] gameCookedPointOfInterestMappinData[]
 gamePointOfInterestMappinResource = {}
 
 ---@param fields? table

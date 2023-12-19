@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class Activator: InteractiveMasterDevice
----@field private animFeature AnimFeature_SimpleDevice
----@field private hitCount Int32
----@field private meshComponent entMeshComponent
----@field public meshAppearence CName
----@field public meshAppearenceBreaking CName
----@field public meshAppearenceBroken CName
----@field public defaultDelay Float
----@field public yellowDelay Float
----@field public redDelay Float
+---@field private ["animFeature"] AnimFeature_SimpleDevice
+---@field private ["hitCount"] Int32
+---@field private ["meshComponent"] entMeshComponent
+---@field public ["meshAppearence"] CName
+---@field public ["meshAppearenceBreaking"] CName
+---@field public ["meshAppearenceBroken"] CName
+---@field public ["defaultDelay"] Float
+---@field public ["yellowDelay"] Float
+---@field public ["redDelay"] Float
 Activator = {}
 
 ---@param fields? table
@@ -58,12 +58,12 @@ function Activator:OnTakeControl(ri) return end
 function Activator:OnToggleActivation(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function Activator:OnWorkspotFinished(componentName) return end
 
 ---@private
----@param newApperance CName
+---@param newApperance CName|string
 ---@param time Float
 ---@return nil
 function Activator:DelayApperanceSwitchEvent(newApperance, time) return end
@@ -74,8 +74,8 @@ function Activator:DeterminGameplayRole() return end
 ---@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
----@param componentName? CName
----@param deviceData? CName
+---@param componentName? CName|string
+---@param deviceData? CName|string
 ---@return nil
 function Activator:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
 

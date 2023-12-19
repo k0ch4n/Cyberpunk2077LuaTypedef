@@ -22,12 +22,12 @@ function DeviceHelper.ConvertActionsArray(puppetActions) return end
 function DeviceHelper.DebugLog(message) return end
 
 ---@param states gamePersistentState[]
----@param desiredClassName CName
+---@param desiredClassName CName|string
 ---@param extractedStates gamePersistentState[]
 ---@return Bool
 function DeviceHelper.ExtractSpecificStateClass(states, desiredClassName, extractedStates) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param actions gamedeviceAction[]
 ---@return Int32, gamedeviceAction foundAction
 function DeviceHelper.FindAction(actionName, actions) return end
@@ -47,7 +47,7 @@ function DeviceHelper.IsDebugModeON() return end
 ---@return nil
 function DeviceHelper.PushActionsIntoInteractionChoice(choice, actions) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@param actions gamedeviceAction[]
 ---@return nil
 function DeviceHelper.RemoveActionFromArray(actionName, actions) return end

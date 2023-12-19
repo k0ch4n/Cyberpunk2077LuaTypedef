@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SSubCharacter
----@field public persistentID gamePersistentID
----@field public subCharType gamedataSubCharacter
----@field public equipmentData EquipmentSystemPlayerData
+---@field public ["persistentID"] gamePersistentID
+---@field public ["subCharType"] gamedataSubCharacter
+---@field public ["equipmentData"] EquipmentSystemPlayerData
 SSubCharacter = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameUnequipByTDBIDRequest: gamePlayerScriptableSystemRequest
----@field public itemTDBID TweakDBID
+---@field public ["itemTDBID"] TweakDBID
 gameUnequipByTDBIDRequest = {}
 
 ---@param fields? table

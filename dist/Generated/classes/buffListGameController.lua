@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class buffListGameController: gameuiHUDGameController
----@field private buffsList inkHorizontalPanelWidgetReference
----@field private bbBuffList redCallbackObject
----@field private bbDeBuffList redCallbackObject
----@field private uiBlackboard gameIBlackboard
----@field private buffDataList gameuiBuffInfo[]
----@field private debuffDataList gameuiBuffInfo[]
----@field private buffWidgets inkWidget[]
----@field private UISystem gameuiGameSystemUI
----@field private pendingRequests Int32
+---@field private ["buffsList"] inkHorizontalPanelWidgetReference
+---@field private ["bbBuffList"] redCallbackObject
+---@field private ["bbDeBuffList"] redCallbackObject
+---@field private ["uiBlackboard"] gameIBlackboard
+---@field private ["buffDataList"] gameuiBuffInfo[]
+---@field private ["debuffDataList"] gameuiBuffInfo[]
+---@field private ["buffWidgets"] inkWidget[]
+---@field private ["UISystem"] gameuiGameSystemUI
+---@field private ["pendingRequests"] Int32
 buffListGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SampleBumpEvent: redEvent
----@field public amount Int32
+---@field public ["amount"] Int32
 SampleBumpEvent = {}
 
 ---@param fields? table

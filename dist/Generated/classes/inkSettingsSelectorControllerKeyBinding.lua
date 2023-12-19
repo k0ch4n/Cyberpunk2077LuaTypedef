@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class inkSettingsSelectorControllerKeyBinding: inkSettingsSelectorController
----@field private text inkRichTextBoxWidgetReference
----@field private buttonRef inkWidgetReference
----@field private editView inkWidgetReference
----@field private editOpacity Float
+---@field private ["text"] inkRichTextBoxWidgetReference
+---@field private ["buttonRef"] inkWidgetReference
+---@field private ["editView"] inkWidgetReference
+---@field private ["editOpacity"] Float
 inkSettingsSelectorControllerKeyBinding = {}
 
 ---@param fields? table
 ---@return inkSettingsSelectorControllerKeyBinding
 function inkSettingsSelectorControllerKeyBinding.new(fields) return end
 
----@param keyName CName
----@param groupName CName
----@param actionName CName
+---@param keyName CName|string
+---@param groupName CName|string
+---@param actionName CName|string
 ---@return String
 function inkSettingsSelectorControllerKeyBinding.PrepareInputTag(keyName, groupName, actionName) return end
 
@@ -49,7 +49,7 @@ function inkSettingsSelectorControllerKeyBinding:OnRelease(e) return end
 function inkSettingsSelectorControllerKeyBinding:OnUninitialize() return end
 
 ---@private
----@param keyName CName
+---@param keyName CName|string
 ---@return Bool
 function inkSettingsSelectorControllerKeyBinding:IsCancel(keyName) return end
 
@@ -61,6 +61,6 @@ function inkSettingsSelectorControllerKeyBinding:Refresh() return end
 function inkSettingsSelectorControllerKeyBinding:ResetValue() return end
 
 ---@private
----@param key CName
+---@param key CName|string
 ---@return nil
 function inkSettingsSelectorControllerKeyBinding:SetValue(key) return end

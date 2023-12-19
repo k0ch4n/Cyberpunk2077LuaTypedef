@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnOverrideReturnConditions_Operation: scnIInterruptManager_Operation
----@field public returnConditions scnIReturnCondition[]
+---@field public ["returnConditions"] scnIReturnCondition[]
 scnOverrideReturnConditions_Operation = {}
 
 ---@param fields? table

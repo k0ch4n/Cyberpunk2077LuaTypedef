@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioMeleeHitSoundMetadata: audioAudioMetadata
----@field public meleeSoundsByMaterial audioMaterialMeleeSoundDictionary
+---@field public ["meleeSoundsByMaterial"] audioMaterialMeleeSoundDictionary
 audioMeleeHitSoundMetadata = {}
 
 ---@param fields? table

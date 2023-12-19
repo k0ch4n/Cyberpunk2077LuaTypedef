@@ -27,7 +27,7 @@ function userSettingsGroup:GetParentPath() return end
 ---@return CName
 function userSettingsGroup:GetPath() return end
 
----@param varName CName
+---@param varName CName|string
 ---@return userSettingsVar
 function userSettingsGroup:GetVar(varName) return end
 
@@ -38,7 +38,7 @@ function userSettingsGroup:GetVars(isPreGame) return end
 ---@return Bool
 function userSettingsGroup:HasGroups() return end
 
----@param varName CName
+---@param varName CName|string
 ---@return Bool
 function userSettingsGroup:HasVar(varName) return end
 

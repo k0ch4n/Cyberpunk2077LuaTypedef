@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SpeakerControllerPS: ScriptableDeviceComponentPS
----@field protected speakerSetup SpeakerSetup
----@field private currentValue CName
----@field private previousValue CName
+---@field protected ["speakerSetup"] SpeakerSetup
+---@field private ["currentValue"] CName
+---@field private ["previousValue"] CName
 SpeakerControllerPS = {}
 
 ---@param fields? table
@@ -65,7 +65,7 @@ function SpeakerControllerPS:OnChangeMusicAction(evt) return end
 ---@return EntityNotificationType
 function SpeakerControllerPS:OnQuickHackDistraction(evt) return end
 
----@param station CName
+---@param station CName|string
 ---@return nil
 function SpeakerControllerPS:SetCurrentStation(station) return end
 

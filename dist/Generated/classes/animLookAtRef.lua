@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animLookAtRef
----@field public id Int32
----@field public part CName
+---@field public ["id"] Int32
+---@field public ["part"] CName
 animLookAtRef = {}
 
 ---@param fields? table

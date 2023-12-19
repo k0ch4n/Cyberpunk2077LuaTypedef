@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemCreationPrereq: gameIScriptablePrereq
----@field public fireAndForget Bool
----@field public statType gamedataStatType
----@field public valueToCheck Float
----@field public comparisonType EComparisonType
+---@field public ["fireAndForget"] Bool
+---@field public ["statType"] gamedataStatType
+---@field public ["valueToCheck"] Float
+---@field public ["comparisonType"] EComparisonType
 ItemCreationPrereq = {}
 
 ---@param fields? table

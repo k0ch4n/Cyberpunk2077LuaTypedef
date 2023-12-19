@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeSingleSharedVarDecoratorDefinition: AICTreeNodeSharedVarsBaseDecoratorDefinition
----@field public sharedVarName LibTreeSharedVarRegistrationName
+---@field public ["sharedVarName"] LibTreeSharedVarRegistrationName
 AICTreeNodeSingleSharedVarDecoratorDefinition = {}

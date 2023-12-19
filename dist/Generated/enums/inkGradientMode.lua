@@ -3,6 +3,6 @@
 
 ---@enum inkGradientMode
 inkGradientMode = {
-    ["Linear"] = 0,
-    ["Rectangular"] = 1
+    ["Linear"] = 0, ---@type Enum
+    ["Rectangular"] = 1, ---@type Enum
 }

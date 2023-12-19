@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatPrereq: gameIRPGPrereq
----@field public statType gamedataStatType
----@field public valueToCheck Float
+---@field public ["statType"] gamedataStatType
+---@field public ["valueToCheck"] Float
 gameStatPrereq = {}
 
 ---@param fields? table

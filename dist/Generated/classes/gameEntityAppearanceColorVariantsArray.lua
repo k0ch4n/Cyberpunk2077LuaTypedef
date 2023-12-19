@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEntityAppearanceColorVariantsArray: ISerializable
----@field public appearanceName CName
----@field public colorVariants CName[]
+---@field public ["appearanceName"] CName
+---@field public ["colorVariants"] CName[]
 gameEntityAppearanceColorVariantsArray = {}
 
 ---@param fields? table

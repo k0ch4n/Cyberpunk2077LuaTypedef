@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerList: SettingsSelectorControllerRange
----@field protected dotsContainer inkHorizontalPanelWidgetReference
+---@field protected ["dotsContainer"] inkHorizontalPanelWidgetReference
 SettingsSelectorControllerList = {}
 
 ---@param fields? table

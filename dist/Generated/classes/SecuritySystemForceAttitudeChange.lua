@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemForceAttitudeChange: ScriptableDeviceAction
----@field public newAttitude CName
+---@field public ["newAttitude"] CName
 SecuritySystemForceAttitudeChange = {}
 
 ---@param fields? table

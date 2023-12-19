@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_LocoState: animAnimNode_State
----@field public type animLocoStateType
----@field public locoTag CName
+---@field public ["type"] animLocoStateType
+---@field public ["locoTag"] CName
 animAnimNode_LocoState = {}
 
 ---@param fields? table

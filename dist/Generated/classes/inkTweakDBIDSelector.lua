@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTweakDBIDSelector: IScriptable
----@field public baseTweakID TweakDBID
+---@field public ["baseTweakID"] TweakDBID
 inkTweakDBIDSelector = {}
 
 ---@param fields? table

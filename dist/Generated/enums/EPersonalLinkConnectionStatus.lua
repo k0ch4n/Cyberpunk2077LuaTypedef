@@ -3,8 +3,8 @@
 
 ---@enum EPersonalLinkConnectionStatus
 EPersonalLinkConnectionStatus = {
-    ["NOT_CONNECTED"] = 0,
-    ["CONNECTING"] = 1,
-    ["CONNECTED"] = 2,
-    ["DISCONNECTING"] = 3
+    ["NOT_CONNECTED"] = 0, ---@type Enum
+    ["CONNECTING"] = 1, ---@type Enum
+    ["CONNECTED"] = 2, ---@type Enum
+    ["DISCONNECTING"] = 3, ---@type Enum
 }

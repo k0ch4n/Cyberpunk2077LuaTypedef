@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamedataComplexValueNode: gamedataValueDataNode
----@field public data String[]
+---@field public ["data"] String[]
 gamedataComplexValueNode = {}
 
 ---@param fields? table

@@ -3,10 +3,10 @@
 
 ---@enum ELightShadowCastingMode
 ELightShadowCastingMode = {
-    ["LSCM_None"] = 0,
-    ["LSCM_Normal"] = 1,
-    ["LSCM_OnlyDynamic"] = 2,
-    ["LSCM_OnlyStatic"] = 3,
-    ["LSCM_NormalAndContact"] = 4,
-    ["LSCM_OnlyContact"] = 5
+    ["LSCM_None"] = 0, ---@type Enum
+    ["LSCM_Normal"] = 1, ---@type Enum
+    ["LSCM_OnlyDynamic"] = 2, ---@type Enum
+    ["LSCM_OnlyStatic"] = 3, ---@type Enum
+    ["LSCM_NormalAndContact"] = 4, ---@type Enum
+    ["LSCM_OnlyContact"] = 5, ---@type Enum
 }

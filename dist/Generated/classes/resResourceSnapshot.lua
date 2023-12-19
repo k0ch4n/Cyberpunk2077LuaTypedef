@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class resResourceSnapshot: CResource
----@field public resources CResource[]
+---@field public ["resources"] CResource[]
 resResourceSnapshot = {}
 
 ---@param fields? table

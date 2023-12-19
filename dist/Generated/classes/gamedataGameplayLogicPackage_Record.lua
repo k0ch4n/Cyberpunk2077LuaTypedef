@@ -11,7 +11,7 @@ function gamedataGameplayLogicPackage_Record.new(fields) return end
 ---@return CName[]
 function gamedataGameplayLogicPackage_Record:AnimationWrapperOverrides() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataGameplayLogicPackage_Record:AnimationWrapperOverridesContains(item) return end
 

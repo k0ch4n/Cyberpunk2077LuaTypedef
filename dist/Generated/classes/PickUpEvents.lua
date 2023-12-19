@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PickUpEvents: CarriedObjectEvents
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public noCameraControlApplied Bool
----@field public noMovementApplied Bool
+---@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
+---@field public ["noCameraControlApplied"] Bool
+---@field public ["noMovementApplied"] Bool
 PickUpEvents = {}
 
 ---@param fields? table

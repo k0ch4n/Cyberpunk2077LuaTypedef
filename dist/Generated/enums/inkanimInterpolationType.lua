@@ -3,14 +3,14 @@
 
 ---@enum inkanimInterpolationType
 inkanimInterpolationType = {
-    ["Linear"] = 0,
-    ["Quadratic"] = 1,
-    ["Qubic"] = 2,
-    ["Quartic"] = 3,
-    ["Quintic"] = 4,
-    ["Sinusoidal"] = 5,
-    ["Exponential"] = 6,
-    ["Elastic"] = 7,
-    ["Circular"] = 8,
-    ["Back"] = 9
+    ["Linear"] = 0, ---@type Enum
+    ["Quadratic"] = 1, ---@type Enum
+    ["Qubic"] = 2, ---@type Enum
+    ["Quartic"] = 3, ---@type Enum
+    ["Quintic"] = 4, ---@type Enum
+    ["Sinusoidal"] = 5, ---@type Enum
+    ["Exponential"] = 6, ---@type Enum
+    ["Elastic"] = 7, ---@type Enum
+    ["Circular"] = 8, ---@type Enum
+    ["Back"] = 9, ---@type Enum
 }

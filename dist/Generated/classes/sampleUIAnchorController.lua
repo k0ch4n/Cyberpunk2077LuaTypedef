@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleUIAnchorController: inkWidgetLogicController
----@field public rectangleAnchor inkRectangleWidgetReference
+---@field public ["rectangleAnchor"] inkRectangleWidgetReference
 sampleUIAnchorController = {}
 
 ---@param fields? table

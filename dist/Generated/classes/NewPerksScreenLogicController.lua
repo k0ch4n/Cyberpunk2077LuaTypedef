@@ -2,56 +2,56 @@
 ---@diagnostic disable
 
 ---@class NewPerksScreenLogicController: inkWidgetLogicController
----@field private perksWidgets inkWidgetReference[]
----@field private gauge inkWidgetReference
----@field private tiers PerkScreenTierInfo[]
----@field private animationBoldLineWidget inkWidgetReference
----@field private animationLineWidget inkWidgetReference
----@field private animationGradientWidget inkWidgetReference
----@field private attributeButtonWidget inkWidgetReference
----@field private lockedLineIcon inkWidgetReference
----@field private unlockedLineIcon inkWidgetReference
----@field private attributeRequirementTexts inkTextWidgetReference[]
----@field private levelRequirementTexts inkTextWidgetReference[]
----@field private perksInitialized Bool
----@field private perksControllers inkScriptHashMap
----@field private perksContainersControllers inkScriptHashMap
----@field private perkControllersArray NewPerksPerkContainerLogicController[]
----@field private enabledControllers NewPerksPerkContainerLogicController[]
----@field private initData NewPerksScreenInitData
----@field private perksList gamedataNewPerk_Record[]
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private player PlayerPuppet
----@field private playerDevelopmentData PlayerDevelopmentData
----@field private attributePoints Int32
----@field private linksManager NewPerksRequirementsLinksManager
----@field private gaugeController NewPerksGaugeController
----@field private attributeButtonController NewPerksAttributeButtonController
----@field private buttonHintsController ButtonHints
----@field private dataManager PlayerDevelopmentDataManager
----@field private uiScriptableSystem UIScriptableSystem
----@field private levels NewPerksGaugePointDetails[]
----@field private highlightData PerkTierHighlight[]
----@field private activeProxies inkanimProxy[]
----@field private highlightedWires inkWidgetReference[]
----@field private highlightedPerks inkWidget[]
----@field private dimmedWidgets inkWidgetReference[]
----@field private dimProxies inkanimProxy[]
----@field private undimProxies inkanimProxy[]
----@field private isActiveScreen Bool
----@field private isEspionage Bool
----@field private unlockAnimData UnlockAnimData
----@field private lineAnimProxy inkanimProxy
----@field private buttonMoveAnimProxy inkanimProxy
----@field private buttonCustomAnimProxy inkanimProxy
----@field private lockAnimProxy inkanimProxy
----@field private introFinished Bool
----@field private perkHovered Bool
----@field private currentHoveredPerkData NewPerkDisplayData
----@field private gameController NewPerksCategoriesGameController
----@field private sellFailToken inkGameNotificationToken
----@field private perkToSnapCursor gamedataNewPerkType
----@field private unlockState Int32
+---@field private ["perksWidgets"] inkWidgetReference[]
+---@field private ["gauge"] inkWidgetReference
+---@field private ["tiers"] PerkScreenTierInfo[]
+---@field private ["animationBoldLineWidget"] inkWidgetReference
+---@field private ["animationLineWidget"] inkWidgetReference
+---@field private ["animationGradientWidget"] inkWidgetReference
+---@field private ["attributeButtonWidget"] inkWidgetReference
+---@field private ["lockedLineIcon"] inkWidgetReference
+---@field private ["unlockedLineIcon"] inkWidgetReference
+---@field private ["attributeRequirementTexts"] inkTextWidgetReference[]
+---@field private ["levelRequirementTexts"] inkTextWidgetReference[]
+---@field private ["perksInitialized"] Bool
+---@field private ["perksControllers"] inkScriptHashMap
+---@field private ["perksContainersControllers"] inkScriptHashMap
+---@field private ["perkControllersArray"] NewPerksPerkContainerLogicController[]
+---@field private ["enabledControllers"] NewPerksPerkContainerLogicController[]
+---@field private ["initData"] NewPerksScreenInitData
+---@field private ["perksList"] gamedataNewPerk_Record[]
+---@field private ["playerDevelopmentSystem"] PlayerDevelopmentSystem
+---@field private ["player"] PlayerPuppet
+---@field private ["playerDevelopmentData"] PlayerDevelopmentData
+---@field private ["attributePoints"] Int32
+---@field private ["linksManager"] NewPerksRequirementsLinksManager
+---@field private ["gaugeController"] NewPerksGaugeController
+---@field private ["attributeButtonController"] NewPerksAttributeButtonController
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["dataManager"] PlayerDevelopmentDataManager
+---@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field private ["levels"] NewPerksGaugePointDetails[]
+---@field private ["highlightData"] PerkTierHighlight[]
+---@field private ["activeProxies"] inkanimProxy[]
+---@field private ["highlightedWires"] inkWidgetReference[]
+---@field private ["highlightedPerks"] inkWidget[]
+---@field private ["dimmedWidgets"] inkWidgetReference[]
+---@field private ["dimProxies"] inkanimProxy[]
+---@field private ["undimProxies"] inkanimProxy[]
+---@field private ["isActiveScreen"] Bool
+---@field private ["isEspionage"] Bool
+---@field private ["unlockAnimData"] UnlockAnimData
+---@field private ["lineAnimProxy"] inkanimProxy
+---@field private ["buttonMoveAnimProxy"] inkanimProxy
+---@field private ["buttonCustomAnimProxy"] inkanimProxy
+---@field private ["lockAnimProxy"] inkanimProxy
+---@field private ["introFinished"] Bool
+---@field private ["perkHovered"] Bool
+---@field private ["currentHoveredPerkData"] NewPerkDisplayData
+---@field private ["gameController"] NewPerksCategoriesGameController
+---@field private ["sellFailToken"] inkGameNotificationToken
+---@field private ["perkToSnapCursor"] gamedataNewPerkType
+---@field private ["unlockState"] Int32
 NewPerksScreenLogicController = {}
 
 ---@param fields? table
@@ -281,19 +281,19 @@ function NewPerksScreenLogicController:GetLevelThreshold(level) return end
 ---@param duration Float
 ---@param delay Float
 ---@param start Float
----@param end Float
+---@param end_ Float
 ---@param mode inkanimInterpolationMode
 ---@param type inkanimInterpolationType
 ---@return inkanimTransparencyInterpolator
-function NewPerksScreenLogicController:GetLinearTransparencyInterpolator(duration, delay, start, end, mode, type) return end
+function NewPerksScreenLogicController:GetLinearTransparencyInterpolator(duration, delay, start, end_, mode, type) return end
 
 ---@private
 ---@param duration Float
 ---@param delay Float
 ---@param start Float
----@param end Float
+---@param end_ Float
 ---@return inkanimTransparencyInterpolator
-function NewPerksScreenLogicController:GetLinearTransparencyInterpolator(duration, delay, start, end) return end
+function NewPerksScreenLogicController:GetLinearTransparencyInterpolator(duration, delay, start, end_) return end
 
 ---@private
 ---@param level Int32
@@ -310,9 +310,9 @@ function NewPerksScreenLogicController:GetRequiredPerksTypes(perk, result) retur
 ---@param duration Float
 ---@param delay Float
 ---@param start Vector2
----@param end Vector2
+---@param end_ Vector2
 ---@return inkanimTranslationInterpolator
-function NewPerksScreenLogicController:GetSinusoidalTranslationInterpolator(duration, delay, start, end) return end
+function NewPerksScreenLogicController:GetSinusoidalTranslationInterpolator(duration, delay, start, end_) return end
 
 ---@private
 ---@param state Int32

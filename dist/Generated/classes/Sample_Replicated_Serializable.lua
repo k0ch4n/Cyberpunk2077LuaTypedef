@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Serializable: ISerializable
----@field public property Bool
+---@field public ["property"] Bool
 Sample_Replicated_Serializable = {}
 
 ---@param fields? table

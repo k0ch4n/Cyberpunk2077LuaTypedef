@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class minimapuiGeometryWidget: inkCanvasWidget
----@field public widgetTemplates inkWidgetReference[]
----@field public settings minimapuiSettings
+---@field public ["widgetTemplates"] inkWidgetReference[]
+---@field public ["settings"] minimapuiSettings
 minimapuiGeometryWidget = {}
 
 ---@param fields? table

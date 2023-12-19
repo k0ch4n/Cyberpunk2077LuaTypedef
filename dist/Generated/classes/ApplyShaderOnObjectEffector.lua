@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ApplyShaderOnObjectEffector: gameEffector
----@field private applicationTargetName CName
----@field private applicationTarget gameObject
----@field private effects gameEffectInstance[]
----@field private overrideMaterialName CName
----@field private overrideMaterialTag CName
----@field private overrideMaterialClearOnDetach Bool
----@field private effectInstance gameEffectInstance
----@field private owner gameObject
----@field private ownerEffect gameEffectInstance
+---@field private ["applicationTargetName"] CName
+---@field private ["applicationTarget"] gameObject
+---@field private ["effects"] gameEffectInstance[]
+---@field private ["overrideMaterialName"] CName
+---@field private ["overrideMaterialTag"] CName
+---@field private ["overrideMaterialClearOnDetach"] Bool
+---@field private ["effectInstance"] gameEffectInstance
+---@field private ["owner"] gameObject
+---@field private ["ownerEffect"] gameEffectInstance
 ApplyShaderOnObjectEffector = {}
 
 ---@param fields? table

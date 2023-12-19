@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameSEquipSlot
----@field public itemID gameItemID
----@field public slotID TweakDBID
----@field public unlockPrereq gameIPrereq
----@field public visibleWhenLocked Bool
+---@field public ["itemID"] gameItemID
+---@field public ["slotID"] TweakDBID
+---@field public ["unlockPrereq"] gameIPrereq
+---@field public ["visibleWhenLocked"] Bool
 gameSEquipSlot = {}
 
 ---@param fields? table

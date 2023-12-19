@@ -3,6 +3,6 @@
 
 ---@enum gameKillType
 gameKillType = {
-    ["Normal"] = 0,
-    ["Defeat"] = 1
+    ["Normal"] = 0, ---@type Enum
+    ["Defeat"] = 1, ---@type Enum
 }

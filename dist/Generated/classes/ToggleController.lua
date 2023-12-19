@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleController: inkToggleController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected data Int32
+---@field protected ["label"] inkTextWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["data"] Int32
 ToggleController = {}
 
 ---@param fields? table

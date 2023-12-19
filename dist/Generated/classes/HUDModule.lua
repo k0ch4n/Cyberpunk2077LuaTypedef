@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HUDModule: IScriptable
----@field protected hud HUDManager
----@field protected state ModuleState
----@field protected instancesList ModuleInstance[]
+---@field protected ["hud"] HUDManager
+---@field protected ["state"] ModuleState
+---@field protected ["instancesList"] ModuleInstance[]
 HUDModule = {}
 
 ---@protected

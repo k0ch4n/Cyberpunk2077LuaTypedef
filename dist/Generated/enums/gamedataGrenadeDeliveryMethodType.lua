@@ -3,9 +3,9 @@
 
 ---@enum gamedataGrenadeDeliveryMethodType
 gamedataGrenadeDeliveryMethodType = {
-    ["Homing"] = 0,
-    ["Regular"] = 1,
-    ["Sticky"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["Homing"] = 0, ---@type Enum
+    ["Regular"] = 1, ---@type Enum
+    ["Sticky"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

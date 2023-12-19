@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnscreenplayLineUsage
----@field public playerGenderMask scnGenderMask
+---@field public ["playerGenderMask"] scnGenderMask
 scnscreenplayLineUsage = {}
 
 ---@param fields? table

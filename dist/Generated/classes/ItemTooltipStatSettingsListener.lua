@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipStatSettingsListener: userSettingsVarListener
----@field private ctrl ItemTooltipStatController
+---@field private ["ctrl"] ItemTooltipStatController
 ItemTooltipStatSettingsListener = {}
 
 ---@param fields? table
 ---@return ItemTooltipStatSettingsListener
 function ItemTooltipStatSettingsListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

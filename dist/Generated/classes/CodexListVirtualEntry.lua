@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CodexListVirtualEntry: inkVirtualCompoundItemController
----@field protected title inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected newWrapper inkWidgetReference
----@field protected ep1Icon inkWidgetReference
----@field private entryData CodexEntryData
----@field private nestedListData VirutalNestedListData
----@field private activeItemSync CodexListSyncData
----@field private isActive Bool
----@field private isItemHovered Bool
----@field private isItemToggled Bool
+---@field protected ["title"] inkTextWidgetReference
+---@field protected ["icon"] inkImageWidgetReference
+---@field protected ["newWrapper"] inkWidgetReference
+---@field protected ["ep1Icon"] inkWidgetReference
+---@field private ["entryData"] CodexEntryData
+---@field private ["nestedListData"] VirutalNestedListData
+---@field private ["activeItemSync"] CodexListSyncData
+---@field private ["isActive"] Bool
+---@field private ["isItemHovered"] Bool
+---@field private ["isItemToggled"] Bool
 CodexListVirtualEntry = {}
 
 ---@param fields? table

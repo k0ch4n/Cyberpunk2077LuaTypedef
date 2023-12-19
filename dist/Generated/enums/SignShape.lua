@@ -3,8 +3,8 @@
 
 ---@enum SignShape
 SignShape = {
-    ["RECTANGLE"] = 0,
-    ["ARROWLEFT"] = 1,
-    ["ARROWRIGHT"] = 2,
-    ["SQUARE"] = 3
+    ["RECTANGLE"] = 0, ---@type Enum
+    ["ARROWLEFT"] = 1, ---@type Enum
+    ["ARROWRIGHT"] = 2, ---@type Enum
+    ["SQUARE"] = 3, ---@type Enum
 }

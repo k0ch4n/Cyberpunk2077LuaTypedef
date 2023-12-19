@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IronsightTargetHealthChangeListener: gameScriptStatPoolsListener
----@field private parentIronsight IronsightGameController
+---@field private ["parentIronsight"] IronsightGameController
 IronsightTargetHealthChangeListener = {}
 
 ---@param fields? table

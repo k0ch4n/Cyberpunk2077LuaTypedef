@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DisplayGlassControllerPS: ScriptableDeviceComponentPS
----@field protected isTinted Bool
----@field protected useAppearances Bool
----@field protected clearAppearance CName
----@field protected tintedAppearance CName
+---@field protected ["isTinted"] Bool
+---@field protected ["useAppearances"] Bool
+---@field protected ["clearAppearance"] CName
+---@field protected ["tintedAppearance"] CName
 DisplayGlassControllerPS = {}
 
 ---@param fields? table
@@ -55,7 +55,7 @@ function DisplayGlassControllerPS:GetClearAppearance() return end
 ---@return TweakDBID
 function DisplayGlassControllerPS:GetDeviceIconTweakDBID() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function DisplayGlassControllerPS:GetQuestActionByName(actionName) return end
 

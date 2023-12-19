@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EntityNoticedPlayerPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
+---@field public ["owner"] gameObject
+---@field public ["listenerInt"] redCallbackObject
 EntityNoticedPlayerPrereqState = {}
 
 ---@param fields? table

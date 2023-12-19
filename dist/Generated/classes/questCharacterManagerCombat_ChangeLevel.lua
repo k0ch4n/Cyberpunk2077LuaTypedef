@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerCombat_ChangeLevel: questICharacterManagerCombat_NodeSubType
----@field public puppetRef gameEntityReference
----@field public level questInt32ValueWrapper
----@field public setExactLevel Bool
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["level"] questInt32ValueWrapper
+---@field public ["setExactLevel"] Bool
 questCharacterManagerCombat_ChangeLevel = {}
 
 ---@param fields? table

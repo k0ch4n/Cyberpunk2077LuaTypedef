@@ -2,41 +2,41 @@
 ---@diagnostic disable
 
 ---@class WardrobeSetEditorUIController: inkWidgetLogicController
----@field private itemsGridWidget inkWidgetReference
----@field private itemGridText inkTextWidgetReference
----@field private sortingDropdown inkWidgetReference
----@field private sortingButton inkWidgetReference
----@field private hideFaceButton inkWidgetReference
----@field private hideHeadButton inkWidgetReference
----@field private emptyGridText inkWidgetReference
----@field private wearButton inkWidgetReference
----@field private takeOffButton inkWidgetReference
----@field private resetButton inkWidgetReference
----@field private itemGridClassifier ItemModeGridClassifier
----@field private itemGridDataView WardrobeItemGridView
----@field private itemGridDataSource inkScriptableDataSourceWrapper
----@field private tooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private player PlayerPuppet
----@field private InventoryManager InventoryDataManagerV2
----@field private uiScriptableSystem UIScriptableSystem
----@field private equipmentSystem EquipmentSystem
----@field private wardrobeSystem gameWardrobeSystem
----@field private equipmentAreaCategoryEventQueue EquipmentAreaCategoryCreated[]
----@field private equipmentAreaCategories EquipmentAreaCategory[]
----@field private itemsPositionProvider ItemPositionProvider
----@field private comparisonResolver ItemPreferredComparisonResolver
----@field private wardrobeGameController WardrobeUIGameController
----@field private areaSlotControllers InventoryItemDisplayController[]
----@field private hiddenEquipmentAreas gamedataEquipmentArea[]
----@field private currentEquipmentArea gamedataEquipmentArea
----@field private currentSet gameClothingSet
----@field private setButtonController ClothingSetController
----@field private previewController gameuiWardrobeSetPreviewGameController
----@field private delaySystem gameDelaySystem
----@field private delayedTimeoutCallbackId gameDelayID
----@field private timeoutPeroid Float
----@field private displayContextData ItemDisplayContextData
+---@field private ["itemsGridWidget"] inkWidgetReference
+---@field private ["itemGridText"] inkTextWidgetReference
+---@field private ["sortingDropdown"] inkWidgetReference
+---@field private ["sortingButton"] inkWidgetReference
+---@field private ["hideFaceButton"] inkWidgetReference
+---@field private ["hideHeadButton"] inkWidgetReference
+---@field private ["emptyGridText"] inkWidgetReference
+---@field private ["wearButton"] inkWidgetReference
+---@field private ["takeOffButton"] inkWidgetReference
+---@field private ["resetButton"] inkWidgetReference
+---@field private ["itemGridClassifier"] ItemModeGridClassifier
+---@field private ["itemGridDataView"] WardrobeItemGridView
+---@field private ["itemGridDataSource"] inkScriptableDataSourceWrapper
+---@field private ["tooltipsManager"] gameuiTooltipsManager
+---@field private ["buttonHintsController"] ButtonHints
+---@field private ["player"] PlayerPuppet
+---@field private ["InventoryManager"] InventoryDataManagerV2
+---@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field private ["equipmentSystem"] EquipmentSystem
+---@field private ["wardrobeSystem"] gameWardrobeSystem
+---@field private ["equipmentAreaCategoryEventQueue"] EquipmentAreaCategoryCreated[]
+---@field private ["equipmentAreaCategories"] EquipmentAreaCategory[]
+---@field private ["itemsPositionProvider"] ItemPositionProvider
+---@field private ["comparisonResolver"] ItemPreferredComparisonResolver
+---@field private ["wardrobeGameController"] WardrobeUIGameController
+---@field private ["areaSlotControllers"] InventoryItemDisplayController[]
+---@field private ["hiddenEquipmentAreas"] gamedataEquipmentArea[]
+---@field private ["currentEquipmentArea"] gamedataEquipmentArea
+---@field private ["currentSet"] gameClothingSet
+---@field private ["setButtonController"] ClothingSetController
+---@field private ["previewController"] gameuiWardrobeSetPreviewGameController
+---@field private ["delaySystem"] gameDelaySystem
+---@field private ["delayedTimeoutCallbackId"] gameDelayID
+---@field private ["timeoutPeroid"] Float
+---@field private ["displayContextData"] ItemDisplayContextData
 WardrobeSetEditorUIController = {}
 
 ---@param fields? table
@@ -203,6 +203,6 @@ function WardrobeSetEditorUIController:UpdateButtonVisibility() return end
 function WardrobeSetEditorUIController:UpdateEquipementSlot(itemDisplay, equipmentArea, inventoryItemData) return end
 
 ---@private
----@param tag CName
+---@param tag CName|string
 ---@return gamedataEquipmentArea
 function WardrobeSetEditorUIController:VisualTagToEquipmentArea(tag) return end

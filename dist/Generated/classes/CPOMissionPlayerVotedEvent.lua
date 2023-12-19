@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CPOMissionPlayerVotedEvent: redEvent
----@field public compatibleDeviceName CName
+---@field public ["compatibleDeviceName"] CName
 CPOMissionPlayerVotedEvent = {}
 
 ---@param fields? table

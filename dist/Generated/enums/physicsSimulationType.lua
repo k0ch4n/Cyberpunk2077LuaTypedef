@@ -3,8 +3,8 @@
 
 ---@enum physicsSimulationType
 physicsSimulationType = {
-    ["Static"] = 0,
-    ["Dynamic"] = 1,
-    ["Kinematic"] = 2,
-    ["Invalid"] = 3
+    ["Static"] = 0, ---@type Enum
+    ["Dynamic"] = 1, ---@type Enum
+    ["Kinematic"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

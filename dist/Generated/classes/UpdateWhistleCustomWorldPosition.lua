@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateWhistleCustomWorldPosition: UpdateWhistlePosition
----@field public outPositionArgument AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
 UpdateWhistleCustomWorldPosition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AINPCUpperBodyStateCheck: AINPCStateCheck
----@field public blackboard gameIBlackboard
+---@field public ["blackboard"] gameIBlackboard
 AINPCUpperBodyStateCheck = {}
 
 ---@private

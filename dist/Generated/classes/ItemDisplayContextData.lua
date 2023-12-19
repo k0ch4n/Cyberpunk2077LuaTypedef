@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemDisplayContextData: IScriptable
----@field private player gameObject
----@field private displayContext gameItemDisplayContext
----@field private displayComparison Bool
----@field private tags CName[]
+---@field private ["player"] gameObject
+---@field private ["displayContext"] gameItemDisplayContext
+---@field private ["displayComparison"] Bool
+---@field private ["tags"] CName[]
 ItemDisplayContextData = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function ItemDisplayContextData.Make() return end
 ---@return ItemDisplayContextData
 function ItemDisplayContextData.Make(player, displayContext, displayComparison) return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function ItemDisplayContextData:AddTag(tag) return end
 
@@ -43,7 +43,7 @@ function ItemDisplayContextData:GetPlayerAsPuppet() return end
 ---@return InventoryTooltipDisplayContext
 function ItemDisplayContextData:GetTooltipDisplayContext() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function ItemDisplayContextData:HasTag(tag) return end
 
@@ -53,7 +53,7 @@ function ItemDisplayContextData:IsCraftingItem() return end
 ---@return Bool
 function ItemDisplayContextData:IsVendorItem() return end
 
----@param tag CName
+---@param tag CName|string
 ---@return nil
 function ItemDisplayContextData:RemoveTag(tag) return end
 

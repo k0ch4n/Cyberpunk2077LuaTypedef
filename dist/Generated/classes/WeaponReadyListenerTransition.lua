@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class WeaponReadyListenerTransition: WeaponTransition
----@field protected executionOwner gameObject
----@field protected callBackIDs redCallbackObject[]
----@field protected beingCreated Bool
----@field private statListener DefaultTransitionStatListener
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private isVaulting Bool
----@field private isDodging Bool
----@field private isInWorkspot Bool
----@field private isSliding Bool
----@field private isSceneAimForced Bool
----@field private isInTakedown Bool
----@field private isUsingCombatGadget Bool
----@field private hasStatusEffectNoCombat Bool
----@field private hasStatusEffectFastForward Bool
----@field private hasStatusEffectVehicleScene Bool
----@field private hasStunnedStatusEffect Bool
----@field private hasJamStatusEffect Bool
----@field private canWeaponShootWhileVaulting Bool
----@field private canShootWhileDodging Bool
----@field private canWeaponShootWhileSliding Bool
----@field private isInSafeSceneTier Bool
----@field protected weaponReadyListenerReturnValue Bool
+---@field protected ["executionOwner"] gameObject
+---@field protected ["callBackIDs"] redCallbackObject[]
+---@field protected ["beingCreated"] Bool
+---@field private ["statListener"] DefaultTransitionStatListener
+---@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
+---@field private ["isVaulting"] Bool
+---@field private ["isDodging"] Bool
+---@field private ["isInWorkspot"] Bool
+---@field private ["isSliding"] Bool
+---@field private ["isSceneAimForced"] Bool
+---@field private ["isInTakedown"] Bool
+---@field private ["isUsingCombatGadget"] Bool
+---@field private ["hasStatusEffectNoCombat"] Bool
+---@field private ["hasStatusEffectFastForward"] Bool
+---@field private ["hasStatusEffectVehicleScene"] Bool
+---@field private ["hasStunnedStatusEffect"] Bool
+---@field private ["hasJamStatusEffect"] Bool
+---@field private ["canWeaponShootWhileVaulting"] Bool
+---@field private ["canShootWhileDodging"] Bool
+---@field private ["canWeaponShootWhileSliding"] Bool
+---@field private ["isInSafeSceneTier"] Bool
+---@field protected ["weaponReadyListenerReturnValue"] Bool
 WeaponReadyListenerTransition = {}
 
 ---@param fields? table

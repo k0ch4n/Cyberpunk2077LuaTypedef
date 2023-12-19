@@ -3,8 +3,8 @@
 
 ---@enum animcompressionQualityPreset
 animcompressionQualityPreset = {
-    ["CINEMATIC_HIGH"] = 3,
-    ["HIGH"] = 0,
-    ["MID"] = 1,
-    ["LOW"] = 2
+    ["CINEMATIC_HIGH"] = 3, ---@type Enum
+    ["HIGH"] = 0, ---@type Enum
+    ["MID"] = 1, ---@type Enum
+    ["LOW"] = 2, ---@type Enum
 }

@@ -3,7 +3,7 @@
 
 ---@enum EDoorTriggerSide
 EDoorTriggerSide = {
-    ["OUTSIDE"] = 0,
-    ["ONE"] = 1,
-    ["TWO"] = 2
+    ["OUTSIDE"] = 0, ---@type Enum
+    ["ONE"] = 1, ---@type Enum
+    ["TWO"] = 2, ---@type Enum
 }

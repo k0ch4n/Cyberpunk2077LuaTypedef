@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamehitRepresentationEventsSetSingleScaleMultiplier_AllShapes: redEvent
----@field public scaleMultiplier Vector4
+---@field public ["scaleMultiplier"] Vector4
 gamehitRepresentationEventsSetSingleScaleMultiplier_AllShapes = {}
 
 ---@param fields? table

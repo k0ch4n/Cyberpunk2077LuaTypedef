@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayedDeviceActionEvent: redEvent
----@field public action ScriptableDeviceAction
+---@field public ["action"] ScriptableDeviceAction
 DelayedDeviceActionEvent = {}
 
 ---@param fields? table

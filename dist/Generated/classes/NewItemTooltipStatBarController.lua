@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipStatBarController: inkWidgetLogicController
----@field private background inkWidgetReference
----@field private bar inkWidgetReference
----@field private comparisonBar inkWidgetReference
----@field private statName inkTextWidgetReference
----@field private overflow inkTextWidgetReference
----@field private statValue inkTextWidgetReference
----@field private comparisonArrow inkWidgetReference
----@field private separators inkWidgetReference
----@field private barAnimProxy inkanimProxy
----@field private diffBarAnimProxy inkanimProxy
----@field private betterColor HDRColor
----@field private worseColor HDRColor
----@field private width Float
+---@field private ["background"] inkWidgetReference
+---@field private ["bar"] inkWidgetReference
+---@field private ["comparisonBar"] inkWidgetReference
+---@field private ["statName"] inkTextWidgetReference
+---@field private ["overflow"] inkTextWidgetReference
+---@field private ["statValue"] inkTextWidgetReference
+---@field private ["comparisonArrow"] inkWidgetReference
+---@field private ["separators"] inkWidgetReference
+---@field private ["barAnimProxy"] inkanimProxy
+---@field private ["diffBarAnimProxy"] inkanimProxy
+---@field private ["betterColor"] HDRColor
+---@field private ["worseColor"] HDRColor
+---@field private ["width"] Float
 NewItemTooltipStatBarController = {}
 
 ---@param fields? table

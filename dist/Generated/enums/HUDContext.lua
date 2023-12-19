@@ -3,7 +3,7 @@
 
 ---@enum HUDContext
 HUDContext = {
-    ["DEFAULT"] = 0,
-    ["FOCUS"] = 1,
-    ["LOOKEDAT"] = 2
+    ["DEFAULT"] = 0, ---@type Enum
+    ["FOCUS"] = 1, ---@type Enum
+    ["LOOKEDAT"] = 2, ---@type Enum
 }

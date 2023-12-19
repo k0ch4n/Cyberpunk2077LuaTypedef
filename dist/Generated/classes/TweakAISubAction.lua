@@ -28,23 +28,23 @@ function TweakAISubAction.GetAnimVariation(context, subActionRecord) return end
 ---@return Bool, Float duration
 function TweakAISubAction.GetPhaseDuration(context, subActionRecord, actionPhase, baseDuration) return end
 
----@param className CName
+---@param className CName|string
 ---@return nil
 function TweakAISubAction.OnCantFindProperActivateMethod(className) return end
 
----@param className CName
+---@param className CName|string
 ---@return nil
 function TweakAISubAction.OnCantFindProperDeactivateMethod(className) return end
 
----@param className CName
+---@param className CName|string
 ---@return nil
 function TweakAISubAction.OnCantFindProperGetAnimVariationMethod(className) return end
 
----@param className CName
+---@param className CName|string
 ---@return nil
 function TweakAISubAction.OnCantFindProperGetPhaseDurationnMethod(className) return end
 
----@param className CName
+---@param className CName|string
 ---@return nil
 function TweakAISubAction.OnCantFindProperUpdateMethod(className) return end
 

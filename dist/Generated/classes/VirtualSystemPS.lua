@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VirtualSystemPS: MasterControllerPS
----@field private owner MasterControllerPS
----@field protected slaves gameDeviceComponentPS[]
----@field private slavesCached Bool
+---@field private ["owner"] MasterControllerPS
+---@field protected ["slaves"] gameDeviceComponentPS[]
+---@field private ["slavesCached"] Bool
 VirtualSystemPS = {}
 
 ---@param fields? table

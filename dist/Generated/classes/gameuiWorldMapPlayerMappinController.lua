@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapPlayerMappinController: gameuiBaseWorldMapMappinController
----@field public coneIconWidget inkImageWidgetReference
+---@field public ["coneIconWidget"] inkImageWidgetReference
 gameuiWorldMapPlayerMappinController = {}
 
 ---@param fields? table

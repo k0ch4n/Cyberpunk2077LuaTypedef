@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiPhoneMessageNotificationViewData: gameuiQuestUpdateNotificationViewData
----@field public threadHash Int32
----@field public contactHash Int32
+---@field public ["threadHash"] Int32
+---@field public ["contactHash"] Int32
 gameuiPhoneMessageNotificationViewData = {}
 
 ---@param fields? table

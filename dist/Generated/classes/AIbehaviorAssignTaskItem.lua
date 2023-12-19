@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorAssignTaskItem
----@field public leftHandSide AIArgumentMapping
----@field public rightHandSide AIArgumentMapping
+---@field public ["leftHandSide"] AIArgumentMapping
+---@field public ["rightHandSide"] AIArgumentMapping
 AIbehaviorAssignTaskItem = {}
 
 ---@param fields? table

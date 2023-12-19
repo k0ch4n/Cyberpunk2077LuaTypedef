@@ -14,6 +14,6 @@ function QuickHackDistraction:GetInteractionIcon() return end
 ---@return nil
 function QuickHackDistraction:SetProperties() return end
 
----@param interaction CName
+---@param interaction CName|string
 ---@return nil
 function QuickHackDistraction:SetProperties(interaction) return end

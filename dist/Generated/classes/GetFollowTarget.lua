@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GetFollowTarget: FollowVehicleTask
----@field private blackboard gameIBlackboard
----@field private vehicle vehicleBaseObject
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["vehicle"] vehicleBaseObject
 GetFollowTarget = {}
 
 ---@param fields? table

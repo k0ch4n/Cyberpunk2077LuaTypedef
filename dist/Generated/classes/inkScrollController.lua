@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class inkScrollController: inkWidgetLogicController
----@field public ScrollArea inkScrollAreaWidgetReference
----@field public VerticalScrollBarRef inkWidgetReference
----@field public navigableCompoundWidget inkWidgetReference
----@field public CompoundWidgetRef inkCompoundWidgetReference
----@field public autoHideVertical Bool
----@field public scrollSpeedGamepad Float
----@field public scrollSpeedMouse Float
----@field public direction inkEScrollDirection
----@field public useGlobalInput Bool
----@field public position Float
----@field public desiredSetupPosition Float
----@field public contentSmallerThanViewport Bool
----@field public scrollDelta Float
----@field public viewportSize Vector2
----@field public contentSize Vector2
+---@field public ["ScrollArea"] inkScrollAreaWidgetReference
+---@field public ["VerticalScrollBarRef"] inkWidgetReference
+---@field public ["navigableCompoundWidget"] inkWidgetReference
+---@field public ["CompoundWidgetRef"] inkCompoundWidgetReference
+---@field public ["autoHideVertical"] Bool
+---@field public ["scrollSpeedGamepad"] Float
+---@field public ["scrollSpeedMouse"] Float
+---@field public ["direction"] inkEScrollDirection
+---@field public ["useGlobalInput"] Bool
+---@field public ["position"] Float
+---@field public ["desiredSetupPosition"] Float
+---@field public ["contentSmallerThanViewport"] Bool
+---@field public ["scrollDelta"] Float
+---@field public ["viewportSize"] Vector2
+---@field public ["contentSize"] Vector2
 inkScrollController = {}
 
 ---@param fields? table

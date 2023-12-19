@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleVehicleAudioMultipliersEvent: redEvent
----@field public multipliers audioVehicleMultipliers
+---@field public ["multipliers"] audioVehicleMultipliers
 vehicleVehicleAudioMultipliersEvent = {}
 
 ---@param fields? table

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class CyberwareInventoryMiniGrid: inkWidgetLogicController
----@field private isLeftAligned Bool
----@field private gridContainer inkUniformGridWidgetReference
----@field private label inkTextWidgetReference
----@field private isNew inkWidgetReference
----@field private selectedSlotIndex Int32
----@field public equipArea gamedataEquipmentArea
----@field private parentObject IScriptable
----@field private onRealeaseCallbackName CName
----@field private opacityAnimation inkanimProxy
----@field private marginAnimation inkanimProxy
----@field private labelAnimation inkanimProxy
----@field private labelPulse PulseAnimation
----@field private margin inkMargin
----@field private targetMargin inkMargin
----@field private parent inkCompoundWidgetReference
----@field private player PlayerPuppet
----@field private minigridAnimation inkanimProxy
----@field private screen CyberwareScreenType
----@field private displayContext ItemDisplayContextData
----@field private gridData InventoryItemDisplayController[]
----@field private root inkWidget
+---@field private ["isLeftAligned"] Bool
+---@field private ["gridContainer"] inkUniformGridWidgetReference
+---@field private ["label"] inkTextWidgetReference
+---@field private ["isNew"] inkWidgetReference
+---@field private ["selectedSlotIndex"] Int32
+---@field public ["equipArea"] gamedataEquipmentArea
+---@field private ["parentObject"] IScriptable
+---@field private ["onRealeaseCallbackName"] CName
+---@field private ["opacityAnimation"] inkanimProxy
+---@field private ["marginAnimation"] inkanimProxy
+---@field private ["labelAnimation"] inkanimProxy
+---@field private ["labelPulse"] PulseAnimation
+---@field private ["margin"] inkMargin
+---@field private ["targetMargin"] inkMargin
+---@field private ["parent"] inkCompoundWidgetReference
+---@field private ["player"] PlayerPuppet
+---@field private ["minigridAnimation"] inkanimProxy
+---@field private ["screen"] CyberwareScreenType
+---@field private ["displayContext"] ItemDisplayContextData
+---@field private ["gridData"] InventoryItemDisplayController[]
+---@field private ["root"] inkWidget
 CyberwareInventoryMiniGrid = {}
 
 ---@param fields? table
@@ -61,8 +61,8 @@ function CyberwareInventoryMiniGrid:OnSlotSpawned(widget, userData) return end
 
 ---@protected
 ---@param widget inkWidget
----@param oldState CName
----@param newState CName
+---@param oldState CName|string
+---@param newState CName|string
 ---@return Bool
 function CyberwareInventoryMiniGrid:OnStateChanged(widget, oldState, newState) return end
 
@@ -227,7 +227,7 @@ function CyberwareInventoryMiniGrid:SetTargetMargin(margin, parent) return end
 ---@param equipArea gamedataEquipmentArea
 ---@param playerEquipAreaInventory UIInventoryItem[]
 ---@param parent IScriptable
----@param onRealeaseCallbackName CName
+---@param onRealeaseCallbackName CName|string
 ---@param screen CyberwareScreenType
 ---@param hasMods Bool
 ---@param displayContext ItemDisplayContextData

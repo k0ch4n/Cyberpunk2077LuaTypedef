@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TransferSaveGameController: gameuiWidgetGameController
----@field private notificationController inkWidgetReference
+---@field private ["notificationController"] inkWidgetReference
 TransferSaveGameController = {}
 
 ---@param fields? table

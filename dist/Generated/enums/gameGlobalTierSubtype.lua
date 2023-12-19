@@ -3,6 +3,6 @@
 
 ---@enum gameGlobalTierSubtype
 gameGlobalTierSubtype = {
-    ["Quest"] = 0,
-    ["Supervisor"] = 1
+    ["Quest"] = 0, ---@type Enum
+    ["Supervisor"] = 1, ---@type Enum
 }

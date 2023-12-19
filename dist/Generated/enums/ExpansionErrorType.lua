@@ -3,10 +3,10 @@
 
 ---@enum ExpansionErrorType
 ExpansionErrorType = {
-    ["PurchaseFailed"] = 0,
-    ["PurchaseDisabled"] = 1,
-    ["InstallFailed"] = 2,
-    ["InstallRequestFailed"] = 3,
-    ["InstallDisabled"] = 4,
-    ["DataInvalid"] = 5
+    ["PurchaseFailed"] = 0, ---@type Enum
+    ["PurchaseDisabled"] = 1, ---@type Enum
+    ["InstallFailed"] = 2, ---@type Enum
+    ["InstallRequestFailed"] = 3, ---@type Enum
+    ["InstallDisabled"] = 4, ---@type Enum
+    ["DataInvalid"] = 5, ---@type Enum
 }

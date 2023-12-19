@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIRoleCondition: AIbehaviorconditionScript
----@field public role EAIRole
+---@field public ["role"] EAIRole
 AIRoleCondition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityCommunityTemplate: CResource
----@field public communityTemplate communityCommunityTemplateData
+---@field public ["communityTemplate"] communityCommunityTemplateData
 communityCommunityTemplate = {}
 
 ---@param fields? table

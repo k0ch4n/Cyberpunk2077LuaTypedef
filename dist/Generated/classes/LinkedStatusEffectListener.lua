@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LinkedStatusEffectListener: gameScriptStatusEffectListener
----@field public instigatorObject gameObject
----@field public linkedEffect TweakDBID
----@field public evt RemoveLinkedStatusEffectsEvent
+---@field public ["instigatorObject"] gameObject
+---@field public ["linkedEffect"] TweakDBID
+---@field public ["evt"] RemoveLinkedStatusEffectsEvent
 LinkedStatusEffectListener = {}
 
 ---@param fields? table

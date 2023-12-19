@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SetDesiredReaction: AIbehaviortaskScript
----@field public behaviorArgumentNameTag CName
----@field public behaviorArgumentFloatPriority CName
----@field public behaviorArgumentNameFlag CName
----@field protected reactionData AIReactionData
+---@field public ["behaviorArgumentNameTag"] CName
+---@field public ["behaviorArgumentFloatPriority"] CName
+---@field public ["behaviorArgumentNameFlag"] CName
+---@field protected ["reactionData"] AIReactionData
 SetDesiredReaction = {}
 
 ---@param fields? table

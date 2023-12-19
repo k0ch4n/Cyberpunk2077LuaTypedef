@@ -3,8 +3,8 @@
 
 ---@enum entRepellingType
 entRepellingType = {
-    ["Debris"] = 0,
-    ["BigObjects"] = 1,
-    ["WindImpulse"] = 2,
-    ["WaterImpulse"] = 3
+    ["Debris"] = 0, ---@type Enum
+    ["BigObjects"] = 1, ---@type Enum
+    ["WindImpulse"] = 2, ---@type Enum
+    ["WaterImpulse"] = 3, ---@type Enum
 }

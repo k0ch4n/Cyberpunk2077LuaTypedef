@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorPassiveConditionDefinition: ISerializable
----@field public invert Bool
+---@field public ["invert"] Bool
 AIbehaviorPassiveConditionDefinition = {}

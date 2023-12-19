@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VendorBoughtItemEvent: redEvent
----@field public items gameItemID[]
+---@field public ["items"] gameItemID[]
 VendorBoughtItemEvent = {}
 
 ---@param fields? table

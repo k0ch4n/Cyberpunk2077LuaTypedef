@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InventoryTooltiData_CyberwareUpgradeData: IScriptable
----@field public upgradeQuality gamedataQuality
----@field public isUpgradable Bool
----@field public isRipperdoc Bool
----@field public isUpgradeScreen Bool
----@field public playerComponents Int32
----@field public upgradeCost CyberwareUpgradeCostData
+---@field public ["upgradeQuality"] gamedataQuality
+---@field public ["isUpgradable"] Bool
+---@field public ["isRipperdoc"] Bool
+---@field public ["isUpgradeScreen"] Bool
+---@field public ["playerComponents"] Int32
+---@field public ["upgradeCost"] CyberwareUpgradeCostData
 InventoryTooltiData_CyberwareUpgradeData = {}
 
 ---@param fields? table

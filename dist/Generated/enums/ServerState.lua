@@ -3,8 +3,8 @@
 
 ---@enum ServerState
 ServerState = {
-    ["Inactive"] = 0,
-    ["Active"] = 1,
-    ["Damaged"] = 2,
-    ["Destroyed"] = 3
+    ["Inactive"] = 0, ---@type Enum
+    ["Active"] = 1, ---@type Enum
+    ["Damaged"] = 2, ---@type Enum
+    ["Destroyed"] = 3, ---@type Enum
 }

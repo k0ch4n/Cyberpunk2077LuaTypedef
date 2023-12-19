@@ -18,15 +18,15 @@ function AICoverHelper.new(fields) return end
 ---@return AICoverExposureMethod
 function AICoverHelper.CalculateCoverExposureMethod(puppet, target, coverID, record, lineOfSightTolerance, trackedLocation, exposureMethods) return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return EAICoverAction
 function AICoverHelper.CoverActionNameToEnum(actionName) return end
 
----@param exposureMethodName CName
+---@param exposureMethodName CName|string
 ---@return AICoverExposureMethod
 function AICoverHelper.CoverExposureMethodNameToEnum(exposureMethodName) return end
 
----@param coverHeight CName
+---@param coverHeight CName|string
 ---@return gameCoverHeight
 function AICoverHelper.CoverHeightNameToEnum(coverHeight) return end
 
@@ -161,7 +161,7 @@ function AICoverHelper.HasAnyCoverLastAvailableExposureMethod(puppet) return end
 ---@param ownerPuppet ScriptedPuppet
 ---@param coverID Uint64
 ---@param target gameObject
----@param exposureMethods CName[]
+---@param exposureMethods CName[]|string[]
 ---@return Bool
 function AICoverHelper.HasCoverExposureMethods(ownerPuppet, coverID, target, exposureMethods) return end
 
@@ -184,11 +184,11 @@ function AICoverHelper.IsCurrentlyInShootingSpot(puppet) return end
 ---@return Bool
 function AICoverHelper.IsCurrentlyInSmartObject(puppet) return end
 
----@param exposureMethodName CName
+---@param exposureMethodName CName|string
 ---@return Bool
 function AICoverHelper.IsStandingExposureMethod(exposureMethodName) return end
 
----@param exposureMethodName CName
+---@param exposureMethodName CName|string
 ---@return Bool
 function AICoverHelper.IsUnsafeExposureMethod(exposureMethodName) return end
 
@@ -220,7 +220,7 @@ function AICoverHelper.ReturnHighestPriorityMethods(puppet, record, exposureMeth
 function AICoverHelper.SetCoverExposureMethod(puppet, value) return end
 
 ---@param puppet ScriptedPuppet
----@param value CName
+---@param value CName|string
 ---@return nil
 function AICoverHelper.SetCoverExposureMethod(puppet, value) return end
 
@@ -240,12 +240,12 @@ function AICoverHelper.SetCoverNPCCurrentlyExposed(puppet, value) return end
 function AICoverHelper.SetCurrentCoverStance(puppet, value) return end
 
 ---@param puppet ScriptedPuppet
----@param value CName
+---@param value CName|string
 ---@return nil
 function AICoverHelper.SetCurrentCoverStance(puppet, value) return end
 
 ---@param puppet ScriptedPuppet
----@param value CName
+---@param value CName|string
 ---@return nil
 function AICoverHelper.SetDesiredCoverStance(puppet, value) return end
 

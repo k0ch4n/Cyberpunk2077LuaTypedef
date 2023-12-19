@@ -3,9 +3,9 @@
 
 ---@enum audioNumberOperation
 audioNumberOperation = {
-    ["SetEqual"] = 0,
-    ["Add"] = 1,
-    ["Subtract"] = 2,
-    ["MultiplyBy"] = 3,
-    ["DivideBy"] = 4
+    ["SetEqual"] = 0, ---@type Enum
+    ["Add"] = 1, ---@type Enum
+    ["Subtract"] = 2, ---@type Enum
+    ["MultiplyBy"] = 3, ---@type Enum
+    ["DivideBy"] = 4, ---@type Enum
 }

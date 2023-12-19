@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphOptionColorPicker: inkWidgetLogicController
----@field private grid inkUniformGridWidgetReference
----@field private title inkTextWidgetReference
----@field private option gameuiCharacterCustomizationOption
----@field private selectedIndex Int32
+---@field private ["grid"] inkUniformGridWidgetReference
+---@field private ["title"] inkTextWidgetReference
+---@field private ["option"] gameuiCharacterCustomizationOption
+---@field private ["selectedIndex"] Int32
 characterCreationBodyMorphOptionColorPicker = {}
 
 ---@param fields? table

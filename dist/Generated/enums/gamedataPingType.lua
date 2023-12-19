@@ -3,13 +3,13 @@
 
 ---@enum gamedataPingType
 gamedataPingType = {
-    ["Device"] = 0,
-    ["Door"] = 1,
-    ["Elevator"] = 2,
-    ["Junction"] = 3,
-    ["Location"] = 4,
-    ["Loot"] = 5,
-    ["Trap"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["Device"] = 0, ---@type Enum
+    ["Door"] = 1, ---@type Enum
+    ["Elevator"] = 2, ---@type Enum
+    ["Junction"] = 3, ---@type Enum
+    ["Location"] = 4, ---@type Enum
+    ["Loot"] = 5, ---@type Enum
+    ["Trap"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

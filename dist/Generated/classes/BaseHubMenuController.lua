@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BaseHubMenuController: gameuiWidgetGameController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private menuData IScriptable
+---@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private ["menuData"] IScriptable
 BaseHubMenuController = {}
 
 ---@param fields? table

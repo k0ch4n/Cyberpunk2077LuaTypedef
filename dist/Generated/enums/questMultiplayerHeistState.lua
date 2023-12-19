@@ -3,7 +3,7 @@
 
 ---@enum questMultiplayerHeistState
 questMultiplayerHeistState = {
-    ["Invalid"] = 0,
-    ["Failure"] = 1,
-    ["Victory"] = 2
+    ["Invalid"] = 0, ---@type Enum
+    ["Failure"] = 1, ---@type Enum
+    ["Victory"] = 2, ---@type Enum
 }

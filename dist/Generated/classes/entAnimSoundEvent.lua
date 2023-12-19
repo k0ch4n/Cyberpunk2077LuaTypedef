@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimSoundEvent: entSoundEvent
----@field public metadataContext CName
+---@field public ["metadataContext"] CName
 entAnimSoundEvent = {}
 
 ---@param fields? table

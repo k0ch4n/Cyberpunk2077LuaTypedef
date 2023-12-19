@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVehicleWheelMaterialsMap: audioAudioMetadata
----@field public vehicleWheelMaterials audioVehicleWheelMaterialsMapItem[]
+---@field public ["vehicleWheelMaterials"] audioVehicleWheelMaterialsMapItem[]
 audioVehicleWheelMaterialsMap = {}
 
 ---@param fields? table

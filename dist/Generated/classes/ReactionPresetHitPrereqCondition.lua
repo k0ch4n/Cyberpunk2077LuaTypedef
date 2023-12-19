@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReactionPresetHitPrereqCondition: BaseHitPrereqCondition
----@field public reactionPreset String
+---@field public ["reactionPreset"] String
 ReactionPresetHitPrereqCondition = {}
 
 ---@param fields? table

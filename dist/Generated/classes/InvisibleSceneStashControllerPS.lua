@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InvisibleSceneStashControllerPS: ScriptableDeviceComponentPS
----@field protected storedItems gameItemID[]
+---@field protected ["storedItems"] gameItemID[]
 InvisibleSceneStashControllerPS = {}
 
 ---@param fields? table

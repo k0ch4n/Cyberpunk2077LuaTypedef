@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class communityCommunityEntryPhaseTimePeriodData
----@field public periodName CName
----@field public spotNodeIds worldGlobalNodeID[]
----@field public isSequence Bool
+---@field public ["periodName"] CName
+---@field public ["spotNodeIds"] worldGlobalNodeID[]
+---@field public ["isSequence"] Bool
 communityCommunityEntryPhaseTimePeriodData = {}
 
 ---@param fields? table

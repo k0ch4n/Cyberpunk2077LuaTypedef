@@ -3,6 +3,6 @@
 
 ---@enum scnAdditionalSpeakerRole
 scnAdditionalSpeakerRole = {
-    ["Full"] = 0,
-    ["OnlyLipsync"] = 1
+    ["Full"] = 0, ---@type Enum
+    ["OnlyLipsync"] = 1, ---@type Enum
 }

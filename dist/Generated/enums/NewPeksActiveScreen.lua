@@ -3,10 +3,10 @@
 
 ---@enum NewPeksActiveScreen
 NewPeksActiveScreen = {
-    ["Categories"] = 0,
-    ["Perks"] = 1,
-    ["Espionage"] = 2,
-    ["Skills"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = -1
+    ["Categories"] = 0, ---@type Enum
+    ["Perks"] = 1, ---@type Enum
+    ["Espionage"] = 2, ---@type Enum
+    ["Skills"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

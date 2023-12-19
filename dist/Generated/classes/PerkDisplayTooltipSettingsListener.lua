@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayTooltipSettingsListener: userSettingsVarListener
----@field private ctrl PerkDisplayTooltipController
+---@field private ["ctrl"] PerkDisplayTooltipController
 PerkDisplayTooltipSettingsListener = {}
 
 ---@param fields? table
 ---@return PerkDisplayTooltipSettingsListener
 function PerkDisplayTooltipSettingsListener.new(fields) return end
 
----@param groupPath CName
----@param varName CName
+---@param groupPath CName|string
+---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil

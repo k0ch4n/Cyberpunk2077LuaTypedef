@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExposureCompensationAreaSettings: IAreaSettings
----@field public exposureCompensation Float
+---@field public ["exposureCompensation"] Float
 ExposureCompensationAreaSettings = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animSimpleBounceTransformOutput_ChannelEntry
----@field public transformChannel animTransformChannel
----@field public multiplier Float
+---@field public ["transformChannel"] animTransformChannel
+---@field public ["multiplier"] Float
 animSimpleBounceTransformOutput_ChannelEntry = {}
 
 ---@param fields? table

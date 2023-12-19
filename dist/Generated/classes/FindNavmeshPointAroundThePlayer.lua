@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FindNavmeshPointAroundThePlayer: AIbehaviortaskScript
----@field public outPositionArgument AIArgumentMapping
+---@field public ["outPositionArgument"] AIArgumentMapping
 FindNavmeshPointAroundThePlayer = {}
 
 ---@param fields? table

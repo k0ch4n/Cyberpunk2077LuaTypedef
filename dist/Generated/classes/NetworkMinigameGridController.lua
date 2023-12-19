@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class NetworkMinigameGridController: inkWidgetLogicController
----@field protected gridContainer inkWidgetReference
----@field protected horizontalHoverHighlight inkWidgetReference
----@field protected horizontalCurrentHighlight inkWidgetReference
----@field protected verticalHoverHighlight inkWidgetReference
----@field protected verticalCurrentHighlight inkWidgetReference
----@field protected gridVisualOffset Vector2
----@field protected gridCellLibraryName CName
----@field public gridData CellData[]
----@field public lastSelected CellData
----@field public currentActivePosition Vector2
----@field public isHorizontalHighlight Bool
----@field public lastHighlighted CellData
----@field private animProxy inkanimProxy
----@field private animHighlightProxy inkanimProxy
----@field private firstBoot Bool
----@field private isHorizontal Bool
+---@field protected ["gridContainer"] inkWidgetReference
+---@field protected ["horizontalHoverHighlight"] inkWidgetReference
+---@field protected ["horizontalCurrentHighlight"] inkWidgetReference
+---@field protected ["verticalHoverHighlight"] inkWidgetReference
+---@field protected ["verticalCurrentHighlight"] inkWidgetReference
+---@field protected ["gridVisualOffset"] Vector2
+---@field protected ["gridCellLibraryName"] CName
+---@field public ["gridData"] CellData[]
+---@field public ["lastSelected"] CellData
+---@field public ["currentActivePosition"] Vector2
+---@field public ["isHorizontalHighlight"] Bool
+---@field public ["lastHighlighted"] CellData
+---@field private ["animProxy"] inkanimProxy
+---@field private ["animHighlightProxy"] inkanimProxy
+---@field private ["firstBoot"] Bool
+---@field private ["isHorizontal"] Bool
 NetworkMinigameGridController = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum toolsMessageVerbosity
 toolsMessageVerbosity = {
-    ["Normal"] = 0,
-    ["Verbose"] = 1
+    ["Normal"] = 0, ---@type Enum
+    ["Verbose"] = 1, ---@type Enum
 }

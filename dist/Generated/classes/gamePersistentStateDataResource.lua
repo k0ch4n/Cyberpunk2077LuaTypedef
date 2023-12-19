@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePersistentStateDataResource: CResource
----@field public buffer DataBuffer
+---@field public ["buffer"] DataBuffer
 gamePersistentStateDataResource = {}
 
 ---@param fields? table

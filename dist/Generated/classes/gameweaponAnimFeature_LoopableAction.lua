@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameweaponAnimFeature_LoopableAction: animAnimFeature
----@field public loopDuration Float
----@field public numLoops Uint8
----@field public isActive Bool
+---@field public ["loopDuration"] Float
+---@field public ["numLoops"] Uint8
+---@field public ["isActive"] Bool
 gameweaponAnimFeature_LoopableAction = {}
 
 ---@param fields? table

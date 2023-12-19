@@ -3,6 +3,6 @@
 
 ---@enum scnBraindancePerspective
 scnBraindancePerspective = {
-    ["FirstPerson"] = 0,
-    ["ThirdPerson"] = 1
+    ["FirstPerson"] = 0, ---@type Enum
+    ["ThirdPerson"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PassiveCannotMoveConditions: PassiveAutonomousCondition
----@field protected statusEffectRemovedId Uint32
+---@field protected ["statusEffectRemovedId"] Uint32
 PassiveCannotMoveConditions = {}
 
 ---@param fields? table

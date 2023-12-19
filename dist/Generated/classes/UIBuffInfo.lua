@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIBuffInfo: gameuiBuffInfo
----@field public isBuff Bool
+---@field public ["isBuff"] Bool
 UIBuffInfo = {}
 
 ---@param fields? table

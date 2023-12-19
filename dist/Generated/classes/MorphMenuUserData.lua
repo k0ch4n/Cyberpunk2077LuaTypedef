@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MorphMenuUserData: inkUserData
----@field public optionsListInitialized Bool
----@field public updatingFinalizedState Bool
----@field public editMode gameuiCharacterCustomizationEditTag
+---@field public ["optionsListInitialized"] Bool
+---@field public ["updatingFinalizedState"] Bool
+---@field public ["editMode"] gameuiCharacterCustomizationEditTag
 MorphMenuUserData = {}
 
 ---@param fields? table

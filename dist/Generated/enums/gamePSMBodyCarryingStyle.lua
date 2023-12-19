@@ -3,9 +3,9 @@
 
 ---@enum gamePSMBodyCarryingStyle
 gamePSMBodyCarryingStyle = {
-    ["Any"] = 0,
-    ["Default"] = 1,
-    ["Friendly"] = 2,
-    ["Strong"] = 3,
-    ["WoundedSoldier"] = 4
+    ["Any"] = 0, ---@type Enum
+    ["Default"] = 1, ---@type Enum
+    ["Friendly"] = 2, ---@type Enum
+    ["Strong"] = 3, ---@type Enum
+    ["WoundedSoldier"] = 4, ---@type Enum
 }

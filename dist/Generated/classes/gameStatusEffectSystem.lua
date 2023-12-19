@@ -24,12 +24,12 @@ function gameStatusEffectSystem.ObjectHasStatusEffectOfType(target, statusEffect
 function gameStatusEffectSystem.ObjectHasStatusEffectOfTypeName(target, statusEffectTypeName) return end
 
 ---@param target gameObject
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameStatusEffectSystem.ObjectHasStatusEffectWithTag(target, tag) return end
 
 ---@param target gameObject
----@param tag CName[]
+---@param tag CName[]|string[]
 ---@return Bool
 function gameStatusEffectSystem.ObjectHasStatusEffectWithTags(target, tag) return end
 
@@ -65,7 +65,7 @@ function gameStatusEffectSystem:GetAppliedEffectsOfTypeName(objID, statusEffectT
 function gameStatusEffectSystem:GetAppliedEffectsWithID(objID, statusEffectID) return end
 
 ---@param objID entEntityID
----@param tag CName
+---@param tag CName|string
 ---@return nil, gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffectsWithTag(objID, tag) return end
 
@@ -85,7 +85,7 @@ function gameStatusEffectSystem:HasStatusEffectOfType(objID, statusEffectType) r
 function gameStatusEffectSystem:HasStatusEffectOfTypeName(objID, statusEffectTypeName) return end
 
 ---@param objID entEntityID
----@param tag CName
+---@param tag CName|string
 ---@return Bool
 function gameStatusEffectSystem:HasStatusEffectWithTag(objID, tag) return end
 

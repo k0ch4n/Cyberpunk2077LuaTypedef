@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameReplAnimTransformRequestBase
----@field public applyServerTime netTime
+---@field public ["applyServerTime"] netTime
 gameReplAnimTransformRequestBase = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlaySoundEvent: MusicSettings
----@field protected soundEvent CName
+---@field protected ["soundEvent"] CName
 PlaySoundEvent = {}
 
 ---@param fields? table
@@ -12,6 +12,6 @@ function PlaySoundEvent.new(fields) return end
 ---@return CName
 function PlaySoundEvent:GetSoundName() return end
 
----@param soundname CName
+---@param soundname CName|string
 ---@return nil
 function PlaySoundEvent:SetSoundName(soundname) return end

@@ -3,6 +3,6 @@
 
 ---@enum EUploadProgramState
 EUploadProgramState = {
-    ["STARTED"] = 0,
-    ["COMPLETED"] = 1
+    ["STARTED"] = 0, ---@type Enum
+    ["COMPLETED"] = 1, ---@type Enum
 }

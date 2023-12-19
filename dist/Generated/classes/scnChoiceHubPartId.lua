@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnChoiceHubPartId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnChoiceHubPartId = {}
 
 ---@param fields? table

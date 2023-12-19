@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class NetRunnerChargesGameController: gameuiWidgetGameController
----@field public header inkTextWidgetReference
----@field public list inkCompoundWidgetReference
----@field public bar inkWidgetReference
----@field public value inkTextWidgetReference
----@field private blackboard gameIBlackboard
----@field private bbDefinition UI_PlayerBioMonitorDef
----@field private netrunnerCapacityId Uint32
----@field private netrunnerCurrentId redCallbackObject
----@field private currentCharges Int32
----@field private maxCharges Int32
----@field private chargesList NetRunnerListItem[]
----@field private root inkWidget
+---@field public ["header"] inkTextWidgetReference
+---@field public ["list"] inkCompoundWidgetReference
+---@field public ["bar"] inkWidgetReference
+---@field public ["value"] inkTextWidgetReference
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["bbDefinition"] UI_PlayerBioMonitorDef
+---@field private ["netrunnerCapacityId"] Uint32
+---@field private ["netrunnerCurrentId"] redCallbackObject
+---@field private ["currentCharges"] Int32
+---@field private ["maxCharges"] Int32
+---@field private ["chargesList"] NetRunnerListItem[]
+---@field private ["root"] inkWidget
 NetRunnerChargesGameController = {}
 
 ---@param fields? table

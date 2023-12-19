@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class entIComponent: IScriptable
----@field public name CName
----@field public isReplicable Bool
----@field public id CRUID
+---@field public ["name"] CName
+---@field public ["isReplicable"] Bool
+---@field public ["id"] CRUID
 entIComponent = {}
 
----@param componentName CName
+---@param componentName CName|string
 ---@return entIComponent
 function entIComponent:FindComponentByName(componentName) return end
 
@@ -28,7 +28,7 @@ function entIComponent:IsEnabled() return end
 function entIComponent:QueueEntityEvent(ev) return end
 
 ---@param filterName String
----@param functionName CName
+---@param functionName CName|string
 ---@return nil
 function entIComponent:RegisterRenderDebug(filterName, functionName) return end
 

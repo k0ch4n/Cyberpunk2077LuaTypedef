@@ -3,6 +3,6 @@
 
 ---@enum CoverState
 CoverState = {
-    ["Open"] = 0,
-    ["Closed"] = 1
+    ["Open"] = 0, ---@type Enum
+    ["Closed"] = 1, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDeviceManager_NodeType: questIInteractiveObjectManagerNodeType
----@field public params questDeviceManager_NodeTypeParams[]
+---@field public ["params"] questDeviceManager_NodeTypeParams[]
 questDeviceManager_NodeType = {}
 
 ---@param fields? table

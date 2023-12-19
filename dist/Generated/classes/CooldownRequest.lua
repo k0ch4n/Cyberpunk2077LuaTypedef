@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CooldownRequest: IScriptable
----@field private action BaseScriptableAction
----@field private contactBook PSOwnerData[]
----@field private requestTriggerType RequestType
+---@field private ["action"] BaseScriptableAction
+---@field private ["contactBook"] PSOwnerData[]
+---@field private ["requestTriggerType"] RequestType
 CooldownRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SItemTransaction
----@field public itemStack gameSItemStack
----@field public pricePerItem Int32
+---@field public ["itemStack"] gameSItemStack
+---@field public ["pricePerItem"] Int32
 SItemTransaction = {}
 
 ---@param fields? table

@@ -2,59 +2,59 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphMenu: gameuiBaseCharacterCreationController
----@field public defaultPreviewSlot CName
----@field public optionsList inkCompoundWidgetReference
----@field public colorPicker inkWidgetReference
----@field public colorPickerBG inkWidgetReference
----@field public colorPickerClose inkWidgetReference
----@field public scrollWidget inkWidgetReference
----@field public scrollArea inkScrollAreaWidgetReference
----@field public optionList inkCompoundWidget
----@field public slider inkWidgetReference
----@field public previousPageBtn inkWidgetReference
----@field public previousPageBtnBg inkImageWidgetReference
----@field public previousPageBtnText inkTextWidgetReference
----@field public nextPageBtnBg inkImageWidgetReference
----@field public nextPageBtnText inkTextWidgetReference
----@field public backConfirmation inkWidgetReference
----@field public backConfirmationWidget inkWidgetReference
----@field public ConfirmationConfirmBtn inkWidgetReference
----@field public ConfirmationCloseBtn inkWidgetReference
----@field public preset1Group inkWidgetReference
----@field public preset2Group inkWidgetReference
----@field public preset3Group inkWidgetReference
----@field public randomizeGroup inkWidgetReference
----@field public presetsLabel inkWidgetReference
----@field public preset1 inkWidgetReference
----@field public preset2 inkWidgetReference
----@field public preset3 inkWidgetReference
----@field public randomize inkWidgetReference
----@field public preset1Thumbnail inkImageWidgetReference
----@field public preset2Thumbnail inkImageWidgetReference
----@field public preset3Thumbnail inkImageWidgetReference
----@field public randomizThumbnail inkImageWidgetReference
----@field public preset1Bg inkImageWidgetReference
----@field public preset2Bg inkImageWidgetReference
----@field public preset3Bg inkImageWidgetReference
----@field public randomizBg inkImageWidgetReference
----@field public navigationButtons inkWidgetReference
----@field public hideColorPickerNextFrame Bool
----@field public colorPickerOwner inkWidget
----@field public animationProxy inkanimProxy
----@field public confirmAnimationProxy inkanimProxy
----@field public optionListAnimationProxy inkanimProxy
----@field public optionsListInitialized Bool
----@field public introPlayed Bool
----@field public navigationControllers inkDiscreteNavigationController[]
----@field public menuListController inkListController
----@field public cachedCursor inkWidget
----@field public updatingFinalizedState Bool
----@field public editMode gameuiCharacterCustomizationEditTag
----@field public randomizing Bool
----@field private scrollController inkScrollController
----@field private sliderController inkSliderController
----@field private inputDisabled Bool
----@field private isPresetHoveredOver Bool
+---@field public ["defaultPreviewSlot"] CName
+---@field public ["optionsList"] inkCompoundWidgetReference
+---@field public ["colorPicker"] inkWidgetReference
+---@field public ["colorPickerBG"] inkWidgetReference
+---@field public ["colorPickerClose"] inkWidgetReference
+---@field public ["scrollWidget"] inkWidgetReference
+---@field public ["scrollArea"] inkScrollAreaWidgetReference
+---@field public ["optionList"] inkCompoundWidget
+---@field public ["slider"] inkWidgetReference
+---@field public ["previousPageBtn"] inkWidgetReference
+---@field public ["previousPageBtnBg"] inkImageWidgetReference
+---@field public ["previousPageBtnText"] inkTextWidgetReference
+---@field public ["nextPageBtnBg"] inkImageWidgetReference
+---@field public ["nextPageBtnText"] inkTextWidgetReference
+---@field public ["backConfirmation"] inkWidgetReference
+---@field public ["backConfirmationWidget"] inkWidgetReference
+---@field public ["ConfirmationConfirmBtn"] inkWidgetReference
+---@field public ["ConfirmationCloseBtn"] inkWidgetReference
+---@field public ["preset1Group"] inkWidgetReference
+---@field public ["preset2Group"] inkWidgetReference
+---@field public ["preset3Group"] inkWidgetReference
+---@field public ["randomizeGroup"] inkWidgetReference
+---@field public ["presetsLabel"] inkWidgetReference
+---@field public ["preset1"] inkWidgetReference
+---@field public ["preset2"] inkWidgetReference
+---@field public ["preset3"] inkWidgetReference
+---@field public ["randomize"] inkWidgetReference
+---@field public ["preset1Thumbnail"] inkImageWidgetReference
+---@field public ["preset2Thumbnail"] inkImageWidgetReference
+---@field public ["preset3Thumbnail"] inkImageWidgetReference
+---@field public ["randomizThumbnail"] inkImageWidgetReference
+---@field public ["preset1Bg"] inkImageWidgetReference
+---@field public ["preset2Bg"] inkImageWidgetReference
+---@field public ["preset3Bg"] inkImageWidgetReference
+---@field public ["randomizBg"] inkImageWidgetReference
+---@field public ["navigationButtons"] inkWidgetReference
+---@field public ["hideColorPickerNextFrame"] Bool
+---@field public ["colorPickerOwner"] inkWidget
+---@field public ["animationProxy"] inkanimProxy
+---@field public ["confirmAnimationProxy"] inkanimProxy
+---@field public ["optionListAnimationProxy"] inkanimProxy
+---@field public ["optionsListInitialized"] Bool
+---@field public ["introPlayed"] Bool
+---@field public ["navigationControllers"] inkDiscreteNavigationController[]
+---@field public ["menuListController"] inkListController
+---@field public ["cachedCursor"] inkWidget
+---@field public ["updatingFinalizedState"] Bool
+---@field public ["editMode"] gameuiCharacterCustomizationEditTag
+---@field public ["randomizing"] Bool
+---@field private ["scrollController"] inkScrollController
+---@field private ["sliderController"] inkSliderController
+---@field private ["inputDisabled"] Bool
+---@field private ["isPresetHoveredOver"] Bool
 characterCreationBodyMorphMenu = {}
 
 ---@param fields? table
@@ -274,7 +274,7 @@ function characterCreationBodyMorphMenu:OnUninitialize() return end
 ---@return Bool
 function characterCreationBodyMorphMenu:OnVoiceOverSwitched(widget) return end
 
----@param presetName CName
+---@param presetName CName|string
 ---@param fromInit? Bool
 ---@return nil
 function characterCreationBodyMorphMenu:ApplyUIPreset(presetName, fromInit) return end
@@ -324,8 +324,8 @@ function characterCreationBodyMorphMenu:OnIntro() return end
 ---@return nil
 function characterCreationBodyMorphMenu:OnOutro() return end
 
----@param animName CName
----@param callBack? CName
+---@param animName CName|string
+---@param callBack? CName|string
 ---@param animProxy inkanimProxy
 ---@return nil
 function characterCreationBodyMorphMenu:PlayAnim(animName, callBack, animProxy) return end

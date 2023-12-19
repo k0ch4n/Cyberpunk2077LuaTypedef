@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimEventData
----@field public source gameObject
----@field public stimType gamedataStimType
+---@field public ["source"] gameObject
+---@field public ["stimType"] gamedataStimType
 StimEventData = {}
 
 ---@param fields? table

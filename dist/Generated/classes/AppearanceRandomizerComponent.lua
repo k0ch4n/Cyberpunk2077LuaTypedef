@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AppearanceRandomizerComponent: gameScriptableComponent
----@field public appearances CName[]
----@field public isEnabled Bool
+---@field public ["appearances"] CName[]
+---@field public ["isEnabled"] Bool
 AppearanceRandomizerComponent = {}
 
 ---@param fields? table
@@ -11,7 +11,7 @@ AppearanceRandomizerComponent = {}
 function AppearanceRandomizerComponent.new(fields) return end
 
 ---@private
----@param appearance CName
+---@param appearance CName|string
 ---@return nil
 function AppearanceRandomizerComponent:ApplyAppearance(appearance) return end
 

@@ -3,6 +3,6 @@
 
 ---@enum CustomWeaponWheelSlot
 CustomWeaponWheelSlot = {
-    ["FreeHands"] = 0,
-    ["Fists"] = 1
+    ["FreeHands"] = 0, ---@type Enum
+    ["Fists"] = 1, ---@type Enum
 }

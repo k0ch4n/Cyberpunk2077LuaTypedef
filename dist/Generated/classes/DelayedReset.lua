@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayedReset: gameDelaySystemScriptedDelayCallbackWrapper
----@field private controller CraftingLogicController
+---@field private ["controller"] CraftingLogicController
 DelayedReset = {}
 
 ---@param fields? table

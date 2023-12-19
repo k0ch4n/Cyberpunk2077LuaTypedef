@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameReplAnimTransformPlayRequest: gameReplAnimTransformRequestBase
----@field public animName CName
----@field public timeScale Float
----@field public timesToPlay Int32
+---@field public ["animName"] CName
+---@field public ["timeScale"] Float
+---@field public ["timesToPlay"] Int32
 gameReplAnimTransformPlayRequest = {}
 
 ---@param fields? table

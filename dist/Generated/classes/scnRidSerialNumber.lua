@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidSerialNumber
----@field public serialNumber Uint32
+---@field public ["serialNumber"] Uint32
 scnRidSerialNumber = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class PhoneMessageNotificationsGameController: gameuiWidgetGameController
----@field private maxMessageSize Int32
----@field private title inkTextWidgetReference
----@field private text inkTextWidgetReference
----@field private actionText inkTextWidgetReference
----@field private actionPanel inkWidget
----@field private player PlayerPuppet
----@field private animationProxy inkanimProxy
----@field private data JournalNotificationData
+---@field private ["maxMessageSize"] Int32
+---@field private ["title"] inkTextWidgetReference
+---@field private ["text"] inkTextWidgetReference
+---@field private ["actionText"] inkTextWidgetReference
+---@field private ["actionPanel"] inkWidget
+---@field private ["player"] PlayerPuppet
+---@field private ["animationProxy"] inkanimProxy
+---@field private ["data"] JournalNotificationData
 PhoneMessageNotificationsGameController = {}
 
 ---@param fields? table

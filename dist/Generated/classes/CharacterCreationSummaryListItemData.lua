@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationSummaryListItemData: IScriptable
----@field public label String
----@field public desc String
+---@field public ["label"] String
+---@field public ["desc"] String
 CharacterCreationSummaryListItemData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InputContextSystem: gameScriptableSystem
----@field private activeContext inputContextType
+---@field private ["activeContext"] inputContextType
 InputContextSystem = {}
 
 ---@param fields? table

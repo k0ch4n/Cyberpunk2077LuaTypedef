@@ -3,6 +3,6 @@
 
 ---@enum animCoverState
 animCoverState = {
-    ["LowCover"] = 1,
-    ["HighCover"] = 2
+    ["LowCover"] = 1, ---@type Enum
+    ["HighCover"] = 2, ---@type Enum
 }

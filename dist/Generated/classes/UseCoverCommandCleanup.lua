@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UseCoverCommandCleanup: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field protected ["inCommand"] AIArgumentMapping
 UseCoverCommandCleanup = {}
 
 ---@param fields? table

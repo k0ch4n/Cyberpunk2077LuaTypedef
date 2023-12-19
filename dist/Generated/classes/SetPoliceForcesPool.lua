@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SetPoliceForcesPool: gameScriptableSystemRequest
----@field public disableOnFootSpawn Bool
----@field public disableVehicleSpawn Bool
----@field public disableDroneSpawn Bool
----@field public resetToDefault Bool
----@field public source CName
+---@field public ["disableOnFootSpawn"] Bool
+---@field public ["disableVehicleSpawn"] Bool
+---@field public ["disableDroneSpawn"] Bool
+---@field public ["resetToDefault"] Bool
+---@field public ["source"] CName
 SetPoliceForcesPool = {}
 
 ---@param fields? table

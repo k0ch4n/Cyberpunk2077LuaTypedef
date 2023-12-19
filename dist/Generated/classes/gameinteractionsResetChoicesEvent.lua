@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsResetChoicesEvent: redEvent
----@field public layer CName
+---@field public ["layer"] CName
 gameinteractionsResetChoicesEvent = {}
 
 ---@param fields? table

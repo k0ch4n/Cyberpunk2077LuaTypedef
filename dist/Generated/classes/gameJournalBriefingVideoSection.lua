@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalBriefingVideoSection: gameJournalBriefingBaseSection
----@field public videoResource Bink
+---@field public ["videoResource"] Bink
 gameJournalBriefingVideoSection = {}
 
 ---@param fields? table

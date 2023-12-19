@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameContainerObjectAnimated: gameContainerObjectBase
----@field public animFeatureName CName
+---@field public ["animFeatureName"] CName
 gameContainerObjectAnimated = {}
 
 ---@param fields? table

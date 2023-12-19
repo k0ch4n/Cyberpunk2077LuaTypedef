@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class MineBarrageProjectile: BaseProjectile
----@field private landIndicatorFX gameFxResource
----@field public fxInstance gameFxInstance
----@field public visualComponent entMeshComponent
----@field public onGround Bool
----@field public onGroundTimer Float
----@field public weapon gameweaponObject
----@field public attack_record gamedataAttack_Record
----@field public detonationTimer Float
----@field public explosionRadius Float
----@field public playerPuppet PlayerPuppet
+---@field private ["landIndicatorFX"] gameFxResource
+---@field public ["fxInstance"] gameFxInstance
+---@field public ["visualComponent"] entMeshComponent
+---@field public ["onGround"] Bool
+---@field public ["onGroundTimer"] Float
+---@field public ["weapon"] gameweaponObject
+---@field public ["attack_record"] gamedataAttack_Record
+---@field public ["detonationTimer"] Float
+---@field public ["explosionRadius"] Float
+---@field public ["playerPuppet"] PlayerPuppet
 MineBarrageProjectile = {}
 
 ---@param fields? table

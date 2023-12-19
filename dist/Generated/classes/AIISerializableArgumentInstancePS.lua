@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIISerializableArgumentInstancePS: AIArgumentInstancePS
----@field public value ISerializable
+---@field public ["value"] ISerializable
 AIISerializableArgumentInstancePS = {}
 
 ---@param fields? table

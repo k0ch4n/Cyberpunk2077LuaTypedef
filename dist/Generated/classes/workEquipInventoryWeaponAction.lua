@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class workEquipInventoryWeaponAction: workIWorkspotItemAction
----@field public weaponType workWeaponType
----@field public keepEquippedAfterExit Bool
----@field public fallbackItem TweakDBID
----@field public fallbackSlot TweakDBID
+---@field public ["weaponType"] workWeaponType
+---@field public ["keepEquippedAfterExit"] Bool
+---@field public ["fallbackItem"] TweakDBID
+---@field public ["fallbackSlot"] TweakDBID
 workEquipInventoryWeaponAction = {}
 
 ---@param fields? table

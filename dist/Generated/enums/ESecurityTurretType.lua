@@ -3,5 +3,5 @@
 
 ---@enum ESecurityTurretType
 ESecurityTurretType = {
-    ["SIMPLE"] = 0
+    ["SIMPLE"] = 0, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetAsCrowdObstacle_NodeTypeParams
----@field public puppetRef gameEntityReference
----@field public enable Bool
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["enable"] Bool
 questSetAsCrowdObstacle_NodeTypeParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAudioMixNodeType: questIAudioNodeType
----@field public mixSignpost CName
+---@field public ["mixSignpost"] CName
 questAudioMixNodeType = {}
 
 ---@param fields? table

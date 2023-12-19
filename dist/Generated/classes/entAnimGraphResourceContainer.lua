@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimGraphResourceContainer: entIComponent
----@field public animGraphLookupTable entAnimGraphResourceContainerEntry[]
+---@field public ["animGraphLookupTable"] entAnimGraphResourceContainerEntry[]
 entAnimGraphResourceContainer = {}
 
 ---@param fields? table

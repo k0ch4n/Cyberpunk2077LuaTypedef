@@ -10,23 +10,23 @@ function gameGodModeSystem.new(fields) return end
 
 ---@param entID entEntityID
 ---@param gmType gameGodModeType
----@param sourceInfo CName
+---@param sourceInfo CName|string
 ---@return Bool
 function gameGodModeSystem:AddGodMode(entID, gmType, sourceInfo) return end
 
 ---@param entID entEntityID
----@param sourceInfo CName
+---@param sourceInfo CName|string
 ---@return nil
 function gameGodModeSystem:ClearGodMode(entID, sourceInfo) return end
 
 ---@param entID entEntityID
----@param sourceInfo CName
+---@param sourceInfo CName|string
 ---@return Bool
 function gameGodModeSystem:DisableOverride(entID, sourceInfo) return end
 
 ---@param entID entEntityID
 ---@param gmType gameGodModeType
----@param sourceInfo CName
+---@param sourceInfo CName|string
 ---@return Bool
 function gameGodModeSystem:EnableOverride(entID, gmType, sourceInfo) return end
 
@@ -47,6 +47,6 @@ function gameGodModeSystem:HasGodMode(entID, gmType) return end
 
 ---@param entID entEntityID
 ---@param gmType gameGodModeType
----@param sourceInfo CName
+---@param sourceInfo CName|string
 ---@return Bool
 function gameGodModeSystem:RemoveGodMode(entID, gmType, sourceInfo) return end

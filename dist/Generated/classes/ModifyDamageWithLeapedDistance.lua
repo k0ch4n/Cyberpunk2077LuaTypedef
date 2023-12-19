@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageWithLeapedDistance: ModifyDamageEffector
----@field public maxPercentMult Float
----@field public minDistance Float
----@field public maxDistance Float
+---@field public ["maxPercentMult"] Float
+---@field public ["minDistance"] Float
+---@field public ["maxDistance"] Float
 ModifyDamageWithLeapedDistance = {}
 
 ---@param fields? table

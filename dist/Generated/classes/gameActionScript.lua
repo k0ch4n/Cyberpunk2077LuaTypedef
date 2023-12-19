@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameActionScript: gameIObjectScriptBase
----@field public actionFlags Uint32
+---@field public ["actionFlags"] Uint32
 gameActionScript = {}
 
 ---@param fields? table

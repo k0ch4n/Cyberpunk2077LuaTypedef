@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TVResaveData
----@field public mediaResaveData MediaResaveData
----@field public channels STvChannel[]
----@field public securedText CName
----@field public muteInterface Bool
----@field public useWhiteNoiseFX Bool
+---@field public ["mediaResaveData"] MediaResaveData
+---@field public ["channels"] STvChannel[]
+---@field public ["securedText"] CName
+---@field public ["muteInterface"] Bool
+---@field public ["useWhiteNoiseFX"] Bool
 TVResaveData = {}
 
 ---@param fields? table

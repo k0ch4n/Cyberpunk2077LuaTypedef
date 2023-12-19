@@ -38,11 +38,11 @@ function AICombatSquadScriptInterface:GetTacticRatio() return end
 ---@return Bool
 function AICombatSquadScriptInterface:IsEnemy(potentialEnemy) return end
 
----@param sourceSquadName CName
+---@param sourceSquadName CName|string
 ---@return nil
 function AICombatSquadScriptInterface:PullEnemies(sourceSquadName) return end
 
----@param sqAction CName
+---@param sqAction CName|string
 ---@param sectors AICombatSectorType[]
 ---@param alley AICombatAlley
 ---@param timeout Float
@@ -58,7 +58,7 @@ function AICombatSquadScriptInterface:RemoveEnemy(et) return end
 ---@return nil
 function AICombatSquadScriptInterface:SetAsEnemyAttacker(squadMember, enemy) return end
 
----@param sqAction CName
+---@param sqAction CName|string
 ---@return nil
 function AICombatSquadScriptInterface:UnregisterTactic(sqAction) return end
 

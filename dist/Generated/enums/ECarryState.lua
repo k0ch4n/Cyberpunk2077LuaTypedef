@@ -3,13 +3,13 @@
 
 ---@enum ECarryState
 ECarryState = {
-    ["None"] = 0,
-    ["Pickup"] = 1,
-    ["Carry"] = 2,
-    ["Drop"] = 3,
-    ["Release"] = 4,
-    ["Dispose"] = 5,
-    ["Jump"] = 6,
-    ["Aim"] = 7,
-    ["Throw"] = 8
+    ["None"] = 0, ---@type Enum
+    ["Pickup"] = 1, ---@type Enum
+    ["Carry"] = 2, ---@type Enum
+    ["Drop"] = 3, ---@type Enum
+    ["Release"] = 4, ---@type Enum
+    ["Dispose"] = 5, ---@type Enum
+    ["Jump"] = 6, ---@type Enum
+    ["Aim"] = 7, ---@type Enum
+    ["Throw"] = 8, ---@type Enum
 }

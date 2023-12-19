@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioCombatVoTriggerVariationsMapItem
----@field public name CName
----@field public numberOfVariations Int32
----@field public shuffle Bool
+---@field public ["name"] CName
+---@field public ["numberOfVariations"] Int32
+---@field public ["shuffle"] Bool
 audioCombatVoTriggerVariationsMapItem = {}
 
 ---@param fields? table

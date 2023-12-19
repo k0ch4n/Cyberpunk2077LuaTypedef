@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animOverrideAnimSetRef
----@field public animSet animAnimSet
----@field public variableName CName
+---@field public ["animSet"] animAnimSet
+---@field public ["variableName"] CName
 animOverrideAnimSetRef = {}
 
 ---@param fields? table

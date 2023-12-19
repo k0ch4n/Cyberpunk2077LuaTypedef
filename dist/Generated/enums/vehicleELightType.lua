@@ -3,13 +3,13 @@
 
 ---@enum vehicleELightType
 vehicleELightType = {
-    ["Head"] = 1,
-    ["Brake"] = 2,
-    ["LeftBlinker"] = 4,
-    ["RightBlinker"] = 8,
-    ["Reverse"] = 16,
-    ["Interior"] = 32,
-    ["Utility"] = 64,
-    ["Default"] = 47,
-    ["Blinkers"] = 12
+    ["Head"] = 1, ---@type Enum
+    ["Brake"] = 2, ---@type Enum
+    ["LeftBlinker"] = 4, ---@type Enum
+    ["RightBlinker"] = 8, ---@type Enum
+    ["Reverse"] = 16, ---@type Enum
+    ["Interior"] = 32, ---@type Enum
+    ["Utility"] = 64, ---@type Enum
+    ["Default"] = 47, ---@type Enum
+    ["Blinkers"] = 12, ---@type Enum
 }

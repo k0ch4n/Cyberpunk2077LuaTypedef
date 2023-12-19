@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorColorStartEnd: IEvaluatorColor
----@field public start Color
----@field public end Color
+---@field public ["start"] Color
+---@field public ["end"] Color
 CEvaluatorColorStartEnd = {}
 
 ---@param fields? table

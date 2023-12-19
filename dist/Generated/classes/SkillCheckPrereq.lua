@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SkillCheckPrereq: DevelopmentCheckPrereq
----@field protected skillToCheck gamedataProficiencyType
+---@field protected ["skillToCheck"] gamedataProficiencyType
 SkillCheckPrereq = {}
 
 ---@param fields? table

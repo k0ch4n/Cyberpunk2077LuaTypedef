@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiDriverCombatMountedMissileLauncherCrosshairGameController: gameuiCrosshairBaseGameController
----@field private lockingAnimationWidget inkWidgetReference
----@field private lockingAnimationProxy inkanimProxy
----@field private psmTrackedTargetChangedCallback redCallbackObject
----@field private currentTarget entIPlacedComponent
+---@field private ["lockingAnimationWidget"] inkWidgetReference
+---@field private ["lockingAnimationProxy"] inkanimProxy
+---@field private ["psmTrackedTargetChangedCallback"] redCallbackObject
+---@field private ["currentTarget"] entIPlacedComponent
 gameuiDriverCombatMountedMissileLauncherCrosshairGameController = {}
 
 ---@param fields? table

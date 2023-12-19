@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UI_CraftingDef: gamebbScriptDefinition
----@field public lastCommand gamebbScriptID_Variant
----@field public lastItem gamebbScriptID_Variant
----@field public lastIngredients gamebbScriptID_Variant
+---@field public ["lastCommand"] gamebbScriptID_Variant
+---@field public ["lastItem"] gamebbScriptID_Variant
+---@field public ["lastIngredients"] gamebbScriptID_Variant
 UI_CraftingDef = {}
 
 ---@param fields? table

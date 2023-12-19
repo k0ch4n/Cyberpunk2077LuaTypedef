@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEntityTemplateDefaultAppearancePreset: ISerializable
----@field public defaultAppearancePresets gameDefaultAppearancePreset_Entity[]
+---@field public ["defaultAppearancePresets"] gameDefaultAppearancePreset_Entity[]
 gameEntityTemplateDefaultAppearancePreset = {}
 
 ---@param fields? table

@@ -3,7 +3,7 @@
 
 ---@enum EFilterType
 EFilterType = {
-    ["ALLOW_NONE"] = 0,
-    ["ALLOW_COMBAT_ONLY"] = 1,
-    ["ALLOW_ALL"] = 2
+    ["ALLOW_NONE"] = 0, ---@type Enum
+    ["ALLOW_COMBAT_ONLY"] = 1, ---@type Enum
+    ["ALLOW_ALL"] = 2, ---@type Enum
 }

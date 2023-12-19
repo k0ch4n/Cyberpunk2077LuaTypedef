@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputState
----@field public frameId Uint32
+---@field public ["frameId"] Uint32
 gameMuppetInputState = {}
 
 ---@param fields? table

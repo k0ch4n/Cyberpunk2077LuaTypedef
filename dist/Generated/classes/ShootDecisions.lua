@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShootDecisions: WeaponTransition
----@field public stateBodyDone Bool
+---@field public ["stateBodyDone"] Bool
 ShootDecisions = {}
 
 ---@param fields? table

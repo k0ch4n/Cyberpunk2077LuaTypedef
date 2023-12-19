@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LoadEquipmentSetRequest: gamePlayerScriptableSystemRequest
----@field public setName String
+---@field public ["setName"] String
 LoadEquipmentSetRequest = {}
 
 ---@param fields? table

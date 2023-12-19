@@ -3,10 +3,10 @@
 
 ---@enum animCompareFunc
 animCompareFunc = {
-    ["Equal"] = 0,
-    ["NotEqual"] = 1,
-    ["Less"] = 2,
-    ["LessEqual"] = 3,
-    ["Greater"] = 4,
-    ["GreaterEqual"] = 5
+    ["Equal"] = 0, ---@type Enum
+    ["NotEqual"] = 1, ---@type Enum
+    ["Less"] = 2, ---@type Enum
+    ["LessEqual"] = 3, ---@type Enum
+    ["Greater"] = 4, ---@type Enum
+    ["GreaterEqual"] = 5, ---@type Enum
 }

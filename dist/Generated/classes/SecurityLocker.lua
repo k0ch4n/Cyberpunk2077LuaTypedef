@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityLocker: InteractiveDevice
----@field private cachedEvent UseSecurityLocker
+---@field private ["cachedEvent"] UseSecurityLocker
 SecurityLocker = {}
 
 ---@param fields? table

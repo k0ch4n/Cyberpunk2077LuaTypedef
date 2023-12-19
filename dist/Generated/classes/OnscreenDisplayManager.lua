@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnscreenDisplayManager: inkWidgetLogicController
----@field protected contentText inkTextWidgetReference
+---@field protected ["contentText"] inkTextWidgetReference
 OnscreenDisplayManager = {}
 
 ---@param fields? table

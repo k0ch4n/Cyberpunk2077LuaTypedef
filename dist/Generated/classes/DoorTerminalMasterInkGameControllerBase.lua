@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DoorTerminalMasterInkGameControllerBase: MasterDeviceInkGameControllerBase
----@field protected currentlyActiveDevices gamePersistentID[]
+---@field protected ["currentlyActiveDevices"] gamePersistentID[]
 DoorTerminalMasterInkGameControllerBase = {}
 
 ---@param fields? table

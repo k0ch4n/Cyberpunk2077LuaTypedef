@@ -3,8 +3,8 @@
 
 ---@enum gameEAreaType
 gameEAreaType = {
-    ["NONE"] = 0,
-    ["LOCATION"] = 1,
-    ["AFFILIATION"] = 2,
-    ["COUNT"] = 3
+    ["NONE"] = 0, ---@type Enum
+    ["LOCATION"] = 1, ---@type Enum
+    ["AFFILIATION"] = 2, ---@type Enum
+    ["COUNT"] = 3, ---@type Enum
 }

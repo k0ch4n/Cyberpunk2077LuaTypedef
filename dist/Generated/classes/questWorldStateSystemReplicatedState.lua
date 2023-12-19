@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questWorldStateSystemReplicatedState
----@field public nodeVisibilityMapArray questNodeVisibilityMapArrayElement[]
----@field public isInMirrorsAreaMapArray questIsInMirrorsAreaMapArrayElement[]
----@field public nodeCollisionMapArray questNodeCollisionMapArrayElement[]
----@field public prefabVariants questPrefabVariantMapArrayElement[]
+---@field public ["nodeVisibilityMapArray"] questNodeVisibilityMapArrayElement[]
+---@field public ["isInMirrorsAreaMapArray"] questIsInMirrorsAreaMapArrayElement[]
+---@field public ["nodeCollisionMapArray"] questNodeCollisionMapArrayElement[]
+---@field public ["prefabVariants"] questPrefabVariantMapArrayElement[]
 questWorldStateSystemReplicatedState = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ElevatorTerminalFakeGameController: DeviceInkGameControllerBase
----@field private elevatorTerminalWidget inkCanvasWidgetReference
+---@field private ["elevatorTerminalWidget"] inkCanvasWidgetReference
 ElevatorTerminalFakeGameController = {}
 
 ---@param fields? table

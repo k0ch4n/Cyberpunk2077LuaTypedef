@@ -3,10 +3,10 @@
 
 ---@enum NewPerksWireState
 NewPerksWireState = {
-    ["Default"] = 0,
-    ["Available"] = 1,
-    ["Bought"] = 2,
-    ["Count"] = 3,
-    ["All"] = 4,
-    ["Invalid"] = -1
+    ["Default"] = 0, ---@type Enum
+    ["Available"] = 1, ---@type Enum
+    ["Bought"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["All"] = 4, ---@type Enum
+    ["Invalid"] = -1, ---@type Enum
 }

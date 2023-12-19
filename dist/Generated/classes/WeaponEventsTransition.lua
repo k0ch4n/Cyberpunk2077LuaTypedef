@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponEventsTransition: WeaponTransition
----@field protected scriptInterface gamestateMachineGameScriptInterface
----@field private statusEffectListener DefaultTransitionStatusEffectListener
+---@field protected ["scriptInterface"] gamestateMachineGameScriptInterface
+---@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
 WeaponEventsTransition = {}
 
 ---@protected

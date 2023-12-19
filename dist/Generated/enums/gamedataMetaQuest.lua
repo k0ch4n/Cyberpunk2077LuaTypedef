@@ -3,9 +3,9 @@
 
 ---@enum gamedataMetaQuest
 gamedataMetaQuest = {
-    ["MetaQuest1"] = 0,
-    ["MetaQuest2"] = 1,
-    ["MetaQuest3"] = 2,
-    ["Count"] = 3,
-    ["Invalid"] = 4
+    ["MetaQuest1"] = 0, ---@type Enum
+    ["MetaQuest2"] = 1, ---@type Enum
+    ["MetaQuest3"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
+    ["Invalid"] = 4, ---@type Enum
 }

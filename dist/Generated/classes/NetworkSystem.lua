@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class NetworkSystem: gameScriptableSystem
----@field private networkLinks SNetworkLinkData[]
----@field private networkRevealTargets entEntityID[]
----@field private networkRevealTargetsLastSession entEntityID[]
----@field private sessionStarted Bool
----@field private visionModeChangedCallback redCallbackObject
----@field private focusModeToggleCallback redCallbackObject
----@field private playerSpawnCallback Uint32
----@field private currentPlayerTargetCallbackID redCallbackObject
----@field private lastTargetSlaveID entEntityID
----@field private lastTargetMasterID entEntityID
----@field private unregisterLinksRequestDelay gameDelayID
----@field private focusModeActive Bool
----@field private lastBeamResource gameFxResource
----@field private pingNetworkEffect gameEffectInstance
----@field private pingCachedData PingCachedData
----@field private lastPingSourceID entEntityID
----@field private activePings PingCachedData[]
----@field private pingedSquads CName[]
----@field private pingLinksCounter Int32
----@field private networkPresetTBDID TweakDBID
----@field private networkPresetRecord gamedataNetworkPingingParameteres_Record
----@field private backdoors gamePersistentID[]
----@field private revealedBackdoorsCount Int32
----@field private debugCashedPingFxResource gameFxResource
----@field private debugQueryNumber Int32
----@field private activateLinksDelayID gameDelayID
----@field private deactivateLinksDelayID gameDelayID
+---@field private ["networkLinks"] SNetworkLinkData[]
+---@field private ["networkRevealTargets"] entEntityID[]
+---@field private ["networkRevealTargetsLastSession"] entEntityID[]
+---@field private ["sessionStarted"] Bool
+---@field private ["visionModeChangedCallback"] redCallbackObject
+---@field private ["focusModeToggleCallback"] redCallbackObject
+---@field private ["playerSpawnCallback"] Uint32
+---@field private ["currentPlayerTargetCallbackID"] redCallbackObject
+---@field private ["lastTargetSlaveID"] entEntityID
+---@field private ["lastTargetMasterID"] entEntityID
+---@field private ["unregisterLinksRequestDelay"] gameDelayID
+---@field private ["focusModeActive"] Bool
+---@field private ["lastBeamResource"] gameFxResource
+---@field private ["pingNetworkEffect"] gameEffectInstance
+---@field private ["pingCachedData"] PingCachedData
+---@field private ["lastPingSourceID"] entEntityID
+---@field private ["activePings"] PingCachedData[]
+---@field private ["pingedSquads"] CName[]
+---@field private ["pingLinksCounter"] Int32
+---@field private ["networkPresetTBDID"] TweakDBID
+---@field private ["networkPresetRecord"] gamedataNetworkPingingParameteres_Record
+---@field private ["backdoors"] gamePersistentID[]
+---@field private ["revealedBackdoorsCount"] Int32
+---@field private ["debugCashedPingFxResource"] gameFxResource
+---@field private ["debugQueryNumber"] Int32
+---@field private ["activateLinksDelayID"] gameDelayID
+---@field private ["deactivateLinksDelayID"] gameDelayID
 NetworkSystem = {}
 
 ---@param fields? table
@@ -142,7 +142,7 @@ function NetworkSystem:AddNetworkLink(linkData) return end
 function NetworkSystem:AddNetworkRevealTarget(target) return end
 
 ---@private
----@param squadName CName
+---@param squadName CName|string
 ---@return nil
 function NetworkSystem:AddPingedSquad(squadName) return end
 
@@ -561,7 +561,7 @@ function NetworkSystem:IsPingLinksLimitReached() return end
 ---@return Bool
 function NetworkSystem:IsSlaveInNetwork(id) return end
 
----@param squadName CName
+---@param squadName CName|string
 ---@return Bool
 function NetworkSystem:IsSquadMarkedWithPing(squadName) return end
 
@@ -860,7 +860,7 @@ function NetworkSystem:RemovePingLinksBySourceAndFxResource(sourceID, fxResource
 function NetworkSystem:RemovePingLinksBySourceAndType(linkType, sourceID) return end
 
 ---@private
----@param squadName CName
+---@param squadName CName|string
 ---@return nil
 function NetworkSystem:RemovePingedSquad(squadName) return end
 

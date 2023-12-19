@@ -3,7 +3,7 @@
 
 ---@enum worlduiEntryVisibility
 worlduiEntryVisibility = {
-    ["TierVisibility"] = 0,
-    ["ForceShow"] = 1,
-    ["ForceHide"] = 2
+    ["TierVisibility"] = 0, ---@type Enum
+    ["ForceShow"] = 1, ---@type Enum
+    ["ForceHide"] = 2, ---@type Enum
 }

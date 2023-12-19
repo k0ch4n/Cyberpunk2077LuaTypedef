@@ -3,7 +3,7 @@
 
 ---@enum questBlockAction
 questBlockAction = {
-    ["Block"] = 0,
-    ["Unblock"] = 1,
-    ["UnblockAll"] = 2
+    ["Block"] = 0, ---@type Enum
+    ["Unblock"] = 1, ---@type Enum
+    ["UnblockAll"] = 2, ---@type Enum
 }

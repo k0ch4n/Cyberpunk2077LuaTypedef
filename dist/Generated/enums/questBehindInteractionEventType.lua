@@ -3,9 +3,9 @@
 
 ---@enum questBehindInteractionEventType
 questBehindInteractionEventType = {
-    ["Undefined"] = 0,
-    ["StartedBeingBehind"] = 1,
-    ["StoppedBeingBehind"] = 2,
-    ["IsBehind"] = 3,
-    ["IsNotBehind"] = 4
+    ["Undefined"] = 0, ---@type Enum
+    ["StartedBeingBehind"] = 1, ---@type Enum
+    ["StoppedBeingBehind"] = 2, ---@type Enum
+    ["IsBehind"] = 3, ---@type Enum
+    ["IsNotBehind"] = 4, ---@type Enum
 }

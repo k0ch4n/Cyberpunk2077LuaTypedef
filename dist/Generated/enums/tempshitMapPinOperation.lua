@@ -3,7 +3,7 @@
 
 ---@enum tempshitMapPinOperation
 tempshitMapPinOperation = {
-    ["Undefined"] = 0,
-    ["Add"] = 1,
-    ["Remove"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Add"] = 1, ---@type Enum
+    ["Remove"] = 2, ---@type Enum
 }

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterPlatformImageDetail
----@field public platformImage inkWidgetReference
+---@field public ["platformImage"] inkWidgetReference
 gameuiarcadeShooterPlatformImageDetail = {}
 
 ---@param fields? table

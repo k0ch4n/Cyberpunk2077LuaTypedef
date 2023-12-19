@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactTextGameController: gameuiWidgetGameController
----@field private factTextArray FactTextStruct[]
+---@field private ["factTextArray"] FactTextStruct[]
 FactTextGameController = {}
 
 ---@param fields? table

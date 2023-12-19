@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimPlayVideoEvent: inkanimEvent
----@field public videoResource Bink
+---@field public ["videoResource"] Bink
 inkanimPlayVideoEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetHealthState
----@field public health Float
+---@field public ["health"] Float
 gameMuppetHealthState = {}
 
 ---@param fields? table

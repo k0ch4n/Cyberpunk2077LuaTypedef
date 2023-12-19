@@ -3,7 +3,7 @@
 
 ---@enum worldPrefabProxyMeshOnly
 worldPrefabProxyMeshOnly = {
-    ["SettingFromResource"] = 0,
-    ["Enabled"] = 1,
-    ["Disabled"] = 2
+    ["SettingFromResource"] = 0, ---@type Enum
+    ["Enabled"] = 1, ---@type Enum
+    ["Disabled"] = 2, ---@type Enum
 }

@@ -3,11 +3,11 @@
 
 ---@enum inkEToggleState
 inkEToggleState = {
-    ["Normal"] = 0,
-    ["Press"] = 1,
-    ["Hover"] = 2,
-    ["Disabled"] = 3,
-    ["Toggled"] = 4,
-    ["ToggledPress"] = 5,
-    ["ToggledHover"] = 6
+    ["Normal"] = 0, ---@type Enum
+    ["Press"] = 1, ---@type Enum
+    ["Hover"] = 2, ---@type Enum
+    ["Disabled"] = 3, ---@type Enum
+    ["Toggled"] = 4, ---@type Enum
+    ["ToggledPress"] = 5, ---@type Enum
+    ["ToggledHover"] = 6, ---@type Enum
 }

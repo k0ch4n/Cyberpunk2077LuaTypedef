@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSceneLocation
----@field public sceneWorldMarkerTag CName
+---@field public ["sceneWorldMarkerTag"] CName
 questSceneLocation = {}
 
 ---@param fields? table

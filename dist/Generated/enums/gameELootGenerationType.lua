@@ -3,8 +3,8 @@
 
 ---@enum gameELootGenerationType
 gameELootGenerationType = {
-    ["DropChance"] = 0,
-    ["NumberBased"] = 1,
-    ["Weights"] = 2,
-    ["Count"] = 3
+    ["DropChance"] = 0, ---@type Enum
+    ["NumberBased"] = 1, ---@type Enum
+    ["Weights"] = 2, ---@type Enum
+    ["Count"] = 3, ---@type Enum
 }

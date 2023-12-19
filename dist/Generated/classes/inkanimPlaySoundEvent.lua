@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimPlaySoundEvent: inkanimEvent
----@field public soundEventName CName
+---@field public ["soundEventName"] CName
 inkanimPlaySoundEvent = {}
 
 ---@param fields? table

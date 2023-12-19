@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ForceCLSStateRequest: gameScriptableSystemRequest
----@field public state ECLSForcedState
----@field public sourceName CName
----@field public priority EPriority
----@field public removePreviousRequests Bool
----@field public savable Bool
+---@field public ["state"] ECLSForcedState
+---@field public ["sourceName"] CName
+---@field public ["priority"] EPriority
+---@field public ["removePreviousRequests"] Bool
+---@field public ["savable"] Bool
 ForceCLSStateRequest = {}
 
 ---@param fields? table

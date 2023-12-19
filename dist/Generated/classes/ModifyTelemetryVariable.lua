@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ModifyTelemetryVariable: gamePlayerScriptableSystemRequest
----@field public dataTrackingFact ETelemetryData
----@field public value Int32
+---@field public ["dataTrackingFact"] ETelemetryData
+---@field public ["value"] Int32
 ModifyTelemetryVariable = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDynamicCookedDeviceData: gameCookedDeviceData
----@field public componentName CName
+---@field public ["componentName"] CName
 gameDynamicCookedDeviceData = {}
 
 ---@param fields? table

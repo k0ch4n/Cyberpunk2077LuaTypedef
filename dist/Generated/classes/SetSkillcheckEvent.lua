@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetSkillcheckEvent: redEvent
----@field public skillcheckContainer BaseSkillCheckContainer
+---@field public ["skillcheckContainer"] BaseSkillCheckContainer
 SetSkillcheckEvent = {}
 
 ---@param fields? table

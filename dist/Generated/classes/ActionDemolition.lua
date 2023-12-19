@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActionDemolition: ActionSkillCheck
----@field public slotID gamemountingMountingSlotId
+---@field public ["slotID"] gamemountingMountingSlotId
 ActionDemolition = {}
 
 ---@param fields? table

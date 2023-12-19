@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropQueueUpdatedEvent: redEvent
----@field public dropQueue gameItemModParams[]
+---@field public ["dropQueue"] gameItemModParams[]
 DropQueueUpdatedEvent = {}
 
 ---@param fields? table

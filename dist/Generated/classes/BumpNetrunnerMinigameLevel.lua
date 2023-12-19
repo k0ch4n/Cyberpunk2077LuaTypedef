@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BumpNetrunnerMinigameLevel: gamePlayerScriptableSystemRequest
----@field public completedMinigameLevel Int32
+---@field public ["completedMinigameLevel"] Int32
 BumpNetrunnerMinigameLevel = {}
 
 ---@param fields? table

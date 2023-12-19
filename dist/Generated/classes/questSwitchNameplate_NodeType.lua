@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questSwitchNameplate_NodeType: questIUIManagerNodeType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public enable Bool
----@field public alternativeName Bool
+---@field public ["puppetRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
+---@field public ["enable"] Bool
+---@field public ["alternativeName"] Bool
 questSwitchNameplate_NodeType = {}
 
 ---@param fields? table

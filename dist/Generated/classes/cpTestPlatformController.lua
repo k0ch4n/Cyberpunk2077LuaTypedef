@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class cpTestPlatformController: gameObject
----@field public platform NodeRef
----@field public pointA NodeRef
----@field public pointB NodeRef
----@field public speed Float
+---@field public ["platform"] NodeRef
+---@field public ["pointA"] NodeRef
+---@field public ["pointB"] NodeRef
+---@field public ["speed"] Float
 cpTestPlatformController = {}
 
 ---@param fields? table

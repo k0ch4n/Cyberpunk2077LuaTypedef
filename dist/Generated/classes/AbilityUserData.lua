@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AbilityUserData: IScriptable
----@field public abilityID TweakDBID
----@field public locKeyName CName
----@field public asyncSpawnRequest inkAsyncSpawnRequest
+---@field public ["abilityID"] TweakDBID
+---@field public ["locKeyName"] CName
+---@field public ["asyncSpawnRequest"] inkAsyncSpawnRequest
 AbilityUserData = {}
 
 ---@param fields? table

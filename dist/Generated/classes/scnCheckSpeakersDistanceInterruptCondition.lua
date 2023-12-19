@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckSpeakersDistanceInterruptCondition: scnIInterruptCondition
----@field public params scnCheckSpeakersDistanceInterruptConditionParams
+---@field public ["params"] scnCheckSpeakersDistanceInterruptConditionParams
 scnCheckSpeakersDistanceInterruptCondition = {}
 
 ---@param fields? table

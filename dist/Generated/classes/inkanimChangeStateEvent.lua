@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimChangeStateEvent: inkanimEvent
----@field public state CName
+---@field public ["state"] CName
 inkanimChangeStateEvent = {}
 
 ---@param fields? table

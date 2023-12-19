@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataLightPreset
----@field public lightSourcesName CName
----@field public preset TweakDBID
+---@field public ["lightSourcesName"] CName
+---@field public ["preset"] TweakDBID
 gamedataLightPreset = {}
 
 ---@param fields? table

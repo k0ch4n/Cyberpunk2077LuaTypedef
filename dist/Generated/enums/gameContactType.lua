@@ -3,6 +3,6 @@
 
 ---@enum gameContactType
 gameContactType = {
-    ["Caller"] = 0,
-    ["Texter"] = 1
+    ["Caller"] = 0, ---@type Enum
+    ["Texter"] = 1, ---@type Enum
 }

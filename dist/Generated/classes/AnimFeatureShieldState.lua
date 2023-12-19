@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeatureShieldState: AnimFeatureCustom
----@field public state Int32
+---@field public ["state"] Int32
 AnimFeatureShieldState = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareDataDef: gamebbScriptDefinition
----@field public ProjectileCaught gamebbScriptID_Bool
+---@field public ["ProjectileCaught"] gamebbScriptID_Bool
 LeftHandCyberwareDataDef = {}
 
 ---@param fields? table

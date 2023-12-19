@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayTransformAnimationDeviceOperation: DeviceOperationBase
----@field public transformAnimations STransformAnimationData[]
+---@field public ["transformAnimations"] STransformAnimationData[]
 PlayTransformAnimationDeviceOperation = {}
 
 ---@param fields? table

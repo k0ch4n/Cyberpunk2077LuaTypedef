@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterCube: CMaterialParameter
----@field public texture ITexture
+---@field public ["texture"] ITexture
 CMaterialParameterCube = {}
 
 ---@param fields? table

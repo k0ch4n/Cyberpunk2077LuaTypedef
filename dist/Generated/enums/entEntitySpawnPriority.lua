@@ -3,9 +3,9 @@
 
 ---@enum entEntitySpawnPriority
 entEntitySpawnPriority = {
-    ["Background"] = 0,
-    ["Normal"] = 1,
-    ["Immediate"] = 2,
-    ["Paramount"] = 3,
-    ["Critical"] = 4
+    ["Background"] = 0, ---@type Enum
+    ["Normal"] = 1, ---@type Enum
+    ["Immediate"] = 2, ---@type Enum
+    ["Paramount"] = 3, ---@type Enum
+    ["Critical"] = 4, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class grsGatherAreaReplicatedInfo
----@field public enteredPlayerIDs netPeerID
----@field public hasActiveQuestListener Bool
----@field public enabled Bool
+---@field public ["enteredPlayerIDs"] netPeerID
+---@field public ["hasActiveQuestListener"] Bool
+---@field public ["enabled"] Bool
 grsGatherAreaReplicatedInfo = {}
 
 ---@param fields? table

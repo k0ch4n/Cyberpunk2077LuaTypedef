@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FilterNPCDodgeOpportunity: gameEffectObjectGroupFilter_Scripted
----@field private applyToTechWeapons Bool
----@field private doDodgingTargetsGetFilteredOut Bool
+---@field private ["applyToTechWeapons"] Bool
+---@field private ["doDodgingTargetsGetFilteredOut"] Bool
 FilterNPCDodgeOpportunity = {}
 
 ---@param fields? table

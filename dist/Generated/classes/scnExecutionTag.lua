@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnExecutionTag
----@field public flags Uint8
+---@field public ["flags"] Uint8
 scnExecutionTag = {}
 
 ---@param fields? table

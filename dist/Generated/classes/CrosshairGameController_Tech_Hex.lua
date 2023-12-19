@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Tech_Hex: BaseTechCrosshairController
----@field private leftBracket inkImageWidget
----@field private rightBracket inkImageWidget
----@field private hori inkWidget
----@field private chargeBar inkWidget
----@field private chargeBoth inkWidget
----@field private chargeLeftBar inkRectangleWidget
----@field private chargeRightBar inkRectangleWidget
----@field private centerPart inkImageWidget
----@field private fluffCanvas inkWidget
----@field public chargeAnimationProxy inkanimProxy
----@field private bufferedSpread Vector2
----@field private weaponlocalBB gameIBlackboard
----@field private bbcharge redCallbackObject
----@field private bbcurrentFireMode redCallbackObject
----@field private currentFireMode gamedataTriggerMode
----@field private bbNPCStatsInfo redCallbackObject
----@field public horizontalMinSpread Float
----@field public verticalMinSpread Float
----@field public gameplaySpreadMultiplier Float
----@field private charge Float
----@field private spread Float
+---@field private ["leftBracket"] inkImageWidget
+---@field private ["rightBracket"] inkImageWidget
+---@field private ["hori"] inkWidget
+---@field private ["chargeBar"] inkWidget
+---@field private ["chargeBoth"] inkWidget
+---@field private ["chargeLeftBar"] inkRectangleWidget
+---@field private ["chargeRightBar"] inkRectangleWidget
+---@field private ["centerPart"] inkImageWidget
+---@field private ["fluffCanvas"] inkWidget
+---@field public ["chargeAnimationProxy"] inkanimProxy
+---@field private ["bufferedSpread"] Vector2
+---@field private ["weaponlocalBB"] gameIBlackboard
+---@field private ["bbcharge"] redCallbackObject
+---@field private ["bbcurrentFireMode"] redCallbackObject
+---@field private ["currentFireMode"] gamedataTriggerMode
+---@field private ["bbNPCStatsInfo"] redCallbackObject
+---@field public ["horizontalMinSpread"] Float
+---@field public ["verticalMinSpread"] Float
+---@field public ["gameplaySpreadMultiplier"] Float
+---@field private ["charge"] Float
+---@field private ["spread"] Float
 CrosshairGameController_Tech_Hex = {}
 
 ---@param fields? table
@@ -51,7 +51,7 @@ function CrosshairGameController_Tech_Hex:OnPreOutro() return end
 function CrosshairGameController_Tech_Hex:OnUninitialize() return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function CrosshairGameController_Tech_Hex:ApplyCrosshairGUIState(state, aimedAtEntity) return end

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entEntityID
----@field public hash Uint64
+---@field public ["hash"] Uint64
 entEntityID = {}
 
 ---@param fields? table

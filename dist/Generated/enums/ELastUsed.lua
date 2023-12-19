@@ -3,8 +3,8 @@
 
 ---@enum ELastUsed
 ELastUsed = {
-    ["Weapon"] = 0,
-    ["Melee"] = 1,
-    ["Ranged"] = 2,
-    ["Heavy"] = 3
+    ["Weapon"] = 0, ---@type Enum
+    ["Melee"] = 1, ---@type Enum
+    ["Ranged"] = 2, ---@type Enum
+    ["Heavy"] = 3, ---@type Enum
 }

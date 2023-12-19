@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DefaultUIInventoryItemStatsProvider: IUIInventoryItemStatsProvider
----@field private statType gamedataStatType
----@field private manager UIInventoryItemsManager
+---@field private ["statType"] gamedataStatType
+---@field private ["manager"] UIInventoryItemsManager
 DefaultUIInventoryItemStatsProvider = {}
 
 ---@param fields? table

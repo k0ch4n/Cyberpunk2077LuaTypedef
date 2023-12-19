@@ -21,7 +21,7 @@ function gamePuppetBase:GetTweakDBFullDisplayName(useDisplayNameAsFallback) retu
 function gamePuppetBase:GetBoolFromCharacterTweak(varName, defaultValue) return end
 
 ---@param varName String
----@param defaultValue? CName
+---@param defaultValue? CName|string
 ---@return CName
 function gamePuppetBase:GetCNameFromCharacterTweak(varName, defaultValue) return end
 

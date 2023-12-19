@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficGlobalPathPosition: ISerializable
----@field public worldPosition Vector3
----@field public pathIdx Uint32
+---@field public ["worldPosition"] Vector3
+---@field public ["pathIdx"] Uint32
 worldTrafficGlobalPathPosition = {}
 
 ---@param fields? table

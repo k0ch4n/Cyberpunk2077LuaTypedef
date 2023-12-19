@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_CharacterCustomizationMirror: MenuScenario_BaseMenu
----@field private morphMenuUserData MorphMenuUserData
+---@field private ["morphMenuUserData"] MorphMenuUserData
 MenuScenario_CharacterCustomizationMirror = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function MenuScenario_CharacterCustomizationMirror:OnCCOPuppetReady() return end
 function MenuScenario_CharacterCustomizationMirror:OnCancel() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_CharacterCustomizationMirror:OnEnterScenario(prevScenario, userData) return end

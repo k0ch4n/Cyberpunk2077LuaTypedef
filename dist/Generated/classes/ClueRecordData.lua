@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ClueRecordData
----@field public clueRecord TweakDBID
----@field public percentage Float
----@field public facts SFactOperationData[]
----@field public wasInspected Bool
+---@field public ["clueRecord"] TweakDBID
+---@field public ["percentage"] Float
+---@field public ["facts"] SFactOperationData[]
+---@field public ["wasInspected"] Bool
 ClueRecordData = {}
 
 ---@param fields? table

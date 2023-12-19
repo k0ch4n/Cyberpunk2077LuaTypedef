@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAudioNodeDefinition: questSignalStoppingNodeDefinition
----@field public type questIAudioNodeType
+---@field public ["type"] questIAudioNodeType
 questAudioNodeDefinition = {}
 
 ---@param fields? table

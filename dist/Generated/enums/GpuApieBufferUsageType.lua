@@ -3,11 +3,11 @@
 
 ---@enum GpuApieBufferUsageType
 GpuApieBufferUsageType = {
-    ["BUT_Default"] = 0,
-    ["BUT_Immutable"] = 1,
-    ["BUT_Readback"] = 2,
-    ["BUT_Dynamic_Legacy"] = 3,
-    ["BUT_Transient"] = 4,
-    ["BUT_Mapped"] = 5,
-    ["BUT_MAX"] = 6
+    ["BUT_Default"] = 0, ---@type Enum
+    ["BUT_Immutable"] = 1, ---@type Enum
+    ["BUT_Readback"] = 2, ---@type Enum
+    ["BUT_Dynamic_Legacy"] = 3, ---@type Enum
+    ["BUT_Transient"] = 4, ---@type Enum
+    ["BUT_Mapped"] = 5, ---@type Enum
+    ["BUT_MAX"] = 6, ---@type Enum
 }

@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class ProjectileLauncherRound: gameItemObject
----@field protected projectileComponent gameprojectileComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected user gameObject
----@field protected projectile gameObject
----@field protected weapon gameweaponObject
----@field protected projectileSpawnPoint Vector4
----@field protected launchMode gamedataProjectileLaunchMode
----@field protected initialLaunchVelocity Float
----@field protected installedProjectile gameItemID
----@field protected actionType ELauncherActionType
----@field protected attackRecord gamedataAttack_Record
----@field protected releaseRequestDelayID gameDelayID
----@field protected detonateRequestDelayID gameDelayID
----@field protected projectileTrailName CName
----@field protected projectileCollisionEvaluator ProjectileLauncherRoundCollisionEvaluator
----@field protected isAlive Bool
----@field protected isSinking Bool
----@field protected waterHeight Float
----@field protected deepWaterDepth Float
----@field protected sinkingDetonationDelay Float
----@field protected waterSurfaceImpactImpulseRadius Float
----@field protected waterSurfaceImpactImpulseStrength Float
----@field protected waterDetonationImpulseRadius Float
----@field protected waterDetonationImpulseStrength Float
+---@field protected ["projectileComponent"] gameprojectileComponent
+---@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
+---@field protected ["user"] gameObject
+---@field protected ["projectile"] gameObject
+---@field protected ["weapon"] gameweaponObject
+---@field protected ["projectileSpawnPoint"] Vector4
+---@field protected ["launchMode"] gamedataProjectileLaunchMode
+---@field protected ["initialLaunchVelocity"] Float
+---@field protected ["installedProjectile"] gameItemID
+---@field protected ["actionType"] ELauncherActionType
+---@field protected ["attackRecord"] gamedataAttack_Record
+---@field protected ["releaseRequestDelayID"] gameDelayID
+---@field protected ["detonateRequestDelayID"] gameDelayID
+---@field protected ["projectileTrailName"] CName
+---@field protected ["projectileCollisionEvaluator"] ProjectileLauncherRoundCollisionEvaluator
+---@field protected ["isAlive"] Bool
+---@field protected ["isSinking"] Bool
+---@field protected ["waterHeight"] Float
+---@field protected ["deepWaterDepth"] Float
+---@field protected ["sinkingDetonationDelay"] Float
+---@field protected ["waterSurfaceImpactImpulseRadius"] Float
+---@field protected ["waterSurfaceImpactImpulseStrength"] Float
+---@field protected ["waterDetonationImpulseRadius"] Float
+---@field protected ["waterDetonationImpulseStrength"] Float
 ProjectileLauncherRound = {}
 
 ---@param fields? table
@@ -84,17 +84,17 @@ function ProjectileLauncherRound:OnTick(eventData) return end
 function ProjectileLauncherRound:AddWaterImpulsesOnDetonation(position, numImpulses) return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function ProjectileLauncherRound:BreakVisualEffectLoop(effectName) return end
 
 ---@protected
----@param collisionAction CName
+---@param collisionAction CName|string
 ---@return gamedataProjectileOnCollisionAction
 function ProjectileLauncherRound:CollisionActionNameToEnum(collisionAction) return end
 
 ---@protected
----@param onCollisionStimType CName
+---@param onCollisionStimType CName|string
 ---@return gamedataStimType
 function ProjectileLauncherRound:CollisionStimTypeNameToEnum(onCollisionStimType) return end
 
@@ -196,12 +196,12 @@ function ProjectileLauncherRound:GetVector3(param) return end
 function ProjectileLauncherRound:HasTrajectory() return end
 
 ---@protected
----@param effectName CName
+---@param effectName CName|string
 ---@return nil
 function ProjectileLauncherRound:KillVisualEffect(effectName) return end
 
 ---@protected
----@param launchModeName CName
+---@param launchModeName CName|string
 ---@return gamedataProjectileLaunchMode
 function ProjectileLauncherRound:LaunchModeNameToEnum(launchModeName) return end
 
@@ -260,8 +260,8 @@ function ProjectileLauncherRound:SetProjectileLifetime() return end
 function ProjectileLauncherRound:SetProjectileTrailEffect() return end
 
 ---@protected
----@param effectName CName
----@param eventTag? CName
+---@param effectName CName|string
+---@param eventTag? CName|string
 ---@return nil
 function ProjectileLauncherRound:SpawnVisualEffect(effectName, eventTag) return end
 

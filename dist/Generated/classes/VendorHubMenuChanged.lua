@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VendorHubMenuChanged: redEvent
----@field public item HubVendorMenuItems
+---@field public ["item"] HubVendorMenuItems
 VendorHubMenuChanged = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiGenericNotificationGameController: gameuiWidgetGameController
----@field public notificationsRoot inkCompoundWidgetReference
----@field public exclusiveProcessing Bool
+---@field public ["notificationsRoot"] inkCompoundWidgetReference
+---@field public ["exclusiveProcessing"] Bool
 gameuiGenericNotificationGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NetRunnerListItem: inkWidgetLogicController
----@field public highlight inkWidgetReference
+---@field public ["highlight"] inkWidgetReference
 NetRunnerListItem = {}
 
 ---@param fields? table

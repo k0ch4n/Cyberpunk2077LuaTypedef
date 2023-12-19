@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VendorItemVirtualController: inkVirtualCompoundItemController
----@field public data VendorInventoryItemData
----@field public newData VendorUIInventoryItemData
----@field public itemViewController InventoryItemDisplayController
----@field public isSpawnInProgress Bool
+---@field public ["data"] VendorInventoryItemData
+---@field public ["newData"] VendorUIInventoryItemData
+---@field public ["itemViewController"] InventoryItemDisplayController
+---@field public ["isSpawnInProgress"] Bool
 VendorItemVirtualController = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum VendorSellJunkActionType
 VendorSellJunkActionType = {
-    ["Sell"] = 0,
-    ["Disassemble"] = 1
+    ["Sell"] = 0, ---@type Enum
+    ["Disassemble"] = 1, ---@type Enum
 }

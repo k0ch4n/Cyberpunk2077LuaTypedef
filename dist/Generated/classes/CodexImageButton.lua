@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CodexImageButton: CodexListItemController
----@field protected image inkImageWidgetReference
----@field protected border inkImageWidgetReference
----@field protected translateOnSelect inkWidgetReference
----@field protected selectTranslationX Float
+---@field protected ["image"] inkImageWidgetReference
+---@field protected ["border"] inkImageWidgetReference
+---@field protected ["translateOnSelect"] inkWidgetReference
+---@field protected ["selectTranslationX"] Float
 CodexImageButton = {}
 
 ---@param fields? table

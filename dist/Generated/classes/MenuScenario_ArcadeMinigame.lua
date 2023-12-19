@@ -21,7 +21,7 @@ function MenuScenario_ArcadeMinigame:OnBack() return end
 function MenuScenario_ArcadeMinigame:OnCloseHubMenuRequest() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_ArcadeMinigame:OnEnterScenario(prevScenario, userData) return end

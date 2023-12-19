@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ComputerDocumentThumbnailWidgetController: DeviceButtonLogicControllerBase
----@field protected documentIconWidget inkImageWidgetReference
----@field protected documentAdress SDocumentAdress
----@field protected documentType EDocumentType
----@field protected questInfo gamedeviceQuestInfo
+---@field protected ["documentIconWidget"] inkImageWidgetReference
+---@field protected ["documentAdress"] SDocumentAdress
+---@field protected ["documentType"] EDocumentType
+---@field protected ["questInfo"] gamedeviceQuestInfo
 ComputerDocumentThumbnailWidgetController = {}
 
 ---@param fields? table

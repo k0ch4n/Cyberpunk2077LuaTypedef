@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class StatPrereq: gameIScriptablePrereq
----@field public notifyOnAnyChange Bool
----@field public notifyOnlyOnStateFulfilled Bool
----@field public statType gamedataStatType
----@field public valueToCheck Float
----@field public comparisonType EComparisonType
----@field public statModifiersUsed Bool
----@field private statPrereqRecordID TweakDBID
----@field public objToCheck CName
+---@field public ["notifyOnAnyChange"] Bool
+---@field public ["notifyOnlyOnStateFulfilled"] Bool
+---@field public ["statType"] gamedataStatType
+---@field public ["valueToCheck"] Float
+---@field public ["comparisonType"] EComparisonType
+---@field public ["statModifiersUsed"] Bool
+---@field private ["statPrereqRecordID"] TweakDBID
+---@field public ["objToCheck"] CName
 StatPrereq = {}
 
 ---@param fields? table

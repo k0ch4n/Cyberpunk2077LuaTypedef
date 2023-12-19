@@ -3,7 +3,7 @@
 
 ---@enum gamemappinsVerticalPositioning
 gamemappinsVerticalPositioning = {
-    ["Above"] = 0,
-    ["Same"] = 1,
-    ["Below"] = 2
+    ["Above"] = 0, ---@type Enum
+    ["Same"] = 1, ---@type Enum
+    ["Below"] = 2, ---@type Enum
 }

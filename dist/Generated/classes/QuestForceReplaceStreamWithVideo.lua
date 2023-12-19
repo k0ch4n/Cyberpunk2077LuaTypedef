@@ -8,6 +8,6 @@ QuestForceReplaceStreamWithVideo = {}
 ---@return QuestForceReplaceStreamWithVideo
 function QuestForceReplaceStreamWithVideo.new(fields) return end
 
----@param binkPath CName
+---@param binkPath CName|string
 ---@return nil
 function QuestForceReplaceStreamWithVideo:SetProperties(binkPath) return end

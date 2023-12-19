@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class weaponIndicatorController: gameuiHUDGameController
----@field public triggerModeControllers CName[]
----@field public ammoLogicControllers CName[]
----@field public chargeLogicControllers CName[]
----@field private triggerModeInstances TriggerModeLogicController[]
----@field private ammoLogicInstances AmmoLogicController[]
----@field private chargeLogicInstances ChargeLogicController[]
----@field private bb gameIBlackboard
----@field private blackboard gameIBlackboard
----@field private onCharge redCallbackObject
----@field private onTriggerMode redCallbackObject
----@field private onMagazineAmmoCount redCallbackObject
----@field private onMagazineAmmoCapacity redCallbackObject
----@field private BufferedRosterData gameSlotDataHolder
----@field private ActiveWeapon gameSlotWeaponData
----@field private InventoryManager InventoryDataManagerV2
+---@field public ["triggerModeControllers"] CName[]
+---@field public ["ammoLogicControllers"] CName[]
+---@field public ["chargeLogicControllers"] CName[]
+---@field private ["triggerModeInstances"] TriggerModeLogicController[]
+---@field private ["ammoLogicInstances"] AmmoLogicController[]
+---@field private ["chargeLogicInstances"] ChargeLogicController[]
+---@field private ["bb"] gameIBlackboard
+---@field private ["blackboard"] gameIBlackboard
+---@field private ["onCharge"] redCallbackObject
+---@field private ["onTriggerMode"] redCallbackObject
+---@field private ["onMagazineAmmoCount"] redCallbackObject
+---@field private ["onMagazineAmmoCapacity"] redCallbackObject
+---@field private ["BufferedRosterData"] gameSlotDataHolder
+---@field private ["ActiveWeapon"] gameSlotWeaponData
+---@field private ["InventoryManager"] InventoryDataManagerV2
 weaponIndicatorController = {}
 
 ---@param fields? table

@@ -3,9 +3,9 @@
 
 ---@enum gameinteractionsBumpIntensity
 gameinteractionsBumpIntensity = {
-    ["Invalid"] = 0,
-    ["Light"] = 1,
-    ["Medium"] = 2,
-    ["Heavy"] = 3,
-    ["Strafe"] = 4
+    ["Invalid"] = 0, ---@type Enum
+    ["Light"] = 1, ---@type Enum
+    ["Medium"] = 2, ---@type Enum
+    ["Heavy"] = 3, ---@type Enum
+    ["Strafe"] = 4, ---@type Enum
 }

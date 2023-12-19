@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DisassemblableEntitySimple: InteractiveDevice
----@field private mesh entMeshComponent
----@field private collider entIComponent
+---@field private ["mesh"] entMeshComponent
+---@field private ["collider"] entIComponent
 DisassemblableEntitySimple = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function DisassemblableEntitySimple:OnRequestComponents(ri) return end
 function DisassemblableEntitySimple:OnTakeControl(ri) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function DisassemblableEntitySimple:OnWorkspotFinished(componentName) return end
 

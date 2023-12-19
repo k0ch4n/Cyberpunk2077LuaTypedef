@@ -24,6 +24,6 @@ function Confess.IsDefaultConditionMet(device, context) return end
 ---@return TweakDBID
 function Confess:GetInkWidgetTweakDBID() return end
 
----@param displayName CName
+---@param displayName CName|string
 ---@return nil
 function Confess:SetProperties(displayName) return end

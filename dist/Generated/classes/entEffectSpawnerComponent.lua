@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entEffectSpawnerComponent: entIVisualComponent
----@field public effectDescs entEffectDesc[]
+---@field public ["effectDescs"] entEffectDesc[]
 entEffectSpawnerComponent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpiderbotOrderDeviceEvent: redEvent
----@field public target gameObject
----@field public overrideMovementTarget gameObject
+---@field public ["target"] gameObject
+---@field public ["overrideMovementTarget"] gameObject
 SpiderbotOrderDeviceEvent = {}
 
 ---@param fields? table

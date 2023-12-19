@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MasterControllerPS: ScriptableDeviceComponentPS
----@field protected clearance gamedeviceClearance
+---@field protected ["clearance"] gamedeviceClearance
 MasterControllerPS = {}
 
 ---@param fields? table
@@ -21,7 +21,7 @@ function MasterControllerPS:DetermineGameplayViability(context, hasActiveActions
 
 ---@protected
 ---@param slave gameDeviceComponentPS
----@param actionName CName
+---@param actionName CName|string
 ---@return Bool, gamedeviceAction outAction
 function MasterControllerPS:ExtractActionFromSlave(slave, actionName) return end
 
@@ -133,7 +133,7 @@ function MasterControllerPS:RefreshSlaves_Event(onInitialize, force) return end
 ---@return nil
 function MasterControllerPS:RequestAllDevicesWidgetsUpdate(blackboard) return end
 
----@param areaEffectID CName
+---@param areaEffectID CName|string
 ---@param show Bool
 ---@return nil
 function MasterControllerPS:RequestAreaEffectVisualisationUpdateOnSlaves(areaEffectID, show) return end

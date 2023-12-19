@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entVertexAnimationMapperSource
----@field public type entVertexAnimationMapperSourceType
----@field public name CName
+---@field public ["type"] entVertexAnimationMapperSourceType
+---@field public ["name"] CName
 entVertexAnimationMapperSource = {}
 
 ---@param fields? table

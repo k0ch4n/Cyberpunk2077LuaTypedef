@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_KatanaBulletBending: gameEffectExecutor_Scripted
----@field public effects gameEffectExecutor_KatanaBulletBendingEffectEntry[]
+---@field public ["effects"] gameEffectExecutor_KatanaBulletBendingEffectEntry[]
 gameEffectExecutor_KatanaBulletBending = {}
 
 ---@param fields? table
 ---@return gameEffectExecutor_KatanaBulletBending
 function gameEffectExecutor_KatanaBulletBending.new(fields) return end
 
----@param tag CName
+---@param tag CName|string
 ---@param object gameObject
 ---@param from Vector4
 ---@param to Vector4
----@param attachSlotName CName
+---@param attachSlotName CName|string
 ---@return nil
 function gameEffectExecutor_KatanaBulletBending:SpawnFX(tag, object, from, to, attachSlotName) return end
 
@@ -27,7 +27,7 @@ function gameEffectExecutor_KatanaBulletBending:Process(ctx, target, hitPosition
 ---@param katana Katana
 ---@param bladeTransform Transform
 ---@param hitPosition Vector4
----@param slotName CName
+---@param slotName CName|string
 ---@return nil
 function gameEffectExecutor_KatanaBulletBending:SpawnBeamSpark(katana, bladeTransform, hitPosition, slotName) return end
 
@@ -41,6 +41,6 @@ function gameEffectExecutor_KatanaBulletBending:SpawnRicochet(katana, hitDirecti
 ---@param katana Katana
 ---@param position Vector4
 ---@param direction Vector4
----@param slotName CName
+---@param slotName CName|string
 ---@return nil
 function gameEffectExecutor_KatanaBulletBending:SpawnRicochetFx(katana, position, direction, slotName) return end

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SettingControllerScheme: inkWidgetLogicController
----@field private tabRootRef inkWidgetReference
----@field private inputTab inkWidgetReference
----@field private vehiclesTab inkWidgetReference
----@field private braindanceTab inkWidgetReference
----@field private tabRoot TabRadioGroup
+---@field private ["tabRootRef"] inkWidgetReference
+---@field private ["inputTab"] inkWidgetReference
+---@field private ["vehiclesTab"] inkWidgetReference
+---@field private ["braindanceTab"] inkWidgetReference
+---@field private ["tabRoot"] TabRadioGroup
 SettingControllerScheme = {}
 
 ---@param fields? table

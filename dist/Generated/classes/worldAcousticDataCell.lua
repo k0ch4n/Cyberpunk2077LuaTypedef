@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldAcousticDataCell
----@field public nodes serializationDeferredDataBuffer
----@field public sectorId Uint32
+---@field public ["nodes"] serializationDeferredDataBuffer
+---@field public ["sectorId"] Uint32
 worldAcousticDataCell = {}
 
 ---@param fields? table

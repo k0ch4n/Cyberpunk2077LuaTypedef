@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineActionParameterTweakDBID
----@field public name CName
----@field public value TweakDBID
+---@field public ["name"] CName
+---@field public ["value"] TweakDBID
 gamestateMachineActionParameterTweakDBID = {}
 
 ---@param fields? table

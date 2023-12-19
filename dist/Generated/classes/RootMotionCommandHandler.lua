@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RootMotionCommandHandler: AICommandHandlerBase
----@field protected params AIArgumentMapping
+---@field protected ["params"] AIArgumentMapping
 RootMotionCommandHandler = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CurveResourceSetEntry
----@field public name CName
----@field public curveResRef CurveSet
+---@field public ["name"] CName
+---@field public ["curveResRef"] CurveSet
 CurveResourceSetEntry = {}
 
 ---@param fields? table

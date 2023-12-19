@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ToiletControllerPS: ScriptableDeviceComponentPS
----@field protected flushDuration Float
----@field protected flushSFX CName
----@field protected flushVFXname CName
----@field protected isFlushing Bool
+---@field protected ["flushDuration"] Float
+---@field protected ["flushSFX"] CName
+---@field protected ["flushVFXname"] CName
+---@field protected ["isFlushing"] Bool
 ToiletControllerPS = {}
 
 ---@param fields? table

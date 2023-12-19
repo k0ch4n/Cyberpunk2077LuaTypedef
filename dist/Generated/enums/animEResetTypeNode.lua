@@ -3,6 +3,6 @@
 
 ---@enum animEResetTypeNode
 animEResetTypeNode = {
-    ["RT_Reference"] = 0,
-    ["RT_Indentity"] = 1
+    ["RT_Reference"] = 0, ---@type Enum
+    ["RT_Indentity"] = 1, ---@type Enum
 }

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AuthorizationData
----@field public isAuthorizationModuleOn Bool
----@field public alwaysExposeActions Bool
----@field public authorizationDataEntry SecurityAccessLevelEntryClient
+---@field public ["isAuthorizationModuleOn"] Bool
+---@field public ["alwaysExposeActions"] Bool
+---@field public ["authorizationDataEntry"] SecurityAccessLevelEntryClient
 AuthorizationData = {}
 
 ---@param fields? table

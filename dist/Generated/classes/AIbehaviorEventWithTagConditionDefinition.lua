@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorEventWithTagConditionDefinition: AIbehaviorConditionDefinition
----@field public tag CName
----@field public consumeEvent Bool
+---@field public ["tag"] CName
+---@field public ["consumeEvent"] Bool
 AIbehaviorEventWithTagConditionDefinition = {}
 
 ---@param fields? table

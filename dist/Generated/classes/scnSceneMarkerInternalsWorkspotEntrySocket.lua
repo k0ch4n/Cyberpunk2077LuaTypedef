@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnSceneMarkerInternalsWorkspotEntrySocket
----@field public name CName
----@field public transform Transform
+---@field public ["name"] CName
+---@field public ["transform"] Transform
 scnSceneMarkerInternalsWorkspotEntrySocket = {}
 
 ---@param fields? table

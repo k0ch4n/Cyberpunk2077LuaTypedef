@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePersistentID
----@field public entityHash Uint64
----@field public componentName CName
+---@field public ["entityHash"] Uint64
+---@field public ["componentName"] CName
 gamePersistentID = {}
 
 ---@param fields? table

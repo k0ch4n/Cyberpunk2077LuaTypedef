@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckHighLevelState: AINPCHighLevelStateCheck
----@field public state gamedataNPCHighLevelState
+---@field public ["state"] gamedataNPCHighLevelState
 CheckHighLevelState = {}
 
 ---@param fields? table

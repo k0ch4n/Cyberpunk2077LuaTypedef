@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class AttributeData: IDisplayData
----@field public label String
----@field public icon String
----@field public id TweakDBID
----@field public value Int32
----@field public maxValue Int32
----@field public description String
----@field public availableToUpgrade Bool
----@field public type gamedataStatType
+---@field public ["label"] String
+---@field public ["icon"] String
+---@field public ["id"] TweakDBID
+---@field public ["value"] Int32
+---@field public ["maxValue"] Int32
+---@field public ["description"] String
+---@field public ["availableToUpgrade"] Bool
+---@field public ["type"] gamedataStatType
 AttributeData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIInt64ArgumentInstancePS: AIArgumentInstancePS
----@field public value Int64
+---@field public ["value"] Int64
 AIInt64ArgumentInstancePS = {}
 
 ---@param fields? table

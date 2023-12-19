@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CreditsData: inkUserData
----@field public isFinalBoards Bool
----@field public showRewardPrompt Bool
+---@field public ["isFinalBoards"] Bool
+---@field public ["showRewardPrompt"] Bool
 CreditsData = {}
 
 ---@param fields? table

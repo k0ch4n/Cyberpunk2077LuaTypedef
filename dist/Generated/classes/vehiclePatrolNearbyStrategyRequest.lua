@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehiclePatrolNearbyStrategyRequest: vehicleBaseStrategyRequest
----@field public angleRange Vector2
+---@field public ["angleRange"] Vector2
 vehiclePatrolNearbyStrategyRequest = {}
 
 ---@param fields? table

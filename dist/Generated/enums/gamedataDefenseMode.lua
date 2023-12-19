@@ -3,10 +3,10 @@
 
 ---@enum gamedataDefenseMode
 gamedataDefenseMode = {
-    ["DefendAll"] = 0,
-    ["DefendMelee"] = 1,
-    ["DefendRanged"] = 2,
-    ["NoDefend"] = 3,
-    ["Count"] = 4,
-    ["Invalid"] = 5
+    ["DefendAll"] = 0, ---@type Enum
+    ["DefendMelee"] = 1, ---@type Enum
+    ["DefendRanged"] = 2, ---@type Enum
+    ["NoDefend"] = 3, ---@type Enum
+    ["Count"] = 4, ---@type Enum
+    ["Invalid"] = 5, ---@type Enum
 }

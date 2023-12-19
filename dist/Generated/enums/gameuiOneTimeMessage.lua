@@ -3,5 +3,5 @@
 
 ---@enum gameuiOneTimeMessage
 gameuiOneTimeMessage = {
-    ["XboxCompatibilityLimitation"] = 0
+    ["XboxCompatibilityLimitation"] = 0, ---@type Enum
 }

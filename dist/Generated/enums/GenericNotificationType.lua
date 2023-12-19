@@ -3,13 +3,13 @@
 
 ---@enum GenericNotificationType
 GenericNotificationType = {
-    ["Generic"] = 0,
-    ["JournalNotification"] = 1,
-    ["LevelUpNotification"] = 2,
-    ["VendorNotification"] = 3,
-    ["ZoneNotification"] = 4,
-    ["ProgressionNotification"] = 5,
-    ["CraftingNotification"] = 6,
-    ["InventoryNotification"] = 7,
-    ["PhoneNotification"] = 8
+    ["Generic"] = 0, ---@type Enum
+    ["JournalNotification"] = 1, ---@type Enum
+    ["LevelUpNotification"] = 2, ---@type Enum
+    ["VendorNotification"] = 3, ---@type Enum
+    ["ZoneNotification"] = 4, ---@type Enum
+    ["ProgressionNotification"] = 5, ---@type Enum
+    ["CraftingNotification"] = 6, ---@type Enum
+    ["InventoryNotification"] = 7, ---@type Enum
+    ["PhoneNotification"] = 8, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisBluelineDescription: IScriptable
----@field public parts gameinteractionsvisBluelinePart[]
----@field public logicOperator ELogicOperator
+---@field public ["parts"] gameinteractionsvisBluelinePart[]
+---@field public ["logicOperator"] ELogicOperator
 gameinteractionsvisBluelineDescription = {}
 
 ---@param fields? table

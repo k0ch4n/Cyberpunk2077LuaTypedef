@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class worldgeometryDescriptionQuery: IScriptable
----@field public refPosition Vector4
----@field public refDirection Vector4
----@field public refUp Vector4
----@field public primitiveDimension Vector4
----@field public primitiveRotation Quaternion
----@field public maxDistance Float
----@field public maxExtent Float
----@field public raycastStartDistance Float
----@field public probingPrecision Float
----@field public probingMaxDistanceDiff Float
----@field public probingMaxHeight Float
----@field public maxProbes Uint32
----@field public probeDimensions Vector4
----@field public filter physicsQueryFilter
----@field public flags Uint32
+---@field public ["refPosition"] Vector4
+---@field public ["refDirection"] Vector4
+---@field public ["refUp"] Vector4
+---@field public ["primitiveDimension"] Vector4
+---@field public ["primitiveRotation"] Quaternion
+---@field public ["maxDistance"] Float
+---@field public ["maxExtent"] Float
+---@field public ["raycastStartDistance"] Float
+---@field public ["probingPrecision"] Float
+---@field public ["probingMaxDistanceDiff"] Float
+---@field public ["probingMaxHeight"] Float
+---@field public ["maxProbes"] Uint32
+---@field public ["probeDimensions"] Vector4
+---@field public ["filter"] physicsQueryFilter
+---@field public ["flags"] Uint32
 worldgeometryDescriptionQuery = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CodexListItemController: inkListItemController
----@field protected doMarkNew Bool
----@field protected stateMapperRef inkWidgetReference
----@field protected stateMapper ListItemStateMapper
+---@field protected ["doMarkNew"] Bool
+---@field protected ["stateMapperRef"] inkWidgetReference
+---@field protected ["stateMapper"] ListItemStateMapper
 CodexListItemController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsDeathDirectionEvent: redEvent
----@field public direction gameeventsDeathDirection
+---@field public ["direction"] gameeventsDeathDirection
 gameeventsDeathDirectionEvent = {}
 
 ---@param fields? table

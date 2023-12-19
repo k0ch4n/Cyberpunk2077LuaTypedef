@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatusEffectManagerComponent: AIMandatoryComponents
----@field private weaponDropedInWounded Bool
+---@field private ["weaponDropedInWounded"] Bool
 StatusEffectManagerComponent = {}
 
 ---@param fields? table
@@ -27,7 +27,7 @@ function StatusEffectManagerComponent:GetBlackboard() return end
 function StatusEffectManagerComponent:GetPuppet() return end
 
 ---@private
----@param key CName
+---@param key CName|string
 ---@param value Float
 ---@return nil
 function StatusEffectManagerComponent:SetAnimWrapperWeight(key, value) return end

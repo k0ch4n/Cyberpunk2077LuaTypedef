@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipmentWidgets
----@field public widgetArray inkWidgetReference[]
+---@field public ["widgetArray"] inkWidgetReference[]
 EquipmentWidgets = {}
 
 ---@param fields? table

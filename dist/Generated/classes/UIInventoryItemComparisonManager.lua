@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemComparisonManager: IScriptable
----@field public ComparedStats UIInventoryItemStatComparison[]
----@field public ComparedItem UIInventoryItem
----@field private comparisonHash Uint64
+---@field public ["ComparedStats"] UIInventoryItemStatComparison[]
+---@field public ["ComparedItem"] UIInventoryItem
+---@field private ["comparisonHash"] Uint64
 UIInventoryItemComparisonManager = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PowerUpCyberwareEffector: gameEffector
----@field public targetEquipArea gamedataEquipmentArea
----@field public targetEquipSlotIndex Int32
----@field public playerData EquipmentSystemPlayerData
----@field public owner gameObject
+---@field public ["targetEquipArea"] gamedataEquipmentArea
+---@field public ["targetEquipSlotIndex"] Int32
+---@field public ["playerData"] EquipmentSystemPlayerData
+---@field public ["owner"] gameObject
 PowerUpCyberwareEffector = {}
 
 ---@param fields? table

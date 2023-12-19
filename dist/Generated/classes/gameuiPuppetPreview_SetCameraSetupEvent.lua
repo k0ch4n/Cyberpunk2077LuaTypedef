@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiPuppetPreview_SetCameraSetupEvent: redEvent
----@field public setupIndex Uint32
----@field public slotName CName
----@field public delayed Bool
+---@field public ["setupIndex"] Uint32
+---@field public ["slotName"] CName
+---@field public ["delayed"] Bool
 gameuiPuppetPreview_SetCameraSetupEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SampleEntityWithCounterPS: gameObjectPS
----@field protected counter Int32
+---@field protected ["counter"] Int32
 SampleEntityWithCounterPS = {}
 
 ---@param fields? table

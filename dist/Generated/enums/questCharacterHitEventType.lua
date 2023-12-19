@@ -3,8 +3,8 @@
 
 ---@enum questCharacterHitEventType
 questCharacterHitEventType = {
-    ["Bullet"] = 0,
-    ["Explosion"] = 1,
-    ["Melee"] = 2,
-    ["Other"] = 3
+    ["Bullet"] = 0, ---@type Enum
+    ["Explosion"] = 1, ---@type Enum
+    ["Melee"] = 2, ---@type Enum
+    ["Other"] = 3, ---@type Enum
 }

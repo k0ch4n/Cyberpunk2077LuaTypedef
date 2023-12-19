@@ -3,7 +3,7 @@
 
 ---@enum worldRainIntensity
 worldRainIntensity = {
-    ["NoRain"] = 0,
-    ["LightRain"] = 1,
-    ["HeavyRain"] = 2
+    ["NoRain"] = 0, ---@type Enum
+    ["LightRain"] = 1, ---@type Enum
+    ["HeavyRain"] = 2, ---@type Enum
 }

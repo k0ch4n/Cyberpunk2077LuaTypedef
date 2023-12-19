@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animPoseCorrectionParams
----@field public poseCorrectionGroup animPoseCorrectionGroup
----@field public blendDuration Float
+---@field public ["poseCorrectionGroup"] animPoseCorrectionGroup
+---@field public ["blendDuration"] Float
 animPoseCorrectionParams = {}
 
 ---@param fields? table

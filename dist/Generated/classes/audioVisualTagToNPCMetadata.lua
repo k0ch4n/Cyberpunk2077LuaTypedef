@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVisualTagToNPCMetadata
----@field public visualTags CName[]
----@field public foleyNPCMetadata CName
+---@field public ["visualTags"] CName[]
+---@field public ["foleyNPCMetadata"] CName
 audioVisualTagToNPCMetadata = {}
 
 ---@param fields? table

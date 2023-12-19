@@ -3,9 +3,9 @@
 
 ---@enum worldEditablePrefabType
 worldEditablePrefabType = {
-    ["Regular"] = 0,
-    ["Decoration"] = 1,
-    ["Quest"] = 2,
-    ["Building"] = 3,
-    ["Road"] = 4
+    ["Regular"] = 0, ---@type Enum
+    ["Decoration"] = 1, ---@type Enum
+    ["Quest"] = 2, ---@type Enum
+    ["Building"] = 3, ---@type Enum
+    ["Road"] = 4, ---@type Enum
 }

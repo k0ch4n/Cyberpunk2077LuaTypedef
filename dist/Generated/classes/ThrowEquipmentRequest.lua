@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ThrowEquipmentRequest: gamePlayerScriptableSystemRequest
----@field public itemObject gameItemObject
+---@field public ["itemObject"] gameItemObject
 ThrowEquipmentRequest = {}
 
 ---@param fields? table

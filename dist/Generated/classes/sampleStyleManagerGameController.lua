@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class sampleStyleManagerGameController: gameuiWidgetGameController
----@field public stylePath1 redResourceReferenceScriptToken
----@field public stylePath2 redResourceReferenceScriptToken
----@field public content inkWidgetReference
+---@field public ["stylePath1"] redResourceReferenceScriptToken
+---@field public ["stylePath2"] redResourceReferenceScriptToken
+---@field public ["content"] inkWidgetReference
 sampleStyleManagerGameController = {}
 
 ---@param fields? table

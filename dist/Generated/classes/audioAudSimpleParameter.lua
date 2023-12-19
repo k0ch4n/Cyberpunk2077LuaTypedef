@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAudSimpleParameter
----@field public name CName
----@field public value Float
+---@field public ["name"] CName
+---@field public ["value"] Float
 audioAudSimpleParameter = {}
 
 ---@param fields? table

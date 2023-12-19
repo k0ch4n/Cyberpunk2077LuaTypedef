@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiVOWithDelay
----@field public playDelay Float
----@field public voHexID String
+---@field public ["playDelay"] Float
+---@field public ["voHexID"] String
 gameuiVOWithDelay = {}
 
 ---@param fields? table

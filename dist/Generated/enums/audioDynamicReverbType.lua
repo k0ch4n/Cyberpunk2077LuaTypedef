@@ -3,8 +3,8 @@
 
 ---@enum audioDynamicReverbType
 audioDynamicReverbType = {
-    ["Dynamic"] = 0,
-    ["StaticSmall"] = 1,
-    ["EnvironmentSmallStaticMedium"] = 2,
-    ["DynamicSource"] = 3
+    ["Dynamic"] = 0, ---@type Enum
+    ["StaticSmall"] = 1, ---@type Enum
+    ["EnvironmentSmallStaticMedium"] = 2, ---@type Enum
+    ["DynamicSource"] = 3, ---@type Enum
 }

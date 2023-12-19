@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestListDistanceData: IScriptable
----@field public objective gameJournalQuestObjective
----@field public distance Float
+---@field public ["objective"] gameJournalQuestObjective
+---@field public ["distance"] Float
 QuestListDistanceData = {}
 
 ---@param fields? table

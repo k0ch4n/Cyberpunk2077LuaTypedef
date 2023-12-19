@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiPreviewGameController: gameuiMenuGameController
----@field public yawSpeed Float
----@field public yawDefault Float
----@field protected isRotatable Bool
----@field protected rotationSpeed Float
----@field protected inputDisabled Bool
+---@field public ["yawSpeed"] Float
+---@field public ["yawDefault"] Float
+---@field protected ["isRotatable"] Bool
+---@field protected ["rotationSpeed"] Float
+---@field protected ["inputDisabled"] Bool
 gameuiPreviewGameController = {}
 
 ---@param yaw Float

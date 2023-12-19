@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TechQA_ImageSwappingButtonController: inkWidgetLogicController
----@field public textWidgetPath CName
----@field public textWidget inkTextWidget
+---@field public ["textWidgetPath"] CName
+---@field public ["textWidget"] inkTextWidget
 TechQA_ImageSwappingButtonController = {}
 
 ---@param fields? table

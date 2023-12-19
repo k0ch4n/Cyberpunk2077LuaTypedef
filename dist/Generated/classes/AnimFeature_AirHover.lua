@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_AirHover: animAnimFeature
----@field public state Int32
+---@field public ["state"] Int32
 AnimFeature_AirHover = {}
 
 ---@param fields? table

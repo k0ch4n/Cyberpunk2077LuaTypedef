@@ -3,7 +3,7 @@
 
 ---@enum AIbehaviorCombatModes
 AIbehaviorCombatModes = {
-    ["Default"] = 0,
-    ["LowFPS"] = 1,
-    ["Background"] = 2
+    ["Default"] = 0, ---@type Enum
+    ["LowFPS"] = 1, ---@type Enum
+    ["Background"] = 2, ---@type Enum
 }

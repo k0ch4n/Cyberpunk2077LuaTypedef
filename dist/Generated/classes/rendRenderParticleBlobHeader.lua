@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendRenderParticleBlobHeader
----@field public version Uint32
----@field public emitterInfo rendRenderParticleBlobEmitterInfo
+---@field public ["version"] Uint32
+---@field public ["emitterInfo"] rendRenderParticleBlobEmitterInfo
 rendRenderParticleBlobHeader = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class DEBUG_VisualizerComponent: gameScriptableComponent
----@field private records DEBUG_VisualRecord[]
----@field private offsetCounter Int32
----@field private timeToNextUpdate Float
----@field private processedRecordIndex Int32
----@field private showWeaponsStreaming Bool
----@field private TICK_TIME_DELTA Float
----@field private TEXT_SCALE_NAME Float
----@field private TEXT_SCALE_ATTITUDE Float
----@field private TEXT_SCALE_IMMORTALITY_MODE Float
----@field private TEXT_TOP Float
----@field private TEXT_OFFSET Float
+---@field private ["records"] DEBUG_VisualRecord[]
+---@field private ["offsetCounter"] Int32
+---@field private ["timeToNextUpdate"] Float
+---@field private ["processedRecordIndex"] Int32
+---@field private ["showWeaponsStreaming"] Bool
+---@field private ["TICK_TIME_DELTA"] Float
+---@field private ["TEXT_SCALE_NAME"] Float
+---@field private ["TEXT_SCALE_ATTITUDE"] Float
+---@field private ["TEXT_SCALE_IMMORTALITY_MODE"] Float
+---@field private ["TEXT_TOP"] Float
+---@field private ["TEXT_OFFSET"] Float
 DEBUG_VisualizerComponent = {}
 
 ---@param fields? table

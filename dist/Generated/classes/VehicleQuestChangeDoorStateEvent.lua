@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestChangeDoorStateEvent: redEvent
----@field public door vehicleEVehicleDoor
----@field public newState vehicleEQuestVehicleDoorState
----@field public forceScene Bool
+---@field public ["door"] vehicleEVehicleDoor
+---@field public ["newState"] vehicleEQuestVehicleDoorState
+---@field public ["forceScene"] Bool
 VehicleQuestChangeDoorStateEvent = {}
 
 ---@param fields? table

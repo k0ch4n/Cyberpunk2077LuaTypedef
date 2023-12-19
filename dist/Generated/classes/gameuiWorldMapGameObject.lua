@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapGameObject: gameObject
----@field public districts gameuiDistrictTriggerData[]
+---@field public ["districts"] gameuiDistrictTriggerData[]
 gameuiWorldMapGameObject = {}
 
 ---@param fields? table

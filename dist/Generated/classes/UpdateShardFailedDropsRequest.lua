@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UpdateShardFailedDropsRequest: gameScriptableSystemRequest
----@field public resetCounter Bool
----@field public newFailedAttempts Float
+---@field public ["resetCounter"] Bool
+---@field public ["newFailedAttempts"] Float
 UpdateShardFailedDropsRequest = {}
 
 ---@param fields? table

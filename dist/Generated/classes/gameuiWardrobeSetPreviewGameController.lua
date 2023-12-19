@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiWardrobeSetPreviewGameController: gameuiBaseGarmentItemPreviewGameController
----@field private colliderWidgetRef inkWidgetReference
----@field private colliderWidget inkWidget
----@field private data InventoryItemPreviewData
----@field private isMouseDown Bool
----@field private isNotification Bool
----@field private c_GARMENT_ROTATION_SPEED Float
+---@field private ["colliderWidgetRef"] inkWidgetReference
+---@field private ["colliderWidget"] inkWidget
+---@field private ["data"] InventoryItemPreviewData
+---@field private ["isMouseDown"] Bool
+---@field private ["isNotification"] Bool
+---@field private ["c_GARMENT_ROTATION_SPEED"] Float
 gameuiWardrobeSetPreviewGameController = {}
 
 ---@param fields? table

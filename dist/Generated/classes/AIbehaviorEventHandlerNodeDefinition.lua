@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorEventHandlerNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public eventName CName
----@field public resolver AIbehaviorEventResolverDefinition
+---@field public ["eventName"] CName
+---@field public ["resolver"] AIbehaviorEventResolverDefinition
 AIbehaviorEventHandlerNodeDefinition = {}
 
 ---@param fields? table

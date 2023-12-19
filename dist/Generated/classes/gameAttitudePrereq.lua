@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAttitudePrereq: gameIPrereq
----@field public attitude EAIAttitude
+---@field public ["attitude"] EAIAttitude
 gameAttitudePrereq = {}
 
 ---@param fields? table

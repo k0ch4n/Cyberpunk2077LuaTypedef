@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_VisualEffectAtTarget: gameEffectExecutor_Scripted
----@field public effect gameFxResource
----@field public ignoreTimeDilation Bool
+---@field public ["effect"] gameFxResource
+---@field public ["ignoreTimeDilation"] Bool
 EffectExecutor_VisualEffectAtTarget = {}
 
 ---@param fields? table

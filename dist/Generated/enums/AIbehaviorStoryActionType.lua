@@ -3,6 +3,6 @@
 
 ---@enum AIbehaviorStoryActionType
 AIbehaviorStoryActionType = {
-    ["Setup"] = 0,
-    ["Stop"] = 1
+    ["Setup"] = 0, ---@type Enum
+    ["Stop"] = 1, ---@type Enum
 }

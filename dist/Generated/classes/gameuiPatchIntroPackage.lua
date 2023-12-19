@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPatchIntroPackage
----@field public patchIntrosNeeded gameuiPatchIntro[]
+---@field public ["patchIntrosNeeded"] gameuiPatchIntro[]
 gameuiPatchIntroPackage = {}
 
 ---@param fields? table

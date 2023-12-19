@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ComputerControllerPS: TerminalControllerPS
----@field protected computerSetup ComputerSetup
----@field protected quickHackSetup ComputerQuickHackData
----@field protected activatorActionSetup EToggleActivationTypeComputer
----@field protected computerSkillChecks HackEngContainer
----@field protected openedMailAdress SDocumentAdress
----@field protected openedFileAdress SDocumentAdress
----@field protected quickhackPerformed Bool
----@field private isInSleepMode Bool
----@field private computerUIpreset gamedataComputerStyleUIDefinition_Record
+---@field protected ["computerSetup"] ComputerSetup
+---@field protected ["quickHackSetup"] ComputerQuickHackData
+---@field protected ["activatorActionSetup"] EToggleActivationTypeComputer
+---@field protected ["computerSkillChecks"] HackEngContainer
+---@field protected ["openedMailAdress"] SDocumentAdress
+---@field protected ["openedFileAdress"] SDocumentAdress
+---@field protected ["quickhackPerformed"] Bool
+---@field private ["isInSleepMode"] Bool
+---@field private ["computerUIpreset"] gamedataComputerStyleUIDefinition_Record
 ComputerControllerPS = {}
 
 ---@param fields? table
@@ -61,7 +61,7 @@ function ComputerControllerPS:DisableMenu(menuType) return end
 function ComputerControllerPS:EnableDocument(documentType, documentAdress, isEnabled) return end
 
 ---@param documentType EDocumentType
----@param documentName CName
+---@param documentName CName|string
 ---@param isEnabled Bool
 ---@return nil
 function ComputerControllerPS:EnableDocumentsByName(documentType, documentName, isEnabled) return end
@@ -122,7 +122,7 @@ function ComputerControllerPS:GetBannerWidgets() return end
 function ComputerControllerPS:GetBlackboardDef() return end
 
 ---@param documentType EDocumentType
----@param documentName CName
+---@param documentName CName|string
 ---@return SDocumentAdress
 function ComputerControllerPS:GetDocumentAdressByName(documentType, documentName) return end
 
@@ -214,7 +214,7 @@ function ComputerControllerPS:GetOpenedFileAdress() return end
 ---@return SDocumentAdress
 function ComputerControllerPS:GetOpenedMailAdress() return end
 
----@param actionName CName
+---@param actionName CName|string
 ---@return gamedeviceAction
 function ComputerControllerPS:GetQuestActionByName(actionName) return end
 

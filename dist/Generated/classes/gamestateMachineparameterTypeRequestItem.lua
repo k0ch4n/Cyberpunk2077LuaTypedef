@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineparameterTypeRequestItem: IScriptable
----@field public requests gameEquipParam[]
+---@field public ["requests"] gameEquipParam[]
 gamestateMachineparameterTypeRequestItem = {}
 
 ---@param fields? table

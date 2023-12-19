@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RipperdocTimeDilationCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public controller VendorHubMenuGameController
+---@field public ["controller"] VendorHubMenuGameController
 RipperdocTimeDilationCallback = {}
 
 ---@param fields? table

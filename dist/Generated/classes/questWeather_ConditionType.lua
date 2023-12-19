@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questWeather_ConditionType: questISystemConditionType
----@field public weather CName
----@field public inverted Bool
+---@field public ["weather"] CName
+---@field public ["inverted"] Bool
 questWeather_ConditionType = {}
 
 ---@param fields? table

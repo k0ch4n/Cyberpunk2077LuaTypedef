@@ -3,15 +3,15 @@
 
 ---@enum audioFoleyActionType
 audioFoleyActionType = {
-    ["FastHeavy"] = 0,
-    ["FastMedium"] = 1,
-    ["FastLight"] = 2,
-    ["NormalHeavy"] = 3,
-    ["NormalMedium"] = 4,
-    ["NormalLight"] = 5,
-    ["SlowHeavy"] = 6,
-    ["SlowMedium"] = 7,
-    ["SlowLight"] = 8,
-    ["Walk"] = 9,
-    ["Run"] = 10
+    ["FastHeavy"] = 0, ---@type Enum
+    ["FastMedium"] = 1, ---@type Enum
+    ["FastLight"] = 2, ---@type Enum
+    ["NormalHeavy"] = 3, ---@type Enum
+    ["NormalMedium"] = 4, ---@type Enum
+    ["NormalLight"] = 5, ---@type Enum
+    ["SlowHeavy"] = 6, ---@type Enum
+    ["SlowMedium"] = 7, ---@type Enum
+    ["SlowLight"] = 8, ---@type Enum
+    ["Walk"] = 9, ---@type Enum
+    ["Run"] = 10, ---@type Enum
 }

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIRagdollDelegate: AIbehaviorScriptBehaviorDelegate
----@field public ragdollInstigator gameObject
----@field public closestNavmeshPoint Vector4
----@field public ragdollOutOfNavmesh Bool
----@field public isUnderwater Bool
----@field public poseAllowsRecovery Bool
+---@field public ["ragdollInstigator"] gameObject
+---@field public ["closestNavmeshPoint"] Vector4
+---@field public ["ragdollOutOfNavmesh"] Bool
+---@field public ["isUnderwater"] Bool
+---@field public ["poseAllowsRecovery"] Bool
 AIRagdollDelegate = {}
 
 ---@param fields? table
@@ -47,14 +47,14 @@ function AIRagdollDelegate:HasSpaceToRecover(owner, queryDimensions, originTrans
 ---@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param puppet ScriptedPuppet
----@param downedTypeTag CName
+---@param downedTypeTag CName|string
 ---@return nil
 function AIRagdollDelegate:SendDownedSignal(context, puppet, downedTypeTag) return end
 
 ---@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param puppet ScriptedPuppet
----@param seTypeTag CName
+---@param seTypeTag CName|string
 ---@return nil
 function AIRagdollDelegate:SendStatusEffectSignal(context, puppet, seTypeTag) return end
 

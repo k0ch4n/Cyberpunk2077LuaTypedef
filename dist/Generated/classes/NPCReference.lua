@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCReference
----@field public communitySpawner NodeRef
----@field public entryName CName
+---@field public ["communitySpawner"] NodeRef
+---@field public ["entryName"] CName
 NPCReference = {}
 
 ---@param fields? table

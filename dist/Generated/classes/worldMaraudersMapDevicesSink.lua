@@ -30,8 +30,8 @@ function worldMaraudersMapDevicesSink:PushFloat(key, value) return end
 ---@return nil
 function worldMaraudersMapDevicesSink:PushInt32(key, value) return end
 
----@param key CName
----@param value CName
+---@param key CName|string
+---@param value CName|string
 ---@return nil
 function worldMaraudersMapDevicesSink:PushName(key, value) return end
 

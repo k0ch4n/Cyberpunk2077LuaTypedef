@@ -3,17 +3,17 @@
 
 ---@enum InGameConfigNotificationType
 InGameConfigNotificationType = {
-    ["RestartRequiredConfirmed"] = 0,
-    ["RestartRequiredRejected"] = 1,
-    ["ChangesApplied"] = 2,
-    ["ChangesRejected"] = 3,
-    ["ChangesLoadLastCheckpointApplied"] = 4,
-    ["ChangesLoadLastCheckpointRejected"] = 5,
-    ["Saved"] = 6,
-    ["ErrorSaving"] = 7,
-    ["Loaded"] = 8,
-    ["LoadCanceled"] = 9,
-    ["LoadInternalError"] = 10,
-    ["Refresh"] = 11,
-    ["LanguagePackInstalled"] = 12
+    ["RestartRequiredConfirmed"] = 0, ---@type Enum
+    ["RestartRequiredRejected"] = 1, ---@type Enum
+    ["ChangesApplied"] = 2, ---@type Enum
+    ["ChangesRejected"] = 3, ---@type Enum
+    ["ChangesLoadLastCheckpointApplied"] = 4, ---@type Enum
+    ["ChangesLoadLastCheckpointRejected"] = 5, ---@type Enum
+    ["Saved"] = 6, ---@type Enum
+    ["ErrorSaving"] = 7, ---@type Enum
+    ["Loaded"] = 8, ---@type Enum
+    ["LoadCanceled"] = 9, ---@type Enum
+    ["LoadInternalError"] = 10, ---@type Enum
+    ["Refresh"] = 11, ---@type Enum
+    ["LanguagePackInstalled"] = 12, ---@type Enum
 }

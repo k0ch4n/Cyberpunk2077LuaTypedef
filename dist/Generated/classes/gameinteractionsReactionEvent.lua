@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsReactionEvent: redEvent
----@field public interactionType CName
----@field public interactionItems gameEquipParam[]
----@field public state gameinteractionsReactionState
+---@field public ["interactionType"] CName
+---@field public ["interactionItems"] gameEquipParam[]
+---@field public ["state"] gameinteractionsReactionState
 gameinteractionsReactionEvent = {}
 
 ---@param fields? table

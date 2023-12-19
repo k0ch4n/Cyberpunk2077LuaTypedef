@@ -3,8 +3,8 @@
 
 ---@enum inkMenuMode
 inkMenuMode = {
-    ["Unknown"] = 0,
-    ["PauseMenu"] = 1,
-    ["HubMenu"] = 2,
-    ["CustomMenu"] = 3
+    ["Unknown"] = 0, ---@type Enum
+    ["PauseMenu"] = 1, ---@type Enum
+    ["HubMenu"] = 2, ---@type Enum
+    ["CustomMenu"] = 3, ---@type Enum
 }

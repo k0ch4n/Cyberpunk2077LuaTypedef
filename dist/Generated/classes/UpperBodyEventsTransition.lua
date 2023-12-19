@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class UpperBodyEventsTransition: UpperBodyTransition
----@field public switchButtonPushed Bool
----@field public cyclePushed Bool
----@field public delay Float
----@field public cycleBlock Float
----@field public switchPending Bool
----@field public counter Int32
+---@field public ["switchButtonPushed"] Bool
+---@field public ["cyclePushed"] Bool
+---@field public ["delay"] Float
+---@field public ["cycleBlock"] Float
+---@field public ["switchPending"] Bool
+---@field public ["counter"] Int32
 UpperBodyEventsTransition = {}
 
 ---@protected

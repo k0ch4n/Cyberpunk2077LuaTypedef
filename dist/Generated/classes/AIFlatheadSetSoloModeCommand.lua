@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIFlatheadSetSoloModeCommand: AIFollowerCommand
----@field public soloModeState Bool
+---@field public ["soloModeState"] Bool
 AIFlatheadSetSoloModeCommand = {}
 
 ---@param fields? table

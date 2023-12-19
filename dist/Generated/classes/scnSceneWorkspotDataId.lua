@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneWorkspotDataId
----@field public id Uint32
+---@field public ["id"] Uint32
 scnSceneWorkspotDataId = {}
 
 ---@param fields? table

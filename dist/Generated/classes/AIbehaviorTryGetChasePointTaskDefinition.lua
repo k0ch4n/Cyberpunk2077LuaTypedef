@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorTryGetChasePointTaskDefinition: AIbehaviorTaskDefinition
----@field public inPlayerPositionDelay AIArgumentMapping
----@field public inPlayerPositionMaxDistance AIArgumentMapping
----@field public inNearestNavmeshPolyExtent AIArgumentMapping
----@field public outChasePosition AIArgumentMapping
+---@field public ["inPlayerPositionDelay"] AIArgumentMapping
+---@field public ["inPlayerPositionMaxDistance"] AIArgumentMapping
+---@field public ["inNearestNavmeshPolyExtent"] AIArgumentMapping
+---@field public ["outChasePosition"] AIArgumentMapping
 AIbehaviorTryGetChasePointTaskDefinition = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIGenericAdvancedLookatTask: AIGenericLookatTask
----@field private lookAtEvent entLookAtAddEvent
----@field private activationTimeStamp Float
----@field private lookatTarget entEntity
+---@field private ["lookAtEvent"] entLookAtAddEvent
+---@field private ["activationTimeStamp"] Float
+---@field private ["lookatTarget"] entEntity
 AIGenericAdvancedLookatTask = {}
 
 ---@private

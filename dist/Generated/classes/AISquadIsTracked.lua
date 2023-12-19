@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISquadIsTracked: AIAIEvent
----@field public isSquadTracked Bool
+---@field public ["isSquadTracked"] Bool
 AISquadIsTracked = {}
 
 ---@param fields? table

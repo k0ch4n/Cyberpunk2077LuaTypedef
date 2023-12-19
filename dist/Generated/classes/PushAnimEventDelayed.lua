@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PushAnimEventDelayed: gameScriptableSystemRequest
----@field public eventName CName
----@field public go gameObject
+---@field public ["eventName"] CName
+---@field public ["go"] gameObject
 PushAnimEventDelayed = {}
 
 ---@param fields? table

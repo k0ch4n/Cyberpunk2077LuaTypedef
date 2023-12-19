@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EntitiesAtGate: MorphData
----@field public entitiesAtGate entEntityID[]
+---@field public ["entitiesAtGate"] entEntityID[]
 EntitiesAtGate = {}
 
 ---@param fields? table

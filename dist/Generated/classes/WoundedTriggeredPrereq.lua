@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WoundedTriggeredPrereq: gameIScriptablePrereq
----@field public currValue Uint32
+---@field public ["currValue"] Uint32
 WoundedTriggeredPrereq = {}
 
 ---@param fields? table

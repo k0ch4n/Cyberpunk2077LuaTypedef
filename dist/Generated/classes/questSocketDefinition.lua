@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSocketDefinition: graphGraphSocketDefinition
----@field public type questSocketType
+---@field public ["type"] questSocketType
 questSocketDefinition = {}
 
 ---@param fields? table

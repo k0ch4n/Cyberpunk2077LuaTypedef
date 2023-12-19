@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SCodexRecordPart
----@field public PartName CName
----@field public PartContent String
----@field public Unlocked Bool
+---@field public ["PartName"] CName
+---@field public ["PartContent"] String
+---@field public ["Unlocked"] Bool
 SCodexRecordPart = {}
 
 ---@param fields? table

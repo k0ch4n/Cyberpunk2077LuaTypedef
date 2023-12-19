@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplayFunctionalTestReturnValue
----@field public value String
----@field public errorInfo String
+---@field public ["value"] String
+---@field public ["errorInfo"] String
 GameplayFunctionalTestReturnValue = {}
 
 ---@param fields? table

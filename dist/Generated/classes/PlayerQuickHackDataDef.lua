@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerQuickHackDataDef: gamebbScriptDefinition
----@field public CachedQuickHackList gamebbScriptID_Variant
+---@field public ["CachedQuickHackList"] gamebbScriptID_Variant
 PlayerQuickHackDataDef = {}
 
 ---@param fields? table

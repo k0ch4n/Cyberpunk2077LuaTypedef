@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsVisualTagsDefinition
----@field public name CName
+---@field public ["name"] CName
 toolsVisualTagsDefinition = {}
 
 ---@param fields? table

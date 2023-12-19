@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SandevistanDecisions: TimeDilationTransitions
----@field private statListener DefaultTransitionStatListener
+---@field private ["statListener"] DefaultTransitionStatListener
 SandevistanDecisions = {}
 
 ---@param fields? table

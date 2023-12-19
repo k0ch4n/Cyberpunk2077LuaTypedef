@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ThreatPersistanceMemory
----@field public threats entEntity[]
----@field public isPersistent Bool[]
+---@field public ["threats"] entEntity[]
+---@field public ["isPersistent"] Bool[]
 ThreatPersistanceMemory = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Power_Tactician: gameuiCrosshairBaseGameController
----@field private leftPart inkWidgetReference
----@field private rightPart inkWidgetReference
----@field private topPart inkWidgetReference
----@field private botPart inkWidgetReference
+---@field private ["leftPart"] inkWidgetReference
+---@field private ["rightPart"] inkWidgetReference
+---@field private ["topPart"] inkWidgetReference
+---@field private ["botPart"] inkWidgetReference
 Crosshair_Power_Tactician = {}
 
 ---@param fields? table
@@ -18,7 +18,7 @@ function Crosshair_Power_Tactician.new(fields) return end
 function Crosshair_Power_Tactician:OnBulletSpreadChanged(spread) return end
 
 ---@protected
----@param state CName
+---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
 function Crosshair_Power_Tactician:ApplyCrosshairGUIState(state, aimedAtEntity) return end

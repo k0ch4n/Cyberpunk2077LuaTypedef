@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsTimedParams: ISerializable
----@field public action scnChoiceNodeNsTimedAction
----@field public timeLimitedFinish Bool
----@field public duration scnSceneTime
+---@field public ["action"] scnChoiceNodeNsTimedAction
+---@field public ["timeLimitedFinish"] Bool
+---@field public ["duration"] scnSceneTime
 scnChoiceNodeNsTimedParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CentaurShieldStateChangeEvent: redEvent
----@field public newState ECentaurShieldState
+---@field public ["newState"] ECentaurShieldState
 CentaurShieldStateChangeEvent = {}
 
 ---@param fields? table

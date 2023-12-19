@@ -59,7 +59,7 @@ function inkTextWidgetReference.SetDateTimeByTimestamp(self, timestamp) return e
 
 ---@param self inkTextWidgetReference
 ---@param fontFamilyPath String
----@param fontStyle? CName
+---@param fontStyle? CName|string
 ---@return nil
 function inkTextWidgetReference.SetFontFamily(self, fontFamilyPath, fontStyle) return end
 
@@ -69,7 +69,7 @@ function inkTextWidgetReference.SetFontFamily(self, fontFamilyPath, fontStyle) r
 function inkTextWidgetReference.SetFontSize(self, textSize) return end
 
 ---@param self inkTextWidgetReference
----@param fontStyle CName
+---@param fontStyle CName|string
 ---@return nil
 function inkTextWidgetReference.SetFontStyle(self, fontStyle) return end
 
@@ -84,7 +84,7 @@ function inkTextWidgetReference.SetHorizontalAlignment(self, horizontalAlignment
 function inkTextWidgetReference.SetLetterCase(self, letterCase) return end
 
 ---@param self inkTextWidgetReference
----@param displayText CName
+---@param displayText CName|string
 ---@return nil
 function inkTextWidgetReference.SetLocalizationKey(self, displayText) return end
 
@@ -94,7 +94,7 @@ function inkTextWidgetReference.SetLocalizationKey(self, displayText) return end
 function inkTextWidgetReference.SetLocalizationKeyString(self, displayText) return end
 
 ---@param self inkTextWidgetReference
----@param locKey CName
+---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
 function inkTextWidgetReference.SetLocalizedText(self, locKey, textParams) return end
@@ -152,17 +152,17 @@ function inkTextWidgetReference.SetWrappingAtPosition(self, position) return end
 function inkTextWidgetReference.UpdateLanguageResources(self, applyFontModifiers) return end
 
 ---@param self inkTextWidgetReference
----@param nameValue CName
+---@param nameValue CName|string
 ---@return textHorizontalAlignment
 function inkTextWidgetReference.GetHorizontalAlignmentEnumValue(self, nameValue) return end
 
 ---@param self inkTextWidgetReference
----@param nameValue CName
+---@param nameValue CName|string
 ---@return textVerticalAlignment
 function inkTextWidgetReference.GetVerticalAlignmentEnumValue(self, nameValue) return end
 
 ---@param self inkTextWidgetReference
----@param locKey CName
+---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
 function inkTextWidgetReference.SetLocalizedTextScript(self, locKey, textParams) return end

@@ -3,6 +3,6 @@
 
 ---@enum EExplosiveAdditionalGameEffectType
 EExplosiveAdditionalGameEffectType = {
-    ["none"] = 0,
-    ["EMP"] = 1
+    ["none"] = 0, ---@type Enum
+    ["EMP"] = 1, ---@type Enum
 }

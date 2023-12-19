@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseDirectionalIndicatorPartLogicController: inkWidgetLogicController
----@field public defaultForwardFovRange Float
----@field public adjustedForwardFovRange Float
+---@field public ["defaultForwardFovRange"] Float
+---@field public ["adjustedForwardFovRange"] Float
 gameuiBaseDirectionalIndicatorPartLogicController = {}
 
 ---@param fields? table

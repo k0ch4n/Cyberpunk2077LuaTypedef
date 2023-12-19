@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CHairProfile: CResource
----@field public sampleCount Uint16
----@field public gradientEntriesID rendGradientEntry[]
----@field public gradientEntriesRootToTip rendGradientEntry[]
+---@field public ["sampleCount"] Uint16
+---@field public ["gradientEntriesID"] rendGradientEntry[]
+---@field public ["gradientEntriesRootToTip"] rendGradientEntry[]
 CHairProfile = {}
 
 ---@param fields? table

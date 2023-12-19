@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_DangleExternalInput: animAnimFeature
----@field public fictitiousAccelerationWs Vector4
+---@field public ["fictitiousAccelerationWs"] Vector4
 animAnimFeature_DangleExternalInput = {}
 
 ---@param fields? table

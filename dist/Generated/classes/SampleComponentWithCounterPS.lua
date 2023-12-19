@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SampleComponentWithCounterPS: gameComponentPS
----@field protected counter Int32
+---@field protected ["counter"] Int32
 SampleComponentWithCounterPS = {}
 
 ---@param fields? table

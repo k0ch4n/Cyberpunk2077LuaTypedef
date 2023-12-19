@@ -3,11 +3,11 @@
 
 ---@enum ENPCTelemetryData
 ENPCTelemetryData = {
-    ["HitByLightAttack"] = 0,
-    ["HitByStrongAttack"] = 1,
-    ["HitByFinalComboAttack"] = 2,
-    ["HitByBlockAttack"] = 3,
-    ["BlockedAttack"] = 4,
-    ["DeflectedAttack"] = 5,
-    ["WasGuardBreaked"] = 6
+    ["HitByLightAttack"] = 0, ---@type Enum
+    ["HitByStrongAttack"] = 1, ---@type Enum
+    ["HitByFinalComboAttack"] = 2, ---@type Enum
+    ["HitByBlockAttack"] = 3, ---@type Enum
+    ["BlockedAttack"] = 4, ---@type Enum
+    ["DeflectedAttack"] = 5, ---@type Enum
+    ["WasGuardBreaked"] = 6, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVehiclePartSettingsMap: audioAudioMetadata
----@field public minAcousticsIsolationFactorValue Float
----@field public partSettings audioVehiclePartSettingsMapItem[]
+---@field public ["minAcousticsIsolationFactorValue"] Float
+---@field public ["partSettings"] audioVehiclePartSettingsMapItem[]
 audioVehiclePartSettingsMap = {}
 
 ---@param fields? table

@@ -93,7 +93,7 @@ function gameTelemetryTelemetrySystem:LogInventoryMenuClosed() return end
 function gameTelemetryTelemetrySystem:LogItemAcquired(itemTDBID, meanOfAcquisition) return end
 
 ---@param telemetryInventoryItem gameTelemetryInventoryItem
----@param craftingAction CName
+---@param craftingAction CName|string
 ---@return nil
 function gameTelemetryTelemetrySystem:LogItemCrafting(telemetryInventoryItem, craftingAction) return end
 
@@ -187,7 +187,7 @@ function gameTelemetryTelemetrySystem:LogPlayerVehicleImpact() return end
 ---@return nil
 function gameTelemetryTelemetrySystem:LogQuickHack(telemetryQuickHack) return end
 
----@param rewardName CName
+---@param rewardName CName|string
 ---@param rewardTDBID TweakDBID
 ---@param rewardMoney Int32
 ---@return nil
@@ -202,7 +202,7 @@ function gameTelemetryTelemetrySystem:LogSkillbookUsed(owner, itemID) return end
 ---@return nil
 function gameTelemetryTelemetrySystem:LogSpecialMovementPerformed(mvtType) return end
 
----@param takedownAction CName
+---@param takedownAction CName|string
 ---@param target gameObject
 ---@return nil
 function gameTelemetryTelemetrySystem:LogTakedown(takedownAction, target) return end

@@ -3,8 +3,8 @@
 
 ---@enum gamedataPlayerPossesion
 gamedataPlayerPossesion = {
-    ["Default"] = 0,
-    ["Johnny"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = 3
+    ["Default"] = 0, ---@type Enum
+    ["Johnny"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

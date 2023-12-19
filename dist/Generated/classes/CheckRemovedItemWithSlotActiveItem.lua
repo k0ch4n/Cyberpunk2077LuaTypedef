@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckRemovedItemWithSlotActiveItem: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
+---@field public ["itemID"] gameItemID
 CheckRemovedItemWithSlotActiveItem = {}
 
 ---@param fields? table

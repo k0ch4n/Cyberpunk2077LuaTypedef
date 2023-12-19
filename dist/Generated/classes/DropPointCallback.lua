@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropPointCallback: gameInventoryScriptCallback
----@field public dps DropPointSystem
+---@field public ["dps"] DropPointSystem
 DropPointCallback = {}
 
 ---@param fields? table

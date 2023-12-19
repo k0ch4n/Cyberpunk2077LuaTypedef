@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ButtonPlaySoundView: BaseButtonView
----@field private SoundPrefix CName
----@field private PressSoundName CName
----@field private HoverSoundName CName
+---@field private ["SoundPrefix"] CName
+---@field private ["PressSoundName"] CName
+---@field private ["HoverSoundName"] CName
 ButtonPlaySoundView = {}
 
 ---@param fields? table

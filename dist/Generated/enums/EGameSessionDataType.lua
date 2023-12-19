@@ -3,7 +3,7 @@
 
 ---@enum EGameSessionDataType
 EGameSessionDataType = {
-    ["NONE"] = 0,
-    ["CameraDeadBody"] = 1,
-    ["CameraTagLimit"] = 2
+    ["NONE"] = 0, ---@type Enum
+    ["CameraDeadBody"] = 1, ---@type Enum
+    ["CameraTagLimit"] = 2, ---@type Enum
 }

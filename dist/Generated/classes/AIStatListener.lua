@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIStatListener: gameScriptStatsListener
----@field private owner ScriptedPuppet
----@field private behaviorCallbackName CName
+---@field private ["owner"] ScriptedPuppet
+---@field private ["behaviorCallbackName"] CName
 AIStatListener = {}
 
 ---@param fields? table
@@ -18,6 +18,6 @@ function AIStatListener.new(fields) return end
 function AIStatListener:OnStatChanged(ownerID, statType, diff, total) return end
 
 ---@param owner ScriptedPuppet
----@param behaviorCallbackName CName
+---@param behaviorCallbackName CName|string
 ---@return nil
 function AIStatListener:SetInitData(owner, behaviorCallbackName) return end

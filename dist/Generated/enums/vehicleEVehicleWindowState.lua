@@ -3,6 +3,6 @@
 
 ---@enum vehicleEVehicleWindowState
 vehicleEVehicleWindowState = {
-    ["Closed"] = 0,
-    ["Open"] = 1
+    ["Closed"] = 0, ---@type Enum
+    ["Open"] = 1, ---@type Enum
 }

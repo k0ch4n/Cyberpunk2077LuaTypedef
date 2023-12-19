@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverclockHudEvent: redEvent
----@field public activated Bool
+---@field public ["activated"] Bool
 OverclockHudEvent = {}
 
 ---@param fields? table

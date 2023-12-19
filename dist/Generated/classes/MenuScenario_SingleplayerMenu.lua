@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_SingleplayerMenu: MenuScenario_PreGameSubMenu
----@field private expansionHintShown Bool
+---@field private ["expansionHintShown"] Bool
 MenuScenario_SingleplayerMenu = {}
 
 ---@param fields? table
@@ -26,7 +26,7 @@ function MenuScenario_SingleplayerMenu:OnCreditsPicker() return end
 function MenuScenario_SingleplayerMenu:OnDebug() return end
 
 ---@protected
----@param prevScenario CName
+---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
 function MenuScenario_SingleplayerMenu:OnEnterScenario(prevScenario, userData) return end
@@ -40,7 +40,7 @@ function MenuScenario_SingleplayerMenu:OnExpansionHint() return end
 function MenuScenario_SingleplayerMenu:OnGOGProfile() return end
 
 ---@protected
----@param nextScenario CName
+---@param nextScenario CName|string
 ---@return Bool
 function MenuScenario_SingleplayerMenu:OnLeaveScenario(nextScenario) return end
 

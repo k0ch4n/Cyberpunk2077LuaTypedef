@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleChargeHighlightEvent: redEvent
----@field public active Bool
+---@field public ["active"] Bool
 ToggleChargeHighlightEvent = {}
 
 ---@param fields? table

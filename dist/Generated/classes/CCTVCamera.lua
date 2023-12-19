@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CCTVCamera: gameObject
----@field private mesh entMeshComponent
----@field private camera gameCameraComponent
----@field private isControlled Bool
----@field private cachedPuppetID entEntityID
+---@field private ["mesh"] entMeshComponent
+---@field private ["camera"] gameCameraComponent
+---@field private ["isControlled"] Bool
+---@field private ["cachedPuppetID"] entEntityID
 CCTVCamera = {}
 
 ---@param fields? table

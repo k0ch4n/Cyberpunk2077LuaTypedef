@@ -18,6 +18,6 @@ function gamedataNewsFeedTitle_Record:GetTitlesListItem(index) return end
 ---@return CName[]
 function gamedataNewsFeedTitle_Record:TitlesList() return end
 
----@param item CName
+---@param item CName|string
 ---@return Bool
 function gamedataNewsFeedTitle_Record:TitlesListContains(item) return end

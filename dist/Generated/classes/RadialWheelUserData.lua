@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadialWheelUserData: IScriptable
----@field public Slot RadialSlot
+---@field public ["Slot"] RadialSlot
 RadialWheelUserData = {}
 
 ---@param fields? table

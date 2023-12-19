@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DefaultTransitionStatListener: gameScriptStatsListener
----@field public transitionOwner DefaultTransition
+---@field public ["transitionOwner"] DefaultTransition
 DefaultTransitionStatListener = {}
 
 ---@param fields? table

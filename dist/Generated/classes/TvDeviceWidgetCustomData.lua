@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class TvDeviceWidgetCustomData: WidgetCustomData
----@field public videoPath redResourceReferenceScriptToken
----@field public channelID TweakDBID
----@field public messageRecordID TweakDBID
----@field public looped Bool
+---@field public ["videoPath"] redResourceReferenceScriptToken
+---@field public ["channelID"] TweakDBID
+---@field public ["messageRecordID"] TweakDBID
+---@field public ["looped"] Bool
 TvDeviceWidgetCustomData = {}
 
 ---@param fields? table

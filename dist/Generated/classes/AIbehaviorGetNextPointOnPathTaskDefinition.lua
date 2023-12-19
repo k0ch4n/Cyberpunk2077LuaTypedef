@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorGetNextPointOnPathTaskDefinition: AIbehaviorTaskDefinition
----@field public patrolProgress AIArgumentMapping
----@field public positionOnPath AIArgumentMapping
----@field public entryTangent AIArgumentMapping
+---@field public ["patrolProgress"] AIArgumentMapping
+---@field public ["positionOnPath"] AIArgumentMapping
+---@field public ["entryTangent"] AIArgumentMapping
 AIbehaviorGetNextPointOnPathTaskDefinition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReflexesMasterPerk1EffectorListener: gameScriptedDamageSystemListener
----@field public owner ReflexesMasterPerk1Effector
+---@field public ["owner"] ReflexesMasterPerk1Effector
 ReflexesMasterPerk1EffectorListener = {}
 
 ---@param fields? table

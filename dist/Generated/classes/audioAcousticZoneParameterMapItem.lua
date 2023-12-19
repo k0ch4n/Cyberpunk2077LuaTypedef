@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioAcousticZoneParameterMapItem: audioAudioMetadata
----@field public param CName
----@field public value Float
----@field public enterCurveTime Float
----@field public exitCurveTime Float
+---@field public ["param"] CName
+---@field public ["value"] Float
+---@field public ["enterCurveTime"] Float
+---@field public ["exitCurveTime"] Float
 audioAcousticZoneParameterMapItem = {}
 
 ---@param fields? table

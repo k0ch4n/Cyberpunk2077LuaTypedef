@@ -3,7 +3,7 @@
 
 ---@enum animWeaponOwnerType
 animWeaponOwnerType = {
-    ["Player"] = 0,
-    ["NPC"] = 1,
-    ["None"] = 2
+    ["Player"] = 0, ---@type Enum
+    ["NPC"] = 1, ---@type Enum
+    ["None"] = 2, ---@type Enum
 }

@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class ChatterLineLogicController: BaseSubtitleLineLogicController
----@field private TextContainer inkWidgetReference
----@field private speachBubble inkWidgetReference
----@field private background inkRectangleWidgetReference
----@field private container_normal inkWidgetReference
----@field private container_wide inkWidgetReference
----@field private text_normal inkTextWidgetReference
----@field private text_wide inkTextWidgetReference
----@field private kiroshiAnimationCtrl_Normal inkTextKiroshiAnimationController
----@field private kiroshiAnimationCtrl_Wide inkTextKiroshiAnimationController
----@field private motherTongueCtrl_Normal inkTextMotherTongueController
----@field private motherTongueCtrl_Wide inkTextMotherTongueController
----@field private isNameplateVisible Bool
----@field private nameplateEntityId entEntityID
----@field private nameplatHeightOffset Float
----@field private ownerId entEntityID
----@field private c_ExtraWideTextWidth Int32
----@field private rootWidget inkWidget
----@field private projection inkScreenProjection
----@field private subtitlesMaxDistance Float
----@field private bubbleMinDistance Float
----@field private limitSubtitlesDistance Bool
----@field private isOverHead Bool
+---@field private ["TextContainer"] inkWidgetReference
+---@field private ["speachBubble"] inkWidgetReference
+---@field private ["background"] inkRectangleWidgetReference
+---@field private ["container_normal"] inkWidgetReference
+---@field private ["container_wide"] inkWidgetReference
+---@field private ["text_normal"] inkTextWidgetReference
+---@field private ["text_wide"] inkTextWidgetReference
+---@field private ["kiroshiAnimationCtrl_Normal"] inkTextKiroshiAnimationController
+---@field private ["kiroshiAnimationCtrl_Wide"] inkTextKiroshiAnimationController
+---@field private ["motherTongueCtrl_Normal"] inkTextMotherTongueController
+---@field private ["motherTongueCtrl_Wide"] inkTextMotherTongueController
+---@field private ["isNameplateVisible"] Bool
+---@field private ["nameplateEntityId"] entEntityID
+---@field private ["nameplatHeightOffset"] Float
+---@field private ["ownerId"] entEntityID
+---@field private ["c_ExtraWideTextWidth"] Int32
+---@field private ["rootWidget"] inkWidget
+---@field private ["projection"] inkScreenProjection
+---@field private ["subtitlesMaxDistance"] Float
+---@field private ["bubbleMinDistance"] Float
+---@field private ["limitSubtitlesDistance"] Bool
+---@field private ["isOverHead"] Bool
 ChatterLineLogicController = {}
 
 ---@param fields? table

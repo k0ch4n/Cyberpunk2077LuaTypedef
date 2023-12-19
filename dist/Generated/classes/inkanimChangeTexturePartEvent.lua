@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimChangeTexturePartEvent: inkanimEvent
----@field public imageTexturePartName CName
+---@field public ["imageTexturePartName"] CName
 inkanimChangeTexturePartEvent = {}
 
 ---@param fields? table

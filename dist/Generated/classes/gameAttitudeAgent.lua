@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAttitudeAgent: gameComponent
----@field public baseAttitudeGroup CName
+---@field public ["baseAttitudeGroup"] CName
 gameAttitudeAgent = {}
 
 ---@param fields? table
@@ -20,11 +20,11 @@ function gameAttitudeAgent:GetAttitudeTowards(other) return end
 ---@return Bool
 function gameAttitudeAgent:IsDangerous(other) return end
 
----@param group CName
+---@param group CName|string
 ---@return nil
 function gameAttitudeAgent:SetAttitudeGroup(group) return end
 
----@param group CName
+---@param group CName|string
 ---@return nil
 function gameAttitudeAgent:SetAttitudeGroupUnsavable(group) return end
 

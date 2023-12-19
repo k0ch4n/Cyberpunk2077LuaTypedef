@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayerScriptableSystemRequest: gameScriptableSystemRequest
----@field public owner gameObject
+---@field public ["owner"] gameObject
 gamePlayerScriptableSystemRequest = {}
 
 ---@param fields? table

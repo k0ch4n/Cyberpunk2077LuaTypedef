@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetTargetingQueryRange_NodeType: questISceneManagerNodeType
----@field public targetingQueryRange Float
----@field public resetToDefault Bool
+---@field public ["targetingQueryRange"] Float
+---@field public ["resetToDefault"] Bool
 questSetTargetingQueryRange_NodeType = {}
 
 ---@param fields? table

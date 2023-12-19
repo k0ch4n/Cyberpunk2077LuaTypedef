@@ -35,12 +35,12 @@ function cpPlayerSystem:IsInFreeCamera() return end
 function cpPlayerSystem:LocalPlayerControlExistingObject(entityID) return end
 
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@return Uint32
 function cpPlayerSystem:RegisterPlayerPuppetAttachedCallback(object, func) return end
 
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@return Uint32
 function cpPlayerSystem:RegisterPlayerPuppetDetachedCallback(object, func) return end
 

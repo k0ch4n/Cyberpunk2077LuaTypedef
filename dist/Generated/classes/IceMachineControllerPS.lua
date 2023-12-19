@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IceMachineControllerPS: VendingMachineControllerPS
----@field private vendorTweakID TweakDBID
----@field private iceMachineSFX IceMachineSFX
+---@field private ["vendorTweakID"] TweakDBID
+---@field private ["iceMachineSFX"] IceMachineSFX
 IceMachineControllerPS = {}
 
 ---@param fields? table

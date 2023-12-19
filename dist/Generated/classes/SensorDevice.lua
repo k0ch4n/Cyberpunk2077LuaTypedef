@@ -2,80 +2,80 @@
 ---@diagnostic disable
 
 ---@class SensorDevice: ExplosiveDevice
----@field protected attitudeAgent gameAttitudeAgent
----@field protected senseComponent senseComponent
----@field protected visibleObjectComponent senseVisibleObjectComponent
----@field private forwardFaceSlotComponent entSlotComponent
----@field private targetingComponent gameTargetingComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field protected cameraComponentInverted gameCameraComponent
----@field private targets Target[]
----@field private currentlyFollowedTarget gameObject
----@field protected currentLookAtEventVert entLookAtAddEvent
----@field protected currentLookAtEventHor entLookAtAddEvent
----@field private HPListenersList TargetedObjectDeathListener[]
----@field private sensorDeviceState ESensorDeviceStates
----@field private sensorWakeState ESensorDeviceWakeState
----@field private sensorWakeStatePrevious ESensorDeviceWakeState
----@field private targetingDelayEventID gameDelayID
----@field private hack_isTargetingDelayEventFilled Bool
----@field private currentResolveDelayEventID gameDelayID
----@field private hack_isResolveDelayEventFilled Bool
----@field private animFeatureData AnimFeature_SensorDevice
----@field private animFeatureDataName CName
----@field private targetLostBySensesDelayEventID gameDelayID
----@field private hack_isTargetLostBySensesDelEvtFilled Bool
----@field private initialAttitude CName
----@field private detectionFactorMultiplier Float
----@field private taggedListenerCallback redCallbackObject
----@field protected lightScanRefs gameLightComponent[]
----@field protected lightAttitudeRefs gameLightComponent[]
----@field protected lightInfoRefs gameLightComponent[]
----@field protected lightColors LedColors_SensorDevice
----@field protected deviceFXRecord gamedataDeviceFX_Record
----@field protected scanGameEffect gameEffectInstance
----@field protected scanFXSlotName CName
----@field protected visionConeEffectInstance gameEffectInstance
----@field protected idleGameEffectInstance gameEffectInstance
----@field private targetForcedFormTagKill Bool
----@field private hasSupport Bool
----@field protected defaultSensePreset TweakDBID
----@field private keepHostilityTowardsPlayerHostiles Bool
----@field private hostileUpdateTowardsPlayerHostilesDelayed Bool
----@field protected elementsToHideOnTCS CName[]
----@field protected elementsToHideOnTCSRefs entIPlacedComponent[]
----@field public previoustagKillList gameObject[]
----@field protected playIdleSoundOnIdle Bool
----@field protected idleSound CName
----@field protected idleSoundStop CName
----@field protected soundDeviceON CName
----@field protected soundDeviceOFF CName
----@field private idleSoundIsPlaying Bool
----@field protected soundDeviceDestroyed CName
----@field protected soundDetectionLoop CName
----@field protected soundDetectionLoopStop CName
----@field private isPLAYERSAFETargetLock Bool
----@field private playerDetected Bool
----@field private clientForceSetAnimFeature Bool
----@field private playerControlData PlayerControlDeviceData
----@field private engineTimeInSec Float
----@field private TCExitEngineTime Float
----@field private hack_wasTargetReevaluated Bool
----@field private hack_wasSSOutupFromSelf Bool
----@field private degbu_SS_inputsSend Int32
----@field private debug_SS_inputsSendTargetLock Int32
----@field private debug_SS_inputsSendIntresting Int32
----@field private debug_SS_inputsSendLoseTarget Int32
----@field private debug_SS_outputRecieved Int32
----@field private debug_SS_outputFormSelfRecieved Int32
----@field private debug_SS_outputFromElseRecieved Int32
----@field private debug_SS_reevaluatesDone Int32
----@field private debug_SS_trespassingRecieved Int32
----@field private debug_SS_TargetAssessmentRequest Int32
----@field protected minPitch Float
----@field protected maxPitch Float
----@field protected minYaw Float
----@field protected maxYaw Float
+---@field protected ["attitudeAgent"] gameAttitudeAgent
+---@field protected ["senseComponent"] senseComponent
+---@field protected ["visibleObjectComponent"] senseVisibleObjectComponent
+---@field private ["forwardFaceSlotComponent"] entSlotComponent
+---@field private ["targetingComponent"] gameTargetingComponent
+---@field private ["targetTrackerComponent"] AITargetTrackerComponent
+---@field protected ["cameraComponentInverted"] gameCameraComponent
+---@field private ["targets"] Target[]
+---@field private ["currentlyFollowedTarget"] gameObject
+---@field protected ["currentLookAtEventVert"] entLookAtAddEvent
+---@field protected ["currentLookAtEventHor"] entLookAtAddEvent
+---@field private ["HPListenersList"] TargetedObjectDeathListener[]
+---@field private ["sensorDeviceState"] ESensorDeviceStates
+---@field private ["sensorWakeState"] ESensorDeviceWakeState
+---@field private ["sensorWakeStatePrevious"] ESensorDeviceWakeState
+---@field private ["targetingDelayEventID"] gameDelayID
+---@field private ["hack_isTargetingDelayEventFilled"] Bool
+---@field private ["currentResolveDelayEventID"] gameDelayID
+---@field private ["hack_isResolveDelayEventFilled"] Bool
+---@field private ["animFeatureData"] AnimFeature_SensorDevice
+---@field private ["animFeatureDataName"] CName
+---@field private ["targetLostBySensesDelayEventID"] gameDelayID
+---@field private ["hack_isTargetLostBySensesDelEvtFilled"] Bool
+---@field private ["initialAttitude"] CName
+---@field private ["detectionFactorMultiplier"] Float
+---@field private ["taggedListenerCallback"] redCallbackObject
+---@field protected ["lightScanRefs"] gameLightComponent[]
+---@field protected ["lightAttitudeRefs"] gameLightComponent[]
+---@field protected ["lightInfoRefs"] gameLightComponent[]
+---@field protected ["lightColors"] LedColors_SensorDevice
+---@field protected ["deviceFXRecord"] gamedataDeviceFX_Record
+---@field protected ["scanGameEffect"] gameEffectInstance
+---@field protected ["scanFXSlotName"] CName
+---@field protected ["visionConeEffectInstance"] gameEffectInstance
+---@field protected ["idleGameEffectInstance"] gameEffectInstance
+---@field private ["targetForcedFormTagKill"] Bool
+---@field private ["hasSupport"] Bool
+---@field protected ["defaultSensePreset"] TweakDBID
+---@field private ["keepHostilityTowardsPlayerHostiles"] Bool
+---@field private ["hostileUpdateTowardsPlayerHostilesDelayed"] Bool
+---@field protected ["elementsToHideOnTCS"] CName[]
+---@field protected ["elementsToHideOnTCSRefs"] entIPlacedComponent[]
+---@field public ["previoustagKillList"] gameObject[]
+---@field protected ["playIdleSoundOnIdle"] Bool
+---@field protected ["idleSound"] CName
+---@field protected ["idleSoundStop"] CName
+---@field protected ["soundDeviceON"] CName
+---@field protected ["soundDeviceOFF"] CName
+---@field private ["idleSoundIsPlaying"] Bool
+---@field protected ["soundDeviceDestroyed"] CName
+---@field protected ["soundDetectionLoop"] CName
+---@field protected ["soundDetectionLoopStop"] CName
+---@field private ["isPLAYERSAFETargetLock"] Bool
+---@field private ["playerDetected"] Bool
+---@field private ["clientForceSetAnimFeature"] Bool
+---@field private ["playerControlData"] PlayerControlDeviceData
+---@field private ["engineTimeInSec"] Float
+---@field private ["TCExitEngineTime"] Float
+---@field private ["hack_wasTargetReevaluated"] Bool
+---@field private ["hack_wasSSOutupFromSelf"] Bool
+---@field private ["degbu_SS_inputsSend"] Int32
+---@field private ["debug_SS_inputsSendTargetLock"] Int32
+---@field private ["debug_SS_inputsSendIntresting"] Int32
+---@field private ["debug_SS_inputsSendLoseTarget"] Int32
+---@field private ["debug_SS_outputRecieved"] Int32
+---@field private ["debug_SS_outputFormSelfRecieved"] Int32
+---@field private ["debug_SS_outputFromElseRecieved"] Int32
+---@field private ["debug_SS_reevaluatesDone"] Int32
+---@field private ["debug_SS_trespassingRecieved"] Int32
+---@field private ["debug_SS_TargetAssessmentRequest"] Int32
+---@field protected ["minPitch"] Float
+---@field protected ["maxPitch"] Float
+---@field protected ["minYaw"] Float
+---@field protected ["maxYaw"] Float
 SensorDevice = {}
 
 ---@param fields? table
@@ -327,12 +327,12 @@ function SensorDevice:OnUnregisterListenerOnTargetHPEvent(evt) return end
 
 ---@private
 ---@param object gameObject
----@param funcName CName
+---@param funcName CName|string
 ---@return nil
 function SensorDevice:AddTaggedListener(object, funcName) return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
 function SensorDevice:ApplyAnimFeatureToReplicate(obj, inputName, value) return end
@@ -731,7 +731,7 @@ function SensorDevice:RevertTemporaryAttitude() return end
 
 ---@protected
 ---@param effectRef gameEffectRef
----@param slotName CName
+---@param slotName CName|string
 ---@param range Float
 ---@return nil, gameEffectInstance effectInstance
 function SensorDevice:RunGameEffect(effectRef, slotName, range) return end

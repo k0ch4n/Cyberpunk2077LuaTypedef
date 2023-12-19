@@ -19,25 +19,25 @@ function gamePersistencySystem:EntityProxy_DisablePhysics(targetEntity, disable)
 function gamePersistencySystem:ForgetObject(targetID, notifyEntity) return end
 
 ---@param targetID gamePersistentID
----@param psClassName CName
+---@param psClassName CName|string
 ---@return gamePersistentState
 function gamePersistencySystem:GetConstAccessToPSObject(targetID, psClassName) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@return Bool
 function gamePersistencySystem:GetPersistentBool(targetEntity, psClassName, varName) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@return Float
 function gamePersistencySystem:GetPersistentFloat(targetEntity, psClassName, varName) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@return Int32
 function gamePersistencySystem:GetPersistentInt(targetEntity, psClassName, varName) return end
 
@@ -51,28 +51,28 @@ function gamePersistencySystem:QueueEntityEvent(targetEntity, evt) return end
 function gamePersistencySystem:QueuePSDeviceEvent(action) return end
 
 ---@param targetID gamePersistentID
----@param psClassName CName
+---@param psClassName CName|string
 ---@param evt redEvent
 ---@return nil
 function gamePersistencySystem:QueuePSEvent(targetID, psClassName, evt) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@param newValue Bool
 ---@return nil
 function gamePersistencySystem:SetPersistentBool(targetEntity, psClassName, varName, newValue) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@param newValue Float
 ---@return nil
 function gamePersistencySystem:SetPersistentFloat(targetEntity, psClassName, varName, newValue) return end
 
 ---@param targetEntity gamePersistentID
----@param psClassName CName
----@param varName CName
+---@param psClassName CName|string
+---@param varName CName|string
 ---@param newValue Int32
 ---@return nil
 function gamePersistencySystem:SetPersistentInt(targetEntity, psClassName, varName, newValue) return end

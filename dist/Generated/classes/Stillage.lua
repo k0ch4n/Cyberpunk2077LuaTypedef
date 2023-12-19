@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Stillage: InteractiveDevice
----@field private collider entIPlacedComponent
+---@field private ["collider"] entIPlacedComponent
 Stillage = {}
 
 ---@param fields? table
@@ -30,6 +30,6 @@ function Stillage:OnTakeControl(ri) return end
 function Stillage:OnThrowStuff(evt) return end
 
 ---@protected
----@param componentName CName
+---@param componentName CName|string
 ---@return Bool
 function Stillage:OnWorkspotFinished(componentName) return end

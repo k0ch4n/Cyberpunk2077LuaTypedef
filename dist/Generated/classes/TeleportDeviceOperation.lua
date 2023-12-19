@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TeleportDeviceOperation: DeviceOperationBase
----@field public teleport STeleportOperationData
+---@field public ["teleport"] STeleportOperationData
 TeleportDeviceOperation = {}
 
 ---@param fields? table

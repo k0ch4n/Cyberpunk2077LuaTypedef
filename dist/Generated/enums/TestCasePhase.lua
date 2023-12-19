@@ -3,7 +3,7 @@
 
 ---@enum TestCasePhase
 TestCasePhase = {
-    ["Setup"] = 0,
-    ["Body"] = 1,
-    ["Wrapup"] = 2
+    ["Setup"] = 0, ---@type Enum
+    ["Body"] = 1, ---@type Enum
+    ["Wrapup"] = 2, ---@type Enum
 }

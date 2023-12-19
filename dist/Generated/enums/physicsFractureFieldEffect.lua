@@ -3,6 +3,6 @@
 
 ---@enum physicsFractureFieldEffect
 physicsFractureFieldEffect = {
-    ["FE_Fracture"] = 0,
-    ["FE_Erase"] = 1
+    ["FE_Fracture"] = 0, ---@type Enum
+    ["FE_Erase"] = 1, ---@type Enum
 }

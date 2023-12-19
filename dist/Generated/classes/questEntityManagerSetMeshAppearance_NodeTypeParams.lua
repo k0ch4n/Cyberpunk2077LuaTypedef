@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetMeshAppearance_NodeTypeParams
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
----@field public componentName CName
----@field public appearanceName CName
+---@field public ["objectRef"] gameEntityReference
+---@field public ["isPlayer"] Bool
+---@field public ["componentName"] CName
+---@field public ["appearanceName"] CName
 questEntityManagerSetMeshAppearance_NodeTypeParams = {}
 
 ---@param fields? table

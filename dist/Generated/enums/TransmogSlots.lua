@@ -3,10 +3,10 @@
 
 ---@enum TransmogSlots
 TransmogSlots = {
-    ["Head"] = 0,
-    ["Face"] = 1,
-    ["InnerChest"] = 2,
-    ["OuterChest"] = 3,
-    ["Legs"] = 4,
-    ["Feet"] = 5
+    ["Head"] = 0, ---@type Enum
+    ["Face"] = 1, ---@type Enum
+    ["InnerChest"] = 2, ---@type Enum
+    ["OuterChest"] = 3, ---@type Enum
+    ["Legs"] = 4, ---@type Enum
+    ["Feet"] = 5, ---@type Enum
 }

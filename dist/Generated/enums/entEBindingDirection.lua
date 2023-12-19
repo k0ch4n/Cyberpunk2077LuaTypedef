@@ -3,6 +3,6 @@
 
 ---@enum entEBindingDirection
 entEBindingDirection = {
-    ["BindToSource"] = 0,
-    ["BindToDestination"] = 1
+    ["BindToSource"] = 0, ---@type Enum
+    ["BindToDestination"] = 1, ---@type Enum
 }

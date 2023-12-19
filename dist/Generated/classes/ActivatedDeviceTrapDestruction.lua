@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceTrapDestruction: ActivatedDeviceTrap
----@field protected physicalMeshNames CName[]
----@field protected physicalMeshes entPhysicalMeshComponent[]
----@field protected hideMeshNames CName[]
----@field protected hideMeshes entIPlacedComponent[]
----@field protected hitColliderNames CName[]
----@field protected hitColliders entIPlacedComponent[]
----@field protected impulseVector Vector4
----@field protected physicalMeshImpactVFX gameFxResource[]
----@field protected componentsToEnableNames CName[]
----@field protected componentsToEnable entIPlacedComponent[]
----@field protected hitCount Int32
----@field protected wasAttackPerformed Bool
----@field protected alreadyPlayedVFXComponents CName[]
----@field protected shouldCheckPhysicalCollisions Bool
----@field protected lastEntityHit IScriptable
----@field protected timeToActivatePhysics Float
+---@field protected ["physicalMeshNames"] CName[]
+---@field protected ["physicalMeshes"] entPhysicalMeshComponent[]
+---@field protected ["hideMeshNames"] CName[]
+---@field protected ["hideMeshes"] entIPlacedComponent[]
+---@field protected ["hitColliderNames"] CName[]
+---@field protected ["hitColliders"] entIPlacedComponent[]
+---@field protected ["impulseVector"] Vector4
+---@field protected ["physicalMeshImpactVFX"] gameFxResource[]
+---@field protected ["componentsToEnableNames"] CName[]
+---@field protected ["componentsToEnable"] entIPlacedComponent[]
+---@field protected ["hitCount"] Int32
+---@field protected ["wasAttackPerformed"] Bool
+---@field protected ["alreadyPlayedVFXComponents"] CName[]
+---@field protected ["shouldCheckPhysicalCollisions"] Bool
+---@field protected ["lastEntityHit"] IScriptable
+---@field protected ["timeToActivatePhysics"] Float
 ActivatedDeviceTrapDestruction = {}
 
 ---@param fields? table

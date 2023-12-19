@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetFactEffector: gameEffector
----@field public fact CName
----@field public value Int32
+---@field public ["fact"] CName
+---@field public ["value"] Int32
 SetFactEffector = {}
 
 ---@param fields? table

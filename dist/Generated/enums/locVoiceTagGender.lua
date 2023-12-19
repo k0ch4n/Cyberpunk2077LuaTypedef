@@ -3,7 +3,7 @@
 
 ---@enum locVoiceTagGender
 locVoiceTagGender = {
-    ["Undefined"] = 0,
-    ["Male"] = 1,
-    ["Female"] = 2
+    ["Undefined"] = 0, ---@type Enum
+    ["Male"] = 1, ---@type Enum
+    ["Female"] = 2, ---@type Enum
 }

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CraftingNotificationEvent: redEvent
----@field public notificationType CraftingNotificationType
----@field public perkName String
+---@field public ["notificationType"] CraftingNotificationType
+---@field public ["perkName"] String
 CraftingNotificationEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAttackHitTypeEffector: ModifyAttackEffector
----@field public hitType gameuiHitType
+---@field public ["hitType"] gameuiHitType
 SetAttackHitTypeEffector = {}
 
 ---@param fields? table

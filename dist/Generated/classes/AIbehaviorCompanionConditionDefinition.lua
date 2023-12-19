@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCompanionConditionDefinition: AIbehaviorConditionDefinition
----@field public spline AIArgumentMapping
----@field public companion AIArgumentMapping
+---@field public ["spline"] AIArgumentMapping
+---@field public ["companion"] AIArgumentMapping
 AIbehaviorCompanionConditionDefinition = {}

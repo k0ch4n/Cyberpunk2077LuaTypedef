@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entDismembermentAudioEvent: redEvent
----@field public bodyPart entAudioDismembermentPart
----@field public position Vector4
+---@field public ["bodyPart"] entAudioDismembermentPart
+---@field public ["position"] Vector4
 entDismembermentAudioEvent = {}
 
 ---@param fields? table

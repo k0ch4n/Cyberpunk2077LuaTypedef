@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class AttachCapsuleVisionBlockerEffector: gameEffector
----@field private visionBlockerRegistrar senseVisionBlockersRegistrar
----@field private visionBlockerType EVisionBlockerType
----@field private visionBlockerId Uint32
----@field private visionBlockerOffset Vector3
----@field private visionBlockerRadius Float
----@field private visionBlockerHeight Float
----@field private visionBlockerDetectionModifier Float
----@field private visionBlockerTBHModifier Float
----@field private isBlockingCompletely Bool
----@field private blocksParent Bool
+---@field private ["visionBlockerRegistrar"] senseVisionBlockersRegistrar
+---@field private ["visionBlockerType"] EVisionBlockerType
+---@field private ["visionBlockerId"] Uint32
+---@field private ["visionBlockerOffset"] Vector3
+---@field private ["visionBlockerRadius"] Float
+---@field private ["visionBlockerHeight"] Float
+---@field private ["visionBlockerDetectionModifier"] Float
+---@field private ["visionBlockerTBHModifier"] Float
+---@field private ["isBlockingCompletely"] Bool
+---@field private ["blocksParent"] Bool
 AttachCapsuleVisionBlockerEffector = {}
 
 ---@param fields? table

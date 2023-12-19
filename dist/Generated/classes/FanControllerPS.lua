@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FanControllerPS: BasicDistractionDeviceControllerPS
----@field private fanSetup FanSetup
+---@field private ["fanSetup"] FanSetup
 FanControllerPS = {}
 
 ---@param fields? table

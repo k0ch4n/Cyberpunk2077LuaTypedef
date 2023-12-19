@@ -4,7 +4,7 @@
 ---@class NativeProxy
 NativeProxy = {}
 
----@return WeakReference
+---@return IScriptable|WeakReference
 function NativeProxy:Target() end
 
 ---@param aName? string

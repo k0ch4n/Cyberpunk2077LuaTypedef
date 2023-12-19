@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleNotifyPassengersOfCollision: redEvent
----@field public hitDirection Vector4
----@field public instigator gameObject
+---@field public ["hitDirection"] Vector4
+---@field public ["instigator"] gameObject
 vehicleNotifyPassengersOfCollision = {}
 
 ---@param fields? table

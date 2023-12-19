@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioSpatialSoundLimitMetadata: audioAudioMetadata
----@field public eventNames CName[]
----@field public writeOnlyEventNames CName[]
----@field public readOnlyEventNames CName[]
----@field public radius Float
+---@field public ["eventNames"] CName[]
+---@field public ["writeOnlyEventNames"] CName[]
+---@field public ["readOnlyEventNames"] CName[]
+---@field public ["radius"] Float
 audioSpatialSoundLimitMetadata = {}
 
 ---@param fields? table

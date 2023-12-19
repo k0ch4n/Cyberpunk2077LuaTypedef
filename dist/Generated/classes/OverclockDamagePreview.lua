@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OverclockDamagePreview: redEvent
----@field public IsHovering Bool
----@field public JustHacked Bool
----@field public MemoryCost Int32
+---@field public ["IsHovering"] Bool
+---@field public ["JustHacked"] Bool
+---@field public ["MemoryCost"] Int32
 OverclockDamagePreview = {}
 
 ---@param fields? table

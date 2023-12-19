@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AVSpawnedRequest: gameScriptableSystemRequest
----@field public spawnedObjects gameObject[]
+---@field public ["spawnedObjects"] gameObject[]
 AVSpawnedRequest = {}
 
 ---@param fields? table

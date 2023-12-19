@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipRecipeDataModule: ItemTooltipModuleController
----@field private randomQualityLabel inkTextWidgetReference
----@field private randomQualityWrapper inkWidgetReference
----@field private statsLabel inkTextWidgetReference
----@field private statsWrapper inkWidgetReference
----@field private statsContainer inkCompoundWidgetReference
----@field private damageTypesLabel inkTextWidgetReference
----@field private damageTypesWrapper inkWidgetReference
----@field private damageTypesContainer inkCompoundWidgetReference
+---@field private ["randomQualityLabel"] inkTextWidgetReference
+---@field private ["randomQualityWrapper"] inkWidgetReference
+---@field private ["statsLabel"] inkTextWidgetReference
+---@field private ["statsWrapper"] inkWidgetReference
+---@field private ["statsContainer"] inkCompoundWidgetReference
+---@field private ["damageTypesLabel"] inkTextWidgetReference
+---@field private ["damageTypesWrapper"] inkWidgetReference
+---@field private ["damageTypesContainer"] inkCompoundWidgetReference
 ItemTooltipRecipeDataModule = {}
 
 ---@param fields? table

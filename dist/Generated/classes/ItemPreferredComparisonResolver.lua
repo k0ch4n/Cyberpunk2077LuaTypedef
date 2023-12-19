@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ItemPreferredComparisonResolver: IScriptable
----@field private cacheadAreaItems ItemPreferredAreaItems[]
----@field private cachedComparableTypes ItemComparableTypesCache[]
----@field private typeComparableItemsCache TypeComparableItemsCache[]
----@field private dataManager InventoryDataManagerV2
----@field private forcedCompareItem gameInventoryItemData
----@field private useForceCompare Bool
+---@field private ["cacheadAreaItems"] ItemPreferredAreaItems[]
+---@field private ["cachedComparableTypes"] ItemComparableTypesCache[]
+---@field private ["typeComparableItemsCache"] TypeComparableItemsCache[]
+---@field private ["dataManager"] InventoryDataManagerV2
+---@field private ["forcedCompareItem"] gameInventoryItemData
+---@field private ["useForceCompare"] Bool
 ItemPreferredComparisonResolver = {}
 
 ---@param fields? table

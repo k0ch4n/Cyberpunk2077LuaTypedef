@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseVisibleObjectComponent: entIPlacedComponent
----@field public visibleObject senseVisibleObject
+---@field public ["visibleObject"] senseVisibleObject
 senseVisibleObjectComponent = {}
 
 ---@param fields? table

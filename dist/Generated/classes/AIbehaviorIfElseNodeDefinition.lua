@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorIfElseNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
----@field public condition AIbehaviorExpressionSocket
+---@field public ["condition"] AIbehaviorExpressionSocket
 AIbehaviorIfElseNodeDefinition = {}
 
 ---@param fields? table

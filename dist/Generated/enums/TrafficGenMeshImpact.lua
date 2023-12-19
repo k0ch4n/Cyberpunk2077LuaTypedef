@@ -3,7 +3,7 @@
 
 ---@enum TrafficGenMeshImpact
 TrafficGenMeshImpact = {
-    ["UseNavigation"] = 0,
-    ["ForceIgnored"] = 1,
-    ["ForceBlocking"] = 2
+    ["UseNavigation"] = 0, ---@type Enum
+    ["ForceIgnored"] = 1, ---@type Enum
+    ["ForceBlocking"] = 2, ---@type Enum
 }

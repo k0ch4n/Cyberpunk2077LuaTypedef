@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class InteractionUIBase: gameuiHUDGameController
----@field protected InteractionsBlackboard gameIBlackboard
----@field protected InteractionsBBDefinition UIInteractionsDef
----@field protected DialogsDataListenerId redCallbackObject
----@field protected DialogsActiveHubListenerId redCallbackObject
----@field protected DialogsSelectedChoiceListenerId redCallbackObject
----@field protected InteractionsDataListenerId redCallbackObject
----@field private lootingDataListenerId redCallbackObject
----@field protected AreDialogsOpen Bool
----@field protected AreContactsOpen Bool
----@field protected IsLootingOpen Bool
----@field protected AreInteractionsOpen Bool
----@field private interactionIsScrollable Bool
----@field private dialogIsScrollable Bool
----@field private lootingIsScrollable Bool
+---@field protected ["InteractionsBlackboard"] gameIBlackboard
+---@field protected ["InteractionsBBDefinition"] UIInteractionsDef
+---@field protected ["DialogsDataListenerId"] redCallbackObject
+---@field protected ["DialogsActiveHubListenerId"] redCallbackObject
+---@field protected ["DialogsSelectedChoiceListenerId"] redCallbackObject
+---@field protected ["InteractionsDataListenerId"] redCallbackObject
+---@field private ["lootingDataListenerId"] redCallbackObject
+---@field protected ["AreDialogsOpen"] Bool
+---@field protected ["AreContactsOpen"] Bool
+---@field protected ["IsLootingOpen"] Bool
+---@field protected ["AreInteractionsOpen"] Bool
+---@field private ["interactionIsScrollable"] Bool
+---@field private ["dialogIsScrollable"] Bool
+---@field private ["lootingIsScrollable"] Bool
 InteractionUIBase = {}
 
 ---@protected

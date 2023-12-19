@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BrowserGameController: gameuiWidgetGameController
----@field public logicControllerRef inkWidgetReference
----@field protected journalManager gameJournalManager
----@field private locationTags CName[]
+---@field public ["logicControllerRef"] inkWidgetReference
+---@field protected ["journalManager"] gameJournalManager
+---@field private ["locationTags"] CName[]
 BrowserGameController = {}
 
 ---@param fields? table
@@ -17,7 +17,7 @@ function BrowserGameController:OnInitialize() return end
 
 ---@protected
 ---@param entryHash Uint32
----@param className CName
+---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactsDeviceOperation: DeviceOperationBase
----@field public facts SFactOperationData[]
+---@field public ["facts"] SFactOperationData[]
 FactsDeviceOperation = {}
 
 ---@param fields? table

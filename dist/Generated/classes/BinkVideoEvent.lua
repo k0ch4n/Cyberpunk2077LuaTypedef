@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BinkVideoEvent: redEvent
----@field public path redResourceReferenceScriptToken
----@field public startingTime Float
----@field public shouldPlay Bool
+---@field public ["path"] redResourceReferenceScriptToken
+---@field public ["startingTime"] Float
+---@field public ["shouldPlay"] Bool
 BinkVideoEvent = {}
 
 ---@param fields? table

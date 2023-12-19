@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ReprimandUpdate: redEvent
----@field public reprimandInstructions EReprimandInstructions
----@field public target entEntityID
----@field public targetPos Vector4
----@field public currentPerformer gameObject
+---@field public ["reprimandInstructions"] EReprimandInstructions
+---@field public ["target"] entEntityID
+---@field public ["targetPos"] Vector4
+---@field public ["currentPerformer"] gameObject
 ReprimandUpdate = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum gamedataConsumableType
 gamedataConsumableType = {
-    ["Drug"] = 0,
-    ["Medical"] = 1,
-    ["Count"] = 2,
-    ["Invalid"] = 3
+    ["Drug"] = 0, ---@type Enum
+    ["Medical"] = 1, ---@type Enum
+    ["Count"] = 2, ---@type Enum
+    ["Invalid"] = 3, ---@type Enum
 }

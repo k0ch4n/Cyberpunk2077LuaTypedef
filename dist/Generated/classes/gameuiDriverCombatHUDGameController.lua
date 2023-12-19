@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class gameuiDriverCombatHUDGameController: gameuiHUDGameController
----@field public inWeaponizedVehicle Bool
----@field public inDriverCombat Bool
----@field public inReloadState Bool
----@field public inSafeState Bool
----@field public crosshairBrackets inkWidgetReference
----@field public crosshairBracketsFlairLeft inkWidgetReference
----@field public crosshairBracketsFlairRight inkWidgetReference
----@field public bracketsTransitionDetailsWidgetList inkWidgetReference[]
----@field public crosshairBracketsMinSize Vector2
----@field public crosshairBracketsInstantSnapValue Float
----@field public crosshairBracketsInOutTransitionTime Float
----@field public crosshairBracketsIntroSizeMultiplier Float
----@field public crosshairBracketsTrail inkWidgetReference
----@field public crosshairBracketsTrailTransitionTime Float
----@field public crosshairReducedOpacity Float
----@field public unifomSafeZone Float
----@field private player gameObject
----@field private psmBlackboard gameIBlackboard
----@field private psmWeaponCallback redCallbackObject
----@field private uiActiveVehicleFPPRearviewCameraActivatedCallback redCallbackObject
----@field private reloadingAnimProxy inkanimProxy
----@field private vehicleFPPRearviewCamera inkWidgetReference
----@field private vehicleManufacturer inkImageWidgetReference
----@field private debugTuningStatusText inkTextWidgetReference
+---@field public ["inWeaponizedVehicle"] Bool
+---@field public ["inDriverCombat"] Bool
+---@field public ["inReloadState"] Bool
+---@field public ["inSafeState"] Bool
+---@field public ["crosshairBrackets"] inkWidgetReference
+---@field public ["crosshairBracketsFlairLeft"] inkWidgetReference
+---@field public ["crosshairBracketsFlairRight"] inkWidgetReference
+---@field public ["bracketsTransitionDetailsWidgetList"] inkWidgetReference[]
+---@field public ["crosshairBracketsMinSize"] Vector2
+---@field public ["crosshairBracketsInstantSnapValue"] Float
+---@field public ["crosshairBracketsInOutTransitionTime"] Float
+---@field public ["crosshairBracketsIntroSizeMultiplier"] Float
+---@field public ["crosshairBracketsTrail"] inkWidgetReference
+---@field public ["crosshairBracketsTrailTransitionTime"] Float
+---@field public ["crosshairReducedOpacity"] Float
+---@field public ["unifomSafeZone"] Float
+---@field private ["player"] gameObject
+---@field private ["psmBlackboard"] gameIBlackboard
+---@field private ["psmWeaponCallback"] redCallbackObject
+---@field private ["uiActiveVehicleFPPRearviewCameraActivatedCallback"] redCallbackObject
+---@field private ["reloadingAnimProxy"] inkanimProxy
+---@field private ["vehicleFPPRearviewCamera"] inkWidgetReference
+---@field private ["vehicleManufacturer"] inkImageWidgetReference
+---@field private ["debugTuningStatusText"] inkTextWidgetReference
 gameuiDriverCombatHUDGameController = {}
 
 ---@param fields? table

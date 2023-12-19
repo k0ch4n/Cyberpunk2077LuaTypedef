@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questJournalQuestObjectiveCounter_NodeType: questIJournal_NodeType
----@field public path gameJournalPath
+---@field public ["path"] gameJournalPath
 questJournalQuestObjectiveCounter_NodeType = {}
 
 ---@param fields? table

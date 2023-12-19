@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRemoveAllContacts_NodeType: questIPhoneManagerNodeType
----@field public excludedContacts gameJournalPath[]
+---@field public ["excludedContacts"] gameJournalPath[]
 questRemoveAllContacts_NodeType = {}
 
 ---@param fields? table

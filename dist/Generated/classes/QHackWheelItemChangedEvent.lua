@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QHackWheelItemChangedEvent: redEvent
----@field public commandData QuickhackData
----@field public currentEmpty Bool
+---@field public ["commandData"] QuickhackData
+---@field public ["currentEmpty"] Bool
 QHackWheelItemChangedEvent = {}
 
 ---@param fields? table

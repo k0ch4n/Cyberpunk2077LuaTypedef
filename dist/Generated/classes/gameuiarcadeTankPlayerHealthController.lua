@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankPlayerHealthController: inkWidgetLogicController
----@field public health inkWidgetReference
+---@field public ["health"] inkWidgetReference
 gameuiarcadeTankPlayerHealthController = {}
 
 ---@param fields? table

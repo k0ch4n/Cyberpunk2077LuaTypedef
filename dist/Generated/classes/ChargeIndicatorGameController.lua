@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ChargeIndicatorGameController: ChargedHotkeyItemBaseController
----@field private itemIcon inkImageWidgetReference
----@field private type ChargeIndicatorWidgetType
----@field private statPoolType gamedataStatPoolType
----@field private iconName String
----@field private itemType CName
----@field private eqArea gamedataEquipmentArea
----@field private OnEquipmentChangedIDBBID redCallbackObject
----@field private c_fullChargeOpacity Float
+---@field private ["itemIcon"] inkImageWidgetReference
+---@field private ["type"] ChargeIndicatorWidgetType
+---@field private ["statPoolType"] gamedataStatPoolType
+---@field private ["iconName"] String
+---@field private ["itemType"] CName
+---@field private ["eqArea"] gamedataEquipmentArea
+---@field private ["OnEquipmentChangedIDBBID"] redCallbackObject
+---@field private ["c_fullChargeOpacity"] Float
 ChargeIndicatorGameController = {}
 
 ---@param fields? table

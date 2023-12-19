@@ -3,6 +3,6 @@
 
 ---@enum ESurveillanceCameraState
 ESurveillanceCameraState = {
-    ["Off"] = 0,
-    ["Active"] = 1
+    ["Off"] = 0, ---@type Enum
+    ["Active"] = 1, ---@type Enum
 }

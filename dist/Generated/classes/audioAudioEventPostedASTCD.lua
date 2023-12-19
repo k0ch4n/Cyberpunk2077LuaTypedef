@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAudioEventPostedASTCD: audioAudioStateTransitionConditionData
----@field public audioEvent CName
+---@field public ["audioEvent"] CName
 audioAudioEventPostedASTCD = {}
 
 ---@param fields? table

@@ -3,8 +3,8 @@
 
 ---@enum scnReminderConditionProcessStep
 scnReminderConditionProcessStep = {
-    ["ReminderA"] = 0,
-    ["ReminderB"] = 1,
-    ["ReminderC"] = 2,
-    ["Looping"] = 3
+    ["ReminderA"] = 0, ---@type Enum
+    ["ReminderB"] = 1, ---@type Enum
+    ["ReminderC"] = 2, ---@type Enum
+    ["Looping"] = 3, ---@type Enum
 }

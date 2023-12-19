@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FailedActionEvent: redEvent
----@field public action gamedeviceAction
----@field public whoFailed gamePersistentID
+---@field public ["action"] gamedeviceAction
+---@field public ["whoFailed"] gamePersistentID
 FailedActionEvent = {}
 
 ---@param fields? table

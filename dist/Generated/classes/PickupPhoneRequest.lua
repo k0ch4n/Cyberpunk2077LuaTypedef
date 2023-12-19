@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PickupPhoneRequest: gameScriptableSystemRequest
----@field public CallInformation questPhoneCallInformation
----@field public shouldBeRejected Bool
+---@field public ["CallInformation"] questPhoneCallInformation
+---@field public ["shouldBeRejected"] Bool
 PickupPhoneRequest = {}
 
 ---@param fields? table

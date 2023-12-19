@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vehicleBaseStrategyRequest: IScriptable
----@field public strategy vehiclePoliceStrategy
----@field public distanceRange Vector2
----@field public minDirectDistance Float
----@field public forceArriveFromBehind Bool
+---@field public ["strategy"] vehiclePoliceStrategy
+---@field public ["distanceRange"] Vector2
+---@field public ["minDirectDistance"] Float
+---@field public ["forceArriveFromBehind"] Bool
 vehicleBaseStrategyRequest = {}
 
 ---@param fields? table

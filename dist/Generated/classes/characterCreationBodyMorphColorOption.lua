@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphColorOption: CharacterCreationBodyMorphBaseOption
----@field private optionLabel inkTextWidgetReference
----@field private colorPickerBtn inkWidgetReference
----@field private selectorNextBtn inkWidgetReference
----@field private selectorPrevBtn inkWidgetReference
----@field private selectorTexture inkImageWidgetReference
----@field private arrowsTexture inkImageWidgetReference
----@field private optionSwitchHint inkWidgetReference
----@field private colorPickerOption gameuiCharacterCustomizationOption
----@field private appearanceInfo gameuiAppearanceInfo
----@field private currColorIndex Int32
----@field private selector inkWidget
----@field private inputDisabled Bool
+---@field private ["optionLabel"] inkTextWidgetReference
+---@field private ["colorPickerBtn"] inkWidgetReference
+---@field private ["selectorNextBtn"] inkWidgetReference
+---@field private ["selectorPrevBtn"] inkWidgetReference
+---@field private ["selectorTexture"] inkImageWidgetReference
+---@field private ["arrowsTexture"] inkImageWidgetReference
+---@field private ["optionSwitchHint"] inkWidgetReference
+---@field private ["colorPickerOption"] gameuiCharacterCustomizationOption
+---@field private ["appearanceInfo"] gameuiAppearanceInfo
+---@field private ["currColorIndex"] Int32
+---@field private ["selector"] inkWidget
+---@field private ["inputDisabled"] Bool
 characterCreationBodyMorphColorOption = {}
 
 ---@param fields? table

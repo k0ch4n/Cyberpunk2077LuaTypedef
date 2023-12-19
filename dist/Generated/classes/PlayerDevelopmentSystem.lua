@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayerDevelopmentSystem: gameScriptableSystem
----@field private playerData PlayerDevelopmentData[]
----@field private playerDevelopmentUpdated Bool
----@field private progressionBuildUpdated Bool
+---@field private ["playerData"] PlayerDevelopmentData[]
+---@field private ["playerDevelopmentUpdated"] Bool
+---@field private ["progressionBuildUpdated"] Bool
 PlayerDevelopmentSystem = {}
 
 ---@param fields? table

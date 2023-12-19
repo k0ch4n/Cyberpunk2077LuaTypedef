@@ -3,8 +3,8 @@
 
 ---@enum EHudAvatarMode
 EHudAvatarMode = {
-    ["Connecting"] = 0,
-    ["Disconnecting"] = 1,
-    ["Holocall"] = 2,
-    ["Audiocall"] = 3
+    ["Connecting"] = 0, ---@type Enum
+    ["Disconnecting"] = 1, ---@type Enum
+    ["Holocall"] = 2, ---@type Enum
+    ["Audiocall"] = 3, ---@type Enum
 }

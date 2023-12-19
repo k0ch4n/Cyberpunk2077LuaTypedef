@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointAngularLimitPair: physicsPhysicsJointLimitBase
----@field public twist physicsPhysicsJointMotion
----@field public upper Float
----@field public lower Float
+---@field public ["twist"] physicsPhysicsJointMotion
+---@field public ["upper"] Float
+---@field public ["lower"] Float
 physicsPhysicsJointAngularLimitPair = {}
 
 ---@param fields? table

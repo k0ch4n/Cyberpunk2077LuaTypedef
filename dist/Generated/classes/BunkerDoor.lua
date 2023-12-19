@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BunkerDoor: Door
----@field private loudAnnouncementOpenSoundName CName
----@field private halfOpenSoundName CName
----@field private glitchingSoundName CName
----@field private fastOpenSoundName CName
+---@field private ["loudAnnouncementOpenSoundName"] CName
+---@field private ["halfOpenSoundName"] CName
+---@field private ["glitchingSoundName"] CName
+---@field private ["fastOpenSoundName"] CName
 BunkerDoor = {}
 
 ---@param fields? table

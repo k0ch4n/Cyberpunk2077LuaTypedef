@@ -3,13 +3,13 @@
 
 ---@enum gamedataAIActionSecurityNotificationType
 gamedataAIActionSecurityNotificationType = {
-    ["COMBAT"] = 0,
-    ["DEESCALATE"] = 1,
-    ["DEFAULT"] = 2,
-    ["ILLEGAL_ACTION"] = 3,
-    ["REPRIMAND_ESCALATE"] = 4,
-    ["REPRIMAND_SUCCESSFUL"] = 5,
-    ["SECURITY_GATE"] = 6,
-    ["Count"] = 7,
-    ["Invalid"] = 8
+    ["COMBAT"] = 0, ---@type Enum
+    ["DEESCALATE"] = 1, ---@type Enum
+    ["DEFAULT"] = 2, ---@type Enum
+    ["ILLEGAL_ACTION"] = 3, ---@type Enum
+    ["REPRIMAND_ESCALATE"] = 4, ---@type Enum
+    ["REPRIMAND_SUCCESSFUL"] = 5, ---@type Enum
+    ["SECURITY_GATE"] = 6, ---@type Enum
+    ["Count"] = 7, ---@type Enum
+    ["Invalid"] = 8, ---@type Enum
 }

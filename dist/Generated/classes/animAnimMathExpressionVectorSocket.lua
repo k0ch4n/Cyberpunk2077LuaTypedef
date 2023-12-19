@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimMathExpressionVectorSocket
----@field public link animVectorLink
----@field public expressionVarId Uint16
+---@field public ["link"] animVectorLink
+---@field public ["expressionVarId"] Uint16
 animAnimMathExpressionVectorSocket = {}
 
 ---@param fields? table

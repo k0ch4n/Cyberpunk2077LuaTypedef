@@ -3,8 +3,8 @@
 
 ---@enum ActorVisibilityStatus
 ActorVisibilityStatus = {
-    ["OUTSIDE_CAMERA"] = 0,
-    ["IN_CAMERA"] = 1,
-    ["VISIBLE"] = 2,
-    ["LOOKEDAT"] = 3
+    ["OUTSIDE_CAMERA"] = 0, ---@type Enum
+    ["IN_CAMERA"] = 1, ---@type Enum
+    ["VISIBLE"] = 2, ---@type Enum
+    ["LOOKEDAT"] = 3, ---@type Enum
 }

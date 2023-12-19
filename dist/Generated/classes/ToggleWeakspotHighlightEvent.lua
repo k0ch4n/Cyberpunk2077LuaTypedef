@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleWeakspotHighlightEvent: redEvent
----@field public sourceName CName
----@field public operation EToggleOperationType
+---@field public ["sourceName"] CName
+---@field public ["operation"] EToggleOperationType
 ToggleWeakspotHighlightEvent = {}
 
 ---@param fields? table

@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class PhoneDialerSelectionController: inkSelectorController
----@field protected leftArrowWidget inkWidgetReference
----@field protected rightArrowWidget inkWidgetReference
----@field protected container inkCompoundWidgetReference
----@field protected line inkWidgetReference
----@field protected leftArrowController inkInputDisplayController
----@field protected rightArrowController inkInputDisplayController
----@field protected widgetsControllers HubMenuLabelContentContainer[]
----@field private lineTranslationAnimProxy inkanimProxy
----@field private lineSizeAnimProxy inkanimProxy
----@field private animationsRetryDiv Float
----@field private highlightInitialized Bool
----@field private currentIndex Int32
+---@field protected ["leftArrowWidget"] inkWidgetReference
+---@field protected ["rightArrowWidget"] inkWidgetReference
+---@field protected ["container"] inkCompoundWidgetReference
+---@field protected ["line"] inkWidgetReference
+---@field protected ["leftArrowController"] inkInputDisplayController
+---@field protected ["rightArrowController"] inkInputDisplayController
+---@field protected ["widgetsControllers"] HubMenuLabelContentContainer[]
+---@field private ["lineTranslationAnimProxy"] inkanimProxy
+---@field private ["lineSizeAnimProxy"] inkanimProxy
+---@field private ["animationsRetryDiv"] Float
+---@field private ["highlightInitialized"] Bool
+---@field private ["currentIndex"] Int32
 PhoneDialerSelectionController = {}
 
 ---@param fields? table

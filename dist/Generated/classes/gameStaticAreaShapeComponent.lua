@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameStaticAreaShapeComponent: entIPlacedComponent
----@field public outline AreaShapeOutline
----@field public color Color
----@field public isEnabled Bool
+---@field public ["outline"] AreaShapeOutline
+---@field public ["color"] Color
+---@field public ["isEnabled"] Bool
 gameStaticAreaShapeComponent = {}
 
 ---@param fields? table

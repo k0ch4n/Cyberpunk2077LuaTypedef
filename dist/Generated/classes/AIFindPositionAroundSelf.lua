@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AIFindPositionAroundSelf: AIbehaviortaskScript
----@field public distanceMin AIArgumentMapping
----@field public distanceMax AIArgumentMapping
----@field public angle Float
----@field public angleOffset Float
----@field public outPositionArgument AIArgumentMapping
----@field protected finalPosition Vector4
+---@field public ["distanceMin"] AIArgumentMapping
+---@field public ["distanceMax"] AIArgumentMapping
+---@field public ["angle"] Float
+---@field public ["angleOffset"] Float
+---@field public ["outPositionArgument"] AIArgumentMapping
+---@field protected ["finalPosition"] Vector4
 AIFindPositionAroundSelf = {}
 
 ---@param fields? table

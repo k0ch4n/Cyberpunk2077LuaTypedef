@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class AIHumanComponent: AICAgent
----@field public movementParamsRecord TweakDBID
----@field private shootingBlackboard gameIBlackboard
----@field private gadgetBlackboard gameIBlackboard
----@field private coverBlackboard gameIBlackboard
----@field private actionBlackboard gameIBlackboard
----@field private patrolBlackboard gameIBlackboard
----@field private alertedPatrolBlackboard gameIBlackboard
----@field private prereqsBlackboard gameIBlackboard
----@field private friendlyFireCheckID Uint32
----@field private ffs gameIFriendlyFireSystem
----@field private LoSFinderCheckID Uint32
----@field private loSFinderSystem gameLoSIFinderSystem
----@field private LoSFinderVisibleObject senseVisibleObject
----@field private actionAnimationScriptProxy ActionAnimationScriptProxy
----@field private lastOwnerBlockedAttackEventID gameDelayID
----@field private lastOwnerParriedAttackEventID gameDelayID
----@field private lastOwnerDodgedAttackEventID gameDelayID
----@field private grenadeThrowQueryTarget gameObject
----@field private grenadeThrowQueryId Int32
----@field private scriptContext AIbehaviorScriptExecutionContext
----@field private scriptContextInitialized Bool
----@field private kerenzikovAbilityRecord gamedataGameplayAbility_Record
----@field private highLevelCb Uint32
----@field private lastReservedSeatVehicle entEntityID
----@field private assignedVehicleStuck Bool
----@field private activeCommands AIbehaviorUniqueActiveCommandList
+---@field public ["movementParamsRecord"] TweakDBID
+---@field private ["shootingBlackboard"] gameIBlackboard
+---@field private ["gadgetBlackboard"] gameIBlackboard
+---@field private ["coverBlackboard"] gameIBlackboard
+---@field private ["actionBlackboard"] gameIBlackboard
+---@field private ["patrolBlackboard"] gameIBlackboard
+---@field private ["alertedPatrolBlackboard"] gameIBlackboard
+---@field private ["prereqsBlackboard"] gameIBlackboard
+---@field private ["friendlyFireCheckID"] Uint32
+---@field private ["ffs"] gameIFriendlyFireSystem
+---@field private ["LoSFinderCheckID"] Uint32
+---@field private ["loSFinderSystem"] gameLoSIFinderSystem
+---@field private ["LoSFinderVisibleObject"] senseVisibleObject
+---@field private ["actionAnimationScriptProxy"] ActionAnimationScriptProxy
+---@field private ["lastOwnerBlockedAttackEventID"] gameDelayID
+---@field private ["lastOwnerParriedAttackEventID"] gameDelayID
+---@field private ["lastOwnerDodgedAttackEventID"] gameDelayID
+---@field private ["grenadeThrowQueryTarget"] gameObject
+---@field private ["grenadeThrowQueryId"] Int32
+---@field private ["scriptContext"] AIbehaviorScriptExecutionContext
+---@field private ["scriptContextInitialized"] Bool
+---@field private ["kerenzikovAbilityRecord"] gamedataGameplayAbility_Record
+---@field private ["highLevelCb"] Uint32
+---@field private ["lastReservedSeatVehicle"] entEntityID
+---@field private ["assignedVehicleStuck"] Bool
+---@field private ["activeCommands"] AIbehaviorUniqueActiveCommandList
 AIHumanComponent = {}
 
 ---@param fields? table
@@ -184,7 +184,7 @@ function AIHumanComponent:CanThrowGrenadeAtTarget(target) return end
 function AIHumanComponent:CheckTweakCondition(ActionConditionName) return end
 
 ---@private
----@param commandClassNames CName[]
+---@param commandClassNames CName[]|string[]
 ---@return nil
 function AIHumanComponent:ClearActionCommandID(commandClassNames) return end
 
@@ -218,7 +218,7 @@ function AIHumanComponent:GetActionAnimationScriptProxy() return end
 ---@return gameIBlackboard
 function AIHumanComponent:GetActionBlackboard() return end
 
----@param commandClassName CName
+---@param commandClassName CName|string
 ---@return Int32
 function AIHumanComponent:GetActiveCommandID(commandClassName) return end
 
@@ -275,7 +275,7 @@ function AIHumanComponent:GetVehicleHandle(entityID) return end
 ---@return Bool
 function AIHumanComponent:IsAssignedVehicleStuck() return end
 
----@param commandClassName CName
+---@param commandClassName CName|string
 ---@return Bool
 function AIHumanComponent:IsCommandActive(commandClassName) return end
 
@@ -283,7 +283,7 @@ function AIHumanComponent:IsCommandActive(commandClassName) return end
 ---@return Bool
 function AIHumanComponent:IsCommandActive(commandID) return end
 
----@param commandClassName CName
+---@param commandClassName CName|string
 ---@return Bool
 function AIHumanComponent:IsCommandReceivedOrOverriden(commandClassName) return end
 
@@ -351,7 +351,7 @@ function AIHumanComponent:ResetBehaviorCoverArguments() return end
 function AIHumanComponent:StartGrenadeThrowQuery(target) return end
 
 ---@private
----@param commandClassNames CName[]
+---@param commandClassNames CName[]|string[]
 ---@return nil
 function AIHumanComponent:TrackActionCommandID(commandClassNames) return end
 

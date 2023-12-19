@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CallOffReactionAction: SquadTask
----@field public squadActionName EAISquadAction
+---@field public ["squadActionName"] EAISquadAction
 CallOffReactionAction = {}
 
 ---@param fields? table

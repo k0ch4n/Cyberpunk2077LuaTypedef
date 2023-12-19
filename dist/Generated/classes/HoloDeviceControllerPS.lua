@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HoloDeviceControllerPS: ScriptableDeviceComponentPS
----@field private isPlaying Bool
+---@field private ["isPlaying"] Bool
 HoloDeviceControllerPS = {}
 
 ---@param fields? table

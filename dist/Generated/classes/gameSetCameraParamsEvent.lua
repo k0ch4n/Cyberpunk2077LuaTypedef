@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetCameraParamsEvent: redEvent
----@field public paramsName CName
+---@field public ["paramsName"] CName
 gameSetCameraParamsEvent = {}
 
 ---@param fields? table

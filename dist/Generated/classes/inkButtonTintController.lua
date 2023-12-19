@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkButtonTintController: inkButtonController
----@field public NormalColor Color
----@field public HoverColor Color
----@field public PressColor Color
----@field public DisableColor Color
----@field public TintControlRef inkWidgetReference
+---@field public ["NormalColor"] Color
+---@field public ["HoverColor"] Color
+---@field public ["PressColor"] Color
+---@field public ["DisableColor"] Color
+---@field public ["TintControlRef"] inkWidgetReference
 inkButtonTintController = {}
 
 ---@param fields? table

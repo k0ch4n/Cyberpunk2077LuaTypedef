@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RetractableAd: BaseAnimatedDevice
----@field protected offMeshConnection AIOffMeshConnectionComponent
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field protected advUiComponent entIComponent
----@field protected isPartOfTheTrap Bool
+---@field protected ["offMeshConnection"] AIOffMeshConnectionComponent
+---@field protected ["areaComponent"] gameStaticTriggerAreaComponent
+---@field protected ["advUiComponent"] entIComponent
+---@field protected ["isPartOfTheTrap"] Bool
 RetractableAd = {}
 
 ---@param fields? table

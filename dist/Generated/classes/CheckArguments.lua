@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckArguments: AIbehaviorconditionScript
----@field public argumentVar CName
+---@field public ["argumentVar"] CName
 CheckArguments = {}
 
 ---@param context AIbehaviorScriptExecutionContext

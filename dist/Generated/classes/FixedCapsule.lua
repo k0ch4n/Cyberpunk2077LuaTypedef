@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FixedCapsule
----@field public PointRadius Vector4
----@field public Height Float
+---@field public ["PointRadius"] Vector4
+---@field public ["Height"] Float
 FixedCapsule = {}
 
 ---@param fields? table

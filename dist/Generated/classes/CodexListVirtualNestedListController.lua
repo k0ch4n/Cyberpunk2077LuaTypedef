@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexListVirtualNestedListController: VirtualNestedListController
----@field private currentDataView CodexListVirtualNestedDataView
+---@field private ["currentDataView"] CodexListVirtualNestedDataView
 CodexListVirtualNestedListController = {}
 
 ---@param fields? table

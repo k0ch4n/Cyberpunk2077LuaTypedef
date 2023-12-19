@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemovePerk: gamePlayerScriptableSystemRequest
----@field public perkType gamedataPerkType
+---@field public ["perkType"] gamedataPerkType
 RemovePerk = {}
 
 ---@param fields? table

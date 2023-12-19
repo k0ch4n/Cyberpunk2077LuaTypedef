@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ForceSafeEvents: UpperBodyEventsTransition
----@field public safeAnimFeature AnimFeature_SafeAction
----@field public weaponObjectID TweakDBID
+---@field public ["safeAnimFeature"] AnimFeature_SafeAction
+---@field public ["weaponObjectID"] TweakDBID
 ForceSafeEvents = {}
 
 ---@param fields? table

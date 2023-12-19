@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ItemDisplayVirtualController: inkVirtualCompoundItemController
----@field protected itemDisplayWidget inkWidgetReference
----@field protected widgetToSpawn CName
----@field protected wrappedData WrappedInventoryItemData
----@field protected data gameInventoryItemData
----@field protected spawnedWidget inkWidget
----@field protected notificationListenerID Int32
----@field protected immediateNotificationListener ImmediateNotificationListener
+---@field protected ["itemDisplayWidget"] inkWidgetReference
+---@field protected ["widgetToSpawn"] CName
+---@field protected ["wrappedData"] WrappedInventoryItemData
+---@field protected ["data"] gameInventoryItemData
+---@field protected ["spawnedWidget"] inkWidget
+---@field protected ["notificationListenerID"] Int32
+---@field protected ["immediateNotificationListener"] ImmediateNotificationListener
 ItemDisplayVirtualController = {}
 
 ---@param fields? table

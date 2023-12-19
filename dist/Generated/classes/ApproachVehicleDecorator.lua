@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ApproachVehicleDecorator: AIVehicleTaskAbstract
----@field protected mountData AIArgumentMapping
----@field protected mountRequest AIArgumentMapping
----@field protected entryPoint AIArgumentMapping
----@field private doorOpenRequestSent Bool
----@field private closeDoor Bool
----@field private mountEventData gameMountEventData
----@field private mountRequestData gameMountEventData
----@field private mountEntryPoint Vector4
----@field private activationTime EngineTime
----@field private runCompanionCheck Bool
----@field private slotOccupiedTimestamp Float
+---@field protected ["mountData"] AIArgumentMapping
+---@field protected ["mountRequest"] AIArgumentMapping
+---@field protected ["entryPoint"] AIArgumentMapping
+---@field private ["doorOpenRequestSent"] Bool
+---@field private ["closeDoor"] Bool
+---@field private ["mountEventData"] gameMountEventData
+---@field private ["mountRequestData"] gameMountEventData
+---@field private ["mountEntryPoint"] Vector4
+---@field private ["activationTime"] EngineTime
+---@field private ["runCompanionCheck"] Bool
+---@field private ["slotOccupiedTimestamp"] Float
 ApproachVehicleDecorator = {}
 
 ---@param fields? table

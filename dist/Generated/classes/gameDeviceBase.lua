@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDeviceBase: gameObject
----@field public isLogicReady Bool
+---@field public ["isLogicReady"] Bool
 gameDeviceBase = {}
 
 ---@param fields? table
@@ -22,7 +22,7 @@ function gameDeviceBase:IsLogicReady() return end
 function gameDeviceBase:SetAudioResourceName() return end
 
 ---@param obj gameObject
----@param inputName CName
+---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
 function gameDeviceBase:ApplyAnimFeatureToReplicate(obj, inputName, value) return end

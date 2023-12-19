@@ -3,7 +3,7 @@
 
 ---@enum animcompressionBufferTypePreset
 animcompressionBufferTypePreset = {
-    ["Spline"] = 0,
-    ["SIMD"] = 1,
-    ["TestRaw"] = 2
+    ["Spline"] = 0, ---@type Enum
+    ["SIMD"] = 1, ---@type Enum
+    ["TestRaw"] = 2, ---@type Enum
 }

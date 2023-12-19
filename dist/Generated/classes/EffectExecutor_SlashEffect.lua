@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_SlashEffect: gameEffectExecutor_Scripted
----@field private entries EffectExecutor_SlashEffect_Entry[]
+---@field private ["entries"] EffectExecutor_SlashEffect_Entry[]
 EffectExecutor_SlashEffect = {}
 
 ---@param fields? table

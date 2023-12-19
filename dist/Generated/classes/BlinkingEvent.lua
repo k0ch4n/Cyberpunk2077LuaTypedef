@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlinkingEvent: redEvent
----@field public requestNumber Int32
+---@field public ["requestNumber"] Int32
 BlinkingEvent = {}
 
 ---@param fields? table

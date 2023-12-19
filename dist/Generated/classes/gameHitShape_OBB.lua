@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHitShape_OBB: gameHitShapeBase
----@field public dimensions Vector3
+---@field public ["dimensions"] Vector3
 gameHitShape_OBB = {}
 
 ---@param fields? table

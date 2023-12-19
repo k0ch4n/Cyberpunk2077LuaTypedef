@@ -3,7 +3,7 @@
 
 ---@enum moveSecureFootingFailureType
 moveSecureFootingFailureType = {
-    ["Invalid"] = 0,
-    ["Edge"] = 1,
-    ["Slope"] = 2
+    ["Invalid"] = 0, ---@type Enum
+    ["Edge"] = 1, ---@type Enum
+    ["Slope"] = 2, ---@type Enum
 }

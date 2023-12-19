@@ -3,6 +3,6 @@
 
 ---@enum questChoiceSection_ConditionTypeMode
 questChoiceSection_ConditionTypeMode = {
-    ["Highlight"] = 0,
-    ["Selection"] = 1
+    ["Highlight"] = 0, ---@type Enum
+    ["Selection"] = 1, ---@type Enum
 }

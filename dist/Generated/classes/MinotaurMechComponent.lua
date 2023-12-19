@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class MinotaurMechComponent: gameScriptableComponent
----@field public deathAttackRecordID TweakDBID
----@field private owner NPCPuppet
----@field private statusEffectListener MinotaurOnStatusEffectAppliedListener
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private npcDeathCollisionComponent entSimpleColliderComponent
----@field private npcSystemCollapseCollisionComponent entSimpleColliderComponent
----@field private currentScanType MechanicalScanType
----@field private currentScanAnimation CName
+---@field public ["deathAttackRecordID"] TweakDBID
+---@field private ["owner"] NPCPuppet
+---@field private ["statusEffectListener"] MinotaurOnStatusEffectAppliedListener
+---@field private ["npcCollisionComponent"] entSimpleColliderComponent
+---@field private ["npcDeathCollisionComponent"] entSimpleColliderComponent
+---@field private ["npcSystemCollapseCollisionComponent"] entSimpleColliderComponent
+---@field private ["currentScanType"] MechanicalScanType
+---@field private ["currentScanAnimation"] CName
 MinotaurMechComponent = {}
 
 ---@param fields? table

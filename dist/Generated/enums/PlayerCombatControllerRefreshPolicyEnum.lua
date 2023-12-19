@@ -3,6 +3,6 @@
 
 ---@enum PlayerCombatControllerRefreshPolicyEnum
 PlayerCombatControllerRefreshPolicyEnum = {
-    ["Persistent"] = 0,
-    ["Eventful"] = 1
+    ["Persistent"] = 0, ---@type Enum
+    ["Eventful"] = 1, ---@type Enum
 }

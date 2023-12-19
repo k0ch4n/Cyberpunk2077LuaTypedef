@@ -3,7 +3,7 @@
 
 ---@enum EInventoryDataStatDisplayType
 EInventoryDataStatDisplayType = {
-    ["CompareBar"] = 0,
-    ["DisplayBar"] = 1,
-    ["Value"] = 2
+    ["CompareBar"] = 0, ---@type Enum
+    ["DisplayBar"] = 1, ---@type Enum
+    ["Value"] = 2, ---@type Enum
 }

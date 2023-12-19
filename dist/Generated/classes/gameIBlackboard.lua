@@ -61,77 +61,77 @@ function gameIBlackboard:GetVector4(id) return end
 
 ---@param id gamebbScriptID_Bool
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerBool(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_EntityID
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerEntityID(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Float
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerFloat(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Int32
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerInt(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_CName
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerName(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Quaternion
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerQuat(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_String
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerString(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Uint32
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerUint(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Variant
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerVariant(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Vector2
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerVector2(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Vector4
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterDelayedListenerVector4(id, object, func, fireIfValueExist) return end
@@ -143,77 +143,77 @@ function gameIBlackboard:RegisterEntity(id, entityID) return end
 
 ---@param id gamebbScriptID_Bool
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerBool(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_EntityID
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerEntityID(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Float
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerFloat(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Int32
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerInt(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_CName
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerName(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Quaternion
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerQuat(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_String
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerString(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Uint32
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerUint(id, object, func, fireIfValueExist) return end
 
 ---@param tag gamebbScriptID_Variant
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerVariant(tag, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Vector2
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerVector2(id, object, func, fireIfValueExist) return end
 
 ---@param id gamebbScriptID_Vector4
 ---@param object IScriptable
----@param func CName
+---@param func CName|string
 ---@param fireIfValueExist? Bool
 ---@return redCallbackObject
 function gameIBlackboard:RegisterListenerVector4(id, object, func, fireIfValueExist) return end
@@ -243,7 +243,7 @@ function gameIBlackboard:SetFloat(id, value, forceFire) return end
 function gameIBlackboard:SetInt(id, value, forceFire) return end
 
 ---@param id gamebbScriptID_CName
----@param value CName
+---@param value CName|string
 ---@param forceFire? Bool
 ---@return nil
 function gameIBlackboard:SetName(id, value, forceFire) return end

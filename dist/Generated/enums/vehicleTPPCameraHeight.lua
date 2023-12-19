@@ -3,6 +3,6 @@
 
 ---@enum vehicleTPPCameraHeight
 vehicleTPPCameraHeight = {
-    ["Low"] = 0,
-    ["High"] = 1
+    ["Low"] = 0, ---@type Enum
+    ["High"] = 1, ---@type Enum
 }

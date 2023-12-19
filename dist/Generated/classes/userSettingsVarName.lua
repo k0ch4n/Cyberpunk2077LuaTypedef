@@ -14,6 +14,6 @@ function userSettingsVarName:GetDefaultValue() return end
 ---@return CName
 function userSettingsVarName:GetValue() return end
 
----@param value CName
+---@param value CName|string
 ---@return nil
 function userSettingsVarName:SetValue(value) return end

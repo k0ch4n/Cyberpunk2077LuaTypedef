@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemSetComparisionTooltipDisabled: gameScriptableSystemRequest
----@field public value Bool
+---@field public ["value"] Bool
 UIScriptableSystemSetComparisionTooltipDisabled = {}
 
 ---@param fields? table

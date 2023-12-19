@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAppearanceToFoleyLoopMetadata
----@field public appearances CName[]
----@field public loop audioFoleyLoopMetadata
+---@field public ["appearances"] CName[]
+---@field public ["loop"] audioFoleyLoopMetadata
 audioAppearanceToFoleyLoopMetadata = {}
 
 ---@param fields? table

@@ -3,6 +3,6 @@
 
 ---@enum ETriggerOperationType
 ETriggerOperationType = {
-    ["ENTER"] = 0,
-    ["EXIT"] = 1
+    ["ENTER"] = 0, ---@type Enum
+    ["EXIT"] = 1, ---@type Enum
 }

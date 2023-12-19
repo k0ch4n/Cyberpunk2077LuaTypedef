@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ControlledDevicesInkGameController: gameuiWidgetGameController
----@field protected rootWidget inkCanvasWidget
----@field private devicesStackSlot inkHorizontalPanelWidget
----@field private currentDeviceText inkTextWidget
----@field protected controlledDevicesWidgetsData SWidgetPackage[]
----@field private isDeviceWorking_BBID redCallbackObject
----@field private activeDevice_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private chainLocked_BBID redCallbackObject
+---@field protected ["rootWidget"] inkCanvasWidget
+---@field private ["devicesStackSlot"] inkHorizontalPanelWidget
+---@field private ["currentDeviceText"] inkTextWidget
+---@field protected ["controlledDevicesWidgetsData"] SWidgetPackage[]
+---@field private ["isDeviceWorking_BBID"] redCallbackObject
+---@field private ["activeDevice_BBID"] redCallbackObject
+---@field private ["deviceChain_BBID"] redCallbackObject
+---@field private ["chainLocked_BBID"] redCallbackObject
 ControlledDevicesInkGameController = {}
 
 ---@param fields? table

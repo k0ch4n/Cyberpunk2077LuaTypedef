@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInventoryState
----@field public slots gameMuppetInventorySlotInfo[]
----@field public activeSlot Int32
+---@field public ["slots"] gameMuppetInventorySlotInfo[]
+---@field public ["activeSlot"] Int32
 gameMuppetInventoryState = {}
 
 ---@param fields? table

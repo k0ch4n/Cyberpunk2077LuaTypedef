@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SampleDeviceClassPS: gameObjectPS
----@field protected counter Int32
+---@field protected ["counter"] Int32
 SampleDeviceClassPS = {}
 
 ---@param fields? table

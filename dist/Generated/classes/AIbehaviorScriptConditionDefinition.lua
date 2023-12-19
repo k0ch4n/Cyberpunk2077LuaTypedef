@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorScriptConditionDefinition: AIbehaviorConditionDefinition
----@field public script AIbehaviorconditionScript
----@field public disableLazyInitialization Bool
+---@field public ["script"] AIbehaviorconditionScript
+---@field public ["disableLazyInitialization"] Bool
 AIbehaviorScriptConditionDefinition = {}
 
 ---@param fields? table

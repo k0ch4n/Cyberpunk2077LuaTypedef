@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrosshairModule: HUDModule
----@field private activeCrosshairs Crosshair[]
+---@field private ["activeCrosshairs"] Crosshair[]
 CrosshairModule = {}
 
 ---@param fields? table
