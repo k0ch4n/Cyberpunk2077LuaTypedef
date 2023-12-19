@@ -468,6 +468,9 @@ def main(is_clean: bool = False) -> None:
     print("Copying CyberEngineTweaks annotation files.")
     shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), DIST_DIR.joinpath("CyberEngineTweaks"))
 
+    print("Copying Codeware annotation files.")
+    shutil.copytree(Path(__file__).parent.joinpath("Codeware"), DIST_DIR.joinpath("Codeware"))
+
 
 if __name__ == "__main__":
     main(True)
