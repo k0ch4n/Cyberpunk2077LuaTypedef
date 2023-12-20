@@ -12,7 +12,6 @@
 ---@alias Uint64 integer
 ---@alias Float number
 ---@alias Double number
----@class string: CName
 
 ---@param aValue any
 ---@param aTypeName? string
