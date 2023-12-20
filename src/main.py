@@ -325,7 +325,7 @@ class Writer:
             annotation.add_alias(type, alias)
 
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(annotation.get())
+        out_path.write_text(annotation.get(), newline="")
 
     @classmethod
     def classes(cls):
@@ -355,7 +355,7 @@ class Writer:
                     annotation.add_custom("\n", False)
 
             out_dir.mkdir(parents=True, exist_ok=True)
-            out_dir.joinpath(class_name + ".lua").write_text(annotation.get())
+            out_dir.joinpath(class_name + ".lua").write_text(annotation.get(), newline="")
 
     @classmethod
     def enums(cls):
@@ -371,7 +371,7 @@ class Writer:
             annotation.add_enum(enum_name.replace(".", "_"), options)
 
             out_dir.mkdir(parents=True, exist_ok=True)
-            out_dir.joinpath(enum_name + ".lua").write_text(annotation.get())
+            out_dir.joinpath(enum_name + ".lua").write_text(annotation.get(), newline="")
 
     @classmethod
     def global_functions(cls):
@@ -389,7 +389,7 @@ class Writer:
             annotation.add_custom(f"{name} = Game.{name}\n")
 
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(annotation.get())
+        out_path.write_text(annotation.get(), newline="")
 
     @classmethod
     def bitfields(cls):
@@ -405,7 +405,7 @@ class Writer:
             annotation.add_bitfields(name, bits)
 
             out_dir.mkdir(parents=True, exist_ok=True)
-            out_dir.joinpath(name + ".lua").write_text(annotation.get())
+            out_dir.joinpath(name + ".lua").write_text(annotation.get(), newline="")
 
     @classmethod
     def aliases(cls):
@@ -419,7 +419,7 @@ class Writer:
             annotation.add_custom(f"{name} = {type}\n")
 
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(annotation.get())
+        out_path.write_text(annotation.get(), newline="")
 
     @staticmethod
     def process_function(func_data):
