@@ -368,7 +368,7 @@ class Writer:
             annotation = Annotation()
             annotation.add_meta()
 
-            annotation.add_enum(enum_name, options)
+            annotation.add_enum(enum_name.replace(".", "_"), options)
 
             out_dir.mkdir(parents=True, exist_ok=True)
             out_dir.joinpath(enum_name + ".lua").write_text(annotation.get())

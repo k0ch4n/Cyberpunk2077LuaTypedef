@@ -1,8 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Codeware.Localization.EntryType
-Codeware.Localization.EntryType = {
+---@enum Codeware_Localization_EntryType
+Codeware_Localization_EntryType = {
     ["Interface"] = 0, ---@type Enum
     ["Subtitle"] = 1, ---@type Enum
 }
