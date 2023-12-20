@@ -8,7 +8,7 @@ from pathlib import Path
 GAME_BASE_DIR = Path(os.getenv("ProgramFiles(x86)")).joinpath("GOG Galaxy\\Games\\Cyberpunk 2077")  # type: ignore
 RTTI_DUMP_DIR = GAME_BASE_DIR.joinpath("bin\\x64\\dumps\\json")
 
-DIST_DIR = Path(__file__).parents[1].joinpath("dist")
+BASE_DIST_DIR = Path(__file__).parents[1].joinpath("dist")
 
 
 class Flags:
@@ -63,21 +63,24 @@ class Flags:
 
 
 class Dump:
-    rtti = {}
-    redmod = {}
-
     @classmethod
     def load(cls):
         redmod_metadata_path = GAME_BASE_DIR.joinpath("tools", "redmod", "metadata.json")
         cls.redmod = json.loads(redmod_metadata_path.read_text())
 
-        for file_path in RTTI_DUMP_DIR.rglob("*"):
+        cls.rtti = cls.dir_to_dict(RTTI_DUMP_DIR)
+
+    @classmethod
+    def dir_to_dict(cls, dir: Path):
+        dict = {}
+
+        for file_path in dir.rglob("*"):
             if not file_path.is_file() or file_path.suffix != ".json":
                 continue
 
-            current_dict = cls.rtti
+            current_dict = dict
 
-            file_rel_path = file_path.relative_to(RTTI_DUMP_DIR)
+            file_rel_path = file_path.relative_to(dir)
 
             for part in file_rel_path.parts[:-1]:
                 if not current_dict.get(part):
@@ -88,6 +91,81 @@ class Dump:
             if not current_dict.get(file_rel_path.stem):
                 file_text = file_path.read_text()
                 current_dict[file_rel_path.stem] = json.loads(file_text)
+
+        return dict
+
+    class Diff:
+        def __init__(self, dump_dir: Path, is_set: bool = False) -> None:
+            self.base_rtti = Dump.rtti.copy()
+            self.diff_rtti = Dump.dir_to_dict(dump_dir)
+
+            # globals
+            for idx in range(len(self.diff_rtti.get("globals", {}).get("funcs", [])) - 1, -1, -1):
+                func_name = self.diff_rtti["globals"]["funcs"][idx]["fullName"]
+
+                for base_func in self.base_rtti["globals"]["funcs"]:
+                    if base_func["fullName"] != func_name:
+                        continue
+
+                    self.diff_rtti["globals"]["funcs"].pop(idx)
+                    break
+
+            # bitfields
+            for enum_name in list(self.diff_rtti.get("bitfields", {}).keys()):
+                for base_enum in self.base_rtti["bitfields"].values():
+                    if base_enum["name"] != enum_name:
+                        continue
+
+                    self.diff_rtti["enums"].pop
+
+            # classes
+            for class_name in list(self.diff_rtti.get("classes", {}).keys()):
+                for base_class in self.base_rtti["classes"].values():
+                    if base_class["name"] != class_name:
+                        continue
+
+                    for idx in range(len(self.diff_rtti["classes"][class_name].get("props", {})) - 1, -1, -1):
+                        prop_name = self.diff_rtti["classes"][class_name]["props"][idx]["name"]
+
+                        for base_prop in base_class.get("props", []):
+                            if base_prop["name"] != prop_name:
+                                continue
+
+                            self.diff_rtti["classes"][class_name]["props"].pop(idx)
+                            break
+
+                    for idx in range(len(self.diff_rtti["classes"][class_name].get("funcs", {})) - 1, -1, -1):
+                        func_name = self.diff_rtti["classes"][class_name]["funcs"][idx]["fullName"]
+
+                        for base_func in base_class.get("funcs", []):
+                            if base_func["fullName"] != func_name:
+                                continue
+
+                            self.diff_rtti["classes"][class_name]["funcs"].pop(idx)
+                            break
+
+                    prop_count = len(self.diff_rtti["classes"][class_name].get("props", {}))
+                    func_count = len(self.diff_rtti["classes"][class_name].get("funcs", {}))
+
+                    if prop_count + func_count == 0:
+                        self.diff_rtti["classes"].pop(class_name)
+
+            # enums
+            for enum_name in list(self.diff_rtti.get("enums", {}).keys()):
+                for base_enum in self.base_rtti["enums"].values():
+                    if base_enum["name"] != enum_name:
+                        continue
+
+                    self.diff_rtti["enums"].pop(enum_name)
+
+            if is_set:
+                self.set()
+
+        def set(self):
+            Dump.rtti = self.diff_rtti.copy()
+
+        def unset(self):
+            Dump.rtti = self.base_rtti.copy()
 
 
 class Annotation:
@@ -285,9 +363,11 @@ class NameParser:
 
 
 class Writer:
+    DIST_DIR: Path
+
     @classmethod
     def simple_types(cls):
-        out_path = DIST_DIR.joinpath("Generated", "simple_types.lua")
+        out_path = cls.DIST_DIR.joinpath("Generated", "simple_types.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -329,7 +409,7 @@ class Writer:
 
     @classmethod
     def classes(cls):
-        out_dir = DIST_DIR.joinpath("Generated", "classes")
+        out_dir = cls.DIST_DIR.joinpath("Generated", "classes")
 
         for class_data in Dump.rtti["classes"].values():
             class_name = class_data["name"]
@@ -359,7 +439,7 @@ class Writer:
 
     @classmethod
     def enums(cls):
-        out_dir = DIST_DIR.joinpath("Generated", "enums")
+        out_dir = cls.DIST_DIR.joinpath("Generated", "enums")
 
         for enum_data in Dump.rtti["enums"].values():
             enum_name = enum_data["name"]
@@ -375,7 +455,7 @@ class Writer:
 
     @classmethod
     def global_functions(cls):
-        out_path = DIST_DIR.joinpath("Generated", "global_functions.lua")
+        out_path = cls.DIST_DIR.joinpath("Generated", "global_functions.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -393,7 +473,7 @@ class Writer:
 
     @classmethod
     def bitfields(cls):
-        out_dir = DIST_DIR.joinpath("Generated", "bitfields")
+        out_dir = cls.DIST_DIR.joinpath("Generated", "bitfields")
 
         for bitfield_metadata in Dump.rtti["bitfields"].values():
             name = bitfield_metadata["name"]
@@ -409,7 +489,7 @@ class Writer:
 
     @classmethod
     def aliases(cls):
-        out_path = DIST_DIR.joinpath("Generated", "aliases.lua")
+        out_path = cls.DIST_DIR.joinpath("Generated", "aliases.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -439,10 +519,8 @@ class Writer:
         return name, type, params, flags
 
 
-def main(is_clean: bool = False) -> None:
-    if is_clean and DIST_DIR.exists():
-        print("Deleting previous artifacts.")
-        shutil.rmtree(DIST_DIR)
+def main() -> None:
+    Writer.DIST_DIR = BASE_DIST_DIR.joinpath("BaseGame")
 
     print("Loading metadata.")
     Dump.load()
@@ -466,11 +544,25 @@ def main(is_clean: bool = False) -> None:
     Writer.aliases()
 
     print("Copying CyberEngineTweaks annotation files.")
-    shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), DIST_DIR.joinpath("CyberEngineTweaks"))
+    shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), BASE_DIST_DIR.joinpath("CyberEngineTweaks"))
 
-    print("Copying Codeware annotation files.")
-    shutil.copytree(Path(__file__).parent.joinpath("Codeware"), DIST_DIR.joinpath("Codeware"))
+
+def third() -> None:
+    print("Generating Codeware annotation files.")
+    Writer.DIST_DIR = BASE_DIST_DIR.joinpath("Codeware")
+    codeware = Dump.Diff(GAME_BASE_DIR.joinpath("bin", "x64", "dumps.Codeware", "json"), True)
+
+    Writer.global_functions()
+    Writer.classes()
+    Writer.enums()
+
+    codeware.unset()
 
 
 if __name__ == "__main__":
-    main(True)
+    if BASE_DIST_DIR.exists():
+        print("Deleting previous artifacts.")
+        shutil.rmtree(BASE_DIST_DIR)
+
+    main()
+    third()
