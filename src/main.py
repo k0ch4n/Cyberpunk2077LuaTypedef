@@ -5,10 +5,11 @@ import shutil
 from enum import IntFlag
 from pathlib import Path
 
+PROJECT_ROOT_DIR = Path(__file__).parents[1]
 GAME_BASE_DIR = Path(os.getenv("ProgramFiles(x86)")).joinpath("GOG Galaxy\\Games\\Cyberpunk 2077")  # type: ignore
-RTTI_DUMP_DIR = GAME_BASE_DIR.joinpath("bin\\x64\\dumps\\json")
+RTTI_DUMP_DIR = PROJECT_ROOT_DIR.joinpath("dumps", "BaseGame")
 
-BASE_DIST_DIR = Path(__file__).parents[1].joinpath("dist")
+BASE_DIST_DIR = PROJECT_ROOT_DIR.joinpath("dist")
 
 
 class Flags:
@@ -160,6 +161,8 @@ class Dump:
 
             if is_set:
                 self.set()
+
+            self.is_init_ok = True
 
         def set(self):
             Dump.rtti = self.diff_rtti.copy()
@@ -466,6 +469,10 @@ class Writer:
             name, type, params, flags = cls.process_function(func_data)
 
             annotation.add_function(name, type, params, flags)
+
+            if flags & Flags.Function.isExec:
+                continue
+
             annotation.add_custom(f"{name} = Game.{name}\n")
 
         out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -543,21 +550,35 @@ def main() -> None:
     print("Generating aliases.")
     Writer.aliases()
 
-    print("Copying CyberEngineTweaks annotation files.")
-    shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), BASE_DIST_DIR.joinpath("CyberEngineTweaks"))
-
 
 def third() -> None:
-    print("Generating Codeware annotation files.")
-    Writer.DIST_DIR = BASE_DIST_DIR.joinpath("Codeware")
-    codeware = Dump.Diff(GAME_BASE_DIR.joinpath("bin", "x64", "dumps.Codeware", "json"), True)
+    codeware = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "Codeware"), True)
+    if codeware.is_init_ok:
+        print("Generating Codeware annotation files.")
+        Writer.DIST_DIR = BASE_DIST_DIR.joinpath("Codeware")
+        Writer.global_functions()
+        Writer.classes()
+        Writer.enums()
+        Writer.bitfields()
 
-    Writer.global_functions()
-    Writer.classes()
-    Writer.enums()
-    Writer.bitfields()
+        codeware.unset()
 
-    codeware.unset()
+    cyber_engine_tweaks = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "CyberEngineTweaks"), True)
+    if cyber_engine_tweaks.is_init_ok:
+        print("Copying CyberEngineTweaks annotation files.")
+        shutil.copytree(
+            Path(__file__).parent.joinpath("CyberEngineTweaks"),
+            BASE_DIST_DIR.joinpath("CyberEngineTweaks"),
+        )
+
+        print("Generating CyberEngineTweaks annotation files.")
+        Writer.DIST_DIR = BASE_DIST_DIR.joinpath("CyberEngineTweaks")
+        Writer.global_functions()
+        Writer.classes()
+        Writer.enums()
+        Writer.bitfields()
+
+        cyber_engine_tweaks.unset()
 
 
 if __name__ == "__main__":
