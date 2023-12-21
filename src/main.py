@@ -111,12 +111,12 @@ class Dump:
                     break
 
             # bitfields
-            for enum_name in list(self.diff_rtti.get("bitfields", {}).keys()):
-                for base_enum in self.base_rtti["bitfields"].values():
-                    if base_enum["name"] != enum_name:
+            for bitfield_name in list(self.diff_rtti.get("bitfields", {}).keys()):
+                for base_bitfield in self.base_rtti["bitfields"].values():
+                    if base_bitfield["name"] != bitfield_name:
                         continue
 
-                    self.diff_rtti["enums"].pop
+                    self.diff_rtti["bitfields"].pop(bitfield_name)
 
             # classes
             for class_name in list(self.diff_rtti.get("classes", {}).keys()):
@@ -555,6 +555,7 @@ def third() -> None:
     Writer.global_functions()
     Writer.classes()
     Writer.enums()
+    Writer.bitfields()
 
     codeware.unset()
 
