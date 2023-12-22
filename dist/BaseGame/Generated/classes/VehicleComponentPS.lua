@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class VehicleComponentPS: ScriptableDeviceComponentPS
----@field protected ["defaultStateSet"] Bool
----@field protected ["stateModifiedByQuest"] Bool
----@field protected ["playerVehicle"] Bool
----@field protected ["npcOccupiedSlots"] CName[]
----@field protected ["isDestroyed"] Bool
----@field protected ["isStolen"] Bool
----@field protected ["crystalDomeQuestModified"] Bool
----@field protected ["crystalDomeQuestState"] Bool
----@field protected ["crystalDomeState"] Bool
----@field protected ["visualDestructionSet"] Bool
----@field protected ["visualDestructionNeeded"] Bool
----@field protected ["exploded"] Bool
----@field protected ["submerged"] Bool
----@field protected ["sirenOn"] Bool
----@field protected ["sirenSoundOn"] Bool
----@field protected ["sirenLightsOn"] Bool
----@field protected ["isDefaultLightToggleSet"] Bool
----@field protected ["anyDoorOpen"] Bool
----@field protected ["previousInteractionState"] TemporaryDoorState[]
----@field protected ["thrusterState"] Bool
----@field protected ["uiQuestModified"] Bool
----@field protected ["uiState"] Bool
----@field protected ["vehicleSkillChecks"] EngDemoContainer
----@field private ["controlStimShouldBeActive"] Bool
----@field private ["controlStimRunning"] Bool
----@field public ["ready"] Bool
----@field public ["isPlayerPerformingBodyDisposal"] Bool
----@field public ["submergedTimestamp"] Float
----@field private ["vehicleControllerPS"] vehicleControllerPS
+---@field protected defaultStateSet Bool
+---@field protected stateModifiedByQuest Bool
+---@field protected playerVehicle Bool
+---@field protected npcOccupiedSlots CName[]
+---@field protected isDestroyed Bool
+---@field protected isStolen Bool
+---@field protected crystalDomeQuestModified Bool
+---@field protected crystalDomeQuestState Bool
+---@field protected crystalDomeState Bool
+---@field protected visualDestructionSet Bool
+---@field protected visualDestructionNeeded Bool
+---@field protected exploded Bool
+---@field protected submerged Bool
+---@field protected sirenOn Bool
+---@field protected sirenSoundOn Bool
+---@field protected sirenLightsOn Bool
+---@field protected isDefaultLightToggleSet Bool
+---@field protected anyDoorOpen Bool
+---@field protected previousInteractionState TemporaryDoorState[]
+---@field protected thrusterState Bool
+---@field protected uiQuestModified Bool
+---@field protected uiState Bool
+---@field protected vehicleSkillChecks EngDemoContainer
+---@field private controlStimShouldBeActive Bool
+---@field private controlStimRunning Bool
+---@field public ready Bool
+---@field public isPlayerPerformingBodyDisposal Bool
+---@field public submergedTimestamp Float
+---@field private vehicleControllerPS vehicleControllerPS
 VehicleComponentPS = {}
 
 ---@param fields? table

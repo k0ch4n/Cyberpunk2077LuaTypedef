@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnRidAnimationContainerSRRefAnimContainer
----@field public ["animation"] scnRidAnimationSRRefId
----@field public ["context"] scnRidAnimationContainerSRRefAnimContainerContext
+---@field public animation scnRidAnimationSRRefId
+---@field public context scnRidAnimationContainerSRRefAnimContainerContext
 scnRidAnimationContainerSRRefAnimContainer = {}
 
 ---@param fields? table

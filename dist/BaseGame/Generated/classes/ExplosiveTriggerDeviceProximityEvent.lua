@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExplosiveTriggerDeviceProximityEvent: redEvent
----@field public ["instigator"] entEntityID
+---@field public instigator entEntityID
 ExplosiveTriggerDeviceProximityEvent = {}
 
 ---@param fields? table

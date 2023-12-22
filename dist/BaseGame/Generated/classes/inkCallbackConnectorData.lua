@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkCallbackConnectorData: IScriptable
----@field public ["userData"] IScriptable
+---@field public userData IScriptable
 inkCallbackConnectorData = {}
 
 ---@param fields? table

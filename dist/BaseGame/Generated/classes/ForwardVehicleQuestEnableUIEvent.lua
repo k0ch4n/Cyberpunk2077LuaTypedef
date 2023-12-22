@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForwardVehicleQuestEnableUIEvent: redEvent
----@field public ["mode"] vehicleQuestUIEnable
+---@field public mode vehicleQuestUIEnable
 ForwardVehicleQuestEnableUIEvent = {}
 
 ---@param fields? table

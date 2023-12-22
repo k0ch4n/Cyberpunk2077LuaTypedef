@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_Landing: animAnimFeature
----@field public ["type"] Int32
----@field public ["impactSpeed"] Float
+---@field public type Int32
+---@field public impactSpeed Float
 AnimFeature_Landing = {}
 
 ---@param fields? table

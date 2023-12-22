@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckSpeakersDistanceReturnCondition: scnIReturnCondition
----@field public ["params"] scnCheckSpeakersDistanceReturnConditionParams
+---@field public params scnCheckSpeakersDistanceReturnConditionParams
 scnCheckSpeakersDistanceReturnCondition = {}
 
 ---@param fields? table

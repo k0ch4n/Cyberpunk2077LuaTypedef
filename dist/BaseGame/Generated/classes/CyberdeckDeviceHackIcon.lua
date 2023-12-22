@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CyberdeckDeviceHackIcon: inkWidgetLogicController
----@field protected ["image"] inkImageWidgetReference
+---@field protected image inkImageWidgetReference
 CyberdeckDeviceHackIcon = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TEMP_ScanningEvent: redEvent
----@field public ["clue"] CName
----@field public ["showUI"] Bool
+---@field public clue CName
+---@field public showUI Bool
 TEMP_ScanningEvent = {}
 
 ---@param fields? table

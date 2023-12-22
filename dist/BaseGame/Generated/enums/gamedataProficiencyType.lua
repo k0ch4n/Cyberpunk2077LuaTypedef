@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataProficiencyType: Enum
----@field ["Assault"] gamedataProficiencyType 0
----@field ["Athletics"] gamedataProficiencyType 1
----@field ["Brawling"] gamedataProficiencyType 2
----@field ["ColdBlood"] gamedataProficiencyType 3
----@field ["CombatHacking"] gamedataProficiencyType 4
----@field ["CoolSkill"] gamedataProficiencyType 5
----@field ["Crafting"] gamedataProficiencyType 6
----@field ["Demolition"] gamedataProficiencyType 7
----@field ["Engineering"] gamedataProficiencyType 8
----@field ["Espionage"] gamedataProficiencyType 9
----@field ["Gunslinger"] gamedataProficiencyType 10
----@field ["Hacking"] gamedataProficiencyType 11
----@field ["IntelligenceSkill"] gamedataProficiencyType 12
----@field ["Kenjutsu"] gamedataProficiencyType 13
----@field ["Level"] gamedataProficiencyType 14
----@field ["ReflexesSkill"] gamedataProficiencyType 15
----@field ["Stealth"] gamedataProficiencyType 16
----@field ["StreetCred"] gamedataProficiencyType 17
----@field ["StrengthSkill"] gamedataProficiencyType 18
----@field ["TechnicalAbilitySkill"] gamedataProficiencyType 19
----@field ["Count"] gamedataProficiencyType 20
----@field ["Invalid"] gamedataProficiencyType 21
+---@field Assault 0
+---@field Athletics 1
+---@field Brawling 2
+---@field ColdBlood 3
+---@field CombatHacking 4
+---@field CoolSkill 5
+---@field Crafting 6
+---@field Demolition 7
+---@field Engineering 8
+---@field Espionage 9
+---@field Gunslinger 10
+---@field Hacking 11
+---@field IntelligenceSkill 12
+---@field Kenjutsu 13
+---@field Level 14
+---@field ReflexesSkill 15
+---@field Stealth 16
+---@field StreetCred 17
+---@field StrengthSkill 18
+---@field TechnicalAbilitySkill 19
+---@field Count 20
+---@field Invalid 21
 gamedataProficiencyType = {}

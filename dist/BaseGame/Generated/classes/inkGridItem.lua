@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkGridItem
----@field public ["rootIdx"] Uint32
+---@field public rootIdx Uint32
 inkGridItem = {}
 
 ---@param fields? table

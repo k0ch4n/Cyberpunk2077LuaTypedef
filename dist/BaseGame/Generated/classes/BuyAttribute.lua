@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BuyAttribute: gamePlayerScriptableSystemRequest
----@field public ["attributeType"] gamedataStatType
----@field public ["grantAttributePoint"] Bool
+---@field public attributeType gamedataStatType
+---@field public grantAttributePoint Bool
 BuyAttribute = {}
 
 ---@param fields? table

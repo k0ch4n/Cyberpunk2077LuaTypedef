@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIPhaseStateEventHandlerComponent: AIRelatedComponents
----@field public ["phaseStateValue"] ENPCPhaseState
+---@field public phaseStateValue ENPCPhaseState
 AIPhaseStateEventHandlerComponent = {}
 
 ---@param fields? table

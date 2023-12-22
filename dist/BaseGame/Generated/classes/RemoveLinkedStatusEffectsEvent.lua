@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveLinkedStatusEffectsEvent: redEvent
----@field public ["ssAction"] Bool
+---@field public ssAction Bool
 RemoveLinkedStatusEffectsEvent = {}
 
 ---@param fields? table

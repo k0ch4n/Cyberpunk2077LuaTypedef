@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeDebugLogDefinition: AICTreeExtendableNodeDefinition
----@field public ["text"] String
----@field public ["timeOnScreen"] Float
----@field public ["useVisualDebug"] Bool
+---@field public text String
+---@field public timeOnScreen Float
+---@field public useVisualDebug Bool
 AICTreeNodeDebugLogDefinition = {}
 
 ---@param fields? table

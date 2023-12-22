@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterGradient: CMaterialParameter
----@field public ["gradient"] CGradient
+---@field public gradient CGradient
 CMaterialParameterGradient = {}
 
 ---@param fields? table

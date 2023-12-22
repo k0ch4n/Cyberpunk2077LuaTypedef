@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entTransformHistoryComponent: entIComponent
----@field public ["historyLength"] Float
----@field public ["samplesAmount"] Uint32
+---@field public historyLength Float
+---@field public samplesAmount Uint32
 entTransformHistoryComponent = {}
 
 ---@param fields? table

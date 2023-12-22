@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGenericNameEventMap: audioAudioMetadata
----@field public ["eventOverrides"] audioGenericNameEventDictionary
+---@field public eventOverrides audioGenericNameEventDictionary
 audioGenericNameEventMap = {}
 
 ---@param fields? table

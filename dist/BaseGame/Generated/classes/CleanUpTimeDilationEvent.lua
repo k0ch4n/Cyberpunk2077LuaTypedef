@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CleanUpTimeDilationEvent: redEvent
----@field public ["reason"] CName
+---@field public reason CName
 CleanUpTimeDilationEvent = {}
 
 ---@param fields? table

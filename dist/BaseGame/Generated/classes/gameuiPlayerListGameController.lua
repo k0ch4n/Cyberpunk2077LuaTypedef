@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiPlayerListGameController: gameuiHUDGameController
----@field private ["playerEntries"] PlayerListEntryData[]
----@field private ["container"] inkCompoundWidgetReference
+---@field private playerEntries PlayerListEntryData[]
+---@field private container inkCompoundWidgetReference
 gameuiPlayerListGameController = {}
 
 ---@param fields? table

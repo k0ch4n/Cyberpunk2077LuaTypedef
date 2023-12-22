@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PassivePatrolConditions: PassiveAutonomousCondition
----@field private ["roleCbId"] Uint32
----@field private ["cmdCbId"] Uint32
+---@field private roleCbId Uint32
+---@field private cmdCbId Uint32
 PassivePatrolConditions = {}
 
 ---@param fields? table

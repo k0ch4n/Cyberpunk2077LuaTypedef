@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldSharedDataBuffer: ISerializable
----@field public ["buffer"] DataBuffer
+---@field public buffer DataBuffer
 worldSharedDataBuffer = {}
 
 ---@param fields? table

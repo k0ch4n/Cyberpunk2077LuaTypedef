@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HDRColor
----@field public ["Red"] Float
----@field public ["Green"] Float
----@field public ["Blue"] Float
----@field public ["Alpha"] Float
+---@field public Red Float
+---@field public Green Float
+---@field public Blue Float
+---@field public Alpha Float
 HDRColor = {}
 
 ---@param fields? table

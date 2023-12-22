@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnLookAtAdvancedEventData
----@field public ["basic"] scnAnimTargetBasicData
----@field public ["requests"] animLookAtRequestForPart[]
+---@field public basic scnAnimTargetBasicData
+---@field public requests animLookAtRequestForPart[]
 scnLookAtAdvancedEventData = {}
 
 ---@param fields? table

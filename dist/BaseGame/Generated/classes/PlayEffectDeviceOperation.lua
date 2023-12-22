@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayEffectDeviceOperation: DeviceOperationBase
----@field public ["VFXs"] SVFXOperationData[]
----@field private ["fxInstances"] SVfxInstanceData[]
+---@field public VFXs SVFXOperationData[]
+---@field private fxInstances SVfxInstanceData[]
 PlayEffectDeviceOperation = {}
 
 ---@param fields? table

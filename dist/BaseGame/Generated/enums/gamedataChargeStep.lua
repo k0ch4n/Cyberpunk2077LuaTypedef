@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataChargeStep: Enum
----@field ["Idle"] gamedataChargeStep 0
----@field ["Charging"] gamedataChargeStep 1
----@field ["Charged"] gamedataChargeStep 2
----@field ["Overcharging"] gamedataChargeStep 3
----@field ["Discharging"] gamedataChargeStep 4
+---@field Idle 0
+---@field Charging 1
+---@field Charged 2
+---@field Overcharging 3
+---@field Discharging 4
 gamedataChargeStep = {}

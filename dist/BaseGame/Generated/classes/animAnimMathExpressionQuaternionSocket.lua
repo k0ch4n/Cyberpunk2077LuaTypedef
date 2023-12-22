@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimMathExpressionQuaternionSocket
----@field public ["link"] animQuaternionLink
----@field public ["expressionVarId"] Uint16
+---@field public link animQuaternionLink
+---@field public expressionVarId Uint16
 animAnimMathExpressionQuaternionSocket = {}
 
 ---@param fields? table

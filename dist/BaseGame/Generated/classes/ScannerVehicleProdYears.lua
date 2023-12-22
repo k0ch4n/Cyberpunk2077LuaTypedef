@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerVehicleProdYears: ScannerChunk
----@field private ["vehicleProdYears"] String
+---@field private vehicleProdYears String
 ScannerVehicleProdYears = {}
 
 ---@param fields? table

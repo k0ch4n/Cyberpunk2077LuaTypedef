@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnAnimationCategory: Enum
----@field ["Body"] scnAnimationCategory 0
----@field ["Facial"] scnAnimationCategory 1
----@field ["Cyberware"] scnAnimationCategory 2
+---@field Body 0
+---@field Facial 1
+---@field Cyberware 2
 scnAnimationCategory = {}

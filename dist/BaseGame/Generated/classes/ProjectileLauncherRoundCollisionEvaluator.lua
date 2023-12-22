@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ProjectileLauncherRoundCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field private ["collisionAction"] gamedataProjectileOnCollisionAction
----@field private ["projectileStopped"] Bool
----@field private ["maxBounceCount"] Int32
----@field private ["projectileBounced"] Bool
----@field private ["projectileStopAndStick"] Bool
----@field private ["projectilePierced"] Bool
+---@field private collisionAction gamedataProjectileOnCollisionAction
+---@field private projectileStopped Bool
+---@field private maxBounceCount Int32
+---@field private projectileBounced Bool
+---@field private projectileStopAndStick Bool
+---@field private projectilePierced Bool
 ProjectileLauncherRoundCollisionEvaluator = {}
 
 ---@param fields? table

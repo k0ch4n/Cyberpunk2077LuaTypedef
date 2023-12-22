@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class InventoryEquipmentSlot: inkWidgetLogicController
----@field protected ["EquipSlotRef"] inkWidgetReference
----@field protected ["EmptySlotButtonRef"] inkWidgetReference
----@field protected ["BackgroundShape"] inkImageWidgetReference
----@field protected ["BackgroundHighlight"] inkImageWidgetReference
----@field protected ["BackgroundFrame"] inkImageWidgetReference
----@field protected ["unavailableIcon"] inkWidgetReference
----@field protected ["toggleHighlight"] inkImageWidgetReference
----@field protected ["CurrentItemView"] InventoryItemDisplayController
----@field private ["Empty"] Bool
----@field private ["itemData"] gameInventoryItemData
----@field private ["equipmentArea"] gamedataEquipmentArea
----@field private ["slotName"] String
----@field private ["slotIndex"] Int32
----@field private ["DisableSlot"] Bool
----@field protected ["smallSize"] Vector2
----@field protected ["bigSize"] Vector2
+---@field protected EquipSlotRef inkWidgetReference
+---@field protected EmptySlotButtonRef inkWidgetReference
+---@field protected BackgroundShape inkImageWidgetReference
+---@field protected BackgroundHighlight inkImageWidgetReference
+---@field protected BackgroundFrame inkImageWidgetReference
+---@field protected unavailableIcon inkWidgetReference
+---@field protected toggleHighlight inkImageWidgetReference
+---@field protected CurrentItemView InventoryItemDisplayController
+---@field private Empty Bool
+---@field private itemData gameInventoryItemData
+---@field private equipmentArea gamedataEquipmentArea
+---@field private slotName String
+---@field private slotIndex Int32
+---@field private DisableSlot Bool
+---@field protected smallSize Vector2
+---@field protected bigSize Vector2
 InventoryEquipmentSlot = {}
 
 ---@param fields? table

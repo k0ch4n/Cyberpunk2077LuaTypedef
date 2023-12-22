@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class StatPoolChangeOverTimePrereq: gameIScriptablePrereq
----@field public ["statPoolType"] gamedataStatPoolType
----@field public ["timeFrame"] Float
----@field public ["valueToCheck"] Float
----@field public ["comparePercentage"] Bool
----@field public ["checkGain"] Bool
+---@field public statPoolType gamedataStatPoolType
+---@field public timeFrame Float
+---@field public valueToCheck Float
+---@field public comparePercentage Bool
+---@field public checkGain Bool
 StatPoolChangeOverTimePrereq = {}
 
 ---@param fields? table

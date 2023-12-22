@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workCoverTypeCondition: workIWorkspotCondition
----@field public ["isHighCover"] Bool
+---@field public isHighCover Bool
 workCoverTypeCondition = {}
 
 ---@param fields? table

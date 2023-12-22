@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkCircleWidget: inkBaseShapeWidget
----@field public ["segmentsNumber"] Uint32
+---@field public segmentsNumber Uint32
 inkCircleWidget = {}
 
 ---@param fields? table

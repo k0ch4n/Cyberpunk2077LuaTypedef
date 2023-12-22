@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BloodswellEffector: gameEffector
----@field private ["deathListener"] BloodswellEffectorHealthListener
----@field private ["coldBloodListener"] BloodswellEffectorColdBloodListener
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["owner"] gameObject
----@field private ["isImmortal"] Bool
+---@field private deathListener BloodswellEffectorHealthListener
+---@field private coldBloodListener BloodswellEffectorColdBloodListener
+---@field private gameInstance ScriptGameInstance
+---@field private owner gameObject
+---@field private isImmortal Bool
 BloodswellEffector = {}
 
 ---@param fields? table

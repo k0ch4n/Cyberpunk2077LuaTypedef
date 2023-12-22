@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StatusEffectDecisions: LocomotionGroundDecisions
----@field private ["executionOwner"] gameObject
----@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
----@field private ["statusEffectEnumName"] String
+---@field private executionOwner gameObject
+---@field private statusEffectListener DefaultTransitionStatusEffectListener
+---@field private statusEffectEnumName String
 StatusEffectDecisions = {}
 
 ---@param fields? table

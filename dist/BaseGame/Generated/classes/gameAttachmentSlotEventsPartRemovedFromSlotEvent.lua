@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAttachmentSlotEventsPartRemovedFromSlotEvent: redEvent
----@field public ["itemID"] gameItemID
----@field public ["removedPartID"] gameItemID
+---@field public itemID gameItemID
+---@field public removedPartID gameItemID
 gameAttachmentSlotEventsPartRemovedFromSlotEvent = {}
 
 ---@param fields? table

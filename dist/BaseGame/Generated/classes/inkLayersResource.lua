@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkLayersResource: CResource
----@field public ["layerDefinitions"] inkLayerDefinitionCollection
----@field public ["preGameLayerDefinitions"] inkLayerDefinitionCollection
----@field public ["permanentLayerDefinitions"] inkPermanentLayerDefinitionCollection
----@field public ["layerDefinitionsSet"] inkLayerDefinitionsSet
+---@field public layerDefinitions inkLayerDefinitionCollection
+---@field public preGameLayerDefinitions inkLayerDefinitionCollection
+---@field public permanentLayerDefinitions inkPermanentLayerDefinitionCollection
+---@field public layerDefinitionsSet inkLayerDefinitionsSet
 inkLayersResource = {}
 
 ---@param fields? table

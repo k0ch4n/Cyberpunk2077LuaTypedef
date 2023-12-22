@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_ParentTransform: animAnimNode_OnePoseInput
----@field public ["mapping"] animAnimTransformMappingEntry[]
+---@field public mapping animAnimTransformMappingEntry[]
 animAnimNode_ParentTransform = {}
 
 ---@param fields? table

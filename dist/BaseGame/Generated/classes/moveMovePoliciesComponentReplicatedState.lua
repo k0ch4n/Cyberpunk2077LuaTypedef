@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveMovePoliciesComponentReplicatedState: netIComponentState
----@field public ["movePolicies"] moveReplicatedMovePoliciesState
+---@field public movePolicies moveReplicatedMovePoliciesState
 moveMovePoliciesComponentReplicatedState = {}
 
 ---@param fields? table

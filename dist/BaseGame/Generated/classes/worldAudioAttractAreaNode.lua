@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldAudioAttractAreaNode: worldTriggerAreaNode
----@field public ["interestingConversationsNodeRef"] NodeRef
----@field public ["audioAttractSoundSettings"] worldAudioAttractAreaNodeSettings[]
+---@field public interestingConversationsNodeRef NodeRef
+---@field public audioAttractSoundSettings worldAudioAttractAreaNodeSettings[]
 worldAudioAttractAreaNode = {}
 
 ---@param fields? table

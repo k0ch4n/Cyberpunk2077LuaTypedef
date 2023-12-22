@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkTextReplaceAnimationController: inkTextAnimationController
----@field public ["timeToSkip"] Float
----@field public ["widgetTextUsage"] inkTextReplaceAnimationControllerWidgetTextUsage
----@field public ["baseTextLocalized"] LocalizationString
----@field public ["targetText"] String
----@field public ["targetTextLocalized"] LocalizationString
+---@field public timeToSkip Float
+---@field public widgetTextUsage inkTextReplaceAnimationControllerWidgetTextUsage
+---@field public baseTextLocalized LocalizationString
+---@field public targetText String
+---@field public targetTextLocalized LocalizationString
 inkTextReplaceAnimationController = {}
 
 ---@param fields? table

@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CityLightSystem: gameScriptableSystem
----@field private ["timeSystemCallbacks"] TimetableCallbackData[]
----@field private ["fuses"] FuseData[]
----@field private ["state"] ECLSForcedState
----@field private ["forcedStateSource"] CName
----@field private ["forcedStatesStack"] ForcedStateData[]
----@field private ["weatherListener"] CLSWeatherListener
----@field private ["turnOffLisenerID"] CName
----@field private ["turnOnLisenerID"] CName
----@field private ["resetLisenerID"] CName
----@field private ["weatherCallbackId"] Uint32
+---@field private timeSystemCallbacks TimetableCallbackData[]
+---@field private fuses FuseData[]
+---@field private state ECLSForcedState
+---@field private forcedStateSource CName
+---@field private forcedStatesStack ForcedStateData[]
+---@field private weatherListener CLSWeatherListener
+---@field private turnOffLisenerID CName
+---@field private turnOnLisenerID CName
+---@field private resetLisenerID CName
+---@field private weatherCallbackId Uint32
 CityLightSystem = {}
 
 ---@param fields? table

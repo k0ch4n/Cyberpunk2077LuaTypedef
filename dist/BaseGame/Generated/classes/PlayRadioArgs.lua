@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class PlayRadioArgs: IScriptable
----@field public ["instance"] ScriptGameInstance
----@field public ["delay"] Float
----@field public ["entryName"] CName
----@field public ["onlyPlayIfPlayerIsBeingChased"] Bool
----@field public ["shouldCheckDistrictAfterDelay"] Bool
----@field public ["handleVehicleEntranceEdgeCase"] Bool
----@field public ["handleVehicleLostOrSpottedEdgeCase"] Bool
----@field public ["stateUsedOnRequest"] EStarState
+---@field public instance ScriptGameInstance
+---@field public delay Float
+---@field public entryName CName
+---@field public onlyPlayIfPlayerIsBeingChased Bool
+---@field public shouldCheckDistrictAfterDelay Bool
+---@field public handleVehicleEntranceEdgeCase Bool
+---@field public handleVehicleLostOrSpottedEdgeCase Bool
+---@field public stateUsedOnRequest EStarState
 PlayRadioArgs = {}
 
 ---@param fields? table

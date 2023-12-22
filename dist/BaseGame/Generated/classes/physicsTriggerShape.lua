@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsTriggerShape
----@field public ["shapeType"] physicsShapeType
----@field public ["shapeSize"] Vector3
----@field public ["shapeLocalPose"] Transform
+---@field public shapeType physicsShapeType
+---@field public shapeSize Vector3
+---@field public shapeLocalPose Transform
 physicsTriggerShape = {}
 
 ---@param fields? table

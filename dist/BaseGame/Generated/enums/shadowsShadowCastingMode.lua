@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class shadowsShadowCastingMode: Enum
----@field ["Default"] shadowsShadowCastingMode 0
----@field ["Always"] shadowsShadowCastingMode 1
----@field ["Never"] shadowsShadowCastingMode 2
+---@field Default 0
+---@field Always 1
+---@field Never 2
 shadowsShadowCastingMode = {}

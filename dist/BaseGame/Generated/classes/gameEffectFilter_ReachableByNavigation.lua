@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectFilter_ReachableByNavigation: gameEffectObjectSingleFilter
----@field public ["maxPathLength"] gameEffectInputParameter_Float
+---@field public maxPathLength gameEffectInputParameter_Float
 gameEffectFilter_ReachableByNavigation = {}
 
 ---@param fields? table

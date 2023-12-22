@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InvestigationData
----@field public ["globalNodeRef"] worldGlobalNodeRef
----@field public ["investigationPositionsArray"] Vector4[]
+---@field public globalNodeRef worldGlobalNodeRef
+---@field public investigationPositionsArray Vector4[]
 InvestigationData = {}
 
 ---@param fields? table

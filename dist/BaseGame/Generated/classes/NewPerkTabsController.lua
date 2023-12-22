@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class NewPerkTabsController: inkWidgetLogicController
----@field private ["tabText"] inkTextWidgetReference
----@field private ["currentAttributePoints"] inkTextWidgetReference
----@field private ["currentAttributeIcon"] inkImageWidgetReference
----@field private ["leftArrow"] inkWidgetReference
----@field private ["rightArrow"] inkWidgetReference
----@field private ["attributePointsWrapper"] inkWidgetReference
----@field private ["attributePointsText"] inkTextWidgetReference
----@field private ["perkPointsWrapper"] inkWidgetReference
----@field private ["perkPointsText"] inkTextWidgetReference
----@field private ["espionagePointsWrapper"] inkWidgetReference
----@field private ["espionagePointsText"] inkTextWidgetReference
----@field private ["bars"] inkWidgetReference[]
----@field private ["dataManager"] PlayerDevelopmentDataManager
----@field private ["initData"] NewPerksScreenInitData
----@field private ["isEspionageUnlocked"] Bool
+---@field private tabText inkTextWidgetReference
+---@field private currentAttributePoints inkTextWidgetReference
+---@field private currentAttributeIcon inkImageWidgetReference
+---@field private leftArrow inkWidgetReference
+---@field private rightArrow inkWidgetReference
+---@field private attributePointsWrapper inkWidgetReference
+---@field private attributePointsText inkTextWidgetReference
+---@field private perkPointsWrapper inkWidgetReference
+---@field private perkPointsText inkTextWidgetReference
+---@field private espionagePointsWrapper inkWidgetReference
+---@field private espionagePointsText inkTextWidgetReference
+---@field private bars inkWidgetReference[]
+---@field private dataManager PlayerDevelopmentDataManager
+---@field private initData NewPerksScreenInitData
+---@field private isEspionageUnlocked Bool
 NewPerkTabsController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIVehicleAgent: AICAgent
----@field private ["keepStrategyOnSearch"] Bool
----@field private ["initCmd"] AIVehicleCommand
+---@field private keepStrategyOnSearch Bool
+---@field private initCmd AIVehicleCommand
 AIVehicleAgent = {}
 
 ---@param fields? table

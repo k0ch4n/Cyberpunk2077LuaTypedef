@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCategorySelectionProbability
----@field public ["probabilities"] gameSpotSequenceCategory[]
+---@field public probabilities gameSpotSequenceCategory[]
 gameCategorySelectionProbability = {}
 
 ---@param fields? table

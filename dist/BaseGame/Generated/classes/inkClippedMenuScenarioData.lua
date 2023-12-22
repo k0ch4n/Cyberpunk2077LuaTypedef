@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkClippedMenuScenarioData: IScriptable
----@field public ["menus"] CName[]
+---@field public menus CName[]
 inkClippedMenuScenarioData = {}
 
 ---@param fields? table

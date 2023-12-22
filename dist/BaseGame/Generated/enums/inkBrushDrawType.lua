@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkBrushDrawType: Enum
----@field ["NoDraw"] inkBrushDrawType 0
----@field ["Solid"] inkBrushDrawType 1
----@field ["Wire"] inkBrushDrawType 2
+---@field NoDraw 0
+---@field Solid 1
+---@field Wire 2
 inkBrushDrawType = {}

@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class inkEAnchor: Enum
----@field ["TopLeft"] inkEAnchor 0
----@field ["TopCenter"] inkEAnchor 1
----@field ["TopRight"] inkEAnchor 2
----@field ["CenterLeft"] inkEAnchor 3
----@field ["Centered"] inkEAnchor 4
----@field ["CenterRight"] inkEAnchor 5
----@field ["BottomLeft"] inkEAnchor 6
----@field ["BottomCenter"] inkEAnchor 7
----@field ["BottomRight"] inkEAnchor 8
----@field ["TopFillHorizontaly"] inkEAnchor 9
----@field ["CenterFillHorizontaly"] inkEAnchor 10
----@field ["BottomFillHorizontaly"] inkEAnchor 11
----@field ["LeftFillVerticaly"] inkEAnchor 12
----@field ["CenterFillVerticaly"] inkEAnchor 13
----@field ["RightFillVerticaly"] inkEAnchor 14
----@field ["Fill"] inkEAnchor 15
+---@field TopLeft 0
+---@field TopCenter 1
+---@field TopRight 2
+---@field CenterLeft 3
+---@field Centered 4
+---@field CenterRight 5
+---@field BottomLeft 6
+---@field BottomCenter 7
+---@field BottomRight 8
+---@field TopFillHorizontaly 9
+---@field CenterFillHorizontaly 10
+---@field BottomFillHorizontaly 11
+---@field LeftFillVerticaly 12
+---@field CenterFillVerticaly 13
+---@field RightFillVerticaly 14
+---@field Fill 15
 inkEAnchor = {}

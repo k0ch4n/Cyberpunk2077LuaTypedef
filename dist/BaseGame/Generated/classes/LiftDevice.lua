@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class LiftDevice: InteractiveMasterDevice
----@field protected ["advertismentNames"] CName[]
----@field protected ["advertisments"] entIPlacedComponent[]
----@field private ["movingPlatform"] gameMovingPlatform
----@field private ["floors"] ElevatorFloorSetup[]
----@field protected ["QuestSafeguardColliders"] entIPlacedComponent[]
----@field protected ["QuestSafeguardColliderNames"] CName[]
----@field protected ["frontDoorOccluder"] entIPlacedComponent
----@field protected ["backDoorOccluder"] entIPlacedComponent
----@field protected ["radioMesh"] entIPlacedComponent
----@field protected ["radioDestroyed"] entIPlacedComponent
----@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
----@field private ["isLoadPerformed"] Bool
----@field private ["usedFallbackOnce"] Bool
+---@field protected advertismentNames CName[]
+---@field protected advertisments entIPlacedComponent[]
+---@field private movingPlatform gameMovingPlatform
+---@field private floors ElevatorFloorSetup[]
+---@field protected QuestSafeguardColliders entIPlacedComponent[]
+---@field protected QuestSafeguardColliderNames CName[]
+---@field protected frontDoorOccluder entIPlacedComponent
+---@field protected backDoorOccluder entIPlacedComponent
+---@field protected radioMesh entIPlacedComponent
+---@field protected radioDestroyed entIPlacedComponent
+---@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
+---@field private isLoadPerformed Bool
+---@field private usedFallbackOnce Bool
 LiftDevice = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class EEmitterGroup: Enum
----@field ["EG_Default"] EEmitterGroup 0
----@field ["EG_Group0"] EEmitterGroup 1
----@field ["EG_Group1"] EEmitterGroup 2
----@field ["EG_Group2"] EEmitterGroup 3
----@field ["EG_Group3"] EEmitterGroup 4
----@field ["EG_Group4"] EEmitterGroup 5
----@field ["EG_Group5"] EEmitterGroup 6
----@field ["EG_Group6"] EEmitterGroup 7
----@field ["EG_Group7"] EEmitterGroup 8
----@field ["EG_Group8"] EEmitterGroup 9
----@field ["EG_Group9"] EEmitterGroup 10
----@field ["EG_Group10"] EEmitterGroup 11
----@field ["EG_Group11"] EEmitterGroup 12
----@field ["EG_Group12"] EEmitterGroup 13
----@field ["EG_Group13"] EEmitterGroup 14
----@field ["EG_Group14"] EEmitterGroup 15
----@field ["EG_Group15"] EEmitterGroup 16
+---@field EG_Default 0
+---@field EG_Group0 1
+---@field EG_Group1 2
+---@field EG_Group2 3
+---@field EG_Group3 4
+---@field EG_Group4 5
+---@field EG_Group5 6
+---@field EG_Group6 7
+---@field EG_Group7 8
+---@field EG_Group8 9
+---@field EG_Group9 10
+---@field EG_Group10 11
+---@field EG_Group11 12
+---@field EG_Group12 13
+---@field EG_Group13 14
+---@field EG_Group14 15
+---@field EG_Group15 16
 EEmitterGroup = {}

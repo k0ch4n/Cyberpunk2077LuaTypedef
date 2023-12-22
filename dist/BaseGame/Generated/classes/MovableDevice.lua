@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class MovableDevice: InteractiveDevice
----@field public ["workspotSideName"] CName
----@field protected ["sideTriggerNames"] CName[]
----@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
----@field protected ["offMeshConnectionsToOpenNames"] CName[]
----@field protected ["offMeshConnectionsToOpen"] AIOffMeshConnectionComponent[]
----@field protected ["additionalMeshComponent"] entMeshComponent
----@field protected ["UseWorkspotComponentPosition"] Bool
----@field protected ["shouldMoveRight"] Bool
+---@field public workspotSideName CName
+---@field protected sideTriggerNames CName[]
+---@field protected triggerComponents gameStaticTriggerAreaComponent[]
+---@field protected offMeshConnectionsToOpenNames CName[]
+---@field protected offMeshConnectionsToOpen AIOffMeshConnectionComponent[]
+---@field protected additionalMeshComponent entMeshComponent
+---@field protected UseWorkspotComponentPosition Bool
+---@field protected shouldMoveRight Bool
 MovableDevice = {}
 
 ---@param fields? table

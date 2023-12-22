@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Plane
----@field public ["NormalDistance"] Vector4
+---@field public NormalDistance Vector4
 Plane = {}
 
 ---@param fields? table

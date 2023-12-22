@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workWorkspotItemOverrideItemOverride
----@field public ["prevItemId"] TweakDBID
----@field public ["newItemId"] TweakDBID
+---@field public prevItemId TweakDBID
+---@field public newItemId TweakDBID
 workWorkspotItemOverrideItemOverride = {}
 
 ---@param fields? table

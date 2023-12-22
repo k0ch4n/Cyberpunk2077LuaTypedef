@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendorDataView: BackpackDataView
----@field protected ["isVendorGrid"] Bool
----@field protected ["openTime"] GameTime
+---@field protected isVendorGrid Bool
+---@field protected openTime GameTime
 VendorDataView = {}
 
 ---@param fields? table

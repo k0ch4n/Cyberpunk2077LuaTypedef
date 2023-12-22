@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SetBonePosition: animAnimNode_OnePoseInput
----@field public ["bone"] animTransformIndex
----@field public ["positionMs"] animVectorLink
+---@field public bone animTransformIndex
+---@field public positionMs animVectorLink
 animAnimNode_SetBonePosition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ModifyStatCheckPrereq: gamePlayerScriptableSystemRequest
----@field public ["register"] Bool
----@field public ["statCheckState"] StatCheckPrereqState
+---@field public register Bool
+---@field public statCheckState StatCheckPrereqState
 ModifyStatCheckPrereq = {}
 
 ---@param fields? table

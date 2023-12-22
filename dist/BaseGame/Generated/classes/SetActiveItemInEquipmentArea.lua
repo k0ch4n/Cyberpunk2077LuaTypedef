@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetActiveItemInEquipmentArea: gamePlayerScriptableSystemRequest
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 SetActiveItemInEquipmentArea = {}
 
 ---@param fields? table

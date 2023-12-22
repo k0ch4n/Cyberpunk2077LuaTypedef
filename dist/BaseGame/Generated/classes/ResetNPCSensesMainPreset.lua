@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResetNPCSensesMainPreset: AIbehaviortaskScript
----@field public ["newSensesPresetName"] String
+---@field public newSensesPresetName String
 ResetNPCSensesMainPreset = {}
 
 ---@param fields? table

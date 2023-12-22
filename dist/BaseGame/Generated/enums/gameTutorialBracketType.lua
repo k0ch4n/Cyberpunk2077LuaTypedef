@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameTutorialBracketType: Enum
----@field ["WidgetArea"] gameTutorialBracketType 0
----@field ["CustomArea"] gameTutorialBracketType 1
+---@field WidgetArea 0
+---@field CustomArea 1
 gameTutorialBracketType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class redErrorResult
----@field public ["message"] String
----@field public ["userData"] Variant
+---@field public message String
+---@field public userData Variant
 redErrorResult = {}
 
 ---@param fields? table

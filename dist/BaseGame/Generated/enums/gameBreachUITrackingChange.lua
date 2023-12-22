@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameBreachUITrackingChange: Enum
----@field ["NoChange"] gameBreachUITrackingChange 0
----@field ["StartedNew"] gameBreachUITrackingChange 1
----@field ["StoppedOnTimeout"] gameBreachUITrackingChange 2
----@field ["StoppedOnTargetDeath"] gameBreachUITrackingChange 3
----@field ["StoppedOnDestroyed"] gameBreachUITrackingChange 6
----@field ["StoppedForced"] gameBreachUITrackingChange 7
----@field ["Hidden"] gameBreachUITrackingChange 8
----@field ["Unhidden"] gameBreachUITrackingChange 9
+---@field NoChange 0
+---@field StartedNew 1
+---@field StoppedOnTimeout 2
+---@field StoppedOnTargetDeath 3
+---@field StoppedOnDestroyed 6
+---@field StoppedForced 7
+---@field Hidden 8
+---@field Unhidden 9
 gameBreachUITrackingChange = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSetMetaQuestProgress_NodeType: questIUIManagerNodeType
----@field public ["metaQuestId"] gamedataMetaQuest
----@field public ["percent"] Uint32
----@field public ["text"] LocalizationString
+---@field public metaQuestId gamedataMetaQuest
+---@field public percent Uint32
+---@field public text LocalizationString
 questSetMetaQuestProgress_NodeType = {}
 
 ---@param fields? table

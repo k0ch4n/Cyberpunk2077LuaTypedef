@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class CodexListVirtualGroup: inkVirtualCompoundItemController
----@field protected ["title"] inkTextWidgetReference
----@field protected ["arrow"] inkWidgetReference
----@field protected ["newWrapper"] inkWidgetReference
----@field protected ["counter"] inkTextWidgetReference
----@field private ["entryData"] CodexEntryData
----@field private ["nestedListData"] VirutalNestedListData
----@field private ["activeItemSync"] CodexListSyncData
----@field private ["isActive"] Bool
----@field private ["isItemHovered"] Bool
----@field private ["isItemToggled"] Bool
----@field private ["isItemCollapsed"] Bool
+---@field protected title inkTextWidgetReference
+---@field protected arrow inkWidgetReference
+---@field protected newWrapper inkWidgetReference
+---@field protected counter inkTextWidgetReference
+---@field private entryData CodexEntryData
+---@field private nestedListData VirutalNestedListData
+---@field private activeItemSync CodexListSyncData
+---@field private isActive Bool
+---@field private isItemHovered Bool
+---@field private isItemToggled Bool
+---@field private isItemCollapsed Bool
 CodexListVirtualGroup = {}
 
 ---@param fields? table

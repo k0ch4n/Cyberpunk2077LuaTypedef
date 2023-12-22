@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CameraTagEnemyLimitDataModule: GameSessionDataModule
----@field public ["cameraLimit"] Int32
----@field public ["cameraList"] SurveillanceCamera[]
+---@field public cameraLimit Int32
+---@field public cameraList SurveillanceCamera[]
 CameraTagEnemyLimitDataModule = {}
 
 ---@param fields? table

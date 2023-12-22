@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class FanSetup
----@field public ["animationType"] EAnimationType
----@field public ["rotateClockwise"] Bool
----@field public ["randomizeBladesSpeed"] Bool
----@field public ["maxRotationSpeed"] Float
----@field public ["timeToMaxRotation"] Float
+---@field public animationType EAnimationType
+---@field public rotateClockwise Bool
+---@field public randomizeBladesSpeed Bool
+---@field public maxRotationSpeed Float
+---@field public timeToMaxRotation Float
 FanSetup = {}
 
 ---@param fields? table

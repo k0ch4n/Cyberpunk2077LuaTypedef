@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackOnOwnerEffect: gameEffector
----@field public ["owner"] gameObject
----@field public ["attackTDBID"] TweakDBID
----@field public ["attackPositionSlotName"] CName
----@field public ["playerAsInstigator"] Bool
----@field public ["triggerHitReaction"] Bool
----@field public ["isRandom"] Bool
----@field public ["applicationChance"] Float
+---@field public owner gameObject
+---@field public attackTDBID TweakDBID
+---@field public attackPositionSlotName CName
+---@field public playerAsInstigator Bool
+---@field public triggerHitReaction Bool
+---@field public isRandom Bool
+---@field public applicationChance Float
 TriggerAttackOnOwnerEffect = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapDebugOutlineLogicController: inkWidgetLogicController
----@field public ["outlineWidget"] inkShapeWidgetReference
+---@field public outlineWidget inkShapeWidgetReference
 gameuiWorldMapDebugOutlineLogicController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InterestingFacts
----@field public ["zone"] CName
+---@field public zone CName
 InterestingFacts = {}
 
 ---@param fields? table

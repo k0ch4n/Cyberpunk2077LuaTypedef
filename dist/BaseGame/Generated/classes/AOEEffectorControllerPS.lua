@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AOEEffectorControllerPS: ActivatedDeviceControllerPS
----@field protected ["effectsToPlay"] CName[]
+---@field protected effectsToPlay CName[]
 AOEEffectorControllerPS = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackEffectorWithDelay: redEvent
----@field public ["attack"] gameAttack_GameEffect
+---@field public attack gameAttack_GameEffect
 TriggerAttackEffectorWithDelay = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipSettingsListener: userSettingsVarListener
----@field private ["ctrl"] ItemTooltipCommonController
+---@field private ctrl ItemTooltipCommonController
 ItemTooltipSettingsListener = {}
 
 ---@param fields? table

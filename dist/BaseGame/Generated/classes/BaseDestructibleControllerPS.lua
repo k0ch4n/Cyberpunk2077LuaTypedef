@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseDestructibleControllerPS: ScriptableDeviceComponentPS
----@field protected ["destroyed"] Bool
+---@field protected destroyed Bool
 BaseDestructibleControllerPS = {}
 
 ---@param fields? table

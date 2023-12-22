@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_BulletImpact: gameEffectExecutor
----@field public ["isBackfaceImpact"] Bool
----@field public ["noAudio"] Bool
----@field public ["isMeleeAttack"] Bool
+---@field public isBackfaceImpact Bool
+---@field public noAudio Bool
+---@field public isMeleeAttack Bool
 gameEffectExecutor_BulletImpact = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GogRewardsGroupController: inkWidgetLogicController
----@field private ["label"] inkTextWidgetReference
----@field private ["containerWidget"] inkWidgetReference
+---@field private label inkTextWidgetReference
+---@field private containerWidget inkWidgetReference
 GogRewardsGroupController = {}
 
 ---@param fields? table

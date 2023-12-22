@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VenodrRequestQueueEntry: IScriptable
----@field public ["requestID"] Int32
----@field public ["itemID"] gameItemID
+---@field public requestID Int32
+---@field public itemID gameItemID
 VenodrRequestQueueEntry = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerTargetChangedRequest: gameScriptableSystemRequest
----@field public ["playerTarget"] entEntityID
+---@field public playerTarget entEntityID
 PlayerTargetChangedRequest = {}
 
 ---@param fields? table

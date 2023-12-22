@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public ["targetType"] CName
+---@field public targetType CName
 TargetTypeHitPrereqCondition = {}
 
 ---@param fields? table

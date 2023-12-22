@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ConsumableUseEvents: ConsumableTransitions
----@field public ["effectsApplied"] Bool
----@field public ["modelRemoved"] Bool
----@field public ["activeConsumable"] gameItemID
+---@field public effectsApplied Bool
+---@field public modelRemoved Bool
+---@field public activeConsumable gameItemID
 ConsumableUseEvents = {}
 
 ---@param fields? table

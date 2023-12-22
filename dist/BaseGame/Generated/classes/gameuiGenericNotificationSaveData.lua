@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiGenericNotificationSaveData: gameuiBaseUIData
----@field public ["notificationsData"] gameuiGenericNotificationData[]
+---@field public notificationsData gameuiGenericNotificationData[]
 gameuiGenericNotificationSaveData = {}
 
 ---@param fields? table

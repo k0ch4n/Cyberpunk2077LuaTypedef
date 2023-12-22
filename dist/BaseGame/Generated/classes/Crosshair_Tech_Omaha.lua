@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Tech_Omaha: gameuiCrosshairBaseGameController
----@field private ["leftPart"] inkWidget
----@field private ["rightPart"] inkWidget
----@field private ["topPart"] inkWidget
----@field private ["chargeBar"] inkRectangleWidget
----@field private ["sizeOfChargeBar"] Vector2
----@field private ["chargeBBID"] redCallbackObject
+---@field private leftPart inkWidget
+---@field private rightPart inkWidget
+---@field private topPart inkWidget
+---@field private chargeBar inkRectangleWidget
+---@field private sizeOfChargeBar Vector2
+---@field private chargeBBID redCallbackObject
 Crosshair_Tech_Omaha = {}
 
 ---@param fields? table

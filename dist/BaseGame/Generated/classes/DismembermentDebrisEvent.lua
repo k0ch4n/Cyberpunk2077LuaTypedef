@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DismembermentDebrisEvent: redEvent
----@field public ["resourcePath"] String
----@field public ["strength"] Float
+---@field public resourcePath String
+---@field public strength Float
 DismembermentDebrisEvent = {}
 
 ---@param fields? table

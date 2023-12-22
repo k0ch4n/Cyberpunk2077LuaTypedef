@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CerberusRangedKillTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIShootCommand
----@field protected ["threatPersistenceSource"] gamedataAIThreatPersistenceSource_Record
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
----@field protected ["target"] gameObject
----@field protected ["targetID"] entEntityID
----@field public ["playerPuppet"] PlayerPuppet
----@field private ["fadeOutStarted"] Bool
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIShootCommand
+---@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
+---@field protected target gameObject
+---@field protected targetID entEntityID
+---@field public playerPuppet PlayerPuppet
+---@field private fadeOutStarted Bool
 CerberusRangedKillTask = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerksMenuAttributeItemCreated: redEvent
----@field public ["perksMenuAttributeItem"] PerksMenuAttributeItemController
+---@field public perksMenuAttributeItem PerksMenuAttributeItemController
 PerksMenuAttributeItemCreated = {}
 
 ---@param fields? table

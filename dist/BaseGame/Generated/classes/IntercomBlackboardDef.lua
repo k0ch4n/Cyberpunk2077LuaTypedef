@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class IntercomBlackboardDef: DeviceBaseBlackboardDef
----@field public ["DisplayString"] gamebbScriptID_String
----@field public ["EnableActions"] gamebbScriptID_Bool
----@field public ["Status"] gamebbScriptID_Variant
+---@field public DisplayString gamebbScriptID_String
+---@field public EnableActions gamebbScriptID_Bool
+---@field public Status gamebbScriptID_Variant
 IntercomBlackboardDef = {}
 
 ---@param fields? table

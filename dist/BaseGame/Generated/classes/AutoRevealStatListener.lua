@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AutoRevealStatListener: gameScriptStatsListener
----@field public ["owner"] gameObject
+---@field public owner gameObject
 AutoRevealStatListener = {}
 
 ---@param fields? table

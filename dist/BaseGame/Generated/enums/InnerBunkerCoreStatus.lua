@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InnerBunkerCoreStatus: Enum
----@field ["Online"] InnerBunkerCoreStatus 0
----@field ["Offline"] InnerBunkerCoreStatus 1
----@field ["Unresponsive"] InnerBunkerCoreStatus 2
+---@field Online 0
+---@field Offline 1
+---@field Unresponsive 2
 InnerBunkerCoreStatus = {}

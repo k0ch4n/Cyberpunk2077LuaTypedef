@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RemoveAllModifiersEffector: gameEffector
----@field public ["statType"] gamedataStatType
----@field public ["applicationTarget"] CName
----@field public ["target"] gameStatsObjectID
+---@field public statType gamedataStatType
+---@field public applicationTarget CName
+---@field public target gameStatsObjectID
 RemoveAllModifiersEffector = {}
 
 ---@param fields? table

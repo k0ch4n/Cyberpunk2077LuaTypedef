@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionCombatStartedRequest: gameScriptableSystemRequest
----@field public ["requesterPosition"] Vector4
----@field public ["requester"] gameObject
+---@field public requesterPosition Vector4
+---@field public requester gameObject
 PreventionCombatStartedRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questDevice_ConditionFunctionParameter
----@field public ["name"] CName
----@field public ["value"] Variant
+---@field public name CName
+---@field public value Variant
 questDevice_ConditionFunctionParameter = {}
 
 ---@param fields? table

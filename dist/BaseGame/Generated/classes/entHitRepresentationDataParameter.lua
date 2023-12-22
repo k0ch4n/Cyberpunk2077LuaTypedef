@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entHitRepresentationDataParameter: entEntityParameter
----@field public ["hitRepresentationOverrides"] gameHitRepresentationOverride[]
+---@field public hitRepresentationOverrides gameHitRepresentationOverride[]
 entHitRepresentationDataParameter = {}
 
 ---@param fields? table

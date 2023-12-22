@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckPlayerCombatInterruptCondition: scnIInterruptCondition
----@field public ["params"] scnCheckPlayerCombatInterruptConditionParams
+---@field public params scnCheckPlayerCombatInterruptConditionParams
 scnCheckPlayerCombatInterruptCondition = {}
 
 ---@param fields? table

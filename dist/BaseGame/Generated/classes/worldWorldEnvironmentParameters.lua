@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldWorldEnvironmentParameters
----@field public ["globalLightingTrajectory"] GlobalLightingTrajectory
+---@field public globalLightingTrajectory GlobalLightingTrajectory
 worldWorldEnvironmentParameters = {}
 
 ---@param fields? table

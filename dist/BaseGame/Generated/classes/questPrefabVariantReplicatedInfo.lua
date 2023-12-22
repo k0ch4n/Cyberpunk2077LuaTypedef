@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPrefabVariantReplicatedInfo
----@field public ["variantNameKey"] CName
----@field public ["show"] Bool
+---@field public variantNameKey CName
+---@field public show Bool
 questPrefabVariantReplicatedInfo = {}
 
 ---@param fields? table

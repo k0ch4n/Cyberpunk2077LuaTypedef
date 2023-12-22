@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCyberdrill_NodeTypeParams
----@field public ["objectRef"] NodeRef
----@field public ["enable"] Bool
+---@field public objectRef NodeRef
+---@field public enable Bool
 questCyberdrill_NodeTypeParams = {}
 
 ---@param fields? table

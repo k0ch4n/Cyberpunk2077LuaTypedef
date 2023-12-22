@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivateLinksRequest: gameScriptableSystemRequest
----@field public ["linksIDs"] Int32[]
+---@field public linksIDs Int32[]
 ActivateLinksRequest = {}
 
 ---@param fields? table

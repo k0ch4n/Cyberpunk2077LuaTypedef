@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ArmsCWInSlotPrereq: gameIScriptablePrereq
----@field public ["equipmentArea"] gamedataEquipmentArea
----@field public ["slotCheckType"] gamedataCheckType
----@field public ["itemType"] gamedataItemType
----@field public ["itemTag"] CName
----@field public ["invert"] Bool
+---@field public equipmentArea gamedataEquipmentArea
+---@field public slotCheckType gamedataCheckType
+---@field public itemType gamedataItemType
+---@field public itemTag CName
+---@field public invert Bool
 ArmsCWInSlotPrereq = {}
 
 ---@param fields? table

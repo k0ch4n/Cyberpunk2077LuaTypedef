@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointDriveVelocity
----@field public ["linearVelocity"] Vector4
----@field public ["angularVelocity"] Vector4
+---@field public linearVelocity Vector4
+---@field public angularVelocity Vector4
 physicsPhysicsJointDriveVelocity = {}
 
 ---@param fields? table

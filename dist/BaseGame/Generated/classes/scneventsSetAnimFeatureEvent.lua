@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scneventsSetAnimFeatureEvent: scnSceneEvent
----@field public ["actorId"] scnActorId
----@field public ["animFeatureName"] CName
----@field public ["animFeature"] animAnimFeature
+---@field public actorId scnActorId
+---@field public animFeatureName CName
+---@field public animFeature animAnimFeature
 scneventsSetAnimFeatureEvent = {}
 
 ---@param fields? table

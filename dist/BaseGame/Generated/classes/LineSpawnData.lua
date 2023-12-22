@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LineSpawnData: IScriptable
----@field public ["lineData"] scnDialogLineData
+---@field public lineData scnDialogLineData
 LineSpawnData = {}
 
 ---@param fields? table

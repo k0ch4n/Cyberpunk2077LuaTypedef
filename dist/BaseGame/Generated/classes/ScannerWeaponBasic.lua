@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerWeaponBasic: ScannerChunk
----@field protected ["weapon"] CName
+---@field protected weapon CName
 ScannerWeaponBasic = {}
 
 ---@param fields? table

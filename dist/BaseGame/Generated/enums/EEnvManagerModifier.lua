@@ -2,89 +2,89 @@
 ---@diagnostic disable
 
 ---@class EEnvManagerModifier: Enum
----@field ["EMM_None"] EEnvManagerModifier 0
----@field ["EMM_WireframeSolid"] EEnvManagerModifier 1
----@field ["EMM_WireframeSeethrough"] EEnvManagerModifier 2
----@field ["EMM_Overdraw"] EEnvManagerModifier 3
----@field ["EMM_OverdrawSeethrough"] EEnvManagerModifier 4
----@field ["EMM_ParticleOverdraw"] EEnvManagerModifier 5
----@field ["EMM_ParticleNumLights"] EEnvManagerModifier 6
----@field ["EMM_DecalOverdraw"] EEnvManagerModifier 7
----@field ["EMM_LightOverdraw"] EEnvManagerModifier 8
----@field ["EMM_SceneReferredColor"] EEnvManagerModifier 9
----@field ["EMM_DisplayReferredColor"] EEnvManagerModifier 10
----@field ["EMM_GlobalIllumination"] EEnvManagerModifier 11
----@field ["EMM_SurfaceMaterialID"] EEnvManagerModifier 12
----@field ["EMM_SurfaceObjectID"] EEnvManagerModifier 13
----@field ["EMM_SurfaceBaseColor"] EEnvManagerModifier 14
----@field ["EMM_SurfaceAlbedo"] EEnvManagerModifier 15
----@field ["EMM_SurfaceSpecularity"] EEnvManagerModifier 16
----@field ["EMM_SurfaceMetalness"] EEnvManagerModifier 17
----@field ["EMM_SurfaceRoughness"] EEnvManagerModifier 18
----@field ["EMM_SurfaceEmissive"] EEnvManagerModifier 19
----@field ["EMM_SurfaceTranslucency"] EEnvManagerModifier 20
----@field ["EMM_SurfaceNormalsWorldSpace"] EEnvManagerModifier 21
----@field ["EMM_SurfaceNormalsViewSpace"] EEnvManagerModifier 22
----@field ["EMM_SurfaceHairDirection"] EEnvManagerModifier 23
----@field ["EMM_SurfaceHairID"] EEnvManagerModifier 24
----@field ["EMM_SurfaceLightBlockerIntensity"] EEnvManagerModifier 25
----@field ["EMM_GBuffer0A"] EEnvManagerModifier 26
----@field ["EMM_GBuffer1RGB"] EEnvManagerModifier 27
----@field ["EMM_GBuffer1A"] EEnvManagerModifier 28
----@field ["EMM_ConeAODir"] EEnvManagerModifier 29
----@field ["EMM_ConeAOAngle"] EEnvManagerModifier 30
----@field ["EMM_VelocityBuffer"] EEnvManagerModifier 31
----@field ["EMM_Depth"] EEnvManagerModifier 32
----@field ["EMM_UvDensity"] EEnvManagerModifier 33
----@field ["EMM_ToneMappingLuminance"] EEnvManagerModifier 34
----@field ["EMM_ToneMappingThresholds"] EEnvManagerModifier 35
----@field ["EMM_LuminanceSpotMeter"] EEnvManagerModifier 36
----@field ["EMM_IlluminanceMeter"] EEnvManagerModifier 37
----@field ["EMM_DiffuseLight"] EEnvManagerModifier 38
----@field ["EMM_SpecularLight"] EEnvManagerModifier 39
----@field ["EMM_ClayView"] EEnvManagerModifier 40
----@field ["EMM_PureGreyscaleView"] EEnvManagerModifier 41
----@field ["EMM_PureWhiteView"] EEnvManagerModifier 42
----@field ["EMM_PureReflectionView"] EEnvManagerModifier 43
----@field ["EMM_PureGreyReflectionView"] EEnvManagerModifier 44
----@field ["EMM_Cascades"] EEnvManagerModifier 45
----@field ["EMM_MaskShadow"] EEnvManagerModifier 46
----@field ["EMM_MaskSSAO"] EEnvManagerModifier 47
----@field ["EMM_MaskTXAA"] EEnvManagerModifier 48
----@field ["EMM_MaskDistortion"] EEnvManagerModifier 49
----@field ["EMM_MaskInvalidation"] EEnvManagerModifier 50
----@field ["EMM_MaskReactivityFSR2"] EEnvManagerModifier 51
----@field ["EMM_SurfaceCacheID"] EEnvManagerModifier 52
----@field ["EMM_SurfaceCacheResolution"] EEnvManagerModifier 53
----@field ["EMM_LightChannels"] EEnvManagerModifier 54
----@field ["EMM_DebugHitProxies"] EEnvManagerModifier 55
----@field ["EMM_DebugShadowsMode"] EEnvManagerModifier 56
----@field ["EMM_RayTracingDebug"] EEnvManagerModifier 57
----@field ["EMM_SSRResults"] EEnvManagerModifier 58
----@field ["EMM_SSRFade"] EEnvManagerModifier 59
----@field ["EMM_DepthOfFieldCoC"] EEnvManagerModifier 60
----@field ["EMM_MultilayeredMode"] EEnvManagerModifier 61
----@field ["EMM_MultilayeredProxy"] EEnvManagerModifier 62
----@field ["EMM_MultilayeredUniqueMasks"] EEnvManagerModifier 63
----@field ["EMM_MultilayeredMaskWeight"] EEnvManagerModifier 64
----@field ["EMM_LocalShadowsVariance"] EEnvManagerModifier 65
----@field ["EMM_LocalShadowsRangesOverlapDynamicsOnly"] EEnvManagerModifier 66
----@field ["EMM_LocalShadowsRangesOverlapStaticsOnly"] EEnvManagerModifier 67
----@field ["EMM_LODColoring"] EEnvManagerModifier 68
----@field ["EMM_TodvisRuntimePreview"] EEnvManagerModifier 69
----@field ["EMM_TodvisBakePreview"] EEnvManagerModifier 70
----@field ["EMM_RainMask"] EEnvManagerModifier 71
----@field ["EMM_VolFogDensity"] EEnvManagerModifier 72
----@field ["EMM_PBRValidationBaseColor"] EEnvManagerModifier 73
----@field ["EMM_PBRValidationMetalness"] EEnvManagerModifier 74
----@field ["EMM_GreyPlayMode"] EEnvManagerModifier 75
----@field ["EMM_RTXDIDiffuseRaw"] EEnvManagerModifier 76
----@field ["EMM_RTXDISpecularRaw"] EEnvManagerModifier 77
----@field ["EMM_RTXDIDiffuseDenoised"] EEnvManagerModifier 78
----@field ["EMM_RTXDISpecularDenoised"] EEnvManagerModifier 79
----@field ["EMM_RTXDIBRDFFactor"] EEnvManagerModifier 80
----@field ["EMM_IndirectDiffuseRaw"] EEnvManagerModifier 81
----@field ["EMM_IndirectSpecularRaw"] EEnvManagerModifier 82
----@field ["EMM_IndirectDiffuseDenoised"] EEnvManagerModifier 83
----@field ["EMM_IndirectSpecularDenoised"] EEnvManagerModifier 84
+---@field EMM_None 0
+---@field EMM_WireframeSolid 1
+---@field EMM_WireframeSeethrough 2
+---@field EMM_Overdraw 3
+---@field EMM_OverdrawSeethrough 4
+---@field EMM_ParticleOverdraw 5
+---@field EMM_ParticleNumLights 6
+---@field EMM_DecalOverdraw 7
+---@field EMM_LightOverdraw 8
+---@field EMM_SceneReferredColor 9
+---@field EMM_DisplayReferredColor 10
+---@field EMM_GlobalIllumination 11
+---@field EMM_SurfaceMaterialID 12
+---@field EMM_SurfaceObjectID 13
+---@field EMM_SurfaceBaseColor 14
+---@field EMM_SurfaceAlbedo 15
+---@field EMM_SurfaceSpecularity 16
+---@field EMM_SurfaceMetalness 17
+---@field EMM_SurfaceRoughness 18
+---@field EMM_SurfaceEmissive 19
+---@field EMM_SurfaceTranslucency 20
+---@field EMM_SurfaceNormalsWorldSpace 21
+---@field EMM_SurfaceNormalsViewSpace 22
+---@field EMM_SurfaceHairDirection 23
+---@field EMM_SurfaceHairID 24
+---@field EMM_SurfaceLightBlockerIntensity 25
+---@field EMM_GBuffer0A 26
+---@field EMM_GBuffer1RGB 27
+---@field EMM_GBuffer1A 28
+---@field EMM_ConeAODir 29
+---@field EMM_ConeAOAngle 30
+---@field EMM_VelocityBuffer 31
+---@field EMM_Depth 32
+---@field EMM_UvDensity 33
+---@field EMM_ToneMappingLuminance 34
+---@field EMM_ToneMappingThresholds 35
+---@field EMM_LuminanceSpotMeter 36
+---@field EMM_IlluminanceMeter 37
+---@field EMM_DiffuseLight 38
+---@field EMM_SpecularLight 39
+---@field EMM_ClayView 40
+---@field EMM_PureGreyscaleView 41
+---@field EMM_PureWhiteView 42
+---@field EMM_PureReflectionView 43
+---@field EMM_PureGreyReflectionView 44
+---@field EMM_Cascades 45
+---@field EMM_MaskShadow 46
+---@field EMM_MaskSSAO 47
+---@field EMM_MaskTXAA 48
+---@field EMM_MaskDistortion 49
+---@field EMM_MaskInvalidation 50
+---@field EMM_MaskReactivityFSR2 51
+---@field EMM_SurfaceCacheID 52
+---@field EMM_SurfaceCacheResolution 53
+---@field EMM_LightChannels 54
+---@field EMM_DebugHitProxies 55
+---@field EMM_DebugShadowsMode 56
+---@field EMM_RayTracingDebug 57
+---@field EMM_SSRResults 58
+---@field EMM_SSRFade 59
+---@field EMM_DepthOfFieldCoC 60
+---@field EMM_MultilayeredMode 61
+---@field EMM_MultilayeredProxy 62
+---@field EMM_MultilayeredUniqueMasks 63
+---@field EMM_MultilayeredMaskWeight 64
+---@field EMM_LocalShadowsVariance 65
+---@field EMM_LocalShadowsRangesOverlapDynamicsOnly 66
+---@field EMM_LocalShadowsRangesOverlapStaticsOnly 67
+---@field EMM_LODColoring 68
+---@field EMM_TodvisRuntimePreview 69
+---@field EMM_TodvisBakePreview 70
+---@field EMM_RainMask 71
+---@field EMM_VolFogDensity 72
+---@field EMM_PBRValidationBaseColor 73
+---@field EMM_PBRValidationMetalness 74
+---@field EMM_GreyPlayMode 75
+---@field EMM_RTXDIDiffuseRaw 76
+---@field EMM_RTXDISpecularRaw 77
+---@field EMM_RTXDIDiffuseDenoised 78
+---@field EMM_RTXDISpecularDenoised 79
+---@field EMM_RTXDIBRDFFactor 80
+---@field EMM_IndirectDiffuseRaw 81
+---@field EMM_IndirectSpecularRaw 82
+---@field EMM_IndirectDiffuseDenoised 83
+---@field EMM_IndirectSpecularDenoised 84
 EEnvManagerModifier = {}

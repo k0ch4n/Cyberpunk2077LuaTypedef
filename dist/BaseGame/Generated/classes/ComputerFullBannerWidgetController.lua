@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ComputerFullBannerWidgetController: ComputerBannerWidgetController
----@field protected ["closeButtonWidget"] inkWidgetReference
+---@field protected closeButtonWidget inkWidgetReference
 ComputerFullBannerWidgetController = {}
 
 ---@param fields? table

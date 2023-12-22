@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EMeasurementSystem: Enum
----@field ["Metric"] EMeasurementSystem 0
----@field ["Imperial"] EMeasurementSystem 1
+---@field Metric 0
+---@field Imperial 1
 EMeasurementSystem = {}

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ItemLabelType: Enum
----@field ["New"] ItemLabelType 0
----@field ["Quest"] ItemLabelType 1
----@field ["Money"] ItemLabelType 2
----@field ["Equipped"] ItemLabelType 3
----@field ["Owned"] ItemLabelType 4
----@field ["Buyback"] ItemLabelType 5
----@field ["DLCNew"] ItemLabelType 6
+---@field New 0
+---@field Quest 1
+---@field Money 2
+---@field Equipped 3
+---@field Owned 4
+---@field Buyback 5
+---@field DLCNew 6
 ItemLabelType = {}

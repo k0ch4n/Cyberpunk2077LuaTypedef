@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class NcartTimetableInkGameController: DeviceInkGameControllerBase
----@field private ["defaultUI"] inkCanvasWidget
----@field private ["mainDisplayWidget"] inkVideoWidget
----@field private ["counterWidget"] inkTextWidget
----@field private ["trainImage"] inkImageWidget
----@field private ["cachedLine"] Int32
----@field private ["lineAIcon"] inkImageWidgetReference
----@field private ["lineBIcon"] inkImageWidgetReference
----@field private ["lineCIcon"] inkImageWidgetReference
----@field private ["lineDIcon"] inkImageWidgetReference
----@field private ["lineEIcon"] inkImageWidgetReference
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
----@field private ["onTimeToDepartChangedListener"] redCallbackObject
----@field private ["onCurrentLineNumberChangedListener"] redCallbackObject
----@field private ["animProxy"] inkanimProxy
+---@field private defaultUI inkCanvasWidget
+---@field private mainDisplayWidget inkVideoWidget
+---@field private counterWidget inkTextWidget
+---@field private trainImage inkImageWidget
+---@field private cachedLine Int32
+---@field private lineAIcon inkImageWidgetReference
+---@field private lineBIcon inkImageWidgetReference
+---@field private lineCIcon inkImageWidgetReference
+---@field private lineDIcon inkImageWidgetReference
+---@field private lineEIcon inkImageWidgetReference
+---@field private onGlitchingStateChangedListener redCallbackObject
+---@field private onTimeToDepartChangedListener redCallbackObject
+---@field private onCurrentLineNumberChangedListener redCallbackObject
+---@field private animProxy inkanimProxy
 NcartTimetableInkGameController = {}
 
 ---@param fields? table

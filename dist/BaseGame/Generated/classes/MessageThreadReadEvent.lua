@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MessageThreadReadEvent: redEvent
----@field public ["parentHash"] Int32
+---@field public parentHash Int32
 MessageThreadReadEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationOptionVersionPrereq
----@field public ["optionName"] CName
----@field public ["definitionName"] CName
+---@field public optionName CName
+---@field public definitionName CName
 gameuiCharacterCustomizationOptionVersionPrereq = {}
 
 ---@param fields? table

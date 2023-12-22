@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class vehicleBaseObject: gameObject
----@field public ["archetype"] AIArchetype
----@field public ["isVehicleOnStateLocked"] Bool
----@field private ["vehicleComponent"] VehicleComponent
----@field private ["uiComponent"] WorldWidgetComponent
----@field protected ["crowdMemberComponent"] CrowdMemberBaseComponent
----@field private ["attitudeAgent"] gameAttitudeAgent
----@field private ["hitTimestamp"] Float
----@field private ["drivingTrafficPattern"] CName
----@field private ["onPavement"] Bool
----@field private ["inTrafficLane"] Bool
----@field private ["timesSentReactionEvent"] Int32
----@field private ["timesToResendHandleReactionEvent"] Int32
----@field private ["hasReactedToStimuli"] Bool
----@field private ["gotStuckIncrement"] Int32
----@field private ["waitForPassengersToSpawnEventDelayID"] gameDelayID
----@field private ["triggerPanicDrivingEventDelayID"] gameDelayID
----@field private ["reactionTriggerEvent"] HandleReactionEvent
----@field private ["fearInside"] Bool
----@field private ["vehicleUpsideDown"] Bool
----@field private ["isQhackUploadInProgress"] Bool
----@field private ["hitByPlayer"] Bool
----@field private ["currentlyUploadingAction"] ScriptableDeviceAction
----@field private ["bumpedRecently"] Int32
----@field private ["bumpTimestamp"] Float
----@field private ["minUnconsciousImpact"] Float
----@field private ["driverUnconscious"] Bool
----@field private ["abandoned"] Bool
+---@field public archetype AIArchetype
+---@field public isVehicleOnStateLocked Bool
+---@field private vehicleComponent VehicleComponent
+---@field private uiComponent WorldWidgetComponent
+---@field protected crowdMemberComponent CrowdMemberBaseComponent
+---@field private attitudeAgent gameAttitudeAgent
+---@field private hitTimestamp Float
+---@field private drivingTrafficPattern CName
+---@field private onPavement Bool
+---@field private inTrafficLane Bool
+---@field private timesSentReactionEvent Int32
+---@field private timesToResendHandleReactionEvent Int32
+---@field private hasReactedToStimuli Bool
+---@field private gotStuckIncrement Int32
+---@field private waitForPassengersToSpawnEventDelayID gameDelayID
+---@field private triggerPanicDrivingEventDelayID gameDelayID
+---@field private reactionTriggerEvent HandleReactionEvent
+---@field private fearInside Bool
+---@field private vehicleUpsideDown Bool
+---@field private isQhackUploadInProgress Bool
+---@field private hitByPlayer Bool
+---@field private currentlyUploadingAction ScriptableDeviceAction
+---@field private bumpedRecently Int32
+---@field private bumpTimestamp Float
+---@field private minUnconsciousImpact Float
+---@field private driverUnconscious Bool
+---@field private abandoned Bool
 vehicleBaseObject = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryItemDisplayData
----@field public ["itemID"] gameItemID
----@field public ["equipmentArea"] gamedataEquipmentArea
----@field public ["slotIndex"] Int32
+---@field public itemID gameItemID
+---@field public equipmentArea gamedataEquipmentArea
+---@field public slotIndex Int32
 InventoryItemDisplayData = {}
 
 ---@param fields? table

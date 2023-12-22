@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldNavigationNode: worldNode
----@field public ["navigationTileResource"] worldNavigationTileResource
+---@field public navigationTileResource worldNavigationTileResource
 worldNavigationNode = {}
 
 ---@param fields? table

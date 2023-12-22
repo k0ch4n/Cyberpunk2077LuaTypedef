@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldWorldListResource: CResource
----@field public ["worlds"] worldWorldListResourceEntry[]
+---@field public worlds worldWorldListResourceEntry[]
 worldWorldListResource = {}
 
 ---@param fields? table

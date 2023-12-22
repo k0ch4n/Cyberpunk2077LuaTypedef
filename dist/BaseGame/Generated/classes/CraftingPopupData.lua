@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CraftingPopupData: inkGameNotificationData
----@field public ["itemTooltipData"] InventoryTooltipData
----@field public ["craftingCommand"] CraftingCommands
+---@field public itemTooltipData InventoryTooltipData
+---@field public craftingCommand CraftingCommands
 CraftingPopupData = {}
 
 ---@param fields? table

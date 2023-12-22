@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAdditionalFloatTrackContainer
----@field public ["entries"] animAdditionalFloatTrackEntry[]
----@field public ["overwriteExistingValues"] Bool
+---@field public entries animAdditionalFloatTrackEntry[]
+---@field public overwriteExistingValues Bool
 animAdditionalFloatTrackContainer = {}
 
 ---@param fields? table

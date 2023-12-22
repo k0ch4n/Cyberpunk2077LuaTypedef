@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetAggressiveMask: redEvent
----@field public ["isAggressive"] Bool
+---@field public isAggressive Bool
 gameSetAggressiveMask = {}
 
 ---@param fields? table

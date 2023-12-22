@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questSetInspectMode_NodeType: questIInteractiveObjectManagerNodeType
----@field public ["objectID"] String
----@field public ["startingOffset"] Float
----@field public ["zoomOffset"] Float
----@field public ["timeInterval"] Float
+---@field public objectID String
+---@field public startingOffset Float
+---@field public zoomOffset Float
+---@field public timeInterval Float
 questSetInspectMode_NodeType = {}
 
 ---@param fields? table

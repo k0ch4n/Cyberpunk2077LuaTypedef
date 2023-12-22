@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGroupingLimitMetadata: audioAudioMetadata
----@field public ["limit"] Float
+---@field public limit Float
 audioGroupingLimitMetadata = {}
 
 ---@param fields? table

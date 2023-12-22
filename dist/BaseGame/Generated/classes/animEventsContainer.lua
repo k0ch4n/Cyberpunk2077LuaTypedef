@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animEventsContainer: ISerializable
----@field public ["events"] animAnimEvent[]
+---@field public events animAnimEvent[]
 animEventsContainer = {}
 
 ---@param fields? table

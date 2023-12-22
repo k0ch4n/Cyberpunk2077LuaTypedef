@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectSet: CResource
----@field public ["effects"] gameEffectDefinition[]
+---@field public effects gameEffectDefinition[]
 gameEffectSet = {}
 
 ---@param fields? table

@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class senseComponent: entIPlacedComponent
----@field public ["enableBeingDetectable"] Bool
----@field public ["visibleObject"] senseVisibleObject
----@field public ["sensorObject"] senseSensorObject
----@field public ["isEnabled"] Bool
----@field public ["forceDisableUI"] Bool
----@field private ["highLevelCb"] redCallbackObject
----@field private ["reactionCb"] redCallbackObject
----@field private ["wantedLevelChangedCb"] redCallbackObject
----@field private ["highLevelState"] gamedataNPCHighLevelState
----@field private ["mainPreset"] TweakDBID
----@field private ["secondaryPreset"] TweakDBID
----@field private ["puppetBlackboard"] gameIBlackboard
----@field private ["uiWantedBarBB"] gameIBlackboard
----@field private ["hideUIElements"] Bool
----@field private ["enabledSenses"] Bool
----@field private ["shouldStartDetectingPlayerCached"] Bool
----@field private ["wasPlayerLastReactionTarget"] Bool
----@field private ["logSource"] ESenseLogSource
----@field private ["playerTakedownStateCallbackID"] redCallbackObject
----@field private ["playerUpperBodyStateCallbackID"] redCallbackObject
----@field private ["playerCarryingStateCallbackID"] redCallbackObject
----@field private ["playerInPerception"] PlayerPuppet
+---@field public enableBeingDetectable Bool
+---@field public visibleObject senseVisibleObject
+---@field public sensorObject senseSensorObject
+---@field public isEnabled Bool
+---@field public forceDisableUI Bool
+---@field private highLevelCb redCallbackObject
+---@field private reactionCb redCallbackObject
+---@field private wantedLevelChangedCb redCallbackObject
+---@field private highLevelState gamedataNPCHighLevelState
+---@field private mainPreset TweakDBID
+---@field private secondaryPreset TweakDBID
+---@field private puppetBlackboard gameIBlackboard
+---@field private uiWantedBarBB gameIBlackboard
+---@field private hideUIElements Bool
+---@field private enabledSenses Bool
+---@field private shouldStartDetectingPlayerCached Bool
+---@field private wasPlayerLastReactionTarget Bool
+---@field private logSource ESenseLogSource
+---@field private playerTakedownStateCallbackID redCallbackObject
+---@field private playerUpperBodyStateCallbackID redCallbackObject
+---@field private playerCarryingStateCallbackID redCallbackObject
+---@field private playerInPerception PlayerPuppet
 senseComponent = {}
 
 ---@param fields? table

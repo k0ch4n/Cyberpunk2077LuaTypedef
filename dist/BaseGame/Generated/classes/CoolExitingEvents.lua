@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CoolExitingEvents: ExitingEvents
----@field public ["exitMomentum"] Vector4
----@field public ["coolExitMagnitude"] vehicleCoolExitImpulseLevel
----@field public ["willEquipMeleeWeapon"] Bool
----@field public ["cwArmsEquipRequested"] Bool
----@field public ["cwArmsEquipCompleted"] Bool
----@field public ["vehicleInTPP"] Bool
----@field public ["vehicleInTPPCallback"] redCallbackObject
+---@field public exitMomentum Vector4
+---@field public coolExitMagnitude vehicleCoolExitImpulseLevel
+---@field public willEquipMeleeWeapon Bool
+---@field public cwArmsEquipRequested Bool
+---@field public cwArmsEquipCompleted Bool
+---@field public vehicleInTPP Bool
+---@field public vehicleInTPPCallback redCallbackObject
 CoolExitingEvents = {}
 
 ---@param fields? table

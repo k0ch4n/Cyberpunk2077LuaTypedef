@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPhoneStatus: Enum
----@field ["Available"] questPhoneStatus 0
----@field ["NotAvailable"] questPhoneStatus 1
----@field ["Busy"] questPhoneStatus 2
----@field ["Minimized"] questPhoneStatus 3
+---@field Available 0
+---@field NotAvailable 1
+---@field Busy 2
+---@field Minimized 3
 questPhoneStatus = {}

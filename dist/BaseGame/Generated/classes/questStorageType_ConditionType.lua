@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questStorageType_ConditionType: questISystemConditionType
----@field public ["storage"] questStorage
+---@field public storage questStorage
 questStorageType_ConditionType = {}
 
 ---@param fields? table

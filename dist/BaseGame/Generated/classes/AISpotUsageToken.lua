@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AISpotUsageToken
----@field public ["usedSpotId"] worldGlobalNodeID
----@field public ["spotUserId"] entEntityID
+---@field public usedSpotId worldGlobalNodeID
+---@field public spotUserId entEntityID
 AISpotUsageToken = {}
 
 ---@param fields? table

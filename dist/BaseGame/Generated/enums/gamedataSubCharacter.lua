@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamedataSubCharacter: Enum
----@field ["Flathead"] gamedataSubCharacter 0
----@field ["Count"] gamedataSubCharacter 1
----@field ["Invalid"] gamedataSubCharacter 2
+---@field Flathead 0
+---@field Count 1
+---@field Invalid 2
 gamedataSubCharacter = {}

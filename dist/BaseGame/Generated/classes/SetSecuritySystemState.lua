@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetSecuritySystemState: redEvent
----@field public ["state"] ESecuritySystemState
+---@field public state ESecuritySystemState
 SetSecuritySystemState = {}
 
 ---@param fields? table

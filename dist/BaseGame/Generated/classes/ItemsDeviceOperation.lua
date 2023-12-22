@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemsDeviceOperation: DeviceOperationBase
----@field public ["items"] SInventoryOperationData[]
+---@field public items SInventoryOperationData[]
 ItemsDeviceOperation = {}
 
 ---@param fields? table

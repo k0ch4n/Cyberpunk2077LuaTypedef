@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ApplyQuickhackEffector: AbstractApplyQuickhackEffector
----@field public ["quickhackObjectActionID"] TweakDBID
----@field public ["quickhackObjectActionRecord"] gamedataObjectAction_Record
----@field public ["MaxUploadChance"] Float
----@field public ["uploadTime"] Float
+---@field public quickhackObjectActionID TweakDBID
+---@field public quickhackObjectActionRecord gamedataObjectAction_Record
+---@field public MaxUploadChance Float
+---@field public uploadTime Float
 ApplyQuickhackEffector = {}
 
 ---@param fields? table

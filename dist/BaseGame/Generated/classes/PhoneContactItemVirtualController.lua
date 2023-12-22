@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class PhoneContactItemVirtualController: inkVirtualCompoundItemController
----@field protected ["label"] inkTextWidgetReference
----@field private ["preview"] inkTextWidgetReference
----@field private ["msgCount"] inkTextWidgetReference
----@field private ["msgIndicator"] inkWidgetReference
----@field private ["questFlag"] inkWidgetReference
----@field private ["regFlag"] inkWidgetReference
----@field private ["replyAlertIcon"] inkWidgetReference
----@field private ["callInputHint"] inkWidgetReference
----@field private ["chatInputHint"] inkWidgetReference
----@field private ["separtor"] inkWidgetReference
----@field protected ["animProxySelection"] inkanimProxy
----@field private ["animProxyHide"] inkanimProxy
----@field protected ["contactData"] ContactData
----@field protected ["pulse"] PulseAnimation
----@field private ["isQuestImportant"] Bool
----@field private ["isUnread"] Bool
----@field private ["isCallingEnabled"] Bool
----@field protected ["root"] inkWidget
+---@field protected label inkTextWidgetReference
+---@field private preview inkTextWidgetReference
+---@field private msgCount inkTextWidgetReference
+---@field private msgIndicator inkWidgetReference
+---@field private questFlag inkWidgetReference
+---@field private regFlag inkWidgetReference
+---@field private replyAlertIcon inkWidgetReference
+---@field private callInputHint inkWidgetReference
+---@field private chatInputHint inkWidgetReference
+---@field private separtor inkWidgetReference
+---@field protected animProxySelection inkanimProxy
+---@field private animProxyHide inkanimProxy
+---@field protected contactData ContactData
+---@field protected pulse PulseAnimation
+---@field private isQuestImportant Bool
+---@field private isUnread Bool
+---@field private isCallingEnabled Bool
+---@field protected root inkWidget
 PhoneContactItemVirtualController = {}
 
 ---@param fields? table

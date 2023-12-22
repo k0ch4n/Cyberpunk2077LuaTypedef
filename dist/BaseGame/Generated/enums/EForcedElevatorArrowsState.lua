@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EForcedElevatorArrowsState: Enum
----@field ["Disabled"] EForcedElevatorArrowsState 0
----@field ["ArrowsUp"] EForcedElevatorArrowsState 1
----@field ["ArrowsDown"] EForcedElevatorArrowsState 2
+---@field Disabled 0
+---@field ArrowsUp 1
+---@field ArrowsDown 2
 EForcedElevatorArrowsState = {}

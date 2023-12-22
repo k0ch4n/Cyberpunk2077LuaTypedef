@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class IntercomControllerPS: ScriptableDeviceComponentPS
----@field protected ["isCalling"] Bool
----@field protected ["sceneStarted"] Bool
----@field protected ["endingCall"] Bool
----@field private ["forceLookAt"] entEntityID
----@field private ["forceFollow"] Bool
+---@field protected isCalling Bool
+---@field protected sceneStarted Bool
+---@field protected endingCall Bool
+---@field private forceLookAt entEntityID
+---@field private forceFollow Bool
 IntercomControllerPS = {}
 
 ---@param fields? table

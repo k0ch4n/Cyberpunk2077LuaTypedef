@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PingSquadEffector: gameEffector
----@field public ["squadMembers"] entEntityID[]
----@field public ["owner"] gameObject
----@field public ["oldSquadAttitude"] gameAttitudeAgent
----@field public ["quickhackLevel"] Float
----@field public ["data"] FocusForcedHighlightData
----@field public ["squadName"] CName
+---@field public squadMembers entEntityID[]
+---@field public owner gameObject
+---@field public oldSquadAttitude gameAttitudeAgent
+---@field public quickhackLevel Float
+---@field public data FocusForcedHighlightData
+---@field public squadName CName
 PingSquadEffector = {}
 
 ---@param fields? table

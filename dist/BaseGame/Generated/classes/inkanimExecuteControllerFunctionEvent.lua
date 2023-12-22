@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkanimExecuteControllerFunctionEvent: inkanimEvent
----@field public ["controllerType"] CName
----@field public ["eventName"] CName
----@field public ["params"] String
+---@field public controllerType CName
+---@field public eventName CName
+---@field public params String
 inkanimExecuteControllerFunctionEvent = {}
 
 ---@param fields? table

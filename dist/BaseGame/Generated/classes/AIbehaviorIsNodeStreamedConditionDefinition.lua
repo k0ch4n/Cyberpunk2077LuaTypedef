@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorIsNodeStreamedConditionDefinition: AIbehaviorConditionDefinition
----@field public ["nodeRef"] AIArgumentMapping
+---@field public nodeRef AIArgumentMapping
 AIbehaviorIsNodeStreamedConditionDefinition = {}
 
 ---@param fields? table

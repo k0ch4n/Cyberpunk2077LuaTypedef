@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Double_Property
----@field public ["property"] Double
+---@field public property Double
 Sample_Replicated_Double_Property = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RemoveItemPart: gameScriptableSystemRequest
----@field public ["obj"] gameObject
----@field public ["baseItem"] gameItemID
----@field public ["slotToEmpty"] TweakDBID
+---@field public obj gameObject
+---@field public baseItem gameItemID
+---@field public slotToEmpty TweakDBID
 RemoveItemPart = {}
 
 ---@param fields? table

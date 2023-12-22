@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class IntervalCaller: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["preventionSystem"] PreventionSystem
----@field public ["request"] gameScriptableSystemRequest
----@field private ["intervalSeconds"] Float
----@field private ["selfDelayID"] gameDelayID
+---@field public preventionSystem PreventionSystem
+---@field public request gameScriptableSystemRequest
+---@field private intervalSeconds Float
+---@field private selfDelayID gameDelayID
 IntervalCaller = {}
 
 ---@param fields? table

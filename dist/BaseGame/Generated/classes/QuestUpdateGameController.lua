@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class QuestUpdateGameController: gameuiHUDGameController
----@field private ["header"] inkTextWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["data"] QuestUpdateUserData
----@field private ["owner"] gameObject
----@field private ["journalMgr"] gameJournalManager
+---@field private header inkTextWidgetReference
+---@field private label inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private data QuestUpdateUserData
+---@field private owner gameObject
+---@field private journalMgr gameJournalManager
 QuestUpdateGameController = {}
 
 ---@param fields? table

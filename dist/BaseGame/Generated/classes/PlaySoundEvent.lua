@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlaySoundEvent: MusicSettings
----@field protected ["soundEvent"] CName
+---@field protected soundEvent CName
 PlaySoundEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ESpaceFillMode: Enum
----@field ["JustifyLeft"] ESpaceFillMode 0
----@field ["JustifyRight"] ESpaceFillMode 1
----@field ["JustifyCenter"] ESpaceFillMode 2
+---@field JustifyLeft 0
+---@field JustifyRight 1
+---@field JustifyCenter 2
 ESpaceFillMode = {}

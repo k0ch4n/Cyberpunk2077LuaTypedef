@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAddRemoveContact_NodeType: questIPhoneManagerNodeType
----@field public ["params"] questChangeContactList_NodeTypeParams[]
+---@field public params questChangeContactList_NodeTypeParams[]
 questAddRemoveContact_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiHUDVideoPlayerController: gameuiHUDGameController
----@field public ["playOnHud"] Bool
+---@field public playOnHud Bool
 gameuiHUDVideoPlayerController = {}
 
 ---@param fields? table

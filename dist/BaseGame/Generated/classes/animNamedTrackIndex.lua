@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animNamedTrackIndex
----@field public ["name"] CName
+---@field public name CName
 animNamedTrackIndex = {}
 
 ---@param fields? table

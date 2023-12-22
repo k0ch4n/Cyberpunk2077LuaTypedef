@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemInventoryMiniGrid: inkWidgetLogicController
----@field private ["gridList"] inkCompoundWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field private ["gridWidth"] Int32
----@field private ["gridData"] InventoryItemDisplay[]
+---@field private gridList inkCompoundWidgetReference
+---@field private label inkTextWidgetReference
+---@field private gridWidth Int32
+---@field private gridData InventoryItemDisplay[]
 ItemInventoryMiniGrid = {}
 
 ---@param fields? table

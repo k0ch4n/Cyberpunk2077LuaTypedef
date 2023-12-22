@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateFastTravelPointRecordRequest: gameScriptableSystemRequest
----@field public ["markerRef"] NodeRef
+---@field public markerRef NodeRef
 UpdateFastTravelPointRecordRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class megatronFullAutoController: AmmoLogicController
----@field private ["ammoCountText"] inkTextWidget
----@field private ["ammoBar"] inkImageWidget
+---@field private ammoCountText inkTextWidget
+---@field private ammoBar inkImageWidget
 megatronFullAutoController = {}
 
 ---@param fields? table

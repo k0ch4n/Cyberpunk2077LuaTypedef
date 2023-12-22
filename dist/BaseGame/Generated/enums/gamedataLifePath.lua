@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataLifePath: Enum
----@field ["Corporate"] gamedataLifePath 0
----@field ["Nomad"] gamedataLifePath 1
----@field ["StreetKid"] gamedataLifePath 2
----@field ["Count"] gamedataLifePath 3
----@field ["Invalid"] gamedataLifePath 4
+---@field Corporate 0
+---@field Nomad 1
+---@field StreetKid 2
+---@field Count 3
+---@field Invalid 4
 gamedataLifePath = {}

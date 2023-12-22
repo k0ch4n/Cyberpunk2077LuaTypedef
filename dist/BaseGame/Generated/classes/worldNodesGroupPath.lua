@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldNodesGroupPath
----@field public ["elements"] CName[]
+---@field public elements CName[]
 worldNodesGroupPath = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MeleeAttackCommandTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIMeleeAttackCommand
----@field protected ["threatPersistenceSource"] gamedataAIThreatPersistenceSource_Record
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIMeleeAttackCommand
+---@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
 MeleeAttackCommandTask = {}
 
 ---@param fields? table

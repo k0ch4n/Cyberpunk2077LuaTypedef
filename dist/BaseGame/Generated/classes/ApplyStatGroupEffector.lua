@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ApplyStatGroupEffector: gameEffector
----@field public ["target"] gameStatsObjectID
----@field public ["record"] TweakDBID
----@field public ["applicationTarget"] CName
----@field public ["modGroupID"] Uint64
----@field public ["stackCount"] Uint8
----@field public ["removeWithEffector"] Bool
----@field public ["reapplyOnWeaponChange"] Bool
----@field public ["owner"] gameObject
----@field public ["ownerSlotCallback"] ApplyStatGroupEffectorCallback
----@field public ["ownerSlotListener"] gameAttachmentSlotsScriptListener
+---@field public target gameStatsObjectID
+---@field public record TweakDBID
+---@field public applicationTarget CName
+---@field public modGroupID Uint64
+---@field public stackCount Uint8
+---@field public removeWithEffector Bool
+---@field public reapplyOnWeaponChange Bool
+---@field public owner gameObject
+---@field public ownerSlotCallback ApplyStatGroupEffectorCallback
+---@field public ownerSlotListener gameAttachmentSlotsScriptListener
 ApplyStatGroupEffector = {}
 
 ---@param fields? table

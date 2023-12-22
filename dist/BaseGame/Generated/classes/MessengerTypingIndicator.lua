@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MessengerTypingIndicator: inkWidgetLogicController
----@field private ["container"] inkWidgetReference
----@field private ["nameText"] inkTextWidgetReference
----@field private ["textParams"] textTextParameterSet
+---@field private container inkWidgetReference
+---@field private nameText inkTextWidgetReference
+---@field private textParams textTextParameterSet
 MessengerTypingIndicator = {}
 
 ---@param fields? table

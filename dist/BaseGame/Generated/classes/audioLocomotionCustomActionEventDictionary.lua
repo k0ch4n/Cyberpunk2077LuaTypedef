@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioLocomotionCustomActionEventDictionary: audioInlinedAudioMetadata
----@field public ["entries"] audioLocomotionCustomActionEventDictionaryItem[]
----@field public ["entryType"] audioLocomotionCustomActionEventDictionaryItem
+---@field public entries audioLocomotionCustomActionEventDictionaryItem[]
+---@field public entryType audioLocomotionCustomActionEventDictionaryItem
 audioLocomotionCustomActionEventDictionary = {}
 
 ---@param fields? table

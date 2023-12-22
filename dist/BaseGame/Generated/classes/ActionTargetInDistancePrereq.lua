@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ActionTargetInDistancePrereq: gameIScriptablePrereq
----@field public ["targetRecord"] gamedataAIActionTarget_Record
----@field public ["distance"] Float
----@field public ["distanceStat"] gamedataStatType
----@field public ["invert"] Bool
+---@field public targetRecord gamedataAIActionTarget_Record
+---@field public distance Float
+---@field public distanceStat gamedataStatType
+---@field public invert Bool
 ActionTargetInDistancePrereq = {}
 
 ---@param fields? table

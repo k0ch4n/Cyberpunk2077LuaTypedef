@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class InterpolatorsShowcaseController: inkWidgetLogicController
----@field public ["interpolationType"] inkanimInterpolationType
----@field public ["interpolationMode"] inkanimInterpolationMode
----@field private ["overlay"] inkWidget
----@field private ["heightBar"] inkWidget
----@field private ["widthBar"] inkWidget
----@field private ["graphPointer"] inkWidget
----@field private ["counterText"] inkTextWidget
----@field private ["sizeWidget"] inkWidget
----@field private ["rotationWidget"] inkWidget
----@field private ["marginWidget"] inkWidget
----@field private ["colorWidget"] inkWidget
----@field private ["sizeAnim"] inkanimDefinition
----@field private ["rotationAnim"] inkanimDefinition
----@field private ["marginAnim"] inkanimDefinition
----@field private ["colorAnim"] inkanimDefinition
----@field private ["followTimelineAnim"] inkanimDefinition
----@field private ["interpolateAnim"] inkanimDefinition
----@field private ["startMargin"] inkMargin
----@field private ["animLength"] Float
----@field private ["animConstructor"] AnimationsConstructor
+---@field public interpolationType inkanimInterpolationType
+---@field public interpolationMode inkanimInterpolationMode
+---@field private overlay inkWidget
+---@field private heightBar inkWidget
+---@field private widthBar inkWidget
+---@field private graphPointer inkWidget
+---@field private counterText inkTextWidget
+---@field private sizeWidget inkWidget
+---@field private rotationWidget inkWidget
+---@field private marginWidget inkWidget
+---@field private colorWidget inkWidget
+---@field private sizeAnim inkanimDefinition
+---@field private rotationAnim inkanimDefinition
+---@field private marginAnim inkanimDefinition
+---@field private colorAnim inkanimDefinition
+---@field private followTimelineAnim inkanimDefinition
+---@field private interpolateAnim inkanimDefinition
+---@field private startMargin inkMargin
+---@field private animLength Float
+---@field private animConstructor AnimationsConstructor
 InterpolatorsShowcaseController = {}
 
 ---@param fields? table

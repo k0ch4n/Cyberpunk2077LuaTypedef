@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communityPatrolInitializer: communitySpawnInitializer
----@field public ["patrolRole"] AIPatrolRole
+---@field public patrolRole AIPatrolRole
 communityPatrolInitializer = {}
 
 ---@param fields? table

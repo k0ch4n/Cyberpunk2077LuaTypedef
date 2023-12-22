@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateLinkedClueskRequest: gameScriptableSystemRequest
----@field public ["linkedCluekData"] LinkedFocusClueData
+---@field public linkedCluekData LinkedFocusClueData
 UpdateLinkedClueskRequest = {}
 
 ---@param fields? table

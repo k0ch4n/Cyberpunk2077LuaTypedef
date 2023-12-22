@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_PlayerMovement: animAnimFeature_Movement
----@field public ["facingDirection"] Vector4
----@field public ["verticalSpeed"] Float
----@field public ["movementDirectionHorizontalAngle"] Float
----@field public ["inAir"] Bool
----@field public ["standingTerrainAngle"] Float
+---@field public facingDirection Vector4
+---@field public verticalSpeed Float
+---@field public movementDirectionHorizontalAngle Float
+---@field public inAir Bool
+---@field public standingTerrainAngle Float
 animAnimFeature_PlayerMovement = {}
 
 ---@param fields? table

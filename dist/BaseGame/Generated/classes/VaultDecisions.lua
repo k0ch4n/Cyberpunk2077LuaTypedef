@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VaultDecisions: LocomotionGroundDecisions
----@field public ["callbackIDs"] redCallbackObject[]
----@field public ["stateBodyDone"] Bool
----@field public ["shouldDisableEnterCondition"] Bool
+---@field public callbackIDs redCallbackObject[]
+---@field public stateBodyDone Bool
+---@field public shouldDisableEnterCondition Bool
 VaultDecisions = {}
 
 ---@param fields? table

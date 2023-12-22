@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class damageSystemLogFlags: Enum
----@field ["GENERAL"] damageSystemLogFlags 1
----@field ["ASSERT"] damageSystemLogFlags 2
----@field ["WEAKSPOTS"] damageSystemLogFlags 4
+---@field GENERAL 1
+---@field ASSERT 2
+---@field WEAKSPOTS 4
 damageSystemLogFlags = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCInitTask: AIbehaviortaskStackScript
----@field public ["preventSkippingDeathAnimation"] Bool
+---@field public preventSkippingDeathAnimation Bool
 NPCInitTask = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entRagdollImpactEvent: redEvent
----@field public ["otherEntity"] entEntity
----@field public ["triggeredSimulation"] Bool
----@field public ["impactPoints"] entRagdollImpactPointData[]
+---@field public otherEntity entEntity
+---@field public triggeredSimulation Bool
+---@field public impactPoints entRagdollImpactPointData[]
 entRagdollImpactEvent = {}
 
 ---@param fields? table

@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class RadialMenuHubLogicController: inkWidgetLogicController
----@field private ["menuObject"] inkWidgetReference
----@field private ["btnCrafting"] inkWidgetReference
----@field private ["btnPerks"] inkWidgetReference
----@field private ["btnStats"] inkWidgetReference
----@field private ["btnInventory"] inkWidgetReference
----@field private ["btnBackpack"] inkWidgetReference
----@field private ["btnCyberware"] inkWidgetReference
----@field private ["btnMap"] inkWidgetReference
----@field private ["btnJournal"] inkWidgetReference
----@field private ["btnPhone"] inkWidgetReference
----@field private ["btnTarot"] inkWidgetReference
----@field private ["btnShard"] inkWidgetReference
----@field private ["btnCodex"] inkWidgetReference
----@field private ["panelInventory"] inkWidgetReference
----@field private ["panelMap"] inkWidgetReference
----@field private ["panelJournal"] inkWidgetReference
----@field private ["panelCharacter"] inkWidgetReference
----@field private ["mouseCollider"] inkWidgetReference
----@field private ["debugText"] inkTextWidgetReference
----@field private ["menusData"] MenuDataBuilder
----@field private ["tooltipsManager"] gameuiTooltipsManager
----@field private ["tooltipsManagerRef"] inkWidgetReference
----@field private ["windowSize"] Vector2
----@field private ["previousMenuElement"] RadialHubMenuElement
----@field private ["hoveredButtons"] Int32[]
----@field private ["isActive"] Bool
----@field private ["timeSkipOpened"] Bool
----@field private ["panelHoverOverAnimProxy"] inkanimProxy
----@field private ["panelHoverOutAnimProxy"] inkanimProxy
+---@field private menuObject inkWidgetReference
+---@field private btnCrafting inkWidgetReference
+---@field private btnPerks inkWidgetReference
+---@field private btnStats inkWidgetReference
+---@field private btnInventory inkWidgetReference
+---@field private btnBackpack inkWidgetReference
+---@field private btnCyberware inkWidgetReference
+---@field private btnMap inkWidgetReference
+---@field private btnJournal inkWidgetReference
+---@field private btnPhone inkWidgetReference
+---@field private btnTarot inkWidgetReference
+---@field private btnShard inkWidgetReference
+---@field private btnCodex inkWidgetReference
+---@field private panelInventory inkWidgetReference
+---@field private panelMap inkWidgetReference
+---@field private panelJournal inkWidgetReference
+---@field private panelCharacter inkWidgetReference
+---@field private mouseCollider inkWidgetReference
+---@field private debugText inkTextWidgetReference
+---@field private menusData MenuDataBuilder
+---@field private tooltipsManager gameuiTooltipsManager
+---@field private tooltipsManagerRef inkWidgetReference
+---@field private windowSize Vector2
+---@field private previousMenuElement RadialHubMenuElement
+---@field private hoveredButtons Int32[]
+---@field private isActive Bool
+---@field private timeSkipOpened Bool
+---@field private panelHoverOverAnimProxy inkanimProxy
+---@field private panelHoverOutAnimProxy inkanimProxy
 RadialMenuHubLogicController = {}
 
 ---@param fields? table

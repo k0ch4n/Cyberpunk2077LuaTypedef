@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimTextInterpolator: inkanimInterpolator
----@field public ["startValue"] Float
----@field public ["endValue"] Float
+---@field public startValue Float
+---@field public endValue Float
 inkanimTextInterpolator = {}
 
 ---@return Float

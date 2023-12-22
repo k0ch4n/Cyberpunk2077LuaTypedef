@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_UpdateLocaleRequest: gameScriptableSystemRequest
----@field public ["type"] CName
+---@field public type CName
 Codeware_Localization_UpdateLocaleRequest = {}
 
 ---@param fields? table

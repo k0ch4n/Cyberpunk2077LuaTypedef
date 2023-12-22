@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AbsolutePathSerializable
----@field public ["Path"] String
+---@field public Path String
 AbsolutePathSerializable = {}
 
 ---@param fields? table

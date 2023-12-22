@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class TerminalMainLayoutWidgetController: inkWidgetLogicController
----@field private ["thumbnailsListSlot"] inkWidgetReference
----@field private ["deviceSlot"] inkWidgetReference
----@field private ["returnButton"] inkWidgetReference
----@field private ["titleWidget"] inkTextWidgetReference
----@field private ["backgroundImage"] inkImageWidgetReference
----@field private ["backgroundImageTrace"] inkImageWidgetReference
----@field protected ["isInitialized"] Bool
----@field private ["main_canvas"] inkWidget
+---@field private thumbnailsListSlot inkWidgetReference
+---@field private deviceSlot inkWidgetReference
+---@field private returnButton inkWidgetReference
+---@field private titleWidget inkTextWidgetReference
+---@field private backgroundImage inkImageWidgetReference
+---@field private backgroundImageTrace inkImageWidgetReference
+---@field protected isInitialized Bool
+---@field private main_canvas inkWidget
 TerminalMainLayoutWidgetController = {}
 
 ---@param fields? table

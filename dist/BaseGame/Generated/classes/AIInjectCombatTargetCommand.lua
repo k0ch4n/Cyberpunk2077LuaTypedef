@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIInjectCombatTargetCommand: AICombatRelatedCommand
----@field public ["targetNodeRef"] NodeRef
----@field public ["targetPuppetRef"] gameEntityReference
----@field public ["duration"] Float
+---@field public targetNodeRef NodeRef
+---@field public targetPuppetRef gameEntityReference
+---@field public duration Float
 AIInjectCombatTargetCommand = {}
 
 ---@param fields? table

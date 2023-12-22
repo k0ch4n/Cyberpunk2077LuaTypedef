@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemDisplayContextData: IScriptable
----@field private ["player"] gameObject
----@field private ["displayContext"] gameItemDisplayContext
----@field private ["displayComparison"] Bool
----@field private ["tags"] CName[]
+---@field private player gameObject
+---@field private displayContext gameItemDisplayContext
+---@field private displayComparison Bool
+---@field private tags CName[]
 ItemDisplayContextData = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkMaskDataSource: Enum
----@field ["TextureAtlas"] inkMaskDataSource 0
----@field ["DynamicTexture"] inkMaskDataSource 1
+---@field TextureAtlas 0
+---@field DynamicTexture 1
 inkMaskDataSource = {}

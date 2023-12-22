@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleVehicleDoorInteractionState: Enum
----@field ["Available"] vehicleVehicleDoorInteractionState 0
----@field ["Locked"] vehicleVehicleDoorInteractionState 1
----@field ["Disabled"] vehicleVehicleDoorInteractionState 2
----@field ["QuestLocked"] vehicleVehicleDoorInteractionState 3
----@field ["Reserved"] vehicleVehicleDoorInteractionState 4
+---@field Available 0
+---@field Locked 1
+---@field Disabled 2
+---@field QuestLocked 3
+---@field Reserved 4
 vehicleVehicleDoorInteractionState = {}

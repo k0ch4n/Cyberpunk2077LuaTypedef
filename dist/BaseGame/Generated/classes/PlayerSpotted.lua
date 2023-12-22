@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PlayerSpotted: redEvent
----@field private ["comesFromNPC"] Bool
----@field private ["ownerID"] gamePersistentID
----@field private ["doesSee"] Bool
----@field private ["agentAreas"] SecurityAreaControllerPS[]
+---@field private comesFromNPC Bool
+---@field private ownerID gamePersistentID
+---@field private doesSee Bool
+---@field private agentAreas SecurityAreaControllerPS[]
 PlayerSpotted = {}
 
 ---@param fields? table

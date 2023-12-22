@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionSystemConfig
----@field public ["record"] TweakDBID
+---@field public record TweakDBID
 PreventionSystemConfig = {}
 
 ---@param fields? table

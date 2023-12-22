@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_CustomPopupAttachCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["manager"] Codeware_UI_CustomPopupManager
----@field public ["request"] Codeware_UI_CustomPopupAttachRequest
+---@field public manager Codeware_UI_CustomPopupManager
+---@field public request Codeware_UI_CustomPopupAttachRequest
 Codeware_UI_CustomPopupAttachCallback = {}
 
 ---@param fields? table

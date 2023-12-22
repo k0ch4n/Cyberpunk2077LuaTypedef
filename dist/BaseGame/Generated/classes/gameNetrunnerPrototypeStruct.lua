@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeStruct
----@field public ["key"] CName
----@field public ["entityTemplate"] entEntityTemplate
+---@field public key CName
+---@field public entityTemplate entEntityTemplate
 gameNetrunnerPrototypeStruct = {}
 
 ---@param fields? table

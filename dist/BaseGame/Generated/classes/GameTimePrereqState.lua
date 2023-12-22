@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameTimePrereqState: gamePrereqState
----@field public ["listener"] Uint32
----@field public ["repeated"] Bool
+---@field public listener Uint32
+---@field public repeated Bool
 GameTimePrereqState = {}
 
 ---@param fields? table

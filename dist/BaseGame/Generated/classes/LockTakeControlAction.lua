@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LockTakeControlAction: gameScriptableSystemRequest
----@field public ["isLocked"] Bool
+---@field public isLocked Bool
 LockTakeControlAction = {}
 
 ---@param fields? table

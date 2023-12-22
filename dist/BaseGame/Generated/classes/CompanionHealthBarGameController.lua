@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CompanionHealthBarGameController: gameuiHUDGameController
----@field private ["healthbar"] inkWidgetReference
----@field private ["root"] inkWidget
----@field private ["flatheadListener"] redCallbackObject
----@field private ["isActive"] Bool
----@field private ["maxHealth"] Float
----@field private ["healthStatListener"] CompanionHealthStatListener
----@field private ["companionBlackboard"] gameIBlackboard
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["statPoolsSystem"] gameStatPoolsSystem
+---@field private healthbar inkWidgetReference
+---@field private root inkWidget
+---@field private flatheadListener redCallbackObject
+---@field private isActive Bool
+---@field private maxHealth Float
+---@field private healthStatListener CompanionHealthStatListener
+---@field private companionBlackboard gameIBlackboard
+---@field private gameInstance ScriptGameInstance
+---@field private statPoolsSystem gameStatPoolsSystem
 CompanionHealthBarGameController = {}
 
 ---@param fields? table

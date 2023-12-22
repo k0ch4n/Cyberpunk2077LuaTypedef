@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerPuppetAllStatListener: gameScriptStatsListener
----@field public ["player"] PlayerPuppet
+---@field public player PlayerPuppet
 PlayerPuppetAllStatListener = {}
 
 ---@param fields? table

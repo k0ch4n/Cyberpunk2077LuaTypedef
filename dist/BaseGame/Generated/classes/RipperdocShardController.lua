@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class RipperdocShardController: inkWidgetLogicController
----@field private ["icon"] inkImageWidgetReference
----@field private ["text"] inkTextWidgetReference
----@field private ["data"] RipperdocShardData
----@field private ["pulse"] PulseAnimation
----@field private ["RootWidget"] inkWidget
+---@field private icon inkImageWidgetReference
+---@field private text inkTextWidgetReference
+---@field private data RipperdocShardData
+---@field private pulse PulseAnimation
+---@field private RootWidget inkWidget
 RipperdocShardController = {}
 
 ---@param fields? table

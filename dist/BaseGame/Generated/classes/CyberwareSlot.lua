@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CyberwareSlot: BaseButtonView
----@field private ["IconImageRef"] inkImageWidgetReference
----@field private ["SlotEquipArea"] gamedataEquipmentArea
----@field private ["NumSlots"] Int32
+---@field private IconImageRef inkImageWidgetReference
+---@field private SlotEquipArea gamedataEquipmentArea
+---@field private NumSlots Int32
 CyberwareSlot = {}
 
 ---@param fields? table

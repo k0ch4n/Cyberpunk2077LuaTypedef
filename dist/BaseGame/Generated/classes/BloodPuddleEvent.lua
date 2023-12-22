@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BloodPuddleEvent: redEvent
----@field public ["slotName"] CName
----@field public ["cyberBlood"] Bool
+---@field public slotName CName
+---@field public cyberBlood Bool
 BloodPuddleEvent = {}
 
 ---@param fields? table

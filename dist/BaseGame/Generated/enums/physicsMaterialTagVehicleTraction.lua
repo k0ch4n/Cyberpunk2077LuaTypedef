@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialTagVehicleTraction: Enum
----@field ["Default"] physicsMaterialTagVehicleTraction 0
----@field ["Gravel"] physicsMaterialTagVehicleTraction 1
+---@field Default 0
+---@field Gravel 1
 physicsMaterialTagVehicleTraction = {}

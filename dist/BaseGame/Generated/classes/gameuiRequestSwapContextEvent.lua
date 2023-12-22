@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiRequestSwapContextEvent: redEvent
----@field public ["oldContext"] UIGameContext
----@field public ["newContext"] UIGameContext
+---@field public oldContext UIGameContext
+---@field public newContext UIGameContext
 gameuiRequestSwapContextEvent = {}
 
 ---@param fields? table

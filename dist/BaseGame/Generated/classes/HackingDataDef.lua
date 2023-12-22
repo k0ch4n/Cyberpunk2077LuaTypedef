@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HackingDataDef: gamebbScriptDefinition
----@field public ["SpreadMap"] gamebbScriptID_Variant
+---@field public SpreadMap gamebbScriptID_Variant
 HackingDataDef = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questEUseWeapon_MissileOffsetsSource: Enum
----@field ["None"] questEUseWeapon_MissileOffsetsSource 0
----@field ["Predefined_Narrow"] questEUseWeapon_MissileOffsetsSource 1
----@field ["Predefined_Wide"] questEUseWeapon_MissileOffsetsSource 2
----@field ["TweakDB"] questEUseWeapon_MissileOffsetsSource 3
----@field ["List"] questEUseWeapon_MissileOffsetsSource 4
+---@field None 0
+---@field Predefined_Narrow 1
+---@field Predefined_Wide 2
+---@field TweakDB 3
+---@field List 4
 questEUseWeapon_MissileOffsetsSource = {}

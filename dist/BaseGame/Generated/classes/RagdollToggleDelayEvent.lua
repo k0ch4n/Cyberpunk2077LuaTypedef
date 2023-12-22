@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RagdollToggleDelayEvent: redEvent
----@field public ["target"] gameObject
----@field public ["enable"] Bool
----@field public ["force"] Bool
----@field public ["leaveRagdollEnabled"] Bool
+---@field public target gameObject
+---@field public enable Bool
+---@field public force Bool
+---@field public leaveRagdollEnabled Bool
 RagdollToggleDelayEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CrouchIndicatorGameController: gameuiHUDGameController
----@field private ["crouchIcon"] inkImageWidgetReference
----@field private ["genderName"] CName
----@field private ["psmLocomotionStateChangedCallback"] redCallbackObject
+---@field private crouchIcon inkImageWidgetReference
+---@field private genderName CName
+---@field private psmLocomotionStateChangedCallback redCallbackObject
 CrouchIndicatorGameController = {}
 
 ---@param fields? table

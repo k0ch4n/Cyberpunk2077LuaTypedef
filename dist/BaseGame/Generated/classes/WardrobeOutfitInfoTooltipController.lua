@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WardrobeOutfitInfoTooltipController: AGenericTooltipController
----@field public ["videoWidget"] inkVideoWidgetReference
+---@field public videoWidget inkVideoWidgetReference
 WardrobeOutfitInfoTooltipController = {}
 
 ---@param fields? table

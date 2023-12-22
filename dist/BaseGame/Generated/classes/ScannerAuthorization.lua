@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerAuthorization: ScannerChunk
----@field private ["keycard"] Bool
----@field private ["password"] Bool
+---@field private keycard Bool
+---@field private password Bool
 ScannerAuthorization = {}
 
 ---@param fields? table

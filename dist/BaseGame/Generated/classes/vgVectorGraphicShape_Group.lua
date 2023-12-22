@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicShape_Group: vgBaseVectorGraphicShape
----@field public ["childShapes"] vgBaseVectorGraphicShape[]
+---@field public childShapes vgBaseVectorGraphicShape[]
 vgVectorGraphicShape_Group = {}
 
 ---@param fields? table

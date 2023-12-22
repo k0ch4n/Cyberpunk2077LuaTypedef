@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameOccupantSlotData
----@field public ["slotName"] CName
----@field public ["syncAnimationTag"] CName
----@field public ["workSpotResource"] workWorkspotResource
----@field public ["exitOffsetFromSlot"] Vector4
----@field public ["role"] gameMountingSlotRole
+---@field public slotName CName
+---@field public syncAnimationTag CName
+---@field public workSpotResource workWorkspotResource
+---@field public exitOffsetFromSlot Vector4
+---@field public role gameMountingSlotRole
 gameOccupantSlotData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animCollisionShapesCollection: ISerializable
----@field public ["collisionRoundedShapes"] animCollisionRoundedShape[]
+---@field public collisionRoundedShapes animCollisionRoundedShape[]
 animCollisionShapesCollection = {}
 
 ---@param fields? table

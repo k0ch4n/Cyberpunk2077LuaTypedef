@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DoorStateOperationTriggerData: DeviceOperationTriggerData
----@field public ["state"] EDoorStatus
+---@field public state EDoorStatus
 DoorStateOperationTriggerData = {}
 
 ---@param fields? table

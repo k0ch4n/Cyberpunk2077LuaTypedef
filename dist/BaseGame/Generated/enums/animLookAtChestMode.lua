@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animLookAtChestMode: Enum
----@field ["Default"] animLookAtChestMode 0
----@field ["NoHips"] animLookAtChestMode 1
----@field ["Horizontal"] animLookAtChestMode 2
----@field ["HorizontalNoHips"] animLookAtChestMode 3
----@field ["ENUM_SIZE"] animLookAtChestMode 4
+---@field Default 0
+---@field NoHips 1
+---@field Horizontal 2
+---@field HorizontalNoHips 3
+---@field ENUM_SIZE 4
 animLookAtChestMode = {}

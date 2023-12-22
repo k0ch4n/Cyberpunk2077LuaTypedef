@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyLightPresetEffector: gameEffector
----@field public ["lightPreset"] gamedataLightPreset_Record
+---@field public lightPreset gamedataLightPreset_Record
 ApplyLightPresetEffector = {}
 
 ---@param fields? table

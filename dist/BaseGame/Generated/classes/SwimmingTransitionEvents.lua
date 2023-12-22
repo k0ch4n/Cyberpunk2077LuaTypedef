@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SwimmingTransitionEvents: LocomotionSwimmingEvents
----@field public ["maxDownwardSpeed"] Float
----@field public ["minDownwardsSpeed"] Float
----@field public ["upwardsImpulseStrength"] Float
+---@field public maxDownwardSpeed Float
+---@field public minDownwardsSpeed Float
+---@field public upwardsImpulseStrength Float
 SwimmingTransitionEvents = {}
 
 ---@param fields? table

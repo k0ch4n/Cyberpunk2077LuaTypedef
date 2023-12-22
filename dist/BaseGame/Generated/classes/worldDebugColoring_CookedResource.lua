@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_CookedResource: worldEditorDebugColoringSettings
----@field public ["alpha"] Uint8
+---@field public alpha Uint8
 worldDebugColoring_CookedResource = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIPositionSpec
----@field public ["entity"] entEntity
----@field public ["worldPosition"] WorldPosition
+---@field public entity entEntity
+---@field public worldPosition WorldPosition
 AIPositionSpec = {}
 
 ---@param fields? table

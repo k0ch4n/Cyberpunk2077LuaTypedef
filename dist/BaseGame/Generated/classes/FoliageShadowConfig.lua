@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FoliageShadowConfig
----@field public ["foliageShadowCascadeGradient"] Float
----@field public ["foliageShadowCascadeFilterScale"] Float
----@field public ["foliageShadowCascadeGradientDistanceRange"] Float
+---@field public foliageShadowCascadeGradient Float
+---@field public foliageShadowCascadeFilterScale Float
+---@field public foliageShadowCascadeGradientDistanceRange Float
 FoliageShadowConfig = {}
 
 ---@param fields? table

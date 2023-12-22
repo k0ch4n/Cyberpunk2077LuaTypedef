@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsMountedByPreventionNPCPrereq: gameIScriptablePrereq
----@field protected ["isCheckInverted"] Bool
+---@field protected isCheckInverted Bool
 IsMountedByPreventionNPCPrereq = {}
 
 ---@param fields? table

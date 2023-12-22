@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DEBUG_actorsClassNamesCount: IScriptable
----@field public ["className"] CName
----@field public ["count"] Int32
+---@field public className CName
+---@field public count Int32
 DEBUG_actorsClassNamesCount = {}
 
 ---@param fields? table

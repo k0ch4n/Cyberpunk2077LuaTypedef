@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scannerBorderLogicController: inkWidgetLogicController
----@field private ["braindanceSetVisible"] inkWidgetReference[]
----@field private ["braindanceSetHidden"] inkWidgetReference[]
+---@field private braindanceSetVisible inkWidgetReference[]
+---@field private braindanceSetHidden inkWidgetReference[]
 scannerBorderLogicController = {}
 
 ---@param fields? table

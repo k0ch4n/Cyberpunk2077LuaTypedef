@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemControllerPS: DeviceSystemBaseControllerPS
----@field private ["level_0"] SecurityAccessLevelEntry[]
----@field private ["level_1"] SecurityAccessLevelEntry[]
----@field private ["level_2"] SecurityAccessLevelEntry[]
----@field private ["level_3"] SecurityAccessLevelEntry[]
----@field private ["level_4"] SecurityAccessLevelEntry[]
----@field private ["allowSecuritySystemToDisableItself"] Bool
----@field private ["attitudeGroup"] TweakDBID
----@field private ["suppressAbilityToModifyAttitude"] Bool
----@field private ["attitudeChangeMode"] EShouldChangeAttitude
----@field private ["performAutomaticResetAfter"] Time
----@field private ["hideAreasOnMinimap"] Bool
----@field private ["isUnderStrictQuestControl"] Bool
----@field private ["securitySystemState"] ESecuritySystemState
----@field private ["agentsRegistry"] AgentRegistry
----@field private ["securitySystem"] SecuritySystemControllerPS
----@field private ["latestOutputEngineTime"] Float
----@field private ["updateInterval"] Float
----@field private ["restartDuration"] Int32
----@field private ["protectedEntityIDs"] entEntityID[]
----@field private ["entitiesRemainingAtGate"] entEntityID[]
----@field private ["blacklist"] BlacklistEntry[]
----@field private ["currentReprimandID"] Int32
----@field private ["blacklistDelayValid"] Bool
----@field private ["blacklistDelayID"] gameDelayID
----@field private ["maxGlobalWarningsCount"] Int32
----@field private ["delayIDValid"] Bool
----@field private ["deescalationEventID"] gameDelayID
----@field private ["outputsSend"] Int32
----@field private ["inputsReceived"] Int32
+---@field private level_0 SecurityAccessLevelEntry[]
+---@field private level_1 SecurityAccessLevelEntry[]
+---@field private level_2 SecurityAccessLevelEntry[]
+---@field private level_3 SecurityAccessLevelEntry[]
+---@field private level_4 SecurityAccessLevelEntry[]
+---@field private allowSecuritySystemToDisableItself Bool
+---@field private attitudeGroup TweakDBID
+---@field private suppressAbilityToModifyAttitude Bool
+---@field private attitudeChangeMode EShouldChangeAttitude
+---@field private performAutomaticResetAfter Time
+---@field private hideAreasOnMinimap Bool
+---@field private isUnderStrictQuestControl Bool
+---@field private securitySystemState ESecuritySystemState
+---@field private agentsRegistry AgentRegistry
+---@field private securitySystem SecuritySystemControllerPS
+---@field private latestOutputEngineTime Float
+---@field private updateInterval Float
+---@field private restartDuration Int32
+---@field private protectedEntityIDs entEntityID[]
+---@field private entitiesRemainingAtGate entEntityID[]
+---@field private blacklist BlacklistEntry[]
+---@field private currentReprimandID Int32
+---@field private blacklistDelayValid Bool
+---@field private blacklistDelayID gameDelayID
+---@field private maxGlobalWarningsCount Int32
+---@field private delayIDValid Bool
+---@field private deescalationEventID gameDelayID
+---@field private outputsSend Int32
+---@field private inputsReceived Int32
 SecuritySystemControllerPS = {}
 
 ---@param fields? table

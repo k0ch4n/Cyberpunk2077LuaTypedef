@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ScoreboardLogicController: inkWidgetLogicController
----@field private ["gridItem"] CName
----@field private ["namesWidget"] inkCompoundWidgetReference
----@field private ["scoresWidget"] inkCompoundWidgetReference
----@field private ["highScores"] ScoreboardPlayer[]
+---@field private gridItem CName
+---@field private namesWidget inkCompoundWidgetReference
+---@field private scoresWidget inkCompoundWidgetReference
+---@field private highScores ScoreboardPlayer[]
 ScoreboardLogicController = {}
 
 ---@param fields? table

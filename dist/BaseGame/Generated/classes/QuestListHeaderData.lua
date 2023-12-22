@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestListHeaderData: IScriptable
----@field public ["type"] Int32
----@field public ["nameLocKey"] CName
+---@field public type Int32
+---@field public nameLocKey CName
 QuestListHeaderData = {}
 
 ---@param fields? table

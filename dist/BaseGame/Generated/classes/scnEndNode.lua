@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnEndNode: scnSceneGraphNode
----@field public ["type"] scnEndNodeNsType
+---@field public type scnEndNodeNsType
 scnEndNode = {}
 
 ---@param fields? table

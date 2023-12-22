@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAcousticsOutdoornessAreaNode: worldAreaShapeNode
----@field public ["outdoor"] Float
+---@field public outdoor Float
 worldAcousticsOutdoornessAreaNode = {}
 
 ---@param fields? table

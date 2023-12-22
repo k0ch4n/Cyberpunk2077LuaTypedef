@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DistrictManager: IScriptable
----@field private ["system"] PreventionSystem
----@field private ["stack"] District[]
----@field private ["visitedDistricts"] TweakDBID[]
+---@field private system PreventionSystem
+---@field private stack District[]
+---@field private visitedDistricts TweakDBID[]
 DistrictManager = {}
 
 ---@param fields? table

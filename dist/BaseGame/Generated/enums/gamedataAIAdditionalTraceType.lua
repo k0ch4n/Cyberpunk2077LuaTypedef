@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataAIAdditionalTraceType: Enum
----@field ["Chest"] gamedataAIAdditionalTraceType 0
----@field ["Hip"] gamedataAIAdditionalTraceType 1
----@field ["Knee"] gamedataAIAdditionalTraceType 2
----@field ["Undefined"] gamedataAIAdditionalTraceType 3
----@field ["Count"] gamedataAIAdditionalTraceType 4
----@field ["Invalid"] gamedataAIAdditionalTraceType 5
+---@field Chest 0
+---@field Hip 1
+---@field Knee 2
+---@field Undefined 3
+---@field Count 4
+---@field Invalid 5
 gamedataAIAdditionalTraceType = {}

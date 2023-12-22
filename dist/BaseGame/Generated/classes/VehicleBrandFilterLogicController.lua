@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class VehicleBrandFilterLogicController: BaseButtonView
----@field private ["brandLogo"] inkImageWidgetReference
----@field private ["brandText"] inkTextWidgetReference
----@field private ["brand"] CName
----@field private ["brandAsString"] String
----@field private ["state"] EVehicleBrandState
----@field private ["isHovered"] Bool
----@field private ["styleWidget"] inkWidget
----@field private ["newOffers"] CName[]
+---@field private brandLogo inkImageWidgetReference
+---@field private brandText inkTextWidgetReference
+---@field private brand CName
+---@field private brandAsString String
+---@field private state EVehicleBrandState
+---@field private isHovered Bool
+---@field private styleWidget inkWidget
+---@field private newOffers CName[]
 VehicleBrandFilterLogicController = {}
 
 ---@param fields? table

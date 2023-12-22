@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseSimpleSphere: senseIShape
----@field public ["sphere"] Sphere
+---@field public sphere Sphere
 senseSimpleSphere = {}
 
 ---@param fields? table

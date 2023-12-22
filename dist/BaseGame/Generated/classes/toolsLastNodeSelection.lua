@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsLastNodeSelection
----@field public ["editorName"] String
----@field public ["selectedNodeIDPath"] toolsEditorObjectIDPath
+---@field public editorName String
+---@field public selectedNodeIDPath toolsEditorObjectIDPath
 toolsLastNodeSelection = {}
 
 ---@param fields? table

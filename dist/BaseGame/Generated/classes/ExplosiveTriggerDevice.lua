@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ExplosiveTriggerDevice: ExplosiveDevice
----@field private ["meshTrigger"] entMeshComponent
----@field private ["trapTrigger"] gameStaticTriggerAreaComponent
----@field private ["triggerName"] CName
----@field private ["surroundingArea"] gameStaticTriggerAreaComponent
----@field private ["surroundingAreaName"] CName
----@field private ["soundIsActive"] Bool
----@field private ["playerIsInSurroundingArea"] Bool
----@field private ["proximityExplosionEventID"] gameDelayID
----@field private ["proximityExplosionEventSent"] Bool
+---@field private meshTrigger entMeshComponent
+---@field private trapTrigger gameStaticTriggerAreaComponent
+---@field private triggerName CName
+---@field private surroundingArea gameStaticTriggerAreaComponent
+---@field private surroundingAreaName CName
+---@field private soundIsActive Bool
+---@field private playerIsInSurroundingArea Bool
+---@field private proximityExplosionEventID gameDelayID
+---@field private proximityExplosionEventSent Bool
 ExplosiveTriggerDevice = {}
 
 ---@param fields? table

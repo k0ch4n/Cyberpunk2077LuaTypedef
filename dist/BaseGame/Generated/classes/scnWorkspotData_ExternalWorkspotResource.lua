@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnWorkspotData_ExternalWorkspotResource: scnWorkspotData
----@field public ["workspotResource"] workWorkspotResource
+---@field public workspotResource workWorkspotResource
 scnWorkspotData_ExternalWorkspotResource = {}
 
 ---@param fields? table

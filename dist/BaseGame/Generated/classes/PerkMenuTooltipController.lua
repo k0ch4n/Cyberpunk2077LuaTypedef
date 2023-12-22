@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class PerkMenuTooltipController: AGenericTooltipController
----@field protected ["titleContainer"] inkWidgetReference
----@field protected ["titleText"] inkTextWidgetReference
----@field protected ["typeContainer"] inkWidgetReference
----@field protected ["typeText"] inkTextWidgetReference
----@field protected ["desc1Container"] inkWidgetReference
----@field protected ["desc1Text"] inkTextWidgetReference
----@field protected ["desc2Container"] inkWidgetReference
----@field protected ["desc2Text"] inkTextWidgetReference
----@field protected ["desc2TextNextLevel"] inkTextWidgetReference
----@field protected ["desc2TextNextLevelDesc"] inkTextWidgetReference
----@field protected ["holdToUpgrade"] inkWidgetReference
----@field protected ["openPerkScreen"] inkWidgetReference
----@field protected ["videoContainerWidget"] inkWidgetReference
----@field protected ["videoWidget"] inkVideoWidgetReference
----@field private ["data"] BasePerksMenuTooltipData
----@field public ["maxProficiencyLevel"] Int32
+---@field protected titleContainer inkWidgetReference
+---@field protected titleText inkTextWidgetReference
+---@field protected typeContainer inkWidgetReference
+---@field protected typeText inkTextWidgetReference
+---@field protected desc1Container inkWidgetReference
+---@field protected desc1Text inkTextWidgetReference
+---@field protected desc2Container inkWidgetReference
+---@field protected desc2Text inkTextWidgetReference
+---@field protected desc2TextNextLevel inkTextWidgetReference
+---@field protected desc2TextNextLevelDesc inkTextWidgetReference
+---@field protected holdToUpgrade inkWidgetReference
+---@field protected openPerkScreen inkWidgetReference
+---@field protected videoContainerWidget inkWidgetReference
+---@field protected videoWidget inkVideoWidgetReference
+---@field private data BasePerksMenuTooltipData
+---@field public maxProficiencyLevel Int32
 PerkMenuTooltipController = {}
 
 ---@param fields? table

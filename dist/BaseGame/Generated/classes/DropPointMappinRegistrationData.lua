@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropPointMappinRegistrationData: IScriptable
----@field private ["ownerID"] entEntityID
----@field private ["position"] Vector4
----@field private ["mapinID"] gameNewMappinID
----@field private ["trackingAlternativeMappinID"] gameNewMappinID
+---@field private ownerID entEntityID
+---@field private position Vector4
+---@field private mapinID gameNewMappinID
+---@field private trackingAlternativeMappinID gameNewMappinID
 DropPointMappinRegistrationData = {}
 
 ---@param fields? table

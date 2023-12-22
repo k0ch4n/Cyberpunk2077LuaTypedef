@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargedHotkeyItemStatListener: gameScriptStatPoolsListener
----@field private ["hotkeyController"] ChargedHotkeyItemBaseController
+---@field private hotkeyController ChargedHotkeyItemBaseController
 ChargedHotkeyItemStatListener = {}
 
 ---@param fields? table

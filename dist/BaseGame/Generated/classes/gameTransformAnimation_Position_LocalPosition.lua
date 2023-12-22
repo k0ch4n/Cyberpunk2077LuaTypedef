@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_Position_LocalPosition: gameTransformAnimation_Position
----@field public ["position"] Vector3
+---@field public position Vector3
 gameTransformAnimation_Position_LocalPosition = {}
 
 ---@param fields? table

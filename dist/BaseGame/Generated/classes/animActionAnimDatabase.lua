@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animActionAnimDatabase: CResource
----@field public ["rows"] animActionAnimDatabase_DatabaseRow[]
+---@field public rows animActionAnimDatabase_DatabaseRow[]
 animActionAnimDatabase = {}
 
 ---@param fields? table

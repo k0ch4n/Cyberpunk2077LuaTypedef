@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class DpadWheelItemController: inkWidgetLogicController
----@field private ["selectorWrapper"] inkWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["displayWrapper"] inkWidgetReference
----@field private ["itemWrapper"] inkWidgetReference
----@field private ["arrows"] inkWidgetReference
----@field private ["abilityIcon"] inkImageWidgetReference
----@field private ["quickHackIcon"] inkImageWidgetReference
----@field private ["highlight02"] inkImageWidgetReference
----@field private ["highlight03"] inkImageWidgetReference
----@field private ["highlight04"] inkImageWidgetReference
----@field private ["highlight05"] inkImageWidgetReference
----@field private ["highlight06"] inkImageWidgetReference
----@field private ["highlight07"] inkImageWidgetReference
----@field private ["highlight08"] inkImageWidgetReference
----@field private ["textDist"] Float
----@field private ["weaponTextDist"] Float
----@field private ["data"] QuickSlotCommand
----@field private ["root"] inkWidget
----@field private ["item"] InventoryItemDisplay
----@field private ["itemWidget"] inkWidget
----@field private ["InventoryDataManager"] InventoryDataManagerV2
----@field private ["highlight"] inkImageWidgetReference
----@field private ["itemData"] gameInventoryItemData
----@field private ["abilityData"] AbilityData
----@field private ["quickHackWheelDefIcon"] CName
+---@field private selectorWrapper inkWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private displayWrapper inkWidgetReference
+---@field private itemWrapper inkWidgetReference
+---@field private arrows inkWidgetReference
+---@field private abilityIcon inkImageWidgetReference
+---@field private quickHackIcon inkImageWidgetReference
+---@field private highlight02 inkImageWidgetReference
+---@field private highlight03 inkImageWidgetReference
+---@field private highlight04 inkImageWidgetReference
+---@field private highlight05 inkImageWidgetReference
+---@field private highlight06 inkImageWidgetReference
+---@field private highlight07 inkImageWidgetReference
+---@field private highlight08 inkImageWidgetReference
+---@field private textDist Float
+---@field private weaponTextDist Float
+---@field private data QuickSlotCommand
+---@field private root inkWidget
+---@field private item InventoryItemDisplay
+---@field private itemWidget inkWidget
+---@field private InventoryDataManager InventoryDataManagerV2
+---@field private highlight inkImageWidgetReference
+---@field private itemData gameInventoryItemData
+---@field private abilityData AbilityData
+---@field private quickHackWheelDefIcon CName
 DpadWheelItemController = {}
 
 ---@param fields? table

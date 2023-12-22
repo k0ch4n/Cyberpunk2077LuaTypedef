@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpawnUniquePursuitSubCharacterRequest: gameScriptableSystemRequest
----@field public ["subCharacterID"] TweakDBID
----@field public ["position"] Vector4
+---@field public subCharacterID TweakDBID
+---@field public position Vector4
 SpawnUniquePursuitSubCharacterRequest = {}
 
 ---@param fields? table

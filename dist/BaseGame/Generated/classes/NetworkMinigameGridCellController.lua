@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class NetworkMinigameGridCellController: inkButtonController
----@field public ["cellData"] CellData
----@field private ["grid"] NetworkMinigameGridController
----@field protected ["slotsContainer"] inkWidgetReference
----@field protected ["slotsContent"] NetworkMinigameElementController
----@field protected ["elementLibraryName"] CName
----@field private ["defaultColor"] HDRColor
+---@field public cellData CellData
+---@field private grid NetworkMinigameGridController
+---@field protected slotsContainer inkWidgetReference
+---@field protected slotsContent NetworkMinigameElementController
+---@field protected elementLibraryName CName
+---@field private defaultColor HDRColor
 NetworkMinigameGridCellController = {}
 
 ---@param fields? table

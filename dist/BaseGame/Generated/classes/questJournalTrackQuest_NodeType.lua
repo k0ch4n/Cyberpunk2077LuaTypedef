@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questJournalTrackQuest_NodeType: questIJournal_NodeType
----@field public ["path"] gameJournalPath
+---@field public path gameJournalPath
 questJournalTrackQuest_NodeType = {}
 
 ---@param fields? table

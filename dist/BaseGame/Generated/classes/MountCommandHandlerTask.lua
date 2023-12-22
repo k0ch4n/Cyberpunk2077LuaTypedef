@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MountCommandHandlerTask: AIbehaviortaskScript
----@field public ["command"] AIArgumentMapping
----@field public ["mountEventData"] AIArgumentMapping
----@field public ["callbackName"] CName
+---@field public command AIArgumentMapping
+---@field public mountEventData AIArgumentMapping
+---@field public callbackName CName
 MountCommandHandlerTask = {}
 
 ---@param fields? table

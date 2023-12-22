@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CraftingSystem: gameScriptableSystem
----@field private ["lastActionStatus"] Bool
----@field private ["playerCraftBook"] CraftBook
----@field private ["callback"] CraftingSystemInventoryCallback
----@field private ["inventoryListener"] gameInventoryScriptListener
----@field private ["itemIconGender"] gameItemIconGender
+---@field private lastActionStatus Bool
+---@field private playerCraftBook CraftBook
+---@field private callback CraftingSystemInventoryCallback
+---@field private inventoryListener gameInventoryScriptListener
+---@field private itemIconGender gameItemIconGender
 CraftingSystem = {}
 
 ---@param fields? table

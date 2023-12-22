@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entAnimTargetAddEvent: redEvent
----@field public ["targetPositionProvider"] entIPositionProvider
----@field public ["bodyPart"] CName
+---@field public targetPositionProvider entIPositionProvider
+---@field public bodyPart CName
 entAnimTargetAddEvent = {}
 
 ---@param targetEntity entEntity

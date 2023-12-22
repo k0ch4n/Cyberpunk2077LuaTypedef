@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class worldCompiledEffectInfo
----@field public ["placementTags"] CName[]
----@field public ["componentNames"] CName[]
----@field public ["relativePositions"] Vector3[]
----@field public ["relativeRotations"] Quaternion[]
----@field public ["placementInfos"] worldCompiledEffectPlacementInfo[]
----@field public ["eventsSortedByRUID"] worldCompiledEffectEventInfo[]
+---@field public placementTags CName[]
+---@field public componentNames CName[]
+---@field public relativePositions Vector3[]
+---@field public relativeRotations Quaternion[]
+---@field public placementInfos worldCompiledEffectPlacementInfo[]
+---@field public eventsSortedByRUID worldCompiledEffectEventInfo[]
 worldCompiledEffectInfo = {}
 
 ---@param fields? table

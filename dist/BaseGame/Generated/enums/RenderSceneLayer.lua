@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RenderSceneLayer: Enum
----@field ["Default"] RenderSceneLayer 0
----@field ["Cyberspace"] RenderSceneLayer 1
----@field ["WorldMap"] RenderSceneLayer 2
+---@field Default 0
+---@field Cyberspace 1
+---@field WorldMap 2
 RenderSceneLayer = {}

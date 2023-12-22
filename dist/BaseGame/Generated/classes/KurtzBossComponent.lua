@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class KurtzBossComponent: gameScriptableComponent
----@field private ["owner"] NPCPuppet
----@field private ["owner_id"] entEntityID
+---@field private owner NPCPuppet
+---@field private owner_id entEntityID
 KurtzBossComponent = {}
 
 ---@param fields? table

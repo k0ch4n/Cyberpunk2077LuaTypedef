@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerColor: IParticleInitializer
----@field public ["color"] IEvaluatorColor
+---@field public color IEvaluatorColor
 CParticleInitializerColor = {}
 
 ---@param fields? table

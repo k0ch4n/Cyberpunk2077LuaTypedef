@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UI_BriefingDef: gamebbScriptDefinition
----@field public ["BriefingToOpen"] gamebbScriptID_String
----@field public ["BriefingSize"] gamebbScriptID_Variant
----@field public ["BriefingAlignment"] gamebbScriptID_Variant
+---@field public BriefingToOpen gamebbScriptID_String
+---@field public BriefingSize gamebbScriptID_Variant
+---@field public BriefingAlignment gamebbScriptID_Variant
 UI_BriefingDef = {}
 
 ---@param fields? table

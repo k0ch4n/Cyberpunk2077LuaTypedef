@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficLaneCrowdCreationInfo
----@field public ["connectedFragments"] worldTrafficLaneCrowdFragment[]
+---@field public connectedFragments worldTrafficLaneCrowdFragment[]
 worldTrafficLaneCrowdCreationInfo = {}
 
 ---@param fields? table

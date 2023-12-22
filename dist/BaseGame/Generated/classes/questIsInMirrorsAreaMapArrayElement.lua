@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questIsInMirrorsAreaMapArrayElement
----@field public ["objectRef"] NodeRef
----@field public ["isInMirrorsArea"] Bool
+---@field public objectRef NodeRef
+---@field public isInMirrorsArea Bool
 questIsInMirrorsAreaMapArrayElement = {}
 
 ---@param fields? table

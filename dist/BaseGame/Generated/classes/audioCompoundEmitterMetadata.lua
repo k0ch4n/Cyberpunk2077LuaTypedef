@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioCompoundEmitterMetadata: audioEmitterMetadata
----@field public ["childrenNames"] CName[]
+---@field public childrenNames CName[]
 audioCompoundEmitterMetadata = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FastTravelGameController: gameuiWidgetGameController
----@field private ["fastTravelPointsList"] inkCompoundWidgetReference
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field private fastTravelPointsList inkCompoundWidgetReference
+---@field private menuEventDispatcher inkMenuEventDispatcher
 FastTravelGameController = {}
 
 ---@param fields? table

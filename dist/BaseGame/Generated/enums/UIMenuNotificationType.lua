@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class UIMenuNotificationType: Enum
----@field ["VendorNotEnoughMoney"] UIMenuNotificationType 0
----@field ["VNotEnoughMoney"] UIMenuNotificationType 1
----@field ["VendorRequirementsNotMet"] UIMenuNotificationType 2
----@field ["InventoryActionBlocked"] UIMenuNotificationType 3
----@field ["CraftingNoPerks"] UIMenuNotificationType 4
----@field ["CraftingNotEnoughMaterial"] UIMenuNotificationType 5
----@field ["UpgradingLevelToLow"] UIMenuNotificationType 6
----@field ["NoPerksPoints"] UIMenuNotificationType 7
----@field ["PerksLocked"] UIMenuNotificationType 8
----@field ["MaxLevelPerks"] UIMenuNotificationType 9
----@field ["NoAttributePoints"] UIMenuNotificationType 10
----@field ["InCombat"] UIMenuNotificationType 11
----@field ["InCombatExplicit"] UIMenuNotificationType 12
----@field ["CraftingQuickhack"] UIMenuNotificationType 13
----@field ["CraftingAmmoCap"] UIMenuNotificationType 14
----@field ["PlayerReqLevelToLow"] UIMenuNotificationType 15
----@field ["InventoryNoFreeSlot"] UIMenuNotificationType 16
----@field ["FaceUnequipBlocked"] UIMenuNotificationType 17
----@field ["TutorialUnequipBlocked"] UIMenuNotificationType 18
+---@field VendorNotEnoughMoney 0
+---@field VNotEnoughMoney 1
+---@field VendorRequirementsNotMet 2
+---@field InventoryActionBlocked 3
+---@field CraftingNoPerks 4
+---@field CraftingNotEnoughMaterial 5
+---@field UpgradingLevelToLow 6
+---@field NoPerksPoints 7
+---@field PerksLocked 8
+---@field MaxLevelPerks 9
+---@field NoAttributePoints 10
+---@field InCombat 11
+---@field InCombatExplicit 12
+---@field CraftingQuickhack 13
+---@field CraftingAmmoCap 14
+---@field PlayerReqLevelToLow 15
+---@field InventoryNoFreeSlot 16
+---@field FaceUnequipBlocked 17
+---@field TutorialUnequipBlocked 18
 UIMenuNotificationType = {}

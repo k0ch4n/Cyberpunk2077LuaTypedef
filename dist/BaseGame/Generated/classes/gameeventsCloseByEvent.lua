@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameeventsCloseByEvent: redEvent
----@field public ["position"] Vector4
----@field public ["forward"] Vector4
----@field public ["instigator"] gameObject
----@field public ["attackData"] gamedamageAttackData
+---@field public position Vector4
+---@field public forward Vector4
+---@field public instigator gameObject
+---@field public attackData gamedamageAttackData
 gameeventsCloseByEvent = {}
 
 ---@param fields? table

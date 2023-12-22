@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuDataBuilder: IScriptable
----@field public ["data"] MenuData[]
+---@field public data MenuData[]
 MenuDataBuilder = {}
 
 ---@param fields? table

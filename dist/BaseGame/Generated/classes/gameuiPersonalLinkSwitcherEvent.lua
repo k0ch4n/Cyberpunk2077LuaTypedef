@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPersonalLinkSwitcherEvent: redEvent
----@field public ["isAdvanced"] Bool
+---@field public isAdvanced Bool
 gameuiPersonalLinkSwitcherEvent = {}
 
 ---@param fields? table

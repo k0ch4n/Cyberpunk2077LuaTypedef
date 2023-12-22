@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PSODescBlendModeDesc
----@field public ["numTargets"] Uint8
----@field public ["independent"] Bool
----@field public ["alphaToCoverage"] Bool
----@field public ["renderTarget"] PSODescRenderTarget[]
+---@field public numTargets Uint8
+---@field public independent Bool
+---@field public alphaToCoverage Bool
+---@field public renderTarget PSODescRenderTarget[]
 PSODescBlendModeDesc = {}
 
 ---@param fields? table

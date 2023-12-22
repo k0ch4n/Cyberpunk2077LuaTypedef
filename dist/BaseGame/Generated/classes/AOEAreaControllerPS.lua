@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AOEAreaControllerPS: MasterControllerPS
----@field private ["AOEAreaSetup"] AOEAreaSetup
+---@field private AOEAreaSetup AOEAreaSetup
 AOEAreaControllerPS = {}
 
 ---@param fields? table

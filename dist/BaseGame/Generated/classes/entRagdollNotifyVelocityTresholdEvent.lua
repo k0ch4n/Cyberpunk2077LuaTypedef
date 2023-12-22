@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entRagdollNotifyVelocityTresholdEvent: redEvent
----@field public ["velocity"] Vector4
+---@field public velocity Vector4
 entRagdollNotifyVelocityTresholdEvent = {}
 
 ---@param fields? table

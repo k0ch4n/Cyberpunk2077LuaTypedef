@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class WorkspotConditionOperators: Enum
----@field ["OR"] WorkspotConditionOperators 0
----@field ["AND"] WorkspotConditionOperators 1
+---@field OR 0
+---@field AND 1
 WorkspotConditionOperators = {}

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ECartOperationResult: Enum
----@field ["Success"] ECartOperationResult 0
----@field ["NoItems"] ECartOperationResult 1
----@field ["AllItems"] ECartOperationResult 2
----@field ["WontSell"] ECartOperationResult 3
----@field ["WontBuy"] ECartOperationResult 4
----@field ["QuestItem"] ECartOperationResult 5
----@field ["NotInCart"] ECartOperationResult 6
+---@field Success 0
+---@field NoItems 1
+---@field AllItems 2
+---@field WontSell 3
+---@field WontBuy 4
+---@field QuestItem 5
+---@field NotInCart 6
 ECartOperationResult = {}

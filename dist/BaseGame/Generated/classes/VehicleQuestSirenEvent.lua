@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestSirenEvent: redEvent
----@field public ["lights"] Bool
----@field public ["sounds"] Bool
+---@field public lights Bool
+---@field public sounds Bool
 VehicleQuestSirenEvent = {}
 
 ---@param fields? table

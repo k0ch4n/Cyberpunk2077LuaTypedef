@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnequippedEvents: EquipmentBaseEvents
----@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
----@field public ["stateMachineInitData"] EquipmentInitData
+---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field public stateMachineInitData EquipmentInitData
 UnequippedEvents = {}
 
 ---@param fields? table

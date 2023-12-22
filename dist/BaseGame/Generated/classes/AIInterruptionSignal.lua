@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIInterruptionSignal
----@field public ["importance"] AIEInterruptionImportance
----@field public ["signal"] CName
+---@field public importance AIEInterruptionImportance
+---@field public signal CName
 AIInterruptionSignal = {}
 
 ---@param fields? table

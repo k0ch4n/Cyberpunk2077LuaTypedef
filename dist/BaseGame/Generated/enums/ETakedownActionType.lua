@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ETakedownActionType: Enum
----@field ["GrappleFailed"] ETakedownActionType 0
----@field ["Grapple"] ETakedownActionType 1
----@field ["Takedown"] ETakedownActionType 2
----@field ["TakedownNonLethal"] ETakedownActionType 3
----@field ["TakedownNetrunner"] ETakedownActionType 4
----@field ["TakedownMassiveTarget"] ETakedownActionType 5
----@field ["AerialTakedown"] ETakedownActionType 6
----@field ["LeapToTarget"] ETakedownActionType 7
----@field ["Struggle"] ETakedownActionType 8
----@field ["BreakFree"] ETakedownActionType 9
----@field ["TargetDead"] ETakedownActionType 10
----@field ["KillTarget"] ETakedownActionType 11
----@field ["SpareTarget"] ETakedownActionType 12
----@field ["ForceShove"] ETakedownActionType 13
----@field ["BossTakedown"] ETakedownActionType 14
----@field ["DisposalTakedown"] ETakedownActionType 15
----@field ["DisposalTakedownNonLethal"] ETakedownActionType 16
----@field ["None"] ETakedownActionType 17
+---@field GrappleFailed 0
+---@field Grapple 1
+---@field Takedown 2
+---@field TakedownNonLethal 3
+---@field TakedownNetrunner 4
+---@field TakedownMassiveTarget 5
+---@field AerialTakedown 6
+---@field LeapToTarget 7
+---@field Struggle 8
+---@field BreakFree 9
+---@field TargetDead 10
+---@field KillTarget 11
+---@field SpareTarget 12
+---@field ForceShove 13
+---@field BossTakedown 14
+---@field DisposalTakedown 15
+---@field DisposalTakedownNonLethal 16
+---@field None 17
 ETakedownActionType = {}

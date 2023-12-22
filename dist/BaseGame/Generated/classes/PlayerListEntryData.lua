@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerListEntryData
----@field public ["playerObject"] gameObject
----@field public ["playerListEntry"] inkWidget
+---@field public playerObject gameObject
+---@field public playerListEntry inkWidget
 PlayerListEntryData = {}
 
 ---@param fields? table

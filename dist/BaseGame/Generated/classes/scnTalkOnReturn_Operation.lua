@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnTalkOnReturn_Operation: scnIInterruptManager_Operation
----@field public ["talkOnReturn"] Bool
+---@field public talkOnReturn Bool
 scnTalkOnReturn_Operation = {}
 
 ---@param fields? table

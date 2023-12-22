@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScreenMessageSelector: inkTweakDBIDSelector
----@field protected ["replaceTextWithCustomNumber"] Bool
----@field protected ["customNumber"] Int32
+---@field protected replaceTextWithCustomNumber Bool
+---@field protected customNumber Int32
 ScreenMessageSelector = {}
 
 ---@return Int32

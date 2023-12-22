@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetAssessmentRequest: ScriptableDeviceAction
----@field public ["targetToAssess"] gameObject
+---@field public targetToAssess gameObject
 TargetAssessmentRequest = {}
 
 ---@param fields? table

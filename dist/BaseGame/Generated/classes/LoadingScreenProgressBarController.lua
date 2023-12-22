@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class LoadingScreenProgressBarController: inkWidgetLogicController
----@field private ["progressBarRoot"] inkWidgetReference
----@field private ["progressBarFill"] inkWidgetReference
----@field private ["progressSpinerRoot"] inkWidgetReference
----@field private ["rotationAnimationProxy"] inkanimProxy
----@field private ["rotationAnimation"] inkanimDefinition
----@field private ["rotationInterpolator"] inkanimRotationInterpolator
+---@field private progressBarRoot inkWidgetReference
+---@field private progressBarFill inkWidgetReference
+---@field private progressSpinerRoot inkWidgetReference
+---@field private rotationAnimationProxy inkanimProxy
+---@field private rotationAnimation inkanimDefinition
+---@field private rotationInterpolator inkanimRotationInterpolator
 LoadingScreenProgressBarController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioCombatVoTriggerVariationsMap: audioAudioMetadata
----@field public ["voTriggerVariations"] audioCombatVoTriggerVariationsMapItem[]
+---@field public voTriggerVariations audioCombatVoTriggerVariationsMapItem[]
 audioCombatVoTriggerVariationsMap = {}
 
 ---@param fields? table

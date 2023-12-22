@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CodexSystem: gameScriptableSystem
----@field private ["codex"] SCodexRecord[]
----@field private ["blackboard"] gameIBlackboard
+---@field private codex SCodexRecord[]
+---@field private blackboard gameIBlackboard
 CodexSystem = {}
 
 ---@param fields? table

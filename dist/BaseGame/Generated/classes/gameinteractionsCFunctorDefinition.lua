@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCFunctorDefinition: gameinteractionsIFunctorDefinition
----@field public ["predicate"] gameinteractionsCPredicateDefinition
----@field public ["unaryOperator"] gameinteractionsEUnaryOperator
+---@field public predicate gameinteractionsCPredicateDefinition
+---@field public unaryOperator gameinteractionsEUnaryOperator
 gameinteractionsCFunctorDefinition = {}
 
 ---@param fields? table

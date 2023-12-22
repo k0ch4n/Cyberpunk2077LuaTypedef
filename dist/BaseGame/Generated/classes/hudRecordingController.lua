@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class hudRecordingController: gameuiHUDGameController
----@field private ["root"] inkCompoundWidget
----@field private ["anim_intro"] inkanimProxy
----@field private ["anim_outro"] inkanimProxy
----@field private ["anim_loop"] inkanimProxy
----@field private ["option_intro"] inkanimPlaybackOptions
----@field private ["option_loop"] inkanimPlaybackOptions
----@field private ["option_outro"] inkanimPlaybackOptions
----@field private ["factListener"] Uint32
+---@field private root inkCompoundWidget
+---@field private anim_intro inkanimProxy
+---@field private anim_outro inkanimProxy
+---@field private anim_loop inkanimProxy
+---@field private option_intro inkanimPlaybackOptions
+---@field private option_loop inkanimPlaybackOptions
+---@field private option_outro inkanimPlaybackOptions
+---@field private factListener Uint32
 hudRecordingController = {}
 
 ---@param fields? table

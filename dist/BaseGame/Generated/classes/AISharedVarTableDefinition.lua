@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISharedVarTableDefinition
----@field public ["table"] AISharedVarDefinition[]
+---@field public table AISharedVarDefinition[]
 AISharedVarTableDefinition = {}
 
 ---@param fields? table

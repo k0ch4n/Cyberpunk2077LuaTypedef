@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePhantomEntityParametersBlendableAppearanceMatch
----@field public ["blendable"] CName
----@field public ["notBlendable"] CName
+---@field public blendable CName
+---@field public notBlendable CName
 gamePhantomEntityParametersBlendableAppearanceMatch = {}
 
 ---@param fields? table

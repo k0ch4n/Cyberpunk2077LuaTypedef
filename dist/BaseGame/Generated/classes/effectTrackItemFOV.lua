@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class effectTrackItemFOV: effectTrackItem
----@field public ["FOV"] effectEffectParameterEvaluatorFloat
+---@field public FOV effectEffectParameterEvaluatorFloat
 effectTrackItemFOV = {}
 
 ---@param fields? table

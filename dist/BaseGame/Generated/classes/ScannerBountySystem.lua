@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerBountySystem: ScannerChunk
----@field private ["bounty"] BountyUI
+---@field private bounty BountyUI
 ScannerBountySystem = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TvChannelSpawnData: IScriptable
----@field public ["channelName"] CName
----@field public ["localizedName"] String
----@field public ["order"] Int32
+---@field public channelName CName
+---@field public localizedName String
+---@field public order Int32
 TvChannelSpawnData = {}
 
 ---@param fields? table

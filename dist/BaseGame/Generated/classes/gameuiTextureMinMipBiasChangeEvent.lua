@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTextureMinMipBiasChangeEvent: redEvent
----@field public ["textureMinMipBias"] Uint32
+---@field public textureMinMipBias Uint32
 gameuiTextureMinMipBiasChangeEvent = {}
 
 ---@param fields? table

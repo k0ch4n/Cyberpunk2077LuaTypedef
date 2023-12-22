@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEventGenderAlt: Enum
----@field ["None"] animAnimEventGenderAlt 0
----@field ["Female"] animAnimEventGenderAlt 1
----@field ["Male"] animAnimEventGenderAlt 2
+---@field None 0
+---@field Female 1
+---@field Male 2
 animAnimEventGenderAlt = {}

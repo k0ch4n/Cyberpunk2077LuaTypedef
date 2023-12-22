@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PSOwnerData
----@field public ["id"] gamePersistentID
----@field public ["className"] CName
+---@field public id gamePersistentID
+---@field public className CName
 PSOwnerData = {}
 
 ---@param fields? table

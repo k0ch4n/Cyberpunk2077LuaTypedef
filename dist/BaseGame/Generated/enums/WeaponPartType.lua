@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponPartType: Enum
----@field ["Scope"] WeaponPartType 0
----@field ["Magazine"] WeaponPartType 1
----@field ["Silencer"] WeaponPartType 2
+---@field Scope 0
+---@field Magazine 1
+---@field Silencer 2
 WeaponPartType = {}

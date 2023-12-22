@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterLifePath_ConditionType: questICharacterConditionType
----@field public ["lifePathID"] TweakDBID
+---@field public lifePathID TweakDBID
 questCharacterLifePath_ConditionType = {}
 
 ---@param fields? table

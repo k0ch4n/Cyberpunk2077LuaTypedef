@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerSquadInfo: ScannerChunk
----@field public ["numberOfSquadMembers"] Int32
+---@field public numberOfSquadMembers Int32
 ScannerSquadInfo = {}
 
 ---@param fields? table

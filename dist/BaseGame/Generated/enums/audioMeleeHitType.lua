@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class audioMeleeHitType: Enum
----@field ["Light"] audioMeleeHitType 0
----@field ["Normal"] audioMeleeHitType 1
----@field ["Heavy"] audioMeleeHitType 2
----@field ["Slash"] audioMeleeHitType 3
----@field ["Cut"] audioMeleeHitType 4
----@field ["Stab"] audioMeleeHitType 5
----@field ["Finisher"] audioMeleeHitType 6
----@field ["Weak"] audioMeleeHitType 7
----@field ["Throw"] audioMeleeHitType 8
+---@field Light 0
+---@field Normal 1
+---@field Heavy 2
+---@field Slash 3
+---@field Cut 4
+---@field Stab 5
+---@field Finisher 6
+---@field Weak 7
+---@field Throw 8
 audioMeleeHitType = {}

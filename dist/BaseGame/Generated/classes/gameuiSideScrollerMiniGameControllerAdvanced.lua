@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerMiniGameControllerAdvanced: gameuiWidgetGameController
----@field public ["gameplayCanvas"] inkWidgetReference
+---@field public gameplayCanvas inkWidgetReference
 gameuiSideScrollerMiniGameControllerAdvanced = {}
 
 ---@param fields? table

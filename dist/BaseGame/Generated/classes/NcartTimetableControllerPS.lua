@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NcartTimetableControllerPS: ScriptableDeviceComponentPS
----@field private ["ncartTimetableSetup"] NcartTimetableSetup
----@field private ["currentTimeToDepart"] Int32
----@field private ["currentLine"] Int32
+---@field private ncartTimetableSetup NcartTimetableSetup
+---@field private currentTimeToDepart Int32
+---@field private currentLine Int32
 NcartTimetableControllerPS = {}
 
 ---@param fields? table

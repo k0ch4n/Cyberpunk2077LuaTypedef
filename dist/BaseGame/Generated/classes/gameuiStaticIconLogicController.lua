@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiStaticIconLogicController: gameuiDynamicIconLogicController
----@field public ["iconReference"] TweakDBID
+---@field public iconReference TweakDBID
 gameuiStaticIconLogicController = {}
 
 ---@param fields? table

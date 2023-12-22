@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RoboticArms: InteractiveDevice
----@field public ["workSFX"] CName
----@field public ["distractSFX"] CName
----@field private ["animationController"] entAnimationControllerComponent
----@field private ["animFeature"] AnimFeature_RoboticArm
+---@field public workSFX CName
+---@field public distractSFX CName
+---@field private animationController entAnimationControllerComponent
+---@field private animFeature AnimFeature_RoboticArm
 RoboticArms = {}
 
 ---@param fields? table

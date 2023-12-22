@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorEntityReuseEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public ["destination"] AIArgumentMapping
----@field public ["fastForwardAfterTeleport"] AIArgumentMapping
+---@field public destination AIArgumentMapping
+---@field public fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorEntityReuseEventResolverDefinition = {}
 
 ---@param fields? table

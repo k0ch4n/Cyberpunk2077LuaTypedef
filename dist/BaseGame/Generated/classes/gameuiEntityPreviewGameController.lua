@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEntityPreviewGameController: gameuiMenuGameController
----@field public ["entityToPreview"] entEntityTemplate
+---@field public entityToPreview entEntityTemplate
 gameuiEntityPreviewGameController = {}
 
 ---@param fields? table

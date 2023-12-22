@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class ExpansionNewGame: gameuiBaseCharacterCreationController
----@field public ["newGameDescription"] inkTextWidgetReference
----@field public ["textureTop"] inkImageWidgetReference
----@field public ["textureBottom"] inkImageWidgetReference
----@field public ["creditsBaseTexture"] inkImageWidgetReference
----@field public ["creditsExpansionTexture"] inkImageWidgetReference
----@field public ["creditsBase"] inkWidgetReference
----@field public ["creditsExpansion"] inkWidgetReference
----@field public ["creditsHoverFrameLeft"] inkWidgetReference
----@field public ["creditsHoverFrameRight"] inkWidgetReference
----@field private ["introAnimation"] CName
----@field private ["outroAnimation"] CName
----@field private ["hoverAnimation"] CName
----@field private ["animationProxy"] inkanimProxy
----@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
----@field private ["localizedText"] String
----@field private ["lastShownPart"] CName
----@field private ["baseGameButton"] inkWidgetReference
----@field private ["standaloneButton"] inkWidgetReference
----@field private ["isInputLocked"] Bool
+---@field public newGameDescription inkTextWidgetReference
+---@field public textureTop inkImageWidgetReference
+---@field public textureBottom inkImageWidgetReference
+---@field public creditsBaseTexture inkImageWidgetReference
+---@field public creditsExpansionTexture inkImageWidgetReference
+---@field public creditsBase inkWidgetReference
+---@field public creditsExpansion inkWidgetReference
+---@field public creditsHoverFrameLeft inkWidgetReference
+---@field public creditsHoverFrameRight inkWidgetReference
+---@field private introAnimation CName
+---@field private outroAnimation CName
+---@field private hoverAnimation CName
+---@field private animationProxy inkanimProxy
+---@field private translationAnimationCtrl inkTextReplaceAnimationController
+---@field private localizedText String
+---@field private lastShownPart CName
+---@field private baseGameButton inkWidgetReference
+---@field private standaloneButton inkWidgetReference
+---@field private isInputLocked Bool
 ExpansionNewGame = {}
 
 ---@param fields? table

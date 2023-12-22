@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class QuestMissionLinkController: BaseCodexLinkController
----@field private ["linkContainer"] inkWidgetReference
----@field private ["title"] inkTextWidgetReference
----@field private ["description"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["journalManager"] gameJournalManager
----@field private ["questEntry"] gameJournalQuest
----@field private ["questState"] gameJournalEntryState
----@field private ["questEntryHash"] Int32
+---@field private linkContainer inkWidgetReference
+---@field private title inkTextWidgetReference
+---@field private description inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private journalManager gameJournalManager
+---@field private questEntry gameJournalQuest
+---@field private questState gameJournalEntryState
+---@field private questEntryHash Int32
 QuestMissionLinkController = {}
 
 ---@param fields? table

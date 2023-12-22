@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterCpuNameU64: CMaterialParameter
----@field public ["name"] CName
+---@field public name CName
 CMaterialParameterCpuNameU64 = {}
 
 ---@param fields? table

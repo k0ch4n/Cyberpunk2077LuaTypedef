@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceBlackwallKillNPCSEvent: redEvent
----@field public ["targetID"] entEntityID
+---@field public targetID entEntityID
 ForceBlackwallKillNPCSEvent = {}
 
 ---@param fields? table

@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class minibossPlasmaProjectile: BaseProjectile
----@field private ["countTime"] Float
----@field private ["startVelocity"] Float
----@field private ["lifetime"] Float
----@field private ["effectName"] CName
----@field private ["hitEffectName"] CName
----@field private ["followTarget"] Bool
----@field private ["bendFactor"] Float
----@field private ["bendRatio"] Float
----@field private ["shouldRotate"] Bool
----@field public ["attackRecordID"] TweakDBID
----@field protected ["instigator"] gameObject
----@field private ["spawnGameEffectOnCollision"] Bool
----@field private ["collisionAttackRecord"] gamedataAttack_Record
----@field private ["alive"] Bool
----@field private ["owner"] ScriptedPuppet
----@field private ["target"] gameObject
+---@field private countTime Float
+---@field private startVelocity Float
+---@field private lifetime Float
+---@field private effectName CName
+---@field private hitEffectName CName
+---@field private followTarget Bool
+---@field private bendFactor Float
+---@field private bendRatio Float
+---@field private shouldRotate Bool
+---@field public attackRecordID TweakDBID
+---@field protected instigator gameObject
+---@field private spawnGameEffectOnCollision Bool
+---@field private collisionAttackRecord gamedataAttack_Record
+---@field private alive Bool
+---@field private owner ScriptedPuppet
+---@field private target gameObject
 minibossPlasmaProjectile = {}
 
 ---@param fields? table

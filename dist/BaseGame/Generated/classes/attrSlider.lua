@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class attrSlider: attrAttribute
----@field public ["ep"] Float
+---@field public ep Float
 attrSlider = {}
 
 ---@param fields? table

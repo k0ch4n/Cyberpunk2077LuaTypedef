@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ApplyRelicMeleewareDamageOnNPCEvent: redEvent
----@field public ["newHitEvent"] gameeventsHitEvent
----@field public ["hitPosition"] Vector4
----@field public ["target"] NPCPuppet
----@field public ["weapon"] gameweaponObject
----@field public ["weaponType"] gamedataItemType
+---@field public newHitEvent gameeventsHitEvent
+---@field public hitPosition Vector4
+---@field public target NPCPuppet
+---@field public weapon gameweaponObject
+---@field public weaponType gamedataItemType
 ApplyRelicMeleewareDamageOnNPCEvent = {}
 
 ---@param fields? table

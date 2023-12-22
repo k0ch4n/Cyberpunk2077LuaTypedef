@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_DroneActionAltitudeOffset: animAnimFeature
----@field public ["desiredOffset"] Float
+---@field public desiredOffset Float
 AnimFeature_DroneActionAltitudeOffset = {}
 
 ---@param fields? table

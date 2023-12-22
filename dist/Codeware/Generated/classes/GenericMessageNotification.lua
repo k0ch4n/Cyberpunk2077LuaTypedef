@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotification: gameuiWidgetGameController
----@field public ["textInput"] Codeware_UI_TextInput
+---@field public textInput Codeware_UI_TextInput
 GenericMessageNotification = {}
 
 ---@param fields? table

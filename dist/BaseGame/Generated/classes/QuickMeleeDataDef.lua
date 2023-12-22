@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickMeleeDataDef: gamebbScriptDefinition
----@field public ["NPCHit"] gamebbScriptID_Bool
+---@field public NPCHit gamebbScriptID_Bool
 QuickMeleeDataDef = {}
 
 ---@param fields? table

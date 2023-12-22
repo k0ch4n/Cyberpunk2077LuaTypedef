@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkLanguageSpecificImageController: inkWidgetLogicController
----@field public ["languages"] inkLanguageSpecificImagData[]
----@field public ["fallbackTextureAtlas"] inkTextureAtlas
----@field public ["fallbackPartName"] CName
+---@field public languages inkLanguageSpecificImagData[]
+---@field public fallbackTextureAtlas inkTextureAtlas
+---@field public fallbackPartName CName
 inkLanguageSpecificImageController = {}
 
 ---@param fields? table

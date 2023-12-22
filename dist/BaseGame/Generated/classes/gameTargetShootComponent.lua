@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameTargetShootComponent: entIComponent
----@field public ["weaponRecord"] gamedataWeaponItem_Record
----@field public ["weaponTDBID"] TweakDBID
----@field public ["characterRecord"] gamedataCharacter_Record
----@field public ["characterTDBID"] TweakDBID
+---@field public weaponRecord gamedataWeaponItem_Record
+---@field public weaponTDBID TweakDBID
+---@field public characterRecord gamedataCharacter_Record
+---@field public characterTDBID TweakDBID
 gameTargetShootComponent = {}
 
 ---@param fields? table

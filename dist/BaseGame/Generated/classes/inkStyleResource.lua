@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkStyleResource: CResource
----@field public ["styles"] inkStyle[]
----@field public ["styleImports"] inkStyleResource[]
----@field public ["themes"] inkStyleTheme[]
----@field public ["overrides"] inkStyleOverride[]
----@field public ["hideInInheritingStyles"] Bool
+---@field public styles inkStyle[]
+---@field public styleImports inkStyleResource[]
+---@field public themes inkStyleTheme[]
+---@field public overrides inkStyleOverride[]
+---@field public hideInInheritingStyles Bool
 inkStyleResource = {}
 
 ---@param fields? table

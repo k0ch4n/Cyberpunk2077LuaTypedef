@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class ApartmentScreenControllerPS: LcdScreenControllerPS
----@field private ["initialRentStatus"] ERentStatus
----@field private ["overdueMessageRecordID"] TweakDBID
----@field private ["paidMessageRecordID"] TweakDBID
----@field private ["evictionMessageRecordID"] TweakDBID
----@field private ["paymentSchedule"] EPaymentSchedule
----@field private ["showOverdueValue"] Bool
----@field private ["randomizeInitialOverdue"] Bool
----@field private ["initialOverdue"] Int32
----@field private ["allowAutomaticRentStatusChange"] Bool
----@field private ["maxDays"] Int32
----@field private ["currentOverdue"] Int32
----@field private ["isInitialRentStateSet"] Bool
----@field private ["currentRentStatus"] ERentStatus
----@field private ["lastStatusChangeDay"] Int32
+---@field private initialRentStatus ERentStatus
+---@field private overdueMessageRecordID TweakDBID
+---@field private paidMessageRecordID TweakDBID
+---@field private evictionMessageRecordID TweakDBID
+---@field private paymentSchedule EPaymentSchedule
+---@field private showOverdueValue Bool
+---@field private randomizeInitialOverdue Bool
+---@field private initialOverdue Int32
+---@field private allowAutomaticRentStatusChange Bool
+---@field private maxDays Int32
+---@field private currentOverdue Int32
+---@field private isInitialRentStateSet Bool
+---@field private currentRentStatus ERentStatus
+---@field private lastStatusChangeDay Int32
 ApartmentScreenControllerPS = {}
 
 ---@param fields? table

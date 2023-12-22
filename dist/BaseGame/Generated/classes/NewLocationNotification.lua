@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewLocationNotification: JournalNotification
----@field private ["districtName"] inkTextWidgetReference
----@field private ["districtIcon"] inkImageWidgetReference
----@field private ["districtFluffIcon"] inkImageWidgetReference
+---@field private districtName inkTextWidgetReference
+---@field private districtIcon inkImageWidgetReference
+---@field private districtFluffIcon inkImageWidgetReference
 NewLocationNotification = {}
 
 ---@param fields? table

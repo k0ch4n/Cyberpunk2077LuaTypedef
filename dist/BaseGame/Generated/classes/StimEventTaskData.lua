@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StimEventTaskData: gameScriptTaskData
----@field public ["cachedEvt"] senseStimuliEvent
----@field public ["delayed"] Bool
----@field public ["id"] Uint32
+---@field public cachedEvt senseStimuliEvent
+---@field public delayed Bool
+---@field public id Uint32
 StimEventTaskData = {}
 
 ---@param fields? table

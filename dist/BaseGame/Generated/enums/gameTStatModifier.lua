@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameTStatModifier: Enum
----@field ["Constant"] gameTStatModifier 0
----@field ["Random"] gameTStatModifier 1
----@field ["Curve"] gameTStatModifier 2
----@field ["Combined"] gameTStatModifier 3
----@field ["Count"] gameTStatModifier 4
----@field ["Invalid"] gameTStatModifier 5
+---@field Constant 0
+---@field Random 1
+---@field Curve 2
+---@field Combined 3
+---@field Count 4
+---@field Invalid 5
 gameTStatModifier = {}

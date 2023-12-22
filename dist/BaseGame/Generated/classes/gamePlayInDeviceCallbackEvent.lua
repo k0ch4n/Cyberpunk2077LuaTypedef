@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayInDeviceCallbackEvent: redEvent
----@field public ["wasPlayInDeviceSuccessful"] Bool
+---@field public wasPlayInDeviceSuccessful Bool
 gamePlayInDeviceCallbackEvent = {}
 
 ---@param fields? table

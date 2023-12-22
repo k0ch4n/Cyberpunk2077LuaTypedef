@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuffListVisibilityChangedEvent: redEvent
----@field public ["hasBuffs"] Bool
+---@field public hasBuffs Bool
 BuffListVisibilityChangedEvent = {}
 
 ---@param fields? table

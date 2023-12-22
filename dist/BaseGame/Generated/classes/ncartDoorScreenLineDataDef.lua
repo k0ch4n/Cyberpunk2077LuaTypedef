@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ncartDoorScreenLineDataDef
----@field public ["lineNumber"] Uint32
----@field public ["lineColor"] Color
----@field public ["lineSymbolWidget"] inkWidgetReference
+---@field public lineNumber Uint32
+---@field public lineColor Color
+---@field public lineSymbolWidget inkWidgetReference
 ncartDoorScreenLineDataDef = {}
 
 ---@param fields? table

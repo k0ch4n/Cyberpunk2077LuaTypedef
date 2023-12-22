@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PerkTraining: InteractiveDevice
----@field private ["progressBarHeaderText"] String
----@field private ["progressBarBottomText"] String
----@field private ["pulsingEndSoundName"] CName
----@field private ["animFeature"] AnimFeature_PerkDeviceData
----@field private ["uiSlots"] entSlotComponent
+---@field private progressBarHeaderText String
+---@field private progressBarBottomText String
+---@field private pulsingEndSoundName CName
+---@field private animFeature AnimFeature_PerkDeviceData
+---@field private uiSlots entSlotComponent
 PerkTraining = {}
 
 ---@param fields? table

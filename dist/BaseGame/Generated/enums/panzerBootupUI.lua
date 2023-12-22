@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class panzerBootupUI: Enum
----@field ["UnbootedIdle"] panzerBootupUI 0
----@field ["BootingAttempt"] panzerBootupUI 1
----@field ["BootingSuccess"] panzerBootupUI 2
----@field ["Loop"] panzerBootupUI 3
+---@field UnbootedIdle 0
+---@field BootingAttempt 1
+---@field BootingSuccess 2
+---@field Loop 3
 panzerBootupUI = {}

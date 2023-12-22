@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AlarmLight: BasicDistractionDevice
----@field protected ["isGlitching"] Bool
+---@field protected isGlitching Bool
 AlarmLight = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEntityTemplateToAppearancesAndColorVariantsMap: ISerializable
----@field public ["entries"] gameEntityToAppearancesAndColorVariantsMapEntry[]
+---@field public entries gameEntityToAppearancesAndColorVariantsMapEntry[]
 gameEntityTemplateToAppearancesAndColorVariantsMap = {}
 
 ---@param fields? table

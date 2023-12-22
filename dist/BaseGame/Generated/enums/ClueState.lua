@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ClueState: Enum
----@field ["active"] ClueState 0
----@field ["complete"] ClueState 1
+---@field active 0
+---@field complete 1
 ClueState = {}

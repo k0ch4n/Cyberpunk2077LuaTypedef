@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioAudioScenesMap: audioAudioMetadata
----@field public ["defaultScene"] CName
----@field public ["scenesToActivateByQuestEvent"] audioAudioSceneDictionary
+---@field public defaultScene CName
+---@field public scenesToActivateByQuestEvent audioAudioSceneDictionary
 audioAudioScenesMap = {}
 
 ---@param fields? table

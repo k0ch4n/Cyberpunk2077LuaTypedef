@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPrefabProxyMeshOnly: Enum
----@field ["SettingFromResource"] worldPrefabProxyMeshOnly 0
----@field ["Enabled"] worldPrefabProxyMeshOnly 1
----@field ["Disabled"] worldPrefabProxyMeshOnly 2
+---@field SettingFromResource 0
+---@field Enabled 1
+---@field Disabled 2
 worldPrefabProxyMeshOnly = {}

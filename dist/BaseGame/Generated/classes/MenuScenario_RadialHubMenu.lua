@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_RadialHubMenu: MenuScenario_BaseMenu
----@field public ["hubMenuInitData"] HubMenuInitData
----@field public ["currentState"] inkMenusState
----@field public ["combatRestriction"] Bool
----@field public ["hubMenuInstanceID"] Uint32
+---@field public hubMenuInitData HubMenuInitData
+---@field public currentState inkMenusState
+---@field public combatRestriction Bool
+---@field public hubMenuInstanceID Uint32
 MenuScenario_RadialHubMenu = {}
 
 ---@param fields? table

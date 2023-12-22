@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEntitySpawnerSlotData
----@field public ["slotName"] CName
----@field public ["spawnableObject"] TweakDBID
+---@field public slotName CName
+---@field public spawnableObject TweakDBID
 gameEntitySpawnerSlotData = {}
 
 ---@param fields? table

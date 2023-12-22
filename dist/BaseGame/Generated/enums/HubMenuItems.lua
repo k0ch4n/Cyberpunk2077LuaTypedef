@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class HubMenuItems: Enum
----@field ["None"] HubMenuItems -1
----@field ["Default"] HubMenuItems 0
----@field ["Crafting"] HubMenuItems 1
----@field ["Character"] HubMenuItems 2
----@field ["Inventory"] HubMenuItems 3
----@field ["Map"] HubMenuItems 4
----@field ["Journal"] HubMenuItems 5
----@field ["Phone"] HubMenuItems 6
----@field ["Database"] HubMenuItems 7
----@field ["Stats"] HubMenuItems 8
----@field ["Backpack"] HubMenuItems 9
----@field ["HubMenuItems"] HubMenuItems 10
----@field ["Codex"] HubMenuItems 11
----@field ["Shards"] HubMenuItems 12
----@field ["Tarot"] HubMenuItems 13
----@field ["Gear"] HubMenuItems 14
----@field ["Cyberware"] HubMenuItems 15
----@field ["VisualSets"] HubMenuItems 16
----@field ["Count"] HubMenuItems 17
+---@field None -1
+---@field Default 0
+---@field Crafting 1
+---@field Character 2
+---@field Inventory 3
+---@field Map 4
+---@field Journal 5
+---@field Phone 6
+---@field Database 7
+---@field Stats 8
+---@field Backpack 9
+---@field HubMenuItems 10
+---@field Codex 11
+---@field Shards 12
+---@field Tarot 13
+---@field Gear 14
+---@field Cyberware 15
+---@field VisualSets 16
+---@field Count 17
 HubMenuItems = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiPanzerScoreRecord: inkWidgetLogicController
----@field public ["nameWidget"] inkTextWidgetReference
----@field public ["scoreWidget"] inkTextWidgetReference
+---@field public nameWidget inkTextWidgetReference
+---@field public scoreWidget inkTextWidgetReference
 gameuiPanzerScoreRecord = {}
 
 ---@param fields? table

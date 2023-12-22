@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SubmenuDataBuilder: IScriptable
----@field private ["menuBuilder"] MenuDataBuilder
----@field private ["menuDataIndex"] Int32
+---@field private menuBuilder MenuDataBuilder
+---@field private menuDataIndex Int32
 SubmenuDataBuilder = {}
 
 ---@param fields? table

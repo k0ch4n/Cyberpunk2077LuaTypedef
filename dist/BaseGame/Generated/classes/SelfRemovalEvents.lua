@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SelfRemovalEvents: gamestateMachineFunctor
----@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
+---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
 SelfRemovalEvents = {}
 
 ---@param fields? table

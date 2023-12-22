@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class inkSaveTransferStatus: Enum
----@field ["ExportStarted"] inkSaveTransferStatus 0
----@field ["ExportSuccess"] inkSaveTransferStatus 1
----@field ["ExportFailed"] inkSaveTransferStatus 2
----@field ["ImportChecking"] inkSaveTransferStatus 3
----@field ["ImportStarted"] inkSaveTransferStatus 4
----@field ["ImportSuccess"] inkSaveTransferStatus 5
----@field ["ImportNoSave"] inkSaveTransferStatus 6
----@field ["ImportFailed"] inkSaveTransferStatus 7
----@field ["ImportNotEnoughSpace"] inkSaveTransferStatus 8
+---@field ExportStarted 0
+---@field ExportSuccess 1
+---@field ExportFailed 2
+---@field ImportChecking 3
+---@field ImportStarted 4
+---@field ImportSuccess 5
+---@field ImportNoSave 6
+---@field ImportFailed 7
+---@field ImportNotEnoughSpace 8
 inkSaveTransferStatus = {}

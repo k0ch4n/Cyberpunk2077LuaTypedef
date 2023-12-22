@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class HotkeyConsumableWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private ["radioSlot"] inkCompoundWidgetReference
----@field private ["container"] inkCompoundWidgetReference
----@field private ["DpadHintLibraryPath"] inkWidgetLibraryReference
----@field private ["IsInDriverCombat"] Bool
----@field private ["IsPoliceVehicle"] Bool
----@field private ["isRadioBlocked"] Bool
----@field private ["isInVehicleScene"] Bool
----@field private ["isQuestBlocked"] Bool
----@field private ["carHudListenerId"] Uint32
----@field private ["statusListener"] HotkeyRadioStatusListener
----@field private ["PlayerEnteredVehicleListener"] redCallbackObject
+---@field private radioSlot inkCompoundWidgetReference
+---@field private container inkCompoundWidgetReference
+---@field private DpadHintLibraryPath inkWidgetLibraryReference
+---@field private IsInDriverCombat Bool
+---@field private IsPoliceVehicle Bool
+---@field private isRadioBlocked Bool
+---@field private isInVehicleScene Bool
+---@field private isQuestBlocked Bool
+---@field private carHudListenerId Uint32
+---@field private statusListener HotkeyRadioStatusListener
+---@field private PlayerEnteredVehicleListener redCallbackObject
 HotkeyConsumableWidgetController = {}
 
 ---@param fields? table

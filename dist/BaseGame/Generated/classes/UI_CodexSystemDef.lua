@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_CodexSystemDef: gamebbScriptDefinition
----@field public ["CodexUpdated"] gamebbScriptID_Variant
+---@field public CodexUpdated gamebbScriptID_Variant
 UI_CodexSystemDef = {}
 
 ---@param fields? table

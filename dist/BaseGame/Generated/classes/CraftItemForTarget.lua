@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftItemForTarget: ActionBool
----@field public ["itemID"] TweakDBID
+---@field public itemID TweakDBID
 CraftItemForTarget = {}
 
 ---@param fields? table

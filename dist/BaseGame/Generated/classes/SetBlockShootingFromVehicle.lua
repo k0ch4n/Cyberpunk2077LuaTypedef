@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBlockShootingFromVehicle: gameScriptableSystemRequest
----@field public ["enable"] Bool
+---@field public enable Bool
 SetBlockShootingFromVehicle = {}
 
 ---@param fields? table

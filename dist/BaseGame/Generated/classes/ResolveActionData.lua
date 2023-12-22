@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResolveActionData: IScriptable
----@field public ["password"] String
+---@field public password String
 ResolveActionData = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class LcdScreenILogicController: inkWidgetLogicController
----@field protected ["defaultUI"] inkWidgetReference
----@field protected ["mainDisplayWidget"] inkVideoWidgetReference
----@field protected ["messegeWidget"] inkTextWidgetReference
----@field protected ["backgroundWidget"] inkImageWidgetReference
----@field protected ["messegeRecord"] gamedataScreenMessageData_Record
----@field protected ["replaceTextWithCustomNumber"] Bool
----@field protected ["customNumber"] Int32
+---@field protected defaultUI inkWidgetReference
+---@field protected mainDisplayWidget inkVideoWidgetReference
+---@field protected messegeWidget inkTextWidgetReference
+---@field protected backgroundWidget inkImageWidgetReference
+---@field protected messegeRecord gamedataScreenMessageData_Record
+---@field protected replaceTextWithCustomNumber Bool
+---@field protected customNumber Int32
 LcdScreenILogicController = {}
 
 ---@param fields? table

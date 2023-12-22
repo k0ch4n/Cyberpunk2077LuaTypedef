@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameScanningTooltipElementData
----@field public ["recordID"] TweakDBID
----@field public ["localizedName"] CName
----@field public ["localizedDescription"] CName
+---@field public recordID TweakDBID
+---@field public localizedName CName
+---@field public localizedDescription CName
 gameScanningTooltipElementData = {}
 
 ---@param fields? table

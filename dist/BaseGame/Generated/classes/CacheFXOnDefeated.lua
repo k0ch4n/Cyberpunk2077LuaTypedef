@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CacheFXOnDefeated: StatusEffectTasks
----@field public ["npcPuppet"] NPCPuppet
+---@field public npcPuppet NPCPuppet
 CacheFXOnDefeated = {}
 
 ---@param fields? table

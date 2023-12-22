@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameSceneAnimationMotionActionParamsMotionType: Enum
----@field ["Rid"] gameSceneAnimationMotionActionParamsMotionType 0
----@field ["Anim"] gameSceneAnimationMotionActionParamsMotionType 1
+---@field Rid 0
+---@field Anim 1
 gameSceneAnimationMotionActionParamsMotionType = {}

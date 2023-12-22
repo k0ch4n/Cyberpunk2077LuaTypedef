@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ApplyAnimWrappersOnWeapon: AIbehaviortaskScript
----@field private ["wrapperName"] CName
----@field private ["refOwner"] gamedataAIActionTarget_Record
----@field private ["owner"] gameObject
----@field private ["ownerPosition"] Vector4
----@field private ["animationController"] entAnimationControllerComponent
+---@field private wrapperName CName
+---@field private refOwner gamedataAIActionTarget_Record
+---@field private owner gameObject
+---@field private ownerPosition Vector4
+---@field private animationController entAnimationControllerComponent
 ApplyAnimWrappersOnWeapon = {}
 
 ---@param fields? table

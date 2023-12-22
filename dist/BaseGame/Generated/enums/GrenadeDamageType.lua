@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrenadeDamageType: Enum
----@field ["Normal"] GrenadeDamageType 0
----@field ["DoT"] GrenadeDamageType 1
----@field ["None"] GrenadeDamageType 2
+---@field Normal 0
+---@field DoT 1
+---@field None 2
 GrenadeDamageType = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterTransporterSpawnerController: inkWidgetLogicController
----@field public ["spawnDelay"] Float
----@field public ["isRandomSpawn"] Bool
----@field public ["choosenMounts"] gameuiarcadeShooterTransporterSpawnData[]
----@field public ["choosenOnes"] gameuiarcadeShooterTransporterSpawnData[]
+---@field public spawnDelay Float
+---@field public isRandomSpawn Bool
+---@field public choosenMounts gameuiarcadeShooterTransporterSpawnData[]
+---@field public choosenOnes gameuiarcadeShooterTransporterSpawnData[]
 gameuiarcadeShooterTransporterSpawnerController = {}
 
 ---@param fields? table

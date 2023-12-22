@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeUIHideForScreenshotEvent: redEvent
----@field public ["hide"] Bool
+---@field public hide Bool
 gameuiPhotoModeUIHideForScreenshotEvent = {}
 
 ---@param fields? table

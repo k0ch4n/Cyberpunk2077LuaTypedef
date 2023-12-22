@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InventoryDataManager: IScriptable
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["player"] PlayerPuppet
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["equipmentSystem"] EquipmentSystem
----@field private ["statsSystem"] gameStatsSystem
----@field private ["locMgr"] UILocalizationMap
+---@field private gameInstance ScriptGameInstance
+---@field private player PlayerPuppet
+---@field private transactionSystem gameTransactionSystem
+---@field private equipmentSystem EquipmentSystem
+---@field private statsSystem gameStatsSystem
+---@field private locMgr UILocalizationMap
 InventoryDataManager = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCRarityPrereq: gameIScriptablePrereq
----@field public ["rarity"] gamedataNPCRarity
----@field public ["invert"] Bool
+---@field public rarity gamedataNPCRarity
+---@field public invert Bool
 NPCRarityPrereq = {}
 
 ---@param fields? table

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsManager: gameScriptableComponent
----@field private ["Player"] PlayerPuppet
----@field private ["QuickSlotsBB"] gameIBlackboard
----@field private ["IsPlayerInCar"] Bool
----@field private ["PlayerVehicleID"] entEntityID
----@field private ["QuickDpadCommands"] QuickSlotCommand[]
----@field private ["QuickDpadCommands_Vehicle"] QuickSlotCommand[]
----@field private ["DefaultHoldCommands"] QuickSlotCommand[]
----@field private ["DefaultHoldCommands_Vehicle"] QuickSlotCommand[]
----@field private ["NumberOfItemsPerWheel"] Int32
----@field private ["QuickKeyboardCommands"] QuickSlotCommand[]
----@field private ["QuickKeyboardCommands_Vehicle"] QuickSlotCommand[]
----@field private ["lastPressAndHoldBtn"] QuickSlotButtonHoldEndEvent
----@field private ["WheelList_Vehicles"] QuickSlotCommand[]
----@field private ["currentWheelItem"] QuickSlotCommand
----@field private ["currentWeaponWheelItem"] QuickSlotCommand
----@field private ["currentGadgetWheelConsumable"] QuickSlotCommand
----@field private ["currentGadgetWheelGadget"] QuickSlotCommand
----@field private ["currentVehicleWheelItem"] QuickSlotCommand
----@field private ["currentGadgetWheelItem"] QuickSlotCommand
----@field private ["currentInteractionWheelItem"] QuickSlotCommand
----@field private ["OnVehPlayerStateDataChangedCallback"] redCallbackObject
+---@field private Player PlayerPuppet
+---@field private QuickSlotsBB gameIBlackboard
+---@field private IsPlayerInCar Bool
+---@field private PlayerVehicleID entEntityID
+---@field private QuickDpadCommands QuickSlotCommand[]
+---@field private QuickDpadCommands_Vehicle QuickSlotCommand[]
+---@field private DefaultHoldCommands QuickSlotCommand[]
+---@field private DefaultHoldCommands_Vehicle QuickSlotCommand[]
+---@field private NumberOfItemsPerWheel Int32
+---@field private QuickKeyboardCommands QuickSlotCommand[]
+---@field private QuickKeyboardCommands_Vehicle QuickSlotCommand[]
+---@field private lastPressAndHoldBtn QuickSlotButtonHoldEndEvent
+---@field private WheelList_Vehicles QuickSlotCommand[]
+---@field private currentWheelItem QuickSlotCommand
+---@field private currentWeaponWheelItem QuickSlotCommand
+---@field private currentGadgetWheelConsumable QuickSlotCommand
+---@field private currentGadgetWheelGadget QuickSlotCommand
+---@field private currentVehicleWheelItem QuickSlotCommand
+---@field private currentGadgetWheelItem QuickSlotCommand
+---@field private currentInteractionWheelItem QuickSlotCommand
+---@field private OnVehPlayerStateDataChangedCallback redCallbackObject
 QuickSlotsManager = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnPlayerAnimData
----@field public ["tierData"] gameSceneTierData
----@field public ["useZSnapping"] Bool
----@field public ["unmountBodyCarry"] Bool
----@field public ["isEndOfCarryingAnimation"] Bool
+---@field public tierData gameSceneTierData
+---@field public useZSnapping Bool
+---@field public unmountBodyCarry Bool
+---@field public isEndOfCarryingAnimation Bool
 scnPlayerAnimData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SandevistanEvents: TimeDilationEventsTransitions
----@field private ["lastTimeDilation"] Float
+---@field private lastTimeDilation Float
 SandevistanEvents = {}
 
 ---@param fields? table

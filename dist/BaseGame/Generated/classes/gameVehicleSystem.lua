@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVehicleSystem: gameIVehicleSystem
----@field private ["restrictionTags"] CName[]
+---@field private restrictionTags CName[]
 gameVehicleSystem = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class animLookAtAdditionalPreset_FullControl: animLookAtAdditionalPreset
----@field public ["useRightHand"] Bool
----@field public ["attachHandToOtherOne"] Bool
----@field public ["limits"] animLookAtLimits
----@field public ["suppress"] Float
----@field public ["mode"] Int32
+---@field public useRightHand Bool
+---@field public attachHandToOtherOne Bool
+---@field public limits animLookAtLimits
+---@field public suppress Float
+---@field public mode Int32
 animLookAtAdditionalPreset_FullControl = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SceneScreenGameController: gameuiWidgetGameController
----@field private ["onQuestAnimChangeListener"] redCallbackObject
+---@field private onQuestAnimChangeListener redCallbackObject
 SceneScreenGameController = {}
 
 ---@param fields? table

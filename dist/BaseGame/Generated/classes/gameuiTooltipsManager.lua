@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class gameuiTooltipsManager: inkWidgetLogicController
----@field public ["tooltipsContainer"] inkWidgetReference
----@field public ["flipX"] Bool
----@field public ["flipY"] Bool
----@field public ["flipVerticalAttachment"] Bool
----@field public ["rootMargin"] inkMargin
----@field public ["screenMargin"] inkMargin
----@field private ["TooltipRequesters"] inkWidgetReference[]
----@field private ["GenericTooltipsNames"] CName[]
----@field private ["TooltipLibrariesReferences"] TooltipWidgetReference[]
----@field private ["TooltipLibrariesStyledReferences"] TooltipWidgetStyledReference[]
----@field private ["TooltipsLibrary"] redResourceReferenceScriptToken
----@field private ["MenuTooltipStylePath"] redResourceReferenceScriptToken
----@field private ["HudTooltipStylePath"] redResourceReferenceScriptToken
----@field private ["prespawnLazyModules"] Bool
----@field private ["IndexedTooltips"] AGenericTooltipController[]
----@field private ["NamedTooltips"] NamedTooltipController[]
----@field private ["TooltipStylePath"] redResourceReferenceScriptToken
----@field private ["enableTransitionAnimation"] Bool
----@field private ["tooltipAnimHideDef"] inkanimDefinition
----@field private ["tooltipDelayedShowDef"] inkanimDefinition
----@field private ["tooltipAnimHide"] inkanimProxy
----@field private ["tooltipDelayedShow"] inkanimProxy
----@field private ["tooltipShowAnimProxy"] inkanimProxy
----@field private ["axisDataThreshold"] Float
----@field private ["mouseDataThreshold"] Float
----@field private ["isHidden"] Bool
+---@field public tooltipsContainer inkWidgetReference
+---@field public flipX Bool
+---@field public flipY Bool
+---@field public flipVerticalAttachment Bool
+---@field public rootMargin inkMargin
+---@field public screenMargin inkMargin
+---@field private TooltipRequesters inkWidgetReference[]
+---@field private GenericTooltipsNames CName[]
+---@field private TooltipLibrariesReferences TooltipWidgetReference[]
+---@field private TooltipLibrariesStyledReferences TooltipWidgetStyledReference[]
+---@field private TooltipsLibrary redResourceReferenceScriptToken
+---@field private MenuTooltipStylePath redResourceReferenceScriptToken
+---@field private HudTooltipStylePath redResourceReferenceScriptToken
+---@field private prespawnLazyModules Bool
+---@field private IndexedTooltips AGenericTooltipController[]
+---@field private NamedTooltips NamedTooltipController[]
+---@field private TooltipStylePath redResourceReferenceScriptToken
+---@field private enableTransitionAnimation Bool
+---@field private tooltipAnimHideDef inkanimDefinition
+---@field private tooltipDelayedShowDef inkanimDefinition
+---@field private tooltipAnimHide inkanimProxy
+---@field private tooltipDelayedShow inkanimProxy
+---@field private tooltipShowAnimProxy inkanimProxy
+---@field private axisDataThreshold Float
+---@field private mouseDataThreshold Float
+---@field private isHidden Bool
 gameuiTooltipsManager = {}
 
 ---@param fields? table

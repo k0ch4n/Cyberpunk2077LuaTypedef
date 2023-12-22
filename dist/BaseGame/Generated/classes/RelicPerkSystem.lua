@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RelicPerkSystem: gameScriptableSystem
----@field private ["registeredPerkDevices"] PerkDeviceMappinData[]
+---@field private registeredPerkDevices PerkDeviceMappinData[]
 RelicPerkSystem = {}
 
 ---@param fields? table

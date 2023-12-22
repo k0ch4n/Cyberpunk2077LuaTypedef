@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnAnimationMotionSample
----@field public ["time"] Float
----@field public ["transform"] Transform
+---@field public time Float
+---@field public transform Transform
 scnAnimationMotionSample = {}
 
 ---@param fields? table

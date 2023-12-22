@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorFindLaneTaskDefinition: AIbehaviorTaskDefinition
----@field public ["pointOnLane"] AIArgumentMapping
----@field public ["filter"] worldFindLaneFilter
+---@field public pointOnLane AIArgumentMapping
+---@field public filter worldFindLaneFilter
 AIbehaviorFindLaneTaskDefinition = {}
 
 ---@param fields? table

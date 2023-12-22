@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShowSingleMappinEvent: redEvent
----@field public ["index"] Int32
+---@field public index Int32
 ShowSingleMappinEvent = {}
 
 ---@param fields? table

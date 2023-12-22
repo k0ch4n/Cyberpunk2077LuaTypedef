@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventPostponedParameterVector: gamestateMachineeventPostponedParameterBase
----@field public ["value"] Vector4
+---@field public value Vector4
 gamestateMachineeventPostponedParameterVector = {}
 
 ---@param fields? table

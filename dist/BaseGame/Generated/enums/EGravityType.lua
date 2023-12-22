@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EGravityType: Enum
----@field ["LowGravity"] EGravityType 0
----@field ["Regular"] EGravityType 1
+---@field LowGravity 0
+---@field Regular 1
 EGravityType = {}

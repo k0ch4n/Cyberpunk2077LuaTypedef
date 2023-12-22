@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LightGroupsAreaSettings: IAreaSettings
----@field public ["groupFade"] curveData[]
+---@field public groupFade curveData[]
 LightGroupsAreaSettings = {}
 
 ---@param fields? table

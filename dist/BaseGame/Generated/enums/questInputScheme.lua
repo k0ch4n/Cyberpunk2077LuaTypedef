@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInputScheme: Enum
----@field ["Legacy"] questInputScheme 0
----@field ["Agile"] questInputScheme 1
----@field ["Alternative"] questInputScheme 2
+---@field Legacy 0
+---@field Agile 1
+---@field Alternative 2
 questInputScheme = {}

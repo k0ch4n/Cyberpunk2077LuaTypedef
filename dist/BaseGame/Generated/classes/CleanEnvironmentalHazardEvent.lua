@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CleanEnvironmentalHazardEvent: redEvent
----@field public ["stimEvent"] senseStimuliEvent
+---@field public stimEvent senseStimuliEvent
 CleanEnvironmentalHazardEvent = {}
 
 ---@param fields? table

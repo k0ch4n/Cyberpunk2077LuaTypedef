@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_AnimDatabase: animAnimNode_SkPhaseWithDurationAnim
----@field public ["animDataBase"] animAnimDatabaseCollectionEntry
----@field public ["inputLinks"] animIntLink[]
+---@field public animDataBase animAnimDatabaseCollectionEntry
+---@field public inputLinks animIntLink[]
 animAnimNode_AnimDatabase = {}
 
 ---@param fields? table

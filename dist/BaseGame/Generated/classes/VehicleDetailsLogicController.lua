@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class VehicleDetailsLogicController: inkWidgetLogicController
----@field private ["backButton"] inkWidgetReference
----@field private ["purchaseButton"] inkWidgetReference
----@field private ["ownedWidget"] inkWidgetReference
----@field private ["insufficientMoneyWidget"] inkWidgetReference
----@field private ["detailsImage"] inkImageWidgetReference
----@field private ["vehicleNameText"] inkTextWidgetReference
----@field private ["detailsText"] inkTextWidgetReference
----@field private ["scrollControllerWidget"] inkWidgetReference
----@field private ["gunImage"] inkImageWidgetReference
----@field private ["rocketImage"] inkImageWidgetReference
----@field private ["priceWrapper"] inkWidgetReference
----@field private ["priceText"] inkTextWidgetReference
----@field private ["discountWrapper"] inkWidgetReference
----@field private ["discountText"] inkTextWidgetReference
----@field private ["originalPriceWrapper"] inkWidgetReference
----@field private ["originalPriceText"] inkTextWidgetReference
----@field private ["discountImageWrapper"] inkWidgetReference
----@field private ["howToUnlockWrapper"] inkWidgetReference
----@field private ["howToUnlockText"] inkTextWidgetReference
----@field private ["offerRecord"] gamedataVehicleOffer_Record
----@field private ["price"] Int32
----@field private ["discount"] Float
+---@field private backButton inkWidgetReference
+---@field private purchaseButton inkWidgetReference
+---@field private ownedWidget inkWidgetReference
+---@field private insufficientMoneyWidget inkWidgetReference
+---@field private detailsImage inkImageWidgetReference
+---@field private vehicleNameText inkTextWidgetReference
+---@field private detailsText inkTextWidgetReference
+---@field private scrollControllerWidget inkWidgetReference
+---@field private gunImage inkImageWidgetReference
+---@field private rocketImage inkImageWidgetReference
+---@field private priceWrapper inkWidgetReference
+---@field private priceText inkTextWidgetReference
+---@field private discountWrapper inkWidgetReference
+---@field private discountText inkTextWidgetReference
+---@field private originalPriceWrapper inkWidgetReference
+---@field private originalPriceText inkTextWidgetReference
+---@field private discountImageWrapper inkWidgetReference
+---@field private howToUnlockWrapper inkWidgetReference
+---@field private howToUnlockText inkTextWidgetReference
+---@field private offerRecord gamedataVehicleOffer_Record
+---@field private price Int32
+---@field private discount Float
 VehicleDetailsLogicController = {}
 
 ---@param fields? table

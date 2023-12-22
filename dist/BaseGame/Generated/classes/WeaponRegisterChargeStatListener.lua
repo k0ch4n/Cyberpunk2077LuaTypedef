@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponRegisterChargeStatListener: redEvent
----@field public ["register"] Bool
+---@field public register Bool
 WeaponRegisterChargeStatListener = {}
 
 ---@param fields? table

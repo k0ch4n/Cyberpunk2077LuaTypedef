@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TCSTakeOverControlActivate: redEvent
----@field public ["IsQuickhack"] Bool
+---@field public IsQuickhack Bool
 TCSTakeOverControlActivate = {}
 
 ---@param fields? table

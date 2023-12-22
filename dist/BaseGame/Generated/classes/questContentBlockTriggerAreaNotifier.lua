@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questContentBlockTriggerAreaNotifier: worldITriggerAreaNotifer
----@field public ["resetTokenSpawnTimer"] Bool
+---@field public resetTokenSpawnTimer Bool
 questContentBlockTriggerAreaNotifier = {}
 
 ---@param fields? table

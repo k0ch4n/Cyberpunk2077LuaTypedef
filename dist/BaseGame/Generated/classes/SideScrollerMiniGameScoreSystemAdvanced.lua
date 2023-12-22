@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SideScrollerMiniGameScoreSystemAdvanced: gameScriptableSystem
----@field private ["scoreData"] Int32[]
----@field private ["gameNames"] String[]
+---@field private scoreData Int32[]
+---@field private gameNames String[]
 SideScrollerMiniGameScoreSystemAdvanced = {}
 
 ---@param fields? table

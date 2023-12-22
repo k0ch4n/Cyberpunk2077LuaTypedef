@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeComponent: gameComponent
----@field private ["defaultHighlightData"] HighlightEditableData
----@field private ["forcedHighlights"] FocusForcedHighlightData[]
----@field private ["activeForcedHighlight"] FocusForcedHighlightData
----@field private ["currentDefaultHighlight"] FocusForcedHighlightData
----@field private ["activeRevealRequests"] gameVisionModeSystemRevealIdentifier[]
----@field private ["isFocusModeActive"] Bool
----@field private ["wasCleanedUp"] Bool
----@field private ["slaveObjectsToHighlight"] entEntityID[]
+---@field private defaultHighlightData HighlightEditableData
+---@field private forcedHighlights FocusForcedHighlightData[]
+---@field private activeForcedHighlight FocusForcedHighlightData
+---@field private currentDefaultHighlight FocusForcedHighlightData
+---@field private activeRevealRequests gameVisionModeSystemRevealIdentifier[]
+---@field private isFocusModeActive Bool
+---@field private wasCleanedUp Bool
+---@field private slaveObjectsToHighlight entEntityID[]
 gameVisionModeComponent = {}
 
 ---@param fields? table

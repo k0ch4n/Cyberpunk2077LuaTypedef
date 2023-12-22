@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreloadAnimationsEvent: redEvent
----@field public ["streamingContextName"] CName
----@field public ["highPriority"] Bool
+---@field public streamingContextName CName
+---@field public highPriority Bool
 PreloadAnimationsEvent = {}
 
 ---@param fields? table

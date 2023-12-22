@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayedCrowdReactionEvent: redEvent
----@field public ["stimEvent"] senseStimuliEvent
----@field public ["vehicleFearPhase"] Int32
+---@field public stimEvent senseStimuliEvent
+---@field public vehicleFearPhase Int32
 DelayedCrowdReactionEvent = {}
 
 ---@param fields? table

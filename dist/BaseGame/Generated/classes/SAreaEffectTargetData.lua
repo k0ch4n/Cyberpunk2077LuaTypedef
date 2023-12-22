@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SAreaEffectTargetData
----@field public ["areaEffectID"] CName
----@field public ["onSelf"] Bool
----@field public ["onSlaves"] Bool
+---@field public areaEffectID CName
+---@field public onSelf Bool
+---@field public onSlaves Bool
 SAreaEffectTargetData = {}
 
 ---@param fields? table

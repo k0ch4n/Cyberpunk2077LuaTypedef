@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AntiRadar: gameweaponObject
----@field private ["colliderComponent"] entIComponent
----@field private ["gameEffectRef"] gameEffectRef
----@field private ["gameEffectInstance"] gameEffectInstance
----@field private ["jammedSensorsArray"] SensorDevice[]
+---@field private colliderComponent entIComponent
+---@field private gameEffectRef gameEffectRef
+---@field private gameEffectInstance gameEffectInstance
+---@field private jammedSensorsArray SensorDevice[]
 AntiRadar = {}
 
 ---@param fields? table

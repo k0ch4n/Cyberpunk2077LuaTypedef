@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialBracketLogicController: inkWidgetLogicController
----@field private ["loopAnim"] inkanimProxy
+---@field private loopAnim inkanimProxy
 gameuiTutorialBracketLogicController = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RenderSettingFactors
----@field public ["resolutionAberrationScale"] curveData
----@field public ["resolutionAberrationDispersal"] curveData
----@field public ["resolutionFilmGrainScale"] curveData
----@field public ["resolutionFilmGrainStrength"] curveData
+---@field public resolutionAberrationScale curveData
+---@field public resolutionAberrationDispersal curveData
+---@field public resolutionFilmGrainScale curveData
+---@field public resolutionFilmGrainStrength curveData
 RenderSettingFactors = {}
 
 ---@param fields? table

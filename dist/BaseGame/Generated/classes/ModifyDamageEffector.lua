@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageEffector: ModifyAttackEffector
----@field protected ["operationType"] EMathOperator
----@field protected ["value"] Float
----@field protected ["statType"] gamedataStatType
----@field private ["ownerID"] entEntityID
----@field private ["statListener"] ModifyDamageEffectorStatListener
----@field public ["statBasedValue"] Float
+---@field protected operationType EMathOperator
+---@field protected value Float
+---@field protected statType gamedataStatType
+---@field private ownerID entEntityID
+---@field private statListener ModifyDamageEffectorStatListener
+---@field public statBasedValue Float
 ModifyDamageEffector = {}
 
 ---@param fields? table

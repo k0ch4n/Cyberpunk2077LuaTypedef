@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeshAppearanceDeviceOperation: DeviceOperationBase
----@field public ["meshesAppearence"] CName
+---@field public meshesAppearence CName
 MeshAppearanceDeviceOperation = {}
 
 ---@param fields? table

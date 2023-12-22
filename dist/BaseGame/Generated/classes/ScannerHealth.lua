@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerHealth: ScannerChunk
----@field private ["currentHealth"] Int32
----@field private ["totalHealth"] Int32
+---@field private currentHealth Int32
+---@field private totalHealth Int32
 ScannerHealth = {}
 
 ---@param fields? table

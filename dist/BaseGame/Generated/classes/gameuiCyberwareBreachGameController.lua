@@ -2,34 +2,34 @@
 ---@diagnostic disable
 
 ---@class gameuiCyberwareBreachGameController: gameuiWidgetGameController
----@field public ["strokeHealthDepleation"] inkWidgetReference
----@field public ["adjustedScreenPosition"] Vector2
----@field public ["maxHealth"] Float
----@field public ["currentHealth"] Float
----@field public ["lastHealth"] Float
----@field private ["currentSway"] Vector2
----@field private ["breachCanvasWRef"] inkWidgetReference
----@field private ["strokeFgRef"] inkBorderWidgetReference
----@field private ["strokeBgRef"] inkBorderWidgetReference
----@field private ["waveStrokeRef"] inkBorderWidgetReference
----@field private ["fillRef"] inkWidgetReference
----@field private ["textScaleWidgetRef"] inkCompoundWidgetReference
----@field private ["xTextRef"] inkTextWidgetReference
----@field private ["yTextRef"] inkTextWidgetReference
----@field private ["errorTextRef"] inkTextWidgetReference
----@field private ["strokeThicknessPercent"] Float
----@field private ["minThickness"] Float
----@field private ["maxThickness"] Float
----@field private ["minTextScale"] Float
----@field private ["maxTextScale"] Float
----@field private ["maxRadius"] Float
----@field private ["minRadiusForFluff"] Float
----@field private ["previousAlmostTimeout"] Bool
----@field private ["cwBreachCallbackHandle"] redCallbackObject
----@field private ["weaponSwayCallbackHandle"] redCallbackObject
----@field private ["introAnimationProxy"] inkanimProxy
----@field private ["showAnimationProxy"] inkanimProxy
----@field private ["timeoutAnimationProxy"] inkanimProxy
+---@field public strokeHealthDepleation inkWidgetReference
+---@field public adjustedScreenPosition Vector2
+---@field public maxHealth Float
+---@field public currentHealth Float
+---@field public lastHealth Float
+---@field private currentSway Vector2
+---@field private breachCanvasWRef inkWidgetReference
+---@field private strokeFgRef inkBorderWidgetReference
+---@field private strokeBgRef inkBorderWidgetReference
+---@field private waveStrokeRef inkBorderWidgetReference
+---@field private fillRef inkWidgetReference
+---@field private textScaleWidgetRef inkCompoundWidgetReference
+---@field private xTextRef inkTextWidgetReference
+---@field private yTextRef inkTextWidgetReference
+---@field private errorTextRef inkTextWidgetReference
+---@field private strokeThicknessPercent Float
+---@field private minThickness Float
+---@field private maxThickness Float
+---@field private minTextScale Float
+---@field private maxTextScale Float
+---@field private maxRadius Float
+---@field private minRadiusForFluff Float
+---@field private previousAlmostTimeout Bool
+---@field private cwBreachCallbackHandle redCallbackObject
+---@field private weaponSwayCallbackHandle redCallbackObject
+---@field private introAnimationProxy inkanimProxy
+---@field private showAnimationProxy inkanimProxy
+---@field private timeoutAnimationProxy inkanimProxy
 gameuiCyberwareBreachGameController = {}
 
 ---@param fields? table

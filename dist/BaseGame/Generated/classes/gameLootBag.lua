@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameLootBag: gameObject
----@field private ["lootQuality"] gamedataQuality
----@field private ["hasQuestItems"] Bool
----@field private ["isInIconForcedVisibilityRange"] Bool
----@field private ["isIconic"] Bool
----@field private ["isEmpty"] Bool
----@field private ["activeQualityRangeInteraction"] CName
+---@field private lootQuality gamedataQuality
+---@field private hasQuestItems Bool
+---@field private isInIconForcedVisibilityRange Bool
+---@field private isIconic Bool
+---@field private isEmpty Bool
+---@field private activeQualityRangeInteraction CName
 gameLootBag = {}
 
 ---@param fields? table

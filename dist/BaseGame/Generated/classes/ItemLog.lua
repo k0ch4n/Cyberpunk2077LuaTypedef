@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ItemLog: gameuiMenuGameController
----@field private ["listRef"] inkCompoundWidgetReference
----@field private ["initialPopupDelay"] Float
----@field private ["popupList"] DisassemblePopupLogicController[]
----@field private ["listOfAddedInventoryItems"] gameInventoryItemData[]
----@field private ["player"] PlayerPuppet
----@field private ["InventoryManager"] InventoryDataManagerV2
----@field private ["data"] ItemLogUserData
----@field private ["onScreenCount"] Int32
----@field private ["animProxy"] inkanimProxy
----@field private ["alpha_fadein"] inkanimDefinition
----@field private ["AnimOptions"] inkanimPlaybackOptions
+---@field private listRef inkCompoundWidgetReference
+---@field private initialPopupDelay Float
+---@field private popupList DisassemblePopupLogicController[]
+---@field private listOfAddedInventoryItems gameInventoryItemData[]
+---@field private player PlayerPuppet
+---@field private InventoryManager InventoryDataManagerV2
+---@field private data ItemLogUserData
+---@field private onScreenCount Int32
+---@field private animProxy inkanimProxy
+---@field private alpha_fadein inkanimDefinition
+---@field private AnimOptions inkanimPlaybackOptions
 ItemLog = {}
 
 ---@param fields? table

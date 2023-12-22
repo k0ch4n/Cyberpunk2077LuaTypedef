@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class vehicleInteriorUIGameController: gameuiHUDGameController
----@field private ["vehicleBlackboard"] gameIBlackboard
----@field private ["vehicleBBStateConectionId"] redCallbackObject
----@field private ["vehicleBBReadyConectionId"] redCallbackObject
----@field private ["vehicleBBUIActivId"] redCallbackObject
----@field private ["speedBBConnectionId"] redCallbackObject
----@field private ["gearBBConnectionId"] redCallbackObject
----@field private ["rpmValueBBConnectionId"] redCallbackObject
----@field private ["rpmMaxBBConnectionId"] redCallbackObject
----@field private ["autopilotOnId"] redCallbackObject
----@field private ["rootWidget"] inkCanvasWidget
----@field private ["speedTextWidget"] inkTextWidgetReference
----@field private ["gearTextWidget"] inkTextWidgetReference
----@field private ["rpmValueWidget"] inkTextWidgetReference
----@field private ["rpmGaugeForegroundWidget"] inkRectangleWidgetReference
----@field private ["autopilotTextWidget"] inkTextWidgetReference
----@field private ["activeChunks"] Int32
----@field private ["chunksNumber"] Int32
----@field private ["dynamicRpmPath"] CName
----@field private ["rpmPerChunk"] Int32
----@field private ["hasRevMax"] Bool
----@field private ["rpmGaugeMaxSize"] Vector2
----@field private ["rpmMaxValue"] Float
----@field private ["isInAutoPilot"] Bool
----@field private ["isVehicleReady"] Bool
----@field private ["HudRedLineAnimation"] inkanimProxy
+---@field private vehicleBlackboard gameIBlackboard
+---@field private vehicleBBStateConectionId redCallbackObject
+---@field private vehicleBBReadyConectionId redCallbackObject
+---@field private vehicleBBUIActivId redCallbackObject
+---@field private speedBBConnectionId redCallbackObject
+---@field private gearBBConnectionId redCallbackObject
+---@field private rpmValueBBConnectionId redCallbackObject
+---@field private rpmMaxBBConnectionId redCallbackObject
+---@field private autopilotOnId redCallbackObject
+---@field private rootWidget inkCanvasWidget
+---@field private speedTextWidget inkTextWidgetReference
+---@field private gearTextWidget inkTextWidgetReference
+---@field private rpmValueWidget inkTextWidgetReference
+---@field private rpmGaugeForegroundWidget inkRectangleWidgetReference
+---@field private autopilotTextWidget inkTextWidgetReference
+---@field private activeChunks Int32
+---@field private chunksNumber Int32
+---@field private dynamicRpmPath CName
+---@field private rpmPerChunk Int32
+---@field private hasRevMax Bool
+---@field private rpmGaugeMaxSize Vector2
+---@field private rpmMaxValue Float
+---@field private isInAutoPilot Bool
+---@field private isVehicleReady Bool
+---@field private HudRedLineAnimation inkanimProxy
 vehicleInteriorUIGameController = {}
 
 ---@param fields? table

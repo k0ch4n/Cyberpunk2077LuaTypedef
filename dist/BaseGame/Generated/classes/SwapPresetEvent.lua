@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SwapPresetEvent: redEvent
----@field public ["mappingName"] String
+---@field public mappingName String
 SwapPresetEvent = {}
 
 ---@param fields? table

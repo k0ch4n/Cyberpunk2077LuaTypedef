@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemAddedNotification: GenericNotificationController
----@field protected ["itemImage"] inkImageWidgetReference
----@field protected ["rarityBar"] inkWidgetReference
----@field protected ["itemIconGender"] gameItemIconGender
----@field protected ["animationName"] CName
+---@field protected itemImage inkImageWidgetReference
+---@field protected rarityBar inkWidgetReference
+---@field protected itemIconGender gameItemIconGender
+---@field protected animationName CName
 ItemAddedNotification = {}
 
 ---@param fields? table

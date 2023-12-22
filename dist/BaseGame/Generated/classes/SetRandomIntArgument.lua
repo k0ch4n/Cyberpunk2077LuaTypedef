@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetRandomIntArgument: AIRandomTasks
----@field public ["MaxValue"] Int32
----@field public ["MinValue"] Int32
----@field public ["ArgumentName"] CName
+---@field public MaxValue Int32
+---@field public MinValue Int32
+---@field public ArgumentName CName
 SetRandomIntArgument = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CustomQuestNotificationGameController: gameuiHUDGameController
----@field private ["label"] inkTextWidgetReference
----@field private ["desc"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["fluffHeader"] inkTextWidgetReference
----@field private ["root"] inkWidget
----@field private ["data"] CustomQuestNotificationUserData
----@field private ["animationProxy"] inkanimProxy
+---@field private label inkTextWidgetReference
+---@field private desc inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private fluffHeader inkTextWidgetReference
+---@field private root inkWidget
+---@field private data CustomQuestNotificationUserData
+---@field private animationProxy inkanimProxy
 CustomQuestNotificationGameController = {}
 
 ---@param fields? table

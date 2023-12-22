@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class analogTachLogicController: IVehicleModuleController
----@field private ["analogTachNeedleWidget"] inkWidgetReference
----@field private ["analogTachNeedleMinRotation"] Float
----@field private ["analogTachNeedleMaxRotation"] Float
----@field private ["rpmValueBBConnectionId"] redCallbackObject
----@field private ["vehBB"] gameIBlackboard
----@field private ["rpmMaxValue"] Float
----@field private ["rpmMinValue"] Float
+---@field private analogTachNeedleWidget inkWidgetReference
+---@field private analogTachNeedleMinRotation Float
+---@field private analogTachNeedleMaxRotation Float
+---@field private rpmValueBBConnectionId redCallbackObject
+---@field private vehBB gameIBlackboard
+---@field private rpmMaxValue Float
+---@field private rpmMinValue Float
 analogTachLogicController = {}
 
 ---@param fields? table

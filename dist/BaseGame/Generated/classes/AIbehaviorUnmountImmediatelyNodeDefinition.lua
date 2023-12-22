@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorUnmountImmediatelyNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public ["mountData"] AIArgumentMapping
+---@field public mountData AIArgumentMapping
 AIbehaviorUnmountImmediatelyNodeDefinition = {}
 
 ---@param fields? table

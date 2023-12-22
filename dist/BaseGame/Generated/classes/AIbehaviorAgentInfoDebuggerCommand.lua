@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorAgentInfoDebuggerCommand: AIbehaviorIDebuggerCommand
----@field public ["entityId"] entEntityID
----@field public ["agentName"] String
----@field public ["isSelected"] Bool
----@field public ["entries"] AIbehaviorAgentInfoDebuggerCommandEntry[]
+---@field public entityId entEntityID
+---@field public agentName String
+---@field public isSelected Bool
+---@field public entries AIbehaviorAgentInfoDebuggerCommandEntry[]
 AIbehaviorAgentInfoDebuggerCommand = {}
 
 ---@param fields? table

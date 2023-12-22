@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CustomActionOperations: DeviceOperations
----@field public ["customActions"] SCustomDeviceActionsData
----@field protected ["customActionsOperations"] SCustomActionOperationData[]
+---@field public customActions SCustomDeviceActionsData
+---@field protected customActionsOperations SCustomActionOperationData[]
 CustomActionOperations = {}
 
 ---@param fields? table

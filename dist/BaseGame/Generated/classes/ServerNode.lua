@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ServerNode: InteractiveDevice
----@field private ["minWeaponCharge"] Float
----@field private ["maxWeaponCharge"] Float
----@field private ["livePinMeshes"] entMeshComponent[]
----@field private ["deadPinMeshes"] entMeshComponent[]
----@field private ["closedFrontPlates"] entMeshComponent[]
----@field private ["animatedFrontPlates"] entMeshComponent[]
----@field private ["numOfPins"] Int32
----@field private ["alivePins"] Int32
----@field protected ["pinIndices"] Int32[]
----@field protected ["nodesDestroyedInTotalQuestFactName"] CName
----@field private ["animFeatureServer"] AnimFeatureServer
----@field private ["statPoolSystem"] gameStatPoolsSystem
----@field private ["healthListener"] ServerNodeHealthChangeListener
----@field private ["ventingFX"] CName
----@field private ["damagedFX"] CName
----@field protected ["destroyedMesh"] entPhysicalMeshComponent
+---@field private minWeaponCharge Float
+---@field private maxWeaponCharge Float
+---@field private livePinMeshes entMeshComponent[]
+---@field private deadPinMeshes entMeshComponent[]
+---@field private closedFrontPlates entMeshComponent[]
+---@field private animatedFrontPlates entMeshComponent[]
+---@field private numOfPins Int32
+---@field private alivePins Int32
+---@field protected pinIndices Int32[]
+---@field protected nodesDestroyedInTotalQuestFactName CName
+---@field private animFeatureServer AnimFeatureServer
+---@field private statPoolSystem gameStatPoolsSystem
+---@field private healthListener ServerNodeHealthChangeListener
+---@field private ventingFX CName
+---@field private damagedFX CName
+---@field protected destroyedMesh entPhysicalMeshComponent
 ServerNode = {}
 
 ---@param fields? table

@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class AimingStateDecisions: UpperBodyTransition
----@field private ["callbackIDs"] redCallbackObject[]
----@field private ["executionOwner"] gameObject
----@field private ["statListener"] DefaultTransitionStatListener
----@field private ["statusEffectListener"] DefaultTransitionStatusEffectListener
----@field private ["attachmentSlotListener"] gameAttachmentSlotsScriptListener
----@field private ["sceneTier"] Int32
----@field private ["vehicleState"] Int32
----@field private ["highLevelState"] Int32
----@field private ["combatGadgetState"] Int32
----@field private ["takedownState"] Int32
----@field private ["weaponState"] Int32
----@field private ["cameraAimPressed"] Bool
----@field private ["sceneAimForced"] Bool
----@field private ["shouldAim"] Bool
----@field private ["hasRightHandItemEquipped"] Bool
----@field private ["isDead"] Bool
----@field private ["isWeaponBlockingAiming"] Bool
----@field private ["visionModeActive"] Bool
----@field private ["isDodging"] Bool
----@field private ["hasThrowableMeleeWeapon"] Bool
----@field private ["canAimWhileDodging"] Bool
----@field private ["canThrowWeapon"] Bool
----@field private ["aimForced"] Bool
----@field private ["beingCreated"] Bool
----@field private ["mouseZoomLevel"] Float
+---@field private callbackIDs redCallbackObject[]
+---@field private executionOwner gameObject
+---@field private statListener DefaultTransitionStatListener
+---@field private statusEffectListener DefaultTransitionStatusEffectListener
+---@field private attachmentSlotListener gameAttachmentSlotsScriptListener
+---@field private sceneTier Int32
+---@field private vehicleState Int32
+---@field private highLevelState Int32
+---@field private combatGadgetState Int32
+---@field private takedownState Int32
+---@field private weaponState Int32
+---@field private cameraAimPressed Bool
+---@field private sceneAimForced Bool
+---@field private shouldAim Bool
+---@field private hasRightHandItemEquipped Bool
+---@field private isDead Bool
+---@field private isWeaponBlockingAiming Bool
+---@field private visionModeActive Bool
+---@field private isDodging Bool
+---@field private hasThrowableMeleeWeapon Bool
+---@field private canAimWhileDodging Bool
+---@field private canThrowWeapon Bool
+---@field private aimForced Bool
+---@field private beingCreated Bool
+---@field private mouseZoomLevel Float
 AimingStateDecisions = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameDamageSystem: gameIDamageSystem
----@field public ["previewTarget"] previewTargetStruct
----@field public ["previewLock"] Bool
----@field public ["previewRWLockTemp"] ScriptReentrantRWLock
+---@field public previewTarget previewTargetStruct
+---@field public previewLock Bool
+---@field public previewRWLockTemp ScriptReentrantRWLock
 gameDamageSystem = {}
 
 ---@param fields? table

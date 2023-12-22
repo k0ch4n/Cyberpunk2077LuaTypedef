@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class PlatformControllerPS: ScriptableDeviceComponentPS
----@field protected ["floors"] NodeRef[]
----@field protected ["startingFloor"] Int32
----@field protected ["speed"] Float
----@field protected ["curve"] CName
----@field private ["errorMSG"] String
----@field private ["nextFloor"] Int32
----@field private ["prevFloor"] Int32
----@field private ["destinationFloor"] Int32
----@field private ["currentFloor"] Int32
----@field private ["isPlayerOnPlatform"] Bool
----@field private ["isMoving"] Bool
----@field private ["paused"] Bool
----@field private ["pausingTime"] Float
+---@field protected floors NodeRef[]
+---@field protected startingFloor Int32
+---@field protected speed Float
+---@field protected curve CName
+---@field private errorMSG String
+---@field private nextFloor Int32
+---@field private prevFloor Int32
+---@field private destinationFloor Int32
+---@field private currentFloor Int32
+---@field private isPlayerOnPlatform Bool
+---@field private isMoving Bool
+---@field private paused Bool
+---@field private pausingTime Float
 PlatformControllerPS = {}
 
 ---@param fields? table

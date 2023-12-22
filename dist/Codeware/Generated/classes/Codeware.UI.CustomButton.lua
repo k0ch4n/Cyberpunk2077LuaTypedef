@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_CustomButton: Codeware_UI_inkCustomController
----@field public ["root"] inkCompoundWidget
----@field public ["label"] inkTextWidget
----@field public ["useAnimations"] Bool
----@field public ["useSounds"] Bool
----@field public ["isDisabled"] Bool
----@field public ["isHovered"] Bool
----@field public ["isPressed"] Bool
+---@field public root inkCompoundWidget
+---@field public label inkTextWidget
+---@field public useAnimations Bool
+---@field public useSounds Bool
+---@field public isDisabled Bool
+---@field public isHovered Bool
+---@field public isPressed Bool
 Codeware_UI_CustomButton = {}
 
 ---@return nil

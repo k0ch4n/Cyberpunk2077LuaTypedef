@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InteractiveAdControllerPS: ScriptableDeviceComponentPS
----@field protected ["showAd"] Bool
----@field protected ["showVendor"] Bool
----@field protected ["locationAdded"] Bool
+---@field protected showAd Bool
+---@field protected showVendor Bool
+---@field protected locationAdded Bool
 InteractiveAdControllerPS = {}
 
 ---@param fields? table

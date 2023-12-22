@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMountVehicleOrigin: Enum
----@field ["Any"] questMountVehicleOrigin 0
----@field ["NotStolen"] questMountVehicleOrigin 1
----@field ["Stolen"] questMountVehicleOrigin 2
+---@field Any 0
+---@field NotStolen 1
+---@field Stolen 2
 questMountVehicleOrigin = {}

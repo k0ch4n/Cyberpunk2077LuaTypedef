@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedamageAttackData: IScriptable
----@field public ["attackType"] gamedataAttackType
----@field public ["instigator"] gameObject
----@field public ["source"] gameObject
----@field public ["weapon"] gameweaponObject
----@field public ["attackDefinition"] gameIAttack
----@field public ["attackPosition"] Vector4
----@field public ["weaponCharge"] Float
----@field public ["numRicochetBounces"] Int32
----@field public ["numAttackSpread"] Int32
----@field public ["attackTime"] Float
----@field public ["triggerMode"] gamedataTriggerMode
----@field private ["flags"] SHitFlag[]
----@field private ["statusEffects"] SHitStatusEffect[]
----@field private ["hitType"] gameuiHitType
----@field private ["vehicleImpactForce"] Float
----@field private ["minimumHealthPercent"] Float
----@field private ["additionalCritChance"] Float
----@field private ["randRoll"] Float
----@field private ["hitReactionMin"] Int32
----@field private ["hitReactionMax"] Int32
+---@field public attackType gamedataAttackType
+---@field public instigator gameObject
+---@field public source gameObject
+---@field public weapon gameweaponObject
+---@field public attackDefinition gameIAttack
+---@field public attackPosition Vector4
+---@field public weaponCharge Float
+---@field public numRicochetBounces Int32
+---@field public numAttackSpread Int32
+---@field public attackTime Float
+---@field public triggerMode gamedataTriggerMode
+---@field private flags SHitFlag[]
+---@field private statusEffects SHitStatusEffect[]
+---@field private hitType gameuiHitType
+---@field private vehicleImpactForce Float
+---@field private minimumHealthPercent Float
+---@field private additionalCritChance Float
+---@field private randRoll Float
+---@field private hitReactionMin Int32
+---@field private hitReactionMax Int32
 gamedamageAttackData = {}
 
 ---@param fields? table

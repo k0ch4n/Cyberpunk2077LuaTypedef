@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SaveEquipmentSetRequest: gamePlayerScriptableSystemRequest
----@field public ["setName"] String
----@field public ["setType"] gameEquipmentSetType
+---@field public setName String
+---@field public setType gameEquipmentSetType
 SaveEquipmentSetRequest = {}
 
 ---@param fields? table

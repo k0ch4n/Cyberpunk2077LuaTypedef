@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamesmartGunSmartGunLockEvent: redEvent
----@field public ["locked"] Bool
----@field public ["lockedOnByPlayer"] Bool
+---@field public locked Bool
+---@field public lockedOnByPlayer Bool
 gamesmartGunSmartGunLockEvent = {}
 
 ---@param fields? table

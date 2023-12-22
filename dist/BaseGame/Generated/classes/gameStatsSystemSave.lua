@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatsSystemSave: ISerializable
----@field public ["statsObjectsData"] gameStatsSeedKey[]
----@field public ["statModifiersData"] gameStatModifierSave[]
+---@field public statsObjectsData gameStatsSeedKey[]
+---@field public statModifiersData gameStatModifierSave[]
 gameStatsSystemSave = {}
 
 ---@param fields? table

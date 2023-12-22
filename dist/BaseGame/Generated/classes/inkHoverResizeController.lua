@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class inkHoverResizeController: inkWidgetLogicController
----@field private ["root"] inkWidget
----@field private ["animToNew"] inkanimDefinition
----@field private ["animToOld"] inkanimDefinition
----@field public ["vectorNewSize"] Vector2
----@field public ["vectorOldSize"] Vector2
----@field public ["animationDuration"] Float
+---@field private root inkWidget
+---@field private animToNew inkanimDefinition
+---@field private animToOld inkanimDefinition
+---@field public vectorNewSize Vector2
+---@field public vectorOldSize Vector2
+---@field public animationDuration Float
 inkHoverResizeController = {}
 
 ---@param fields? table

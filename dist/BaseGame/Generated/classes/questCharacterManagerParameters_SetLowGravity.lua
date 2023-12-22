@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetLowGravity: questICharacterManagerParameters_NodeSubType
----@field public ["enable"] Bool
+---@field public enable Bool
 questCharacterManagerParameters_SetLowGravity = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class AIFollowerRole: AIRole
----@field protected ["followerRef"] gameEntityReference
----@field private ["followTarget"] gameObject
----@field private ["owner"] gameObject
----@field private ["attitudeGroupName"] CName
----@field private ["followTargetSquads"] CName[]
----@field private ["playerCombatListener"] redCallbackObject
----@field private ["lastStealthLeaveTimeStamp"] EngineTime
----@field private ["friendlyTargetSlotListener"] gameAttachmentSlotsScriptListener
----@field private ["ownerTargetSlotListener"] gameAttachmentSlotsScriptListener
----@field private ["isFriendMelee"] Bool
----@field private ["isOwnerSniper"] Bool
+---@field protected followerRef gameEntityReference
+---@field private followTarget gameObject
+---@field private owner gameObject
+---@field private attitudeGroupName CName
+---@field private followTargetSquads CName[]
+---@field private playerCombatListener redCallbackObject
+---@field private lastStealthLeaveTimeStamp EngineTime
+---@field private friendlyTargetSlotListener gameAttachmentSlotsScriptListener
+---@field private ownerTargetSlotListener gameAttachmentSlotsScriptListener
+---@field private isFriendMelee Bool
+---@field private isOwnerSniper Bool
 AIFollowerRole = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class worldHeatmapLayer: CResource
----@field public ["minValue"] Uint32
----@field public ["maxValue"] Uint32
----@field public ["name"] String
----@field public ["units"] String
----@field public ["invert"] Bool
+---@field public minValue Uint32
+---@field public maxValue Uint32
+---@field public name String
+---@field public units String
+---@field public invert Bool
 worldHeatmapLayer = {}
 
 ---@param fields? table

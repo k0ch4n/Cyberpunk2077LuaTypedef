@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCSharedDataDefinition
----@field public ["defaultChoices"] String[]
----@field public ["visualizer"] gameuiIChoiceVisualizer
+---@field public defaultChoices String[]
+---@field public visualizer gameuiIChoiceVisualizer
 gameinteractionsCSharedDataDefinition = {}
 
 ---@param fields? table

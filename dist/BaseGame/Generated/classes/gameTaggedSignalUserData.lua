@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTaggedSignalUserData: gameSignalUserData
----@field public ["tags"] CName[]
+---@field public tags CName[]
 gameTaggedSignalUserData = {}
 
 ---@param fields? table

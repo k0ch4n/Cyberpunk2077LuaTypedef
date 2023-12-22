@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineResultString
----@field public ["value"] String
----@field public ["valid"] Bool
+---@field public value String
+---@field public valid Bool
 gamestateMachineResultString = {}
 
 ---@param fields? table

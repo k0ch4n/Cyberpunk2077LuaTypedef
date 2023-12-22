@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EProgressBarState: Enum
----@field ["Available"] EProgressBarState 0
----@field ["Blocked"] EProgressBarState 1
----@field ["Invisible"] EProgressBarState 2
+---@field Available 0
+---@field Blocked 1
+---@field Invisible 2
 EProgressBarState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTutorialOverlayInputRequest: redEvent
----@field public ["isInputRequested"] Bool
+---@field public isInputRequested Bool
 inkTutorialOverlayInputRequest = {}
 
 ---@param fields? table

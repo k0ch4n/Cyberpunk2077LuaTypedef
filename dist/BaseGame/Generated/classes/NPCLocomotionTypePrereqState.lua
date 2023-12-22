@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCLocomotionTypePrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["listenerInt"] redCallbackObject
+---@field public owner gameObject
+---@field public listenerInt redCallbackObject
 NPCLocomotionTypePrereqState = {}
 
 ---@param fields? table

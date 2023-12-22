@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Box
----@field public ["Min"] Vector4
----@field public ["Max"] Vector4
+---@field public Min Vector4
+---@field public Max Vector4
 Box = {}
 
 ---@param fields? table

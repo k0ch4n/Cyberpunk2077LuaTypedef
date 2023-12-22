@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameEffectAction_NewEffect_SpreadingEffect: gameEffectPostAction
----@field public ["tagInThisFile"] CName
----@field public ["forwardOffset"] Float
----@field public ["childEffect"] Bool
----@field public ["childEffectTag"] CName
+---@field public tagInThisFile CName
+---@field public forwardOffset Float
+---@field public childEffect Bool
+---@field public childEffectTag CName
 gameEffectAction_NewEffect_SpreadingEffect = {}
 
 ---@param fields? table

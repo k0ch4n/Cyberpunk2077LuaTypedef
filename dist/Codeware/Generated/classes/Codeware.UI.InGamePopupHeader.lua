@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InGamePopupHeader: Codeware_UI_inkCustomController
----@field public ["title"] inkTextWidget
----@field public ["fluffLeft"] inkTextWidget
----@field public ["fluffRight"] inkTextWidget
+---@field public title inkTextWidget
+---@field public fluffLeft inkTextWidget
+---@field public fluffRight inkTextWidget
 Codeware_UI_InGamePopupHeader = {}
 
 ---@param fields? table

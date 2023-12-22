@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestMapPinLink: gameJournalEntry
----@field public ["path"] gameJournalPath
+---@field public path gameJournalPath
 gameJournalQuestMapPinLink = {}
 
 ---@param fields? table

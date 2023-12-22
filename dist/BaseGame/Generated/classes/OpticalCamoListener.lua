@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpticalCamoListener: gameScriptStatusEffectListener
----@field private ["controller"] gameuiCrosshairBaseGameController
+---@field private controller gameuiCrosshairBaseGameController
 OpticalCamoListener = {}
 
 ---@param fields? table

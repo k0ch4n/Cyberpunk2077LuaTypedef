@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class redResourceListResource: CResource
----@field public ["resources"] CResource[]
----@field public ["descriptions"] String[]
+---@field public resources CResource[]
+---@field public descriptions String[]
 redResourceListResource = {}
 
 ---@param fields? table

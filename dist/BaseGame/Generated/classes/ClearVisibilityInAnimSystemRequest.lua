@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ClearVisibilityInAnimSystemRequest: gameScriptableSystemRequest
----@field public ["entityID"] entEntityID
+---@field public entityID entEntityID
 ClearVisibilityInAnimSystemRequest = {}
 
 ---@param fields? table

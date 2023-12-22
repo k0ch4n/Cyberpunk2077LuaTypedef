@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TextSectionLogicController: inkWidgetLogicController
----@field private ["rootWidget"] inkWidget
----@field private ["textWidget"] inkTextWidget
----@field private ["showAnimProxy"] inkanimProxy
+---@field private rootWidget inkWidget
+---@field private textWidget inkTextWidget
+---@field private showAnimProxy inkanimProxy
 TextSectionLogicController = {}
 
 ---@param fields? table

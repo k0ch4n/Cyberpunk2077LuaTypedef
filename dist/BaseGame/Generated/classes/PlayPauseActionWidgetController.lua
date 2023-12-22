@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayPauseActionWidgetController: NextPreviousActionWidgetController
----@field protected ["playContainer"] inkWidgetReference
----@field private ["isPlaying"] Bool
+---@field protected playContainer inkWidgetReference
+---@field private isPlaying Bool
 PlayPauseActionWidgetController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PowerBlockEffector: ModifyAttackEffector
----@field private ["damageReduction"] Float
+---@field private damageReduction Float
 PowerBlockEffector = {}
 
 ---@param fields? table

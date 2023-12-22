@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameStatusEffectTDBPicker
----@field public ["statusEffect"] TweakDBID
+---@field public statusEffect TweakDBID
 gameStatusEffectTDBPicker = {}
 
 ---@param fields? table

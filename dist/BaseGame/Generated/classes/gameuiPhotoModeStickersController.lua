@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeStickersController: gameuiWidgetGameController
----@field public ["backgroundPrefabRef"] NodeRef
----@field public ["ResetStickers"] inkEmptyCallback
----@field public ["SetStickerImage"] gameuiStickerImageCallback
----@field public ["SetFrameImage"] gameuiStickerFrameCallback
----@field public ["SetBackground"] gameuiStickerBackgroundCallback
----@field public ["SetSetSelectedSticker"] gameuiStickerCallback
----@field private ["stickerLibraryId"] CName
----@field private ["stickersRoot"] inkWidgetReference
----@field private ["frameRoot"] inkWidgetReference
----@field private ["backgroundViewRoot"] inkWidgetReference
----@field private ["stickers"] inkWidget[]
----@field private ["frame"] inkWidget
----@field private ["frameLogic"] PhotoModeFrame
----@field private ["currentHovered"] Int32
----@field private ["currentMouseDrag"] Int32
----@field private ["currentMouseRotate"] Int32
----@field private ["stickerDragStartRotation"] Float
----@field private ["stickerDragStartScale"] Vector2
----@field private ["stickerDragStartPos"] Vector2
----@field private ["mouseDragStartPos"] Vector2
----@field private ["mouseDragCurrentPos"] Vector2
----@field private ["currentSticker"] Int32
----@field private ["stickerMove"] Vector2
----@field private ["stickerRotation"] Float
----@field private ["stickerScale"] Float
----@field private ["stickersAreaSize"] Vector2
----@field private ["cursorInputEnabled"] Bool
----@field private ["editorEnabled"] Bool
----@field private ["root"] inkCanvasWidget
----@field private ["isInPhotoMode"] Bool
+---@field public backgroundPrefabRef NodeRef
+---@field public ResetStickers inkEmptyCallback
+---@field public SetStickerImage gameuiStickerImageCallback
+---@field public SetFrameImage gameuiStickerFrameCallback
+---@field public SetBackground gameuiStickerBackgroundCallback
+---@field public SetSetSelectedSticker gameuiStickerCallback
+---@field private stickerLibraryId CName
+---@field private stickersRoot inkWidgetReference
+---@field private frameRoot inkWidgetReference
+---@field private backgroundViewRoot inkWidgetReference
+---@field private stickers inkWidget[]
+---@field private frame inkWidget
+---@field private frameLogic PhotoModeFrame
+---@field private currentHovered Int32
+---@field private currentMouseDrag Int32
+---@field private currentMouseRotate Int32
+---@field private stickerDragStartRotation Float
+---@field private stickerDragStartScale Vector2
+---@field private stickerDragStartPos Vector2
+---@field private mouseDragStartPos Vector2
+---@field private mouseDragCurrentPos Vector2
+---@field private currentSticker Int32
+---@field private stickerMove Vector2
+---@field private stickerRotation Float
+---@field private stickerScale Float
+---@field private stickersAreaSize Vector2
+---@field private cursorInputEnabled Bool
+---@field private editorEnabled Bool
+---@field private root inkCanvasWidget
+---@field private isInPhotoMode Bool
 gameuiPhotoModeStickersController = {}
 
 ---@param fields? table

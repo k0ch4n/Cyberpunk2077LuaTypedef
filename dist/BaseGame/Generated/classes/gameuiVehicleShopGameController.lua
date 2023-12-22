@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class gameuiVehicleShopGameController: gameuiWidgetGameController
----@field private ["homePage"] inkWidgetReference
----@field private ["homePageMainText"] inkTextWidgetReference
----@field private ["rightSidePanel"] inkWidgetReference
----@field private ["headerImage"] inkWidgetReference
----@field private ["offersCanvas"] inkWidgetReference
----@field private ["detailsCanvas"] inkWidgetReference
----@field private ["brandsListWidget"] inkCompoundWidgetReference
----@field private ["offersGridWidget"] inkCompoundWidgetReference
----@field private ["headerText"] inkTextWidgetReference
----@field private ["scrollControllerWidget"] inkWidgetReference
----@field private ["playerBalanceText"] inkTextWidgetReference
----@field private ["playerBalanceAnimator"] MoneyLabelController
----@field private ["callback"] VehicleShopPlayerBalanceCallback
----@field private ["inventoryListener"] gameInventoryScriptListener
----@field private ["uiScriptableSystem"] UIScriptableSystem
----@field private ["brandButtons"] VehicleBrandFilterLogicController[]
----@field private ["offerButtons"] VehicleOfferLogicController[]
----@field private ["detailsController"] VehicleDetailsLogicController
----@field private ["currentBrandController"] VehicleBrandFilterLogicController
----@field private ["discount"] Float
----@field private ["c_discountFactTDBID"] TweakDBID
----@field private ["c_discountValuesTDBID"] TweakDBID
+---@field private homePage inkWidgetReference
+---@field private homePageMainText inkTextWidgetReference
+---@field private rightSidePanel inkWidgetReference
+---@field private headerImage inkWidgetReference
+---@field private offersCanvas inkWidgetReference
+---@field private detailsCanvas inkWidgetReference
+---@field private brandsListWidget inkCompoundWidgetReference
+---@field private offersGridWidget inkCompoundWidgetReference
+---@field private headerText inkTextWidgetReference
+---@field private scrollControllerWidget inkWidgetReference
+---@field private playerBalanceText inkTextWidgetReference
+---@field private playerBalanceAnimator MoneyLabelController
+---@field private callback VehicleShopPlayerBalanceCallback
+---@field private inventoryListener gameInventoryScriptListener
+---@field private uiScriptableSystem UIScriptableSystem
+---@field private brandButtons VehicleBrandFilterLogicController[]
+---@field private offerButtons VehicleOfferLogicController[]
+---@field private detailsController VehicleDetailsLogicController
+---@field private currentBrandController VehicleBrandFilterLogicController
+---@field private discount Float
+---@field private c_discountFactTDBID TweakDBID
+---@field private c_discountValuesTDBID TweakDBID
 gameuiVehicleShopGameController = {}
 
 ---@param fields? table

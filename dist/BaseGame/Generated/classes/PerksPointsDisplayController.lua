@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class PerksPointsDisplayController: inkWidgetLogicController
----@field protected ["desc1Text"] inkTextWidgetReference
----@field protected ["value1Text"] inkTextWidgetReference
----@field protected ["icon1"] inkImageWidgetReference
----@field protected ["desc2Text"] inkTextWidgetReference
----@field protected ["value2Text"] inkTextWidgetReference
----@field protected ["icon2"] inkImageWidgetReference
----@field protected ["desc3Text"] inkTextWidgetReference
----@field protected ["value3Text"] inkTextWidgetReference
----@field protected ["icon3"] inkImageWidgetReference
----@field private ["screenType"] CharacterScreenType
+---@field protected desc1Text inkTextWidgetReference
+---@field protected value1Text inkTextWidgetReference
+---@field protected icon1 inkImageWidgetReference
+---@field protected desc2Text inkTextWidgetReference
+---@field protected value2Text inkTextWidgetReference
+---@field protected icon2 inkImageWidgetReference
+---@field protected desc3Text inkTextWidgetReference
+---@field protected value3Text inkTextWidgetReference
+---@field protected icon3 inkImageWidgetReference
+---@field private screenType CharacterScreenType
 PerksPointsDisplayController = {}
 
 ---@param fields? table

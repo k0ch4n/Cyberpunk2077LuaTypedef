@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleVehicleContactEvent: redEvent
----@field public ["otherVehicle"] gameObject
+---@field public otherVehicle gameObject
 vehicleVehicleContactEvent = {}
 
 ---@param fields? table

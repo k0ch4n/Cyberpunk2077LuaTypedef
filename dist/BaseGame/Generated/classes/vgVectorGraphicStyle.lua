@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicStyle: ISerializable
----@field public ["attributes"] vgAttributeTypeValuePair[]
+---@field public attributes vgAttributeTypeValuePair[]
 vgVectorGraphicStyle = {}
 
 ---@param fields? table

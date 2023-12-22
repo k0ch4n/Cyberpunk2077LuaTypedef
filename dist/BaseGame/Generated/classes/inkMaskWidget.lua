@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class inkMaskWidget: inkLeafWidget
----@field public ["textureAtlas"] inkTextureAtlas
----@field public ["texturePart"] CName
----@field public ["dynamicTextureMask"] CName
----@field public ["dataSource"] inkMaskDataSource
----@field public ["invertMask"] Bool
----@field public ["maskTransparency"] Float
+---@field public textureAtlas inkTextureAtlas
+---@field public texturePart CName
+---@field public dynamicTextureMask CName
+---@field public dataSource inkMaskDataSource
+---@field public invertMask Bool
+---@field public maskTransparency Float
 inkMaskWidget = {}
 
 ---@param fields? table

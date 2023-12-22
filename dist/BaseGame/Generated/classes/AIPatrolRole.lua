@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIPatrolRole: AIRole
----@field protected ["pathParams"] AIPatrolPathParameters
----@field protected ["alertedPathParams"] AIPatrolPathParameters
----@field protected ["alertedRadius"] Float
----@field protected ["alertedSpots"] AIbehaviorWorkspotList
----@field protected ["forceAlerted"] Bool
+---@field protected pathParams AIPatrolPathParameters
+---@field protected alertedPathParams AIPatrolPathParameters
+---@field protected alertedRadius Float
+---@field protected alertedSpots AIbehaviorWorkspotList
+---@field protected forceAlerted Bool
 AIPatrolRole = {}
 
 ---@param fields? table

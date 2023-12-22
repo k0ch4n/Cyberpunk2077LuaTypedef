@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkComboBoxObjectController: inkWidgetLogicController
----@field public ["contentWidgetRef"] inkWidgetReference
----@field public ["placeholderOffsetWidgetRef"] inkWidgetReference
----@field public ["colliderRef"] inkShapeWidgetReference
----@field public ["offset"] inkMargin
+---@field public contentWidgetRef inkWidgetReference
+---@field public placeholderOffsetWidgetRef inkWidgetReference
+---@field public colliderRef inkShapeWidgetReference
+---@field public offset inkMargin
 inkComboBoxObjectController = {}
 
 ---@param fields? table

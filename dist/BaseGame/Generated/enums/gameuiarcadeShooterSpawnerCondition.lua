@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterSpawnerCondition: Enum
----@field ["ScreenLeft"] gameuiarcadeShooterSpawnerCondition 0
----@field ["ScreenRight"] gameuiarcadeShooterSpawnerCondition 1
----@field ["ScreenTop"] gameuiarcadeShooterSpawnerCondition 2
----@field ["ScreenBottom"] gameuiarcadeShooterSpawnerCondition 3
----@field ["EventTrigger"] gameuiarcadeShooterSpawnerCondition 4
+---@field ScreenLeft 0
+---@field ScreenRight 1
+---@field ScreenTop 2
+---@field ScreenBottom 3
+---@field EventTrigger 4
 gameuiarcadeShooterSpawnerCondition = {}

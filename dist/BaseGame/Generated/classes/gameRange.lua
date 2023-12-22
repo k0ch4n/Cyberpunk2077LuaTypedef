@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameRange
----@field public ["minValue"] Float
----@field public ["maxValue"] Float
+---@field public minValue Float
+---@field public maxValue Float
 gameRange = {}
 
 ---@param fields? table

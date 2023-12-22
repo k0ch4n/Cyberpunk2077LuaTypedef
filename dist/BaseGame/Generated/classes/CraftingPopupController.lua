@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class CraftingPopupController: gameuiWidgetGameController
----@field private ["tooltipContainer"] inkWidgetReference
----@field private ["craftIcon"] inkImageWidgetReference
----@field private ["itemName"] inkTextWidgetReference
----@field private ["itemTopName"] inkTextWidgetReference
----@field private ["itemQuality"] inkTextWidgetReference
----@field private ["headerText"] inkTextWidgetReference
----@field private ["closeButton"] inkWidgetReference
----@field private ["buttonHintsRoot"] inkWidgetReference
----@field private ["libraryPath"] inkWidgetLibraryReference
----@field private ["itemTooltip"] AGenericTooltipController
----@field private ["closeButtonController"] inkButtonController
----@field private ["data"] CraftingPopupData
+---@field private tooltipContainer inkWidgetReference
+---@field private craftIcon inkImageWidgetReference
+---@field private itemName inkTextWidgetReference
+---@field private itemTopName inkTextWidgetReference
+---@field private itemQuality inkTextWidgetReference
+---@field private headerText inkTextWidgetReference
+---@field private closeButton inkWidgetReference
+---@field private buttonHintsRoot inkWidgetReference
+---@field private libraryPath inkWidgetLibraryReference
+---@field private itemTooltip AGenericTooltipController
+---@field private closeButtonController inkButtonController
+---@field private data CraftingPopupData
 CraftingPopupController = {}
 
 ---@param fields? table

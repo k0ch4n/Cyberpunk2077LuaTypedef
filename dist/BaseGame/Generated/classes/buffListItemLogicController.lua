@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class buffListItemLogicController: inkWidgetLogicController
----@field private ["icon"] inkImageWidgetReference
----@field private ["iconBg"] inkImageWidgetReference
----@field private ["fill"] inkWidgetReference
----@field private ["fillWidget"] inkWidget
----@field private ["timeLabel"] inkTextWidgetReference
----@field private ["stackCounter"] inkTextWidgetReference
----@field private ["stackCounterContainer"] inkWidgetReference
----@field private ["statusEffectRecord"] gamedataStatusEffect_Record
+---@field private icon inkImageWidgetReference
+---@field private iconBg inkImageWidgetReference
+---@field private fill inkWidgetReference
+---@field private fillWidget inkWidget
+---@field private timeLabel inkTextWidgetReference
+---@field private stackCounter inkTextWidgetReference
+---@field private stackCounterContainer inkWidgetReference
+---@field private statusEffectRecord gamedataStatusEffect_Record
 buffListItemLogicController = {}
 
 ---@param fields? table

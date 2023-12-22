@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiHudSafezonesEditorGameController: gameuiMenuGameController
----@field public ["rootWidget"] inkCompoundWidgetReference
----@field public ["flexWidget"] inkCompoundWidgetReference
----@field private ["data"] inkGameNotificationData
----@field private ["c_adjustment_speed"] Float
----@field private ["c_stick_dead_zone"] Float
+---@field public rootWidget inkCompoundWidgetReference
+---@field public flexWidget inkCompoundWidgetReference
+---@field private data inkGameNotificationData
+---@field private c_adjustment_speed Float
+---@field private c_stick_dead_zone Float
 gameuiHudSafezonesEditorGameController = {}
 
 ---@param fields? table

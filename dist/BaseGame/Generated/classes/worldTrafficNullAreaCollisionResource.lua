@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficNullAreaCollisionResource: CResource
----@field public ["nullAreasCollisionData"] worldTrafficNullAreaCollisionData
----@field public ["nullAreaBlockadeData"] worldTrafficNullAreaDynamicBlockadeData
+---@field public nullAreasCollisionData worldTrafficNullAreaCollisionData
+---@field public nullAreaBlockadeData worldTrafficNullAreaDynamicBlockadeData
 worldTrafficNullAreaCollisionResource = {}
 
 ---@param fields? table

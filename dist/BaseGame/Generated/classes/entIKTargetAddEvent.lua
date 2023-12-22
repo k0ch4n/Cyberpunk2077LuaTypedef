@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entIKTargetAddEvent: entAnimTargetAddEvent
----@field public ["outIKTargetRef"] animIKTargetRef
----@field public ["orientationProvider"] entIOrientationProvider
----@field public ["request"] animIKTargetRequest
+---@field public outIKTargetRef animIKTargetRef
+---@field public orientationProvider entIOrientationProvider
+---@field public request animIKTargetRequest
 entIKTargetAddEvent = {}
 
 ---@param fields? table

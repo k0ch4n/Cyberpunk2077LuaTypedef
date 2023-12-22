@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CookedMultilayer_Setup: CResource
----@field public ["dependencies"] Multilayer_Setup[]
+---@field public dependencies Multilayer_Setup[]
 CookedMultilayer_Setup = {}
 
 ---@param fields? table

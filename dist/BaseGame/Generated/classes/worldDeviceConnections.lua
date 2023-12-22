@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldDeviceConnections
----@field public ["deviceClassName"] CName
----@field public ["nodeRefs"] NodeRef[]
+---@field public deviceClassName CName
+---@field public nodeRefs NodeRef[]
 worldDeviceConnections = {}
 
 ---@param fields? table

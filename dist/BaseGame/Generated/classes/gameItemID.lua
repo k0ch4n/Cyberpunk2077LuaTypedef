@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameItemID
----@field public ["id"] TweakDBID
----@field public ["rngSeed"] Uint32
----@field public ["uniqueCounter"] Uint16
----@field public ["flags"] Uint8
+---@field public id TweakDBID
+---@field public rngSeed Uint32
+---@field public uniqueCounter Uint16
+---@field public flags Uint8
 gameItemID = {}
 
 ---@param fields? table

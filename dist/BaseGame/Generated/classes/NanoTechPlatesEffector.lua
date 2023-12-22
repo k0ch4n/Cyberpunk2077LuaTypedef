@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class NanoTechPlatesEffector: ModifyAttackEffector
----@field private ["chanceToTrigger"] Float
----@field private ["chanceIncrement"] Float
----@field private ["nanoPlatesStacks"] Int32
----@field private ["timeWindow"] Float
----@field private ["minTimeBetweenBlocks"] Float
----@field private ["timeStamps"] Float[]
+---@field private chanceToTrigger Float
+---@field private chanceIncrement Float
+---@field private nanoPlatesStacks Int32
+---@field private timeWindow Float
+---@field private minTimeBetweenBlocks Float
+---@field private timeStamps Float[]
 NanoTechPlatesEffector = {}
 
 ---@param fields? table

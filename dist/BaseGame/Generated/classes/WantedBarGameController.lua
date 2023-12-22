@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class WantedBarGameController: gameuiHUDGameController
----@field private ["starsWidget"] inkWidgetReference[]
----@field private ["wantedBlackboard"] gameIBlackboard
----@field private ["wantedBlackboardDef"] UI_WantedBarDef
----@field private ["wantedDataCallbackID"] redCallbackObject
----@field private ["wantedStateCallbackID"] redCallbackObject
----@field private ["wantedZoneCallbackID"] redCallbackObject
----@field private ["introAnimProxy"] inkanimProxy
----@field private ["bountyStarAnimProxy"] inkanimProxy[]
----@field private ["bountyAnimProxy"] inkanimProxy
----@field private ["animOptionsLoop"] inkanimPlaybackOptions
----@field private ["currentState"] Int32
----@field private ["numOfStar"] Int32
----@field private ["wantedLevel"] Int32
----@field private ["rootWidget"] inkWidget
----@field private ["isDogtown"] Bool
----@field private ["WANTED_TIER_1"] Float
----@field private ["WANTED_MIN"] Float
+---@field private starsWidget inkWidgetReference[]
+---@field private wantedBlackboard gameIBlackboard
+---@field private wantedBlackboardDef UI_WantedBarDef
+---@field private wantedDataCallbackID redCallbackObject
+---@field private wantedStateCallbackID redCallbackObject
+---@field private wantedZoneCallbackID redCallbackObject
+---@field private introAnimProxy inkanimProxy
+---@field private bountyStarAnimProxy inkanimProxy[]
+---@field private bountyAnimProxy inkanimProxy
+---@field private animOptionsLoop inkanimPlaybackOptions
+---@field private currentState Int32
+---@field private numOfStar Int32
+---@field private wantedLevel Int32
+---@field private rootWidget inkWidget
+---@field private isDogtown Bool
+---@field private WANTED_TIER_1 Float
+---@field private WANTED_MIN Float
 WantedBarGameController = {}
 
 ---@param fields? table

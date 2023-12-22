@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entEntityParametersBuffer
----@field public ["parameterBuffers"] serializationDeferredDataBuffer[]
+---@field public parameterBuffers serializationDeferredDataBuffer[]
 entEntityParametersBuffer = {}
 
 ---@param fields? table

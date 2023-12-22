@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class GOGProfileGameController: gameuiBaseGOGProfileController
----@field public ["retryButton"] inkWidgetReference
----@field public ["parentContainerWidget"] inkWidgetReference
----@field private ["isFirstLogin"] Bool
----@field private ["showingFirstLogin"] Bool
----@field private ["canRetry"] Bool
----@field private ["currentScreenType"] GogPopupScreenType
----@field private ["currentWidget"] inkWidget
----@field private ["gogRewardsList"] GogRewardEntryData[]
----@field private ["uiSystem"] gameuiGameSystemUI
+---@field public retryButton inkWidgetReference
+---@field public parentContainerWidget inkWidgetReference
+---@field private isFirstLogin Bool
+---@field private showingFirstLogin Bool
+---@field private canRetry Bool
+---@field private currentScreenType GogPopupScreenType
+---@field private currentWidget inkWidget
+---@field private gogRewardsList GogRewardEntryData[]
+---@field private uiSystem gameuiGameSystemUI
 GOGProfileGameController = {}
 
 ---@param fields? table

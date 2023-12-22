@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddInvestigatorEvent: redEvent
----@field public ["investigator"] entEntityID
+---@field public investigator entEntityID
 AddInvestigatorEvent = {}
 
 ---@param fields? table

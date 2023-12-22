@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ESecurityGateStatus: Enum
----@field ["READY"] ESecurityGateStatus 0
----@field ["SCANNING"] ESecurityGateStatus 1
----@field ["THREAT_DETECTED"] ESecurityGateStatus 2
+---@field READY 0
+---@field SCANNING 1
+---@field THREAT_DETECTED 2
 ESecurityGateStatus = {}

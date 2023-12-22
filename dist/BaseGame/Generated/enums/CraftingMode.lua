@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class CraftingMode: Enum
----@field ["craft"] CraftingMode 0
----@field ["upgrade"] CraftingMode 1
+---@field craft 0
+---@field upgrade 1
 CraftingMode = {}

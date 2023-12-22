@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleCameraManagerComponentPS: gameComponentPS
----@field public ["perspective"] vehicleCameraPerspective
+---@field public perspective vehicleCameraPerspective
 vehicleCameraManagerComponentPS = {}
 
 ---@param fields? table

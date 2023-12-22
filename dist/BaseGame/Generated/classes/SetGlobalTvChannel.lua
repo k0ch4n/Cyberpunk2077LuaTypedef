@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetGlobalTvChannel: redEvent
----@field public ["channel"] TweakDBID
+---@field public channel TweakDBID
 SetGlobalTvChannel = {}
 
 ---@param fields? table

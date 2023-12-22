@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RequestDocumentThumbnailWidgetsUpdateEvent: RequestWidgetUpdateEvent
----@field public ["documentType"] EDocumentType
+---@field public documentType EDocumentType
 RequestDocumentThumbnailWidgetsUpdateEvent = {}
 
 ---@param fields? table

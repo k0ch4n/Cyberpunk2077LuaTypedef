@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MinimalItemTooltipModsAttunementData: IScriptable
----@field public ["name"] String
----@field public ["icon"] CName
+---@field public name String
+---@field public icon CName
 MinimalItemTooltipModsAttunementData = {}
 
 ---@param fields? table

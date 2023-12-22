@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkIconResult: Enum
----@field ["Success"] inkIconResult 0
----@field ["UnknownIconTweak"] inkIconResult 1
----@field ["AtlasResourceNotFound"] inkIconResult 2
----@field ["PartNotFoundInAtlas"] inkIconResult 3
+---@field Success 0
+---@field UnknownIconTweak 1
+---@field AtlasResourceNotFound 2
+---@field PartNotFoundInAtlas 3
 inkIconResult = {}

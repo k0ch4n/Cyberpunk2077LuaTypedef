@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class GenericHotkeyController: gameuiNewPhoneRelatedHUDGameController
----@field protected ["hotkeyBackground"] inkImageWidgetReference
----@field protected ["buttonHint"] inkWidgetReference
----@field protected ["hotkey"] gameEHotkey
----@field protected ["pressStarted"] Bool
----@field protected ["buttonHintController"] inkInputDisplayController
----@field private ["questActivatingFact"] CName
----@field protected ["restrictions"] CName[]
----@field protected ["statusEffectsListener"] HotkeyWidgetStatsListener
----@field private ["debugCommands"] Uint32[]
----@field private ["factListenerId"] Uint32
+---@field protected hotkeyBackground inkImageWidgetReference
+---@field protected buttonHint inkWidgetReference
+---@field protected hotkey gameEHotkey
+---@field protected pressStarted Bool
+---@field protected buttonHintController inkInputDisplayController
+---@field private questActivatingFact CName
+---@field protected restrictions CName[]
+---@field protected statusEffectsListener HotkeyWidgetStatsListener
+---@field private debugCommands Uint32[]
+---@field private factListenerId Uint32
 GenericHotkeyController = {}
 
 ---@protected

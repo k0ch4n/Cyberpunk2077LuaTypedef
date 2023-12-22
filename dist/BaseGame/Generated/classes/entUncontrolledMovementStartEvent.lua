@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entUncontrolledMovementStartEvent: redEvent
----@field public ["ragdollNoGroundThreshold"] Float
----@field public ["ragdollOnCollision"] Bool
----@field public ["calculateEarlyPositionGroundHeight"] Bool
+---@field public ragdollNoGroundThreshold Float
+---@field public ragdollOnCollision Bool
+---@field public calculateEarlyPositionGroundHeight Bool
 entUncontrolledMovementStartEvent = {}
 
 ---@param fields? table

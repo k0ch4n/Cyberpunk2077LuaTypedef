@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questForceVMModule_NodeTypeParams
----@field public ["reference"] gameEntityReference
----@field public ["module"] String
----@field public ["components"] CName[]
+---@field public reference gameEntityReference
+---@field public module String
+---@field public components CName[]
 questForceVMModule_NodeTypeParams = {}
 
 ---@param fields? table

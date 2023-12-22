@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ConnectedClassTypes
----@field public ["surveillanceCamera"] Bool
----@field public ["securityTurret"] Bool
----@field public ["puppet"] Bool
+---@field public surveillanceCamera Bool
+---@field public securityTurret Bool
+---@field public puppet Bool
 ConnectedClassTypes = {}
 
 ---@param fields? table

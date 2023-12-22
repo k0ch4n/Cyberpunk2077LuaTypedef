@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BunkerSystems: Enum
----@field ["ALPHA"] BunkerSystems 0
----@field ["BRAVO"] BunkerSystems 1
----@field ["SIERRA"] BunkerSystems 2
----@field ["VICTOR"] BunkerSystems 3
----@field ["MAX"] BunkerSystems 4
+---@field ALPHA 0
+---@field BRAVO 1
+---@field SIERRA 2
+---@field VICTOR 3
+---@field MAX 4
 BunkerSystems = {}

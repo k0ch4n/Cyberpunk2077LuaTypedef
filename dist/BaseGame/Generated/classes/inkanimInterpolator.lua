@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class inkanimInterpolator: IScriptable
----@field public ["interpolationMode"] inkanimInterpolationMode
----@field public ["interpolationType"] inkanimInterpolationType
----@field public ["interpolationDirection"] inkanimInterpolationDirection
----@field public ["duration"] Float
----@field public ["startDelay"] Float
----@field public ["useRelativeDuration"] Bool
----@field public ["isAdditive"] Bool
+---@field public interpolationMode inkanimInterpolationMode
+---@field public interpolationType inkanimInterpolationType
+---@field public interpolationDirection inkanimInterpolationDirection
+---@field public duration Float
+---@field public startDelay Float
+---@field public useRelativeDuration Bool
+---@field public isAdditive Bool
 inkanimInterpolator = {}
 
 ---@return inkanimInterpolationDirection

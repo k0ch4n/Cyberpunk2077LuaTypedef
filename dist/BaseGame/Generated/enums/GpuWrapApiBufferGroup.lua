@@ -2,39 +2,39 @@
 ---@diagnostic disable
 
 ---@class GpuWrapApiBufferGroup: Enum
----@field ["System"] GpuWrapApiBufferGroup 0
----@field ["MeshResource"] GpuWrapApiBufferGroup 1
----@field ["MeshCustom"] GpuWrapApiBufferGroup 2
----@field ["AutoSpawner"] GpuWrapApiBufferGroup 3
----@field ["Debug"] GpuWrapApiBufferGroup 4
----@field ["DPL"] GpuWrapApiBufferGroup 5
----@field ["Weather"] GpuWrapApiBufferGroup 6
----@field ["ReflectionProbe"] GpuWrapApiBufferGroup 7
----@field ["Skinning"] GpuWrapApiBufferGroup 8
----@field ["Lights"] GpuWrapApiBufferGroup 9
----@field ["Video"] GpuWrapApiBufferGroup 10
----@field ["Particles"] GpuWrapApiBufferGroup 11
----@field ["GIManagerLitProbes"] GpuWrapApiBufferGroup 12
----@field ["GIManagerLookup"] GpuWrapApiBufferGroup 13
----@field ["GIManagerInterpolation"] GpuWrapApiBufferGroup 14
----@field ["GIManagerLitBricks"] GpuWrapApiBufferGroup 15
----@field ["GIManagerLights"] GpuWrapApiBufferGroup 16
----@field ["GIManagerEnvVolume"] GpuWrapApiBufferGroup 17
----@field ["GIProxyBrick"] GpuWrapApiBufferGroup 18
----@field ["GIProxySurfel"] GpuWrapApiBufferGroup 19
----@field ["GIProxyProbes"] GpuWrapApiBufferGroup 20
----@field ["GIProxyFactors"] GpuWrapApiBufferGroup 21
----@field ["GIProxyAcceleration"] GpuWrapApiBufferGroup 22
----@field ["Raytracing"] GpuWrapApiBufferGroup 23
----@field ["RaytracingUpload"] GpuWrapApiBufferGroup 24
----@field ["RaytracingAS"] GpuWrapApiBufferGroup 25
----@field ["RaytracingOMM"] GpuWrapApiBufferGroup 26
----@field ["Decals"] GpuWrapApiBufferGroup 27
----@field ["Instances"] GpuWrapApiBufferGroup 28
----@field ["Materials"] GpuWrapApiBufferGroup 29
----@field ["Multilayer"] GpuWrapApiBufferGroup 30
----@field ["FrameResources"] GpuWrapApiBufferGroup 31
----@field ["Misc"] GpuWrapApiBufferGroup 32
----@field ["MorphTargets"] GpuWrapApiBufferGroup 33
----@field ["MAX"] GpuWrapApiBufferGroup 34
+---@field System 0
+---@field MeshResource 1
+---@field MeshCustom 2
+---@field AutoSpawner 3
+---@field Debug 4
+---@field DPL 5
+---@field Weather 6
+---@field ReflectionProbe 7
+---@field Skinning 8
+---@field Lights 9
+---@field Video 10
+---@field Particles 11
+---@field GIManagerLitProbes 12
+---@field GIManagerLookup 13
+---@field GIManagerInterpolation 14
+---@field GIManagerLitBricks 15
+---@field GIManagerLights 16
+---@field GIManagerEnvVolume 17
+---@field GIProxyBrick 18
+---@field GIProxySurfel 19
+---@field GIProxyProbes 20
+---@field GIProxyFactors 21
+---@field GIProxyAcceleration 22
+---@field Raytracing 23
+---@field RaytracingUpload 24
+---@field RaytracingAS 25
+---@field RaytracingOMM 26
+---@field Decals 27
+---@field Instances 28
+---@field Materials 29
+---@field Multilayer 30
+---@field FrameResources 31
+---@field Misc 32
+---@field MorphTargets 33
+---@field MAX 34
 GpuWrapApiBufferGroup = {}

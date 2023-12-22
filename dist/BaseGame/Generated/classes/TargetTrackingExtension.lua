@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class TargetTrackingExtension: AITargetTrackerComponent
----@field private ["trackedCombatSquads"] AICombatSquadScriptInterface[]
----@field private ["trackedCombatSquadsCounters"] Int32[]
----@field private ["threatPersistanceMemory"] ThreatPersistanceMemory
----@field private ["hasBeenSeenByPlayer"] Bool
----@field private ["canBeAddedToBossHealthbar"] Bool
----@field private ["playerPuppet"] gameObject
+---@field private trackedCombatSquads AICombatSquadScriptInterface[]
+---@field private trackedCombatSquadsCounters Int32[]
+---@field private threatPersistanceMemory ThreatPersistanceMemory
+---@field private hasBeenSeenByPlayer Bool
+---@field private canBeAddedToBossHealthbar Bool
+---@field private playerPuppet gameObject
 TargetTrackingExtension = {}
 
 ---@param fields? table

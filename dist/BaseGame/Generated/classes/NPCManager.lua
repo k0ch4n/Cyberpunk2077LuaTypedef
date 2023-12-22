@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCManager: IScriptable
----@field private ["owner"] NPCPuppet
+---@field private owner NPCPuppet
 NPCManager = {}
 
 ---@param fields? table

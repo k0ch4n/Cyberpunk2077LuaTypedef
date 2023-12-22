@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VisibilityStatListener: gameScriptStatsListener
----@field public ["owner"] gameObject
+---@field public owner gameObject
 VisibilityStatListener = {}
 
 ---@param fields? table

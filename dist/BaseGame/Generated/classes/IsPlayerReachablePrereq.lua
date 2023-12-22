@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class IsPlayerReachablePrereq: gameIScriptablePrereq
----@field public ["invert"] Bool
----@field public ["checkRMA"] Bool
----@field public ["checkOnlyRMA"] Bool
----@field public ["minRMADistance"] Float
----@field public ["canCheckProxy"] Bool
----@field public ["horTolerance"] Float
----@field public ["verTolerance"] Float
+---@field public invert Bool
+---@field public checkRMA Bool
+---@field public checkOnlyRMA Bool
+---@field public minRMADistance Float
+---@field public canCheckProxy Bool
+---@field public horTolerance Float
+---@field public verTolerance Float
 IsPlayerReachablePrereq = {}
 
 ---@param fields? table

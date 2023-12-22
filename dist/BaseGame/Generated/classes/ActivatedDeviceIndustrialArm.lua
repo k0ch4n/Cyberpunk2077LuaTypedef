@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceIndustrialArm: ActivatedDeviceTrap
----@field public ["loopAnimation"] EIndustrialArmAnimations
+---@field public loopAnimation EIndustrialArmAnimations
 ActivatedDeviceIndustrialArm = {}
 
 ---@param fields? table

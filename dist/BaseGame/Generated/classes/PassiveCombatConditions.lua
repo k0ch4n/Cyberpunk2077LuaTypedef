@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PassiveCombatConditions: PassiveAutonomousCondition
----@field protected ["combatCommandCbId"] Uint32
----@field protected ["roleCbId"] Uint32
----@field protected ["threatCbId"] Uint32
----@field protected ["playerCombatCbId"] Uint32
----@field protected ["activeCombatConditionCbId"] Uint32
----@field protected ["delayEvaluationCbId"] Uint32
+---@field protected combatCommandCbId Uint32
+---@field protected roleCbId Uint32
+---@field protected threatCbId Uint32
+---@field protected playerCombatCbId Uint32
+---@field protected activeCombatConditionCbId Uint32
+---@field protected delayEvaluationCbId Uint32
 PassiveCombatConditions = {}
 
 ---@param fields? table

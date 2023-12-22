@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiRootHudSaveData: ISerializable
----@field public ["entriesVisibility"] questHUDEntryVisibilityData[]
+---@field public entriesVisibility questHUDEntryVisibilityData[]
 gameuiRootHudSaveData = {}
 
 ---@param fields? table

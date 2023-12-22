@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareChargeEvents: LeftHandCyberwareEventsTransition
----@field private ["chargeModeAim"] gameweaponAnimFeature_AimPlayer
----@field private ["leftHandObject"] gameweaponObject
----@field private ["aimInTimeRemaining"] Float
+---@field private chargeModeAim gameweaponAnimFeature_AimPlayer
+---@field private leftHandObject gameweaponObject
+---@field private aimInTimeRemaining Float
 LeftHandCyberwareChargeEvents = {}
 
 ---@param fields? table

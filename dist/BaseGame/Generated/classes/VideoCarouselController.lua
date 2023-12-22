@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class VideoCarouselController: inkWidgetLogicController
----@field private ["videoTitleRef"] inkTextWidgetReference
----@field private ["videoDescriptionRef"] inkTextWidgetReference
----@field private ["videoWidgetRef"] inkVideoWidgetReference
----@field private ["switchLeftArrow"] inkWidgetReference
----@field private ["switchRightArrow"] inkWidgetReference
----@field private ["switchDotIndicators"] inkWidgetReference[]
----@field private ["videoWidget"] inkVideoWidget
----@field private ["videoSwitchLeftArrow"] inkButtonController
----@field private ["videoSwitchRightArrow"] inkButtonController
----@field private ["videos"] VideoCarouselData[]
----@field private ["currentVideo"] Int32
----@field private ["isPaused"] Bool
+---@field private videoTitleRef inkTextWidgetReference
+---@field private videoDescriptionRef inkTextWidgetReference
+---@field private videoWidgetRef inkVideoWidgetReference
+---@field private switchLeftArrow inkWidgetReference
+---@field private switchRightArrow inkWidgetReference
+---@field private switchDotIndicators inkWidgetReference[]
+---@field private videoWidget inkVideoWidget
+---@field private videoSwitchLeftArrow inkButtonController
+---@field private videoSwitchRightArrow inkButtonController
+---@field private videos VideoCarouselData[]
+---@field private currentVideo Int32
+---@field private isPaused Bool
 VideoCarouselController = {}
 
 ---@param fields? table

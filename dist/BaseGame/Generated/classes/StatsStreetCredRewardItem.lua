@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StatsStreetCredRewardItem: inkButtonController
----@field private ["levelRef"] inkTextWidgetReference
----@field private ["iconRef"] inkImageWidgetReference
----@field private ["data"] LevelRewardDisplayData
+---@field private levelRef inkTextWidgetReference
+---@field private iconRef inkImageWidgetReference
+---@field private data LevelRewardDisplayData
 StatsStreetCredRewardItem = {}
 
 ---@param fields? table

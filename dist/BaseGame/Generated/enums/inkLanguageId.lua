@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class inkLanguageId: Enum
----@field ["EN"] inkLanguageId 0
----@field ["PL"] inkLanguageId 1
----@field ["JP"] inkLanguageId 2
----@field ["DE"] inkLanguageId 3
----@field ["ES"] inkLanguageId 4
----@field ["MX"] inkLanguageId 5
----@field ["KR"] inkLanguageId 6
----@field ["IT"] inkLanguageId 7
----@field ["FR"] inkLanguageId 8
----@field ["RU"] inkLanguageId 9
----@field ["PR"] inkLanguageId 10
----@field ["ZH_CN"] inkLanguageId 11
----@field ["TW"] inkLanguageId 12
----@field ["CZ"] inkLanguageId 13
----@field ["HU"] inkLanguageId 14
----@field ["AR"] inkLanguageId 15
----@field ["TR"] inkLanguageId 16
----@field ["TH"] inkLanguageId 17
----@field ["HT"] inkLanguageId 18
----@field ["UA"] inkLanguageId 20
----@field ["DEBUG"] inkLanguageId 21
+---@field EN 0
+---@field PL 1
+---@field JP 2
+---@field DE 3
+---@field ES 4
+---@field MX 5
+---@field KR 6
+---@field IT 7
+---@field FR 8
+---@field RU 9
+---@field PR 10
+---@field ZH_CN 11
+---@field TW 12
+---@field CZ 13
+---@field HU 14
+---@field AR 15
+---@field TR 16
+---@field TH 17
+---@field HT 18
+---@field UA 20
+---@field DEBUG 21
 inkLanguageId = {}

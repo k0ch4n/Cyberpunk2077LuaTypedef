@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewPerkActionRequest: gamePlayerScriptableSystemRequest
----@field public ["perkType"] gamedataNewPerkType
+---@field public perkType gamedataNewPerkType
 NewPerkActionRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GOGProfileLogicController: inkWidgetLogicController
----@field public ["gogMenuState"] EGOGMenuState
+---@field public gogMenuState EGOGMenuState
 GOGProfileLogicController = {}
 
 ---@param fields? table

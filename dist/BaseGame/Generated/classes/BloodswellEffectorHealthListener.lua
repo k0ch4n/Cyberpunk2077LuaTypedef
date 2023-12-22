@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BloodswellEffectorHealthListener: gameScriptStatPoolsListener
----@field public ["effector"] BloodswellEffector
+---@field public effector BloodswellEffector
 BloodswellEffectorHealthListener = {}
 
 ---@param fields? table

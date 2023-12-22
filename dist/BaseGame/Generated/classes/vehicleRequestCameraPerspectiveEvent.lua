@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleRequestCameraPerspectiveEvent: redEvent
----@field public ["cameraPerspective"] vehicleCameraPerspective
+---@field public cameraPerspective vehicleCameraPerspective
 vehicleRequestCameraPerspectiveEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELogType: Enum
----@field ["DEFAULT"] ELogType 0
----@field ["WARNING"] ELogType 1
----@field ["ERROR"] ELogType 2
+---@field DEFAULT 0
+---@field WARNING 1
+---@field ERROR 2
 ELogType = {}

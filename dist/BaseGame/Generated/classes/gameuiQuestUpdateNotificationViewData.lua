@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameuiQuestUpdateNotificationViewData: gameuiGenericNotificationViewData
----@field public ["questEntryId"] String
----@field public ["canBeMerged"] Bool
----@field public ["animation"] CName
----@field public ["SMSText"] String
----@field public ["SMSLocKey"] String
----@field public ["dontRemoveOnRequest"] Bool
----@field public ["entryHash"] Int32
----@field public ["rewardSC"] Int32
----@field public ["rewardXP"] Int32
----@field public ["priority"] EGenericNotificationPriority
+---@field public questEntryId String
+---@field public canBeMerged Bool
+---@field public animation CName
+---@field public SMSText String
+---@field public SMSLocKey String
+---@field public dontRemoveOnRequest Bool
+---@field public entryHash Int32
+---@field public rewardSC Int32
+---@field public rewardXP Int32
+---@field public priority EGenericNotificationPriority
 gameuiQuestUpdateNotificationViewData = {}
 
 ---@param fields? table

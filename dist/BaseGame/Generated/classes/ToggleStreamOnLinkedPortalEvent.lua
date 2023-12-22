@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleStreamOnLinkedPortalEvent: redEvent
----@field public ["activate"] Bool
+---@field public activate Bool
 ToggleStreamOnLinkedPortalEvent = {}
 
 ---@param fields? table

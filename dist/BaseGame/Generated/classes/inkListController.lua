@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkListController: inkWidgetLogicController
----@field public ["itemLibraryID"] CName
----@field public ["cycledNavigation"] Bool
----@field public ["beginToggled"] Bool
----@field public ["ItemSelected"] inkListControllerCallback
----@field public ["ItemActivated"] inkListControllerCallback
+---@field public itemLibraryID CName
+---@field public cycledNavigation Bool
+---@field public beginToggled Bool
+---@field public ItemSelected inkListControllerCallback
+---@field public ItemActivated inkListControllerCallback
 inkListController = {}
 
 ---@param fields? table

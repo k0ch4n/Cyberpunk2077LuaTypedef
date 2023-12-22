@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStubMappinType: Enum
----@field ["None"] gameStubMappinType 0
----@field ["Police"] gameStubMappinType 1
----@field ["PoliceVehicle"] gameStubMappinType 2
----@field ["Vehicle"] gameStubMappinType 3
+---@field None 0
+---@field Police 1
+---@field PoliceVehicle 2
+---@field Vehicle 3
 gameStubMappinType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisualTagsAppearanceNamesPreset: ISerializable
----@field public ["presets"] gameVisualTagsAppearanceNamesPreset_Entity[]
+---@field public presets gameVisualTagsAppearanceNamesPreset_Entity[]
 gameVisualTagsAppearanceNamesPreset = {}
 
 ---@param fields? table

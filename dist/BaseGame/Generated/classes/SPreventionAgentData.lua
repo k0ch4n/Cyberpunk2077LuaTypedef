@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SPreventionAgentData: IScriptable
----@field public ["ps"] gamePersistentState
+---@field public ps gamePersistentState
 SPreventionAgentData = {}
 
 ---@param fields? table

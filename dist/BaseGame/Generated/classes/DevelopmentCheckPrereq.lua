@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DevelopmentCheckPrereq: gameIScriptablePrereq
----@field protected ["requiredLevel"] Float
+---@field protected requiredLevel Float
 DevelopmentCheckPrereq = {}
 
 ---@param fields? table

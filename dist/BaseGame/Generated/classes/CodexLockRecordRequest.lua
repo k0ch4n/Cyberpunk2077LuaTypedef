@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexLockRecordRequest: gameScriptableSystemRequest
----@field public ["codexRecordID"] TweakDBID
+---@field public codexRecordID TweakDBID
 CodexLockRecordRequest = {}
 
 ---@param fields? table

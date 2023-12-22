@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SlidingLadderControllerPS: BaseAnimatedDeviceControllerPS
----@field protected ["isShootable"] Bool
----@field protected ["animationTime"] Float
+---@field protected isShootable Bool
+---@field protected animationTime Float
 SlidingLadderControllerPS = {}
 
 ---@param fields? table

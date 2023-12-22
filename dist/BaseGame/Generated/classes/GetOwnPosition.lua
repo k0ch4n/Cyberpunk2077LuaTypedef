@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GetOwnPosition: AIbehaviortaskScript
----@field protected ["outPosition"] AIArgumentMapping
+---@field protected outPosition AIArgumentMapping
 GetOwnPosition = {}
 
 ---@param fields? table

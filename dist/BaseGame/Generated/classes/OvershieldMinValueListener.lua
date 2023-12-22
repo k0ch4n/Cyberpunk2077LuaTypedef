@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OvershieldMinValueListener: gameScriptStatPoolsListener
----@field public ["effector"] ScaleOvershieldDecayOverTimeEffector
+---@field public effector ScaleOvershieldDecayOverTimeEffector
 OvershieldMinValueListener = {}
 
 ---@param fields? table

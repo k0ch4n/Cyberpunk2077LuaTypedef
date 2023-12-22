@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_ItemEffect: animAnimEvent
----@field public ["effectName"] CName
+---@field public effectName CName
 animAnimEvent_ItemEffect = {}
 
 ---@param fields? table

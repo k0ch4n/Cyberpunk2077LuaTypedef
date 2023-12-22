@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSItemInfo
----@field public ["itemID"] gameItemID
----@field public ["slotIndex"] Int32
+---@field public itemID gameItemID
+---@field public slotIndex Int32
 gameSItemInfo = {}
 
 ---@param fields? table

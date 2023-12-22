@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnScenesVersionsChangedRecord
----@field public ["changeInVersion"] Uint32
----@field public ["sceneBeforeChange"] scnSceneResource
+---@field public changeInVersion Uint32
+---@field public sceneBeforeChange scnSceneResource
 scnScenesVersionsChangedRecord = {}
 
 ---@param fields? table

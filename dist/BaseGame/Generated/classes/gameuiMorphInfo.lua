@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMorphInfo: gameuiCharacterCustomizationInfo
----@field public ["morphNames"] gameuiIndexedMorphName[]
+---@field public morphNames gameuiIndexedMorphName[]
 gameuiMorphInfo = {}
 
 ---@param fields? table

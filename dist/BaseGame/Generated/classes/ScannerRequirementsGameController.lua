@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ScannerRequirementsGameController: BaseChunkGameController
----@field private ["ScannerRequirementsRightPanel"] inkCompoundWidgetReference
----@field private ["requirementsCallbackID"] redCallbackObject
----@field private ["isValidRequirements"] Bool
----@field private ["asyncSpawnRequests"] inkAsyncSpawnRequest[]
+---@field private ScannerRequirementsRightPanel inkCompoundWidgetReference
+---@field private requirementsCallbackID redCallbackObject
+---@field private isValidRequirements Bool
+---@field private asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerRequirementsGameController = {}
 
 ---@param fields? table

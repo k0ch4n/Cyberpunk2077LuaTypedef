@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendingMachineSFX
----@field public ["glitchingStart"] CName
----@field public ["glitchingStop"] CName
+---@field public glitchingStart CName
+---@field public glitchingStop CName
 VendingMachineSFX = {}
 
 ---@param fields? table

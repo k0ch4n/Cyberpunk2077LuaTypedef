@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePoliceRadioSystem: gameIPoliceRadioSystem
----@field public ["lastDistrictEntry"] CName
----@field public ["isHeat1LineRequestOngoing"] Bool
+---@field public lastDistrictEntry CName
+---@field public isHeat1LineRequestOngoing Bool
 gamePoliceRadioSystem = {}
 
 ---@param fields? table

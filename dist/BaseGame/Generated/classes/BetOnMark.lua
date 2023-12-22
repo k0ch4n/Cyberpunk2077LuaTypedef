@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BetOnMark
----@field public ["betOn"] CasinoTableBet
----@field public ["mark"] inkWidgetReference
+---@field public betOn CasinoTableBet
+---@field public mark inkWidgetReference
 BetOnMark = {}
 
 ---@param fields? table

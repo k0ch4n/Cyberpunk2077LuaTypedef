@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiDeathMenuGameController: gameuiMenuItemListGameController
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field private ["animIntro"] inkanimProxy
----@field private ["axisInputReceived"] Bool
----@field private ["dpadInputReceived"] Bool
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field private animIntro inkanimProxy
+---@field private axisInputReceived Bool
+---@field private dpadInputReceived Bool
 gameuiDeathMenuGameController = {}
 
 ---@param fields? table

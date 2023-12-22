@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerMiniGameDynObjectLogic: inkWidgetLogicController
----@field public ["spawnPoolSize"] Uint32
+---@field public spawnPoolSize Uint32
 gameuiSideScrollerMiniGameDynObjectLogic = {}
 
 ---@param fields? table

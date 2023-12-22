@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TriggerAttackByChanceStatListener: gameScriptStatsListener
----@field public ["effector"] TriggerAttackByChanceEffector
+---@field public effector TriggerAttackByChanceEffector
 TriggerAttackByChanceStatListener = {}
 
 ---@param fields? table

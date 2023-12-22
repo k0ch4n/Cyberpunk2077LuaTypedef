@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DoorProximityDetectorAppearanceStateType: Enum
----@field ["On"] DoorProximityDetectorAppearanceStateType 0
----@field ["Off"] DoorProximityDetectorAppearanceStateType 1
----@field ["Bars"] DoorProximityDetectorAppearanceStateType 2
----@field ["Green"] DoorProximityDetectorAppearanceStateType 3
----@field ["Alarm"] DoorProximityDetectorAppearanceStateType 4
----@field ["Glitch"] DoorProximityDetectorAppearanceStateType 5
+---@field On 0
+---@field Off 1
+---@field Bars 2
+---@field Green 3
+---@field Alarm 4
+---@field Glitch 5
 DoorProximityDetectorAppearanceStateType = {}

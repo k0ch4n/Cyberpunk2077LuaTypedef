@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIInventoryScriptableSystemInventoryQuantityChanged: gameScriptableSystemRequest
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 UIInventoryScriptableSystemInventoryQuantityChanged = {}
 
 ---@param fields? table

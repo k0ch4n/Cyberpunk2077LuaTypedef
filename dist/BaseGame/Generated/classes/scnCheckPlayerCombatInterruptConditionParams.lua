@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckPlayerCombatInterruptConditionParams
----@field public ["isInCombat"] Bool
+---@field public isInCombat Bool
 scnCheckPlayerCombatInterruptConditionParams = {}
 
 ---@param fields? table

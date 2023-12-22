@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreviousFearPhaseCheck: AIbehaviorconditionScript
----@field public ["fearPhase"] Int32
+---@field public fearPhase Int32
 PreviousFearPhaseCheck = {}
 
 ---@param fields? table

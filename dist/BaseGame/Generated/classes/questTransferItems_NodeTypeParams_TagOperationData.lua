@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questTransferItems_NodeTypeParams_TagOperationData
----@field public ["tagToTransfer"] CName
----@field public ["itemIDsToIgnore"] TweakDBID[]
----@field public ["tagsToIgnore"] CName[]
+---@field public tagToTransfer CName
+---@field public itemIDsToIgnore TweakDBID[]
+---@field public tagsToIgnore CName[]
 questTransferItems_NodeTypeParams_TagOperationData = {}
 
 ---@param fields? table

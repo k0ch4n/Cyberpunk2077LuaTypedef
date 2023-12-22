@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BunkerComputerButtonController: LinkController
----@field public ["usePopupDefault"] Bool
+---@field public usePopupDefault Bool
 BunkerComputerButtonController = {}
 
 ---@param fields? table

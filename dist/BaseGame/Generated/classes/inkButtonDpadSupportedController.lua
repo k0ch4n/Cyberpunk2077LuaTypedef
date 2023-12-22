@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkButtonDpadSupportedController: inkButtonAnimatedController
----@field public ["targetPath_DpadUp"] inkWidget
----@field public ["targetPath_DpadDown"] inkWidget
----@field public ["targetPath_DpadLeft"] inkWidget
----@field public ["targetPath_DpadRight"] inkWidget
+---@field public targetPath_DpadUp inkWidget
+---@field public targetPath_DpadDown inkWidget
+---@field public targetPath_DpadLeft inkWidget
+---@field public targetPath_DpadRight inkWidget
 inkButtonDpadSupportedController = {}
 
 ---@param fields? table

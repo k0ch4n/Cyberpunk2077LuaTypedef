@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkLocalizedBink
----@field public ["binks"] inkBinkLanguageDescriptor[]
+---@field public binks inkBinkLanguageDescriptor[]
 inkLocalizedBink = {}
 
 ---@param fields? table

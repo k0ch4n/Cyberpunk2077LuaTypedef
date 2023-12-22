@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SubtitlesGameController: BaseSubtitlesGameController
----@field private ["sceneComment"] inkTextWidget
----@field private ["subtitlesPanel"] inkVerticalPanelWidget
----@field private ["bbCbShowSceneComment"] redCallbackObject
----@field private ["bbCbHideSceneComment"] redCallbackObject
----@field private ["uiSceneCommentsBlackboard"] gameIBlackboard
+---@field private sceneComment inkTextWidget
+---@field private subtitlesPanel inkVerticalPanelWidget
+---@field private bbCbShowSceneComment redCallbackObject
+---@field private bbCbHideSceneComment redCallbackObject
+---@field private uiSceneCommentsBlackboard gameIBlackboard
 SubtitlesGameController = {}
 
 ---@param fields? table

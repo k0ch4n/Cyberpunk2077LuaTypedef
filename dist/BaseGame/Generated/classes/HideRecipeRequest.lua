@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HideRecipeRequest: gamePlayerScriptableSystemRequest
----@field public ["recipe"] TweakDBID
+---@field public recipe TweakDBID
 HideRecipeRequest = {}
 
 ---@param fields? table

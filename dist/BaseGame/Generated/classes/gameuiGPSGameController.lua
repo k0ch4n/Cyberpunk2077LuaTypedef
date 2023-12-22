@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiGPSGameController: gameuiHUDGameController
----@field public ["gpsSettings"] gamegpsSettings
+---@field public gpsSettings gamegpsSettings
 gameuiGPSGameController = {}
 
 ---@param fields? table

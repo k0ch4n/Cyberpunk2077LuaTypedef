@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class DebugHubMenuLogicController: inkWidgetLogicController
----@field private ["selectorWidget"] inkWidget
----@field private ["selectorCtrl"] hubSelectorController
----@field private ["menusList"] CName[]
----@field private ["eventsList"] CName[]
----@field private ["defailtMenuName"] CName
+---@field private selectorWidget inkWidget
+---@field private selectorCtrl hubSelectorController
+---@field private menusList CName[]
+---@field private eventsList CName[]
+---@field private defailtMenuName CName
 DebugHubMenuLogicController = {}
 
 ---@param fields? table

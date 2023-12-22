@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HoverEvent: redEvent
----@field public ["hooverOn"] Bool
+---@field public hooverOn Bool
 HoverEvent = {}
 
 ---@param fields? table

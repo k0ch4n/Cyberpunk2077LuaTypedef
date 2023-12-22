@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ERTTIType: Enum
----@field ["Name"] ERTTIType 0
----@field ["Fundamental"] ERTTIType 1
----@field ["Class"] ERTTIType 2
----@field ["Array"] ERTTIType 3
----@field ["Simple"] ERTTIType 4
----@field ["Enum"] ERTTIType 5
----@field ["StaticArray"] ERTTIType 6
----@field ["NativeArray"] ERTTIType 7
----@field ["Pointer"] ERTTIType 8
----@field ["Handle"] ERTTIType 9
----@field ["WeakHandle"] ERTTIType 10
----@field ["ResourceReference"] ERTTIType 11
----@field ["ResourceAsyncReference"] ERTTIType 12
----@field ["BitField"] ERTTIType 13
----@field ["LegacySingleChannelCurve"] ERTTIType 14
----@field ["ScriptReference"] ERTTIType 15
----@field ["FixedArray"] ERTTIType 16
+---@field Name 0
+---@field Fundamental 1
+---@field Class 2
+---@field Array 3
+---@field Simple 4
+---@field Enum 5
+---@field StaticArray 6
+---@field NativeArray 7
+---@field Pointer 8
+---@field Handle 9
+---@field WeakHandle 10
+---@field ResourceReference 11
+---@field ResourceAsyncReference 12
+---@field BitField 13
+---@field LegacySingleChannelCurve 14
+---@field ScriptReference 15
+---@field FixedArray 16
 ERTTIType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlaySoundDeviceOperation: DeviceOperationBase
----@field public ["SFXs"] SSFXOperationData[]
+---@field public SFXs SSFXOperationData[]
 PlaySoundDeviceOperation = {}
 
 ---@param fields? table

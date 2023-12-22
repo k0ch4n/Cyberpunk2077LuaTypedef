@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatsStateMapStructure
----@field public ["keys"] gameStatsObjectID[]
----@field public ["values"] gameSavedStatsData[]
+---@field public keys gameStatsObjectID[]
+---@field public values gameSavedStatsData[]
 gameStatsStateMapStructure = {}
 
 ---@param fields? table

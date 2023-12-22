@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LiftStatus: BaseDeviceStatus
----@field public ["libraryName"] CName
+---@field public libraryName CName
 LiftStatus = {}
 
 ---@param fields? table

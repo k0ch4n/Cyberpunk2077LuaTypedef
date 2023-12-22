@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsAdaptiveLookAtReferencePoint
----@field public ["referencePoint"] scnReferencePointId
----@field public ["constantWeight"] Float
+---@field public referencePoint scnReferencePointId
+---@field public constantWeight Float
 scnChoiceNodeNsAdaptiveLookAtReferencePoint = {}
 
 ---@param fields? table

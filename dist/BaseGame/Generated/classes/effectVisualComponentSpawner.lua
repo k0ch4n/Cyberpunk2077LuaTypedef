@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class effectVisualComponentSpawner: effectSpawner
----@field public ["componentName"] CName[]
+---@field public componentName CName[]
 effectVisualComponentSpawner = {}
 
 ---@param fields? table

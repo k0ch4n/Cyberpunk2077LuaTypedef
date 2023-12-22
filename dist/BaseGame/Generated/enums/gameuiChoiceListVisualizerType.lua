@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameuiChoiceListVisualizerType: Enum
----@field ["Interaction"] gameuiChoiceListVisualizerType 0
----@field ["Dialog"] gameuiChoiceListVisualizerType 1
+---@field Interaction 0
+---@field Dialog 1
 gameuiChoiceListVisualizerType = {}

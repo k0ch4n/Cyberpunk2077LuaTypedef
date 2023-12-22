@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GlobalLightOverrideAreaSettings: IAreaSettings
----@field public ["color"] curveData
----@field public ["lightAzimuth"] Float
----@field public ["lightElevation"] Float
+---@field public color curveData
+---@field public lightAzimuth Float
+---@field public lightElevation Float
 GlobalLightOverrideAreaSettings = {}
 
 ---@param fields? table

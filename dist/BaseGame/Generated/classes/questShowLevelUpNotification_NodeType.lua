@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questShowLevelUpNotification_NodeType: questIUIManagerNodeType
----@field public ["levelUpData"] questLevelUpData
+---@field public levelUpData questLevelUpData
 questShowLevelUpNotification_NodeType = {}
 
 ---@param fields? table

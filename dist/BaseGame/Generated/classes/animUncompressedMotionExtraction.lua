@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animUncompressedMotionExtraction: animIMotionExtraction
----@field public ["frames"] Vector4[]
----@field public ["duration"] Float
+---@field public frames Vector4[]
+---@field public duration Float
 animUncompressedMotionExtraction = {}
 
 ---@param fields? table

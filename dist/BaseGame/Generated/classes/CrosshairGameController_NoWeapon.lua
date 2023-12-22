@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_NoWeapon: gameuiCrosshairBaseGameController
----@field private ["AimDownSightContainer"] inkCompoundWidgetReference
----@field private ["ZoomMovingContainer"] inkCompoundWidgetReference
----@field private ["ZoomNumber"] inkTextWidgetReference
----@field private ["ZoomNumberR"] inkTextWidgetReference
----@field private ["DistanceImageRuler"] inkImageWidgetReference
----@field private ["ZoomMoveBracketL"] inkImageWidgetReference
----@field private ["ZoomMoveBracketR"] inkImageWidgetReference
----@field private ["ZoomLevelString"] String
----@field private ["PlayerSMBB"] gameIBlackboard
----@field private ["ZoomLevelBBID"] redCallbackObject
----@field private ["sceneTierBlackboardId"] redCallbackObject
----@field private ["sceneTier"] gamePSMHighLevel
----@field private ["zoomUpAnim"] inkanimProxy
----@field private ["animLockOn"] inkanimProxy
----@field private ["zoomDownAnim"] inkanimProxy
----@field private ["animLockOff"] inkanimProxy
----@field private ["zoomShowAnim"] inkanimProxy
----@field private ["zoomHideAnim"] inkanimProxy
----@field private ["argZoomBuffered"] Float
+---@field private AimDownSightContainer inkCompoundWidgetReference
+---@field private ZoomMovingContainer inkCompoundWidgetReference
+---@field private ZoomNumber inkTextWidgetReference
+---@field private ZoomNumberR inkTextWidgetReference
+---@field private DistanceImageRuler inkImageWidgetReference
+---@field private ZoomMoveBracketL inkImageWidgetReference
+---@field private ZoomMoveBracketR inkImageWidgetReference
+---@field private ZoomLevelString String
+---@field private PlayerSMBB gameIBlackboard
+---@field private ZoomLevelBBID redCallbackObject
+---@field private sceneTierBlackboardId redCallbackObject
+---@field private sceneTier gamePSMHighLevel
+---@field private zoomUpAnim inkanimProxy
+---@field private animLockOn inkanimProxy
+---@field private zoomDownAnim inkanimProxy
+---@field private animLockOff inkanimProxy
+---@field private zoomShowAnim inkanimProxy
+---@field private zoomHideAnim inkanimProxy
+---@field private argZoomBuffered Float
 CrosshairGameController_NoWeapon = {}
 
 ---@param fields? table

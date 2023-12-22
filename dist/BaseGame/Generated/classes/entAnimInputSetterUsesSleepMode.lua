@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterUsesSleepMode: redEvent
----@field public ["value"] Bool
+---@field public value Bool
 entAnimInputSetterUsesSleepMode = {}
 
 ---@param fields? table

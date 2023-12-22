@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStyleThemeDescriptor
----@field public ["themeID"] CName
----@field public ["themeNameLocKey"] CName
+---@field public themeID CName
+---@field public themeNameLocKey CName
 inkStyleThemeDescriptor = {}
 
 ---@param fields? table

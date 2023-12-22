@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class GameplayRoleComponent: gameScriptableComponent
----@field private ["gameplayRole"] EGameplayRole
----@field private ["autoDeterminGameplayRole"] Bool
----@field private ["mappinsDisplayMode"] EMappinDisplayMode
----@field private ["displayAllRolesAsGeneric"] Bool
----@field private ["alwaysCreateMappinAsDynamic"] Bool
----@field private ["forcedMappinVisualState"] EMappinVisualState
----@field private ["mappins"] SDeviceMappinData[]
----@field private ["offsetValue"] Float
----@field private ["isBeingScanned"] Bool
----@field private ["isCurrentTarget"] Bool
----@field private ["isShowingMappins"] Bool
----@field private ["canShowMappinsByTask"] Bool
----@field private ["canHideMappinsByTask"] Bool
----@field private ["isHighlightedInFocusMode"] Bool
----@field private ["currentGameplayRole"] EGameplayRole
----@field private ["isGameplayRoleInitialized"] Bool
----@field private ["isForceHidden"] Bool
----@field private ["isForcedVisibleThroughWalls"] Bool
----@field private ["enabledMinimapMappins"] gamedataMappinVariant[]
+---@field private gameplayRole EGameplayRole
+---@field private autoDeterminGameplayRole Bool
+---@field private mappinsDisplayMode EMappinDisplayMode
+---@field private displayAllRolesAsGeneric Bool
+---@field private alwaysCreateMappinAsDynamic Bool
+---@field private forcedMappinVisualState EMappinVisualState
+---@field private mappins SDeviceMappinData[]
+---@field private offsetValue Float
+---@field private isBeingScanned Bool
+---@field private isCurrentTarget Bool
+---@field private isShowingMappins Bool
+---@field private canShowMappinsByTask Bool
+---@field private canHideMappinsByTask Bool
+---@field private isHighlightedInFocusMode Bool
+---@field private currentGameplayRole EGameplayRole
+---@field private isGameplayRoleInitialized Bool
+---@field private isForceHidden Bool
+---@field private isForcedVisibleThroughWalls Bool
+---@field private enabledMinimapMappins gamedataMappinVariant[]
 GameplayRoleComponent = {}
 
 ---@param fields? table

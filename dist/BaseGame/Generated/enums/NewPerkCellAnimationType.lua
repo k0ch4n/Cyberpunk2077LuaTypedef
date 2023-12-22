@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class NewPerkCellAnimationType: Enum
----@field ["Bought"] NewPerkCellAnimationType 0
----@field ["Maxed"] NewPerkCellAnimationType 1
----@field ["Locked"] NewPerkCellAnimationType 2
----@field ["HoverOver"] NewPerkCellAnimationType 3
----@field ["HoverOut"] NewPerkCellAnimationType 4
----@field ["Sold"] NewPerkCellAnimationType 5
----@field ["Reminder"] NewPerkCellAnimationType 6
----@field ["SellLocked"] NewPerkCellAnimationType 7
----@field ["InsufficientPoints"] NewPerkCellAnimationType 8
----@field ["MaxedLocked"] NewPerkCellAnimationType 9
----@field ["COUNT"] NewPerkCellAnimationType 10
----@field ["INVALID"] NewPerkCellAnimationType -1
+---@field Bought 0
+---@field Maxed 1
+---@field Locked 2
+---@field HoverOver 3
+---@field HoverOut 4
+---@field Sold 5
+---@field Reminder 6
+---@field SellLocked 7
+---@field InsufficientPoints 8
+---@field MaxedLocked 9
+---@field COUNT 10
+---@field INVALID -1
 NewPerkCellAnimationType = {}

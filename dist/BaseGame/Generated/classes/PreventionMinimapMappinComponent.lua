@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class PreventionMinimapMappinComponent: IScriptable
----@field private ["minimapStealthMappinController"] gameuiMinimapStealthMappinController
----@field private ["uiWantedBarBB"] gameIBlackboard
----@field private ["uiWantedBarBBDef"] UI_WantedBarDef
----@field private ["currentWantedStateCallback"] redCallbackObject
----@field private ["playerWanted"] Bool
----@field private ["playerEscapingPursuit"] Bool
----@field private ["maxVisibilityDistance"] Float
+---@field private minimapStealthMappinController gameuiMinimapStealthMappinController
+---@field private uiWantedBarBB gameIBlackboard
+---@field private uiWantedBarBBDef UI_WantedBarDef
+---@field private currentWantedStateCallback redCallbackObject
+---@field private playerWanted Bool
+---@field private playerEscapingPursuit Bool
+---@field private maxVisibilityDistance Float
 PreventionMinimapMappinComponent = {}
 
 ---@param fields? table

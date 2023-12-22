@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DischargeEvents: WeaponEventsTransition
----@field public ["layerId"] Uint32
----@field private ["statPoolsSystem"] gameStatPoolsSystem
----@field private ["statsSystem"] gameStatsSystem
----@field private ["weaponID"] entEntityID
+---@field public layerId Uint32
+---@field private statPoolsSystem gameStatPoolsSystem
+---@field private statsSystem gameStatsSystem
+---@field private weaponID entEntityID
 DischargeEvents = {}
 
 ---@param fields? table

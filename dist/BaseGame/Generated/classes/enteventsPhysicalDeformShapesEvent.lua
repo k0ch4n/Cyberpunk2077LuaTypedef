@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class enteventsPhysicalDeformShapesEvent: redEvent
----@field public ["shapes"] Int32[]
----@field public ["value"] Float
+---@field public shapes Int32[]
+---@field public value Float
 enteventsPhysicalDeformShapesEvent = {}
 
 ---@param fields? table

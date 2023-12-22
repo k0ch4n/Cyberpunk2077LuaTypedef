@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes: redEvent
----@field public ["scaleMultipliers"] Vector4[]
----@field public ["shapeNames"] CName[]
+---@field public scaleMultipliers Vector4[]
+---@field public shapeNames CName[]
 gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes = {}
 
 ---@param fields? table

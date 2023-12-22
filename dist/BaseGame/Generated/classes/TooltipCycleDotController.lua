@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TooltipCycleDotController: inkWidgetLogicController
----@field private ["slotBorder"] inkWidgetReference
----@field private ["slotBackground"] inkWidgetReference
+---@field private slotBorder inkWidgetReference
+---@field private slotBackground inkWidgetReference
 TooltipCycleDotController = {}
 
 ---@param fields? table

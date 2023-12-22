@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConnectionEndedEvent: redEvent
----@field private ["togglePersonalLinkAction"] TogglePersonalLink
+---@field private togglePersonalLinkAction TogglePersonalLink
 ConnectionEndedEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleDrawerScreen: IParticleDrawer
----@field public ["isGPUBased"] Bool
+---@field public isGPUBased Bool
 CParticleDrawerScreen = {}
 
 ---@param fields? table

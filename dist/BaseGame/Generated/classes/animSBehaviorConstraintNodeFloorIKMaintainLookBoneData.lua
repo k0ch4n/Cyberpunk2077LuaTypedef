@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animSBehaviorConstraintNodeFloorIKMaintainLookBoneData
----@field public ["bone"] CName
----@field public ["amountOfRotation"] Float
+---@field public bone CName
+---@field public amountOfRotation Float
 animSBehaviorConstraintNodeFloorIKMaintainLookBoneData = {}
 
 ---@param fields? table

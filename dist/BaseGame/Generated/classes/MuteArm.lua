@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MuteArm: gameweaponObject
----@field private ["gameEffectRef"] gameEffectRef
----@field private ["gameEffectInstance"] gameEffectInstance
+---@field private gameEffectRef gameEffectRef
+---@field private gameEffectInstance gameEffectInstance
 MuteArm = {}
 
 ---@param fields? table

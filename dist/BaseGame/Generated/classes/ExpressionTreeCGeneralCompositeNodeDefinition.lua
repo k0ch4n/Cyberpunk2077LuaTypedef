@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExpressionTreeCGeneralCompositeNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public ["children"] LibTreeINodeDefinition[]
+---@field public children LibTreeINodeDefinition[]
 ExpressionTreeCGeneralCompositeNodeDefinition = {}
 
 ---@param fields? table

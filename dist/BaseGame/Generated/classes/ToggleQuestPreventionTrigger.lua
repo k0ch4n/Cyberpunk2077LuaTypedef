@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleQuestPreventionTrigger: gameScriptableSystemRequest
----@field public ["areaReference"] NodeRef
----@field public ["enable"] Bool
+---@field public areaReference NodeRef
+---@field public enable Bool
 ToggleQuestPreventionTrigger = {}
 
 ---@param fields? table

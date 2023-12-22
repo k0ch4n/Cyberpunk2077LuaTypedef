@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entIComponent: IScriptable
----@field public ["name"] CName
----@field public ["isReplicable"] Bool
----@field public ["id"] CRUID
+---@field public name CName
+---@field public isReplicable Bool
+---@field public id CRUID
 entIComponent = {}
 
 ---@param componentName CName|string

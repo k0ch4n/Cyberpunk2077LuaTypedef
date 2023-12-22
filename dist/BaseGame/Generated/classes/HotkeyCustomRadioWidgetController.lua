@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HotkeyCustomRadioWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private ["radioSlot"] inkCompoundWidgetReference
----@field private ["DpadHintLibraryPath"] inkWidgetLibraryReference
+---@field private radioSlot inkCompoundWidgetReference
+---@field private DpadHintLibraryPath inkWidgetLibraryReference
 HotkeyCustomRadioWidgetController = {}
 
 ---@param fields? table

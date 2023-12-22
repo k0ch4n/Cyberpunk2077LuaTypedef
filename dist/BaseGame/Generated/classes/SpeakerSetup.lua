@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SpeakerSetup
----@field public ["defaultMusic"] ERadioStationList
----@field public ["distractionMusic"] ERadioStationList
----@field public ["range"] Float
----@field public ["glitchSFX"] CName
----@field public ["useOnlyGlitchSFX"] Bool
+---@field public defaultMusic ERadioStationList
+---@field public distractionMusic ERadioStationList
+---@field public range Float
+---@field public glitchSFX CName
+---@field public useOnlyGlitchSFX Bool
 SpeakerSetup = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workConditionalSequence: workSequence
----@field public ["multipleConditionOperator"] workLogicalOperation
----@field public ["conditionList"] workIWorkspotCondition[]
+---@field public multipleConditionOperator workLogicalOperation
+---@field public conditionList workIWorkspotCondition[]
 workConditionalSequence = {}
 
 ---@param fields? table

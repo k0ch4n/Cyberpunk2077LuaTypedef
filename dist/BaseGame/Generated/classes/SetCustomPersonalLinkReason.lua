@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetCustomPersonalLinkReason: ScriptableDeviceAction
----@field public ["reason"] TweakDBID
+---@field public reason TweakDBID
 SetCustomPersonalLinkReason = {}
 
 ---@param fields? table

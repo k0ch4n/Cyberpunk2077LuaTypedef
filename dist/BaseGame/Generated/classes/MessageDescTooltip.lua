@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MessageDescTooltip: MessageTooltip
----@field protected ["titleWrapper"] inkWidgetReference
----@field protected ["descriptionWrapper"] inkWidgetReference
----@field protected ["descriptionLine"] inkWidgetReference
+---@field protected titleWrapper inkWidgetReference
+---@field protected descriptionWrapper inkWidgetReference
+---@field protected descriptionLine inkWidgetReference
 MessageDescTooltip = {}
 
 ---@param fields? table

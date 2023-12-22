@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class OpeningGateScreenGameController: BaseBunkerComputerGameController
----@field public ["systemConsole"] inkWidgetReference
----@field public ["gateScheme"] inkWidgetReference
----@field public ["backButton"] inkWidgetReference
----@field public ["idleAnimName"] CName
----@field public ["loopAnimName"] CName
----@field public ["failureAnimName"] CName
----@field public ["successAnimName"] CName
----@field public ["failurePopupIntroAnimName"] CName
----@field public ["successPopupIntroAnimName"] CName
----@field public ["failurePopupAnimName"] CName
----@field public ["successPopupAnimName"] CName
----@field public ["gateIsOpenedFact"] CName
----@field public ["gateChainBeginningFact"] CName
----@field public ["gotoLoopDelay"] Float
----@field public ["goBackDelay"] Float
----@field public ["isGateOpened"] Bool
----@field public ["systemsStatus"] Bool[]
----@field public ["currentLoopIndex"] Int32
----@field public ["currentSystemIndex"] Int32
----@field public ["phasesCount"] Int32
----@field public ["state"] OpeningGateScreenState
----@field public ["idleAnimProxy"] inkanimProxy
----@field public ["loopAnimProxy"] inkanimProxy
----@field public ["resultAnimProxy"] inkanimProxy
----@field public ["resultPopupIntroAnimProxy"] inkanimProxy
----@field public ["resultPopupAnimProxy"] inkanimProxy
+---@field public systemConsole inkWidgetReference
+---@field public gateScheme inkWidgetReference
+---@field public backButton inkWidgetReference
+---@field public idleAnimName CName
+---@field public loopAnimName CName
+---@field public failureAnimName CName
+---@field public successAnimName CName
+---@field public failurePopupIntroAnimName CName
+---@field public successPopupIntroAnimName CName
+---@field public failurePopupAnimName CName
+---@field public successPopupAnimName CName
+---@field public gateIsOpenedFact CName
+---@field public gateChainBeginningFact CName
+---@field public gotoLoopDelay Float
+---@field public goBackDelay Float
+---@field public isGateOpened Bool
+---@field public systemsStatus Bool[]
+---@field public currentLoopIndex Int32
+---@field public currentSystemIndex Int32
+---@field public phasesCount Int32
+---@field public state OpeningGateScreenState
+---@field public idleAnimProxy inkanimProxy
+---@field public loopAnimProxy inkanimProxy
+---@field public resultAnimProxy inkanimProxy
+---@field public resultPopupIntroAnimProxy inkanimProxy
+---@field public resultPopupAnimProxy inkanimProxy
 OpeningGateScreenGameController = {}
 
 ---@param fields? table

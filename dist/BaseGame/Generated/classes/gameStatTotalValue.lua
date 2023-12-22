@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatTotalValue
----@field public ["statType"] gamedataStatType
----@field public ["value"] Float
+---@field public statType gamedataStatType
+---@field public value Float
 gameStatTotalValue = {}
 
 ---@param fields? table

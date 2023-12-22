@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayedDeviceOperationTriggerEvent: redEvent
----@field public ["triggerHandler"] DeviceOperationsTrigger
----@field public ["namedOperation"] OperationExecutionData
+---@field public triggerHandler DeviceOperationsTrigger
+---@field public namedOperation OperationExecutionData
 DelayedDeviceOperationTriggerEvent = {}
 
 ---@param fields? table

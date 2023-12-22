@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectWorkspotDefinition: gameSmartObjectDefinition
----@field public ["workspotTemplate"] workWorkspotResource
+---@field public workspotTemplate workWorkspotResource
 gameSmartObjectWorkspotDefinition = {}
 
 ---@param fields? table

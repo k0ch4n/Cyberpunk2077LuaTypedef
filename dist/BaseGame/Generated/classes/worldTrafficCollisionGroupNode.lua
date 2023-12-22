@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficCollisionGroupNode: worldNode
----@field public ["collisionEntries"] worldCollisionGroupEntry[]
+---@field public collisionEntries worldCollisionGroupEntry[]
 worldTrafficCollisionGroupNode = {}
 
 ---@param fields? table

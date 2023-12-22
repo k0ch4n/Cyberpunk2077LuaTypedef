@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SetRequiredDistanceCategoryByBone: animAnimNode_OnePoseInput
----@field public ["bone"] animTransformIndex
+---@field public bone animTransformIndex
 animAnimNode_SetRequiredDistanceCategoryByBone = {}
 
 ---@param fields? table

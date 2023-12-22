@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ESwitchAction: Enum
----@field ["ToggleOn"] ESwitchAction 0
----@field ["ToggleActivate"] ESwitchAction 1
+---@field ToggleOn 0
+---@field ToggleActivate 1
 ESwitchAction = {}

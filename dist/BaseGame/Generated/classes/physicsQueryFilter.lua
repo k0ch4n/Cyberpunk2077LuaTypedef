@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsQueryFilter
----@field public ["mask1"] Uint64
----@field public ["mask2"] Uint64
+---@field public mask1 Uint64
+---@field public mask2 Uint64
 physicsQueryFilter = {}
 
 ---@param fields? table

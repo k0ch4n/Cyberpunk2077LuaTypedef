@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleOnPartDetachedEvent: redEvent
----@field public ["partName"] CName
+---@field public partName CName
 vehicleOnPartDetachedEvent = {}
 
 ---@param fields? table

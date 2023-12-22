@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HitIsTheSameTargetPrereq: GenericHitPrereq
----@field public ["isMoving"] Bool
----@field public ["object"] String
----@field public ["invert"] Bool
+---@field public isMoving Bool
+---@field public object String
+---@field public invert Bool
 HitIsTheSameTargetPrereq = {}
 
 ---@param fields? table

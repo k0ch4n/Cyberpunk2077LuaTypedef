@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LocomotionTakedownEvents: LocomotionEventsTransition
----@field public ["stateMachineInitData"] LocomotionTakedownInitData
+---@field public stateMachineInitData LocomotionTakedownInitData
 LocomotionTakedownEvents = {}
 
 ---@param fields? table

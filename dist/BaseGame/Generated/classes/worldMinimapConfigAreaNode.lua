@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldMinimapConfigAreaNode: worldAreaShapeNode
----@field public ["streamingRadius"] Float
+---@field public streamingRadius Float
 worldMinimapConfigAreaNode = {}
 
 ---@param fields? table

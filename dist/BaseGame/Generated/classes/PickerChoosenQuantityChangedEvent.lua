@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PickerChoosenQuantityChangedEvent: inkGameNotificationData
----@field public ["choosenQuantity"] Int32
+---@field public choosenQuantity Int32
 PickerChoosenQuantityChangedEvent = {}
 
 ---@param fields? table

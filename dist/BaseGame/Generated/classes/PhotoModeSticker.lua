@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PhotoModeSticker: inkWidgetLogicController
----@field private ["image"] inkImageWidgetReference
----@field public ["stickersController"] gameuiPhotoModeStickersController
+---@field private image inkImageWidgetReference
+---@field public stickersController gameuiPhotoModeStickersController
 PhotoModeSticker = {}
 
 ---@param fields? table

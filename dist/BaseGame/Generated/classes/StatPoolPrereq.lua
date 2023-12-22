@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class StatPoolPrereq: gameIScriptablePrereq
----@field public ["statPoolType"] gamedataStatPoolType
----@field public ["valueToCheck"] gamedataStatModifier_Record[]
----@field public ["comparisonType"] EComparisonType
----@field public ["skipOnApply"] Bool
----@field public ["comparePercentage"] Bool
----@field public ["objToCheck"] ObjectToCheck
+---@field public statPoolType gamedataStatPoolType
+---@field public valueToCheck gamedataStatModifier_Record[]
+---@field public comparisonType EComparisonType
+---@field public skipOnApply Bool
+---@field public comparePercentage Bool
+---@field public objToCheck ObjectToCheck
 StatPoolPrereq = {}
 
 ---@param fields? table

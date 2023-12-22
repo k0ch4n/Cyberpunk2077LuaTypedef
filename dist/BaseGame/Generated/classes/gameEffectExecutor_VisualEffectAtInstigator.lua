@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_VisualEffectAtInstigator: gameEffectExecutor
----@field public ["effect"] worldEffect
+---@field public effect worldEffect
 gameEffectExecutor_VisualEffectAtInstigator = {}
 
 ---@param fields? table

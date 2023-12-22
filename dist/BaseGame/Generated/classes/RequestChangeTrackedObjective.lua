@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RequestChangeTrackedObjective: redEvent
----@field public ["objective"] gameJournalQuestObjective
----@field public ["quest"] gameJournalQuest
----@field public ["forceSelectEntry"] Int32
+---@field public objective gameJournalQuestObjective
+---@field public quest gameJournalQuest
+---@field public forceSelectEntry Int32
 RequestChangeTrackedObjective = {}
 
 ---@param fields? table

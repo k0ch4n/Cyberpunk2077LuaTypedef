@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class DamagePreviewController: inkWidgetLogicController
----@field public ["fullBar"] inkWidgetReference
----@field public ["stippedBar"] inkWidgetReference
----@field public ["rootCanvas"] inkWidgetReference
----@field private ["width"] Float
----@field private ["height"] Float
----@field private ["heightStripped"] Float
----@field private ["heightRoot"] Float
----@field private ["animProxy"] inkanimProxy
+---@field public fullBar inkWidgetReference
+---@field public stippedBar inkWidgetReference
+---@field public rootCanvas inkWidgetReference
+---@field private width Float
+---@field private height Float
+---@field private heightStripped Float
+---@field private heightRoot Float
+---@field private animProxy inkanimProxy
 DamagePreviewController = {}
 
 ---@param fields? table

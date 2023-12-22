@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventPostponedParameterInt: gamestateMachineeventPostponedParameterBase
----@field public ["value"] Int32
+---@field public value Int32
 gamestateMachineeventPostponedParameterInt = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemSlotsFilledPrereq: gameIScriptablePrereq
----@field public ["equipAreas"] gamedataEquipmentArea[]
+---@field public equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereq = {}
 
 ---@param fields? table

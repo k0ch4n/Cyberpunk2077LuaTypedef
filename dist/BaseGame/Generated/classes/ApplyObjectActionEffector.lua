@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ApplyObjectActionEffector: gameEffector
----@field public ["actionID"] TweakDBID
----@field public ["triggered"] Bool
----@field public ["probability"] Float
+---@field public actionID TweakDBID
+---@field public triggered Bool
+---@field public probability Float
 ApplyObjectActionEffector = {}
 
 ---@param fields? table

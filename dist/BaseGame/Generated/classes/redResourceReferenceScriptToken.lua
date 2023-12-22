@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class redResourceReferenceScriptToken
----@field public ["resource"] CResource
+---@field public resource CResource
 redResourceReferenceScriptToken = {}
 
 ---@param fields? table

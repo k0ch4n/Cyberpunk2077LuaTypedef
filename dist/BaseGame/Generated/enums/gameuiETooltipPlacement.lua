@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiETooltipPlacement: Enum
----@field ["LeftCenter"] gameuiETooltipPlacement 0
----@field ["RightCenter"] gameuiETooltipPlacement 1
----@field ["LeftTop"] gameuiETooltipPlacement 2
----@field ["RightTop"] gameuiETooltipPlacement 3
+---@field LeftCenter 0
+---@field RightCenter 1
+---@field LeftTop 2
+---@field RightTop 3
 gameuiETooltipPlacement = {}

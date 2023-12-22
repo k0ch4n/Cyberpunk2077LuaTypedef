@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EProgressBarType: Enum
----@field ["UPLOAD"] EProgressBarType 0
----@field ["DURATION"] EProgressBarType 1
+---@field UPLOAD 0
+---@field DURATION 1
 EProgressBarType = {}

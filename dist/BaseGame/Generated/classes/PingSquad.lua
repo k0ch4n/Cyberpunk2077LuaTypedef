@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PingSquad: PuppetAction
----@field private ["shouldForward"] Bool
+---@field private shouldForward Bool
 PingSquad = {}
 
 ---@param fields? table

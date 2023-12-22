@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class animationPlayer: inkWidgetLogicController
----@field public ["animName"] CName
----@field public ["loopType"] inkanimLoopType
----@field public ["delay"] Float
----@field public ["playInfinite"] Bool
----@field public ["loopsAmount"] Uint32
----@field public ["playReversed"] Bool
----@field public ["animTarget"] inkWidgetReference
----@field public ["autoPlay"] Bool
----@field public ["dependsOnTimeDilation"] Bool
----@field private ["anim"] inkanimProxy
+---@field public animName CName
+---@field public loopType inkanimLoopType
+---@field public delay Float
+---@field public playInfinite Bool
+---@field public loopsAmount Uint32
+---@field public playReversed Bool
+---@field public animTarget inkWidgetReference
+---@field public autoPlay Bool
+---@field public dependsOnTimeDilation Bool
+---@field private anim inkanimProxy
 animationPlayer = {}
 
 ---@param fields? table

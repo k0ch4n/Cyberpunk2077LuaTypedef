@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class entSimpleColliderComponent: entIPlacedComponent
----@field public ["isEnabled"] Bool
----@field public ["colliders"] physicsICollider[]
----@field public ["filter"] physicsFilterData
----@field public ["compiledBuffer"] DataBuffer
+---@field public isEnabled Bool
+---@field public colliders physicsICollider[]
+---@field public filter physicsFilterData
+---@field public compiledBuffer DataBuffer
 entSimpleColliderComponent = {}
 
 ---@param fields? table

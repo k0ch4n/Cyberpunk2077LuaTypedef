@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDeviceBase: gameObject
----@field public ["isLogicReady"] Bool
+---@field public isLogicReady Bool
 gameDeviceBase = {}
 
 ---@param fields? table

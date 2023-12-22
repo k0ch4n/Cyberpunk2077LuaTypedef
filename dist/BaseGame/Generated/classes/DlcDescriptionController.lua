@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class DlcDescriptionController: inkWidgetLogicController
----@field private ["titleRef"] inkTextWidgetReference
----@field private ["descriptionRef"] inkTextWidgetReference
----@field private ["guideRef"] inkTextWidgetReference
----@field private ["imageRef"] inkImageWidgetReference
----@field private ["settingSelectorRef"] inkWidgetReference
----@field private ["settingSelector"] inkSettingsSelectorController
----@field private ["settingsListener"] DLCSettingsVarListener
----@field private ["settingVar"] userSettingsVar
----@field private ["isPreGame"] Bool
+---@field private titleRef inkTextWidgetReference
+---@field private descriptionRef inkTextWidgetReference
+---@field private guideRef inkTextWidgetReference
+---@field private imageRef inkImageWidgetReference
+---@field private settingSelectorRef inkWidgetReference
+---@field private settingSelector inkSettingsSelectorController
+---@field private settingsListener DLCSettingsVarListener
+---@field private settingVar userSettingsVar
+---@field private isPreGame Bool
 DlcDescriptionController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryItemDataWrapper: IScriptable
----@field public ["ItemData"] gameInventoryItemData
----@field public ["SortData"] gameInventoryItemSortData
----@field public ["HasSortDataBuilt"] Bool
+---@field public ItemData gameInventoryItemData
+---@field public SortData gameInventoryItemSortData
+---@field public HasSortDataBuilt Bool
 InventoryItemDataWrapper = {}
 
 ---@param fields? table

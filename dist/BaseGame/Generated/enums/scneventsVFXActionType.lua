@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scneventsVFXActionType: Enum
----@field ["Play"] scneventsVFXActionType 0
----@field ["Break"] scneventsVFXActionType 1
----@field ["Kill"] scneventsVFXActionType 2
+---@field Play 0
+---@field Break 1
+---@field Kill 2
 scneventsVFXActionType = {}

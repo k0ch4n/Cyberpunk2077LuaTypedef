@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textJustificationType: Enum
----@field ["Left"] textJustificationType 0
----@field ["Center"] textJustificationType 1
----@field ["Right"] textJustificationType 2
+---@field Left 0
+---@field Center 1
+---@field Right 2
 textJustificationType = {}

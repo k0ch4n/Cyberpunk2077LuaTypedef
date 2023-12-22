@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIDrivePatrolUpdate: AIDriveCommandUpdate
----@field public ["numPatrolLoops"] Uint32
----@field public ["emergencyPatrol"] Bool
+---@field public numPatrolLoops Uint32
+---@field public emergencyPatrol Bool
 AIDrivePatrolUpdate = {}
 
 ---@param fields? table

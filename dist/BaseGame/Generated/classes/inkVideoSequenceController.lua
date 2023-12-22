@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkVideoSequenceController: inkWidgetLogicController
----@field public ["videoWidget"] inkVideoWidgetReference
----@field public ["videoSequence"] inkVideoSequenceEntry[]
+---@field public videoWidget inkVideoWidgetReference
+---@field public videoSequence inkVideoSequenceEntry[]
 inkVideoSequenceController = {}
 
 ---@param fields? table

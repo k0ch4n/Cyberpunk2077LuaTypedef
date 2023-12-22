@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldBlockoutResource: CResource
----@field public ["blockoutData"] worldBlockoutData
+---@field public blockoutData worldBlockoutData
 worldBlockoutResource = {}
 
 ---@param fields? table

@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class CraftingMainGameController: gameuiMenuGameController
----@field private ["tooltipsManagerRef"] inkWidgetReference
----@field private ["tabRootRef"] inkWidgetReference
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["craftingLogicControllerContainer"] inkWidgetReference
----@field private ["upgradingLogicControllerContainer"] inkWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field private ["player"] PlayerPuppet
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["craftingSystem"] CraftingSystem
----@field private ["playerCraftBook"] CraftBook
----@field private ["VendorDataManager"] VendorDataManager
----@field private ["InventoryManager"] InventoryDataManagerV2
----@field private ["uiScriptableSystem"] UIScriptableSystem
----@field private ["tooltipsManager"] gameuiTooltipsManager
----@field private ["craftingDef"] UI_CraftingDef
----@field private ["craftingBlackboard"] gameIBlackboard
----@field private ["craftingBBID"] redCallbackObject
----@field private ["levelUpBlackboard"] gameIBlackboard
----@field private ["playerLevelUpListener"] redCallbackObject
----@field private ["mode"] CraftingMode
----@field private ["isInitializeOver"] Bool
----@field private ["craftingLogicController"] CraftingLogicController
----@field private ["upgradingLogicController"] UpgradingScreenController
----@field private ["tabRoot"] TabRadioGroup
----@field private ["isTabEnabled"] Bool
+---@field private tooltipsManagerRef inkWidgetReference
+---@field private tabRootRef inkWidgetReference
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private craftingLogicControllerContainer inkWidgetReference
+---@field private upgradingLogicControllerContainer inkWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field private player PlayerPuppet
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private craftingSystem CraftingSystem
+---@field private playerCraftBook CraftBook
+---@field private VendorDataManager VendorDataManager
+---@field private InventoryManager InventoryDataManagerV2
+---@field private uiScriptableSystem UIScriptableSystem
+---@field private tooltipsManager gameuiTooltipsManager
+---@field private craftingDef UI_CraftingDef
+---@field private craftingBlackboard gameIBlackboard
+---@field private craftingBBID redCallbackObject
+---@field private levelUpBlackboard gameIBlackboard
+---@field private playerLevelUpListener redCallbackObject
+---@field private mode CraftingMode
+---@field private isInitializeOver Bool
+---@field private craftingLogicController CraftingLogicController
+---@field private upgradingLogicController UpgradingScreenController
+---@field private tabRoot TabRadioGroup
+---@field private isTabEnabled Bool
 CraftingMainGameController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleType: Enum
----@field ["Bike"] gamedataVehicleType 0
----@field ["Car"] gamedataVehicleType 1
----@field ["Panzer"] gamedataVehicleType 2
----@field ["Count"] gamedataVehicleType 3
----@field ["Invalid"] gamedataVehicleType 4
+---@field Bike 0
+---@field Car 1
+---@field Panzer 2
+---@field Count 3
+---@field Invalid 4
 gamedataVehicleType = {}

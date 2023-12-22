@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsController: inkWidgetLogicController
----@field protected ["detailsButton"] inkWidgetReference
----@field protected ["entryContainer"] inkCompoundWidgetReference
----@field protected ["healthEntryController"] InventoryStatsEntryController
----@field protected ["armorEntryController"] InventoryStatsEntryController
----@field protected ["staminaEntryController"] InventoryStatsEntryController
+---@field protected detailsButton inkWidgetReference
+---@field protected entryContainer inkCompoundWidgetReference
+---@field protected healthEntryController InventoryStatsEntryController
+---@field protected armorEntryController InventoryStatsEntryController
+---@field protected staminaEntryController InventoryStatsEntryController
 InventoryStatsController = {}
 
 ---@param fields? table

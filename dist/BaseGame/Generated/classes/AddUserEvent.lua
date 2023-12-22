@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddUserEvent: redEvent
----@field public ["userEntry"] SecuritySystemClearanceEntry
+---@field public userEntry SecuritySystemClearanceEntry
 AddUserEvent = {}
 
 ---@param fields? table

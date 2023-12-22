@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIinfluenceEBumpPolicy: Enum
----@field ["Static"] AIinfluenceEBumpPolicy 0
----@field ["Lean"] AIinfluenceEBumpPolicy 1
----@field ["Move"] AIinfluenceEBumpPolicy 2
+---@field Static 0
+---@field Lean 1
+---@field Move 2
 AIinfluenceEBumpPolicy = {}

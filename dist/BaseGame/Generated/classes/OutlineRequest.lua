@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OutlineRequest: IScriptable
----@field private ["requester"] CName
----@field private ["outlineDuration"] Float
----@field private ["outlineData"] OutlineData
+---@field private requester CName
+---@field private outlineDuration Float
+---@field private outlineData OutlineData
 OutlineRequest = {}
 
 ---@param fields? table

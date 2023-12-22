@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PerksSkillLabelContentContainer: HubMenuLabelContentContainer
----@field protected ["levelLabel"] inkTextWidgetReference
----@field protected ["levelBar"] inkWidgetReference
----@field public ["skillData"] ProficiencyDisplayData
+---@field protected levelLabel inkTextWidgetReference
+---@field protected levelBar inkWidgetReference
+---@field public skillData ProficiencyDisplayData
 PerksSkillLabelContentContainer = {}
 
 ---@param fields? table

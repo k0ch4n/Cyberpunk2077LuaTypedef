@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EstatusEffectsState: Enum
----@field ["Deactivated"] EstatusEffectsState 0
----@field ["Activating"] EstatusEffectsState 1
----@field ["Activated"] EstatusEffectsState 2
+---@field Deactivated 0
+---@field Activating 1
+---@field Activated 2
 EstatusEffectsState = {}

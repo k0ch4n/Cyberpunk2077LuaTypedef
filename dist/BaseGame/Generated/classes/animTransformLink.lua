@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animTransformLink
----@field public ["node"] animAnimNode_TransformValue
+---@field public node animAnimNode_TransformValue
 animTransformLink = {}
 
 ---@param fields? table

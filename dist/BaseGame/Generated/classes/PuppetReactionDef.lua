@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PuppetReactionDef: gamebbScriptDefinition
----@field public ["exitReactionFlag"] gamebbScriptID_Bool
----@field public ["blockReactionFlag"] gamebbScriptID_Bool
+---@field public exitReactionFlag gamebbScriptID_Bool
+---@field public blockReactionFlag gamebbScriptID_Bool
 PuppetReactionDef = {}
 
 ---@param fields? table

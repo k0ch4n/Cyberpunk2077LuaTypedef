@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeTargetingEvents: MeleeEventsTransition
----@field private ["aimInTimeRemaining"] Float
+---@field private aimInTimeRemaining Float
 MeleeTargetingEvents = {}
 
 ---@param fields? table

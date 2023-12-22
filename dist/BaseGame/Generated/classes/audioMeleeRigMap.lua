@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioMeleeRigMap: audioAudioMetadata
----@field public ["mapItems"] audioMeleeRigMapItem[]
+---@field public mapItems audioMeleeRigMapItem[]
 audioMeleeRigMap = {}
 
 ---@param fields? table

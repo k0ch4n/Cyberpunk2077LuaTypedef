@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VirtualNestedListDataView: inkScriptableDataViewWrapper
----@field public ["compareBuilder"] CompareBuilder
----@field public ["defaultCollapsed"] Bool
----@field public ["toggledLevels"] Int32[]
+---@field public compareBuilder CompareBuilder
+---@field public defaultCollapsed Bool
+---@field public toggledLevels Int32[]
 VirtualNestedListDataView = {}
 
 ---@param fields? table

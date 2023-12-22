@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScannerRarity: ScannerChunk
----@field private ["rarity"] gamedataNPCRarity
----@field private ["isCivilian"] Bool
+---@field private rarity gamedataNPCRarity
+---@field private isCivilian Bool
 ScannerRarity = {}
 
 ---@param fields? table

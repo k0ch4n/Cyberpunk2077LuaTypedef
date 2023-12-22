@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorBehaviorIncludedDebuggerCommand: AIbehaviorIDebuggerCommand
----@field public ["entries"] AIbehaviorBehaviorIncludedDebuggerCommandEntry[]
+---@field public entries AIbehaviorBehaviorIncludedDebuggerCommandEntry[]
 AIbehaviorBehaviorIncludedDebuggerCommand = {}
 
 ---@param fields? table

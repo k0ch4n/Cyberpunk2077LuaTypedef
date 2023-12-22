@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class localizationPersistenceLocDataMapEntry
----@field public ["langCode"] CName
----@field public ["onscreensPath"] JsonResource
----@field public ["subtitlePath"] JsonResource
+---@field public langCode CName
+---@field public onscreensPath JsonResource
+---@field public subtitlePath JsonResource
 localizationPersistenceLocDataMapEntry = {}
 
 ---@param fields? table

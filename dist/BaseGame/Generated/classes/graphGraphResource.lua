@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class graphGraphResource: CResource
----@field public ["graph"] graphGraphDefinition
+---@field public graph graphGraphDefinition
 graphGraphResource = {}

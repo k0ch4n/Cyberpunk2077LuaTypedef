@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EVehicleBrandState: Enum
----@field ["Default"] EVehicleBrandState 0
----@field ["New"] EVehicleBrandState 1
----@field ["Selected"] EVehicleBrandState 2
+---@field Default 0
+---@field New 1
+---@field Selected 2
 EVehicleBrandState = {}

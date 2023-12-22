@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAIActionPhase: Enum
----@field ["Inactive"] EAIActionPhase 0
----@field ["Startup"] EAIActionPhase 1
----@field ["Loop"] EAIActionPhase 2
----@field ["Recovery"] EAIActionPhase 3
+---@field Inactive 0
+---@field Startup 1
+---@field Loop 2
+---@field Recovery 3
 EAIActionPhase = {}

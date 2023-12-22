@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSSlotActiveItems
----@field public ["rightHandItem"] gameItemID
----@field public ["leftHandItem"] gameItemID
+---@field public rightHandItem gameItemID
+---@field public leftHandItem gameItemID
 gameSSlotActiveItems = {}
 
 ---@param fields? table

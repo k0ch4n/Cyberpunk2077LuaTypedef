@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class inkInitialLoadingScreenLogicController: inkILoadingLogicController
----@field public ["skipButtonPanel"] inkWidgetReference
----@field public ["loadingPartsContainer"] inkCompoundWidgetReference
----@field public ["afterSkipAnimation"] CName
----@field public ["loadingFinishedAudioStopEvent"] CName
----@field private ["progressBarRoot"] inkWidgetReference
----@field private ["progressBarController"] LoadingScreenProgressBarController
+---@field public skipButtonPanel inkWidgetReference
+---@field public loadingPartsContainer inkCompoundWidgetReference
+---@field public afterSkipAnimation CName
+---@field public loadingFinishedAudioStopEvent CName
+---@field private progressBarRoot inkWidgetReference
+---@field private progressBarController LoadingScreenProgressBarController
 inkInitialLoadingScreenLogicController = {}
 
 ---@param fields? table

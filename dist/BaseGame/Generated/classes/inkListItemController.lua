@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class inkListItemController: inkButtonController
----@field public ["ToggledOff"] inkListItemControllerCallback
----@field public ["ToggledOn"] inkListItemControllerCallback
----@field public ["Selected"] inkListItemControllerCallback
----@field public ["Deselected"] inkListItemControllerCallback
----@field public ["AddedToList"] inkListItemControllerCallback
----@field public ["labelPathRef"] inkTextWidgetReference
+---@field public ToggledOff inkListItemControllerCallback
+---@field public ToggledOn inkListItemControllerCallback
+---@field public Selected inkListItemControllerCallback
+---@field public Deselected inkListItemControllerCallback
+---@field public AddedToList inkListItemControllerCallback
+---@field public labelPathRef inkTextWidgetReference
 inkListItemController = {}
 
 ---@param fields? table

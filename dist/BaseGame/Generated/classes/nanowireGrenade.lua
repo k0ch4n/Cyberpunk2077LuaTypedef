@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class nanowireGrenade: BaseProjectile
----@field private ["countTime"] Float
----@field private ["timeToActivation"] Float
----@field private ["energyLossFactor"] Float
----@field private ["startVelocity"] Float
----@field private ["grenadeLifetime"] Float
----@field private ["gravitySimulation"] Float
----@field private ["trailEffectName"] CName
----@field private ["alive"] Bool
+---@field private countTime Float
+---@field private timeToActivation Float
+---@field private energyLossFactor Float
+---@field private startVelocity Float
+---@field private grenadeLifetime Float
+---@field private gravitySimulation Float
+---@field private trailEffectName CName
+---@field private alive Bool
 nanowireGrenade = {}
 
 ---@param fields? table

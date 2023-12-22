@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCompiledCommunityAreaNode: worldNode
----@field public ["area"] communityArea
----@field public ["sourceObjectId"] entEntityID
+---@field public area communityArea
+---@field public sourceObjectId entEntityID
 worldCompiledCommunityAreaNode = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_LocalizationEntry: IScriptable
----@field public ["key"] String
+---@field public key String
 Codeware_Localization_LocalizationEntry = {}
 
 ---@param str String

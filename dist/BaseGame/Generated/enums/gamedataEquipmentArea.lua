@@ -2,50 +2,50 @@
 ---@diagnostic disable
 
 ---@class gamedataEquipmentArea: Enum
----@field ["AbilityCW"] gamedataEquipmentArea 0
----@field ["ArmsCW"] gamedataEquipmentArea 1
----@field ["BaseFists"] gamedataEquipmentArea 2
----@field ["BotCPU"] gamedataEquipmentArea 3
----@field ["BotChassisModule"] gamedataEquipmentArea 4
----@field ["BotMainModule"] gamedataEquipmentArea 5
----@field ["BotSoftware"] gamedataEquipmentArea 6
----@field ["CardiovascularSystemCW"] gamedataEquipmentArea 7
----@field ["Consumable"] gamedataEquipmentArea 8
----@field ["CyberwareWheel"] gamedataEquipmentArea 9
----@field ["EyesCW"] gamedataEquipmentArea 10
----@field ["Face"] gamedataEquipmentArea 11
----@field ["FaceCW"] gamedataEquipmentArea 12
----@field ["Feet"] gamedataEquipmentArea 13
----@field ["FrontalCortexCW"] gamedataEquipmentArea 14
----@field ["Gadget"] gamedataEquipmentArea 15
----@field ["HandsCW"] gamedataEquipmentArea 16
----@field ["Head"] gamedataEquipmentArea 17
----@field ["ImmuneSystemCW"] gamedataEquipmentArea 18
----@field ["InnerChest"] gamedataEquipmentArea 19
----@field ["IntegumentarySystemCW"] gamedataEquipmentArea 20
----@field ["LeftArm"] gamedataEquipmentArea 21
----@field ["Legs"] gamedataEquipmentArea 22
----@field ["LegsCW"] gamedataEquipmentArea 23
----@field ["MusculoskeletalSystemCW"] gamedataEquipmentArea 24
----@field ["NervousSystemCW"] gamedataEquipmentArea 25
----@field ["OuterChest"] gamedataEquipmentArea 26
----@field ["Outfit"] gamedataEquipmentArea 27
----@field ["PersonalLink"] gamedataEquipmentArea 28
----@field ["PlayerTattoo"] gamedataEquipmentArea 29
----@field ["Quest"] gamedataEquipmentArea 30
----@field ["QuickSlot"] gamedataEquipmentArea 31
----@field ["QuickWheel"] gamedataEquipmentArea 32
----@field ["RightArm"] gamedataEquipmentArea 33
----@field ["SilverhandArm"] gamedataEquipmentArea 34
----@field ["Splinter"] gamedataEquipmentArea 35
----@field ["SystemReplacementCW"] gamedataEquipmentArea 36
----@field ["UnderwearBottom"] gamedataEquipmentArea 37
----@field ["UnderwearTop"] gamedataEquipmentArea 38
----@field ["VDefaultHandgun"] gamedataEquipmentArea 39
----@field ["Weapon"] gamedataEquipmentArea 40
----@field ["WeaponHeavy"] gamedataEquipmentArea 41
----@field ["WeaponLeft"] gamedataEquipmentArea 42
----@field ["WeaponWheel"] gamedataEquipmentArea 43
----@field ["Count"] gamedataEquipmentArea 44
----@field ["Invalid"] gamedataEquipmentArea 45
+---@field AbilityCW 0
+---@field ArmsCW 1
+---@field BaseFists 2
+---@field BotCPU 3
+---@field BotChassisModule 4
+---@field BotMainModule 5
+---@field BotSoftware 6
+---@field CardiovascularSystemCW 7
+---@field Consumable 8
+---@field CyberwareWheel 9
+---@field EyesCW 10
+---@field Face 11
+---@field FaceCW 12
+---@field Feet 13
+---@field FrontalCortexCW 14
+---@field Gadget 15
+---@field HandsCW 16
+---@field Head 17
+---@field ImmuneSystemCW 18
+---@field InnerChest 19
+---@field IntegumentarySystemCW 20
+---@field LeftArm 21
+---@field Legs 22
+---@field LegsCW 23
+---@field MusculoskeletalSystemCW 24
+---@field NervousSystemCW 25
+---@field OuterChest 26
+---@field Outfit 27
+---@field PersonalLink 28
+---@field PlayerTattoo 29
+---@field Quest 30
+---@field QuickSlot 31
+---@field QuickWheel 32
+---@field RightArm 33
+---@field SilverhandArm 34
+---@field Splinter 35
+---@field SystemReplacementCW 36
+---@field UnderwearBottom 37
+---@field UnderwearTop 38
+---@field VDefaultHandgun 39
+---@field Weapon 40
+---@field WeaponHeavy 41
+---@field WeaponLeft 42
+---@field WeaponWheel 43
+---@field Count 44
+---@field Invalid 45
 gamedataEquipmentArea = {}

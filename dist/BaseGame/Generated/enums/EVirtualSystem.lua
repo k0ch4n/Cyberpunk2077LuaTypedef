@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EVirtualSystem: Enum
----@field ["None"] EVirtualSystem 0
----@field ["SurveillanceSystem"] EVirtualSystem 1
----@field ["DoorSystem"] EVirtualSystem 2
----@field ["MediaSystem"] EVirtualSystem 3
----@field ["SecuritySystem"] EVirtualSystem 4
+---@field None 0
+---@field SurveillanceSystem 1
+---@field DoorSystem 2
+---@field MediaSystem 3
+---@field SecuritySystem 4
 EVirtualSystem = {}

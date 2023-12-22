@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StealthStimThreshold: AIbehaviorconditionScript
----@field public ["stealthThresholdNumber"] Int32
+---@field public stealthThresholdNumber Int32
 StealthStimThreshold = {}
 
 ---@param fields? table

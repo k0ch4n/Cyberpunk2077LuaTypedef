@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeOptionSelectorData
----@field public ["optionData"] Int32
----@field public ["optionText"] String
+---@field public optionData Int32
+---@field public optionText String
 gameuiPhotoModeOptionSelectorData = {}
 
 ---@param fields? table

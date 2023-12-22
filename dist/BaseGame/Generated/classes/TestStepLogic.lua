@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TestStepLogic: IScriptable
----@field public ["maxExecutionTimeSec"] Float
----@field public ["executionTimeSec"] Float
----@field public ["paramsData"] ParamData[]
+---@field public maxExecutionTimeSec Float
+---@field public executionTimeSec Float
+---@field public paramsData ParamData[]
 TestStepLogic = {}
 
 ---@param fields? table

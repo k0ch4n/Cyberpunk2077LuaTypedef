@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceTransfromAnim: InteractiveDevice
----@field private ["animationState"] Int32
+---@field private animationState Int32
 ActivatedDeviceTransfromAnim = {}
 
 ---@param fields? table

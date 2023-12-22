@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InspectDummy: gameObject
----@field public ["mesh"] entPhysicalMeshComponent
----@field public ["choice"] gameinteractionsComponent
----@field public ["inspectComp"] InspectableObjectComponent
+---@field public mesh entPhysicalMeshComponent
+---@field public choice gameinteractionsComponent
+---@field public inspectComp InspectableObjectComponent
 InspectDummy = {}
 
 ---@param fields? table

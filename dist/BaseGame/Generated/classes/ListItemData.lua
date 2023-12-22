@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ListItemData: IScriptable
----@field public ["label"] String
+---@field public label String
 ListItemData = {}
 
 ---@param fields? table

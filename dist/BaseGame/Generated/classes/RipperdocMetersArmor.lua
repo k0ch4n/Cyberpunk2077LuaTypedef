@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class RipperdocMetersArmor: RipperdocMetersBase
----@field private ["barScale"] Float
----@field private ["currentArmorLabelContainer"] inkWidgetReference
----@field private ["currentArmorLabelBackground"] inkWidgetReference
----@field private ["costArmorLabelContainer"] inkWidgetReference
----@field private ["costArmorLabelBackground"] inkWidgetReference
----@field private ["costArmorLabelValue"] inkTextWidgetReference
----@field private ["maxArmorLabel"] inkWidgetReference
----@field private ["maxArmorLabelContainer"] inkWidgetReference
----@field private ["maxArmorLabelValue"] inkTextWidgetReference
----@field private ["maxArmor"] Float
----@field private ["curEquippedArmor"] Float
----@field private ["newEquippedArmor"] Float
----@field private ["maxArmorPossible"] Float
----@field private ["maxDamageReduction"] Float
----@field private ["currentArmorLabel"] RipperdocFillLabel
----@field private ["currentArmorLabelAnimation"] inkanimProxy
----@field private ["costArmorLabelAnimation"] inkanimProxy
----@field private ["currentArmorLabelPulseAnimation"] PulseAnimation
----@field private ["costArmorLabelPulseAnimation"] PulseAnimation
----@field private ["maxBaseBar"] Int32
----@field private ["currentBars"] Int32
----@field private ["barsSpawned"] Bool
----@field private ["C_costLabelAnchorPoint_ADD"] Vector2
----@field private ["C_costLabelAnchorPoint_SUBTRACT"] Vector2
----@field private ["C_costLabelAnchorPoint_EQUIPPED"] Vector2
+---@field private barScale Float
+---@field private currentArmorLabelContainer inkWidgetReference
+---@field private currentArmorLabelBackground inkWidgetReference
+---@field private costArmorLabelContainer inkWidgetReference
+---@field private costArmorLabelBackground inkWidgetReference
+---@field private costArmorLabelValue inkTextWidgetReference
+---@field private maxArmorLabel inkWidgetReference
+---@field private maxArmorLabelContainer inkWidgetReference
+---@field private maxArmorLabelValue inkTextWidgetReference
+---@field private maxArmor Float
+---@field private curEquippedArmor Float
+---@field private newEquippedArmor Float
+---@field private maxArmorPossible Float
+---@field private maxDamageReduction Float
+---@field private currentArmorLabel RipperdocFillLabel
+---@field private currentArmorLabelAnimation inkanimProxy
+---@field private costArmorLabelAnimation inkanimProxy
+---@field private currentArmorLabelPulseAnimation PulseAnimation
+---@field private costArmorLabelPulseAnimation PulseAnimation
+---@field private maxBaseBar Int32
+---@field private currentBars Int32
+---@field private barsSpawned Bool
+---@field private C_costLabelAnchorPoint_ADD Vector2
+---@field private C_costLabelAnchorPoint_SUBTRACT Vector2
+---@field private C_costLabelAnchorPoint_EQUIPPED Vector2
 RipperdocMetersArmor = {}
 
 ---@param fields? table

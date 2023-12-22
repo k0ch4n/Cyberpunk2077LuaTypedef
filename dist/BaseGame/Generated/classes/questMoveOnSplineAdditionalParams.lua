@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questMoveOnSplineAdditionalParams: ISerializable
----@field public ["type"] questMoveOnSplineType
----@field public ["simpleParams"] questSimpleMoveOnSplineParams
----@field public ["animParams"] questAnimMoveOnSplineParams
----@field public ["withCompanionParams"] questWithCompanionMoveOnSplineParams
+---@field public type questMoveOnSplineType
+---@field public simpleParams questSimpleMoveOnSplineParams
+---@field public animParams questAnimMoveOnSplineParams
+---@field public withCompanionParams questWithCompanionMoveOnSplineParams
 questMoveOnSplineAdditionalParams = {}
 
 ---@param fields? table

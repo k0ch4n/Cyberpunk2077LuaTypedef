@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_MeleeAttack: animAnimFeature
----@field public ["hit"] Bool
+---@field public hit Bool
 AnimFeature_MeleeAttack = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameWrappedEntIDArray
----@field public ["arr"] entEntityID[]
+---@field public arr entEntityID[]
 gameWrappedEntIDArray = {}
 
 ---@param fields? table

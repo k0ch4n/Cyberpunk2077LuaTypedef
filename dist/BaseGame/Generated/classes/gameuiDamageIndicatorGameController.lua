@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiDamageIndicatorGameController: gameuiHUDGameController
----@field public ["maxVisibleParts"] Uint8
+---@field public maxVisibleParts Uint8
 gameuiDamageIndicatorGameController = {}
 
 ---@param fields? table

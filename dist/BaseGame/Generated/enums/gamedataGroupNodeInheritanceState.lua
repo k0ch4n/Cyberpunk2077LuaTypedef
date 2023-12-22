@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamedataGroupNodeInheritanceState: Enum
----@field ["Unresolved"] gamedataGroupNodeInheritanceState 0
----@field ["Resolving"] gamedataGroupNodeInheritanceState 1
----@field ["Resolved"] gamedataGroupNodeInheritanceState 2
+---@field Unresolved 0
+---@field Resolving 1
+---@field Resolved 2
 gamedataGroupNodeInheritanceState = {}

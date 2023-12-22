@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_RegistrySystem: gameScriptableSystem
----@field public ["container"] inkScriptHashMap
+---@field public container inkScriptHashMap
 Codeware_RegistrySystem = {}
 
 ---@param fields? table

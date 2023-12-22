@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHitShape_ColliderComponent: gameHitShapeBase
----@field public ["componentNames"] CName[]
+---@field public componentNames CName[]
 gameHitShape_ColliderComponent = {}
 
 ---@param fields? table

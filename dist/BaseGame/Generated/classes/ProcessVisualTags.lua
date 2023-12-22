@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProcessVisualTags: gamePlayerScriptableSystemRequest
----@field public ["itemTDBID"] TweakDBID
+---@field public itemTDBID TweakDBID
 ProcessVisualTags = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveMotionPlannerComponent: moveIMotionPlannerComponent
----@field public ["snapToGround"] Bool
+---@field public snapToGround Bool
 moveMotionPlannerComponent = {}
 
 ---@param fields? table

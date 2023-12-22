@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerToggleComponent_NodeTypeParams
----@field public ["objectRef"] gameEntityReference
----@field public ["isPlayer"] Bool
----@field public ["componentName"] CName
----@field public ["enable"] Bool
+---@field public objectRef gameEntityReference
+---@field public isPlayer Bool
+---@field public componentName CName
+---@field public enable Bool
 questEntityManagerToggleComponent_NodeTypeParams = {}
 
 ---@param fields? table

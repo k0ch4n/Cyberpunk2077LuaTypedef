@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_CurveVectorValue: animAnimNode_VectorValue
----@field public ["curveData"] curveData
----@field public ["argument"] animFloatLink
+---@field public curveData curveData
+---@field public argument animFloatLink
 animAnimNode_CurveVectorValue = {}
 
 ---@param fields? table

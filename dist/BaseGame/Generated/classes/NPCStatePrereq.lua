@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NPCStatePrereq: gameIScriptablePrereq
----@field private ["previousState"] Bool
----@field private ["isInState"] Bool
----@field private ["skipWhenApplied"] Bool
+---@field private previousState Bool
+---@field private isInState Bool
+---@field private skipWhenApplied Bool
 NPCStatePrereq = {}
 
 ---@param fields? table

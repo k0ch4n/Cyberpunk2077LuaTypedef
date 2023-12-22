@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexListVirtualNestedDataView: VirtualNestedListDataView
----@field public ["currentFilter"] CodexCategoryType
+---@field public currentFilter CodexCategoryType
 CodexListVirtualNestedDataView = {}
 
 ---@param fields? table

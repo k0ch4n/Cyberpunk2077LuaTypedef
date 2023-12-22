@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEquipAnimationType: Enum
----@field ["Default"] gameEquipAnimationType 0
----@field ["Instant"] gameEquipAnimationType 1
----@field ["FirstEquip"] gameEquipAnimationType 2
----@field ["HACK_ForceInstantEquip"] gameEquipAnimationType 3
+---@field Default 0
+---@field Instant 1
+---@field FirstEquip 2
+---@field HACK_ForceInstantEquip 3
 gameEquipAnimationType = {}

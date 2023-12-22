@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleSearchFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
----@field public ["angleRange"] Vector2
+---@field public angleRange Vector2
 vehicleSearchFromAnywhereStrategyRequest = {}
 
 ---@param fields? table

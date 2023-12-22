@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ScannerSkillCheckItemLogicController: inkWidgetLogicController
----@field private ["NameRef"] inkTextWidgetReference
----@field private ["ConditionDataListRef"] inkCompoundWidgetReference
----@field private ["ConditionDataItems"] inkWidget[]
----@field private ["ConditionDataItemName"] CName
----@field private ["PassedStateName"] CName
----@field private ["FailedStateName"] CName
+---@field private NameRef inkTextWidgetReference
+---@field private ConditionDataListRef inkCompoundWidgetReference
+---@field private ConditionDataItems inkWidget[]
+---@field private ConditionDataItemName CName
+---@field private PassedStateName CName
+---@field private FailedStateName CName
 ScannerSkillCheckItemLogicController = {}
 
 ---@param fields? table

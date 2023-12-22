@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TriggerContinuousAttackEffector: gameContinuousEffector
----@field public ["owner"] gameObject
----@field public ["attackTDBID"] TweakDBID
----@field public ["attack"] gameAttack_GameEffect
----@field public ["delayTime"] Float
----@field public ["timeDilationDriver"] gamedataEffectorTimeDilationDriver
+---@field public owner gameObject
+---@field public attackTDBID TweakDBID
+---@field public attack gameAttack_GameEffect
+---@field public delayTime Float
+---@field public timeDilationDriver gamedataEffectorTimeDilationDriver
 TriggerContinuousAttackEffector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionDebugCommand: gameIMuppetInputAction
----@field public ["debugCommand"] gameMuppetDebugCommand
+---@field public debugCommand gameMuppetDebugCommand
 gameMuppetInputActionDebugCommand = {}
 
 ---@param fields? table

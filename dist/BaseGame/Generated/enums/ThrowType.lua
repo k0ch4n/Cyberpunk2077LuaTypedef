@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ThrowType: Enum
----@field ["Quick"] ThrowType 0
----@field ["Charge"] ThrowType 1
+---@field Quick 0
+---@field Charge 1
 ThrowType = {}

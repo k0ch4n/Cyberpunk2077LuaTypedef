@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class BrightnessSettingsGameController: gameuiMenuGameController
----@field private ["s_brightnessGroup"] CName
----@field private ["settingsOptionsList"] inkCompoundWidgetReference
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["settings"] userSettingsUserSettings
----@field private ["settingsListener"] BrightnessSettingsVarListener
----@field private ["SettingsElements"] inkSettingsSelectorController[]
----@field private ["isPreGame"] Bool
+---@field private s_brightnessGroup CName
+---@field private settingsOptionsList inkCompoundWidgetReference
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private settings userSettingsUserSettings
+---@field private settingsListener BrightnessSettingsVarListener
+---@field private SettingsElements inkSettingsSelectorController[]
+---@field private isPreGame Bool
 BrightnessSettingsGameController = {}
 
 ---@param fields? table

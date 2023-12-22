@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PSODescRenderTargetSetup
----@field public ["rtFormats"] GpuWrapApieTextureFormat
----@field public ["dsFormat"] GpuWrapApieTextureFormat
+---@field public rtFormats GpuWrapApieTextureFormat
+---@field public dsFormat GpuWrapApieTextureFormat
 PSODescRenderTargetSetup = {}
 
 ---@param fields? table

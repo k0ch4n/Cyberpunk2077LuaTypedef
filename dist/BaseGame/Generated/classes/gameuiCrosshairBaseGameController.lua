@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class gameuiCrosshairBaseGameController: gameuiWidgetGameController
----@field public ["details"] inkWidgetReference
----@field public ["isActive"] Bool
----@field protected ["rootWidget"] inkWidget
----@field protected ["psmBlackboard"] gameIBlackboard
----@field protected ["targetBB"] gameIBlackboard
----@field protected ["weaponBB"] gameIBlackboard
----@field protected ["targetEntity"] entEntity
----@field protected ["raycastTargetEntity"] entEntity
----@field protected ["playerPuppet"] gameObject
----@field private ["crosshairState"] gamePSMCrosshairStates
----@field private ["visionState"] gamePSMVision
----@field private ["crosshairStateBlackboardId"] redCallbackObject
----@field private ["bulletSpreedBlackboardId"] redCallbackObject
----@field private ["isTargetDead"] Bool
----@field private ["lastGUIStateUpdateFrame"] Uint64
----@field private ["currentAimTargetBBID"] redCallbackObject
----@field private ["currentRaycastTargetBBID"] redCallbackObject
----@field private ["targetDistanceBBID"] redCallbackObject
----@field private ["targetAttitudeBBID"] redCallbackObject
----@field private ["healthListener"] CrosshairHealthChangeListener
----@field protected ["deadEyeWidget"] inkWidgetReference
----@field protected ["deadEyeAnimProxy"] inkanimProxy
----@field protected ["hasDeadEye"] Bool
----@field protected ["isCamoActiveOnPlayer"] Bool
----@field private ["staminaChangedCallback"] redCallbackObject
----@field private ["staminaListener"] CrosshairStaminaListener
----@field private ["opticalCamoListener"] OpticalCamoListener
+---@field public details inkWidgetReference
+---@field public isActive Bool
+---@field protected rootWidget inkWidget
+---@field protected psmBlackboard gameIBlackboard
+---@field protected targetBB gameIBlackboard
+---@field protected weaponBB gameIBlackboard
+---@field protected targetEntity entEntity
+---@field protected raycastTargetEntity entEntity
+---@field protected playerPuppet gameObject
+---@field private crosshairState gamePSMCrosshairStates
+---@field private visionState gamePSMVision
+---@field private crosshairStateBlackboardId redCallbackObject
+---@field private bulletSpreedBlackboardId redCallbackObject
+---@field private isTargetDead Bool
+---@field private lastGUIStateUpdateFrame Uint64
+---@field private currentAimTargetBBID redCallbackObject
+---@field private currentRaycastTargetBBID redCallbackObject
+---@field private targetDistanceBBID redCallbackObject
+---@field private targetAttitudeBBID redCallbackObject
+---@field private healthListener CrosshairHealthChangeListener
+---@field protected deadEyeWidget inkWidgetReference
+---@field protected deadEyeAnimProxy inkanimProxy
+---@field protected hasDeadEye Bool
+---@field protected isCamoActiveOnPlayer Bool
+---@field private staminaChangedCallback redCallbackObject
+---@field private staminaListener CrosshairStaminaListener
+---@field private opticalCamoListener OpticalCamoListener
 gameuiCrosshairBaseGameController = {}
 
 ---@param fields? table

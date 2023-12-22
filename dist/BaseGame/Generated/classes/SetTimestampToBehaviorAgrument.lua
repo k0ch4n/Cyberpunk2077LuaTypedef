@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetTimestampToBehaviorAgrument: AIbehaviortaskScript
----@field public ["timestampArgument"] CName
+---@field public timestampArgument CName
 SetTimestampToBehaviorAgrument = {}
 
 ---@param fields? table

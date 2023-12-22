@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeEquippingDecisions: MeleeIdleDecisions
----@field public ["hasEquipAttack"] Bool
+---@field public hasEquipAttack Bool
 MeleeEquippingDecisions = {}
 
 ---@param fields? table

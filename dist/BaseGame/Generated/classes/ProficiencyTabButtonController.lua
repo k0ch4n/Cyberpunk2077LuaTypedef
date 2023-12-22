@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ProficiencyTabButtonController: TabButtonController
----@field private ["bottom_bar"] inkWidgetReference
----@field private ["proxy"] inkanimProxy
----@field private ["isToggledState"] Bool
+---@field private bottom_bar inkWidgetReference
+---@field private proxy inkanimProxy
+---@field private isToggledState Bool
 ProficiencyTabButtonController = {}
 
 ---@param fields? table

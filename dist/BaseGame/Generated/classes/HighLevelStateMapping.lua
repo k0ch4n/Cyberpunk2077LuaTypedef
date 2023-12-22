@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HighLevelStateMapping: ChangeHighLevelStateAbstract
----@field public ["stateNameMapping"] AIArgumentMapping
+---@field public stateNameMapping AIArgumentMapping
 HighLevelStateMapping = {}
 
 ---@param fields? table

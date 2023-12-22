@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inGameMenuAnimContainer: IScriptable
----@field public ["animProxy"] inkanimProxy
+---@field public animProxy inkanimProxy
 inGameMenuAnimContainer = {}
 
 ---@param fields? table

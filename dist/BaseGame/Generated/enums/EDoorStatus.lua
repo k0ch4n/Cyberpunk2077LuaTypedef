@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EDoorStatus: Enum
----@field ["SEALED"] EDoorStatus -2
----@field ["LOCKED"] EDoorStatus -1
----@field ["CLOSED"] EDoorStatus 0
----@field ["OPENED"] EDoorStatus 1
+---@field SEALED -2
+---@field LOCKED -1
+---@field CLOSED 0
+---@field OPENED 1
 EDoorStatus = {}

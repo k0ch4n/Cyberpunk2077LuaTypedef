@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MadnessEffector: gameEffector
----@field public ["squadMembers"] entEntityID[]
----@field public ["owner"] ScriptedPuppet
+---@field public squadMembers entEntityID[]
+---@field public owner ScriptedPuppet
 MadnessEffector = {}
 
 ---@param fields? table

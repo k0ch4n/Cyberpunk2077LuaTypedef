@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class drillMachineEvent: redEvent
----@field public ["newTargetDevice"] gameObject
----@field public ["newIsActive"] Bool
+---@field public newTargetDevice gameObject
+---@field public newIsActive Bool
 drillMachineEvent = {}
 
 ---@param fields? table

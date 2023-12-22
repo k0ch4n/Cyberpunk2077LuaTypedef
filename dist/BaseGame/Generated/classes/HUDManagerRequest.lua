@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDManagerRequest: gameScriptableSystemRequest
----@field public ["ownerID"] entEntityID
+---@field public ownerID entEntityID
 HUDManagerRequest = {}
 
 ---@param fields? table

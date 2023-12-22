@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkStreetNameSignLogicController: inkIStreetNameSignLogicController
----@field public ["streetName"] inkTextWidgetReference
----@field public ["districtName"] inkTextWidgetReference
----@field public ["subdistrictName"] inkTextWidgetReference
+---@field public streetName inkTextWidgetReference
+---@field public districtName inkTextWidgetReference
+---@field public subdistrictName inkTextWidgetReference
 inkStreetNameSignLogicController = {}
 
 ---@param fields? table

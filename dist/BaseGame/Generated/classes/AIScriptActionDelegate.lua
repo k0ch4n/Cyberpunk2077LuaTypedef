@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIScriptActionDelegate: AIbehaviorScriptBehaviorDelegate
----@field private ["actionPackageType"] AIactionParamsPackageTypes
+---@field private actionPackageType AIactionParamsPackageTypes
 AIScriptActionDelegate = {}
 
 ---@param fields? table

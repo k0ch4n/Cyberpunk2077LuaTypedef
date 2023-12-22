@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class EMeshStreamType: Enum
----@field ["MST_Position_3F"] EMeshStreamType 1
----@field ["MST_SkinningIndices_4U8"] EMeshStreamType 2
----@field ["MST_SkinningWeights_4F"] EMeshStreamType 4
----@field ["MST_SkinningIndicesExt_4U8"] EMeshStreamType 262144
----@field ["MST_SkinningWeightsExt_4F"] EMeshStreamType 524288
----@field ["MST_Color_U32"] EMeshStreamType 8
----@field ["MST_TexCoord0_2F"] EMeshStreamType 16
----@field ["MST_TexCoord1_2F"] EMeshStreamType 32
----@field ["MST_Normal_3F"] EMeshStreamType 64
----@field ["MST_Tangent_3F"] EMeshStreamType 128
----@field ["MST_Binormal_3F"] EMeshStreamType 256
----@field ["MST_DestructionIndices_2U16"] EMeshStreamType 1048576
----@field ["MST_Multilayer_1F"] EMeshStreamType 2097152
----@field ["MST_Index_U16"] EMeshStreamType 512
----@field ["MST_GarmentFlags_U32"] EMeshStreamType 4194304
----@field ["MST_MorphOffset_3F"] EMeshStreamType 8388608
----@field ["MST_VehicleDmgNormalFront_3F"] EMeshStreamType 16777216
----@field ["MST_VehicleDmgNormalSides_3F"] EMeshStreamType 33554432
----@field ["MST_VehicleDmgPosFront_3F"] EMeshStreamType 67108864
----@field ["MST_VehicleDmgPosSides_3F"] EMeshStreamType 134217728
----@field ["MST_WindBranchData_4F"] EMeshStreamType 1024
----@field ["MST_BranchData_7F"] EMeshStreamType 16384
----@field ["MST_MorphVertexData_3F"] EMeshStreamType 268435456
----@field ["MST_FoliageBoneId_I16"] EMeshStreamType 536870912
----@field ["MST_LightBlockerIntensity_1F"] EMeshStreamType 1073741824
+---@field MST_Position_3F 1
+---@field MST_SkinningIndices_4U8 2
+---@field MST_SkinningWeights_4F 4
+---@field MST_SkinningIndicesExt_4U8 262144
+---@field MST_SkinningWeightsExt_4F 524288
+---@field MST_Color_U32 8
+---@field MST_TexCoord0_2F 16
+---@field MST_TexCoord1_2F 32
+---@field MST_Normal_3F 64
+---@field MST_Tangent_3F 128
+---@field MST_Binormal_3F 256
+---@field MST_DestructionIndices_2U16 1048576
+---@field MST_Multilayer_1F 2097152
+---@field MST_Index_U16 512
+---@field MST_GarmentFlags_U32 4194304
+---@field MST_MorphOffset_3F 8388608
+---@field MST_VehicleDmgNormalFront_3F 16777216
+---@field MST_VehicleDmgNormalSides_3F 33554432
+---@field MST_VehicleDmgPosFront_3F 67108864
+---@field MST_VehicleDmgPosSides_3F 134217728
+---@field MST_WindBranchData_4F 1024
+---@field MST_BranchData_7F 16384
+---@field MST_MorphVertexData_3F 268435456
+---@field MST_FoliageBoneId_I16 536870912
+---@field MST_LightBlockerIntensity_1F 1073741824
 EMeshStreamType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StopPingingNetworkRequest: gameScriptableSystemRequest
----@field public ["source"] gameObject
----@field public ["pingData"] PingCachedData
+---@field public source gameObject
+---@field public pingData PingCachedData
 StopPingingNetworkRequest = {}
 
 ---@param fields? table

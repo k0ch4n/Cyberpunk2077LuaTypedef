@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsAttemptedChoice
----@field public ["choiceIdx"] Int32
----@field public ["visualizerType"] gameinteractionsvisEVisualizerType
----@field public ["isSuccess"] Bool
----@field public ["choice"] gameinteractionsChoice
+---@field public choiceIdx Int32
+---@field public visualizerType gameinteractionsvisEVisualizerType
+---@field public isSuccess Bool
+---@field public choice gameinteractionsChoice
 gameinteractionsAttemptedChoice = {}
 
 ---@param fields? table

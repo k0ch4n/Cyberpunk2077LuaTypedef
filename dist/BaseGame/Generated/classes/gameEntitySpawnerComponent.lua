@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEntitySpawnerComponent: gameComponent
----@field public ["slotDataArray"] gameEntitySpawnerSlotData[]
+---@field public slotDataArray gameEntitySpawnerSlotData[]
 gameEntitySpawnerComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectAction_TerminateChildEffect: gameEffectAction
----@field public ["effectTag"] CName
+---@field public effectTag CName
 gameEffectAction_TerminateChildEffect = {}
 
 ---@param fields? table

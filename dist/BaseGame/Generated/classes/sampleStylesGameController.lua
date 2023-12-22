@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class sampleStylesGameController: gameuiWidgetGameController
----@field private ["stateText"] inkTextWidget
----@field private ["button1Controller"] inkButtonController
----@field private ["button2Controller"] inkButtonController
+---@field private stateText inkTextWidget
+---@field private button1Controller inkButtonController
+---@field private button2Controller inkButtonController
 sampleStylesGameController = {}
 
 ---@param fields? table

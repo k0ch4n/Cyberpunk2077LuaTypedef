@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIBoolArgumentInstancePS: AIArgumentInstancePS
----@field public ["value"] Bool
+---@field public value Bool
 AIBoolArgumentInstancePS = {}
 
 ---@param fields? table

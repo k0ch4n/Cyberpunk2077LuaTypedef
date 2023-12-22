@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamePSMUIState: Enum
----@field ["None"] gamePSMUIState 0
----@field ["WeaponSelect"] gamePSMUIState 1
+---@field None 0
+---@field WeaponSelect 1
 gamePSMUIState = {}

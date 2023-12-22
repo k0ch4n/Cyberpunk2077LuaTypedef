@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkRequestNewHudEvent: redEvent
----@field public ["entriesResource"] inkHudEntriesResource
+---@field public entriesResource inkHudEntriesResource
 inkRequestNewHudEvent = {}
 
 ---@param fields? table

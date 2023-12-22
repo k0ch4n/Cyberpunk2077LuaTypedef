@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CasinoTableGameController: gameuiWidgetGameController
----@field public ["casinoChipTDBID"] TweakDBID
----@field public ["multiplier"] Uint32
----@field public ["slots"] CasinoTableSlotData[]
----@field public ["casinoChipID"] gameItemID
----@field public ["player"] gameObject
----@field public ["transactionSystem"] gameTransactionSystem
+---@field public casinoChipTDBID TweakDBID
+---@field public multiplier Uint32
+---@field public slots CasinoTableSlotData[]
+---@field public casinoChipID gameItemID
+---@field public player gameObject
+---@field public transactionSystem gameTransactionSystem
 CasinoTableGameController = {}
 
 ---@param fields? table

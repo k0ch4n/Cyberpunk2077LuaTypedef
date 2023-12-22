@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class SecurityTurret: SensorDevice
----@field private ["animFeature"] AnimFeature_SecurityTurretData
----@field private ["animFeatureName"] CName
----@field private ["lookAtSlot"] entSlotComponent
----@field private ["laserMesh"] entMeshComponent
----@field private ["targetingComp"] gameTargetingComponent
----@field protected ["triggerSideOne"] gameStaticTriggerAreaComponent
----@field protected ["triggerSideTwo"] gameStaticTriggerAreaComponent
----@field protected ["weapon"] gameweaponObject
----@field protected ["itemID"] gameItemID
----@field protected ["laserGameEffect"] gameEffectInstance
----@field protected ["laserFXSlotName"] CName
----@field private ["burstDelayEvtID"] gameDelayID
----@field private ["isBurstDelayOngoing"] Bool
----@field private ["nextShootCycleDelayEvtID"] gameDelayID
----@field private ["isShootingOngoing"] Bool
----@field private ["timeToNextShot"] Float
----@field private ["optim_CheckTargetParametersShots"] Int32
----@field private ["weaponRecord"] gamedataWeaponItem_Record
----@field private ["weaponTDBID"] TweakDBID
----@field private ["netClientCurrentlyAppliedState"] SecurityTurretReplicatedState
+---@field private animFeature AnimFeature_SecurityTurretData
+---@field private animFeatureName CName
+---@field private lookAtSlot entSlotComponent
+---@field private laserMesh entMeshComponent
+---@field private targetingComp gameTargetingComponent
+---@field protected triggerSideOne gameStaticTriggerAreaComponent
+---@field protected triggerSideTwo gameStaticTriggerAreaComponent
+---@field protected weapon gameweaponObject
+---@field protected itemID gameItemID
+---@field protected laserGameEffect gameEffectInstance
+---@field protected laserFXSlotName CName
+---@field private burstDelayEvtID gameDelayID
+---@field private isBurstDelayOngoing Bool
+---@field private nextShootCycleDelayEvtID gameDelayID
+---@field private isShootingOngoing Bool
+---@field private timeToNextShot Float
+---@field private optim_CheckTargetParametersShots Int32
+---@field private weaponRecord gamedataWeaponItem_Record
+---@field private weaponTDBID TweakDBID
+---@field private netClientCurrentlyAppliedState SecurityTurretReplicatedState
 SecurityTurret = {}
 
 ---@param fields? table

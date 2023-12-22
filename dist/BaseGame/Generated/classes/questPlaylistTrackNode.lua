@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPlaylistTrackNode: questIAudioNodeType
----@field public ["playlistEvents"] audioPlaylistTrackEventStruct[]
+---@field public playlistEvents audioPlaylistTrackEventStruct[]
 questPlaylistTrackNode = {}
 
 ---@param fields? table

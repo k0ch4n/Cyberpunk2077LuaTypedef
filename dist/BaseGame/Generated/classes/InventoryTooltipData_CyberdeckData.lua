@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryTooltipData_CyberdeckData: IScriptable
----@field public ["vehicleHackUnlocked"] Bool
----@field public ["viewingTooltipFromCyberwareMenu"] Bool
+---@field public vehicleHackUnlocked Bool
+---@field public viewingTooltipFromCyberwareMenu Bool
 InventoryTooltipData_CyberdeckData = {}
 
 ---@param fields? table

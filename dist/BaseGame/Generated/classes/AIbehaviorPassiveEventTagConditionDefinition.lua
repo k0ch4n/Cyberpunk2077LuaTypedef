@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorPassiveEventTagConditionDefinition: AIbehaviorPassiveConditionDefinition
----@field public ["tag"] CName
----@field public ["deactivateEvents"] Bool
+---@field public tag CName
+---@field public deactivateEvents Bool
 AIbehaviorPassiveEventTagConditionDefinition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewPerkHoverOutEvent: redEvent
----@field public ["controller"] NewPerksPerkItemLogicController
----@field public ["evt"] inkPointerEvent
+---@field public controller NewPerksPerkItemLogicController
+---@field public evt inkPointerEvent
 NewPerkHoverOutEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PuppetListener: IScriptable
----@field public ["prereqOwner"] gamePrereqState
+---@field public prereqOwner gamePrereqState
 PuppetListener = {}
 
 ---@param fields? table

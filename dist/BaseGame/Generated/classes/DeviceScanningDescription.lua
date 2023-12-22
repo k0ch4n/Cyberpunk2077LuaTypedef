@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DeviceScanningDescription: ObjectScanningDescription
----@field protected ["DeviceGameplayDescription"] TweakDBID
----@field protected ["DeviceCustomDescriptions"] TweakDBID[]
----@field public ["DeviceGameplayRole"] TweakDBID
----@field public ["DeviceRoleActionsDescriptions"] TweakDBID[]
+---@field protected DeviceGameplayDescription TweakDBID
+---@field protected DeviceCustomDescriptions TweakDBID[]
+---@field public DeviceGameplayRole TweakDBID
+---@field public DeviceRoleActionsDescriptions TweakDBID[]
 DeviceScanningDescription = {}
 
 ---@param fields? table

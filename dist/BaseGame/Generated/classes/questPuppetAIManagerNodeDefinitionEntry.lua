@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPuppetAIManagerNodeDefinitionEntry
----@field public ["entityReference"] gameEntityReference
----@field public ["aiTier"] gameStoryTier
+---@field public entityReference gameEntityReference
+---@field public aiTier gameStoryTier
 questPuppetAIManagerNodeDefinitionEntry = {}
 
 ---@param fields? table

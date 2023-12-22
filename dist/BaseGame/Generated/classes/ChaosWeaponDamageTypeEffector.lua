@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChaosWeaponDamageTypeEffector: ChaosWeaponCustomEffector
----@field public ["damageTypeModGroups"] TweakDBID[]
+---@field public damageTypeModGroups TweakDBID[]
 ChaosWeaponDamageTypeEffector = {}
 
 ---@param fields? table

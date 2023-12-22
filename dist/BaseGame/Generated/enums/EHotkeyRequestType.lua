@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EHotkeyRequestType: Enum
----@field ["Assign"] EHotkeyRequestType 0
----@field ["Cycle"] EHotkeyRequestType 1
----@field ["Restore"] EHotkeyRequestType 2
+---@field Assign 0
+---@field Cycle 1
+---@field Restore 2
 EHotkeyRequestType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorExtractVehicleSlotWorkspotTaskDefinition: AIbehaviorTaskDefinition
----@field public ["outWorkspotData"] AIArgumentMapping
+---@field public outWorkspotData AIArgumentMapping
 AIbehaviorExtractVehicleSlotWorkspotTaskDefinition = {}
 
 ---@param fields? table

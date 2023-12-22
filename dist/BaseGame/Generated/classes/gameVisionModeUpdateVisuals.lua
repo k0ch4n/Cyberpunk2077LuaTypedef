@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeUpdateVisuals: redEvent
----@field public ["pulse"] Bool
+---@field public pulse Bool
 gameVisionModeUpdateVisuals = {}
 
 ---@param fields? table

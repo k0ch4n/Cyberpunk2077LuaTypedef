@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_StringEvaluator_Blackboard: gameIEffectParameter_StringEvaluator
----@field public ["blackboardProperty"] gameBlackboardPropertyBindingDefinition
+---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectParameter_StringEvaluator_Blackboard = {}
 
 ---@param fields? table

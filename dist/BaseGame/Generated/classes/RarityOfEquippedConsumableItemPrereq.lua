@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RarityOfEquippedConsumableItemPrereq: gameIScriptablePrereq
----@field public ["consumableItemTag"] CName
----@field public ["qualityLessThan"] gamedataQuality
+---@field public consumableItemTag CName
+---@field public qualityLessThan gamedataQuality
 RarityOfEquippedConsumableItemPrereq = {}
 
 ---@param fields? table

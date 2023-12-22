@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class locVoiceTagGender: Enum
----@field ["Undefined"] locVoiceTagGender 0
----@field ["Male"] locVoiceTagGender 1
----@field ["Female"] locVoiceTagGender 2
+---@field Undefined 0
+---@field Male 1
+---@field Female 2
 locVoiceTagGender = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questStartRecording_NodeType: questIRecordingNodeType
----@field public ["enabled"] Bool
----@field public ["sectionName"] String
+---@field public enabled Bool
+---@field public sectionName String
 questStartRecording_NodeType = {}
 
 ---@param fields? table

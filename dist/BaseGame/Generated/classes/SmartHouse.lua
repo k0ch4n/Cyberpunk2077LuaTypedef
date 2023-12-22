@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SmartHouse: InteractiveMasterDevice
----@field protected ["timetableActive"] Bool
+---@field protected timetableActive Bool
 SmartHouse = {}
 
 ---@param fields? table

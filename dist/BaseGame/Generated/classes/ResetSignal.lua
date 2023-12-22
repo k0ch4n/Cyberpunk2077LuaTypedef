@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ResetSignal: redEvent
----@field public ["signalName"] CName
----@field public ["signalTable"] gameBoolSignalTable
+---@field public signalName CName
+---@field public signalTable gameBoolSignalTable
 ResetSignal = {}
 
 ---@param fields? table

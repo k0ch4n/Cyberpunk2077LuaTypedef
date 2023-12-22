@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WoundedInstigated: redEvent
----@field public ["bodyPart"] EHitReactionZone
+---@field public bodyPart EHitReactionZone
 WoundedInstigated = {}
 
 ---@param fields? table

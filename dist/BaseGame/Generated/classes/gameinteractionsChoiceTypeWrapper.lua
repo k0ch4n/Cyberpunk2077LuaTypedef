@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceTypeWrapper
----@field public ["properties"] Uint32
+---@field public properties Uint32
 gameinteractionsChoiceTypeWrapper = {}
 
 ---@param fields? table

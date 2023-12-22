@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpecialProperties
----@field public ["enemyMarker"] Bool
----@field public ["traps"] ETrap[]
+---@field public enemyMarker Bool
+---@field public traps ETrap[]
 SpecialProperties = {}
 
 ---@param fields? table

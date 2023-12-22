@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewPerkPoinsActionRequest: gamePlayerScriptableSystemRequest
----@field public ["pointDiff"] Int32
+---@field public pointDiff Int32
 NewPerkPoinsActionRequest = {}
 
 ---@param fields? table

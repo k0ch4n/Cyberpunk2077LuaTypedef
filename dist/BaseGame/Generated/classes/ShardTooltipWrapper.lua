@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShardTooltipWrapper: ATooltipData
----@field public ["data"] gameJournalOnscreen
----@field public ["displayContext"] ItemDisplayContextData
+---@field public data gameJournalOnscreen
+---@field public displayContext ItemDisplayContextData
 ShardTooltipWrapper = {}
 
 ---@param fields? table

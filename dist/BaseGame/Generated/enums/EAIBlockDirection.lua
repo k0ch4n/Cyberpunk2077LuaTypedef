@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAIBlockDirection: Enum
----@field ["Undefined"] EAIBlockDirection 0
----@field ["Center"] EAIBlockDirection 1
----@field ["Left"] EAIBlockDirection 2
----@field ["Right"] EAIBlockDirection 3
+---@field Undefined 0
+---@field Center 1
+---@field Left 2
+---@field Right 3
 EAIBlockDirection = {}

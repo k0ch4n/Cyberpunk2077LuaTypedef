@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckCurrentHitReaction: HitConditions
----@field public ["HitReactionTypeToCompare"] animHitReactionType
----@field public ["CustomStimNameToCompare"] CName
----@field public ["shouldCheckDeathStimName"] Bool
+---@field public HitReactionTypeToCompare animHitReactionType
+---@field public CustomStimNameToCompare CName
+---@field public shouldCheckDeathStimName Bool
 CheckCurrentHitReaction = {}
 
 ---@param fields? table

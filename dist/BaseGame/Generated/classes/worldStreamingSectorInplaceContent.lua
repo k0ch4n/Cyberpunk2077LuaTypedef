@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldStreamingSectorInplaceContent: CResource
----@field public ["inplaceResources"] CResource[]
+---@field public inplaceResources CResource[]
 worldStreamingSectorInplaceContent = {}
 
 ---@param fields? table

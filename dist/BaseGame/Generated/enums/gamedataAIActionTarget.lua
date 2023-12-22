@@ -2,55 +2,55 @@
 ---@diagnostic disable
 
 ---@class gamedataAIActionTarget: Enum
----@field ["AssignedVehicle"] gamedataAIActionTarget 0
----@field ["CombatTarget"] gamedataAIActionTarget 1
----@field ["CommandCover"] gamedataAIActionTarget 2
----@field ["CommandMovementDestination"] gamedataAIActionTarget 3
----@field ["ConsideredCover"] gamedataAIActionTarget 4
----@field ["CurrentCover"] gamedataAIActionTarget 5
----@field ["CurrentNetrunnerProxy"] gamedataAIActionTarget 6
----@field ["CustomWorldPosition"] gamedataAIActionTarget 7
----@field ["DesiredCover"] gamedataAIActionTarget 8
----@field ["FriendlyTarget"] gamedataAIActionTarget 9
----@field ["FurthestNavigableSquadmate"] gamedataAIActionTarget 10
----@field ["FurthestSquadmate"] gamedataAIActionTarget 11
----@field ["FurthestThreat"] gamedataAIActionTarget 12
----@field ["HostileOfficer"] gamedataAIActionTarget 13
----@field ["In_LastKnownPosition"] gamedataAIActionTarget 14
----@field ["MountedVehicle"] gamedataAIActionTarget 15
----@field ["MovementDestination"] gamedataAIActionTarget 16
----@field ["NearestDefeatedSquadmate"] gamedataAIActionTarget 17
----@field ["NearestNavigableSquadmate"] gamedataAIActionTarget 18
----@field ["NearestSquadmate"] gamedataAIActionTarget 19
----@field ["NearestThreat"] gamedataAIActionTarget 20
----@field ["NetrunnerProxy"] gamedataAIActionTarget 21
----@field ["ObjectOfInterest"] gamedataAIActionTarget 22
----@field ["Out_LastChasePosition"] gamedataAIActionTarget 23
----@field ["Out_SearchPosition"] gamedataAIActionTarget 24
----@field ["Owner"] gamedataAIActionTarget 25
----@field ["Player"] gamedataAIActionTarget 26
----@field ["PointOfInterest"] gamedataAIActionTarget 27
----@field ["RingBackDestination"] gamedataAIActionTarget 28
----@field ["RingBackLeftDestination"] gamedataAIActionTarget 29
----@field ["RingBackRightDestination"] gamedataAIActionTarget 30
----@field ["RingFrontDestination"] gamedataAIActionTarget 31
----@field ["RingFrontLeftDestination"] gamedataAIActionTarget 32
----@field ["RingFrontRightDestination"] gamedataAIActionTarget 33
----@field ["RingLeftDestination"] gamedataAIActionTarget 34
----@field ["RingRightDestination"] gamedataAIActionTarget 35
----@field ["SelectedCover"] gamedataAIActionTarget 36
----@field ["SpawnPosition"] gamedataAIActionTarget 37
----@field ["SquadOfficer"] gamedataAIActionTarget 38
----@field ["StimSource"] gamedataAIActionTarget 39
----@field ["StimTarget"] gamedataAIActionTarget 40
----@field ["TargetDevice"] gamedataAIActionTarget 41
----@field ["TargetItem"] gamedataAIActionTarget 42
----@field ["TeleportPosition"] gamedataAIActionTarget 43
----@field ["TopFriendly"] gamedataAIActionTarget 44
----@field ["TopThreat"] gamedataAIActionTarget 45
----@field ["VisibleFurthestThreat"] gamedataAIActionTarget 46
----@field ["VisibleNearestThreat"] gamedataAIActionTarget 47
----@field ["VisibleTopThreat"] gamedataAIActionTarget 48
----@field ["Count"] gamedataAIActionTarget 49
----@field ["Invalid"] gamedataAIActionTarget 50
+---@field AssignedVehicle 0
+---@field CombatTarget 1
+---@field CommandCover 2
+---@field CommandMovementDestination 3
+---@field ConsideredCover 4
+---@field CurrentCover 5
+---@field CurrentNetrunnerProxy 6
+---@field CustomWorldPosition 7
+---@field DesiredCover 8
+---@field FriendlyTarget 9
+---@field FurthestNavigableSquadmate 10
+---@field FurthestSquadmate 11
+---@field FurthestThreat 12
+---@field HostileOfficer 13
+---@field In_LastKnownPosition 14
+---@field MountedVehicle 15
+---@field MovementDestination 16
+---@field NearestDefeatedSquadmate 17
+---@field NearestNavigableSquadmate 18
+---@field NearestSquadmate 19
+---@field NearestThreat 20
+---@field NetrunnerProxy 21
+---@field ObjectOfInterest 22
+---@field Out_LastChasePosition 23
+---@field Out_SearchPosition 24
+---@field Owner 25
+---@field Player 26
+---@field PointOfInterest 27
+---@field RingBackDestination 28
+---@field RingBackLeftDestination 29
+---@field RingBackRightDestination 30
+---@field RingFrontDestination 31
+---@field RingFrontLeftDestination 32
+---@field RingFrontRightDestination 33
+---@field RingLeftDestination 34
+---@field RingRightDestination 35
+---@field SelectedCover 36
+---@field SpawnPosition 37
+---@field SquadOfficer 38
+---@field StimSource 39
+---@field StimTarget 40
+---@field TargetDevice 41
+---@field TargetItem 42
+---@field TeleportPosition 43
+---@field TopFriendly 44
+---@field TopThreat 45
+---@field VisibleFurthestThreat 46
+---@field VisibleNearestThreat 47
+---@field VisibleTopThreat 48
+---@field Count 49
+---@field Invalid 50
 gamedataAIActionTarget = {}

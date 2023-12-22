@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questUnequipItemParams
----@field public ["slotId"] TweakDBID
----@field public ["unequipDurationOverride"] Float
+---@field public slotId TweakDBID
+---@field public unequipDurationOverride Float
 questUnequipItemParams = {}
 
 ---@param fields? table

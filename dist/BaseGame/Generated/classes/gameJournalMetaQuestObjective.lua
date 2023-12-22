@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalMetaQuestObjective: gameJournalEntry
----@field public ["description"] LocalizationString
----@field public ["progressPercent"] Uint32
----@field public ["iconID"] TweakDBID
+---@field public description LocalizationString
+---@field public progressPercent Uint32
+---@field public iconID TweakDBID
 gameJournalMetaQuestObjective = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnregisterNetworkLinksByIdAndTypeRequest: gameScriptableSystemRequest
----@field public ["ID"] entEntityID
----@field public ["type"] ELinkType
+---@field public ID entEntityID
+---@field public type ELinkType
 UnregisterNetworkLinksByIdAndTypeRequest = {}
 
 ---@param fields? table

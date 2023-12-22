@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameReplAnimTransformSkipRequest: gameReplAnimTransformRequestBase
----@field public ["animName"] CName
----@field public ["skipTime"] Float
+---@field public animName CName
+---@field public skipTime Float
 gameReplAnimTransformSkipRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAutoFoliageMapping: CResource
----@field public ["Items"] worldAutoFoliageMappingItem[]
+---@field public Items worldAutoFoliageMappingItem[]
 worldAutoFoliageMapping = {}
 
 ---@param fields? table

@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataAIActionType: Enum
----@field ["BackUp"] gamedataAIActionType 0
----@field ["BattleCry"] gamedataAIActionType 1
----@field ["Block"] gamedataAIActionType 2
----@field ["CallOff"] gamedataAIActionType 3
----@field ["Charge"] gamedataAIActionType 4
----@field ["Crouch"] gamedataAIActionType 5
----@field ["Dash"] gamedataAIActionType 6
----@field ["GrenadeThrow"] gamedataAIActionType 7
----@field ["GroupReaction"] gamedataAIActionType 8
----@field ["Investigate"] gamedataAIActionType 9
----@field ["Melee"] gamedataAIActionType 10
----@field ["Peek"] gamedataAIActionType 11
----@field ["Quickhack"] gamedataAIActionType 12
----@field ["Reprimand"] gamedataAIActionType 13
----@field ["Search"] gamedataAIActionType 14
----@field ["Shoot"] gamedataAIActionType 15
----@field ["Sync"] gamedataAIActionType 16
----@field ["TakeCover"] gamedataAIActionType 17
----@field ["Takedown"] gamedataAIActionType 18
----@field ["Taunt"] gamedataAIActionType 19
----@field ["Count"] gamedataAIActionType 20
----@field ["Invalid"] gamedataAIActionType 21
+---@field BackUp 0
+---@field BattleCry 1
+---@field Block 2
+---@field CallOff 3
+---@field Charge 4
+---@field Crouch 5
+---@field Dash 6
+---@field GrenadeThrow 7
+---@field GroupReaction 8
+---@field Investigate 9
+---@field Melee 10
+---@field Peek 11
+---@field Quickhack 12
+---@field Reprimand 13
+---@field Search 14
+---@field Shoot 15
+---@field Sync 16
+---@field TakeCover 17
+---@field Takedown 18
+---@field Taunt 19
+---@field Count 20
+---@field Invalid 21
 gamedataAIActionType = {}

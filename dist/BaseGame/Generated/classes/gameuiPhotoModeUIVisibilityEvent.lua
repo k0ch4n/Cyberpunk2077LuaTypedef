@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPhotoModeUIVisibilityEvent: redEvent
----@field public ["visible"] Bool
+---@field public visible Bool
 gameuiPhotoModeUIVisibilityEvent = {}
 
 ---@param fields? table

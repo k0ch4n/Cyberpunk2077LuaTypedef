@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class SkillCheckBase: IScriptable
----@field protected ["alternativeName"] TweakDBID
----@field protected ["difficulty"] EGameplayChallengeLevel
----@field protected ["additionalRequirements"] GameplayConditionContainer
----@field protected ["duration"] Float
----@field protected ["isActive"] Bool
----@field protected ["wasPassed"] Bool
----@field protected ["skillCheckPerformed"] Bool
----@field protected ["skillToCheck"] EDeviceChallengeSkill
----@field protected ["baseSkill"] GameplaySkillCondition
----@field protected ["isDynamic"] Bool
+---@field protected alternativeName TweakDBID
+---@field protected difficulty EGameplayChallengeLevel
+---@field protected additionalRequirements GameplayConditionContainer
+---@field protected duration Float
+---@field protected isActive Bool
+---@field protected wasPassed Bool
+---@field protected skillCheckPerformed Bool
+---@field protected skillToCheck EDeviceChallengeSkill
+---@field protected baseSkill GameplaySkillCondition
+---@field protected isDynamic Bool
 SkillCheckBase = {}
 
 ---@return nil

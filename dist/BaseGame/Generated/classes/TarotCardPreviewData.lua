@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TarotCardPreviewData: inkGameNotificationData
----@field public ["cardData"] TarotCardData
+---@field public cardData TarotCardData
 TarotCardPreviewData = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class fullscreenDpadSupported: inkWidgetLogicController
----@field public ["targetPath_DpadUp"] inkWidget
----@field public ["targetPath_DpadDown"] inkWidget
----@field public ["targetPath_DpadLeft"] inkWidget
----@field public ["targetPath_DpadRight"] inkWidget
+---@field public targetPath_DpadUp inkWidget
+---@field public targetPath_DpadDown inkWidget
+---@field public targetPath_DpadLeft inkWidget
+---@field public targetPath_DpadRight inkWidget
 fullscreenDpadSupported = {}
 
 ---@param fields? table

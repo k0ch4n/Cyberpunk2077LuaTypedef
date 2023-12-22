@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EPlaystyle: Enum
----@field ["NETRUNNER"] EPlaystyle 0
----@field ["SOLO"] EPlaystyle 1
----@field ["TECHIE"] EPlaystyle 2
+---@field NETRUNNER 0
+---@field SOLO 1
+---@field TECHIE 2
 EPlaystyle = {}

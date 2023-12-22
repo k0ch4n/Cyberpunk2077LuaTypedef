@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ForceShootCommandTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIForceShootCommand
----@field protected ["threatPersistenceSource"] gamedataAIThreatPersistenceSource_Record
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
----@field protected ["target"] gameObject
----@field protected ["targetID"] entEntityID
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIForceShootCommand
+---@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
+---@field protected target gameObject
+---@field protected targetID entEntityID
 ForceShootCommandTask = {}
 
 ---@param fields? table

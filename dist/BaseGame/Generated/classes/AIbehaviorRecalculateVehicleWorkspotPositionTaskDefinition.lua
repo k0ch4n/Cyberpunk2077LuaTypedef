@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition: AIbehaviorTaskDefinition
----@field public ["mountData"] AIArgumentMapping
----@field public ["workspotData"] AIArgumentMapping
+---@field public mountData AIArgumentMapping
+---@field public workspotData AIArgumentMapping
 AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition = {}
 
 ---@param fields? table

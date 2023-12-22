@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemStatList: inkWidgetLogicController
----@field public ["libraryItemName"] CName
----@field private ["container"] inkCompoundWidget
----@field private ["data"] InventoryTooltipData_StatData[]
----@field private ["itemsList"] inkWidget[]
+---@field public libraryItemName CName
+---@field private container inkCompoundWidget
+---@field private data InventoryTooltipData_StatData[]
+---@field private itemsList inkWidget[]
 InventoryItemStatList = {}
 
 ---@param fields? table

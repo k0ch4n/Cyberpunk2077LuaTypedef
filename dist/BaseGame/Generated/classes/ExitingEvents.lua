@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExitingEvents: ExitingEventsBase
----@field public ["fromDriverCombat"] Bool
+---@field public fromDriverCombat Bool
 ExitingEvents = {}
 
 ---@param fields? table

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class LootingGameController: gameuiWidgetGameController
----@field private ["dataManager"] InventoryDataManagerV2
----@field private ["uiInventorySystem"] UIInventoryScriptableSystem
----@field private ["bbInteractions"] gameIBlackboard
----@field private ["bbEquipmentData"] gameIBlackboard
----@field private ["bbEquipment"] gameIBlackboard
----@field private ["bbInteractionsDefinition"] UIInteractionsDef
----@field private ["bbEquipmentDataDefinition"] UI_EquipmentDataDef
----@field private ["bbEquipmentDefinition"] UI_EquipmentDef
----@field private ["dataListenerId"] redCallbackObject
----@field private ["activeListenerId"] redCallbackObject
----@field private ["activeHubListenerId"] redCallbackObject
----@field private ["weaponDataListenerId"] redCallbackObject
----@field private ["itemEquippedListenerId"] redCallbackObject
----@field private ["controller"] LootingController
----@field private ["player"] PlayerPuppet
----@field private ["introAnim"] inkanimProxy
----@field private ["outroAnim"] inkanimProxy
----@field private ["lastActiveWeapon"] gameSlotWeaponData
----@field private ["lastActiveWeaponID"] gameItemID
----@field private ["previousData"] gameinteractionsvisLootData
----@field public ["lastActiveOwnerId"] entEntityID
+---@field private dataManager InventoryDataManagerV2
+---@field private uiInventorySystem UIInventoryScriptableSystem
+---@field private bbInteractions gameIBlackboard
+---@field private bbEquipmentData gameIBlackboard
+---@field private bbEquipment gameIBlackboard
+---@field private bbInteractionsDefinition UIInteractionsDef
+---@field private bbEquipmentDataDefinition UI_EquipmentDataDef
+---@field private bbEquipmentDefinition UI_EquipmentDef
+---@field private dataListenerId redCallbackObject
+---@field private activeListenerId redCallbackObject
+---@field private activeHubListenerId redCallbackObject
+---@field private weaponDataListenerId redCallbackObject
+---@field private itemEquippedListenerId redCallbackObject
+---@field private controller LootingController
+---@field private player PlayerPuppet
+---@field private introAnim inkanimProxy
+---@field private outroAnim inkanimProxy
+---@field private lastActiveWeapon gameSlotWeaponData
+---@field private lastActiveWeaponID gameItemID
+---@field private previousData gameinteractionsvisLootData
+---@field public lastActiveOwnerId entEntityID
 LootingGameController = {}
 
 ---@param fields? table

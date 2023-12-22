@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class StimBroadcasterComponent: gameScriptableComponent
----@field public ["activeRequests"] StimRequest[]
----@field public ["currentID"] Uint32
----@field public ["shouldBroadcast"] Bool
----@field public ["targets"] gameNPCstubData[]
----@field private ["blockedStims"] StimIdentificationData[]
----@field public ["fallbackInterval"] Float
+---@field public activeRequests StimRequest[]
+---@field public currentID Uint32
+---@field public shouldBroadcast Bool
+---@field public targets gameNPCstubData[]
+---@field private blockedStims StimIdentificationData[]
+---@field public fallbackInterval Float
 StimBroadcasterComponent = {}
 
 ---@param fields? table

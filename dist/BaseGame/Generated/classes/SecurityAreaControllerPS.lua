@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class SecurityAreaControllerPS: MasterControllerPS
----@field private ["system"] SecuritySystemControllerPS
----@field private ["usersInPerimeter"] AreaEntry[]
----@field private ["isPlayerInside"] Bool
----@field private ["securityAccessLevel"] ESecurityAccessLevel
----@field private ["securityAreaType"] ESecurityAreaType
----@field private ["eventsFilters"] EventsFilters
----@field private ["areaTransitions"] AreaTypeTransition[]
----@field private ["runtimeTransitions"] AreaTypeTransition[]
----@field private ["pendingDisableRequest"] Bool
----@field private ["lastOutput"] OutputPersistentData
----@field private ["questPlayerHasTriggeredCombat"] Bool
----@field private ["hasThisAreaReceivedCombatNotification"] Bool
----@field private ["pendingNotifyPlayerAboutTransition"] Bool
+---@field private system SecuritySystemControllerPS
+---@field private usersInPerimeter AreaEntry[]
+---@field private isPlayerInside Bool
+---@field private securityAccessLevel ESecurityAccessLevel
+---@field private securityAreaType ESecurityAreaType
+---@field private eventsFilters EventsFilters
+---@field private areaTransitions AreaTypeTransition[]
+---@field private runtimeTransitions AreaTypeTransition[]
+---@field private pendingDisableRequest Bool
+---@field private lastOutput OutputPersistentData
+---@field private questPlayerHasTriggeredCombat Bool
+---@field private hasThisAreaReceivedCombatNotification Bool
+---@field private pendingNotifyPlayerAboutTransition Bool
 SecurityAreaControllerPS = {}
 
 ---@param fields? table

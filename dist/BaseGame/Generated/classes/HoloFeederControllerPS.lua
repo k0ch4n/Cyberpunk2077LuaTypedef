@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HoloFeederControllerPS: ScriptableDeviceComponentPS
----@field protected ["turnOnSFX"] CName
----@field protected ["turnOffSFX"] CName
+---@field protected turnOnSFX CName
+---@field protected turnOffSFX CName
 HoloFeederControllerPS = {}
 
 ---@param fields? table

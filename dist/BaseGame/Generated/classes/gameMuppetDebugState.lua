@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameMuppetDebugState: ISerializable
----@field public ["comparisonReports"] gameMuppetStateComparisonReport[]
----@field public ["comparisonReportIndex"] Uint32
----@field public ["subStepsData"] gameMuppetSubStepData[]
+---@field public comparisonReports gameMuppetStateComparisonReport[]
+---@field public comparisonReportIndex Uint32
+---@field public subStepsData gameMuppetSubStepData[]
 gameMuppetDebugState = {}
 
 ---@param fields? table

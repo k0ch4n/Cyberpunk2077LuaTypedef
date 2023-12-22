@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class FilterRadioGroup: inkRadioGroupController
----@field private ["libraryPath"] inkWidgetLibraryReference
----@field private ["TooltipsManager"] gameuiTooltipsManager
----@field private ["TooltipIndex"] Int32
----@field private ["toggles"] inkToggleController[]
----@field private ["rootRef"] inkCompoundWidget
+---@field private libraryPath inkWidgetLibraryReference
+---@field private TooltipsManager gameuiTooltipsManager
+---@field private TooltipIndex Int32
+---@field private toggles inkToggleController[]
+---@field private rootRef inkCompoundWidget
 FilterRadioGroup = {}
 
 ---@param fields? table

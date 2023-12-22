@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SettingsCategoryController: inkWidgetLogicController
----@field protected ["label"] inkTextWidgetReference
+---@field protected label inkTextWidgetReference
 SettingsCategoryController = {}
 
 ---@param fields? table

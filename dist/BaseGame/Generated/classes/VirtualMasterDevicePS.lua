@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VirtualMasterDevicePS: ScriptableDeviceComponentPS
----@field public ["owner"] IScriptable
----@field public ["globalActions"] gamedeviceAction[]
----@field protected ["context"] gameGetActionsContext
----@field public ["connectedDevices"] gameDeviceComponentPS[]
+---@field public owner IScriptable
+---@field public globalActions gamedeviceAction[]
+---@field protected context gameGetActionsContext
+---@field public connectedDevices gameDeviceComponentPS[]
 VirtualMasterDevicePS = {}
 
 ---@param fields? table

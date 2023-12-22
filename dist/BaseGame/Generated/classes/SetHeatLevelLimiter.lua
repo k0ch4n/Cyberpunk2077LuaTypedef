@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SetHeatLevelLimiter: gameScriptableSystemRequest
----@field public ["HeatLevelMin"] Int32
----@field public ["HeatLevelMax"] Int32
----@field public ["HeatLevelReset"] Bool
----@field public ["source"] CName
+---@field public HeatLevelMin Int32
+---@field public HeatLevelMax Int32
+---@field public HeatLevelReset Bool
+---@field public source CName
 SetHeatLevelLimiter = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DrillerUIEvent: redEvent
----@field public ["actionChosen"] gameinteractionsChoice
----@field public ["activator"] gameObject
+---@field public actionChosen gameinteractionsChoice
+---@field public activator gameObject
 DrillerUIEvent = {}
 
 ---@param fields? table

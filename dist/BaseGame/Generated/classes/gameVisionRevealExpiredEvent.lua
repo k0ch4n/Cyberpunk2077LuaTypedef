@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisionRevealExpiredEvent: redEvent
----@field public ["revealId"] gameVisionModeSystemRevealIdentifier
+---@field public revealId gameVisionModeSystemRevealIdentifier
 gameVisionRevealExpiredEvent = {}
 
 ---@param fields? table

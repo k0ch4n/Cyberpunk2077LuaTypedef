@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InventoryWeaponSlot: InventoryEquipmentSlot
----@field protected ["DamageIndicatorRef"] inkWidgetReference
----@field protected ["DPSRef"] inkWidgetReference
----@field protected ["DPSValueLabel"] inkTextWidgetReference
----@field private ["DamageTypeIndicator"] DamageTypeIndicator
----@field private ["IntroPlayed"] Bool
+---@field protected DamageIndicatorRef inkWidgetReference
+---@field protected DPSRef inkWidgetReference
+---@field protected DPSValueLabel inkTextWidgetReference
+---@field private DamageTypeIndicator DamageTypeIndicator
+---@field private IntroPlayed Bool
 InventoryWeaponSlot = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AttributeUpdatedEvent: redEvent
----@field public ["attributeId"] TweakDBID
+---@field public attributeId TweakDBID
 AttributeUpdatedEvent = {}
 
 ---@param fields? table

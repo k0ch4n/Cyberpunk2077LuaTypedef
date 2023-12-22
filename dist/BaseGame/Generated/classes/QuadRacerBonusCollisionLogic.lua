@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuadRacerBonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field private ["hasTriggered"] Bool
+---@field private hasTriggered Bool
 QuadRacerBonusCollisionLogic = {}
 
 ---@param fields? table

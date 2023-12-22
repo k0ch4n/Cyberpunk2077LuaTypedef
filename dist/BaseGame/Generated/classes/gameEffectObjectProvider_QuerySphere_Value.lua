@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_QuerySphere_Value: gameEffectObjectProvider
----@field public ["radius"] Float
----@field public ["filterData"] physicsFilterData
----@field public ["queryPreset"] physicsQueryPreset
+---@field public radius Float
+---@field public filterData physicsFilterData
+---@field public queryPreset physicsQueryPreset
 gameEffectObjectProvider_QuerySphere_Value = {}
 
 ---@param fields? table

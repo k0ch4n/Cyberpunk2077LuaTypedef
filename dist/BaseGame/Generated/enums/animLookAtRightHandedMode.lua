@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animLookAtRightHandedMode: Enum
----@field ["Default"] animLookAtRightHandedMode 0
----@field ["Horizontal"] animLookAtRightHandedMode 1
----@field ["ENUM_SIZE"] animLookAtRightHandedMode 2
+---@field Default 0
+---@field Horizontal 1
+---@field ENUM_SIZE 2
 animLookAtRightHandedMode = {}

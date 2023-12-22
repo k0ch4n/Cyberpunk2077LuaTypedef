@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_UniqueMeshColors: worldEditorDebugColoringSettings
----@field public ["alpha"] Uint8
+---@field public alpha Uint8
 worldDebugColoring_UniqueMeshColors = {}
 
 ---@param fields? table

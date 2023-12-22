@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AssertType: Enum
----@field ["EQ"] AssertType 0
----@field ["NE"] AssertType 1
----@field ["GT"] AssertType 2
----@field ["GE"] AssertType 3
----@field ["LT"] AssertType 4
----@field ["LE"] AssertType 5
+---@field EQ 0
+---@field NE 1
+---@field GT 2
+---@field GE 3
+---@field LT 4
+---@field LE 5
 AssertType = {}

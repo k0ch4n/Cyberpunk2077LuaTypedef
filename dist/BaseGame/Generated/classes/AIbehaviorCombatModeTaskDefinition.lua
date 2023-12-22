@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCombatModeTaskDefinition: AIbehaviorTaskDefinition
----@field public ["mode"] AIbehaviorCombatModes
----@field public ["priority"] Int32
----@field public ["timeToLive"] Float
+---@field public mode AIbehaviorCombatModes
+---@field public priority Int32
+---@field public timeToLive Float
 AIbehaviorCombatModeTaskDefinition = {}
 
 ---@param fields? table

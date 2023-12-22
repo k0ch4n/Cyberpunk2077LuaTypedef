@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TaggedObjectsListDef: gamebbScriptDefinition
----@field public ["taggedObjectsList"] gamebbScriptID_Variant
+---@field public taggedObjectsList gamebbScriptID_Variant
 TaggedObjectsListDef = {}
 
 ---@param fields? table

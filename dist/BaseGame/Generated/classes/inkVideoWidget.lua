@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkVideoWidget: inkLeafWidget
----@field public ["videoResource"] Bink
----@field public ["loop"] Bool
----@field public ["overriddenPlayerName"] CName
----@field public ["isParallaxEnabled"] Bool
----@field public ["prefetchVideo"] Bool
+---@field public videoResource Bink
+---@field public loop Bool
+---@field public overriddenPlayerName CName
+---@field public isParallaxEnabled Bool
+---@field public prefetchVideo Bool
 inkVideoWidget = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CanNPCRun: AIbehaviorconditionScript
----@field public ["maxRunners"] Int32
+---@field public maxRunners Int32
 CanNPCRun = {}
 
 ---@param fields? table

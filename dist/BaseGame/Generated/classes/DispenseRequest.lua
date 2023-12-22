@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DispenseRequest: MarketSystemRequest
----@field public ["position"] Vector4
----@field public ["itemID"] gameItemID
----@field public ["shouldPay"] Bool
+---@field public position Vector4
+---@field public itemID gameItemID
+---@field public shouldPay Bool
 DispenseRequest = {}
 
 ---@param fields? table

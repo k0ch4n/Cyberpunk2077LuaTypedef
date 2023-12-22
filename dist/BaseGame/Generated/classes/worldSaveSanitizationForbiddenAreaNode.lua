@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldSaveSanitizationForbiddenAreaNode: worldTriggerAreaNode
----@field public ["safeSpotOffset"] Vector4
+---@field public safeSpotOffset Vector4
 worldSaveSanitizationForbiddenAreaNode = {}
 
 ---@param fields? table

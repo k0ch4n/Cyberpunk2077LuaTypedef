@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class EStatusEffects: Enum
----@field ["Invalid"] EStatusEffects 0
----@field ["WeaponJammed"] EStatusEffects 1
----@field ["Blind"] EStatusEffects 2
----@field ["SmokeScreen"] EStatusEffects 3
----@field ["Unconscious"] EStatusEffects 4
----@field ["Burning"] EStatusEffects 5
----@field ["Stun"] EStatusEffects 6
----@field ["HeartAttack"] EStatusEffects 7
----@field ["SuicideWithWeapon"] EStatusEffects 8
----@field ["SuicideWithGrenade"] EStatusEffects 9
----@field ["Wounded"] EStatusEffects 10
----@field ["MonowireGrapple"] EStatusEffects 11
----@field ["Exhausted"] EStatusEffects 12
----@field ["Defeated"] EStatusEffects 13
----@field ["Sleep"] EStatusEffects 14
----@field ["Berserker"] EStatusEffects 15
----@field ["Pain"] EStatusEffects 16
----@field ["Sandevistan"] EStatusEffects 17
----@field ["NetwatcherHackStage1"] EStatusEffects 18
----@field ["NetwatcherHackStage2"] EStatusEffects 19
----@field ["NetwatcherHackStage3"] EStatusEffects 20
----@field ["Count"] EStatusEffects 21
+---@field Invalid 0
+---@field WeaponJammed 1
+---@field Blind 2
+---@field SmokeScreen 3
+---@field Unconscious 4
+---@field Burning 5
+---@field Stun 6
+---@field HeartAttack 7
+---@field SuicideWithWeapon 8
+---@field SuicideWithGrenade 9
+---@field Wounded 10
+---@field MonowireGrapple 11
+---@field Exhausted 12
+---@field Defeated 13
+---@field Sleep 14
+---@field Berserker 15
+---@field Pain 16
+---@field Sandevistan 17
+---@field NetwatcherHackStage1 18
+---@field NetwatcherHackStage2 19
+---@field NetwatcherHackStage3 20
+---@field Count 21
 EStatusEffects = {}

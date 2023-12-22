@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_NPCVehicleAdditionalFeatures: animAnimFeatureMarkUnstable
----@field public ["state"] Bool
+---@field public state Bool
 AnimFeature_NPCVehicleAdditionalFeatures = {}
 
 ---@param fields? table

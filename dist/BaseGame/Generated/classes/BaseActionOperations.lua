@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseActionOperations: DeviceOperations
----@field protected ["baseActionsOperations"] SBaseActionOperationData[]
+---@field protected baseActionsOperations SBaseActionOperationData[]
 BaseActionOperations = {}
 
 ---@param fields? table

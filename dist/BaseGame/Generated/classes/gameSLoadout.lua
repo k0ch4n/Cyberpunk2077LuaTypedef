@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSLoadout
----@field public ["equipAreas"] gameSEquipArea[]
----@field public ["equipmentSets"] gameSEquipmentSet[]
+---@field public equipAreas gameSEquipArea[]
+---@field public equipmentSets gameSEquipmentSet[]
 gameSLoadout = {}
 
 ---@param fields? table

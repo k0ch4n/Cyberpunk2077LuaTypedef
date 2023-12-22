@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AHintItemController: inkWidgetLogicController
----@field protected ["Icon"] inkImageWidgetReference
----@field protected ["UnavaliableText"] inkTextWidgetReference
----@field protected ["Root"] inkWidget
+---@field protected Icon inkImageWidgetReference
+---@field protected UnavaliableText inkTextWidgetReference
+---@field protected Root inkWidget
 AHintItemController = {}
 
 ---@protected

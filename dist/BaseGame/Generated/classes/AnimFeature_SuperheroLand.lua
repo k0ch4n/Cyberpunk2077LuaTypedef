@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_SuperheroLand: animAnimFeature
----@field public ["state"] Int32
----@field public ["type"] Int32
+---@field public state Int32
+---@field public type Int32
 AnimFeature_SuperheroLand = {}
 
 ---@param fields? table

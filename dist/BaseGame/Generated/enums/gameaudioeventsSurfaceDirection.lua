@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsSurfaceDirection: Enum
----@field ["Normal"] gameaudioeventsSurfaceDirection 0
----@field ["WallLeft"] gameaudioeventsSurfaceDirection 1
----@field ["WallRight"] gameaudioeventsSurfaceDirection 2
+---@field Normal 0
+---@field WallLeft 1
+---@field WallRight 2
 gameaudioeventsSurfaceDirection = {}

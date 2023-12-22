@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerWeaponDetailed: ScannerWeaponBasic
----@field private ["damage"] CName
+---@field private damage CName
 ScannerWeaponDetailed = {}
 
 ---@param fields? table

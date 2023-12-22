@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimuliSquadActionEvent: senseBaseStimuliEvent
----@field public ["squadActionName"] CName
----@field public ["squadVerb"] EAISquadVerb
+---@field public squadActionName CName
+---@field public squadVerb EAISquadVerb
 StimuliSquadActionEvent = {}
 
 ---@param fields? table

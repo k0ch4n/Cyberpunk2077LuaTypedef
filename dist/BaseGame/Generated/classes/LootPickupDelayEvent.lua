@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LootPickupDelayEvent: redEvent
----@field public ["enableLootInteraction"] Bool
+---@field public enableLootInteraction Bool
 LootPickupDelayEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSetAchievementProgressRequest: gamePlayerScriptableSystemRequest
----@field public ["currentValue"] Int32
----@field public ["customTarget"] Int32
----@field public ["achievement"] gamedataAchievement
+---@field public currentValue Int32
+---@field public customTarget Int32
+---@field public achievement gamedataAchievement
 questSetAchievementProgressRequest = {}
 
 ---@param fields? table

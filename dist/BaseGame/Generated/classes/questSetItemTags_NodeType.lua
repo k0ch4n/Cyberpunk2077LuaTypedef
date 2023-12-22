@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetItemTags_NodeType: questIItemManagerNodeType
----@field public ["params"] questSetItemTags_NodeTypeParams[]
+---@field public params questSetItemTags_NodeTypeParams[]
 questSetItemTags_NodeType = {}
 
 ---@param fields? table

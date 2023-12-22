@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleTransition: DefaultTransition
----@field public ["stateMachineInitData"] VehicleTransitionInitData
----@field protected ["exitSlot"] CName
+---@field public stateMachineInitData VehicleTransitionInitData
+---@field protected exitSlot CName
 VehicleTransition = {}
 
 ---@return Bool

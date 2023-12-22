@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeActiveContextRequest: gamePlayerScriptableSystemRequest
----@field public ["newContext"] inputContextType
+---@field public newContext inputContextType
 ChangeActiveContextRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTutorialOverlayData
----@field public ["widgetLibraryResource"] redResourceReferenceScriptToken
----@field public ["itemName"] CName
+---@field public widgetLibraryResource redResourceReferenceScriptToken
+---@field public itemName CName
 gameTutorialOverlayData = {}
 
 ---@param fields? table

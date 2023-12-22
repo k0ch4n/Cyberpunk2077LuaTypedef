@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerVisionModeControllerInvalidateEvent: redEvent
----@field public ["active"] Bool
+---@field public active Bool
 PlayerVisionModeControllerInvalidateEvent = {}
 
 ---@param fields? table

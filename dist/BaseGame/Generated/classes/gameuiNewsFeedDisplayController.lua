@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiNewsFeedDisplayController: inkWidgetLogicController
----@field public ["newsTitleWidget"] inkTextWidgetReference
----@field public ["randomNewsLibraryWidget"] CName
----@field public ["randomNewsContainer"] inkCompoundWidgetReference
+---@field public newsTitleWidget inkTextWidgetReference
+---@field public randomNewsLibraryWidget CName
+---@field public randomNewsContainer inkCompoundWidgetReference
 gameuiNewsFeedDisplayController = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorFindAlertedWorkspotTaskDefinition: AIbehaviorTaskDefinition
----@field public ["usedTokens"] AIArgumentMapping
----@field public ["spots"] AIArgumentMapping
----@field public ["radius"] AIArgumentMapping
----@field public ["outWorkspotData"] AIArgumentMapping
+---@field public usedTokens AIArgumentMapping
+---@field public spots AIArgumentMapping
+---@field public radius AIArgumentMapping
+---@field public outWorkspotData AIArgumentMapping
 AIbehaviorFindAlertedWorkspotTaskDefinition = {}
 
 ---@param fields? table

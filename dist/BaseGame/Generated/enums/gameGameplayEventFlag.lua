@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGameplayEventFlag: Enum
----@field ["Ai"] gameGameplayEventFlag 1
----@field ["Trigger"] gameGameplayEventFlag 2
----@field ["Component"] gameGameplayEventFlag 4
----@field ["Script"] gameGameplayEventFlag 8
+---@field Ai 1
+---@field Trigger 2
+---@field Component 4
+---@field Script 8
 gameGameplayEventFlag = {}

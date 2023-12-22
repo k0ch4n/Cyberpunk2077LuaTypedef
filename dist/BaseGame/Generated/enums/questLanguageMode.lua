@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questLanguageMode: Enum
----@field ["Undefined"] questLanguageMode 0
----@field ["VoLang"] questLanguageMode 1
----@field ["SubsLang"] questLanguageMode 2
----@field ["TextLang"] questLanguageMode 3
+---@field Undefined 0
+---@field VoLang 1
+---@field SubsLang 2
+---@field TextLang 3
 questLanguageMode = {}

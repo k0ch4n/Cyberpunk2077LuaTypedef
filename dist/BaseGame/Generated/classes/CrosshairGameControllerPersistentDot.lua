@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameControllerPersistentDot: gameuiHUDGameController
----@field private ["settings"] userSettingsUserSettings
----@field private ["settingsListener"] PersistentDotSettingsListener
----@field private ["groupPath"] CName
----@field private ["isAiming"] Bool
----@field private ["psmUpperBodyStateCallback"] redCallbackObject
+---@field private settings userSettingsUserSettings
+---@field private settingsListener PersistentDotSettingsListener
+---@field private groupPath CName
+---@field private isAiming Bool
+---@field private psmUpperBodyStateCallback redCallbackObject
 CrosshairGameControllerPersistentDot = {}
 
 ---@param fields? table

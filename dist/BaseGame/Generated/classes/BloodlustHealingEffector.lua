@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BloodlustHealingEffector: ApplyEffectToDismemberedEffector
----@field public ["poolSystem"] gameStatPoolsSystem
----@field public ["maxDistanceSquared"] Float
----@field public ["healAmount"] Float
----@field public ["usePercent"] Bool
----@field public ["lastActivationTime"] Float
+---@field public poolSystem gameStatPoolsSystem
+---@field public maxDistanceSquared Float
+---@field public healAmount Float
+---@field public usePercent Bool
+---@field public lastActivationTime Float
 BloodlustHealingEffector = {}
 
 ---@param fields? table

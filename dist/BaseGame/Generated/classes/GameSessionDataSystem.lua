@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameSessionDataSystem: gameScriptableSystem
----@field private ["gameSessionDataModules"] GameSessionDataModule[]
+---@field private gameSessionDataModules GameSessionDataModule[]
 GameSessionDataSystem = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCAbility
----@field public ["abilityName"] String
+---@field public abilityName String
 NPCAbility = {}
 
 ---@param fields? table

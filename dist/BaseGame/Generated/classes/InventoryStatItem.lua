@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryStatItem: inkWidgetLogicController
----@field private ["label"] inkTextWidget
----@field private ["value"] inkTextWidget
+---@field private label inkTextWidget
+---@field private value inkTextWidget
 InventoryStatItem = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HighlightConnectionsRequest: gameScriptableSystemRequest
----@field public ["shouldHighlight"] Bool
----@field public ["isTriggeredByMasterDevice"] Bool
----@field public ["highlightTargets"] NodeRef[]
----@field public ["requestingDevice"] entEntityID
+---@field public shouldHighlight Bool
+---@field public isTriggeredByMasterDevice Bool
+---@field public highlightTargets NodeRef[]
+---@field public requestingDevice entEntityID
 HighlightConnectionsRequest = {}
 
 ---@param fields? table

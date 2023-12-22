@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class questIStatsScriptConditionType: questIStatsConditionType
----@field public ["scriptCondition"] IScriptable
+---@field public scriptCondition IScriptable
 questIStatsScriptConditionType = {}

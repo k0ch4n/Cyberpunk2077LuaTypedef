@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FirstEquipDecisions: EquipmentBaseDecisions
----@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
----@field public ["stateMachineInitData"] EquipmentInitData
+---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field public stateMachineInitData EquipmentInitData
 FirstEquipDecisions = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetArguments: AIbehaviortaskScript
----@field public ["argumentVar"] CName
+---@field public argumentVar CName
 SetArguments = {}
 
 ---@param context AIbehaviorScriptExecutionContext

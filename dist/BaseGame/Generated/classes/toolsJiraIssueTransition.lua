@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraIssueTransition
----@field public ["id"] String
+---@field public id String
 toolsJiraIssueTransition = {}
 
 ---@param fields? table

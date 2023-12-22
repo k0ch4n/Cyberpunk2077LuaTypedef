@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ScanEvent: redEvent
----@field public ["clue"] String
----@field public ["isAvailable"] Bool
+---@field public clue String
+---@field public isAvailable Bool
 ScanEvent = {}
 
 ---@param fields? table

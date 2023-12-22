@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class CasinoTableState: Enum
----@field ["Idle"] CasinoTableState 0
----@field ["Game"] CasinoTableState 1
+---@field Idle 0
+---@field Game 1
 CasinoTableState = {}

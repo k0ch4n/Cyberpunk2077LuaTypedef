@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Target: IScriptable
----@field private ["target"] gameObject
----@field private ["isInteresting"] Bool
----@field private ["isVisible"] Bool
+---@field private target gameObject
+---@field private isInteresting Bool
+---@field private isVisible Bool
 Target = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNotificationsReceiverTest: gameuiWidgetGameController
----@field public ["token"] inkGameNotificationToken
+---@field public token inkGameNotificationToken
 gameNotificationsReceiverTest = {}
 
 ---@param fields? table

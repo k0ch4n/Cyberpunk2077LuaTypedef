@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftingNotificationViewData: gameuiGenericNotificationViewData
----@field public ["canBeMerged"] Bool
+---@field public canBeMerged Bool
 CraftingNotificationViewData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIResource: LibTreeCTreeResource
----@field public ["root"] AICTreeNodeDefinition
+---@field public root AICTreeNodeDefinition
 AIResource = {}
 
 ---@param fields? table

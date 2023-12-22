@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LocomotionSceneInitData: IScriptable
----@field public ["previousLocomotionState"] Int32
+---@field public previousLocomotionState Int32
 LocomotionSceneInitData = {}
 
 ---@param fields? table

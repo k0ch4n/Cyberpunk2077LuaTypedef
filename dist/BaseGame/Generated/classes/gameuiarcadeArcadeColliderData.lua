@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeColliderData
----@field public ["type"] gameuiarcadeArcadeColliderType
----@field public ["shape"] gameuiarcadeBoundingShape
+---@field public type gameuiarcadeArcadeColliderType
+---@field public shape gameuiarcadeBoundingShape
 gameuiarcadeArcadeColliderData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsReadyEvents: QuickSlotsEvents
----@field public ["shouldSendEvent"] Bool
----@field public ["timePressed"] Float
+---@field public shouldSendEvent Bool
+---@field public timePressed Float
 QuickSlotsReadyEvents = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questPhoneCallVisuals: Enum
----@field ["Default"] questPhoneCallVisuals 0
----@field ["Somi"] questPhoneCallVisuals 1
+---@field Default 0
+---@field Somi 1
 questPhoneCallVisuals = {}

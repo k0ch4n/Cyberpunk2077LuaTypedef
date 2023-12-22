@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GuardbreakReactionTask: AIHitReactionTask
----@field public ["tweakDBPackage"] TweakDBID
+---@field public tweakDBPackage TweakDBID
 GuardbreakReactionTask = {}
 
 ---@param fields? table

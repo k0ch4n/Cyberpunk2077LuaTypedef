@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIIWorkspotManagerSpotUsageState: Enum
----@field ["Reserved"] AIIWorkspotManagerSpotUsageState 0
----@field ["Occupied"] AIIWorkspotManagerSpotUsageState 1
----@field ["None"] AIIWorkspotManagerSpotUsageState 2
+---@field Reserved 0
+---@field Occupied 1
+---@field None 2
 AIIWorkspotManagerSpotUsageState = {}

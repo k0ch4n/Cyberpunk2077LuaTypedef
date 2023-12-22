@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAmbientAreaContextActivatedASTCD: audioAudioStateTransitionConditionData
----@field public ["areaMixingContext"] CName
+---@field public areaMixingContext CName
 audioAmbientAreaContextActivatedASTCD = {}
 
 ---@param fields? table

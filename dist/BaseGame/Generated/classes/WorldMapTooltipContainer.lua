@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class WorldMapTooltipContainer: inkWidgetLogicController
----@field protected ["defaultTooltip"] inkWidgetReference
----@field protected ["policeTooltip"] inkWidgetReference
----@field protected ["defaultTooltipController"] WorldMapTooltipBaseController
----@field protected ["policeTooltipController"] WorldMapTooltipBaseController
----@field protected ["tooltips"] whandle[]
----@field protected ["currentVisibleIndex"] Int32
+---@field protected defaultTooltip inkWidgetReference
+---@field protected policeTooltip inkWidgetReference
+---@field protected defaultTooltipController WorldMapTooltipBaseController
+---@field protected policeTooltipController WorldMapTooltipBaseController
+---@field protected tooltips whandle[]
+---@field protected currentVisibleIndex Int32
 WorldMapTooltipContainer = {}
 
 ---@param fields? table

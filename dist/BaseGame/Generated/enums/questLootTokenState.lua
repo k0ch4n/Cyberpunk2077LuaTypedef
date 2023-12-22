@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questLootTokenState: Enum
----@field ["Enabled"] questLootTokenState 0
----@field ["Disabled"] questLootTokenState 1
----@field ["Sealed"] questLootTokenState 2
----@field ["Unsealed"] questLootTokenState 3
+---@field Enabled 0
+---@field Disabled 1
+---@field Sealed 2
+---@field Unsealed 3
 questLootTokenState = {}

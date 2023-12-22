@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class vehicleTPPCameraHeight: Enum
----@field ["Low"] vehicleTPPCameraHeight 0
----@field ["High"] vehicleTPPCameraHeight 1
+---@field Low 0
+---@field High 1
 vehicleTPPCameraHeight = {}

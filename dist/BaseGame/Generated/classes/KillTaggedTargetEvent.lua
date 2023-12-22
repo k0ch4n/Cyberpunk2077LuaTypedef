@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KillTaggedTargetEvent: redEvent
----@field public ["taggedObject"] gameObject
+---@field public taggedObject gameObject
 KillTaggedTargetEvent = {}
 
 ---@param fields? table

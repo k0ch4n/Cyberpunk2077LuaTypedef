@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AbstractLandEvents: LocomotionGroundEvents
----@field public ["blockLandingStimBroadcasting"] Bool
+---@field public blockLandingStimBroadcasting Bool
 AbstractLandEvents = {}
 
 ---@protected

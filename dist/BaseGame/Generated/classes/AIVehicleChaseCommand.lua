@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class AIVehicleChaseCommand: AIVehicleCommand
----@field public ["target"] gameObject
----@field public ["distanceMin"] Float
----@field public ["distanceMax"] Float
----@field public ["forcedStartSpeed"] Float
----@field public ["aggressiveRamming"] Bool
----@field public ["ignoreChaseVehiclesLimit"] Bool
----@field public ["boostDrivingStats"] Bool
+---@field public target gameObject
+---@field public distanceMin Float
+---@field public distanceMax Float
+---@field public forcedStartSpeed Float
+---@field public aggressiveRamming Bool
+---@field public ignoreChaseVehiclesLimit Bool
+---@field public boostDrivingStats Bool
 AIVehicleChaseCommand = {}
 
 ---@param fields? table

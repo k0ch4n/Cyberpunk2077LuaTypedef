@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scneventsAttachPropToNode: scnSceneEvent
----@field public ["propId"] scnPropId
----@field public ["nodeRef"] NodeRef
----@field public ["customOffsetPos"] Vector3
----@field public ["customOffsetRot"] Quaternion
+---@field public propId scnPropId
+---@field public nodeRef NodeRef
+---@field public customOffsetPos Vector3
+---@field public customOffsetRot Quaternion
 scneventsAttachPropToNode = {}
 
 ---@param fields? table

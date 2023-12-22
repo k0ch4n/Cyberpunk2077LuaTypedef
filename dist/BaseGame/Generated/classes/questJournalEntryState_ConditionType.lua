@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questJournalEntryState_ConditionType: questIJournalConditionType
----@field public ["path"] gameJournalPath
----@field public ["state"] gameJournalEntryState
----@field public ["inverted"] Bool
+---@field public path gameJournalPath
+---@field public state gameJournalEntryState
+---@field public inverted Bool
 questJournalEntryState_ConditionType = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DoorProximityDetector: ProximityDetector
----@field private ["triggeredAlarmID"] gameDelayID
----@field private ["blinkInterval"] Float
----@field private ["authorizationLevel"] ESecurityAccessLevel
+---@field private triggeredAlarmID gameDelayID
+---@field private blinkInterval Float
+---@field private authorizationLevel ESecurityAccessLevel
 DoorProximityDetector = {}
 
 ---@param fields? table

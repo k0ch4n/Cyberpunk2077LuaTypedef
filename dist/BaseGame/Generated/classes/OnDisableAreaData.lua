@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OnDisableAreaData
----@field public ["agent"] gamePersistentID
----@field public ["remainingAreas"] SecurityAreaControllerPS[]
+---@field public agent gamePersistentID
+---@field public remainingAreas SecurityAreaControllerPS[]
 OnDisableAreaData = {}
 
 ---@param fields? table

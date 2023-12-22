@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsUserEnteredCoverEvent: redEvent
----@field public ["actionsPoints"] WorldTransform[]
+---@field public actionsPoints WorldTransform[]
 gameeventsUserEnteredCoverEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionSlideToLocalPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
----@field public ["localOffset"] AIArgumentMapping
+---@field public localOffset AIArgumentMapping
 AIbehaviorActionSlideToLocalPositionNodeDefinition = {}
 
 ---@param fields? table

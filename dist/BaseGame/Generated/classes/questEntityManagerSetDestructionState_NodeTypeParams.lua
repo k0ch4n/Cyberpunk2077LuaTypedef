@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetDestructionState_NodeTypeParams
----@field public ["objectRef"] gameEntityReference
----@field public ["tag"] CName
+---@field public objectRef gameEntityReference
+---@field public tag CName
 questEntityManagerSetDestructionState_NodeTypeParams = {}
 
 ---@param fields? table

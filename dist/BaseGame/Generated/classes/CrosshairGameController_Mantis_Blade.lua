@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Mantis_Blade: gameuiCrosshairBaseGameController
----@field private ["weaponBBID"] redCallbackObject
----@field private ["meleeWeaponState"] gamePSMMeleeWeapon
----@field private ["targetColorChange"] inkWidgetReference
----@field private ["holdAnim"] inkanimProxy
----@field private ["aimAnim"] inkanimProxy
----@field private ["isInHoldState"] Bool
----@field private ["meleeLeapAttackObjectTagger"] MeleeLeapAttackObjectTagger
+---@field private weaponBBID redCallbackObject
+---@field private meleeWeaponState gamePSMMeleeWeapon
+---@field private targetColorChange inkWidgetReference
+---@field private holdAnim inkanimProxy
+---@field private aimAnim inkanimProxy
+---@field private isInHoldState Bool
+---@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Mantis_Blade = {}
 
 ---@param fields? table

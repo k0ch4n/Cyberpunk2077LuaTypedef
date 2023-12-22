@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetLootInteractionAccessibilityEvent: redEvent
----@field public ["accessible"] Bool
+---@field public accessible Bool
 gameSetLootInteractionAccessibilityEvent = {}
 
 ---@param fields? table

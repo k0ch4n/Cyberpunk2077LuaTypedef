@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIFollowSlotDef: gamebbScriptDefinition
----@field public ["slotID"] gamebbScriptID_Int32
----@field public ["slotTransform"] gamebbScriptID_Variant
+---@field public slotID gamebbScriptID_Int32
+---@field public slotTransform gamebbScriptID_Variant
 AIFollowSlotDef = {}
 
 ---@param fields? table

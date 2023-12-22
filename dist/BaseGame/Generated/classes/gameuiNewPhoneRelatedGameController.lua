@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiNewPhoneRelatedGameController: gameuiWidgetGameController
----@field public ["isNewPhoneEnabled"] Bool
+---@field public isNewPhoneEnabled Bool
 gameuiNewPhoneRelatedGameController = {}
 
 ---@param fields? table

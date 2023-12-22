@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ECooldownGameControllerMode: Enum
----@field ["COOLDOWNS"] ECooldownGameControllerMode 0
----@field ["BUFFS_AND_DEBUFFS"] ECooldownGameControllerMode 1
+---@field COOLDOWNS 0
+---@field BUFFS_AND_DEBUFFS 1
 ECooldownGameControllerMode = {}

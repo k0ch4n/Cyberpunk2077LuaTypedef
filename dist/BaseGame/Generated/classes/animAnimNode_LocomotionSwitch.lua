@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_LocomotionSwitch: animAnimNode_Switch
----@field public ["audioTagsPerInput"] CName[]
+---@field public audioTagsPerInput CName[]
 animAnimNode_LocomotionSwitch = {}
 
 ---@param fields? table

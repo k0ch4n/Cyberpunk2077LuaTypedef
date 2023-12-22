@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameLootResourceData: ISerializable
----@field public ["version"] Uint32
+---@field public version Uint32
 gameLootResourceData = {}
 
 ---@param fields? table

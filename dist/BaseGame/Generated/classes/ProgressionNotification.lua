@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class ProgressionNotification: GenericNotificationController
----@field private ["progression_data"] gameuiProgressionViewData
----@field private ["expBar"] inkWidgetReference
----@field private ["expText"] inkTextWidgetReference
----@field private ["barFG"] inkWidgetReference
----@field private ["barBG"] inkWidgetReference
----@field private ["root"] inkWidgetReference
----@field private ["currentLevel"] inkTextWidgetReference
----@field private ["nextLevel"] inkTextWidgetReference
----@field private ["expBarWidthSize"] Float
----@field private ["expBarHeightSize"] Float
----@field private ["animationProxy"] inkanimProxy
----@field private ["barAnimationProxy"] inkanimProxy
+---@field private progression_data gameuiProgressionViewData
+---@field private expBar inkWidgetReference
+---@field private expText inkTextWidgetReference
+---@field private barFG inkWidgetReference
+---@field private barBG inkWidgetReference
+---@field private root inkWidgetReference
+---@field private currentLevel inkTextWidgetReference
+---@field private nextLevel inkTextWidgetReference
+---@field private expBarWidthSize Float
+---@field private expBarHeightSize Float
+---@field private animationProxy inkanimProxy
+---@field private barAnimationProxy inkanimProxy
 ProgressionNotification = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TooltipWidgetReference
----@field public ["identifier"] CName
----@field public ["widgetLibraryReference"] inkWidgetLibraryReference
+---@field public identifier CName
+---@field public widgetLibraryReference inkWidgetLibraryReference
 TooltipWidgetReference = {}
 
 ---@param fields? table

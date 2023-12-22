@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_ModLocalizationPackage: IScriptable
----@field public ["interfaceEntries"] inkScriptHashMap
----@field public ["subtitleEntries"] inkScriptHashMap
+---@field public interfaceEntries inkScriptHashMap
+---@field public subtitleEntries inkScriptHashMap
 Codeware_Localization_ModLocalizationPackage = {}
 
 ---@return nil

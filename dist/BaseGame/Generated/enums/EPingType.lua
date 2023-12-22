@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EPingType: Enum
----@field ["DIRECT"] EPingType 0
----@field ["SPACE"] EPingType 1
+---@field DIRECT 0
+---@field SPACE 1
 EPingType = {}

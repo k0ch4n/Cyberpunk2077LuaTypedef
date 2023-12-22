@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class sampleBullet: BaseProjectile
----@field private ["meshComponent"] entIComponent
----@field private ["countTime"] Float
----@field private ["startVelocity"] Float
----@field private ["lifetime"] Float
----@field private ["BulletCollisionEvaluator"] BulletCollisionEvaluator
----@field private ["alive"] Bool
+---@field private meshComponent entIComponent
+---@field private countTime Float
+---@field private startVelocity Float
+---@field private lifetime Float
+---@field private BulletCollisionEvaluator BulletCollisionEvaluator
+---@field private alive Bool
 sampleBullet = {}
 
 ---@param fields? table

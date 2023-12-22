@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetHealthRegenerationState: AIbehaviortaskScript
----@field public ["healthRegeneration"] Bool
+---@field public healthRegeneration Bool
 AISetHealthRegenerationState = {}
 
 ---@param fields? table

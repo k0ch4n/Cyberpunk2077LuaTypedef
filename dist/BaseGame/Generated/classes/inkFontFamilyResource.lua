@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkFontFamilyResource: CResource
----@field public ["familyName"] CName
----@field public ["fontStyles"] inkFontStyle[]
+---@field public familyName CName
+---@field public fontStyles inkFontStyle[]
 inkFontFamilyResource = {}
 
 ---@param fields? table

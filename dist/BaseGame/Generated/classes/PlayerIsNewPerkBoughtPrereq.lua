@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayerIsNewPerkBoughtPrereq: gameIScriptablePrereq
----@field public ["invert"] Bool
----@field public ["perkType"] gamedataNewPerkType
----@field public ["level"] Int32
+---@field public invert Bool
+---@field public perkType gamedataNewPerkType
+---@field public level Int32
 PlayerIsNewPerkBoughtPrereq = {}
 
 ---@param fields? table

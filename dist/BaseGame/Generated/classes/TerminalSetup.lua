@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TerminalSetup
----@field public ["minClearance"] Int32
----@field public ["maxClearance"] Int32
----@field public ["ignoreSlaveAuthorizationModule"] Bool
----@field public ["allowRemoteAuthorization"] Bool
----@field public ["shouldForceVirtualSystem"] Bool
+---@field public minClearance Int32
+---@field public maxClearance Int32
+---@field public ignoreSlaveAuthorizationModule Bool
+---@field public allowRemoteAuthorization Bool
+---@field public shouldForceVirtualSystem Bool
 TerminalSetup = {}
 
 ---@param fields? table

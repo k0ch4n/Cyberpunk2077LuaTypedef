@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AnimationChainPlayer: IScriptable
----@field public ["animationProxy"] inkanimProxy
----@field public ["current"] AnimationChain
----@field public ["current_stage"] Int32
----@field public ["next"] AnimationChain
----@field public ["owner"] inkWidgetLogicController
+---@field public animationProxy inkanimProxy
+---@field public current AnimationChain
+---@field public current_stage Int32
+---@field public next AnimationChain
+---@field public owner inkWidgetLogicController
 AnimationChainPlayer = {}
 
 ---@param fields? table

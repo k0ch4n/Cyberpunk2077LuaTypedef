@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsELookAtTarget: Enum
----@field ["Entity"] gameinteractionsELookAtTarget 0
----@field ["Component"] gameinteractionsELookAtTarget 1
+---@field Entity 0
+---@field Component 1
 gameinteractionsELookAtTarget = {}

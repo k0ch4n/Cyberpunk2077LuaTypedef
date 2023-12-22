@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnRidTag
----@field public ["signature"] CName
----@field public ["serialNumber"] scnRidSerialNumber
+---@field public signature CName
+---@field public serialNumber scnRidSerialNumber
 scnRidTag = {}
 
 ---@param fields? table

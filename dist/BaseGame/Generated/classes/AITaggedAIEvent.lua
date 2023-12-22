@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITaggedAIEvent: AIAIEvent
----@field public ["tags"] CName[]
+---@field public tags CName[]
 AITaggedAIEvent = {}
 
 ---@param fields? table

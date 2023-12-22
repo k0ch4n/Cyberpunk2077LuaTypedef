@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ScannerVulnerabilitiesGameController: BaseChunkGameController
----@field private ["ScannerVulnerabilitiesRightPanel"] inkCompoundWidgetReference
----@field private ["vulnerabilitiesCallbackID"] redCallbackObject
----@field private ["isValidVulnerabilities"] Bool
----@field private ["asyncSpawnRequests"] inkAsyncSpawnRequest[]
+---@field private ScannerVulnerabilitiesRightPanel inkCompoundWidgetReference
+---@field private vulnerabilitiesCallbackID redCallbackObject
+---@field private isValidVulnerabilities Bool
+---@field private asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerVulnerabilitiesGameController = {}
 
 ---@param fields? table

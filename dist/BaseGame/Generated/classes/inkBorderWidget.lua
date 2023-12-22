@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkBorderWidget: inkLeafWidget
----@field public ["thickness"] Float
+---@field public thickness Float
 inkBorderWidget = {}
 
 ---@param fields? table

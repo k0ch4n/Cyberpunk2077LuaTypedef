@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workDynamicSyncBindAnimComponentCommandData: workSyncBindBaseCommandData
----@field public ["slave"] entAnimationControllerComponent
+---@field public slave entAnimationControllerComponent
 workDynamicSyncBindAnimComponentCommandData = {}
 
 ---@param fields? table

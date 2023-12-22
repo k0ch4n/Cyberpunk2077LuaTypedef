@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_RegisterProviderRequest: gameScriptableSystemRequest
----@field public ["provider"] Codeware_Localization_ModLocalizationProvider
+---@field public provider Codeware_Localization_ModLocalizationProvider
 Codeware_Localization_RegisterProviderRequest = {}
 
 ---@param fields? table

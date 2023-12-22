@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsMappinLocation: Enum
----@field ["None"] scnChoiceNodeNsMappinLocation 0
----@field ["Interaction"] scnChoiceNodeNsMappinLocation 1
----@field ["Nameplate"] scnChoiceNodeNsMappinLocation 2
----@field ["ObjectDefault"] scnChoiceNodeNsMappinLocation 4
+---@field None 0
+---@field Interaction 1
+---@field Nameplate 2
+---@field ObjectDefault 4
 scnChoiceNodeNsMappinLocation = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CoverActionTransition: LocomotionTransition
----@field protected ["gameInstance"] ScriptGameInstance
----@field protected ["locomotionStateCallbackID"] redCallbackObject
----@field protected ["lastSlidingTime"] Float
----@field protected ["isSliding"] Bool
+---@field protected gameInstance ScriptGameInstance
+---@field protected locomotionStateCallbackID redCallbackObject
+---@field protected lastSlidingTime Float
+---@field protected isSliding Bool
 CoverActionTransition = {}
 
 ---@protected

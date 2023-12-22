@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeUIAnimEvent: redEvent
----@field public ["animName"] CName
+---@field public animName CName
 ChangeUIAnimEvent = {}
 
 ---@param fields? table

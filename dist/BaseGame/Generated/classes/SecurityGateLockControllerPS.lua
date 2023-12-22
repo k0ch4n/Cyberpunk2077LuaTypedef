@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecurityGateLockControllerPS: ScriptableDeviceComponentPS
----@field public ["tresspasserList"] TrespasserEntry[]
----@field public ["entranceToken"] entEntityID
----@field public ["isLeaving"] Bool
----@field public ["isLocked"] Bool
+---@field public tresspasserList TrespasserEntry[]
+---@field public entranceToken entEntityID
+---@field public isLeaving Bool
+---@field public isLocked Bool
 SecurityGateLockControllerPS = {}
 
 ---@param fields? table

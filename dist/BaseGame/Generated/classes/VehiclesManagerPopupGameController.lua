@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class VehiclesManagerPopupGameController: BaseModalListPopupGameController
----@field private ["repairOverlay"] inkWidgetReference
----@field private ["vehicleIconContainer"] inkWidgetReference
----@field private ["vehicleIcon"] inkImageWidgetReference
----@field private ["scrollArea"] inkScrollAreaWidgetReference
----@field private ["scrollControllerWidget"] inkWidgetReference
----@field private ["confirmButton"] inkWidgetReference
----@field private ["dataView"] VehiclesManagerDataView
----@field private ["dataSource"] inkScriptableDataSourceWrapper
----@field private ["quickSlotsManager"] QuickSlotsManager
----@field private ["scrollController"] inkScrollController
----@field private ["selectAnimProxy"] inkanimProxy
----@field private ["initialIndex"] Uint32
+---@field private repairOverlay inkWidgetReference
+---@field private vehicleIconContainer inkWidgetReference
+---@field private vehicleIcon inkImageWidgetReference
+---@field private scrollArea inkScrollAreaWidgetReference
+---@field private scrollControllerWidget inkWidgetReference
+---@field private confirmButton inkWidgetReference
+---@field private dataView VehiclesManagerDataView
+---@field private dataSource inkScriptableDataSourceWrapper
+---@field private quickSlotsManager QuickSlotsManager
+---@field private scrollController inkScrollController
+---@field private selectAnimProxy inkanimProxy
+---@field private initialIndex Uint32
 VehiclesManagerPopupGameController = {}
 
 ---@param fields? table

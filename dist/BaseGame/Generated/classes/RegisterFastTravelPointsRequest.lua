@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RegisterFastTravelPointsRequest: gameScriptableSystemRequest
----@field public ["fastTravelNodes"] gameFastTravelPointData[]
----@field public ["register"] Bool
+---@field public fastTravelNodes gameFastTravelPointData[]
+---@field public register Bool
 RegisterFastTravelPointsRequest = {}
 
 ---@param fields? table

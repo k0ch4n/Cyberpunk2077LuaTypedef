@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AppearanceRandomizerComponent: gameScriptableComponent
----@field public ["appearances"] CName[]
----@field public ["isEnabled"] Bool
+---@field public appearances CName[]
+---@field public isEnabled Bool
 AppearanceRandomizerComponent = {}
 
 ---@param fields? table

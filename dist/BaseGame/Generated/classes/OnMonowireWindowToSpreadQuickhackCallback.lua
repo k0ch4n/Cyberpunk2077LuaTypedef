@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OnMonowireWindowToSpreadQuickhackCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["MonoWireApplyQuickhackEffector"] MonoWireQuickHackApplyEffector
----@field public ["PlayerPuppet"] PlayerPuppet
+---@field public MonoWireApplyQuickhackEffector MonoWireQuickHackApplyEffector
+---@field public PlayerPuppet PlayerPuppet
 OnMonowireWindowToSpreadQuickhackCallback = {}
 
 ---@param fields? table

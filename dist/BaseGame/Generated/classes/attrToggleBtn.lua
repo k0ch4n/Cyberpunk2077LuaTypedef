@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class attrToggleBtn: attrAttribute
----@field public ["nLabel"] String
+---@field public nLabel String
 attrToggleBtn = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class JournalWrapper: ABaseWrapper
----@field private ["journalManager"] gameJournalManager
----@field private ["journalContext"] gameJournalRequestContext
----@field private ["journalSubQuestContext"] gameJournalRequestContext
----@field private ["listOfJournalEntries"] gameJournalEntry[]
----@field private ["gameInstance"] ScriptGameInstance
+---@field private journalManager gameJournalManager
+---@field private journalContext gameJournalRequestContext
+---@field private journalSubQuestContext gameJournalRequestContext
+---@field private listOfJournalEntries gameJournalEntry[]
+---@field private gameInstance ScriptGameInstance
 JournalWrapper = {}
 
 ---@param fields? table

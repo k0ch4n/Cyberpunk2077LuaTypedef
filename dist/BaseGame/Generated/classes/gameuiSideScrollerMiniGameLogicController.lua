@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiSideScrollerMiniGameLogicController: inkWidgetLogicController
----@field public ["gameName"] CName
----@field public ["startHealth"] Uint32
----@field public ["playerLibraryName"] CName
----@field public ["playerColliderPositionOffset"] Vector2
----@field public ["playerColliderSizeOffset"] Vector2
----@field public ["gameplayRoot"] inkCompoundWidgetReference
----@field public ["baseSpeed"] Float
----@field public ["spawnedListLibraryNames"] CName[]
----@field protected ["isGameRunning"] Bool
+---@field public gameName CName
+---@field public startHealth Uint32
+---@field public playerLibraryName CName
+---@field public playerColliderPositionOffset Vector2
+---@field public playerColliderSizeOffset Vector2
+---@field public gameplayRoot inkCompoundWidgetReference
+---@field public baseSpeed Float
+---@field public spawnedListLibraryNames CName[]
+---@field protected isGameRunning Bool
 gameuiSideScrollerMiniGameLogicController = {}
 
 ---@param fields? table

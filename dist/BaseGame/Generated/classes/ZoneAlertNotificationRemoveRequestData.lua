@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ZoneAlertNotificationRemoveRequestData: IScriptable
----@field public ["areaType"] ESecurityAreaType
+---@field public areaType ESecurityAreaType
 ZoneAlertNotificationRemoveRequestData = {}
 
 ---@param fields? table

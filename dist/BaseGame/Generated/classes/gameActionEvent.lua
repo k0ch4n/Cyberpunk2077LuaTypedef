@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameActionEvent: AIAIEvent
----@field public ["eventAction"] CName
----@field public ["internalEvent"] gameActionInternalEvent
+---@field public eventAction CName
+---@field public internalEvent gameActionInternalEvent
 gameActionEvent = {}
 
 ---@param fields? table

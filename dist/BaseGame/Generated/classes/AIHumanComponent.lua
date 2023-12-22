@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class AIHumanComponent: AICAgent
----@field public ["movementParamsRecord"] TweakDBID
----@field private ["shootingBlackboard"] gameIBlackboard
----@field private ["gadgetBlackboard"] gameIBlackboard
----@field private ["coverBlackboard"] gameIBlackboard
----@field private ["actionBlackboard"] gameIBlackboard
----@field private ["patrolBlackboard"] gameIBlackboard
----@field private ["alertedPatrolBlackboard"] gameIBlackboard
----@field private ["prereqsBlackboard"] gameIBlackboard
----@field private ["friendlyFireCheckID"] Uint32
----@field private ["ffs"] gameIFriendlyFireSystem
----@field private ["LoSFinderCheckID"] Uint32
----@field private ["loSFinderSystem"] gameLoSIFinderSystem
----@field private ["LoSFinderVisibleObject"] senseVisibleObject
----@field private ["actionAnimationScriptProxy"] ActionAnimationScriptProxy
----@field private ["lastOwnerBlockedAttackEventID"] gameDelayID
----@field private ["lastOwnerParriedAttackEventID"] gameDelayID
----@field private ["lastOwnerDodgedAttackEventID"] gameDelayID
----@field private ["grenadeThrowQueryTarget"] gameObject
----@field private ["grenadeThrowQueryId"] Int32
----@field private ["scriptContext"] AIbehaviorScriptExecutionContext
----@field private ["scriptContextInitialized"] Bool
----@field private ["kerenzikovAbilityRecord"] gamedataGameplayAbility_Record
----@field private ["highLevelCb"] Uint32
----@field private ["lastReservedSeatVehicle"] entEntityID
----@field private ["assignedVehicleStuck"] Bool
----@field private ["activeCommands"] AIbehaviorUniqueActiveCommandList
+---@field public movementParamsRecord TweakDBID
+---@field private shootingBlackboard gameIBlackboard
+---@field private gadgetBlackboard gameIBlackboard
+---@field private coverBlackboard gameIBlackboard
+---@field private actionBlackboard gameIBlackboard
+---@field private patrolBlackboard gameIBlackboard
+---@field private alertedPatrolBlackboard gameIBlackboard
+---@field private prereqsBlackboard gameIBlackboard
+---@field private friendlyFireCheckID Uint32
+---@field private ffs gameIFriendlyFireSystem
+---@field private LoSFinderCheckID Uint32
+---@field private loSFinderSystem gameLoSIFinderSystem
+---@field private LoSFinderVisibleObject senseVisibleObject
+---@field private actionAnimationScriptProxy ActionAnimationScriptProxy
+---@field private lastOwnerBlockedAttackEventID gameDelayID
+---@field private lastOwnerParriedAttackEventID gameDelayID
+---@field private lastOwnerDodgedAttackEventID gameDelayID
+---@field private grenadeThrowQueryTarget gameObject
+---@field private grenadeThrowQueryId Int32
+---@field private scriptContext AIbehaviorScriptExecutionContext
+---@field private scriptContextInitialized Bool
+---@field private kerenzikovAbilityRecord gamedataGameplayAbility_Record
+---@field private highLevelCb Uint32
+---@field private lastReservedSeatVehicle entEntityID
+---@field private assignedVehicleStuck Bool
+---@field private activeCommands AIbehaviorUniqueActiveCommandList
 AIHumanComponent = {}
 
 ---@param fields? table

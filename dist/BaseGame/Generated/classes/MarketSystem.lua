@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MarketSystem: gameIMarketSystem
----@field private ["vendors"] Vendor[]
----@field private ["vendingMachinesVendors"] Vendor[]
+---@field private vendors Vendor[]
+---@field private vendingMachinesVendors Vendor[]
 MarketSystem = {}
 
 ---@param fields? table

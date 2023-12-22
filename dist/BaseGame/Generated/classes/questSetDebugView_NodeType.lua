@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetDebugView_NodeType: questIRenderFxManagerNodeType
----@field public ["mode"] questEDebugViewMode
+---@field public mode questEDebugViewMode
 questSetDebugView_NodeType = {}
 
 ---@param fields? table

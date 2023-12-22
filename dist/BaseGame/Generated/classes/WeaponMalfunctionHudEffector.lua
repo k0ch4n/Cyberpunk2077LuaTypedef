@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponMalfunctionHudEffector: gameEffector
----@field public ["bb"] gameIBlackboard
+---@field public bb gameIBlackboard
 WeaponMalfunctionHudEffector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsMessageToken_Text: toolsIMessageToken
----@field public ["text"] String
+---@field public text String
 toolsMessageToken_Text = {}
 
 ---@param fields? table

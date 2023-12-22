@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameSignalPriorityDefinition: ISerializable
----@field public ["defaultPriority"] Uint16
+---@field public defaultPriority Uint16
 gameSignalPriorityDefinition = {}

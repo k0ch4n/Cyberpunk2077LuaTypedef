@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ArmsCWInSlotPrereqState: gamePrereqState
----@field public ["listener"] ArmsCWInSlotCallback
----@field public ["owner"] gameObject
+---@field public listener ArmsCWInSlotCallback
+---@field public owner gameObject
 ArmsCWInSlotPrereqState = {}
 
 ---@param fields? table

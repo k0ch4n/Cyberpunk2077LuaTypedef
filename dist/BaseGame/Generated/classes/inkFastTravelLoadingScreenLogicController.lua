@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class inkFastTravelLoadingScreenLogicController: inkILoadingLogicController
----@field public ["mainBackgroundImage"] inkImageWidgetReference
----@field public ["supportBackgroundImage"] inkImageWidgetReference
----@field public ["introAnimationName"] CName
----@field public ["loopAnimationName"] CName
----@field public ["tooltipAnimName"] CName
----@field public ["breathInAnimName"] CName
----@field public ["breathOutAnimName"] CName
----@field public ["tooltipsWidget"] inkRichTextBoxWidgetReference
----@field private ["progressBarRoot"] inkWidgetReference
----@field private ["progressBarController"] LoadingScreenProgressBarController
+---@field public mainBackgroundImage inkImageWidgetReference
+---@field public supportBackgroundImage inkImageWidgetReference
+---@field public introAnimationName CName
+---@field public loopAnimationName CName
+---@field public tooltipAnimName CName
+---@field public breathInAnimName CName
+---@field public breathOutAnimName CName
+---@field public tooltipsWidget inkRichTextBoxWidgetReference
+---@field private progressBarRoot inkWidgetReference
+---@field private progressBarController LoadingScreenProgressBarController
 inkFastTravelLoadingScreenLogicController = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PulseAnimationParams
----@field public ["topOpacity"] Float
----@field public ["bottomOpacity"] Float
----@field public ["pulseRate"] Float
----@field public ["delay"] Float
+---@field public topOpacity Float
+---@field public bottomOpacity Float
+---@field public pulseRate Float
+---@field public delay Float
 PulseAnimationParams = {}
 
 ---@param fields? table

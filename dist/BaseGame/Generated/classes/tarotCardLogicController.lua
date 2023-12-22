@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class tarotCardLogicController: inkWidgetLogicController
----@field private ["image"] inkImageWidgetReference
----@field private ["highlight"] inkWidgetReference
----@field public ["ep1Icon"] inkWidgetReference
----@field private ["data"] TarotCardData
+---@field private image inkImageWidgetReference
+---@field private highlight inkWidgetReference
+---@field public ep1Icon inkWidgetReference
+---@field private data TarotCardData
 tarotCardLogicController = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class KiroshiHighlightEffector: HighlightEffector
----@field private ["onlyWhileAiming"] Bool
----@field private ["onlyClosestToCrosshair"] Bool
----@field private ["onlyClosestByDistance"] Bool
----@field private ["aimingStatListener"] KiroshiEffectorIsAimingStatListener
----@field private ["techPreviewStatListener"] KiroshiEffectorTechPreviewStatListener
----@field private ["slotCallback"] KiroshiHighlightEffectorCallback
----@field private ["slotListener"] gameAttachmentSlotsScriptListener
----@field public ["IsAiming"] Bool
----@field public ["isTechWeaponEquipped"] Bool
----@field public ["isMeleeWeaponEquipped"] Bool
----@field public ["isTechPreviewEnabled"] Bool
+---@field private onlyWhileAiming Bool
+---@field private onlyClosestToCrosshair Bool
+---@field private onlyClosestByDistance Bool
+---@field private aimingStatListener KiroshiEffectorIsAimingStatListener
+---@field private techPreviewStatListener KiroshiEffectorTechPreviewStatListener
+---@field private slotCallback KiroshiHighlightEffectorCallback
+---@field private slotListener gameAttachmentSlotsScriptListener
+---@field public IsAiming Bool
+---@field public isTechWeaponEquipped Bool
+---@field public isMeleeWeaponEquipped Bool
+---@field public isTechPreviewEnabled Bool
 KiroshiHighlightEffector = {}
 
 ---@param fields? table

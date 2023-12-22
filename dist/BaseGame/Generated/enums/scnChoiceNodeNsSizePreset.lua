@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsSizePreset: Enum
----@field ["small"] scnChoiceNodeNsSizePreset 0
----@field ["normal"] scnChoiceNodeNsSizePreset 1
----@field ["big"] scnChoiceNodeNsSizePreset 2
----@field ["Dialogue"] scnChoiceNodeNsSizePreset 3
----@field ["Interaction"] scnChoiceNodeNsSizePreset 4
----@field ["Dialogue360"] scnChoiceNodeNsSizePreset 5
+---@field small 0
+---@field normal 1
+---@field big 2
+---@field Dialogue 3
+---@field Interaction 4
+---@field Dialogue360 5
 scnChoiceNodeNsSizePreset = {}

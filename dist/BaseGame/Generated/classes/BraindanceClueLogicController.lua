@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class BraindanceClueLogicController: inkWidgetLogicController
----@field private ["bg"] inkWidgetReference
----@field private ["timelineActiveAnimationName"] CName
----@field private ["timelineDisabledAnimationName"] CName
----@field private ["timelineActiveAnimation"] inkanimProxy
----@field private ["timelineDisabledAnimation"] inkanimProxy
----@field private ["state"] ClueState
----@field private ["data"] BraindanceClueData
----@field private ["isInLayer"] Bool
----@field private ["isInTimeWindow"] Bool
+---@field private bg inkWidgetReference
+---@field private timelineActiveAnimationName CName
+---@field private timelineDisabledAnimationName CName
+---@field private timelineActiveAnimation inkanimProxy
+---@field private timelineDisabledAnimation inkanimProxy
+---@field private state ClueState
+---@field private data BraindanceClueData
+---@field private isInLayer Bool
+---@field private isInTimeWindow Bool
 BraindanceClueLogicController = {}
 
 ---@param fields? table

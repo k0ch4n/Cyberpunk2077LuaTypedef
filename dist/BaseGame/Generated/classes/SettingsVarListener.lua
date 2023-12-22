@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SettingsVarListener: userSettingsVarListener
----@field private ["ctrl"] SettingsMainGameController
+---@field private ctrl SettingsMainGameController
 SettingsVarListener = {}
 
 ---@param fields? table

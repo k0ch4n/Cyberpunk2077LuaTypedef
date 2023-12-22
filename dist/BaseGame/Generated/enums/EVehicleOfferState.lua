@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EVehicleOfferState: Enum
----@field ["Default"] EVehicleOfferState 0
----@field ["New"] EVehicleOfferState 1
----@field ["Owned"] EVehicleOfferState 2
----@field ["Locked"] EVehicleOfferState 3
+---@field Default 0
+---@field New 1
+---@field Owned 2
+---@field Locked 3
 EVehicleOfferState = {}

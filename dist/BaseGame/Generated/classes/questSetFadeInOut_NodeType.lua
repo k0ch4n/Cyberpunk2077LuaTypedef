@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSetFadeInOut_NodeType: questIRenderFxManagerNodeType
----@field public ["fadeColor"] Color
----@field public ["fadeIn"] Bool
----@field public ["duration"] Float
+---@field public fadeColor Color
+---@field public fadeIn Bool
+---@field public duration Float
 questSetFadeInOut_NodeType = {}
 
 ---@param fields? table

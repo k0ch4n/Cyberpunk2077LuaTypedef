@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleForceOccupantOut: ActionBool
----@field public ["slotID"] CName
+---@field public slotID CName
 VehicleForceOccupantOut = {}
 
 ---@param fields? table

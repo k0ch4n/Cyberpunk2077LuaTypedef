@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EBroadcasteingType: Enum
----@field ["Active"] EBroadcasteingType 0
----@field ["SingleActive"] EBroadcasteingType 1
----@field ["Direct"] EBroadcasteingType 2
----@field ["Remove"] EBroadcasteingType 3
----@field ["Single"] EBroadcasteingType 4
+---@field Active 0
+---@field SingleActive 1
+---@field Direct 2
+---@field Remove 3
+---@field Single 4
 EBroadcasteingType = {}

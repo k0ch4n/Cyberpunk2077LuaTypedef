@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiStealthIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
----@field private ["arrowFrontWidget"] inkImageWidgetReference
----@field private ["wrapper"] inkCompoundWidgetReference
----@field private ["stealthIndicatorDeadZoneAngle"] Float
----@field private ["slowestFlashTime"] Float
----@field private ["rootWidget"] inkCompoundWidget
----@field private ["lastValue"] Float
----@field private ["animProxy"] inkanimProxy
----@field private ["flashAnimProxy"] inkanimProxy
----@field private ["scaleAnimDef"] inkanimDefinition
+---@field private arrowFrontWidget inkImageWidgetReference
+---@field private wrapper inkCompoundWidgetReference
+---@field private stealthIndicatorDeadZoneAngle Float
+---@field private slowestFlashTime Float
+---@field private rootWidget inkCompoundWidget
+---@field private lastValue Float
+---@field private animProxy inkanimProxy
+---@field private flashAnimProxy inkanimProxy
+---@field private scaleAnimDef inkanimDefinition
 gameuiStealthIndicatorPartLogicController = {}
 
 ---@param fields? table

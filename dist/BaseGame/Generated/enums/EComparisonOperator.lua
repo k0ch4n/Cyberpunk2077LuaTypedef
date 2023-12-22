@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EComparisonOperator: Enum
----@field ["Equal"] EComparisonOperator 0
----@field ["NotEqual"] EComparisonOperator 1
----@field ["More"] EComparisonOperator 2
----@field ["MoreOrEqual"] EComparisonOperator 3
----@field ["Less"] EComparisonOperator 4
----@field ["LessOrEqual"] EComparisonOperator 5
+---@field Equal 0
+---@field NotEqual 1
+---@field More 2
+---@field MoreOrEqual 3
+---@field Less 4
+---@field LessOrEqual 5
 EComparisonOperator = {}

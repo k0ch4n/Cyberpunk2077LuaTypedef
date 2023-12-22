@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemEntityUntargetedEvent: redEvent
----@field public ["targetingEntity"] entEntity
+---@field public targetingEntity entEntity
 gametargetingSystemEntityUntargetedEvent = {}
 
 ---@param fields? table

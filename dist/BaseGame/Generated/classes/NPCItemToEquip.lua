@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NPCItemToEquip
----@field public ["itemID"] gameItemID
----@field public ["slotID"] TweakDBID
----@field public ["bodySlotID"] TweakDBID
+---@field public itemID gameItemID
+---@field public slotID TweakDBID
+---@field public bodySlotID TweakDBID
 NPCItemToEquip = {}
 
 ---@param fields? table

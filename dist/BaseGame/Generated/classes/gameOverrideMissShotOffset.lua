@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameOverrideMissShotOffset: redEvent
----@field public ["overrideRecord"] String
+---@field public overrideRecord String
 gameOverrideMissShotOffset = {}
 
 ---@param fields? table

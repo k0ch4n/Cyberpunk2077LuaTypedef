@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_KatanaBulletBending: gameEffectExecutor_Scripted
----@field public ["effects"] gameEffectExecutor_KatanaBulletBendingEffectEntry[]
+---@field public effects gameEffectExecutor_KatanaBulletBendingEffectEntry[]
 gameEffectExecutor_KatanaBulletBending = {}
 
 ---@param fields? table

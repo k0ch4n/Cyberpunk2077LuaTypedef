@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInputController_ConditionType: questISystemConditionType
----@field public ["inputController"] questInputDevice
+---@field public inputController questInputDevice
 questInputController_ConditionType = {}
 
 ---@param fields? table

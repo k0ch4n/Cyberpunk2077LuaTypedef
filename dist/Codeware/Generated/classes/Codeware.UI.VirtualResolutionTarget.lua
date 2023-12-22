@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_VirtualResolutionTarget: IScriptable
----@field public ["widget"] inkWidget
+---@field public widget inkWidget
 Codeware_UI_VirtualResolutionTarget = {}
 
 ---@param state Codeware_UI_VirtualResolutionData

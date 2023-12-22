@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class tachometerLogicController: IVehicleModuleController
----@field private ["rpmValueWidget"] inkTextWidgetReference
----@field private ["rpmGaugeForegroundWidget"] inkRectangleWidgetReference
----@field private ["scaleX"] Bool
----@field private ["rpmValueBBConnectionId"] redCallbackObject
----@field private ["vehBB"] gameIBlackboard
----@field private ["rpmGaugeMaxSize"] Vector2
----@field private ["rpmMaxValue"] Float
----@field private ["rpmMinValue"] Float
----@field private ["currentRPM"] Int32
+---@field private rpmValueWidget inkTextWidgetReference
+---@field private rpmGaugeForegroundWidget inkRectangleWidgetReference
+---@field private scaleX Bool
+---@field private rpmValueBBConnectionId redCallbackObject
+---@field private vehBB gameIBlackboard
+---@field private rpmGaugeMaxSize Vector2
+---@field private rpmMaxValue Float
+---@field private rpmMinValue Float
+---@field private currentRPM Int32
 tachometerLogicController = {}
 
 ---@param fields? table

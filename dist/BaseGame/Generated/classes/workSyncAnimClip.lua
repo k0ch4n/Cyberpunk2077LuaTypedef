@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workSyncAnimClip: workAnimClip
----@field public ["slotName"] CName
----@field public ["syncOffset"] Transform
+---@field public slotName CName
+---@field public syncOffset Transform
 workSyncAnimClip = {}
 
 ---@param fields? table

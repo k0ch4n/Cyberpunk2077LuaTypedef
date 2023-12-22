@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DisplayGlassControllerPS: ScriptableDeviceComponentPS
----@field protected ["isTinted"] Bool
----@field protected ["useAppearances"] Bool
----@field protected ["clearAppearance"] CName
----@field protected ["tintedAppearance"] CName
+---@field protected isTinted Bool
+---@field protected useAppearances Bool
+---@field protected clearAppearance CName
+---@field protected tintedAppearance CName
 DisplayGlassControllerPS = {}
 
 ---@param fields? table

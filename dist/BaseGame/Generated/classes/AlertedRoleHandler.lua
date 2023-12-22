@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AlertedRoleHandler: AIbehaviortaskScript
----@field private ["pathParamsModified"] Bool
+---@field private pathParamsModified Bool
 AlertedRoleHandler = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiUpdateInputHintMultipleEvent: redEvent
----@field public ["data"] gameuiInputHintData[]
----@field public ["show"] Bool[]
----@field public ["targetHintContainer"] CName
+---@field public data gameuiInputHintData[]
+---@field public show Bool[]
+---@field public targetHintContainer CName
 gameuiUpdateInputHintMultipleEvent = {}
 
 ---@param fields? table

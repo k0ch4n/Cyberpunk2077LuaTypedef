@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTextWrappingPolicy: Enum
----@field ["SingleLine"] inkTextWrappingPolicy 0
----@field ["MultiLine"] inkTextWrappingPolicy 1
----@field ["MultilineNoWrap"] inkTextWrappingPolicy 2
+---@field SingleLine 0
+---@field MultiLine 1
+---@field MultilineNoWrap 2
 inkTextWrappingPolicy = {}

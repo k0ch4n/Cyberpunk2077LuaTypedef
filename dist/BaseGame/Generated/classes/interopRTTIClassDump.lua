@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class interopRTTIClassDump
----@field public ["classNames"] String[]
----@field public ["descriptiveNames"] String[]
----@field public ["resourceInfos"] interopRTTIResourceDumpInfo[]
----@field public ["entries"] interopRTTIClassDumpEntry[]
+---@field public classNames String[]
+---@field public descriptiveNames String[]
+---@field public resourceInfos interopRTTIResourceDumpInfo[]
+---@field public entries interopRTTIClassDumpEntry[]
 interopRTTIClassDump = {}
 
 ---@param fields? table

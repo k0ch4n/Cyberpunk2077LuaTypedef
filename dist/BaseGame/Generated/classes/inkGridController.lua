@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkGridController: inkVirtualCompoundController
----@field public ["height"] Uint32
----@field public ["width"] Uint32
----@field public ["items"] inkGridItem[]
----@field public ["slotSize"] Vector2
----@field public ["itemTemplates"] inkGridItemTemplate[]
+---@field public height Uint32
+---@field public width Uint32
+---@field public items inkGridItem[]
+---@field public slotSize Vector2
+---@field public itemTemplates inkGridItemTemplate[]
 inkGridController = {}
 
 ---@param fields? table

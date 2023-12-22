@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimSequenceTargetInfo: ISerializable
----@field public ["path"] Uint32[]
+---@field public path Uint32[]
 inkanimSequenceTargetInfo = {}
 
 ---@param fields? table

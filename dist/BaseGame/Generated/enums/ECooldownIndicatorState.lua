@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ECooldownIndicatorState: Enum
----@field ["Pooled"] ECooldownIndicatorState 0
----@field ["Intro"] ECooldownIndicatorState 1
----@field ["Filling"] ECooldownIndicatorState 2
----@field ["Outro"] ECooldownIndicatorState 3
+---@field Pooled 0
+---@field Intro 1
+---@field Filling 2
+---@field Outro 3
 ECooldownIndicatorState = {}

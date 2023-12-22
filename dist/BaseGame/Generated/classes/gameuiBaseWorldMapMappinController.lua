@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseWorldMapMappinController: gameuiInteractionMappinController
----@field public ["selected"] Bool
----@field public ["inZoomLevel"] Bool
----@field public ["inCustomFilter"] Bool
----@field public ["hasCustomFilter"] Bool
----@field public ["isFastTravelEnabled"] Bool
----@field public ["isVisibleInFilterAndZoom"] Bool
----@field public ["groupState"] gameuiMappinGroupState
----@field public ["collectionCount"] Uint8
----@field public ["groupContainerWidget"] inkWidgetReference
----@field public ["groupCountTextWidget"] inkTextWidgetReference
----@field private ["mappin"] gamemappinsIMappin
----@field private ["isCompletedPhase"] Bool
----@field private ["resetStateWhenUntracked"] Bool
----@field private ["isNewAnim"] inkanimProxy
----@field private ["fadeAnim"] inkanimProxy
----@field private ["selectAnim"] inkanimProxy
----@field private ["fadeInOutDelay"] Float
+---@field public selected Bool
+---@field public inZoomLevel Bool
+---@field public inCustomFilter Bool
+---@field public hasCustomFilter Bool
+---@field public isFastTravelEnabled Bool
+---@field public isVisibleInFilterAndZoom Bool
+---@field public groupState gameuiMappinGroupState
+---@field public collectionCount Uint8
+---@field public groupContainerWidget inkWidgetReference
+---@field public groupCountTextWidget inkTextWidgetReference
+---@field private mappin gamemappinsIMappin
+---@field private isCompletedPhase Bool
+---@field private resetStateWhenUntracked Bool
+---@field private isNewAnim inkanimProxy
+---@field private fadeAnim inkanimProxy
+---@field private selectAnim inkanimProxy
+---@field private fadeInOutDelay Float
 gameuiBaseWorldMapMappinController = {}
 
 ---@param fields? table

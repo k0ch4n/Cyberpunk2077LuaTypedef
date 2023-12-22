@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSwitchNodeDefinition: questDisableableNodeDefinition
----@field public ["behaviour"] questESwitchBehaviourType
----@field public ["conditions"] questConditionItem[]
+---@field public behaviour questESwitchBehaviourType
+---@field public conditions questConditionItem[]
 questSwitchNodeDefinition = {}
 
 ---@param fields? table

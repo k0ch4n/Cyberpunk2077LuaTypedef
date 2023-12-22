@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphOptionColorPickerItem: inkWidgetLogicController
----@field private ["background"] inkWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["foreground"] inkWidgetReference
----@field private ["selectionMark"] inkWidgetReference
+---@field private background inkWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private foreground inkWidgetReference
+---@field private selectionMark inkWidgetReference
 characterCreationBodyMorphOptionColorPickerItem = {}
 
 ---@param fields? table

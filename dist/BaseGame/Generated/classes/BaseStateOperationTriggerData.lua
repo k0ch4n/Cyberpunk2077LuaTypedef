@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseStateOperationTriggerData: DeviceOperationTriggerData
----@field public ["state"] EDeviceStatus
+---@field public state EDeviceStatus
 BaseStateOperationTriggerData = {}
 
 ---@param fields? table

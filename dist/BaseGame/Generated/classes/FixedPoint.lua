@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FixedPoint
----@field public ["Bits"] Int32
+---@field public Bits Int32
 FixedPoint = {}
 
 ---@param fields? table

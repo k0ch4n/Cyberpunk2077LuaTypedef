@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_SoundFromEmitter: animAnimEvent
----@field public ["emitterName"] CName
+---@field public emitterName CName
 animAnimEvent_SoundFromEmitter = {}
 
 ---@param fields? table

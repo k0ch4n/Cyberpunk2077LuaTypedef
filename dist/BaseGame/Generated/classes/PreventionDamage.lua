@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PreventionDamage: gameScriptableSystemRequest
----@field public ["target"] gameObject
----@field public ["attackTime"] Float
----@field public ["attackType"] gamedataAttackType
----@field public ["damageDealtPercent"] Float
----@field public ["isTargetKilled"] Bool
+---@field public target gameObject
+---@field public attackTime Float
+---@field public attackType gamedataAttackType
+---@field public damageDealtPercent Float
+---@field public isTargetKilled Bool
 PreventionDamage = {}
 
 ---@param fields? table

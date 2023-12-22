@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EquipAnimationUpdateData: IScriptable
----@field public ["equipArea"] gamedataEquipmentArea
----@field public ["isEquip"] Bool
+---@field public equipArea gamedataEquipmentArea
+---@field public isEquip Bool
 EquipAnimationUpdateData = {}
 
 ---@param fields? table

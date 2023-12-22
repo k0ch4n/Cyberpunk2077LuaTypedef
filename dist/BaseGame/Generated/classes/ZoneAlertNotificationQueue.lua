@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class ZoneAlertNotificationQueue: gameuiGenericNotificationGameController
----@field private ["duration"] Float
----@field private ["securityBlackBoardID"] redCallbackObject
----@field private ["combatBlackBoardID"] redCallbackObject
----@field private ["wantedValueBlackboardID"] redCallbackObject
----@field private ["playerBlackboardID"] redCallbackObject
----@field private ["blackboard"] gameIBlackboard
----@field private ["wantedBlackboard"] gameIBlackboard
----@field private ["wantedBlackboardDef"] UI_WantedBarDef
----@field private ["playerInCombat"] Bool
----@field private ["playerPuppet"] gameObject
----@field private ["currentSecurityZoneType"] ESecurityAreaType
----@field private ["vehicleZoneBlackboard"] gameIBlackboard
----@field private ["vehicleZoneBlackboardDef"] LocalPlayerDef
----@field private ["vehicleZoneBlackboardID"] redCallbackObject
----@field private ["WANTED_TIER_SIZE"] Int32
----@field private ["wantedLevel"] Int32
----@field private ["factListenerID"] Uint32
+---@field private duration Float
+---@field private securityBlackBoardID redCallbackObject
+---@field private combatBlackBoardID redCallbackObject
+---@field private wantedValueBlackboardID redCallbackObject
+---@field private playerBlackboardID redCallbackObject
+---@field private blackboard gameIBlackboard
+---@field private wantedBlackboard gameIBlackboard
+---@field private wantedBlackboardDef UI_WantedBarDef
+---@field private playerInCombat Bool
+---@field private playerPuppet gameObject
+---@field private currentSecurityZoneType ESecurityAreaType
+---@field private vehicleZoneBlackboard gameIBlackboard
+---@field private vehicleZoneBlackboardDef LocalPlayerDef
+---@field private vehicleZoneBlackboardID redCallbackObject
+---@field private WANTED_TIER_SIZE Int32
+---@field private wantedLevel Int32
+---@field private factListenerID Uint32
 ZoneAlertNotificationQueue = {}
 
 ---@param fields? table

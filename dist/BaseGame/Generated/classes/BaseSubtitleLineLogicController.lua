@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BaseSubtitleLineLogicController: inkWidgetLogicController
----@field private ["root"] inkWidget
----@field private ["isKiroshiEnabled"] Bool
----@field private ["c_tier1_duration"] Float
----@field private ["c_tier2_duration"] Float
+---@field private root inkWidget
+---@field private isKiroshiEnabled Bool
+---@field private c_tier1_duration Float
+---@field private c_tier2_duration Float
 BaseSubtitleLineLogicController = {}
 
 ---@param fields? table

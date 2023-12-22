@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhoneContactHiddenEvent: redEvent
----@field public ["HiddenItem"] inkVirtualCompoundItemController
+---@field public HiddenItem inkVirtualCompoundItemController
 PhoneContactHiddenEvent = {}
 
 ---@param fields? table

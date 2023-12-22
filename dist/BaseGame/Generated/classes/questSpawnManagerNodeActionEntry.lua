@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSpawnManagerNodeActionEntry
----@field public ["type"] questSpawnManagerNodeType
+---@field public type questSpawnManagerNodeType
 questSpawnManagerNodeActionEntry = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsSimulationFilter
----@field public ["mask1"] Uint64
----@field public ["mask2"] Uint64
+---@field public mask1 Uint64
+---@field public mask2 Uint64
 physicsSimulationFilter = {}
 
 ---@param fields? table

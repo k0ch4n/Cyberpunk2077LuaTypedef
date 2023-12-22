@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class MeleeAttackGenericEvents: MeleeEventsTransition
----@field public ["effect"] gameEffectInstance
----@field public ["attackCreated"] Bool
----@field public ["blockImpulseCreation"] Bool
----@field public ["standUpSend"] Bool
----@field public ["trailCreated"] Bool
----@field public ["finisherTarget"] ScriptedPuppet
----@field public ["finisherCameraRotReseted"] Bool
----@field public ["textLayer"] Uint32
----@field public ["rumblePlayed"] Bool
----@field public ["shouldBlockImpulseUpdate"] Bool
----@field public ["enteredFromMeleeLeap"] Bool
----@field public ["effectPositionUpdated"] Bool
----@field public ["tppYawOverride"] Float
+---@field public effect gameEffectInstance
+---@field public attackCreated Bool
+---@field public blockImpulseCreation Bool
+---@field public standUpSend Bool
+---@field public trailCreated Bool
+---@field public finisherTarget ScriptedPuppet
+---@field public finisherCameraRotReseted Bool
+---@field public textLayer Uint32
+---@field public rumblePlayed Bool
+---@field public shouldBlockImpulseUpdate Bool
+---@field public enteredFromMeleeLeap Bool
+---@field public effectPositionUpdated Bool
+---@field public tppYawOverride Float
 MeleeAttackGenericEvents = {}
 
 ---@protected

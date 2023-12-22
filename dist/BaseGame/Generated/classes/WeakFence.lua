@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class WeakFence: InteractiveDevice
----@field protected ["impulseForce"] Float
----@field protected ["impulseVector"] Vector4
----@field protected ["sideTriggerNames"] CName[]
----@field protected ["triggerComponents"] gameStaticTriggerAreaComponent[]
----@field protected ["currentWorkspotSuffix"] CName
----@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
----@field protected ["physicalMesh"] entIPlacedComponent
+---@field protected impulseForce Float
+---@field protected impulseVector Vector4
+---@field protected sideTriggerNames CName[]
+---@field protected triggerComponents gameStaticTriggerAreaComponent[]
+---@field protected currentWorkspotSuffix CName
+---@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
+---@field protected physicalMesh entIPlacedComponent
 WeakFence = {}
 
 ---@param fields? table

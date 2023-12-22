@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questStopVehicle_NodeType: questIVehicleManagerNodeType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["time"] Float
----@field public ["detachFromSpline"] Bool
+---@field public vehicleRef gameEntityReference
+---@field public time Float
+---@field public detachFromSpline Bool
 questStopVehicle_NodeType = {}
 
 ---@param fields? table

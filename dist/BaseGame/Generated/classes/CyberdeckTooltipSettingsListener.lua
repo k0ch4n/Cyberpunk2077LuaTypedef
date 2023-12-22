@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CyberdeckTooltipSettingsListener: userSettingsVarListener
----@field private ["ctrl"] CyberdeckTooltip
----@field private ["statctrl"] CyberdeckStatController
+---@field private ctrl CyberdeckTooltip
+---@field private statctrl CyberdeckStatController
 CyberdeckTooltipSettingsListener = {}
 
 ---@param fields? table

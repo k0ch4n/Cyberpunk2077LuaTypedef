@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationTopBarHeader: inkButtonController
----@field private ["icon"] inkImageWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field public ["root"] inkWidget
----@field private ["animationProxy"] inkanimProxy
+---@field private icon inkImageWidgetReference
+---@field private label inkTextWidgetReference
+---@field public root inkWidget
+---@field private animationProxy inkanimProxy
 CharacterCreationTopBarHeader = {}
 
 ---@param fields? table

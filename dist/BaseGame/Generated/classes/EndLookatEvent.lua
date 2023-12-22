@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EndLookatEvent: redEvent
----@field public ["repeat"] Bool
+---@field public repeat Bool
 EndLookatEvent = {}
 
 ---@param fields? table

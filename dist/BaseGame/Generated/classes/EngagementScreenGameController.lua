@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class EngagementScreenGameController: gameuiMenuGameController
----@field private ["backgroundVideo"] inkVideoWidgetReference
----@field private ["proceedConfirmationContainer"] inkCompoundWidgetReference
----@field private ["progressBar"] inkCompoundWidgetReference
----@field private ["pressKeyWidget"] inkWidgetReference
----@field private ["breachingWidget"] inkWidgetReference
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["requestHandler"] inkISystemRequestsHandler
----@field private ["progressBarController"] LoadingScreenProgressBarController
----@field private ["breachingEnabled"] Bool
+---@field private backgroundVideo inkVideoWidgetReference
+---@field private proceedConfirmationContainer inkCompoundWidgetReference
+---@field private progressBar inkCompoundWidgetReference
+---@field private pressKeyWidget inkWidgetReference
+---@field private breachingWidget inkWidgetReference
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private requestHandler inkISystemRequestsHandler
+---@field private progressBarController LoadingScreenProgressBarController
+---@field private breachingEnabled Bool
 EngagementScreenGameController = {}
 
 ---@param fields? table

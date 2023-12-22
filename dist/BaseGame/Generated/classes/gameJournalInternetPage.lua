@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetPage: gameJournalEntry
----@field public ["address"] String
----@field public ["factsToSet"] gameJournalFactNameValue[]
----@field public ["additionallyFilledFromScripts"] Bool
----@field public ["reloadOnZoomIn"] Bool
----@field public ["widgetFile"] inkWidgetLibraryResource
----@field public ["scale"] Float
----@field public ["texts"] gameJournalInternetText[]
----@field public ["rectangles"] gameJournalInternetRectangle[]
----@field public ["images"] gameJournalInternetImage[]
----@field public ["videos"] gameJournalInternetVideo[]
----@field public ["canvases"] gameJournalInternetCanvas[]
+---@field public address String
+---@field public factsToSet gameJournalFactNameValue[]
+---@field public additionallyFilledFromScripts Bool
+---@field public reloadOnZoomIn Bool
+---@field public widgetFile inkWidgetLibraryResource
+---@field public scale Float
+---@field public texts gameJournalInternetText[]
+---@field public rectangles gameJournalInternetRectangle[]
+---@field public images gameJournalInternetImage[]
+---@field public videos gameJournalInternetVideo[]
+---@field public canvases gameJournalInternetCanvas[]
 gameJournalInternetPage = {}
 
 ---@param fields? table

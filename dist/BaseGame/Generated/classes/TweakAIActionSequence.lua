@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TweakAIActionSequence: TweakAIActionAbstract
----@field public ["sequence"] TweakDBID
----@field private ["sequenceRecord"] gamedataAIActionSequence_Record
----@field private ["sequenceIterator"] Int32
+---@field public sequence TweakDBID
+---@field private sequenceRecord gamedataAIActionSequence_Record
+---@field private sequenceIterator Int32
 TweakAIActionSequence = {}
 
 ---@param fields? table

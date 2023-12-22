@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimShearInterpolator: inkanimInterpolator
----@field public ["startValue"] Vector2
----@field public ["endValue"] Vector2
+---@field public startValue Vector2
+---@field public endValue Vector2
 inkanimShearInterpolator = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SingleWieldEvents: UpperBodyEventsTransition
----@field public ["hasInstantEquipHackBeenApplied"] Bool
+---@field public hasInstantEquipHackBeenApplied Bool
 SingleWieldEvents = {}
 
 ---@param fields? table

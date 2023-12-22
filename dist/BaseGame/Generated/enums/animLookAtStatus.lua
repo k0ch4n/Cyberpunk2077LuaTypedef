@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animLookAtStatus: Enum
----@field ["Active"] animLookAtStatus 2
----@field ["LimitReached"] animLookAtStatus 4
----@field ["TransitionInProgress"] animLookAtStatus 8
+---@field Active 2
+---@field LimitReached 4
+---@field TransitionInProgress 8
 animLookAtStatus = {}

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class sampleUIVideoPlayer: inkWidgetLogicController
----@field public ["videoWidgetPath"] CName
----@field public ["counterWidgetPath"] CName
----@field public ["lastFramePath"] CName
----@field public ["currentFramePath"] CName
----@field private ["videoWidget"] inkVideoWidget
----@field private ["framesToSkipCounterWidget"] inkTextWidget
----@field private ["lastFrameWidget"] inkTextWidget
----@field private ["currentFrameWidget"] inkTextWidget
----@field private ["numberOfFrames"] Uint32
+---@field public videoWidgetPath CName
+---@field public counterWidgetPath CName
+---@field public lastFramePath CName
+---@field public currentFramePath CName
+---@field private videoWidget inkVideoWidget
+---@field private framesToSkipCounterWidget inkTextWidget
+---@field private lastFrameWidget inkTextWidget
+---@field private currentFrameWidget inkTextWidget
+---@field private numberOfFrames Uint32
 sampleUIVideoPlayer = {}
 
 ---@param fields? table

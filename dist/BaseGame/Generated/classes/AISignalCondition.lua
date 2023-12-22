@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AISignalCondition: AIbehaviorconditionScript
----@field public ["requiredFlags"] AISignalFlags[]
----@field public ["consumesSignal"] Bool
----@field private ["activated"] Bool
----@field protected ["executingSignal"] AIGateSignal
----@field protected ["executingSignalId"] Uint32
+---@field public requiredFlags AISignalFlags[]
+---@field public consumesSignal Bool
+---@field private activated Bool
+---@field protected executingSignal AIGateSignal
+---@field protected executingSignalId Uint32
 AISignalCondition = {}
 
 ---@protected

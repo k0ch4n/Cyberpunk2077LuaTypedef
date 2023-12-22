@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CMeshMaterialEntry
----@field public ["name"] CName
----@field public ["index"] Uint16
----@field public ["isLocalInstance"] Bool
+---@field public name CName
+---@field public index Uint16
+---@field public isLocalInstance Bool
 CMeshMaterialEntry = {}
 
 ---@param fields? table

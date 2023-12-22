@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnFindEntityInNodeParams
----@field public ["nodeRef"] NodeRef
----@field public ["forceMaxVisibility"] Bool
+---@field public nodeRef NodeRef
+---@field public forceMaxVisibility Bool
 scnFindEntityInNodeParams = {}
 
 ---@param fields? table

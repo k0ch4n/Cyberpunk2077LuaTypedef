@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class hubRadialStaticSelectorController: inkSelectorController
----@field protected ["leftArrowWidget"] inkWidgetReference
----@field protected ["rightArrowWidget"] inkWidgetReference
----@field protected ["container"] inkWidgetReference
----@field protected ["line"] inkWidgetReference
----@field protected ["leftArrowController"] inkInputDisplayController
----@field protected ["rightArrowController"] inkInputDisplayController
----@field protected ["data"] MenuData[]
----@field protected ["widgetsControllers"] HubMenuLabelContentContainer[]
----@field protected ["currentIndex"] Int32
----@field protected ["currentParent"] Int32
----@field private ["currentData"] MenuData[]
----@field private ["lineTranslationAnimProxy"] inkanimProxy
----@field private ["lineSizeAnimProxy"] inkanimProxy
----@field private ["instantLineUpdateRequested"] Bool
----@field private ["animationsRetryDiv"] Float
----@field private ["debugText"] inkTextWidgetReference
+---@field protected leftArrowWidget inkWidgetReference
+---@field protected rightArrowWidget inkWidgetReference
+---@field protected container inkWidgetReference
+---@field protected line inkWidgetReference
+---@field protected leftArrowController inkInputDisplayController
+---@field protected rightArrowController inkInputDisplayController
+---@field protected data MenuData[]
+---@field protected widgetsControllers HubMenuLabelContentContainer[]
+---@field protected currentIndex Int32
+---@field protected currentParent Int32
+---@field private currentData MenuData[]
+---@field private lineTranslationAnimProxy inkanimProxy
+---@field private lineSizeAnimProxy inkanimProxy
+---@field private instantLineUpdateRequested Bool
+---@field private animationsRetryDiv Float
+---@field private debugText inkTextWidgetReference
 hubRadialStaticSelectorController = {}
 
 ---@param fields? table

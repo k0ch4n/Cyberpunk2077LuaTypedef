@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SCustomDeviceActionsData
----@field public ["actions"] SDeviceActionCustomData[]
+---@field public actions SDeviceActionCustomData[]
 SCustomDeviceActionsData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeStanceState: ChangeStanceStateAbstract
----@field public ["newState"] gamedataNPCStanceState
+---@field public newState gamedataNPCStanceState
 ChangeStanceState = {}
 
 ---@param fields? table

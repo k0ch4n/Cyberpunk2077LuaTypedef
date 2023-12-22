@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPuppetsUnconscious: questPuppetsEffector
----@field public ["setUnconscious"] Bool
+---@field public setUnconscious Bool
 questPuppetsUnconscious = {}
 
 ---@param fields? table

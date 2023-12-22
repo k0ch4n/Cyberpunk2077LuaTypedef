@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkSyncedMasterAnim: animAnimNode_SkSpeedAnim
----@field public ["syncTag"] CName
+---@field public syncTag CName
 animAnimNode_SkSyncedMasterAnim = {}
 
 ---@param fields? table

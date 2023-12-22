@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAnimWrappersFromMountData: AIVehicleTaskAbstract
----@field protected ["mountData"] AIArgumentMapping
+---@field protected mountData AIArgumentMapping
 SetAnimWrappersFromMountData = {}
 
 ---@param fields? table

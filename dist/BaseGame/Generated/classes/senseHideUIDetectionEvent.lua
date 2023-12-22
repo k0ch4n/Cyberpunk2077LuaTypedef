@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseHideUIDetectionEvent: redEvent
----@field public ["shouldHideUIDetection"] Bool
+---@field public shouldHideUIDetection Bool
 senseHideUIDetectionEvent = {}
 
 ---@param fields? table

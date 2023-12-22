@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class BaseChargesStatListener: gameCustomValueStatPoolsListener
----@field public ["player"] PlayerPuppet
----@field public ["playedCueAlready"] Bool
----@field public ["currentCharges"] Int32
----@field public ["currentStatPoolValue"] Int32
----@field public ["rechargeSoundCue"] CName
----@field public ["statSystem"] gameStatsSystem
----@field public ["finalString"] String
+---@field public player PlayerPuppet
+---@field public playedCueAlready Bool
+---@field public currentCharges Int32
+---@field public currentStatPoolValue Int32
+---@field public rechargeSoundCue CName
+---@field public statSystem gameStatsSystem
+---@field public finalString String
 BaseChargesStatListener = {}
 
 ---@param fields? table

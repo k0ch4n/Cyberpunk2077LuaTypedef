@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class TakeOverControlSystem: gameScriptableSystem
----@field private ["controlledObject"] gameObject
----@field private ["takeControlSourceID"] entEntityID
----@field private ["isInputRegistered"] Bool
----@field private ["isInputLockedFromQuest"] Bool
----@field private ["isChainForcedFromQuest"] Bool
----@field private ["isActionButtonLocked"] Bool
----@field private ["isDeviceChainCreationLocked"] Bool
----@field private ["isReleaseOnHitLocked"] Bool
----@field private ["chainLockSources"] CName[]
----@field private ["TCDUpdateDelayID"] gameDelayID
----@field private ["TCSupdateRate"] Float
----@field private ["lastInputSimTime"] Float
----@field private ["sniperNestObject"] gameObject
----@field private ["timestampLastTCS"] Float
+---@field private controlledObject gameObject
+---@field private takeControlSourceID entEntityID
+---@field private isInputRegistered Bool
+---@field private isInputLockedFromQuest Bool
+---@field private isChainForcedFromQuest Bool
+---@field private isActionButtonLocked Bool
+---@field private isDeviceChainCreationLocked Bool
+---@field private isReleaseOnHitLocked Bool
+---@field private chainLockSources CName[]
+---@field private TCDUpdateDelayID gameDelayID
+---@field private TCSupdateRate Float
+---@field private lastInputSimTime Float
+---@field private sniperNestObject gameObject
+---@field private timestampLastTCS Float
 TakeOverControlSystem = {}
 
 ---@param fields? table

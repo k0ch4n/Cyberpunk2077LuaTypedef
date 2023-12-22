@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkOnscreenVOData
----@field public ["text"] CRUID
+---@field public text CRUID
 inkOnscreenVOData = {}
 
 ---@param fields? table

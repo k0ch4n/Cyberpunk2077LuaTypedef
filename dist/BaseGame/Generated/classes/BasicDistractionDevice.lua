@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class BasicDistractionDevice: InteractiveDevice
----@field protected ["animFeatureDataDistractor"] AnimFeature_DistractionState
----@field protected ["animFeatureDataNameDistractor"] CName
----@field protected ["distractionComponentSwapNamesToON"] CName[]
----@field protected ["distractionComponentSwapNamesToOFF"] CName[]
----@field private ["distractionComponentON"] entIPlacedComponent[]
----@field private ["distractionComponentOFF"] entIPlacedComponent[]
----@field protected ["meshAppearanceNameON"] CName
----@field protected ["meshAppearanceNameOFF"] CName
+---@field protected animFeatureDataDistractor AnimFeature_DistractionState
+---@field protected animFeatureDataNameDistractor CName
+---@field protected distractionComponentSwapNamesToON CName[]
+---@field protected distractionComponentSwapNamesToOFF CName[]
+---@field private distractionComponentON entIPlacedComponent[]
+---@field private distractionComponentOFF entIPlacedComponent[]
+---@field protected meshAppearanceNameON CName
+---@field protected meshAppearanceNameOFF CName
 BasicDistractionDevice = {}
 
 ---@param fields? table

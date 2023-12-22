@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StartHubMenuEvent: redEvent
----@field public ["initData"] HubMenuInitData
+---@field public initData HubMenuInitData
 StartHubMenuEvent = {}
 
 ---@param fields? table

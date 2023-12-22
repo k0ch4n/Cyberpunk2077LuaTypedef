@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SubtitlesSettingsListener: userSettingsVarListener
----@field private ["ctrl"] BaseSubtitlesGameController
+---@field private ctrl BaseSubtitlesGameController
 SubtitlesSettingsListener = {}
 
 ---@param fields? table

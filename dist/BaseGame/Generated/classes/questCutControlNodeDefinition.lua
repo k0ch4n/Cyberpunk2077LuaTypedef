@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCutControlNodeDefinition: questDisableableNodeDefinition
----@field public ["permanent"] Bool
+---@field public permanent Bool
 questCutControlNodeDefinition = {}
 
 ---@param fields? table

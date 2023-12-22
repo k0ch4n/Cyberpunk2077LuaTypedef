@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SubCharUnequipRequest: UnequipRequest
----@field public ["subCharType"] gamedataSubCharacter
+---@field public subCharType gamedataSubCharacter
 SubCharUnequipRequest = {}
 
 ---@param fields? table

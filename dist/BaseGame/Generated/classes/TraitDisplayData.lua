@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TraitDisplayData: BasePerkDisplayData
----@field public ["type"] gamedataTraitType
+---@field public type gamedataTraitType
 TraitDisplayData = {}
 
 ---@param fields? table

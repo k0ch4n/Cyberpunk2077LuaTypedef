@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemPartDisplay: inkWidgetLogicController
----@field protected ["PartIconImage"] inkImageWidgetReference
----@field protected ["Rarity"] inkWidgetReference
----@field protected ["TexturePartName"] CName
----@field protected ["attachmentData"] gameInventoryItemAttachments
+---@field protected PartIconImage inkImageWidgetReference
+---@field protected Rarity inkWidgetReference
+---@field protected TexturePartName CName
+---@field protected attachmentData gameInventoryItemAttachments
 InventoryItemPartDisplay = {}
 
 ---@param fields? table

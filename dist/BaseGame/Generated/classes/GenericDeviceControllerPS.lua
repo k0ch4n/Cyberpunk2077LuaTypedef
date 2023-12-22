@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class GenericDeviceControllerPS: ScriptableDeviceComponentPS
----@field private ["isRecognizableBySenses"] Bool
----@field protected ["genericDeviceActionsSetup"] GenericDeviceActionsData
----@field protected ["genericDeviceSkillChecks"] GenericContainer
----@field public ["deviceWidgetRecord"] TweakDBID
----@field public ["thumbnailWidgetRecord"] TweakDBID
----@field private ["performedCustomActionsIDs"] CName[]
+---@field private isRecognizableBySenses Bool
+---@field protected genericDeviceActionsSetup GenericDeviceActionsData
+---@field protected genericDeviceSkillChecks GenericContainer
+---@field public deviceWidgetRecord TweakDBID
+---@field public thumbnailWidgetRecord TweakDBID
+---@field private performedCustomActionsIDs CName[]
 GenericDeviceControllerPS = {}
 
 ---@param fields? table

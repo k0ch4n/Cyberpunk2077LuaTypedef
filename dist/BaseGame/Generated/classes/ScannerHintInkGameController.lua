@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ScannerHintInkGameController: gameuiWidgetGameController
----@field private ["messegeWidget"] inkTextWidget
----@field private ["root"] inkWidget
----@field private ["iconWidget"] inkImageWidgetReference
----@field private ["OnShowMessegeCallback"] redCallbackObject
----@field private ["OnMessegeUpdateCallback"] redCallbackObject
----@field private ["OnVisionModeChangedCallback"] redCallbackObject
+---@field private messegeWidget inkTextWidget
+---@field private root inkWidget
+---@field private iconWidget inkImageWidgetReference
+---@field private OnShowMessegeCallback redCallbackObject
+---@field private OnMessegeUpdateCallback redCallbackObject
+---@field private OnVisionModeChangedCallback redCallbackObject
 ScannerHintInkGameController = {}
 
 ---@param fields? table

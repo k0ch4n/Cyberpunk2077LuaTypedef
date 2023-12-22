@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePSMNanoWireLaunchMode: Enum
----@field ["Default"] gamePSMNanoWireLaunchMode 0
----@field ["Primary"] gamePSMNanoWireLaunchMode 1
----@field ["Secondary"] gamePSMNanoWireLaunchMode 2
+---@field Default 0
+---@field Primary 1
+---@field Secondary 2
 gamePSMNanoWireLaunchMode = {}

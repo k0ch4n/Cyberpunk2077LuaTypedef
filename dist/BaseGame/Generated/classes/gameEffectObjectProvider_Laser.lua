@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_Laser: gameEffectObjectProvider_PhysicalRay
----@field public ["inputTracesPerSecond"] Uint32
----@field public ["inputRayOffset"] Vector4
+---@field public inputTracesPerSecond Uint32
+---@field public inputRayOffset Vector4
 gameEffectObjectProvider_Laser = {}
 
 ---@param fields? table

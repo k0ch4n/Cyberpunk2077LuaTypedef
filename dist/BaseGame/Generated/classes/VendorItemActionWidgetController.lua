@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VendorItemActionWidgetController: DeviceActionWidgetControllerBase
----@field protected ["priceWidget"] inkTextWidgetReference
----@field protected ["priceContainer"] inkWidgetReference
----@field protected ["moneyStatusContainer"] inkWidgetReference
----@field protected ["processingStatusContainer"] inkWidgetReference
+---@field protected priceWidget inkTextWidgetReference
+---@field protected priceContainer inkWidgetReference
+---@field protected moneyStatusContainer inkWidgetReference
+---@field protected processingStatusContainer inkWidgetReference
 VendorItemActionWidgetController = {}
 
 ---@param fields? table

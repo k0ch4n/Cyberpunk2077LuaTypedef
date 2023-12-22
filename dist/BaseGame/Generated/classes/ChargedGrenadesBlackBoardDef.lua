@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ChargedGrenadesBlackBoardDef: gamebbScriptDefinition
----@field public ["curentGrenadeCharges"] gamebbScriptID_Int32
----@field public ["maxGrenadeCharges"] gamebbScriptID_Int32
----@field public ["rechargeGoingOn"] gamebbScriptID_Bool
+---@field public curentGrenadeCharges gamebbScriptID_Int32
+---@field public maxGrenadeCharges gamebbScriptID_Int32
+---@field public rechargeGoingOn gamebbScriptID_Bool
 ChargedGrenadesBlackBoardDef = {}
 
 ---@param fields? table

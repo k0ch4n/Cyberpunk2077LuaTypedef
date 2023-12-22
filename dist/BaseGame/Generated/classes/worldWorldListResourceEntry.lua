@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldWorldListResourceEntry
----@field public ["world"] CResource
----@field public ["streamingWorld"] CResource
----@field public ["worldName"] String
+---@field public world CResource
+---@field public streamingWorld CResource
+---@field public worldName String
 worldWorldListResourceEntry = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class DebugHubMenuGameController: gameuiMenuGameController
----@field private ["menuCtrl"] DebugHubMenuLogicController
----@field private ["selectorCtrl"] hubSelectorController
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["player"] PlayerPuppet
----@field private ["PDS"] PlayerDevelopmentSystem
----@field private ["currencyListener"] Uint32
----@field private ["characterCredListener"] Uint32
----@field private ["characterLevelListener"] Uint32
----@field private ["characterCurrentXPListener"] Uint32
----@field private ["characterCredPointsListener"] Uint32
----@field private ["Transaction"] gameTransactionSystem
+---@field private menuCtrl DebugHubMenuLogicController
+---@field private selectorCtrl hubSelectorController
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private player PlayerPuppet
+---@field private PDS PlayerDevelopmentSystem
+---@field private currencyListener Uint32
+---@field private characterCredListener Uint32
+---@field private characterLevelListener Uint32
+---@field private characterCurrentXPListener Uint32
+---@field private characterCredPointsListener Uint32
+---@field private Transaction gameTransactionSystem
 DebugHubMenuGameController = {}
 
 ---@param fields? table

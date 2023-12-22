@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleGarageVehicleID
----@field public ["recordID"] TweakDBID
----@field public ["name"] CName
+---@field public recordID TweakDBID
+---@field public name CName
 vehicleGarageVehicleID = {}
 
 ---@param fields? table

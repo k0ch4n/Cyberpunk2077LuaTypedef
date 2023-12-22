@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeSpawnerController: inkWidgetLogicController
----@field public ["objectLibraryID"] CName
----@field public ["initialObjectsCount"] Uint32
+---@field public objectLibraryID CName
+---@field public initialObjectsCount Uint32
 gameuiarcadeArcadeSpawnerController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_RuntimeSwitch: animAnimNode_Base
----@field public ["condition"] animIRuntimeCondition
----@field public ["True"] animPoseLink
----@field public ["False"] animPoseLink
+---@field public condition animIRuntimeCondition
+---@field public True animPoseLink
+---@field public False animPoseLink
 animAnimNode_RuntimeSwitch = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FocusModeOperations: DeviceOperations
----@field protected ["focusModeOperations"] SFocusModeOperationData[]
+---@field protected focusModeOperations SFocusModeOperationData[]
 FocusModeOperations = {}
 
 ---@param fields? table

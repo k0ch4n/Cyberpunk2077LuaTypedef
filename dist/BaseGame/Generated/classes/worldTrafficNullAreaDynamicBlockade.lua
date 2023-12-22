@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldTrafficNullAreaDynamicBlockade
----@field public ["areaID"] Uint64
----@field public ["offmeshLinks"] Uint64[]
----@field public ["affectedTrafficLanes"] worldTrafficLaneUID[]
----@field public ["permanentlyEnabledByDefault"] Bool
+---@field public areaID Uint64
+---@field public offmeshLinks Uint64[]
+---@field public affectedTrafficLanes worldTrafficLaneUID[]
+---@field public permanentlyEnabledByDefault Bool
 worldTrafficNullAreaDynamicBlockade = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LifePath_ScriptConditionType: BluelineConditionTypeBase
----@field public ["lifePathId"] TweakDBID
----@field public ["inverted"] Bool
+---@field public lifePathId TweakDBID
+---@field public inverted Bool
 LifePath_ScriptConditionType = {}
 
 ---@param fields? table

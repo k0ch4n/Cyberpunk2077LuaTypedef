@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCSphereDefinition: gameinteractionsIShapeDefinition
----@field public ["position"] Vector4
----@field public ["radius"] Float
+---@field public position Vector4
+---@field public radius Float
 gameinteractionsCSphereDefinition = {}
 
 ---@param fields? table

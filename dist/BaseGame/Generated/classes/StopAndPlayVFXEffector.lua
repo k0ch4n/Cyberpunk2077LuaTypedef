@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StopAndPlayVFXEffector: gameEffector
----@field public ["vfxToStop"] CName
----@field public ["vfxToStart"] CName
----@field public ["owner"] gameObject
+---@field public vfxToStop CName
+---@field public vfxToStart CName
+---@field public owner gameObject
 StopAndPlayVFXEffector = {}
 
 ---@param fields? table

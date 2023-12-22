@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ModifyOverlappedSecurityAreas: redEvent
----@field public ["isEntering"] Bool
----@field public ["zoneID"] gamePersistentID
+---@field public isEntering Bool
+---@field public zoneID gamePersistentID
 ModifyOverlappedSecurityAreas = {}
 
 ---@param fields? table

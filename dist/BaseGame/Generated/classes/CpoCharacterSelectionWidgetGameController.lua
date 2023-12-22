@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CpoCharacterSelectionWidgetGameController: gameuiWidgetGameController
----@field public ["defaultCharacterTexturePart"] String
----@field public ["soloCharacterTexturePart"] String
----@field private ["horizontalPanelsList"] inkHorizontalPanelWidget[]
----@field private ["amount"] Int32
+---@field public defaultCharacterTexturePart String
+---@field public soloCharacterTexturePart String
+---@field private horizontalPanelsList inkHorizontalPanelWidget[]
+---@field private amount Int32
 CpoCharacterSelectionWidgetGameController = {}
 
 ---@param fields? table

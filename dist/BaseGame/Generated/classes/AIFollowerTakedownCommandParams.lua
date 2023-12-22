@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIFollowerTakedownCommandParams: questScriptedAICommandParams
----@field public ["targetRef"] gameEntityReference
----@field public ["approachBeforeTakedown"] Bool
----@field public ["doNotTeleportIfTargetIsVisible"] Bool
+---@field public targetRef gameEntityReference
+---@field public approachBeforeTakedown Bool
+---@field public doNotTeleportIfTargetIsVisible Bool
 AIFollowerTakedownCommandParams = {}
 
 ---@param fields? table

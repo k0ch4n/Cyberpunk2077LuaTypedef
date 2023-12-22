@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ButtonHintListItem: inkWidgetLogicController
----@field private ["inputDisplay"] inkWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field private ["buttonHint"] inkInputDisplayController
----@field private ["actionName"] CName
+---@field private inputDisplay inkWidgetReference
+---@field private label inkTextWidgetReference
+---@field private buttonHint inkInputDisplayController
+---@field private actionName CName
 ButtonHintListItem = {}
 
 ---@param fields? table

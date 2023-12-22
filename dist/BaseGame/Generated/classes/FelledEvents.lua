@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FelledEvents: LocomotionGroundEvents
----@field private ["animFeatureFelled"] AnimFeature_Felled
+---@field private animFeatureFelled AnimFeature_Felled
 FelledEvents = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleBlockade: ActionBool
----@field protected ["TrueRecordName"] String
----@field protected ["FalseRecordName"] String
+---@field protected TrueRecordName String
+---@field protected FalseRecordName String
 ToggleBlockade = {}
 
 ---@param fields? table

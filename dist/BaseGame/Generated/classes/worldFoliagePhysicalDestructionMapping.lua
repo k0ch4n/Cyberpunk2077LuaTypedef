@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldFoliagePhysicalDestructionMapping: worldFoliageDestructionMapping
----@field public ["audioMetadata"] CName
----@field public ["destructionParams"] physicsDestructionParams
----@field public ["destructionLevelData"] physicsDestructionLevelData[]
+---@field public audioMetadata CName
+---@field public destructionParams physicsDestructionParams
+---@field public destructionLevelData physicsDestructionLevelData[]
 worldFoliagePhysicalDestructionMapping = {}
 
 ---@param fields? table

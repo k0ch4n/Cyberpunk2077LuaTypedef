@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplaySettingsSystem: gameScriptableSystem
----@field private ["gameplaySettingsListener"] GameplaySettingsListener
----@field private ["wasEverJohnny"] Bool
+---@field private gameplaySettingsListener GameplaySettingsListener
+---@field private wasEverJohnny Bool
 GameplaySettingsSystem = {}
 
 ---@param fields? table

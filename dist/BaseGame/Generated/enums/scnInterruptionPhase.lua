@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class scnInterruptionPhase: Enum
----@field ["WaitForInterruption"] scnInterruptionPhase 0
----@field ["WaitForInterrupted"] scnInterruptionPhase 1
----@field ["Interrupted"] scnInterruptionPhase 2
----@field ["ClearTier"] scnInterruptionPhase 3
----@field ["FadeOutLines"] scnInterruptionPhase 4
----@field ["InterruptionVoiceset"] scnInterruptionPhase 5
----@field ["WaitForReturn"] scnInterruptionPhase 6
----@field ["InstallTalkInteraction"] scnInterruptionPhase 7
----@field ["WaitForTalkInteraction"] scnInterruptionPhase 8
----@field ["ReturnVoiceset"] scnInterruptionPhase 9
----@field ["ReturnAnswerVoiceset"] scnInterruptionPhase 10
----@field ["ShowLines"] scnInterruptionPhase 11
----@field ["SyncTime"] scnInterruptionPhase 12
----@field ["RestoreTier"] scnInterruptionPhase 13
----@field ["Returned"] scnInterruptionPhase 14
----@field ["FadeOutLookAt"] scnInterruptionPhase 15
----@field ["FadeInLookAt"] scnInterruptionPhase 16
----@field ["InterruptSignal"] scnInterruptionPhase 17
----@field ["PostInterruptSignalTimeDelay"] scnInterruptionPhase 18
----@field ["ReturnSignal"] scnInterruptionPhase 19
----@field ["PostReturnSignalTimeDelay"] scnInterruptionPhase 20
----@field ["ProcessTalkInteraction"] scnInterruptionPhase 21
----@field ["ClearCommands"] scnInterruptionPhase 22
+---@field WaitForInterruption 0
+---@field WaitForInterrupted 1
+---@field Interrupted 2
+---@field ClearTier 3
+---@field FadeOutLines 4
+---@field InterruptionVoiceset 5
+---@field WaitForReturn 6
+---@field InstallTalkInteraction 7
+---@field WaitForTalkInteraction 8
+---@field ReturnVoiceset 9
+---@field ReturnAnswerVoiceset 10
+---@field ShowLines 11
+---@field SyncTime 12
+---@field RestoreTier 13
+---@field Returned 14
+---@field FadeOutLookAt 15
+---@field FadeInLookAt 16
+---@field InterruptSignal 17
+---@field PostInterruptSignalTimeDelay 18
+---@field ReturnSignal 19
+---@field PostReturnSignalTimeDelay 20
+---@field ProcessTalkInteraction 21
+---@field ClearCommands 22
 scnInterruptionPhase = {}

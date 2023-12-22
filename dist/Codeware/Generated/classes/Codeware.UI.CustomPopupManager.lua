@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_CustomPopupManager: Codeware_UI_ICustomPopupManager
----@field public ["gameController"] gameuiWidgetGameController
----@field public ["notificationsContainer"] inkCompoundWidget
----@field public ["bracketsContainer"] inkCompoundWidget
----@field public ["notificationQueues"] CName[]
+---@field public gameController gameuiWidgetGameController
+---@field public notificationsContainer inkCompoundWidget
+---@field public bracketsContainer inkCompoundWidget
+---@field public notificationQueues CName[]
 Codeware_UI_CustomPopupManager = {}
 
 ---@param fields? table

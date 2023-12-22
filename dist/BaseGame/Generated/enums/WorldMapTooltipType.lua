@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class WorldMapTooltipType: Enum
----@field ["Default"] WorldMapTooltipType 0
----@field ["Police"] WorldMapTooltipType 1
+---@field Default 0
+---@field Police 1
 WorldMapTooltipType = {}

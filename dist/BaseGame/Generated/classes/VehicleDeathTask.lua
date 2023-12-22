@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class VehicleDeathTask: AIDeathReactionsTask
----@field public ["vehNPCDeathData"] AnimFeature_VehicleNPCDeathData
----@field public ["previousState"] gamedataNPCHighLevelState
----@field public ["timeToRagdoll"] Float
----@field public ["hasRagdolled"] Bool
----@field public ["activationTimeStamp"] Float
----@field private ["readyToUnmount"] Bool
+---@field public vehNPCDeathData AnimFeature_VehicleNPCDeathData
+---@field public previousState gamedataNPCHighLevelState
+---@field public timeToRagdoll Float
+---@field public hasRagdolled Bool
+---@field public activationTimeStamp Float
+---@field private readyToUnmount Bool
 VehicleDeathTask = {}
 
 ---@param fields? table

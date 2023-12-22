@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsReactionComponent: entIComponent
----@field public ["reactions"] gameinteractionsReactionData[]
----@field public ["triggerAutomatically"] Bool
+---@field public reactions gameinteractionsReactionData[]
+---@field public triggerAutomatically Bool
 gameinteractionsReactionComponent = {}
 
 ---@param fields? table

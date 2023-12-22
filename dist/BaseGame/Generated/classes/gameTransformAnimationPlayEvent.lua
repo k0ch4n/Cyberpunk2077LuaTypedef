@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimationPlayEvent: gameTransformAnimationEvent
----@field public ["timeScale"] Float
----@field public ["looping"] Bool
----@field public ["timesPlayed"] Uint32
----@field public ["useEntitySetup"] Bool
+---@field public timeScale Float
+---@field public looping Bool
+---@field public timesPlayed Uint32
+---@field public useEntitySetup Bool
 gameTransformAnimationPlayEvent = {}
 
 ---@param fields? table

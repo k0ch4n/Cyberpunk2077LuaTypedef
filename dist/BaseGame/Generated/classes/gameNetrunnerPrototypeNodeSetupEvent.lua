@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeNodeSetupEvent: redEvent
----@field public ["scale"] Vector3
+---@field public scale Vector3
 gameNetrunnerPrototypeNodeSetupEvent = {}
 
 ---@param fields? table

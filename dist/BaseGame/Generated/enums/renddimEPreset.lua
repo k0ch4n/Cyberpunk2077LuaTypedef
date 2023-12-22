@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class renddimEPreset: Enum
----@field ["228x128"] renddimEPreset 0
----@field ["456x256"] renddimEPreset 1
----@field ["480x270"] renddimEPreset 2
----@field ["640x480"] renddimEPreset 3
----@field ["960x540"] renddimEPreset 4
----@field ["1280x720"] renddimEPreset 5
----@field ["1600x900"] renddimEPreset 6
----@field ["1920x1080"] renddimEPreset 7
----@field ["2560x1080"] renddimEPreset 8
----@field ["2560x1440"] renddimEPreset 9
----@field ["3440x1440"] renddimEPreset 11
----@field ["3840x1600"] renddimEPreset 12
----@field ["3840x2160"] renddimEPreset 13
----@field ["688x388"] renddimEPreset 14
----@field ["776x436"] renddimEPreset 15
----@field ["Console_Base"] renddimEPreset 7
----@field ["Console_Pro_Prospero_Lockhart"] renddimEPreset 9
----@field ["Console_Scorpio"] renddimEPreset 13
----@field ["Console_Anaconda"] renddimEPreset 13
+---@field ["228x128"] 0
+---@field ["456x256"] 1
+---@field ["480x270"] 2
+---@field ["640x480"] 3
+---@field ["960x540"] 4
+---@field ["1280x720"] 5
+---@field ["1600x900"] 6
+---@field ["1920x1080"] 7
+---@field ["2560x1080"] 8
+---@field ["2560x1440"] 9
+---@field ["3440x1440"] 11
+---@field ["3840x1600"] 12
+---@field ["3840x2160"] 13
+---@field ["688x388"] 14
+---@field ["776x436"] 15
+---@field Console_Base 7
+---@field Console_Pro_Prospero_Lockhart 9
+---@field Console_Scorpio 13
+---@field Console_Anaconda 13
 renddimEPreset = {}

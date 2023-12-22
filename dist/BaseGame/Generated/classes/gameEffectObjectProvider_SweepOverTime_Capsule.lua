@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_SweepOverTime_Capsule: gameEffectObjectProvider_SweepOverTime
----@field public ["radius"] Float
----@field public ["height"] Float
+---@field public radius Float
+---@field public height Float
 gameEffectObjectProvider_SweepOverTime_Capsule = {}
 
 ---@param fields? table

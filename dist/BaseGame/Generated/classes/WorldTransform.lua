@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WorldTransform
----@field public ["Position"] WorldPosition
----@field public ["Orientation"] Quaternion
+---@field public Position WorldPosition
+---@field public Orientation Quaternion
 WorldTransform = {}
 
 ---@param fields? table

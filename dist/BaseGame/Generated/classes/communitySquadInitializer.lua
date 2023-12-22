@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class communitySquadInitializer: communitySpawnInitializer
----@field public ["entries"] communitySquadInitializerEntry[]
+---@field public entries communitySquadInitializerEntry[]
 communitySquadInitializer = {}
 
 ---@param fields? table

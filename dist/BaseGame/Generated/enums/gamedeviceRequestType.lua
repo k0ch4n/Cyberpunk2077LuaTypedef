@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedeviceRequestType: Enum
----@field ["None"] gamedeviceRequestType 0
----@field ["External"] gamedeviceRequestType 1
----@field ["Remote"] gamedeviceRequestType 2
----@field ["Direct"] gamedeviceRequestType 3
----@field ["Internal"] gamedeviceRequestType 4
+---@field None 0
+---@field External 1
+---@field Remote 2
+---@field Direct 3
+---@field Internal 4
 gamedeviceRequestType = {}

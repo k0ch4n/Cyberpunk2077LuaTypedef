@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class ChargebarController: inkWidgetLogicController
----@field protected ["foreground"] inkWidgetReference
----@field protected ["midground"] inkWidgetReference
----@field protected ["background"] inkWidgetReference
----@field protected ["maxChargeAnimationName"] CName
----@field protected ["maxChargeResetAnimationName"] CName
----@field protected ["staticChargeAnimationName"] CName
----@field protected ["chargedShootAnimationName"] CName
----@field protected ["radialWipe"] Bool
----@field protected ["verticalChargeBar"] Bool
----@field protected ["playStaticChargeAnimationInstead"] Bool
----@field protected ["player"] gameObject
----@field protected ["statsSystem"] gameStatsSystem
----@field protected ["canFullyCharge"] Bool
----@field protected ["canOvercharge"] Bool
----@field protected ["listenerFullCharge"] ChargebarStatsListener
----@field protected ["listenerOvercharge"] ChargebarStatsListener
----@field protected ["animationMaxCharge"] inkanimProxy
----@field protected ["animationStaticCharge"] inkanimProxy
----@field protected ["animationChargedShoot"] inkanimProxy
----@field public ["animationStaticChargePlayed"] Bool
----@field protected ["isCharged"] Bool
+---@field protected foreground inkWidgetReference
+---@field protected midground inkWidgetReference
+---@field protected background inkWidgetReference
+---@field protected maxChargeAnimationName CName
+---@field protected maxChargeResetAnimationName CName
+---@field protected staticChargeAnimationName CName
+---@field protected chargedShootAnimationName CName
+---@field protected radialWipe Bool
+---@field protected verticalChargeBar Bool
+---@field protected playStaticChargeAnimationInstead Bool
+---@field protected player gameObject
+---@field protected statsSystem gameStatsSystem
+---@field protected canFullyCharge Bool
+---@field protected canOvercharge Bool
+---@field protected listenerFullCharge ChargebarStatsListener
+---@field protected listenerOvercharge ChargebarStatsListener
+---@field protected animationMaxCharge inkanimProxy
+---@field protected animationStaticCharge inkanimProxy
+---@field protected animationChargedShoot inkanimProxy
+---@field public animationStaticChargePlayed Bool
+---@field protected isCharged Bool
 ChargebarController = {}
 
 ---@param fields? table

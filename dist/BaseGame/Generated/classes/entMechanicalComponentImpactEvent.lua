@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entMechanicalComponentImpactEvent: redEvent
----@field public ["otherEntity"] entEntity
----@field public ["impactPoints"] entImpactPointData[]
+---@field public otherEntity entEntity
+---@field public impactPoints entImpactPointData[]
 entMechanicalComponentImpactEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class rendRenderParticleBlob: IRenderResourceBlob
----@field public ["header"] rendRenderParticleBlobHeader
----@field public ["updaterData"] rendRenderParticleUpdaterData
----@field public ["gpuSimShaders"] rendEmitterSimulationShaders
+---@field public header rendRenderParticleBlobHeader
+---@field public updaterData rendRenderParticleUpdaterData
+---@field public gpuSimShaders rendEmitterSimulationShaders
 rendRenderParticleBlob = {}
 
 ---@param fields? table

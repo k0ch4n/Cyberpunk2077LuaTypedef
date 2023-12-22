@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class JournalNotificationQueue: gameuiGenericNotificationGameController
----@field private ["showDuration"] Float
----@field private ["currencyNotification"] CName
----@field private ["shardNotification"] CName
----@field private ["itemNotification"] CName
----@field private ["questNotification"] CName
----@field private ["genericNotification"] CName
----@field private ["journalMgr"] gameJournalManager
----@field private ["newAreablackboard"] gameIBlackboard
----@field private ["newAreaDef"] UI_MapDef
----@field private ["newAreaID"] redCallbackObject
----@field private ["tutorialBlackboard"] gameIBlackboard
----@field private ["tutorialDef"] UIGameDataDef
----@field private ["tutorialID"] redCallbackObject
----@field private ["tutorialDataID"] redCallbackObject
----@field private ["isHiddenByTutorial"] Bool
----@field private ["customQuestNotificationblackBoardID"] redCallbackObject
----@field private ["customQuestNotificationblackboardDef"] UI_CustomQuestNotificationDef
----@field private ["customQuestNotificationblackboard"] gameIBlackboard
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["playerPuppet"] gameObject
----@field private ["activeVehicleBlackboard"] gameIBlackboard
----@field private ["mountBBConnectionId"] redCallbackObject
----@field private ["isPlayerMounted"] Bool
----@field private ["blackboard"] gameIBlackboard
----@field private ["uiSystemBB"] UI_SystemDef
----@field private ["uiSystemId"] redCallbackObject
----@field private ["trackedMappinId"] redCallbackObject
----@field private ["uiSystem"] gameuiGameSystemUI
----@field private ["shardTransactionListener"] gameInventoryScriptListener
+---@field private showDuration Float
+---@field private currencyNotification CName
+---@field private shardNotification CName
+---@field private itemNotification CName
+---@field private questNotification CName
+---@field private genericNotification CName
+---@field private journalMgr gameJournalManager
+---@field private newAreablackboard gameIBlackboard
+---@field private newAreaDef UI_MapDef
+---@field private newAreaID redCallbackObject
+---@field private tutorialBlackboard gameIBlackboard
+---@field private tutorialDef UIGameDataDef
+---@field private tutorialID redCallbackObject
+---@field private tutorialDataID redCallbackObject
+---@field private isHiddenByTutorial Bool
+---@field private customQuestNotificationblackBoardID redCallbackObject
+---@field private customQuestNotificationblackboardDef UI_CustomQuestNotificationDef
+---@field private customQuestNotificationblackboard gameIBlackboard
+---@field private transactionSystem gameTransactionSystem
+---@field private playerPuppet gameObject
+---@field private activeVehicleBlackboard gameIBlackboard
+---@field private mountBBConnectionId redCallbackObject
+---@field private isPlayerMounted Bool
+---@field private blackboard gameIBlackboard
+---@field private uiSystemBB UI_SystemDef
+---@field private uiSystemId redCallbackObject
+---@field private trackedMappinId redCallbackObject
+---@field private uiSystem gameuiGameSystemUI
+---@field private shardTransactionListener gameInventoryScriptListener
 JournalNotificationQueue = {}
 
 ---@param fields? table

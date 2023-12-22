@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePopulationEntityPriority: Enum
----@field ["Quest"] gamePopulationEntityPriority 0
----@field ["Community"] gamePopulationEntityPriority 1
----@field ["Crowd"] gamePopulationEntityPriority 2
+---@field Quest 0
+---@field Community 1
+---@field Crowd 2
 gamePopulationEntityPriority = {}

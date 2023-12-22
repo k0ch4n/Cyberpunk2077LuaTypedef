@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RipperdocCwPreviewItemController: inkWidgetLogicController
----@field private ["itemIcon"] inkWidgetReference
----@field private ["addIcon"] inkWidgetReference
----@field private ["root"] inkWidget
+---@field private itemIcon inkWidgetReference
+---@field private addIcon inkWidgetReference
+---@field private root inkWidget
 RipperdocCwPreviewItemController = {}
 
 ---@param fields? table

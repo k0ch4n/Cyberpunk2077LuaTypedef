@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetImage: gameJournalInternetBase
----@field public ["textureAtlas"] inkTextureAtlas
----@field public ["texturePart"] CName
+---@field public textureAtlas inkTextureAtlas
+---@field public texturePart CName
 gameJournalInternetImage = {}
 
 ---@param fields? table

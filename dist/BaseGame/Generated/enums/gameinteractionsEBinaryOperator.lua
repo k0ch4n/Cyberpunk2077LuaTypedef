@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsEBinaryOperator: Enum
----@field ["EBinaryOperator_and"] gameinteractionsEBinaryOperator 0
----@field ["EBinaryOperator_or"] gameinteractionsEBinaryOperator 1
+---@field EBinaryOperator_and 0
+---@field EBinaryOperator_or 1
 gameinteractionsEBinaryOperator = {}

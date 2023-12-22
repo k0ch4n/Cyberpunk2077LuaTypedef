@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RevealStateChangedEvent: redEvent
----@field public ["state"] ERevealState
----@field public ["reason"] gameVisionModeSystemRevealIdentifier
----@field public ["transitionTime"] Float
+---@field public state ERevealState
+---@field public reason gameVisionModeSystemRevealIdentifier
+---@field public transitionTime Float
 RevealStateChangedEvent = {}
 
 ---@param fields? table

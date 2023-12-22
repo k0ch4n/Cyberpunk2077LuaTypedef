@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPlatform_ConditionType: questISystemConditionType
----@field public ["platform"] questPlatform
----@field public ["inverted"] Bool
+---@field public platform questPlatform
+---@field public inverted Bool
 questPlatform_ConditionType = {}
 
 ---@param fields? table

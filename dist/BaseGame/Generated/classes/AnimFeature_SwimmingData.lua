@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_SwimmingData: animAnimFeature
----@field public ["state"] Int32
+---@field public state Int32
 AnimFeature_SwimmingData = {}
 
 ---@param fields? table

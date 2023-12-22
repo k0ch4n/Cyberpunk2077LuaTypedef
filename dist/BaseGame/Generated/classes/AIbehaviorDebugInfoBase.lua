@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDebugInfoBase: ISerializable
----@field public ["caption"] String
+---@field public caption String
 AIbehaviorDebugInfoBase = {}
 
 ---@param fields? table

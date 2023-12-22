@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMainMenuGameController: gameuiMenuItemListGameController
----@field public ["backgroundContainer"] inkCompoundWidgetReference
+---@field public backgroundContainer inkCompoundWidgetReference
 gameuiMainMenuGameController = {}
 
 ---@param fields? table

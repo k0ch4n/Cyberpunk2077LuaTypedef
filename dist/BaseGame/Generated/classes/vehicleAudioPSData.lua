@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class vehicleAudioPSData
----@field public ["activeRadioStation"] CName
----@field public ["acousticIsolationFactor"] Float
----@field public ["glassAcousticIsolationFactor"] Float
----@field public ["isPlayerVehicleSummoned"] Bool
----@field public ["openedWindows"] CName
+---@field public activeRadioStation CName
+---@field public acousticIsolationFactor Float
+---@field public glassAcousticIsolationFactor Float
+---@field public isPlayerVehicleSummoned Bool
+---@field public openedWindows CName
 vehicleAudioPSData = {}
 
 ---@param fields? table

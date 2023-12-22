@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioLoopingSoundController
----@field public ["playEvent"] CName
----@field public ["preStopEvent"] CName
----@field public ["stopEvent"] CName
+---@field public playEvent CName
+---@field public preStopEvent CName
+---@field public stopEvent CName
 audioLoopingSoundController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetKeepStrategyOnSearch: AIVehicleTaskAbstract
----@field protected ["keep"] AIArgumentMapping
+---@field protected keep AIArgumentMapping
 SetKeepStrategyOnSearch = {}
 
 ---@param fields? table

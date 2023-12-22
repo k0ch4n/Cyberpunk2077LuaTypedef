@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class InnerBunkerCoreScreenGameController: BaseInnerBunkerComputerGameController
----@field public ["systems"] inkWidgetReference[]
----@field public ["statuses"] InnerBunkerCoreStatus[]
----@field public ["shutdownButton"] inkWidgetReference
----@field public ["processingPanel"] inkWidgetReference
----@field public ["failurePopup"] inkWidgetReference
----@field public ["successPopup"] inkWidgetReference
----@field public ["systemCheckTimeOffline"] Float
----@field public ["systemCheckTimeUnresponsive"] Float
----@field public ["showResultTime"] Float
----@field public ["systemsCheckAnimName"] CName
----@field public ["coreStatusNormalAnimName"] CName
----@field public ["coreStatusMalfunctionAnimName"] CName
----@field public ["coreStatusShutdownAnimName"] CName
----@field public ["coreStatusShutingDownAnimName"] CName
----@field public ["failurePopupAnimName"] CName
----@field public ["successPopupAnimName"] CName
----@field public ["stage"] InnerBunkerCoreStage
----@field public ["sysIndex"] Int32
----@field public ["systemsCheckAnimProxy"] inkanimProxy
----@field public ["resultPopupAnimProxy"] inkanimProxy
----@field public ["coreStatusAnimProxy"] inkanimProxy
+---@field public systems inkWidgetReference[]
+---@field public statuses InnerBunkerCoreStatus[]
+---@field public shutdownButton inkWidgetReference
+---@field public processingPanel inkWidgetReference
+---@field public failurePopup inkWidgetReference
+---@field public successPopup inkWidgetReference
+---@field public systemCheckTimeOffline Float
+---@field public systemCheckTimeUnresponsive Float
+---@field public showResultTime Float
+---@field public systemsCheckAnimName CName
+---@field public coreStatusNormalAnimName CName
+---@field public coreStatusMalfunctionAnimName CName
+---@field public coreStatusShutdownAnimName CName
+---@field public coreStatusShutingDownAnimName CName
+---@field public failurePopupAnimName CName
+---@field public successPopupAnimName CName
+---@field public stage InnerBunkerCoreStage
+---@field public sysIndex Int32
+---@field public systemsCheckAnimProxy inkanimProxy
+---@field public resultPopupAnimProxy inkanimProxy
+---@field public coreStatusAnimProxy inkanimProxy
 InnerBunkerCoreScreenGameController = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class lookAtPresetGunBaseEvents: LookAtPresetBaseEvents
----@field public ["overrideLookAtEvents"] entLookAtAddEvent[]
----@field public ["gunState"] Int32
----@field public ["originalAttachLeft"] Bool
----@field public ["originalAttachRight"] Bool
+---@field public overrideLookAtEvents entLookAtAddEvent[]
+---@field public gunState Int32
+---@field public originalAttachLeft Bool
+---@field public originalAttachRight Bool
 lookAtPresetGunBaseEvents = {}
 
 ---@param fields? table

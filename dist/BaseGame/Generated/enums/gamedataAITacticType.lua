@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gamedataAITacticType: Enum
----@field ["Assault"] gamedataAITacticType 0
----@field ["Defend"] gamedataAITacticType 1
----@field ["Flank"] gamedataAITacticType 2
----@field ["Medivac"] gamedataAITacticType 3
----@field ["Panic"] gamedataAITacticType 4
----@field ["Regroup"] gamedataAITacticType 5
----@field ["Retreat"] gamedataAITacticType 6
----@field ["Snipe"] gamedataAITacticType 7
----@field ["Suppress"] gamedataAITacticType 8
----@field ["Count"] gamedataAITacticType 9
----@field ["Invalid"] gamedataAITacticType 10
+---@field Assault 0
+---@field Defend 1
+---@field Flank 2
+---@field Medivac 3
+---@field Panic 4
+---@field Regroup 5
+---@field Retreat 6
+---@field Snipe 7
+---@field Suppress 8
+---@field Count 9
+---@field Invalid 10
 gamedataAITacticType = {}

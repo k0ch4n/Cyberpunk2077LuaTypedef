@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotificationCloseData: inkGameNotificationData
----@field public ["input"] String
+---@field public input String
 GenericMessageNotificationCloseData = {}
 
 ---@param fields? table

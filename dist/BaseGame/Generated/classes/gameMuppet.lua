@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameMuppet: gamePuppetBase
----@field private ["hitRepresantation"] entSlotComponent
----@field private ["slotComponent"] entSlotComponent
----@field public ["highDamageThreshold"] Float
----@field public ["medDamageThreshold"] Float
----@field public ["lowDamageThreshold"] Float
----@field public ["effectTimeStamp"] Float
+---@field private hitRepresantation entSlotComponent
+---@field private slotComponent entSlotComponent
+---@field public highDamageThreshold Float
+---@field public medDamageThreshold Float
+---@field public lowDamageThreshold Float
+---@field public effectTimeStamp Float
 gameMuppet = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AILocationInformation
----@field public ["position"] Vector4
----@field public ["direction"] Vector4
+---@field public position Vector4
+---@field public direction Vector4
 AILocationInformation = {}
 
 ---@param fields? table

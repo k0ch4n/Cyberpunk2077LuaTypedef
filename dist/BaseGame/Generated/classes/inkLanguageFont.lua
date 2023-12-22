@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkLanguageFont
----@field public ["font"] inkFontFamilyResource
----@field public ["mapper"] inkLanguageFontMapper
+---@field public font inkFontFamilyResource
+---@field public mapper inkLanguageFontMapper
 inkLanguageFont = {}
 
 ---@param fields? table

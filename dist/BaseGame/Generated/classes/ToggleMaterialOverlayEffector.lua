@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleMaterialOverlayEffector: gameEffector
----@field private ["effectPath"] String
----@field private ["effectTag"] CName
----@field private ["owner"] gameObject
+---@field private effectPath String
+---@field private effectTag CName
+---@field private owner gameObject
 ToggleMaterialOverlayEffector = {}
 
 ---@param fields? table

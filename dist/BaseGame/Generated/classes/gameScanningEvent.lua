@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameScanningEvent: redEvent
----@field public ["state"] gameScanningState
+---@field public state gameScanningState
 gameScanningEvent = {}
 
 ---@param fields? table

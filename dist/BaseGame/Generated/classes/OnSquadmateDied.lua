@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OnSquadmateDied: redEvent
----@field public ["squad"] CName
----@field public ["squadmate"] entEntity
----@field public ["killer"] entEntity
+---@field public squad CName
+---@field public squadmate entEntity
+---@field public killer entEntity
 OnSquadmateDied = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldTrafficMovementBehavior: Enum
----@field ["Pedestrian"] worldTrafficMovementBehavior 0
----@field ["Car"] worldTrafficMovementBehavior 1
+---@field Pedestrian 0
+---@field Car 1
 worldTrafficMovementBehavior = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FacialMixerSlot: animAnimNode_OnePoseInput
----@field public ["lookAtDefinitions"] animLookAtAnimationDefinition[]
+---@field public lookAtDefinitions animLookAtAnimationDefinition[]
 animAnimNode_FacialMixerSlot = {}
 
 ---@param fields? table

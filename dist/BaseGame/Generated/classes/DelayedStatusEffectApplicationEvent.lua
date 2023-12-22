@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayedStatusEffectApplicationEvent: redEvent
----@field public ["statusEffectEvent"] gameeventsApplyStatusEffectEvent
+---@field public statusEffectEvent gameeventsApplyStatusEffectEvent
 DelayedStatusEffectApplicationEvent = {}
 
 ---@param fields? table

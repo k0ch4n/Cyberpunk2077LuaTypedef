@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class characterCreationLifePathBtn: inkButtonController
----@field public ["selector"] inkWidgetReference
----@field public ["desc"] inkTextWidgetReference
----@field public ["image"] inkImageWidgetReference
----@field public ["label"] inkTextWidgetReference
----@field public ["video"] inkVideoWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["root"] inkWidget
----@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
----@field private ["localizedText"] String
+---@field public selector inkWidgetReference
+---@field public desc inkTextWidgetReference
+---@field public image inkImageWidgetReference
+---@field public label inkTextWidgetReference
+---@field public video inkVideoWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private root inkWidget
+---@field private translationAnimationCtrl inkTextReplaceAnimationController
+---@field private localizedText String
 characterCreationLifePathBtn = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVoiceTriggerPerSquadOrderMap: audioAudioMetadata
----@field public ["items"] audioVoiceTriggerPerSquadOrderMapItem[]
+---@field public items audioVoiceTriggerPerSquadOrderMapItem[]
 audioVoiceTriggerPerSquadOrderMap = {}
 
 ---@param fields? table

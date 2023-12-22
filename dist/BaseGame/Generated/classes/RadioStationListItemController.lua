@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RadioStationListItemController: inkVirtualCompoundItemController
----@field private ["label"] inkTextWidgetReference
----@field private ["typeIcon"] inkImageWidgetReference
----@field private ["equilizerIcon"] inkHorizontalPanelWidgetReference
----@field private ["codeTLicon"] inkImageWidgetReference
----@field private ["stationData"] RadioListItemData
----@field private ["currentRadioStationId"] Int32
+---@field private label inkTextWidgetReference
+---@field private typeIcon inkImageWidgetReference
+---@field private equilizerIcon inkHorizontalPanelWidgetReference
+---@field private codeTLicon inkImageWidgetReference
+---@field private stationData RadioListItemData
+---@field private currentRadioStationId Int32
 RadioStationListItemController = {}
 
 ---@param fields? table

@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemsManager: IScriptable
----@field private ["iconsNameResolver"] gameuiIconsNameResolver
----@field private ["useMaleIcons"] Bool
----@field private ["ammoTypeCache"] inkScriptIntHashMap
----@field private ["statsMapCache"] inkScriptWeakHashMap
----@field private ["statsPropertiesCache"] inkScriptHashMap
----@field private ["player"] PlayerPuppet
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["statsDataSystem"] gameStatsDataSystem
----@field private ["uiScriptableSystem"] UIScriptableSystem
----@field private ["inventoryManager"] gameInventoryManager
----@field private ["equippedItemsFetched"] Bool
----@field private ["equippedItems"] gameItemID[]
----@field private ["transmogItemsFetched"] Bool
----@field private ["transmogItems"] gameItemID[]
----@field private ["maxStatValuesData"] WeaponMaxStatValueData[]
----@field private ["notSellableTags"] CName[]
----@field private ["TEMP_cuverBarsEnabled"] Bool
----@field private ["TEMP_separatorBarsEnabled"] Bool
+---@field private iconsNameResolver gameuiIconsNameResolver
+---@field private useMaleIcons Bool
+---@field private ammoTypeCache inkScriptIntHashMap
+---@field private statsMapCache inkScriptWeakHashMap
+---@field private statsPropertiesCache inkScriptHashMap
+---@field private player PlayerPuppet
+---@field private transactionSystem gameTransactionSystem
+---@field private statsDataSystem gameStatsDataSystem
+---@field private uiScriptableSystem UIScriptableSystem
+---@field private inventoryManager gameInventoryManager
+---@field private equippedItemsFetched Bool
+---@field private equippedItems gameItemID[]
+---@field private transmogItemsFetched Bool
+---@field private transmogItems gameItemID[]
+---@field private maxStatValuesData WeaponMaxStatValueData[]
+---@field private notSellableTags CName[]
+---@field private TEMP_cuverBarsEnabled Bool
+---@field private TEMP_separatorBarsEnabled Bool
 UIInventoryItemsManager = {}
 
 ---@param fields? table

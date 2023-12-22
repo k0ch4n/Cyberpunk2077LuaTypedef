@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CRenderResourceBlobContainer: ISerializable
----@field public ["blob"] IRenderResourceBlob
+---@field public blob IRenderResourceBlob
 CRenderResourceBlobContainer = {}
 
 ---@param fields? table

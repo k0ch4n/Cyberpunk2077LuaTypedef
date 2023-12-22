@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ExpansionBannerController: inkWidgetLogicController
----@field private ["statusTextRef"] inkTextWidgetReference
----@field private ["inputHintRef"] inkWidgetReference
----@field private ["indicatorRef"] inkWidgetReference
----@field private ["errorPanelRef"] inkWidgetReference
----@field private ["errorIconRef"] inkWidgetReference
----@field private ["expansionStatus"] ExpansionStatus
----@field private ["root"] inkWidget
+---@field private statusTextRef inkTextWidgetReference
+---@field private inputHintRef inkWidgetReference
+---@field private indicatorRef inkWidgetReference
+---@field private errorPanelRef inkWidgetReference
+---@field private errorIconRef inkWidgetReference
+---@field private expansionStatus ExpansionStatus
+---@field private root inkWidget
 ExpansionBannerController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetAttachment_NodeType: questIEntityManager_NodeType
----@field public ["subtype"] questIEntityManagerSetAttachment_NodeSubType
+---@field public subtype questIEntityManagerSetAttachment_NodeSubType
 questEntityManagerSetAttachment_NodeType = {}
 
 ---@param fields? table

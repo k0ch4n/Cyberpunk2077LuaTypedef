@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameeventsHighLevelStateDataEvent: redEvent
----@field public ["currentHighLevelState"] gamedataNPCHighLevelState
----@field public ["currentNPCEntityID"] entEntityID
+---@field public currentHighLevelState gamedataNPCHighLevelState
+---@field public currentNPCEntityID entEntityID
 gameeventsHighLevelStateDataEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_RoadBlock: animAnimFeature
----@field public ["isOpening"] Bool
----@field public ["duration"] Float
----@field public ["initOpen"] Bool
+---@field public isOpening Bool
+---@field public duration Float
+---@field public initOpen Bool
 AnimFeature_RoadBlock = {}
 
 ---@param fields? table

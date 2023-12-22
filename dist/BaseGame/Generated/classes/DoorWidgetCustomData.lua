@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DoorWidgetCustomData: WidgetCustomData
----@field private ["passcode"] Int32
----@field private ["card"] CName
----@field private ["isPasswordKnown"] Bool
+---@field private passcode Int32
+---@field private card CName
+---@field private isPasswordKnown Bool
 DoorWidgetCustomData = {}
 
 ---@param fields? table

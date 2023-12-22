@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickSlotKeyboardTap: redEvent
----@field public ["keyIndex"] Int32
+---@field public keyIndex Int32
 QuickSlotKeyboardTap = {}
 
 ---@param fields? table

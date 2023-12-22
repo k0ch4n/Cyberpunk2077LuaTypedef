@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InGamePopupFooter: Codeware_UI_inkCustomController
----@field public ["fluffIcon"] inkImageWidget
----@field public ["fluffText"] inkTextWidget
----@field public ["inputHolder"] inkCompoundWidget
----@field public ["buttonHints"] Codeware_UI_ButtonHintsEx
+---@field public fluffIcon inkImageWidget
+---@field public fluffText inkTextWidget
+---@field public inputHolder inkCompoundWidget
+---@field public buttonHints Codeware_UI_ButtonHintsEx
 Codeware_UI_InGamePopupFooter = {}
 
 ---@param fields? table

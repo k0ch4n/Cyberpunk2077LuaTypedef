@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CameraDeadBodySessionDataModule: GameSessionDataModule
----@field public ["cameraDeadBodyData"] CameraDeadBodyInternalData[]
+---@field public cameraDeadBodyData CameraDeadBodyInternalData[]
 CameraDeadBodySessionDataModule = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIInventoryScriptableStatsListener: gameScriptStatsListener
----@field private ["uiInventoryScriptableSystem"] UIInventoryScriptableSystem
+---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem
 UIInventoryScriptableStatsListener = {}
 
 ---@param fields? table

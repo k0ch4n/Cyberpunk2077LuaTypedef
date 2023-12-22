@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AreaEffectTargetData: IScriptable
----@field public ["areaEffectID"] CName
----@field public ["onSelf"] Bool
----@field public ["onSlaves"] Bool
+---@field public areaEffectID CName
+---@field public onSelf Bool
+---@field public onSlaves Bool
 AreaEffectTargetData = {}
 
 ---@param fields? table

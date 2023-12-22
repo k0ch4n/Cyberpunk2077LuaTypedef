@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldFoliageBrushParams
----@field public ["Proximity"] Float
----@field public ["Scale"] Float
----@field public ["ScaleVariation"] Float
+---@field public Proximity Float
+---@field public Scale Float
+---@field public ScaleVariation Float
 worldFoliageBrushParams = {}
 
 ---@param fields? table

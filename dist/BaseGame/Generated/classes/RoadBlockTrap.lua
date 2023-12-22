@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RoadBlockTrap: InteractiveMasterDevice
----@field protected ["areaComponent"] gameStaticTriggerAreaComponent
+---@field protected areaComponent gameStaticTriggerAreaComponent
 RoadBlockTrap = {}
 
 ---@param fields? table

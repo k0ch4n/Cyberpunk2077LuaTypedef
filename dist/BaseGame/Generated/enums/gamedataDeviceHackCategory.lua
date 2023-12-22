@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataDeviceHackCategory: Enum
----@field ["ControlHack"] gamedataDeviceHackCategory 0
----@field ["CovertHack"] gamedataDeviceHackCategory 1
----@field ["DamageHack"] gamedataDeviceHackCategory 2
----@field ["VehicleHack"] gamedataDeviceHackCategory 3
----@field ["Count"] gamedataDeviceHackCategory 4
----@field ["Invalid"] gamedataDeviceHackCategory 5
+---@field ControlHack 0
+---@field CovertHack 1
+---@field DamageHack 2
+---@field VehicleHack 3
+---@field Count 4
+---@field Invalid 5
 gamedataDeviceHackCategory = {}

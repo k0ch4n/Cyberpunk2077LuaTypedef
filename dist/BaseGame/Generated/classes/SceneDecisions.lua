@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SceneDecisions: VehicleTransition
----@field public ["sceneTierCallback"] redCallbackObject
+---@field public sceneTierCallback redCallbackObject
 SceneDecisions = {}
 
 ---@param fields? table

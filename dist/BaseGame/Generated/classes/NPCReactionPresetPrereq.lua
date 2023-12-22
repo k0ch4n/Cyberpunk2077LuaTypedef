@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCReactionPresetPrereq: gameIScriptablePrereq
----@field public ["reactionPreset"] gamedataReactionPresetType
----@field public ["invert"] Bool
+---@field public reactionPreset gamedataReactionPresetType
+---@field public invert Bool
 NPCReactionPresetPrereq = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameMuppetReplicatedState: netIEntityState
----@field public ["state"] gameMuppetState
----@field public ["initialOrientation"] EulerAngles
----@field public ["initialLocation"] Vector3
----@field public ["health"] Float
----@field public ["armor"] Float
+---@field public state gameMuppetState
+---@field public initialOrientation EulerAngles
+---@field public initialLocation Vector3
+---@field public health Float
+---@field public armor Float
 gameMuppetReplicatedState = {}
 
 ---@param fields? table

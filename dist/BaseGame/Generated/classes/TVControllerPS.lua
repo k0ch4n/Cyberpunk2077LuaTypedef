@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TVControllerPS: MediaDeviceControllerPS
----@field protected ["tvSetup"] TVSetup
----@field protected ["defaultGlitchVideoPath"] redResourceReferenceScriptToken
----@field protected ["broadcastGlitchVideoPath"] redResourceReferenceScriptToken
----@field private ["globalTVInitialized"] Bool
----@field private ["backupCustomChannels"] STvChannel[]
+---@field protected tvSetup TVSetup
+---@field protected defaultGlitchVideoPath redResourceReferenceScriptToken
+---@field protected broadcastGlitchVideoPath redResourceReferenceScriptToken
+---@field private globalTVInitialized Bool
+---@field private backupCustomChannels STvChannel[]
 TVControllerPS = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PassiveIsPlayerCompanionCondition: PassiveAutonomousCondition
----@field protected ["roleCbId"] Uint32
+---@field protected roleCbId Uint32
 PassiveIsPlayerCompanionCondition = {}
 
 ---@param fields? table

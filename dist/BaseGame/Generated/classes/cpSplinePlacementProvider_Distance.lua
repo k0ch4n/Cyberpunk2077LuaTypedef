@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpSplinePlacementProvider_Distance: cpSplinePlacementProvider
----@field public ["distance"] Float
+---@field public distance Float
 cpSplinePlacementProvider_Distance = {}
 
 ---@param fields? table

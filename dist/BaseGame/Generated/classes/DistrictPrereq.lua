@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DistrictPrereq: gameIScriptablePrereq
----@field private ["district"] gamedataDistrict_Record
+---@field private district gamedataDistrict_Record
 DistrictPrereq = {}
 
 ---@param fields? table

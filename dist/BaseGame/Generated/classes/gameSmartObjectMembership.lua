@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectMembership: ISerializable
----@field public ["members"] gameSmartObjectMembershipMemberShip[]
+---@field public members gameSmartObjectMembershipMemberShip[]
 gameSmartObjectMembership = {}
 
 ---@param fields? table

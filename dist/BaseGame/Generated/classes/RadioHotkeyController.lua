@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class RadioHotkeyController: GenericHotkeyController
----@field private ["vehicleBB"] gameIBlackboard
----@field private ["vehicleEnterListener"] redCallbackObject
----@field private ["factListener"] Uint32
----@field private ["animationProxy"] inkanimProxy
----@field private ["equalizerAnimProxy"] inkanimProxy
----@field private ["pocketRadioToken"] inkGameNotificationToken
----@field private ["isInDefaultState"] Bool
+---@field private vehicleBB gameIBlackboard
+---@field private vehicleEnterListener redCallbackObject
+---@field private factListener Uint32
+---@field private animationProxy inkanimProxy
+---@field private equalizerAnimProxy inkanimProxy
+---@field private pocketRadioToken inkGameNotificationToken
+---@field private isInDefaultState Bool
 RadioHotkeyController = {}
 
 ---@param fields? table

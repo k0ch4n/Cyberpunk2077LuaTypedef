@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class moveReplicatedMovePoliciesState
----@field public ["items"] moveReplicatedMovePolicies[]
----@field public ["lastAppliedActionsTime"] netTime
+---@field public items moveReplicatedMovePolicies[]
+---@field public lastAppliedActionsTime netTime
 moveReplicatedMovePoliciesState = {}
 
 ---@param fields? table

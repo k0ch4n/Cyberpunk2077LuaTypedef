@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquippedQuickHackData: IScriptable
----@field private ["programEntries"] ProgramEntry[]
+---@field private programEntries ProgramEntry[]
 EquippedQuickHackData = {}
 
 ---@param fields? table

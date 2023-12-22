@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questAudioCharacterManagerNodeDefinition: questDisableableNodeDefinition
----@field public ["type"] questIAudioCharacterManager_NodeType
+---@field public type questIAudioCharacterManager_NodeType
 questAudioCharacterManagerNodeDefinition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterRoleFinished_ConditionType: questICharacterConditionType
----@field public ["objectRef"] gameEntityReference
----@field public ["role"] AIFiniteRoleType
+---@field public objectRef gameEntityReference
+---@field public role AIFiniteRoleType
 questCharacterRoleFinished_ConditionType = {}
 
 ---@param fields? table

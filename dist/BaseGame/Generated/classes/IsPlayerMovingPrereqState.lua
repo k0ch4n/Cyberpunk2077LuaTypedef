@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class IsPlayerMovingPrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["isMovingVertically"] Bool
----@field public ["listenerVertical"] redCallbackObject
----@field public ["isMovingHorizontally"] Bool
----@field public ["listenerHorizontal"] redCallbackObject
+---@field public owner gameObject
+---@field public isMovingVertically Bool
+---@field public listenerVertical redCallbackObject
+---@field public isMovingHorizontally Bool
+---@field public listenerHorizontal redCallbackObject
 IsPlayerMovingPrereqState = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Fan: BasicDistractionDevice
----@field public ["animationType"] EAnimationType
----@field public ["rotateClockwise"] Bool
----@field public ["randomizeBladesSpeed"] Bool
----@field public ["maxRotationSpeed"] Float
----@field public ["timeToMaxRotation"] Float
----@field private ["animFeature"] AnimFeature_RotatingObject
----@field private ["updateComp"] UpdateComponent
+---@field public animationType EAnimationType
+---@field public rotateClockwise Bool
+---@field public randomizeBladesSpeed Bool
+---@field public maxRotationSpeed Float
+---@field public timeToMaxRotation Float
+---@field private animFeature AnimFeature_RotatingObject
+---@field private updateComp UpdateComponent
 Fan = {}
 
 ---@param fields? table

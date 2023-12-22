@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTextOffsetAnimationController: inkTextAnimationController
----@field public ["timeToSkip"] Float
+---@field public timeToSkip Float
 inkTextOffsetAnimationController = {}
 
 ---@param fields? table

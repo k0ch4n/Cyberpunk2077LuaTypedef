@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimuliEffectEvent: redEvent
----@field public ["stimuliEventName"] CName
----@field public ["targetPoint"] Vector4
+---@field public stimuliEventName CName
+---@field public targetPoint Vector4
 StimuliEffectEvent = {}
 
 ---@param fields? table

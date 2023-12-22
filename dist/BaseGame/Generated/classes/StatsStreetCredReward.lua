@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class StatsStreetCredReward: inkWidgetLogicController
----@field private ["prevRewardsList"] inkCompoundWidgetReference
----@field private ["currentRewardsList"] inkCompoundWidgetReference
----@field private ["nextRewardsList"] inkCompoundWidgetReference
----@field private ["scrollSlider"] inkCompoundWidgetReference
----@field private ["scrollButtonHint"] inkCompoundWidgetReference
----@field private ["rewardSize"] Int32
----@field private ["tooltipIndex"] Int32
----@field private ["tooltipsManager"] gameuiTooltipsManager
+---@field private prevRewardsList inkCompoundWidgetReference
+---@field private currentRewardsList inkCompoundWidgetReference
+---@field private nextRewardsList inkCompoundWidgetReference
+---@field private scrollSlider inkCompoundWidgetReference
+---@field private scrollButtonHint inkCompoundWidgetReference
+---@field private rewardSize Int32
+---@field private tooltipIndex Int32
+---@field private tooltipsManager gameuiTooltipsManager
 StatsStreetCredReward = {}
 
 ---@param fields? table

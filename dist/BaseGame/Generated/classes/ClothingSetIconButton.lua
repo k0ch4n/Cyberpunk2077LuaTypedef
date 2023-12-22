@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ClothingSetIconButton: BaseButtonView
----@field private ["setIcon"] inkImageWidgetReference
----@field private ["currentIconFrame"] inkWidgetReference
----@field private ["iconID"] TweakDBID
+---@field private setIcon inkImageWidgetReference
+---@field private currentIconFrame inkWidgetReference
+---@field private iconID TweakDBID
 ClothingSetIconButton = {}
 
 ---@param fields? table

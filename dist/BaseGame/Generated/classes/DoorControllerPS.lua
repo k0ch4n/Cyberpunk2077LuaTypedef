@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class DoorControllerPS: ScriptableDeviceComponentPS
----@field protected ["doorProperties"] DoorSetup
----@field protected ["doorSkillChecks"] EngDemoContainer
----@field private ["isOpened"] Bool
----@field private ["isLocked"] Bool
----@field private ["isSealed"] Bool
----@field protected ["alarmRaised"] Bool
----@field protected ["isBusy"] Bool
----@field protected ["isLiftDoor"] Bool
----@field protected ["isPlayerAuthorised"] Bool
----@field protected ["openingTokens"] entEntityID[]
+---@field protected doorProperties DoorSetup
+---@field protected doorSkillChecks EngDemoContainer
+---@field private isOpened Bool
+---@field private isLocked Bool
+---@field private isSealed Bool
+---@field protected alarmRaised Bool
+---@field protected isBusy Bool
+---@field protected isLiftDoor Bool
+---@field protected isPlayerAuthorised Bool
+---@field protected openingTokens entEntityID[]
 DoorControllerPS = {}
 
 ---@param fields? table

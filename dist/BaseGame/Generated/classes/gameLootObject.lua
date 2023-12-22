@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameLootObject: gameObject
----@field public ["lootID"] TweakDBID
----@field protected ["isInIconForcedVisibilityRange"] Bool
----@field protected ["activeQualityRangeInteraction"] CName
----@field protected ["lootQuality"] gamedataQuality
+---@field public lootID TweakDBID
+---@field protected isInIconForcedVisibilityRange Bool
+---@field protected activeQualityRangeInteraction CName
+---@field protected lootQuality gamedataQuality
 gameLootObject = {}
 
 ---@param fields? table

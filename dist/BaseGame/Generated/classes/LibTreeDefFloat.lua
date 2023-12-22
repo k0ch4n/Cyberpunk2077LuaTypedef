@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefFloat
----@field public ["variableId"] Uint16
----@field public ["treeVariable"] CName
----@field public ["v"] Float
+---@field public variableId Uint16
+---@field public treeVariable CName
+---@field public v Float
 LibTreeDefFloat = {}
 
 ---@param fields? table

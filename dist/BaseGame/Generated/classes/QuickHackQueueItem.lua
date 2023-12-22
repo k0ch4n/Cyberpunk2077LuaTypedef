@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class QuickHackQueueItem: inkWidgetLogicController
----@field private ["icon"] inkImageWidgetReference
----@field private ["data"] GameplayRoleMappinData
----@field private ["anim"] inkanimProxy
+---@field private icon inkImageWidgetReference
+---@field private data GameplayRoleMappinData
+---@field private anim inkanimProxy
 QuickHackQueueItem = {}
 
 ---@param fields? table

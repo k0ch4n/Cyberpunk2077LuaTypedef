@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NCPDJobDoneNotification: JournalNotification
----@field private ["NCPD_Reward"] inkWidgetReference
----@field private ["NCPD_XP_RewardText"] inkTextWidgetReference
----@field private ["NCPD_SC_RewardText"] inkTextWidgetReference
+---@field private NCPD_Reward inkWidgetReference
+---@field private NCPD_XP_RewardText inkTextWidgetReference
+---@field private NCPD_SC_RewardText inkTextWidgetReference
 NCPDJobDoneNotification = {}
 
 ---@param fields? table

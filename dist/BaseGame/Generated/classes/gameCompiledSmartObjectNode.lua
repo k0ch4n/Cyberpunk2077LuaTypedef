@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCompiledSmartObjectNode
----@field public ["compiledData"] gameCompiledSmartObjectData
----@field public ["worldTransform"] WorldTransform
+---@field public compiledData gameCompiledSmartObjectData
+---@field public worldTransform WorldTransform
 gameCompiledSmartObjectNode = {}
 
 ---@param fields? table

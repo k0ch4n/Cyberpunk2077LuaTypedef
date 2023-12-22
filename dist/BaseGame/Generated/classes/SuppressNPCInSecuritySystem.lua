@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SuppressNPCInSecuritySystem: redEvent
----@field public ["suppressIncomingEvents"] Bool
----@field public ["suppressOutgoingEvents"] Bool
+---@field public suppressIncomingEvents Bool
+---@field public suppressOutgoingEvents Bool
 SuppressNPCInSecuritySystem = {}
 
 ---@param fields? table

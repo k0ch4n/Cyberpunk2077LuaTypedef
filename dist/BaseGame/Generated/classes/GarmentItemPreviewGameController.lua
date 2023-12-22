@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GarmentItemPreviewGameController: gameuiBaseGarmentItemPreviewGameController
----@field private ["data"] InventoryItemPreviewData
----@field private ["isMouseDown"] Bool
----@field private ["c_GARMENT_ROTATION_SPEED"] Float
+---@field private data InventoryItemPreviewData
+---@field private isMouseDown Bool
+---@field private c_GARMENT_ROTATION_SPEED Float
 GarmentItemPreviewGameController = {}
 
 ---@param fields? table

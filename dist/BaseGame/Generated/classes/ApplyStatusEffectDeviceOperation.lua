@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyStatusEffectDeviceOperation: DeviceOperationBase
----@field public ["statusEffects"] SStatusEffectOperationData[]
+---@field public statusEffects SStatusEffectOperationData[]
 ApplyStatusEffectDeviceOperation = {}
 
 ---@param fields? table

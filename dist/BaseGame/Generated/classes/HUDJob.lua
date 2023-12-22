@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HUDJob
----@field public ["actor"] gameHudActor
----@field public ["instruction"] HUDInstruction
+---@field public actor gameHudActor
+---@field public instruction HUDInstruction
 HUDJob = {}
 
 ---@param fields? table

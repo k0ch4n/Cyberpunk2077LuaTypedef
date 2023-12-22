@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerRotation3D: IParticleInitializer
----@field public ["rotation"] IEvaluatorVector
+---@field public rotation IEvaluatorVector
 CParticleInitializerRotation3D = {}
 
 ---@param fields? table

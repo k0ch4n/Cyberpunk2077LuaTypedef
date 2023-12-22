@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InitializeUserScreenGameController: gameuiMenuGameController
----@field private ["backgroundVideo"] inkVideoWidgetReference
----@field private ["breachingContainer"] inkCompoundWidgetReference
----@field private ["progressBar"] inkCompoundWidgetReference
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["requestHandler"] inkISystemRequestsHandler
----@field private ["progressBarController"] LoadingScreenProgressBarController
+---@field private backgroundVideo inkVideoWidgetReference
+---@field private breachingContainer inkCompoundWidgetReference
+---@field private progressBar inkCompoundWidgetReference
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private requestHandler inkISystemRequestsHandler
+---@field private progressBarController LoadingScreenProgressBarController
 InitializeUserScreenGameController = {}
 
 ---@param fields? table

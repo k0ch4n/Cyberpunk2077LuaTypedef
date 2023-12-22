@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class IntercomInkGameController: DeviceInkGameControllerBase
----@field private ["actionsList"] inkWidgetReference
----@field private ["mainDisplayWidget"] inkVideoWidget
----@field private ["buttonRef"] CallActionWidgetController
----@field private ["state"] IntercomStatus
----@field private ["onUpdateStatusListener"] redCallbackObject
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
+---@field private actionsList inkWidgetReference
+---@field private mainDisplayWidget inkVideoWidget
+---@field private buttonRef CallActionWidgetController
+---@field private state IntercomStatus
+---@field private onUpdateStatusListener redCallbackObject
+---@field private onGlitchingStateChangedListener redCallbackObject
 IntercomInkGameController = {}
 
 ---@param fields? table

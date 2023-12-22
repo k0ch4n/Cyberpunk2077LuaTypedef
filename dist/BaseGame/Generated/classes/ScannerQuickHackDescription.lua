@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerQuickHackDescription: ScannerChunk
----@field private ["QuickHackDescription"] QuickhackData
+---@field private QuickHackDescription QuickhackData
 ScannerQuickHackDescription = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionSecurityAreaRequest: gameScriptableSystemRequest
----@field public ["playerIsIn"] Bool
----@field public ["areaID"] gamePersistentID
+---@field public playerIsIn Bool
+---@field public areaID gamePersistentID
 PreventionSecurityAreaRequest = {}
 
 ---@param fields? table

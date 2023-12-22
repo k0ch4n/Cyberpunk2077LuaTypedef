@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class inkWidget: IScriptable
----@field public ["logicController"] inkWidgetLogicController
----@field public ["secondaryControllers"] inkWidgetLogicController[]
----@field public ["userData"] inkUserData[]
----@field public ["name"] CName
----@field public ["state"] CName
----@field public ["visible"] Bool
----@field public ["affectsLayoutWhenHidden"] Bool
----@field public ["isInteractive"] Bool
----@field public ["canSupportFocus"] Bool
----@field public ["style"] inkStyleResourceWrapper
----@field public ["parentWidget"] inkWidget
----@field public ["propertyManager"] inkPropertyManager
----@field public ["fitToContent"] Bool
----@field public ["layout"] inkWidgetLayout
----@field public ["opacity"] Float
----@field public ["tintColor"] HDRColor
----@field public ["size"] Vector2
----@field public ["renderTransformPivot"] Vector2
----@field public ["renderTransform"] inkUITransform
----@field public ["effects"] inkIEffect[]
+---@field public logicController inkWidgetLogicController
+---@field public secondaryControllers inkWidgetLogicController[]
+---@field public userData inkUserData[]
+---@field public name CName
+---@field public state CName
+---@field public visible Bool
+---@field public affectsLayoutWhenHidden Bool
+---@field public isInteractive Bool
+---@field public canSupportFocus Bool
+---@field public style inkStyleResourceWrapper
+---@field public parentWidget inkWidget
+---@field public propertyManager inkPropertyManager
+---@field public fitToContent Bool
+---@field public layout inkWidgetLayout
+---@field public opacity Float
+---@field public tintColor HDRColor
+---@field public size Vector2
+---@field public renderTransformPivot Vector2
+---@field public renderTransform inkUITransform
+---@field public effects inkIEffect[]
 inkWidget = {}
 
 ---@param fields? table

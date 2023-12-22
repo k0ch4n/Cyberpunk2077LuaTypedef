@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_ActivityLogDef: gamebbScriptDefinition
----@field public ["activityLogHide"] gamebbScriptID_Bool
+---@field public activityLogHide gamebbScriptID_Bool
 UI_ActivityLogDef = {}
 
 ---@param fields? table

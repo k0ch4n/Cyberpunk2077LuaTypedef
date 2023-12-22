@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MonitorStatusEffectBehavior: StatusEffectTasks
----@field public ["statusEffectID"] TweakDBID
+---@field public statusEffectID TweakDBID
 MonitorStatusEffectBehavior = {}
 
 ---@param fields? table

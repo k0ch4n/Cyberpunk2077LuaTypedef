@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioVehiclePartSettingsMapItem
----@field public ["name"] CName
----@field public ["onDetachEvent"] CName
----@field public ["onDetachAcousticsIsolationFactorReduction"] Float
+---@field public name CName
+---@field public onDetachEvent CName
+---@field public onDetachAcousticsIsolationFactorReduction Float
 audioVehiclePartSettingsMapItem = {}
 
 ---@param fields? table

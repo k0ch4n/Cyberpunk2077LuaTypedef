@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questShowCustomQuestNotification_NodeType: questIUIManagerNodeType
----@field public ["customQuestNotificationData"] questCustomQuestNotificationData
+---@field public customQuestNotificationData questCustomQuestNotificationData
 questShowCustomQuestNotification_NodeType = {}
 
 ---@param fields? table

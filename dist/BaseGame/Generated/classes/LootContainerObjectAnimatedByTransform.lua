@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LootContainerObjectAnimatedByTransform: gameContainerObjectBase
----@field protected ["wasOpened"] Bool
+---@field protected wasOpened Bool
 LootContainerObjectAnimatedByTransform = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class entPhysicalSkinnedMeshComponent: entSkinnedMeshComponent
----@field public ["simulationType"] physicsSimulationType
----@field public ["useResourceSimulationType"] Bool
----@field public ["startInactive"] Bool
----@field public ["filterDataSource"] physicsFilterDataSource
----@field public ["filterData"] physicsFilterData
+---@field public simulationType physicsSimulationType
+---@field public useResourceSimulationType Bool
+---@field public startInactive Bool
+---@field public filterDataSource physicsFilterDataSource
+---@field public filterData physicsFilterData
 entPhysicalSkinnedMeshComponent = {}
 
 ---@param fields? table

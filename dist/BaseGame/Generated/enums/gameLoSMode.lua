@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameLoSMode: Enum
----@field ["Invalid"] gameLoSMode 0
----@field ["Keep"] gameLoSMode 1
----@field ["Avoid"] gameLoSMode 2
+---@field Invalid 0
+---@field Keep 1
+---@field Avoid 2
 gameLoSMode = {}

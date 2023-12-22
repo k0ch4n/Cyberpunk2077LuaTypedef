@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationGenderSelectionMenu: gameuiBaseCharacterCreationController
----@field public ["streetRat_male"] inkWidgetReference
----@field public ["streetRat_female"] inkWidgetReference
----@field private ["clickTarget"] inkWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["maleAnimProxy"] inkanimProxy
----@field private ["femaleAnimProxy"] inkanimProxy
+---@field public streetRat_male inkWidgetReference
+---@field public streetRat_female inkWidgetReference
+---@field private clickTarget inkWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private maleAnimProxy inkanimProxy
+---@field private femaleAnimProxy inkanimProxy
 CharacterCreationGenderSelectionMenu = {}
 
 ---@param fields? table

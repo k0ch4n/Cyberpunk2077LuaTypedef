@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animLookAtStyle: Enum
----@field ["VerySlow"] animLookAtStyle 0
----@field ["Slow"] animLookAtStyle 1
----@field ["Normal"] animLookAtStyle 2
----@field ["Fast"] animLookAtStyle 3
----@field ["VeryFast"] animLookAtStyle 4
+---@field VerySlow 0
+---@field Slow 1
+---@field Normal 2
+---@field Fast 3
+---@field VeryFast 4
 animLookAtStyle = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterSkinParameters: CMaterialParameter
----@field public ["skinProfile"] CSkinProfile
+---@field public skinProfile CSkinProfile
 CMaterialParameterSkinParameters = {}
 
 ---@param fields? table

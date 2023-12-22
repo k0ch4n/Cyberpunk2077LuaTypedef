@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipWeaponInfoModule: ItemTooltipModuleController
----@field private ["wrapper"] inkWidgetReference
----@field private ["arrow"] inkImageWidgetReference
----@field private ["dpsText"] inkTextWidgetReference
----@field private ["perHitText"] inkTextWidgetReference
----@field private ["attacksPerSecondText"] inkTextWidgetReference
----@field private ["nonLethal"] inkTextWidgetReference
----@field private ["scopeIndicator"] inkWidgetReference
----@field private ["silencerIndicator"] inkWidgetReference
----@field private ["ammoText"] inkTextWidgetReference
----@field private ["ammoWrapper"] inkWidgetReference
+---@field private wrapper inkWidgetReference
+---@field private arrow inkImageWidgetReference
+---@field private dpsText inkTextWidgetReference
+---@field private perHitText inkTextWidgetReference
+---@field private attacksPerSecondText inkTextWidgetReference
+---@field private nonLethal inkTextWidgetReference
+---@field private scopeIndicator inkWidgetReference
+---@field private silencerIndicator inkWidgetReference
+---@field private ammoText inkTextWidgetReference
+---@field private ammoWrapper inkWidgetReference
 ItemTooltipWeaponInfoModule = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BaseItemAction: BaseScriptableAction
----@field private ["itemData"] gameItemData
----@field private ["removeAfterUse"] Bool
----@field private ["quantity"] Int32
+---@field private itemData gameItemData
+---@field private removeAfterUse Bool
+---@field private quantity Int32
 BaseItemAction = {}
 
 ---@return gameItemData

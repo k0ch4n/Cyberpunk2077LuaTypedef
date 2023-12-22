@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShardCollectedInventoryCallback: gameInventoryScriptCallback
----@field public ["notificationQueue"] JournalNotificationQueue
----@field public ["journalManager"] gameJournalManager
+---@field public notificationQueue JournalNotificationQueue
+---@field public journalManager gameJournalManager
 ShardCollectedInventoryCallback = {}
 
 ---@param fields? table

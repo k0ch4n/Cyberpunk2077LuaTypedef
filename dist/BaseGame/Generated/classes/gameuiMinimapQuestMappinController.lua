@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapQuestMappinController: gameuiBaseMinimapMappinController
----@field private ["questMappin"] gamemappinsQuestMappin
+---@field private questMappin gamemappinsQuestMappin
 gameuiMinimapQuestMappinController = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class RipperdocSelectorController: inkWidgetLogicController
----@field private ["label"] inkTextWidgetReference
----@field private ["leftArrowAnchor"] inkWidgetReference
----@field private ["rightArrowAnchor"] inkWidgetReference
----@field private ["indicatorAnchors"] inkWidgetReference[]
----@field private ["leftArrow"] inkButtonController
----@field private ["rightArrow"] inkButtonController
----@field private ["indicatorIndex"] Int32
----@field private ["indicatorShowAnim"] inkanimProxy
----@field private ["indicatorHideAnim"] inkanimProxy
----@field private ["isInTutorial"] Bool
----@field private ["names"] String[]
+---@field private label inkTextWidgetReference
+---@field private leftArrowAnchor inkWidgetReference
+---@field private rightArrowAnchor inkWidgetReference
+---@field private indicatorAnchors inkWidgetReference[]
+---@field private leftArrow inkButtonController
+---@field private rightArrow inkButtonController
+---@field private indicatorIndex Int32
+---@field private indicatorShowAnim inkanimProxy
+---@field private indicatorHideAnim inkanimProxy
+---@field private isInTutorial Bool
+---@field private names String[]
 RipperdocSelectorController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceOperationsContainer: IScriptable
----@field private ["operations"] DeviceOperationBase[]
----@field private ["triggers"] DeviceOperationsTrigger[]
+---@field private operations DeviceOperationBase[]
+---@field private triggers DeviceOperationsTrigger[]
 DeviceOperationsContainer = {}
 
 ---@param fields? table

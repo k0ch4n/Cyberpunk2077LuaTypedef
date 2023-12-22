@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerGiveChoiceTokenEvent: redEvent
----@field public ["compatibleDeviceName"] CName
----@field public ["timeout"] Uint32
----@field private ["tokenAlreadyGiven"] Bool
+---@field public compatibleDeviceName CName
+---@field public timeout Uint32
+---@field private tokenAlreadyGiven Bool
 questMultiplayerGiveChoiceTokenEvent = {}
 
 ---@param fields? table

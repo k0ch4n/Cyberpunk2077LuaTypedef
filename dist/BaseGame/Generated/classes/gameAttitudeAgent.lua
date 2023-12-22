@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAttitudeAgent: gameComponent
----@field public ["baseAttitudeGroup"] CName
+---@field public baseAttitudeGroup CName
 gameAttitudeAgent = {}
 
 ---@param fields? table

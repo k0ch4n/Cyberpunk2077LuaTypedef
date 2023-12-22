@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class scneventsAttachPropToPerformerFallbackData
----@field public ["owner"] scnPerformerId
----@field public ["fallbackCachedBones"] scneventsAttachPropToPerformerCachedFallbackBone
----@field public ["fallbackAnimset"] animAnimSet
----@field public ["fallbackAnimationName"] CName
----@field public ["fallbackAnimTime"] Float
+---@field public owner scnPerformerId
+---@field public fallbackCachedBones scneventsAttachPropToPerformerCachedFallbackBone
+---@field public fallbackAnimset animAnimSet
+---@field public fallbackAnimationName CName
+---@field public fallbackAnimTime Float
 scneventsAttachPropToPerformerFallbackData = {}
 
 ---@param fields? table

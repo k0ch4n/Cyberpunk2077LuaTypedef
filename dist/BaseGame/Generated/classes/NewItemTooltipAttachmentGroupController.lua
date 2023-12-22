@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipAttachmentGroupController: inkWidgetLogicController
----@field private ["indicatorContainer"] inkWidgetReference
----@field private ["indicatorWidget"] inkWidgetReference
----@field private ["rarityContainer"] inkWidgetReference
----@field private ["rarityWidget"] inkImageWidgetReference
----@field private ["entriesContainer"] inkCompoundWidgetReference
----@field private ["entriesControllers"] NewItemTooltipAttachmentEntryController[]
----@field private ["entriesData"] NewItemTooltipAttachmentEntryData[]
----@field private ["requestedEntries"] Int32
----@field private ["isEmpty"] Bool
----@field private ["colorState"] CName
----@field private ["isCrafting"] Bool
+---@field private indicatorContainer inkWidgetReference
+---@field private indicatorWidget inkWidgetReference
+---@field private rarityContainer inkWidgetReference
+---@field private rarityWidget inkImageWidgetReference
+---@field private entriesContainer inkCompoundWidgetReference
+---@field private entriesControllers NewItemTooltipAttachmentEntryController[]
+---@field private entriesData NewItemTooltipAttachmentEntryData[]
+---@field private requestedEntries Int32
+---@field private isEmpty Bool
+---@field private colorState CName
+---@field private isCrafting Bool
 NewItemTooltipAttachmentGroupController = {}
 
 ---@param fields? table

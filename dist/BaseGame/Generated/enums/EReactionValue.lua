@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EReactionValue: Enum
----@field ["Fear"] EReactionValue 0
----@field ["Aggressive"] EReactionValue 1
+---@field Fear 0
+---@field Aggressive 1
 EReactionValue = {}

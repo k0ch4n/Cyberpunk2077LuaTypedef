@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleHijackEvent: redEvent
----@field public ["driverAllowedToGetAggressive"] Bool
+---@field public driverAllowedToGetAggressive Bool
 VehicleHijackEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PresetAction: ActionBool
----@field protected ["preset"] SmartHousePreset
+---@field protected preset SmartHousePreset
 PresetAction = {}
 
 ---@param fields? table

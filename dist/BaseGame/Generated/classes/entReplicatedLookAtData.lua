@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReplicatedLookAtData
----@field public ["creationNetTime"] netTime
+---@field public creationNetTime netTime
 entReplicatedLookAtData = {}
 
 ---@param fields? table

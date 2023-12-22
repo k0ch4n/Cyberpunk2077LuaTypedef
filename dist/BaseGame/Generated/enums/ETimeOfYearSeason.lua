@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ETimeOfYearSeason: Enum
----@field ["ETOYS_Spring"] ETimeOfYearSeason 0
----@field ["ETOYS_Summer"] ETimeOfYearSeason 1
----@field ["ETOYS_Autumn"] ETimeOfYearSeason 2
----@field ["ETOYS_Winter"] ETimeOfYearSeason 3
+---@field ETOYS_Spring 0
+---@field ETOYS_Summer 1
+---@field ETOYS_Autumn 2
+---@field ETOYS_Winter 3
 ETimeOfYearSeason = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetImmovable_NodeType: questIVehicleManagerNodeType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["enable"] Bool
+---@field public vehicleRef gameEntityReference
+---@field public enable Bool
 questSetImmovable_NodeType = {}
 
 ---@param fields? table

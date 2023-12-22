@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePreventionSpawnSystemSavedState: ISerializable
----@field public ["areaIds"] Uint64[]
+---@field public areaIds Uint64[]
 gamePreventionSpawnSystemSavedState = {}
 
 ---@param fields? table

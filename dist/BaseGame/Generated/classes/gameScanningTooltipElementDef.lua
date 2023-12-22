@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameScanningTooltipElementDef
----@field public ["recordID"] TweakDBID
----@field public ["timePct"] Float
+---@field public recordID TweakDBID
+---@field public timePct Float
 gameScanningTooltipElementDef = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SingleplayerMenuData: inkUserData
----@field public ["mainMenuShownFirstTime"] Bool
----@field public ["showExpansionHint"] Bool
+---@field public mainMenuShownFirstTime Bool
+---@field public showExpansionHint Bool
 SingleplayerMenuData = {}
 
 ---@param fields? table

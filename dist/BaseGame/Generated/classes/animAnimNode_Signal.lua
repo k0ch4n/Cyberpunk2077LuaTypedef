@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_Signal: animAnimNode_FloatValue
----@field public ["blendIn"] Float
----@field public ["blendOut"] Float
----@field public ["startEvent"] CName
----@field public ["endEvent"] CName
----@field public ["defaultState"] Bool
----@field public ["cooldown"] Float
+---@field public blendIn Float
+---@field public blendOut Float
+---@field public startEvent CName
+---@field public endEvent CName
+---@field public defaultState Bool
+---@field public cooldown Float
 animAnimNode_Signal = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTogglePrefabVariant_NodeTypeParams
----@field public ["prefabNodeRef"] NodeRef
----@field public ["variantStates"] questVariantState[]
+---@field public prefabNodeRef NodeRef
+---@field public variantStates questVariantState[]
 questTogglePrefabVariant_NodeTypeParams = {}
 
 ---@param fields? table

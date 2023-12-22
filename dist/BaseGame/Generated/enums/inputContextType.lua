@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inputContextType: Enum
----@field ["Action"] inputContextType 0
----@field ["RPG"] inputContextType 1
+---@field Action 0
+---@field RPG 1
 inputContextType = {}

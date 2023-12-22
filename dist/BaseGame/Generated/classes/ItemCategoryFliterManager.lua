@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ItemCategoryFliterManager: IScriptable
----@field private ["filtersToCheck"] ItemFilterCategory[]
----@field private ["filters"] ItemFilterCategory[]
----@field private ["sharedFiltersToCheck"] ItemFilterCategory[]
----@field private ["isOrderDirty"] Bool
+---@field private filtersToCheck ItemFilterCategory[]
+---@field private filters ItemFilterCategory[]
+---@field private sharedFiltersToCheck ItemFilterCategory[]
+---@field private isOrderDirty Bool
 ItemCategoryFliterManager = {}
 
 ---@param fields? table

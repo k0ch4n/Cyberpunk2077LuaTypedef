@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorAvoidPlayerTaskDefinition: AIbehaviorTaskDefinition
----@field public ["threatRadius"] AIArgumentMapping
+---@field public threatRadius AIArgumentMapping
 AIbehaviorAvoidPlayerTaskDefinition = {}
 
 ---@param fields? table

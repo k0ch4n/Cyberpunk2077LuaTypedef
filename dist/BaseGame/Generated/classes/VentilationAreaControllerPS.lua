@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VentilationAreaControllerPS: MasterControllerPS
----@field private ["ventilationAreaSetup"] VentilationAreaSetup
----@field private ["isActive"] Bool
+---@field private ventilationAreaSetup VentilationAreaSetup
+---@field private isActive Bool
 VentilationAreaControllerPS = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PaymentConditionTypeBase: BluelineConditionTypeBase
----@field public ["inverted"] Bool
----@field public ["payWhenSucceded"] Bool
+---@field public inverted Bool
+---@field public payWhenSucceded Bool
 PaymentConditionTypeBase = {}
 
 ---@param fields? table

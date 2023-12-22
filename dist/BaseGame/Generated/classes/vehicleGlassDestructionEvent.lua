@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleGlassDestructionEvent: redEvent
----@field public ["glassName"] CName
+---@field public glassName CName
 vehicleGlassDestructionEvent = {}
 
 ---@param fields? table

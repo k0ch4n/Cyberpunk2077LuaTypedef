@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WardrobeOutfitSlotHoverOverEvent: redEvent
----@field public ["evt"] inkPointerEvent
----@field public ["controller"] WardrobeOutfitSlotController
+---@field public evt inkPointerEvent
+---@field public controller WardrobeOutfitSlotController
 WardrobeOutfitSlotHoverOverEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RepeatDirectEnvironmentalHazardStimEvent: redEvent
----@field public ["target"] gameObject
+---@field public target gameObject
 RepeatDirectEnvironmentalHazardStimEvent = {}
 
 ---@param fields? table

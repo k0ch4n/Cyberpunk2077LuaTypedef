@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textTextDirection: Enum
----@field ["LeftToRight"] textTextDirection 0
----@field ["RightToLeft"] textTextDirection 1
----@field ["Mixed"] textTextDirection 2
+---@field LeftToRight 0
+---@field RightToLeft 1
+---@field Mixed 2
 textTextDirection = {}

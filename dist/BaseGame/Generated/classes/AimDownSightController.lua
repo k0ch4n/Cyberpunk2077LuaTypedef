@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AimDownSightController: BasicAnimationController
----@field private ["isAiming"] Bool
+---@field private isAiming Bool
 AimDownSightController = {}
 
 ---@param fields? table

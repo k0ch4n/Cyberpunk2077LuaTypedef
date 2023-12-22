@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargebarStatsListener: gameScriptStatsListener
----@field private ["controller"] ChargebarController
+---@field private controller ChargebarController
 ChargebarStatsListener = {}
 
 ---@param fields? table

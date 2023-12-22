@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class StatusScreenGameController: BaseBunkerComputerGameController
----@field protected ["alphaSys"] inkWidgetReference
----@field protected ["bravoSys"] inkWidgetReference
----@field protected ["sierraSys"] inkWidgetReference
----@field protected ["victorSys"] inkWidgetReference
----@field protected ["sierraBackupSys"] inkWidgetReference
----@field protected ["victorBackupSys"] inkWidgetReference
+---@field protected alphaSys inkWidgetReference
+---@field protected bravoSys inkWidgetReference
+---@field protected sierraSys inkWidgetReference
+---@field protected victorSys inkWidgetReference
+---@field protected sierraBackupSys inkWidgetReference
+---@field protected victorBackupSys inkWidgetReference
 StatusScreenGameController = {}
 
 ---@param fields? table

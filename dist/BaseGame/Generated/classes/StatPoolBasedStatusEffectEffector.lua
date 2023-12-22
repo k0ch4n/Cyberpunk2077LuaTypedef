@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class StatPoolBasedStatusEffectEffector: gameEffector
----@field private ["statPool"] gamedataStatPoolType
----@field private ["statusEffectID"] TweakDBID
----@field private ["statPoolStep"] Float
----@field private ["stepUsesPercent"] Bool
----@field private ["startingThreshold"] Float
----@field private ["thresholdUsesPercent"] Bool
----@field private ["minStacks"] Int32
----@field private ["maxStacks"] Int32
----@field private ["inverted"] Bool
----@field private ["roundUpwards"] Bool
----@field private ["dontRemoveStacks"] Bool
----@field private ["targetOfStatPoolCheck"] String
----@field private ["listener"] StatPoolBasedStatusEffectEffectorListener
----@field private ["currentStacks"] Int32
----@field private ["realMaxStacks"] Int32
----@field private ["statPoolRecordID"] TweakDBID
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["ownerID"] entEntityID
----@field private ["checkStatPoolOnWeapon"] Bool
----@field private ["ownerWeaponID"] entEntityID
+---@field private statPool gamedataStatPoolType
+---@field private statusEffectID TweakDBID
+---@field private statPoolStep Float
+---@field private stepUsesPercent Bool
+---@field private startingThreshold Float
+---@field private thresholdUsesPercent Bool
+---@field private minStacks Int32
+---@field private maxStacks Int32
+---@field private inverted Bool
+---@field private roundUpwards Bool
+---@field private dontRemoveStacks Bool
+---@field private targetOfStatPoolCheck String
+---@field private listener StatPoolBasedStatusEffectEffectorListener
+---@field private currentStacks Int32
+---@field private realMaxStacks Int32
+---@field private statPoolRecordID TweakDBID
+---@field private gameInstance ScriptGameInstance
+---@field private ownerID entEntityID
+---@field private checkStatPoolOnWeapon Bool
+---@field private ownerWeaponID entEntityID
 StatPoolBasedStatusEffectEffector = {}
 
 ---@param fields? table

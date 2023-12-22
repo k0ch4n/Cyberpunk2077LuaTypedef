@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameIObjectScriptBase: IScriptable
----@field public ["gameObject"] gameObject
+---@field public gameObject gameObject
 gameIObjectScriptBase = {}
 
 ---@return nil

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckArgumentInt: CheckArguments
----@field public ["customVar"] Int32
----@field public ["comparator"] ECompareOp
+---@field public customVar Int32
+---@field public comparator ECompareOp
 CheckArgumentInt = {}
 
 ---@param fields? table

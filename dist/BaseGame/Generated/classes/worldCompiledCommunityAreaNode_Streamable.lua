@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldCompiledCommunityAreaNode_Streamable: worldCompiledCommunityAreaNode
----@field public ["streamingDistance"] Float
+---@field public streamingDistance Float
 worldCompiledCommunityAreaNode_Streamable = {}
 
 ---@param fields? table

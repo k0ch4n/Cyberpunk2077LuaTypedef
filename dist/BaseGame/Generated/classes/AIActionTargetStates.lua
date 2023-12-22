@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIActionTargetStates
----@field public ["npcStates"] AIActionNPCStates
----@field public ["playerStates"] AIActionPlayerStates
+---@field public npcStates AIActionNPCStates
+---@field public playerStates AIActionPlayerStates
 AIActionTargetStates = {}
 
 ---@param fields? table

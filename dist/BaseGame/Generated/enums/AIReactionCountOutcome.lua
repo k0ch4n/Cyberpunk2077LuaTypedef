@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIReactionCountOutcome: Enum
----@field ["Failed"] AIReactionCountOutcome 0
----@field ["Succeded"] AIReactionCountOutcome 1
----@field ["NotFound"] AIReactionCountOutcome 2
+---@field Failed 0
+---@field Succeded 1
+---@field NotFound 2
 AIReactionCountOutcome = {}

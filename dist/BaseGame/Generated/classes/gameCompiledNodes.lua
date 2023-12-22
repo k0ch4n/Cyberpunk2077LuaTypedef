@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCompiledNodes: ISerializable
----@field public ["compiledSmartObjects"] gameCompiledSmartObjectNode[]
+---@field public compiledSmartObjects gameCompiledSmartObjectNode[]
 gameCompiledNodes = {}
 
 ---@param fields? table

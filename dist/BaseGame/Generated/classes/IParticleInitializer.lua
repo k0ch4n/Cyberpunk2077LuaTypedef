@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class IParticleInitializer: IParticleModule
----@field public ["seed"] Uint32
+---@field public seed Uint32
 IParticleInitializer = {}

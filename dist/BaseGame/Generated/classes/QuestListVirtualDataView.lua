@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class QuestListVirtualDataView: inkScriptableDataViewWrapper
----@field private ["filterType"] QuestListItemType
----@field private ["compareBuilder"] CompareBuilder
----@field private ["currentQuestSortType"] QuestListSortType
+---@field private filterType QuestListItemType
+---@field private compareBuilder CompareBuilder
+---@field private currentQuestSortType QuestListSortType
 QuestListVirtualDataView = {}
 
 ---@param fields? table

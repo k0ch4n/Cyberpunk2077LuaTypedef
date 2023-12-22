@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleRadioLogicController: inkWidgetLogicController
----@field public ["isSoundStopped"] Bool
+---@field public isSoundStopped Bool
 VehicleRadioLogicController = {}
 
 ---@param fields? table

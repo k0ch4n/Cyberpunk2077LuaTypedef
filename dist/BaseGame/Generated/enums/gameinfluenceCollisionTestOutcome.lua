@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceCollisionTestOutcome: Enum
----@field ["NoCell"] gameinfluenceCollisionTestOutcome 0
----@field ["Empty"] gameinfluenceCollisionTestOutcome 1
----@field ["Full"] gameinfluenceCollisionTestOutcome 2
+---@field NoCell 0
+---@field Empty 1
+---@field Full 2
 gameinfluenceCollisionTestOutcome = {}

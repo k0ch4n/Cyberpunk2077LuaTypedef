@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadePlayerController: inkWidgetLogicController
----@field public ["colliderList"] gameuiarcadeArcadeColliderData[]
+---@field public colliderList gameuiarcadeArcadeColliderData[]
 gameuiarcadeArcadePlayerController = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questBriefingSequencePlayerFunction: Enum
----@field ["StartSequence"] questBriefingSequencePlayerFunction 0
----@field ["ChangeSequence"] questBriefingSequencePlayerFunction 1
----@field ["FinishSequence"] questBriefingSequencePlayerFunction 2
+---@field StartSequence 0
+---@field ChangeSequence 1
+---@field FinishSequence 2
 questBriefingSequencePlayerFunction = {}

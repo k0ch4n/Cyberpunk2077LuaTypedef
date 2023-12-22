@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class MonoDisc: BaseProjectile
----@field private ["throwtype"] ThrowType
----@field private ["targetAcquired"] Bool
----@field private ["player"] gameObject
----@field private ["disc"] gameObject
----@field private ["target"] gameObject
----@field private ["blackboard"] gameIBlackboard
----@field private ["discSpawnPoint"] Vector4
----@field private ["discPosition"] Vector4
----@field private ["collisionCount"] Int32
----@field private ["airTime"] Float
----@field private ["destroyTimer"] Float
----@field private ["returningToPlayer"] Bool
----@field private ["catchingPlayer"] Bool
----@field private ["discCaught"] Bool
----@field private ["discLodgedToSurface"] Bool
----@field private ["OnProjectileCaughtCallback"] redCallbackObject
----@field private ["wasNPCHit"] Bool
----@field private ["animationController"] entAnimationControllerComponent
+---@field private throwtype ThrowType
+---@field private targetAcquired Bool
+---@field private player gameObject
+---@field private disc gameObject
+---@field private target gameObject
+---@field private blackboard gameIBlackboard
+---@field private discSpawnPoint Vector4
+---@field private discPosition Vector4
+---@field private collisionCount Int32
+---@field private airTime Float
+---@field private destroyTimer Float
+---@field private returningToPlayer Bool
+---@field private catchingPlayer Bool
+---@field private discCaught Bool
+---@field private discLodgedToSurface Bool
+---@field private OnProjectileCaughtCallback redCallbackObject
+---@field private wasNPCHit Bool
+---@field private animationController entAnimationControllerComponent
 MonoDisc = {}
 
 ---@param fields? table

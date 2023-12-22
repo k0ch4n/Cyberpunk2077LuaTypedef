@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RevealPlayerSettings
----@field public ["revealPlayer"] ERevealPlayerType
----@field public ["revealPlayerOutsideSecurityPerimeter"] Bool
+---@field public revealPlayer ERevealPlayerType
+---@field public revealPlayerOutsideSecurityPerimeter Bool
 RevealPlayerSettings = {}
 
 ---@param fields? table

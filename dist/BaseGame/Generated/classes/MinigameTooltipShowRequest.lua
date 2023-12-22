@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MinigameTooltipShowRequest: redEvent
----@field public ["data"] MessageTooltipData
+---@field public data MessageTooltipData
 MinigameTooltipShowRequest = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimProfileData_RootItem: ISerializable
----@field public ["timeMS"] Float
----@field public ["children"] animAnimProfilerData_TreeItem[]
+---@field public timeMS Float
+---@field public children animAnimProfilerData_TreeItem[]
 animAnimProfileData_RootItem = {}
 
 ---@param fields? table

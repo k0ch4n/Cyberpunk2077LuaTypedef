@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_MathExpressionFloat: animAnimNode_FloatValue
----@field public ["expressionData"] animMathExpressionNodeData
+---@field public expressionData animMathExpressionNodeData
 animAnimNode_MathExpressionFloat = {}
 
 ---@param fields? table

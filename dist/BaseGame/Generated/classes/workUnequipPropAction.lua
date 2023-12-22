@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workUnequipPropAction: workIWorkspotItemAction
----@field public ["itemId"] CName
+---@field public itemId CName
 workUnequipPropAction = {}
 
 ---@param fields? table

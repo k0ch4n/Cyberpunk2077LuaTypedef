@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_GenderNeutralEntry: Codeware_Localization_LocalizationEntry
----@field public ["value"] String
+---@field public value String
 Codeware_Localization_GenderNeutralEntry = {}
 
 ---@param fields? table

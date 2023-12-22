@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ELinkType: Enum
----@field ["NETWORK"] ELinkType 0
----@field ["GRID"] ELinkType 1
----@field ["FREE"] ELinkType 2
----@field ["INVALID"] ELinkType 3
+---@field NETWORK 0
+---@field GRID 1
+---@field FREE 2
+---@field INVALID 3
 ELinkType = {}

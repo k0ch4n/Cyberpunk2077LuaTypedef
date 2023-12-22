@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDynamicEventNode: worldAreaShapeNode
----@field public ["mappinRef"] NodeRef
----@field public ["condition"] questIBaseCondition
+---@field public mappinRef NodeRef
+---@field public condition questIBaseCondition
 gameDynamicEventNode = {}
 
 ---@param fields? table

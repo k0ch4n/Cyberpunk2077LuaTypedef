@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questRotateToNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["entityReference"] gameEntityReference
----@field public ["params"] questRotateToParams
+---@field public entityReference gameEntityReference
+---@field public params questRotateToParams
 questRotateToNodeDefinition = {}
 
 ---@param fields? table

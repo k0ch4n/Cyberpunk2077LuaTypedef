@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PlayerPeekScale: animAnimFeature
----@field public ["peekScale"] Float
+---@field public peekScale Float
 AnimFeature_PlayerPeekScale = {}
 
 ---@param fields? table

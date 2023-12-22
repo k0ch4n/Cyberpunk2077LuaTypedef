@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficStaticCollisionSphere
----@field public ["worldPos"] Vector3
+---@field public worldPos Vector3
 worldTrafficStaticCollisionSphere = {}
 
 ---@param fields? table

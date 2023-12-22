@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ncartMetroObject: vehicleAVBaseObject
----@field private ["pitchAdjustmentDelayID"] gameDelayID
----@field private ["Z"] Float
----@field private ["checkForLeveling"] Bool
----@field private ["pitchingValue"] Int32
----@field public ["pitchAngleCheckInterval"] Float
----@field public ["pitchAngleReturnInterval"] Float
----@field public ["trainReverseDirectionFactName"] CName
----@field public ["pitchAngleAdjustmentTreshold"] Float
----@field public ["pitchAngleLevelOutTreshold"] Float
+---@field private pitchAdjustmentDelayID gameDelayID
+---@field private Z Float
+---@field private checkForLeveling Bool
+---@field private pitchingValue Int32
+---@field public pitchAngleCheckInterval Float
+---@field public pitchAngleReturnInterval Float
+---@field public trainReverseDirectionFactName CName
+---@field public pitchAngleAdjustmentTreshold Float
+---@field public pitchAngleLevelOutTreshold Float
 ncartMetroObject = {}
 
 ---@param fields? table

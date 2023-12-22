@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_WorkspotItem: animAnimEvent
----@field public ["actions"] workIWorkspotItemAction[]
+---@field public actions workIWorkspotItemAction[]
 animAnimEvent_WorkspotItem = {}
 
 ---@param fields? table

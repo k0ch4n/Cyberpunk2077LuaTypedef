@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnscreenplayChoiceOption
----@field public ["itemId"] scnscreenplayItemId
----@field public ["usage"] scnscreenplayOptionUsage
----@field public ["locstringId"] scnlocLocstringId
+---@field public itemId scnscreenplayItemId
+---@field public usage scnscreenplayOptionUsage
+---@field public locstringId scnlocLocstringId
 scnscreenplayChoiceOption = {}
 
 ---@param fields? table

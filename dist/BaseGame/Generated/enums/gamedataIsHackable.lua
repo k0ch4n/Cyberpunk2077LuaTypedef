@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataIsHackable: Enum
----@field ["Always"] gamedataIsHackable 0
----@field ["Dynamic"] gamedataIsHackable 1
----@field ["Never"] gamedataIsHackable 2
----@field ["Count"] gamedataIsHackable 3
----@field ["Invalid"] gamedataIsHackable 4
+---@field Always 0
+---@field Dynamic 1
+---@field Never 2
+---@field Count 3
+---@field Invalid 4
 gamedataIsHackable = {}

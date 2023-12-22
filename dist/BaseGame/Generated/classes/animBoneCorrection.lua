@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animBoneCorrection
----@field public ["boneName"] CName
----@field public ["additiveCorrection"] Quaternion
+---@field public boneName CName
+---@field public additiveCorrection Quaternion
 animBoneCorrection = {}
 
 ---@param fields? table

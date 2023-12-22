@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class HudPhoneGameController: gameuiSongbirdAudioCallGameController
----@field private ["isAudioCall"] Bool
----@field private ["AvatarControllerRef"] inkWidgetReference
----@field private ["AvatarController"] HudPhoneAvatarController
----@field private ["RootWidget"] inkWidget
----@field private ["Holder"] inkWidgetReference
----@field private ["Owner"] gameObject
----@field private ["CurrentFunction"] EHudPhoneFunction
----@field private ["CurrentCallInformation"] questPhoneCallInformation
----@field private ["CurrentPhoneCallContact"] gameJournalContact
----@field private ["DelaySystem"] gameDelaySystem
----@field private ["PhoneSystem"] PhoneSystem
----@field private ["JournalMgr"] gameJournalManager
----@field private ["gameplayRestrictions"] CName[]
----@field private ["Blackboard"] gameIBlackboard
----@field private ["BlackboardDef"] UI_ComDeviceDef
----@field private ["CallInformationBBID"] redCallbackObject
----@field private ["StatusNameBBID"] redCallbackObject
----@field private ["MinimizedListener"] redCallbackObject
----@field private ["DelayedCallbackId"] gameDelayID
----@field private ["DelayedTimeoutCallbackId"] gameDelayID
----@field private ["TimeoutPeroid"] Float
----@field private ["buttonPressed"] Bool
+---@field private isAudioCall Bool
+---@field private AvatarControllerRef inkWidgetReference
+---@field private AvatarController HudPhoneAvatarController
+---@field private RootWidget inkWidget
+---@field private Holder inkWidgetReference
+---@field private Owner gameObject
+---@field private CurrentFunction EHudPhoneFunction
+---@field private CurrentCallInformation questPhoneCallInformation
+---@field private CurrentPhoneCallContact gameJournalContact
+---@field private DelaySystem gameDelaySystem
+---@field private PhoneSystem PhoneSystem
+---@field private JournalMgr gameJournalManager
+---@field private gameplayRestrictions CName[]
+---@field private Blackboard gameIBlackboard
+---@field private BlackboardDef UI_ComDeviceDef
+---@field private CallInformationBBID redCallbackObject
+---@field private StatusNameBBID redCallbackObject
+---@field private MinimizedListener redCallbackObject
+---@field private DelayedCallbackId gameDelayID
+---@field private DelayedTimeoutCallbackId gameDelayID
+---@field private TimeoutPeroid Float
+---@field private buttonPressed Bool
 HudPhoneGameController = {}
 
 ---@param fields? table

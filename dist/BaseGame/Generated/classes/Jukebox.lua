@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Jukebox: InteractiveDevice
----@field protected ["uiComponentBig"] IWorldWidgetComponent
+---@field protected uiComponentBig IWorldWidgetComponent
 Jukebox = {}
 
 ---@param fields? table

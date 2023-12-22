@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_Movement_CustomCurve: gameTransformAnimation_Movement
----@field public ["curve"] curveData
+---@field public curve curveData
 gameTransformAnimation_Movement_CustomCurve = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorWorkspotList: IScriptable
----@field public ["spots"] NodeRef[]
+---@field public spots NodeRef[]
 AIbehaviorWorkspotList = {}
 
 ---@param fields? table

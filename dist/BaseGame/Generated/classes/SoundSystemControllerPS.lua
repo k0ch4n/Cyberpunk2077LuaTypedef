@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SoundSystemControllerPS: MasterControllerPS
----@field protected ["defaultAction"] Int32
----@field protected ["soundSystemSettings"] SoundSystemSettings[]
----@field protected ["currentEvent"] ChangeMusicAction
----@field protected ["cachedEvent"] ChangeMusicAction
+---@field protected defaultAction Int32
+---@field protected soundSystemSettings SoundSystemSettings[]
+---@field protected currentEvent ChangeMusicAction
+---@field protected cachedEvent ChangeMusicAction
 SoundSystemControllerPS = {}
 
 ---@param fields? table

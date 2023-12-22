@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestIllegalActionAreaNotification: redEvent
----@field public ["revealPlayerSettings"] RevealPlayerSettings
+---@field public revealPlayerSettings RevealPlayerSettings
 QuestIllegalActionAreaNotification = {}
 
 ---@param fields? table

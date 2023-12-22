@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class LoadGameMenuGameController: gameuiSaveHandlingController
----@field private ["list"] inkCompoundWidgetReference
----@field private ["noSavedGamesLabel"] inkWidgetReference
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["transitToLoadingAnimName"] CName
----@field private ["transitToLoadingSlotAnimName"] CName
----@field private ["animDelayBetweenSlots"] Float
----@field private ["animDelayForMainSlot"] Float
----@field private ["enableLoadingTransition"] Bool
----@field private ["gogButtonWidgetRef"] inkWidgetReference
----@field private ["gogContainer"] inkWidgetReference
----@field private ["laodingSpinner"] inkWidgetReference
----@field private ["scrollbar"] inkWidgetReference
----@field private ["eventDispatcher"] inkMenuEventDispatcher
----@field private ["loadComplete"] Bool
----@field private ["saveInfo"] inkSaveMetadataInfo
----@field private ["buttonHintsController"] ButtonHints
----@field private ["saveToLoadIndex"] Int32
----@field private ["saveToLoadID"] Uint64
----@field private ["isInputDisabled"] Bool
----@field private ["saveTransferPopupToken"] inkGameNotificationToken
----@field private ["saves"] String[]
----@field private ["saveFilesReady"] Bool
----@field private ["cloudSynced"] Bool
----@field private ["onlineSystem"] gameIOnlineSystem
----@field private ["systemHandler"] inkISystemRequestsHandler
----@field private ["pendingRegistration"] Bool
----@field private ["isEp1Enabled"] Bool
----@field private ["animProxy"] inkanimProxy
----@field private ["sourceIndex"] Int32
+---@field private list inkCompoundWidgetReference
+---@field private noSavedGamesLabel inkWidgetReference
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private transitToLoadingAnimName CName
+---@field private transitToLoadingSlotAnimName CName
+---@field private animDelayBetweenSlots Float
+---@field private animDelayForMainSlot Float
+---@field private enableLoadingTransition Bool
+---@field private gogButtonWidgetRef inkWidgetReference
+---@field private gogContainer inkWidgetReference
+---@field private laodingSpinner inkWidgetReference
+---@field private scrollbar inkWidgetReference
+---@field private eventDispatcher inkMenuEventDispatcher
+---@field private loadComplete Bool
+---@field private saveInfo inkSaveMetadataInfo
+---@field private buttonHintsController ButtonHints
+---@field private saveToLoadIndex Int32
+---@field private saveToLoadID Uint64
+---@field private isInputDisabled Bool
+---@field private saveTransferPopupToken inkGameNotificationToken
+---@field private saves String[]
+---@field private saveFilesReady Bool
+---@field private cloudSynced Bool
+---@field private onlineSystem gameIOnlineSystem
+---@field private systemHandler inkISystemRequestsHandler
+---@field private pendingRegistration Bool
+---@field private isEp1Enabled Bool
+---@field private animProxy inkanimProxy
+---@field private sourceIndex Int32
 LoadGameMenuGameController = {}
 
 ---@param fields? table

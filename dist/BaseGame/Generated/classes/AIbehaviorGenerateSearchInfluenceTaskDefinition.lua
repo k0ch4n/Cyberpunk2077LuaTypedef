@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorGenerateSearchInfluenceTaskDefinition: AIbehaviorTaskDefinition
----@field public ["position"] AIArgumentMapping
----@field public ["path"] AIArgumentMapping
----@field public ["radius"] AIArgumentMapping
+---@field public position AIArgumentMapping
+---@field public path AIArgumentMapping
+---@field public radius AIArgumentMapping
 AIbehaviorGenerateSearchInfluenceTaskDefinition = {}
 
 ---@param fields? table

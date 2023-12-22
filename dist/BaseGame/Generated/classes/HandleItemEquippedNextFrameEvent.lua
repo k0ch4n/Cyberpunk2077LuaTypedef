@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HandleItemEquippedNextFrameEvent: redEvent
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 HandleItemEquippedNextFrameEvent = {}
 
 ---@param fields? table

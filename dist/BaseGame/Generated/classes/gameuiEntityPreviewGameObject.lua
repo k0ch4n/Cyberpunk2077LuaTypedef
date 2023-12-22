@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEntityPreviewGameObject: gameObject
----@field public ["cameraSettings"] gameuiEntityPreviewCameraSettings
+---@field public cameraSettings gameuiEntityPreviewCameraSettings
 gameuiEntityPreviewGameObject = {}
 
 ---@param fields? table

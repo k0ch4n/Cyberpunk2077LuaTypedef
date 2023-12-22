@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseVisibleObjectDetectionMultEvent: redEvent
----@field public ["multiplier"] Float
+---@field public multiplier Float
 senseVisibleObjectDetectionMultEvent = {}
 
 ---@param fields? table

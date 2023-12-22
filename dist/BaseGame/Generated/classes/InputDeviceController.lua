@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InputDeviceController: gameScriptableComponent
----@field private ["isStarted"] Bool
+---@field private isStarted Bool
 InputDeviceController = {}
 
 ---@param fields? table

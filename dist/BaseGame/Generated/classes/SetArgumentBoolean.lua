@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetArgumentBoolean: SetArguments
----@field public ["customVar"] Bool
+---@field public customVar Bool
 SetArgumentBoolean = {}
 
 ---@param fields? table

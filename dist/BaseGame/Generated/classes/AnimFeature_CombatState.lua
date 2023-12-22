@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_CombatState: animAnimFeature
----@field public ["isInCombat"] Bool
+---@field public isInCombat Bool
 AnimFeature_CombatState = {}
 
 ---@param fields? table

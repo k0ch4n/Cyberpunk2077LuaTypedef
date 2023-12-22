@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGroupingCountableMetadata: audioEmitterMetadata
----@field public ["void"] Bool
+---@field public void Bool
 audioGroupingCountableMetadata = {}
 
 ---@param fields? table

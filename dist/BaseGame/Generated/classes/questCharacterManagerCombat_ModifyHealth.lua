@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerCombat_ModifyHealth: questICharacterManagerCombat_NodeSubType
----@field public ["puppetRef"] gameEntityReference
----@field public ["isPlayer"] Bool
----@field public ["percent"] Float
----@field public ["setExactValue"] Bool
----@field public ["noDamageIndicator"] Bool
----@field public ["damageSourceRef"] gameEntityReference
+---@field public puppetRef gameEntityReference
+---@field public isPlayer Bool
+---@field public percent Float
+---@field public setExactValue Bool
+---@field public noDamageIndicator Bool
+---@field public damageSourceRef gameEntityReference
 questCharacterManagerCombat_ModifyHealth = {}
 
 ---@param fields? table

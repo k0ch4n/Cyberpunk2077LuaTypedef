@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MenuCursorUserData: inkUserData
----@field private ["animationOverride"] CName
----@field private ["actions"] CName[]
+---@field private animationOverride CName
+---@field private actions CName[]
 MenuCursorUserData = {}
 
 ---@param fields? table

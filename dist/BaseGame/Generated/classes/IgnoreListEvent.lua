@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IgnoreListEvent: redEvent
----@field public ["bodyID"] entEntityID
----@field public ["removeEvent"] Bool
+---@field public bodyID entEntityID
+---@field public removeEvent Bool
 IgnoreListEvent = {}
 
 ---@param fields? table

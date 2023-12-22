@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiTrapTooltipDisplayer: inkWidgetLogicController
----@field public ["trap"] gamedataMiniGame_Trap_Record
----@field private ["delayDuration"] Float
----@field private ["animationProxy"] inkanimProxy
+---@field public trap gamedataMiniGame_Trap_Record
+---@field private delayDuration Float
+---@field private animationProxy inkanimProxy
 gameuiTrapTooltipDisplayer = {}
 
 ---@param fields? table

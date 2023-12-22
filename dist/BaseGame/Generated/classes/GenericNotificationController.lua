@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class GenericNotificationController: gameuiGenericNotificationReceiverGameController
----@field protected ["titleRef"] inkTextWidgetReference
----@field protected ["textRef"] inkTextWidgetReference
----@field protected ["actionLabelRef"] inkTextWidgetReference
----@field protected ["actionRef"] inkWidgetReference
----@field protected ["paused"] Bool
----@field protected ["blockAction"] Bool
----@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
----@field private ["data"] gameuiGenericNotificationViewData
----@field private ["player"] gameObject
----@field private ["isInteractive"] Bool
----@field protected ["customInputActionName"] CName
+---@field protected titleRef inkTextWidgetReference
+---@field protected textRef inkTextWidgetReference
+---@field protected actionLabelRef inkTextWidgetReference
+---@field protected actionRef inkWidgetReference
+---@field protected paused Bool
+---@field protected blockAction Bool
+---@field private translationAnimationCtrl inkTextReplaceAnimationController
+---@field private data gameuiGenericNotificationViewData
+---@field private player gameObject
+---@field private isInteractive Bool
+---@field protected customInputActionName CName
 GenericNotificationController = {}
 
 ---@param fields? table

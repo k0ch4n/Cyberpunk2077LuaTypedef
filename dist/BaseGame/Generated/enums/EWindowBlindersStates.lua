@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EWindowBlindersStates: Enum
----@field ["NonInteractive"] EWindowBlindersStates 0
----@field ["Open"] EWindowBlindersStates 1
----@field ["Closed"] EWindowBlindersStates 2
----@field ["Tilted"] EWindowBlindersStates 3
+---@field NonInteractive 0
+---@field Open 1
+---@field Closed 2
+---@field Tilted 3
 EWindowBlindersStates = {}

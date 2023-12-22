@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewPerksRequirementsLinksManager: IScriptable
----@field public ["cache"] NewPerksRequirementsLinks[]
+---@field public cache NewPerksRequirementsLinks[]
 NewPerksRequirementsLinksManager = {}
 
 ---@param fields? table

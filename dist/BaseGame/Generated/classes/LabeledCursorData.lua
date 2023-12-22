@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LabeledCursorData: inkUserData
----@field public ["text"] String
+---@field public text String
 LabeledCursorData = {}
 
 ---@param fields? table

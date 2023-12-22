@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkEVerticalAlign: Enum
----@field ["Fill"] inkEVerticalAlign 0
----@field ["Top"] inkEVerticalAlign 1
----@field ["Center"] inkEVerticalAlign 2
----@field ["Bottom"] inkEVerticalAlign 3
+---@field Fill 0
+---@field Top 1
+---@field Center 2
+---@field Bottom 3
 inkEVerticalAlign = {}

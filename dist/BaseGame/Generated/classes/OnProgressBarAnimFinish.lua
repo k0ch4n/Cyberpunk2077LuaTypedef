@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OnProgressBarAnimFinish: redEvent
----@field public ["FullbarSize"] Float
----@field public ["IsNegative"] Bool
+---@field public FullbarSize Float
+---@field public IsNegative Bool
 OnProgressBarAnimFinish = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ArcadeMachineControllerPS: ScriptableDeviceComponentPS
----@field protected ["gameVideosPaths"] redResourceReferenceScriptToken[]
----@field public ["DEBUG_enableArcadeMinigames"] Bool
----@field private ["minigame"] ArcadeMinigame
----@field private ["combatStateListener"] redCallbackObject
+---@field protected gameVideosPaths redResourceReferenceScriptToken[]
+---@field public DEBUG_enableArcadeMinigames Bool
+---@field private minigame ArcadeMinigame
+---@field private combatStateListener redCallbackObject
 ArcadeMachineControllerPS = {}
 
 ---@param fields? table

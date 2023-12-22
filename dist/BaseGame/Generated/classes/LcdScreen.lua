@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LcdScreen: InteractiveDevice
----@field protected ["isShortGlitchActive"] Bool
----@field protected ["shortGlitchDelayID"] gameDelayID
+---@field protected isShortGlitchActive Bool
+---@field protected shortGlitchDelayID gameDelayID
 LcdScreen = {}
 
 ---@param fields? table

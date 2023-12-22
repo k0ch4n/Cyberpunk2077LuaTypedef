@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayedTooltipCall: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["controller"] UpgradingScreenController
+---@field public controller UpgradingScreenController
 DelayedTooltipCall = {}
 
 ---@param fields? table

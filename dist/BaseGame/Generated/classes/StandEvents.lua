@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StandEvents: LocomotionGroundEvents
----@field private ["enteredAfterSprintWithNoInput"] Bool
+---@field private enteredAfterSprintWithNoInput Bool
 StandEvents = {}
 
 ---@param fields? table

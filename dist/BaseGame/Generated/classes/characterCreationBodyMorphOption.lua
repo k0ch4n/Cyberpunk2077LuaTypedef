@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphOption: CharacterCreationBodyMorphBaseOption
----@field private ["optionLabel"] inkTextWidgetReference
----@field private ["selectedLabel"] inkTextWidgetReference
----@field private ["selectorNextBtn"] inkWidgetReference
----@field private ["selectorPrevBtn"] inkWidgetReference
----@field private ["selectorTexture"] inkImageWidgetReference
----@field private ["arrowsTexture"] inkImageWidgetReference
----@field private ["optionSwitchHint"] inkWidgetReference
----@field private ["selectorOption"] gameuiCharacterCustomizationOption
----@field private ["morphInfo"] gameuiMorphInfo
----@field private ["appearanceInfo"] gameuiAppearanceInfo
----@field private ["switcherInfo"] gameuiSwitcherInfo
----@field private ["currSelectorIndex"] Int32
----@field private ["selector"] inkWidget
----@field private ["inputDisabled"] Bool
----@field public ["animationProxy"] inkanimProxy
+---@field private optionLabel inkTextWidgetReference
+---@field private selectedLabel inkTextWidgetReference
+---@field private selectorNextBtn inkWidgetReference
+---@field private selectorPrevBtn inkWidgetReference
+---@field private selectorTexture inkImageWidgetReference
+---@field private arrowsTexture inkImageWidgetReference
+---@field private optionSwitchHint inkWidgetReference
+---@field private selectorOption gameuiCharacterCustomizationOption
+---@field private morphInfo gameuiMorphInfo
+---@field private appearanceInfo gameuiAppearanceInfo
+---@field private switcherInfo gameuiSwitcherInfo
+---@field private currSelectorIndex Int32
+---@field private selector inkWidget
+---@field private inputDisabled Bool
+---@field public animationProxy inkanimProxy
 characterCreationBodyMorphOption = {}
 
 ---@param fields? table

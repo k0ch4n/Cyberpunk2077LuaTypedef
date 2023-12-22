@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BaseToggleView: inkWidgetLogicController
----@field protected ["ToggleController"] inkToggleController
----@field protected ["OldState"] inkEToggleState
+---@field protected ToggleController inkToggleController
+---@field protected OldState inkEToggleState
 BaseToggleView = {}
 
 ---@protected

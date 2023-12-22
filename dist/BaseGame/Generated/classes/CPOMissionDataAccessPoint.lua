@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CPOMissionDataAccessPoint: CPOMissionDevice
----@field protected ["hasDataToDownload"] Bool
----@field protected ["damagesPresetName"] CName
----@field protected ["factsOnDownload"] SFactToChange[]
----@field protected ["factsOnUpload"] SFactToChange[]
----@field protected ["ownerDecidesOnTransfer"] Bool
+---@field protected hasDataToDownload Bool
+---@field protected damagesPresetName CName
+---@field protected factsOnDownload SFactToChange[]
+---@field protected factsOnUpload SFactToChange[]
+---@field protected ownerDecidesOnTransfer Bool
 CPOMissionDataAccessPoint = {}
 
 ---@param fields? table

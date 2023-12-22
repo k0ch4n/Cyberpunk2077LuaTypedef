@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerChangeAppearance_NodeType: questIEntityManager_NodeType
----@field public ["entityRef"] gameEntityReference
----@field public ["prefetchOnly"] Bool
----@field public ["appearanceName"] CName
+---@field public entityRef gameEntityReference
+---@field public prefetchOnly Bool
+---@field public appearanceName CName
 questEntityManagerChangeAppearance_NodeType = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HealthStatListener: gameScriptStatPoolsListener
----@field public ["ownerPuppet"] PlayerPuppet
----@field private ["healthEvent"] HealthUpdateEvent
+---@field public ownerPuppet PlayerPuppet
+---@field private healthEvent HealthUpdateEvent
 HealthStatListener = {}
 
 ---@param fields? table

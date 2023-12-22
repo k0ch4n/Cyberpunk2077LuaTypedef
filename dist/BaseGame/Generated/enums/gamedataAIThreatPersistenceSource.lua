@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class gamedataAIThreatPersistenceSource: Enum
----@field ["AddThreat"] gamedataAIThreatPersistenceSource 0
----@field ["CatchUp"] gamedataAIThreatPersistenceSource 1
----@field ["CommandAimWithWeapon"] gamedataAIThreatPersistenceSource 2
----@field ["CommandForceShoot"] gamedataAIThreatPersistenceSource 3
----@field ["CommandInjectCombatTarget"] gamedataAIThreatPersistenceSource 4
----@field ["CommandInjectThreat"] gamedataAIThreatPersistenceSource 5
----@field ["CommandMeleeAttack"] gamedataAIThreatPersistenceSource 6
----@field ["CommandShoot"] gamedataAIThreatPersistenceSource 7
----@field ["CommandThrowGrenade"] gamedataAIThreatPersistenceSource 8
----@field ["Default"] gamedataAIThreatPersistenceSource 9
----@field ["QuickhackUpload"] gamedataAIThreatPersistenceSource 10
----@field ["SetNewCombatTarget"] gamedataAIThreatPersistenceSource 11
----@field ["TrackedBySecuritySystemAgent"] gamedataAIThreatPersistenceSource 12
----@field ["Count"] gamedataAIThreatPersistenceSource 13
----@field ["Invalid"] gamedataAIThreatPersistenceSource 14
+---@field AddThreat 0
+---@field CatchUp 1
+---@field CommandAimWithWeapon 2
+---@field CommandForceShoot 3
+---@field CommandInjectCombatTarget 4
+---@field CommandInjectThreat 5
+---@field CommandMeleeAttack 6
+---@field CommandShoot 7
+---@field CommandThrowGrenade 8
+---@field Default 9
+---@field QuickhackUpload 10
+---@field SetNewCombatTarget 11
+---@field TrackedBySecuritySystemAgent 12
+---@field Count 13
+---@field Invalid 14
 gamedataAIThreatPersistenceSource = {}

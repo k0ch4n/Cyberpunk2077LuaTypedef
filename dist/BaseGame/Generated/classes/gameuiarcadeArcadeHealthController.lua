@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeHealthController: inkWidgetLogicController
----@field public ["widget"] inkWidget
+---@field public widget inkWidget
 gameuiarcadeArcadeHealthController = {}

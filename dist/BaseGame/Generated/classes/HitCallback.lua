@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitCallback: gameScriptedDamageSystemListener
----@field protected ["state"] GenericHitPrereqState
+---@field protected state GenericHitPrereqState
 HitCallback = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AddDevelopmentPointEffector: gameEffector
----@field public ["amount"] Int32
----@field public ["type"] gamedataDevelopmentPointType
----@field public ["tdbid"] TweakDBID
+---@field public amount Int32
+---@field public type gamedataDevelopmentPointType
+---@field public tdbid TweakDBID
 AddDevelopmentPointEffector = {}
 
 ---@param fields? table

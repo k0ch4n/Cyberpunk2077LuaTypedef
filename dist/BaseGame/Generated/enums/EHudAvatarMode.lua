@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EHudAvatarMode: Enum
----@field ["Connecting"] EHudAvatarMode 0
----@field ["Disconnecting"] EHudAvatarMode 1
----@field ["Holocall"] EHudAvatarMode 2
----@field ["Audiocall"] EHudAvatarMode 3
+---@field Connecting 0
+---@field Disconnecting 1
+---@field Holocall 2
+---@field Audiocall 3
 EHudAvatarMode = {}

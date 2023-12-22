@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ESecurityGateEntranceType: Enum
----@field ["OnlySideA"] ESecurityGateEntranceType 0
----@field ["OnlySideB"] ESecurityGateEntranceType 1
----@field ["AnySide"] ESecurityGateEntranceType 2
+---@field OnlySideA 0
+---@field OnlySideB 1
+---@field AnySide 2
 ESecurityGateEntranceType = {}

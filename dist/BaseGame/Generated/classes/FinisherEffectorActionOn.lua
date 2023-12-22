@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FinisherEffectorActionOn: redEvent
----@field public ["instigator"] gameObject
+---@field public instigator gameObject
 FinisherEffectorActionOn = {}
 
 ---@param fields? table

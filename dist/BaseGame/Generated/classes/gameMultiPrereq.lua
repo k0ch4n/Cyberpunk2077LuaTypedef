@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMultiPrereq: gameIPrereq
----@field public ["aggregationType"] gameAggregationType
----@field public ["nestedPrereqs"] gameIPrereq[]
+---@field public aggregationType gameAggregationType
+---@field public nestedPrereqs gameIPrereq[]
 gameMultiPrereq = {}
 
 ---@param fields? table

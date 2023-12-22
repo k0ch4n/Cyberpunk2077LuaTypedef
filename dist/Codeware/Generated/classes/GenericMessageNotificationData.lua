@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotificationData: inkGameNotificationData
----@field public ["params"] textTextParameterSet
----@field public ["isInput"] Bool
+---@field public params textTextParameterSet
+---@field public isInput Bool
 GenericMessageNotificationData = {}
 
 ---@param fields? table

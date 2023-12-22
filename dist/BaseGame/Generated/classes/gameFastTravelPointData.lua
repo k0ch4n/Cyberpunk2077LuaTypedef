@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameFastTravelPointData: IScriptable
----@field public ["pointRecord"] TweakDBID
----@field public ["markerRef"] NodeRef
----@field public ["requesterID"] entEntityID
----@field public ["isEP1"] Bool
----@field public ["mappinID"] gameNewMappinID
+---@field public pointRecord TweakDBID
+---@field public markerRef NodeRef
+---@field public requesterID entEntityID
+---@field public isEP1 Bool
+---@field public mappinID gameNewMappinID
 gameFastTravelPointData = {}
 
 ---@param fields? table

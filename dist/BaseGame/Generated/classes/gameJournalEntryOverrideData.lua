@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalEntryOverrideData: IScriptable
----@field public ["inputDevice"] inputESimplifiedInputDevice
----@field public ["inputScheme"] inputEInputScheme
----@field public ["overriddenLocalizationString"] LocalizationString
+---@field public inputDevice inputESimplifiedInputDevice
+---@field public inputScheme inputEInputScheme
+---@field public overriddenLocalizationString LocalizationString
 gameJournalEntryOverrideData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendIndexBufferChunk
----@field public ["pe"] GpuWrapApieIndexBufferChunkType
----@field public ["teOffset"] Uint32
+---@field public pe GpuWrapApieIndexBufferChunkType
+---@field public teOffset Uint32
 rendIndexBufferChunk = {}
 
 ---@param fields? table

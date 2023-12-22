@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetVendorPriceMultiplierRequest: gameScriptableSystemRequest
----@field public ["vendorID"] TweakDBID
----@field public ["multiplier"] Float
+---@field public vendorID TweakDBID
+---@field public multiplier Float
 SetVendorPriceMultiplierRequest = {}
 
 ---@param fields? table

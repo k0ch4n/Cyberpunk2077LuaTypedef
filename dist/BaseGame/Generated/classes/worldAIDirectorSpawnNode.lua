@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAIDirectorSpawnNode: worldNode
----@field public ["tags"] redTagList
+---@field public tags redTagList
 worldAIDirectorSpawnNode = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceActionWidgetControllerBase: DeviceButtonLogicControllerBase
----@field protected ["actions"] gamedeviceAction[]
----@field protected ["actionData"] ResolveActionData
----@field protected ["isInactive"] Bool
+---@field protected actions gamedeviceAction[]
+---@field protected actionData ResolveActionData
+---@field protected isInactive Bool
 DeviceActionWidgetControllerBase = {}
 
 ---@param fields? table

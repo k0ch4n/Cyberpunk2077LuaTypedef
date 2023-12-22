@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameEffectAction_KillFXAction: Enum
----@field ["Stop"] gameEffectAction_KillFXAction 0
----@field ["BreakLoop"] gameEffectAction_KillFXAction 1
+---@field Stop 0
+---@field BreakLoop 1
 gameEffectAction_KillFXAction = {}

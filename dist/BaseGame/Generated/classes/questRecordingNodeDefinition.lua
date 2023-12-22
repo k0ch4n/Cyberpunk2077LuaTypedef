@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRecordingNodeDefinition: questDisableableNodeDefinition
----@field public ["type"] questIRecordingNodeType
+---@field public type questIRecordingNodeType
 questRecordingNodeDefinition = {}
 
 ---@param fields? table

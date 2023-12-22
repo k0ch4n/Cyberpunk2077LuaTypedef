@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorVectorMultiCurve: IEvaluatorVector
----@field public ["curves"] multiChannelCurve
----@field public ["numberOfCurveSamples"] Uint32
+---@field public curves multiChannelCurve
+---@field public numberOfCurveSamples Uint32
 CEvaluatorVectorMultiCurve = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestDisableWardrobeSetRequest: gamePlayerScriptableSystemRequest
----@field public ["blockReequipping"] Bool
+---@field public blockReequipping Bool
 QuestDisableWardrobeSetRequest = {}
 
 ---@param fields? table

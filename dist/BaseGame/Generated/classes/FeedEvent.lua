@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FeedEvent: redEvent
----@field public ["On"] Bool
----@field public ["virtualComponentName"] CName
----@field public ["cameraID"] entEntityID
+---@field public On Bool
+---@field public virtualComponentName CName
+---@field public cameraID entEntityID
 FeedEvent = {}
 
 ---@param fields? table

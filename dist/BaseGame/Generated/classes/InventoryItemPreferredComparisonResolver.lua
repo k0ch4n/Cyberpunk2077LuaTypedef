@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InventoryItemPreferredComparisonResolver: IScriptable
----@field private ["cacheadAreaItems"] InventoryItemPreferredAreaItems[]
----@field private ["cachedComparableTypes"] InventoryItemComparableTypesCache[]
----@field private ["typeComparableItemsCache"] InventoryTypeComparableItemsCache[]
----@field private ["inventoryScriptableSystem"] UIInventoryScriptableSystem
----@field private ["forcedCompareItem"] UIInventoryItem
----@field private ["useForceCompare"] Bool
+---@field private cacheadAreaItems InventoryItemPreferredAreaItems[]
+---@field private cachedComparableTypes InventoryItemComparableTypesCache[]
+---@field private typeComparableItemsCache InventoryTypeComparableItemsCache[]
+---@field private inventoryScriptableSystem UIInventoryScriptableSystem
+---@field private forcedCompareItem UIInventoryItem
+---@field private useForceCompare Bool
 InventoryItemPreferredComparisonResolver = {}
 
 ---@param fields? table

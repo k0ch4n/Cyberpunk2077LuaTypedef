@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAimAssistLevel: Enum
----@field ["Off"] EAimAssistLevel 0
----@field ["Light"] EAimAssistLevel 1
----@field ["Standard"] EAimAssistLevel 2
----@field ["Heavy"] EAimAssistLevel 3
+---@field Off 0
+---@field Light 1
+---@field Standard 2
+---@field Heavy 3
 EAimAssistLevel = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameHitRepresentationResource: CResource
----@field public ["representations"] gameHitShapeContainer[]
----@field public ["overrides"] gameHitRepresentationVisualTaggedOverride[]
+---@field public representations gameHitShapeContainer[]
+---@field public overrides gameHitRepresentationVisualTaggedOverride[]
 gameHitRepresentationResource = {}
 
 ---@param fields? table

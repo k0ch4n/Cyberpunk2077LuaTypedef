@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnEffectDef
----@field public ["id"] scnEffectId
----@field public ["effect"] worldEffect
+---@field public id scnEffectId
+---@field public effect worldEffect
 scnEffectDef = {}
 
 ---@param fields? table

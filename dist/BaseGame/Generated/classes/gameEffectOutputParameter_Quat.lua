@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectOutputParameter_Quat
----@field public ["blackboardProperty"] gameBlackboardPropertyBindingDefinition
+---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectOutputParameter_Quat = {}
 
 ---@param fields? table

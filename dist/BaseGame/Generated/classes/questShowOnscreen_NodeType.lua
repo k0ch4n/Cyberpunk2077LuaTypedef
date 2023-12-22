@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questShowOnscreen_NodeType: questIUIManagerNodeType
----@field public ["message"] String
----@field public ["localizedMessage"] LocalizationString
----@field public ["duration"] Float
----@field public ["show"] Bool
+---@field public message String
+---@field public localizedMessage LocalizationString
+---@field public duration Float
+---@field public show Bool
 questShowOnscreen_NodeType = {}
 
 ---@param fields? table

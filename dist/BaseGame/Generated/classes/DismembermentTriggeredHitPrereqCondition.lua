@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DismembermentTriggeredHitPrereqCondition: BaseHitPrereqCondition
----@field private ["currValue"] Uint32
+---@field private currValue Uint32
 DismembermentTriggeredHitPrereqCondition = {}
 
 ---@param fields? table

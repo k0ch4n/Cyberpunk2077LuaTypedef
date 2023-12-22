@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPuppetPreview_ReadyToBeDisplayed: redEvent
----@field public ["isMale"] Bool
+---@field public isMale Bool
 gameuiPuppetPreview_ReadyToBeDisplayed = {}
 
 ---@param fields? table

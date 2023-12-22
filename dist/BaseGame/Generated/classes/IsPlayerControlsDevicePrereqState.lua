@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsPlayerControlsDevicePrereqState: gamePrereqState
----@field public ["listenerInfo"] redCallbackObject
+---@field public listenerInfo redCallbackObject
 IsPlayerControlsDevicePrereqState = {}
 
 ---@param fields? table

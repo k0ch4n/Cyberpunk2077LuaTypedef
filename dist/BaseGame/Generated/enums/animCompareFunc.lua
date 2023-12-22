@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animCompareFunc: Enum
----@field ["Equal"] animCompareFunc 0
----@field ["NotEqual"] animCompareFunc 1
----@field ["Less"] animCompareFunc 2
----@field ["LessEqual"] animCompareFunc 3
----@field ["Greater"] animCompareFunc 4
----@field ["GreaterEqual"] animCompareFunc 5
+---@field Equal 0
+---@field NotEqual 1
+---@field Less 2
+---@field LessEqual 3
+---@field Greater 4
+---@field GreaterEqual 5
 animCompareFunc = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBooleanArgumentWhenActive: AIbehaviortaskScript
----@field public ["booleanArgument"] CName
+---@field public booleanArgument CName
 SetBooleanArgumentWhenActive = {}
 
 ---@param fields? table

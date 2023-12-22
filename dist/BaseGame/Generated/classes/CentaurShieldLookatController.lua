@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CentaurShieldLookatController: AILookatTask
----@field private ["mainShieldLookat"] entLookAtAddEvent
----@field private ["mainShieldlookatActive"] Bool
----@field private ["currentLookatTarget"] gameObject
----@field private ["shieldTarget"] gameObject
----@field private ["centaurBlackboard"] gameIBlackboard
----@field private ["shieldTargetTimeStamp"] Float
+---@field private mainShieldLookat entLookAtAddEvent
+---@field private mainShieldlookatActive Bool
+---@field private currentLookatTarget gameObject
+---@field private shieldTarget gameObject
+---@field private centaurBlackboard gameIBlackboard
+---@field private shieldTargetTimeStamp Float
 CentaurShieldLookatController = {}
 
 ---@param fields? table

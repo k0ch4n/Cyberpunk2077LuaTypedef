@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAcousticDataResource: resStreamedResource
----@field public ["cells"] worldAcousticDataCell[]
+---@field public cells worldAcousticDataCell[]
 worldAcousticDataResource = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIQuickHackAction: PuppetAction
----@field public ["target"] gameObject
----@field public ["scaleUploadTime"] Bool
----@field public ["HUDData"] HUDProgressBarData
+---@field public target gameObject
+---@field public scaleUploadTime Bool
+---@field public HUDData HUDProgressBarData
 AIQuickHackAction = {}
 
 ---@param fields? table

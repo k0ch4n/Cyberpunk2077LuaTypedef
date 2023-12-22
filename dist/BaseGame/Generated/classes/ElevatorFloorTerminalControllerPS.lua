@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ElevatorFloorTerminalControllerPS: TerminalControllerPS
----@field private ["elevatorFloorSetup"] ElevatorFloorSetup
----@field private ["hasDirectInteration"] Bool
----@field protected ["isElevatorAtThisFloor"] Bool
+---@field private elevatorFloorSetup ElevatorFloorSetup
+---@field private hasDirectInteration Bool
+---@field protected isElevatorAtThisFloor Bool
 ElevatorFloorTerminalControllerPS = {}
 
 ---@param fields? table

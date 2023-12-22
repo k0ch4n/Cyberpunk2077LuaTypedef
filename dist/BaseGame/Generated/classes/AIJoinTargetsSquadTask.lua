@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIJoinTargetsSquadTask: AIbehaviortaskScript
----@field public ["inCommand"] AIArgumentMapping
+---@field public inCommand AIArgumentMapping
 AIJoinTargetsSquadTask = {}
 
 ---@param fields? table

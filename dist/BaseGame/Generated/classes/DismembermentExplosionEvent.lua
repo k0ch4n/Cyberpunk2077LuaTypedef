@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DismembermentExplosionEvent: redEvent
----@field public ["epicentrum"] Vector4
----@field public ["strength"] Float
+---@field public epicentrum Vector4
+---@field public strength Float
 DismembermentExplosionEvent = {}
 
 ---@param fields? table

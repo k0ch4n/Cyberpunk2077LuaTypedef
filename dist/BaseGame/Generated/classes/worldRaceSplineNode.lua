@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldRaceSplineNode: worldSpeedSplineNode
----@field public ["offsets"] worldRaceSplineNodeOffset[]
----@field public ["offsetDefault"] Float
+---@field public offsets worldRaceSplineNodeOffset[]
+---@field public offsetDefault Float
 worldRaceSplineNode = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetIconSelectEvent: redEvent
----@field public ["IconID"] TweakDBID
+---@field public IconID TweakDBID
 SetIconSelectEvent = {}
 
 ---@param fields? table

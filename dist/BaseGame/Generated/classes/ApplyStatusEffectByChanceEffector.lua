@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ApplyStatusEffectByChanceEffector: gameEffector
----@field public ["targetEntityID"] entEntityID
----@field public ["applicationTarget"] CName
----@field public ["record"] TweakDBID
----@field public ["removeWithEffector"] Bool
----@field public ["effectorChanceMods"] gamedataStatModifier_Record[]
+---@field public targetEntityID entEntityID
+---@field public applicationTarget CName
+---@field public record TweakDBID
+---@field public removeWithEffector Bool
+---@field public effectorChanceMods gamedataStatModifier_Record[]
 ApplyStatusEffectByChanceEffector = {}
 
 ---@param fields? table

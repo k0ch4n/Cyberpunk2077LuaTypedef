@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSaveLock_ConditionType: questISystemConditionType
----@field public ["inverted"] Bool
+---@field public inverted Bool
 questSaveLock_ConditionType = {}
 
 ---@param fields? table

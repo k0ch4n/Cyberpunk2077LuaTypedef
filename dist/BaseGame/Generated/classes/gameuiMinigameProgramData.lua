@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiMinigameProgramData
----@field public ["actionID"] TweakDBID
----@field public ["programName"] CName
+---@field public actionID TweakDBID
+---@field public programName CName
 gameuiMinigameProgramData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIFlatheadSetSoloModeCommandParams: questScriptedAICommandParams
----@field public ["soloMode"] Bool
+---@field public soloMode Bool
 AIFlatheadSetSoloModeCommandParams = {}
 
 ---@param fields? table

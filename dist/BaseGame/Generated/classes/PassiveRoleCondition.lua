@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PassiveRoleCondition: AIbehaviorexpressionScript
----@field public ["role"] EAIRole
----@field private ["roleCbId"] Uint32
+---@field public role EAIRole
+---@field private roleCbId Uint32
 PassiveRoleCondition = {}
 
 ---@param fields? table

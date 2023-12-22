@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BlindingLight: BasicDistractionDevice
----@field protected ["areaComponent"] gameStaticTriggerAreaComponent
----@field protected ["highLightActive"] Bool
+---@field protected areaComponent gameStaticTriggerAreaComponent
+---@field protected highLightActive Bool
 BlindingLight = {}
 
 ---@param fields? table

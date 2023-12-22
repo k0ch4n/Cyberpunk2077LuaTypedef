@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CarriedObjectData: IScriptable
----@field public ["instant"] Bool
+---@field public instant Bool
 CarriedObjectData = {}
 
 ---@param fields? table

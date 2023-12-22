@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HoldPositionCommandTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIHoldPositionCommand
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIHoldPositionCommand
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
 HoldPositionCommandTask = {}
 
 ---@param fields? table

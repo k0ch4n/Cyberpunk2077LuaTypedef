@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SecurityGateLock: InteractiveDevice
----@field private ["enteringArea"] gameStaticTriggerAreaComponent
----@field private ["centeredArea"] gameStaticTriggerAreaComponent
----@field private ["leavingArea"] gameStaticTriggerAreaComponent
+---@field private enteringArea gameStaticTriggerAreaComponent
+---@field private centeredArea gameStaticTriggerAreaComponent
+---@field private leavingArea gameStaticTriggerAreaComponent
 SecurityGateLock = {}
 
 ---@param fields? table

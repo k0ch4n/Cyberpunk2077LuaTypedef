@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeathMenuUserData: IScriptable
----@field public ["playInitAnimation"] Bool
+---@field public playInitAnimation Bool
 DeathMenuUserData = {}
 
 ---@param fields? table

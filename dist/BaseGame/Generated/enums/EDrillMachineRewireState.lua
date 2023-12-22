@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EDrillMachineRewireState: Enum
----@field ["InsideInteractionRange"] EDrillMachineRewireState 0
----@field ["OutsideInteractionRange"] EDrillMachineRewireState 1
----@field ["InteractionStarted"] EDrillMachineRewireState 2
----@field ["InteractionFinished"] EDrillMachineRewireState 3
----@field ["RewireStarted"] EDrillMachineRewireState 4
----@field ["RewireFinished"] EDrillMachineRewireState 5
+---@field InsideInteractionRange 0
+---@field OutsideInteractionRange 1
+---@field InteractionStarted 2
+---@field InteractionFinished 3
+---@field RewireStarted 4
+---@field RewireFinished 5
 EDrillMachineRewireState = {}

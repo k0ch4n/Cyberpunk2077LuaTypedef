@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerCompanionCacheDataEvent: redEvent
----@field public ["isPlayerCompanionCached"] Bool
----@field public ["isPlayerCompanionCachedTimeStamp"] Float
+---@field public isPlayerCompanionCached Bool
+---@field public isPlayerCompanionCachedTimeStamp Float
 PlayerCompanionCacheDataEvent = {}
 
 ---@param fields? table

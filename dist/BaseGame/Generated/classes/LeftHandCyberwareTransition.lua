@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareTransition: DefaultTransition
----@field public ["leftCWFeature"] AnimFeature_LeftHandCyberware
----@field public ["overchargeStatFlag"] gameStatModifierData_Deprecated
+---@field public leftCWFeature AnimFeature_LeftHandCyberware
+---@field public overchargeStatFlag gameStatModifierData_Deprecated
 LeftHandCyberwareTransition = {}
 
 ---@protected

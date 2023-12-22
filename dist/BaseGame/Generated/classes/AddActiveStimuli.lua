@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AddActiveStimuli: AIbehaviortaskScript
----@field public ["stimType"] gamedataStimType
----@field public ["lifetime"] Float
+---@field public stimType gamedataStimType
+---@field public lifetime Float
 AddActiveStimuli = {}
 
 ---@param fields? table

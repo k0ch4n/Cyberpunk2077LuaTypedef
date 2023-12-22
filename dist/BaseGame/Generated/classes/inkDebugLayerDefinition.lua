@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkDebugLayerDefinition: inkLayerDefinition
----@field public ["entries"] inkDebugLayerEntry[]
+---@field public entries inkDebugLayerEntry[]
 inkDebugLayerDefinition = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamePSMRangedWeaponStates: Enum
----@field ["Any"] gamePSMRangedWeaponStates -1
----@field ["Default"] gamePSMRangedWeaponStates 0
----@field ["Charging"] gamePSMRangedWeaponStates 1
----@field ["Reload"] gamePSMRangedWeaponStates 2
----@field ["QuickMelee"] gamePSMRangedWeaponStates 3
----@field ["NoAmmo"] gamePSMRangedWeaponStates 4
----@field ["Ready"] gamePSMRangedWeaponStates 5
----@field ["Safe"] gamePSMRangedWeaponStates 6
----@field ["Overheat"] gamePSMRangedWeaponStates 7
----@field ["Shoot"] gamePSMRangedWeaponStates 8
+---@field Any -1
+---@field Default 0
+---@field Charging 1
+---@field Reload 2
+---@field QuickMelee 3
+---@field NoAmmo 4
+---@field Ready 5
+---@field Safe 6
+---@field Overheat 7
+---@field Shoot 8
 gamePSMRangedWeaponStates = {}

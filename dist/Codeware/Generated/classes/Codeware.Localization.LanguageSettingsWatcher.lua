@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_LanguageSettingsWatcher: userSettingsVarListener
----@field public ["game"] ScriptGameInstance
+---@field public game ScriptGameInstance
 Codeware_Localization_LanguageSettingsWatcher = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeMappinEvent: redEvent
----@field public ["show"] Bool
+---@field public show Bool
 gameVisionModeMappinEvent = {}
 
 ---@param fields? table

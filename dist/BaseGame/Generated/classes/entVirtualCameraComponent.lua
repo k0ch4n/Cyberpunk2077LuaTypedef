@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class entVirtualCameraComponent: entBaseCameraComponent
----@field public ["virtualCameraName"] CName
----@field public ["resolutionWidth"] Uint32
----@field public ["resolutionHeight"] Uint32
----@field public ["drawBackground"] Bool
----@field public ["isEnabled"] Bool
+---@field public virtualCameraName CName
+---@field public resolutionWidth Uint32
+---@field public resolutionHeight Uint32
+---@field public drawBackground Bool
+---@field public isEnabled Bool
 entVirtualCameraComponent = {}
 
 ---@param fields? table

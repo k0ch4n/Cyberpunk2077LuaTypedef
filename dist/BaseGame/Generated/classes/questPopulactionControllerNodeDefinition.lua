@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPopulactionControllerNodeDefinition: questBaseObjectNodeDefinition
----@field public ["enable"] Bool
+---@field public enable Bool
 questPopulactionControllerNodeDefinition = {}
 
 ---@param fields? table

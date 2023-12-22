@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SkillTooltipData: BasePerksMenuTooltipData
----@field public ["proficiencyType"] gamedataProficiencyType
----@field public ["attributeRecord"] gamedataAttribute_Record
----@field public ["skillData"] ProficiencyDisplayData
+---@field public proficiencyType gamedataProficiencyType
+---@field public attributeRecord gamedataAttribute_Record
+---@field public skillData ProficiencyDisplayData
 SkillTooltipData = {}
 
 ---@param fields? table

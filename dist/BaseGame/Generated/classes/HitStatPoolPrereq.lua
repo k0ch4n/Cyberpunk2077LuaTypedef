@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class HitStatPoolPrereq: GenericHitPrereq
----@field public ["valueToCheck"] Float
----@field public ["objectToCheck"] String
----@field public ["comparisonType"] EComparisonType
----@field public ["statPoolToCompare"] gamedataStatPoolType
+---@field public valueToCheck Float
+---@field public objectToCheck String
+---@field public comparisonType EComparisonType
+---@field public statPoolToCompare gamedataStatPoolType
 HitStatPoolPrereq = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAnimationEventsOverrideClearNode: questIAudioNodeType
----@field public ["resetGlobalOverride"] Bool
----@field public ["resetActorsOverride"] Bool
+---@field public resetGlobalOverride Bool
+---@field public resetActorsOverride Bool
 questAnimationEventsOverrideClearNode = {}
 
 ---@param fields? table

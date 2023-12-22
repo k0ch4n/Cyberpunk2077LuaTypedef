@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateBucketEnum: Enum
----@field ["Vehicle"] UpdateBucketEnum 0
----@field ["Character"] UpdateBucketEnum 1
----@field ["AttachedObject"] UpdateBucketEnum 2
+---@field Vehicle 0
+---@field Character 1
+---@field AttachedObject 2
 UpdateBucketEnum = {}

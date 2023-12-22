@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SkillHoverOver: redEvent
----@field public ["widget"] inkWidget
----@field public ["title"] String
----@field public ["description"] String
+---@field public widget inkWidget
+---@field public title String
+---@field public description String
 SkillHoverOver = {}
 
 ---@param fields? table

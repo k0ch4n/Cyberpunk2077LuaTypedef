@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetPhaseState: AIActionHelperTask
----@field public ["phaseStateValue"] ENPCPhaseState
+---@field public phaseStateValue ENPCPhaseState
 SetPhaseState = {}
 
 ---@param fields? table

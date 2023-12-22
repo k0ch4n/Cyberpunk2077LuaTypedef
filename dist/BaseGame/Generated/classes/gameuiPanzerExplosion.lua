@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPanzerExplosion: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public ["animationName"] CName
+---@field public animationName CName
 gameuiPanzerExplosion = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameDamageCallbackType: Enum
----@field ["HitTriggered"] gameDamageCallbackType 0
----@field ["MissTriggered"] gameDamageCallbackType 3
----@field ["HitReceived"] gameDamageCallbackType 1
----@field ["PipelineProcessed"] gameDamageCallbackType 2
----@field ["COUNT"] gameDamageCallbackType 4
----@field ["INVALID"] gameDamageCallbackType 5
+---@field HitTriggered 0
+---@field MissTriggered 3
+---@field HitReceived 1
+---@field PipelineProcessed 2
+---@field COUNT 4
+---@field INVALID 5
 gameDamageCallbackType = {}

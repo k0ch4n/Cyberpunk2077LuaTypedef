@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DriveEvents: VehicleEventsTransition
----@field private ["inCombatBlockingForbiddenZone"] Bool
+---@field private inCombatBlockingForbiddenZone Bool
 DriveEvents = {}
 
 ---@param fields? table

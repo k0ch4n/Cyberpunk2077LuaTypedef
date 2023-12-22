@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayRadio: MusicSettings
----@field protected ["radioStation"] ERadioStationList
+---@field protected radioStation ERadioStationList
 PlayRadio = {}
 
 ---@param fields? table

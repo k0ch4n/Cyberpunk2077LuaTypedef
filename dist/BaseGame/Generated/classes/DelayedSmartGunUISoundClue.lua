@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayedSmartGunUISoundClue: gameDelaySystemScriptedDelayCallbackWrapper
----@field private ["puppet"] gameObject
----@field private ["audioEventName"] CName
+---@field private puppet gameObject
+---@field private audioEventName CName
 DelayedSmartGunUISoundClue = {}
 
 ---@param fields? table

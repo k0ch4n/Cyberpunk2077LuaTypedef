@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questMoveType: Enum
----@field ["MoveOnSpline"] questMoveType 0
----@field ["MoveTo"] questMoveType 1
----@field ["RotateTo"] questMoveType 2
----@field ["Patrol"] questMoveType 3
----@field ["Follow"] questMoveType 4
----@field ["JoinCrowd"] questMoveType 5
+---@field MoveOnSpline 0
+---@field MoveTo 1
+---@field RotateTo 2
+---@field Patrol 3
+---@field Follow 4
+---@field JoinCrowd 5
 questMoveType = {}

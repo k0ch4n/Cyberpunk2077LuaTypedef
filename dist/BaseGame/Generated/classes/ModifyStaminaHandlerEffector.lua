@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ModifyStaminaHandlerEffector: gameEffector
----@field private ["opSymbol"] CName
+---@field private opSymbol CName
 ModifyStaminaHandlerEffector = {}
 
 ---@param fields? table

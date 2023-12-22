@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipRepiceModule: NewItemTooltipModuleController
----@field private ["itemNameText"] inkTextWidgetReference
+---@field private itemNameText inkTextWidgetReference
 NewItemTooltipRepiceModule = {}
 
 ---@param fields? table

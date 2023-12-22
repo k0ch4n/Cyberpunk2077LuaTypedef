@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DestroyWeakspotEffector: gameEffector
----@field public ["weakspotIndex"] Int32
+---@field public weakspotIndex Int32
 DestroyWeakspotEffector = {}
 
 ---@param fields? table

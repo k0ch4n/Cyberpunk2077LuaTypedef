@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class senseVisibilityEvent: redEvent
----@field public ["target"] gameObject
----@field public ["isVisible"] Bool
----@field public ["description"] CName
----@field public ["shapeId"] TweakDBID
+---@field public target gameObject
+---@field public isVisible Bool
+---@field public description CName
+---@field public shapeId TweakDBID
 senseVisibilityEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataParentAttachmentType: Enum
----@field ["Animated"] gamedataParentAttachmentType 0
----@field ["Skinned"] gamedataParentAttachmentType 1
----@field ["Slot"] gamedataParentAttachmentType 2
----@field ["Count"] gamedataParentAttachmentType 3
----@field ["Invalid"] gamedataParentAttachmentType 4
+---@field Animated 0
+---@field Skinned 1
+---@field Slot 2
+---@field Count 3
+---@field Invalid 4
 gamedataParentAttachmentType = {}

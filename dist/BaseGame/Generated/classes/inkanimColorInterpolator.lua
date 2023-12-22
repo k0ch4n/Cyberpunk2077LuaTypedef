@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimColorInterpolator: inkanimInterpolator
----@field public ["startValue"] HDRColor
----@field public ["endValue"] HDRColor
+---@field public startValue HDRColor
+---@field public endValue HDRColor
 inkanimColorInterpolator = {}
 
 ---@param fields? table

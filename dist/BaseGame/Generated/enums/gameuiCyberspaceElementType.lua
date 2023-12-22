@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameuiCyberspaceElementType: Enum
----@field ["CyberspaceNPC"] gameuiCyberspaceElementType 0
----@field ["CyberspaceFakeObject"] gameuiCyberspaceElementType 1
+---@field CyberspaceNPC 0
+---@field CyberspaceFakeObject 1
 gameuiCyberspaceElementType = {}

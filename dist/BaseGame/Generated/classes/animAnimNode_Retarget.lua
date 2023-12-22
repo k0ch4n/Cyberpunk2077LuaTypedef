@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_Retarget: animAnimNode_OnePoseInput
----@field public ["refRig"] animRig
----@field public ["postProcess"] animIAnimNode_PostProcess
+---@field public refRig animRig
+---@field public postProcess animIAnimNode_PostProcess
 animAnimNode_Retarget = {}
 
 ---@param fields? table

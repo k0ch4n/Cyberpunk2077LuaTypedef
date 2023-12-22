@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrosshairStaminaListener: gameCustomValueStatPoolsListener
----@field private ["controller"] gameuiCrosshairBaseGameController
+---@field private controller gameuiCrosshairBaseGameController
 CrosshairStaminaListener = {}
 
 ---@param fields? table

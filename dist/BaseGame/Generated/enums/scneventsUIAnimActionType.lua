@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scneventsUIAnimActionType: Enum
----@field ["Play"] scneventsUIAnimActionType 0
----@field ["Update"] scneventsUIAnimActionType 1
----@field ["Resume"] scneventsUIAnimActionType 2
----@field ["Pause"] scneventsUIAnimActionType 3
----@field ["Stop"] scneventsUIAnimActionType 4
+---@field Play 0
+---@field Update 1
+---@field Resume 2
+---@field Pause 3
+---@field Stop 4
 scneventsUIAnimActionType = {}

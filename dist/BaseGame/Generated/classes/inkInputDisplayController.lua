@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class inkInputDisplayController: inkWidgetLogicController
----@field public ["iconRef"] inkWidgetReference
----@field public ["iconAND"] inkTextWidgetReference
----@field public ["nameRef"] inkWidgetReference
----@field public ["canvasRef"] inkWidgetReference
----@field public ["holdIndicatorContainerRef"] inkCompoundWidgetReference
----@field public ["gamepadHoldIndicatorLibraryRef"] inkWidgetLibraryReference
----@field public ["keyboardHoldIndicatorLibraryRef"] inkWidgetLibraryReference
----@field public ["holdIndicationType"] inkInputHintHoldIndicationType
----@field public ["inputActionName"] CName
----@field public ["fixedIconHeight"] Float
+---@field public iconRef inkWidgetReference
+---@field public iconAND inkTextWidgetReference
+---@field public nameRef inkWidgetReference
+---@field public canvasRef inkWidgetReference
+---@field public holdIndicatorContainerRef inkCompoundWidgetReference
+---@field public gamepadHoldIndicatorLibraryRef inkWidgetLibraryReference
+---@field public keyboardHoldIndicatorLibraryRef inkWidgetLibraryReference
+---@field public holdIndicationType inkInputHintHoldIndicationType
+---@field public inputActionName CName
+---@field public fixedIconHeight Float
 inkInputDisplayController = {}
 
 ---@param fields? table

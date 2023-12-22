@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameBlackboardChangedEvent: redEvent
----@field public ["definition"] gamebbScriptDefinition
----@field public ["id"] gamebbScriptID
+---@field public definition gamebbScriptDefinition
+---@field public id gamebbScriptID
 gameBlackboardChangedEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CurrencyUpdateCallback: gameInventoryScriptCallback
----@field public ["playerStatsUIHolder"] PlayerStatsUIHolder
----@field public ["transactionSystem"] gameTransactionSystem
----@field public ["player"] PlayerPuppet
+---@field public playerStatsUIHolder PlayerStatsUIHolder
+---@field public transactionSystem gameTransactionSystem
+---@field public player PlayerPuppet
 CurrencyUpdateCallback = {}
 
 ---@param fields? table

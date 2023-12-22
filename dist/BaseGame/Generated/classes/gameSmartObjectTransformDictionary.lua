@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectTransformDictionary: ISerializable
----@field public ["transforms"] gameSmartObjectTransformDictionaryTransformEntry[]
+---@field public transforms gameSmartObjectTransformDictionaryTransformEntry[]
 gameSmartObjectTransformDictionary = {}
 
 ---@param fields? table

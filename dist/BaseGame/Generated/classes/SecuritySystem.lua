@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecuritySystem: DeviceSystemBase
----@field private ["savedOutputCache"] OutputValidationDataStruct[]
+---@field private savedOutputCache OutputValidationDataStruct[]
 SecuritySystem = {}
 
 ---@param fields? table

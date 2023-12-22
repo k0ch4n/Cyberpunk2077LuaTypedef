@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalCodexCategory: gameJournalFileEntry
----@field public ["categoryName"] LocalizationString
+---@field public categoryName LocalizationString
 gameJournalCodexCategory = {}
 
 ---@param fields? table

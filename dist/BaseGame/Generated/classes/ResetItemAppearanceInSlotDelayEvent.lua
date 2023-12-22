@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResetItemAppearanceInSlotDelayEvent: redEvent
----@field public ["slotID"] TweakDBID
+---@field public slotID TweakDBID
 ResetItemAppearanceInSlotDelayEvent = {}
 
 ---@param fields? table

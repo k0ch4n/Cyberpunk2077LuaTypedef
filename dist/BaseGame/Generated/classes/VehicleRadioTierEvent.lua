@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleRadioTierEvent: redEvent
----@field public ["radioTier"] Uint32
----@field public ["overrideTier"] Bool
+---@field public radioTier Uint32
+---@field public overrideTier Bool
 VehicleRadioTierEvent = {}
 
 ---@param fields? table

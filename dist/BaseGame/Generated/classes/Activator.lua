@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class Activator: InteractiveMasterDevice
----@field private ["animFeature"] AnimFeature_SimpleDevice
----@field private ["hitCount"] Int32
----@field private ["meshComponent"] entMeshComponent
----@field public ["meshAppearence"] CName
----@field public ["meshAppearenceBreaking"] CName
----@field public ["meshAppearenceBroken"] CName
----@field public ["defaultDelay"] Float
----@field public ["yellowDelay"] Float
----@field public ["redDelay"] Float
+---@field private animFeature AnimFeature_SimpleDevice
+---@field private hitCount Int32
+---@field private meshComponent entMeshComponent
+---@field public meshAppearence CName
+---@field public meshAppearenceBreaking CName
+---@field public meshAppearenceBroken CName
+---@field public defaultDelay Float
+---@field public yellowDelay Float
+---@field public redDelay Float
 Activator = {}
 
 ---@param fields? table

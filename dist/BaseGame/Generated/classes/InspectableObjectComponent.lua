@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InspectableObjectComponent: gameScriptableComponent
----@field public ["factToAdd"] CName
----@field public ["itemID"] String
----@field public ["offset"] Float
----@field public ["adsOffset"] Float
----@field public ["timeToScan"] Float
----@field private ["slot"] String
+---@field public factToAdd CName
+---@field public itemID String
+---@field public offset Float
+---@field public adsOffset Float
+---@field public timeToScan Float
+---@field private slot String
 InspectableObjectComponent = {}
 
 ---@param fields? table

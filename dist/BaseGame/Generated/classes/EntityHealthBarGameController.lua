@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class EntityHealthBarGameController: gameuiWidgetGameController
----@field private ["healthControllerRef"] inkWidgetReference
----@field private ["healthPercentageRef"] inkTextWidgetReference
----@field private ["targetEntityRef"] gameEntityReference
----@field private ["healthStatListener"] EntityHealthStatListener
----@field private ["healthController"] NameplateBarLogicController
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["targetEntityID"] entEntityID
+---@field private healthControllerRef inkWidgetReference
+---@field private healthPercentageRef inkTextWidgetReference
+---@field private targetEntityRef gameEntityReference
+---@field private healthStatListener EntityHealthStatListener
+---@field private healthController NameplateBarLogicController
+---@field private gameInstance ScriptGameInstance
+---@field private targetEntityID entEntityID
 EntityHealthBarGameController = {}
 
 ---@param fields? table

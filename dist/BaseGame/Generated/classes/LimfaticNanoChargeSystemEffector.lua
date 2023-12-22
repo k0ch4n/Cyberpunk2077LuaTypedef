@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class LimfaticNanoChargeSystemEffector: gameContinuousEffector
----@field public ["maxDistance"] Float
----@field public ["statusEffectID"] TweakDBID
----@field public ["ownerID"] entEntityID
----@field public ["statusEffectIsApplied"] Bool
+---@field public maxDistance Float
+---@field public statusEffectID TweakDBID
+---@field public ownerID entEntityID
+---@field public statusEffectIsApplied Bool
 LimfaticNanoChargeSystemEffector = {}
 
 ---@param fields? table

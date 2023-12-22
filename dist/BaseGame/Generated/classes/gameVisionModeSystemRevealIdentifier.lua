@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeSystemRevealIdentifier
----@field public ["sourceEntityId"] entEntityID
----@field public ["reason"] CName
+---@field public sourceEntityId entEntityID
+---@field public reason CName
 gameVisionModeSystemRevealIdentifier = {}
 
 ---@param fields? table

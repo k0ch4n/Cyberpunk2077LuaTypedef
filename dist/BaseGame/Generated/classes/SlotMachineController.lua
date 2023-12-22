@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class SlotMachineController: inkWidgetLogicController
----@field private ["barrelAnimationID"] CName
----@field private ["winAnimationsID"] CName[]
----@field private ["looseAnimationID"] CName
----@field private ["slotWidgets"] inkWidgetReference[]
----@field private ["imagePresets"] CName[]
----@field private ["winChance"] Int32
----@field private ["maxWinChance"] Int32
----@field private ["slots"] SlotMachineSlot[]
----@field private ["barellAnimation"] inkanimProxy
----@field private ["outcomeAnimation"] inkanimProxy
----@field private ["shouldWinNextTime"] Bool
+---@field private barrelAnimationID CName
+---@field private winAnimationsID CName[]
+---@field private looseAnimationID CName
+---@field private slotWidgets inkWidgetReference[]
+---@field private imagePresets CName[]
+---@field private winChance Int32
+---@field private maxWinChance Int32
+---@field private slots SlotMachineSlot[]
+---@field private barellAnimation inkanimProxy
+---@field private outcomeAnimation inkanimProxy
+---@field private shouldWinNextTime Bool
 SlotMachineController = {}
 
 ---@param fields? table

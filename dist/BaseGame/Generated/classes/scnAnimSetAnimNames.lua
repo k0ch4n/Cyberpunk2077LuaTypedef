@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnAnimSetAnimNames
----@field public ["animationNames"] CName[]
+---@field public animationNames CName[]
 scnAnimSetAnimNames = {}
 
 ---@param fields? table

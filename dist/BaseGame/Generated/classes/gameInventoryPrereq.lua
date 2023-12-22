@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameInventoryPrereq: gameIComparisonPrereq
----@field public ["itemID"] gameItemID
----@field public ["amount"] Uint32
+---@field public itemID gameItemID
+---@field public amount Uint32
 gameInventoryPrereq = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class EAISquadTactic: Enum
----@field ["Invalid"] EAISquadTactic 0
----@field ["Flanking"] EAISquadTactic 1
----@field ["Assault"] EAISquadTactic 2
----@field ["Snipe"] EAISquadTactic 3
----@field ["Regroup"] EAISquadTactic 4
----@field ["Retreat"] EAISquadTactic 5
----@field ["Defend"] EAISquadTactic 6
----@field ["Suppress"] EAISquadTactic 7
----@field ["Medivac"] EAISquadTactic 8
----@field ["Panic"] EAISquadTactic 9
+---@field Invalid 0
+---@field Flanking 1
+---@field Assault 2
+---@field Snipe 3
+---@field Regroup 4
+---@field Retreat 5
+---@field Defend 6
+---@field Suppress 7
+---@field Medivac 8
+---@field Panic 9
 EAISquadTactic = {}

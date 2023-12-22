@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ItemDisplayType: Enum
----@field ["Item"] ItemDisplayType 0
----@field ["Weapon"] ItemDisplayType 1
+---@field Item 0
+---@field Weapon 1
 ItemDisplayType = {}

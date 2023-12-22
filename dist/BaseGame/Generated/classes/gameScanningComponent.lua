@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class gameScanningComponent: gameComponent
----@field public ["scannableData"] gameScanningTooltipElementDef[]
----@field public ["timeNeeded"] Float
----@field public ["autoGenerateBoundingSphere"] Bool
----@field public ["boundingSphere"] Sphere
----@field public ["ignoresScanningDistanceLimit"] Bool
----@field public ["cpoEnableMultiplePlayersScanningModifier"] Bool
----@field private ["isBraindanceClue"] Bool
----@field private ["BraindanceLayer"] braindanceVisionMode
----@field private ["isBraindanceBlocked"] Bool
----@field private ["isBraindanceLayerUnlocked"] Bool
----@field private ["isBraindanceTimelineUnlocked"] Bool
----@field private ["isBraindanceActive"] Bool
----@field private ["currentBraindanceLayer"] Int32
----@field private ["clues"] FocusClueDefinition[]
----@field private ["objectDescription"] ObjectScanningDescription
----@field private ["scanningBarText"] TweakDBID
----@field private ["isFocusModeActive"] Bool
----@field private ["currentHighlight"] FocusForcedHighlightData
----@field private ["isHudManagerInitialized"] Bool
----@field private ["isBeingScanned"] Bool
----@field private ["isScanningCluesBlocked"] Bool
----@field private ["isEntityVisible"] Bool
----@field private ["OnBraindanceVisionModeChangeCallback"] redCallbackObject
----@field private ["OnBraindanceFppChangeCallback"] redCallbackObject
+---@field public scannableData gameScanningTooltipElementDef[]
+---@field public timeNeeded Float
+---@field public autoGenerateBoundingSphere Bool
+---@field public boundingSphere Sphere
+---@field public ignoresScanningDistanceLimit Bool
+---@field public cpoEnableMultiplePlayersScanningModifier Bool
+---@field private isBraindanceClue Bool
+---@field private BraindanceLayer braindanceVisionMode
+---@field private isBraindanceBlocked Bool
+---@field private isBraindanceLayerUnlocked Bool
+---@field private isBraindanceTimelineUnlocked Bool
+---@field private isBraindanceActive Bool
+---@field private currentBraindanceLayer Int32
+---@field private clues FocusClueDefinition[]
+---@field private objectDescription ObjectScanningDescription
+---@field private scanningBarText TweakDBID
+---@field private isFocusModeActive Bool
+---@field private currentHighlight FocusForcedHighlightData
+---@field private isHudManagerInitialized Bool
+---@field private isBeingScanned Bool
+---@field private isScanningCluesBlocked Bool
+---@field private isEntityVisible Bool
+---@field private OnBraindanceVisionModeChangeCallback redCallbackObject
+---@field private OnBraindanceFppChangeCallback redCallbackObject
 gameScanningComponent = {}
 
 ---@param fields? table

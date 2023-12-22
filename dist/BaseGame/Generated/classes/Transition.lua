@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Transition: redEvent
----@field public ["listenerID"] Uint32
+---@field public listenerID Uint32
 Transition = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class navLocomotionPath: ISerializable
----@field public ["splineNodeRef"] NodeRef
----@field public ["segments"] navLocomotionPathSegmentInfo[]
----@field public ["backwardSegments"] navLocomotionPathSegmentInfo[]
----@field public ["points"] navLocomotionPathPointInfo[]
----@field public ["userData"] navLocomotionPathPointUserDataEntry[]
+---@field public splineNodeRef NodeRef
+---@field public segments navLocomotionPathSegmentInfo[]
+---@field public backwardSegments navLocomotionPathSegmentInfo[]
+---@field public points navLocomotionPathPointInfo[]
+---@field public userData navLocomotionPathPointUserDataEntry[]
 navLocomotionPath = {}
 
 ---@param fields? table

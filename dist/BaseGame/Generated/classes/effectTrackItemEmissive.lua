@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectTrackItemEmissive: effectTrackItem
----@field public ["override"] Bool
----@field public ["brigtness"] effectEffectParameterEvaluatorFloat
+---@field public override Bool
+---@field public brigtness effectEffectParameterEvaluatorFloat
 effectTrackItemEmissive = {}
 
 ---@param fields? table

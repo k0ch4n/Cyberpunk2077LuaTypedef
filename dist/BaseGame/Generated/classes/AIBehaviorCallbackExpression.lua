@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIBehaviorCallbackExpression: AIbehaviorexpressionScript
----@field protected ["callbackName"] CName
----@field protected ["initialValue"] Bool
----@field protected ["callbackAction"] ECallbackExpressionActions
----@field protected ["callbackId"] Uint32
----@field protected ["value"] Bool
+---@field protected callbackName CName
+---@field protected initialValue Bool
+---@field protected callbackAction ECallbackExpressionActions
+---@field protected callbackId Uint32
+---@field protected value Bool
 AIBehaviorCallbackExpression = {}
 
 ---@param fields? table

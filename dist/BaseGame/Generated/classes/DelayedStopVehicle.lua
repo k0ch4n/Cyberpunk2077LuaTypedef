@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayedStopVehicle: gameScriptableSystemRequest
----@field public ["state"] VehiclePreventionHackState
+---@field public state VehiclePreventionHackState
 DelayedStopVehicle = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DebugInteractionObject: gameObject
----@field private ["choices"] SDebugChoice[]
----@field private ["interaction"] gameinteractionsComponent
+---@field private choices SDebugChoice[]
+---@field private interaction gameinteractionsComponent
 DebugInteractionObject = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InterestingFactsListenersIds
----@field public ["zone"] Uint32
+---@field public zone Uint32
 InterestingFactsListenersIds = {}
 
 ---@param fields? table

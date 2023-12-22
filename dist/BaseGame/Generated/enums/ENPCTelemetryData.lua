@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ENPCTelemetryData: Enum
----@field ["HitByLightAttack"] ENPCTelemetryData 0
----@field ["HitByStrongAttack"] ENPCTelemetryData 1
----@field ["HitByFinalComboAttack"] ENPCTelemetryData 2
----@field ["HitByBlockAttack"] ENPCTelemetryData 3
----@field ["BlockedAttack"] ENPCTelemetryData 4
----@field ["DeflectedAttack"] ENPCTelemetryData 5
----@field ["WasGuardBreaked"] ENPCTelemetryData 6
+---@field HitByLightAttack 0
+---@field HitByStrongAttack 1
+---@field HitByFinalComboAttack 2
+---@field HitByBlockAttack 3
+---@field BlockedAttack 4
+---@field DeflectedAttack 5
+---@field WasGuardBreaked 6
 ENPCTelemetryData = {}

@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class blunderbussWeaponController: gameuiWidgetGameController
----@field private ["chargeWidgetInitialY"] Float
----@field private ["chargeWidgetSize"] Vector2
----@field private ["semiAutoModeInfo"] inkWidget
----@field private ["chargeModeInfo"] inkWidget
----@field private ["semiAutoModeIndicator"] inkWidget
----@field private ["chargeModeIndicator"] inkWidget
----@field private ["shots"] inkWidget[]
----@field private ["charge"] inkWidget
----@field private ["onCharge"] redCallbackObject
----@field private ["onTriggerMode"] redCallbackObject
----@field private ["onMagazineAmmoCount"] redCallbackObject
----@field private ["blackboard"] gameIBlackboard
+---@field private chargeWidgetInitialY Float
+---@field private chargeWidgetSize Vector2
+---@field private semiAutoModeInfo inkWidget
+---@field private chargeModeInfo inkWidget
+---@field private semiAutoModeIndicator inkWidget
+---@field private chargeModeIndicator inkWidget
+---@field private shots inkWidget[]
+---@field private charge inkWidget
+---@field private onCharge redCallbackObject
+---@field private onTriggerMode redCallbackObject
+---@field private onMagazineAmmoCount redCallbackObject
+---@field private blackboard gameIBlackboard
 blunderbussWeaponController = {}
 
 ---@param fields? table

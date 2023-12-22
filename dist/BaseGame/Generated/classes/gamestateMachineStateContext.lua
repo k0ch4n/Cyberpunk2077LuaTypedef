@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineStateContext
----@field public ["snapshot"] gamestateMachineStateSnapshotsContainer
----@field public ["permanentParameters"] gamestateMachineStateContextParameters
+---@field public snapshot gamestateMachineStateSnapshotsContainer
+---@field public permanentParameters gamestateMachineStateContextParameters
 gamestateMachineStateContext = {}
 
 ---@param fields? table

@@ -2,72 +2,72 @@
 ---@diagnostic disable
 
 ---@class gamedataStatusEffectType: Enum
----@field ["AndroidTurnOff"] gamedataStatusEffectType 0
----@field ["AndroidTurnOn"] gamedataStatusEffectType 1
----@field ["Berserk"] gamedataStatusEffectType 2
----@field ["Berserker"] gamedataStatusEffectType 3
----@field ["BlackwallHack"] gamedataStatusEffectType 4
----@field ["Bleeding"] gamedataStatusEffectType 5
----@field ["Blind"] gamedataStatusEffectType 6
----@field ["BlockCoverVisibilityReduction"] gamedataStatusEffectType 7
----@field ["BlockTargetingPlayer"] gamedataStatusEffectType 8
----@field ["BrainMelt"] gamedataStatusEffectType 9
----@field ["Burning"] gamedataStatusEffectType 10
----@field ["Cloaked"] gamedataStatusEffectType 11
----@field ["CommsCall"] gamedataStatusEffectType 12
----@field ["CommsNoise"] gamedataStatusEffectType 13
----@field ["Crippled"] gamedataStatusEffectType 14
----@field ["DamageBurst"] gamedataStatusEffectType 15
----@field ["Deafened"] gamedataStatusEffectType 16
----@field ["Defeated"] gamedataStatusEffectType 17
----@field ["DefeatedWithRecover"] gamedataStatusEffectType 18
----@field ["EMP"] gamedataStatusEffectType 19
----@field ["Electrocuted"] gamedataStatusEffectType 20
----@field ["Exhausted"] gamedataStatusEffectType 21
----@field ["ForceShoot"] gamedataStatusEffectType 22
----@field ["Grapple"] gamedataStatusEffectType 23
----@field ["Housing"] gamedataStatusEffectType 24
----@field ["Jam"] gamedataStatusEffectType 25
----@field ["JamCommuniations"] gamedataStatusEffectType 26
----@field ["Kill"] gamedataStatusEffectType 27
----@field ["Knockdown"] gamedataStatusEffectType 28
----@field ["Madness"] gamedataStatusEffectType 29
----@field ["MagnetDeviceNPC"] gamedataStatusEffectType 30
----@field ["MechWeaponsDown"] gamedataStatusEffectType 31
----@field ["MeleeInvulnerability"] gamedataStatusEffectType 32
----@field ["Misc"] gamedataStatusEffectType 33
----@field ["MuteAudioStims"] gamedataStatusEffectType 34
----@field ["NetwatcherHackStage1"] gamedataStatusEffectType 35
----@field ["NetwatcherHackStage2"] gamedataStatusEffectType 36
----@field ["NetwatcherHackStage3"] gamedataStatusEffectType 37
----@field ["Overheat"] gamedataStatusEffectType 38
----@field ["Overload"] gamedataStatusEffectType 39
----@field ["Pain"] gamedataStatusEffectType 40
----@field ["PassiveBuff"] gamedataStatusEffectType 41
----@field ["PassiveDebuff"] gamedataStatusEffectType 42
----@field ["PlayerCooldown"] gamedataStatusEffectType 43
----@field ["Poisoned"] gamedataStatusEffectType 44
----@field ["QuickHackFreezeLocomotion"] gamedataStatusEffectType 45
----@field ["QuickHackStaggerCyberware"] gamedataStatusEffectType 46
----@field ["QuickHackStaggerLocomotion"] gamedataStatusEffectType 47
----@field ["QuickHackStaggerWeapon"] gamedataStatusEffectType 48
----@field ["Quickhack"] gamedataStatusEffectType 49
----@field ["Regeneration"] gamedataStatusEffectType 50
----@field ["Sandevistan"] gamedataStatusEffectType 51
----@field ["SetFriendly"] gamedataStatusEffectType 52
----@field ["Sleep"] gamedataStatusEffectType 53
----@field ["SoftKill"] gamedataStatusEffectType 54
----@field ["Stagger"] gamedataStatusEffectType 55
----@field ["StrongArmsActive"] gamedataStatusEffectType 56
----@field ["Stunned"] gamedataStatusEffectType 57
----@field ["SuicideHack"] gamedataStatusEffectType 58
----@field ["SystemCollapse"] gamedataStatusEffectType 59
----@field ["Unconscious"] gamedataStatusEffectType 60
----@field ["UncontrolledMovement"] gamedataStatusEffectType 61
----@field ["VehicleKnockdown"] gamedataStatusEffectType 62
----@field ["WeakspotOverload"] gamedataStatusEffectType 63
----@field ["Wounded"] gamedataStatusEffectType 64
----@field ["CPOShocked"] gamedataStatusEffectType 65
----@field ["Count"] gamedataStatusEffectType 66
----@field ["Invalid"] gamedataStatusEffectType 67
+---@field AndroidTurnOff 0
+---@field AndroidTurnOn 1
+---@field Berserk 2
+---@field Berserker 3
+---@field BlackwallHack 4
+---@field Bleeding 5
+---@field Blind 6
+---@field BlockCoverVisibilityReduction 7
+---@field BlockTargetingPlayer 8
+---@field BrainMelt 9
+---@field Burning 10
+---@field Cloaked 11
+---@field CommsCall 12
+---@field CommsNoise 13
+---@field Crippled 14
+---@field DamageBurst 15
+---@field Deafened 16
+---@field Defeated 17
+---@field DefeatedWithRecover 18
+---@field EMP 19
+---@field Electrocuted 20
+---@field Exhausted 21
+---@field ForceShoot 22
+---@field Grapple 23
+---@field Housing 24
+---@field Jam 25
+---@field JamCommuniations 26
+---@field Kill 27
+---@field Knockdown 28
+---@field Madness 29
+---@field MagnetDeviceNPC 30
+---@field MechWeaponsDown 31
+---@field MeleeInvulnerability 32
+---@field Misc 33
+---@field MuteAudioStims 34
+---@field NetwatcherHackStage1 35
+---@field NetwatcherHackStage2 36
+---@field NetwatcherHackStage3 37
+---@field Overheat 38
+---@field Overload 39
+---@field Pain 40
+---@field PassiveBuff 41
+---@field PassiveDebuff 42
+---@field PlayerCooldown 43
+---@field Poisoned 44
+---@field QuickHackFreezeLocomotion 45
+---@field QuickHackStaggerCyberware 46
+---@field QuickHackStaggerLocomotion 47
+---@field QuickHackStaggerWeapon 48
+---@field Quickhack 49
+---@field Regeneration 50
+---@field Sandevistan 51
+---@field SetFriendly 52
+---@field Sleep 53
+---@field SoftKill 54
+---@field Stagger 55
+---@field StrongArmsActive 56
+---@field Stunned 57
+---@field SuicideHack 58
+---@field SystemCollapse 59
+---@field Unconscious 60
+---@field UncontrolledMovement 61
+---@field VehicleKnockdown 62
+---@field WeakspotOverload 63
+---@field Wounded 64
+---@field CPOShocked 65
+---@field Count 66
+---@field Invalid 67
 gamedataStatusEffectType = {}

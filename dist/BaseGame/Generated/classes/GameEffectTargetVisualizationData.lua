@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameEffectTargetVisualizationData: IScriptable
----@field private ["bucketName"] CName
----@field private ["forceHighlightTargets"] entEntityID[]
+---@field private bucketName CName
+---@field private forceHighlightTargets entEntityID[]
 GameEffectTargetVisualizationData = {}
 
 ---@param fields? table

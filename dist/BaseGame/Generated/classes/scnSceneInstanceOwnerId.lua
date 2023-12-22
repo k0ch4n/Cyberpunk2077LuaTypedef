@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneInstanceOwnerId
----@field public ["hash"] Uint64
+---@field public hash Uint64
 scnSceneInstanceOwnerId = {}
 
 ---@param fields? table

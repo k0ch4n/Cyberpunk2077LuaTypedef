@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShouldContinuePatrolFromNextControlPoint: AIbehaviorconditionScript
----@field public ["patrolContinuationPolicy"] AIArgumentMapping
+---@field public patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromNextControlPoint = {}
 
 ---@param fields? table

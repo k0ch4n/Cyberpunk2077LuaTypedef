@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MovableQuestTrigger: gameObject
----@field protected ["factName"] CName
----@field protected ["onlyDetectsPlayer"] Bool
+---@field protected factName CName
+---@field protected onlyDetectsPlayer Bool
 MovableQuestTrigger = {}
 
 ---@param fields? table

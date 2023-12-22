@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WidgetAnimationManager: IScriptable
----@field private ["animations"] SWidgetAnimationData[]
+---@field private animations SWidgetAnimationData[]
 WidgetAnimationManager = {}
 
 ---@param fields? table

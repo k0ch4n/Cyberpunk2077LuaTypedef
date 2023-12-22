@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimationSystemForcedVisibilityManager: gameScriptableSystem
----@field private ["entities"] AnimationSystemForcedVisibilityEntityData[]
+---@field private entities AnimationSystemForcedVisibilityEntityData[]
 AnimationSystemForcedVisibilityManager = {}
 
 ---@param fields? table

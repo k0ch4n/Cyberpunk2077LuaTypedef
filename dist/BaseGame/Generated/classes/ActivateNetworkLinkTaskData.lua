@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivateNetworkLinkTaskData: gameScriptTaskData
----@field public ["linkIndex"] Int32
+---@field public linkIndex Int32
 ActivateNetworkLinkTaskData = {}
 
 ---@param fields? table

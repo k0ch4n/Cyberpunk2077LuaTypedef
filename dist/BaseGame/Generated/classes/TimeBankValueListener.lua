@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TimeBankValueListener: gameScriptStatPoolsListener
----@field public ["effector"] StatPoolBasedTimeBankEffector
+---@field public effector StatPoolBasedTimeBankEffector
 TimeBankValueListener = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMuppetControllerSnapshot
----@field public ["controllerId"] CName
----@field public ["isActive"] Bool
+---@field public controllerId CName
+---@field public isActive Bool
 gameMuppetControllerSnapshot = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargeEventsAbstract: WeaponEventsTransition
----@field protected ["layerId"] Uint32
+---@field protected layerId Uint32
 ChargeEventsAbstract = {}
 
 ---@protected

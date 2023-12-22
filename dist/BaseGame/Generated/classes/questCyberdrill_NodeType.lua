@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCyberdrill_NodeType: questIInteractiveObjectManagerNodeType
----@field public ["params"] questCyberdrill_NodeTypeParams[]
+---@field public params questCyberdrill_NodeTypeParams[]
 questCyberdrill_NodeType = {}
 
 ---@param fields? table

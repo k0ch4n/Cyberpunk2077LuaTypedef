@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LoopAnimationLogicController: inkWidgetLogicController
----@field private ["defaultAnimation"] CName
----@field private ["selectionRule"] inkSelectionRule
+---@field private defaultAnimation CName
+---@field private selectionRule inkSelectionRule
 LoopAnimationLogicController = {}
 
 ---@param fields? table

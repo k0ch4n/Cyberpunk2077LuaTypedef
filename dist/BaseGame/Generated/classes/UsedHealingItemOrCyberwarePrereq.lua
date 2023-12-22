@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UsedHealingItemOrCyberwarePrereq: gameIScriptablePrereq
----@field public ["curValue"] Uint32
+---@field public curValue Uint32
 UsedHealingItemOrCyberwarePrereq = {}
 
 ---@param fields? table

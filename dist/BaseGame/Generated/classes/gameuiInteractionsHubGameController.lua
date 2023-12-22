@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gameuiInteractionsHubGameController: gameuiHUDGameController
----@field private ["TopInteractionWidgetsLibraries"] inkWidgetLibraryReference[]
----@field private ["TopInteractionsRoot"] inkWidgetReference
----@field private ["BotInteractionWidgetsLibraries"] inkWidgetLibraryReference[]
----@field private ["BotInteractionsRoot"] inkWidgetReference
----@field private ["TooltipsManagerRef"] inkWidgetReference
----@field private ["TooltipsAnchorPoint"] inkWidgetReference
----@field private ["TooltipsManager"] gameuiTooltipsManager
----@field public ["tooltipProvider"] TooltipProvider
+---@field private TopInteractionWidgetsLibraries inkWidgetLibraryReference[]
+---@field private TopInteractionsRoot inkWidgetReference
+---@field private BotInteractionWidgetsLibraries inkWidgetLibraryReference[]
+---@field private BotInteractionsRoot inkWidgetReference
+---@field private TooltipsManagerRef inkWidgetReference
+---@field private TooltipsAnchorPoint inkWidgetReference
+---@field private TooltipsManager gameuiTooltipsManager
+---@field public tooltipProvider TooltipProvider
 gameuiInteractionsHubGameController = {}
 
 ---@param fields? table

@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class gamedataQuality: Enum
----@field ["Common"] gamedataQuality 0
----@field ["CommonPlus"] gamedataQuality 1
----@field ["Epic"] gamedataQuality 2
----@field ["EpicPlus"] gamedataQuality 3
----@field ["Iconic"] gamedataQuality 4
----@field ["Legendary"] gamedataQuality 5
----@field ["LegendaryPlus"] gamedataQuality 6
----@field ["LegendaryPlusPlus"] gamedataQuality 7
----@field ["Random"] gamedataQuality 8
----@field ["Rare"] gamedataQuality 9
----@field ["RarePlus"] gamedataQuality 10
----@field ["Uncommon"] gamedataQuality 11
----@field ["UncommonPlus"] gamedataQuality 12
----@field ["Count"] gamedataQuality 13
----@field ["Invalid"] gamedataQuality 14
+---@field Common 0
+---@field CommonPlus 1
+---@field Epic 2
+---@field EpicPlus 3
+---@field Iconic 4
+---@field Legendary 5
+---@field LegendaryPlus 6
+---@field LegendaryPlusPlus 7
+---@field Random 8
+---@field Rare 9
+---@field RarePlus 10
+---@field Uncommon 11
+---@field UncommonPlus 12
+---@field Count 13
+---@field Invalid 14
 gamedataQuality = {}

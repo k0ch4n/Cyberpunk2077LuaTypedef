@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomActionOperationTriggerData: DeviceOperationTriggerData
----@field public ["actionID"] CName
+---@field public actionID CName
 CustomActionOperationTriggerData = {}
 
 ---@param fields? table

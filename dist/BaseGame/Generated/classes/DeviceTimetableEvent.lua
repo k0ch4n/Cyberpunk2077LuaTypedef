@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceTimetableEvent: redEvent
----@field public ["state"] EDeviceStatus
----@field public ["requesterID"] entEntityID
----@field public ["restorePower"] Bool
+---@field public state EDeviceStatus
+---@field public requesterID entEntityID
+---@field public restorePower Bool
 DeviceTimetableEvent = {}
 
 ---@param fields? table

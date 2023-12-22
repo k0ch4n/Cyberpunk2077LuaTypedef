@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class textTextBlockFontStyle
----@field public ["fontStyle"] CName
----@field public ["outlineSize"] Int32
----@field public ["outlineColor"] HDRColor
+---@field public fontStyle CName
+---@field public outlineSize Int32
+---@field public outlineColor HDRColor
 textTextBlockFontStyle = {}
 
 ---@param fields? table

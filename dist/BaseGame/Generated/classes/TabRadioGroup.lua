@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TabRadioGroup: inkRadioGroupController
----@field private ["root"] inkCompoundWidgetReference
----@field public ["toggles"] TabButtonController[]
----@field private ["TooltipsManager"] gameuiTooltipsManager
+---@field private root inkCompoundWidgetReference
+---@field public toggles TabButtonController[]
+---@field private TooltipsManager gameuiTooltipsManager
 TabRadioGroup = {}
 
 ---@param fields? table

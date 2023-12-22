@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HotkeyWidgetStatsListener: gameScriptStatusEffectListener
----@field private ["controller"] GenericHotkeyController
+---@field private controller GenericHotkeyController
 HotkeyWidgetStatsListener = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class netPeerID
----@field public ["value"] Uint8
+---@field public value Uint8
 netPeerID = {}
 
 ---@param fields? table

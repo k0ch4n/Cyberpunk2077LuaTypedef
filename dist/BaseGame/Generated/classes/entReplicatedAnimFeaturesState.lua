@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entReplicatedAnimFeaturesState
----@field public ["items"] entReplicatedAnimFeature[]
----@field public ["lastAppliedActionsTime"] netTime
+---@field public items entReplicatedAnimFeature[]
+---@field public lastAppliedActionsTime netTime
 entReplicatedAnimFeaturesState = {}
 
 ---@param fields? table

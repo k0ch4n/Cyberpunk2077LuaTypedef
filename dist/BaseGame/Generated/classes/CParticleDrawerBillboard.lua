@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleDrawerBillboard: IParticleDrawer
----@field public ["isGPUBased"] Bool
+---@field public isGPUBased Bool
 CParticleDrawerBillboard = {}
 
 ---@param fields? table

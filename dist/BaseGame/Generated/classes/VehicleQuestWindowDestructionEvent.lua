@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestWindowDestructionEvent: redEvent
----@field public ["windowName"] CName
----@field public ["window"] vehicleQuestWindowDestruction
+---@field public windowName CName
+---@field public window vehicleQuestWindowDestruction
 VehicleQuestWindowDestructionEvent = {}
 
 ---@param fields? table

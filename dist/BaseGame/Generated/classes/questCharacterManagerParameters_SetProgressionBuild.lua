@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetProgressionBuild: questICharacterManagerParameters_NodeSubType
----@field public ["buildID"] TweakDBID
+---@field public buildID TweakDBID
 questCharacterManagerParameters_SetProgressionBuild = {}
 
 ---@param fields? table

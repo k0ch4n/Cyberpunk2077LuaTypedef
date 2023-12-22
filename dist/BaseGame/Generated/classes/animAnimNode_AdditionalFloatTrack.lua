@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_AdditionalFloatTrack: animAnimNode_Base
----@field public ["poseInputNode"] animPoseLink
----@field public ["additionalTracks"] animAdditionalFloatTrackContainer
+---@field public poseInputNode animPoseLink
+---@field public additionalTracks animAdditionalFloatTrackContainer
 animAnimNode_AdditionalFloatTrack = {}
 
 ---@param fields? table

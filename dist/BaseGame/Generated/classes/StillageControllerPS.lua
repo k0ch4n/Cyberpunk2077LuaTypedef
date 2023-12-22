@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StillageControllerPS: ScriptableDeviceComponentPS
----@field private ["isCleared"] Bool
+---@field private isCleared Bool
 StillageControllerPS = {}
 
 ---@param fields? table

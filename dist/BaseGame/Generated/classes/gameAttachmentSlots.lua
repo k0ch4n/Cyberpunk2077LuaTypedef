@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAttachmentSlots: entIComponent
----@field public ["animParams"] gameAnimParamSlotsOption[]
+---@field public animParams gameAnimParamSlotsOption[]
 gameAttachmentSlots = {}
 
 ---@param fields? table

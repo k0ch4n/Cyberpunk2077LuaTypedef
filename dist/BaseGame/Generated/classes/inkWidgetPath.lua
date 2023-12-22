@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetPath
----@field public ["names"] CName[]
+---@field public names CName[]
 inkWidgetPath = {}
 
 ---@param fields? table

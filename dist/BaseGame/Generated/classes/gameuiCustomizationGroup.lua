@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiCustomizationGroup
----@field public ["name"] CName
----@field public ["customization"] gameuiCustomizationAppearance[]
----@field public ["morphs"] gameuiCustomizationMorph[]
+---@field public name CName
+---@field public customization gameuiCustomizationAppearance[]
+---@field public morphs gameuiCustomizationMorph[]
 gameuiCustomizationGroup = {}
 
 ---@param fields? table

@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class ScannerDeviceHeaderGameController: BaseChunkGameController
----@field private ["nameText"] inkTextWidgetReference
----@field private ["fluffText"] inkTextWidgetReference
----@field private ["separator1"] inkRectangleWidgetReference
----@field private ["separator2"] inkRectangleWidgetReference
----@field private ["levelText"] inkTextWidgetReference
----@field private ["status"] inkTextWidgetReference
----@field private ["statusIcon"] inkImageWidgetReference
----@field private ["levelWrapper"] inkWidgetReference
----@field private ["nameCallbackID"] redCallbackObject
----@field private ["networkLevelCallbackID"] redCallbackObject
----@field private ["networkStatusCallbackID"] redCallbackObject
----@field private ["deviceStatusCallbackID"] redCallbackObject
----@field private ["attitudeCallbackID"] redCallbackObject
----@field private ["isValidName"] Bool
----@field private ["isValidNetworkLevel"] Bool
----@field private ["isValidnetworkStatus"] Bool
----@field private ["isValidDeviceStatus"] Bool
+---@field private nameText inkTextWidgetReference
+---@field private fluffText inkTextWidgetReference
+---@field private separator1 inkRectangleWidgetReference
+---@field private separator2 inkRectangleWidgetReference
+---@field private levelText inkTextWidgetReference
+---@field private status inkTextWidgetReference
+---@field private statusIcon inkImageWidgetReference
+---@field private levelWrapper inkWidgetReference
+---@field private nameCallbackID redCallbackObject
+---@field private networkLevelCallbackID redCallbackObject
+---@field private networkStatusCallbackID redCallbackObject
+---@field private deviceStatusCallbackID redCallbackObject
+---@field private attitudeCallbackID redCallbackObject
+---@field private isValidName Bool
+---@field private isValidNetworkLevel Bool
+---@field private isValidnetworkStatus Bool
+---@field private isValidDeviceStatus Bool
 ScannerDeviceHeaderGameController = {}
 
 ---@param fields? table

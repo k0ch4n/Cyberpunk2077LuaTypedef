@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animStanceState: Enum
----@field ["Stand"] animStanceState 0
----@field ["Crouch"] animStanceState 1
----@field ["Kneel"] animStanceState 2
----@field ["Cover"] animStanceState 3
----@field ["Swim"] animStanceState 4
----@field ["Crawl"] animStanceState 5
+---@field Stand 0
+---@field Crouch 1
+---@field Kneel 2
+---@field Cover 3
+---@field Swim 4
+---@field Crawl 5
 animStanceState = {}

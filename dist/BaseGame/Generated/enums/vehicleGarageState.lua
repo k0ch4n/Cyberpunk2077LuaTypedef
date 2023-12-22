@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleGarageState: Enum
----@field ["NoVehiclesAvailable"] vehicleGarageState 0
----@field ["SummonAvailable"] vehicleGarageState 1
----@field ["SummonDisabled"] vehicleGarageState 2
+---@field NoVehiclesAvailable 0
+---@field SummonAvailable 1
+---@field SummonDisabled 2
 vehicleGarageState = {}

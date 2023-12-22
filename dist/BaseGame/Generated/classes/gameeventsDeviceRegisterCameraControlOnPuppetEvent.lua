@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameeventsDeviceRegisterCameraControlOnPuppetEvent: redEvent
----@field public ["component"] gameDeviceCameraControlComponent
----@field public ["register"] Bool
+---@field public component gameDeviceCameraControlComponent
+---@field public register Bool
 gameeventsDeviceRegisterCameraControlOnPuppetEvent = {}
 
 ---@param fields? table

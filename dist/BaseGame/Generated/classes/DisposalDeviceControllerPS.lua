@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class DisposalDeviceControllerPS: ScriptableDeviceComponentPS
----@field private ["DisposalDeviceSetup"] DisposalDeviceSetup
----@field private ["distractionSetup"] DistractionSetup
----@field private ["explosionSetup"] DistractionSetup
----@field private ["isDistractionDisabled"] Bool
----@field private ["wasActivated"] Bool
----@field private ["wasLethalTakedownPerformed"] Bool
----@field private ["isPlayerCurrentlyPerformingDisposal"] Bool
+---@field private DisposalDeviceSetup DisposalDeviceSetup
+---@field private distractionSetup DistractionSetup
+---@field private explosionSetup DistractionSetup
+---@field private isDistractionDisabled Bool
+---@field private wasActivated Bool
+---@field private wasLethalTakedownPerformed Bool
+---@field private isPlayerCurrentlyPerformingDisposal Bool
 DisposalDeviceControllerPS = {}
 
 ---@param fields? table

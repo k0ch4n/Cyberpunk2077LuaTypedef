@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class interopEntityEffectSelectionSyncData
----@field public ["effectName"] CName
----@field public ["effectIDPath"] toolsEditorObjectIDPath
+---@field public effectName CName
+---@field public effectIDPath toolsEditorObjectIDPath
 interopEntityEffectSelectionSyncData = {}
 
 ---@param fields? table

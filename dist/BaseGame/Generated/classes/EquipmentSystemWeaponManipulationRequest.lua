@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EquipmentSystemWeaponManipulationRequest: gamePlayerScriptableSystemRequest
----@field public ["requestType"] EquipmentManipulationAction
----@field public ["equipAnimType"] gameEquipAnimationType
----@field public ["removeItemFromEquipSlot"] Bool
+---@field public requestType EquipmentManipulationAction
+---@field public equipAnimType gameEquipAnimationType
+---@field public removeItemFromEquipSlot Bool
 EquipmentSystemWeaponManipulationRequest = {}
 
 ---@param fields? table

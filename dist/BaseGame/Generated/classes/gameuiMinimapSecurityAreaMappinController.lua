@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapSecurityAreaMappinController: gameuiBaseMinimapMappinController
----@field public ["playerInArea"] Bool
----@field public ["area"] gamemappinsIArea
----@field public ["areaShapeWidget"] inkShapeWidgetReference
+---@field public playerInArea Bool
+---@field public area gamemappinsIArea
+---@field public areaShapeWidget inkShapeWidgetReference
 gameuiMinimapSecurityAreaMappinController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficCompiledNode: worldNode
----@field public ["aabb"] Box
+---@field public aabb Box
 worldTrafficCompiledNode = {}
 
 ---@param fields? table

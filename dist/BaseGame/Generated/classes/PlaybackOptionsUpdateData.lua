@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlaybackOptionsUpdateData: IScriptable
----@field public ["playbackOptions"] inkanimPlaybackOptions
+---@field public playbackOptions inkanimPlaybackOptions
 PlaybackOptionsUpdateData = {}
 
 ---@param fields? table

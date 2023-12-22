@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisassembleTargetRequest: redEvent
----@field public ["requester"] gameObject
+---@field public requester gameObject
 DisassembleTargetRequest = {}
 
 ---@param fields? table

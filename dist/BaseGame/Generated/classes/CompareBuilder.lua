@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CompareBuilder: IScriptable
----@field private ["FLOAT_EQUAL_EPSILON"] Float
----@field private ["value"] Int32
+---@field private FLOAT_EQUAL_EPSILON Float
+---@field private value Int32
 CompareBuilder = {}
 
 ---@param fields? table

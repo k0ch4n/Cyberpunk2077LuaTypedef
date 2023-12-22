@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_LocalizationSystem: gameScriptableSystem
----@field public ["interfaceLanguage"] CName
----@field public ["subtitleLanguage"] CName
----@field public ["voiceLanguage"] CName
----@field public ["playerGender"] Codeware_Localization_PlayerGender
----@field public ["providers"] Codeware_Localization_ModLocalizationProvider[]
----@field public ["interfaceTranslationLanguage"] CName
----@field public ["interfaceTranslationData"] inkScriptHashMap
----@field public ["subtitleTranslationLanguage"] CName
----@field public ["subtitleTranslationData"] inkScriptHashMap
----@field public ["settingsWatcher"] Codeware_Localization_LanguageSettingsWatcher
----@field public ["genderWatcher"] Codeware_Localization_PlayerGenderWatcher
----@field public ["localeChanged"] Bool
----@field public ["genderChanged"] Bool
+---@field public interfaceLanguage CName
+---@field public subtitleLanguage CName
+---@field public voiceLanguage CName
+---@field public playerGender Codeware_Localization_PlayerGender
+---@field public providers Codeware_Localization_ModLocalizationProvider[]
+---@field public interfaceTranslationLanguage CName
+---@field public interfaceTranslationData inkScriptHashMap
+---@field public subtitleTranslationLanguage CName
+---@field public subtitleTranslationData inkScriptHashMap
+---@field public settingsWatcher Codeware_Localization_LanguageSettingsWatcher
+---@field public genderWatcher Codeware_Localization_PlayerGenderWatcher
+---@field public localeChanged Bool
+---@field public genderChanged Bool
 Codeware_Localization_LocalizationSystem = {}
 
 ---@param fields? table

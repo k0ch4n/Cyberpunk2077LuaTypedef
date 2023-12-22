@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SThumbnailWidgetPackage: SWidgetPackage
----@field public ["thumbnailAction"] ThumbnailUI
----@field public ["deviceStatus"] String
+---@field public thumbnailAction ThumbnailUI
+---@field public deviceStatus String
 SThumbnailWidgetPackage = {}
 
 ---@param fields? table

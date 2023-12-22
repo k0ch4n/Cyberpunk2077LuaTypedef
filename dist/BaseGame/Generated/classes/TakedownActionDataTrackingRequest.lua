@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TakedownActionDataTrackingRequest: gamePlayerScriptableSystemRequest
----@field public ["eventType"] ETakedownActionType
+---@field public eventType ETakedownActionType
 TakedownActionDataTrackingRequest = {}
 
 ---@param fields? table

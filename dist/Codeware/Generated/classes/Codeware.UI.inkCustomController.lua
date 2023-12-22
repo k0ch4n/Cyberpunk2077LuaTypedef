@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_inkCustomController: inkWidgetLogicController
----@field public ["isCreated"] Bool
----@field public ["isInitialized"] Bool
----@field public ["detachedWidget"] inkWidget
----@field public ["gameController"] gameuiWidgetGameController
----@field public ["pendingCallbacks"] Codeware_UI_inkPendingCallback[]
----@field public ["rootWidget"] inkWidget
----@field public ["containerWidget"] inkCompoundWidget
+---@field public isCreated Bool
+---@field public isInitialized Bool
+---@field public detachedWidget inkWidget
+---@field public gameController gameuiWidgetGameController
+---@field public pendingCallbacks Codeware_UI_inkPendingCallback[]
+---@field public rootWidget inkWidget
+---@field public containerWidget inkCompoundWidget
 Codeware_UI_inkCustomController = {}
 
 ---@return nil

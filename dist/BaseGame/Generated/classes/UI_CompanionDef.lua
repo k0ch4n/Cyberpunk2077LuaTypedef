@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_CompanionDef: gamebbScriptDefinition
----@field public ["flatHeadSpawned"] gamebbScriptID_Bool
+---@field public flatHeadSpawned gamebbScriptID_Bool
 UI_CompanionDef = {}
 
 ---@param fields? table

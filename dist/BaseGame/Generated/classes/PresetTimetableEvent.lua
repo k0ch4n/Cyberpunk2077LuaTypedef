@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PresetTimetableEvent: redEvent
----@field public ["arrayPosition"] Int32
+---@field public arrayPosition Int32
 PresetTimetableEvent = {}
 
 ---@param fields? table

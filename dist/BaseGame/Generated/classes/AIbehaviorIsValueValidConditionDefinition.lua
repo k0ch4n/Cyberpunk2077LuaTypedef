@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorIsValueValidConditionDefinition: AIbehaviorConditionDefinition
----@field public ["value"] AIArgumentMapping
+---@field public value AIArgumentMapping
 AIbehaviorIsValueValidConditionDefinition = {}
 
 ---@param fields? table

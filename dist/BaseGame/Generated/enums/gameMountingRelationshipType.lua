@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMountingRelationshipType: Enum
----@field ["Invalid"] gameMountingRelationshipType -1
----@field ["Parent"] gameMountingRelationshipType 0
----@field ["Child"] gameMountingRelationshipType 1
+---@field Invalid -1
+---@field Parent 0
+---@field Child 1
 gameMountingRelationshipType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PerksItemHoldStart: redEvent
----@field public ["widget"] inkWidget
----@field public ["actionName"] inkActionName
----@field public ["perkData"] BasePerkDisplayData
+---@field public widget inkWidget
+---@field public actionName inkActionName
+---@field public perkData BasePerkDisplayData
 PerksItemHoldStart = {}
 
 ---@param fields? table

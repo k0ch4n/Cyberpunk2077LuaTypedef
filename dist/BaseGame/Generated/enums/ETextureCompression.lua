@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class ETextureCompression: Enum
----@field ["TCM_None"] ETextureCompression 0
----@field ["TCM_DXTNoAlpha"] ETextureCompression 1
----@field ["TCM_DXTAlpha"] ETextureCompression 2
----@field ["TCM_RGBE"] ETextureCompression 3
----@field ["TCM_Normalmap"] ETextureCompression 4
----@field ["TCM_Normals_DEPRECATED"] ETextureCompression 5
----@field ["TCM_NormalsHigh_DEPRECATED"] ETextureCompression 6
----@field ["TCM_NormalsGloss_DEPRECATED"] ETextureCompression 7
----@field ["TCM_TileMap"] ETextureCompression 8
----@field ["TCM_DXTAlphaLinear"] ETextureCompression 9
----@field ["TCM_QualityR"] ETextureCompression 10
----@field ["TCM_QualityRG"] ETextureCompression 11
----@field ["TCM_QualityColor"] ETextureCompression 12
----@field ["TCM_HalfHDR_Unsigned"] ETextureCompression 13
----@field ["TCM_HalfHDR_Signed"] ETextureCompression 14
----@field ["TCM_Max"] ETextureCompression 15
----@field ["TCM_Normals"] ETextureCompression 5
----@field ["TCM_NormalsHigh"] ETextureCompression 6
----@field ["TCM_NormalsGloss"] ETextureCompression 7
----@field ["TCM_HalfHDR"] ETextureCompression 13
+---@field TCM_None 0
+---@field TCM_DXTNoAlpha 1
+---@field TCM_DXTAlpha 2
+---@field TCM_RGBE 3
+---@field TCM_Normalmap 4
+---@field TCM_Normals_DEPRECATED 5
+---@field TCM_NormalsHigh_DEPRECATED 6
+---@field TCM_NormalsGloss_DEPRECATED 7
+---@field TCM_TileMap 8
+---@field TCM_DXTAlphaLinear 9
+---@field TCM_QualityR 10
+---@field TCM_QualityRG 11
+---@field TCM_QualityColor 12
+---@field TCM_HalfHDR_Unsigned 13
+---@field TCM_HalfHDR_Signed 14
+---@field TCM_Max 15
+---@field TCM_Normals 5
+---@field TCM_NormalsHigh 6
+---@field TCM_NormalsGloss 7
+---@field TCM_HalfHDR 13
 ETextureCompression = {}

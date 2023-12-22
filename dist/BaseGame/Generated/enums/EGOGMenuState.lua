@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EGOGMenuState: Enum
----@field ["None"] EGOGMenuState 0
----@field ["LoadGame"] EGOGMenuState 1
----@field ["MainMenu"] EGOGMenuState 2
+---@field None 0
+---@field LoadGame 1
+---@field MainMenu 2
 EGOGMenuState = {}

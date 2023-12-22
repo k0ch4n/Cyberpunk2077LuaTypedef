@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamePSMCombat: Enum
----@field ["Any"] gamePSMCombat -1
----@field ["Default"] gamePSMCombat 0
----@field ["InCombat"] gamePSMCombat 1
----@field ["OutOfCombat"] gamePSMCombat 2
----@field ["Stealth"] gamePSMCombat 3
+---@field Any -1
+---@field Default 0
+---@field InCombat 1
+---@field OutOfCombat 2
+---@field Stealth 3
 gamePSMCombat = {}

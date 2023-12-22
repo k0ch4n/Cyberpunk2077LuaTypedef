@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeParallaxPlaneControllerDisplacementAxis: Enum
----@field ["Horizontal"] gameuiarcadeArcadeParallaxPlaneControllerDisplacementAxis 0
----@field ["Vertical"] gameuiarcadeArcadeParallaxPlaneControllerDisplacementAxis 1
+---@field Horizontal 0
+---@field Vertical 1
 gameuiarcadeArcadeParallaxPlaneControllerDisplacementAxis = {}

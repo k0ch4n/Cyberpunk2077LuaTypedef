@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class District: IScriptable
----@field private ["districtID"] TweakDBID
----@field private ["presetID"] TweakDBID
----@field private ["districtRecord"] gamedataDistrict_Record
+---@field private districtID TweakDBID
+---@field private presetID TweakDBID
+---@field private districtRecord gamedataDistrict_Record
 District = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class TicketData
----@field public ["requestID"] Uint32
----@field public ["policeStrategy"] vehiclePoliceStrategy
----@field public ["vehicleType"] gameDynamicVehicleType
----@field public ["isFallback"] Bool
+---@field public requestID Uint32
+---@field public policeStrategy vehiclePoliceStrategy
+---@field public vehicleType gameDynamicVehicleType
+---@field public isFallback Bool
 TicketData = {}
 
 ---@param fields? table

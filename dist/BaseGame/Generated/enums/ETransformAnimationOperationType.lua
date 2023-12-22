@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ETransformAnimationOperationType: Enum
----@field ["PLAY"] ETransformAnimationOperationType 0
----@field ["PAUSE"] ETransformAnimationOperationType 1
----@field ["RESET"] ETransformAnimationOperationType 2
----@field ["SKIP"] ETransformAnimationOperationType 3
+---@field PLAY 0
+---@field PAUSE 1
+---@field RESET 2
+---@field SKIP 3
 ETransformAnimationOperationType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RefreshPingEffector: gameEffector
----@field public ["squadMembers"] entEntityID[]
----@field public ["owner"] gameObject
+---@field public squadMembers entEntityID[]
+---@field public owner gameObject
 RefreshPingEffector = {}
 
 ---@param fields? table

@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Custom_HMG: gameuiCrosshairBaseGameController
----@field private ["leftPart"] inkWidgetReference
----@field private ["rightPart"] inkWidgetReference
----@field private ["topPart"] inkWidgetReference
----@field private ["bottomPart"] inkWidgetReference
----@field private ["horiPart"] inkWidgetReference
----@field private ["vertPart"] inkWidgetReference
----@field private ["overheatContainer"] inkWidgetReference
----@field private ["overheatWarning"] inkWidgetReference
----@field private ["overheatMask"] inkWidgetReference
----@field private ["overheatValueL"] inkTextWidgetReference
----@field private ["overheatValueR"] inkTextWidgetReference
----@field private ["leftPartExtra"] inkImageWidgetReference
----@field private ["rightPartExtra"] inkImageWidgetReference
----@field private ["crosshairContainer"] inkCanvasWidgetReference
----@field private ["offsetLeftRight"] Float
----@field private ["offsetLeftRightExtra"] Float
----@field private ["latchVertical"] Float
----@field private ["weaponLocalBB"] gameIBlackboard
----@field private ["overheatBBID"] redCallbackObject
----@field private ["forcedOverheatBBID"] redCallbackObject
----@field private ["targetColorChange"] inkWidgetReference
----@field private ["forcedCooldownProxy"] inkanimProxy
----@field private ["forcedCooldownOptions"] inkanimPlaybackOptions
+---@field private leftPart inkWidgetReference
+---@field private rightPart inkWidgetReference
+---@field private topPart inkWidgetReference
+---@field private bottomPart inkWidgetReference
+---@field private horiPart inkWidgetReference
+---@field private vertPart inkWidgetReference
+---@field private overheatContainer inkWidgetReference
+---@field private overheatWarning inkWidgetReference
+---@field private overheatMask inkWidgetReference
+---@field private overheatValueL inkTextWidgetReference
+---@field private overheatValueR inkTextWidgetReference
+---@field private leftPartExtra inkImageWidgetReference
+---@field private rightPartExtra inkImageWidgetReference
+---@field private crosshairContainer inkCanvasWidgetReference
+---@field private offsetLeftRight Float
+---@field private offsetLeftRightExtra Float
+---@field private latchVertical Float
+---@field private weaponLocalBB gameIBlackboard
+---@field private overheatBBID redCallbackObject
+---@field private forcedOverheatBBID redCallbackObject
+---@field private targetColorChange inkWidgetReference
+---@field private forcedCooldownProxy inkanimProxy
+---@field private forcedCooldownOptions inkanimPlaybackOptions
 Crosshair_Custom_HMG = {}
 
 ---@param fields? table

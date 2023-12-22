@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameWorkspotSlidingBehaviour: Enum
----@field ["PlayAtResourcePosition"] gameWorkspotSlidingBehaviour 1
----@field ["DontPlayAtResourcePosition"] gameWorkspotSlidingBehaviour 0
----@field ["SlideActorAndRotateDevice"] gameWorkspotSlidingBehaviour 2
+---@field PlayAtResourcePosition 1
+---@field DontPlayAtResourcePosition 0
+---@field SlideActorAndRotateDevice 2
 gameWorkspotSlidingBehaviour = {}

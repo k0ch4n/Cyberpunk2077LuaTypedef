@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ItemSlotsFilledPrereqState: gamePrereqState
----@field public ["equipmentBlackboardCallback"] redCallbackObject
----@field public ["owner"] gameObject
----@field public ["equipAreas"] gamedataEquipmentArea[]
+---@field public equipmentBlackboardCallback redCallbackObject
+---@field public owner gameObject
+---@field public equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereqState = {}
 
 ---@param fields? table

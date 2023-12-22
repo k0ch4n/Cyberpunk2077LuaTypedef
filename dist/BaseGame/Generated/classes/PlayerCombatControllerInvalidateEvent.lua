@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerInvalidateEvent: redEvent
----@field public ["state"] PlayerCombatState
+---@field public state PlayerCombatState
 PlayerCombatControllerInvalidateEvent = {}
 
 ---@param fields? table

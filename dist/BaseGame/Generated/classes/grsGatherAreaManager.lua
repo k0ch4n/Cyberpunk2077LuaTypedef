@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class grsGatherAreaManager
----@field public ["activeGatherAreaRepInfo"] grsGatherAreaReplicatedInfo
+---@field public activeGatherAreaRepInfo grsGatherAreaReplicatedInfo
 grsGatherAreaManager = {}
 
 ---@param fields? table

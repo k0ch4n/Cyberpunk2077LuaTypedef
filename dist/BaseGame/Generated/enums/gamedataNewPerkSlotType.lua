@@ -2,69 +2,69 @@
 ---@diagnostic disable
 
 ---@class gamedataNewPerkSlotType: Enum
----@field ["Central_Milestone_1"] gamedataNewPerkSlotType 0
----@field ["Central_Milestone_2"] gamedataNewPerkSlotType 1
----@field ["Central_Milestone_3"] gamedataNewPerkSlotType 2
----@field ["Central_Perk_1_1"] gamedataNewPerkSlotType 3
----@field ["Central_Perk_1_2"] gamedataNewPerkSlotType 4
----@field ["Central_Perk_1_3"] gamedataNewPerkSlotType 5
----@field ["Central_Perk_1_4"] gamedataNewPerkSlotType 6
----@field ["Central_Perk_2_1"] gamedataNewPerkSlotType 7
----@field ["Central_Perk_2_2"] gamedataNewPerkSlotType 8
----@field ["Central_Perk_2_3"] gamedataNewPerkSlotType 9
----@field ["Central_Perk_2_4"] gamedataNewPerkSlotType 10
----@field ["Central_Perk_3_1"] gamedataNewPerkSlotType 11
----@field ["Central_Perk_3_2"] gamedataNewPerkSlotType 12
----@field ["Central_Perk_3_3"] gamedataNewPerkSlotType 13
----@field ["Central_Perk_3_4"] gamedataNewPerkSlotType 14
----@field ["Espionage_Main_Perk_1"] gamedataNewPerkSlotType 15
----@field ["Espionage_Main_Perk_1_Side_1"] gamedataNewPerkSlotType 16
----@field ["Espionage_Main_Perk_1_Side_2"] gamedataNewPerkSlotType 17
----@field ["Espionage_Main_Perk_1_Side_3"] gamedataNewPerkSlotType 18
----@field ["Espionage_Main_Perk_1_Side_4"] gamedataNewPerkSlotType 19
----@field ["Espionage_Main_Perk_2"] gamedataNewPerkSlotType 20
----@field ["Espionage_Main_Perk_2_Side_1"] gamedataNewPerkSlotType 21
----@field ["Espionage_Main_Perk_3"] gamedataNewPerkSlotType 22
----@field ["Espionage_Main_Perk_3_Side_1"] gamedataNewPerkSlotType 23
----@field ["Inbetween_Left_2"] gamedataNewPerkSlotType 24
----@field ["Inbetween_Left_3"] gamedataNewPerkSlotType 25
----@field ["Inbetween_Right_2"] gamedataNewPerkSlotType 26
----@field ["Inbetween_Right_3"] gamedataNewPerkSlotType 27
----@field ["Left_Milestone_1"] gamedataNewPerkSlotType 28
----@field ["Left_Milestone_2"] gamedataNewPerkSlotType 29
----@field ["Left_Milestone_3"] gamedataNewPerkSlotType 30
----@field ["Left_Perk_1_1"] gamedataNewPerkSlotType 31
----@field ["Left_Perk_1_2"] gamedataNewPerkSlotType 32
----@field ["Left_Perk_1_3"] gamedataNewPerkSlotType 33
----@field ["Left_Perk_1_4"] gamedataNewPerkSlotType 34
----@field ["Left_Perk_2_1"] gamedataNewPerkSlotType 35
----@field ["Left_Perk_2_2"] gamedataNewPerkSlotType 36
----@field ["Left_Perk_2_3"] gamedataNewPerkSlotType 37
----@field ["Left_Perk_2_4"] gamedataNewPerkSlotType 38
----@field ["Left_Perk_3_1"] gamedataNewPerkSlotType 39
----@field ["Left_Perk_3_2"] gamedataNewPerkSlotType 40
----@field ["Left_Perk_3_3"] gamedataNewPerkSlotType 41
----@field ["Left_Perk_3_4"] gamedataNewPerkSlotType 42
----@field ["Master_Perk_1"] gamedataNewPerkSlotType 43
----@field ["Master_Perk_2"] gamedataNewPerkSlotType 44
----@field ["Master_Perk_3"] gamedataNewPerkSlotType 45
----@field ["Master_Perk_4"] gamedataNewPerkSlotType 46
----@field ["Master_Perk_5"] gamedataNewPerkSlotType 47
----@field ["Right_Milestone_1"] gamedataNewPerkSlotType 48
----@field ["Right_Milestone_2"] gamedataNewPerkSlotType 49
----@field ["Right_Milestone_3"] gamedataNewPerkSlotType 50
----@field ["Right_Perk_1_1"] gamedataNewPerkSlotType 51
----@field ["Right_Perk_1_2"] gamedataNewPerkSlotType 52
----@field ["Right_Perk_1_3"] gamedataNewPerkSlotType 53
----@field ["Right_Perk_1_4"] gamedataNewPerkSlotType 54
----@field ["Right_Perk_2_1"] gamedataNewPerkSlotType 55
----@field ["Right_Perk_2_2"] gamedataNewPerkSlotType 56
----@field ["Right_Perk_2_3"] gamedataNewPerkSlotType 57
----@field ["Right_Perk_2_4"] gamedataNewPerkSlotType 58
----@field ["Right_Perk_3_1"] gamedataNewPerkSlotType 59
----@field ["Right_Perk_3_2"] gamedataNewPerkSlotType 60
----@field ["Right_Perk_3_3"] gamedataNewPerkSlotType 61
----@field ["Right_Perk_3_4"] gamedataNewPerkSlotType 62
----@field ["Count"] gamedataNewPerkSlotType 63
----@field ["Invalid"] gamedataNewPerkSlotType 64
+---@field Central_Milestone_1 0
+---@field Central_Milestone_2 1
+---@field Central_Milestone_3 2
+---@field Central_Perk_1_1 3
+---@field Central_Perk_1_2 4
+---@field Central_Perk_1_3 5
+---@field Central_Perk_1_4 6
+---@field Central_Perk_2_1 7
+---@field Central_Perk_2_2 8
+---@field Central_Perk_2_3 9
+---@field Central_Perk_2_4 10
+---@field Central_Perk_3_1 11
+---@field Central_Perk_3_2 12
+---@field Central_Perk_3_3 13
+---@field Central_Perk_3_4 14
+---@field Espionage_Main_Perk_1 15
+---@field Espionage_Main_Perk_1_Side_1 16
+---@field Espionage_Main_Perk_1_Side_2 17
+---@field Espionage_Main_Perk_1_Side_3 18
+---@field Espionage_Main_Perk_1_Side_4 19
+---@field Espionage_Main_Perk_2 20
+---@field Espionage_Main_Perk_2_Side_1 21
+---@field Espionage_Main_Perk_3 22
+---@field Espionage_Main_Perk_3_Side_1 23
+---@field Inbetween_Left_2 24
+---@field Inbetween_Left_3 25
+---@field Inbetween_Right_2 26
+---@field Inbetween_Right_3 27
+---@field Left_Milestone_1 28
+---@field Left_Milestone_2 29
+---@field Left_Milestone_3 30
+---@field Left_Perk_1_1 31
+---@field Left_Perk_1_2 32
+---@field Left_Perk_1_3 33
+---@field Left_Perk_1_4 34
+---@field Left_Perk_2_1 35
+---@field Left_Perk_2_2 36
+---@field Left_Perk_2_3 37
+---@field Left_Perk_2_4 38
+---@field Left_Perk_3_1 39
+---@field Left_Perk_3_2 40
+---@field Left_Perk_3_3 41
+---@field Left_Perk_3_4 42
+---@field Master_Perk_1 43
+---@field Master_Perk_2 44
+---@field Master_Perk_3 45
+---@field Master_Perk_4 46
+---@field Master_Perk_5 47
+---@field Right_Milestone_1 48
+---@field Right_Milestone_2 49
+---@field Right_Milestone_3 50
+---@field Right_Perk_1_1 51
+---@field Right_Perk_1_2 52
+---@field Right_Perk_1_3 53
+---@field Right_Perk_1_4 54
+---@field Right_Perk_2_1 55
+---@field Right_Perk_2_2 56
+---@field Right_Perk_2_3 57
+---@field Right_Perk_2_4 58
+---@field Right_Perk_3_1 59
+---@field Right_Perk_3_2 60
+---@field Right_Perk_3_3 61
+---@field Right_Perk_3_4 62
+---@field Count 63
+---@field Invalid 64
 gamedataNewPerkSlotType = {}

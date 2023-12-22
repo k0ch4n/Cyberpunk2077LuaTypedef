@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCScanningDescription: ObjectScanningDescription
----@field protected ["NPCGameplayDescription"] TweakDBID
----@field protected ["NPCCustomDescriptions"] TweakDBID[]
+---@field protected NPCGameplayDescription TweakDBID
+---@field protected NPCCustomDescriptions TweakDBID[]
 NPCScanningDescription = {}
 
 ---@param fields? table

@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class MenuItemController: inkWidgetLogicController
----@field public ["menuData"] MenuData
----@field private ["label"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["frameHovered"] inkWidgetReference
----@field private ["hoverPanel"] inkWidgetReference
----@field private ["background"] inkWidgetReference
----@field private ["levelFlag"] inkWidgetReference
----@field private ["attrFlag"] inkWidgetReference
----@field private ["attrText"] inkTextWidgetReference
----@field private ["perkFlag"] inkWidgetReference
----@field private ["perkText"] inkTextWidgetReference
----@field private ["fluffText"] inkTextWidgetReference
----@field private ["itemHovered"] Bool
----@field private ["panelHovered"] Bool
----@field private ["panelTransitionProxy"] inkanimProxy
----@field private ["buttonTransitionProxy"] inkanimProxy
----@field private ["isPanelShown"] Bool
----@field private ["isDimmed"] Bool
----@field private ["isHyperlink"] Bool
+---@field public menuData MenuData
+---@field private label inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private frameHovered inkWidgetReference
+---@field private hoverPanel inkWidgetReference
+---@field private background inkWidgetReference
+---@field private levelFlag inkWidgetReference
+---@field private attrFlag inkWidgetReference
+---@field private attrText inkTextWidgetReference
+---@field private perkFlag inkWidgetReference
+---@field private perkText inkTextWidgetReference
+---@field private fluffText inkTextWidgetReference
+---@field private itemHovered Bool
+---@field private panelHovered Bool
+---@field private panelTransitionProxy inkanimProxy
+---@field private buttonTransitionProxy inkanimProxy
+---@field private isPanelShown Bool
+---@field private isDimmed Bool
+---@field private isHyperlink Bool
 MenuItemController = {}
 
 ---@param fields? table

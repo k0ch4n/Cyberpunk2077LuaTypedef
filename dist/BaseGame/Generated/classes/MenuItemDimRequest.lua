@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuItemDimRequest: redEvent
----@field public ["dim"] Bool
+---@field public dim Bool
 MenuItemDimRequest = {}
 
 ---@param fields? table

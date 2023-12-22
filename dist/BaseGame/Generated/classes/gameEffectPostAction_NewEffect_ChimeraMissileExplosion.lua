@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectPostAction_NewEffect_ChimeraMissileExplosion: gameEffectPostAction
----@field public ["tagInThisFile"] CName
----@field public ["overrideRadius"] Float
----@field public ["executeOnNthHit"] Int32
+---@field public tagInThisFile CName
+---@field public overrideRadius Float
+---@field public executeOnNthHit Int32
 gameEffectPostAction_NewEffect_ChimeraMissileExplosion = {}
 
 ---@param fields? table

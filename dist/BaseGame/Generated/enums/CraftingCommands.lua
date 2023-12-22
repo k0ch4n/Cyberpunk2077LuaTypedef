@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CraftingCommands: Enum
----@field ["CraftingFinished"] CraftingCommands 0
----@field ["DisassemblingFinished"] CraftingCommands 1
----@field ["UpgradingFinished"] CraftingCommands 2
----@field ["Failed"] CraftingCommands 3
+---@field CraftingFinished 0
+---@field DisassemblingFinished 1
+---@field UpgradingFinished 2
+---@field Failed 3
 CraftingCommands = {}

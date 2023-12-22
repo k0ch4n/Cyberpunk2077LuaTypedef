@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class InputContextTransitionEvents: InputContextTransition
----@field public ["gameplaySettings"] GameplaySettingsSystem
----@field public ["onInputSchemeUpdatedCallback"] redCallbackObject
----@field public ["OnInputHintManagerInitializedChangedCallback"] redCallbackObject
----@field public ["onInputSchemeChanged"] Bool
----@field protected ["hasControllerChanged"] Bool
----@field protected ["hasControllerSchemeChanged"] Bool
----@field public ["isGameplayInputHintManagerInitialized"] Bool
----@field public ["isGameplayInputHintRefreshRequired"] Bool
+---@field public gameplaySettings GameplaySettingsSystem
+---@field public onInputSchemeUpdatedCallback redCallbackObject
+---@field public OnInputHintManagerInitializedChangedCallback redCallbackObject
+---@field public onInputSchemeChanged Bool
+---@field protected hasControllerChanged Bool
+---@field protected hasControllerSchemeChanged Bool
+---@field public isGameplayInputHintManagerInitialized Bool
+---@field public isGameplayInputHintRefreshRequired Bool
 InputContextTransitionEvents = {}
 
 ---@protected

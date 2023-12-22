@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsDisabledDecisions: QuickSlotsDecisions
----@field private ["executionOwner"] gameObject
----@field private ["hasStatusEffect"] Bool
+---@field private executionOwner gameObject
+---@field private hasStatusEffect Bool
 QuickSlotsDisabledDecisions = {}
 
 ---@param fields? table

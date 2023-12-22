@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ApplyEffectorEffector: gameEffector
----@field public ["target"] entEntityID
----@field public ["applicationTarget"] CName
----@field public ["effectorToApply"] TweakDBID
+---@field public target entEntityID
+---@field public applicationTarget CName
+---@field public effectorToApply TweakDBID
 ApplyEffectorEffector = {}
 
 ---@param fields? table

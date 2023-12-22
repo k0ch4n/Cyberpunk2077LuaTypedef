@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class SubtitleLineLogicController: BaseSubtitleLineLogicController
----@field private ["speakerNameWidget"] inkTextWidgetReference
----@field private ["subtitleWidget"] inkTextWidgetReference
----@field private ["radioSpeaker"] inkTextWidgetReference
----@field private ["radioSubtitle"] inkTextWidgetReference
----@field private ["background"] inkWidgetReference
----@field private ["backgroundSpeaker"] inkWidgetReference
----@field private ["kiroshiAnimationContainer"] inkWidgetReference
----@field private ["motherTongueContainter"] inkWidgetReference
----@field private ["targetTextWidgetRef"] inkTextWidgetReference
----@field private ["lineData"] scnDialogLineData
----@field private ["spekerNameParams"] textTextParameterSet
+---@field private speakerNameWidget inkTextWidgetReference
+---@field private subtitleWidget inkTextWidgetReference
+---@field private radioSpeaker inkTextWidgetReference
+---@field private radioSubtitle inkTextWidgetReference
+---@field private background inkWidgetReference
+---@field private backgroundSpeaker inkWidgetReference
+---@field private kiroshiAnimationContainer inkWidgetReference
+---@field private motherTongueContainter inkWidgetReference
+---@field private targetTextWidgetRef inkTextWidgetReference
+---@field private lineData scnDialogLineData
+---@field private spekerNameParams textTextParameterSet
 SubtitleLineLogicController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiHUDVideoStopEvent
----@field public ["videoPathHash"] Uint64
----@field public ["isSkip"] Bool
+---@field public videoPathHash Uint64
+---@field public isSkip Bool
 gameuiHUDVideoStopEvent = {}
 
 ---@param fields? table

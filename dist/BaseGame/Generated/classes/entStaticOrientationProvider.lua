@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entStaticOrientationProvider: entIOrientationProvider
----@field public ["staticOrientation"] Quaternion
+---@field public staticOrientation Quaternion
 entStaticOrientationProvider = {}
 
 ---@param fields? table

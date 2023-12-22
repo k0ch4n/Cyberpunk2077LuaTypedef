@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ScannerNetworkState: Enum
----@field ["NOT_CONNECTED"] ScannerNetworkState 0
----@field ["NOT_BREACHED"] ScannerNetworkState 1
----@field ["TIER1"] ScannerNetworkState 2
----@field ["TIER2"] ScannerNetworkState 3
----@field ["TIER3"] ScannerNetworkState 4
----@field ["BREACHED"] ScannerNetworkState 5
+---@field NOT_CONNECTED 0
+---@field NOT_BREACHED 1
+---@field TIER1 2
+---@field TIER2 3
+---@field TIER3 4
+---@field BREACHED 5
 ScannerNetworkState = {}

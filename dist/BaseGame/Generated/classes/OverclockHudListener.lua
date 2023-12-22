@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverclockHudListener: gameScriptStatusEffectListener
----@field private ["hudController"] gameuiHUDGameController
+---@field private hudController gameuiHUDGameController
 OverclockHudListener = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_Vault: animAnimFeature_Climb
----@field public ["landPosition"] Vector4
----@field public ["travellingTime"] Float
----@field public ["obstacleDepth"] Float
+---@field public landPosition Vector4
+---@field public travellingTime Float
+---@field public obstacleDepth Float
 animAnimFeature_Vault = {}
 
 ---@param fields? table

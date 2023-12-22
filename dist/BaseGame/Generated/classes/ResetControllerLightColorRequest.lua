@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResetControllerLightColorRequest: gameScriptableSystemRequest
----@field public ["notQuest"] Bool
+---@field public notQuest Bool
 ResetControllerLightColorRequest = {}
 
 ---@param fields? table

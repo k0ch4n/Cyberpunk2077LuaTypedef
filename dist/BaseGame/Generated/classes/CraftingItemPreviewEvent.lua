@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CraftingItemPreviewEvent: redEvent
----@field public ["itemID"] gameItemID
----@field public ["isGarment"] Bool
+---@field public itemID gameItemID
+---@field public isGarment Bool
 CraftingItemPreviewEvent = {}
 
 ---@param fields? table

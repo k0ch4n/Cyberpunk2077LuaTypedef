@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EFocusClueInvestigationState: Enum
----@field ["NONE"] EFocusClueInvestigationState 0
----@field ["INSPECTED"] EFocusClueInvestigationState 1
----@field ["NOT_INSPECTED"] EFocusClueInvestigationState 2
+---@field NONE 0
+---@field INSPECTED 1
+---@field NOT_INSPECTED 2
 EFocusClueInvestigationState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_LODBegin: animAnimNode_OnePoseInput
----@field public ["levelOfDetail"] Uint32
+---@field public levelOfDetail Uint32
 animAnimNode_LODBegin = {}
 
 ---@param fields? table

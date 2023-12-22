@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrossingLight: TrafficLight
----@field protected ["audioLightIsGreen"] Bool
+---@field protected audioLightIsGreen Bool
 CrossingLight = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckAnimSetTags: AIbehaviorconditionScript
----@field public ["animsetTagToCompare"] CName[]
+---@field public animsetTagToCompare CName[]
 CheckAnimSetTags = {}
 
 ---@param fields? table

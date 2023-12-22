@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAnimationOverrideDefinition
----@field public ["animset"] animAnimSet
----@field public ["variables"] CName[]
+---@field public animset animAnimSet
+---@field public variables CName[]
 gameAnimationOverrideDefinition = {}
 
 ---@param fields? table

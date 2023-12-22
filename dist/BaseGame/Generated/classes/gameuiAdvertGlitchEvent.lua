@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAdvertGlitchEvent: redEvent
----@field public ["glitchValue"] Float
+---@field public glitchValue Float
 gameuiAdvertGlitchEvent = {}
 
 ---@param fields? table

@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class GenericDeviceOperation: DeviceOperationBase
----@field private ["fxInstances"] SVfxInstanceData[]
----@field public ["transformAnimations"] STransformAnimationData[]
----@field public ["VFXs"] SVFXOperationData[]
----@field public ["SFXs"] SSFXOperationData[]
----@field public ["facts"] SFactOperationData[]
----@field public ["components"] SComponentOperationData[]
----@field public ["stims"] SStimOperationData[]
----@field public ["statusEffects"] SStatusEffectOperationData[]
----@field public ["damages"] SDamageOperationData[]
----@field public ["items"] SInventoryOperationData[]
----@field public ["teleport"] STeleportOperationData
----@field public ["meshesAppearence"] CName
----@field public ["playerWorkspot"] SWorkspotData
+---@field private fxInstances SVfxInstanceData[]
+---@field public transformAnimations STransformAnimationData[]
+---@field public VFXs SVFXOperationData[]
+---@field public SFXs SSFXOperationData[]
+---@field public facts SFactOperationData[]
+---@field public components SComponentOperationData[]
+---@field public stims SStimOperationData[]
+---@field public statusEffects SStatusEffectOperationData[]
+---@field public damages SDamageOperationData[]
+---@field public items SInventoryOperationData[]
+---@field public teleport STeleportOperationData
+---@field public meshesAppearence CName
+---@field public playerWorkspot SWorkspotData
 GenericDeviceOperation = {}
 
 ---@param fields? table

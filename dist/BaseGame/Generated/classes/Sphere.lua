@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sphere
----@field public ["CenterRadius2"] Vector4
+---@field public CenterRadius2 Vector4
 Sphere = {}
 
 ---@param fields? table

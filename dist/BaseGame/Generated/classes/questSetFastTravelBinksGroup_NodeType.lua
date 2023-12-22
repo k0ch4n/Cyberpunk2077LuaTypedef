@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetFastTravelBinksGroup_NodeType: questIUIManagerNodeType
----@field public ["selectedBinkDataGroup"] TweakDBID
+---@field public selectedBinkDataGroup TweakDBID
 questSetFastTravelBinksGroup_NodeType = {}
 
 ---@param fields? table

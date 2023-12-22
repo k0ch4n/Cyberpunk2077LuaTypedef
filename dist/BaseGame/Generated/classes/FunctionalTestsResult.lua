@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FunctionalTestsResult
----@field public ["code"] FunctionalTestsResultCode
----@field public ["msg"] String
+---@field public code FunctionalTestsResultCode
+---@field public msg String
 FunctionalTestsResult = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisableBraindanceActions: redEvent
----@field public ["actionMask"] SBraindanceInputMask
+---@field public actionMask SBraindanceInputMask
 DisableBraindanceActions = {}
 
 ---@param fields? table

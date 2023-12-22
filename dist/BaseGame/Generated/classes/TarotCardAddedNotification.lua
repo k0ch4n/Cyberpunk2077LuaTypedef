@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TarotCardAddedNotification: GenericNotificationController
----@field protected ["cardImage"] inkImageWidgetReference
----@field protected ["cardNameLabel"] inkTextWidgetReference
+---@field protected cardImage inkImageWidgetReference
+---@field protected cardNameLabel inkTextWidgetReference
 TarotCardAddedNotification = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleELightMode: Enum
----@field ["Off"] vehicleELightMode 0
----@field ["On"] vehicleELightMode 1
----@field ["HighBeams"] vehicleELightMode 2
+---@field Off 0
+---@field On 1
+---@field HighBeams 2
 vehicleELightMode = {}

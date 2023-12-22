@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class EMeshVertexType: Enum
----@field ["MVT_StaticMesh"] EMeshVertexType 0
----@field ["MVT_ProceduralMesh"] EMeshVertexType 1
----@field ["MVT_SkinnedMesh"] EMeshVertexType 2
----@field ["MVT_ExtSkinnedMesh"] EMeshVertexType 3
----@field ["MVT_GarmentSkinnedMesh"] EMeshVertexType 4
----@field ["MVT_ExtGarmentSkinnedMesh"] EMeshVertexType 5
----@field ["MVT_SpeedTreeMesh"] EMeshVertexType 6
----@field ["MVT_StaticMeshVehicle"] EMeshVertexType 7
----@field ["MVT_SkinnedMeshVehicle"] EMeshVertexType 8
----@field ["MVT_Terrain"] EMeshVertexType 9
----@field ["MVT_DestructibleMesh"] EMeshVertexType 10
----@field ["MVT_DestructibleMeshSkinned"] EMeshVertexType 11
----@field ["MVT_SkinnedMeshLightBlocker"] EMeshVertexType 12
----@field ["MVT_ExtSkinnedMeshLightBlocker"] EMeshVertexType 13
----@field ["MVT_GarmentSkinnedMeshLightBlocker"] EMeshVertexType 14
----@field ["MVT_ExtGarmentSkinnedMeshLightBlocker"] EMeshVertexType 15
----@field ["MVT_SkinnedMeshSingleBone"] EMeshVertexType 16
----@field ["MVT_ProxyMesh"] EMeshVertexType 17
----@field ["MVT_ProxyWindowMesh"] EMeshVertexType 18
+---@field MVT_StaticMesh 0
+---@field MVT_ProceduralMesh 1
+---@field MVT_SkinnedMesh 2
+---@field MVT_ExtSkinnedMesh 3
+---@field MVT_GarmentSkinnedMesh 4
+---@field MVT_ExtGarmentSkinnedMesh 5
+---@field MVT_SpeedTreeMesh 6
+---@field MVT_StaticMeshVehicle 7
+---@field MVT_SkinnedMeshVehicle 8
+---@field MVT_Terrain 9
+---@field MVT_DestructibleMesh 10
+---@field MVT_DestructibleMeshSkinned 11
+---@field MVT_SkinnedMeshLightBlocker 12
+---@field MVT_ExtSkinnedMeshLightBlocker 13
+---@field MVT_GarmentSkinnedMeshLightBlocker 14
+---@field MVT_ExtGarmentSkinnedMeshLightBlocker 15
+---@field MVT_SkinnedMeshSingleBone 16
+---@field MVT_ProxyMesh 17
+---@field MVT_ProxyWindowMesh 18
 EMeshVertexType = {}

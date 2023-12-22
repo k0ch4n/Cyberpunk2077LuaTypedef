@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_GenderSensitiveEntry: Codeware_Localization_LocalizationEntry
----@field public ["variants"] String[]
+---@field public variants String[]
 Codeware_Localization_GenderSensitiveEntry = {}
 
 ---@param fields? table

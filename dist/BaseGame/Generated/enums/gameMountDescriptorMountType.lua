@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMountDescriptorMountType: Enum
----@field ["Unmounted"] gameMountDescriptorMountType 0
----@field ["KeepState"] gameMountDescriptorMountType 1
----@field ["Vehicle"] gameMountDescriptorMountType 3
----@field ["MovingPlatform"] gameMountDescriptorMountType 4
+---@field Unmounted 0
+---@field KeepState 1
+---@field Vehicle 3
+---@field MovingPlatform 4
 gameMountDescriptorMountType = {}

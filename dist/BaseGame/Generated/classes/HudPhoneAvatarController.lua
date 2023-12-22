@@ -2,34 +2,34 @@
 ---@diagnostic disable
 
 ---@class HudPhoneAvatarController: HUDPhoneElement
----@field private ["ContactAvatar"] inkImageWidgetReference
----@field private ["HolocallRenderTexture"] inkImageWidgetReference
----@field private ["SignalRangeIcon"] inkImageWidgetReference
----@field private ["ContactName"] inkTextWidgetReference
----@field private ["StatusText"] inkTextWidgetReference
----@field private ["WaveformPlaceholder"] inkCanvasWidgetReference
----@field private ["HolocallHolder"] inkFlexWidgetReference
----@field private ["UnknownAvatarName"] CName
----@field private ["DefaultPortraitColor"] Color
----@field private ["DefaultImageSize"] Vector2
----@field private ["blackWallEffectOnShow"] Bool
----@field private ["LoopAnimationName"] CName
----@field private ["ShowingAnimationName"] CName
----@field private ["HidingAnimationName"] CName
----@field private ["AudiocallShowingAnimationName"] CName
----@field private ["AudiocallHidingAnimationName"] CName
----@field private ["HolocallShowingAnimationName"] CName
----@field private ["HolocallHidingAnimationName"] CName
----@field private ["LoopAnimation"] inkanimProxy
----@field private ["JournalManager"] gameIJournalManager
----@field private ["RootAnimation"] inkanimProxy
----@field private ["AudiocallAnimation"] inkanimProxy
----@field private ["HolocallAnimation"] inkanimProxy
----@field private ["Holder"] inkWidgetReference
----@field private ["Owner"] gameObject
----@field private ["CurrentMode"] EHudAvatarMode
----@field private ["Minimized"] Bool
----@field private ["showAvatar"] Bool
+---@field private ContactAvatar inkImageWidgetReference
+---@field private HolocallRenderTexture inkImageWidgetReference
+---@field private SignalRangeIcon inkImageWidgetReference
+---@field private ContactName inkTextWidgetReference
+---@field private StatusText inkTextWidgetReference
+---@field private WaveformPlaceholder inkCanvasWidgetReference
+---@field private HolocallHolder inkFlexWidgetReference
+---@field private UnknownAvatarName CName
+---@field private DefaultPortraitColor Color
+---@field private DefaultImageSize Vector2
+---@field private blackWallEffectOnShow Bool
+---@field private LoopAnimationName CName
+---@field private ShowingAnimationName CName
+---@field private HidingAnimationName CName
+---@field private AudiocallShowingAnimationName CName
+---@field private AudiocallHidingAnimationName CName
+---@field private HolocallShowingAnimationName CName
+---@field private HolocallHidingAnimationName CName
+---@field private LoopAnimation inkanimProxy
+---@field private JournalManager gameIJournalManager
+---@field private RootAnimation inkanimProxy
+---@field private AudiocallAnimation inkanimProxy
+---@field private HolocallAnimation inkanimProxy
+---@field private Holder inkWidgetReference
+---@field private Owner gameObject
+---@field private CurrentMode EHudAvatarMode
+---@field private Minimized Bool
+---@field private showAvatar Bool
 HudPhoneAvatarController = {}
 
 ---@param fields? table

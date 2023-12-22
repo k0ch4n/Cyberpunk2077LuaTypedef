@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckQuestFact: AIbehaviorconditionScript
----@field public ["questFactName"] CName
----@field public ["comparedValue"] Int32
----@field public ["comparator"] ECompareOp
+---@field public questFactName CName
+---@field public comparedValue Int32
+---@field public comparator ECompareOp
 CheckQuestFact = {}
 
 ---@param fields? table

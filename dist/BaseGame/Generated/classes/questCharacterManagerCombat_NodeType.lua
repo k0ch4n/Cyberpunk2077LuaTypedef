@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerCombat_NodeType: questICharacterManager_NodeType
----@field public ["subtype"] questICharacterManagerCombat_NodeSubType
+---@field public subtype questICharacterManagerCombat_NodeSubType
 questCharacterManagerCombat_NodeType = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class IdentifiedWrappedTooltipData: ATooltipData
----@field public ["identifier"] CName
----@field public ["tooltipOwner"] entEntityID
----@field public ["data"] ATooltipData
+---@field public identifier CName
+---@field public tooltipOwner entEntityID
+---@field public data ATooltipData
 IdentifiedWrappedTooltipData = {}
 
 ---@param fields? table

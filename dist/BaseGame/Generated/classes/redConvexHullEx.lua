@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class redConvexHullEx
----@field public ["data"] DataBuffer
+---@field public data DataBuffer
 redConvexHullEx = {}
 
 ---@param fields? table

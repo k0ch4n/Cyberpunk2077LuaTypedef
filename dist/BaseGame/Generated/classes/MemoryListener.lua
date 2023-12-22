@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MemoryListener: gameCustomValueStatPoolsListener
----@field public ["player"] PlayerPuppet
+---@field public player PlayerPuppet
 MemoryListener = {}
 
 ---@param fields? table

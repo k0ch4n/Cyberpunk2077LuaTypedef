@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleController: gameComponent
----@field public ["alarmCurve"] CName
----@field public ["alarmTime"] Float
----@field public ["overrideHeadlightsSettingsForPlayer"] Bool
+---@field public alarmCurve CName
+---@field public alarmTime Float
+---@field public overrideHeadlightsSettingsForPlayer Bool
 vehicleController = {}
 
 ---@param fields? table

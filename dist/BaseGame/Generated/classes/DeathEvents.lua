@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeathEvents: HighLevelTransition
----@field protected ["isDyingEffectPlaying"] Bool
+---@field protected isDyingEffectPlaying Bool
 DeathEvents = {}
 
 ---@param fields? table

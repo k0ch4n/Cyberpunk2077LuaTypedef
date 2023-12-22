@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EventsFilters
----@field public ["incomingEventsFilter"] EFilterType
----@field public ["outgoingEventsFilter"] EFilterType
+---@field public incomingEventsFilter EFilterType
+---@field public outgoingEventsFilter EFilterType
 EventsFilters = {}
 
 ---@param fields? table

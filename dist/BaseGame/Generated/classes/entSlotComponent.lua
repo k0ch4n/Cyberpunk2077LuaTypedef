@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entSlotComponent: entIPlacedComponent
----@field public ["slots"] entSlot[]
----@field public ["fallbackSlots"] entFallbackSlot[]
+---@field public slots entSlot[]
+---@field public fallbackSlots entFallbackSlot[]
 entSlotComponent = {}
 
 ---@param fields? table

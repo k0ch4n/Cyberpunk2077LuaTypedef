@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_SimpleButton: Codeware_UI_CustomButton
----@field public ["isFlipped"] Bool
----@field public ["bg"] inkImageWidget
----@field public ["fill"] inkImageWidget
----@field public ["frame"] inkImageWidget
----@field public ["disabledRootAnimDef"] inkanimDefinition
----@field public ["disabledRootAnimProxy"] inkanimProxy
----@field public ["hoverFillAnimDef"] inkanimDefinition
----@field public ["hoverFillAnimProxy"] inkanimProxy
----@field public ["hoverFrameAnimDef"] inkanimDefinition
----@field public ["hoverFrameAnimProxy"] inkanimProxy
----@field public ["pressedFillAnimDef"] inkanimDefinition
----@field public ["pressedFillAnimProxy"] inkanimProxy
+---@field public isFlipped Bool
+---@field public bg inkImageWidget
+---@field public fill inkImageWidget
+---@field public frame inkImageWidget
+---@field public disabledRootAnimDef inkanimDefinition
+---@field public disabledRootAnimProxy inkanimProxy
+---@field public hoverFillAnimDef inkanimDefinition
+---@field public hoverFillAnimProxy inkanimProxy
+---@field public hoverFrameAnimDef inkanimDefinition
+---@field public hoverFrameAnimProxy inkanimProxy
+---@field public pressedFillAnimDef inkanimDefinition
+---@field public pressedFillAnimProxy inkanimProxy
 Codeware_UI_SimpleButton = {}
 
 ---@param fields? table

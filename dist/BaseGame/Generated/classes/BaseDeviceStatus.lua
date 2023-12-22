@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BaseDeviceStatus: ActionEnum
----@field public ["isRestarting"] Bool
+---@field public isRestarting Bool
 BaseDeviceStatus = {}
 
 ---@param fields? table

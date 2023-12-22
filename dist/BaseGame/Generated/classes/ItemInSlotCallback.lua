@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemInSlotCallback: gameAttachmentSlotsScriptCallback
----@field protected ["state"] ItemInSlotPrereqState
----@field public ["waitForVisuals"] Bool
+---@field protected state ItemInSlotPrereqState
+---@field public waitForVisuals Bool
 ItemInSlotCallback = {}
 
 ---@param fields? table

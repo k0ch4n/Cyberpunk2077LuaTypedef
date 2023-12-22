@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAdjustableStreamingRangeTarget: gameObject
----@field public ["minStreamingDistance"] Float
+---@field public minStreamingDistance Float
 AIAdjustableStreamingRangeTarget = {}
 
 ---@param fields? table

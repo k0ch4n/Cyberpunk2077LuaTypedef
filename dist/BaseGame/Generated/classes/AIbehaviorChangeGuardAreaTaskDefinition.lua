@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorChangeGuardAreaTaskDefinition: AIbehaviorTaskDefinition
----@field public ["guardAreaNodeRef"] AIArgumentMapping
+---@field public guardAreaNodeRef AIArgumentMapping
 AIbehaviorChangeGuardAreaTaskDefinition = {}
 
 ---@param fields? table

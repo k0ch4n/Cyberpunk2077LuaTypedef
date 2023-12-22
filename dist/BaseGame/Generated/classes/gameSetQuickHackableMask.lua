@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetQuickHackableMask: redEvent
----@field public ["isQuickHackable"] Bool
+---@field public isQuickHackable Bool
 gameSetQuickHackableMask = {}
 
 ---@param fields? table

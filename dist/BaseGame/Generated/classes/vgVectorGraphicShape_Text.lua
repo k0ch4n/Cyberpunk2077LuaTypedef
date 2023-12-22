@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicShape_Text: vgBaseVectorGraphicShape
----@field public ["xt"] String
+---@field public xt String
 vgVectorGraphicShape_Text = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatProvider: IScriptable
----@field private ["GameItemData"] gameItemData
----@field private ["PartData"] gameInnerItemData
----@field private ["InventoryItemData"] gameInventoryItemData
----@field private ["dataSource"] gameEStatProviderDataSource
+---@field private GameItemData gameItemData
+---@field private PartData gameInnerItemData
+---@field private InventoryItemData gameInventoryItemData
+---@field private dataSource gameEStatProviderDataSource
 StatProvider = {}
 
 ---@param fields? table

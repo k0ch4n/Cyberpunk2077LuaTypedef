@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSpawnInViewState: Enum
----@field ["default (true)"] gameSpawnInViewState 0
----@field ["true"] gameSpawnInViewState 1
----@field ["false"] gameSpawnInViewState 2
+---@field ["default (true)"] 0
+---@field true 1
+---@field false 2
 gameSpawnInViewState = {}

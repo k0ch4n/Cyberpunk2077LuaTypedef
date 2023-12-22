@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorAttachToElevatorCommandTaskDefinition: AIbehaviorTaskDefinition
----@field public ["command"] AIArgumentMapping
+---@field public command AIArgumentMapping
 AIbehaviorAttachToElevatorCommandTaskDefinition = {}
 
 ---@param fields? table

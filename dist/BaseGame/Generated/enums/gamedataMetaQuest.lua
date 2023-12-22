@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataMetaQuest: Enum
----@field ["MetaQuest1"] gamedataMetaQuest 0
----@field ["MetaQuest2"] gamedataMetaQuest 1
----@field ["MetaQuest3"] gamedataMetaQuest 2
----@field ["Count"] gamedataMetaQuest 3
----@field ["Invalid"] gamedataMetaQuest 4
+---@field MetaQuest1 0
+---@field MetaQuest2 1
+---@field MetaQuest3 2
+---@field Count 3
+---@field Invalid 4
 gamedataMetaQuest = {}

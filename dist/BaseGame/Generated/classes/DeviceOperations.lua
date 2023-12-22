@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceOperations: IScriptable
----@field protected ["components"] entIPlacedComponent[]
----@field protected ["fxInstances"] SVfxInstanceData[]
+---@field protected components entIPlacedComponent[]
+---@field protected fxInstances SVfxInstanceData[]
 DeviceOperations = {}
 
 ---@param operationID Int32

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAmbientPaletteEntry
----@field public ["brushCategory"] CName
+---@field public brushCategory CName
 audioAmbientPaletteEntry = {}
 
 ---@param fields? table

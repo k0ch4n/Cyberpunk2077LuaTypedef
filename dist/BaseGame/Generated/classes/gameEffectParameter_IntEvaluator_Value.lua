@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectParameter_IntEvaluator_Value: gameIEffectParameter_IntEvaluator
----@field public ["value"] Uint32
+---@field public value Uint32
 gameEffectParameter_IntEvaluator_Value = {}
 
 ---@param fields? table

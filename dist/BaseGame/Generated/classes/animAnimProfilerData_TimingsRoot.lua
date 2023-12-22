@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimProfilerData_TimingsRoot: ISerializable
----@field public ["timings"] animAnimProfilerData_Timings[]
+---@field public timings animAnimProfilerData_Timings[]
 animAnimProfilerData_TimingsRoot = {}
 
 ---@param fields? table

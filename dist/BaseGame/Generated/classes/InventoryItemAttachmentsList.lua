@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemAttachmentsList: inkWidgetLogicController
----@field private ["libraryItemName"] CName
----@field private ["container"] inkCompoundWidgetReference
----@field private ["itemsList"] inkWidget[]
----@field private ["data"] CName[]
+---@field private libraryItemName CName
+---@field private container inkCompoundWidgetReference
+---@field private itemsList inkWidget[]
+---@field private data CName[]
 InventoryItemAttachmentsList = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiUIGameState: ISerializable
----@field public ["uiData"] gameuiBaseUIData[]
+---@field public uiData gameuiBaseUIData[]
 gameuiUIGameState = {}
 
 ---@param fields? table

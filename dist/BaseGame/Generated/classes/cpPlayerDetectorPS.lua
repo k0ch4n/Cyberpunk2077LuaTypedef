@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpPlayerDetectorPS: gameObjectPS
----@field public ["secondsCounter"] Int32
+---@field public secondsCounter Int32
 cpPlayerDetectorPS = {}
 
 ---@param fields? table

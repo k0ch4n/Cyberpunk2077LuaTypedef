@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class VehicleOfferLogicController: BaseButtonView
----@field private ["vehicleImage"] inkImageWidgetReference
----@field private ["border"] inkWidgetReference
----@field private ["ownedIndicator"] inkWidgetReference
----@field private ["nameText"] inkTextWidgetReference
----@field private ["gunImage"] inkImageWidgetReference
----@field private ["rocketImage"] inkImageWidgetReference
----@field private ["priceTextWrapper"] inkWidgetReference
----@field private ["priceText"] inkTextWidgetReference
----@field private ["originalPriceTextWrapper"] inkWidgetReference
----@field private ["originalPriceText"] inkTextWidgetReference
----@field private ["discountedPriceTextWrapper"] inkWidgetReference
----@field private ["discountedPriceText"] inkTextWidgetReference
----@field private ["discountWrapper"] inkWidgetReference
----@field private ["discountText"] inkTextWidgetReference
----@field private ["discoutImage"] inkWidgetReference
----@field private ["offerRecord"] gamedataVehicleOffer_Record
----@field private ["state"] EVehicleOfferState
----@field private ["styleWidget"] inkWidget
----@field private ["discount"] Float
----@field private ["discountApplicable"] Bool
+---@field private vehicleImage inkImageWidgetReference
+---@field private border inkWidgetReference
+---@field private ownedIndicator inkWidgetReference
+---@field private nameText inkTextWidgetReference
+---@field private gunImage inkImageWidgetReference
+---@field private rocketImage inkImageWidgetReference
+---@field private priceTextWrapper inkWidgetReference
+---@field private priceText inkTextWidgetReference
+---@field private originalPriceTextWrapper inkWidgetReference
+---@field private originalPriceText inkTextWidgetReference
+---@field private discountedPriceTextWrapper inkWidgetReference
+---@field private discountedPriceText inkTextWidgetReference
+---@field private discountWrapper inkWidgetReference
+---@field private discountText inkTextWidgetReference
+---@field private discoutImage inkWidgetReference
+---@field private offerRecord gamedataVehicleOffer_Record
+---@field private state EVehicleOfferState
+---@field private styleWidget inkWidget
+---@field private discount Float
+---@field private discountApplicable Bool
 VehicleOfferLogicController = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class GemplayObjectiveData: IScriptable
----@field protected ["questUniqueId"] String
----@field protected ["questTitle"] String
----@field protected ["objectiveDescription"] String
----@field private ["uniqueId"] String
----@field private ["ownerID"] entEntityID
----@field private ["objectiveEntryID"] String
----@field private ["uniqueIdPrefix"] String
----@field private ["objectiveState"] gameJournalEntryState
+---@field protected questUniqueId String
+---@field protected questTitle String
+---@field protected objectiveDescription String
+---@field private uniqueId String
+---@field private ownerID entEntityID
+---@field private objectiveEntryID String
+---@field private uniqueIdPrefix String
+---@field private objectiveState gameJournalEntryState
 GemplayObjectiveData = {}
 
 ---@param fields? table

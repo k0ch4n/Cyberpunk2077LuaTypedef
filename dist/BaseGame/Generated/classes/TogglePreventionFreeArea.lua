@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TogglePreventionFreeArea: gameScriptableSystemRequest
----@field public ["areaReference"] NodeRef
----@field public ["enable"] Bool
+---@field public areaReference NodeRef
+---@field public enable Bool
 TogglePreventionFreeArea = {}
 
 ---@param fields? table

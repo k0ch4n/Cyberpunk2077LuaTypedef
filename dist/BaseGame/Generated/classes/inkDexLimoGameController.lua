@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkDexLimoGameController: gameuiWidgetGameController
----@field private ["activeVehicleBlackboard"] gameIBlackboard
----@field private ["playerVehStateId"] redCallbackObject
----@field private ["screenVideoWidget"] inkVideoWidget
----@field private ["screenVideoWidgetPath"] CName
----@field private ["videoPath"] redResourceReferenceScriptToken
+---@field private activeVehicleBlackboard gameIBlackboard
+---@field private playerVehStateId redCallbackObject
+---@field private screenVideoWidget inkVideoWidget
+---@field private screenVideoWidgetPath CName
+---@field private videoPath redResourceReferenceScriptToken
 inkDexLimoGameController = {}
 
 ---@param fields? table

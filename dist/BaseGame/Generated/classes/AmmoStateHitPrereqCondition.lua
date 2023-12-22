@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AmmoStateHitPrereqCondition: BaseHitPrereqCondition
----@field public ["valueToListen"] EMagazineAmmoState
----@field public ["ratio"] Float
----@field public ["comparisonType"] EComparisonType
+---@field public valueToListen EMagazineAmmoState
+---@field public ratio Float
+---@field public comparisonType EComparisonType
 AmmoStateHitPrereqCondition = {}
 
 ---@param fields? table

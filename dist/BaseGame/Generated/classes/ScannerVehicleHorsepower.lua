@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerVehicleHorsepower: ScannerChunk
----@field private ["horsepower"] Int32
+---@field private horsepower Int32
 ScannerVehicleHorsepower = {}
 
 ---@param fields? table

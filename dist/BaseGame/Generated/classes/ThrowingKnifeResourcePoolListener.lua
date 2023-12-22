@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ThrowingKnifeResourcePoolListener: gameScriptStatPoolsListener
----@field private ["Crosshair"] Crosshair_Melee_Knife
----@field private ["shouldDisplayBar"] Bool
----@field private ["evt"] ThrowingKnifeReloadFinishedCrosshairEvent
+---@field private Crosshair Crosshair_Melee_Knife
+---@field private shouldDisplayBar Bool
+---@field private evt ThrowingKnifeReloadFinishedCrosshairEvent
 ThrowingKnifeResourcePoolListener = {}
 
 ---@param fields? table

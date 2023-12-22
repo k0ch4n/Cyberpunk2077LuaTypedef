@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class hubSelectorController: inkSelectorController
----@field public ["leftArrowWidget"] inkWidgetReference
----@field public ["rightArrowWidget"] inkWidgetReference
----@field public ["menuLabelHolder"] inkHorizontalPanelWidgetReference
----@field public ["selectedMenuLabel"] HubMenuLabelController
----@field private ["previouslySelectedMenuLabel"] HubMenuLabelController
----@field private ["hubElementsData"] MenuData[]
----@field private ["previousIndex"] Int32
+---@field public leftArrowWidget inkWidgetReference
+---@field public rightArrowWidget inkWidgetReference
+---@field public menuLabelHolder inkHorizontalPanelWidgetReference
+---@field public selectedMenuLabel HubMenuLabelController
+---@field private previouslySelectedMenuLabel HubMenuLabelController
+---@field private hubElementsData MenuData[]
+---@field private previousIndex Int32
 hubSelectorController = {}
 
 ---@param fields? table

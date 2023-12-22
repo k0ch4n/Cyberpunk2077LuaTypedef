@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ClothingSetController: BaseButtonView
----@field protected ["setName"] inkTextWidgetReference
----@field private ["clothingSet"] gameClothingSet
----@field private ["equipped"] Bool
----@field private ["selected"] Bool
----@field private ["defined"] Bool
----@field private ["isHovered"] Bool
----@field private ["hasChanges"] Bool
----@field private ["disabled"] Bool
----@field private ["styleWidget"] inkWidget
+---@field protected setName inkTextWidgetReference
+---@field private clothingSet gameClothingSet
+---@field private equipped Bool
+---@field private selected Bool
+---@field private defined Bool
+---@field private isHovered Bool
+---@field private hasChanges Bool
+---@field private disabled Bool
+---@field private styleWidget inkWidget
 ClothingSetController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisBluelinePart: IScriptable
----@field public ["passed"] Bool
----@field public ["captionIconRecordId"] TweakDBID
+---@field public passed Bool
+---@field public captionIconRecordId TweakDBID
 gameinteractionsvisBluelinePart = {}
 
 ---@param fields? table

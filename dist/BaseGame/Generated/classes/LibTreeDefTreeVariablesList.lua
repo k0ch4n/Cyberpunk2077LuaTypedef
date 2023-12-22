@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefTreeVariablesList
----@field public ["list"] LibTreeDefTreeVariable[]
+---@field public list LibTreeDefTreeVariable[]
 LibTreeDefTreeVariablesList = {}
 
 ---@param fields? table

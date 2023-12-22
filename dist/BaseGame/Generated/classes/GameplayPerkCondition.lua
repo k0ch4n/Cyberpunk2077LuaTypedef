@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplayPerkCondition: GameplayConditionBase
----@field public ["perkToCheck"] TweakDBID
----@field public ["difficulty"] EGameplayChallengeLevel
+---@field public perkToCheck TweakDBID
+---@field public difficulty EGameplayChallengeLevel
 GameplayPerkCondition = {}
 
 ---@param fields? table

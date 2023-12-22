@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animMotionTag: Enum
----@field ["MT_Invalid"] animMotionTag 0
----@field ["Walk"] animMotionTag 1
----@field ["Jog"] animMotionTag 2
----@field ["Sprint"] animMotionTag 3
+---@field MT_Invalid 0
+---@field Walk 1
+---@field Jog 2
+---@field Sprint 3
 animMotionTag = {}

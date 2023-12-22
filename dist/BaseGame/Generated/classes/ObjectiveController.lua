@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class ObjectiveController: inkButtonController
----@field protected ["ObjectiveLabel"] inkTextWidgetReference
----@field protected ["ObjectiveStatus"] inkTextWidgetReference
----@field protected ["QuestIcon"] inkImageWidgetReference
----@field protected ["TrackedIcon"] inkImageWidgetReference
----@field protected ["FrameBackground_On"] inkImageWidgetReference
----@field protected ["FrameBackground_Off"] inkImageWidgetReference
----@field protected ["FrameFluff_On"] inkImageWidgetReference
----@field protected ["FrameFluff_Off"] inkImageWidgetReference
----@field protected ["Folder_On"] inkImageWidgetReference
----@field protected ["Folder_Off"] inkImageWidgetReference
----@field protected ["QuestObjectiveData"] ABaseQuestObjectiveWrapper
----@field private ["ToTrack"] ABaseQuestObjectiveWrapper
+---@field protected ObjectiveLabel inkTextWidgetReference
+---@field protected ObjectiveStatus inkTextWidgetReference
+---@field protected QuestIcon inkImageWidgetReference
+---@field protected TrackedIcon inkImageWidgetReference
+---@field protected FrameBackground_On inkImageWidgetReference
+---@field protected FrameBackground_Off inkImageWidgetReference
+---@field protected FrameFluff_On inkImageWidgetReference
+---@field protected FrameFluff_Off inkImageWidgetReference
+---@field protected Folder_On inkImageWidgetReference
+---@field protected Folder_Off inkImageWidgetReference
+---@field protected QuestObjectiveData ABaseQuestObjectiveWrapper
+---@field private ToTrack ABaseQuestObjectiveWrapper
 ObjectiveController = {}
 
 ---@param fields? table

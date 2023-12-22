@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameEInventoryFlags: Enum
----@field ["MustSave"] gameEInventoryFlags 1
+---@field MustSave 1
 gameEInventoryFlags = {}

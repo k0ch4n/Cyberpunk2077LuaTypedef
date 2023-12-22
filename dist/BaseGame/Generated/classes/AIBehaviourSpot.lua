@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIBehaviourSpot: AISmartSpot
----@field public ["behaviour"] AIResourceReference
+---@field public behaviour AIResourceReference
 AIBehaviourSpot = {}
 
 ---@param fields? table

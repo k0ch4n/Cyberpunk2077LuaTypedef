@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ProgressBarAnimationChunkController: inkWidgetLogicController
----@field private ["rootCanvas"] inkWidgetReference
----@field private ["barCanvas"] inkWidgetReference
----@field private ["hitAnim"] inkanimProxy
----@field private ["fullbarSize"] Float
----@field private ["isNegative"] Bool
+---@field private rootCanvas inkWidgetReference
+---@field private barCanvas inkWidgetReference
+---@field private hitAnim inkanimProxy
+---@field private fullbarSize Float
+---@field private isNegative Bool
 ProgressBarAnimationChunkController = {}
 
 ---@param fields? table

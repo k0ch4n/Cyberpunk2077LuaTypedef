@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorRandomConditionDefinition: AIbehaviorConditionDefinition
----@field public ["chance"] Float
+---@field public chance Float
 AIbehaviorRandomConditionDefinition = {}
 
 ---@param fields? table

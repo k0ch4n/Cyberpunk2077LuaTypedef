@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAlertedStateDelegate: AIbehaviorScriptBehaviorDelegate
----@field public ["attackInstigatorPosition"] Vector4
+---@field public attackInstigatorPosition Vector4
 AIAlertedStateDelegate = {}
 
 ---@param fields? table

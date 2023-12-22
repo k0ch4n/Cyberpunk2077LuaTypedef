@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraCreateIssueBody: ISerializable
----@field public ["fields"] toolsJiraIssueFields
+---@field public fields toolsJiraIssueFields
 toolsJiraCreateIssueBody = {}
 
 ---@param fields? table

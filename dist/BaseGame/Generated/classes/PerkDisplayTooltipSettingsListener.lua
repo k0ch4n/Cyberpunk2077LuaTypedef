@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayTooltipSettingsListener: userSettingsVarListener
----@field private ["ctrl"] PerkDisplayTooltipController
+---@field private ctrl PerkDisplayTooltipController
 PerkDisplayTooltipSettingsListener = {}
 
 ---@param fields? table

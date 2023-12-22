@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetLibraryResourceWrapper
----@field public ["library"] inkWidgetLibraryResource
+---@field public library inkWidgetLibraryResource
 inkWidgetLibraryResourceWrapper = {}
 
 ---@param fields? table

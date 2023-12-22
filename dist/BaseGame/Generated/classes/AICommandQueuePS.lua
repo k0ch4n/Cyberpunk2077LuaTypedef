@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AICommandQueuePS: gameComponentPS
----@field public ["behaviorArgumentList"] AIArgumentInstancePS[]
----@field public ["aiRole"] AIRole
+---@field public behaviorArgumentList AIArgumentInstancePS[]
+---@field public aiRole AIRole
 AICommandQueuePS = {}
 
 ---@param fields? table

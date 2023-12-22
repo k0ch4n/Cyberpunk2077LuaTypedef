@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkVirtualCompoundController: inkDiscreteNavigationController
----@field public ["ItemSelected"] inkVirtualCompoundControllerCallback
----@field public ["ItemActivated"] inkVirtualCompoundControllerCallback
----@field public ["AllElementsSpawned"] inkEmptyCallback
+---@field public ItemSelected inkVirtualCompoundControllerCallback
+---@field public ItemActivated inkVirtualCompoundControllerCallback
+---@field public AllElementsSpawned inkEmptyCallback
 inkVirtualCompoundController = {}
 
 ---@return Uint32

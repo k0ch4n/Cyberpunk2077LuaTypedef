@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DamageDigitUserData: IScriptable
----@field public ["controllerIndex"] Int32
+---@field public controllerIndex Int32
 DamageDigitUserData = {}
 
 ---@param fields? table

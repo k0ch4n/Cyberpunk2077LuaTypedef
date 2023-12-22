@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddSubCharacterRequest: gameScriptableSystemRequest
----@field public ["subCharObject"] ScriptedPuppet
+---@field public subCharObject ScriptedPuppet
 AddSubCharacterRequest = {}
 
 ---@param fields? table

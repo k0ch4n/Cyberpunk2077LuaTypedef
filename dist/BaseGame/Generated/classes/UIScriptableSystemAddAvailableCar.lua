@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemAddAvailableCar: gameScriptableSystemRequest
----@field public ["carFact"] CName
+---@field public carFact CName
 UIScriptableSystemAddAvailableCar = {}
 
 ---@param fields? table

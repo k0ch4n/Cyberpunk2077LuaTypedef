@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineActionParameterWeakIScriptable
----@field public ["name"] CName
----@field public ["value"] IScriptable
+---@field public name CName
+---@field public value IScriptable
 gamestateMachineActionParameterWeakIScriptable = {}
 
 ---@param fields? table

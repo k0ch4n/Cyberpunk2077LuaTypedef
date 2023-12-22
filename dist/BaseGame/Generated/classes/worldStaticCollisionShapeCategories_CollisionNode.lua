@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldStaticCollisionShapeCategories_CollisionNode
----@field public ["arr"] Uint16[][]
+---@field public arr Uint16[][]
 worldStaticCollisionShapeCategories_CollisionNode = {}
 
 ---@param fields? table

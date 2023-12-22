@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class WorldMapFiltersListItem: inkWidgetLogicController
----@field private ["checker"] inkWidgetReference
----@field private ["filterName"] inkTextWidgetReference
----@field private ["filterGroup"] gamedataMappinUIFilterGroup_Record
----@field private ["rootWidget"] inkWidget
----@field private ["isHovered"] Bool
+---@field private checker inkWidgetReference
+---@field private filterName inkTextWidgetReference
+---@field private filterGroup gamedataMappinUIFilterGroup_Record
+---@field private rootWidget inkWidget
+---@field private isHovered Bool
 WorldMapFiltersListItem = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RegisterTimetableRequest: gameScriptableSystemRequest
----@field public ["requesterData"] PSOwnerData
----@field public ["timeTable"] SDeviceTimetableEntry[]
----@field public ["lights"] Int32
+---@field public requesterData PSOwnerData
+---@field public timeTable SDeviceTimetableEntry[]
+---@field public lights Int32
 RegisterTimetableRequest = {}
 
 ---@param fields? table

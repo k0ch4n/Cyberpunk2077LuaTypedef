@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class sampleUIStatusWidgetLogicController: inkWidgetLogicController
----@field public ["enableStateColor"] Color
----@field public ["disableStateColor"] Color
----@field private ["textWidget"] inkTextWidget
----@field private ["iconWidget"] inkRectangleWidget
+---@field public enableStateColor Color
+---@field public disableStateColor Color
+---@field private textWidget inkTextWidget
+---@field private iconWidget inkRectangleWidget
 sampleUIStatusWidgetLogicController = {}
 
 ---@param fields? table

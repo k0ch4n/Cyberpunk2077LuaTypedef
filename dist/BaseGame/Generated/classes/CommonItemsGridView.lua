@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CommonItemsGridView: inkScriptableDataViewWrapper
----@field protected ["itemFilterType"] ItemFilterCategory
----@field protected ["itemSortMode"] ItemSortMode
----@field protected ["uiScriptableSystem"] UIScriptableSystem
+---@field protected itemFilterType ItemFilterCategory
+---@field protected itemSortMode ItemSortMode
+---@field protected uiScriptableSystem UIScriptableSystem
 CommonItemsGridView = {}
 
 ---@param fields? table

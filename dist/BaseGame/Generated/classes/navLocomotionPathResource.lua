@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class navLocomotionPathResource: CResource
----@field public ["paths"] navLocomotionPath[]
+---@field public paths navLocomotionPath[]
 navLocomotionPathResource = {}
 
 ---@param fields? table

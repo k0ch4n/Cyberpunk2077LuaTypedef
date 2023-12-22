@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class animTransformChannel: Enum
----@field ["PosX"] animTransformChannel 0
----@field ["PosY"] animTransformChannel 1
----@field ["PosZ"] animTransformChannel 2
----@field ["RotX"] animTransformChannel 3
----@field ["RotY"] animTransformChannel 4
----@field ["RotZ"] animTransformChannel 5
----@field ["ScaleX"] animTransformChannel 6
----@field ["ScaleY"] animTransformChannel 7
----@field ["ScaleZ"] animTransformChannel 8
+---@field PosX 0
+---@field PosY 1
+---@field PosZ 2
+---@field RotX 3
+---@field RotY 4
+---@field RotZ 5
+---@field ScaleX 6
+---@field ScaleY 7
+---@field ScaleZ 8
 animTransformChannel = {}

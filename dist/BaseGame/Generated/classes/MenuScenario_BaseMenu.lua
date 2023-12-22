@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_BaseMenu: inkMenuScenario
----@field protected ["currMenuName"] CName
----@field protected ["currUserData"] IScriptable
----@field protected ["currSubMenuName"] CName
----@field protected ["prevMenuName"] CName
+---@field protected currMenuName CName
+---@field protected currUserData IScriptable
+---@field protected currSubMenuName CName
+---@field protected prevMenuName CName
 MenuScenario_BaseMenu = {}
 
 ---@param fields? table

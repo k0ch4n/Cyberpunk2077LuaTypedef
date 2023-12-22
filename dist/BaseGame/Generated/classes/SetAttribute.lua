@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetAttribute: gamePlayerScriptableSystemRequest
----@field public ["statLevel"] Float
----@field public ["attributeType"] gamedataStatType
+---@field public statLevel Float
+---@field public attributeType gamedataStatType
 SetAttribute = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class FTNpcMountingState: Enum
----@field ["Mounted"] FTNpcMountingState 0
----@field ["Unmounted"] FTNpcMountingState 1
+---@field Mounted 0
+---@field Unmounted 1
 FTNpcMountingState = {}

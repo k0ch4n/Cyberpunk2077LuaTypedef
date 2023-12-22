@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class inkISystemRequestsHandler: IScriptable
----@field public ["SavesForSaveReady"] inkSystemRequesResult
----@field public ["SavesForLoadReady"] inkSystemRequesResult
----@field public ["SaveMetadataReady"] inkSaveMetadataRequestResult
----@field public ["GogLoginStatusChanged"] inkOnGogLoginStatusChangedResult
----@field public ["SaveDeleted"] inkDeleteRequestResult
----@field public ["SaveTransferUpdate"] inkSaveTransferRequestUpdate
----@field public ["ServersSearchResult"] inkSystemServerRequesResult
----@field public ["AdditionalContentPurchaseResult"] inkAdditionalContentPurchaseCallback
----@field public ["AdditionalContentInstallationRequestResult"] inkAdditionalContentInstallRequestedCallback
----@field public ["AdditionalContentInstallationResult"] inkAdditionalContentInstalledCallback
----@field public ["AdditionalContentStatusUpdateResult"] inkAdditionalContentStatusUpdateCallback
----@field public ["AdditionalContentDataReloadProgressCallback"] inkAdditionalContentDataReloadProgress
----@field public ["ToggleBreachingCallback"] inkToggleBreachingCallback
----@field public ["UserChanged"] inkUserIdResult
----@field public ["UserIdResult"] inkUserIdResult
----@field public ["TrialVersionRemainingTimeUpdated"] inkTrialVersionRemainingTimeUpdate
----@field public ["BoughtFullGame"] inkTrialOnBuyFullGame
----@field public ["CloudSavesQueryStatusChanged"] inkCloudSavesQueryStatusChange
----@field public ["CloudSaveUploadFinish"] inkCloudSaveUploadFinish
+---@field public SavesForSaveReady inkSystemRequesResult
+---@field public SavesForLoadReady inkSystemRequesResult
+---@field public SaveMetadataReady inkSaveMetadataRequestResult
+---@field public GogLoginStatusChanged inkOnGogLoginStatusChangedResult
+---@field public SaveDeleted inkDeleteRequestResult
+---@field public SaveTransferUpdate inkSaveTransferRequestUpdate
+---@field public ServersSearchResult inkSystemServerRequesResult
+---@field public AdditionalContentPurchaseResult inkAdditionalContentPurchaseCallback
+---@field public AdditionalContentInstallationRequestResult inkAdditionalContentInstallRequestedCallback
+---@field public AdditionalContentInstallationResult inkAdditionalContentInstalledCallback
+---@field public AdditionalContentStatusUpdateResult inkAdditionalContentStatusUpdateCallback
+---@field public AdditionalContentDataReloadProgressCallback inkAdditionalContentDataReloadProgress
+---@field public ToggleBreachingCallback inkToggleBreachingCallback
+---@field public UserChanged inkUserIdResult
+---@field public UserIdResult inkUserIdResult
+---@field public TrialVersionRemainingTimeUpdated inkTrialVersionRemainingTimeUpdate
+---@field public BoughtFullGame inkTrialOnBuyFullGame
+---@field public CloudSavesQueryStatusChanged inkCloudSavesQueryStatusChange
+---@field public CloudSaveUploadFinish inkCloudSaveUploadFinish
 inkISystemRequestsHandler = {}
 
 ---@return nil

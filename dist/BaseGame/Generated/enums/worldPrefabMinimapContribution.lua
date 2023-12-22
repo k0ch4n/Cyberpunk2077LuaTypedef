@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPrefabMinimapContribution: Enum
----@field ["Auto"] worldPrefabMinimapContribution 0
----@field ["Include"] worldPrefabMinimapContribution 1
----@field ["Discard"] worldPrefabMinimapContribution 2
+---@field Auto 0
+---@field Include 1
+---@field Discard 2
 worldPrefabMinimapContribution = {}

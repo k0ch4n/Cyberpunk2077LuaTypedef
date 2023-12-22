@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseMenuGameController: gameuiWidgetGameController
----@field public ["puppetSceneInfos"] gameuiBaseMenuGameControllerPuppetSceneInfo[]
+---@field public puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]
 gameuiBaseMenuGameController = {}
 
 ---@param fields? table

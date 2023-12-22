@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PersistentDotSettingsListener: userSettingsVarListener
----@field private ["controller"] CrosshairGameControllerPersistentDot
+---@field private controller CrosshairGameControllerPersistentDot
 PersistentDotSettingsListener = {}
 
 ---@param fields? table

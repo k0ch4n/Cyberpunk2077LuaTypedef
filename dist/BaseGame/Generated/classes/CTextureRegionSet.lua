@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CTextureRegionSet: CResource
----@field public ["regions"] rendTextureRegion[]
+---@field public regions rendTextureRegion[]
 CTextureRegionSet = {}
 
 ---@param fields? table

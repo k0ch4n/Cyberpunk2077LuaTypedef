@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuEventBlackboardDef: gamebbScriptDefinition
----@field public ["MenuEventToTrigger"] gamebbScriptID_CName
+---@field public MenuEventToTrigger gamebbScriptID_CName
 MenuEventBlackboardDef = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCGodModeListener: gameScriptStatsListener
----@field public ["owner"] NPCPuppet
+---@field public owner NPCPuppet
 NPCGodModeListener = {}
 
 ---@param fields? table

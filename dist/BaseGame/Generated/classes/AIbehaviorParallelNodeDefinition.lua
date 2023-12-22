@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorParallelNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
----@field public ["waitFor"] AIbehaviorParallelNodeWaitFor
+---@field public waitFor AIbehaviorParallelNodeWaitFor
 AIbehaviorParallelNodeDefinition = {}
 
 ---@param fields? table

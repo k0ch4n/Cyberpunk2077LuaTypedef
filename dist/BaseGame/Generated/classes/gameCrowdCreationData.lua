@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCrowdCreationData
----@field public ["timePeriods"] gameCrowdPhaseTimePeriod
+---@field public timePeriods gameCrowdPhaseTimePeriod
 gameCrowdCreationData = {}
 
 ---@param fields? table

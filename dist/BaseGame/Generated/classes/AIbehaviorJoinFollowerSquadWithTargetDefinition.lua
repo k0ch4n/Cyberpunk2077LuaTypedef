@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorJoinFollowerSquadWithTargetDefinition: AIbehaviorTaskDefinition
----@field public ["follower"] AIArgumentMapping
+---@field public follower AIArgumentMapping
 AIbehaviorJoinFollowerSquadWithTargetDefinition = {}
 
 ---@param fields? table

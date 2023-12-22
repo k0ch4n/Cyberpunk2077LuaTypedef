@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ItemFilterCategory: Enum
----@field ["RangedWeapons"] ItemFilterCategory 0
----@field ["MeleeWeapons"] ItemFilterCategory 1
----@field ["Clothes"] ItemFilterCategory 2
----@field ["Consumables"] ItemFilterCategory 3
----@field ["Grenades"] ItemFilterCategory 4
----@field ["SoftwareMods"] ItemFilterCategory 5
----@field ["Attachments"] ItemFilterCategory 6
----@field ["Programs"] ItemFilterCategory 7
----@field ["Cyberware"] ItemFilterCategory 8
----@field ["Junk"] ItemFilterCategory 9
----@field ["BaseCount"] ItemFilterCategory 10
----@field ["Quest"] ItemFilterCategory 11
----@field ["NewWardrobeAppearances"] ItemFilterCategory 12
----@field ["Buyback"] ItemFilterCategory 13
----@field ["AllItems"] ItemFilterCategory 14
----@field ["AllCount"] ItemFilterCategory 15
----@field ["Invalid"] ItemFilterCategory -1
+---@field RangedWeapons 0
+---@field MeleeWeapons 1
+---@field Clothes 2
+---@field Consumables 3
+---@field Grenades 4
+---@field SoftwareMods 5
+---@field Attachments 6
+---@field Programs 7
+---@field Cyberware 8
+---@field Junk 9
+---@field BaseCount 10
+---@field Quest 11
+---@field NewWardrobeAppearances 12
+---@field Buyback 13
+---@field AllItems 14
+---@field AllCount 15
+---@field Invalid -1
 ItemFilterCategory = {}

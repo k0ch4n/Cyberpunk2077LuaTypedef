@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAnimsetOverrideData
----@field public ["animsetHash"] Uint64
----@field public ["variables"] CName[]
+---@field public animsetHash Uint64
+---@field public variables CName[]
 gameAnimsetOverrideData = {}
 
 ---@param fields? table

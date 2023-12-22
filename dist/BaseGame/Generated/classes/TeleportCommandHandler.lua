@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TeleportCommandHandler: AICommandHandlerBase
----@field protected ["position"] AIArgumentMapping
----@field protected ["rotation"] AIArgumentMapping
----@field protected ["doNavTest"] AIArgumentMapping
+---@field protected position AIArgumentMapping
+---@field protected rotation AIArgumentMapping
+---@field protected doNavTest AIArgumentMapping
 TeleportCommandHandler = {}
 
 ---@param fields? table

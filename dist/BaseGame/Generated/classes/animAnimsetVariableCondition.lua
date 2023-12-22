@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimsetVariableCondition: animIRuntimeCondition
----@field public ["variableToCompare"] CName
+---@field public variableToCompare CName
 animAnimsetVariableCondition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIDriveJoinTrafficCommandHandler: AICommandHandlerBase
----@field protected ["outUseKinematic"] AIArgumentMapping
----@field protected ["outNeedDriver"] AIArgumentMapping
+---@field protected outUseKinematic AIArgumentMapping
+---@field protected outNeedDriver AIArgumentMapping
 AIDriveJoinTrafficCommandHandler = {}
 
 ---@param fields? table

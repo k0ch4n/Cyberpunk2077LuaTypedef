@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameLootItemType: Enum
----@field ["Default"] gameLootItemType 0
----@field ["Quest"] gameLootItemType 1
----@field ["Shard"] gameLootItemType 2
+---@field Default 0
+---@field Quest 1
+---@field Shard 2
 gameLootItemType = {}

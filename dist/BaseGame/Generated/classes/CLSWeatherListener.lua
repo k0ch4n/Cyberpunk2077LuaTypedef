@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CLSWeatherListener: worldWeatherScriptListener
----@field private ["owner"] CityLightSystem
+---@field private owner CityLightSystem
 CLSWeatherListener = {}
 
 ---@param fields? table

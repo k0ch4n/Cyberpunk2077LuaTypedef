@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workStopWorkspotQuestAction: workIWorkspotQuestAction
----@field public ["allowCurrAnimToFinish"] Bool
----@field public ["exitAnim"] CName
+---@field public allowCurrAnimToFinish Bool
+---@field public exitAnim CName
 workStopWorkspotQuestAction = {}
 
 ---@param fields? table

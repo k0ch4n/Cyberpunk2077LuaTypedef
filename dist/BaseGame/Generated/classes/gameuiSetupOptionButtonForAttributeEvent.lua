@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiSetupOptionButtonForAttributeEvent: redEvent
----@field public ["attribute"] Uint32
----@field public ["value"] String
+---@field public attribute Uint32
+---@field public value String
 gameuiSetupOptionButtonForAttributeEvent = {}
 
 ---@param fields? table

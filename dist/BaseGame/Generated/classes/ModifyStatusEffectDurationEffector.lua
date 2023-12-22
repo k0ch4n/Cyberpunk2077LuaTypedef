@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ModifyStatusEffectDurationEffector: gameEffector
----@field private ["statusEffectListener"] OnStatusEffectAppliedListener
----@field public ["tags"] CName[]
----@field public ["change"] Float
----@field public ["isPercentage"] Bool
----@field public ["listenConstantly"] Bool
----@field public ["canGoOverInitialDuration"] Bool
----@field public ["gameInstance"] ScriptGameInstance
+---@field private statusEffectListener OnStatusEffectAppliedListener
+---@field public tags CName[]
+---@field public change Float
+---@field public isPercentage Bool
+---@field public listenConstantly Bool
+---@field public canGoOverInitialDuration Bool
+---@field public gameInstance ScriptGameInstance
 ModifyStatusEffectDurationEffector = {}
 
 ---@param fields? table

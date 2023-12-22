@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HotkeyAssignmentRequest: gamePlayerScriptableSystemRequest
----@field protected ["itemID"] gameItemID
----@field private ["hotkey"] gameEHotkey
----@field protected ["requestType"] EHotkeyRequestType
+---@field protected itemID gameItemID
+---@field private hotkey gameEHotkey
+---@field protected requestType EHotkeyRequestType
 HotkeyAssignmentRequest = {}
 
 ---@param fields? table

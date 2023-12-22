@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_VectorConstant: animAnimNode_VectorValue
----@field public ["value"] Vector4
+---@field public value Vector4
 animAnimNode_VectorConstant = {}
 
 ---@param fields? table

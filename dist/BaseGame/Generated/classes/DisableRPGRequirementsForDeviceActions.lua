@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DisableRPGRequirementsForDeviceActions: redEvent
----@field public ["action"] TweakDBID
----@field public ["disable"] Bool
+---@field public action TweakDBID
+---@field public disable Bool
 DisableRPGRequirementsForDeviceActions = {}
 
 ---@param fields? table

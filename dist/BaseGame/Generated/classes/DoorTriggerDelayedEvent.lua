@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DoorTriggerDelayedEvent: redEvent
----@field public ["activator"] gameObject
----@field public ["force"] Bool
+---@field public activator gameObject
+---@field public force Bool
 DoorTriggerDelayedEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AddOrRemoveListenerForGOEvent: redEvent
----@field public ["listener"] GameObjectListener
----@field public ["shouldAdd"] Bool
+---@field public listener GameObjectListener
+---@field public shouldAdd Bool
 AddOrRemoveListenerForGOEvent = {}
 
 ---@param fields? table

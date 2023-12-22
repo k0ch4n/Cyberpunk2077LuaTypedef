@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationAttribute
----@field public ["type"] gamedataStatType
----@field public ["value"] Uint32
+---@field public type gamedataStatType
+---@field public value Uint32
 gameuiCharacterCustomizationAttribute = {}
 
 ---@param fields? table

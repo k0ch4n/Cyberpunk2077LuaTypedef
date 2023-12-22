@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class HighestPrioritySignalCondition: AIbehaviorexpressionScript
----@field public ["signalName"] CName
----@field protected ["cbId"] Uint32
----@field protected ["lastValue"] Bool
+---@field public signalName CName
+---@field protected cbId Uint32
+---@field protected lastValue Bool
 HighestPrioritySignalCondition = {}
 
 ---@param fields? table

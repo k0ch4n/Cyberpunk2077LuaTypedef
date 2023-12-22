@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterFastTravelPointsEvent: redEvent
----@field public ["fastTravelNodes"] gameFastTravelPointData[]
+---@field public fastTravelNodes gameFastTravelPointData[]
 RegisterFastTravelPointsEvent = {}
 
 ---@param fields? table

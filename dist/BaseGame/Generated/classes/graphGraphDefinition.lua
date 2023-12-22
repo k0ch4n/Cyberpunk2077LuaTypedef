@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class graphGraphDefinition: graphIGraphObjectDefinition
----@field public ["nodes"] graphGraphNodeDefinition[]
+---@field public nodes graphGraphNodeDefinition[]
 graphGraphDefinition = {}

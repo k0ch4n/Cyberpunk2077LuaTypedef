@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAvailableExposureMethodResult
----@field public ["distanceToTarget"] Float
----@field public ["method"] AICoverExposureMethod
+---@field public distanceToTarget Float
+---@field public method AICoverExposureMethod
 gameAvailableExposureMethodResult = {}
 
 ---@param fields? table

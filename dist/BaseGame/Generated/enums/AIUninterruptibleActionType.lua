@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIUninterruptibleActionType: Enum
----@field ["None"] AIUninterruptibleActionType 0
----@field ["Default"] AIUninterruptibleActionType 1
----@field ["EnteringCover"] AIUninterruptibleActionType 2
----@field ["LeavingCover"] AIUninterruptibleActionType 3
----@field ["Count"] AIUninterruptibleActionType 4
+---@field None 0
+---@field Default 1
+---@field EnteringCover 2
+---@field LeavingCover 3
+---@field Count 4
 AIUninterruptibleActionType = {}

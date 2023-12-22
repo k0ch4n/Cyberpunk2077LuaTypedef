@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workWorkspotGlobalProp
----@field public ["id"] CName
----@field public ["boneName"] CName
----@field public ["prop"] entEntityTemplate
+---@field public id CName
+---@field public boneName CName
+---@field public prop entEntityTemplate
 workWorkspotGlobalProp = {}
 
 ---@param fields? table

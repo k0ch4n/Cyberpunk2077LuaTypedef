@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questResetContainers_NodeTypeParams
----@field public ["containerNodeRef"] NodeRef
----@field public ["clearReinitData"] Bool
+---@field public containerNodeRef NodeRef
+---@field public clearReinitData Bool
 questResetContainers_NodeTypeParams = {}
 
 ---@param fields? table

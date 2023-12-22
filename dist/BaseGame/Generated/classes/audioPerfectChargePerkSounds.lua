@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioPerfectChargePerkSounds
----@field public ["perfectChargeChargingSound"] CName
----@field public ["perfectChargeChargedSound"] CName
----@field public ["perfectChargeShootingSound"] CName
+---@field public perfectChargeChargingSound CName
+---@field public perfectChargeChargedSound CName
+---@field public perfectChargeShootingSound CName
 audioPerfectChargePerkSounds = {}
 
 ---@param fields? table

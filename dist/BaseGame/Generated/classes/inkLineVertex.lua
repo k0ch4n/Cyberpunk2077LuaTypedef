@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkLineVertex
----@field public ["int"] Vector2
----@field public ["neType"] inkLineType
+---@field public int Vector2
+---@field public neType inkLineType
 inkLineVertex = {}
 
 ---@param fields? table

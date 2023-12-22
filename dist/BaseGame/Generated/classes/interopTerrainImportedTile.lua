@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class interopTerrainImportedTile
----@field public ["heightMapAbsolutePath"] String
----@field public ["controlMapAbsolutePath"] String
----@field public ["colorMapAbsolutePath"] String
----@field public ["position"] Point
+---@field public heightMapAbsolutePath String
+---@field public controlMapAbsolutePath String
+---@field public colorMapAbsolutePath String
+---@field public position Point
 interopTerrainImportedTile = {}
 
 ---@param fields? table

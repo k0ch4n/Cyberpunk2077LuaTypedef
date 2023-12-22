@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatusEffectBasedTimeBankEffector: gameEffector
----@field private ["player"] gameObject
----@field private ["playerEntityID"] entEntityID
----@field private ["statusEffectListener"] TimeBankOnStatusEffectAppliedListener
----@field private ["gameInstance"] ScriptGameInstance
+---@field private player gameObject
+---@field private playerEntityID entEntityID
+---@field private statusEffectListener TimeBankOnStatusEffectAppliedListener
+---@field private gameInstance ScriptGameInstance
 StatusEffectBasedTimeBankEffector = {}
 
 ---@param fields? table

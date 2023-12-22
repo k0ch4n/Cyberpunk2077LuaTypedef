@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShouldRetreatBehaviorStop: PreventionConditionAbstract
----@field public ["agentRegistry"] PoliceAgentRegistry
+---@field public agentRegistry PoliceAgentRegistry
 ShouldRetreatBehaviorStop = {}
 
 ---@param fields? table

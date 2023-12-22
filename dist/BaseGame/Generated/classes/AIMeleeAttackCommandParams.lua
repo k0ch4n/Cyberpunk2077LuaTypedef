@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIMeleeAttackCommandParams: questScriptedAICommandParams
----@field public ["targetOverrideNodeRef"] NodeRef
----@field public ["targetOverridePuppetRef"] gameEntityReference
----@field public ["duration"] Float
+---@field public targetOverrideNodeRef NodeRef
+---@field public targetOverridePuppetRef gameEntityReference
+---@field public duration Float
 AIMeleeAttackCommandParams = {}
 
 ---@param fields? table

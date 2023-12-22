@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateMeleeTrailEffectEvent: redEvent
----@field public ["instigator"] gameObject
+---@field public instigator gameObject
 UpdateMeleeTrailEffectEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioConversationMetadata: audioAudioMetadata
----@field public ["conversations"] audioConversationItemMetadata[]
+---@field public conversations audioConversationItemMetadata[]
 audioConversationMetadata = {}
 
 ---@param fields? table

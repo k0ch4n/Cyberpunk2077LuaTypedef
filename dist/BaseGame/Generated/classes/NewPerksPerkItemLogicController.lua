@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class NewPerksPerkItemLogicController: inkWidgetLogicController
----@field private ["icon"] inkImageWidgetReference
----@field private ["iconGhost"] inkImageWidgetReference
----@field private ["lockIcon"] inkWidgetReference
----@field private ["requiredPointsText"] inkTextWidgetReference
----@field private ["levelText"] inkTextWidgetReference
----@field private ["DEV_notYetImplemented"] inkWidgetReference
----@field private ["container"] NewPerksPerkContainerLogicController
----@field private ["initData"] NewPerksPerkItemInitData
----@field private ["isUnlocked"] Bool
----@field private ["currentLevel"] Int32
----@field private ["hovered"] Bool
----@field private ["maxedAnimProxy"] inkanimProxy
----@field private ["animProxies"] inkanimProxy[]
----@field private ["isRelic"] Bool
+---@field private icon inkImageWidgetReference
+---@field private iconGhost inkImageWidgetReference
+---@field private lockIcon inkWidgetReference
+---@field private requiredPointsText inkTextWidgetReference
+---@field private levelText inkTextWidgetReference
+---@field private DEV_notYetImplemented inkWidgetReference
+---@field private container NewPerksPerkContainerLogicController
+---@field private initData NewPerksPerkItemInitData
+---@field private isUnlocked Bool
+---@field private currentLevel Int32
+---@field private hovered Bool
+---@field private maxedAnimProxy inkanimProxy
+---@field private animProxies inkanimProxy[]
+---@field private isRelic Bool
 NewPerksPerkItemLogicController = {}
 
 ---@param fields? table

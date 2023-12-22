@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerAbilities: ScannerChunk
----@field public ["abilities"] gamedataGameplayAbility_Record[]
+---@field public abilities gamedataGameplayAbility_Record[]
 ScannerAbilities = {}
 
 ---@param fields? table

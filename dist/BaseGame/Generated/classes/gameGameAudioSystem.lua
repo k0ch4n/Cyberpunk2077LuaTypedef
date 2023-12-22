@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGameAudioSystem: gameIGameAudioSystem
----@field private ["enemyPingStimCount"] Uint8
----@field private ["mixHasDetectedCombat"] Bool
+---@field private enemyPingStimCount Uint8
+---@field private mixHasDetectedCombat Bool
 gameGameAudioSystem = {}
 
 ---@param fields? table

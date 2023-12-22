@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Terminal: InteractiveMasterDevice
----@field protected ["cameraFeed"] ScriptableVirtualCameraViewComponent
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
+---@field protected cameraFeed ScriptableVirtualCameraViewComponent
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
 Terminal = {}
 
 ---@param fields? table

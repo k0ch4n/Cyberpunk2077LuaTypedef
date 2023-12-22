@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class FeaturesExpansionPopupController: inkWidgetLogicController
----@field private ["hoverAnimationName"] CName
----@field private ["hoverArrow"] inkImageWidgetReference
----@field private ["buyButtonRef"] inkWidgetReference
----@field private ["buyButtonText"] inkTextWidgetReference
----@field private ["buyButtonInputIcon"] inkWidgetReference
----@field private ["buyButtonSpinner"] inkWidgetReference
----@field private ["locKey_Buy"] CName
----@field private ["locKey_PreOrder"] CName
----@field private ["slectorContainerRef"] inkWidgetReference
----@field private ["slectorArrowLeftRef"] inkWidgetReference
----@field private ["slectorArrowRightRef"] inkWidgetReference
----@field private ["videoCarouselRef"] inkWidgetReference
----@field private ["videoContainerRef"] inkWidgetReference
----@field private ["videoCarouselData"] VideoCarouselData[]
----@field private ["videoCarouselController"] VideoCarouselController
----@field private ["buyButtonController"] inkButtonController
----@field private ["hoverAnimation"] inkanimProxy
----@field private ["hoverAnimationOptions"] inkanimPlaybackOptions
----@field private ["isEp1Released"] Bool
+---@field private hoverAnimationName CName
+---@field private hoverArrow inkImageWidgetReference
+---@field private buyButtonRef inkWidgetReference
+---@field private buyButtonText inkTextWidgetReference
+---@field private buyButtonInputIcon inkWidgetReference
+---@field private buyButtonSpinner inkWidgetReference
+---@field private locKey_Buy CName
+---@field private locKey_PreOrder CName
+---@field private slectorContainerRef inkWidgetReference
+---@field private slectorArrowLeftRef inkWidgetReference
+---@field private slectorArrowRightRef inkWidgetReference
+---@field private videoCarouselRef inkWidgetReference
+---@field private videoContainerRef inkWidgetReference
+---@field private videoCarouselData VideoCarouselData[]
+---@field private videoCarouselController VideoCarouselController
+---@field private buyButtonController inkButtonController
+---@field private hoverAnimation inkanimProxy
+---@field private hoverAnimationOptions inkanimPlaybackOptions
+---@field private isEp1Released Bool
 FeaturesExpansionPopupController = {}
 
 ---@param fields? table

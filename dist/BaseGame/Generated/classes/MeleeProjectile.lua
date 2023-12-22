@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class MeleeProjectile: BaseProjectile
----@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
----@field protected ["throwCooldownSE"] TweakDBID
----@field protected ["collided"] Bool
----@field protected ["wasPicked"] Bool
----@field protected ["isActive"] Bool
----@field protected ["hasHitWater"] Bool
----@field protected ["waterHeight"] Float
----@field protected ["deactivationDepth"] Float
----@field protected ["waterImpulseRadius"] Float
----@field protected ["waterImpulseStrength"] Float
----@field protected ["gravitySimulationMult"] Float
----@field protected ["weapon"] gameObject
----@field private ["throwingMeleeResourcePoolListener"] ThrowingMeleeReloadListener
----@field protected ["projectileCollisionEvaluator"] ThrowingMeleeCollisionEvaluator
----@field protected ["projectileStopped"] Bool
----@field protected ["isCollidedWithEnemy"] Bool
+---@field protected resourceLibraryComponent ResourceLibraryComponent
+---@field protected throwCooldownSE TweakDBID
+---@field protected collided Bool
+---@field protected wasPicked Bool
+---@field protected isActive Bool
+---@field protected hasHitWater Bool
+---@field protected waterHeight Float
+---@field protected deactivationDepth Float
+---@field protected waterImpulseRadius Float
+---@field protected waterImpulseStrength Float
+---@field protected gravitySimulationMult Float
+---@field protected weapon gameObject
+---@field private throwingMeleeResourcePoolListener ThrowingMeleeReloadListener
+---@field protected projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
+---@field protected projectileStopped Bool
+---@field protected isCollidedWithEnemy Bool
 MeleeProjectile = {}
 
 ---@param fields? table

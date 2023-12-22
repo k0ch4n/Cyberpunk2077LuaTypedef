@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questContentSwitch_ConditionType: questISystemConditionType
----@field public ["switchName"] CName
+---@field public switchName CName
 questContentSwitch_ConditionType = {}
 
 ---@param fields? table

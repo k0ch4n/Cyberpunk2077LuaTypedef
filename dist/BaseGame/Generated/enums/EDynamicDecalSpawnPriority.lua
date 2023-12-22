@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EDynamicDecalSpawnPriority: Enum
----@field ["RDDS_Normal"] EDynamicDecalSpawnPriority 0
----@field ["RDDS_Highest"] EDynamicDecalSpawnPriority 1
+---@field RDDS_Normal 0
+---@field RDDS_Highest 1
 EDynamicDecalSpawnPriority = {}

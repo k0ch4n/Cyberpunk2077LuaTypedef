@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_Aim: animAnimFeature_BasicAim
----@field public ["aimPoint"] Vector4
+---@field public aimPoint Vector4
 animAnimFeature_Aim = {}
 
 ---@param fields? table

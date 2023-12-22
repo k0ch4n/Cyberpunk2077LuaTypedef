@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStoryActionConditionDefinition: AIbehaviorConditionDefinition
----@field public ["action"] AIbehaviorStoryActionType
+---@field public action AIbehaviorStoryActionType
 AIbehaviorStoryActionConditionDefinition = {}
 
 ---@param fields? table

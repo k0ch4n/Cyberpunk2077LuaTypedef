@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RipperdocCategoryTooltip: AGenericTooltipController
----@field private ["desc"] inkTextWidgetReference
----@field private ["availableLabelCounter"] inkTextWidgetReference
----@field private ["ownedLabelCounter"] inkTextWidgetReference
----@field private ["ownedLabel"] inkWidgetReference
----@field private ["availableLabel"] inkWidgetReference
----@field private ["NALabel"] inkWidgetReference
+---@field private desc inkTextWidgetReference
+---@field private availableLabelCounter inkTextWidgetReference
+---@field private ownedLabelCounter inkTextWidgetReference
+---@field private ownedLabel inkWidgetReference
+---@field private availableLabel inkWidgetReference
+---@field private NALabel inkWidgetReference
 RipperdocCategoryTooltip = {}
 
 ---@param fields? table

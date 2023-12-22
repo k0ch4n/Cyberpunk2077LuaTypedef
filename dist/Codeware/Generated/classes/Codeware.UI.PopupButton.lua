@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_PopupButton: Codeware_UI_CustomButton
----@field public ["isFlipped"] Bool
----@field public ["bg"] inkImageWidget
----@field public ["frame"] inkImageWidget
----@field public ["input"] inkInputDisplayController
+---@field public isFlipped Bool
+---@field public bg inkImageWidget
+---@field public frame inkImageWidget
+---@field public input inkInputDisplayController
 Codeware_UI_PopupButton = {}
 
 ---@param fields? table

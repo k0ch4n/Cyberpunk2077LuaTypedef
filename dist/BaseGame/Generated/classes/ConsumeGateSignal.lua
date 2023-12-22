@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ConsumeGateSignal: GateSignal
----@field public ["consumeCallName"] CName
----@field public ["signalToConsume"] GateSignal
+---@field public consumeCallName CName
+---@field public signalToConsume GateSignal
 ConsumeGateSignal = {}
 
 ---@param fields? table

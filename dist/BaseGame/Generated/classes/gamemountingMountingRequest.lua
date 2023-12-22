@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamemountingMountingRequest: IScriptable
----@field public ["lowLevelMountingInfo"] gamemountingMountingInfo
----@field public ["preservePositionAfterMounting"] Bool
----@field public ["mountData"] gameMountEventData
+---@field public lowLevelMountingInfo gamemountingMountingInfo
+---@field public preservePositionAfterMounting Bool
+---@field public mountData gameMountEventData
 gamemountingMountingRequest = {}
 
 ---@param fields? table

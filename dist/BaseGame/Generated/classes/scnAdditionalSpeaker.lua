@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnAdditionalSpeaker
----@field public ["actorId"] scnActorId
----@field public ["type"] scnAdditionalSpeakerType
+---@field public actorId scnActorId
+---@field public type scnAdditionalSpeakerType
 scnAdditionalSpeaker = {}
 
 ---@param fields? table

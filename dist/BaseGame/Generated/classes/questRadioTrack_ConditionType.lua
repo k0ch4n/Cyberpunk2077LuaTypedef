@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questRadioTrack_ConditionType: questISystemConditionType
----@field public ["radioTrack"] CName
----@field public ["inverted"] Bool
+---@field public radioTrack CName
+---@field public inverted Bool
 questRadioTrack_ConditionType = {}
 
 ---@param fields? table

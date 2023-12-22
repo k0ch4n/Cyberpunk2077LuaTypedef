@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HubMenuDatabaseItems: Enum
----@field ["Codex"] HubMenuDatabaseItems 0
----@field ["Tarot"] HubMenuDatabaseItems 1
----@field ["Shards"] HubMenuDatabaseItems 2
+---@field Codex 0
+---@field Tarot 1
+---@field Shards 2
 HubMenuDatabaseItems = {}

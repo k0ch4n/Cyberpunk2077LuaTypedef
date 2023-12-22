@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class BackdoorInkGameController: MasterDeviceInkGameControllerBase
----@field private ["IdleGroup"] inkWidgetReference
----@field private ["ConnectedGroup"] inkWidgetReference
----@field private ["IntroAnimationName"] CName
----@field private ["IdleAnimationName"] CName
----@field private ["GlitchAnimationName"] CName
----@field private ["RunningAnimation"] inkanimProxy
----@field private ["onGlitchingListener"] redCallbackObject
----@field private ["onIsInDefaultStateListener"] redCallbackObject
----@field private ["onShutdownModuleListener"] redCallbackObject
----@field private ["onBootModuleListener"] redCallbackObject
+---@field private IdleGroup inkWidgetReference
+---@field private ConnectedGroup inkWidgetReference
+---@field private IntroAnimationName CName
+---@field private IdleAnimationName CName
+---@field private GlitchAnimationName CName
+---@field private RunningAnimation inkanimProxy
+---@field private onGlitchingListener redCallbackObject
+---@field private onIsInDefaultStateListener redCallbackObject
+---@field private onShutdownModuleListener redCallbackObject
+---@field private onBootModuleListener redCallbackObject
 BackdoorInkGameController = {}
 
 ---@param fields? table

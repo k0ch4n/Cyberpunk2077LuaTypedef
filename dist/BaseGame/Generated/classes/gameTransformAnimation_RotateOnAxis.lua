@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_RotateOnAxis: gameTransformAnimationTrackItemImpl
----@field public ["axis"] gameTransformAnimation_RotateOnAxisAxis
----@field public ["numberOfFullRotations"] Float
----@field public ["startAngle"] Float
----@field public ["reverseDirection"] Bool
----@field public ["movement"] gameTransformAnimation_Movement
+---@field public axis gameTransformAnimation_RotateOnAxisAxis
+---@field public numberOfFullRotations Float
+---@field public startAngle Float
+---@field public reverseDirection Bool
+---@field public movement gameTransformAnimation_Movement
 gameTransformAnimation_RotateOnAxis = {}
 
 ---@param fields? table

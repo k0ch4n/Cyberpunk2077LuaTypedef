@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameSceneAnimationMotionActionParamsEasingType: Enum
----@field ["Linear"] gameSceneAnimationMotionActionParamsEasingType 0
----@field ["SinusoidalEaseInOut"] gameSceneAnimationMotionActionParamsEasingType 1
----@field ["QuadraticEaseIn"] gameSceneAnimationMotionActionParamsEasingType 2
----@field ["QuadraticEaseOut"] gameSceneAnimationMotionActionParamsEasingType 3
----@field ["CubicEaseInOut"] gameSceneAnimationMotionActionParamsEasingType 4
----@field ["CubicEaseIn"] gameSceneAnimationMotionActionParamsEasingType 5
----@field ["CubicEaseOut"] gameSceneAnimationMotionActionParamsEasingType 6
+---@field Linear 0
+---@field SinusoidalEaseInOut 1
+---@field QuadraticEaseIn 2
+---@field QuadraticEaseOut 3
+---@field CubicEaseInOut 4
+---@field CubicEaseIn 5
+---@field CubicEaseOut 6
 gameSceneAnimationMotionActionParamsEasingType = {}

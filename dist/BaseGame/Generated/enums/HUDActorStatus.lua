@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDActorStatus: Enum
----@field ["UNINITIALIZED"] HUDActorStatus 0
----@field ["REGISTERED"] HUDActorStatus 1
----@field ["ACTIVE"] HUDActorStatus 2
+---@field UNINITIALIZED 0
+---@field REGISTERED 1
+---@field ACTIVE 2
 HUDActorStatus = {}

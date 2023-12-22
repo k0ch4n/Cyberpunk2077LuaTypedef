@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldSpawnPointMarker: worldIMarker
----@field public ["type"] Uint32
+---@field public type Uint32
 worldSpawnPointMarker = {}
 
 ---@param fields? table

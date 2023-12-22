@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class inkButtonController: inkDiscreteNavigationController
----@field public ["ButtonClick"] inkButtonClickCallback
----@field public ["ButtonHoldComplete"] inkButtonHoldCompleteCallback
----@field public ["ButtonStateChanged"] inkButtonStateChangeCallback
----@field public ["ButtonSelectionChanged"] inkButtonSelectionCallback
----@field public ["ButtonHoldProgressChanged"] inkButtonProgressChangedCallback
----@field public ["canHold"] Bool
----@field public ["selectable"] Bool
----@field public ["selected"] Bool
----@field public ["autoUpdateWidgetState"] Bool
+---@field public ButtonClick inkButtonClickCallback
+---@field public ButtonHoldComplete inkButtonHoldCompleteCallback
+---@field public ButtonStateChanged inkButtonStateChangeCallback
+---@field public ButtonSelectionChanged inkButtonSelectionCallback
+---@field public ButtonHoldProgressChanged inkButtonProgressChangedCallback
+---@field public canHold Bool
+---@field public selectable Bool
+---@field public selected Bool
+---@field public autoUpdateWidgetState Bool
 inkButtonController = {}
 
 ---@param fields? table

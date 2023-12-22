@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_BoolVariable: animAnimNode_BoolValue
----@field public ["variableName"] CName
+---@field public variableName CName
 animAnimNode_BoolVariable = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestTakeControl: gameScriptableSystemRequest
----@field public ["requestSource"] entEntityID
----@field public ["originalEvent"] ToggleTakeOverControl
+---@field public requestSource entEntityID
+---@field public originalEvent ToggleTakeOverControl
 RequestTakeControl = {}
 
 ---@param fields? table

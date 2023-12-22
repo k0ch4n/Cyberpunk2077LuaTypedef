@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class EquipmentSystemPlayerData: IScriptable
----@field public ["owner"] ScriptedPuppet
----@field private ["ownerID"] entEntityID
----@field private ["equipment"] gameSLoadout
----@field private ["lastUsedStruct"] gameSLastUsedWeapon
----@field private ["slotActiveItemsInHands"] gameSSlotActiveItems
----@field private ["clothingSlotsInfo"] gameSSlotInfo[]
----@field private ["clothingVisualsInfo"] gameSSlotVisualInfo[]
----@field private ["visualUnequipTransition"] Bool
----@field private ["wardrobeDisabled"] Bool
----@field private ["lastActiveWardrobeSet"] gameWardrobeClothingSetIndex
----@field private ["visualTagProcessingInfo"] gameSVisualTagProcessing[]
----@field private ["eventsSent"] Int32
----@field private ["hotkeys"] Hotkey[]
----@field private ["inventoryManager"] InventoryDataManagerV2
----@field private ["wardrobeSystem"] gameWardrobeSystem
----@field private ["equipPending"] Bool
----@field private ["equipAreaIndexCache"] Int32[]
+---@field public owner ScriptedPuppet
+---@field private ownerID entEntityID
+---@field private equipment gameSLoadout
+---@field private lastUsedStruct gameSLastUsedWeapon
+---@field private slotActiveItemsInHands gameSSlotActiveItems
+---@field private clothingSlotsInfo gameSSlotInfo[]
+---@field private clothingVisualsInfo gameSSlotVisualInfo[]
+---@field private visualUnequipTransition Bool
+---@field private wardrobeDisabled Bool
+---@field private lastActiveWardrobeSet gameWardrobeClothingSetIndex
+---@field private visualTagProcessingInfo gameSVisualTagProcessing[]
+---@field private eventsSent Int32
+---@field private hotkeys Hotkey[]
+---@field private inventoryManager InventoryDataManagerV2
+---@field private wardrobeSystem gameWardrobeSystem
+---@field private equipPending Bool
+---@field private equipAreaIndexCache Int32[]
 EquipmentSystemPlayerData = {}
 
 ---@param fields? table

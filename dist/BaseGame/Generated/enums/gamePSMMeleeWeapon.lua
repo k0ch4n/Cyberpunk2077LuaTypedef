@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class gamePSMMeleeWeapon: Enum
----@field ["NotReady"] gamePSMMeleeWeapon 0
----@field ["Equipping"] gamePSMMeleeWeapon 1
----@field ["Idle"] gamePSMMeleeWeapon 2
----@field ["Safe"] gamePSMMeleeWeapon 3
----@field ["PublicSafe"] gamePSMMeleeWeapon 4
----@field ["Parried"] gamePSMMeleeWeapon 5
----@field ["Hold"] gamePSMMeleeWeapon 6
----@field ["ChargedHold"] gamePSMMeleeWeapon 7
----@field ["Block"] gamePSMMeleeWeapon 8
----@field ["Targeting"] gamePSMMeleeWeapon 9
----@field ["Deflect"] gamePSMMeleeWeapon 10
----@field ["ComboAttack"] gamePSMMeleeWeapon 11
----@field ["FinalAttack"] gamePSMMeleeWeapon 12
----@field ["StrongAttack"] gamePSMMeleeWeapon 13
----@field ["SafeAttack"] gamePSMMeleeWeapon 14
----@field ["BlockAttack"] gamePSMMeleeWeapon 15
----@field ["SprintAttack"] gamePSMMeleeWeapon 16
----@field ["CrouchAttack"] gamePSMMeleeWeapon 17
----@field ["JumpAttack"] gamePSMMeleeWeapon 18
----@field ["ThrowAttack"] gamePSMMeleeWeapon 19
----@field ["DeflectAttack"] gamePSMMeleeWeapon 20
----@field ["EquipAttack"] gamePSMMeleeWeapon 21
----@field ["Default"] gamePSMMeleeWeapon 22
+---@field NotReady 0
+---@field Equipping 1
+---@field Idle 2
+---@field Safe 3
+---@field PublicSafe 4
+---@field Parried 5
+---@field Hold 6
+---@field ChargedHold 7
+---@field Block 8
+---@field Targeting 9
+---@field Deflect 10
+---@field ComboAttack 11
+---@field FinalAttack 12
+---@field StrongAttack 13
+---@field SafeAttack 14
+---@field BlockAttack 15
+---@field SprintAttack 16
+---@field CrouchAttack 17
+---@field JumpAttack 18
+---@field ThrowAttack 19
+---@field DeflectAttack 20
+---@field EquipAttack 21
+---@field Default 22
 gamePSMMeleeWeapon = {}

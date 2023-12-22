@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameTelemetryDamageSituation: Enum
----@field ["Irrelevant"] gameTelemetryDamageSituation 0
----@field ["EnemyToPlayer"] gameTelemetryDamageSituation 1
----@field ["EnemyToCompanion"] gameTelemetryDamageSituation 2
----@field ["PlayerToEnemy"] gameTelemetryDamageSituation 3
----@field ["CompanionToEnemy"] gameTelemetryDamageSituation 4
----@field ["PlayerToPlayer"] gameTelemetryDamageSituation 5
+---@field Irrelevant 0
+---@field EnemyToPlayer 1
+---@field EnemyToCompanion 2
+---@field PlayerToEnemy 3
+---@field CompanionToEnemy 4
+---@field PlayerToPlayer 5
 gameTelemetryDamageSituation = {}

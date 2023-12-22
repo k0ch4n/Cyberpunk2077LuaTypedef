@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InteractionMappinController: gameuiInteractionMappinController
----@field private ["mappin"] gamemappinsInteractionMappin
----@field private ["root"] inkWidget
----@field private ["isConnected"] Bool
+---@field private mappin gamemappinsInteractionMappin
+---@field private root inkWidget
+---@field private isConnected Bool
 InteractionMappinController = {}
 
 ---@param fields? table

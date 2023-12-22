@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class gameLightComponent: entLightComponent
----@field public ["emissiveOnly"] Bool
----@field public ["materialZone"] gameEMaterialZone
----@field public ["meshBrokenAppearance"] CName
----@field public ["onStrength"] Float
----@field public ["turnOnByDefault"] Bool
----@field public ["turnOnTime"] Float
----@field public ["turnOnCurve"] CName
----@field public ["turnOffTime"] Float
----@field public ["turnOffCurve"] CName
----@field public ["loopTime"] Float
----@field public ["loopCurve"] CName
----@field public ["synchronizedLoop"] Bool
----@field public ["isDestructible"] Bool
----@field public ["colliderName"] CName
----@field public ["colliderTag"] CName
----@field public ["destructionEffect"] worldEffect
----@field public ["genericCurveSetOverride"] CurveSet
+---@field public emissiveOnly Bool
+---@field public materialZone gameEMaterialZone
+---@field public meshBrokenAppearance CName
+---@field public onStrength Float
+---@field public turnOnByDefault Bool
+---@field public turnOnTime Float
+---@field public turnOnCurve CName
+---@field public turnOffTime Float
+---@field public turnOffCurve CName
+---@field public loopTime Float
+---@field public loopCurve CName
+---@field public synchronizedLoop Bool
+---@field public isDestructible Bool
+---@field public colliderName CName
+---@field public colliderTag CName
+---@field public destructionEffect worldEffect
+---@field public genericCurveSetOverride CurveSet
 gameLightComponent = {}
 
 ---@param fields? table

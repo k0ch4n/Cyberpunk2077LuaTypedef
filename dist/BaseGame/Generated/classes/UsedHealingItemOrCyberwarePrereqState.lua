@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UsedHealingItemOrCyberwarePrereqState: gamePrereqState
----@field public ["listenerInfo"] redCallbackObject
+---@field public listenerInfo redCallbackObject
 UsedHealingItemOrCyberwarePrereqState = {}
 
 ---@param fields? table

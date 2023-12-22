@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questHUDEntryVisibilityEvent: redEvent
----@field public ["dataEntries"] questHUDEntryVisibilityData[]
+---@field public dataEntries questHUDEntryVisibilityData[]
 questHUDEntryVisibilityEvent = {}
 
 ---@param fields? table

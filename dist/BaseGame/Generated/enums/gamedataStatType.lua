@@ -2,1715 +2,1715 @@
 ---@diagnostic disable
 
 ---@class gamedataStatType: Enum
----@field ["ADSSpeedPercentBonus"] gamedataStatType 0
----@field ["ADSSpeedPercentBonusModifierHelper"] gamedataStatType 1
----@field ["ADSStaminaRegenMultiplier"] gamedataStatType 2
----@field ["ARSMGLMGMod2_HorRecoil"] gamedataStatType 3
----@field ["ARSMGLMGMod2_RecoilKick"] gamedataStatType 4
----@field ["ARSMGLMGMod2_RecoilKickCover"] gamedataStatType 5
----@field ["ARSMGLMGMod3_SpreadPerShot"] gamedataStatType 6
----@field ["Acceleration"] gamedataStatType 7
----@field ["AccumulatedDoT"] gamedataStatType 8
----@field ["AccumulatedDoTDecayDelayOnChange"] gamedataStatType 9
----@field ["AccumulatedDoTDecayEnabled"] gamedataStatType 10
----@field ["AccumulatedDoTDecayEndThrehold"] gamedataStatType 11
----@field ["AccumulatedDoTDecayRate"] gamedataStatType 12
----@field ["AccumulatedDoTDecayStartDelay"] gamedataStatType 13
----@field ["AccumulatedDoTDecayStartThreshold"] gamedataStatType 14
----@field ["Accuracy"] gamedataStatType 15
----@field ["AddExtraHitImpactVfx"] gamedataStatType 16
----@field ["AdditionalStealthDamage"] gamedataStatType 17
----@field ["Adrenaline"] gamedataStatType 18
----@field ["AimFOV"] gamedataStatType 19
----@field ["AimInTime"] gamedataStatType 20
----@field ["AimOffset"] gamedataStatType 21
----@field ["AimOutTime"] gamedataStatType 22
----@field ["AimTime"] gamedataStatType 23
----@field ["AimingCost"] gamedataStatType 24
----@field ["AirDrop_BurningApplicationRate"] gamedataStatType 25
----@field ["Airdropped"] gamedataStatType 26
----@field ["AllDamageDonePercentBonus"] gamedataStatType 27
----@field ["AllowMovementInput"] gamedataStatType 28
----@field ["AllowRotation"] gamedataStatType 29
----@field ["AmmoPerQuickMelee"] gamedataStatType 30
----@field ["AntiVirusCooldownReduction"] gamedataStatType 31
----@field ["ApplicationChance"] gamedataStatType 32
----@field ["Armor"] gamedataStatType 33
----@field ["ArmorEffectivenessMultiplier"] gamedataStatType 34
----@field ["ArmorMultBonus"] gamedataStatType 35
----@field ["ArmorPenetrationBonus"] gamedataStatType 36
----@field ["Assault"] gamedataStatType 37
----@field ["AssaultMastery"] gamedataStatType 38
----@field ["AssaultRifleStaminaCostReduction"] gamedataStatType 39
----@field ["AssaultTrait01Stat"] gamedataStatType 40
----@field ["Athletics"] gamedataStatType 41
----@field ["AthleticsMastery"] gamedataStatType 42
----@field ["AthleticsTrait01Stat"] gamedataStatType 43
----@field ["AttackPenetration"] gamedataStatType 44
----@field ["AttackSpeed"] gamedataStatType 45
----@field ["AttackSpeedPercent"] gamedataStatType 46
----@field ["AttacksNumber"] gamedataStatType 47
----@field ["AttacksPerSecond"] gamedataStatType 48
----@field ["AttacksPerSecondBase"] gamedataStatType 49
----@field ["AttunementHelper"] gamedataStatType 50
----@field ["AttunementHelper2"] gamedataStatType 51
----@field ["AttunementHelper3"] gamedataStatType 52
----@field ["AttunementHelper4"] gamedataStatType 53
----@field ["AttunementHelper5"] gamedataStatType 54
----@field ["AudioLocomotionStimRangeMultiplier"] gamedataStatType 55
----@field ["AudioStimRangeMultiplier"] gamedataStatType 56
----@field ["AutoReveal"] gamedataStatType 57
----@field ["AutocraftDuration"] gamedataStatType 58
----@field ["AutomaticReplenishment"] gamedataStatType 59
----@field ["AutomaticUploadPerk"] gamedataStatType 60
----@field ["AxeStaminaCostReduction"] gamedataStatType 61
----@field ["BaseChargeTime"] gamedataStatType 62
----@field ["BaseDamage"] gamedataStatType 63
----@field ["BaseDamageMax"] gamedataStatType 64
----@field ["BaseDamageMin"] gamedataStatType 65
----@field ["BaseKnockdownImpulse"] gamedataStatType 66
----@field ["BaseMaxChargeThreshold"] gamedataStatType 67
----@field ["BaseMeleeAttackStaminaCost"] gamedataStatType 68
----@field ["BaseRicochetDamageModifier"] gamedataStatType 69
----@field ["BatonStaminaCostReduction"] gamedataStatType 70
----@field ["BerserkArmorBonus"] gamedataStatType 71
----@field ["BerserkChargesDecayBegins"] gamedataStatType 72
----@field ["BerserkChargesDecayEnabled"] gamedataStatType 73
----@field ["BerserkChargesDecayEnds"] gamedataStatType 74
----@field ["BerserkChargesDecayRate"] gamedataStatType 75
----@field ["BerserkChargesDecayRateMult"] gamedataStatType 76
----@field ["BerserkChargesDecayStartDelay"] gamedataStatType 77
----@field ["BerserkChargesDelayOnChange"] gamedataStatType 78
----@field ["BerserkChargesRegenBegins"] gamedataStatType 79
----@field ["BerserkChargesRegenEnabled"] gamedataStatType 80
----@field ["BerserkChargesRegenEnds"] gamedataStatType 81
----@field ["BerserkChargesRegenRate"] gamedataStatType 82
----@field ["BerserkCooldownBase"] gamedataStatType 83
----@field ["BerserkCooldownReduction"] gamedataStatType 84
----@field ["BerserkDurationBase"] gamedataStatType 85
----@field ["BerserkDynamicHealthBonusOnActivation"] gamedataStatType 86
----@field ["BerserkHealthBonusPerKillCount"] gamedataStatType 87
----@field ["BerserkHealthRegenBonus"] gamedataStatType 88
----@field ["BerserkKillCount"] gamedataStatType 89
----@field ["BerserkMeleeDamageBonus"] gamedataStatType 90
----@field ["BerserkRechargeDuration"] gamedataStatType 91
----@field ["BerserkRecoilReduction"] gamedataStatType 92
----@field ["BerserkResistancesBonus"] gamedataStatType 93
----@field ["BerserkShockwaveDamage"] gamedataStatType 94
----@field ["BerserkShockwaveRangeBonus"] gamedataStatType 95
----@field ["BerserkStaticHealthBonusOnActivation"] gamedataStatType 96
----@field ["BerserkSwayReduction"] gamedataStatType 97
----@field ["BlackWallStack"] gamedataStatType 98
----@field ["BladeMod1_CritChance"] gamedataStatType 99
----@field ["BleedingApplicationRate"] gamedataStatType 100
----@field ["BleedingApplicationRateModifierHelper"] gamedataStatType 101
----@field ["BleedingImmunity"] gamedataStatType 102
----@field ["BlindImmunity"] gamedataStatType 103
----@field ["BlindResistance"] gamedataStatType 104
----@field ["BlockCyberwareBreaches"] gamedataStatType 105
----@field ["BlockFactor"] gamedataStatType 106
----@field ["BlockLocomotionWhenLeaningOutOfCover"] gamedataStatType 107
----@field ["BlockOpticalCamoRelicPerk"] gamedataStatType 108
----@field ["BlockQuickhackMenu"] gamedataStatType 109
----@field ["BlockReduction"] gamedataStatType 110
----@field ["BloodPumpMaxCharges"] gamedataStatType 111
----@field ["BloodQueueHealing"] gamedataStatType 112
----@field ["BluntFinisherHealthThresholdIncrease"] gamedataStatType 113
----@field ["BluntMod1_KnockbackChance"] gamedataStatType 114
----@field ["BluntMod2_BleedChance"] gamedataStatType 115
----@field ["BluntMod2_BleedConverter"] gamedataStatType 116
----@field ["BluntMod3_ModPower"] gamedataStatType 117
----@field ["BonusCarryCapacity"] gamedataStatType 118
----@field ["BonusChargeDamage"] gamedataStatType 119
----@field ["BonusCritChanceVsElectrocutedEnemies"] gamedataStatType 120
----@field ["BonusCritChanceVsElectrocutedEnemiesModifierHelper"] gamedataStatType 121
----@field ["BonusDPS"] gamedataStatType 122
----@field ["BonusDamageAgainstBosses"] gamedataStatType 123
----@field ["BonusDamageAgainstBossesModifierHelper"] gamedataStatType 124
----@field ["BonusDamageAgainstElites"] gamedataStatType 125
----@field ["BonusDamageAgainstMechanicals"] gamedataStatType 126
----@field ["BonusDamageAgainstRares"] gamedataStatType 127
----@field ["BonusDamagePerHit"] gamedataStatType 128
----@field ["BonusDmgVsRaresAndElites"] gamedataStatType 129
----@field ["BonusHealth"] gamedataStatType 130
----@field ["BonusMemory"] gamedataStatType 131
----@field ["BonusPercentDamageToEnemiesAtFullHealth"] gamedataStatType 132
----@field ["BonusPercentDamageToEnemiesAtFullHealthModifierHelper"] gamedataStatType 133
----@field ["BonusPercentDamageToEnemiesBelowHalfHealth"] gamedataStatType 134
----@field ["BonusPercentDamageToEnemiesBelowHalfHealthModifierHelper"] gamedataStatType 135
----@field ["BonusPercentDamageVsBurningEnemies"] gamedataStatType 136
----@field ["BonusPercentDamageVsBurningEnemiesModifierHelper"] gamedataStatType 137
----@field ["BonusQuickHackDamage"] gamedataStatType 138
----@field ["BonusQuickHackDamageModifierHelper"] gamedataStatType 139
----@field ["BonusRecoilKick"] gamedataStatType 140
----@field ["BonusRicochetAngle"] gamedataStatType 141
----@field ["BonusRicochetCritChance"] gamedataStatType 142
----@field ["BonusRicochetDamage"] gamedataStatType 143
----@field ["BonusRicochetDamageModifierHelper"] gamedataStatType 144
----@field ["BonusSmartGunTimeToLock"] gamedataStatType 145
----@field ["BonusSpreadChange"] gamedataStatType 146
----@field ["BonusStamina"] gamedataStatType 147
----@field ["BossResistance"] gamedataStatType 148
----@field ["BossResistanceModifierHelper"] gamedataStatType 149
----@field ["Brake"] gamedataStatType 150
----@field ["BrakeDot"] gamedataStatType 151
----@field ["Brawling"] gamedataStatType 152
----@field ["BrawlingMastery"] gamedataStatType 153
----@field ["BrawlingTrait01Stat"] gamedataStatType 154
----@field ["BreachStreakBuffBonus"] gamedataStatType 155
----@field ["BufferSize"] gamedataStatType 156
----@field ["BulletDeadReckoningEnabled"] gamedataStatType 157
----@field ["BulletDeadReckoningMaxAngleCorrection"] gamedataStatType 158
----@field ["BulletDeadReckoningMaxRange"] gamedataStatType 159
----@field ["BulletDeadReckoningMinimumSpeed"] gamedataStatType 160
----@field ["BulletMagnetismDefaultAngle"] gamedataStatType 161
----@field ["BulletMagnetismHighVelocityAngle"] gamedataStatType 162
----@field ["BulletPseudoPierceHitVFxChance"] gamedataStatType 163
----@field ["BulletSurroundingHitVFxChance"] gamedataStatType 164
----@field ["BurningApplicationRate"] gamedataStatType 165
----@field ["BurningApplicationRateModifierHelper"] gamedataStatType 166
----@field ["BurningImmunity"] gamedataStatType 167
----@field ["BurningRegenStamina"] gamedataStatType 168
----@field ["CPUPower"] gamedataStatType 169
----@field ["CWMaskCharges"] gamedataStatType 170
----@field ["CWMaskChargesDecayStartDelay"] gamedataStatType 171
----@field ["CWMaskChargesDelayOnChange"] gamedataStatType 172
----@field ["CWMaskChargesRegenBegins"] gamedataStatType 173
----@field ["CWMaskChargesRegenEnabled"] gamedataStatType 174
----@field ["CWMaskChargesRegenEnds"] gamedataStatType 175
----@field ["CWMaskChargesRegenRate"] gamedataStatType 176
----@field ["CWMaskMaxCharges"] gamedataStatType 177
----@field ["CWMaskRechargeDuration"] gamedataStatType 178
----@field ["CallReinforcement"] gamedataStatType 179
----@field ["CameraDetectionSpeedReduction"] gamedataStatType 180
----@field ["CameraShutdownExtension"] gamedataStatType 181
----@field ["CanAerialTakedown"] gamedataStatType 182
----@field ["CanAimWhileDodging"] gamedataStatType 183
----@field ["CanAskToFollowOrder"] gamedataStatType 184
----@field ["CanAskToHolsterWeapon"] gamedataStatType 185
----@field ["CanAutomaticallyDisassembleJunk"] gamedataStatType 186
----@field ["CanAutomaticallyRestoreKnives"] gamedataStatType 187
----@field ["CanBleedingCriticallyHit"] gamedataStatType 188
----@field ["CanBleedingSlowTarget"] gamedataStatType 189
----@field ["CanBlindQuickHack"] gamedataStatType 190
----@field ["CanBlock"] gamedataStatType 191
----@field ["CanBreatheUnderwater"] gamedataStatType 192
----@field ["CanBuffCamoQuickHack"] gamedataStatType 193
----@field ["CanBuffMechanicalsOnTakeControl"] gamedataStatType 194
----@field ["CanBuffSturdinessQuickHack"] gamedataStatType 195
----@field ["CanBurningCriticallyHit"] gamedataStatType 196
----@field ["CanCallDrones"] gamedataStatType 197
----@field ["CanCallReinforcements"] gamedataStatType 198
----@field ["CanCatchUp"] gamedataStatType 199
----@field ["CanCatchUpDistance"] gamedataStatType 200
----@field ["CanCharge"] gamedataStatType 201
----@field ["CanChargedShoot"] gamedataStatType 202
----@field ["CanCloseCombat"] gamedataStatType 203
----@field ["CanCommsCallInQuickHack"] gamedataStatType 204
----@field ["CanCommsNoiseQuickHack"] gamedataStatType 205
----@field ["CanControlFullyChargedWeapon"] gamedataStatType 206
----@field ["CanCraftEpicItems"] gamedataStatType 207
----@field ["CanCraftFromInventory"] gamedataStatType 208
----@field ["CanCraftLegendaryItems"] gamedataStatType 209
----@field ["CanCraftRareItems"] gamedataStatType 210
----@field ["CanCraftTechAmmunition"] gamedataStatType 211
----@field ["CanCrouch"] gamedataStatType 212
----@field ["CanCyberwareMalfunctionQuickHack"] gamedataStatType 213
----@field ["CanDash"] gamedataStatType 214
----@field ["CanDataMineQuickHack"] gamedataStatType 215
----@field ["CanDealFullDamageToArmored"] gamedataStatType 216
----@field ["CanDeathQuickHack"] gamedataStatType 217
----@field ["CanDisassemble"] gamedataStatType 218
----@field ["CanDisassembleConsumables"] gamedataStatType 219
----@field ["CanDisassembleGadgets"] gamedataStatType 220
----@field ["CanDoGrandFinaleWithMantisBlades"] gamedataStatType 221
----@field ["CanDoRapidFireWithProjectileLauncher"] gamedataStatType 222
----@field ["CanDropWeapon"] gamedataStatType 223
----@field ["CanElectrocuteNullifyStats"] gamedataStatType 224
----@field ["CanElectrocuteRoot"] gamedataStatType 225
----@field ["CanExitWSOnSoundStimuli"] gamedataStatType 226
----@field ["CanExplodeQuickHack"] gamedataStatType 227
----@field ["CanFastTravelWhileEncumbered"] gamedataStatType 228
----@field ["CanFistsCauseBleeding"] gamedataStatType 229
----@field ["CanForceDismbember"] gamedataStatType 230
----@field ["CanFullyChargeWeapon"] gamedataStatType 231
----@field ["CanGrab"] gamedataStatType 232
----@field ["CanGrappleAndroids"] gamedataStatType 233
----@field ["CanGrappleSilently"] gamedataStatType 234
----@field ["CanGrenadeLaunch"] gamedataStatType 235
----@field ["CanGrenadeQuickHack"] gamedataStatType 236
----@field ["CanGrenadesCriticallyHit"] gamedataStatType 237
----@field ["CanGrenadesDealExternalDamage"] gamedataStatType 238
----@field ["CanGroundSlamInAir"] gamedataStatType 239
----@field ["CanGroundSlamOnGround"] gamedataStatType 240
----@field ["CanGuardBreak"] gamedataStatType 241
----@field ["CanHeartattackQuickHack"] gamedataStatType 242
----@field ["CanIgnoreArmorDamageReduction"] gamedataStatType 243
----@field ["CanIgnoreStamina"] gamedataStatType 244
----@field ["CanIgnoreWeaponStaminaPenaties"] gamedataStatType 245
----@field ["CanInstaKillNPCs"] gamedataStatType 246
----@field ["CanInstallTechMods"] gamedataStatType 247
----@field ["CanJamWeaponLvl2QuickHack"] gamedataStatType 248
----@field ["CanJamWeaponQuickHack"] gamedataStatType 249
----@field ["CanJump"] gamedataStatType 250
----@field ["CanLandSilently"] gamedataStatType 251
----@field ["CanLegendaryCraftedWeaponsBeBoosted"] gamedataStatType 252
----@field ["CanLegendaryCraftedWeaponsBeBoosted2"] gamedataStatType 253
----@field ["CanLocomotionMalfunctionQuickHack"] gamedataStatType 254
----@field ["CanMadnessQuickHack"] gamedataStatType 255
----@field ["CanMalfunctionQuickHack"] gamedataStatType 256
----@field ["CanMeleeBerserk"] gamedataStatType 257
----@field ["CanMeleeDash"] gamedataStatType 258
----@field ["CanMeleeInfinitelyCombo"] gamedataStatType 259
----@field ["CanMeleeLeap"] gamedataStatType 260
----@field ["CanMeleeLeapInAir"] gamedataStatType 261
----@field ["CanMeleeLeapTakedown"] gamedataStatType 262
----@field ["CanMemoryWipeQuickHack"] gamedataStatType 263
----@field ["CanOnePunchWithGorillaArms"] gamedataStatType 264
----@field ["CanOverchargeWeapon"] gamedataStatType 265
----@field ["CanOverheatQuickHack"] gamedataStatType 266
----@field ["CanOverloadQuickHack"] gamedataStatType 267
----@field ["CanOverrideAttitudeQuickHack"] gamedataStatType 268
----@field ["CanOverrideAuthorizationQuickHack"] gamedataStatType 269
----@field ["CanParry"] gamedataStatType 270
----@field ["CanPerformBluntFinisher"] gamedataStatType 271
----@field ["CanPerformCoolFinisher"] gamedataStatType 272
----@field ["CanPerformMonowireFinisher"] gamedataStatType 273
----@field ["CanPerformReflexFinisher"] gamedataStatType 274
----@field ["CanPickUpBodyAfterTakedown"] gamedataStatType 275
----@field ["CanPickUpWeapon"] gamedataStatType 276
----@field ["CanPingQuickHack"] gamedataStatType 277
----@field ["CanPlayerBoostConsumables"] gamedataStatType 278
----@field ["CanPlayerBoostGrenades"] gamedataStatType 279
----@field ["CanPlayerDodgeOnDetection"] gamedataStatType 280
----@field ["CanPlayerExitCombatWithOpticalCamo"] gamedataStatType 281
----@field ["CanPlayerGagOnDetection"] gamedataStatType 282
----@field ["CanPlayerPierceDriver"] gamedataStatType 283
----@field ["CanPlayerPiercePoisonImmunity"] gamedataStatType 284
----@field ["CanPoisonLowerArmor"] gamedataStatType 285
----@field ["CanPoisonSlow"] gamedataStatType 286
----@field ["CanPreciseShoot"] gamedataStatType 287
----@field ["CanPushBack"] gamedataStatType 288
----@field ["CanPushFromGrapple"] gamedataStatType 289
----@field ["CanQuickHackCriticallyHit"] gamedataStatType 290
----@field ["CanQuickMeleeStagger"] gamedataStatType 291
----@field ["CanQuickhack"] gamedataStatType 292
----@field ["CanQuickhackHealPuppet"] gamedataStatType 293
----@field ["CanQuickhackTransferBetweenEnemies"] gamedataStatType 294
----@field ["CanRegenInCombat"] gamedataStatType 295
----@field ["CanRemoveModsFromClothing"] gamedataStatType 296
----@field ["CanRemoveModsFromWeapons"] gamedataStatType 297
----@field ["CanResurrectAllies"] gamedataStatType 298
----@field ["CanRetreat"] gamedataStatType 299
----@field ["CanRetrieveModsFromDisassemble"] gamedataStatType 300
----@field ["CanRunSilently"] gamedataStatType 301
----@field ["CanSandevistanSprintHarass"] gamedataStatType 302
----@field ["CanScrapPartsFromMechanicals"] gamedataStatType 303
----@field ["CanSeeCyberwareBreaches"] gamedataStatType 304
----@field ["CanSeeGrenadeRadius"] gamedataStatType 305
----@field ["CanSeeRicochetVisuals"] gamedataStatType 306
----@field ["CanSeeThroughOpticalCamos"] gamedataStatType 307
----@field ["CanSeeThroughSmoke"] gamedataStatType 308
----@field ["CanSeeThroughWalls"] gamedataStatType 309
----@field ["CanShareThreatsWithPlayer"] gamedataStatType 310
----@field ["CanShootWhileCarryingBody"] gamedataStatType 311
----@field ["CanShootWhileDodging"] gamedataStatType 312
----@field ["CanShootWhileGrappling"] gamedataStatType 313
----@field ["CanShootWhileMoving"] gamedataStatType 314
----@field ["CanShootWhileVaulting"] gamedataStatType 315
----@field ["CanSilentKill"] gamedataStatType 316
----@field ["CanSmartShoot"] gamedataStatType 317
----@field ["CanSpreadMonoWireQuickhack"] gamedataStatType 318
----@field ["CanSprint"] gamedataStatType 319
----@field ["CanSprintHarass"] gamedataStatType 320
----@field ["CanSprintWhileCarryingBody"] gamedataStatType 321
----@field ["CanSuicideQuickHack"] gamedataStatType 322
----@field ["CanSwitchWeapon"] gamedataStatType 323
----@field ["CanTakeControlQuickHack"] gamedataStatType 324
----@field ["CanTakedownLethally"] gamedataStatType 325
----@field ["CanTakedownSilently"] gamedataStatType 326
----@field ["CanTaunt"] gamedataStatType 327
----@field ["CanThrowWeapon"] gamedataStatType 328
----@field ["CanUpgradeFromInventory"] gamedataStatType 329
----@field ["CanUpgradeToLegendaryQuality"] gamedataStatType 330
----@field ["CanUseAntiStun"] gamedataStatType 331
----@field ["CanUseBiohazardGrenades"] gamedataStatType 332
----@field ["CanUseCloseRing"] gamedataStatType 333
----@field ["CanUseCombatStims"] gamedataStatType 334
----@field ["CanUseConsumables"] gamedataStatType 335
----@field ["CanUseCoolingSystem"] gamedataStatType 336
----@field ["CanUseCovers"] gamedataStatType 337
----@field ["CanUseCuttingGrenades"] gamedataStatType 338
----@field ["CanUseEMPGrenades"] gamedataStatType 339
----@field ["CanUseExtremeRing"] gamedataStatType 340
----@field ["CanUseFarRing"] gamedataStatType 341
----@field ["CanUseFlashbangGrenades"] gamedataStatType 342
----@field ["CanUseFragGrenades"] gamedataStatType 343
----@field ["CanUseGrenades"] gamedataStatType 344
----@field ["CanUseHolographicCamo"] gamedataStatType 345
----@field ["CanUseIncendiaryGrenades"] gamedataStatType 346
----@field ["CanUseLeftHand"] gamedataStatType 347
----@field ["CanUseLegs"] gamedataStatType 348
----@field ["CanUseMantisBlades"] gamedataStatType 349
----@field ["CanUseMediumRing"] gamedataStatType 350
----@field ["CanUseMeleeRing"] gamedataStatType 351
----@field ["CanUseNewMeleewareAttackSpyTree"] gamedataStatType 352
----@field ["CanUseOpticalCamo"] gamedataStatType 353
----@field ["CanUseOverclock"] gamedataStatType 354
----@field ["CanUsePainInhibitors"] gamedataStatType 355
----@field ["CanUsePersonalSoundSilencer"] gamedataStatType 356
----@field ["CanUsePhoneUnderWater"] gamedataStatType 357
----@field ["CanUseProjectileLauncher"] gamedataStatType 358
----@field ["CanUseReconGrenades"] gamedataStatType 359
----@field ["CanUseRetractableShield"] gamedataStatType 360
----@field ["CanUseRightHand"] gamedataStatType 361
----@field ["CanUseShootingSpots"] gamedataStatType 362
----@field ["CanUseSmokeGrenades"] gamedataStatType 363
----@field ["CanUseStaticCamo"] gamedataStatType 364
----@field ["CanUseStrongArms"] gamedataStatType 365
----@field ["CanUseTakedowns"] gamedataStatType 366
----@field ["CanUseTerrainCamo"] gamedataStatType 367
----@field ["CanUseZoom"] gamedataStatType 368
----@field ["CanWalkSilently"] gamedataStatType 369
----@field ["CanWallStick"] gamedataStatType 370
----@field ["CanWeaponBlock"] gamedataStatType 371
----@field ["CanWeaponBlockAttack"] gamedataStatType 372
----@field ["CanWeaponComboAttack"] gamedataStatType 373
----@field ["CanWeaponCriticallyHit"] gamedataStatType 374
----@field ["CanWeaponCrouchAttack"] gamedataStatType 375
----@field ["CanWeaponDash"] gamedataStatType 376
----@field ["CanWeaponDeflect"] gamedataStatType 377
----@field ["CanWeaponIgnoreArmor"] gamedataStatType 378
----@field ["CanWeaponInfinitlyCombo"] gamedataStatType 379
----@field ["CanWeaponJumpAttack"] gamedataStatType 380
----@field ["CanWeaponLeap"] gamedataStatType 381
----@field ["CanWeaponMalfunctionQuickHack"] gamedataStatType 382
----@field ["CanWeaponReload"] gamedataStatType 383
----@field ["CanWeaponReloadWhileInactive"] gamedataStatType 384
----@field ["CanWeaponReloadWhileSliding"] gamedataStatType 385
----@field ["CanWeaponReloadWhileSprinting"] gamedataStatType 386
----@field ["CanWeaponReloadWhileVaulting"] gamedataStatType 387
----@field ["CanWeaponSafeAttack"] gamedataStatType 388
----@field ["CanWeaponShoot"] gamedataStatType 389
----@field ["CanWeaponShootWhileSliding"] gamedataStatType 390
----@field ["CanWeaponShootWhileSprinting"] gamedataStatType 391
----@field ["CanWeaponShootWhileVaulting"] gamedataStatType 392
----@field ["CanWeaponSprintAttack"] gamedataStatType 393
----@field ["CanWeaponStrongAttack"] gamedataStatType 394
----@field ["CanWeaponTriggerHeadshot"] gamedataStatType 395
----@field ["CannotBeDetectedWhileSubmerged"] gamedataStatType 396
----@field ["CannotBeHealed"] gamedataStatType 397
----@field ["CannotSprintHarass"] gamedataStatType 398
----@field ["CapacityBoosterHumanity"] gamedataStatType 399
----@field ["CarryCapacity"] gamedataStatType 400
----@field ["CarryCapacityModifierHelper"] gamedataStatType 401
----@field ["CausingPanicReducesUltimateHacksCost"] gamedataStatType 402
----@field ["ChainswordStaminaCostReduction"] gamedataStatType 403
----@field ["Charge"] gamedataStatType 404
----@field ["ChargeBonus"] gamedataStatType 405
----@field ["ChargeDischargeTime"] gamedataStatType 406
----@field ["ChargeFullMultiplier"] gamedataStatType 407
----@field ["ChargeMaxTimeInChargedState"] gamedataStatType 408
----@field ["ChargeMinValueBonus"] gamedataStatType 409
----@field ["ChargeMultiplier"] gamedataStatType 410
----@field ["ChargeReadyPercentage"] gamedataStatType 411
----@field ["ChargeShouldFireWhenReady"] gamedataStatType 412
----@field ["ChargeTime"] gamedataStatType 413
----@field ["ChemicalDamage"] gamedataStatType 414
----@field ["ChemicalDamageAdditiveMultiplier"] gamedataStatType 415
----@field ["ChemicalDamageMax"] gamedataStatType 416
----@field ["ChemicalDamageMin"] gamedataStatType 417
----@field ["ChemicalDamageModifierHelper"] gamedataStatType 418
----@field ["ChemicalDamagePercent"] gamedataStatType 419
----@field ["ChemicalDamagePercentBonus"] gamedataStatType 420
----@field ["ChemicalDamagePercentBonusModifierHelper"] gamedataStatType 421
----@field ["ChemicalResistance"] gamedataStatType 422
----@field ["ChemicalResistanceModifierHelper"] gamedataStatType 423
----@field ["ChimeraModInstalled"] gamedataStatType 424
----@field ["ChingadaMadreBonanza"] gamedataStatType 425
----@field ["ClimbSpeedModifier"] gamedataStatType 426
----@field ["ClipTimesCycle"] gamedataStatType 427
----@field ["ClipTimesCycleBase"] gamedataStatType 428
----@field ["ClipTimesCyclePlusReload"] gamedataStatType 429
----@field ["ClipTimesCyclePlusReloadBase"] gamedataStatType 430
----@field ["CloudComputingTraps"] gamedataStatType 431
----@field ["ColdBlood"] gamedataStatType 432
----@field ["ColdBloodBuffBonus"] gamedataStatType 433
----@field ["ColdBloodDurationReductor"] gamedataStatType 434
----@field ["ColdBloodMastery"] gamedataStatType 435
----@field ["ColdBloodMaxDuration"] gamedataStatType 436
----@field ["ColdBloodMaxStacks"] gamedataStatType 437
----@field ["ColdBloodTrait01"] gamedataStatType 438
----@field ["CombatHacking"] gamedataStatType 439
----@field ["CombatHackingMastery"] gamedataStatType 440
----@field ["CommonTierFailsafe"] gamedataStatType 441
----@field ["CommsCallDistance"] gamedataStatType 442
----@field ["CommsNoiseJamOnQuickhack"] gamedataStatType 443
----@field ["ControlledRandomPower"] gamedataStatType 444
----@field ["Cool"] gamedataStatType 445
----@field ["CoolAllocated"] gamedataStatType 446
----@field ["CoolAvailable"] gamedataStatType 447
----@field ["CoolOpticalDuration"] gamedataStatType 448
----@field ["CoolSkill"] gamedataStatType 449
----@field ["Cool_Inbetween_Right_3_Stacks"] gamedataStatType 450
----@field ["CounterattackGuardbreakImmunity"] gamedataStatType 451
----@field ["Crafting"] gamedataStatType 452
----@field ["CraftingBonusArmorValue"] gamedataStatType 453
----@field ["CraftingBonusArmorValue2"] gamedataStatType 454
----@field ["CraftingBonusGrenadeDamage"] gamedataStatType 455
----@field ["CraftingBonusWeaponDamage"] gamedataStatType 456
----@field ["CraftingBonusWeaponDamage2"] gamedataStatType 457
----@field ["CraftingCostReduction"] gamedataStatType 458
----@field ["CraftingItemLevelBoost"] gamedataStatType 459
----@field ["CraftingMastery"] gamedataStatType 460
----@field ["CraftingMaterialDropChance"] gamedataStatType 461
----@field ["CraftingMaterialRandomGrantChance"] gamedataStatType 462
----@field ["CraftingMaterialRetrieveChance"] gamedataStatType 463
----@field ["CraftingTrait01"] gamedataStatType 464
----@field ["CritChance"] gamedataStatType 465
----@field ["CritChanceBonus"] gamedataStatType 466
----@field ["CritChanceBonusModifierHelper"] gamedataStatType 467
----@field ["CritChanceModifierHelper"] gamedataStatType 468
----@field ["CritChanceTimeCritDamage"] gamedataStatType 469
----@field ["CritDPSBonus"] gamedataStatType 470
----@field ["CritDamage"] gamedataStatType 471
----@field ["CritDamageBonus"] gamedataStatType 472
----@field ["CritDamageBonusModifierHelper"] gamedataStatType 473
----@field ["CritDamageModifierHelper"] gamedataStatType 474
----@field ["CrouchSprintStaminaCostReduction"] gamedataStatType 475
----@field ["CyberWareMalfunctionBlocked"] gamedataStatType 476
----@field ["CyberWareMalfunctionBlockedMaxStacks"] gamedataStatType 477
----@field ["CyberWareMalfunctionDoT"] gamedataStatType 478
----@field ["CyberdeckOverclockCooldown"] gamedataStatType 479
----@field ["CyberdeckOverclockDecayRate"] gamedataStatType 480
----@field ["CyberdeckOverclockDecayStartDelay"] gamedataStatType 481
----@field ["CyberdeckOverclockDelayOnChange"] gamedataStatType 482
----@field ["CyberdeckOverclockDuration"] gamedataStatType 483
----@field ["CyberdeckOverclockEmptyStat"] gamedataStatType 484
----@field ["CyberdeckOverclockRegenBegins"] gamedataStatType 485
----@field ["CyberdeckOverclockRegenEnabled"] gamedataStatType 486
----@field ["CyberdeckOverclockRegenEnds"] gamedataStatType 487
----@field ["CyberdeckOverclockRegenRate"] gamedataStatType 488
----@field ["CyberdeckOverclockStatValue"] gamedataStatType 489
----@field ["CyberwareCooldownReduction"] gamedataStatType 490
----@field ["CyberwareDurationBuff"] gamedataStatType 491
----@field ["CyberwareMalfunctionCanExplode"] gamedataStatType 492
----@field ["CyberwareMalfunctionDamageMultiplier"] gamedataStatType 493
----@field ["CyberwareMalfunctionStacks"] gamedataStatType 494
----@field ["CyberwareRechargeSpeedBonus"] gamedataStatType 495
----@field ["CyberwareTinkererStat"] gamedataStatType 496
----@field ["CycleTime"] gamedataStatType 497
----@field ["CycleTimeAimBlockDuration"] gamedataStatType 498
----@field ["CycleTimeAimBlockStart"] gamedataStatType 499
----@field ["CycleTimeBase"] gamedataStatType 500
----@field ["CycleTimeBonus"] gamedataStatType 501
----@field ["CycleTimeDPSComponent"] gamedataStatType 502
----@field ["CycleTimeShootingMult"] gamedataStatType 503
----@field ["CycleTimeShootingMultPeriod"] gamedataStatType 504
----@field ["CycleTime_Burst"] gamedataStatType 505
----@field ["CycleTime_BurstMaxCharge"] gamedataStatType 506
----@field ["CycleTime_BurstSecondary"] gamedataStatType 507
----@field ["CycleTriggerModeTime"] gamedataStatType 508
----@field ["DPS"] gamedataStatType 509
----@field ["DamageFalloffDisabled"] gamedataStatType 510
----@field ["DamageHackSpread"] gamedataStatType 511
----@field ["DamageOverTimePercentBonus"] gamedataStatType 512
----@field ["DamageOverTimePercentBonusModifierHelper"] gamedataStatType 513
----@field ["DamageOverTimeResistance"] gamedataStatType 514
----@field ["DamageOverTimeResistanceModifierHelper"] gamedataStatType 515
----@field ["DamagePerHit"] gamedataStatType 516
----@field ["DamageQuickHackMemoryCostReduction"] gamedataStatType 517
----@field ["DamageReduction"] gamedataStatType 518
----@field ["DamageReductionBulletExplosion"] gamedataStatType 519
----@field ["DamageReductionDamageOverTime"] gamedataStatType 520
----@field ["DamageReductionExplosion"] gamedataStatType 521
----@field ["DamageReductionMelee"] gamedataStatType 522
----@field ["DamageReductionQuickhacks"] gamedataStatType 523
----@field ["DashAttackStaminaCostReduction"] gamedataStatType 524
----@field ["DataLeakTraps"] gamedataStatType 525
----@field ["DealsChemicalDamage"] gamedataStatType 526
----@field ["DealsElectricDamage"] gamedataStatType 527
----@field ["DealsPhysicalDamage"] gamedataStatType 528
----@field ["DealsThermalDamage"] gamedataStatType 529
----@field ["Deceleration"] gamedataStatType 530
----@field ["DefeatedHeadDamageThreshold"] gamedataStatType 531
----@field ["DefeatedLArmDamageThreshold"] gamedataStatType 532
----@field ["DefeatedLLegDamageThreshold"] gamedataStatType 533
----@field ["DefeatedRArmDamageThreshold"] gamedataStatType 534
----@field ["DefeatedRLegDamageThreshold"] gamedataStatType 535
----@field ["DefeatingEnemiesReduceHacksCost"] gamedataStatType 536
----@field ["Demolition"] gamedataStatType 537
----@field ["DemolitionMastery"] gamedataStatType 538
----@field ["DemolitionTrait01Stat"] gamedataStatType 539
----@field ["Detection"] gamedataStatType 540
----@field ["DetectionSpeedDecrease"] gamedataStatType 541
----@field ["DeviceMemoryCostReduction"] gamedataStatType 542
----@field ["DeviceMemoryCostReductionMult"] gamedataStatType 543
----@field ["DisableCyberwareOnBurning"] gamedataStatType 544
----@field ["DisassemblingIngredientsDoubleBonus"] gamedataStatType 545
----@field ["DisassemblingMaterialQualityObtainChance"] gamedataStatType 546
----@field ["DismHeadDamageThreshold"] gamedataStatType 547
----@field ["DismLArmDamageThreshold"] gamedataStatType 548
----@field ["DismLLegDamageThreshold"] gamedataStatType 549
----@field ["DismRArmDamageThreshold"] gamedataStatType 550
----@field ["DismRLegDamageThreshold"] gamedataStatType 551
----@field ["DoNotCheckFriendlyFireMadnessPassive"] gamedataStatType 552
----@field ["DodgeStaminaCostReduction"] gamedataStatType 553
----@field ["DodgeStaminaCostReductionModifierHelper"] gamedataStatType 554
----@field ["DriverUpdatePerkFlag"] gamedataStatType 555
----@field ["DualShotgunStaminaCostReduction"] gamedataStatType 556
----@field ["DummyModCritDamage"] gamedataStatType 557
----@field ["DummyResistanceStat"] gamedataStatType 558
----@field ["Durability"] gamedataStatType 559
----@field ["DurationBonusBleeding"] gamedataStatType 560
----@field ["DurationBonusBurning"] gamedataStatType 561
----@field ["DurationBonusControlQuickhack"] gamedataStatType 562
----@field ["DurationBonusCovertQuickhack"] gamedataStatType 563
----@field ["DurationBonusElectrified"] gamedataStatType 564
----@field ["DurationBonusOverclock"] gamedataStatType 565
----@field ["DurationBonusPoisoned"] gamedataStatType 566
----@field ["DurationBonusQuickhack"] gamedataStatType 567
----@field ["DurationBonusQuickhackModifierHelper"] gamedataStatType 568
----@field ["DurationBonusStun"] gamedataStatType 569
----@field ["DurationReductionDot"] gamedataStatType 570
----@field ["EMPImmunity"] gamedataStatType 571
----@field ["EdgerunnerHealthReduction"] gamedataStatType 572
----@field ["EffectiveChargeTime"] gamedataStatType 573
----@field ["EffectiveDPS"] gamedataStatType 574
----@field ["EffectiveDamagePerHit"] gamedataStatType 575
----@field ["EffectiveDamagePerHitMax"] gamedataStatType 576
----@field ["EffectiveDamagePerHitMin"] gamedataStatType 577
----@field ["EffectiveDamagePerHitTimesAttacksPerSecond"] gamedataStatType 578
----@field ["EffectiveQualityToMaxQualityRatio"] gamedataStatType 579
----@field ["EffectiveRange"] gamedataStatType 580
----@field ["EffectiveRangeBonus"] gamedataStatType 581
----@field ["EffectiveTier"] gamedataStatType 582
----@field ["EffectorChance"] gamedataStatType 583
----@field ["ElectricDamage"] gamedataStatType 584
----@field ["ElectricDamageAdditiveMultiplier"] gamedataStatType 585
----@field ["ElectricDamageMax"] gamedataStatType 586
----@field ["ElectricDamageMin"] gamedataStatType 587
----@field ["ElectricDamageModifierHelper"] gamedataStatType 588
----@field ["ElectricDamagePercent"] gamedataStatType 589
----@field ["ElectricDamagePercentBonus"] gamedataStatType 590
----@field ["ElectricDamagePercentBonusModifierHelper"] gamedataStatType 591
----@field ["ElectricResistance"] gamedataStatType 592
----@field ["ElectricResistanceModifierHelper"] gamedataStatType 593
----@field ["ElectrocuteImmunity"] gamedataStatType 594
----@field ["ElectrocutedApplicationRate"] gamedataStatType 595
----@field ["ElectrocutedApplicationRateModifierHelper"] gamedataStatType 596
----@field ["ElectroshockMechanismProcChance"] gamedataStatType 597
----@field ["ElementalDamagePerHit"] gamedataStatType 598
----@field ["ElementalResistanceMultiplier"] gamedataStatType 599
----@field ["EmptyReloadEndTime"] gamedataStatType 600
----@field ["EmptyReloadTime"] gamedataStatType 601
----@field ["EmptySlot_GenerationWeight_On_TierPlus"] gamedataStatType 602
----@field ["EmptyStat"] gamedataStatType 603
----@field ["EnemyChemicalResistanceReduction"] gamedataStatType 604
----@field ["EnemyHackUploadProgressBumpMultiplier"] gamedataStatType 605
----@field ["EnemyQuickHackUploadDurationBonus"] gamedataStatType 606
----@field ["Engineering"] gamedataStatType 607
----@field ["EngineeringMastery"] gamedataStatType 608
----@field ["EngineeringTrait01"] gamedataStatType 609
----@field ["EquipActionDuration_Corpo"] gamedataStatType 610
----@field ["EquipActionDuration_Gang"] gamedataStatType 611
----@field ["EquipAnimationDuration_Corpo"] gamedataStatType 612
----@field ["EquipAnimationDuration_Gang"] gamedataStatType 613
----@field ["EquipDuration"] gamedataStatType 614
----@field ["EquipDuration_First"] gamedataStatType 615
----@field ["EquipItemTime_Corpo"] gamedataStatType 616
----@field ["EquipItemTime_Gang"] gamedataStatType 617
----@field ["Espionage"] gamedataStatType 618
----@field ["EvadeImpulse"] gamedataStatType 619
----@field ["Evasion"] gamedataStatType 620
----@field ["ExecuteDismemberByHealthChance"] gamedataStatType 621
----@field ["ExecuteDismemberProximityChance"] gamedataStatType 622
----@field ["ExhaustionImmunity"] gamedataStatType 623
----@field ["ExplosionDamagePercentBonus"] gamedataStatType 624
----@field ["ExplosionDamagePercentBonusModifierHelper"] gamedataStatType 625
----@field ["ExplosionKillsRecudeUltimateHacksCost"] gamedataStatType 626
----@field ["ExplosionResistance"] gamedataStatType 627
----@field ["ExplosionResistanceModifierHelper"] gamedataStatType 628
----@field ["ExtendedStealthDuration"] gamedataStatType 629
----@field ["FFInputLock"] gamedataStatType 630
----@field ["FallDamageReduction"] gamedataStatType 631
----@field ["FearOnQuickHackKill"] gamedataStatType 632
----@field ["FinisherHealthThresholdIncrease"] gamedataStatType 633
----@field ["FinisherHealthThresholdIncreaseForQueue"] gamedataStatType 634
----@field ["FinisherIsAvailable"] gamedataStatType 635
----@field ["Finisher_TargetHealthMax_Clamp"] gamedataStatType 636
----@field ["FirePower"] gamedataStatType 637
----@field ["FirePowerBonus"] gamedataStatType 638
----@field ["FirstHackInQueueUploadTimeDecrease"] gamedataStatType 639
----@field ["FirstHackOfTypeInQueueRAMDecrease"] gamedataStatType 640
----@field ["FistsStaminaCostReduction"] gamedataStatType 641
----@field ["FocusedGrenadeShootingPerk"] gamedataStatType 642
----@field ["ForcePreventResurrect"] gamedataStatType 643
----@field ["ForceQualityHelper"] gamedataStatType 644
----@field ["FullAutoOnFullCharge"] gamedataStatType 645
----@field ["FullAutoStaminaCostPenalty"] gamedataStatType 646
----@field ["FullyChargedThreshold"] gamedataStatType 647
----@field ["GearheadDamageMultiplier"] gamedataStatType 648
----@field ["GenericMod1_Damage"] gamedataStatType 649
----@field ["GenericStatPrereqValue"] gamedataStatType 650
----@field ["GrenadeDamagePercentBonus"] gamedataStatType 651
----@field ["GrenadeDamagePercentBonusModifierHelper"] gamedataStatType 652
----@field ["GrenadeExplosionBonusDamage"] gamedataStatType 653
----@field ["GrenadeExplosionBonusRange"] gamedataStatType 654
----@field ["GrenadesCharges"] gamedataStatType 655
----@field ["GrenadesChargesDecayStartDelay"] gamedataStatType 656
----@field ["GrenadesChargesDelayOnChange"] gamedataStatType 657
----@field ["GrenadesChargesRegenBegins"] gamedataStatType 658
----@field ["GrenadesChargesRegenEnabled"] gamedataStatType 659
----@field ["GrenadesChargesRegenEnds"] gamedataStatType 660
----@field ["GrenadesChargesRegenMult"] gamedataStatType 661
----@field ["GrenadesChargesRegenMultModifierHelper"] gamedataStatType 662
----@field ["GrenadesChargesRegenRate"] gamedataStatType 663
----@field ["GrenadesMaxCharges"] gamedataStatType 664
----@field ["GrenadesRechargeDuration"] gamedataStatType 665
----@field ["GroundSlamCooldownModifier"] gamedataStatType 666
----@field ["Gunslinger"] gamedataStatType 667
----@field ["GunslingerMastery"] gamedataStatType 668
----@field ["GunslingerTrait01Stat"] gamedataStatType 669
----@field ["HGMod1_Accuracy"] gamedataStatType 670
----@field ["HGMod1_CommonStacks"] gamedataStatType 671
----@field ["HGMod1_EpicStacks"] gamedataStatType 672
----@field ["HGMod1_LegendaryStacks"] gamedataStatType 673
----@field ["HGMod1_ModCount"] gamedataStatType 674
----@field ["HGMod1_RareStacks"] gamedataStatType 675
----@field ["HGMod1_StackCount"] gamedataStatType 676
----@field ["HGMod1_UncommonStacks"] gamedataStatType 677
----@field ["HGMod2_CritChance"] gamedataStatType 678
----@field ["HGMod2_Spread"] gamedataStatType 679
----@field ["HGMod2_Swap"] gamedataStatType 680
----@field ["HGMod3_Sway"] gamedataStatType 681
----@field ["HackRevealPositionModifier"] gamedataStatType 682
----@field ["HackedEnemiesGetDamagedByFriendlyFire"] gamedataStatType 683
----@field ["HackedEnemyArmorReduction"] gamedataStatType 684
----@field ["Hacking"] gamedataStatType 685
----@field ["HackingMastery"] gamedataStatType 686
----@field ["HackingPenetration"] gamedataStatType 687
----@field ["HackingResistance"] gamedataStatType 688
----@field ["HackingResistanceUltimate"] gamedataStatType 689
----@field ["HandgunStaminaCostReduction"] gamedataStatType 690
----@field ["Handling"] gamedataStatType 691
----@field ["HasAdditionalSplinterSlot"] gamedataStatType 692
----@field ["HasAheadTargeting"] gamedataStatType 693
----@field ["HasAirHover"] gamedataStatType 694
----@field ["HasAirThrusters"] gamedataStatType 695
----@field ["HasAutoReloader"] gamedataStatType 696
----@field ["HasAutomaticReplenishment"] gamedataStatType 697
----@field ["HasAutomaticTagging"] gamedataStatType 698
----@field ["HasBerserk"] gamedataStatType 699
----@field ["HasBleedImmunity"] gamedataStatType 700
----@field ["HasBlindImmunity"] gamedataStatType 701
----@field ["HasBoostedCortex"] gamedataStatType 702
----@field ["HasBurningBuffs"] gamedataStatType 703
----@field ["HasCameraLinking"] gamedataStatType 704
----@field ["HasChargeJump"] gamedataStatType 705
----@field ["HasCritImmunity"] gamedataStatType 706
----@field ["HasCyberdeck"] gamedataStatType 707
----@field ["HasCybereye"] gamedataStatType 708
----@field ["HasDodge"] gamedataStatType 709
----@field ["HasDodgeAir"] gamedataStatType 710
----@field ["HasDoubleJump"] gamedataStatType 711
----@field ["HasElectricCoating"] gamedataStatType 712
----@field ["HasElectroPlating"] gamedataStatType 713
----@field ["HasExtendedHitReactionImmunity"] gamedataStatType 714
----@field ["HasFireproofSkin"] gamedataStatType 715
----@field ["HasGPS"] gamedataStatType 716
----@field ["HasGlowingTattoos"] gamedataStatType 717
----@field ["HasGraphiteTissue"] gamedataStatType 718
----@field ["HasGrenadeHack"] gamedataStatType 719
----@field ["HasHackingInteractions"] gamedataStatType 720
----@field ["HasHealingReapplication"] gamedataStatType 721
----@field ["HasHealthMonitorBomb"] gamedataStatType 722
----@field ["HasHostileHackImmunity"] gamedataStatType 723
----@field ["HasICELevelBooster"] gamedataStatType 724
----@field ["HasImmunityToNPCQuickhacks"] gamedataStatType 725
----@field ["HasInfravision"] gamedataStatType 726
----@field ["HasJuiceInjector"] gamedataStatType 727
----@field ["HasKerenzikov"] gamedataStatType 728
----@field ["HasKerenzikovOmen"] gamedataStatType 729
----@field ["HasKerenzikovSlide"] gamedataStatType 730
----@field ["HasKers"] gamedataStatType 731
----@field ["HasKiroshiOpticsFragment"] gamedataStatType 732
----@field ["HasKnifeSharpener"] gamedataStatType 733
----@field ["HasLinkToBountySystem"] gamedataStatType 734
----@field ["HasLoweringPerception"] gamedataStatType 735
----@field ["HasMadnessLvl4Passive"] gamedataStatType 736
----@field ["HasMajorQuickhackResistance"] gamedataStatType 737
----@field ["HasMechanicalControl"] gamedataStatType 738
----@field ["HasMeleeHitReactionAndTakedownResistance"] gamedataStatType 739
----@field ["HasMeleeTargeting"] gamedataStatType 740
----@field ["HasMetabolicEnhancer"] gamedataStatType 741
----@field ["HasMuzzleBrake"] gamedataStatType 742
----@field ["HasOpticalCamoEpic"] gamedataStatType 743
----@field ["HasOpticalCamoLegendary"] gamedataStatType 744
----@field ["HasOpticalCamoRare"] gamedataStatType 745
----@field ["HasPlatingGlitch"] gamedataStatType 746
----@field ["HasPoisonHeal"] gamedataStatType 747
----@field ["HasPoisonImmunity"] gamedataStatType 748
----@field ["HasPowerGrip"] gamedataStatType 749
----@field ["HasQuickhackResistance"] gamedataStatType 750
----@field ["HasRemoteBotAccessPointBreach"] gamedataStatType 751
----@field ["HasSandevistan"] gamedataStatType 752
----@field ["HasSandevistanTier1"] gamedataStatType 753
----@field ["HasSandevistanTier2"] gamedataStatType 754
----@field ["HasSandevistanTier3"] gamedataStatType 755
----@field ["HasSecondHeart"] gamedataStatType 756
----@field ["HasSelfHealingSkin"] gamedataStatType 757
----@field ["HasSmartLink"] gamedataStatType 758
----@field ["HasSpiderBotControl"] gamedataStatType 759
----@field ["HasStunImmunity"] gamedataStatType 760
----@field ["HasSubdermalArmor"] gamedataStatType 761
----@field ["HasSuperheroFall"] gamedataStatType 762
----@field ["HasSystemCollapse"] gamedataStatType 763
----@field ["HasThermovision"] gamedataStatType 764
----@field ["HasTimedImmunity"] gamedataStatType 765
----@field ["HasToxicCleanser"] gamedataStatType 766
----@field ["HasWallRunSkill"] gamedataStatType 767
----@field ["HeadshotCritChance"] gamedataStatType 768
----@field ["HeadshotDamageMultiplier"] gamedataStatType 769
----@field ["HeadshotDamageMultiplierModifierHelper"] gamedataStatType 770
----@field ["HeadshotImmunity"] gamedataStatType 771
----@field ["HealOnKillingBleedingTarget"] gamedataStatType 772
----@field ["HealOnKillingBleedingTargetModifierHelper"] gamedataStatType 773
----@field ["HealingItemMaxCharges"] gamedataStatType 774
----@field ["HealingItemsCharges"] gamedataStatType 775
----@field ["HealingItemsChargesDecayStartDelay"] gamedataStatType 776
----@field ["HealingItemsChargesDelayOnChange"] gamedataStatType 777
----@field ["HealingItemsChargesRegenBegins"] gamedataStatType 778
----@field ["HealingItemsChargesRegenEnabled"] gamedataStatType 779
----@field ["HealingItemsChargesRegenEnds"] gamedataStatType 780
----@field ["HealingItemsChargesRegenMult"] gamedataStatType 781
----@field ["HealingItemsChargesRegenMultModifierHelper"] gamedataStatType 782
----@field ["HealingItemsChargesRegenRate"] gamedataStatType 783
----@field ["HealingItemsEffectPercentBonus"] gamedataStatType 784
----@field ["HealingItemsEffectPercentBonusModifierHelper"] gamedataStatType 785
----@field ["HealingItemsRechargeDuration"] gamedataStatType 786
----@field ["Health"] gamedataStatType 787
----@field ["HealthBonusBlackmarket"] gamedataStatType 788
----@field ["HealthGeneralRegenRateAdd"] gamedataStatType 789
----@field ["HealthGeneralRegenRateAddModifierHelper"] gamedataStatType 790
----@field ["HealthGeneralRegenRateMult"] gamedataStatType 791
----@field ["HealthGeneralRegenRateMultModifierHelper"] gamedataStatType 792
----@field ["HealthInCombatRegenDelayOnChange"] gamedataStatType 793
----@field ["HealthInCombatRegenEnabled"] gamedataStatType 794
----@field ["HealthInCombatRegenEndThreshold"] gamedataStatType 795
----@field ["HealthInCombatRegenRate"] gamedataStatType 796
----@field ["HealthInCombatRegenRateAdd"] gamedataStatType 797
----@field ["HealthInCombatRegenRateBase"] gamedataStatType 798
----@field ["HealthInCombatRegenRateMult"] gamedataStatType 799
----@field ["HealthInCombatRegenStartThreshold"] gamedataStatType 800
----@field ["HealthInCombatStartDelay"] gamedataStatType 801
----@field ["HealthModifierHelper"] gamedataStatType 802
----@field ["HealthOutOfCombatRegenDelayOnChange"] gamedataStatType 803
----@field ["HealthOutOfCombatRegenEnabled"] gamedataStatType 804
----@field ["HealthOutOfCombatRegenEndThreshold"] gamedataStatType 805
----@field ["HealthOutOfCombatRegenRate"] gamedataStatType 806
----@field ["HealthOutOfCombatRegenRateAdd"] gamedataStatType 807
----@field ["HealthOutOfCombatRegenRateBase"] gamedataStatType 808
----@field ["HealthOutOfCombatRegenRateMult"] gamedataStatType 809
----@field ["HealthOutOfCombatRegenStartThreshold"] gamedataStatType 810
----@field ["HealthRegainOnKill"] gamedataStatType 811
----@field ["HealthRegainOnKillModifierHelper"] gamedataStatType 812
----@field ["Hearing"] gamedataStatType 813
----@field ["HeavyAttacksNumber"] gamedataStatType 814
----@field ["HiddenSlot_GenerationWeight_On_TierPlus"] gamedataStatType 815
----@field ["HighlightAccessPoint"] gamedataStatType 816
----@field ["HitDismembermentFactor"] gamedataStatType 817
----@field ["HitReactionDamageHealthFactor"] gamedataStatType 818
----@field ["HitReactionFactor"] gamedataStatType 819
----@field ["HitShapeArmor"] gamedataStatType 820
----@field ["HitTimerAfterDefeated"] gamedataStatType 821
----@field ["HitTimerAfterImpact"] gamedataStatType 822
----@field ["HitTimerAfterImpactMelee"] gamedataStatType 823
----@field ["HitTimerAfterKnockdown"] gamedataStatType 824
----@field ["HitTimerAfterPain"] gamedataStatType 825
----@field ["HitTimerAfterStagger"] gamedataStatType 826
----@field ["HitTimerAfterStaggerMelee"] gamedataStatType 827
----@field ["HitWoundsFactor"] gamedataStatType 828
----@field ["HoldDuration"] gamedataStatType 829
----@field ["HoldEnterDuration"] gamedataStatType 830
----@field ["HoldTimeoutDuration"] gamedataStatType 831
----@field ["HolographicSkinCooldownDuration"] gamedataStatType 832
----@field ["HolographicSkinDuration"] gamedataStatType 833
----@field ["HousingBuffsDurationBonus"] gamedataStatType 834
----@field ["Humanity"] gamedataStatType 835
----@field ["HumanityAllocated"] gamedataStatType 836
----@field ["HumanityAvailable"] gamedataStatType 837
----@field ["HumanityOverallocated"] gamedataStatType 838
----@field ["HumanityOverallocationPossible"] gamedataStatType 839
----@field ["HumanityTotalMaxValue"] gamedataStatType 840
----@field ["IconicCWFromTreasureChestLooted"] gamedataStatType 841
----@field ["IconicItemUpgraded"] gamedataStatType 842
----@field ["IconicJointLockCover"] gamedataStatType 843
----@field ["IgnoreAwarenessCostWhenOverclocked"] gamedataStatType 844
----@field ["ImpactDamageThreshold"] gamedataStatType 845
----@field ["ImpactDamageThresholdImpulse"] gamedataStatType 846
----@field ["ImpactDamageThresholdInCover"] gamedataStatType 847
----@field ["InVehicleDamageTakenPercent"] gamedataStatType 848
----@field ["InhalerBaseHealing"] gamedataStatType 849
----@field ["InjectorBaseHealing"] gamedataStatType 850
----@field ["InjectorBaseOverTheTimeHealing"] gamedataStatType 851
----@field ["InjectorHealingDecayStartDelay"] gamedataStatType 852
----@field ["InjectorHealingDelayOnChange"] gamedataStatType 853
----@field ["InjectorHealingRegenBegins"] gamedataStatType 854
----@field ["InjectorHealingRegenEnabled"] gamedataStatType 855
----@field ["InjectorHealingRegenEnds"] gamedataStatType 856
----@field ["Intelligence"] gamedataStatType 857
----@field ["IntelligenceAllocated"] gamedataStatType 858
----@field ["IntelligenceAvailable"] gamedataStatType 859
----@field ["IntelligenceSkill"] gamedataStatType 860
----@field ["IntelligenceSkillcheckBonus"] gamedataStatType 861
----@field ["IntrinsicQuickHackUploadBonus"] gamedataStatType 862
----@field ["IntrinsicReloadTimeBonus"] gamedataStatType 863
----@field ["IntrinsicZoomLevelBonus"] gamedataStatType 864
----@field ["IsAVMaxTac"] gamedataStatType 865
----@field ["IsAggressive"] gamedataStatType 866
----@field ["IsAimingWithWeapon"] gamedataStatType 867
----@field ["IsBalanced"] gamedataStatType 868
----@field ["IsBlocking"] gamedataStatType 869
----@field ["IsCautious"] gamedataStatType 870
----@field ["IsCrowd"] gamedataStatType 871
----@field ["IsDefensive"] gamedataStatType 872
----@field ["IsDeflecting"] gamedataStatType 873
----@field ["IsDodgeStaminaFree"] gamedataStatType 874
----@field ["IsDodging"] gamedataStatType 875
----@field ["IsExcludedFromExtraHealingOnHigherDifficulties"] gamedataStatType 876
----@field ["IsExo"] gamedataStatType 877
----@field ["IsFastMeleeArchetype"] gamedataStatType 878
----@field ["IsFastRangedArchetype"] gamedataStatType 879
----@field ["IsGenericMeleeArchetype"] gamedataStatType 880
----@field ["IsGenericRangedArchetype"] gamedataStatType 881
----@field ["IsHealingItemEquipped"] gamedataStatType 882
----@field ["IsHeavyRangedArchetype"] gamedataStatType 883
----@field ["IsIgnoredByEnemyNPC"] gamedataStatType 884
----@field ["IsInvulnerable"] gamedataStatType 885
----@field ["IsItemBroken"] gamedataStatType 886
----@field ["IsItemCracked"] gamedataStatType 887
----@field ["IsItemCrafted"] gamedataStatType 888
----@field ["IsItemIconic"] gamedataStatType 889
----@field ["IsItemPlus"] gamedataStatType 890
----@field ["IsItemUpgraded"] gamedataStatType 891
----@field ["IsMainBoss"] gamedataStatType 892
----@field ["IsManBig"] gamedataStatType 893
----@field ["IsManMassive"] gamedataStatType 894
----@field ["IsMechanical"] gamedataStatType 895
----@field ["IsNetrunnerArchetype"] gamedataStatType 896
----@field ["IsNotSlowedDuringADS"] gamedataStatType 897
----@field ["IsNotSlowedDuringBlock"] gamedataStatType 898
----@field ["IsNotSlowedDuringReload"] gamedataStatType 899
----@field ["IsPlayerGuardian"] gamedataStatType 900
----@field ["IsReckless"] gamedataStatType 901
----@field ["IsShotgunnerArchetype"] gamedataStatType 902
----@field ["IsSniperArchetype"] gamedataStatType 903
----@field ["IsSprintStaminaFree"] gamedataStatType 904
----@field ["IsStrongMeleeArchetype"] gamedataStatType 905
----@field ["IsTechieArchetype"] gamedataStatType 906
----@field ["IsTier1Archetype"] gamedataStatType 907
----@field ["IsTier2Archetype"] gamedataStatType 908
----@field ["IsTier3Archetype"] gamedataStatType 909
----@field ["IsTier4Archetype"] gamedataStatType 910
----@field ["IsWeakspot"] gamedataStatType 911
----@field ["IsWeaponLethal"] gamedataStatType 912
----@field ["ItemArmor"] gamedataStatType 913
----@field ["ItemArmorModifierHelper"] gamedataStatType 914
----@field ["ItemLevel"] gamedataStatType 915
----@field ["ItemPlusDPS"] gamedataStatType 916
----@field ["ItemPurchasedAtVendor"] gamedataStatType 917
----@field ["ItemRequiresElectroPlating"] gamedataStatType 918
----@field ["ItemRequiresPowerGrip"] gamedataStatType 919
----@field ["ItemRequiresSmartLink"] gamedataStatType 920
----@field ["JenkinsHelper"] gamedataStatType 921
----@field ["JenkinsHelperDecayEnabled"] gamedataStatType 922
----@field ["JenkinsHelperDecayPerSecond"] gamedataStatType 923
----@field ["JenkinsHelperEmptyStat"] gamedataStatType 924
----@field ["JenkinsHelperRegenEnabled"] gamedataStatType 925
----@field ["JenkinsHelperRegenPerSecond"] gamedataStatType 926
----@field ["JumpHeight"] gamedataStatType 927
----@field ["JumpSpeedModifier"] gamedataStatType 928
----@field ["KatanaStaminaCostReduction"] gamedataStatType 929
----@field ["Kenjutsu"] gamedataStatType 930
----@field ["KenjutsuMastery"] gamedataStatType 931
----@field ["KenjutsuTrait01Stat"] gamedataStatType 932
----@field ["KerenzikovCooldownDuration"] gamedataStatType 933
----@field ["KiroshiMaxZoomLevel"] gamedataStatType 934
----@field ["KiroshiPierceScanAngle"] gamedataStatType 935
----@field ["KiroshiPierceScanRange"] gamedataStatType 936
----@field ["KnifeStaminaCostReduction"] gamedataStatType 937
----@field ["KnockdownDamageThreshold"] gamedataStatType 938
----@field ["KnockdownDamageThresholdImpulse"] gamedataStatType 939
----@field ["KnockdownDamageThresholdInCover"] gamedataStatType 940
----@field ["KnockdownImmunity"] gamedataStatType 941
----@field ["KnockdownImpulse"] gamedataStatType 942
----@field ["Level"] gamedataStatType 943
----@field ["Liberty_Padre_BurningApplicationRate"] gamedataStatType 944
----@field ["LightMachinegunStaminaCostReduction"] gamedataStatType 945
----@field ["LimbHealth"] gamedataStatType 946
----@field ["LinearDirectionUpdateMax"] gamedataStatType 947
----@field ["LinearDirectionUpdateMaxADS"] gamedataStatType 948
----@field ["LinearDirectionUpdateMin"] gamedataStatType 949
----@field ["LinearDirectionUpdateMinADS"] gamedataStatType 950
----@field ["LocomotionExperienceReward"] gamedataStatType 951
----@field ["LocomotionPenaltyDisabled"] gamedataStatType 952
----@field ["LootLevel"] gamedataStatType 953
----@field ["LowerActiveCooldownOnDefeat"] gamedataStatType 954
----@field ["LowerHackingResistanceOnHack"] gamedataStatType 955
----@field ["MacheteStaminaCostReduction"] gamedataStatType 956
----@field ["MagazineAutoRefill"] gamedataStatType 957
----@field ["MagazineCapacity"] gamedataStatType 958
----@field ["MagazineCapacityBase"] gamedataStatType 959
----@field ["MagazineCapacityBonus"] gamedataStatType 960
----@field ["MagazineCapacityDPSComponent"] gamedataStatType 961
----@field ["ManiacPerkBonusSpeed"] gamedataStatType 962
----@field ["ManiacStatCounter"] gamedataStatType 963
----@field ["MantisBladesStaminaCostReduction"] gamedataStatType 964
----@field ["MaxDuration"] gamedataStatType 965
----@field ["MaxPercentDamageTakenPerHit"] gamedataStatType 966
----@field ["MaxQuality"] gamedataStatType 967
----@field ["MaxQualityWhenLooted"] gamedataStatType 968
----@field ["MaxSpeed"] gamedataStatType 969
----@field ["MaxSpeedModifierHelper"] gamedataStatType 970
----@field ["MaxStacks"] gamedataStatType 971
----@field ["MaxStacksBonusBleeding"] gamedataStatType 972
----@field ["MaxStacksBonusBurning"] gamedataStatType 973
----@field ["MaximumRange"] gamedataStatType 974
----@field ["MechResistance"] gamedataStatType 975
----@field ["MechResistanceModifierHelper"] gamedataStatType 976
----@field ["MechanicalsBuffDPSBonus"] gamedataStatType 977
----@field ["MeleeAttackComboDuration"] gamedataStatType 978
----@field ["MeleeAttackDuration"] gamedataStatType 979
----@field ["MeleeBorgStaminaDrain"] gamedataStatType 980
----@field ["MeleeDamagePercentBonus"] gamedataStatType 981
----@field ["MeleeDamagePercentBonusModifierHelper"] gamedataStatType 982
----@field ["MeleeMod1_CritChance"] gamedataStatType 983
----@field ["MeleeMod1_CritDamage"] gamedataStatType 984
----@field ["MeleeMod2_Duration"] gamedataStatType 985
----@field ["MeleeMod2_Stacks"] gamedataStatType 986
----@field ["MeleeMod3_CritChance"] gamedataStatType 987
----@field ["MeleeMod3_CritDamage"] gamedataStatType 988
----@field ["MeleeProjectileGravitySimulationMultiplier"] gamedataStatType 989
----@field ["MeleeResistance"] gamedataStatType 990
----@field ["MeleeResistanceModifierHelper"] gamedataStatType 991
----@field ["Memory"] gamedataStatType 992
----@field ["MemoryCostModifier"] gamedataStatType 993
----@field ["MemoryCostReduction"] gamedataStatType 994
----@field ["MemoryRegenBonusBlackmarket"] gamedataStatType 995
----@field ["MemoryRegenDelayOnChange"] gamedataStatType 996
----@field ["MemoryRegenEnabled"] gamedataStatType 997
----@field ["MemoryRegenEndThreshold"] gamedataStatType 998
----@field ["MemoryRegenRate"] gamedataStatType 999
----@field ["MemoryRegenRateAdd"] gamedataStatType 1000
----@field ["MemoryRegenRateBase"] gamedataStatType 1001
----@field ["MemoryRegenRateMult"] gamedataStatType 1002
----@field ["MemoryRegenStartThreshold"] gamedataStatType 1003
----@field ["MemoryStartDelay"] gamedataStatType 1004
----@field ["MemoryTrackerCooldownDuration"] gamedataStatType 1005
----@field ["MemoryWipeImmunity"] gamedataStatType 1006
----@field ["MicroGeneratorExplosionDamage"] gamedataStatType 1007
----@field ["MinCharge"] gamedataStatType 1008
----@field ["MinSpeed"] gamedataStatType 1009
----@field ["MinigameBufferExtension"] gamedataStatType 1010
----@field ["MinigameMaterialsEarned"] gamedataStatType 1011
----@field ["MinigameMemoryRegenPerk"] gamedataStatType 1012
----@field ["MinigameMoneyMultiplier"] gamedataStatType 1013
----@field ["MinigameNextInstanceBufferExtensionPerk"] gamedataStatType 1014
----@field ["MinigameShardChanceMultiplier"] gamedataStatType 1015
----@field ["MinigameTimeLimitExtension"] gamedataStatType 1016
----@field ["MinigameTrapsPossibilityChance"] gamedataStatType 1017
----@field ["MitigationChance"] gamedataStatType 1018
----@field ["MitigationChanceModifierHelper"] gamedataStatType 1019
----@field ["MitigationStrength"] gamedataStatType 1020
----@field ["MitigationStrengthModifierHelper"] gamedataStatType 1021
----@field ["ModifierPower"] gamedataStatType 1022
----@field ["ModifierPowerBase"] gamedataStatType 1023
----@field ["ModsAmountInGenerationPool"] gamedataStatType 1024
----@field ["MonoWiresStaminaCostReduction"] gamedataStatType 1025
----@field ["MultiKill_Counter"] gamedataStatType 1026
----@field ["MuzzleBreakRicochetBonus"] gamedataStatType 1027
----@field ["NPCAnimationTime"] gamedataStatType 1028
----@field ["NPCCorpoEquipItemDuration"] gamedataStatType 1029
----@field ["NPCCorpoUnequipItemDuration"] gamedataStatType 1030
----@field ["NPCDamage"] gamedataStatType 1031
----@field ["NPCDoTDPS"] gamedataStatType 1032
----@field ["NPCEquipItemDuration"] gamedataStatType 1033
----@field ["NPCGangEquipItemDuration"] gamedataStatType 1034
----@field ["NPCGangUnequipItemDuration"] gamedataStatType 1035
----@field ["NPCLoopDuration"] gamedataStatType 1036
----@field ["NPCLootLevelHelper"] gamedataStatType 1037
----@field ["NPCRarity"] gamedataStatType 1038
----@field ["NPCRecoverDuration"] gamedataStatType 1039
----@field ["NPCStartupDuration"] gamedataStatType 1040
----@field ["NPCThrowImmunity"] gamedataStatType 1041
----@field ["NPCUnequipItemDuration"] gamedataStatType 1042
----@field ["NPCUploadTime"] gamedataStatType 1043
----@field ["NPCWeaponDropHelper"] gamedataStatType 1044
----@field ["NPCWeaponDropRandomizer"] gamedataStatType 1045
----@field ["NewPerkFinisherBlunt_TargetDistanceMax"] gamedataStatType 1046
----@field ["NewPerkFinisherBlunt_TargetHealthMax"] gamedataStatType 1047
----@field ["NewPerkFinisherCool_TargetDistanceMax"] gamedataStatType 1048
----@field ["NewPerkFinisherCool_TargetHealthMax"] gamedataStatType 1049
----@field ["NewPerkFinisherMonowire_TargetDistanceMax"] gamedataStatType 1050
----@field ["NewPerkFinisherMonowire_TargetHealthMax"] gamedataStatType 1051
----@field ["NewPerkFinisherReflexes_TargetDistanceMax"] gamedataStatType 1052
----@field ["NewPerkFinisherReflexes_TargetHealthMax"] gamedataStatType 1053
----@field ["NoJam"] gamedataStatType 1054
----@field ["NumShotsInBurst"] gamedataStatType 1055
----@field ["NumShotsInBurstMaxCharge"] gamedataStatType 1056
----@field ["NumShotsInBurstSecondary"] gamedataStatType 1057
----@field ["NumShotsToFire"] gamedataStatType 1058
----@field ["NumberIgnoredTraps"] gamedataStatType 1059
----@field ["OccupiedSlot_GenerationWeight_On_TierPlus"] gamedataStatType 1060
----@field ["OnBikeDamageTakenPercent"] gamedataStatType 1061
----@field ["OnBikeDamageTakenPercentMaxSpeed"] gamedataStatType 1062
----@field ["OnBikeDamageTakenPercentMinSpeed"] gamedataStatType 1063
----@field ["OnRevealHackProgressIncrement"] gamedataStatType 1064
----@field ["OneHandBladeStaminaCostReduction"] gamedataStatType 1065
----@field ["OneHandBluntStaminaCostReduction"] gamedataStatType 1066
----@field ["OpticalCamoCharges"] gamedataStatType 1067
----@field ["OpticalCamoChargesDecayRate"] gamedataStatType 1068
----@field ["OpticalCamoChargesDecayRateMult"] gamedataStatType 1069
----@field ["OpticalCamoChargesDecayStartDelay"] gamedataStatType 1070
----@field ["OpticalCamoChargesDelayOnChange"] gamedataStatType 1071
----@field ["OpticalCamoChargesRegenBegins"] gamedataStatType 1072
----@field ["OpticalCamoChargesRegenEnabled"] gamedataStatType 1073
----@field ["OpticalCamoChargesRegenEnds"] gamedataStatType 1074
----@field ["OpticalCamoChargesRegenRate"] gamedataStatType 1075
----@field ["OpticalCamoDuration"] gamedataStatType 1076
----@field ["OpticalCamoDurationMultiplier"] gamedataStatType 1077
----@field ["OpticalCamoEmptyStat"] gamedataStatType 1078
----@field ["OpticalCamoIsActive"] gamedataStatType 1079
----@field ["OpticalCamoRechargeDuration"] gamedataStatType 1080
----@field ["OverchargeThreshold"] gamedataStatType 1081
----@field ["OverclockSpreadChance"] gamedataStatType 1082
----@field ["OverclockedStateHealthCost"] gamedataStatType 1083
----@field ["Overheat"] gamedataStatType 1084
----@field ["OverheatDurationIncrease"] gamedataStatType 1085
----@field ["Overshield"] gamedataStatType 1086
----@field ["OvershieldDecayDelayOnChange"] gamedataStatType 1087
----@field ["OvershieldDecayEnabled"] gamedataStatType 1088
----@field ["OvershieldDecayEndThrehold"] gamedataStatType 1089
----@field ["OvershieldDecayRate"] gamedataStatType 1090
----@field ["OvershieldDecayStartDelay"] gamedataStatType 1091
----@field ["OvershieldDecayStartThreshold"] gamedataStatType 1092
----@field ["OvershieldDelayOnChange"] gamedataStatType 1093
----@field ["OvershieldGainedToHealAmountMultiplier"] gamedataStatType 1094
----@field ["Oxygen"] gamedataStatType 1095
----@field ["PRSRMod2_CommonCount"] gamedataStatType 1096
----@field ["PRSRMod2_CommonStacks"] gamedataStatType 1097
----@field ["PRSRMod2_EpicCount"] gamedataStatType 1098
----@field ["PRSRMod2_EpicStacks"] gamedataStatType 1099
----@field ["PRSRMod2_Handling"] gamedataStatType 1100
----@field ["PRSRMod2_KillCount"] gamedataStatType 1101
----@field ["PRSRMod2_LegendaryCount"] gamedataStatType 1102
----@field ["PRSRMod2_LegendaryStacks"] gamedataStatType 1103
----@field ["PRSRMod2_RareCount"] gamedataStatType 1104
----@field ["PRSRMod2_RareStacks"] gamedataStatType 1105
----@field ["PRSRMod2_Stacks"] gamedataStatType 1106
----@field ["PRSRMod2_UncommonCount"] gamedataStatType 1107
----@field ["PRSRMod2_UncommonStacks"] gamedataStatType 1108
----@field ["PainEditorDamageReduction"] gamedataStatType 1109
----@field ["PartArmor"] gamedataStatType 1110
----@field ["PenetrationHealth"] gamedataStatType 1111
----@field ["PercentDamageReductionFromPoisonedEnemies"] gamedataStatType 1112
----@field ["PercentDamageReductionFromPoisonedEnemiesModifierHelper"] gamedataStatType 1113
----@field ["PerfectChargeTimeWindowIncrease"] gamedataStatType 1114
----@field ["PerfectChargeWindow"] gamedataStatType 1115
----@field ["PersonalityAggressive"] gamedataStatType 1116
----@field ["PersonalityCuriosity"] gamedataStatType 1117
----@field ["PersonalityDisgust"] gamedataStatType 1118
----@field ["PersonalityFear"] gamedataStatType 1119
----@field ["PersonalityFunny"] gamedataStatType 1120
----@field ["PersonalityJoy"] gamedataStatType 1121
----@field ["PersonalitySad"] gamedataStatType 1122
----@field ["PersonalityShock"] gamedataStatType 1123
----@field ["PersonalitySurprise"] gamedataStatType 1124
----@field ["PhoneCallDuration"] gamedataStatType 1125
----@field ["PhysicalDamage"] gamedataStatType 1126
----@field ["PhysicalDamageAdditiveMultiplier"] gamedataStatType 1127
----@field ["PhysicalDamageMax"] gamedataStatType 1128
----@field ["PhysicalDamageMin"] gamedataStatType 1129
----@field ["PhysicalDamageModifierHelper"] gamedataStatType 1130
----@field ["PhysicalDamagePercent"] gamedataStatType 1131
----@field ["PhysicalImpulse"] gamedataStatType 1132
----@field ["PhysicalResistance"] gamedataStatType 1133
----@field ["PlayerCorruptedSandevistanChargesDecayEnabled"] gamedataStatType 1134
----@field ["PlayerOnRevealHackProgressMultiplier"] gamedataStatType 1135
----@field ["PlayerSandevistanChargesDecayEnabled"] gamedataStatType 1136
----@field ["PlayerSandevistanChargesDecayPerSecond"] gamedataStatType 1137
----@field ["PlayerSandevistanChargesEmptyStat"] gamedataStatType 1138
----@field ["Poise"] gamedataStatType 1139
----@field ["PoisonImmunity"] gamedataStatType 1140
----@field ["PoisonRegenHealth"] gamedataStatType 1141
----@field ["PoisonedApplicationRate"] gamedataStatType 1142
----@field ["PoisonedApplicationRateModifierHelper"] gamedataStatType 1143
----@field ["PostLexWilsonBuyPrice"] gamedataStatType 1144
----@field ["PostTutorialCyberwarePrice"] gamedataStatType 1145
----@field ["PowerLevel"] gamedataStatType 1146
----@field ["PowerMod1_DamageConvert"] gamedataStatType 1147
----@field ["PowerMod2_StaminaCost"] gamedataStatType 1148
----@field ["PreFireTime"] gamedataStatType 1149
----@field ["PrecisionRifleStaminaCostReduction"] gamedataStatType 1150
----@field ["PrefersCovers"] gamedataStatType 1151
----@field ["PrefersShootingSpots"] gamedataStatType 1152
----@field ["PreventQuickhackStaggerDuration"] gamedataStatType 1153
----@field ["PreventQuickhacking"] gamedataStatType 1154
----@field ["Price"] gamedataStatType 1155
----@field ["ProjectileLauncherCharges"] gamedataStatType 1156
----@field ["ProjectileLauncherChargesDecayStartDelay"] gamedataStatType 1157
----@field ["ProjectileLauncherChargesDelayOnChange"] gamedataStatType 1158
----@field ["ProjectileLauncherChargesRegenBegins"] gamedataStatType 1159
----@field ["ProjectileLauncherChargesRegenEnds"] gamedataStatType 1160
----@field ["ProjectileLauncherChargesRegenMult"] gamedataStatType 1161
----@field ["ProjectileLauncherChargesRegenRate"] gamedataStatType 1162
----@field ["ProjectileLauncherMaxCharges"] gamedataStatType 1163
----@field ["ProjectileLauncherQualityMult"] gamedataStatType 1164
----@field ["ProjectileLauncherRechargeDuration"] gamedataStatType 1165
----@field ["ProjectileLauncherRegenEnabled"] gamedataStatType 1166
----@field ["ProjectilesPerShot"] gamedataStatType 1167
----@field ["ProjectilesPerShotBase"] gamedataStatType 1168
----@field ["ProjectilesPerShotBonus"] gamedataStatType 1169
----@field ["Protection"] gamedataStatType 1170
----@field ["Quality"] gamedataStatType 1171
----@field ["QualityRequirementMetFlag"] gamedataStatType 1172
----@field ["QualityToMaxQualityRatio"] gamedataStatType 1173
----@field ["Quantity"] gamedataStatType 1174
----@field ["QuickHackBlackWallSpreadNumber"] gamedataStatType 1175
----@field ["QuickHackBlindSpreadNumber"] gamedataStatType 1176
----@field ["QuickHackContagionSpreadNumber"] gamedataStatType 1177
----@field ["QuickHackCritChance"] gamedataStatType 1178
----@field ["QuickHackDuration"] gamedataStatType 1179
----@field ["QuickHackDurationExtension"] gamedataStatType 1180
----@field ["QuickHackEffectsApplied"] gamedataStatType 1181
----@field ["QuickHackImmunity"] gamedataStatType 1182
----@field ["QuickHackOverclockSpreadNumber"] gamedataStatType 1183
----@field ["QuickHackQueueCount"] gamedataStatType 1184
----@field ["QuickHackQueueSize"] gamedataStatType 1185
----@field ["QuickHackQueueUploadTimeDecrease"] gamedataStatType 1186
----@field ["QuickHackResistancesMod"] gamedataStatType 1187
----@field ["QuickHackSpreadDistance"] gamedataStatType 1188
----@field ["QuickHackSpreadDistanceIncrease"] gamedataStatType 1189
----@field ["QuickHackSpreadNumber"] gamedataStatType 1190
----@field ["QuickHackSuddenDeathChance"] gamedataStatType 1191
----@field ["QuickHackUpload"] gamedataStatType 1192
----@field ["QuickHackUploadTimeDecrease"] gamedataStatType 1193
----@field ["QuickhackDamageBonusMultiplier"] gamedataStatType 1194
----@field ["QuickhackDamageOverTimeBonusMultiplier"] gamedataStatType 1195
----@field ["QuickhackExtraDamageMultiplier"] gamedataStatType 1196
----@field ["QuickhackResistance"] gamedataStatType 1197
----@field ["QuickhackResistanceModifierHelper"] gamedataStatType 1198
----@field ["QuickhackShield"] gamedataStatType 1199
----@field ["QuickhacksCooldownReduction"] gamedataStatType 1200
----@field ["QuickhacksCooldownReductionModifierHelper"] gamedataStatType 1201
----@field ["RamManagerCooldownReduction"] gamedataStatType 1202
----@field ["RamOnKill"] gamedataStatType 1203
----@field ["RamOnKillModifierHelper"] gamedataStatType 1204
----@field ["RandomCurveInput"] gamedataStatType 1205
----@field ["Range"] gamedataStatType 1206
----@field ["RangedMod1_CritChance"] gamedataStatType 1207
----@field ["Recoil"] gamedataStatType 1208
----@field ["RecoilAllowSway"] gamedataStatType 1209
----@field ["RecoilAlternateDir"] gamedataStatType 1210
----@field ["RecoilAlternateDirADS"] gamedataStatType 1211
----@field ["RecoilAngle"] gamedataStatType 1212
----@field ["RecoilAngleADS"] gamedataStatType 1213
----@field ["RecoilAngleReduction"] gamedataStatType 1214
----@field ["RecoilAnimation"] gamedataStatType 1215
----@field ["RecoilChargeMult"] gamedataStatType 1216
----@field ["RecoilChargeMultADS"] gamedataStatType 1217
----@field ["RecoilCycleSize"] gamedataStatType 1218
----@field ["RecoilCycleSizeADS"] gamedataStatType 1219
----@field ["RecoilCycleTime"] gamedataStatType 1220
----@field ["RecoilCycleTimeADS"] gamedataStatType 1221
----@field ["RecoilDelay"] gamedataStatType 1222
----@field ["RecoilDir"] gamedataStatType 1223
----@field ["RecoilDirADS"] gamedataStatType 1224
----@field ["RecoilDirPlanCycleRandDir"] gamedataStatType 1225
----@field ["RecoilDirPlanCycleRandDirADS"] gamedataStatType 1226
----@field ["RecoilDirPlanCycleRandRangeDir"] gamedataStatType 1227
----@field ["RecoilDirPlanCycleRandRangeDirADS"] gamedataStatType 1228
----@field ["RecoilDirPlanSequence"] gamedataStatType 1229
----@field ["RecoilDirPlanSequenceADS"] gamedataStatType 1230
----@field ["RecoilDirReduction"] gamedataStatType 1231
----@field ["RecoilDriftRandomRangeMax"] gamedataStatType 1232
----@field ["RecoilDriftRandomRangeMin"] gamedataStatType 1233
----@field ["RecoilEnableCycleX"] gamedataStatType 1234
----@field ["RecoilEnableCycleXADS"] gamedataStatType 1235
----@field ["RecoilEnableCycleY"] gamedataStatType 1236
----@field ["RecoilEnableCycleYADS"] gamedataStatType 1237
----@field ["RecoilEnableLinearX"] gamedataStatType 1238
----@field ["RecoilEnableLinearXADS"] gamedataStatType 1239
----@field ["RecoilEnableLinearY"] gamedataStatType 1240
----@field ["RecoilEnableLinearYADS"] gamedataStatType 1241
----@field ["RecoilEnableScaleX"] gamedataStatType 1242
----@field ["RecoilEnableScaleXADS"] gamedataStatType 1243
----@field ["RecoilEnableScaleY"] gamedataStatType 1244
----@field ["RecoilEnableScaleYADS"] gamedataStatType 1245
----@field ["RecoilFullChargeMult"] gamedataStatType 1246
----@field ["RecoilFullChargeMultADS"] gamedataStatType 1247
----@field ["RecoilHoldDuration"] gamedataStatType 1248
----@field ["RecoilHoldDurationADS"] gamedataStatType 1249
----@field ["RecoilKickMax"] gamedataStatType 1250
----@field ["RecoilKickMaxADS"] gamedataStatType 1251
----@field ["RecoilKickMin"] gamedataStatType 1252
----@field ["RecoilKickMinADS"] gamedataStatType 1253
----@field ["RecoilKickReduction"] gamedataStatType 1254
----@field ["RecoilMagForFullDrift"] gamedataStatType 1255
----@field ["RecoilMaxLength"] gamedataStatType 1256
----@field ["RecoilMaxLengthADS"] gamedataStatType 1257
----@field ["RecoilPercentBonus"] gamedataStatType 1258
----@field ["RecoilPercentBonusModifierHelper"] gamedataStatType 1259
----@field ["RecoilRecoveryMinSpeed"] gamedataStatType 1260
----@field ["RecoilRecoveryMinSpeedADS"] gamedataStatType 1261
----@field ["RecoilRecoverySpeed"] gamedataStatType 1262
----@field ["RecoilRecoverySpeedADS"] gamedataStatType 1263
----@field ["RecoilRecoveryTime"] gamedataStatType 1264
----@field ["RecoilRecoveryTimeADS"] gamedataStatType 1265
----@field ["RecoilScaleMax"] gamedataStatType 1266
----@field ["RecoilScaleMaxADS"] gamedataStatType 1267
----@field ["RecoilScaleTime"] gamedataStatType 1268
----@field ["RecoilScaleTimeADS"] gamedataStatType 1269
----@field ["RecoilSpeed"] gamedataStatType 1270
----@field ["RecoilSpeedADS"] gamedataStatType 1271
----@field ["RecoilTime"] gamedataStatType 1272
----@field ["RecoilTimeADS"] gamedataStatType 1273
----@field ["RecoilUseDifferentStatsInADS"] gamedataStatType 1274
----@field ["Reflexes"] gamedataStatType 1275
----@field ["ReflexesAllocated"] gamedataStatType 1276
----@field ["ReflexesAvailable"] gamedataStatType 1277
----@field ["ReflexesSkill"] gamedataStatType 1278
----@field ["Reflexes_Left_Milestone_3_Stack"] gamedataStatType 1279
----@field ["Reflexes_Left_Milestone_3_StackDecrease"] gamedataStatType 1280
----@field ["Reflexes_Left_Milestone_3_StackIncrease"] gamedataStatType 1281
----@field ["Reflexes_Right_Milestone_2_StaminaDeflectPerc"] gamedataStatType 1282
----@field ["Reflexes_Right_Milestone_2_StaminaReduction"] gamedataStatType 1283
----@field ["RefreshesPingOnQuickhack"] gamedataStatType 1284
----@field ["RegenerateHPMinigamePerk"] gamedataStatType 1285
----@field ["ReloadAmount"] gamedataStatType 1286
----@field ["ReloadEndTime"] gamedataStatType 1287
----@field ["ReloadEndTimeBase"] gamedataStatType 1288
----@field ["ReloadSpeedPercentBonus"] gamedataStatType 1289
----@field ["ReloadSpeedPercentBonusModifierHelper"] gamedataStatType 1290
----@field ["ReloadTime"] gamedataStatType 1291
----@field ["ReloadTimeBase"] gamedataStatType 1292
----@field ["ReloadTimeBonus"] gamedataStatType 1293
----@field ["ReloadTimeDPSComponent"] gamedataStatType 1294
----@field ["ReloadTimeExhaustionPenalty"] gamedataStatType 1295
----@field ["RemoveAllStacksWhenDurationEnds"] gamedataStatType 1296
----@field ["RemoveColdBloodStacksOneByOne"] gamedataStatType 1297
----@field ["RemoveSprintOnQuickhack"] gamedataStatType 1298
----@field ["ReprimandEscalation"] gamedataStatType 1299
----@field ["RestoreMemoryOnDefeat"] gamedataStatType 1300
----@field ["RevealNetrunnerWhenHacked"] gamedataStatType 1301
----@field ["RevealPositionMaxDistance"] gamedataStatType 1302
----@field ["RevolverStaminaCostReduction"] gamedataStatType 1303
----@field ["RicochetChance"] gamedataStatType 1304
----@field ["RicochetCount"] gamedataStatType 1305
----@field ["RicochetMaxAngle"] gamedataStatType 1306
----@field ["RicochetMinAngle"] gamedataStatType 1307
----@field ["RicochetTargetSearchAngle"] gamedataStatType 1308
----@field ["RoadWarriorDamageMultiplier"] gamedataStatType 1309
----@field ["RollForPlusBelowMaxQuality"] gamedataStatType 1310
----@field ["RollForPlusOnMaxQuality"] gamedataStatType 1311
----@field ["SEApplicationRateBasedOnWeaponCharge"] gamedataStatType 1312
----@field ["SandevistanChargesDecayDelayOnChange"] gamedataStatType 1313
----@field ["SandevistanChargesDecayStartDelay"] gamedataStatType 1314
----@field ["SandevistanChargesRegenBegins"] gamedataStatType 1315
----@field ["SandevistanChargesRegenDelayOnChange"] gamedataStatType 1316
----@field ["SandevistanChargesRegenEnabled"] gamedataStatType 1317
----@field ["SandevistanChargesRegenEnds"] gamedataStatType 1318
----@field ["SandevistanChargesRegenStartDelay"] gamedataStatType 1319
----@field ["SandevistanDashShoot"] gamedataStatType 1320
----@field ["SandevistanKillRechargeValue"] gamedataStatType 1321
----@field ["SandevistanRechargeDuration"] gamedataStatType 1322
----@field ["SasquatchStaminaDrain"] gamedataStatType 1323
----@field ["ScalingBlocked"] gamedataStatType 1324
----@field ["ScanDepth"] gamedataStatType 1325
----@field ["ScanTimeReduction"] gamedataStatType 1326
----@field ["ScopeFOV"] gamedataStatType 1327
----@field ["ScopeOffset"] gamedataStatType 1328
----@field ["ScrapItemChance"] gamedataStatType 1329
----@field ["SecondHeartCooldownDuration"] gamedataStatType 1330
----@field ["SecondaryModifiersAdditiveMultiplier"] gamedataStatType 1331
----@field ["SharedCacheTraps"] gamedataStatType 1332
----@field ["ShinyWeaponRoll"] gamedataStatType 1333
----@field ["ShootingOffsetAI"] gamedataStatType 1334
----@field ["ShortCircuitOnCriticalHit"] gamedataStatType 1335
----@field ["ShortDistanceDamageIncrease"] gamedataStatType 1336
----@field ["ShorterChains"] gamedataStatType 1337
----@field ["ShotDelay"] gamedataStatType 1338
----@field ["ShotgunMod1_BuffDuration"] gamedataStatType 1339
----@field ["ShotgunMod1_DismemberBonus"] gamedataStatType 1340
----@field ["ShotgunMod1_ModCount"] gamedataStatType 1341
----@field ["ShotgunMod2_BulletCountLeftLeg"] gamedataStatType 1342
----@field ["ShotgunMod2_BulletCountRightLeg"] gamedataStatType 1343
----@field ["ShotgunMod2_ModCount"] gamedataStatType 1344
----@field ["ShotgunMod3_Spread"] gamedataStatType 1345
----@field ["ShotgunStaminaCostReduction"] gamedataStatType 1346
----@field ["ShouldIgnoreSmartUI"] gamedataStatType 1347
----@field ["SimpleWeaponMod04"] gamedataStatType 1348
----@field ["SkillBookExperience"] gamedataStatType 1349
----@field ["SlideWhenLeaningOutOfCover"] gamedataStatType 1350
----@field ["SmartGunAddSpiralTrajectory"] gamedataStatType 1351
----@field ["SmartGunAdsLockingAnglePitch"] gamedataStatType 1352
----@field ["SmartGunAdsLockingAngleYaw"] gamedataStatType 1353
----@field ["SmartGunAdsMaxLockedTargets"] gamedataStatType 1354
----@field ["SmartGunAdsTagLockAnglePitch"] gamedataStatType 1355
----@field ["SmartGunAdsTagLockAngleYaw"] gamedataStatType 1356
----@field ["SmartGunAdsTargetableAnglePitch"] gamedataStatType 1357
----@field ["SmartGunAdsTargetableAngleYaw"] gamedataStatType 1358
----@field ["SmartGunAdsTimeToLock"] gamedataStatType 1359
----@field ["SmartGunAdsTimeToUnlock"] gamedataStatType 1360
----@field ["SmartGunContinousLockEnabled"] gamedataStatType 1361
----@field ["SmartGunDisableOnReload"] gamedataStatType 1362
----@field ["SmartGunEvenDistributionPeriod"] gamedataStatType 1363
----@field ["SmartGunHipLockingAnglePitch"] gamedataStatType 1364
----@field ["SmartGunHipLockingAngleYaw"] gamedataStatType 1365
----@field ["SmartGunHipMaxLockedTargets"] gamedataStatType 1366
----@field ["SmartGunHipTagLockAnglePitch"] gamedataStatType 1367
----@field ["SmartGunHipTagLockAngleYaw"] gamedataStatType 1368
----@field ["SmartGunHipTargetableAnglePitch"] gamedataStatType 1369
----@field ["SmartGunHipTargetableAngleYaw"] gamedataStatType 1370
----@field ["SmartGunHipTimeToLock"] gamedataStatType 1371
----@field ["SmartGunHipTimeToUnlock"] gamedataStatType 1372
----@field ["SmartGunHitProbability"] gamedataStatType 1373
----@field ["SmartGunHitProbabilityMultiplier"] gamedataStatType 1374
----@field ["SmartGunKeepTargetsOnAimStateChange"] gamedataStatType 1375
----@field ["SmartGunKeepTargetsOnWeaponSwap"] gamedataStatType 1376
----@field ["SmartGunMaxLockedPointsPerTarget"] gamedataStatType 1377
----@field ["SmartGunMissDelay"] gamedataStatType 1378
----@field ["SmartGunMissRadius"] gamedataStatType 1379
----@field ["SmartGunNPCApplySpreadAtHitplane"] gamedataStatType 1380
----@field ["SmartGunNPCLockOnTime"] gamedataStatType 1381
----@field ["SmartGunNPCLockTimeout"] gamedataStatType 1382
----@field ["SmartGunNPCLockingAnglePitch"] gamedataStatType 1383
----@field ["SmartGunNPCLockingAngleYaw"] gamedataStatType 1384
----@field ["SmartGunNPCProjectileStartingOrientationAngleOffset"] gamedataStatType 1385
----@field ["SmartGunNPCProjectileVelocity"] gamedataStatType 1386
----@field ["SmartGunNPCShootProjectilesOnlyStraight"] gamedataStatType 1387
----@field ["SmartGunNPCSpreadMultiplier"] gamedataStatType 1388
----@field ["SmartGunNPCTrajectoryCurvatureMultiplier"] gamedataStatType 1389
----@field ["SmartGunPlayerProjectileVelocity"] gamedataStatType 1390
----@field ["SmartGunProjectileVelocityVariance"] gamedataStatType 1391
----@field ["SmartGunSpiralCycleTimeMax"] gamedataStatType 1392
----@field ["SmartGunSpiralCycleTimeMin"] gamedataStatType 1393
----@field ["SmartGunSpiralRadius"] gamedataStatType 1394
----@field ["SmartGunSpiralRampDistanceEnd"] gamedataStatType 1395
----@field ["SmartGunSpiralRampDistanceStart"] gamedataStatType 1396
----@field ["SmartGunSpiralRandomizeDirection"] gamedataStatType 1397
----@field ["SmartGunSpreadMultiplier"] gamedataStatType 1398
----@field ["SmartGunStartingAccuracy"] gamedataStatType 1399
----@field ["SmartGunTargetAcquisitionRange"] gamedataStatType 1400
----@field ["SmartGunTargetingRectangleSizeIncrease"] gamedataStatType 1401
----@field ["SmartGunTimeToLockBreachComponentMultiplier"] gamedataStatType 1402
----@field ["SmartGunTimeToLockChestComponentMultiplier"] gamedataStatType 1403
----@field ["SmartGunTimeToLockHeadComponentMultiplier"] gamedataStatType 1404
----@field ["SmartGunTimeToLockLegComponentMultiplier"] gamedataStatType 1405
----@field ["SmartGunTimeToLockMechanicalComponentMultiplier"] gamedataStatType 1406
----@field ["SmartGunTimeToLockVehicleComponentMultiplier"] gamedataStatType 1407
----@field ["SmartGunTimeToLockWeakSpotComponentMultiplier"] gamedataStatType 1408
----@field ["SmartGunTimeToMaxAccuracy"] gamedataStatType 1409
----@field ["SmartGunTimeToRemoveOccludedTarget"] gamedataStatType 1410
----@field ["SmartGunTrackBreachComponents"] gamedataStatType 1411
----@field ["SmartGunTrackChestComponents"] gamedataStatType 1412
----@field ["SmartGunTrackHeadComponents"] gamedataStatType 1413
----@field ["SmartGunTrackLegComponents"] gamedataStatType 1414
----@field ["SmartGunTrackMechanicalComponents"] gamedataStatType 1415
----@field ["SmartGunTrackMultipleEntitiesInADS"] gamedataStatType 1416
----@field ["SmartGunTrackVehicleComponents"] gamedataStatType 1417
----@field ["SmartGunTrackWeakSpotComponents"] gamedataStatType 1418
----@field ["SmartGunUseEvenDistributionTargeting"] gamedataStatType 1419
----@field ["SmartGunUseTagLockTargeting"] gamedataStatType 1420
----@field ["SmartGunUseTimeBasedAccuracy"] gamedataStatType 1421
----@field ["SmartMod2_Velocity"] gamedataStatType 1422
----@field ["SmartMod3_Zone"] gamedataStatType 1423
----@field ["SmartTargetingDisruptionProbability"] gamedataStatType 1424
----@field ["SmartTargetingShouldNotDisableCollision"] gamedataStatType 1425
----@field ["SmartWeaponDamagePercentBonus"] gamedataStatType 1426
----@field ["SmasherBossHackUploadProgressBumpMultiplier"] gamedataStatType 1427
----@field ["SniperStaminaCostReduction"] gamedataStatType 1428
----@field ["SpecialDamage"] gamedataStatType 1429
----@field ["SpeedBoost"] gamedataStatType 1430
----@field ["SpeedBoostMaxSpeed"] gamedataStatType 1431
----@field ["Spread"] gamedataStatType 1432
----@field ["SpreadAdsChangePerShot"] gamedataStatType 1433
----@field ["SpreadAdsChargeMult"] gamedataStatType 1434
----@field ["SpreadAdsDefaultX"] gamedataStatType 1435
----@field ["SpreadAdsDefaultY"] gamedataStatType 1436
----@field ["SpreadAdsFastSpeedMax"] gamedataStatType 1437
----@field ["SpreadAdsFastSpeedMaxAdd"] gamedataStatType 1438
----@field ["SpreadAdsFastSpeedMin"] gamedataStatType 1439
----@field ["SpreadAdsFastSpeedMinAdd"] gamedataStatType 1440
----@field ["SpreadAdsFullChargeMult"] gamedataStatType 1441
----@field ["SpreadAdsMaxX"] gamedataStatType 1442
----@field ["SpreadAdsMaxY"] gamedataStatType 1443
----@field ["SpreadAdsMinX"] gamedataStatType 1444
----@field ["SpreadAdsMinY"] gamedataStatType 1445
----@field ["SpreadAnimation"] gamedataStatType 1446
----@field ["SpreadChangePerShot"] gamedataStatType 1447
----@field ["SpreadChargeMult"] gamedataStatType 1448
----@field ["SpreadCrouchDefaultMult"] gamedataStatType 1449
----@field ["SpreadCrouchMaxMult"] gamedataStatType 1450
----@field ["SpreadDefaultX"] gamedataStatType 1451
----@field ["SpreadDefaultY"] gamedataStatType 1452
----@field ["SpreadEvenDistributionJitterSize"] gamedataStatType 1453
----@field ["SpreadEvenDistributionRowCount"] gamedataStatType 1454
----@field ["SpreadFastSpeedMax"] gamedataStatType 1455
----@field ["SpreadFastSpeedMaxAdd"] gamedataStatType 1456
----@field ["SpreadFastSpeedMin"] gamedataStatType 1457
----@field ["SpreadFastSpeedMinAdd"] gamedataStatType 1458
----@field ["SpreadFullChargeMult"] gamedataStatType 1459
----@field ["SpreadMaxAI"] gamedataStatType 1460
----@field ["SpreadMaxX"] gamedataStatType 1461
----@field ["SpreadMaxY"] gamedataStatType 1462
----@field ["SpreadMinX"] gamedataStatType 1463
----@field ["SpreadMinY"] gamedataStatType 1464
----@field ["SpreadPenalty"] gamedataStatType 1465
----@field ["SpreadQuickhacksOnStart"] gamedataStatType 1466
----@field ["SpreadRandomizeOriginPoint"] gamedataStatType 1467
----@field ["SpreadResetSpeed"] gamedataStatType 1468
----@field ["SpreadResetTimeThreshold"] gamedataStatType 1469
----@field ["SpreadToken"] gamedataStatType 1470
----@field ["SpreadUseCircularSpread"] gamedataStatType 1471
----@field ["SpreadUseEvenDistribution"] gamedataStatType 1472
----@field ["SpreadUseInAds"] gamedataStatType 1473
----@field ["SpreadZeroOnFirstShot"] gamedataStatType 1474
----@field ["SpreadingAttackConeAngle"] gamedataStatType 1475
----@field ["SpreadingAttackDamageMultiplier"] gamedataStatType 1476
----@field ["SpreadingAttackMaxJumps"] gamedataStatType 1477
----@field ["SpreadingAttackMaxTargets"] gamedataStatType 1478
----@field ["SpreadingAttackRange"] gamedataStatType 1479
----@field ["StaggerDamageThreshold"] gamedataStatType 1480
----@field ["StaggerDamageThresholdImpulse"] gamedataStatType 1481
----@field ["StaggerDamageThresholdInCover"] gamedataStatType 1482
----@field ["Stamina"] gamedataStatType 1483
----@field ["StaminaAimingCost"] gamedataStatType 1484
----@field ["StaminaCostReduction"] gamedataStatType 1485
----@field ["StaminaCostToBlock"] gamedataStatType 1486
----@field ["StaminaDamage"] gamedataStatType 1487
----@field ["StaminaDecayDelayOnChange"] gamedataStatType 1488
----@field ["StaminaDecayEnabled"] gamedataStatType 1489
----@field ["StaminaDecayEndThrehold"] gamedataStatType 1490
----@field ["StaminaDecayRate"] gamedataStatType 1491
----@field ["StaminaDecayStartDelay"] gamedataStatType 1492
----@field ["StaminaDecayStartThreshold"] gamedataStatType 1493
----@field ["StaminaRatio"] gamedataStatType 1494
----@field ["StaminaRegenBonusBlackmarket"] gamedataStatType 1495
----@field ["StaminaRegenDelayOnChange"] gamedataStatType 1496
----@field ["StaminaRegenEnabled"] gamedataStatType 1497
----@field ["StaminaRegenEndThrehold"] gamedataStatType 1498
----@field ["StaminaRegenRate"] gamedataStatType 1499
----@field ["StaminaRegenRateAdd"] gamedataStatType 1500
----@field ["StaminaRegenRateBase"] gamedataStatType 1501
----@field ["StaminaRegenRateMult"] gamedataStatType 1502
----@field ["StaminaRegenStartDelay"] gamedataStatType 1503
----@field ["StaminaRegenStartThreshold"] gamedataStatType 1504
----@field ["StaminaSprintDecayRate"] gamedataStatType 1505
----@field ["StatModifierGroupLimit"] gamedataStatType 1506
----@field ["StaticModifierMultiplier"] gamedataStatType 1507
----@field ["Stealth"] gamedataStatType 1508
----@field ["StealthHacksCostReduction"] gamedataStatType 1509
----@field ["StealthHitDamageBonus"] gamedataStatType 1510
----@field ["StealthHitDamageBonusModifierHelper"] gamedataStatType 1511
----@field ["StealthHitDamageMultiplier"] gamedataStatType 1512
----@field ["StealthMastery"] gamedataStatType 1513
----@field ["StealthTrait01Stat"] gamedataStatType 1514
----@field ["StealthWeakspotDamageMultiplier"] gamedataStatType 1515
----@field ["StreetCred"] gamedataStatType 1516
----@field ["StreetCredXPBonusMultiplier"] gamedataStatType 1517
----@field ["Strength"] gamedataStatType 1518
----@field ["StrengthAllocated"] gamedataStatType 1519
----@field ["StrengthAvailable"] gamedataStatType 1520
----@field ["StrengthSkill"] gamedataStatType 1521
----@field ["StrengthSkillcheckBonus"] gamedataStatType 1522
----@field ["StrongArmsStaminaCostReduction"] gamedataStatType 1523
----@field ["StunApplicationRate"] gamedataStatType 1524
----@field ["StunImmunity"] gamedataStatType 1525
----@field ["StyleOverSubstanceCount"] gamedataStatType 1526
----@field ["SubMachinegunStaminaCostReduction"] gamedataStatType 1527
----@field ["SuicideHackMemoryCostReduction"] gamedataStatType 1528
----@field ["Sway"] gamedataStatType 1529
----@field ["SwayCenterMaximumAngleOffset"] gamedataStatType 1530
----@field ["SwayCurvatureMaximumFactor"] gamedataStatType 1531
----@field ["SwayCurvatureMinimumFactor"] gamedataStatType 1532
----@field ["SwayInitialOffsetRandomFactor"] gamedataStatType 1533
----@field ["SwayResetOnAimStart"] gamedataStatType 1534
----@field ["SwaySideBottomAngleLimit"] gamedataStatType 1535
----@field ["SwaySideMaximumAngleDistance"] gamedataStatType 1536
----@field ["SwaySideMinimumAngleDistance"] gamedataStatType 1537
----@field ["SwaySideStepChangeMaximumFactor"] gamedataStatType 1538
----@field ["SwaySideStepChangeMinimumFactor"] gamedataStatType 1539
----@field ["SwaySideTopAngleLimit"] gamedataStatType 1540
----@field ["SwayStartBlendTime"] gamedataStatType 1541
----@field ["SwayStartDelay"] gamedataStatType 1542
----@field ["SwayTraversalTime"] gamedataStatType 1543
----@field ["SystemCollapseImmunity"] gamedataStatType 1544
----@field ["SystemCollapseMemoryCostReduction"] gamedataStatType 1545
----@field ["TBHsBaseCoefficient"] gamedataStatType 1546
----@field ["TBHsBaseSourceMultiplierCoefficient"] gamedataStatType 1547
----@field ["TBHsCoverTraceLoSIncreaseSpeed"] gamedataStatType 1548
----@field ["TBHsMinimumLineOfSightTime"] gamedataStatType 1549
----@field ["TBHsReactionCooldownReduction"] gamedataStatType 1550
----@field ["TBHsSensesTraceLoSIncreaseSpeed"] gamedataStatType 1551
----@field ["TBHsVisibilityCooldown"] gamedataStatType 1552
----@field ["TechBaseChargeThreshold"] gamedataStatType 1553
----@field ["TechMaxChargeThreshold"] gamedataStatType 1554
----@field ["TechMod1_EMPChance"] gamedataStatType 1555
----@field ["TechMod3_ChargeTime"] gamedataStatType 1556
----@field ["TechOverChargeThreshold"] gamedataStatType 1557
----@field ["TechPierceChargeLevel"] gamedataStatType 1558
----@field ["TechPierceDamageFactor"] gamedataStatType 1559
----@field ["TechPierceEnabled"] gamedataStatType 1560
----@field ["TechPierceHighlightsEnabled"] gamedataStatType 1561
----@field ["TechPierceScanAngle"] gamedataStatType 1562
----@field ["TechWeaponDamagePercentBonus"] gamedataStatType 1563
----@field ["Tech_Central_Milestone_2_Discount"] gamedataStatType 1564
----@field ["Tech_Central_Perk_2_2_Humanity"] gamedataStatType 1565
----@field ["Tech_Master_Perk_3_Humanity"] gamedataStatType 1566
----@field ["TechnicalAbility"] gamedataStatType 1567
----@field ["TechnicalAbilityAllocated"] gamedataStatType 1568
----@field ["TechnicalAbilityAvailable"] gamedataStatType 1569
----@field ["TechnicalAbilitySkill"] gamedataStatType 1570
----@field ["TechnicalAbilitySkillcheckBonus"] gamedataStatType 1571
----@field ["ThermalDamage"] gamedataStatType 1572
----@field ["ThermalDamageAdditiveMultiplier"] gamedataStatType 1573
----@field ["ThermalDamageMax"] gamedataStatType 1574
----@field ["ThermalDamageMin"] gamedataStatType 1575
----@field ["ThermalDamageModifierHelper"] gamedataStatType 1576
----@field ["ThermalDamagePercent"] gamedataStatType 1577
----@field ["ThermalDamagePercentBonus"] gamedataStatType 1578
----@field ["ThermalDamagePercentBonusModifierHelper"] gamedataStatType 1579
----@field ["ThermalResistance"] gamedataStatType 1580
----@field ["ThermalResistanceModifierHelper"] gamedataStatType 1581
----@field ["ThreeOrMoreProgramsCooldownRedPerk"] gamedataStatType 1582
----@field ["ThreeOrMoreProgramsMemoryRegPerk"] gamedataStatType 1583
----@field ["ThrowMod1_CanReturn"] gamedataStatType 1584
----@field ["ThrowMod1_ReturnChance"] gamedataStatType 1585
----@field ["ThrowMod3_Armor_Pene"] gamedataStatType 1586
----@field ["ThrowRecovery"] gamedataStatType 1587
----@field ["TimeBankCharges"] gamedataStatType 1588
----@field ["TimeBankRegenDelayOnChange"] gamedataStatType 1589
----@field ["TimeBankRegenEnabled"] gamedataStatType 1590
----@field ["TimeBankRegenEndThrehold"] gamedataStatType 1591
----@field ["TimeBankRegenRate"] gamedataStatType 1592
----@field ["TimeBankRegenStartDelay"] gamedataStatType 1593
----@field ["TimeBankRegenStartThreshold"] gamedataStatType 1594
----@field ["TimeDilationGenericDuration"] gamedataStatType 1595
----@field ["TimeDilationGenericTimeScale"] gamedataStatType 1596
----@field ["TimeDilationKerenzikovDuration"] gamedataStatType 1597
----@field ["TimeDilationKerenzikovPlayerTimeScale"] gamedataStatType 1598
----@field ["TimeDilationKerenzikovTimeScale"] gamedataStatType 1599
----@field ["TimeDilationOnDodgesCooldownDuration"] gamedataStatType 1600
----@field ["TimeDilationOnDodgesDuration"] gamedataStatType 1601
----@field ["TimeDilationOnDodgesTimeScale"] gamedataStatType 1602
----@field ["TimeDilationOnHealthDropCooldownDuration"] gamedataStatType 1603
----@field ["TimeDilationOnHealthDropDuration"] gamedataStatType 1604
----@field ["TimeDilationOnHealthDropTimeScale"] gamedataStatType 1605
----@field ["TimeDilationSandevistanCooldownBase"] gamedataStatType 1606
----@field ["TimeDilationSandevistanCooldownReduction"] gamedataStatType 1607
----@field ["TimeDilationSandevistanDuration"] gamedataStatType 1608
----@field ["TimeDilationSandevistanEnterCost"] gamedataStatType 1609
----@field ["TimeDilationSandevistanRechargeDuration"] gamedataStatType 1610
----@field ["TimeDilationSandevistanTimeScale"] gamedataStatType 1611
----@field ["TimeDilationWhenEnteringCombatCooldownDuration"] gamedataStatType 1612
----@field ["TimeDilationWhenEnteringCombatDuration"] gamedataStatType 1613
----@field ["TimeDilationWhenEnteringCombatTimeScale"] gamedataStatType 1614
----@field ["TranquilizerImmunity"] gamedataStatType 1615
----@field ["TriggerDismembermentChance"] gamedataStatType 1616
----@field ["TriggerWoundedChance"] gamedataStatType 1617
----@field ["TurretFriendlyExtension"] gamedataStatType 1618
----@field ["TurretShutdownExtension"] gamedataStatType 1619
----@field ["TwoHandBluntStaminaCostReduction"] gamedataStatType 1620
----@field ["TwoHandHammerStaminaCostReduction"] gamedataStatType 1621
----@field ["UltimateHackSpread"] gamedataStatType 1622
----@field ["UltimateHacksCostReduction"] gamedataStatType 1623
----@field ["UltimateMemoryCostReduction"] gamedataStatType 1624
----@field ["UnconsciousImmunity"] gamedataStatType 1625
----@field ["UnequipAnimationDuration_Corpo"] gamedataStatType 1626
----@field ["UnequipAnimationDuration_Gang"] gamedataStatType 1627
----@field ["UnequipDuration"] gamedataStatType 1628
----@field ["UnequipDuration_Corpo"] gamedataStatType 1629
----@field ["UnequipDuration_Gang"] gamedataStatType 1630
----@field ["UnequipItemTime_Corpo"] gamedataStatType 1631
----@field ["UnequipItemTime_Gang"] gamedataStatType 1632
----@field ["UnlockProgress"] gamedataStatType 1633
----@field ["UpgradeCompensate"] gamedataStatType 1634
----@field ["UpgradeCount"] gamedataStatType 1635
----@field ["UpgradingCostReduction"] gamedataStatType 1636
----@field ["UpgradingMaterialDropChance"] gamedataStatType 1637
----@field ["UpgradingMaterialRandomGrantChance"] gamedataStatType 1638
----@field ["UpgradingMaterialRetrieveChance"] gamedataStatType 1639
----@field ["UploadQuickHackMod"] gamedataStatType 1640
----@field ["VehicleDamagePercentBonus"] gamedataStatType 1641
----@field ["VehicleDamageQualityDivisor"] gamedataStatType 1642
----@field ["VehicleMinHealthPercentWhenDamaged"] gamedataStatType 1643
----@field ["VehicleMissileLauncherBaseCharges"] gamedataStatType 1644
----@field ["VehicleMissileLauncherCharges"] gamedataStatType 1645
----@field ["VehicleMissileLauncherChargesRegenBegins"] gamedataStatType 1646
----@field ["VehicleMissileLauncherChargesRegenDelayOnChange"] gamedataStatType 1647
----@field ["VehicleMissileLauncherChargesRegenEnds"] gamedataStatType 1648
----@field ["VehicleMissileLauncherChargesRegenRate"] gamedataStatType 1649
----@field ["VehicleMissileLauncherChargesRegenStartDelay"] gamedataStatType 1650
----@field ["VehicleMissileLauncherLockOnTime"] gamedataStatType 1651
----@field ["VehicleMissileLauncherMaxCharges"] gamedataStatType 1652
----@field ["VehicleMissileLauncherProjectilesPerCharge"] gamedataStatType 1653
----@field ["VehicleMissileLauncherRechargeDuration"] gamedataStatType 1654
----@field ["VehicleMissileLauncherRegenEnabled"] gamedataStatType 1655
----@field ["VehicleMissileLauncherSalvoCharges"] gamedataStatType 1656
----@field ["VendorBuyPriceDiscount"] gamedataStatType 1657
----@field ["VendorSellPriceDiscount"] gamedataStatType 1658
----@field ["Visibility"] gamedataStatType 1659
----@field ["VisibilityReduction"] gamedataStatType 1660
----@field ["VisibilityReductionModifierHelper"] gamedataStatType 1661
----@field ["VisualStimRangeMultiplier"] gamedataStatType 1662
----@field ["VulnerabilityExtension"] gamedataStatType 1663
----@field ["VulnerableImmunity"] gamedataStatType 1664
----@field ["WallRunHorSpeedToEnterMin"] gamedataStatType 1665
----@field ["WallRunStrafeAngleMax"] gamedataStatType 1666
----@field ["WallRunTimeMax"] gamedataStatType 1667
----@field ["WallRunVertSpeedToEnterMax"] gamedataStatType 1668
----@field ["WasItemUpgraded"] gamedataStatType 1669
----@field ["WasQuickHacked"] gamedataStatType 1670
----@field ["WeakspotDamageMultiplier"] gamedataStatType 1671
----@field ["WeaponEvolutionToStaminaCost"] gamedataStatType 1672
----@field ["WeaponHasAutoloader"] gamedataStatType 1673
----@field ["WeaponNoise"] gamedataStatType 1674
----@field ["WeaponPosAdsX"] gamedataStatType 1675
----@field ["WeaponPosAdsY"] gamedataStatType 1676
----@field ["WeaponPosAdsZ"] gamedataStatType 1677
----@field ["WeaponPosX"] gamedataStatType 1678
----@field ["WeaponPosY"] gamedataStatType 1679
----@field ["WeaponPosZ"] gamedataStatType 1680
----@field ["WeaponRotAdsX"] gamedataStatType 1681
----@field ["WeaponRotAdsY"] gamedataStatType 1682
----@field ["WeaponRotAdsZ"] gamedataStatType 1683
----@field ["WeaponRotX"] gamedataStatType 1684
----@field ["WeaponRotY"] gamedataStatType 1685
----@field ["WeaponRotZ"] gamedataStatType 1686
----@field ["WeaponSwapDuration"] gamedataStatType 1687
----@field ["WeaponTypeToStaminaCost"] gamedataStatType 1688
----@field ["WeaponVFX_BulletFxScaleFullAutoRandRange"] gamedataStatType 1689
----@field ["WeaponVFX_BulletFxScaleFullAutoRandStart"] gamedataStatType 1690
----@field ["WeaponVFX_BulletFxScaleFullAutoRandomization"] gamedataStatType 1691
----@field ["WeaponVFX_DecalFxScale"] gamedataStatType 1692
----@field ["WeaponVFX_MuzzleFxScale"] gamedataStatType 1693
----@field ["WeaponVFX_ProjectileFxScale"] gamedataStatType 1694
----@field ["WeaponVFX_ShellsFxScale"] gamedataStatType 1695
----@field ["WeaponVFX_TracerFxScale"] gamedataStatType 1696
----@field ["WeaponVehicleDamagePercentBonus"] gamedataStatType 1697
----@field ["Weight"] gamedataStatType 1698
----@field ["WoundHeadDamageThreshold"] gamedataStatType 1699
----@field ["WoundLArmDamageThreshold"] gamedataStatType 1700
----@field ["WoundLLegDamageThreshold"] gamedataStatType 1701
----@field ["WoundRArmDamageThreshold"] gamedataStatType 1702
----@field ["WoundRLegDamageThreshold"] gamedataStatType 1703
----@field ["WoundedImmunity"] gamedataStatType 1704
----@field ["XPbonusMultiplier"] gamedataStatType 1705
----@field ["ZoomLevel"] gamedataStatType 1706
----@field ["CPO_Armor"] gamedataStatType 1707
----@field ["CPO_NPC_Importance"] gamedataStatType 1708
----@field ["Count"] gamedataStatType 1709
----@field ["Invalid"] gamedataStatType 1710
+---@field ADSSpeedPercentBonus 0
+---@field ADSSpeedPercentBonusModifierHelper 1
+---@field ADSStaminaRegenMultiplier 2
+---@field ARSMGLMGMod2_HorRecoil 3
+---@field ARSMGLMGMod2_RecoilKick 4
+---@field ARSMGLMGMod2_RecoilKickCover 5
+---@field ARSMGLMGMod3_SpreadPerShot 6
+---@field Acceleration 7
+---@field AccumulatedDoT 8
+---@field AccumulatedDoTDecayDelayOnChange 9
+---@field AccumulatedDoTDecayEnabled 10
+---@field AccumulatedDoTDecayEndThrehold 11
+---@field AccumulatedDoTDecayRate 12
+---@field AccumulatedDoTDecayStartDelay 13
+---@field AccumulatedDoTDecayStartThreshold 14
+---@field Accuracy 15
+---@field AddExtraHitImpactVfx 16
+---@field AdditionalStealthDamage 17
+---@field Adrenaline 18
+---@field AimFOV 19
+---@field AimInTime 20
+---@field AimOffset 21
+---@field AimOutTime 22
+---@field AimTime 23
+---@field AimingCost 24
+---@field AirDrop_BurningApplicationRate 25
+---@field Airdropped 26
+---@field AllDamageDonePercentBonus 27
+---@field AllowMovementInput 28
+---@field AllowRotation 29
+---@field AmmoPerQuickMelee 30
+---@field AntiVirusCooldownReduction 31
+---@field ApplicationChance 32
+---@field Armor 33
+---@field ArmorEffectivenessMultiplier 34
+---@field ArmorMultBonus 35
+---@field ArmorPenetrationBonus 36
+---@field Assault 37
+---@field AssaultMastery 38
+---@field AssaultRifleStaminaCostReduction 39
+---@field AssaultTrait01Stat 40
+---@field Athletics 41
+---@field AthleticsMastery 42
+---@field AthleticsTrait01Stat 43
+---@field AttackPenetration 44
+---@field AttackSpeed 45
+---@field AttackSpeedPercent 46
+---@field AttacksNumber 47
+---@field AttacksPerSecond 48
+---@field AttacksPerSecondBase 49
+---@field AttunementHelper 50
+---@field AttunementHelper2 51
+---@field AttunementHelper3 52
+---@field AttunementHelper4 53
+---@field AttunementHelper5 54
+---@field AudioLocomotionStimRangeMultiplier 55
+---@field AudioStimRangeMultiplier 56
+---@field AutoReveal 57
+---@field AutocraftDuration 58
+---@field AutomaticReplenishment 59
+---@field AutomaticUploadPerk 60
+---@field AxeStaminaCostReduction 61
+---@field BaseChargeTime 62
+---@field BaseDamage 63
+---@field BaseDamageMax 64
+---@field BaseDamageMin 65
+---@field BaseKnockdownImpulse 66
+---@field BaseMaxChargeThreshold 67
+---@field BaseMeleeAttackStaminaCost 68
+---@field BaseRicochetDamageModifier 69
+---@field BatonStaminaCostReduction 70
+---@field BerserkArmorBonus 71
+---@field BerserkChargesDecayBegins 72
+---@field BerserkChargesDecayEnabled 73
+---@field BerserkChargesDecayEnds 74
+---@field BerserkChargesDecayRate 75
+---@field BerserkChargesDecayRateMult 76
+---@field BerserkChargesDecayStartDelay 77
+---@field BerserkChargesDelayOnChange 78
+---@field BerserkChargesRegenBegins 79
+---@field BerserkChargesRegenEnabled 80
+---@field BerserkChargesRegenEnds 81
+---@field BerserkChargesRegenRate 82
+---@field BerserkCooldownBase 83
+---@field BerserkCooldownReduction 84
+---@field BerserkDurationBase 85
+---@field BerserkDynamicHealthBonusOnActivation 86
+---@field BerserkHealthBonusPerKillCount 87
+---@field BerserkHealthRegenBonus 88
+---@field BerserkKillCount 89
+---@field BerserkMeleeDamageBonus 90
+---@field BerserkRechargeDuration 91
+---@field BerserkRecoilReduction 92
+---@field BerserkResistancesBonus 93
+---@field BerserkShockwaveDamage 94
+---@field BerserkShockwaveRangeBonus 95
+---@field BerserkStaticHealthBonusOnActivation 96
+---@field BerserkSwayReduction 97
+---@field BlackWallStack 98
+---@field BladeMod1_CritChance 99
+---@field BleedingApplicationRate 100
+---@field BleedingApplicationRateModifierHelper 101
+---@field BleedingImmunity 102
+---@field BlindImmunity 103
+---@field BlindResistance 104
+---@field BlockCyberwareBreaches 105
+---@field BlockFactor 106
+---@field BlockLocomotionWhenLeaningOutOfCover 107
+---@field BlockOpticalCamoRelicPerk 108
+---@field BlockQuickhackMenu 109
+---@field BlockReduction 110
+---@field BloodPumpMaxCharges 111
+---@field BloodQueueHealing 112
+---@field BluntFinisherHealthThresholdIncrease 113
+---@field BluntMod1_KnockbackChance 114
+---@field BluntMod2_BleedChance 115
+---@field BluntMod2_BleedConverter 116
+---@field BluntMod3_ModPower 117
+---@field BonusCarryCapacity 118
+---@field BonusChargeDamage 119
+---@field BonusCritChanceVsElectrocutedEnemies 120
+---@field BonusCritChanceVsElectrocutedEnemiesModifierHelper 121
+---@field BonusDPS 122
+---@field BonusDamageAgainstBosses 123
+---@field BonusDamageAgainstBossesModifierHelper 124
+---@field BonusDamageAgainstElites 125
+---@field BonusDamageAgainstMechanicals 126
+---@field BonusDamageAgainstRares 127
+---@field BonusDamagePerHit 128
+---@field BonusDmgVsRaresAndElites 129
+---@field BonusHealth 130
+---@field BonusMemory 131
+---@field BonusPercentDamageToEnemiesAtFullHealth 132
+---@field BonusPercentDamageToEnemiesAtFullHealthModifierHelper 133
+---@field BonusPercentDamageToEnemiesBelowHalfHealth 134
+---@field BonusPercentDamageToEnemiesBelowHalfHealthModifierHelper 135
+---@field BonusPercentDamageVsBurningEnemies 136
+---@field BonusPercentDamageVsBurningEnemiesModifierHelper 137
+---@field BonusQuickHackDamage 138
+---@field BonusQuickHackDamageModifierHelper 139
+---@field BonusRecoilKick 140
+---@field BonusRicochetAngle 141
+---@field BonusRicochetCritChance 142
+---@field BonusRicochetDamage 143
+---@field BonusRicochetDamageModifierHelper 144
+---@field BonusSmartGunTimeToLock 145
+---@field BonusSpreadChange 146
+---@field BonusStamina 147
+---@field BossResistance 148
+---@field BossResistanceModifierHelper 149
+---@field Brake 150
+---@field BrakeDot 151
+---@field Brawling 152
+---@field BrawlingMastery 153
+---@field BrawlingTrait01Stat 154
+---@field BreachStreakBuffBonus 155
+---@field BufferSize 156
+---@field BulletDeadReckoningEnabled 157
+---@field BulletDeadReckoningMaxAngleCorrection 158
+---@field BulletDeadReckoningMaxRange 159
+---@field BulletDeadReckoningMinimumSpeed 160
+---@field BulletMagnetismDefaultAngle 161
+---@field BulletMagnetismHighVelocityAngle 162
+---@field BulletPseudoPierceHitVFxChance 163
+---@field BulletSurroundingHitVFxChance 164
+---@field BurningApplicationRate 165
+---@field BurningApplicationRateModifierHelper 166
+---@field BurningImmunity 167
+---@field BurningRegenStamina 168
+---@field CPUPower 169
+---@field CWMaskCharges 170
+---@field CWMaskChargesDecayStartDelay 171
+---@field CWMaskChargesDelayOnChange 172
+---@field CWMaskChargesRegenBegins 173
+---@field CWMaskChargesRegenEnabled 174
+---@field CWMaskChargesRegenEnds 175
+---@field CWMaskChargesRegenRate 176
+---@field CWMaskMaxCharges 177
+---@field CWMaskRechargeDuration 178
+---@field CallReinforcement 179
+---@field CameraDetectionSpeedReduction 180
+---@field CameraShutdownExtension 181
+---@field CanAerialTakedown 182
+---@field CanAimWhileDodging 183
+---@field CanAskToFollowOrder 184
+---@field CanAskToHolsterWeapon 185
+---@field CanAutomaticallyDisassembleJunk 186
+---@field CanAutomaticallyRestoreKnives 187
+---@field CanBleedingCriticallyHit 188
+---@field CanBleedingSlowTarget 189
+---@field CanBlindQuickHack 190
+---@field CanBlock 191
+---@field CanBreatheUnderwater 192
+---@field CanBuffCamoQuickHack 193
+---@field CanBuffMechanicalsOnTakeControl 194
+---@field CanBuffSturdinessQuickHack 195
+---@field CanBurningCriticallyHit 196
+---@field CanCallDrones 197
+---@field CanCallReinforcements 198
+---@field CanCatchUp 199
+---@field CanCatchUpDistance 200
+---@field CanCharge 201
+---@field CanChargedShoot 202
+---@field CanCloseCombat 203
+---@field CanCommsCallInQuickHack 204
+---@field CanCommsNoiseQuickHack 205
+---@field CanControlFullyChargedWeapon 206
+---@field CanCraftEpicItems 207
+---@field CanCraftFromInventory 208
+---@field CanCraftLegendaryItems 209
+---@field CanCraftRareItems 210
+---@field CanCraftTechAmmunition 211
+---@field CanCrouch 212
+---@field CanCyberwareMalfunctionQuickHack 213
+---@field CanDash 214
+---@field CanDataMineQuickHack 215
+---@field CanDealFullDamageToArmored 216
+---@field CanDeathQuickHack 217
+---@field CanDisassemble 218
+---@field CanDisassembleConsumables 219
+---@field CanDisassembleGadgets 220
+---@field CanDoGrandFinaleWithMantisBlades 221
+---@field CanDoRapidFireWithProjectileLauncher 222
+---@field CanDropWeapon 223
+---@field CanElectrocuteNullifyStats 224
+---@field CanElectrocuteRoot 225
+---@field CanExitWSOnSoundStimuli 226
+---@field CanExplodeQuickHack 227
+---@field CanFastTravelWhileEncumbered 228
+---@field CanFistsCauseBleeding 229
+---@field CanForceDismbember 230
+---@field CanFullyChargeWeapon 231
+---@field CanGrab 232
+---@field CanGrappleAndroids 233
+---@field CanGrappleSilently 234
+---@field CanGrenadeLaunch 235
+---@field CanGrenadeQuickHack 236
+---@field CanGrenadesCriticallyHit 237
+---@field CanGrenadesDealExternalDamage 238
+---@field CanGroundSlamInAir 239
+---@field CanGroundSlamOnGround 240
+---@field CanGuardBreak 241
+---@field CanHeartattackQuickHack 242
+---@field CanIgnoreArmorDamageReduction 243
+---@field CanIgnoreStamina 244
+---@field CanIgnoreWeaponStaminaPenaties 245
+---@field CanInstaKillNPCs 246
+---@field CanInstallTechMods 247
+---@field CanJamWeaponLvl2QuickHack 248
+---@field CanJamWeaponQuickHack 249
+---@field CanJump 250
+---@field CanLandSilently 251
+---@field CanLegendaryCraftedWeaponsBeBoosted 252
+---@field CanLegendaryCraftedWeaponsBeBoosted2 253
+---@field CanLocomotionMalfunctionQuickHack 254
+---@field CanMadnessQuickHack 255
+---@field CanMalfunctionQuickHack 256
+---@field CanMeleeBerserk 257
+---@field CanMeleeDash 258
+---@field CanMeleeInfinitelyCombo 259
+---@field CanMeleeLeap 260
+---@field CanMeleeLeapInAir 261
+---@field CanMeleeLeapTakedown 262
+---@field CanMemoryWipeQuickHack 263
+---@field CanOnePunchWithGorillaArms 264
+---@field CanOverchargeWeapon 265
+---@field CanOverheatQuickHack 266
+---@field CanOverloadQuickHack 267
+---@field CanOverrideAttitudeQuickHack 268
+---@field CanOverrideAuthorizationQuickHack 269
+---@field CanParry 270
+---@field CanPerformBluntFinisher 271
+---@field CanPerformCoolFinisher 272
+---@field CanPerformMonowireFinisher 273
+---@field CanPerformReflexFinisher 274
+---@field CanPickUpBodyAfterTakedown 275
+---@field CanPickUpWeapon 276
+---@field CanPingQuickHack 277
+---@field CanPlayerBoostConsumables 278
+---@field CanPlayerBoostGrenades 279
+---@field CanPlayerDodgeOnDetection 280
+---@field CanPlayerExitCombatWithOpticalCamo 281
+---@field CanPlayerGagOnDetection 282
+---@field CanPlayerPierceDriver 283
+---@field CanPlayerPiercePoisonImmunity 284
+---@field CanPoisonLowerArmor 285
+---@field CanPoisonSlow 286
+---@field CanPreciseShoot 287
+---@field CanPushBack 288
+---@field CanPushFromGrapple 289
+---@field CanQuickHackCriticallyHit 290
+---@field CanQuickMeleeStagger 291
+---@field CanQuickhack 292
+---@field CanQuickhackHealPuppet 293
+---@field CanQuickhackTransferBetweenEnemies 294
+---@field CanRegenInCombat 295
+---@field CanRemoveModsFromClothing 296
+---@field CanRemoveModsFromWeapons 297
+---@field CanResurrectAllies 298
+---@field CanRetreat 299
+---@field CanRetrieveModsFromDisassemble 300
+---@field CanRunSilently 301
+---@field CanSandevistanSprintHarass 302
+---@field CanScrapPartsFromMechanicals 303
+---@field CanSeeCyberwareBreaches 304
+---@field CanSeeGrenadeRadius 305
+---@field CanSeeRicochetVisuals 306
+---@field CanSeeThroughOpticalCamos 307
+---@field CanSeeThroughSmoke 308
+---@field CanSeeThroughWalls 309
+---@field CanShareThreatsWithPlayer 310
+---@field CanShootWhileCarryingBody 311
+---@field CanShootWhileDodging 312
+---@field CanShootWhileGrappling 313
+---@field CanShootWhileMoving 314
+---@field CanShootWhileVaulting 315
+---@field CanSilentKill 316
+---@field CanSmartShoot 317
+---@field CanSpreadMonoWireQuickhack 318
+---@field CanSprint 319
+---@field CanSprintHarass 320
+---@field CanSprintWhileCarryingBody 321
+---@field CanSuicideQuickHack 322
+---@field CanSwitchWeapon 323
+---@field CanTakeControlQuickHack 324
+---@field CanTakedownLethally 325
+---@field CanTakedownSilently 326
+---@field CanTaunt 327
+---@field CanThrowWeapon 328
+---@field CanUpgradeFromInventory 329
+---@field CanUpgradeToLegendaryQuality 330
+---@field CanUseAntiStun 331
+---@field CanUseBiohazardGrenades 332
+---@field CanUseCloseRing 333
+---@field CanUseCombatStims 334
+---@field CanUseConsumables 335
+---@field CanUseCoolingSystem 336
+---@field CanUseCovers 337
+---@field CanUseCuttingGrenades 338
+---@field CanUseEMPGrenades 339
+---@field CanUseExtremeRing 340
+---@field CanUseFarRing 341
+---@field CanUseFlashbangGrenades 342
+---@field CanUseFragGrenades 343
+---@field CanUseGrenades 344
+---@field CanUseHolographicCamo 345
+---@field CanUseIncendiaryGrenades 346
+---@field CanUseLeftHand 347
+---@field CanUseLegs 348
+---@field CanUseMantisBlades 349
+---@field CanUseMediumRing 350
+---@field CanUseMeleeRing 351
+---@field CanUseNewMeleewareAttackSpyTree 352
+---@field CanUseOpticalCamo 353
+---@field CanUseOverclock 354
+---@field CanUsePainInhibitors 355
+---@field CanUsePersonalSoundSilencer 356
+---@field CanUsePhoneUnderWater 357
+---@field CanUseProjectileLauncher 358
+---@field CanUseReconGrenades 359
+---@field CanUseRetractableShield 360
+---@field CanUseRightHand 361
+---@field CanUseShootingSpots 362
+---@field CanUseSmokeGrenades 363
+---@field CanUseStaticCamo 364
+---@field CanUseStrongArms 365
+---@field CanUseTakedowns 366
+---@field CanUseTerrainCamo 367
+---@field CanUseZoom 368
+---@field CanWalkSilently 369
+---@field CanWallStick 370
+---@field CanWeaponBlock 371
+---@field CanWeaponBlockAttack 372
+---@field CanWeaponComboAttack 373
+---@field CanWeaponCriticallyHit 374
+---@field CanWeaponCrouchAttack 375
+---@field CanWeaponDash 376
+---@field CanWeaponDeflect 377
+---@field CanWeaponIgnoreArmor 378
+---@field CanWeaponInfinitlyCombo 379
+---@field CanWeaponJumpAttack 380
+---@field CanWeaponLeap 381
+---@field CanWeaponMalfunctionQuickHack 382
+---@field CanWeaponReload 383
+---@field CanWeaponReloadWhileInactive 384
+---@field CanWeaponReloadWhileSliding 385
+---@field CanWeaponReloadWhileSprinting 386
+---@field CanWeaponReloadWhileVaulting 387
+---@field CanWeaponSafeAttack 388
+---@field CanWeaponShoot 389
+---@field CanWeaponShootWhileSliding 390
+---@field CanWeaponShootWhileSprinting 391
+---@field CanWeaponShootWhileVaulting 392
+---@field CanWeaponSprintAttack 393
+---@field CanWeaponStrongAttack 394
+---@field CanWeaponTriggerHeadshot 395
+---@field CannotBeDetectedWhileSubmerged 396
+---@field CannotBeHealed 397
+---@field CannotSprintHarass 398
+---@field CapacityBoosterHumanity 399
+---@field CarryCapacity 400
+---@field CarryCapacityModifierHelper 401
+---@field CausingPanicReducesUltimateHacksCost 402
+---@field ChainswordStaminaCostReduction 403
+---@field Charge 404
+---@field ChargeBonus 405
+---@field ChargeDischargeTime 406
+---@field ChargeFullMultiplier 407
+---@field ChargeMaxTimeInChargedState 408
+---@field ChargeMinValueBonus 409
+---@field ChargeMultiplier 410
+---@field ChargeReadyPercentage 411
+---@field ChargeShouldFireWhenReady 412
+---@field ChargeTime 413
+---@field ChemicalDamage 414
+---@field ChemicalDamageAdditiveMultiplier 415
+---@field ChemicalDamageMax 416
+---@field ChemicalDamageMin 417
+---@field ChemicalDamageModifierHelper 418
+---@field ChemicalDamagePercent 419
+---@field ChemicalDamagePercentBonus 420
+---@field ChemicalDamagePercentBonusModifierHelper 421
+---@field ChemicalResistance 422
+---@field ChemicalResistanceModifierHelper 423
+---@field ChimeraModInstalled 424
+---@field ChingadaMadreBonanza 425
+---@field ClimbSpeedModifier 426
+---@field ClipTimesCycle 427
+---@field ClipTimesCycleBase 428
+---@field ClipTimesCyclePlusReload 429
+---@field ClipTimesCyclePlusReloadBase 430
+---@field CloudComputingTraps 431
+---@field ColdBlood 432
+---@field ColdBloodBuffBonus 433
+---@field ColdBloodDurationReductor 434
+---@field ColdBloodMastery 435
+---@field ColdBloodMaxDuration 436
+---@field ColdBloodMaxStacks 437
+---@field ColdBloodTrait01 438
+---@field CombatHacking 439
+---@field CombatHackingMastery 440
+---@field CommonTierFailsafe 441
+---@field CommsCallDistance 442
+---@field CommsNoiseJamOnQuickhack 443
+---@field ControlledRandomPower 444
+---@field Cool 445
+---@field CoolAllocated 446
+---@field CoolAvailable 447
+---@field CoolOpticalDuration 448
+---@field CoolSkill 449
+---@field Cool_Inbetween_Right_3_Stacks 450
+---@field CounterattackGuardbreakImmunity 451
+---@field Crafting 452
+---@field CraftingBonusArmorValue 453
+---@field CraftingBonusArmorValue2 454
+---@field CraftingBonusGrenadeDamage 455
+---@field CraftingBonusWeaponDamage 456
+---@field CraftingBonusWeaponDamage2 457
+---@field CraftingCostReduction 458
+---@field CraftingItemLevelBoost 459
+---@field CraftingMastery 460
+---@field CraftingMaterialDropChance 461
+---@field CraftingMaterialRandomGrantChance 462
+---@field CraftingMaterialRetrieveChance 463
+---@field CraftingTrait01 464
+---@field CritChance 465
+---@field CritChanceBonus 466
+---@field CritChanceBonusModifierHelper 467
+---@field CritChanceModifierHelper 468
+---@field CritChanceTimeCritDamage 469
+---@field CritDPSBonus 470
+---@field CritDamage 471
+---@field CritDamageBonus 472
+---@field CritDamageBonusModifierHelper 473
+---@field CritDamageModifierHelper 474
+---@field CrouchSprintStaminaCostReduction 475
+---@field CyberWareMalfunctionBlocked 476
+---@field CyberWareMalfunctionBlockedMaxStacks 477
+---@field CyberWareMalfunctionDoT 478
+---@field CyberdeckOverclockCooldown 479
+---@field CyberdeckOverclockDecayRate 480
+---@field CyberdeckOverclockDecayStartDelay 481
+---@field CyberdeckOverclockDelayOnChange 482
+---@field CyberdeckOverclockDuration 483
+---@field CyberdeckOverclockEmptyStat 484
+---@field CyberdeckOverclockRegenBegins 485
+---@field CyberdeckOverclockRegenEnabled 486
+---@field CyberdeckOverclockRegenEnds 487
+---@field CyberdeckOverclockRegenRate 488
+---@field CyberdeckOverclockStatValue 489
+---@field CyberwareCooldownReduction 490
+---@field CyberwareDurationBuff 491
+---@field CyberwareMalfunctionCanExplode 492
+---@field CyberwareMalfunctionDamageMultiplier 493
+---@field CyberwareMalfunctionStacks 494
+---@field CyberwareRechargeSpeedBonus 495
+---@field CyberwareTinkererStat 496
+---@field CycleTime 497
+---@field CycleTimeAimBlockDuration 498
+---@field CycleTimeAimBlockStart 499
+---@field CycleTimeBase 500
+---@field CycleTimeBonus 501
+---@field CycleTimeDPSComponent 502
+---@field CycleTimeShootingMult 503
+---@field CycleTimeShootingMultPeriod 504
+---@field CycleTime_Burst 505
+---@field CycleTime_BurstMaxCharge 506
+---@field CycleTime_BurstSecondary 507
+---@field CycleTriggerModeTime 508
+---@field DPS 509
+---@field DamageFalloffDisabled 510
+---@field DamageHackSpread 511
+---@field DamageOverTimePercentBonus 512
+---@field DamageOverTimePercentBonusModifierHelper 513
+---@field DamageOverTimeResistance 514
+---@field DamageOverTimeResistanceModifierHelper 515
+---@field DamagePerHit 516
+---@field DamageQuickHackMemoryCostReduction 517
+---@field DamageReduction 518
+---@field DamageReductionBulletExplosion 519
+---@field DamageReductionDamageOverTime 520
+---@field DamageReductionExplosion 521
+---@field DamageReductionMelee 522
+---@field DamageReductionQuickhacks 523
+---@field DashAttackStaminaCostReduction 524
+---@field DataLeakTraps 525
+---@field DealsChemicalDamage 526
+---@field DealsElectricDamage 527
+---@field DealsPhysicalDamage 528
+---@field DealsThermalDamage 529
+---@field Deceleration 530
+---@field DefeatedHeadDamageThreshold 531
+---@field DefeatedLArmDamageThreshold 532
+---@field DefeatedLLegDamageThreshold 533
+---@field DefeatedRArmDamageThreshold 534
+---@field DefeatedRLegDamageThreshold 535
+---@field DefeatingEnemiesReduceHacksCost 536
+---@field Demolition 537
+---@field DemolitionMastery 538
+---@field DemolitionTrait01Stat 539
+---@field Detection 540
+---@field DetectionSpeedDecrease 541
+---@field DeviceMemoryCostReduction 542
+---@field DeviceMemoryCostReductionMult 543
+---@field DisableCyberwareOnBurning 544
+---@field DisassemblingIngredientsDoubleBonus 545
+---@field DisassemblingMaterialQualityObtainChance 546
+---@field DismHeadDamageThreshold 547
+---@field DismLArmDamageThreshold 548
+---@field DismLLegDamageThreshold 549
+---@field DismRArmDamageThreshold 550
+---@field DismRLegDamageThreshold 551
+---@field DoNotCheckFriendlyFireMadnessPassive 552
+---@field DodgeStaminaCostReduction 553
+---@field DodgeStaminaCostReductionModifierHelper 554
+---@field DriverUpdatePerkFlag 555
+---@field DualShotgunStaminaCostReduction 556
+---@field DummyModCritDamage 557
+---@field DummyResistanceStat 558
+---@field Durability 559
+---@field DurationBonusBleeding 560
+---@field DurationBonusBurning 561
+---@field DurationBonusControlQuickhack 562
+---@field DurationBonusCovertQuickhack 563
+---@field DurationBonusElectrified 564
+---@field DurationBonusOverclock 565
+---@field DurationBonusPoisoned 566
+---@field DurationBonusQuickhack 567
+---@field DurationBonusQuickhackModifierHelper 568
+---@field DurationBonusStun 569
+---@field DurationReductionDot 570
+---@field EMPImmunity 571
+---@field EdgerunnerHealthReduction 572
+---@field EffectiveChargeTime 573
+---@field EffectiveDPS 574
+---@field EffectiveDamagePerHit 575
+---@field EffectiveDamagePerHitMax 576
+---@field EffectiveDamagePerHitMin 577
+---@field EffectiveDamagePerHitTimesAttacksPerSecond 578
+---@field EffectiveQualityToMaxQualityRatio 579
+---@field EffectiveRange 580
+---@field EffectiveRangeBonus 581
+---@field EffectiveTier 582
+---@field EffectorChance 583
+---@field ElectricDamage 584
+---@field ElectricDamageAdditiveMultiplier 585
+---@field ElectricDamageMax 586
+---@field ElectricDamageMin 587
+---@field ElectricDamageModifierHelper 588
+---@field ElectricDamagePercent 589
+---@field ElectricDamagePercentBonus 590
+---@field ElectricDamagePercentBonusModifierHelper 591
+---@field ElectricResistance 592
+---@field ElectricResistanceModifierHelper 593
+---@field ElectrocuteImmunity 594
+---@field ElectrocutedApplicationRate 595
+---@field ElectrocutedApplicationRateModifierHelper 596
+---@field ElectroshockMechanismProcChance 597
+---@field ElementalDamagePerHit 598
+---@field ElementalResistanceMultiplier 599
+---@field EmptyReloadEndTime 600
+---@field EmptyReloadTime 601
+---@field EmptySlot_GenerationWeight_On_TierPlus 602
+---@field EmptyStat 603
+---@field EnemyChemicalResistanceReduction 604
+---@field EnemyHackUploadProgressBumpMultiplier 605
+---@field EnemyQuickHackUploadDurationBonus 606
+---@field Engineering 607
+---@field EngineeringMastery 608
+---@field EngineeringTrait01 609
+---@field EquipActionDuration_Corpo 610
+---@field EquipActionDuration_Gang 611
+---@field EquipAnimationDuration_Corpo 612
+---@field EquipAnimationDuration_Gang 613
+---@field EquipDuration 614
+---@field EquipDuration_First 615
+---@field EquipItemTime_Corpo 616
+---@field EquipItemTime_Gang 617
+---@field Espionage 618
+---@field EvadeImpulse 619
+---@field Evasion 620
+---@field ExecuteDismemberByHealthChance 621
+---@field ExecuteDismemberProximityChance 622
+---@field ExhaustionImmunity 623
+---@field ExplosionDamagePercentBonus 624
+---@field ExplosionDamagePercentBonusModifierHelper 625
+---@field ExplosionKillsRecudeUltimateHacksCost 626
+---@field ExplosionResistance 627
+---@field ExplosionResistanceModifierHelper 628
+---@field ExtendedStealthDuration 629
+---@field FFInputLock 630
+---@field FallDamageReduction 631
+---@field FearOnQuickHackKill 632
+---@field FinisherHealthThresholdIncrease 633
+---@field FinisherHealthThresholdIncreaseForQueue 634
+---@field FinisherIsAvailable 635
+---@field Finisher_TargetHealthMax_Clamp 636
+---@field FirePower 637
+---@field FirePowerBonus 638
+---@field FirstHackInQueueUploadTimeDecrease 639
+---@field FirstHackOfTypeInQueueRAMDecrease 640
+---@field FistsStaminaCostReduction 641
+---@field FocusedGrenadeShootingPerk 642
+---@field ForcePreventResurrect 643
+---@field ForceQualityHelper 644
+---@field FullAutoOnFullCharge 645
+---@field FullAutoStaminaCostPenalty 646
+---@field FullyChargedThreshold 647
+---@field GearheadDamageMultiplier 648
+---@field GenericMod1_Damage 649
+---@field GenericStatPrereqValue 650
+---@field GrenadeDamagePercentBonus 651
+---@field GrenadeDamagePercentBonusModifierHelper 652
+---@field GrenadeExplosionBonusDamage 653
+---@field GrenadeExplosionBonusRange 654
+---@field GrenadesCharges 655
+---@field GrenadesChargesDecayStartDelay 656
+---@field GrenadesChargesDelayOnChange 657
+---@field GrenadesChargesRegenBegins 658
+---@field GrenadesChargesRegenEnabled 659
+---@field GrenadesChargesRegenEnds 660
+---@field GrenadesChargesRegenMult 661
+---@field GrenadesChargesRegenMultModifierHelper 662
+---@field GrenadesChargesRegenRate 663
+---@field GrenadesMaxCharges 664
+---@field GrenadesRechargeDuration 665
+---@field GroundSlamCooldownModifier 666
+---@field Gunslinger 667
+---@field GunslingerMastery 668
+---@field GunslingerTrait01Stat 669
+---@field HGMod1_Accuracy 670
+---@field HGMod1_CommonStacks 671
+---@field HGMod1_EpicStacks 672
+---@field HGMod1_LegendaryStacks 673
+---@field HGMod1_ModCount 674
+---@field HGMod1_RareStacks 675
+---@field HGMod1_StackCount 676
+---@field HGMod1_UncommonStacks 677
+---@field HGMod2_CritChance 678
+---@field HGMod2_Spread 679
+---@field HGMod2_Swap 680
+---@field HGMod3_Sway 681
+---@field HackRevealPositionModifier 682
+---@field HackedEnemiesGetDamagedByFriendlyFire 683
+---@field HackedEnemyArmorReduction 684
+---@field Hacking 685
+---@field HackingMastery 686
+---@field HackingPenetration 687
+---@field HackingResistance 688
+---@field HackingResistanceUltimate 689
+---@field HandgunStaminaCostReduction 690
+---@field Handling 691
+---@field HasAdditionalSplinterSlot 692
+---@field HasAheadTargeting 693
+---@field HasAirHover 694
+---@field HasAirThrusters 695
+---@field HasAutoReloader 696
+---@field HasAutomaticReplenishment 697
+---@field HasAutomaticTagging 698
+---@field HasBerserk 699
+---@field HasBleedImmunity 700
+---@field HasBlindImmunity 701
+---@field HasBoostedCortex 702
+---@field HasBurningBuffs 703
+---@field HasCameraLinking 704
+---@field HasChargeJump 705
+---@field HasCritImmunity 706
+---@field HasCyberdeck 707
+---@field HasCybereye 708
+---@field HasDodge 709
+---@field HasDodgeAir 710
+---@field HasDoubleJump 711
+---@field HasElectricCoating 712
+---@field HasElectroPlating 713
+---@field HasExtendedHitReactionImmunity 714
+---@field HasFireproofSkin 715
+---@field HasGPS 716
+---@field HasGlowingTattoos 717
+---@field HasGraphiteTissue 718
+---@field HasGrenadeHack 719
+---@field HasHackingInteractions 720
+---@field HasHealingReapplication 721
+---@field HasHealthMonitorBomb 722
+---@field HasHostileHackImmunity 723
+---@field HasICELevelBooster 724
+---@field HasImmunityToNPCQuickhacks 725
+---@field HasInfravision 726
+---@field HasJuiceInjector 727
+---@field HasKerenzikov 728
+---@field HasKerenzikovOmen 729
+---@field HasKerenzikovSlide 730
+---@field HasKers 731
+---@field HasKiroshiOpticsFragment 732
+---@field HasKnifeSharpener 733
+---@field HasLinkToBountySystem 734
+---@field HasLoweringPerception 735
+---@field HasMadnessLvl4Passive 736
+---@field HasMajorQuickhackResistance 737
+---@field HasMechanicalControl 738
+---@field HasMeleeHitReactionAndTakedownResistance 739
+---@field HasMeleeTargeting 740
+---@field HasMetabolicEnhancer 741
+---@field HasMuzzleBrake 742
+---@field HasOpticalCamoEpic 743
+---@field HasOpticalCamoLegendary 744
+---@field HasOpticalCamoRare 745
+---@field HasPlatingGlitch 746
+---@field HasPoisonHeal 747
+---@field HasPoisonImmunity 748
+---@field HasPowerGrip 749
+---@field HasQuickhackResistance 750
+---@field HasRemoteBotAccessPointBreach 751
+---@field HasSandevistan 752
+---@field HasSandevistanTier1 753
+---@field HasSandevistanTier2 754
+---@field HasSandevistanTier3 755
+---@field HasSecondHeart 756
+---@field HasSelfHealingSkin 757
+---@field HasSmartLink 758
+---@field HasSpiderBotControl 759
+---@field HasStunImmunity 760
+---@field HasSubdermalArmor 761
+---@field HasSuperheroFall 762
+---@field HasSystemCollapse 763
+---@field HasThermovision 764
+---@field HasTimedImmunity 765
+---@field HasToxicCleanser 766
+---@field HasWallRunSkill 767
+---@field HeadshotCritChance 768
+---@field HeadshotDamageMultiplier 769
+---@field HeadshotDamageMultiplierModifierHelper 770
+---@field HeadshotImmunity 771
+---@field HealOnKillingBleedingTarget 772
+---@field HealOnKillingBleedingTargetModifierHelper 773
+---@field HealingItemMaxCharges 774
+---@field HealingItemsCharges 775
+---@field HealingItemsChargesDecayStartDelay 776
+---@field HealingItemsChargesDelayOnChange 777
+---@field HealingItemsChargesRegenBegins 778
+---@field HealingItemsChargesRegenEnabled 779
+---@field HealingItemsChargesRegenEnds 780
+---@field HealingItemsChargesRegenMult 781
+---@field HealingItemsChargesRegenMultModifierHelper 782
+---@field HealingItemsChargesRegenRate 783
+---@field HealingItemsEffectPercentBonus 784
+---@field HealingItemsEffectPercentBonusModifierHelper 785
+---@field HealingItemsRechargeDuration 786
+---@field Health 787
+---@field HealthBonusBlackmarket 788
+---@field HealthGeneralRegenRateAdd 789
+---@field HealthGeneralRegenRateAddModifierHelper 790
+---@field HealthGeneralRegenRateMult 791
+---@field HealthGeneralRegenRateMultModifierHelper 792
+---@field HealthInCombatRegenDelayOnChange 793
+---@field HealthInCombatRegenEnabled 794
+---@field HealthInCombatRegenEndThreshold 795
+---@field HealthInCombatRegenRate 796
+---@field HealthInCombatRegenRateAdd 797
+---@field HealthInCombatRegenRateBase 798
+---@field HealthInCombatRegenRateMult 799
+---@field HealthInCombatRegenStartThreshold 800
+---@field HealthInCombatStartDelay 801
+---@field HealthModifierHelper 802
+---@field HealthOutOfCombatRegenDelayOnChange 803
+---@field HealthOutOfCombatRegenEnabled 804
+---@field HealthOutOfCombatRegenEndThreshold 805
+---@field HealthOutOfCombatRegenRate 806
+---@field HealthOutOfCombatRegenRateAdd 807
+---@field HealthOutOfCombatRegenRateBase 808
+---@field HealthOutOfCombatRegenRateMult 809
+---@field HealthOutOfCombatRegenStartThreshold 810
+---@field HealthRegainOnKill 811
+---@field HealthRegainOnKillModifierHelper 812
+---@field Hearing 813
+---@field HeavyAttacksNumber 814
+---@field HiddenSlot_GenerationWeight_On_TierPlus 815
+---@field HighlightAccessPoint 816
+---@field HitDismembermentFactor 817
+---@field HitReactionDamageHealthFactor 818
+---@field HitReactionFactor 819
+---@field HitShapeArmor 820
+---@field HitTimerAfterDefeated 821
+---@field HitTimerAfterImpact 822
+---@field HitTimerAfterImpactMelee 823
+---@field HitTimerAfterKnockdown 824
+---@field HitTimerAfterPain 825
+---@field HitTimerAfterStagger 826
+---@field HitTimerAfterStaggerMelee 827
+---@field HitWoundsFactor 828
+---@field HoldDuration 829
+---@field HoldEnterDuration 830
+---@field HoldTimeoutDuration 831
+---@field HolographicSkinCooldownDuration 832
+---@field HolographicSkinDuration 833
+---@field HousingBuffsDurationBonus 834
+---@field Humanity 835
+---@field HumanityAllocated 836
+---@field HumanityAvailable 837
+---@field HumanityOverallocated 838
+---@field HumanityOverallocationPossible 839
+---@field HumanityTotalMaxValue 840
+---@field IconicCWFromTreasureChestLooted 841
+---@field IconicItemUpgraded 842
+---@field IconicJointLockCover 843
+---@field IgnoreAwarenessCostWhenOverclocked 844
+---@field ImpactDamageThreshold 845
+---@field ImpactDamageThresholdImpulse 846
+---@field ImpactDamageThresholdInCover 847
+---@field InVehicleDamageTakenPercent 848
+---@field InhalerBaseHealing 849
+---@field InjectorBaseHealing 850
+---@field InjectorBaseOverTheTimeHealing 851
+---@field InjectorHealingDecayStartDelay 852
+---@field InjectorHealingDelayOnChange 853
+---@field InjectorHealingRegenBegins 854
+---@field InjectorHealingRegenEnabled 855
+---@field InjectorHealingRegenEnds 856
+---@field Intelligence 857
+---@field IntelligenceAllocated 858
+---@field IntelligenceAvailable 859
+---@field IntelligenceSkill 860
+---@field IntelligenceSkillcheckBonus 861
+---@field IntrinsicQuickHackUploadBonus 862
+---@field IntrinsicReloadTimeBonus 863
+---@field IntrinsicZoomLevelBonus 864
+---@field IsAVMaxTac 865
+---@field IsAggressive 866
+---@field IsAimingWithWeapon 867
+---@field IsBalanced 868
+---@field IsBlocking 869
+---@field IsCautious 870
+---@field IsCrowd 871
+---@field IsDefensive 872
+---@field IsDeflecting 873
+---@field IsDodgeStaminaFree 874
+---@field IsDodging 875
+---@field IsExcludedFromExtraHealingOnHigherDifficulties 876
+---@field IsExo 877
+---@field IsFastMeleeArchetype 878
+---@field IsFastRangedArchetype 879
+---@field IsGenericMeleeArchetype 880
+---@field IsGenericRangedArchetype 881
+---@field IsHealingItemEquipped 882
+---@field IsHeavyRangedArchetype 883
+---@field IsIgnoredByEnemyNPC 884
+---@field IsInvulnerable 885
+---@field IsItemBroken 886
+---@field IsItemCracked 887
+---@field IsItemCrafted 888
+---@field IsItemIconic 889
+---@field IsItemPlus 890
+---@field IsItemUpgraded 891
+---@field IsMainBoss 892
+---@field IsManBig 893
+---@field IsManMassive 894
+---@field IsMechanical 895
+---@field IsNetrunnerArchetype 896
+---@field IsNotSlowedDuringADS 897
+---@field IsNotSlowedDuringBlock 898
+---@field IsNotSlowedDuringReload 899
+---@field IsPlayerGuardian 900
+---@field IsReckless 901
+---@field IsShotgunnerArchetype 902
+---@field IsSniperArchetype 903
+---@field IsSprintStaminaFree 904
+---@field IsStrongMeleeArchetype 905
+---@field IsTechieArchetype 906
+---@field IsTier1Archetype 907
+---@field IsTier2Archetype 908
+---@field IsTier3Archetype 909
+---@field IsTier4Archetype 910
+---@field IsWeakspot 911
+---@field IsWeaponLethal 912
+---@field ItemArmor 913
+---@field ItemArmorModifierHelper 914
+---@field ItemLevel 915
+---@field ItemPlusDPS 916
+---@field ItemPurchasedAtVendor 917
+---@field ItemRequiresElectroPlating 918
+---@field ItemRequiresPowerGrip 919
+---@field ItemRequiresSmartLink 920
+---@field JenkinsHelper 921
+---@field JenkinsHelperDecayEnabled 922
+---@field JenkinsHelperDecayPerSecond 923
+---@field JenkinsHelperEmptyStat 924
+---@field JenkinsHelperRegenEnabled 925
+---@field JenkinsHelperRegenPerSecond 926
+---@field JumpHeight 927
+---@field JumpSpeedModifier 928
+---@field KatanaStaminaCostReduction 929
+---@field Kenjutsu 930
+---@field KenjutsuMastery 931
+---@field KenjutsuTrait01Stat 932
+---@field KerenzikovCooldownDuration 933
+---@field KiroshiMaxZoomLevel 934
+---@field KiroshiPierceScanAngle 935
+---@field KiroshiPierceScanRange 936
+---@field KnifeStaminaCostReduction 937
+---@field KnockdownDamageThreshold 938
+---@field KnockdownDamageThresholdImpulse 939
+---@field KnockdownDamageThresholdInCover 940
+---@field KnockdownImmunity 941
+---@field KnockdownImpulse 942
+---@field Level 943
+---@field Liberty_Padre_BurningApplicationRate 944
+---@field LightMachinegunStaminaCostReduction 945
+---@field LimbHealth 946
+---@field LinearDirectionUpdateMax 947
+---@field LinearDirectionUpdateMaxADS 948
+---@field LinearDirectionUpdateMin 949
+---@field LinearDirectionUpdateMinADS 950
+---@field LocomotionExperienceReward 951
+---@field LocomotionPenaltyDisabled 952
+---@field LootLevel 953
+---@field LowerActiveCooldownOnDefeat 954
+---@field LowerHackingResistanceOnHack 955
+---@field MacheteStaminaCostReduction 956
+---@field MagazineAutoRefill 957
+---@field MagazineCapacity 958
+---@field MagazineCapacityBase 959
+---@field MagazineCapacityBonus 960
+---@field MagazineCapacityDPSComponent 961
+---@field ManiacPerkBonusSpeed 962
+---@field ManiacStatCounter 963
+---@field MantisBladesStaminaCostReduction 964
+---@field MaxDuration 965
+---@field MaxPercentDamageTakenPerHit 966
+---@field MaxQuality 967
+---@field MaxQualityWhenLooted 968
+---@field MaxSpeed 969
+---@field MaxSpeedModifierHelper 970
+---@field MaxStacks 971
+---@field MaxStacksBonusBleeding 972
+---@field MaxStacksBonusBurning 973
+---@field MaximumRange 974
+---@field MechResistance 975
+---@field MechResistanceModifierHelper 976
+---@field MechanicalsBuffDPSBonus 977
+---@field MeleeAttackComboDuration 978
+---@field MeleeAttackDuration 979
+---@field MeleeBorgStaminaDrain 980
+---@field MeleeDamagePercentBonus 981
+---@field MeleeDamagePercentBonusModifierHelper 982
+---@field MeleeMod1_CritChance 983
+---@field MeleeMod1_CritDamage 984
+---@field MeleeMod2_Duration 985
+---@field MeleeMod2_Stacks 986
+---@field MeleeMod3_CritChance 987
+---@field MeleeMod3_CritDamage 988
+---@field MeleeProjectileGravitySimulationMultiplier 989
+---@field MeleeResistance 990
+---@field MeleeResistanceModifierHelper 991
+---@field Memory 992
+---@field MemoryCostModifier 993
+---@field MemoryCostReduction 994
+---@field MemoryRegenBonusBlackmarket 995
+---@field MemoryRegenDelayOnChange 996
+---@field MemoryRegenEnabled 997
+---@field MemoryRegenEndThreshold 998
+---@field MemoryRegenRate 999
+---@field MemoryRegenRateAdd 1000
+---@field MemoryRegenRateBase 1001
+---@field MemoryRegenRateMult 1002
+---@field MemoryRegenStartThreshold 1003
+---@field MemoryStartDelay 1004
+---@field MemoryTrackerCooldownDuration 1005
+---@field MemoryWipeImmunity 1006
+---@field MicroGeneratorExplosionDamage 1007
+---@field MinCharge 1008
+---@field MinSpeed 1009
+---@field MinigameBufferExtension 1010
+---@field MinigameMaterialsEarned 1011
+---@field MinigameMemoryRegenPerk 1012
+---@field MinigameMoneyMultiplier 1013
+---@field MinigameNextInstanceBufferExtensionPerk 1014
+---@field MinigameShardChanceMultiplier 1015
+---@field MinigameTimeLimitExtension 1016
+---@field MinigameTrapsPossibilityChance 1017
+---@field MitigationChance 1018
+---@field MitigationChanceModifierHelper 1019
+---@field MitigationStrength 1020
+---@field MitigationStrengthModifierHelper 1021
+---@field ModifierPower 1022
+---@field ModifierPowerBase 1023
+---@field ModsAmountInGenerationPool 1024
+---@field MonoWiresStaminaCostReduction 1025
+---@field MultiKill_Counter 1026
+---@field MuzzleBreakRicochetBonus 1027
+---@field NPCAnimationTime 1028
+---@field NPCCorpoEquipItemDuration 1029
+---@field NPCCorpoUnequipItemDuration 1030
+---@field NPCDamage 1031
+---@field NPCDoTDPS 1032
+---@field NPCEquipItemDuration 1033
+---@field NPCGangEquipItemDuration 1034
+---@field NPCGangUnequipItemDuration 1035
+---@field NPCLoopDuration 1036
+---@field NPCLootLevelHelper 1037
+---@field NPCRarity 1038
+---@field NPCRecoverDuration 1039
+---@field NPCStartupDuration 1040
+---@field NPCThrowImmunity 1041
+---@field NPCUnequipItemDuration 1042
+---@field NPCUploadTime 1043
+---@field NPCWeaponDropHelper 1044
+---@field NPCWeaponDropRandomizer 1045
+---@field NewPerkFinisherBlunt_TargetDistanceMax 1046
+---@field NewPerkFinisherBlunt_TargetHealthMax 1047
+---@field NewPerkFinisherCool_TargetDistanceMax 1048
+---@field NewPerkFinisherCool_TargetHealthMax 1049
+---@field NewPerkFinisherMonowire_TargetDistanceMax 1050
+---@field NewPerkFinisherMonowire_TargetHealthMax 1051
+---@field NewPerkFinisherReflexes_TargetDistanceMax 1052
+---@field NewPerkFinisherReflexes_TargetHealthMax 1053
+---@field NoJam 1054
+---@field NumShotsInBurst 1055
+---@field NumShotsInBurstMaxCharge 1056
+---@field NumShotsInBurstSecondary 1057
+---@field NumShotsToFire 1058
+---@field NumberIgnoredTraps 1059
+---@field OccupiedSlot_GenerationWeight_On_TierPlus 1060
+---@field OnBikeDamageTakenPercent 1061
+---@field OnBikeDamageTakenPercentMaxSpeed 1062
+---@field OnBikeDamageTakenPercentMinSpeed 1063
+---@field OnRevealHackProgressIncrement 1064
+---@field OneHandBladeStaminaCostReduction 1065
+---@field OneHandBluntStaminaCostReduction 1066
+---@field OpticalCamoCharges 1067
+---@field OpticalCamoChargesDecayRate 1068
+---@field OpticalCamoChargesDecayRateMult 1069
+---@field OpticalCamoChargesDecayStartDelay 1070
+---@field OpticalCamoChargesDelayOnChange 1071
+---@field OpticalCamoChargesRegenBegins 1072
+---@field OpticalCamoChargesRegenEnabled 1073
+---@field OpticalCamoChargesRegenEnds 1074
+---@field OpticalCamoChargesRegenRate 1075
+---@field OpticalCamoDuration 1076
+---@field OpticalCamoDurationMultiplier 1077
+---@field OpticalCamoEmptyStat 1078
+---@field OpticalCamoIsActive 1079
+---@field OpticalCamoRechargeDuration 1080
+---@field OverchargeThreshold 1081
+---@field OverclockSpreadChance 1082
+---@field OverclockedStateHealthCost 1083
+---@field Overheat 1084
+---@field OverheatDurationIncrease 1085
+---@field Overshield 1086
+---@field OvershieldDecayDelayOnChange 1087
+---@field OvershieldDecayEnabled 1088
+---@field OvershieldDecayEndThrehold 1089
+---@field OvershieldDecayRate 1090
+---@field OvershieldDecayStartDelay 1091
+---@field OvershieldDecayStartThreshold 1092
+---@field OvershieldDelayOnChange 1093
+---@field OvershieldGainedToHealAmountMultiplier 1094
+---@field Oxygen 1095
+---@field PRSRMod2_CommonCount 1096
+---@field PRSRMod2_CommonStacks 1097
+---@field PRSRMod2_EpicCount 1098
+---@field PRSRMod2_EpicStacks 1099
+---@field PRSRMod2_Handling 1100
+---@field PRSRMod2_KillCount 1101
+---@field PRSRMod2_LegendaryCount 1102
+---@field PRSRMod2_LegendaryStacks 1103
+---@field PRSRMod2_RareCount 1104
+---@field PRSRMod2_RareStacks 1105
+---@field PRSRMod2_Stacks 1106
+---@field PRSRMod2_UncommonCount 1107
+---@field PRSRMod2_UncommonStacks 1108
+---@field PainEditorDamageReduction 1109
+---@field PartArmor 1110
+---@field PenetrationHealth 1111
+---@field PercentDamageReductionFromPoisonedEnemies 1112
+---@field PercentDamageReductionFromPoisonedEnemiesModifierHelper 1113
+---@field PerfectChargeTimeWindowIncrease 1114
+---@field PerfectChargeWindow 1115
+---@field PersonalityAggressive 1116
+---@field PersonalityCuriosity 1117
+---@field PersonalityDisgust 1118
+---@field PersonalityFear 1119
+---@field PersonalityFunny 1120
+---@field PersonalityJoy 1121
+---@field PersonalitySad 1122
+---@field PersonalityShock 1123
+---@field PersonalitySurprise 1124
+---@field PhoneCallDuration 1125
+---@field PhysicalDamage 1126
+---@field PhysicalDamageAdditiveMultiplier 1127
+---@field PhysicalDamageMax 1128
+---@field PhysicalDamageMin 1129
+---@field PhysicalDamageModifierHelper 1130
+---@field PhysicalDamagePercent 1131
+---@field PhysicalImpulse 1132
+---@field PhysicalResistance 1133
+---@field PlayerCorruptedSandevistanChargesDecayEnabled 1134
+---@field PlayerOnRevealHackProgressMultiplier 1135
+---@field PlayerSandevistanChargesDecayEnabled 1136
+---@field PlayerSandevistanChargesDecayPerSecond 1137
+---@field PlayerSandevistanChargesEmptyStat 1138
+---@field Poise 1139
+---@field PoisonImmunity 1140
+---@field PoisonRegenHealth 1141
+---@field PoisonedApplicationRate 1142
+---@field PoisonedApplicationRateModifierHelper 1143
+---@field PostLexWilsonBuyPrice 1144
+---@field PostTutorialCyberwarePrice 1145
+---@field PowerLevel 1146
+---@field PowerMod1_DamageConvert 1147
+---@field PowerMod2_StaminaCost 1148
+---@field PreFireTime 1149
+---@field PrecisionRifleStaminaCostReduction 1150
+---@field PrefersCovers 1151
+---@field PrefersShootingSpots 1152
+---@field PreventQuickhackStaggerDuration 1153
+---@field PreventQuickhacking 1154
+---@field Price 1155
+---@field ProjectileLauncherCharges 1156
+---@field ProjectileLauncherChargesDecayStartDelay 1157
+---@field ProjectileLauncherChargesDelayOnChange 1158
+---@field ProjectileLauncherChargesRegenBegins 1159
+---@field ProjectileLauncherChargesRegenEnds 1160
+---@field ProjectileLauncherChargesRegenMult 1161
+---@field ProjectileLauncherChargesRegenRate 1162
+---@field ProjectileLauncherMaxCharges 1163
+---@field ProjectileLauncherQualityMult 1164
+---@field ProjectileLauncherRechargeDuration 1165
+---@field ProjectileLauncherRegenEnabled 1166
+---@field ProjectilesPerShot 1167
+---@field ProjectilesPerShotBase 1168
+---@field ProjectilesPerShotBonus 1169
+---@field Protection 1170
+---@field Quality 1171
+---@field QualityRequirementMetFlag 1172
+---@field QualityToMaxQualityRatio 1173
+---@field Quantity 1174
+---@field QuickHackBlackWallSpreadNumber 1175
+---@field QuickHackBlindSpreadNumber 1176
+---@field QuickHackContagionSpreadNumber 1177
+---@field QuickHackCritChance 1178
+---@field QuickHackDuration 1179
+---@field QuickHackDurationExtension 1180
+---@field QuickHackEffectsApplied 1181
+---@field QuickHackImmunity 1182
+---@field QuickHackOverclockSpreadNumber 1183
+---@field QuickHackQueueCount 1184
+---@field QuickHackQueueSize 1185
+---@field QuickHackQueueUploadTimeDecrease 1186
+---@field QuickHackResistancesMod 1187
+---@field QuickHackSpreadDistance 1188
+---@field QuickHackSpreadDistanceIncrease 1189
+---@field QuickHackSpreadNumber 1190
+---@field QuickHackSuddenDeathChance 1191
+---@field QuickHackUpload 1192
+---@field QuickHackUploadTimeDecrease 1193
+---@field QuickhackDamageBonusMultiplier 1194
+---@field QuickhackDamageOverTimeBonusMultiplier 1195
+---@field QuickhackExtraDamageMultiplier 1196
+---@field QuickhackResistance 1197
+---@field QuickhackResistanceModifierHelper 1198
+---@field QuickhackShield 1199
+---@field QuickhacksCooldownReduction 1200
+---@field QuickhacksCooldownReductionModifierHelper 1201
+---@field RamManagerCooldownReduction 1202
+---@field RamOnKill 1203
+---@field RamOnKillModifierHelper 1204
+---@field RandomCurveInput 1205
+---@field Range 1206
+---@field RangedMod1_CritChance 1207
+---@field Recoil 1208
+---@field RecoilAllowSway 1209
+---@field RecoilAlternateDir 1210
+---@field RecoilAlternateDirADS 1211
+---@field RecoilAngle 1212
+---@field RecoilAngleADS 1213
+---@field RecoilAngleReduction 1214
+---@field RecoilAnimation 1215
+---@field RecoilChargeMult 1216
+---@field RecoilChargeMultADS 1217
+---@field RecoilCycleSize 1218
+---@field RecoilCycleSizeADS 1219
+---@field RecoilCycleTime 1220
+---@field RecoilCycleTimeADS 1221
+---@field RecoilDelay 1222
+---@field RecoilDir 1223
+---@field RecoilDirADS 1224
+---@field RecoilDirPlanCycleRandDir 1225
+---@field RecoilDirPlanCycleRandDirADS 1226
+---@field RecoilDirPlanCycleRandRangeDir 1227
+---@field RecoilDirPlanCycleRandRangeDirADS 1228
+---@field RecoilDirPlanSequence 1229
+---@field RecoilDirPlanSequenceADS 1230
+---@field RecoilDirReduction 1231
+---@field RecoilDriftRandomRangeMax 1232
+---@field RecoilDriftRandomRangeMin 1233
+---@field RecoilEnableCycleX 1234
+---@field RecoilEnableCycleXADS 1235
+---@field RecoilEnableCycleY 1236
+---@field RecoilEnableCycleYADS 1237
+---@field RecoilEnableLinearX 1238
+---@field RecoilEnableLinearXADS 1239
+---@field RecoilEnableLinearY 1240
+---@field RecoilEnableLinearYADS 1241
+---@field RecoilEnableScaleX 1242
+---@field RecoilEnableScaleXADS 1243
+---@field RecoilEnableScaleY 1244
+---@field RecoilEnableScaleYADS 1245
+---@field RecoilFullChargeMult 1246
+---@field RecoilFullChargeMultADS 1247
+---@field RecoilHoldDuration 1248
+---@field RecoilHoldDurationADS 1249
+---@field RecoilKickMax 1250
+---@field RecoilKickMaxADS 1251
+---@field RecoilKickMin 1252
+---@field RecoilKickMinADS 1253
+---@field RecoilKickReduction 1254
+---@field RecoilMagForFullDrift 1255
+---@field RecoilMaxLength 1256
+---@field RecoilMaxLengthADS 1257
+---@field RecoilPercentBonus 1258
+---@field RecoilPercentBonusModifierHelper 1259
+---@field RecoilRecoveryMinSpeed 1260
+---@field RecoilRecoveryMinSpeedADS 1261
+---@field RecoilRecoverySpeed 1262
+---@field RecoilRecoverySpeedADS 1263
+---@field RecoilRecoveryTime 1264
+---@field RecoilRecoveryTimeADS 1265
+---@field RecoilScaleMax 1266
+---@field RecoilScaleMaxADS 1267
+---@field RecoilScaleTime 1268
+---@field RecoilScaleTimeADS 1269
+---@field RecoilSpeed 1270
+---@field RecoilSpeedADS 1271
+---@field RecoilTime 1272
+---@field RecoilTimeADS 1273
+---@field RecoilUseDifferentStatsInADS 1274
+---@field Reflexes 1275
+---@field ReflexesAllocated 1276
+---@field ReflexesAvailable 1277
+---@field ReflexesSkill 1278
+---@field Reflexes_Left_Milestone_3_Stack 1279
+---@field Reflexes_Left_Milestone_3_StackDecrease 1280
+---@field Reflexes_Left_Milestone_3_StackIncrease 1281
+---@field Reflexes_Right_Milestone_2_StaminaDeflectPerc 1282
+---@field Reflexes_Right_Milestone_2_StaminaReduction 1283
+---@field RefreshesPingOnQuickhack 1284
+---@field RegenerateHPMinigamePerk 1285
+---@field ReloadAmount 1286
+---@field ReloadEndTime 1287
+---@field ReloadEndTimeBase 1288
+---@field ReloadSpeedPercentBonus 1289
+---@field ReloadSpeedPercentBonusModifierHelper 1290
+---@field ReloadTime 1291
+---@field ReloadTimeBase 1292
+---@field ReloadTimeBonus 1293
+---@field ReloadTimeDPSComponent 1294
+---@field ReloadTimeExhaustionPenalty 1295
+---@field RemoveAllStacksWhenDurationEnds 1296
+---@field RemoveColdBloodStacksOneByOne 1297
+---@field RemoveSprintOnQuickhack 1298
+---@field ReprimandEscalation 1299
+---@field RestoreMemoryOnDefeat 1300
+---@field RevealNetrunnerWhenHacked 1301
+---@field RevealPositionMaxDistance 1302
+---@field RevolverStaminaCostReduction 1303
+---@field RicochetChance 1304
+---@field RicochetCount 1305
+---@field RicochetMaxAngle 1306
+---@field RicochetMinAngle 1307
+---@field RicochetTargetSearchAngle 1308
+---@field RoadWarriorDamageMultiplier 1309
+---@field RollForPlusBelowMaxQuality 1310
+---@field RollForPlusOnMaxQuality 1311
+---@field SEApplicationRateBasedOnWeaponCharge 1312
+---@field SandevistanChargesDecayDelayOnChange 1313
+---@field SandevistanChargesDecayStartDelay 1314
+---@field SandevistanChargesRegenBegins 1315
+---@field SandevistanChargesRegenDelayOnChange 1316
+---@field SandevistanChargesRegenEnabled 1317
+---@field SandevistanChargesRegenEnds 1318
+---@field SandevistanChargesRegenStartDelay 1319
+---@field SandevistanDashShoot 1320
+---@field SandevistanKillRechargeValue 1321
+---@field SandevistanRechargeDuration 1322
+---@field SasquatchStaminaDrain 1323
+---@field ScalingBlocked 1324
+---@field ScanDepth 1325
+---@field ScanTimeReduction 1326
+---@field ScopeFOV 1327
+---@field ScopeOffset 1328
+---@field ScrapItemChance 1329
+---@field SecondHeartCooldownDuration 1330
+---@field SecondaryModifiersAdditiveMultiplier 1331
+---@field SharedCacheTraps 1332
+---@field ShinyWeaponRoll 1333
+---@field ShootingOffsetAI 1334
+---@field ShortCircuitOnCriticalHit 1335
+---@field ShortDistanceDamageIncrease 1336
+---@field ShorterChains 1337
+---@field ShotDelay 1338
+---@field ShotgunMod1_BuffDuration 1339
+---@field ShotgunMod1_DismemberBonus 1340
+---@field ShotgunMod1_ModCount 1341
+---@field ShotgunMod2_BulletCountLeftLeg 1342
+---@field ShotgunMod2_BulletCountRightLeg 1343
+---@field ShotgunMod2_ModCount 1344
+---@field ShotgunMod3_Spread 1345
+---@field ShotgunStaminaCostReduction 1346
+---@field ShouldIgnoreSmartUI 1347
+---@field SimpleWeaponMod04 1348
+---@field SkillBookExperience 1349
+---@field SlideWhenLeaningOutOfCover 1350
+---@field SmartGunAddSpiralTrajectory 1351
+---@field SmartGunAdsLockingAnglePitch 1352
+---@field SmartGunAdsLockingAngleYaw 1353
+---@field SmartGunAdsMaxLockedTargets 1354
+---@field SmartGunAdsTagLockAnglePitch 1355
+---@field SmartGunAdsTagLockAngleYaw 1356
+---@field SmartGunAdsTargetableAnglePitch 1357
+---@field SmartGunAdsTargetableAngleYaw 1358
+---@field SmartGunAdsTimeToLock 1359
+---@field SmartGunAdsTimeToUnlock 1360
+---@field SmartGunContinousLockEnabled 1361
+---@field SmartGunDisableOnReload 1362
+---@field SmartGunEvenDistributionPeriod 1363
+---@field SmartGunHipLockingAnglePitch 1364
+---@field SmartGunHipLockingAngleYaw 1365
+---@field SmartGunHipMaxLockedTargets 1366
+---@field SmartGunHipTagLockAnglePitch 1367
+---@field SmartGunHipTagLockAngleYaw 1368
+---@field SmartGunHipTargetableAnglePitch 1369
+---@field SmartGunHipTargetableAngleYaw 1370
+---@field SmartGunHipTimeToLock 1371
+---@field SmartGunHipTimeToUnlock 1372
+---@field SmartGunHitProbability 1373
+---@field SmartGunHitProbabilityMultiplier 1374
+---@field SmartGunKeepTargetsOnAimStateChange 1375
+---@field SmartGunKeepTargetsOnWeaponSwap 1376
+---@field SmartGunMaxLockedPointsPerTarget 1377
+---@field SmartGunMissDelay 1378
+---@field SmartGunMissRadius 1379
+---@field SmartGunNPCApplySpreadAtHitplane 1380
+---@field SmartGunNPCLockOnTime 1381
+---@field SmartGunNPCLockTimeout 1382
+---@field SmartGunNPCLockingAnglePitch 1383
+---@field SmartGunNPCLockingAngleYaw 1384
+---@field SmartGunNPCProjectileStartingOrientationAngleOffset 1385
+---@field SmartGunNPCProjectileVelocity 1386
+---@field SmartGunNPCShootProjectilesOnlyStraight 1387
+---@field SmartGunNPCSpreadMultiplier 1388
+---@field SmartGunNPCTrajectoryCurvatureMultiplier 1389
+---@field SmartGunPlayerProjectileVelocity 1390
+---@field SmartGunProjectileVelocityVariance 1391
+---@field SmartGunSpiralCycleTimeMax 1392
+---@field SmartGunSpiralCycleTimeMin 1393
+---@field SmartGunSpiralRadius 1394
+---@field SmartGunSpiralRampDistanceEnd 1395
+---@field SmartGunSpiralRampDistanceStart 1396
+---@field SmartGunSpiralRandomizeDirection 1397
+---@field SmartGunSpreadMultiplier 1398
+---@field SmartGunStartingAccuracy 1399
+---@field SmartGunTargetAcquisitionRange 1400
+---@field SmartGunTargetingRectangleSizeIncrease 1401
+---@field SmartGunTimeToLockBreachComponentMultiplier 1402
+---@field SmartGunTimeToLockChestComponentMultiplier 1403
+---@field SmartGunTimeToLockHeadComponentMultiplier 1404
+---@field SmartGunTimeToLockLegComponentMultiplier 1405
+---@field SmartGunTimeToLockMechanicalComponentMultiplier 1406
+---@field SmartGunTimeToLockVehicleComponentMultiplier 1407
+---@field SmartGunTimeToLockWeakSpotComponentMultiplier 1408
+---@field SmartGunTimeToMaxAccuracy 1409
+---@field SmartGunTimeToRemoveOccludedTarget 1410
+---@field SmartGunTrackBreachComponents 1411
+---@field SmartGunTrackChestComponents 1412
+---@field SmartGunTrackHeadComponents 1413
+---@field SmartGunTrackLegComponents 1414
+---@field SmartGunTrackMechanicalComponents 1415
+---@field SmartGunTrackMultipleEntitiesInADS 1416
+---@field SmartGunTrackVehicleComponents 1417
+---@field SmartGunTrackWeakSpotComponents 1418
+---@field SmartGunUseEvenDistributionTargeting 1419
+---@field SmartGunUseTagLockTargeting 1420
+---@field SmartGunUseTimeBasedAccuracy 1421
+---@field SmartMod2_Velocity 1422
+---@field SmartMod3_Zone 1423
+---@field SmartTargetingDisruptionProbability 1424
+---@field SmartTargetingShouldNotDisableCollision 1425
+---@field SmartWeaponDamagePercentBonus 1426
+---@field SmasherBossHackUploadProgressBumpMultiplier 1427
+---@field SniperStaminaCostReduction 1428
+---@field SpecialDamage 1429
+---@field SpeedBoost 1430
+---@field SpeedBoostMaxSpeed 1431
+---@field Spread 1432
+---@field SpreadAdsChangePerShot 1433
+---@field SpreadAdsChargeMult 1434
+---@field SpreadAdsDefaultX 1435
+---@field SpreadAdsDefaultY 1436
+---@field SpreadAdsFastSpeedMax 1437
+---@field SpreadAdsFastSpeedMaxAdd 1438
+---@field SpreadAdsFastSpeedMin 1439
+---@field SpreadAdsFastSpeedMinAdd 1440
+---@field SpreadAdsFullChargeMult 1441
+---@field SpreadAdsMaxX 1442
+---@field SpreadAdsMaxY 1443
+---@field SpreadAdsMinX 1444
+---@field SpreadAdsMinY 1445
+---@field SpreadAnimation 1446
+---@field SpreadChangePerShot 1447
+---@field SpreadChargeMult 1448
+---@field SpreadCrouchDefaultMult 1449
+---@field SpreadCrouchMaxMult 1450
+---@field SpreadDefaultX 1451
+---@field SpreadDefaultY 1452
+---@field SpreadEvenDistributionJitterSize 1453
+---@field SpreadEvenDistributionRowCount 1454
+---@field SpreadFastSpeedMax 1455
+---@field SpreadFastSpeedMaxAdd 1456
+---@field SpreadFastSpeedMin 1457
+---@field SpreadFastSpeedMinAdd 1458
+---@field SpreadFullChargeMult 1459
+---@field SpreadMaxAI 1460
+---@field SpreadMaxX 1461
+---@field SpreadMaxY 1462
+---@field SpreadMinX 1463
+---@field SpreadMinY 1464
+---@field SpreadPenalty 1465
+---@field SpreadQuickhacksOnStart 1466
+---@field SpreadRandomizeOriginPoint 1467
+---@field SpreadResetSpeed 1468
+---@field SpreadResetTimeThreshold 1469
+---@field SpreadToken 1470
+---@field SpreadUseCircularSpread 1471
+---@field SpreadUseEvenDistribution 1472
+---@field SpreadUseInAds 1473
+---@field SpreadZeroOnFirstShot 1474
+---@field SpreadingAttackConeAngle 1475
+---@field SpreadingAttackDamageMultiplier 1476
+---@field SpreadingAttackMaxJumps 1477
+---@field SpreadingAttackMaxTargets 1478
+---@field SpreadingAttackRange 1479
+---@field StaggerDamageThreshold 1480
+---@field StaggerDamageThresholdImpulse 1481
+---@field StaggerDamageThresholdInCover 1482
+---@field Stamina 1483
+---@field StaminaAimingCost 1484
+---@field StaminaCostReduction 1485
+---@field StaminaCostToBlock 1486
+---@field StaminaDamage 1487
+---@field StaminaDecayDelayOnChange 1488
+---@field StaminaDecayEnabled 1489
+---@field StaminaDecayEndThrehold 1490
+---@field StaminaDecayRate 1491
+---@field StaminaDecayStartDelay 1492
+---@field StaminaDecayStartThreshold 1493
+---@field StaminaRatio 1494
+---@field StaminaRegenBonusBlackmarket 1495
+---@field StaminaRegenDelayOnChange 1496
+---@field StaminaRegenEnabled 1497
+---@field StaminaRegenEndThrehold 1498
+---@field StaminaRegenRate 1499
+---@field StaminaRegenRateAdd 1500
+---@field StaminaRegenRateBase 1501
+---@field StaminaRegenRateMult 1502
+---@field StaminaRegenStartDelay 1503
+---@field StaminaRegenStartThreshold 1504
+---@field StaminaSprintDecayRate 1505
+---@field StatModifierGroupLimit 1506
+---@field StaticModifierMultiplier 1507
+---@field Stealth 1508
+---@field StealthHacksCostReduction 1509
+---@field StealthHitDamageBonus 1510
+---@field StealthHitDamageBonusModifierHelper 1511
+---@field StealthHitDamageMultiplier 1512
+---@field StealthMastery 1513
+---@field StealthTrait01Stat 1514
+---@field StealthWeakspotDamageMultiplier 1515
+---@field StreetCred 1516
+---@field StreetCredXPBonusMultiplier 1517
+---@field Strength 1518
+---@field StrengthAllocated 1519
+---@field StrengthAvailable 1520
+---@field StrengthSkill 1521
+---@field StrengthSkillcheckBonus 1522
+---@field StrongArmsStaminaCostReduction 1523
+---@field StunApplicationRate 1524
+---@field StunImmunity 1525
+---@field StyleOverSubstanceCount 1526
+---@field SubMachinegunStaminaCostReduction 1527
+---@field SuicideHackMemoryCostReduction 1528
+---@field Sway 1529
+---@field SwayCenterMaximumAngleOffset 1530
+---@field SwayCurvatureMaximumFactor 1531
+---@field SwayCurvatureMinimumFactor 1532
+---@field SwayInitialOffsetRandomFactor 1533
+---@field SwayResetOnAimStart 1534
+---@field SwaySideBottomAngleLimit 1535
+---@field SwaySideMaximumAngleDistance 1536
+---@field SwaySideMinimumAngleDistance 1537
+---@field SwaySideStepChangeMaximumFactor 1538
+---@field SwaySideStepChangeMinimumFactor 1539
+---@field SwaySideTopAngleLimit 1540
+---@field SwayStartBlendTime 1541
+---@field SwayStartDelay 1542
+---@field SwayTraversalTime 1543
+---@field SystemCollapseImmunity 1544
+---@field SystemCollapseMemoryCostReduction 1545
+---@field TBHsBaseCoefficient 1546
+---@field TBHsBaseSourceMultiplierCoefficient 1547
+---@field TBHsCoverTraceLoSIncreaseSpeed 1548
+---@field TBHsMinimumLineOfSightTime 1549
+---@field TBHsReactionCooldownReduction 1550
+---@field TBHsSensesTraceLoSIncreaseSpeed 1551
+---@field TBHsVisibilityCooldown 1552
+---@field TechBaseChargeThreshold 1553
+---@field TechMaxChargeThreshold 1554
+---@field TechMod1_EMPChance 1555
+---@field TechMod3_ChargeTime 1556
+---@field TechOverChargeThreshold 1557
+---@field TechPierceChargeLevel 1558
+---@field TechPierceDamageFactor 1559
+---@field TechPierceEnabled 1560
+---@field TechPierceHighlightsEnabled 1561
+---@field TechPierceScanAngle 1562
+---@field TechWeaponDamagePercentBonus 1563
+---@field Tech_Central_Milestone_2_Discount 1564
+---@field Tech_Central_Perk_2_2_Humanity 1565
+---@field Tech_Master_Perk_3_Humanity 1566
+---@field TechnicalAbility 1567
+---@field TechnicalAbilityAllocated 1568
+---@field TechnicalAbilityAvailable 1569
+---@field TechnicalAbilitySkill 1570
+---@field TechnicalAbilitySkillcheckBonus 1571
+---@field ThermalDamage 1572
+---@field ThermalDamageAdditiveMultiplier 1573
+---@field ThermalDamageMax 1574
+---@field ThermalDamageMin 1575
+---@field ThermalDamageModifierHelper 1576
+---@field ThermalDamagePercent 1577
+---@field ThermalDamagePercentBonus 1578
+---@field ThermalDamagePercentBonusModifierHelper 1579
+---@field ThermalResistance 1580
+---@field ThermalResistanceModifierHelper 1581
+---@field ThreeOrMoreProgramsCooldownRedPerk 1582
+---@field ThreeOrMoreProgramsMemoryRegPerk 1583
+---@field ThrowMod1_CanReturn 1584
+---@field ThrowMod1_ReturnChance 1585
+---@field ThrowMod3_Armor_Pene 1586
+---@field ThrowRecovery 1587
+---@field TimeBankCharges 1588
+---@field TimeBankRegenDelayOnChange 1589
+---@field TimeBankRegenEnabled 1590
+---@field TimeBankRegenEndThrehold 1591
+---@field TimeBankRegenRate 1592
+---@field TimeBankRegenStartDelay 1593
+---@field TimeBankRegenStartThreshold 1594
+---@field TimeDilationGenericDuration 1595
+---@field TimeDilationGenericTimeScale 1596
+---@field TimeDilationKerenzikovDuration 1597
+---@field TimeDilationKerenzikovPlayerTimeScale 1598
+---@field TimeDilationKerenzikovTimeScale 1599
+---@field TimeDilationOnDodgesCooldownDuration 1600
+---@field TimeDilationOnDodgesDuration 1601
+---@field TimeDilationOnDodgesTimeScale 1602
+---@field TimeDilationOnHealthDropCooldownDuration 1603
+---@field TimeDilationOnHealthDropDuration 1604
+---@field TimeDilationOnHealthDropTimeScale 1605
+---@field TimeDilationSandevistanCooldownBase 1606
+---@field TimeDilationSandevistanCooldownReduction 1607
+---@field TimeDilationSandevistanDuration 1608
+---@field TimeDilationSandevistanEnterCost 1609
+---@field TimeDilationSandevistanRechargeDuration 1610
+---@field TimeDilationSandevistanTimeScale 1611
+---@field TimeDilationWhenEnteringCombatCooldownDuration 1612
+---@field TimeDilationWhenEnteringCombatDuration 1613
+---@field TimeDilationWhenEnteringCombatTimeScale 1614
+---@field TranquilizerImmunity 1615
+---@field TriggerDismembermentChance 1616
+---@field TriggerWoundedChance 1617
+---@field TurretFriendlyExtension 1618
+---@field TurretShutdownExtension 1619
+---@field TwoHandBluntStaminaCostReduction 1620
+---@field TwoHandHammerStaminaCostReduction 1621
+---@field UltimateHackSpread 1622
+---@field UltimateHacksCostReduction 1623
+---@field UltimateMemoryCostReduction 1624
+---@field UnconsciousImmunity 1625
+---@field UnequipAnimationDuration_Corpo 1626
+---@field UnequipAnimationDuration_Gang 1627
+---@field UnequipDuration 1628
+---@field UnequipDuration_Corpo 1629
+---@field UnequipDuration_Gang 1630
+---@field UnequipItemTime_Corpo 1631
+---@field UnequipItemTime_Gang 1632
+---@field UnlockProgress 1633
+---@field UpgradeCompensate 1634
+---@field UpgradeCount 1635
+---@field UpgradingCostReduction 1636
+---@field UpgradingMaterialDropChance 1637
+---@field UpgradingMaterialRandomGrantChance 1638
+---@field UpgradingMaterialRetrieveChance 1639
+---@field UploadQuickHackMod 1640
+---@field VehicleDamagePercentBonus 1641
+---@field VehicleDamageQualityDivisor 1642
+---@field VehicleMinHealthPercentWhenDamaged 1643
+---@field VehicleMissileLauncherBaseCharges 1644
+---@field VehicleMissileLauncherCharges 1645
+---@field VehicleMissileLauncherChargesRegenBegins 1646
+---@field VehicleMissileLauncherChargesRegenDelayOnChange 1647
+---@field VehicleMissileLauncherChargesRegenEnds 1648
+---@field VehicleMissileLauncherChargesRegenRate 1649
+---@field VehicleMissileLauncherChargesRegenStartDelay 1650
+---@field VehicleMissileLauncherLockOnTime 1651
+---@field VehicleMissileLauncherMaxCharges 1652
+---@field VehicleMissileLauncherProjectilesPerCharge 1653
+---@field VehicleMissileLauncherRechargeDuration 1654
+---@field VehicleMissileLauncherRegenEnabled 1655
+---@field VehicleMissileLauncherSalvoCharges 1656
+---@field VendorBuyPriceDiscount 1657
+---@field VendorSellPriceDiscount 1658
+---@field Visibility 1659
+---@field VisibilityReduction 1660
+---@field VisibilityReductionModifierHelper 1661
+---@field VisualStimRangeMultiplier 1662
+---@field VulnerabilityExtension 1663
+---@field VulnerableImmunity 1664
+---@field WallRunHorSpeedToEnterMin 1665
+---@field WallRunStrafeAngleMax 1666
+---@field WallRunTimeMax 1667
+---@field WallRunVertSpeedToEnterMax 1668
+---@field WasItemUpgraded 1669
+---@field WasQuickHacked 1670
+---@field WeakspotDamageMultiplier 1671
+---@field WeaponEvolutionToStaminaCost 1672
+---@field WeaponHasAutoloader 1673
+---@field WeaponNoise 1674
+---@field WeaponPosAdsX 1675
+---@field WeaponPosAdsY 1676
+---@field WeaponPosAdsZ 1677
+---@field WeaponPosX 1678
+---@field WeaponPosY 1679
+---@field WeaponPosZ 1680
+---@field WeaponRotAdsX 1681
+---@field WeaponRotAdsY 1682
+---@field WeaponRotAdsZ 1683
+---@field WeaponRotX 1684
+---@field WeaponRotY 1685
+---@field WeaponRotZ 1686
+---@field WeaponSwapDuration 1687
+---@field WeaponTypeToStaminaCost 1688
+---@field WeaponVFX_BulletFxScaleFullAutoRandRange 1689
+---@field WeaponVFX_BulletFxScaleFullAutoRandStart 1690
+---@field WeaponVFX_BulletFxScaleFullAutoRandomization 1691
+---@field WeaponVFX_DecalFxScale 1692
+---@field WeaponVFX_MuzzleFxScale 1693
+---@field WeaponVFX_ProjectileFxScale 1694
+---@field WeaponVFX_ShellsFxScale 1695
+---@field WeaponVFX_TracerFxScale 1696
+---@field WeaponVehicleDamagePercentBonus 1697
+---@field Weight 1698
+---@field WoundHeadDamageThreshold 1699
+---@field WoundLArmDamageThreshold 1700
+---@field WoundLLegDamageThreshold 1701
+---@field WoundRArmDamageThreshold 1702
+---@field WoundRLegDamageThreshold 1703
+---@field WoundedImmunity 1704
+---@field XPbonusMultiplier 1705
+---@field ZoomLevel 1706
+---@field CPO_Armor 1707
+---@field CPO_NPC_Importance 1708
+---@field Count 1709
+---@field Invalid 1710
 gamedataStatType = {}

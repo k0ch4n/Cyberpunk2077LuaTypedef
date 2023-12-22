@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FuseBoxControllerPS: MasterControllerPS
----@field private ["fuseBoxSkillChecks"] EngineeringContainer
----@field private ["isGenerator"] Bool
----@field private ["isOverloaded"] Bool
+---@field private fuseBoxSkillChecks EngineeringContainer
+---@field private isGenerator Bool
+---@field private isOverloaded Bool
 FuseBoxControllerPS = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IterateModulesRequest: gameScriptableSystemRequest
----@field public ["remainingJobs"] HUDJob[]
+---@field public remainingJobs HUDJob[]
 IterateModulesRequest = {}
 
 ---@param fields? table

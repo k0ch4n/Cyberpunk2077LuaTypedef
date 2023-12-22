@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Float_Property
----@field public ["property"] Float
+---@field public property Float
 Sample_Replicated_Float_Property = {}
 
 ---@param fields? table

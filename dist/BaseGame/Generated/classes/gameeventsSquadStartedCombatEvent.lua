@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsSquadStartedCombatEvent: redEvent
----@field public ["started"] Bool
+---@field public started Bool
 gameeventsSquadStartedCombatEvent = {}
 
 ---@param fields? table

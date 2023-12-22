@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gamedataCheckType: Enum
----@field ["Category"] gamedataCheckType 0
----@field ["Evolution"] gamedataCheckType 1
----@field ["FullyModded"] gamedataCheckType 2
----@field ["None"] gamedataCheckType 3
----@field ["Record"] gamedataCheckType 4
----@field ["Tag"] gamedataCheckType 5
----@field ["Type"] gamedataCheckType 6
----@field ["Count"] gamedataCheckType 7
----@field ["Invalid"] gamedataCheckType 8
+---@field Category 0
+---@field Evolution 1
+---@field FullyModded 2
+---@field None 3
+---@field Record 4
+---@field Tag 5
+---@field Type 6
+---@field Count 7
+---@field Invalid 8
 gamedataCheckType = {}

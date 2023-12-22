@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_EffectDuration: animAnimEvent
----@field public ["effectName"] CName
----@field public ["sequenceShift"] Uint32
----@field public ["breakAllLoopsOnStop"] Bool
+---@field public effectName CName
+---@field public sequenceShift Uint32
+---@field public breakAllLoopsOnStop Bool
 animAnimEvent_EffectDuration = {}
 
 ---@param fields? table

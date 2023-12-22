@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TransferSaveData: IScriptable
----@field public ["saveIndex"] Int32
----@field public ["action"] TransferSaveAction
+---@field public saveIndex Int32
+---@field public action TransferSaveAction
 TransferSaveData = {}
 
 ---@param fields? table

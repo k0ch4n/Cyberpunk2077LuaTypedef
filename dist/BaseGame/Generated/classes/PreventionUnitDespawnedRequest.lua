@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionUnitDespawnedRequest: gameScriptableSystemRequest
----@field public ["entityID"] entEntityID
+---@field public entityID entEntityID
 PreventionUnitDespawnedRequest = {}
 
 ---@param fields? table

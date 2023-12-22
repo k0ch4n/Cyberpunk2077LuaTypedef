@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerUnauthorized: ActionBool
----@field protected ["isLiftDoor"] Bool
+---@field protected isLiftDoor Bool
 PlayerUnauthorized = {}
 
 ---@param fields? table

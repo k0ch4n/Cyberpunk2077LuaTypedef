@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIPatrolContinuationPolicy: Enum
----@field ["FromNextControlPoint"] AIPatrolContinuationPolicy 0
----@field ["FromClosestPoint"] AIPatrolContinuationPolicy 1
----@field ["FromBeginning"] AIPatrolContinuationPolicy 2
+---@field FromNextControlPoint 0
+---@field FromClosestPoint 1
+---@field FromBeginning 2
 AIPatrolContinuationPolicy = {}

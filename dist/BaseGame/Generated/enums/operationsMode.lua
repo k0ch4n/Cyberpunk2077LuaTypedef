@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class operationsMode: Enum
----@field ["PLAYER"] operationsMode 0
----@field ["FLATHEAD"] operationsMode 1
----@field ["TOOLBOX"] operationsMode 2
+---@field PLAYER 0
+---@field FLATHEAD 1
+---@field TOOLBOX 2
 operationsMode = {}

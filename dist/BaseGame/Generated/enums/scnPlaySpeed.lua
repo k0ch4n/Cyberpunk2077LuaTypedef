@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnPlaySpeed: Enum
----@field ["Pause"] scnPlaySpeed 0
----@field ["Slow"] scnPlaySpeed 1
----@field ["Normal"] scnPlaySpeed 2
----@field ["Fast"] scnPlaySpeed 3
----@field ["VeryFast"] scnPlaySpeed 4
+---@field Pause 0
+---@field Slow 1
+---@field Normal 2
+---@field Fast 3
+---@field VeryFast 4
 scnPlaySpeed = {}

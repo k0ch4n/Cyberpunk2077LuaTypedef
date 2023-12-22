@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questSetLocationName_NodeType: questIUIManagerNodeType
----@field public ["locationName"] String
----@field public ["action"] questLocationAction
----@field public ["districtID"] TweakDBID
----@field public ["isNewLocation"] Bool
+---@field public locationName String
+---@field public action questLocationAction
+---@field public districtID TweakDBID
+---@field public isNewLocation Bool
 questSetLocationName_NodeType = {}
 
 ---@param fields? table

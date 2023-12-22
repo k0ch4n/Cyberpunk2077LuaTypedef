@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FirstEquipSystem: gameScriptableSystem
----@field protected ["equipDataArray"] EFirstEquipData[]
+---@field protected equipDataArray EFirstEquipData[]
 FirstEquipSystem = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIStackSignalCondition: AIbehaviorStackScriptPassiveExpressionDefinition
----@field public ["signalName"] CName
+---@field public signalName CName
 AIStackSignalCondition = {}
 
 ---@param fields? table

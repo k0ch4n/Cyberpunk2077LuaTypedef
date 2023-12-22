@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiDamageIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
----@field public ["maxDistanceForSharedIndicators"] Float
----@field private ["arrowFrontWidget"] inkImageWidgetReference
----@field private ["arrowBigWidget"] inkImageWidgetReference
----@field private ["damageThreshold"] Float
----@field private ["root"] inkWidget
----@field private ["animProxy"] inkanimProxy
----@field private ["damageTaken"] Float
----@field private ["continuous"] Bool
----@field private ["revengeActive"] Bool
+---@field public maxDistanceForSharedIndicators Float
+---@field private arrowFrontWidget inkImageWidgetReference
+---@field private arrowBigWidget inkImageWidgetReference
+---@field private damageThreshold Float
+---@field private root inkWidget
+---@field private animProxy inkanimProxy
+---@field private damageTaken Float
+---@field private continuous Bool
+---@field private revengeActive Bool
 gameuiDamageIndicatorPartLogicController = {}
 
 ---@param fields? table

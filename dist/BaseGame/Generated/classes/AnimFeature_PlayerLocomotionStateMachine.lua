@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PlayerLocomotionStateMachine: animAnimFeature
----@field public ["inAirState"] Bool
+---@field public inAirState Bool
 AnimFeature_PlayerLocomotionStateMachine = {}
 
 ---@param fields? table

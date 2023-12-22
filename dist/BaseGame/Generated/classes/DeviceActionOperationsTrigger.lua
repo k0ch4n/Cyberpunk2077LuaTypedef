@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceActionOperationsTrigger: DeviceOperationsTrigger
----@field protected ["triggerData"] DeviceActionOperationTriggerData
+---@field protected triggerData DeviceActionOperationTriggerData
 DeviceActionOperationsTrigger = {}
 
 ---@param fields? table

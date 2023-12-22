@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TerminalControllerPS: MasterControllerPS
----@field private ["terminalSetup"] TerminalSetup
----@field private ["terminalSkillChecks"] HackEngContainer
----@field protected ["spawnedSystems"] VirtualSystemPS[]
----@field private ["useKeyloggerHack"] Bool
----@field protected ["shouldShowTerminalTitle"] Bool
----@field protected ["defaultGlitchVideoPath"] redResourceReferenceScriptToken
----@field protected ["broadcastGlitchVideoPath"] redResourceReferenceScriptToken
----@field protected ["state"] gameinteractionsReactionState
----@field protected ["forcedElevatorArrowsState"] EForcedElevatorArrowsState
+---@field private terminalSetup TerminalSetup
+---@field private terminalSkillChecks HackEngContainer
+---@field protected spawnedSystems VirtualSystemPS[]
+---@field private useKeyloggerHack Bool
+---@field protected shouldShowTerminalTitle Bool
+---@field protected defaultGlitchVideoPath redResourceReferenceScriptToken
+---@field protected broadcastGlitchVideoPath redResourceReferenceScriptToken
+---@field protected state gameinteractionsReactionState
+---@field protected forcedElevatorArrowsState EForcedElevatorArrowsState
 TerminalControllerPS = {}
 
 ---@param fields? table

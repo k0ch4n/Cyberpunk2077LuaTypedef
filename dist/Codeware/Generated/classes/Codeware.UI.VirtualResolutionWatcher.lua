@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_VirtualResolutionWatcher: userSettingsVarListener
----@field public ["initialized"] Bool
----@field public ["window"] Vector2
----@field public ["game"] ScriptGameInstance
----@field public ["targets"] Codeware_UI_VirtualResolutionTarget[]
----@field public ["gameControllers"] gameuiWidgetGameController[]
----@field public ["logicControllers"] inkWidgetLogicController[]
+---@field public initialized Bool
+---@field public window Vector2
+---@field public game ScriptGameInstance
+---@field public targets Codeware_UI_VirtualResolutionTarget[]
+---@field public gameControllers gameuiWidgetGameController[]
+---@field public logicControllers inkWidgetLogicController[]
 Codeware_UI_VirtualResolutionWatcher = {}
 
 ---@param fields? table

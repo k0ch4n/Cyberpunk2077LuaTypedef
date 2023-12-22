@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargeIndicatorWidgetType: Enum
----@field ["INVALID"] ChargeIndicatorWidgetType 0
----@field ["JENKINS"] ChargeIndicatorWidgetType 1
----@field ["TIMEBANK"] ChargeIndicatorWidgetType 2
+---@field INVALID 0
+---@field JENKINS 1
+---@field TIMEBANK 2
 ChargeIndicatorWidgetType = {}

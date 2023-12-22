@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficLightColor: Enum
----@field ["GREEN"] worldTrafficLightColor 0
----@field ["RED"] worldTrafficLightColor 1
----@field ["YELLOW"] worldTrafficLightColor 2
----@field ["INVALID"] worldTrafficLightColor 3
+---@field GREEN 0
+---@field RED 1
+---@field YELLOW 2
+---@field INVALID 3
 worldTrafficLightColor = {}

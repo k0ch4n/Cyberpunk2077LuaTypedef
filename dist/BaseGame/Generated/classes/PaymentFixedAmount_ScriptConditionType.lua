@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PaymentFixedAmount_ScriptConditionType: PaymentConditionTypeBase
----@field public ["payAmount"] Uint32
+---@field public payAmount Uint32
 PaymentFixedAmount_ScriptConditionType = {}
 
 ---@param fields? table

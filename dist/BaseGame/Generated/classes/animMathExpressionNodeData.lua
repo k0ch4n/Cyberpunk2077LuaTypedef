@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animMathExpressionNodeData
----@field public ["expression"] mathExprExpression
----@field public ["floatSockets"] animAnimMathExpressionFloatSocket[]
----@field public ["vectorSockets"] animAnimMathExpressionVectorSocket[]
----@field public ["quaternionSockets"] animAnimMathExpressionQuaternionSocket[]
+---@field public expression mathExprExpression
+---@field public floatSockets animAnimMathExpressionFloatSocket[]
+---@field public vectorSockets animAnimMathExpressionVectorSocket[]
+---@field public quaternionSockets animAnimMathExpressionQuaternionSocket[]
 animMathExpressionNodeData = {}
 
 ---@param fields? table

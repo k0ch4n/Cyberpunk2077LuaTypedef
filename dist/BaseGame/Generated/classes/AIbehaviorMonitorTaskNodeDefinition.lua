@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMonitorTaskNodeDefinition: AIbehaviorTaskNodeDefinition
----@field public ["timeout"] Float
+---@field public timeout Float
 AIbehaviorMonitorTaskNodeDefinition = {}
 
 ---@param fields? table

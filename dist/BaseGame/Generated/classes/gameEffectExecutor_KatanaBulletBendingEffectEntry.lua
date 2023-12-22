@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_KatanaBulletBendingEffectEntry
----@field public ["tag"] CName
----@field public ["effect"] worldEffect
----@field public ["attach"] Bool
+---@field public tag CName
+---@field public effect worldEffect
+---@field public attach Bool
 gameEffectExecutor_KatanaBulletBendingEffectEntry = {}
 
 ---@param fields? table

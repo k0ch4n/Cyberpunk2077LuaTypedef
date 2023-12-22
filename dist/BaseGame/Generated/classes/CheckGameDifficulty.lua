@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CheckGameDifficulty: AIbehaviorconditionScript
----@field public ["comparedDifficulty"] gameDifficulty
----@field public ["comparisonOperator"] EComparisonOperator
----@field public ["currentDifficulty"] gameDifficulty
----@field public ["currentDifficultyValue"] Int32
----@field public ["comparedDifficultyValue"] Int32
+---@field public comparedDifficulty gameDifficulty
+---@field public comparisonOperator EComparisonOperator
+---@field public currentDifficulty gameDifficulty
+---@field public currentDifficultyValue Int32
+---@field public comparedDifficultyValue Int32
 CheckGameDifficulty = {}
 
 ---@param fields? table

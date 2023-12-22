@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PartUninstallRequest: gamePlayerScriptableSystemRequest
----@field public ["itemID"] gameItemID
----@field public ["partID"] gameItemID
+---@field public itemID gameItemID
+---@field public partID gameItemID
 PartUninstallRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsAnyThreatClose: AIAutonomousConditions
----@field public ["distance"] Float
+---@field public distance Float
 IsAnyThreatClose = {}
 
 ---@param fields? table

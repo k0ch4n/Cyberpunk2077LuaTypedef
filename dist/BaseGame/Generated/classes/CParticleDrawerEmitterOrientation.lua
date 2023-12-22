@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleDrawerEmitterOrientation: IParticleDrawer
----@field public ["coordinateSystem"] EulerAngles
----@field public ["isGPUBased"] Bool
+---@field public coordinateSystem EulerAngles
+---@field public isGPUBased Bool
 CParticleDrawerEmitterOrientation = {}
 
 ---@param fields? table

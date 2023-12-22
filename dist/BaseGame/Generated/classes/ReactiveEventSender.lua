@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ReactiveEventSender: AISignalSenderTask
----@field public ["behaviorArgumentNameTag"] CName
----@field public ["behaviorArgumentFloatPriority"] CName
----@field public ["behaviorArgumentNameFlag"] CName
----@field public ["reactiveType"] CName
+---@field public behaviorArgumentNameTag CName
+---@field public behaviorArgumentFloatPriority CName
+---@field public behaviorArgumentNameFlag CName
+---@field public reactiveType CName
 ReactiveEventSender = {}
 
 ---@param fields? table

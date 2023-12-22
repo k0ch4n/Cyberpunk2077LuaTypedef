@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIFollowerTakedownCommandHandler: AIbehaviortaskScript
----@field public ["inCommand"] AIArgumentMapping
+---@field public inCommand AIArgumentMapping
 AIFollowerTakedownCommandHandler = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class PlaySFXEffector: gameEffector
----@field public ["activationSFXName"] CName
----@field public ["deactivationSFXName"] CName
----@field public ["startOnUninitialize"] Bool
----@field public ["unique"] Bool
----@field public ["fireAndForget"] Bool
----@field public ["stopActiveSfxOnDeactivate"] Bool
----@field public ["owner"] gameObject
+---@field public activationSFXName CName
+---@field public deactivationSFXName CName
+---@field public startOnUninitialize Bool
+---@field public unique Bool
+---@field public fireAndForget Bool
+---@field public stopActiveSfxOnDeactivate Bool
+---@field public owner gameObject
 PlaySFXEffector = {}
 
 ---@param fields? table

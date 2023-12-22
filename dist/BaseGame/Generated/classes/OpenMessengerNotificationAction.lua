@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class OpenMessengerNotificationAction: GenericNotificationBaseAction
----@field public ["eventDispatcher"] worlduiIWidgetGameController
----@field public ["journalEntry"] gameJournalEntry
+---@field public eventDispatcher worlduiIWidgetGameController
+---@field public journalEntry gameJournalEntry
 OpenMessengerNotificationAction = {}
 
 ---@param fields? table

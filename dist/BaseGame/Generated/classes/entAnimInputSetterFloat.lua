@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterFloat: entAnimInputSetter
----@field public ["value"] Float
+---@field public value Float
 entAnimInputSetterFloat = {}
 
 ---@param fields? table

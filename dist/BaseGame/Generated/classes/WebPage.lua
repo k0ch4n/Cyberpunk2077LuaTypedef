@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class WebPage: inkWidgetLogicController
----@field protected ["textList"] inkTextWidgetReference[]
----@field protected ["rectangleList"] inkRectangleWidgetReference[]
----@field protected ["imageList"] inkImageWidgetReference[]
----@field protected ["videoList"] inkVideoWidgetReference[]
----@field protected ["canvasesList"] inkCanvasWidgetReference[]
----@field private ["lastClickedLinkAddress"] String
----@field private ["HOME_IMAGE_NAME"] String
----@field private ["HOME_TEXT_NAME"] String
+---@field protected textList inkTextWidgetReference[]
+---@field protected rectangleList inkRectangleWidgetReference[]
+---@field protected imageList inkImageWidgetReference[]
+---@field protected videoList inkVideoWidgetReference[]
+---@field protected canvasesList inkCanvasWidgetReference[]
+---@field private lastClickedLinkAddress String
+---@field private HOME_IMAGE_NAME String
+---@field private HOME_TEXT_NAME String
 WebPage = {}
 
 ---@param fields? table

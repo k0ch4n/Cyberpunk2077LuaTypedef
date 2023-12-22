@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceNPC: ActivatedDeviceTransfromAnim
----@field public ["hasProperAnimations"] Bool
+---@field public hasProperAnimations Bool
 ActivatedDeviceNPC = {}
 
 ---@param fields? table

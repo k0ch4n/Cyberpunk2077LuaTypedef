@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MediaDeviceData
----@field public ["initialStation"] Int32
----@field public ["amountOfStations"] Int32
----@field public ["activeChannelName"] String
----@field public ["isInteractive"] Bool
+---@field public initialStation Int32
+---@field public amountOfStations Int32
+---@field public activeChannelName String
+---@field public isInteractive Bool
 MediaDeviceData = {}
 
 ---@param fields? table

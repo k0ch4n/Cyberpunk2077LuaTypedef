@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UIInventoryScriptableEquipmentListener: IScriptable
----@field private ["uiInventoryScriptableSystem"] UIInventoryScriptableSystem
----@field private ["EquipmentBlackboard"] gameIBlackboard
----@field private ["itemEquippedListener"] redCallbackObject
+---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem
+---@field private EquipmentBlackboard gameIBlackboard
+---@field private itemEquippedListener redCallbackObject
 UIInventoryScriptableEquipmentListener = {}
 
 ---@param fields? table

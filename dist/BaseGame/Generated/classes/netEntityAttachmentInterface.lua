@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class netEntityAttachmentInterface
----@field public ["time"] netTime
+---@field public time netTime
 netEntityAttachmentInterface = {}
 
 ---@param fields? table

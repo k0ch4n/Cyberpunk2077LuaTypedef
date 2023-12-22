@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVehicleCrowdHit_ConditionType: questIVehicleConditionType
----@field public ["lethal"] Bool
+---@field public lethal Bool
 questVehicleCrowdHit_ConditionType = {}
 
 ---@param fields? table

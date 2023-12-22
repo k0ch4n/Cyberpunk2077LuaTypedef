@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGrenadeEntitySettings: audioEntitySettings
----@field public ["explosionSound"] CName
+---@field public explosionSound CName
 audioGrenadeEntitySettings = {}
 
 ---@param fields? table

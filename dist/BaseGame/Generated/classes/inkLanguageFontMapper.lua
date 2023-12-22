@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkLanguageFontMapper: ISerializable
----@field public ["mappings"] inkLanguageFontMapping[]
+---@field public mappings inkLanguageFontMapping[]
 inkLanguageFontMapper = {}
 
 ---@param fields? table

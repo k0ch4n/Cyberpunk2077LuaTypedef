@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ThrowableWeaponObject: gameweaponObject
----@field protected ["projectileComponent"] gameprojectileComponent
----@field protected ["weaponOwner"] gameObject
+---@field protected projectileComponent gameprojectileComponent
+---@field protected weaponOwner gameObject
 ThrowableWeaponObject = {}
 
 ---@param fields? table

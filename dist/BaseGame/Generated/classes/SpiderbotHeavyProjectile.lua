@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SpiderbotHeavyProjectile: BaseProjectile
----@field private ["meshComponent"] entIComponent
----@field private ["effect"] gameEffectRef
----@field private ["startVelocity"] Float
----@field private ["lifetime"] Float
----@field private ["alive"] Bool
----@field private ["hit"] Bool
+---@field private meshComponent entIComponent
+---@field private effect gameEffectRef
+---@field private startVelocity Float
+---@field private lifetime Float
+---@field private alive Bool
+---@field private hit Bool
 SpiderbotHeavyProjectile = {}
 
 ---@param fields? table

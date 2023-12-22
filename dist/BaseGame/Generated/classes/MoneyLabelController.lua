@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MoneyLabelController: inkTextValueProgressAnimationController
----@field private ["animation"] inkanimProxy
----@field private ["currentMoney"] Float
----@field private ["pulse"] PulseAnimation
+---@field private animation inkanimProxy
+---@field private currentMoney Float
+---@field private pulse PulseAnimation
 MoneyLabelController = {}
 
 ---@param fields? table

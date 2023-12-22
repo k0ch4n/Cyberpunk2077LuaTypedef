@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameweaponAnimFeature_AimPlayer: animAnimFeature_BasicAim
----@field public ["zoomLevel"] Float
----@field public ["aimInTime"] Float
----@field public ["aimOutTime"] Float
+---@field public zoomLevel Float
+---@field public aimInTime Float
+---@field public aimOutTime Float
 gameweaponAnimFeature_AimPlayer = {}
 
 ---@param fields? table

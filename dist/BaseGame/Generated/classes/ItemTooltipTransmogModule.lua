@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipTransmogModule: ItemTooltipModuleController
----@field private ["buttonHintWidgetRef"] inkWidgetReference
----@field private ["labelRef"] inkTextWidgetReference
----@field private ["buttonHint"] LabelInputDisplayController
+---@field private buttonHintWidgetRef inkWidgetReference
+---@field private labelRef inkTextWidgetReference
+---@field private buttonHint LabelInputDisplayController
 ItemTooltipTransmogModule = {}
 
 ---@param fields? table

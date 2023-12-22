@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RipperdocCyberwareEquipAnimationCategory: IScriptable
----@field public ["factName"] CName
----@field public ["equipAreas"] gamedataEquipmentArea[]
----@field public ["weight"] Float
----@field public ["equipCount"] Int32
+---@field public factName CName
+---@field public equipAreas gamedataEquipmentArea[]
+---@field public weight Float
+---@field public equipCount Int32
 RipperdocCyberwareEquipAnimationCategory = {}
 
 ---@param fields? table

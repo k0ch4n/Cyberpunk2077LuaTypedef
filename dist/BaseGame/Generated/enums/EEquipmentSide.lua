@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EEquipmentSide: Enum
----@field ["Left"] EEquipmentSide 0
----@field ["Right"] EEquipmentSide 1
+---@field Left 0
+---@field Right 1
 EEquipmentSide = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineComponent: gamePlayerControlledComponent
----@field public ["packageName"] String
+---@field public packageName String
 gamestateMachineComponent = {}
 
 ---@param fields? table

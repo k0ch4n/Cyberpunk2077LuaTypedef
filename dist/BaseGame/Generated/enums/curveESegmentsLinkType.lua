@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class curveESegmentsLinkType: Enum
----@field ["ESLT_Normal"] curveESegmentsLinkType 0
----@field ["ESLT_Smooth"] curveESegmentsLinkType 1
----@field ["ESLT_SmoothSymmetric"] curveESegmentsLinkType 2
+---@field ESLT_Normal 0
+---@field ESLT_Smooth 1
+---@field ESLT_SmoothSymmetric 2
 curveESegmentsLinkType = {}

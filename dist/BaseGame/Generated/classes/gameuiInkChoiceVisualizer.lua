@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiInkChoiceVisualizer: gameuiIChoiceVisualizer
----@field public ["isDynamic"] Bool
----@field public ["type"] gameuiChoiceListVisualizerType
+---@field public isDynamic Bool
+---@field public type gameuiChoiceListVisualizerType
 gameuiInkChoiceVisualizer = {}
 
 ---@param fields? table

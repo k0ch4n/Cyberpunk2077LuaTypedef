@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldStaticLaneCollisions
----@field public ["lane"] worldTrafficLaneUID
----@field public ["collisions"] worldTrafficStaticCollisionSphere[]
----@field public ["deadEndStart"] Float
+---@field public lane worldTrafficLaneUID
+---@field public collisions worldTrafficStaticCollisionSphere[]
+---@field public deadEndStart Float
 worldStaticLaneCollisions = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldProxyCoreAxis: Enum
----@field ["X"] worldProxyCoreAxis 0
----@field ["Y"] worldProxyCoreAxis 1
----@field ["Z"] worldProxyCoreAxis 2
+---@field X 0
+---@field Y 1
+---@field Z 2
 worldProxyCoreAxis = {}

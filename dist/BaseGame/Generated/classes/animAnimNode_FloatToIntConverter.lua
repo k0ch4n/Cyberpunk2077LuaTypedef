@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatToIntConverter: animAnimNode_IntValue
----@field public ["inputNode"] animFloatLink
+---@field public inputNode animFloatLink
 animAnimNode_FloatToIntConverter = {}
 
 ---@param fields? table

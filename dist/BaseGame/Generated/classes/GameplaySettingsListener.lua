@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class GameplaySettingsListener: userSettingsVarListener
----@field private ["player"] PlayerPuppet
----@field private ["userSettings"] userSettingsUserSettings
----@field private ["diffSettingsGroup"] userSettingsGroup
----@field private ["miscSettingsGroup"] userSettingsGroup
----@field private ["controlsGroup"] userSettingsGroup
----@field private ["vehicleControlsGroup"] userSettingsGroup
----@field private ["hudGroup"] userSettingsGroup
----@field public ["additiveCameraMovements"] Float
----@field public ["isFastForwardByLine"] Bool
----@field public ["InputHintsEnabled"] Bool
----@field public ["movementDodgeEnabled"] Bool
----@field public ["vehicleCombatHoldToShootEnabled"] Bool
----@field private ["difficultyPath"] CName
----@field private ["miscPath"] CName
----@field private ["controlsPath"] CName
----@field private ["vehicleControlsPath"] CName
----@field private ["hudPath"] CName
----@field private ["additiveCameraOptionName"] CName
----@field private ["fastForwardOptionName"] CName
----@field private ["inputHintsOptionName"] CName
----@field private ["movementDodgeOptionName"] CName
----@field private ["vehicleCombatHoldToShootOptionName"] CName
+---@field private player PlayerPuppet
+---@field private userSettings userSettingsUserSettings
+---@field private diffSettingsGroup userSettingsGroup
+---@field private miscSettingsGroup userSettingsGroup
+---@field private controlsGroup userSettingsGroup
+---@field private vehicleControlsGroup userSettingsGroup
+---@field private hudGroup userSettingsGroup
+---@field public additiveCameraMovements Float
+---@field public isFastForwardByLine Bool
+---@field public InputHintsEnabled Bool
+---@field public movementDodgeEnabled Bool
+---@field public vehicleCombatHoldToShootEnabled Bool
+---@field private difficultyPath CName
+---@field private miscPath CName
+---@field private controlsPath CName
+---@field private vehicleControlsPath CName
+---@field private hudPath CName
+---@field private additiveCameraOptionName CName
+---@field private fastForwardOptionName CName
+---@field private inputHintsOptionName CName
+---@field private movementDodgeOptionName CName
+---@field private vehicleCombatHoldToShootOptionName CName
 GameplaySettingsListener = {}
 
 ---@param fields? table

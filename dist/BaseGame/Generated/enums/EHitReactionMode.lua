@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class EHitReactionMode: Enum
----@field ["Regular"] EHitReactionMode 0
----@field ["ForceImpact"] EHitReactionMode 1
----@field ["ForceStagger"] EHitReactionMode 2
----@field ["ForceKnockdown"] EHitReactionMode 3
----@field ["Fragile"] EHitReactionMode 4
----@field ["Weak"] EHitReactionMode 5
----@field ["Tough"] EHitReactionMode 6
----@field ["Bulky"] EHitReactionMode 7
----@field ["Unstoppable"] EHitReactionMode 8
----@field ["UnstoppableTwitchMin"] EHitReactionMode 9
----@field ["UnstoppableTwitchNone"] EHitReactionMode 10
----@field ["StaggerMin"] EHitReactionMode 11
----@field ["BulkyStaggerMin"] EHitReactionMode 12
----@field ["Invalid"] EHitReactionMode 13
+---@field Regular 0
+---@field ForceImpact 1
+---@field ForceStagger 2
+---@field ForceKnockdown 3
+---@field Fragile 4
+---@field Weak 5
+---@field Tough 6
+---@field Bulky 7
+---@field Unstoppable 8
+---@field UnstoppableTwitchMin 9
+---@field UnstoppableTwitchNone 10
+---@field StaggerMin 11
+---@field BulkyStaggerMin 12
+---@field Invalid 13
 EHitReactionMode = {}

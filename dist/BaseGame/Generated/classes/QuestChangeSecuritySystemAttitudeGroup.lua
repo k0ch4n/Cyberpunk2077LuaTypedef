@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestChangeSecuritySystemAttitudeGroup: redEvent
----@field public ["newAttitudeGroup"] TweakDBID
+---@field public newAttitudeGroup TweakDBID
 QuestChangeSecuritySystemAttitudeGroup = {}
 
 ---@param fields? table

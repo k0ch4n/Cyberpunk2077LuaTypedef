@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceControlContextDecisions: InputContextTransitionDecisions
----@field private ["callbackID"] redCallbackObject
+---@field private callbackID redCallbackObject
 DeviceControlContextDecisions = {}
 
 ---@param fields? table

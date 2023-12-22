@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class UploadFromNPCToPlayerListener: QuickHackUploadListener
----@field public ["playerPuppet"] ScriptedPuppet
----@field public ["npcPuppet"] ScriptedPuppet
----@field public ["npcSquad"] entEntityID[]
----@field public ["HUDData"] HUDProgressBarData
----@field public ["hudBlackboard"] gameIBlackboard
----@field private ["startUploadTimeStamp"] Float
----@field private ["ssAction"] Bool
----@field private ["preventionHackLoopAction"] Bool
----@field private ["shouldStopRevealOnPreventionDeescalation"] Bool
----@field private ["squadScriptInterface"] AISquadScriptInterface
----@field private ["useInterruptionPrereqs"] Bool
+---@field public playerPuppet ScriptedPuppet
+---@field public npcPuppet ScriptedPuppet
+---@field public npcSquad entEntityID[]
+---@field public HUDData HUDProgressBarData
+---@field public hudBlackboard gameIBlackboard
+---@field private startUploadTimeStamp Float
+---@field private ssAction Bool
+---@field private preventionHackLoopAction Bool
+---@field private shouldStopRevealOnPreventionDeescalation Bool
+---@field private squadScriptInterface AISquadScriptInterface
+---@field private useInterruptionPrereqs Bool
 UploadFromNPCToPlayerListener = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerVisuals_SetBrokenNoseStage: questICharacterManagerVisuals_NodeSubType
----@field public ["brokenNoseStage"] gameuiCharacterCustomization_BrokenNoseStage
+---@field public brokenNoseStage gameuiCharacterCustomization_BrokenNoseStage
 questCharacterManagerVisuals_SetBrokenNoseStage = {}
 
 ---@param fields? table

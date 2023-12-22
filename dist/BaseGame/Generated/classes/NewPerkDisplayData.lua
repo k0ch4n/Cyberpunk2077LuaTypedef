@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewPerkDisplayData: BasePerkDisplayData
----@field public ["area"] gamedataNewPerkSlotType
----@field public ["type"] gamedataNewPerkType
----@field public ["isRipperdoc"] Bool
+---@field public area gamedataNewPerkSlotType
+---@field public type gamedataNewPerkType
+---@field public isRipperdoc Bool
 NewPerkDisplayData = {}
 
 ---@param fields? table

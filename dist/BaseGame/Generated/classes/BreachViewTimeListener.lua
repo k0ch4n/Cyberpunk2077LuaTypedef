@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BreachViewTimeListener: tickScriptTimeDilationListener
----@field public ["myOwner"] gameObject
+---@field public myOwner gameObject
 BreachViewTimeListener = {}
 
 ---@param fields? table

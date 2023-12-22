@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkSingleDrawMetric
----@field public ["exeedsLimit"] Bool
----@field public ["hierarchySize"] Vector2
----@field public ["usedTextures"] Uint32[]
+---@field public exeedsLimit Bool
+---@field public hierarchySize Vector2
+---@field public usedTextures Uint32[]
 inkSingleDrawMetric = {}
 
 ---@param fields? table

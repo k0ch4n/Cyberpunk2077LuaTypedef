@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PatchNotesCheckData: IScriptable
----@field public ["ownExpansion"] Bool
+---@field public ownExpansion Bool
 PatchNotesCheckData = {}
 
 ---@param fields? table

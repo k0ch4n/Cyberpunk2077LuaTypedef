@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_DampVector: animAnimNode_VectorValue
----@field public ["defaultIncreaseSpeed"] Vector4
----@field public ["defaultDecreaseSpeed"] Vector4
----@field public ["startFromDefaultValue"] Bool
----@field public ["defaultInitialValue"] Vector4
----@field public ["inputNode"] animVectorLink
----@field public ["increaseSpeedNode"] animVectorLink
----@field public ["decreaseSpeedNode"] animVectorLink
+---@field public defaultIncreaseSpeed Vector4
+---@field public defaultDecreaseSpeed Vector4
+---@field public startFromDefaultValue Bool
+---@field public defaultInitialValue Vector4
+---@field public inputNode animVectorLink
+---@field public increaseSpeedNode animVectorLink
+---@field public decreaseSpeedNode animVectorLink
 animAnimNode_DampVector = {}
 
 ---@param fields? table

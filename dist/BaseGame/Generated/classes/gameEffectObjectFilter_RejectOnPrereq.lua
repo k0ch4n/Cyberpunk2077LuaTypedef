@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_RejectOnPrereq: gameEffectObjectSingleFilter
----@field public ["prereq"] gameIPrereq
+---@field public prereq gameIPrereq
 gameEffectObjectFilter_RejectOnPrereq = {}
 
 ---@param fields? table

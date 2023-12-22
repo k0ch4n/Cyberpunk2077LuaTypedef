@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class netTime
----@field public ["milliSecs"] Uint64
+---@field public milliSecs Uint64
 netTime = {}
 
 ---@param fields? table

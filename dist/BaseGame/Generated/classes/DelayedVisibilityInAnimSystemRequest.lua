@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DelayedVisibilityInAnimSystemRequest: gameScriptableSystemRequest
----@field public ["data"] ForcedVisibilityInAnimSystemData
----@field public ["isVisible"] Bool
----@field public ["entityID"] entEntityID
+---@field public data ForcedVisibilityInAnimSystemData
+---@field public isVisible Bool
+---@field public entityID entEntityID
 DelayedVisibilityInAnimSystemRequest = {}
 
 ---@param fields? table

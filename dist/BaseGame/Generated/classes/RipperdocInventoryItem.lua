@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RipperdocInventoryItem: inkVirtualCompoundItemController
----@field protected ["root"] inkWidgetReference
----@field protected ["data"] RipperdocWrappedUIInventoryItem
----@field protected ["widget"] InventoryItemDisplayController
+---@field protected root inkWidgetReference
+---@field protected data RipperdocWrappedUIInventoryItem
+---@field protected widget InventoryItemDisplayController
 RipperdocInventoryItem = {}
 
 ---@param fields? table

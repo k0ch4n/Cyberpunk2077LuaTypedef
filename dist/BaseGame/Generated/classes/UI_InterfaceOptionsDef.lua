@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class UI_InterfaceOptionsDef: gamebbScriptDefinition
----@field public ["CrowdsOnMinimap"] gamebbScriptID_Bool
----@field public ["ObjectMarkersEnabled"] gamebbScriptID_Bool
----@field public ["NPCNamesEnabled"] gamebbScriptID_Bool
----@field public ["NPCNameplatesEnabled"] gamebbScriptID_Bool
----@field public ["HUDMarkersEnabled"] gamebbScriptID_Bool
+---@field public CrowdsOnMinimap gamebbScriptID_Bool
+---@field public ObjectMarkersEnabled gamebbScriptID_Bool
+---@field public NPCNamesEnabled gamebbScriptID_Bool
+---@field public NPCNameplatesEnabled gamebbScriptID_Bool
+---@field public HUDMarkersEnabled gamebbScriptID_Bool
 UI_InterfaceOptionsDef = {}
 
 ---@param fields? table

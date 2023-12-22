@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class FindTeleportPositionKurt: AIbehaviortaskScript
----@field public ["target"] AIArgumentMapping
----@field public ["extents"] AIArgumentMapping
----@field public ["extentsOffset"] AIArgumentMapping
----@field public ["workspotRotation"] AIArgumentMapping
----@field public ["workspotOffset"] AIArgumentMapping
----@field public ["outPositionArgument"] AIArgumentMapping
----@field public ["outRotationArgument"] AIArgumentMapping
----@field public ["outMaybeStairs"] AIArgumentMapping
+---@field public target AIArgumentMapping
+---@field public extents AIArgumentMapping
+---@field public extentsOffset AIArgumentMapping
+---@field public workspotRotation AIArgumentMapping
+---@field public workspotOffset AIArgumentMapping
+---@field public outPositionArgument AIArgumentMapping
+---@field public outRotationArgument AIArgumentMapping
+---@field public outMaybeStairs AIArgumentMapping
 FindTeleportPositionKurt = {}
 
 ---@param fields? table

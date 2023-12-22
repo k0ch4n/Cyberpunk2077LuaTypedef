@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ToggleFocusClueEvent: redEvent
----@field public ["clueIndex"] Int32
----@field public ["isEnabled"] Bool
----@field public ["investigationState"] EFocusClueInvestigationState
----@field public ["updatePS"] Bool
+---@field public clueIndex Int32
+---@field public isEnabled Bool
+---@field public investigationState EFocusClueInvestigationState
+---@field public updatePS Bool
 ToggleFocusClueEvent = {}
 
 ---@param fields? table

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SlideEvents: CrouchEvents
----@field public ["rumblePlayed"] Bool
----@field public ["enteredWithSprint"] Bool
----@field public ["decelerating"] Bool
----@field public ["perkDecelerationMultiplier"] Float
----@field public ["addDecelerationModifier"] gameStatModifierData_Deprecated
----@field public ["multiplyDecelerationModifier"] gameStatModifierData_Deprecated
+---@field public rumblePlayed Bool
+---@field public enteredWithSprint Bool
+---@field public decelerating Bool
+---@field public perkDecelerationMultiplier Float
+---@field public addDecelerationModifier gameStatModifierData_Deprecated
+---@field public multiplyDecelerationModifier gameStatModifierData_Deprecated
 SlideEvents = {}
 
 ---@param fields? table

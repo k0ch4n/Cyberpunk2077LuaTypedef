@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleVisWireMasterTwo: gameObject
----@field private ["dependableEntities"] NodeRef[]
+---@field private dependableEntities NodeRef[]
 sampleVisWireMasterTwo = {}
 
 ---@param fields? table

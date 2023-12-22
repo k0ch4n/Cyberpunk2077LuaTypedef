@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GenericDevice: InteractiveDevice
----@field protected ["offMeshConnectionComponent"] AIOffMeshConnectionComponent
----@field private ["currentSpiderbotAction"] CustomDeviceAction
+---@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
+---@field private currentSpiderbotAction CustomDeviceAction
 GenericDevice = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class DeviceWidgetControllerBase: DeviceInkLogicControllerBase
----@field protected ["backgroundTextureRef"] inkImageWidgetReference
----@field protected ["statusNameWidget"] inkTextWidgetReference
----@field protected ["actionsListWidget"] inkWidgetReference
----@field protected ["actionWidgetsData"] SActionWidgetPackage[]
----@field protected ["actionData"] ResolveActionData
+---@field protected backgroundTextureRef inkImageWidgetReference
+---@field protected statusNameWidget inkTextWidgetReference
+---@field protected actionsListWidget inkWidgetReference
+---@field protected actionWidgetsData SActionWidgetPackage[]
+---@field protected actionData ResolveActionData
 DeviceWidgetControllerBase = {}
 
 ---@param fields? table

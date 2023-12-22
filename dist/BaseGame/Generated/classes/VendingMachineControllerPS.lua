@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class VendingMachineControllerPS: ScriptableDeviceComponentPS
----@field private ["vendingMachineSetup"] VendingMachineSetup
----@field private ["vendingMachineSFX"] VendingMachineSFX
----@field protected ["soldOutProbability"] Float
----@field protected ["isReady"] Bool
----@field protected ["isSoldOut"] Bool
----@field protected ["hackCount"] Int32
----@field private ["shopStock"] gameSItemStack[]
----@field protected ["shopStockInit"] Bool
+---@field private vendingMachineSetup VendingMachineSetup
+---@field private vendingMachineSFX VendingMachineSFX
+---@field protected soldOutProbability Float
+---@field protected isReady Bool
+---@field protected isSoldOut Bool
+---@field protected hackCount Int32
+---@field private shopStock gameSItemStack[]
+---@field protected shopStockInit Bool
 VendingMachineControllerPS = {}
 
 ---@param fields? table

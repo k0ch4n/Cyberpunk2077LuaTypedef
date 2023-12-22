@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStepperData
----@field public ["label"] String
----@field public ["data"] IScriptable
+---@field public label String
+---@field public data IScriptable
 inkStepperData = {}
 
 ---@param fields? table

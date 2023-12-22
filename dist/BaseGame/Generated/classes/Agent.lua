@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Agent
----@field public ["link"] DeviceLink
----@field public ["reprimands"] ReprimandData[]
----@field public ["supportingAgents"] gamePersistentID[]
----@field public ["areas"] DeviceLink[]
----@field public ["incomingFilter"] EFilterType
----@field public ["cachedDelayDuration"] Float
+---@field public link DeviceLink
+---@field public reprimands ReprimandData[]
+---@field public supportingAgents gamePersistentID[]
+---@field public areas DeviceLink[]
+---@field public incomingFilter EFilterType
+---@field public cachedDelayDuration Float
 Agent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animLipsyncMappingSceneEntry
----@field public ["actorVoiceTags"] CRUID[]
----@field public ["animSets"] animAnimSet[]
+---@field public actorVoiceTags CRUID[]
+---@field public animSets animAnimSet[]
 animLipsyncMappingSceneEntry = {}
 
 ---@param fields? table

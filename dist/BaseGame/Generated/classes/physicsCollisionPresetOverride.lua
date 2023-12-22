@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsCollisionPresetOverride
----@field public ["from"] CName
----@field public ["to"] CName
+---@field public from CName
+---@field public to CName
 physicsCollisionPresetOverride = {}
 
 ---@param fields? table

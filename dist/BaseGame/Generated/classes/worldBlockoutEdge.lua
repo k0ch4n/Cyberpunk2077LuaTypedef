@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldBlockoutEdge
----@field public ["points"] Uint32[]
----@field public ["areas"] Uint32[]
----@field public ["isFree"] Bool
+---@field public points Uint32[]
+---@field public areas Uint32[]
+---@field public isFree Bool
 worldBlockoutEdge = {}
 
 ---@param fields? table

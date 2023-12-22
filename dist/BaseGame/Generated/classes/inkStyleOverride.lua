@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStyleOverride
----@field public ["overrideType"] inkStyleOverrideType
----@field public ["styleResource"] inkStyleResource
+---@field public overrideType inkStyleOverrideType
+---@field public styleResource inkStyleResource
 inkStyleOverride = {}
 
 ---@param fields? table

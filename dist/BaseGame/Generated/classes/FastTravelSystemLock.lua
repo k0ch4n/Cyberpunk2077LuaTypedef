@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FastTravelSystemLock
----@field public ["lockReason"] CName
----@field public ["linkedStatusEffectID"] TweakDBID
+---@field public lockReason CName
+---@field public linkedStatusEffectID TweakDBID
 FastTravelSystemLock = {}
 
 ---@param fields? table

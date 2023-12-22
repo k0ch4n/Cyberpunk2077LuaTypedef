@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RequestDeviceWidgetsUpdateEvent: RequestWidgetUpdateEvent
----@field public ["requesters"] gamePersistentID[]
+---@field public requesters gamePersistentID[]
 RequestDeviceWidgetsUpdateEvent = {}
 
 ---@param fields? table

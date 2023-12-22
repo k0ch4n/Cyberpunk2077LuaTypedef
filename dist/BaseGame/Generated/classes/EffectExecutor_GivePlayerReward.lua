@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_GivePlayerReward: gameEffectExecutor_Scripted
----@field public ["reward"] TweakDBID
----@field public ["amount"] Int32
+---@field public reward TweakDBID
+---@field public amount Int32
 EffectExecutor_GivePlayerReward = {}
 
 ---@param fields? table

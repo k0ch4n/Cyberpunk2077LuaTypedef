@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InMenuPopup: Codeware_UI_CustomPopup
----@field public ["container"] inkCompoundWidget
----@field public ["result"] GenericMessageNotificationResult
----@field public ["confirmAction"] CName
+---@field public container inkCompoundWidget
+---@field public result GenericMessageNotificationResult
+---@field public confirmAction CName
 Codeware_UI_InMenuPopup = {}
 
 ---@return nil

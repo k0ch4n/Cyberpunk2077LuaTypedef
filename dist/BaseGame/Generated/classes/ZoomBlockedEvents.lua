@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ZoomBlockedEvents: ZoomEventsTransition
----@field public ["previousCameraPerspective"] vehicleCameraPerspective
----@field public ["previousCameraPerspectiveValid"] Bool
+---@field public previousCameraPerspective vehicleCameraPerspective
+---@field public previousCameraPerspectiveValid Bool
 ZoomBlockedEvents = {}
 
 ---@param fields? table

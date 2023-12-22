@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_CoordinateFromVector: animAnimNode_FloatValue
----@field public ["vectorCoodrinateType"] animVectorCoordinateType
----@field public ["input"] animVectorLink
+---@field public vectorCoodrinateType animVectorCoordinateType
+---@field public input animVectorLink
 animAnimNode_CoordinateFromVector = {}
 
 ---@param fields? table

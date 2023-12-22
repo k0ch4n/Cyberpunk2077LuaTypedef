@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleScreenProjectionGameController: gameuiProjectedHUDGameController
----@field private ["OnTargetHitCallback"] redCallbackObject
+---@field private OnTargetHitCallback redCallbackObject
 sampleScreenProjectionGameController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnscreenplayStandaloneComment
----@field public ["itemId"] scnscreenplayItemId
----@field public ["comment"] String
+---@field public itemId scnscreenplayItemId
+---@field public comment String
 scnscreenplayStandaloneComment = {}
 
 ---@param fields? table

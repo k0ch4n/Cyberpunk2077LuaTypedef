@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CrosshairLogicController_RasetsuAimFire: inkWidgetLogicController
----@field public ["chargebarContainer"] inkWidgetReference
----@field public ["perfectChargeIndicator"] inkWidgetReference
----@field public ["chargeBar"] ChargebarController
----@field public ["animPerfectCharge"] inkanimProxy
+---@field public chargebarContainer inkWidgetReference
+---@field public perfectChargeIndicator inkWidgetReference
+---@field public chargeBar ChargebarController
+---@field public animPerfectCharge inkanimProxy
 CrosshairLogicController_RasetsuAimFire = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_MoveTo: animAnimFeature
----@field public ["initialFwdVector"] Vector4
----@field public ["targetPositionWs"] Vector4
----@field public ["targetDirectionWs"] Vector4
----@field public ["timeToMove"] Float
+---@field public initialFwdVector Vector4
+---@field public targetPositionWs Vector4
+---@field public targetDirectionWs Vector4
+---@field public timeToMove Float
 animAnimFeature_MoveTo = {}
 
 ---@param fields? table

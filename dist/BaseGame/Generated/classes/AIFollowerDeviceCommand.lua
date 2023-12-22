@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIFollowerDeviceCommand: AIFollowerCommand
----@field public ["target"] gameObject
----@field public ["overrideMovementTarget"] gameObject
+---@field public target gameObject
+---@field public overrideMovementTarget gameObject
 AIFollowerDeviceCommand = {}
 
 ---@param fields? table

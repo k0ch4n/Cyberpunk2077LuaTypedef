@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class GamepadLightScriptableSystem: gameScriptableSystem
----@field private ["controllerCurrentColor"] Vector3
----@field private ["controllerStartColor"] Vector3
----@field private ["controllerTargetColor"] Vector3
----@field private ["currentProgress"] Float
----@field private ["useExponentialCurve"] Bool
----@field private ["prevTime"] Float
----@field private ["currentState"] ELightState
----@field private ["prevState"] ELightState
----@field private ["timeLimit"] Float
----@field private ["currrentId"] gameDelayID
+---@field private controllerCurrentColor Vector3
+---@field private controllerStartColor Vector3
+---@field private controllerTargetColor Vector3
+---@field private currentProgress Float
+---@field private useExponentialCurve Bool
+---@field private prevTime Float
+---@field private currentState ELightState
+---@field private prevState ELightState
+---@field private timeLimit Float
+---@field private currrentId gameDelayID
 GamepadLightScriptableSystem = {}
 
 ---@param fields? table

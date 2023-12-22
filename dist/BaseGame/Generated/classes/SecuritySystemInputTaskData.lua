@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemInputTaskData: gameScriptTaskData
----@field public ["cachedEvt"] SecuritySystemInput
+---@field public cachedEvt SecuritySystemInput
 SecuritySystemInputTaskData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entEntityInstanceData: ISerializable
----@field public ["buffer"] DataBuffer
+---@field public buffer DataBuffer
 entEntityInstanceData = {}
 
 ---@param fields? table

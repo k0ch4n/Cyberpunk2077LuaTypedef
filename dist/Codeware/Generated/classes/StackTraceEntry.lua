@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StackTraceEntry
----@field public ["class"] CName
----@field public ["function"] CName
----@field public ["object"] IScriptable
+---@field public class CName
+---@field public function CName
+---@field public object IScriptable
 StackTraceEntry = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPrefabInstanceData: ISerializable
----@field public ["buffer"] DataBuffer
+---@field public buffer DataBuffer
 worldPrefabInstanceData = {}
 
 ---@param fields? table

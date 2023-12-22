@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput_Caret: Codeware_UI_inkCustomController
----@field public ["caret"] inkRectangleWidget
----@field public ["position"] Int32
----@field public ["maxPosition"] Int32
----@field public ["opacity"] Float
----@field public ["fontSize"] Float
----@field public ["padSize"] Float
----@field public ["blinkAnimDef"] inkanimDefinition
----@field public ["blinkAnimProxy"] inkanimProxy
+---@field public caret inkRectangleWidget
+---@field public position Int32
+---@field public maxPosition Int32
+---@field public opacity Float
+---@field public fontSize Float
+---@field public padSize Float
+---@field public blinkAnimDef inkanimDefinition
+---@field public blinkAnimProxy inkanimProxy
 Codeware_UI_TextInput_Caret = {}
 
 ---@param fields? table

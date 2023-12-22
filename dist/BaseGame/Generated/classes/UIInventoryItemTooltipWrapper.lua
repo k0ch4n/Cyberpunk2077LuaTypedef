@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemTooltipWrapper: ATooltipData
----@field public ["data"] UIInventoryItem
----@field public ["displayContext"] ItemDisplayContextData
----@field public ["overridePrice"] Int32
----@field public ["comparisonData"] UIInventoryItemComparisonManager
+---@field public data UIInventoryItem
+---@field public displayContext ItemDisplayContextData
+---@field public overridePrice Int32
+---@field public comparisonData UIInventoryItemComparisonManager
 UIInventoryItemTooltipWrapper = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEStatProviderDataSource: Enum
----@field ["gameItemData"] gameEStatProviderDataSource 0
----@field ["InventoryItemData"] gameEStatProviderDataSource 1
----@field ["InnerItemData"] gameEStatProviderDataSource 2
----@field ["Invalid"] gameEStatProviderDataSource 3
+---@field gameItemData 0
+---@field InventoryItemData 1
+---@field InnerItemData 2
+---@field Invalid 3
 gameEStatProviderDataSource = {}

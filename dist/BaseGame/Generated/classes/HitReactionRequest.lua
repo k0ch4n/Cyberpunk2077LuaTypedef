@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitReactionRequest: redEvent
----@field public ["hitEvent"] gameeventsHitEvent
+---@field public hitEvent gameeventsHitEvent
 HitReactionRequest = {}
 
 ---@param fields? table

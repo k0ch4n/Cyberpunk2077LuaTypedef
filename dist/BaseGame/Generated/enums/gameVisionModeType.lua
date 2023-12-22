@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameVisionModeType: Enum
----@field ["Default"] gameVisionModeType 0
----@field ["Focus"] gameVisionModeType 1
+---@field Default 0
+---@field Focus 1
 gameVisionModeType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAlwaysSpawnedState: Enum
----@field ["default (false)"] gameAlwaysSpawnedState 0
----@field ["true"] gameAlwaysSpawnedState 1
----@field ["false"] gameAlwaysSpawnedState 2
+---@field ["default (false)"] 0
+---@field true 1
+---@field false 2
 gameAlwaysSpawnedState = {}

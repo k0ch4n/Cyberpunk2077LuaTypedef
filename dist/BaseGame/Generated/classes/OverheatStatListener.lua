@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OverheatStatListener: gameScriptStatPoolsListener
----@field public ["weapon"] gameweaponObject
----@field private ["updateEvt"] UpdateOverheatEvent
----@field private ["startEvt"] StartOverheatEffectEvent
+---@field public weapon gameweaponObject
+---@field private updateEvt UpdateOverheatEvent
+---@field private startEvt StartOverheatEffectEvent
 OverheatStatListener = {}
 
 ---@param fields? table

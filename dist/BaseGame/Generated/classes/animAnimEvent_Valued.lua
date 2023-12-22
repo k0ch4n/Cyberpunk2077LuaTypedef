@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_Valued: animAnimEvent
----@field public ["value"] Float
+---@field public value Float
 animAnimEvent_Valued = {}
 
 ---@param fields? table

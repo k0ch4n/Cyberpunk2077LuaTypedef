@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SocialPanelGameController: gameuiMenuGameController
----@field private ["SocialPanelContactsListRef"] inkWidgetReference
----@field private ["SocialPanelContactsDetailsRef"] inkWidgetReference
----@field private ["ContactsList"] SocialPanelContactsList
----@field private ["ContactDetails"] SocialPanelContactsDetails
----@field private ["RootWidget"] inkWidget
----@field private ["JournalMgr"] gameJournalManager
+---@field private SocialPanelContactsListRef inkWidgetReference
+---@field private SocialPanelContactsDetailsRef inkWidgetReference
+---@field private ContactsList SocialPanelContactsList
+---@field private ContactDetails SocialPanelContactsDetails
+---@field private RootWidget inkWidget
+---@field private JournalMgr gameJournalManager
 SocialPanelGameController = {}
 
 ---@param fields? table

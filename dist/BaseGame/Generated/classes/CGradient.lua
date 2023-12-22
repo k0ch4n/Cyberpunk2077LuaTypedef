@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CGradient: CResource
----@field public ["gradientEntries"] rendGradientEntry[]
+---@field public gradientEntries rendGradientEntry[]
 CGradient = {}
 
 ---@param fields? table

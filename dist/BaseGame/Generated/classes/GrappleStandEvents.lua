@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrappleStandEvents: LocomotionTakedownEvents
----@field public ["isWalking"] Bool
+---@field public isWalking Bool
 GrappleStandEvents = {}
 
 ---@param fields? table

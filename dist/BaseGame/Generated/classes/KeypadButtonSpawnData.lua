@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class KeypadButtonSpawnData: IScriptable
----@field public ["widgetName"] CName
----@field public ["locKey"] String
----@field public ["isActionButton"] Bool
----@field public ["widgetData"] SDeviceWidgetPackage
+---@field public widgetName CName
+---@field public locKey String
+---@field public isActionButton Bool
+---@field public widgetData SDeviceWidgetPackage
 KeypadButtonSpawnData = {}
 
 ---@param fields? table

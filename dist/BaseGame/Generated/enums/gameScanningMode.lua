@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameScanningMode: Enum
----@field ["Inactive"] gameScanningMode 0
----@field ["Light"] gameScanningMode 1
----@field ["Heavy"] gameScanningMode 2
+---@field Inactive 0
+---@field Light 1
+---@field Heavy 2
 gameScanningMode = {}

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_HubLinkButton: Codeware_UI_CustomButton
----@field public ["icon"] inkImageWidget
----@field public ["fluff"] inkImageWidget
----@field public ["hover"] inkWidget
----@field public ["disabledRootAnimDef"] inkanimDefinition
----@field public ["disabledRootAnimProxy"] inkanimProxy
----@field public ["hoverFillAnimDef"] inkanimDefinition
----@field public ["hoverFillAnimProxy"] inkanimProxy
+---@field public icon inkImageWidget
+---@field public fluff inkImageWidget
+---@field public hover inkWidget
+---@field public disabledRootAnimDef inkanimDefinition
+---@field public disabledRootAnimProxy inkanimProxy
+---@field public hoverFillAnimDef inkanimDefinition
+---@field public hoverFillAnimProxy inkanimProxy
 Codeware_UI_HubLinkButton = {}
 
 ---@param fields? table

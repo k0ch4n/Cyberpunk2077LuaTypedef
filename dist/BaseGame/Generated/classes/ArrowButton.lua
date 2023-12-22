@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ArrowButton: inkButtonController
----@field private ["direction"] Direction
+---@field private direction Direction
 ArrowButton = {}
 
 ---@param fields? table

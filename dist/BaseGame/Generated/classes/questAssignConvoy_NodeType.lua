@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAssignConvoy_NodeType: questIVehicleManagerNodeType
----@field public ["Followers"] gameEntityReference[]
----@field public ["vehicleLeaderRef"] gameEntityReference
+---@field public Followers gameEntityReference[]
+---@field public vehicleLeaderRef gameEntityReference
 questAssignConvoy_NodeType = {}
 
 ---@param fields? table

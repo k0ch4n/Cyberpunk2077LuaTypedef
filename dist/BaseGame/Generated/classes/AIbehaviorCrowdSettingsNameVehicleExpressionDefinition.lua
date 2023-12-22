@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCrowdSettingsNameVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
----@field public ["settingsName"] CName
+---@field public settingsName CName
 AIbehaviorCrowdSettingsNameVehicleExpressionDefinition = {}
 
 ---@param fields? table

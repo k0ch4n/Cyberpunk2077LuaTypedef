@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questQuestsSystemReplicatedState: gameIGameSystemReplicatedState
----@field public ["replicatedQuestPrefabs"] questQuestPrefabsEntry[]
+---@field public replicatedQuestPrefabs questQuestPrefabsEntry[]
 questQuestsSystemReplicatedState = {}
 
 ---@param fields? table

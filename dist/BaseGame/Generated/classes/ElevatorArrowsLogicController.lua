@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ElevatorArrowsLogicController: DeviceInkLogicControllerBase
----@field private ["arrow1Widget"] inkWidgetReference
----@field private ["arrow2Widget"] inkWidgetReference
----@field private ["arrow3Widget"] inkWidgetReference
----@field private ["animFade1"] inkanimDefinition
----@field private ["animFade2"] inkanimDefinition
----@field private ["animFade3"] inkanimDefinition
----@field private ["animSlow1"] inkanimDefinition
----@field private ["animSlow2"] inkanimDefinition
----@field private ["animOptions1"] inkanimPlaybackOptions
----@field private ["animOptions2"] inkanimPlaybackOptions
----@field private ["animOptions3"] inkanimPlaybackOptions
+---@field private arrow1Widget inkWidgetReference
+---@field private arrow2Widget inkWidgetReference
+---@field private arrow3Widget inkWidgetReference
+---@field private animFade1 inkanimDefinition
+---@field private animFade2 inkanimDefinition
+---@field private animFade3 inkanimDefinition
+---@field private animSlow1 inkanimDefinition
+---@field private animSlow2 inkanimDefinition
+---@field private animOptions1 inkanimPlaybackOptions
+---@field private animOptions2 inkanimPlaybackOptions
+---@field private animOptions3 inkanimPlaybackOptions
 ElevatorArrowsLogicController = {}
 
 ---@param fields? table

@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class worldTerrainCollisionNode: worldNode
----@field public ["materials"] CName[]
----@field public ["materialIndices"] Uint8[]
----@field public ["heightfieldGeometry"] serializationDeferredDataBuffer
----@field public ["actorTransform"] WorldTransform
----@field public ["extents"] Vector4
----@field public ["streamingDistance"] Float
----@field public ["rowScale"] Float
----@field public ["columnScale"] Float
----@field public ["heightScale"] Float
----@field public ["increaseStreamingDistance"] Bool
+---@field public materials CName[]
+---@field public materialIndices Uint8[]
+---@field public heightfieldGeometry serializationDeferredDataBuffer
+---@field public actorTransform WorldTransform
+---@field public extents Vector4
+---@field public streamingDistance Float
+---@field public rowScale Float
+---@field public columnScale Float
+---@field public heightScale Float
+---@field public increaseStreamingDistance Bool
 worldTerrainCollisionNode = {}
 
 ---@param fields? table

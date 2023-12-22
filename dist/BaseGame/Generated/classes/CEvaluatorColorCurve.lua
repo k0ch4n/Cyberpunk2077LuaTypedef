@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorColorCurve: IEvaluatorColor
----@field public ["curves"] curveData
----@field public ["numberOfCurveSamples"] Uint32
+---@field public curves curveData
+---@field public numberOfCurveSamples Uint32
 CEvaluatorColorCurve = {}
 
 ---@param fields? table

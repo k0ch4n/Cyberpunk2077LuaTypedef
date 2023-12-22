@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnMonowireQuickhackContagiousTargetStatusAppliedCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["ContagiousTarget"] ScriptedPuppet
+---@field public ContagiousTarget ScriptedPuppet
 OnMonowireQuickhackContagiousTargetStatusAppliedCallback = {}
 
 ---@param fields? table

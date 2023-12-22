@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_ForkliftDevice: animAnimFeature
----@field public ["isUp"] Bool
----@field public ["isDown"] Bool
----@field public ["distract"] Bool
+---@field public isUp Bool
+---@field public isDown Bool
+---@field public distract Bool
 AnimFeature_ForkliftDevice = {}
 
 ---@param fields? table

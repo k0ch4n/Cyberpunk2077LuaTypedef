@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ControlledDeviceData: WidgetCustomData
----@field public ["isActive"] Bool
----@field public ["isNest"] Bool
+---@field public isActive Bool
+---@field public isNest Bool
 ControlledDeviceData = {}
 
 ---@param fields? table

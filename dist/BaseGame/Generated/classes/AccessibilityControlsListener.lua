@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AccessibilityControlsListener: userSettingsVarListener
----@field private ["ctrl"] PlayerPuppet
----@field private ["settings"] userSettingsUserSettings
----@field private ["settingsGroup"] userSettingsGroup
----@field private ["allowCycleToFistCyberware"] Bool
----@field private ["accessibilityControlsPath"] CName
+---@field private ctrl PlayerPuppet
+---@field private settings userSettingsUserSettings
+---@field private settingsGroup userSettingsGroup
+---@field private allowCycleToFistCyberware Bool
+---@field private accessibilityControlsPath CName
 AccessibilityControlsListener = {}
 
 ---@param fields? table

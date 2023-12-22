@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneTime
----@field public ["stu"] Uint32
+---@field public stu Uint32
 scnSceneTime = {}
 
 ---@param fields? table

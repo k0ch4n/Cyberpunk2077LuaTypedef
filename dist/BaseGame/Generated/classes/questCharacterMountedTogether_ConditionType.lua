@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterMountedTogether_ConditionType: questICharacterConditionType
----@field public ["vehicleType"] questMountVehicleType
----@field public ["vehicleOrigin"] questMountVehicleOrigin
----@field public ["characters"] questMountedObjectInfo[]
+---@field public vehicleType questMountVehicleType
+---@field public vehicleOrigin questMountVehicleOrigin
+---@field public characters questMountedObjectInfo[]
 questCharacterMountedTogether_ConditionType = {}
 
 ---@param fields? table

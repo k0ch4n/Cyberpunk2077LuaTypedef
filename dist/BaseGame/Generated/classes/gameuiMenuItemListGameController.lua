@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiMenuItemListGameController: gameuiSaveHandlingController
----@field protected ["menuList"] inkCompoundWidgetReference
----@field protected ["menuEventDispatcher"] inkMenuEventDispatcher
----@field protected ["menuListController"] inkListController
+---@field protected menuList inkCompoundWidgetReference
+---@field protected menuEventDispatcher inkMenuEventDispatcher
+---@field protected menuListController inkListController
 gameuiMenuItemListGameController = {}
 
 ---@param fields? table

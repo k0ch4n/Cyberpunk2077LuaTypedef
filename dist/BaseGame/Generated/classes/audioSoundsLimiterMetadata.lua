@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioSoundsLimiterMetadata: audioAudioMetadata
----@field public ["tooManyPlayingGruntsAndVOsLimitation"] audioLimitedSound[]
----@field public ["gunsAreLoudAndMusicIsActiveLimitation"] audioLimitedSound[]
----@field public ["gunsAreLoudLimitation"] audioLimitedSound[]
----@field public ["tooManyPlayingSoundsLimitation"] audioLimitedSound[]
+---@field public tooManyPlayingGruntsAndVOsLimitation audioLimitedSound[]
+---@field public gunsAreLoudAndMusicIsActiveLimitation audioLimitedSound[]
+---@field public gunsAreLoudLimitation audioLimitedSound[]
+---@field public tooManyPlayingSoundsLimitation audioLimitedSound[]
 audioSoundsLimiterMetadata = {}
 
 ---@param fields? table

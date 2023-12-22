@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneId
----@field public ["resPathHash"] Uint64
+---@field public resPathHash Uint64
 scnSceneId = {}
 
 ---@param fields? table

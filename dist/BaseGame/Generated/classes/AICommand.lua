@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AICommand: IScriptable
----@field public ["id"] Uint32
----@field public ["state"] AICommandState
----@field public ["questBlockId"] Uint64
----@field public ["category"] CName
+---@field public id Uint32
+---@field public state AICommandState
+---@field public questBlockId Uint64
+---@field public category CName
 AICommand = {}
 
 ---@param fields? table

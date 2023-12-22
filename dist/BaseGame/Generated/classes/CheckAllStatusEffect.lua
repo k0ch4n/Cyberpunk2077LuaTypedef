@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CheckAllStatusEffect: AIStatusEffectCondition
----@field public ["behaviorArgumentNameTag"] CName
----@field public ["behaviorArgumentFloatPriority"] CName
----@field public ["behaviorArgumentNameFlag"] CName
+---@field public behaviorArgumentNameTag CName
+---@field public behaviorArgumentFloatPriority CName
+---@field public behaviorArgumentNameFlag CName
 CheckAllStatusEffect = {}
 
 ---@param fields? table

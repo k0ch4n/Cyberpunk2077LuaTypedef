@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkESliderDirection: Enum
----@field ["Horizontal"] inkESliderDirection 0
----@field ["Vertical"] inkESliderDirection 1
+---@field Horizontal 0
+---@field Vertical 1
 inkESliderDirection = {}

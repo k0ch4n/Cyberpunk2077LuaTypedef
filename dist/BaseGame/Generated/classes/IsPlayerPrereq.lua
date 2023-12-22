@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsPlayerPrereq: gameIScriptablePrereq
----@field public ["invert"] Bool
+---@field public invert Bool
 IsPlayerPrereq = {}
 
 ---@param fields? table

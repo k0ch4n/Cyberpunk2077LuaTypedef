@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnLookAtAdvancedEvent: scnSceneEvent
----@field public ["advancedData"] scnLookAtAdvancedEventData
+---@field public advancedData scnLookAtAdvancedEventData
 scnLookAtAdvancedEvent = {}
 
 ---@param fields? table

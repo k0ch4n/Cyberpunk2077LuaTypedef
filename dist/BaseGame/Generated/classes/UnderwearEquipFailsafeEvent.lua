@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UnderwearEquipFailsafeEvent: redEvent
----@field public ["bottom"] Bool
+---@field public bottom Bool
 UnderwearEquipFailsafeEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_LeftHandAnimation: animAnimFeature
----@field public ["lockLeftHandAnimation"] Bool
+---@field public lockLeftHandAnimation Bool
 AnimFeature_LeftHandAnimation = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionDroneMoveSplineTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public ["spline"] AIArgumentMapping
+---@field public spline AIArgumentMapping
 AIbehaviorActionDroneMoveSplineTreeNodeDefinition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class prvFunctionalTestQueryOverlapResult
----@field public ["entityID"] entEntityID
----@field public ["position"] Vector3
+---@field public entityID entEntityID
+---@field public position Vector3
 prvFunctionalTestQueryOverlapResult = {}
 
 ---@param fields? table

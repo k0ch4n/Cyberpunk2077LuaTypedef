@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleON: ActionBool
----@field protected ["TrueRecordName"] String
----@field protected ["FalseRecordName"] String
+---@field protected TrueRecordName String
+---@field protected FalseRecordName String
 ToggleON = {}
 
 ---@param fields? table

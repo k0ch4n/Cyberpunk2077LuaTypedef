@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class JuggernautEffector: gameContinuousEffector
----@field public ["modifiersAdded"] Bool
----@field public ["poolSystem"] gameStatPoolsSystem
----@field public ["statusEffectSystem"] gameStatusEffectSystem
+---@field public modifiersAdded Bool
+---@field public poolSystem gameStatPoolsSystem
+---@field public statusEffectSystem gameStatusEffectSystem
 JuggernautEffector = {}
 
 ---@param fields? table

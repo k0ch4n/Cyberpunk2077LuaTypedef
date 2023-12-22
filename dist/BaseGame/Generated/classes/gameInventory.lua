@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameInventory: gameComponent
----@field public ["saveInventory"] Bool
----@field public ["inventoryTag"] gameSharedInventoryTag
----@field public ["noInitialization"] Bool
+---@field public saveInventory Bool
+---@field public inventoryTag gameSharedInventoryTag
+---@field public noInitialization Bool
 gameInventory = {}
 
 ---@param fields? table

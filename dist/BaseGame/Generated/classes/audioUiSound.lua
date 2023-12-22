@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioUiSound
----@field public ["events"] CName[]
+---@field public events CName[]
 audioUiSound = {}
 
 ---@param fields? table

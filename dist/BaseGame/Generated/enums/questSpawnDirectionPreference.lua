@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questSpawnDirectionPreference: Enum
----@field ["Behind"] questSpawnDirectionPreference 0
----@field ["InFront"] questSpawnDirectionPreference 1
+---@field Behind 0
+---@field InFront 1
 questSpawnDirectionPreference = {}

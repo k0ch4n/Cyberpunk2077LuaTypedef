@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleTargetingComponentsEvent: redEvent
----@field public ["toggle"] Bool
+---@field public toggle Bool
 ToggleTargetingComponentsEvent = {}
 
 ---@param fields? table

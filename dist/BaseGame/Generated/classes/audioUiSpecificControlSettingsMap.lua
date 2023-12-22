@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioUiSpecificControlSettingsMap: audioAudioMetadata
----@field public ["specificControlSettingsMatrix"] audioUiSpecificControlSettingsMapItem[]
+---@field public specificControlSettingsMatrix audioUiSpecificControlSettingsMapItem[]
 audioUiSpecificControlSettingsMap = {}
 
 ---@param fields? table

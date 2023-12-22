@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponJammedAction: StatusEffectActions
----@field public ["jammedWeaponDuration"] Float
----@field public ["jammedWeaponStartTimeStamp"] Float
+---@field public jammedWeaponDuration Float
+---@field public jammedWeaponStartTimeStamp Float
 WeaponJammedAction = {}
 
 ---@param fields? table

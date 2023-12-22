@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsSetChoicesEvent: redEvent
----@field public ["choices"] gameinteractionsChoice[]
----@field public ["layer"] CName
+---@field public choices gameinteractionsChoice[]
+---@field public layer CName
 gameinteractionsSetChoicesEvent = {}
 
 ---@param fields? table

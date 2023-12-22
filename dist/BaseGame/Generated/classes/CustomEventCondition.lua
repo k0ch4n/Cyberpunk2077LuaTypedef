@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomEventCondition: AISignalCondition
----@field public ["eventName"] CName
+---@field public eventName CName
 CustomEventCondition = {}
 
 ---@param fields? table

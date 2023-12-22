@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_SelectRandomAnimSync: animAnimFeature
----@field public ["value"] Int32
+---@field public value Int32
 AnimFeature_SelectRandomAnimSync = {}
 
 ---@param fields? table

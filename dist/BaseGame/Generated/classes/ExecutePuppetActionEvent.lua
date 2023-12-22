@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExecutePuppetActionEvent: redEvent
----@field public ["actionID"] TweakDBID
----@field public ["action"] PuppetAction
+---@field public actionID TweakDBID
+---@field public action PuppetAction
 ExecutePuppetActionEvent = {}
 
 ---@param fields? table

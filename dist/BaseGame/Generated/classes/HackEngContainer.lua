@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HackEngContainer: BaseSkillCheckContainer
----@field public ["hackingCheck"] HackingSkillCheck
----@field public ["engineeringCheck"] EngineeringSkillCheck
+---@field public hackingCheck HackingSkillCheck
+---@field public engineeringCheck EngineeringSkillCheck
 HackEngContainer = {}
 
 ---@param fields? table

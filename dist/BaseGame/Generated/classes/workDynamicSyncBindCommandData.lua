@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workDynamicSyncBindCommandData: workSyncBindBaseCommandData
----@field public ["masterID"] entEntityID
+---@field public masterID entEntityID
 workDynamicSyncBindCommandData = {}
 
 ---@param fields? table

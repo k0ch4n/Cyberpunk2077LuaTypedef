@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReprimandAgentDisconnectEvent: redEvent
----@field public ["agentID"] entEntityID
+---@field public agentID entEntityID
 ReprimandAgentDisconnectEvent = {}
 
 ---@param fields? table

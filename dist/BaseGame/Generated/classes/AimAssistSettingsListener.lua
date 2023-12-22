@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class AimAssistSettingsListener: userSettingsVarListener
----@field private ["ctrl"] PlayerPuppet
----@field private ["settings"] userSettingsUserSettings
----@field private ["settingsGroup"] userSettingsGroup
----@field private ["aimAssistLevel"] EAimAssistLevel
----@field private ["aimAssistMeleeLevel"] EAimAssistLevel
----@field private ["aimAssistDriverCombatEnabled"] Bool
----@field private ["aimAssistSnapEnabled"] Bool
----@field private ["difficultySettingsPath"] CName
----@field public ["currentConfig"] AimAssistSettingConfig
----@field public ["settingsRecords"] gamedataAimAssistSettings_Record[]
+---@field private ctrl PlayerPuppet
+---@field private settings userSettingsUserSettings
+---@field private settingsGroup userSettingsGroup
+---@field private aimAssistLevel EAimAssistLevel
+---@field private aimAssistMeleeLevel EAimAssistLevel
+---@field private aimAssistDriverCombatEnabled Bool
+---@field private aimAssistSnapEnabled Bool
+---@field private difficultySettingsPath CName
+---@field public currentConfig AimAssistSettingConfig
+---@field public settingsRecords gamedataAimAssistSettings_Record[]
 AimAssistSettingsListener = {}
 
 ---@param fields? table

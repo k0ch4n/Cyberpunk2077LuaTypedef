@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEWorldMapDistrictView: Enum
----@field ["None"] gameuiEWorldMapDistrictView 0
----@field ["Districts"] gameuiEWorldMapDistrictView 1
----@field ["SubDistricts"] gameuiEWorldMapDistrictView 2
+---@field None 0
+---@field Districts 1
+---@field SubDistricts 2
 gameuiEWorldMapDistrictView = {}

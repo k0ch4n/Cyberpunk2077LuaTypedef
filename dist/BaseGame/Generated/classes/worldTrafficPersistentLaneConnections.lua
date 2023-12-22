@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentLaneConnections
----@field public ["outlanes"] worldTrafficConnectivityOutLane[]
----@field public ["inLanes"] worldTrafficConnectivityInLane[]
+---@field public outlanes worldTrafficConnectivityOutLane[]
+---@field public inLanes worldTrafficConnectivityInLane[]
 worldTrafficPersistentLaneConnections = {}
 
 ---@param fields? table

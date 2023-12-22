@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiTarotCardAddedNotificationViewData: gameuiGenericNotificationViewData
----@field public ["imagePart"] CName
----@field public ["cardName"] String
----@field public ["animation"] CName
+---@field public imagePart CName
+---@field public cardName String
+---@field public animation CName
 gameuiTarotCardAddedNotificationViewData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterAim_ConditionType: questICharacterConditionType
----@field public ["isPlayer"] Bool
----@field public ["preciseAiming"] Bool
----@field public ["targetRef"] gameEntityReference
+---@field public isPlayer Bool
+---@field public preciseAiming Bool
+---@field public targetRef gameEntityReference
 questCharacterAim_ConditionType = {}
 
 ---@param fields? table

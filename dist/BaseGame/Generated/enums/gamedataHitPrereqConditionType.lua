@@ -2,42 +2,42 @@
 ---@diagnostic disable
 
 ---@class gamedataHitPrereqConditionType: Enum
----@field ["AgentMoving"] gamedataHitPrereqConditionType 0
----@field ["AmmoState"] gamedataHitPrereqConditionType 1
----@field ["AttackSubType"] gamedataHitPrereqConditionType 2
----@field ["AttackTag"] gamedataHitPrereqConditionType 3
----@field ["AttackType"] gamedataHitPrereqConditionType 4
----@field ["BodyPart"] gamedataHitPrereqConditionType 5
----@field ["ConsecutiveHits"] gamedataHitPrereqConditionType 6
----@field ["DamageOverTimeType"] gamedataHitPrereqConditionType 7
----@field ["DamageType"] gamedataHitPrereqConditionType 8
----@field ["DismembermentTriggered"] gamedataHitPrereqConditionType 9
----@field ["DistanceCovered"] gamedataHitPrereqConditionType 10
----@field ["EffectNamePresent"] gamedataHitPrereqConditionType 11
----@field ["HitFlag"] gamedataHitPrereqConditionType 12
----@field ["HitIsQuickhackPresentInQueue"] gamedataHitPrereqConditionType 13
----@field ["InstigatorType"] gamedataHitPrereqConditionType 14
----@field ["ReactionPreset"] gamedataHitPrereqConditionType 15
----@field ["SameTarget"] gamedataHitPrereqConditionType 16
----@field ["SelfHit"] gamedataHitPrereqConditionType 17
----@field ["SourceType"] gamedataHitPrereqConditionType 18
----@field ["Stat"] gamedataHitPrereqConditionType 19
----@field ["StatComparison"] gamedataHitPrereqConditionType 20
----@field ["StatPool"] gamedataHitPrereqConditionType 21
----@field ["StatPoolComparison"] gamedataHitPrereqConditionType 22
----@field ["StatusEffectPresent"] gamedataHitPrereqConditionType 23
----@field ["TargetBreachCanGetKilledByDamage"] gamedataHitPrereqConditionType 24
----@field ["TargetCanGetKilledByDamage"] gamedataHitPrereqConditionType 25
----@field ["TargetIsCrowd"] gamedataHitPrereqConditionType 26
----@field ["TargetKilled"] gamedataHitPrereqConditionType 27
----@field ["TargetNPCRarity"] gamedataHitPrereqConditionType 28
----@field ["TargetNPCType"] gamedataHitPrereqConditionType 29
----@field ["TargetType"] gamedataHitPrereqConditionType 30
----@field ["TriggerMode"] gamedataHitPrereqConditionType 31
----@field ["WeaponEvolution"] gamedataHitPrereqConditionType 32
----@field ["WeaponItemType"] gamedataHitPrereqConditionType 33
----@field ["WeaponType"] gamedataHitPrereqConditionType 34
----@field ["WoundedTriggered"] gamedataHitPrereqConditionType 35
----@field ["Count"] gamedataHitPrereqConditionType 36
----@field ["Invalid"] gamedataHitPrereqConditionType 37
+---@field AgentMoving 0
+---@field AmmoState 1
+---@field AttackSubType 2
+---@field AttackTag 3
+---@field AttackType 4
+---@field BodyPart 5
+---@field ConsecutiveHits 6
+---@field DamageOverTimeType 7
+---@field DamageType 8
+---@field DismembermentTriggered 9
+---@field DistanceCovered 10
+---@field EffectNamePresent 11
+---@field HitFlag 12
+---@field HitIsQuickhackPresentInQueue 13
+---@field InstigatorType 14
+---@field ReactionPreset 15
+---@field SameTarget 16
+---@field SelfHit 17
+---@field SourceType 18
+---@field Stat 19
+---@field StatComparison 20
+---@field StatPool 21
+---@field StatPoolComparison 22
+---@field StatusEffectPresent 23
+---@field TargetBreachCanGetKilledByDamage 24
+---@field TargetCanGetKilledByDamage 25
+---@field TargetIsCrowd 26
+---@field TargetKilled 27
+---@field TargetNPCRarity 28
+---@field TargetNPCType 29
+---@field TargetType 30
+---@field TriggerMode 31
+---@field WeaponEvolution 32
+---@field WeaponItemType 33
+---@field WeaponType 34
+---@field WoundedTriggered 35
+---@field Count 36
+---@field Invalid 37
 gamedataHitPrereqConditionType = {}

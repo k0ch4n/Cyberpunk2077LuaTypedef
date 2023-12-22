@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterestingConversationsResource: CResource
----@field public ["conversationGroups"] scnInterestingConversationsGroup[]
+---@field public conversationGroups scnInterestingConversationsGroup[]
 scnInterestingConversationsResource = {}
 
 ---@param fields? table

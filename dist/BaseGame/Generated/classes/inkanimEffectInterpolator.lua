@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkanimEffectInterpolator: inkanimInterpolator
----@field public ["startValue"] Float
----@field public ["endValue"] Float
----@field public ["effectType"] inkEffectType
----@field public ["effectName"] CName
----@field public ["paramName"] CName
+---@field public startValue Float
+---@field public endValue Float
+---@field public effectType inkEffectType
+---@field public effectName CName
+---@field public paramName CName
 inkanimEffectInterpolator = {}
 
 ---@param fields? table

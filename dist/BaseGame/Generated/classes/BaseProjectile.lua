@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class BaseProjectile: gameItemObject
----@field protected ["projectileComponent"] gameprojectileComponent
----@field protected ["user"] gameObject
----@field protected ["projectile"] gameObject
----@field protected ["projectileSpawnPoint"] Vector4
----@field protected ["projectilePosition"] Vector4
----@field protected ["initialLaunchVelocity"] Float
----@field protected ["lifeTime"] Float
----@field public ["tweakDBPath"] String
+---@field protected projectileComponent gameprojectileComponent
+---@field protected user gameObject
+---@field protected projectile gameObject
+---@field protected projectileSpawnPoint Vector4
+---@field protected projectilePosition Vector4
+---@field protected initialLaunchVelocity Float
+---@field protected lifeTime Float
+---@field public tweakDBPath String
 BaseProjectile = {}
 
 ---@param fields? table

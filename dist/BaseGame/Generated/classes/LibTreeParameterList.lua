@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LibTreeParameterList
----@field public ["parameters"] LibTreeParameter[]
+---@field public parameters LibTreeParameter[]
 LibTreeParameterList = {}
 
 ---@param fields? table

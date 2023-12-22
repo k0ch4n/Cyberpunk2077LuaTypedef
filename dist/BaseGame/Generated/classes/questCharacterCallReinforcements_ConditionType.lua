@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterCallReinforcements_ConditionType: questICharacterConditionType
----@field public ["puppetRef"] gameEntityReference
+---@field public puppetRef gameEntityReference
 questCharacterCallReinforcements_ConditionType = {}
 
 ---@param fields? table

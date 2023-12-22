@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class activityLogEntryLogicController: inkWidgetLogicController
----@field private ["available"] Bool
----@field private ["originalSize"] Uint16
----@field private ["size"] Uint16
----@field private ["displayText"] String
----@field private ["root"] inkTextWidget
----@field private ["appearingAnim"] inkanimController
----@field private ["typingAnim"] inkanimController
----@field private ["disappearingAnim"] inkanimController
----@field private ["typingAnimDef"] inkanimDefinition
----@field private ["typingAnimProxy"] inkanimProxy
----@field private ["disappearingAnimDef"] inkanimDefinition
----@field private ["disappearingAnimProxy"] inkanimProxy
+---@field private available Bool
+---@field private originalSize Uint16
+---@field private size Uint16
+---@field private displayText String
+---@field private root inkTextWidget
+---@field private appearingAnim inkanimController
+---@field private typingAnim inkanimController
+---@field private disappearingAnim inkanimController
+---@field private typingAnimDef inkanimDefinition
+---@field private typingAnimProxy inkanimProxy
+---@field private disappearingAnimDef inkanimDefinition
+---@field private disappearingAnimProxy inkanimProxy
 activityLogEntryLogicController = {}
 
 ---@param fields? table

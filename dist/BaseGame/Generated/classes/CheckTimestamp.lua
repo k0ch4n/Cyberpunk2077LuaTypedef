@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckTimestamp: AIbehaviorconditionScript
----@field public ["validationTime"] Float
----@field public ["timestampArgument"] CName
+---@field public validationTime Float
+---@field public timestampArgument CName
 CheckTimestamp = {}
 
 ---@param fields? table

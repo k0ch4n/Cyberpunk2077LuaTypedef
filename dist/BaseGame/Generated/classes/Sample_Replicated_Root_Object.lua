@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Root_Object
----@field public ["bool"] Bool
+---@field public bool Bool
 Sample_Replicated_Root_Object = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreGameSubMenuGameController: gameuiWidgetGameController
----@field protected ["menuEventDispatcher"] inkMenuEventDispatcher
+---@field protected menuEventDispatcher inkMenuEventDispatcher
 PreGameSubMenuGameController = {}
 
 ---@param fields? table

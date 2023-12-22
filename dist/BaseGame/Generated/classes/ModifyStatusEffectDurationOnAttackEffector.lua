@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ModifyStatusEffectDurationOnAttackEffector: ModifyAttackEffector
----@field public ["tags"] CName[]
----@field public ["change"] Float
----@field public ["isPercentage"] Bool
----@field public ["listenConstantly"] Bool
----@field public ["gameInstance"] ScriptGameInstance
+---@field public tags CName[]
+---@field public change Float
+---@field public isPercentage Bool
+---@field public listenConstantly Bool
+---@field public gameInstance ScriptGameInstance
 ModifyStatusEffectDurationOnAttackEffector = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ESecuritySystemState: Enum
----@field ["UNINITIALIZED"] ESecuritySystemState 0
----@field ["SAFE"] ESecuritySystemState 1
----@field ["ALERTED"] ESecuritySystemState 2
----@field ["COMBAT"] ESecuritySystemState 3
+---@field UNINITIALIZED 0
+---@field SAFE 1
+---@field ALERTED 2
+---@field COMBAT 3
 ESecuritySystemState = {}

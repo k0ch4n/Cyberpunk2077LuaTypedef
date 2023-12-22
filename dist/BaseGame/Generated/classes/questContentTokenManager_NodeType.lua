@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questContentTokenManager_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public ["subtype"] questIContentTokenManager_NodeSubType
+---@field public subtype questIContentTokenManager_NodeSubType
 questContentTokenManager_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCameraParallaxSpace: Enum
----@field ["Trajectory"] questCameraParallaxSpace 0
----@field ["Camera"] questCameraParallaxSpace 1
----@field ["Chest"] questCameraParallaxSpace 2
+---@field Trajectory 0
+---@field Camera 1
+---@field Chest 2
 questCameraParallaxSpace = {}

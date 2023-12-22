@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EStarState: Enum
----@field ["Default"] EStarState 0
----@field ["Active"] EStarState 1
----@field ["Searching"] EStarState 2
----@field ["Blinking"] EStarState 3
+---@field Default 0
+---@field Active 1
+---@field Searching 2
+---@field Blinking 3
 EStarState = {}

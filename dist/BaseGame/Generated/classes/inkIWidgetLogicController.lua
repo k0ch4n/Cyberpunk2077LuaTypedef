@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class inkIWidgetLogicController: IScriptable
----@field public ["audioMetadataName"] CName
+---@field public audioMetadataName CName
 inkIWidgetLogicController = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BraindanceInputChangeEvent: redEvent
----@field public ["bdSystem"] BraindanceSystem
+---@field public bdSystem BraindanceSystem
 BraindanceInputChangeEvent = {}
 
 ---@param fields? table

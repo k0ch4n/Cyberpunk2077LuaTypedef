@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetZoomLevelEvent: redEvent
----@field public ["value"] Int32
+---@field public value Int32
 SetZoomLevelEvent = {}
 
 ---@param fields? table

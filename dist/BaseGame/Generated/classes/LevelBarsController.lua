@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class LevelBarsController: inkWidgetLogicController
----@field protected ["bar0"] inkWidgetReference
----@field protected ["bar1"] inkWidgetReference
----@field protected ["bar2"] inkWidgetReference
----@field protected ["bar3"] inkWidgetReference
----@field protected ["bar4"] inkWidgetReference
----@field protected ["bars"] inkWidgetReference[]
+---@field protected bar0 inkWidgetReference
+---@field protected bar1 inkWidgetReference
+---@field protected bar2 inkWidgetReference
+---@field protected bar3 inkWidgetReference
+---@field protected bar4 inkWidgetReference
+---@field protected bars inkWidgetReference[]
 LevelBarsController = {}
 
 ---@param fields? table

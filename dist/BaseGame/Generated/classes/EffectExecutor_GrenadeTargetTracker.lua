@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_GrenadeTargetTracker: gameEffectExecutor_Scripted
----@field public ["potentialTargetSlots"] CName[]
+---@field public potentialTargetSlots CName[]
 EffectExecutor_GrenadeTargetTracker = {}
 
 ---@param fields? table

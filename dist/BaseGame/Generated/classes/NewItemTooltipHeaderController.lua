@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipHeaderController: NewItemTooltipModuleController
----@field private ["itemNameText"] inkTextWidgetReference
----@field private ["itemRarityText"] inkTextWidgetReference
----@field private ["itemTypeText"] inkTextWidgetReference
----@field private ["comparisionArrow"] inkWidgetReference
----@field private ["itemEvolutionIcon"] inkImageWidgetReference
----@field private ["itemPerkIcon"] inkImageWidgetReference
----@field private ["itemWeaponIcon"] inkImageWidgetReference
----@field private ["separatorTop"] inkWidgetReference
----@field private ["localizedIconicText"] String
+---@field private itemNameText inkTextWidgetReference
+---@field private itemRarityText inkTextWidgetReference
+---@field private itemTypeText inkTextWidgetReference
+---@field private comparisionArrow inkWidgetReference
+---@field private itemEvolutionIcon inkImageWidgetReference
+---@field private itemPerkIcon inkImageWidgetReference
+---@field private itemWeaponIcon inkImageWidgetReference
+---@field private separatorTop inkWidgetReference
+---@field private localizedIconicText String
 NewItemTooltipHeaderController = {}
 
 ---@param fields? table

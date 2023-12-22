@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipModController: inkWidgetLogicController
----@field protected ["dotIndicator"] inkWidgetReference
----@field protected ["rarityContainer"] inkWidgetReference
----@field protected ["rarityWidget"] inkImageWidgetReference
----@field protected ["modAbilitiesContainer"] inkCompoundWidgetReference
----@field protected ["partIndicatorController"] InventoryItemPartDisplay
----@field protected ["isCrafting"] Bool
+---@field protected dotIndicator inkWidgetReference
+---@field protected rarityContainer inkWidgetReference
+---@field protected rarityWidget inkImageWidgetReference
+---@field protected modAbilitiesContainer inkCompoundWidgetReference
+---@field protected partIndicatorController InventoryItemPartDisplay
+---@field protected isCrafting Bool
 ItemTooltipModController = {}
 
 ---@param fields? table

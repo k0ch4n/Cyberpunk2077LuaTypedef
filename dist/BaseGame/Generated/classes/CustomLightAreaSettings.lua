@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomLightAreaSettings: IAreaSettings
----@field public ["characterLocalLightRoughnesBias"] curveData
+---@field public characterLocalLightRoughnesBias curveData
 CustomLightAreaSettings = {}
 
 ---@param fields? table

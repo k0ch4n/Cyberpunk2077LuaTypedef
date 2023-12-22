@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameplayCyberwareCondition: GameplayConditionBase
----@field public ["cyberwareToCheck"] TweakDBID
+---@field public cyberwareToCheck TweakDBID
 GameplayCyberwareCondition = {}
 
 ---@param fields? table

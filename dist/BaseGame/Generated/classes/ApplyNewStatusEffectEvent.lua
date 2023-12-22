@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ApplyNewStatusEffectEvent: redEvent
----@field public ["effectID"] TweakDBID
----@field public ["instigatorID"] TweakDBID
+---@field public effectID TweakDBID
+---@field public instigatorID TweakDBID
 ApplyNewStatusEffectEvent = {}
 
 ---@param fields? table

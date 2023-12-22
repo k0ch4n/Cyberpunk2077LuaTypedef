@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameAreaVolume: gameObject
----@field public ["areaData"] gameAreaData
+---@field public areaData gameAreaData
 gameAreaVolume = {}
 
 ---@param fields? table

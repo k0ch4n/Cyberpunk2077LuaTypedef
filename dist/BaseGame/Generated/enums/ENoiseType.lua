@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ENoiseType: Enum
----@field ["NT_Random"] ENoiseType 0
----@field ["NT_Simplex2D"] ENoiseType 1
----@field ["NT_Simplex3D"] ENoiseType 2
+---@field NT_Random 0
+---@field NT_Simplex2D 1
+---@field NT_Simplex3D 2
 ENoiseType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UI_HUDCountdownTimerDef: gamebbScriptDefinition
----@field public ["TimerID"] gamebbScriptID_Variant
----@field public ["Active"] gamebbScriptID_Bool
----@field public ["Progress"] gamebbScriptID_Float
+---@field public TimerID gamebbScriptID_Variant
+---@field public Active gamebbScriptID_Bool
+---@field public Progress gamebbScriptID_Float
 UI_HUDCountdownTimerDef = {}
 
 ---@param fields? table

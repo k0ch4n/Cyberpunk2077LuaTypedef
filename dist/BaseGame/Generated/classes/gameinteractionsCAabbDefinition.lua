@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCAabbDefinition: gameinteractionsIShapeDefinition
----@field public ["min"] Vector4
----@field public ["max"] Vector4
+---@field public min Vector4
+---@field public max Vector4
 gameinteractionsCAabbDefinition = {}
 
 ---@param fields? table

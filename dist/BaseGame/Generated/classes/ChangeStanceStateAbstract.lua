@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeStanceStateAbstract: AIbehaviortaskScript
----@field public ["changeStateOnDeactivate"] Bool
+---@field public changeStateOnDeactivate Bool
 ChangeStanceStateAbstract = {}
 
 ---@private

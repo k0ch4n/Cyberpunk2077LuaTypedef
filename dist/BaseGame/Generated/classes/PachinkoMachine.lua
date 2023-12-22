@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PachinkoMachine: ArcadeMachine
----@field protected ["distractionFXName"] CName
+---@field protected distractionFXName CName
 PachinkoMachine = {}
 
 ---@param fields? table

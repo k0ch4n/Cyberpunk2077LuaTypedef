@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FakeDoor: gameObject
----@field public ["interaction"] gameinteractionsComponent
+---@field public interaction gameinteractionsComponent
 FakeDoor = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BakcpackImmediateNotificationListener: ImmediateNotificationListener
----@field private ["backpackInstance"] gameuiBackpackMainGameController
+---@field private backpackInstance gameuiBackpackMainGameController
 BakcpackImmediateNotificationListener = {}
 
 ---@param fields? table

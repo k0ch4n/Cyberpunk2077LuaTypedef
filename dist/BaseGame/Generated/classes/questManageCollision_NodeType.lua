@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questManageCollision_NodeType: questIWorldDataManagerNodeType
----@field public ["params"] questManageCollision_NodeTypeParams[]
+---@field public params questManageCollision_NodeTypeParams[]
 questManageCollision_NodeType = {}
 
 ---@param fields? table

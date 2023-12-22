@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeshParam_Weakspot: animAnimFeature
----@field public ["hidden"] Int32
+---@field public hidden Int32
 MeshParam_Weakspot = {}
 
 ---@param fields? table

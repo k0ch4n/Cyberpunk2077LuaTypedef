@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleCustomActionDeviceOperation: DeviceOperationBase
----@field public ["customActionID"] CName
----@field public ["enabled"] Bool
+---@field public customActionID CName
+---@field public enabled Bool
 ToggleCustomActionDeviceOperation = {}
 
 ---@param fields? table

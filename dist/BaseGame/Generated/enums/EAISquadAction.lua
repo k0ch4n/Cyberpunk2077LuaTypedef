@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class EAISquadAction: Enum
----@field ["Invalid"] EAISquadAction 0
----@field ["Shoot"] EAISquadAction 1
----@field ["Charge"] EAISquadAction 2
----@field ["TakeCover"] EAISquadAction 3
----@field ["Search"] EAISquadAction 4
----@field ["Reprimand"] EAISquadAction 5
----@field ["Investigate"] EAISquadAction 6
----@field ["Melee"] EAISquadAction 7
----@field ["Taunt"] EAISquadAction 8
----@field ["Defend"] EAISquadAction 9
----@field ["Takedown"] EAISquadAction 10
----@field ["Peek"] EAISquadAction 11
----@field ["GrenadeThrow"] EAISquadAction 12
----@field ["Dash"] EAISquadAction 13
----@field ["Sync"] EAISquadAction 14
----@field ["BattleCry"] EAISquadAction 15
----@field ["CallOff"] EAISquadAction 16
----@field ["BackUp"] EAISquadAction 17
----@field ["RangedStrafe"] EAISquadAction 18
----@field ["Quickhack"] EAISquadAction 19
----@field ["GroupReaction"] EAISquadAction 20
----@field ["Crouch"] EAISquadAction 21
+---@field Invalid 0
+---@field Shoot 1
+---@field Charge 2
+---@field TakeCover 3
+---@field Search 4
+---@field Reprimand 5
+---@field Investigate 6
+---@field Melee 7
+---@field Taunt 8
+---@field Defend 9
+---@field Takedown 10
+---@field Peek 11
+---@field GrenadeThrow 12
+---@field Dash 13
+---@field Sync 14
+---@field BattleCry 15
+---@field CallOff 16
+---@field BackUp 17
+---@field RangedStrafe 18
+---@field Quickhack 19
+---@field GroupReaction 20
+---@field Crouch 21
 EAISquadAction = {}

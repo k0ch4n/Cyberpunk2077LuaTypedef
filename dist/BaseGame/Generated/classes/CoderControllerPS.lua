@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CoderControllerPS: BasicDistractionDeviceControllerPS
----@field private ["providedAuthorizationLevel"] ESecurityAccessLevel
+---@field private providedAuthorizationLevel ESecurityAccessLevel
 CoderControllerPS = {}
 
 ---@param fields? table

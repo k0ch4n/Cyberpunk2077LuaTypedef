@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetScavengedEvent: redEvent
----@field public ["target"] gameObject
+---@field public target gameObject
 TargetScavengedEvent = {}
 
 ---@param fields? table

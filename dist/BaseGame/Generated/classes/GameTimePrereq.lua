@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GameTimePrereq: gameIScriptablePrereq
----@field public ["delay"] Float
----@field public ["repeated"] Bool
----@field private ["delayFromStat"] gamedataStatType
+---@field public delay Float
+---@field public repeated Bool
+---@field private delayFromStat gamedataStatType
 GameTimePrereq = {}
 
 ---@param fields? table

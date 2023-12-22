@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class PocketRadio: IScriptable
----@field private ["player"] PlayerPuppet
----@field private ["station"] Int32
----@field private ["selectedStation"] Int32
----@field private ["toggledStation"] Int32
----@field private ["restrictions"] Bool[]
----@field private ["isConditionRestricted"] Bool
----@field private ["isUnlockDelayRestricted"] Bool
----@field private ["isRestrictionOverwritten"] Bool
----@field private ["isOn"] Bool
----@field private ["questContentLockListener"] PocketRadioQuestContentLockListener
----@field private ["radioPressTime"] Float
----@field private ["isInMetro"] Bool
+---@field private player PlayerPuppet
+---@field private station Int32
+---@field private selectedStation Int32
+---@field private toggledStation Int32
+---@field private restrictions Bool[]
+---@field private isConditionRestricted Bool
+---@field private isUnlockDelayRestricted Bool
+---@field private isRestrictionOverwritten Bool
+---@field private isOn Bool
+---@field private questContentLockListener PocketRadioQuestContentLockListener
+---@field private radioPressTime Float
+---@field private isInMetro Bool
 PocketRadio = {}
 
 ---@param fields? table

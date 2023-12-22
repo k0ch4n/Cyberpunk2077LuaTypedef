@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkMultiChildren: inkChildren
----@field public ["children"] inkWidget[]
+---@field public children inkWidget[]
 inkMultiChildren = {}
 
 ---@param fields? table

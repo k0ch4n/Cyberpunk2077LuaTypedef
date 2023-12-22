@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetLibraryItemClipboardData: ISerializable
----@field public ["libraryItem"] inkWidgetLibraryItemUnpackedView
+---@field public libraryItem inkWidgetLibraryItemUnpackedView
 inkWidgetLibraryItemClipboardData = {}
 
 ---@param fields? table

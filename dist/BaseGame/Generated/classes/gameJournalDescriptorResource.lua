@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalDescriptorResource: gameJournalBaseResource
----@field public ["entriesActivatedAtStart"] String[]
+---@field public entriesActivatedAtStart String[]
 gameJournalDescriptorResource = {}
 
 ---@param fields? table

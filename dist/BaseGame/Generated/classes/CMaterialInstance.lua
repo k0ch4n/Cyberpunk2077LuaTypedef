@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CMaterialInstance: IMaterial
----@field public ["baseMaterial"] IMaterial
----@field public ["enableMask"] Bool
----@field public ["audioTag"] CName
----@field public ["resourceVersion"] Uint8
+---@field public baseMaterial IMaterial
+---@field public enableMask Bool
+---@field public audioTag CName
+---@field public resourceVersion Uint8
 CMaterialInstance = {}
 
 ---@param fields? table

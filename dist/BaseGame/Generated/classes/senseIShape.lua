@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseIShape: IScriptable
----@field public ["id"] TweakDBID
+---@field public id TweakDBID
 senseIShape = {}
 
 ---@return senseEShapeType

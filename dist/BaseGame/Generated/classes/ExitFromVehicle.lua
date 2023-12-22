@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExitFromVehicle: AIVehicleTaskAbstract
----@field public ["useFastExit"] Bool
----@field public ["tryBlendToWalk"] Bool
+---@field public useFastExit Bool
+---@field public tryBlendToWalk Bool
 ExitFromVehicle = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CachedItemLoadout
----@field public ["itemID"] gameItemID
----@field public ["slot"] TweakDBID
+---@field public itemID gameItemID
+---@field public slot TweakDBID
 CachedItemLoadout = {}
 
 ---@param fields? table

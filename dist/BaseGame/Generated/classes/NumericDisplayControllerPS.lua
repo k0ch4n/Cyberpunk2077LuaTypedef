@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NumericDisplayControllerPS: ScriptableDeviceComponentPS
----@field private ["numberToDisplay"] Int32
----@field private ["targetNumber"] Int32
+---@field private numberToDisplay Int32
+---@field private targetNumber Int32
 NumericDisplayControllerPS = {}
 
 ---@param fields? table

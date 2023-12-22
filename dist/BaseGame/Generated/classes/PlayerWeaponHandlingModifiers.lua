@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class PlayerWeaponHandlingModifiers: IScriptable
----@field private ["player"] PlayerPuppet
----@field public ["opSymbol"] CName
----@field public ["recoilGroup"] gameConstantStatModifierData_Deprecated[]
----@field public ["timeOutGroup"] gameConstantStatModifierData_Deprecated[]
----@field public ["multSwayGroup"] gameConstantStatModifierData_Deprecated[]
----@field public ["addSwayGroup"] gameConstantStatModifierData_Deprecated[]
----@field public ["spreadGroup"] gameConstantStatModifierData_Deprecated[]
+---@field private player PlayerPuppet
+---@field public opSymbol CName
+---@field public recoilGroup gameConstantStatModifierData_Deprecated[]
+---@field public timeOutGroup gameConstantStatModifierData_Deprecated[]
+---@field public multSwayGroup gameConstantStatModifierData_Deprecated[]
+---@field public addSwayGroup gameConstantStatModifierData_Deprecated[]
+---@field public spreadGroup gameConstantStatModifierData_Deprecated[]
 PlayerWeaponHandlingModifiers = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkipPerformanceModeEnd: animAnimNode_Base
----@field public ["inputLink"] animPoseLink
+---@field public inputLink animPoseLink
 animAnimNode_SkipPerformanceModeEnd = {}
 
 ---@param fields? table

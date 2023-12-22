@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeChargedHoldEvents: MeleeRumblingEvents
----@field public ["clearWeaponCharge"] Bool
----@field public ["effectiveRangeMod"] gameStatModifierData_Deprecated
+---@field public clearWeaponCharge Bool
+---@field public effectiveRangeMod gameStatModifierData_Deprecated
 MeleeChargedHoldEvents = {}
 
 ---@param fields? table

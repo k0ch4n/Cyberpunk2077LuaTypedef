@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeadContextDecisions: InputContextTransitionDecisions
----@field private ["callbackID"] redCallbackObject
+---@field private callbackID redCallbackObject
 DeadContextDecisions = {}
 
 ---@param fields? table

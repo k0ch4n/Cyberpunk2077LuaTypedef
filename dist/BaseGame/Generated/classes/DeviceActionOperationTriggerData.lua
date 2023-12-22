@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceActionOperationTriggerData: DeviceOperationTriggerData
----@field public ["action"] ScriptableDeviceAction
+---@field public action ScriptableDeviceAction
 DeviceActionOperationTriggerData = {}
 
 ---@param fields? table

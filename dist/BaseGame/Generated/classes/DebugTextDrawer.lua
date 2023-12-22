@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DebugTextDrawer: gameObject
----@field private ["text"] String
----@field private ["color"] Color
+---@field private text String
+---@field private color Color
 DebugTextDrawer = {}
 
 ---@param fields? table

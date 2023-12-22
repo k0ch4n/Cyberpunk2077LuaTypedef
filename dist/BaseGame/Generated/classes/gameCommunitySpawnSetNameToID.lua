@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCommunitySpawnSetNameToID
----@field public ["entries"] gameCommunitySpawnSetNameToIDEntry[]
+---@field public entries gameCommunitySpawnSetNameToIDEntry[]
 gameCommunitySpawnSetNameToID = {}
 
 ---@param fields? table

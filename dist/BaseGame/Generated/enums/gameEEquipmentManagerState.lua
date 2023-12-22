@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameEEquipmentManagerState: Enum
----@field ["InfiniteAmmo"] gameEEquipmentManagerState 1
+---@field InfiniteAmmo 1
 gameEEquipmentManagerState = {}

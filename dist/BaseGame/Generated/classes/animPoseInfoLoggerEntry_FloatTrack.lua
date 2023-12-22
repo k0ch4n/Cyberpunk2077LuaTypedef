@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animPoseInfoLoggerEntry_FloatTrack: animPoseInfoLoggerEntry
----@field public ["floatTrack"] animNamedTrackIndex
----@field public ["showOnlyWhenPositive"] Bool
+---@field public floatTrack animNamedTrackIndex
+---@field public showOnlyWhenPositive Bool
 animPoseInfoLoggerEntry_FloatTrack = {}
 
 ---@param fields? table

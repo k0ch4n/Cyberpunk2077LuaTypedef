@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HighlightContext: Enum
----@field ["DEFAULT"] HighlightContext 0
----@field ["OUTLINE"] HighlightContext 1
----@field ["FILL"] HighlightContext 2
----@field ["FULL"] HighlightContext 3
+---@field DEFAULT 0
+---@field OUTLINE 1
+---@field FILL 2
+---@field FULL 3
 HighlightContext = {}

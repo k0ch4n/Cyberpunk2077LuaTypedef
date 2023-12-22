@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class DroneComponent: gameScriptableComponent
----@field private ["senseComponent"] senseComponent
----@field private ["npcCollisionComponent"] entSimpleColliderComponent
----@field private ["playerOnlyCollisionComponent"] entSimpleColliderComponent
----@field private ["highLevelCb"] Uint32
----@field private ["currentScanType"] MechanicalScanType
----@field private ["currentScanEffect"] gameEffectInstance
----@field private ["currentScanAnimation"] CName
----@field private ["isDetectionScanning"] Bool
----@field private ["trackedTarget"] gameObject
----@field private ["currentLocomotionWrapper"] CName
+---@field private senseComponent senseComponent
+---@field private npcCollisionComponent entSimpleColliderComponent
+---@field private playerOnlyCollisionComponent entSimpleColliderComponent
+---@field private highLevelCb Uint32
+---@field private currentScanType MechanicalScanType
+---@field private currentScanEffect gameEffectInstance
+---@field private currentScanAnimation CName
+---@field private isDetectionScanning Bool
+---@field private trackedTarget gameObject
+---@field private currentLocomotionWrapper CName
 DroneComponent = {}
 
 ---@param fields? table

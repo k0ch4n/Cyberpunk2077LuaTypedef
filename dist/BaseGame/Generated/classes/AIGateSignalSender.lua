@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIGateSignalSender: AIbehaviortaskStackScript
----@field public ["tags"] CName[]
----@field public ["flags"] EAIGateSignalFlags[]
----@field public ["priority"] Float
+---@field public tags CName[]
+---@field public flags EAIGateSignalFlags[]
+---@field public priority Float
 AIGateSignalSender = {}
 
 ---@param fields? table

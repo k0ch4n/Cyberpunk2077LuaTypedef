@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_SmartObject: animAnimFeature
----@field public ["state"] Int32
----@field public ["privateAnimationName"] CName
+---@field public state Int32
+---@field public privateAnimationName CName
 animAnimFeature_SmartObject = {}
 
 ---@param fields? table

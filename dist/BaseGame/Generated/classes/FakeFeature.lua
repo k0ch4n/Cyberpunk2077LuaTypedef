@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class FakeFeature: gameObject
----@field private ["choices"] SFakeFeatureChoice[]
----@field protected ["interaction"] gameinteractionsComponent
----@field private ["components"] entIPlacedComponent[]
----@field private ["scaningComponent"] gameScanningComponent
----@field private ["was_used"] Bool
+---@field private choices SFakeFeatureChoice[]
+---@field protected interaction gameinteractionsComponent
+---@field private components entIPlacedComponent[]
+---@field private scaningComponent gameScanningComponent
+---@field private was_used Bool
 FakeFeature = {}
 
 ---@param fields? table

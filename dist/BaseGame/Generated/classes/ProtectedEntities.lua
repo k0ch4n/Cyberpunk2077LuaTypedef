@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProtectedEntities: MorphData
----@field public ["protectedEntities"] entEntityID[]
+---@field public protectedEntities entEntityID[]
 ProtectedEntities = {}
 
 ---@param fields? table

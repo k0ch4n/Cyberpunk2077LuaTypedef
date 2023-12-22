@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSetAsQuestImportantEvent: redEvent
----@field public ["isImportant"] Bool
----@field public ["propagateToSlaves"] Bool
+---@field public isImportant Bool
+---@field public propagateToSlaves Bool
 gameSetAsQuestImportantEvent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CustomNotificationEvent: redEvent
----@field public ["header"] String
----@field public ["description"] String
----@field public ["icon"] CName
----@field public ["fluff_header"] String
+---@field public header String
+---@field public description String
+---@field public icon CName
+---@field public fluff_header String
 CustomNotificationEvent = {}
 
 ---@param fields? table

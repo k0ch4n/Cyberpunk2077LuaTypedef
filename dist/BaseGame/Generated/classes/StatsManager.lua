@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatsManager: IScriptable
----@field public ["playerGodModeModifierData"] gameStatModifierData_Deprecated
+---@field public playerGodModeModifierData gameStatModifierData_Deprecated
 StatsManager = {}
 
 ---@param fields? table

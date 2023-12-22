@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SetMessageDeviceOperation: DeviceOperationBase
----@field private ["targetRef"] NodeRef
----@field private ["messageRecordID"] TweakDBID
----@field private ["replaceTextWithCustomNumber"] Bool
----@field private ["customNumber"] Int32
+---@field private targetRef NodeRef
+---@field private messageRecordID TweakDBID
+---@field private replaceTextWithCustomNumber Bool
+---@field private customNumber Int32
 SetMessageDeviceOperation = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_BodySlam: animAnimFeature
----@field public ["chargeLevel"] Int32
+---@field public chargeLevel Int32
 AnimFeature_BodySlam = {}
 
 ---@param fields? table

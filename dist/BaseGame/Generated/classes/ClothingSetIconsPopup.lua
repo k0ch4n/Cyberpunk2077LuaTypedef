@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ClothingSetIconsPopup: gameuiWidgetGameController
----@field private ["iconGrid"] inkWidgetReference
----@field private ["buttonHintsRoot"] inkWidgetReference
----@field private ["data"] ClothingSetIconsPopupData
----@field private ["libraryPath"] inkWidgetLibraryReference
+---@field private iconGrid inkWidgetReference
+---@field private buttonHintsRoot inkWidgetReference
+---@field private data ClothingSetIconsPopupData
+---@field private libraryPath inkWidgetLibraryReference
 ClothingSetIconsPopup = {}
 
 ---@param fields? table

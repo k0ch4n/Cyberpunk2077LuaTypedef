@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkCompoundWidget: inkWidget
----@field public ["childOrder"] inkEChildOrder
----@field public ["children"] inkMultiChildren
----@field public ["childMargin"] inkMargin
+---@field public childOrder inkEChildOrder
+---@field public children inkMultiChildren
+---@field public childMargin inkMargin
 inkCompoundWidget = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSquadMemberDataEntry
----@field public ["squadName"] CName
----@field public ["squadType"] AISquadType
+---@field public squadName CName
+---@field public squadType AISquadType
 gameSquadMemberDataEntry = {}
 
 ---@param fields? table

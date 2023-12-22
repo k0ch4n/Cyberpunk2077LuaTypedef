@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITreeArgumentsDefinition
----@field public ["args"] AIArgumentDefinition[]
+---@field public args AIArgumentDefinition[]
 AITreeArgumentsDefinition = {}
 
 ---@param fields? table

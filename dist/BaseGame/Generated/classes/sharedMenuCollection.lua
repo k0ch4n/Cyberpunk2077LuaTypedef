@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sharedMenuCollection
----@field public ["items"] sharedMenuItem[]
+---@field public items sharedMenuItem[]
 sharedMenuCollection = {}
 
 ---@param fields? table

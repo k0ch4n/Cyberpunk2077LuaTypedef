@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpiderbotBoolAction: ActionBool
----@field protected ["TrueRecord"] String
----@field protected ["FalseRecord"] String
+---@field protected TrueRecord String
+---@field protected FalseRecord String
 SpiderbotBoolAction = {}
 
 ---@param fields? table

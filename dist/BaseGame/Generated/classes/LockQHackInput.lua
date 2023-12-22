@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LockQHackInput: gameScriptableSystemRequest
----@field public ["isLocked"] Bool
+---@field public isLocked Bool
 LockQHackInput = {}
 
 ---@param fields? table

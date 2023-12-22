@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ChargedItemsPrereqState: gamePrereqState
----@field public ["chargesState"] EChargesAmount
----@field public ["typeOfItem"] EChargesItem
----@field public ["listener"] BaseStatPoolPrereqListener
----@field public ["owner"] ScriptGameInstance
+---@field public chargesState EChargesAmount
+---@field public typeOfItem EChargesItem
+---@field public listener BaseStatPoolPrereqListener
+---@field public owner ScriptGameInstance
 ChargedItemsPrereqState = {}
 
 ---@param fields? table

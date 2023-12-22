@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animQuaternionLink
----@field public ["node"] animAnimNode_QuaternionValue
+---@field public node animAnimNode_QuaternionValue
 animQuaternionLink = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIMoveToCoverCommandParams: questScriptedAICommandParams
----@field public ["coverNodeRef"] NodeRef
----@field public ["alwaysUseStealth"] Bool
----@field public ["specialAction"] ECoverSpecialAction
+---@field public coverNodeRef NodeRef
+---@field public alwaysUseStealth Bool
+---@field public specialAction ECoverSpecialAction
 AIMoveToCoverCommandParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DestructibleMasterDeviceControllerPS: MasterControllerPS
----@field protected ["isDestroyed"] Bool
+---@field protected isDestroyed Bool
 DestructibleMasterDeviceControllerPS = {}
 
 ---@param fields? table

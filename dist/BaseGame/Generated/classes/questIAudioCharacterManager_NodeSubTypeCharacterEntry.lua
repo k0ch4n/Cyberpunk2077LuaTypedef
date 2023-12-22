@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questIAudioCharacterManager_NodeSubTypeCharacterEntry
----@field public ["puppetRef"] gameEntityReference
----@field public ["isPlayer"] Bool
----@field public ["enableSubSystem"] Bool
+---@field public puppetRef gameEntityReference
+---@field public isPlayer Bool
+---@field public enableSubSystem Bool
 questIAudioCharacterManager_NodeSubTypeCharacterEntry = {}
 
 ---@param fields? table

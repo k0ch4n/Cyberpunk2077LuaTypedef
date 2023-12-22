@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetInvestigationPositionsArrayEvent: redEvent
----@field public ["investigationPositionsArray"] Vector4[]
+---@field public investigationPositionsArray Vector4[]
 SetInvestigationPositionsArrayEvent = {}
 
 ---@param fields? table

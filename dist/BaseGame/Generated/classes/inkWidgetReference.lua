@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetReference
----@field public ["widget"] inkWidget
+---@field public widget inkWidget
 inkWidgetReference = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class rendTextureRegion: ISerializable
----@field public ["name"] CName
----@field public ["isStretch"] Bool
----@field public ["regionParts"] rendTextureRegionPart[]
+---@field public name CName
+---@field public isStretch Bool
+---@field public regionParts rendTextureRegionPart[]
 rendTextureRegion = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleVehicleDoorState: Enum
----@field ["Closed"] vehicleVehicleDoorState 0
----@field ["Open"] vehicleVehicleDoorState 1
----@field ["Detached"] vehicleVehicleDoorState 2
+---@field Closed 0
+---@field Open 1
+---@field Detached 2
 vehicleVehicleDoorState = {}

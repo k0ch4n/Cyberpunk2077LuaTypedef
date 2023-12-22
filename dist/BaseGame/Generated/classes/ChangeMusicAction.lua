@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChangeMusicAction: ActionBool
----@field protected ["interactionRecordName"] String
----@field public ["settings"] MusicSettings
+---@field protected interactionRecordName String
+---@field public settings MusicSettings
 ChangeMusicAction = {}
 
 ---@param fields? table

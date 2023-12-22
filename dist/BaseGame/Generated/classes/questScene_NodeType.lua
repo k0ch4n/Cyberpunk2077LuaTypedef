@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questScene_NodeType: questSpawnManagerNodeType
----@field public ["entityReference"] gameEntityReference
+---@field public entityReference gameEntityReference
 questScene_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddAchievementRequest: gamePlayerScriptableSystemRequest
----@field public ["achievement"] gamedataAchievement
+---@field public achievement gamedataAchievement
 AddAchievementRequest = {}
 
 ---@param fields? table

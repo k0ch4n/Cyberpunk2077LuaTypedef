@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class LcdScreenSignInkGameController: DeviceInkGameControllerBase
----@field protected ["messegeRecord"] gamedataScreenMessageData_Record
----@field protected ["replaceTextWithCustomNumber"] Bool
----@field protected ["customNumber"] Int32
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
----@field private ["onMessegeChangedListener"] redCallbackObject
+---@field protected messegeRecord gamedataScreenMessageData_Record
+---@field protected replaceTextWithCustomNumber Bool
+---@field protected customNumber Int32
+---@field private onGlitchingStateChangedListener redCallbackObject
+---@field private onMessegeChangedListener redCallbackObject
 LcdScreenSignInkGameController = {}
 
 ---@param fields? table

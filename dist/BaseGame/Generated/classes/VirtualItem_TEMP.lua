@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class VirtualItem_TEMP: gameObject
----@field public ["item"] String
----@field public ["interaction"] gameinteractionsComponent
----@field public ["mesh"] entPhysicalMeshComponent
----@field public ["mesh1"] entPhysicalMeshComponent
----@field public ["mesh2"] entPhysicalMeshComponent
----@field public ["mesh3"] entPhysicalMeshComponent
----@field public ["mesh4"] entPhysicalMeshComponent
+---@field public item String
+---@field public interaction gameinteractionsComponent
+---@field public mesh entPhysicalMeshComponent
+---@field public mesh1 entPhysicalMeshComponent
+---@field public mesh2 entPhysicalMeshComponent
+---@field public mesh3 entPhysicalMeshComponent
+---@field public mesh4 entPhysicalMeshComponent
 VirtualItem_TEMP = {}
 
 ---@param fields? table

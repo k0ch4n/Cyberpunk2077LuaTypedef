@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnCheckPlayerTargetNodeDistanceInterruptConditionParams
----@field public ["distance"] Float
----@field public ["comparisonType"] EComparisonType
----@field public ["targetNode"] NodeRef
+---@field public distance Float
+---@field public comparisonType EComparisonType
+---@field public targetNode NodeRef
 scnCheckPlayerTargetNodeDistanceInterruptConditionParams = {}
 
 ---@param fields? table

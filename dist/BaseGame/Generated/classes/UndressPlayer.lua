@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UndressPlayer: redEvent
----@field public ["isCensored"] Bool
+---@field public isCensored Bool
 UndressPlayer = {}
 
 ---@param fields? table

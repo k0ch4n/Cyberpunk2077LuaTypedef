@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_CurvePathSlot: animAnimNode_Base
----@field public ["input"] animPoseLink
+---@field public input animPoseLink
 animAnimNode_CurvePathSlot = {}
 
 ---@param fields? table

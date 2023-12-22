@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EffectPreAction_PreAttack: gameEffectPreAction_Scripted
----@field protected ["withFriendlyFire"] Bool
----@field protected ["withSelfDamage"] Bool
+---@field protected withFriendlyFire Bool
+---@field protected withSelfDamage Bool
 EffectPreAction_PreAttack = {}
 
 ---@param fields? table

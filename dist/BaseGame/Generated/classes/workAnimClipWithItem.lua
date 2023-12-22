@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workAnimClipWithItem: workAnimClip
----@field public ["itemActions"] workIWorkspotItemAction[]
+---@field public itemActions workIWorkspotItemAction[]
 workAnimClipWithItem = {}
 
 ---@param fields? table

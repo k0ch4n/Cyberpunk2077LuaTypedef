@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ComputerControllerPS: TerminalControllerPS
----@field protected ["computerSetup"] ComputerSetup
----@field protected ["quickHackSetup"] ComputerQuickHackData
----@field protected ["activatorActionSetup"] EToggleActivationTypeComputer
----@field protected ["computerSkillChecks"] HackEngContainer
----@field protected ["openedMailAdress"] SDocumentAdress
----@field protected ["openedFileAdress"] SDocumentAdress
----@field protected ["quickhackPerformed"] Bool
----@field private ["isInSleepMode"] Bool
----@field private ["computerUIpreset"] gamedataComputerStyleUIDefinition_Record
+---@field protected computerSetup ComputerSetup
+---@field protected quickHackSetup ComputerQuickHackData
+---@field protected activatorActionSetup EToggleActivationTypeComputer
+---@field protected computerSkillChecks HackEngContainer
+---@field protected openedMailAdress SDocumentAdress
+---@field protected openedFileAdress SDocumentAdress
+---@field protected quickhackPerformed Bool
+---@field private isInSleepMode Bool
+---@field private computerUIpreset gamedataComputerStyleUIDefinition_Record
 ComputerControllerPS = {}
 
 ---@param fields? table

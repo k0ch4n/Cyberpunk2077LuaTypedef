@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnSpawnerParams
----@field public ["reference"] NodeRef
----@field public ["forceMaxVisibility"] Bool
+---@field public reference NodeRef
+---@field public forceMaxVisibility Bool
 scnSpawnerParams = {}
 
 ---@param fields? table

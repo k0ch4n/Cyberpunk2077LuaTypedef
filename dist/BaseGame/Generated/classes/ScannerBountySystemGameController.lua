@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class ScannerBountySystemGameController: BaseChunkGameController
----@field private ["moneyReward"] inkTextWidgetReference
----@field private ["moneyRewardRow"] inkWidgetReference
----@field private ["streetCredReward"] inkTextWidgetReference
----@field private ["streetCredRewardRow"] inkWidgetReference
----@field private ["transgressions"] inkTextWidgetReference
----@field private ["transgressionsWidget"] inkWidgetReference
----@field private ["rewardPanel"] inkCompoundWidgetReference
----@field private ["mugShot"] inkRectangleWidgetReference
----@field private ["wanted"] inkTextWidgetReference
----@field private ["notFound"] inkTextWidgetReference
----@field private ["deadNotice"] inkTextWidgetReference
----@field private ["crossedOut"] inkWidgetReference
----@field private ["starsWidget"] inkWidgetReference[]
----@field private ["bountyCallbackID"] redCallbackObject
----@field private ["healthCallbackID"] redCallbackObject
----@field private ["objectCallbackID"] redCallbackObject
----@field private ["isValidBounty"] Bool
----@field private ["isAlive"] Bool
----@field private ["objectType"] ScannerObjectType
----@field private ["showScanBountyAnimProxy"] inkanimProxy
+---@field private moneyReward inkTextWidgetReference
+---@field private moneyRewardRow inkWidgetReference
+---@field private streetCredReward inkTextWidgetReference
+---@field private streetCredRewardRow inkWidgetReference
+---@field private transgressions inkTextWidgetReference
+---@field private transgressionsWidget inkWidgetReference
+---@field private rewardPanel inkCompoundWidgetReference
+---@field private mugShot inkRectangleWidgetReference
+---@field private wanted inkTextWidgetReference
+---@field private notFound inkTextWidgetReference
+---@field private deadNotice inkTextWidgetReference
+---@field private crossedOut inkWidgetReference
+---@field private starsWidget inkWidgetReference[]
+---@field private bountyCallbackID redCallbackObject
+---@field private healthCallbackID redCallbackObject
+---@field private objectCallbackID redCallbackObject
+---@field private isValidBounty Bool
+---@field private isAlive Bool
+---@field private objectType ScannerObjectType
+---@field private showScanBountyAnimProxy inkanimProxy
 ScannerBountySystemGameController = {}
 
 ---@param fields? table

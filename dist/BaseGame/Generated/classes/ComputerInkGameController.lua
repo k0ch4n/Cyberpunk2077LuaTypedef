@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class ComputerInkGameController: DeviceInkGameControllerBase
----@field protected ["layoutID"] TweakDBID
----@field protected ["currentLayoutLibraryID"] CName
----@field protected ["mainLayout"] inkWidget
----@field protected ["devicesMenuInitialized"] Bool
----@field protected ["devicesMenuSpawned"] Bool
----@field protected ["devicesMenuSpawnRequested"] Bool
----@field protected ["menuInitialized"] Bool
----@field private ["mainDisplayWidget"] inkVideoWidget
----@field private ["forceOpenDocumentType"] EDocumentType
----@field private ["forceOpenDocumentAdress"] SDocumentAdress
----@field private ["onMailThumbnailWidgetsUpdateListener"] redCallbackObject
----@field private ["onFileThumbnailWidgetsUpdateListener"] redCallbackObject
----@field private ["onMailWidgetsUpdateListener"] redCallbackObject
----@field private ["onFileWidgetsUpdateListener"] redCallbackObject
----@field private ["onMenuButtonWidgetsUpdateListener"] redCallbackObject
----@field private ["onMainMenuButtonWidgetsUpdateListener"] redCallbackObject
----@field private ["onBannerWidgetsUpdateListener"] redCallbackObject
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
+---@field protected layoutID TweakDBID
+---@field protected currentLayoutLibraryID CName
+---@field protected mainLayout inkWidget
+---@field protected devicesMenuInitialized Bool
+---@field protected devicesMenuSpawned Bool
+---@field protected devicesMenuSpawnRequested Bool
+---@field protected menuInitialized Bool
+---@field private mainDisplayWidget inkVideoWidget
+---@field private forceOpenDocumentType EDocumentType
+---@field private forceOpenDocumentAdress SDocumentAdress
+---@field private onMailThumbnailWidgetsUpdateListener redCallbackObject
+---@field private onFileThumbnailWidgetsUpdateListener redCallbackObject
+---@field private onMailWidgetsUpdateListener redCallbackObject
+---@field private onFileWidgetsUpdateListener redCallbackObject
+---@field private onMenuButtonWidgetsUpdateListener redCallbackObject
+---@field private onMainMenuButtonWidgetsUpdateListener redCallbackObject
+---@field private onBannerWidgetsUpdateListener redCallbackObject
+---@field private onGlitchingStateChangedListener redCallbackObject
 ComputerInkGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioLoopedSoundEmitterMetadata: audioEmitterMetadata
----@field public ["loopSound"] CName
+---@field public loopSound CName
 audioLoopedSoundEmitterMetadata = {}
 
 ---@param fields? table

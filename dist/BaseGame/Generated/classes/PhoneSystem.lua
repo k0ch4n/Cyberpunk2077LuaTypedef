@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class PhoneSystem: gameScriptableSystem
----@field private ["BlackboardSystem"] gameBlackboardSystem
----@field private ["Blackboard"] gameIBlackboard
----@field private ["PsmBlackboard"] gameIBlackboard
----@field private ["LastCallInformation"] questPhoneCallInformation
----@field private ["StatusEffectsListener"] PhoneStatusEffectListener
----@field private ["StatsListener"] PhoneStatsListener
----@field private ["ContactsOpen"] Bool
----@field private ["PhoneVisibilityBBId"] redCallbackObject
----@field private ["ContactsOpenBBId"] redCallbackObject
----@field private ["HighLevelBBId"] redCallbackObject
----@field private ["CombatBBId"] redCallbackObject
----@field private ["SwimmingBBId"] redCallbackObject
----@field private ["IsContrDeviceBBId"] redCallbackObject
----@field private ["IsUIZoomDeviceBBId"] redCallbackObject
----@field private ["PlayerAttachedCallbackID"] Uint32
----@field private ["PlayerDetachedCallbackID"] Uint32
+---@field private BlackboardSystem gameBlackboardSystem
+---@field private Blackboard gameIBlackboard
+---@field private PsmBlackboard gameIBlackboard
+---@field private LastCallInformation questPhoneCallInformation
+---@field private StatusEffectsListener PhoneStatusEffectListener
+---@field private StatsListener PhoneStatsListener
+---@field private ContactsOpen Bool
+---@field private PhoneVisibilityBBId redCallbackObject
+---@field private ContactsOpenBBId redCallbackObject
+---@field private HighLevelBBId redCallbackObject
+---@field private CombatBBId redCallbackObject
+---@field private SwimmingBBId redCallbackObject
+---@field private IsContrDeviceBBId redCallbackObject
+---@field private IsUIZoomDeviceBBId redCallbackObject
+---@field private PlayerAttachedCallbackID Uint32
+---@field private PlayerDetachedCallbackID Uint32
 PhoneSystem = {}
 
 ---@param fields? table

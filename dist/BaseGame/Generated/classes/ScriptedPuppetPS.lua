@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class ScriptedPuppetPS: gamePuppetPS
----@field private ["deviceLink"] PuppetDeviceLinkPS
----@field private ["cooldownStorage"] CooldownStorage
----@field private ["isInitialized"] EBOOL
----@field private ["wasAttached"] Bool
----@field protected ["wasRevealedInNetworkPing"] Bool
----@field private ["numberActions"] Int32
----@field protected ["wasQuickHackAttempt"] Bool
----@field protected ["hasDirectInteractionChoicesActive"] Bool
----@field private ["wasIncapacitated"] Bool
----@field private ["isBreached"] Bool
----@field private ["isDead"] Bool
----@field private ["isIncapacitated"] Bool
----@field private ["isAndroidTurnedOff"] Bool
----@field private ["isPreventionNotified"] Bool
----@field private ["securitySystemData"] SecuritySystemData
----@field private ["activeContexts"] gamedeviceRequestType[]
----@field protected ["lastInteractionLayerTag"] CName
----@field private ["quickHacksExposed"] Bool
----@field private ["currentCooldownID"] Uint32
----@field private ["reactionPresetID"] TweakDBID
----@field private ["isDefeatMechanicActive"] Bool
----@field private ["leftHandLoadout"] gameItemID
----@field private ["rightHandLoadout"] gameItemID
----@field private ["customWeaponLoadout"] CachedItemLoadout[]
----@field private ["genericMeleeLoadout"] CachedItemLoadout
----@field private ["genericRangedLoadout"] CachedItemLoadout
----@field private ["questForceScannerPreset"] TweakDBID
----@field private ["bountyID"] TweakDBID
----@field private ["transgressions"] TweakDBID[]
+---@field private deviceLink PuppetDeviceLinkPS
+---@field private cooldownStorage CooldownStorage
+---@field private isInitialized EBOOL
+---@field private wasAttached Bool
+---@field protected wasRevealedInNetworkPing Bool
+---@field private numberActions Int32
+---@field protected wasQuickHackAttempt Bool
+---@field protected hasDirectInteractionChoicesActive Bool
+---@field private wasIncapacitated Bool
+---@field private isBreached Bool
+---@field private isDead Bool
+---@field private isIncapacitated Bool
+---@field private isAndroidTurnedOff Bool
+---@field private isPreventionNotified Bool
+---@field private securitySystemData SecuritySystemData
+---@field private activeContexts gamedeviceRequestType[]
+---@field protected lastInteractionLayerTag CName
+---@field private quickHacksExposed Bool
+---@field private currentCooldownID Uint32
+---@field private reactionPresetID TweakDBID
+---@field private isDefeatMechanicActive Bool
+---@field private leftHandLoadout gameItemID
+---@field private rightHandLoadout gameItemID
+---@field private customWeaponLoadout CachedItemLoadout[]
+---@field private genericMeleeLoadout CachedItemLoadout
+---@field private genericRangedLoadout CachedItemLoadout
+---@field private questForceScannerPreset TweakDBID
+---@field private bountyID TweakDBID
+---@field private transgressions TweakDBID[]
 ScriptedPuppetPS = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questPhone_ConditionType: questISystemConditionType
----@field public ["caller"] gameJournalPath
----@field public ["addressee"] gameJournalPath
----@field public ["callPhase"] questPhoneCallPhase
+---@field public caller gameJournalPath
+---@field public addressee gameJournalPath
+---@field public callPhase questPhoneCallPhase
 questPhone_ConditionType = {}
 
 ---@param fields? table

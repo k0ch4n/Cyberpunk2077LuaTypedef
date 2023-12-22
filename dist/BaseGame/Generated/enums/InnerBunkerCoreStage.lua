@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InnerBunkerCoreStage: Enum
----@field ["Normal"] InnerBunkerCoreStage 0
----@field ["Malfunction"] InnerBunkerCoreStage 1
----@field ["Shutdown"] InnerBunkerCoreStage 2
+---@field Normal 0
+---@field Malfunction 1
+---@field Shutdown 2
 InnerBunkerCoreStage = {}

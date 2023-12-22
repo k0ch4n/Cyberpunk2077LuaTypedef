@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameScriptableComponent: gameComponent
----@field public ["priority"] Uint32
+---@field public priority Uint32
 gameScriptableComponent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RevealQuestTargetEvent: redEvent
----@field public ["sourceName"] CName
----@field public ["durationType"] ERevealDurationType
----@field public ["reveal"] Bool
----@field public ["timeout"] Float
+---@field public sourceName CName
+---@field public durationType ERevealDurationType
+---@field public reveal Bool
+---@field public timeout Float
 RevealQuestTargetEvent = {}
 
 ---@param fields? table

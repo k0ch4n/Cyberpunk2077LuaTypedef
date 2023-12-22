@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleOverrideForceBrakes: ActionBool
----@field public ["isRequestedFormOtherDevice"] Bool
+---@field public isRequestedFormOtherDevice Bool
 VehicleOverrideForceBrakes = {}
 
 ---@param fields? table

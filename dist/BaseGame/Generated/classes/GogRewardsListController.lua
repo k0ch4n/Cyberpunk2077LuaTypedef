@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class GogRewardsListController: inkWidgetLogicController
----@field private ["containerWidget"] inkWidgetReference
----@field private ["scrollArea"] inkWidgetReference
----@field private ["sizeRefWrapper"] inkWidgetReference
----@field private ["scrollBarRequiredHeight"] Int32
----@field private ["shouldUpdateLayout"] Bool
+---@field private containerWidget inkWidgetReference
+---@field private scrollArea inkWidgetReference
+---@field private sizeRefWrapper inkWidgetReference
+---@field private scrollBarRequiredHeight Int32
+---@field private shouldUpdateLayout Bool
 GogRewardsListController = {}
 
 ---@param fields? table

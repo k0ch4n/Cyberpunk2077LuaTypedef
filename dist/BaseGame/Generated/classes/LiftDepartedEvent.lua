@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LiftDepartedEvent: redEvent
----@field public ["floor"] String
+---@field public floor String
 LiftDepartedEvent = {}
 
 ---@param fields? table

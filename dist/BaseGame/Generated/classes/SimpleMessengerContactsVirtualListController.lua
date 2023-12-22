@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleMessengerContactsVirtualListController: inkVirtualListController
----@field private ["dataView"] SimpleMessengerContactDataView
----@field protected ["dataSource"] inkScriptableDataSourceWrapper
----@field protected ["classifier"] QuestListVirtualTemplateClassifier
+---@field private dataView SimpleMessengerContactDataView
+---@field protected dataSource inkScriptableDataSourceWrapper
+---@field protected classifier QuestListVirtualTemplateClassifier
 SimpleMessengerContactsVirtualListController = {}
 
 ---@param fields? table

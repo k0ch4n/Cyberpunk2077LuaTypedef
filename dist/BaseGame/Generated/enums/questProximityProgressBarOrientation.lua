@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questProximityProgressBarOrientation: Enum
----@field ["Undefined"] questProximityProgressBarOrientation 0
----@field ["InRange"] questProximityProgressBarOrientation 1
----@field ["OutOfRange"] questProximityProgressBarOrientation 2
+---@field Undefined 0
+---@field InRange 1
+---@field OutOfRange 2
 questProximityProgressBarOrientation = {}

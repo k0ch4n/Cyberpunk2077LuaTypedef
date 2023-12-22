@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PainReactionTask: AIHitReactionTask
----@field protected ["weaponOverride"] AnimFeature_WeaponOverride
+---@field protected weaponOverride AnimFeature_WeaponOverride
 PainReactionTask = {}
 
 ---@param fields? table

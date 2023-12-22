@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TransmogMessageTooltipData: MessageTooltipData
----@field public ["TransmogItem"] gameItemID
----@field public ["IconPath"] CName
----@field public ["NoIcon"] Bool
+---@field public TransmogItem gameItemID
+---@field public IconPath CName
+---@field public NoIcon Bool
 TransmogMessageTooltipData = {}
 
 ---@param fields? table

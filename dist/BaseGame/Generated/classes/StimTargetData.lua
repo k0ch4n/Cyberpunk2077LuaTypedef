@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StimTargetData
----@field public ["spawnerRef"] NodeRef
----@field public ["entryID"] CName
+---@field public spawnerRef NodeRef
+---@field public entryID CName
 StimTargetData = {}
 
 ---@param fields? table

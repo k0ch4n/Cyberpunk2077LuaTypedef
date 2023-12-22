@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayContainerCreatedEvent: redEvent
----@field public ["index"] Int32
----@field public ["isTrait"] Bool
----@field public ["container"] PerkDisplayContainerController
+---@field public index Int32
+---@field public isTrait Bool
+---@field public container PerkDisplayContainerController
 PerkDisplayContainerCreatedEvent = {}
 
 ---@param fields? table

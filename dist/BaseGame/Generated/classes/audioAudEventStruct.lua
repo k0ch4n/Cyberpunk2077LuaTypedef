@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAudEventStruct
----@field public ["event"] CName
+---@field public event CName
 audioAudEventStruct = {}
 
 ---@param fields? table

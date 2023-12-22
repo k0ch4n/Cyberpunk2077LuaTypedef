@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questLanguage_ConditionType: questISystemConditionType
----@field public ["mode"] questLanguageMode
----@field public ["languageCode"] String
----@field public ["inverted"] Bool
+---@field public mode questLanguageMode
+---@field public languageCode String
+---@field public inverted Bool
 questLanguage_ConditionType = {}
 
 ---@param fields? table

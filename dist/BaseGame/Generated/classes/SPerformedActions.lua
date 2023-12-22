@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SPerformedActions
----@field public ["ID"] CName
----@field public ["ActionContext"] EActionContext[]
+---@field public ID CName
+---@field public ActionContext EActionContext[]
 SPerformedActions = {}
 
 ---@param fields? table

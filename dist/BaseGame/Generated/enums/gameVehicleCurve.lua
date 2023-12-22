@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameVehicleCurve: Enum
----@field ["SpeedToWheelMaxTurn"] gameVehicleCurve 0
----@field ["InputToWheelMaxTurn"] gameVehicleCurve 1
----@field ["SpeedToWheelTurnSpeed"] gameVehicleCurve 2
----@field ["InputToWheelTurnSpeed"] gameVehicleCurve 3
----@field ["COUNT"] gameVehicleCurve 4
+---@field SpeedToWheelMaxTurn 0
+---@field InputToWheelMaxTurn 1
+---@field SpeedToWheelTurnSpeed 2
+---@field InputToWheelTurnSpeed 3
+---@field COUNT 4
 gameVehicleCurve = {}

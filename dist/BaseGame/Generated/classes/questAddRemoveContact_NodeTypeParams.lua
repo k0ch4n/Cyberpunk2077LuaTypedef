@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAddRemoveContact_NodeTypeParams
----@field public ["contact"] CName
----@field public ["addContact"] Bool
+---@field public contact CName
+---@field public addContact Bool
 questAddRemoveContact_NodeTypeParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_NarrativePlateDef: gamebbScriptDefinition
----@field public ["PlateData"] gamebbScriptID_Variant
+---@field public PlateData gamebbScriptID_Variant
 UI_NarrativePlateDef = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponMachineInkGameController: VendingMachineInkGameController
----@field private ["buttonRef"] WeaponVendorActionWidgetController
+---@field private buttonRef WeaponVendorActionWidgetController
 WeaponMachineInkGameController = {}
 
 ---@param fields? table

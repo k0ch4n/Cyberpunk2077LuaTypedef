@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBountyEvent: redEvent
----@field public ["bountyID"] TweakDBID
+---@field public bountyID TweakDBID
 SetBountyEvent = {}
 
 ---@param fields? table

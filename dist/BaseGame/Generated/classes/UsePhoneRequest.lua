@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UsePhoneRequest: gameScriptableSystemRequest
----@field public ["MessageToOpen"] gameJournalEntry
+---@field public MessageToOpen gameJournalEntry
 UsePhoneRequest = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GameEffectExecutor_StimOnHit: gameEffectExecutor_Scripted
----@field public ["stimType"] gamedataStimType
----@field public ["silentStimType"] gamedataStimType
----@field public ["suppressedByStimTypes"] gamedataStimType[]
+---@field public stimType gamedataStimType
+---@field public silentStimType gamedataStimType
+---@field public suppressedByStimTypes gamedataStimType[]
 GameEffectExecutor_StimOnHit = {}
 
 ---@param fields? table

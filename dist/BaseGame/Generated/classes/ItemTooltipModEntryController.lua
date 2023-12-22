@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipModEntryController: inkWidgetLogicController
----@field protected ["modName"] inkTextWidgetReference
----@field protected ["attunementContainer"] inkWidgetReference
----@field protected ["attunementText"] inkTextWidgetReference
----@field protected ["attunementIcon"] inkImageWidgetReference
----@field protected ["attunementLine"] inkWidgetReference
----@field protected ["settings"] userSettingsUserSettings
----@field protected ["settingsListener"] ItemTooltipModSettingsListener
----@field protected ["groupPath"] CName
----@field protected ["bigFontEnabled"] Bool
----@field protected ["isCrafting"] Bool
+---@field protected modName inkTextWidgetReference
+---@field protected attunementContainer inkWidgetReference
+---@field protected attunementText inkTextWidgetReference
+---@field protected attunementIcon inkImageWidgetReference
+---@field protected attunementLine inkWidgetReference
+---@field protected settings userSettingsUserSettings
+---@field protected settingsListener ItemTooltipModSettingsListener
+---@field protected groupPath CName
+---@field protected bigFontEnabled Bool
+---@field protected isCrafting Bool
 ItemTooltipModEntryController = {}
 
 ---@param fields? table

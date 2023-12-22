@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePlatformMovementState: Enum
----@field ["Stopped"] gamePlatformMovementState 0
----@field ["Paused"] gamePlatformMovementState 1
----@field ["MovingUp"] gamePlatformMovementState 2
----@field ["MovingDown"] gamePlatformMovementState 3
+---@field Stopped 0
+---@field Paused 1
+---@field MovingUp 2
+---@field MovingDown 3
 gamePlatformMovementState = {}

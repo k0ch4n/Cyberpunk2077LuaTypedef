@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRequestVehicleCameraPerspective_NodeType: questIVehicleManagerNodeType
----@field public ["cameraPerspective"] questVehicleCameraPerspective
+---@field public cameraPerspective questVehicleCameraPerspective
 questRequestVehicleCameraPerspective_NodeType = {}
 
 ---@param fields? table

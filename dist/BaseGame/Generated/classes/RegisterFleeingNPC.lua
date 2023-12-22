@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RegisterFleeingNPC: gameScriptableSystemRequest
----@field public ["runner"] entEntity
----@field public ["timestamp"] Float
+---@field public runner entEntity
+---@field public timestamp Float
 RegisterFleeingNPC = {}
 
 ---@param fields? table

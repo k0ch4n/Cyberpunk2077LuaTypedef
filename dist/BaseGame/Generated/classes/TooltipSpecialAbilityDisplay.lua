@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TooltipSpecialAbilityDisplay: inkWidgetLogicController
----@field private ["AbilityIcon"] inkImageWidgetReference
----@field private ["AbilityDescription"] inkTextWidgetReference
----@field private ["QualityRoot"] inkWidgetReference
+---@field private AbilityIcon inkImageWidgetReference
+---@field private AbilityDescription inkTextWidgetReference
+---@field private QualityRoot inkWidgetReference
 TooltipSpecialAbilityDisplay = {}
 
 ---@param fields? table

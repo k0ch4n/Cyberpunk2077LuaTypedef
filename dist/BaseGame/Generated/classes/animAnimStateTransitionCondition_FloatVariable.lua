@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_FloatVariable: animIAnimStateTransitionCondition
----@field public ["variableName"] CName
----@field public ["compareValue"] Float
----@field public ["compareFunc"] animCompareFunc
+---@field public variableName CName
+---@field public compareValue Float
+---@field public compareFunc animCompareFunc
 animAnimStateTransitionCondition_FloatVariable = {}
 
 ---@param fields? table

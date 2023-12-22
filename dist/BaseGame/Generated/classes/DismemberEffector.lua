@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DismemberEffector: gameEffector
----@field public ["bodyPart"] CName
----@field public ["woundType"] CName
----@field public ["hitPosition"] Vector3
----@field public ["isCritical"] Bool
+---@field public bodyPart CName
+---@field public woundType CName
+---@field public hitPosition Vector3
+---@field public isCritical Bool
 DismemberEffector = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MicroblendDef
----@field public ["name"] CName
----@field public ["texture"] CBitmapTexture
+---@field public name CName
+---@field public texture CBitmapTexture
 MicroblendDef = {}
 
 ---@param fields? table

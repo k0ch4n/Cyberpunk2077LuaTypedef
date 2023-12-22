@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entRagdollActivationRequestEvent: redEvent
----@field public ["data"] entragdollActivationRequestData
+---@field public data entragdollActivationRequestData
 entRagdollActivationRequestEvent = {}
 
 ---@param fields? table

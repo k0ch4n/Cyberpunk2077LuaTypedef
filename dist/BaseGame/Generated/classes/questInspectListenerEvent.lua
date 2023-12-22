@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questInspectListenerEvent: redEvent
----@field public ["listener"] questObjectInspectListener
----@field public ["register"] Bool
+---@field public listener questObjectInspectListener
+---@field public register Bool
 questInspectListenerEvent = {}
 
 ---@param fields? table

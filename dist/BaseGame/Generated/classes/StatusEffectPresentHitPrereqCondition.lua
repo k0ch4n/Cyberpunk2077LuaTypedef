@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatusEffectPresentHitPrereqCondition: BaseHitPrereqCondition
----@field public ["checkType"] gamedataCheckType
----@field public ["statusEffectParam"] CName
----@field public ["tag"] CName
----@field public ["objectToCheck"] CName
+---@field public checkType gamedataCheckType
+---@field public statusEffectParam CName
+---@field public tag CName
+---@field public objectToCheck CName
 StatusEffectPresentHitPrereqCondition = {}
 
 ---@param fields? table

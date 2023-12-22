@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EJuryrigTrapState: Enum
----@field ["UNARMED"] EJuryrigTrapState 0
----@field ["ARMED"] EJuryrigTrapState 1
----@field ["TRIGGERED"] EJuryrigTrapState 2
+---@field UNARMED 0
+---@field ARMED 1
+---@field TRIGGERED 2
 EJuryrigTrapState = {}

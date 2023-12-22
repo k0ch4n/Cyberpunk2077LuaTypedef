@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeTransition: DefaultTransition
----@field public ["stateNameString"] String
----@field protected ["driverCombatListener"] DriverCombatListener
+---@field public stateNameString String
+---@field protected driverCombatListener DriverCombatListener
 MeleeTransition = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface

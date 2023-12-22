@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MetroSignSelector: StreetSignSelector
----@field private ["recordID"] TweakDBID
+---@field private recordID TweakDBID
 MetroSignSelector = {}
 
 ---@param fields? table

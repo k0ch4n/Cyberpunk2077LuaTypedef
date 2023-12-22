@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamecheatsystemFlag: Enum
----@field ["God_Immortal"] gamecheatsystemFlag 1
----@field ["God_Invulnerable"] gamecheatsystemFlag 2
----@field ["Resurrect"] gamecheatsystemFlag 4
----@field ["IgnoreTimeDilation"] gamecheatsystemFlag 8
----@field ["BypassMagazine"] gamecheatsystemFlag 16
----@field ["InfiniteAmmo"] gamecheatsystemFlag 32
----@field ["Kill"] gamecheatsystemFlag 64
----@field ["Invisible"] gamecheatsystemFlag 128
+---@field God_Immortal 1
+---@field God_Invulnerable 2
+---@field Resurrect 4
+---@field IgnoreTimeDilation 8
+---@field BypassMagazine 16
+---@field InfiniteAmmo 32
+---@field Kill 64
+---@field Invisible 128
 gamecheatsystemFlag = {}

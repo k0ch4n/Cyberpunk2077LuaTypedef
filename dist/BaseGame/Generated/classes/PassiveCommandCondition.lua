@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PassiveCommandCondition: AIbehaviorexpressionScript
----@field public ["commandName"] CName
----@field public ["useInheritance"] Bool
----@field private ["cmdCbId"] Uint32
+---@field public commandName CName
+---@field public useInheritance Bool
+---@field private cmdCbId Uint32
 PassiveCommandCondition = {}
 
 ---@param fields? table

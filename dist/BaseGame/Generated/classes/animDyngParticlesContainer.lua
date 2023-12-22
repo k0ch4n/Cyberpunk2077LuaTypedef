@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animDyngParticlesContainer
----@field public ["externalForceWS"] Vector3
----@field public ["externalForceWsLink"] animVectorLink
----@field public ["particles"] animDyngParticle[]
----@field public ["gravityWS"] Float
+---@field public externalForceWS Vector3
+---@field public externalForceWsLink animVectorLink
+---@field public particles animDyngParticle[]
+---@field public gravityWS Float
 animDyngParticlesContainer = {}
 
 ---@param fields? table

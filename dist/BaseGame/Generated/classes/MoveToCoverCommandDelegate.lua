@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class MoveToCoverCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public ["inCommand"] AIArgumentMapping
----@field public ["releaseSignalOnCoverEnter"] Bool
----@field public ["useSpecialAction"] Bool
----@field public ["useHigh"] Bool
----@field public ["useLeft"] Bool
----@field public ["useRight"] Bool
+---@field public inCommand AIArgumentMapping
+---@field public releaseSignalOnCoverEnter Bool
+---@field public useSpecialAction Bool
+---@field public useHigh Bool
+---@field public useLeft Bool
+---@field public useRight Bool
 MoveToCoverCommandDelegate = {}
 
 ---@param fields? table

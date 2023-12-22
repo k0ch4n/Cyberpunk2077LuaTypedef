@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EntityNoticedPlayerPrereq: gameIScriptablePrereq
----@field private ["isPlayerNoticed"] Bool
----@field private ["valueToListen"] Uint32
+---@field private isPlayerNoticed Bool
+---@field private valueToListen Uint32
 EntityNoticedPlayerPrereq = {}
 
 ---@param fields? table

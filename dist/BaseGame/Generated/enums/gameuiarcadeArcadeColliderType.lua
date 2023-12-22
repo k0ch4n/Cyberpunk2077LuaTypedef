@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeColliderType: Enum
----@field ["Body"] gameuiarcadeArcadeColliderType 0
----@field ["Up"] gameuiarcadeArcadeColliderType 1
----@field ["Right"] gameuiarcadeArcadeColliderType 2
----@field ["Bottom"] gameuiarcadeArcadeColliderType 3
----@field ["Left"] gameuiarcadeArcadeColliderType 4
+---@field Body 0
+---@field Up 1
+---@field Right 2
+---@field Bottom 3
+---@field Left 4
 gameuiarcadeArcadeColliderType = {}

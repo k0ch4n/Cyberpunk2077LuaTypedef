@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TagStatusNotification: HUDManagerRequest
----@field public ["isTagged"] Bool
+---@field public isTagged Bool
 TagStatusNotification = {}
 
 ---@param fields? table

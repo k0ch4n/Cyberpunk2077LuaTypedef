@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MountRequestCondition: AIbehaviorconditionScript
----@field public ["testMountRequest"] Bool
----@field public ["testUnmountRequest"] Bool
----@field public ["acceptInstant"] Bool
----@field public ["acceptNotInstant"] Bool
+---@field public testMountRequest Bool
+---@field public testUnmountRequest Bool
+---@field public acceptInstant Bool
+---@field public acceptNotInstant Bool
 MountRequestCondition = {}
 
 ---@param fields? table

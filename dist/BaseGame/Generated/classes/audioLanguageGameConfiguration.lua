@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioLanguageGameConfiguration: audioAudioMetadata
----@field public ["langsInProject"] audioLanguageMapItem[]
+---@field public langsInProject audioLanguageMapItem[]
 audioLanguageGameConfiguration = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DestructibleRoadSign: BaseDestructibleDevice
----@field protected ["frameMesh"] entMeshComponent
----@field protected ["uiMesh"] entMeshComponent
----@field protected ["uiMesh_2"] entMeshComponent
+---@field protected frameMesh entMeshComponent
+---@field protected uiMesh entMeshComponent
+---@field protected uiMesh_2 entMeshComponent
 DestructibleRoadSign = {}
 
 ---@param fields? table

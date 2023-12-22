@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class enteventsSetVisibility: redEvent
----@field public ["visible"] Bool
----@field public ["source"] entVisibilityParamSource
+---@field public visible Bool
+---@field public source entVisibilityParamSource
 enteventsSetVisibility = {}
 
 ---@param fields? table

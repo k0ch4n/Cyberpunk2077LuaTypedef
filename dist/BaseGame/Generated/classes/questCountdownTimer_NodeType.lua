@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCountdownTimer_NodeType: questIUIManagerNodeType
----@field public ["duration"] Float
+---@field public duration Float
 questCountdownTimer_NodeType = {}
 
 ---@param fields? table

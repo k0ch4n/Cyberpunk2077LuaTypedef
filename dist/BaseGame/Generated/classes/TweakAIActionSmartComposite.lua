@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class TweakAIActionSmartComposite: TweakAIActionAbstract
----@field public ["smartComposite"] TweakDBID
----@field private ["smartCompositeRecord"] gamedataAIActionSmartComposite_Record
----@field private ["interruptionRequested"] Bool
----@field private ["conditionSuccessfulCheckTimeStamp"] Float
----@field private ["conditionCheckTimeStamp"] Float
----@field private ["iteration"] Uint32
----@field private ["nodeIterator"] Int32
----@field private ["currentNodeIterator"] Int32
----@field private ["currentNodeType"] ETweakAINodeType
----@field private ["currentNode"] gamedataAINode_Record
+---@field public smartComposite TweakDBID
+---@field private smartCompositeRecord gamedataAIActionSmartComposite_Record
+---@field private interruptionRequested Bool
+---@field private conditionSuccessfulCheckTimeStamp Float
+---@field private conditionCheckTimeStamp Float
+---@field private iteration Uint32
+---@field private nodeIterator Int32
+---@field private currentNodeIterator Int32
+---@field private currentNodeType ETweakAINodeType
+---@field private currentNode gamedataAINode_Record
 TweakAIActionSmartComposite = {}
 
 ---@param fields? table

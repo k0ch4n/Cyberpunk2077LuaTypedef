@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestSlotEvent: redEvent
----@field public ["blackboard"] gameIBlackboard
----@field public ["requester"] gameObject
+---@field public blackboard gameIBlackboard
+---@field public requester gameObject
 RequestSlotEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ReflectorSFX: VendingMachineSFX
----@field public ["distraction"] CName
----@field public ["turnOn"] CName
----@field public ["turnOff"] CName
+---@field public distraction CName
+---@field public turnOn CName
+---@field public turnOff CName
 ReflectorSFX = {}
 
 ---@param fields? table

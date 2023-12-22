@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestUIRefreshEvent: redEvent
----@field public ["requester"] gamePersistentID
----@field public ["context"] CName
+---@field public requester gamePersistentID
+---@field public context CName
 RequestUIRefreshEvent = {}
 
 ---@param fields? table

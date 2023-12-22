@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIThreatExpectationInvalid: AIAIEvent
----@field public ["owner"] entEntity
----@field public ["threat"] entEntity
----@field public ["threatId"] Uint32
+---@field public owner entEntity
+---@field public threat entEntity
+---@field public threatId Uint32
 AIThreatExpectationInvalid = {}
 
 ---@param fields? table

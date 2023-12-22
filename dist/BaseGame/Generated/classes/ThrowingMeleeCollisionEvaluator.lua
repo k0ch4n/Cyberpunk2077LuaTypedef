@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ThrowingMeleeCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field private ["projectileStopAndStick"] Bool
+---@field private projectileStopAndStick Bool
 ThrowingMeleeCollisionEvaluator = {}
 
 ---@param fields? table

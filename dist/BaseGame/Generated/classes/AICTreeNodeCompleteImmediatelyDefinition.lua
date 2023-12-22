@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeCompleteImmediatelyDefinition: AICTreeNodeAtomicDefinition
----@field public ["completeWithSuccess"] Bool
+---@field public completeWithSuccess Bool
 AICTreeNodeCompleteImmediatelyDefinition = {}
 
 ---@param fields? table

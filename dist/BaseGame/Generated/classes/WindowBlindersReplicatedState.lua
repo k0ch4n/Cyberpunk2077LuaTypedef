@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WindowBlindersReplicatedState: gameDeviceReplicatedState
----@field public ["isOpen"] Bool
----@field public ["isTilted"] Bool
+---@field public isOpen Bool
+---@field public isTilted Bool
 WindowBlindersReplicatedState = {}
 
 ---@param fields? table

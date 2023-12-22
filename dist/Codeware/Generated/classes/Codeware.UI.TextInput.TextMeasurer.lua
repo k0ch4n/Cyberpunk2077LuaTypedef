@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput_TextMeasurer: Codeware_UI_inkCustomController
----@field public ["shadow"] inkTextWidget
----@field public ["isMeasuring"] Bool
----@field public ["isCharMode"] Bool
----@field public ["targetText"] String
----@field public ["targetLength"] Int32
----@field public ["targetPosition"] Int32
----@field public ["resultSize"] Vector2
----@field public ["tickProxy"] inkanimProxy
----@field public ["useCharCache"] Bool
----@field public ["charCache"] inkScriptStringMap
+---@field public shadow inkTextWidget
+---@field public isMeasuring Bool
+---@field public isCharMode Bool
+---@field public targetText String
+---@field public targetLength Int32
+---@field public targetPosition Int32
+---@field public resultSize Vector2
+---@field public tickProxy inkanimProxy
+---@field public useCharCache Bool
+---@field public charCache inkScriptStringMap
 Codeware_UI_TextInput_TextMeasurer = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidActorPlacement: Enum
----@field ["SceneOrigin"] scnRidActorPlacement 0
----@field ["Actual"] scnRidActorPlacement 1
----@field ["Player"] scnRidActorPlacement 2
+---@field SceneOrigin 0
+---@field Actual 1
+---@field Player 2
 scnRidActorPlacement = {}

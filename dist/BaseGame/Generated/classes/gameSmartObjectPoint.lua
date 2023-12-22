@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectPoint
----@field public ["isReachable"] Bool
+---@field public isReachable Bool
 gameSmartObjectPoint = {}
 
 ---@param fields? table

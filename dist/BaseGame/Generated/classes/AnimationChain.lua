@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimationChain: IScriptable
----@field public ["data"] AnimationElement[]
----@field public ["name"] CName
+---@field public data AnimationElement[]
+---@field public name CName
 AnimationChain = {}
 
 ---@param fields? table

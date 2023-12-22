@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PreOrderPopupController: inkWidgetLogicController
----@field private ["preOrderButtonRef"] inkWidgetReference
----@field private ["preOrderButtonText"] inkTextWidgetReference
----@field private ["preOrderButtonInputIcon"] inkWidgetReference
----@field private ["releaseDateContainer"] inkWidgetReference
----@field private ["buttonController"] inkButtonController
+---@field private preOrderButtonRef inkWidgetReference
+---@field private preOrderButtonText inkTextWidgetReference
+---@field private preOrderButtonInputIcon inkWidgetReference
+---@field private releaseDateContainer inkWidgetReference
+---@field private buttonController inkButtonController
 PreOrderPopupController = {}
 
 ---@param fields? table

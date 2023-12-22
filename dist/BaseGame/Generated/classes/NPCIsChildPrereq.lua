@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCIsChildPrereq: gameIScriptablePrereq
----@field public ["invert"] Bool
+---@field public invert Bool
 NPCIsChildPrereq = {}
 
 ---@param fields? table

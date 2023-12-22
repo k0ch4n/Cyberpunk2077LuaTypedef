@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVehicleCollision_ConditionType: questIVehicleConditionType
----@field public ["magnitude"] questImpulseMagnitude
+---@field public magnitude questImpulseMagnitude
 questVehicleCollision_ConditionType = {}
 
 ---@param fields? table

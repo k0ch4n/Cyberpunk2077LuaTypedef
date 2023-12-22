@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class inkButtonAnimatedController: inkButtonController
----@field protected ["animTargetHover"] inkWidgetReference
----@field protected ["animTargetPulse"] inkWidgetReference
----@field protected ["normalRootOpacity"] Float
----@field protected ["hoverRootOpacity"] Float
----@field protected ["rootWidget"] inkCompoundWidget
----@field protected ["animTarget_Hover"] inkWidget
----@field protected ["animTarget_Pulse"] inkWidget
----@field private ["animHover"] inkanimDefinition
----@field private ["animPulse"] inkanimDefinition
----@field private ["animHoverProxy"] inkanimProxy
----@field private ["animPulseProxy"] inkanimProxy
----@field private ["animPulseOptions"] inkanimPlaybackOptions
+---@field protected animTargetHover inkWidgetReference
+---@field protected animTargetPulse inkWidgetReference
+---@field protected normalRootOpacity Float
+---@field protected hoverRootOpacity Float
+---@field protected rootWidget inkCompoundWidget
+---@field protected animTarget_Hover inkWidget
+---@field protected animTarget_Pulse inkWidget
+---@field private animHover inkanimDefinition
+---@field private animPulse inkanimDefinition
+---@field private animHoverProxy inkanimProxy
+---@field private animPulseProxy inkanimProxy
+---@field private animPulseOptions inkanimPlaybackOptions
 inkButtonAnimatedController = {}
 
 ---@param fields? table

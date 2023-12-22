@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameEffectVectorEvaluator: ISerializable
----@field public ["modifier"] Float
+---@field public modifier Float
 gameEffectVectorEvaluator = {}

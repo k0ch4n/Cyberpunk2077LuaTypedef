@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CyberwareSlotSpawnData: IScriptable
----@field public ["index"] Int32
+---@field public index Int32
 CyberwareSlotSpawnData = {}
 
 ---@param fields? table

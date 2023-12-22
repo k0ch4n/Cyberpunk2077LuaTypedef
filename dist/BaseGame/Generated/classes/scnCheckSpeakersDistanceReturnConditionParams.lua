@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnCheckSpeakersDistanceReturnConditionParams
----@field public ["distance"] Float
----@field public ["comparisonType"] EComparisonType
+---@field public distance Float
+---@field public comparisonType EComparisonType
 scnCheckSpeakersDistanceReturnConditionParams = {}
 
 ---@param fields? table

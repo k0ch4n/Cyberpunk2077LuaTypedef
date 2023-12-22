@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiBinkVideoStatus: Enum
----@field ["Idle"] gameuiBinkVideoStatus 0
----@field ["NotStarted"] gameuiBinkVideoStatus 1
----@field ["Initializing"] gameuiBinkVideoStatus 2
----@field ["Playing"] gameuiBinkVideoStatus 3
----@field ["Finished"] gameuiBinkVideoStatus 4
----@field ["OutOfFrustum"] gameuiBinkVideoStatus 5
----@field ["Stopped"] gameuiBinkVideoStatus 6
----@field ["Error"] gameuiBinkVideoStatus 7
+---@field Idle 0
+---@field NotStarted 1
+---@field Initializing 2
+---@field Playing 3
+---@field Finished 4
+---@field OutOfFrustum 5
+---@field Stopped 6
+---@field Error 7
 gameuiBinkVideoStatus = {}

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class GogRewardEntryController: inkWidgetLogicController
----@field public ["nameWidget"] inkWidgetReference
----@field public ["descriptionWidget"] inkWidgetReference
----@field public ["iconImage"] inkImageWidgetReference
----@field public ["ep1LabelContainer"] inkWidgetReference
----@field public ["backgroundWidget"] inkWidgetReference
----@field private ["isUnlocked"] Bool
+---@field public nameWidget inkWidgetReference
+---@field public descriptionWidget inkWidgetReference
+---@field public iconImage inkImageWidgetReference
+---@field public ep1LabelContainer inkWidgetReference
+---@field public backgroundWidget inkWidgetReference
+---@field private isUnlocked Bool
 GogRewardEntryController = {}
 
 ---@param fields? table

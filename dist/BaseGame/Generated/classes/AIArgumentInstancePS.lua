@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIArgumentInstancePS: ISerializable
----@field public ["name"] CName
+---@field public name CName
 AIArgumentInstancePS = {}

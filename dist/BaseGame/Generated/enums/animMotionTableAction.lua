@@ -2,52 +2,52 @@
 ---@diagnostic disable
 
 ---@class animMotionTableAction: Enum
----@field ["MTA_None"] animMotionTableAction 0
----@field ["MTA_Start"] animMotionTableAction 1
----@field ["MTA_Stop"] animMotionTableAction 2
----@field ["MTA_Move"] animMotionTableAction 3
----@field ["MTA_TurnInPlace"] animMotionTableAction 4
----@field ["MTA_TransitionToBackward"] animMotionTableAction 5
----@field ["MTA_BackwardMove"] animMotionTableAction 6
----@field ["MTA_TransitionFromBackward"] animMotionTableAction 7
----@field ["MTA_StrafeLeft"] animMotionTableAction 8
----@field ["MTA_StrafeRight"] animMotionTableAction 9
----@field ["MTA_ForwardToStrafeLeft"] animMotionTableAction 10
----@field ["MTA_ForwardToStrafeRight"] animMotionTableAction 11
----@field ["MTA_StrafeLeftToForward"] animMotionTableAction 12
----@field ["MTA_StrafeRightToForward"] animMotionTableAction 13
----@field ["MTA_BackwardToStrafeLeft"] animMotionTableAction 14
----@field ["MTA_BackwardToStrafeRight"] animMotionTableAction 15
----@field ["MTA_StrafeLeftToBackward"] animMotionTableAction 16
----@field ["MTA_StrafeRightToBackward"] animMotionTableAction 17
----@field ["MTA_BackwardStart"] animMotionTableAction 18
----@field ["MTA_BackwardStop"] animMotionTableAction 19
----@field ["MTA_StrafeLeftStart"] animMotionTableAction 20
----@field ["MTA_StrafeLeftStop"] animMotionTableAction 21
----@field ["MTA_StrafeRightStart"] animMotionTableAction 22
----@field ["MTA_StrafeRightStop"] animMotionTableAction 23
----@field ["MTA_ForwardToWalk"] animMotionTableAction 24
----@field ["MTA_ForwardToJog"] animMotionTableAction 25
----@field ["MTA_ForwardToSprint"] animMotionTableAction 26
----@field ["MTA_HardStopLeftLeg"] animMotionTableAction 27
----@field ["MTA_HardStopRightLeg"] animMotionTableAction 28
----@field ["MTA_RepositionForward"] animMotionTableAction 29
----@field ["MTA_RepositionLeft"] animMotionTableAction 30
----@field ["MTA_RepositionRight"] animMotionTableAction 31
----@field ["MTA_RepositionBackward"] animMotionTableAction 32
----@field ["MTA_Custom"] animMotionTableAction 33
----@field ["MTA_CrowdMove"] animMotionTableAction 34
----@field ["MTA_CrowdMoveSlopes"] animMotionTableAction 35
----@field ["MTA_CrowdMoveStairs"] animMotionTableAction 36
----@field ["MTA_StrafeLeftToStrafeRight"] animMotionTableAction 37
----@field ["MTA_StrafeRightToStrafeLeft"] animMotionTableAction 38
----@field ["MTA_CrowdRelaxedStop"] animMotionTableAction 39
----@field ["MTA_CrowdHardStop"] animMotionTableAction 40
----@field ["MTA_CrowdSprintStop"] animMotionTableAction 41
----@field ["MTA_CrowdFleeStopFront"] animMotionTableAction 42
----@field ["MTA_CrowdFleeStopBack"] animMotionTableAction 43
----@field ["MTA_CrowdRelaxedStart"] animMotionTableAction 44
----@field ["MTA_CrowdFleeStartIdle"] animMotionTableAction 45
----@field ["MTA_CrowdFleeStartMotion"] animMotionTableAction 46
----@field ["MTA_CrowdDirectionalStartFast"] animMotionTableAction 47
+---@field MTA_None 0
+---@field MTA_Start 1
+---@field MTA_Stop 2
+---@field MTA_Move 3
+---@field MTA_TurnInPlace 4
+---@field MTA_TransitionToBackward 5
+---@field MTA_BackwardMove 6
+---@field MTA_TransitionFromBackward 7
+---@field MTA_StrafeLeft 8
+---@field MTA_StrafeRight 9
+---@field MTA_ForwardToStrafeLeft 10
+---@field MTA_ForwardToStrafeRight 11
+---@field MTA_StrafeLeftToForward 12
+---@field MTA_StrafeRightToForward 13
+---@field MTA_BackwardToStrafeLeft 14
+---@field MTA_BackwardToStrafeRight 15
+---@field MTA_StrafeLeftToBackward 16
+---@field MTA_StrafeRightToBackward 17
+---@field MTA_BackwardStart 18
+---@field MTA_BackwardStop 19
+---@field MTA_StrafeLeftStart 20
+---@field MTA_StrafeLeftStop 21
+---@field MTA_StrafeRightStart 22
+---@field MTA_StrafeRightStop 23
+---@field MTA_ForwardToWalk 24
+---@field MTA_ForwardToJog 25
+---@field MTA_ForwardToSprint 26
+---@field MTA_HardStopLeftLeg 27
+---@field MTA_HardStopRightLeg 28
+---@field MTA_RepositionForward 29
+---@field MTA_RepositionLeft 30
+---@field MTA_RepositionRight 31
+---@field MTA_RepositionBackward 32
+---@field MTA_Custom 33
+---@field MTA_CrowdMove 34
+---@field MTA_CrowdMoveSlopes 35
+---@field MTA_CrowdMoveStairs 36
+---@field MTA_StrafeLeftToStrafeRight 37
+---@field MTA_StrafeRightToStrafeLeft 38
+---@field MTA_CrowdRelaxedStop 39
+---@field MTA_CrowdHardStop 40
+---@field MTA_CrowdSprintStop 41
+---@field MTA_CrowdFleeStopFront 42
+---@field MTA_CrowdFleeStopBack 43
+---@field MTA_CrowdRelaxedStart 44
+---@field MTA_CrowdFleeStartIdle 45
+---@field MTA_CrowdFleeStartMotion 46
+---@field MTA_CrowdDirectionalStartFast 47
 animMotionTableAction = {}

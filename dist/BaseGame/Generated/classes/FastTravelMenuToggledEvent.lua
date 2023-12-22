@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FastTravelMenuToggledEvent: gameScriptableSystemRequest
----@field public ["isEnabled"] Bool
+---@field public isEnabled Bool
 FastTravelMenuToggledEvent = {}
 
 ---@param fields? table

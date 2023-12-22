@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class AICoverExposureMethod: Enum
----@field ["Standing_Step_Left"] AICoverExposureMethod 0
----@field ["Standing_Step_Right"] AICoverExposureMethod 1
----@field ["Standing_Lean_Left"] AICoverExposureMethod 2
----@field ["Standing_Lean_Right"] AICoverExposureMethod 3
----@field ["Crouching_Step_Left"] AICoverExposureMethod 4
----@field ["Crouching_Step_Right"] AICoverExposureMethod 5
----@field ["Crouching_Lean_Left"] AICoverExposureMethod 6
----@field ["Crouching_Lean_Right"] AICoverExposureMethod 7
----@field ["Lean_Over"] AICoverExposureMethod 8
----@field ["Stand_Up"] AICoverExposureMethod 9
----@field ["Standing_Blind_Left"] AICoverExposureMethod 10
----@field ["Standing_Blind_Right"] AICoverExposureMethod 11
----@field ["Crouching_Blind_Left"] AICoverExposureMethod 12
----@field ["Crouching_Blind_Right"] AICoverExposureMethod 13
----@field ["Crouching_Blind_Top"] AICoverExposureMethod 14
----@field ["Count"] AICoverExposureMethod 15
+---@field Standing_Step_Left 0
+---@field Standing_Step_Right 1
+---@field Standing_Lean_Left 2
+---@field Standing_Lean_Right 3
+---@field Crouching_Step_Left 4
+---@field Crouching_Step_Right 5
+---@field Crouching_Lean_Left 6
+---@field Crouching_Lean_Right 7
+---@field Lean_Over 8
+---@field Stand_Up 9
+---@field Standing_Blind_Left 10
+---@field Standing_Blind_Right 11
+---@field Crouching_Blind_Left 12
+---@field Crouching_Blind_Right 13
+---@field Crouching_Blind_Top 14
+---@field Count 15
 AICoverExposureMethod = {}

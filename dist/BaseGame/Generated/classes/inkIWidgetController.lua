@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkIWidgetController: IScriptable
----@field public ["audioMetadataName"] CName
+---@field public audioMetadataName CName
 inkIWidgetController = {}
 
 ---@param spawnData inkAsyncSpawnData

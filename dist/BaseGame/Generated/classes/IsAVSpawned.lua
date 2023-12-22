@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IsAVSpawned: PreventionConditionAbstract
----@field public ["agentRegistry"] PoliceAgentRegistry
----@field public ["prevSys"] PreventionSystem
+---@field public agentRegistry PoliceAgentRegistry
+---@field public prevSys PreventionSystem
 IsAVSpawned = {}
 
 ---@param fields? table

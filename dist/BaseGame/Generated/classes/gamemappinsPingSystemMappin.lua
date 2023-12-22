@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsPingSystemMappin: gamemappinsRuntimeMappin
----@field public ["pingType"] gamedataPingType
+---@field public pingType gamedataPingType
 gamemappinsPingSystemMappin = {}
 
 ---@param fields? table

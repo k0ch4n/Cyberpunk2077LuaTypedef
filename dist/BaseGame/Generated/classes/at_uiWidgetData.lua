@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class at_uiWidgetData
----@field public ["widgetATID"] String
----@field public ["layerType"] inkELayerType
----@field public ["parentGameController"] CName
+---@field public widgetATID String
+---@field public layerType inkELayerType
+---@field public parentGameController CName
 at_uiWidgetData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerLevelUpProficiency_NodeType: questIEntityManager_NodeType
----@field public ["type"] gamedataProficiencyType
+---@field public type gamedataProficiencyType
 questEntityManagerLevelUpProficiency_NodeType = {}
 
 ---@param fields? table

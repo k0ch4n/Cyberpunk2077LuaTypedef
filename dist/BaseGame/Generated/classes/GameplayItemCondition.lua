@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameplayItemCondition: GameplayConditionBase
----@field public ["itemToCheck"] TweakDBID
+---@field public itemToCheck TweakDBID
 GameplayItemCondition = {}
 
 ---@param fields? table

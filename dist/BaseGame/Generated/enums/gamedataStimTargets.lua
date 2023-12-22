@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataStimTargets: Enum
----@field ["All"] gamedataStimTargets 0
----@field ["Puppets"] gamedataStimTargets 1
----@field ["Vehicles"] gamedataStimTargets 2
----@field ["Count"] gamedataStimTargets 3
----@field ["Invalid"] gamedataStimTargets 4
+---@field All 0
+---@field Puppets 1
+---@field Vehicles 2
+---@field Count 3
+---@field Invalid 4
 gamedataStimTargets = {}

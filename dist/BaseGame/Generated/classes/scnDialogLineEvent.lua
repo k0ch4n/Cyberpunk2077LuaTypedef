@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnDialogLineEvent: scnSceneEvent
----@field public ["screenplayLineId"] scnscreenplayItemId
----@field public ["voParams"] scnDialogLineVoParams
----@field public ["visualStyle"] scnDialogLineVisualStyle
----@field public ["additionalSpeakers"] scnAdditionalSpeakers
+---@field public screenplayLineId scnscreenplayItemId
+---@field public voParams scnDialogLineVoParams
+---@field public visualStyle scnDialogLineVisualStyle
+---@field public additionalSpeakers scnAdditionalSpeakers
 scnDialogLineEvent = {}
 
 ---@param fields? table

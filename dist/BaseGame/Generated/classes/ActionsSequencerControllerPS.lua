@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ActionsSequencerControllerPS: MasterControllerPS
----@field private ["sequenceDuration"] Float
----@field private ["sequencerMode"] EActionsSequencerMode
----@field private ["actionTypeToForward"] SActionTypeForward
----@field private ["ongoingSequence"] ActionsSequence
+---@field private sequenceDuration Float
+---@field private sequencerMode EActionsSequencerMode
+---@field private actionTypeToForward SActionTypeForward
+---@field private ongoingSequence ActionsSequence
 ActionsSequencerControllerPS = {}
 
 ---@param fields? table

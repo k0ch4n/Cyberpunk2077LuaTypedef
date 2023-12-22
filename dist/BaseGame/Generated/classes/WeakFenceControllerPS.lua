@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeakFenceControllerPS: ScriptableDeviceComponentPS
----@field public ["weakfenceSkillChecks"] EngDemoContainer
----@field protected ["weakFenceSetup"] WeakFenceSetup
+---@field public weakfenceSkillChecks EngDemoContainer
+---@field protected weakFenceSetup WeakFenceSetup
 WeakFenceControllerPS = {}
 
 ---@param fields? table

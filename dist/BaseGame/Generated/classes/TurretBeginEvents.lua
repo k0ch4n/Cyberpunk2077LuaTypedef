@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TurretBeginEvents: TurretTransition
----@field public ["stateMachineInitData"] TurretInitData
+---@field public stateMachineInitData TurretInitData
 TurretBeginEvents = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class QuestTrackerObjectiveLogicController: inkWidgetLogicController
----@field private ["objectiveTitle"] inkTextWidgetReference
----@field private ["trackingIcon"] inkWidgetReference
----@field private ["trackingFrame"] inkWidgetReference
----@field private ["objectiveEntry"] gameJournalQuestObjective
----@field private ["AnimProxy"] inkanimProxy
----@field private ["IntroAnimProxy"] inkanimProxy
----@field private ["AnimOptions"] inkanimPlaybackOptions
----@field private ["readyToRemove"] Bool
+---@field private objectiveTitle inkTextWidgetReference
+---@field private trackingIcon inkWidgetReference
+---@field private trackingFrame inkWidgetReference
+---@field private objectiveEntry gameJournalQuestObjective
+---@field private AnimProxy inkanimProxy
+---@field private IntroAnimProxy inkanimProxy
+---@field private AnimOptions inkanimPlaybackOptions
+---@field private readyToRemove Bool
 QuestTrackerObjectiveLogicController = {}
 
 ---@param fields? table

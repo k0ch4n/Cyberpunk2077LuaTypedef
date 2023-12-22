@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TrackSetter: animAnimNode_OnePoseInput
----@field public ["track"] animNamedTrackIndex
----@field public ["value"] animFloatLink
+---@field public track animNamedTrackIndex
+---@field public value animFloatLink
 animAnimNode_TrackSetter = {}
 
 ---@param fields? table

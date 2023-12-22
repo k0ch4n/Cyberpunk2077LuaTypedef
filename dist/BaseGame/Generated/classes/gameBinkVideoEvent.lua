@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameBinkVideoEvent: redEvent
----@field public ["videoPath"] String
----@field public ["action"] gameBinkVideoAction
+---@field public videoPath String
+---@field public action gameBinkVideoAction
 gameBinkVideoEvent = {}
 
 ---@param fields? table

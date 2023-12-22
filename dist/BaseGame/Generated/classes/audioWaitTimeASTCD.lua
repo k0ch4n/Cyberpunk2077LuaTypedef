@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioWaitTimeASTCD: audioAudioStateTransitionConditionData
----@field public ["timeToWait"] Float
+---@field public timeToWait Float
 audioWaitTimeASTCD = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CodexCategoryType: Enum
----@field ["All"] CodexCategoryType 0
----@field ["Database"] CodexCategoryType 1
----@field ["Characters"] CodexCategoryType 2
----@field ["Locations"] CodexCategoryType 3
----@field ["Tutorials"] CodexCategoryType 4
----@field ["Count"] CodexCategoryType 5
----@field ["Invalid"] CodexCategoryType -1
+---@field All 0
+---@field Database 1
+---@field Characters 2
+---@field Locations 3
+---@field Tutorials 4
+---@field Count 5
+---@field Invalid -1
 CodexCategoryType = {}

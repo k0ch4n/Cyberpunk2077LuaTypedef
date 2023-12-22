@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animSyncMethodLocomotion: animISyncMethod
----@field public ["locomotionFeatureName"] CName
----@field public ["accelStopTimeEvent"] CName
+---@field public locomotionFeatureName CName
+---@field public accelStopTimeEvent CName
 animSyncMethodLocomotion = {}
 
 ---@param fields? table

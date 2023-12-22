@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorAcceleration: IParticleModificator
----@field public ["direction"] IEvaluatorVector
----@field public ["scale"] IEvaluatorFloat
----@field public ["worldSpace"] Bool
+---@field public direction IEvaluatorVector
+---@field public scale IEvaluatorFloat
+---@field public worldSpace Bool
 CParticleModificatorAcceleration = {}
 
 ---@param fields? table

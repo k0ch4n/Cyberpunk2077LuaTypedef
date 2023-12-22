@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimWrapperWeightSetter: entAnimInputSetter
----@field public ["value"] Float
+---@field public value Float
 entAnimWrapperWeightSetter = {}
 
 ---@param fields? table

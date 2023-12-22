@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSignalConditionModes: Enum
----@field ["CurrentValue"] AIbehaviorSignalConditionModes 0
----@field ["StartOfFrameValue"] AIbehaviorSignalConditionModes 1
----@field ["RisingEdge"] AIbehaviorSignalConditionModes 2
----@field ["FallingEdge"] AIbehaviorSignalConditionModes 3
----@field ["AnyEdge"] AIbehaviorSignalConditionModes 4
+---@field CurrentValue 0
+---@field StartOfFrameValue 1
+---@field RisingEdge 2
+---@field FallingEdge 3
+---@field AnyEdge 4
 AIbehaviorSignalConditionModes = {}

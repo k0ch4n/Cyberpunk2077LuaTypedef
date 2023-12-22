@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entRagdollApplyImpulseEvent: redEvent
----@field public ["worldImpulsePos"] Vector4
----@field public ["worldImpulseValue"] Vector4
----@field public ["influenceRadius"] Float
+---@field public worldImpulsePos Vector4
+---@field public worldImpulseValue Vector4
+---@field public influenceRadius Float
 entRagdollApplyImpulseEvent = {}
 
 ---@param fields? table

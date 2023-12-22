@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MessengerContactType: Enum
----@field ["SingleThread"] MessengerContactType 0
----@field ["MultiThread"] MessengerContactType 1
----@field ["Contact"] MessengerContactType 2
----@field ["Fake_ShowAll"] MessengerContactType 3
+---@field SingleThread 0
+---@field MultiThread 1
+---@field Contact 2
+---@field Fake_ShowAll 3
 MessengerContactType = {}

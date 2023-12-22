@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioLimitedSound
----@field public ["soundType"] audioLimitedSoundType
----@field public ["attenuationDistance"] Float
+---@field public soundType audioLimitedSoundType
+---@field public attenuationDistance Float
 audioLimitedSound = {}
 
 ---@param fields? table

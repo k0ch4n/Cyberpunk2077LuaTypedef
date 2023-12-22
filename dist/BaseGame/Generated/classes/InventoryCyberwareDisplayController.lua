@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryCyberwareDisplayController: InventoryItemDisplayController
----@field protected ["ownedFrame"] inkWidgetReference
----@field protected ["selectedFrame"] inkWidgetReference
----@field protected ["amountPanel"] inkWidgetReference
----@field protected ["amount"] inkTextWidgetReference
+---@field protected ownedFrame inkWidgetReference
+---@field protected selectedFrame inkWidgetReference
+---@field protected amountPanel inkWidgetReference
+---@field protected amount inkTextWidgetReference
 InventoryCyberwareDisplayController = {}
 
 ---@param fields? table

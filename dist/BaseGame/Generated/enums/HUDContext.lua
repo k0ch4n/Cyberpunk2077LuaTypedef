@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDContext: Enum
----@field ["DEFAULT"] HUDContext 0
----@field ["FOCUS"] HUDContext 1
----@field ["LOOKEDAT"] HUDContext 2
+---@field DEFAULT 0
+---@field FOCUS 1
+---@field LOOKEDAT 2
 HUDContext = {}

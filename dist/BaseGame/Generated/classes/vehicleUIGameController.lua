@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class vehicleUIGameController: gameuiHUDGameController
----@field private ["vehicleBlackboard"] gameIBlackboard
----@field private ["vehicle"] vehicleBaseObject
----@field private ["vehiclePS"] VehicleComponentPS
----@field private ["vehicleBBStateConectionId"] redCallbackObject
----@field private ["vehicleCollisionBBStateID"] redCallbackObject
----@field private ["vehicleBBUIActivId"] redCallbackObject
----@field private ["rootWidget"] inkWidget
----@field private ["UIEnabled"] Bool
----@field private ["startAnimProxy"] inkanimProxy
----@field private ["loopAnimProxy"] inkanimProxy
----@field private ["endAnimProxy"] inkanimProxy
----@field private ["loopingBootProxy"] inkanimProxy
----@field private ["speedometerWidget"] inkWidgetReference
----@field private ["tachometerWidget"] inkWidgetReference
----@field private ["timeWidget"] inkWidgetReference
----@field private ["instruments"] inkWidgetReference
----@field private ["gearBox"] inkWidgetReference
----@field private ["radio"] inkWidgetReference
----@field private ["analogTachWidget"] inkWidgetReference
----@field private ["analogSpeedWidget"] inkWidgetReference
----@field private ["isVehicleReady"] Bool
+---@field private vehicleBlackboard gameIBlackboard
+---@field private vehicle vehicleBaseObject
+---@field private vehiclePS VehicleComponentPS
+---@field private vehicleBBStateConectionId redCallbackObject
+---@field private vehicleCollisionBBStateID redCallbackObject
+---@field private vehicleBBUIActivId redCallbackObject
+---@field private rootWidget inkWidget
+---@field private UIEnabled Bool
+---@field private startAnimProxy inkanimProxy
+---@field private loopAnimProxy inkanimProxy
+---@field private endAnimProxy inkanimProxy
+---@field private loopingBootProxy inkanimProxy
+---@field private speedometerWidget inkWidgetReference
+---@field private tachometerWidget inkWidgetReference
+---@field private timeWidget inkWidgetReference
+---@field private instruments inkWidgetReference
+---@field private gearBox inkWidgetReference
+---@field private radio inkWidgetReference
+---@field private analogTachWidget inkWidgetReference
+---@field private analogSpeedWidget inkWidgetReference
+---@field private isVehicleReady Bool
 vehicleUIGameController = {}
 
 ---@param fields? table

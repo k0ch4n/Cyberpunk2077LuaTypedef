@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceActionQueue: IScriptable
----@field private ["actionsInQueue"] gamedeviceAction[]
----@field private ["maxQueueSize"] Int32
----@field private ["locked"] Bool
+---@field private actionsInQueue gamedeviceAction[]
+---@field private maxQueueSize Int32
+---@field private locked Bool
 DeviceActionQueue = {}
 
 ---@param fields? table

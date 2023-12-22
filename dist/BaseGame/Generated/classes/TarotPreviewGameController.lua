@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TarotPreviewGameController: gameuiWidgetGameController
----@field private ["background"] inkWidgetReference
----@field private ["ep1Icon"] inkWidgetReference
----@field private ["previewImage"] inkImageWidgetReference
----@field private ["previewTitle"] inkTextWidgetReference
----@field private ["previewDescription"] inkTextWidgetReference
----@field private ["data"] TarotCardPreviewData
----@field private ["isClosing"] Bool
+---@field private background inkWidgetReference
+---@field private ep1Icon inkWidgetReference
+---@field private previewImage inkImageWidgetReference
+---@field private previewTitle inkTextWidgetReference
+---@field private previewDescription inkTextWidgetReference
+---@field private data TarotCardPreviewData
+---@field private isClosing Bool
 TarotPreviewGameController = {}
 
 ---@param fields? table

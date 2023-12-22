@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDynamicSpawnSystemNodeDefinition: questDisableableNodeDefinition
----@field public ["type"] questIDynamicSpawnSystemType
+---@field public type questIDynamicSpawnSystemType
 questDynamicSpawnSystemNodeDefinition = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class VehicleDoorOpen: ActionBool
----@field public ["slotID"] CName
----@field public ["shouldAutoClose"] Bool
----@field public ["autoCloseTime"] Float
----@field public ["forceScene"] Bool
+---@field public slotID CName
+---@field public shouldAutoClose Bool
+---@field public autoCloseTime Float
+---@field public forceScene Bool
 VehicleDoorOpen = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSendAICommandNodeDefinition: questAICommandNodeBase
----@field public ["puppet"] gameEntityReference
----@field public ["commandParams"] questAICommandParams
+---@field public puppet gameEntityReference
+---@field public commandParams questAICommandParams
 questSendAICommandNodeDefinition = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Multilayer_Setup: CResource
----@field public ["layers"] Multilayer_Layer[]
----@field public ["ratio"] Float
----@field public ["useNormal"] Bool
+---@field public layers Multilayer_Layer[]
+---@field public ratio Float
+---@field public useNormal Bool
 Multilayer_Setup = {}
 
 ---@param fields? table

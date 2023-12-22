@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEMaterialZone: Enum
----@field ["Zero"] gameEMaterialZone 0
----@field ["One"] gameEMaterialZone 1
----@field ["Two"] gameEMaterialZone 2
----@field ["Three"] gameEMaterialZone 3
+---@field Zero 0
+---@field One 1
+---@field Two 2
+---@field Three 3
 gameEMaterialZone = {}

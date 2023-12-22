@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadioStationChangedEvent: redEvent
----@field public ["radioIndex"] Int32
+---@field public radioIndex Int32
 RadioStationChangedEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questJournalQuestSetObjectiveOptional_NodeType: questIJournal_NodeType
----@field public ["path"] gameJournalPath
----@field public ["optional"] Bool
+---@field public path gameJournalPath
+---@field public optional Bool
 questJournalQuestSetObjectiveOptional_NodeType = {}
 
 ---@param fields? table

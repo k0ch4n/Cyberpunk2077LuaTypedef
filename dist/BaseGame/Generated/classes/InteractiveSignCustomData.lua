@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InteractiveSignCustomData: WidgetCustomData
----@field private ["messege"] String
----@field private ["signShape"] SignShape
+---@field private messege String
+---@field private signShape SignShape
 InteractiveSignCustomData = {}
 
 ---@param fields? table

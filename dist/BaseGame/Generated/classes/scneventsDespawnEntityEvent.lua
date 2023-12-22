@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scneventsDespawnEntityEvent: scnSceneEvent
----@field public ["params"] scneventsDespawnEntityEventParams
+---@field public params scneventsDespawnEntityEventParams
 scneventsDespawnEntityEvent = {}
 
 ---@param fields? table

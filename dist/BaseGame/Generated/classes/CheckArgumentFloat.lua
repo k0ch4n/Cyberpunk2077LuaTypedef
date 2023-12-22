@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckArgumentFloat: CheckArguments
----@field public ["customVar"] Float
----@field public ["comparator"] ECompareOp
+---@field public customVar Float
+---@field public comparator ECompareOp
 CheckArgumentFloat = {}
 
 ---@param fields? table

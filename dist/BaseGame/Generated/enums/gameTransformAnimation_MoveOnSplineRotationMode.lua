@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_MoveOnSplineRotationMode: Enum
----@field ["Disabled"] gameTransformAnimation_MoveOnSplineRotationMode 0
----@field ["Yaw"] gameTransformAnimation_MoveOnSplineRotationMode 1
----@field ["PitchAndYaw"] gameTransformAnimation_MoveOnSplineRotationMode 2
+---@field Disabled 0
+---@field Yaw 1
+---@field PitchAndYaw 2
 gameTransformAnimation_MoveOnSplineRotationMode = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class JukeboxSetup
----@field public ["randomizeStartingStation"] Bool
----@field public ["startingStation"] ERadioStationList
----@field public ["glitchSFX"] CName
----@field public ["paymentRecordID"] TweakDBID
+---@field public randomizeStartingStation Bool
+---@field public startingStation ERadioStationList
+---@field public glitchSFX CName
+---@field public paymentRecordID TweakDBID
 JukeboxSetup = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NetrunnerChairControllerPS: ScriptableDeviceComponentPS
----@field protected ["killDelay"] Float
----@field protected ["wasOverloaded"] Bool
+---@field protected killDelay Float
+---@field protected wasOverloaded Bool
 NetrunnerChairControllerPS = {}
 
 ---@param fields? table

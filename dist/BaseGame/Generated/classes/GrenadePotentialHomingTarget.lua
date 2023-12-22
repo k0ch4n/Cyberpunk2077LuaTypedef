@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GrenadePotentialHomingTarget
----@field public ["entity"] ScriptedPuppet
----@field public ["targetSlot"] CName
+---@field public entity ScriptedPuppet
+---@field public targetSlot CName
 GrenadePotentialHomingTarget = {}
 
 ---@param fields? table

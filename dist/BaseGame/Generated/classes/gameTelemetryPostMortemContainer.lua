@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTelemetryPostMortemContainer: ISerializable
----@field public ["postMortem"] gameTelemetryPostMortem
+---@field public postMortem gameTelemetryPostMortem
 gameTelemetryPostMortemContainer = {}
 
 ---@param fields? table

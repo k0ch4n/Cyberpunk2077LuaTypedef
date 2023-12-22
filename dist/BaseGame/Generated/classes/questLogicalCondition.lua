@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questLogicalCondition: questCondition
----@field public ["operation"] questLogicalOperation
----@field public ["conditions"] questIBaseCondition[]
+---@field public operation questLogicalOperation
+---@field public conditions questIBaseCondition[]
 questLogicalCondition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAudioDismembermentPart: Enum
----@field ["Head"] entAudioDismembermentPart 0
----@field ["Leg"] entAudioDismembermentPart 1
----@field ["Arm"] entAudioDismembermentPart 2
+---@field Head 0
+---@field Leg 1
+---@field Arm 2
 entAudioDismembermentPart = {}

@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class OnscreenMessageGameController: gameuiHUDGameController
----@field private ["root"] inkWidget
----@field private ["blackboard"] gameIBlackboard
----@field private ["blackboardDef"] UI_NotificationsDef
----@field private ["screenMessageUpdateCallbackId"] redCallbackObject
----@field private ["screenMessage"] gameSimpleScreenMessage
----@field private ["mainTextWidget"] inkTextWidgetReference
----@field private ["blinkingAnim"] inkanimDefinition
----@field private ["showAnim"] inkanimDefinition
----@field private ["hideAnim"] inkanimDefinition
----@field private ["animProxyShow"] inkanimProxy
----@field private ["animProxyHide"] inkanimProxy
----@field private ["animProxyTimeout"] inkanimProxy
+---@field private root inkWidget
+---@field private blackboard gameIBlackboard
+---@field private blackboardDef UI_NotificationsDef
+---@field private screenMessageUpdateCallbackId redCallbackObject
+---@field private screenMessage gameSimpleScreenMessage
+---@field private mainTextWidget inkTextWidgetReference
+---@field private blinkingAnim inkanimDefinition
+---@field private showAnim inkanimDefinition
+---@field private hideAnim inkanimDefinition
+---@field private animProxyShow inkanimProxy
+---@field private animProxyHide inkanimProxy
+---@field private animProxyTimeout inkanimProxy
 OnscreenMessageGameController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class grsHeistState
----@field public ["time"] netTime
----@field public ["status"] grsHeistStatus
----@field public ["playersInfo"] grsHeistPlayerGameInfo
+---@field public time netTime
+---@field public status grsHeistStatus
+---@field public playersInfo grsHeistPlayerGameInfo
 grsHeistState = {}
 
 ---@param fields? table

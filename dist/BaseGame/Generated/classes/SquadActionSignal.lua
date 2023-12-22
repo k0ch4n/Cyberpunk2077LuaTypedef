@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SquadActionSignal: gameTaggedSignalUserData
----@field public ["squadActionName"] CName
----@field public ["squadVerb"] EAISquadVerb
+---@field public squadActionName CName
+---@field public squadVerb EAISquadVerb
 SquadActionSignal = {}
 
 ---@param fields? table

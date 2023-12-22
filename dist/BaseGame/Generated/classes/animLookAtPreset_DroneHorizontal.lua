@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class animLookAtPreset_DroneHorizontal: animLookAtPreset
----@field public ["softLimitDegrees"] Float
----@field public ["hardLimitDegrees"] Float
----@field public ["hardLimitDistance"] Float
----@field public ["backLimitDegrees"] Float
----@field public ["suppress"] Float
----@field public ["mode"] Int32
+---@field public softLimitDegrees Float
+---@field public hardLimitDegrees Float
+---@field public hardLimitDistance Float
+---@field public backLimitDegrees Float
+---@field public suppress Float
+---@field public mode Int32
 animLookAtPreset_DroneHorizontal = {}
 
 ---@param fields? table

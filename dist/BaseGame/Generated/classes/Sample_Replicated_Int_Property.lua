@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Int_Property
----@field public ["property"] Int32
+---@field public property Int32
 Sample_Replicated_Int_Property = {}
 
 ---@param fields? table

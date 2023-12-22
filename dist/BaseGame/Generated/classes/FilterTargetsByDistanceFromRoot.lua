@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FilterTargetsByDistanceFromRoot: gameEffectObjectSingleFilter_Scripted
----@field private ["rootOffset_Z"] Float
----@field private ["tollerance"] Float
+---@field private rootOffset_Z Float
+---@field private tollerance Float
 FilterTargetsByDistanceFromRoot = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIRagdollDelegate: AIbehaviorScriptBehaviorDelegate
----@field public ["ragdollInstigator"] gameObject
----@field public ["closestNavmeshPoint"] Vector4
----@field public ["ragdollOutOfNavmesh"] Bool
----@field public ["isUnderwater"] Bool
----@field public ["poseAllowsRecovery"] Bool
+---@field public ragdollInstigator gameObject
+---@field public closestNavmeshPoint Vector4
+---@field public ragdollOutOfNavmesh Bool
+---@field public isUnderwater Bool
+---@field public poseAllowsRecovery Bool
 AIRagdollDelegate = {}
 
 ---@param fields? table

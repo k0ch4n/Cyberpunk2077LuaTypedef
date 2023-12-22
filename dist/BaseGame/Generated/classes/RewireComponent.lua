@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RewireComponent: gameScriptableComponent
----@field public ["miniGameVideoPath"] redResourceReferenceScriptToken
----@field public ["miniGameAudioEvent"] CName
----@field public ["miniGameVideoLenght"] Float
----@field private ["rewireEvent"] RewireEvent
----@field private ["rewireCurrentLenght"] Float
----@field private ["isActive"] Bool
+---@field public miniGameVideoPath redResourceReferenceScriptToken
+---@field public miniGameAudioEvent CName
+---@field public miniGameVideoLenght Float
+---@field private rewireEvent RewireEvent
+---@field private rewireCurrentLenght Float
+---@field private isActive Bool
 RewireComponent = {}
 
 ---@param fields? table

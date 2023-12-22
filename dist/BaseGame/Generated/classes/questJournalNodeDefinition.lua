@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questJournalNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["type"] questIJournal_NodeType
+---@field public type questIJournal_NodeType
 questJournalNodeDefinition = {}
 
 ---@param fields? table

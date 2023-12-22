@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceStimType: Enum
----@field ["Distract"] DeviceStimType 0
----@field ["VisualDistract"] DeviceStimType 1
----@field ["Explosion"] DeviceStimType 2
----@field ["VentilationAreaEffect"] DeviceStimType 3
----@field ["None"] DeviceStimType 4
+---@field Distract 0
+---@field VisualDistract 1
+---@field Explosion 2
+---@field VentilationAreaEffect 3
+---@field None 4
 DeviceStimType = {}

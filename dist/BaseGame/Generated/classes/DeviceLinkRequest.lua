@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceLinkRequest: redEvent
----@field private ["deviceLink"] DeviceLink
+---@field private deviceLink DeviceLink
 DeviceLinkRequest = {}
 
 ---@param fields? table

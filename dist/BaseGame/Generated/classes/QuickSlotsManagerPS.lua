@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickSlotsManagerPS: gameComponentPS
----@field private ["activeVehicleType"] gamedataVehicleType
+---@field private activeVehicleType gamedataVehicleType
 QuickSlotsManagerPS = {}
 
 ---@param fields? table

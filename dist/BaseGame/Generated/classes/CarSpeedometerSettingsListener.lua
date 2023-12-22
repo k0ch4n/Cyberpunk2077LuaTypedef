@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CarSpeedometerSettingsListener: userSettingsVarListener
----@field private ["ctrl"] hudCarController
+---@field private ctrl hudCarController
 CarSpeedometerSettingsListener = {}
 
 ---@param fields? table

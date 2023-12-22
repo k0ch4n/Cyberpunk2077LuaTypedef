@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnOutputSocket
----@field public ["stamp"] scnOutputSocketStamp
----@field public ["destinations"] scnInputSocketId[]
+---@field public stamp scnOutputSocketStamp
+---@field public destinations scnInputSocketId[]
 scnOutputSocket = {}
 
 ---@param fields? table

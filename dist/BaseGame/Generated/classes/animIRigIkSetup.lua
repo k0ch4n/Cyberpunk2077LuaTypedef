@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class animIRigIkSetup: ISerializable
----@field public ["name"] CName
+---@field public name CName
 animIRigIkSetup = {}

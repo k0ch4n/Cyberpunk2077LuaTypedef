@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGodModeData
----@field public ["type"] gameGodModeType
----@field public ["source"] CName
+---@field public type gameGodModeType
+---@field public source CName
 gameGodModeData = {}
 
 ---@param fields? table

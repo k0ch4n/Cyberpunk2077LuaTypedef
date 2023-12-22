@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class JunkItemRecord
----@field public ["junkItemID"] TweakDBID
+---@field public junkItemID TweakDBID
 JunkItemRecord = {}
 
 ---@param fields? table

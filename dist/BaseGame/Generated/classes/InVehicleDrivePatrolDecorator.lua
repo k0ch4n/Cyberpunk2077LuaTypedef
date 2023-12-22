@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InVehicleDrivePatrolDecorator: AIVehicleTaskAbstract
----@field public ["vehCommand"] AIVehicleDrivePatrolCommand
----@field protected ["maxSpeed"] AIArgumentMapping
----@field protected ["minSpeed"] AIArgumentMapping
----@field protected ["clearTrafficOnPath"] AIArgumentMapping
----@field protected ["emergencyPatrol"] AIArgumentMapping
----@field protected ["numPatrolLoops"] AIArgumentMapping
+---@field public vehCommand AIVehicleDrivePatrolCommand
+---@field protected maxSpeed AIArgumentMapping
+---@field protected minSpeed AIArgumentMapping
+---@field protected clearTrafficOnPath AIArgumentMapping
+---@field protected emergencyPatrol AIArgumentMapping
+---@field protected numPatrolLoops AIArgumentMapping
 InVehicleDrivePatrolDecorator = {}
 
 ---@param fields? table

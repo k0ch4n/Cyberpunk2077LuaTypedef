@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_ApplyEffector: gameEffectExecutor_Scripted
----@field public ["effector"] TweakDBID
+---@field public effector TweakDBID
 EffectExecutor_ApplyEffector = {}
 
 ---@param fields? table

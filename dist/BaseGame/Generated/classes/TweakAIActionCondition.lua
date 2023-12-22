@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TweakAIActionCondition: TweakAIActionConditionAbstract
----@field public ["record"] TweakDBID
+---@field public record TweakDBID
 TweakAIActionCondition = {}
 
 ---@param fields? table

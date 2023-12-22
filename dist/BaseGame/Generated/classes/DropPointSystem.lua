@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropPointSystem: gameScriptableSystem
----@field private ["packages"] DropPointPackage[]
----@field private ["mappins"] DropPointMappinRegistrationData[]
----@field private ["isEnabled"] Bool
----@field private ["dropPointSystemLocks"] DropPointSystemLock[]
+---@field private packages DropPointPackage[]
+---@field private mappins DropPointMappinRegistrationData[]
+---@field private isEnabled Bool
+---@field private dropPointSystemLocks DropPointSystemLock[]
 DropPointSystem = {}
 
 ---@param fields? table

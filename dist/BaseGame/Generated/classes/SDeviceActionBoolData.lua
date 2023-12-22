@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SDeviceActionBoolData: SDeviceActionData
----@field public ["nameOnTrueRecord"] TweakDBID
----@field public ["nameOnTrue"] String
----@field public ["nameOnFalseRecord"] TweakDBID
----@field public ["nameOnFalse"] String
+---@field public nameOnTrueRecord TweakDBID
+---@field public nameOnTrue String
+---@field public nameOnFalseRecord TweakDBID
+---@field public nameOnFalse String
 SDeviceActionBoolData = {}
 
 ---@param fields? table

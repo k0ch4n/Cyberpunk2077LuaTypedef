@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ExpansionErrorPopuppData: inkGameNotificationData
----@field public ["title"] CName
----@field public ["description"] CName
----@field public ["errorCode"] Uint32
+---@field public title CName
+---@field public description CName
+---@field public errorCode Uint32
 ExpansionErrorPopuppData = {}
 
 ---@param fields? table

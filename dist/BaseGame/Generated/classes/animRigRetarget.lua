@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animRigRetarget
----@field public ["sourceRig"] animRig
+---@field public sourceRig animRig
 animRigRetarget = {}
 
 ---@param fields? table

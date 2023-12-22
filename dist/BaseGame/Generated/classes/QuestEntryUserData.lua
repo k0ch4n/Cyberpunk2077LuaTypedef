@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class QuestEntryUserData: IScriptable
----@field public ["categoryName"] CName
----@field public ["entryName"] CName
----@field public ["recordID"] TweakDBID
----@field public ["asyncSpawnRequest"] inkAsyncSpawnRequest
+---@field public categoryName CName
+---@field public entryName CName
+---@field public recordID TweakDBID
+---@field public asyncSpawnRequest inkAsyncSpawnRequest
 QuestEntryUserData = {}
 
 ---@param fields? table

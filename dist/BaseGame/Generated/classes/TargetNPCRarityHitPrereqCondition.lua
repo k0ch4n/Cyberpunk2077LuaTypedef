@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TargetNPCRarityHitPrereqCondition: BaseHitPrereqCondition
----@field public ["rarity"] gamedataNPCRarity
+---@field public rarity gamedataNPCRarity
 TargetNPCRarityHitPrereqCondition = {}
 
 ---@param fields? table

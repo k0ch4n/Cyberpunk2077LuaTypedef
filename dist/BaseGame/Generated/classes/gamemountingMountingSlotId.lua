@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemountingMountingSlotId
----@field public ["id"] CName
+---@field public id CName
 gamemountingMountingSlotId = {}
 
 ---@param fields? table

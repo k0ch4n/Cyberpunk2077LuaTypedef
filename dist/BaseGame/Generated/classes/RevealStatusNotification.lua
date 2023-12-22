@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RevealStatusNotification: HUDManagerRequest
----@field public ["isRevealed"] Bool
+---@field public isRevealed Bool
 RevealStatusNotification = {}
 
 ---@param fields? table

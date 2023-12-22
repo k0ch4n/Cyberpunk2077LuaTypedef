@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class MessageViewType: Enum
----@field ["Sent"] MessageViewType 0
----@field ["Received"] MessageViewType 1
+---@field Sent 0
+---@field Received 1
 MessageViewType = {}

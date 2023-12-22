@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PuppetMortalPrereq: gameIScriptablePrereq
----@field public ["invert"] Bool
+---@field public invert Bool
 PuppetMortalPrereq = {}
 
 ---@param fields? table

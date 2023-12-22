@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EUIActionState: Enum
----@field ["Invalid"] EUIActionState 0
----@field ["DEFAULT"] EUIActionState 1
----@field ["STARTED"] EUIActionState 2
----@field ["COMPLETED"] EUIActionState 3
----@field ["ABORTED"] EUIActionState 4
+---@field Invalid 0
+---@field DEFAULT 1
+---@field STARTED 2
+---@field COMPLETED 3
+---@field ABORTED 4
 EUIActionState = {}

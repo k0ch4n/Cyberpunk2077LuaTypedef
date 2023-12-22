@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questJournalNotification_ConditionType: questIUIConditionType
----@field public ["journalPath"] gameJournalPath
+---@field public journalPath gameJournalPath
 questJournalNotification_ConditionType = {}
 
 ---@param fields? table

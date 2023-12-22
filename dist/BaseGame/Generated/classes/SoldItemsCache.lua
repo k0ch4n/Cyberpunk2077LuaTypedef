@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SoldItemsCache: IScriptable
----@field private ["cache"] SoldItem[]
+---@field private cache SoldItem[]
 SoldItemsCache = {}
 
 ---@param fields? table

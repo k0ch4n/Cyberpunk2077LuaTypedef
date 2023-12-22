@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FocusCluesSystem: gameScriptableSystem
----@field private ["linkedClues"] LinkedFocusClueData[]
----@field private ["disabledGroupes"] CName[]
----@field private ["activeLinkedClue"] LinkedFocusClueData
+---@field private linkedClues LinkedFocusClueData[]
+---@field private disabledGroupes CName[]
+---@field private activeLinkedClue LinkedFocusClueData
 FocusCluesSystem = {}
 
 ---@param fields? table

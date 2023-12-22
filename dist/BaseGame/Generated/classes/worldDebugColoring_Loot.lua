@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_Loot: worldEditorDebugColoringSettings
----@field public ["defaultColor"] Color
+---@field public defaultColor Color
 worldDebugColoring_Loot = {}
 
 ---@param fields? table

@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class textScrollingAnimController: inkWidgetLogicController
----@field public ["scannerDetailsHackLog"] inkTextWidgetReference
----@field public ["defaultScrollSpeed"] Float
----@field public ["playOnInit"] Bool
----@field public ["numOfLines"] Int32
----@field public ["numOfStartingLines"] Int32
----@field public ["transparency"] Float
----@field public ["gapIndex"] Int32
----@field public ["binaryOnly"] Bool
----@field public ["binaryClusterCount"] Int32
----@field public ["scrollingText"] ScrollingText
----@field private ["logArray"] String[]
----@field private ["upload_counter"] Float
----@field private ["scrollSpeed"] Float
----@field private ["fastScrollSpeed"] Float
----@field private ["panel"] inkCompoundWidget
----@field private ["alpha_fadein"] inkanimDefinition
----@field private ["AnimProxy"] inkanimProxy
----@field private ["AnimOptions"] inkanimPlaybackOptions
----@field private ["lineCount"] Int32
+---@field public scannerDetailsHackLog inkTextWidgetReference
+---@field public defaultScrollSpeed Float
+---@field public playOnInit Bool
+---@field public numOfLines Int32
+---@field public numOfStartingLines Int32
+---@field public transparency Float
+---@field public gapIndex Int32
+---@field public binaryOnly Bool
+---@field public binaryClusterCount Int32
+---@field public scrollingText ScrollingText
+---@field private logArray String[]
+---@field private upload_counter Float
+---@field private scrollSpeed Float
+---@field private fastScrollSpeed Float
+---@field private panel inkCompoundWidget
+---@field private alpha_fadein inkanimDefinition
+---@field private AnimProxy inkanimProxy
+---@field private AnimOptions inkanimPlaybackOptions
+---@field private lineCount Int32
 textScrollingAnimController = {}
 
 ---@param fields? table

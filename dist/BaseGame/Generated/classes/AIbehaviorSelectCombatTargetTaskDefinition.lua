@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSelectCombatTargetTaskDefinition: AIbehaviorTaskDefinition
----@field public ["target"] AIArgumentMapping
----@field public ["targetClosest"] Bool
+---@field public target AIArgumentMapping
+---@field public targetClosest Bool
 AIbehaviorSelectCombatTargetTaskDefinition = {}
 
 ---@param fields? table

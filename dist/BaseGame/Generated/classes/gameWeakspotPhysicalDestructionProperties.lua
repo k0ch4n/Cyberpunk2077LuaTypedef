@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameWeakspotPhysicalDestructionProperties
----@field public ["velocity"] Float
+---@field public velocity Float
 gameWeakspotPhysicalDestructionProperties = {}
 
 ---@param fields? table

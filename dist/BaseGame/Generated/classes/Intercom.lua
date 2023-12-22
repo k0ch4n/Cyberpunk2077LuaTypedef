@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Intercom: InteractiveDevice
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
----@field protected ["dialStartSound"] CName
----@field protected ["dialStopSound"] CName
----@field protected ["distractionStartSound"] CName
----@field protected ["distractionStopSound"] CName
----@field protected ["answeredSound"] CName
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
+---@field protected dialStartSound CName
+---@field protected dialStopSound CName
+---@field protected distractionStartSound CName
+---@field protected distractionStopSound CName
+---@field protected answeredSound CName
 Intercom = {}
 
 ---@param fields? table

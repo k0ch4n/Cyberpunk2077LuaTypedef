@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BrowserGameController: gameuiWidgetGameController
----@field public ["logicControllerRef"] inkWidgetReference
----@field protected ["journalManager"] gameJournalManager
----@field private ["locationTags"] CName[]
+---@field public logicControllerRef inkWidgetReference
+---@field protected journalManager gameJournalManager
+---@field private locationTags CName[]
 BrowserGameController = {}
 
 ---@param fields? table

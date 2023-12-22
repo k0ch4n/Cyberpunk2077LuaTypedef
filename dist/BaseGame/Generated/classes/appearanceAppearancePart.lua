@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class appearanceAppearancePart
----@field public ["resource"] entEntityTemplate
+---@field public resource entEntityTemplate
 appearanceAppearancePart = {}
 
 ---@param fields? table

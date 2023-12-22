@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsRagdollShapeType: Enum
----@field ["CAPSULE"] physicsRagdollShapeType 0
----@field ["BOX"] physicsRagdollShapeType 1
----@field ["SPHERE"] physicsRagdollShapeType 2
+---@field CAPSULE 0
+---@field BOX 1
+---@field SPHERE 2
 physicsRagdollShapeType = {}

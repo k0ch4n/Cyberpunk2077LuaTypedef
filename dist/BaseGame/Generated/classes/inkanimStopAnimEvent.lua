@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimStopAnimEvent: inkanimEvent
----@field public ["animName"] CName
+---@field public animName CName
 inkanimStopAnimEvent = {}
 
 ---@param fields? table

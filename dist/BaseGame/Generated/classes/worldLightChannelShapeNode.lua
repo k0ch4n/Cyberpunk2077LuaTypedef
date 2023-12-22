@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldLightChannelShapeNode: worldGeometryShapeNode
----@field public ["channels"] rendLightChannel
----@field public ["streamingDistanceFactor"] Float
+---@field public channels rendLightChannel
+---@field public streamingDistanceFactor Float
 worldLightChannelShapeNode = {}
 
 ---@param fields? table

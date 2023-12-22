@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class QuestDataWrapper: AJournalEntryWrapper
----@field private ["isNew"] Bool
----@field private ["quest"] gameJournalQuest
----@field private ["title"] String
----@field private ["description"] String
----@field private ["questObjectives"] QuestObjectiveWrapper[]
----@field private ["links"] gameJournalEntry[]
----@field private ["questStatus"] gameJournalEntryState
----@field private ["isTracked"] Bool
----@field private ["isChildTracked"] Bool
----@field private ["recommendedLevel"] Int32
----@field private ["district"] gamedataDistrict_Record
----@field private ["journalManager"] gameJournalManager
+---@field private isNew Bool
+---@field private quest gameJournalQuest
+---@field private title String
+---@field private description String
+---@field private questObjectives QuestObjectiveWrapper[]
+---@field private links gameJournalEntry[]
+---@field private questStatus gameJournalEntryState
+---@field private isTracked Bool
+---@field private isChildTracked Bool
+---@field private recommendedLevel Int32
+---@field private district gamedataDistrict_Record
+---@field private journalManager gameJournalManager
 QuestDataWrapper = {}
 
 ---@param fields? table

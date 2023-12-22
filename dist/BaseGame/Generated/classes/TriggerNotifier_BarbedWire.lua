@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TriggerNotifier_BarbedWire: entTriggerNotifier_Script
----@field public ["attackType"] TweakDBID
+---@field public attackType TweakDBID
 TriggerNotifier_BarbedWire = {}
 
 ---@param fields? table

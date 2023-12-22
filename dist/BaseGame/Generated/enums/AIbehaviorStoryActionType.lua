@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStoryActionType: Enum
----@field ["Setup"] AIbehaviorStoryActionType 0
----@field ["Stop"] AIbehaviorStoryActionType 1
+---@field Setup 0
+---@field Stop 1
 AIbehaviorStoryActionType = {}

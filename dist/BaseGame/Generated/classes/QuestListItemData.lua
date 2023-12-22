@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class QuestListItemData: IScriptable
----@field public ["questType"] QuestListItemType
----@field public ["lastUpdateTimestamp"] GameTime
----@field public ["isTrackedQuest"] Bool
----@field public ["isOpenedQuest"] Bool
----@field public ["questData"] gameJournalQuest
----@field public ["journalManager"] gameJournalManager
----@field public ["playerLevel"] Int32
----@field public ["recommendedLevel"] Int32
----@field public ["State"] gameJournalEntryState
----@field public ["distance"] Float
----@field private ["distancesFetched"] Bool
----@field private ["objectivesDistances"] QuestListDistanceData[]
+---@field public questType QuestListItemType
+---@field public lastUpdateTimestamp GameTime
+---@field public isTrackedQuest Bool
+---@field public isOpenedQuest Bool
+---@field public questData gameJournalQuest
+---@field public journalManager gameJournalManager
+---@field public playerLevel Int32
+---@field public recommendedLevel Int32
+---@field public State gameJournalEntryState
+---@field public distance Float
+---@field private distancesFetched Bool
+---@field private objectivesDistances QuestListDistanceData[]
 QuestListItemData = {}
 
 ---@param fields? table

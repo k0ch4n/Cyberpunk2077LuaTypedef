@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OvershieldListener: gameScriptStatPoolsListener
----@field private ["healthBar"] gameuiHudHealthbarGameController
+---@field private healthBar gameuiHudHealthbarGameController
 OvershieldListener = {}
 
 ---@param fields? table

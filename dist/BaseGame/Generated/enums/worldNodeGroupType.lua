@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldNodeGroupType: Enum
----@field ["RegularGroup"] worldNodeGroupType 0
----@field ["PrefabVariant"] worldNodeGroupType 1
----@field ["DecorationCell"] worldNodeGroupType 2
----@field ["ProxyGroup"] worldNodeGroupType 3
+---@field RegularGroup 0
+---@field PrefabVariant 1
+---@field DecorationCell 2
+---@field ProxyGroup 3
 worldNodeGroupType = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RipperdocArmorData: IScriptable
----@field public ["CurrentArmor"] Float
----@field public ["CurrentMaxArmor"] Float
----@field public ["MaxArmorPossible"] Float
----@field public ["MaxDamageReduction"] Float
+---@field public CurrentArmor Float
+---@field public CurrentMaxArmor Float
+---@field public MaxArmorPossible Float
+---@field public MaxDamageReduction Float
 RipperdocArmorData = {}
 
 ---@param fields? table

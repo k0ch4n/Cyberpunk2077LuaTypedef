@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleUIAnchorButton: inkWidgetLogicController
----@field public ["anchorLocation"] inkEAnchor
+---@field public anchorLocation inkEAnchor
 sampleUIAnchorButton = {}
 
 ---@param fields? table

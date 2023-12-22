@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NetrunnerControlPanelControllerPS: BasicDistractionDeviceControllerPS
----@field private ["factQuickHackSetup"] ComputerQuickHackData
----@field private ["quickhackPerformed"] Bool
+---@field private factQuickHackSetup ComputerQuickHackData
+---@field private quickhackPerformed Bool
 NetrunnerControlPanelControllerPS = {}
 
 ---@param fields? table

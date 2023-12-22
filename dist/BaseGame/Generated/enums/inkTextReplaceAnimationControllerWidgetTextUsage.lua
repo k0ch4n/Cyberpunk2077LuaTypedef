@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTextReplaceAnimationControllerWidgetTextUsage: Enum
----@field ["BaseText"] inkTextReplaceAnimationControllerWidgetTextUsage 0
----@field ["TargetText"] inkTextReplaceAnimationControllerWidgetTextUsage 1
----@field ["NoUsage"] inkTextReplaceAnimationControllerWidgetTextUsage 2
+---@field BaseText 0
+---@field TargetText 1
+---@field NoUsage 2
 inkTextReplaceAnimationControllerWidgetTextUsage = {}

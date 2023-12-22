@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldFoliageBrush: CResource
----@field public ["items"] worldFoliageBrushItem[]
+---@field public items worldFoliageBrushItem[]
 worldFoliageBrush = {}
 
 ---@param fields? table

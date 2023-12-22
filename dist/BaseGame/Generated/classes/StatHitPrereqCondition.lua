@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatHitPrereqCondition: BaseHitPrereqCondition
----@field public ["valueToCheck"] Float
----@field public ["objectToCheck"] CName
----@field public ["comparisonType"] EComparisonType
----@field public ["statToCompare"] gamedataStatType
+---@field public valueToCheck Float
+---@field public objectToCheck CName
+---@field public comparisonType EComparisonType
+---@field public statToCompare gamedataStatType
 StatHitPrereqCondition = {}
 
 ---@param fields? table

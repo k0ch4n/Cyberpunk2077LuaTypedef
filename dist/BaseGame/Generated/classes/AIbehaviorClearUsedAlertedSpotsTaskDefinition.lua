@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorClearUsedAlertedSpotsTaskDefinition: AIbehaviorTaskDefinition
----@field public ["usedTokens"] AIArgumentMapping
+---@field public usedTokens AIArgumentMapping
 AIbehaviorClearUsedAlertedSpotsTaskDefinition = {}
 
 ---@param fields? table

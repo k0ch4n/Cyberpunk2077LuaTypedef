@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EEquipmentState: Enum
----@field ["Unequipped"] EEquipmentState 0
----@field ["Equipped"] EEquipmentState 1
----@field ["Equipping"] EEquipmentState 2
----@field ["Unequipping"] EEquipmentState 3
----@field ["FirstEquip"] EEquipmentState 4
+---@field Unequipped 0
+---@field Equipped 1
+---@field Equipping 2
+---@field Unequipping 3
+---@field FirstEquip 4
 EEquipmentState = {}

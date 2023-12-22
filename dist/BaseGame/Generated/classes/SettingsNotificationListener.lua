@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SettingsNotificationListener: userSettingsNotificationListener
----@field private ["ctrl"] SettingsMainGameController
+---@field private ctrl SettingsMainGameController
 SettingsNotificationListener = {}
 
 ---@param fields? table

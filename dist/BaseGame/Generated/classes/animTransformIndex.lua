@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animTransformIndex
----@field public ["name"] CName
+---@field public name CName
 animTransformIndex = {}
 
 ---@param fields? table

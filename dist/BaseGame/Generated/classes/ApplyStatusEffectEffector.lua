@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ApplyStatusEffectEffector: gameEffector
----@field public ["targetEntityID"] entEntityID
----@field public ["applicationTarget"] CName
----@field public ["record"] TweakDBID
----@field public ["removeWithEffector"] Bool
----@field public ["inverted"] Bool
----@field public ["useCountWhenRemoving"] Bool
----@field public ["count"] Float
----@field public ["instigator"] String
+---@field public targetEntityID entEntityID
+---@field public applicationTarget CName
+---@field public record TweakDBID
+---@field public removeWithEffector Bool
+---@field public inverted Bool
+---@field public useCountWhenRemoving Bool
+---@field public count Float
+---@field public instigator String
 ApplyStatusEffectEffector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalBriefingMapSection: gameJournalBriefingBaseSection
----@field public ["mapLocation"] Vector3
+---@field public mapLocation Vector3
 gameJournalBriefingMapSection = {}
 
 ---@param fields? table

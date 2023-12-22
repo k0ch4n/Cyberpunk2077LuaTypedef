@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SettingsMenuUserData: gameuiMenuGameController
----@field public ["isDlcSettings"] Bool
----@field public ["isBenchmarkSettings"] Bool
+---@field public isDlcSettings Bool
+---@field public isBenchmarkSettings Bool
 SettingsMenuUserData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerChoiceTokenParams
----@field public ["timeout"] Uint32
----@field public ["compatibleDeviceName"] CName
+---@field public timeout Uint32
+---@field public compatibleDeviceName CName
 questMultiplayerChoiceTokenParams = {}
 
 ---@param fields? table

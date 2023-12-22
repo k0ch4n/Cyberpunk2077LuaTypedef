@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropPointSystemLock
----@field public ["lockReason"] CName
+---@field public lockReason CName
 DropPointSystemLock = {}
 
 ---@param fields? table

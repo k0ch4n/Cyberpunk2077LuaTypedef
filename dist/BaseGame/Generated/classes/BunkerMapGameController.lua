@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BunkerMapGameController: StatusScreenGameController
----@field public ["mapPosition01"] inkWidgetReference
----@field public ["mapPosition02"] inkWidgetReference
----@field public ["mapPosition03"] inkWidgetReference
+---@field public mapPosition01 inkWidgetReference
+---@field public mapPosition02 inkWidgetReference
+---@field public mapPosition03 inkWidgetReference
 BunkerMapGameController = {}
 
 ---@param fields? table

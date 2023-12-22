@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReleaseSlotEvent: redEvent
----@field public ["slotID"] Int32
+---@field public slotID Int32
 ReleaseSlotEvent = {}
 
 ---@param fields? table

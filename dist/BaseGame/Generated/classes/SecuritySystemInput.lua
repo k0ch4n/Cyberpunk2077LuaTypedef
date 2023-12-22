@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemInput: SecurityAreaEvent
----@field private ["lastKnownPosition"] Vector4
----@field private ["notifier"] SharedGameplayPS
----@field private ["type"] ESecurityNotificationType
----@field private ["objectOfInterest"] gameObject
----@field private ["canPerformReprimand"] Bool
----@field private ["shouldLeadReprimend"] Bool
----@field private ["id"] Int32
----@field private ["customRecipientsList"] entEntityID[]
----@field private ["isSharingRestricted"] Bool
----@field private ["debugReporterCharRecord"] gamedataCharacter_Record
----@field private ["stimTypeTriggeredAlarm"] gamedataStimType
+---@field private lastKnownPosition Vector4
+---@field private notifier SharedGameplayPS
+---@field private type ESecurityNotificationType
+---@field private objectOfInterest gameObject
+---@field private canPerformReprimand Bool
+---@field private shouldLeadReprimend Bool
+---@field private id Int32
+---@field private customRecipientsList entEntityID[]
+---@field private isSharingRestricted Bool
+---@field private debugReporterCharRecord gamedataCharacter_Record
+---@field private stimTypeTriggeredAlarm gamedataStimType
 SecuritySystemInput = {}
 
 ---@param fields? table

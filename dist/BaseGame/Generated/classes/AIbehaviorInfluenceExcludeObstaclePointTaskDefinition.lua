@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorInfluenceExcludeObstaclePointTaskDefinition: AIbehaviorTaskDefinition
----@field public ["workspotData"] AIArgumentMapping
----@field public ["mountData"] AIArgumentMapping
+---@field public workspotData AIArgumentMapping
+---@field public mountData AIArgumentMapping
 AIbehaviorInfluenceExcludeObstaclePointTaskDefinition = {}
 
 ---@param fields? table

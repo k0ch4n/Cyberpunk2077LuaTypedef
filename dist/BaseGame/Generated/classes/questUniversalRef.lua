@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questUniversalRef: ISerializable
----@field public ["entityReference"] gameEntityReference
----@field public ["refLocalPlayer"] Bool
----@field public ["mainPlayerObject"] Bool
+---@field public entityReference gameEntityReference
+---@field public refLocalPlayer Bool
+---@field public mainPlayerObject Bool
 questUniversalRef = {}
 
 ---@param fields? table

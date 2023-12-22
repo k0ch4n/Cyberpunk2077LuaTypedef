@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleUnlockType: Enum
----@field ["CourierMissions"] gamedataVehicleUnlockType 0
----@field ["Quest"] gamedataVehicleUnlockType 1
----@field ["StreetCred"] gamedataVehicleUnlockType 2
----@field ["Count"] gamedataVehicleUnlockType 3
----@field ["Invalid"] gamedataVehicleUnlockType 4
+---@field CourierMissions 0
+---@field Quest 1
+---@field StreetCred 2
+---@field Count 3
+---@field Invalid 4
 gamedataVehicleUnlockType = {}

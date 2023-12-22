@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class ComputerDocumentWidgetController: DeviceInkLogicControllerBase
----@field protected ["titleWidget"] inkTextWidgetReference
----@field protected ["ownerNameWidget"] inkTextWidgetReference
----@field protected ["dateWidget"] inkTextWidgetReference
----@field protected ["datePanelWidget"] inkTextWidgetReference
----@field protected ["ownerPanelWidget"] inkTextWidgetReference
----@field protected ["textContentWidget"] inkTextWidgetReference
----@field protected ["textContentHolder"] inkWidgetReference
----@field protected ["videoContentWidget"] inkVideoWidgetReference
----@field protected ["imageContentWidget"] inkImageWidgetReference
----@field protected ["closeButtonWidget"] inkWidgetReference
----@field protected ["documentType"] EDocumentType
----@field private ["lastPlayedVideo"] redResourceReferenceScriptToken
+---@field protected titleWidget inkTextWidgetReference
+---@field protected ownerNameWidget inkTextWidgetReference
+---@field protected dateWidget inkTextWidgetReference
+---@field protected datePanelWidget inkTextWidgetReference
+---@field protected ownerPanelWidget inkTextWidgetReference
+---@field protected textContentWidget inkTextWidgetReference
+---@field protected textContentHolder inkWidgetReference
+---@field protected videoContentWidget inkVideoWidgetReference
+---@field protected imageContentWidget inkImageWidgetReference
+---@field protected closeButtonWidget inkWidgetReference
+---@field protected documentType EDocumentType
+---@field private lastPlayedVideo redResourceReferenceScriptToken
 ComputerDocumentWidgetController = {}
 
 ---@param fields? table

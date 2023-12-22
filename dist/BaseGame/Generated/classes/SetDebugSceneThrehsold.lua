@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetDebugSceneThrehsold: gameScriptableSystemRequest
----@field public ["newThreshold"] Int32
+---@field public newThreshold Int32
 SetDebugSceneThrehsold = {}
 
 ---@param fields? table

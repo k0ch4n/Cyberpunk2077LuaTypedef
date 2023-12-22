@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_Mounting: animAnimFeature
----@field public ["mountingState"] Int32
----@field public ["parentSpeed"] Float
----@field public ["parentHorizontalSpeed"] Float
+---@field public mountingState Int32
+---@field public parentSpeed Float
+---@field public parentHorizontalSpeed Float
 AnimFeature_Mounting = {}
 
 ---@param fields? table

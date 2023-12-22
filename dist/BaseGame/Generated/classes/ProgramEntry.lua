@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ProgramEntry: IScriptable
----@field public ["itemID"] gameItemID
----@field public ["equippedItem"] gamedataItem_Record
----@field public ["abilities"] gameInventoryItemAbility[]
+---@field public itemID gameItemID
+---@field public equippedItem gamedataItem_Record
+---@field public abilities gameInventoryItemAbility[]
 ProgramEntry = {}
 
 ---@param fields? table

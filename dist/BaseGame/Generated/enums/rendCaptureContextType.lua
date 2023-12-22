@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class rendCaptureContextType: Enum
----@field ["SceneGamedef"] rendCaptureContextType 0
----@field ["AnimViewer"] rendCaptureContextType 1
+---@field SceneGamedef 0
+---@field AnimViewer 1
 rendCaptureContextType = {}

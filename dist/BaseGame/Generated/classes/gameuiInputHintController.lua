@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiInputHintController: inkWidgetLogicController
----@field public ["inputDisplayLibRef"] inkWidgetLibraryReference
----@field public ["inputDisplayContainer"] inkCompoundWidgetReference
----@field public ["textWidgetRef"] inkTextWidgetReference
+---@field public inputDisplayLibRef inkWidgetLibraryReference
+---@field public inputDisplayContainer inkCompoundWidgetReference
+---@field public textWidgetRef inkTextWidgetReference
 gameuiInputHintController = {}
 
 ---@param fields? table

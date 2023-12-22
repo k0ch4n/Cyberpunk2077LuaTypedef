@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class gameLootContainerBase: gameObject
----@field public ["useAreaLoot"] Bool
----@field public ["lootTables"] TweakDBID[]
----@field public ["contentAssignment"] TweakDBID
----@field public ["isIllegal"] Bool
----@field public ["wasLootInitalized"] Bool
----@field public ["containerType"] gamedataContainerType
----@field protected ["lootQuality"] gamedataQuality
----@field private ["hasQuestItems"] Bool
----@field protected ["isInIconForcedVisibilityRange"] Bool
----@field private ["isIconic"] Bool
----@field protected ["activeQualityRangeInteraction"] CName
+---@field public useAreaLoot Bool
+---@field public lootTables TweakDBID[]
+---@field public contentAssignment TweakDBID
+---@field public isIllegal Bool
+---@field public wasLootInitalized Bool
+---@field public containerType gamedataContainerType
+---@field protected lootQuality gamedataQuality
+---@field private hasQuestItems Bool
+---@field protected isInIconForcedVisibilityRange Bool
+---@field private isIconic Bool
+---@field protected activeQualityRangeInteraction CName
 gameLootContainerBase = {}
 
 ---@param fields? table

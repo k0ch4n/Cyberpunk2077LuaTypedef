@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerBBValuesIds
----@field public ["crouchActive"] gamebbScriptID_Int32
+---@field public crouchActive gamebbScriptID_Int32
 PlayerCombatControllerBBValuesIds = {}
 
 ---@param fields? table

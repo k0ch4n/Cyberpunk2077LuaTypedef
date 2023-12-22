@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InitiateCyberwareExplosionEffector: gameEffector
----@field public ["maxRangeAddition"] Float
----@field public ["attackRecord"] gamedataAttack_Record
+---@field public maxRangeAddition Float
+---@field public attackRecord gamedataAttack_Record
 InitiateCyberwareExplosionEffector = {}
 
 ---@param fields? table

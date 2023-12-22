@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetCurrentGameplayRoleEvent: redEvent
----@field public ["gameplayRole"] EGameplayRole
+---@field public gameplayRole EGameplayRole
 SetCurrentGameplayRoleEvent = {}
 
 ---@param fields? table

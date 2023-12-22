@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BlockStimProcessingCooldownEvent: redEvent
----@field public ["stimData"] StimIdentificationData
+---@field public stimData StimIdentificationData
 BlockStimProcessingCooldownEvent = {}
 
 ---@param fields? table

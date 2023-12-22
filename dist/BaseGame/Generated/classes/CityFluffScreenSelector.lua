@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CityFluffScreenSelector: LCDScreenSelector
----@field private ["recordID"] TweakDBID
+---@field private recordID TweakDBID
 CityFluffScreenSelector = {}
 
 ---@param fields? table

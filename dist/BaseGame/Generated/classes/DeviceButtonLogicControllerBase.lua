@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class DeviceButtonLogicControllerBase: inkButtonController
----@field protected ["targetWidgetRef"] inkWidgetReference
----@field protected ["displayNameWidget"] inkTextWidgetReference
----@field protected ["iconWidget"] inkImageWidgetReference
----@field protected ["toggleSwitchWidget"] inkImageWidgetReference
----@field protected ["sizeProviderWidget"] inkWidgetReference
----@field protected ["selectionMarkerWidget"] inkWidgetReference
----@field protected ["onReleaseAnimations"] WidgetAnimationManager
----@field protected ["onPressAnimations"] WidgetAnimationManager
----@field protected ["onHoverOverAnimations"] WidgetAnimationManager
----@field protected ["onHoverOutAnimations"] WidgetAnimationManager
----@field protected ["defaultStyle"] redResourceReferenceScriptToken
----@field protected ["selectionStyle"] redResourceReferenceScriptToken
----@field protected ["soundData"] SSoundData
----@field protected ["isInitialized"] Bool
----@field protected ["targetWidget"] inkWidget
----@field protected ["isSelected"] Bool
+---@field protected targetWidgetRef inkWidgetReference
+---@field protected displayNameWidget inkTextWidgetReference
+---@field protected iconWidget inkImageWidgetReference
+---@field protected toggleSwitchWidget inkImageWidgetReference
+---@field protected sizeProviderWidget inkWidgetReference
+---@field protected selectionMarkerWidget inkWidgetReference
+---@field protected onReleaseAnimations WidgetAnimationManager
+---@field protected onPressAnimations WidgetAnimationManager
+---@field protected onHoverOverAnimations WidgetAnimationManager
+---@field protected onHoverOutAnimations WidgetAnimationManager
+---@field protected defaultStyle redResourceReferenceScriptToken
+---@field protected selectionStyle redResourceReferenceScriptToken
+---@field protected soundData SSoundData
+---@field protected isInitialized Bool
+---@field protected targetWidget inkWidget
+---@field protected isSelected Bool
 DeviceButtonLogicControllerBase = {}
 
 ---@param fields? table

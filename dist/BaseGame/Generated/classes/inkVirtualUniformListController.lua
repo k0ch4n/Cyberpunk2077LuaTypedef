@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkVirtualUniformListController: inkVirtualCompoundController
----@field public ["itemTemplate"] inkWidgetLibraryReference
+---@field public itemTemplate inkWidgetLibraryReference
 inkVirtualUniformListController = {}
 
 ---@param fields? table

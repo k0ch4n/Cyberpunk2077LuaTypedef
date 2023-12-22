@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entLookAtRemoveEvent: redEvent
----@field public ["lookAtRef"] animLookAtRef
----@field public ["hasOutTransition"] Bool
----@field public ["outTransitionSpeed"] Float
+---@field public lookAtRef animLookAtRef
+---@field public hasOutTransition Bool
+---@field public outTransitionSpeed Float
 entLookAtRemoveEvent = {}
 
 ---@param fields? table

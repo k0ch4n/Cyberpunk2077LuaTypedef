@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerParameters_SetReactionPreset: questICharacterManagerParameters_NodeSubType
----@field public ["puppetRef"] gameEntityReference
----@field public ["recordSelector"] questReactionPresetRecordSelector
+---@field public puppetRef gameEntityReference
+---@field public recordSelector questReactionPresetRecordSelector
 questCharacterManagerParameters_SetReactionPreset = {}
 
 ---@param fields? table

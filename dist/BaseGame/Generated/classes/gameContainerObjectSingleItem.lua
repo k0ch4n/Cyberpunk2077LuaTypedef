@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameContainerObjectSingleItem: gameContainerObjectBase
----@field public ["itemTDBID"] TweakDBID
+---@field public itemTDBID TweakDBID
 gameContainerObjectSingleItem = {}
 
 ---@param fields? table

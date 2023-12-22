@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnLipsyncAnimSetSRRefId
----@field public ["id"] Uint32
+---@field public id Uint32
 scnLipsyncAnimSetSRRefId = {}
 
 ---@param fields? table

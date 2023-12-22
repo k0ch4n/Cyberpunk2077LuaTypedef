@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScrollingText
----@field public ["textArray"] String[]
+---@field public textArray String[]
 ScrollingText = {}
 
 ---@param fields? table

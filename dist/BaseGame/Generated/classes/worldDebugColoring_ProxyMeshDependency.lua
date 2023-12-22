@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_ProxyMeshDependency: worldEditorDebugColoringSettings
----@field public ["noneColor"] Color
----@field public ["hasProxyColor"] Color
----@field public ["discardColor"] Color
+---@field public noneColor Color
+---@field public hasProxyColor Color
+---@field public discardColor Color
 worldDebugColoring_ProxyMeshDependency = {}
 
 ---@param fields? table

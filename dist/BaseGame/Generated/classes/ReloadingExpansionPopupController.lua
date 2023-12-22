@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ReloadingExpansionPopupController: inkWidgetLogicController
----@field private ["progressBarRef"] inkWidgetReference
----@field private ["titleTextRef"] inkTextWidgetReference
----@field private ["descriptionTextRef"] inkTextWidgetReference
----@field private ["warningTextRef"] inkTextWidgetReference
----@field private ["progressBarController"] LoadingScreenProgressBarController
----@field private ["animProxy"] inkanimProxy
+---@field private progressBarRef inkWidgetReference
+---@field private titleTextRef inkTextWidgetReference
+---@field private descriptionTextRef inkTextWidgetReference
+---@field private warningTextRef inkTextWidgetReference
+---@field private progressBarController LoadingScreenProgressBarController
+---@field private animProxy inkanimProxy
 ReloadingExpansionPopupController = {}
 
 ---@param fields? table

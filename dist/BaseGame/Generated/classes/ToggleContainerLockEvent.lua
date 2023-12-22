@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleContainerLockEvent: redEvent
----@field public ["isLocked"] Bool
+---@field public isLocked Bool
 ToggleContainerLockEvent = {}
 
 ---@param fields? table

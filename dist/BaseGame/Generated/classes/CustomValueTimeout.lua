@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomValueTimeout: AITimeoutCondition
----@field public ["timeoutValue"] Float
+---@field public timeoutValue Float
 CustomValueTimeout = {}
 
 ---@param fields? table

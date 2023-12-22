@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplaySettingsDef: gamebbScriptDefinition
----@field public ["DisableAutomaticSwitchToVehicleTPP"] gamebbScriptID_Bool
----@field public ["EnableVehicleToggleSummonMode"] gamebbScriptID_Bool
+---@field public DisableAutomaticSwitchToVehicleTPP gamebbScriptID_Bool
+---@field public EnableVehicleToggleSummonMode gamebbScriptID_Bool
 GameplaySettingsDef = {}
 
 ---@param fields? table

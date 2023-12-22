@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UsingCoverPSMPrereqState: PlayerStateMachinePrereqState
----@field public ["bValue"] Bool
+---@field public bValue Bool
 UsingCoverPSMPrereqState = {}
 
 ---@param fields? table

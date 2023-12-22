@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RoadBlockControllerPS: ScriptableDeviceComponentPS
----@field protected ["isBlocking"] Bool
----@field protected ["negateAnimState"] Bool
----@field protected ["nameForBlocking"] TweakDBID
----@field protected ["nameForUnblocking"] TweakDBID
+---@field protected isBlocking Bool
+---@field protected negateAnimState Bool
+---@field protected nameForBlocking TweakDBID
+---@field protected nameForUnblocking TweakDBID
 RoadBlockControllerPS = {}
 
 ---@param fields? table

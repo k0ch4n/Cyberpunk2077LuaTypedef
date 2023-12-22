@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workScriptedCondition: workIWorkspotCondition
----@field public ["script"] workIScriptedCondition
+---@field public script workIScriptedCondition
 workScriptedCondition = {}
 
 ---@param fields? table

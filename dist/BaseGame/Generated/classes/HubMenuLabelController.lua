@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class HubMenuLabelController: inkWidgetLogicController
----@field protected ["container"] inkCompoundWidgetReference
----@field protected ["wrapper"] inkWidget
----@field protected ["wrapperNext"] inkWidget
----@field protected ["wrapperController"] HubMenuLabelContentContainer
----@field protected ["wrapperNextController"] HubMenuLabelContentContainer
----@field public ["data"] MenuData
----@field protected ["watchForSize"] Bool
----@field protected ["watchForInstatnSize"] Bool
----@field protected ["once"] Bool
----@field protected ["direction"] Int32
----@field protected ["isRadialVariant"] Bool
+---@field protected container inkCompoundWidgetReference
+---@field protected wrapper inkWidget
+---@field protected wrapperNext inkWidget
+---@field protected wrapperController HubMenuLabelContentContainer
+---@field protected wrapperNextController HubMenuLabelContentContainer
+---@field public data MenuData
+---@field protected watchForSize Bool
+---@field protected watchForInstatnSize Bool
+---@field protected once Bool
+---@field protected direction Int32
+---@field protected isRadialVariant Bool
 HubMenuLabelController = {}
 
 ---@param fields? table

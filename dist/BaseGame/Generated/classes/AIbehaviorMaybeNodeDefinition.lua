@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMaybeNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public ["onChildSuccess"] AIbehaviorMaybeNodeAction
----@field public ["onChildFailure"] AIbehaviorMaybeNodeAction
+---@field public onChildSuccess AIbehaviorMaybeNodeAction
+---@field public onChildFailure AIbehaviorMaybeNodeAction
 AIbehaviorMaybeNodeDefinition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StatPoolSpentPrereq: gameIScriptablePrereq
----@field public ["statPoolType"] gamedataStatPoolType
----@field public ["valueToCheck"] Float
+---@field public statPoolType gamedataStatPoolType
+---@field public valueToCheck Float
 StatPoolSpentPrereq = {}
 
 ---@param fields? table

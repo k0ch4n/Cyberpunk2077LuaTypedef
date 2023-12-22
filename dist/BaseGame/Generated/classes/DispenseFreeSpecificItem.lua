@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DispenseFreeSpecificItem: redEvent
----@field public ["item"] TweakDBID
+---@field public item TweakDBID
 DispenseFreeSpecificItem = {}
 
 ---@param fields? table

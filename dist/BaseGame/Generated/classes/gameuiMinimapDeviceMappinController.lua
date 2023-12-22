@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapDeviceMappinController: gameuiBaseMinimapMappinController
----@field public ["effectAreaWidget"] inkCircleWidgetReference
+---@field public effectAreaWidget inkCircleWidgetReference
 gameuiMinimapDeviceMappinController = {}
 
 ---@param fields? table

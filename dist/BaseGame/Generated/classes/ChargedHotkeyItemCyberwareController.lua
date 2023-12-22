@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ChargedHotkeyItemCyberwareController: ChargedHotkeyItemBaseController
----@field private ["currentStatPoolType"] gamedataStatPoolType
----@field private ["psmBlackboardListener"] redCallbackObject
----@field private ["c_cyberdeckOverclockPerkType"] gamedataNewPerkType
----@field private ["c_vehicleManeuversPerkType"] gamedataNewPerkType
----@field private ["c_berserkKey"] CName
----@field private ["c_cyberdeckKey"] CName
----@field private ["c_sandevistanKey"] CName
----@field private ["c_capacityBoosterKey"] CName
+---@field private currentStatPoolType gamedataStatPoolType
+---@field private psmBlackboardListener redCallbackObject
+---@field private c_cyberdeckOverclockPerkType gamedataNewPerkType
+---@field private c_vehicleManeuversPerkType gamedataNewPerkType
+---@field private c_berserkKey CName
+---@field private c_cyberdeckKey CName
+---@field private c_sandevistanKey CName
+---@field private c_capacityBoosterKey CName
 ChargedHotkeyItemCyberwareController = {}
 
 ---@param fields? table

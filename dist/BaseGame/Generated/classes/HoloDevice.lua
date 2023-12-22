@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HoloDevice: InteractiveDevice
----@field private ["questFactName"] CName
+---@field private questFactName CName
 HoloDevice = {}
 
 ---@param fields? table

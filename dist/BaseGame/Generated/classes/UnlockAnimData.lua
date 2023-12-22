@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnlockAnimData
----@field public ["levelFrom"] Int32
----@field public ["levelTo"] Int32
+---@field public levelFrom Int32
+---@field public levelTo Int32
 UnlockAnimData = {}
 
 ---@param fields? table

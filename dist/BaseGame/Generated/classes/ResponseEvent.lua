@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResponseEvent: redEvent
----@field public ["responseData"] IScriptable
+---@field public responseData IScriptable
 ResponseEvent = {}
 
 ---@param fields? table

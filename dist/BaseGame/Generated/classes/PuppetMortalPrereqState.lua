@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PuppetMortalPrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["listener"] PuppetMortalityListener
+---@field public owner gameObject
+---@field public listener PuppetMortalityListener
 PuppetMortalPrereqState = {}
 
 ---@param fields? table

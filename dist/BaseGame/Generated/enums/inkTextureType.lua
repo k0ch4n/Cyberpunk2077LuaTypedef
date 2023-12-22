@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkTextureType: Enum
----@field ["StaticTexture"] inkTextureType 0
----@field ["DynamicTexture"] inkTextureType 1
----@field ["InvalidTexture"] inkTextureType 2
+---@field StaticTexture 0
+---@field DynamicTexture 1
+---@field InvalidTexture 2
 inkTextureType = {}

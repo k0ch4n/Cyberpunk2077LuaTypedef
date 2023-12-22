@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationEditTag: Enum
----@field ["NewGame"] gameuiCharacterCustomizationEditTag 0
----@field ["HairDresser"] gameuiCharacterCustomizationEditTag 1
----@field ["Ripperdoc"] gameuiCharacterCustomizationEditTag 2
+---@field NewGame 0
+---@field HairDresser 1
+---@field Ripperdoc 2
 gameuiCharacterCustomizationEditTag = {}

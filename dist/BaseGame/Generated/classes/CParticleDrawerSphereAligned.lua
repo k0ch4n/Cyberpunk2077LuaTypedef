@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleDrawerSphereAligned: IParticleDrawer
----@field public ["verticalFixed"] Bool
----@field public ["isGPUBased"] Bool
+---@field public verticalFixed Bool
+---@field public isGPUBased Bool
 CParticleDrawerSphereAligned = {}
 
 ---@param fields? table

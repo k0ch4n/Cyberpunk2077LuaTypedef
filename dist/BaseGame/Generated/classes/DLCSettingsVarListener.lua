@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DLCSettingsVarListener: userSettingsVarListener
----@field private ["ctrl"] DlcDescriptionController
+---@field private ctrl DlcDescriptionController
 DLCSettingsVarListener = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitIsHumanPrereq: GenericHitPrereq
----@field public ["invert"] Bool
+---@field public invert Bool
 HitIsHumanPrereq = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CursorGameController: gameuiWidgetGameController
----@field private ["cursorRoot"] CursorRootController
----@field private ["currentContext"] CName
----@field private ["margin"] inkMargin
----@field private ["data"] MenuCursorUserData
----@field private ["isCursorVisible"] Bool
----@field private ["cursorType"] CName
----@field private ["cursorForDevice"] CName
----@field private ["dpadAnimProxy"] inkanimProxy
----@field private ["clickAnimProxy"] inkanimProxy
+---@field private cursorRoot CursorRootController
+---@field private currentContext CName
+---@field private margin inkMargin
+---@field private data MenuCursorUserData
+---@field private isCursorVisible Bool
+---@field private cursorType CName
+---@field private cursorForDevice CName
+---@field private dpadAnimProxy inkanimProxy
+---@field private clickAnimProxy inkanimProxy
 CursorGameController = {}
 
 ---@param fields? table

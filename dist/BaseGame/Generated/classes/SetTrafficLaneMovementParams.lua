@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetTrafficLaneMovementParams: AIbehaviortaskScript
----@field public ["movementType"] String
----@field public ["fearStage"] gameFearStage
+---@field public movementType String
+---@field public fearStage gameFearStage
 SetTrafficLaneMovementParams = {}
 
 ---@param fields? table

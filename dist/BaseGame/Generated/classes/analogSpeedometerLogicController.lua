@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class analogSpeedometerLogicController: IVehicleModuleController
----@field private ["analogSpeedNeedleWidget"] inkWidgetReference
----@field private ["analogSpeedNeedleMinRotation"] Float
----@field private ["analogSpeedNeedleMaxRotation"] Float
----@field private ["analogSpeedNeedleMaxValue"] Float
----@field private ["speedBBConnectionId"] redCallbackObject
----@field private ["vehBB"] gameIBlackboard
----@field private ["vehicle"] vehicleBaseObject
+---@field private analogSpeedNeedleWidget inkWidgetReference
+---@field private analogSpeedNeedleMinRotation Float
+---@field private analogSpeedNeedleMaxRotation Float
+---@field private analogSpeedNeedleMaxValue Float
+---@field private speedBBConnectionId redCallbackObject
+---@field private vehBB gameIBlackboard
+---@field private vehicle vehicleBaseObject
 analogSpeedometerLogicController = {}
 
 ---@param fields? table

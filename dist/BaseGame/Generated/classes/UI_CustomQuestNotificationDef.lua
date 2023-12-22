@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_CustomQuestNotificationDef: gamebbScriptDefinition
----@field public ["data"] gamebbScriptID_Variant
+---@field public data gamebbScriptID_Variant
 UI_CustomQuestNotificationDef = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameDynamicVehicleType: Enum
----@field ["None"] gameDynamicVehicleType 0
----@field ["Car"] gameDynamicVehicleType 1
----@field ["AV"] gameDynamicVehicleType 2
----@field ["RoadBlockade"] gameDynamicVehicleType 3
----@field ["RoadBlockadeWithAV"] gameDynamicVehicleType 4
+---@field None 0
+---@field Car 1
+---@field AV 2
+---@field RoadBlockade 3
+---@field RoadBlockadeWithAV 4
 gameDynamicVehicleType = {}

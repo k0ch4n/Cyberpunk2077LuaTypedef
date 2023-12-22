@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkMenuAccountLogicController: inkWidgetLogicController
----@field private ["playerId"] inkTextWidgetReference
----@field private ["changeAccountLabelTextRef"] inkTextWidgetReference
----@field private ["inputDisplayControllerRef"] inkWidgetReference
----@field private ["changeAccountEnabled"] Bool
+---@field private playerId inkTextWidgetReference
+---@field private changeAccountLabelTextRef inkTextWidgetReference
+---@field private inputDisplayControllerRef inkWidgetReference
+---@field private changeAccountEnabled Bool
 inkMenuAccountLogicController = {}
 
 ---@param fields? table

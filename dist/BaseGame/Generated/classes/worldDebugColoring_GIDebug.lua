@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_GIDebug: worldEditorDebugColoringSettings
----@field public ["GIVisibleColor"] Color
----@field public ["GITransparentColor"] Color
+---@field public GIVisibleColor Color
+---@field public GITransparentColor Color
 worldDebugColoring_GIDebug = {}
 
 ---@param fields? table

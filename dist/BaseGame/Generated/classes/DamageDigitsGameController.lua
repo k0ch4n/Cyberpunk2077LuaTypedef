@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class DamageDigitsGameController: gameuiProjectedHUDGameController
----@field public ["maxVisible"] Int32
----@field public ["maxAccumulatedVisible"] Int32
----@field private ["realOwner"] gameObject
----@field private ["digitsQueue"] inkScriptFIFOQueue
----@field private ["individualControllerArray"] DamageDigitLogicController[]
----@field private ["accumulatedControllerArray"] AccumulatedDamageDigitsNode[]
----@field private ["showDigitsIndividual"] Bool
----@field private ["showDigitsAccumulated"] Bool
----@field private ["damageDigitsStickingMode"] gameuiDamageDigitsStickingMode
----@field private ["spawnedDigits"] Int32
----@field private ["damageListBlackboardId"] redCallbackObject
----@field private ["damageDigitsModeBlackboardId"] redCallbackObject
----@field private ["damageDigitsStickingModeBlackboardId"] redCallbackObject
+---@field public maxVisible Int32
+---@field public maxAccumulatedVisible Int32
+---@field private realOwner gameObject
+---@field private digitsQueue inkScriptFIFOQueue
+---@field private individualControllerArray DamageDigitLogicController[]
+---@field private accumulatedControllerArray AccumulatedDamageDigitsNode[]
+---@field private showDigitsIndividual Bool
+---@field private showDigitsAccumulated Bool
+---@field private damageDigitsStickingMode gameuiDamageDigitsStickingMode
+---@field private spawnedDigits Int32
+---@field private damageListBlackboardId redCallbackObject
+---@field private damageDigitsModeBlackboardId redCallbackObject
+---@field private damageDigitsStickingModeBlackboardId redCallbackObject
 DamageDigitsGameController = {}
 
 ---@param fields? table

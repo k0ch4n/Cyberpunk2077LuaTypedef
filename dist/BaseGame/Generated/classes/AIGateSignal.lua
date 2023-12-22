@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIGateSignal
----@field public ["tags"] CName
----@field public ["flags"] AISignalFlags
----@field public ["priority"] Float
----@field public ["lifeTime"] Float
+---@field public tags CName
+---@field public flags AISignalFlags
+---@field public priority Float
+---@field public lifeTime Float
 AIGateSignal = {}
 
 ---@param fields? table

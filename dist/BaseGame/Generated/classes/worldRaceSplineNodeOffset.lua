@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldRaceSplineNodeOffset
----@field public ["from"] Float
----@field public ["to"] Float
----@field public ["left"] Float
----@field public ["right"] Float
+---@field public from Float
+---@field public to Float
+---@field public left Float
+---@field public right Float
 worldRaceSplineNodeOffset = {}
 
 ---@param fields? table

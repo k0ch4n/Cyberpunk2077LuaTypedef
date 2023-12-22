@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleGameplayMappinVisibilityEvent: redEvent
----@field public ["isHidden"] Bool
+---@field public isHidden Bool
 ToggleGameplayMappinVisibilityEvent = {}
 
 ---@param fields? table

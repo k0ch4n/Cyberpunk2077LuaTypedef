@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questPlayHUDEntryAnimation_NodeType: questIUIManagerNodeType
----@field public ["hudEntryName"] CName
----@field public ["animationName"] CName
----@field public ["dependsOnTimeDilation"] Bool
+---@field public hudEntryName CName
+---@field public animationName CName
+---@field public dependsOnTimeDilation Bool
 questPlayHUDEntryAnimation_NodeType = {}
 
 ---@param fields? table

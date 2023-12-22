@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectProvider_QueryCapsule: gameEffectObjectProvider
----@field public ["gatherOnlyPuppets"] Bool
----@field public ["queryPreset"] physicsQueryPreset
+---@field public gatherOnlyPuppets Bool
+---@field public queryPreset physicsQueryPreset
 gameEffectObjectProvider_QueryCapsule = {}
 
 ---@param fields? table

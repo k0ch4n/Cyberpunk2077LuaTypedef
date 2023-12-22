@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SourceTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public ["source"] CName
+---@field public source CName
 SourceTypeHitPrereqCondition = {}
 
 ---@param fields? table

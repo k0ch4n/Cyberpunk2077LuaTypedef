@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeRoachRaceObstacleController: gameuiarcadeArcadeObjectController
----@field public ["collider"] gameuiarcadeBoundingRect
+---@field public collider gameuiarcadeBoundingRect
 gameuiarcadeRoachRaceObstacleController = {}
 
 ---@param fields? table

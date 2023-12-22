@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class RemoveStatusEffectOnAttackEffector: ModifyAttackEffector
----@field private ["effectTypes"] String[]
----@field private ["effectString"] String[]
----@field private ["effectTags"] CName[]
----@field public ["owner"] gameObject
+---@field private effectTypes String[]
+---@field private effectString String[]
+---@field private effectTags CName[]
+---@field public owner gameObject
 RemoveStatusEffectOnAttackEffector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UiRadialContextEvents: InputContextTransitionEvents
----@field public ["mouse"] Vector4
+---@field public mouse Vector4
 UiRadialContextEvents = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class navgendebugCompactCell
----@field public ["cellData"] Uint64
+---@field public cellData Uint64
 navgendebugCompactCell = {}
 
 ---@param fields? table

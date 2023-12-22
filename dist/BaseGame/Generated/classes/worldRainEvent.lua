@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldRainEvent: redEvent
----@field public ["rainIntensity"] worldRainIntensity
+---@field public rainIntensity worldRainIntensity
 worldRainEvent = {}
 
 ---@param fields? table

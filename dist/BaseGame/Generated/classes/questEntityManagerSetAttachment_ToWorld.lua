@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetAttachment_ToWorld: questIEntityManagerSetAttachment_NodeSubType
----@field public ["attachmentRef"] NodeRef
----@field public ["offsetMode"] questAttachmentOffsetMode
----@field public ["customOffsetPos"] Vector3
----@field public ["customOffsetRot"] Quaternion
+---@field public attachmentRef NodeRef
+---@field public offsetMode questAttachmentOffsetMode
+---@field public customOffsetPos Vector3
+---@field public customOffsetRot Quaternion
 questEntityManagerSetAttachment_ToWorld = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DispenseStackOfItems: redEvent
----@field public ["item"] TweakDBID
----@field public ["amount"] Int32
+---@field public item TweakDBID
+---@field public amount Int32
 DispenseStackOfItems = {}
 
 ---@param fields? table

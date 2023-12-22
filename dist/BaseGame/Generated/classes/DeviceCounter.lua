@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceCounter
----@field public ["devices"] gameDeviceComponentPS[]
----@field public ["systemType"] EVirtualSystem
+---@field public devices gameDeviceComponentPS[]
+---@field public systemType EVirtualSystem
 DeviceCounter = {}
 
 ---@param fields? table

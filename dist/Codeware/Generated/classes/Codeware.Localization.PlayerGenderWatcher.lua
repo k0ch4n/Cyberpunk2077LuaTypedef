@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_PlayerGenderWatcher: IScriptable
----@field public ["game"] ScriptGameInstance
----@field public ["callbackID"] Uint32
+---@field public game ScriptGameInstance
+---@field public callbackID Uint32
 Codeware_Localization_PlayerGenderWatcher = {}
 
 ---@param fields? table

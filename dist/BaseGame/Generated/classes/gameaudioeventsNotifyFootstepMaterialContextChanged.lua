@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsNotifyFootstepMaterialContextChanged: redEvent
----@field public ["footwareType"] CName
----@field public ["surfaceFlavourName"] CName
+---@field public footwareType CName
+---@field public surfaceFlavourName CName
 gameaudioeventsNotifyFootstepMaterialContextChanged = {}
 
 ---@param fields? table

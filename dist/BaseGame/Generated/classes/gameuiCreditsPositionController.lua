@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCreditsPositionController: inkWidgetLogicController
----@field public ["titleText"] inkTextWidgetReference
----@field public ["namesText"] inkTextWidgetReference
+---@field public titleText inkTextWidgetReference
+---@field public namesText inkTextWidgetReference
 gameuiCreditsPositionController = {}
 
 ---@param fields? table

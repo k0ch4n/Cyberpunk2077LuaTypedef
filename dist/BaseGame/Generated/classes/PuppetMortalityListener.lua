@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PuppetMortalityListener: gameScriptStatsListener
----@field public ["state"] PuppetMortalPrereqState
+---@field public state PuppetMortalPrereqState
 PuppetMortalityListener = {}
 
 ---@param fields? table

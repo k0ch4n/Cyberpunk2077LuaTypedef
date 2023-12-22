@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FastTravelConsoleInstructionRequest: gameScriptableSystemRequest
----@field public ["instruction"] EFastTravelSystemInstruction
----@field public ["magicFloat"] Float
+---@field public instruction EFastTravelSystemInstruction
+---@field public magicFloat Float
 FastTravelConsoleInstructionRequest = {}
 
 ---@param fields? table

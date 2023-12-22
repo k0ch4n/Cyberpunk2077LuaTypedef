@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class StatusEffectPrereq: gameIScriptablePrereq
----@field public ["statusEffectRecordID"] TweakDBID
----@field public ["tag"] CName
----@field public ["checkType"] gamedataCheckType
----@field public ["invert"] Bool
----@field public ["fireAndForget"] Bool
----@field public ["objectToCheck"] CName
+---@field public statusEffectRecordID TweakDBID
+---@field public tag CName
+---@field public checkType gamedataCheckType
+---@field public invert Bool
+---@field public fireAndForget Bool
+---@field public objectToCheck CName
 StatusEffectPrereq = {}
 
 ---@param fields? table

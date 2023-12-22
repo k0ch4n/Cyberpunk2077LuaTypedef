@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeNetworkNode: gameObject
----@field public ["colorIndex"] Int8
+---@field public colorIndex Int8
 gameNetrunnerPrototypeNetworkNode = {}
 
 ---@param fields? table

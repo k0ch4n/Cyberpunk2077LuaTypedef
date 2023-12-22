@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PullSquadSyncRequest: AIAIEvent
----@field public ["squadType"] AISquadType
+---@field public squadType AISquadType
 PullSquadSyncRequest = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiHUDCyberwareInfoGameController: gameuiHUDGameController
----@field public ["activatePopupAnimName"] CName
----@field public ["deactivatePopupAnimName"] CName
----@field public ["activateAnimName"] CName
----@field public ["deactivateAnimName"] CName
----@field public ["fact"] CName
----@field public ["hudElement"] inkWidgetReference
----@field public ["isCyberwareDeactivated"] Bool
----@field public ["popupAnimProxy"] inkanimProxy
----@field public ["animProxy"] inkanimProxy
+---@field public activatePopupAnimName CName
+---@field public deactivatePopupAnimName CName
+---@field public activateAnimName CName
+---@field public deactivateAnimName CName
+---@field public fact CName
+---@field public hudElement inkWidgetReference
+---@field public isCyberwareDeactivated Bool
+---@field public popupAnimProxy inkanimProxy
+---@field public animProxy inkanimProxy
 gameuiHUDCyberwareInfoGameController = {}
 
 ---@param fields? table

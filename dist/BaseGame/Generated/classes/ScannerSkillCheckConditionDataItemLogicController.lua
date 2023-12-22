@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ScannerSkillCheckConditionDataItemLogicController: inkWidgetLogicController
----@field private ["ConditionDataDescriptionName"] CName
----@field private ["ParentConditionTextPath"] inkWidgetPath
----@field private ["OwnConditionTextPath"] inkWidgetPath
----@field private ["ConditionDescriptionListPath"] inkWidgetPath
----@field private ["ConditionDescriptions"] inkWidget[]
----@field private ["ParentConditionText"] inkTextWidget
----@field private ["OwnConditionText"] inkTextWidget
----@field private ["ConditionDescriptionList"] inkCompoundWidget
+---@field private ConditionDataDescriptionName CName
+---@field private ParentConditionTextPath inkWidgetPath
+---@field private OwnConditionTextPath inkWidgetPath
+---@field private ConditionDescriptionListPath inkWidgetPath
+---@field private ConditionDescriptions inkWidget[]
+---@field private ParentConditionText inkTextWidget
+---@field private OwnConditionText inkTextWidget
+---@field private ConditionDescriptionList inkCompoundWidget
 ScannerSkillCheckConditionDataItemLogicController = {}
 
 ---@param fields? table

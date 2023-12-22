@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CurrencyChangeInventoryCallback: gameInventoryScriptCallback
----@field public ["notificationQueue"] ItemsNotificationQueue
+---@field public notificationQueue ItemsNotificationQueue
 CurrencyChangeInventoryCallback = {}
 
 ---@param fields? table

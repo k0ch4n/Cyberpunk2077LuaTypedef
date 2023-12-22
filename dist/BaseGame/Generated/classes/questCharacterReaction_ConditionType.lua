@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterReaction_ConditionType: questICharacterConditionType
----@field public ["puppetRef"] gameEntityReference
----@field public ["isAnyReaction"] Bool
----@field public ["reactionBehaviorID"] TweakDBID
+---@field public puppetRef gameEntityReference
+---@field public isAnyReaction Bool
+---@field public reactionBehaviorID TweakDBID
 questCharacterReaction_ConditionType = {}
 
 ---@param fields? table

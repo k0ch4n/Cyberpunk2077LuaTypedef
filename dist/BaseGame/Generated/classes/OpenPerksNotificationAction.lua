@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenPerksNotificationAction: GenericNotificationBaseAction
----@field public ["eventDispatcher"] worlduiIWidgetGameController
+---@field public eventDispatcher worlduiIWidgetGameController
 OpenPerksNotificationAction = {}
 
 ---@param fields? table

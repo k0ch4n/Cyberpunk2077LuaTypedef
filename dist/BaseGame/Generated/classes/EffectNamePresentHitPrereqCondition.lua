@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EffectNamePresentHitPrereqCondition: BaseHitPrereqCondition
----@field public ["effectName"] CName
+---@field public effectName CName
 EffectNamePresentHitPrereqCondition = {}
 
 ---@param fields? table

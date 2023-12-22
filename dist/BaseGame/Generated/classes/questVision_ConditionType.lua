@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questVision_ConditionType: questISensesConditionType
----@field public ["observerPuppetRef"] gameEntityReference
----@field public ["observedTargetRef"] gameEntityReference
----@field public ["isObservedTargetPlayer"] Bool
----@field public ["inverted"] Bool
----@field public ["isInstant"] Bool
+---@field public observerPuppetRef gameEntityReference
+---@field public observedTargetRef gameEntityReference
+---@field public isObservedTargetPlayer Bool
+---@field public inverted Bool
+---@field public isInstant Bool
 questVision_ConditionType = {}
 
 ---@param fields? table

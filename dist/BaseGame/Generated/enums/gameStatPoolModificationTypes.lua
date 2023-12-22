@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameStatPoolModificationTypes: Enum
----@field ["Regeneration"] gameStatPoolModificationTypes 0
----@field ["Decay"] gameStatPoolModificationTypes 1
+---@field Regeneration 0
+---@field Decay 1
 gameStatPoolModificationTypes = {}

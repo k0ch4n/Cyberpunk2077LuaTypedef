@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SimpleBinkGameController: DeviceInkGameControllerBase
----@field protected ["playCommonAd"] Bool
----@field protected ["Video1Path"] CName
----@field protected ["Video2Path"] CName
----@field private ["Video1"] inkVideoWidgetReference
----@field private ["Video2"] inkVideoWidgetReference
+---@field protected playCommonAd Bool
+---@field protected Video1Path CName
+---@field protected Video2Path CName
+---@field private Video1 inkVideoWidgetReference
+---@field private Video2 inkVideoWidgetReference
 SimpleBinkGameController = {}
 
 ---@param fields? table

@@ -2,34 +2,34 @@
 ---@diagnostic disable
 
 ---@class physicsQueryUseCase: Enum
----@field ["Default"] physicsQueryUseCase 0
----@field ["ActionAnimation"] physicsQueryUseCase 1
----@field ["AI"] physicsQueryUseCase 2
----@field ["AnimationComponent"] physicsQueryUseCase 3
----@field ["Audio"] physicsQueryUseCase 4
----@field ["AudioHedgehog"] physicsQueryUseCase 5
----@field ["Components"] physicsQueryUseCase 6
----@field ["Debug"] physicsQueryUseCase 7
----@field ["Gameplay"] physicsQueryUseCase 8
----@field ["GeomDescription"] physicsQueryUseCase 9
----@field ["LineOfSightTests"] physicsQueryUseCase 10
----@field ["MoveZAlignment"] physicsQueryUseCase 11
----@field ["Navigation"] physicsQueryUseCase 12
----@field ["Nodes"] physicsQueryUseCase 13
----@field ["PuppetBlackboardUpdater"] physicsQueryUseCase 14
----@field ["Ragdoll"] physicsQueryUseCase 15
----@field ["Scripts"] physicsQueryUseCase 16
----@field ["TargetingSystem"] physicsQueryUseCase 17
----@field ["VehicleAI"] physicsQueryUseCase 18
----@field ["VehicleAIColliders"] physicsQueryUseCase 19
----@field ["Vehicles"] physicsQueryUseCase 20
----@field ["VehicleChassis"] physicsQueryUseCase 21
----@field ["VehiclesCrowd"] physicsQueryUseCase 22
----@field ["VehicleWheel"] physicsQueryUseCase 23
----@field ["VehicleStreamingHack"] physicsQueryUseCase 24
----@field ["VehicleWater"] physicsQueryUseCase 25
----@field ["VisibilityResolver"] physicsQueryUseCase 26
----@field ["WorldUI"] physicsQueryUseCase 27
----@field ["GameEffects"] physicsQueryUseCase 28
----@field ["GameProjectiles"] physicsQueryUseCase 29
+---@field Default 0
+---@field ActionAnimation 1
+---@field AI 2
+---@field AnimationComponent 3
+---@field Audio 4
+---@field AudioHedgehog 5
+---@field Components 6
+---@field Debug 7
+---@field Gameplay 8
+---@field GeomDescription 9
+---@field LineOfSightTests 10
+---@field MoveZAlignment 11
+---@field Navigation 12
+---@field Nodes 13
+---@field PuppetBlackboardUpdater 14
+---@field Ragdoll 15
+---@field Scripts 16
+---@field TargetingSystem 17
+---@field VehicleAI 18
+---@field VehicleAIColliders 19
+---@field Vehicles 20
+---@field VehicleChassis 21
+---@field VehiclesCrowd 22
+---@field VehicleWheel 23
+---@field VehicleStreamingHack 24
+---@field VehicleWater 25
+---@field VisibilityResolver 26
+---@field WorldUI 27
+---@field GameEffects 28
+---@field GameProjectiles 29
 physicsQueryUseCase = {}

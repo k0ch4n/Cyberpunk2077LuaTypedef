@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformArrivedAt: redEvent
----@field public ["destinationName"] CName
----@field public ["data"] Int32
+---@field public destinationName CName
+---@field public data Int32
 gameMovingPlatformArrivedAt = {}
 
 ---@param fields? table

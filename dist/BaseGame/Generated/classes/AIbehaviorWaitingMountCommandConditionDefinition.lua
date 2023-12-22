@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorWaitingMountCommandConditionDefinition: AIbehaviorConditionDefinition
----@field public ["requestArgument"] AIArgumentMapping
----@field public ["callbackName"] CName
+---@field public requestArgument AIArgumentMapping
+---@field public callbackName CName
 AIbehaviorWaitingMountCommandConditionDefinition = {}
 
 ---@param fields? table

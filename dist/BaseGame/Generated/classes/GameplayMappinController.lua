@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GameplayMappinController: QuestMappinController
----@field private ["anim"] inkanimProxy
----@field private ["isVisibleThroughWalls"] Bool
+---@field private anim inkanimProxy
+---@field private isVisibleThroughWalls Bool
 GameplayMappinController = {}
 
 ---@param fields? table

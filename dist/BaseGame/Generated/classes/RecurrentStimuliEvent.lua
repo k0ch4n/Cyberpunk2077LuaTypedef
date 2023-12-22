@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RecurrentStimuliEvent: redEvent
----@field public ["requestID"] StimRequestID
+---@field public requestID StimRequestID
 RecurrentStimuliEvent = {}
 
 ---@param fields? table

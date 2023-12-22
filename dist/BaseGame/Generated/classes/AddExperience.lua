@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AddExperience: gamePlayerScriptableSystemRequest
----@field public ["amount"] Int32
----@field public ["experienceType"] gamedataProficiencyType
----@field public ["debug"] Bool
+---@field public amount Int32
+---@field public experienceType gamedataProficiencyType
+---@field public debug Bool
 AddExperience = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class vehicleCameraType: Enum
----@field ["FPP"] vehicleCameraType 0
----@field ["TPP"] vehicleCameraType 1
+---@field FPP 0
+---@field TPP 1
 vehicleCameraType = {}

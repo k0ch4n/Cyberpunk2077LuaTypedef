@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpeedIndicatorIconsManager: inkWidgetLogicController
----@field private ["speedIndicator"] inkImageWidgetReference
----@field private ["mirroredSpeedIndicator"] inkImageWidgetReference
+---@field private speedIndicator inkImageWidgetReference
+---@field private mirroredSpeedIndicator inkImageWidgetReference
 SpeedIndicatorIconsManager = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entReplicatedItem
----@field public ["entity"] entEntity
----@field public ["netTime"] netTime
+---@field public entity entEntity
+---@field public netTime netTime
 entReplicatedItem = {}
 
 ---@param fields? table

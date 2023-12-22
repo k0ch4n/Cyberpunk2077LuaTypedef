@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textHorizontalAlignment: Enum
----@field ["Left"] textHorizontalAlignment 0
----@field ["Center"] textHorizontalAlignment 1
----@field ["Right"] textHorizontalAlignment 2
+---@field Left 0
+---@field Center 1
+---@field Right 2
 textHorizontalAlignment = {}

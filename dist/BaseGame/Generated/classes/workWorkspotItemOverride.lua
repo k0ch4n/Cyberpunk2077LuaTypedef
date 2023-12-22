@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workWorkspotItemOverride
----@field public ["propOverrides"] workWorkspotItemOverridePropOverride[]
----@field public ["itemOverrides"] workWorkspotItemOverrideItemOverride[]
+---@field public propOverrides workWorkspotItemOverridePropOverride[]
+---@field public itemOverrides workWorkspotItemOverrideItemOverride[]
 workWorkspotItemOverride = {}
 
 ---@param fields? table

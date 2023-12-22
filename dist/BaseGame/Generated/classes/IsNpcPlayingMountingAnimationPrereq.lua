@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class IsNpcPlayingMountingAnimationPrereq: gameIScriptablePrereq
----@field protected ["slotName"] CName
----@field protected ["isCheckInverted"] Bool
+---@field protected slotName CName
+---@field protected isCheckInverted Bool
 IsNpcPlayingMountingAnimationPrereq = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class TooltipAnimationController: inkWidgetLogicController
----@field private ["tooltipContainer"] inkWidgetReference
----@field private ["tooltipAnimHideDef"] inkanimDefinition
----@field private ["tooltipDelayedShowDef"] inkanimDefinition
----@field private ["tooltipAnimHide"] inkanimProxy
----@field private ["tooltipDelayedShow"] inkanimProxy
----@field private ["axisDataThreshold"] Float
----@field private ["mouseDataThreshold"] Float
----@field private ["isHidden"] Bool
+---@field private tooltipContainer inkWidgetReference
+---@field private tooltipAnimHideDef inkanimDefinition
+---@field private tooltipDelayedShowDef inkanimDefinition
+---@field private tooltipAnimHide inkanimProxy
+---@field private tooltipDelayedShow inkanimProxy
+---@field private axisDataThreshold Float
+---@field private mouseDataThreshold Float
+---@field private isHidden Bool
 TooltipAnimationController = {}
 
 ---@param fields? table

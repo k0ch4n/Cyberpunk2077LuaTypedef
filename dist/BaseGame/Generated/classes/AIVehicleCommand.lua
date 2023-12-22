@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AIVehicleCommand: AICommand
----@field public ["useKinematic"] Bool
----@field public ["needDriver"] Bool
+---@field public useKinematic Bool
+---@field public needDriver Bool
 AIVehicleCommand = {}

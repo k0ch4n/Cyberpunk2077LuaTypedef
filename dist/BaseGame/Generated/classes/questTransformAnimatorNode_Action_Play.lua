@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questTransformAnimatorNode_Action_Play: questTransformAnimatorNode_ActionType
----@field public ["timesPlayed"] Int32
----@field public ["timeScale"] Float
----@field public ["reverse"] Bool
----@field public ["useEntitySetup"] Bool
+---@field public timesPlayed Int32
+---@field public timeScale Float
+---@field public reverse Bool
+---@field public useEntitySetup Bool
 questTransformAnimatorNode_Action_Play = {}
 
 ---@param fields? table

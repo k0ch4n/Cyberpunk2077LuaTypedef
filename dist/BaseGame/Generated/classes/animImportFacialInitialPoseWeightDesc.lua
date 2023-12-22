@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animImportFacialInitialPoseWeightDesc
----@field public ["poseNames"] CName[]
----@field public ["weights"] Float[]
+---@field public poseNames CName[]
+---@field public weights Float[]
 animImportFacialInitialPoseWeightDesc = {}
 
 ---@param fields? table

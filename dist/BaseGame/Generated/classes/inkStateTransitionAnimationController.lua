@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStateTransitionAnimationController: inkWidgetLogicController
----@field public ["transition"] inkWidgetStateAnimatedTransition[]
----@field public ["stopActiveAnimation"] Bool
+---@field public transition inkWidgetStateAnimatedTransition[]
+---@field public stopActiveAnimation Bool
 inkStateTransitionAnimationController = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PointerController: inkWidgetLogicController
----@field private ["connectors"] inkWidgetReference[]
----@field private ["pointer"] inkWidgetReference
----@field private ["centerButtonSlot"] inkWidgetReference
----@field private ["centerButton"] inkWidget
----@field private ["currentIndex"] Int32
+---@field private connectors inkWidgetReference[]
+---@field private pointer inkWidgetReference
+---@field private centerButtonSlot inkWidgetReference
+---@field private centerButton inkWidget
+---@field private currentIndex Int32
 PointerController = {}
 
 ---@param fields? table

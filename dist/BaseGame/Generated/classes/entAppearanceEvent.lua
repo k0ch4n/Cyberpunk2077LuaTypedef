@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entAppearanceEvent: redEvent
----@field public ["appearanceName"] CName
----@field public ["componentName"] CName
+---@field public appearanceName CName
+---@field public componentName CName
 entAppearanceEvent = {}
 
 ---@param fields? table

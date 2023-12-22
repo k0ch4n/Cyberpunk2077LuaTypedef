@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionAgents: IScriptable
----@field private ["groupName"] CName
----@field private ["requsteredAgents"] SPreventionAgentData[]
+---@field private groupName CName
+---@field private requsteredAgents SPreventionAgentData[]
 PreventionAgents = {}
 
 ---@param fields? table

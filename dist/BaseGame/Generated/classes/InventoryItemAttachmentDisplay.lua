@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryItemAttachmentDisplay: inkWidgetLogicController
----@field private ["QualityRootRef"] inkWidgetReference
----@field private ["ShapeRef"] inkWidgetReference
----@field private ["BorderRef"] inkWidgetReference
----@field private ["MarkedStateName"] CName
+---@field private QualityRootRef inkWidgetReference
+---@field private ShapeRef inkWidgetReference
+---@field private BorderRef inkWidgetReference
+---@field private MarkedStateName CName
 InventoryItemAttachmentDisplay = {}
 
 ---@param fields? table

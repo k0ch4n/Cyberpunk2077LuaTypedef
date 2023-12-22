@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTeleport_NodeType: questIVehicleManagerNodeType
----@field public ["entityReference"] gameEntityReference
----@field public ["params"] questTeleportPuppetParams
+---@field public entityReference gameEntityReference
+---@field public params questTeleportPuppetParams
 questTeleport_NodeType = {}
 
 ---@param fields? table

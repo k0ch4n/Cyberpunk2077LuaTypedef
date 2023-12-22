@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicalSystemOwner: Enum
----@field ["Unknown"] physicsPhysicalSystemOwner 0
----@field ["BakedDestructionNode"] physicsPhysicalSystemOwner 1
----@field ["ClothMeshNode"] physicsPhysicalSystemOwner 2
----@field ["CollisionAreaNode"] physicsPhysicalSystemOwner 3
----@field ["DecorationMeshNode"] physicsPhysicalSystemOwner 4
----@field ["DynamicMeshNode"] physicsPhysicalSystemOwner 5
----@field ["InstancedDestructibleNode"] physicsPhysicalSystemOwner 6
----@field ["PhysicalDestructionNode"] physicsPhysicalSystemOwner 7
----@field ["PhysicalTriggerNode"] physicsPhysicalSystemOwner 8
----@field ["StaticMeshNode"] physicsPhysicalSystemOwner 9
----@field ["TerrainCollisionNode"] physicsPhysicalSystemOwner 10
----@field ["WaterPatchNode"] physicsPhysicalSystemOwner 11
----@field ["WorldCollisionNode"] physicsPhysicalSystemOwner 12
----@field ["BakedDestructionComponent"] physicsPhysicalSystemOwner 13
----@field ["ClothComponent"] physicsPhysicalSystemOwner 14
----@field ["ColliderComponent"] physicsPhysicalSystemOwner 15
----@field ["PhysicalDestructionComponent"] physicsPhysicalSystemOwner 16
----@field ["PhysicalMeshComponent"] physicsPhysicalSystemOwner 17
----@field ["PhysicalSkinnedMeshComponent"] physicsPhysicalSystemOwner 18
----@field ["PhysicalTriggerComponent"] physicsPhysicalSystemOwner 19
----@field ["SimpleColliderComponent"] physicsPhysicalSystemOwner 20
----@field ["SkinnedClothComponent"] physicsPhysicalSystemOwner 21
----@field ["StateMachineComponent"] physicsPhysicalSystemOwner 22
----@field ["VehicleChassisComponent"] physicsPhysicalSystemOwner 23
----@field ["PhysicalParticleSystem"] physicsPhysicalSystemOwner 24
----@field ["PhotoModeSystem"] physicsPhysicalSystemOwner 25
----@field ["RagdollBinder"] physicsPhysicalSystemOwner 26
----@field ["FoliageDestruction"] physicsPhysicalSystemOwner 27
----@field ["EntityProxy"] physicsPhysicalSystemOwner 28
+---@field Unknown 0
+---@field BakedDestructionNode 1
+---@field ClothMeshNode 2
+---@field CollisionAreaNode 3
+---@field DecorationMeshNode 4
+---@field DynamicMeshNode 5
+---@field InstancedDestructibleNode 6
+---@field PhysicalDestructionNode 7
+---@field PhysicalTriggerNode 8
+---@field StaticMeshNode 9
+---@field TerrainCollisionNode 10
+---@field WaterPatchNode 11
+---@field WorldCollisionNode 12
+---@field BakedDestructionComponent 13
+---@field ClothComponent 14
+---@field ColliderComponent 15
+---@field PhysicalDestructionComponent 16
+---@field PhysicalMeshComponent 17
+---@field PhysicalSkinnedMeshComponent 18
+---@field PhysicalTriggerComponent 19
+---@field SimpleColliderComponent 20
+---@field SkinnedClothComponent 21
+---@field StateMachineComponent 22
+---@field VehicleChassisComponent 23
+---@field PhysicalParticleSystem 24
+---@field PhotoModeSystem 25
+---@field RagdollBinder 26
+---@field FoliageDestruction 27
+---@field EntityProxy 28
 physicsPhysicalSystemOwner = {}

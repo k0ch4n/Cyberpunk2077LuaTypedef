@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_VehicleNPCDeathData: animAnimFeature
----@field public ["deathType"] Int32
----@field public ["side"] Int32
+---@field public deathType Int32
+---@field public side Int32
 AnimFeature_VehicleNPCDeathData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkanimInterpolationMode: Enum
----@field ["EasyIn"] inkanimInterpolationMode 0
----@field ["EasyOut"] inkanimInterpolationMode 1
----@field ["EasyInOut"] inkanimInterpolationMode 2
----@field ["EasyOutIn"] inkanimInterpolationMode 3
+---@field EasyIn 0
+---@field EasyOut 1
+---@field EasyInOut 2
+---@field EasyOutIn 3
 inkanimInterpolationMode = {}

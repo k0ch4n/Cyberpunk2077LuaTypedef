@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChargedHotkeyItemConsumableController: ChargedHotkeyItemBaseController
----@field public ["c_statPool"] gamedataStatPoolType
+---@field public c_statPool gamedataStatPoolType
 ChargedHotkeyItemConsumableController = {}
 
 ---@param fields? table

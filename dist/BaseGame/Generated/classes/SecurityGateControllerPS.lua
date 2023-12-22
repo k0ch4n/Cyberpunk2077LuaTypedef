@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SecurityGateControllerPS: MasterControllerPS
----@field private ["securityGateDetectionProperties"] SecurityGateDetectionProperties
----@field private ["securityGateResponseProperties"] SecurityGateResponseProperties
----@field private ["securityGateStatus"] ESecurityGateStatus
----@field private ["trespassersDataList"] TrespasserEntry[]
+---@field private securityGateDetectionProperties SecurityGateDetectionProperties
+---@field private securityGateResponseProperties SecurityGateResponseProperties
+---@field private securityGateStatus ESecurityGateStatus
+---@field private trespassersDataList TrespasserEntry[]
 SecurityGateControllerPS = {}
 
 ---@param fields? table

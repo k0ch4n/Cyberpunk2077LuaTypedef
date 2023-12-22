@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameStatsSeedKey
----@field public ["entityID"] entEntityID
----@field public ["recordID"] TweakDBID
----@field public ["seed"] Uint32
+---@field public entityID entEntityID
+---@field public recordID TweakDBID
+---@field public seed Uint32
 gameStatsSeedKey = {}
 
 ---@param fields? table

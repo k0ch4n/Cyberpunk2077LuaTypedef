@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ComputerMenuButtonController: DeviceButtonLogicControllerBase
----@field protected ["counterWidget"] inkTextWidgetReference
----@field protected ["notificationidget"] inkWidgetReference
----@field private ["menuID"] String
+---@field protected counterWidget inkTextWidgetReference
+---@field protected notificationidget inkWidgetReference
+---@field private menuID String
 ComputerMenuButtonController = {}
 
 ---@param fields? table

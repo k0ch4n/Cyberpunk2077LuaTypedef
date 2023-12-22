@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInt32ValueWrapper
----@field public ["valueProvider"] questIInt32ValueProvider
+---@field public valueProvider questIInt32ValueProvider
 questInt32ValueWrapper = {}
 
 ---@param fields? table

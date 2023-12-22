@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkCharacterEventType: Enum
----@field ["CharInput"] inkCharacterEventType 0
----@field ["MoveCaretForward"] inkCharacterEventType 1
----@field ["MoveCaretBackward"] inkCharacterEventType 2
----@field ["Delete"] inkCharacterEventType 3
----@field ["Backspace"] inkCharacterEventType 4
+---@field CharInput 0
+---@field MoveCaretForward 1
+---@field MoveCaretBackward 2
+---@field Delete 3
+---@field Backspace 4
 inkCharacterEventType = {}

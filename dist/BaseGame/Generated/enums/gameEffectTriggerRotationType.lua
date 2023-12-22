@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectTriggerRotationType: Enum
----@field ["None"] gameEffectTriggerRotationType 0
----@field ["AtSpawn"] gameEffectTriggerRotationType 1
----@field ["Continuous"] gameEffectTriggerRotationType 2
+---@field None 0
+---@field AtSpawn 1
+---@field Continuous 2
 gameEffectTriggerRotationType = {}

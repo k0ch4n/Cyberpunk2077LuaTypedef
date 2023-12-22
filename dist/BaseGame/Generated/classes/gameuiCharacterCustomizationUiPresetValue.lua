@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationUiPresetValue
----@field public ["optionName"] CName
----@field public ["isActive"] Bool
----@field public ["value"] Uint32
+---@field public optionName CName
+---@field public isActive Bool
+---@field public value Uint32
 gameuiCharacterCustomizationUiPresetValue = {}
 
 ---@param fields? table

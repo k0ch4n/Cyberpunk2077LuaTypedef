@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WeaponTransition: DefaultTransition
----@field public ["magazineID"] TweakDBID
----@field public ["magazineAttack"] TweakDBID
----@field public ["rangedAttackPackage"] gamedataRangedAttackPackage_Record
+---@field public magazineID TweakDBID
+---@field public magazineAttack TweakDBID
+---@field public rangedAttackPackage gamedataRangedAttackPackage_Record
 WeaponTransition = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface

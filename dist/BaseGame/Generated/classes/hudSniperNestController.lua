@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class hudSniperNestController: gameuiHUDGameController
----@field private ["psmBlackboard"] gameIBlackboard
----@field private ["tcsBlackboard"] gameIBlackboard
----@field private ["PSM_BBID"] redCallbackObject
----@field private ["tcs_BBID"] redCallbackObject
----@field private ["deviceChain_BBID"] redCallbackObject
----@field private ["root"] inkCompoundWidget
----@field private ["controlledObjectRef"] gameObject
----@field private ["alpha_fadein"] inkanimDefinition
----@field private ["AnimProxy"] inkanimProxy
----@field private ["AnimOptions"] inkanimPlaybackOptions
----@field private ["ownerObject"] gameObject
----@field private ["maxZoomLevel"] Int32
+---@field private psmBlackboard gameIBlackboard
+---@field private tcsBlackboard gameIBlackboard
+---@field private PSM_BBID redCallbackObject
+---@field private tcs_BBID redCallbackObject
+---@field private deviceChain_BBID redCallbackObject
+---@field private root inkCompoundWidget
+---@field private controlledObjectRef gameObject
+---@field private alpha_fadein inkanimDefinition
+---@field private AnimProxy inkanimProxy
+---@field private AnimOptions inkanimPlaybackOptions
+---@field private ownerObject gameObject
+---@field private maxZoomLevel Int32
 hudSniperNestController = {}
 
 ---@param fields? table

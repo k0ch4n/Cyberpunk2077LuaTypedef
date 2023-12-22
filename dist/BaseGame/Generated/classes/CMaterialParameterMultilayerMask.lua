@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CMaterialParameterMultilayerMask: CMaterialParameter
----@field public ["mask"] Multilayer_Mask
+---@field public mask Multilayer_Mask
 CMaterialParameterMultilayerMask = {}
 
 ---@param fields? table

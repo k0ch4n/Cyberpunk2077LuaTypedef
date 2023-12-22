@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InGamePopup: Codeware_UI_CustomPopup
----@field public ["vignette"] inkImageWidget
----@field public ["container"] inkCompoundWidget
+---@field public vignette inkImageWidget
+---@field public container inkCompoundWidget
 Codeware_UI_InGamePopup = {}
 
 ---@return nil

@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class gamePSMDetailedLocomotionStates: Enum
----@field ["NotInBaseLocomotion"] gamePSMDetailedLocomotionStates 0
----@field ["Stand"] gamePSMDetailedLocomotionStates 1
----@field ["AimWalk"] gamePSMDetailedLocomotionStates 2
----@field ["Crouch"] gamePSMDetailedLocomotionStates 3
----@field ["Sprint"] gamePSMDetailedLocomotionStates 4
----@field ["Slide"] gamePSMDetailedLocomotionStates 5
----@field ["SlideFall"] gamePSMDetailedLocomotionStates 6
----@field ["Dodge"] gamePSMDetailedLocomotionStates 7
----@field ["Climb"] gamePSMDetailedLocomotionStates 8
----@field ["Vault"] gamePSMDetailedLocomotionStates 9
----@field ["Ladder"] gamePSMDetailedLocomotionStates 10
----@field ["LadderSprint"] gamePSMDetailedLocomotionStates 11
----@field ["LadderSlide"] gamePSMDetailedLocomotionStates 12
----@field ["LadderJump"] gamePSMDetailedLocomotionStates 13
----@field ["Fall"] gamePSMDetailedLocomotionStates 14
----@field ["AirThrusters"] gamePSMDetailedLocomotionStates 15
----@field ["AirHover"] gamePSMDetailedLocomotionStates 16
----@field ["SuperheroFall"] gamePSMDetailedLocomotionStates 17
----@field ["Jump"] gamePSMDetailedLocomotionStates 18
----@field ["DoubleJump"] gamePSMDetailedLocomotionStates 19
----@field ["ChargeJump"] gamePSMDetailedLocomotionStates 20
----@field ["HoverJump"] gamePSMDetailedLocomotionStates 21
----@field ["DodgeAir"] gamePSMDetailedLocomotionStates 22
----@field ["RegularLand"] gamePSMDetailedLocomotionStates 23
----@field ["HardLand"] gamePSMDetailedLocomotionStates 24
----@field ["VeryHardLand"] gamePSMDetailedLocomotionStates 25
----@field ["DeathLand"] gamePSMDetailedLocomotionStates 26
----@field ["SuperheroLand"] gamePSMDetailedLocomotionStates 27
----@field ["SuperheroLandRecovery"] gamePSMDetailedLocomotionStates 28
----@field ["Knockdown"] gamePSMDetailedLocomotionStates 29
----@field ["CrouchSprint"] gamePSMDetailedLocomotionStates 30
----@field ["Felled"] gamePSMDetailedLocomotionStates 31
+---@field NotInBaseLocomotion 0
+---@field Stand 1
+---@field AimWalk 2
+---@field Crouch 3
+---@field Sprint 4
+---@field Slide 5
+---@field SlideFall 6
+---@field Dodge 7
+---@field Climb 8
+---@field Vault 9
+---@field Ladder 10
+---@field LadderSprint 11
+---@field LadderSlide 12
+---@field LadderJump 13
+---@field Fall 14
+---@field AirThrusters 15
+---@field AirHover 16
+---@field SuperheroFall 17
+---@field Jump 18
+---@field DoubleJump 19
+---@field ChargeJump 20
+---@field HoverJump 21
+---@field DodgeAir 22
+---@field RegularLand 23
+---@field HardLand 24
+---@field VeryHardLand 25
+---@field DeathLand 26
+---@field SuperheroLand 27
+---@field SuperheroLandRecovery 28
+---@field Knockdown 29
+---@field CrouchSprint 30
+---@field Felled 31
 gamePSMDetailedLocomotionStates = {}

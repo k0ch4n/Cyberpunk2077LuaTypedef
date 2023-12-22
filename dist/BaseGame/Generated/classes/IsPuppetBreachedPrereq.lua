@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsPuppetBreachedPrereq: gameIScriptablePrereq
----@field private ["isBreached"] Bool
+---@field private isBreached Bool
 IsPuppetBreachedPrereq = {}
 
 ---@param fields? table

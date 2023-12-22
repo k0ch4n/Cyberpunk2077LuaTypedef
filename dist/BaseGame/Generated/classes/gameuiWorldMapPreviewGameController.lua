@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiWorldMapPreviewGameController: gameuiMenuGameController
----@field public ["viewTemplate"] entEntityTemplate
----@field public ["viewEnvironmentDefinition"] worldEnvironmentAreaParameters
----@field public ["cursorTemplate"] entEntityTemplate
----@field public ["canvas"] inkImageWidgetReference
+---@field public viewTemplate entEntityTemplate
+---@field public viewEnvironmentDefinition worldEnvironmentAreaParameters
+---@field public cursorTemplate entEntityTemplate
+---@field public canvas inkImageWidgetReference
 gameuiWorldMapPreviewGameController = {}
 
 ---@param fields? table

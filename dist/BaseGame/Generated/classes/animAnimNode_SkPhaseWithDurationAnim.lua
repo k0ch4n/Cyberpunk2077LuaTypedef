@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkPhaseWithDurationAnim: animAnimNode_SkPhaseAnim
----@field public ["durationLink"] animFloatLink
+---@field public durationLink animFloatLink
 animAnimNode_SkPhaseWithDurationAnim = {}
 
 ---@param fields? table

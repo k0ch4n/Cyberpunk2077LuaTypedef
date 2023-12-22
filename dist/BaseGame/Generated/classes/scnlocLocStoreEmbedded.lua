@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnlocLocStoreEmbedded
----@field public ["vdEntries"] scnlocLocStoreEmbeddedVariantDescriptorEntry[]
----@field public ["vpEntries"] scnlocLocStoreEmbeddedVariantPayloadEntry[]
+---@field public vdEntries scnlocLocStoreEmbeddedVariantDescriptorEntry[]
+---@field public vpEntries scnlocLocStoreEmbeddedVariantPayloadEntry[]
 scnlocLocStoreEmbedded = {}
 
 ---@param fields? table

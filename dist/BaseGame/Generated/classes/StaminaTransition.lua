@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StaminaTransition: DefaultTransition
----@field public ["staminaChangeToggle"] Bool
+---@field public staminaChangeToggle Bool
 StaminaTransition = {}
 
 ---@protected

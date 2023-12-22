@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIAIEvent: redEvent
----@field public ["name"] CName
----@field public ["timeToLive"] Float
+---@field public name CName
+---@field public timeToLive Float
 AIAIEvent = {}
 
 ---@param fields? table

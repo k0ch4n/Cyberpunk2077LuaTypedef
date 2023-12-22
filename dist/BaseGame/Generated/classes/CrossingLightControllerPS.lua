@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrossingLightControllerPS: TrafficLightControllerPS
----@field protected ["crossingLightSFXSetup"] CrossingLightSetup
+---@field protected crossingLightSFXSetup CrossingLightSetup
 CrossingLightControllerPS = {}
 
 ---@param fields? table

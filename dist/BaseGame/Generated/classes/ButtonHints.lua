@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ButtonHints: inkWidgetLogicController
----@field public ["horizontalHolder"] inkCompoundWidgetReference
+---@field public horizontalHolder inkCompoundWidgetReference
 ButtonHints = {}
 
 ---@param fields? table

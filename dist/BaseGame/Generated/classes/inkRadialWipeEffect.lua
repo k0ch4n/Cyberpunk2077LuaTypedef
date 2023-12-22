@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkRadialWipeEffect: inkIEffect
----@field public ["startAngle"] Float
----@field public ["transition"] Float
+---@field public startAngle Float
+---@field public transition Float
 inkRadialWipeEffect = {}
 
 ---@param fields? table

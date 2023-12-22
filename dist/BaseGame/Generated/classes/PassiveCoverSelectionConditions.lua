@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PassiveCoverSelectionConditions: PassiveAutonomousCondition
----@field private ["statsChangedCbId"] Uint32
----@field private ["ability"] gamedataGameplayAbility_Record
----@field private ["statListener"] AIStatListener
+---@field private statsChangedCbId Uint32
+---@field private ability gamedataGameplayAbility_Record
+---@field private statListener AIStatListener
 PassiveCoverSelectionConditions = {}
 
 ---@param fields? table

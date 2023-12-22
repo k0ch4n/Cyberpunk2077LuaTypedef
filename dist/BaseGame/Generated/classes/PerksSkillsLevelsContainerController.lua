@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PerksSkillsLevelsContainerController: inkWidgetLogicController
----@field protected ["topRowItemsContainer"] inkCompoundWidgetReference
----@field protected ["bottomRowItemsContainer"] inkCompoundWidgetReference
----@field protected ["levelBar"] inkWidgetReference
----@field protected ["levelBarSpacer"] inkWidgetReference
----@field protected ["label"] inkTextWidgetReference
----@field protected ["proficiencyDisplayData"] ProficiencyDisplayData
+---@field protected topRowItemsContainer inkCompoundWidgetReference
+---@field protected bottomRowItemsContainer inkCompoundWidgetReference
+---@field protected levelBar inkWidgetReference
+---@field protected levelBarSpacer inkWidgetReference
+---@field protected label inkTextWidgetReference
+---@field protected proficiencyDisplayData ProficiencyDisplayData
 PerksSkillsLevelsContainerController = {}
 
 ---@param fields? table

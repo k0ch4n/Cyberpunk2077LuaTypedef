@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class PaperDollSlotController: inkButtonDpadSupportedController
----@field protected ["equipArea"] gamedataEquipmentArea
----@field protected ["slotIndex"] Int32
----@field protected ["areaTags"] CName[]
----@field protected ["itemID"] gameItemID
----@field protected ["slotName"] String
----@field protected ["itemData"] gameItemData
----@field protected ["locked"] Bool
+---@field protected equipArea gamedataEquipmentArea
+---@field protected slotIndex Int32
+---@field protected areaTags CName[]
+---@field protected itemID gameItemID
+---@field protected slotName String
+---@field protected itemData gameItemData
+---@field protected locked Bool
 PaperDollSlotController = {}
 
 ---@param fields? table

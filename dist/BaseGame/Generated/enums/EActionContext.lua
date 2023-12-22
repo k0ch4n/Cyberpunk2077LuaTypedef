@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EActionContext: Enum
----@field ["None"] EActionContext -1
----@field ["Direct"] EActionContext 0
----@field ["QHack"] EActionContext 1
----@field ["Master"] EActionContext 2
----@field ["Spiderbot"] EActionContext 3
+---@field None -1
+---@field Direct 0
+---@field QHack 1
+---@field Master 2
+---@field Spiderbot 3
 EActionContext = {}

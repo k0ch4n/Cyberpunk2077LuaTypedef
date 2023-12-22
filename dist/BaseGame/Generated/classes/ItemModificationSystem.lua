@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemModificationSystem: gameScriptableSystem
----@field private ["blackboard"] gameIBlackboard
----@field private ["CYBMETA1695"] Bool
+---@field private blackboard gameIBlackboard
+---@field private CYBMETA1695 Bool
 ItemModificationSystem = {}
 
 ---@param fields? table

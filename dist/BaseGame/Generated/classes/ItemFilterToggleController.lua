@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemFilterToggleController: ToggleController
----@field private ["newItemDot"] inkWidgetReference
----@field private ["useCategoryFilter"] Bool
+---@field private newItemDot inkWidgetReference
+---@field private useCategoryFilter Bool
 ItemFilterToggleController = {}
 
 ---@param fields? table

@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class inkSliderController: inkWidgetLogicController
----@field public ["slidingAreaRef"] inkWidgetReference
----@field public ["handleRef"] inkWidgetReference
----@field public ["nextRef"] inkWidgetReference
----@field public ["priorRef"] inkWidgetReference
----@field public ["direction"] inkESliderDirection
----@field public ["autoSizeHandle"] Bool
----@field public ["minHandleSize"] Float
----@field public ["maxHandleSize"] Float
----@field public ["percentHandleSize"] Float
----@field public ["currentProgress"] Float
----@field public ["minimumValue"] Float
----@field public ["maximumValue"] Float
----@field public ["step"] Float
----@field public ["SliderInput"] inkSliderControllerInputCallback
----@field public ["SliderValueChanged"] inkSliderControllerValueChangeCallback
----@field public ["SliderHandleReleased"] inkSliderControllerHandleReleasedCallback
----@field private ["handleWidgetRef"] inkWidget
----@field private ["slidingAreaWidgetRef"] inkWidget
----@field private ["isDragging"] Bool
----@field private ["defaultScale"] Vector2
----@field private ["pressedScale"] Vector2
----@field private ["defaultOpacity"] Float
----@field private ["defaultColor"] CName
----@field private ["hoveredColor"] CName
----@field private ["pressedColor"] CName
----@field private ["pressedOpacity"] Float
+---@field public slidingAreaRef inkWidgetReference
+---@field public handleRef inkWidgetReference
+---@field public nextRef inkWidgetReference
+---@field public priorRef inkWidgetReference
+---@field public direction inkESliderDirection
+---@field public autoSizeHandle Bool
+---@field public minHandleSize Float
+---@field public maxHandleSize Float
+---@field public percentHandleSize Float
+---@field public currentProgress Float
+---@field public minimumValue Float
+---@field public maximumValue Float
+---@field public step Float
+---@field public SliderInput inkSliderControllerInputCallback
+---@field public SliderValueChanged inkSliderControllerValueChangeCallback
+---@field public SliderHandleReleased inkSliderControllerHandleReleasedCallback
+---@field private handleWidgetRef inkWidget
+---@field private slidingAreaWidgetRef inkWidget
+---@field private isDragging Bool
+---@field private defaultScale Vector2
+---@field private pressedScale Vector2
+---@field private defaultOpacity Float
+---@field private defaultColor CName
+---@field private hoveredColor CName
+---@field private pressedColor CName
+---@field private pressedOpacity Float
 inkSliderController = {}
 
 ---@param fields? table

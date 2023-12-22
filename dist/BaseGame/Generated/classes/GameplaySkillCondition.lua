@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class GameplaySkillCondition: GameplayConditionBase
----@field protected ["skillToCheck"] TweakDBID
----@field private ["difficulty"] EGameplayChallengeLevel
----@field private ["skillBonus"] TweakDBID
----@field private ["requiredLevel"] Int32
+---@field protected skillToCheck TweakDBID
+---@field private difficulty EGameplayChallengeLevel
+---@field private skillBonus TweakDBID
+---@field private requiredLevel Int32
 GameplaySkillCondition = {}
 
 ---@param fields? table

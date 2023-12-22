@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpawnSubCharacterEffector: gameEffector
----@field public ["owner"] gameObject
----@field public ["subCharacterTDBID"] TweakDBID
+---@field public owner gameObject
+---@field public subCharacterTDBID TweakDBID
 SpawnSubCharacterEffector = {}
 
 ---@param fields? table

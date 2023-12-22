@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScavengeTargetConfirmEvent: redEvent
----@field public ["target"] gameObject
+---@field public target gameObject
 ScavengeTargetConfirmEvent = {}
 
 ---@param fields? table

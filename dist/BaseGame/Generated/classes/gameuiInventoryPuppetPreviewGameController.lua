@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiInventoryPuppetPreviewGameController: gameuiPuppetPreviewGameController
----@field public ["sceneName"] CName
----@field public ["cameraRef"] NodeRef
----@field private ["collider"] inkWidgetReference
----@field private ["rotationIsMouseDown"] Bool
----@field protected ["maxMousePointerOffset"] Float
----@field protected ["mouseRotationSpeed"] Float
+---@field public sceneName CName
+---@field public cameraRef NodeRef
+---@field private collider inkWidgetReference
+---@field private rotationIsMouseDown Bool
+---@field protected maxMousePointerOffset Float
+---@field protected mouseRotationSpeed Float
 gameuiInventoryPuppetPreviewGameController = {}
 
 ---@param fields? table

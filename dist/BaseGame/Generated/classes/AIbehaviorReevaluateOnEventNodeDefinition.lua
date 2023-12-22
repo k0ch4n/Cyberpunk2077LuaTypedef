@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorReevaluateOnEventNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public ["eventName"] CName
+---@field public eventName CName
 AIbehaviorReevaluateOnEventNodeDefinition = {}
 
 ---@param fields? table

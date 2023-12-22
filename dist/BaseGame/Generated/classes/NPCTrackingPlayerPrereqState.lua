@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCTrackingPlayerPrereqState: gamePrereqState
----@field public ["listener"] PuppetListener
+---@field public listener PuppetListener
 NPCTrackingPlayerPrereqState = {}
 
 ---@param fields? table

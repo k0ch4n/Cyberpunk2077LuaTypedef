@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MinotaurOnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public ["owner"] NPCPuppet
----@field private ["minotaurMechComponent"] MinotaurMechComponent
+---@field public owner NPCPuppet
+---@field private minotaurMechComponent MinotaurMechComponent
 MinotaurOnStatusEffectAppliedListener = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitIndicatorWeaponZoomListener: gameScriptStatsListener
----@field public ["gameController"] TargetHitIndicatorGameController
+---@field public gameController TargetHitIndicatorGameController
 HitIndicatorWeaponZoomListener = {}
 
 ---@param fields? table

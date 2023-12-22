@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class QuickSlotButtonHoldEndEvent: redEvent
----@field public ["dPadItemDirection"] EDPadSlot
----@field public ["rightStickAngle"] Float
----@field public ["tryExecuteCommand"] Bool
+---@field public dPadItemDirection EDPadSlot
+---@field public rightStickAngle Float
+---@field public tryExecuteCommand Bool
 QuickSlotButtonHoldEndEvent = {}
 
 ---@param fields? table

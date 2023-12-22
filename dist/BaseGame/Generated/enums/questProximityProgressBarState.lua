@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questProximityProgressBarState: Enum
----@field ["None"] questProximityProgressBarState 0
----@field ["Active"] questProximityProgressBarState 1
----@field ["Inactive"] questProximityProgressBarState 2
----@field ["Complete"] questProximityProgressBarState 3
+---@field None 0
+---@field Active 1
+---@field Inactive 2
+---@field Complete 3
 questProximityProgressBarState = {}

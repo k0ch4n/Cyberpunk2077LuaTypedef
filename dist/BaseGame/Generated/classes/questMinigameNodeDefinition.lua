@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questMinigameNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["start"] Bool
----@field public ["skipSummaryScreen"] Bool
----@field public ["networkRef"] gameEntityReference
+---@field public start Bool
+---@field public skipSummaryScreen Bool
+---@field public networkRef gameEntityReference
 questMinigameNodeDefinition = {}
 
 ---@param fields? table

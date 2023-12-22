@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CheckFreeWorkspot: AIbehaviorconditionScript
----@field public ["AIAction"] gamedataWorkspotActionType
----@field public ["workspotObject"] gameObject
----@field public ["workspotData"] WorkspotEntryData
----@field public ["globalRef"] worldGlobalNodeRef
+---@field public AIAction gamedataWorkspotActionType
+---@field public workspotObject gameObject
+---@field public workspotData WorkspotEntryData
+---@field public globalRef worldGlobalNodeRef
 CheckFreeWorkspot = {}
 
 ---@param fields? table

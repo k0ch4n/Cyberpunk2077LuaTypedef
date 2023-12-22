@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionSlideToObjectNodeDefinition: AIbehaviorActionSlideNodeDefinition
----@field public ["destination"] AIArgumentMapping
----@field public ["offset"] AIArgumentMapping
+---@field public destination AIArgumentMapping
+---@field public offset AIArgumentMapping
 AIbehaviorActionSlideToObjectNodeDefinition = {}
 
 ---@param fields? table

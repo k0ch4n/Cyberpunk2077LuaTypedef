@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_VisionModeDef: gamebbScriptDefinition
----@field public ["isEnabled"] gamebbScriptID_Bool
+---@field public isEnabled gamebbScriptID_Bool
 UI_VisionModeDef = {}
 
 ---@param fields? table

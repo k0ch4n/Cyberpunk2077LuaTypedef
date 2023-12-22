@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EffectExecutor_SendActionSignal: gameEffectExecutor_Scripted
----@field public ["signalName"] CName
----@field public ["signalDuration"] Float
+---@field public signalName CName
+---@field public signalDuration Float
 EffectExecutor_SendActionSignal = {}
 
 ---@param fields? table

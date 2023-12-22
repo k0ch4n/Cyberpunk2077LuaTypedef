@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class QuestListFilterButtonController: inkWidgetLogicController
----@field public ["icon"] inkImageWidgetReference
----@field public ["counter"] inkTextWidgetReference
----@field public ["filterType"] QuestListItemType
----@field public ["hovered"] Bool
----@field public ["active"] Bool
+---@field public icon inkImageWidgetReference
+---@field public counter inkTextWidgetReference
+---@field public filterType QuestListItemType
+---@field public hovered Bool
+---@field public active Bool
 QuestListFilterButtonController = {}
 
 ---@param fields? table

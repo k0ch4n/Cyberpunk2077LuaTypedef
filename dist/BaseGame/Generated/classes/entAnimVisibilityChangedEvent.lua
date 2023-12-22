@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimVisibilityChangedEvent: redEvent
----@field public ["isVisible"] Bool
+---@field public isVisible Bool
 entAnimVisibilityChangedEvent = {}
 
 ---@param fields? table

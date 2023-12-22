@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_NotificationsDef: gamebbScriptDefinition
----@field public ["WarningMessage"] gamebbScriptID_Variant
----@field public ["OnscreenMessage"] gamebbScriptID_Variant
+---@field public WarningMessage gamebbScriptID_Variant
+---@field public OnscreenMessage gamebbScriptID_Variant
 UI_NotificationsDef = {}
 
 ---@param fields? table

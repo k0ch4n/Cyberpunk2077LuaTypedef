@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entMusicSyncEvent: redEvent
----@field public ["syncType"] audioMusicSyncType
----@field public ["syncParameter"] Float
+---@field public syncType audioMusicSyncType
+---@field public syncParameter Float
 entMusicSyncEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckPhaseState: AIbehaviorconditionScript
----@field public ["phaseStateValue"] ENPCPhaseState
+---@field public phaseStateValue ENPCPhaseState
 CheckPhaseState = {}
 
 ---@param fields? table

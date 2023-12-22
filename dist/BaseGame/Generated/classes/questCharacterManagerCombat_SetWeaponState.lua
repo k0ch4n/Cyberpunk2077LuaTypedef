@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerCombat_SetWeaponState: questICharacterManagerCombat_NodeSubType
----@field public ["areaType"] gameCityAreaType
+---@field public areaType gameCityAreaType
 questCharacterManagerCombat_SetWeaponState = {}
 
 ---@param fields? table

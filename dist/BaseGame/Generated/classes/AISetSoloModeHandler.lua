@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetSoloModeHandler: AIbehaviortaskScript
----@field public ["inCommand"] AIArgumentMapping
+---@field public inCommand AIArgumentMapping
 AISetSoloModeHandler = {}
 
 ---@param fields? table

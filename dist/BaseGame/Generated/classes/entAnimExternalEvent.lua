@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAnimExternalEvent: redEvent
----@field public ["name"] CName
+---@field public name CName
 entAnimExternalEvent = {}
 
 ---@param fields? table

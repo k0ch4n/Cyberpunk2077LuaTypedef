@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InitializeFocusCluesEvent: redEvent
----@field public ["requesterID"] entEntityID
+---@field public requesterID entEntityID
 InitializeFocusCluesEvent = {}
 
 ---@param fields? table

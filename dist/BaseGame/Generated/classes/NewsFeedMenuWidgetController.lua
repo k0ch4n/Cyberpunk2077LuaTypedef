@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class NewsFeedMenuWidgetController: inkWidgetLogicController
----@field protected ["bannersListWidgetPath"] CName
----@field protected ["bannersListWidget"] inkWidgetReference
----@field protected ["isInitialized"] Bool
----@field private ["bannerWidgetsData"] SBannerWidgetPackage[]
----@field protected ["fullBannerWidgetData"] SBannerWidgetPackage
+---@field protected bannersListWidgetPath CName
+---@field protected bannersListWidget inkWidgetReference
+---@field protected isInitialized Bool
+---@field private bannerWidgetsData SBannerWidgetPackage[]
+---@field protected fullBannerWidgetData SBannerWidgetPackage
 NewsFeedMenuWidgetController = {}
 
 ---@param fields? table

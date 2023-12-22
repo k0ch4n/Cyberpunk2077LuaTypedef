@@ -2,73 +2,73 @@
 ---@diagnostic disable
 
 ---@class GpuWrapApieTextureFormat: Enum
----@field ["TEXFMT_A8_Unorm"] GpuWrapApieTextureFormat 0
----@field ["TEXFMT_R8_Unorm"] GpuWrapApieTextureFormat 1
----@field ["TEXFMT_L8_Unorm"] GpuWrapApieTextureFormat 2
----@field ["TEXFMT_R8G8_Unorm"] GpuWrapApieTextureFormat 3
----@field ["TEXFMT_R8G8B8X8_Unorm"] GpuWrapApieTextureFormat 4
----@field ["TEXFMT_R8G8B8A8_Unorm"] GpuWrapApieTextureFormat 5
----@field ["TEXFMT_R8G8B8A8_Unorm_SRGB"] GpuWrapApieTextureFormat 40
----@field ["TEXFMT_R8G8B8A8_Snorm"] GpuWrapApieTextureFormat 6
----@field ["TEXFMT_B8G8R8A8"] GpuWrapApieTextureFormat 50
----@field ["TEXFMT_B8G8R8A8_SRGB"] GpuWrapApieTextureFormat 51
----@field ["TEXFMT_R16_Unorm"] GpuWrapApieTextureFormat 7
----@field ["TEXFMT_R16_Snorm"] GpuWrapApieTextureFormat 49
----@field ["TEXFMT_R16_Uint"] GpuWrapApieTextureFormat 8
----@field ["TEXFMT_R32_Uint"] GpuWrapApieTextureFormat 9
----@field ["TEXFMT_R32G32B32A32_Uint"] GpuWrapApieTextureFormat 10
----@field ["TEXFMT_R32G32_Uint"] GpuWrapApieTextureFormat 11
----@field ["TEXFMT_R16G16B16A16_Unorm"] GpuWrapApieTextureFormat 12
----@field ["TEXFMT_R16G16B16A16_Uint"] GpuWrapApieTextureFormat 14
----@field ["TEXFMT_R16G16_Uint"] GpuWrapApieTextureFormat 15
----@field ["TEXFMT_R10G10B10A2_Unorm"] GpuWrapApieTextureFormat 16
----@field ["TEXFMT_R16G16B16A16_Float"] GpuWrapApieTextureFormat 17
----@field ["TEXFMT_R11G11B10_Float"] GpuWrapApieTextureFormat 18
----@field ["TEXFMT_R16G16_Float"] GpuWrapApieTextureFormat 19
----@field ["TEXFMT_R32G32_Float"] GpuWrapApieTextureFormat 20
----@field ["TEXFMT_R32G32B32A32_Float"] GpuWrapApieTextureFormat 21
----@field ["TEXFMT_R32_Float"] GpuWrapApieTextureFormat 22
----@field ["TEXFMT_R16_Float"] GpuWrapApieTextureFormat 23
----@field ["TEXFMT_D24S8"] GpuWrapApieTextureFormat 24
----@field ["TEXFMT_D32FS8"] GpuWrapApieTextureFormat 25
----@field ["TEXFMT_D32F"] GpuWrapApieTextureFormat 27
----@field ["TEXFMT_D16U"] GpuWrapApieTextureFormat 28
----@field ["TEXFMT_BC1"] GpuWrapApieTextureFormat 29
----@field ["TEXFMT_BC1_SRGB"] GpuWrapApieTextureFormat 41
----@field ["TEXFMT_BC2"] GpuWrapApieTextureFormat 30
----@field ["TEXFMT_BC2_SRGB"] GpuWrapApieTextureFormat 42
----@field ["TEXFMT_BC3"] GpuWrapApieTextureFormat 31
----@field ["TEXFMT_BC3_SRGB"] GpuWrapApieTextureFormat 43
----@field ["TEXFMT_BC4"] GpuWrapApieTextureFormat 32
----@field ["TEXFMT_BC5"] GpuWrapApieTextureFormat 33
----@field ["TEXFMT_BC6H_UNSIGNED"] GpuWrapApieTextureFormat 34
----@field ["TEXFMT_BC6H_SIGNED"] GpuWrapApieTextureFormat 35
----@field ["TEXFMT_BC7"] GpuWrapApieTextureFormat 36
----@field ["TEXFMT_BC7_SRGB"] GpuWrapApieTextureFormat 37
----@field ["TEXFMT_R8_Uint"] GpuWrapApieTextureFormat 38
----@field ["TEXFMT_R16G16_Unorm"] GpuWrapApieTextureFormat 44
----@field ["TEXFMT_R16G16_Sint"] GpuWrapApieTextureFormat 45
----@field ["TEXFMT_R16G16_Snorm"] GpuWrapApieTextureFormat 46
----@field ["TEXFMT_B5G6R5_Unorm"] GpuWrapApieTextureFormat 47
----@field ["TEXFMT_A8"] GpuWrapApieTextureFormat 0
----@field ["TEXFMT_R8"] GpuWrapApieTextureFormat 1
----@field ["TEXFMT_L8"] GpuWrapApieTextureFormat 2
----@field ["TEXFMT_R8G8"] GpuWrapApieTextureFormat 3
----@field ["TEXFMT_R8G8B8X8"] GpuWrapApieTextureFormat 4
----@field ["TEXFMT_R8G8B8A8"] GpuWrapApieTextureFormat 5
----@field ["TEXFMT_R8G8B8A8"] GpuWrapApieTextureFormat 40
----@field ["TEXFMT_Uint_16_norm"] GpuWrapApieTextureFormat 7
----@field ["TEXFMT_Uint_16"] GpuWrapApieTextureFormat 8
----@field ["TEXFMT_Uint_32"] GpuWrapApieTextureFormat 9
----@field ["TEXFMT_Uint_R32G32B32A32"] GpuWrapApieTextureFormat 10
----@field ["TEXFMT_Uint_R32G32B32A32"] GpuWrapApieTextureFormat 14
----@field ["TEXFMT_R10G10B10A2"] GpuWrapApieTextureFormat 16
----@field ["TEXFMT_Float_R16G16B16A16"] GpuWrapApieTextureFormat 17
----@field ["TEXFMT_Float_R11G11B10"] GpuWrapApieTextureFormat 18
----@field ["TEXFMT_Float_R16G16"] GpuWrapApieTextureFormat 19
----@field ["TEXFMT_Float_R32G32"] GpuWrapApieTextureFormat 20
----@field ["TEXFMT_Float_R32G32B32A32"] GpuWrapApieTextureFormat 21
----@field ["TEXFMT_Float_R32"] GpuWrapApieTextureFormat 22
----@field ["TEXFMT_Float_R16"] GpuWrapApieTextureFormat 23
----@field ["TEXFMT_BC6H"] GpuWrapApieTextureFormat 34
+---@field TEXFMT_A8_Unorm 0
+---@field TEXFMT_R8_Unorm 1
+---@field TEXFMT_L8_Unorm 2
+---@field TEXFMT_R8G8_Unorm 3
+---@field TEXFMT_R8G8B8X8_Unorm 4
+---@field TEXFMT_R8G8B8A8_Unorm 5
+---@field TEXFMT_R8G8B8A8_Unorm_SRGB 40
+---@field TEXFMT_R8G8B8A8_Snorm 6
+---@field TEXFMT_B8G8R8A8 50
+---@field TEXFMT_B8G8R8A8_SRGB 51
+---@field TEXFMT_R16_Unorm 7
+---@field TEXFMT_R16_Snorm 49
+---@field TEXFMT_R16_Uint 8
+---@field TEXFMT_R32_Uint 9
+---@field TEXFMT_R32G32B32A32_Uint 10
+---@field TEXFMT_R32G32_Uint 11
+---@field TEXFMT_R16G16B16A16_Unorm 12
+---@field TEXFMT_R16G16B16A16_Uint 14
+---@field TEXFMT_R16G16_Uint 15
+---@field TEXFMT_R10G10B10A2_Unorm 16
+---@field TEXFMT_R16G16B16A16_Float 17
+---@field TEXFMT_R11G11B10_Float 18
+---@field TEXFMT_R16G16_Float 19
+---@field TEXFMT_R32G32_Float 20
+---@field TEXFMT_R32G32B32A32_Float 21
+---@field TEXFMT_R32_Float 22
+---@field TEXFMT_R16_Float 23
+---@field TEXFMT_D24S8 24
+---@field TEXFMT_D32FS8 25
+---@field TEXFMT_D32F 27
+---@field TEXFMT_D16U 28
+---@field TEXFMT_BC1 29
+---@field TEXFMT_BC1_SRGB 41
+---@field TEXFMT_BC2 30
+---@field TEXFMT_BC2_SRGB 42
+---@field TEXFMT_BC3 31
+---@field TEXFMT_BC3_SRGB 43
+---@field TEXFMT_BC4 32
+---@field TEXFMT_BC5 33
+---@field TEXFMT_BC6H_UNSIGNED 34
+---@field TEXFMT_BC6H_SIGNED 35
+---@field TEXFMT_BC7 36
+---@field TEXFMT_BC7_SRGB 37
+---@field TEXFMT_R8_Uint 38
+---@field TEXFMT_R16G16_Unorm 44
+---@field TEXFMT_R16G16_Sint 45
+---@field TEXFMT_R16G16_Snorm 46
+---@field TEXFMT_B5G6R5_Unorm 47
+---@field TEXFMT_A8 0
+---@field TEXFMT_R8 1
+---@field TEXFMT_L8 2
+---@field TEXFMT_R8G8 3
+---@field TEXFMT_R8G8B8X8 4
+---@field TEXFMT_R8G8B8A8 5
+---@field TEXFMT_R8G8B8A8 40
+---@field TEXFMT_Uint_16_norm 7
+---@field TEXFMT_Uint_16 8
+---@field TEXFMT_Uint_32 9
+---@field TEXFMT_Uint_R32G32B32A32 10
+---@field TEXFMT_Uint_R32G32B32A32 14
+---@field TEXFMT_R10G10B10A2 16
+---@field TEXFMT_Float_R16G16B16A16 17
+---@field TEXFMT_Float_R11G11B10 18
+---@field TEXFMT_Float_R16G16 19
+---@field TEXFMT_Float_R32G32 20
+---@field TEXFMT_Float_R32G32B32A32 21
+---@field TEXFMT_Float_R32 22
+---@field TEXFMT_Float_R16 23
+---@field TEXFMT_BC6H 34
 GpuWrapApieTextureFormat = {}

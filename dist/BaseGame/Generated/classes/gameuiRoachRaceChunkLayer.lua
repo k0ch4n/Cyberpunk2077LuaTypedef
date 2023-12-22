@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiRoachRaceChunkLayer
----@field public ["chunks"] gameuiRoachRaceChunk[]
+---@field public chunks gameuiRoachRaceChunk[]
 gameuiRoachRaceChunkLayer = {}
 
 ---@param fields? table

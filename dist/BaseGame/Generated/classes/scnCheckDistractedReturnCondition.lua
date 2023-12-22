@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckDistractedReturnCondition: scnIReturnCondition
----@field public ["params"] scnCheckDistractedReturnConditionParams
+---@field public params scnCheckDistractedReturnConditionParams
 scnCheckDistractedReturnCondition = {}
 
 ---@param fields? table

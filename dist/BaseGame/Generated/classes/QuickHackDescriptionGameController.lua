@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class QuickHackDescriptionGameController: BaseChunkGameController
----@field private ["subHeader"] inkTextWidgetReference
----@field private ["tier"] inkTextWidgetReference
----@field private ["description"] inkTextWidgetReference
----@field private ["recompileTimer"] inkTextWidgetReference
----@field private ["duration"] inkTextWidgetReference
----@field private ["durationRoot"] inkWidgetReference
----@field private ["cooldown"] inkTextWidgetReference
----@field private ["cooldownRoot"] inkWidgetReference
----@field private ["uploadTime"] inkTextWidgetReference
----@field private ["uploadTimeRoot"] inkWidgetReference
----@field private ["memoryCost"] inkTextWidgetReference
----@field private ["memoryRawCost"] inkTextWidgetReference
----@field private ["categoryText"] inkTextWidgetReference
----@field private ["categoryContainer"] inkWidgetReference
----@field private ["damageWrapper"] inkWidgetReference
----@field private ["damageLabel"] inkTextWidgetReference
----@field private ["damageValue"] inkTextWidgetReference
----@field private ["healthPercentageLabel"] inkTextWidgetReference
----@field private ["effectsList"] inkCompoundWidgetReference
----@field private ["quickHackDataCallbackID"] redCallbackObject
----@field private ["selectedData"] QuickhackData
----@field private ["player"] PlayerPuppet
----@field private ["equippedQuickHackData"] EquippedQuickHackData
----@field private ["uiScriptableSystem"] UIScriptableSystem
+---@field private subHeader inkTextWidgetReference
+---@field private tier inkTextWidgetReference
+---@field private description inkTextWidgetReference
+---@field private recompileTimer inkTextWidgetReference
+---@field private duration inkTextWidgetReference
+---@field private durationRoot inkWidgetReference
+---@field private cooldown inkTextWidgetReference
+---@field private cooldownRoot inkWidgetReference
+---@field private uploadTime inkTextWidgetReference
+---@field private uploadTimeRoot inkWidgetReference
+---@field private memoryCost inkTextWidgetReference
+---@field private memoryRawCost inkTextWidgetReference
+---@field private categoryText inkTextWidgetReference
+---@field private categoryContainer inkWidgetReference
+---@field private damageWrapper inkWidgetReference
+---@field private damageLabel inkTextWidgetReference
+---@field private damageValue inkTextWidgetReference
+---@field private healthPercentageLabel inkTextWidgetReference
+---@field private effectsList inkCompoundWidgetReference
+---@field private quickHackDataCallbackID redCallbackObject
+---@field private selectedData QuickhackData
+---@field private player PlayerPuppet
+---@field private equippedQuickHackData EquippedQuickHackData
+---@field private uiScriptableSystem UIScriptableSystem
 QuickHackDescriptionGameController = {}
 
 ---@param fields? table

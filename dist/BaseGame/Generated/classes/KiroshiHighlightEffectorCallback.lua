@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KiroshiHighlightEffectorCallback: gameAttachmentSlotsScriptCallback
----@field public ["effector"] KiroshiHighlightEffector
+---@field public effector KiroshiHighlightEffector
 KiroshiHighlightEffectorCallback = {}
 
 ---@param fields? table

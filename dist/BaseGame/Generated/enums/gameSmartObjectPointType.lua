@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectPointType: Enum
----@field ["Entry"] gameSmartObjectPointType 0
----@field ["Exit"] gameSmartObjectPointType 1
----@field ["Action"] gameSmartObjectPointType 2
+---@field Entry 0
+---@field Exit 1
+---@field Action 2
 gameSmartObjectPointType = {}

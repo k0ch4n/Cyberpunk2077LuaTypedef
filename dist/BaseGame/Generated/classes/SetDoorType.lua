@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetDoorType: redEvent
----@field public ["doorTypeSideOne"] EDoorType
----@field public ["doorTypeSideTwo"] EDoorType
+---@field public doorTypeSideOne EDoorType
+---@field public doorTypeSideTwo EDoorType
 SetDoorType = {}
 
 ---@param fields? table

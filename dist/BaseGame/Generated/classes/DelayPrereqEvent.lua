@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DelayPrereqEvent: redEvent
----@field public ["state"] GameTimePrereqState
+---@field public state GameTimePrereqState
 DelayPrereqEvent = {}
 
 ---@param fields? table

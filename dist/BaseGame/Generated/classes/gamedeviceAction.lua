@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedeviceAction: redEvent
----@field public ["actionName"] CName
----@field public ["clearanceLevel"] Int32
----@field public ["localizedObjectName"] String
----@field public ["paymentQuantity"] Int32
+---@field public actionName CName
+---@field public clearanceLevel Int32
+---@field public localizedObjectName String
+---@field public paymentQuantity Int32
 gamedeviceAction = {}
 
 ---@param fields? table

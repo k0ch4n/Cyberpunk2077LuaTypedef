@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnEndNodeNsType: Enum
----@field ["Terminating"] scnEndNodeNsType 0
----@field ["NonTerminating"] scnEndNodeNsType 1
+---@field Terminating 0
+---@field NonTerminating 1
 scnEndNodeNsType = {}

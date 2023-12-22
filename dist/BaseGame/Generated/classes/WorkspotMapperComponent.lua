@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WorkspotMapperComponent: gameScriptableComponent
----@field public ["workspotsMap"] WorkspotMapData[]
+---@field public workspotsMap WorkspotMapData[]
 WorkspotMapperComponent = {}
 
 ---@param fields? table

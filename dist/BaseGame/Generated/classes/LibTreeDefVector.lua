@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefVector
----@field public ["variableId"] Uint16
----@field public ["treeVariable"] CName
----@field public ["v"] Vector3
+---@field public variableId Uint16
+---@field public treeVariable CName
+---@field public v Vector3
 LibTreeDefVector = {}
 
 ---@param fields? table

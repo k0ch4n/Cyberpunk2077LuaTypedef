@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ActionTargetPrereq: gameIScriptablePrereq
----@field public ["targetRecord"] gamedataAIActionTarget_Record
----@field public ["invert"] Bool
+---@field public targetRecord gamedataAIActionTarget_Record
+---@field public invert Bool
 ActionTargetPrereq = {}
 
 ---@param fields? table

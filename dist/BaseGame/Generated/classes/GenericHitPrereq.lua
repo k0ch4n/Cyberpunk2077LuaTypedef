@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class GenericHitPrereq: gameIScriptablePrereq
----@field public ["isSync"] Bool
----@field public ["processMiss"] Bool
----@field public ["callbackType"] gameDamageCallbackType
----@field public ["pipelineStage"] gameDamagePipelineStage
----@field public ["pipelineType"] gameDamageListenerPipelineType
----@field public ["attackType"] gamedataAttackType
----@field public ["conditions"] BaseHitPrereqCondition[]
----@field public ["ignoreSelfInflictedPressureWave"] Bool
+---@field public isSync Bool
+---@field public processMiss Bool
+---@field public callbackType gameDamageCallbackType
+---@field public pipelineStage gameDamagePipelineStage
+---@field public pipelineType gameDamageListenerPipelineType
+---@field public attackType gamedataAttackType
+---@field public conditions BaseHitPrereqCondition[]
+---@field public ignoreSelfInflictedPressureWave Bool
 GenericHitPrereq = {}
 
 ---@param fields? table

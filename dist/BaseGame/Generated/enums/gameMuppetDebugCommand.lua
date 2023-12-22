@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetDebugCommand: Enum
----@field ["None"] gameMuppetDebugCommand 0
----@field ["Kill"] gameMuppetDebugCommand 1
----@field ["KillAll"] gameMuppetDebugCommand 2
+---@field None 0
+---@field Kill 1
+---@field KillAll 2
 gameMuppetDebugCommand = {}

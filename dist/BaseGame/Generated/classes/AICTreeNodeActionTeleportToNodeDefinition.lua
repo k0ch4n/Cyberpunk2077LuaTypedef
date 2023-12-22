@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AICTreeNodeActionTeleportToNodeDefinition: AICTreeNodeActionDefinition
----@field public ["nodeRef"] LibTreeDefNodeRef
----@field public ["offset"] LibTreeDefVector
----@field public ["doNavTest"] Bool
+---@field public nodeRef LibTreeDefNodeRef
+---@field public offset LibTreeDefVector
+---@field public doNavTest Bool
 AICTreeNodeActionTeleportToNodeDefinition = {}
 
 ---@param fields? table

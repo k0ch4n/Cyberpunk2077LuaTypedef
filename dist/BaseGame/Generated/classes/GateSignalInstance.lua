@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GateSignalInstance
----@field public ["gateSignal"] GateSignal
----@field public ["timeStamp"] Float
----@field public ["consumeTags"] CName[]
+---@field public gateSignal GateSignal
+---@field public timeStamp Float
+---@field public consumeTags CName[]
 GateSignalInstance = {}
 
 ---@param fields? table

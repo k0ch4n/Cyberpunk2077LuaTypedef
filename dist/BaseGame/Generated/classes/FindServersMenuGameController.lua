@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class FindServersMenuGameController: PreGameSubMenuGameController
----@field private ["serversListCtrl"] inkListController
----@field private ["NONE_CHOOSEN"] Int32
----@field private ["curentlyChoosenServer"] Int32
----@field private ["LANStatusLabel"] inkTextWidget
----@field private ["WEBStatusLabel"] inkTextWidget
----@field private ["c_onlineColor"] Color
----@field private ["c_offlineColor"] Color
----@field private ["token"] inkTextWidget
+---@field private serversListCtrl inkListController
+---@field private NONE_CHOOSEN Int32
+---@field private curentlyChoosenServer Int32
+---@field private LANStatusLabel inkTextWidget
+---@field private WEBStatusLabel inkTextWidget
+---@field private c_onlineColor Color
+---@field private c_offlineColor Color
+---@field private token inkTextWidget
 FindServersMenuGameController = {}
 
 ---@param fields? table

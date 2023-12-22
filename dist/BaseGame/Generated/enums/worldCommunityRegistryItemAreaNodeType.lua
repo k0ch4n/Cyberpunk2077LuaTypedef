@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldCommunityRegistryItemAreaNodeType: Enum
----@field ["Regular"] worldCommunityRegistryItemAreaNodeType 0
----@field ["Streamable"] worldCommunityRegistryItemAreaNodeType 1
----@field ["Background"] worldCommunityRegistryItemAreaNodeType 2
----@field ["Count"] worldCommunityRegistryItemAreaNodeType 3
+---@field Regular 0
+---@field Streamable 1
+---@field Background 2
+---@field Count 3
 worldCommunityRegistryItemAreaNodeType = {}

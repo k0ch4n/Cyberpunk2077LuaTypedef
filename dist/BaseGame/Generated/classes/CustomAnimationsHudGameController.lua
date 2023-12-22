@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class CustomAnimationsHudGameController: gameuiHUDGameController
----@field protected ["customAnimations"] WidgetAnimationManager
----@field protected ["onSpawnAnimations"] CName[]
----@field protected ["defaultLibraryItemName"] CName
----@field protected ["defaultLibraryItemAnchor"] inkEAnchor
----@field protected ["spawnedLibrararyItem"] inkWidget
----@field protected ["curentLibraryItemName"] CName
----@field protected ["currentLibraryItemAnchor"] inkEAnchor
----@field protected ["root"] inkCompoundWidget
----@field protected ["isInitialized"] Bool
----@field private ["ownerID"] entEntityID
+---@field protected customAnimations WidgetAnimationManager
+---@field protected onSpawnAnimations CName[]
+---@field protected defaultLibraryItemName CName
+---@field protected defaultLibraryItemAnchor inkEAnchor
+---@field protected spawnedLibrararyItem inkWidget
+---@field protected curentLibraryItemName CName
+---@field protected currentLibraryItemAnchor inkEAnchor
+---@field protected root inkCompoundWidget
+---@field protected isInitialized Bool
+---@field private ownerID entEntityID
 CustomAnimationsHudGameController = {}
 
 ---@param fields? table

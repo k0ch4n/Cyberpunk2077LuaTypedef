@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerAIDirectorNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["params"] questMultiplayerAIDirectorParams
+---@field public params questMultiplayerAIDirectorParams
 questMultiplayerAIDirectorNodeDefinition = {}
 
 ---@param fields? table

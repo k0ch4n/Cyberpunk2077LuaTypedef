@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PocketRadioQuestContentLockListener: questScriptQuestContentLockListener
----@field private ["pocketRadio"] PocketRadio
+---@field private pocketRadio PocketRadio
 PocketRadioQuestContentLockListener = {}
 
 ---@param fields? table

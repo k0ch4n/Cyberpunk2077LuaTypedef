@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIActionHelperTask: AIbehaviortaskScript
----@field public ["actionTweakIDMapping"] AIArgumentMapping
----@field private ["actionStringName"] String
----@field private ["initialized"] Bool
----@field private ["actionName"] CName
----@field private ["actionID"] TweakDBID
+---@field public actionTweakIDMapping AIArgumentMapping
+---@field private actionStringName String
+---@field private initialized Bool
+---@field private actionName CName
+---@field private actionID TweakDBID
 AIActionHelperTask = {}
 
 ---@protected

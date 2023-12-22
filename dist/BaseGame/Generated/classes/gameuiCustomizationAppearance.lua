@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiCustomizationAppearance: gameuiCensorshipInfo
----@field public ["name"] CName
----@field public ["resource"] appearanceAppearanceResource
----@field public ["definition"] CName
+---@field public name CName
+---@field public resource appearanceAppearanceResource
+---@field public definition CName
 gameuiCustomizationAppearance = {}
 
 ---@param fields? table

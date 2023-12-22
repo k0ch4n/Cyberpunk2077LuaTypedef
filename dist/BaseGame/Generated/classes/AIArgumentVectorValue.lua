@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentVectorValue: AIArgumentDefinition
----@field public ["type"] AIArgumentType
----@field public ["defaultValue"] Vector3
+---@field public type AIArgumentType
+---@field public defaultValue Vector3
 AIArgumentVectorValue = {}
 
 ---@param fields? table

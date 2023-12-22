@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class AIMoveToCommandHandler: AICommandHandlerBase
----@field protected ["outIsDynamicMove"] AIArgumentMapping
----@field protected ["outMovementTarget"] AIArgumentMapping
----@field protected ["outMovementTargetPos"] AIArgumentMapping
----@field protected ["outRotateEntityTowardsFacingTarget"] AIArgumentMapping
----@field protected ["outFacingTarget"] AIArgumentMapping
----@field protected ["outMovementType"] AIArgumentMapping
----@field protected ["outIgnoreNavigation"] AIArgumentMapping
----@field protected ["outUseStart"] AIArgumentMapping
----@field protected ["outUseStop"] AIArgumentMapping
----@field protected ["outDesiredDistanceFromTarget"] AIArgumentMapping
----@field protected ["outFinishWhenDestinationReached"] AIArgumentMapping
+---@field protected outIsDynamicMove AIArgumentMapping
+---@field protected outMovementTarget AIArgumentMapping
+---@field protected outMovementTargetPos AIArgumentMapping
+---@field protected outRotateEntityTowardsFacingTarget AIArgumentMapping
+---@field protected outFacingTarget AIArgumentMapping
+---@field protected outMovementType AIArgumentMapping
+---@field protected outIgnoreNavigation AIArgumentMapping
+---@field protected outUseStart AIArgumentMapping
+---@field protected outUseStop AIArgumentMapping
+---@field protected outDesiredDistanceFromTarget AIArgumentMapping
+---@field protected outFinishWhenDestinationReached AIArgumentMapping
 AIMoveToCommandHandler = {}
 
 ---@param fields? table

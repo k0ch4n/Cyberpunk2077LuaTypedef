@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIFSMEventTransitionsListDefinition
----@field public ["eventName"] CName
----@field public ["transitions"] AIFSMTransitionListDefinition
+---@field public eventName CName
+---@field public transitions AIFSMTransitionListDefinition
 AIFSMEventTransitionsListDefinition = {}
 
 ---@param fields? table

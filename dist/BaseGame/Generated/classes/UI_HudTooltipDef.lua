@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UI_HudTooltipDef: gamebbScriptDefinition
----@field public ["ItemId"] gamebbScriptID_Variant
----@field public ["ShowTooltip"] gamebbScriptID_Bool
+---@field public ItemId gamebbScriptID_Variant
+---@field public ShowTooltip gamebbScriptID_Bool
 UI_HudTooltipDef = {}
 
 ---@param fields? table

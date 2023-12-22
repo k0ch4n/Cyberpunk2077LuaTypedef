@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BaseAnimatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field private ["isActive"] Bool
----@field protected ["hasInteraction"] Bool
----@field protected ["randomizeAnimationTime"] Bool
----@field protected ["nameForActivation"] TweakDBID
----@field protected ["nameForDeactivation"] TweakDBID
+---@field private isActive Bool
+---@field protected hasInteraction Bool
+---@field protected randomizeAnimationTime Bool
+---@field protected nameForActivation TweakDBID
+---@field protected nameForDeactivation TweakDBID
 BaseAnimatedDeviceControllerPS = {}
 
 ---@param fields? table

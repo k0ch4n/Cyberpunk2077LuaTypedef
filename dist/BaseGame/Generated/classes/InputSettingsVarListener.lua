@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InputSettingsVarListener: userSettingsVarListener
----@field private ["ctrl"] gameuiControllerSettingsGameController
+---@field private ctrl gameuiControllerSettingsGameController
 InputSettingsVarListener = {}
 
 ---@param fields? table

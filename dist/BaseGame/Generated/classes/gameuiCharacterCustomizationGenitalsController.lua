@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationGenitalsController: gameuiCharacterCustomizationBodyPartsController
----@field public ["upperBodyGroupName"] CName
----@field public ["bottomBodyGroupName"] CName
----@field public ["forceHideGenitals"] Bool
+---@field public upperBodyGroupName CName
+---@field public bottomBodyGroupName CName
+---@field public forceHideGenitals Bool
 gameuiCharacterCustomizationGenitalsController = {}
 
 ---@param fields? table

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class EMeleeAttackType: Enum
----@field ["Combo"] EMeleeAttackType 0
----@field ["Strong"] EMeleeAttackType 1
----@field ["Final"] EMeleeAttackType 2
----@field ["Block"] EMeleeAttackType 3
----@field ["Safe"] EMeleeAttackType 4
----@field ["Slide"] EMeleeAttackType 5
----@field ["Crouch"] EMeleeAttackType 6
----@field ["Jump"] EMeleeAttackType 7
----@field ["Sprint"] EMeleeAttackType 8
----@field ["Fall"] EMeleeAttackType 9
----@field ["Throw"] EMeleeAttackType 10
----@field ["Dodge"] EMeleeAttackType 11
----@field ["Equip"] EMeleeAttackType 12
+---@field Combo 0
+---@field Strong 1
+---@field Final 2
+---@field Block 3
+---@field Safe 4
+---@field Slide 5
+---@field Crouch 6
+---@field Jump 7
+---@field Sprint 8
+---@field Fall 9
+---@field Throw 10
+---@field Dodge 11
+---@field Equip 12
 EMeleeAttackType = {}

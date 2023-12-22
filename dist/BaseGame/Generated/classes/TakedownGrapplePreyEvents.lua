@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TakedownGrapplePreyEvents: LocomotionTakedownEvents
----@field public ["isGrappleReactionVOPlayed"] Bool
+---@field public isGrappleReactionVOPlayed Bool
 TakedownGrapplePreyEvents = {}
 
 ---@param fields? table

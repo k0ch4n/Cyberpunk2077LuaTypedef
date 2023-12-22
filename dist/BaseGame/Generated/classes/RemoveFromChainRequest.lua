@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveFromChainRequest: gameScriptableSystemRequest
----@field public ["requestSource"] entEntityID
+---@field public requestSource entEntityID
 RemoveFromChainRequest = {}
 
 ---@param fields? table

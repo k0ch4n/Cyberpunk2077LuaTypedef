@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCRecordHasVisualTag: gameIScriptablePrereq
----@field public ["visualTag"] CName
----@field public ["hasTag"] Bool
+---@field public visualTag CName
+---@field public hasTag Bool
 NPCRecordHasVisualTag = {}
 
 ---@param fields? table

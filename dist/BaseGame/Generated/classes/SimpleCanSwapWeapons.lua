@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SimpleCanSwapWeapons: AIbehaviorconditionScript
----@field private ["initialized"] Bool
----@field private ["result"] Bool
----@field private ["items"] gamedataNPCEquipmentItem_Record[]
+---@field private initialized Bool
+---@field private result Bool
+---@field private items gamedataNPCEquipmentItem_Record[]
 SimpleCanSwapWeapons = {}
 
 ---@param fields? table

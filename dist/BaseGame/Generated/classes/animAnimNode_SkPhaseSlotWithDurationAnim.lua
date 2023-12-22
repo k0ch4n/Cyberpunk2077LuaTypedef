@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SkPhaseSlotWithDurationAnim: animAnimNode_SkPhaseWithDurationAnim
----@field public ["animFeatureName"] CName
----@field public ["actionAnimDatabaseRef"] animActionAnimDatabase
+---@field public animFeatureName CName
+---@field public actionAnimDatabaseRef animActionAnimDatabase
 animAnimNode_SkPhaseSlotWithDurationAnim = {}
 
 ---@param fields? table

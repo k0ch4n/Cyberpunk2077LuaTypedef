@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSetInteractionVisualizerOverride: questIInteractiveObjectManagerNodeType
----@field public ["objectRef"] NodeRef
----@field public ["applyOverride"] Bool
----@field public ["removeAfterSingleUse"] Bool
+---@field public objectRef NodeRef
+---@field public applyOverride Bool
+---@field public removeAfterSingleUse Bool
 questSetInteractionVisualizerOverride = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_Stance: animAnimFeature
----@field public ["stanceState"] Int32
+---@field public stanceState Int32
 animAnimFeature_Stance = {}
 
 ---@param fields? table

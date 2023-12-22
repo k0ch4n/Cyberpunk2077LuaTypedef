@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SequenceCallback: redEvent
----@field public ["persistentID"] gamePersistentID
----@field public ["className"] CName
----@field public ["actionToForward"] ScriptableDeviceAction
+---@field public persistentID gamePersistentID
+---@field public className CName
+---@field public actionToForward ScriptableDeviceAction
 SequenceCallback = {}
 
 ---@param fields? table

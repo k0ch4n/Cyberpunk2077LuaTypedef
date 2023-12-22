@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questImpulseMagnitude: Enum
----@field ["Any"] questImpulseMagnitude 0
----@field ["Low"] questImpulseMagnitude 1
----@field ["Medium"] questImpulseMagnitude 2
----@field ["High"] questImpulseMagnitude 3
+---@field Any 0
+---@field Low 1
+---@field Medium 2
+---@field High 3
 questImpulseMagnitude = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsSimulationType: Enum
----@field ["Static"] physicsSimulationType 0
----@field ["Dynamic"] physicsSimulationType 1
----@field ["Kinematic"] physicsSimulationType 2
----@field ["Invalid"] physicsSimulationType 3
+---@field Static 0
+---@field Dynamic 1
+---@field Kinematic 2
+---@field Invalid 3
 physicsSimulationType = {}

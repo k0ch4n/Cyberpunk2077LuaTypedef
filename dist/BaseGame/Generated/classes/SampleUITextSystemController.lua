@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class SampleUITextSystemController: gameuiWidgetGameController
----@field private ["locKeyTextWidget"] inkTextWidgetReference
----@field private ["localizedTextWidget"] inkTextWidgetReference
----@field private ["textParams"] textTextParameterSet
----@field private ["numberTextWidget"] inkTextWidgetReference
----@field private ["numberIncreaseButton"] inkWidgetReference
----@field private ["numberDecreaseButton"] inkWidgetReference
----@field private ["numberToInject"] Int32
----@field private ["stringTextInputWidget"] inkTextInputWidgetReference
----@field private ["stringToInject"] String
----@field private ["timeRefreshButton"] inkWidgetReference
----@field private ["measurementWidgets"] inkWidgetReference[]
----@field private ["metricSystemButton"] inkWidgetReference
----@field private ["imperialSystemButton"] inkWidgetReference
----@field private ["animateTextOffsetButton"] inkWidgetReference
----@field private ["textOffsetWidget"] inkTextWidgetReference
----@field private ["animateTextReplaceButton"] inkWidgetReference
----@field private ["textReplaceWidget"] inkTextWidgetReference
----@field private ["animateValueButton"] inkWidgetReference
----@field private ["animateValueWidget"] inkTextWidgetReference
+---@field private locKeyTextWidget inkTextWidgetReference
+---@field private localizedTextWidget inkTextWidgetReference
+---@field private textParams textTextParameterSet
+---@field private numberTextWidget inkTextWidgetReference
+---@field private numberIncreaseButton inkWidgetReference
+---@field private numberDecreaseButton inkWidgetReference
+---@field private numberToInject Int32
+---@field private stringTextInputWidget inkTextInputWidgetReference
+---@field private stringToInject String
+---@field private timeRefreshButton inkWidgetReference
+---@field private measurementWidgets inkWidgetReference[]
+---@field private metricSystemButton inkWidgetReference
+---@field private imperialSystemButton inkWidgetReference
+---@field private animateTextOffsetButton inkWidgetReference
+---@field private textOffsetWidget inkTextWidgetReference
+---@field private animateTextReplaceButton inkWidgetReference
+---@field private textReplaceWidget inkTextWidgetReference
+---@field private animateValueButton inkWidgetReference
+---@field private animateValueWidget inkTextWidgetReference
 SampleUITextSystemController = {}
 
 ---@param fields? table

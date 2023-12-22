@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldStaticOccluderMeshNode: worldNode
----@field public ["occluderType"] visWorldOccluderType
----@field public ["color"] Color
----@field public ["autohideDistanceScale"] Uint8
----@field public ["mesh"] CMesh
+---@field public occluderType visWorldOccluderType
+---@field public color Color
+---@field public autohideDistanceScale Uint8
+---@field public mesh CMesh
 worldStaticOccluderMeshNode = {}
 
 ---@param fields? table

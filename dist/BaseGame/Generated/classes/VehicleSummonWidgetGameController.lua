@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class VehicleSummonWidgetGameController: gameuiHUDGameController
----@field private ["vehicleNameLabel"] inkTextWidgetReference
----@field private ["vehicleTypeIcon"] inkImageWidgetReference
----@field private ["vehicleManufactorIcon"] inkImageWidgetReference
----@field private ["distanceLabel"] inkTextWidgetReference
----@field private ["subText"] inkTextWidgetReference
----@field private ["radioStationName"] inkTextWidgetReference
----@field private ["loopCounter"] Uint32
----@field private ["rootWidget"] inkWidget
----@field private ["player"] PlayerPuppet
----@field private ["vehicle"] vehicleBaseObject
----@field private ["vehicleRecord"] gamedataVehicle_Record
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["vehicleSummonDataBB"] gameIBlackboard
----@field private ["mountCallback"] redCallbackObject
----@field private ["vehicleSummonStateCallback"] redCallbackObject
----@field private ["vehiclePurchaseStateCallback"] redCallbackObject
----@field private ["currentAnimation"] CName
----@field private ["animationProxy"] inkanimProxy
----@field private ["animationCounterProxy"] inkanimProxy
+---@field private vehicleNameLabel inkTextWidgetReference
+---@field private vehicleTypeIcon inkImageWidgetReference
+---@field private vehicleManufactorIcon inkImageWidgetReference
+---@field private distanceLabel inkTextWidgetReference
+---@field private subText inkTextWidgetReference
+---@field private radioStationName inkTextWidgetReference
+---@field private loopCounter Uint32
+---@field private rootWidget inkWidget
+---@field private player PlayerPuppet
+---@field private vehicle vehicleBaseObject
+---@field private vehicleRecord gamedataVehicle_Record
+---@field private gameInstance ScriptGameInstance
+---@field private vehicleSummonDataBB gameIBlackboard
+---@field private mountCallback redCallbackObject
+---@field private vehicleSummonStateCallback redCallbackObject
+---@field private vehiclePurchaseStateCallback redCallbackObject
+---@field private currentAnimation CName
+---@field private animationProxy inkanimProxy
+---@field private animationCounterProxy inkanimProxy
 VehicleSummonWidgetGameController = {}
 
 ---@param fields? table

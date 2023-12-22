@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkLanguageOverrideProvider: inkUserData
----@field public ["languageId"] inkLanguageId
+---@field public languageId inkLanguageId
 inkLanguageOverrideProvider = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TestMappinScriptData: gamemappinsMappinScriptData
----@field public ["test"] Int32
+---@field public test Int32
 TestMappinScriptData = {}
 
 ---@param fields? table

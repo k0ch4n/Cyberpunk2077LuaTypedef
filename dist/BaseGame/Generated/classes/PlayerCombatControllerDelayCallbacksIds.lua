@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerDelayCallbacksIds
----@field public ["crouch"] gameDelayID
+---@field public crouch gameDelayID
 PlayerCombatControllerDelayCallbacksIds = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questScanningState: Enum
----@field ["NotScanned"] questScanningState 0
----@field ["Scanned"] questScanningState 1
+---@field NotScanned 0
+---@field Scanned 1
 questScanningState = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DeviceLinkComponentPS: SharedGameplayPS
----@field private ["parentDevice"] DeviceLink
----@field private ["isConnected"] Bool
----@field protected ["ownerEntityID"] entEntityID
+---@field private parentDevice DeviceLink
+---@field private isConnected Bool
+---@field protected ownerEntityID entEntityID
 DeviceLinkComponentPS = {}
 
 ---@param fields? table

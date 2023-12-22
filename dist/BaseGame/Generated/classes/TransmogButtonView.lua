@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TransmogButtonView: BaseButtonView
----@field private ["container"] inkWidgetReference
----@field private ["isActive"] Bool
+---@field private container inkWidgetReference
+---@field private isActive Bool
 TransmogButtonView = {}
 
 ---@param fields? table

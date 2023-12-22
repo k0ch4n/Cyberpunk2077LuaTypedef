@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class ShardItemVirtualController: inkVirtualCompoundItemController
----@field private ["icon"] inkWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field private ["counter"] inkTextWidgetReference
----@field private ["collapseIcon"] inkWidgetReference
----@field private ["isNewFlag"] inkWidgetReference
----@field private ["entryData"] ShardEntryData
----@field private ["nestedListData"] VirutalNestedListData
----@field private ["activeItemSync"] CodexListSyncData
----@field private ["isActive"] Bool
----@field private ["isItemHovered"] Bool
----@field private ["isItemToggled"] Bool
----@field private ["isItemCollapsed"] Bool
----@field private ["clicked"] Bool
+---@field private icon inkWidgetReference
+---@field private label inkTextWidgetReference
+---@field private counter inkTextWidgetReference
+---@field private collapseIcon inkWidgetReference
+---@field private isNewFlag inkWidgetReference
+---@field private entryData ShardEntryData
+---@field private nestedListData VirutalNestedListData
+---@field private activeItemSync CodexListSyncData
+---@field private isActive Bool
+---@field private isItemHovered Bool
+---@field private isItemToggled Bool
+---@field private isItemCollapsed Bool
+---@field private clicked Bool
 ShardItemVirtualController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PhotoModeDef: gamebbScriptDefinition
----@field public ["IsActive"] gamebbScriptID_Bool
----@field public ["PlayerHealthState"] gamebbScriptID_Uint32
+---@field public IsActive gamebbScriptID_Bool
+---@field public PlayerHealthState gamebbScriptID_Uint32
 PhotoModeDef = {}
 
 ---@param fields? table

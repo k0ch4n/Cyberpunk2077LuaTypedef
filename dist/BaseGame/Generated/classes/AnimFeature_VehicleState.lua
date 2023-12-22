@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_VehicleState: animAnimFeatureMarkUnstable
----@field public ["tppEnabled"] Bool
+---@field public tppEnabled Bool
 AnimFeature_VehicleState = {}
 
 ---@param fields? table

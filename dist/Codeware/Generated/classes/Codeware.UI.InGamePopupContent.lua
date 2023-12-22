@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InGamePopupContent: Codeware_UI_inkCustomController
----@field public ["content"] inkFlexWidget
+---@field public content inkFlexWidget
 Codeware_UI_InGamePopupContent = {}
 
 ---@param fields? table

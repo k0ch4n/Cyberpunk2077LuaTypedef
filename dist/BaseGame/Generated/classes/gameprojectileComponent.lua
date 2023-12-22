@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class gameprojectileComponent: entIPlacedComponent
----@field public ["onCollisionAction"] gameprojectileOnCollisionAction
----@field public ["useSweepCollision"] Bool
----@field public ["collisionsFilterClosest"] Bool
----@field public ["sweepCollisionRadius"] Float
----@field public ["rotationOffset"] Quaternion
----@field public ["deriveOwnerVelocity"] Bool
----@field public ["derivedVelocityParams"] gameprojectileVelocityParams
----@field public ["filterData"] physicsFilterData
----@field public ["queryPreset"] physicsQueryPreset
----@field public ["previewEffect"] worldEffect
----@field public ["bouncePreviewEffect"] worldEffect
----@field public ["explosionPreviewEffect"] worldEffect
----@field public ["explosionPreviewTime"] Float
----@field public ["gameEffectRef"] gameEffectRef
+---@field public onCollisionAction gameprojectileOnCollisionAction
+---@field public useSweepCollision Bool
+---@field public collisionsFilterClosest Bool
+---@field public sweepCollisionRadius Float
+---@field public rotationOffset Quaternion
+---@field public deriveOwnerVelocity Bool
+---@field public derivedVelocityParams gameprojectileVelocityParams
+---@field public filterData physicsFilterData
+---@field public queryPreset physicsQueryPreset
+---@field public previewEffect worldEffect
+---@field public bouncePreviewEffect worldEffect
+---@field public explosionPreviewEffect worldEffect
+---@field public explosionPreviewTime Float
+---@field public gameEffectRef gameEffectRef
 gameprojectileComponent = {}
 
 ---@param fields? table

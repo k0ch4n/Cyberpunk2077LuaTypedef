@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkHoldControllerActionData: inkUserData
----@field public ["actionName"] CName
+---@field public actionName CName
 inkHoldControllerActionData = {}
 
 ---@param fields? table

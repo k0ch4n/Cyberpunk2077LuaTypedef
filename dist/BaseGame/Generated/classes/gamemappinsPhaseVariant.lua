@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamemappinsPhaseVariant: gamemappinsIPointOfInterestVariant
----@field public ["phase"] gamedataMappinPhase
----@field public ["variant"] gamedataMappinVariant
+---@field public phase gamedataMappinPhase
+---@field public variant gamedataMappinVariant
 gamemappinsPhaseVariant = {}
 
 ---@param fields? table

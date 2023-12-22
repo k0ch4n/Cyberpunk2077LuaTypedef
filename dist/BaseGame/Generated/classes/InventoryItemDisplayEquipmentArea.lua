@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryItemDisplayEquipmentArea: inkWidgetLogicController
----@field protected ["equipmentAreas"] gamedataEquipmentArea[]
----@field protected ["numberOfSlots"] Int32
+---@field protected equipmentAreas gamedataEquipmentArea[]
+---@field protected numberOfSlots Int32
 InventoryItemDisplayEquipmentArea = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SaveLocksManager: gameScriptableSystem
----@field private ["saveLocks"] CName[]
+---@field private saveLocks CName[]
 SaveLocksManager = {}
 
 ---@param fields? table

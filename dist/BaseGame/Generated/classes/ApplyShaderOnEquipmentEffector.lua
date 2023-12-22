@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ApplyShaderOnEquipmentEffector: gameEffector
----@field private ["overrideMaterialName"] CName
----@field private ["overrideMaterialTag"] CName
----@field private ["effectInstance"] gameEffectInstance
----@field private ["owner"] gameObject
----@field private ["ownerEffect"] gameEffectInstance
+---@field private overrideMaterialName CName
+---@field private overrideMaterialTag CName
+---@field private effectInstance gameEffectInstance
+---@field private owner gameObject
+---@field private ownerEffect gameEffectInstance
 ApplyShaderOnEquipmentEffector = {}
 
 ---@param fields? table

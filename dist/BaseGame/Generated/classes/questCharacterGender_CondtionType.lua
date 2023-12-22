@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterGender_CondtionType: questICharacterConditionType
----@field public ["objectRef"] gameEntityReference
----@field public ["isPlayer"] Bool
----@field public ["gender"] CName
+---@field public objectRef gameEntityReference
+---@field public isPlayer Bool
+---@field public gender CName
 questCharacterGender_CondtionType = {}
 
 ---@param fields? table

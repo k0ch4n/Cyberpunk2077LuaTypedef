@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialTagProjectileRicochet: Enum
----@field ["Default"] physicsMaterialTagProjectileRicochet 0
----@field ["Always"] physicsMaterialTagProjectileRicochet 1
+---@field Default 0
+---@field Always 1
 physicsMaterialTagProjectileRicochet = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterState_ConditionType: questICharacterConditionType
----@field public ["subType"] questICharacterConditionSubType
+---@field public subType questICharacterConditionSubType
 questCharacterState_ConditionType = {}
 
 ---@param fields? table

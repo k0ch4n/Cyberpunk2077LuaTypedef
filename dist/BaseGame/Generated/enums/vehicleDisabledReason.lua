@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleDisabledReason: Enum
----@field ["FrontTire"] vehicleDisabledReason 0
----@field ["RearTire"] vehicleDisabledReason 1
----@field ["Other"] vehicleDisabledReason 2
+---@field FrontTire 0
+---@field RearTire 1
+---@field Other 2
 vehicleDisabledReason = {}

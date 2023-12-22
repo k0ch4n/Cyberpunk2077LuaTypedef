@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Melee_Hammer: gameuiCrosshairBaseGameController
----@field private ["targetColorChange"] inkWidgetReference
+---@field private targetColorChange inkWidgetReference
 Crosshair_Melee_Hammer = {}
 
 ---@param fields? table

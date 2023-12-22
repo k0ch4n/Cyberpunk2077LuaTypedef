@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipmentSystem: gameIEquipmentSystem
----@field private ["ownerData"] EquipmentSystemPlayerData[]
+---@field private ownerData EquipmentSystemPlayerData[]
 EquipmentSystem = {}
 
 ---@param fields? table

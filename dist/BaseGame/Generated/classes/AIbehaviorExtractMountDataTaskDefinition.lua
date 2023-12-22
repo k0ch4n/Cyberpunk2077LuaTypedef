@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorExtractMountDataTaskDefinition: AIbehaviorTaskDefinition
----@field public ["mountEventData"] AIArgumentMapping
----@field public ["outWorkspotData"] AIArgumentMapping
----@field public ["outIsInstant"] AIArgumentMapping
----@field public ["outAllowFailsafeTeleport"] AIArgumentMapping
+---@field public mountEventData AIArgumentMapping
+---@field public outWorkspotData AIArgumentMapping
+---@field public outIsInstant AIArgumentMapping
+---@field public outAllowFailsafeTeleport AIArgumentMapping
 AIbehaviorExtractMountDataTaskDefinition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipModuleSpawnedCallbackData: IScriptable
----@field public ["moduleName"] CName
+---@field public moduleName CName
 NewItemTooltipModuleSpawnedCallbackData = {}
 
 ---@param fields? table

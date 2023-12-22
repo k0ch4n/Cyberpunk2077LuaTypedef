@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerArchetype: ScannerChunk
----@field private ["archetype"] gamedataArchetypeType
+---@field private archetype gamedataArchetypeType
 ScannerArchetype = {}
 
 ---@param fields? table

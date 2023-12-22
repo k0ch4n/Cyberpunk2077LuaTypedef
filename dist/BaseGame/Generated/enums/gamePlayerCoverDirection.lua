@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePlayerCoverDirection: Enum
----@field ["None"] gamePlayerCoverDirection -1
----@field ["Up"] gamePlayerCoverDirection 0
----@field ["Left"] gamePlayerCoverDirection 1
----@field ["Right"] gamePlayerCoverDirection 2
+---@field None -1
+---@field Up 0
+---@field Left 1
+---@field Right 2
 gamePlayerCoverDirection = {}

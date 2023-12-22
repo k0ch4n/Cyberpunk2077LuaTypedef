@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExitCombatOnOpticalCamoActivatedEvent: redEvent
----@field public ["npc"] gameObject
+---@field public npc gameObject
 ExitCombatOnOpticalCamoActivatedEvent = {}
 
 ---@param fields? table

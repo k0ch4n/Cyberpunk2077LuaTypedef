@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkScreenProjection: IScriptable
----@field public ["distanceToCamera"] Float
----@field public ["previousPosition"] Vector2
----@field public ["currentPosition"] Vector2
----@field public ["uvPosition"] Vector2
+---@field public distanceToCamera Float
+---@field public previousPosition Vector2
+---@field public currentPosition Vector2
+---@field public uvPosition Vector2
 inkScreenProjection = {}
 
 ---@param fields? table

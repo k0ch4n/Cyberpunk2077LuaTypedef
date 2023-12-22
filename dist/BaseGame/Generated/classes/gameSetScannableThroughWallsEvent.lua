@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSetScannableThroughWallsEvent: redEvent
----@field public ["isScannableThroughWalls"] Bool
+---@field public isScannableThroughWalls Bool
 gameSetScannableThroughWallsEvent = {}
 
 ---@param fields? table

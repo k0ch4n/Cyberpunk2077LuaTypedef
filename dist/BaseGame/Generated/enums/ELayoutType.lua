@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ELayoutType: Enum
----@field ["Generic"] ELayoutType 0
----@field ["Militech"] ELayoutType 1
----@field ["Arasaka"] ELayoutType 2
----@field ["Zetatech"] ELayoutType 3
+---@field Generic 0
+---@field Militech 1
+---@field Arasaka 2
+---@field Zetatech 3
 ELayoutType = {}

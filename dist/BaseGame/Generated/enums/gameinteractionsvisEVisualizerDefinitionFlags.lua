@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisEVisualizerDefinitionFlags: Enum
----@field ["None"] gameinteractionsvisEVisualizerDefinitionFlags 0
----@field ["Fading"] gameinteractionsvisEVisualizerDefinitionFlags 1
----@field ["HeadlineSelection"] gameinteractionsvisEVisualizerDefinitionFlags 2
----@field ["QuestImportant"] gameinteractionsvisEVisualizerDefinitionFlags 8
----@field ["CPO_Mode"] gameinteractionsvisEVisualizerDefinitionFlags 16
+---@field None 0
+---@field Fading 1
+---@field HeadlineSelection 2
+---@field QuestImportant 8
+---@field CPO_Mode 16
 gameinteractionsvisEVisualizerDefinitionFlags = {}

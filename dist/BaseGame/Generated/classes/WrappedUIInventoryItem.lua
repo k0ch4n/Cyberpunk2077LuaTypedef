@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WrappedUIInventoryItem: IScriptable
----@field public ["Item"] UIInventoryItem
----@field public ["AdditionalData"] IScriptable
+---@field public Item UIInventoryItem
+---@field public AdditionalData IScriptable
 WrappedUIInventoryItem = {}
 
 ---@param fields? table

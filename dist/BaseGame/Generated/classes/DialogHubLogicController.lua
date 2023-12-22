@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class DialogHubLogicController: inkWidgetLogicController
----@field public ["progressBarHolder"] inkWidgetReference
----@field public ["selectionSizeProviderRef"] inkWidgetReference
----@field public ["selectionRoot"] inkWidgetReference
----@field public ["moveAnimTime"] Float
----@field private ["rootWidget"] inkWidget
----@field private ["possessedDialogFluff"] inkWidget
----@field private ["titleWidget"] inkTextWidget
----@field private ["titleBorder"] inkWidget
----@field private ["titleContainer"] inkCompoundWidget
----@field private ["mainVert"] inkCompoundWidget
----@field private ["id"] Int32
----@field private ["isSelected"] Bool
----@field private ["data"] gameinteractionsvisListChoiceHubData
----@field private ["itemControllers"] DialogChoiceLogicController[]
----@field private ["progressBar"] DialogChoiceTimerController
----@field private ["hasProgressBar"] Bool
----@field private ["wasTimmed"] Bool
----@field private ["isClosingDelayed"] Bool
----@field private ["lastSelectedIdx"] Int32
----@field private ["inActiveTransparency"] Float
----@field private ["animSelectMarginProxy"] inkanimProxy
----@field private ["animSelectSizeProxy"] inkanimProxy
----@field private ["animSelectMargin"] inkanimDefinition
----@field private ["animSelectSize"] inkanimDefinition
----@field private ["animfFadingOutProxy"] inkanimProxy
----@field public ["selectBgSizeInterp"] inkanimSizeInterpolator
----@field public ["selectBgMarginInterp"] inkanimMarginInterpolator
----@field private ["dialogHubData"] DialogHubData
----@field private ["pendingRequests"] Int32
----@field private ["spawnTokens"] inkAsyncSpawnRequest[]
+---@field public progressBarHolder inkWidgetReference
+---@field public selectionSizeProviderRef inkWidgetReference
+---@field public selectionRoot inkWidgetReference
+---@field public moveAnimTime Float
+---@field private rootWidget inkWidget
+---@field private possessedDialogFluff inkWidget
+---@field private titleWidget inkTextWidget
+---@field private titleBorder inkWidget
+---@field private titleContainer inkCompoundWidget
+---@field private mainVert inkCompoundWidget
+---@field private id Int32
+---@field private isSelected Bool
+---@field private data gameinteractionsvisListChoiceHubData
+---@field private itemControllers DialogChoiceLogicController[]
+---@field private progressBar DialogChoiceTimerController
+---@field private hasProgressBar Bool
+---@field private wasTimmed Bool
+---@field private isClosingDelayed Bool
+---@field private lastSelectedIdx Int32
+---@field private inActiveTransparency Float
+---@field private animSelectMarginProxy inkanimProxy
+---@field private animSelectSizeProxy inkanimProxy
+---@field private animSelectMargin inkanimDefinition
+---@field private animSelectSize inkanimDefinition
+---@field private animfFadingOutProxy inkanimProxy
+---@field public selectBgSizeInterp inkanimSizeInterpolator
+---@field public selectBgMarginInterp inkanimMarginInterpolator
+---@field private dialogHubData DialogHubData
+---@field private pendingRequests Int32
+---@field private spawnTokens inkAsyncSpawnRequest[]
 DialogHubLogicController = {}
 
 ---@param fields? table

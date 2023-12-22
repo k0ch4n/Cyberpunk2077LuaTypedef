@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ClearItemAppearanceTaskData: gameScriptTaskData
----@field public ["ts"] gameTransactionSystem
----@field public ["area"] gamedataEquipmentArea
+---@field public ts gameTransactionSystem
+---@field public area gamedataEquipmentArea
 ClearItemAppearanceTaskData = {}
 
 ---@param fields? table

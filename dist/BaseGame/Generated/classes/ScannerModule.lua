@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerModule: HUDModule
----@field private ["activeScans"] ScanInstance[]
+---@field private activeScans ScanInstance[]
 ScannerModule = {}
 
 ---@param fields? table

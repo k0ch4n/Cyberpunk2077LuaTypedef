@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsQuickItemsEvent: redEvent
----@field public ["questName"] CName
+---@field public questName CName
 gameeventsQuickItemsEvent = {}
 
 ---@param fields? table

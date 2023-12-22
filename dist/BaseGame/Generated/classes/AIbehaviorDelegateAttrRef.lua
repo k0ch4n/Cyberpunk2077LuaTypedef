@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDelegateAttrRef
----@field public ["name"] CName
+---@field public name CName
 AIbehaviorDelegateAttrRef = {}
 
 ---@param fields? table

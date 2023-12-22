@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DebugMenuScenario_HubMenu: MenuScenario_BaseMenu
----@field private ["defaultMenu"] CName
----@field private ["cpoDefaultMenu"] CName
+---@field private defaultMenu CName
+---@field private cpoDefaultMenu CName
 DebugMenuScenario_HubMenu = {}
 
 ---@param fields? table

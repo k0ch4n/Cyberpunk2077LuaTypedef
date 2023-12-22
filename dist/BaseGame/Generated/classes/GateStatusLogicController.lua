@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GateStatusLogicController: inkWidgetLogicController
----@field public ["textStatus"] inkTextWidgetReference
+---@field public textStatus inkTextWidgetReference
 GateStatusLogicController = {}
 
 ---@param fields? table

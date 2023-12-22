@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimVariableTransform: animAnimVariable
----@field public ["value"] QsTransform
----@field public ["default"] QsTransform
+---@field public value QsTransform
+---@field public default QsTransform
 animAnimVariableTransform = {}
 
 ---@param fields? table

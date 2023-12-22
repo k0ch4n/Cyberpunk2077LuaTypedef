@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ItemViewModes: Enum
----@field ["Item"] ItemViewModes 0
----@field ["Mod"] ItemViewModes 1
+---@field Item 0
+---@field Mod 1
 ItemViewModes = {}

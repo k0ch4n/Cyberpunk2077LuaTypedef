@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleComponentsEvent: redEvent
----@field public ["componentsData"] SComponentOperationData[]
+---@field public componentsData SComponentOperationData[]
 ToggleComponentsEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeleteEquipmentSetRequest: gamePlayerScriptableSystemRequest
----@field public ["setName"] String
+---@field public setName String
 DeleteEquipmentSetRequest = {}
 
 ---@param fields? table

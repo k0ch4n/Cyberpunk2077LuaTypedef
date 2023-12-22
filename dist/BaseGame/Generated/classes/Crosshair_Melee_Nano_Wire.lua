@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Melee_Nano_Wire: CrosshairGameController_Melee
----@field private ["animEnterADS"] inkanimProxy
----@field private ["inAimDownSight"] Bool
----@field private ["isHoveringOfficer"] Bool
----@field private ["inChargedHold"] Bool
----@field private ["anim_EnterHipFire"] inkanimProxy
----@field private ["anim_HoverEnterEnemy"] inkanimProxy
----@field private ["anim_EnterStrongAttack"] inkanimProxy
----@field private ["anim_EnterThrowAttack"] inkanimProxy
----@field private ["anim_EnterEveryOtherAttack"] inkanimProxy
----@field private ["anim_EnterChargedHold"] inkanimProxy
----@field private ["anim_HoverExitEnemy"] inkanimProxy
+---@field private animEnterADS inkanimProxy
+---@field private inAimDownSight Bool
+---@field private isHoveringOfficer Bool
+---@field private inChargedHold Bool
+---@field private anim_EnterHipFire inkanimProxy
+---@field private anim_HoverEnterEnemy inkanimProxy
+---@field private anim_EnterStrongAttack inkanimProxy
+---@field private anim_EnterThrowAttack inkanimProxy
+---@field private anim_EnterEveryOtherAttack inkanimProxy
+---@field private anim_EnterChargedHold inkanimProxy
+---@field private anim_HoverExitEnemy inkanimProxy
 Crosshair_Melee_Nano_Wire = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitReactionCumulativeDamageUpdate: redEvent
----@field public ["prevUpdateTime"] Float
+---@field public prevUpdateTime Float
 HitReactionCumulativeDamageUpdate = {}
 
 ---@param fields? table

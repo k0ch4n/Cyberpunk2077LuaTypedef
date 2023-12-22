@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class gamedataSearchFilterMaskType: Enum
----@field ["Att_Friendly"] gamedataSearchFilterMaskType 0
----@field ["Att_Hostile"] gamedataSearchFilterMaskType 1
----@field ["Att_Neutral"] gamedataSearchFilterMaskType 2
----@field ["Obj_Device"] gamedataSearchFilterMaskType 3
----@field ["Obj_Other"] gamedataSearchFilterMaskType 4
----@field ["Obj_Player"] gamedataSearchFilterMaskType 5
----@field ["Obj_Puppet"] gamedataSearchFilterMaskType 6
----@field ["Obj_Sensor"] gamedataSearchFilterMaskType 7
----@field ["Sp_Aggressive"] gamedataSearchFilterMaskType 8
----@field ["Sp_AimAssistEnabled"] gamedataSearchFilterMaskType 9
----@field ["Sp_VisibleThroughGeometry"] gamedataSearchFilterMaskType 10
----@field ["St_Alive"] gamedataSearchFilterMaskType 11
----@field ["St_AliveAndActive"] gamedataSearchFilterMaskType 12
----@field ["St_Conscious"] gamedataSearchFilterMaskType 13
----@field ["St_Dead"] gamedataSearchFilterMaskType 14
----@field ["St_DeadOrInactive"] gamedataSearchFilterMaskType 15
----@field ["St_Defeated"] gamedataSearchFilterMaskType 16
----@field ["St_MountedToBike"] gamedataSearchFilterMaskType 17
----@field ["St_MountedToCar"] gamedataSearchFilterMaskType 18
----@field ["St_MountedToVehicle"] gamedataSearchFilterMaskType 19
----@field ["St_NotDefeated"] gamedataSearchFilterMaskType 20
----@field ["St_QuickHackable"] gamedataSearchFilterMaskType 21
----@field ["St_TurnedOff"] gamedataSearchFilterMaskType 22
----@field ["St_TurnedOn"] gamedataSearchFilterMaskType 23
----@field ["St_Unconscious"] gamedataSearchFilterMaskType 24
----@field ["TF_None"] gamedataSearchFilterMaskType 25
----@field ["Count"] gamedataSearchFilterMaskType 26
----@field ["Invalid"] gamedataSearchFilterMaskType 27
+---@field Att_Friendly 0
+---@field Att_Hostile 1
+---@field Att_Neutral 2
+---@field Obj_Device 3
+---@field Obj_Other 4
+---@field Obj_Player 5
+---@field Obj_Puppet 6
+---@field Obj_Sensor 7
+---@field Sp_Aggressive 8
+---@field Sp_AimAssistEnabled 9
+---@field Sp_VisibleThroughGeometry 10
+---@field St_Alive 11
+---@field St_AliveAndActive 12
+---@field St_Conscious 13
+---@field St_Dead 14
+---@field St_DeadOrInactive 15
+---@field St_Defeated 16
+---@field St_MountedToBike 17
+---@field St_MountedToCar 18
+---@field St_MountedToVehicle 19
+---@field St_NotDefeated 20
+---@field St_QuickHackable 21
+---@field St_TurnedOff 22
+---@field St_TurnedOn 23
+---@field St_Unconscious 24
+---@field TF_None 25
+---@field Count 26
+---@field Invalid 27
 gamedataSearchFilterMaskType = {}

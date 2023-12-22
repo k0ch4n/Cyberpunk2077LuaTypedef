@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class hubSelectorSingleCarouselController: inkSelectorController
----@field protected ["NUMBER_OF_WIDGETS"] Int32
----@field protected ["WIDGETS_PADDING"] Float
----@field protected ["SMALL_WIDGET_SCALE"] Float
----@field protected ["SMALL_WIDGET_OPACITY"] Float
----@field protected ["ANIMATION_TIME"] Float
----@field protected ["DEFAULT_WIDGET_COLOR"] HDRColor
----@field protected ["SELECTED_WIDGET_COLOR"] HDRColor
----@field protected ["leftArrowWidget"] inkWidgetReference
----@field protected ["rightArrowWidget"] inkWidgetReference
----@field protected ["container"] inkWidgetReference
----@field protected ["defaultColorDummy"] inkWidgetReference
----@field protected ["activeColorDummy"] inkWidgetReference
----@field public ["leftArrowController"] inkInputDisplayController
----@field public ["rightArrowController"] inkInputDisplayController
----@field protected ["elements"] MenuData[]
----@field protected ["centerElementIndex"] Int32
----@field protected ["widgetsControllers"] HubMenuLabelContentContainer[]
----@field protected ["waitForSizes"] Bool
----@field protected ["translationOnce"] Bool
----@field protected ["currentIndex"] Int32
----@field protected ["activeAnimations"] inkanimProxy[]
+---@field protected NUMBER_OF_WIDGETS Int32
+---@field protected WIDGETS_PADDING Float
+---@field protected SMALL_WIDGET_SCALE Float
+---@field protected SMALL_WIDGET_OPACITY Float
+---@field protected ANIMATION_TIME Float
+---@field protected DEFAULT_WIDGET_COLOR HDRColor
+---@field protected SELECTED_WIDGET_COLOR HDRColor
+---@field protected leftArrowWidget inkWidgetReference
+---@field protected rightArrowWidget inkWidgetReference
+---@field protected container inkWidgetReference
+---@field protected defaultColorDummy inkWidgetReference
+---@field protected activeColorDummy inkWidgetReference
+---@field public leftArrowController inkInputDisplayController
+---@field public rightArrowController inkInputDisplayController
+---@field protected elements MenuData[]
+---@field protected centerElementIndex Int32
+---@field protected widgetsControllers HubMenuLabelContentContainer[]
+---@field protected waitForSizes Bool
+---@field protected translationOnce Bool
+---@field protected currentIndex Int32
+---@field protected activeAnimations inkanimProxy[]
 hubSelectorSingleCarouselController = {}
 
 ---@param fields? table

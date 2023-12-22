@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemHitInfo
----@field public ["queryMask"] Uint64
----@field public ["entityId"] entEntityID
----@field public ["entity"] entEntity
----@field public ["component"] entIComponent
----@field public ["aimStartPosition"] Vector4
----@field public ["closestHitPosition"] Vector4
----@field public ["isTransparent"] Bool
+---@field public queryMask Uint64
+---@field public entityId entEntityID
+---@field public entity entEntity
+---@field public component entIComponent
+---@field public aimStartPosition Vector4
+---@field public closestHitPosition Vector4
+---@field public isTransparent Bool
 gametargetingSystemHitInfo = {}
 
 ---@param fields? table

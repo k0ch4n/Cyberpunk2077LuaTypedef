@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayedEhxautionSoundClue: gameDelaySystemScriptedDelayCallbackWrapper
----@field private ["puppet"] gameObject
----@field private ["audioEventName"] CName
+---@field private puppet gameObject
+---@field private audioEventName CName
 DelayedEhxautionSoundClue = {}
 
 ---@param fields? table

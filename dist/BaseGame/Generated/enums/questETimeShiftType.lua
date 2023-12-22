@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questETimeShiftType: Enum
----@field ["ShiftByTime"] questETimeShiftType 0
----@field ["ShiftToHour"] questETimeShiftType 1
+---@field ShiftByTime 0
+---@field ShiftToHour 1
 questETimeShiftType = {}

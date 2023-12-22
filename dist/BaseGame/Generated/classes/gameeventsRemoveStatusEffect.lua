@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsRemoveStatusEffect: gameeventsStatusEffectEvent
----@field public ["isFinalRemoval"] Bool
+---@field public isFinalRemoval Bool
 gameeventsRemoveStatusEffect = {}
 
 ---@param fields? table

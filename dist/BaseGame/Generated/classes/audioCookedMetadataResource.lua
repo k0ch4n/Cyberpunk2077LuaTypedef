@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioCookedMetadataResource: CResource
----@field public ["entries"] audioAudioMetadata[]
+---@field public entries audioAudioMetadata[]
 audioCookedMetadataResource = {}
 
 ---@param fields? table

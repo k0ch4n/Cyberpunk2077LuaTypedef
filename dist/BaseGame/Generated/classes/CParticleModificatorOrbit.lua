@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorOrbit: IParticleModificator
----@field public ["offset"] IEvaluatorVector
----@field public ["frequency"] IEvaluatorVector
----@field public ["phase"] IEvaluatorVector
----@field public ["overridePosition"] Bool
+---@field public offset IEvaluatorVector
+---@field public frequency IEvaluatorVector
+---@field public phase IEvaluatorVector
+---@field public overridePosition Bool
 CParticleModificatorOrbit = {}
 
 ---@param fields? table

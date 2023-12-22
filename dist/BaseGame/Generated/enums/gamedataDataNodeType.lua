@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataDataNodeType: Enum
----@field ["File"] gamedataDataNodeType 0
----@field ["Group"] gamedataDataNodeType 1
----@field ["Variable"] gamedataDataNodeType 2
----@field ["Value"] gamedataDataNodeType 3
----@field ["SimpleValue"] gamedataDataNodeType 4
----@field ["ComplexValue"] gamedataDataNodeType 5
+---@field File 0
+---@field Group 1
+---@field Variable 2
+---@field Value 3
+---@field SimpleValue 4
+---@field ComplexValue 5
 gamedataDataNodeType = {}

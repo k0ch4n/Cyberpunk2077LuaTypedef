@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MorphTargetsTextureBlendInfo
----@field public ["blend"] Bool
----@field public ["diffSize"] MorphTargetsDiffTextureSize
----@field public ["name"] CName
+---@field public blend Bool
+---@field public diffSize MorphTargetsDiffTextureSize
+---@field public name CName
 MorphTargetsTextureBlendInfo = {}
 
 ---@param fields? table

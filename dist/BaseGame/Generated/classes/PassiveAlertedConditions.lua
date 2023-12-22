@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PassiveAlertedConditions: PassiveAutonomousCondition
----@field protected ["highLevelCbId"] Uint32
----@field protected ["delayEvaluationCbId"] Uint32
+---@field protected highLevelCbId Uint32
+---@field protected delayEvaluationCbId Uint32
 PassiveAlertedConditions = {}
 
 ---@param fields? table

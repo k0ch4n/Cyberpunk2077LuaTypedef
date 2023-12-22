@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AreaEffectVisualisationRequest: redEvent
----@field public ["areaEffectID"] CName
----@field public ["show"] Bool
+---@field public areaEffectID CName
+---@field public show Bool
 AreaEffectVisualisationRequest = {}
 
 ---@param fields? table

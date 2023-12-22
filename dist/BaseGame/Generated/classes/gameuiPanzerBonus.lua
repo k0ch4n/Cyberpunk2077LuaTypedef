@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiPanzerBonus: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public ["fallingSpeed"] Float
+---@field public fallingSpeed Float
 gameuiPanzerBonus = {}

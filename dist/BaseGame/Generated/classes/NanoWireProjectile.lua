@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NanoWireProjectile: BaseProjectile
----@field public ["maxAttackRange"] Float
----@field protected ["launchMode"] ELaunchMode
+---@field public maxAttackRange Float
+---@field protected launchMode ELaunchMode
 NanoWireProjectile = {}
 
 ---@param fields? table

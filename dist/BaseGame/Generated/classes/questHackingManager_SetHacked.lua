@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questHackingManager_SetHacked: questHackingManager_ActionType
----@field public ["hacked"] Bool
+---@field public hacked Bool
 questHackingManager_SetHacked = {}
 
 ---@param fields? table

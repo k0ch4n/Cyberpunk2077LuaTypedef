@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioWwiseIgnoredNames: audioAudioMetadata
----@field public ["ignoredNames"] CName[]
+---@field public ignoredNames CName[]
 audioWwiseIgnoredNames = {}
 
 ---@param fields? table

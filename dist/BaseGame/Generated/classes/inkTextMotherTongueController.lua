@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkTextMotherTongueController: inkWidgetLogicController
----@field public ["preTranslatedTextWidget"] inkTextWidgetReference
----@field public ["postTranslatedTextWidget"] inkTextWidgetReference
----@field public ["nativeTextWidget"] inkRichTextBoxWidgetReference
----@field public ["translatedTextWidget"] inkTextWidgetReference
+---@field public preTranslatedTextWidget inkTextWidgetReference
+---@field public postTranslatedTextWidget inkTextWidgetReference
+---@field public nativeTextWidget inkRichTextBoxWidgetReference
+---@field public translatedTextWidget inkTextWidgetReference
 inkTextMotherTongueController = {}
 
 ---@param fields? table

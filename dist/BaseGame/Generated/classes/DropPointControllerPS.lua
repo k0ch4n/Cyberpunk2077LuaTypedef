@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DropPointControllerPS: BasicDistractionDeviceControllerPS
----@field private ["vendorRecord"] String
----@field private ["rewardsLootTable"] TweakDBID[]
----@field private ["hasPlayerCollectedReward"] Bool
+---@field private vendorRecord String
+---@field private rewardsLootTable TweakDBID[]
+---@field private hasPlayerCollectedReward Bool
 DropPointControllerPS = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ActionUploadListener: gameCustomValueStatPoolsListener
----@field public ["action"] ScriptableDeviceAction
----@field public ["gameInstance"] ScriptGameInstance
+---@field public action ScriptableDeviceAction
+---@field public gameInstance ScriptGameInstance
 ActionUploadListener = {}
 
 ---@param fields? table

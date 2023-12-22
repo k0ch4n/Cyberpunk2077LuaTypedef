@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public ["type"] CName
+---@field public type CName
 WeaponTypeHitPrereqCondition = {}
 
 ---@param fields? table

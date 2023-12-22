@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExpressionTreeCConstBoolNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public ["value"] Bool
+---@field public value Bool
 ExpressionTreeCConstBoolNodeDefinition = {}
 
 ---@param fields? table

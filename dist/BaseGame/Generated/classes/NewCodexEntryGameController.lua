@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewCodexEntryGameController: gameuiWidgetGameController
----@field private ["label"] inkTextWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["data"] NewCodexEntryUserData
+---@field private label inkTextWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private data NewCodexEntryUserData
 NewCodexEntryGameController = {}
 
 ---@param fields? table

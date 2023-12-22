@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_MuzzleData: animAnimFeature
----@field public ["muzzleOffset"] Vector4
+---@field public muzzleOffset Vector4
 AnimFeature_MuzzleData = {}
 
 ---@param fields? table

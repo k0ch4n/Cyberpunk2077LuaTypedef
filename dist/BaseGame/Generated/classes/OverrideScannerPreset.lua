@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverrideScannerPreset: redEvent
----@field public ["scannerPreset"] TweakDBID
+---@field public scannerPreset TweakDBID
 OverrideScannerPreset = {}
 
 ---@param fields? table

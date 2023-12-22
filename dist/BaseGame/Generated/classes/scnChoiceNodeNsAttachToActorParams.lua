@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsAttachToActorParams
----@field public ["actorId"] scnActorId
----@field public ["visualizerStyle"] scnChoiceNodeNsVisualizerStyle
+---@field public actorId scnActorId
+---@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToActorParams = {}
 
 ---@param fields? table

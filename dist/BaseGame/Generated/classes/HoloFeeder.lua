@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HoloFeeder: InteractiveDevice
----@field private ["feederMesh"] entIPlacedComponent
----@field private ["feederMesh1"] entIPlacedComponent
+---@field private feederMesh entIPlacedComponent
+---@field private feederMesh1 entIPlacedComponent
 HoloFeeder = {}
 
 ---@param fields? table

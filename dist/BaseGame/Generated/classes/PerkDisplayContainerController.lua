@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class PerkDisplayContainerController: inkWidgetLogicController
----@field protected ["index"] Int32
----@field protected ["isTrait"] Bool
----@field protected ["widget"] inkWidgetReference
----@field protected ["data"] BasePerkDisplayData
----@field protected ["dataManager"] PlayerDevelopmentDataManager
----@field protected ["controller"] PerkDisplayController
+---@field protected index Int32
+---@field protected isTrait Bool
+---@field protected widget inkWidgetReference
+---@field protected data BasePerkDisplayData
+---@field protected dataManager PlayerDevelopmentDataManager
+---@field protected controller PerkDisplayController
 PerkDisplayContainerController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HDRSettingsVarListener: userSettingsVarListener
----@field private ["ctrl"] gameuiHDRSettingsGameController
+---@field private ctrl gameuiHDRSettingsGameController
 HDRSettingsVarListener = {}
 
 ---@param fields? table

@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class ProjectileLauncherRound: gameItemObject
----@field protected ["projectileComponent"] gameprojectileComponent
----@field protected ["resourceLibraryComponent"] ResourceLibraryComponent
----@field protected ["user"] gameObject
----@field protected ["projectile"] gameObject
----@field protected ["weapon"] gameweaponObject
----@field protected ["projectileSpawnPoint"] Vector4
----@field protected ["launchMode"] gamedataProjectileLaunchMode
----@field protected ["initialLaunchVelocity"] Float
----@field protected ["installedProjectile"] gameItemID
----@field protected ["actionType"] ELauncherActionType
----@field protected ["attackRecord"] gamedataAttack_Record
----@field protected ["releaseRequestDelayID"] gameDelayID
----@field protected ["detonateRequestDelayID"] gameDelayID
----@field protected ["projectileTrailName"] CName
----@field protected ["projectileCollisionEvaluator"] ProjectileLauncherRoundCollisionEvaluator
----@field protected ["isAlive"] Bool
----@field protected ["isSinking"] Bool
----@field protected ["waterHeight"] Float
----@field protected ["deepWaterDepth"] Float
----@field protected ["sinkingDetonationDelay"] Float
----@field protected ["waterSurfaceImpactImpulseRadius"] Float
----@field protected ["waterSurfaceImpactImpulseStrength"] Float
----@field protected ["waterDetonationImpulseRadius"] Float
----@field protected ["waterDetonationImpulseStrength"] Float
+---@field protected projectileComponent gameprojectileComponent
+---@field protected resourceLibraryComponent ResourceLibraryComponent
+---@field protected user gameObject
+---@field protected projectile gameObject
+---@field protected weapon gameweaponObject
+---@field protected projectileSpawnPoint Vector4
+---@field protected launchMode gamedataProjectileLaunchMode
+---@field protected initialLaunchVelocity Float
+---@field protected installedProjectile gameItemID
+---@field protected actionType ELauncherActionType
+---@field protected attackRecord gamedataAttack_Record
+---@field protected releaseRequestDelayID gameDelayID
+---@field protected detonateRequestDelayID gameDelayID
+---@field protected projectileTrailName CName
+---@field protected projectileCollisionEvaluator ProjectileLauncherRoundCollisionEvaluator
+---@field protected isAlive Bool
+---@field protected isSinking Bool
+---@field protected waterHeight Float
+---@field protected deepWaterDepth Float
+---@field protected sinkingDetonationDelay Float
+---@field protected waterSurfaceImpactImpulseRadius Float
+---@field protected waterSurfaceImpactImpulseStrength Float
+---@field protected waterDetonationImpulseRadius Float
+---@field protected waterDetonationImpulseStrength Float
 ProjectileLauncherRound = {}
 
 ---@param fields? table

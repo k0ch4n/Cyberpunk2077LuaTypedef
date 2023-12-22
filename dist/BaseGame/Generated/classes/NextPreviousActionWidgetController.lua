@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NextPreviousActionWidgetController: DeviceActionWidgetControllerBase
----@field protected ["defaultContainer"] inkWidgetReference
----@field protected ["declineContainer"] inkWidgetReference
----@field protected ["moneyStatusAnimName"] CName
----@field protected ["isProcessing"] Bool
+---@field protected defaultContainer inkWidgetReference
+---@field protected declineContainer inkWidgetReference
+---@field protected moneyStatusAnimName CName
+---@field protected isProcessing Bool
 NextPreviousActionWidgetController = {}
 
 ---@param fields? table

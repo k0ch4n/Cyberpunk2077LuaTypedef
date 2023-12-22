@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemModDataPackage: UIInventoryItemMod
----@field public ["Description"] String
----@field public ["DataPackage"] gameUILocalizationDataPackage
----@field public ["AttunementData"] UIInventoryItemModAttunementData
+---@field public Description String
+---@field public DataPackage gameUILocalizationDataPackage
+---@field public AttunementData UIInventoryItemModAttunementData
 UIInventoryItemModDataPackage = {}
 
 ---@param fields? table

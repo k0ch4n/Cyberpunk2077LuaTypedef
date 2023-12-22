@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorRepeatNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public ["limit"] AIArgumentMapping
----@field public ["repeatChildOnFailure"] Bool
+---@field public limit AIArgumentMapping
+---@field public repeatChildOnFailure Bool
 AIbehaviorRepeatNodeDefinition = {}
 
 ---@param fields? table

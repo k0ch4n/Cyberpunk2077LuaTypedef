@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEnvironmentDamageReceiverComponent: entIPlacedComponent
----@field public ["cooldown"] Float
----@field public ["shapes"] gameEnvironmentDamageReceiverShape[]
+---@field public cooldown Float
+---@field public shapes gameEnvironmentDamageReceiverShape[]
 gameEnvironmentDamageReceiverComponent = {}
 
 ---@param fields? table

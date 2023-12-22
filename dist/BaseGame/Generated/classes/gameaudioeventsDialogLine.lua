@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsDialogLine: redEvent
----@field public ["data"] audioDialogLineEventData
+---@field public data audioDialogLineEventData
 gameaudioeventsDialogLine = {}
 
 ---@param fields? table

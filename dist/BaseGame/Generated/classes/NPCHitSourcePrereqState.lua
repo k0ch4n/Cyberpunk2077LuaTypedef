@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCHitSourcePrereqState: gamePrereqState
----@field public ["listener"] PuppetListener
+---@field public listener PuppetListener
 NPCHitSourcePrereqState = {}
 
 ---@param fields? table

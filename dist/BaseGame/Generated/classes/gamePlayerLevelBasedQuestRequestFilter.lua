@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayerLevelBasedQuestRequestFilter: gameCustomRequestFilter
----@field public ["percentMargin"] Uint32
+---@field public percentMargin Uint32
 gamePlayerLevelBasedQuestRequestFilter = {}
 
 ---@param fields? table

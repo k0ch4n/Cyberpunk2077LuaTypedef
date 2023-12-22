@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AddOrRemoveListenerEvent: redEvent
----@field public ["listener"] PuppetListener
----@field public ["add"] Bool
+---@field public listener PuppetListener
+---@field public add Bool
 AddOrRemoveListenerEvent = {}
 
 ---@param fields? table

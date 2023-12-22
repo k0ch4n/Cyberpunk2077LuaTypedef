@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITargetTrackerComponent: gameComponent
----@field public ["TriggersCombat"] Bool
+---@field public TriggersCombat Bool
 AITargetTrackerComponent = {}
 
 ---@param fields? table

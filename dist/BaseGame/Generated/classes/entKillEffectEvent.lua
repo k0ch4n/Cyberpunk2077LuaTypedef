@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entKillEffectEvent: redEvent
----@field public ["effectName"] CName
----@field public ["breakAllLoops"] Bool
+---@field public effectName CName
+---@field public breakAllLoops Bool
 entKillEffectEvent = {}
 
 ---@param fields? table

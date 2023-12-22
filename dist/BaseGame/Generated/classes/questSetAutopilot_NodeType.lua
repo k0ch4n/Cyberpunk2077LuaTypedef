@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetAutopilot_NodeType: questIVehicleManagerNodeType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["val"] Bool
+---@field public vehicleRef gameEntityReference
+---@field public val Bool
 questSetAutopilot_NodeType = {}
 
 ---@param fields? table

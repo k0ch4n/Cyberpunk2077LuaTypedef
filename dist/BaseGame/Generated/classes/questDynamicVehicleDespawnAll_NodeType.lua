@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDynamicVehicleDespawnAll_NodeType: questIDynamicSpawnSystemType
----@field public ["ImmediateDespawn"] Bool
+---@field public ImmediateDespawn Bool
 questDynamicVehicleDespawnAll_NodeType = {}
 
 ---@param fields? table

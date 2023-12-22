@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewAreaDiscoveredUserData: inkGameNotificationData
----@field public ["data"] String
+---@field public data String
 NewAreaDiscoveredUserData = {}
 
 ---@param fields? table

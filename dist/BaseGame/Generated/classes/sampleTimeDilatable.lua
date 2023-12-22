@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleTimeDilatable: gameTimeDilatable
----@field public ["listener"] sampleTimeListener
+---@field public listener sampleTimeListener
 sampleTimeDilatable = {}
 
 ---@param fields? table

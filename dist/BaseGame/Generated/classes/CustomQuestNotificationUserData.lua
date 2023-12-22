@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomQuestNotificationUserData: inkGameNotificationData
----@field public ["data"] questCustomQuestNotificationData
+---@field public data questCustomQuestNotificationData
 CustomQuestNotificationUserData = {}
 
 ---@param fields? table

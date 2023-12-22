@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class DriverCombatEvents: VehicleEventsTransition
----@field protected ["executionOwner"] gameObject
----@field protected ["owner"] gameObject
----@field protected ["newTargetComponent"] Bool
----@field protected ["targetComponent"] entIPlacedComponent
----@field protected ["vehicleInTPP"] Bool
----@field protected ["driverCombatInTPP"] Bool
----@field protected ["targetComponentCallback"] redCallbackObject
----@field protected ["vehicleInTPPCallback"] redCallbackObject
----@field protected ["driverCombatInTPPCallback"] redCallbackObject
----@field protected ["curTarget"] gameObject
----@field protected ["curTargetHostile"] Bool
----@field protected ["highlightData"] FocusForcedHighlightData
----@field protected ["requirePerspectiveUpdate"] Bool
----@field protected ["aimPressed"] Bool
----@field protected ["vehicleManeuversTime"] Float
----@field protected ["exitReleasedTime"] Float
+---@field protected executionOwner gameObject
+---@field protected owner gameObject
+---@field protected newTargetComponent Bool
+---@field protected targetComponent entIPlacedComponent
+---@field protected vehicleInTPP Bool
+---@field protected driverCombatInTPP Bool
+---@field protected targetComponentCallback redCallbackObject
+---@field protected vehicleInTPPCallback redCallbackObject
+---@field protected driverCombatInTPPCallback redCallbackObject
+---@field protected curTarget gameObject
+---@field protected curTargetHostile Bool
+---@field protected highlightData FocusForcedHighlightData
+---@field protected requirePerspectiveUpdate Bool
+---@field protected aimPressed Bool
+---@field protected vehicleManeuversTime Float
+---@field protected exitReleasedTime Float
 DriverCombatEvents = {}
 
 ---@param fields? table

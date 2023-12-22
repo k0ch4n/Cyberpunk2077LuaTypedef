@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DemolitionContainer: BaseSkillCheckContainer
----@field public ["demolitionCheck"] DemolitionSkillCheck
+---@field public demolitionCheck DemolitionSkillCheck
 DemolitionContainer = {}
 
 ---@param fields? table

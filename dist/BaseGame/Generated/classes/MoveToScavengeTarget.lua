@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MoveToScavengeTarget: AIbehaviortaskScript
----@field private ["lastTime"] Float
----@field private ["timeout"] Float
----@field private ["timeoutDuration"] Float
+---@field private lastTime Float
+---@field private timeout Float
+---@field private timeoutDuration Float
 MoveToScavengeTarget = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TransparencyAnimationButtonView: BaseButtonView
----@field private ["AnimationTime"] Float
----@field private ["HoverTransparency"] Float
----@field private ["PressTransparency"] Float
----@field private ["DefaultTransparency"] Float
----@field private ["DisabledTransparency"] Float
----@field private ["AnimationProxies"] inkanimProxy[]
----@field private ["Targets"] inkWidgetReference[]
+---@field private AnimationTime Float
+---@field private HoverTransparency Float
+---@field private PressTransparency Float
+---@field private DefaultTransparency Float
+---@field private DisabledTransparency Float
+---@field private AnimationProxies inkanimProxy[]
+---@field private Targets inkWidgetReference[]
 TransparencyAnimationButtonView = {}
 
 ---@param fields? table

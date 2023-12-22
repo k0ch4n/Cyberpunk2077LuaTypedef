@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class FanResaveData
----@field public ["animationType"] EAnimationType
----@field public ["rotateClockwise"] Bool
----@field public ["randomizeBladesSpeed"] Bool
----@field public ["maxRotationSpeed"] Float
----@field public ["timeToMaxRotation"] Float
+---@field public animationType EAnimationType
+---@field public rotateClockwise Bool
+---@field public randomizeBladesSpeed Bool
+---@field public maxRotationSpeed Float
+---@field public timeToMaxRotation Float
 FanResaveData = {}
 
 ---@param fields? table

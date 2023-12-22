@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTagSpawParameter: gameObjectSpawnParameter
----@field public ["tags"] CName[]
+---@field public tags CName[]
 gameTagSpawParameter = {}
 
 ---@param fields? table

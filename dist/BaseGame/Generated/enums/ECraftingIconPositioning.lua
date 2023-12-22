@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ECraftingIconPositioning: Enum
----@field ["generic"] ECraftingIconPositioning 0
----@field ["weaponBig"] ECraftingIconPositioning 1
----@field ["weaponSmall"] ECraftingIconPositioning 2
+---@field generic 0
+---@field weaponBig 1
+---@field weaponSmall 2
 ECraftingIconPositioning = {}

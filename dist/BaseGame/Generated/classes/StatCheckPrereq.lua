@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatCheckPrereq: DevelopmentCheckPrereq
----@field protected ["statToCheck"] gamedataStatType
+---@field protected statToCheck gamedataStatType
 StatCheckPrereq = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FocusModeOperationsTrigger: DeviceOperationsTrigger
----@field public ["triggerData"] FocusModeOperationTriggerData
+---@field public triggerData FocusModeOperationTriggerData
 FocusModeOperationsTrigger = {}
 
 ---@param fields? table

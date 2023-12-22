@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CheckUnregisteredWeapon: AIItemHandlingCondition
----@field private ["primaryItemArrayRecordTweakDBID"] TweakDBID[]
----@field private ["secondaryItemArrayRecordTweakDBID"] TweakDBID[]
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["puppet"] ScriptedPuppet
----@field private ["initialized"] Bool
+---@field private primaryItemArrayRecordTweakDBID TweakDBID[]
+---@field private secondaryItemArrayRecordTweakDBID TweakDBID[]
+---@field private transactionSystem gameTransactionSystem
+---@field private puppet ScriptedPuppet
+---@field private initialized Bool
 CheckUnregisteredWeapon = {}
 
 ---@param fields? table

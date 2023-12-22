@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DelayStimEvent: redEvent
----@field public ["stimEvent"] senseStimuliEvent
----@field public ["fullEventPipeline"] Bool
+---@field public stimEvent senseStimuliEvent
+---@field public fullEventPipeline Bool
 DelayStimEvent = {}
 
 ---@param fields? table

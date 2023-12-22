@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BenchmarkLabelController: inkWidgetLogicController
----@field private ["labelWidget"] inkTextWidgetReference
----@field private ["valueWidget"] inkTextWidgetReference
+---@field private labelWidget inkTextWidgetReference
+---@field private valueWidget inkTextWidgetReference
 BenchmarkLabelController = {}
 
 ---@param fields? table

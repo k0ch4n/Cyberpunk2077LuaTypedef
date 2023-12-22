@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDifficulty: Enum
----@field ["Easy"] gameDifficulty 0
----@field ["Hard"] gameDifficulty 1
----@field ["VeryHard"] gameDifficulty 2
----@field ["Story"] gameDifficulty 3
+---@field Easy 0
+---@field Hard 1
+---@field VeryHard 2
+---@field Story 3
 gameDifficulty = {}

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class PauseMenuGameController: gameuiMenuItemListGameController
----@field private ["baseLogoContainer"] inkCompoundWidgetReference
----@field private ["ep1LogoContainer"] inkCompoundWidgetReference
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["expansionNotyficationRef"] inkWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field public ["gameInstance"] ScriptGameInstance
----@field private ["savesCount"] Int32
----@field private ["quickSaveInProgress"] Bool
----@field private ["setCursorOnInit"] Bool
----@field private ["axisInputReceived"] Bool
----@field private ["dpadInputReceived"] Bool
+---@field private baseLogoContainer inkCompoundWidgetReference
+---@field private ep1LogoContainer inkCompoundWidgetReference
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private expansionNotyficationRef inkWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field public gameInstance ScriptGameInstance
+---@field private savesCount Int32
+---@field private quickSaveInProgress Bool
+---@field private setCursorOnInit Bool
+---@field private axisInputReceived Bool
+---@field private dpadInputReceived Bool
 PauseMenuGameController = {}
 
 ---@param fields? table

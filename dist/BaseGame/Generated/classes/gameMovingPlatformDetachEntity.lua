@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformDetachEntity: redEvent
----@field public ["entity"] entEntity
+---@field public entity entEntity
 gameMovingPlatformDetachEntity = {}
 
 ---@param fields? table

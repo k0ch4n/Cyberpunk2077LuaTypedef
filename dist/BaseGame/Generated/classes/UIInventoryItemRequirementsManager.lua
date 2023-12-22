@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemRequirementsManager: IScriptable
----@field private ["itemRequiredLevel"] Int32
----@field private ["requiredStrength"] Int32
----@field private ["requiredReflex"] Int32
----@field private ["perkRequirementName"] String
----@field private ["isSmartlinkRequirementMet"] Bool
----@field private ["isLevelRequirementMet"] Bool
----@field private ["isStrengthRequirementMet"] Bool
----@field private ["isReflexRequirementMet"] Bool
----@field private ["isPerkRequirementMet"] Bool
----@field private ["isHumanityRequirementMet"] Bool
----@field private ["isEquippable"] Bool
----@field private ["isEquippableAdditionalValue"] Bool
----@field private ["isEquippableFetched"] Bool
----@field private ["equipRequirements"] gameSItemStackRequirementData[]
----@field private ["equipRequirementsFetched"] Bool
----@field private ["player"] gameObject
----@field private ["attachedItem"] UIInventoryItem
+---@field private itemRequiredLevel Int32
+---@field private requiredStrength Int32
+---@field private requiredReflex Int32
+---@field private perkRequirementName String
+---@field private isSmartlinkRequirementMet Bool
+---@field private isLevelRequirementMet Bool
+---@field private isStrengthRequirementMet Bool
+---@field private isReflexRequirementMet Bool
+---@field private isPerkRequirementMet Bool
+---@field private isHumanityRequirementMet Bool
+---@field private isEquippable Bool
+---@field private isEquippableAdditionalValue Bool
+---@field private isEquippableFetched Bool
+---@field private equipRequirements gameSItemStackRequirementData[]
+---@field private equipRequirementsFetched Bool
+---@field private player gameObject
+---@field private attachedItem UIInventoryItem
 UIInventoryItemRequirementsManager = {}
 
 ---@param fields? table

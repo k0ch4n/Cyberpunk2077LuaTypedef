@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class vehicleELightType: Enum
----@field ["Head"] vehicleELightType 1
----@field ["Brake"] vehicleELightType 2
----@field ["LeftBlinker"] vehicleELightType 4
----@field ["RightBlinker"] vehicleELightType 8
----@field ["Reverse"] vehicleELightType 16
----@field ["Interior"] vehicleELightType 32
----@field ["Utility"] vehicleELightType 64
----@field ["Default"] vehicleELightType 47
----@field ["Blinkers"] vehicleELightType 12
+---@field Head 1
+---@field Brake 2
+---@field LeftBlinker 4
+---@field RightBlinker 8
+---@field Reverse 16
+---@field Interior 32
+---@field Utility 64
+---@field Default 47
+---@field Blinkers 12
 vehicleELightType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EDodgeMovementInput: Enum
----@field ["Invalid"] EDodgeMovementInput 0
----@field ["Forward"] EDodgeMovementInput 1
----@field ["Right"] EDodgeMovementInput 2
----@field ["Left"] EDodgeMovementInput 3
----@field ["Back"] EDodgeMovementInput 4
+---@field Invalid 0
+---@field Forward 1
+---@field Right 2
+---@field Left 3
+---@field Back 4
 EDodgeMovementInput = {}

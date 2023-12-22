@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkELayerLoadPriority: Enum
----@field ["Normal"] inkELayerLoadPriority 0
----@field ["High"] inkELayerLoadPriority 1
+---@field Normal 0
+---@field High 1
 inkELayerLoadPriority = {}

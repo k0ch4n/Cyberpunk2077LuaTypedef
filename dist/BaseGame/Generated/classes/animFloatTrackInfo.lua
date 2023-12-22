@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animFloatTrackInfo
----@field public ["name"] CName
----@field public ["referenceValue"] Float
+---@field public name CName
+---@field public referenceValue Float
 animFloatTrackInfo = {}
 
 ---@param fields? table

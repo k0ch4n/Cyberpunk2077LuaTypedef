@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CurveResourceSet: CResource
----@field public ["curveResources"] CurveResourceSetEntry[]
+---@field public curveResources CurveResourceSetEntry[]
 CurveResourceSet = {}
 
 ---@param fields? table

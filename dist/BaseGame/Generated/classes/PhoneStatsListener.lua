@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhoneStatsListener: gameScriptStatsListener
----@field private ["phoneSystem"] PhoneSystem
+---@field private phoneSystem PhoneSystem
 PhoneStatsListener = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entAnimationControllerComponent: entIComponent
----@field public ["actionAnimDatabaseRef"] animActionAnimDatabase
----@field public ["animDatabaseCollection"] animAnimDatabaseCollection
----@field public ["controlBinding"] entAnimationControlBinding
+---@field public actionAnimDatabaseRef animActionAnimDatabase
+---@field public animDatabaseCollection animAnimDatabaseCollection
+---@field public controlBinding entAnimationControlBinding
 entAnimationControllerComponent = {}
 
 ---@param fields? table

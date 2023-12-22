@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisEVisualizerActivityState: Enum
----@field ["None"] gameinteractionsvisEVisualizerActivityState 0
----@field ["Visible"] gameinteractionsvisEVisualizerActivityState 1
----@field ["Available"] gameinteractionsvisEVisualizerActivityState 2
----@field ["Active"] gameinteractionsvisEVisualizerActivityState 3
+---@field None 0
+---@field Visible 1
+---@field Available 2
+---@field Active 3
 gameinteractionsvisEVisualizerActivityState = {}

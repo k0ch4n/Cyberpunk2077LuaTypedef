@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LostTargetDelayFalsePositivesDelay: redEvent
----@field public ["target"] gameObject
+---@field public target gameObject
 LostTargetDelayFalsePositivesDelay = {}
 
 ---@param fields? table

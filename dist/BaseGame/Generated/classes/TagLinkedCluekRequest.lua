@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TagLinkedCluekRequest: gameScriptableSystemRequest
----@field public ["tag"] Bool
----@field public ["linkedCluekData"] LinkedFocusClueData
+---@field public tag Bool
+---@field public linkedCluekData LinkedFocusClueData
 TagLinkedCluekRequest = {}
 
 ---@param fields? table

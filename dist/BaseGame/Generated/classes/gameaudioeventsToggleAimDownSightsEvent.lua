@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsToggleAimDownSightsEvent: redEvent
----@field public ["toggleOn"] Bool
+---@field public toggleOn Bool
 gameaudioeventsToggleAimDownSightsEvent = {}
 
 ---@param fields? table

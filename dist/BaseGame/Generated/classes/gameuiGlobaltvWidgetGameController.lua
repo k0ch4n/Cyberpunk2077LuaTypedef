@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiGlobaltvWidgetGameController: gameuiWidgetGameController
----@field public ["overlayContainer"] inkCompoundWidgetReference
+---@field public overlayContainer inkCompoundWidgetReference
 gameuiGlobaltvWidgetGameController = {}
 
 ---@param fields? table

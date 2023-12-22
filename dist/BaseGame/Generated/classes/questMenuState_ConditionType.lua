@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMenuState_ConditionType: questIUIConditionType
----@field public ["state"] questEUIMenuState
+---@field public state questEUIMenuState
 questMenuState_ConditionType = {}
 
 ---@param fields? table

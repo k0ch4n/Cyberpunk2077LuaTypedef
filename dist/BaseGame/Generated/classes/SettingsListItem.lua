@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SettingsListItem: inkListItemController
----@field private ["Selector"] inkWidgetReference
----@field protected ["settingsSelector"] inkSettingsSelectorController
+---@field private Selector inkWidgetReference
+---@field protected settingsSelector inkSettingsSelectorController
 SettingsListItem = {}
 
 ---@param fields? table

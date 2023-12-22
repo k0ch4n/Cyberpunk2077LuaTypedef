@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class PlayerElevationPrereqState: gamePrereqState
----@field public ["minElevationValue"] Float
----@field public ["maxElevationValue"] Float
----@field public ["minElevationListener"] redCallbackObject
----@field public ["maxElevationListener"] redCallbackObject
----@field public ["owner"] gameObject
+---@field public minElevationValue Float
+---@field public maxElevationValue Float
+---@field public minElevationListener redCallbackObject
+---@field public maxElevationListener redCallbackObject
+---@field public owner gameObject
 PlayerElevationPrereqState = {}
 
 ---@param fields? table

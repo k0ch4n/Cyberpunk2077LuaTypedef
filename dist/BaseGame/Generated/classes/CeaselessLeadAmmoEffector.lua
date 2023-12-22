@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CeaselessLeadAmmoEffector: gameEffector
----@field public ["percentToRefund"] Float
+---@field public percentToRefund Float
 CeaselessLeadAmmoEffector = {}
 
 ---@param fields? table

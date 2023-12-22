@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ExtractDevicesEvent: redEvent
----@field public ["lazyDevices"] gameLazyDevice[]
----@field public ["devices"] gameDeviceComponentPS[]
----@field public ["eventToSendOnCompleted"] ProcessDevicesEvent
----@field public ["lastExtractedIndex"] Int32
+---@field public lazyDevices gameLazyDevice[]
+---@field public devices gameDeviceComponentPS[]
+---@field public eventToSendOnCompleted ProcessDevicesEvent
+---@field public lastExtractedIndex Int32
 ExtractDevicesEvent = {}
 
 ---@param fields? table

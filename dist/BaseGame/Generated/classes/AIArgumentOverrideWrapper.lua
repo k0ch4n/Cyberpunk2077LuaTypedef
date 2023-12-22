@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIArgumentOverrideWrapper
----@field public ["name"] CName
----@field public ["type"] AIArgumentType
----@field public ["definition"] AIArgumentDefinition
+---@field public name CName
+---@field public type AIArgumentType
+---@field public definition AIArgumentDefinition
 AIArgumentOverrideWrapper = {}
 
 ---@param fields? table

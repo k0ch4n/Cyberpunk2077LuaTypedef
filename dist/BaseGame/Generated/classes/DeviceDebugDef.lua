@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceDebugDef: gamebbScriptDefinition
----@field public ["CurrentlyDebuggedDevice"] gamebbScriptID_CName
----@field public ["DebuggedEntityIDAsString"] gamebbScriptID_String
+---@field public CurrentlyDebuggedDevice gamebbScriptID_CName
+---@field public DebuggedEntityIDAsString gamebbScriptID_String
 DeviceDebugDef = {}
 
 ---@param fields? table

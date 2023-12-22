@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsNotifyItemUnequippedEvent: redEvent
----@field public ["itemName"] CName
+---@field public itemName CName
 gameaudioeventsNotifyItemUnequippedEvent = {}
 
 ---@param fields? table

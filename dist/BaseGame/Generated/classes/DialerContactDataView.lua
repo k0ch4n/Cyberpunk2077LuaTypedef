@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DialerContactDataView: inkScriptableDataViewWrapper
----@field private ["compareBuilder"] CompareBuilder
----@field public ["sortMethod"] ContactsSortMethod
+---@field private compareBuilder CompareBuilder
+---@field public sortMethod ContactsSortMethod
 DialerContactDataView = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVehicleWheelMaterialsMapItem
----@field public ["name"] CName
----@field public ["audioMaterialCoeff"] Float
+---@field public name CName
+---@field public audioMaterialCoeff Float
 audioVehicleWheelMaterialsMapItem = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenSkillsNotificationAction: GenericNotificationBaseAction
----@field public ["eventDispatcher"] worlduiIWidgetGameController
+---@field public eventDispatcher worlduiIWidgetGameController
 OpenSkillsNotificationAction = {}
 
 ---@param fields? table

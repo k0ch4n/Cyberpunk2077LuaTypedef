@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class effectPlacedSpawner: effectSpawner
----@field public ["placement"] effectIPlacementEntries
+---@field public placement effectIPlacementEntries
 effectPlacedSpawner = {}
 
 ---@param fields? table

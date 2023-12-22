@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entdismembermentPhysicsInfo
----@field public ["DensityScale"] Float
+---@field public DensityScale Float
 entdismembermentPhysicsInfo = {}
 
 ---@param fields? table

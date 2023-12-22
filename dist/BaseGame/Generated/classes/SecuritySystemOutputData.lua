@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SecuritySystemOutputData
----@field public ["link"] DeviceLink
----@field public ["breachOrigin"] EBreachOrigin
----@field public ["delayDuration"] Float
+---@field public link DeviceLink
+---@field public breachOrigin EBreachOrigin
+---@field public delayDuration Float
 SecuritySystemOutputData = {}
 
 ---@param fields? table

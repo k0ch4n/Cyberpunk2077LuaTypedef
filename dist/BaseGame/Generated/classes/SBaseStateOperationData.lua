@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SBaseStateOperationData
----@field public ["state"] EDeviceStatus
----@field public ["operation"] SBaseDeviceOperationData
+---@field public state EDeviceStatus
+---@field public operation SBaseDeviceOperationData
 SBaseStateOperationData = {}
 
 ---@param fields? table

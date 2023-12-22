@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PaperdollGlitchController: inkWidgetLogicController
----@field protected ["PaperdollGlichRoot"] inkWidgetReference
----@field private ["GlitchAnimationName"] CName
+---@field protected PaperdollGlichRoot inkWidgetReference
+---@field private GlitchAnimationName CName
 PaperdollGlitchController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ResourceLibraryComponent: gameScriptableComponent
----@field private ["resources"] FxResourceMapData[]
+---@field private resources FxResourceMapData[]
 ResourceLibraryComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InteractionAreaOperations: DeviceOperations
----@field protected ["interactionAreaOperations"] SInteractionAreaOperationData[]
+---@field protected interactionAreaOperations SInteractionAreaOperationData[]
 InteractionAreaOperations = {}
 
 ---@param fields? table

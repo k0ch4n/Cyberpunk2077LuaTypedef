@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class CharacterScreenType: Enum
----@field ["Attributes"] CharacterScreenType 0
----@field ["Perks"] CharacterScreenType 1
+---@field Attributes 0
+---@field Perks 1
 CharacterScreenType = {}

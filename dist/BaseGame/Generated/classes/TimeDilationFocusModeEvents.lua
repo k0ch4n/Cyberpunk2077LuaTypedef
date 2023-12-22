@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class TimeDilationFocusModeEvents: TimeDilationEventsTransitions
----@field public ["timeDilation"] Float
----@field public ["playerDilation"] Float
----@field public ["easeInCurve"] CName
----@field public ["easeOutCurve"] CName
----@field public ["applyTimeDilationToPlayer"] Bool
----@field public ["timeDilationReason"] CName
+---@field public timeDilation Float
+---@field public playerDilation Float
+---@field public easeInCurve CName
+---@field public easeOutCurve CName
+---@field public applyTimeDilationToPlayer Bool
+---@field public timeDilationReason CName
 TimeDilationFocusModeEvents = {}
 
 ---@param fields? table

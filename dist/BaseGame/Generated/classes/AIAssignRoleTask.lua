@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAssignRoleTask: AIbehaviortaskScript
----@field public ["inCommand"] AIArgumentMapping
+---@field public inCommand AIArgumentMapping
 AIAssignRoleTask = {}
 
 ---@param fields? table

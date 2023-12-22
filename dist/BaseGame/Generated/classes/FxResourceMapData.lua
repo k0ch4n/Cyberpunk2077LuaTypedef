@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FxResourceMapData
----@field public ["key"] CName
----@field public ["resource"] gameFxResource
+---@field public key CName
+---@field public resource gameFxResource
 FxResourceMapData = {}
 
 ---@param fields? table

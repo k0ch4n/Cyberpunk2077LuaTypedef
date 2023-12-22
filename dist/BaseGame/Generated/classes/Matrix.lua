@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Matrix
----@field public ["X"] Vector4
----@field public ["Y"] Vector4
----@field public ["Z"] Vector4
----@field public ["W"] Vector4
+---@field public X Vector4
+---@field public Y Vector4
+---@field public Z Vector4
+---@field public W Vector4
 Matrix = {}
 
 ---@param fields? table

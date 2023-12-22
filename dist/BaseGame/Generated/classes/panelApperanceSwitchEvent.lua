@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class panelApperanceSwitchEvent: redEvent
----@field public ["newApperance"] CName
+---@field public newApperance CName
 panelApperanceSwitchEvent = {}
 
 ---@param fields? table

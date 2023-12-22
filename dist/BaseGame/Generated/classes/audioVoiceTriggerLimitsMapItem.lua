@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioVoiceTriggerLimitsMapItem
----@field public ["name"] CName
----@field public ["limits"] audioVoiceTriggerLimits
+---@field public name CName
+---@field public limits audioVoiceTriggerLimits
 audioVoiceTriggerLimitsMapItem = {}
 
 ---@param fields? table

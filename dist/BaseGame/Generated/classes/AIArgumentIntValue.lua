@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentIntValue: AIArgumentDefinition
----@field public ["type"] AIArgumentType
----@field public ["defaultValue"] Int32
+---@field public type AIArgumentType
+---@field public defaultValue Int32
 AIArgumentIntValue = {}
 
 ---@param fields? table

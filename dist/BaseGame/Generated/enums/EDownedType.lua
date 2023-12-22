@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EDownedType: Enum
----@field ["Killed"] EDownedType 0
----@field ["Finished"] EDownedType 1
----@field ["Defeated"] EDownedType 2
----@field ["Unconscious"] EDownedType 3
+---@field Killed 0
+---@field Finished 1
+---@field Defeated 2
+---@field Unconscious 3
 EDownedType = {}

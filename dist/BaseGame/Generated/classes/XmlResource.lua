@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class XmlResource: CResource
----@field public ["data"] String
+---@field public data String
 XmlResource = {}
 
 ---@param fields? table

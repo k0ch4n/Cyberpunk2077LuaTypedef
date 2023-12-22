@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class vehicleControllerPS: gameComponentPS
----@field public ["vehicleDoors"] vehicleVehicleSlotsState
----@field public ["state"] vehicleEState
----@field public ["lightMode"] vehicleELightMode
----@field public ["isAlarmOn"] Bool
----@field public ["lightTypeMask"] Int32
+---@field public vehicleDoors vehicleVehicleSlotsState
+---@field public state vehicleEState
+---@field public lightMode vehicleELightMode
+---@field public isAlarmOn Bool
+---@field public lightTypeMask Int32
 vehicleControllerPS = {}
 
 ---@param fields? table

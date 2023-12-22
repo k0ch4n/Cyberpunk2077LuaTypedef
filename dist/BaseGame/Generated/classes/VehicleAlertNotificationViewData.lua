@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleAlertNotificationViewData: gameuiGenericNotificationViewData
----@field public ["canBeMerged"] Bool
+---@field public canBeMerged Bool
 VehicleAlertNotificationViewData = {}
 
 ---@param fields? table

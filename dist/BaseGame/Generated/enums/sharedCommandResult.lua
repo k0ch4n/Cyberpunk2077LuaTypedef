@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class sharedCommandResult: Enum
----@field ["Success"] sharedCommandResult 0
----@field ["NeedOptions"] sharedCommandResult 1
----@field ["Fail"] sharedCommandResult 2
----@field ["Abort"] sharedCommandResult 3
+---@field Success 0
+---@field NeedOptions 1
+---@field Fail 2
+---@field Abort 3
 sharedCommandResult = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameReplicatedEntityEventsState
----@field public ["items"] gameReplicatedEntityEvent[]
----@field public ["lastAppliedActionsTime"] netTime
+---@field public items gameReplicatedEntityEvent[]
+---@field public lastAppliedActionsTime netTime
 gameReplicatedEntityEventsState = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldAugmentedRealityWorldMarkers: ISerializable
----@field public ["transforms"] Transform[]
+---@field public transforms Transform[]
 worldAugmentedRealityWorldMarkers = {}
 
 ---@param fields? table

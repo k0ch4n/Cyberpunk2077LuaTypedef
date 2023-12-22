@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetScanningState_NodeType: questIVisionModeNodeType
----@field public ["objectRef"] gameEntityReference
----@field public ["state"] questScanningState
+---@field public objectRef gameEntityReference
+---@field public state questScanningState
 questSetScanningState_NodeType = {}
 
 ---@param fields? table

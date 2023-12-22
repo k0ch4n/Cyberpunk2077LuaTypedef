@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entVertexAnimationComponent: entIComponent
----@field public ["vertexAnimationMapper"] entVertexAnimationMapper
----@field public ["animatedComponent"] entISourceBinding
+---@field public vertexAnimationMapper entVertexAnimationMapper
+---@field public animatedComponent entISourceBinding
 entVertexAnimationComponent = {}
 
 ---@param fields? table

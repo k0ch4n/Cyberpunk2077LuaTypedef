@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RadioControllerPS: MediaDeviceControllerPS
----@field protected ["radioSetup"] RadioSetup
----@field private ["wasRadioSetup"] Bool
+---@field protected radioSetup RadioSetup
+---@field private wasRadioSetup Bool
 RadioControllerPS = {}
 
 ---@param fields? table

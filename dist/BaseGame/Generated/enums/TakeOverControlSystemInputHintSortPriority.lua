@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TakeOverControlSystemInputHintSortPriority: Enum
----@field ["Shoot"] TakeOverControlSystemInputHintSortPriority 0
----@field ["SpiderNextAim"] TakeOverControlSystemInputHintSortPriority 1
----@field ["Scanner"] TakeOverControlSystemInputHintSortPriority 2
----@field ["NextDevice"] TakeOverControlSystemInputHintSortPriority 3
----@field ["PreviousDevice"] TakeOverControlSystemInputHintSortPriority 4
----@field ["ZoomIn"] TakeOverControlSystemInputHintSortPriority 5
----@field ["ZoomOut"] TakeOverControlSystemInputHintSortPriority 6
----@field ["SpiderNestView"] TakeOverControlSystemInputHintSortPriority 7
----@field ["Exit"] TakeOverControlSystemInputHintSortPriority 8
+---@field Shoot 0
+---@field SpiderNextAim 1
+---@field Scanner 2
+---@field NextDevice 3
+---@field PreviousDevice 4
+---@field ZoomIn 5
+---@field ZoomOut 6
+---@field SpiderNestView 7
+---@field Exit 8
 TakeOverControlSystemInputHintSortPriority = {}

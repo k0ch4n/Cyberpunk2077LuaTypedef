@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class characterCreationBodyMorphOptionSelectorButton: inkWidgetLogicController
----@field private ["overArrow"] inkWidgetReference
+---@field private overArrow inkWidgetReference
 characterCreationBodyMorphOptionSelectorButton = {}
 
 ---@param fields? table

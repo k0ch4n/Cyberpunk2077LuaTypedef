@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class inkTextWidget: inkLeafWidget
----@field public ["localizationString"] LocalizationString
----@field public ["textIdKey"] CName
----@field public ["text"] String
----@field public ["fontFamily"] inkFontFamilyResource
----@field public ["fontStyle"] CName
----@field public ["fontSize"] Uint32
----@field public ["font"] rendFont
----@field public ["letterCase"] textLetterCase
----@field public ["tracking"] Uint32
----@field public ["lockFontInGame"] Bool
----@field public ["wrappingInfo"] textWrappingInfo
----@field public ["lineHeightPercentage"] Float
----@field public ["justification"] textJustificationType
----@field public ["textHorizontalAlignment"] textHorizontalAlignment
----@field public ["textVerticalAlignment"] textVerticalAlignment
----@field public ["textOverflowPolicy"] textOverflowPolicy
----@field public ["scrollTextSpeed"] Float
----@field public ["scrollDelay"] Uint16
----@field public ["contentHAlign"] inkEHorizontalAlign
----@field public ["contentVAlign"] inkEVerticalAlign
+---@field public localizationString LocalizationString
+---@field public textIdKey CName
+---@field public text String
+---@field public fontFamily inkFontFamilyResource
+---@field public fontStyle CName
+---@field public fontSize Uint32
+---@field public font rendFont
+---@field public letterCase textLetterCase
+---@field public tracking Uint32
+---@field public lockFontInGame Bool
+---@field public wrappingInfo textWrappingInfo
+---@field public lineHeightPercentage Float
+---@field public justification textJustificationType
+---@field public textHorizontalAlignment textHorizontalAlignment
+---@field public textVerticalAlignment textVerticalAlignment
+---@field public textOverflowPolicy textOverflowPolicy
+---@field public scrollTextSpeed Float
+---@field public scrollDelay Uint16
+---@field public contentHAlign inkEHorizontalAlign
+---@field public contentVAlign inkEVerticalAlign
 inkTextWidget = {}
 
 ---@param fields? table

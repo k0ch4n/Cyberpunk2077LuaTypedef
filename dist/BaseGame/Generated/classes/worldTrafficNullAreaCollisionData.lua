@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficNullAreaCollisionData: ISerializable
----@field public ["header"] worldCrowdNullAreaCollisionHeader
----@field public ["nullAreaCollisions"] worldCrowdNullAreaCollisionData[]
+---@field public header worldCrowdNullAreaCollisionHeader
+---@field public nullAreaCollisions worldCrowdNullAreaCollisionData[]
 worldTrafficNullAreaCollisionData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_FootPhase: animAnimEvent
----@field public ["phase"] animEFootPhase
+---@field public phase animEFootPhase
 animAnimEvent_FootPhase = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkDiscreteNavigationDirection: Enum
----@field ["Up"] inkDiscreteNavigationDirection 0
----@field ["Right"] inkDiscreteNavigationDirection 1
----@field ["Down"] inkDiscreteNavigationDirection 2
----@field ["Left"] inkDiscreteNavigationDirection 3
+---@field Up 0
+---@field Right 1
+---@field Down 2
+---@field Left 3
 inkDiscreteNavigationDirection = {}

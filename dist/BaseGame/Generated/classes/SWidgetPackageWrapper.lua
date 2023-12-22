@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SWidgetPackageWrapper: IScriptable
----@field public ["WidgetPackage"] SWidgetPackage
+---@field public WidgetPackage SWidgetPackage
 SWidgetPackageWrapper = {}
 
 ---@param fields? table

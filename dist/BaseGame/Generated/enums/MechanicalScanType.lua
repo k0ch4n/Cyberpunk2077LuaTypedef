@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MechanicalScanType: Enum
----@field ["None"] MechanicalScanType 0
----@field ["Short"] MechanicalScanType 1
----@field ["Long"] MechanicalScanType 2
----@field ["Danger"] MechanicalScanType 3
+---@field None 0
+---@field Short 1
+---@field Long 2
+---@field Danger 3
 MechanicalScanType = {}

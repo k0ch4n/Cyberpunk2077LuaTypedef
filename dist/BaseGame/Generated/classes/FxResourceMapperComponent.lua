@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class FxResourceMapperComponent: gameScriptableComponent
----@field protected ["areaEffectData"] AreaEffectData[]
----@field protected ["investigationSlotOffsetMultiplier"] Float
----@field protected ["areaEffectInFocusMode"] AreaEffectTargetData[]
----@field protected ["optionalAreaEffectData"] OptionalAreaEffectData[]
----@field private ["DEBUG_copiedDataFromEntity"] Bool
----@field private ["DEBUG_copiedDataFromFXStruct"] Bool
----@field private ["isInitialized"] Bool
+---@field protected areaEffectData AreaEffectData[]
+---@field protected investigationSlotOffsetMultiplier Float
+---@field protected areaEffectInFocusMode AreaEffectTargetData[]
+---@field protected optionalAreaEffectData OptionalAreaEffectData[]
+---@field private DEBUG_copiedDataFromEntity Bool
+---@field private DEBUG_copiedDataFromFXStruct Bool
+---@field private isInitialized Bool
 FxResourceMapperComponent = {}
 
 ---@param fields? table

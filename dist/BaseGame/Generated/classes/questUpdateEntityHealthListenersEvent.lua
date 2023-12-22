@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questUpdateEntityHealthListenersEvent: redEvent
----@field public ["entityRef"] gameEntityReference
+---@field public entityRef gameEntityReference
 questUpdateEntityHealthListenersEvent = {}
 
 ---@param fields? table

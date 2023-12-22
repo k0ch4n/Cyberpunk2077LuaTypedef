@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ModuleInstance: IScriptable
----@field public ["isLookedAt"] Bool
----@field public ["isRevealed"] Bool
----@field public ["wasProcessed"] Bool
----@field protected ["entityID"] entEntityID
----@field protected ["state"] InstanceState
----@field protected ["previousInstance"] ModuleInstance
+---@field public isLookedAt Bool
+---@field public isRevealed Bool
+---@field public wasProcessed Bool
+---@field protected entityID entEntityID
+---@field protected state InstanceState
+---@field protected previousInstance ModuleInstance
 ModuleInstance = {}
 
 ---@param fields? table

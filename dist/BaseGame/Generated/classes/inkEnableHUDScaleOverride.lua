@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkEnableHUDScaleOverride: inkInitializedWidgetUserData
----@field public ["scalingInterpolationValue"] Float
+---@field public scalingInterpolationValue Float
 inkEnableHUDScaleOverride = {}
 
 ---@param fields? table

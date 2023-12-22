@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAddDevelopmentPointsRequest: gamePlayerScriptableSystemRequest
----@field public ["amountOfPoints"] Int32
----@field public ["developmentPointType"] gamedataDevelopmentPointType
+---@field public amountOfPoints Int32
+---@field public developmentPointType gamedataDevelopmentPointType
 questAddDevelopmentPointsRequest = {}
 
 ---@param fields? table

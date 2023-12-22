@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questDistanceType: Enum
----@field ["Nearest"] questDistanceType 0
----@field ["Furthest"] questDistanceType 1
+---@field Nearest 0
+---@field Furthest 1
 questDistanceType = {}

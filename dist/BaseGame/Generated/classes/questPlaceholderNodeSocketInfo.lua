@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPlaceholderNodeSocketInfo
----@field public ["name"] CName
----@field public ["type"] questSocketType
+---@field public name CName
+---@field public type questSocketType
 questPlaceholderNodeSocketInfo = {}
 
 ---@param fields? table

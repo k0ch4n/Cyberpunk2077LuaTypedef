@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput_Selection: Codeware_UI_inkCustomController
----@field public ["selection"] inkRectangleWidget
----@field public ["startPosition"] Int32
----@field public ["endPosition"] Int32
----@field public ["maxPosition"] Int32
----@field public ["fontSize"] Float
----@field public ["padSize"] Float
+---@field public selection inkRectangleWidget
+---@field public startPosition Int32
+---@field public endPosition Int32
+---@field public maxPosition Int32
+---@field public fontSize Float
+---@field public padSize Float
 Codeware_UI_TextInput_Selection = {}
 
 ---@param fields? table

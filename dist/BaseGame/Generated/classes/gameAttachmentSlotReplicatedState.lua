@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameAttachmentSlotReplicatedState
----@field public ["slotID"] TweakDBID
----@field public ["activeItemID"] gameItemID
----@field public ["hasItemObject"] Bool
+---@field public slotID TweakDBID
+---@field public activeItemID gameItemID
+---@field public hasItemObject Bool
 gameAttachmentSlotReplicatedState = {}
 
 ---@param fields? table

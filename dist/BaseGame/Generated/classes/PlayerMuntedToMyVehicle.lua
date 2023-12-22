@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerMuntedToMyVehicle: redEvent
----@field public ["player"] PlayerPuppet
+---@field public player PlayerPuppet
 PlayerMuntedToMyVehicle = {}
 
 ---@param fields? table

@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class SingleCooldownManager: inkWidgetLogicController
----@field private ["sprite"] inkImageWidgetReference
----@field private ["spriteBg"] inkImageWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["type"] ECooldownGameControllerMode
----@field private ["name"] inkTextWidgetReference
----@field private ["desc"] inkTextWidgetReference
----@field private ["timeRemaining"] inkTextWidgetReference
----@field private ["stackCount"] inkTextWidgetReference
----@field private ["fill"] inkRectangleWidgetReference
----@field private ["outroDuration"] Float
----@field private ["fullSizeValue"] Vector2
----@field private ["initialDuration"] Float
----@field private ["state"] ECooldownIndicatorState
----@field private ["pool"] inkCompoundWidgetReference
----@field private ["grid"] inkCompoundWidgetReference
----@field private ["currentAnimProxy"] inkanimProxy
----@field private ["buffData"] UIBuffInfo
----@field private ["defaultTimeRemainingText"] String
----@field private ["excludedStatusEffect"] TweakDBID
----@field private ["C_EXCLUDED_STATUS_EFFECT_NAME"] String
+---@field private sprite inkImageWidgetReference
+---@field private spriteBg inkImageWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private type ECooldownGameControllerMode
+---@field private name inkTextWidgetReference
+---@field private desc inkTextWidgetReference
+---@field private timeRemaining inkTextWidgetReference
+---@field private stackCount inkTextWidgetReference
+---@field private fill inkRectangleWidgetReference
+---@field private outroDuration Float
+---@field private fullSizeValue Vector2
+---@field private initialDuration Float
+---@field private state ECooldownIndicatorState
+---@field private pool inkCompoundWidgetReference
+---@field private grid inkCompoundWidgetReference
+---@field private currentAnimProxy inkanimProxy
+---@field private buffData UIBuffInfo
+---@field private defaultTimeRemainingText String
+---@field private excludedStatusEffect TweakDBID
+---@field private C_EXCLUDED_STATUS_EFFECT_NAME String
 SingleCooldownManager = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeHitSlowMoEvent: redEvent
----@field public ["isStrongAttack"] Bool
+---@field public isStrongAttack Bool
 MeleeHitSlowMoEvent = {}
 
 ---@param fields? table

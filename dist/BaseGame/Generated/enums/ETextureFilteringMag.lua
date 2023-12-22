@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ETextureFilteringMag: Enum
----@field ["TFMag_Point"] ETextureFilteringMag 0
----@field ["TFMag_Linear"] ETextureFilteringMag 1
+---@field TFMag_Point 0
+---@field TFMag_Linear 1
 ETextureFilteringMag = {}

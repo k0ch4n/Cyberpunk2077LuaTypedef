@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StrikeDuration_Debug_VDB: StrikeDuration_Debug
----@field private ["UPDATE_DELAY"] Float
----@field private ["DISPLAY_DURATION"] Float
----@field private ["timeToNextUpdate"] Float
+---@field private UPDATE_DELAY Float
+---@field private DISPLAY_DURATION Float
+---@field private timeToNextUpdate Float
 StrikeDuration_Debug_VDB = {}
 
 ---@param fields? table

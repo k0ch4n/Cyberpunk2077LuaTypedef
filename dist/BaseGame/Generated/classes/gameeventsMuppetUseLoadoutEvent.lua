@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsMuppetUseLoadoutEvent: redEvent
----@field public ["adout"] gamedataCPOLoadoutBase_Record
+---@field public adout gamedataCPOLoadoutBase_Record
 gameeventsMuppetUseLoadoutEvent = {}
 
 ---@param fields? table

@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotification: gameuiWidgetGameController
----@field private ["title"] inkTextWidgetReference
----@field private ["message"] inkTextWidgetReference
----@field private ["buttonConfirm"] inkWidgetReference
----@field private ["buttonCancel"] inkWidgetReference
----@field private ["buttonOk"] inkWidgetReference
----@field private ["buttonYes"] inkWidgetReference
----@field private ["buttonNo"] inkWidgetReference
----@field private ["root"] inkWidgetReference
----@field private ["background"] inkWidgetReference
----@field private ["buttonHintsRoot"] inkWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field private ["data"] GenericMessageNotificationData
----@field private ["isNegativeHovered"] Bool
----@field private ["isPositiveHovered"] Bool
----@field private ["libraryPath"] inkWidgetLibraryReference
----@field private ["closeData"] GenericMessageNotificationCloseData
+---@field private title inkTextWidgetReference
+---@field private message inkTextWidgetReference
+---@field private buttonConfirm inkWidgetReference
+---@field private buttonCancel inkWidgetReference
+---@field private buttonOk inkWidgetReference
+---@field private buttonYes inkWidgetReference
+---@field private buttonNo inkWidgetReference
+---@field private root inkWidgetReference
+---@field private background inkWidgetReference
+---@field private buttonHintsRoot inkWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field private data GenericMessageNotificationData
+---@field private isNegativeHovered Bool
+---@field private isPositiveHovered Bool
+---@field private libraryPath inkWidgetLibraryReference
+---@field private closeData GenericMessageNotificationCloseData
 GenericMessageNotification = {}
 
 ---@param fields? table

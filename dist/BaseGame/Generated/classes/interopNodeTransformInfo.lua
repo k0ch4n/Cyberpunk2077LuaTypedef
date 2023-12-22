@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class interopNodeTransformInfo
----@field public ["id"] interopStringWithID
----@field public ["transformInfo"] interopTransformInfo
+---@field public id interopStringWithID
+---@field public transformInfo interopTransformInfo
 interopNodeTransformInfo = {}
 
 ---@param fields? table

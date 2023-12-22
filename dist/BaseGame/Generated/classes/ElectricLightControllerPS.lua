@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ElectricLightControllerPS: ScriptableDeviceComponentPS
----@field private ["isConnectedToCLS"] Bool
----@field private ["wasCLSInitTriggered"] Bool
+---@field private isConnectedToCLS Bool
+---@field private wasCLSInitTriggered Bool
 ElectricLightControllerPS = {}
 
 ---@param fields? table

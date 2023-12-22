@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class IncomingCallGameController: gameuiNewPhoneRelatedHUDGameController
----@field private ["contactNameWidget"] inkTextWidgetReference
----@field private ["buttonHint"] inkWidgetReference
----@field private ["phoneBlackboard"] gameIBlackboard
----@field private ["phoneBBDefinition"] UI_ComDeviceDef
----@field private ["phoneCallInfoBBID"] redCallbackObject
----@field private ["animProxy"] inkanimProxy
+---@field private contactNameWidget inkTextWidgetReference
+---@field private buttonHint inkWidgetReference
+---@field private phoneBlackboard gameIBlackboard
+---@field private phoneBBDefinition UI_ComDeviceDef
+---@field private phoneCallInfoBBID redCallbackObject
+---@field private animProxy inkanimProxy
 IncomingCallGameController = {}
 
 ---@param fields? table

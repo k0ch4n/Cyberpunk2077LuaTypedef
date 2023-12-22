@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldSceneRecordingContentObserverNode: worldNode
----@field public ["filter"] worldSceneRecordingNodeFilter
+---@field public filter worldSceneRecordingNodeFilter
 worldSceneRecordingContentObserverNode = {}
 
 ---@param fields? table

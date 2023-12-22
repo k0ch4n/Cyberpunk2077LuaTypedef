@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_VirtualResolutionResizeTarget: Codeware_UI_VirtualResolutionTarget
----@field public ["size"] Vector2
+---@field public size Vector2
 Codeware_UI_VirtualResolutionResizeTarget = {}
 
 ---@param fields? table

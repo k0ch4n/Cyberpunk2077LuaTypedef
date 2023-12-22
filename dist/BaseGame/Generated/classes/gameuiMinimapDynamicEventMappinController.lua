@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapDynamicEventMappinController: gameuiBaseMinimapMappinController
----@field public ["pulseEnabled"] Bool
----@field public ["pulseWidget"] inkWidgetReference
----@field public ["hideAtDistance"] Float
----@field public ["hideInCombat"] Bool
----@field private ["pulseAnim"] inkanimProxy
+---@field public pulseEnabled Bool
+---@field public pulseWidget inkWidgetReference
+---@field public hideAtDistance Float
+---@field public hideInCombat Bool
+---@field private pulseAnim inkanimProxy
 gameuiMinimapDynamicEventMappinController = {}
 
 ---@param fields? table

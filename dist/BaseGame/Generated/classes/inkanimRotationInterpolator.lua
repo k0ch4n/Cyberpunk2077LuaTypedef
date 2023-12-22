@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkanimRotationInterpolator: inkanimInterpolator
----@field public ["startValue"] Float
----@field public ["endValue"] Float
----@field public ["goShortPath"] Bool
+---@field public startValue Float
+---@field public endValue Float
+---@field public goShortPath Bool
 inkanimRotationInterpolator = {}
 
 ---@param fields? table

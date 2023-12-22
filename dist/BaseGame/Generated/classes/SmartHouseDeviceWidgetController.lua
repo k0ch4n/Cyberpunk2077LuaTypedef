@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SmartHouseDeviceWidgetController: DeviceWidgetControllerBase
----@field private ["interiorManagerSlot"] inkWidget
+---@field private interiorManagerSlot inkWidget
 SmartHouseDeviceWidgetController = {}
 
 ---@param fields? table

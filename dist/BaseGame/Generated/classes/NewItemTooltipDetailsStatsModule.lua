@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipDetailsStatsModule: NewItemTooltipModuleController
----@field private ["statsContainer"] inkCompoundWidgetReference
----@field private ["isCrafting"] Bool
+---@field private statsContainer inkCompoundWidgetReference
+---@field private isCrafting Bool
 NewItemTooltipDetailsStatsModule = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPendulumProjectionType: Enum
----@field ["Disabled"] animPendulumProjectionType 0
----@field ["ShortestPathRotational"] animPendulumProjectionType 1
----@field ["DirectedRotational"] animPendulumProjectionType 2
+---@field Disabled 0
+---@field ShortestPathRotational 1
+---@field DirectedRotational 2
 animPendulumProjectionType = {}

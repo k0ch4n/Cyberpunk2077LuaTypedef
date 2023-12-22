@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerLanguagesList: SettingsSelectorControllerListName
----@field protected ["downloadButton"] inkWidgetReference
----@field private ["descriptionText"] inkTextWidgetReference
----@field private ["isVoiceOverInstalled"] Bool
----@field private ["currentSetIndex"] Int32
+---@field protected downloadButton inkWidgetReference
+---@field private descriptionText inkTextWidgetReference
+---@field private isVoiceOverInstalled Bool
+---@field private currentSetIndex Int32
 SettingsSelectorControllerLanguagesList = {}
 
 ---@param fields? table

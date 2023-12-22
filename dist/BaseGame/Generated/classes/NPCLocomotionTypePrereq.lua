@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCLocomotionTypePrereq: gameIScriptablePrereq
----@field public ["locomotionMode"] gamedataLocomotionMode[]
----@field public ["invert"] Bool
+---@field public locomotionMode gamedataLocomotionMode[]
+---@field public invert Bool
 NPCLocomotionTypePrereq = {}
 
 ---@param fields? table

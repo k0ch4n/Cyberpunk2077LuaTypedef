@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EGameplayChallengeLevel: Enum
----@field ["NONE"] EGameplayChallengeLevel 0
----@field ["TRIVIAL"] EGameplayChallengeLevel 1
----@field ["EASY"] EGameplayChallengeLevel 2
----@field ["MEDIUM"] EGameplayChallengeLevel 3
----@field ["HARD"] EGameplayChallengeLevel 4
----@field ["IMPOSSIBLE"] EGameplayChallengeLevel 5
+---@field NONE 0
+---@field TRIVIAL 1
+---@field EASY 2
+---@field MEDIUM 3
+---@field HARD 4
+---@field IMPOSSIBLE 5
 EGameplayChallengeLevel = {}

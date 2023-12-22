@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LocomotionEventsTransition: LocomotionTransition
----@field public ["causeContactDestruction"] Bool
----@field public ["activatedDestructionComponent"] Bool
----@field public ["ignoreBarbedWire"] Bool
+---@field public causeContactDestruction Bool
+---@field public activatedDestructionComponent Bool
+---@field public ignoreBarbedWire Bool
 LocomotionEventsTransition = {}
 
 ---@protected

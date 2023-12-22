@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnOpenCodexAtEntryEvent: redEvent
----@field public ["entry"] gameJournalCodexEntry
+---@field public entry gameJournalCodexEntry
 OnOpenCodexAtEntryEvent = {}
 
 ---@param fields? table

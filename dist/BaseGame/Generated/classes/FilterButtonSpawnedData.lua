@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FilterButtonSpawnedData: IScriptable
----@field public ["type"] Int32
+---@field public type Int32
 FilterButtonSpawnedData = {}
 
 ---@param fields? table

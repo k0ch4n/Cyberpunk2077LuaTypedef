@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorGetSearchPointTaskDefinition: AIbehaviorTaskDefinition
----@field public ["inPlayerPositionDelay"] AIArgumentMapping
----@field public ["inSearchPositionMaxRadius"] AIArgumentMapping
----@field public ["inNearestNavmeshPolyExtent"] AIArgumentMapping
----@field public ["inPavementsOnly"] AIArgumentMapping
----@field public ["inLastKnownPosition"] AIArgumentMapping
----@field public ["outSearchPosition"] AIArgumentMapping
+---@field public inPlayerPositionDelay AIArgumentMapping
+---@field public inSearchPositionMaxRadius AIArgumentMapping
+---@field public inNearestNavmeshPolyExtent AIArgumentMapping
+---@field public inPavementsOnly AIArgumentMapping
+---@field public inLastKnownPosition AIArgumentMapping
+---@field public outSearchPosition AIArgumentMapping
 AIbehaviorGetSearchPointTaskDefinition = {}
 
 ---@param fields? table

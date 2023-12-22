@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questVisionModeType: Enum
----@field ["Undefined"] questVisionModeType 0
----@field ["FocusMode"] questVisionModeType 1
----@field ["EnhancedMode"] questVisionModeType 2
+---@field Undefined 0
+---@field FocusMode 1
+---@field EnhancedMode 2
 questVisionModeType = {}

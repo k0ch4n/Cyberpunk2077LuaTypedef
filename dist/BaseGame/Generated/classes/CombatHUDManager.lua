@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CombatHUDManager: gameScriptableComponent
----@field public ["isRunning"] Bool
----@field public ["targets"] CombatTarget[]
----@field public ["interval"] Float
----@field public ["timeSinceLastUpdate"] Float
+---@field public isRunning Bool
+---@field public targets CombatTarget[]
+---@field public interval Float
+---@field public timeSinceLastUpdate Float
 CombatHUDManager = {}
 
 ---@param fields? table

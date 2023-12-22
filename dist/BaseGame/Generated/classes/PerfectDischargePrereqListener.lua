@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerfectDischargePrereqListener: gameScriptStatPoolsListener
----@field protected ["state"] PerfectDischargePrereqState
+---@field protected state PerfectDischargePrereqState
 PerfectDischargePrereqListener = {}
 
 ---@param fields? table

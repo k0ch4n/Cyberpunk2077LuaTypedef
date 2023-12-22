@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ThrowGrenadeCommandTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIThrowGrenadeCommand
----@field protected ["threatPersistenceSource"] gamedataAIThreatPersistenceSource_Record
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
----@field protected ["once"] Bool
----@field protected ["target"] gameObject
----@field protected ["targetID"] entEntityID
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIThrowGrenadeCommand
+---@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
+---@field protected once Bool
+---@field protected target gameObject
+---@field protected targetID entEntityID
 ThrowGrenadeCommandTask = {}
 
 ---@param fields? table

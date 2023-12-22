@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class sampleVisWireMaster: gameObject
----@field private ["dependableEntities"] NodeRef[]
----@field private ["inFocus"] Bool
----@field private ["found"] Bool
----@field private ["lookedAt"] Bool
+---@field private dependableEntities NodeRef[]
+---@field private inFocus Bool
+---@field private found Bool
+---@field private lookedAt Bool
 sampleVisWireMaster = {}
 
 ---@param fields? table

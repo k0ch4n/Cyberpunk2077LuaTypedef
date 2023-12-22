@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldWorldGlobalLightOverrideWithColorParameters
----@field public ["lightDirOverride"] GlobalLightingTrajectoryOverride
----@field public ["lightColorOverride"] HDRColor
+---@field public lightDirOverride GlobalLightingTrajectoryOverride
+---@field public lightColorOverride HDRColor
 worldWorldGlobalLightOverrideWithColorParameters = {}
 
 ---@param fields? table

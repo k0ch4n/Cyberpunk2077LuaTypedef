@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDesiredSlotsCountInfo
----@field public ["siredSlotsCount"] Float
----@field public ["nCoeff"] Float
----@field public ["nCoeffWhenMounted"] Float
+---@field public siredSlotsCount Float
+---@field public nCoeff Float
+---@field public nCoeffWhenMounted Float
 worldDesiredSlotsCountInfo = {}
 
 ---@param fields? table

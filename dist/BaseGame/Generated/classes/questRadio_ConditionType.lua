@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questRadio_ConditionType: questISystemConditionType
----@field public ["inverted"] Bool
----@field public ["limitToSpecifiedSpeakersStations"] Bool
----@field public ["speakerType"] audioRadioSpeakerType
+---@field public inverted Bool
+---@field public limitToSpecifiedSpeakersStations Bool
+---@field public speakerType audioRadioSpeakerType
 questRadio_ConditionType = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class instrumentPanelLogicController: IVehicleModuleController
----@field private ["lightStateImageWidget"] inkImageWidgetReference
----@field private ["cautionStateImageWidget"] inkImageWidgetReference
----@field private ["lightStateBBConnectionId"] redCallbackObject
----@field private ["cautionStateBBConnectionId"] redCallbackObject
----@field private ["vehBB"] gameIBlackboard
+---@field private lightStateImageWidget inkImageWidgetReference
+---@field private cautionStateImageWidget inkImageWidgetReference
+---@field private lightStateBBConnectionId redCallbackObject
+---@field private cautionStateBBConnectionId redCallbackObject
+---@field private vehBB gameIBlackboard
 instrumentPanelLogicController = {}
 
 ---@param fields? table

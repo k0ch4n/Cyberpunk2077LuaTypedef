@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayBinkDeviceOperation: DeviceOperationBase
----@field public ["bink"] SBinkperationData
+---@field public bink SBinkperationData
 PlayBinkDeviceOperation = {}
 
 ---@param fields? table

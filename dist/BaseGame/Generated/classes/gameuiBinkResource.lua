@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiBinkResource
----@field public ["video"] Bink
+---@field public video Bink
 gameuiBinkResource = {}
 
 ---@param fields? table

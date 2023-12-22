@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class InnerSubsystemScreenGameController: BaseInnerBunkerComputerGameController
----@field public ["loopAnimName"] CName[]
----@field public ["adminAccessPopupAnimName"] CName
----@field public ["unrecognizedPopupAnimName"] CName
----@field public ["preAuthorizingPopupAnimName"] CName
----@field public ["postAuthorizingPopupAnimName"] CName
----@field public ["deniedPopupAnimName"] CName
----@field public ["successPopupAnimName"] CName
----@field public ["errorPopupAnimName"] CName
----@field public ["icePopupAnimName"] CName
----@field public ["shutdownButton"] inkWidgetReference[]
----@field public ["adminPanelButton"] inkWidgetReference[]
----@field public ["adminPanelPopupButton"] inkWidgetReference
----@field public ["transitionToAuthorization"] inkWidgetReference
----@field public ["transitionToMinigame"] inkWidgetReference
----@field public ["transitionToAdminPanel"] inkWidgetReference
----@field public ["subsystemIndex"] Int32
----@field public ["adminAccessPopupAnimProxy"] inkanimProxy
----@field public ["successPopupAnimProxy"] inkanimProxy
----@field public ["errorPopupAnimProxy"] inkanimProxy
+---@field public loopAnimName CName[]
+---@field public adminAccessPopupAnimName CName
+---@field public unrecognizedPopupAnimName CName
+---@field public preAuthorizingPopupAnimName CName
+---@field public postAuthorizingPopupAnimName CName
+---@field public deniedPopupAnimName CName
+---@field public successPopupAnimName CName
+---@field public errorPopupAnimName CName
+---@field public icePopupAnimName CName
+---@field public shutdownButton inkWidgetReference[]
+---@field public adminPanelButton inkWidgetReference[]
+---@field public adminPanelPopupButton inkWidgetReference
+---@field public transitionToAuthorization inkWidgetReference
+---@field public transitionToMinigame inkWidgetReference
+---@field public transitionToAdminPanel inkWidgetReference
+---@field public subsystemIndex Int32
+---@field public adminAccessPopupAnimProxy inkanimProxy
+---@field public successPopupAnimProxy inkanimProxy
+---@field public errorPopupAnimProxy inkanimProxy
 InnerSubsystemScreenGameController = {}
 
 ---@param fields? table

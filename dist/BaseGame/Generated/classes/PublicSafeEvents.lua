@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PublicSafeEvents: WeaponEventsTransition
----@field public ["weaponUnequipRequestSent"] Bool
+---@field public weaponUnequipRequestSent Bool
 PublicSafeEvents = {}
 
 ---@param fields? table

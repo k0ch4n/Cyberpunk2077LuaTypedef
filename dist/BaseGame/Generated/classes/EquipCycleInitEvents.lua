@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipCycleInitEvents: EquipmentBaseEvents
----@field public ["stateMachineInstanceData"] gamestateMachineStateMachineInstanceData
+---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
 EquipCycleInitEvents = {}
 
 ---@param fields? table

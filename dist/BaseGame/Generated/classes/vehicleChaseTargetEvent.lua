@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleChaseTargetEvent: redEvent
----@field public ["inProgress"] Bool
+---@field public inProgress Bool
 vehicleChaseTargetEvent = {}
 
 ---@param fields? table

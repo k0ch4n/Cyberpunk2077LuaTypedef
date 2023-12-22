@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStoryTierConditionDefinition: AIbehaviorConditionDefinition
----@field public ["tier"] gameStoryTier
----@field public ["storyTier"] AIArgumentMapping
+---@field public tier gameStoryTier
+---@field public storyTier AIArgumentMapping
 AIbehaviorStoryTierConditionDefinition = {}
 
 ---@param fields? table

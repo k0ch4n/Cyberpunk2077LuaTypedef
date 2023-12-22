@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NameplateVisibleEvent: redEvent
----@field public ["isNameplateVisible"] Bool
----@field public ["entityID"] entEntityID
+---@field public isNameplateVisible Bool
+---@field public entityID entEntityID
 NameplateVisibleEvent = {}
 
 ---@param fields? table

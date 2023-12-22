@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RemoveCooldownRequest: gameScriptableSystemRequest
----@field public ["cid"] Int32
+---@field public cid Int32
 RemoveCooldownRequest = {}
 
 ---@param fields? table

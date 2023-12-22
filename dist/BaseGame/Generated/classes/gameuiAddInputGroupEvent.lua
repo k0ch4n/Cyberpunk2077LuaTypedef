@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiAddInputGroupEvent: redEvent
----@field public ["groupId"] CName
----@field public ["data"] gameuiInputHintGroupData
----@field public ["targetHintContainer"] CName
+---@field public groupId CName
+---@field public data gameuiInputHintGroupData
+---@field public targetHintContainer CName
 gameuiAddInputGroupEvent = {}
 
 ---@param fields? table

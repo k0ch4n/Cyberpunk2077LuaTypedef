@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class gameweaponObject: gameItemObject
----@field public ["effect"] gameEffectSet
----@field private ["hasOverheat"] Bool
----@field private ["overheatEffectBlackboard"] worldEffectBlackboard
----@field private ["overheatListener"] OverheatStatListener
----@field private ["overheatDelaySent"] Bool
----@field private ["chargeEffectBlackboard"] worldEffectBlackboard
----@field private ["chargeStatListener"] WeaponChargeStatListener
----@field private ["triggerEffectName"] CName
----@field private ["meleeHitEffectBlackboard"] worldEffectBlackboard
----@field private ["meleeHitEffectValue"] Float
----@field private ["damageTypeListener"] DamageStatListener
----@field private ["trailName"] String
----@field private ["maxChargeThreshold"] Float
----@field private ["animOwner"] Int32
----@field private ["perfectChargeStarted"] Bool
----@field private ["perfectChargeReached"] Bool
----@field private ["perfectChargeShot"] Bool
----@field private ["lowAmmoEffectActive"] Bool
----@field private ["hasSecondaryTriggerMode"] Bool
----@field private ["weaponRecord"] gamedataWeaponItem_Record
----@field private ["isHeavyWeapon"] Bool
----@field private ["isMeleeWeapon"] Bool
----@field private ["isRangedWeapon"] Bool
----@field private ["isShotgunWeapon"] Bool
----@field private ["AIBlackboard"] gameIBlackboard
----@field private ["isCharged"] Bool
+---@field public effect gameEffectSet
+---@field private hasOverheat Bool
+---@field private overheatEffectBlackboard worldEffectBlackboard
+---@field private overheatListener OverheatStatListener
+---@field private overheatDelaySent Bool
+---@field private chargeEffectBlackboard worldEffectBlackboard
+---@field private chargeStatListener WeaponChargeStatListener
+---@field private triggerEffectName CName
+---@field private meleeHitEffectBlackboard worldEffectBlackboard
+---@field private meleeHitEffectValue Float
+---@field private damageTypeListener DamageStatListener
+---@field private trailName String
+---@field private maxChargeThreshold Float
+---@field private animOwner Int32
+---@field private perfectChargeStarted Bool
+---@field private perfectChargeReached Bool
+---@field private perfectChargeShot Bool
+---@field private lowAmmoEffectActive Bool
+---@field private hasSecondaryTriggerMode Bool
+---@field private weaponRecord gamedataWeaponItem_Record
+---@field private isHeavyWeapon Bool
+---@field private isMeleeWeapon Bool
+---@field private isRangedWeapon Bool
+---@field private isShotgunWeapon Bool
+---@field private AIBlackboard gameIBlackboard
+---@field private isCharged Bool
 gameweaponObject = {}
 
 ---@param fields? table

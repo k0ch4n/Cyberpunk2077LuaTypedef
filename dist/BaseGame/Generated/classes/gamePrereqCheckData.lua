@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePrereqCheckData
----@field public ["prereqType"] gameEPrerequisiteType
----@field public ["comparisonType"] EComparisonType
----@field public ["contextObject"] String
----@field public ["valueToCompare"] Float
+---@field public prereqType gameEPrerequisiteType
+---@field public comparisonType EComparisonType
+---@field public contextObject String
+---@field public valueToCompare Float
 gamePrereqCheckData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GameTime
----@field public ["seconds"] Int32
+---@field public seconds Int32
 GameTime = {}
 
 ---@param fields? table

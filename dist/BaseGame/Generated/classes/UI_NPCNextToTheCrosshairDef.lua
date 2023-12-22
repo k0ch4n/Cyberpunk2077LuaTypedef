@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UI_NPCNextToTheCrosshairDef: gamebbScriptDefinition
----@field public ["NameplateData"] gamebbScriptID_Variant
----@field public ["BuffsList"] gamebbScriptID_Variant
----@field public ["DebuffsList"] gamebbScriptID_Variant
+---@field public NameplateData gamebbScriptID_Variant
+---@field public BuffsList gamebbScriptID_Variant
+---@field public DebuffsList gamebbScriptID_Variant
 UI_NPCNextToTheCrosshairDef = {}
 
 ---@param fields? table

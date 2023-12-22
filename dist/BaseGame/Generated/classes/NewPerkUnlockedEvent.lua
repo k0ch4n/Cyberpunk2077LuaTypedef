@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewPerkUnlockedEvent: redEvent
----@field public ["perkType"] gamedataNewPerkType
+---@field public perkType gamedataNewPerkType
 NewPerkUnlockedEvent = {}
 
 ---@param fields? table

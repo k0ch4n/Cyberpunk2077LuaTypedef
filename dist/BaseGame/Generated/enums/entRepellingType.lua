@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entRepellingType: Enum
----@field ["Debris"] entRepellingType 0
----@field ["BigObjects"] entRepellingType 1
----@field ["WindImpulse"] entRepellingType 2
----@field ["WaterImpulse"] entRepellingType 3
+---@field Debris 0
+---@field BigObjects 1
+---@field WindImpulse 2
+---@field WaterImpulse 3
 entRepellingType = {}

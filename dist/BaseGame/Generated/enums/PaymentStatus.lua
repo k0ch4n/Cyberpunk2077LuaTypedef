@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PaymentStatus: Enum
----@field ["DEFAULT"] PaymentStatus 0
----@field ["IN_PROGRESS"] PaymentStatus 1
----@field ["NO_MONEY"] PaymentStatus 2
+---@field DEFAULT 0
+---@field IN_PROGRESS 1
+---@field NO_MONEY 2
 PaymentStatus = {}

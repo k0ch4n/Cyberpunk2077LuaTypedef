@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHACK_UseSensePresetEvent: redEvent
----@field public ["sensePreset"] TweakDBID
+---@field public sensePreset TweakDBID
 gameHACK_UseSensePresetEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleNoDriveContextDecisions: InputContextTransitionDecisions
----@field private ["callbackID"] redCallbackObject
+---@field private callbackID redCallbackObject
 VehicleNoDriveContextDecisions = {}
 
 ---@param fields? table

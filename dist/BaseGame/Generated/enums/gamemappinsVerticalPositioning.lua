@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsVerticalPositioning: Enum
----@field ["Above"] gamemappinsVerticalPositioning 0
----@field ["Same"] gamemappinsVerticalPositioning 1
----@field ["Below"] gamemappinsVerticalPositioning 2
+---@field Above 0
+---@field Same 1
+---@field Below 2
 gamemappinsVerticalPositioning = {}

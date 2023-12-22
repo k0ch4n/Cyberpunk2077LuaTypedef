@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioSoundComponentSubSystemWrapper: ISerializable
----@field public ["type"] gameaudioISoundComponentSubSystem
+---@field public type gameaudioISoundComponentSubSystem
 gameaudioSoundComponentSubSystemWrapper = {}
 
 ---@param fields? table

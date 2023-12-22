@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnCheckTriggerReturnCondition: scnIReturnCondition
----@field public ["params"] scnCheckTriggerReturnConditionParams
+---@field public params scnCheckTriggerReturnConditionParams
 scnCheckTriggerReturnCondition = {}
 
 ---@param fields? table

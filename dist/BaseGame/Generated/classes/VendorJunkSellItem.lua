@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendorJunkSellItem: IScriptable
----@field public ["item"] gameItemData
----@field public ["quantity"] Int32
+---@field public item gameItemData
+---@field public quantity Int32
 VendorJunkSellItem = {}
 
 ---@param fields? table

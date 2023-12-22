@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioFootstepDecalMaterialsMap: audioAudioMetadata
----@field public ["closestDecalDetectionRadius"] Float
----@field public ["entries"] audioFootstepDecalMaterialEntry[]
+---@field public closestDecalDetectionRadius Float
+---@field public entries audioFootstepDecalMaterialEntry[]
 audioFootstepDecalMaterialsMap = {}
 
 ---@param fields? table

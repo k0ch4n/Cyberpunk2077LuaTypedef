@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityLockerControllerPS: ScriptableDeviceComponentPS
----@field private ["securityLockerProperties"] SecurityLockerProperties
----@field private ["isStoringPlayerEquipement"] Bool
+---@field private securityLockerProperties SecurityLockerProperties
+---@field private isStoringPlayerEquipement Bool
 SecurityLockerControllerPS = {}
 
 ---@param fields? table

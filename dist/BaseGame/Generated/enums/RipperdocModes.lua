@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class RipperdocModes: Enum
----@field ["Default"] RipperdocModes 0
----@field ["Item"] RipperdocModes 1
+---@field Default 0
+---@field Item 1
 RipperdocModes = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class MountType: Enum
----@field ["Hijack"] MountType 0
----@field ["Regular"] MountType 1
+---@field Hijack 0
+---@field Regular 1
 MountType = {}

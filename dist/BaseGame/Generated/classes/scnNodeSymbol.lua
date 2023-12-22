@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnNodeSymbol
----@field public ["nodeId"] scnNodeId
----@field public ["editorNodeId"] scnNodeId
----@field public ["editorEventId"] Uint64
+---@field public nodeId scnNodeId
+---@field public editorNodeId scnNodeId
+---@field public editorEventId Uint64
 scnNodeSymbol = {}
 
 ---@param fields? table

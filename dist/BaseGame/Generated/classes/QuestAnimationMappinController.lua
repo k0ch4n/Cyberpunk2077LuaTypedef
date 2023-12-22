@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class QuestAnimationMappinController: gameuiQuestMappinController
----@field private ["mappin"] gamemappinsQuestMappin
----@field private ["animationRecord"] gamedataUIAnimation_Record
----@field private ["animProxy"] inkanimProxy
----@field private ["playing"] Bool
+---@field private mappin gamemappinsQuestMappin
+---@field private animationRecord gamedataUIAnimation_Record
+---@field private animProxy inkanimProxy
+---@field private playing Bool
 QuestAnimationMappinController = {}
 
 ---@param fields? table

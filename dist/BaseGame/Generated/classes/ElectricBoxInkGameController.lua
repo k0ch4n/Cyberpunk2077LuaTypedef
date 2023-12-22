@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ElectricBoxInkGameController: DeviceInkGameControllerBase
----@field private ["onOverrideListener"] redCallbackObject
+---@field private onOverrideListener redCallbackObject
 ElectricBoxInkGameController = {}
 
 ---@param fields? table

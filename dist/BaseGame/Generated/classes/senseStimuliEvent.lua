@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class senseStimuliEvent: senseBaseStimuliEvent
----@field public ["sourceObject"] gameObject
----@field public ["stimInvestigateData"] senseStimInvestigateData
----@field public ["movePositions"] Vector4[]
----@field public ["sourcePosition"] Vector4
----@field public ["stimRecord"] gamedataStim_Record
----@field public ["radius"] Float
----@field public ["detection"] Float
----@field public ["stimType"] gamedataStimType
----@field public ["stimPropagation"] gamedataStimPropagation
----@field public ["data"] senseStimuliData
----@field public ["purelyDirect"] Bool
----@field public ["id"] Uint32
+---@field public sourceObject gameObject
+---@field public stimInvestigateData senseStimInvestigateData
+---@field public movePositions Vector4[]
+---@field public sourcePosition Vector4
+---@field public stimRecord gamedataStim_Record
+---@field public radius Float
+---@field public detection Float
+---@field public stimType gamedataStimType
+---@field public stimPropagation gamedataStimPropagation
+---@field public data senseStimuliData
+---@field public purelyDirect Bool
+---@field public id Uint32
 senseStimuliEvent = {}
 
 ---@param fields? table

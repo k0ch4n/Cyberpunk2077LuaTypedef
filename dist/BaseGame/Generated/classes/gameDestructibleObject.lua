@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDestructibleObject: gameObject
----@field public ["recordID"] TweakDBID
+---@field public recordID TweakDBID
 gameDestructibleObject = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatClamp: animAnimNode_FloatValue
----@field public ["min"] Float
----@field public ["max"] Float
----@field public ["inputNode"] animFloatLink
+---@field public min Float
+---@field public max Float
+---@field public inputNode animFloatLink
 animAnimNode_FloatClamp = {}
 
 ---@param fields? table

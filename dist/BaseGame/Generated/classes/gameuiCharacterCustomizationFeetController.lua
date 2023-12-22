@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationFeetController: gameuiCharacterCustomizationBodyPartsController
----@field public ["liftedFeetGroupName"] CName
----@field public ["flatFeetGroupName"] CName
+---@field public liftedFeetGroupName CName
+---@field public flatFeetGroupName CName
 gameuiCharacterCustomizationFeetController = {}
 
 ---@param fields? table

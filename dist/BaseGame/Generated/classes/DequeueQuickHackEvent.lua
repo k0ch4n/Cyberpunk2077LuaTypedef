@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DequeueQuickHackEvent: redEvent
----@field public ["mappinID"] gameNewMappinID
+---@field public mappinID gameNewMappinID
 DequeueQuickHackEvent = {}
 
 ---@param fields? table

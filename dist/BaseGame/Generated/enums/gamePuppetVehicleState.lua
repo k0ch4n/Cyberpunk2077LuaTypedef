@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePuppetVehicleState: Enum
----@field ["IdleMounted"] gamePuppetVehicleState 0
----@field ["IdleStand"] gamePuppetVehicleState 1
----@field ["CombatSeated"] gamePuppetVehicleState 3
----@field ["CombatWindowed"] gamePuppetVehicleState 2
----@field ["Turret"] gamePuppetVehicleState 4
----@field ["GunnerSlot"] gamePuppetVehicleState 5
+---@field IdleMounted 0
+---@field IdleStand 1
+---@field CombatSeated 3
+---@field CombatWindowed 2
+---@field Turret 4
+---@field GunnerSlot 5
 gamePuppetVehicleState = {}

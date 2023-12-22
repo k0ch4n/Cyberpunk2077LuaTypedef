@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GodModeStatListener: gameScriptStatsListener
----@field public ["healthbar"] gameuiHudHealthbarGameController
+---@field public healthbar gameuiHudHealthbarGameController
 GodModeStatListener = {}
 
 ---@param fields? table

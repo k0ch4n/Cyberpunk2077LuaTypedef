@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldDecorationMeshNode: worldMeshNode
----@field public ["startAsleep"] Bool
----@field public ["filterDataSource"] physicsFilterDataSource
----@field public ["filterData"] physicsFilterData
+---@field public startAsleep Bool
+---@field public filterDataSource physicsFilterDataSource
+---@field public filterData physicsFilterData
 worldDecorationMeshNode = {}
 
 ---@param fields? table

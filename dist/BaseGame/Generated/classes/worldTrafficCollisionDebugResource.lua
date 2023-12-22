@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficCollisionDebugResource: CResource
----@field public ["data"] worldTrafficCollisionDebug
+---@field public data worldTrafficCollisionDebug
 worldTrafficCollisionDebugResource = {}
 
 ---@param fields? table

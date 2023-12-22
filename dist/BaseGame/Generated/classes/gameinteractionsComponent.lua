@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsComponent: entIPlacedComponent
----@field public ["definitionResource"] gameinteractionsInteractionDescriptorResource
----@field public ["interactionRootOffset"] Vector3
----@field public ["layerOverrides"] gameinteractionsInteractionDefinitionOverrider[]
----@field public ["layerOverridesTemp"] gameinteractionsInteractionDefinitionOverrider[]
----@field public ["isEnabled"] Bool
+---@field public definitionResource gameinteractionsInteractionDescriptorResource
+---@field public interactionRootOffset Vector3
+---@field public layerOverrides gameinteractionsInteractionDefinitionOverrider[]
+---@field public layerOverridesTemp gameinteractionsInteractionDefinitionOverrider[]
+---@field public isEnabled Bool
 gameinteractionsComponent = {}
 
 ---@param fields? table

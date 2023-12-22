@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMovementPolicyTaskDefinition: AIbehaviorTaskDefinition
----@field public ["useCurrentPolicy"] Bool
----@field public ["waitForPolicy"] Bool
----@field public ["stopWhenDestinationReached"] AIArgumentMapping
----@field public ["policies"] AIbehaviorMovementPolicyTaskItemDefinition[]
+---@field public useCurrentPolicy Bool
+---@field public waitForPolicy Bool
+---@field public stopWhenDestinationReached AIArgumentMapping
+---@field public policies AIbehaviorMovementPolicyTaskItemDefinition[]
 AIbehaviorMovementPolicyTaskDefinition = {}
 
 ---@param fields? table

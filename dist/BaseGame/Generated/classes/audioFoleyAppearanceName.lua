@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioFoleyAppearanceName: audioAudioMetadata
----@field public ["void"] Bool
+---@field public void Bool
 audioFoleyAppearanceName = {}
 
 ---@param fields? table

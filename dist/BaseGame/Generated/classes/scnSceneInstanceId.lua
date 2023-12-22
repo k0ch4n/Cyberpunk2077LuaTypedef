@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnSceneInstanceId
----@field public ["sceneId"] scnSceneId
----@field public ["ownerId"] scnSceneInstanceOwnerId
----@field public ["internalId"] Uint8
----@field public ["hash"] Uint64
+---@field public sceneId scnSceneId
+---@field public ownerId scnSceneInstanceOwnerId
+---@field public internalId Uint8
+---@field public hash Uint64
 scnSceneInstanceId = {}
 
 ---@param fields? table

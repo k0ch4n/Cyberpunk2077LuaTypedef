@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FastTravelPrefetchRequest: gameScriptableSystemRequest
----@field public ["destinationRef"] NodeRef
+---@field public destinationRef NodeRef
 FastTravelPrefetchRequest = {}
 
 ---@param fields? table

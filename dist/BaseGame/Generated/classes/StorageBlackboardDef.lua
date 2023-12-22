@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StorageBlackboardDef: gamebbScriptDefinition
----@field public ["StorageData"] gamebbScriptID_Variant
+---@field public StorageData gamebbScriptID_Variant
 StorageBlackboardDef = {}
 
 ---@param fields? table

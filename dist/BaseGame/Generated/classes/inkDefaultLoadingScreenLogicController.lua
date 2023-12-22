@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkDefaultLoadingScreenLogicController: inkILoadingLogicController
----@field private ["progressBarRoot"] inkWidgetReference
----@field private ["progressBarController"] LoadingScreenProgressBarController
+---@field private progressBarRoot inkWidgetReference
+---@field private progressBarController LoadingScreenProgressBarController
 inkDefaultLoadingScreenLogicController = {}
 
 ---@param fields? table

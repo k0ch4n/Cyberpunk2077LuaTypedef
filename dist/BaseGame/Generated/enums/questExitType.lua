@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questExitType: Enum
----@field ["Terminating"] questExitType 0
----@field ["NonTerminating"] questExitType 1
+---@field Terminating 0
+---@field NonTerminating 1
 questExitType = {}

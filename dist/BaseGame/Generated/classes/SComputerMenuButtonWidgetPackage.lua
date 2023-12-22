@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SComputerMenuButtonWidgetPackage: SWidgetPackage
----@field public ["counter"] Int32
+---@field public counter Int32
 SComputerMenuButtonWidgetPackage = {}
 
 ---@param fields? table

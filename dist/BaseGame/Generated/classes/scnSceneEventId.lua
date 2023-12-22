@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSceneEventId
----@field public ["id"] Uint64
+---@field public id Uint64
 scnSceneEventId = {}
 
 ---@param fields? table

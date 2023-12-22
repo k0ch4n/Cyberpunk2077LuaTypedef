@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerToggleComponent_NodeType: questIEntityManager_NodeType
----@field public ["params"] questEntityManagerToggleComponent_NodeTypeParams[]
+---@field public params questEntityManagerToggleComponent_NodeTypeParams[]
 questEntityManagerToggleComponent_NodeType = {}
 
 ---@param fields? table

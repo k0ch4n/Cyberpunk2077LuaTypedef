@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankEnemyController: gameuiarcadeTankDestroyableObjectController
----@field public ["headParent"] inkWidgetReference
----@field public ["head"] inkWidgetReference
+---@field public headParent inkWidgetReference
+---@field public head inkWidgetReference
 gameuiarcadeTankEnemyController = {}
 
 ---@param fields? table

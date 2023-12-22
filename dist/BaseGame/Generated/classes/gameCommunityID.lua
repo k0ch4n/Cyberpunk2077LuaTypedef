@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCommunityID
----@field public ["entityId"] entEntityID
+---@field public entityId entEntityID
 gameCommunityID = {}
 
 ---@param fields? table

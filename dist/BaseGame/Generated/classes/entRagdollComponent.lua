@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entRagdollComponent: entIComponent
----@field public ["isEnabled"] Bool
+---@field public isEnabled Bool
 entRagdollComponent = {}
 
 ---@param fields? table

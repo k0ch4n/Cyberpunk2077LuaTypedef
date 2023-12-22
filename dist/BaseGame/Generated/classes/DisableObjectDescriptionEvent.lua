@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisableObjectDescriptionEvent: redEvent
----@field public ["isDisabled"] Bool
+---@field public isDisabled Bool
 DisableObjectDescriptionEvent = {}
 
 ---@param fields? table

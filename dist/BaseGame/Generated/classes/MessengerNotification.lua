@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class MessengerNotification: GenericNotificationController
----@field private ["messageText"] inkTextWidgetReference
----@field private ["avatar"] inkImageWidgetReference
----@field private ["descriptionText"] inkTextWidgetReference
----@field private ["mappinIcon"] inkImageWidgetReference
----@field private ["envelopIcon"] inkWidgetReference
----@field private ["interactionsBlackboard"] gameIBlackboard
----@field private ["deviceBlackboard"] gameIBlackboard
----@field public ["contactsActiveCallback"] redCallbackObject
----@field private ["messageData"] gameuiPhoneMessageNotificationViewData
----@field private ["animProxy"] inkanimProxy
----@field private ["textSizeLimit"] Int32
----@field private ["journalMgr"] gameJournalManager
----@field private ["mappinSystem"] gamemappinsMappinSystem
+---@field private messageText inkTextWidgetReference
+---@field private avatar inkImageWidgetReference
+---@field private descriptionText inkTextWidgetReference
+---@field private mappinIcon inkImageWidgetReference
+---@field private envelopIcon inkWidgetReference
+---@field private interactionsBlackboard gameIBlackboard
+---@field private deviceBlackboard gameIBlackboard
+---@field public contactsActiveCallback redCallbackObject
+---@field private messageData gameuiPhoneMessageNotificationViewData
+---@field private animProxy inkanimProxy
+---@field private textSizeLimit Int32
+---@field private journalMgr gameJournalManager
+---@field private mappinSystem gamemappinsMappinSystem
 MessengerNotification = {}
 
 ---@param fields? table

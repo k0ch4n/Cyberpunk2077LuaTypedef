@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class textWrappingPolicy: Enum
----@field ["Default"] textWrappingPolicy 0
----@field ["PerCharacter"] textWrappingPolicy 1
+---@field Default 0
+---@field PerCharacter 1
 textWrappingPolicy = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCoordinates
----@field public ["latitude"] Int32
----@field public ["longitude"] Int32
+---@field public latitude Int32
+---@field public longitude Int32
 gameCoordinates = {}
 
 ---@param fields? table

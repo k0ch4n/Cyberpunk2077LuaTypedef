@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameAnimParamSlotsOption
----@field public ["slotID"] TweakDBID
----@field public ["paramName"] CName
----@field public ["function"] entAnimParamSlotFunction
+---@field public slotID TweakDBID
+---@field public paramName CName
+---@field public function entAnimParamSlotFunction
 gameAnimParamSlotsOption = {}
 
 ---@param fields? table

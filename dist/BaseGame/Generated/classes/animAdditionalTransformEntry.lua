@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAdditionalTransformEntry: ISerializable
----@field public ["transformInfo"] animTransformInfo
----@field public ["value"] QsTransform
+---@field public transformInfo animTransformInfo
+---@field public value QsTransform
 animAdditionalTransformEntry = {}
 
 ---@param fields? table

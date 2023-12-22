@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VendorUserData: IScriptable
----@field public ["vendorData"] questVendorPanelData
----@field public ["menu"] String
+---@field public vendorData questVendorPanelData
+---@field public menu String
 VendorUserData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetAppearance: AIActionHelperTask
----@field public ["appearance"] CName
+---@field public appearance CName
 SetAppearance = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class RadialSlot: IScriptable
----@field public ["slotAnchorRef"] inkWidgetReference
----@field public ["libraryRef"] inkWidgetLibraryReference
----@field public ["slotType"] SlotType
----@field protected ["animData"] RadialAnimData
----@field private ["widget"] inkWidget
----@field private ["targetAngle"] Float
----@field private ["active"] String
----@field private ["inactive"] String
----@field private ["blocked"] String
+---@field public slotAnchorRef inkWidgetReference
+---@field public libraryRef inkWidgetLibraryReference
+---@field public slotType SlotType
+---@field protected animData RadialAnimData
+---@field private widget inkWidget
+---@field private targetAngle Float
+---@field private active String
+---@field private inactive String
+---@field private blocked String
 RadialSlot = {}
 
 ---@param fields? table

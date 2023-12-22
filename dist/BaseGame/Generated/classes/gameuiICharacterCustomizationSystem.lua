@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiICharacterCustomizationSystem: gameIGameSystem
----@field private ["puppetPreviewGameController"] gameuiCharacterCreationPuppetPreviewGameController
+---@field private puppetPreviewGameController gameuiCharacterCreationPuppetPreviewGameController
 gameuiICharacterCustomizationSystem = {}
 
 ---@param option gameuiCharacterCustomizationOption

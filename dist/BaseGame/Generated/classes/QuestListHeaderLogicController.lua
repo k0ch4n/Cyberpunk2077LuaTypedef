@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestListHeaderLogicController: inkWidgetLogicController
----@field private ["label"] inkTextWidgetReference
+---@field private label inkTextWidgetReference
 QuestListHeaderLogicController = {}
 
 ---@param fields? table

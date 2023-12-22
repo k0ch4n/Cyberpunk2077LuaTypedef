@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class QuestListVirtualController: inkVirtualListController
----@field protected ["dataView"] QuestListVirtualDataView
----@field protected ["dataSource"] inkScriptableDataSourceWrapper
----@field protected ["classifier"] QuestListVirtualTemplateClassifier
----@field private ["controller"] QuestMissionLinkController
----@field private ["uiScriptableSystem"] UIScriptableSystem
----@field private ["questSortType"] QuestListSortType
+---@field protected dataView QuestListVirtualDataView
+---@field protected dataSource inkScriptableDataSourceWrapper
+---@field protected classifier QuestListVirtualTemplateClassifier
+---@field private controller QuestMissionLinkController
+---@field private uiScriptableSystem UIScriptableSystem
+---@field private questSortType QuestListSortType
 QuestListVirtualController = {}
 
 ---@param fields? table

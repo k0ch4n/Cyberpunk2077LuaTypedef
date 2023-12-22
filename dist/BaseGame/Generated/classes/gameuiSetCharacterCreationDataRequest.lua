@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiSetCharacterCreationDataRequest: gamePlayerScriptableSystemRequest
----@field public ["lifepath"] TweakDBID
----@field public ["attributes"] gameuiCharacterCustomizationAttribute[]
+---@field public lifepath TweakDBID
+---@field public attributes gameuiCharacterCustomizationAttribute[]
 gameuiSetCharacterCreationDataRequest = {}
 
 ---@param fields? table

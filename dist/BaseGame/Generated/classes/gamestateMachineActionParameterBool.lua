@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineActionParameterBool
----@field public ["name"] CName
----@field public ["value"] Bool
+---@field public name CName
+---@field public value Bool
 gamestateMachineActionParameterBool = {}
 
 ---@param fields? table

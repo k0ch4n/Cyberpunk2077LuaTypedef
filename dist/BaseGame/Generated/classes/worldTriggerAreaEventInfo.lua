@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldTriggerAreaEventInfo
----@field public ["nodeInstance"] worldTriggerAreaNodeInstance
----@field public ["eventWorldPosition"] Vector3
----@field public ["numActivatorsInArea"] Uint32
----@field public ["activatorID"] Uint32
+---@field public nodeInstance worldTriggerAreaNodeInstance
+---@field public eventWorldPosition Vector3
+---@field public numActivatorsInArea Uint32
+---@field public activatorID Uint32
 worldTriggerAreaEventInfo = {}
 
 ---@param fields? table

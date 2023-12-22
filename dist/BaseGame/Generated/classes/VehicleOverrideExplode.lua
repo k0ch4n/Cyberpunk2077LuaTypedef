@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleOverrideExplode: ActionBool
----@field public ["isRequestedFormOtherDevice"] Bool
+---@field public isRequestedFormOtherDevice Bool
 VehicleOverrideExplode = {}
 
 ---@param fields? table

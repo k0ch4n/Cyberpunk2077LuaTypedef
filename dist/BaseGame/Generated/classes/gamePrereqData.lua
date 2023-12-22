@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePrereqData
----@field public ["bAndValues"] Bool
----@field public ["prereqList"] gamePrereqCheckData[]
+---@field public bAndValues Bool
+---@field public prereqList gamePrereqCheckData[]
 gamePrereqData = {}
 
 ---@param fields? table

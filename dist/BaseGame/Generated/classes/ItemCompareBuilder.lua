@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ItemCompareBuilder: IScriptable
----@field private ["sortData1"] gameInventoryItemSortData
----@field private ["sortData2"] gameInventoryItemSortData
----@field private ["compareBuilder"] CompareBuilder
+---@field private sortData1 gameInventoryItemSortData
+---@field private sortData2 gameInventoryItemSortData
+---@field private compareBuilder CompareBuilder
 ItemCompareBuilder = {}
 
 ---@param fields? table

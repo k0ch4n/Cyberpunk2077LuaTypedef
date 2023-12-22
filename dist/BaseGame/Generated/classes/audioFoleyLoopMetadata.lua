@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioFoleyLoopMetadata
----@field public ["startEvent"] CName
----@field public ["stopEvent"] CName
+---@field public startEvent CName
+---@field public stopEvent CName
 audioFoleyLoopMetadata = {}
 
 ---@param fields? table

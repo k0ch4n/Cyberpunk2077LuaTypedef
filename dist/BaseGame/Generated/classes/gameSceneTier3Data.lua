@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSceneTier3Data: gameSceneTierDataMotionConstrained
----@field public ["cameraSettings"] gameTier3CameraSettings
+---@field public cameraSettings gameTier3CameraSettings
 gameSceneTier3Data = {}
 
 ---@param fields? table

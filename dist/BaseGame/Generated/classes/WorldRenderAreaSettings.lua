@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WorldRenderAreaSettings
----@field public ["areaParameters"] IAreaSettings[]
+---@field public areaParameters IAreaSettings[]
 WorldRenderAreaSettings = {}
 
 ---@param fields? table

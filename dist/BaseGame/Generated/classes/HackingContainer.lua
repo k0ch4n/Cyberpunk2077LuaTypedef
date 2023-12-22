@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HackingContainer: BaseSkillCheckContainer
----@field public ["hackingCheck"] HackingSkillCheck
+---@field public hackingCheck HackingSkillCheck
 HackingContainer = {}
 
 ---@param fields? table

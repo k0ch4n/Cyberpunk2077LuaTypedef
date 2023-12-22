@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entVirtualCameraViewComponent: entIVisualComponent
----@field public ["virtualCameraName"] CName
----@field public ["targetPlaneSize"] Vector2
+---@field public virtualCameraName CName
+---@field public targetPlaneSize Vector2
 entVirtualCameraViewComponent = {}
 
 ---@param fields? table

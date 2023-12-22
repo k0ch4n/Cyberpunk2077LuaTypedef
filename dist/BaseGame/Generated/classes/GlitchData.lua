@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GlitchData
----@field public ["intensity"] Float
----@field public ["state"] EGlitchState
+---@field public intensity Float
+---@field public state EGlitchState
 GlitchData = {}
 
 ---@param fields? table

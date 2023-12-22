@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEClueDescriptorMode: Enum
----@field ["Invalid"] gameuiEClueDescriptorMode 0
----@field ["Add"] gameuiEClueDescriptorMode 1
----@field ["Finish"] gameuiEClueDescriptorMode 2
+---@field Invalid 0
+---@field Add 1
+---@field Finish 2
 gameuiEClueDescriptorMode = {}

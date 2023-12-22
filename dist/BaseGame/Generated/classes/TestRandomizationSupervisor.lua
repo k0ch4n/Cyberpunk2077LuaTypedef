@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TestRandomizationSupervisor: genScriptedRandomizationSupervisor
----@field public ["firstWasGenerated"] Bool
+---@field public firstWasGenerated Bool
 TestRandomizationSupervisor = {}
 
 ---@param fields? table

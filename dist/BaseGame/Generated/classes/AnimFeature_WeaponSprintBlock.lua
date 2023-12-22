@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_WeaponSprintBlock: animAnimFeature
----@field public ["active"] Bool
+---@field public active Bool
 AnimFeature_WeaponSprintBlock = {}
 
 ---@param fields? table

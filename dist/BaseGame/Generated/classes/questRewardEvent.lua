@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questRewardEvent: redEvent
----@field public ["rewardName"] TweakDBID
+---@field public rewardName TweakDBID
 questRewardEvent = {}
 
 ---@param fields? table

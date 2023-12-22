@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetVehicleCamera_NodeType: questIVehicleManagerNodeType
----@field public ["cameraType"] questVehicleCameraType
----@field public ["blockOtherCameras"] Bool
+---@field public cameraType questVehicleCameraType
+---@field public blockOtherCameras Bool
 questSetVehicleCamera_NodeType = {}
 
 ---@param fields? table

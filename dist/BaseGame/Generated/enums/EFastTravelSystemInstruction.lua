@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EFastTravelSystemInstruction: Enum
----@field ["Forward"] EFastTravelSystemInstruction 0
----@field ["Previous"] EFastTravelSystemInstruction 1
+---@field Forward 0
+---@field Previous 1
 EFastTravelSystemInstruction = {}

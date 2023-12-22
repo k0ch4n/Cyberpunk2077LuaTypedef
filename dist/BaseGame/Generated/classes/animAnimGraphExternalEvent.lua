@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimGraphExternalEvent: ISerializable
----@field public ["eventName"] CName
+---@field public eventName CName
 animAnimGraphExternalEvent = {}
 
 ---@param fields? table

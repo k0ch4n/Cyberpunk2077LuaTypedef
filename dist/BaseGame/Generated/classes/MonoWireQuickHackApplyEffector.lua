@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MonoWireQuickHackApplyEffector: AbstractApplyQuickhackEffector
----@field public ["hasSpreadWindowBeenOpened"] Bool
----@field public ["targetsToSpreadQuickhack"] MonowireSpreadableNPC[]
----@field public ["timeOfPossibleSpread"] Float
----@field public ["spreadWindowTime"] Float
----@field public ["spreadCallbackID"] gameDelayID
+---@field public hasSpreadWindowBeenOpened Bool
+---@field public targetsToSpreadQuickhack MonowireSpreadableNPC[]
+---@field public timeOfPossibleSpread Float
+---@field public spreadWindowTime Float
+---@field public spreadCallbackID gameDelayID
 MonoWireQuickHackApplyEffector = {}
 
 ---@param fields? table

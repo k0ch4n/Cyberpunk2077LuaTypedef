@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animLeg: Enum
----@field ["Left"] animLeg 0
----@field ["Right"] animLeg 1
+---@field Left 0
+---@field Right 1
 animLeg = {}

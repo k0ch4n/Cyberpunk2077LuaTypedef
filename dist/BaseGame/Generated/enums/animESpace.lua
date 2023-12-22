@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animESpace: Enum
----@field ["Local"] animESpace 0
----@field ["Model"] animESpace 1
----@field ["World"] animESpace 2
+---@field Local 0
+---@field Model 1
+---@field World 2
 animESpace = {}

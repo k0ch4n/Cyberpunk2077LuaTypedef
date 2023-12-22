@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerTeleportPuppetParams
----@field public ["teleportAllPlayers"] Bool
----@field public ["spawnPointTag"] CName
----@field public ["destinationRef"] gameEntityReference
----@field public ["destinationOffset"] Vector3
----@field public ["areaNodeTriggerRef"] gameEntityReference
+---@field public teleportAllPlayers Bool
+---@field public spawnPointTag CName
+---@field public destinationRef gameEntityReference
+---@field public destinationOffset Vector3
+---@field public areaNodeTriggerRef gameEntityReference
 questMultiplayerTeleportPuppetParams = {}
 
 ---@param fields? table

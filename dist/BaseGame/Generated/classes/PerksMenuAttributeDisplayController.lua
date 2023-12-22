@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class PerksMenuAttributeDisplayController: BaseButtonView
----@field protected ["widgetWrapper"] inkWidgetReference
----@field protected ["foregroundWrapper"] inkWidgetReference
----@field protected ["attributeName"] inkTextWidgetReference
----@field protected ["attributeIcon"] inkImageWidgetReference
----@field protected ["attributeLevel"] inkTextWidgetReference
----@field protected ["frameHovered"] inkWidgetReference
----@field protected ["accent1Hovered"] inkWidgetReference
----@field protected ["accent1BGHovered"] inkWidgetReference
----@field protected ["accent2Hovered"] inkWidgetReference
----@field protected ["accent2BGHovered"] inkWidgetReference
----@field protected ["topConnectionContainer"] inkWidgetReference
----@field protected ["bottomConnectionContainer"] inkWidgetReference
----@field protected ["levelContainer"] inkWidgetReference
----@field protected ["dataManager"] PlayerDevelopmentDataManager
----@field protected ["attribute"] PerkMenuAttribute
----@field protected ["attributeData"] AttributeData
+---@field protected widgetWrapper inkWidgetReference
+---@field protected foregroundWrapper inkWidgetReference
+---@field protected attributeName inkTextWidgetReference
+---@field protected attributeIcon inkImageWidgetReference
+---@field protected attributeLevel inkTextWidgetReference
+---@field protected frameHovered inkWidgetReference
+---@field protected accent1Hovered inkWidgetReference
+---@field protected accent1BGHovered inkWidgetReference
+---@field protected accent2Hovered inkWidgetReference
+---@field protected accent2BGHovered inkWidgetReference
+---@field protected topConnectionContainer inkWidgetReference
+---@field protected bottomConnectionContainer inkWidgetReference
+---@field protected levelContainer inkWidgetReference
+---@field protected dataManager PlayerDevelopmentDataManager
+---@field protected attribute PerkMenuAttribute
+---@field protected attributeData AttributeData
 PerksMenuAttributeDisplayController = {}
 
 ---@param fields? table

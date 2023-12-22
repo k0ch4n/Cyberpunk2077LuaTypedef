@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ClimbEvents: LocomotionGroundEvents
----@field public ["ikHandEvents"] entIKTargetAddEvent[]
----@field public ["shouldIkHands"] Bool
----@field public ["framesDelayingAnimStart"] Int32
----@field public ["climbedEntity"] entEntity
----@field public ["playerCapsuleDimensions"] Vector4
+---@field public ikHandEvents entIKTargetAddEvent[]
+---@field public shouldIkHands Bool
+---@field public framesDelayingAnimStart Int32
+---@field public climbedEntity entEntity
+---@field public playerCapsuleDimensions Vector4
 ClimbEvents = {}
 
 ---@param fields? table

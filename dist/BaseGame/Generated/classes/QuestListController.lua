@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class QuestListController: inkWidgetLogicController
----@field private ["CategoryName"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["QuestListRef"] inkCompoundWidgetReference
----@field private ["QuestType"] gameJournalQuestType
----@field private ["QuestItems"] QuestItemController[]
----@field private ["LastQuestData"] QuestDataWrapper
+---@field private CategoryName inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private QuestListRef inkCompoundWidgetReference
+---@field private QuestType gameJournalQuestType
+---@field private QuestItems QuestItemController[]
+---@field private LastQuestData QuestDataWrapper
 QuestListController = {}
 
 ---@param fields? table

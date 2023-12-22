@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SetPreventionDifficulty: gameScriptableSystemRequest
----@field public ["damageDealtToPlayerMultiplier"] Float
----@field public ["chaseAggressivnessMultiplier"] Float
----@field public ["difficuiltyReset"] Bool
----@field public ["source"] CName
+---@field public damageDealtToPlayerMultiplier Float
+---@field public chaseAggressivnessMultiplier Float
+---@field public difficuiltyReset Bool
+---@field public source CName
 SetPreventionDifficulty = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackLockHacks: redEvent
----@field public ["IsLocked"] Bool
+---@field public IsLocked Bool
 QuickHackLockHacks = {}
 
 ---@param fields? table

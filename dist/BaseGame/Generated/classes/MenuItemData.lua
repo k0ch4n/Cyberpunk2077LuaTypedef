@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuItemData: IScriptable
----@field public ["menuData"] MenuData
+---@field public menuData MenuData
 MenuItemData = {}
 
 ---@param fields? table

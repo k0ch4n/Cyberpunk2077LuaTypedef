@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questStreetCredTier_ConditionType: questIStatsConditionType
----@field public ["tierID"] TweakDBID
----@field public ["comparisonType"] EComparisonType
+---@field public tierID TweakDBID
+---@field public comparisonType EComparisonType
 questStreetCredTier_ConditionType = {}
 
 ---@param fields? table

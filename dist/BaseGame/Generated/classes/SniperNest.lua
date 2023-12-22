@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class SniperNest: SensorDevice
----@field private ["animFeature"] AnimFeature_SecurityTurretData
----@field private ["animFeatureName"] CName
----@field protected ["weapon"] gameweaponObject
----@field protected ["itemID"] gameItemID
----@field private ["teleportAfterEnter"] NodeRef
----@field private ["burstDelayEvtID"] gameDelayID
----@field private ["isBurstDelayOngoing"] Bool
----@field private ["nextShootCycleDelayEvtID"] gameDelayID
----@field private ["isShootingOngoing"] Bool
----@field private ["timeToNextShot"] Float
----@field private ["player"] PlayerPuppet
----@field private ["targetZoom"] Float
----@field private ["startZoom"] Float
----@field private ["zoomLerpTimeStamp"] Float
----@field private ["zoomLerpDuration"] Float
+---@field private animFeature AnimFeature_SecurityTurretData
+---@field private animFeatureName CName
+---@field protected weapon gameweaponObject
+---@field protected itemID gameItemID
+---@field private teleportAfterEnter NodeRef
+---@field private burstDelayEvtID gameDelayID
+---@field private isBurstDelayOngoing Bool
+---@field private nextShootCycleDelayEvtID gameDelayID
+---@field private isShootingOngoing Bool
+---@field private timeToNextShot Float
+---@field private player PlayerPuppet
+---@field private targetZoom Float
+---@field private startZoom Float
+---@field private zoomLerpTimeStamp Float
+---@field private zoomLerpDuration Float
 SniperNest = {}
 
 ---@param fields? table

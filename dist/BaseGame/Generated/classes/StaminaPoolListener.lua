@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StaminaPoolListener: gameScriptStatPoolsListener
----@field private ["staminaBar"] StaminabarWidgetGameController
+---@field private staminaBar StaminabarWidgetGameController
 StaminaPoolListener = {}
 
 ---@param fields? table

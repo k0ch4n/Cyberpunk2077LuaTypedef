@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSceneInterrupt_ConditionType: questISceneConditionType
----@field public ["sceneFile"] scnSceneResource
----@field public ["onlyInSafeMoment"] Bool
----@field public ["interruptConditions"] scnIInterruptCondition[]
+---@field public sceneFile scnSceneResource
+---@field public onlyInSafeMoment Bool
+---@field public interruptConditions scnIInterruptCondition[]
 questSceneInterrupt_ConditionType = {}
 
 ---@param fields? table

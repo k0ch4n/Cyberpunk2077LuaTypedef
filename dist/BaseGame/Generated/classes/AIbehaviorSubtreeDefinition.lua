@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSubtreeDefinition: AIbehaviorNestedTreeDefinition
----@field public ["tree"] AIbehaviorParameterizedBehavior
+---@field public tree AIbehaviorParameterizedBehavior
 AIbehaviorSubtreeDefinition = {}
 
 ---@param fields? table

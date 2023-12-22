@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CyberdeckStatController: inkWidgetLogicController
----@field protected ["label"] inkTextWidgetReference
----@field protected ["settings"] userSettingsUserSettings
----@field protected ["settingsListener"] CyberdeckTooltipSettingsListener
----@field protected ["groupPath"] CName
----@field protected ["minWidth"] inkWidgetReference
----@field protected ["bigFontEnabled"] Bool
+---@field protected label inkTextWidgetReference
+---@field protected settings userSettingsUserSettings
+---@field protected settingsListener CyberdeckTooltipSettingsListener
+---@field protected groupPath CName
+---@field protected minWidth inkWidgetReference
+---@field protected bigFontEnabled Bool
 CyberdeckStatController = {}
 
 ---@param fields? table

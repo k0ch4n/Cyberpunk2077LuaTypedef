@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class TabButtonController: inkToggleController
----@field protected ["label"] inkTextWidgetReference
----@field protected ["icon"] inkImageWidgetReference
----@field protected ["data"] Int32
----@field protected ["labelSet"] String
----@field protected ["iconSet"] String
+---@field protected label inkTextWidgetReference
+---@field protected icon inkImageWidgetReference
+---@field protected data Int32
+---@field protected labelSet String
+---@field protected iconSet String
 TabButtonController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIStatListener: gameScriptStatsListener
----@field private ["owner"] ScriptedPuppet
----@field private ["behaviorCallbackName"] CName
+---@field private owner ScriptedPuppet
+---@field private behaviorCallbackName CName
 AIStatListener = {}
 
 ---@param fields? table

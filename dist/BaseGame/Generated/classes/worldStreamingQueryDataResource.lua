@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldStreamingQueryDataResource: CResource
----@field public ["roadDatas"] worldStreamingQueryRoadData[]
----@field public ["connectedRoadDataIndices"] Uint16[]
+---@field public roadDatas worldStreamingQueryRoadData[]
+---@field public connectedRoadDataIndices Uint16[]
 worldStreamingQueryDataResource = {}
 
 ---@param fields? table

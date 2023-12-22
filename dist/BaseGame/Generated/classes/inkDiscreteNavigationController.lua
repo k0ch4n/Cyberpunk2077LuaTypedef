@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkDiscreteNavigationController: inkWidgetLogicController
----@field public ["shouldUpdateScrollController"] Bool
----@field public ["isNavigalbe"] Bool
----@field public ["supportsHoldInput"] Bool
+---@field public shouldUpdateScrollController Bool
+---@field public isNavigalbe Bool
+---@field public supportsHoldInput Bool
 inkDiscreteNavigationController = {}
 
 ---@param fields? table

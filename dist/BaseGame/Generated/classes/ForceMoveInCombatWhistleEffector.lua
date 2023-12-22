@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceMoveInCombatWhistleEffector: ForceMoveInCombatEffector
----@field public ["targetPosition"] Vector4
+---@field public targetPosition Vector4
 ForceMoveInCombatWhistleEffector = {}
 
 ---@param fields? table

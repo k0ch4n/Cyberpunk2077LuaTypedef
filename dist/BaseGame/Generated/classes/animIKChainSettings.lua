@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animIKChainSettings
----@field public ["chainName"] CName
----@field public ["enableFloatTrack"] CName
----@field public ["ikEndPointOffset"] Vector3
----@field public ["ikEndRotationOffset"] Quaternion
+---@field public chainName CName
+---@field public enableFloatTrack CName
+---@field public ikEndPointOffset Vector3
+---@field public ikEndRotationOffset Quaternion
 animIKChainSettings = {}
 
 ---@param fields? table

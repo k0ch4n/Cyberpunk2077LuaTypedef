@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CPOMissionDevice: gameObject
----@field protected ["compatibleDeviceName"] CName
----@field protected ["blockAfterOperation"] Bool
----@field protected ["factToUnblock"] CName
----@field protected ["isBlocked"] Bool
----@field private ["factUnblockCallbackID"] Uint32
+---@field protected compatibleDeviceName CName
+---@field protected blockAfterOperation Bool
+---@field protected factToUnblock CName
+---@field protected isBlocked Bool
+---@field private factUnblockCallbackID Uint32
 CPOMissionDevice = {}
 
 ---@param fields? table

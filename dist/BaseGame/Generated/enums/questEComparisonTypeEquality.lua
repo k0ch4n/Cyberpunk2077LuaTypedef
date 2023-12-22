@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questEComparisonTypeEquality: Enum
----@field ["Equal"] questEComparisonTypeEquality 0
----@field ["NotEqual"] questEComparisonTypeEquality 1
+---@field Equal 0
+---@field NotEqual 1
 questEComparisonTypeEquality = {}

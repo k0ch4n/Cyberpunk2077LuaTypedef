@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldFoliageRawData: ISerializable
----@field public ["items"] worldFoliageRawItem[]
+---@field public items worldFoliageRawItem[]
 worldFoliageRawData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SignalType: Enum
----@field ["DEFAULT"] SignalType 0
----@field ["REGISTRATION"] SignalType 1
----@field ["UNREGISTRATION"] SignalType 2
+---@field DEFAULT 0
+---@field REGISTRATION 1
+---@field UNREGISTRATION 2
 SignalType = {}

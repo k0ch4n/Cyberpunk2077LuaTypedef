@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForcedRagdollDeathSignal: gameTaggedSignalUserData
----@field public ["value"] Bool
+---@field public value Bool
 ForcedRagdollDeathSignal = {}
 
 ---@param fields? table

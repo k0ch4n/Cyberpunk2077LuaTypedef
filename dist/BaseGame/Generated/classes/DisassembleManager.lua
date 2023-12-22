@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class DisassembleManager: gameuiMenuGameController
----@field private ["listRef"] inkCompoundWidgetReference
----@field private ["initialPopupDelay"] Float
----@field private ["popupList"] DisassemblePopupLogicController[]
----@field private ["listOfAddedInventoryItems"] gameInventoryItemData[]
----@field private ["player"] PlayerPuppet
----@field private ["InventoryManager"] InventoryDataManagerV2
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["root"] inkWidget
----@field private ["animProxy"] inkanimProxy
----@field private ["alpha_fadein"] inkanimDefinition
----@field private ["AnimOptions"] inkanimPlaybackOptions
----@field private ["DisassembleCallback"] UI_CraftingDef
----@field private ["DisassembleBlackboard"] gameIBlackboard
----@field private ["DisassembleBBID"] redCallbackObject
----@field private ["CraftingBBID"] redCallbackObject
+---@field private listRef inkCompoundWidgetReference
+---@field private initialPopupDelay Float
+---@field private popupList DisassemblePopupLogicController[]
+---@field private listOfAddedInventoryItems gameInventoryItemData[]
+---@field private player PlayerPuppet
+---@field private InventoryManager InventoryDataManagerV2
+---@field private transactionSystem gameTransactionSystem
+---@field private root inkWidget
+---@field private animProxy inkanimProxy
+---@field private alpha_fadein inkanimDefinition
+---@field private AnimOptions inkanimPlaybackOptions
+---@field private DisassembleCallback UI_CraftingDef
+---@field private DisassembleBlackboard gameIBlackboard
+---@field private DisassembleBBID redCallbackObject
+---@field private CraftingBBID redCallbackObject
 DisassembleManager = {}
 
 ---@param fields? table

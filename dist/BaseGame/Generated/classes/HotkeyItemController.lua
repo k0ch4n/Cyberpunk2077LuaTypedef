@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class HotkeyItemController: GenericHotkeyController
----@field protected ["hotkeyItemSlot"] inkWidgetReference
----@field protected ["hotkeyItemWidget"] inkWidget
----@field protected ["hotkeyItemController"] InventoryItemDisplayController
----@field protected ["currentItem"] gameInventoryItemData
----@field private ["hotkeyBlackboard"] gameIBlackboard
----@field private ["hotkeyCallbackID"] redCallbackObject
----@field private ["equipmentSystem"] EquipmentSystem
----@field protected ["inventoryManager"] InventoryDataManagerV2
----@field protected ["dpadAnim"] inkanimProxy
+---@field protected hotkeyItemSlot inkWidgetReference
+---@field protected hotkeyItemWidget inkWidget
+---@field protected hotkeyItemController InventoryItemDisplayController
+---@field protected currentItem gameInventoryItemData
+---@field private hotkeyBlackboard gameIBlackboard
+---@field private hotkeyCallbackID redCallbackObject
+---@field private equipmentSystem EquipmentSystem
+---@field protected inventoryManager InventoryDataManagerV2
+---@field protected dpadAnim inkanimProxy
 HotkeyItemController = {}
 
 ---@param fields? table

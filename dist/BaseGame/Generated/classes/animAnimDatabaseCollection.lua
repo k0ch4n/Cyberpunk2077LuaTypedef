@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimDatabaseCollection
----@field public ["animDatabases"] animAnimDatabaseCollectionEntry[]
+---@field public animDatabases animAnimDatabaseCollectionEntry[]
 animAnimDatabaseCollection = {}
 
 ---@param fields? table

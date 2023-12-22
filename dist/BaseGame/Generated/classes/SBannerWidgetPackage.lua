@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SBannerWidgetPackage: SWidgetPackage
----@field public ["title"] String
----@field public ["description"] String
----@field public ["content"] redResourceReferenceScriptToken
+---@field public title String
+---@field public description String
+---@field public content redResourceReferenceScriptToken
 SBannerWidgetPackage = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimFeatureEntry
----@field public ["name"] CName
----@field public ["className"] CName
----@field public ["forceAllocate"] Bool
+---@field public name CName
+---@field public className CName
+---@field public forceAllocate Bool
 animAnimFeatureEntry = {}
 
 ---@param fields? table

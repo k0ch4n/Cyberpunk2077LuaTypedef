@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_Device: worldEditorDebugColoringSettings
----@field public ["defaultColor"] Color
+---@field public defaultColor Color
 worldDebugColoring_Device = {}
 
 ---@param fields? table

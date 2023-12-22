@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entAnimParamSlotFunction: Enum
----@field ["RenderingPlane"] entAnimParamSlotFunction 0
----@field ["Visibility"] entAnimParamSlotFunction 1
+---@field RenderingPlane 0
+---@field Visibility 1
 entAnimParamSlotFunction = {}

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIBaseMountCommand: AICommand
----@field public ["mountData"] gameMountEventData
+---@field public mountData gameMountEventData
 AIBaseMountCommand = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_BlendSpace_InternalsBlendSpaceCoordinateDescription
----@field public ["name"] CName
----@field public ["minValue"] Float
----@field public ["maxValue"] Float
----@field public ["gridDivisionsCount"] Uint32
+---@field public name CName
+---@field public minValue Float
+---@field public maxValue Float
+---@field public gridDivisionsCount Uint32
 animAnimNode_BlendSpace_InternalsBlendSpaceCoordinateDescription = {}
 
 ---@param fields? table

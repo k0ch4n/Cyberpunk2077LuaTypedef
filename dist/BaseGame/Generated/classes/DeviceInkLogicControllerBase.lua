@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DeviceInkLogicControllerBase: inkWidgetLogicController
----@field protected ["targetWidgetRef"] inkWidgetReference
----@field protected ["displayNameWidget"] inkTextWidgetReference
----@field protected ["isInitialized"] Bool
----@field protected ["targetWidget"] inkWidget
+---@field protected targetWidgetRef inkWidgetReference
+---@field protected displayNameWidget inkTextWidgetReference
+---@field protected isInitialized Bool
+---@field protected targetWidget inkWidget
 DeviceInkLogicControllerBase = {}
 
 ---@param fields? table

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class worldQuestType: Enum
----@field ["MainQuest"] worldQuestType 0
----@field ["SideQuest"] worldQuestType 1
----@field ["StreetStory"] worldQuestType 2
----@field ["MinorActivities"] worldQuestType 3
----@field ["MiniWorldStories"] worldQuestType 4
----@field ["CyberJunkie"] worldQuestType 5
----@field ["Courier"] worldQuestType 6
----@field ["CourierQuestGiver"] worldQuestType 7
----@field ["StuntChallenges"] worldQuestType 8
----@field ["StuntChallengesQuestGiver"] worldQuestType 9
----@field ["AirDrop"] worldQuestType 10
----@field ["BlackMarket"] worldQuestType 11
----@field ["Food"] worldQuestType 12
----@field ["TechStore"] worldQuestType 13
----@field ["Clothing"] worldQuestType 14
----@field ["Medpoint"] worldQuestType 15
----@field ["WeaponShop"] worldQuestType 16
----@field ["Ripperdoc"] worldQuestType 17
----@field ["CyberwareShop"] worldQuestType 18
----@field ["MeleeWeaponVendor"] worldQuestType 19
----@field ["Netrunner"] worldQuestType 20
----@field ["Outpost"] worldQuestType 21
----@field ["GangWatch"] worldQuestType 22
+---@field MainQuest 0
+---@field SideQuest 1
+---@field StreetStory 2
+---@field MinorActivities 3
+---@field MiniWorldStories 4
+---@field CyberJunkie 5
+---@field Courier 6
+---@field CourierQuestGiver 7
+---@field StuntChallenges 8
+---@field StuntChallengesQuestGiver 9
+---@field AirDrop 10
+---@field BlackMarket 11
+---@field Food 12
+---@field TechStore 13
+---@field Clothing 14
+---@field Medpoint 15
+---@field WeaponShop 16
+---@field Ripperdoc 17
+---@field CyberwareShop 18
+---@field MeleeWeaponVendor 19
+---@field Netrunner 20
+---@field Outpost 21
+---@field GangWatch 22
 worldQuestType = {}

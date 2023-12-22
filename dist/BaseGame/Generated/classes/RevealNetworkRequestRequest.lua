@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RevealNetworkRequestRequest: gameScriptableSystemRequest
----@field public ["target"] entEntityID
----@field public ["delay"] Float
+---@field public target entEntityID
+---@field public delay Float
 RevealNetworkRequestRequest = {}
 
 ---@param fields? table

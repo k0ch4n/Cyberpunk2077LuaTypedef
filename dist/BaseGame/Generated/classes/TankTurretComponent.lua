@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TankTurretComponent: gameScriptableComponent
----@field public ["attackRecord"] TweakDBID
----@field public ["slotComponentName1"] CName
----@field public ["slotName1"] CName
----@field public ["slotComponentName2"] CName
----@field public ["slotName2"] CName
----@field private ["slotComponent1"] entSlotComponent
----@field private ["slotComponent2"] entSlotComponent
+---@field public attackRecord TweakDBID
+---@field public slotComponentName1 CName
+---@field public slotName1 CName
+---@field public slotComponentName2 CName
+---@field public slotName2 CName
+---@field private slotComponent1 entSlotComponent
+---@field private slotComponent2 entSlotComponent
 TankTurretComponent = {}
 
 ---@param fields? table

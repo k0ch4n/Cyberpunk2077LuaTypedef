@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class characterCreationVoiceOverSwitcher: CharacterCreationBodyMorphBaseOption
----@field private ["selectedLabel"] inkTextWidgetReference
----@field private ["selectorNextBtn"] inkWidgetReference
----@field private ["selectorPrevBtn"] inkWidgetReference
----@field private ["warningLabel"] inkTextWidgetReference
----@field private ["isMale"] Bool
----@field private ["male"] String
----@field private ["female"] String
----@field private ["selectorTexture"] inkImageWidgetReference
----@field private ["arrowsTexture"] inkImageWidgetReference
----@field private ["optionSwitchHint"] inkWidgetReference
----@field private ["translationAnimationCtrl"] inkTextReplaceAnimationController
----@field private ["selector"] inkWidget
----@field private ["inputDisabled"] Bool
+---@field private selectedLabel inkTextWidgetReference
+---@field private selectorNextBtn inkWidgetReference
+---@field private selectorPrevBtn inkWidgetReference
+---@field private warningLabel inkTextWidgetReference
+---@field private isMale Bool
+---@field private male String
+---@field private female String
+---@field private selectorTexture inkImageWidgetReference
+---@field private arrowsTexture inkImageWidgetReference
+---@field private optionSwitchHint inkWidgetReference
+---@field private translationAnimationCtrl inkTextReplaceAnimationController
+---@field private selector inkWidget
+---@field private inputDisabled Bool
 characterCreationVoiceOverSwitcher = {}
 
 ---@param fields? table

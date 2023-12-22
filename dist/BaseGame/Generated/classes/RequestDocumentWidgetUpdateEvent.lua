@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestDocumentWidgetUpdateEvent: RequestWidgetUpdateEvent
----@field public ["documentType"] EDocumentType
----@field public ["documentAdress"] SDocumentAdress
+---@field public documentType EDocumentType
+---@field public documentAdress SDocumentAdress
 RequestDocumentWidgetUpdateEvent = {}
 
 ---@param fields? table

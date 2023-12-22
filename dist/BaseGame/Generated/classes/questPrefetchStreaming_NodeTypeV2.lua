@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questPrefetchStreaming_NodeTypeV2: questIWorldDataManagerNodeType
----@field public ["prefetchPositionRef"] NodeRef
----@field public ["useStreamingOcclusion"] Bool
----@field public ["maxDistance"] Float
----@field public ["forceEnable"] Bool
+---@field public prefetchPositionRef NodeRef
+---@field public useStreamingOcclusion Bool
+---@field public maxDistance Float
+---@field public forceEnable Bool
 questPrefetchStreaming_NodeTypeV2 = {}
 
 ---@param fields? table

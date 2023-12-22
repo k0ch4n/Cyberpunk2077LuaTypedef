@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsListener: gameScriptStatsListener
----@field public ["owner"] gameObject
----@field public ["controller"] InventoryStatsController
+---@field public owner gameObject
+---@field public controller InventoryStatsController
 InventoryStatsListener = {}
 
 ---@param fields? table

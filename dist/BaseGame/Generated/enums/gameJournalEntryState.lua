@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalEntryState: Enum
----@field ["Undefined"] gameJournalEntryState 0
----@field ["Inactive"] gameJournalEntryState 1
----@field ["Active"] gameJournalEntryState 2
----@field ["Succeeded"] gameJournalEntryState 3
----@field ["Failed"] gameJournalEntryState 4
+---@field Undefined 0
+---@field Inactive 1
+---@field Active 2
+---@field Succeeded 3
+---@field Failed 4
 gameJournalEntryState = {}

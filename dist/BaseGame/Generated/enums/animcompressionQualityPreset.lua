@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animcompressionQualityPreset: Enum
----@field ["CINEMATIC_HIGH"] animcompressionQualityPreset 3
----@field ["HIGH"] animcompressionQualityPreset 0
----@field ["MID"] animcompressionQualityPreset 1
----@field ["LOW"] animcompressionQualityPreset 2
+---@field CINEMATIC_HIGH 3
+---@field HIGH 0
+---@field MID 1
+---@field LOW 2
 animcompressionQualityPreset = {}

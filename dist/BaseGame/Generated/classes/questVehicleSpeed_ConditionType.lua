@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questVehicleSpeed_ConditionType: questIVehicleConditionType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["speed"] Float
----@field public ["comparisonType"] vehicleEVehicleSpeedConditionType
+---@field public vehicleRef gameEntityReference
+---@field public speed Float
+---@field public comparisonType vehicleEVehicleSpeedConditionType
 questVehicleSpeed_ConditionType = {}
 
 ---@param fields? table

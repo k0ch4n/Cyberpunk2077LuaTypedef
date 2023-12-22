@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animVectorCoordinateType: Enum
----@field ["X"] animVectorCoordinateType 0
----@field ["Y"] animVectorCoordinateType 1
----@field ["Z"] animVectorCoordinateType 2
----@field ["W"] animVectorCoordinateType 3
+---@field X 0
+---@field Y 1
+---@field Z 2
+---@field W 3
 animVectorCoordinateType = {}

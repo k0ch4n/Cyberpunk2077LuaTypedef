@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_BlendFromPose: animAnimNode_OnePoseInput
----@field public ["blendTime"] Float
----@field public ["blendType"] animEBlendTypeLBC
----@field public ["customBlendCurve"] curveData
----@field public ["mode"] animEBlendFromPoseMode
----@field public ["requestedByTag"] CName
+---@field public blendTime Float
+---@field public blendType animEBlendTypeLBC
+---@field public customBlendCurve curveData
+---@field public mode animEBlendFromPoseMode
+---@field public requestedByTag CName
 animAnimNode_BlendFromPose = {}
 
 ---@param fields? table

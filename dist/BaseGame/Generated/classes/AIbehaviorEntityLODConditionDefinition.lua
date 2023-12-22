@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorEntityLODConditionDefinition: AIbehaviorConditionDefinition
----@field public ["any"] AIbehaviorEntityLODConditions[]
----@field public ["all"] AIbehaviorEntityLODConditions[]
----@field public ["none"] AIbehaviorEntityLODConditions[]
+---@field public any AIbehaviorEntityLODConditions[]
+---@field public all AIbehaviorEntityLODConditions[]
+---@field public none AIbehaviorEntityLODConditions[]
 AIbehaviorEntityLODConditionDefinition = {}
 
 ---@param fields? table

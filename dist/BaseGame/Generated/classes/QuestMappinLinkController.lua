@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class QuestMappinLinkController: BaseCodexLinkController
----@field private ["mappinEntry"] gameJournalQuestMapPinBase
----@field private ["mappinEntryHash"] gameJournalQuestMapPinBase
----@field private ["jumpTo"] Vector3
----@field private ["hash"] Int32
----@field private ["isTracked"] Bool
+---@field private mappinEntry gameJournalQuestMapPinBase
+---@field private mappinEntryHash gameJournalQuestMapPinBase
+---@field private jumpTo Vector3
+---@field private hash Int32
+---@field private isTracked Bool
 QuestMappinLinkController = {}
 
 ---@param fields? table

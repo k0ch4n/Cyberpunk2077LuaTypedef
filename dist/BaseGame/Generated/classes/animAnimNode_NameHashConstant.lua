@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_NameHashConstant: animAnimNode_IntValue
----@field public ["value"] CName
+---@field public value CName
 animAnimNode_NameHashConstant = {}
 
 ---@param fields? table

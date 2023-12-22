@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionVehicleHackedEvent: redEvent
----@field public ["instigatorID"] entEntityID
+---@field public instigatorID entEntityID
 PreventionVehicleHackedEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverheatDecisions: WeaponTransition
----@field private ["callbackID"] redCallbackObject
+---@field private callbackID redCallbackObject
 OverheatDecisions = {}
 
 ---@param fields? table

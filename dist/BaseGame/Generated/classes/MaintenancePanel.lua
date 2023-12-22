@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MaintenancePanel: InteractiveMasterDevice
----@field private ["animFeature"] AnimFeature_SimpleDevice
+---@field private animFeature AnimFeature_SimpleDevice
 MaintenancePanel = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class HitShapeUserDataBase: gameHitShapeUserData
----@field public ["hitShapeTag"] CName
----@field public ["hitShapeType"] EHitShapeType
----@field public ["hitReactionZone"] EHitReactionZone
----@field public ["dismembermentPart"] EAIDismembermentBodyPart
----@field public ["isProtectionLayer"] Bool
----@field public ["quickHacksPierceProtection"] Bool
----@field public ["isInternalWeakspot"] Bool
----@field public ["hitShapeDamageMod"] Float
+---@field public hitShapeTag CName
+---@field public hitShapeType EHitShapeType
+---@field public hitReactionZone EHitReactionZone
+---@field public dismembermentPart EAIDismembermentBodyPart
+---@field public isProtectionLayer Bool
+---@field public quickHacksPierceProtection Bool
+---@field public isInternalWeakspot Bool
+---@field public hitShapeDamageMod Float
 HitShapeUserDataBase = {}
 
 ---@param fields? table

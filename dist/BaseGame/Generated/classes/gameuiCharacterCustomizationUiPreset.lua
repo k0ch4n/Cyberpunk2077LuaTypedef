@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationUiPreset: CResource
----@field public ["isMaleVO"] Bool
----@field public ["values"] gameuiCharacterCustomizationUiPresetValue[]
+---@field public isMaleVO Bool
+---@field public values gameuiCharacterCustomizationUiPresetValue[]
 gameuiCharacterCustomizationUiPreset = {}
 
 ---@param fields? table

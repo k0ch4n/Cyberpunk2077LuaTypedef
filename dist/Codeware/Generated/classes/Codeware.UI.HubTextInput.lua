@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_HubTextInput: Codeware_UI_TextInput
----@field public ["bg"] inkImageWidget
----@field public ["fill"] inkImageWidget
----@field public ["frame"] inkImageWidget
----@field public ["hover"] inkImageWidget
----@field public ["focus"] inkImageWidget
----@field public ["useAnimations"] Bool
----@field public ["activeRootAnimDef"] inkanimDefinition
----@field public ["activeRootAnimProxy"] inkanimProxy
----@field public ["hoverFrameAnimDef"] inkanimDefinition
----@field public ["hoverFrameAnimProxy"] inkanimProxy
----@field public ["focusFillAnimDef"] inkanimDefinition
----@field public ["focusFillAnimProxy"] inkanimProxy
----@field public ["focusFrameAnimDef"] inkanimDefinition
----@field public ["focusFrameAnimProxy"] inkanimProxy
+---@field public bg inkImageWidget
+---@field public fill inkImageWidget
+---@field public frame inkImageWidget
+---@field public hover inkImageWidget
+---@field public focus inkImageWidget
+---@field public useAnimations Bool
+---@field public activeRootAnimDef inkanimDefinition
+---@field public activeRootAnimProxy inkanimProxy
+---@field public hoverFrameAnimDef inkanimDefinition
+---@field public hoverFrameAnimProxy inkanimProxy
+---@field public focusFillAnimDef inkanimDefinition
+---@field public focusFillAnimProxy inkanimProxy
+---@field public focusFrameAnimDef inkanimDefinition
+---@field public focusFrameAnimProxy inkanimProxy
 Codeware_UI_HubTextInput = {}
 
 ---@param fields? table

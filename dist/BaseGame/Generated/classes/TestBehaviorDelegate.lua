@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TestBehaviorDelegate: AIbehaviorScriptBehaviorDelegate
----@field public ["integer"] Int32
----@field public ["floatValue"] Float
----@field public ["names"] CName[]
----@field public ["command"] AICommand
----@field public ["newProperty2"] Bool
----@field public ["newProperty"] Bool
----@field public ["newProperty3"] Bool
----@field public ["newProperty4"] Bool
----@field public ["nodeRef"] NodeRef
+---@field public integer Int32
+---@field public floatValue Float
+---@field public names CName[]
+---@field public command AICommand
+---@field public newProperty2 Bool
+---@field public newProperty Bool
+---@field public newProperty3 Bool
+---@field public newProperty4 Bool
+---@field public nodeRef NodeRef
 TestBehaviorDelegate = {}
 
 ---@param fields? table

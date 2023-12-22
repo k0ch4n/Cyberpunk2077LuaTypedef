@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiPhoneWaveformData: IScriptable
----@field public ["points"] Vector4[]
+---@field public points Vector4[]
 gameuiPhoneWaveformData = {}
 
 ---@param fields? table

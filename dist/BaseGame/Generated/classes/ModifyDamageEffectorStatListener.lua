@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ModifyDamageEffectorStatListener: gameScriptStatsListener
----@field public ["effector"] ModifyDamageEffector
+---@field public effector ModifyDamageEffector
 ModifyDamageEffectorStatListener = {}
 
 ---@param fields? table

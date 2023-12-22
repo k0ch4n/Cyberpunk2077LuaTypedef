@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animBoolLink
----@field public ["node"] animAnimNode_BoolValue
+---@field public node animAnimNode_BoolValue
 animBoolLink = {}
 
 ---@param fields? table

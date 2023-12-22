@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckStimTag: AIbehaviorconditionScript
----@field public ["stimTagToCompare"] CName[]
+---@field public stimTagToCompare CName[]
 CheckStimTag = {}
 
 ---@param fields? table

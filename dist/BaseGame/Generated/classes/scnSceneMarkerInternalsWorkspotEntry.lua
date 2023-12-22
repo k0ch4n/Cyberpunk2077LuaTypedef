@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnSceneMarkerInternalsWorkspotEntry
----@field public ["instanceId"] CRUID
----@field public ["instanceOrigin"] Transform
----@field public ["entries"] scnSceneMarkerInternalsWorkspotEntrySocket[]
----@field public ["exits"] scnSceneMarkerInternalsWorkspotEntrySocket[]
+---@field public instanceId CRUID
+---@field public instanceOrigin Transform
+---@field public entries scnSceneMarkerInternalsWorkspotEntrySocket[]
+---@field public exits scnSceneMarkerInternalsWorkspotEntrySocket[]
 scnSceneMarkerInternalsWorkspotEntry = {}
 
 ---@param fields? table

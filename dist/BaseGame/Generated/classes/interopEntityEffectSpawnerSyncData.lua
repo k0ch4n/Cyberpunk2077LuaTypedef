@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class interopEntityEffectSpawnerSyncData
----@field public ["componentID"] EditorObjectID
----@field public ["componentParentID"] EditorObjectID
----@field public ["componentName"] CName
----@field public ["effects"] interopEntityEffectSelectionSyncData[]
----@field public ["templatePath"] String
----@field public ["templateColor"] Color
----@field public ["included"] Bool
+---@field public componentID EditorObjectID
+---@field public componentParentID EditorObjectID
+---@field public componentName CName
+---@field public effects interopEntityEffectSelectionSyncData[]
+---@field public templatePath String
+---@field public templateColor Color
+---@field public included Bool
 interopEntityEffectSpawnerSyncData = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questUseWorkspotParams
----@field public ["workspotNode"] NodeRef
----@field public ["forceEntryAnimName"] CName
+---@field public workspotNode NodeRef
+---@field public forceEntryAnimName CName
 questUseWorkspotParams = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CuttingGrenadePotentialTarget
----@field public ["entity"] ScriptedPuppet
----@field public ["hits"] Int32
+---@field public entity ScriptedPuppet
+---@field public hits Int32
 CuttingGrenadePotentialTarget = {}
 
 ---@param fields? table

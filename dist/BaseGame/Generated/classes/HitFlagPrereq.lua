@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitFlagPrereq: GenericHitPrereq
----@field public ["flag"] hitFlag
+---@field public flag hitFlag
 HitFlagPrereq = {}
 
 ---@param fields? table

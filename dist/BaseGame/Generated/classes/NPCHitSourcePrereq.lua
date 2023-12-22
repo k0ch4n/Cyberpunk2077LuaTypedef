@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCHitSourcePrereq: gameIScriptablePrereq
----@field public ["hitSource"] EAIHitSource
----@field public ["invert"] Bool
+---@field public hitSource EAIHitSource
+---@field public invert Bool
 NPCHitSourcePrereq = {}
 
 ---@param fields? table

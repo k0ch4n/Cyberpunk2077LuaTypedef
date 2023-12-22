@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animPoleVectorDetails
----@field public ["targetBone"] animTransformIndex
----@field public ["positionOffset"] Vector3
+---@field public targetBone animTransformIndex
+---@field public positionOffset Vector3
 animPoleVectorDetails = {}
 
 ---@param fields? table

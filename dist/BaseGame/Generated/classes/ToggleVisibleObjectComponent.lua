@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleVisibleObjectComponent: StatusEffectTasks
----@field public ["componentTargetState"] Bool
----@field public ["visibleObjectDescription"] CName
+---@field public componentTargetState Bool
+---@field public visibleObjectDescription CName
 ToggleVisibleObjectComponent = {}
 
 ---@param fields? table

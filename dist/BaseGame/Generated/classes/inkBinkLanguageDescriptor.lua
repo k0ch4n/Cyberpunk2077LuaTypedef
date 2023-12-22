@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkBinkLanguageDescriptor
----@field public ["bink"] Bink
----@field public ["languageId"] inkLanguageId
+---@field public bink Bink
+---@field public languageId inkLanguageId
 inkBinkLanguageDescriptor = {}
 
 ---@param fields? table

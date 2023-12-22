@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class garmentMeshParamGarment: meshMeshParameter
----@field public ["chunks"] garmentMeshParamGarmentChunkData[]
+---@field public chunks garmentMeshParamGarmentChunkData[]
 garmentMeshParamGarment = {}
 
 ---@param fields? table

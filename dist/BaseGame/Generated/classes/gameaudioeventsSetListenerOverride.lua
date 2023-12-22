@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsSetListenerOverride: redEvent
----@field public ["enable"] Bool
+---@field public enable Bool
 gameaudioeventsSetListenerOverride = {}
 
 ---@param fields? table

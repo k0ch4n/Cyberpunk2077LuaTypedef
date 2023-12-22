@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CheckEquippedWeapon: AIItemHandlingCondition
----@field public ["slotID"] AIArgumentMapping
----@field public ["itemID"] AIArgumentMapping
----@field protected ["slotIDName"] TweakDBID
----@field protected ["itemIDName"] TweakDBID
+---@field public slotID AIArgumentMapping
+---@field public itemID AIArgumentMapping
+---@field protected slotIDName TweakDBID
+---@field protected itemIDName TweakDBID
 CheckEquippedWeapon = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PointData: IScriptable
----@field public ["position"] Vector4
----@field public ["direction"] Vector4
+---@field public position Vector4
+---@field public direction Vector4
 PointData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_ExternalEvent: animIAnimStateTransitionCondition
----@field public ["eventName"] CName
+---@field public eventName CName
 animAnimStateTransitionCondition_ExternalEvent = {}
 
 ---@param fields? table

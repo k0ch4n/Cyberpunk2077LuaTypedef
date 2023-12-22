@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animHasAnimationCondition: animIStaticCondition
----@field public ["animationName"] CName
+---@field public animationName CName
 animHasAnimationCondition = {}
 
 ---@param fields? table

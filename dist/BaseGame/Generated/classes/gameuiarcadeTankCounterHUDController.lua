@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankCounterHUDController: inkWidgetLogicController
----@field public ["counterText"] inkTextWidgetReference
+---@field public counterText inkTextWidgetReference
 gameuiarcadeTankCounterHUDController = {}
 
 ---@param fields? table

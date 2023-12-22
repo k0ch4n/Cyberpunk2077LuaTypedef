@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameuiDriverCombatMountedPowerWeaponCrosshairGameController: gameuiCrosshairBaseGameController
----@field private ["reticleLeft"] inkWidgetReference
----@field private ["reticleRight"] inkWidgetReference
----@field private ["reticleStartingRange"] Float
----@field private ["defaultOpacity"] Float
----@field private ["reducedOpacity"] Float
----@field private ["weaponList"] gameweaponObject[]
----@field private ["isTPP"] Bool
----@field private ["uiActiveVehicleDataBlackboard"] gameIBlackboard
----@field private ["psmCombatStateChangedCallback"] redCallbackObject
----@field private ["uiActiveVehicleCameraChangedCallback"] redCallbackObject
+---@field private reticleLeft inkWidgetReference
+---@field private reticleRight inkWidgetReference
+---@field private reticleStartingRange Float
+---@field private defaultOpacity Float
+---@field private reducedOpacity Float
+---@field private weaponList gameweaponObject[]
+---@field private isTPP Bool
+---@field private uiActiveVehicleDataBlackboard gameIBlackboard
+---@field private psmCombatStateChangedCallback redCallbackObject
+---@field private uiActiveVehicleCameraChangedCallback redCallbackObject
 gameuiDriverCombatMountedPowerWeaponCrosshairGameController = {}
 
 ---@param fields? table

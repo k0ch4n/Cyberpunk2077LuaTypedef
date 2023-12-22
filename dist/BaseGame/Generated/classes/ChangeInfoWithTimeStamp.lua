@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ChangeInfoWithTimeStamp
----@field public ["TimeStamp"] Float
----@field public ["Change"] Float
+---@field public TimeStamp Float
+---@field public Change Float
 ChangeInfoWithTimeStamp = {}
 
 ---@param fields? table

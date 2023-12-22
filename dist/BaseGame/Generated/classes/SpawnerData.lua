@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SpawnerData
----@field public ["spawnerID"] entEntityID
----@field public ["entryNames"] CName[]
+---@field public spawnerID entEntityID
+---@field public entryNames CName[]
 SpawnerData = {}
 
 ---@param fields? table

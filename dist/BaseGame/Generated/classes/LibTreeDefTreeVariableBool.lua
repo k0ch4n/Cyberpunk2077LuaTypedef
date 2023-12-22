@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefTreeVariableBool: LibTreeDefTreeVariableBoolBase
----@field public ["exportAsProperty"] Bool
----@field public ["defaultValue"] Bool
+---@field public exportAsProperty Bool
+---@field public defaultValue Bool
 LibTreeDefTreeVariableBool = {}
 
 ---@param fields? table

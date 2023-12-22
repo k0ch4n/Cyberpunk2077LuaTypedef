@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class renderDevEnvProbeView: Enum
----@field ["RADIANCE"] renderDevEnvProbeView 0
----@field ["ALBEDO"] renderDevEnvProbeView 1
----@field ["NORMAL"] renderDevEnvProbeView 2
----@field ["ROUGHNESS"] renderDevEnvProbeView 3
----@field ["METALNESS"] renderDevEnvProbeView 4
----@field ["EMISSIVE"] renderDevEnvProbeView 5
----@field ["SKY_MASK"] renderDevEnvProbeView 6
+---@field RADIANCE 0
+---@field ALBEDO 1
+---@field NORMAL 2
+---@field ROUGHNESS 3
+---@field METALNESS 4
+---@field EMISSIVE 5
+---@field SKY_MASK 6
 renderDevEnvProbeView = {}

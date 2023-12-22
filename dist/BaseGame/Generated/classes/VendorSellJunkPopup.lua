@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class VendorSellJunkPopup: gameuiWidgetGameController
----@field private ["itemNameText"] inkTextWidgetReference
----@field private ["buttonHintsRoot"] inkWidgetReference
----@field private ["itemDisplayRef"] inkWidgetReference
----@field private ["rairtyBar"] inkWidgetReference
----@field private ["eqippedItemContainer"] inkWidgetReference
----@field private ["itemPriceContainer"] inkWidgetReference
----@field private ["itemPriceText"] inkTextWidgetReference
----@field private ["root"] inkWidgetReference
----@field private ["background"] inkWidgetReference
----@field private ["headerText"] inkTextWidgetReference
----@field private ["sellItemsFullQuantity"] inkTextWidgetReference
----@field private ["sellItemsLimitedQuantity"] inkTextWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field private ["gameData"] gameItemData
----@field protected ["buttonOk"] inkWidgetReference
----@field protected ["buttonCancel"] inkWidgetReference
----@field private ["closeAnimProxy"] inkanimProxy
----@field private ["data"] VendorSellJunkPopupData
----@field private ["libraryPath"] inkWidgetLibraryReference
----@field private ["closeData"] VendorSellJunkPopupCloseData
+---@field private itemNameText inkTextWidgetReference
+---@field private buttonHintsRoot inkWidgetReference
+---@field private itemDisplayRef inkWidgetReference
+---@field private rairtyBar inkWidgetReference
+---@field private eqippedItemContainer inkWidgetReference
+---@field private itemPriceContainer inkWidgetReference
+---@field private itemPriceText inkTextWidgetReference
+---@field private root inkWidgetReference
+---@field private background inkWidgetReference
+---@field private headerText inkTextWidgetReference
+---@field private sellItemsFullQuantity inkTextWidgetReference
+---@field private sellItemsLimitedQuantity inkTextWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field private gameData gameItemData
+---@field protected buttonOk inkWidgetReference
+---@field protected buttonCancel inkWidgetReference
+---@field private closeAnimProxy inkanimProxy
+---@field private data VendorSellJunkPopupData
+---@field private libraryPath inkWidgetLibraryReference
+---@field private closeData VendorSellJunkPopupCloseData
 VendorSellJunkPopup = {}
 
 ---@param fields? table

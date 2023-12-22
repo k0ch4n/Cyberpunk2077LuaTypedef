@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewItemCompareBuilder: IScriptable
----@field private ["sortData1"] UIInventoryItem
----@field private ["sortData2"] UIInventoryItem
----@field private ["compareBuilder"] CompareBuilder
+---@field private sortData1 UIInventoryItem
+---@field private sortData2 UIInventoryItem
+---@field private compareBuilder CompareBuilder
 NewItemCompareBuilder = {}
 
 ---@param fields? table

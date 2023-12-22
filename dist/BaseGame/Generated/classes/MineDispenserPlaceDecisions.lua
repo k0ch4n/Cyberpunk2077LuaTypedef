@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MineDispenserPlaceDecisions: MineDispenserTransition
----@field private ["spawnPosition"] Vector4
----@field private ["spawnNormal"] Vector4
+---@field private spawnPosition Vector4
+---@field private spawnNormal Vector4
 MineDispenserPlaceDecisions = {}
 
 ---@param fields? table

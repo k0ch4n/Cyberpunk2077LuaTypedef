@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioVehicleCollisionMapItem
----@field public ["name"] CName
----@field public ["impactEvent"] CName
----@field public ["scrapingLoopStart"] CName
----@field public ["scrapingLoopEnd"] CName
+---@field public name CName
+---@field public impactEvent CName
+---@field public scrapingLoopStart CName
+---@field public scrapingLoopEnd CName
 audioVehicleCollisionMapItem = {}
 
 ---@param fields? table

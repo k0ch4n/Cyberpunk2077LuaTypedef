@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentSerializableValue: AIArgumentDefinition
----@field public ["type"] AIArgumentType
----@field public ["defaultValue"] ISerializable
+---@field public type AIArgumentType
+---@field public defaultValue ISerializable
 AIArgumentSerializableValue = {}
 
 ---@param fields? table

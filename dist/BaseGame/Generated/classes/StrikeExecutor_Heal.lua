@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StrikeExecutor_Heal: gameEffectExecutor_Scripted
----@field private ["healthPerc"] Float
+---@field private healthPerc Float
 StrikeExecutor_Heal = {}
 
 ---@param fields? table

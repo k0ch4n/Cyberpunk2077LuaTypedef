@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatController: IScriptable
----@field private ["gameplayActiveFlagsRefreshPolicy"] PlayerCombatControllerRefreshPolicy
----@field private ["blackboardIds"] PlayerCombatControllerBBIds
----@field private ["blackboardValuesIds"] PlayerCombatControllerBBValuesIds
----@field private ["blackboardListenersFunctions"] PlayerCombatControllerBlackboardListenersFunctions
----@field private ["blackboardListeners"] PlayerCombatControllerBBListeners
----@field private ["delayEventsIds"] PlayerCombatControllerDelayCallbacksIds
----@field private ["gameplayActiveFlags"] PlayerCombatControllerActiveFlags
----@field private ["otherVars"] PlayerCombatControllerOtherVars
----@field private ["owner"] gameObject
+---@field private gameplayActiveFlagsRefreshPolicy PlayerCombatControllerRefreshPolicy
+---@field private blackboardIds PlayerCombatControllerBBIds
+---@field private blackboardValuesIds PlayerCombatControllerBBValuesIds
+---@field private blackboardListenersFunctions PlayerCombatControllerBlackboardListenersFunctions
+---@field private blackboardListeners PlayerCombatControllerBBListeners
+---@field private delayEventsIds PlayerCombatControllerDelayCallbacksIds
+---@field private gameplayActiveFlags PlayerCombatControllerActiveFlags
+---@field private otherVars PlayerCombatControllerOtherVars
+---@field private owner gameObject
 PlayerCombatController = {}
 
 ---@param fields? table

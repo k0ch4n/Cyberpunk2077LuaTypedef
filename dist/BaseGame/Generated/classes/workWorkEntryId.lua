@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workWorkEntryId
----@field public ["id"] Uint32
+---@field public id Uint32
 workWorkEntryId = {}
 
 ---@param fields? table

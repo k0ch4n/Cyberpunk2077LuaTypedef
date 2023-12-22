@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadioListItemData: IScriptable
----@field public ["record"] gamedataRadioStation_Record
+---@field public record gamedataRadioStation_Record
 RadioListItemData = {}
 
 ---@param fields? table

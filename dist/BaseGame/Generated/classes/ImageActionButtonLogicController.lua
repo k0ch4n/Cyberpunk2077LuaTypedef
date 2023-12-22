@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ImageActionButtonLogicController: DeviceActionWidgetControllerBase
----@field private ["tallImageWidget"] inkImageWidgetReference
----@field protected ["price"] Int32
+---@field private tallImageWidget inkImageWidgetReference
+---@field protected price Int32
 ImageActionButtonLogicController = {}
 
 ---@param fields? table

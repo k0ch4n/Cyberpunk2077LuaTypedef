@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerWokrspotDeviceOperation: DeviceOperationBase
----@field public ["playerWorkspot"] SWorkspotData
+---@field public playerWorkspot SWorkspotData
 PlayerWokrspotDeviceOperation = {}
 
 ---@param fields? table

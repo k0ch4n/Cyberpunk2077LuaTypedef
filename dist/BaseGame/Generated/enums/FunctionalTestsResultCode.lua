@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class FunctionalTestsResultCode: Enum
----@field ["Valid"] FunctionalTestsResultCode 0
----@field ["MalformedEntityDescr"] FunctionalTestsResultCode 1
----@field ["EntityNotFound"] FunctionalTestsResultCode 2
----@field ["ComponentNotFound"] FunctionalTestsResultCode 3
----@field ["InvalidEntityType"] FunctionalTestsResultCode 4
----@field ["InvalidComponentType"] FunctionalTestsResultCode 5
----@field ["InvalidNodeRef"] FunctionalTestsResultCode 6
----@field ["SlotNotFound"] FunctionalTestsResultCode 7
----@field ["InventoryError"] FunctionalTestsResultCode 8
----@field ["InvalidInputAction"] FunctionalTestsResultCode 9
----@field ["InvalidInputActionCallback"] FunctionalTestsResultCode 10
----@field ["EmptyContainer"] FunctionalTestsResultCode 12
+---@field Valid 0
+---@field MalformedEntityDescr 1
+---@field EntityNotFound 2
+---@field ComponentNotFound 3
+---@field InvalidEntityType 4
+---@field InvalidComponentType 5
+---@field InvalidNodeRef 6
+---@field SlotNotFound 7
+---@field InventoryError 8
+---@field InvalidInputAction 9
+---@field InvalidInputActionCallback 10
+---@field EmptyContainer 12
 FunctionalTestsResultCode = {}

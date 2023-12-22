@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DisplayGlass: InteractiveDevice
----@field protected ["collider"] entIPlacedComponent
----@field protected ["mesh"] entIPlacedComponent
----@field protected ["isDestroyed"] Bool
+---@field protected collider entIPlacedComponent
+---@field protected mesh entIPlacedComponent
+---@field protected isDestroyed Bool
 DisplayGlass = {}
 
 ---@param fields? table

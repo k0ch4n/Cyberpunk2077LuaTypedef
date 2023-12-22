@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class navNaviPositionType: Enum
----@field ["None"] navNaviPositionType 0
----@field ["Normal"] navNaviPositionType 1
----@field ["Projected"] navNaviPositionType 2
+---@field None 0
+---@field Normal 1
+---@field Projected 2
 navNaviPositionType = {}

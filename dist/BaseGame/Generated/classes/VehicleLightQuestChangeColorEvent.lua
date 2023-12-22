@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleLightQuestChangeColorEvent: redEvent
----@field public ["color"] Color
----@field public ["lightType"] vehicleELightType
+---@field public color Color
+---@field public lightType vehicleELightType
 VehicleLightQuestChangeColorEvent = {}
 
 ---@param fields? table

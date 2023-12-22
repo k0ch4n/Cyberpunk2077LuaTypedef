@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetThreatsPersistenceRequest: AIAIEvent
----@field public ["et"] entEntity
----@field public ["isPersistent"] Bool
+---@field public et entEntity
+---@field public isPersistent Bool
 SetThreatsPersistenceRequest = {}
 
 ---@param fields? table

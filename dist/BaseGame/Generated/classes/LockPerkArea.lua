@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LockPerkArea: gamePlayerScriptableSystemRequest
----@field public ["perkArea"] gamedataPerkArea
+---@field public perkArea gamedataPerkArea
 LockPerkArea = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerTargetChangedRequest: gameScriptableSystemRequest
----@field public ["scannerTarget"] entEntityID
+---@field public scannerTarget entEntityID
 ScannerTargetChangedRequest = {}
 
 ---@param fields? table

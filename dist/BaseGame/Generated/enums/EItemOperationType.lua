@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EItemOperationType: Enum
----@field ["ADD"] EItemOperationType 0
----@field ["REMOVE"] EItemOperationType 1
+---@field ADD 0
+---@field REMOVE 1
 EItemOperationType = {}

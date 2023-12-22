@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class sampleGranade: BaseProjectile
----@field private ["countTime"] Float
----@field private ["energyLossFactor"] Float
----@field private ["startVelocity"] Float
----@field private ["grenadeLifetime"] Float
----@field private ["gravitySimulation"] Float
----@field private ["trailEffectName"] CName
----@field private ["alive"] Bool
+---@field private countTime Float
+---@field private energyLossFactor Float
+---@field private startVelocity Float
+---@field private grenadeLifetime Float
+---@field private gravitySimulation Float
+---@field private trailEffectName CName
+---@field private alive Bool
 sampleGranade = {}
 
 ---@param fields? table

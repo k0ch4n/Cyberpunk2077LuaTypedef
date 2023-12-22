@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatPoolBasedStatusEffectEffectorListener: gameScriptStatPoolsListener
----@field public ["effector"] StatPoolBasedStatusEffectEffector
+---@field public effector StatPoolBasedStatusEffectEffector
 StatPoolBasedStatusEffectEffectorListener = {}
 
 ---@param fields? table

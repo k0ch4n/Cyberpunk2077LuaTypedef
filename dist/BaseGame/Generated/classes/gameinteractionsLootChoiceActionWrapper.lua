@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsLootChoiceActionWrapper
----@field public ["removeItem"] Bool
----@field public ["itemId"] gameItemID
----@field public ["action"] CName
+---@field public removeItem Bool
+---@field public itemId gameItemID
+---@field public action CName
 gameinteractionsLootChoiceActionWrapper = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_QuaternionInput: animAnimNode_QuaternionValue
----@field public ["group"] CName
----@field public ["name"] CName
+---@field public group CName
+---@field public name CName
 animAnimNode_QuaternionInput = {}
 
 ---@param fields? table

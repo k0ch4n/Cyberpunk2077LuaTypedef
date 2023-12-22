@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WorldMapGangItemController: inkWidgetLogicController
----@field private ["factionNameText"] inkTextWidgetReference
----@field private ["factionIconImage"] inkImageWidgetReference
+---@field private factionNameText inkTextWidgetReference
+---@field private factionIconImage inkImageWidgetReference
 WorldMapGangItemController = {}
 
 ---@param fields? table

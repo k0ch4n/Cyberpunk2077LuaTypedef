@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class animHitReactionType: Enum
----@field ["None"] animHitReactionType 0
----@field ["Twitch"] animHitReactionType 1
----@field ["Impact"] animHitReactionType 2
----@field ["Stagger"] animHitReactionType 3
----@field ["Pain"] animHitReactionType 4
----@field ["Knockdown"] animHitReactionType 5
----@field ["Ragdoll"] animHitReactionType 6
----@field ["Death"] animHitReactionType 7
----@field ["Block"] animHitReactionType 8
----@field ["GuardBreak"] animHitReactionType 9
----@field ["Parry"] animHitReactionType 10
----@field ["Bump"] animHitReactionType 11
+---@field None 0
+---@field Twitch 1
+---@field Impact 2
+---@field Stagger 3
+---@field Pain 4
+---@field Knockdown 5
+---@field Ragdoll 6
+---@field Death 7
+---@field Block 8
+---@field GuardBreak 9
+---@field Parry 10
+---@field Bump 11
 animHitReactionType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class LeftHandCyberwareChargeRepeatActionEvents: LeftHandCyberwareActionAbstractEvents
----@field public ["maxSpread"] Float
----@field public ["maxProjectiles"] Int32
+---@field public maxSpread Float
+---@field public maxProjectiles Int32
 LeftHandCyberwareChargeRepeatActionEvents = {}
 
 ---@param fields? table

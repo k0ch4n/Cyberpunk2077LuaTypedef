@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsMultipleSetEnableEvent: redEvent
----@field public ["enable"] Bool
----@field public ["layer"] CName
----@field public ["linkedLayers"] CName
+---@field public enable Bool
+---@field public layer CName
+---@field public linkedLayers CName
 gameinteractionsMultipleSetEnableEvent = {}
 
 ---@param fields? table

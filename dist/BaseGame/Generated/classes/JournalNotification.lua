@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class JournalNotification: GenericNotificationController
----@field protected ["interactionsBlackboard"] gameIBlackboard
----@field protected ["bbListenerId"] redCallbackObject
----@field protected ["animProxy"] inkanimProxy
----@field protected ["questNotificationData"] gameuiQuestUpdateNotificationViewData
+---@field protected interactionsBlackboard gameIBlackboard
+---@field protected bbListenerId redCallbackObject
+---@field protected animProxy inkanimProxy
+---@field protected questNotificationData gameuiQuestUpdateNotificationViewData
 JournalNotification = {}
 
 ---@param fields? table

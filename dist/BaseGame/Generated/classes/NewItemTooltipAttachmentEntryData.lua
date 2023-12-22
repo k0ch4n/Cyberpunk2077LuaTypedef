@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipAttachmentEntryData: IScriptable
----@field public ["text"] String
----@field public ["colorState"] CName
----@field public ["dataPackage"] gameUILocalizationDataPackage
----@field public ["attunementData"] UIInventoryItemModAttunementData
+---@field public text String
+---@field public colorState CName
+---@field public dataPackage gameUILocalizationDataPackage
+---@field public attunementData UIInventoryItemModAttunementData
 NewItemTooltipAttachmentEntryData = {}
 
 ---@param fields? table

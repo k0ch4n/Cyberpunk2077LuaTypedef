@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkStyleTheme
----@field public ["themeID"] CName
----@field public ["styleResource"] inkStyleResource
+---@field public themeID CName
+---@field public styleResource inkStyleResource
 inkStyleTheme = {}
 
 ---@param fields? table

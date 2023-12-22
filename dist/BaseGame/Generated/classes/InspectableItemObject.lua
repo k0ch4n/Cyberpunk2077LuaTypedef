@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InspectableItemObject: gameItemObject
----@field public ["inspectableClues"] SInspectableClue[]
+---@field public inspectableClues SInspectableClue[]
 InspectableItemObject = {}
 
 ---@param fields? table

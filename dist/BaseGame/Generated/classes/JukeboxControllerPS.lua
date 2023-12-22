@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class JukeboxControllerPS: ScriptableDeviceComponentPS
----@field protected ["jukeboxSetup"] JukeboxSetup
----@field protected ["activeStation"] Int32
----@field protected ["isPlaying"] Bool
+---@field protected jukeboxSetup JukeboxSetup
+---@field protected activeStation Int32
+---@field protected isPlaying Bool
 JukeboxControllerPS = {}
 
 ---@param fields? table

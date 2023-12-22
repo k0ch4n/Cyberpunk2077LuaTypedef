@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Multilayer_Mask: CResource
----@field public ["renderResourceBlob"] rendRenderMultilayerMaskResource
+---@field public renderResourceBlob rendRenderMultilayerMaskResource
 Multilayer_Mask = {}
 
 ---@param fields? table

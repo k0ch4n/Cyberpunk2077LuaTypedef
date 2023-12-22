@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamePSMBodyCarryingStyle: Enum
----@field ["Any"] gamePSMBodyCarryingStyle 0
----@field ["Default"] gamePSMBodyCarryingStyle 1
----@field ["Friendly"] gamePSMBodyCarryingStyle 2
----@field ["Strong"] gamePSMBodyCarryingStyle 3
----@field ["WoundedSoldier"] gamePSMBodyCarryingStyle 4
+---@field Any 0
+---@field Default 1
+---@field Friendly 2
+---@field Strong 3
+---@field WoundedSoldier 4
 gamePSMBodyCarryingStyle = {}

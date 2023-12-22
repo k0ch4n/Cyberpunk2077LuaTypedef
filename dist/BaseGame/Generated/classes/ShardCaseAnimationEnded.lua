@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ShardCaseAnimationEnded: redEvent
----@field public ["activator"] gameObject
----@field public ["item"] gameItemID
----@field public ["read"] Bool
+---@field public activator gameObject
+---@field public item gameItemID
+---@field public read Bool
 ShardCaseAnimationEnded = {}
 
 ---@param fields? table

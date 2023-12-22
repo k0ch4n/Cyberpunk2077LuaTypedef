@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InteractionAreaOperationsTrigger: DeviceOperationsTrigger
----@field protected ["triggerData"] InteractionAreaOperationTriggerData
+---@field protected triggerData InteractionAreaOperationTriggerData
 InteractionAreaOperationsTrigger = {}
 
 ---@param fields? table

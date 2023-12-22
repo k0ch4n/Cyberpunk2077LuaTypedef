@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ToggleLightByNameEvent: ToggleLightEvent
----@field public ["componentName"] CName
+---@field public componentName CName
 ToggleLightByNameEvent = {}
 
 ---@param fields? table

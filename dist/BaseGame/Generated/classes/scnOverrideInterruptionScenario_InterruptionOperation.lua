@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnOverrideInterruptionScenario_InterruptionOperation: scnIInterruptionOperation
----@field public ["scenarioId"] scnInterruptionScenarioId
----@field public ["scenarioOperations"] scnIInterruptionScenarioOperation[]
+---@field public scenarioId scnInterruptionScenarioId
+---@field public scenarioOperations scnIInterruptionScenarioOperation[]
 scnOverrideInterruptionScenario_InterruptionOperation = {}
 
 ---@param fields? table

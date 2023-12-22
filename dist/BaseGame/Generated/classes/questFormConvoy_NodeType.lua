@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questFormConvoy_NodeType: questIVehicleManagerNodeType
----@field public ["leaderRef"] gameEntityReference
----@field public ["formationType"] vehicleFormationType
+---@field public leaderRef gameEntityReference
+---@field public formationType vehicleFormationType
 questFormConvoy_NodeType = {}
 
 ---@param fields? table

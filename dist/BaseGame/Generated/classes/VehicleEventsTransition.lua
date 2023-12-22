@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleEventsTransition: VehicleTransition
----@field protected ["isCameraTogglePressed"] Bool
----@field private ["cameraToggleHoldToResetTimeSeconds"] Float
+---@field protected isCameraTogglePressed Bool
+---@field private cameraToggleHoldToResetTimeSeconds Float
 VehicleEventsTransition = {}
 
 ---@protected

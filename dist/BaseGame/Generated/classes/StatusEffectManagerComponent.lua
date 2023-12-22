@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StatusEffectManagerComponent: AIMandatoryComponents
----@field private ["weaponDropedInWounded"] Bool
+---@field private weaponDropedInWounded Bool
 StatusEffectManagerComponent = {}
 
 ---@param fields? table

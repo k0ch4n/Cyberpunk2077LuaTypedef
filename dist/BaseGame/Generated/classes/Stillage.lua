@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Stillage: InteractiveDevice
----@field private ["collider"] entIPlacedComponent
+---@field private collider entIPlacedComponent
 Stillage = {}
 
 ---@param fields? table

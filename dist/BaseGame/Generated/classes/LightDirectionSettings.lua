@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LightDirectionSettings: IAreaSettings
----@field public ["direction"] GlobalLightingTrajectoryOverride
+---@field public direction GlobalLightingTrajectoryOverride
 LightDirectionSettings = {}
 
 ---@param fields? table

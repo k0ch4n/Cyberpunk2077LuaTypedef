@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsTargetDamageEvent: gameeventsTargetHitEvent
----@field public ["damage"] Float
+---@field public damage Float
 gameeventsTargetDamageEvent = {}
 
 ---@param fields? table

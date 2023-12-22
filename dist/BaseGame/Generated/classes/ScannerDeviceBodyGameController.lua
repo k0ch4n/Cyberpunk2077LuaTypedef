@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ScannerDeviceBodyGameController: BaseChunkGameController
----@field private ["networkStatusText"] inkTextWidgetReference
----@field private ["deviceAuthorizationText"] inkTextWidgetReference
----@field private ["deviceAuthorizationRow"] inkCompoundWidgetReference
----@field private ["networkStatusRow"] inkCompoundWidgetReference
----@field private ["networkStatusCallbackID"] redCallbackObject
----@field private ["deviceAuthorizationCallbackID"] redCallbackObject
----@field private ["isValidnetworkStatus"] Bool
----@field private ["isValidDeviceAuthorization"] Bool
+---@field private networkStatusText inkTextWidgetReference
+---@field private deviceAuthorizationText inkTextWidgetReference
+---@field private deviceAuthorizationRow inkCompoundWidgetReference
+---@field private networkStatusRow inkCompoundWidgetReference
+---@field private networkStatusCallbackID redCallbackObject
+---@field private deviceAuthorizationCallbackID redCallbackObject
+---@field private isValidnetworkStatus Bool
+---@field private isValidDeviceAuthorization Bool
 ScannerDeviceBodyGameController = {}
 
 ---@param fields? table

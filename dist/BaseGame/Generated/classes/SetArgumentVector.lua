@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetArgumentVector: SetArguments
----@field public ["newValue"] AIArgumentMapping
+---@field public newValue AIArgumentMapping
 SetArgumentVector = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PuppetSquadInterface: AICombatSquadScriptInterface
----@field private ["baseSquadRecord"] gamedataAISquadParams_Record
----@field private ["ticketHistory"] SquadTicketReceipt[]
----@field private ["enumValueToNdx"] gameEnumNameToIndexCache
----@field private ["sectorsInitialized"] Bool
+---@field private baseSquadRecord gamedataAISquadParams_Record
+---@field private ticketHistory SquadTicketReceipt[]
+---@field private enumValueToNdx gameEnumNameToIndexCache
+---@field private sectorsInitialized Bool
 PuppetSquadInterface = {}
 
 ---@param fields? table

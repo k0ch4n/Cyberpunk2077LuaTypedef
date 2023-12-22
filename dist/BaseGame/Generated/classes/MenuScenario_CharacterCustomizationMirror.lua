@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_CharacterCustomizationMirror: MenuScenario_BaseMenu
----@field private ["morphMenuUserData"] MorphMenuUserData
+---@field private morphMenuUserData MorphMenuUserData
 MenuScenario_CharacterCustomizationMirror = {}
 
 ---@param fields? table

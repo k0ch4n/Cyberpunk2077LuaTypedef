@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CompanionHealthStatListener: gameScriptStatPoolsListener
----@field private ["healthbar"] CompanionHealthBarGameController
+---@field private healthbar CompanionHealthBarGameController
 CompanionHealthStatListener = {}
 
 ---@param fields? table

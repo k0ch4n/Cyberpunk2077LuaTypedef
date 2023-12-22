@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gamedataMeleeAttackDirection: Enum
----@field ["Center"] gamedataMeleeAttackDirection 0
----@field ["DownToUp"] gamedataMeleeAttackDirection 1
----@field ["LeftDownToRightUp"] gamedataMeleeAttackDirection 2
----@field ["LeftToRight"] gamedataMeleeAttackDirection 3
----@field ["LeftUpToRightDown"] gamedataMeleeAttackDirection 4
----@field ["RightDownToLeftUp"] gamedataMeleeAttackDirection 5
----@field ["RightToLeft"] gamedataMeleeAttackDirection 6
----@field ["RightUpToLeftDown"] gamedataMeleeAttackDirection 7
----@field ["UpToDown"] gamedataMeleeAttackDirection 8
----@field ["Count"] gamedataMeleeAttackDirection 9
----@field ["Invalid"] gamedataMeleeAttackDirection 10
+---@field Center 0
+---@field DownToUp 1
+---@field LeftDownToRightUp 2
+---@field LeftToRight 3
+---@field LeftUpToRightDown 4
+---@field RightDownToLeftUp 5
+---@field RightToLeft 6
+---@field RightUpToLeftDown 7
+---@field UpToDown 8
+---@field Count 9
+---@field Invalid 10
 gamedataMeleeAttackDirection = {}

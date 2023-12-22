@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questSetTier2Params_NodeType: questISceneManagerNodeType
----@field public ["playerWalkType"] Tier2WalkType
----@field public ["usePlayerWorkspot"] Bool
----@field public ["useEnterAnim"] Bool
----@field public ["useExitAnim"] Bool
+---@field public playerWalkType Tier2WalkType
+---@field public usePlayerWorkspot Bool
+---@field public useEnterAnim Bool
+---@field public useExitAnim Bool
 questSetTier2Params_NodeType = {}
 
 ---@param fields? table

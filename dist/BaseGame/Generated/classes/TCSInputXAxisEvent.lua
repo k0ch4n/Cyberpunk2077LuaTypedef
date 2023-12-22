@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TCSInputXAxisEvent: redEvent
----@field public ["value"] Float
+---@field public value Float
 TCSInputXAxisEvent = {}
 
 ---@param fields? table

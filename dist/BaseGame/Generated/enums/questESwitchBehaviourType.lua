@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questESwitchBehaviourType: Enum
----@field ["First Fulfilled"] questESwitchBehaviourType 0
----@field ["All Fulfilled"] questESwitchBehaviourType 1
+---@field ["First Fulfilled"] 0
+---@field ["All Fulfilled"] 1
 questESwitchBehaviourType = {}

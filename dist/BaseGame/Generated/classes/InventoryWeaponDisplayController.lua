@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class InventoryWeaponDisplayController: InventoryItemDisplayController
----@field protected ["weaponSpecyficModsRoot"] inkCompoundWidgetReference
----@field protected ["silencerIcon"] inkWidgetReference
----@field protected ["scopeIcon"] inkWidgetReference
----@field protected ["ammoIcon"] inkImageWidgetReference
----@field protected ["weaponAttachmentsDisplay"] InventoryItemPartDisplay[]
+---@field protected weaponSpecyficModsRoot inkCompoundWidgetReference
+---@field protected silencerIcon inkWidgetReference
+---@field protected scopeIcon inkWidgetReference
+---@field protected ammoIcon inkImageWidgetReference
+---@field protected weaponAttachmentsDisplay InventoryItemPartDisplay[]
 InventoryWeaponDisplayController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_OverrideMaterial: gameEffectExecutor
----@field public ["material"] IMaterial
+---@field public material IMaterial
 gameEffectExecutor_OverrideMaterial = {}
 
 ---@param fields? table

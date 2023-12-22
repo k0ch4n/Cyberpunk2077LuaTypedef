@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetUpEquipmentOverlayEvent: redEvent
----@field public ["meshOverlayEffectName"] CName
----@field public ["meshOverlayEffectTag"] CName
----@field public ["meshOverlaySlots"] TweakDBID[]
+---@field public meshOverlayEffectName CName
+---@field public meshOverlayEffectTag CName
+---@field public meshOverlaySlots TweakDBID[]
 SetUpEquipmentOverlayEvent = {}
 
 ---@param fields? table

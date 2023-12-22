@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamePSMCombatGadget: Enum
----@field ["Default"] gamePSMCombatGadget 0
----@field ["EquipRequest"] gamePSMCombatGadget 1
----@field ["Equipped"] gamePSMCombatGadget 2
----@field ["Charging"] gamePSMCombatGadget 3
----@field ["Throwing"] gamePSMCombatGadget 4
----@field ["WaitForUnequip"] gamePSMCombatGadget 5
----@field ["QuickThrow"] gamePSMCombatGadget 6
+---@field Default 0
+---@field EquipRequest 1
+---@field Equipped 2
+---@field Charging 3
+---@field Throwing 4
+---@field WaitForUnequip 5
+---@field QuickThrow 6
 gamePSMCombatGadget = {}

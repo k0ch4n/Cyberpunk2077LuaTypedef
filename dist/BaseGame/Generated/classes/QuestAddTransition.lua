@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestAddTransition: redEvent
----@field public ["transition"] AreaTypeTransition
+---@field public transition AreaTypeTransition
 QuestAddTransition = {}
 
 ---@param fields? table

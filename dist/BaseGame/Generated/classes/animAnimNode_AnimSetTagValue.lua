@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_AnimSetTagValue: animAnimNode_FloatValue
----@field public ["tags"] redTagList
+---@field public tags redTagList
 animAnimNode_AnimSetTagValue = {}
 
 ---@param fields? table

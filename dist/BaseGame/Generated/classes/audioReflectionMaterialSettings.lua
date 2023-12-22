@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioReflectionMaterialSettings: audioAudioMetadata
----@field public ["lowPass"] Float
----@field public ["highPass"] Float
----@field public ["gain"] Float
+---@field public lowPass Float
+---@field public highPass Float
+---@field public gain Float
 audioReflectionMaterialSettings = {}
 
 ---@param fields? table

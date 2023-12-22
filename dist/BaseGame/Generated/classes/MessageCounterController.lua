@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MessageCounterController: gameuiWidgetGameController
----@field protected ["messageCounter"] inkTextWidgetReference
----@field private ["rootWidget"] inkWidget
----@field private ["CallInformationBBID"] redCallbackObject
----@field private ["journalManager"] gameJournalManager
----@field private ["Owner"] gameObject
+---@field protected messageCounter inkTextWidgetReference
+---@field private rootWidget inkWidget
+---@field private CallInformationBBID redCallbackObject
+---@field private journalManager gameJournalManager
+---@field private Owner gameObject
 MessageCounterController = {}
 
 ---@param fields? table

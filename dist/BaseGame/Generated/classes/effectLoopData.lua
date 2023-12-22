@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class effectLoopData
----@field public ["startTime"] Float
----@field public ["endTime"] Float
+---@field public startTime Float
+---@field public endTime Float
 effectLoopData = {}
 
 ---@param fields? table

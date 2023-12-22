@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ReloadFromEmptyPrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["minAmountOfAmmoReloaded"] Int32
----@field public ["listenerWeaponInt"] redCallbackObject
----@field public ["listenerActiveWeaponVariant"] redCallbackObject
----@field private ["reloadingInProgress"] Bool
+---@field public owner gameObject
+---@field public minAmountOfAmmoReloaded Int32
+---@field public listenerWeaponInt redCallbackObject
+---@field public listenerActiveWeaponVariant redCallbackObject
+---@field private reloadingInProgress Bool
 ReloadFromEmptyPrereqState = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventPostponedParameterBase: gamestateMachineeventBaseEvent
----@field public ["aspect"] gamestateMachineParameterAspect
+---@field public aspect gamestateMachineParameterAspect
 gamestateMachineeventPostponedParameterBase = {}

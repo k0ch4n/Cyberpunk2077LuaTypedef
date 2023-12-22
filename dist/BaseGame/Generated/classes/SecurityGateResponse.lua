@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityGateResponse: redEvent
----@field public ["scanSuccessful"] Bool
+---@field public scanSuccessful Bool
 SecurityGateResponse = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceBraindanceCameraToggle: redEvent
----@field public ["editorState"] Bool
+---@field public editorState Bool
 ForceBraindanceCameraToggle = {}
 
 ---@param fields? table

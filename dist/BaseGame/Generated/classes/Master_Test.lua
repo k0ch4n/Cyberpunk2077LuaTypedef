@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Master_Test: gameObject
----@field public ["deviceComponent"] gameMasterDeviceComponent
+---@field public deviceComponent gameMasterDeviceComponent
 Master_Test = {}
 
 ---@param fields? table

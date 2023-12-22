@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerVelocitySpread: IParticleInitializer
----@field public ["scale"] IEvaluatorFloat
----@field public ["conserveMomentum"] Bool
+---@field public scale IEvaluatorFloat
+---@field public conserveMomentum Bool
 CParticleInitializerVelocitySpread = {}
 
 ---@param fields? table

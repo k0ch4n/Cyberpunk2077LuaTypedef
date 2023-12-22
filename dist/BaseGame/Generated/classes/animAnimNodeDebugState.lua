@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNodeDebugState: ISerializable
----@field public ["nodeId"] Uint32
----@field public ["active"] Bool
+---@field public nodeId Uint32
+---@field public active Bool
 animAnimNodeDebugState = {}
 
 ---@param fields? table

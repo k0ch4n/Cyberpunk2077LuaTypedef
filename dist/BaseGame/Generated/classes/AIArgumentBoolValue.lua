@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIArgumentBoolValue: AIArgumentDefinition
----@field public ["type"] AIArgumentType
----@field public ["defaultValue"] Bool
+---@field public type AIArgumentType
+---@field public defaultValue Bool
 AIArgumentBoolValue = {}
 
 ---@param fields? table

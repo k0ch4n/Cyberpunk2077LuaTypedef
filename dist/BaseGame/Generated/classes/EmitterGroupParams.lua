@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EmitterGroupParams
----@field public ["group"] EEmitterGroup
----@field public ["emissionScale"] Float
----@field public ["opacityScale"] Float
+---@field public group EEmitterGroup
+---@field public emissionScale Float
+---@field public opacityScale Float
 EmitterGroupParams = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnAudioPlaybackDirectionSupportFlag: Enum
----@field ["Forward"] scnAudioPlaybackDirectionSupportFlag 1
----@field ["Backward"] scnAudioPlaybackDirectionSupportFlag 2
+---@field Forward 1
+---@field Backward 2
 scnAudioPlaybackDirectionSupportFlag = {}

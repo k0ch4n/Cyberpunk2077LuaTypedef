@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class rendEmitterSimulationShaders
----@field public ["simCS"] DataBuffer[]
+---@field public simCS DataBuffer[]
 rendEmitterSimulationShaders = {}
 
 ---@param fields? table

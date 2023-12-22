@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ECoverSpecialAction: Enum
----@field ["None"] ECoverSpecialAction 0
----@field ["Left"] ECoverSpecialAction 1
----@field ["Right"] ECoverSpecialAction 2
+---@field None 0
+---@field Left 1
+---@field Right 2
 ECoverSpecialAction = {}

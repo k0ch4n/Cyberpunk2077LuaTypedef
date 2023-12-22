@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameReplicatedContinuousAttack
----@field public ["startTimeStamp"] netTime
----@field public ["stopTimeStamp"] netTime
----@field public ["attackId"] TweakDBID
+---@field public startTimeStamp netTime
+---@field public stopTimeStamp netTime
+---@field public attackId TweakDBID
 gameReplicatedContinuousAttack = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questAudioVehicleMultipliers_NodeType: questIVehicleManagerNodeType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["multipliers"] audioVehicleMultipliers
+---@field public vehicleRef gameEntityReference
+---@field public multipliers audioVehicleMultipliers
 questAudioVehicleMultipliers_NodeType = {}
 
 ---@param fields? table

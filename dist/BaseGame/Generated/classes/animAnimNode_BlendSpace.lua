@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_BlendSpace: animAnimNode_Base
----@field public ["inputLinks"] animFloatLink[]
----@field public ["blendSpace"] animAnimNode_BlendSpace_InternalsBlendSpace
----@field public ["progressLink"] animFloatLink
----@field public ["fireAnimEndEvent"] Bool
----@field public ["animEndEventName"] CName
----@field public ["isLooped"] Bool
+---@field public inputLinks animFloatLink[]
+---@field public blendSpace animAnimNode_BlendSpace_InternalsBlendSpace
+---@field public progressLink animFloatLink
+---@field public fireAnimEndEvent Bool
+---@field public animEndEventName CName
+---@field public isLooped Bool
 animAnimNode_BlendSpace = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CursorRootController: inkWidgetLogicController
----@field public ["mainCursor"] inkWidgetReference
----@field public ["cursorPattern"] inkWidgetReference
----@field public ["progressBar"] inkWidgetReference
----@field public ["progressBarFrame"] inkWidgetReference
----@field protected ["animProxy"] inkanimProxy
+---@field public mainCursor inkWidgetReference
+---@field public cursorPattern inkWidgetReference
+---@field public progressBar inkWidgetReference
+---@field public progressBarFrame inkWidgetReference
+---@field protected animProxy inkanimProxy
 CursorRootController = {}
 
 ---@param fields? table

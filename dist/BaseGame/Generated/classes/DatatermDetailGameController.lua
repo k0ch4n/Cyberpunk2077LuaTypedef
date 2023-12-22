@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class DatatermDetailGameController: BaseBunkerComputerGameController
----@field public ["authFactsSet"] AuthorizationFactsSet
----@field public ["attemptedFactsSet"] AttemptedToStopFactsSet
----@field public ["systemStatusHeaderPannel"] inkWidgetReference
----@field public ["systemStatusLeftPannel"] inkWidgetReference
----@field public ["systemStatusRightPannel"] inkWidgetReference
----@field public ["loopAnimName"] CName
----@field public ["popup01Counter"] Int32
----@field public ["popup02Counter"] Int32
----@field public ["popup01LoopAnimName"] CName
----@field public ["popup02LoopAnimName"] CName
----@field public ["popup031LoopAnimName"] CName
----@field public ["popup032LoopAnimName"] CName
----@field public ["popup04LoopAnimName"] CName
----@field public ["popup05LoopAnimName"] CName
----@field public ["shutdownButton"] inkWidgetReference
----@field public ["transitionToMinigame"] inkWidgetReference
----@field public ["popup01LoopAnimProxy"] inkanimProxy
----@field public ["isAuthStep"] Bool
----@field public ["isHackingStep"] Bool
----@field public ["isPostHackingStep"] Bool
----@field public ["isOffline"] Bool
----@field public ["isAttemptedToStop"] Bool
+---@field public authFactsSet AuthorizationFactsSet
+---@field public attemptedFactsSet AttemptedToStopFactsSet
+---@field public systemStatusHeaderPannel inkWidgetReference
+---@field public systemStatusLeftPannel inkWidgetReference
+---@field public systemStatusRightPannel inkWidgetReference
+---@field public loopAnimName CName
+---@field public popup01Counter Int32
+---@field public popup02Counter Int32
+---@field public popup01LoopAnimName CName
+---@field public popup02LoopAnimName CName
+---@field public popup031LoopAnimName CName
+---@field public popup032LoopAnimName CName
+---@field public popup04LoopAnimName CName
+---@field public popup05LoopAnimName CName
+---@field public shutdownButton inkWidgetReference
+---@field public transitionToMinigame inkWidgetReference
+---@field public popup01LoopAnimProxy inkanimProxy
+---@field public isAuthStep Bool
+---@field public isHackingStep Bool
+---@field public isPostHackingStep Bool
+---@field public isOffline Bool
+---@field public isAttemptedToStop Bool
 DatatermDetailGameController = {}
 
 ---@param fields? table

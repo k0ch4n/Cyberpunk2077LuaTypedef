@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FollowNPCDef: gamebbScriptDefinition
----@field public ["Position"] gamebbScriptID_Vector4
+---@field public Position gamebbScriptID_Vector4
 FollowNPCDef = {}
 
 ---@param fields? table

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ConfessionalInkGameController: DeviceInkGameControllerBase
----@field private ["defaultUI"] inkCanvasWidget
----@field private ["mainDisplayWidget"] inkVideoWidget
----@field private ["messegeWidget"] inkTextWidget
----@field private ["defaultTextWidget"] inkTextWidget
----@field private ["actionsList"] inkWidget
----@field private ["RunningAnimation"] inkanimProxy
----@field private ["isConfessing"] Bool
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
----@field private ["onConfessListener"] redCallbackObject
+---@field private defaultUI inkCanvasWidget
+---@field private mainDisplayWidget inkVideoWidget
+---@field private messegeWidget inkTextWidget
+---@field private defaultTextWidget inkTextWidget
+---@field private actionsList inkWidget
+---@field private RunningAnimation inkanimProxy
+---@field private isConfessing Bool
+---@field private onGlitchingStateChangedListener redCallbackObject
+---@field private onConfessListener redCallbackObject
 ConfessionalInkGameController = {}
 
 ---@param fields? table

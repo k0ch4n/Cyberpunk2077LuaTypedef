@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SendAIBheaviorReactionStim: AIbehaviortaskScript
----@field public ["stimToSend"] gamedataStimType
+---@field public stimToSend gamedataStimType
 SendAIBheaviorReactionStim = {}
 
 ---@param fields? table

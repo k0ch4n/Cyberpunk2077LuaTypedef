@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class EAISquadChoiceAlgorithm: Enum
----@field ["Invalid"] EAISquadChoiceAlgorithm 0
----@field ["TargetDistance"] EAISquadChoiceAlgorithm 1
----@field ["SectorDistance"] EAISquadChoiceAlgorithm 2
----@field ["SquadmateDistance"] EAISquadChoiceAlgorithm 3
----@field ["CoopDistance"] EAISquadChoiceAlgorithm 4
----@field ["LineOfSight"] EAISquadChoiceAlgorithm 5
----@field ["StimDistance"] EAISquadChoiceAlgorithm 6
----@field ["StimDistancePerSource"] EAISquadChoiceAlgorithm 7
----@field ["AvoidLastPuppetIfPossible"] EAISquadChoiceAlgorithm 8
----@field ["Officer"] EAISquadChoiceAlgorithm 9
----@field ["Group"] EAISquadChoiceAlgorithm 10
----@field ["CallForBackUp"] EAISquadChoiceAlgorithm 11
----@field ["CallOffAction"] EAISquadChoiceAlgorithm 12
----@field ["ShareNewThreat"] EAISquadChoiceAlgorithm 13
+---@field Invalid 0
+---@field TargetDistance 1
+---@field SectorDistance 2
+---@field SquadmateDistance 3
+---@field CoopDistance 4
+---@field LineOfSight 5
+---@field StimDistance 6
+---@field StimDistancePerSource 7
+---@field AvoidLastPuppetIfPossible 8
+---@field Officer 9
+---@field Group 10
+---@field CallForBackUp 11
+---@field CallOffAction 12
+---@field ShareNewThreat 13
 EAISquadChoiceAlgorithm = {}

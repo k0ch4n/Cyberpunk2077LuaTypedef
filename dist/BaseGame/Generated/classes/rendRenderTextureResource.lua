@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class rendRenderTextureResource
----@field public ["renderResourceBlobPC"] IRenderResourceBlob
+---@field public renderResourceBlobPC IRenderResourceBlob
 rendRenderTextureResource = {}
 
 ---@param fields? table

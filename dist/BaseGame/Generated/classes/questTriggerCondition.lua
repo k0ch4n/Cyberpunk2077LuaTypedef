@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questTriggerCondition: questCondition
----@field public ["type"] questTriggerConditionType
----@field public ["triggerAreaRef"] NodeRef
----@field public ["activatorRef"] gameEntityReference
----@field public ["isPlayerActivator"] Bool
+---@field public type questTriggerConditionType
+---@field public triggerAreaRef NodeRef
+---@field public activatorRef gameEntityReference
+---@field public isPlayerActivator Bool
 questTriggerCondition = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EntityHasVisualTag: gameIScriptablePrereq
----@field private ["visualTag"] CName
----@field private ["hasTag"] Bool
+---@field private visualTag CName
+---@field private hasTag Bool
 EntityHasVisualTag = {}
 
 ---@param fields? table

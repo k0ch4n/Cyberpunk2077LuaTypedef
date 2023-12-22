@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class StaminaListener: gameCustomValueStatPoolsListener
----@field private ["player"] PlayerPuppet
----@field private ["psmAdded"] Bool
----@field private ["staminaValue"] Float
----@field private ["staminPerc"] Float
----@field private ["sfxThreshold"] Float
----@field private ["sfxDelay"] Float
----@field private ["sfxName"] CName
----@field private ["delayID"] gameDelayID
+---@field private player PlayerPuppet
+---@field private psmAdded Bool
+---@field private staminaValue Float
+---@field private staminPerc Float
+---@field private sfxThreshold Float
+---@field private sfxDelay Float
+---@field private sfxName CName
+---@field private delayID gameDelayID
 StaminaListener = {}
 
 ---@param fields? table

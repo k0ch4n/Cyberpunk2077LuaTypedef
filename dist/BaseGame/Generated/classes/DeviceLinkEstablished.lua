@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeviceLinkEstablished: redEvent
----@field public ["deviceLinkPS"] DeviceLinkComponentPS
+---@field public deviceLinkPS DeviceLinkComponentPS
 DeviceLinkEstablished = {}
 
 ---@param fields? table

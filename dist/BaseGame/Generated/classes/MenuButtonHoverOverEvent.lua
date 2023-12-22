@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuButtonHoverOverEvent: redEvent
----@field public ["buttonId"] Int32
+---@field public buttonId Int32
 MenuButtonHoverOverEvent = {}
 
 ---@param fields? table

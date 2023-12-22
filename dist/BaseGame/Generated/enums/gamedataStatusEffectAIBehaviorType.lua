@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataStatusEffectAIBehaviorType: Enum
----@field ["Basic"] gamedataStatusEffectAIBehaviorType 0
----@field ["None"] gamedataStatusEffectAIBehaviorType 1
----@field ["Stoppable"] gamedataStatusEffectAIBehaviorType 2
----@field ["Unstoppable"] gamedataStatusEffectAIBehaviorType 3
----@field ["Count"] gamedataStatusEffectAIBehaviorType 4
----@field ["Invalid"] gamedataStatusEffectAIBehaviorType 5
+---@field Basic 0
+---@field None 1
+---@field Stoppable 2
+---@field Unstoppable 3
+---@field Count 4
+---@field Invalid 5
 gamedataStatusEffectAIBehaviorType = {}

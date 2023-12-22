@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questTimeDilation_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public ["params"] questTimeDilation_NodeTypeParam[]
+---@field public params questTimeDilation_NodeTypeParam[]
 questTimeDilation_NodeType = {}
 
 ---@param fields? table

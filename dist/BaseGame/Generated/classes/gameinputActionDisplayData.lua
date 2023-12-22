@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameinputActionDisplayData
----@field public ["name"] CName
----@field public ["isHold"] Bool
----@field public ["inputDisplayPad"] String
----@field public ["inputDisplayKeyboard"] String
+---@field public name CName
+---@field public isHold Bool
+---@field public inputDisplayPad String
+---@field public inputDisplayKeyboard String
 gameinputActionDisplayData = {}
 
 ---@param fields? table

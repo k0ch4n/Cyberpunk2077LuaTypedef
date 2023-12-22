@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TraitBoughtEvent: redEvent
----@field public ["traitType"] gamedataTraitType
+---@field public traitType gamedataTraitType
 TraitBoughtEvent = {}
 
 ---@param fields? table

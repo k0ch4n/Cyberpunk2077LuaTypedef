@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorStateCompletionStatus: Enum
----@field ["ForwardBehaviorStatus"] AIbehaviorStateCompletionStatus 0
----@field ["Failure"] AIbehaviorStateCompletionStatus 1
----@field ["Success"] AIbehaviorStateCompletionStatus 2
+---@field ForwardBehaviorStatus 0
+---@field Failure 1
+---@field Success 2
 AIbehaviorStateCompletionStatus = {}

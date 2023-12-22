@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationBodyMorphBaseOption: inkWidgetLogicController
----@field protected ["isPrevOrNextBtnHoveredOver"] Bool
+---@field protected isPrevOrNextBtnHoveredOver Bool
 CharacterCreationBodyMorphBaseOption = {}
 
 ---@param fields? table

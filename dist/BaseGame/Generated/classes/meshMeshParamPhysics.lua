@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamPhysics: meshMeshParameter
----@field public ["physicsData"] physicsSystemResource
+---@field public physicsData physicsSystemResource
 meshMeshParamPhysics = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class workSetSequenceCategoriesCommandData: workIWorkspotCommandData
----@field public ["sequenceCategories"] gameCategorySelectionProbability
+---@field public sequenceCategories gameCategorySelectionProbability
 workSetSequenceCategoriesCommandData = {}
 
 ---@param fields? table

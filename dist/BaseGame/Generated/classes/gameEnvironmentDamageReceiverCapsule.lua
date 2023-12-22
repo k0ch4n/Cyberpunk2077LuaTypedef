@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEnvironmentDamageReceiverCapsule: gameEnvironmentDamageReceiverShape
----@field public ["radius"] Float
----@field public ["height"] Float
+---@field public radius Float
+---@field public height Float
 gameEnvironmentDamageReceiverCapsule = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MovableWallScreen: Door
----@field private ["animationLength"] Float
----@field private ["animFeature"] AnimFeature_SimpleDevice
+---@field private animationLength Float
+---@field private animFeature AnimFeature_SimpleDevice
 MovableWallScreen = {}
 
 ---@param fields? table

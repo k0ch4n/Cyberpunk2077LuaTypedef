@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsOrbID
----@field public ["id"] Uint32
+---@field public id Uint32
 gameinteractionsOrbID = {}
 
 ---@param fields? table

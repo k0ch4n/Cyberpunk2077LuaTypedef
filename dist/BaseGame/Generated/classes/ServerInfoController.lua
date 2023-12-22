@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class ServerInfoController: inkListItemController
----@field private ["settingsListCtrl"] inkListController
----@field public ["number"] inkTextWidget
----@field public ["numberPath"] CName
----@field private ["kind"] inkTextWidget
----@field public ["kindPath"] CName
----@field private ["hostname"] inkTextWidget
----@field public ["hostnamePath"] CName
----@field private ["address"] inkTextWidget
----@field public ["addressPath"] CName
----@field private ["worldDescription"] inkTextWidget
----@field public ["worldDescriptionPath"] CName
----@field private ["background"] inkImageWidget
----@field private ["c_selectionColor"] Color
----@field private ["c_initialColor"] HDRColor
----@field private ["c_markColor"] HDRColor
----@field private ["marked"] Bool
+---@field private settingsListCtrl inkListController
+---@field public number inkTextWidget
+---@field public numberPath CName
+---@field private kind inkTextWidget
+---@field public kindPath CName
+---@field private hostname inkTextWidget
+---@field public hostnamePath CName
+---@field private address inkTextWidget
+---@field public addressPath CName
+---@field private worldDescription inkTextWidget
+---@field public worldDescriptionPath CName
+---@field private background inkImageWidget
+---@field private c_selectionColor Color
+---@field private c_initialColor HDRColor
+---@field private c_markColor HDRColor
+---@field private marked Bool
 ServerInfoController = {}
 
 ---@param fields? table

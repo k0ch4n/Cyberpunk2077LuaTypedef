@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class IsAggressiveCrowd: AIbehaviorconditionScript
----@field public ["reactionSystem"] AIReactionSystem
----@field public ["entityID"] entEntityID
----@field public ["npc"] NPCPuppet
+---@field public reactionSystem AIReactionSystem
+---@field public entityID entEntityID
+---@field public npc NPCPuppet
 IsAggressiveCrowd = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkSaveStatus: Enum
----@field ["Invalid"] inkSaveStatus 0
----@field ["Local"] inkSaveStatus 1
----@field ["Upload"] inkSaveStatus 2
----@field ["Cloud"] inkSaveStatus 3
----@field ["InSync"] inkSaveStatus 4
+---@field Invalid 0
+---@field Local 1
+---@field Upload 2
+---@field Cloud 3
+---@field InSync 4
 inkSaveStatus = {}

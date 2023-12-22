@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleRemoteControlDrivingUIData
----@field public ["remoteControlledVehicle"] vehicleBaseObject
----@field public ["isDistanceDisconnect"] Bool
+---@field public remoteControlledVehicle vehicleBaseObject
+---@field public isDistanceDisconnect Bool
 vehicleRemoteControlDrivingUIData = {}
 
 ---@param fields? table

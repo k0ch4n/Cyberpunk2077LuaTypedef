@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorExtractMountParentStubPositionTaskDefinition: AIbehaviorTaskDefinition
----@field public ["mountData"] AIArgumentMapping
----@field public ["position"] AIArgumentMapping
+---@field public mountData AIArgumentMapping
+---@field public position AIArgumentMapping
 AIbehaviorExtractMountParentStubPositionTaskDefinition = {}
 
 ---@param fields? table

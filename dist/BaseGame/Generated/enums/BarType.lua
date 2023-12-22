@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BarType: Enum
----@field ["Armor"] BarType 0
----@field ["CurrentCapacity"] BarType 1
----@field ["Edgerunner"] BarType 2
+---@field Armor 0
+---@field CurrentCapacity 1
+---@field Edgerunner 2
 BarType = {}

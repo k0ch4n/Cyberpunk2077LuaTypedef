@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleEQuestVehicleWindowState: Enum
----@field ["ForceOpen"] vehicleEQuestVehicleWindowState 0
----@field ["ForceClose"] vehicleEQuestVehicleWindowState 1
----@field ["OpenAll"] vehicleEQuestVehicleWindowState 2
----@field ["CloseAll"] vehicleEQuestVehicleWindowState 3
+---@field ForceOpen 0
+---@field ForceClose 1
+---@field OpenAll 2
+---@field CloseAll 3
 vehicleEQuestVehicleWindowState = {}

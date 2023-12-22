@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ScriptedWeakspotObject: gameWeakspotObject
----@field protected ["weakspotOnDestroyProperties"] WeakspotOnDestroyProperties
----@field protected ["mesh"] entMeshComponent
----@field protected ["interaction"] gameinteractionsComponent
----@field protected ["targeting"] gameTargetingComponent
----@field protected ["collider"] entIPlacedComponent
----@field protected ["instigator"] gameObject
----@field protected ["weakspotRecordData"] WeakspotRecordData
----@field protected ["alive"] Bool
----@field protected ["hasBeenScanned"] Bool
----@field private ["statPoolSystem"] gameStatPoolsSystem
----@field private ["statPoolType"] gamedataStatPoolType
----@field private ["healthListener"] WeakspotHealthChangeListener
----@field private ["parentMaxhealth"] Float
----@field private ["blockHighlight"] Bool
----@field private ["blockDamage"] Bool
+---@field protected weakspotOnDestroyProperties WeakspotOnDestroyProperties
+---@field protected mesh entMeshComponent
+---@field protected interaction gameinteractionsComponent
+---@field protected targeting gameTargetingComponent
+---@field protected collider entIPlacedComponent
+---@field protected instigator gameObject
+---@field protected weakspotRecordData WeakspotRecordData
+---@field protected alive Bool
+---@field protected hasBeenScanned Bool
+---@field private statPoolSystem gameStatPoolsSystem
+---@field private statPoolType gamedataStatPoolType
+---@field private healthListener WeakspotHealthChangeListener
+---@field private parentMaxhealth Float
+---@field private blockHighlight Bool
+---@field private blockDamage Bool
 ScriptedWeakspotObject = {}
 
 ---@param fields? table

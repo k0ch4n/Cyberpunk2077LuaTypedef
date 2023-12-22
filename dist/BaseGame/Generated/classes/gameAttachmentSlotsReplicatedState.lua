@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAttachmentSlotsReplicatedState: netIComponentState
----@field public ["stateVersion"] Uint32
----@field public ["slots"] gameAttachmentSlotReplicatedState[]
+---@field public stateVersion Uint32
+---@field public slots gameAttachmentSlotReplicatedState[]
 gameAttachmentSlotsReplicatedState = {}
 
 ---@param fields? table

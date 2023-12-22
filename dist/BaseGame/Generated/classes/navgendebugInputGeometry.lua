@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class navgendebugInputGeometry
----@field public ["triangles"] navgendebugInputGeometryTriangle[]
----@field public ["tileBoundingBox"] Box
----@field public ["extrudedBoundingBox"] Box
+---@field public triangles navgendebugInputGeometryTriangle[]
+---@field public tileBoundingBox Box
+---@field public extrudedBoundingBox Box
 navgendebugInputGeometry = {}
 
 ---@param fields? table

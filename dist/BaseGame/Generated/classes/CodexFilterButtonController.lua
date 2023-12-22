@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CodexFilterButtonController: inkWidgetLogicController
----@field protected ["root"] inkWidgetReference
----@field protected ["image"] inkImageWidgetReference
----@field protected ["category"] CodexCategoryType
----@field protected ["toggled"] Bool
----@field protected ["hovered"] Bool
+---@field protected root inkWidgetReference
+---@field protected image inkImageWidgetReference
+---@field protected category CodexCategoryType
+---@field protected toggled Bool
+---@field protected hovered Bool
 CodexFilterButtonController = {}
 
 ---@param fields? table

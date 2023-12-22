@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ScannerName: ScannerChunk
----@field private ["displayName"] String
----@field private ["hasArchetype"] Bool
----@field private ["textParams"] textTextParameterSet
+---@field private displayName String
+---@field private hasArchetype Bool
+---@field private textParams textTextParameterSet
 ScannerName = {}
 
 ---@param fields? table

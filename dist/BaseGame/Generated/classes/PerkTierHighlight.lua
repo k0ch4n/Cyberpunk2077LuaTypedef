@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PerkTierHighlight
----@field public ["position"] Float
----@field public ["height"] Float
+---@field public position Float
+---@field public height Float
 PerkTierHighlight = {}
 
 ---@param fields? table

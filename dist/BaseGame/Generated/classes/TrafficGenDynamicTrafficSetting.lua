@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TrafficGenDynamicTrafficSetting
----@field public ["impact"] TrafficGenDynamicImpact
+---@field public impact TrafficGenDynamicImpact
 TrafficGenDynamicTrafficSetting = {}
 
 ---@param fields? table

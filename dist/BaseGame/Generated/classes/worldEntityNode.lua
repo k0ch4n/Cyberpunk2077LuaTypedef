@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class worldEntityNode: worldNode
----@field public ["entityTemplate"] entEntityTemplate
----@field public ["instanceData"] entEntityInstanceData
----@field public ["appearanceName"] CName
----@field public ["ioPriority"] entEntitySpawnPriority
----@field public ["entityLod"] Uint16
+---@field public entityTemplate entEntityTemplate
+---@field public instanceData entEntityInstanceData
+---@field public appearanceName CName
+---@field public ioPriority entEntitySpawnPriority
+---@field public entityLod Uint16
 worldEntityNode = {}
 
 ---@param fields? table

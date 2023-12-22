@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataAIActionSecurityAreaType: Enum
----@field ["DANGEROUS"] gamedataAIActionSecurityAreaType 0
----@field ["DISABLED"] gamedataAIActionSecurityAreaType 1
----@field ["RESTRICTED"] gamedataAIActionSecurityAreaType 2
----@field ["SAFE"] gamedataAIActionSecurityAreaType 3
----@field ["Count"] gamedataAIActionSecurityAreaType 4
----@field ["Invalid"] gamedataAIActionSecurityAreaType 5
+---@field DANGEROUS 0
+---@field DISABLED 1
+---@field RESTRICTED 2
+---@field SAFE 3
+---@field Count 4
+---@field Invalid 5
 gamedataAIActionSecurityAreaType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleWindowOpen: ActionBool
----@field public ["slotID"] CName
----@field public ["speed"] CName
+---@field public slotID CName
+---@field public speed CName
 VehicleWindowOpen = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PerkHoverEventTooltipData
----@field public ["widget"] inkWidget
----@field public ["data"] IDisplayData
----@field public ["placement"] gameuiETooltipPlacement
----@field public ["isShown"] Bool
+---@field public widget inkWidget
+---@field public data IDisplayData
+---@field public placement gameuiETooltipPlacement
+---@field public isShown Bool
 PerkHoverEventTooltipData = {}
 
 ---@param fields? table

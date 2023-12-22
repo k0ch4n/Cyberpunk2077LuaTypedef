@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CooldownPackageDelayIDs
----@field public ["packageID"] CooldownStorageID
----@field public ["delayIDs"] gameDelayID[]
+---@field public packageID CooldownStorageID
+---@field public delayIDs gameDelayID[]
 CooldownPackageDelayIDs = {}
 
 ---@param fields? table

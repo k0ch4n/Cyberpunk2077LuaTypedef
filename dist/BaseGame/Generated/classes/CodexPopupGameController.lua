@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class CodexPopupGameController: gameuiWidgetGameController
----@field private ["entryViewRef"] inkCompoundWidgetReference
----@field private ["characterEntryViewRef"] inkCompoundWidgetReference
----@field private ["imageViewRef"] inkImageWidgetReference
----@field private ["entryViewController"] CodexEntryViewController
----@field private ["characterEntryViewController"] CodexEntryViewController
----@field private ["player"] gameObject
----@field private ["journalMgr"] gameJournalManager
----@field private ["data"] CodexPopupData
+---@field private entryViewRef inkCompoundWidgetReference
+---@field private characterEntryViewRef inkCompoundWidgetReference
+---@field private imageViewRef inkImageWidgetReference
+---@field private entryViewController CodexEntryViewController
+---@field private characterEntryViewController CodexEntryViewController
+---@field private player gameObject
+---@field private journalMgr gameJournalManager
+---@field private data CodexPopupData
 CodexPopupGameController = {}
 
 ---@param fields? table

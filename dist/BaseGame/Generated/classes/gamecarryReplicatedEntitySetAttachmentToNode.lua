@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamecarryReplicatedEntitySetAttachmentToNode: netEntityAttachmentInterface
----@field public ["localTransform"] Transform
+---@field public localTransform Transform
 gamecarryReplicatedEntitySetAttachmentToNode = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineComponentReplicatedState: netIComponentState
----@field public ["stateContext"] gamestateMachineStateContext
----@field public ["enterLadderParameter"] gamestateMachineparameterTypeLadderDescription
----@field public ["exitLadderParameter"] Bool
+---@field public stateContext gamestateMachineStateContext
+---@field public enterLadderParameter gamestateMachineparameterTypeLadderDescription
+---@field public exitLadderParameter Bool
 gamestateMachineComponentReplicatedState = {}
 
 ---@param fields? table

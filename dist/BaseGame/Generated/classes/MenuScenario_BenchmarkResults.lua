@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_BenchmarkResults: MenuScenario_BaseMenu
----@field private ["callbackData"] inkCallbackConnectorData
+---@field private callbackData inkCallbackConnectorData
 MenuScenario_BenchmarkResults = {}
 
 ---@param fields? table

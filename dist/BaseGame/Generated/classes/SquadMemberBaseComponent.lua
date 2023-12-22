@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SquadMemberBaseComponent: gameSquadMemberComponent
----@field private ["baseSquadRecord"] gamedataAISquadParams_Record
+---@field private baseSquadRecord gamedataAISquadParams_Record
 SquadMemberBaseComponent = {}
 
 ---@param fields? table

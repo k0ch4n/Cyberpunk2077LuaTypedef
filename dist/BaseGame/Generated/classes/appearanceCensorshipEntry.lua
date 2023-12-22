@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class appearanceCensorshipEntry
----@field public ["Original"] CName
----@field public ["Censored"] CName
----@field public ["CensorFlags"] Uint32
+---@field public Original CName
+---@field public Censored CName
+---@field public CensorFlags Uint32
 appearanceCensorshipEntry = {}
 
 ---@param fields? table

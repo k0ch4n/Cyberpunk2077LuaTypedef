@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnExitPoint
----@field public ["name"] CName
----@field public ["nodeId"] scnNodeId
+---@field public name CName
+---@field public nodeId scnNodeId
 scnExitPoint = {}
 
 ---@param fields? table

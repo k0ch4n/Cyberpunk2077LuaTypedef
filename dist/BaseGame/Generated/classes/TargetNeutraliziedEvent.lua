@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TargetNeutraliziedEvent: redEvent
----@field public ["type"] ENeutralizeType
----@field public ["targetID"] entEntityID
+---@field public type ENeutralizeType
+---@field public targetID entEntityID
 TargetNeutraliziedEvent = {}
 
 ---@param fields? table

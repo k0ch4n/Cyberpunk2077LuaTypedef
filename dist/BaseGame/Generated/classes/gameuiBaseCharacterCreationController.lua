@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseCharacterCreationController: gameuiMenuGameController
----@field protected ["eventDispatcher"] inkMenuEventDispatcher
----@field protected ["characterCustomizationState"] gameuiICharacterCustomizationState
----@field protected ["nextPageHitArea"] inkWidgetReference
+---@field protected eventDispatcher inkMenuEventDispatcher
+---@field protected characterCustomizationState gameuiICharacterCustomizationState
+---@field protected nextPageHitArea inkWidgetReference
 gameuiBaseCharacterCreationController = {}
 
 ---@param fields? table

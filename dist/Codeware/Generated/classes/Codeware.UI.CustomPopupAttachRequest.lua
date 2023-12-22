@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_CustomPopupAttachRequest: IScriptable
----@field public ["controller"] Codeware_UI_CustomPopup
----@field public ["notificationData"] inkGameNotificationData
----@field public ["notificationToken"] inkGameNotificationToken
----@field public ["queueIndex"] Int32
+---@field public controller Codeware_UI_CustomPopup
+---@field public notificationData inkGameNotificationData
+---@field public notificationToken inkGameNotificationToken
+---@field public queueIndex Int32
 Codeware_UI_CustomPopupAttachRequest = {}
 
 ---@param fields? table

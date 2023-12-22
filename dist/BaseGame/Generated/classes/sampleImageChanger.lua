@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class sampleImageChanger: inkWidgetLogicController
----@field public ["imagePath"] CName
----@field public ["imageName_1"] CName
----@field public ["imageName_2"] CName
----@field private ["imageWidget"] inkImageWidget
+---@field public imagePath CName
+---@field public imageName_1 CName
+---@field public imageName_2 CName
+---@field private imageWidget inkImageWidget
 sampleImageChanger = {}
 
 ---@param fields? table

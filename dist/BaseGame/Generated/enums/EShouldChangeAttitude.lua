@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EShouldChangeAttitude: Enum
----@field ["PERSISTENTLY"] EShouldChangeAttitude 0
----@field ["TEMPORARLY"] EShouldChangeAttitude 1
+---@field PERSISTENTLY 0
+---@field TEMPORARLY 1
 EShouldChangeAttitude = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceCaptionIconPart: gameinteractionsChoiceCaptionPart
----@field public ["iconRecord"] gamedataChoiceCaptionIconPart_Record
+---@field public iconRecord gamedataChoiceCaptionIconPart_Record
 gameinteractionsChoiceCaptionIconPart = {}
 
 ---@param fields? table

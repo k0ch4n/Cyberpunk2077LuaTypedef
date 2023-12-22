@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class scnSceneSystemGlobalSettings
----@field public ["syncLipsyncToSceneTime"] Bool
+---@field public syncLipsyncToSceneTime Bool
 scnSceneSystemGlobalSettings = {}

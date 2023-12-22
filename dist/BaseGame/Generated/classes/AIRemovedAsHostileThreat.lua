@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIRemovedAsHostileThreat: AIAIEvent
----@field public ["threateningEntity"] AITargetTrackerComponent
----@field public ["threateningEntityCanTriggersCombat"] Bool
+---@field public threateningEntity AITargetTrackerComponent
+---@field public threateningEntityCanTriggersCombat Bool
 AIRemovedAsHostileThreat = {}
 
 ---@param fields? table

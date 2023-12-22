@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SystemCollapseModifyRevealBarEffector: gameEffector
----@field public ["value"] Float
+---@field public value Float
 SystemCollapseModifyRevealBarEffector = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsVehicleDoorLockedState: gamePrereqState
----@field public ["psListener"] gameScriptedPrereqPSChangeListenerWrapper
+---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsVehicleDoorLockedState = {}
 
 ---@param fields? table

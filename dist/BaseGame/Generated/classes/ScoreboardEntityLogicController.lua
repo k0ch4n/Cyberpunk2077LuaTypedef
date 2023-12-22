@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScoreboardEntityLogicController: inkWidgetLogicController
----@field private ["label"] inkTextWidgetReference
+---@field private label inkTextWidgetReference
 ScoreboardEntityLogicController = {}
 
 ---@param fields? table

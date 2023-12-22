@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnPropOwnershipTransferOptions
----@field public ["type"] scnPropOwnershipTransferOptionsType
----@field public ["dettachFromSlot"] Bool
----@field public ["removeFromInventory"] Bool
+---@field public type scnPropOwnershipTransferOptionsType
+---@field public dettachFromSlot Bool
+---@field public removeFromInventory Bool
 scnPropOwnershipTransferOptions = {}
 
 ---@param fields? table

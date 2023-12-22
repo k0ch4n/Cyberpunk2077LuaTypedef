@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BrightnessSettingsVarListener: userSettingsVarListener
----@field private ["ctrl"] BrightnessSettingsGameController
+---@field private ctrl BrightnessSettingsGameController
 BrightnessSettingsVarListener = {}
 
 ---@param fields? table

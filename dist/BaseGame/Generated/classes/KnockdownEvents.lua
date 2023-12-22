@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class KnockdownEvents: StatusEffectEvents
----@field public ["cachedPlayerVelocity"] Vector4
----@field public ["secondaryKnockdownDir"] Vector4
----@field public ["secondaryKnockdownTimer"] Float
----@field public ["playedImpactAnim"] Bool
----@field public ["frictionForceApplied"] Bool
----@field public ["frictionForceAppliedLastFrame"] Bool
----@field public ["delayDamageFrame"] Bool
----@field public ["bikeKnockdown"] Bool
+---@field public cachedPlayerVelocity Vector4
+---@field public secondaryKnockdownDir Vector4
+---@field public secondaryKnockdownTimer Float
+---@field public playedImpactAnim Bool
+---@field public frictionForceApplied Bool
+---@field public frictionForceAppliedLastFrame Bool
+---@field public delayDamageFrame Bool
+---@field public bikeKnockdown Bool
 KnockdownEvents = {}
 
 ---@param fields? table

@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialPopupGameController: gameuiWidgetGameController
----@field public ["actionHint"] inkWidgetReference
----@field public ["popupPanel"] inkWidgetReference
----@field public ["popupFullscreenPanel"] inkWidgetReference
----@field public ["popupBlockingPanel"] inkWidgetReference
----@field public ["popupFullscreenRightPanel"] inkWidgetReference
----@field private ["data"] TutorialPopupData
----@field private ["inputBlocked"] Bool
----@field private ["gamePaused"] Bool
----@field private ["isShownBbId"] redCallbackObject
----@field private ["animIntroPopup"] CName
----@field private ["animIntroPopupModal"] CName
----@field private ["animIntroFullscreenLeft"] CName
----@field private ["animIntroFullscreenRight"] CName
----@field private ["animOutroPopup"] CName
----@field private ["animOutroPopupModal"] CName
----@field private ["animOutroFullscreenLeft"] CName
----@field private ["animOutroFullscreenRight"] CName
----@field private ["animIntro"] CName
----@field private ["animOutro"] CName
----@field private ["targetPopup"] inkWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["targetPosition"] gamePopupPosition
----@field private ["onInputDeviceChangedCallbackID"] redCallbackObject
+---@field public actionHint inkWidgetReference
+---@field public popupPanel inkWidgetReference
+---@field public popupFullscreenPanel inkWidgetReference
+---@field public popupBlockingPanel inkWidgetReference
+---@field public popupFullscreenRightPanel inkWidgetReference
+---@field private data TutorialPopupData
+---@field private inputBlocked Bool
+---@field private gamePaused Bool
+---@field private isShownBbId redCallbackObject
+---@field private animIntroPopup CName
+---@field private animIntroPopupModal CName
+---@field private animIntroFullscreenLeft CName
+---@field private animIntroFullscreenRight CName
+---@field private animOutroPopup CName
+---@field private animOutroPopupModal CName
+---@field private animOutroFullscreenLeft CName
+---@field private animOutroFullscreenRight CName
+---@field private animIntro CName
+---@field private animOutro CName
+---@field private targetPopup inkWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private targetPosition gamePopupPosition
+---@field private onInputDeviceChangedCallbackID redCallbackObject
 gameuiTutorialPopupGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SecurityArea: InteractiveMasterDevice
----@field private ["area"] gameStaticTriggerAreaComponent
+---@field private area gameStaticTriggerAreaComponent
 SecurityArea = {}
 
 ---@param fields? table

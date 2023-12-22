@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerRotation: IParticleInitializer
----@field public ["rotation"] IEvaluatorFloat
+---@field public rotation IEvaluatorFloat
 CParticleInitializerRotation = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class vehicleEQuestVehicleDoorState: Enum
----@field ["ForceOpen"] vehicleEQuestVehicleDoorState 0
----@field ["ForceClose"] vehicleEQuestVehicleDoorState 1
----@field ["OpenAll"] vehicleEQuestVehicleDoorState 2
----@field ["CloseAll"] vehicleEQuestVehicleDoorState 3
----@field ["ForceLock"] vehicleEQuestVehicleDoorState 4
----@field ["ForceUnlock"] vehicleEQuestVehicleDoorState 5
----@field ["LockAll"] vehicleEQuestVehicleDoorState 6
----@field ["EnableInteraction"] vehicleEQuestVehicleDoorState 7
----@field ["DisableInteraction"] vehicleEQuestVehicleDoorState 8
----@field ["DisableAllInteractions"] vehicleEQuestVehicleDoorState 9
----@field ["ResetInteractions"] vehicleEQuestVehicleDoorState 10
----@field ["ResetVehicle"] vehicleEQuestVehicleDoorState 11
----@field ["OpenAllRegular"] vehicleEQuestVehicleDoorState 12
----@field ["QuestLock"] vehicleEQuestVehicleDoorState 13
----@field ["QuestLockAll"] vehicleEQuestVehicleDoorState 14
----@field ["Count"] vehicleEQuestVehicleDoorState 15
----@field ["Invalid"] vehicleEQuestVehicleDoorState 16
+---@field ForceOpen 0
+---@field ForceClose 1
+---@field OpenAll 2
+---@field CloseAll 3
+---@field ForceLock 4
+---@field ForceUnlock 5
+---@field LockAll 6
+---@field EnableInteraction 7
+---@field DisableInteraction 8
+---@field DisableAllInteractions 9
+---@field ResetInteractions 10
+---@field ResetVehicle 11
+---@field OpenAllRegular 12
+---@field QuestLock 13
+---@field QuestLockAll 14
+---@field Count 15
+---@field Invalid 16
 vehicleEQuestVehicleDoorState = {}

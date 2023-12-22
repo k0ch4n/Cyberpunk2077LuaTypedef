@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CacheAnimationForPotentialRagdoll: RagdollTask
----@field public ["currentBehavior"] CName
+---@field public currentBehavior CName
 CacheAnimationForPotentialRagdoll = {}
 
 ---@param fields? table

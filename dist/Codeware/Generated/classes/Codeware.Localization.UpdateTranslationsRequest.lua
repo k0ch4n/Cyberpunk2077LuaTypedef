@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_Localization_UpdateTranslationsRequest: gameScriptableSystemRequest
----@field public ["force"] Bool
+---@field public force Bool
 Codeware_Localization_UpdateTranslationsRequest = {}
 
 ---@param fields? table

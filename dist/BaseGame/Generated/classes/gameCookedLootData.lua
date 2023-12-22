@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCookedLootData: ISerializable
----@field public ["lootTables"] TweakDBID[]
----@field public ["contentAssignment"] TweakDBID
+---@field public lootTables TweakDBID[]
+---@field public contentAssignment TweakDBID
 gameCookedLootData = {}
 
 ---@param fields? table

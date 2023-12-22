@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class vehicleSummonFinishState: Enum
----@field ["Arrived"] vehicleSummonFinishState 0
+---@field Arrived 0
 vehicleSummonFinishState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PhotoModeTopBarController: inkRadioGroupController
----@field private ["photoModeTogglesArray"] inkWidgetReference[]
+---@field private photoModeTogglesArray inkWidgetReference[]
 PhotoModeTopBarController = {}
 
 ---@param fields? table

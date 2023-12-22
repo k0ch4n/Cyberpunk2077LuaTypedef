@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldRotatingMeshNodeAxis: Enum
----@field ["X"] worldRotatingMeshNodeAxis 0
----@field ["Y"] worldRotatingMeshNodeAxis 1
----@field ["Z"] worldRotatingMeshNodeAxis 2
+---@field X 0
+---@field Y 1
+---@field Z 2
 worldRotatingMeshNodeAxis = {}

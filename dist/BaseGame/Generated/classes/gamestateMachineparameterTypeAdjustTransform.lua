@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineparameterTypeAdjustTransform: IScriptable
----@field public ["position"] Vector4
----@field public ["rotation"] Quaternion
+---@field public position Vector4
+---@field public rotation Quaternion
 gamestateMachineparameterTypeAdjustTransform = {}
 
 ---@param fields? table

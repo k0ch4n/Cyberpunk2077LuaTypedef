@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPoseBlendMethod_BoneBranch: animIPoseBlendMethod
----@field public ["bones"] animOverrideBlendBoneInfo[]
+---@field public bones animOverrideBlendBoneInfo[]
 animPoseBlendMethod_BoneBranch = {}
 
 ---@param fields? table

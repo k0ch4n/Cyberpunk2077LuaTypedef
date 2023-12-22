@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WorldPosition
----@field public ["x"] FixedPoint
----@field public ["y"] FixedPoint
----@field public ["z"] FixedPoint
+---@field public x FixedPoint
+---@field public y FixedPoint
+---@field public z FixedPoint
 WorldPosition = {}
 
 ---@param fields? table

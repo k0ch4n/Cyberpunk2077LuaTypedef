@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatPoolPrereqState: gamePrereqState
----@field public ["statPoolListener"] BaseStatPoolPrereqListener
----@field public ["statpoolWasMissing"] Bool
----@field public ["object"] gameObject
----@field public ["statsObjID"] gameStatsObjectID
+---@field public statPoolListener BaseStatPoolPrereqListener
+---@field public statpoolWasMissing Bool
+---@field public object gameObject
+---@field public statsObjID gameStatsObjectID
 StatPoolPrereqState = {}
 
 ---@param fields? table

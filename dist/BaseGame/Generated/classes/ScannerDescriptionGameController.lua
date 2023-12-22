@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ScannerDescriptionGameController: BaseChunkGameController
----@field private ["descriptionText"] inkTextWidgetReference
----@field private ["customDescriptionText"] inkTextWidgetReference
----@field private ["descriptionCallbackID"] redCallbackObject
----@field private ["isValidDescription"] Bool
----@field private ["isValidCustomDescription"] Bool
+---@field private descriptionText inkTextWidgetReference
+---@field private customDescriptionText inkTextWidgetReference
+---@field private descriptionCallbackID redCallbackObject
+---@field private isValidDescription Bool
+---@field private isValidCustomDescription Bool
 ScannerDescriptionGameController = {}
 
 ---@param fields? table

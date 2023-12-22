@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleShopPlayerBalanceCallback: gameInventoryScriptCallback
----@field public ["owner"] gameuiVehicleShopGameController
+---@field public owner gameuiVehicleShopGameController
 VehicleShopPlayerBalanceCallback = {}
 
 ---@param fields? table

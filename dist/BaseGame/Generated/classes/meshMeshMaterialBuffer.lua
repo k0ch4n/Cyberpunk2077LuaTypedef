@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meshMeshMaterialBuffer
----@field public ["rawData"] DataBuffer
----@field public ["rawDataHeaders"] meshLocalMaterialHeader[]
+---@field public rawData DataBuffer
+---@field public rawDataHeaders meshLocalMaterialHeader[]
 meshMeshMaterialBuffer = {}
 
 ---@param fields? table

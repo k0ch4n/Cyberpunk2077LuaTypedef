@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class GlobalLightingTrajectoryOverride
----@field public ["overrideScale"] Float
----@field public ["latitude"] Float
----@field public ["sunRotationOffset"] Float
----@field public ["moonRotationOffset"] Float
----@field public ["timeOfYearSeason"] ETimeOfYearSeason
+---@field public overrideScale Float
+---@field public latitude Float
+---@field public sunRotationOffset Float
+---@field public moonRotationOffset Float
+---@field public timeOfYearSeason ETimeOfYearSeason
 GlobalLightingTrajectoryOverride = {}
 
 ---@param fields? table

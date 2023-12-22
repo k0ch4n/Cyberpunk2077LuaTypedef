@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questJoinCrowdParams: questAICommandParams
----@field public ["repeatCommandOnInterrupt"] Bool
+---@field public repeatCommandOnInterrupt Bool
 questJoinCrowdParams = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioDynamicEventsWithInterval
----@field public ["events"] CName[]
----@field public ["interval"] Float
+---@field public events CName[]
+---@field public interval Float
 audioDynamicEventsWithInterval = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerPuppetAttachmentSlotsCallback: gameAttachmentSlotsScriptCallback
----@field public ["player"] PlayerPuppet
+---@field public player PlayerPuppet
 PlayerPuppetAttachmentSlotsCallback = {}
 
 ---@param fields? table

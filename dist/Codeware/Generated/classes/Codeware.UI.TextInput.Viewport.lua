@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput_Viewport: Codeware_UI_inkCustomController
----@field public ["viewport"] inkScrollAreaWidget
----@field public ["content"] inkCanvasWidget
----@field public ["caretSize"] Vector2
+---@field public viewport inkScrollAreaWidget
+---@field public content inkCanvasWidget
+---@field public caretSize Vector2
 Codeware_UI_TextInput_Viewport = {}
 
 ---@param fields? table

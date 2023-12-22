@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamedataNPCRarity: Enum
----@field ["Boss"] gamedataNPCRarity 0
----@field ["Elite"] gamedataNPCRarity 1
----@field ["MaxTac"] gamedataNPCRarity 2
----@field ["Normal"] gamedataNPCRarity 3
----@field ["Officer"] gamedataNPCRarity 4
----@field ["Rare"] gamedataNPCRarity 5
----@field ["Trash"] gamedataNPCRarity 6
----@field ["Weak"] gamedataNPCRarity 7
----@field ["Count"] gamedataNPCRarity 8
----@field ["Invalid"] gamedataNPCRarity 9
+---@field Boss 0
+---@field Elite 1
+---@field MaxTac 2
+---@field Normal 3
+---@field Officer 4
+---@field Rare 5
+---@field Trash 6
+---@field Weak 7
+---@field Count 8
+---@field Invalid 9
 gamedataNPCRarity = {}

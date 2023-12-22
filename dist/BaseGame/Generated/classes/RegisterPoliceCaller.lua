@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RegisterPoliceCaller: gameScriptableSystemRequest
----@field public ["caller"] entEntity
----@field public ["crimePosition"] Vector4
+---@field public caller entEntity
+---@field public crimePosition Vector4
 RegisterPoliceCaller = {}
 
 ---@param fields? table

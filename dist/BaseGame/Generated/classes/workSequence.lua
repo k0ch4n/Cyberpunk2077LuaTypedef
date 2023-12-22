@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class workSequence: workIContainerEntry
----@field public ["previousLoopInfinitely"] Bool
----@field public ["loopInfinitely"] Bool
----@field public ["category"] gamedataWorkspotCategory
+---@field public previousLoopInfinitely Bool
+---@field public loopInfinitely Bool
+---@field public category gamedataWorkspotCategory
 workSequence = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatStateTimePrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["listener"] redCallbackObject
+---@field public owner gameObject
+---@field public listener redCallbackObject
 PlayerCombatStateTimePrereqState = {}
 
 ---@param fields? table

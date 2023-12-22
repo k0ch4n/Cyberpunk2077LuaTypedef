@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class FuseBox: InteractiveMasterDevice
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
----@field protected ["numberOfComponentsToON"] Int32
----@field protected ["numberOfComponentsToOFF"] Int32
----@field protected ["indexesOfComponentsToOFF"] Int32[]
----@field public ["mesh"] entMeshComponent
----@field private ["componentsON"] entIPlacedComponent[]
----@field private ["componentsOFF"] entIPlacedComponent[]
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
+---@field protected numberOfComponentsToON Int32
+---@field protected numberOfComponentsToOFF Int32
+---@field protected indexesOfComponentsToOFF Int32[]
+---@field public mesh entMeshComponent
+---@field private componentsON entIPlacedComponent[]
+---@field private componentsOFF entIPlacedComponent[]
 FuseBox = {}
 
 ---@param fields? table

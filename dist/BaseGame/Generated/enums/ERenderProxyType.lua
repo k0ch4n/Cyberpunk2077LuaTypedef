@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ERenderProxyType: Enum
----@field ["RPT_None"] ERenderProxyType 0
----@field ["RPT_Mesh"] ERenderProxyType 1
----@field ["RPT_PointLight"] ERenderProxyType 2
----@field ["RPT_SpotLight"] ERenderProxyType 3
----@field ["RPT_AreaLight"] ERenderProxyType 4
----@field ["RPT_Particles"] ERenderProxyType 5
----@field ["RPT_Foliage"] ERenderProxyType 6
----@field ["RPT_SSDecal"] ERenderProxyType 7
----@field ["RPT_VectorField"] ERenderProxyType 8
----@field ["RPT_FogVolume"] ERenderProxyType 9
----@field ["RPT_GI"] ERenderProxyType 10
----@field ["RPT_ReflectionProbe"] ERenderProxyType 11
----@field ["RPT_MorphTargetMesh"] ERenderProxyType 12
----@field ["RPT_LightVolume"] ERenderProxyType 13
----@field ["RPT_DynamicDecalSpawner"] ERenderProxyType 14
----@field ["RPT_AutoSpawner"] ERenderProxyType 15
----@field ["RPT_LightBlocker"] ERenderProxyType 16
+---@field RPT_None 0
+---@field RPT_Mesh 1
+---@field RPT_PointLight 2
+---@field RPT_SpotLight 3
+---@field RPT_AreaLight 4
+---@field RPT_Particles 5
+---@field RPT_Foliage 6
+---@field RPT_SSDecal 7
+---@field RPT_VectorField 8
+---@field RPT_FogVolume 9
+---@field RPT_GI 10
+---@field RPT_ReflectionProbe 11
+---@field RPT_MorphTargetMesh 12
+---@field RPT_LightVolume 13
+---@field RPT_DynamicDecalSpawner 14
+---@field RPT_AutoSpawner 15
+---@field RPT_LightBlocker 16
 ERenderProxyType = {}

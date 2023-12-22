@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameIMovingPlatformMovement: IScriptable
----@field public ["initData"] gameIMovingPlatformMovementInitData
----@field public ["endNode"] NodeRef
+---@field public initData gameIMovingPlatformMovementInitData
+---@field public endNode NodeRef
 gameIMovingPlatformMovement = {}
 
 ---@param type gameMovingPlatformMovementInitializationType

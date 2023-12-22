@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SsimpleBanerData
----@field public ["title"] String
----@field public ["description"] String
----@field public ["content"] redResourceReferenceScriptToken
+---@field public title String
+---@field public description String
+---@field public content redResourceReferenceScriptToken
 SsimpleBanerData = {}
 
 ---@param fields? table

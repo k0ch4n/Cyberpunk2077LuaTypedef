@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class locVoiceTagListResource: CResource
----@field public ["voiceTags"] locVoiceTag[]
+---@field public voiceTags locVoiceTag[]
 locVoiceTagListResource = {}
 
 ---@param fields? table

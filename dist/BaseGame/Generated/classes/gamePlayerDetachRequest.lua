@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayerDetachRequest: gamePlayerScriptableSystemRequest
----@field public ["ownerID"] entEntityID
+---@field public ownerID entEntityID
 gamePlayerDetachRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EspionageTooltipSettingsListener: userSettingsVarListener
----@field private ["ctrl"] NewPerksCyberwareTooltipController
+---@field private ctrl NewPerksCyberwareTooltipController
 EspionageTooltipSettingsListener = {}
 
 ---@param fields? table

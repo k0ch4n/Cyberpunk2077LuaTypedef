@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UILocalizationMap: IScriptable
----@field private ["map"] UILocRecord[]
+---@field private map UILocRecord[]
 UILocalizationMap = {}
 
 ---@param fields? table

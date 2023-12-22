@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entFootPhaseChangedEvent: redEvent
----@field public ["footPhase"] animEFootPhase
+---@field public footPhase animEFootPhase
 entFootPhaseChangedEvent = {}
 
 ---@param fields? table

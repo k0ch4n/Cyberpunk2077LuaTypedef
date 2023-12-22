@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameGodModeSaveEntityData
----@field public ["entityId"] entEntityID
----@field public ["data"] gameGodModeEntityData
+---@field public entityId entEntityID
+---@field public data gameGodModeEntityData
 gameGodModeSaveEntityData = {}
 
 ---@param fields? table

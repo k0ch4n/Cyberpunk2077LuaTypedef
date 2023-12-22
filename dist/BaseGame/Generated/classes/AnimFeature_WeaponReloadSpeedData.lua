@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_WeaponReloadSpeedData: animAnimFeature
----@field public ["reloadSpeed"] Float
----@field public ["emptyReloadSpeed"] Float
+---@field public reloadSpeed Float
+---@field public emptyReloadSpeed Float
 AnimFeature_WeaponReloadSpeedData = {}
 
 ---@param fields? table

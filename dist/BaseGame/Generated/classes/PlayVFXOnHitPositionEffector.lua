@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PlayVFXOnHitPositionEffector: gameEffector
----@field public ["effectName"] CName
----@field public ["effectTag"] CName
----@field public ["applicationTarget"] CName
+---@field public effectName CName
+---@field public effectTag CName
+---@field public applicationTarget CName
 PlayVFXOnHitPositionEffector = {}
 
 ---@param fields? table

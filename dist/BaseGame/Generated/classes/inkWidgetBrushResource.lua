@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkWidgetBrushResource: CResource
----@field public ["brush"] inkWidgetBrush
+---@field public brush inkWidgetBrush
 inkWidgetBrushResource = {}
 
 ---@param fields? table

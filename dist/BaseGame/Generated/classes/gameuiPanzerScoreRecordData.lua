@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiPanzerScoreRecordData
----@field public ["name"] String
----@field public ["score"] Uint32
+---@field public name String
+---@field public score Uint32
 gameuiPanzerScoreRecordData = {}
 
 ---@param fields? table

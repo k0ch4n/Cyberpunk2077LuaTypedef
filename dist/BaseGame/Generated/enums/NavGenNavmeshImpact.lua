@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class NavGenNavmeshImpact: Enum
----@field ["Ignored"] NavGenNavmeshImpact 1
----@field ["Walkable"] NavGenNavmeshImpact 0
----@field ["Blocking"] NavGenNavmeshImpact 2
----@field ["Road"] NavGenNavmeshImpact 3
----@field ["Stairs"] NavGenNavmeshImpact 4
----@field ["Drones"] NavGenNavmeshImpact 5
----@field ["Terrain"] NavGenNavmeshImpact 6
----@field ["CrowdWalkable"] NavGenNavmeshImpact 0
+---@field Ignored 1
+---@field Walkable 0
+---@field Blocking 2
+---@field Road 3
+---@field Stairs 4
+---@field Drones 5
+---@field Terrain 6
+---@field CrowdWalkable 0
 NavGenNavmeshImpact = {}

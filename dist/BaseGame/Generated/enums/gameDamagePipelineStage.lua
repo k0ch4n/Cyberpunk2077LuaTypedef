@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameDamagePipelineStage: Enum
----@field ["PreProcess"] gameDamagePipelineStage 0
----@field ["Process"] gameDamagePipelineStage 1
----@field ["ProcessHitReaction"] gameDamagePipelineStage 2
----@field ["PostProcess"] gameDamagePipelineStage 3
----@field ["COUNT"] gameDamagePipelineStage 4
----@field ["INVALID"] gameDamagePipelineStage 5
+---@field PreProcess 0
+---@field Process 1
+---@field ProcessHitReaction 2
+---@field PostProcess 3
+---@field COUNT 4
+---@field INVALID 5
 gameDamagePipelineStage = {}

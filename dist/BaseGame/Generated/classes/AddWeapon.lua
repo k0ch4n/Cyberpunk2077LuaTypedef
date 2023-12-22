@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddWeapon: AIbehaviortaskScript
----@field public ["weapon"] EquipmentPriority
+---@field public weapon EquipmentPriority
 AddWeapon = {}
 
 ---@param fields? table

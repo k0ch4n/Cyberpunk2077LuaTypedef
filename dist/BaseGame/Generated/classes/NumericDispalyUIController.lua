@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class NumericDispalyUIController: DeviceInkGameControllerBase
----@field private ["currentNumberTextWidget"] inkTextWidgetReference
----@field private ["upArrowWidget"] inkWidgetReference
----@field private ["downArrowWidget"] inkWidgetReference
----@field private ["idleAnimName"] CName
----@field private ["goingUpAnimName"] CName
----@field private ["goingDownAnimName"] CName
----@field private ["idleAnim"] inkanimProxy
----@field private ["goingDownAnim"] inkanimProxy
----@field private ["goingUpAnim"] inkanimProxy
----@field private ["onNumberChangedListener"] redCallbackObject
----@field private ["onDirectionChangedListener"] redCallbackObject
+---@field private currentNumberTextWidget inkTextWidgetReference
+---@field private upArrowWidget inkWidgetReference
+---@field private downArrowWidget inkWidgetReference
+---@field private idleAnimName CName
+---@field private goingUpAnimName CName
+---@field private goingDownAnimName CName
+---@field private idleAnim inkanimProxy
+---@field private goingDownAnim inkanimProxy
+---@field private goingUpAnim inkanimProxy
+---@field private onNumberChangedListener redCallbackObject
+---@field private onDirectionChangedListener redCallbackObject
 NumericDispalyUIController = {}
 
 ---@param fields? table

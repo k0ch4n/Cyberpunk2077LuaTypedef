@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerOtherVars
----@field public ["state"] PlayerCombatState
+---@field public state PlayerCombatState
 PlayerCombatControllerOtherVars = {}
 
 ---@param fields? table

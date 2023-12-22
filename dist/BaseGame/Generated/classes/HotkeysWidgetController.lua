@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class HotkeysWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private ["phoneSlot"] inkCompoundWidgetReference
----@field private ["carSlot"] inkCompoundWidgetReference
----@field private ["radioSlot"] inkCompoundWidgetReference
----@field private ["dpadHintsPanel"] inkCompoundWidgetReference
----@field private ["phone"] inkWidget
----@field private ["car"] inkWidget
----@field private ["radio"] inkWidget
----@field private ["consumables"] inkWidget
----@field private ["gadgets"] inkWidget
----@field private ["cyberware"] inkWidget
----@field private ["leeroy"] inkWidget
----@field private ["timeBank"] inkWidget
----@field private ["berserkEnabledBBId"] redCallbackObject
+---@field private phoneSlot inkCompoundWidgetReference
+---@field private carSlot inkCompoundWidgetReference
+---@field private radioSlot inkCompoundWidgetReference
+---@field private dpadHintsPanel inkCompoundWidgetReference
+---@field private phone inkWidget
+---@field private car inkWidget
+---@field private radio inkWidget
+---@field private consumables inkWidget
+---@field private gadgets inkWidget
+---@field private cyberware inkWidget
+---@field private leeroy inkWidget
+---@field private timeBank inkWidget
+---@field private berserkEnabledBBId redCallbackObject
 HotkeysWidgetController = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class CarHotkeyController: GenericHotkeyController
----@field private ["carIconSlot"] inkImageWidgetReference
----@field private ["psmBB"] gameIBlackboard
----@field private ["qsdBB"] gameIBlackboard
----@field private ["bbListener"] redCallbackObject
----@field private ["radialListener"] redCallbackObject
+---@field private carIconSlot inkImageWidgetReference
+---@field private psmBB gameIBlackboard
+---@field private qsdBB gameIBlackboard
+---@field private bbListener redCallbackObject
+---@field private radialListener redCallbackObject
 CarHotkeyController = {}
 
 ---@param fields? table

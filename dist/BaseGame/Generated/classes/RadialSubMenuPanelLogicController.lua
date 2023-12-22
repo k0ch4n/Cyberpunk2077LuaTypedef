@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class RadialSubMenuPanelLogicController: PlayerStatsUIHolder
----@field private ["levelValue"] inkTextWidgetReference
----@field private ["streetCredLabel"] inkTextWidgetReference
----@field private ["currencyValue"] inkTextWidgetReference
----@field private ["weightValue"] inkTextWidgetReference
----@field private ["subMenuLabel"] inkTextWidgetReference
----@field private ["centralLine"] inkWidgetReference
----@field private ["levelBarProgress"] inkWidgetReference
----@field private ["levelBarSpacer"] inkWidgetReference
----@field private ["streetCredBarProgress"] inkWidgetReference
----@field private ["streetCredBarSpacer"] inkWidgetReference
----@field private ["menuselectorWidget"] inkWidgetReference
----@field private ["subMenuselectorWidget"] inkWidgetReference
----@field private ["topPanel"] inkWidgetReference
----@field private ["leftHolder"] inkWidgetReference
----@field private ["rightHolder"] inkWidgetReference
----@field private ["lineBarsContainer"] inkCompoundWidgetReference
----@field private ["lineWidget"] inkCompoundWidgetReference
----@field private ["menusList"] MenuData[]
----@field private ["menuSelectorCtrl"] hubRadialStaticSelectorController
----@field private ["subMenuActive"] Bool
----@field private ["previousLineBar"] inkWidget
----@field private ["IsSetActive"] Bool
----@field private ["selectorMode"] Bool
----@field private ["menusData"] MenuDataBuilder
----@field private ["curMenuData"] MenuData
----@field private ["curSubMenuData"] MenuData
----@field public ["hubMenuInstanceID"] Uint32
+---@field private levelValue inkTextWidgetReference
+---@field private streetCredLabel inkTextWidgetReference
+---@field private currencyValue inkTextWidgetReference
+---@field private weightValue inkTextWidgetReference
+---@field private subMenuLabel inkTextWidgetReference
+---@field private centralLine inkWidgetReference
+---@field private levelBarProgress inkWidgetReference
+---@field private levelBarSpacer inkWidgetReference
+---@field private streetCredBarProgress inkWidgetReference
+---@field private streetCredBarSpacer inkWidgetReference
+---@field private menuselectorWidget inkWidgetReference
+---@field private subMenuselectorWidget inkWidgetReference
+---@field private topPanel inkWidgetReference
+---@field private leftHolder inkWidgetReference
+---@field private rightHolder inkWidgetReference
+---@field private lineBarsContainer inkCompoundWidgetReference
+---@field private lineWidget inkCompoundWidgetReference
+---@field private menusList MenuData[]
+---@field private menuSelectorCtrl hubRadialStaticSelectorController
+---@field private subMenuActive Bool
+---@field private previousLineBar inkWidget
+---@field private IsSetActive Bool
+---@field private selectorMode Bool
+---@field private menusData MenuDataBuilder
+---@field private curMenuData MenuData
+---@field private curSubMenuData MenuData
+---@field public hubMenuInstanceID Uint32
 RadialSubMenuPanelLogicController = {}
 
 ---@param fields? table

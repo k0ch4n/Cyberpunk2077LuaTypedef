@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileHitEvent: redEvent
----@field public ["hitInstances"] gameprojectileHitInstance[]
+---@field public hitInstances gameprojectileHitInstance[]
 gameprojectileHitEvent = {}
 
 ---@param fields? table

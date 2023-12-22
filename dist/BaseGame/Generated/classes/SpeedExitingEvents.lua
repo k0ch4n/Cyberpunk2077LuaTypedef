@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SpeedExitingEvents: ExitingEvents
----@field public ["exitForce"] Vector4
+---@field public exitForce Vector4
 SpeedExitingEvents = {}
 
 ---@param fields? table

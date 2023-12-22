@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AICTreeExtendableNodeDefinition: AICTreeNodeDefinition
----@field public ["optionalChild"] LibTreeINodeDefinition
+---@field public optionalChild LibTreeINodeDefinition
 AICTreeExtendableNodeDefinition = {}

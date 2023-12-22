@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemDisplayNotificationMessage: Enum
----@field ["Default"] ItemDisplayNotificationMessage 0
----@field ["AddRef"] ItemDisplayNotificationMessage 1
----@field ["RemoveRef"] ItemDisplayNotificationMessage 2
+---@field Default 0
+---@field AddRef 1
+---@field RemoveRef 2
 ItemDisplayNotificationMessage = {}

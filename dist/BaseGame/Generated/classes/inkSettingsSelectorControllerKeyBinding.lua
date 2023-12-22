@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkSettingsSelectorControllerKeyBinding: inkSettingsSelectorController
----@field private ["text"] inkRichTextBoxWidgetReference
----@field private ["buttonRef"] inkWidgetReference
----@field private ["editView"] inkWidgetReference
----@field private ["editOpacity"] Float
+---@field private text inkRichTextBoxWidgetReference
+---@field private buttonRef inkWidgetReference
+---@field private editView inkWidgetReference
+---@field private editOpacity Float
 inkSettingsSelectorControllerKeyBinding = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TemporaryUnequipEvents: UpperBodyEventsTransition
----@field private ["forceOpen"] Bool
----@field private ["hadStrongArmsEquipped"] Bool
+---@field private forceOpen Bool
+---@field private hadStrongArmsEquipped Bool
 TemporaryUnequipEvents = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MeleeThrowAttackEvents: MeleeAttackGenericEvents
----@field public ["projectileThrown"] Bool
----@field public ["targetObject"] gameObject
+---@field public projectileThrown Bool
+---@field public targetObject gameObject
 MeleeThrowAttackEvents = {}
 
 ---@param fields? table

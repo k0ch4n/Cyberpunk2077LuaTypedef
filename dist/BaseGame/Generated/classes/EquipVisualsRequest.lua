@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipVisualsRequest: gamePlayerScriptableSystemRequest
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 EquipVisualsRequest = {}
 
 ---@param fields? table

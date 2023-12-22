@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameInventoryPS: gameComponentPS
----@field public ["isRegisteredShared"] Bool
----@field public ["accessible"] Bool
+---@field public isRegisteredShared Bool
+---@field public accessible Bool
 gameInventoryPS = {}
 
 ---@param fields? table

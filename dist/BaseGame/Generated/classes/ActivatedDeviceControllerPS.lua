@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected ["animationSetup"] ActivatedDeviceAnimSetup
----@field protected ["activatedDeviceSetup"] ActivatedDeviceSetup
----@field protected ["spiderbotInteractionLocationOverride"] NodeRef
----@field private ["industrialArmAnimationOverride"] Int32
+---@field protected animationSetup ActivatedDeviceAnimSetup
+---@field protected activatedDeviceSetup ActivatedDeviceSetup
+---@field protected spiderbotInteractionLocationOverride NodeRef
+---@field private industrialArmAnimationOverride Int32
 ActivatedDeviceControllerPS = {}
 
 ---@param fields? table

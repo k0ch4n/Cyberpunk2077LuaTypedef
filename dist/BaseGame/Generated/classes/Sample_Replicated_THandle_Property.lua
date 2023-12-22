@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_THandle_Property
----@field public ["property"] Sample_Replicated_Serializable
+---@field public property Sample_Replicated_Serializable
 Sample_Replicated_THandle_Property = {}
 
 ---@param fields? table

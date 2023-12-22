@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetDefaultHighlightEvent: redEvent
----@field public ["highlightData"] HighlightEditableData
+---@field public highlightData HighlightEditableData
 SetDefaultHighlightEvent = {}
 
 ---@param fields? table

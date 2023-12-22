@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LevelUpUserData: inkGameNotificationData
----@field public ["data"] questLevelUpData
+---@field public data questLevelUpData
 LevelUpUserData = {}
 
 ---@param fields? table

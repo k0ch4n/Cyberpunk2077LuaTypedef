@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questClearForcedBehavioursNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["puppet"] gameEntityReference
+---@field public puppet gameEntityReference
 questClearForcedBehavioursNodeDefinition = {}
 
 ---@param fields? table

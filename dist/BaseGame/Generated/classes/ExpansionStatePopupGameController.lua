@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExpansionStatePopupGameController: gameuiWidgetGameController
----@field private ["statusRef"] inkTextWidgetReference
----@field private ["animationName"] CName
+---@field private statusRef inkTextWidgetReference
+---@field private animationName CName
 ExpansionStatePopupGameController = {}
 
 ---@param fields? table

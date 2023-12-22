@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InspectableObjectComponentPS: gameComponentPS
----@field private ["isStarted"] Bool
----@field private ["isFinished"] Bool
----@field private ["listeners"] questObjectInspectListener[]
+---@field private isStarted Bool
+---@field private isFinished Bool
+---@field private listeners questObjectInspectListener[]
 InspectableObjectComponentPS = {}
 
 ---@param fields? table

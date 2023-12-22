@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestToggleEngineEvent: redEvent
----@field public ["toggle"] Bool
----@field public ["lockState"] VehicleQuestEngineLockState
----@field public ["vehicleOnEngineOff"] Bool
+---@field public toggle Bool
+---@field public lockState VehicleQuestEngineLockState
+---@field public vehicleOnEngineOff Bool
 VehicleQuestToggleEngineEvent = {}
 
 ---@param fields? table

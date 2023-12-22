@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestCrystalDomeEvent: redEvent
----@field public ["toggle"] Bool
----@field public ["removeQuestControl"] Bool
+---@field public toggle Bool
+---@field public removeQuestControl Bool
 VehicleQuestCrystalDomeEvent = {}
 
 ---@param fields? table

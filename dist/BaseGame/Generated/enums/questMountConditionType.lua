@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questMountConditionType: Enum
----@field ["OnMount"] questMountConditionType 0
----@field ["OnUnmount"] questMountConditionType 1
+---@field OnMount 0
+---@field OnUnmount 1
 questMountConditionType = {}

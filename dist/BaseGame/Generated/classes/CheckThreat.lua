@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckThreat: AIbehaviorconditionScript
----@field public ["targetObjectMapping"] AIArgumentMapping
----@field protected ["targetThreat"] gameObject
+---@field public targetObjectMapping AIArgumentMapping
+---@field protected targetThreat gameObject
 CheckThreat = {}
 
 ---@param fields? table

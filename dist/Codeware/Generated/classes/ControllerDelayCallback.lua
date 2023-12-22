@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ControllerDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["controller"] IScriptable
----@field public ["event"] redEvent
+---@field public controller IScriptable
+---@field public event redEvent
 ControllerDelayCallback = {}
 
 ---@param fields? table

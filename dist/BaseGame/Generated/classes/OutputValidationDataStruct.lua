@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class OutputValidationDataStruct
----@field public ["targetID"] entEntityID
----@field public ["agentID"] gamePersistentID
----@field public ["reprimenderID"] entEntityID
----@field public ["eventReportedFromArea"] gamePersistentID
----@field public ["eventType"] ESecurityNotificationType
----@field public ["breachedAreas"] gamePersistentID[]
+---@field public targetID entEntityID
+---@field public agentID gamePersistentID
+---@field public reprimenderID entEntityID
+---@field public eventReportedFromArea gamePersistentID
+---@field public eventType ESecurityNotificationType
+---@field public breachedAreas gamePersistentID[]
 OutputValidationDataStruct = {}
 
 ---@param fields? table

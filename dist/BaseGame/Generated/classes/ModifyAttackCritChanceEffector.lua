@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ModifyAttackCritChanceEffector: ModifyAttackEffector
----@field public ["applicationChanceMods"] gamedataStatModifier_Record[]
+---@field public applicationChanceMods gamedataStatModifier_Record[]
 ModifyAttackCritChanceEffector = {}
 
 ---@param fields? table

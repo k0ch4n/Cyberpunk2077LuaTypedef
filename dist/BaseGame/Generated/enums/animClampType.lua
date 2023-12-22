@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animClampType: Enum
----@field ["None"] animClampType 0
----@field ["Clamp"] animClampType 1
----@field ["WrappedClamp"] animClampType 2
+---@field None 0
+---@field Clamp 1
+---@field WrappedClamp 2
 animClampType = {}

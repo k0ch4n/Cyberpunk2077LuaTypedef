@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questEntityManagerSetMeshAppearance_NodeType: questIEntityManager_NodeType
----@field public ["params"] questEntityManagerSetMeshAppearance_NodeTypeParams[]
+---@field public params questEntityManagerSetMeshAppearance_NodeTypeParams[]
 questEntityManagerSetMeshAppearance_NodeType = {}
 
 ---@param fields? table

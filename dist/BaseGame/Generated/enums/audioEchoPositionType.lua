@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audioEchoPositionType: Enum
----@field ["DynamicEnvironment"] audioEchoPositionType 0
----@field ["Simple"] audioEchoPositionType 1
+---@field DynamicEnvironment 0
+---@field Simple 1
 audioEchoPositionType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVehicleNpcOcclusionMetadata: audioEmitterMetadata
----@field public ["void"] Bool
+---@field public void Bool
 audioVehicleNpcOcclusionMetadata = {}
 
 ---@param fields? table

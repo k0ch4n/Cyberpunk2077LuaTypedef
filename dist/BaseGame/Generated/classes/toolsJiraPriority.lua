@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraPriority
----@field public ["name"] String
+---@field public name String
 toolsJiraPriority = {}
 
 ---@param fields? table

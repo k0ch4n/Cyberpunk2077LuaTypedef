@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HighlightObjectEffector: gameEffector
----@field public ["reason"] CName
+---@field public reason CName
 HighlightObjectEffector = {}
 
 ---@param fields? table

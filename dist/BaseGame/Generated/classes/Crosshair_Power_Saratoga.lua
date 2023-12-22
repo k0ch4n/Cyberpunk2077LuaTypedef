@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Crosshair_Power_Saratoga: gameuiCrosshairBaseGameController
----@field private ["leftPart"] inkWidgetReference
----@field private ["rightPart"] inkWidgetReference
----@field private ["topPart"] inkWidgetReference
----@field private ["botPart"] inkWidgetReference
+---@field private leftPart inkWidgetReference
+---@field private rightPart inkWidgetReference
+---@field private topPart inkWidgetReference
+---@field private botPart inkWidgetReference
 Crosshair_Power_Saratoga = {}
 
 ---@param fields? table

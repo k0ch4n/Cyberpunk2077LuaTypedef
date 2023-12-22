@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class scnActorRid
----@field public ["tag"] scnRidTag
----@field public ["animations"] scnAnimationRid[]
----@field public ["facialAnimations"] scnAnimationRid[]
----@field public ["cyberwareAnimations"] scnAnimationRid[]
+---@field public tag scnRidTag
+---@field public animations scnAnimationRid[]
+---@field public facialAnimations scnAnimationRid[]
+---@field public cyberwareAnimations scnAnimationRid[]
 scnActorRid = {}
 
 ---@param fields? table

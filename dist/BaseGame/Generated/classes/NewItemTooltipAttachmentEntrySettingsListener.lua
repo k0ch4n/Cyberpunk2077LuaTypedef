@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NewItemTooltipAttachmentEntrySettingsListener: userSettingsVarListener
----@field private ["ctrl"] NewItemTooltipAttachmentEntryController
+---@field private ctrl NewItemTooltipAttachmentEntryController
 NewItemTooltipAttachmentEntrySettingsListener = {}
 
 ---@param fields? table

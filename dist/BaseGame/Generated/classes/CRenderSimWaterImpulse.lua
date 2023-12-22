@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CRenderSimWaterImpulse: IDynamicTextureGenerator
----@field public ["resolution"] Int32
----@field public ["simulationSpeed"] Float
+---@field public resolution Int32
+---@field public simulationSpeed Float
 CRenderSimWaterImpulse = {}
 
 ---@param fields? table

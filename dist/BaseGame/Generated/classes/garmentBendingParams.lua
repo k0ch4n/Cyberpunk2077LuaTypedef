@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class garmentBendingParams
----@field public ["bendPowerOffsetInCM"] Float
+---@field public bendPowerOffsetInCM Float
 garmentBendingParams = {}
 
 ---@param fields? table

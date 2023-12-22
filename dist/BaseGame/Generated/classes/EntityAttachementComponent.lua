@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EntityAttachementComponent: gameScriptableComponent
----@field public ["parentAttachementData"] EntityAttachementData
+---@field public parentAttachementData EntityAttachementData
 EntityAttachementComponent = {}
 
 ---@param fields? table

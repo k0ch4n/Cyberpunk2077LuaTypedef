@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimationEvent: redEvent
----@field public ["animationName"] CName
+---@field public animationName CName
 gameTransformAnimationEvent = {}

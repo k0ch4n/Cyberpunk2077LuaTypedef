@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiHitType: Enum
----@field ["Miss"] gameuiHitType 0
----@field ["Glance"] gameuiHitType 1
----@field ["Hit"] gameuiHitType 2
----@field ["CriticalHit"] gameuiHitType 3
----@field ["CriticalHit_x2"] gameuiHitType 4
----@field ["Special"] gameuiHitType 5
+---@field Miss 0
+---@field Glance 1
+---@field Hit 2
+---@field CriticalHit 3
+---@field CriticalHit_x2 4
+---@field Special 5
 gameuiHitType = {}

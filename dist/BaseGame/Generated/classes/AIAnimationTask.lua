@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class AIAnimationTask: AIbehaviortaskScript
----@field protected ["record"] TweakDBID
----@field protected ["animVariation"] AIArgumentMapping
----@field protected ["actionRecord"] gamedataAIAction_Record
----@field protected ["actionDebugName"] String
----@field protected ["animVariationValue"] Int32
----@field protected ["phaseRecord"] gamedataAIActionPhase_Record
----@field protected ["actionPhase"] EAIActionPhase
----@field protected ["phaseActivationTime"] Float
----@field protected ["phaseDuration"] Float
+---@field protected record TweakDBID
+---@field protected animVariation AIArgumentMapping
+---@field protected actionRecord gamedataAIAction_Record
+---@field protected actionDebugName String
+---@field protected animVariationValue Int32
+---@field protected phaseRecord gamedataAIActionPhase_Record
+---@field protected actionPhase EAIActionPhase
+---@field protected phaseActivationTime Float
+---@field protected phaseDuration Float
 AIAnimationTask = {}
 
 ---@param fields? table

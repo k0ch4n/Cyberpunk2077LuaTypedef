@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CheckHeatStage: PreventionConditionAbstract
----@field public ["heatStageToCompare"] AIArgumentMapping
----@field public ["heatStageToCompareAsInteger"] Int32
----@field public ["currentHeatStageAsInteger"] Int32
----@field public ["system"] PreventionSystem
+---@field public heatStageToCompare AIArgumentMapping
+---@field public heatStageToCompareAsInteger Int32
+---@field public currentHeatStageAsInteger Int32
+---@field public system PreventionSystem
 CheckHeatStage = {}
 
 ---@param fields? table

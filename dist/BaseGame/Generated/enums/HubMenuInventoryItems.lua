@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HubMenuInventoryItems: Enum
----@field ["Gear"] HubMenuInventoryItems 0
----@field ["Cyberware"] HubMenuInventoryItems 1
----@field ["Backpack"] HubMenuInventoryItems 2
+---@field Gear 0
+---@field Cyberware 1
+---@field Backpack 2
 HubMenuInventoryItems = {}

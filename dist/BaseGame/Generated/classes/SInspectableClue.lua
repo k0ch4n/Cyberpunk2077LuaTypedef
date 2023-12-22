@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SInspectableClue
----@field public ["clueName"] CName
----@field public ["isScanned"] Bool
+---@field public clueName CName
+---@field public isScanned Bool
 SInspectableClue = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactQuickHack: ActionBool
----@field private ["factProperties"] ComputerQuickHackData
+---@field private factProperties ComputerQuickHackData
 FactQuickHack = {}
 
 ---@param fields? table

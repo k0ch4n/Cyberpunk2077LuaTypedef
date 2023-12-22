@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RealTimeUpdateRequest: gameScriptableSystemRequest
----@field public ["evt"] gameTickableEvent
----@field public ["time"] Float
+---@field public evt gameTickableEvent
+---@field public time Float
 RealTimeUpdateRequest = {}
 
 ---@param fields? table

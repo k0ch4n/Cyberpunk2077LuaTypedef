@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animRigPartBone
----@field public ["bone"] CName
----@field public ["weight"] Float
+---@field public bone CName
+---@field public weight Float
 animRigPartBone = {}
 
 ---@param fields? table

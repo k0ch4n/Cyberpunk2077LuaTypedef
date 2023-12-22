@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimProfilerData_SectionTimings
----@field public ["sectionName"] CName
----@field public ["updateTimeMS"] Float
----@field public ["sampleTimeMS"] Float
+---@field public sectionName CName
+---@field public updateTimeMS Float
+---@field public sampleTimeMS Float
 animAnimProfilerData_SectionTimings = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemChooserUnequipVisuals: redEvent
----@field public ["itemData"] gameInventoryItemData
+---@field public itemData gameInventoryItemData
 ItemChooserUnequipVisuals = {}
 
 ---@param fields? table

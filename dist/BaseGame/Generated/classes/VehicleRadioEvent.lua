@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class VehicleRadioEvent: redEvent
----@field public ["toggle"] Bool
----@field public ["setStation"] Bool
----@field public ["station"] Int32
+---@field public toggle Bool
+---@field public setStation Bool
+---@field public station Int32
 VehicleRadioEvent = {}
 
 ---@param fields? table

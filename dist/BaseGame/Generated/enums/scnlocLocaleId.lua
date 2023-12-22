@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnlocLocaleId: Enum
----@field ["db_db"] scnlocLocaleId 0
----@field ["pl_pl"] scnlocLocaleId 1
----@field ["en_us"] scnlocLocaleId 2
+---@field db_db 0
+---@field pl_pl 1
+---@field en_us 2
 scnlocLocaleId = {}

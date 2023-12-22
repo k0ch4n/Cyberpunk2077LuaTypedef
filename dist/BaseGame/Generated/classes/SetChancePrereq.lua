@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetChancePrereq: gameIScriptablePrereq
----@field public ["setChance"] Float
+---@field public setChance Float
 SetChancePrereq = {}
 
 ---@param fields? table

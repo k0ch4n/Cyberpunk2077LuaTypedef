@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class QuickHackMappinController: gameuiInteractionMappinController
----@field private ["bar"] inkWidgetReference
----@field private ["header"] inkTextWidgetReference
----@field private ["iconWidgetActive"] inkImageWidgetReference
----@field private ["rootWidget"] inkWidget
----@field private ["mappin"] gamemappinsIMappin
----@field private ["data"] GameplayRoleMappinData
----@field private ["queueQuickHackWidgets"] inkWidgetReference[]
----@field private ["queueQuickHackControllers"] QuickHackQueueItem[]
----@field private ["mappinDataQueue"] GameplayRoleMappinData[]
----@field private ["animUpload"] inkanimProxy
----@field private ["animQueue"] inkanimProxy
+---@field private bar inkWidgetReference
+---@field private header inkTextWidgetReference
+---@field private iconWidgetActive inkImageWidgetReference
+---@field private rootWidget inkWidget
+---@field private mappin gamemappinsIMappin
+---@field private data GameplayRoleMappinData
+---@field private queueQuickHackWidgets inkWidgetReference[]
+---@field private queueQuickHackControllers QuickHackQueueItem[]
+---@field private mappinDataQueue GameplayRoleMappinData[]
+---@field private animUpload inkanimProxy
+---@field private animQueue inkanimProxy
 QuickHackMappinController = {}
 
 ---@param fields? table

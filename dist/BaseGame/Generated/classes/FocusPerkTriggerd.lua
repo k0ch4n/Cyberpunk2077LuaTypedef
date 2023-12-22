@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FocusPerkTriggerd: redEvent
----@field public ["isActive"] Bool
+---@field public isActive Bool
 FocusPerkTriggerd = {}
 
 ---@param fields? table

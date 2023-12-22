@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class Portal: InteractiveDevice
----@field private ["exitNode"] NodeRef
----@field private ["LinkedPortal"] NodeRef
----@field protected ["renderToTextureComponent"] entIPlacedComponent
----@field protected ["virtualCameraComponent"] entIPlacedComponent
----@field protected ["isInStreamRange"] Bool
----@field protected ["isInTeleportRange"] Bool
----@field protected ["isOnOtherSide"] Bool
----@field protected ["playerBlocker"] entIPlacedComponent
----@field protected ["screen"] entMeshComponent
+---@field private exitNode NodeRef
+---@field private LinkedPortal NodeRef
+---@field protected renderToTextureComponent entIPlacedComponent
+---@field protected virtualCameraComponent entIPlacedComponent
+---@field protected isInStreamRange Bool
+---@field protected isInTeleportRange Bool
+---@field protected isOnOtherSide Bool
+---@field protected playerBlocker entIPlacedComponent
+---@field protected screen entMeshComponent
 Portal = {}
 
 ---@param fields? table

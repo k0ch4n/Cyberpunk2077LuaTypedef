@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldProxyMeshBuildType: Enum
----@field ["ProxyFromScratch"] worldProxyMeshBuildType 1
----@field ["ProxyFromProxy"] worldProxyMeshBuildType 0
----@field ["OnlyFromChildProxies"] worldProxyMeshBuildType 2
+---@field ProxyFromScratch 1
+---@field ProxyFromProxy 0
+---@field OnlyFromChildProxies 2
 worldProxyMeshBuildType = {}

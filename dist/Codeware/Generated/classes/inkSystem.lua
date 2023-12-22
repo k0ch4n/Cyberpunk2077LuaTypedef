@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkSystem: gameIGameSystem
----@field public ["clipboard"] String
+---@field public clipboard String
 inkSystem = {}
 
 ---@param fields? table

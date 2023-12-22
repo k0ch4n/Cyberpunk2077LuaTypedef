@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questJumpWorkspotAnim_NodeType: questIBehaviourManager_NodeType
----@field public ["allowCurrAnimToFinish"] Bool
----@field public ["entryIdToJumpTo"] Int32
+---@field public allowCurrAnimToFinish Bool
+---@field public entryIdToJumpTo Int32
 questJumpWorkspotAnim_NodeType = {}
 
 ---@param fields? table

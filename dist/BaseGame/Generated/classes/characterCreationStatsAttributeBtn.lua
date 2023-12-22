@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class characterCreationStatsAttributeBtn: inkWidgetLogicController
----@field public ["value"] inkTextWidgetReference
----@field public ["label"] inkTextWidgetReference
----@field public ["icon"] inkImageWidgetReference
----@field public ["buttons"] inkImageWidgetReference
----@field public ["selector"] inkImageWidgetReference
----@field public ["addBtnhitArea"] inkWidgetReference
----@field public ["minusBtnhitArea"] inkWidgetReference
----@field public ["minMaxLabel"] inkWidgetReference
----@field public ["minMaxLabelText"] inkTextWidgetReference
----@field public ["data"] CharacterCreationAttributeData
----@field public ["animating"] Bool
----@field public ["minusEnabled"] Bool
----@field public ["addEnabled"] Bool
----@field public ["maxed"] Bool
----@field private ["isPlusOrMinusBtnHoveredOver"] Bool
----@field private ["inputDisabled"] Bool
+---@field public value inkTextWidgetReference
+---@field public label inkTextWidgetReference
+---@field public icon inkImageWidgetReference
+---@field public buttons inkImageWidgetReference
+---@field public selector inkImageWidgetReference
+---@field public addBtnhitArea inkWidgetReference
+---@field public minusBtnhitArea inkWidgetReference
+---@field public minMaxLabel inkWidgetReference
+---@field public minMaxLabelText inkTextWidgetReference
+---@field public data CharacterCreationAttributeData
+---@field public animating Bool
+---@field public minusEnabled Bool
+---@field public addEnabled Bool
+---@field public maxed Bool
+---@field private isPlusOrMinusBtnHoveredOver Bool
+---@field private inputDisabled Bool
 characterCreationStatsAttributeBtn = {}
 
 ---@param fields? table

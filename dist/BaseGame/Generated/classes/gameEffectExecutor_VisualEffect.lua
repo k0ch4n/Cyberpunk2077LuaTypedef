@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameEffectExecutor_VisualEffect: gameEffectExecutor
----@field public ["effect"] worldEffect
----@field public ["attached"] Bool
----@field public ["breakLoopOnDetach"] Bool
----@field public ["effectTag"] CName
----@field public ["vectorEvaluator"] gameEffectVectorEvaluator
+---@field public effect worldEffect
+---@field public attached Bool
+---@field public breakLoopOnDetach Bool
+---@field public effectTag CName
+---@field public vectorEvaluator gameEffectVectorEvaluator
 gameEffectExecutor_VisualEffect = {}
 
 ---@param fields? table

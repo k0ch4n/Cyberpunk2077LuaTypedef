@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_SpawnEffect: gameTransformAnimation_Effects
----@field public ["effectName"] CName
----@field public ["effectTag"] CName
----@field public ["persistOnDetach"] Bool
+---@field public effectName CName
+---@field public effectTag CName
+---@field public persistOnDetach Bool
 gameTransformAnimation_SpawnEffect = {}
 
 ---@param fields? table

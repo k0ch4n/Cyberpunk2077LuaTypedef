@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetCombatPresetCommand: AICombatRelatedCommand
----@field public ["combatPreset"] EAICombatPreset
+---@field public combatPreset EAICombatPreset
 AISetCombatPresetCommand = {}
 
 ---@param fields? table

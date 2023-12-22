@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyDamageDeviceOperation: DeviceOperationBase
----@field public ["damages"] SDamageOperationData[]
+---@field public damages SDamageOperationData[]
 ApplyDamageDeviceOperation = {}
 
 ---@param fields? table

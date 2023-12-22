@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldNameColorPair
----@field public ["name"] String
----@field public ["color"] Color
+---@field public name String
+---@field public color Color
 worldNameColorPair = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ComputerBannerWidgetController: DeviceInkLogicControllerBase
----@field protected ["titleWidget"] inkTextWidgetReference
----@field protected ["textContentWidget"] inkTextWidgetReference
----@field protected ["videoContentWidget"] inkVideoWidgetReference
----@field protected ["imageContentWidget"] inkImageWidgetReference
----@field protected ["bannerButtonWidget"] inkWidgetReference
----@field private ["bannerData"] SBannerWidgetPackage
----@field private ["lastPlayedVideo"] redResourceReferenceScriptToken
+---@field protected titleWidget inkTextWidgetReference
+---@field protected textContentWidget inkTextWidgetReference
+---@field protected videoContentWidget inkVideoWidgetReference
+---@field protected imageContentWidget inkImageWidgetReference
+---@field protected bannerButtonWidget inkWidgetReference
+---@field private bannerData SBannerWidgetPackage
+---@field private lastPlayedVideo redResourceReferenceScriptToken
 ComputerBannerWidgetController = {}
 
 ---@param fields? table

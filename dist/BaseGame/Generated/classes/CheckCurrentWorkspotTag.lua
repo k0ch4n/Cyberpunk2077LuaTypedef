@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckCurrentWorkspotTag: AIbehaviorconditionScript
----@field public ["tag"] AIArgumentMapping
+---@field public tag AIArgumentMapping
 CheckCurrentWorkspotTag = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class VirtualNestedListController: inkVirtualListController
----@field protected ["dataView"] VirtualNestedListDataView
----@field protected ["dataSource"] inkScriptableDataSourceWrapper
----@field protected ["classifier"] VirutalNestedListClassifier
----@field protected ["defaultCollapsed"] Bool
----@field protected ["toggledLevels"] Int32[]
+---@field protected dataView VirtualNestedListDataView
+---@field protected dataSource inkScriptableDataSourceWrapper
+---@field protected classifier VirutalNestedListClassifier
+---@field protected defaultCollapsed Bool
+---@field protected toggledLevels Int32[]
 VirtualNestedListController = {}
 
 ---@param fields? table

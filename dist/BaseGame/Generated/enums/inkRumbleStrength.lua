@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkRumbleStrength: Enum
----@field ["SuperLight"] inkRumbleStrength 0
----@field ["Light"] inkRumbleStrength 1
----@field ["Medium"] inkRumbleStrength 2
----@field ["Heavy"] inkRumbleStrength 3
+---@field SuperLight 0
+---@field Light 1
+---@field Medium 2
+---@field Heavy 3
 inkRumbleStrength = {}

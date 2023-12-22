@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class StatsPlayTimeController: inkWidgetLogicController
----@field private ["playTimeRef"] inkTextWidgetReference
----@field private ["lifePathRef"] inkTextWidgetReference
----@field private ["lifePathIconRef"] inkImageWidgetReference
+---@field private playTimeRef inkTextWidgetReference
+---@field private lifePathRef inkTextWidgetReference
+---@field private lifePathIconRef inkImageWidgetReference
 StatsPlayTimeController = {}
 
 ---@param fields? table

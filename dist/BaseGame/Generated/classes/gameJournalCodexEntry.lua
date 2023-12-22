@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameJournalCodexEntry: gameJournalContainerEntry
----@field public ["title"] LocalizationString
----@field public ["imageId"] TweakDBID
----@field public ["linkImageId"] TweakDBID
+---@field public title LocalizationString
+---@field public imageId TweakDBID
+---@field public linkImageId TweakDBID
 gameJournalCodexEntry = {}
 
 ---@param fields? table

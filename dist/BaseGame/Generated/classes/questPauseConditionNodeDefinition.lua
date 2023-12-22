@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPauseConditionNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["condition"] questIBaseCondition
+---@field public condition questIBaseCondition
 questPauseConditionNodeDefinition = {}
 
 ---@param fields? table

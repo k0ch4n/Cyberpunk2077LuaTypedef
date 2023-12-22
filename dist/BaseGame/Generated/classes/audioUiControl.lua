@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioUiControl
----@field public ["uiEventsByAction"] audioKeyUiSoundDictionary
+---@field public uiEventsByAction audioKeyUiSoundDictionary
 audioUiControl = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameBoolSignalAction: Enum
----@field ["None"] gameBoolSignalAction 0
----@field ["TurnOn"] gameBoolSignalAction 1
----@field ["TurnOff"] gameBoolSignalAction 2
+---@field None 0
+---@field TurnOn 1
+---@field TurnOff 2
 gameBoolSignalAction = {}

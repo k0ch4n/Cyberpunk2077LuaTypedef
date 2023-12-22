@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackScreenOpen: redEvent
----@field public ["setToOpen"] Bool
+---@field public setToOpen Bool
 QuickHackScreenOpen = {}
 
 ---@param fields? table

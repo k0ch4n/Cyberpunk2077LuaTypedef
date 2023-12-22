@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnReminderConditionProcessStep: Enum
----@field ["ReminderA"] scnReminderConditionProcessStep 0
----@field ["ReminderB"] scnReminderConditionProcessStep 1
----@field ["ReminderC"] scnReminderConditionProcessStep 2
----@field ["Looping"] scnReminderConditionProcessStep 3
+---@field ReminderA 0
+---@field ReminderB 1
+---@field ReminderC 2
+---@field Looping 3
 scnReminderConditionProcessStep = {}

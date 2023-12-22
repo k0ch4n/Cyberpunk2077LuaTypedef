@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCreditsSectionController: inkWidgetLogicController
----@field public ["sectionName"] inkTextWidgetReference
+---@field public sectionName inkTextWidgetReference
 gameuiCreditsSectionController = {}
 
 ---@param fields? table

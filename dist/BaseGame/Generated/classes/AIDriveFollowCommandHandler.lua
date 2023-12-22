@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class AIDriveFollowCommandHandler: AICommandHandlerBase
----@field protected ["outUseKinematic"] AIArgumentMapping
----@field protected ["outNeedDriver"] AIArgumentMapping
----@field protected ["outTarget"] AIArgumentMapping
----@field protected ["outSecureTimeOut"] AIArgumentMapping
----@field protected ["outDistanceMin"] AIArgumentMapping
----@field protected ["outDistanceMax"] AIArgumentMapping
----@field protected ["outStopWhenTargetReached"] AIArgumentMapping
----@field protected ["outUseTraffic"] AIArgumentMapping
----@field protected ["outTrafficTryNeighborsForStart"] AIArgumentMapping
----@field protected ["outTrafficTryNeighborsForEnd"] AIArgumentMapping
+---@field protected outUseKinematic AIArgumentMapping
+---@field protected outNeedDriver AIArgumentMapping
+---@field protected outTarget AIArgumentMapping
+---@field protected outSecureTimeOut AIArgumentMapping
+---@field protected outDistanceMin AIArgumentMapping
+---@field protected outDistanceMax AIArgumentMapping
+---@field protected outStopWhenTargetReached AIArgumentMapping
+---@field protected outUseTraffic AIArgumentMapping
+---@field protected outTrafficTryNeighborsForStart AIArgumentMapping
+---@field protected outTrafficTryNeighborsForEnd AIArgumentMapping
 AIDriveFollowCommandHandler = {}
 
 ---@param fields? table

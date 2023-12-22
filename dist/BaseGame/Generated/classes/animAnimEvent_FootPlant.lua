@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_FootPlant: animAnimEvent
----@field public ["side"] animEventSide
----@field public ["customEvent"] CName
+---@field public side animEventSide
+---@field public customEvent CName
 animAnimEvent_FootPlant = {}
 
 ---@param fields? table

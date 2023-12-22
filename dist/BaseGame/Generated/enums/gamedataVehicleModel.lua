@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleModel: Enum
----@field ["Aerondight"] gamedataVehicleModel 0
----@field ["Alvarado"] gamedataVehicleModel 1
----@field ["Basilisk"] gamedataVehicleModel 2
----@field ["Bratsk"] gamedataVehicleModel 3
----@field ["Colby"] gamedataVehicleModel 4
----@field ["Columbus"] gamedataVehicleModel 5
----@field ["Cortes"] gamedataVehicleModel 6
----@field ["Deleon"] gamedataVehicleModel 7
----@field ["Emperor"] gamedataVehicleModel 8
----@field ["Galena"] gamedataVehicleModel 9
----@field ["GalenaNomad"] gamedataVehicleModel 10
----@field ["Hearse"] gamedataVehicleModel 11
----@field ["Hozuki"] gamedataVehicleModel 12
----@field ["Kusanagi"] gamedataVehicleModel 13
----@field ["Mackinaw"] gamedataVehicleModel 14
----@field ["Maimai"] gamedataVehicleModel 15
----@field ["Merrimac"] gamedataVehicleModel 16
----@field ["Octant"] gamedataVehicleModel 17
----@field ["Riptide"] gamedataVehicleModel 18
----@field ["Shion"] gamedataVehicleModel 19
----@field ["Supron"] gamedataVehicleModel 20
----@field ["Thrax"] gamedataVehicleModel 21
----@field ["Turbo"] gamedataVehicleModel 22
----@field ["Type66"] gamedataVehicleModel 23
----@field ["Zeya"] gamedataVehicleModel 24
----@field ["Count"] gamedataVehicleModel 25
----@field ["Invalid"] gamedataVehicleModel 26
+---@field Aerondight 0
+---@field Alvarado 1
+---@field Basilisk 2
+---@field Bratsk 3
+---@field Colby 4
+---@field Columbus 5
+---@field Cortes 6
+---@field Deleon 7
+---@field Emperor 8
+---@field Galena 9
+---@field GalenaNomad 10
+---@field Hearse 11
+---@field Hozuki 12
+---@field Kusanagi 13
+---@field Mackinaw 14
+---@field Maimai 15
+---@field Merrimac 16
+---@field Octant 17
+---@field Riptide 18
+---@field Shion 19
+---@field Supron 20
+---@field Thrax 21
+---@field Turbo 22
+---@field Type66 23
+---@field Zeya 24
+---@field Count 25
+---@field Invalid 26
 gamedataVehicleModel = {}

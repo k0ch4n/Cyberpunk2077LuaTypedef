@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformMovementStateChanged: redEvent
----@field public ["isMoving"] Bool
+---@field public isMoving Bool
 gameMovingPlatformMovementStateChanged = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIThreatCalculationEvent: redEvent
----@field public ["set"] Bool
----@field public ["temporaryThreatCalculationType"] EAIThreatCalculationType
+---@field public set Bool
+---@field public temporaryThreatCalculationType EAIThreatCalculationType
 AIThreatCalculationEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class JumpDecisions: LocomotionAirDecisions
----@field protected ["jumpPressed"] Bool
+---@field protected jumpPressed Bool
 JumpDecisions = {}
 
 ---@param fields? table

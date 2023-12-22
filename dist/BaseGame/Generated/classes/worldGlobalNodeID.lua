@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldGlobalNodeID
----@field public ["hash"] Uint64
+---@field public hash Uint64
 worldGlobalNodeID = {}
 
 ---@param fields? table

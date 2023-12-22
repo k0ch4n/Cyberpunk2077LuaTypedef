@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ArmsCWInSlotCallback: gameAttachmentSlotsScriptCallback
----@field protected ["state"] ArmsCWInSlotPrereqState
+---@field protected state ArmsCWInSlotPrereqState
 ArmsCWInSlotCallback = {}
 
 ---@param fields? table

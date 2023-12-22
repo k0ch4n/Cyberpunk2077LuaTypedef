@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DlcMenuGameController: gameuiMenuGameController
----@field private ["buttonHintsRef"] inkWidgetReference
----@field private ["containersRef"] inkCompoundWidgetReference
----@field private ["settings"] userSettingsUserSettings
----@field private ["dlcSettingsGroup"] userSettingsGroup
+---@field private buttonHintsRef inkWidgetReference
+---@field private containersRef inkCompoundWidgetReference
+---@field private settings userSettingsUserSettings
+---@field private dlcSettingsGroup userSettingsGroup
 DlcMenuGameController = {}
 
 ---@param fields? table

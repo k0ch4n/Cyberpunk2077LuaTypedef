@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RipperdocNewMeterBar: inkWidgetLogicController
----@field private ["bar"] inkWidgetReference
----@field private ["overchargeHighlight"] inkWidgetReference
----@field private ["root"] inkWidget
----@field private ["sizeAnimation"] inkanimProxy
----@field private ["meterWidth"] Float
----@field private ["pulse"] PulseAnimation
+---@field private bar inkWidgetReference
+---@field private overchargeHighlight inkWidgetReference
+---@field private root inkWidget
+---@field private sizeAnimation inkanimProxy
+---@field private meterWidth Float
+---@field private pulse PulseAnimation
 RipperdocNewMeterBar = {}
 
 ---@param fields? table

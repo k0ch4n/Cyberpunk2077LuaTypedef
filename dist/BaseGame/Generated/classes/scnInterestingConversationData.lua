@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnInterestingConversationData: ISerializable
----@field public ["sceneFilename"] scnSceneResource
----@field public ["interruptionOperations"] scnIInterruptionOperation[]
+---@field public sceneFilename scnSceneResource
+---@field public interruptionOperations scnIInterruptionOperation[]
 scnInterestingConversationData = {}
 
 ---@param fields? table

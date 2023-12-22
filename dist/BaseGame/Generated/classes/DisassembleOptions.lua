@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisassembleOptions
----@field public ["canBeDisassembled"] Bool
+---@field public canBeDisassembled Bool
 DisassembleOptions = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIOffMeshConnectionComponent: entIComponent
----@field public ["offMeshConnectionNodesRefs"] NodeRef[]
----@field public ["agentSize"] NavGenAgentSize
+---@field public offMeshConnectionNodesRefs NodeRef[]
+---@field public agentSize NavGenAgentSize
 AIOffMeshConnectionComponent = {}
 
 ---@param fields? table

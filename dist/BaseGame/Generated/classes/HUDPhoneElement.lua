@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HUDPhoneElement: inkWidgetLogicController
----@field protected ["RootWidget"] inkWidget
+---@field protected RootWidget inkWidget
 HUDPhoneElement = {}
 
 ---@protected

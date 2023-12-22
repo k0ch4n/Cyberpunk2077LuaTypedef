@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ReflexesMasterPerk1Effector: ModifyAttackEffector
----@field private ["operationType"] EMathOperator
----@field private ["value"] Float
----@field private ["timeOut"] Float
----@field private ["damageHistory"] gameeventsHitEvent[]
----@field private ["listener"] ReflexesMasterPerk1EffectorListener
----@field private ["lastTargetID"] entEntityID
+---@field private operationType EMathOperator
+---@field private value Float
+---@field private timeOut Float
+---@field private damageHistory gameeventsHitEvent[]
+---@field private listener ReflexesMasterPerk1EffectorListener
+---@field private lastTargetID entEntityID
 ReflexesMasterPerk1Effector = {}
 
 ---@param fields? table

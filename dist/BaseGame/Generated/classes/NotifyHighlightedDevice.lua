@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NotifyHighlightedDevice: redEvent
----@field public ["IsDeviceHighlighted"] Bool
----@field public ["IsNotifiedByMasterDevice"] Bool
+---@field public IsDeviceHighlighted Bool
+---@field public IsNotifiedByMasterDevice Bool
 NotifyHighlightedDevice = {}
 
 ---@param fields? table

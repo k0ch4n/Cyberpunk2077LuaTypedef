@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_WorkspotPlayFacialAnim: animAnimEvent
----@field public ["facialAnimName"] CName
+---@field public facialAnimName CName
 animAnimEvent_WorkspotPlayFacialAnim = {}
 
 ---@param fields? table

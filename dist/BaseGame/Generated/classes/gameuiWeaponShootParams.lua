@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiWeaponShootParams
----@field public ["fromWorldPosition"] Vector4
----@field public ["forward"] Vector4
+---@field public fromWorldPosition Vector4
+---@field public forward Vector4
 gameuiWeaponShootParams = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EndScreenData
----@field public ["unlockedPrograms"] ProgramData[]
----@field public ["outcome"] OutcomeMessage
+---@field public unlockedPrograms ProgramData[]
+---@field public outcome OutcomeMessage
 EndScreenData = {}
 
 ---@param fields? table

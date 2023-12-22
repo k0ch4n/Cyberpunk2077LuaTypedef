@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkCallbackListener
----@field public ["object"] IScriptable
----@field public ["functionName"] CName
+---@field public object IScriptable
+---@field public functionName CName
 inkCallbackListener = {}
 
 ---@param fields? table

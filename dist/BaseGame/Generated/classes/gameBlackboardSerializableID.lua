@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameBlackboardSerializableID
----@field public ["blackboardName"] CName
----@field public ["fieldName"] CName
+---@field public blackboardName CName
+---@field public fieldName CName
 gameBlackboardSerializableID = {}
 
 ---@param fields? table

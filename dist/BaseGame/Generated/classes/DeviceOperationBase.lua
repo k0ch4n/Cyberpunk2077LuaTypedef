@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class DeviceOperationBase: IScriptable
----@field public ["operationName"] CName
----@field public ["executeOnce"] Bool
----@field protected ["isEnabled"] Bool
----@field public ["toggleOperations"] SToggleDeviceOperationData[]
----@field public ["disableDevice"] Bool
+---@field public operationName CName
+---@field public executeOnce Bool
+---@field protected isEnabled Bool
+---@field public toggleOperations SToggleDeviceOperationData[]
+---@field public disableDevice Bool
 DeviceOperationBase = {}
 
 ---@param owner gameObject

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReserveItemToThisDropPoint: ScriptableDeviceAction
----@field public ["item"] TweakDBID
+---@field public item TweakDBID
 ReserveItemToThisDropPoint = {}
 
 ---@param fields? table

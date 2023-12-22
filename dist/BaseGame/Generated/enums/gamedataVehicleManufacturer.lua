@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleManufacturer: Enum
----@field ["Arch"] gamedataVehicleManufacturer 0
----@field ["Archer"] gamedataVehicleManufacturer 1
----@field ["Aurochs"] gamedataVehicleManufacturer 2
----@field ["Brennan"] gamedataVehicleManufacturer 3
----@field ["Chevillon"] gamedataVehicleManufacturer 4
----@field ["Delamain"] gamedataVehicleManufacturer 5
----@field ["Herrera"] gamedataVehicleManufacturer 6
----@field ["Kaukaz"] gamedataVehicleManufacturer 7
----@field ["Mahir"] gamedataVehicleManufacturer 8
----@field ["Makigai"] gamedataVehicleManufacturer 9
----@field ["Militech"] gamedataVehicleManufacturer 10
----@field ["Mizutani"] gamedataVehicleManufacturer 11
----@field ["Porsche"] gamedataVehicleManufacturer 12
----@field ["Quadra"] gamedataVehicleManufacturer 13
----@field ["Rayfield"] gamedataVehicleManufacturer 14
----@field ["Seamurai"] gamedataVehicleManufacturer 15
----@field ["Thorton"] gamedataVehicleManufacturer 16
----@field ["Villefort"] gamedataVehicleManufacturer 17
----@field ["Yaiba"] gamedataVehicleManufacturer 18
----@field ["Zetatech"] gamedataVehicleManufacturer 19
----@field ["Count"] gamedataVehicleManufacturer 20
----@field ["Invalid"] gamedataVehicleManufacturer 21
+---@field Arch 0
+---@field Archer 1
+---@field Aurochs 2
+---@field Brennan 3
+---@field Chevillon 4
+---@field Delamain 5
+---@field Herrera 6
+---@field Kaukaz 7
+---@field Mahir 8
+---@field Makigai 9
+---@field Militech 10
+---@field Mizutani 11
+---@field Porsche 12
+---@field Quadra 13
+---@field Rayfield 14
+---@field Seamurai 15
+---@field Thorton 16
+---@field Villefort 17
+---@field Yaiba 18
+---@field Zetatech 19
+---@field Count 20
+---@field Invalid 21
 gamedataVehicleManufacturer = {}

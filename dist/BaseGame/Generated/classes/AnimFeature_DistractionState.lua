@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_DistractionState: animAnimFeature
----@field public ["isOn"] Bool
+---@field public isOn Bool
 AnimFeature_DistractionState = {}
 
 ---@param fields? table

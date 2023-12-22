@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeBoundingShape: IScriptable
----@field public ["boundingShape"] inkWidgetReference
+---@field public boundingShape inkWidgetReference
 gameuiarcadeBoundingShape = {}

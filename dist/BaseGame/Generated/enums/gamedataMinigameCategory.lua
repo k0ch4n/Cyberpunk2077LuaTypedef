@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gamedataMinigameCategory: Enum
----@field ["CameraAccess"] gamedataMinigameCategory 0
----@field ["CyberwareAccess"] gamedataMinigameCategory 1
----@field ["DataAccess"] gamedataMinigameCategory 2
----@field ["DefenseSystemAccess"] gamedataMinigameCategory 3
----@field ["NeuralAccess"] gamedataMinigameCategory 4
----@field ["SecurityAccess"] gamedataMinigameCategory 5
----@field ["Trojan"] gamedataMinigameCategory 6
----@field ["TurretAccess"] gamedataMinigameCategory 7
----@field ["WeaponAccess"] gamedataMinigameCategory 8
----@field ["Count"] gamedataMinigameCategory 9
----@field ["Invalid"] gamedataMinigameCategory 10
+---@field CameraAccess 0
+---@field CyberwareAccess 1
+---@field DataAccess 2
+---@field DefenseSystemAccess 3
+---@field NeuralAccess 4
+---@field SecurityAccess 5
+---@field Trojan 6
+---@field TurretAccess 7
+---@field WeaponAccess 8
+---@field Count 9
+---@field Invalid 10
 gamedataMinigameCategory = {}

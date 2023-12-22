@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questEnablePlayerVehicle_NodeType: questIVehicleManagerNodeType
----@field public ["vehicle"] String
----@field public ["enable"] Bool
----@field public ["despawn"] Bool
----@field public ["makePlayerActiveVehicle"] Bool
+---@field public vehicle String
+---@field public enable Bool
+---@field public despawn Bool
+---@field public makePlayerActiveVehicle Bool
 questEnablePlayerVehicle_NodeType = {}
 
 ---@param fields? table

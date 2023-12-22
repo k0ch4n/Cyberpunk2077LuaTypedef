@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ConsecutiveHitsPrereqCondition: BaseHitPrereqCondition
----@field private ["timeOut"] Float
----@field private ["consecutiveHitsRequired"] Int32
----@field private ["uniqueTarget"] Bool
----@field private ["consecutiveHits"] Int32
----@field private ["lastTargetID"] entEntityID
----@field private ["lastHitTime"] Float
+---@field private timeOut Float
+---@field private consecutiveHitsRequired Int32
+---@field private uniqueTarget Bool
+---@field private consecutiveHits Int32
+---@field private lastTargetID entEntityID
+---@field private lastHitTime Float
 ConsecutiveHitsPrereqCondition = {}
 
 ---@param fields? table

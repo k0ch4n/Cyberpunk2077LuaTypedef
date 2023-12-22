@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalRequestClassFilter
----@field public ["className"] CName
+---@field public className CName
 gameJournalRequestClassFilter = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questUseWorkspotTier: Enum
----@field ["Tier3"] questUseWorkspotTier 0
----@field ["Tier4"] questUseWorkspotTier 1
+---@field Tier3 0
+---@field Tier4 1
 questUseWorkspotTier = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEStatFlags: Enum
----@field ["Bool"] gameEStatFlags 1
----@field ["EquipOnPlayer"] gameEStatFlags 2
----@field ["EquipOnNPC"] gameEStatFlags 4
----@field ["ExcludeRootCombination"] gameEStatFlags 8
+---@field Bool 1
+---@field EquipOnPlayer 2
+---@field EquipOnNPC 4
+---@field ExcludeRootCombination 8
 gameEStatFlags = {}

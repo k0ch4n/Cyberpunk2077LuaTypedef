@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class RoyceComponent: gameScriptableComponent
----@field private ["owner"] NPCPuppet
----@field private ["owner_id"] entEntityID
----@field private ["npcCollisionComponent"] entSimpleColliderComponent
----@field private ["npcDeathCollisionComponent"] entSimpleColliderComponent
----@field private ["npcHitRepresentationComponent"] entIComponent
----@field private ["statPoolSystem"] gameStatPoolsSystem
----@field private ["hitData"] animAnimFeature_HitReactionsData
----@field private ["weakspotDestroyed"] Bool
+---@field private owner NPCPuppet
+---@field private owner_id entEntityID
+---@field private npcCollisionComponent entSimpleColliderComponent
+---@field private npcDeathCollisionComponent entSimpleColliderComponent
+---@field private npcHitRepresentationComponent entIComponent
+---@field private statPoolSystem gameStatPoolsSystem
+---@field private hitData animAnimFeature_HitReactionsData
+---@field private weakspotDestroyed Bool
 RoyceComponent = {}
 
 ---@param fields? table

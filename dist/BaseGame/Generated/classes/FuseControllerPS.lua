@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class FuseControllerPS: MasterControllerPS
----@field protected ["timeTableSetup"] DeviceTimeTableManager
----@field protected ["maxLightsSwitchedAtOnce"] Int32
----@field protected ["timeToNextSwitch"] Float
----@field protected ["lightSwitchRandomizerType"] ELightSwitchRandomizerType
----@field private ["alternativeNameForON"] TweakDBID
----@field private ["alternativeNameForOFF"] TweakDBID
----@field private ["alternativeNameForPower"] TweakDBID
----@field private ["alternativeNameForUnpower"] TweakDBID
----@field private ["isCLSInitialized"] Bool
+---@field protected timeTableSetup DeviceTimeTableManager
+---@field protected maxLightsSwitchedAtOnce Int32
+---@field protected timeToNextSwitch Float
+---@field protected lightSwitchRandomizerType ELightSwitchRandomizerType
+---@field private alternativeNameForON TweakDBID
+---@field private alternativeNameForOFF TweakDBID
+---@field private alternativeNameForPower TweakDBID
+---@field private alternativeNameForUnpower TweakDBID
+---@field private isCLSInitialized Bool
 FuseControllerPS = {}
 
 ---@param fields? table

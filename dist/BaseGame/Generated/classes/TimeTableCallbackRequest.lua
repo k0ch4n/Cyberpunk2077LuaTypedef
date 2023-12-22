@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TimeTableCallbackRequest: gameScriptableSystemRequest
----@field public ["callBackID"] Uint32
+---@field public callBackID Uint32
 TimeTableCallbackRequest = {}
 
 ---@param fields? table

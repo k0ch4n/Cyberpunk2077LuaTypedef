@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraFixVersion
----@field public ["id"] String
+---@field public id String
 toolsJiraFixVersion = {}
 
 ---@param fields? table

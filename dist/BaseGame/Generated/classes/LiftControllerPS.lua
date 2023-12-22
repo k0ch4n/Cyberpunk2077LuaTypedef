@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class LiftControllerPS: MasterControllerPS
----@field protected ["liftSetup"] LiftSetup
----@field private ["activeFloor"] Int32
----@field private ["targetFloor"] Int32
----@field private ["movementState"] gamePlatformMovementState
----@field private ["floors"] ElevatorFloorSetup[]
----@field private ["floorIDs"] entEntityID[]
----@field private ["floorPSIDs"] gamePersistentID[]
----@field private ["floorsAuthorization"] Bool[]
----@field private ["timeOnPause"] Float
----@field private ["isPlayerInsideLift"] Bool
----@field private ["isPlayerInsideLift_RealOne"] Bool
----@field private ["isSpeakerDestroyed"] Bool
----@field private ["hasSpeaker"] Bool
----@field private ["cachedGoToFloorAction"] Int32
----@field private ["isAllDoorsClosed"] Bool
----@field private ["isAdsDisabled"] Bool
+---@field protected liftSetup LiftSetup
+---@field private activeFloor Int32
+---@field private targetFloor Int32
+---@field private movementState gamePlatformMovementState
+---@field private floors ElevatorFloorSetup[]
+---@field private floorIDs entEntityID[]
+---@field private floorPSIDs gamePersistentID[]
+---@field private floorsAuthorization Bool[]
+---@field private timeOnPause Float
+---@field private isPlayerInsideLift Bool
+---@field private isPlayerInsideLift_RealOne Bool
+---@field private isSpeakerDestroyed Bool
+---@field private hasSpeaker Bool
+---@field private cachedGoToFloorAction Int32
+---@field private isAllDoorsClosed Bool
+---@field private isAdsDisabled Bool
 LiftControllerPS = {}
 
 ---@param fields? table

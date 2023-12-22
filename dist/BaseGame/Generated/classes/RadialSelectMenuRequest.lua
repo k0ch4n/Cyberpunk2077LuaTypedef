@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RadialSelectMenuRequest: redEvent
----@field public ["eventData"] RadialMenuItemController
+---@field public eventData RadialMenuItemController
 RadialSelectMenuRequest = {}
 
 ---@param fields? table

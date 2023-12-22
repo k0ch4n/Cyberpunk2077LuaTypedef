@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNodeSourceChannel_TransformQsTransform: animIAnimNodeSourceChannel_QsTransform
----@field public ["transformIndex"] animTransformIndex
+---@field public transformIndex animTransformIndex
 animAnimNodeSourceChannel_TransformQsTransform = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public ["type"] questICharacterManager_NodeType
+---@field public type questICharacterManager_NodeType
 questCharacterManagerNodeDefinition = {}
 
 ---@param fields? table

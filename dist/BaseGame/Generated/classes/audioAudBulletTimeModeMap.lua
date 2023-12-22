@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAudBulletTimeModeMap: audioAudioMetadata
----@field public ["bulletTimeMapItems"] audioAudBulletTimeModeMapItem[]
+---@field public bulletTimeMapItems audioAudBulletTimeModeMapItem[]
 audioAudBulletTimeModeMap = {}
 
 ---@param fields? table

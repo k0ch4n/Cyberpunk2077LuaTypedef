@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceMetaData
----@field public ["tweakDBName"] String
----@field public ["tweakDBID"] TweakDBID
----@field public ["type"] gameinteractionsChoiceTypeWrapper
+---@field public tweakDBName String
+---@field public tweakDBID TweakDBID
+---@field public type gameinteractionsChoiceTypeWrapper
 gameinteractionsChoiceMetaData = {}
 
 ---@param fields? table

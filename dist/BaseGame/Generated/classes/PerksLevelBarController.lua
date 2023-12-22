@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PerksLevelBarController: inkWidgetLogicController
----@field protected ["foregroundImage"] inkWidgetReference
----@field protected ["backgroundImage"] inkWidgetReference
+---@field protected foregroundImage inkWidgetReference
+---@field protected backgroundImage inkWidgetReference
 PerksLevelBarController = {}
 
 ---@param fields? table

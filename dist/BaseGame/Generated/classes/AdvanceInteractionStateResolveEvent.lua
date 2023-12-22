@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AdvanceInteractionStateResolveEvent: redEvent
----@field public ["toggle"] Bool
+---@field public toggle Bool
 AdvanceInteractionStateResolveEvent = {}
 
 ---@param fields? table

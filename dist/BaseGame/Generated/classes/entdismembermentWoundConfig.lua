@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entdismembermentWoundConfig: ISerializable
----@field public ["WoundName"] CName
----@field public ["ResourceSet"] entdismembermentResourceSetE
+---@field public WoundName CName
+---@field public ResourceSet entdismembermentResourceSetE
 entdismembermentWoundConfig = {}
 
 ---@param fields? table

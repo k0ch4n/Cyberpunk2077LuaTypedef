@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectGroupFilterScriptContext
----@field public ["resultIndices"] Int32[]
+---@field public resultIndices Int32[]
 gameEffectGroupFilterScriptContext = {}
 
 ---@param fields? table

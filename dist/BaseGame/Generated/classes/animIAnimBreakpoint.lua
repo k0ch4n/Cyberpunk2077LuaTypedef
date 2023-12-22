@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class animIAnimBreakpoint
----@field public ["enabled"] Bool
+---@field public enabled Bool
 animIAnimBreakpoint = {}

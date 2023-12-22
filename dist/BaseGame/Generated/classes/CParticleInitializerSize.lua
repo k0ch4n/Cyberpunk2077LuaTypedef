@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CParticleInitializerSize: IParticleInitializer
----@field public ["size"] IEvaluatorVector
----@field public ["scale"] Float
+---@field public size IEvaluatorVector
+---@field public scale Float
 CParticleInitializerSize = {}
 
 ---@param fields? table

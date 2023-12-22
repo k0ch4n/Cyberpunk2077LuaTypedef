@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldProxyMeshGroupBuildParams
----@field public ["overridePrefabBuildParams"] Bool
----@field public ["buildParams"] worldGroupProxyMeshBuildParams
+---@field public overridePrefabBuildParams Bool
+---@field public buildParams worldGroupProxyMeshBuildParams
 worldProxyMeshGroupBuildParams = {}
 
 ---@param fields? table

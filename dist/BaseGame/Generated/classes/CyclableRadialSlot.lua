@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class CyclableRadialSlot: WeaponRadialSlot
----@field public ["leftArrowEmpty"] inkWidgetReference
----@field public ["leftArrowFull"] inkWidgetReference
----@field public ["rightArrowEmpty"] inkWidgetReference
----@field public ["rightArrowFull"] inkWidgetReference
----@field private ["canCycle"] Bool
----@field public ["isCycling"] Bool
----@field private ["wasCyclingRight"] Bool
----@field private ["hotkey"] gameEHotkey
+---@field public leftArrowEmpty inkWidgetReference
+---@field public leftArrowFull inkWidgetReference
+---@field public rightArrowEmpty inkWidgetReference
+---@field public rightArrowFull inkWidgetReference
+---@field private canCycle Bool
+---@field public isCycling Bool
+---@field private wasCyclingRight Bool
+---@field private hotkey gameEHotkey
 CyclableRadialSlot = {}
 
 ---@param fields? table

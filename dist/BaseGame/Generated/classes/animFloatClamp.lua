@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animFloatClamp
----@field public ["useMin"] Bool
----@field public ["min"] Float
----@field public ["useMax"] Bool
----@field public ["max"] Float
+---@field public useMin Bool
+---@field public min Float
+---@field public useMax Bool
+---@field public max Float
 animFloatClamp = {}
 
 ---@param fields? table

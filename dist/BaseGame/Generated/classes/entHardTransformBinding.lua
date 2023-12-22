@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entHardTransformBinding: entITransformBinding
----@field public ["slotName"] CName
+---@field public slotName CName
 entHardTransformBinding = {}
 
 ---@param fields? table

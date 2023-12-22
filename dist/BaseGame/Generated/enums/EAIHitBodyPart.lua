@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class EAIHitBodyPart: Enum
----@field ["None"] EAIHitBodyPart -1
----@field ["Head"] EAIHitBodyPart 1
----@field ["LeftTorso"] EAIHitBodyPart 2
----@field ["RightTorso"] EAIHitBodyPart 3
----@field ["Belly"] EAIHitBodyPart 4
----@field ["LeftLeg"] EAIHitBodyPart 5
----@field ["RightLeg"] EAIHitBodyPart 6
+---@field None -1
+---@field Head 1
+---@field LeftTorso 2
+---@field RightTorso 3
+---@field Belly 4
+---@field LeftLeg 5
+---@field RightLeg 6
 EAIHitBodyPart = {}

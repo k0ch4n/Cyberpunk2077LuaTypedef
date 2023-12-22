@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class CyberwareTooltipSlotListItem: AGenericTooltipController
----@field private ["icon"] inkImageWidgetReference
----@field private ["label"] inkTextWidgetReference
----@field private ["desc"] inkTextWidgetReference
----@field private ["data"] CyberwareSlotTooltipData
+---@field private icon inkImageWidgetReference
+---@field private label inkTextWidgetReference
+---@field private desc inkTextWidgetReference
+---@field private data CyberwareSlotTooltipData
 CyberwareTooltipSlotListItem = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnAudioFastForwardSupport: Enum
----@field ["MuteDuringFastForward"] scnAudioFastForwardSupport 1
----@field ["DontMuteDuringFastForward"] scnAudioFastForwardSupport 2
+---@field MuteDuringFastForward 1
+---@field DontMuteDuringFastForward 2
 scnAudioFastForwardSupport = {}

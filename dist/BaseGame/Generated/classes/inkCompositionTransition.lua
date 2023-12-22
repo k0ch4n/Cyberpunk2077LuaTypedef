@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkCompositionTransition
----@field public ["targetState"] CName
----@field public ["interpolators"] inkCompositionInterpolator[]
+---@field public targetState CName
+---@field public interpolators inkCompositionInterpolator[]
 inkCompositionTransition = {}
 
 ---@param fields? table

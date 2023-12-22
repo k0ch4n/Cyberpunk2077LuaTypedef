@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_PreGameSubMenu: inkMenuScenario
----@field protected ["prevScenario"] CName
----@field protected ["currSubMenuName"] CName
+---@field protected prevScenario CName
+---@field protected currSubMenuName CName
 MenuScenario_PreGameSubMenu = {}
 
 ---@param fields? table

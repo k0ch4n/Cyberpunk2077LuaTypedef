@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BossHealthStatListener: gameScriptStatPoolsListener
----@field private ["healthbar"] BossHealthBarGameController
+---@field private healthbar BossHealthBarGameController
 BossHealthStatListener = {}
 
 ---@param fields? table

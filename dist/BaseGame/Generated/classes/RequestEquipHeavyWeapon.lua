@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RequestEquipHeavyWeapon: redEvent
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 RequestEquipHeavyWeapon = {}
 
 ---@param fields? table

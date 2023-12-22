@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class CharacterCreationBackstorySelectionMenu: gameuiBaseCharacterCreationController
----@field public ["nomad"] inkWidgetReference
----@field public ["streetRat"] inkWidgetReference
----@field public ["corpo"] inkWidgetReference
----@field private ["animationProxy"] inkanimProxy
----@field private ["clickTarget"] String
----@field private ["nomadTarget"] String
----@field private ["streetTarget"] String
----@field private ["corpoTarget"] String
+---@field public nomad inkWidgetReference
+---@field public streetRat inkWidgetReference
+---@field public corpo inkWidgetReference
+---@field private animationProxy inkanimProxy
+---@field private clickTarget String
+---@field private nomadTarget String
+---@field private streetTarget String
+---@field private corpoTarget String
 CharacterCreationBackstorySelectionMenu = {}
 
 ---@param fields? table

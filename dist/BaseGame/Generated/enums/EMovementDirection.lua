@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EMovementDirection: Enum
----@field ["left"] EMovementDirection 0
----@field ["right"] EMovementDirection 1
----@field ["up"] EMovementDirection 2
----@field ["down"] EMovementDirection 3
----@field ["front"] EMovementDirection 4
----@field ["back"] EMovementDirection 5
+---@field left 0
+---@field right 1
+---@field up 2
+---@field down 3
+---@field front 4
+---@field back 5
 EMovementDirection = {}

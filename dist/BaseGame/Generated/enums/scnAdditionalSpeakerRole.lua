@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnAdditionalSpeakerRole: Enum
----@field ["Full"] scnAdditionalSpeakerRole 0
----@field ["OnlyLipsync"] scnAdditionalSpeakerRole 1
+---@field Full 0
+---@field OnlyLipsync 1
 scnAdditionalSpeakerRole = {}

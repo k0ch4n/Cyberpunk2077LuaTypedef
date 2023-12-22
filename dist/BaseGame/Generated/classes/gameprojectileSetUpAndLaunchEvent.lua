@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameprojectileSetUpAndLaunchEvent: gameprojectileLaunchEvent
----@field public ["trajectoryParams"] gameprojectileTrajectoryParams
----@field public ["lerpMultiplier"] Float
+---@field public trajectoryParams gameprojectileTrajectoryParams
+---@field public lerpMultiplier Float
 gameprojectileSetUpAndLaunchEvent = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIEquipCommand: AICommand
----@field public ["slotId"] TweakDBID
----@field public ["itemId"] TweakDBID
----@field public ["failIfItemNotFound"] Bool
----@field public ["durationOverride"] Float
+---@field public slotId TweakDBID
+---@field public itemId TweakDBID
+---@field public failIfItemNotFound Bool
+---@field public durationOverride Float
 AIEquipCommand = {}
 
 ---@param fields? table

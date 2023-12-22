@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameJournalInternetBase: IScriptable
----@field public ["name"] CName
----@field public ["linkAddress"] String
----@field public ["tintColor"] Color
----@field public ["hoverTintColor"] Color
+---@field public name CName
+---@field public linkAddress String
+---@field public tintColor Color
+---@field public hoverTintColor Color
 gameJournalInternetBase = {}
 
 ---@return Color

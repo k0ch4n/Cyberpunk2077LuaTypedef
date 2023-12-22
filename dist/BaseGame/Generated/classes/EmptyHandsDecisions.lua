@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EmptyHandsDecisions: UpperBodyTransition
----@field public ["stateBodyDone"] Bool
+---@field public stateBodyDone Bool
 EmptyHandsDecisions = {}
 
 ---@param fields? table

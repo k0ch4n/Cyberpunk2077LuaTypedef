@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldEditablePrefabType: Enum
----@field ["Regular"] worldEditablePrefabType 0
----@field ["Decoration"] worldEditablePrefabType 1
----@field ["Quest"] worldEditablePrefabType 2
----@field ["Building"] worldEditablePrefabType 3
----@field ["Road"] worldEditablePrefabType 4
+---@field Regular 0
+---@field Decoration 1
+---@field Quest 2
+---@field Building 3
+---@field Road 4
 worldEditablePrefabType = {}

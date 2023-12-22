@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseSensorOwnerChangedEvent: redEvent
----@field public ["newOwnerId"] entEntityID
+---@field public newOwnerId entEntityID
 senseSensorOwnerChangedEvent = {}
 
 ---@param fields? table

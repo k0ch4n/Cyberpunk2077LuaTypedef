@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuadRacerGameController: gameuiSideScrollerMiniGameController
----@field private ["gameMenu"] inkWidgetReference
----@field private ["scoreboardMenu"] inkWidgetReference
+---@field private gameMenu inkWidgetReference
+---@field private scoreboardMenu inkWidgetReference
 QuadRacerGameController = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class netIEntityState
----@field public ["recordID"] TweakDBID
----@field public ["persistentID"] Uint64
+---@field public recordID TweakDBID
+---@field public persistentID Uint64
 netIEntityState = {}

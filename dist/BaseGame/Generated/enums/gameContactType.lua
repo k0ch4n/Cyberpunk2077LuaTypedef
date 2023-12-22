@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameContactType: Enum
----@field ["Caller"] gameContactType 0
----@field ["Texter"] gameContactType 1
+---@field Caller 0
+---@field Texter 1
 gameContactType = {}

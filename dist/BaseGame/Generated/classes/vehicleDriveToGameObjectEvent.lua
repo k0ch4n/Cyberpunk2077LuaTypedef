@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleDriveToGameObjectEvent: redEvent
----@field public ["targetObjToReach"] gameObject
+---@field public targetObjToReach gameObject
 vehicleDriveToGameObjectEvent = {}
 
 ---@param fields? table

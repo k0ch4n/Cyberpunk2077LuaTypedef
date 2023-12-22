@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HitInstigatorCooldownEvent: redEvent
----@field public ["instigatorID"] entEntityID
+---@field public instigatorID entEntityID
 HitInstigatorCooldownEvent = {}
 
 ---@param fields? table

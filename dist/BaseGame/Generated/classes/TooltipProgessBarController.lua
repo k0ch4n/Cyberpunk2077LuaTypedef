@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class TooltipProgessBarController: inkWidgetLogicController
----@field protected ["progressFill"] inkWidgetReference
----@field protected ["hintHolder"] inkWidgetReference
----@field protected ["progressHolder"] inkWidgetReference
----@field protected ["postprogressHolder"] inkWidgetReference
----@field protected ["hintTextHolder"] inkCompoundWidgetReference
----@field protected ["libraryPath"] inkWidgetLibraryReference
----@field protected ["postprogressText"] inkTextWidgetReference
----@field private ["isCraftable"] Bool
----@field private ["isCrafted"] Bool
+---@field protected progressFill inkWidgetReference
+---@field protected hintHolder inkWidgetReference
+---@field protected progressHolder inkWidgetReference
+---@field protected postprogressHolder inkWidgetReference
+---@field protected hintTextHolder inkCompoundWidgetReference
+---@field protected libraryPath inkWidgetLibraryReference
+---@field protected postprogressText inkTextWidgetReference
+---@field private isCraftable Bool
+---@field private isCrafted Bool
 TooltipProgessBarController = {}
 
 ---@param fields? table

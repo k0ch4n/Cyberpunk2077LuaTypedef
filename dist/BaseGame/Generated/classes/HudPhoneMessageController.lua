@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class HudPhoneMessageController: HUDPhoneElement
----@field private ["MessageText"] inkTextWidgetReference
----@field private ["MessageAnim"] inkanimProxy
----@field private ["ShowingAnimationName"] CName
----@field private ["HidingAnimationName"] CName
----@field private ["VisibleAnimationName"] CName
----@field private ["MessageMaxLength"] Int32
----@field private ["MessageTopper"] String
----@field private ["Paused"] Bool
----@field private ["CurrentMessage"] gameJournalPhoneMessage
----@field private ["Queue"] gameJournalPhoneMessage[]
+---@field private MessageText inkTextWidgetReference
+---@field private MessageAnim inkanimProxy
+---@field private ShowingAnimationName CName
+---@field private HidingAnimationName CName
+---@field private VisibleAnimationName CName
+---@field private MessageMaxLength Int32
+---@field private MessageTopper String
+---@field private Paused Bool
+---@field private CurrentMessage gameJournalPhoneMessage
+---@field private Queue gameJournalPhoneMessage[]
 HudPhoneMessageController = {}
 
 ---@param fields? table

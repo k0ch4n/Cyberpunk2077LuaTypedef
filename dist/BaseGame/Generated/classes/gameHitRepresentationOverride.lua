@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameHitRepresentationOverride: ISerializable
----@field public ["represenationOverride"] gameHitShapeContainer
+---@field public represenationOverride gameHitShapeContainer
 gameHitRepresentationOverride = {}
 
 ---@param fields? table

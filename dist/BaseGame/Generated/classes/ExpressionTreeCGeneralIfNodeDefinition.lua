@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ExpressionTreeCGeneralIfNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public ["expressions"] LibTreeINodeDefinition[]
----@field public ["trueBranch"] LibTreeINodeDefinition
----@field public ["falseBranch"] LibTreeINodeDefinition
+---@field public expressions LibTreeINodeDefinition[]
+---@field public trueBranch LibTreeINodeDefinition
+---@field public falseBranch LibTreeINodeDefinition
 ExpressionTreeCGeneralIfNodeDefinition = {}
 
 ---@param fields? table

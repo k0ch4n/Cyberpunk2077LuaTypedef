@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SHitFlag
----@field public ["flag"] hitFlag
----@field public ["source"] CName
+---@field public flag hitFlag
+---@field public source CName
 SHitFlag = {}
 
 ---@param fields? table

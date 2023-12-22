@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline: animAnimNode_SetDrivenKey_InternalsISetDrivenKeyEntryProvider
----@field public ["entries"] animAnimNode_SetDrivenKey_InternalsEntry[]
+---@field public entries animAnimNode_SetDrivenKey_InternalsEntry[]
 animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline = {}
 
 ---@param fields? table

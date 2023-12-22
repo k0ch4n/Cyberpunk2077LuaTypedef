@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AutoSaveEvent: redEvent
----@field public ["maxAttempts"] Int32
----@field public ["isForced"] Bool
+---@field public maxAttempts Int32
+---@field public isForced Bool
 AutoSaveEvent = {}
 
 ---@param fields? table

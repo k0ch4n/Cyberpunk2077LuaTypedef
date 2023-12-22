@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class BraindanceBarLogicController: inkWidgetLogicController
----@field private ["layer"] gameuiEBraindanceLayer
----@field private ["isInLayer"] Bool
----@field private ["timelineActiveAnimationName"] CName
----@field private ["timelineDisabledAnimationName"] CName
----@field private ["timelineActiveAnimation"] inkanimProxy
----@field private ["timelineDisabledAnimation"] inkanimProxy
+---@field private layer gameuiEBraindanceLayer
+---@field private isInLayer Bool
+---@field private timelineActiveAnimationName CName
+---@field private timelineDisabledAnimationName CName
+---@field private timelineActiveAnimation inkanimProxy
+---@field private timelineDisabledAnimation inkanimProxy
 BraindanceBarLogicController = {}
 
 ---@param fields? table

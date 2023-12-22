@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryCyberwareItemChooser: InventoryGenericItemChooser
----@field protected ["leftSlotsContainer"] inkCompoundWidgetReference
----@field protected ["rightSlotsContainer"] inkCompoundWidgetReference
----@field private ["itemData"] gameInventoryItemData
+---@field protected leftSlotsContainer inkCompoundWidgetReference
+---@field protected rightSlotsContainer inkCompoundWidgetReference
+---@field private itemData gameInventoryItemData
 InventoryCyberwareItemChooser = {}
 
 ---@param fields? table

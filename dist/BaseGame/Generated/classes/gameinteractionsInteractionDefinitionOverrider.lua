@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsInteractionDefinitionOverrider
----@field public ["tag"] CName
----@field public ["shapes"] gameinteractionsIShapeDefinition[]
----@field public ["negativeShapes"] gameinteractionsIShapeDefinition[]
----@field public ["priorityMultiplier"] Float
+---@field public tag CName
+---@field public shapes gameinteractionsIShapeDefinition[]
+---@field public negativeShapes gameinteractionsIShapeDefinition[]
+---@field public priorityMultiplier Float
 gameinteractionsInteractionDefinitionOverrider = {}
 
 ---@param fields? table

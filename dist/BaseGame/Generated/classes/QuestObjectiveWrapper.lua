@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestObjectiveWrapper: ABaseQuestObjectiveWrapper
----@field private ["questSubObjectives"] QuestSubObjectiveWrapper[]
+---@field private questSubObjectives QuestSubObjectiveWrapper[]
 QuestObjectiveWrapper = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIGenericStaticLookatTask: AIGenericLookatTask
----@field private ["lookAtEvent"] entLookAtAddEvent
----@field private ["activationTimeStamp"] Float
----@field private ["lookatTarget"] Vector4
----@field private ["currentLookatTarget"] Vector4
+---@field private lookAtEvent entLookAtAddEvent
+---@field private activationTimeStamp Float
+---@field private lookatTarget Vector4
+---@field private currentLookatTarget Vector4
 AIGenericStaticLookatTask = {}
 
 ---@private

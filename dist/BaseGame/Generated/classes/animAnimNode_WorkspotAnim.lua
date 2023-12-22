@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_WorkspotAnim: animAnimNode_Base
----@field public ["collectEvents"] Bool
----@field public ["inputLink"] animPoseLink
+---@field public collectEvents Bool
+---@field public inputLink animPoseLink
 animAnimNode_WorkspotAnim = {}
 
 ---@param fields? table

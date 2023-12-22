@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SmartWindowMainLayoutWidgetController: ComputerMainLayoutWidgetController
----@field private ["menuMailsSlot"] inkWidgetReference
----@field private ["menuFilesSlot"] inkWidgetReference
----@field private ["menuNewsFeedSlot"] inkWidgetReference
----@field private ["menuDevicesSlot"] inkWidgetReference
+---@field private menuMailsSlot inkWidgetReference
+---@field private menuFilesSlot inkWidgetReference
+---@field private menuNewsFeedSlot inkWidgetReference
+---@field private menuDevicesSlot inkWidgetReference
 SmartWindowMainLayoutWidgetController = {}
 
 ---@param fields? table

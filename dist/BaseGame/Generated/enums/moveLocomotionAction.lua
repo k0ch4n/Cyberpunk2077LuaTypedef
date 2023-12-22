@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class moveLocomotionAction: Enum
----@field ["Undefined"] moveLocomotionAction 0
----@field ["Exploration"] moveLocomotionAction 1
----@field ["Idle"] moveLocomotionAction 2
----@field ["IdleTurn"] moveLocomotionAction 3
----@field ["Reposition"] moveLocomotionAction 4
----@field ["Start"] moveLocomotionAction 5
----@field ["Move"] moveLocomotionAction 6
----@field ["Stop"] moveLocomotionAction 7
+---@field Undefined 0
+---@field Exploration 1
+---@field Idle 2
+---@field IdleTurn 3
+---@field Reposition 4
+---@field Start 5
+---@field Move 6
+---@field Stop 7
 moveLocomotionAction = {}

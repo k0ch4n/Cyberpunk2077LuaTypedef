@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamedataUICondition: Enum
----@field ["InEyesSubMenu"] gamedataUICondition 0
----@field ["InHandsSubMenu"] gamedataUICondition 1
----@field ["InSubMenu"] gamedataUICondition 2
----@field ["IsIntroFinished"] gamedataUICondition 3
----@field ["IsSetEquippingSubMenu"] gamedataUICondition 4
----@field ["Visible"] gamedataUICondition 5
----@field ["Count"] gamedataUICondition 6
----@field ["Invalid"] gamedataUICondition 7
+---@field InEyesSubMenu 0
+---@field InHandsSubMenu 1
+---@field InSubMenu 2
+---@field IsIntroFinished 3
+---@field IsSetEquippingSubMenu 4
+---@field Visible 5
+---@field Count 6
+---@field Invalid 7
 gamedataUICondition = {}

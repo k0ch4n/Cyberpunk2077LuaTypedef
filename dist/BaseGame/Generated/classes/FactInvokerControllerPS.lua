@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class FactInvokerControllerPS: MasterControllerPS
----@field private ["factDataEntries"] FactInvokerDataEntry[]
----@field private ["passwords"] CName[]
----@field private ["arePasswordsInitialized"] Bool
+---@field private factDataEntries FactInvokerDataEntry[]
+---@field private passwords CName[]
+---@field private arePasswordsInitialized Bool
 FactInvokerControllerPS = {}
 
 ---@param fields? table

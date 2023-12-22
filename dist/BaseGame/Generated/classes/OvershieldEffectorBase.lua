@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class OvershieldEffectorBase: gameContinuousEffector
----@field public ["statSystem"] gameStatsSystem
----@field public ["poolSystem"] gameStatPoolsSystem
----@field public ["immunityTypes"] gameStatModifierData_Deprecated[]
----@field public ["modifiersAdded"] Bool
----@field public ["owner"] gameObject
+---@field public statSystem gameStatsSystem
+---@field public poolSystem gameStatPoolsSystem
+---@field public immunityTypes gameStatModifierData_Deprecated[]
+---@field public modifiersAdded Bool
+---@field public owner gameObject
 OvershieldEffectorBase = {}
 
 ---@param fields? table

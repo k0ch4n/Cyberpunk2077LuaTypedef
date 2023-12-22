@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeathTaskData: gameScriptTaskData
----@field public ["instigator"] gameObject
+---@field public instigator gameObject
 DeathTaskData = {}
 
 ---@param fields? table

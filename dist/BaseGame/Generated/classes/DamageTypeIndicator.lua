@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DamageTypeIndicator: inkWidgetLogicController
----@field private ["DamageIconRef"] inkImageWidgetReference
----@field private ["DamageTypeLabelRef"] inkTextWidgetReference
+---@field private DamageIconRef inkImageWidgetReference
+---@field private DamageTypeLabelRef inkTextWidgetReference
 DamageTypeIndicator = {}
 
 ---@param fields? table

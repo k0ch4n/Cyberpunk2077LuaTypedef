@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CallAction: redEvent
----@field public ["calledAction"] QuickSlotActionType
+---@field public calledAction QuickSlotActionType
 CallAction = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterTraumaMemberController: gameuiarcadeShooterObjectController
----@field public ["baseFollowDelay"] Float
+---@field public baseFollowDelay Float
 gameuiarcadeShooterTraumaMemberController = {}
 
 ---@param fields? table

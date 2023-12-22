@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_ButtonHintsManager: Codeware_UI_IButtonHintsManager
----@field public ["buttonHints"] inkWidget
----@field public ["inputHint"] inkInputDisplayController
+---@field public buttonHints inkWidget
+---@field public inputHint inkInputDisplayController
 Codeware_UI_ButtonHintsManager = {}
 
 ---@param fields? table

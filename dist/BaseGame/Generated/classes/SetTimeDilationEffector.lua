@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class SetTimeDilationEffector: gameEffector
----@field public ["owner"] gameObject
----@field public ["reason"] CName
----@field public ["easeInCurve"] CName
----@field public ["easeOutCurve"] CName
----@field public ["dilation"] Float
----@field public ["duration"] Float
----@field public ["affectsPlayer"] Bool
+---@field public owner gameObject
+---@field public reason CName
+---@field public easeInCurve CName
+---@field public easeOutCurve CName
+---@field public dilation Float
+---@field public duration Float
+---@field public affectsPlayer Bool
 SetTimeDilationEffector = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_FloatValueDebugProvider
----@field public ["isEnabled"] Bool
----@field public ["min"] Float
----@field public ["max"] Float
----@field public ["progress"] Float
----@field public ["auto"] Bool
----@field public ["speed"] Float
----@field public ["wrap"] Bool
+---@field public isEnabled Bool
+---@field public min Float
+---@field public max Float
+---@field public progress Float
+---@field public auto Bool
+---@field public speed Float
+---@field public wrap Bool
 animAnimNode_FloatValueDebugProvider = {}
 
 ---@param fields? table

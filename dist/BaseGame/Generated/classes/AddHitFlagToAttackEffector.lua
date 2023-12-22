@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AddHitFlagToAttackEffector: ModifyAttackEffector
----@field public ["hitFlag"] hitFlag
+---@field public hitFlag hitFlag
 AddHitFlagToAttackEffector = {}
 
 ---@param fields? table

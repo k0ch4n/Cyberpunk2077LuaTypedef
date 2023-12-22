@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeArcadeBackgroundController: inkWidgetLogicController
----@field public ["backgroundLayerList"] inkWidgetReference[]
+---@field public backgroundLayerList inkWidgetReference[]
 gameuiarcadeArcadeBackgroundController = {}
 
 ---@param fields? table

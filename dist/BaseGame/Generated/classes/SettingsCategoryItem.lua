@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SettingsCategoryItem: inkListItemController
----@field private ["labelHighlight"] inkTextWidgetReference
+---@field private labelHighlight inkTextWidgetReference
 SettingsCategoryItem = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIRoadBlockadeMemberCommand: AICombatRelatedCommand
----@field public ["duration"] Float
+---@field public duration Float
 AIRoadBlockadeMemberCommand = {}
 
 ---@param fields? table

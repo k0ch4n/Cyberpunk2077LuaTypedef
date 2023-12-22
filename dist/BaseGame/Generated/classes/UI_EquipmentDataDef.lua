@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UI_EquipmentDataDef: gamebbScriptDefinition
----@field public ["EquipmentData"] gamebbScriptID_Variant
----@field public ["UIjailbreakData"] gamebbScriptID_Variant
----@field public ["ammoLooted"] gamebbScriptID_Bool
+---@field public EquipmentData gamebbScriptID_Variant
+---@field public UIjailbreakData gamebbScriptID_Variant
+---@field public ammoLooted gamebbScriptID_Bool
 UI_EquipmentDataDef = {}
 
 ---@param fields? table

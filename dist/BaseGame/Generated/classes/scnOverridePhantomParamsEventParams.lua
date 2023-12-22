@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnOverridePhantomParamsEventParams
----@field public ["performer"] scnPerformerId
----@field public ["overrideSpawnEffect"] CName
----@field public ["overrideIdleEffect"] CName
+---@field public performer scnPerformerId
+---@field public overrideSpawnEffect CName
+---@field public overrideIdleEffect CName
 scnOverridePhantomParamsEventParams = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entLocalizationStringComponent: entIComponent
----@field public ["Strings"] entLocalizationStringMapEntry[]
+---@field public Strings entLocalizationStringMapEntry[]
 entLocalizationStringComponent = {}
 
 ---@param fields? table

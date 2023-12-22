@@ -293,13 +293,13 @@ class Annotation:
         elif flags & Flags.Property.isPublic:
             scope = "public"
 
-        self.add_custom(f'---@field {scope} ["{name}"] {type}')
+        self.add_custom(f"---@field {scope} {name} {type}")
 
     def add_enum(self, name: str, options: list[dict]):
         self.add_custom(f"---@class {name}: Enum")
 
         for option in options:
-            self.add_custom(f'---@field ["{option["name"]}"] {name} {option["value"]}')
+            self.add_custom(f'---@field {option["name"]} {option["value"]}')
 
         self.add_custom(f"{name} = {{}}")
 
@@ -316,6 +316,13 @@ class NameParser:
     @staticmethod
     def class_name(name: str):
         return name.replace(".", "_")
+
+    @staticmethod
+    def field(name: str):
+        if re.match(r"[a-zA-Z]|_", name[0]) and re.match(r"^([a-zA-Z]|_|\d)*$", name[1:]):
+            return name
+
+        return f'["{name}"]'
 
     @staticmethod
     def function(name: str):
@@ -421,7 +428,11 @@ class Writer:
             fields = []
             if "props" in class_data:
                 fields = [
-                    {"name": field["name"], "type": NameParser.type(field["type"]), "flags": field["flags"]}
+                    {
+                        "name": NameParser.field(field["name"]),
+                        "type": NameParser.type(field["type"]),
+                        "flags": field["flags"],
+                    }
                     for field in class_data["props"]
                 ]
 
@@ -445,7 +456,9 @@ class Writer:
 
         for enum_data in Dump.rtti["enums"].values():
             enum_name = enum_data["name"]
-            options = [{"name": option["name"], "value": option["value"]} for option in enum_data["members"]]
+            options = [
+                {"name": NameParser.field(option["name"]), "value": option["value"]} for option in enum_data["members"]
+            ]
 
             annotation = Annotation()
             annotation.add_meta()

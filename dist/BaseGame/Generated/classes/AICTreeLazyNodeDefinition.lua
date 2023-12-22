@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICTreeLazyNodeDefinition: AICTreeNodeDefinition
----@field public ["tree"] LibTreeCTreeResource
+---@field public tree LibTreeCTreeResource
 AICTreeLazyNodeDefinition = {}
 
 ---@param fields? table

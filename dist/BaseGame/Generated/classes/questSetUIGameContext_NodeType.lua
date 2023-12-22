@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetUIGameContext_NodeType: questIUIManagerNodeType
----@field public ["requestType"] questUIGameContextRequestType
----@field public ["context"] UIGameContext
+---@field public requestType questUIGameContextRequestType
+---@field public context UIGameContext
 questSetUIGameContext_NodeType = {}
 
 ---@param fields? table

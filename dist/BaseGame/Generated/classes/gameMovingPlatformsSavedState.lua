@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformsSavedState: ISerializable
----@field public ["mapping"] entEntityID[]
----@field public ["data"] gameMovingPlatformSavedData[]
+---@field public mapping entEntityID[]
+---@field public data gameMovingPlatformSavedData[]
 gameMovingPlatformsSavedState = {}
 
 ---@param fields? table

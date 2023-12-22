@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EMathOperationType: Enum
----@field ["Add"] EMathOperationType 0
----@field ["Set"] EMathOperationType 1
+---@field Add 0
+---@field Set 1
 EMathOperationType = {}

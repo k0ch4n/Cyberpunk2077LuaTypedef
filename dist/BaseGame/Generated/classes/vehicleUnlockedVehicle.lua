@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleUnlockedVehicle
----@field public ["vehicleID"] vehicleGarageVehicleID
----@field public ["health"] Float
+---@field public vehicleID vehicleGarageVehicleID
+---@field public health Float
 vehicleUnlockedVehicle = {}
 
 ---@param fields? table

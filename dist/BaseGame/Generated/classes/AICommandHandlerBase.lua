@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AICommandHandlerBase: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
+---@field protected inCommand AIArgumentMapping
 AICommandHandlerBase = {}
 
 ---@param fields? table

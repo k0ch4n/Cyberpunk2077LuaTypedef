@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class vehicleDebugUIGameController: gameuiBaseVehicleHUDGameController
----@field private ["vehicleBlackboard"] gameIBlackboard
----@field private ["vehicleBBStateConectionId"] redCallbackObject
----@field private ["mountBBConnectionId"] redCallbackObject
----@field private ["speedBBConnectionId"] redCallbackObject
----@field private ["gearBBConnectionId"] redCallbackObject
----@field private ["rpmValueBBConnectionId"] redCallbackObject
----@field private ["rpmMaxBBConnectionId"] redCallbackObject
----@field private ["radioStateBBConnectionId"] redCallbackObject
----@field private ["radioNameBBConnectionId"] redCallbackObject
----@field private ["radioState"] Bool
----@field private ["radioName"] CName
----@field private ["radioStateWidget"] inkTextWidget
----@field private ["radioNameWidget"] inkTextWidget
----@field private ["autopilotOnId"] redCallbackObject
----@field private ["rootWidget"] inkCanvasWidget
----@field private ["speedTextWidget"] inkTextWidget
----@field private ["gearTextWidget"] inkTextWidget
----@field private ["rpmValueWidget"] inkTextWidget
----@field private ["rpmGaugeForegroundWidget"] inkRectangleWidget
----@field private ["rpmGaugeMaxSize"] Vector2
----@field private ["rpmMinValue"] Float
----@field private ["rpmMaxValue"] Float
----@field private ["rpmMaxValueInitialized"] Bool
----@field private ["autopilotTextWidget"] inkTextWidget
----@field private ["isInAutoPilot"] Bool
----@field private ["useDebugUI"] Bool
+---@field private vehicleBlackboard gameIBlackboard
+---@field private vehicleBBStateConectionId redCallbackObject
+---@field private mountBBConnectionId redCallbackObject
+---@field private speedBBConnectionId redCallbackObject
+---@field private gearBBConnectionId redCallbackObject
+---@field private rpmValueBBConnectionId redCallbackObject
+---@field private rpmMaxBBConnectionId redCallbackObject
+---@field private radioStateBBConnectionId redCallbackObject
+---@field private radioNameBBConnectionId redCallbackObject
+---@field private radioState Bool
+---@field private radioName CName
+---@field private radioStateWidget inkTextWidget
+---@field private radioNameWidget inkTextWidget
+---@field private autopilotOnId redCallbackObject
+---@field private rootWidget inkCanvasWidget
+---@field private speedTextWidget inkTextWidget
+---@field private gearTextWidget inkTextWidget
+---@field private rpmValueWidget inkTextWidget
+---@field private rpmGaugeForegroundWidget inkRectangleWidget
+---@field private rpmGaugeMaxSize Vector2
+---@field private rpmMinValue Float
+---@field private rpmMaxValue Float
+---@field private rpmMaxValueInitialized Bool
+---@field private autopilotTextWidget inkTextWidget
+---@field private isInAutoPilot Bool
+---@field private useDebugUI Bool
 vehicleDebugUIGameController = {}
 
 ---@param fields? table

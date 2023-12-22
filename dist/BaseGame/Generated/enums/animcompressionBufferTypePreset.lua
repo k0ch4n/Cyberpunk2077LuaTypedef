@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animcompressionBufferTypePreset: Enum
----@field ["Spline"] animcompressionBufferTypePreset 0
----@field ["SIMD"] animcompressionBufferTypePreset 1
----@field ["TestRaw"] animcompressionBufferTypePreset 2
+---@field Spline 0
+---@field SIMD 1
+---@field TestRaw 2
 animcompressionBufferTypePreset = {}

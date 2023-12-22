@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ChargedHotkeyItemBaseController: HotkeyItemController
----@field protected ["chargebarSizeWidget"] inkWidgetReference
----@field protected ["chargebarOpacityWidget"] inkWidgetReference
----@field protected ["startSize"] Vector2
----@field protected ["endSize"] Vector2
----@field protected ["chargebarOpacity"] Float
----@field protected ["statListener"] ChargedHotkeyItemStatListener
----@field protected ["currentProgress"] Float
----@field private ["hideChargesAnimProxy"] inkanimProxy
----@field private ["showChargesAnimProxy"] inkanimProxy
----@field protected ["chargeThreshold"] Float
+---@field protected chargebarSizeWidget inkWidgetReference
+---@field protected chargebarOpacityWidget inkWidgetReference
+---@field protected startSize Vector2
+---@field protected endSize Vector2
+---@field protected chargebarOpacity Float
+---@field protected statListener ChargedHotkeyItemStatListener
+---@field protected currentProgress Float
+---@field private hideChargesAnimProxy inkanimProxy
+---@field private showChargesAnimProxy inkanimProxy
+---@field protected chargeThreshold Float
 ChargedHotkeyItemBaseController = {}
 
 ---@param fields? table

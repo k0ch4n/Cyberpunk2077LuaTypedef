@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_DistanceFromRoot: gameEffectObjectGroupFilter
----@field public ["rootZOffset"] Float
----@field public ["bonusRange"] Float
+---@field public rootZOffset Float
+---@field public bonusRange Float
 gameEffectObjectFilter_DistanceFromRoot = {}
 
 ---@param fields? table

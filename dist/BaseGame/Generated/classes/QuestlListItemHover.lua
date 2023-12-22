@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestlListItemHover: redEvent
----@field public ["hash"] Int32
+---@field public hash Int32
 QuestlListItemHover = {}
 
 ---@param fields? table

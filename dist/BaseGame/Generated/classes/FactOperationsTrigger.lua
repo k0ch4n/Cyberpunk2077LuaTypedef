@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FactOperationsTrigger: DeviceOperationsTrigger
----@field public ["triggerData"] FactOperationTriggerData
+---@field public triggerData FactOperationTriggerData
 FactOperationsTrigger = {}
 
 ---@param fields? table

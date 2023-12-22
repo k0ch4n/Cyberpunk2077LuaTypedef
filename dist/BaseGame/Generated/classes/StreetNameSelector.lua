@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class StreetNameSelector: StreetSignSelector
----@field private ["recordID"] TweakDBID
+---@field private recordID TweakDBID
 StreetNameSelector = {}
 
 ---@param fields? table

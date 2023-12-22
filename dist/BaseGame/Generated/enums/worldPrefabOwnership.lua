@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class worldPrefabOwnership: Enum
----@field ["None"] worldPrefabOwnership 0
----@field ["Quest"] worldPrefabOwnership 1
----@field ["Audio"] worldPrefabOwnership 2
----@field ["Environment"] worldPrefabOwnership 3
----@field ["FX"] worldPrefabOwnership 4
----@field ["LevelDesign"] worldPrefabOwnership 5
----@field ["Lighting"] worldPrefabOwnership 6
----@field ["OpenWorld"] worldPrefabOwnership 7
----@field ["Cinematics"] worldPrefabOwnership 8
+---@field None 0
+---@field Quest 1
+---@field Audio 2
+---@field Environment 3
+---@field FX 4
+---@field LevelDesign 5
+---@field Lighting 6
+---@field OpenWorld 7
+---@field Cinematics 8
 worldPrefabOwnership = {}

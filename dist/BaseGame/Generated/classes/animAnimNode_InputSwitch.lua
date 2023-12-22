@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_InputSwitch: animAnimNode_BaseSwitch
----@field public ["selectIntNode"] animIntLink
----@field public ["selectFloatNode"] animFloatLink
+---@field public selectIntNode animIntLink
+---@field public selectFloatNode animFloatLink
 animAnimNode_InputSwitch = {}
 
 ---@param fields? table

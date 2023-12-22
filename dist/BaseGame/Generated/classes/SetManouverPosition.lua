@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetManouverPosition: AIbehaviortaskScript
----@field public ["distance"] Float
----@field public ["angle"] Float
+---@field public distance Float
+---@field public angle Float
 SetManouverPosition = {}
 
 ---@param fields? table

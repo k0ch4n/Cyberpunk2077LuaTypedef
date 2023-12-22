@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class moveMovementType: Enum
----@field ["Walk"] moveMovementType 0
----@field ["Run"] moveMovementType 1
----@field ["Sprint"] moveMovementType 2
----@field ["Strafe"] moveMovementType 3
----@field ["Stand"] moveMovementType 4
+---@field Walk 0
+---@field Run 1
+---@field Sprint 2
+---@field Strafe 3
+---@field Stand 4
 moveMovementType = {}

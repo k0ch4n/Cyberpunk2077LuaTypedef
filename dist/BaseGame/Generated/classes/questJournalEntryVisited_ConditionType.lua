@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questJournalEntryVisited_ConditionType: questIJournalConditionType
----@field public ["path"] gameJournalPath
----@field public ["visited"] Bool
+---@field public path gameJournalPath
+---@field public visited Bool
 questJournalEntryVisited_ConditionType = {}
 
 ---@param fields? table

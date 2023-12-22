@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIactionParamsPackageTypes: Enum
----@field ["Default"] AIactionParamsPackageTypes 0
----@field ["Reaction"] AIactionParamsPackageTypes 1
----@field ["StatusEffect"] AIactionParamsPackageTypes 2
----@field ["Undefined"] AIactionParamsPackageTypes 3
+---@field Default 0
+---@field Reaction 1
+---@field StatusEffect 2
+---@field Undefined 3
 AIactionParamsPackageTypes = {}

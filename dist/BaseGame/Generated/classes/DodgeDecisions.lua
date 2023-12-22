@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DodgeDecisions: LocomotionGroundDecisions
----@field public ["shouldDisableEnterCondition"] Bool
+---@field public shouldDisableEnterCondition Bool
 DodgeDecisions = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CustomButtonType: Enum
----@field ["UnlockAllVehicles"] CustomButtonType 0
----@field ["ShowAllPoiMappins"] CustomButtonType 1
----@field ["DiscoverAllPoiMappins"] CustomButtonType 2
+---@field UnlockAllVehicles 0
+---@field ShowAllPoiMappins 1
+---@field DiscoverAllPoiMappins 2
 CustomButtonType = {}

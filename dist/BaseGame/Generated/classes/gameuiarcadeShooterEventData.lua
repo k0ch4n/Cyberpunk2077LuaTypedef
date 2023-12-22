@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterEventData
----@field public ["triggerPosition"] Vector2
----@field public ["finalPosition"] Vector2
----@field public ["spawnerDataList"] gameuiarcadeShooterEventSpawnerData[]
+---@field public triggerPosition Vector2
+---@field public finalPosition Vector2
+---@field public spawnerDataList gameuiarcadeShooterEventSpawnerData[]
 gameuiarcadeShooterEventData = {}
 
 ---@param fields? table

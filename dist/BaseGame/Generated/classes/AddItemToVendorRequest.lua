@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AddItemToVendorRequest: gameScriptableSystemRequest
----@field public ["vendorID"] TweakDBID
----@field public ["itemToAddID"] TweakDBID
----@field public ["quantity"] Int32
+---@field public vendorID TweakDBID
+---@field public itemToAddID TweakDBID
+---@field public quantity Int32
 AddItemToVendorRequest = {}
 
 ---@param fields? table

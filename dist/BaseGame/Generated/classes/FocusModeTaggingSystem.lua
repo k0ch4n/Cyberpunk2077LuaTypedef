@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class FocusModeTaggingSystem: gameScriptableSystem
----@field private ["playerAttachedCallbackID"] Uint32
----@field private ["playerDetachedCallbackID"] Uint32
+---@field private playerAttachedCallbackID Uint32
+---@field private playerDetachedCallbackID Uint32
 FocusModeTaggingSystem = {}
 
 ---@param fields? table

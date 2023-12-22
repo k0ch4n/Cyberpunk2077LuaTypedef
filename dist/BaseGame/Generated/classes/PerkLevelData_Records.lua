@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerkLevelData_Records: BasePerkLevelData_Records
----@field private ["arr"] gamedataPerkLevelData_Record[]
+---@field private arr gamedataPerkLevelData_Record[]
 PerkLevelData_Records = {}
 
 ---@param fields? table

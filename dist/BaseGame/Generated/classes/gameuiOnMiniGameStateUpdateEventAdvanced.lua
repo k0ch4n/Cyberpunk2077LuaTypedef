@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiOnMiniGameStateUpdateEventAdvanced: redEvent
----@field public ["gameState"] gameuiSideScrollerMiniGameStateAdvanced
----@field public ["propertyNames"] CName[]
+---@field public gameState gameuiSideScrollerMiniGameStateAdvanced
+---@field public propertyNames CName[]
 gameuiOnMiniGameStateUpdateEventAdvanced = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnCameraRid
----@field public ["tag"] scnRidTag
----@field public ["animations"] scnCameraAnimationRid[]
+---@field public tag scnRidTag
+---@field public animations scnCameraAnimationRid[]
 scnCameraRid = {}
 
 ---@param fields? table

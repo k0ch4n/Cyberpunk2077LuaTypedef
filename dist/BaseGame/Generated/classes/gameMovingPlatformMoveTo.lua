@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformMoveTo: redEvent
----@field public ["movement"] gameIMovingPlatformMovement
----@field public ["destinationName"] CName
----@field public ["data"] Int32
----@field public ["isElevator"] Bool
+---@field public movement gameIMovingPlatformMovement
+---@field public destinationName CName
+---@field public data Int32
+---@field public isElevator Bool
 gameMovingPlatformMoveTo = {}
 
 ---@param fields? table

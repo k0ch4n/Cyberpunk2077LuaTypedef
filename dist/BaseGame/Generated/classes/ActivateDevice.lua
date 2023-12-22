@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivateDevice: ActionBool
----@field public ["tweakDBChoiceName"] String
+---@field public tweakDBChoiceName String
 ActivateDevice = {}
 
 ---@param fields? table

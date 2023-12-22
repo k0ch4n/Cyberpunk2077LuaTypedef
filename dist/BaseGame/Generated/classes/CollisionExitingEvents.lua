@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CollisionExitingEvents: ImmediateExitWithForceEvents
----@field public ["animFeatureStatusEffect"] AnimFeature_StatusEffect
+---@field public animFeatureStatusEffect AnimFeature_StatusEffect
 CollisionExitingEvents = {}
 
 ---@param fields? table

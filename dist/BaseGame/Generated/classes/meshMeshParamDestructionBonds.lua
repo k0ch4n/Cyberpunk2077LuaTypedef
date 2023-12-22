@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamDestructionBonds: meshMeshParameter
----@field public ["bonds"] meshDestructionBond[]
+---@field public bonds meshDestructionBond[]
 meshMeshParamDestructionBonds = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questFinalBoardsEnableSkipCredits_NodeType: questIUIManagerNodeType
----@field public ["enableSkipping"] Bool
+---@field public enableSkipping Bool
 questFinalBoardsEnableSkipCredits_NodeType = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameJournalEntry: IScriptable
----@field public ["id"] String
----@field public ["journalEntryOverrideDataList"] gameJournalEntryOverrideData[]
+---@field public id String
+---@field public journalEntryOverrideDataList gameJournalEntryOverrideData[]
 gameJournalEntry = {}
 
 ---@return String

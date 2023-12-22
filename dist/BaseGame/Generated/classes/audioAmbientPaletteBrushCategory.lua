@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAmbientPaletteBrushCategory: audioAudioMetadata
----@field public ["brushes"] audioAmbientPaletteBrushDictionary
+---@field public brushes audioAmbientPaletteBrushDictionary
 audioAmbientPaletteBrushCategory = {}
 
 ---@param fields? table

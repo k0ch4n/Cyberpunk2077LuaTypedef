@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class StatPoolComparisonHitPrereqCondition: BaseHitPrereqCondition
----@field public ["comparisonSource"] CName
----@field public ["comparisonTarget"] CName
----@field public ["comparisonType"] EComparisonType
----@field public ["statPoolToCompare"] gamedataStatPoolType
+---@field public comparisonSource CName
+---@field public comparisonTarget CName
+---@field public comparisonType EComparisonType
+---@field public statPoolToCompare gamedataStatPoolType
 StatPoolComparisonHitPrereqCondition = {}
 
 ---@param fields? table

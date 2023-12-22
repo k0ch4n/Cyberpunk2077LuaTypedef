@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class gameuiPopupsManager: gameuiWidgetGameController
----@field public ["bracketsContainer"] inkCompoundWidgetReference
----@field public ["tutorialOverlayContainer"] inkCompoundWidgetReference
----@field public ["bracketLibraryID"] CName
----@field private ["blackboard"] gameIBlackboard
----@field private ["bbDefinition"] UIGameDataDef
----@field private ["journalManager"] gameJournalManager
----@field private ["uiSystemBB"] gameIBlackboard
----@field private ["uiSystemBBDef"] UI_SystemDef
----@field private ["uiSystemId"] redCallbackObject
----@field private ["isShownBbId"] redCallbackObject
----@field private ["dataBbId"] redCallbackObject
----@field private ["photomodeActiveId"] redCallbackObject
----@field private ["tutorialOnHold"] Bool
----@field private ["tutorialData"] gamePopupData
----@field private ["tutorialSettings"] gamePopupSettings
----@field private ["phoneMessageOnHold"] Bool
----@field private ["phoneMessageData"] JournalNotificationData
----@field private ["shardReadOnHold"] Bool
----@field private ["shardReadData"] NotifyShardRead
----@field private ["tutorialToken"] inkGameNotificationToken
----@field private ["phoneMessageToken"] inkGameNotificationToken
----@field private ["shardToken"] inkGameNotificationToken
----@field private ["vehiclesManagerToken"] inkGameNotificationToken
----@field private ["vehicleRadioToken"] inkGameNotificationToken
----@field private ["codexToken"] inkGameNotificationToken
----@field private ["ponrToken"] inkGameNotificationToken
----@field private ["expansionToken"] inkGameNotificationToken
----@field private ["expansionErrorToken"] inkGameNotificationToken
----@field private ["patchNotesToken"] inkGameNotificationToken
----@field private ["expansionStateToken"] inkGameNotificationToken
+---@field public bracketsContainer inkCompoundWidgetReference
+---@field public tutorialOverlayContainer inkCompoundWidgetReference
+---@field public bracketLibraryID CName
+---@field private blackboard gameIBlackboard
+---@field private bbDefinition UIGameDataDef
+---@field private journalManager gameJournalManager
+---@field private uiSystemBB gameIBlackboard
+---@field private uiSystemBBDef UI_SystemDef
+---@field private uiSystemId redCallbackObject
+---@field private isShownBbId redCallbackObject
+---@field private dataBbId redCallbackObject
+---@field private photomodeActiveId redCallbackObject
+---@field private tutorialOnHold Bool
+---@field private tutorialData gamePopupData
+---@field private tutorialSettings gamePopupSettings
+---@field private phoneMessageOnHold Bool
+---@field private phoneMessageData JournalNotificationData
+---@field private shardReadOnHold Bool
+---@field private shardReadData NotifyShardRead
+---@field private tutorialToken inkGameNotificationToken
+---@field private phoneMessageToken inkGameNotificationToken
+---@field private shardToken inkGameNotificationToken
+---@field private vehiclesManagerToken inkGameNotificationToken
+---@field private vehicleRadioToken inkGameNotificationToken
+---@field private codexToken inkGameNotificationToken
+---@field private ponrToken inkGameNotificationToken
+---@field private expansionToken inkGameNotificationToken
+---@field private expansionErrorToken inkGameNotificationToken
+---@field private patchNotesToken inkGameNotificationToken
+---@field private expansionStateToken inkGameNotificationToken
 gameuiPopupsManager = {}
 
 ---@param fields? table

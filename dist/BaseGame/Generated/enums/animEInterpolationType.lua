@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEInterpolationType: Enum
----@field ["Lerp"] animEInterpolationType 0
----@field ["Slerp"] animEInterpolationType 1
+---@field Lerp 0
+---@field Slerp 1
 animEInterpolationType = {}

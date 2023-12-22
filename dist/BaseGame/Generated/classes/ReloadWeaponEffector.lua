@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReloadWeaponEffector: gameEffector
----@field private ["owner"] gameObject
+---@field private owner gameObject
 ReloadWeaponEffector = {}
 
 ---@param fields? table

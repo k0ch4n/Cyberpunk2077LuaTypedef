@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DistantLightsAreaSettings: IAreaSettings
----@field public ["distantLightStartDistance"] Float
----@field public ["distantLightFadeDistance"] Float
+---@field public distantLightStartDistance Float
+---@field public distantLightFadeDistance Float
 DistantLightsAreaSettings = {}
 
 ---@param fields? table

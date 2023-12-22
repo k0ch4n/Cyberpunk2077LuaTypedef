@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DoorInkGameController: DeviceInkGameControllerBase
----@field private ["doorStaturTextWidget"] inkTextWidget
+---@field private doorStaturTextWidget inkTextWidget
 DoorInkGameController = {}
 
 ---@param fields? table

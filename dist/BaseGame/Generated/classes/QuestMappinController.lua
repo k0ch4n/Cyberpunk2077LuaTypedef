@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class QuestMappinController: gameuiQuestMappinController
----@field protected ["arrowCanvas"] inkWidgetReference
----@field protected ["arrowPart"] inkWidgetReference
----@field protected ["selector"] inkWidgetReference
----@field protected ["scanningDiamond"] inkWidgetReference
----@field protected ["portalIcon"] inkWidgetReference
----@field private ["aboveWidget"] inkWidget
----@field private ["belowWidget"] inkWidget
----@field protected ["mappin"] gamemappinsIMappin
----@field protected ["questMappin"] gamemappinsQuestMappin
----@field protected ["runtimeMappin"] gamemappinsRuntimeMappin
----@field protected ["root"] inkCompoundWidget
----@field protected ["isMainQuest"] Bool
----@field protected ["shouldHideWhenClamped"] Bool
----@field protected ["isCompletedPhase"] Bool
----@field protected ["animProxy"] inkanimProxy
----@field protected ["animOptions"] inkanimPlaybackOptions
----@field private ["vehicleAlreadySummonedTime"] EngineTime
----@field private ["vehiclePulseTimeSecs"] Float
----@field private ["vehicleMappinComponent"] VehicleMappinComponent
+---@field protected arrowCanvas inkWidgetReference
+---@field protected arrowPart inkWidgetReference
+---@field protected selector inkWidgetReference
+---@field protected scanningDiamond inkWidgetReference
+---@field protected portalIcon inkWidgetReference
+---@field private aboveWidget inkWidget
+---@field private belowWidget inkWidget
+---@field protected mappin gamemappinsIMappin
+---@field protected questMappin gamemappinsQuestMappin
+---@field protected runtimeMappin gamemappinsRuntimeMappin
+---@field protected root inkCompoundWidget
+---@field protected isMainQuest Bool
+---@field protected shouldHideWhenClamped Bool
+---@field protected isCompletedPhase Bool
+---@field protected animProxy inkanimProxy
+---@field protected animOptions inkanimPlaybackOptions
+---@field private vehicleAlreadySummonedTime EngineTime
+---@field private vehiclePulseTimeSecs Float
+---@field private vehicleMappinComponent VehicleMappinComponent
 QuestMappinController = {}
 
 ---@param fields? table

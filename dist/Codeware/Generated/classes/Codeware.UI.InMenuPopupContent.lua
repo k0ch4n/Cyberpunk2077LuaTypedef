@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_InMenuPopupContent: Codeware_UI_inkCustomController
----@field public ["content"] inkFlexWidget
----@field public ["title"] inkTextWidget
+---@field public content inkFlexWidget
+---@field public title inkTextWidget
 Codeware_UI_InMenuPopupContent = {}
 
 ---@param fields? table

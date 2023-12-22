@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class EquipmentManipulationAction: Enum
----@field ["Undefined"] EquipmentManipulationAction 0
----@field ["RequestActiveMeleeware"] EquipmentManipulationAction 1
----@field ["RequestActiveWeapon"] EquipmentManipulationAction 2
----@field ["RequestSlotActiveWeapon"] EquipmentManipulationAction 3
----@field ["RequestLastUsedWeapon"] EquipmentManipulationAction 4
----@field ["RequestFirstMeleeWeapon"] EquipmentManipulationAction 5
----@field ["RequestLastUsedMeleeWeapon"] EquipmentManipulationAction 6
----@field ["RequestLastUsedOrFirstAvailableWeapon"] EquipmentManipulationAction 7
----@field ["RequestLastUsedOrFirstAvailableRangedWeapon"] EquipmentManipulationAction 8
----@field ["RequestLastUsedOrFirstAvailableMeleeWeapon"] EquipmentManipulationAction 9
----@field ["RequestLastUsedOrFirstAvailableOneHandedRangedWeapon"] EquipmentManipulationAction 10
----@field ["RequestLastUsedOrFirstAvailableDriverCombatRangedWeapon"] EquipmentManipulationAction 11
----@field ["RequestLastUsedOrFirstAvailableDriverCombatBikeWeapon"] EquipmentManipulationAction 12
----@field ["RequestHeavyWeapon"] EquipmentManipulationAction 13
----@field ["CycleWeaponWheelItem"] EquipmentManipulationAction 14
----@field ["CycleNextWeaponWheelItem"] EquipmentManipulationAction 15
----@field ["CyclePreviousWeaponWheelItem"] EquipmentManipulationAction 16
----@field ["RequestConsumable"] EquipmentManipulationAction 17
----@field ["RequestGadget"] EquipmentManipulationAction 18
----@field ["RequestFists"] EquipmentManipulationAction 19
----@field ["RequestLeftHandCyberware"] EquipmentManipulationAction 20
----@field ["UnequipWeapon"] EquipmentManipulationAction 21
----@field ["UnequipConsumable"] EquipmentManipulationAction 22
----@field ["UnequipGadget"] EquipmentManipulationAction 23
----@field ["UnequipLeftHandCyberware"] EquipmentManipulationAction 24
----@field ["UnequipAll"] EquipmentManipulationAction 25
----@field ["ReequipWeapon"] EquipmentManipulationAction 26
----@field ["RequestWeaponSlot1"] EquipmentManipulationAction 27
----@field ["RequestWeaponSlot2"] EquipmentManipulationAction 28
----@field ["RequestWeaponSlot3"] EquipmentManipulationAction 29
----@field ["RequestWeaponSlot4"] EquipmentManipulationAction 30
----@field ["RequestNextThrowableWeapon"] EquipmentManipulationAction 31
+---@field Undefined 0
+---@field RequestActiveMeleeware 1
+---@field RequestActiveWeapon 2
+---@field RequestSlotActiveWeapon 3
+---@field RequestLastUsedWeapon 4
+---@field RequestFirstMeleeWeapon 5
+---@field RequestLastUsedMeleeWeapon 6
+---@field RequestLastUsedOrFirstAvailableWeapon 7
+---@field RequestLastUsedOrFirstAvailableRangedWeapon 8
+---@field RequestLastUsedOrFirstAvailableMeleeWeapon 9
+---@field RequestLastUsedOrFirstAvailableOneHandedRangedWeapon 10
+---@field RequestLastUsedOrFirstAvailableDriverCombatRangedWeapon 11
+---@field RequestLastUsedOrFirstAvailableDriverCombatBikeWeapon 12
+---@field RequestHeavyWeapon 13
+---@field CycleWeaponWheelItem 14
+---@field CycleNextWeaponWheelItem 15
+---@field CyclePreviousWeaponWheelItem 16
+---@field RequestConsumable 17
+---@field RequestGadget 18
+---@field RequestFists 19
+---@field RequestLeftHandCyberware 20
+---@field UnequipWeapon 21
+---@field UnequipConsumable 22
+---@field UnequipGadget 23
+---@field UnequipLeftHandCyberware 24
+---@field UnequipAll 25
+---@field ReequipWeapon 26
+---@field RequestWeaponSlot1 27
+---@field RequestWeaponSlot2 28
+---@field RequestWeaponSlot3 29
+---@field RequestWeaponSlot4 30
+---@field RequestNextThrowableWeapon 31
 EquipmentManipulationAction = {}

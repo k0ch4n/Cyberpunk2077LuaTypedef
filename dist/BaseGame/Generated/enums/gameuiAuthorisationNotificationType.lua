@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAuthorisationNotificationType: Enum
----@field ["Unknown"] gameuiAuthorisationNotificationType 0
----@field ["GotKeycard"] gameuiAuthorisationNotificationType 1
----@field ["AccessGranted"] gameuiAuthorisationNotificationType 2
+---@field Unknown 0
+---@field GotKeycard 1
+---@field AccessGranted 2
 gameuiAuthorisationNotificationType = {}

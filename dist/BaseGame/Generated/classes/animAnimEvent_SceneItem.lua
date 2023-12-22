@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_SceneItem: animAnimEvent
----@field public ["boneName"] CName
+---@field public boneName CName
 animAnimEvent_SceneItem = {}
 
 ---@param fields? table

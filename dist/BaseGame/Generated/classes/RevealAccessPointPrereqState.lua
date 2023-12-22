@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RevealAccessPointPrereqState: gamePrereqState
----@field public ["listener"] GameObjectListener
+---@field public listener GameObjectListener
 RevealAccessPointPrereqState = {}
 
 ---@param fields? table

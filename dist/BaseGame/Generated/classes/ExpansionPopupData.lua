@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExpansionPopupData: inkGameNotificationData
----@field public ["type"] ExpansionPopupType
----@field public ["state"] ExpansionStatus
+---@field public type ExpansionPopupType
+---@field public state ExpansionStatus
 ExpansionPopupData = {}
 
 ---@param fields? table

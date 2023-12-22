@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class MaterialTooltip: AGenericTooltipController
----@field protected ["titleWrapper"] inkWidgetReference
----@field protected ["descriptionWrapper"] inkWidgetReference
----@field protected ["descriptionLine"] inkWidgetReference
----@field protected ["Title"] inkTextWidgetReference
----@field protected ["BasePrice"] inkTextWidgetReference
----@field protected ["Price"] inkTextWidgetReference
----@field private ["animProxy"] inkanimProxy
+---@field protected titleWrapper inkWidgetReference
+---@field protected descriptionWrapper inkWidgetReference
+---@field protected descriptionLine inkWidgetReference
+---@field protected Title inkTextWidgetReference
+---@field protected BasePrice inkTextWidgetReference
+---@field protected Price inkTextWidgetReference
+---@field private animProxy inkanimProxy
 MaterialTooltip = {}
 
 ---@param fields? table

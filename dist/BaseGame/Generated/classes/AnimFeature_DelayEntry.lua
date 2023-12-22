@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_DelayEntry: animAnimFeature
----@field public ["thresholdPassed"] Bool
+---@field public thresholdPassed Bool
 AnimFeature_DelayEntry = {}
 
 ---@param fields? table

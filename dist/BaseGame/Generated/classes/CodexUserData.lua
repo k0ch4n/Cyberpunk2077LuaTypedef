@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexUserData: IScriptable
----@field public ["DataSource"] CodexDataSource
+---@field public DataSource CodexDataSource
 CodexUserData = {}
 
 ---@param fields? table

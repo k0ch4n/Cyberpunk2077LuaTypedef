@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayBinkEvent: redEvent
----@field public ["data"] SBinkperationData
+---@field public data SBinkperationData
 PlayBinkEvent = {}
 
 ---@param fields? table

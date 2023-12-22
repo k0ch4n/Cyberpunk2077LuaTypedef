@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class scnEntityAcquisitionPlan: Enum
----@field ["findInContext"] scnEntityAcquisitionPlan 1
----@field ["findInWorld"] scnEntityAcquisitionPlan 2
----@field ["spawnDespawn"] scnEntityAcquisitionPlan 3
----@field ["findInEntity"] scnEntityAcquisitionPlan 4
----@field ["spawnSet"] scnEntityAcquisitionPlan 5
----@field ["community"] scnEntityAcquisitionPlan 6
----@field ["spawner"] scnEntityAcquisitionPlan 7
----@field ["findNetworkPlayer"] scnEntityAcquisitionPlan 9
----@field ["findInNode"] scnEntityAcquisitionPlan 8
+---@field findInContext 1
+---@field findInWorld 2
+---@field spawnDespawn 3
+---@field findInEntity 4
+---@field spawnSet 5
+---@field community 6
+---@field spawner 7
+---@field findNetworkPlayer 9
+---@field findInNode 8
 scnEntityAcquisitionPlan = {}

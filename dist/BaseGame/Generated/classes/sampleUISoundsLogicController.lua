@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleUISoundsLogicController: inkWidgetLogicController
----@field private ["textWidget"] inkTextWidget
+---@field private textWidget inkTextWidget
 sampleUISoundsLogicController = {}
 
 ---@param fields? table

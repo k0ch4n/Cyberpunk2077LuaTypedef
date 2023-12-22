@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LifetimeStatus: Enum
----@field ["Base"] LifetimeStatus 0
----@field ["Near"] LifetimeStatus 1
----@field ["Disengaging"] LifetimeStatus 2
+---@field Base 0
+---@field Near 1
+---@field Disengaging 2
 LifetimeStatus = {}

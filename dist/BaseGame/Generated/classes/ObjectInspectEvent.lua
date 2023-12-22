@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ObjectInspectEvent: redEvent
----@field public ["showItem"] Bool
+---@field public showItem Bool
 ObjectInspectEvent = {}
 
 ---@param fields? table

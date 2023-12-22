@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CraftingGarmentItemPreviewGameController: gameuiWardrobeSetPreviewGameController
----@field private ["initialItems"] gameItemID[]
----@field private ["previewedItem"] gameItemID
+---@field private initialItems gameItemID[]
+---@field private previewedItem gameItemID
 CraftingGarmentItemPreviewGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorInstantConditionDefinition: ISerializable
----@field public ["condition"] AIbehaviorConditionDefinition
+---@field public condition AIbehaviorConditionDefinition
 AIbehaviorInstantConditionDefinition = {}
 
 ---@param fields? table

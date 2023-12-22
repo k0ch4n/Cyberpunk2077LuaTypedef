@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPrefabVariantsList: ISerializable
----@field public ["activeVariants"] CName[]
+---@field public activeVariants CName[]
 worldPrefabVariantsList = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PlayerCoverActionWeaponHolster: animAnimFeature
----@field public ["isWeaponHolstered"] Bool
+---@field public isWeaponHolstered Bool
 AnimFeature_PlayerCoverActionWeaponHolster = {}
 
 ---@param fields? table

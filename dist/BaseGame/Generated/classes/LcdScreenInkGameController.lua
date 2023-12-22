@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class LcdScreenInkGameController: DeviceInkGameControllerBase
----@field protected ["defaultUI"] inkCanvasWidget
----@field protected ["mainDisplayWidget"] inkVideoWidget
----@field protected ["messegeWidget"] inkTextWidget
----@field protected ["backgroundWidget"] inkLeafWidget
----@field protected ["messegeRecord"] gamedataScreenMessageData_Record
----@field protected ["replaceTextWithCustomNumber"] Bool
----@field protected ["customNumber"] Int32
----@field private ["onGlitchingStateChangedListener"] redCallbackObject
----@field private ["onMessegeChangedListener"] redCallbackObject
+---@field protected defaultUI inkCanvasWidget
+---@field protected mainDisplayWidget inkVideoWidget
+---@field protected messegeWidget inkTextWidget
+---@field protected backgroundWidget inkLeafWidget
+---@field protected messegeRecord gamedataScreenMessageData_Record
+---@field protected replaceTextWithCustomNumber Bool
+---@field protected customNumber Int32
+---@field private onGlitchingStateChangedListener redCallbackObject
+---@field private onMessegeChangedListener redCallbackObject
 LcdScreenInkGameController = {}
 
 ---@param fields? table

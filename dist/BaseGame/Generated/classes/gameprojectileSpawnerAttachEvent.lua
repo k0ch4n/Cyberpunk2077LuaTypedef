@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameprojectileSpawnerAttachEvent: redEvent
----@field public ["owner"] gameObject
+---@field public owner gameObject
 gameprojectileSpawnerAttachEvent = {}
 
 ---@param fields? table

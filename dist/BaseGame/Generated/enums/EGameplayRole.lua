@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class EGameplayRole: Enum
----@field ["UnAssigned"] EGameplayRole 0
----@field ["None"] EGameplayRole 1
----@field ["Alarm"] EGameplayRole 2
----@field ["ControlNetwork"] EGameplayRole 3
----@field ["ControlOtherDevice"] EGameplayRole 4
----@field ["ControlSelf"] EGameplayRole 5
----@field ["CutPower"] EGameplayRole 6
----@field ["Distract"] EGameplayRole 7
----@field ["DropPoint"] EGameplayRole 8
----@field ["ExplodeLethal"] EGameplayRole 9
----@field ["ExplodeNoneLethal"] EGameplayRole 10
----@field ["Fall"] EGameplayRole 11
----@field ["FastTravel"] EGameplayRole 12
----@field ["GrantInformation"] EGameplayRole 13
----@field ["HazardWarning"] EGameplayRole 14
----@field ["HideBody"] EGameplayRole 15
----@field ["Loot"] EGameplayRole 16
----@field ["OpenPath"] EGameplayRole 17
----@field ["ClearPath"] EGameplayRole 18
----@field ["Push"] EGameplayRole 19
----@field ["ServicePoint"] EGameplayRole 20
----@field ["Shoot"] EGameplayRole 21
----@field ["SpreadGas"] EGameplayRole 22
----@field ["StoreItems"] EGameplayRole 23
----@field ["GenericRole"] EGameplayRole 24
----@field ["ClearPathAd"] EGameplayRole 25
----@field ["DistractVendingMachine"] EGameplayRole 26
----@field ["NPC"] EGameplayRole 27
----@field ["Clue"] EGameplayRole 28
----@field ["PlayerStash"] EGameplayRole 29
----@field ["Wardrobe"] EGameplayRole 30
+---@field UnAssigned 0
+---@field None 1
+---@field Alarm 2
+---@field ControlNetwork 3
+---@field ControlOtherDevice 4
+---@field ControlSelf 5
+---@field CutPower 6
+---@field Distract 7
+---@field DropPoint 8
+---@field ExplodeLethal 9
+---@field ExplodeNoneLethal 10
+---@field Fall 11
+---@field FastTravel 12
+---@field GrantInformation 13
+---@field HazardWarning 14
+---@field HideBody 15
+---@field Loot 16
+---@field OpenPath 17
+---@field ClearPath 18
+---@field Push 19
+---@field ServicePoint 20
+---@field Shoot 21
+---@field SpreadGas 22
+---@field StoreItems 23
+---@field GenericRole 24
+---@field ClearPathAd 25
+---@field DistractVendingMachine 26
+---@field NPC 27
+---@field Clue 28
+---@field PlayerStash 29
+---@field Wardrobe 30
 EGameplayRole = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameSaveLock
----@field public ["reason"] gameSaveLockReason
+---@field public reason gameSaveLockReason
 gameSaveLock = {}
 
 ---@param fields? table

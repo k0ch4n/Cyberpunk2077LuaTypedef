@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemInventoryRemoveItem: gameScriptableSystemRequest
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 UIScriptableSystemInventoryRemoveItem = {}
 
 ---@param fields? table

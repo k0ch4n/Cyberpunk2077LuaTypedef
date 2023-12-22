@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ExhaustedEvents: StaminaEventsTransition
----@field public ["staminaVfxBlackboard"] worldEffectBlackboard
----@field public ["disableStaminaRegenModifier"] gameConstantStatModifierData_Deprecated
----@field public ["player"] PlayerPuppet
+---@field public staminaVfxBlackboard worldEffectBlackboard
+---@field public disableStaminaRegenModifier gameConstantStatModifierData_Deprecated
+---@field public player PlayerPuppet
 ExhaustedEvents = {}
 
 ---@param fields? table

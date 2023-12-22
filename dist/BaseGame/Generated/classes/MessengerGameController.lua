@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class MessengerGameController: gameuiMenuGameController
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["contactsRef"] inkWidgetReference
----@field private ["dialogRef"] inkWidgetReference
----@field private ["buttonHintsController"] ButtonHints
----@field private ["dialogController"] MessengerDialogViewController
----@field private ["listController"] SimpleMessengerContactsVirtualListController
----@field private ["journalManager"] gameJournalManager
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["activeData"] MessengerContactSyncData
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private contactsRef inkWidgetReference
+---@field private dialogRef inkWidgetReference
+---@field private buttonHintsController ButtonHints
+---@field private dialogController MessengerDialogViewController
+---@field private listController SimpleMessengerContactsVirtualListController
+---@field private journalManager gameJournalManager
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private activeData MessengerContactSyncData
 MessengerGameController = {}
 
 ---@param fields? table

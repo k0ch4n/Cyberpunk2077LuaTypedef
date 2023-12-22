@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsMappinTargetType: Enum
----@field ["World"] gamemappinsMappinTargetType 0
----@field ["Minimap"] gamemappinsMappinTargetType 1
----@field ["Map"] gamemappinsMappinTargetType 2
+---@field World 0
+---@field Minimap 1
+---@field Map 2
 gamemappinsMappinTargetType = {}

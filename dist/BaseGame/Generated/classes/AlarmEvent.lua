@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AlarmEvent: redEvent
----@field public ["isValid"] Bool
----@field public ["ID"] gameDelayID
+---@field public isValid Bool
+---@field public ID gameDelayID
 AlarmEvent = {}
 
 ---@param fields? table

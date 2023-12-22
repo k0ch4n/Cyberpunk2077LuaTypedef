@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class SimpleMessengerItemVirtualController: inkVirtualCompoundItemController
----@field private ["label"] inkTextWidgetReference
----@field private ["msgPreview"] inkTextWidgetReference
----@field private ["msgIndicator"] inkWidgetReference
----@field private ["replyAlertIcon"] inkWidgetReference
----@field private ["collapseIcon"] inkWidgetReference
----@field private ["image"] inkImageWidgetReference
----@field private ["type"] MessengerContactType
----@field private ["contactData"] ContactData
----@field private ["activeItemSync"] MessengerContactSyncData
----@field private ["isContactActive"] Bool
----@field private ["isItemHovered"] Bool
----@field private ["isItemToggled"] Bool
+---@field private label inkTextWidgetReference
+---@field private msgPreview inkTextWidgetReference
+---@field private msgIndicator inkWidgetReference
+---@field private replyAlertIcon inkWidgetReference
+---@field private collapseIcon inkWidgetReference
+---@field private image inkImageWidgetReference
+---@field private type MessengerContactType
+---@field private contactData ContactData
+---@field private activeItemSync MessengerContactSyncData
+---@field private isContactActive Bool
+---@field private isItemHovered Bool
+---@field private isItemToggled Bool
 SimpleMessengerItemVirtualController = {}
 
 ---@param fields? table

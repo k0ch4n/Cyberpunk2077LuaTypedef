@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class gameStatusEffect: gameStatusEffectBase
----@field public ["durationID"] Uint32
----@field public ["duration"] Float
----@field public ["remainingDuration"] Float
----@field public ["maxStacks"] Uint32
----@field public ["sourcesData"] gameSourceData[]
----@field public ["initialApplicationTimestamp"] Float
----@field public ["lastApplicationTimestamp"] Float
----@field public ["ownerEntityID"] entEntityID
----@field public ["instigatorRecordID"] TweakDBID
----@field public ["instigatorEntityID"] entEntityID
----@field public ["proxyEntityID"] entEntityID
----@field public ["direction"] Vector4
----@field public ["removeAllStacksWhenDurationEnds"] Bool
----@field public ["applicationSource"] CName
+---@field public durationID Uint32
+---@field public duration Float
+---@field public remainingDuration Float
+---@field public maxStacks Uint32
+---@field public sourcesData gameSourceData[]
+---@field public initialApplicationTimestamp Float
+---@field public lastApplicationTimestamp Float
+---@field public ownerEntityID entEntityID
+---@field public instigatorRecordID TweakDBID
+---@field public instigatorEntityID entEntityID
+---@field public proxyEntityID entEntityID
+---@field public direction Vector4
+---@field public removeAllStacksWhenDurationEnds Bool
+---@field public applicationSource CName
 gameStatusEffect = {}
 
 ---@param fields? table

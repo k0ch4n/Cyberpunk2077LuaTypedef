@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SGenericDevicePersistentData
----@field public ["genericActions"] SGenericDeviceActionsData
----@field public ["customActions"] SCustomDeviceActionsData
+---@field public genericActions SGenericDeviceActionsData
+---@field public customActions SCustomDeviceActionsData
 SGenericDevicePersistentData = {}
 
 ---@param fields? table

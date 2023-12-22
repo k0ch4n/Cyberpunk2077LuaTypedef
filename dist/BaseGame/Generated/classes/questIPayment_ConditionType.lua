@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questIPayment_ConditionType: questIConditionType
----@field public ["scriptCondition"] IScriptable
+---@field public scriptCondition IScriptable
 questIPayment_ConditionType = {}
 
 ---@param fields? table

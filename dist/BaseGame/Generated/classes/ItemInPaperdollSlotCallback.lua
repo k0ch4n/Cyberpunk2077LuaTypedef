@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemInPaperdollSlotCallback: gameAttachmentSlotsScriptCallback
----@field protected ["paperdollPuppet"] gamePuppet
+---@field protected paperdollPuppet gamePuppet
 ItemInPaperdollSlotCallback = {}
 
 ---@param fields? table

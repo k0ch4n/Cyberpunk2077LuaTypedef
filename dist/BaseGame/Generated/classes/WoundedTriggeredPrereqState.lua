@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WoundedTriggeredPrereqState: gamePrereqState
----@field public ["owner"] gameObject
----@field public ["listenerInt"] redCallbackObject
+---@field public owner gameObject
+---@field public listenerInt redCallbackObject
 WoundedTriggeredPrereqState = {}
 
 ---@param fields? table

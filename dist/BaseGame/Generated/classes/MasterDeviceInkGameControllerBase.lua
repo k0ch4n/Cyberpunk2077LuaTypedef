@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MasterDeviceInkGameControllerBase: DeviceInkGameControllerBase
----@field protected ["thumbnailWidgetsData"] SThumbnailWidgetPackage[]
----@field private ["onThumbnailWidgetsUpdateListener"] redCallbackObject
----@field private ["onCleanPasswordListener"] redCallbackObject
----@field private ["keypadController"] KeypadDeviceController
+---@field protected thumbnailWidgetsData SThumbnailWidgetPackage[]
+---@field private onThumbnailWidgetsUpdateListener redCallbackObject
+---@field private onCleanPasswordListener redCallbackObject
+---@field private keypadController KeypadDeviceController
 MasterDeviceInkGameControllerBase = {}
 
 ---@param fields? table

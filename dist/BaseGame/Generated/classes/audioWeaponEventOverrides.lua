@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioWeaponEventOverrides: audioInlinedAudioMetadata
----@field public ["entries"] audioWeaponEventOverride[]
----@field public ["entryType"] audioWeaponEventOverride
+---@field public entries audioWeaponEventOverride[]
+---@field public entryType audioWeaponEventOverride
 audioWeaponEventOverrides = {}
 
 ---@param fields? table

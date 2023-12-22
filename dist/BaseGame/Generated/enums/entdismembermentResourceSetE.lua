@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class entdismembermentResourceSetE: Enum
----@field ["NONE"] entdismembermentResourceSetE 16
----@field ["BARE"] entdismembermentResourceSetE 0
----@field ["BARE1"] entdismembermentResourceSetE 1
----@field ["BARE2"] entdismembermentResourceSetE 2
----@field ["BARE3"] entdismembermentResourceSetE 3
----@field ["GARMENT"] entdismembermentResourceSetE 4
----@field ["GARMENT1"] entdismembermentResourceSetE 5
----@field ["GARMENT2"] entdismembermentResourceSetE 6
----@field ["GARMENT3"] entdismembermentResourceSetE 7
----@field ["CYBER"] entdismembermentResourceSetE 8
----@field ["CYBER1"] entdismembermentResourceSetE 9
----@field ["CYBER2"] entdismembermentResourceSetE 10
----@field ["CYBER3"] entdismembermentResourceSetE 11
----@field ["MIXED"] entdismembermentResourceSetE 12
----@field ["MIXED1"] entdismembermentResourceSetE 13
----@field ["MIXED2"] entdismembermentResourceSetE 14
----@field ["MIXED3"] entdismembermentResourceSetE 15
+---@field NONE 16
+---@field BARE 0
+---@field BARE1 1
+---@field BARE2 2
+---@field BARE3 3
+---@field GARMENT 4
+---@field GARMENT1 5
+---@field GARMENT2 6
+---@field GARMENT3 7
+---@field CYBER 8
+---@field CYBER1 9
+---@field CYBER2 10
+---@field CYBER3 11
+---@field MIXED 12
+---@field MIXED1 13
+---@field MIXED2 14
+---@field MIXED3 15
 entdismembermentResourceSetE = {}

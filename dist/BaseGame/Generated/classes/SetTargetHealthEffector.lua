@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetTargetHealthEffector: gameEffector
----@field public ["healthValueToSet"] Float
+---@field public healthValueToSet Float
 SetTargetHealthEffector = {}
 
 ---@param fields? table

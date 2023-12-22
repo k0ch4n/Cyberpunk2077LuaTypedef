@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MediaDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected ["previousStation"] Int32
----@field protected ["activeChannelName"] String
----@field protected ["dataInitialized"] Bool
----@field protected ["amountOfStations"] Int32
----@field protected ["activeStation"] Int32
+---@field protected previousStation Int32
+---@field protected activeChannelName String
+---@field protected dataInitialized Bool
+---@field protected amountOfStations Int32
+---@field protected activeStation Int32
 MediaDeviceControllerPS = {}
 
 ---@param fields? table

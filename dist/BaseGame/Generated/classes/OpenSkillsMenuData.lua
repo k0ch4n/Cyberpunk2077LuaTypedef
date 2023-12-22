@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenSkillsMenuData: IScriptable
----@field public ["openSkills"] Bool
+---@field public openSkills Bool
 OpenSkillsMenuData = {}
 
 ---@param fields? table

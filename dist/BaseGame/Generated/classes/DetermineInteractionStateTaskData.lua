@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DetermineInteractionStateTaskData: gameScriptTaskData
----@field public ["context"] gameGetActionsContext
+---@field public context gameGetActionsContext
 DetermineInteractionStateTaskData = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class STrait
----@field public ["type"] gamedataTraitType
----@field public ["unlocked"] Bool
----@field public ["currLevel"] Int32
+---@field public type gamedataTraitType
+---@field public unlocked Bool
+---@field public currLevel Int32
 STrait = {}
 
 ---@param fields? table

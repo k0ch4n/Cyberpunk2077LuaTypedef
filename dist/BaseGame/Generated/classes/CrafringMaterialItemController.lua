@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class CrafringMaterialItemController: BaseButtonView
----@field protected ["nameText"] inkTextWidgetReference
----@field protected ["quantityText"] inkTextWidgetReference
----@field protected ["quantityChangeText"] inkTextWidgetReference
----@field protected ["icon"] inkImageWidgetReference
----@field protected ["frame"] inkWidgetReference
----@field protected ["data"] CachedCraftingMaterial
----@field private ["quantity"] Int32
----@field private ["hovered"] Bool
----@field private ["lastState"] CrafringMaterialItemHighlight
----@field private ["shouldBeHighlighted"] Bool
----@field private ["useSimpleFromat"] Bool
----@field private ["hideIfZero"] Bool
+---@field protected nameText inkTextWidgetReference
+---@field protected quantityText inkTextWidgetReference
+---@field protected quantityChangeText inkTextWidgetReference
+---@field protected icon inkImageWidgetReference
+---@field protected frame inkWidgetReference
+---@field protected data CachedCraftingMaterial
+---@field private quantity Int32
+---@field private hovered Bool
+---@field private lastState CrafringMaterialItemHighlight
+---@field private shouldBeHighlighted Bool
+---@field private useSimpleFromat Bool
+---@field private hideIfZero Bool
 CrafringMaterialItemController = {}
 
 ---@param fields? table

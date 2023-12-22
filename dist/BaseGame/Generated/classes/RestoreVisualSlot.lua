@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RestoreVisualSlot: redEvent
----@field public ["slot"] TransmogSlots
+---@field public slot TransmogSlots
 RestoreVisualSlot = {}
 
 ---@param fields? table

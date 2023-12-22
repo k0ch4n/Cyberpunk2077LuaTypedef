@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UIScriptableSystemSetVendorPanelVendorSorting: gameScriptableSystemRequest
----@field public ["sortMode"] Int32
+---@field public sortMode Int32
 UIScriptableSystemSetVendorPanelVendorSorting = {}
 
 ---@param fields? table

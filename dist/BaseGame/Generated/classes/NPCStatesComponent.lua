@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class NPCStatesComponent: gameAINetStateComponent
----@field private ["aimingLookatEvent"] entLookAtAddEvent
----@field private ["highLevelAnimFeatureName"] CName
----@field private ["upperBodyAnimFeatureName"] CName
----@field private ["stanceAnimFeatureName"] CName
----@field public ["statFlagDefensiveState"] gameStatModifierData_Deprecated
----@field private ["prevNPCStanceState"] gamedataNPCStanceState
----@field private ["previousHighLevelState"] gamedataNPCHighLevelState
----@field private ["prevHitReactionMode"] EHitReactionMode
----@field private ["bulkyStaggerMinRecordID"] TweakDBID
----@field private ["staggerMinRecordID"] TweakDBID
----@field private ["unstoppableRecordID"] TweakDBID
----@field private ["unstoppableTwitchMinRecordID"] TweakDBID
----@field private ["unstoppableTwitchNoneRecordID"] TweakDBID
----@field private ["forceImpactRecordID"] TweakDBID
----@field private ["forceStaggerRecordID"] TweakDBID
----@field private ["forceKnockdownRecordID"] TweakDBID
----@field private ["fragileRecordID"] TweakDBID
----@field private ["weakRecordID"] TweakDBID
----@field private ["toughRecordID"] TweakDBID
----@field private ["bulkyRecordID"] TweakDBID
----@field private ["regularRecordID"] TweakDBID
----@field private ["keepRecentThreatAfterRelaxedDuration"] Float
----@field private ["inCombat"] Bool
+---@field private aimingLookatEvent entLookAtAddEvent
+---@field private highLevelAnimFeatureName CName
+---@field private upperBodyAnimFeatureName CName
+---@field private stanceAnimFeatureName CName
+---@field public statFlagDefensiveState gameStatModifierData_Deprecated
+---@field private prevNPCStanceState gamedataNPCStanceState
+---@field private previousHighLevelState gamedataNPCHighLevelState
+---@field private prevHitReactionMode EHitReactionMode
+---@field private bulkyStaggerMinRecordID TweakDBID
+---@field private staggerMinRecordID TweakDBID
+---@field private unstoppableRecordID TweakDBID
+---@field private unstoppableTwitchMinRecordID TweakDBID
+---@field private unstoppableTwitchNoneRecordID TweakDBID
+---@field private forceImpactRecordID TweakDBID
+---@field private forceStaggerRecordID TweakDBID
+---@field private forceKnockdownRecordID TweakDBID
+---@field private fragileRecordID TweakDBID
+---@field private weakRecordID TweakDBID
+---@field private toughRecordID TweakDBID
+---@field private bulkyRecordID TweakDBID
+---@field private regularRecordID TweakDBID
+---@field private keepRecentThreatAfterRelaxedDuration Float
+---@field private inCombat Bool
 NPCStatesComponent = {}
 
 ---@param fields? table

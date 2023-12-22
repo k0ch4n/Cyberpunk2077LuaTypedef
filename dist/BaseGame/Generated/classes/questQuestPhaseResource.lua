@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questQuestPhaseResource: graphGraphResource
----@field public ["phasePrefabs"] questQuestPrefabEntry[]
----@field public ["inplacePhases"] CResource[]
+---@field public phasePrefabs questQuestPrefabEntry[]
+---@field public inplacePhases CResource[]
 questQuestPhaseResource = {}
 
 ---@param fields? table

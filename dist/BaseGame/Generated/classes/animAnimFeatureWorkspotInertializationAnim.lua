@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimFeatureWorkspotInertializationAnim: animAnimFeature
----@field public ["duration"] Float
+---@field public duration Float
 animAnimFeatureWorkspotInertializationAnim = {}
 
 ---@param fields? table

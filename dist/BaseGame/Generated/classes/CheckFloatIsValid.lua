@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckFloatIsValid: AIbehaviorconditionScript
----@field public ["actionTweakIDMapping"] AIArgumentMapping
----@field public ["value"] Float
+---@field public actionTweakIDMapping AIArgumentMapping
+---@field public value Float
 CheckFloatIsValid = {}
 
 ---@param fields? table

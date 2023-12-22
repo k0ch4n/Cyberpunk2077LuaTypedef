@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameActionRotateToObjectState: gameActionRotateBaseState
----@field public ["targetObject"] gameObject
----@field public ["completeWhenRotated"] Bool
+---@field public targetObject gameObject
+---@field public completeWhenRotated Bool
 gameActionRotateToObjectState = {}
 
 ---@param fields? table

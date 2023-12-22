@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BountyCollectedNotification: GenericNotificationController
----@field private ["bountyCollectedUpdateAnimation"] CName
+---@field private bountyCollectedUpdateAnimation CName
 BountyCollectedNotification = {}
 
 ---@param fields? table

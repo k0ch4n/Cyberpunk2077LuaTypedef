@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataStatusEffectVariation: Enum
----@field ["Bike"] gamedataStatusEffectVariation 0
----@field ["Default"] gamedataStatusEffectVariation 1
----@field ["Vehicle"] gamedataStatusEffectVariation 2
----@field ["Count"] gamedataStatusEffectVariation 3
----@field ["Invalid"] gamedataStatusEffectVariation 4
+---@field Bike 0
+---@field Default 1
+---@field Vehicle 2
+---@field Count 3
+---@field Invalid 4
 gamedataStatusEffectVariation = {}

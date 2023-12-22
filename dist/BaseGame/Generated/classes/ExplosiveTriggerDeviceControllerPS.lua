@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ExplosiveTriggerDeviceControllerPS: ExplosiveDeviceControllerPS
----@field private ["playerSafePass"] Bool
----@field private ["triggerExploded"] Bool
+---@field private playerSafePass Bool
+---@field private triggerExploded Bool
 ExplosiveTriggerDeviceControllerPS = {}
 
 ---@param fields? table

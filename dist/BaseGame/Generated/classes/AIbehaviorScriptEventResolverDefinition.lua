@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorScriptEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public ["script"] AIbehavioreventResolverScript
+---@field public script AIbehavioreventResolverScript
 AIbehaviorScriptEventResolverDefinition = {}
 
 ---@param fields? table

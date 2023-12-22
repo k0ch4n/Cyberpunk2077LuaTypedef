@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class RenderDecalNormalsBlendingMode: Enum
----@field ["AlphaBlending"] RenderDecalNormalsBlendingMode 0
----@field ["Reorient"] RenderDecalNormalsBlendingMode 1
+---@field AlphaBlending 0
+---@field Reorient 1
 RenderDecalNormalsBlendingMode = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAdditionalTransformContainer
----@field public ["entries"] animAdditionalTransformEntry[]
+---@field public entries animAdditionalTransformEntry[]
 animAdditionalTransformContainer = {}
 
 ---@param fields? table

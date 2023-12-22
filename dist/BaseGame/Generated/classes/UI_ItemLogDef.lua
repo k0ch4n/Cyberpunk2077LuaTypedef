@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_ItemLogDef: gamebbScriptDefinition
----@field public ["ItemLogItem"] gamebbScriptID_Variant
+---@field public ItemLogItem gamebbScriptID_Variant
 UI_ItemLogDef = {}
 
 ---@param fields? table

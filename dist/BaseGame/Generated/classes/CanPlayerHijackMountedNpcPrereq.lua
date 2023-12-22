@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CanPlayerHijackMountedNpcPrereq: gameIScriptablePrereq
----@field protected ["slotName"] CName
----@field protected ["isCheckInverted"] Bool
+---@field protected slotName CName
+---@field protected isCheckInverted Bool
 CanPlayerHijackMountedNpcPrereq = {}
 
 ---@param fields? table

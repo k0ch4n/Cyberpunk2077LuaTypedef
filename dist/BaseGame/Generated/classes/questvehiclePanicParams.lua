@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questvehiclePanicParams: questVehicleSpecificCommandParams
----@field public ["allowSimplifiedMovement"] Bool
----@field public ["ignoreTickets"] Bool
----@field public ["disableStuckDetection"] Bool
----@field public ["useSpeedBasedLookupRange"] Bool
----@field public ["tryDriveAwayFromPlayer"] Bool
+---@field public allowSimplifiedMovement Bool
+---@field public ignoreTickets Bool
+---@field public disableStuckDetection Bool
+---@field public useSpeedBasedLookupRange Bool
+---@field public tryDriveAwayFromPlayer Bool
 questvehiclePanicParams = {}
 
 ---@param fields? table

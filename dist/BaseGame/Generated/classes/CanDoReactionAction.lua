@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CanDoReactionAction: AIbehaviorconditionScript
----@field public ["reactionName"] CName
+---@field public reactionName CName
 CanDoReactionAction = {}
 
 ---@param fields? table

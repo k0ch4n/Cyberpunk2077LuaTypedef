@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ItemInSlotPrereqState: gamePrereqState
----@field public ["listener"] ItemInSlotCallback
----@field public ["owner"] gameObject
+---@field public listener ItemInSlotCallback
+---@field public owner gameObject
 ItemInSlotPrereqState = {}
 
 ---@param fields? table

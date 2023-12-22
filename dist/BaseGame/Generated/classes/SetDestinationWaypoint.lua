@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SetDestinationWaypoint: AIActionHelperTask
----@field public ["refTargetType"] EAITargetType
----@field public ["findClosest"] Bool
----@field public ["waypointsName"] CName
----@field private ["destinations"] Vector4[]
----@field private ["finalDestinations"] Vector4[]
+---@field public refTargetType EAITargetType
+---@field public findClosest Bool
+---@field public waypointsName CName
+---@field private destinations Vector4[]
+---@field private finalDestinations Vector4[]
 SetDestinationWaypoint = {}
 
 ---@param fields? table

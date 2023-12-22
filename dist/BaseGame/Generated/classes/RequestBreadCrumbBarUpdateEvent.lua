@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestBreadCrumbBarUpdateEvent: redEvent
----@field public ["requester"] gamePersistentID
----@field public ["breadCrumbData"] SBreadCrumbUpdateData
+---@field public requester gamePersistentID
+---@field public breadCrumbData SBreadCrumbUpdateData
 RequestBreadCrumbBarUpdateEvent = {}
 
 ---@param fields? table

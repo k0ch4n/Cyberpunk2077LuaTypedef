@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class animAnimVariable: ISerializable
----@field public ["name"] CName
+---@field public name CName
 animAnimVariable = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_BreakEffectLoop: gameTransformAnimation_Effects
----@field public ["effectTag"] CName
+---@field public effectTag CName
 gameTransformAnimation_BreakEffectLoop = {}
 
 ---@param fields? table

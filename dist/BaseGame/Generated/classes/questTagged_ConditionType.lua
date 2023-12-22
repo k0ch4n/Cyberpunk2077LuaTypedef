@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questTagged_ConditionType: questIObjectConditionType
----@field public ["objectRef"] gameEntityReference
----@field public ["inverted"] Bool
+---@field public objectRef gameEntityReference
+---@field public inverted Bool
 questTagged_ConditionType = {}
 
 ---@param fields? table

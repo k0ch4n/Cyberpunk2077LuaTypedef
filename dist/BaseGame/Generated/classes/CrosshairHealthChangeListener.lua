@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrosshairHealthChangeListener: gameCustomValueStatPoolsListener
----@field private ["parentCrosshair"] gameuiCrosshairBaseGameController
+---@field private parentCrosshair gameuiCrosshairBaseGameController
 CrosshairHealthChangeListener = {}
 
 ---@param fields? table

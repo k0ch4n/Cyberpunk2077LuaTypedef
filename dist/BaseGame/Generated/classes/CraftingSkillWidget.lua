@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class CraftingSkillWidget: gameuiWidgetGameController
----@field protected ["amountText"] inkTextWidgetReference
----@field protected ["expFill"] inkWidgetReference
----@field protected ["perkHolder"] inkWidgetReference
----@field protected ["levelUpAnimation"] inkWidgetReference
----@field protected ["expAnimation"] inkWidgetReference
----@field protected ["nextLevelText"] inkTextWidgetReference
----@field protected ["expPointText1"] inkTextWidgetReference
----@field protected ["expPointText2"] inkTextWidgetReference
----@field private ["levelUpBlackboard"] gameIBlackboard
----@field private ["playerLevelUpListener"] redCallbackObject
----@field private ["isLevelUp"] Bool
----@field private ["currentExp"] Int32
+---@field protected amountText inkTextWidgetReference
+---@field protected expFill inkWidgetReference
+---@field protected perkHolder inkWidgetReference
+---@field protected levelUpAnimation inkWidgetReference
+---@field protected expAnimation inkWidgetReference
+---@field protected nextLevelText inkTextWidgetReference
+---@field protected expPointText1 inkTextWidgetReference
+---@field protected expPointText2 inkTextWidgetReference
+---@field private levelUpBlackboard gameIBlackboard
+---@field private playerLevelUpListener redCallbackObject
+---@field private isLevelUp Bool
+---@field private currentExp Int32
 CraftingSkillWidget = {}
 
 ---@param fields? table

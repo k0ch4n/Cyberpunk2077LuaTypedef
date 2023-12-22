@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class ItemsNotificationQueue: gameuiGenericNotificationGameController
----@field private ["showDuration"] Float
----@field private ["transactionSystem"] gameTransactionSystem
----@field private ["currencyNotification"] CName
----@field private ["itemNotification"] CName
----@field private ["xpNotification"] CName
----@field private ["playerPuppet"] gameObject
----@field private ["inventoryListener"] gameInventoryScriptListener
----@field private ["currencyInventoryListener"] gameInventoryScriptListener
----@field private ["playerDevelopmentSystem"] PlayerDevelopmentSystem
----@field private ["combatModeListener"] redCallbackObject
----@field private ["InventoryManager"] InventoryDataManagerV2
----@field private ["comparisonResolver"] ItemPreferredComparisonResolver
----@field private ["combatModePSM"] gamePSMCombat
----@field private ["delaySystem"] gameDelaySystem
+---@field private showDuration Float
+---@field private transactionSystem gameTransactionSystem
+---@field private currencyNotification CName
+---@field private itemNotification CName
+---@field private xpNotification CName
+---@field private playerPuppet gameObject
+---@field private inventoryListener gameInventoryScriptListener
+---@field private currencyInventoryListener gameInventoryScriptListener
+---@field private playerDevelopmentSystem PlayerDevelopmentSystem
+---@field private combatModeListener redCallbackObject
+---@field private InventoryManager InventoryDataManagerV2
+---@field private comparisonResolver ItemPreferredComparisonResolver
+---@field private combatModePSM gamePSMCombat
+---@field private delaySystem gameDelaySystem
 ItemsNotificationQueue = {}
 
 ---@param fields? table

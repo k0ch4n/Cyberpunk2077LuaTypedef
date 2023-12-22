@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamedataAIDirectorEntryStartType: Enum
----@field ["Default"] gamedataAIDirectorEntryStartType 0
----@field ["DespawnAllEnemies"] gamedataAIDirectorEntryStartType 1
----@field ["DespawnExcessedEnemies"] gamedataAIDirectorEntryStartType 2
----@field ["WaitUntilNoEnemies"] gamedataAIDirectorEntryStartType 3
----@field ["WaitUntilSameOrLessAmountOfEnemies"] gamedataAIDirectorEntryStartType 4
----@field ["Count"] gamedataAIDirectorEntryStartType 5
----@field ["Invalid"] gamedataAIDirectorEntryStartType 6
+---@field Default 0
+---@field DespawnAllEnemies 1
+---@field DespawnExcessedEnemies 2
+---@field WaitUntilNoEnemies 3
+---@field WaitUntilSameOrLessAmountOfEnemies 4
+---@field Count 5
+---@field Invalid 6
 gamedataAIDirectorEntryStartType = {}

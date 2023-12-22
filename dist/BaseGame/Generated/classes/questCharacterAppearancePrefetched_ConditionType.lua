@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCharacterAppearancePrefetched_ConditionType: questICharacterConditionType
----@field public ["puppetRef"] gameEntityReference
----@field public ["isPlayer"] Bool
----@field public ["appearanceName"] CName
+---@field public puppetRef gameEntityReference
+---@field public isPlayer Bool
+---@field public appearanceName CName
 questCharacterAppearancePrefetched_ConditionType = {}
 
 ---@param fields? table

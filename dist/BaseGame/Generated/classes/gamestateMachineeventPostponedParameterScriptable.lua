@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventPostponedParameterScriptable: gamestateMachineeventPostponedParameterBase
----@field public ["value"] IScriptable
+---@field public value IScriptable
 gamestateMachineeventPostponedParameterScriptable = {}
 
 ---@param fields? table

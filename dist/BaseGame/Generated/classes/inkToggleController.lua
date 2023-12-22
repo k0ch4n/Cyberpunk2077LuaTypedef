@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkToggleController: inkButtonController
----@field public ["ToggleChanged"] inkToggleChangedCallback
----@field public ["isToggled"] Bool
----@field public ["autoToggleOnInput"] Bool
+---@field public ToggleChanged inkToggleChangedCallback
+---@field public isToggled Bool
+---@field public autoToggleOnInput Bool
 inkToggleController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TrafficIntersectionManagerControllerPS: MasterControllerPS
----@field private ["trafficLightStatus"] worldTrafficLightColor
+---@field private trafficLightStatus worldTrafficLightColor
 TrafficIntersectionManagerControllerPS = {}
 
 ---@param fields? table

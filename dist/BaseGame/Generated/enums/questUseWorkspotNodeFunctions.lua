@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questUseWorkspotNodeFunctions: Enum
----@field ["UseWorkspot"] questUseWorkspotNodeFunctions 0
----@field ["JumpWorkspot"] questUseWorkspotNodeFunctions 1
----@field ["StopWorkspot"] questUseWorkspotNodeFunctions 2
----@field ["IdleOnlyMode"] questUseWorkspotNodeFunctions 3
+---@field UseWorkspot 0
+---@field JumpWorkspot 1
+---@field StopWorkspot 2
+---@field IdleOnlyMode 3
 questUseWorkspotNodeFunctions = {}

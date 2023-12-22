@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SelectorRevalutionBreak: AIbehaviortaskScript
----@field private ["reevaluationDuration"] Float
----@field private ["activationTimeStamp"] Float
+---@field private reevaluationDuration Float
+---@field private activationTimeStamp Float
 SelectorRevalutionBreak = {}
 
 ---@param fields? table

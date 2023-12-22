@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BaseCodexLinkController: inkWidgetLogicController
----@field protected ["linkImage"] inkImageWidgetReference
----@field protected ["linkLabel"] inkTextWidgetReference
----@field protected ["inputContainer"] inkWidgetReference
----@field protected ["animProxy"] inkanimProxy
----@field protected ["isInteractive"] Bool
+---@field protected linkImage inkImageWidgetReference
+---@field protected linkLabel inkTextWidgetReference
+---@field protected inputContainer inkWidgetReference
+---@field protected animProxy inkanimProxy
+---@field protected isInteractive Bool
 BaseCodexLinkController = {}
 
 ---@param fields? table

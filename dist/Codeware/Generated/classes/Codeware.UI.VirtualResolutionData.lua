@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_VirtualResolutionData: IScriptable
----@field public ["resolution"] String
----@field public ["size"] Vector2
----@field public ["scale"] Vector2
+---@field public resolution String
+---@field public size Vector2
+---@field public scale Vector2
 Codeware_UI_VirtualResolutionData = {}
 
 ---@param fields? table

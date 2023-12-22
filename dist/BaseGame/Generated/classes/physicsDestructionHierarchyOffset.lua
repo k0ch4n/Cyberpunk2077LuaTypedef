@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsDestructionHierarchyOffset
----@field public ["combined"] Uint32
+---@field public combined Uint32
 physicsDestructionHierarchyOffset = {}
 
 ---@param fields? table

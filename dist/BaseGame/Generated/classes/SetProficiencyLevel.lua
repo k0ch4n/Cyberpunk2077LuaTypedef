@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SetProficiencyLevel: gamePlayerScriptableSystemRequest
----@field public ["newLevel"] Int32
----@field public ["proficiencyType"] gamedataProficiencyType
----@field public ["telemetryLevelGainReason"] telemetryLevelGainReason
+---@field public newLevel Int32
+---@field public proficiencyType gamedataProficiencyType
+---@field public telemetryLevelGainReason telemetryLevelGainReason
 SetProficiencyLevel = {}
 
 ---@param fields? table

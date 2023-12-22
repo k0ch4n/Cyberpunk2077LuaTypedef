@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class hudJohnnyController: gameuiHUDGameController
----@field private ["tourHeader"] inkTextWidgetReference
----@field private ["leftDates"] inkTextWidgetReference
----@field private ["rightDates"] inkTextWidgetReference
----@field private ["cancelled"] inkWidgetReference
----@field private ["gameInstance"] ScriptGameInstance
+---@field private tourHeader inkTextWidgetReference
+---@field private leftDates inkTextWidgetReference
+---@field private rightDates inkTextWidgetReference
+---@field private cancelled inkWidgetReference
+---@field private gameInstance ScriptGameInstance
 hudJohnnyController = {}
 
 ---@param fields? table

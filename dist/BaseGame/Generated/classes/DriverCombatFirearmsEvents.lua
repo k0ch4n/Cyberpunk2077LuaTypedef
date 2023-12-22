@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class DriverCombatFirearmsEvents: DriverCombatEvents
----@field protected ["attachmentSlotListener"] gameAttachmentSlotsScriptListener
----@field protected ["posAnimFeature"] AnimFeature_ProceduralDriverCombatData
----@field protected ["vehicleRecord"] gamedataVehicle_Record
----@field protected ["angleDelta"] EulerAngles
----@field protected ["localOrientation"] EulerAngles
----@field protected ["updateItemType"] gamedataItemType
----@field protected ["photoModeActiveListener"] redCallbackObject
----@field protected ["isPhotoModeActive"] Bool
----@field protected ["minSwaySpeed"] Float
----@field protected ["prevSpeed"] Float
+---@field protected attachmentSlotListener gameAttachmentSlotsScriptListener
+---@field protected posAnimFeature AnimFeature_ProceduralDriverCombatData
+---@field protected vehicleRecord gamedataVehicle_Record
+---@field protected angleDelta EulerAngles
+---@field protected localOrientation EulerAngles
+---@field protected updateItemType gamedataItemType
+---@field protected photoModeActiveListener redCallbackObject
+---@field protected isPhotoModeActive Bool
+---@field protected minSwaySpeed Float
+---@field protected prevSpeed Float
 DriverCombatFirearmsEvents = {}
 
 ---@param fields? table

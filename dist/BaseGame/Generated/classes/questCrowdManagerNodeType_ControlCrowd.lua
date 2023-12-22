@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questCrowdManagerNodeType_ControlCrowd: questICrowdManager_NodeType
----@field public ["action"] questControlCrowdAction
----@field public ["debugSource"] CName
----@field public ["distantCrowdOnly"] Bool
+---@field public action questControlCrowdAction
+---@field public debugSource CName
+---@field public distantCrowdOnly Bool
 questCrowdManagerNodeType_ControlCrowd = {}
 
 ---@param fields? table

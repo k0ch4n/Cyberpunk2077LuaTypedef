@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSourceData: ISerializable
----@field public ["name"] CName
----@field public ["savable"] Bool
+---@field public name CName
+---@field public savable Bool
 gameSourceData = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameScriptedBlackboardStorage: Enum
----@field ["Default"] gameScriptedBlackboardStorage 0
+---@field Default 0
 gameScriptedBlackboardStorage = {}

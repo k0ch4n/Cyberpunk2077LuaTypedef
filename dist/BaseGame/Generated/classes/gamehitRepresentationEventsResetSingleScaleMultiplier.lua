@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamehitRepresentationEventsResetSingleScaleMultiplier: redEvent
----@field public ["shapeName"] CName
+---@field public shapeName CName
 gamehitRepresentationEventsResetSingleScaleMultiplier = {}
 
 ---@param fields? table

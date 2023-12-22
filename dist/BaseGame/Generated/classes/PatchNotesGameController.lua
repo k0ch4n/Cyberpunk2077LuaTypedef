@@ -4,15 +4,15 @@
 ---@class PatchNotesGameController: gameuiWidgetGameController
 ---@field private ["21NotesContainerRef"] inkWidgetReference
 ---@field private ["20NotesContainerRef"] inkWidgetReference
----@field private ["itemLibraryName"] CName
----@field private ["introAnimationName"] CName
----@field private ["outroAnimationName"] CName
----@field private ["closeButtonRef"] inkWidgetReference
----@field private ["uiSystem"] gameuiGameSystemUI
----@field private ["introAnimProxy"] inkanimProxy
----@field private ["isInputBlocked"] Bool
----@field private ["data"] PatchNotesPopupData
----@field private ["requestHandler"] inkISystemRequestsHandler
+---@field private itemLibraryName CName
+---@field private introAnimationName CName
+---@field private outroAnimationName CName
+---@field private closeButtonRef inkWidgetReference
+---@field private uiSystem gameuiGameSystemUI
+---@field private introAnimProxy inkanimProxy
+---@field private isInputBlocked Bool
+---@field private data PatchNotesPopupData
+---@field private requestHandler inkISystemRequestsHandler
 PatchNotesGameController = {}
 
 ---@param fields? table

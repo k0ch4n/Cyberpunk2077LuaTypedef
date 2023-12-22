@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class SensorDeviceControllerPS: ExplosiveDeviceControllerPS
----@field private ["isRecognizableBySenses"] Bool
----@field protected ["targetingBehaviour"] TargetingBehaviour
----@field protected ["detectionParameters"] DetectionParameters
----@field protected ["lookAtPresetVert"] TweakDBID
----@field protected ["lookAtPresetHor"] TweakDBID
----@field protected ["scanGameEffectRef"] gameEffectRef
----@field protected ["visionConeEffectRef"] gameEffectRef
----@field protected ["visionConeFriendlyEffectRef"] gameEffectRef
----@field protected ["idleActiveRef"] gameEffectRef
----@field protected ["idleFriendlyRef"] gameEffectRef
----@field protected ["canTagEnemies"] Bool
----@field protected ["tagLockFromSystem"] Bool
----@field private ["netrunnerID"] entEntityID
----@field private ["netrunnerProxyID"] entEntityID
----@field private ["netrunnerTargetID"] entEntityID
----@field private ["linkedStatusEffect"] LinkedStatusEffect
----@field private ["questForcedTargetID"] entEntityID
----@field private ["isInFollowMode"] Bool
----@field private ["isAttitudeChanged"] Bool
----@field private ["isInTagKillMode"] Bool
----@field private ["isIdleForced"] Bool
----@field private ["questTargetToSpot"] entEntityID
----@field private ["questTargetSpotted"] Bool
----@field private ["isAnyTargetIsLocked"] Bool
----@field protected ["isPartOfPrevention"] Bool
----@field protected ["ignoreTargetTrackerComponent"] Bool
+---@field private isRecognizableBySenses Bool
+---@field protected targetingBehaviour TargetingBehaviour
+---@field protected detectionParameters DetectionParameters
+---@field protected lookAtPresetVert TweakDBID
+---@field protected lookAtPresetHor TweakDBID
+---@field protected scanGameEffectRef gameEffectRef
+---@field protected visionConeEffectRef gameEffectRef
+---@field protected visionConeFriendlyEffectRef gameEffectRef
+---@field protected idleActiveRef gameEffectRef
+---@field protected idleFriendlyRef gameEffectRef
+---@field protected canTagEnemies Bool
+---@field protected tagLockFromSystem Bool
+---@field private netrunnerID entEntityID
+---@field private netrunnerProxyID entEntityID
+---@field private netrunnerTargetID entEntityID
+---@field private linkedStatusEffect LinkedStatusEffect
+---@field private questForcedTargetID entEntityID
+---@field private isInFollowMode Bool
+---@field private isAttitudeChanged Bool
+---@field private isInTagKillMode Bool
+---@field private isIdleForced Bool
+---@field private questTargetToSpot entEntityID
+---@field private questTargetSpotted Bool
+---@field private isAnyTargetIsLocked Bool
+---@field protected isPartOfPrevention Bool
+---@field protected ignoreTargetTrackerComponent Bool
 SensorDeviceControllerPS = {}
 
 ---@param fields? table

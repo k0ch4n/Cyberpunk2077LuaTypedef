@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class RipperdocHoverState: Enum
----@field ["None"] RipperdocHoverState 0
----@field ["BarCapacity"] RipperdocHoverState 1
----@field ["BarArmor"] RipperdocHoverState 2
----@field ["SlotSkeleton"] RipperdocHoverState 3
----@field ["SlotHands"] RipperdocHoverState 4
+---@field None 0
+---@field BarCapacity 1
+---@field BarArmor 2
+---@field SlotSkeleton 3
+---@field SlotHands 4
 RipperdocHoverState = {}

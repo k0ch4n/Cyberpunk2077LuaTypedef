@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CrosshairWeaponStatsListener: gameScriptStatsListener
----@field private ["controller"] BaseTechCrosshairController
+---@field private controller BaseTechCrosshairController
 CrosshairWeaponStatsListener = {}
 
 ---@param fields? table

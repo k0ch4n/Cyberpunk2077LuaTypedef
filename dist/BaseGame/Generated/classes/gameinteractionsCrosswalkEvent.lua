@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCrosswalkEvent: redEvent
----@field public ["trafficLightColor"] worldTrafficLightColor
----@field public ["oldTrafficLightColor"] worldTrafficLightColor
----@field public ["totalDistance"] Float
----@field public ["distanceLeft"] Float
+---@field public trafficLightColor worldTrafficLightColor
+---@field public oldTrafficLightColor worldTrafficLightColor
+---@field public totalDistance Float
+---@field public distanceLeft Float
 gameinteractionsCrosswalkEvent = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class AICombatSectorType: Enum
----@field ["ToBackLeft"] AICombatSectorType 0
----@field ["ToBackMid"] AICombatSectorType 1
----@field ["ToBackRight"] AICombatSectorType 2
----@field ["ToLeft"] AICombatSectorType 3
----@field ["ToMid"] AICombatSectorType 4
----@field ["ToRight"] AICombatSectorType 5
----@field ["FromLeft"] AICombatSectorType 6
----@field ["FromMid"] AICombatSectorType 7
----@field ["FromRight"] AICombatSectorType 8
----@field ["FromBackLeft"] AICombatSectorType 9
----@field ["FromBackMid"] AICombatSectorType 10
----@field ["FromBackRight"] AICombatSectorType 11
----@field ["BeyondToLeft"] AICombatSectorType 12
----@field ["BeyondToRight"] AICombatSectorType 13
----@field ["BeyondFromLeft"] AICombatSectorType 14
----@field ["BeyondFromRight"] AICombatSectorType 15
----@field ["Unknown"] AICombatSectorType 16
+---@field ToBackLeft 0
+---@field ToBackMid 1
+---@field ToBackRight 2
+---@field ToLeft 3
+---@field ToMid 4
+---@field ToRight 5
+---@field FromLeft 6
+---@field FromMid 7
+---@field FromRight 8
+---@field FromBackLeft 9
+---@field FromBackMid 10
+---@field FromBackRight 11
+---@field BeyondToLeft 12
+---@field BeyondToRight 13
+---@field BeyondFromLeft 14
+---@field BeyondFromRight 15
+---@field Unknown 16
 AICombatSectorType = {}

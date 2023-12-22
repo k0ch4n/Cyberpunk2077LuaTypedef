@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class BaseStateOperations: DeviceOperations
----@field public ["stateActionsOverrides"] SGenericDeviceActionsData
----@field protected ["baseStateOperations"] SBaseStateOperationData[]
----@field private ["wasStateCached"] Bool
----@field private ["cachedState"] EDeviceStatus
+---@field public stateActionsOverrides SGenericDeviceActionsData
+---@field protected baseStateOperations SBaseStateOperationData[]
+---@field private wasStateCached Bool
+---@field private cachedState EDeviceStatus
 BaseStateOperations = {}
 
 ---@param fields? table

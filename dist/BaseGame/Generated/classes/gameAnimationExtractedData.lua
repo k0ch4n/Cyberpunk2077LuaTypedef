@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameAnimationExtractedData
----@field public ["animationName"] CName
----@field public ["animsetsExtractedTransforms"] gameAnimationTransforms[]
----@field public ["smartObjectPointType"] gameSmartObjectPointType
+---@field public animationName CName
+---@field public animsetsExtractedTransforms gameAnimationTransforms[]
+---@field public smartObjectPointType gameSmartObjectPointType
 gameAnimationExtractedData = {}
 
 ---@param fields? table

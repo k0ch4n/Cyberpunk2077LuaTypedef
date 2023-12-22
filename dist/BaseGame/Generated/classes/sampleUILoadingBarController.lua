@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class sampleUILoadingBarController: inkWidgetLogicController
----@field public ["minSize"] Vector2
----@field public ["maxSize"] Vector2
----@field public ["imageWidgetPath"] CName
----@field public ["textWidgetPath"] CName
----@field private ["currentSize"] Vector2
----@field private ["imageWidget"] inkImageWidget
----@field private ["textWidget"] inkTextWidget
+---@field public minSize Vector2
+---@field public maxSize Vector2
+---@field public imageWidgetPath CName
+---@field public textWidgetPath CName
+---@field private currentSize Vector2
+---@field private imageWidget inkImageWidget
+---@field private textWidget inkTextWidget
 sampleUILoadingBarController = {}
 
 ---@param fields? table

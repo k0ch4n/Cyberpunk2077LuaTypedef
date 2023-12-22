@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EPersonalLinkConnectionStatus: Enum
----@field ["NOT_CONNECTED"] EPersonalLinkConnectionStatus 0
----@field ["CONNECTING"] EPersonalLinkConnectionStatus 1
----@field ["CONNECTED"] EPersonalLinkConnectionStatus 2
----@field ["DISCONNECTING"] EPersonalLinkConnectionStatus 3
+---@field NOT_CONNECTED 0
+---@field CONNECTING 1
+---@field CONNECTED 2
+---@field DISCONNECTING 3
 EPersonalLinkConnectionStatus = {}

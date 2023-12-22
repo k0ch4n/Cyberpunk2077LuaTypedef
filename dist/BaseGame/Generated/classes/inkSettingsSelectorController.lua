@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class inkSettingsSelectorController: inkWidgetLogicController
----@field protected ["LabelText"] inkTextWidgetReference
----@field protected ["ModifiedFlag"] inkTextWidgetReference
----@field protected ["Raycaster"] inkWidgetReference
----@field protected ["optionSwitchHint"] inkWidgetReference
----@field protected ["hoverGeneralHighlight"] inkWidgetReference
----@field protected ["container"] inkWidgetReference
----@field protected ["indentMarker"] inkWidgetReference
----@field protected ["SettingsEntry"] userSettingsVar
----@field protected ["hoveredChildren"] inkWidget[]
----@field protected ["IsPreGame"] Bool
----@field private ["varGroupPath"] CName
----@field private ["varName"] CName
----@field protected ["additionalText"] CName
----@field private ["hoverInAnim"] inkanimProxy
----@field private ["hoverOutAnim"] inkanimProxy
+---@field protected LabelText inkTextWidgetReference
+---@field protected ModifiedFlag inkTextWidgetReference
+---@field protected Raycaster inkWidgetReference
+---@field protected optionSwitchHint inkWidgetReference
+---@field protected hoverGeneralHighlight inkWidgetReference
+---@field protected container inkWidgetReference
+---@field protected indentMarker inkWidgetReference
+---@field protected SettingsEntry userSettingsVar
+---@field protected hoveredChildren inkWidget[]
+---@field protected IsPreGame Bool
+---@field private varGroupPath CName
+---@field private varName CName
+---@field protected additionalText CName
+---@field private hoverInAnim inkanimProxy
+---@field private hoverOutAnim inkanimProxy
 inkSettingsSelectorController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_Undead: animAnimFeature
----@field public ["active"] Bool
+---@field public active Bool
 AnimFeature_Undead = {}
 
 ---@param fields? table

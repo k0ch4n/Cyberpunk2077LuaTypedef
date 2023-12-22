@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiOnGameFinishEvent: redEvent
----@field public ["gameState"] gameuiMinigameState
----@field public ["gameName"] CName
+---@field public gameState gameuiMinigameState
+---@field public gameName CName
 gameuiOnGameFinishEvent = {}
 
 ---@param fields? table

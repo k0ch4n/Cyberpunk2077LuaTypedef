@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_VectorJoin: animAnimNode_VectorValue
----@field public ["input"] animVectorLink
+---@field public input animVectorLink
 animAnimNode_VectorJoin = {}
 
 ---@param fields? table

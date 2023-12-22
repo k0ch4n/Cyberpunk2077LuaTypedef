@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorDelegateTaskDefinition: AIbehaviorTaskDefinition
----@field public ["onActivate"] AIbehaviorDelegateTaskRef
----@field public ["onUpdate"] AIbehaviorDelegateTaskRef
----@field public ["onDeactivate"] AIbehaviorDelegateTaskRef
+---@field public onActivate AIbehaviorDelegateTaskRef
+---@field public onUpdate AIbehaviorDelegateTaskRef
+---@field public onDeactivate AIbehaviorDelegateTaskRef
 AIbehaviorDelegateTaskDefinition = {}
 
 ---@param fields? table

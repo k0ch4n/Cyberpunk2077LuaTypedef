@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WeakspotHealthChangeListener: gameCustomValueStatPoolsListener
----@field public ["self"] gameObject
----@field private ["statPoolType"] gamedataStatPoolType
----@field private ["statPoolSystem"] gameStatPoolsSystem
+---@field public self gameObject
+---@field private statPoolType gamedataStatPoolType
+---@field private statPoolSystem gameStatPoolsSystem
 WeakspotHealthChangeListener = {}
 
 ---@param fields? table

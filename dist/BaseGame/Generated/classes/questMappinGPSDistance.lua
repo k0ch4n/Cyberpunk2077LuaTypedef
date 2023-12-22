@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMappinGPSDistance: questIDistance
----@field public ["mappinPath"] gameJournalPath
+---@field public mappinPath gameJournalPath
 questMappinGPSDistance = {}
 
 ---@param fields? table

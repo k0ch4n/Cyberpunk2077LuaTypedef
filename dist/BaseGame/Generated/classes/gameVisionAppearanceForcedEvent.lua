@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameVisionAppearanceForcedEvent: redEvent
----@field public ["state"] Bool
+---@field public state Bool
 gameVisionAppearanceForcedEvent = {}
 
 ---@param fields? table

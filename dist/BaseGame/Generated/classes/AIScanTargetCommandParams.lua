@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIScanTargetCommandParams: questScriptedAICommandParams
----@field public ["targetPuppetRef"] gameEntityReference
+---@field public targetPuppetRef gameEntityReference
 AIScanTargetCommandParams = {}
 
 ---@param fields? table

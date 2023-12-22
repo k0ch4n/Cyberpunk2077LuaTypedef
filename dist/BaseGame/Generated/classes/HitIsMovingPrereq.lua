@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitIsMovingPrereq: GenericHitPrereq
----@field public ["isMoving"] Bool
----@field public ["object"] String
+---@field public isMoving Bool
+---@field public object String
 HitIsMovingPrereq = {}
 
 ---@param fields? table

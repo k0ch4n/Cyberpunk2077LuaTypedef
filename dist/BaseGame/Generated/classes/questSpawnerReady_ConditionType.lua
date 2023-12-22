@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSpawnerReady_ConditionType: questISpawnerConditionType
----@field public ["spawnerReference"] NodeRef
----@field public ["communityEntryNames"] CName[]
+---@field public spawnerReference NodeRef
+---@field public communityEntryNames CName[]
 questSpawnerReady_ConditionType = {}
 
 ---@param fields? table

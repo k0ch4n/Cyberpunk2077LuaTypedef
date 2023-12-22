@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class DropdownListController: inkWidgetLogicController
----@field protected ["listContainer"] inkCompoundWidgetReference
----@field private ["ownerController"] IScriptable
----@field private ["triggerButton"] DropdownButtonController
----@field private ["displayContext"] DropdownDisplayContext
----@field private ["activeElement"] DropdownElementController
----@field private ["listOpened"] Bool
----@field private ["data"] DropdownItemData[]
+---@field protected listContainer inkCompoundWidgetReference
+---@field private ownerController IScriptable
+---@field private triggerButton DropdownButtonController
+---@field private displayContext DropdownDisplayContext
+---@field private activeElement DropdownElementController
+---@field private listOpened Bool
+---@field private data DropdownItemData[]
 DropdownListController = {}
 
 ---@param fields? table

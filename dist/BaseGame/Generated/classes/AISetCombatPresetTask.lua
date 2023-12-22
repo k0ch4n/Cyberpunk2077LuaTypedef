@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AISetCombatPresetTask: AIbehaviortaskScript
----@field public ["inCommand"] AIArgumentMapping
+---@field public inCommand AIArgumentMapping
 AISetCombatPresetTask = {}
 
 ---@param fields? table

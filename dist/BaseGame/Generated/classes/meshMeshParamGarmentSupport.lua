@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meshMeshParamGarmentSupport: meshMeshParameter
----@field public ["chunkCapVertices"] Uint32[][]
----@field public ["customMorph"] Bool
+---@field public chunkCapVertices Uint32[][]
+---@field public customMorph Bool
 meshMeshParamGarmentSupport = {}
 
 ---@param fields? table

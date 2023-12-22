@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_Event: animAnimNode_FloatValue
----@field public ["eventName"] CName
----@field public ["defaultValue"] Float
----@field public ["eventValue"] Float
+---@field public eventName CName
+---@field public defaultValue Float
+---@field public eventValue Float
 animAnimNode_Event = {}
 
 ---@param fields? table

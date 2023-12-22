@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerHandicapSystem: gameIPlayerHandicapSystem
----@field private ["canDropHealingConsumable"] Bool
----@field private ["canDropAmmo"] Bool
+---@field private canDropHealingConsumable Bool
+---@field private canDropAmmo Bool
 PlayerHandicapSystem = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameSimpleMessageType: Enum
----@field ["Undefined"] gameSimpleMessageType 0
----@field ["Negative"] gameSimpleMessageType 1
----@field ["Neutral"] gameSimpleMessageType 2
----@field ["Vehicle"] gameSimpleMessageType 3
----@field ["Apartment"] gameSimpleMessageType 4
----@field ["Relic"] gameSimpleMessageType 5
----@field ["Money"] gameSimpleMessageType 6
----@field ["Reveal"] gameSimpleMessageType 7
----@field ["Boss"] gameSimpleMessageType 8
+---@field Undefined 0
+---@field Negative 1
+---@field Neutral 2
+---@field Vehicle 3
+---@field Apartment 4
+---@field Relic 5
+---@field Money 6
+---@field Reveal 7
+---@field Boss 8
 gameSimpleMessageType = {}

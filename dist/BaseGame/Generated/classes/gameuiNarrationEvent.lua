@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiNarrationEvent
----@field public ["text"] String
----@field public ["durationSec"] Float
----@field public ["color"] Color
+---@field public text String
+---@field public durationSec Float
+---@field public color Color
 gameuiNarrationEvent = {}
 
 ---@param fields? table

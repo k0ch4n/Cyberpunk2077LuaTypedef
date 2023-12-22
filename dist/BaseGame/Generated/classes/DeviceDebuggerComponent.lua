@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class DeviceDebuggerComponent: gameScriptableComponent
----@field private ["isActive"] Bool
----@field private ["exclusiveModeTriggered"] Bool
----@field private ["currentDeviceProperties"] DebuggerProperties
----@field private ["debuggedDevice"] Device
----@field private ["debuggerColor"] EDebuggerColor
----@field private ["previousContext"] String
----@field private ["cachedContext"] String
----@field private ["layerIDs"] Uint32[]
+---@field private isActive Bool
+---@field private exclusiveModeTriggered Bool
+---@field private currentDeviceProperties DebuggerProperties
+---@field private debuggedDevice Device
+---@field private debuggerColor EDebuggerColor
+---@field private previousContext String
+---@field private cachedContext String
+---@field private layerIDs Uint32[]
 DeviceDebuggerComponent = {}
 
 ---@param fields? table

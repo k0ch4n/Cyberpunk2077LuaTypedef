@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class InstanceDataMappedToReferenceName
----@field public ["itemHandlingFeatureName"] CName
----@field public ["attachmentSlot"] String
+---@field public itemHandlingFeatureName CName
+---@field public attachmentSlot String
 InstanceDataMappedToReferenceName = {}
 
 ---@param fields? table

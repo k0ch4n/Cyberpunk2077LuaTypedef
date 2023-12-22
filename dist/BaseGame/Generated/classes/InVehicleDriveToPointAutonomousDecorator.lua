@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class InVehicleDriveToPointAutonomousDecorator: AIVehicleTaskAbstract
----@field public ["vehCommand"] AIVehicleDriveToPointAutonomousCommand
----@field protected ["targetPosition"] AIArgumentMapping
----@field protected ["minimumDistanceToTarget"] AIArgumentMapping
----@field protected ["maxSpeed"] AIArgumentMapping
----@field protected ["minSpeed"] AIArgumentMapping
----@field protected ["clearTrafficOnPath"] AIArgumentMapping
----@field protected ["driveDownTheRoadIndefinitely"] AIArgumentMapping
+---@field public vehCommand AIVehicleDriveToPointAutonomousCommand
+---@field protected targetPosition AIArgumentMapping
+---@field protected minimumDistanceToTarget AIArgumentMapping
+---@field protected maxSpeed AIArgumentMapping
+---@field protected minSpeed AIArgumentMapping
+---@field protected clearTrafficOnPath AIArgumentMapping
+---@field protected driveDownTheRoadIndefinitely AIArgumentMapping
 InVehicleDriveToPointAutonomousDecorator = {}
 
 ---@param fields? table

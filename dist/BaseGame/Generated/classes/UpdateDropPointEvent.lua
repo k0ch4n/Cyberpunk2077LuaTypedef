@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateDropPointEvent: redEvent
----@field public ["isEnabled"] Bool
+---@field public isEnabled Bool
 UpdateDropPointEvent = {}
 
 ---@param fields? table

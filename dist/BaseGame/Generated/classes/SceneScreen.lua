@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SceneScreen: gameObject
----@field public ["uiAnimationsData"] SceneScreenUIAnimationsData
----@field protected ["blackboard"] gameIBlackboard
+---@field public uiAnimationsData SceneScreenUIAnimationsData
+---@field protected blackboard gameIBlackboard
 SceneScreen = {}
 
 ---@param fields? table

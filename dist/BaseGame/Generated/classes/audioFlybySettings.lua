@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioFlybySettings
----@field public ["movementSpeed"] Float
----@field public ["flybyEvent"] CName
+---@field public movementSpeed Float
+---@field public flybyEvent CName
 audioFlybySettings = {}
 
 ---@param fields? table

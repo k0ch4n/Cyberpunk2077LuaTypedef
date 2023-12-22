@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questTickDelay_ConditionType: questITimeConditionType
----@field public ["tickCount"] Uint32
+---@field public tickCount Uint32
 questTickDelay_ConditionType = {}
 
 ---@param fields? table

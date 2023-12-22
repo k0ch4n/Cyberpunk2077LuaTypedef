@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RepeatLookatEvent: redEvent
----@field public ["target"] entEntity
+---@field public target entEntity
 RepeatLookatEvent = {}
 
 ---@param fields? table

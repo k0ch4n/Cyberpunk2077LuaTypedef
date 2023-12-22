@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorBehaviorInstanceCallStack
----@field public ["resourceHashes"] Uint32[]
+---@field public resourceHashes Uint32[]
 AIbehaviorBehaviorInstanceCallStack = {}
 
 ---@param fields? table

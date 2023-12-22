@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnPlacementEvent: scnSceneEvent
----@field public ["actorId"] scnActorId
----@field public ["targetWaypoint"] scnMarker
+---@field public actorId scnActorId
+---@field public targetWaypoint scnMarker
 scnPlacementEvent = {}
 
 ---@param fields? table

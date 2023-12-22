@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameuiNewPhoneRelatedHUDGameController: gameuiHUDGameController
----@field public ["isNewPhoneEnabled"] Bool
----@field protected ["player"] PlayerPuppet
----@field protected ["isRemoteControllingVehicle"] Bool
----@field protected ["visibilityFact1ListenerId"] Uint32
----@field protected ["visibilityFact2ListenerId"] Uint32
----@field protected ["remoteControlledVehicleDataCallback"] redCallbackObject
+---@field public isNewPhoneEnabled Bool
+---@field protected player PlayerPuppet
+---@field protected isRemoteControllingVehicle Bool
+---@field protected visibilityFact1ListenerId Uint32
+---@field protected visibilityFact2ListenerId Uint32
+---@field protected remoteControlledVehicleDataCallback redCallbackObject
 gameuiNewPhoneRelatedHUDGameController = {}
 
 ---@param fields? table

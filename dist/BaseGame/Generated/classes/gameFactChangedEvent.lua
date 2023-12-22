@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameFactChangedEvent: redEvent
----@field public ["factName"] CName
+---@field public factName CName
 gameFactChangedEvent = {}
 
 ---@param fields? table

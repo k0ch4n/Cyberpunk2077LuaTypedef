@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class MeleeLeapEvents: MeleeEventsTransition
----@field public ["enableVaultFromLeapAttack"] Bool
----@field public ["exitingToMeleeStrongAttack"] Bool
----@field public ["isFinisher"] Bool
----@field public ["isTargetKnockedOver"] Bool
----@field public ["textLayerId"] Uint32
+---@field public enableVaultFromLeapAttack Bool
+---@field public exitingToMeleeStrongAttack Bool
+---@field public isFinisher Bool
+---@field public isTargetKnockedOver Bool
+---@field public textLayerId Uint32
 MeleeLeapEvents = {}
 
 ---@param fields? table

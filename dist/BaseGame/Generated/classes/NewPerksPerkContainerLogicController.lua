@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewPerksPerkContainerLogicController: inkWidgetLogicController
----@field private ["slotIdentifier"] gamedataNewPerkSlotType
----@field private ["perkWidget"] inkWidgetReference
----@field private ["wiresConnections"] NewPerksWireConnection[]
+---@field private slotIdentifier gamedataNewPerkSlotType
+---@field private perkWidget inkWidgetReference
+---@field private wiresConnections NewPerksWireConnection[]
 NewPerksPerkContainerLogicController = {}
 
 ---@param fields? table

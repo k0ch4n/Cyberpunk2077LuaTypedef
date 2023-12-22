@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameGodModeSaveData: ISerializable
----@field public ["gods"] gameGodModeSaveEntityData[]
+---@field public gods gameGodModeSaveEntityData[]
 gameGodModeSaveData = {}
 
 ---@param fields? table

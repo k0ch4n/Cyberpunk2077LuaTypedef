@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnscreenplayItemType: Enum
----@field ["invalid"] scnscreenplayItemType 0
----@field ["dialogLine"] scnscreenplayItemType 1
----@field ["choiceOption"] scnscreenplayItemType 2
----@field ["standaloneComment"] scnscreenplayItemType 3
+---@field invalid 0
+---@field dialogLine 1
+---@field choiceOption 2
+---@field standaloneComment 3
 scnscreenplayItemType = {}

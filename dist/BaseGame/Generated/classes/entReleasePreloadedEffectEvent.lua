@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReleasePreloadedEffectEvent: redEvent
----@field public ["effectName"] CName
+---@field public effectName CName
 entReleasePreloadedEffectEvent = {}
 
 ---@param fields? table

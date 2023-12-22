@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class State: MorphData
----@field public ["state"] ESecuritySystemState
+---@field public state ESecuritySystemState
 State = {}
 
 ---@param fields? table

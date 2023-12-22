@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HealthbarMemoryStatListener: gameScriptStatsListener
----@field public ["healthbar"] gameuiHudHealthbarGameController
+---@field public healthbar gameuiHudHealthbarGameController
 HealthbarMemoryStatListener = {}
 
 ---@param fields? table

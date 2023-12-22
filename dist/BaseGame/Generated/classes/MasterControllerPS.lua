@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MasterControllerPS: ScriptableDeviceComponentPS
----@field protected ["clearance"] gamedeviceClearance
+---@field protected clearance gamedeviceClearance
 MasterControllerPS = {}
 
 ---@param fields? table

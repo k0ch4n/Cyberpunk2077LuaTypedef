@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class AISearchingLookat: AIGenericStaticLookatTask
----@field public ["minAngleDifferenceMapping"] AIArgumentMapping
----@field protected ["minAngleDifference"] Float
----@field public ["maxLookAroundAngleMapping"] AIArgumentMapping
----@field protected ["maxLookAroundAngle"] Float
----@field private ["currentTarget"] Vector4
----@field private ["lastTarget"] Vector4
----@field private ["targetSwitchTimeStamp"] Float
----@field private ["targetSwitchCooldown"] Float
----@field private ["sideHorizontal"] Int32
----@field private ["sideVertical"] Int32
+---@field public minAngleDifferenceMapping AIArgumentMapping
+---@field protected minAngleDifference Float
+---@field public maxLookAroundAngleMapping AIArgumentMapping
+---@field protected maxLookAroundAngle Float
+---@field private currentTarget Vector4
+---@field private lastTarget Vector4
+---@field private targetSwitchTimeStamp Float
+---@field private targetSwitchCooldown Float
+---@field private sideHorizontal Int32
+---@field private sideVertical Int32
 AISearchingLookat = {}
 
 ---@protected

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReplicatedInputSetterFloat: entReplicatedInputSetterBase
----@field public ["value"] Float
+---@field public value Float
 entReplicatedInputSetterFloat = {}
 
 ---@param fields? table

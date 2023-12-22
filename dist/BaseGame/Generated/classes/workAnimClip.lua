@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workAnimClip: workIEntry
----@field public ["animName"] CName
----@field public ["blendOutTime"] Float
+---@field public animName CName
+---@field public blendOutTime Float
 workAnimClip = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameConstantStatModifierData_Deprecated: gameStatModifierData_Deprecated
----@field public ["value"] Float
+---@field public value Float
 gameConstantStatModifierData_Deprecated = {}
 
 ---@param fields? table

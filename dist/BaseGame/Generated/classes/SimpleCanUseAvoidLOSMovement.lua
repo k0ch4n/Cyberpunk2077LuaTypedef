@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SimpleCanUseAvoidLOSMovement: AIbehaviorconditionScript
----@field private ["initialized"] Bool
----@field private ["result"] Bool
+---@field private initialized Bool
+---@field private result Bool
 SimpleCanUseAvoidLOSMovement = {}
 
 ---@param fields? table

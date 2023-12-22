@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class PreventionSystemHackerLoop: gameScriptableSystem
----@field private ["firstVehicle"] vehicleBaseObject
----@field private ["state"] EPreventionHackLoopState
----@field private ["shouldHackLoopBeEnabledOnThisStar"] Bool
----@field private ["showingHackingPopUp"] Bool
----@field private ["currentVehicle"] vehicleBaseObject
----@field private ["previousVehicle"] vehicleBaseObject
----@field private ["curentHackDelayId"] gameDelayID
----@field private ["futureDelayedUpdateDelayId"] gameDelayID
----@field private ["hackedVehicles"] VehiclePreventionHackState[]
----@field private ["otherProgressBar"] UploadFromNPCToPlayerListener
----@field private ["waitingForUpdate"] Bool
+---@field private firstVehicle vehicleBaseObject
+---@field private state EPreventionHackLoopState
+---@field private shouldHackLoopBeEnabledOnThisStar Bool
+---@field private showingHackingPopUp Bool
+---@field private currentVehicle vehicleBaseObject
+---@field private previousVehicle vehicleBaseObject
+---@field private curentHackDelayId gameDelayID
+---@field private futureDelayedUpdateDelayId gameDelayID
+---@field private hackedVehicles VehiclePreventionHackState[]
+---@field private otherProgressBar UploadFromNPCToPlayerListener
+---@field private waitingForUpdate Bool
 PreventionSystemHackerLoop = {}
 
 ---@param fields? table

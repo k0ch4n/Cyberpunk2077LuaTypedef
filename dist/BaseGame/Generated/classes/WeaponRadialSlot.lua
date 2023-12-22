@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponRadialSlot: RadialSlot
----@field private ["equipmentArea"] gamedataEquipmentArea
----@field private ["index"] Int32
+---@field private equipmentArea gamedataEquipmentArea
+---@field private index Int32
 WeaponRadialSlot = {}
 
 ---@param fields? table

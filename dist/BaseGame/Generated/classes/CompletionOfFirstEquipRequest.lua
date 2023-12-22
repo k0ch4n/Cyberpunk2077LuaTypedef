@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CompletionOfFirstEquipRequest: gameScriptableSystemRequest
----@field public ["weaponID"] TweakDBID
+---@field public weaponID TweakDBID
 CompletionOfFirstEquipRequest = {}
 
 ---@param fields? table

@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class VehicleRadioPopupGameController: BaseModalListPopupGameController
----@field private ["icon"] inkImageWidgetReference
----@field private ["trackName"] inkTextWidgetReference
----@field private ["scrollArea"] inkScrollAreaWidgetReference
----@field private ["scrollControllerWidget"] inkWidgetReference
----@field private ["radioVolumeSettings"] inkWidgetReference
----@field private ["volumeSettingGroupName"] CName
----@field private ["volumeSettingVarName"] CName
----@field private ["dataView"] RadioStationsDataView
----@field private ["dataSource"] inkScriptableDataSourceWrapper
----@field private ["quickSlotsManager"] QuickSlotsManager
----@field private ["player"] PlayerPuppet
----@field private ["playerVehicle"] vehicleBaseObject
----@field private ["startupIndex"] Uint32
----@field private ["currentRadioId"] Int32
----@field private ["selectedItem"] RadioStationListItemController
----@field private ["scrollController"] inkScrollController
----@field private ["canVolumeDown"] Bool
----@field private ["canVolumeUp"] Bool
----@field private ["radioVolumeSettingsController"] RadioVolumeSettingsController
+---@field private icon inkImageWidgetReference
+---@field private trackName inkTextWidgetReference
+---@field private scrollArea inkScrollAreaWidgetReference
+---@field private scrollControllerWidget inkWidgetReference
+---@field private radioVolumeSettings inkWidgetReference
+---@field private volumeSettingGroupName CName
+---@field private volumeSettingVarName CName
+---@field private dataView RadioStationsDataView
+---@field private dataSource inkScriptableDataSourceWrapper
+---@field private quickSlotsManager QuickSlotsManager
+---@field private player PlayerPuppet
+---@field private playerVehicle vehicleBaseObject
+---@field private startupIndex Uint32
+---@field private currentRadioId Int32
+---@field private selectedItem RadioStationListItemController
+---@field private scrollController inkScrollController
+---@field private canVolumeDown Bool
+---@field private canVolumeUp Bool
+---@field private radioVolumeSettingsController RadioVolumeSettingsController
 VehicleRadioPopupGameController = {}
 
 ---@param fields? table

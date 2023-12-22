@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class AccessPointControllerPS: MasterControllerPS
----@field private ["rewardNotificationIcons"] String[]
----@field private ["rewardNotificationString"] String
----@field private ["accessPointSkillChecks"] HackingContainer
----@field private ["isBreached"] Bool
----@field private ["moneyAwarded"] Bool
----@field private ["isVirtual"] Bool
----@field private ["pingedSquads"] CName[]
+---@field private rewardNotificationIcons String[]
+---@field private rewardNotificationString String
+---@field private accessPointSkillChecks HackingContainer
+---@field private isBreached Bool
+---@field private moneyAwarded Bool
+---@field private isVirtual Bool
+---@field private pingedSquads CName[]
 AccessPointControllerPS = {}
 
 ---@param fields? table

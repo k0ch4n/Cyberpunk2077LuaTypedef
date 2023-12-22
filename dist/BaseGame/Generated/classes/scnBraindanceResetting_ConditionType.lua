@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnBraindanceResetting_ConditionType: scnIBraindanceConditionType
----@field public ["sceneFile"] scnSceneResource
----@field public ["SceneVersion"] scnSceneVersionCheck
+---@field public sceneFile scnSceneResource
+---@field public SceneVersion scnSceneVersionCheck
 scnBraindanceResetting_ConditionType = {}
 
 ---@param fields? table

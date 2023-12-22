@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entRepellingShape: Enum
----@field ["Sphere"] entRepellingShape 0
----@field ["Capsule"] entRepellingShape 1
+---@field Sphere 0
+---@field Capsule 1
 entRepellingShape = {}

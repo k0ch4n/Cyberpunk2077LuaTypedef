@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActionForceResetDevice: ActionBool
----@field public ["restartDuration"] Int32
+---@field public restartDuration Int32
 ActionForceResetDevice = {}
 
 ---@param fields? table

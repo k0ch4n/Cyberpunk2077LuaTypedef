@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AuthorisationNotificationEvent: redEvent
----@field public ["type"] gameuiAuthorisationNotificationType
+---@field public type gameuiAuthorisationNotificationType
 AuthorisationNotificationEvent = {}
 
 ---@param fields? table

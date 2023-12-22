@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePickupObject: gameObject
----@field public ["interactionTag"] CName
+---@field public interactionTag CName
 gamePickupObject = {}
 
 ---@param fields? table

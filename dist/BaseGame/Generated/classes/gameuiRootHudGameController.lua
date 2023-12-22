@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiRootHudGameController: gameuiWidgetGameController
----@field public ["resolutionSensitiveRoots"] inkCompoundWidgetReference[]
+---@field public resolutionSensitiveRoots inkCompoundWidgetReference[]
 gameuiRootHudGameController = {}
 
 ---@param fields? table

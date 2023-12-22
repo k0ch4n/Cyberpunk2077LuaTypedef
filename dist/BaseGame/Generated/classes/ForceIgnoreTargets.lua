@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ForceIgnoreTargets: ActionBool
----@field public ["Repeat"] Bool
----@field public ["Attitude"] EAIAttitude
+---@field public Repeat Bool
+---@field public Attitude EAIAttitude
 ForceIgnoreTargets = {}
 
 ---@param fields? table

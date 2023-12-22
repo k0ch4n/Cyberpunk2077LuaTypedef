@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TV: InteractiveDevice
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
----@field protected ["isTVMoving"] Bool
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
+---@field protected isTVMoving Bool
 TV = {}
 
 ---@param fields? table

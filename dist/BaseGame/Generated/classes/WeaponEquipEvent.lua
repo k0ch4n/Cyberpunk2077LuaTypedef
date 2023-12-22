@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponEquipEvent: redEvent
----@field public ["animFeature"] AnimFeature_EquipType
----@field public ["item"] gameItemObject
+---@field public animFeature AnimFeature_EquipType
+---@field public item gameItemObject
 WeaponEquipEvent = {}
 
 ---@param fields? table

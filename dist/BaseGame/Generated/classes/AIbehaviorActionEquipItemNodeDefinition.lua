@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionEquipItemNodeDefinition: AIbehaviorActionItemHandlingNodeDefinition
----@field public ["slotId"] AIArgumentMapping
----@field public ["itemId"] AIArgumentMapping
----@field public ["duration"] AIArgumentMapping
----@field public ["failIfItemNotFound"] AIArgumentMapping
----@field public ["spawnDelay"] AIArgumentMapping
+---@field public slotId AIArgumentMapping
+---@field public itemId AIArgumentMapping
+---@field public duration AIArgumentMapping
+---@field public failIfItemNotFound AIArgumentMapping
+---@field public spawnDelay AIArgumentMapping
 AIbehaviorActionEquipItemNodeDefinition = {}
 
 ---@param fields? table

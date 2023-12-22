@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemoveDOTStatusEffectsEffector: gameEffector
----@field protected ["ownerEntityID"] entEntityID
----@field protected ["delay"] Float
+---@field protected ownerEntityID entEntityID
+---@field protected delay Float
 RemoveDOTStatusEffectsEffector = {}
 
 ---@param fields? table

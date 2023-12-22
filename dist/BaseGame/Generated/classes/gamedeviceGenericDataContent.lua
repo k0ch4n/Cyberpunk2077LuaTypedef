@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedeviceGenericDataContent
----@field public ["name"] String
----@field public ["content"] gamedeviceDataElement[]
+---@field public name String
+---@field public content gamedeviceDataElement[]
 gamedeviceGenericDataContent = {}
 
 ---@param fields? table

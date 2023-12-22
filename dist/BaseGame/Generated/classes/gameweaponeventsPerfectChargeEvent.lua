@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameweaponeventsPerfectChargeEvent: redEvent
----@field public ["type"] CName
+---@field public type CName
 gameweaponeventsPerfectChargeEvent = {}
 
 ---@param fields? table

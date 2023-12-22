@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeComponent: entIComponent
----@field public ["structs"] gameNetrunnerPrototypeStruct[]
+---@field public structs gameNetrunnerPrototypeStruct[]
 gameNetrunnerPrototypeComponent = {}
 
 ---@param fields? table

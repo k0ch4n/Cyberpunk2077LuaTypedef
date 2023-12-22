@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAnimationOverrideMetadata: audioAudioMetadata
----@field public ["animationOverrides"] audioAnimationOverrideDictionary
+---@field public animationOverrides audioAnimationOverrideDictionary
 audioAnimationOverrideMetadata = {}
 
 ---@param fields? table

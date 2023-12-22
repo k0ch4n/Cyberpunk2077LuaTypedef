@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MovableDeviceSetup
----@field public ["numberOfUses"] Int32
+---@field public numberOfUses Int32
 MovableDeviceSetup = {}
 
 ---@param fields? table

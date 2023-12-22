@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActionSceneAnimationMotionNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public ["params"] AIArgumentMapping
----@field public ["mountData"] AIArgumentMapping
+---@field public params AIArgumentMapping
+---@field public mountData AIArgumentMapping
 AIbehaviorActionSceneAnimationMotionNodeDefinition = {}
 
 ---@param fields? table

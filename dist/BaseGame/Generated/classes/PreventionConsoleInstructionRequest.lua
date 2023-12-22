@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PreventionConsoleInstructionRequest: gameScriptableSystemRequest
----@field public ["instruction"] EPreventionSystemInstruction
----@field public ["heatStage"] EPreventionHeatStage
+---@field public instruction EPreventionSystemInstruction
+---@field public heatStage EPreventionHeatStage
 PreventionConsoleInstructionRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldNavigationScriptPath: IScriptable
----@field public ["path"] Vector4[]
+---@field public path Vector4[]
 worldNavigationScriptPath = {}
 
 ---@param fields? table

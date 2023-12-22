@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput: Codeware_UI_inkCustomController
----@field public ["root"] inkCompoundWidget
----@field public ["wrapper"] inkWidget
----@field public ["measurer"] Codeware_UI_TextInput_TextMeasurer
----@field public ["viewport"] Codeware_UI_TextInput_Viewport
----@field public ["selection"] Codeware_UI_TextInput_Selection
----@field public ["text"] Codeware_UI_TextInput_TextFlow
----@field public ["caret"] Codeware_UI_TextInput_Caret
----@field public ["isDisabled"] Bool
----@field public ["isHovered"] Bool
----@field public ["isFocused"] Bool
----@field public ["lastInputEvent"] inkKeyInputEvent
----@field public ["isHoldComplete"] Bool
----@field public ["holdTickCounter"] Int32
----@field public ["holdTickProxy"] inkanimProxy
+---@field public root inkCompoundWidget
+---@field public wrapper inkWidget
+---@field public measurer Codeware_UI_TextInput_TextMeasurer
+---@field public viewport Codeware_UI_TextInput_Viewport
+---@field public selection Codeware_UI_TextInput_Selection
+---@field public text Codeware_UI_TextInput_TextFlow
+---@field public caret Codeware_UI_TextInput_Caret
+---@field public isDisabled Bool
+---@field public isHovered Bool
+---@field public isFocused Bool
+---@field public lastInputEvent inkKeyInputEvent
+---@field public isHoldComplete Bool
+---@field public holdTickCounter Int32
+---@field public holdTickProxy inkanimProxy
 Codeware_UI_TextInput = {}
 
 ---@param fields? table

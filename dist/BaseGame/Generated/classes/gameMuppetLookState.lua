@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetLookState
----@field public ["lookDir"] EulerAngles
+---@field public lookDir EulerAngles
 gameMuppetLookState = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MessageTooltip: AGenericTooltipController
----@field protected ["Title"] inkTextWidgetReference
----@field protected ["Description"] inkTextWidgetReference
----@field private ["animProxy"] inkanimProxy
+---@field protected Title inkTextWidgetReference
+---@field protected Description inkTextWidgetReference
+---@field private animProxy inkanimProxy
 MessageTooltip = {}
 
 ---@param fields? table

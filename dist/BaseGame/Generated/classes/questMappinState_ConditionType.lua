@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questMappinState_ConditionType: questIJournalConditionType
----@field public ["mappinPath"] gameJournalPath
----@field public ["active"] Bool
+---@field public mappinPath gameJournalPath
+---@field public active Bool
 questMappinState_ConditionType = {}
 
 ---@param fields? table

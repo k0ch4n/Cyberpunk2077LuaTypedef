@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkFastTravelLoadingControllerSupervisor: gameuiWidgetGameController
----@field public ["glitchEffect"] worldEffect
+---@field public glitchEffect worldEffect
 inkFastTravelLoadingControllerSupervisor = {}
 
 ---@param fields? table

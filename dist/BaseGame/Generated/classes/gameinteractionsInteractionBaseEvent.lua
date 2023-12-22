@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsInteractionBaseEvent: redEvent
----@field public ["hotspot"] gameObject
----@field public ["activator"] gameObject
----@field public ["layerData"] gameinteractionsLayerData
+---@field public hotspot gameObject
+---@field public activator gameObject
+---@field public layerData gameinteractionsLayerData
 gameinteractionsInteractionBaseEvent = {}
 
 ---@param fields? table

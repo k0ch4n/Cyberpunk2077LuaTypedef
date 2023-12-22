@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class CodexImageType: Enum
----@field ["Default"] CodexImageType 0
----@field ["Character"] CodexImageType 1
+---@field Default 0
+---@field Character 1
 CodexImageType = {}

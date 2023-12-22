@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSetCanVehicleBeRemoteControlled_NodeType: questIVehicleManagerNodeType
----@field public ["vehicleRef"] gameEntityReference
----@field public ["val"] Bool
+---@field public vehicleRef gameEntityReference
+---@field public val Bool
 questSetCanVehicleBeRemoteControlled_NodeType = {}
 
 ---@param fields? table

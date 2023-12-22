@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SimpleSandevistanDashShootCondition: AIbehaviorconditionScript
----@field private ["initialized"] Bool
----@field private ["result"] Bool
+---@field private initialized Bool
+---@field private result Bool
 SimpleSandevistanDashShootCondition = {}
 
 ---@param fields? table

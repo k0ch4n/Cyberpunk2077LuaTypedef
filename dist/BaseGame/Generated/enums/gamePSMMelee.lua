@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePSMMelee: Enum
----@field ["Any"] gamePSMMelee -1
----@field ["Default"] gamePSMMelee 0
----@field ["Attack"] gamePSMMelee 1
----@field ["Block"] gamePSMMelee 2
+---@field Any -1
+---@field Default 0
+---@field Attack 1
+---@field Block 2
 gamePSMMelee = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CheckArgumentName: CheckArguments
----@field public ["customVar"] CName
+---@field public customVar CName
 CheckArgumentName = {}
 
 ---@param fields? table

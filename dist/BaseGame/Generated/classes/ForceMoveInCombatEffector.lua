@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ForceMoveInCombatEffector: gameEffector
----@field public ["aiComponent"] AIHumanComponent
----@field public ["commandStarted"] Bool
+---@field public aiComponent AIHumanComponent
+---@field public commandStarted Bool
 ForceMoveInCombatEffector = {}
 
 ---@param fields? table

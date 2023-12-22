@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimationLogicController: inkWidgetLogicController
----@field private ["imageView"] inkImageWidgetReference
+---@field private imageView inkImageWidgetReference
 AnimationLogicController = {}
 
 ---@param fields? table

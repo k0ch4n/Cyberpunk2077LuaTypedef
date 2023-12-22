@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AimingContextDecisions: InputContextTransitionDecisions
----@field private ["leftHandChargeCallbackID"] redCallbackObject
----@field private ["upperBodyCallbackID"] redCallbackObject
----@field private ["meleeCallbackID"] redCallbackObject
----@field private ["leftHandCharge"] Bool
----@field private ["isAiming"] Bool
----@field private ["meleeBlockActive"] Bool
+---@field private leftHandChargeCallbackID redCallbackObject
+---@field private upperBodyCallbackID redCallbackObject
+---@field private meleeCallbackID redCallbackObject
+---@field private leftHandCharge Bool
+---@field private isAiming Bool
+---@field private meleeBlockActive Bool
 AimingContextDecisions = {}
 
 ---@param fields? table

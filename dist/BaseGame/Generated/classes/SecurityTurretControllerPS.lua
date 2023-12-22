@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SecurityTurretControllerPS: SensorDeviceControllerPS
----@field private ["pendingSecuritySystemDisableRequest"] Bool
----@field private ["turretSkillChecks"] EngDemoContainer
----@field protected ["ignoreSkillcheckGeneration"] Bool
----@field protected ["laserGameEffectRef"] gameEffectRef
----@field private ["weaponItemRecordString"] String
----@field private ["vfxNameOnShoot"] CName
+---@field private pendingSecuritySystemDisableRequest Bool
+---@field private turretSkillChecks EngDemoContainer
+---@field protected ignoreSkillcheckGeneration Bool
+---@field protected laserGameEffectRef gameEffectRef
+---@field private weaponItemRecordString String
+---@field private vfxNameOnShoot CName
 SecurityTurretControllerPS = {}
 
 ---@param fields? table

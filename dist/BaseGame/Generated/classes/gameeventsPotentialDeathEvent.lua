@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsPotentialDeathEvent: redEvent
----@field public ["instigator"] gameObject
+---@field public instigator gameObject
 gameeventsPotentialDeathEvent = {}
 
 ---@param fields? table

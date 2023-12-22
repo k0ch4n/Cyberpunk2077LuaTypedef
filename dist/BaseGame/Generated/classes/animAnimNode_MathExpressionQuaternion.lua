@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_MathExpressionQuaternion: animAnimNode_QuaternionValue
----@field public ["expressionData"] animMathExpressionNodeData
+---@field public expressionData animMathExpressionNodeData
 animAnimNode_MathExpressionQuaternion = {}
 
 ---@param fields? table

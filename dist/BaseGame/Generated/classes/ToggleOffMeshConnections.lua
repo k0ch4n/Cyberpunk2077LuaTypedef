@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleOffMeshConnections: redEvent
----@field public ["enable"] Bool
----@field public ["affectsPlayer"] Bool
----@field public ["affectsNPCs"] Bool
+---@field public enable Bool
+---@field public affectsPlayer Bool
+---@field public affectsNPCs Bool
 ToggleOffMeshConnections = {}
 
 ---@param fields? table

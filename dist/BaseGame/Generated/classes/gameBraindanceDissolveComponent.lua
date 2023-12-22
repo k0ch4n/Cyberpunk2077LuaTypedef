@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameBraindanceDissolveComponent: entIComponent
----@field public ["dissolveRadius"] Float
+---@field public dissolveRadius Float
 gameBraindanceDissolveComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeThrowReloadEvents: MeleeEventsTransition
----@field public ["isSwitchingWeapon"] Bool
+---@field public isSwitchingWeapon Bool
 MeleeThrowReloadEvents = {}
 
 ---@param fields? table

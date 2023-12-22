@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnSectionInternalsActorBehavior
----@field public ["actorId"] scnActorId
----@field public ["behaviorMode"] scnSectionInternalsActorBehaviorMode
+---@field public actorId scnActorId
+---@field public behaviorMode scnSectionInternalsActorBehaviorMode
 scnSectionInternalsActorBehavior = {}
 
 ---@param fields? table

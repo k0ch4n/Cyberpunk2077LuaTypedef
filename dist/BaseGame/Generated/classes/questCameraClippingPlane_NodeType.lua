@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCameraClippingPlane_NodeType: questISceneManagerNodeType
----@field public ["preset"] questCameraPlanesPreset
+---@field public preset questCameraPlanesPreset
 questCameraClippingPlane_NodeType = {}
 
 ---@param fields? table

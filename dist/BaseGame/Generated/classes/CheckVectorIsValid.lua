@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CheckVectorIsValid: AIbehaviorconditionScript
----@field public ["actionTweakIDMapping"] AIArgumentMapping
----@field public ["value"] Vector4
+---@field public actionTweakIDMapping AIArgumentMapping
+---@field public value Vector4
 CheckVectorIsValid = {}
 
 ---@param fields? table

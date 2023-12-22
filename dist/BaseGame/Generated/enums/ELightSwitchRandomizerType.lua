@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELightSwitchRandomizerType: Enum
----@field ["RANDOM"] ELightSwitchRandomizerType 0
----@field ["RANDOM_PROGRESSIVE"] ELightSwitchRandomizerType 1
----@field ["NONE"] ELightSwitchRandomizerType 2
+---@field RANDOM 0
+---@field RANDOM_PROGRESSIVE 1
+---@field NONE 2
 ELightSwitchRandomizerType = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PoliceAgentRegistry: IScriptable
----@field private ["game"] ScriptGameInstance
----@field private ["vehicleAgents"] VehicleAgent[]
----@field private ["npcAgents"] NPCAgent[]
----@field private ["requestTickets"] TicketData[]
+---@field private game ScriptGameInstance
+---@field private vehicleAgents VehicleAgent[]
+---@field private npcAgents NPCAgent[]
+---@field private requestTickets TicketData[]
 PoliceAgentRegistry = {}
 
 ---@param fields? table

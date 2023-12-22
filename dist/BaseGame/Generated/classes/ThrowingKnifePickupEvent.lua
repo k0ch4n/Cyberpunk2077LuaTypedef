@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ThrowingKnifePickupEvent: redEvent
----@field public ["throwCooldownSE"] TweakDBID
+---@field public throwCooldownSE TweakDBID
 ThrowingKnifePickupEvent = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WorkspotEntryData: IScriptable
----@field public ["workspotRef"] NodeRef
----@field public ["isEnabled"] Bool
----@field public ["isAvailable"] Bool
+---@field public workspotRef NodeRef
+---@field public isEnabled Bool
+---@field public isAvailable Bool
 WorkspotEntryData = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldProxyGroupingNormals: Enum
----@field ["Around_Core_Axis"] worldProxyGroupingNormals 0
----@field ["Around_All_Axes"] worldProxyGroupingNormals 1
+---@field Around_Core_Axis 0
+---@field Around_All_Axes 1
 worldProxyGroupingNormals = {}

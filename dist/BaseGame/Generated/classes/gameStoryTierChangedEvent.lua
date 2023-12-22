@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameStoryTierChangedEvent: AIAIEvent
----@field public ["newTier"] gameStoryTier
+---@field public newTier gameStoryTier
 gameStoryTierChangedEvent = {}
 
 ---@param fields? table

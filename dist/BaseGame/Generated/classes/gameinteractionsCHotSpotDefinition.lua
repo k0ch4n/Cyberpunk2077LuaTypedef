@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsCHotSpotDefinition
----@field public ["suppressor"] Bool
----@field public ["layersDefinition"] gameinteractionsCLinkedLayersDefinition[]
+---@field public suppressor Bool
+---@field public layersDefinition gameinteractionsCLinkedLayersDefinition[]
 gameinteractionsCHotSpotDefinition = {}
 
 ---@param fields? table

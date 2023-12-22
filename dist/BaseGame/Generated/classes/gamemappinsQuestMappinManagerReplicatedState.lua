@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamemappinsQuestMappinManagerReplicatedState
----@field public ["dynamicQuestMappinRepInfo"] gamemappinsDynamicQuestMappinRepInfo[]
+---@field public dynamicQuestMappinRepInfo gamemappinsDynamicQuestMappinRepInfo[]
 gamemappinsQuestMappinManagerReplicatedState = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class workTimeOfDayCondition: workIWorkspotCondition
----@field public ["activeAfter"] GameTime
----@field public ["activeUntil"] GameTime
+---@field public activeAfter GameTime
+---@field public activeUntil GameTime
 workTimeOfDayCondition = {}
 
 ---@param fields? table

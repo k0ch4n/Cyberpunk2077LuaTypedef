@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RetractableAdControllerPS: BaseAnimatedDeviceControllerPS
----@field protected ["isControlled"] Bool
+---@field protected isControlled Bool
 RetractableAdControllerPS = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldProxyMeshDependencyMode: Enum
----@field ["Auto"] worldProxyMeshDependencyMode 0
----@field ["Include"] worldProxyMeshDependencyMode 1
----@field ["Discard"] worldProxyMeshDependencyMode 2
+---@field Auto 0
+---@field Include 1
+---@field Discard 2
 worldProxyMeshDependencyMode = {}

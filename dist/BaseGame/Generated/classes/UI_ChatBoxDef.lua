@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UI_ChatBoxDef: gamebbScriptDefinition
----@field public ["TextList"] gamebbScriptID_Variant
+---@field public TextList gamebbScriptID_Variant
 UI_ChatBoxDef = {}
 
 ---@param fields? table

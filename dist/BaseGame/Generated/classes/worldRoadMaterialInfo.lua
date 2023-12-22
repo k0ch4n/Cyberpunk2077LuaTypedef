@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldRoadMaterialInfo
----@field public ["startOffset"] Float
----@field public ["material"] worldRoadMaterial
+---@field public startOffset Float
+---@field public material worldRoadMaterial
 worldRoadMaterialInfo = {}
 
 ---@param fields? table

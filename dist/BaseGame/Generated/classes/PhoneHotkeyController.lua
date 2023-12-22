@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class PhoneHotkeyController: GenericHotkeyController
----@field private ["mainIcon"] inkImageWidgetReference
----@field private ["questIcon"] inkImageWidgetReference
----@field private ["callIcon"] inkImageWidgetReference
----@field private ["messageCounterLabel"] inkWidgetReference
----@field private ["messageCounterLabelCircle"] inkWidgetReference
----@field private ["messageCounter"] inkTextWidgetReference
----@field private ["messageCounterCircle"] inkTextWidgetReference
----@field private ["journalManager"] gameJournalManager
----@field private ["phoneIconAtlas"] String
----@field private ["phoneIconName"] CName
----@field private ["proxy"] inkanimProxy
----@field private ["questImportantAnimProxy"] inkanimProxy
----@field private ["comDeviceBB"] gameIBlackboard
----@field private ["quickSlotBB"] gameIBlackboard
----@field private ["phoneEnabledBBId"] redCallbackObject
----@field private ["isVehiclesPopupVisibleBBId"] redCallbackObject
----@field private ["isRadioPopupVisibleBBId"] redCallbackObject
----@field private ["isRadialMenuVisibleBBId"] redCallbackObject
+---@field private mainIcon inkImageWidgetReference
+---@field private questIcon inkImageWidgetReference
+---@field private callIcon inkImageWidgetReference
+---@field private messageCounterLabel inkWidgetReference
+---@field private messageCounterLabelCircle inkWidgetReference
+---@field private messageCounter inkTextWidgetReference
+---@field private messageCounterCircle inkTextWidgetReference
+---@field private journalManager gameJournalManager
+---@field private phoneIconAtlas String
+---@field private phoneIconName CName
+---@field private proxy inkanimProxy
+---@field private questImportantAnimProxy inkanimProxy
+---@field private comDeviceBB gameIBlackboard
+---@field private quickSlotBB gameIBlackboard
+---@field private phoneEnabledBBId redCallbackObject
+---@field private isVehiclesPopupVisibleBBId redCallbackObject
+---@field private isRadioPopupVisibleBBId redCallbackObject
+---@field private isRadialMenuVisibleBBId redCallbackObject
 PhoneHotkeyController = {}
 
 ---@param fields? table

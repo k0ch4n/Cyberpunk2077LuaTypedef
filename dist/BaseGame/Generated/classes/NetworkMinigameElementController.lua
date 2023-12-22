@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class NetworkMinigameElementController: inkWidgetLogicController
----@field protected ["data"] ElementData
----@field protected ["text"] inkTextWidgetReference
----@field protected ["textNormalColor"] Color
----@field protected ["textHighlightColor"] Color
----@field protected ["bg"] inkRectangleWidgetReference
----@field protected ["colorAccent"] inkWidgetReference
----@field protected ["dimmedOpacity"] Float
----@field protected ["notDimmedOpacity"] Float
----@field protected ["defaultFontSize"] Int32
----@field protected ["wasConsumed"] Bool
----@field private ["root"] inkWidget
+---@field protected data ElementData
+---@field protected text inkTextWidgetReference
+---@field protected textNormalColor Color
+---@field protected textHighlightColor Color
+---@field protected bg inkRectangleWidgetReference
+---@field protected colorAccent inkWidgetReference
+---@field protected dimmedOpacity Float
+---@field protected notDimmedOpacity Float
+---@field protected defaultFontSize Int32
+---@field protected wasConsumed Bool
+---@field private root inkWidget
 NetworkMinigameElementController = {}
 
 ---@param fields? table

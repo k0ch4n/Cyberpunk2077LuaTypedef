@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class LibTreeDefTreeVariableISerializable: LibTreeDefTreeVariable
----@field public ["exportAsProperty"] Bool
+---@field public exportAsProperty Bool
 LibTreeDefTreeVariableISerializable = {}

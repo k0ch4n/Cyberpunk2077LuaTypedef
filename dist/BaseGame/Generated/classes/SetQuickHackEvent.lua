@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SetQuickHackEvent: redEvent
----@field public ["wasQuickHacked"] Bool
----@field public ["quickHackName"] CName
+---@field public wasQuickHacked Bool
+---@field public quickHackName CName
 SetQuickHackEvent = {}
 
 ---@param fields? table

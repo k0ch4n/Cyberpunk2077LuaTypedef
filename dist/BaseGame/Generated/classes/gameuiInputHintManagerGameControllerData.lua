@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiInputHintManagerGameControllerData: gameuiBaseUIData
----@field public ["inputHintsData"] gameuiInputHintData[]
+---@field public inputHintsData gameuiInputHintData[]
 gameuiInputHintManagerGameControllerData = {}
 
 ---@param fields? table

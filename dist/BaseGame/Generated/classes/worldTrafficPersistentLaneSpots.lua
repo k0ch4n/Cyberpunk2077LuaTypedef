@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentLaneSpots
----@field public ["spots"] worldTrafficSpotCompiled[]
+---@field public spots worldTrafficSpotCompiled[]
 worldTrafficPersistentLaneSpots = {}
 
 ---@param fields? table

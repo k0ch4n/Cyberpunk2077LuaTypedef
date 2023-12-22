@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldSceneRecordingNodeFilter
----@field public ["streamInNodesWithStreamingDistanceMoreThan"] Float
----@field public ["streamOutPrefabProxyMeshesWithStreamingDistanceMoreThan"] Float
----@field public ["meshNodesOnly"] Bool
----@field public ["meshResourceFilter"] worldSceneRecordingNodeMeshResourceFilter
+---@field public streamInNodesWithStreamingDistanceMoreThan Float
+---@field public streamOutPrefabProxyMeshesWithStreamingDistanceMoreThan Float
+---@field public meshNodesOnly Bool
+---@field public meshResourceFilter worldSceneRecordingNodeMeshResourceFilter
 worldSceneRecordingNodeFilter = {}
 
 ---@param fields? table

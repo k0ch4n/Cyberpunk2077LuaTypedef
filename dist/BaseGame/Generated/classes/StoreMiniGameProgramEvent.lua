@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StoreMiniGameProgramEvent: redEvent
----@field public ["program"] gameuiMinigameProgramData
----@field public ["add"] Bool
+---@field public program gameuiMinigameProgramData
+---@field public add Bool
 StoreMiniGameProgramEvent = {}
 
 ---@param fields? table

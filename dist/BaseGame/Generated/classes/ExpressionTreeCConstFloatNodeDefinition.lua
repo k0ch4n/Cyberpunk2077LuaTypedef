@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExpressionTreeCConstFloatNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public ["value"] Float
+---@field public value Float
 ExpressionTreeCConstFloatNodeDefinition = {}
 
 ---@param fields? table

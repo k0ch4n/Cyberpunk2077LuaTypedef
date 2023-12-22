@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questShowDialogIndicator_NodeTypeParams
----@field public ["objectRef"] gameEntityReference
----@field public ["show"] Bool
+---@field public objectRef gameEntityReference
+---@field public show Bool
 questShowDialogIndicator_NodeTypeParams = {}
 
 ---@param fields? table

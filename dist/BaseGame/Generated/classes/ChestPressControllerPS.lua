@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ChestPressControllerPS: ScriptableDeviceComponentPS
----@field protected ["chestPressSkillChecks"] EngDemoContainer
----@field private ["factOnQHack"] CName
----@field private ["wasWeighHacked"] Bool
+---@field protected chestPressSkillChecks EngDemoContainer
+---@field private factOnQHack CName
+---@field private wasWeighHacked Bool
 ChestPressControllerPS = {}
 
 ---@param fields? table

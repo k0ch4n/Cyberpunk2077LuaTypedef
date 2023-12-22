@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AgentRegistry: IScriptable
----@field protected ["isInitialized"] Bool
----@field protected ["agents"] Agent[]
----@field public ["agentsLock"] ScriptReentrantRWLock
----@field public ["maxReprimandsPerNPC"] Int32
----@field public ["maxReprimandsPerDEVICE"] Int32
+---@field protected isInitialized Bool
+---@field protected agents Agent[]
+---@field public agentsLock ScriptReentrantRWLock
+---@field public maxReprimandsPerNPC Int32
+---@field public maxReprimandsPerDEVICE Int32
 AgentRegistry = {}
 
 ---@param fields? table

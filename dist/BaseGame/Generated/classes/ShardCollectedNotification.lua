@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ShardCollectedNotification: GenericNotificationController
----@field private ["shardTitle"] inkTextWidgetReference
----@field public ["bbListenerId"] redCallbackObject
----@field private ["animProxy"] inkanimProxy
+---@field private shardTitle inkTextWidgetReference
+---@field public bbListenerId redCallbackObject
+---@field private animProxy inkanimProxy
 ShardCollectedNotification = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LastHitDataEvent: redEvent
----@field public ["hitReactionBehaviorData"] HitReactionBehaviorData
+---@field public hitReactionBehaviorData HitReactionBehaviorData
 LastHitDataEvent = {}
 
 ---@param fields? table

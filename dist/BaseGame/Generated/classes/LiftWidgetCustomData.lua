@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LiftWidgetCustomData: WidgetCustomData
----@field private ["movementState"] gamePlatformMovementState
+---@field private movementState gamePlatformMovementState
 LiftWidgetCustomData = {}
 
 ---@param fields? table

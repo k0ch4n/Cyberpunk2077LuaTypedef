@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CycleRoundEvents: WeaponEventsTransition
----@field public ["hasBlockedAiming"] Bool
----@field public ["blockAimStart"] Float
----@field public ["blockAimDuration"] Float
+---@field public hasBlockedAiming Bool
+---@field public blockAimStart Float
+---@field public blockAimDuration Float
 CycleRoundEvents = {}
 
 ---@param fields? table

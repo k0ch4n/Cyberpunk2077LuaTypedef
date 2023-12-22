@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class TrafficGenDynamicImpact: Enum
----@field ["Ignored"] TrafficGenDynamicImpact 0
----@field ["Blocking"] TrafficGenDynamicImpact 1
+---@field Ignored 0
+---@field Blocking 1
 TrafficGenDynamicImpact = {}

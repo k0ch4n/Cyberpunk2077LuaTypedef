@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GrappleStruggleDecisions: LocomotionTakedownDecisions
----@field public ["stateMachineInitData"] LocomotionTakedownInitData
+---@field public stateMachineInitData LocomotionTakedownInitData
 GrappleStruggleDecisions = {}
 
 ---@param fields? table

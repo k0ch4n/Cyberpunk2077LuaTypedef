@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameCoveringArc
----@field public ["leftAngle"] Float
----@field public ["rightAngle"] Float
----@field public ["verticalAngle"] Float
+---@field public leftAngle Float
+---@field public rightAngle Float
+---@field public verticalAngle Float
 gameCoveringArc = {}
 
 ---@param fields? table

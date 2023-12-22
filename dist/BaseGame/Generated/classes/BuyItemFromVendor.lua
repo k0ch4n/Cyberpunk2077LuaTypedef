@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuyItemFromVendor: ActionBool
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 BuyItemFromVendor = {}
 
 ---@param fields? table

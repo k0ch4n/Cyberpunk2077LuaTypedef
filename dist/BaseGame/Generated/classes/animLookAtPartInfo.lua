@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animLookAtPartInfo
----@field public ["partName"] CName
----@field public ["defaultPositionBoneName"] CName
+---@field public partName CName
+---@field public defaultPositionBoneName CName
 animLookAtPartInfo = {}
 
 ---@param fields? table

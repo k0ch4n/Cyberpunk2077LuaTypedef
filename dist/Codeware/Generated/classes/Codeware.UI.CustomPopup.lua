@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_CustomPopup: Codeware_UI_inkCustomController
----@field public ["notificationData"] inkGameNotificationData
----@field public ["notificationToken"] inkGameNotificationToken
----@field public ["transitionAnimProxy"] inkanimProxy
----@field public ["closeAction"] CName
+---@field public notificationData inkGameNotificationData
+---@field public notificationToken inkGameNotificationToken
+---@field public transitionAnimProxy inkanimProxy
+---@field public closeAction CName
 Codeware_UI_CustomPopup = {}
 
 ---@return nil

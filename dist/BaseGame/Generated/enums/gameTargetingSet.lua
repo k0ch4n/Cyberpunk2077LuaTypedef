@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTargetingSet: Enum
----@field ["Visible"] gameTargetingSet 0
----@field ["ClearlyVisible"] gameTargetingSet 1
----@field ["Frustum"] gameTargetingSet 2
----@field ["Complete"] gameTargetingSet 3
----@field ["None"] gameTargetingSet 4
+---@field Visible 0
+---@field ClearlyVisible 1
+---@field Frustum 2
+---@field Complete 3
+---@field None 4
 gameTargetingSet = {}

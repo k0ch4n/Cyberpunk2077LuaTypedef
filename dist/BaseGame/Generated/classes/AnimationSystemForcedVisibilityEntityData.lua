@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AnimationSystemForcedVisibilityEntityData: IScriptable
----@field private ["owner"] AnimationSystemForcedVisibilityManager
----@field private ["entityID"] entEntityID
----@field private ["forcedVisibilityInAnimSystemRequests"] ForcedVisibilityInAnimSystemData[]
----@field private ["delayedForcedVisibilityInAnimSystemRequests"] ForcedVisibilityInAnimSystemData[]
----@field private ["hasVisibilityForcedInAnimSystem"] Bool
----@field private ["hasVisibilityForcedOnlyInFrustumInAnimSystem"] Bool
+---@field private owner AnimationSystemForcedVisibilityManager
+---@field private entityID entEntityID
+---@field private forcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
+---@field private delayedForcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
+---@field private hasVisibilityForcedInAnimSystem Bool
+---@field private hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
 AnimationSystemForcedVisibilityEntityData = {}
 
 ---@param fields? table

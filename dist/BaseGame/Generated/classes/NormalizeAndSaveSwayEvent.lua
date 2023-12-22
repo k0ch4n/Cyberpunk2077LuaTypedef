@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NormalizeAndSaveSwayEvent: redEvent
----@field public ["sway"] Vector2
+---@field public sway Vector2
 NormalizeAndSaveSwayEvent = {}
 
 ---@param fields? table

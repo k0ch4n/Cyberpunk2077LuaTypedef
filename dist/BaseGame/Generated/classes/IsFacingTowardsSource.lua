@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class IsFacingTowardsSource: gameEffectObjectSingleFilter_Scripted
----@field public ["applyForPlayer"] Bool
----@field public ["applyForNPCs"] Bool
----@field public ["invert"] Bool
----@field public ["maxAllowedAngleYaw"] Float
----@field public ["maxAllowedAnglePitch"] Float
+---@field public applyForPlayer Bool
+---@field public applyForNPCs Bool
+---@field public invert Bool
+---@field public maxAllowedAngleYaw Float
+---@field public maxAllowedAnglePitch Float
 IsFacingTowardsSource = {}
 
 ---@param fields? table

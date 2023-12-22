@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameaudioeventsSetParameterOnEmitter: gameaudioeventsEmitterEvent
----@field public ["paramName"] CName
----@field public ["paramValue"] Float
+---@field public paramName CName
+---@field public paramValue Float
 gameaudioeventsSetParameterOnEmitter = {}
 
 ---@param fields? table

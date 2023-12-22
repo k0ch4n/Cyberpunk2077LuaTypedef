@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EAIPlayerSquadOrder: Enum
----@field ["Takedown"] EAIPlayerSquadOrder 0
----@field ["Invalid"] EAIPlayerSquadOrder 1
+---@field Takedown 0
+---@field Invalid 1
 EAIPlayerSquadOrder = {}

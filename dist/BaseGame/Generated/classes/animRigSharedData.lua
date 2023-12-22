@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animRigSharedData: CResource
----@field public ["parts"] animRigPart[]
----@field public ["ikSetups"] animIRigIkSetup[]
+---@field public parts animRigPart[]
+---@field public ikSetups animIRigIkSetup[]
 animRigSharedData = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SceneForceWeaponSafe: redEvent
----@field public ["weaponLoweringSpeedOverride"] Float
+---@field public weaponLoweringSpeedOverride Float
 SceneForceWeaponSafe = {}
 
 ---@param fields? table

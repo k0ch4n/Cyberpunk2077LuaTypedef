@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameReprimandMappinAnimationState: Enum
----@field ["None"] gameReprimandMappinAnimationState 0
----@field ["Normal"] gameReprimandMappinAnimationState 1
----@field ["Fast"] gameReprimandMappinAnimationState 2
+---@field None 0
+---@field Normal 1
+---@field Fast 2
 gameReprimandMappinAnimationState = {}

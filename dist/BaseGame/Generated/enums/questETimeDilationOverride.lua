@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questETimeDilationOverride: Enum
----@field ["None"] questETimeDilationOverride 0
----@field ["Ignore"] questETimeDilationOverride 1
----@field ["Inherit"] questETimeDilationOverride 2
+---@field None 0
+---@field Ignore 1
+---@field Inherit 2
 questETimeDilationOverride = {}

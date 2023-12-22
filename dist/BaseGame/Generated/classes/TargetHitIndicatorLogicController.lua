@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TargetHitIndicatorLogicController: inkWidgetLogicController
----@field public ["animName"] CName
----@field public ["animationPriority"] Int32
+---@field public animName CName
+---@field public animationPriority Int32
 TargetHitIndicatorLogicController = {}
 
 ---@param fields? table

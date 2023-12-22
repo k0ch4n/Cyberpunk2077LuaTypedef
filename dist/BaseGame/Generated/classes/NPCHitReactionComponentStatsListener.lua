@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NPCHitReactionComponentStatsListener: gameScriptStatsListener
----@field public ["npc"] NPCPuppet
+---@field public npc NPCPuppet
 NPCHitReactionComponentStatsListener = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetArgumentFloat: SetArguments
----@field public ["customVar"] Float
+---@field public customVar Float
 SetArgumentFloat = {}
 
 ---@param fields? table

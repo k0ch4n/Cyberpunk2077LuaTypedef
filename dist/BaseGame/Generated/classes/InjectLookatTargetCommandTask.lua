@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InjectLookatTargetCommandTask: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
----@field protected ["currentCommand"] AIInjectLookatTargetCommand
----@field protected ["activationTimeStamp"] Float
----@field protected ["commandDuration"] Float
+---@field protected inCommand AIArgumentMapping
+---@field protected currentCommand AIInjectLookatTargetCommand
+---@field protected activationTimeStamp Float
+---@field protected commandDuration Float
 InjectLookatTargetCommandTask = {}
 
 ---@param fields? table

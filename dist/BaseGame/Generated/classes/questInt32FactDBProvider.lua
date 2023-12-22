@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInt32FactDBProvider: questIInt32ValueProvider
----@field public ["factName"] CName
+---@field public factName CName
 questInt32FactDBProvider = {}
 
 ---@param fields? table

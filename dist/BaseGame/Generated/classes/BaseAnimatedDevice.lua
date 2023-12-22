@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class BaseAnimatedDevice: InteractiveDevice
----@field public ["openingSpeed"] Float
----@field public ["closingSpeed"] Float
----@field protected ["animationController"] entAnimationControllerComponent
----@field protected ["animFeature"] AnimFeature_RoadBlock
----@field protected ["animationType"] EAnimationType
+---@field public openingSpeed Float
+---@field public closingSpeed Float
+---@field protected animationController entAnimationControllerComponent
+---@field protected animFeature AnimFeature_RoadBlock
+---@field protected animationType EAnimationType
 BaseAnimatedDevice = {}
 
 ---@param fields? table

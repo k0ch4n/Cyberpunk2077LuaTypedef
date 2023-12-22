@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemGrenadeData: IScriptable
----@field public ["Type"] GrenadeDamageType
----@field public ["Range"] Float
----@field public ["DeliveryMethod"] gamedataGrenadeDeliveryMethodType
----@field public ["Duration"] Float
----@field public ["Delay"] Float
----@field public ["DetonationTimer"] Float
----@field public ["DamagePerTick"] Float
----@field public ["DamageType"] gamedataStatType
----@field public ["GrenadeType"] EGrenadeType
----@field public ["TotalDamage"] Float
----@field public ["Player"] PlayerPuppet
+---@field public Type GrenadeDamageType
+---@field public Range Float
+---@field public DeliveryMethod gamedataGrenadeDeliveryMethodType
+---@field public Duration Float
+---@field public Delay Float
+---@field public DetonationTimer Float
+---@field public DamagePerTick Float
+---@field public DamageType gamedataStatType
+---@field public GrenadeType EGrenadeType
+---@field public TotalDamage Float
+---@field public Player PlayerPuppet
 UIInventoryItemGrenadeData = {}
 
 ---@param fields? table

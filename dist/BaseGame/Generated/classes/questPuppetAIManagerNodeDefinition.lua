@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPuppetAIManagerNodeDefinition: questDisableableNodeDefinition
----@field public ["entries"] questPuppetAIManagerNodeDefinitionEntry[]
+---@field public entries questPuppetAIManagerNodeDefinitionEntry[]
 questPuppetAIManagerNodeDefinition = {}
 
 ---@param fields? table

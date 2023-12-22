@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SceneTierIIEvents: SceneTierAbstractEvents
----@field public ["cachedSpeedValue"] Float
----@field public ["maxSpeedStat"] gameStatModifierData_Deprecated
----@field public ["currentSpeedMovementPreset"] Tier2WalkType
----@field public ["currentSpeedValue"] Float
----@field public ["currentLocomotionState"] CName
+---@field public cachedSpeedValue Float
+---@field public maxSpeedStat gameStatModifierData_Deprecated
+---@field public currentSpeedMovementPreset Tier2WalkType
+---@field public currentSpeedValue Float
+---@field public currentLocomotionState CName
 SceneTierIIEvents = {}
 
 ---@param fields? table

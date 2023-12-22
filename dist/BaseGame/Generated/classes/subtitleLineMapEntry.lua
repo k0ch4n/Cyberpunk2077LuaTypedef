@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class subtitleLineMapEntry
----@field public ["id"] CRUID
----@field public ["widget"] inkWidget
----@field public ["owner"] gameObject
+---@field public id CRUID
+---@field public widget inkWidget
+---@field public owner gameObject
 subtitleLineMapEntry = {}
 
 ---@param fields? table

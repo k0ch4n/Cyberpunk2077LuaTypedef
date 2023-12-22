@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_VehicleSteeringLimit: animAnimFeatureMarkUnstable
----@field public ["state"] Int32
+---@field public state Int32
 AnimFeature_VehicleSteeringLimit = {}
 
 ---@param fields? table

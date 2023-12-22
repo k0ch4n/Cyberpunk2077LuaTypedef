@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScanInstance: ModuleInstance
----@field public ["isScanningCluesBlocked"] Bool
+---@field public isScanningCluesBlocked Bool
 ScanInstance = {}
 
 ---@param fields? table

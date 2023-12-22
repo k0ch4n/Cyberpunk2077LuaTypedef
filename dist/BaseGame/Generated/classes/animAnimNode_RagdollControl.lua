@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_RagdollControl: animAnimNode_Base
----@field public ["blendInDuration"] Float
----@field public ["blendOutDuration"] Float
----@field public ["inputPoseNode"] animPoseLink
+---@field public blendInDuration Float
+---@field public blendOutDuration Float
+---@field public inputPoseNode animPoseLink
 animAnimNode_RagdollControl = {}
 
 ---@param fields? table

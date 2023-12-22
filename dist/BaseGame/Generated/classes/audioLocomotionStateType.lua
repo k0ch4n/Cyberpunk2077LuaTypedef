@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioLocomotionStateType: audioAudioMetadata
----@field public ["void"] Bool
+---@field public void Bool
 audioLocomotionStateType = {}
 
 ---@param fields? table

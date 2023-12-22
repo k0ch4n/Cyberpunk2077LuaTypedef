@@ -2,22 +2,22 @@
 ---@diagnostic disable
 
 ---@class EDPadSlot: Enum
----@field ["Left"] EDPadSlot 0
----@field ["Up"] EDPadSlot 1
----@field ["Right"] EDPadSlot 2
----@field ["Down"] EDPadSlot 3
----@field ["LeftDouble"] EDPadSlot 4
----@field ["UpDouble"] EDPadSlot 5
----@field ["RightDouble"] EDPadSlot 6
----@field ["DownDouble"] EDPadSlot 7
----@field ["WeaponsWheel"] EDPadSlot 8
----@field ["VehicleWheel"] EDPadSlot 9
----@field ["GadgetWheel"] EDPadSlot 10
----@field ["InteractionWheel"] EDPadSlot 11
----@field ["Phone"] EDPadSlot 12
----@field ["CallVehicle"] EDPadSlot 13
----@field ["CycleObjective"] EDPadSlot 14
----@field ["VehicleInsideWheel"] EDPadSlot 15
----@field ["ConsumableWheel"] EDPadSlot 16
----@field ["PocketRadio"] EDPadSlot 17
+---@field Left 0
+---@field Up 1
+---@field Right 2
+---@field Down 3
+---@field LeftDouble 4
+---@field UpDouble 5
+---@field RightDouble 6
+---@field DownDouble 7
+---@field WeaponsWheel 8
+---@field VehicleWheel 9
+---@field GadgetWheel 10
+---@field InteractionWheel 11
+---@field Phone 12
+---@field CallVehicle 13
+---@field CycleObjective 14
+---@field VehicleInsideWheel 15
+---@field ConsumableWheel 16
+---@field PocketRadio 17
 EDPadSlot = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class MinigameGenerationRuleScalingPrograms: gameuiMinigameGenerationRule
----@field public ["bbNetwork"] gameIBlackboard
----@field public ["isOfficerBreach"] Bool
----@field public ["isRemoteBreach"] Bool
----@field public ["isFirstAttempt"] Bool
+---@field public bbNetwork gameIBlackboard
+---@field public isOfficerBreach Bool
+---@field public isRemoteBreach Bool
+---@field public isFirstAttempt Bool
 MinigameGenerationRuleScalingPrograms = {}
 
 ---@param fields? table

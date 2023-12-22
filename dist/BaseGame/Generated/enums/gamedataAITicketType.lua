@@ -2,65 +2,65 @@
 ---@diagnostic disable
 
 ---@class gamedataAITicketType: Enum
----@field ["AndroidMelee"] gamedataAITicketType 0
----@field ["BackUp"] gamedataAITicketType 1
----@field ["BattleCry"] gamedataAITicketType 2
----@field ["Block"] gamedataAITicketType 3
----@field ["CallOff"] gamedataAITicketType 4
----@field ["CatchUp"] gamedataAITicketType 5
----@field ["CatchUpToMeleePlayerOnHard"] gamedataAITicketType 6
----@field ["CatchUpToMeleePlayerOnVeryHard"] gamedataAITicketType 7
----@field ["Charge"] gamedataAITicketType 8
----@field ["CloseRing"] gamedataAITicketType 9
----@field ["CloseRing1stFilter"] gamedataAITicketType 10
----@field ["CloseRing2ndFilter"] gamedataAITicketType 11
----@field ["Crouch"] gamedataAITicketType 12
----@field ["DefaultRing"] gamedataAITicketType 13
----@field ["Dodge"] gamedataAITicketType 14
----@field ["Equip"] gamedataAITicketType 15
----@field ["EquipMelee"] gamedataAITicketType 16
----@field ["ExtremeRing"] gamedataAITicketType 17
----@field ["ExtremeRing1stFilter"] gamedataAITicketType 18
----@field ["ExtremeRing2ndFilter"] gamedataAITicketType 19
----@field ["FarRing"] gamedataAITicketType 20
----@field ["FarRing1stFilter"] gamedataAITicketType 21
----@field ["FarRing2ndFilter"] gamedataAITicketType 22
----@field ["GoToCover"] gamedataAITicketType 23
----@field ["GrenadeThrow"] gamedataAITicketType 24
----@field ["GrenadeThrow_Hard"] gamedataAITicketType 25
----@field ["GrenadeThrow_VeryHard"] gamedataAITicketType 26
----@field ["GroupReaction"] gamedataAITicketType 27
----@field ["Investigate"] gamedataAITicketType 28
----@field ["MediumRing"] gamedataAITicketType 29
----@field ["MediumRing1stFilter"] gamedataAITicketType 30
----@field ["MediumRing2ndFilter"] gamedataAITicketType 31
----@field ["Melee"] gamedataAITicketType 32
----@field ["MeleeApproach"] gamedataAITicketType 33
----@field ["MeleeRing"] gamedataAITicketType 34
----@field ["MeleeRing1stFilter"] gamedataAITicketType 35
----@field ["MeleeRing2ndFilter"] gamedataAITicketType 36
----@field ["MeleeSupport"] gamedataAITicketType 37
----@field ["OpticalCamo_Hard"] gamedataAITicketType 38
----@field ["OpticalCamo_VeryHard"] gamedataAITicketType 39
----@field ["Peek"] gamedataAITicketType 40
----@field ["QuickMelee"] gamedataAITicketType 41
----@field ["Quickhack"] gamedataAITicketType 42
----@field ["Quickhack_Hard"] gamedataAITicketType 43
----@field ["Quickhack_VeryHard"] gamedataAITicketType 44
----@field ["Reload"] gamedataAITicketType 45
----@field ["Reprimand"] gamedataAITicketType 46
----@field ["Search"] gamedataAITicketType 47
----@field ["Shoot"] gamedataAITicketType 48
----@field ["SimpleCombat"] gamedataAITicketType 49
----@field ["SimpleCombatMovement"] gamedataAITicketType 50
----@field ["SmokeGrenadeThrow"] gamedataAITicketType 51
----@field ["Strafe"] gamedataAITicketType 52
----@field ["StrafeEvade"] gamedataAITicketType 53
----@field ["Sync"] gamedataAITicketType 54
----@field ["TakeCover"] gamedataAITicketType 55
----@field ["Takedown"] gamedataAITicketType 56
----@field ["Taunt"] gamedataAITicketType 57
----@field ["TauntBackground"] gamedataAITicketType 58
----@field ["Count"] gamedataAITicketType 59
----@field ["Invalid"] gamedataAITicketType 60
+---@field AndroidMelee 0
+---@field BackUp 1
+---@field BattleCry 2
+---@field Block 3
+---@field CallOff 4
+---@field CatchUp 5
+---@field CatchUpToMeleePlayerOnHard 6
+---@field CatchUpToMeleePlayerOnVeryHard 7
+---@field Charge 8
+---@field CloseRing 9
+---@field CloseRing1stFilter 10
+---@field CloseRing2ndFilter 11
+---@field Crouch 12
+---@field DefaultRing 13
+---@field Dodge 14
+---@field Equip 15
+---@field EquipMelee 16
+---@field ExtremeRing 17
+---@field ExtremeRing1stFilter 18
+---@field ExtremeRing2ndFilter 19
+---@field FarRing 20
+---@field FarRing1stFilter 21
+---@field FarRing2ndFilter 22
+---@field GoToCover 23
+---@field GrenadeThrow 24
+---@field GrenadeThrow_Hard 25
+---@field GrenadeThrow_VeryHard 26
+---@field GroupReaction 27
+---@field Investigate 28
+---@field MediumRing 29
+---@field MediumRing1stFilter 30
+---@field MediumRing2ndFilter 31
+---@field Melee 32
+---@field MeleeApproach 33
+---@field MeleeRing 34
+---@field MeleeRing1stFilter 35
+---@field MeleeRing2ndFilter 36
+---@field MeleeSupport 37
+---@field OpticalCamo_Hard 38
+---@field OpticalCamo_VeryHard 39
+---@field Peek 40
+---@field QuickMelee 41
+---@field Quickhack 42
+---@field Quickhack_Hard 43
+---@field Quickhack_VeryHard 44
+---@field Reload 45
+---@field Reprimand 46
+---@field Search 47
+---@field Shoot 48
+---@field SimpleCombat 49
+---@field SimpleCombatMovement 50
+---@field SmokeGrenadeThrow 51
+---@field Strafe 52
+---@field StrafeEvade 53
+---@field Sync 54
+---@field TakeCover 55
+---@field Takedown 56
+---@field Taunt 57
+---@field TauntBackground 58
+---@field Count 59
+---@field Invalid 60
 gamedataAITicketType = {}

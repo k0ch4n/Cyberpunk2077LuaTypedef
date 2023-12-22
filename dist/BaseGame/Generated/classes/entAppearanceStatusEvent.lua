@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAppearanceStatusEvent: redEvent
----@field public ["status"] entAppearanceStatus
+---@field public status entAppearanceStatus
 entAppearanceStatusEvent = {}
 
 ---@param fields? table

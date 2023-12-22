@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldTrafficSpotDefinition: ISerializable
----@field public ["length"] Float
----@field public ["direction"] worldTrafficSpotDirection
+---@field public length Float
+---@field public direction worldTrafficSpotDirection
 worldTrafficSpotDefinition = {}

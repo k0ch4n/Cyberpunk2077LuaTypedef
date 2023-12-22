@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIVendorAttachedEvent: redEvent
----@field public ["vendorID"] TweakDBID
----@field public ["vendorObject"] gameObject
+---@field public vendorID TweakDBID
+---@field public vendorObject gameObject
 UIVendorAttachedEvent = {}
 
 ---@param fields? table

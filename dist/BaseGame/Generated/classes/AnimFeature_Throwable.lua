@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_Throwable: animAnimFeature
----@field public ["state"] Int32
+---@field public state Int32
 AnimFeature_Throwable = {}
 
 ---@param fields? table

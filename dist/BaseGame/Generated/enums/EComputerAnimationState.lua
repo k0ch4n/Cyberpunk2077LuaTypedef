@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EComputerAnimationState: Enum
----@field ["None"] EComputerAnimationState 0
----@field ["Opened"] EComputerAnimationState 1
----@field ["Closed"] EComputerAnimationState 2
+---@field None 0
+---@field Opened 1
+---@field Closed 2
 EComputerAnimationState = {}

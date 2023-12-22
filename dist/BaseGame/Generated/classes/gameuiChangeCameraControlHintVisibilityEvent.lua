@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiChangeCameraControlHintVisibilityEvent: redEvent
----@field public ["visible"] Bool
+---@field public visible Bool
 gameuiChangeCameraControlHintVisibilityEvent = {}
 
 ---@param fields? table

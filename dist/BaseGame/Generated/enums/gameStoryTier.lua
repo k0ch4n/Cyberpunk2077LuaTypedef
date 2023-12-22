@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameStoryTier: Enum
----@field ["Gameplay"] gameStoryTier 0
----@field ["Cinematic"] gameStoryTier 1
+---@field Gameplay 0
+---@field Cinematic 1
 gameStoryTier = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_PhotomodePoseCategory: animAnimFeature
----@field public ["poseCategoryIndex"] Int32
+---@field public poseCategoryIndex Int32
 AnimFeature_PhotomodePoseCategory = {}
 
 ---@param fields? table

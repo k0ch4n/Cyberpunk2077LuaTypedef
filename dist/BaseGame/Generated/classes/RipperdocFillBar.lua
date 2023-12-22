@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RipperdocFillBar: inkWidgetLogicController
----@field private ["root"] inkWidget
----@field private ["fillStart"] Float
----@field private ["fillEnd"] Float
----@field private ["maxSize"] Vector2
----@field private ["sizeAnimation"] inkanimProxy
----@field private ["marginAnimation"] inkanimProxy
+---@field private root inkWidget
+---@field private fillStart Float
+---@field private fillEnd Float
+---@field private maxSize Vector2
+---@field private sizeAnimation inkanimProxy
+---@field private marginAnimation inkanimProxy
 RipperdocFillBar = {}
 
 ---@param fields? table

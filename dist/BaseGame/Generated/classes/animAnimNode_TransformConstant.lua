@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_TransformConstant: animAnimNode_TransformValue
----@field public ["pos"] Vector4
----@field public ["rotation"] Quaternion
----@field public ["scale"] Vector4
+---@field public pos Vector4
+---@field public rotation Quaternion
+---@field public scale Vector4
 animAnimNode_TransformConstant = {}
 
 ---@param fields? table

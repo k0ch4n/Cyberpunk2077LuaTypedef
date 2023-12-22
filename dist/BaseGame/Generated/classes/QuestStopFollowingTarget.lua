@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestStopFollowingTarget: ActionBool
----@field public ["targetEntityID"] entEntityID
+---@field public targetEntityID entEntityID
 QuestStopFollowingTarget = {}
 
 ---@param fields? table

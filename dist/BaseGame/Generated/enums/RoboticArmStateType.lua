@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RoboticArmStateType: Enum
----@field ["Idle"] RoboticArmStateType 0
----@field ["Work"] RoboticArmStateType 1
----@field ["Distract"] RoboticArmStateType 2
+---@field Idle 0
+---@field Work 1
+---@field Distract 2
 RoboticArmStateType = {}

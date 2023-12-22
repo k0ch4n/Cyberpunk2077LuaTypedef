@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceAnimSetup
----@field public ["animationTime"] Float
+---@field public animationTime Float
 ActivatedDeviceAnimSetup = {}
 
 ---@param fields? table

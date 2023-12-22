@@ -2,28 +2,28 @@
 ---@diagnostic disable
 
 ---@class AdvertisementFormat: Enum
----@field ["Format_0_7x1"] AdvertisementFormat 0
----@field ["Format_1x1"] AdvertisementFormat 1
----@field ["Format_1x0_7"] AdvertisementFormat 2
----@field ["Format_1x1_5"] AdvertisementFormat 3
----@field ["Format_1x2"] AdvertisementFormat 4
----@field ["Format_1x3_3"] AdvertisementFormat 5
----@field ["Format_1_5x1"] AdvertisementFormat 6
----@field ["Format_2x1"] AdvertisementFormat 7
----@field ["Format_3_3x1"] AdvertisementFormat 8
----@field ["Format_3x4"] AdvertisementFormat 9
----@field ["Format_4x3"] AdvertisementFormat 10
----@field ["Format_9x16"] AdvertisementFormat 11
----@field ["Format_9x21"] AdvertisementFormat 12
----@field ["Format_16x9"] AdvertisementFormat 13
----@field ["Format_21x9"] AdvertisementFormat 14
----@field ["Format_a"] AdvertisementFormat 15
----@field ["Format_b"] AdvertisementFormat 16
----@field ["Format_c"] AdvertisementFormat 17
----@field ["Format_d"] AdvertisementFormat 18
----@field ["Format_e"] AdvertisementFormat 19
----@field ["Format_f"] AdvertisementFormat 20
----@field ["Format_i"] AdvertisementFormat 21
----@field ["Format_o"] AdvertisementFormat 22
----@field ["Format_k"] AdvertisementFormat 23
+---@field Format_0_7x1 0
+---@field Format_1x1 1
+---@field Format_1x0_7 2
+---@field Format_1x1_5 3
+---@field Format_1x2 4
+---@field Format_1x3_3 5
+---@field Format_1_5x1 6
+---@field Format_2x1 7
+---@field Format_3_3x1 8
+---@field Format_3x4 9
+---@field Format_4x3 10
+---@field Format_9x16 11
+---@field Format_9x21 12
+---@field Format_16x9 13
+---@field Format_21x9 14
+---@field Format_a 15
+---@field Format_b 16
+---@field Format_c 17
+---@field Format_d 18
+---@field Format_e 19
+---@field Format_f 20
+---@field Format_i 21
+---@field Format_o 22
+---@field Format_k 23
 AdvertisementFormat = {}

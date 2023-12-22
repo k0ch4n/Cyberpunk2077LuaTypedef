@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AISignalSenderTask: AIbehaviortaskScript
----@field public ["tags"] CName[]
----@field public ["flags"] EAIGateSignalFlags[]
----@field public ["priority"] Float
----@field private ["signalId"] Uint32
+---@field public tags CName[]
+---@field public flags EAIGateSignalFlags[]
+---@field public priority Float
+---@field private signalId Uint32
 AISignalSenderTask = {}
 
 ---@protected

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MenuScenario_SingleplayerMenu: MenuScenario_PreGameSubMenu
----@field private ["expansionHintShown"] Bool
+---@field private expansionHintShown Bool
 MenuScenario_SingleplayerMenu = {}
 
 ---@param fields? table

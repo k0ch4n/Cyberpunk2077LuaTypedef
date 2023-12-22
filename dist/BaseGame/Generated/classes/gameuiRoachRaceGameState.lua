@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiRoachRaceGameState: gameuiMinigameState
----@field public ["invincibleTime"] Float
----@field public ["pointsBonusTime"] Float
----@field public ["speedMultiplicator"] Float
+---@field public invincibleTime Float
+---@field public pointsBonusTime Float
+---@field public speedMultiplicator Float
 gameuiRoachRaceGameState = {}
 
 ---@param fields? table

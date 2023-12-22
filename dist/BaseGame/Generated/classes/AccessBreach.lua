@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AccessBreach: PuppetAction
----@field public ["attempt"] Int32
----@field public ["networkName"] String
----@field public ["npcCount"] Int32
----@field public ["isRemote"] Bool
----@field public ["isSuicide"] Bool
+---@field public attempt Int32
+---@field public networkName String
+---@field public npcCount Int32
+---@field public isRemote Bool
+---@field public isSuicide Bool
 AccessBreach = {}
 
 ---@param fields? table

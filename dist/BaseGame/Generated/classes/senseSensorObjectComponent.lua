@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class senseSensorObjectComponent: entIPlacedComponent
----@field public ["sensorObject"] senseSensorObject
----@field public ["isEnabled"] Bool
+---@field public sensorObject senseSensorObject
+---@field public isEnabled Bool
 senseSensorObjectComponent = {}
 
 ---@param fields? table

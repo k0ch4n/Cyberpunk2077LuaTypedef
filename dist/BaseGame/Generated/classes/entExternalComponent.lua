@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entExternalComponent: entIComponent
----@field public ["externalComponentName"] CName
+---@field public externalComponentName CName
 entExternalComponent = {}
 
 ---@param fields? table

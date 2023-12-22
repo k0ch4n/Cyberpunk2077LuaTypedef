@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldCompiledSmartObjectsNode: worldNode
----@field public ["resource"] gameSmartObjectsCompiledResource
+---@field public resource gameSmartObjectsCompiledResource
 worldCompiledSmartObjectsNode = {}
 
 ---@param fields? table

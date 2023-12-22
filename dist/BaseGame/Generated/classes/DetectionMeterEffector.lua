@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class DetectionMeterEffector: gameEffector
----@field private ["statusEffectID"] TweakDBID
----@field private ["detectionStep"] Float
----@field private ["maxStacks"] Int32
----@field private ["onlyHostileDetection"] Bool
----@field private ["dontRemoveStacks"] Bool
----@field private ["detectionListener"] redCallbackObject
----@field private ["currentStacks"] Int32
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["ownerID"] entEntityID
+---@field private statusEffectID TweakDBID
+---@field private detectionStep Float
+---@field private maxStacks Int32
+---@field private onlyHostileDetection Bool
+---@field private dontRemoveStacks Bool
+---@field private detectionListener redCallbackObject
+---@field private currentStacks Int32
+---@field private gameInstance ScriptGameInstance
+---@field private ownerID entEntityID
 DetectionMeterEffector = {}
 
 ---@param fields? table

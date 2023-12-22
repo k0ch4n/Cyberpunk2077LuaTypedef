@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questStimuli_ConditionType: questISensesConditionType
----@field public ["instigatorRef"] gameEntityReference
----@field public ["isPlayerInstigator"] Bool
----@field public ["targetRef"] gameEntityReference
----@field public ["type"] gamedataStimType
+---@field public instigatorRef gameEntityReference
+---@field public isPlayerInstigator Bool
+---@field public targetRef gameEntityReference
+---@field public type gamedataStimType
 questStimuli_ConditionType = {}
 
 ---@param fields? table

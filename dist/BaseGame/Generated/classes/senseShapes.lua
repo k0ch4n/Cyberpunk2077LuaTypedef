@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseShapes
----@field public ["shapes"] senseIShape[]
+---@field public shapes senseIShape[]
 senseShapes = {}
 
 ---@param fields? table

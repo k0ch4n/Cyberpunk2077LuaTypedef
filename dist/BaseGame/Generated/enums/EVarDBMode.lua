@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EVarDBMode: Enum
----@field ["Add"] EVarDBMode 0
----@field ["Set"] EVarDBMode 1
----@field ["Invalid"] EVarDBMode 2
+---@field Add 0
+---@field Set 1
+---@field Invalid 2
 EVarDBMode = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class UIInGameNotificationEvent: redEvent
----@field public ["notificationType"] UIInGameNotificationType
----@field public ["animContainer"] inGameMenuAnimContainer
----@field public ["title"] String
----@field public ["overrideCurrentNotification"] Bool
+---@field public notificationType UIInGameNotificationType
+---@field public animContainer inGameMenuAnimContainer
+---@field public title String
+---@field public overrideCurrentNotification Bool
 UIInGameNotificationEvent = {}
 
 ---@param fields? table

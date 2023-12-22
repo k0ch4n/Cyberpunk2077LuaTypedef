@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineparameterTypeItemUnequipRequest: IScriptable
----@field public ["slotId"] TweakDBID
----@field public ["itemId"] gameItemID
----@field public ["instant"] Bool
+---@field public slotId TweakDBID
+---@field public itemId gameItemID
+---@field public instant Bool
 gamestateMachineparameterTypeItemUnequipRequest = {}
 
 ---@param fields? table

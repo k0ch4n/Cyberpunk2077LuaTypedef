@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePSMFallStates: Enum
----@field ["Default"] gamePSMFallStates 0
----@field ["RegularFall"] gamePSMFallStates 1
----@field ["SafeFall"] gamePSMFallStates 2
----@field ["FastFall"] gamePSMFallStates 3
----@field ["VeryFastFall"] gamePSMFallStates 4
----@field ["DeathFall"] gamePSMFallStates 5
+---@field Default 0
+---@field RegularFall 1
+---@field SafeFall 2
+---@field FastFall 3
+---@field VeryFastFall 4
+---@field DeathFall 5
 gamePSMFallStates = {}

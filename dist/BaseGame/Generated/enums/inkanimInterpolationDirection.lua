@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimInterpolationDirection: Enum
----@field ["To"] inkanimInterpolationDirection 0
----@field ["From"] inkanimInterpolationDirection 1
----@field ["FromTo"] inkanimInterpolationDirection 2
+---@field To 0
+---@field From 1
+---@field FromTo 2
 inkanimInterpolationDirection = {}

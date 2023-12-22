@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AITimeoutCondition: AITimeCondition
----@field protected ["timestamp"] Float
+---@field protected timestamp Float
 AITimeoutCondition = {}
 
 ---@protected

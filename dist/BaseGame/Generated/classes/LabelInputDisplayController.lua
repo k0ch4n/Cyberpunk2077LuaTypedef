@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LabelInputDisplayController: inkInputDisplayController
----@field private ["inputLabel"] inkTextWidgetReference
+---@field private inputLabel inkTextWidgetReference
 LabelInputDisplayController = {}
 
 ---@param fields? table

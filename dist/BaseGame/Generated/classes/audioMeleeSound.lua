@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioMeleeSound
----@field public ["events"] audioMeleeEvent[]
+---@field public events audioMeleeEvent[]
 audioMeleeSound = {}
 
 ---@param fields? table

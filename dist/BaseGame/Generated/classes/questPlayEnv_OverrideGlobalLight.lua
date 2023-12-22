@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questPlayEnv_OverrideGlobalLight: questIEnvironmentManagerNodeType
----@field public ["params"] worldWorldGlobalLightOverrideWithColorParameters
+---@field public params worldWorldGlobalLightOverrideWithColorParameters
 questPlayEnv_OverrideGlobalLight = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SettingsSelectorControllerFloat: SettingsSelectorControllerRange
----@field public ["newValue"] Float
----@field private ["sliderWidget"] inkWidgetReference
----@field private ["sliderController"] inkSliderController
+---@field public newValue Float
+---@field private sliderWidget inkWidgetReference
+---@field private sliderController inkSliderController
 SettingsSelectorControllerFloat = {}
 
 ---@param fields? table

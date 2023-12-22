@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameAIDirectorTensionEventType: Enum
----@field ["Time"] gameAIDirectorTensionEventType 0
----@field ["Progress"] gameAIDirectorTensionEventType 1
----@field ["DealingDamage"] gameAIDirectorTensionEventType 2
----@field ["TakingDamage"] gameAIDirectorTensionEventType 3
----@field ["Kill"] gameAIDirectorTensionEventType 4
+---@field Time 0
+---@field Progress 1
+---@field DealingDamage 2
+---@field TakingDamage 3
+---@field Kill 4
 gameAIDirectorTensionEventType = {}

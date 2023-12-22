@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkRadioGroupController: inkWidgetLogicController
----@field public ["toggleRefs"] inkWidgetReference[]
----@field public ["alwaysToggled"] Bool
----@field public ["selectedIndex"] Int32
----@field public ["ValueChanged"] inkRadioGroupChangedCallback
+---@field public toggleRefs inkWidgetReference[]
+---@field public alwaysToggled Bool
+---@field public selectedIndex Int32
+---@field public ValueChanged inkRadioGroupChangedCallback
 inkRadioGroupController = {}
 
 ---@param fields? table

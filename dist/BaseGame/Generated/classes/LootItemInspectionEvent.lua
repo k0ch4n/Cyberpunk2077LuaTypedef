@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LootItemInspectionEvent: redEvent
----@field public ["owner"] gameObject
+---@field public owner gameObject
 LootItemInspectionEvent = {}
 
 ---@param fields? table

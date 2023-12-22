@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScreenDisplayContextData: IScriptable
----@field public ["Context"] ScreenDisplayContext
+---@field public Context ScreenDisplayContext
 ScreenDisplayContextData = {}
 
 ---@param fields? table

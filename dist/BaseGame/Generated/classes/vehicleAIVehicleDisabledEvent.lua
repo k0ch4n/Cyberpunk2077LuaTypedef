@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleAIVehicleDisabledEvent: redEvent
----@field public ["reason"] vehicleDisabledReason
+---@field public reason vehicleDisabledReason
 vehicleAIVehicleDisabledEvent = {}
 
 ---@param fields? table

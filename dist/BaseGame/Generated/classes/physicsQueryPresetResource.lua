@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsQueryPresetResource: ISerializable
----@field public ["presets"] physicsQueryPresetDefinition[]
+---@field public presets physicsQueryPresetDefinition[]
 physicsQueryPresetResource = {}
 
 ---@param fields? table

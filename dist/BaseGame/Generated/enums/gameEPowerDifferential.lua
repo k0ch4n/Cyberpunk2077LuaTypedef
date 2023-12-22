@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEPowerDifferential: Enum
----@field ["IMPOSSIBLE"] gameEPowerDifferential -6
----@field ["HARD"] gameEPowerDifferential -3
----@field ["NORMAL"] gameEPowerDifferential 2
----@field ["EASY"] gameEPowerDifferential 4
----@field ["TRASH"] gameEPowerDifferential 5
+---@field IMPOSSIBLE -6
+---@field HARD -3
+---@field NORMAL 2
+---@field EASY 4
+---@field TRASH 5
 gameEPowerDifferential = {}

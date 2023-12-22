@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class buildsWidgetGameController: gameuiWidgetGameController
----@field private ["horizontalPanelsList"] inkHorizontalPanelWidget[]
+---@field private horizontalPanelsList inkHorizontalPanelWidget[]
 buildsWidgetGameController = {}
 
 ---@param fields? table

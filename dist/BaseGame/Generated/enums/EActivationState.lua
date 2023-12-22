@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EActivationState: Enum
----@field ["NONE"] EActivationState 0
----@field ["ACTIVATED"] EActivationState 1
----@field ["DEACTIVATED"] EActivationState 2
+---@field NONE 0
+---@field ACTIVATED 1
+---@field DEACTIVATED 2
 EActivationState = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_FacialReaction: animAnimFeature
----@field public ["category"] Int32
----@field public ["idle"] Int32
+---@field public category Int32
+---@field public idle Int32
 AnimFeature_FacialReaction = {}
 
 ---@param fields? table

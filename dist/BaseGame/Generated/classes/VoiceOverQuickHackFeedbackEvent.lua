@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VoiceOverQuickHackFeedbackEvent: redEvent
----@field public ["voName"] CName
----@field public ["owner"] gameObject
+---@field public voName CName
+---@field public owner gameObject
 VoiceOverQuickHackFeedbackEvent = {}
 
 ---@param fields? table

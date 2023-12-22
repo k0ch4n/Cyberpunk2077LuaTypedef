@@ -2,64 +2,64 @@
 ---@diagnostic disable
 
 ---@class gamedataAchievement: Enum
----@field ["AllThePresidentsMen"] gamedataAchievement 0
----@field ["Bladerunner"] gamedataAchievement 1
----@field ["BornToBeWild"] gamedataAchievement 2
----@field ["Breathtaking"] gamedataAchievement 3
----@field ["BushidoAndChill"] gamedataAchievement 4
----@field ["Cyberjunkie"] gamedataAchievement 5
----@field ["Denied"] gamedataAchievement 6
----@field ["DirtyWork"] gamedataAchievement 7
----@field ["DogtownLaw"] gamedataAchievement 8
----@field ["EasyComeEasyGo"] gamedataAchievement 9
----@field ["FollowingTheRiver"] gamedataAchievement 10
----@field ["Fortuneteller"] gamedataAchievement 11
----@field ["Gearhead"] gamedataAchievement 12
----@field ["GetMeThereScottie"] gamedataAchievement 13
----@field ["GunKata"] gamedataAchievement 14
----@field ["Gunslinger"] gamedataAchievement 15
----@field ["HandyMan"] gamedataAchievement 16
----@field ["HydraIsDead"] gamedataAchievement 17
----@field ["IAmMaxTac"] gamedataAchievement 18
----@field ["IHateSpider"] gamedataAchievement 19
----@field ["KingOfTheCups"] gamedataAchievement 20
----@field ["KingOfThePentacles"] gamedataAchievement 21
----@field ["KingOfTheSwords"] gamedataAchievement 22
----@field ["KingOfTheWands"] gamedataAchievement 23
----@field ["Kingmaker"] gamedataAchievement 24
----@field ["LikeFatherLikeSon"] gamedataAchievement 25
----@field ["LittleTokyo"] gamedataAchievement 26
----@field ["MasterRunner"] gamedataAchievement 27
----@field ["MaxPain"] gamedataAchievement 28
----@field ["MustBeTheRats"] gamedataAchievement 29
----@field ["NeverFadeAway"] gamedataAchievement 30
----@field ["NoMansLand"] gamedataAchievement 31
----@field ["NotTheMobile"] gamedataAchievement 32
----@field ["QueenOfTheHighway"] gamedataAchievement 33
----@field ["RelicMaster"] gamedataAchievement 34
----@field ["Roleplayer"] gamedataAchievement 35
----@field ["Specialist"] gamedataAchievement 36
----@field ["Temperance"] gamedataAchievement 37
----@field ["ThatIsSoHardForTheKnees"] gamedataAchievement 38
----@field ["TheDevil"] gamedataAchievement 39
----@field ["TheFool"] gamedataAchievement 40
----@field ["TheHermit"] gamedataAchievement 41
----@field ["TheHightPriestess"] gamedataAchievement 42
----@field ["TheLovers"] gamedataAchievement 43
----@field ["TheStar"] gamedataAchievement 44
----@field ["TheSun"] gamedataAchievement 45
----@field ["TheTower"] gamedataAchievement 46
----@field ["TheWheelOfFortune"] gamedataAchievement 47
----@field ["TheWorld"] gamedataAchievement 48
----@field ["ThisIsPacifica"] gamedataAchievement 49
----@field ["TradeUnion"] gamedataAchievement 50
----@field ["TrueSoldier"] gamedataAchievement 51
----@field ["TrueWarrior"] gamedataAchievement 52
----@field ["TwoHeadsOneBullet"] gamedataAchievement 53
----@field ["UnderPressure"] gamedataAchievement 54
----@field ["VForVendetta"] gamedataAchievement 55
----@field ["YipMan"] gamedataAchievement 56
----@field ["YouKnowWhoIAm"] gamedataAchievement 57
----@field ["Count"] gamedataAchievement 58
----@field ["Invalid"] gamedataAchievement 59
+---@field AllThePresidentsMen 0
+---@field Bladerunner 1
+---@field BornToBeWild 2
+---@field Breathtaking 3
+---@field BushidoAndChill 4
+---@field Cyberjunkie 5
+---@field Denied 6
+---@field DirtyWork 7
+---@field DogtownLaw 8
+---@field EasyComeEasyGo 9
+---@field FollowingTheRiver 10
+---@field Fortuneteller 11
+---@field Gearhead 12
+---@field GetMeThereScottie 13
+---@field GunKata 14
+---@field Gunslinger 15
+---@field HandyMan 16
+---@field HydraIsDead 17
+---@field IAmMaxTac 18
+---@field IHateSpider 19
+---@field KingOfTheCups 20
+---@field KingOfThePentacles 21
+---@field KingOfTheSwords 22
+---@field KingOfTheWands 23
+---@field Kingmaker 24
+---@field LikeFatherLikeSon 25
+---@field LittleTokyo 26
+---@field MasterRunner 27
+---@field MaxPain 28
+---@field MustBeTheRats 29
+---@field NeverFadeAway 30
+---@field NoMansLand 31
+---@field NotTheMobile 32
+---@field QueenOfTheHighway 33
+---@field RelicMaster 34
+---@field Roleplayer 35
+---@field Specialist 36
+---@field Temperance 37
+---@field ThatIsSoHardForTheKnees 38
+---@field TheDevil 39
+---@field TheFool 40
+---@field TheHermit 41
+---@field TheHightPriestess 42
+---@field TheLovers 43
+---@field TheStar 44
+---@field TheSun 45
+---@field TheTower 46
+---@field TheWheelOfFortune 47
+---@field TheWorld 48
+---@field ThisIsPacifica 49
+---@field TradeUnion 50
+---@field TrueSoldier 51
+---@field TrueWarrior 52
+---@field TwoHeadsOneBullet 53
+---@field UnderPressure 54
+---@field VForVendetta 55
+---@field YipMan 56
+---@field YouKnowWhoIAm 57
+---@field Count 58
+---@field Invalid 59
 gamedataAchievement = {}

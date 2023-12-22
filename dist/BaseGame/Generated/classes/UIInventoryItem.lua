@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItem: IScriptable
----@field public ["ID"] gameItemID
----@field public ["Hash"] Uint64
----@field public ["DEBUG_iconErrorInfo"] DEBUG_IconErrorInfo
----@field private ["manager"] UIInventoryItemsManager
----@field private ["owner"] gameObject
----@field private ["itemData"] gameItemData
----@field private ["realItemData"] gameItemData
----@field private ["recipeItemData"] gameItemData
----@field private ["itemRecord"] gamedataItem_Record
----@field private ["realItemRecord"] gamedataItem_Record
----@field private ["itemTweakID"] TweakDBID
----@field private ["realItemTweakID"] TweakDBID
----@field private ["data"] UIInventoryItemInternalData
----@field private ["weaponData"] UIInventoryWeaponInternalData
----@field private ["programData"] UIInventoryItemProgramData
----@field private ["grenadeData"] UIInventoryItemGrenadeData
----@field private ["cyberwareUpgradeData"] InventoryTooltiData_CyberwareUpgradeData
----@field private ["parentItem"] gameItemData
----@field private ["slotID"] TweakDBID
----@field private ["fetchedFlags"] Int32
----@field private ["isQuantityDirty"] Bool
----@field private ["craftingResult"] gamedataCraftingResult_Record
----@field private ["TEMP_isEquippedPrefetched"] Bool
----@field public ["TEMP_isEquipped"] Bool
+---@field public ID gameItemID
+---@field public Hash Uint64
+---@field public DEBUG_iconErrorInfo DEBUG_IconErrorInfo
+---@field private manager UIInventoryItemsManager
+---@field private owner gameObject
+---@field private itemData gameItemData
+---@field private realItemData gameItemData
+---@field private recipeItemData gameItemData
+---@field private itemRecord gamedataItem_Record
+---@field private realItemRecord gamedataItem_Record
+---@field private itemTweakID TweakDBID
+---@field private realItemTweakID TweakDBID
+---@field private data UIInventoryItemInternalData
+---@field private weaponData UIInventoryWeaponInternalData
+---@field private programData UIInventoryItemProgramData
+---@field private grenadeData UIInventoryItemGrenadeData
+---@field private cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
+---@field private parentItem gameItemData
+---@field private slotID TweakDBID
+---@field private fetchedFlags Int32
+---@field private isQuantityDirty Bool
+---@field private craftingResult gamedataCraftingResult_Record
+---@field private TEMP_isEquippedPrefetched Bool
+---@field public TEMP_isEquipped Bool
 UIInventoryItem = {}
 
 ---@param fields? table

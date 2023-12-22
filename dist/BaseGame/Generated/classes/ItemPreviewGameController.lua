@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class ItemPreviewGameController: gameuiItemPreviewGameController
----@field private ["colliderWidgetRef"] inkWidgetReference
----@field private ["colliderWidget"] inkWidget
----@field private ["itemNameText"] inkTextWidgetReference
----@field private ["itemDescriptionText"] inkTextWidgetReference
----@field private ["perkLine"] inkWidgetReference
----@field private ["perkIcon"] inkImageWidgetReference
----@field private ["perkText"] inkTextWidgetReference
----@field private ["typeLine"] inkWidgetReference
----@field private ["typeIcon"] inkImageWidgetReference
----@field private ["typeText"] inkTextWidgetReference
----@field private ["itemLevelText"] inkTextWidgetReference
----@field private ["itemRarityWidget"] inkWidgetReference
----@field private ["data"] InventoryItemPreviewData
----@field private ["isMouseDown"] Bool
----@field private ["c_ITEM_ROTATION_SPEED"] Float
+---@field private colliderWidgetRef inkWidgetReference
+---@field private colliderWidget inkWidget
+---@field private itemNameText inkTextWidgetReference
+---@field private itemDescriptionText inkTextWidgetReference
+---@field private perkLine inkWidgetReference
+---@field private perkIcon inkImageWidgetReference
+---@field private perkText inkTextWidgetReference
+---@field private typeLine inkWidgetReference
+---@field private typeIcon inkImageWidgetReference
+---@field private typeText inkTextWidgetReference
+---@field private itemLevelText inkTextWidgetReference
+---@field private itemRarityWidget inkWidgetReference
+---@field private data InventoryItemPreviewData
+---@field private isMouseDown Bool
+---@field private c_ITEM_ROTATION_SPEED Float
 ItemPreviewGameController = {}
 
 ---@param fields? table

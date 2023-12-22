@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficNullAreaDynamicBlockadeData: ISerializable
----@field public ["nullAreasBlockades"] worldTrafficNullAreaDynamicBlockade[]
+---@field public nullAreasBlockades worldTrafficNullAreaDynamicBlockade[]
 worldTrafficNullAreaDynamicBlockadeData = {}
 
 ---@param fields? table

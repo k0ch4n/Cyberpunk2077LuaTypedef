@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class megatronCrosshairGameController: gameuiWidgetGameController
----@field private ["bulletSpreedBlackboardId"] redCallbackObject
----@field private ["crosshairStateBlackboardId"] redCallbackObject
----@field private ["leftPart"] inkImageWidget
----@field private ["rightPart"] inkImageWidget
----@field private ["nearCenterPart"] inkImageWidget
----@field private ["farCenterPart"] inkImageWidget
----@field private ["bufferedSpread"] Vector2
----@field private ["orgSideSize"] Vector2
----@field public ["minSpread"] Float
----@field public ["gameplaySpreadMultiplier"] Float
----@field private ["crosshairState"] gamePSMCrosshairStates
+---@field private bulletSpreedBlackboardId redCallbackObject
+---@field private crosshairStateBlackboardId redCallbackObject
+---@field private leftPart inkImageWidget
+---@field private rightPart inkImageWidget
+---@field private nearCenterPart inkImageWidget
+---@field private farCenterPart inkImageWidget
+---@field private bufferedSpread Vector2
+---@field private orgSideSize Vector2
+---@field public minSpread Float
+---@field public gameplaySpreadMultiplier Float
+---@field private crosshairState gamePSMCrosshairStates
 megatronCrosshairGameController = {}
 
 ---@param fields? table

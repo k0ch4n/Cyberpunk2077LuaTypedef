@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemoveHitFlagFromAttackEffector: ModifyAttackEffector
----@field public ["hitFlag"] hitFlag
----@field public ["reason"] CName
+---@field public hitFlag hitFlag
+---@field public reason CName
 RemoveHitFlagFromAttackEffector = {}
 
 ---@param fields? table

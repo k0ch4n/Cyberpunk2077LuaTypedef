@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class TarotMainGameController: gameuiMenuGameController
----@field protected ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["TooltipsManagerRef"] inkWidgetReference
----@field private ["list"] inkCompoundWidgetReference
----@field protected ["journalManager"] gameJournalManager
----@field private ["buttonHintsController"] ButtonHints
----@field private ["TooltipsManager"] gameuiTooltipsManager
----@field private ["selectedTarotCard"] tarotCardLogicController
----@field private ["fullscreenPreviewController"] TarotPreviewGameController
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["tarotPreviewPopupToken"] inkGameNotificationToken
----@field private ["afterCloseRequest"] Bool
----@field private ["numberOfCardsInTarotDeck"] Int32
----@field private ["baseCards"] Int32
----@field private ["ep1Cards"] Int32
+---@field protected buttonHintsManagerRef inkWidgetReference
+---@field private TooltipsManagerRef inkWidgetReference
+---@field private list inkCompoundWidgetReference
+---@field protected journalManager gameJournalManager
+---@field private buttonHintsController ButtonHints
+---@field private TooltipsManager gameuiTooltipsManager
+---@field private selectedTarotCard tarotCardLogicController
+---@field private fullscreenPreviewController TarotPreviewGameController
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private tarotPreviewPopupToken inkGameNotificationToken
+---@field private afterCloseRequest Bool
+---@field private numberOfCardsInTarotDeck Int32
+---@field private baseCards Int32
+---@field private ep1Cards Int32
 TarotMainGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ContactSelectionChangedEvent: redEvent
----@field public ["ContactData"] ContactData
+---@field public ContactData ContactData
 ContactSelectionChangedEvent = {}
 
 ---@param fields? table

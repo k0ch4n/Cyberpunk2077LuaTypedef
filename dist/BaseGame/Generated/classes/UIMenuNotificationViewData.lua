@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIMenuNotificationViewData: gameuiGenericNotificationViewData
----@field public ["animContainer"] inGameMenuAnimContainer
----@field public ["notificationType"] UIMenuNotificationType
+---@field public animContainer inGameMenuAnimContainer
+---@field public notificationType UIMenuNotificationType
 UIMenuNotificationViewData = {}
 
 ---@param fields? table

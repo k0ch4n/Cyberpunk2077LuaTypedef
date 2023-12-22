@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Basic: gameuiCrosshairBaseGameController
----@field private ["leftPart"] inkImageWidgetReference
----@field private ["rightPart"] inkImageWidgetReference
----@field private ["upPart"] inkImageWidgetReference
----@field private ["downPart"] inkImageWidgetReference
----@field private ["centerPart"] inkImageWidgetReference
----@field private ["bufferedSpread"] Vector2
----@field private ["currentFireMode"] gamedataTriggerMode
----@field private ["weaponlocalBB"] gameIBlackboard
----@field private ["bbcurrentFireMode"] redCallbackObject
----@field private ["ricochetModeActive"] Uint32
----@field private ["RicochetChance"] Uint32
----@field public ["horizontalMinSpread"] Float
----@field public ["verticalMinSpread"] Float
----@field public ["gameplaySpreadMultiplier"] Float
+---@field private leftPart inkImageWidgetReference
+---@field private rightPart inkImageWidgetReference
+---@field private upPart inkImageWidgetReference
+---@field private downPart inkImageWidgetReference
+---@field private centerPart inkImageWidgetReference
+---@field private bufferedSpread Vector2
+---@field private currentFireMode gamedataTriggerMode
+---@field private weaponlocalBB gameIBlackboard
+---@field private bbcurrentFireMode redCallbackObject
+---@field private ricochetModeActive Uint32
+---@field private RicochetChance Uint32
+---@field public horizontalMinSpread Float
+---@field public verticalMinSpread Float
+---@field public gameplaySpreadMultiplier Float
 CrosshairGameController_Basic = {}
 
 ---@param fields? table

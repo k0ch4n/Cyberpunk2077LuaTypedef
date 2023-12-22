@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PlayerListEntryLogicController: inkWidgetLogicController
----@field private ["playerNameLabel"] inkWidgetReference
----@field private ["playerClassIcon"] inkImageWidgetReference
+---@field private playerNameLabel inkWidgetReference
+---@field private playerClassIcon inkImageWidgetReference
 PlayerListEntryLogicController = {}
 
 ---@param fields? table

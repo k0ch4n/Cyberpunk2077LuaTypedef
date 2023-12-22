@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class WeaponBarType: Enum
----@field ["AttackSpeed"] WeaponBarType 0
----@field ["DamagePerHit"] WeaponBarType 1
----@field ["ReloadSpeed"] WeaponBarType 2
----@field ["Range"] WeaponBarType 3
----@field ["Handling"] WeaponBarType 4
----@field ["Stamina"] WeaponBarType 5
----@field ["RangedCount"] WeaponBarType 6
----@field ["MeleeAttackSpeed"] WeaponBarType 7
----@field ["MeleeDamagePerHit"] WeaponBarType 8
----@field ["MeleeStamina"] WeaponBarType 9
----@field ["ThrowableEffectiveRange"] WeaponBarType 10
----@field ["ThrowableReturnTime"] WeaponBarType 11
----@field ["MeleeCount"] WeaponBarType 12
----@field ["CyberwareAttackSpeed"] WeaponBarType 13
----@field ["CyberwareDamagePerHit"] WeaponBarType 14
----@field ["Invalid"] WeaponBarType -1
+---@field AttackSpeed 0
+---@field DamagePerHit 1
+---@field ReloadSpeed 2
+---@field Range 3
+---@field Handling 4
+---@field Stamina 5
+---@field RangedCount 6
+---@field MeleeAttackSpeed 7
+---@field MeleeDamagePerHit 8
+---@field MeleeStamina 9
+---@field ThrowableEffectiveRange 10
+---@field ThrowableReturnTime 11
+---@field MeleeCount 12
+---@field CyberwareAttackSpeed 13
+---@field CyberwareDamagePerHit 14
+---@field Invalid -1
 WeaponBarType = {}

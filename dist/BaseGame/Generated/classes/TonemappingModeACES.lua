@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TonemappingModeACES: ITonemappingMode
----@field public ["params"] STonemappingACESParams
+---@field public params STonemappingACESParams
 TonemappingModeACES = {}
 
 ---@param fields? table

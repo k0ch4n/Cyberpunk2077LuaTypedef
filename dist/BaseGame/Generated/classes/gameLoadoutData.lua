@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameLoadoutData
----@field public ["slotID"] TweakDBID
----@field public ["itemID"] gameItemID
+---@field public slotID TweakDBID
+---@field public itemID gameItemID
 gameLoadoutData = {}
 
 ---@param fields? table

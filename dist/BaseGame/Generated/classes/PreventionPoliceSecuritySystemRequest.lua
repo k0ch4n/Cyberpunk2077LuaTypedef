@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PreventionPoliceSecuritySystemRequest: gameScriptableSystemRequest
----@field public ["securitySystemID"] gamePersistentID
+---@field public securitySystemID gamePersistentID
 PreventionPoliceSecuritySystemRequest = {}
 
 ---@param fields? table

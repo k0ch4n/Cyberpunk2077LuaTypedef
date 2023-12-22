@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class ItemTooltipGrenadeInfoModule: ItemTooltipModuleController
----@field private ["headerText"] inkTextWidgetReference
----@field private ["totalDamageText"] inkTextWidgetReference
----@field private ["lineDamage"] inkWidgetReference
----@field private ["damageWrapper"] inkWidgetReference
----@field private ["damageTypeText"] inkTextWidgetReference
----@field private ["damageValue"] inkTextWidgetReference
----@field private ["damageSec"] inkWidgetReference
----@field private ["durationText"] inkTextWidgetReference
----@field private ["rangeText"] inkTextWidgetReference
----@field private ["deliveryIcon"] inkImageWidgetReference
----@field private ["deliveryText"] inkTextWidgetReference
+---@field private headerText inkTextWidgetReference
+---@field private totalDamageText inkTextWidgetReference
+---@field private lineDamage inkWidgetReference
+---@field private damageWrapper inkWidgetReference
+---@field private damageTypeText inkTextWidgetReference
+---@field private damageValue inkTextWidgetReference
+---@field private damageSec inkWidgetReference
+---@field private durationText inkTextWidgetReference
+---@field private rangeText inkTextWidgetReference
+---@field private deliveryIcon inkImageWidgetReference
+---@field private deliveryText inkTextWidgetReference
 ItemTooltipGrenadeInfoModule = {}
 
 ---@param fields? table

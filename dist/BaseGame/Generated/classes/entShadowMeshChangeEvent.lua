@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entShadowMeshChangeEvent: redEvent
----@field public ["requestedState"] entAppearanceStatus
+---@field public requestedState entAppearanceStatus
 entShadowMeshChangeEvent = {}
 
 ---@param fields? table

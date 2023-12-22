@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_PlayerCover: animAnimFeature
----@field public ["cameraPositionMS"] Vector4
----@field public ["coverState"] Int32
----@field public ["leanAmount"] Float
----@field public ["cameraOffsetAmount"] Float
----@field public ["autoCoverActivationFrame"] Bool
+---@field public cameraPositionMS Vector4
+---@field public coverState Int32
+---@field public leanAmount Float
+---@field public cameraOffsetAmount Float
+---@field public autoCoverActivationFrame Bool
 animAnimFeature_PlayerCover = {}
 
 ---@param fields? table

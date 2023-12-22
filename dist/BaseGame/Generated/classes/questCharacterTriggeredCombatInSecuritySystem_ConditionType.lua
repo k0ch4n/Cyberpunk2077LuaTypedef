@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questCharacterTriggeredCombatInSecuritySystem_ConditionType: questICharacterConditionType
----@field public ["objectRef"] gameEntityReference
+---@field public objectRef gameEntityReference
 questCharacterTriggeredCombatInSecuritySystem_ConditionType = {}
 
 ---@param fields? table

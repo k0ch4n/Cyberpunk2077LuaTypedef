@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class SampleUIButtons: inkWidgetLogicController
----@field private ["Button"] inkWidgetReference
----@field private ["Toggle1"] inkWidgetReference
----@field private ["Toggle2"] inkWidgetReference
----@field private ["Toggle3"] inkWidgetReference
----@field private ["RadioGroup"] inkWidgetReference
----@field private ["Text"] inkTextWidgetReference
+---@field private Button inkWidgetReference
+---@field private Toggle1 inkWidgetReference
+---@field private Toggle2 inkWidgetReference
+---@field private Toggle3 inkWidgetReference
+---@field private RadioGroup inkWidgetReference
+---@field private Text inkTextWidgetReference
 SampleUIButtons = {}
 
 ---@param fields? table

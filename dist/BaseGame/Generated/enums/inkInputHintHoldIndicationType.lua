@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkInputHintHoldIndicationType: Enum
----@field ["FromInputConfig"] inkInputHintHoldIndicationType 0
----@field ["Press"] inkInputHintHoldIndicationType 1
----@field ["Hold"] inkInputHintHoldIndicationType 2
+---@field FromInputConfig 0
+---@field Press 1
+---@field Hold 2
 inkInputHintHoldIndicationType = {}

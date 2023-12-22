@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class QuestListGameController: gameuiHUDGameController
----@field private ["entryList"] inkVerticalPanelWidgetReference
----@field private ["scanPulse"] inkCompoundWidgetReference
----@field private ["optionalHeader"] inkWidgetReference
----@field private ["toDoHeader"] inkWidgetReference
----@field private ["optionalList"] inkVerticalPanelWidgetReference
----@field private ["nonOptionalList"] inkVerticalPanelWidgetReference
----@field private ["entryControllers"] inkScriptDynArray
----@field private ["scanPulseAnimProxy"] inkanimProxy
----@field private ["stateChangesBlackboardId"] Uint32
----@field private ["trackedChangesBlackboardId"] Uint32
----@field private ["JournalWrapper"] JournalWrapper
----@field private ["player"] gameObject
----@field private ["optionalHeaderController"] QuestListHeaderLogicController
----@field private ["toDoHeaderController"] QuestListHeaderLogicController
----@field private ["lastNonOptionalObjective"] QuestObjectiveWrapper
+---@field private entryList inkVerticalPanelWidgetReference
+---@field private scanPulse inkCompoundWidgetReference
+---@field private optionalHeader inkWidgetReference
+---@field private toDoHeader inkWidgetReference
+---@field private optionalList inkVerticalPanelWidgetReference
+---@field private nonOptionalList inkVerticalPanelWidgetReference
+---@field private entryControllers inkScriptDynArray
+---@field private scanPulseAnimProxy inkanimProxy
+---@field private stateChangesBlackboardId Uint32
+---@field private trackedChangesBlackboardId Uint32
+---@field private JournalWrapper JournalWrapper
+---@field private player gameObject
+---@field private optionalHeaderController QuestListHeaderLogicController
+---@field private toDoHeaderController QuestListHeaderLogicController
+---@field private lastNonOptionalObjective QuestObjectiveWrapper
 QuestListGameController = {}
 
 ---@param fields? table

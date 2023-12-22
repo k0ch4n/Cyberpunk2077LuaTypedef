@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CasinoChipsInventoryCallback: gameInventoryScriptCallback
----@field public ["casinoTableGameController"] CasinoTableGameController
----@field public ["slot"] CasinoTableSlot
+---@field public casinoTableGameController CasinoTableGameController
+---@field public slot CasinoTableSlot
 CasinoChipsInventoryCallback = {}
 
 ---@param fields? table

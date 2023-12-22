@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EBeamStyle: Enum
----@field ["None"] EBeamStyle 0
----@field ["Sweeping"] EBeamStyle 1
----@field ["HeadSlicer"] EBeamStyle 2
+---@field None 0
+---@field Sweeping 1
+---@field HeadSlicer 2
 EBeamStyle = {}

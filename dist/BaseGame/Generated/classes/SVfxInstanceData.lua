@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SVfxInstanceData
----@field public ["fx"] gameFxInstance
----@field public ["id"] CName
+---@field public fx gameFxInstance
+---@field public id CName
 SVfxInstanceData = {}
 
 ---@param fields? table

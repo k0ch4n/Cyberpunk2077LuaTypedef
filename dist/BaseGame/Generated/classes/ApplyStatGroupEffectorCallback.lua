@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApplyStatGroupEffectorCallback: gameAttachmentSlotsScriptCallback
----@field public ["effector"] ApplyStatGroupEffector
+---@field public effector ApplyStatGroupEffector
 ApplyStatGroupEffectorCallback = {}
 
 ---@param fields? table

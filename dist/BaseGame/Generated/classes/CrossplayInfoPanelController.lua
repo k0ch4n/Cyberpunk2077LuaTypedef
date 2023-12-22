@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CrossplayInfoPanelController: inkWidgetLogicController
----@field private ["signOutEnabled"] Bool
----@field public ["disconnectBtn"] inkWidgetReference
+---@field private signOutEnabled Bool
+---@field public disconnectBtn inkWidgetReference
 CrossplayInfoPanelController = {}
 
 ---@param fields? table

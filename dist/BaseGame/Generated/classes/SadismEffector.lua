@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SadismEffector: gameEffector
----@field public ["healingItemChargeRestorePercentage"] Float
+---@field public healingItemChargeRestorePercentage Float
 SadismEffector = {}
 
 ---@param fields? table

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameITriggerDestructionComponent: entIComponent
----@field public ["startActive"] Bool
+---@field public startActive Bool
 gameITriggerDestructionComponent = {}

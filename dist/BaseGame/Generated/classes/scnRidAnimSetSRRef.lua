@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRidAnimSetSRRef
----@field public ["animations"] scnSRRefId[]
+---@field public animations scnSRRefId[]
 scnRidAnimSetSRRef = {}
 
 ---@param fields? table

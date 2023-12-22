@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GridUserData: IScriptable
----@field public ["equipArea"] gamedataEquipmentArea
----@field public ["align"] inkEHorizontalAlign
----@field public ["parent"] inkCompoundWidgetReference
+---@field public equipArea gamedataEquipmentArea
+---@field public align inkEHorizontalAlign
+---@field public parent inkCompoundWidgetReference
 GridUserData = {}
 
 ---@param fields? table

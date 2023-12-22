@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ChangeSubwayGateStateEvent: redEvent
----@field public ["open"] Bool
+---@field public open Bool
 ChangeSubwayGateStateEvent = {}
 
 ---@param fields? table

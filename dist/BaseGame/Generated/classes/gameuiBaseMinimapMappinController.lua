@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseMinimapMappinController: gameuiMappinBaseController
----@field public ["iconOrientation"] gameuiEIconOrientation
----@field public ["fixedOrientationWidget"] inkWidgetReference
----@field public ["clampArrowWidget"] inkWidgetReference
----@field protected ["mappin"] gamemappinsIMappin
----@field protected ["root"] inkWidget
----@field protected ["aboveWidget"] inkWidget
----@field protected ["belowWidget"] inkWidget
+---@field public iconOrientation gameuiEIconOrientation
+---@field public fixedOrientationWidget inkWidgetReference
+---@field public clampArrowWidget inkWidgetReference
+---@field protected mappin gamemappinsIMappin
+---@field protected root inkWidget
+---@field protected aboveWidget inkWidget
+---@field protected belowWidget inkWidget
 gameuiBaseMinimapMappinController = {}
 
 ---@param fields? table

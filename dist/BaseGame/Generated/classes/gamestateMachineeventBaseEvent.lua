@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineeventBaseEvent: redEvent
----@field public ["id"] CName
+---@field public id CName
 gamestateMachineeventBaseEvent = {}

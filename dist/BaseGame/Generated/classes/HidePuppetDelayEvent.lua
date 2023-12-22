@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HidePuppetDelayEvent: redEvent
----@field public ["target"] NPCPuppet
+---@field public target NPCPuppet
 HidePuppetDelayEvent = {}
 
 ---@param fields? table

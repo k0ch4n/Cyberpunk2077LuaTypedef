@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MusicSettings: IScriptable
----@field protected ["statusEffect"] ESoundStatusEffects
+---@field protected statusEffect ESoundStatusEffects
 MusicSettings = {}
 
 ---@return CName

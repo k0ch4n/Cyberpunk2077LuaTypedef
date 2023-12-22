@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questInputHintGroup_NodeType: questIUIManagerNodeType
----@field public ["show"] Bool
----@field public ["iconID"] TweakDBID
----@field public ["groupId"] CName
----@field public ["localizedTitle"] String
----@field public ["localizedDescription"] String
+---@field public show Bool
+---@field public iconID TweakDBID
+---@field public groupId CName
+---@field public localizedTitle String
+---@field public localizedDescription String
 questInputHintGroup_NodeType = {}
 
 ---@param fields? table

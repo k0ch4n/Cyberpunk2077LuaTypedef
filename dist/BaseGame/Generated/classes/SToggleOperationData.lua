@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SToggleOperationData
----@field public ["index"] Int32
----@field public ["enable"] Bool
----@field public ["classType"] EOperationClassType
+---@field public index Int32
+---@field public enable Bool
+---@field public classType EOperationClassType
 SToggleOperationData = {}
 
 ---@param fields? table

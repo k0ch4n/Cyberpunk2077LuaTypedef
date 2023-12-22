@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class worldWaterPatchNode: worldMeshNode
----@field public ["type"] worldWaterPatchNodeType
----@field public ["depth"] Float
----@field public ["generateNavmesh"] Bool
+---@field public type worldWaterPatchNodeType
+---@field public depth Float
+---@field public generateNavmesh Bool
 worldWaterPatchNode = {}
 
 ---@param fields? table

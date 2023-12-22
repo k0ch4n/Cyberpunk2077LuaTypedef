@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuest: gameJournalFileEntry
----@field public ["title"] LocalizationString
----@field public ["type"] gameJournalQuestType
----@field public ["recommendedLevelID"] TweakDBID
----@field public ["districtID"] String
+---@field public title LocalizationString
+---@field public type gameJournalQuestType
+---@field public recommendedLevelID TweakDBID
+---@field public districtID String
 gameJournalQuest = {}
 
 ---@param fields? table

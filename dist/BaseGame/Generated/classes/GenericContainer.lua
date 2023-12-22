@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GenericContainer: BaseSkillCheckContainer
----@field public ["hackingCheck"] HackingSkillCheck
----@field public ["engineeringCheck"] EngineeringSkillCheck
----@field public ["demolitionCheck"] DemolitionSkillCheck
+---@field public hackingCheck HackingSkillCheck
+---@field public engineeringCheck EngineeringSkillCheck
+---@field public demolitionCheck DemolitionSkillCheck
 GenericContainer = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ArcadeMachineType: Enum
----@field ["Default"] ArcadeMachineType 0
----@field ["Pachinko"] ArcadeMachineType 1
+---@field Default 0
+---@field Pachinko 1
 ArcadeMachineType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DeleteWardrobeSetRequest: gamePlayerScriptableSystemRequest
----@field public ["setID"] gameWardrobeClothingSetIndex
+---@field public setID gameWardrobeClothingSetIndex
 DeleteWardrobeSetRequest = {}
 
 ---@param fields? table

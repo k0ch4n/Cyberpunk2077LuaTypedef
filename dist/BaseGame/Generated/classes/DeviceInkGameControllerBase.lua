@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class DeviceInkGameControllerBase: gameuiWidgetGameController
----@field protected ["animationManager"] WidgetAnimationManager
----@field protected ["rootWidget"] inkCanvasWidget
----@field protected ["actionWidgetsData"] SActionWidgetPackage[]
----@field protected ["deviceWidgetsData"] SDeviceWidgetPackage[]
----@field protected ["breadcrumbStack"] SBreadcrumbElementData[]
----@field protected ["cashedState"] EDeviceStatus
----@field protected ["isInitialized"] Bool
----@field protected ["hasUICameraZoom"] Bool
----@field protected ["activeBreadcrumb"] SBreadcrumbElementData
----@field private ["onRefreshListener"] redCallbackObject
----@field private ["onActionWidgetsUpdateListener"] redCallbackObject
----@field private ["onDeviceWidgetsUpdateListener"] redCallbackObject
----@field private ["onBreadcrumbBarUpdateListener"] redCallbackObject
----@field protected ["bbCallbacksRegistered"] Bool
+---@field protected animationManager WidgetAnimationManager
+---@field protected rootWidget inkCanvasWidget
+---@field protected actionWidgetsData SActionWidgetPackage[]
+---@field protected deviceWidgetsData SDeviceWidgetPackage[]
+---@field protected breadcrumbStack SBreadcrumbElementData[]
+---@field protected cashedState EDeviceStatus
+---@field protected isInitialized Bool
+---@field protected hasUICameraZoom Bool
+---@field protected activeBreadcrumb SBreadcrumbElementData
+---@field private onRefreshListener redCallbackObject
+---@field private onActionWidgetsUpdateListener redCallbackObject
+---@field private onDeviceWidgetsUpdateListener redCallbackObject
+---@field private onBreadcrumbBarUpdateListener redCallbackObject
+---@field protected bbCallbacksRegistered Bool
 DeviceInkGameControllerBase = {}
 
 ---@param fields? table

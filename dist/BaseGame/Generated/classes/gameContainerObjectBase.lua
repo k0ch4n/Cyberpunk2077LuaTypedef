@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameContainerObjectBase: gameLootContainerBase
----@field public ["giveHandicapAmmo"] Bool
----@field protected ["lockedByKey"] TweakDBID
+---@field public giveHandicapAmmo Bool
+---@field protected lockedByKey TweakDBID
 gameContainerObjectBase = {}
 
 ---@param fields? table

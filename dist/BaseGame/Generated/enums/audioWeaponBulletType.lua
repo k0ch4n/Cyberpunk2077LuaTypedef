@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class audioWeaponBulletType: Enum
----@field ["standard"] audioWeaponBulletType 0
----@field ["sniper"] audioWeaponBulletType 1
----@field ["shot"] audioWeaponBulletType 2
----@field ["rail"] audioWeaponBulletType 3
----@field ["automatic"] audioWeaponBulletType 4
----@field ["smart"] audioWeaponBulletType 5
----@field ["smart_sniper"] audioWeaponBulletType 6
----@field ["hmg"] audioWeaponBulletType 7
+---@field standard 0
+---@field sniper 1
+---@field shot 2
+---@field rail 3
+---@field automatic 4
+---@field smart 5
+---@field smart_sniper 6
+---@field hmg 7
 audioWeaponBulletType = {}

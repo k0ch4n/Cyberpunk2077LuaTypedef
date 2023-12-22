@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class CrosshairGameController_Simple: gameuiCrosshairBaseGameController
----@field private ["topPart"] inkWidgetReference
----@field private ["bottomPart"] inkWidgetReference
----@field private ["horiPart"] inkWidgetReference
----@field private ["vertPart"] inkWidgetReference
----@field private ["leftPart"] inkWidgetReference
----@field private ["rightPart"] inkWidgetReference
----@field private ["targetColorChange"] inkWidgetReference
----@field private ["offsetLeftRight"] Float
----@field private ["latchVertical"] Float
+---@field private topPart inkWidgetReference
+---@field private bottomPart inkWidgetReference
+---@field private horiPart inkWidgetReference
+---@field private vertPart inkWidgetReference
+---@field private leftPart inkWidgetReference
+---@field private rightPart inkWidgetReference
+---@field private targetColorChange inkWidgetReference
+---@field private offsetLeftRight Float
+---@field private latchVertical Float
 CrosshairGameController_Simple = {}
 
 ---@param fields? table

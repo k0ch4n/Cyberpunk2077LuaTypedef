@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCrowdEntryType: Enum
----@field ["Pedestrian"] gameCrowdEntryType 0
----@field ["Vehicle"] gameCrowdEntryType 1
----@field ["AV"] gameCrowdEntryType 2
+---@field Pedestrian 0
+---@field Vehicle 1
+---@field AV 2
 gameCrowdEntryType = {}

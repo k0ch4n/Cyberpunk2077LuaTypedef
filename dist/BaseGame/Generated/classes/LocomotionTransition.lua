@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LocomotionTransition: DefaultTransition
----@field public ["ownerRecordId"] TweakDBID
----@field public ["statModifierGroupId"] Uint64
----@field public ["statModifierTDBNameDefault"] String
+---@field public ownerRecordId TweakDBID
+---@field public statModifierGroupId Uint64
+---@field public statModifierTDBNameDefault String
 LocomotionTransition = {}
 
 ---@protected

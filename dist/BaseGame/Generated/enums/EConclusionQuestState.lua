@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EConclusionQuestState: Enum
----@field ["Undefined"] EConclusionQuestState 0
----@field ["Active"] EConclusionQuestState 1
----@field ["Inactive"] EConclusionQuestState 2
----@field ["Shown"] EConclusionQuestState 3
+---@field Undefined 0
+---@field Active 1
+---@field Inactive 2
+---@field Shown 3
 EConclusionQuestState = {}

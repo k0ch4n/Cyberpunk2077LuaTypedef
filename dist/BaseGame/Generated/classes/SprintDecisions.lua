@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SprintDecisions: LocomotionGroundDecisions
----@field private ["sprintPressed"] Bool
----@field private ["toggleSprintPressed"] Bool
----@field private ["dodgeForwardPressed"] Bool
+---@field private sprintPressed Bool
+---@field private toggleSprintPressed Bool
+---@field private dodgeForwardPressed Bool
 SprintDecisions = {}
 
 ---@param fields? table

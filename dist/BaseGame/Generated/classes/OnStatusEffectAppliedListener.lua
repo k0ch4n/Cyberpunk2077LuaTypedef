@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class OnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public ["effector"] ModifyStatusEffectDurationEffector
----@field public ["tags"] CName[]
----@field public ["owner"] gameObject
+---@field public effector ModifyStatusEffectDurationEffector
+---@field public tags CName[]
+---@field public owner gameObject
 OnStatusEffectAppliedListener = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RequestReleaseControl: gameScriptableSystemRequest
----@field public ["followupEvent"] redEvent
----@field public ["followupEventEntityID"] entEntityID
+---@field public followupEvent redEvent
+---@field public followupEventEntityID entEntityID
 RequestReleaseControl = {}
 
 ---@param fields? table

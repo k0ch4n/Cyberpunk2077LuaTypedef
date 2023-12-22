@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DynamicEntityState: IScriptable
----@field public ["entityID"] entEntityID
----@field public ["entitySpec"] DynamicEntitySpec
+---@field public entityID entEntityID
+---@field public entitySpec DynamicEntitySpec
 DynamicEntityState = {}
 
 ---@param fields? table

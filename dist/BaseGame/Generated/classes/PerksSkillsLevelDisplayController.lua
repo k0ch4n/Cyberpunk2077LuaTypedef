@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PerksSkillsLevelDisplayController: inkWidgetLogicController
----@field protected ["tint"] inkWidgetReference
+---@field protected tint inkWidgetReference
 PerksSkillsLevelDisplayController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StatsDetailListController: inkWidgetLogicController
----@field private ["StatLabelRef"] inkTextWidgetReference
----@field private ["statsList"] inkCompoundWidgetReference
+---@field private StatLabelRef inkTextWidgetReference
+---@field private statsList inkCompoundWidgetReference
 StatsDetailListController = {}
 
 ---@param fields? table

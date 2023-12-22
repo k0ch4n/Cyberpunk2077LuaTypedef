@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Arm: redEvent
----@field public ["requester"] gameObject
+---@field public requester gameObject
 Arm = {}
 
 ---@param fields? table

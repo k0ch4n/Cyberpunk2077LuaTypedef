@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameeventsKillRewardEvent: redEvent
----@field public ["victim"] gameObject
----@field public ["killType"] gameKillType
+---@field public victim gameObject
+---@field public killType gameKillType
 gameeventsKillRewardEvent = {}
 
 ---@param fields? table

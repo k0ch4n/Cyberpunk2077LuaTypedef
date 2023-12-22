@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class gamedataEthnicity: Enum
----@field ["African"] gamedataEthnicity 0
----@field ["AfricanAmerican"] gamedataEthnicity 1
----@field ["AmericanEnglish"] gamedataEthnicity 2
----@field ["Arabic"] gamedataEthnicity 3
----@field ["Brasilian"] gamedataEthnicity 4
----@field ["BritishEnglish"] gamedataEthnicity 5
----@field ["Caribbean"] gamedataEthnicity 6
----@field ["Chinese"] gamedataEthnicity 7
----@field ["Default"] gamedataEthnicity 8
----@field ["Indian"] gamedataEthnicity 9
----@field ["Japanese"] gamedataEthnicity 10
----@field ["Mexican"] gamedataEthnicity 11
----@field ["NativeAmerican"] gamedataEthnicity 12
----@field ["Russian"] gamedataEthnicity 13
----@field ["Count"] gamedataEthnicity 14
----@field ["Invalid"] gamedataEthnicity 15
+---@field African 0
+---@field AfricanAmerican 1
+---@field AmericanEnglish 2
+---@field Arabic 3
+---@field Brasilian 4
+---@field BritishEnglish 5
+---@field Caribbean 6
+---@field Chinese 7
+---@field Default 8
+---@field Indian 9
+---@field Japanese 10
+---@field Mexican 11
+---@field NativeAmerican 12
+---@field Russian 13
+---@field Count 14
+---@field Invalid 15
 gamedataEthnicity = {}

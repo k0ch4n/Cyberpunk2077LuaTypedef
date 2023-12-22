@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldLocationAreaNotifier: worldITriggerAreaNotifer
----@field public ["districtID"] TweakDBID
----@field public ["sendNewLocationNotification"] Bool
+---@field public districtID TweakDBID
+---@field public sendNewLocationNotification Bool
 worldLocationAreaNotifier = {}
 
 ---@param fields? table

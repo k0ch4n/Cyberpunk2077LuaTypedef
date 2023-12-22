@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceComponent: entIPlacedComponent
----@field public ["isEnabled"] Bool
+---@field public isEnabled Bool
 gameinfluenceComponent = {}
 
 ---@param fields? table

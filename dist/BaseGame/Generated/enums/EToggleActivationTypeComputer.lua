@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EToggleActivationTypeComputer: Enum
----@field ["None"] EToggleActivationTypeComputer 0
----@field ["Raise"] EToggleActivationTypeComputer 1
+---@field None 0
+---@field Raise 1
 EToggleActivationTypeComputer = {}

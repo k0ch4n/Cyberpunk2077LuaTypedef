@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KerenzikovEvents: TimeDilationEventsTransitions
----@field public ["allowMovementModifier"] gameStatModifierData_Deprecated
+---@field public allowMovementModifier gameStatModifierData_Deprecated
 KerenzikovEvents = {}
 
 ---@param fields? table

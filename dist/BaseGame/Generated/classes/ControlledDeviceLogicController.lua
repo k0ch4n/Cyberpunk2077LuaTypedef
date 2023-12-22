@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ControlledDeviceLogicController: inkWidgetLogicController
----@field private ["deviceIcon"] inkImageWidget
----@field private ["nestIcon"] inkImageWidget
----@field private ["activeBg"] inkRectangleWidget
+---@field private deviceIcon inkImageWidget
+---@field private nestIcon inkImageWidget
+---@field private activeBg inkRectangleWidget
 ControlledDeviceLogicController = {}
 
 ---@param fields? table

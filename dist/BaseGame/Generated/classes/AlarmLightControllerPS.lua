@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AlarmLightControllerPS: BasicDistractionDeviceControllerPS
----@field protected ["securityAlarmState"] ESecuritySystemState
+---@field protected securityAlarmState ESecuritySystemState
 AlarmLightControllerPS = {}
 
 ---@param fields? table

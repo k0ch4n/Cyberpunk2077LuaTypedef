@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetDetectionMultiplier: redEvent
----@field public ["multiplier"] Float
+---@field public multiplier Float
 SetDetectionMultiplier = {}
 
 ---@param fields? table

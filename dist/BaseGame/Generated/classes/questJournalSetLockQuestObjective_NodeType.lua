@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questJournalSetLockQuestObjective_NodeType: questIJournal_NodeType
----@field public ["path"] gameJournalPath
----@field public ["lock"] Bool
+---@field public path gameJournalPath
+---@field public lock Bool
 questJournalSetLockQuestObjective_NodeType = {}
 
 ---@param fields? table

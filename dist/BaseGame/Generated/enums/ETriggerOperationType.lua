@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ETriggerOperationType: Enum
----@field ["ENTER"] ETriggerOperationType 0
----@field ["EXIT"] ETriggerOperationType 1
+---@field ENTER 0
+---@field EXIT 1
 ETriggerOperationType = {}

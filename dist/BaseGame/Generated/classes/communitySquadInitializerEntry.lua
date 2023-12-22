@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class communitySquadInitializerEntry
----@field public ["type"] communityESquadType
----@field public ["value"] CName
+---@field public type communityESquadType
+---@field public value CName
 communitySquadInitializerEntry = {}
 
 ---@param fields? table

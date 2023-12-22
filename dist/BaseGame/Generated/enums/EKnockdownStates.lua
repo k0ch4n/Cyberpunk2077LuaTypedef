@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EKnockdownStates: Enum
----@field ["Invalid"] EKnockdownStates 0
----@field ["Start"] EKnockdownStates 1
----@field ["FallLoop"] EKnockdownStates 2
----@field ["Land"] EKnockdownStates 3
----@field ["Recovery"] EKnockdownStates 4
----@field ["AirRecovery"] EKnockdownStates 5
+---@field Invalid 0
+---@field Start 1
+---@field FallLoop 2
+---@field Land 3
+---@field Recovery 4
+---@field AirRecovery 5
 EKnockdownStates = {}

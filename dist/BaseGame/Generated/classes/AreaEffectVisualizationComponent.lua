@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class AreaEffectVisualizationComponent: gameScriptableComponent
----@field protected ["fxResourceMapper"] FxResourceMapperComponent
----@field private ["forceHighlightTargetBuckets"] GameEffectTargetVisualizationData[]
----@field private ["availableQuickHacks"] CName[]
----@field private ["availablespiderbotActions"] CName[]
----@field private ["activeAction"] BaseScriptableAction
----@field private ["activeEffectIndex"] Int32
+---@field protected fxResourceMapper FxResourceMapperComponent
+---@field private forceHighlightTargetBuckets GameEffectTargetVisualizationData[]
+---@field private availableQuickHacks CName[]
+---@field private availablespiderbotActions CName[]
+---@field private activeAction BaseScriptableAction
+---@field private activeEffectIndex Int32
 AreaEffectVisualizationComponent = {}
 
 ---@param fields? table

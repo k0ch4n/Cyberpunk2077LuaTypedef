@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ToggleDropPointSystemRequest: gameScriptableSystemRequest
----@field public ["isEnabled"] Bool
----@field public ["reason"] CName
+---@field public isEnabled Bool
+---@field public reason CName
 ToggleDropPointSystemRequest = {}
 
 ---@param fields? table

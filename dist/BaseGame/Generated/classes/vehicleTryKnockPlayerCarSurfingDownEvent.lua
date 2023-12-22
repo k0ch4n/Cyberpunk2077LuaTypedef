@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleTryKnockPlayerCarSurfingDownEvent: redEvent
----@field public ["impactPoint"] Vector3
+---@field public impactPoint Vector3
 vehicleTryKnockPlayerCarSurfingDownEvent = {}
 
 ---@param fields? table

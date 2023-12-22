@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameAppearanceNameVisualTagsPreset_AppearanceTags: ISerializable
----@field public ["appearanceName"] CName
----@field public ["visualTags"] redTagList
+---@field public appearanceName CName
+---@field public visualTags redTagList
 gameAppearanceNameVisualTagsPreset_AppearanceTags = {}
 
 ---@param fields? table

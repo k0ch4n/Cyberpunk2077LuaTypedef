@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class FactValuePrereq: gameIScriptablePrereq
----@field public ["fact"] CName
----@field public ["value"] Int32
----@field public ["comparisonType"] EComparisonType
----@field public ["repeated"] Bool
+---@field public fact CName
+---@field public value Int32
+---@field public comparisonType EComparisonType
+---@field public repeated Bool
 FactValuePrereq = {}
 
 ---@param fields? table

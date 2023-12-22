@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CraftableItemLogicController: inkVirtualCompoundItemController
----@field protected ["normalAppearence"] inkCompoundWidgetReference
----@field private ["controller"] InventoryItemDisplayController
----@field public ["itemData"] ItemCraftingData
----@field public ["recipeData"] RecipeData
----@field private ["isSpawnInProgress"] Bool
----@field private ["displayToCreate"] CName
+---@field protected normalAppearence inkCompoundWidgetReference
+---@field private controller InventoryItemDisplayController
+---@field public itemData ItemCraftingData
+---@field public recipeData RecipeData
+---@field private isSpawnInProgress Bool
+---@field private displayToCreate CName
 CraftableItemLogicController = {}
 
 ---@param fields? table

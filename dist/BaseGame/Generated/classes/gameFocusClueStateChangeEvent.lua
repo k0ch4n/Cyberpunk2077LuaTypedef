@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameFocusClueStateChangeEvent: redEvent
----@field public ["clueIndex"] Int32
----@field public ["isEnabled"] Bool
+---@field public clueIndex Int32
+---@field public isEnabled Bool
 gameFocusClueStateChangeEvent = {}
 
 ---@param fields? table

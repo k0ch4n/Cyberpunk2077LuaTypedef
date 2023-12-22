@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ConvertDamageToStatPoolEffector: HitEventEffector
----@field private ["statPoolType"] gamedataStatPoolType
----@field private ["operationType"] EMathOperator
----@field private ["value"] Float
+---@field private statPoolType gamedataStatPoolType
+---@field private operationType EMathOperator
+---@field private value Float
 ConvertDamageToStatPoolEffector = {}
 
 ---@param fields? table

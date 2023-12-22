@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetIgnoreAutoDoorCloseEvent: redEvent
----@field public ["set"] Bool
+---@field public set Bool
 SetIgnoreAutoDoorCloseEvent = {}
 
 ---@param fields? table

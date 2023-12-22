@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameScanningPulseStartEvent: redEvent
----@field public ["targetsAffected"] Int32
+---@field public targetsAffected Int32
 gameScanningPulseStartEvent = {}
 
 ---@param fields? table

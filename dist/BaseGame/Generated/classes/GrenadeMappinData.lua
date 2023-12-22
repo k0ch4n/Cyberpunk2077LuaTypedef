@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class GrenadeMappinData: gamemappinsMappinScriptData
----@field public ["grenadeType"] EGrenadeType
----@field public ["iconID"] TweakDBID
+---@field public grenadeType EGrenadeType
+---@field public iconID TweakDBID
 GrenadeMappinData = {}
 
 ---@param fields? table

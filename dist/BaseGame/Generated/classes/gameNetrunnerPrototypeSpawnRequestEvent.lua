@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameNetrunnerPrototypeSpawnRequestEvent: redEvent
----@field public ["whatToSpawn"] CName
----@field public ["whereToSpawn"] Vector3
----@field public ["scale"] Vector3
----@field public ["colorIndex"] Uint8
+---@field public whatToSpawn CName
+---@field public whereToSpawn Vector3
+---@field public scale Vector3
+---@field public colorIndex Uint8
 gameNetrunnerPrototypeSpawnRequestEvent = {}
 
 ---@param fields? table

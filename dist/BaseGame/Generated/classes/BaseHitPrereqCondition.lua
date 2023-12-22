@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class BaseHitPrereqCondition: IScriptable
----@field public ["invert"] Bool
----@field public ["onlyOncePerShot"] Bool
----@field public ["lastAttackTime"] Float
+---@field public invert Bool
+---@field public onlyOncePerShot Bool
+---@field public lastAttackTime Float
 BaseHitPrereqCondition = {}
 
 ---@param fields? table

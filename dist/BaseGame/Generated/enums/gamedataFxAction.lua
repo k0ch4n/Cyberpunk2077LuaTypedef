@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class gamedataFxAction: Enum
----@field ["EnterCharge"] gamedataFxAction 0
----@field ["EnterDischarge"] gamedataFxAction 1
----@field ["EnterLowAmmo"] gamedataFxAction 2
----@field ["EnterNoAmmo"] gamedataFxAction 3
----@field ["EnterOverheat"] gamedataFxAction 4
----@field ["EnterReload"] gamedataFxAction 5
----@field ["ExitCharge"] gamedataFxAction 6
----@field ["ExitDischarge"] gamedataFxAction 7
----@field ["ExitLowAmmo"] gamedataFxAction 8
----@field ["ExitNoAmmo"] gamedataFxAction 9
----@field ["ExitOverheat"] gamedataFxAction 10
----@field ["ExitReload"] gamedataFxAction 11
----@field ["ExitShoot"] gamedataFxAction 12
----@field ["MeleeBlock"] gamedataFxAction 13
----@field ["MeleeHit"] gamedataFxAction 14
----@field ["MuzzleBrakeShoot"] gamedataFxAction 15
----@field ["Shoot"] gamedataFxAction 16
----@field ["SilencedShoot"] gamedataFxAction 17
----@field ["Count"] gamedataFxAction 18
----@field ["Invalid"] gamedataFxAction 19
+---@field EnterCharge 0
+---@field EnterDischarge 1
+---@field EnterLowAmmo 2
+---@field EnterNoAmmo 3
+---@field EnterOverheat 4
+---@field EnterReload 5
+---@field ExitCharge 6
+---@field ExitDischarge 7
+---@field ExitLowAmmo 8
+---@field ExitNoAmmo 9
+---@field ExitOverheat 10
+---@field ExitReload 11
+---@field ExitShoot 12
+---@field MeleeBlock 13
+---@field MeleeHit 14
+---@field MuzzleBrakeShoot 15
+---@field Shoot 16
+---@field SilencedShoot 17
+---@field Count 18
+---@field Invalid 19
 gamedataFxAction = {}

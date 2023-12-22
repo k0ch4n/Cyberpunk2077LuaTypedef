@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NarrativePlateLogicController: inkWidgetLogicController
----@field private ["textWidget"] inkWidgetReference
----@field private ["captionWidget"] inkWidgetReference
----@field private ["root"] inkWidgetReference
+---@field private textWidget inkWidgetReference
+---@field private captionWidget inkWidgetReference
+---@field private root inkWidgetReference
 NarrativePlateLogicController = {}
 
 ---@param fields? table

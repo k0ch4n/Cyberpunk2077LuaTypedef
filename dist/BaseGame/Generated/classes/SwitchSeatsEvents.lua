@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SwitchSeatsEvents: VehicleEventsTransition
----@field public ["workspotSystem"] gameWorkspotGameSystem
----@field public ["enabledSceneMode"] Bool
+---@field public workspotSystem gameWorkspotGameSystem
+---@field public enabledSceneMode Bool
 SwitchSeatsEvents = {}
 
 ---@param fields? table

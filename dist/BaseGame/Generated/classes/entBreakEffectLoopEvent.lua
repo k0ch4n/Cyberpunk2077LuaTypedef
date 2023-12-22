@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entBreakEffectLoopEvent: redEvent
----@field public ["effectName"] CName
+---@field public effectName CName
 entBreakEffectLoopEvent = {}
 
 ---@param fields? table

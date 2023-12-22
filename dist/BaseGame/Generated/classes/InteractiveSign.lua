@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InteractiveSign: Device
----@field private ["signShape"] SignShape
----@field private ["type"] SignType
----@field private ["message"] String
+---@field private signShape SignShape
+---@field private type SignType
+---@field private message String
 InteractiveSign = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalTree: ISerializable
----@field public ["rootEntries"] gameJournalRootFolderEntry[]
+---@field public rootEntries gameJournalRootFolderEntry[]
 gameJournalTree = {}
 
 ---@param fields? table

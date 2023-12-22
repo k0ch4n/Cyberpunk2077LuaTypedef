@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TypingDelayEvent: redEvent
----@field public ["conversationHash"] Int32
----@field public ["contactHash"] Int32
+---@field public conversationHash Int32
+---@field public contactHash Int32
 TypingDelayEvent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MeleeAttackCommandCleanup: AIbehaviortaskScript
----@field protected ["inCommand"] AIArgumentMapping
+---@field protected inCommand AIArgumentMapping
 MeleeAttackCommandCleanup = {}
 
 ---@param fields? table

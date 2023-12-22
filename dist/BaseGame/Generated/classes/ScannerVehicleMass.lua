@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScannerVehicleMass: ScannerChunk
----@field private ["mass"] Int32
+---@field private mass Int32
 ScannerVehicleMass = {}
 
 ---@param fields? table

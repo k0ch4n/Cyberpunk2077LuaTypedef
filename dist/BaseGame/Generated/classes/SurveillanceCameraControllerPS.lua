@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class SurveillanceCameraControllerPS: SensorDeviceControllerPS
----@field private ["cameraProperties"] CameraSetup
----@field private ["cameraQuestProperties"] CameraQuestProperties
----@field private ["cameraState"] ESurveillanceCameraStatus
----@field private ["shouldStream"] Bool
----@field private ["isDetecting"] Bool
----@field private ["feedReceivers"] entEntityID[]
----@field private ["mostRecentRequester"] entEntityID
----@field private ["virtualComponentName"] CName
----@field private ["isFeedReplacedWithBink"] Bool
----@field private ["binkVideoPath"] redResourceReferenceScriptToken
----@field private ["shouldRevealEnemies"] Bool
----@field private ["cameraSkillChecks"] EngDemoContainer
----@field private ["overrideTakeOverCameraAngle"] Bool
----@field private ["overrideTakeOverPitch"] Float
----@field private ["overrideTakeOverRotation"] Float
+---@field private cameraProperties CameraSetup
+---@field private cameraQuestProperties CameraQuestProperties
+---@field private cameraState ESurveillanceCameraStatus
+---@field private shouldStream Bool
+---@field private isDetecting Bool
+---@field private feedReceivers entEntityID[]
+---@field private mostRecentRequester entEntityID
+---@field private virtualComponentName CName
+---@field private isFeedReplacedWithBink Bool
+---@field private binkVideoPath redResourceReferenceScriptToken
+---@field private shouldRevealEnemies Bool
+---@field private cameraSkillChecks EngDemoContainer
+---@field private overrideTakeOverCameraAngle Bool
+---@field private overrideTakeOverPitch Float
+---@field private overrideTakeOverRotation Float
 SurveillanceCameraControllerPS = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMenuGameController: gameuiWidgetGameController
----@field private ["baseEventDispatcher"] inkMenuEventDispatcher
+---@field private baseEventDispatcher inkMenuEventDispatcher
 gameuiMenuGameController = {}
 
 ---@param fields? table

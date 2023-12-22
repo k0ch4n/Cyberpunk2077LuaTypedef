@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ScriptedReactionSystem: gameScriptableSystem
----@field private ["fleeingNPCs"] Int32
----@field private ["runners"] entEntity[]
----@field private ["registeredTimeout"] Float
----@field private ["callInAction"] Bool
----@field private ["policeCaller"] entEntity
+---@field private fleeingNPCs Int32
+---@field private runners entEntity[]
+---@field private registeredTimeout Float
+---@field private callInAction Bool
+---@field private policeCaller entEntity
 ScriptedReactionSystem = {}
 
 ---@param fields? table

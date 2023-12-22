@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OnWorkspotAvailabilityEvent: redEvent
----@field public ["workspotRef"] NodeRef
+---@field public workspotRef NodeRef
 OnWorkspotAvailabilityEvent = {}
 
 ---@param fields? table

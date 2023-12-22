@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AreaShapeOutline: ISerializable
----@field public ["points"] Vector3[]
----@field public ["height"] Float
+---@field public points Vector3[]
+---@field public height Float
 AreaShapeOutline = {}
 
 ---@param fields? table

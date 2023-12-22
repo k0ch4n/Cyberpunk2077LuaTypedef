@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ComputerMainMenuWidgetController: inkWidgetLogicController
----@field protected ["menuButtonsListWidget"] inkWidgetReference
----@field protected ["isInitialized"] Bool
----@field private ["computerMenuButtonWidgetsData"] SComputerMenuButtonWidgetPackage[]
+---@field protected menuButtonsListWidget inkWidgetReference
+---@field protected isInitialized Bool
+---@field private computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
 ComputerMainMenuWidgetController = {}
 
 ---@param fields? table

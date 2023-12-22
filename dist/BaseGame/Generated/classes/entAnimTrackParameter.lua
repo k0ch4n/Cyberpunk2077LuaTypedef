@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entAnimTrackParameter
----@field public ["animTrackName"] CName
----@field public ["parameterName"] CName
----@field public ["defaultValue"] Float
+---@field public animTrackName CName
+---@field public parameterName CName
+---@field public defaultValue Float
 entAnimTrackParameter = {}
 
 ---@param fields? table

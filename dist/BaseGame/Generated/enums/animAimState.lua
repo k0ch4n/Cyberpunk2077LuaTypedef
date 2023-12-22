@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animAimState: Enum
----@field ["Unaimed"] animAimState 0
----@field ["Aimed"] animAimState 1
+---@field Unaimed 0
+---@field Aimed 1
 animAimState = {}

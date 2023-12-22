@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficPersistentData
----@field public ["lanes"] worldTrafficLanePersistent[]
----@field public ["neighborGroups"] Uint16[][]
+---@field public lanes worldTrafficLanePersistent[]
+---@field public neighborGroups Uint16[][]
 worldTrafficPersistentData = {}
 
 ---@param fields? table

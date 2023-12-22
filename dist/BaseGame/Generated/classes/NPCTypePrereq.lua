@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NPCTypePrereq: gameIScriptablePrereq
----@field public ["allowedTypes"] gamedataNPCType[]
----@field public ["invert"] Bool
+---@field public allowedTypes gamedataNPCType[]
+---@field public invert Bool
 NPCTypePrereq = {}
 
 ---@param fields? table

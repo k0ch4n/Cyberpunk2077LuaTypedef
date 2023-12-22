@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_WrapperValue: animAnimNode_FloatValue
----@field public ["wrapperNames"] CName[]
----@field public ["logicOp"] animEAnimGraphLogicOp
----@field public ["oneMinus"] Bool
+---@field public wrapperNames CName[]
+---@field public logicOp animEAnimGraphLogicOp
+---@field public oneMinus Bool
 animAnimNode_WrapperValue = {}
 
 ---@param fields? table

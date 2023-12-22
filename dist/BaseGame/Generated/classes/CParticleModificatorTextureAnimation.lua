@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CParticleModificatorTextureAnimation: IParticleModificator
----@field public ["initialFrame"] IEvaluatorFloat
----@field public ["animationSpeed"] IEvaluatorFloat
----@field public ["animationMode"] ETextureAnimationMode
+---@field public initialFrame IEvaluatorFloat
+---@field public animationSpeed IEvaluatorFloat
+---@field public animationMode ETextureAnimationMode
 CParticleModificatorTextureAnimation = {}
 
 ---@param fields? table

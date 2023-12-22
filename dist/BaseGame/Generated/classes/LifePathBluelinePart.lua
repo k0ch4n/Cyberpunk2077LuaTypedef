@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LifePathBluelinePart: gameinteractionsvisBluelinePart
----@field public ["record"] gamedataLifePath_Record
+---@field public record gamedataLifePath_Record
 LifePathBluelinePart = {}
 
 ---@param fields? table

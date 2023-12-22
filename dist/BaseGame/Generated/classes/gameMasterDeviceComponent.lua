@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMasterDeviceComponent: gameComponent
----@field public ["clearance"] gamedeviceClearance
+---@field public clearance gamedeviceClearance
 gameMasterDeviceComponent = {}
 
 ---@param fields? table

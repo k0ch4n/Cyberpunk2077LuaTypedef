@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkTextValueProgressAnimationController: inkTextAnimationController
----@field public ["baseValue"] Float
----@field public ["targetValue"] Float
----@field public ["numbersAfterDot"] Int32
----@field public ["stepValue"] Float
----@field public ["suffix"] String
+---@field public baseValue Float
+---@field public targetValue Float
+---@field public numbersAfterDot Int32
+---@field public stepValue Float
+---@field public suffix String
 inkTextValueProgressAnimationController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ApartmentScreenInkGameController: LcdScreenInkGameController
----@field protected ["backgroundFrameWidget"] inkImageWidget
+---@field protected backgroundFrameWidget inkImageWidget
 ApartmentScreenInkGameController = {}
 
 ---@param fields? table

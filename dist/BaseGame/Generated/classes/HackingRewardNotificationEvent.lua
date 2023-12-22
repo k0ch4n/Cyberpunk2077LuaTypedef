@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HackingRewardNotificationEvent: redEvent
----@field public ["text"] String
----@field public ["icons"] String[]
+---@field public text String
+---@field public icons String[]
 HackingRewardNotificationEvent = {}
 
 ---@param fields? table

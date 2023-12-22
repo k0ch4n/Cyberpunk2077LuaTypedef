@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RegisterItemUsedRequest: gameScriptableSystemRequest
----@field public ["itemUsed"] gameItemID
+---@field public itemUsed gameItemID
 RegisterItemUsedRequest = {}
 
 ---@param fields? table

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class NetworkMinigameProgramController: inkWidgetLogicController
----@field protected ["text"] inkTextWidgetReference
----@field protected ["commandElementSlotsContainer"] inkWidgetReference[]
----@field protected ["elementLibraryName"] CName
----@field protected ["completedMarker"] inkWidgetReference
----@field protected ["imageRef"] inkImageWidgetReference
----@field protected ["slotList"] NetworkMinigameElementController[][]
----@field protected ["data"] ProgramData
----@field private ["animProxy"] inkanimProxy
+---@field protected text inkTextWidgetReference
+---@field protected commandElementSlotsContainer inkWidgetReference[]
+---@field protected elementLibraryName CName
+---@field protected completedMarker inkWidgetReference
+---@field protected imageRef inkImageWidgetReference
+---@field protected slotList NetworkMinigameElementController[][]
+---@field protected data ProgramData
+---@field private animProxy inkanimProxy
 NetworkMinigameProgramController = {}
 
 ---@param fields? table

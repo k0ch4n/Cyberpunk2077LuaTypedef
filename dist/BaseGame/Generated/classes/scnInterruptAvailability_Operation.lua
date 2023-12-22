@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterruptAvailability_Operation: scnIInterruptManager_Operation
----@field public ["available"] Bool
+---@field public available Bool
 scnInterruptAvailability_Operation = {}
 
 ---@param fields? table

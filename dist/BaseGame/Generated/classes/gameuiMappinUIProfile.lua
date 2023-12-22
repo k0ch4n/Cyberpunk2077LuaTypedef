@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiMappinUIProfile
----@field public ["widgetResource"] redResourceReferenceScriptToken
----@field public ["widgetLibraryID"] CName
----@field public ["spawn"] gamedataMappinUISpawnProfile_Record
----@field public ["runtime"] gamedataMappinUIRuntimeProfile_Record
+---@field public widgetResource redResourceReferenceScriptToken
+---@field public widgetLibraryID CName
+---@field public spawn gamedataMappinUISpawnProfile_Record
+---@field public runtime gamedataMappinUIRuntimeProfile_Record
 gameuiMappinUIProfile = {}
 
 ---@param fields? table

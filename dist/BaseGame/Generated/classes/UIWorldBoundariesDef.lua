@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIWorldBoundariesDef: gamebbScriptDefinition
----@field public ["IsPlayerCloseToBoundary"] gamebbScriptID_Bool
----@field public ["IsPlayerGoingDeeper"] gamebbScriptID_Bool
+---@field public IsPlayerCloseToBoundary gamebbScriptID_Bool
+---@field public IsPlayerGoingDeeper gamebbScriptID_Bool
 UIWorldBoundariesDef = {}
 
 ---@param fields? table

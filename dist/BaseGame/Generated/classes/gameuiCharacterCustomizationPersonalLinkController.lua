@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiCharacterCustomizationPersonalLinkController: gameuiICharacterCustomizationComponent
----@field public ["simpleLinkGroup"] CName
+---@field public simpleLinkGroup CName
 gameuiCharacterCustomizationPersonalLinkController = {}
 
 ---@param fields? table

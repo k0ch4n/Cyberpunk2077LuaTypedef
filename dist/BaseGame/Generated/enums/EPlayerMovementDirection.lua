@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EPlayerMovementDirection: Enum
----@field ["Forward"] EPlayerMovementDirection 0
----@field ["Right"] EPlayerMovementDirection 1
----@field ["Back"] EPlayerMovementDirection 2
----@field ["Left"] EPlayerMovementDirection 3
+---@field Forward 0
+---@field Right 1
+---@field Back 2
+---@field Left 3
 EPlayerMovementDirection = {}

@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class inkImageWidget: inkLeafWidget
----@field public ["useExternalDynamicTexture"] Bool
----@field public ["externalDynamicTexture"] CName
----@field public ["useNineSliceScale"] Bool
----@field public ["nineSliceScale"] inkMargin
----@field public ["mirrorType"] inkBrushMirrorType
----@field public ["tileType"] inkBrushTileType
----@field public ["horizontalTileCrop"] Float
----@field public ["verticalTileCrop"] Float
----@field public ["textureAtlas"] inkTextureAtlas
----@field public ["texturePart"] CName
----@field public ["contentHAlign"] inkEHorizontalAlign
----@field public ["contentVAlign"] inkEVerticalAlign
----@field public ["tileHAlign"] inkEHorizontalAlign
----@field public ["tileVAlign"] inkEVerticalAlign
+---@field public useExternalDynamicTexture Bool
+---@field public externalDynamicTexture CName
+---@field public useNineSliceScale Bool
+---@field public nineSliceScale inkMargin
+---@field public mirrorType inkBrushMirrorType
+---@field public tileType inkBrushTileType
+---@field public horizontalTileCrop Float
+---@field public verticalTileCrop Float
+---@field public textureAtlas inkTextureAtlas
+---@field public texturePart CName
+---@field public contentHAlign inkEHorizontalAlign
+---@field public contentVAlign inkEVerticalAlign
+---@field public tileHAlign inkEHorizontalAlign
+---@field public tileVAlign inkEVerticalAlign
 inkImageWidget = {}
 
 ---@param fields? table

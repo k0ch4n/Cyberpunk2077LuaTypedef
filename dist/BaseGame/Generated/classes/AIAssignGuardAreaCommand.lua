@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIAssignGuardAreaCommand: AICommand
----@field public ["restrictMovementAreaRef"] NodeRef
+---@field public restrictMovementAreaRef NodeRef
 AIAssignGuardAreaCommand = {}
 
 ---@param fields? table

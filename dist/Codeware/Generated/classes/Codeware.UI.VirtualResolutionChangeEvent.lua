@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_VirtualResolutionChangeEvent: inkEvent
----@field public ["state"] Codeware_UI_VirtualResolutionData
+---@field public state Codeware_UI_VirtualResolutionData
 Codeware_UI_VirtualResolutionChangeEvent = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animNodeProfileTimerMode: Enum
----@field ["Begin"] animNodeProfileTimerMode 0
----@field ["End"] animNodeProfileTimerMode 1
+---@field Begin 0
+---@field End 1
 animNodeProfileTimerMode = {}

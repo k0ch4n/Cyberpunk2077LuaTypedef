@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questBriefingType: Enum
----@field ["Fullscreen"] questBriefingType 0
----@field ["Hud"] questBriefingType 1
----@field ["World"] questBriefingType 2
+---@field Fullscreen 0
+---@field Hud 1
+---@field World 2
 questBriefingType = {}

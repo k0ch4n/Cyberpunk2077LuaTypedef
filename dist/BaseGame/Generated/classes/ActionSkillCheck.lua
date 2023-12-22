@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ActionSkillCheck: ActionBool
----@field protected ["skillCheck"] SkillCheckBase
----@field protected ["skillCheckName"] EDeviceChallengeSkill
----@field protected ["localizedName"] String
----@field protected ["skillcheckDescription"] UIInteractionSkillCheck
----@field protected ["wasPassed"] Bool
----@field protected ["availableUnpowered"] Bool
+---@field protected skillCheck SkillCheckBase
+---@field protected skillCheckName EDeviceChallengeSkill
+---@field protected localizedName String
+---@field protected skillcheckDescription UIInteractionSkillCheck
+---@field protected wasPassed Bool
+---@field protected availableUnpowered Bool
 ActionSkillCheck = {}
 
 ---@param device ScriptableDeviceComponentPS

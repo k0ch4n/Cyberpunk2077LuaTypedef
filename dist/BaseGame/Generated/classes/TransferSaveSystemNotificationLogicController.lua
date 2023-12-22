@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class TransferSaveSystemNotificationLogicController: inkGenericSystemNotificationLogicController
----@field protected ["contentBlock"] inkWidgetReference
----@field protected ["spinnerBlock"] inkWidgetReference
----@field protected ["errorBlock"] inkWidgetReference
----@field protected ["saveImageContainer"] inkWidgetReference
----@field protected ["saveImage"] inkImageWidgetReference
----@field protected ["saveImageEmpty"] inkWidgetReference
----@field protected ["saveImageSpinner"] inkWidgetReference
----@field protected ["messageText"] inkTextWidgetReference
----@field protected ["spinnerText"] inkTextWidgetReference
----@field protected ["errorText"] inkTextWidgetReference
----@field protected ["proceedButtonWidget"] inkWidgetReference
----@field protected ["cancelButtonWidget"] inkWidgetReference
----@field private ["systemRequestHandler"] inkISystemRequestsHandler
----@field private ["transferSaveData"] TransferSaveData
----@field private ["transferSaveDataSet"] Bool
----@field private ["systemRequestsHandlerSet"] Bool
----@field private ["cancelButtonHovered"] Bool
----@field private ["currentState"] TransferSaveState
+---@field protected contentBlock inkWidgetReference
+---@field protected spinnerBlock inkWidgetReference
+---@field protected errorBlock inkWidgetReference
+---@field protected saveImageContainer inkWidgetReference
+---@field protected saveImage inkImageWidgetReference
+---@field protected saveImageEmpty inkWidgetReference
+---@field protected saveImageSpinner inkWidgetReference
+---@field protected messageText inkTextWidgetReference
+---@field protected spinnerText inkTextWidgetReference
+---@field protected errorText inkTextWidgetReference
+---@field protected proceedButtonWidget inkWidgetReference
+---@field protected cancelButtonWidget inkWidgetReference
+---@field private systemRequestHandler inkISystemRequestsHandler
+---@field private transferSaveData TransferSaveData
+---@field private transferSaveDataSet Bool
+---@field private systemRequestsHandlerSet Bool
+---@field private cancelButtonHovered Bool
+---@field private currentState TransferSaveState
 TransferSaveSystemNotificationLogicController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class WeaponShootPrereq: gameIScriptablePrereq
----@field public ["howManyAttacks"] Int32
+---@field public howManyAttacks Int32
 WeaponShootPrereq = {}
 
 ---@param fields? table

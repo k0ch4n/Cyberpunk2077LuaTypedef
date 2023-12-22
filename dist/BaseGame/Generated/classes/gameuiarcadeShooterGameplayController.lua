@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterGameplayController: gameuiarcadeArcadeGameplayController
----@field public ["player"] inkWidgetReference
----@field public ["hud"] inkWidgetReference
----@field public ["levelContainer"] inkWidgetReference
+---@field public player inkWidgetReference
+---@field public hud inkWidgetReference
+---@field public levelContainer inkWidgetReference
 gameuiarcadeShooterGameplayController = {}
 
 ---@param fields? table

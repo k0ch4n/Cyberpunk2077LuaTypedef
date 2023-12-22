@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class PonrRewardsGameController: BaseModalListPopupGameController
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["inventoryManager"] InventoryDataManagerV2
----@field private ["tooltipsManager"] gameuiTooltipsManager
----@field private ["rewardListInventoryItemGrid"] inkWidgetReference
----@field private ["rewardListInventoryWeaponGrid"] inkWidgetReference
----@field private ["rewardListRipperdocGrid"] inkWidgetReference
----@field private ["rewardListInventoryItemHolder"] inkWidgetReference
----@field private ["rewardListRipperdocHolder"] inkWidgetReference
----@field private ["tooltipsManagerRef"] inkWidgetReference
----@field private ["okayButton"] inkWidgetReference
----@field private ["endingAchievementArt"] inkImageWidgetReference
----@field private ["pointOfNoReturnBB"] gameIBlackboard
----@field private ["pointOfNoReturnRewardScreenDef"] UI_PointOfNoReturnRewardScreenDef
+---@field private gameInstance ScriptGameInstance
+---@field private inventoryManager InventoryDataManagerV2
+---@field private tooltipsManager gameuiTooltipsManager
+---@field private rewardListInventoryItemGrid inkWidgetReference
+---@field private rewardListInventoryWeaponGrid inkWidgetReference
+---@field private rewardListRipperdocGrid inkWidgetReference
+---@field private rewardListInventoryItemHolder inkWidgetReference
+---@field private rewardListRipperdocHolder inkWidgetReference
+---@field private tooltipsManagerRef inkWidgetReference
+---@field private okayButton inkWidgetReference
+---@field private endingAchievementArt inkImageWidgetReference
+---@field private pointOfNoReturnBB gameIBlackboard
+---@field private pointOfNoReturnRewardScreenDef UI_PointOfNoReturnRewardScreenDef
 PonrRewardsGameController = {}
 
 ---@param fields? table

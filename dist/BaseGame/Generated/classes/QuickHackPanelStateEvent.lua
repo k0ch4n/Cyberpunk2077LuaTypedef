@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuickHackPanelStateEvent: redEvent
----@field public ["isOpened"] Bool
+---@field public isOpened Bool
 QuickHackPanelStateEvent = {}
 
 ---@param fields? table

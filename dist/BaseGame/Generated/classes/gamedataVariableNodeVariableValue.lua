@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataVariableNodeVariableValue
----@field public ["node"] gamedataValueNode
----@field public ["deriveInfo"] gamedataVariableNodeVariableValueDeriveInfo
+---@field public node gamedataValueNode
+---@field public deriveInfo gamedataVariableNodeVariableValueDeriveInfo
 gamedataVariableNodeVariableValue = {}
 
 ---@param fields? table

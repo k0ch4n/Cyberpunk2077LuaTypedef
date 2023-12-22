@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class CParticleEventGenerator: IParticleEvent
----@field public ["evtType"] EParticleEventType
----@field public ["frequency"] Float
----@field public ["probability"] Float
+---@field public evtType EParticleEventType
+---@field public frequency Float
+---@field public probability Float
 CParticleEventGenerator = {}
 
 ---@param fields? table

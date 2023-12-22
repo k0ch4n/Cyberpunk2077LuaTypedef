@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class CooldownStorage: IScriptable
----@field private ["owner"] PSOwnerData
----@field private ["initialized"] EBOOL
----@field private ["gameInstanceHack"] ScriptGameInstance
----@field private ["packages"] CooldownPackage[]
----@field private ["currentID"] Uint32
----@field private ["map"] CooldownPackageDelayIDs[]
+---@field private owner PSOwnerData
+---@field private initialized EBOOL
+---@field private gameInstanceHack ScriptGameInstance
+---@field private packages CooldownPackage[]
+---@field private currentID Uint32
+---@field private map CooldownPackageDelayIDs[]
 CooldownStorage = {}
 
 ---@param fields? table

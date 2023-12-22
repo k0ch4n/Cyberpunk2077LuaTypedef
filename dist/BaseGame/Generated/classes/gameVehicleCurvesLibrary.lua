@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameVehicleCurvesLibrary: entEntity
----@field public ["curves"] gameVehicleCurveSet[]
----@field public ["commonCurves"] gameVehicleCommonCurveSet[]
----@field public ["bikeCurves"] vehicleBikeCurveSet[]
+---@field public curves gameVehicleCurveSet[]
+---@field public commonCurves gameVehicleCommonCurveSet[]
+---@field public bikeCurves vehicleBikeCurveSet[]
 gameVehicleCurvesLibrary = {}
 
 ---@param fields? table

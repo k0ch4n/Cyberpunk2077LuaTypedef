@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DeviceLink
----@field private ["PSID"] gamePersistentID
----@field private ["className"] CName
+---@field private PSID gamePersistentID
+---@field private className CName
 DeviceLink = {}
 
 ---@param fields? table

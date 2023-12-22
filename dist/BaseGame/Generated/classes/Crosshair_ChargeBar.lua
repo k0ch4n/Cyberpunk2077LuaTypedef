@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class Crosshair_ChargeBar: gameuiCrosshairBaseGameController
----@field private ["bar"] inkWidgetReference
----@field private ["ammo"] inkTextWidgetReference
----@field private ["leftPart"] inkWidget
----@field private ["rightPart"] inkWidget
----@field private ["topPart"] inkWidget
----@field private ["chargeBar"] inkRectangleWidget
----@field private ["sizeOfChargeBar"] Vector2
----@field private ["chargeBBID"] redCallbackObject
+---@field private bar inkWidgetReference
+---@field private ammo inkTextWidgetReference
+---@field private leftPart inkWidget
+---@field private rightPart inkWidget
+---@field private topPart inkWidget
+---@field private chargeBar inkRectangleWidget
+---@field private sizeOfChargeBar Vector2
+---@field private chargeBBID redCallbackObject
 Crosshair_ChargeBar = {}
 
 ---@param fields? table

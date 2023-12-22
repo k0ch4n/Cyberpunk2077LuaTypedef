@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class CerberusComponent: gameScriptableComponent
----@field protected ["laserGameEffectUp"] gameEffectInstance
----@field protected ["laserGameEffectRefUp"] gameEffectRef
----@field protected ["laserGameEffectUp2"] gameEffectInstance
----@field protected ["laserGameEffectRefUp2"] gameEffectRef
----@field protected ["laserGameEffectBeam"] gameEffectInstance
----@field protected ["laserGameEffectRefBeam"] gameEffectRef
----@field protected ["laserGameEffectBottom"] gameEffectInstance
----@field protected ["laserGameEffectRefBottom"] gameEffectRef
----@field protected ["laserGameEffectBottom2"] gameEffectInstance
----@field protected ["laserGameEffectRefBottom2"] gameEffectRef
----@field private ["gameObject"] gameObject
+---@field protected laserGameEffectUp gameEffectInstance
+---@field protected laserGameEffectRefUp gameEffectRef
+---@field protected laserGameEffectUp2 gameEffectInstance
+---@field protected laserGameEffectRefUp2 gameEffectRef
+---@field protected laserGameEffectBeam gameEffectInstance
+---@field protected laserGameEffectRefBeam gameEffectRef
+---@field protected laserGameEffectBottom gameEffectInstance
+---@field protected laserGameEffectRefBottom gameEffectRef
+---@field protected laserGameEffectBottom2 gameEffectInstance
+---@field protected laserGameEffectRefBottom2 gameEffectRef
+---@field private gameObject gameObject
 CerberusComponent = {}
 
 ---@param fields? table

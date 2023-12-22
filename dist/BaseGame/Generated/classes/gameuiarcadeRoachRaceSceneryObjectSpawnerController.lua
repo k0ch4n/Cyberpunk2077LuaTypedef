@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeRoachRaceSceneryObjectSpawnerController: gameuiarcadeArcadeSpawnerController
----@field public ["sceneryObjectSpawnTime"] Float
+---@field public sceneryObjectSpawnTime Float
 gameuiarcadeRoachRaceSceneryObjectSpawnerController = {}
 
 ---@param fields? table

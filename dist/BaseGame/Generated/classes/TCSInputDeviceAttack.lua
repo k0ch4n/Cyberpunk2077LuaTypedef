@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TCSInputDeviceAttack: redEvent
----@field public ["value"] Bool
+---@field public value Bool
 TCSInputDeviceAttack = {}
 
 ---@param fields? table

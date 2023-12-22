@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuestShardLinkController: BaseCodexLinkController
----@field public ["journalManager"] gameJournalManager
----@field public ["journalEntry"] gameJournalOnscreen
+---@field public journalManager gameJournalManager
+---@field public journalEntry gameJournalOnscreen
 QuestShardLinkController = {}
 
 ---@param fields? table

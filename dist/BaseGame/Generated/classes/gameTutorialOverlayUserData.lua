@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTutorialOverlayUserData: inkUserData
----@field public ["hideOnInput"] Bool
----@field public ["overlayId"] Uint32
+---@field public hideOnInput Bool
+---@field public overlayId Uint32
 gameTutorialOverlayUserData = {}
 
 ---@param fields? table

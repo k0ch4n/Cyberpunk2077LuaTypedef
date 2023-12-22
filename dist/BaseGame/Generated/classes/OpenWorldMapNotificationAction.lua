@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OpenWorldMapNotificationAction: GenericNotificationBaseAction
----@field public ["eventDispatcher"] worlduiIWidgetGameController
+---@field public eventDispatcher worlduiIWidgetGameController
 OpenWorldMapNotificationAction = {}
 
 ---@param fields? table

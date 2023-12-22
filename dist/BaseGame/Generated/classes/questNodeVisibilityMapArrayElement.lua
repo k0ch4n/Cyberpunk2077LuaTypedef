@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questNodeVisibilityMapArrayElement
----@field public ["globalNodeRef"] worldGlobalNodeRef
----@field public ["visible"] Bool
+---@field public globalNodeRef worldGlobalNodeRef
+---@field public visible Bool
 questNodeVisibilityMapArrayElement = {}
 
 ---@param fields? table

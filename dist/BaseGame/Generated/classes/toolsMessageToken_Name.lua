@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsMessageToken_Name: toolsIMessageToken
----@field public ["name"] CName
+---@field public name CName
 toolsMessageToken_Name = {}
 
 ---@param fields? table

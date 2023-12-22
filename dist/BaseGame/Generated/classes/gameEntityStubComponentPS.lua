@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameEntityStubComponentPS: gameComponentPS
----@field public ["entityLocalPosition"] Vector3
----@field public ["entityLocalRotation"] Quaternion
----@field public ["spawnerId"] gameCommunityID
----@field public ["ownerCommunityEntryName"] CName
----@field public ["selectedAppearanceName"] CName
----@field public ["selectedColorVariantName"] CName
+---@field public entityLocalPosition Vector3
+---@field public entityLocalRotation Quaternion
+---@field public spawnerId gameCommunityID
+---@field public ownerCommunityEntryName CName
+---@field public selectedAppearanceName CName
+---@field public selectedColorVariantName CName
 gameEntityStubComponentPS = {}
 
 ---@param fields? table

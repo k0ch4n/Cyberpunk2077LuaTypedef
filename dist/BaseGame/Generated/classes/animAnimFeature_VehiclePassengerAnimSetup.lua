@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimFeature_VehiclePassengerAnimSetup: animAnimFeature
----@field public ["enableAdditiveAnim"] Bool
----@field public ["additiveScale"] Float
+---@field public enableAdditiveAnim Bool
+---@field public additiveScale Float
 animAnimFeature_VehiclePassengerAnimSetup = {}
 
 ---@param fields? table

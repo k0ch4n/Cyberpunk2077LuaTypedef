@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIInjectCombatThreatCommandParams: questScriptedAICommandParams
----@field public ["targetNodeRef"] NodeRef
----@field public ["targetPuppetRef"] gameEntityReference
----@field public ["dontForceHostileAttitude"] Bool
----@field public ["duration"] Float
----@field public ["isPersistent"] Bool
+---@field public targetNodeRef NodeRef
+---@field public targetPuppetRef gameEntityReference
+---@field public dontForceHostileAttitude Bool
+---@field public duration Float
+---@field public isPersistent Bool
 AIInjectCombatThreatCommandParams = {}
 
 ---@param fields? table

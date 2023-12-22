@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameEffectDebugSettings
----@field public ["overrideGlobalSettings"] Bool
----@field public ["duration"] Float
----@field public ["color"] Color
+---@field public overrideGlobalSettings Bool
+---@field public duration Float
+---@field public color Color
 gameEffectDebugSettings = {}
 
 ---@param fields? table

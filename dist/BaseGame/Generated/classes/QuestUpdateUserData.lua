@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestUpdateUserData: inkGameNotificationData
----@field public ["data"] gameJournalQuest
+---@field public data gameJournalQuest
 QuestUpdateUserData = {}
 
 ---@param fields? table

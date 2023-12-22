@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entPhysicalImpulseAreaComponent: entPhysicalTriggerComponent
----@field public ["impulse"] Vector3
----@field public ["impulseRadius"] Float
+---@field public impulse Vector3
+---@field public impulseRadius Float
 entPhysicalImpulseAreaComponent = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questSetTriggerState_NodeType: questITriggerManagerNodeType
----@field public ["params"] questSetTriggerState_NodeTypeParams[]
+---@field public params questSetTriggerState_NodeTypeParams[]
 questSetTriggerState_NodeType = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class rendRenderTextureBlobMipMapInfo
----@field public ["layout"] rendRenderTextureBlobMemoryLayout
----@field public ["placement"] rendRenderTextureBlobPlacement
+---@field public layout rendRenderTextureBlobMemoryLayout
+---@field public placement rendRenderTextureBlobPlacement
 rendRenderTextureBlobMipMapInfo = {}
 
 ---@param fields? table

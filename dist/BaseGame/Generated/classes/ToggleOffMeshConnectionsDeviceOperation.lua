@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ToggleOffMeshConnectionsDeviceOperation: DeviceOperationBase
----@field public ["enable"] Bool
----@field public ["affectsPlayer"] Bool
----@field public ["affectsNPCs"] Bool
+---@field public enable Bool
+---@field public affectsPlayer Bool
+---@field public affectsNPCs Bool
 ToggleOffMeshConnectionsDeviceOperation = {}
 
 ---@param fields? table

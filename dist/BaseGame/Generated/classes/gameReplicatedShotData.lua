@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameReplicatedShotData
----@field public ["timeStamp"] netTime
----@field public ["attackId"] TweakDBID
----@field public ["target"] gameObject
----@field public ["targetLocalOffset"] Vector3
+---@field public timeStamp netTime
+---@field public attackId TweakDBID
+---@field public target gameObject
+---@field public targetLocalOffset Vector3
 gameReplicatedShotData = {}
 
 ---@param fields? table

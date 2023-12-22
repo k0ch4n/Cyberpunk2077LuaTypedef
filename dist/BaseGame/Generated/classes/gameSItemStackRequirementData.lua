@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSItemStackRequirementData
----@field public ["statType"] gamedataStatType
----@field public ["requiredValue"] Float
+---@field public statType gamedataStatType
+---@field public requiredValue Float
 gameSItemStackRequirementData = {}
 
 ---@param fields? table

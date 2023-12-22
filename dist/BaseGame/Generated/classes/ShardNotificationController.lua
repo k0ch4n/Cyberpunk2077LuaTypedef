@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class ShardNotificationController: gameuiWidgetGameController
----@field private ["titleRef"] inkTextWidgetReference
----@field private ["shortTextRef"] inkTextWidgetReference
----@field private ["longTextRef"] inkTextWidgetReference
----@field private ["shortTextHolderRef"] inkWidgetReference
----@field private ["longTextHolderRef"] inkWidgetReference
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["buttonHintsManagerParentRef"] inkWidgetReference
----@field private ["buttonHintsSecondaryManagerRef"] inkWidgetReference
----@field private ["buttonHintsSecondaryManagerParentRef"] inkWidgetReference
----@field private ["imageWidget"] inkImageWidgetReference
----@field private ["scrollWidget"] inkWidgetReference
----@field private ["data"] ShardReadPopupData
----@field private ["longTextTrashold"] Int32
----@field private ["animationProxy"] inkanimProxy
----@field private ["player"] PlayerPuppet
----@field private ["mingameBB"] gameIBlackboard
----@field private ["scroll"] inkScrollController
+---@field private titleRef inkTextWidgetReference
+---@field private shortTextRef inkTextWidgetReference
+---@field private longTextRef inkTextWidgetReference
+---@field private shortTextHolderRef inkWidgetReference
+---@field private longTextHolderRef inkWidgetReference
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private buttonHintsManagerParentRef inkWidgetReference
+---@field private buttonHintsSecondaryManagerRef inkWidgetReference
+---@field private buttonHintsSecondaryManagerParentRef inkWidgetReference
+---@field private imageWidget inkImageWidgetReference
+---@field private scrollWidget inkWidgetReference
+---@field private data ShardReadPopupData
+---@field private longTextTrashold Int32
+---@field private animationProxy inkanimProxy
+---@field private player PlayerPuppet
+---@field private mingameBB gameIBlackboard
+---@field private scroll inkScrollController
 ShardNotificationController = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questDropItemFromSlot_NodeTypeParams
----@field public ["objectRef"] gameEntityReference
----@field public ["slotId"] TweakDBID
----@field public ["useGravity"] Bool
+---@field public objectRef gameEntityReference
+---@field public slotId TweakDBID
+---@field public useGravity Bool
 questDropItemFromSlot_NodeTypeParams = {}
 
 ---@param fields? table

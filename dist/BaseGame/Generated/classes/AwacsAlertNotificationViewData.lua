@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AwacsAlertNotificationViewData: gameuiGenericNotificationViewData
----@field public ["canBeMerged"] Bool
+---@field public canBeMerged Bool
 AwacsAlertNotificationViewData = {}
 
 ---@param fields? table

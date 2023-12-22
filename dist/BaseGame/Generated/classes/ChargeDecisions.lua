@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ChargeDecisions: WeaponTransition
----@field private ["callbackID"] redCallbackObject
----@field private ["triggerModeCorrect"] Bool
----@field private ["inputPressed"] Bool
+---@field private callbackID redCallbackObject
+---@field private triggerModeCorrect Bool
+---@field private inputPressed Bool
 ChargeDecisions = {}
 
 ---@param fields? table

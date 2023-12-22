@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class UIGameContext: Enum
----@field ["Default"] UIGameContext 0
----@field ["QuickHack"] UIGameContext 1
----@field ["Scanning"] UIGameContext 2
----@field ["DeviceZoom"] UIGameContext 3
----@field ["BraindanceEditor"] UIGameContext 4
----@field ["BraindancePlayback"] UIGameContext 5
----@field ["VehicleMounted"] UIGameContext 6
----@field ["ModalPopup"] UIGameContext 7
----@field ["RadialWheel"] UIGameContext 8
----@field ["VehicleRace"] UIGameContext 9
----@field ["Berserk"] UIGameContext 10
+---@field Default 0
+---@field QuickHack 1
+---@field Scanning 2
+---@field DeviceZoom 3
+---@field BraindanceEditor 4
+---@field BraindancePlayback 5
+---@field VehicleMounted 6
+---@field ModalPopup 7
+---@field RadialWheel 8
+---@field VehicleRace 9
+---@field Berserk 10
 UIGameContext = {}

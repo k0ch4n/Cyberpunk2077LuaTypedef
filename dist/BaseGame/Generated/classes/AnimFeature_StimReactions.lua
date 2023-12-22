@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AnimFeature_StimReactions: animAnimFeature
----@field public ["reactionType"] Int32
+---@field public reactionType Int32
 AnimFeature_StimReactions = {}
 
 ---@param fields? table

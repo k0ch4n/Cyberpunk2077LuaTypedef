@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMountAIEvent: AIAIEvent
----@field public ["data"] gameMountEventData
+---@field public data gameMountEventData
 gameMountAIEvent = {}
 
 ---@param fields? table

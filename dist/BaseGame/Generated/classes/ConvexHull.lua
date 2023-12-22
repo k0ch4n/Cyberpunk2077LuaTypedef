@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConvexHull
----@field public ["planes"] Vector4[]
+---@field public planes Vector4[]
 ConvexHull = {}
 
 ---@param fields? table

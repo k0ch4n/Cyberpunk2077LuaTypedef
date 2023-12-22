@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class GenericButtonController: inkWidgetLogicController
----@field private ["label"] inkTextWidgetReference
----@field private ["frameHovered"] inkWidgetReference
----@field private ["itemHovered"] Bool
----@field private ["enabled"] Bool
+---@field private label inkTextWidgetReference
+---@field private frameHovered inkWidgetReference
+---@field private itemHovered Bool
+---@field private enabled Bool
 GenericButtonController = {}
 
 ---@param fields? table

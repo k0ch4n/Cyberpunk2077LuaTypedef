@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class QuestTrackerGameController: gameuiHUDGameController
----@field private ["questTrackerContainer"] inkWidgetReference
----@field private ["QuestTitle"] inkTextWidgetReference
----@field private ["ObjectiveContainer"] inkCompoundWidgetReference
----@field private ["TrackedMappinTitle"] inkTextWidgetReference
----@field private ["TrackedMappinContainer"] inkWidgetReference
----@field private ["TrackedMappinObjectiveContainer"] inkCompoundWidgetReference
----@field private ["player"] gameObject
----@field protected ["mappinSystem"] gamemappinsMappinSystem
----@field protected ["journalManager"] gameJournalManager
----@field protected ["bufferedEntry"] gameJournalQuestObjective
----@field protected ["bufferedPhase"] gameJournalQuestPhase
----@field protected ["bufferedQuest"] gameJournalQuest
----@field private ["root"] inkWidget
----@field private ["blackboard"] gameIBlackboard
----@field private ["uiSystemBB"] UI_SystemDef
----@field private ["uiSystemId"] redCallbackObject
----@field private ["trackedMappinId"] redCallbackObject
----@field private ["trackedMappinSpawnRequest"] inkAsyncSpawnRequest
----@field private ["currentMappin"] gamemappinsIMappin
+---@field private questTrackerContainer inkWidgetReference
+---@field private QuestTitle inkTextWidgetReference
+---@field private ObjectiveContainer inkCompoundWidgetReference
+---@field private TrackedMappinTitle inkTextWidgetReference
+---@field private TrackedMappinContainer inkWidgetReference
+---@field private TrackedMappinObjectiveContainer inkCompoundWidgetReference
+---@field private player gameObject
+---@field protected mappinSystem gamemappinsMappinSystem
+---@field protected journalManager gameJournalManager
+---@field protected bufferedEntry gameJournalQuestObjective
+---@field protected bufferedPhase gameJournalQuestPhase
+---@field protected bufferedQuest gameJournalQuest
+---@field private root inkWidget
+---@field private blackboard gameIBlackboard
+---@field private uiSystemBB UI_SystemDef
+---@field private uiSystemId redCallbackObject
+---@field private trackedMappinId redCallbackObject
+---@field private trackedMappinSpawnRequest inkAsyncSpawnRequest
+---@field private currentMappin gamemappinsIMappin
 QuestTrackerGameController = {}
 
 ---@param fields? table

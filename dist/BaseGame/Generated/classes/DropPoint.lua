@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DropPoint: BasicDistractionDevice
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
----@field private ["mappinID"] gameNewMappinID
----@field private ["mappinInSystem"] Bool
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
+---@field private mappinID gameNewMappinID
+---@field private mappinInSystem Bool
 DropPoint = {}
 
 ---@param fields? table

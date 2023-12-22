@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BaseBunkerComputerGameController: gameuiBaseBunkerComputerGameController
----@field public ["factsSet"] BunkerSystemsFactsSet
----@field public ["gateClosedFact"] CName
+---@field public factsSet BunkerSystemsFactsSet
+---@field public gateClosedFact CName
 BaseBunkerComputerGameController = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamePhantomEntityComponent: entIComponent
----@field public ["params"] gamePhantomEntityParameters
----@field public ["effectBinding"] gameEffectComponentBinding
+---@field public params gamePhantomEntityParameters
+---@field public effectBinding gameEffectComponentBinding
 gamePhantomEntityComponent = {}
 
 ---@param fields? table

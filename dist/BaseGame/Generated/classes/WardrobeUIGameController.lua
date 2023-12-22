@@ -2,29 +2,29 @@
 ---@diagnostic disable
 
 ---@class WardrobeUIGameController: gameuiMenuGameController
----@field private ["tooltipsManagerRef"] inkWidgetReference
----@field private ["buttonHintsManagerRef"] inkWidgetReference
----@field private ["setEditorWidget"] inkWidgetReference
----@field private ["setGridWidget"] inkCompoundWidgetReference
----@field private ["menuEventDispatcher"] inkMenuEventDispatcher
----@field private ["player"] PlayerPuppet
----@field private ["equipmentSystem"] EquipmentSystem
----@field private ["setEditorController"] WardrobeSetEditorUIController
----@field private ["isMainScreen"] Bool
----@field private ["tooltipsManager"] gameuiTooltipsManager
----@field private ["buttonHintsController"] ButtonHints
----@field private ["sets"] gameClothingSet[]
----@field private ["currentSetController"] ClothingSetController
----@field private ["maxSetsAmount"] Int32
----@field private ["setControllers"] ClothingSetController[]
----@field private ["confirmationRequestToken"] inkGameNotificationToken
----@field private ["deletedSetController"] ClothingSetController
----@field private ["introAnimProxy"] inkanimProxy
----@field private ["outroAnimProxy"] inkanimProxy
----@field private ["introFinished"] Bool
----@field private ["finalEquippedSet"] gameWardrobeClothingSetIndex
----@field private ["equipmentBlackboard"] gameIBlackboard
----@field private ["equipmentInProgressCallback"] redCallbackObject
+---@field private tooltipsManagerRef inkWidgetReference
+---@field private buttonHintsManagerRef inkWidgetReference
+---@field private setEditorWidget inkWidgetReference
+---@field private setGridWidget inkCompoundWidgetReference
+---@field private menuEventDispatcher inkMenuEventDispatcher
+---@field private player PlayerPuppet
+---@field private equipmentSystem EquipmentSystem
+---@field private setEditorController WardrobeSetEditorUIController
+---@field private isMainScreen Bool
+---@field private tooltipsManager gameuiTooltipsManager
+---@field private buttonHintsController ButtonHints
+---@field private sets gameClothingSet[]
+---@field private currentSetController ClothingSetController
+---@field private maxSetsAmount Int32
+---@field private setControllers ClothingSetController[]
+---@field private confirmationRequestToken inkGameNotificationToken
+---@field private deletedSetController ClothingSetController
+---@field private introAnimProxy inkanimProxy
+---@field private outroAnimProxy inkanimProxy
+---@field private introFinished Bool
+---@field private finalEquippedSet gameWardrobeClothingSetIndex
+---@field private equipmentBlackboard gameIBlackboard
+---@field private equipmentInProgressCallback redCallbackObject
 WardrobeUIGameController = {}
 
 ---@param fields? table

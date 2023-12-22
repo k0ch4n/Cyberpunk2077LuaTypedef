@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameeventsCameraShakeEvent: redEvent
----@field public ["shakeStrength"] Float
+---@field public shakeStrength Float
 gameeventsCameraShakeEvent = {}
 
 ---@param fields? table

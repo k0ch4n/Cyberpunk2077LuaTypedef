@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EViabilityDecision: Enum
----@field ["INCONCLUSIVE"] EViabilityDecision 0
----@field ["VIABLE"] EViabilityDecision 1
----@field ["NONVIABLE"] EViabilityDecision 2
+---@field INCONCLUSIVE 0
+---@field VIABLE 1
+---@field NONVIABLE 2
 EViabilityDecision = {}

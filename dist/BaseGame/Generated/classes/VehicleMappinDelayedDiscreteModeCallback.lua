@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleMappinDelayedDiscreteModeCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public ["vehicleMappinComponent"] VehicleMappinComponent
+---@field public vehicleMappinComponent VehicleMappinComponent
 VehicleMappinDelayedDiscreteModeCallback = {}
 
 ---@param fields? table

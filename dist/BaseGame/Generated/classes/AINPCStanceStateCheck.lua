@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AINPCStanceStateCheck: AINPCStateCheck
----@field public ["blackboard"] gameIBlackboard
+---@field public blackboard gameIBlackboard
 AINPCStanceStateCheck = {}
 
 ---@private

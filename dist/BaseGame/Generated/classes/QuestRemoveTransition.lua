@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestRemoveTransition: redEvent
----@field public ["removeTransitionFrom"] Int32
+---@field public removeTransitionFrom Int32
 QuestRemoveTransition = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ShouldExitVehicle: AIVehicleConditionAbstract
----@field protected ["bb"] gameIBlackboard
----@field protected ["mf"] gamemountingIMountingFacility
----@field protected ["initialized"] Bool
+---@field protected bb gameIBlackboard
+---@field protected mf gamemountingIMountingFacility
+---@field protected initialized Bool
 ShouldExitVehicle = {}
 
 ---@param fields? table

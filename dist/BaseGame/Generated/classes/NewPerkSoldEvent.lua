@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NewPerkSoldEvent: redEvent
----@field public ["perkType"] gamedataNewPerkType
----@field public ["perkLevelSold"] Int32
+---@field public perkType gamedataNewPerkType
+---@field public perkLevelSold Int32
 NewPerkSoldEvent = {}
 
 ---@param fields? table

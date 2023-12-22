@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsQueryPreset
----@field public ["presetName"] CName
+---@field public presetName CName
 physicsQueryPreset = {}
 
 ---@param fields? table

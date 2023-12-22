@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ReactionManagerTask: AIbehaviortaskScript
----@field protected ["reactionData"] AIReactionData
+---@field protected reactionData AIReactionData
 ReactionManagerTask = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerCombatControllerBBListeners
----@field public ["crouchActive"] redCallbackObject
+---@field public crouchActive redCallbackObject
 PlayerCombatControllerBBListeners = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class HearStimThreshold: AIbehaviorconditionScript
----@field public ["thresholdNumber"] Int32
+---@field public thresholdNumber Int32
 HearStimThreshold = {}
 
 ---@param fields? table

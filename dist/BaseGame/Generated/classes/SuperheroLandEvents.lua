@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SuperheroLandEvents: AbstractLandEvents
----@field public ["spawnedLandingAttack"] Bool
----@field public ["superheroFallTime"] Float
+---@field public spawnedLandingAttack Bool
+---@field public superheroFallTime Float
 SuperheroLandEvents = {}
 
 ---@param fields? table

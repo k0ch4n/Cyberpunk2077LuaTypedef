@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MessengerThreadSelectedEvent: redEvent
----@field public ["hash"] Uint32
+---@field public hash Uint32
 MessengerThreadSelectedEvent = {}
 
 ---@param fields? table

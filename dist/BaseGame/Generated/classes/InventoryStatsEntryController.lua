@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryStatsEntryController: inkWidgetLogicController
----@field protected ["iconWidget"] inkImageWidgetReference
----@field protected ["labelWidget"] inkTextWidgetReference
----@field protected ["valueWidget"] inkTextWidgetReference
+---@field protected iconWidget inkImageWidgetReference
+---@field protected labelWidget inkTextWidgetReference
+---@field protected valueWidget inkTextWidgetReference
 InventoryStatsEntryController = {}
 
 ---@param fields? table

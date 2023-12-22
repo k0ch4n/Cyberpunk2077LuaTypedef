@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuyPerk: gamePlayerScriptableSystemRequest
----@field public ["perkType"] gamedataPerkType
+---@field public perkType gamedataPerkType
 BuyPerk = {}
 
 ---@param fields? table

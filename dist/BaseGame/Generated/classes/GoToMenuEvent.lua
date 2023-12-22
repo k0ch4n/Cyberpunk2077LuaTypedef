@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GoToMenuEvent: redEvent
----@field public ["menuType"] EComputerMenuType
----@field public ["wakeUp"] Bool
----@field public ["ownerID"] entEntityID
+---@field public menuType EComputerMenuType
+---@field public wakeUp Bool
+---@field public ownerID entEntityID
 GoToMenuEvent = {}
 
 ---@param fields? table

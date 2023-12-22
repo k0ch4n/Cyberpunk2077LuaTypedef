@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMinimize_NodeType: questIPhoneManagerNodeType
----@field public ["minimize"] Bool
+---@field public minimize Bool
 questMinimize_NodeType = {}
 
 ---@param fields? table

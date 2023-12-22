@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SecurityAlarmControllerPS: MasterControllerPS
----@field protected ["securityAlarmSetup"] SecurityAlarmSetup
----@field private ["securityAlarmState"] ESecuritySystemState
+---@field protected securityAlarmSetup SecurityAlarmSetup
+---@field private securityAlarmState ESecuritySystemState
 SecurityAlarmControllerPS = {}
 
 ---@param fields? table

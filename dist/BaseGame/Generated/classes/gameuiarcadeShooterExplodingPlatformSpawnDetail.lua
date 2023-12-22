@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterExplodingPlatformSpawnDetail
----@field public ["spawnPlatformName"] CName
----@field public ["explodingPlatformsNames"] CName[]
+---@field public spawnPlatformName CName
+---@field public explodingPlatformsNames CName[]
 gameuiarcadeShooterExplodingPlatformSpawnDetail = {}
 
 ---@param fields? table

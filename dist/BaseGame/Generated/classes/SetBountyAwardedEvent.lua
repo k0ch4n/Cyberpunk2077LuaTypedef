@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SetBountyAwardedEvent: redEvent
----@field public ["awarded"] Bool
+---@field public awarded Bool
 SetBountyAwardedEvent = {}
 
 ---@param fields? table

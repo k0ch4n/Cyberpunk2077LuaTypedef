@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class PassiveCrowdCombatConditions: PassiveAutonomousCondition
----@field protected ["threatCbId"] Uint32
----@field protected ["delayEvaluationCbId"] Uint32
----@field protected ["onItemAddedToSlotCbId"] Uint32
----@field protected ["crowdCombatConditionCbId"] Uint32
+---@field protected threatCbId Uint32
+---@field protected delayEvaluationCbId Uint32
+---@field protected onItemAddedToSlotCbId Uint32
+---@field protected crowdCombatConditionCbId Uint32
 PassiveCrowdCombatConditions = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiAdvertLightColorPickerController: inkWidgetLogicController
----@field public ["lightColor"] Color
+---@field public lightColor Color
 gameuiAdvertLightColorPickerController = {}
 
 ---@param fields? table

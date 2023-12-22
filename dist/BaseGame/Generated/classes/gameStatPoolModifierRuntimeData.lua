@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameStatPoolModifierRuntimeData
----@field public ["modifier"] gameStatPoolModifier
----@field public ["modificationDelay"] Float
----@field public ["inRange"] Bool
----@field public ["recordID"] TweakDBID
+---@field public modifier gameStatPoolModifier
+---@field public modificationDelay Float
+---@field public inRange Bool
+---@field public recordID TweakDBID
 gameStatPoolModifierRuntimeData = {}
 
 ---@param fields? table

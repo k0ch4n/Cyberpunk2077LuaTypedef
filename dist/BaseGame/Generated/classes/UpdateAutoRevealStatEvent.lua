@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class UpdateAutoRevealStatEvent: redEvent
----@field public ["hasAutoReveal"] Bool
+---@field public hasAutoReveal Bool
 UpdateAutoRevealStatEvent = {}
 
 ---@param fields? table

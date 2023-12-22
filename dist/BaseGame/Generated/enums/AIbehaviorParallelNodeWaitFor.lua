@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorParallelNodeWaitFor: Enum
----@field ["LeftChild"] AIbehaviorParallelNodeWaitFor 0
----@field ["RightChild"] AIbehaviorParallelNodeWaitFor 1
----@field ["AllChildren"] AIbehaviorParallelNodeWaitFor 2
----@field ["BothChildren"] AIbehaviorParallelNodeWaitFor 2
----@field ["AnyChild"] AIbehaviorParallelNodeWaitFor 3
+---@field LeftChild 0
+---@field RightChild 1
+---@field AllChildren 2
+---@field BothChildren 2
+---@field AnyChild 3
 AIbehaviorParallelNodeWaitFor = {}

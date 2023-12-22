@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vgVectorGraphicShape_Circle: vgBaseVectorGraphicShape
----@field public ["dius"] Float
+---@field public dius Float
 vgVectorGraphicShape_Circle = {}
 
 ---@param fields? table

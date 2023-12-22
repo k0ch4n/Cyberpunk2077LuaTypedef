@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectAnimationDatabase: ISerializable
----@field public ["animationData"] gameAnimationExtractedData[]
----@field public ["bodyTypesData"] gameBodyTypeData[]
+---@field public animationData gameAnimationExtractedData[]
+---@field public bodyTypesData gameBodyTypeData[]
 gameSmartObjectAnimationDatabase = {}
 
 ---@param fields? table

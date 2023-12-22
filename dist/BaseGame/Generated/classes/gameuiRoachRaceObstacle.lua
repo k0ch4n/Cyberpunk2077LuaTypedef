@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiRoachRaceObstacle
----@field public ["interval"] Float
----@field public ["dynObjectType"] CName
+---@field public interval Float
+---@field public dynObjectType CName
 gameuiRoachRaceObstacle = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDeviceResource: CResource
----@field public ["data"] gameDeviceResourceData
+---@field public data gameDeviceResourceData
 gameDeviceResource = {}
 
 ---@param fields? table

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EProgressBarContext: Enum
----@field ["QuickHack"] EProgressBarContext 0
----@field ["PhoneCall"] EProgressBarContext 1
+---@field QuickHack 0
+---@field PhoneCall 1
 EProgressBarContext = {}

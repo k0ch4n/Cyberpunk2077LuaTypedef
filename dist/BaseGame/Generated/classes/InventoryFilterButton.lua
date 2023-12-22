@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InventoryFilterButton: BaseButtonView
----@field private ["Label"] inkTextWidgetReference
----@field private ["InputIcon"] inkImageWidgetReference
----@field private ["IntroPlayed"] Bool
+---@field private Label inkTextWidgetReference
+---@field private InputIcon inkImageWidgetReference
+---@field private IntroPlayed Bool
 InventoryFilterButton = {}
 
 ---@param fields? table

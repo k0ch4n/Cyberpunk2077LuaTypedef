@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSaveEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public ["eventData"] AIArgumentMapping
+---@field public eventData AIArgumentMapping
 AIbehaviorSaveEventResolverDefinition = {}
 
 ---@param fields? table

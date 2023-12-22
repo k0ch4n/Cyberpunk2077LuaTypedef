@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class muliplayerInteractionTest: gameObject
----@field public ["counter"] Int32
+---@field public counter Int32
 muliplayerInteractionTest = {}
 
 ---@param fields? table

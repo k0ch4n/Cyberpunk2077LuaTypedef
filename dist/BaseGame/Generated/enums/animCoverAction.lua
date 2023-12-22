@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class animCoverAction: Enum
----@field ["NoAction"] animCoverAction 0
----@field ["LeanLeft"] animCoverAction 1
----@field ["LeanRight"] animCoverAction 2
----@field ["StepOutLeft"] animCoverAction 3
----@field ["StepOutRight"] animCoverAction 4
----@field ["LeanOver"] animCoverAction 5
----@field ["StepUp"] animCoverAction 6
----@field ["EnterCover"] animCoverAction 7
----@field ["SlideTo"] animCoverAction 8
----@field ["Vault"] animCoverAction 9
----@field ["LeaveCover"] animCoverAction 10
----@field ["BlindfireLeft"] animCoverAction 11
----@field ["BlindfireRight"] animCoverAction 12
----@field ["BlindfireOver"] animCoverAction 13
----@field ["OverheadStepOutLeft"] animCoverAction 14
----@field ["OverheadStepOutRight"] animCoverAction 15
----@field ["OverheadStepUp"] animCoverAction 16
+---@field NoAction 0
+---@field LeanLeft 1
+---@field LeanRight 2
+---@field StepOutLeft 3
+---@field StepOutRight 4
+---@field LeanOver 5
+---@field StepUp 6
+---@field EnterCover 7
+---@field SlideTo 8
+---@field Vault 9
+---@field LeaveCover 10
+---@field BlindfireLeft 11
+---@field BlindfireRight 12
+---@field BlindfireOver 13
+---@field OverheadStepOutLeft 14
+---@field OverheadStepOutRight 15
+---@field OverheadStepUp 16
 animCoverAction = {}

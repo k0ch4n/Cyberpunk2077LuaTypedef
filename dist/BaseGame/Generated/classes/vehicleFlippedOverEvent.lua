@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleFlippedOverEvent: redEvent
----@field public ["isFlippedOver"] Bool
+---@field public isFlippedOver Bool
 vehicleFlippedOverEvent = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class NcartTimetable: InteractiveDevice
----@field private ["isShortGlitchActive"] Bool
----@field private ["shortGlitchDelayID"] gameDelayID
+---@field private isShortGlitchActive Bool
+---@field private shortGlitchDelayID gameDelayID
 NcartTimetable = {}
 
 ---@param fields? table

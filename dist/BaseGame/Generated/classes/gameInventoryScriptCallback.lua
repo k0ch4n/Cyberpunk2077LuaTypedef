@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameInventoryScriptCallback: IScriptable
----@field public ["itemID"] gameItemID
+---@field public itemID gameItemID
 gameInventoryScriptCallback = {}
 
 ---@param fields? table

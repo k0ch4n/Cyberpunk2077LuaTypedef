@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EntityAttachementRequestEvent: redEvent
----@field public ["attachementData"] EntityAttachementData
+---@field public attachementData EntityAttachementData
 EntityAttachementRequestEvent = {}
 
 ---@param fields? table

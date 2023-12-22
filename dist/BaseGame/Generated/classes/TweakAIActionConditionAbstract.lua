@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TweakAIActionConditionAbstract: AIbehaviorconditionScript
----@field private ["actionRecord"] gamedataAIAction_Record
----@field private ["actionDebugName"] String
+---@field private actionRecord gamedataAIAction_Record
+---@field private actionDebugName String
 TweakAIActionConditionAbstract = {}
 
 ---@private

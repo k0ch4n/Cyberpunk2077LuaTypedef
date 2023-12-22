@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnVoicetagId
----@field public ["id"] CRUID
+---@field public id CRUID
 scnVoicetagId = {}
 
 ---@param fields? table

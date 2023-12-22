@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RipperDocItemBoughtCallback: gameInventoryScriptCallback
----@field private ["eventTarget"] RipperDocGameController
+---@field private eventTarget RipperDocGameController
 RipperDocItemBoughtCallback = {}
 
 ---@param fields? table

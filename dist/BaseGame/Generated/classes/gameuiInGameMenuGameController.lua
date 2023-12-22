@@ -2,23 +2,23 @@
 ---@diagnostic disable
 
 ---@class gameuiInGameMenuGameController: gameuiBaseMenuGameController
----@field public ["itemSceneInfos"] gameuiInGameMenuGameControllerItemSceneInfo[]
----@field public ["garmentSwitchEffectControllers"] gameuiGarmentSwitchEffectController[]
----@field private ["quickSaveInProgress"] Bool
----@field private ["wasHoldingMapHotKey"] Bool
----@field private ["controllerDisconnected"] Bool
----@field private ["showDeathScreenBBID"] redCallbackObject
----@field private ["breachingNetworkBBID"] redCallbackObject
----@field private ["triggerMenuEventBBID"] redCallbackObject
----@field private ["openStorageBBID"] redCallbackObject
----@field private ["controllerDisconnectedBBID"] redCallbackObject
----@field private ["bbOnEquipmentChangedID"] redCallbackObject
----@field private ["inputSchemesBBID"] redCallbackObject
----@field private ["inventoryListener"] gameAttachmentSlotsScriptListener
----@field private ["animContainer"] inGameMenuAnimContainer
----@field private ["lastInGameNotificationType"] UIInGameNotificationType
----@field private ["loadSaveDelayID"] gameDelayID
----@field private ["player"] gameObject
+---@field public itemSceneInfos gameuiInGameMenuGameControllerItemSceneInfo[]
+---@field public garmentSwitchEffectControllers gameuiGarmentSwitchEffectController[]
+---@field private quickSaveInProgress Bool
+---@field private wasHoldingMapHotKey Bool
+---@field private controllerDisconnected Bool
+---@field private showDeathScreenBBID redCallbackObject
+---@field private breachingNetworkBBID redCallbackObject
+---@field private triggerMenuEventBBID redCallbackObject
+---@field private openStorageBBID redCallbackObject
+---@field private controllerDisconnectedBBID redCallbackObject
+---@field private bbOnEquipmentChangedID redCallbackObject
+---@field private inputSchemesBBID redCallbackObject
+---@field private inventoryListener gameAttachmentSlotsScriptListener
+---@field private animContainer inGameMenuAnimContainer
+---@field private lastInGameNotificationType UIInGameNotificationType
+---@field private loadSaveDelayID gameDelayID
+---@field private player gameObject
 gameuiInGameMenuGameController = {}
 
 ---@param fields? table

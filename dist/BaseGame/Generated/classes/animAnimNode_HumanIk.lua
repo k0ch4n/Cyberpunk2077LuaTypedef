@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimNode_HumanIk: animAnimNode_OnePoseInput
----@field public ["ikTargetsControllers"] animTEMP_IKTargetsControllerBodyType[]
+---@field public ikTargetsControllers animTEMP_IKTargetsControllerBodyType[]
 animAnimNode_HumanIk = {}
 
 ---@param fields? table

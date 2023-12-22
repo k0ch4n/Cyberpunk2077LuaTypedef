@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkInputHintKeyCombinationType: Enum
----@field ["Or"] inkInputHintKeyCombinationType 0
----@field ["And"] inkInputHintKeyCombinationType 1
+---@field Or 0
+---@field And 1
 inkInputHintKeyCombinationType = {}

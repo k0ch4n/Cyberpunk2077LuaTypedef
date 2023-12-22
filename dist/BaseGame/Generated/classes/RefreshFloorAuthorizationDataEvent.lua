@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class RefreshFloorAuthorizationDataEvent: redEvent
----@field public ["passToEntity"] Bool
+---@field public passToEntity Bool
 RefreshFloorAuthorizationDataEvent = {}
 
 ---@param fields? table

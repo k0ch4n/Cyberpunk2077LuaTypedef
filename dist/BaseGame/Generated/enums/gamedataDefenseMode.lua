@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataDefenseMode: Enum
----@field ["DefendAll"] gamedataDefenseMode 0
----@field ["DefendMelee"] gamedataDefenseMode 1
----@field ["DefendRanged"] gamedataDefenseMode 2
----@field ["NoDefend"] gamedataDefenseMode 3
----@field ["Count"] gamedataDefenseMode 4
----@field ["Invalid"] gamedataDefenseMode 5
+---@field DefendAll 0
+---@field DefendMelee 1
+---@field DefendRanged 2
+---@field NoDefend 3
+---@field Count 4
+---@field Invalid 5
 gamedataDefenseMode = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameuiDriverCombatCrosshairReticleDataState: Enum
----@field ["Default"] gameuiDriverCombatCrosshairReticleDataState 0
----@field ["Dot"] gameuiDriverCombatCrosshairReticleDataState 1
+---@field Default 0
+---@field Dot 1
 gameuiDriverCombatCrosshairReticleDataState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CraftingNotification: GenericNotificationController
----@field private ["introAnimation"] inkanimProxy
+---@field private introAnimation inkanimProxy
 CraftingNotification = {}
 
 ---@param fields? table

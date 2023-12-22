@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ProcessQueuedCombatExperience: gamePlayerScriptableSystemRequest
----@field public ["entity"] entEntityID
+---@field public entity entEntityID
 ProcessQueuedCombatExperience = {}
 
 ---@param fields? table

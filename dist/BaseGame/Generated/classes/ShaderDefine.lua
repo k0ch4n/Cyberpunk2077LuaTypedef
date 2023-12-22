@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ShaderDefine
----@field public ["name"] String
----@field public ["value"] String
+---@field public name String
+---@field public value String
 ShaderDefine = {}
 
 ---@param fields? table

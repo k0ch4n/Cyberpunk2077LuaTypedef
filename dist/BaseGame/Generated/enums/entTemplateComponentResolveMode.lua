@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entTemplateComponentResolveMode: Enum
----@field ["AutoSelect"] entTemplateComponentResolveMode 0
----@field ["Select"] entTemplateComponentResolveMode 1
----@field ["Suppress"] entTemplateComponentResolveMode 2
+---@field AutoSelect 0
+---@field Select 1
+---@field Suppress 2
 entTemplateComponentResolveMode = {}

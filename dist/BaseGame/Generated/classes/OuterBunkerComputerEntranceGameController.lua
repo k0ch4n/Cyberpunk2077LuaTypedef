@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class OuterBunkerComputerEntranceGameController: gameuiBaseBunkerComputerGameController
----@field public ["harvestIntroAnimName"] CName
----@field public ["harvestLoop1AnimName"] CName
----@field public ["harvestLoop2AnimName"] CName
----@field public ["harvestLoop3AnimName"] CName
----@field public ["harvestOutroAnimName"] CName
+---@field public harvestIntroAnimName CName
+---@field public harvestLoop1AnimName CName
+---@field public harvestLoop2AnimName CName
+---@field public harvestLoop3AnimName CName
+---@field public harvestOutroAnimName CName
 OuterBunkerComputerEntranceGameController = {}
 
 ---@param fields? table

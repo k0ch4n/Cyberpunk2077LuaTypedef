@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiLevelUpNotificationViewData: gameuiGenericNotificationViewData
----@field public ["canBeMerged"] Bool
----@field public ["levelupdata"] questLevelUpData
----@field public ["proficiencyRecord"] gamedataProficiency_Record
----@field public ["profString"] String
+---@field public canBeMerged Bool
+---@field public levelupdata questLevelUpData
+---@field public proficiencyRecord gamedataProficiency_Record
+---@field public profString String
 gameuiLevelUpNotificationViewData = {}
 
 ---@param fields? table

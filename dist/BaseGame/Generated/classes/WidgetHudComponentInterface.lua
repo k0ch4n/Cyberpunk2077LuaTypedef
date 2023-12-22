@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class WidgetHudComponentInterface: WidgetBaseComponent
----@field public ["hudEntriesResource"] inkHudEntriesResource
----@field public ["externalMaterial"] CMaterialTemplate
----@field public ["meshTargetBinding"] worlduiMeshTargetBinding
+---@field public hudEntriesResource inkHudEntriesResource
+---@field public externalMaterial CMaterialTemplate
+---@field public meshTargetBinding worlduiMeshTargetBinding
 WidgetHudComponentInterface = {}
 
 ---@param fields? table

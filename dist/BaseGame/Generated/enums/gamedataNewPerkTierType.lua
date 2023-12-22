@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamedataNewPerkTierType: Enum
----@field ["AdeptNewPerkTier"] gamedataNewPerkTierType 0
----@field ["EspionageNewPerkTier"] gamedataNewPerkTierType 1
----@field ["ExpertNewPerkTier"] gamedataNewPerkTierType 2
----@field ["MasterNewPerkTier"] gamedataNewPerkTierType 3
----@field ["NoviceNewPerkTier"] gamedataNewPerkTierType 4
----@field ["Count"] gamedataNewPerkTierType 5
----@field ["Invalid"] gamedataNewPerkTierType 6
+---@field AdeptNewPerkTier 0
+---@field EspionageNewPerkTier 1
+---@field ExpertNewPerkTier 2
+---@field MasterNewPerkTier 3
+---@field NoviceNewPerkTier 4
+---@field Count 5
+---@field Invalid 6
 gamedataNewPerkTierType = {}

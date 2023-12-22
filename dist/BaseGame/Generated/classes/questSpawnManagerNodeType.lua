@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class questSpawnManagerNodeType: questIRetNodeType
----@field public ["action"] populationSpawnerObjectCtrlAction
+---@field public action populationSpawnerObjectCtrlAction
 questSpawnManagerNodeType = {}

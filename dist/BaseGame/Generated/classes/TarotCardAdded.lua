@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TarotCardAdded: redEvent
----@field public ["imagePart"] CName
----@field public ["cardName"] String
+---@field public imagePart CName
+---@field public cardName String
 TarotCardAdded = {}
 
 ---@param fields? table

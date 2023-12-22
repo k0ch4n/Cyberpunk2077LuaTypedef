@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SpeakerControllerPS: ScriptableDeviceComponentPS
----@field protected ["speakerSetup"] SpeakerSetup
----@field private ["currentValue"] CName
----@field private ["previousValue"] CName
+---@field protected speakerSetup SpeakerSetup
+---@field private currentValue CName
+---@field private previousValue CName
 SpeakerControllerPS = {}
 
 ---@param fields? table

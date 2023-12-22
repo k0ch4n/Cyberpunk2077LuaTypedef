@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DEBUG_RebalanceItemEvent: redEvent
----@field public ["reqLevel"] Float
+---@field public reqLevel Float
 DEBUG_RebalanceItemEvent = {}
 
 ---@param fields? table

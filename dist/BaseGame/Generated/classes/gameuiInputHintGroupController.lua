@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameuiInputHintGroupController: inkWidgetLogicController
----@field public ["titleTextRef"] inkTextWidgetReference
----@field public ["descriptionTextRef"] inkTextWidgetReference
----@field public ["hintsContainerRef"] inkCompoundWidgetReference
----@field public ["iconRef"] inkImageWidgetReference
+---@field public titleTextRef inkTextWidgetReference
+---@field public descriptionTextRef inkTextWidgetReference
+---@field public hintsContainerRef inkCompoundWidgetReference
+---@field public iconRef inkImageWidgetReference
 gameuiInputHintGroupController = {}
 
 ---@param fields? table

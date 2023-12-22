@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entEntity: IScriptable
----@field public ["customCameraTarget"] ECustomCameraTarget
----@field public ["renderSceneLayerMask"] RenderSceneLayerMask
+---@field public customCameraTarget ECustomCameraTarget
+---@field public renderSceneLayerMask RenderSceneLayerMask
 entEntity = {}
 
 ---@param fields? table

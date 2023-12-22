@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GetTargetLastKnownPosition: AIbehaviortaskScript
----@field protected ["inTargetObject"] AIArgumentMapping
----@field protected ["outPosition"] AIArgumentMapping
----@field protected ["predictionTime"] Float
+---@field protected inTargetObject AIArgumentMapping
+---@field protected outPosition AIArgumentMapping
+---@field protected predictionTime Float
 GetTargetLastKnownPosition = {}
 
 ---@param fields? table

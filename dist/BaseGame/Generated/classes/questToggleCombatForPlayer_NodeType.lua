@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questToggleCombatForPlayer_NodeType: questIVehicleManagerNodeType
----@field public ["startCombat"] Bool
+---@field public startCombat Bool
 questToggleCombatForPlayer_NodeType = {}
 
 ---@param fields? table

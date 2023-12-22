@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsSystemResource: CResource
----@field public ["bodies"] physicsSystemBody[]
----@field public ["joints"] physicsSystemJoint[]
+---@field public bodies physicsSystemBody[]
+---@field public joints physicsSystemJoint[]
 physicsSystemResource = {}
 
 ---@param fields? table

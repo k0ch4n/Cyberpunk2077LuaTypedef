@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEBraindanceLayer: Enum
----@field ["Visual"] gameuiEBraindanceLayer 0
----@field ["Audio"] gameuiEBraindanceLayer 1
----@field ["Thermal"] gameuiEBraindanceLayer 2
+---@field Visual 0
+---@field Audio 1
+---@field Thermal 2
 gameuiEBraindanceLayer = {}

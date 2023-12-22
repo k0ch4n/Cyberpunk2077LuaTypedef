@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DisableFields: gameScriptableSystemRequest
----@field public ["actionMask"] SBraindanceInputMask
+---@field public actionMask SBraindanceInputMask
 DisableFields = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTriggerAreaNode: worldAreaShapeNode
----@field public ["notifiers"] worldITriggerAreaNotifer[]
+---@field public notifiers worldITriggerAreaNotifer[]
 worldTriggerAreaNode = {}
 
 ---@param fields? table

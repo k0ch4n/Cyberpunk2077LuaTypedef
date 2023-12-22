@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsvisInteractionType: Enum
----@field ["LookAt"] gameinteractionsvisInteractionType 0
----@field ["Proximity"] gameinteractionsvisInteractionType 1
+---@field LookAt 0
+---@field Proximity 1
 gameinteractionsvisInteractionType = {}

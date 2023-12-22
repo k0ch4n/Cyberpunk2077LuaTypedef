@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class workWeaponType: Enum
----@field ["Any"] workWeaponType 0
----@field ["Ranged"] workWeaponType 1
----@field ["OneHandedRanged"] workWeaponType 2
----@field ["AssaultRifle"] workWeaponType 3
----@field ["Hammer"] workWeaponType 8
----@field ["Handgun"] workWeaponType 9
----@field ["HeavyMachineGun"] workWeaponType 10
----@field ["Katana"] workWeaponType 11
----@field ["Knife"] workWeaponType 12
----@field ["LightMachineGun"] workWeaponType 13
----@field ["LongBlade"] workWeaponType 14
----@field ["Melee"] workWeaponType 16
----@field ["OneHandedClub"] workWeaponType 17
----@field ["PrecisionRifle"] workWeaponType 18
----@field ["Revolver"] workWeaponType 19
----@field ["Rifle"] workWeaponType 20
----@field ["ShortBlade"] workWeaponType 21
----@field ["Shotgun"] workWeaponType 22
----@field ["ShotgunDual"] workWeaponType 23
----@field ["SniperRifle"] workWeaponType 24
----@field ["SubmachineGun"] workWeaponType 25
----@field ["TwoHandedClub"] workWeaponType 27
+---@field Any 0
+---@field Ranged 1
+---@field OneHandedRanged 2
+---@field AssaultRifle 3
+---@field Hammer 8
+---@field Handgun 9
+---@field HeavyMachineGun 10
+---@field Katana 11
+---@field Knife 12
+---@field LightMachineGun 13
+---@field LongBlade 14
+---@field Melee 16
+---@field OneHandedClub 17
+---@field PrecisionRifle 18
+---@field Revolver 19
+---@field Rifle 20
+---@field ShortBlade 21
+---@field Shotgun 22
+---@field ShotgunDual 23
+---@field SniperRifle 24
+---@field SubmachineGun 25
+---@field TwoHandedClub 27
 workWeaponType = {}

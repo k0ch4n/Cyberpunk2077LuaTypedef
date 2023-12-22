@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class EHitReactionZone: Enum
----@field ["Head"] EHitReactionZone 0
----@field ["ChestLeft"] EHitReactionZone 1
----@field ["ArmLeft"] EHitReactionZone 2
----@field ["HandLeft"] EHitReactionZone 3
----@field ["ChestRight"] EHitReactionZone 4
----@field ["ArmRight"] EHitReactionZone 5
----@field ["HandRight"] EHitReactionZone 6
----@field ["Abdomen"] EHitReactionZone 7
----@field ["LegLeft"] EHitReactionZone 8
----@field ["LegRight"] EHitReactionZone 9
----@field ["Special"] EHitReactionZone 10
+---@field Head 0
+---@field ChestLeft 1
+---@field ArmLeft 2
+---@field HandLeft 3
+---@field ChestRight 4
+---@field ArmRight 5
+---@field HandRight 6
+---@field Abdomen 7
+---@field LegLeft 8
+---@field LegRight 9
+---@field Special 10
 EHitReactionZone = {}

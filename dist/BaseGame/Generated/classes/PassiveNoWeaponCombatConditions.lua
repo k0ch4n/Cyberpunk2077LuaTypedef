@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PassiveNoWeaponCombatConditions: PassiveAutonomousCondition
----@field protected ["delayEvaluationCbId"] Uint32
----@field protected ["onItemAddedToSlotCbId"] Uint32
+---@field protected delayEvaluationCbId Uint32
+---@field protected onItemAddedToSlotCbId Uint32
 PassiveNoWeaponCombatConditions = {}
 
 ---@param fields? table

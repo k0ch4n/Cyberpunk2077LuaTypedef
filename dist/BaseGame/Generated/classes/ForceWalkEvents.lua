@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ForceWalkEvents: LocomotionGroundEvents
----@field public ["storedSpeedValue"] Float
+---@field public storedSpeedValue Float
 ForceWalkEvents = {}
 
 ---@param fields? table

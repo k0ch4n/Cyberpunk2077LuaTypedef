@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class toolsJiraCommentIssueResult: ISerializable
----@field public ["errorMessages"] String[]
+---@field public errorMessages String[]
 toolsJiraCommentIssueResult = {}
 
 ---@param fields? table

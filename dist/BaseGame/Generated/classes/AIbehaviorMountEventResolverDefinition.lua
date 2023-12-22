@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMountEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public ["mountData"] AIArgumentMapping
----@field public ["workspotData"] AIArgumentMapping
----@field public ["isInstant"] AIArgumentMapping
----@field public ["behaviorCallbackName"] CName
+---@field public mountData AIArgumentMapping
+---@field public workspotData AIArgumentMapping
+---@field public isInstant AIArgumentMapping
+---@field public behaviorCallbackName CName
 AIbehaviorMountEventResolverDefinition = {}
 
 ---@param fields? table

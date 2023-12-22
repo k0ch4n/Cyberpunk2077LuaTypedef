@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_FootIK: animAnimEvent
----@field public ["leg"] animLeg
+---@field public leg animLeg
 animAnimEvent_FootIK = {}
 
 ---@param fields? table

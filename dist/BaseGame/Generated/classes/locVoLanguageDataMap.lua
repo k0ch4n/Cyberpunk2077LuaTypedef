@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class locVoLanguageDataMap: ISerializable
----@field public ["entries"] locVoLanguageDataEntry[]
+---@field public entries locVoLanguageDataEntry[]
 locVoLanguageDataMap = {}
 
 ---@param fields? table

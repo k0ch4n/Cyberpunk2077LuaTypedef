@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class moveMovementParameters
----@field public ["type"] moveMovementType
----@field public ["maxSpeed"] Float
----@field public ["acceleration"] Float
----@field public ["deceleration"] Float
----@field public ["rotationSpeed"] Float
+---@field public type moveMovementType
+---@field public maxSpeed Float
+---@field public acceleration Float
+---@field public deceleration Float
+---@field public rotationSpeed Float
 moveMovementParameters = {}
 
 ---@param fields? table

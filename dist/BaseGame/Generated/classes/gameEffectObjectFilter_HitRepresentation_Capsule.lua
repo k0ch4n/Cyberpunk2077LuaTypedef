@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_HitRepresentation_Capsule: gameEffectObjectFilter_HitRepresentation
----@field public ["flattenCapsuleToHeight"] Bool
+---@field public flattenCapsuleToHeight Bool
 gameEffectObjectFilter_HitRepresentation_Capsule = {}
 
 ---@param fields? table

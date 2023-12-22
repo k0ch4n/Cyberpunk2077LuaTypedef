@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class effectTrackItemMotionBlurScale: effectTrackItem
----@field public ["scale"] effectEffectParameterEvaluatorFloat
+---@field public scale effectEffectParameterEvaluatorFloat
 effectTrackItemMotionBlurScale = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DespawnUniqueSubCharacterRequest: gameScriptableSystemRequest
----@field public ["subCharacterID"] TweakDBID
+---@field public subCharacterID TweakDBID
 DespawnUniqueSubCharacterRequest = {}
 
 ---@param fields? table

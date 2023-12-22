@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioMeleeEvent
----@field public ["event"] CName
----@field public ["params"] audioAudSimpleParameter[]
+---@field public event CName
+---@field public params audioAudSimpleParameter[]
 audioMeleeEvent = {}
 
 ---@param fields? table

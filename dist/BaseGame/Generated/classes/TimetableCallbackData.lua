@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class TimetableCallbackData: IScriptable
----@field private ["time"] SSimpleGameTime
----@field private ["recipients"] RecipientData[]
----@field private ["callbackID"] Uint32
+---@field private time SSimpleGameTime
+---@field private recipients RecipientData[]
+---@field private callbackID Uint32
 TimetableCallbackData = {}
 
 ---@param fields? table

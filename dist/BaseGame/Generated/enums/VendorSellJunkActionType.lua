@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class VendorSellJunkActionType: Enum
----@field ["Sell"] VendorSellJunkActionType 0
----@field ["Disassemble"] VendorSellJunkActionType 1
+---@field Sell 0
+---@field Disassemble 1
 VendorSellJunkActionType = {}

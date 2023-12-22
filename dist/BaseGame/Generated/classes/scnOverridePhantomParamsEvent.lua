@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnOverridePhantomParamsEvent: scnSceneEvent
----@field public ["params"] scnOverridePhantomParamsEventParams
+---@field public params scnOverridePhantomParamsEventParams
 scnOverridePhantomParamsEvent = {}
 
 ---@param fields? table

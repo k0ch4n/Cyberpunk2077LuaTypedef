@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class appearanceCookedAppearanceData: CResource
----@field public ["dependencies"] CResource[]
----@field public ["totalSizeOnDisk"] Uint32
+---@field public dependencies CResource[]
+---@field public totalSizeOnDisk Uint32
 appearanceCookedAppearanceData = {}
 
 ---@param fields? table

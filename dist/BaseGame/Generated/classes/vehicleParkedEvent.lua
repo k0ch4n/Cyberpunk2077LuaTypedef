@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleParkedEvent: redEvent
----@field public ["park"] Bool
+---@field public park Bool
 vehicleParkedEvent = {}
 
 ---@param fields? table

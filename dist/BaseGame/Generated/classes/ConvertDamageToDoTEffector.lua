@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ConvertDamageToDoTEffector: ModifyAttackEffector
----@field public ["DamageToDoTConversion"] Float
----@field public ["DotDistributionTime"] Float
----@field public ["statMod"] gameConstantStatModifierData_Deprecated
----@field public ["ownerID"] entEntityID
+---@field public DamageToDoTConversion Float
+---@field public DotDistributionTime Float
+---@field public statMod gameConstantStatModifierData_Deprecated
+---@field public ownerID entEntityID
 ConvertDamageToDoTEffector = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class MinimalItemTooltipModRecordData: MinimalItemTooltipModData
----@field public ["dataPackage"] gameUILocalizationDataPackage
----@field public ["description"] String
----@field public ["attunementData"] MinimalItemTooltipModsAttunementData
+---@field public dataPackage gameUILocalizationDataPackage
+---@field public description String
+---@field public attunementData MinimalItemTooltipModsAttunementData
 MinimalItemTooltipModRecordData = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class VehicleDriverCombatContextDecisions: InputContextTransitionDecisions
----@field private ["callbackID"] redCallbackObject
----@field private ["tppCallbackID"] redCallbackObject
----@field private ["upperBodyCallbackID"] redCallbackObject
----@field protected ["inTpp"] Bool
----@field protected ["isAiming"] Bool
+---@field private callbackID redCallbackObject
+---@field private tppCallbackID redCallbackObject
+---@field private upperBodyCallbackID redCallbackObject
+---@field protected inTpp Bool
+---@field protected isAiming Bool
 VehicleDriverCombatContextDecisions = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnequipVisualsRequest: gamePlayerScriptableSystemRequest
----@field public ["area"] gamedataEquipmentArea
----@field public ["removeItem"] Bool
+---@field public area gamedataEquipmentArea
+---@field public removeItem Bool
 UnequipVisualsRequest = {}
 
 ---@param fields? table

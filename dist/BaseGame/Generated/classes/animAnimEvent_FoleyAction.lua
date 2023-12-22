@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimEvent_FoleyAction: animAnimEvent
----@field public ["actionName"] CName
+---@field public actionName CName
 animAnimEvent_FoleyAction = {}
 
 ---@param fields? table

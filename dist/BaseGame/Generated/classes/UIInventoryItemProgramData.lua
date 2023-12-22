@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemProgramData: IScriptable
----@field public ["MemoryCost"] Int32
----@field public ["BaseCost"] Int32
----@field public ["UploadTime"] Float
----@field public ["Duration"] Float
----@field public ["Cooldown"] Float
----@field public ["AttackEffects"] DamageEffectUIEntry[]
+---@field public MemoryCost Int32
+---@field public BaseCost Int32
+---@field public UploadTime Float
+---@field public Duration Float
+---@field public Cooldown Float
+---@field public AttackEffects DamageEffectUIEntry[]
 UIInventoryItemProgramData = {}
 
 ---@param fields? table

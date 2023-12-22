@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalQuestDescription: gameJournalEntry
----@field public ["description"] LocalizationString
+---@field public description LocalizationString
 gameJournalQuestDescription = {}
 
 ---@param fields? table

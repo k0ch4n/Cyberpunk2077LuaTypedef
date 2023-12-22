@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameSlotDataHolder: IScriptable
----@field public ["ammoData"] gameAmmoData[]
----@field public ["weapon"] gameSlotWeaponData
+---@field public ammoData gameAmmoData[]
+---@field public weapon gameSlotWeaponData
 gameSlotDataHolder = {}
 
 ---@param fields? table

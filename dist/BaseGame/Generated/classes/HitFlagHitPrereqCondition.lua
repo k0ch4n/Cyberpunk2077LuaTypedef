@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitFlagHitPrereqCondition: BaseHitPrereqCondition
----@field public ["hitFlag"] hitFlag
----@field public ["invertHitFlag"] Bool
+---@field public hitFlag hitFlag
+---@field public invertHitFlag Bool
 HitFlagHitPrereqCondition = {}
 
 ---@param fields? table

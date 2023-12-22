@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnfppBlendOverride: Enum
----@field ["Centering"] scnfppBlendOverride 0
----@field ["CopyPitch_CenteringYaw"] scnfppBlendOverride 1
----@field ["CopyPitch_CopyYaw"] scnfppBlendOverride 2
----@field ["Custom_PitchYaw"] scnfppBlendOverride 3
+---@field Centering 0
+---@field CopyPitch_CenteringYaw 1
+---@field CopyPitch_CopyYaw 2
+---@field Custom_PitchYaw 3
 scnfppBlendOverride = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceReservationAgent: gameinfluenceIAgent
----@field public ["radius"] Float
+---@field public radius Float
 gameinfluenceReservationAgent = {}
 
 ---@param fields? table

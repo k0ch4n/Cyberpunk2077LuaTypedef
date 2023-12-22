@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class DriverCombatListener: IScriptable
----@field public ["mountedCallback"] redCallbackObject
----@field public ["tppCallback"] redCallbackObject
----@field public ["isMounted"] Bool
----@field public ["isInTPP"] Bool
+---@field public mountedCallback redCallbackObject
+---@field public tppCallback redCallbackObject
+---@field public isMounted Bool
+---@field public isInTPP Bool
 DriverCombatListener = {}
 
 ---@param fields? table

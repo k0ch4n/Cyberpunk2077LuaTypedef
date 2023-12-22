@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameStatusEffectComponentReplicatedState: netIComponentState
----@field public ["replicatedInfo"] gameStatusEffectReplicatedInfo[]
+---@field public replicatedInfo gameStatusEffectReplicatedInfo[]
 gameStatusEffectComponentReplicatedState = {}
 
 ---@param fields? table

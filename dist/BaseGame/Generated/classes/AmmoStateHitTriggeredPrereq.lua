@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AmmoStateHitTriggeredPrereq: HitTriggeredPrereq
----@field public ["valueToListen"] EMagazineAmmoState
+---@field public valueToListen EMagazineAmmoState
 AmmoStateHitTriggeredPrereq = {}
 
 ---@param fields? table

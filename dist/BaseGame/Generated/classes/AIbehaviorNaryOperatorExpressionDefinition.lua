@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorNaryOperatorExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public ["operator"] AIbehaviorNaryExpressionOperators
----@field public ["operands"] AIbehaviorExpressionSocket[]
+---@field public operator AIbehaviorNaryExpressionOperators
+---@field public operands AIbehaviorExpressionSocket[]
 AIbehaviorNaryOperatorExpressionDefinition = {}
 
 ---@param fields? table

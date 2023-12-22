@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UnlockCodexPartRequest: gameScriptableSystemRequest
----@field public ["codexRecordID"] TweakDBID
----@field public ["partName"] CName
+---@field public codexRecordID TweakDBID
+---@field public partName CName
 UnlockCodexPartRequest = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiMinimapQuestAreaMappinController: gameuiBaseMinimapMappinController
----@field public ["areaShapeWidget"] inkShapeWidgetReference
+---@field public areaShapeWidget inkShapeWidgetReference
 gameuiMinimapQuestAreaMappinController = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class WeaponShootPrereqState: gamePrereqState
----@field public ["listenerWeaponInt"] redCallbackObject
----@field public ["listenerActiveWeaponVariant"] redCallbackObject
----@field public ["listenerOnShootVariant"] redCallbackObject
----@field public ["weaponObj"] gameweaponObject
----@field public ["owner"] gameObject
----@field public ["howManyAttacks"] Int32
----@field public ["remainingAttacks"] Int32
+---@field public listenerWeaponInt redCallbackObject
+---@field public listenerActiveWeaponVariant redCallbackObject
+---@field public listenerOnShootVariant redCallbackObject
+---@field public weaponObj gameweaponObject
+---@field public owner gameObject
+---@field public howManyAttacks Int32
+---@field public remainingAttacks Int32
 WeaponShootPrereqState = {}
 
 ---@param fields? table

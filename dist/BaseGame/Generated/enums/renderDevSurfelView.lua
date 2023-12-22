@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class renderDevSurfelView: Enum
----@field ["ALBEDO"] renderDevSurfelView 0
----@field ["NORMAL"] renderDevSurfelView 1
----@field ["SHADOWS"] renderDevSurfelView 2
----@field ["CLOSEST_PROBE"] renderDevSurfelView 3
----@field ["EMISSIVE"] renderDevSurfelView 4
----@field ["LIGHTING"] renderDevSurfelView 5
----@field ["BOUNCE"] renderDevSurfelView 6
----@field ["INSIDE"] renderDevSurfelView 7
----@field ["SHADOW"] renderDevSurfelView 8
+---@field ALBEDO 0
+---@field NORMAL 1
+---@field SHADOWS 2
+---@field CLOSEST_PROBE 3
+---@field EMISSIVE 4
+---@field LIGHTING 5
+---@field BOUNCE 6
+---@field INSIDE 7
+---@field SHADOW 8
 renderDevSurfelView = {}

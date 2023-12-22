@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameTransformAnimation_Position_InitialPosition: gameTransformAnimation_Position
----@field public ["offset"] Vector3
----@field public ["offsetInWorldSpace"] Bool
+---@field public offset Vector3
+---@field public offsetInWorldSpace Bool
 gameTransformAnimation_Position_InitialPosition = {}
 
 ---@param fields? table

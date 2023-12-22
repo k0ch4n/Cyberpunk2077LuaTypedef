@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_TextInput_TextFlow: Codeware_UI_inkCustomController
----@field public ["text"] inkTextWidget
----@field public ["value"] String
----@field public ["placeholder"] String
----@field public ["length"] Int32
----@field public ["maxLength"] Int32
----@field public ["charOffsets"] Float[]
----@field public ["tickProxy"] inkanimProxy
+---@field public text inkTextWidget
+---@field public value String
+---@field public placeholder String
+---@field public length Int32
+---@field public maxLength Int32
+---@field public charOffsets Float[]
+---@field public tickProxy inkanimProxy
 Codeware_UI_TextInput_TextFlow = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EAICoverAction: Enum
----@field ["StepOut"] EAICoverAction 0
----@field ["LeanOut"] EAICoverAction 1
----@field ["StepUp"] EAICoverAction 2
----@field ["LeanOver"] EAICoverAction 3
----@field ["Undefined"] EAICoverAction 4
+---@field StepOut 0
+---@field LeanOut 1
+---@field StepUp 2
+---@field LeanOver 3
+---@field Undefined 4
 EAICoverAction = {}

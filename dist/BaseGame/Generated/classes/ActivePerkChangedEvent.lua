@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ActivePerkChangedEvent: redEvent
----@field public ["perkArea"] gamedataPerkArea
----@field public ["perkType"] gamedataPerkType
+---@field public perkArea gamedataPerkArea
+---@field public perkType gamedataPerkType
 ActivePerkChangedEvent = {}
 
 ---@param fields? table

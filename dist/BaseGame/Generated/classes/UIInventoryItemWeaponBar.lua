@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemWeaponBar: IScriptable
----@field public ["Value"] Float
----@field public ["MaxValue"] Float
----@field public ["Percentage"] Float
----@field public ["Type"] WeaponBarType
----@field private ["isValueSet"] Bool
+---@field public Value Float
+---@field public MaxValue Float
+---@field public Percentage Float
+---@field public Type WeaponBarType
+---@field private isValueSet Bool
 UIInventoryItemWeaponBar = {}
 
 ---@param fields? table

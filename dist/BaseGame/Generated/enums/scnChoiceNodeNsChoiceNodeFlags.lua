@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsChoiceNodeFlags: Enum
----@field ["IsFocusClue"] scnChoiceNodeNsChoiceNodeFlags 1
----@field ["IsValidInteractionFailsafeDisabled"] scnChoiceNodeNsChoiceNodeFlags 2
+---@field IsFocusClue 1
+---@field IsValidInteractionFailsafeDisabled 2
 scnChoiceNodeNsChoiceNodeFlags = {}

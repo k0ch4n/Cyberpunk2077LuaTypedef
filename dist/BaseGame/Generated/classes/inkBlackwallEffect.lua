@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkBlackwallEffect: inkGlitchEffect
----@field public ["scaleX"] Float
----@field public ["scaleY"] Float
----@field public ["layerVisibility"] Float
+---@field public scaleX Float
+---@field public scaleY Float
+---@field public layerVisibility Float
 inkBlackwallEffect = {}
 
 ---@param fields? table

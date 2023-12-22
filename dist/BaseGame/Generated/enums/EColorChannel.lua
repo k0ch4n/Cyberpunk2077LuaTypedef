@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EColorChannel: Enum
----@field ["COLCHANNEL_Red"] EColorChannel 0
----@field ["COLCHANNEL_Green"] EColorChannel 1
----@field ["COLCHANNEL_Blue"] EColorChannel 2
----@field ["COLCHANNEL_Alpha"] EColorChannel 3
+---@field COLCHANNEL_Red 0
+---@field COLCHANNEL_Green 1
+---@field COLCHANNEL_Blue 2
+---@field COLCHANNEL_Alpha 3
 EColorChannel = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioAppearanceToPlayerMetadata
----@field public ["appearances"] CName[]
----@field public ["foleyPlayerMetadata"] CName
----@field public ["priority"] audioFoleyItemPriority
+---@field public appearances CName[]
+---@field public foleyPlayerMetadata CName
+---@field public priority audioFoleyItemPriority
 audioAppearanceToPlayerMetadata = {}
 
 ---@param fields? table

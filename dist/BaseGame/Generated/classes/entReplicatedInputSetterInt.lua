@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entReplicatedInputSetterInt: entReplicatedInputSetterBase
----@field public ["value"] Int32
+---@field public value Int32
 entReplicatedInputSetterInt = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entdismembermentDebrisResourceItem
----@field public ["rig"] animRig
----@field public ["mesh"] CMesh
+---@field public rig animRig
+---@field public mesh CMesh
 entdismembermentDebrisResourceItem = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class locVoLineEntry
----@field public ["stringId"] CRUID
----@field public ["femaleResPath"] locVoResource
----@field public ["maleResPath"] locVoResource
+---@field public stringId CRUID
+---@field public femaleResPath locVoResource
+---@field public maleResPath locVoResource
 locVoLineEntry = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BarHoverOverEvent: redEvent
----@field public ["data"] RipperdocBarTooltipTooltipData
+---@field public data RipperdocBarTooltipTooltipData
 BarHoverOverEvent = {}
 
 ---@param fields? table

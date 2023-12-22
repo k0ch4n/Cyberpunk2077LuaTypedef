@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkRumbleType: Enum
----@field ["Fast"] inkRumbleType 0
----@field ["Pulse"] inkRumbleType 1
----@field ["Slow"] inkRumbleType 2
+---@field Fast 0
+---@field Pulse 1
+---@field Slow 2
 inkRumbleType = {}

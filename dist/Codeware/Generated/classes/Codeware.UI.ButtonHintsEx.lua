@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class Codeware_UI_ButtonHintsEx: Codeware_UI_inkCustomController
----@field public ["buttonHints"] ButtonHints
----@field public ["isLocked"] Bool
----@field public ["style"] CName
+---@field public buttonHints ButtonHints
+---@field public isLocked Bool
+---@field public style CName
 Codeware_UI_ButtonHintsEx = {}
 
 ---@param fields? table

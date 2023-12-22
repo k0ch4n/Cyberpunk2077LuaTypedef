@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CEvaluatorFloatCurve: IEvaluatorFloat
----@field public ["curves"] curveData
----@field public ["numberOfCurveSamples"] Uint32
+---@field public curves curveData
+---@field public numberOfCurveSamples Uint32
 CEvaluatorFloatCurve = {}
 
 ---@param fields? table

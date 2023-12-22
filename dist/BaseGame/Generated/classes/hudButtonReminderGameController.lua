@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class hudButtonReminderGameController: gameuiHUDGameController
----@field private ["Button1"] inkCompoundWidgetReference
----@field private ["Button2"] inkCompoundWidgetReference
----@field private ["Button3"] inkCompoundWidgetReference
----@field private ["uiHudButtonHelpBB"] gameIBlackboard
----@field private ["interactingWithDeviceBBID"] redCallbackObject
----@field private ["OnRedrawText_1Callback"] redCallbackObject
----@field private ["OnRedrawIcon_1Callback"] redCallbackObject
----@field private ["OnRedrawText_2Callback"] redCallbackObject
----@field private ["OnRedrawIcon_2Callback"] redCallbackObject
----@field private ["OnRedrawText_3Callback"] redCallbackObject
----@field private ["OnRedrawIcon_3Callback"] redCallbackObject
+---@field private Button1 inkCompoundWidgetReference
+---@field private Button2 inkCompoundWidgetReference
+---@field private Button3 inkCompoundWidgetReference
+---@field private uiHudButtonHelpBB gameIBlackboard
+---@field private interactingWithDeviceBBID redCallbackObject
+---@field private OnRedrawText_1Callback redCallbackObject
+---@field private OnRedrawIcon_1Callback redCallbackObject
+---@field private OnRedrawText_2Callback redCallbackObject
+---@field private OnRedrawIcon_2Callback redCallbackObject
+---@field private OnRedrawText_3Callback redCallbackObject
+---@field private OnRedrawIcon_3Callback redCallbackObject
 hudButtonReminderGameController = {}
 
 ---@param fields? table

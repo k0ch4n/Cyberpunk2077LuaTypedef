@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RevokeAuthorization: redEvent
----@field public ["user"] entEntityID
----@field public ["level"] ESecurityAccessLevel
+---@field public user entEntityID
+---@field public level ESecurityAccessLevel
 RevokeAuthorization = {}
 
 ---@param fields? table

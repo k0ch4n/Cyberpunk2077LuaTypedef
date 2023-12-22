@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class RagdollDamagePollData
----@field public ["worldPosition"] WorldPosition
----@field public ["worldNormal"] Vector4
----@field public ["maxForceMagnitude"] Float
----@field public ["maxImpulseMagnitude"] Float
----@field public ["maxVelocityChange"] Float
----@field public ["maxZDiff"] Float
+---@field public worldPosition WorldPosition
+---@field public worldNormal Vector4
+---@field public maxForceMagnitude Float
+---@field public maxImpulseMagnitude Float
+---@field public maxVelocityChange Float
+---@field public maxZDiff Float
 RagdollDamagePollData = {}
 
 ---@param fields? table

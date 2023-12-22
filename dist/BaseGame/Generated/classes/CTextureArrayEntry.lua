@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CTextureArrayEntry
----@field public ["texture"] CBitmapTexture
+---@field public texture CBitmapTexture
 CTextureArrayEntry = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NcartTimetableSetup
----@field public ["departFrequency"] Int32
----@field public ["uiUpdateFrequency"] Int32
----@field public ["trainLines"] Int32[]
+---@field public departFrequency Int32
+---@field public uiUpdateFrequency Int32
+---@field public trainLines Int32[]
 NcartTimetableSetup = {}
 
 ---@param fields? table

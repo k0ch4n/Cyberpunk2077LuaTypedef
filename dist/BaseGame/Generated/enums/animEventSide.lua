@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEventSide: Enum
----@field ["Left"] animEventSide 0
----@field ["Right"] animEventSide 1
+---@field Left 0
+---@field Right 1
 animEventSide = {}

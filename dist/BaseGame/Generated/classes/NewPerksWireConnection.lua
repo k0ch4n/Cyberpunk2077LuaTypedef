@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NewPerksWireConnection
----@field public ["targetSlot"] gamedataNewPerkSlotType
----@field public ["dependanciesPresenceToggle"] Bool
----@field public ["connectionDependancies"] gamedataNewPerkSlotType[]
----@field public ["wires"] inkWidgetReference[]
+---@field public targetSlot gamedataNewPerkSlotType
+---@field public dependanciesPresenceToggle Bool
+---@field public connectionDependancies gamedataNewPerkSlotType[]
+---@field public wires inkWidgetReference[]
 NewPerksWireConnection = {}
 
 ---@param fields? table

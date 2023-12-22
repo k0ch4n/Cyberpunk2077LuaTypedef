@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SlotMachineSlot: inkWidgetLogicController
----@field private ["winningRowIndex"] Int32
----@field private ["imagesUpper"] inkImageWidgetReference[]
----@field private ["imagesLower"] inkImageWidgetReference[]
----@field private ["imagePresets"] CName[]
+---@field private winningRowIndex Int32
+---@field private imagesUpper inkImageWidgetReference[]
+---@field private imagesLower inkImageWidgetReference[]
+---@field private imagePresets CName[]
 SlotMachineSlot = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiRequestPushContextEvent: redEvent
----@field public ["context"] UIGameContext
+---@field public context UIGameContext
 gameuiRequestPushContextEvent = {}
 
 ---@param fields? table

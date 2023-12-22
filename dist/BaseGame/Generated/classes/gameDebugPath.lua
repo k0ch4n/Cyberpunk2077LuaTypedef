@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDebugPath
----@field public ["str"] String
+---@field public str String
 gameDebugPath = {}
 
 ---@param fields? table

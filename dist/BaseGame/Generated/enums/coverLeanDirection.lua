@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class coverLeanDirection: Enum
----@field ["Top"] coverLeanDirection 0
----@field ["Left"] coverLeanDirection 1
----@field ["Right"] coverLeanDirection 2
+---@field Top 0
+---@field Left 1
+---@field Right 2
 coverLeanDirection = {}

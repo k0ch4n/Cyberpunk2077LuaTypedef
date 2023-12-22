@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkLayerDrawingPolicy: Enum
----@field ["InOrder"] inkLayerDrawingPolicy 0
----@field ["InParallel"] inkLayerDrawingPolicy 1
+---@field InOrder 0
+---@field InParallel 1
 inkLayerDrawingPolicy = {}

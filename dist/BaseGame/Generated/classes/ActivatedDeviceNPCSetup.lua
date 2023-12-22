@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ActivatedDeviceNPCSetup
----@field public ["npcSpawnerNodeRef"] NodeRef
----@field public ["npcSpawned"] NPCPuppet
+---@field public npcSpawnerNodeRef NodeRef
+---@field public npcSpawned NPCPuppet
 ActivatedDeviceNPCSetup = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class EAIActionTarget: Enum
----@field ["None"] EAIActionTarget 0
----@field ["CombatTarget"] EAIActionTarget 1
----@field ["FriendlyTarget"] EAIActionTarget 2
----@field ["CurrentCover"] EAIActionTarget 3
----@field ["StimTarget"] EAIActionTarget 4
----@field ["StimSource"] EAIActionTarget 5
----@field ["CustomWorldPosition"] EAIActionTarget 6
+---@field None 0
+---@field CombatTarget 1
+---@field FriendlyTarget 2
+---@field CurrentCover 3
+---@field StimTarget 4
+---@field StimSource 5
+---@field CustomWorldPosition 6
 EAIActionTarget = {}

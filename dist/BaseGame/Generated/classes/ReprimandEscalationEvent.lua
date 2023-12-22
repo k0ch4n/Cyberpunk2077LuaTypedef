@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ReprimandEscalationEvent: redEvent
----@field public ["startReprimand"] Bool
----@field public ["startDeescalate"] Bool
+---@field public startReprimand Bool
+---@field public startDeescalate Bool
 ReprimandEscalationEvent = {}
 
 ---@param fields? table

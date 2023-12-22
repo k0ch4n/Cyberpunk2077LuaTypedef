@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestMessageSelector: ScreenMessageSelector
----@field private ["recordID"] TweakDBID
+---@field private recordID TweakDBID
 QuestMessageSelector = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsTraceResult
----@field public ["position"] Vector3
----@field public ["normal"] Vector3
----@field public ["material"] CName
+---@field public position Vector3
+---@field public normal Vector3
+---@field public material CName
 physicsTraceResult = {}
 
 ---@param fields? table

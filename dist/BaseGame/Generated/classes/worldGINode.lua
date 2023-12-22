@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldGINode: worldNode
----@field public ["data"] CGIDataResource
----@field public ["location"] Int16[]
+---@field public data CGIDataResource
+---@field public location Int16[]
 worldGINode = {}
 
 ---@param fields? table

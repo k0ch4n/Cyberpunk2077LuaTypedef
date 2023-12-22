@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class attrIcon: attrAttribute
----@field public ["onName"] String
+---@field public onName String
 attrIcon = {}
 
 ---@param fields? table

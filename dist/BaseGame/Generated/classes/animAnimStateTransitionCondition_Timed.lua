@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animAnimStateTransitionCondition_Timed: animIAnimStateTransitionCondition
----@field public ["timeToFireTransition"] Float
+---@field public timeToFireTransition Float
 animAnimStateTransitionCondition_Timed = {}
 
 ---@param fields? table

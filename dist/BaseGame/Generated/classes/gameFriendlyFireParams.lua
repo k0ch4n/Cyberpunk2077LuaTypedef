@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gameFriendlyFireParams: IScriptable
----@field public ["attitude"] gameAttitudeAgent
----@field public ["slots"] entSlotComponent
----@field public ["attachmentName"] CName
----@field public ["slotId"] Int32
----@field public ["spread"] Float
----@field public ["maxRange"] Float
+---@field public attitude gameAttitudeAgent
+---@field public slots entSlotComponent
+---@field public attachmentName CName
+---@field public slotId Int32
+---@field public spread Float
+---@field public maxRange Float
 gameFriendlyFireParams = {}
 
 ---@param fields? table

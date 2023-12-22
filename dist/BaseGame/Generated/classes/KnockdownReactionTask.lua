@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class KnockdownReactionTask: AIHitReactionTask
----@field public ["tweakDBPackage"] TweakDBID
+---@field public tweakDBPackage TweakDBID
 KnockdownReactionTask = {}
 
 ---@param fields? table

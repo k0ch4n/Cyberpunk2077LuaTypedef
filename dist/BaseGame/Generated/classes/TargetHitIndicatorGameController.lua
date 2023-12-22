@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class TargetHitIndicatorGameController: gameuiWidgetGameController
----@field private ["currentAnim"] inkanimProxy
----@field private ["bonusAnim"] inkanimProxy
----@field private ["currentAnimWidget"] inkWidget
----@field private ["currentPriority"] Int32
----@field private ["currentController"] TargetHitIndicatorLogicController
----@field private ["damageController"] TargetHitIndicatorLogicController
----@field private ["defeatController"] TargetHitIndicatorLogicController
----@field private ["killController"] TargetHitIndicatorLogicController
----@field private ["bonusController"] TargetHitIndicatorLogicController
----@field private ["damageListBlackboardId"] redCallbackObject
----@field private ["killListBlackboardId"] redCallbackObject
----@field private ["indicatorEnabledBlackboardId"] redCallbackObject
----@field private ["weaponSwayBlackboardId"] redCallbackObject
----@field private ["weaponChangedListener"] gameAttachmentSlotsScriptListener
----@field private ["aimingStatusBlackboardId"] redCallbackObject
----@field private ["zoomLevelBlackboardId"] redCallbackObject
----@field private ["realOwner"] gameObject
----@field private ["hitIndicatorEnabled"] Bool
----@field private ["entityHit"] gameObject
----@field private ["rootWidget"] inkWidget
----@field private ["player"] PlayerPuppet
----@field private ["currentSway"] Vector2
----@field public ["currentWeaponZoom"] Float
----@field public ["weaponZoomNeedsUpdate"] Bool
----@field private ["currentZoomLevel"] Float
----@field private ["weaponZoomListener"] HitIndicatorWeaponZoomListener
----@field private ["weaponID"] gameStatsObjectID
----@field private ["isAimingDownSights"] Bool
----@field private ["uiSystem"] gameuiGameSystemUI
+---@field private currentAnim inkanimProxy
+---@field private bonusAnim inkanimProxy
+---@field private currentAnimWidget inkWidget
+---@field private currentPriority Int32
+---@field private currentController TargetHitIndicatorLogicController
+---@field private damageController TargetHitIndicatorLogicController
+---@field private defeatController TargetHitIndicatorLogicController
+---@field private killController TargetHitIndicatorLogicController
+---@field private bonusController TargetHitIndicatorLogicController
+---@field private damageListBlackboardId redCallbackObject
+---@field private killListBlackboardId redCallbackObject
+---@field private indicatorEnabledBlackboardId redCallbackObject
+---@field private weaponSwayBlackboardId redCallbackObject
+---@field private weaponChangedListener gameAttachmentSlotsScriptListener
+---@field private aimingStatusBlackboardId redCallbackObject
+---@field private zoomLevelBlackboardId redCallbackObject
+---@field private realOwner gameObject
+---@field private hitIndicatorEnabled Bool
+---@field private entityHit gameObject
+---@field private rootWidget inkWidget
+---@field private player PlayerPuppet
+---@field private currentSway Vector2
+---@field public currentWeaponZoom Float
+---@field public weaponZoomNeedsUpdate Bool
+---@field private currentZoomLevel Float
+---@field private weaponZoomListener HitIndicatorWeaponZoomListener
+---@field private weaponID gameStatsObjectID
+---@field private isAimingDownSights Bool
+---@field private uiSystem gameuiGameSystemUI
 TargetHitIndicatorGameController = {}
 
 ---@param fields? table

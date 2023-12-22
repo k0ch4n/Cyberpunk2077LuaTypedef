@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ModifyCritWithDistance: ModifyAttackEffector
----@field public ["critChanceBonus"] Float
----@field public ["minDistance"] Float
----@field public ["maxDistance"] Float
----@field public ["improveWithDistance"] Bool
+---@field public critChanceBonus Float
+---@field public minDistance Float
+---@field public maxDistance Float
+---@field public improveWithDistance Bool
 ModifyCritWithDistance = {}
 
 ---@param fields? table

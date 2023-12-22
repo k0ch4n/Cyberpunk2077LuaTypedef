@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AuthorizeUser: ActionBool
----@field private ["enteredPassword"] CName
----@field private ["validPasswords"] CName[]
----@field private ["libraryName"] CName
----@field private ["isforced"] Bool
+---@field private enteredPassword CName
+---@field private validPasswords CName[]
+---@field private libraryName CName
+---@field private isforced Bool
 AuthorizeUser = {}
 
 ---@param fields? table

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class workTransitionAnim
----@field public ["idleA"] CName
----@field public ["idleB"] CName
----@field public ["transitionAtoB"] CName
----@field public ["transitionBtoA"] CName
+---@field public idleA CName
+---@field public idleB CName
+---@field public transitionAtoB CName
+---@field public transitionBtoA CName
 workTransitionAnim = {}
 
 ---@param fields? table

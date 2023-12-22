@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EHitShapeType: Enum
----@field ["None"] EHitShapeType -1
----@field ["Flesh"] EHitShapeType 0
----@field ["Metal"] EHitShapeType 1
----@field ["Cyberware"] EHitShapeType 2
----@field ["Armor"] EHitShapeType 3
+---@field None -1
+---@field Flesh 0
+---@field Metal 1
+---@field Cyberware 2
+---@field Armor 3
 EHitShapeType = {}

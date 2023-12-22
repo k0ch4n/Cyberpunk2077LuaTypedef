@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questHackingManager_NodeType: questIInteractiveObjectManagerNodeType
----@field public ["params"] questHackingManager_NodeTypeParams[]
+---@field public params questHackingManager_NodeTypeParams[]
 questHackingManager_NodeType = {}
 
 ---@param fields? table

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SoundSystemSettings
----@field public ["interactionName"] TweakDBID
----@field public ["musicSettings"] MusicSettings
----@field public ["canBeUsedAsQuickHack"] Bool
+---@field public interactionName TweakDBID
+---@field public musicSettings MusicSettings
+---@field public canBeUsedAsQuickHack Bool
 SoundSystemSettings = {}
 
 ---@param fields? table

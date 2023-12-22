@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CallElevator: ActionBool
----@field public ["destination"] Int32
+---@field public destination Int32
 CallElevator = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class MarkBackdoorAsRevealedRequest: gameScriptableSystemRequest
----@field public ["device"] SharedGameplayPS
+---@field public device SharedGameplayPS
 MarkBackdoorAsRevealedRequest = {}
 
 ---@param fields? table

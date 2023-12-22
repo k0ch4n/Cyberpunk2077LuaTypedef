@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIPatrolCommandPrologue: AICommandHandlerBase
----@field public ["outPatrolPath"] AIArgumentMapping
+---@field public outPatrolPath AIArgumentMapping
 AIPatrolCommandPrologue = {}
 
 ---@param fields? table

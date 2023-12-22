@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameAnimationTransforms
----@field public ["extractedMotion"] Transform[]
----@field public ["gatePosition"] Transform
----@field public ["boneOffset"] Transform
----@field public ["animsetHash"] Uint64
+---@field public extractedMotion Transform[]
+---@field public gatePosition Transform
+---@field public boneOffset Transform
+---@field public animsetHash Uint64
 gameAnimationTransforms = {}
 
 ---@param fields? table

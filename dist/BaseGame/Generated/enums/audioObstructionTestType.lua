@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audioObstructionTestType: Enum
----@field ["SingleShot"] audioObstructionTestType 0
----@field ["Continuous"] audioObstructionTestType 1
+---@field SingleShot 0
+---@field Continuous 1
 audioObstructionTestType = {}

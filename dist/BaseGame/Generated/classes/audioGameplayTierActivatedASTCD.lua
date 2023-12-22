@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioGameplayTierActivatedASTCD: audioAudioStateTransitionConditionData
----@field public ["gameplayTier"] audioGameplayTier
+---@field public gameplayTier audioGameplayTier
 audioGameplayTierActivatedASTCD = {}
 
 ---@param fields? table

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class SpreadEffector: gameEffector
----@field public ["objectActionRecord"] gamedataObjectAction_Record
----@field public ["player"] PlayerPuppet
----@field public ["effectorRecord"] gamedataSpreadEffector_Record
----@field public ["spreadToAllTargetsInTheArea"] Bool
----@field public ["applyOverclock"] Bool
+---@field public objectActionRecord gamedataObjectAction_Record
+---@field public player PlayerPuppet
+---@field public effectorRecord gamedataSpreadEffector_Record
+---@field public spreadToAllTargetsInTheArea Bool
+---@field public applyOverclock Bool
 SpreadEffector = {}
 
 ---@param fields? table

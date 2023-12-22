@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EVendorMode: Enum
----@field ["BuyItems"] EVendorMode 0
----@field ["SellItems"] EVendorMode 1
----@field ["Train"] EVendorMode 2
----@field ["Ripperdoc"] EVendorMode 3
----@field ["RipperdocSummary"] EVendorMode 4
+---@field BuyItems 0
+---@field SellItems 1
+---@field Train 2
+---@field Ripperdoc 3
+---@field RipperdocSummary 4
 EVendorMode = {}

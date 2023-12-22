@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entTemplateInclude
----@field public ["name"] CName
----@field public ["template"] entEntityTemplate
+---@field public name CName
+---@field public template entEntityTemplate
 entTemplateInclude = {}
 
 ---@param fields? table

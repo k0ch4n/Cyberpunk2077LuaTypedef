@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerHeistNodeDefinition: questDisableableNodeDefinition
----@field public ["type"] questIMultiplayerHeistNodeType
+---@field public type questIMultiplayerHeistNodeType
 questMultiplayerHeistNodeDefinition = {}
 
 ---@param fields? table

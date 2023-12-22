@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textLetterCase: Enum
----@field ["OriginalCase"] textLetterCase 0
----@field ["UpperCase"] textLetterCase 1
----@field ["LowerCase"] textLetterCase 2
+---@field OriginalCase 0
+---@field UpperCase 1
+---@field LowerCase 2
 textLetterCase = {}

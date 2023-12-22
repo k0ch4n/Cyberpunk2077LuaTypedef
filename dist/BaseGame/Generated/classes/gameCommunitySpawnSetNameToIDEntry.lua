@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameCommunitySpawnSetNameToIDEntry
----@field public ["communityId"] gameCommunityID
----@field public ["nameReference"] CName
+---@field public communityId gameCommunityID
+---@field public nameReference CName
 gameCommunitySpawnSetNameToIDEntry = {}
 
 ---@param fields? table

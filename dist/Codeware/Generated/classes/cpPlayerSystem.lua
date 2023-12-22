@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class cpPlayerSystem: gamePlayerSystem
----@field private ["customizationPuppet"] gamePuppet
----@field private ["inventoryPuppet"] gamePuppet
----@field private ["photoPuppet"] gamePuppet
+---@field private customizationPuppet gamePuppet
+---@field private inventoryPuppet gamePuppet
+---@field private photoPuppet gamePuppet
 cpPlayerSystem = {}
 
 ---@param fields? table

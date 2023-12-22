@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ProgressionWidgetGameController: gameuiGenericNotificationGameController
----@field private ["duration"] Float
----@field private ["playerDevelopmentSystem"] PlayerDevelopmentSystem
----@field private ["combatModePSM"] gamePSMCombat
----@field private ["combatModeListener"] redCallbackObject
----@field private ["playerObject"] gameObject
----@field private ["gameInstance"] ScriptGameInstance
+---@field private duration Float
+---@field private playerDevelopmentSystem PlayerDevelopmentSystem
+---@field private combatModePSM gamePSMCombat
+---@field private combatModeListener redCallbackObject
+---@field private playerObject gameObject
+---@field private gameInstance ScriptGameInstance
 ProgressionWidgetGameController = {}
 
 ---@param fields? table

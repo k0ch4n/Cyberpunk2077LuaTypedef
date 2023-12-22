@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsHotSpotActivationResult
----@field public ["priority"] Float
+---@field public priority Float
 gameinteractionsHotSpotActivationResult = {}
 
 ---@param fields? table

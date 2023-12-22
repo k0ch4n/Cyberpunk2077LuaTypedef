@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SampleInteractiveEntityThatBumpsTheCounter: gameObject
----@field public ["targetEntityWithCounter"] NodeRef
----@field public ["targetPersistentID"] gamePersistentID
+---@field public targetEntityWithCounter NodeRef
+---@field public targetPersistentID gamePersistentID
 SampleInteractiveEntityThatBumpsTheCounter = {}
 
 ---@param fields? table

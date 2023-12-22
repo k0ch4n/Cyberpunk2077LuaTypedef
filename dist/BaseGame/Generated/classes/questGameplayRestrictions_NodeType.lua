@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questGameplayRestrictions_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public ["action"] questGameplayRestrictionAction
----@field public ["source"] CName
----@field public ["restrictionIDs"] TweakDBID[]
+---@field public action questGameplayRestrictionAction
+---@field public source CName
+---@field public restrictionIDs TweakDBID[]
 questGameplayRestrictions_NodeType = {}
 
 ---@param fields? table

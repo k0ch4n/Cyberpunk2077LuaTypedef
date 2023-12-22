@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiDetectionParams
----@field public ["detectionProgress"] Float
+---@field public detectionProgress Float
 gameuiDetectionParams = {}
 
 ---@param fields? table

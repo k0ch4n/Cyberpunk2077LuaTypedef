@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioPhysicalObstructionSettings: audioAudioMetadata
----@field public ["initialAbsorbtion"] Float
----@field public ["absorptionPerMeter"] Float
+---@field public initialAbsorbtion Float
+---@field public absorptionPerMeter Float
 audioPhysicalObstructionSettings = {}
 
 ---@param fields? table

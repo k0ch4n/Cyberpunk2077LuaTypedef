@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class questVehicleWeaponQuestID: Enum
----@field ["Primary"] questVehicleWeaponQuestID 0
----@field ["Secondary"] questVehicleWeaponQuestID 1
----@field ["Tertiary"] questVehicleWeaponQuestID 2
----@field ["Quaternary"] questVehicleWeaponQuestID 3
----@field ["Quinary"] questVehicleWeaponQuestID 4
----@field ["Senary"] questVehicleWeaponQuestID 5
----@field ["Septenary"] questVehicleWeaponQuestID 6
----@field ["Octonary"] questVehicleWeaponQuestID 7
----@field ["All"] questVehicleWeaponQuestID 8
+---@field Primary 0
+---@field Secondary 1
+---@field Tertiary 2
+---@field Quaternary 3
+---@field Quinary 4
+---@field Senary 5
+---@field Septenary 6
+---@field Octonary 7
+---@field All 8
 questVehicleWeaponQuestID = {}

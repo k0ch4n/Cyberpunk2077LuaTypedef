@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class QuickWheelStartUIStructure
----@field public ["WheelItems"] QuickSlotCommand[]
----@field public ["dpadSlot"] EDPadSlot
+---@field public WheelItems QuickSlotCommand[]
+---@field public dpadSlot EDPadSlot
 QuickWheelStartUIStructure = {}
 
 ---@param fields? table

@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class BaseSubtitlesGameController: gameuiProjectedHUDGameController
----@field protected ["lineMap"] subtitleLineMapEntry[]
----@field protected ["pendingShowLines"] CRUID[]
----@field protected ["pendingHideLines"] CRUID[]
----@field protected ["settings"] userSettingsUserSettings
----@field protected ["settingsListener"] SubtitlesSettingsListener
----@field protected ["groupPath"] CName
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["uiBlackboard"] gameIBlackboard
----@field private ["bbCbShowDialogLine"] redCallbackObject
----@field private ["bbCbHideDialogLine"] redCallbackObject
----@field private ["bbCbHideDialogLineByData"] redCallbackObject
----@field private ["bbCbShowBackground"] redCallbackObject
----@field private ["showBackgroud"] Bool
----@field private ["isCreoleUnlocked"] Bool
----@field private ["isPlayerJohnny"] Bool
----@field private ["disabledBySettings"] Bool
----@field private ["forceForeignLines"] Bool
----@field private ["isRadioSubtitleEnabled"] Bool
----@field private ["backgroundOpacity"] Float
----@field private ["fontSize"] Int32
----@field private ["factlistenerId"] Uint32
+---@field protected lineMap subtitleLineMapEntry[]
+---@field protected pendingShowLines CRUID[]
+---@field protected pendingHideLines CRUID[]
+---@field protected settings userSettingsUserSettings
+---@field protected settingsListener SubtitlesSettingsListener
+---@field protected groupPath CName
+---@field private gameInstance ScriptGameInstance
+---@field private uiBlackboard gameIBlackboard
+---@field private bbCbShowDialogLine redCallbackObject
+---@field private bbCbHideDialogLine redCallbackObject
+---@field private bbCbHideDialogLineByData redCallbackObject
+---@field private bbCbShowBackground redCallbackObject
+---@field private showBackgroud Bool
+---@field private isCreoleUnlocked Bool
+---@field private isPlayerJohnny Bool
+---@field private disabledBySettings Bool
+---@field private forceForeignLines Bool
+---@field private isRadioSubtitleEnabled Bool
+---@field private backgroundOpacity Float
+---@field private fontSize Int32
+---@field private factlistenerId Uint32
 BaseSubtitlesGameController = {}
 
 ---@param fields? table

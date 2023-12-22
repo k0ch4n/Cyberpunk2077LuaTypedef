@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TogglePersonalLink: ActionBool
----@field public ["cachedStatus"] EPersonalLinkConnectionStatus
----@field public ["shouldSkipMiniGame"] Bool
+---@field public cachedStatus EPersonalLinkConnectionStatus
+---@field public shouldSkipMiniGame Bool
 TogglePersonalLink = {}
 
 ---@param fields? table

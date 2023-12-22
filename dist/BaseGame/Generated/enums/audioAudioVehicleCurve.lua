@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAudioVehicleCurve: Enum
----@field ["ThrottleInput"] audioAudioVehicleCurve 0
----@field ["RPM"] audioAudioVehicleCurve 1
----@field ["Gear"] audioAudioVehicleCurve 2
+---@field ThrottleInput 0
+---@field RPM 1
+---@field Gear 2
 audioAudioVehicleCurve = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RemotePlayerMappinController: gameuiInteractionMappinController
----@field private ["mappin"] gamemappinsRemotePlayerMappin
----@field private ["root"] inkWidget
+---@field private mappin gamemappinsRemotePlayerMappin
+---@field private root inkWidget
 RemotePlayerMappinController = {}
 
 ---@param fields? table

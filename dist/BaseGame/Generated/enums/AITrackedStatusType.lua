@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AITrackedStatusType: Enum
----@field ["Unknown"] AITrackedStatusType 0
----@field ["Friendly"] AITrackedStatusType 1
----@field ["Neutral"] AITrackedStatusType 2
----@field ["Hostile"] AITrackedStatusType 3
+---@field Unknown 0
+---@field Friendly 1
+---@field Neutral 2
+---@field Hostile 3
 AITrackedStatusType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIGuardAreaSavedData
----@field public ["puppetId"] entEntityID
----@field public ["nodeRef"] NodeRef
+---@field public puppetId entEntityID
+---@field public nodeRef NodeRef
 AIGuardAreaSavedData = {}
 
 ---@param fields? table

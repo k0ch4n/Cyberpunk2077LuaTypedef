@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CParticleDrawerBeam: CParticleDrawerFacingBeam
----@field public ["rotation"] Float
+---@field public rotation Float
 CParticleDrawerBeam = {}
 
 ---@param fields? table

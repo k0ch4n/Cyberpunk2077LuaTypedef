@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class IsNpcPlayingMountingAnimationPrereqState: gamePrereqState
----@field public ["psListener"] gameScriptedPrereqPSChangeListenerWrapper
+---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcPlayingMountingAnimationPrereqState = {}
 
 ---@param fields? table

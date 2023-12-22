@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GameplayStatCondition: GameplayConditionBase
----@field private ["statToCheck"] TweakDBID
----@field private ["stat"] EDeviceChallengeAttribute
----@field private ["difficulty"] EGameplayChallengeLevel
+---@field private statToCheck TweakDBID
+---@field private stat EDeviceChallengeAttribute
+---@field private difficulty EGameplayChallengeLevel
 GameplayStatCondition = {}
 
 ---@param fields? table

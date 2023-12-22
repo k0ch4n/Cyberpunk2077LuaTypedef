@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameLootSlotSingleQuery: gameLootSlot
----@field public ["queryTDBID"] TweakDBID
+---@field public queryTDBID TweakDBID
 gameLootSlotSingleQuery = {}
 
 ---@param fields? table

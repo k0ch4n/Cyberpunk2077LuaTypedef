@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePingComponent: entIPlacedComponent
----@field public ["associatedPingType"] gamedataPingType
+---@field public associatedPingType gamedataPingType
 gamePingComponent = {}
 
 ---@param fields? table

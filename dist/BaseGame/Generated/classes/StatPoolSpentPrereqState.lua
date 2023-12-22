@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class StatPoolSpentPrereqState: gamePrereqState
----@field public ["neededValue"] Float
----@field public ["listener"] BaseStatPoolPrereqListener
+---@field public neededValue Float
+---@field public listener BaseStatPoolPrereqListener
 StatPoolSpentPrereqState = {}
 
 ---@param fields? table

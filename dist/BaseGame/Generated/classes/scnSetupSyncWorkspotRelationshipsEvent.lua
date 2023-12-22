@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnSetupSyncWorkspotRelationshipsEvent: scnSceneEvent
----@field public ["syncedWorkspotIds"] scnSceneWorkspotInstanceId
+---@field public syncedWorkspotIds scnSceneWorkspotInstanceId
 scnSetupSyncWorkspotRelationshipsEvent = {}
 
 ---@param fields? table

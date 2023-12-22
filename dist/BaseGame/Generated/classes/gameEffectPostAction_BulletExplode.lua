@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEffectPostAction_BulletExplode: gameEffectPostAction
----@field public ["endRangeTolerance"] Float
----@field public ["explosionDuration"] Float
+---@field public endRangeTolerance Float
+---@field public explosionDuration Float
 gameEffectPostAction_BulletExplode = {}
 
 ---@param fields? table

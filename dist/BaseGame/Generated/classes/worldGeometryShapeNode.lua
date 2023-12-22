@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldGeometryShapeNode: worldNode
----@field public ["color"] Color
----@field public ["shape"] GeometryShape
+---@field public color Color
+---@field public shape GeometryShape
 worldGeometryShapeNode = {}
 
 ---@param fields? table

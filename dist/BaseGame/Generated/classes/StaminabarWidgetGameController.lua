@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class StaminabarWidgetGameController: gameuiHUDGameController
----@field private ["staminaControllerRef"] inkWidgetReference
----@field private ["staminaPercTextPath"] inkTextWidgetReference
----@field private ["staminaStatusTextPath"] inkTextWidgetReference
----@field private ["bbPSceneTierEventId"] redCallbackObject
----@field private ["bbPStaminaPSMEventId"] redCallbackObject
----@field private ["bbAreaZoneEventId"] redCallbackObject
----@field private ["combatModeListener"] redCallbackObject
----@field private ["staminaController"] NameplateBarLogicController
----@field private ["RootWidget"] inkWidget
----@field private ["currentBarValue"] Float
----@field private ["currentStatPool"] gamedataStatPoolType
----@field private ["sceneTier"] GameplayTier
----@field private ["staminaState"] gamePSMStamina
----@field private ["zoneState"] gamePSMZones
----@field private ["staminaPoolListener"] StaminaPoolListener
----@field private ["statsSystem"] gameStatsSystem
----@field private ["forceHidden"] Bool
----@field private ["staminaRatioEnterCondition"] Float
----@field private ["pulse"] PulseAnimation
----@field private ["playerPuppet"] gameObject
+---@field private staminaControllerRef inkWidgetReference
+---@field private staminaPercTextPath inkTextWidgetReference
+---@field private staminaStatusTextPath inkTextWidgetReference
+---@field private bbPSceneTierEventId redCallbackObject
+---@field private bbPStaminaPSMEventId redCallbackObject
+---@field private bbAreaZoneEventId redCallbackObject
+---@field private combatModeListener redCallbackObject
+---@field private staminaController NameplateBarLogicController
+---@field private RootWidget inkWidget
+---@field private currentBarValue Float
+---@field private currentStatPool gamedataStatPoolType
+---@field private sceneTier GameplayTier
+---@field private staminaState gamePSMStamina
+---@field private zoneState gamePSMZones
+---@field private staminaPoolListener StaminaPoolListener
+---@field private statsSystem gameStatsSystem
+---@field private forceHidden Bool
+---@field private staminaRatioEnterCondition Float
+---@field private pulse PulseAnimation
+---@field private playerPuppet gameObject
 StaminabarWidgetGameController = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ShardsVirtualNestedListController: VirtualNestedListController
----@field private ["currentDataView"] ShardsNestedListDataView
+---@field private currentDataView ShardsNestedListDataView
 ShardsVirtualNestedListController = {}
 
 ---@param fields? table

@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class KeypadDeviceController: DeviceWidgetControllerBase
----@field private ["hasButtonAuthorization"] Bool
----@field private ["enteredPasswordWidget"] inkTextWidget
----@field private ["passwordStatusWidget"] inkTextWidget
----@field private ["actionButton"] inkWidget
----@field private ["ActionText"] inkTextWidget
----@field private ["passwordsList"] CName[]
----@field private ["cardName"] String
----@field private ["isPasswordKnown"] Bool
----@field private ["maxDigitsCount"] Int32
----@field private ["row1"] inkHorizontalPanelWidget
----@field private ["row2"] inkHorizontalPanelWidget
----@field private ["row3"] inkHorizontalPanelWidget
----@field private ["row4"] inkHorizontalPanelWidget
----@field private ["arePasswordsInitialized"] Bool
----@field private ["blackboard"] gameIBlackboard
+---@field private hasButtonAuthorization Bool
+---@field private enteredPasswordWidget inkTextWidget
+---@field private passwordStatusWidget inkTextWidget
+---@field private actionButton inkWidget
+---@field private ActionText inkTextWidget
+---@field private passwordsList CName[]
+---@field private cardName String
+---@field private isPasswordKnown Bool
+---@field private maxDigitsCount Int32
+---@field private row1 inkHorizontalPanelWidget
+---@field private row2 inkHorizontalPanelWidget
+---@field private row3 inkHorizontalPanelWidget
+---@field private row4 inkHorizontalPanelWidget
+---@field private arePasswordsInitialized Bool
+---@field private blackboard gameIBlackboard
 KeypadDeviceController = {}
 
 ---@param fields? table

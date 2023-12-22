@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class DataEntryRequest: gameScriptableSystemRequest
----@field public ["dataType"] EGameSessionDataType
----@field public ["data"] Variant
+---@field public dataType EGameSessionDataType
+---@field public data Variant
 DataEntryRequest = {}
 
 ---@param fields? table

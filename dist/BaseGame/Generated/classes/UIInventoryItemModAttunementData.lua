@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemModAttunementData: IScriptable
----@field public ["Name"] String
----@field public ["Icon"] CName
+---@field public Name String
+---@field public Icon CName
 UIInventoryItemModAttunementData = {}
 
 ---@param fields? table

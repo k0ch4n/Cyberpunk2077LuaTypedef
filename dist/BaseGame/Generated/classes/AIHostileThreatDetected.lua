@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AIHostileThreatDetected: AIAIEvent
----@field public ["owner"] entEntity
----@field public ["threat"] entEntity
----@field public ["status"] Bool
+---@field public owner entEntity
+---@field public threat entEntity
+---@field public status Bool
 AIHostileThreatDetected = {}
 
 ---@param fields? table

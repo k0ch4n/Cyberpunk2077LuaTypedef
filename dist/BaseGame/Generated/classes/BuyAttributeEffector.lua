@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class BuyAttributeEffector: gameEffector
----@field public ["type"] gamedataStatType
+---@field public type gamedataStatType
 BuyAttributeEffector = {}
 
 ---@param fields? table

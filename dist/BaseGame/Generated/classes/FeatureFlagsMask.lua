@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class FeatureFlagsMask
----@field public ["flags"] Uint64
+---@field public flags Uint64
 FeatureFlagsMask = {}
 
 ---@param fields? table

@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameWardrobeClothingSetIndex: Enum
----@field ["Slot1"] gameWardrobeClothingSetIndex 0
----@field ["Slot2"] gameWardrobeClothingSetIndex 1
----@field ["Slot3"] gameWardrobeClothingSetIndex 2
----@field ["Slot4"] gameWardrobeClothingSetIndex 3
----@field ["Slot5"] gameWardrobeClothingSetIndex 4
----@field ["Slot6"] gameWardrobeClothingSetIndex 5
----@field ["Slot7"] gameWardrobeClothingSetIndex 6
----@field ["COUNT"] gameWardrobeClothingSetIndex 7
----@field ["INVALID"] gameWardrobeClothingSetIndex 8
+---@field Slot1 0
+---@field Slot2 1
+---@field Slot3 2
+---@field Slot4 3
+---@field Slot5 4
+---@field Slot6 5
+---@field Slot7 6
+---@field COUNT 7
+---@field INVALID 8
 gameWardrobeClothingSetIndex = {}

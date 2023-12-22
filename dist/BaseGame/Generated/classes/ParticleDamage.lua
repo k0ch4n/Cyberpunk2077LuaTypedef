@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ParticleDamage: ISerializable
----@field public ["boundingBoxes"] Box[]
+---@field public boundingBoxes Box[]
 ParticleDamage = {}
 
 ---@param fields? table

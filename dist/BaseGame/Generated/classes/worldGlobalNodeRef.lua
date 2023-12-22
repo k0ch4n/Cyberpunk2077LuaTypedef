@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldGlobalNodeRef
----@field public ["hash"] Uint64
+---@field public hash Uint64
 worldGlobalNodeRef = {}
 
 ---@param fields? table

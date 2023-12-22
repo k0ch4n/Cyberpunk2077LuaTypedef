@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class DiodeControlComponent: gameScriptableComponent
----@field private ["affectedLights"] CName[]
----@field private ["lightsState"] Bool
----@field private ["primaryLightPreset"] DiodeLightPreset
----@field private ["secondaryLightPreset"] DiodeLightPreset
----@field private ["secondaryPresetActive"] Bool
----@field private ["secondaryPresetRemovalID"] gameDelayID
+---@field private affectedLights CName[]
+---@field private lightsState Bool
+---@field private primaryLightPreset DiodeLightPreset
+---@field private secondaryLightPreset DiodeLightPreset
+---@field private secondaryPresetActive Bool
+---@field private secondaryPresetRemovalID gameDelayID
 DiodeControlComponent = {}
 
 ---@param fields? table

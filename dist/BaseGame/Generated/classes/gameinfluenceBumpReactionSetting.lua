@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceBumpReactionSetting: ISerializable
----@field public ["reaction"] gameinteractionsBumpIntensity
----@field public ["maxVelocity"] Float
+---@field public reaction gameinteractionsBumpIntensity
+---@field public maxVelocity Float
 gameinfluenceBumpReactionSetting = {}
 
 ---@param fields? table

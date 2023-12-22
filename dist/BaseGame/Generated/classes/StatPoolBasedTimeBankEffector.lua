@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class StatPoolBasedTimeBankEffector: gameContinuousEffector
----@field public ["TimeBankValue"] Float
----@field public ["maxStatPoolValue"] Float
----@field public ["statPoolType"] gamedataStatPoolType
----@field private ["player"] gameObject
----@field private ["statPoolSystem"] gameStatPoolsSystem
----@field private ["TimeBankListener"] TimeBankValueListener
----@field private ["StatPoolListener"] StatPoolValueListener
----@field private ["playerEntityID"] entEntityID
----@field private ["gameInstance"] ScriptGameInstance
----@field private ["regenMod"] gameStatPoolModifier
+---@field public TimeBankValue Float
+---@field public maxStatPoolValue Float
+---@field public statPoolType gamedataStatPoolType
+---@field private player gameObject
+---@field private statPoolSystem gameStatPoolsSystem
+---@field private TimeBankListener TimeBankValueListener
+---@field private StatPoolListener StatPoolValueListener
+---@field private playerEntityID entEntityID
+---@field private gameInstance ScriptGameInstance
+---@field private regenMod gameStatPoolModifier
 StatPoolBasedTimeBankEffector = {}
 
 ---@param fields? table

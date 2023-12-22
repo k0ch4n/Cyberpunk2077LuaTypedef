@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquippedWeaponTypeCondition: workIScriptedCondition
----@field protected ["weaponType"] WorkspotWeaponConditionEnum
+---@field protected weaponType WorkspotWeaponConditionEnum
 EquippedWeaponTypeCondition = {}
 
 ---@param fields? table

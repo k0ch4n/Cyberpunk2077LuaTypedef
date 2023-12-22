@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class SameTargetHitPrereqCondition: BaseHitPrereqCondition
----@field public ["previousTarget"] gameObject
----@field public ["previousSource"] gameObject
----@field public ["previousWeapon"] gameweaponObject
+---@field public previousTarget gameObject
+---@field public previousSource gameObject
+---@field public previousWeapon gameweaponObject
 SameTargetHitPrereqCondition = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldDebugColoring_SameResourceName: worldEditorDebugColoringSettings
----@field public ["alpha"] Uint8
+---@field public alpha Uint8
 worldDebugColoring_SameResourceName = {}
 
 ---@param fields? table

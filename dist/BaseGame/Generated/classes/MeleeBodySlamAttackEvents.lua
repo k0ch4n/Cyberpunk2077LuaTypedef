@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class MeleeBodySlamAttackEvents: MeleeEventsTransition
----@field public ["effect"] gameEffectInstance
----@field public ["speedModifier"] gameStatModifierData_Deprecated
----@field public ["stunModifier"] gameStatModifierData_Deprecated
----@field public ["chargeStage"] Int32
----@field public ["attackSpawnDelay"] Float
----@field public ["timeToFullAttack"] Float
----@field public ["nextAttackRefresh"] Float
----@field public ["playBumpSFX"] Bool
----@field public ["bumpCallback"] redCallbackObject
----@field public ["delayBetweenBumpSFX"] Float
----@field public ["bumpSFXCooldown"] Float
----@field public ["staminaCost"] Float
----@field public ["fullAttackIndex"] Int32
----@field public ["weakAttackIndex"] Int32
+---@field public effect gameEffectInstance
+---@field public speedModifier gameStatModifierData_Deprecated
+---@field public stunModifier gameStatModifierData_Deprecated
+---@field public chargeStage Int32
+---@field public attackSpawnDelay Float
+---@field public timeToFullAttack Float
+---@field public nextAttackRefresh Float
+---@field public playBumpSFX Bool
+---@field public bumpCallback redCallbackObject
+---@field public delayBetweenBumpSFX Float
+---@field public bumpSFXCooldown Float
+---@field public staminaCost Float
+---@field public fullAttackIndex Int32
+---@field public weakAttackIndex Int32
 MeleeBodySlamAttackEvents = {}
 
 ---@param fields? table

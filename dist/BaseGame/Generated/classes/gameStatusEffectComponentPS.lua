@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameStatusEffectComponentPS: gameComponentPS
----@field public ["statusEffectArray"] gameStatusEffect[]
----@field public ["delayedFunctions"] gameDelayedFunctionsScheduler
----@field public ["delayedFunctionsNoTd"] gameDelayedFunctionsScheduler
----@field public ["isPlayerControlled"] Bool
----@field public ["tickComponent"] Bool
+---@field public statusEffectArray gameStatusEffect[]
+---@field public delayedFunctions gameDelayedFunctionsScheduler
+---@field public delayedFunctionsNoTd gameDelayedFunctionsScheduler
+---@field public isPlayerControlled Bool
+---@field public tickComponent Bool
 gameStatusEffectComponentPS = {}
 
 ---@param fields? table

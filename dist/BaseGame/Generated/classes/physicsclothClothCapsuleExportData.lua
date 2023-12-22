@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsclothClothCapsuleExportData: ISerializable
----@field public ["capsules"] physicsclothExportedCapsule[]
+---@field public capsules physicsclothExportedCapsule[]
 physicsclothClothCapsuleExportData = {}
 
 ---@param fields? table

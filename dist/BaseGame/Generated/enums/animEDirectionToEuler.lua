@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animEDirectionToEuler: Enum
----@field ["Pitch"] animEDirectionToEuler 0
----@field ["Yaw"] animEDirectionToEuler 1
----@field ["Roll"] animEDirectionToEuler 2
+---@field Pitch 0
+---@field Yaw 1
+---@field Roll 2
 animEDirectionToEuler = {}

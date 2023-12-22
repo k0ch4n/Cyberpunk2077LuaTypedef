@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HasNewMountRequest: AIVehicleConditionAbstract
----@field protected ["mountRequest"] AIArgumentMapping
----@field protected ["checkOnlyInstant"] Bool
+---@field protected mountRequest AIArgumentMapping
+---@field protected checkOnlyInstant Bool
 HasNewMountRequest = {}
 
 ---@param fields? table

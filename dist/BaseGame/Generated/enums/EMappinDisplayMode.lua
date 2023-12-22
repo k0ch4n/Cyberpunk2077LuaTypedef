@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EMappinDisplayMode: Enum
----@field ["PLAYSTYLE"] EMappinDisplayMode 0
----@field ["ROLE"] EMappinDisplayMode 1
----@field ["MINIMALISTIC"] EMappinDisplayMode 2
+---@field PLAYSTYLE 0
+---@field ROLE 1
+---@field MINIMALISTIC 2
 EMappinDisplayMode = {}

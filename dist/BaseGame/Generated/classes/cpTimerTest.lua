@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class cpTimerTest: gameObject
----@field public ["counter"] Int32
+---@field public counter Int32
 cpTimerTest = {}
 
 ---@param fields? table

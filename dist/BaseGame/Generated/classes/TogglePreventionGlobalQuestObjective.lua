@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class TogglePreventionGlobalQuestObjective: gameScriptableSystemRequest
----@field public ["preventionGlobalQuestDisabled"] Bool
----@field public ["eventSource"] CName
+---@field public preventionGlobalQuestDisabled Bool
+---@field public eventSource CName
 TogglePreventionGlobalQuestObjective = {}
 
 ---@param fields? table

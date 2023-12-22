@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class IngredientListItemLogicController: inkButtonController
----@field private ["itemName"] inkTextWidgetReference
----@field private ["inventoryQuantity"] inkTextWidgetReference
----@field private ["ingredientQuantity"] inkTextWidgetReference
----@field private ["availability"] inkTextWidgetReference
----@field private ["icon"] inkImageWidgetReference
----@field private ["emptyIcon"] inkImageWidgetReference
----@field private ["availableBgElements"] inkWidgetReference[]
----@field private ["unavailableBgElements"] inkWidgetReference[]
----@field private ["buyButton"] inkWidgetReference
----@field private ["countWrapper"] inkWidgetReference
----@field private ["itemRarity"] inkWidgetReference
----@field private ["data"] IngredientData
----@field private ["root"] inkWidget
----@field private ["TooltipsManager"] gameuiTooltipsManager
----@field private ["itemAmount"] Int32
+---@field private itemName inkTextWidgetReference
+---@field private inventoryQuantity inkTextWidgetReference
+---@field private ingredientQuantity inkTextWidgetReference
+---@field private availability inkTextWidgetReference
+---@field private icon inkImageWidgetReference
+---@field private emptyIcon inkImageWidgetReference
+---@field private availableBgElements inkWidgetReference[]
+---@field private unavailableBgElements inkWidgetReference[]
+---@field private buyButton inkWidgetReference
+---@field private countWrapper inkWidgetReference
+---@field private itemRarity inkWidgetReference
+---@field private data IngredientData
+---@field private root inkWidget
+---@field private TooltipsManager gameuiTooltipsManager
+---@field private itemAmount Int32
 IngredientListItemLogicController = {}
 
 ---@param fields? table

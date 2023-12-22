@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ProgramTooltipStatController: inkWidgetLogicController
----@field private ["arrow"] inkImageWidgetReference
----@field private ["value"] inkTextWidgetReference
----@field private ["name"] inkTextWidgetReference
----@field private ["diffValue"] inkTextWidgetReference
+---@field private arrow inkImageWidgetReference
+---@field private value inkTextWidgetReference
+---@field private name inkTextWidgetReference
+---@field private diffValue inkTextWidgetReference
 ProgramTooltipStatController = {}
 
 ---@param fields? table

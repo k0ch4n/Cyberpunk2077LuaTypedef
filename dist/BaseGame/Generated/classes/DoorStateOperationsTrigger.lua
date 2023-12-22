@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class DoorStateOperationsTrigger: DeviceOperationsTrigger
----@field protected ["triggerData"] DoorStateOperationTriggerData
----@field private ["wasStateCached"] Bool
----@field private ["cachedState"] EDoorStatus
+---@field protected triggerData DoorStateOperationTriggerData
+---@field private wasStateCached Bool
+---@field private cachedState EDoorStatus
 DoorStateOperationsTrigger = {}
 
 ---@param fields? table

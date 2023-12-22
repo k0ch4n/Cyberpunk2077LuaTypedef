@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CPOVotingDevice: CPOMissionDevice
----@field protected ["deviceName"] CName
+---@field protected deviceName CName
 CPOVotingDevice = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIFollowerCommand: AICommand
----@field public ["combatCommand"] Bool
+---@field public combatCommand Bool
 AIFollowerCommand = {}
 
 ---@param fields? table

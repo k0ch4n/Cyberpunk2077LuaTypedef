@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class sampleTimeListener: tickScriptTimeDilationListener
----@field public ["myOwner"] sampleTimeDilatable
+---@field public myOwner sampleTimeDilatable
 sampleTimeListener = {}
 
 ---@param fields? table

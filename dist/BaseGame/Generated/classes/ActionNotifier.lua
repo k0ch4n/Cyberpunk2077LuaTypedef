@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ActionNotifier: IScriptable
----@field public ["external"] Bool
----@field public ["internal"] Bool
----@field public ["failed"] Bool
+---@field public external Bool
+---@field public internal Bool
+---@field public failed Bool
 ActionNotifier = {}
 
 ---@param fields? table

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class entAnimInputSetterAnimFeature: entAnimInputSetter
----@field public ["value"] animAnimFeature
----@field public ["delay"] Float
+---@field public value animAnimFeature
+---@field public delay Float
 entAnimInputSetterAnimFeature = {}
 
 ---@param fields? table

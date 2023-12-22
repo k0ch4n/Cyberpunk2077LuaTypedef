@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class OverrideRangedAttackPackageEffector: gameEffector
----@field public ["attackPackage"] gamedataRangedAttackPackage_Record
+---@field public attackPackage gamedataRangedAttackPackage_Record
 OverrideRangedAttackPackageEffector = {}
 
 ---@param fields? table

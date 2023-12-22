@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questTogglePrefabVariant_NodeType: questIWorldDataManagerNodeType
----@field public ["params"] questTogglePrefabVariant_NodeTypeParams[]
+---@field public params questTogglePrefabVariant_NodeTypeParams[]
 questTogglePrefabVariant_NodeType = {}
 
 ---@param fields? table

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseVehicleHUDGameController: gameuiHUDGameController
----@field public ["mounted"] Bool
+---@field public mounted Bool
 gameuiBaseVehicleHUDGameController = {}
 
 ---@param fields? table
