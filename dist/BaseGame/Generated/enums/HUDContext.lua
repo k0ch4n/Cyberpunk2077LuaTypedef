@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HUDContext
-HUDContext = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["FOCUS"] = 1, ---@type Enum
-    ["LOOKEDAT"] = 2, ---@type Enum
-}
+---@class HUDContext: Enum
+---@field ["DEFAULT"] HUDContext 0
+---@field ["FOCUS"] HUDContext 1
+---@field ["LOOKEDAT"] HUDContext 2
+HUDContext = {}

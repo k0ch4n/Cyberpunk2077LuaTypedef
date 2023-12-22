@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDeviceHackTier
-gamedataDeviceHackTier = {
-    ["Tier1DeviceHack"] = 0, ---@type Enum
-    ["Tier2DeviceHack"] = 1, ---@type Enum
-    ["Tier3DeviceHack"] = 2, ---@type Enum
-    ["Tier4DeviceHack"] = 3, ---@type Enum
-    ["Tier5DeviceHack"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataDeviceHackTier: Enum
+---@field ["Tier1DeviceHack"] gamedataDeviceHackTier 0
+---@field ["Tier2DeviceHack"] gamedataDeviceHackTier 1
+---@field ["Tier3DeviceHack"] gamedataDeviceHackTier 2
+---@field ["Tier4DeviceHack"] gamedataDeviceHackTier 3
+---@field ["Tier5DeviceHack"] gamedataDeviceHackTier 4
+---@field ["Count"] gamedataDeviceHackTier 5
+---@field ["Invalid"] gamedataDeviceHackTier 6
+gamedataDeviceHackTier = {}

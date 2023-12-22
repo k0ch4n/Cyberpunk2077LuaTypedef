@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnAnimNameType
-scnAnimNameType = {
-    ["direct"] = 0, ---@type Enum
-    ["reference"] = 1, ---@type Enum
-    ["container"] = 2, ---@type Enum
-    ["dynamic"] = 3, ---@type Enum
-}
+---@class scnAnimNameType: Enum
+---@field ["direct"] scnAnimNameType 0
+---@field ["reference"] scnAnimNameType 1
+---@field ["container"] scnAnimNameType 2
+---@field ["dynamic"] scnAnimNameType 3
+scnAnimNameType = {}

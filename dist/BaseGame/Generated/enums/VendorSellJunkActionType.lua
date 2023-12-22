@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum VendorSellJunkActionType
-VendorSellJunkActionType = {
-    ["Sell"] = 0, ---@type Enum
-    ["Disassemble"] = 1, ---@type Enum
-}
+---@class VendorSellJunkActionType: Enum
+---@field ["Sell"] VendorSellJunkActionType 0
+---@field ["Disassemble"] VendorSellJunkActionType 1
+VendorSellJunkActionType = {}

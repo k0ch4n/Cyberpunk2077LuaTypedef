@@ -1,37 +1,36 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMaterialModifier
-EMaterialModifier = {
-    ["EMATMOD_HitProxy"] = 0, ---@type Enum
-    ["EMATMOD_WindData"] = 1, ---@type Enum
-    ["EMATMOD_ParticleParams"] = 2, ---@type Enum
-    ["EMATMOD_RemoteCamera"] = 3, ---@type Enum
-    ["EMATMOD_Mirror"] = 4, ---@type Enum
-    ["EMATMOD_CustomStructBuffer"] = 5, ---@type Enum
-    ["EMATMOD_MotionMatrix"] = 7, ---@type Enum
-    ["EMATMOD_ColorAndTexture"] = 8, ---@type Enum
-    ["EMATMOD_MaterialParams"] = 9, ---@type Enum
-    ["EMATMOD_Eye"] = 10, ---@type Enum
-    ["EMATMOD_Skin"] = 11, ---@type Enum
-    ["EMATMOD_Dismemberment"] = 13, ---@type Enum
-    ["EMATMOD_Garments"] = 14, ---@type Enum
-    ["EMATMOD_ShadowsDebugParams"] = 15, ---@type Enum
-    ["EMATMOD_MultilayeredDebug"] = 16, ---@type Enum
-    ["EMATMOD_ParallaxParams"] = 17, ---@type Enum
-    ["EMATMOD_HighlightsParams"] = 18, ---@type Enum
-    ["EMATMOD_DebugColoring"] = 19, ---@type Enum
-    ["EMATMOD_DrawBufferMask"] = 20, ---@type Enum
-    ["EMATMOD_AutoSpawnData"] = 21, ---@type Enum
-    ["EMATMOD_DestructionRegions"] = 22, ---@type Enum
-    ["EMATMOD_VehicleParams"] = 12, ---@type Enum
-    ["EMATMOD_EffectParams"] = 6, ---@type Enum
-    ["EMATMOD_FloatTracks"] = 23, ---@type Enum
-    ["EMATMOD_AutoHideDistance"] = 24, ---@type Enum
-    ["EMATMOD_Rain"] = 25, ---@type Enum
-    ["EMATMOD_PlanarReflections"] = 26, ---@type Enum
-    ["EMATMOD_WaterSim"] = 27, ---@type Enum
-    ["EMATMOD_TransparencyClipParams"] = 28, ---@type Enum
-    ["EMATMOD_FlatTireParams"] = 29, ---@type Enum
-    ["EMATMOD_MAX"] = 30, ---@type Enum
-}
+---@class EMaterialModifier: Enum
+---@field ["EMATMOD_HitProxy"] EMaterialModifier 0
+---@field ["EMATMOD_WindData"] EMaterialModifier 1
+---@field ["EMATMOD_ParticleParams"] EMaterialModifier 2
+---@field ["EMATMOD_RemoteCamera"] EMaterialModifier 3
+---@field ["EMATMOD_Mirror"] EMaterialModifier 4
+---@field ["EMATMOD_CustomStructBuffer"] EMaterialModifier 5
+---@field ["EMATMOD_MotionMatrix"] EMaterialModifier 7
+---@field ["EMATMOD_ColorAndTexture"] EMaterialModifier 8
+---@field ["EMATMOD_MaterialParams"] EMaterialModifier 9
+---@field ["EMATMOD_Eye"] EMaterialModifier 10
+---@field ["EMATMOD_Skin"] EMaterialModifier 11
+---@field ["EMATMOD_Dismemberment"] EMaterialModifier 13
+---@field ["EMATMOD_Garments"] EMaterialModifier 14
+---@field ["EMATMOD_ShadowsDebugParams"] EMaterialModifier 15
+---@field ["EMATMOD_MultilayeredDebug"] EMaterialModifier 16
+---@field ["EMATMOD_ParallaxParams"] EMaterialModifier 17
+---@field ["EMATMOD_HighlightsParams"] EMaterialModifier 18
+---@field ["EMATMOD_DebugColoring"] EMaterialModifier 19
+---@field ["EMATMOD_DrawBufferMask"] EMaterialModifier 20
+---@field ["EMATMOD_AutoSpawnData"] EMaterialModifier 21
+---@field ["EMATMOD_DestructionRegions"] EMaterialModifier 22
+---@field ["EMATMOD_VehicleParams"] EMaterialModifier 12
+---@field ["EMATMOD_EffectParams"] EMaterialModifier 6
+---@field ["EMATMOD_FloatTracks"] EMaterialModifier 23
+---@field ["EMATMOD_AutoHideDistance"] EMaterialModifier 24
+---@field ["EMATMOD_Rain"] EMaterialModifier 25
+---@field ["EMATMOD_PlanarReflections"] EMaterialModifier 26
+---@field ["EMATMOD_WaterSim"] EMaterialModifier 27
+---@field ["EMATMOD_TransparencyClipParams"] EMaterialModifier 28
+---@field ["EMATMOD_FlatTireParams"] EMaterialModifier 29
+---@field ["EMATMOD_MAX"] EMaterialModifier 30
+EMaterialModifier = {}

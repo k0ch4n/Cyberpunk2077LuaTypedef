@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EActionContext
-EActionContext = {
-    ["None"] = -1, ---@type Enum
-    ["Direct"] = 0, ---@type Enum
-    ["QHack"] = 1, ---@type Enum
-    ["Master"] = 2, ---@type Enum
-    ["Spiderbot"] = 3, ---@type Enum
-}
+---@class EActionContext: Enum
+---@field ["None"] EActionContext -1
+---@field ["Direct"] EActionContext 0
+---@field ["QHack"] EActionContext 1
+---@field ["Master"] EActionContext 2
+---@field ["Spiderbot"] EActionContext 3
+EActionContext = {}

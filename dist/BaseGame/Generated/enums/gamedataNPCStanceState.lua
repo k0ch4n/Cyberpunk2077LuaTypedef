@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNPCStanceState
-gamedataNPCStanceState = {
-    ["Any"] = 0, ---@type Enum
-    ["Cover"] = 1, ---@type Enum
-    ["Crouch"] = 2, ---@type Enum
-    ["Stand"] = 3, ---@type Enum
-    ["Swim"] = 4, ---@type Enum
-    ["Vehicle"] = 5, ---@type Enum
-    ["VehicleWindow"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataNPCStanceState: Enum
+---@field ["Any"] gamedataNPCStanceState 0
+---@field ["Cover"] gamedataNPCStanceState 1
+---@field ["Crouch"] gamedataNPCStanceState 2
+---@field ["Stand"] gamedataNPCStanceState 3
+---@field ["Swim"] gamedataNPCStanceState 4
+---@field ["Vehicle"] gamedataNPCStanceState 5
+---@field ["VehicleWindow"] gamedataNPCStanceState 6
+---@field ["Count"] gamedataNPCStanceState 7
+---@field ["Invalid"] gamedataNPCStanceState 8
+gamedataNPCStanceState = {}

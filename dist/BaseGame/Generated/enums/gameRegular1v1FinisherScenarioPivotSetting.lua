@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameRegular1v1FinisherScenarioPivotSetting
-gameRegular1v1FinisherScenarioPivotSetting = {
-    ["AttackerSlidesAndRotates_TargetStandsStill"] = 0, ---@type Enum
-    ["AttackerStandsStill_TargetSlidesAndRotates"] = 1, ---@type Enum
-}
+---@class gameRegular1v1FinisherScenarioPivotSetting: Enum
+---@field ["AttackerSlidesAndRotates_TargetStandsStill"] gameRegular1v1FinisherScenarioPivotSetting 0
+---@field ["AttackerStandsStill_TargetSlidesAndRotates"] gameRegular1v1FinisherScenarioPivotSetting 1
+gameRegular1v1FinisherScenarioPivotSetting = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animNodeProfileTimerMode
-animNodeProfileTimerMode = {
-    ["Begin"] = 0, ---@type Enum
-    ["End"] = 1, ---@type Enum
-}
+---@class animNodeProfileTimerMode: Enum
+---@field ["Begin"] animNodeProfileTimerMode 0
+---@field ["End"] animNodeProfileTimerMode 1
+animNodeProfileTimerMode = {}

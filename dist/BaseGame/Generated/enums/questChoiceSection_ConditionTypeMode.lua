@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questChoiceSection_ConditionTypeMode
-questChoiceSection_ConditionTypeMode = {
-    ["Highlight"] = 0, ---@type Enum
-    ["Selection"] = 1, ---@type Enum
-}
+---@class questChoiceSection_ConditionTypeMode: Enum
+---@field ["Highlight"] questChoiceSection_ConditionTypeMode 0
+---@field ["Selection"] questChoiceSection_ConditionTypeMode 1
+questChoiceSection_ConditionTypeMode = {}

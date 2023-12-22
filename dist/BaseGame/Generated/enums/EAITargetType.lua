@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAITargetType
-EAITargetType = {
-    ["AITT_Undefined"] = 0, ---@type Enum
-    ["AITT_Argument"] = 1, ---@type Enum
-    ["AITT_Owner"] = 2, ---@type Enum
-    ["AITT_CombatTarget"] = 3, ---@type Enum
-    ["AITT_FacingTarget"] = 4, ---@type Enum
-    ["AITT_Attacker"] = 5, ---@type Enum
-    ["AITT_Companion"] = 6, ---@type Enum
-    ["AITT_Cover"] = 7, ---@type Enum
-}
+---@class EAITargetType: Enum
+---@field ["AITT_Undefined"] EAITargetType 0
+---@field ["AITT_Argument"] EAITargetType 1
+---@field ["AITT_Owner"] EAITargetType 2
+---@field ["AITT_CombatTarget"] EAITargetType 3
+---@field ["AITT_FacingTarget"] EAITargetType 4
+---@field ["AITT_Attacker"] EAITargetType 5
+---@field ["AITT_Companion"] EAITargetType 6
+---@field ["AITT_Cover"] EAITargetType 7
+EAITargetType = {}

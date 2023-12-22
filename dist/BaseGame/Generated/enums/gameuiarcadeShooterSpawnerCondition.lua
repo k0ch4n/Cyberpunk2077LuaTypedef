@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeShooterSpawnerCondition
-gameuiarcadeShooterSpawnerCondition = {
-    ["ScreenLeft"] = 0, ---@type Enum
-    ["ScreenRight"] = 1, ---@type Enum
-    ["ScreenTop"] = 2, ---@type Enum
-    ["ScreenBottom"] = 3, ---@type Enum
-    ["EventTrigger"] = 4, ---@type Enum
-}
+---@class gameuiarcadeShooterSpawnerCondition: Enum
+---@field ["ScreenLeft"] gameuiarcadeShooterSpawnerCondition 0
+---@field ["ScreenRight"] gameuiarcadeShooterSpawnerCondition 1
+---@field ["ScreenTop"] gameuiarcadeShooterSpawnerCondition 2
+---@field ["ScreenBottom"] gameuiarcadeShooterSpawnerCondition 3
+---@field ["EventTrigger"] gameuiarcadeShooterSpawnerCondition 4
+gameuiarcadeShooterSpawnerCondition = {}

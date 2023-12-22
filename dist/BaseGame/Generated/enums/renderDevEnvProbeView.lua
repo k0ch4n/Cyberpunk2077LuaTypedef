@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum renderDevEnvProbeView
-renderDevEnvProbeView = {
-    ["RADIANCE"] = 0, ---@type Enum
-    ["ALBEDO"] = 1, ---@type Enum
-    ["NORMAL"] = 2, ---@type Enum
-    ["ROUGHNESS"] = 3, ---@type Enum
-    ["METALNESS"] = 4, ---@type Enum
-    ["EMISSIVE"] = 5, ---@type Enum
-    ["SKY_MASK"] = 6, ---@type Enum
-}
+---@class renderDevEnvProbeView: Enum
+---@field ["RADIANCE"] renderDevEnvProbeView 0
+---@field ["ALBEDO"] renderDevEnvProbeView 1
+---@field ["NORMAL"] renderDevEnvProbeView 2
+---@field ["ROUGHNESS"] renderDevEnvProbeView 3
+---@field ["METALNESS"] renderDevEnvProbeView 4
+---@field ["EMISSIVE"] renderDevEnvProbeView 5
+---@field ["SKY_MASK"] renderDevEnvProbeView 6
+renderDevEnvProbeView = {}

@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EInkAnimationPlaybackOption
-EInkAnimationPlaybackOption = {
-    ["PLAY"] = 0, ---@type Enum
-    ["STOP"] = 1, ---@type Enum
-    ["PAUSE"] = 2, ---@type Enum
-    ["RESUME"] = 3, ---@type Enum
-    ["CONTINUE"] = 4, ---@type Enum
-    ["GO_TO_START"] = 5, ---@type Enum
-    ["GO_TO_END"] = 6, ---@type Enum
-}
+---@class EInkAnimationPlaybackOption: Enum
+---@field ["PLAY"] EInkAnimationPlaybackOption 0
+---@field ["STOP"] EInkAnimationPlaybackOption 1
+---@field ["PAUSE"] EInkAnimationPlaybackOption 2
+---@field ["RESUME"] EInkAnimationPlaybackOption 3
+---@field ["CONTINUE"] EInkAnimationPlaybackOption 4
+---@field ["GO_TO_START"] EInkAnimationPlaybackOption 5
+---@field ["GO_TO_END"] EInkAnimationPlaybackOption 6
+EInkAnimationPlaybackOption = {}

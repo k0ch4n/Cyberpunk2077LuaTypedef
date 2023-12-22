@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkMenuState
-inkMenuState = {
-    ["Enabled"] = 0, ---@type Enum
-    ["Disabled"] = 1, ---@type Enum
-}
+---@class inkMenuState: Enum
+---@field ["Enabled"] inkMenuState 0
+---@field ["Disabled"] inkMenuState 1
+inkMenuState = {}

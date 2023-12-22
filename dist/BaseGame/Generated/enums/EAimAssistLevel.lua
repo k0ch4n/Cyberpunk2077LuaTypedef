@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAimAssistLevel
-EAimAssistLevel = {
-    ["Off"] = 0, ---@type Enum
-    ["Light"] = 1, ---@type Enum
-    ["Standard"] = 2, ---@type Enum
-    ["Heavy"] = 3, ---@type Enum
-}
+---@class EAimAssistLevel: Enum
+---@field ["Off"] EAimAssistLevel 0
+---@field ["Light"] EAimAssistLevel 1
+---@field ["Standard"] EAimAssistLevel 2
+---@field ["Heavy"] EAimAssistLevel 3
+EAimAssistLevel = {}

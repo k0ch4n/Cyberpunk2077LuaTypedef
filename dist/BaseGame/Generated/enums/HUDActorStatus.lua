@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HUDActorStatus
-HUDActorStatus = {
-    ["UNINITIALIZED"] = 0, ---@type Enum
-    ["REGISTERED"] = 1, ---@type Enum
-    ["ACTIVE"] = 2, ---@type Enum
-}
+---@class HUDActorStatus: Enum
+---@field ["UNINITIALIZED"] HUDActorStatus 0
+---@field ["REGISTERED"] HUDActorStatus 1
+---@field ["ACTIVE"] HUDActorStatus 2
+HUDActorStatus = {}

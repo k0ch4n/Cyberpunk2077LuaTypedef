@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioMixParamsAction
-audioMixParamsAction = {
-    ["Mull"] = 0, ---@type Enum
-    ["MullPercent"] = 1, ---@type Enum
-    ["MullComplemtement"] = 2, ---@type Enum
-    ["MullComplemtementPercent"] = 3, ---@type Enum
-    ["Add"] = 4, ---@type Enum
-}
+---@class audioMixParamsAction: Enum
+---@field ["Mull"] audioMixParamsAction 0
+---@field ["MullPercent"] audioMixParamsAction 1
+---@field ["MullComplemtement"] audioMixParamsAction 2
+---@field ["MullComplemtementPercent"] audioMixParamsAction 3
+---@field ["Add"] audioMixParamsAction 4
+audioMixParamsAction = {}

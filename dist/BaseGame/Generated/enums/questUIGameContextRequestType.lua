@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questUIGameContextRequestType
-questUIGameContextRequestType = {
-    ["Push"] = 0, ---@type Enum
-    ["Pop"] = 1, ---@type Enum
-    ["Reset"] = 2, ---@type Enum
-}
+---@class questUIGameContextRequestType: Enum
+---@field ["Push"] questUIGameContextRequestType 0
+---@field ["Pop"] questUIGameContextRequestType 1
+---@field ["Reset"] questUIGameContextRequestType 2
+questUIGameContextRequestType = {}

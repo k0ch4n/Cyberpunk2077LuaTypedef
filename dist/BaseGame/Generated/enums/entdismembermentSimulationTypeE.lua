@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entdismembermentSimulationTypeE
-entdismembermentSimulationTypeE = {
-    ["NONE"] = 0, ---@type Enum
-    ["DANGLE"] = 128, ---@type Enum
-}
+---@class entdismembermentSimulationTypeE: Enum
+---@field ["NONE"] entdismembermentSimulationTypeE 0
+---@field ["DANGLE"] entdismembermentSimulationTypeE 128
+entdismembermentSimulationTypeE = {}

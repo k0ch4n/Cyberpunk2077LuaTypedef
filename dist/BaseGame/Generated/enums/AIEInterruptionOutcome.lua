@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIEInterruptionOutcome
-AIEInterruptionOutcome = {
-    ["INTERRUPTION_SUCCESS"] = 0, ---@type Enum
-    ["INTERRUPTION_DELAYED"] = 1, ---@type Enum
-    ["INTERRUPTION_FAILED"] = 2, ---@type Enum
-}
+---@class AIEInterruptionOutcome: Enum
+---@field ["INTERRUPTION_SUCCESS"] AIEInterruptionOutcome 0
+---@field ["INTERRUPTION_DELAYED"] AIEInterruptionOutcome 1
+---@field ["INTERRUPTION_FAILED"] AIEInterruptionOutcome 2
+AIEInterruptionOutcome = {}

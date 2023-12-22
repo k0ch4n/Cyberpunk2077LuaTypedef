@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum BlacklistReason
-BlacklistReason = {
-    ["UNINITIALIZED"] = 0, ---@type Enum
-    ["TRESPASSING"] = 1, ---@type Enum
-    ["REPRIMAND"] = 2, ---@type Enum
-    ["COMBAT"] = 3, ---@type Enum
-}
+---@class BlacklistReason: Enum
+---@field ["UNINITIALIZED"] BlacklistReason 0
+---@field ["TRESPASSING"] BlacklistReason 1
+---@field ["REPRIMAND"] BlacklistReason 2
+---@field ["COMBAT"] BlacklistReason 3
+BlacklistReason = {}

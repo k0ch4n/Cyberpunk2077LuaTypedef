@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNPCBehaviorState
-gamedataNPCBehaviorState = {
-    ["State1"] = 0, ---@type Enum
-    ["State2"] = 1, ---@type Enum
-    ["State3"] = 2, ---@type Enum
-    ["State4"] = 3, ---@type Enum
-    ["State5"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataNPCBehaviorState: Enum
+---@field ["State1"] gamedataNPCBehaviorState 0
+---@field ["State2"] gamedataNPCBehaviorState 1
+---@field ["State3"] gamedataNPCBehaviorState 2
+---@field ["State4"] gamedataNPCBehaviorState 3
+---@field ["State5"] gamedataNPCBehaviorState 4
+---@field ["Count"] gamedataNPCBehaviorState 5
+---@field ["Invalid"] gamedataNPCBehaviorState 6
+gamedataNPCBehaviorState = {}

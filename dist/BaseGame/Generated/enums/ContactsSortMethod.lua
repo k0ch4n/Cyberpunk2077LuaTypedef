@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ContactsSortMethod
-ContactsSortMethod = {
-    ["ByTime"] = 0, ---@type Enum
-    ["ByName"] = 1, ---@type Enum
-}
+---@class ContactsSortMethod: Enum
+---@field ["ByTime"] ContactsSortMethod 0
+---@field ["ByName"] ContactsSortMethod 1
+ContactsSortMethod = {}

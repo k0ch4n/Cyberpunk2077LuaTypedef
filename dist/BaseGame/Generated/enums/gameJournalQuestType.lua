@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameJournalQuestType
-gameJournalQuestType = {
-    ["MainQuest"] = 0, ---@type Enum
-    ["SideQuest"] = 1, ---@type Enum
-    ["MinorQuest"] = 2, ---@type Enum
-    ["StreetStory"] = 3, ---@type Enum
-    ["CyberPsycho"] = 4, ---@type Enum
-    ["Contract"] = 5, ---@type Enum
-    ["VehicleQuest"] = 6, ---@type Enum
-    ["ApartmentQuest"] = 7, ---@type Enum
-    ["CourierQuest"] = 8, ---@type Enum
-    ["CourierSideQuest"] = 9, ---@type Enum
-}
+---@class gameJournalQuestType: Enum
+---@field ["MainQuest"] gameJournalQuestType 0
+---@field ["SideQuest"] gameJournalQuestType 1
+---@field ["MinorQuest"] gameJournalQuestType 2
+---@field ["StreetStory"] gameJournalQuestType 3
+---@field ["CyberPsycho"] gameJournalQuestType 4
+---@field ["Contract"] gameJournalQuestType 5
+---@field ["VehicleQuest"] gameJournalQuestType 6
+---@field ["ApartmentQuest"] gameJournalQuestType 7
+---@field ["CourierQuest"] gameJournalQuestType 8
+---@field ["CourierSideQuest"] gameJournalQuestType 9
+gameJournalQuestType = {}

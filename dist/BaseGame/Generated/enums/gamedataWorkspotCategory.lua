@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWorkspotCategory
-gamedataWorkspotCategory = {
-    ["Any"] = 0, ---@type Enum
-    ["Eating"] = 1, ---@type Enum
-    ["Nervous"] = 2, ---@type Enum
-    ["Sitting"] = 3, ---@type Enum
-    ["Sleeping"] = 4, ---@type Enum
-    ["Smoking"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataWorkspotCategory: Enum
+---@field ["Any"] gamedataWorkspotCategory 0
+---@field ["Eating"] gamedataWorkspotCategory 1
+---@field ["Nervous"] gamedataWorkspotCategory 2
+---@field ["Sitting"] gamedataWorkspotCategory 3
+---@field ["Sleeping"] gamedataWorkspotCategory 4
+---@field ["Smoking"] gamedataWorkspotCategory 5
+---@field ["Count"] gamedataWorkspotCategory 6
+---@field ["Invalid"] gamedataWorkspotCategory 7
+gamedataWorkspotCategory = {}

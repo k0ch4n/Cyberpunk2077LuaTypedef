@@ -1,1018 +1,1017 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStatType_1300DEPRECATED
-gamedataStatType_1300DEPRECATED = {
-    ["Acceleration"] = 0, ---@type Enum
-    ["Accuracy"] = 1, ---@type Enum
-    ["Adrenaline"] = 2, ---@type Enum
-    ["AimFOV"] = 3, ---@type Enum
-    ["AimInTime"] = 4, ---@type Enum
-    ["AimOffset"] = 5, ---@type Enum
-    ["AimOutTime"] = 6, ---@type Enum
-    ["AllowMovementInput"] = 7, ---@type Enum
-    ["AllowRotation"] = 8, ---@type Enum
-    ["Armor"] = 9, ---@type Enum
-    ["Assault"] = 10, ---@type Enum
-    ["AssaultMastery"] = 11, ---@type Enum
-    ["AssaultTrait01Stat"] = 12, ---@type Enum
-    ["Athletics"] = 13, ---@type Enum
-    ["AthleticsMastery"] = 14, ---@type Enum
-    ["AthleticsTrait01Stat"] = 15, ---@type Enum
-    ["AttackPenetration"] = 16, ---@type Enum
-    ["AttackSpeed"] = 17, ---@type Enum
-    ["AttackSpeedPercent"] = 18, ---@type Enum
-    ["AttacksNumber"] = 19, ---@type Enum
-    ["AttacksPerSecond"] = 20, ---@type Enum
-    ["AttacksPerSecondBase"] = 21, ---@type Enum
-    ["AudioLocomotionStimRangeMultiplier"] = 22, ---@type Enum
-    ["AudioStimRangeMultiplier"] = 23, ---@type Enum
-    ["AutoReveal"] = 24, ---@type Enum
-    ["AutocraftDuration"] = 25, ---@type Enum
-    ["AutomaticReplenishment"] = 26, ---@type Enum
-    ["AutomaticUploadPerk"] = 27, ---@type Enum
-    ["BaseChargeTime"] = 28, ---@type Enum
-    ["BaseDamage"] = 29, ---@type Enum
-    ["BaseDamageMax"] = 30, ---@type Enum
-    ["BaseDamageMin"] = 31, ---@type Enum
-    ["BerserkArmorBonus"] = 32, ---@type Enum
-    ["BerserkCooldownBase"] = 33, ---@type Enum
-    ["BerserkCooldownReduction"] = 34, ---@type Enum
-    ["BerserkDurationBase"] = 35, ---@type Enum
-    ["BerserkHealthRegenBonus"] = 36, ---@type Enum
-    ["BerserkMeleeDamageBonus"] = 37, ---@type Enum
-    ["BerserkRecoilReduction"] = 38, ---@type Enum
-    ["BerserkResistancesBonus"] = 39, ---@type Enum
-    ["BerserkShockwaveDamage"] = 40, ---@type Enum
-    ["BerserkShockwaveRangeBonus"] = 41, ---@type Enum
-    ["BerserkSwayReduction"] = 42, ---@type Enum
-    ["BleedingApplicationRate"] = 43, ---@type Enum
-    ["BleedingImmunity"] = 44, ---@type Enum
-    ["BlindImmunity"] = 45, ---@type Enum
-    ["BlindResistance"] = 46, ---@type Enum
-    ["BlockFactor"] = 47, ---@type Enum
-    ["BlockLocomotionWhenLeaningOutOfCover"] = 48, ---@type Enum
-    ["BlockReduction"] = 49, ---@type Enum
-    ["BonusChargeDamage"] = 50, ---@type Enum
-    ["BonusDPS"] = 51, ---@type Enum
-    ["BonusDamageAgainstElites"] = 52, ---@type Enum
-    ["BonusDamageAgainstMechanicals"] = 53, ---@type Enum
-    ["BonusDamageAgainstRares"] = 54, ---@type Enum
-    ["BonusQuickHackDamage"] = 55, ---@type Enum
-    ["BonusRicochetDamage"] = 56, ---@type Enum
-    ["Brake"] = 57, ---@type Enum
-    ["BrakeDot"] = 58, ---@type Enum
-    ["Brawling"] = 59, ---@type Enum
-    ["BrawlingMastery"] = 60, ---@type Enum
-    ["BrawlingTrait01Stat"] = 61, ---@type Enum
-    ["BufferSize"] = 62, ---@type Enum
-    ["BulletMagnetismDefaultAngle"] = 63, ---@type Enum
-    ["BulletMagnetismHighVelocityAngle"] = 64, ---@type Enum
-    ["BulletPseudoPierceHitVFxChance"] = 65, ---@type Enum
-    ["BulletSurroundingHitVFxChance"] = 66, ---@type Enum
-    ["BurningApplicationRate"] = 67, ---@type Enum
-    ["BurningImmunity"] = 68, ---@type Enum
-    ["BurningRegenStamina"] = 69, ---@type Enum
-    ["CPUPower"] = 70, ---@type Enum
-    ["CallReinforcement"] = 71, ---@type Enum
-    ["CameraShutdownExtension"] = 72, ---@type Enum
-    ["CanAerialTakedown"] = 73, ---@type Enum
-    ["CanAimWhileDodging"] = 74, ---@type Enum
-    ["CanAskToFollowOrder"] = 75, ---@type Enum
-    ["CanAskToHolsterWeapon"] = 76, ---@type Enum
-    ["CanAutomaticallyDisassembleJunk"] = 77, ---@type Enum
-    ["CanAutomaticallyRestoreKnives"] = 78, ---@type Enum
-    ["CanBleedingCriticallyHit"] = 79, ---@type Enum
-    ["CanBleedingSlowTarget"] = 80, ---@type Enum
-    ["CanBlindQuickHack"] = 81, ---@type Enum
-    ["CanBlock"] = 82, ---@type Enum
-    ["CanBreatheUnderwater"] = 83, ---@type Enum
-    ["CanBuffCamoQuickHack"] = 84, ---@type Enum
-    ["CanBuffMechanicalsOnTakeControl"] = 85, ---@type Enum
-    ["CanBuffSturdinessQuickHack"] = 86, ---@type Enum
-    ["CanBurningCriticallyHit"] = 87, ---@type Enum
-    ["CanCallDrones"] = 88, ---@type Enum
-    ["CanCallReinforcements"] = 89, ---@type Enum
-    ["CanCatchUp"] = 90, ---@type Enum
-    ["CanCatchUpDistance"] = 91, ---@type Enum
-    ["CanCharge"] = 92, ---@type Enum
-    ["CanChargedShoot"] = 93, ---@type Enum
-    ["CanCloseCombat"] = 94, ---@type Enum
-    ["CanCommsCallInQuickHack"] = 95, ---@type Enum
-    ["CanCommsCallOutQuickHack"] = 96, ---@type Enum
-    ["CanCommsNoiseQuickHack"] = 97, ---@type Enum
-    ["CanControlFullyChargedWeapon"] = 98, ---@type Enum
-    ["CanCraftEpicItems"] = 99, ---@type Enum
-    ["CanCraftFromInventory"] = 100, ---@type Enum
-    ["CanCraftLegendaryItems"] = 101, ---@type Enum
-    ["CanCraftRareItems"] = 102, ---@type Enum
-    ["CanCraftTechAmmunition"] = 103, ---@type Enum
-    ["CanCrouch"] = 104, ---@type Enum
-    ["CanCyberwareMalfunctionQuickHack"] = 105, ---@type Enum
-    ["CanDash"] = 106, ---@type Enum
-    ["CanDataMineQuickHack"] = 107, ---@type Enum
-    ["CanDealFullDamageToArmored"] = 108, ---@type Enum
-    ["CanDeathQuickHack"] = 109, ---@type Enum
-    ["CanDisassemble"] = 110, ---@type Enum
-    ["CanDisassembleConsumables"] = 111, ---@type Enum
-    ["CanDisassembleGadgets"] = 112, ---@type Enum
-    ["CanDropWeapon"] = 113, ---@type Enum
-    ["CanElectrocuteNullifyStats"] = 114, ---@type Enum
-    ["CanElectrocuteRoot"] = 115, ---@type Enum
-    ["CanExitWSOnSoundStimuli"] = 116, ---@type Enum
-    ["CanExplodeQuickHack"] = 117, ---@type Enum
-    ["CanFastTravelWhileEncumbered"] = 118, ---@type Enum
-    ["CanFullyChargeWeapon"] = 119, ---@type Enum
-    ["CanGrab"] = 120, ---@type Enum
-    ["CanGrappleAndroids"] = 121, ---@type Enum
-    ["CanGrappleSilently"] = 122, ---@type Enum
-    ["CanGrenadeLaunch"] = 123, ---@type Enum
-    ["CanGrenadeQuickHack"] = 124, ---@type Enum
-    ["CanGrenadesCriticallyHit"] = 125, ---@type Enum
-    ["CanGrenadesDealExternalDamage"] = 126, ---@type Enum
-    ["CanGuardBreak"] = 127, ---@type Enum
-    ["CanHeartattackQuickHack"] = 128, ---@type Enum
-    ["CanIgnoreArmorDamageReduction"] = 129, ---@type Enum
-    ["CanIgnoreStamina"] = 130, ---@type Enum
-    ["CanInstallTechMods"] = 131, ---@type Enum
-    ["CanJamWeaponQuickHack"] = 132, ---@type Enum
-    ["CanJump"] = 133, ---@type Enum
-    ["CanLandSilently"] = 134, ---@type Enum
-    ["CanLegendaryCraftedWeaponsBeBoosted"] = 135, ---@type Enum
-    ["CanLocomotionMalfunctionQuickHack"] = 136, ---@type Enum
-    ["CanMadnessQuickHack"] = 137, ---@type Enum
-    ["CanMalfunctionQuickHack"] = 138, ---@type Enum
-    ["CanMeleeBerserk"] = 139, ---@type Enum
-    ["CanMeleeDash"] = 140, ---@type Enum
-    ["CanMeleeInfinitelyCombo"] = 141, ---@type Enum
-    ["CanMeleeLeap"] = 142, ---@type Enum
-    ["CanMeleeLeapTakedown"] = 143, ---@type Enum
-    ["CanOverchargeWeapon"] = 144, ---@type Enum
-    ["CanOverheatQuickHack"] = 145, ---@type Enum
-    ["CanOverloadQuickHack"] = 146, ---@type Enum
-    ["CanOverrideAttitudeQuickHack"] = 147, ---@type Enum
-    ["CanOverrideAuthorizationQuickHack"] = 148, ---@type Enum
-    ["CanParry"] = 149, ---@type Enum
-    ["CanPickUpBodyAfterTakedown"] = 150, ---@type Enum
-    ["CanPickUpWeapon"] = 151, ---@type Enum
-    ["CanPingQuickHack"] = 152, ---@type Enum
-    ["CanPlayerBoostConsumables"] = 153, ---@type Enum
-    ["CanPlayerBoostGrenades"] = 154, ---@type Enum
-    ["CanPoisonLowerArmor"] = 155, ---@type Enum
-    ["CanPoisonSlow"] = 156, ---@type Enum
-    ["CanPreciseShoot"] = 157, ---@type Enum
-    ["CanPushBack"] = 158, ---@type Enum
-    ["CanPushFromGrapple"] = 159, ---@type Enum
-    ["CanQuickHackCriticallyHit"] = 160, ---@type Enum
-    ["CanQuickMeleeStagger"] = 161, ---@type Enum
-    ["CanQuickhack"] = 162, ---@type Enum
-    ["CanQuickhackHealPuppet"] = 163, ---@type Enum
-    ["CanQuickhackTransferBetweenEnemies"] = 164, ---@type Enum
-    ["CanRegenInCombat"] = 165, ---@type Enum
-    ["CanRemoveModsFromClothing"] = 166, ---@type Enum
-    ["CanRemoveModsFromWeapons"] = 167, ---@type Enum
-    ["CanResurrectAllies"] = 168, ---@type Enum
-    ["CanRetrieveModsFromDisassemble"] = 169, ---@type Enum
-    ["CanRunSilently"] = 170, ---@type Enum
-    ["CanSandevistanSprintHarass"] = 171, ---@type Enum
-    ["CanScrapPartsFromMechanicals"] = 172, ---@type Enum
-    ["CanSeeGrenadeRadius"] = 173, ---@type Enum
-    ["CanSeeRicochetVisuals"] = 174, ---@type Enum
-    ["CanSeeThroughWalls"] = 175, ---@type Enum
-    ["CanShareThreatsWithPlayer"] = 176, ---@type Enum
-    ["CanShootWhileCarryingBody"] = 177, ---@type Enum
-    ["CanShootWhileDodging"] = 178, ---@type Enum
-    ["CanShootWhileGrappling"] = 179, ---@type Enum
-    ["CanShootWhileMoving"] = 180, ---@type Enum
-    ["CanShootWhileVaulting"] = 181, ---@type Enum
-    ["CanSilentKill"] = 182, ---@type Enum
-    ["CanSmartShoot"] = 183, ---@type Enum
-    ["CanSprint"] = 184, ---@type Enum
-    ["CanSprintHarass"] = 185, ---@type Enum
-    ["CanSprintWhileCarryingBody"] = 186, ---@type Enum
-    ["CanSuicideQuickHack"] = 187, ---@type Enum
-    ["CanSwitchWeapon"] = 188, ---@type Enum
-    ["CanTakeControlQuickHack"] = 189, ---@type Enum
-    ["CanTakedownLethally"] = 190, ---@type Enum
-    ["CanTakedownSilently"] = 191, ---@type Enum
-    ["CanTaunt"] = 192, ---@type Enum
-    ["CanThrowWeapon"] = 193, ---@type Enum
-    ["CanUpgradeFromInventory"] = 194, ---@type Enum
-    ["CanUpgradeToLegendaryQuality"] = 195, ---@type Enum
-    ["CanUseAntiStun"] = 196, ---@type Enum
-    ["CanUseBiohazardGrenades"] = 197, ---@type Enum
-    ["CanUseCloseRing"] = 198, ---@type Enum
-    ["CanUseCombatStims"] = 199, ---@type Enum
-    ["CanUseConsumables"] = 200, ---@type Enum
-    ["CanUseCoolingSystem"] = 201, ---@type Enum
-    ["CanUseCovers"] = 202, ---@type Enum
-    ["CanUseCuttingGrenades"] = 203, ---@type Enum
-    ["CanUseEMPGrenades"] = 204, ---@type Enum
-    ["CanUseExtremeRing"] = 205, ---@type Enum
-    ["CanUseFarRing"] = 206, ---@type Enum
-    ["CanUseFlashbangGrenades"] = 207, ---@type Enum
-    ["CanUseFragGrenades"] = 208, ---@type Enum
-    ["CanUseGrenades"] = 209, ---@type Enum
-    ["CanUseHolographicCamo"] = 210, ---@type Enum
-    ["CanUseIncendiaryGrenades"] = 211, ---@type Enum
-    ["CanUseLeftHand"] = 212, ---@type Enum
-    ["CanUseLegs"] = 213, ---@type Enum
-    ["CanUseMantisBlades"] = 214, ---@type Enum
-    ["CanUseMediumRing"] = 215, ---@type Enum
-    ["CanUseMeleeRing"] = 216, ---@type Enum
-    ["CanUseOpticalCamo"] = 217, ---@type Enum
-    ["CanUsePainInhibitors"] = 218, ---@type Enum
-    ["CanUsePersonalSoundSilencer"] = 219, ---@type Enum
-    ["CanUseProjectileLauncher"] = 220, ---@type Enum
-    ["CanUseReconGrenades"] = 221, ---@type Enum
-    ["CanUseRetractableShield"] = 222, ---@type Enum
-    ["CanUseRightHand"] = 223, ---@type Enum
-    ["CanUseShootingSpots"] = 224, ---@type Enum
-    ["CanUseStaticCamo"] = 225, ---@type Enum
-    ["CanUseStrongArms"] = 226, ---@type Enum
-    ["CanUseTakedowns"] = 227, ---@type Enum
-    ["CanUseTerrainCamo"] = 228, ---@type Enum
-    ["CanUseZoom"] = 229, ---@type Enum
-    ["CanWalkSilently"] = 230, ---@type Enum
-    ["CanWallStick"] = 231, ---@type Enum
-    ["CanWeaponBlock"] = 232, ---@type Enum
-    ["CanWeaponBlockAttack"] = 233, ---@type Enum
-    ["CanWeaponComboAttack"] = 234, ---@type Enum
-    ["CanWeaponCriticallyHit"] = 235, ---@type Enum
-    ["CanWeaponCrouchAttack"] = 236, ---@type Enum
-    ["CanWeaponDash"] = 237, ---@type Enum
-    ["CanWeaponDeflect"] = 238, ---@type Enum
-    ["CanWeaponIgnoreArmor"] = 239, ---@type Enum
-    ["CanWeaponInfinitlyCombo"] = 240, ---@type Enum
-    ["CanWeaponJumpAttack"] = 241, ---@type Enum
-    ["CanWeaponLeap"] = 242, ---@type Enum
-    ["CanWeaponMalfunctionQuickHack"] = 243, ---@type Enum
-    ["CanWeaponReload"] = 244, ---@type Enum
-    ["CanWeaponReloadWhileInactive"] = 245, ---@type Enum
-    ["CanWeaponReloadWhileSliding"] = 246, ---@type Enum
-    ["CanWeaponReloadWhileSprinting"] = 247, ---@type Enum
-    ["CanWeaponReloadWhileVaulting"] = 248, ---@type Enum
-    ["CanWeaponSafeAttack"] = 249, ---@type Enum
-    ["CanWeaponShoot"] = 250, ---@type Enum
-    ["CanWeaponShootWhileSliding"] = 251, ---@type Enum
-    ["CanWeaponShootWhileSprinting"] = 252, ---@type Enum
-    ["CanWeaponShootWhileVaulting"] = 253, ---@type Enum
-    ["CanWeaponSnapToLimbs"] = 254, ---@type Enum
-    ["CanWeaponSprintAttack"] = 255, ---@type Enum
-    ["CanWeaponStrongAttack"] = 256, ---@type Enum
-    ["CanWeaponTriggerHeadshot"] = 257, ---@type Enum
-    ["CannotBeDetectedWhileSubmerged"] = 258, ---@type Enum
-    ["CannotBeHealed"] = 259, ---@type Enum
-    ["CannotSprintHarass"] = 260, ---@type Enum
-    ["CarryCapacity"] = 261, ---@type Enum
-    ["CausingPanicReducesUltimateHacksCost"] = 262, ---@type Enum
-    ["Charge"] = 263, ---@type Enum
-    ["ChargeDischargeTime"] = 264, ---@type Enum
-    ["ChargeFullMultiplier"] = 265, ---@type Enum
-    ["ChargeMaxTimeInChargedState"] = 266, ---@type Enum
-    ["ChargeMultiplier"] = 267, ---@type Enum
-    ["ChargeReadyPercentage"] = 268, ---@type Enum
-    ["ChargeShouldFireWhenReady"] = 269, ---@type Enum
-    ["ChargeTime"] = 270, ---@type Enum
-    ["ChemicalDamage"] = 271, ---@type Enum
-    ["ChemicalDamageMax"] = 272, ---@type Enum
-    ["ChemicalDamageMin"] = 273, ---@type Enum
-    ["ChemicalDamagePercent"] = 274, ---@type Enum
-    ["ChemicalResistance"] = 275, ---@type Enum
-    ["ClimbSpeedModifier"] = 276, ---@type Enum
-    ["ClipTimesCycle"] = 277, ---@type Enum
-    ["ClipTimesCycleBase"] = 278, ---@type Enum
-    ["ClipTimesCyclePlusReload"] = 279, ---@type Enum
-    ["ClipTimesCyclePlusReloadBase"] = 280, ---@type Enum
-    ["CloudComputingTraps"] = 281, ---@type Enum
-    ["ColdBlood"] = 282, ---@type Enum
-    ["ColdBloodBuffBonus"] = 283, ---@type Enum
-    ["ColdBloodMastery"] = 284, ---@type Enum
-    ["ColdBloodMaxDuration"] = 285, ---@type Enum
-    ["ColdBloodMaxStacks"] = 286, ---@type Enum
-    ["ColdBloodTrait01"] = 287, ---@type Enum
-    ["CombatHacking"] = 288, ---@type Enum
-    ["CombatHackingMastery"] = 289, ---@type Enum
-    ["CommsNoiseJamOnQuickhack"] = 290, ---@type Enum
-    ["Cool"] = 291, ---@type Enum
-    ["Crafting"] = 292, ---@type Enum
-    ["CraftingBonusArmorValue"] = 293, ---@type Enum
-    ["CraftingBonusConsumableDuration"] = 294, ---@type Enum
-    ["CraftingBonusGrenadeDamage"] = 295, ---@type Enum
-    ["CraftingBonusWeaponDamage"] = 296, ---@type Enum
-    ["CraftingCostReduction"] = 297, ---@type Enum
-    ["CraftingItemLevelBoost"] = 298, ---@type Enum
-    ["CraftingMastery"] = 299, ---@type Enum
-    ["CraftingMaterialDropChance"] = 300, ---@type Enum
-    ["CraftingMaterialRandomGrantChance"] = 301, ---@type Enum
-    ["CraftingMaterialRetrieveChance"] = 302, ---@type Enum
-    ["CraftingTrait01"] = 303, ---@type Enum
-    ["CritChance"] = 304, ---@type Enum
-    ["CritChanceTimeCritDamage"] = 305, ---@type Enum
-    ["CritDPSBonus"] = 306, ---@type Enum
-    ["CritDamage"] = 307, ---@type Enum
-    ["CyberwareCooldownReduction"] = 308, ---@type Enum
-    ["CycleTime"] = 309, ---@type Enum
-    ["CycleTimeAimBlockDuration"] = 310, ---@type Enum
-    ["CycleTimeAimBlockStart"] = 311, ---@type Enum
-    ["CycleTimeBase"] = 312, ---@type Enum
-    ["CycleTimeBonus"] = 313, ---@type Enum
-    ["CycleTimeShootingMult"] = 314, ---@type Enum
-    ["CycleTimeShootingMultPeriod"] = 315, ---@type Enum
-    ["CycleTime_Burst"] = 316, ---@type Enum
-    ["CycleTime_BurstMaxCharge"] = 317, ---@type Enum
-    ["CycleTime_BurstSecondary"] = 318, ---@type Enum
-    ["CycleTriggerModeTime"] = 319, ---@type Enum
-    ["DPS"] = 320, ---@type Enum
-    ["DamageFalloffDisabled"] = 321, ---@type Enum
-    ["DamageHackSpread"] = 322, ---@type Enum
-    ["DamagePerHit"] = 323, ---@type Enum
-    ["DamageReductionDamageOverTime"] = 324, ---@type Enum
-    ["DamageReductionExplosion"] = 325, ---@type Enum
-    ["DashAttackStaminaCostReduction"] = 326, ---@type Enum
-    ["DataLeakTraps"] = 327, ---@type Enum
-    ["DealsChemicalDamage"] = 328, ---@type Enum
-    ["DealsElectricDamage"] = 329, ---@type Enum
-    ["DealsPhysicalDamage"] = 330, ---@type Enum
-    ["DealsThermalDamage"] = 331, ---@type Enum
-    ["Deceleration"] = 332, ---@type Enum
-    ["DefeatedHeadDamageThreshold"] = 333, ---@type Enum
-    ["DefeatedLArmDamageThreshold"] = 334, ---@type Enum
-    ["DefeatedLLegDamageThreshold"] = 335, ---@type Enum
-    ["DefeatedRArmDamageThreshold"] = 336, ---@type Enum
-    ["DefeatedRLegDamageThreshold"] = 337, ---@type Enum
-    ["DefeatingEnemiesReduceHacksCost"] = 338, ---@type Enum
-    ["Demolition"] = 339, ---@type Enum
-    ["DemolitionMastery"] = 340, ---@type Enum
-    ["DemolitionTrait01Stat"] = 341, ---@type Enum
-    ["Detection"] = 342, ---@type Enum
-    ["DeviceMemoryCostReduction"] = 343, ---@type Enum
-    ["DisableCyberwareOnBurning"] = 344, ---@type Enum
-    ["DisassemblingIngredientsDoubleBonus"] = 345, ---@type Enum
-    ["DisassemblingMaterialQualityObtainChance"] = 346, ---@type Enum
-    ["DismHeadDamageThreshold"] = 347, ---@type Enum
-    ["DismLArmDamageThreshold"] = 348, ---@type Enum
-    ["DismLLegDamageThreshold"] = 349, ---@type Enum
-    ["DismRArmDamageThreshold"] = 350, ---@type Enum
-    ["DismRLegDamageThreshold"] = 351, ---@type Enum
-    ["DoNotCheckFriendlyFireMadnessPassive"] = 352, ---@type Enum
-    ["DummyResistanceStat"] = 353, ---@type Enum
-    ["Durability"] = 354, ---@type Enum
-    ["DurationBonusBleeding"] = 355, ---@type Enum
-    ["DurationBonusBurning"] = 356, ---@type Enum
-    ["DurationBonusElectrified"] = 357, ---@type Enum
-    ["DurationBonusPoisoned"] = 358, ---@type Enum
-    ["DurationBonusQuickhack"] = 359, ---@type Enum
-    ["DurationBonusStun"] = 360, ---@type Enum
-    ["EMPImmunity"] = 361, ---@type Enum
-    ["EffectiveDPS"] = 362, ---@type Enum
-    ["EffectiveDamagePerHit"] = 363, ---@type Enum
-    ["EffectiveDamagePerHitMax"] = 364, ---@type Enum
-    ["EffectiveDamagePerHitMin"] = 365, ---@type Enum
-    ["EffectiveDamagePerHitTimesAttacksPerSecond"] = 366, ---@type Enum
-    ["EffectiveRange"] = 367, ---@type Enum
-    ["ElectricDamage"] = 368, ---@type Enum
-    ["ElectricDamageMax"] = 369, ---@type Enum
-    ["ElectricDamageMin"] = 370, ---@type Enum
-    ["ElectricDamagePercent"] = 371, ---@type Enum
-    ["ElectricResistance"] = 372, ---@type Enum
-    ["ElectrocuteImmunity"] = 373, ---@type Enum
-    ["ElectrocutedApplicationRate"] = 374, ---@type Enum
-    ["ElementalDamagePerHit"] = 375, ---@type Enum
-    ["ElementalResistanceMultiplier"] = 376, ---@type Enum
-    ["EmptyReloadTime"] = 377, ---@type Enum
-    ["Engineering"] = 378, ---@type Enum
-    ["EngineeringMastery"] = 379, ---@type Enum
-    ["EngineeringTrait01"] = 380, ---@type Enum
-    ["EquipActionDuration_Corpo"] = 381, ---@type Enum
-    ["EquipActionDuration_Gang"] = 382, ---@type Enum
-    ["EquipAnimationDuration_Corpo"] = 383, ---@type Enum
-    ["EquipAnimationDuration_Gang"] = 384, ---@type Enum
-    ["EquipDuration"] = 385, ---@type Enum
-    ["EquipDuration_First"] = 386, ---@type Enum
-    ["EquipItemTime_Corpo"] = 387, ---@type Enum
-    ["EquipItemTime_Gang"] = 388, ---@type Enum
-    ["Evasion"] = 389, ---@type Enum
-    ["ExplosionKillsRecudeUltimateHacksCost"] = 390, ---@type Enum
-    ["FFInputLock"] = 391, ---@type Enum
-    ["FallDamageReduction"] = 392, ---@type Enum
-    ["FearOnQuickHackKill"] = 393, ---@type Enum
-    ["FullAutoOnFullCharge"] = 394, ---@type Enum
-    ["Gunslinger"] = 395, ---@type Enum
-    ["GunslingerMastery"] = 396, ---@type Enum
-    ["GunslingerTrait01Stat"] = 397, ---@type Enum
-    ["HackedEnemiesGetDamagedByFriendlyFire"] = 398, ---@type Enum
-    ["HackedEnemyArmorReduction"] = 399, ---@type Enum
-    ["Hacking"] = 400, ---@type Enum
-    ["HackingMastery"] = 401, ---@type Enum
-    ["HackingPenetration"] = 402, ---@type Enum
-    ["HackingResistance"] = 403, ---@type Enum
-    ["HackingResistanceUltimate"] = 404, ---@type Enum
-    ["HasAdditionalSplinterSlot"] = 405, ---@type Enum
-    ["HasAheadTargeting"] = 406, ---@type Enum
-    ["HasAirHover"] = 407, ---@type Enum
-    ["HasAirThrusters"] = 408, ---@type Enum
-    ["HasAutoReloader"] = 409, ---@type Enum
-    ["HasAutomaticReplenishment"] = 410, ---@type Enum
-    ["HasAutomaticTagging"] = 411, ---@type Enum
-    ["HasBerserk"] = 412, ---@type Enum
-    ["HasBleedImmunity"] = 413, ---@type Enum
-    ["HasBlindImmunity"] = 414, ---@type Enum
-    ["HasBoostedCortex"] = 415, ---@type Enum
-    ["HasBurningBuffs"] = 416, ---@type Enum
-    ["HasCameraLinking"] = 417, ---@type Enum
-    ["HasChargeJump"] = 418, ---@type Enum
-    ["HasCritImmunity"] = 419, ---@type Enum
-    ["HasCyberdeck"] = 420, ---@type Enum
-    ["HasCybereye"] = 421, ---@type Enum
-    ["HasDodge"] = 422, ---@type Enum
-    ["HasDodgeAir"] = 423, ---@type Enum
-    ["HasDoubleJump"] = 424, ---@type Enum
-    ["HasElectricCoating"] = 425, ---@type Enum
-    ["HasElectroPlating"] = 426, ---@type Enum
-    ["HasExtendedHitReactionImmunity"] = 427, ---@type Enum
-    ["HasFireproofSkin"] = 428, ---@type Enum
-    ["HasGPS"] = 429, ---@type Enum
-    ["HasGlowingTattoos"] = 430, ---@type Enum
-    ["HasGraphiteTissue"] = 431, ---@type Enum
-    ["HasHackingInteractions"] = 432, ---@type Enum
-    ["HasHealingReapplication"] = 433, ---@type Enum
-    ["HasHealthMonitorBomb"] = 434, ---@type Enum
-    ["HasHostileHackImmunity"] = 435, ---@type Enum
-    ["HasICELevelBooster"] = 436, ---@type Enum
-    ["HasInfravision"] = 437, ---@type Enum
-    ["HasJuiceInjector"] = 438, ---@type Enum
-    ["HasKerenzikov"] = 439, ---@type Enum
-    ["HasKerenzikovSlide"] = 440, ---@type Enum
-    ["HasKers"] = 441, ---@type Enum
-    ["HasLinkToBountySystem"] = 442, ---@type Enum
-    ["HasLoweringPerception"] = 443, ---@type Enum
-    ["HasMadnessLvl4Passive"] = 444, ---@type Enum
-    ["HasMajorQuickhackResistance"] = 445, ---@type Enum
-    ["HasMechanicalControl"] = 446, ---@type Enum
-    ["HasMeleeImmunity"] = 447, ---@type Enum
-    ["HasMeleeTargeting"] = 448, ---@type Enum
-    ["HasMetabolicEnhancer"] = 449, ---@type Enum
-    ["HasPoisonHeal"] = 450, ---@type Enum
-    ["HasPoisonImmunity"] = 451, ---@type Enum
-    ["HasPowerGrip"] = 452, ---@type Enum
-    ["HasQuickhackResistance"] = 453, ---@type Enum
-    ["HasRemoteBotAccessPointBreach"] = 454, ---@type Enum
-    ["HasSandevistan"] = 455, ---@type Enum
-    ["HasSandevistanTier1"] = 456, ---@type Enum
-    ["HasSandevistanTier2"] = 457, ---@type Enum
-    ["HasSandevistanTier3"] = 458, ---@type Enum
-    ["HasSecondHeart"] = 459, ---@type Enum
-    ["HasSelfHealingSkin"] = 460, ---@type Enum
-    ["HasSmartLink"] = 461, ---@type Enum
-    ["HasSpiderBotControl"] = 462, ---@type Enum
-    ["HasStunImmunity"] = 463, ---@type Enum
-    ["HasSubdermalArmor"] = 464, ---@type Enum
-    ["HasSuperheroFall"] = 465, ---@type Enum
-    ["HasThermovision"] = 466, ---@type Enum
-    ["HasTimedImmunity"] = 467, ---@type Enum
-    ["HasToxicCleanser"] = 468, ---@type Enum
-    ["HasWallRunSkill"] = 469, ---@type Enum
-    ["HeadshotDamageMultiplier"] = 470, ---@type Enum
-    ["HeadshotImmunity"] = 471, ---@type Enum
-    ["Health"] = 472, ---@type Enum
-    ["HealthInCombatRegenDelayOnChange"] = 473, ---@type Enum
-    ["HealthInCombatRegenEnabled"] = 474, ---@type Enum
-    ["HealthInCombatRegenEndThreshold"] = 475, ---@type Enum
-    ["HealthInCombatRegenRate"] = 476, ---@type Enum
-    ["HealthInCombatRegenRateAdd"] = 477, ---@type Enum
-    ["HealthInCombatRegenRateBase"] = 478, ---@type Enum
-    ["HealthInCombatRegenRateMult"] = 479, ---@type Enum
-    ["HealthInCombatRegenStartThreshold"] = 480, ---@type Enum
-    ["HealthInCombatStartDelay"] = 481, ---@type Enum
-    ["HealthMonitorCooldownDuration"] = 482, ---@type Enum
-    ["HealthOutOfCombatRegenDelayOnChange"] = 483, ---@type Enum
-    ["HealthOutOfCombatRegenEnabled"] = 484, ---@type Enum
-    ["HealthOutOfCombatRegenEndThreshold"] = 485, ---@type Enum
-    ["HealthOutOfCombatRegenRate"] = 486, ---@type Enum
-    ["HealthOutOfCombatRegenRateAdd"] = 487, ---@type Enum
-    ["HealthOutOfCombatRegenRateBase"] = 488, ---@type Enum
-    ["HealthOutOfCombatRegenRateMult"] = 489, ---@type Enum
-    ["HealthOutOfCombatRegenStartThreshold"] = 490, ---@type Enum
-    ["Hearing"] = 491, ---@type Enum
-    ["HeavyAttacksNumber"] = 492, ---@type Enum
-    ["HighlightAccessPoint"] = 493, ---@type Enum
-    ["HitDismembermentFactor"] = 494, ---@type Enum
-    ["HitReactionDamageHealthFactor"] = 495, ---@type Enum
-    ["HitReactionFactor"] = 496, ---@type Enum
-    ["HitTimerAfterDefeated"] = 497, ---@type Enum
-    ["HitTimerAfterImpact"] = 498, ---@type Enum
-    ["HitTimerAfterImpactMelee"] = 499, ---@type Enum
-    ["HitTimerAfterKnockdown"] = 500, ---@type Enum
-    ["HitTimerAfterPain"] = 501, ---@type Enum
-    ["HitTimerAfterStagger"] = 502, ---@type Enum
-    ["HitTimerAfterStaggerMelee"] = 503, ---@type Enum
-    ["HitWoundsFactor"] = 504, ---@type Enum
-    ["HoldDuration"] = 505, ---@type Enum
-    ["HoldEnterDuration"] = 506, ---@type Enum
-    ["HoldTimeoutDuration"] = 507, ---@type Enum
-    ["HolographicSkinCooldownDuration"] = 508, ---@type Enum
-    ["HolographicSkinDuration"] = 509, ---@type Enum
-    ["IconicItemUpgraded"] = 510, ---@type Enum
-    ["ImpactDamageThreshold"] = 511, ---@type Enum
-    ["ImpactDamageThresholdImpulse"] = 512, ---@type Enum
-    ["ImpactDamageThresholdInCover"] = 513, ---@type Enum
-    ["Intelligence"] = 514, ---@type Enum
-    ["IsAggressive"] = 515, ---@type Enum
-    ["IsBalanced"] = 516, ---@type Enum
-    ["IsBlocking"] = 517, ---@type Enum
-    ["IsCautious"] = 518, ---@type Enum
-    ["IsDefensive"] = 519, ---@type Enum
-    ["IsDeflecting"] = 520, ---@type Enum
-    ["IsDodgeStaminaFree"] = 521, ---@type Enum
-    ["IsDodging"] = 522, ---@type Enum
-    ["IsFastMeleeArchetype"] = 523, ---@type Enum
-    ["IsFastRangedArchetype"] = 524, ---@type Enum
-    ["IsGenericMeleeArchetype"] = 525, ---@type Enum
-    ["IsGenericRangedArchetype"] = 526, ---@type Enum
-    ["IsHeavyRangedArchetype"] = 527, ---@type Enum
-    ["IsInvulnerable"] = 528, ---@type Enum
-    ["IsItemBroken"] = 529, ---@type Enum
-    ["IsItemCracked"] = 530, ---@type Enum
-    ["IsItemCrafted"] = 531, ---@type Enum
-    ["IsItemIconic"] = 532, ---@type Enum
-    ["IsItemUpgraded"] = 533, ---@type Enum
-    ["IsManBig"] = 534, ---@type Enum
-    ["IsManMassive"] = 535, ---@type Enum
-    ["IsMechanical"] = 536, ---@type Enum
-    ["IsNetrunnerArchetype"] = 537, ---@type Enum
-    ["IsNotSlowedDuringADS"] = 538, ---@type Enum
-    ["IsNotSlowedDuringBlock"] = 539, ---@type Enum
-    ["IsNotSlowedDuringReload"] = 540, ---@type Enum
-    ["IsReckless"] = 541, ---@type Enum
-    ["IsShotgunnerArchetype"] = 542, ---@type Enum
-    ["IsSniperArchetype"] = 543, ---@type Enum
-    ["IsSprintStaminaFree"] = 544, ---@type Enum
-    ["IsStrongMeleeArchetype"] = 545, ---@type Enum
-    ["IsTechieArchetype"] = 546, ---@type Enum
-    ["IsTier1Archetype"] = 547, ---@type Enum
-    ["IsTier2Archetype"] = 548, ---@type Enum
-    ["IsTier3Archetype"] = 549, ---@type Enum
-    ["IsTier4Archetype"] = 550, ---@type Enum
-    ["IsWeakspot"] = 551, ---@type Enum
-    ["IsWeaponLethal"] = 552, ---@type Enum
-    ["ItemArmor"] = 553, ---@type Enum
-    ["ItemLevel"] = 554, ---@type Enum
-    ["ItemRequiresElectroPlating"] = 555, ---@type Enum
-    ["ItemRequiresPowerGrip"] = 556, ---@type Enum
-    ["ItemRequiresSmartLink"] = 557, ---@type Enum
-    ["JumpHeight"] = 558, ---@type Enum
-    ["Kenjutsu"] = 559, ---@type Enum
-    ["KenjutsuMastery"] = 560, ---@type Enum
-    ["KenjutsuTrait01Stat"] = 561, ---@type Enum
-    ["KnockdownDamageThreshold"] = 562, ---@type Enum
-    ["KnockdownDamageThresholdImpulse"] = 563, ---@type Enum
-    ["KnockdownDamageThresholdInCover"] = 564, ---@type Enum
-    ["KnockdownImmunity"] = 565, ---@type Enum
-    ["KnockdownImpulse"] = 566, ---@type Enum
-    ["Level"] = 567, ---@type Enum
-    ["LimbHealth"] = 568, ---@type Enum
-    ["LinearDirectionUpdateMax"] = 569, ---@type Enum
-    ["LinearDirectionUpdateMaxADS"] = 570, ---@type Enum
-    ["LinearDirectionUpdateMin"] = 571, ---@type Enum
-    ["LinearDirectionUpdateMinADS"] = 572, ---@type Enum
-    ["LowerActiveCooldownOnDefeat"] = 573, ---@type Enum
-    ["LowerHackingResistanceOnHack"] = 574, ---@type Enum
-    ["MagazineCapacity"] = 575, ---@type Enum
-    ["MagazineCapacityBase"] = 576, ---@type Enum
-    ["MagazineCapacityBonus"] = 577, ---@type Enum
-    ["MaxDuration"] = 578, ---@type Enum
-    ["MaxPercentDamageTakenPerHit"] = 579, ---@type Enum
-    ["MaxSpeed"] = 580, ---@type Enum
-    ["MaxStacks"] = 581, ---@type Enum
-    ["MaxStacksBonusBleeding"] = 582, ---@type Enum
-    ["MaxStacksBonusBurning"] = 583, ---@type Enum
-    ["MaximumRange"] = 584, ---@type Enum
-    ["MechanicalsBuffDPSBonus"] = 585, ---@type Enum
-    ["MeleeAttackDuration"] = 586, ---@type Enum
-    ["Memory"] = 587, ---@type Enum
-    ["MemoryCostModifier"] = 588, ---@type Enum
-    ["MemoryCostReduction"] = 589, ---@type Enum
-    ["MemoryInCombatRegenDelayOnChange"] = 590, ---@type Enum
-    ["MemoryInCombatRegenEnabled"] = 591, ---@type Enum
-    ["MemoryInCombatRegenEndThreshold"] = 592, ---@type Enum
-    ["MemoryInCombatRegenRate"] = 593, ---@type Enum
-    ["MemoryInCombatRegenRateAdd"] = 594, ---@type Enum
-    ["MemoryInCombatRegenRateBase"] = 595, ---@type Enum
-    ["MemoryInCombatRegenRateMult"] = 596, ---@type Enum
-    ["MemoryInCombatRegenStartThreshold"] = 597, ---@type Enum
-    ["MemoryInCombatStartDelay"] = 598, ---@type Enum
-    ["MemoryOutOfCombatRegenDelayOnChange"] = 599, ---@type Enum
-    ["MemoryOutOfCombatRegenEnabled"] = 600, ---@type Enum
-    ["MemoryOutOfCombatRegenEndThreshold"] = 601, ---@type Enum
-    ["MemoryOutOfCombatRegenRate"] = 602, ---@type Enum
-    ["MemoryOutOfCombatRegenRateAdd"] = 603, ---@type Enum
-    ["MemoryOutOfCombatRegenRateBase"] = 604, ---@type Enum
-    ["MemoryOutOfCombatRegenRateMult"] = 605, ---@type Enum
-    ["MemoryOutOfCombatRegenStartThreshold"] = 606, ---@type Enum
-    ["MemoryOutOfCombatStartDelay"] = 607, ---@type Enum
-    ["MemoryTrackerCooldownDuration"] = 608, ---@type Enum
-    ["MemoryWipeImmunity"] = 609, ---@type Enum
-    ["MinSpeed"] = 610, ---@type Enum
-    ["MinigameBufferExtension"] = 611, ---@type Enum
-    ["MinigameMaterialsEarned"] = 612, ---@type Enum
-    ["MinigameMemoryRegenPerk"] = 613, ---@type Enum
-    ["MinigameMoneyMultiplier"] = 614, ---@type Enum
-    ["MinigameNextInstanceBufferExtensionPerk"] = 615, ---@type Enum
-    ["MinigameShardChanceMultiplier"] = 616, ---@type Enum
-    ["MinigameTimeLimitExtension"] = 617, ---@type Enum
-    ["MinigameTrapsPossibilityChance"] = 618, ---@type Enum
-    ["NPCAnimationTime"] = 619, ---@type Enum
-    ["NPCCorpoEquipItemDuration"] = 620, ---@type Enum
-    ["NPCCorpoUnequipItemDuration"] = 621, ---@type Enum
-    ["NPCDamage"] = 622, ---@type Enum
-    ["NPCEquipItemDuration"] = 623, ---@type Enum
-    ["NPCGangEquipItemDuration"] = 624, ---@type Enum
-    ["NPCGangUnequipItemDuration"] = 625, ---@type Enum
-    ["NPCLoopDuration"] = 626, ---@type Enum
-    ["NPCRecoverDuration"] = 627, ---@type Enum
-    ["NPCStartupDuration"] = 628, ---@type Enum
-    ["NPCUnequipItemDuration"] = 629, ---@type Enum
-    ["NPCUploadTime"] = 630, ---@type Enum
-    ["NoJam"] = 631, ---@type Enum
-    ["NumShotsInBurst"] = 632, ---@type Enum
-    ["NumShotsInBurstMaxCharge"] = 633, ---@type Enum
-    ["NumShotsInBurstSecondary"] = 634, ---@type Enum
-    ["NumShotsToFire"] = 635, ---@type Enum
-    ["NumberIgnoredTraps"] = 636, ---@type Enum
-    ["Overheat"] = 637, ---@type Enum
-    ["Oxygen"] = 638, ---@type Enum
-    ["PartArmor"] = 639, ---@type Enum
-    ["PenetrationHealth"] = 640, ---@type Enum
-    ["PersonalityAggressive"] = 641, ---@type Enum
-    ["PersonalityCuriosity"] = 642, ---@type Enum
-    ["PersonalityDisgust"] = 643, ---@type Enum
-    ["PersonalityFear"] = 644, ---@type Enum
-    ["PersonalityFunny"] = 645, ---@type Enum
-    ["PersonalityJoy"] = 646, ---@type Enum
-    ["PersonalitySad"] = 647, ---@type Enum
-    ["PersonalityShock"] = 648, ---@type Enum
-    ["PersonalitySurprise"] = 649, ---@type Enum
-    ["PhoneCallDuration"] = 650, ---@type Enum
-    ["PhysicalDamage"] = 651, ---@type Enum
-    ["PhysicalDamageMax"] = 652, ---@type Enum
-    ["PhysicalDamageMin"] = 653, ---@type Enum
-    ["PhysicalDamagePercent"] = 654, ---@type Enum
-    ["PhysicalImpulse"] = 655, ---@type Enum
-    ["PhysicalResistance"] = 656, ---@type Enum
-    ["PoisonImmunity"] = 657, ---@type Enum
-    ["PoisonRegenHealth"] = 658, ---@type Enum
-    ["PoisonedApplicationRate"] = 659, ---@type Enum
-    ["PowerLevel"] = 660, ---@type Enum
-    ["PreFireTime"] = 661, ---@type Enum
-    ["PrefersCovers"] = 662, ---@type Enum
-    ["PrefersShootingSpots"] = 663, ---@type Enum
-    ["Price"] = 664, ---@type Enum
-    ["ProjectilesPerShot"] = 665, ---@type Enum
-    ["ProjectilesPerShotBase"] = 666, ---@type Enum
-    ["ProjectilesPerShotBonus"] = 667, ---@type Enum
-    ["Quality"] = 668, ---@type Enum
-    ["Quantity"] = 669, ---@type Enum
-    ["QuickHackDuration"] = 670, ---@type Enum
-    ["QuickHackDurationExtension"] = 671, ---@type Enum
-    ["QuickHackImmunity"] = 672, ---@type Enum
-    ["QuickHackResistancesMod"] = 673, ---@type Enum
-    ["QuickHackSpreadDistance"] = 674, ---@type Enum
-    ["QuickHackSpreadNumber"] = 675, ---@type Enum
-    ["QuickHackSuddenDeathChance"] = 676, ---@type Enum
-    ["QuickHackUpload"] = 677, ---@type Enum
-    ["QuickhackExtraDamageMultiplier"] = 678, ---@type Enum
-    ["QuickhackShield"] = 679, ---@type Enum
-    ["QuickhacksCooldownReduction"] = 680, ---@type Enum
-    ["RandomCurveInput"] = 681, ---@type Enum
-    ["Range"] = 682, ---@type Enum
-    ["Recoil"] = 683, ---@type Enum
-    ["RecoilAllowSway"] = 684, ---@type Enum
-    ["RecoilAlternateDir"] = 685, ---@type Enum
-    ["RecoilAlternateDirADS"] = 686, ---@type Enum
-    ["RecoilAngle"] = 687, ---@type Enum
-    ["RecoilAngleADS"] = 688, ---@type Enum
-    ["RecoilAnimation"] = 689, ---@type Enum
-    ["RecoilChargeMult"] = 690, ---@type Enum
-    ["RecoilChargeMultADS"] = 691, ---@type Enum
-    ["RecoilCycleSize"] = 692, ---@type Enum
-    ["RecoilCycleSizeADS"] = 693, ---@type Enum
-    ["RecoilCycleTime"] = 694, ---@type Enum
-    ["RecoilCycleTimeADS"] = 695, ---@type Enum
-    ["RecoilDelay"] = 696, ---@type Enum
-    ["RecoilDir"] = 697, ---@type Enum
-    ["RecoilDirADS"] = 698, ---@type Enum
-    ["RecoilDirPlanCycleRandDir"] = 699, ---@type Enum
-    ["RecoilDirPlanCycleRandDirADS"] = 700, ---@type Enum
-    ["RecoilDirPlanCycleRandRangeDir"] = 701, ---@type Enum
-    ["RecoilDirPlanCycleRandRangeDirADS"] = 702, ---@type Enum
-    ["RecoilDirPlanSequence"] = 703, ---@type Enum
-    ["RecoilDirPlanSequenceADS"] = 704, ---@type Enum
-    ["RecoilDriftRandomRangeMax"] = 705, ---@type Enum
-    ["RecoilDriftRandomRangeMin"] = 706, ---@type Enum
-    ["RecoilEnableCycleX"] = 707, ---@type Enum
-    ["RecoilEnableCycleXADS"] = 708, ---@type Enum
-    ["RecoilEnableCycleY"] = 709, ---@type Enum
-    ["RecoilEnableCycleYADS"] = 710, ---@type Enum
-    ["RecoilEnableLinearX"] = 711, ---@type Enum
-    ["RecoilEnableLinearXADS"] = 712, ---@type Enum
-    ["RecoilEnableLinearY"] = 713, ---@type Enum
-    ["RecoilEnableLinearYADS"] = 714, ---@type Enum
-    ["RecoilEnableScaleX"] = 715, ---@type Enum
-    ["RecoilEnableScaleXADS"] = 716, ---@type Enum
-    ["RecoilEnableScaleY"] = 717, ---@type Enum
-    ["RecoilEnableScaleYADS"] = 718, ---@type Enum
-    ["RecoilFullChargeMult"] = 719, ---@type Enum
-    ["RecoilFullChargeMultADS"] = 720, ---@type Enum
-    ["RecoilHoldDuration"] = 721, ---@type Enum
-    ["RecoilHoldDurationADS"] = 722, ---@type Enum
-    ["RecoilKickMax"] = 723, ---@type Enum
-    ["RecoilKickMaxADS"] = 724, ---@type Enum
-    ["RecoilKickMin"] = 725, ---@type Enum
-    ["RecoilKickMinADS"] = 726, ---@type Enum
-    ["RecoilMagForFullDrift"] = 727, ---@type Enum
-    ["RecoilMaxLength"] = 728, ---@type Enum
-    ["RecoilMaxLengthADS"] = 729, ---@type Enum
-    ["RecoilRecoveryMinSpeed"] = 730, ---@type Enum
-    ["RecoilRecoveryMinSpeedADS"] = 731, ---@type Enum
-    ["RecoilRecoverySpeed"] = 732, ---@type Enum
-    ["RecoilRecoverySpeedADS"] = 733, ---@type Enum
-    ["RecoilRecoveryTime"] = 734, ---@type Enum
-    ["RecoilRecoveryTimeADS"] = 735, ---@type Enum
-    ["RecoilScaleMax"] = 736, ---@type Enum
-    ["RecoilScaleMaxADS"] = 737, ---@type Enum
-    ["RecoilScaleTime"] = 738, ---@type Enum
-    ["RecoilScaleTimeADS"] = 739, ---@type Enum
-    ["RecoilSpeed"] = 740, ---@type Enum
-    ["RecoilSpeedADS"] = 741, ---@type Enum
-    ["RecoilTime"] = 742, ---@type Enum
-    ["RecoilTimeADS"] = 743, ---@type Enum
-    ["RecoilUseDifferentStatsInADS"] = 744, ---@type Enum
-    ["Reflexes"] = 745, ---@type Enum
-    ["RefreshesPingOnQuickhack"] = 746, ---@type Enum
-    ["RegenerateHPMinigamePerk"] = 747, ---@type Enum
-    ["ReloadAmount"] = 748, ---@type Enum
-    ["ReloadEndTime"] = 749, ---@type Enum
-    ["ReloadTime"] = 750, ---@type Enum
-    ["ReloadTimeBase"] = 751, ---@type Enum
-    ["ReloadTimeBonus"] = 752, ---@type Enum
-    ["RemoveAllStacksWhenDurationEnds"] = 753, ---@type Enum
-    ["RemoveColdBloodStacksOneByOne"] = 754, ---@type Enum
-    ["RemoveSprintOnQuickhack"] = 755, ---@type Enum
-    ["ReprimandEscalation"] = 756, ---@type Enum
-    ["RestoreMemoryOnDefeat"] = 757, ---@type Enum
-    ["RevealNetrunnerWhenHacked"] = 758, ---@type Enum
-    ["RicochetChance"] = 759, ---@type Enum
-    ["RicochetCount"] = 760, ---@type Enum
-    ["RicochetMaxAngle"] = 761, ---@type Enum
-    ["RicochetMinAngle"] = 762, ---@type Enum
-    ["RicochetTargetSearchAngle"] = 763, ---@type Enum
-    ["SandevistanDashShoot"] = 764, ---@type Enum
-    ["ScanDepth"] = 765, ---@type Enum
-    ["ScanTimeReduction"] = 766, ---@type Enum
-    ["ScopeFOV"] = 767, ---@type Enum
-    ["ScopeOffset"] = 768, ---@type Enum
-    ["ScrapItemChance"] = 769, ---@type Enum
-    ["SharedCacheTraps"] = 770, ---@type Enum
-    ["ShootingOffsetAI"] = 771, ---@type Enum
-    ["ShortCircuitOnCriticalHit"] = 772, ---@type Enum
-    ["ShorterChains"] = 773, ---@type Enum
-    ["ShotDelay"] = 774, ---@type Enum
-    ["SlideWhenLeaningOutOfCover"] = 775, ---@type Enum
-    ["SmartGunAddSpiralTrajectory"] = 776, ---@type Enum
-    ["SmartGunAdsLockingAnglePitch"] = 777, ---@type Enum
-    ["SmartGunAdsLockingAngleYaw"] = 778, ---@type Enum
-    ["SmartGunAdsMaxLockedTargets"] = 779, ---@type Enum
-    ["SmartGunAdsTagLockAnglePitch"] = 780, ---@type Enum
-    ["SmartGunAdsTagLockAngleYaw"] = 781, ---@type Enum
-    ["SmartGunAdsTargetableAnglePitch"] = 782, ---@type Enum
-    ["SmartGunAdsTargetableAngleYaw"] = 783, ---@type Enum
-    ["SmartGunAdsTimeToLock"] = 784, ---@type Enum
-    ["SmartGunAdsTimeToUnlock"] = 785, ---@type Enum
-    ["SmartGunEvenDistributionPeriod"] = 786, ---@type Enum
-    ["SmartGunHipLockingAnglePitch"] = 787, ---@type Enum
-    ["SmartGunHipLockingAngleYaw"] = 788, ---@type Enum
-    ["SmartGunHipMaxLockedTargets"] = 789, ---@type Enum
-    ["SmartGunHipTagLockAnglePitch"] = 790, ---@type Enum
-    ["SmartGunHipTagLockAngleYaw"] = 791, ---@type Enum
-    ["SmartGunHipTargetableAnglePitch"] = 792, ---@type Enum
-    ["SmartGunHipTargetableAngleYaw"] = 793, ---@type Enum
-    ["SmartGunHipTimeToLock"] = 794, ---@type Enum
-    ["SmartGunHipTimeToUnlock"] = 795, ---@type Enum
-    ["SmartGunHitProbability"] = 796, ---@type Enum
-    ["SmartGunHitProbabilityMultiplier"] = 797, ---@type Enum
-    ["SmartGunMissDelay"] = 798, ---@type Enum
-    ["SmartGunMissRadius"] = 799, ---@type Enum
-    ["SmartGunNPCApplySpreadAtHitplane"] = 800, ---@type Enum
-    ["SmartGunNPCLockOnTime"] = 801, ---@type Enum
-    ["SmartGunNPCLockTimeout"] = 802, ---@type Enum
-    ["SmartGunNPCLockingAnglePitch"] = 803, ---@type Enum
-    ["SmartGunNPCLockingAngleYaw"] = 804, ---@type Enum
-    ["SmartGunNPCProjectileStartingOrientationAngleOffset"] = 805, ---@type Enum
-    ["SmartGunNPCProjectileVelocity"] = 806, ---@type Enum
-    ["SmartGunNPCShootProjectilesOnlyStraight"] = 807, ---@type Enum
-    ["SmartGunNPCSpreadMultiplier"] = 808, ---@type Enum
-    ["SmartGunNPCTrajectoryCurvatureMultiplier"] = 809, ---@type Enum
-    ["SmartGunPlayerProjectileVelocity"] = 810, ---@type Enum
-    ["SmartGunProjectileVelocityVariance"] = 811, ---@type Enum
-    ["SmartGunSpiralCycleTimeMax"] = 812, ---@type Enum
-    ["SmartGunSpiralCycleTimeMin"] = 813, ---@type Enum
-    ["SmartGunSpiralRadius"] = 814, ---@type Enum
-    ["SmartGunSpiralRampDistanceEnd"] = 815, ---@type Enum
-    ["SmartGunSpiralRampDistanceStart"] = 816, ---@type Enum
-    ["SmartGunSpiralRandomizeDirection"] = 817, ---@type Enum
-    ["SmartGunSpreadMultiplier"] = 818, ---@type Enum
-    ["SmartGunStartingAccuracy"] = 819, ---@type Enum
-    ["SmartGunTargetAcquisitionRange"] = 820, ---@type Enum
-    ["SmartGunTimeToMaxAccuracy"] = 821, ---@type Enum
-    ["SmartGunTimeToRemoveOccludedTarget"] = 822, ---@type Enum
-    ["SmartGunTrackAllBodyparts"] = 823, ---@type Enum
-    ["SmartGunTrackHeadComponents"] = 824, ---@type Enum
-    ["SmartGunTrackLegComponents"] = 825, ---@type Enum
-    ["SmartGunTrackMechanicalComponents"] = 826, ---@type Enum
-    ["SmartGunTrackMultipleEntitiesInADS"] = 827, ---@type Enum
-    ["SmartGunUseEvenDistributionTargeting"] = 828, ---@type Enum
-    ["SmartGunUseTagLockTargeting"] = 829, ---@type Enum
-    ["SmartGunUseTimeBasedAccuracy"] = 830, ---@type Enum
-    ["SmartTargetingDisruptionProbability"] = 831, ---@type Enum
-    ["SpecialDamage"] = 832, ---@type Enum
-    ["SpeedBoost"] = 833, ---@type Enum
-    ["SpeedBoostMaxSpeed"] = 834, ---@type Enum
-    ["Spread"] = 835, ---@type Enum
-    ["SpreadAdsChangePerShot"] = 836, ---@type Enum
-    ["SpreadAdsChargeMult"] = 837, ---@type Enum
-    ["SpreadAdsDefaultX"] = 838, ---@type Enum
-    ["SpreadAdsDefaultY"] = 839, ---@type Enum
-    ["SpreadAdsFastSpeedMax"] = 840, ---@type Enum
-    ["SpreadAdsFastSpeedMaxAdd"] = 841, ---@type Enum
-    ["SpreadAdsFastSpeedMin"] = 842, ---@type Enum
-    ["SpreadAdsFastSpeedMinAdd"] = 843, ---@type Enum
-    ["SpreadAdsFullChargeMult"] = 844, ---@type Enum
-    ["SpreadAdsMaxX"] = 845, ---@type Enum
-    ["SpreadAdsMaxY"] = 846, ---@type Enum
-    ["SpreadAdsMinX"] = 847, ---@type Enum
-    ["SpreadAdsMinY"] = 848, ---@type Enum
-    ["SpreadAnimation"] = 849, ---@type Enum
-    ["SpreadChangePerShot"] = 850, ---@type Enum
-    ["SpreadChargeMult"] = 851, ---@type Enum
-    ["SpreadCrouchDefaultMult"] = 852, ---@type Enum
-    ["SpreadCrouchMaxMult"] = 853, ---@type Enum
-    ["SpreadDefaultX"] = 854, ---@type Enum
-    ["SpreadDefaultY"] = 855, ---@type Enum
-    ["SpreadEvenDistributionJitterSize"] = 856, ---@type Enum
-    ["SpreadEvenDistributionRowCount"] = 857, ---@type Enum
-    ["SpreadFastSpeedMax"] = 858, ---@type Enum
-    ["SpreadFastSpeedMaxAdd"] = 859, ---@type Enum
-    ["SpreadFastSpeedMin"] = 860, ---@type Enum
-    ["SpreadFastSpeedMinAdd"] = 861, ---@type Enum
-    ["SpreadFullChargeMult"] = 862, ---@type Enum
-    ["SpreadMaxAI"] = 863, ---@type Enum
-    ["SpreadMaxX"] = 864, ---@type Enum
-    ["SpreadMaxY"] = 865, ---@type Enum
-    ["SpreadMinX"] = 866, ---@type Enum
-    ["SpreadMinY"] = 867, ---@type Enum
-    ["SpreadRandomizeOriginPoint"] = 868, ---@type Enum
-    ["SpreadResetSpeed"] = 869, ---@type Enum
-    ["SpreadResetTimeThreshold"] = 870, ---@type Enum
-    ["SpreadUseCircularSpread"] = 871, ---@type Enum
-    ["SpreadUseEvenDistribution"] = 872, ---@type Enum
-    ["SpreadUseInAds"] = 873, ---@type Enum
-    ["SpreadZeroOnFirstShot"] = 874, ---@type Enum
-    ["StaggerDamageThreshold"] = 875, ---@type Enum
-    ["StaggerDamageThresholdImpulse"] = 876, ---@type Enum
-    ["StaggerDamageThresholdInCover"] = 877, ---@type Enum
-    ["Stamina"] = 878, ---@type Enum
-    ["StaminaCostReduction"] = 879, ---@type Enum
-    ["StaminaCostToBlock"] = 880, ---@type Enum
-    ["StaminaDamage"] = 881, ---@type Enum
-    ["StaminaRegenDelayOnChange"] = 882, ---@type Enum
-    ["StaminaRegenEnabled"] = 883, ---@type Enum
-    ["StaminaRegenEndThrehold"] = 884, ---@type Enum
-    ["StaminaRegenRate"] = 885, ---@type Enum
-    ["StaminaRegenRateAdd"] = 886, ---@type Enum
-    ["StaminaRegenRateBase"] = 887, ---@type Enum
-    ["StaminaRegenRateMult"] = 888, ---@type Enum
-    ["StaminaRegenStartDelay"] = 889, ---@type Enum
-    ["StaminaRegenStartThreshold"] = 890, ---@type Enum
-    ["StaminaSprintDecayRate"] = 891, ---@type Enum
-    ["StatModifierGroupLimit"] = 892, ---@type Enum
-    ["Stealth"] = 893, ---@type Enum
-    ["StealthHacksCostReduction"] = 894, ---@type Enum
-    ["StealthHitDamageMultiplier"] = 895, ---@type Enum
-    ["StealthMastery"] = 896, ---@type Enum
-    ["StealthTrait01Stat"] = 897, ---@type Enum
-    ["StealthWeakspotDamageMultiplier"] = 898, ---@type Enum
-    ["StreetCred"] = 899, ---@type Enum
-    ["Strength"] = 900, ---@type Enum
-    ["StunImmunity"] = 901, ---@type Enum
-    ["Sway"] = 902, ---@type Enum
-    ["SwayCenterMaximumAngleOffset"] = 903, ---@type Enum
-    ["SwayCurvatureMaximumFactor"] = 904, ---@type Enum
-    ["SwayCurvatureMinimumFactor"] = 905, ---@type Enum
-    ["SwayInitialOffsetRandomFactor"] = 906, ---@type Enum
-    ["SwayResetOnAimStart"] = 907, ---@type Enum
-    ["SwaySideBottomAngleLimit"] = 908, ---@type Enum
-    ["SwaySideMaximumAngleDistance"] = 909, ---@type Enum
-    ["SwaySideMinimumAngleDistance"] = 910, ---@type Enum
-    ["SwaySideStepChangeMaximumFactor"] = 911, ---@type Enum
-    ["SwaySideStepChangeMinimumFactor"] = 912, ---@type Enum
-    ["SwaySideTopAngleLimit"] = 913, ---@type Enum
-    ["SwayStartBlendTime"] = 914, ---@type Enum
-    ["SwayStartDelay"] = 915, ---@type Enum
-    ["SwayTraversalTime"] = 916, ---@type Enum
-    ["SystemCollapseImmunity"] = 917, ---@type Enum
-    ["TBHsBaseCoefficient"] = 918, ---@type Enum
-    ["TBHsBaseSourceMultiplierCoefficient"] = 919, ---@type Enum
-    ["TBHsCoverTraceLoSIncreaseSpeed"] = 920, ---@type Enum
-    ["TBHsMinimumLineOfSightTime"] = 921, ---@type Enum
-    ["TBHsSensesTraceLoSIncreaseSpeed"] = 922, ---@type Enum
-    ["TBHsVisibilityCooldown"] = 923, ---@type Enum
-    ["TechBaseChargeThreshold"] = 924, ---@type Enum
-    ["TechMaxChargeThreshold"] = 925, ---@type Enum
-    ["TechOverChargeThreshold"] = 926, ---@type Enum
-    ["TechPierceChargeLevel"] = 927, ---@type Enum
-    ["TechPierceEnabled"] = 928, ---@type Enum
-    ["TechnicalAbility"] = 929, ---@type Enum
-    ["ThermalDamage"] = 930, ---@type Enum
-    ["ThermalDamageMax"] = 931, ---@type Enum
-    ["ThermalDamageMin"] = 932, ---@type Enum
-    ["ThermalDamagePercent"] = 933, ---@type Enum
-    ["ThermalResistance"] = 934, ---@type Enum
-    ["ThreeOrMoreProgramsCooldownRedPerk"] = 935, ---@type Enum
-    ["ThreeOrMoreProgramsMemoryRegPerk"] = 936, ---@type Enum
-    ["TimeDilationGenericDuration"] = 937, ---@type Enum
-    ["TimeDilationGenericTimeScale"] = 938, ---@type Enum
-    ["TimeDilationKerenzikovDuration"] = 939, ---@type Enum
-    ["TimeDilationKerenzikovPlayerTimeScale"] = 940, ---@type Enum
-    ["TimeDilationKerenzikovTimeScale"] = 941, ---@type Enum
-    ["TimeDilationOnDodgesCooldownDuration"] = 942, ---@type Enum
-    ["TimeDilationOnDodgesDuration"] = 943, ---@type Enum
-    ["TimeDilationOnDodgesTimeScale"] = 944, ---@type Enum
-    ["TimeDilationOnHealthDropCooldownDuration"] = 945, ---@type Enum
-    ["TimeDilationOnHealthDropDuration"] = 946, ---@type Enum
-    ["TimeDilationOnHealthDropTimeScale"] = 947, ---@type Enum
-    ["TimeDilationSandevistanCooldownBase"] = 948, ---@type Enum
-    ["TimeDilationSandevistanCooldownReduction"] = 949, ---@type Enum
-    ["TimeDilationSandevistanDuration"] = 950, ---@type Enum
-    ["TimeDilationSandevistanTimeScale"] = 951, ---@type Enum
-    ["TimeDilationWhenEnteringCombatCooldownDuration"] = 952, ---@type Enum
-    ["TimeDilationWhenEnteringCombatDuration"] = 953, ---@type Enum
-    ["TimeDilationWhenEnteringCombatTimeScale"] = 954, ---@type Enum
-    ["TranquilizerImmunity"] = 955, ---@type Enum
-    ["TriggerDismembermentChance"] = 956, ---@type Enum
-    ["TriggerWoundedChance"] = 957, ---@type Enum
-    ["TurretFriendlyExtension"] = 958, ---@type Enum
-    ["TurretShutdownExtension"] = 959, ---@type Enum
-    ["UltimateHackSpread"] = 960, ---@type Enum
-    ["UltimateHacksCostReduction"] = 961, ---@type Enum
-    ["UltimateMemoryCostReduction"] = 962, ---@type Enum
-    ["UnconsciousImmunity"] = 963, ---@type Enum
-    ["UnequipAnimationDuration_Corpo"] = 964, ---@type Enum
-    ["UnequipAnimationDuration_Gang"] = 965, ---@type Enum
-    ["UnequipDuration"] = 966, ---@type Enum
-    ["UnequipDuration_Corpo"] = 967, ---@type Enum
-    ["UnequipDuration_Gang"] = 968, ---@type Enum
-    ["UnequipItemTime_Corpo"] = 969, ---@type Enum
-    ["UnequipItemTime_Gang"] = 970, ---@type Enum
-    ["UnlockProgress"] = 971, ---@type Enum
-    ["UpgradingCostReduction"] = 972, ---@type Enum
-    ["UpgradingMaterialDropChance"] = 973, ---@type Enum
-    ["UpgradingMaterialRandomGrantChance"] = 974, ---@type Enum
-    ["UpgradingMaterialRetrieveChance"] = 975, ---@type Enum
-    ["UploadQuickHackMod"] = 976, ---@type Enum
-    ["Visibility"] = 977, ---@type Enum
-    ["VisualStimRangeMultiplier"] = 978, ---@type Enum
-    ["VulnerabilityExtension"] = 979, ---@type Enum
-    ["WallRunHorSpeedToEnterMin"] = 980, ---@type Enum
-    ["WallRunStrafeAngleMax"] = 981, ---@type Enum
-    ["WallRunTimeMax"] = 982, ---@type Enum
-    ["WallRunVertSpeedToEnterMax"] = 983, ---@type Enum
-    ["WasItemUpgraded"] = 984, ---@type Enum
-    ["WasQuickHacked"] = 985, ---@type Enum
-    ["WeakspotDamageMultiplier"] = 986, ---@type Enum
-    ["WeaponHasAutoloader"] = 987, ---@type Enum
-    ["WeaponNoise"] = 988, ---@type Enum
-    ["WeaponPosAdsX"] = 989, ---@type Enum
-    ["WeaponPosAdsY"] = 990, ---@type Enum
-    ["WeaponPosAdsZ"] = 991, ---@type Enum
-    ["WeaponPosX"] = 992, ---@type Enum
-    ["WeaponPosY"] = 993, ---@type Enum
-    ["WeaponPosZ"] = 994, ---@type Enum
-    ["WeaponRotAdsX"] = 995, ---@type Enum
-    ["WeaponRotAdsY"] = 996, ---@type Enum
-    ["WeaponRotAdsZ"] = 997, ---@type Enum
-    ["WeaponRotX"] = 998, ---@type Enum
-    ["WeaponRotY"] = 999, ---@type Enum
-    ["WeaponRotZ"] = 1000, ---@type Enum
-    ["Weight"] = 1001, ---@type Enum
-    ["WoundHeadDamageThreshold"] = 1002, ---@type Enum
-    ["WoundLArmDamageThreshold"] = 1003, ---@type Enum
-    ["WoundLLegDamageThreshold"] = 1004, ---@type Enum
-    ["WoundRArmDamageThreshold"] = 1005, ---@type Enum
-    ["WoundRLegDamageThreshold"] = 1006, ---@type Enum
-    ["ZoomLevel"] = 1007, ---@type Enum
-    ["CPO_Armor"] = 1008, ---@type Enum
-    ["CPO_NPC_Importance"] = 1009, ---@type Enum
-    ["Count"] = 1010, ---@type Enum
-    ["Invalid"] = 1011, ---@type Enum
-}
+---@class gamedataStatType_1300DEPRECATED: Enum
+---@field ["Acceleration"] gamedataStatType_1300DEPRECATED 0
+---@field ["Accuracy"] gamedataStatType_1300DEPRECATED 1
+---@field ["Adrenaline"] gamedataStatType_1300DEPRECATED 2
+---@field ["AimFOV"] gamedataStatType_1300DEPRECATED 3
+---@field ["AimInTime"] gamedataStatType_1300DEPRECATED 4
+---@field ["AimOffset"] gamedataStatType_1300DEPRECATED 5
+---@field ["AimOutTime"] gamedataStatType_1300DEPRECATED 6
+---@field ["AllowMovementInput"] gamedataStatType_1300DEPRECATED 7
+---@field ["AllowRotation"] gamedataStatType_1300DEPRECATED 8
+---@field ["Armor"] gamedataStatType_1300DEPRECATED 9
+---@field ["Assault"] gamedataStatType_1300DEPRECATED 10
+---@field ["AssaultMastery"] gamedataStatType_1300DEPRECATED 11
+---@field ["AssaultTrait01Stat"] gamedataStatType_1300DEPRECATED 12
+---@field ["Athletics"] gamedataStatType_1300DEPRECATED 13
+---@field ["AthleticsMastery"] gamedataStatType_1300DEPRECATED 14
+---@field ["AthleticsTrait01Stat"] gamedataStatType_1300DEPRECATED 15
+---@field ["AttackPenetration"] gamedataStatType_1300DEPRECATED 16
+---@field ["AttackSpeed"] gamedataStatType_1300DEPRECATED 17
+---@field ["AttackSpeedPercent"] gamedataStatType_1300DEPRECATED 18
+---@field ["AttacksNumber"] gamedataStatType_1300DEPRECATED 19
+---@field ["AttacksPerSecond"] gamedataStatType_1300DEPRECATED 20
+---@field ["AttacksPerSecondBase"] gamedataStatType_1300DEPRECATED 21
+---@field ["AudioLocomotionStimRangeMultiplier"] gamedataStatType_1300DEPRECATED 22
+---@field ["AudioStimRangeMultiplier"] gamedataStatType_1300DEPRECATED 23
+---@field ["AutoReveal"] gamedataStatType_1300DEPRECATED 24
+---@field ["AutocraftDuration"] gamedataStatType_1300DEPRECATED 25
+---@field ["AutomaticReplenishment"] gamedataStatType_1300DEPRECATED 26
+---@field ["AutomaticUploadPerk"] gamedataStatType_1300DEPRECATED 27
+---@field ["BaseChargeTime"] gamedataStatType_1300DEPRECATED 28
+---@field ["BaseDamage"] gamedataStatType_1300DEPRECATED 29
+---@field ["BaseDamageMax"] gamedataStatType_1300DEPRECATED 30
+---@field ["BaseDamageMin"] gamedataStatType_1300DEPRECATED 31
+---@field ["BerserkArmorBonus"] gamedataStatType_1300DEPRECATED 32
+---@field ["BerserkCooldownBase"] gamedataStatType_1300DEPRECATED 33
+---@field ["BerserkCooldownReduction"] gamedataStatType_1300DEPRECATED 34
+---@field ["BerserkDurationBase"] gamedataStatType_1300DEPRECATED 35
+---@field ["BerserkHealthRegenBonus"] gamedataStatType_1300DEPRECATED 36
+---@field ["BerserkMeleeDamageBonus"] gamedataStatType_1300DEPRECATED 37
+---@field ["BerserkRecoilReduction"] gamedataStatType_1300DEPRECATED 38
+---@field ["BerserkResistancesBonus"] gamedataStatType_1300DEPRECATED 39
+---@field ["BerserkShockwaveDamage"] gamedataStatType_1300DEPRECATED 40
+---@field ["BerserkShockwaveRangeBonus"] gamedataStatType_1300DEPRECATED 41
+---@field ["BerserkSwayReduction"] gamedataStatType_1300DEPRECATED 42
+---@field ["BleedingApplicationRate"] gamedataStatType_1300DEPRECATED 43
+---@field ["BleedingImmunity"] gamedataStatType_1300DEPRECATED 44
+---@field ["BlindImmunity"] gamedataStatType_1300DEPRECATED 45
+---@field ["BlindResistance"] gamedataStatType_1300DEPRECATED 46
+---@field ["BlockFactor"] gamedataStatType_1300DEPRECATED 47
+---@field ["BlockLocomotionWhenLeaningOutOfCover"] gamedataStatType_1300DEPRECATED 48
+---@field ["BlockReduction"] gamedataStatType_1300DEPRECATED 49
+---@field ["BonusChargeDamage"] gamedataStatType_1300DEPRECATED 50
+---@field ["BonusDPS"] gamedataStatType_1300DEPRECATED 51
+---@field ["BonusDamageAgainstElites"] gamedataStatType_1300DEPRECATED 52
+---@field ["BonusDamageAgainstMechanicals"] gamedataStatType_1300DEPRECATED 53
+---@field ["BonusDamageAgainstRares"] gamedataStatType_1300DEPRECATED 54
+---@field ["BonusQuickHackDamage"] gamedataStatType_1300DEPRECATED 55
+---@field ["BonusRicochetDamage"] gamedataStatType_1300DEPRECATED 56
+---@field ["Brake"] gamedataStatType_1300DEPRECATED 57
+---@field ["BrakeDot"] gamedataStatType_1300DEPRECATED 58
+---@field ["Brawling"] gamedataStatType_1300DEPRECATED 59
+---@field ["BrawlingMastery"] gamedataStatType_1300DEPRECATED 60
+---@field ["BrawlingTrait01Stat"] gamedataStatType_1300DEPRECATED 61
+---@field ["BufferSize"] gamedataStatType_1300DEPRECATED 62
+---@field ["BulletMagnetismDefaultAngle"] gamedataStatType_1300DEPRECATED 63
+---@field ["BulletMagnetismHighVelocityAngle"] gamedataStatType_1300DEPRECATED 64
+---@field ["BulletPseudoPierceHitVFxChance"] gamedataStatType_1300DEPRECATED 65
+---@field ["BulletSurroundingHitVFxChance"] gamedataStatType_1300DEPRECATED 66
+---@field ["BurningApplicationRate"] gamedataStatType_1300DEPRECATED 67
+---@field ["BurningImmunity"] gamedataStatType_1300DEPRECATED 68
+---@field ["BurningRegenStamina"] gamedataStatType_1300DEPRECATED 69
+---@field ["CPUPower"] gamedataStatType_1300DEPRECATED 70
+---@field ["CallReinforcement"] gamedataStatType_1300DEPRECATED 71
+---@field ["CameraShutdownExtension"] gamedataStatType_1300DEPRECATED 72
+---@field ["CanAerialTakedown"] gamedataStatType_1300DEPRECATED 73
+---@field ["CanAimWhileDodging"] gamedataStatType_1300DEPRECATED 74
+---@field ["CanAskToFollowOrder"] gamedataStatType_1300DEPRECATED 75
+---@field ["CanAskToHolsterWeapon"] gamedataStatType_1300DEPRECATED 76
+---@field ["CanAutomaticallyDisassembleJunk"] gamedataStatType_1300DEPRECATED 77
+---@field ["CanAutomaticallyRestoreKnives"] gamedataStatType_1300DEPRECATED 78
+---@field ["CanBleedingCriticallyHit"] gamedataStatType_1300DEPRECATED 79
+---@field ["CanBleedingSlowTarget"] gamedataStatType_1300DEPRECATED 80
+---@field ["CanBlindQuickHack"] gamedataStatType_1300DEPRECATED 81
+---@field ["CanBlock"] gamedataStatType_1300DEPRECATED 82
+---@field ["CanBreatheUnderwater"] gamedataStatType_1300DEPRECATED 83
+---@field ["CanBuffCamoQuickHack"] gamedataStatType_1300DEPRECATED 84
+---@field ["CanBuffMechanicalsOnTakeControl"] gamedataStatType_1300DEPRECATED 85
+---@field ["CanBuffSturdinessQuickHack"] gamedataStatType_1300DEPRECATED 86
+---@field ["CanBurningCriticallyHit"] gamedataStatType_1300DEPRECATED 87
+---@field ["CanCallDrones"] gamedataStatType_1300DEPRECATED 88
+---@field ["CanCallReinforcements"] gamedataStatType_1300DEPRECATED 89
+---@field ["CanCatchUp"] gamedataStatType_1300DEPRECATED 90
+---@field ["CanCatchUpDistance"] gamedataStatType_1300DEPRECATED 91
+---@field ["CanCharge"] gamedataStatType_1300DEPRECATED 92
+---@field ["CanChargedShoot"] gamedataStatType_1300DEPRECATED 93
+---@field ["CanCloseCombat"] gamedataStatType_1300DEPRECATED 94
+---@field ["CanCommsCallInQuickHack"] gamedataStatType_1300DEPRECATED 95
+---@field ["CanCommsCallOutQuickHack"] gamedataStatType_1300DEPRECATED 96
+---@field ["CanCommsNoiseQuickHack"] gamedataStatType_1300DEPRECATED 97
+---@field ["CanControlFullyChargedWeapon"] gamedataStatType_1300DEPRECATED 98
+---@field ["CanCraftEpicItems"] gamedataStatType_1300DEPRECATED 99
+---@field ["CanCraftFromInventory"] gamedataStatType_1300DEPRECATED 100
+---@field ["CanCraftLegendaryItems"] gamedataStatType_1300DEPRECATED 101
+---@field ["CanCraftRareItems"] gamedataStatType_1300DEPRECATED 102
+---@field ["CanCraftTechAmmunition"] gamedataStatType_1300DEPRECATED 103
+---@field ["CanCrouch"] gamedataStatType_1300DEPRECATED 104
+---@field ["CanCyberwareMalfunctionQuickHack"] gamedataStatType_1300DEPRECATED 105
+---@field ["CanDash"] gamedataStatType_1300DEPRECATED 106
+---@field ["CanDataMineQuickHack"] gamedataStatType_1300DEPRECATED 107
+---@field ["CanDealFullDamageToArmored"] gamedataStatType_1300DEPRECATED 108
+---@field ["CanDeathQuickHack"] gamedataStatType_1300DEPRECATED 109
+---@field ["CanDisassemble"] gamedataStatType_1300DEPRECATED 110
+---@field ["CanDisassembleConsumables"] gamedataStatType_1300DEPRECATED 111
+---@field ["CanDisassembleGadgets"] gamedataStatType_1300DEPRECATED 112
+---@field ["CanDropWeapon"] gamedataStatType_1300DEPRECATED 113
+---@field ["CanElectrocuteNullifyStats"] gamedataStatType_1300DEPRECATED 114
+---@field ["CanElectrocuteRoot"] gamedataStatType_1300DEPRECATED 115
+---@field ["CanExitWSOnSoundStimuli"] gamedataStatType_1300DEPRECATED 116
+---@field ["CanExplodeQuickHack"] gamedataStatType_1300DEPRECATED 117
+---@field ["CanFastTravelWhileEncumbered"] gamedataStatType_1300DEPRECATED 118
+---@field ["CanFullyChargeWeapon"] gamedataStatType_1300DEPRECATED 119
+---@field ["CanGrab"] gamedataStatType_1300DEPRECATED 120
+---@field ["CanGrappleAndroids"] gamedataStatType_1300DEPRECATED 121
+---@field ["CanGrappleSilently"] gamedataStatType_1300DEPRECATED 122
+---@field ["CanGrenadeLaunch"] gamedataStatType_1300DEPRECATED 123
+---@field ["CanGrenadeQuickHack"] gamedataStatType_1300DEPRECATED 124
+---@field ["CanGrenadesCriticallyHit"] gamedataStatType_1300DEPRECATED 125
+---@field ["CanGrenadesDealExternalDamage"] gamedataStatType_1300DEPRECATED 126
+---@field ["CanGuardBreak"] gamedataStatType_1300DEPRECATED 127
+---@field ["CanHeartattackQuickHack"] gamedataStatType_1300DEPRECATED 128
+---@field ["CanIgnoreArmorDamageReduction"] gamedataStatType_1300DEPRECATED 129
+---@field ["CanIgnoreStamina"] gamedataStatType_1300DEPRECATED 130
+---@field ["CanInstallTechMods"] gamedataStatType_1300DEPRECATED 131
+---@field ["CanJamWeaponQuickHack"] gamedataStatType_1300DEPRECATED 132
+---@field ["CanJump"] gamedataStatType_1300DEPRECATED 133
+---@field ["CanLandSilently"] gamedataStatType_1300DEPRECATED 134
+---@field ["CanLegendaryCraftedWeaponsBeBoosted"] gamedataStatType_1300DEPRECATED 135
+---@field ["CanLocomotionMalfunctionQuickHack"] gamedataStatType_1300DEPRECATED 136
+---@field ["CanMadnessQuickHack"] gamedataStatType_1300DEPRECATED 137
+---@field ["CanMalfunctionQuickHack"] gamedataStatType_1300DEPRECATED 138
+---@field ["CanMeleeBerserk"] gamedataStatType_1300DEPRECATED 139
+---@field ["CanMeleeDash"] gamedataStatType_1300DEPRECATED 140
+---@field ["CanMeleeInfinitelyCombo"] gamedataStatType_1300DEPRECATED 141
+---@field ["CanMeleeLeap"] gamedataStatType_1300DEPRECATED 142
+---@field ["CanMeleeLeapTakedown"] gamedataStatType_1300DEPRECATED 143
+---@field ["CanOverchargeWeapon"] gamedataStatType_1300DEPRECATED 144
+---@field ["CanOverheatQuickHack"] gamedataStatType_1300DEPRECATED 145
+---@field ["CanOverloadQuickHack"] gamedataStatType_1300DEPRECATED 146
+---@field ["CanOverrideAttitudeQuickHack"] gamedataStatType_1300DEPRECATED 147
+---@field ["CanOverrideAuthorizationQuickHack"] gamedataStatType_1300DEPRECATED 148
+---@field ["CanParry"] gamedataStatType_1300DEPRECATED 149
+---@field ["CanPickUpBodyAfterTakedown"] gamedataStatType_1300DEPRECATED 150
+---@field ["CanPickUpWeapon"] gamedataStatType_1300DEPRECATED 151
+---@field ["CanPingQuickHack"] gamedataStatType_1300DEPRECATED 152
+---@field ["CanPlayerBoostConsumables"] gamedataStatType_1300DEPRECATED 153
+---@field ["CanPlayerBoostGrenades"] gamedataStatType_1300DEPRECATED 154
+---@field ["CanPoisonLowerArmor"] gamedataStatType_1300DEPRECATED 155
+---@field ["CanPoisonSlow"] gamedataStatType_1300DEPRECATED 156
+---@field ["CanPreciseShoot"] gamedataStatType_1300DEPRECATED 157
+---@field ["CanPushBack"] gamedataStatType_1300DEPRECATED 158
+---@field ["CanPushFromGrapple"] gamedataStatType_1300DEPRECATED 159
+---@field ["CanQuickHackCriticallyHit"] gamedataStatType_1300DEPRECATED 160
+---@field ["CanQuickMeleeStagger"] gamedataStatType_1300DEPRECATED 161
+---@field ["CanQuickhack"] gamedataStatType_1300DEPRECATED 162
+---@field ["CanQuickhackHealPuppet"] gamedataStatType_1300DEPRECATED 163
+---@field ["CanQuickhackTransferBetweenEnemies"] gamedataStatType_1300DEPRECATED 164
+---@field ["CanRegenInCombat"] gamedataStatType_1300DEPRECATED 165
+---@field ["CanRemoveModsFromClothing"] gamedataStatType_1300DEPRECATED 166
+---@field ["CanRemoveModsFromWeapons"] gamedataStatType_1300DEPRECATED 167
+---@field ["CanResurrectAllies"] gamedataStatType_1300DEPRECATED 168
+---@field ["CanRetrieveModsFromDisassemble"] gamedataStatType_1300DEPRECATED 169
+---@field ["CanRunSilently"] gamedataStatType_1300DEPRECATED 170
+---@field ["CanSandevistanSprintHarass"] gamedataStatType_1300DEPRECATED 171
+---@field ["CanScrapPartsFromMechanicals"] gamedataStatType_1300DEPRECATED 172
+---@field ["CanSeeGrenadeRadius"] gamedataStatType_1300DEPRECATED 173
+---@field ["CanSeeRicochetVisuals"] gamedataStatType_1300DEPRECATED 174
+---@field ["CanSeeThroughWalls"] gamedataStatType_1300DEPRECATED 175
+---@field ["CanShareThreatsWithPlayer"] gamedataStatType_1300DEPRECATED 176
+---@field ["CanShootWhileCarryingBody"] gamedataStatType_1300DEPRECATED 177
+---@field ["CanShootWhileDodging"] gamedataStatType_1300DEPRECATED 178
+---@field ["CanShootWhileGrappling"] gamedataStatType_1300DEPRECATED 179
+---@field ["CanShootWhileMoving"] gamedataStatType_1300DEPRECATED 180
+---@field ["CanShootWhileVaulting"] gamedataStatType_1300DEPRECATED 181
+---@field ["CanSilentKill"] gamedataStatType_1300DEPRECATED 182
+---@field ["CanSmartShoot"] gamedataStatType_1300DEPRECATED 183
+---@field ["CanSprint"] gamedataStatType_1300DEPRECATED 184
+---@field ["CanSprintHarass"] gamedataStatType_1300DEPRECATED 185
+---@field ["CanSprintWhileCarryingBody"] gamedataStatType_1300DEPRECATED 186
+---@field ["CanSuicideQuickHack"] gamedataStatType_1300DEPRECATED 187
+---@field ["CanSwitchWeapon"] gamedataStatType_1300DEPRECATED 188
+---@field ["CanTakeControlQuickHack"] gamedataStatType_1300DEPRECATED 189
+---@field ["CanTakedownLethally"] gamedataStatType_1300DEPRECATED 190
+---@field ["CanTakedownSilently"] gamedataStatType_1300DEPRECATED 191
+---@field ["CanTaunt"] gamedataStatType_1300DEPRECATED 192
+---@field ["CanThrowWeapon"] gamedataStatType_1300DEPRECATED 193
+---@field ["CanUpgradeFromInventory"] gamedataStatType_1300DEPRECATED 194
+---@field ["CanUpgradeToLegendaryQuality"] gamedataStatType_1300DEPRECATED 195
+---@field ["CanUseAntiStun"] gamedataStatType_1300DEPRECATED 196
+---@field ["CanUseBiohazardGrenades"] gamedataStatType_1300DEPRECATED 197
+---@field ["CanUseCloseRing"] gamedataStatType_1300DEPRECATED 198
+---@field ["CanUseCombatStims"] gamedataStatType_1300DEPRECATED 199
+---@field ["CanUseConsumables"] gamedataStatType_1300DEPRECATED 200
+---@field ["CanUseCoolingSystem"] gamedataStatType_1300DEPRECATED 201
+---@field ["CanUseCovers"] gamedataStatType_1300DEPRECATED 202
+---@field ["CanUseCuttingGrenades"] gamedataStatType_1300DEPRECATED 203
+---@field ["CanUseEMPGrenades"] gamedataStatType_1300DEPRECATED 204
+---@field ["CanUseExtremeRing"] gamedataStatType_1300DEPRECATED 205
+---@field ["CanUseFarRing"] gamedataStatType_1300DEPRECATED 206
+---@field ["CanUseFlashbangGrenades"] gamedataStatType_1300DEPRECATED 207
+---@field ["CanUseFragGrenades"] gamedataStatType_1300DEPRECATED 208
+---@field ["CanUseGrenades"] gamedataStatType_1300DEPRECATED 209
+---@field ["CanUseHolographicCamo"] gamedataStatType_1300DEPRECATED 210
+---@field ["CanUseIncendiaryGrenades"] gamedataStatType_1300DEPRECATED 211
+---@field ["CanUseLeftHand"] gamedataStatType_1300DEPRECATED 212
+---@field ["CanUseLegs"] gamedataStatType_1300DEPRECATED 213
+---@field ["CanUseMantisBlades"] gamedataStatType_1300DEPRECATED 214
+---@field ["CanUseMediumRing"] gamedataStatType_1300DEPRECATED 215
+---@field ["CanUseMeleeRing"] gamedataStatType_1300DEPRECATED 216
+---@field ["CanUseOpticalCamo"] gamedataStatType_1300DEPRECATED 217
+---@field ["CanUsePainInhibitors"] gamedataStatType_1300DEPRECATED 218
+---@field ["CanUsePersonalSoundSilencer"] gamedataStatType_1300DEPRECATED 219
+---@field ["CanUseProjectileLauncher"] gamedataStatType_1300DEPRECATED 220
+---@field ["CanUseReconGrenades"] gamedataStatType_1300DEPRECATED 221
+---@field ["CanUseRetractableShield"] gamedataStatType_1300DEPRECATED 222
+---@field ["CanUseRightHand"] gamedataStatType_1300DEPRECATED 223
+---@field ["CanUseShootingSpots"] gamedataStatType_1300DEPRECATED 224
+---@field ["CanUseStaticCamo"] gamedataStatType_1300DEPRECATED 225
+---@field ["CanUseStrongArms"] gamedataStatType_1300DEPRECATED 226
+---@field ["CanUseTakedowns"] gamedataStatType_1300DEPRECATED 227
+---@field ["CanUseTerrainCamo"] gamedataStatType_1300DEPRECATED 228
+---@field ["CanUseZoom"] gamedataStatType_1300DEPRECATED 229
+---@field ["CanWalkSilently"] gamedataStatType_1300DEPRECATED 230
+---@field ["CanWallStick"] gamedataStatType_1300DEPRECATED 231
+---@field ["CanWeaponBlock"] gamedataStatType_1300DEPRECATED 232
+---@field ["CanWeaponBlockAttack"] gamedataStatType_1300DEPRECATED 233
+---@field ["CanWeaponComboAttack"] gamedataStatType_1300DEPRECATED 234
+---@field ["CanWeaponCriticallyHit"] gamedataStatType_1300DEPRECATED 235
+---@field ["CanWeaponCrouchAttack"] gamedataStatType_1300DEPRECATED 236
+---@field ["CanWeaponDash"] gamedataStatType_1300DEPRECATED 237
+---@field ["CanWeaponDeflect"] gamedataStatType_1300DEPRECATED 238
+---@field ["CanWeaponIgnoreArmor"] gamedataStatType_1300DEPRECATED 239
+---@field ["CanWeaponInfinitlyCombo"] gamedataStatType_1300DEPRECATED 240
+---@field ["CanWeaponJumpAttack"] gamedataStatType_1300DEPRECATED 241
+---@field ["CanWeaponLeap"] gamedataStatType_1300DEPRECATED 242
+---@field ["CanWeaponMalfunctionQuickHack"] gamedataStatType_1300DEPRECATED 243
+---@field ["CanWeaponReload"] gamedataStatType_1300DEPRECATED 244
+---@field ["CanWeaponReloadWhileInactive"] gamedataStatType_1300DEPRECATED 245
+---@field ["CanWeaponReloadWhileSliding"] gamedataStatType_1300DEPRECATED 246
+---@field ["CanWeaponReloadWhileSprinting"] gamedataStatType_1300DEPRECATED 247
+---@field ["CanWeaponReloadWhileVaulting"] gamedataStatType_1300DEPRECATED 248
+---@field ["CanWeaponSafeAttack"] gamedataStatType_1300DEPRECATED 249
+---@field ["CanWeaponShoot"] gamedataStatType_1300DEPRECATED 250
+---@field ["CanWeaponShootWhileSliding"] gamedataStatType_1300DEPRECATED 251
+---@field ["CanWeaponShootWhileSprinting"] gamedataStatType_1300DEPRECATED 252
+---@field ["CanWeaponShootWhileVaulting"] gamedataStatType_1300DEPRECATED 253
+---@field ["CanWeaponSnapToLimbs"] gamedataStatType_1300DEPRECATED 254
+---@field ["CanWeaponSprintAttack"] gamedataStatType_1300DEPRECATED 255
+---@field ["CanWeaponStrongAttack"] gamedataStatType_1300DEPRECATED 256
+---@field ["CanWeaponTriggerHeadshot"] gamedataStatType_1300DEPRECATED 257
+---@field ["CannotBeDetectedWhileSubmerged"] gamedataStatType_1300DEPRECATED 258
+---@field ["CannotBeHealed"] gamedataStatType_1300DEPRECATED 259
+---@field ["CannotSprintHarass"] gamedataStatType_1300DEPRECATED 260
+---@field ["CarryCapacity"] gamedataStatType_1300DEPRECATED 261
+---@field ["CausingPanicReducesUltimateHacksCost"] gamedataStatType_1300DEPRECATED 262
+---@field ["Charge"] gamedataStatType_1300DEPRECATED 263
+---@field ["ChargeDischargeTime"] gamedataStatType_1300DEPRECATED 264
+---@field ["ChargeFullMultiplier"] gamedataStatType_1300DEPRECATED 265
+---@field ["ChargeMaxTimeInChargedState"] gamedataStatType_1300DEPRECATED 266
+---@field ["ChargeMultiplier"] gamedataStatType_1300DEPRECATED 267
+---@field ["ChargeReadyPercentage"] gamedataStatType_1300DEPRECATED 268
+---@field ["ChargeShouldFireWhenReady"] gamedataStatType_1300DEPRECATED 269
+---@field ["ChargeTime"] gamedataStatType_1300DEPRECATED 270
+---@field ["ChemicalDamage"] gamedataStatType_1300DEPRECATED 271
+---@field ["ChemicalDamageMax"] gamedataStatType_1300DEPRECATED 272
+---@field ["ChemicalDamageMin"] gamedataStatType_1300DEPRECATED 273
+---@field ["ChemicalDamagePercent"] gamedataStatType_1300DEPRECATED 274
+---@field ["ChemicalResistance"] gamedataStatType_1300DEPRECATED 275
+---@field ["ClimbSpeedModifier"] gamedataStatType_1300DEPRECATED 276
+---@field ["ClipTimesCycle"] gamedataStatType_1300DEPRECATED 277
+---@field ["ClipTimesCycleBase"] gamedataStatType_1300DEPRECATED 278
+---@field ["ClipTimesCyclePlusReload"] gamedataStatType_1300DEPRECATED 279
+---@field ["ClipTimesCyclePlusReloadBase"] gamedataStatType_1300DEPRECATED 280
+---@field ["CloudComputingTraps"] gamedataStatType_1300DEPRECATED 281
+---@field ["ColdBlood"] gamedataStatType_1300DEPRECATED 282
+---@field ["ColdBloodBuffBonus"] gamedataStatType_1300DEPRECATED 283
+---@field ["ColdBloodMastery"] gamedataStatType_1300DEPRECATED 284
+---@field ["ColdBloodMaxDuration"] gamedataStatType_1300DEPRECATED 285
+---@field ["ColdBloodMaxStacks"] gamedataStatType_1300DEPRECATED 286
+---@field ["ColdBloodTrait01"] gamedataStatType_1300DEPRECATED 287
+---@field ["CombatHacking"] gamedataStatType_1300DEPRECATED 288
+---@field ["CombatHackingMastery"] gamedataStatType_1300DEPRECATED 289
+---@field ["CommsNoiseJamOnQuickhack"] gamedataStatType_1300DEPRECATED 290
+---@field ["Cool"] gamedataStatType_1300DEPRECATED 291
+---@field ["Crafting"] gamedataStatType_1300DEPRECATED 292
+---@field ["CraftingBonusArmorValue"] gamedataStatType_1300DEPRECATED 293
+---@field ["CraftingBonusConsumableDuration"] gamedataStatType_1300DEPRECATED 294
+---@field ["CraftingBonusGrenadeDamage"] gamedataStatType_1300DEPRECATED 295
+---@field ["CraftingBonusWeaponDamage"] gamedataStatType_1300DEPRECATED 296
+---@field ["CraftingCostReduction"] gamedataStatType_1300DEPRECATED 297
+---@field ["CraftingItemLevelBoost"] gamedataStatType_1300DEPRECATED 298
+---@field ["CraftingMastery"] gamedataStatType_1300DEPRECATED 299
+---@field ["CraftingMaterialDropChance"] gamedataStatType_1300DEPRECATED 300
+---@field ["CraftingMaterialRandomGrantChance"] gamedataStatType_1300DEPRECATED 301
+---@field ["CraftingMaterialRetrieveChance"] gamedataStatType_1300DEPRECATED 302
+---@field ["CraftingTrait01"] gamedataStatType_1300DEPRECATED 303
+---@field ["CritChance"] gamedataStatType_1300DEPRECATED 304
+---@field ["CritChanceTimeCritDamage"] gamedataStatType_1300DEPRECATED 305
+---@field ["CritDPSBonus"] gamedataStatType_1300DEPRECATED 306
+---@field ["CritDamage"] gamedataStatType_1300DEPRECATED 307
+---@field ["CyberwareCooldownReduction"] gamedataStatType_1300DEPRECATED 308
+---@field ["CycleTime"] gamedataStatType_1300DEPRECATED 309
+---@field ["CycleTimeAimBlockDuration"] gamedataStatType_1300DEPRECATED 310
+---@field ["CycleTimeAimBlockStart"] gamedataStatType_1300DEPRECATED 311
+---@field ["CycleTimeBase"] gamedataStatType_1300DEPRECATED 312
+---@field ["CycleTimeBonus"] gamedataStatType_1300DEPRECATED 313
+---@field ["CycleTimeShootingMult"] gamedataStatType_1300DEPRECATED 314
+---@field ["CycleTimeShootingMultPeriod"] gamedataStatType_1300DEPRECATED 315
+---@field ["CycleTime_Burst"] gamedataStatType_1300DEPRECATED 316
+---@field ["CycleTime_BurstMaxCharge"] gamedataStatType_1300DEPRECATED 317
+---@field ["CycleTime_BurstSecondary"] gamedataStatType_1300DEPRECATED 318
+---@field ["CycleTriggerModeTime"] gamedataStatType_1300DEPRECATED 319
+---@field ["DPS"] gamedataStatType_1300DEPRECATED 320
+---@field ["DamageFalloffDisabled"] gamedataStatType_1300DEPRECATED 321
+---@field ["DamageHackSpread"] gamedataStatType_1300DEPRECATED 322
+---@field ["DamagePerHit"] gamedataStatType_1300DEPRECATED 323
+---@field ["DamageReductionDamageOverTime"] gamedataStatType_1300DEPRECATED 324
+---@field ["DamageReductionExplosion"] gamedataStatType_1300DEPRECATED 325
+---@field ["DashAttackStaminaCostReduction"] gamedataStatType_1300DEPRECATED 326
+---@field ["DataLeakTraps"] gamedataStatType_1300DEPRECATED 327
+---@field ["DealsChemicalDamage"] gamedataStatType_1300DEPRECATED 328
+---@field ["DealsElectricDamage"] gamedataStatType_1300DEPRECATED 329
+---@field ["DealsPhysicalDamage"] gamedataStatType_1300DEPRECATED 330
+---@field ["DealsThermalDamage"] gamedataStatType_1300DEPRECATED 331
+---@field ["Deceleration"] gamedataStatType_1300DEPRECATED 332
+---@field ["DefeatedHeadDamageThreshold"] gamedataStatType_1300DEPRECATED 333
+---@field ["DefeatedLArmDamageThreshold"] gamedataStatType_1300DEPRECATED 334
+---@field ["DefeatedLLegDamageThreshold"] gamedataStatType_1300DEPRECATED 335
+---@field ["DefeatedRArmDamageThreshold"] gamedataStatType_1300DEPRECATED 336
+---@field ["DefeatedRLegDamageThreshold"] gamedataStatType_1300DEPRECATED 337
+---@field ["DefeatingEnemiesReduceHacksCost"] gamedataStatType_1300DEPRECATED 338
+---@field ["Demolition"] gamedataStatType_1300DEPRECATED 339
+---@field ["DemolitionMastery"] gamedataStatType_1300DEPRECATED 340
+---@field ["DemolitionTrait01Stat"] gamedataStatType_1300DEPRECATED 341
+---@field ["Detection"] gamedataStatType_1300DEPRECATED 342
+---@field ["DeviceMemoryCostReduction"] gamedataStatType_1300DEPRECATED 343
+---@field ["DisableCyberwareOnBurning"] gamedataStatType_1300DEPRECATED 344
+---@field ["DisassemblingIngredientsDoubleBonus"] gamedataStatType_1300DEPRECATED 345
+---@field ["DisassemblingMaterialQualityObtainChance"] gamedataStatType_1300DEPRECATED 346
+---@field ["DismHeadDamageThreshold"] gamedataStatType_1300DEPRECATED 347
+---@field ["DismLArmDamageThreshold"] gamedataStatType_1300DEPRECATED 348
+---@field ["DismLLegDamageThreshold"] gamedataStatType_1300DEPRECATED 349
+---@field ["DismRArmDamageThreshold"] gamedataStatType_1300DEPRECATED 350
+---@field ["DismRLegDamageThreshold"] gamedataStatType_1300DEPRECATED 351
+---@field ["DoNotCheckFriendlyFireMadnessPassive"] gamedataStatType_1300DEPRECATED 352
+---@field ["DummyResistanceStat"] gamedataStatType_1300DEPRECATED 353
+---@field ["Durability"] gamedataStatType_1300DEPRECATED 354
+---@field ["DurationBonusBleeding"] gamedataStatType_1300DEPRECATED 355
+---@field ["DurationBonusBurning"] gamedataStatType_1300DEPRECATED 356
+---@field ["DurationBonusElectrified"] gamedataStatType_1300DEPRECATED 357
+---@field ["DurationBonusPoisoned"] gamedataStatType_1300DEPRECATED 358
+---@field ["DurationBonusQuickhack"] gamedataStatType_1300DEPRECATED 359
+---@field ["DurationBonusStun"] gamedataStatType_1300DEPRECATED 360
+---@field ["EMPImmunity"] gamedataStatType_1300DEPRECATED 361
+---@field ["EffectiveDPS"] gamedataStatType_1300DEPRECATED 362
+---@field ["EffectiveDamagePerHit"] gamedataStatType_1300DEPRECATED 363
+---@field ["EffectiveDamagePerHitMax"] gamedataStatType_1300DEPRECATED 364
+---@field ["EffectiveDamagePerHitMin"] gamedataStatType_1300DEPRECATED 365
+---@field ["EffectiveDamagePerHitTimesAttacksPerSecond"] gamedataStatType_1300DEPRECATED 366
+---@field ["EffectiveRange"] gamedataStatType_1300DEPRECATED 367
+---@field ["ElectricDamage"] gamedataStatType_1300DEPRECATED 368
+---@field ["ElectricDamageMax"] gamedataStatType_1300DEPRECATED 369
+---@field ["ElectricDamageMin"] gamedataStatType_1300DEPRECATED 370
+---@field ["ElectricDamagePercent"] gamedataStatType_1300DEPRECATED 371
+---@field ["ElectricResistance"] gamedataStatType_1300DEPRECATED 372
+---@field ["ElectrocuteImmunity"] gamedataStatType_1300DEPRECATED 373
+---@field ["ElectrocutedApplicationRate"] gamedataStatType_1300DEPRECATED 374
+---@field ["ElementalDamagePerHit"] gamedataStatType_1300DEPRECATED 375
+---@field ["ElementalResistanceMultiplier"] gamedataStatType_1300DEPRECATED 376
+---@field ["EmptyReloadTime"] gamedataStatType_1300DEPRECATED 377
+---@field ["Engineering"] gamedataStatType_1300DEPRECATED 378
+---@field ["EngineeringMastery"] gamedataStatType_1300DEPRECATED 379
+---@field ["EngineeringTrait01"] gamedataStatType_1300DEPRECATED 380
+---@field ["EquipActionDuration_Corpo"] gamedataStatType_1300DEPRECATED 381
+---@field ["EquipActionDuration_Gang"] gamedataStatType_1300DEPRECATED 382
+---@field ["EquipAnimationDuration_Corpo"] gamedataStatType_1300DEPRECATED 383
+---@field ["EquipAnimationDuration_Gang"] gamedataStatType_1300DEPRECATED 384
+---@field ["EquipDuration"] gamedataStatType_1300DEPRECATED 385
+---@field ["EquipDuration_First"] gamedataStatType_1300DEPRECATED 386
+---@field ["EquipItemTime_Corpo"] gamedataStatType_1300DEPRECATED 387
+---@field ["EquipItemTime_Gang"] gamedataStatType_1300DEPRECATED 388
+---@field ["Evasion"] gamedataStatType_1300DEPRECATED 389
+---@field ["ExplosionKillsRecudeUltimateHacksCost"] gamedataStatType_1300DEPRECATED 390
+---@field ["FFInputLock"] gamedataStatType_1300DEPRECATED 391
+---@field ["FallDamageReduction"] gamedataStatType_1300DEPRECATED 392
+---@field ["FearOnQuickHackKill"] gamedataStatType_1300DEPRECATED 393
+---@field ["FullAutoOnFullCharge"] gamedataStatType_1300DEPRECATED 394
+---@field ["Gunslinger"] gamedataStatType_1300DEPRECATED 395
+---@field ["GunslingerMastery"] gamedataStatType_1300DEPRECATED 396
+---@field ["GunslingerTrait01Stat"] gamedataStatType_1300DEPRECATED 397
+---@field ["HackedEnemiesGetDamagedByFriendlyFire"] gamedataStatType_1300DEPRECATED 398
+---@field ["HackedEnemyArmorReduction"] gamedataStatType_1300DEPRECATED 399
+---@field ["Hacking"] gamedataStatType_1300DEPRECATED 400
+---@field ["HackingMastery"] gamedataStatType_1300DEPRECATED 401
+---@field ["HackingPenetration"] gamedataStatType_1300DEPRECATED 402
+---@field ["HackingResistance"] gamedataStatType_1300DEPRECATED 403
+---@field ["HackingResistanceUltimate"] gamedataStatType_1300DEPRECATED 404
+---@field ["HasAdditionalSplinterSlot"] gamedataStatType_1300DEPRECATED 405
+---@field ["HasAheadTargeting"] gamedataStatType_1300DEPRECATED 406
+---@field ["HasAirHover"] gamedataStatType_1300DEPRECATED 407
+---@field ["HasAirThrusters"] gamedataStatType_1300DEPRECATED 408
+---@field ["HasAutoReloader"] gamedataStatType_1300DEPRECATED 409
+---@field ["HasAutomaticReplenishment"] gamedataStatType_1300DEPRECATED 410
+---@field ["HasAutomaticTagging"] gamedataStatType_1300DEPRECATED 411
+---@field ["HasBerserk"] gamedataStatType_1300DEPRECATED 412
+---@field ["HasBleedImmunity"] gamedataStatType_1300DEPRECATED 413
+---@field ["HasBlindImmunity"] gamedataStatType_1300DEPRECATED 414
+---@field ["HasBoostedCortex"] gamedataStatType_1300DEPRECATED 415
+---@field ["HasBurningBuffs"] gamedataStatType_1300DEPRECATED 416
+---@field ["HasCameraLinking"] gamedataStatType_1300DEPRECATED 417
+---@field ["HasChargeJump"] gamedataStatType_1300DEPRECATED 418
+---@field ["HasCritImmunity"] gamedataStatType_1300DEPRECATED 419
+---@field ["HasCyberdeck"] gamedataStatType_1300DEPRECATED 420
+---@field ["HasCybereye"] gamedataStatType_1300DEPRECATED 421
+---@field ["HasDodge"] gamedataStatType_1300DEPRECATED 422
+---@field ["HasDodgeAir"] gamedataStatType_1300DEPRECATED 423
+---@field ["HasDoubleJump"] gamedataStatType_1300DEPRECATED 424
+---@field ["HasElectricCoating"] gamedataStatType_1300DEPRECATED 425
+---@field ["HasElectroPlating"] gamedataStatType_1300DEPRECATED 426
+---@field ["HasExtendedHitReactionImmunity"] gamedataStatType_1300DEPRECATED 427
+---@field ["HasFireproofSkin"] gamedataStatType_1300DEPRECATED 428
+---@field ["HasGPS"] gamedataStatType_1300DEPRECATED 429
+---@field ["HasGlowingTattoos"] gamedataStatType_1300DEPRECATED 430
+---@field ["HasGraphiteTissue"] gamedataStatType_1300DEPRECATED 431
+---@field ["HasHackingInteractions"] gamedataStatType_1300DEPRECATED 432
+---@field ["HasHealingReapplication"] gamedataStatType_1300DEPRECATED 433
+---@field ["HasHealthMonitorBomb"] gamedataStatType_1300DEPRECATED 434
+---@field ["HasHostileHackImmunity"] gamedataStatType_1300DEPRECATED 435
+---@field ["HasICELevelBooster"] gamedataStatType_1300DEPRECATED 436
+---@field ["HasInfravision"] gamedataStatType_1300DEPRECATED 437
+---@field ["HasJuiceInjector"] gamedataStatType_1300DEPRECATED 438
+---@field ["HasKerenzikov"] gamedataStatType_1300DEPRECATED 439
+---@field ["HasKerenzikovSlide"] gamedataStatType_1300DEPRECATED 440
+---@field ["HasKers"] gamedataStatType_1300DEPRECATED 441
+---@field ["HasLinkToBountySystem"] gamedataStatType_1300DEPRECATED 442
+---@field ["HasLoweringPerception"] gamedataStatType_1300DEPRECATED 443
+---@field ["HasMadnessLvl4Passive"] gamedataStatType_1300DEPRECATED 444
+---@field ["HasMajorQuickhackResistance"] gamedataStatType_1300DEPRECATED 445
+---@field ["HasMechanicalControl"] gamedataStatType_1300DEPRECATED 446
+---@field ["HasMeleeImmunity"] gamedataStatType_1300DEPRECATED 447
+---@field ["HasMeleeTargeting"] gamedataStatType_1300DEPRECATED 448
+---@field ["HasMetabolicEnhancer"] gamedataStatType_1300DEPRECATED 449
+---@field ["HasPoisonHeal"] gamedataStatType_1300DEPRECATED 450
+---@field ["HasPoisonImmunity"] gamedataStatType_1300DEPRECATED 451
+---@field ["HasPowerGrip"] gamedataStatType_1300DEPRECATED 452
+---@field ["HasQuickhackResistance"] gamedataStatType_1300DEPRECATED 453
+---@field ["HasRemoteBotAccessPointBreach"] gamedataStatType_1300DEPRECATED 454
+---@field ["HasSandevistan"] gamedataStatType_1300DEPRECATED 455
+---@field ["HasSandevistanTier1"] gamedataStatType_1300DEPRECATED 456
+---@field ["HasSandevistanTier2"] gamedataStatType_1300DEPRECATED 457
+---@field ["HasSandevistanTier3"] gamedataStatType_1300DEPRECATED 458
+---@field ["HasSecondHeart"] gamedataStatType_1300DEPRECATED 459
+---@field ["HasSelfHealingSkin"] gamedataStatType_1300DEPRECATED 460
+---@field ["HasSmartLink"] gamedataStatType_1300DEPRECATED 461
+---@field ["HasSpiderBotControl"] gamedataStatType_1300DEPRECATED 462
+---@field ["HasStunImmunity"] gamedataStatType_1300DEPRECATED 463
+---@field ["HasSubdermalArmor"] gamedataStatType_1300DEPRECATED 464
+---@field ["HasSuperheroFall"] gamedataStatType_1300DEPRECATED 465
+---@field ["HasThermovision"] gamedataStatType_1300DEPRECATED 466
+---@field ["HasTimedImmunity"] gamedataStatType_1300DEPRECATED 467
+---@field ["HasToxicCleanser"] gamedataStatType_1300DEPRECATED 468
+---@field ["HasWallRunSkill"] gamedataStatType_1300DEPRECATED 469
+---@field ["HeadshotDamageMultiplier"] gamedataStatType_1300DEPRECATED 470
+---@field ["HeadshotImmunity"] gamedataStatType_1300DEPRECATED 471
+---@field ["Health"] gamedataStatType_1300DEPRECATED 472
+---@field ["HealthInCombatRegenDelayOnChange"] gamedataStatType_1300DEPRECATED 473
+---@field ["HealthInCombatRegenEnabled"] gamedataStatType_1300DEPRECATED 474
+---@field ["HealthInCombatRegenEndThreshold"] gamedataStatType_1300DEPRECATED 475
+---@field ["HealthInCombatRegenRate"] gamedataStatType_1300DEPRECATED 476
+---@field ["HealthInCombatRegenRateAdd"] gamedataStatType_1300DEPRECATED 477
+---@field ["HealthInCombatRegenRateBase"] gamedataStatType_1300DEPRECATED 478
+---@field ["HealthInCombatRegenRateMult"] gamedataStatType_1300DEPRECATED 479
+---@field ["HealthInCombatRegenStartThreshold"] gamedataStatType_1300DEPRECATED 480
+---@field ["HealthInCombatStartDelay"] gamedataStatType_1300DEPRECATED 481
+---@field ["HealthMonitorCooldownDuration"] gamedataStatType_1300DEPRECATED 482
+---@field ["HealthOutOfCombatRegenDelayOnChange"] gamedataStatType_1300DEPRECATED 483
+---@field ["HealthOutOfCombatRegenEnabled"] gamedataStatType_1300DEPRECATED 484
+---@field ["HealthOutOfCombatRegenEndThreshold"] gamedataStatType_1300DEPRECATED 485
+---@field ["HealthOutOfCombatRegenRate"] gamedataStatType_1300DEPRECATED 486
+---@field ["HealthOutOfCombatRegenRateAdd"] gamedataStatType_1300DEPRECATED 487
+---@field ["HealthOutOfCombatRegenRateBase"] gamedataStatType_1300DEPRECATED 488
+---@field ["HealthOutOfCombatRegenRateMult"] gamedataStatType_1300DEPRECATED 489
+---@field ["HealthOutOfCombatRegenStartThreshold"] gamedataStatType_1300DEPRECATED 490
+---@field ["Hearing"] gamedataStatType_1300DEPRECATED 491
+---@field ["HeavyAttacksNumber"] gamedataStatType_1300DEPRECATED 492
+---@field ["HighlightAccessPoint"] gamedataStatType_1300DEPRECATED 493
+---@field ["HitDismembermentFactor"] gamedataStatType_1300DEPRECATED 494
+---@field ["HitReactionDamageHealthFactor"] gamedataStatType_1300DEPRECATED 495
+---@field ["HitReactionFactor"] gamedataStatType_1300DEPRECATED 496
+---@field ["HitTimerAfterDefeated"] gamedataStatType_1300DEPRECATED 497
+---@field ["HitTimerAfterImpact"] gamedataStatType_1300DEPRECATED 498
+---@field ["HitTimerAfterImpactMelee"] gamedataStatType_1300DEPRECATED 499
+---@field ["HitTimerAfterKnockdown"] gamedataStatType_1300DEPRECATED 500
+---@field ["HitTimerAfterPain"] gamedataStatType_1300DEPRECATED 501
+---@field ["HitTimerAfterStagger"] gamedataStatType_1300DEPRECATED 502
+---@field ["HitTimerAfterStaggerMelee"] gamedataStatType_1300DEPRECATED 503
+---@field ["HitWoundsFactor"] gamedataStatType_1300DEPRECATED 504
+---@field ["HoldDuration"] gamedataStatType_1300DEPRECATED 505
+---@field ["HoldEnterDuration"] gamedataStatType_1300DEPRECATED 506
+---@field ["HoldTimeoutDuration"] gamedataStatType_1300DEPRECATED 507
+---@field ["HolographicSkinCooldownDuration"] gamedataStatType_1300DEPRECATED 508
+---@field ["HolographicSkinDuration"] gamedataStatType_1300DEPRECATED 509
+---@field ["IconicItemUpgraded"] gamedataStatType_1300DEPRECATED 510
+---@field ["ImpactDamageThreshold"] gamedataStatType_1300DEPRECATED 511
+---@field ["ImpactDamageThresholdImpulse"] gamedataStatType_1300DEPRECATED 512
+---@field ["ImpactDamageThresholdInCover"] gamedataStatType_1300DEPRECATED 513
+---@field ["Intelligence"] gamedataStatType_1300DEPRECATED 514
+---@field ["IsAggressive"] gamedataStatType_1300DEPRECATED 515
+---@field ["IsBalanced"] gamedataStatType_1300DEPRECATED 516
+---@field ["IsBlocking"] gamedataStatType_1300DEPRECATED 517
+---@field ["IsCautious"] gamedataStatType_1300DEPRECATED 518
+---@field ["IsDefensive"] gamedataStatType_1300DEPRECATED 519
+---@field ["IsDeflecting"] gamedataStatType_1300DEPRECATED 520
+---@field ["IsDodgeStaminaFree"] gamedataStatType_1300DEPRECATED 521
+---@field ["IsDodging"] gamedataStatType_1300DEPRECATED 522
+---@field ["IsFastMeleeArchetype"] gamedataStatType_1300DEPRECATED 523
+---@field ["IsFastRangedArchetype"] gamedataStatType_1300DEPRECATED 524
+---@field ["IsGenericMeleeArchetype"] gamedataStatType_1300DEPRECATED 525
+---@field ["IsGenericRangedArchetype"] gamedataStatType_1300DEPRECATED 526
+---@field ["IsHeavyRangedArchetype"] gamedataStatType_1300DEPRECATED 527
+---@field ["IsInvulnerable"] gamedataStatType_1300DEPRECATED 528
+---@field ["IsItemBroken"] gamedataStatType_1300DEPRECATED 529
+---@field ["IsItemCracked"] gamedataStatType_1300DEPRECATED 530
+---@field ["IsItemCrafted"] gamedataStatType_1300DEPRECATED 531
+---@field ["IsItemIconic"] gamedataStatType_1300DEPRECATED 532
+---@field ["IsItemUpgraded"] gamedataStatType_1300DEPRECATED 533
+---@field ["IsManBig"] gamedataStatType_1300DEPRECATED 534
+---@field ["IsManMassive"] gamedataStatType_1300DEPRECATED 535
+---@field ["IsMechanical"] gamedataStatType_1300DEPRECATED 536
+---@field ["IsNetrunnerArchetype"] gamedataStatType_1300DEPRECATED 537
+---@field ["IsNotSlowedDuringADS"] gamedataStatType_1300DEPRECATED 538
+---@field ["IsNotSlowedDuringBlock"] gamedataStatType_1300DEPRECATED 539
+---@field ["IsNotSlowedDuringReload"] gamedataStatType_1300DEPRECATED 540
+---@field ["IsReckless"] gamedataStatType_1300DEPRECATED 541
+---@field ["IsShotgunnerArchetype"] gamedataStatType_1300DEPRECATED 542
+---@field ["IsSniperArchetype"] gamedataStatType_1300DEPRECATED 543
+---@field ["IsSprintStaminaFree"] gamedataStatType_1300DEPRECATED 544
+---@field ["IsStrongMeleeArchetype"] gamedataStatType_1300DEPRECATED 545
+---@field ["IsTechieArchetype"] gamedataStatType_1300DEPRECATED 546
+---@field ["IsTier1Archetype"] gamedataStatType_1300DEPRECATED 547
+---@field ["IsTier2Archetype"] gamedataStatType_1300DEPRECATED 548
+---@field ["IsTier3Archetype"] gamedataStatType_1300DEPRECATED 549
+---@field ["IsTier4Archetype"] gamedataStatType_1300DEPRECATED 550
+---@field ["IsWeakspot"] gamedataStatType_1300DEPRECATED 551
+---@field ["IsWeaponLethal"] gamedataStatType_1300DEPRECATED 552
+---@field ["ItemArmor"] gamedataStatType_1300DEPRECATED 553
+---@field ["ItemLevel"] gamedataStatType_1300DEPRECATED 554
+---@field ["ItemRequiresElectroPlating"] gamedataStatType_1300DEPRECATED 555
+---@field ["ItemRequiresPowerGrip"] gamedataStatType_1300DEPRECATED 556
+---@field ["ItemRequiresSmartLink"] gamedataStatType_1300DEPRECATED 557
+---@field ["JumpHeight"] gamedataStatType_1300DEPRECATED 558
+---@field ["Kenjutsu"] gamedataStatType_1300DEPRECATED 559
+---@field ["KenjutsuMastery"] gamedataStatType_1300DEPRECATED 560
+---@field ["KenjutsuTrait01Stat"] gamedataStatType_1300DEPRECATED 561
+---@field ["KnockdownDamageThreshold"] gamedataStatType_1300DEPRECATED 562
+---@field ["KnockdownDamageThresholdImpulse"] gamedataStatType_1300DEPRECATED 563
+---@field ["KnockdownDamageThresholdInCover"] gamedataStatType_1300DEPRECATED 564
+---@field ["KnockdownImmunity"] gamedataStatType_1300DEPRECATED 565
+---@field ["KnockdownImpulse"] gamedataStatType_1300DEPRECATED 566
+---@field ["Level"] gamedataStatType_1300DEPRECATED 567
+---@field ["LimbHealth"] gamedataStatType_1300DEPRECATED 568
+---@field ["LinearDirectionUpdateMax"] gamedataStatType_1300DEPRECATED 569
+---@field ["LinearDirectionUpdateMaxADS"] gamedataStatType_1300DEPRECATED 570
+---@field ["LinearDirectionUpdateMin"] gamedataStatType_1300DEPRECATED 571
+---@field ["LinearDirectionUpdateMinADS"] gamedataStatType_1300DEPRECATED 572
+---@field ["LowerActiveCooldownOnDefeat"] gamedataStatType_1300DEPRECATED 573
+---@field ["LowerHackingResistanceOnHack"] gamedataStatType_1300DEPRECATED 574
+---@field ["MagazineCapacity"] gamedataStatType_1300DEPRECATED 575
+---@field ["MagazineCapacityBase"] gamedataStatType_1300DEPRECATED 576
+---@field ["MagazineCapacityBonus"] gamedataStatType_1300DEPRECATED 577
+---@field ["MaxDuration"] gamedataStatType_1300DEPRECATED 578
+---@field ["MaxPercentDamageTakenPerHit"] gamedataStatType_1300DEPRECATED 579
+---@field ["MaxSpeed"] gamedataStatType_1300DEPRECATED 580
+---@field ["MaxStacks"] gamedataStatType_1300DEPRECATED 581
+---@field ["MaxStacksBonusBleeding"] gamedataStatType_1300DEPRECATED 582
+---@field ["MaxStacksBonusBurning"] gamedataStatType_1300DEPRECATED 583
+---@field ["MaximumRange"] gamedataStatType_1300DEPRECATED 584
+---@field ["MechanicalsBuffDPSBonus"] gamedataStatType_1300DEPRECATED 585
+---@field ["MeleeAttackDuration"] gamedataStatType_1300DEPRECATED 586
+---@field ["Memory"] gamedataStatType_1300DEPRECATED 587
+---@field ["MemoryCostModifier"] gamedataStatType_1300DEPRECATED 588
+---@field ["MemoryCostReduction"] gamedataStatType_1300DEPRECATED 589
+---@field ["MemoryInCombatRegenDelayOnChange"] gamedataStatType_1300DEPRECATED 590
+---@field ["MemoryInCombatRegenEnabled"] gamedataStatType_1300DEPRECATED 591
+---@field ["MemoryInCombatRegenEndThreshold"] gamedataStatType_1300DEPRECATED 592
+---@field ["MemoryInCombatRegenRate"] gamedataStatType_1300DEPRECATED 593
+---@field ["MemoryInCombatRegenRateAdd"] gamedataStatType_1300DEPRECATED 594
+---@field ["MemoryInCombatRegenRateBase"] gamedataStatType_1300DEPRECATED 595
+---@field ["MemoryInCombatRegenRateMult"] gamedataStatType_1300DEPRECATED 596
+---@field ["MemoryInCombatRegenStartThreshold"] gamedataStatType_1300DEPRECATED 597
+---@field ["MemoryInCombatStartDelay"] gamedataStatType_1300DEPRECATED 598
+---@field ["MemoryOutOfCombatRegenDelayOnChange"] gamedataStatType_1300DEPRECATED 599
+---@field ["MemoryOutOfCombatRegenEnabled"] gamedataStatType_1300DEPRECATED 600
+---@field ["MemoryOutOfCombatRegenEndThreshold"] gamedataStatType_1300DEPRECATED 601
+---@field ["MemoryOutOfCombatRegenRate"] gamedataStatType_1300DEPRECATED 602
+---@field ["MemoryOutOfCombatRegenRateAdd"] gamedataStatType_1300DEPRECATED 603
+---@field ["MemoryOutOfCombatRegenRateBase"] gamedataStatType_1300DEPRECATED 604
+---@field ["MemoryOutOfCombatRegenRateMult"] gamedataStatType_1300DEPRECATED 605
+---@field ["MemoryOutOfCombatRegenStartThreshold"] gamedataStatType_1300DEPRECATED 606
+---@field ["MemoryOutOfCombatStartDelay"] gamedataStatType_1300DEPRECATED 607
+---@field ["MemoryTrackerCooldownDuration"] gamedataStatType_1300DEPRECATED 608
+---@field ["MemoryWipeImmunity"] gamedataStatType_1300DEPRECATED 609
+---@field ["MinSpeed"] gamedataStatType_1300DEPRECATED 610
+---@field ["MinigameBufferExtension"] gamedataStatType_1300DEPRECATED 611
+---@field ["MinigameMaterialsEarned"] gamedataStatType_1300DEPRECATED 612
+---@field ["MinigameMemoryRegenPerk"] gamedataStatType_1300DEPRECATED 613
+---@field ["MinigameMoneyMultiplier"] gamedataStatType_1300DEPRECATED 614
+---@field ["MinigameNextInstanceBufferExtensionPerk"] gamedataStatType_1300DEPRECATED 615
+---@field ["MinigameShardChanceMultiplier"] gamedataStatType_1300DEPRECATED 616
+---@field ["MinigameTimeLimitExtension"] gamedataStatType_1300DEPRECATED 617
+---@field ["MinigameTrapsPossibilityChance"] gamedataStatType_1300DEPRECATED 618
+---@field ["NPCAnimationTime"] gamedataStatType_1300DEPRECATED 619
+---@field ["NPCCorpoEquipItemDuration"] gamedataStatType_1300DEPRECATED 620
+---@field ["NPCCorpoUnequipItemDuration"] gamedataStatType_1300DEPRECATED 621
+---@field ["NPCDamage"] gamedataStatType_1300DEPRECATED 622
+---@field ["NPCEquipItemDuration"] gamedataStatType_1300DEPRECATED 623
+---@field ["NPCGangEquipItemDuration"] gamedataStatType_1300DEPRECATED 624
+---@field ["NPCGangUnequipItemDuration"] gamedataStatType_1300DEPRECATED 625
+---@field ["NPCLoopDuration"] gamedataStatType_1300DEPRECATED 626
+---@field ["NPCRecoverDuration"] gamedataStatType_1300DEPRECATED 627
+---@field ["NPCStartupDuration"] gamedataStatType_1300DEPRECATED 628
+---@field ["NPCUnequipItemDuration"] gamedataStatType_1300DEPRECATED 629
+---@field ["NPCUploadTime"] gamedataStatType_1300DEPRECATED 630
+---@field ["NoJam"] gamedataStatType_1300DEPRECATED 631
+---@field ["NumShotsInBurst"] gamedataStatType_1300DEPRECATED 632
+---@field ["NumShotsInBurstMaxCharge"] gamedataStatType_1300DEPRECATED 633
+---@field ["NumShotsInBurstSecondary"] gamedataStatType_1300DEPRECATED 634
+---@field ["NumShotsToFire"] gamedataStatType_1300DEPRECATED 635
+---@field ["NumberIgnoredTraps"] gamedataStatType_1300DEPRECATED 636
+---@field ["Overheat"] gamedataStatType_1300DEPRECATED 637
+---@field ["Oxygen"] gamedataStatType_1300DEPRECATED 638
+---@field ["PartArmor"] gamedataStatType_1300DEPRECATED 639
+---@field ["PenetrationHealth"] gamedataStatType_1300DEPRECATED 640
+---@field ["PersonalityAggressive"] gamedataStatType_1300DEPRECATED 641
+---@field ["PersonalityCuriosity"] gamedataStatType_1300DEPRECATED 642
+---@field ["PersonalityDisgust"] gamedataStatType_1300DEPRECATED 643
+---@field ["PersonalityFear"] gamedataStatType_1300DEPRECATED 644
+---@field ["PersonalityFunny"] gamedataStatType_1300DEPRECATED 645
+---@field ["PersonalityJoy"] gamedataStatType_1300DEPRECATED 646
+---@field ["PersonalitySad"] gamedataStatType_1300DEPRECATED 647
+---@field ["PersonalityShock"] gamedataStatType_1300DEPRECATED 648
+---@field ["PersonalitySurprise"] gamedataStatType_1300DEPRECATED 649
+---@field ["PhoneCallDuration"] gamedataStatType_1300DEPRECATED 650
+---@field ["PhysicalDamage"] gamedataStatType_1300DEPRECATED 651
+---@field ["PhysicalDamageMax"] gamedataStatType_1300DEPRECATED 652
+---@field ["PhysicalDamageMin"] gamedataStatType_1300DEPRECATED 653
+---@field ["PhysicalDamagePercent"] gamedataStatType_1300DEPRECATED 654
+---@field ["PhysicalImpulse"] gamedataStatType_1300DEPRECATED 655
+---@field ["PhysicalResistance"] gamedataStatType_1300DEPRECATED 656
+---@field ["PoisonImmunity"] gamedataStatType_1300DEPRECATED 657
+---@field ["PoisonRegenHealth"] gamedataStatType_1300DEPRECATED 658
+---@field ["PoisonedApplicationRate"] gamedataStatType_1300DEPRECATED 659
+---@field ["PowerLevel"] gamedataStatType_1300DEPRECATED 660
+---@field ["PreFireTime"] gamedataStatType_1300DEPRECATED 661
+---@field ["PrefersCovers"] gamedataStatType_1300DEPRECATED 662
+---@field ["PrefersShootingSpots"] gamedataStatType_1300DEPRECATED 663
+---@field ["Price"] gamedataStatType_1300DEPRECATED 664
+---@field ["ProjectilesPerShot"] gamedataStatType_1300DEPRECATED 665
+---@field ["ProjectilesPerShotBase"] gamedataStatType_1300DEPRECATED 666
+---@field ["ProjectilesPerShotBonus"] gamedataStatType_1300DEPRECATED 667
+---@field ["Quality"] gamedataStatType_1300DEPRECATED 668
+---@field ["Quantity"] gamedataStatType_1300DEPRECATED 669
+---@field ["QuickHackDuration"] gamedataStatType_1300DEPRECATED 670
+---@field ["QuickHackDurationExtension"] gamedataStatType_1300DEPRECATED 671
+---@field ["QuickHackImmunity"] gamedataStatType_1300DEPRECATED 672
+---@field ["QuickHackResistancesMod"] gamedataStatType_1300DEPRECATED 673
+---@field ["QuickHackSpreadDistance"] gamedataStatType_1300DEPRECATED 674
+---@field ["QuickHackSpreadNumber"] gamedataStatType_1300DEPRECATED 675
+---@field ["QuickHackSuddenDeathChance"] gamedataStatType_1300DEPRECATED 676
+---@field ["QuickHackUpload"] gamedataStatType_1300DEPRECATED 677
+---@field ["QuickhackExtraDamageMultiplier"] gamedataStatType_1300DEPRECATED 678
+---@field ["QuickhackShield"] gamedataStatType_1300DEPRECATED 679
+---@field ["QuickhacksCooldownReduction"] gamedataStatType_1300DEPRECATED 680
+---@field ["RandomCurveInput"] gamedataStatType_1300DEPRECATED 681
+---@field ["Range"] gamedataStatType_1300DEPRECATED 682
+---@field ["Recoil"] gamedataStatType_1300DEPRECATED 683
+---@field ["RecoilAllowSway"] gamedataStatType_1300DEPRECATED 684
+---@field ["RecoilAlternateDir"] gamedataStatType_1300DEPRECATED 685
+---@field ["RecoilAlternateDirADS"] gamedataStatType_1300DEPRECATED 686
+---@field ["RecoilAngle"] gamedataStatType_1300DEPRECATED 687
+---@field ["RecoilAngleADS"] gamedataStatType_1300DEPRECATED 688
+---@field ["RecoilAnimation"] gamedataStatType_1300DEPRECATED 689
+---@field ["RecoilChargeMult"] gamedataStatType_1300DEPRECATED 690
+---@field ["RecoilChargeMultADS"] gamedataStatType_1300DEPRECATED 691
+---@field ["RecoilCycleSize"] gamedataStatType_1300DEPRECATED 692
+---@field ["RecoilCycleSizeADS"] gamedataStatType_1300DEPRECATED 693
+---@field ["RecoilCycleTime"] gamedataStatType_1300DEPRECATED 694
+---@field ["RecoilCycleTimeADS"] gamedataStatType_1300DEPRECATED 695
+---@field ["RecoilDelay"] gamedataStatType_1300DEPRECATED 696
+---@field ["RecoilDir"] gamedataStatType_1300DEPRECATED 697
+---@field ["RecoilDirADS"] gamedataStatType_1300DEPRECATED 698
+---@field ["RecoilDirPlanCycleRandDir"] gamedataStatType_1300DEPRECATED 699
+---@field ["RecoilDirPlanCycleRandDirADS"] gamedataStatType_1300DEPRECATED 700
+---@field ["RecoilDirPlanCycleRandRangeDir"] gamedataStatType_1300DEPRECATED 701
+---@field ["RecoilDirPlanCycleRandRangeDirADS"] gamedataStatType_1300DEPRECATED 702
+---@field ["RecoilDirPlanSequence"] gamedataStatType_1300DEPRECATED 703
+---@field ["RecoilDirPlanSequenceADS"] gamedataStatType_1300DEPRECATED 704
+---@field ["RecoilDriftRandomRangeMax"] gamedataStatType_1300DEPRECATED 705
+---@field ["RecoilDriftRandomRangeMin"] gamedataStatType_1300DEPRECATED 706
+---@field ["RecoilEnableCycleX"] gamedataStatType_1300DEPRECATED 707
+---@field ["RecoilEnableCycleXADS"] gamedataStatType_1300DEPRECATED 708
+---@field ["RecoilEnableCycleY"] gamedataStatType_1300DEPRECATED 709
+---@field ["RecoilEnableCycleYADS"] gamedataStatType_1300DEPRECATED 710
+---@field ["RecoilEnableLinearX"] gamedataStatType_1300DEPRECATED 711
+---@field ["RecoilEnableLinearXADS"] gamedataStatType_1300DEPRECATED 712
+---@field ["RecoilEnableLinearY"] gamedataStatType_1300DEPRECATED 713
+---@field ["RecoilEnableLinearYADS"] gamedataStatType_1300DEPRECATED 714
+---@field ["RecoilEnableScaleX"] gamedataStatType_1300DEPRECATED 715
+---@field ["RecoilEnableScaleXADS"] gamedataStatType_1300DEPRECATED 716
+---@field ["RecoilEnableScaleY"] gamedataStatType_1300DEPRECATED 717
+---@field ["RecoilEnableScaleYADS"] gamedataStatType_1300DEPRECATED 718
+---@field ["RecoilFullChargeMult"] gamedataStatType_1300DEPRECATED 719
+---@field ["RecoilFullChargeMultADS"] gamedataStatType_1300DEPRECATED 720
+---@field ["RecoilHoldDuration"] gamedataStatType_1300DEPRECATED 721
+---@field ["RecoilHoldDurationADS"] gamedataStatType_1300DEPRECATED 722
+---@field ["RecoilKickMax"] gamedataStatType_1300DEPRECATED 723
+---@field ["RecoilKickMaxADS"] gamedataStatType_1300DEPRECATED 724
+---@field ["RecoilKickMin"] gamedataStatType_1300DEPRECATED 725
+---@field ["RecoilKickMinADS"] gamedataStatType_1300DEPRECATED 726
+---@field ["RecoilMagForFullDrift"] gamedataStatType_1300DEPRECATED 727
+---@field ["RecoilMaxLength"] gamedataStatType_1300DEPRECATED 728
+---@field ["RecoilMaxLengthADS"] gamedataStatType_1300DEPRECATED 729
+---@field ["RecoilRecoveryMinSpeed"] gamedataStatType_1300DEPRECATED 730
+---@field ["RecoilRecoveryMinSpeedADS"] gamedataStatType_1300DEPRECATED 731
+---@field ["RecoilRecoverySpeed"] gamedataStatType_1300DEPRECATED 732
+---@field ["RecoilRecoverySpeedADS"] gamedataStatType_1300DEPRECATED 733
+---@field ["RecoilRecoveryTime"] gamedataStatType_1300DEPRECATED 734
+---@field ["RecoilRecoveryTimeADS"] gamedataStatType_1300DEPRECATED 735
+---@field ["RecoilScaleMax"] gamedataStatType_1300DEPRECATED 736
+---@field ["RecoilScaleMaxADS"] gamedataStatType_1300DEPRECATED 737
+---@field ["RecoilScaleTime"] gamedataStatType_1300DEPRECATED 738
+---@field ["RecoilScaleTimeADS"] gamedataStatType_1300DEPRECATED 739
+---@field ["RecoilSpeed"] gamedataStatType_1300DEPRECATED 740
+---@field ["RecoilSpeedADS"] gamedataStatType_1300DEPRECATED 741
+---@field ["RecoilTime"] gamedataStatType_1300DEPRECATED 742
+---@field ["RecoilTimeADS"] gamedataStatType_1300DEPRECATED 743
+---@field ["RecoilUseDifferentStatsInADS"] gamedataStatType_1300DEPRECATED 744
+---@field ["Reflexes"] gamedataStatType_1300DEPRECATED 745
+---@field ["RefreshesPingOnQuickhack"] gamedataStatType_1300DEPRECATED 746
+---@field ["RegenerateHPMinigamePerk"] gamedataStatType_1300DEPRECATED 747
+---@field ["ReloadAmount"] gamedataStatType_1300DEPRECATED 748
+---@field ["ReloadEndTime"] gamedataStatType_1300DEPRECATED 749
+---@field ["ReloadTime"] gamedataStatType_1300DEPRECATED 750
+---@field ["ReloadTimeBase"] gamedataStatType_1300DEPRECATED 751
+---@field ["ReloadTimeBonus"] gamedataStatType_1300DEPRECATED 752
+---@field ["RemoveAllStacksWhenDurationEnds"] gamedataStatType_1300DEPRECATED 753
+---@field ["RemoveColdBloodStacksOneByOne"] gamedataStatType_1300DEPRECATED 754
+---@field ["RemoveSprintOnQuickhack"] gamedataStatType_1300DEPRECATED 755
+---@field ["ReprimandEscalation"] gamedataStatType_1300DEPRECATED 756
+---@field ["RestoreMemoryOnDefeat"] gamedataStatType_1300DEPRECATED 757
+---@field ["RevealNetrunnerWhenHacked"] gamedataStatType_1300DEPRECATED 758
+---@field ["RicochetChance"] gamedataStatType_1300DEPRECATED 759
+---@field ["RicochetCount"] gamedataStatType_1300DEPRECATED 760
+---@field ["RicochetMaxAngle"] gamedataStatType_1300DEPRECATED 761
+---@field ["RicochetMinAngle"] gamedataStatType_1300DEPRECATED 762
+---@field ["RicochetTargetSearchAngle"] gamedataStatType_1300DEPRECATED 763
+---@field ["SandevistanDashShoot"] gamedataStatType_1300DEPRECATED 764
+---@field ["ScanDepth"] gamedataStatType_1300DEPRECATED 765
+---@field ["ScanTimeReduction"] gamedataStatType_1300DEPRECATED 766
+---@field ["ScopeFOV"] gamedataStatType_1300DEPRECATED 767
+---@field ["ScopeOffset"] gamedataStatType_1300DEPRECATED 768
+---@field ["ScrapItemChance"] gamedataStatType_1300DEPRECATED 769
+---@field ["SharedCacheTraps"] gamedataStatType_1300DEPRECATED 770
+---@field ["ShootingOffsetAI"] gamedataStatType_1300DEPRECATED 771
+---@field ["ShortCircuitOnCriticalHit"] gamedataStatType_1300DEPRECATED 772
+---@field ["ShorterChains"] gamedataStatType_1300DEPRECATED 773
+---@field ["ShotDelay"] gamedataStatType_1300DEPRECATED 774
+---@field ["SlideWhenLeaningOutOfCover"] gamedataStatType_1300DEPRECATED 775
+---@field ["SmartGunAddSpiralTrajectory"] gamedataStatType_1300DEPRECATED 776
+---@field ["SmartGunAdsLockingAnglePitch"] gamedataStatType_1300DEPRECATED 777
+---@field ["SmartGunAdsLockingAngleYaw"] gamedataStatType_1300DEPRECATED 778
+---@field ["SmartGunAdsMaxLockedTargets"] gamedataStatType_1300DEPRECATED 779
+---@field ["SmartGunAdsTagLockAnglePitch"] gamedataStatType_1300DEPRECATED 780
+---@field ["SmartGunAdsTagLockAngleYaw"] gamedataStatType_1300DEPRECATED 781
+---@field ["SmartGunAdsTargetableAnglePitch"] gamedataStatType_1300DEPRECATED 782
+---@field ["SmartGunAdsTargetableAngleYaw"] gamedataStatType_1300DEPRECATED 783
+---@field ["SmartGunAdsTimeToLock"] gamedataStatType_1300DEPRECATED 784
+---@field ["SmartGunAdsTimeToUnlock"] gamedataStatType_1300DEPRECATED 785
+---@field ["SmartGunEvenDistributionPeriod"] gamedataStatType_1300DEPRECATED 786
+---@field ["SmartGunHipLockingAnglePitch"] gamedataStatType_1300DEPRECATED 787
+---@field ["SmartGunHipLockingAngleYaw"] gamedataStatType_1300DEPRECATED 788
+---@field ["SmartGunHipMaxLockedTargets"] gamedataStatType_1300DEPRECATED 789
+---@field ["SmartGunHipTagLockAnglePitch"] gamedataStatType_1300DEPRECATED 790
+---@field ["SmartGunHipTagLockAngleYaw"] gamedataStatType_1300DEPRECATED 791
+---@field ["SmartGunHipTargetableAnglePitch"] gamedataStatType_1300DEPRECATED 792
+---@field ["SmartGunHipTargetableAngleYaw"] gamedataStatType_1300DEPRECATED 793
+---@field ["SmartGunHipTimeToLock"] gamedataStatType_1300DEPRECATED 794
+---@field ["SmartGunHipTimeToUnlock"] gamedataStatType_1300DEPRECATED 795
+---@field ["SmartGunHitProbability"] gamedataStatType_1300DEPRECATED 796
+---@field ["SmartGunHitProbabilityMultiplier"] gamedataStatType_1300DEPRECATED 797
+---@field ["SmartGunMissDelay"] gamedataStatType_1300DEPRECATED 798
+---@field ["SmartGunMissRadius"] gamedataStatType_1300DEPRECATED 799
+---@field ["SmartGunNPCApplySpreadAtHitplane"] gamedataStatType_1300DEPRECATED 800
+---@field ["SmartGunNPCLockOnTime"] gamedataStatType_1300DEPRECATED 801
+---@field ["SmartGunNPCLockTimeout"] gamedataStatType_1300DEPRECATED 802
+---@field ["SmartGunNPCLockingAnglePitch"] gamedataStatType_1300DEPRECATED 803
+---@field ["SmartGunNPCLockingAngleYaw"] gamedataStatType_1300DEPRECATED 804
+---@field ["SmartGunNPCProjectileStartingOrientationAngleOffset"] gamedataStatType_1300DEPRECATED 805
+---@field ["SmartGunNPCProjectileVelocity"] gamedataStatType_1300DEPRECATED 806
+---@field ["SmartGunNPCShootProjectilesOnlyStraight"] gamedataStatType_1300DEPRECATED 807
+---@field ["SmartGunNPCSpreadMultiplier"] gamedataStatType_1300DEPRECATED 808
+---@field ["SmartGunNPCTrajectoryCurvatureMultiplier"] gamedataStatType_1300DEPRECATED 809
+---@field ["SmartGunPlayerProjectileVelocity"] gamedataStatType_1300DEPRECATED 810
+---@field ["SmartGunProjectileVelocityVariance"] gamedataStatType_1300DEPRECATED 811
+---@field ["SmartGunSpiralCycleTimeMax"] gamedataStatType_1300DEPRECATED 812
+---@field ["SmartGunSpiralCycleTimeMin"] gamedataStatType_1300DEPRECATED 813
+---@field ["SmartGunSpiralRadius"] gamedataStatType_1300DEPRECATED 814
+---@field ["SmartGunSpiralRampDistanceEnd"] gamedataStatType_1300DEPRECATED 815
+---@field ["SmartGunSpiralRampDistanceStart"] gamedataStatType_1300DEPRECATED 816
+---@field ["SmartGunSpiralRandomizeDirection"] gamedataStatType_1300DEPRECATED 817
+---@field ["SmartGunSpreadMultiplier"] gamedataStatType_1300DEPRECATED 818
+---@field ["SmartGunStartingAccuracy"] gamedataStatType_1300DEPRECATED 819
+---@field ["SmartGunTargetAcquisitionRange"] gamedataStatType_1300DEPRECATED 820
+---@field ["SmartGunTimeToMaxAccuracy"] gamedataStatType_1300DEPRECATED 821
+---@field ["SmartGunTimeToRemoveOccludedTarget"] gamedataStatType_1300DEPRECATED 822
+---@field ["SmartGunTrackAllBodyparts"] gamedataStatType_1300DEPRECATED 823
+---@field ["SmartGunTrackHeadComponents"] gamedataStatType_1300DEPRECATED 824
+---@field ["SmartGunTrackLegComponents"] gamedataStatType_1300DEPRECATED 825
+---@field ["SmartGunTrackMechanicalComponents"] gamedataStatType_1300DEPRECATED 826
+---@field ["SmartGunTrackMultipleEntitiesInADS"] gamedataStatType_1300DEPRECATED 827
+---@field ["SmartGunUseEvenDistributionTargeting"] gamedataStatType_1300DEPRECATED 828
+---@field ["SmartGunUseTagLockTargeting"] gamedataStatType_1300DEPRECATED 829
+---@field ["SmartGunUseTimeBasedAccuracy"] gamedataStatType_1300DEPRECATED 830
+---@field ["SmartTargetingDisruptionProbability"] gamedataStatType_1300DEPRECATED 831
+---@field ["SpecialDamage"] gamedataStatType_1300DEPRECATED 832
+---@field ["SpeedBoost"] gamedataStatType_1300DEPRECATED 833
+---@field ["SpeedBoostMaxSpeed"] gamedataStatType_1300DEPRECATED 834
+---@field ["Spread"] gamedataStatType_1300DEPRECATED 835
+---@field ["SpreadAdsChangePerShot"] gamedataStatType_1300DEPRECATED 836
+---@field ["SpreadAdsChargeMult"] gamedataStatType_1300DEPRECATED 837
+---@field ["SpreadAdsDefaultX"] gamedataStatType_1300DEPRECATED 838
+---@field ["SpreadAdsDefaultY"] gamedataStatType_1300DEPRECATED 839
+---@field ["SpreadAdsFastSpeedMax"] gamedataStatType_1300DEPRECATED 840
+---@field ["SpreadAdsFastSpeedMaxAdd"] gamedataStatType_1300DEPRECATED 841
+---@field ["SpreadAdsFastSpeedMin"] gamedataStatType_1300DEPRECATED 842
+---@field ["SpreadAdsFastSpeedMinAdd"] gamedataStatType_1300DEPRECATED 843
+---@field ["SpreadAdsFullChargeMult"] gamedataStatType_1300DEPRECATED 844
+---@field ["SpreadAdsMaxX"] gamedataStatType_1300DEPRECATED 845
+---@field ["SpreadAdsMaxY"] gamedataStatType_1300DEPRECATED 846
+---@field ["SpreadAdsMinX"] gamedataStatType_1300DEPRECATED 847
+---@field ["SpreadAdsMinY"] gamedataStatType_1300DEPRECATED 848
+---@field ["SpreadAnimation"] gamedataStatType_1300DEPRECATED 849
+---@field ["SpreadChangePerShot"] gamedataStatType_1300DEPRECATED 850
+---@field ["SpreadChargeMult"] gamedataStatType_1300DEPRECATED 851
+---@field ["SpreadCrouchDefaultMult"] gamedataStatType_1300DEPRECATED 852
+---@field ["SpreadCrouchMaxMult"] gamedataStatType_1300DEPRECATED 853
+---@field ["SpreadDefaultX"] gamedataStatType_1300DEPRECATED 854
+---@field ["SpreadDefaultY"] gamedataStatType_1300DEPRECATED 855
+---@field ["SpreadEvenDistributionJitterSize"] gamedataStatType_1300DEPRECATED 856
+---@field ["SpreadEvenDistributionRowCount"] gamedataStatType_1300DEPRECATED 857
+---@field ["SpreadFastSpeedMax"] gamedataStatType_1300DEPRECATED 858
+---@field ["SpreadFastSpeedMaxAdd"] gamedataStatType_1300DEPRECATED 859
+---@field ["SpreadFastSpeedMin"] gamedataStatType_1300DEPRECATED 860
+---@field ["SpreadFastSpeedMinAdd"] gamedataStatType_1300DEPRECATED 861
+---@field ["SpreadFullChargeMult"] gamedataStatType_1300DEPRECATED 862
+---@field ["SpreadMaxAI"] gamedataStatType_1300DEPRECATED 863
+---@field ["SpreadMaxX"] gamedataStatType_1300DEPRECATED 864
+---@field ["SpreadMaxY"] gamedataStatType_1300DEPRECATED 865
+---@field ["SpreadMinX"] gamedataStatType_1300DEPRECATED 866
+---@field ["SpreadMinY"] gamedataStatType_1300DEPRECATED 867
+---@field ["SpreadRandomizeOriginPoint"] gamedataStatType_1300DEPRECATED 868
+---@field ["SpreadResetSpeed"] gamedataStatType_1300DEPRECATED 869
+---@field ["SpreadResetTimeThreshold"] gamedataStatType_1300DEPRECATED 870
+---@field ["SpreadUseCircularSpread"] gamedataStatType_1300DEPRECATED 871
+---@field ["SpreadUseEvenDistribution"] gamedataStatType_1300DEPRECATED 872
+---@field ["SpreadUseInAds"] gamedataStatType_1300DEPRECATED 873
+---@field ["SpreadZeroOnFirstShot"] gamedataStatType_1300DEPRECATED 874
+---@field ["StaggerDamageThreshold"] gamedataStatType_1300DEPRECATED 875
+---@field ["StaggerDamageThresholdImpulse"] gamedataStatType_1300DEPRECATED 876
+---@field ["StaggerDamageThresholdInCover"] gamedataStatType_1300DEPRECATED 877
+---@field ["Stamina"] gamedataStatType_1300DEPRECATED 878
+---@field ["StaminaCostReduction"] gamedataStatType_1300DEPRECATED 879
+---@field ["StaminaCostToBlock"] gamedataStatType_1300DEPRECATED 880
+---@field ["StaminaDamage"] gamedataStatType_1300DEPRECATED 881
+---@field ["StaminaRegenDelayOnChange"] gamedataStatType_1300DEPRECATED 882
+---@field ["StaminaRegenEnabled"] gamedataStatType_1300DEPRECATED 883
+---@field ["StaminaRegenEndThrehold"] gamedataStatType_1300DEPRECATED 884
+---@field ["StaminaRegenRate"] gamedataStatType_1300DEPRECATED 885
+---@field ["StaminaRegenRateAdd"] gamedataStatType_1300DEPRECATED 886
+---@field ["StaminaRegenRateBase"] gamedataStatType_1300DEPRECATED 887
+---@field ["StaminaRegenRateMult"] gamedataStatType_1300DEPRECATED 888
+---@field ["StaminaRegenStartDelay"] gamedataStatType_1300DEPRECATED 889
+---@field ["StaminaRegenStartThreshold"] gamedataStatType_1300DEPRECATED 890
+---@field ["StaminaSprintDecayRate"] gamedataStatType_1300DEPRECATED 891
+---@field ["StatModifierGroupLimit"] gamedataStatType_1300DEPRECATED 892
+---@field ["Stealth"] gamedataStatType_1300DEPRECATED 893
+---@field ["StealthHacksCostReduction"] gamedataStatType_1300DEPRECATED 894
+---@field ["StealthHitDamageMultiplier"] gamedataStatType_1300DEPRECATED 895
+---@field ["StealthMastery"] gamedataStatType_1300DEPRECATED 896
+---@field ["StealthTrait01Stat"] gamedataStatType_1300DEPRECATED 897
+---@field ["StealthWeakspotDamageMultiplier"] gamedataStatType_1300DEPRECATED 898
+---@field ["StreetCred"] gamedataStatType_1300DEPRECATED 899
+---@field ["Strength"] gamedataStatType_1300DEPRECATED 900
+---@field ["StunImmunity"] gamedataStatType_1300DEPRECATED 901
+---@field ["Sway"] gamedataStatType_1300DEPRECATED 902
+---@field ["SwayCenterMaximumAngleOffset"] gamedataStatType_1300DEPRECATED 903
+---@field ["SwayCurvatureMaximumFactor"] gamedataStatType_1300DEPRECATED 904
+---@field ["SwayCurvatureMinimumFactor"] gamedataStatType_1300DEPRECATED 905
+---@field ["SwayInitialOffsetRandomFactor"] gamedataStatType_1300DEPRECATED 906
+---@field ["SwayResetOnAimStart"] gamedataStatType_1300DEPRECATED 907
+---@field ["SwaySideBottomAngleLimit"] gamedataStatType_1300DEPRECATED 908
+---@field ["SwaySideMaximumAngleDistance"] gamedataStatType_1300DEPRECATED 909
+---@field ["SwaySideMinimumAngleDistance"] gamedataStatType_1300DEPRECATED 910
+---@field ["SwaySideStepChangeMaximumFactor"] gamedataStatType_1300DEPRECATED 911
+---@field ["SwaySideStepChangeMinimumFactor"] gamedataStatType_1300DEPRECATED 912
+---@field ["SwaySideTopAngleLimit"] gamedataStatType_1300DEPRECATED 913
+---@field ["SwayStartBlendTime"] gamedataStatType_1300DEPRECATED 914
+---@field ["SwayStartDelay"] gamedataStatType_1300DEPRECATED 915
+---@field ["SwayTraversalTime"] gamedataStatType_1300DEPRECATED 916
+---@field ["SystemCollapseImmunity"] gamedataStatType_1300DEPRECATED 917
+---@field ["TBHsBaseCoefficient"] gamedataStatType_1300DEPRECATED 918
+---@field ["TBHsBaseSourceMultiplierCoefficient"] gamedataStatType_1300DEPRECATED 919
+---@field ["TBHsCoverTraceLoSIncreaseSpeed"] gamedataStatType_1300DEPRECATED 920
+---@field ["TBHsMinimumLineOfSightTime"] gamedataStatType_1300DEPRECATED 921
+---@field ["TBHsSensesTraceLoSIncreaseSpeed"] gamedataStatType_1300DEPRECATED 922
+---@field ["TBHsVisibilityCooldown"] gamedataStatType_1300DEPRECATED 923
+---@field ["TechBaseChargeThreshold"] gamedataStatType_1300DEPRECATED 924
+---@field ["TechMaxChargeThreshold"] gamedataStatType_1300DEPRECATED 925
+---@field ["TechOverChargeThreshold"] gamedataStatType_1300DEPRECATED 926
+---@field ["TechPierceChargeLevel"] gamedataStatType_1300DEPRECATED 927
+---@field ["TechPierceEnabled"] gamedataStatType_1300DEPRECATED 928
+---@field ["TechnicalAbility"] gamedataStatType_1300DEPRECATED 929
+---@field ["ThermalDamage"] gamedataStatType_1300DEPRECATED 930
+---@field ["ThermalDamageMax"] gamedataStatType_1300DEPRECATED 931
+---@field ["ThermalDamageMin"] gamedataStatType_1300DEPRECATED 932
+---@field ["ThermalDamagePercent"] gamedataStatType_1300DEPRECATED 933
+---@field ["ThermalResistance"] gamedataStatType_1300DEPRECATED 934
+---@field ["ThreeOrMoreProgramsCooldownRedPerk"] gamedataStatType_1300DEPRECATED 935
+---@field ["ThreeOrMoreProgramsMemoryRegPerk"] gamedataStatType_1300DEPRECATED 936
+---@field ["TimeDilationGenericDuration"] gamedataStatType_1300DEPRECATED 937
+---@field ["TimeDilationGenericTimeScale"] gamedataStatType_1300DEPRECATED 938
+---@field ["TimeDilationKerenzikovDuration"] gamedataStatType_1300DEPRECATED 939
+---@field ["TimeDilationKerenzikovPlayerTimeScale"] gamedataStatType_1300DEPRECATED 940
+---@field ["TimeDilationKerenzikovTimeScale"] gamedataStatType_1300DEPRECATED 941
+---@field ["TimeDilationOnDodgesCooldownDuration"] gamedataStatType_1300DEPRECATED 942
+---@field ["TimeDilationOnDodgesDuration"] gamedataStatType_1300DEPRECATED 943
+---@field ["TimeDilationOnDodgesTimeScale"] gamedataStatType_1300DEPRECATED 944
+---@field ["TimeDilationOnHealthDropCooldownDuration"] gamedataStatType_1300DEPRECATED 945
+---@field ["TimeDilationOnHealthDropDuration"] gamedataStatType_1300DEPRECATED 946
+---@field ["TimeDilationOnHealthDropTimeScale"] gamedataStatType_1300DEPRECATED 947
+---@field ["TimeDilationSandevistanCooldownBase"] gamedataStatType_1300DEPRECATED 948
+---@field ["TimeDilationSandevistanCooldownReduction"] gamedataStatType_1300DEPRECATED 949
+---@field ["TimeDilationSandevistanDuration"] gamedataStatType_1300DEPRECATED 950
+---@field ["TimeDilationSandevistanTimeScale"] gamedataStatType_1300DEPRECATED 951
+---@field ["TimeDilationWhenEnteringCombatCooldownDuration"] gamedataStatType_1300DEPRECATED 952
+---@field ["TimeDilationWhenEnteringCombatDuration"] gamedataStatType_1300DEPRECATED 953
+---@field ["TimeDilationWhenEnteringCombatTimeScale"] gamedataStatType_1300DEPRECATED 954
+---@field ["TranquilizerImmunity"] gamedataStatType_1300DEPRECATED 955
+---@field ["TriggerDismembermentChance"] gamedataStatType_1300DEPRECATED 956
+---@field ["TriggerWoundedChance"] gamedataStatType_1300DEPRECATED 957
+---@field ["TurretFriendlyExtension"] gamedataStatType_1300DEPRECATED 958
+---@field ["TurretShutdownExtension"] gamedataStatType_1300DEPRECATED 959
+---@field ["UltimateHackSpread"] gamedataStatType_1300DEPRECATED 960
+---@field ["UltimateHacksCostReduction"] gamedataStatType_1300DEPRECATED 961
+---@field ["UltimateMemoryCostReduction"] gamedataStatType_1300DEPRECATED 962
+---@field ["UnconsciousImmunity"] gamedataStatType_1300DEPRECATED 963
+---@field ["UnequipAnimationDuration_Corpo"] gamedataStatType_1300DEPRECATED 964
+---@field ["UnequipAnimationDuration_Gang"] gamedataStatType_1300DEPRECATED 965
+---@field ["UnequipDuration"] gamedataStatType_1300DEPRECATED 966
+---@field ["UnequipDuration_Corpo"] gamedataStatType_1300DEPRECATED 967
+---@field ["UnequipDuration_Gang"] gamedataStatType_1300DEPRECATED 968
+---@field ["UnequipItemTime_Corpo"] gamedataStatType_1300DEPRECATED 969
+---@field ["UnequipItemTime_Gang"] gamedataStatType_1300DEPRECATED 970
+---@field ["UnlockProgress"] gamedataStatType_1300DEPRECATED 971
+---@field ["UpgradingCostReduction"] gamedataStatType_1300DEPRECATED 972
+---@field ["UpgradingMaterialDropChance"] gamedataStatType_1300DEPRECATED 973
+---@field ["UpgradingMaterialRandomGrantChance"] gamedataStatType_1300DEPRECATED 974
+---@field ["UpgradingMaterialRetrieveChance"] gamedataStatType_1300DEPRECATED 975
+---@field ["UploadQuickHackMod"] gamedataStatType_1300DEPRECATED 976
+---@field ["Visibility"] gamedataStatType_1300DEPRECATED 977
+---@field ["VisualStimRangeMultiplier"] gamedataStatType_1300DEPRECATED 978
+---@field ["VulnerabilityExtension"] gamedataStatType_1300DEPRECATED 979
+---@field ["WallRunHorSpeedToEnterMin"] gamedataStatType_1300DEPRECATED 980
+---@field ["WallRunStrafeAngleMax"] gamedataStatType_1300DEPRECATED 981
+---@field ["WallRunTimeMax"] gamedataStatType_1300DEPRECATED 982
+---@field ["WallRunVertSpeedToEnterMax"] gamedataStatType_1300DEPRECATED 983
+---@field ["WasItemUpgraded"] gamedataStatType_1300DEPRECATED 984
+---@field ["WasQuickHacked"] gamedataStatType_1300DEPRECATED 985
+---@field ["WeakspotDamageMultiplier"] gamedataStatType_1300DEPRECATED 986
+---@field ["WeaponHasAutoloader"] gamedataStatType_1300DEPRECATED 987
+---@field ["WeaponNoise"] gamedataStatType_1300DEPRECATED 988
+---@field ["WeaponPosAdsX"] gamedataStatType_1300DEPRECATED 989
+---@field ["WeaponPosAdsY"] gamedataStatType_1300DEPRECATED 990
+---@field ["WeaponPosAdsZ"] gamedataStatType_1300DEPRECATED 991
+---@field ["WeaponPosX"] gamedataStatType_1300DEPRECATED 992
+---@field ["WeaponPosY"] gamedataStatType_1300DEPRECATED 993
+---@field ["WeaponPosZ"] gamedataStatType_1300DEPRECATED 994
+---@field ["WeaponRotAdsX"] gamedataStatType_1300DEPRECATED 995
+---@field ["WeaponRotAdsY"] gamedataStatType_1300DEPRECATED 996
+---@field ["WeaponRotAdsZ"] gamedataStatType_1300DEPRECATED 997
+---@field ["WeaponRotX"] gamedataStatType_1300DEPRECATED 998
+---@field ["WeaponRotY"] gamedataStatType_1300DEPRECATED 999
+---@field ["WeaponRotZ"] gamedataStatType_1300DEPRECATED 1000
+---@field ["Weight"] gamedataStatType_1300DEPRECATED 1001
+---@field ["WoundHeadDamageThreshold"] gamedataStatType_1300DEPRECATED 1002
+---@field ["WoundLArmDamageThreshold"] gamedataStatType_1300DEPRECATED 1003
+---@field ["WoundLLegDamageThreshold"] gamedataStatType_1300DEPRECATED 1004
+---@field ["WoundRArmDamageThreshold"] gamedataStatType_1300DEPRECATED 1005
+---@field ["WoundRLegDamageThreshold"] gamedataStatType_1300DEPRECATED 1006
+---@field ["ZoomLevel"] gamedataStatType_1300DEPRECATED 1007
+---@field ["CPO_Armor"] gamedataStatType_1300DEPRECATED 1008
+---@field ["CPO_NPC_Importance"] gamedataStatType_1300DEPRECATED 1009
+---@field ["Count"] gamedataStatType_1300DEPRECATED 1010
+---@field ["Invalid"] gamedataStatType_1300DEPRECATED 1011
+gamedataStatType_1300DEPRECATED = {}

@@ -1,70 +1,69 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataBuildType
-gamedataBuildType = {
-    ["Avg_10_Int_Netrunner"] = 0, ---@type Enum
-    ["Body40"] = 1, ---@type Enum
-    ["CherryHybrid30"] = 2, ---@type Enum
-    ["CherryHybrid50"] = 3, ---@type Enum
-    ["CorporateStarting"] = 4, ---@type Enum
-    ["E32019NetrunnerPhase1"] = 5, ---@type Enum
-    ["E32019StrongSoloPhase1"] = 6, ---@type Enum
-    ["EP1_Standalone_Corpo_MA_StartingBuild"] = 7, ---@type Enum
-    ["EP1_Standalone_Corpo_WA_StartingBuild"] = 8, ---@type Enum
-    ["EP1_Standalone_Nomad_MA_StartingBuild"] = 9, ---@type Enum
-    ["EP1_Standalone_Nomad_WA_StartingBuild"] = 10, ---@type Enum
-    ["EP1_Standalone_StartingBuild"] = 11, ---@type Enum
-    ["EP1_Standalone_Street_MA_StartingBuild"] = 12, ---@type Enum
-    ["EP1_Standalone_Street_WA_StartingBuild"] = 13, ---@type Enum
-    ["FunctionalTestsProgressionBuildTest"] = 14, ---@type Enum
-    ["FunctionalTestsStartingBuild"] = 15, ---@type Enum
-    ["GYMcclBuild"] = 16, ---@type Enum
-    ["GymSmoketestMaxedBuild"] = 17, ---@type Enum
-    ["HandsOnStarting"] = 18, ---@type Enum
-    ["Hard_20_Body"] = 19, ---@type Enum
-    ["Hard_20_Intelligence"] = 20, ---@type Enum
-    ["Hard_20_Reflex"] = 21, ---@type Enum
-    ["Hard_30_BodyTech"] = 22, ---@type Enum
-    ["Hard_30_IntBody"] = 23, ---@type Enum
-    ["Hard_30_Reflex"] = 24, ---@type Enum
-    ["JohnnyQ101"] = 25, ---@type Enum
-    ["JohnnyQ108"] = 26, ---@type Enum
-    ["JohnnyQ204"] = 27, ---@type Enum
-    ["KurtMQ301Delivery"] = 28, ---@type Enum
-    ["KurtMQ301Initiation"] = 29, ---@type Enum
-    ["MaxSkillsAllWeapons"] = 30, ---@type Enum
-    ["MaxStealthHacker"] = 31, ---@type Enum
-    ["NomadStarting"] = 32, ---@type Enum
-    ["Normal_20_Melee"] = 33, ---@type Enum
-    ["Normal_20_Netrunner"] = 34, ---@type Enum
-    ["Normal_20_Ranged"] = 35, ---@type Enum
-    ["Reflex40"] = 36, ---@type Enum
-    ["SmartRunner40"] = 37, ---@type Enum
-    ["StartingBuild"] = 38, ---@type Enum
-    ["Story_15"] = 39, ---@type Enum
-    ["Story_25"] = 40, ---@type Enum
-    ["Story_5"] = 41, ---@type Enum
-    ["Str_10_Tank"] = 42, ---@type Enum
-    ["Str_30_Cool_Assassin"] = 43, ---@type Enum
-    ["Str_5_Tank"] = 44, ---@type Enum
-    ["StreetKidStarting"] = 45, ---@type Enum
-    ["UIStressTest"] = 46, ---@type Enum
-    ["VHard_50_BodyCool"] = 47, ---@type Enum
-    ["VHard_50_CoolRef"] = 48, ---@type Enum
-    ["VHard_50_IntRef"] = 49, ---@type Enum
-    ["VHard_50_IntTech"] = 50, ---@type Enum
-    ["VHard_50_RefBody"] = 51, ---@type Enum
-    ["VHard_50_RefTech"] = 52, ---@type Enum
-    ["VHard_50_TechCool"] = 53, ---@type Enum
-    ["Weak_10"] = 54, ---@type Enum
-    ["Weak_20_Cool"] = 55, ---@type Enum
-    ["Weak_30"] = 56, ---@type Enum
-    ["CpoAssassinBuild"] = 57, ---@type Enum
-    ["CpoDefaultBuild"] = 58, ---@type Enum
-    ["CpoNetrunnerBuild"] = 59, ---@type Enum
-    ["CpoSoloBuild"] = 60, ---@type Enum
-    ["CpoTechieBuild"] = 61, ---@type Enum
-    ["Count"] = 62, ---@type Enum
-    ["Invalid"] = 63, ---@type Enum
-}
+---@class gamedataBuildType: Enum
+---@field ["Avg_10_Int_Netrunner"] gamedataBuildType 0
+---@field ["Body40"] gamedataBuildType 1
+---@field ["CherryHybrid30"] gamedataBuildType 2
+---@field ["CherryHybrid50"] gamedataBuildType 3
+---@field ["CorporateStarting"] gamedataBuildType 4
+---@field ["E32019NetrunnerPhase1"] gamedataBuildType 5
+---@field ["E32019StrongSoloPhase1"] gamedataBuildType 6
+---@field ["EP1_Standalone_Corpo_MA_StartingBuild"] gamedataBuildType 7
+---@field ["EP1_Standalone_Corpo_WA_StartingBuild"] gamedataBuildType 8
+---@field ["EP1_Standalone_Nomad_MA_StartingBuild"] gamedataBuildType 9
+---@field ["EP1_Standalone_Nomad_WA_StartingBuild"] gamedataBuildType 10
+---@field ["EP1_Standalone_StartingBuild"] gamedataBuildType 11
+---@field ["EP1_Standalone_Street_MA_StartingBuild"] gamedataBuildType 12
+---@field ["EP1_Standalone_Street_WA_StartingBuild"] gamedataBuildType 13
+---@field ["FunctionalTestsProgressionBuildTest"] gamedataBuildType 14
+---@field ["FunctionalTestsStartingBuild"] gamedataBuildType 15
+---@field ["GYMcclBuild"] gamedataBuildType 16
+---@field ["GymSmoketestMaxedBuild"] gamedataBuildType 17
+---@field ["HandsOnStarting"] gamedataBuildType 18
+---@field ["Hard_20_Body"] gamedataBuildType 19
+---@field ["Hard_20_Intelligence"] gamedataBuildType 20
+---@field ["Hard_20_Reflex"] gamedataBuildType 21
+---@field ["Hard_30_BodyTech"] gamedataBuildType 22
+---@field ["Hard_30_IntBody"] gamedataBuildType 23
+---@field ["Hard_30_Reflex"] gamedataBuildType 24
+---@field ["JohnnyQ101"] gamedataBuildType 25
+---@field ["JohnnyQ108"] gamedataBuildType 26
+---@field ["JohnnyQ204"] gamedataBuildType 27
+---@field ["KurtMQ301Delivery"] gamedataBuildType 28
+---@field ["KurtMQ301Initiation"] gamedataBuildType 29
+---@field ["MaxSkillsAllWeapons"] gamedataBuildType 30
+---@field ["MaxStealthHacker"] gamedataBuildType 31
+---@field ["NomadStarting"] gamedataBuildType 32
+---@field ["Normal_20_Melee"] gamedataBuildType 33
+---@field ["Normal_20_Netrunner"] gamedataBuildType 34
+---@field ["Normal_20_Ranged"] gamedataBuildType 35
+---@field ["Reflex40"] gamedataBuildType 36
+---@field ["SmartRunner40"] gamedataBuildType 37
+---@field ["StartingBuild"] gamedataBuildType 38
+---@field ["Story_15"] gamedataBuildType 39
+---@field ["Story_25"] gamedataBuildType 40
+---@field ["Story_5"] gamedataBuildType 41
+---@field ["Str_10_Tank"] gamedataBuildType 42
+---@field ["Str_30_Cool_Assassin"] gamedataBuildType 43
+---@field ["Str_5_Tank"] gamedataBuildType 44
+---@field ["StreetKidStarting"] gamedataBuildType 45
+---@field ["UIStressTest"] gamedataBuildType 46
+---@field ["VHard_50_BodyCool"] gamedataBuildType 47
+---@field ["VHard_50_CoolRef"] gamedataBuildType 48
+---@field ["VHard_50_IntRef"] gamedataBuildType 49
+---@field ["VHard_50_IntTech"] gamedataBuildType 50
+---@field ["VHard_50_RefBody"] gamedataBuildType 51
+---@field ["VHard_50_RefTech"] gamedataBuildType 52
+---@field ["VHard_50_TechCool"] gamedataBuildType 53
+---@field ["Weak_10"] gamedataBuildType 54
+---@field ["Weak_20_Cool"] gamedataBuildType 55
+---@field ["Weak_30"] gamedataBuildType 56
+---@field ["CpoAssassinBuild"] gamedataBuildType 57
+---@field ["CpoDefaultBuild"] gamedataBuildType 58
+---@field ["CpoNetrunnerBuild"] gamedataBuildType 59
+---@field ["CpoSoloBuild"] gamedataBuildType 60
+---@field ["CpoTechieBuild"] gamedataBuildType 61
+---@field ["Count"] gamedataBuildType 62
+---@field ["Invalid"] gamedataBuildType 63
+gamedataBuildType = {}

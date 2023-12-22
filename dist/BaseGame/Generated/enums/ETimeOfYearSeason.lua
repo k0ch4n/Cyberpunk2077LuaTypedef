@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETimeOfYearSeason
-ETimeOfYearSeason = {
-    ["ETOYS_Spring"] = 0, ---@type Enum
-    ["ETOYS_Summer"] = 1, ---@type Enum
-    ["ETOYS_Autumn"] = 2, ---@type Enum
-    ["ETOYS_Winter"] = 3, ---@type Enum
-}
+---@class ETimeOfYearSeason: Enum
+---@field ["ETOYS_Spring"] ETimeOfYearSeason 0
+---@field ["ETOYS_Summer"] ETimeOfYearSeason 1
+---@field ["ETOYS_Autumn"] ETimeOfYearSeason 2
+---@field ["ETOYS_Winter"] ETimeOfYearSeason 3
+ETimeOfYearSeason = {}

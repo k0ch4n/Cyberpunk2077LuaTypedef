@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum communityESquadType
-communityESquadType = {
-    ["Global"] = 0, ---@type Enum
-    ["Community"] = 1, ---@type Enum
-    ["Security"] = 2, ---@type Enum
-    ["Unknown"] = 3, ---@type Enum
-}
+---@class communityESquadType: Enum
+---@field ["Global"] communityESquadType 0
+---@field ["Community"] communityESquadType 1
+---@field ["Security"] communityESquadType 2
+---@field ["Unknown"] communityESquadType 3
+communityESquadType = {}

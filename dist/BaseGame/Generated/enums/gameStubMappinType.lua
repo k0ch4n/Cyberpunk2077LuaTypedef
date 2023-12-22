@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStubMappinType
-gameStubMappinType = {
-    ["None"] = 0, ---@type Enum
-    ["Police"] = 1, ---@type Enum
-    ["PoliceVehicle"] = 2, ---@type Enum
-    ["Vehicle"] = 3, ---@type Enum
-}
+---@class gameStubMappinType: Enum
+---@field ["None"] gameStubMappinType 0
+---@field ["Police"] gameStubMappinType 1
+---@field ["PoliceVehicle"] gameStubMappinType 2
+---@field ["Vehicle"] gameStubMappinType 3
+gameStubMappinType = {}

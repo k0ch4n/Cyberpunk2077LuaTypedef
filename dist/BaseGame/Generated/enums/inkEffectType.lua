@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEffectType
-inkEffectType = {
-    ["ScanlineWipe"] = 0, ---@type Enum
-    ["LinearWipe"] = 1, ---@type Enum
-    ["RadialWipe"] = 2, ---@type Enum
-    ["LightSweep"] = 3, ---@type Enum
-    ["BoxBlur"] = 4, ---@type Enum
-    ["Mask"] = 5, ---@type Enum
-    ["Glitch"] = 6, ---@type Enum
-    ["PointCloud"] = 7, ---@type Enum
-    ["ColorFill"] = 8, ---@type Enum
-    ["InnerGlow"] = 9, ---@type Enum
-    ["ColorCorrection"] = 10, ---@type Enum
-    ["Multisampling"] = 11, ---@type Enum
-    ["Blackwall"] = 12, ---@type Enum
-}
+---@class inkEffectType: Enum
+---@field ["ScanlineWipe"] inkEffectType 0
+---@field ["LinearWipe"] inkEffectType 1
+---@field ["RadialWipe"] inkEffectType 2
+---@field ["LightSweep"] inkEffectType 3
+---@field ["BoxBlur"] inkEffectType 4
+---@field ["Mask"] inkEffectType 5
+---@field ["Glitch"] inkEffectType 6
+---@field ["PointCloud"] inkEffectType 7
+---@field ["ColorFill"] inkEffectType 8
+---@field ["InnerGlow"] inkEffectType 9
+---@field ["ColorCorrection"] inkEffectType 10
+---@field ["Multisampling"] inkEffectType 11
+---@field ["Blackwall"] inkEffectType 12
+inkEffectType = {}

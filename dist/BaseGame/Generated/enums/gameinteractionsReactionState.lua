@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsReactionState
-gameinteractionsReactionState = {
-    ["Idle"] = 0, ---@type Enum
-    ["Starting"] = 1, ---@type Enum
-    ["InInteraction"] = 2, ---@type Enum
-    ["Finishing"] = 3, ---@type Enum
-    ["Canceling"] = 4, ---@type Enum
-}
+---@class gameinteractionsReactionState: Enum
+---@field ["Idle"] gameinteractionsReactionState 0
+---@field ["Starting"] gameinteractionsReactionState 1
+---@field ["InInteraction"] gameinteractionsReactionState 2
+---@field ["Finishing"] gameinteractionsReactionState 3
+---@field ["Canceling"] gameinteractionsReactionState 4
+gameinteractionsReactionState = {}

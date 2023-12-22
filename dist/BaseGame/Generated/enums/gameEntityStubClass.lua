@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEntityStubClass
-gameEntityStubClass = {
-    ["Other"] = 0, ---@type Enum
-    ["Puppet"] = 1, ---@type Enum
-    ["Vehicle"] = 2, ---@type Enum
-}
+---@class gameEntityStubClass: Enum
+---@field ["Other"] gameEntityStubClass 0
+---@field ["Puppet"] gameEntityStubClass 1
+---@field ["Vehicle"] gameEntityStubClass 2
+gameEntityStubClass = {}

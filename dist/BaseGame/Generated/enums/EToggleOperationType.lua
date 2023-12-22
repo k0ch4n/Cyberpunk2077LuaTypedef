@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EToggleOperationType
-EToggleOperationType = {
-    ["ADD"] = 0, ---@type Enum
-    ["REMOVE"] = 1, ---@type Enum
-}
+---@class EToggleOperationType: Enum
+---@field ["ADD"] EToggleOperationType 0
+---@field ["REMOVE"] EToggleOperationType 1
+EToggleOperationType = {}

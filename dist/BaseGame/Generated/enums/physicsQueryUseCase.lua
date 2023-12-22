@@ -1,36 +1,35 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsQueryUseCase
-physicsQueryUseCase = {
-    ["Default"] = 0, ---@type Enum
-    ["ActionAnimation"] = 1, ---@type Enum
-    ["AI"] = 2, ---@type Enum
-    ["AnimationComponent"] = 3, ---@type Enum
-    ["Audio"] = 4, ---@type Enum
-    ["AudioHedgehog"] = 5, ---@type Enum
-    ["Components"] = 6, ---@type Enum
-    ["Debug"] = 7, ---@type Enum
-    ["Gameplay"] = 8, ---@type Enum
-    ["GeomDescription"] = 9, ---@type Enum
-    ["LineOfSightTests"] = 10, ---@type Enum
-    ["MoveZAlignment"] = 11, ---@type Enum
-    ["Navigation"] = 12, ---@type Enum
-    ["Nodes"] = 13, ---@type Enum
-    ["PuppetBlackboardUpdater"] = 14, ---@type Enum
-    ["Ragdoll"] = 15, ---@type Enum
-    ["Scripts"] = 16, ---@type Enum
-    ["TargetingSystem"] = 17, ---@type Enum
-    ["VehicleAI"] = 18, ---@type Enum
-    ["VehicleAIColliders"] = 19, ---@type Enum
-    ["Vehicles"] = 20, ---@type Enum
-    ["VehicleChassis"] = 21, ---@type Enum
-    ["VehiclesCrowd"] = 22, ---@type Enum
-    ["VehicleWheel"] = 23, ---@type Enum
-    ["VehicleStreamingHack"] = 24, ---@type Enum
-    ["VehicleWater"] = 25, ---@type Enum
-    ["VisibilityResolver"] = 26, ---@type Enum
-    ["WorldUI"] = 27, ---@type Enum
-    ["GameEffects"] = 28, ---@type Enum
-    ["GameProjectiles"] = 29, ---@type Enum
-}
+---@class physicsQueryUseCase: Enum
+---@field ["Default"] physicsQueryUseCase 0
+---@field ["ActionAnimation"] physicsQueryUseCase 1
+---@field ["AI"] physicsQueryUseCase 2
+---@field ["AnimationComponent"] physicsQueryUseCase 3
+---@field ["Audio"] physicsQueryUseCase 4
+---@field ["AudioHedgehog"] physicsQueryUseCase 5
+---@field ["Components"] physicsQueryUseCase 6
+---@field ["Debug"] physicsQueryUseCase 7
+---@field ["Gameplay"] physicsQueryUseCase 8
+---@field ["GeomDescription"] physicsQueryUseCase 9
+---@field ["LineOfSightTests"] physicsQueryUseCase 10
+---@field ["MoveZAlignment"] physicsQueryUseCase 11
+---@field ["Navigation"] physicsQueryUseCase 12
+---@field ["Nodes"] physicsQueryUseCase 13
+---@field ["PuppetBlackboardUpdater"] physicsQueryUseCase 14
+---@field ["Ragdoll"] physicsQueryUseCase 15
+---@field ["Scripts"] physicsQueryUseCase 16
+---@field ["TargetingSystem"] physicsQueryUseCase 17
+---@field ["VehicleAI"] physicsQueryUseCase 18
+---@field ["VehicleAIColliders"] physicsQueryUseCase 19
+---@field ["Vehicles"] physicsQueryUseCase 20
+---@field ["VehicleChassis"] physicsQueryUseCase 21
+---@field ["VehiclesCrowd"] physicsQueryUseCase 22
+---@field ["VehicleWheel"] physicsQueryUseCase 23
+---@field ["VehicleStreamingHack"] physicsQueryUseCase 24
+---@field ["VehicleWater"] physicsQueryUseCase 25
+---@field ["VisibilityResolver"] physicsQueryUseCase 26
+---@field ["WorldUI"] physicsQueryUseCase 27
+---@field ["GameEffects"] physicsQueryUseCase 28
+---@field ["GameProjectiles"] physicsQueryUseCase 29
+physicsQueryUseCase = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIActionState
-EAIActionState = {
-    ["Inactive"] = 0, ---@type Enum
-    ["Startup"] = 1, ---@type Enum
-    ["Loop"] = 2, ---@type Enum
-    ["Recover"] = 3, ---@type Enum
-}
+---@class EAIActionState: Enum
+---@field ["Inactive"] EAIActionState 0
+---@field ["Startup"] EAIActionState 1
+---@field ["Loop"] EAIActionState 2
+---@field ["Recover"] EAIActionState 3
+EAIActionState = {}

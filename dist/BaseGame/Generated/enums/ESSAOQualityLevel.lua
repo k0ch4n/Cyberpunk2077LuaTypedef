@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESSAOQualityLevel
-ESSAOQualityLevel = {
-    ["SSAOQUALITY_VeryLow"] = 0, ---@type Enum
-    ["SSAOQUALITY_Low"] = 1, ---@type Enum
-    ["SSAOQUALITY_Medium"] = 2, ---@type Enum
-    ["SSAOQUALITY_High"] = 3, ---@type Enum
-    ["SSAOQUALITY_VeryHigh"] = 4, ---@type Enum
-}
+---@class ESSAOQualityLevel: Enum
+---@field ["SSAOQUALITY_VeryLow"] ESSAOQualityLevel 0
+---@field ["SSAOQUALITY_Low"] ESSAOQualityLevel 1
+---@field ["SSAOQUALITY_Medium"] ESSAOQualityLevel 2
+---@field ["SSAOQUALITY_High"] ESSAOQualityLevel 3
+---@field ["SSAOQUALITY_VeryHigh"] ESSAOQualityLevel 4
+ESSAOQualityLevel = {}

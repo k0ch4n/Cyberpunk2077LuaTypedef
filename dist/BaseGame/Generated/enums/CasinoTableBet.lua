@@ -1,54 +1,53 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CasinoTableBet
-CasinoTableBet = {
-    ["none"] = 0, ---@type Enum
-    ["on_0"] = 1, ---@type Enum
-    ["on_00"] = 2, ---@type Enum
-    ["on_1"] = 3, ---@type Enum
-    ["on_2"] = 4, ---@type Enum
-    ["on_3"] = 5, ---@type Enum
-    ["on_4"] = 6, ---@type Enum
-    ["on_5"] = 7, ---@type Enum
-    ["on_6"] = 8, ---@type Enum
-    ["on_7"] = 9, ---@type Enum
-    ["on_8"] = 10, ---@type Enum
-    ["on_9"] = 11, ---@type Enum
-    ["on_10"] = 12, ---@type Enum
-    ["on_11"] = 13, ---@type Enum
-    ["on_12"] = 14, ---@type Enum
-    ["on_13"] = 15, ---@type Enum
-    ["on_14"] = 16, ---@type Enum
-    ["on_15"] = 17, ---@type Enum
-    ["on_16"] = 18, ---@type Enum
-    ["on_17"] = 19, ---@type Enum
-    ["on_18"] = 20, ---@type Enum
-    ["on_19"] = 21, ---@type Enum
-    ["on_20"] = 22, ---@type Enum
-    ["on_21"] = 23, ---@type Enum
-    ["on_22"] = 24, ---@type Enum
-    ["on_23"] = 25, ---@type Enum
-    ["on_24"] = 26, ---@type Enum
-    ["on_25"] = 27, ---@type Enum
-    ["on_26"] = 28, ---@type Enum
-    ["on_27"] = 29, ---@type Enum
-    ["on_28"] = 30, ---@type Enum
-    ["on_29"] = 31, ---@type Enum
-    ["on_30"] = 32, ---@type Enum
-    ["on_31"] = 33, ---@type Enum
-    ["on_32"] = 34, ---@type Enum
-    ["on_33"] = 35, ---@type Enum
-    ["on_34"] = 36, ---@type Enum
-    ["on_35"] = 37, ---@type Enum
-    ["on_36"] = 38, ---@type Enum
-    ["on_manque_1_18"] = 39, ---@type Enum
-    ["on_passe_19_36"] = 40, ---@type Enum
-    ["on_red"] = 41, ---@type Enum
-    ["on_black"] = 42, ---@type Enum
-    ["on_impair_odd"] = 43, ---@type Enum
-    ["on_pair_even"] = 44, ---@type Enum
-    ["on_1st_12"] = 45, ---@type Enum
-    ["on_2st_12"] = 46, ---@type Enum
-    ["on_3st_12"] = 47, ---@type Enum
-}
+---@class CasinoTableBet: Enum
+---@field ["none"] CasinoTableBet 0
+---@field ["on_0"] CasinoTableBet 1
+---@field ["on_00"] CasinoTableBet 2
+---@field ["on_1"] CasinoTableBet 3
+---@field ["on_2"] CasinoTableBet 4
+---@field ["on_3"] CasinoTableBet 5
+---@field ["on_4"] CasinoTableBet 6
+---@field ["on_5"] CasinoTableBet 7
+---@field ["on_6"] CasinoTableBet 8
+---@field ["on_7"] CasinoTableBet 9
+---@field ["on_8"] CasinoTableBet 10
+---@field ["on_9"] CasinoTableBet 11
+---@field ["on_10"] CasinoTableBet 12
+---@field ["on_11"] CasinoTableBet 13
+---@field ["on_12"] CasinoTableBet 14
+---@field ["on_13"] CasinoTableBet 15
+---@field ["on_14"] CasinoTableBet 16
+---@field ["on_15"] CasinoTableBet 17
+---@field ["on_16"] CasinoTableBet 18
+---@field ["on_17"] CasinoTableBet 19
+---@field ["on_18"] CasinoTableBet 20
+---@field ["on_19"] CasinoTableBet 21
+---@field ["on_20"] CasinoTableBet 22
+---@field ["on_21"] CasinoTableBet 23
+---@field ["on_22"] CasinoTableBet 24
+---@field ["on_23"] CasinoTableBet 25
+---@field ["on_24"] CasinoTableBet 26
+---@field ["on_25"] CasinoTableBet 27
+---@field ["on_26"] CasinoTableBet 28
+---@field ["on_27"] CasinoTableBet 29
+---@field ["on_28"] CasinoTableBet 30
+---@field ["on_29"] CasinoTableBet 31
+---@field ["on_30"] CasinoTableBet 32
+---@field ["on_31"] CasinoTableBet 33
+---@field ["on_32"] CasinoTableBet 34
+---@field ["on_33"] CasinoTableBet 35
+---@field ["on_34"] CasinoTableBet 36
+---@field ["on_35"] CasinoTableBet 37
+---@field ["on_36"] CasinoTableBet 38
+---@field ["on_manque_1_18"] CasinoTableBet 39
+---@field ["on_passe_19_36"] CasinoTableBet 40
+---@field ["on_red"] CasinoTableBet 41
+---@field ["on_black"] CasinoTableBet 42
+---@field ["on_impair_odd"] CasinoTableBet 43
+---@field ["on_pair_even"] CasinoTableBet 44
+---@field ["on_1st_12"] CasinoTableBet 45
+---@field ["on_2st_12"] CasinoTableBet 46
+---@field ["on_3st_12"] CasinoTableBet 47
+CasinoTableBet = {}

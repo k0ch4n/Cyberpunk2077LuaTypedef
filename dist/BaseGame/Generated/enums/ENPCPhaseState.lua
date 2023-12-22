@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ENPCPhaseState
-ENPCPhaseState = {
-    ["Phase1"] = 0, ---@type Enum
-    ["Phase2"] = 1, ---@type Enum
-    ["Phase3"] = 2, ---@type Enum
-    ["Phase4"] = 3, ---@type Enum
-    ["Phase5"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class ENPCPhaseState: Enum
+---@field ["Phase1"] ENPCPhaseState 0
+---@field ["Phase2"] ENPCPhaseState 1
+---@field ["Phase3"] ENPCPhaseState 2
+---@field ["Phase4"] ENPCPhaseState 3
+---@field ["Phase5"] ENPCPhaseState 4
+---@field ["Invalid"] ENPCPhaseState 5
+ENPCPhaseState = {}

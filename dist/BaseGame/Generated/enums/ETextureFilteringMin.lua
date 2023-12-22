@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETextureFilteringMin
-ETextureFilteringMin = {
-    ["TFMin_Point"] = 0, ---@type Enum
-    ["TFMin_Linear"] = 1, ---@type Enum
-    ["TFMin_Anisotropic"] = 2, ---@type Enum
-    ["TFMin_AnisotropicLow"] = 3, ---@type Enum
-}
+---@class ETextureFilteringMin: Enum
+---@field ["TFMin_Point"] ETextureFilteringMin 0
+---@field ["TFMin_Linear"] ETextureFilteringMin 1
+---@field ["TFMin_Anisotropic"] ETextureFilteringMin 2
+---@field ["TFMin_AnisotropicLow"] ETextureFilteringMin 3
+ETextureFilteringMin = {}

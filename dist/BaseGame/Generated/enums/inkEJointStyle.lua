@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEJointStyle
-inkEJointStyle = {
-    ["MITER"] = 0, ---@type Enum
-    ["BEVEL"] = 1, ---@type Enum
-    ["ROUND"] = 2, ---@type Enum
-}
+---@class inkEJointStyle: Enum
+---@field ["MITER"] inkEJointStyle 0
+---@field ["BEVEL"] inkEJointStyle 1
+---@field ["ROUND"] inkEJointStyle 2
+inkEJointStyle = {}

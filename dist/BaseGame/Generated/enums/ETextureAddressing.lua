@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETextureAddressing
-ETextureAddressing = {
-    ["TA_Wrap"] = 0, ---@type Enum
-    ["TA_Mirror"] = 1, ---@type Enum
-    ["TA_Clamp"] = 2, ---@type Enum
-    ["TA_MirrorOnce"] = 3, ---@type Enum
-    ["TA_Border"] = 4, ---@type Enum
-}
+---@class ETextureAddressing: Enum
+---@field ["TA_Wrap"] ETextureAddressing 0
+---@field ["TA_Mirror"] ETextureAddressing 1
+---@field ["TA_Clamp"] ETextureAddressing 2
+---@field ["TA_MirrorOnce"] ETextureAddressing 3
+---@field ["TA_Border"] ETextureAddressing 4
+ETextureAddressing = {}

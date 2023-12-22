@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsELootChoiceType
-gameinteractionsELootChoiceType = {
-    ["Available"] = 0, ---@type Enum
-    ["Unavailable"] = 1, ---@type Enum
-    ["Invisible"] = 2, ---@type Enum
-}
+---@class gameinteractionsELootChoiceType: Enum
+---@field ["Available"] gameinteractionsELootChoiceType 0
+---@field ["Unavailable"] gameinteractionsELootChoiceType 1
+---@field ["Invisible"] gameinteractionsELootChoiceType 2
+gameinteractionsELootChoiceType = {}

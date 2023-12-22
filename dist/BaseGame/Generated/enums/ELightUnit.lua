@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightUnit
-ELightUnit = {
-    ["LU_Lumen"] = 0, ---@type Enum
-    ["LU_Watt"] = 1, ---@type Enum
-    ["LU_Lux"] = 2, ---@type Enum
-    ["LU_Nit"] = 3, ---@type Enum
-    ["LU_EV100"] = 4, ---@type Enum
-}
+---@class ELightUnit: Enum
+---@field ["LU_Lumen"] ELightUnit 0
+---@field ["LU_Watt"] ELightUnit 1
+---@field ["LU_Lux"] ELightUnit 2
+---@field ["LU_Nit"] ELightUnit 3
+---@field ["LU_EV100"] ELightUnit 4
+ELightUnit = {}

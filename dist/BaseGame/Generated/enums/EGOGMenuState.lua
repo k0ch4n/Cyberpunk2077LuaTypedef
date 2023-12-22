@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGOGMenuState
-EGOGMenuState = {
-    ["None"] = 0, ---@type Enum
-    ["LoadGame"] = 1, ---@type Enum
-    ["MainMenu"] = 2, ---@type Enum
-}
+---@class EGOGMenuState: Enum
+---@field ["None"] EGOGMenuState 0
+---@field ["LoadGame"] EGOGMenuState 1
+---@field ["MainMenu"] EGOGMenuState 2
+EGOGMenuState = {}

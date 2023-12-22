@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioVoBarkType
-audioVoBarkType = {
-    ["None"] = 0, ---@type Enum
-    ["Curse"] = 1, ---@type Enum
-    ["Morale"] = 2, ---@type Enum
-    ["Combat_Aggro"] = 3, ---@type Enum
-    ["Combat_Despair"] = 4, ---@type Enum
-    ["Stealth_Curious"] = 5, ---@type Enum
-}
+---@class audioVoBarkType: Enum
+---@field ["None"] audioVoBarkType 0
+---@field ["Curse"] audioVoBarkType 1
+---@field ["Morale"] audioVoBarkType 2
+---@field ["Combat_Aggro"] audioVoBarkType 3
+---@field ["Combat_Despair"] audioVoBarkType 4
+---@field ["Stealth_Curious"] audioVoBarkType 5
+audioVoBarkType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textTextShapingMethod
-textTextShapingMethod = {
-    ["Auto"] = 0, ---@type Enum
-    ["KerningOnly"] = 1, ---@type Enum
-    ["FullShaping"] = 2, ---@type Enum
-}
+---@class textTextShapingMethod: Enum
+---@field ["Auto"] textTextShapingMethod 0
+---@field ["KerningOnly"] textTextShapingMethod 1
+---@field ["FullShaping"] textTextShapingMethod 2
+textTextShapingMethod = {}

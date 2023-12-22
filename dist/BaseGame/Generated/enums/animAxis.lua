@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAxis
-animAxis = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-    ["NegativeX"] = 3, ---@type Enum
-    ["NegativeY"] = 4, ---@type Enum
-    ["NegativeZ"] = 5, ---@type Enum
-}
+---@class animAxis: Enum
+---@field ["X"] animAxis 0
+---@field ["Y"] animAxis 1
+---@field ["Z"] animAxis 2
+---@field ["NegativeX"] animAxis 3
+---@field ["NegativeY"] animAxis 4
+---@field ["NegativeZ"] animAxis 5
+animAxis = {}

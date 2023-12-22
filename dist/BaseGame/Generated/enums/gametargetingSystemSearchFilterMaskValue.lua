@@ -1,26 +1,25 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gametargetingSystemSearchFilterMaskValue
-gametargetingSystemSearchFilterMaskValue = {
-    ["Obj_Player"] = 1, ---@type Enum
-    ["Obj_Puppet"] = 2, ---@type Enum
-    ["Obj_Sensor"] = 4, ---@type Enum
-    ["Obj_Device"] = 8, ---@type Enum
-    ["Obj_Other"] = 16, ---@type Enum
-    ["Att_Friendly"] = 32, ---@type Enum
-    ["Att_Hostile"] = 64, ---@type Enum
-    ["Att_Neutral"] = 128, ---@type Enum
-    ["Sp_AimAssistEnabled"] = 256, ---@type Enum
-    ["Sp_Aggressive"] = 512, ---@type Enum
-    ["St_Alive"] = 2048, ---@type Enum
-    ["St_Dead"] = 4096, ---@type Enum
-    ["St_NotDefeated"] = 8192, ---@type Enum
-    ["St_Defeated"] = 16384, ---@type Enum
-    ["St_Conscious"] = 32768, ---@type Enum
-    ["St_Unconscious"] = 65536, ---@type Enum
-    ["St_TurnedOn"] = 131072, ---@type Enum
-    ["St_TurnedOff"] = 262144, ---@type Enum
-    ["St_QuickHackable"] = 524288, ---@type Enum
-    ["St_AliveAndActive"] = 174080, ---@type Enum
-}
+---@class gametargetingSystemSearchFilterMaskValue: Enum
+---@field ["Obj_Player"] gametargetingSystemSearchFilterMaskValue 1
+---@field ["Obj_Puppet"] gametargetingSystemSearchFilterMaskValue 2
+---@field ["Obj_Sensor"] gametargetingSystemSearchFilterMaskValue 4
+---@field ["Obj_Device"] gametargetingSystemSearchFilterMaskValue 8
+---@field ["Obj_Other"] gametargetingSystemSearchFilterMaskValue 16
+---@field ["Att_Friendly"] gametargetingSystemSearchFilterMaskValue 32
+---@field ["Att_Hostile"] gametargetingSystemSearchFilterMaskValue 64
+---@field ["Att_Neutral"] gametargetingSystemSearchFilterMaskValue 128
+---@field ["Sp_AimAssistEnabled"] gametargetingSystemSearchFilterMaskValue 256
+---@field ["Sp_Aggressive"] gametargetingSystemSearchFilterMaskValue 512
+---@field ["St_Alive"] gametargetingSystemSearchFilterMaskValue 2048
+---@field ["St_Dead"] gametargetingSystemSearchFilterMaskValue 4096
+---@field ["St_NotDefeated"] gametargetingSystemSearchFilterMaskValue 8192
+---@field ["St_Defeated"] gametargetingSystemSearchFilterMaskValue 16384
+---@field ["St_Conscious"] gametargetingSystemSearchFilterMaskValue 32768
+---@field ["St_Unconscious"] gametargetingSystemSearchFilterMaskValue 65536
+---@field ["St_TurnedOn"] gametargetingSystemSearchFilterMaskValue 131072
+---@field ["St_TurnedOff"] gametargetingSystemSearchFilterMaskValue 262144
+---@field ["St_QuickHackable"] gametargetingSystemSearchFilterMaskValue 524288
+---@field ["St_AliveAndActive"] gametargetingSystemSearchFilterMaskValue 174080
+gametargetingSystemSearchFilterMaskValue = {}

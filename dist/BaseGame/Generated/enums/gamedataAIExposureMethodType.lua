@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAIExposureMethodType
-gamedataAIExposureMethodType = {
-    ["BlindFire"] = 0, ---@type Enum
-    ["Lean"] = 1, ---@type Enum
-    ["StepOut"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataAIExposureMethodType: Enum
+---@field ["BlindFire"] gamedataAIExposureMethodType 0
+---@field ["Lean"] gamedataAIExposureMethodType 1
+---@field ["StepOut"] gamedataAIExposureMethodType 2
+---@field ["Count"] gamedataAIExposureMethodType 3
+---@field ["Invalid"] gamedataAIExposureMethodType 4
+gamedataAIExposureMethodType = {}

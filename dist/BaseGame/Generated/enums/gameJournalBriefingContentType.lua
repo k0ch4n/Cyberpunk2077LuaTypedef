@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameJournalBriefingContentType
-gameJournalBriefingContentType = {
-    ["MapLocation"] = 0, ---@type Enum
-    ["VideoContent"] = 1, ---@type Enum
-    ["Paperdoll"] = 2, ---@type Enum
-}
+---@class gameJournalBriefingContentType: Enum
+---@field ["MapLocation"] gameJournalBriefingContentType 0
+---@field ["VideoContent"] gameJournalBriefingContentType 1
+---@field ["Paperdoll"] gameJournalBriefingContentType 2
+gameJournalBriefingContentType = {}

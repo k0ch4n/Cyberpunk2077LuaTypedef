@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETrapEffects
-ETrapEffects = {
-    ["Explosion"] = 0, ---@type Enum
-    ["Poisoned"] = 1, ---@type Enum
-    ["Bleeding"] = 2, ---@type Enum
-    ["Burning"] = 3, ---@type Enum
-    ["Blind"] = 4, ---@type Enum
-    ["SmokeScreen"] = 5, ---@type Enum
-    ["Stun"] = 6, ---@type Enum
-    ["Unconcious"] = 7, ---@type Enum
-}
+---@class ETrapEffects: Enum
+---@field ["Explosion"] ETrapEffects 0
+---@field ["Poisoned"] ETrapEffects 1
+---@field ["Bleeding"] ETrapEffects 2
+---@field ["Burning"] ETrapEffects 3
+---@field ["Blind"] ETrapEffects 4
+---@field ["SmokeScreen"] ETrapEffects 5
+---@field ["Stun"] ETrapEffects 6
+---@field ["Unconcious"] ETrapEffects 7
+ETrapEffects = {}

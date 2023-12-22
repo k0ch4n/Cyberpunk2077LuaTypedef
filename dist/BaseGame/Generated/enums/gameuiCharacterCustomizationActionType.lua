@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiCharacterCustomizationActionType
-gameuiCharacterCustomizationActionType = {
-    ["Activate"] = 0, ---@type Enum
-    ["Deactivate"] = 1, ---@type Enum
-    ["EquipItem"] = 2, ---@type Enum
-    ["UnequipItem"] = 3, ---@type Enum
-    ["Refresh"] = 4, ---@type Enum
-}
+---@class gameuiCharacterCustomizationActionType: Enum
+---@field ["Activate"] gameuiCharacterCustomizationActionType 0
+---@field ["Deactivate"] gameuiCharacterCustomizationActionType 1
+---@field ["EquipItem"] gameuiCharacterCustomizationActionType 2
+---@field ["UnequipItem"] gameuiCharacterCustomizationActionType 3
+---@field ["Refresh"] gameuiCharacterCustomizationActionType 4
+gameuiCharacterCustomizationActionType = {}

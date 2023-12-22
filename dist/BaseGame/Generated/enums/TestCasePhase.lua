@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TestCasePhase
-TestCasePhase = {
-    ["Setup"] = 0, ---@type Enum
-    ["Body"] = 1, ---@type Enum
-    ["Wrapup"] = 2, ---@type Enum
-}
+---@class TestCasePhase: Enum
+---@field ["Setup"] TestCasePhase 0
+---@field ["Body"] TestCasePhase 1
+---@field ["Wrapup"] TestCasePhase 2
+TestCasePhase = {}

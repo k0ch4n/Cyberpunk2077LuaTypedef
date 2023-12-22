@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEAreaType
-gameEAreaType = {
-    ["NONE"] = 0, ---@type Enum
-    ["LOCATION"] = 1, ---@type Enum
-    ["AFFILIATION"] = 2, ---@type Enum
-    ["COUNT"] = 3, ---@type Enum
-}
+---@class gameEAreaType: Enum
+---@field ["NONE"] gameEAreaType 0
+---@field ["LOCATION"] gameEAreaType 1
+---@field ["AFFILIATION"] gameEAreaType 2
+---@field ["COUNT"] gameEAreaType 3
+gameEAreaType = {}

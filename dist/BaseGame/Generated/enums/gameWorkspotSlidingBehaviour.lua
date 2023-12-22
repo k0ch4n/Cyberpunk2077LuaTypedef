@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameWorkspotSlidingBehaviour
-gameWorkspotSlidingBehaviour = {
-    ["PlayAtResourcePosition"] = 1, ---@type Enum
-    ["DontPlayAtResourcePosition"] = 0, ---@type Enum
-    ["SlideActorAndRotateDevice"] = 2, ---@type Enum
-}
+---@class gameWorkspotSlidingBehaviour: Enum
+---@field ["PlayAtResourcePosition"] gameWorkspotSlidingBehaviour 1
+---@field ["DontPlayAtResourcePosition"] gameWorkspotSlidingBehaviour 0
+---@field ["SlideActorAndRotateDevice"] gameWorkspotSlidingBehaviour 2
+gameWorkspotSlidingBehaviour = {}

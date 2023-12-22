@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMeshShadowImportanceBias
-EMeshShadowImportanceBias = {
-    ["MSIB_EvenLessImportant"] = -2, ---@type Enum
-    ["MSIB_LessImportant"] = -1, ---@type Enum
-    ["MSIB_Default"] = 0, ---@type Enum
-    ["MSIB_MoreImportant"] = 1, ---@type Enum
-    ["MSIB_EvenMoreImportant"] = 2, ---@type Enum
-}
+---@class EMeshShadowImportanceBias: Enum
+---@field ["MSIB_EvenLessImportant"] EMeshShadowImportanceBias -2
+---@field ["MSIB_LessImportant"] EMeshShadowImportanceBias -1
+---@field ["MSIB_Default"] EMeshShadowImportanceBias 0
+---@field ["MSIB_MoreImportant"] EMeshShadowImportanceBias 1
+---@field ["MSIB_EvenMoreImportant"] EMeshShadowImportanceBias 2
+EMeshShadowImportanceBias = {}

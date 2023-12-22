@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldStreamingDataGroup
-worldStreamingDataGroup = {
-    ["Base"] = 0, ---@type Enum
-    ["EP1"] = 1, ---@type Enum
-}
+---@class worldStreamingDataGroup: Enum
+---@field ["Base"] worldStreamingDataGroup 0
+---@field ["EP1"] worldStreamingDataGroup 1
+worldStreamingDataGroup = {}

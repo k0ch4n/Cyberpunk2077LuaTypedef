@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EWorldMapView
-EWorldMapView = {
-    ["Map"] = 0, ---@type Enum
-}
+---@class EWorldMapView: Enum
+---@field ["Map"] EWorldMapView 0
+EWorldMapView = {}

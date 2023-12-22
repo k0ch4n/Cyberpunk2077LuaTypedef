@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSharedInventoryTag
-gameSharedInventoryTag = {
-    ["None"] = 0, ---@type Enum
-    ["PlayerStash"] = 1000000, ---@type Enum
-}
+---@class gameSharedInventoryTag: Enum
+---@field ["None"] gameSharedInventoryTag 0
+---@field ["PlayerStash"] gameSharedInventoryTag 1000000
+gameSharedInventoryTag = {}

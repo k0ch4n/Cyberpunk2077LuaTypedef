@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTickableEventState
-gameTickableEventState = {
-    ["Idle"] = 0, ---@type Enum
-    ["FirstTick"] = 1, ---@type Enum
-    ["NormalTick"] = 2, ---@type Enum
-    ["LastTick"] = 3, ---@type Enum
-    ["Canceled"] = 4, ---@type Enum
-}
+---@class gameTickableEventState: Enum
+---@field ["Idle"] gameTickableEventState 0
+---@field ["FirstTick"] gameTickableEventState 1
+---@field ["NormalTick"] gameTickableEventState 2
+---@field ["LastTick"] gameTickableEventState 3
+---@field ["Canceled"] gameTickableEventState 4
+gameTickableEventState = {}

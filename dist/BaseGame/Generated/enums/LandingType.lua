@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum LandingType
-LandingType = {
-    ["Off"] = 0, ---@type Enum
-    ["Regular"] = 1, ---@type Enum
-    ["Hard"] = 2, ---@type Enum
-    ["VeryHard"] = 3, ---@type Enum
-    ["Superhero"] = 4, ---@type Enum
-    ["Death"] = 5, ---@type Enum
-}
+---@class LandingType: Enum
+---@field ["Off"] LandingType 0
+---@field ["Regular"] LandingType 1
+---@field ["Hard"] LandingType 2
+---@field ["VeryHard"] LandingType 3
+---@field ["Superhero"] LandingType 4
+---@field ["Death"] LandingType 5
+LandingType = {}

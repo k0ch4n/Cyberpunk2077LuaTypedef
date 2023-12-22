@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtLimitDistanceType
-animLookAtLimitDistanceType = {
-    ["Short"] = 0, ---@type Enum
-    ["Normal"] = 1, ---@type Enum
-    ["Long"] = 2, ---@type Enum
-    ["None"] = 3, ---@type Enum
-}
+---@class animLookAtLimitDistanceType: Enum
+---@field ["Short"] animLookAtLimitDistanceType 0
+---@field ["Normal"] animLookAtLimitDistanceType 1
+---@field ["Long"] animLookAtLimitDistanceType 2
+---@field ["None"] animLookAtLimitDistanceType 3
+animLookAtLimitDistanceType = {}

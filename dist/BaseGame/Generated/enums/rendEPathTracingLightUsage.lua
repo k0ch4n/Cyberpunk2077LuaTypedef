@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendEPathTracingLightUsage
-rendEPathTracingLightUsage = {
-    ["PTLU_Everywhere"] = 0, ---@type Enum
-    ["PTLU_OnlyInPathTracing"] = 1, ---@type Enum
-    ["PTLU_ExcludeFromPathTracing"] = 2, ---@type Enum
-}
+---@class rendEPathTracingLightUsage: Enum
+---@field ["PTLU_Everywhere"] rendEPathTracingLightUsage 0
+---@field ["PTLU_OnlyInPathTracing"] rendEPathTracingLightUsage 1
+---@field ["PTLU_ExcludeFromPathTracing"] rendEPathTracingLightUsage 2
+rendEPathTracingLightUsage = {}

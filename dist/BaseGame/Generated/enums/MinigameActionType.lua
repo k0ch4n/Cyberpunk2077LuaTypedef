@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum MinigameActionType
-MinigameActionType = {
-    ["Device"] = 0, ---@type Enum
-    ["NPC"] = 1, ---@type Enum
-    ["Both"] = 2, ---@type Enum
-    ["AccessPoint"] = 3, ---@type Enum
-}
+---@class MinigameActionType: Enum
+---@field ["Device"] MinigameActionType 0
+---@field ["NPC"] MinigameActionType 1
+---@field ["Both"] MinigameActionType 2
+---@field ["AccessPoint"] MinigameActionType 3
+MinigameActionType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkFocusCause
-inkFocusCause = {
-    ["Mouse"] = 0, ---@type Enum
-    ["Navigation"] = 1, ---@type Enum
-    ["SetDirectly"] = 2, ---@type Enum
-    ["Cleared"] = 3, ---@type Enum
-    ["OtherWidgetLostFocus"] = 4, ---@type Enum
-    ["WindowActivate"] = 5, ---@type Enum
-}
+---@class inkFocusCause: Enum
+---@field ["Mouse"] inkFocusCause 0
+---@field ["Navigation"] inkFocusCause 1
+---@field ["SetDirectly"] inkFocusCause 2
+---@field ["Cleared"] inkFocusCause 3
+---@field ["OtherWidgetLostFocus"] inkFocusCause 4
+---@field ["WindowActivate"] inkFocusCause 5
+inkFocusCause = {}

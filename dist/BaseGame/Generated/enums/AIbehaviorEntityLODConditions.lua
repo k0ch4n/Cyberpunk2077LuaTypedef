@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorEntityLODConditions
-AIbehaviorEntityLODConditions = {
-    ["Crowd"] = 0, ---@type Enum
-    ["Cinematic"] = 1, ---@type Enum
-    ["WorkspotStatic"] = 2, ---@type Enum
-}
+---@class AIbehaviorEntityLODConditions: Enum
+---@field ["Crowd"] AIbehaviorEntityLODConditions 0
+---@field ["Cinematic"] AIbehaviorEntityLODConditions 1
+---@field ["WorkspotStatic"] AIbehaviorEntityLODConditions 2
+AIbehaviorEntityLODConditions = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PaperdollPositionAnimation
-PaperdollPositionAnimation = {
-    ["Center"] = 0, ---@type Enum
-    ["Left"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["LeftFullBody"] = 3, ---@type Enum
-}
+---@class PaperdollPositionAnimation: Enum
+---@field ["Center"] PaperdollPositionAnimation 0
+---@field ["Left"] PaperdollPositionAnimation 1
+---@field ["Right"] PaperdollPositionAnimation 2
+---@field ["LeftFullBody"] PaperdollPositionAnimation 3
+PaperdollPositionAnimation = {}

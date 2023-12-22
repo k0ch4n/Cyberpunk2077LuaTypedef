@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RenderDecalOrderPriority
-RenderDecalOrderPriority = {
-    ["Priority0"] = 0, ---@type Enum
-    ["Priority1"] = 1, ---@type Enum
-    ["Priority2"] = 2, ---@type Enum
-    ["Priority3"] = 3, ---@type Enum
-}
+---@class RenderDecalOrderPriority: Enum
+---@field ["Priority0"] RenderDecalOrderPriority 0
+---@field ["Priority1"] RenderDecalOrderPriority 1
+---@field ["Priority2"] RenderDecalOrderPriority 2
+---@field ["Priority3"] RenderDecalOrderPriority 3
+RenderDecalOrderPriority = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animMotionTableType
-animMotionTableType = {
-    ["MTT_None"] = 0, ---@type Enum
-    ["MTT_Walk"] = 1, ---@type Enum
-    ["MTT_Jog"] = 2, ---@type Enum
-    ["MTT_Sprint"] = 3, ---@type Enum
-    ["MTT_Custom"] = 4, ---@type Enum
-}
+---@class animMotionTableType: Enum
+---@field ["MTT_None"] animMotionTableType 0
+---@field ["MTT_Walk"] animMotionTableType 1
+---@field ["MTT_Jog"] animMotionTableType 2
+---@field ["MTT_Sprint"] animMotionTableType 3
+---@field ["MTT_Custom"] animMotionTableType 4
+animMotionTableType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTransformAnimation_RotateOnAxisAxis
-gameTransformAnimation_RotateOnAxisAxis = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-}
+---@class gameTransformAnimation_RotateOnAxisAxis: Enum
+---@field ["X"] gameTransformAnimation_RotateOnAxisAxis 0
+---@field ["Y"] gameTransformAnimation_RotateOnAxisAxis 1
+---@field ["Z"] gameTransformAnimation_RotateOnAxisAxis 2
+gameTransformAnimation_RotateOnAxisAxis = {}

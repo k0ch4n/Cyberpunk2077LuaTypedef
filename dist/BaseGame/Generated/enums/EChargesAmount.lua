@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EChargesAmount
-EChargesAmount = {
-    ["Empty"] = 0, ---@type Enum
-    ["Last"] = 1, ---@type Enum
-    ["FirstFromTop"] = 2, ---@type Enum
-    ["Max"] = 3, ---@type Enum
-}
+---@class EChargesAmount: Enum
+---@field ["Empty"] EChargesAmount 0
+---@field ["Last"] EChargesAmount 1
+---@field ["FirstFromTop"] EChargesAmount 2
+---@field ["Max"] EChargesAmount 3
+EChargesAmount = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveSecureFootingFailureReason
-moveSecureFootingFailureReason = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Filter"] = 1, ---@type Enum
-    ["SimulationType"] = 2, ---@type Enum
-    ["Ground"] = 3, ---@type Enum
-}
+---@class moveSecureFootingFailureReason: Enum
+---@field ["Invalid"] moveSecureFootingFailureReason 0
+---@field ["Filter"] moveSecureFootingFailureReason 1
+---@field ["SimulationType"] moveSecureFootingFailureReason 2
+---@field ["Ground"] moveSecureFootingFailureReason 3
+moveSecureFootingFailureReason = {}

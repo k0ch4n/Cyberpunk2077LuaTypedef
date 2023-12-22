@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum BunkerSystems
-BunkerSystems = {
-    ["ALPHA"] = 0, ---@type Enum
-    ["BRAVO"] = 1, ---@type Enum
-    ["SIERRA"] = 2, ---@type Enum
-    ["VICTOR"] = 3, ---@type Enum
-    ["MAX"] = 4, ---@type Enum
-}
+---@class BunkerSystems: Enum
+---@field ["ALPHA"] BunkerSystems 0
+---@field ["BRAVO"] BunkerSystems 1
+---@field ["SIERRA"] BunkerSystems 2
+---@field ["VICTOR"] BunkerSystems 3
+---@field ["MAX"] BunkerSystems 4
+BunkerSystems = {}

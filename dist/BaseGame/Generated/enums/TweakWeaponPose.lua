@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TweakWeaponPose
-TweakWeaponPose = {
-    ["Nothing"] = 0, ---@type Enum
-    ["Position"] = 1, ---@type Enum
-    ["Rotation"] = 2, ---@type Enum
-}
+---@class TweakWeaponPose: Enum
+---@field ["Nothing"] TweakWeaponPose 0
+---@field ["Position"] TweakWeaponPose 1
+---@field ["Rotation"] TweakWeaponPose 2
+TweakWeaponPose = {}

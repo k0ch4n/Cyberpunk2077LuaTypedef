@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeShooterTriggerType
-gameuiarcadeShooterTriggerType = {
-    ["Delay"] = 0, ---@type Enum
-    ["SpawnerFinish"] = 1, ---@type Enum
-    ["SpawnerObjectsDeath"] = 2, ---@type Enum
-}
+---@class gameuiarcadeShooterTriggerType: Enum
+---@field ["Delay"] gameuiarcadeShooterTriggerType 0
+---@field ["SpawnerFinish"] gameuiarcadeShooterTriggerType 1
+---@field ["SpawnerObjectsDeath"] gameuiarcadeShooterTriggerType 2
+gameuiarcadeShooterTriggerType = {}

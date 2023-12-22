@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDoorSkillcheckSide
-EDoorSkillcheckSide = {
-    ["BOTH"] = 0, ---@type Enum
-    ["ONE"] = 1, ---@type Enum
-    ["TWO"] = 2, ---@type Enum
-}
+---@class EDoorSkillcheckSide: Enum
+---@field ["BOTH"] EDoorSkillcheckSide 0
+---@field ["ONE"] EDoorSkillcheckSide 1
+---@field ["TWO"] EDoorSkillcheckSide 2
+EDoorSkillcheckSide = {}

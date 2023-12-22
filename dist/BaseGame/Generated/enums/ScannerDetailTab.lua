@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ScannerDetailTab
-ScannerDetailTab = {
-    ["Data"] = 0, ---@type Enum
-    ["Hacking"] = 1, ---@type Enum
-}
+---@class ScannerDetailTab: Enum
+---@field ["Data"] ScannerDetailTab 0
+---@field ["Hacking"] ScannerDetailTab 1
+ScannerDetailTab = {}

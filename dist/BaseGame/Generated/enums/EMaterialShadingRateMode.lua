@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMaterialShadingRateMode
-EMaterialShadingRateMode = {
-    ["MSRM_Default"] = 0, ---@type Enum
-    ["MSRM_Disable"] = 1, ---@type Enum
-    ["MSRM_Force2x2"] = 2, ---@type Enum
-}
+---@class EMaterialShadingRateMode: Enum
+---@field ["MSRM_Default"] EMaterialShadingRateMode 0
+---@field ["MSRM_Disable"] EMaterialShadingRateMode 1
+---@field ["MSRM_Force2x2"] EMaterialShadingRateMode 2
+EMaterialShadingRateMode = {}

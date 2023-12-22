@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum locVoiceoverContext
-locVoiceoverContext = {
-    ["Vo_Context_Quest"] = 0, ---@type Enum
-    ["Vo_Context_Community"] = 1, ---@type Enum
-    ["Vo_Context_Combat"] = 2, ---@type Enum
-    ["Vo_Context_Minor_Activity"] = 3, ---@type Enum
-    ["Default_Vo_Context"] = 5, ---@type Enum
-}
+---@class locVoiceoverContext: Enum
+---@field ["Vo_Context_Quest"] locVoiceoverContext 0
+---@field ["Vo_Context_Community"] locVoiceoverContext 1
+---@field ["Vo_Context_Combat"] locVoiceoverContext 2
+---@field ["Vo_Context_Minor_Activity"] locVoiceoverContext 3
+---@field ["Default_Vo_Context"] locVoiceoverContext 5
+locVoiceoverContext = {}

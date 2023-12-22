@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAttackSubtype
-gamedataAttackSubtype = {
-    ["BlockAttack"] = 0, ---@type Enum
-    ["BodySlamAttack"] = 1, ---@type Enum
-    ["ComboAttack"] = 2, ---@type Enum
-    ["CrouchAttack"] = 3, ---@type Enum
-    ["DeflectAttack"] = 4, ---@type Enum
-    ["EquipAttack"] = 5, ---@type Enum
-    ["FinalAttack"] = 6, ---@type Enum
-    ["JumpAttack"] = 7, ---@type Enum
-    ["SafeAttack"] = 8, ---@type Enum
-    ["SprintAttack"] = 9, ---@type Enum
-    ["SpyTreeMeleewareAttack"] = 10, ---@type Enum
-    ["ThrowAttack"] = 11, ---@type Enum
-    ["Count"] = 12, ---@type Enum
-    ["Invalid"] = 13, ---@type Enum
-}
+---@class gamedataAttackSubtype: Enum
+---@field ["BlockAttack"] gamedataAttackSubtype 0
+---@field ["BodySlamAttack"] gamedataAttackSubtype 1
+---@field ["ComboAttack"] gamedataAttackSubtype 2
+---@field ["CrouchAttack"] gamedataAttackSubtype 3
+---@field ["DeflectAttack"] gamedataAttackSubtype 4
+---@field ["EquipAttack"] gamedataAttackSubtype 5
+---@field ["FinalAttack"] gamedataAttackSubtype 6
+---@field ["JumpAttack"] gamedataAttackSubtype 7
+---@field ["SafeAttack"] gamedataAttackSubtype 8
+---@field ["SprintAttack"] gamedataAttackSubtype 9
+---@field ["SpyTreeMeleewareAttack"] gamedataAttackSubtype 10
+---@field ["ThrowAttack"] gamedataAttackSubtype 11
+---@field ["Count"] gamedataAttackSubtype 12
+---@field ["Invalid"] gamedataAttackSubtype 13
+gamedataAttackSubtype = {}

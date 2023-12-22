@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questDrillingState
-questDrillingState = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Started"] = 1, ---@type Enum
-    ["Finished"] = 2, ---@type Enum
-}
+---@class questDrillingState: Enum
+---@field ["Undefined"] questDrillingState 0
+---@field ["Started"] questDrillingState 1
+---@field ["Finished"] questDrillingState 2
+questDrillingState = {}

@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EOperationClassType
-EOperationClassType = {
-    ["Local"] = 0, ---@type Enum
-    ["BaseState"] = 1, ---@type Enum
-    ["DoorState"] = 2, ---@type Enum
-    ["BaseAction"] = 3, ---@type Enum
-    ["CustomActions"] = 4, ---@type Enum
-    ["TriggerVolume"] = 5, ---@type Enum
-    ["Hit"] = 6, ---@type Enum
-    ["InteractionArea"] = 7, ---@type Enum
-    ["Senses"] = 8, ---@type Enum
-    ["FocusMode"] = 9, ---@type Enum
-}
+---@class EOperationClassType: Enum
+---@field ["Local"] EOperationClassType 0
+---@field ["BaseState"] EOperationClassType 1
+---@field ["DoorState"] EOperationClassType 2
+---@field ["BaseAction"] EOperationClassType 3
+---@field ["CustomActions"] EOperationClassType 4
+---@field ["TriggerVolume"] EOperationClassType 5
+---@field ["Hit"] EOperationClassType 6
+---@field ["InteractionArea"] EOperationClassType 7
+---@field ["Senses"] EOperationClassType 8
+---@field ["FocusMode"] EOperationClassType 9
+EOperationClassType = {}

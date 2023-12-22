@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELastUsed
-ELastUsed = {
-    ["Weapon"] = 0, ---@type Enum
-    ["Melee"] = 1, ---@type Enum
-    ["Ranged"] = 2, ---@type Enum
-    ["Heavy"] = 3, ---@type Enum
-}
+---@class ELastUsed: Enum
+---@field ["Weapon"] ELastUsed 0
+---@field ["Melee"] ELastUsed 1
+---@field ["Ranged"] ELastUsed 2
+---@field ["Heavy"] ELastUsed 3
+ELastUsed = {}

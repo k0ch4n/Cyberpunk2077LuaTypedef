@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animQuaternionInterpolationType
-animQuaternionInterpolationType = {
-    ["Linear"] = 0, ---@type Enum
-    ["Spherical"] = 1, ---@type Enum
-}
+---@class animQuaternionInterpolationType: Enum
+---@field ["Linear"] animQuaternionInterpolationType 0
+---@field ["Spherical"] animQuaternionInterpolationType 1
+animQuaternionInterpolationType = {}

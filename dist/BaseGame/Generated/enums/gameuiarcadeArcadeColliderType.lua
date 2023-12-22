@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeArcadeColliderType
-gameuiarcadeArcadeColliderType = {
-    ["Body"] = 0, ---@type Enum
-    ["Up"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["Bottom"] = 3, ---@type Enum
-    ["Left"] = 4, ---@type Enum
-}
+---@class gameuiarcadeArcadeColliderType: Enum
+---@field ["Body"] gameuiarcadeArcadeColliderType 0
+---@field ["Up"] gameuiarcadeArcadeColliderType 1
+---@field ["Right"] gameuiarcadeArcadeColliderType 2
+---@field ["Bottom"] gameuiarcadeArcadeColliderType 3
+---@field ["Left"] gameuiarcadeArcadeColliderType 4
+gameuiarcadeArcadeColliderType = {}

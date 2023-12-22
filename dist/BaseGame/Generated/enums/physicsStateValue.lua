@@ -1,23 +1,22 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsStateValue
-physicsStateValue = {
-    ["Position"] = 1, ---@type Enum
-    ["Rotation"] = 2, ---@type Enum
-    ["Transform"] = 3, ---@type Enum
-    ["LinearVelocity"] = 4, ---@type Enum
-    ["AngularVelocity"] = 5, ---@type Enum
-    ["LinearSpeed"] = 6, ---@type Enum
-    ["TouchesGround"] = 10, ---@type Enum
-    ["TouchesWalls"] = 11, ---@type Enum
-    ["ImpulseAccumulator"] = 12, ---@type Enum
-    ["IsSleeping"] = 13, ---@type Enum
-    ["Mass"] = 16, ---@type Enum
-    ["Volume"] = 18, ---@type Enum
-    ["IsSimulated"] = 20, ---@type Enum
-    ["IsKinematic"] = 21, ---@type Enum
-    ["TimeDeltaOverride"] = 27, ---@type Enum
-    ["SimulationFilter"] = 32, ---@type Enum
-    ["Radius"] = 30, ---@type Enum
-}
+---@class physicsStateValue: Enum
+---@field ["Position"] physicsStateValue 1
+---@field ["Rotation"] physicsStateValue 2
+---@field ["Transform"] physicsStateValue 3
+---@field ["LinearVelocity"] physicsStateValue 4
+---@field ["AngularVelocity"] physicsStateValue 5
+---@field ["LinearSpeed"] physicsStateValue 6
+---@field ["TouchesGround"] physicsStateValue 10
+---@field ["TouchesWalls"] physicsStateValue 11
+---@field ["ImpulseAccumulator"] physicsStateValue 12
+---@field ["IsSleeping"] physicsStateValue 13
+---@field ["Mass"] physicsStateValue 16
+---@field ["Volume"] physicsStateValue 18
+---@field ["IsSimulated"] physicsStateValue 20
+---@field ["IsKinematic"] physicsStateValue 21
+---@field ["TimeDeltaOverride"] physicsStateValue 27
+---@field ["SimulationFilter"] physicsStateValue 32
+---@field ["Radius"] physicsStateValue 30
+physicsStateValue = {}

@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioEventActionType
-audioEventActionType = {
-    ["Play"] = 0, ---@type Enum
-    ["PlayAnimation"] = 1, ---@type Enum
-    ["SetParameter"] = 2, ---@type Enum
-    ["StopSound"] = 3, ---@type Enum
-    ["SetSwitch"] = 4, ---@type Enum
-    ["StopTagged"] = 5, ---@type Enum
-    ["PlayExternal"] = 6, ---@type Enum
-    ["Tag"] = 7, ---@type Enum
-    ["Untag"] = 8, ---@type Enum
-    ["SetAppearanceName"] = 9, ---@type Enum
-    ["SetEntityName"] = 10, ---@type Enum
-    ["AddContainerStreamingPrefetch"] = 11, ---@type Enum
-    ["RemoveContainerStreamingPrefetch"] = 12, ---@type Enum
-}
+---@class audioEventActionType: Enum
+---@field ["Play"] audioEventActionType 0
+---@field ["PlayAnimation"] audioEventActionType 1
+---@field ["SetParameter"] audioEventActionType 2
+---@field ["StopSound"] audioEventActionType 3
+---@field ["SetSwitch"] audioEventActionType 4
+---@field ["StopTagged"] audioEventActionType 5
+---@field ["PlayExternal"] audioEventActionType 6
+---@field ["Tag"] audioEventActionType 7
+---@field ["Untag"] audioEventActionType 8
+---@field ["SetAppearanceName"] audioEventActionType 9
+---@field ["SetEntityName"] audioEventActionType 10
+---@field ["AddContainerStreamingPrefetch"] audioEventActionType 11
+---@field ["RemoveContainerStreamingPrefetch"] audioEventActionType 12
+audioEventActionType = {}

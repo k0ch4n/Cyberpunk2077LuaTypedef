@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLeg
-animLeg = {
-    ["Left"] = 0, ---@type Enum
-    ["Right"] = 1, ---@type Enum
-}
+---@class animLeg: Enum
+---@field ["Left"] animLeg 0
+---@field ["Right"] animLeg 1
+animLeg = {}

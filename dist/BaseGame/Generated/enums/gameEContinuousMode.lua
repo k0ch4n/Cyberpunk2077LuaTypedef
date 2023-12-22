@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEContinuousMode
-gameEContinuousMode = {
-    ["None"] = 0, ---@type Enum
-    ["Start"] = 1, ---@type Enum
-    ["Stop"] = 2, ---@type Enum
-}
+---@class gameEContinuousMode: Enum
+---@field ["None"] gameEContinuousMode 0
+---@field ["Start"] gameEContinuousMode 1
+---@field ["Stop"] gameEContinuousMode 2
+gameEContinuousMode = {}

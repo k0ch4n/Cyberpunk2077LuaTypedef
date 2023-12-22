@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PlayerChangeCameraAndLeaveVehiclePhase
-PlayerChangeCameraAndLeaveVehiclePhase = {
-    ["ToggleCamera"] = 0, ---@type Enum
-    ["ExitVehicle"] = 1, ---@type Enum
-    ["Done"] = 2, ---@type Enum
-}
+---@class PlayerChangeCameraAndLeaveVehiclePhase: Enum
+---@field ["ToggleCamera"] PlayerChangeCameraAndLeaveVehiclePhase 0
+---@field ["ExitVehicle"] PlayerChangeCameraAndLeaveVehiclePhase 1
+---@field ["Done"] PlayerChangeCameraAndLeaveVehiclePhase 2
+PlayerChangeCameraAndLeaveVehiclePhase = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questLogicalOperation
-questLogicalOperation = {
-    ["AND"] = 0, ---@type Enum
-    ["OR"] = 1, ---@type Enum
-    ["XOR"] = 2, ---@type Enum
-    ["NAND"] = 3, ---@type Enum
-    ["NOR"] = 4, ---@type Enum
-    ["NXOR"] = 5, ---@type Enum
-}
+---@class questLogicalOperation: Enum
+---@field ["AND"] questLogicalOperation 0
+---@field ["OR"] questLogicalOperation 1
+---@field ["XOR"] questLogicalOperation 2
+---@field ["NAND"] questLogicalOperation 3
+---@field ["NOR"] questLogicalOperation 4
+---@field ["NXOR"] questLogicalOperation 5
+questLogicalOperation = {}

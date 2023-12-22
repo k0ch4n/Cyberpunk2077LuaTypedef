@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioObstructionTestPattern
-audioObstructionTestPattern = {
-    ["Direct"] = 0, ---@type Enum
-    ["Cone"] = 1, ---@type Enum
-}
+---@class audioObstructionTestPattern: Enum
+---@field ["Direct"] audioObstructionTestPattern 0
+---@field ["Cone"] audioObstructionTestPattern 1
+audioObstructionTestPattern = {}

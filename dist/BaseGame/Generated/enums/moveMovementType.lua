@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveMovementType
-moveMovementType = {
-    ["Walk"] = 0, ---@type Enum
-    ["Run"] = 1, ---@type Enum
-    ["Sprint"] = 2, ---@type Enum
-    ["Strafe"] = 3, ---@type Enum
-    ["Stand"] = 4, ---@type Enum
-}
+---@class moveMovementType: Enum
+---@field ["Walk"] moveMovementType 0
+---@field ["Run"] moveMovementType 1
+---@field ["Sprint"] moveMovementType 2
+---@field ["Strafe"] moveMovementType 3
+---@field ["Stand"] moveMovementType 4
+moveMovementType = {}

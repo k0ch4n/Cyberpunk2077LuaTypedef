@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questGameplayRestrictionAction
-questGameplayRestrictionAction = {
-    ["AddRestriction"] = 0, ---@type Enum
-    ["RemoveRestriction"] = 1, ---@type Enum
-    ["RemoveAllRestrictions"] = 2, ---@type Enum
-}
+---@class questGameplayRestrictionAction: Enum
+---@field ["AddRestriction"] questGameplayRestrictionAction 0
+---@field ["RemoveRestriction"] questGameplayRestrictionAction 1
+---@field ["RemoveAllRestrictions"] questGameplayRestrictionAction 2
+questGameplayRestrictionAction = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameBinkVideoAction
-gameBinkVideoAction = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Start"] = 1, ---@type Enum
-    ["Stop"] = 2, ---@type Enum
-}
+---@class gameBinkVideoAction: Enum
+---@field ["Undefined"] gameBinkVideoAction 0
+---@field ["Start"] gameBinkVideoAction 1
+---@field ["Stop"] gameBinkVideoAction 2
+gameBinkVideoAction = {}

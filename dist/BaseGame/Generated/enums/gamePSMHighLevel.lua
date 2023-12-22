@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMHighLevel
-gamePSMHighLevel = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["SceneTier1"] = 1, ---@type Enum
-    ["SceneTier2"] = 2, ---@type Enum
-    ["SceneTier3"] = 3, ---@type Enum
-    ["SceneTier4"] = 4, ---@type Enum
-    ["SceneTier5"] = 5, ---@type Enum
-    ["Swimming"] = 6, ---@type Enum
-}
+---@class gamePSMHighLevel: Enum
+---@field ["Any"] gamePSMHighLevel -1
+---@field ["Default"] gamePSMHighLevel 0
+---@field ["SceneTier1"] gamePSMHighLevel 1
+---@field ["SceneTier2"] gamePSMHighLevel 2
+---@field ["SceneTier3"] gamePSMHighLevel 3
+---@field ["SceneTier4"] gamePSMHighLevel 4
+---@field ["SceneTier5"] gamePSMHighLevel 5
+---@field ["Swimming"] gamePSMHighLevel 6
+gamePSMHighLevel = {}

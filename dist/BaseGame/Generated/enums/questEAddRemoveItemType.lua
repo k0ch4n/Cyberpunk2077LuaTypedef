@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questEAddRemoveItemType
-questEAddRemoveItemType = {
-    ["AddItem"] = 0, ---@type Enum
-    ["RemoveByItemID"] = 1, ---@type Enum
-    ["RemoveByTag"] = 2, ---@type Enum
-    ["RemoveAll"] = 3, ---@type Enum
-}
+---@class questEAddRemoveItemType: Enum
+---@field ["AddItem"] questEAddRemoveItemType 0
+---@field ["RemoveByItemID"] questEAddRemoveItemType 1
+---@field ["RemoveByTag"] questEAddRemoveItemType 2
+---@field ["RemoveAll"] questEAddRemoveItemType 3
+questEAddRemoveItemType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEBlurDimension
-inkEBlurDimension = {
-    ["Horizontal"] = 0, ---@type Enum
-    ["Vertical"] = 1, ---@type Enum
-}
+---@class inkEBlurDimension: Enum
+---@field ["Horizontal"] inkEBlurDimension 0
+---@field ["Vertical"] inkEBlurDimension 1
+inkEBlurDimension = {}

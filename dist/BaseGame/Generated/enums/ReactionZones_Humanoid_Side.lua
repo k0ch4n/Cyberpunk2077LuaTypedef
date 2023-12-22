@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ReactionZones_Humanoid_Side
-ReactionZones_Humanoid_Side = {
-    ["Head"] = 0, ---@type Enum
-    ["ChestLeft"] = 1, ---@type Enum
-    ["ArmLeft"] = 2, ---@type Enum
-    ["HandLeft"] = 3, ---@type Enum
-    ["ChestRight"] = 4, ---@type Enum
-    ["ArmRight"] = 5, ---@type Enum
-    ["HandRight"] = 6, ---@type Enum
-    ["Abdomen"] = 7, ---@type Enum
-    ["LegLeft"] = 8, ---@type Enum
-    ["LegRight"] = 9, ---@type Enum
-}
+---@class ReactionZones_Humanoid_Side: Enum
+---@field ["Head"] ReactionZones_Humanoid_Side 0
+---@field ["ChestLeft"] ReactionZones_Humanoid_Side 1
+---@field ["ArmLeft"] ReactionZones_Humanoid_Side 2
+---@field ["HandLeft"] ReactionZones_Humanoid_Side 3
+---@field ["ChestRight"] ReactionZones_Humanoid_Side 4
+---@field ["ArmRight"] ReactionZones_Humanoid_Side 5
+---@field ["HandRight"] ReactionZones_Humanoid_Side 6
+---@field ["Abdomen"] ReactionZones_Humanoid_Side 7
+---@field ["LegLeft"] ReactionZones_Humanoid_Side 8
+---@field ["LegRight"] ReactionZones_Humanoid_Side 9
+ReactionZones_Humanoid_Side = {}

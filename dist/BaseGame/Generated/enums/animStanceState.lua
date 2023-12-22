@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animStanceState
-animStanceState = {
-    ["Stand"] = 0, ---@type Enum
-    ["Crouch"] = 1, ---@type Enum
-    ["Kneel"] = 2, ---@type Enum
-    ["Cover"] = 3, ---@type Enum
-    ["Swim"] = 4, ---@type Enum
-    ["Crawl"] = 5, ---@type Enum
-}
+---@class animStanceState: Enum
+---@field ["Stand"] animStanceState 0
+---@field ["Crouch"] animStanceState 1
+---@field ["Kneel"] animStanceState 2
+---@field ["Cover"] animStanceState 3
+---@field ["Swim"] animStanceState 4
+---@field ["Crawl"] animStanceState 5
+animStanceState = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMMelee
-gamePSMMelee = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["Attack"] = 1, ---@type Enum
-    ["Block"] = 2, ---@type Enum
-}
+---@class gamePSMMelee: Enum
+---@field ["Any"] gamePSMMelee -1
+---@field ["Default"] gamePSMMelee 0
+---@field ["Attack"] gamePSMMelee 1
+---@field ["Block"] gamePSMMelee 2
+gamePSMMelee = {}

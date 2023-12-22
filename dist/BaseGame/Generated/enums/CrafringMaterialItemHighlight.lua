@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CrafringMaterialItemHighlight
-CrafringMaterialItemHighlight = {
-    ["None"] = 0, ---@type Enum
-    ["Hover"] = 1, ---@type Enum
-    ["Add"] = 2, ---@type Enum
-    ["Remove"] = 3, ---@type Enum
-}
+---@class CrafringMaterialItemHighlight: Enum
+---@field ["None"] CrafringMaterialItemHighlight 0
+---@field ["Hover"] CrafringMaterialItemHighlight 1
+---@field ["Add"] CrafringMaterialItemHighlight 2
+---@field ["Remove"] CrafringMaterialItemHighlight 3
+CrafringMaterialItemHighlight = {}

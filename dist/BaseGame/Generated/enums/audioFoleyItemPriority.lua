@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioFoleyItemPriority
-audioFoleyItemPriority = {
-    ["P0"] = 0, ---@type Enum
-    ["P1"] = 1, ---@type Enum
-    ["P2"] = 2, ---@type Enum
-    ["P3"] = 3, ---@type Enum
-    ["P4"] = 4, ---@type Enum
-    ["P5"] = 5, ---@type Enum
-    ["P6"] = 6, ---@type Enum
-}
+---@class audioFoleyItemPriority: Enum
+---@field ["P0"] audioFoleyItemPriority 0
+---@field ["P1"] audioFoleyItemPriority 1
+---@field ["P2"] audioFoleyItemPriority 2
+---@field ["P3"] audioFoleyItemPriority 3
+---@field ["P4"] audioFoleyItemPriority 4
+---@field ["P5"] audioFoleyItemPriority 5
+---@field ["P6"] audioFoleyItemPriority 6
+audioFoleyItemPriority = {}

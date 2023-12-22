@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entragdollActivationRequestType
-entragdollActivationRequestType = {
-    ["Default"] = 0, ---@type Enum
-    ["Animated"] = 1, ---@type Enum
-    ["Forced"] = 2, ---@type Enum
-}
+---@class entragdollActivationRequestType: Enum
+---@field ["Default"] entragdollActivationRequestType 0
+---@field ["Animated"] entragdollActivationRequestType 1
+---@field ["Forced"] entragdollActivationRequestType 2
+entragdollActivationRequestType = {}

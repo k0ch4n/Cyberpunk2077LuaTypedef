@@ -1,38 +1,37 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EquipmentManipulationAction
-EquipmentManipulationAction = {
-    ["Undefined"] = 0, ---@type Enum
-    ["RequestActiveMeleeware"] = 1, ---@type Enum
-    ["RequestActiveWeapon"] = 2, ---@type Enum
-    ["RequestSlotActiveWeapon"] = 3, ---@type Enum
-    ["RequestLastUsedWeapon"] = 4, ---@type Enum
-    ["RequestFirstMeleeWeapon"] = 5, ---@type Enum
-    ["RequestLastUsedMeleeWeapon"] = 6, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableWeapon"] = 7, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableRangedWeapon"] = 8, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableMeleeWeapon"] = 9, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableOneHandedRangedWeapon"] = 10, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableDriverCombatRangedWeapon"] = 11, ---@type Enum
-    ["RequestLastUsedOrFirstAvailableDriverCombatBikeWeapon"] = 12, ---@type Enum
-    ["RequestHeavyWeapon"] = 13, ---@type Enum
-    ["CycleWeaponWheelItem"] = 14, ---@type Enum
-    ["CycleNextWeaponWheelItem"] = 15, ---@type Enum
-    ["CyclePreviousWeaponWheelItem"] = 16, ---@type Enum
-    ["RequestConsumable"] = 17, ---@type Enum
-    ["RequestGadget"] = 18, ---@type Enum
-    ["RequestFists"] = 19, ---@type Enum
-    ["RequestLeftHandCyberware"] = 20, ---@type Enum
-    ["UnequipWeapon"] = 21, ---@type Enum
-    ["UnequipConsumable"] = 22, ---@type Enum
-    ["UnequipGadget"] = 23, ---@type Enum
-    ["UnequipLeftHandCyberware"] = 24, ---@type Enum
-    ["UnequipAll"] = 25, ---@type Enum
-    ["ReequipWeapon"] = 26, ---@type Enum
-    ["RequestWeaponSlot1"] = 27, ---@type Enum
-    ["RequestWeaponSlot2"] = 28, ---@type Enum
-    ["RequestWeaponSlot3"] = 29, ---@type Enum
-    ["RequestWeaponSlot4"] = 30, ---@type Enum
-    ["RequestNextThrowableWeapon"] = 31, ---@type Enum
-}
+---@class EquipmentManipulationAction: Enum
+---@field ["Undefined"] EquipmentManipulationAction 0
+---@field ["RequestActiveMeleeware"] EquipmentManipulationAction 1
+---@field ["RequestActiveWeapon"] EquipmentManipulationAction 2
+---@field ["RequestSlotActiveWeapon"] EquipmentManipulationAction 3
+---@field ["RequestLastUsedWeapon"] EquipmentManipulationAction 4
+---@field ["RequestFirstMeleeWeapon"] EquipmentManipulationAction 5
+---@field ["RequestLastUsedMeleeWeapon"] EquipmentManipulationAction 6
+---@field ["RequestLastUsedOrFirstAvailableWeapon"] EquipmentManipulationAction 7
+---@field ["RequestLastUsedOrFirstAvailableRangedWeapon"] EquipmentManipulationAction 8
+---@field ["RequestLastUsedOrFirstAvailableMeleeWeapon"] EquipmentManipulationAction 9
+---@field ["RequestLastUsedOrFirstAvailableOneHandedRangedWeapon"] EquipmentManipulationAction 10
+---@field ["RequestLastUsedOrFirstAvailableDriverCombatRangedWeapon"] EquipmentManipulationAction 11
+---@field ["RequestLastUsedOrFirstAvailableDriverCombatBikeWeapon"] EquipmentManipulationAction 12
+---@field ["RequestHeavyWeapon"] EquipmentManipulationAction 13
+---@field ["CycleWeaponWheelItem"] EquipmentManipulationAction 14
+---@field ["CycleNextWeaponWheelItem"] EquipmentManipulationAction 15
+---@field ["CyclePreviousWeaponWheelItem"] EquipmentManipulationAction 16
+---@field ["RequestConsumable"] EquipmentManipulationAction 17
+---@field ["RequestGadget"] EquipmentManipulationAction 18
+---@field ["RequestFists"] EquipmentManipulationAction 19
+---@field ["RequestLeftHandCyberware"] EquipmentManipulationAction 20
+---@field ["UnequipWeapon"] EquipmentManipulationAction 21
+---@field ["UnequipConsumable"] EquipmentManipulationAction 22
+---@field ["UnequipGadget"] EquipmentManipulationAction 23
+---@field ["UnequipLeftHandCyberware"] EquipmentManipulationAction 24
+---@field ["UnequipAll"] EquipmentManipulationAction 25
+---@field ["ReequipWeapon"] EquipmentManipulationAction 26
+---@field ["RequestWeaponSlot1"] EquipmentManipulationAction 27
+---@field ["RequestWeaponSlot2"] EquipmentManipulationAction 28
+---@field ["RequestWeaponSlot3"] EquipmentManipulationAction 29
+---@field ["RequestWeaponSlot4"] EquipmentManipulationAction 30
+---@field ["RequestNextThrowableWeapon"] EquipmentManipulationAction 31
+EquipmentManipulationAction = {}

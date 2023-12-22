@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsvisInteractionType
-gameinteractionsvisInteractionType = {
-    ["LookAt"] = 0, ---@type Enum
-    ["Proximity"] = 1, ---@type Enum
-}
+---@class gameinteractionsvisInteractionType: Enum
+---@field ["LookAt"] gameinteractionsvisInteractionType 0
+---@field ["Proximity"] gameinteractionsvisInteractionType 1
+gameinteractionsvisInteractionType = {}

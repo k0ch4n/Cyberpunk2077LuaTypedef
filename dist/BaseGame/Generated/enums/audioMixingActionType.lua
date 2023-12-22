@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioMixingActionType
-audioMixingActionType = {
-    ["VoContext"] = 0, ---@type Enum
-    ["EmitterTag"] = 1, ---@type Enum
-    ["SoundTag"] = 2, ---@type Enum
-    ["ActorName"] = 3, ---@type Enum
-    ["DisableCombatVo"] = 4, ---@type Enum
-    ["GlobalParameter"] = 5, ---@type Enum
-}
+---@class audioMixingActionType: Enum
+---@field ["VoContext"] audioMixingActionType 0
+---@field ["EmitterTag"] audioMixingActionType 1
+---@field ["SoundTag"] audioMixingActionType 2
+---@field ["ActorName"] audioMixingActionType 3
+---@field ["DisableCombatVo"] audioMixingActionType 4
+---@field ["GlobalParameter"] audioMixingActionType 5
+audioMixingActionType = {}

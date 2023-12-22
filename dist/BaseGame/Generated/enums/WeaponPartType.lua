@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum WeaponPartType
-WeaponPartType = {
-    ["Scope"] = 0, ---@type Enum
-    ["Magazine"] = 1, ---@type Enum
-    ["Silencer"] = 2, ---@type Enum
-}
+---@class WeaponPartType: Enum
+---@field ["Scope"] WeaponPartType 0
+---@field ["Magazine"] WeaponPartType 1
+---@field ["Silencer"] WeaponPartType 2
+WeaponPartType = {}

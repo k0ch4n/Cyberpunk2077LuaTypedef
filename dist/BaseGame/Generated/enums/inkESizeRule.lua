@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkESizeRule
-inkESizeRule = {
-    ["Fixed"] = 0, ---@type Enum
-    ["Stretch"] = 1, ---@type Enum
-}
+---@class inkESizeRule: Enum
+---@field ["Fixed"] inkESizeRule 0
+---@field ["Stretch"] inkESizeRule 1
+inkESizeRule = {}

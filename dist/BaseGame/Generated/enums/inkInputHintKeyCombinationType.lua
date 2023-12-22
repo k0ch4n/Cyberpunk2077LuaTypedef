@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkInputHintKeyCombinationType
-inkInputHintKeyCombinationType = {
-    ["Or"] = 0, ---@type Enum
-    ["And"] = 1, ---@type Enum
-}
+---@class inkInputHintKeyCombinationType: Enum
+---@field ["Or"] inkInputHintKeyCombinationType 0
+---@field ["And"] inkInputHintKeyCombinationType 1
+inkInputHintKeyCombinationType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiDamageIndicatorMode
-gameuiDamageIndicatorMode = {
-    ["Off"] = 0, ---@type Enum
-    ["DamageOnly"] = 1, ---@type Enum
-    ["On"] = 2, ---@type Enum
-}
+---@class gameuiDamageIndicatorMode: Enum
+---@field ["Off"] gameuiDamageIndicatorMode 0
+---@field ["DamageOnly"] gameuiDamageIndicatorMode 1
+---@field ["On"] gameuiDamageIndicatorMode 2
+gameuiDamageIndicatorMode = {}

@@ -1,25 +1,24 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum IMaterialDataProviderDescEParameterType
-IMaterialDataProviderDescEParameterType = {
-    ["PT_None"] = 0, ---@type Enum
-    ["PT_Texture"] = 1, ---@type Enum
-    ["PT_Color"] = 2, ---@type Enum
-    ["PT_Cube"] = 3, ---@type Enum
-    ["PT_Vector"] = 4, ---@type Enum
-    ["PT_Scalar"] = 5, ---@type Enum
-    ["PT_Bool"] = 6, ---@type Enum
-    ["PT_TextureArray"] = 7, ---@type Enum
-    ["PT_StructBuffer"] = 8, ---@type Enum
-    ["PT_Cpu_NameU64"] = 9, ---@type Enum
-    ["PT_SkinProfile"] = 10, ---@type Enum
-    ["PT_MultilayerSetup"] = 11, ---@type Enum
-    ["PT_MultilayerMask"] = 12, ---@type Enum
-    ["PT_HairProfile"] = 13, ---@type Enum
-    ["PT_FoliageProfile"] = 14, ---@type Enum
-    ["PT_TerrainSetup"] = 15, ---@type Enum
-    ["PT_Gradient"] = 16, ---@type Enum
-    ["PT_DynamicTexture"] = 17, ---@type Enum
-    ["PT_MAX"] = 18, ---@type Enum
-}
+---@class IMaterialDataProviderDescEParameterType: Enum
+---@field ["PT_None"] IMaterialDataProviderDescEParameterType 0
+---@field ["PT_Texture"] IMaterialDataProviderDescEParameterType 1
+---@field ["PT_Color"] IMaterialDataProviderDescEParameterType 2
+---@field ["PT_Cube"] IMaterialDataProviderDescEParameterType 3
+---@field ["PT_Vector"] IMaterialDataProviderDescEParameterType 4
+---@field ["PT_Scalar"] IMaterialDataProviderDescEParameterType 5
+---@field ["PT_Bool"] IMaterialDataProviderDescEParameterType 6
+---@field ["PT_TextureArray"] IMaterialDataProviderDescEParameterType 7
+---@field ["PT_StructBuffer"] IMaterialDataProviderDescEParameterType 8
+---@field ["PT_Cpu_NameU64"] IMaterialDataProviderDescEParameterType 9
+---@field ["PT_SkinProfile"] IMaterialDataProviderDescEParameterType 10
+---@field ["PT_MultilayerSetup"] IMaterialDataProviderDescEParameterType 11
+---@field ["PT_MultilayerMask"] IMaterialDataProviderDescEParameterType 12
+---@field ["PT_HairProfile"] IMaterialDataProviderDescEParameterType 13
+---@field ["PT_FoliageProfile"] IMaterialDataProviderDescEParameterType 14
+---@field ["PT_TerrainSetup"] IMaterialDataProviderDescEParameterType 15
+---@field ["PT_Gradient"] IMaterialDataProviderDescEParameterType 16
+---@field ["PT_DynamicTexture"] IMaterialDataProviderDescEParameterType 17
+---@field ["PT_MAX"] IMaterialDataProviderDescEParameterType 18
+IMaterialDataProviderDescEParameterType = {}

@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiBinkVideoStatus
-gameuiBinkVideoStatus = {
-    ["Idle"] = 0, ---@type Enum
-    ["NotStarted"] = 1, ---@type Enum
-    ["Initializing"] = 2, ---@type Enum
-    ["Playing"] = 3, ---@type Enum
-    ["Finished"] = 4, ---@type Enum
-    ["OutOfFrustum"] = 5, ---@type Enum
-    ["Stopped"] = 6, ---@type Enum
-    ["Error"] = 7, ---@type Enum
-}
+---@class gameuiBinkVideoStatus: Enum
+---@field ["Idle"] gameuiBinkVideoStatus 0
+---@field ["NotStarted"] gameuiBinkVideoStatus 1
+---@field ["Initializing"] gameuiBinkVideoStatus 2
+---@field ["Playing"] gameuiBinkVideoStatus 3
+---@field ["Finished"] gameuiBinkVideoStatus 4
+---@field ["OutOfFrustum"] gameuiBinkVideoStatus 5
+---@field ["Stopped"] gameuiBinkVideoStatus 6
+---@field ["Error"] gameuiBinkVideoStatus 7
+gameuiBinkVideoStatus = {}

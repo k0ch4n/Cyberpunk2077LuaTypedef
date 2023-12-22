@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDoorOpeningType
-EDoorOpeningType = {
-    ["SLIDING_HORIZONTALLY"] = 0, ---@type Enum
-    ["SLIDING_VERTICALLY"] = 1, ---@type Enum
-    ["HINGED"] = 2, ---@type Enum
-    ["GATE"] = 3, ---@type Enum
-    ["HINGED_SIDE_ONE"] = 4, ---@type Enum
-    ["HINGED_SIDE_TWO"] = 5, ---@type Enum
-}
+---@class EDoorOpeningType: Enum
+---@field ["SLIDING_HORIZONTALLY"] EDoorOpeningType 0
+---@field ["SLIDING_VERTICALLY"] EDoorOpeningType 1
+---@field ["HINGED"] EDoorOpeningType 2
+---@field ["GATE"] EDoorOpeningType 3
+---@field ["HINGED_SIDE_ONE"] EDoorOpeningType 4
+---@field ["HINGED_SIDE_TWO"] EDoorOpeningType 5
+EDoorOpeningType = {}

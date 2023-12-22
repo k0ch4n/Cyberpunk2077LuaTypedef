@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMountVehicleType
-questMountVehicleType = {
-    ["Any"] = 0, ---@type Enum
-    ["Car"] = 1, ---@type Enum
-    ["Motorcycle"] = 2, ---@type Enum
-}
+---@class questMountVehicleType: Enum
+---@field ["Any"] questMountVehicleType 0
+---@field ["Car"] questMountVehicleType 1
+---@field ["Motorcycle"] questMountVehicleType 2
+questMountVehicleType = {}

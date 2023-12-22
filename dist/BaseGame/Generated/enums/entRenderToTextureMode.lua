@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entRenderToTextureMode
-entRenderToTextureMode = {
-    ["Shaded"] = 0, ---@type Enum
-    ["GBufferOnly"] = 1, ---@type Enum
-}
+---@class entRenderToTextureMode: Enum
+---@field ["Shaded"] entRenderToTextureMode 0
+---@field ["GBufferOnly"] entRenderToTextureMode 1
+entRenderToTextureMode = {}

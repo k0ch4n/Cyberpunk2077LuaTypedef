@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ENetworkRelation
-ENetworkRelation = {
-    ["MASTER"] = 0, ---@type Enum
-    ["SLAVE"] = 1, ---@type Enum
-    ["NONE"] = 2, ---@type Enum
-}
+---@class ENetworkRelation: Enum
+---@field ["MASTER"] ENetworkRelation 0
+---@field ["SLAVE"] ENetworkRelation 1
+---@field ["NONE"] ENetworkRelation 2
+ENetworkRelation = {}

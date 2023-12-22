@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAICoverAction
-EAICoverAction = {
-    ["StepOut"] = 0, ---@type Enum
-    ["LeanOut"] = 1, ---@type Enum
-    ["StepUp"] = 2, ---@type Enum
-    ["LeanOver"] = 3, ---@type Enum
-    ["Undefined"] = 4, ---@type Enum
-}
+---@class EAICoverAction: Enum
+---@field ["StepOut"] EAICoverAction 0
+---@field ["LeanOut"] EAICoverAction 1
+---@field ["StepUp"] EAICoverAction 2
+---@field ["LeanOver"] EAICoverAction 3
+---@field ["Undefined"] EAICoverAction 4
+EAICoverAction = {}

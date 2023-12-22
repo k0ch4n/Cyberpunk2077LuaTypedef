@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ExtraEffect
-ExtraEffect = {
-    ["AccuracyVirus"] = 0, ---@type Enum
-    ["PeernoidVirus"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class ExtraEffect: Enum
+---@field ["AccuracyVirus"] ExtraEffect 0
+---@field ["PeernoidVirus"] ExtraEffect 1
+---@field ["None"] ExtraEffect 2
+ExtraEffect = {}

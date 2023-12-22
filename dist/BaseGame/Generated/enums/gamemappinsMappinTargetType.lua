@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamemappinsMappinTargetType
-gamemappinsMappinTargetType = {
-    ["World"] = 0, ---@type Enum
-    ["Minimap"] = 1, ---@type Enum
-    ["Map"] = 2, ---@type Enum
-}
+---@class gamemappinsMappinTargetType: Enum
+---@field ["World"] gamemappinsMappinTargetType 0
+---@field ["Minimap"] gamemappinsMappinTargetType 1
+---@field ["Map"] gamemappinsMappinTargetType 2
+gamemappinsMappinTargetType = {}

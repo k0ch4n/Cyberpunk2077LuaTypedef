@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioEchoPositionType
-audioEchoPositionType = {
-    ["DynamicEnvironment"] = 0, ---@type Enum
-    ["Simple"] = 1, ---@type Enum
-}
+---@class audioEchoPositionType: Enum
+---@field ["DynamicEnvironment"] audioEchoPositionType 0
+---@field ["Simple"] audioEchoPositionType 1
+audioEchoPositionType = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMultiplayerAIDirectorFunction
-questMultiplayerAIDirectorFunction = {
-    ["SetStatus"] = 0, ---@type Enum
-    ["SetCurrentPath"] = 1, ---@type Enum
-    ["OverrideScheduleEntry"] = 2, ---@type Enum
-    ["SetCurrentShedule"] = 3, ---@type Enum
-}
+---@class questMultiplayerAIDirectorFunction: Enum
+---@field ["SetStatus"] questMultiplayerAIDirectorFunction 0
+---@field ["SetCurrentPath"] questMultiplayerAIDirectorFunction 1
+---@field ["OverrideScheduleEntry"] questMultiplayerAIDirectorFunction 2
+---@field ["SetCurrentShedule"] questMultiplayerAIDirectorFunction 3
+questMultiplayerAIDirectorFunction = {}

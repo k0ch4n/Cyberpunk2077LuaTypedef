@@ -1,276 +1,275 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EInputKey
-EInputKey = {
-    ["IK_None"] = 0, ---@type Enum
-    ["IK_LeftMouse"] = 1, ---@type Enum
-    ["IK_RightMouse"] = 2, ---@type Enum
-    ["IK_MiddleMouse"] = 3, ---@type Enum
-    ["IK_Unknown04"] = 4, ---@type Enum
-    ["IK_Unknown05"] = 5, ---@type Enum
-    ["IK_Unknown06"] = 6, ---@type Enum
-    ["IK_Unknown07"] = 7, ---@type Enum
-    ["IK_Backspace"] = 8, ---@type Enum
-    ["IK_Tab"] = 9, ---@type Enum
-    ["IK_Unknown0A"] = 10, ---@type Enum
-    ["IK_Unknown0B"] = 11, ---@type Enum
-    ["IK_Unknown0C"] = 12, ---@type Enum
-    ["IK_Enter"] = 13, ---@type Enum
-    ["IK_Unknown0E"] = 14, ---@type Enum
-    ["IK_Unknown0F"] = 15, ---@type Enum
-    ["IK_Shift"] = 16, ---@type Enum
-    ["IK_Ctrl"] = 17, ---@type Enum
-    ["IK_Alt"] = 18, ---@type Enum
-    ["IK_Pause"] = 19, ---@type Enum
-    ["IK_CapsLock"] = 20, ---@type Enum
-    ["IK_Unknown15"] = 21, ---@type Enum
-    ["IK_Unknown16"] = 22, ---@type Enum
-    ["IK_Unknown17"] = 23, ---@type Enum
-    ["IK_Unknown18"] = 24, ---@type Enum
-    ["IK_Unknown19"] = 25, ---@type Enum
-    ["IK_Unknown1A"] = 26, ---@type Enum
-    ["IK_Escape"] = 27, ---@type Enum
-    ["IK_Unknown1C"] = 28, ---@type Enum
-    ["IK_Unknown1D"] = 29, ---@type Enum
-    ["IK_Unknown1E"] = 30, ---@type Enum
-    ["IK_Unknown1F"] = 31, ---@type Enum
-    ["IK_Space"] = 32, ---@type Enum
-    ["IK_PageUp"] = 33, ---@type Enum
-    ["IK_PageDown"] = 34, ---@type Enum
-    ["IK_End"] = 35, ---@type Enum
-    ["IK_Home"] = 36, ---@type Enum
-    ["IK_Left"] = 37, ---@type Enum
-    ["IK_Up"] = 38, ---@type Enum
-    ["IK_Right"] = 39, ---@type Enum
-    ["IK_Down"] = 40, ---@type Enum
-    ["IK_Select"] = 41, ---@type Enum
-    ["IK_Print"] = 42, ---@type Enum
-    ["IK_Execute"] = 43, ---@type Enum
-    ["IK_PrintScrn"] = 44, ---@type Enum
-    ["IK_Insert"] = 45, ---@type Enum
-    ["IK_Delete"] = 46, ---@type Enum
-    ["IK_Help"] = 47, ---@type Enum
-    ["IK_0"] = 48, ---@type Enum
-    ["IK_1"] = 49, ---@type Enum
-    ["IK_2"] = 50, ---@type Enum
-    ["IK_3"] = 51, ---@type Enum
-    ["IK_4"] = 52, ---@type Enum
-    ["IK_5"] = 53, ---@type Enum
-    ["IK_6"] = 54, ---@type Enum
-    ["IK_7"] = 55, ---@type Enum
-    ["IK_8"] = 56, ---@type Enum
-    ["IK_9"] = 57, ---@type Enum
-    ["IK_Unknown3A"] = 58, ---@type Enum
-    ["IK_Unknown3B"] = 59, ---@type Enum
-    ["IK_Unknown3C"] = 60, ---@type Enum
-    ["IK_Unknown3D"] = 61, ---@type Enum
-    ["IK_Unknown3E"] = 62, ---@type Enum
-    ["IK_Unknown3F"] = 63, ---@type Enum
-    ["IK_Unknown40"] = 64, ---@type Enum
-    ["IK_A"] = 65, ---@type Enum
-    ["IK_B"] = 66, ---@type Enum
-    ["IK_C"] = 67, ---@type Enum
-    ["IK_D"] = 68, ---@type Enum
-    ["IK_E"] = 69, ---@type Enum
-    ["IK_F"] = 70, ---@type Enum
-    ["IK_G"] = 71, ---@type Enum
-    ["IK_H"] = 72, ---@type Enum
-    ["IK_I"] = 73, ---@type Enum
-    ["IK_J"] = 74, ---@type Enum
-    ["IK_K"] = 75, ---@type Enum
-    ["IK_L"] = 76, ---@type Enum
-    ["IK_M"] = 77, ---@type Enum
-    ["IK_N"] = 78, ---@type Enum
-    ["IK_O"] = 79, ---@type Enum
-    ["IK_P"] = 80, ---@type Enum
-    ["IK_Q"] = 81, ---@type Enum
-    ["IK_R"] = 82, ---@type Enum
-    ["IK_S"] = 83, ---@type Enum
-    ["IK_T"] = 84, ---@type Enum
-    ["IK_U"] = 85, ---@type Enum
-    ["IK_V"] = 86, ---@type Enum
-    ["IK_W"] = 87, ---@type Enum
-    ["IK_X"] = 88, ---@type Enum
-    ["IK_Y"] = 89, ---@type Enum
-    ["IK_Z"] = 90, ---@type Enum
-    ["IK_Unknown5B"] = 91, ---@type Enum
-    ["IK_Unknown5C"] = 92, ---@type Enum
-    ["IK_Unknown5D"] = 93, ---@type Enum
-    ["IK_Unknown5E"] = 94, ---@type Enum
-    ["IK_Unknown5F"] = 95, ---@type Enum
-    ["IK_NumPad0"] = 96, ---@type Enum
-    ["IK_NumPad1"] = 97, ---@type Enum
-    ["IK_NumPad2"] = 98, ---@type Enum
-    ["IK_NumPad3"] = 99, ---@type Enum
-    ["IK_NumPad4"] = 100, ---@type Enum
-    ["IK_NumPad5"] = 101, ---@type Enum
-    ["IK_NumPad6"] = 102, ---@type Enum
-    ["IK_NumPad7"] = 103, ---@type Enum
-    ["IK_NumPad8"] = 104, ---@type Enum
-    ["IK_NumPad9"] = 105, ---@type Enum
-    ["IK_NumStar"] = 106, ---@type Enum
-    ["IK_NumPlus"] = 107, ---@type Enum
-    ["IK_Separator"] = 108, ---@type Enum
-    ["IK_NumMinus"] = 109, ---@type Enum
-    ["IK_NumPeriod"] = 110, ---@type Enum
-    ["IK_NumSlash"] = 111, ---@type Enum
-    ["IK_F1"] = 112, ---@type Enum
-    ["IK_F2"] = 113, ---@type Enum
-    ["IK_F3"] = 114, ---@type Enum
-    ["IK_F4"] = 115, ---@type Enum
-    ["IK_F5"] = 116, ---@type Enum
-    ["IK_F6"] = 117, ---@type Enum
-    ["IK_F7"] = 118, ---@type Enum
-    ["IK_F8"] = 119, ---@type Enum
-    ["IK_F9"] = 120, ---@type Enum
-    ["IK_F10"] = 121, ---@type Enum
-    ["IK_F11"] = 122, ---@type Enum
-    ["IK_F12"] = 123, ---@type Enum
-    ["IK_F13"] = 124, ---@type Enum
-    ["IK_F14"] = 125, ---@type Enum
-    ["IK_F15"] = 126, ---@type Enum
-    ["IK_F16"] = 127, ---@type Enum
-    ["IK_F17"] = 128, ---@type Enum
-    ["IK_F18"] = 129, ---@type Enum
-    ["IK_F19"] = 130, ---@type Enum
-    ["IK_F20"] = 131, ---@type Enum
-    ["IK_F21"] = 132, ---@type Enum
-    ["IK_F22"] = 133, ---@type Enum
-    ["IK_F23"] = 134, ---@type Enum
-    ["IK_F24"] = 135, ---@type Enum
-    ["IK_Pad_A_CROSS"] = 136, ---@type Enum
-    ["IK_Pad_B_CIRCLE"] = 137, ---@type Enum
-    ["IK_Pad_X_SQUARE"] = 138, ---@type Enum
-    ["IK_Pad_Y_TRIANGLE"] = 139, ---@type Enum
-    ["IK_Pad_Start"] = 140, ---@type Enum
-    ["IK_Pad_Back_Select"] = 141, ---@type Enum
-    ["IK_Pad_DigitUp"] = 142, ---@type Enum
-    ["IK_Pad_DigitDown"] = 143, ---@type Enum
-    ["IK_Pad_DigitLeft"] = 144, ---@type Enum
-    ["IK_Pad_DigitRight"] = 145, ---@type Enum
-    ["IK_Pad_LeftThumb"] = 146, ---@type Enum
-    ["IK_Pad_RightThumb"] = 147, ---@type Enum
-    ["IK_Pad_LeftShoulder"] = 148, ---@type Enum
-    ["IK_Pad_RightShoulder"] = 149, ---@type Enum
-    ["IK_Pad_LeftTrigger"] = 150, ---@type Enum
-    ["IK_Pad_RightTrigger"] = 151, ---@type Enum
-    ["IK_Pad_LeftAxisX"] = 152, ---@type Enum
-    ["IK_Pad_LeftAxisY"] = 153, ---@type Enum
-    ["IK_Pad_RightAxisX"] = 154, ---@type Enum
-    ["IK_Pad_RightAxisY"] = 155, ---@type Enum
-    ["IK_NumLock"] = 156, ---@type Enum
-    ["IK_ScrollLock"] = 157, ---@type Enum
-    ["IK_Unknown9E"] = 158, ---@type Enum
-    ["IK_Unknown9F"] = 159, ---@type Enum
-    ["IK_LShift"] = 160, ---@type Enum
-    ["IK_RShift"] = 161, ---@type Enum
-    ["IK_LControl"] = 162, ---@type Enum
-    ["IK_RControl"] = 163, ---@type Enum
-    ["IK_UnknownA4"] = 164, ---@type Enum
-    ["IK_UnknownA5"] = 165, ---@type Enum
-    ["IK_UnknownA6"] = 166, ---@type Enum
-    ["IK_UnknownA7"] = 167, ---@type Enum
-    ["IK_UnknownA8"] = 168, ---@type Enum
-    ["IK_UnknownA9"] = 169, ---@type Enum
-    ["IK_UnknownAA"] = 170, ---@type Enum
-    ["IK_UnknownAB"] = 171, ---@type Enum
-    ["IK_UnknownAC"] = 172, ---@type Enum
-    ["IK_UnknownAD"] = 173, ---@type Enum
-    ["IK_UnknownAE"] = 174, ---@type Enum
-    ["IK_UnknownAF"] = 175, ---@type Enum
-    ["IK_UnknownB0"] = 176, ---@type Enum
-    ["IK_UnknownB1"] = 177, ---@type Enum
-    ["IK_UnknownB2"] = 178, ---@type Enum
-    ["IK_UnknownB3"] = 179, ---@type Enum
-    ["IK_UnknownB4"] = 180, ---@type Enum
-    ["IK_UnknownB5"] = 181, ---@type Enum
-    ["IK_UnknownB6"] = 182, ---@type Enum
-    ["IK_UnknownB7"] = 183, ---@type Enum
-    ["IK_UnknownB8"] = 184, ---@type Enum
-    ["IK_Unicode"] = 185, ---@type Enum
-    ["IK_Semicolon"] = 186, ---@type Enum
-    ["IK_Equals"] = 187, ---@type Enum
-    ["IK_Comma"] = 188, ---@type Enum
-    ["IK_Minus"] = 189, ---@type Enum
-    ["IK_Period"] = 190, ---@type Enum
-    ["IK_Slash"] = 191, ---@type Enum
-    ["IK_Tilde"] = 192, ---@type Enum
-    ["IK_Mouse4"] = 193, ---@type Enum
-    ["IK_Mouse5"] = 194, ---@type Enum
-    ["IK_Mouse6"] = 195, ---@type Enum
-    ["IK_Mouse7"] = 196, ---@type Enum
-    ["IK_Mouse8"] = 197, ---@type Enum
-    ["IK_UnknownC6"] = 198, ---@type Enum
-    ["IK_UnknownC7"] = 199, ---@type Enum
-    ["IK_Joy1"] = 200, ---@type Enum
-    ["IK_Joy2"] = 201, ---@type Enum
-    ["IK_Joy3"] = 202, ---@type Enum
-    ["IK_Joy4"] = 203, ---@type Enum
-    ["IK_Joy5"] = 204, ---@type Enum
-    ["IK_Joy6"] = 205, ---@type Enum
-    ["IK_Joy7"] = 206, ---@type Enum
-    ["IK_Joy8"] = 207, ---@type Enum
-    ["IK_Joy9"] = 208, ---@type Enum
-    ["IK_Joy10"] = 209, ---@type Enum
-    ["IK_Joy11"] = 210, ---@type Enum
-    ["IK_Joy12"] = 211, ---@type Enum
-    ["IK_Joy13"] = 212, ---@type Enum
-    ["IK_Joy14"] = 213, ---@type Enum
-    ["IK_Joy15"] = 214, ---@type Enum
-    ["IK_Joy16"] = 215, ---@type Enum
-    ["IK_UnknownD8"] = 216, ---@type Enum
-    ["IK_UnknownD9"] = 217, ---@type Enum
-    ["IK_UnknownDA"] = 218, ---@type Enum
-    ["IK_LeftBracket"] = 219, ---@type Enum
-    ["IK_Backslash"] = 220, ---@type Enum
-    ["IK_RightBracket"] = 221, ---@type Enum
-    ["IK_SingleQuote"] = 222, ---@type Enum
-    ["IK_UnknownDF"] = 223, ---@type Enum
-    ["IK_UnknownE0"] = 224, ---@type Enum
-    ["IK_UnknownE1"] = 225, ---@type Enum
-    ["IK_IntlBackslash"] = 226, ---@type Enum
-    ["IK_MouseHover"] = 227, ---@type Enum
-    ["IK_MouseX"] = 228, ---@type Enum
-    ["IK_MouseY"] = 229, ---@type Enum
-    ["IK_MouseZ"] = 230, ---@type Enum
-    ["IK_MouseW"] = 231, ---@type Enum
-    ["IK_JoyU"] = 232, ---@type Enum
-    ["IK_JoyV"] = 233, ---@type Enum
-    ["IK_JoySlider1"] = 234, ---@type Enum
-    ["IK_JoySlider2"] = 235, ---@type Enum
-    ["IK_MouseWheelUp"] = 236, ---@type Enum
-    ["IK_MouseWheelDown"] = 237, ---@type Enum
-    ["IK_UnknownEE"] = 238, ---@type Enum
-    ["IK_UnknownEF"] = 239, ---@type Enum
-    ["IK_JoyX"] = 240, ---@type Enum
-    ["IK_JoyY"] = 241, ---@type Enum
-    ["IK_JoyZ"] = 242, ---@type Enum
-    ["IK_JoyR"] = 243, ---@type Enum
-    ["IK_UnknownF4"] = 244, ---@type Enum
-    ["IK_UnknownF5"] = 245, ---@type Enum
-    ["IK_Attn"] = 246, ---@type Enum
-    ["IK_ClearSel"] = 247, ---@type Enum
-    ["IK_ExSel"] = 248, ---@type Enum
-    ["IK_ErEof"] = 249, ---@type Enum
-    ["IK_Play"] = 250, ---@type Enum
-    ["IK_Zoom"] = 251, ---@type Enum
-    ["IK_NoName"] = 252, ---@type Enum
-    ["IK_UnknownFD"] = 253, ---@type Enum
-    ["IK_UnknownFE"] = 254, ---@type Enum
-    ["IK_PS4_OPTIONS"] = 255, ---@type Enum
-    ["IK_PS4_TOUCH_PRESS"] = 256, ---@type Enum
-    ["IK_Pad_Fake_LeftAxis"] = 262, ---@type Enum
-    ["IK_Pad_Fake_RightAxis"] = 263, ---@type Enum
-    ["IK_Pad_Fake_RelativeLeftAxis"] = 264, ---@type Enum
-    ["IK_Pad_Fake_RelativeRightAxis"] = 265, ---@type Enum
-    ["IK_Pad_Fake_DigitLeftRight"] = 266, ---@type Enum
-    ["IK_Pad_Fake_DigitUpDown"] = 267, ---@type Enum
-    ["IK_STADIA_CAPTURE"] = 268, ---@type Enum
-    ["IK_SWITCH_CAPTURE"] = 269, ---@type Enum
-    ["IK_CAPTURE"] = 270, ---@type Enum
-    ["IK_Last"] = 271, ---@type Enum
-    ["IK_Count"] = 272, ---@type Enum
-    ["IK_Pad_First"] = 136, ---@type Enum
-    ["IK_Pad_Last"] = 155, ---@type Enum
-}
+---@class EInputKey: Enum
+---@field ["IK_None"] EInputKey 0
+---@field ["IK_LeftMouse"] EInputKey 1
+---@field ["IK_RightMouse"] EInputKey 2
+---@field ["IK_MiddleMouse"] EInputKey 3
+---@field ["IK_Unknown04"] EInputKey 4
+---@field ["IK_Unknown05"] EInputKey 5
+---@field ["IK_Unknown06"] EInputKey 6
+---@field ["IK_Unknown07"] EInputKey 7
+---@field ["IK_Backspace"] EInputKey 8
+---@field ["IK_Tab"] EInputKey 9
+---@field ["IK_Unknown0A"] EInputKey 10
+---@field ["IK_Unknown0B"] EInputKey 11
+---@field ["IK_Unknown0C"] EInputKey 12
+---@field ["IK_Enter"] EInputKey 13
+---@field ["IK_Unknown0E"] EInputKey 14
+---@field ["IK_Unknown0F"] EInputKey 15
+---@field ["IK_Shift"] EInputKey 16
+---@field ["IK_Ctrl"] EInputKey 17
+---@field ["IK_Alt"] EInputKey 18
+---@field ["IK_Pause"] EInputKey 19
+---@field ["IK_CapsLock"] EInputKey 20
+---@field ["IK_Unknown15"] EInputKey 21
+---@field ["IK_Unknown16"] EInputKey 22
+---@field ["IK_Unknown17"] EInputKey 23
+---@field ["IK_Unknown18"] EInputKey 24
+---@field ["IK_Unknown19"] EInputKey 25
+---@field ["IK_Unknown1A"] EInputKey 26
+---@field ["IK_Escape"] EInputKey 27
+---@field ["IK_Unknown1C"] EInputKey 28
+---@field ["IK_Unknown1D"] EInputKey 29
+---@field ["IK_Unknown1E"] EInputKey 30
+---@field ["IK_Unknown1F"] EInputKey 31
+---@field ["IK_Space"] EInputKey 32
+---@field ["IK_PageUp"] EInputKey 33
+---@field ["IK_PageDown"] EInputKey 34
+---@field ["IK_End"] EInputKey 35
+---@field ["IK_Home"] EInputKey 36
+---@field ["IK_Left"] EInputKey 37
+---@field ["IK_Up"] EInputKey 38
+---@field ["IK_Right"] EInputKey 39
+---@field ["IK_Down"] EInputKey 40
+---@field ["IK_Select"] EInputKey 41
+---@field ["IK_Print"] EInputKey 42
+---@field ["IK_Execute"] EInputKey 43
+---@field ["IK_PrintScrn"] EInputKey 44
+---@field ["IK_Insert"] EInputKey 45
+---@field ["IK_Delete"] EInputKey 46
+---@field ["IK_Help"] EInputKey 47
+---@field ["IK_0"] EInputKey 48
+---@field ["IK_1"] EInputKey 49
+---@field ["IK_2"] EInputKey 50
+---@field ["IK_3"] EInputKey 51
+---@field ["IK_4"] EInputKey 52
+---@field ["IK_5"] EInputKey 53
+---@field ["IK_6"] EInputKey 54
+---@field ["IK_7"] EInputKey 55
+---@field ["IK_8"] EInputKey 56
+---@field ["IK_9"] EInputKey 57
+---@field ["IK_Unknown3A"] EInputKey 58
+---@field ["IK_Unknown3B"] EInputKey 59
+---@field ["IK_Unknown3C"] EInputKey 60
+---@field ["IK_Unknown3D"] EInputKey 61
+---@field ["IK_Unknown3E"] EInputKey 62
+---@field ["IK_Unknown3F"] EInputKey 63
+---@field ["IK_Unknown40"] EInputKey 64
+---@field ["IK_A"] EInputKey 65
+---@field ["IK_B"] EInputKey 66
+---@field ["IK_C"] EInputKey 67
+---@field ["IK_D"] EInputKey 68
+---@field ["IK_E"] EInputKey 69
+---@field ["IK_F"] EInputKey 70
+---@field ["IK_G"] EInputKey 71
+---@field ["IK_H"] EInputKey 72
+---@field ["IK_I"] EInputKey 73
+---@field ["IK_J"] EInputKey 74
+---@field ["IK_K"] EInputKey 75
+---@field ["IK_L"] EInputKey 76
+---@field ["IK_M"] EInputKey 77
+---@field ["IK_N"] EInputKey 78
+---@field ["IK_O"] EInputKey 79
+---@field ["IK_P"] EInputKey 80
+---@field ["IK_Q"] EInputKey 81
+---@field ["IK_R"] EInputKey 82
+---@field ["IK_S"] EInputKey 83
+---@field ["IK_T"] EInputKey 84
+---@field ["IK_U"] EInputKey 85
+---@field ["IK_V"] EInputKey 86
+---@field ["IK_W"] EInputKey 87
+---@field ["IK_X"] EInputKey 88
+---@field ["IK_Y"] EInputKey 89
+---@field ["IK_Z"] EInputKey 90
+---@field ["IK_Unknown5B"] EInputKey 91
+---@field ["IK_Unknown5C"] EInputKey 92
+---@field ["IK_Unknown5D"] EInputKey 93
+---@field ["IK_Unknown5E"] EInputKey 94
+---@field ["IK_Unknown5F"] EInputKey 95
+---@field ["IK_NumPad0"] EInputKey 96
+---@field ["IK_NumPad1"] EInputKey 97
+---@field ["IK_NumPad2"] EInputKey 98
+---@field ["IK_NumPad3"] EInputKey 99
+---@field ["IK_NumPad4"] EInputKey 100
+---@field ["IK_NumPad5"] EInputKey 101
+---@field ["IK_NumPad6"] EInputKey 102
+---@field ["IK_NumPad7"] EInputKey 103
+---@field ["IK_NumPad8"] EInputKey 104
+---@field ["IK_NumPad9"] EInputKey 105
+---@field ["IK_NumStar"] EInputKey 106
+---@field ["IK_NumPlus"] EInputKey 107
+---@field ["IK_Separator"] EInputKey 108
+---@field ["IK_NumMinus"] EInputKey 109
+---@field ["IK_NumPeriod"] EInputKey 110
+---@field ["IK_NumSlash"] EInputKey 111
+---@field ["IK_F1"] EInputKey 112
+---@field ["IK_F2"] EInputKey 113
+---@field ["IK_F3"] EInputKey 114
+---@field ["IK_F4"] EInputKey 115
+---@field ["IK_F5"] EInputKey 116
+---@field ["IK_F6"] EInputKey 117
+---@field ["IK_F7"] EInputKey 118
+---@field ["IK_F8"] EInputKey 119
+---@field ["IK_F9"] EInputKey 120
+---@field ["IK_F10"] EInputKey 121
+---@field ["IK_F11"] EInputKey 122
+---@field ["IK_F12"] EInputKey 123
+---@field ["IK_F13"] EInputKey 124
+---@field ["IK_F14"] EInputKey 125
+---@field ["IK_F15"] EInputKey 126
+---@field ["IK_F16"] EInputKey 127
+---@field ["IK_F17"] EInputKey 128
+---@field ["IK_F18"] EInputKey 129
+---@field ["IK_F19"] EInputKey 130
+---@field ["IK_F20"] EInputKey 131
+---@field ["IK_F21"] EInputKey 132
+---@field ["IK_F22"] EInputKey 133
+---@field ["IK_F23"] EInputKey 134
+---@field ["IK_F24"] EInputKey 135
+---@field ["IK_Pad_A_CROSS"] EInputKey 136
+---@field ["IK_Pad_B_CIRCLE"] EInputKey 137
+---@field ["IK_Pad_X_SQUARE"] EInputKey 138
+---@field ["IK_Pad_Y_TRIANGLE"] EInputKey 139
+---@field ["IK_Pad_Start"] EInputKey 140
+---@field ["IK_Pad_Back_Select"] EInputKey 141
+---@field ["IK_Pad_DigitUp"] EInputKey 142
+---@field ["IK_Pad_DigitDown"] EInputKey 143
+---@field ["IK_Pad_DigitLeft"] EInputKey 144
+---@field ["IK_Pad_DigitRight"] EInputKey 145
+---@field ["IK_Pad_LeftThumb"] EInputKey 146
+---@field ["IK_Pad_RightThumb"] EInputKey 147
+---@field ["IK_Pad_LeftShoulder"] EInputKey 148
+---@field ["IK_Pad_RightShoulder"] EInputKey 149
+---@field ["IK_Pad_LeftTrigger"] EInputKey 150
+---@field ["IK_Pad_RightTrigger"] EInputKey 151
+---@field ["IK_Pad_LeftAxisX"] EInputKey 152
+---@field ["IK_Pad_LeftAxisY"] EInputKey 153
+---@field ["IK_Pad_RightAxisX"] EInputKey 154
+---@field ["IK_Pad_RightAxisY"] EInputKey 155
+---@field ["IK_NumLock"] EInputKey 156
+---@field ["IK_ScrollLock"] EInputKey 157
+---@field ["IK_Unknown9E"] EInputKey 158
+---@field ["IK_Unknown9F"] EInputKey 159
+---@field ["IK_LShift"] EInputKey 160
+---@field ["IK_RShift"] EInputKey 161
+---@field ["IK_LControl"] EInputKey 162
+---@field ["IK_RControl"] EInputKey 163
+---@field ["IK_UnknownA4"] EInputKey 164
+---@field ["IK_UnknownA5"] EInputKey 165
+---@field ["IK_UnknownA6"] EInputKey 166
+---@field ["IK_UnknownA7"] EInputKey 167
+---@field ["IK_UnknownA8"] EInputKey 168
+---@field ["IK_UnknownA9"] EInputKey 169
+---@field ["IK_UnknownAA"] EInputKey 170
+---@field ["IK_UnknownAB"] EInputKey 171
+---@field ["IK_UnknownAC"] EInputKey 172
+---@field ["IK_UnknownAD"] EInputKey 173
+---@field ["IK_UnknownAE"] EInputKey 174
+---@field ["IK_UnknownAF"] EInputKey 175
+---@field ["IK_UnknownB0"] EInputKey 176
+---@field ["IK_UnknownB1"] EInputKey 177
+---@field ["IK_UnknownB2"] EInputKey 178
+---@field ["IK_UnknownB3"] EInputKey 179
+---@field ["IK_UnknownB4"] EInputKey 180
+---@field ["IK_UnknownB5"] EInputKey 181
+---@field ["IK_UnknownB6"] EInputKey 182
+---@field ["IK_UnknownB7"] EInputKey 183
+---@field ["IK_UnknownB8"] EInputKey 184
+---@field ["IK_Unicode"] EInputKey 185
+---@field ["IK_Semicolon"] EInputKey 186
+---@field ["IK_Equals"] EInputKey 187
+---@field ["IK_Comma"] EInputKey 188
+---@field ["IK_Minus"] EInputKey 189
+---@field ["IK_Period"] EInputKey 190
+---@field ["IK_Slash"] EInputKey 191
+---@field ["IK_Tilde"] EInputKey 192
+---@field ["IK_Mouse4"] EInputKey 193
+---@field ["IK_Mouse5"] EInputKey 194
+---@field ["IK_Mouse6"] EInputKey 195
+---@field ["IK_Mouse7"] EInputKey 196
+---@field ["IK_Mouse8"] EInputKey 197
+---@field ["IK_UnknownC6"] EInputKey 198
+---@field ["IK_UnknownC7"] EInputKey 199
+---@field ["IK_Joy1"] EInputKey 200
+---@field ["IK_Joy2"] EInputKey 201
+---@field ["IK_Joy3"] EInputKey 202
+---@field ["IK_Joy4"] EInputKey 203
+---@field ["IK_Joy5"] EInputKey 204
+---@field ["IK_Joy6"] EInputKey 205
+---@field ["IK_Joy7"] EInputKey 206
+---@field ["IK_Joy8"] EInputKey 207
+---@field ["IK_Joy9"] EInputKey 208
+---@field ["IK_Joy10"] EInputKey 209
+---@field ["IK_Joy11"] EInputKey 210
+---@field ["IK_Joy12"] EInputKey 211
+---@field ["IK_Joy13"] EInputKey 212
+---@field ["IK_Joy14"] EInputKey 213
+---@field ["IK_Joy15"] EInputKey 214
+---@field ["IK_Joy16"] EInputKey 215
+---@field ["IK_UnknownD8"] EInputKey 216
+---@field ["IK_UnknownD9"] EInputKey 217
+---@field ["IK_UnknownDA"] EInputKey 218
+---@field ["IK_LeftBracket"] EInputKey 219
+---@field ["IK_Backslash"] EInputKey 220
+---@field ["IK_RightBracket"] EInputKey 221
+---@field ["IK_SingleQuote"] EInputKey 222
+---@field ["IK_UnknownDF"] EInputKey 223
+---@field ["IK_UnknownE0"] EInputKey 224
+---@field ["IK_UnknownE1"] EInputKey 225
+---@field ["IK_IntlBackslash"] EInputKey 226
+---@field ["IK_MouseHover"] EInputKey 227
+---@field ["IK_MouseX"] EInputKey 228
+---@field ["IK_MouseY"] EInputKey 229
+---@field ["IK_MouseZ"] EInputKey 230
+---@field ["IK_MouseW"] EInputKey 231
+---@field ["IK_JoyU"] EInputKey 232
+---@field ["IK_JoyV"] EInputKey 233
+---@field ["IK_JoySlider1"] EInputKey 234
+---@field ["IK_JoySlider2"] EInputKey 235
+---@field ["IK_MouseWheelUp"] EInputKey 236
+---@field ["IK_MouseWheelDown"] EInputKey 237
+---@field ["IK_UnknownEE"] EInputKey 238
+---@field ["IK_UnknownEF"] EInputKey 239
+---@field ["IK_JoyX"] EInputKey 240
+---@field ["IK_JoyY"] EInputKey 241
+---@field ["IK_JoyZ"] EInputKey 242
+---@field ["IK_JoyR"] EInputKey 243
+---@field ["IK_UnknownF4"] EInputKey 244
+---@field ["IK_UnknownF5"] EInputKey 245
+---@field ["IK_Attn"] EInputKey 246
+---@field ["IK_ClearSel"] EInputKey 247
+---@field ["IK_ExSel"] EInputKey 248
+---@field ["IK_ErEof"] EInputKey 249
+---@field ["IK_Play"] EInputKey 250
+---@field ["IK_Zoom"] EInputKey 251
+---@field ["IK_NoName"] EInputKey 252
+---@field ["IK_UnknownFD"] EInputKey 253
+---@field ["IK_UnknownFE"] EInputKey 254
+---@field ["IK_PS4_OPTIONS"] EInputKey 255
+---@field ["IK_PS4_TOUCH_PRESS"] EInputKey 256
+---@field ["IK_Pad_Fake_LeftAxis"] EInputKey 262
+---@field ["IK_Pad_Fake_RightAxis"] EInputKey 263
+---@field ["IK_Pad_Fake_RelativeLeftAxis"] EInputKey 264
+---@field ["IK_Pad_Fake_RelativeRightAxis"] EInputKey 265
+---@field ["IK_Pad_Fake_DigitLeftRight"] EInputKey 266
+---@field ["IK_Pad_Fake_DigitUpDown"] EInputKey 267
+---@field ["IK_STADIA_CAPTURE"] EInputKey 268
+---@field ["IK_SWITCH_CAPTURE"] EInputKey 269
+---@field ["IK_CAPTURE"] EInputKey 270
+---@field ["IK_Last"] EInputKey 271
+---@field ["IK_Count"] EInputKey 272
+---@field ["IK_Pad_First"] EInputKey 136
+---@field ["IK_Pad_Last"] EInputKey 155
+EInputKey = {}

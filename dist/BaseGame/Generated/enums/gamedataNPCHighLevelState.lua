@@ -1,17 +1,16 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNPCHighLevelState
-gamedataNPCHighLevelState = {
-    ["Alerted"] = 0, ---@type Enum
-    ["Any"] = 1, ---@type Enum
-    ["Combat"] = 2, ---@type Enum
-    ["Dead"] = 3, ---@type Enum
-    ["Fear"] = 4, ---@type Enum
-    ["Relaxed"] = 5, ---@type Enum
-    ["Stealth"] = 6, ---@type Enum
-    ["Unconscious"] = 7, ---@type Enum
-    ["Wounded"] = 8, ---@type Enum
-    ["Count"] = 9, ---@type Enum
-    ["Invalid"] = 10, ---@type Enum
-}
+---@class gamedataNPCHighLevelState: Enum
+---@field ["Alerted"] gamedataNPCHighLevelState 0
+---@field ["Any"] gamedataNPCHighLevelState 1
+---@field ["Combat"] gamedataNPCHighLevelState 2
+---@field ["Dead"] gamedataNPCHighLevelState 3
+---@field ["Fear"] gamedataNPCHighLevelState 4
+---@field ["Relaxed"] gamedataNPCHighLevelState 5
+---@field ["Stealth"] gamedataNPCHighLevelState 6
+---@field ["Unconscious"] gamedataNPCHighLevelState 7
+---@field ["Wounded"] gamedataNPCHighLevelState 8
+---@field ["Count"] gamedataNPCHighLevelState 9
+---@field ["Invalid"] gamedataNPCHighLevelState 10
+gamedataNPCHighLevelState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum MountType
-MountType = {
-    ["Hijack"] = 0, ---@type Enum
-    ["Regular"] = 1, ---@type Enum
-}
+---@class MountType: Enum
+---@field ["Hijack"] MountType 0
+---@field ["Regular"] MountType 1
+MountType = {}

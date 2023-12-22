@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnAudioPlaybackDirectionSupportFlag
-scnAudioPlaybackDirectionSupportFlag = {
-    ["Forward"] = 1, ---@type Enum
-    ["Backward"] = 2, ---@type Enum
-}
+---@class scnAudioPlaybackDirectionSupportFlag: Enum
+---@field ["Forward"] scnAudioPlaybackDirectionSupportFlag 1
+---@field ["Backward"] scnAudioPlaybackDirectionSupportFlag 2
+scnAudioPlaybackDirectionSupportFlag = {}

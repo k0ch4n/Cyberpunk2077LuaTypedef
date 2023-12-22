@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AssertType
-AssertType = {
-    ["EQ"] = 0, ---@type Enum
-    ["NE"] = 1, ---@type Enum
-    ["GT"] = 2, ---@type Enum
-    ["GE"] = 3, ---@type Enum
-    ["LT"] = 4, ---@type Enum
-    ["LE"] = 5, ---@type Enum
-}
+---@class AssertType: Enum
+---@field ["EQ"] AssertType 0
+---@field ["NE"] AssertType 1
+---@field ["GT"] AssertType 2
+---@field ["GE"] AssertType 3
+---@field ["LT"] AssertType 4
+---@field ["LE"] AssertType 5
+AssertType = {}

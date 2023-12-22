@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkCompositionParamType
-inkCompositionParamType = {
-    ["FLOAT"] = 0, ---@type Enum
-    ["VECTOR2"] = 1, ---@type Enum
-}
+---@class inkCompositionParamType: Enum
+---@field ["FLOAT"] inkCompositionParamType 0
+---@field ["VECTOR2"] inkCompositionParamType 1
+inkCompositionParamType = {}

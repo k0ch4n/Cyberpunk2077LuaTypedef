@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMUIState
-gamePSMUIState = {
-    ["None"] = 0, ---@type Enum
-    ["WeaponSelect"] = 1, ---@type Enum
-}
+---@class gamePSMUIState: Enum
+---@field ["None"] gamePSMUIState 0
+---@field ["WeaponSelect"] gamePSMUIState 1
+gamePSMUIState = {}

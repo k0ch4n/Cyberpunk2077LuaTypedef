@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameScriptTaskExecutionStage
-gameScriptTaskExecutionStage = {
-    ["Any"] = 0, ---@type Enum
-    ["PostPhysics"] = 1, ---@type Enum
-}
+---@class gameScriptTaskExecutionStage: Enum
+---@field ["Any"] gameScriptTaskExecutionStage 0
+---@field ["PostPhysics"] gameScriptTaskExecutionStage 1
+gameScriptTaskExecutionStage = {}

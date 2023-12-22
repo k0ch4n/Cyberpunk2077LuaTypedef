@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnReminderConditionProcessStep
-scnReminderConditionProcessStep = {
-    ["ReminderA"] = 0, ---@type Enum
-    ["ReminderB"] = 1, ---@type Enum
-    ["ReminderC"] = 2, ---@type Enum
-    ["Looping"] = 3, ---@type Enum
-}
+---@class scnReminderConditionProcessStep: Enum
+---@field ["ReminderA"] scnReminderConditionProcessStep 0
+---@field ["ReminderB"] scnReminderConditionProcessStep 1
+---@field ["ReminderC"] scnReminderConditionProcessStep 2
+---@field ["Looping"] scnReminderConditionProcessStep 3
+scnReminderConditionProcessStep = {}

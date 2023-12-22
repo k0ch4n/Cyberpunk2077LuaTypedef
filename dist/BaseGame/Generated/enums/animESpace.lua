@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animESpace
-animESpace = {
-    ["Local"] = 0, ---@type Enum
-    ["Model"] = 1, ---@type Enum
-    ["World"] = 2, ---@type Enum
-}
+---@class animESpace: Enum
+---@field ["Local"] animESpace 0
+---@field ["Model"] animESpace 1
+---@field ["World"] animESpace 2
+animESpace = {}

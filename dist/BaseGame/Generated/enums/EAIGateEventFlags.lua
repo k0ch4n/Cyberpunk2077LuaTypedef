@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIGateEventFlags
-EAIGateEventFlags = {
-    ["AIGEF_Undefined"] = 0, ---@type Enum
-    ["AIGEF_OverridesSelf"] = 1, ---@type Enum
-    ["AIGEF_InterruptsSamePriorityTask"] = 2, ---@type Enum
-    ["AIGEF_InterruptsForcedBehavior"] = 3, ---@type Enum
-    ["AIGEF_AcceptsAdditives"] = 4, ---@type Enum
-}
+---@class EAIGateEventFlags: Enum
+---@field ["AIGEF_Undefined"] EAIGateEventFlags 0
+---@field ["AIGEF_OverridesSelf"] EAIGateEventFlags 1
+---@field ["AIGEF_InterruptsSamePriorityTask"] EAIGateEventFlags 2
+---@field ["AIGEF_InterruptsForcedBehavior"] EAIGateEventFlags 3
+---@field ["AIGEF_AcceptsAdditives"] EAIGateEventFlags 4
+EAIGateEventFlags = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightShadowSoftnessMode
-ELightShadowSoftnessMode = {
-    ["LSSM_ExtraSoft"] = 0, ---@type Enum
-    ["LSSM_Soft"] = 1, ---@type Enum
-    ["LSSM_Default"] = 2, ---@type Enum
-    ["LSSM_Sharp"] = 3, ---@type Enum
-    ["LSSM_ExtraSharp"] = 4, ---@type Enum
-}
+---@class ELightShadowSoftnessMode: Enum
+---@field ["LSSM_ExtraSoft"] ELightShadowSoftnessMode 0
+---@field ["LSSM_Soft"] ELightShadowSoftnessMode 1
+---@field ["LSSM_Default"] ELightShadowSoftnessMode 2
+---@field ["LSSM_Sharp"] ELightShadowSoftnessMode 3
+---@field ["LSSM_ExtraSharp"] ELightShadowSoftnessMode 4
+ELightShadowSoftnessMode = {}

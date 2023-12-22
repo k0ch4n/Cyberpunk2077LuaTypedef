@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsMaterialTagAIVisibility
-physicsMaterialTagAIVisibility = {
-    ["None"] = 0, ---@type Enum
-    ["SemiTransparent"] = 1, ---@type Enum
-    ["Transparent"] = 2, ---@type Enum
-}
+---@class physicsMaterialTagAIVisibility: Enum
+---@field ["None"] physicsMaterialTagAIVisibility 0
+---@field ["SemiTransparent"] physicsMaterialTagAIVisibility 1
+---@field ["Transparent"] physicsMaterialTagAIVisibility 2
+physicsMaterialTagAIVisibility = {}

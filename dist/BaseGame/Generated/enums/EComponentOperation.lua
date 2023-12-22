@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EComponentOperation
-EComponentOperation = {
-    ["Enable"] = 0, ---@type Enum
-    ["Disable"] = 1, ---@type Enum
-}
+---@class EComponentOperation: Enum
+---@field ["Enable"] EComponentOperation 0
+---@field ["Disable"] EComponentOperation 1
+EComponentOperation = {}

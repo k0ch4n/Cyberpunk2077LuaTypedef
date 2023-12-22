@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatPoolModifierProperty
-gameStatPoolModifierProperty = {
-    ["RangeBegin"] = 0, ---@type Enum
-    ["RangeEnd"] = 1, ---@type Enum
-    ["StartDelay"] = 2, ---@type Enum
-    ["ValuePerSec"] = 3, ---@type Enum
-    ["Enabled"] = 4, ---@type Enum
-    ["DelayOnChange"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-}
+---@class gameStatPoolModifierProperty: Enum
+---@field ["RangeBegin"] gameStatPoolModifierProperty 0
+---@field ["RangeEnd"] gameStatPoolModifierProperty 1
+---@field ["StartDelay"] gameStatPoolModifierProperty 2
+---@field ["ValuePerSec"] gameStatPoolModifierProperty 3
+---@field ["Enabled"] gameStatPoolModifierProperty 4
+---@field ["DelayOnChange"] gameStatPoolModifierProperty 5
+---@field ["Count"] gameStatPoolModifierProperty 6
+gameStatPoolModifierProperty = {}

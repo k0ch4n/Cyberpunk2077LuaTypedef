@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePlayerStateMachine
-gamePlayerStateMachine = {
-    ["Locomotion"] = 0, ---@type Enum
-    ["UpperBody"] = 1, ---@type Enum
-    ["Weapon"] = 2, ---@type Enum
-    ["HighLevel"] = 3, ---@type Enum
-    ["Projectile"] = 4, ---@type Enum
-    ["Vision"] = 5, ---@type Enum
-    ["TimeDilation"] = 6, ---@type Enum
-    ["CoverAction"] = 7, ---@type Enum
-    ["IconicItem"] = 8, ---@type Enum
-    ["Combat"] = 9, ---@type Enum
-    ["Vehicle"] = 10, ---@type Enum
-    ["Takedown"] = 11, ---@type Enum
-}
+---@class gamePlayerStateMachine: Enum
+---@field ["Locomotion"] gamePlayerStateMachine 0
+---@field ["UpperBody"] gamePlayerStateMachine 1
+---@field ["Weapon"] gamePlayerStateMachine 2
+---@field ["HighLevel"] gamePlayerStateMachine 3
+---@field ["Projectile"] gamePlayerStateMachine 4
+---@field ["Vision"] gamePlayerStateMachine 5
+---@field ["TimeDilation"] gamePlayerStateMachine 6
+---@field ["CoverAction"] gamePlayerStateMachine 7
+---@field ["IconicItem"] gamePlayerStateMachine 8
+---@field ["Combat"] gamePlayerStateMachine 9
+---@field ["Vehicle"] gamePlayerStateMachine 10
+---@field ["Takedown"] gamePlayerStateMachine 11
+gamePlayerStateMachine = {}

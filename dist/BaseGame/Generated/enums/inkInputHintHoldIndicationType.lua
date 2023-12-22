@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkInputHintHoldIndicationType
-inkInputHintHoldIndicationType = {
-    ["FromInputConfig"] = 0, ---@type Enum
-    ["Press"] = 1, ---@type Enum
-    ["Hold"] = 2, ---@type Enum
-}
+---@class inkInputHintHoldIndicationType: Enum
+---@field ["FromInputConfig"] inkInputHintHoldIndicationType 0
+---@field ["Press"] inkInputHintHoldIndicationType 1
+---@field ["Hold"] inkInputHintHoldIndicationType 2
+inkInputHintHoldIndicationType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAimState
-animAimState = {
-    ["Unaimed"] = 0, ---@type Enum
-    ["Aimed"] = 1, ---@type Enum
-}
+---@class animAimState: Enum
+---@field ["Unaimed"] animAimState 0
+---@field ["Aimed"] animAimState 1
+animAimState = {}

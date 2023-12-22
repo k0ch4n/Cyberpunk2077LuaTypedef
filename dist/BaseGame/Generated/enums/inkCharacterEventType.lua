@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkCharacterEventType
-inkCharacterEventType = {
-    ["CharInput"] = 0, ---@type Enum
-    ["MoveCaretForward"] = 1, ---@type Enum
-    ["MoveCaretBackward"] = 2, ---@type Enum
-    ["Delete"] = 3, ---@type Enum
-    ["Backspace"] = 4, ---@type Enum
-}
+---@class inkCharacterEventType: Enum
+---@field ["CharInput"] inkCharacterEventType 0
+---@field ["MoveCaretForward"] inkCharacterEventType 1
+---@field ["MoveCaretBackward"] inkCharacterEventType 2
+---@field ["Delete"] inkCharacterEventType 3
+---@field ["Backspace"] inkCharacterEventType 4
+inkCharacterEventType = {}

@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioTrafficVehicleAudioAction
-audioTrafficVehicleAudioAction = {
-    ["StartEngine"] = 0, ---@type Enum
-    ["StopEngine"] = 1, ---@type Enum
-    ["StartWheel"] = 2, ---@type Enum
-    ["StopWheel"] = 3, ---@type Enum
-    ["StartRainLoop"] = 4, ---@type Enum
-    ["StopRainLoop"] = 5, ---@type Enum
-    ["Horn"] = 6, ---@type Enum
-    ["HornForced"] = 7, ---@type Enum
-    ["DisableAbilityToPlayRadio"] = 8, ---@type Enum
-    ["StartBrakeLoop"] = 9, ---@type Enum
-    ["EndBrakeLoop"] = 10, ---@type Enum
-    ["ApplyBrake"] = 11, ---@type Enum
-    ["ReleaseBrake"] = 12, ---@type Enum
-}
+---@class audioTrafficVehicleAudioAction: Enum
+---@field ["StartEngine"] audioTrafficVehicleAudioAction 0
+---@field ["StopEngine"] audioTrafficVehicleAudioAction 1
+---@field ["StartWheel"] audioTrafficVehicleAudioAction 2
+---@field ["StopWheel"] audioTrafficVehicleAudioAction 3
+---@field ["StartRainLoop"] audioTrafficVehicleAudioAction 4
+---@field ["StopRainLoop"] audioTrafficVehicleAudioAction 5
+---@field ["Horn"] audioTrafficVehicleAudioAction 6
+---@field ["HornForced"] audioTrafficVehicleAudioAction 7
+---@field ["DisableAbilityToPlayRadio"] audioTrafficVehicleAudioAction 8
+---@field ["StartBrakeLoop"] audioTrafficVehicleAudioAction 9
+---@field ["EndBrakeLoop"] audioTrafficVehicleAudioAction 10
+---@field ["ApplyBrake"] audioTrafficVehicleAudioAction 11
+---@field ["ReleaseBrake"] audioTrafficVehicleAudioAction 12
+audioTrafficVehicleAudioAction = {}

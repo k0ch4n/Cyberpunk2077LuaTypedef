@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameDismBodyPart
-gameDismBodyPart = {
-    ["LEFT_LEG"] = 896, ---@type Enum
-    ["RIGHT_LEG"] = 7168, ---@type Enum
-    ["LEFT_ARM"] = 14, ---@type Enum
-    ["RIGHT_ARM"] = 112, ---@type Enum
-    ["HEAD"] = 1, ---@type Enum
-    ["BODY"] = 8192, ---@type Enum
-}
+---@class gameDismBodyPart: Enum
+---@field ["LEFT_LEG"] gameDismBodyPart 896
+---@field ["RIGHT_LEG"] gameDismBodyPart 7168
+---@field ["LEFT_ARM"] gameDismBodyPart 14
+---@field ["RIGHT_ARM"] gameDismBodyPart 112
+---@field ["HEAD"] gameDismBodyPart 1
+---@field ["BODY"] gameDismBodyPart 8192
+gameDismBodyPart = {}

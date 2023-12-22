@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMountingObjectType
-gameMountingObjectType = {
-    ["Invalid"] = -1, ---@type Enum
-    ["Object"] = 0, ---@type Enum
-    ["Vehicle"] = 1, ---@type Enum
-    ["Puppet"] = 2, ---@type Enum
-    ["Platform"] = 3, ---@type Enum
-}
+---@class gameMountingObjectType: Enum
+---@field ["Invalid"] gameMountingObjectType -1
+---@field ["Object"] gameMountingObjectType 0
+---@field ["Vehicle"] gameMountingObjectType 1
+---@field ["Puppet"] gameMountingObjectType 2
+---@field ["Platform"] gameMountingObjectType 3
+gameMountingObjectType = {}

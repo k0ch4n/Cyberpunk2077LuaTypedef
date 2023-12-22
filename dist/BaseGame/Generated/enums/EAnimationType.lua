@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAnimationType
-EAnimationType = {
-    ["REGULAR"] = 0, ---@type Enum
-    ["TRANSFORM"] = 1, ---@type Enum
-    ["TRANSFORM_TWO_SIDES"] = 2, ---@type Enum
-    ["NONE"] = 3, ---@type Enum
-}
+---@class EAnimationType: Enum
+---@field ["REGULAR"] EAnimationType 0
+---@field ["TRANSFORM"] EAnimationType 1
+---@field ["TRANSFORM_TWO_SIDES"] EAnimationType 2
+---@field ["NONE"] EAnimationType 3
+EAnimationType = {}

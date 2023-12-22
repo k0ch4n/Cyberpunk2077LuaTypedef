@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECoverSpecialAction
-ECoverSpecialAction = {
-    ["None"] = 0, ---@type Enum
-    ["Left"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class ECoverSpecialAction: Enum
+---@field ["None"] ECoverSpecialAction 0
+---@field ["Left"] ECoverSpecialAction 1
+---@field ["Right"] ECoverSpecialAction 2
+ECoverSpecialAction = {}

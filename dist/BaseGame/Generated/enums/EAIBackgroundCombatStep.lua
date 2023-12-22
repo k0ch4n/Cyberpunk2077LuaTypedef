@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIBackgroundCombatStep
-EAIBackgroundCombatStep = {
-    ["ChangeCover"] = 0, ---@type Enum
-    ["ChangeTarget"] = 1, ---@type Enum
-}
+---@class EAIBackgroundCombatStep: Enum
+---@field ["ChangeCover"] EAIBackgroundCombatStep 0
+---@field ["ChangeTarget"] EAIBackgroundCombatStep 1
+EAIBackgroundCombatStep = {}

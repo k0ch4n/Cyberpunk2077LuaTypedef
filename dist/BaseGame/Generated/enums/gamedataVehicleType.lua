@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataVehicleType
-gamedataVehicleType = {
-    ["Bike"] = 0, ---@type Enum
-    ["Car"] = 1, ---@type Enum
-    ["Panzer"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataVehicleType: Enum
+---@field ["Bike"] gamedataVehicleType 0
+---@field ["Car"] gamedataVehicleType 1
+---@field ["Panzer"] gamedataVehicleType 2
+---@field ["Count"] gamedataVehicleType 3
+---@field ["Invalid"] gamedataVehicleType 4
+gamedataVehicleType = {}

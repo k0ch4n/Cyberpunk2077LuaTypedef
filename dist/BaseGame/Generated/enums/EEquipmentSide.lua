@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EEquipmentSide
-EEquipmentSide = {
-    ["Left"] = 0, ---@type Enum
-    ["Right"] = 1, ---@type Enum
-}
+---@class EEquipmentSide: Enum
+---@field ["Left"] EEquipmentSide 0
+---@field ["Right"] EEquipmentSide 1
+EEquipmentSide = {}

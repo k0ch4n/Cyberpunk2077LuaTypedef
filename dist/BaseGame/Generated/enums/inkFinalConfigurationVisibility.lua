@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkFinalConfigurationVisibility
-inkFinalConfigurationVisibility = {
-    ["VisibleOnlyInFinal"] = 0, ---@type Enum
-    ["HiddenOnlyInFinal"] = 1, ---@type Enum
-}
+---@class inkFinalConfigurationVisibility: Enum
+---@field ["VisibleOnlyInFinal"] inkFinalConfigurationVisibility 0
+---@field ["HiddenOnlyInFinal"] inkFinalConfigurationVisibility 1
+inkFinalConfigurationVisibility = {}

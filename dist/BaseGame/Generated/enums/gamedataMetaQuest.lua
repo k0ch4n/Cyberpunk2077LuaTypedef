@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataMetaQuest
-gamedataMetaQuest = {
-    ["MetaQuest1"] = 0, ---@type Enum
-    ["MetaQuest2"] = 1, ---@type Enum
-    ["MetaQuest3"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataMetaQuest: Enum
+---@field ["MetaQuest1"] gamedataMetaQuest 0
+---@field ["MetaQuest2"] gamedataMetaQuest 1
+---@field ["MetaQuest3"] gamedataMetaQuest 2
+---@field ["Count"] gamedataMetaQuest 3
+---@field ["Invalid"] gamedataMetaQuest 4
+gamedataMetaQuest = {}

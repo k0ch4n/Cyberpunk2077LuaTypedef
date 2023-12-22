@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataGroupNodeInheritanceState
-gamedataGroupNodeInheritanceState = {
-    ["Unresolved"] = 0, ---@type Enum
-    ["Resolving"] = 1, ---@type Enum
-    ["Resolved"] = 2, ---@type Enum
-}
+---@class gamedataGroupNodeInheritanceState: Enum
+---@field ["Unresolved"] gamedataGroupNodeInheritanceState 0
+---@field ["Resolving"] gamedataGroupNodeInheritanceState 1
+---@field ["Resolved"] gamedataGroupNodeInheritanceState 2
+gamedataGroupNodeInheritanceState = {}

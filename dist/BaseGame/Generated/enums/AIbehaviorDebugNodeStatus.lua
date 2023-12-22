@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorDebugNodeStatus
-AIbehaviorDebugNodeStatus = {
-    ["Undefined"] = 0, ---@type Enum
-    ["NotRunning"] = 1, ---@type Enum
-    ["ForceStopped"] = 2, ---@type Enum
-    ["Running"] = 3, ---@type Enum
-    ["Success"] = 4, ---@type Enum
-    ["Failure"] = 5, ---@type Enum
-}
+---@class AIbehaviorDebugNodeStatus: Enum
+---@field ["Undefined"] AIbehaviorDebugNodeStatus 0
+---@field ["NotRunning"] AIbehaviorDebugNodeStatus 1
+---@field ["ForceStopped"] AIbehaviorDebugNodeStatus 2
+---@field ["Running"] AIbehaviorDebugNodeStatus 3
+---@field ["Success"] AIbehaviorDebugNodeStatus 4
+---@field ["Failure"] AIbehaviorDebugNodeStatus 5
+AIbehaviorDebugNodeStatus = {}

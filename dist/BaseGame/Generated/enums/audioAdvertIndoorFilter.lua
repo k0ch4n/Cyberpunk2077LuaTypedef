@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioAdvertIndoorFilter
-audioAdvertIndoorFilter = {
-    ["Always"] = 0, ---@type Enum
-    ["OnlyIndoor"] = 1, ---@type Enum
-    ["OnlyOutdoor"] = 2, ---@type Enum
-}
+---@class audioAdvertIndoorFilter: Enum
+---@field ["Always"] audioAdvertIndoorFilter 0
+---@field ["OnlyIndoor"] audioAdvertIndoorFilter 1
+---@field ["OnlyOutdoor"] audioAdvertIndoorFilter 2
+audioAdvertIndoorFilter = {}

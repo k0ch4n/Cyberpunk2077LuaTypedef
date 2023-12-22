@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnfppParallaxSpace
-scnfppParallaxSpace = {
-    ["Default"] = 0, ---@type Enum
-    ["Camera"] = 1, ---@type Enum
-    ["Trajectory"] = 2, ---@type Enum
-    ["Chest"] = 3, ---@type Enum
-}
+---@class scnfppParallaxSpace: Enum
+---@field ["Default"] scnfppParallaxSpace 0
+---@field ["Camera"] scnfppParallaxSpace 1
+---@field ["Trajectory"] scnfppParallaxSpace 2
+---@field ["Chest"] scnfppParallaxSpace 3
+scnfppParallaxSpace = {}

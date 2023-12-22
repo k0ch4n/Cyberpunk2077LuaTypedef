@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataIsHackable
-gamedataIsHackable = {
-    ["Always"] = 0, ---@type Enum
-    ["Dynamic"] = 1, ---@type Enum
-    ["Never"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataIsHackable: Enum
+---@field ["Always"] gamedataIsHackable 0
+---@field ["Dynamic"] gamedataIsHackable 1
+---@field ["Never"] gamedataIsHackable 2
+---@field ["Count"] gamedataIsHackable 3
+---@field ["Invalid"] gamedataIsHackable 4
+gamedataIsHackable = {}

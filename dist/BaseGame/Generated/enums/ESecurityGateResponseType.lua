@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESecurityGateResponseType
-ESecurityGateResponseType = {
-    ["AUDIOVISUAL_ONLY"] = 0, ---@type Enum
-    ["SEC_SYS_REPRIMAND"] = 1, ---@type Enum
-    ["SEC_SYS_COMBAT"] = 2, ---@type Enum
-}
+---@class ESecurityGateResponseType: Enum
+---@field ["AUDIOVISUAL_ONLY"] ESecurityGateResponseType 0
+---@field ["SEC_SYS_REPRIMAND"] ESecurityGateResponseType 1
+---@field ["SEC_SYS_COMBAT"] ESecurityGateResponseType 2
+ESecurityGateResponseType = {}

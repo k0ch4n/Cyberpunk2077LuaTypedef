@@ -1,40 +1,39 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ConfigGraphicsQualityLevel
-ConfigGraphicsQualityLevel = {
-    ["Low"] = 0, ---@type Enum
-    ["Medium"] = 1, ---@type Enum
-    ["High"] = 2, ---@type Enum
-    ["Ultra"] = 3, ---@type Enum
-    ["RaytracingLow"] = 5, ---@type Enum
-    ["RaytracingMedium"] = 6, ---@type Enum
-    ["RaytracingUltra"] = 7, ---@type Enum
-    ["RaytracingOverdrive"] = 8, ---@type Enum
-    ["Cinematic"] = 9, ---@type Enum
-    ["Cinematic_Raytracing"] = 10, ---@type Enum
-    ["CinematicEXR"] = 11, ---@type Enum
-    ["CinematicEXR_Raytracing"] = 12, ---@type Enum
-    ["PlayStation4"] = 13, ---@type Enum
-    ["XboxOne"] = 14, ---@type Enum
-    ["PlayStation4Pro"] = 15, ---@type Enum
-    ["XboxOneX"] = 16, ---@type Enum
-    ["PlayStation5_Performance"] = 17, ---@type Enum
-    ["PlayStation5_Quality"] = 18, ---@type Enum
-    ["PlayStation5_Backcompat_Performance"] = 19, ---@type Enum
-    ["PlayStation5_Backcompat_Quality"] = 20, ---@type Enum
-    ["XboxSeriesS_Performance"] = 21, ---@type Enum
-    ["XboxSeriesS_Quality"] = 22, ---@type Enum
-    ["XboxSeriesS_Backcompat"] = 23, ---@type Enum
-    ["XboxSeriesX_Performance"] = 24, ---@type Enum
-    ["XboxSeriesX_Quality"] = 25, ---@type Enum
-    ["XboxSeriesX_Backcompat_Performance"] = 26, ---@type Enum
-    ["XboxSeriesX_Backcompat_Quality"] = 27, ---@type Enum
-    ["SteamDeck"] = 4, ---@type Enum
-    ["SafeMode"] = 30, ---@type Enum
-    ["GeForceNow"] = 28, ---@type Enum
-    ["IconsGeneration"] = 29, ---@type Enum
-    ["Auto"] = 31, ---@type Enum
-    ["GGP_Performance"] = 34, ---@type Enum
-    ["GGP_Quality"] = 35, ---@type Enum
-}
+---@class ConfigGraphicsQualityLevel: Enum
+---@field ["Low"] ConfigGraphicsQualityLevel 0
+---@field ["Medium"] ConfigGraphicsQualityLevel 1
+---@field ["High"] ConfigGraphicsQualityLevel 2
+---@field ["Ultra"] ConfigGraphicsQualityLevel 3
+---@field ["RaytracingLow"] ConfigGraphicsQualityLevel 5
+---@field ["RaytracingMedium"] ConfigGraphicsQualityLevel 6
+---@field ["RaytracingUltra"] ConfigGraphicsQualityLevel 7
+---@field ["RaytracingOverdrive"] ConfigGraphicsQualityLevel 8
+---@field ["Cinematic"] ConfigGraphicsQualityLevel 9
+---@field ["Cinematic_Raytracing"] ConfigGraphicsQualityLevel 10
+---@field ["CinematicEXR"] ConfigGraphicsQualityLevel 11
+---@field ["CinematicEXR_Raytracing"] ConfigGraphicsQualityLevel 12
+---@field ["PlayStation4"] ConfigGraphicsQualityLevel 13
+---@field ["XboxOne"] ConfigGraphicsQualityLevel 14
+---@field ["PlayStation4Pro"] ConfigGraphicsQualityLevel 15
+---@field ["XboxOneX"] ConfigGraphicsQualityLevel 16
+---@field ["PlayStation5_Performance"] ConfigGraphicsQualityLevel 17
+---@field ["PlayStation5_Quality"] ConfigGraphicsQualityLevel 18
+---@field ["PlayStation5_Backcompat_Performance"] ConfigGraphicsQualityLevel 19
+---@field ["PlayStation5_Backcompat_Quality"] ConfigGraphicsQualityLevel 20
+---@field ["XboxSeriesS_Performance"] ConfigGraphicsQualityLevel 21
+---@field ["XboxSeriesS_Quality"] ConfigGraphicsQualityLevel 22
+---@field ["XboxSeriesS_Backcompat"] ConfigGraphicsQualityLevel 23
+---@field ["XboxSeriesX_Performance"] ConfigGraphicsQualityLevel 24
+---@field ["XboxSeriesX_Quality"] ConfigGraphicsQualityLevel 25
+---@field ["XboxSeriesX_Backcompat_Performance"] ConfigGraphicsQualityLevel 26
+---@field ["XboxSeriesX_Backcompat_Quality"] ConfigGraphicsQualityLevel 27
+---@field ["SteamDeck"] ConfigGraphicsQualityLevel 4
+---@field ["SafeMode"] ConfigGraphicsQualityLevel 30
+---@field ["GeForceNow"] ConfigGraphicsQualityLevel 28
+---@field ["IconsGeneration"] ConfigGraphicsQualityLevel 29
+---@field ["Auto"] ConfigGraphicsQualityLevel 31
+---@field ["GGP_Performance"] ConfigGraphicsQualityLevel 34
+---@field ["GGP_Quality"] ConfigGraphicsQualityLevel 35
+ConfigGraphicsQualityLevel = {}

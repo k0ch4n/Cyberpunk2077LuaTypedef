@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETelemetryData
-ETelemetryData = {
-    ["MeleeAttacksMade"] = 0, ---@type Enum
-    ["RangedAttacksMade"] = 1, ---@type Enum
-    ["BluelinesSelected"] = 2, ---@type Enum
-    ["MeleeKills"] = 3, ---@type Enum
-    ["RangedKills"] = 4, ---@type Enum
-    ["QuickHacksMade"] = 5, ---@type Enum
-    ["LegendaryItemsCrafted"] = 6, ---@type Enum
-}
+---@class ETelemetryData: Enum
+---@field ["MeleeAttacksMade"] ETelemetryData 0
+---@field ["RangedAttacksMade"] ETelemetryData 1
+---@field ["BluelinesSelected"] ETelemetryData 2
+---@field ["MeleeKills"] ETelemetryData 3
+---@field ["RangedKills"] ETelemetryData 4
+---@field ["QuickHacksMade"] ETelemetryData 5
+---@field ["LegendaryItemsCrafted"] ETelemetryData 6
+ETelemetryData = {}

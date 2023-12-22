@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataTriggerMode
-gamedataTriggerMode = {
-    ["Burst"] = 0, ---@type Enum
-    ["Charge"] = 1, ---@type Enum
-    ["FullAuto"] = 2, ---@type Enum
-    ["Lock"] = 3, ---@type Enum
-    ["SemiAuto"] = 4, ---@type Enum
-    ["Windup"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataTriggerMode: Enum
+---@field ["Burst"] gamedataTriggerMode 0
+---@field ["Charge"] gamedataTriggerMode 1
+---@field ["FullAuto"] gamedataTriggerMode 2
+---@field ["Lock"] gamedataTriggerMode 3
+---@field ["SemiAuto"] gamedataTriggerMode 4
+---@field ["Windup"] gamedataTriggerMode 5
+---@field ["Count"] gamedataTriggerMode 6
+---@field ["Invalid"] gamedataTriggerMode 7
+gamedataTriggerMode = {}

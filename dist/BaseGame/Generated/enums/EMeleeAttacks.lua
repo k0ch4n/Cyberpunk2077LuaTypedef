@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMeleeAttacks
-EMeleeAttacks = {
-    ["Invalid"] = 0, ---@type Enum
-    ["LightAtk_Left"] = 1, ---@type Enum
-    ["LightAtk_Right"] = 2, ---@type Enum
-    ["ComboAtk_3hits_Part1"] = 3, ---@type Enum
-    ["ComboAtk_3hits_Part2"] = 4, ---@type Enum
-    ["ComboAtk_3hits_Part3"] = 5, ---@type Enum
-    ["ChargeAttack"] = 6, ---@type Enum
-}
+---@class EMeleeAttacks: Enum
+---@field ["Invalid"] EMeleeAttacks 0
+---@field ["LightAtk_Left"] EMeleeAttacks 1
+---@field ["LightAtk_Right"] EMeleeAttacks 2
+---@field ["ComboAtk_3hits_Part1"] EMeleeAttacks 3
+---@field ["ComboAtk_3hits_Part2"] EMeleeAttacks 4
+---@field ["ComboAtk_3hits_Part3"] EMeleeAttacks 5
+---@field ["ChargeAttack"] EMeleeAttacks 6
+EMeleeAttacks = {}

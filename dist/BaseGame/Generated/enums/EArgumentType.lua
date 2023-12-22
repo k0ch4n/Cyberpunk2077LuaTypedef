@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EArgumentType
-EArgumentType = {
-    ["Object"] = 0, ---@type Enum
-    ["CoverID"] = 1, ---@type Enum
-    ["Vector4"] = 2, ---@type Enum
-}
+---@class EArgumentType: Enum
+---@field ["Object"] EArgumentType 0
+---@field ["CoverID"] EArgumentType 1
+---@field ["Vector4"] EArgumentType 2
+EArgumentType = {}

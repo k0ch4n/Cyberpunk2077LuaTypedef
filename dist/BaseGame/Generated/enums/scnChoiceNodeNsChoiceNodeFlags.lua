@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnChoiceNodeNsChoiceNodeFlags
-scnChoiceNodeNsChoiceNodeFlags = {
-    ["IsFocusClue"] = 1, ---@type Enum
-    ["IsValidInteractionFailsafeDisabled"] = 2, ---@type Enum
-}
+---@class scnChoiceNodeNsChoiceNodeFlags: Enum
+---@field ["IsFocusClue"] scnChoiceNodeNsChoiceNodeFlags 1
+---@field ["IsValidInteractionFailsafeDisabled"] scnChoiceNodeNsChoiceNodeFlags 2
+scnChoiceNodeNsChoiceNodeFlags = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendEStreamingObserverMode
-rendEStreamingObserverMode = {
-    ["Point"] = 0, ---@type Enum
-    ["Box"] = 1, ---@type Enum
-}
+---@class rendEStreamingObserverMode: Enum
+---@field ["Point"] rendEStreamingObserverMode 0
+---@field ["Box"] rendEStreamingObserverMode 1
+rendEStreamingObserverMode = {}

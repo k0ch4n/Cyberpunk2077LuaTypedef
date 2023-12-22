@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiEIconOrientation
-gameuiEIconOrientation = {
-    ["Upright"] = 0, ---@type Enum
-    ["Entity"] = 1, ---@type Enum
-}
+---@class gameuiEIconOrientation: Enum
+---@field ["Upright"] gameuiEIconOrientation 0
+---@field ["Entity"] gameuiEIconOrientation 1
+gameuiEIconOrientation = {}

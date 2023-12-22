@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioEntityEmitterContextType
-audioEntityEmitterContextType = {
-    ["Entity Emitter"] = 0, ---@type Enum
-    ["Radio Emitter"] = 2, ---@type Enum
-}
+---@class audioEntityEmitterContextType: Enum
+---@field ["Entity Emitter"] audioEntityEmitterContextType 0
+---@field ["Radio Emitter"] audioEntityEmitterContextType 2
+audioEntityEmitterContextType = {}

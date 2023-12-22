@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GenericMessageNotificationType
-GenericMessageNotificationType = {
-    ["OK"] = 0, ---@type Enum
-    ["Confirm"] = 1, ---@type Enum
-    ["Cancel"] = 2, ---@type Enum
-    ["ConfirmCancel"] = 3, ---@type Enum
-    ["YesNo"] = 4, ---@type Enum
-}
+---@class GenericMessageNotificationType: Enum
+---@field ["OK"] GenericMessageNotificationType 0
+---@field ["Confirm"] GenericMessageNotificationType 1
+---@field ["Cancel"] GenericMessageNotificationType 2
+---@field ["ConfirmCancel"] GenericMessageNotificationType 3
+---@field ["YesNo"] GenericMessageNotificationType 4
+GenericMessageNotificationType = {}

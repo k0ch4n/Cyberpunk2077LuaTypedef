@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum panzerBootupUI
-panzerBootupUI = {
-    ["UnbootedIdle"] = 0, ---@type Enum
-    ["BootingAttempt"] = 1, ---@type Enum
-    ["BootingSuccess"] = 2, ---@type Enum
-    ["Loop"] = 3, ---@type Enum
-}
+---@class panzerBootupUI: Enum
+---@field ["UnbootedIdle"] panzerBootupUI 0
+---@field ["BootingAttempt"] panzerBootupUI 1
+---@field ["BootingSuccess"] panzerBootupUI 2
+---@field ["Loop"] panzerBootupUI 3
+panzerBootupUI = {}

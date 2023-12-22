@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDeviceDurabilityState
-EDeviceDurabilityState = {
-    ["NOMINAL"] = 0, ---@type Enum
-    ["MALFUNCTIONING"] = 1, ---@type Enum
-    ["BROKEN"] = 2, ---@type Enum
-    ["DESTROYED"] = 3, ---@type Enum
-}
+---@class EDeviceDurabilityState: Enum
+---@field ["NOMINAL"] EDeviceDurabilityState 0
+---@field ["MALFUNCTIONING"] EDeviceDurabilityState 1
+---@field ["BROKEN"] EDeviceDurabilityState 2
+---@field ["DESTROYED"] EDeviceDurabilityState 3
+EDeviceDurabilityState = {}

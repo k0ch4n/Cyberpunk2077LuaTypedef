@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TransferSaveState
-TransferSaveState = {
-    ["ExportConfirmation"] = 0, ---@type Enum
-    ["ExportSpinner"] = 1, ---@type Enum
-    ["ExportSuccess"] = 2, ---@type Enum
-    ["ExportFailed"] = 3, ---@type Enum
-    ["ImportSpinner"] = 4, ---@type Enum
-    ["ImportLoading"] = 5, ---@type Enum
-    ["ImportNoSave"] = 6, ---@type Enum
-    ["ImportFailed"] = 7, ---@type Enum
-    ["ImportNotEnoughSpace"] = 8, ---@type Enum
-}
+---@class TransferSaveState: Enum
+---@field ["ExportConfirmation"] TransferSaveState 0
+---@field ["ExportSpinner"] TransferSaveState 1
+---@field ["ExportSuccess"] TransferSaveState 2
+---@field ["ExportFailed"] TransferSaveState 3
+---@field ["ImportSpinner"] TransferSaveState 4
+---@field ["ImportLoading"] TransferSaveState 5
+---@field ["ImportNoSave"] TransferSaveState 6
+---@field ["ImportFailed"] TransferSaveState 7
+---@field ["ImportNotEnoughSpace"] TransferSaveState 8
+TransferSaveState = {}

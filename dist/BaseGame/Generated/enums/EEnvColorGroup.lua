@@ -1,24 +1,23 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EEnvColorGroup
-EEnvColorGroup = {
-    ["ECG_Default"] = 0, ---@type Enum
-    ["ECG_Sky"] = 1, ---@type Enum
-    ["ECG_Group0"] = 2, ---@type Enum
-    ["ECG_Group1"] = 3, ---@type Enum
-    ["ECG_Group2"] = 4, ---@type Enum
-    ["ECG_Group3"] = 5, ---@type Enum
-    ["ECG_Group4"] = 6, ---@type Enum
-    ["ECG_Group5"] = 7, ---@type Enum
-    ["ECG_Group6"] = 8, ---@type Enum
-    ["ECG_Group7"] = 9, ---@type Enum
-    ["ECG_Group8"] = 10, ---@type Enum
-    ["ECG_Group9"] = 11, ---@type Enum
-    ["ECG_Group10"] = 12, ---@type Enum
-    ["ECG_Group11"] = 13, ---@type Enum
-    ["ECG_Group12"] = 14, ---@type Enum
-    ["ECG_Group13"] = 15, ---@type Enum
-    ["ECG_Group14"] = 16, ---@type Enum
-    ["ECG_Group15"] = 17, ---@type Enum
-}
+---@class EEnvColorGroup: Enum
+---@field ["ECG_Default"] EEnvColorGroup 0
+---@field ["ECG_Sky"] EEnvColorGroup 1
+---@field ["ECG_Group0"] EEnvColorGroup 2
+---@field ["ECG_Group1"] EEnvColorGroup 3
+---@field ["ECG_Group2"] EEnvColorGroup 4
+---@field ["ECG_Group3"] EEnvColorGroup 5
+---@field ["ECG_Group4"] EEnvColorGroup 6
+---@field ["ECG_Group5"] EEnvColorGroup 7
+---@field ["ECG_Group6"] EEnvColorGroup 8
+---@field ["ECG_Group7"] EEnvColorGroup 9
+---@field ["ECG_Group8"] EEnvColorGroup 10
+---@field ["ECG_Group9"] EEnvColorGroup 11
+---@field ["ECG_Group10"] EEnvColorGroup 12
+---@field ["ECG_Group11"] EEnvColorGroup 13
+---@field ["ECG_Group12"] EEnvColorGroup 14
+---@field ["ECG_Group13"] EEnvColorGroup 15
+---@field ["ECG_Group14"] EEnvColorGroup 16
+---@field ["ECG_Group15"] EEnvColorGroup 17
+EEnvColorGroup = {}

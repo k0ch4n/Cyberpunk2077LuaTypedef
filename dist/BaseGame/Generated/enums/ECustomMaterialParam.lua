@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECustomMaterialParam
-ECustomMaterialParam = {
-    ["ECMP_CustomParam0"] = 1, ---@type Enum
-    ["ECMP_CustomParam1"] = 2, ---@type Enum
-    ["ECMP_CustomParam2"] = 4, ---@type Enum
-    ["ECMP_CustomParam3"] = 8, ---@type Enum
-    ["ECMP_CustomParam4"] = 16, ---@type Enum
-    ["ECMP_CustomParam5"] = 32, ---@type Enum
-    ["ECMP_CustomParam6"] = 64, ---@type Enum
-}
+---@class ECustomMaterialParam: Enum
+---@field ["ECMP_CustomParam0"] ECustomMaterialParam 1
+---@field ["ECMP_CustomParam1"] ECustomMaterialParam 2
+---@field ["ECMP_CustomParam2"] ECustomMaterialParam 4
+---@field ["ECMP_CustomParam3"] ECustomMaterialParam 8
+---@field ["ECMP_CustomParam4"] ECustomMaterialParam 16
+---@field ["ECMP_CustomParam5"] ECustomMaterialParam 32
+---@field ["ECMP_CustomParam6"] ECustomMaterialParam 64
+ECustomMaterialParam = {}

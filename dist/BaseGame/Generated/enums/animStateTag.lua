@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animStateTag
-animStateTag = {
-    ["ST_Invalid"] = 0, ---@type Enum
-    ["Idle"] = 1, ---@type Enum
-    ["Cover"] = 2, ---@type Enum
-}
+---@class animStateTag: Enum
+---@field ["ST_Invalid"] animStateTag 0
+---@field ["Idle"] animStateTag 1
+---@field ["Cover"] animStateTag 2
+animStateTag = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GpuWrapApieTextureType
-GpuWrapApieTextureType = {
-    ["TEXTYPE_2D"] = 0, ---@type Enum
-    ["TEXTYPE_CUBE"] = 1, ---@type Enum
-    ["TEXTYPE_ARRAY"] = 2, ---@type Enum
-    ["TEXTYPE_3D"] = 3, ---@type Enum
-}
+---@class GpuWrapApieTextureType: Enum
+---@field ["TEXTYPE_2D"] GpuWrapApieTextureType 0
+---@field ["TEXTYPE_CUBE"] GpuWrapApieTextureType 1
+---@field ["TEXTYPE_ARRAY"] GpuWrapApieTextureType 2
+---@field ["TEXTYPE_3D"] GpuWrapApieTextureType 3
+GpuWrapApieTextureType = {}

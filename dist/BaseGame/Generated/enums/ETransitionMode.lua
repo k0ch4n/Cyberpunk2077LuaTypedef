@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETransitionMode
-ETransitionMode = {
-    ["GENTLE"] = 0, ---@type Enum
-    ["FORCED"] = 1, ---@type Enum
-}
+---@class ETransitionMode: Enum
+---@field ["GENTLE"] ETransitionMode 0
+---@field ["FORCED"] ETransitionMode 1
+ETransitionMode = {}

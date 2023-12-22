@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RenderSceneLayer
-RenderSceneLayer = {
-    ["Default"] = 0, ---@type Enum
-    ["Cyberspace"] = 1, ---@type Enum
-    ["WorldMap"] = 2, ---@type Enum
-}
+---@class RenderSceneLayer: Enum
+---@field ["Default"] RenderSceneLayer 0
+---@field ["Cyberspace"] RenderSceneLayer 1
+---@field ["WorldMap"] RenderSceneLayer 2
+RenderSceneLayer = {}

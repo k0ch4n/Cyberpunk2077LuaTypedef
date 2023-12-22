@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleCoolExitImpulseLevel
-vehicleCoolExitImpulseLevel = {
-    ["NoExit"] = 0, ---@type Enum
-    ["NoImpulse"] = 1, ---@type Enum
-    ["LowImpulse"] = 2, ---@type Enum
-    ["MaxImpulse"] = 3, ---@type Enum
-}
+---@class vehicleCoolExitImpulseLevel: Enum
+---@field ["NoExit"] vehicleCoolExitImpulseLevel 0
+---@field ["NoImpulse"] vehicleCoolExitImpulseLevel 1
+---@field ["LowImpulse"] vehicleCoolExitImpulseLevel 2
+---@field ["MaxImpulse"] vehicleCoolExitImpulseLevel 3
+vehicleCoolExitImpulseLevel = {}

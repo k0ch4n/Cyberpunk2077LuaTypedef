@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scndevEventType
-scndevEventType = {
-    ["NodeFailed"] = 1, ---@type Enum
-    ["DebugMessage"] = 0, ---@type Enum
-    ["NodeProgressSet"] = 2, ---@type Enum
-}
+---@class scndevEventType: Enum
+---@field ["NodeFailed"] scndevEventType 1
+---@field ["DebugMessage"] scndevEventType 0
+---@field ["NodeProgressSet"] scndevEventType 2
+scndevEventType = {}

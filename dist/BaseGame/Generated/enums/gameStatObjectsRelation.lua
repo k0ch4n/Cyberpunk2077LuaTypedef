@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatObjectsRelation
-gameStatObjectsRelation = {
-    ["Self"] = 0, ---@type Enum
-    ["Owner"] = 1, ---@type Enum
-    ["Root"] = 2, ---@type Enum
-    ["Parent"] = 3, ---@type Enum
-    ["Target"] = 4, ---@type Enum
-    ["Player"] = 5, ---@type Enum
-    ["Instigator"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 9, ---@type Enum
-}
+---@class gameStatObjectsRelation: Enum
+---@field ["Self"] gameStatObjectsRelation 0
+---@field ["Owner"] gameStatObjectsRelation 1
+---@field ["Root"] gameStatObjectsRelation 2
+---@field ["Parent"] gameStatObjectsRelation 3
+---@field ["Target"] gameStatObjectsRelation 4
+---@field ["Player"] gameStatObjectsRelation 5
+---@field ["Instigator"] gameStatObjectsRelation 6
+---@field ["Count"] gameStatObjectsRelation 7
+---@field ["Invalid"] gameStatObjectsRelation 9
+gameStatObjectsRelation = {}

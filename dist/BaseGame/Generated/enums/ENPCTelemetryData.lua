@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ENPCTelemetryData
-ENPCTelemetryData = {
-    ["HitByLightAttack"] = 0, ---@type Enum
-    ["HitByStrongAttack"] = 1, ---@type Enum
-    ["HitByFinalComboAttack"] = 2, ---@type Enum
-    ["HitByBlockAttack"] = 3, ---@type Enum
-    ["BlockedAttack"] = 4, ---@type Enum
-    ["DeflectedAttack"] = 5, ---@type Enum
-    ["WasGuardBreaked"] = 6, ---@type Enum
-}
+---@class ENPCTelemetryData: Enum
+---@field ["HitByLightAttack"] ENPCTelemetryData 0
+---@field ["HitByStrongAttack"] ENPCTelemetryData 1
+---@field ["HitByFinalComboAttack"] ENPCTelemetryData 2
+---@field ["HitByBlockAttack"] ENPCTelemetryData 3
+---@field ["BlockedAttack"] ENPCTelemetryData 4
+---@field ["DeflectedAttack"] ENPCTelemetryData 5
+---@field ["WasGuardBreaked"] ENPCTelemetryData 6
+ENPCTelemetryData = {}

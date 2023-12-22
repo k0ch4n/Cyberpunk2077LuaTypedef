@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vgEStyleAttributeType
-vgEStyleAttributeType = {
-    ["FillColor"] = 0, ---@type Enum
-    ["StrokeColor"] = 1, ---@type Enum
-    ["StrokeSize"] = 2, ---@type Enum
-    ["StrokeMiterLimit"] = 3, ---@type Enum
-    ["FontFamily"] = 4, ---@type Enum
-    ["FontSize"] = 5, ---@type Enum
-}
+---@class vgEStyleAttributeType: Enum
+---@field ["FillColor"] vgEStyleAttributeType 0
+---@field ["StrokeColor"] vgEStyleAttributeType 1
+---@field ["StrokeSize"] vgEStyleAttributeType 2
+---@field ["StrokeMiterLimit"] vgEStyleAttributeType 3
+---@field ["FontFamily"] vgEStyleAttributeType 4
+---@field ["FontSize"] vgEStyleAttributeType 5
+vgEStyleAttributeType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CustomWeaponWheelSlot
-CustomWeaponWheelSlot = {
-    ["FreeHands"] = 0, ---@type Enum
-    ["Fists"] = 1, ---@type Enum
-}
+---@class CustomWeaponWheelSlot: Enum
+---@field ["FreeHands"] CustomWeaponWheelSlot 0
+---@field ["Fists"] CustomWeaponWheelSlot 1
+CustomWeaponWheelSlot = {}

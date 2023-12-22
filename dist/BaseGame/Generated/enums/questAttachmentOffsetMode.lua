@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questAttachmentOffsetMode
-questAttachmentOffsetMode = {
-    ["UseRealOffset"] = 0, ---@type Enum
-    ["UseCustomOffset"] = 1, ---@type Enum
-}
+---@class questAttachmentOffsetMode: Enum
+---@field ["UseRealOffset"] questAttachmentOffsetMode 0
+---@field ["UseCustomOffset"] questAttachmentOffsetMode 1
+questAttachmentOffsetMode = {}

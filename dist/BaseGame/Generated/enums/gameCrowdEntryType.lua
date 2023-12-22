@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameCrowdEntryType
-gameCrowdEntryType = {
-    ["Pedestrian"] = 0, ---@type Enum
-    ["Vehicle"] = 1, ---@type Enum
-    ["AV"] = 2, ---@type Enum
-}
+---@class gameCrowdEntryType: Enum
+---@field ["Pedestrian"] gameCrowdEntryType 0
+---@field ["Vehicle"] gameCrowdEntryType 1
+---@field ["AV"] gameCrowdEntryType 2
+gameCrowdEntryType = {}

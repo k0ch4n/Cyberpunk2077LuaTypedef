@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMBodyCarrying
-gamePSMBodyCarrying = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["PickUp"] = 1, ---@type Enum
-    ["Carry"] = 2, ---@type Enum
-    ["Dispose"] = 3, ---@type Enum
-    ["Drop"] = 4, ---@type Enum
-    ["Aim"] = 5, ---@type Enum
-    ["Throw"] = 6, ---@type Enum
-}
+---@class gamePSMBodyCarrying: Enum
+---@field ["Any"] gamePSMBodyCarrying -1
+---@field ["Default"] gamePSMBodyCarrying 0
+---@field ["PickUp"] gamePSMBodyCarrying 1
+---@field ["Carry"] gamePSMBodyCarrying 2
+---@field ["Dispose"] gamePSMBodyCarrying 3
+---@field ["Drop"] gamePSMBodyCarrying 4
+---@field ["Aim"] gamePSMBodyCarrying 5
+---@field ["Throw"] gamePSMBodyCarrying 6
+gamePSMBodyCarrying = {}

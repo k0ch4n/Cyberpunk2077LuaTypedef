@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameDamagePipelineStage
-gameDamagePipelineStage = {
-    ["PreProcess"] = 0, ---@type Enum
-    ["Process"] = 1, ---@type Enum
-    ["ProcessHitReaction"] = 2, ---@type Enum
-    ["PostProcess"] = 3, ---@type Enum
-    ["COUNT"] = 4, ---@type Enum
-    ["INVALID"] = 5, ---@type Enum
-}
+---@class gameDamagePipelineStage: Enum
+---@field ["PreProcess"] gameDamagePipelineStage 0
+---@field ["Process"] gameDamagePipelineStage 1
+---@field ["ProcessHitReaction"] gameDamagePipelineStage 2
+---@field ["PostProcess"] gameDamagePipelineStage 3
+---@field ["COUNT"] gameDamagePipelineStage 4
+---@field ["INVALID"] gameDamagePipelineStage 5
+gameDamagePipelineStage = {}

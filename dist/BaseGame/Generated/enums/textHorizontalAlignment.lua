@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textHorizontalAlignment
-textHorizontalAlignment = {
-    ["Left"] = 0, ---@type Enum
-    ["Center"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class textHorizontalAlignment: Enum
+---@field ["Left"] textHorizontalAlignment 0
+---@field ["Center"] textHorizontalAlignment 1
+---@field ["Right"] textHorizontalAlignment 2
+textHorizontalAlignment = {}

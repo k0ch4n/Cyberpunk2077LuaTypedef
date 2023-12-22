@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSceneAnimationMotionActionParamsMotionType
-gameSceneAnimationMotionActionParamsMotionType = {
-    ["Rid"] = 0, ---@type Enum
-    ["Anim"] = 1, ---@type Enum
-}
+---@class gameSceneAnimationMotionActionParamsMotionType: Enum
+---@field ["Rid"] gameSceneAnimationMotionActionParamsMotionType 0
+---@field ["Anim"] gameSceneAnimationMotionActionParamsMotionType 1
+gameSceneAnimationMotionActionParamsMotionType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum damageSystemLogFlags
-damageSystemLogFlags = {
-    ["GENERAL"] = 1, ---@type Enum
-    ["ASSERT"] = 2, ---@type Enum
-    ["WEAKSPOTS"] = 4, ---@type Enum
-}
+---@class damageSystemLogFlags: Enum
+---@field ["GENERAL"] damageSystemLogFlags 1
+---@field ["ASSERT"] damageSystemLogFlags 2
+---@field ["WEAKSPOTS"] damageSystemLogFlags 4
+damageSystemLogFlags = {}

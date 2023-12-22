@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatPoolDataValueChangeMode
-gameStatPoolDataValueChangeMode = {
-    ["Normal"] = 0, ---@type Enum
-    ["IncreasingOnly"] = 1, ---@type Enum
-    ["DecreasingOnly"] = 2, ---@type Enum
-    ["NonZero"] = 3, ---@type Enum
-}
+---@class gameStatPoolDataValueChangeMode: Enum
+---@field ["Normal"] gameStatPoolDataValueChangeMode 0
+---@field ["IncreasingOnly"] gameStatPoolDataValueChangeMode 1
+---@field ["DecreasingOnly"] gameStatPoolDataValueChangeMode 2
+---@field ["NonZero"] gameStatPoolDataValueChangeMode 3
+gameStatPoolDataValueChangeMode = {}

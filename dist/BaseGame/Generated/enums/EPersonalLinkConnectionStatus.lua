@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPersonalLinkConnectionStatus
-EPersonalLinkConnectionStatus = {
-    ["NOT_CONNECTED"] = 0, ---@type Enum
-    ["CONNECTING"] = 1, ---@type Enum
-    ["CONNECTED"] = 2, ---@type Enum
-    ["DISCONNECTING"] = 3, ---@type Enum
-}
+---@class EPersonalLinkConnectionStatus: Enum
+---@field ["NOT_CONNECTED"] EPersonalLinkConnectionStatus 0
+---@field ["CONNECTING"] EPersonalLinkConnectionStatus 1
+---@field ["CONNECTED"] EPersonalLinkConnectionStatus 2
+---@field ["DISCONNECTING"] EPersonalLinkConnectionStatus 3
+EPersonalLinkConnectionStatus = {}

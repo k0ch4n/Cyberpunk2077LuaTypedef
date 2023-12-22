@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescBlendModeWriteMask
-PSODescBlendModeWriteMask = {
-    ["MASK_None"] = 0, ---@type Enum
-    ["MASK_R"] = 1, ---@type Enum
-    ["MASK_G"] = 2, ---@type Enum
-    ["MASK_B"] = 4, ---@type Enum
-    ["MASK_A"] = 8, ---@type Enum
-    ["MASK_RG"] = 3, ---@type Enum
-    ["MASK_RB"] = 5, ---@type Enum
-    ["MASK_RA"] = 9, ---@type Enum
-    ["MASK_GB"] = 6, ---@type Enum
-    ["MASK_GA"] = 10, ---@type Enum
-    ["MASK_BA"] = 12, ---@type Enum
-    ["MASK_RGB"] = 7, ---@type Enum
-    ["MASK_RGA"] = 11, ---@type Enum
-    ["MASK_RBA"] = 13, ---@type Enum
-    ["MASK_GBA"] = 14, ---@type Enum
-    ["MASK_RGBA"] = 15, ---@type Enum
-}
+---@class PSODescBlendModeWriteMask: Enum
+---@field ["MASK_None"] PSODescBlendModeWriteMask 0
+---@field ["MASK_R"] PSODescBlendModeWriteMask 1
+---@field ["MASK_G"] PSODescBlendModeWriteMask 2
+---@field ["MASK_B"] PSODescBlendModeWriteMask 4
+---@field ["MASK_A"] PSODescBlendModeWriteMask 8
+---@field ["MASK_RG"] PSODescBlendModeWriteMask 3
+---@field ["MASK_RB"] PSODescBlendModeWriteMask 5
+---@field ["MASK_RA"] PSODescBlendModeWriteMask 9
+---@field ["MASK_GB"] PSODescBlendModeWriteMask 6
+---@field ["MASK_GA"] PSODescBlendModeWriteMask 10
+---@field ["MASK_BA"] PSODescBlendModeWriteMask 12
+---@field ["MASK_RGB"] PSODescBlendModeWriteMask 7
+---@field ["MASK_RGA"] PSODescBlendModeWriteMask 11
+---@field ["MASK_RBA"] PSODescBlendModeWriteMask 13
+---@field ["MASK_GBA"] PSODescBlendModeWriteMask 14
+---@field ["MASK_RGBA"] PSODescBlendModeWriteMask 15
+PSODescBlendModeWriteMask = {}

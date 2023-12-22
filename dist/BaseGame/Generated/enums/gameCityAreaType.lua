@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameCityAreaType
-gameCityAreaType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["PublicZone"] = 1, ---@type Enum
-    ["SafeZone"] = 2, ---@type Enum
-    ["RestrictedZone"] = 3, ---@type Enum
-    ["DangerousZone"] = 4, ---@type Enum
-}
+---@class gameCityAreaType: Enum
+---@field ["Undefined"] gameCityAreaType 0
+---@field ["PublicZone"] gameCityAreaType 1
+---@field ["SafeZone"] gameCityAreaType 2
+---@field ["RestrictedZone"] gameCityAreaType 3
+---@field ["DangerousZone"] gameCityAreaType 4
+gameCityAreaType = {}

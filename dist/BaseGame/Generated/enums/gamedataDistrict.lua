@@ -1,140 +1,139 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDistrict
-gamedataDistrict = {
-    ["ArasakaWaterfront"] = 0, ---@type Enum
-    ["ArasakaWaterfront_AbandonedWarehouse"] = 1, ---@type Enum
-    ["ArasakaWaterfront_KonpekiPlaza"] = 2, ---@type Enum
-    ["Arroyo"] = 3, ---@type Enum
-    ["Arroyo_Arasaka_Warehouse"] = 4, ---@type Enum
-    ["Arroyo_ClairesGarage"] = 5, ---@type Enum
-    ["Arroyo_CytechFactory"] = 6, ---@type Enum
-    ["Arroyo_Kendachi"] = 7, ---@type Enum
-    ["Arroyo_KenmoreCafe"] = 8, ---@type Enum
-    ["Arroyo_LasPalapas"] = 9, ---@type Enum
-    ["Arroyo_Red_Dirt"] = 10, ---@type Enum
-    ["Arroyo_TireEmpire"] = 11, ---@type Enum
-    ["Badlands"] = 12, ---@type Enum
-    ["Badlands_BiotechnicaFlats"] = 13, ---@type Enum
-    ["Badlands_DryCreek"] = 14, ---@type Enum
-    ["Badlands_JacksonPlains"] = 15, ---@type Enum
-    ["Badlands_LagunaBend"] = 16, ---@type Enum
-    ["Badlands_LasPalapas"] = 17, ---@type Enum
-    ["Badlands_NorthSunriseOilField"] = 18, ---@type Enum
-    ["Badlands_RattlesnakeCreek"] = 19, ---@type Enum
-    ["Badlands_RedPeaks"] = 20, ---@type Enum
-    ["Badlands_RockyRidge"] = 21, ---@type Enum
-    ["Badlands_SantaClara"] = 22, ---@type Enum
-    ["Badlands_SierraSonora"] = 23, ---@type Enum
-    ["Badlands_SoCalBorderCrossing"] = 24, ---@type Enum
-    ["Badlands_Spaceport"] = 25, ---@type Enum
-    ["Badlands_VasquezPass"] = 26, ---@type Enum
-    ["Badlands_Yucca"] = 27, ---@type Enum
-    ["Badlands_YuccaGarage"] = 28, ---@type Enum
-    ["Badlands_YuccaRadioTower"] = 29, ---@type Enum
-    ["CharterHill"] = 30, ---@type Enum
-    ["CharterHill_AuCabanon"] = 31, ---@type Enum
-    ["CharterHill_PowerPlant"] = 32, ---@type Enum
-    ["CityCenter"] = 33, ---@type Enum
-    ["Coastview"] = 34, ---@type Enum
-    ["Coastview_BattysHotel"] = 35, ---@type Enum
-    ["Coastview_ButcherShop"] = 36, ---@type Enum
-    ["Coastview_GrandImperialMall"] = 37, ---@type Enum
-    ["Coastview_RundownApartment"] = 38, ---@type Enum
-    ["Coastview_VDBChapel"] = 39, ---@type Enum
-    ["Coastview_VDBMaglev"] = 40, ---@type Enum
-    ["Coastview_q110Cyberspace"] = 41, ---@type Enum
-    ["CorpoPlaza"] = 42, ---@type Enum
-    ["CorpoPlaza_Apartment"] = 43, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerAtrium"] = 44, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerCEOFloor"] = 45, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerJenkins"] = 46, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerJungle"] = 47, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerLobby"] = 48, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerNest"] = 49, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerSaburoOffice"] = 50, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerUnlistedFloors"] = 51, ---@type Enum
-    ["CorpoPlaza_ArasakaTowerUpperAtrium"] = 52, ---@type Enum
-    ["CorpoPlaza_q201Cyberspace"] = 53, ---@type Enum
-    ["Dogtown"] = 54, ---@type Enum
-    ["Dogtown_Akebono"] = 55, ---@type Enum
-    ["Dogtown_Brooklyn"] = 56, ---@type Enum
-    ["Dogtown_CapitanCaliente"] = 57, ---@type Enum
-    ["Dogtown_Cynosure"] = 58, ---@type Enum
-    ["Dogtown_Expo"] = 59, ---@type Enum
-    ["Dogtown_Hideout"] = 60, ---@type Enum
-    ["Dogtown_Worldmap_Sub"] = 61, ---@type Enum
-    ["Downtown"] = 62, ---@type Enum
-    ["Downtown_Jinguji"] = 63, ---@type Enum
-    ["Downtown_TheHammer"] = 64, ---@type Enum
-    ["Glen"] = 65, ---@type Enum
-    ["Glen_Apartment"] = 66, ---@type Enum
-    ["Glen_Embers"] = 67, ---@type Enum
-    ["Glen_MusicStore"] = 68, ---@type Enum
-    ["Glen_NCPDLab"] = 69, ---@type Enum
-    ["Glen_WichedTires"] = 70, ---@type Enum
-    ["Heywood"] = 71, ---@type Enum
-    ["JapanTown"] = 72, ---@type Enum
-    ["JapanTown_Apartment"] = 73, ---@type Enum
-    ["JapanTown_Clouds"] = 74, ---@type Enum
-    ["JapanTown_DarkMatter"] = 75, ---@type Enum
-    ["JapanTown_Fingers"] = 76, ---@type Enum
-    ["JapanTown_FourthWallBdStudio"] = 77, ---@type Enum
-    ["JapanTown_HiromisApartment"] = 78, ---@type Enum
-    ["JapanTown_MegabuildingH8"] = 79, ---@type Enum
-    ["JapanTown_VR_Tutorial"] = 80, ---@type Enum
-    ["JapanTown_Wakakos_Pachinko_Parlor"] = 81, ---@type Enum
-    ["Kabuki"] = 82, ---@type Enum
-    ["Kabuki_JudysApartment"] = 83, ---@type Enum
-    ["Kabuki_LizziesBar"] = 84, ---@type Enum
-    ["Kabuki_NoTellMotel"] = 85, ---@type Enum
-    ["LagunaBend_LakeHut"] = 86, ---@type Enum
-    ["Langley_Clinic"] = 87, ---@type Enum
-    ["LittleChina"] = 88, ---@type Enum
-    ["LittleChina_Afterlife"] = 89, ---@type Enum
-    ["LittleChina_MistysShop"] = 90, ---@type Enum
-    ["LittleChina_Q101Cyberspace"] = 91, ---@type Enum
-    ["LittleChina_RiotClub"] = 92, ---@type Enum
-    ["LittleChina_TomsDiner"] = 93, ---@type Enum
-    ["LittleChina_VApartment"] = 94, ---@type Enum
-    ["LittleChina_VictorsClinic"] = 95, ---@type Enum
-    ["MorroRock"] = 96, ---@type Enum
-    ["MorroRock_NCX"] = 97, ---@type Enum
-    ["NorthBadlands"] = 98, ---@type Enum
-    ["NorthOaks"] = 99, ---@type Enum
-    ["NorthOaks_Arasaka_Estate"] = 100, ---@type Enum
-    ["NorthOaks_Columbarium"] = 101, ---@type Enum
-    ["NorthOaks_Denny_Estate"] = 102, ---@type Enum
-    ["NorthOaks_Kerry_Estate"] = 103, ---@type Enum
-    ["Northside"] = 104, ---@type Enum
-    ["Northside_All_Foods"] = 105, ---@type Enum
-    ["Northside_Apartment"] = 106, ---@type Enum
-    ["Northside_CleanCut"] = 107, ---@type Enum
-    ["Northside_Totentaz"] = 108, ---@type Enum
-    ["Northside_WNS"] = 109, ---@type Enum
-    ["Pacifica"] = 110, ---@type Enum
-    ["RanchoCoronado"] = 111, ---@type Enum
-    ["RanchoCoronado_Caliente"] = 112, ---@type Enum
-    ["RanchoCoronado_GunORama"] = 113, ---@type Enum
-    ["RanchoCoronado_Piez"] = 114, ---@type Enum
-    ["RanchoCoronado_Softsys"] = 115, ---@type Enum
-    ["RanchoCoronado_Stylishly"] = 116, ---@type Enum
-    ["SantoDomingo"] = 117, ---@type Enum
-    ["SouthBadlands"] = 118, ---@type Enum
-    ["SouthBadlands_EdgewoodFarm"] = 119, ---@type Enum
-    ["SouthBadlands_PoppyFarm"] = 120, ---@type Enum
-    ["SouthBadlands_TrailerPark"] = 121, ---@type Enum
-    ["SouthBadlands_q201SpaceStation"] = 122, ---@type Enum
-    ["VistaDelRey"] = 123, ---@type Enum
-    ["Vista_del_Rey_Delamain"] = 124, ---@type Enum
-    ["Vista_del_Rey_LaCatrina"] = 125, ---@type Enum
-    ["Vista_del_rey_Abandoned_Apartment_Building"] = 126, ---@type Enum
-    ["Vista_del_rey_ElCoyoteCojo"] = 127, ---@type Enum
-    ["Watson"] = 128, ---@type Enum
-    ["Wellsprings"] = 129, ---@type Enum
-    ["WestWindEstate"] = 130, ---@type Enum
-    ["Westbrook"] = 131, ---@type Enum
-    ["Count"] = 132, ---@type Enum
-    ["Invalid"] = 133, ---@type Enum
-}
+---@class gamedataDistrict: Enum
+---@field ["ArasakaWaterfront"] gamedataDistrict 0
+---@field ["ArasakaWaterfront_AbandonedWarehouse"] gamedataDistrict 1
+---@field ["ArasakaWaterfront_KonpekiPlaza"] gamedataDistrict 2
+---@field ["Arroyo"] gamedataDistrict 3
+---@field ["Arroyo_Arasaka_Warehouse"] gamedataDistrict 4
+---@field ["Arroyo_ClairesGarage"] gamedataDistrict 5
+---@field ["Arroyo_CytechFactory"] gamedataDistrict 6
+---@field ["Arroyo_Kendachi"] gamedataDistrict 7
+---@field ["Arroyo_KenmoreCafe"] gamedataDistrict 8
+---@field ["Arroyo_LasPalapas"] gamedataDistrict 9
+---@field ["Arroyo_Red_Dirt"] gamedataDistrict 10
+---@field ["Arroyo_TireEmpire"] gamedataDistrict 11
+---@field ["Badlands"] gamedataDistrict 12
+---@field ["Badlands_BiotechnicaFlats"] gamedataDistrict 13
+---@field ["Badlands_DryCreek"] gamedataDistrict 14
+---@field ["Badlands_JacksonPlains"] gamedataDistrict 15
+---@field ["Badlands_LagunaBend"] gamedataDistrict 16
+---@field ["Badlands_LasPalapas"] gamedataDistrict 17
+---@field ["Badlands_NorthSunriseOilField"] gamedataDistrict 18
+---@field ["Badlands_RattlesnakeCreek"] gamedataDistrict 19
+---@field ["Badlands_RedPeaks"] gamedataDistrict 20
+---@field ["Badlands_RockyRidge"] gamedataDistrict 21
+---@field ["Badlands_SantaClara"] gamedataDistrict 22
+---@field ["Badlands_SierraSonora"] gamedataDistrict 23
+---@field ["Badlands_SoCalBorderCrossing"] gamedataDistrict 24
+---@field ["Badlands_Spaceport"] gamedataDistrict 25
+---@field ["Badlands_VasquezPass"] gamedataDistrict 26
+---@field ["Badlands_Yucca"] gamedataDistrict 27
+---@field ["Badlands_YuccaGarage"] gamedataDistrict 28
+---@field ["Badlands_YuccaRadioTower"] gamedataDistrict 29
+---@field ["CharterHill"] gamedataDistrict 30
+---@field ["CharterHill_AuCabanon"] gamedataDistrict 31
+---@field ["CharterHill_PowerPlant"] gamedataDistrict 32
+---@field ["CityCenter"] gamedataDistrict 33
+---@field ["Coastview"] gamedataDistrict 34
+---@field ["Coastview_BattysHotel"] gamedataDistrict 35
+---@field ["Coastview_ButcherShop"] gamedataDistrict 36
+---@field ["Coastview_GrandImperialMall"] gamedataDistrict 37
+---@field ["Coastview_RundownApartment"] gamedataDistrict 38
+---@field ["Coastview_VDBChapel"] gamedataDistrict 39
+---@field ["Coastview_VDBMaglev"] gamedataDistrict 40
+---@field ["Coastview_q110Cyberspace"] gamedataDistrict 41
+---@field ["CorpoPlaza"] gamedataDistrict 42
+---@field ["CorpoPlaza_Apartment"] gamedataDistrict 43
+---@field ["CorpoPlaza_ArasakaTowerAtrium"] gamedataDistrict 44
+---@field ["CorpoPlaza_ArasakaTowerCEOFloor"] gamedataDistrict 45
+---@field ["CorpoPlaza_ArasakaTowerJenkins"] gamedataDistrict 46
+---@field ["CorpoPlaza_ArasakaTowerJungle"] gamedataDistrict 47
+---@field ["CorpoPlaza_ArasakaTowerLobby"] gamedataDistrict 48
+---@field ["CorpoPlaza_ArasakaTowerNest"] gamedataDistrict 49
+---@field ["CorpoPlaza_ArasakaTowerSaburoOffice"] gamedataDistrict 50
+---@field ["CorpoPlaza_ArasakaTowerUnlistedFloors"] gamedataDistrict 51
+---@field ["CorpoPlaza_ArasakaTowerUpperAtrium"] gamedataDistrict 52
+---@field ["CorpoPlaza_q201Cyberspace"] gamedataDistrict 53
+---@field ["Dogtown"] gamedataDistrict 54
+---@field ["Dogtown_Akebono"] gamedataDistrict 55
+---@field ["Dogtown_Brooklyn"] gamedataDistrict 56
+---@field ["Dogtown_CapitanCaliente"] gamedataDistrict 57
+---@field ["Dogtown_Cynosure"] gamedataDistrict 58
+---@field ["Dogtown_Expo"] gamedataDistrict 59
+---@field ["Dogtown_Hideout"] gamedataDistrict 60
+---@field ["Dogtown_Worldmap_Sub"] gamedataDistrict 61
+---@field ["Downtown"] gamedataDistrict 62
+---@field ["Downtown_Jinguji"] gamedataDistrict 63
+---@field ["Downtown_TheHammer"] gamedataDistrict 64
+---@field ["Glen"] gamedataDistrict 65
+---@field ["Glen_Apartment"] gamedataDistrict 66
+---@field ["Glen_Embers"] gamedataDistrict 67
+---@field ["Glen_MusicStore"] gamedataDistrict 68
+---@field ["Glen_NCPDLab"] gamedataDistrict 69
+---@field ["Glen_WichedTires"] gamedataDistrict 70
+---@field ["Heywood"] gamedataDistrict 71
+---@field ["JapanTown"] gamedataDistrict 72
+---@field ["JapanTown_Apartment"] gamedataDistrict 73
+---@field ["JapanTown_Clouds"] gamedataDistrict 74
+---@field ["JapanTown_DarkMatter"] gamedataDistrict 75
+---@field ["JapanTown_Fingers"] gamedataDistrict 76
+---@field ["JapanTown_FourthWallBdStudio"] gamedataDistrict 77
+---@field ["JapanTown_HiromisApartment"] gamedataDistrict 78
+---@field ["JapanTown_MegabuildingH8"] gamedataDistrict 79
+---@field ["JapanTown_VR_Tutorial"] gamedataDistrict 80
+---@field ["JapanTown_Wakakos_Pachinko_Parlor"] gamedataDistrict 81
+---@field ["Kabuki"] gamedataDistrict 82
+---@field ["Kabuki_JudysApartment"] gamedataDistrict 83
+---@field ["Kabuki_LizziesBar"] gamedataDistrict 84
+---@field ["Kabuki_NoTellMotel"] gamedataDistrict 85
+---@field ["LagunaBend_LakeHut"] gamedataDistrict 86
+---@field ["Langley_Clinic"] gamedataDistrict 87
+---@field ["LittleChina"] gamedataDistrict 88
+---@field ["LittleChina_Afterlife"] gamedataDistrict 89
+---@field ["LittleChina_MistysShop"] gamedataDistrict 90
+---@field ["LittleChina_Q101Cyberspace"] gamedataDistrict 91
+---@field ["LittleChina_RiotClub"] gamedataDistrict 92
+---@field ["LittleChina_TomsDiner"] gamedataDistrict 93
+---@field ["LittleChina_VApartment"] gamedataDistrict 94
+---@field ["LittleChina_VictorsClinic"] gamedataDistrict 95
+---@field ["MorroRock"] gamedataDistrict 96
+---@field ["MorroRock_NCX"] gamedataDistrict 97
+---@field ["NorthBadlands"] gamedataDistrict 98
+---@field ["NorthOaks"] gamedataDistrict 99
+---@field ["NorthOaks_Arasaka_Estate"] gamedataDistrict 100
+---@field ["NorthOaks_Columbarium"] gamedataDistrict 101
+---@field ["NorthOaks_Denny_Estate"] gamedataDistrict 102
+---@field ["NorthOaks_Kerry_Estate"] gamedataDistrict 103
+---@field ["Northside"] gamedataDistrict 104
+---@field ["Northside_All_Foods"] gamedataDistrict 105
+---@field ["Northside_Apartment"] gamedataDistrict 106
+---@field ["Northside_CleanCut"] gamedataDistrict 107
+---@field ["Northside_Totentaz"] gamedataDistrict 108
+---@field ["Northside_WNS"] gamedataDistrict 109
+---@field ["Pacifica"] gamedataDistrict 110
+---@field ["RanchoCoronado"] gamedataDistrict 111
+---@field ["RanchoCoronado_Caliente"] gamedataDistrict 112
+---@field ["RanchoCoronado_GunORama"] gamedataDistrict 113
+---@field ["RanchoCoronado_Piez"] gamedataDistrict 114
+---@field ["RanchoCoronado_Softsys"] gamedataDistrict 115
+---@field ["RanchoCoronado_Stylishly"] gamedataDistrict 116
+---@field ["SantoDomingo"] gamedataDistrict 117
+---@field ["SouthBadlands"] gamedataDistrict 118
+---@field ["SouthBadlands_EdgewoodFarm"] gamedataDistrict 119
+---@field ["SouthBadlands_PoppyFarm"] gamedataDistrict 120
+---@field ["SouthBadlands_TrailerPark"] gamedataDistrict 121
+---@field ["SouthBadlands_q201SpaceStation"] gamedataDistrict 122
+---@field ["VistaDelRey"] gamedataDistrict 123
+---@field ["Vista_del_Rey_Delamain"] gamedataDistrict 124
+---@field ["Vista_del_Rey_LaCatrina"] gamedataDistrict 125
+---@field ["Vista_del_rey_Abandoned_Apartment_Building"] gamedataDistrict 126
+---@field ["Vista_del_rey_ElCoyoteCojo"] gamedataDistrict 127
+---@field ["Watson"] gamedataDistrict 128
+---@field ["Wellsprings"] gamedataDistrict 129
+---@field ["WestWindEstate"] gamedataDistrict 130
+---@field ["Westbrook"] gamedataDistrict 131
+---@field ["Count"] gamedataDistrict 132
+---@field ["Invalid"] gamedataDistrict 133
+gamedataDistrict = {}

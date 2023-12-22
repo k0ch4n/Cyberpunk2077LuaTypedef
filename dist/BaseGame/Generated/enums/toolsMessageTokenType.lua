@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum toolsMessageTokenType
-toolsMessageTokenType = {
-    ["Text"] = 0, ---@type Enum
-    ["Location"] = 1, ---@type Enum
-    ["Tag"] = 2, ---@type Enum
-}
+---@class toolsMessageTokenType: Enum
+---@field ["Text"] toolsMessageTokenType 0
+---@field ["Location"] toolsMessageTokenType 1
+---@field ["Tag"] toolsMessageTokenType 2
+toolsMessageTokenType = {}

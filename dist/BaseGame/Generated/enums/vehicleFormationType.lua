@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleFormationType
-vehicleFormationType = {
-    ["FORMATION_TRIANGLE"] = 0, ---@type Enum
-    ["FORMATION_TURTLE"] = 1, ---@type Enum
-    ["FORMATION_QUINCUNX"] = 2, ---@type Enum
-}
+---@class vehicleFormationType: Enum
+---@field ["FORMATION_TRIANGLE"] vehicleFormationType 0
+---@field ["FORMATION_TURTLE"] vehicleFormationType 1
+---@field ["FORMATION_QUINCUNX"] vehicleFormationType 2
+vehicleFormationType = {}

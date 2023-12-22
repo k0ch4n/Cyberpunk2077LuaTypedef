@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inputEInputScheme
-inputEInputScheme = {
-    ["LEGACY"] = 0, ---@type Enum
-    ["AGILE"] = 1, ---@type Enum
-    ["ALTERNATIVE"] = 2, ---@type Enum
-}
+---@class inputEInputScheme: Enum
+---@field ["LEGACY"] inputEInputScheme 0
+---@field ["AGILE"] inputEInputScheme 1
+---@field ["ALTERNATIVE"] inputEInputScheme 2
+inputEInputScheme = {}

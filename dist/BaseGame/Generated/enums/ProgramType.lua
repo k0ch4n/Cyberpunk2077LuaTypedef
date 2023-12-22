@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ProgramType
-ProgramType = {
-    ["BasicAccess"] = 0, ---@type Enum
-    ["ExtraPlayerProgram"] = 1, ---@type Enum
-    ["ExtraServerProgram"] = 2, ---@type Enum
-    ["EnemyProgram"] = 3, ---@type Enum
-    ["EnemyLockNetwork"] = 4, ---@type Enum
-}
+---@class ProgramType: Enum
+---@field ["BasicAccess"] ProgramType 0
+---@field ["ExtraPlayerProgram"] ProgramType 1
+---@field ["ExtraServerProgram"] ProgramType 2
+---@field ["EnemyProgram"] ProgramType 3
+---@field ["EnemyLockNetwork"] ProgramType 4
+ProgramType = {}

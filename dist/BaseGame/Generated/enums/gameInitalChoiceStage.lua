@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameInitalChoiceStage
-gameInitalChoiceStage = {
-    ["None"] = 0, ---@type Enum
-    ["Difficulty"] = 1, ---@type Enum
-    ["LifePath"] = 2, ---@type Enum
-    ["Gender"] = 3, ---@type Enum
-    ["Customizations"] = 4, ---@type Enum
-    ["Attributes"] = 5, ---@type Enum
-    ["Finished"] = 6, ---@type Enum
-}
+---@class gameInitalChoiceStage: Enum
+---@field ["None"] gameInitalChoiceStage 0
+---@field ["Difficulty"] gameInitalChoiceStage 1
+---@field ["LifePath"] gameInitalChoiceStage 2
+---@field ["Gender"] gameInitalChoiceStage 3
+---@field ["Customizations"] gameInitalChoiceStage 4
+---@field ["Attributes"] gameInitalChoiceStage 5
+---@field ["Finished"] gameInitalChoiceStage 6
+gameInitalChoiceStage = {}

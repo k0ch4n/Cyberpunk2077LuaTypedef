@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePlayerCoverDirection
-gamePlayerCoverDirection = {
-    ["None"] = -1, ---@type Enum
-    ["Up"] = 0, ---@type Enum
-    ["Left"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class gamePlayerCoverDirection: Enum
+---@field ["None"] gamePlayerCoverDirection -1
+---@field ["Up"] gamePlayerCoverDirection 0
+---@field ["Left"] gamePlayerCoverDirection 1
+---@field ["Right"] gamePlayerCoverDirection 2
+gamePlayerCoverDirection = {}

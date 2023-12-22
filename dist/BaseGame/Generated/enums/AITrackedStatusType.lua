@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AITrackedStatusType
-AITrackedStatusType = {
-    ["Unknown"] = 0, ---@type Enum
-    ["Friendly"] = 1, ---@type Enum
-    ["Neutral"] = 2, ---@type Enum
-    ["Hostile"] = 3, ---@type Enum
-}
+---@class AITrackedStatusType: Enum
+---@field ["Unknown"] AITrackedStatusType 0
+---@field ["Friendly"] AITrackedStatusType 1
+---@field ["Neutral"] AITrackedStatusType 2
+---@field ["Hostile"] AITrackedStatusType 3
+AITrackedStatusType = {}

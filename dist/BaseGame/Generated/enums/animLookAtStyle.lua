@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtStyle
-animLookAtStyle = {
-    ["VerySlow"] = 0, ---@type Enum
-    ["Slow"] = 1, ---@type Enum
-    ["Normal"] = 2, ---@type Enum
-    ["Fast"] = 3, ---@type Enum
-    ["VeryFast"] = 4, ---@type Enum
-}
+---@class animLookAtStyle: Enum
+---@field ["VerySlow"] animLookAtStyle 0
+---@field ["Slow"] animLookAtStyle 1
+---@field ["Normal"] animLookAtStyle 2
+---@field ["Fast"] animLookAtStyle 3
+---@field ["VeryFast"] animLookAtStyle 4
+animLookAtStyle = {}

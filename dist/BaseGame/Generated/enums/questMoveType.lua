@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMoveType
-questMoveType = {
-    ["MoveOnSpline"] = 0, ---@type Enum
-    ["MoveTo"] = 1, ---@type Enum
-    ["RotateTo"] = 2, ---@type Enum
-    ["Patrol"] = 3, ---@type Enum
-    ["Follow"] = 4, ---@type Enum
-    ["JoinCrowd"] = 5, ---@type Enum
-}
+---@class questMoveType: Enum
+---@field ["MoveOnSpline"] questMoveType 0
+---@field ["MoveTo"] questMoveType 1
+---@field ["RotateTo"] questMoveType 2
+---@field ["Patrol"] questMoveType 3
+---@field ["Follow"] questMoveType 4
+---@field ["JoinCrowd"] questMoveType 5
+questMoveType = {}

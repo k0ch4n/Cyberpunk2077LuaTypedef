@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum SettingsType
-SettingsType = {
-    ["Slider"] = 0, ---@type Enum
-    ["Toggle"] = 1, ---@type Enum
-    ["DropdownList"] = 2, ---@type Enum
-}
+---@class SettingsType: Enum
+---@field ["Slider"] SettingsType 0
+---@field ["Toggle"] SettingsType 1
+---@field ["DropdownList"] SettingsType 2
+SettingsType = {}

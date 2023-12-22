@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TrafficGenMeshImpact
-TrafficGenMeshImpact = {
-    ["UseNavigation"] = 0, ---@type Enum
-    ["ForceIgnored"] = 1, ---@type Enum
-    ["ForceBlocking"] = 2, ---@type Enum
-}
+---@class TrafficGenMeshImpact: Enum
+---@field ["UseNavigation"] TrafficGenMeshImpact 0
+---@field ["ForceIgnored"] TrafficGenMeshImpact 1
+---@field ["ForceBlocking"] TrafficGenMeshImpact 2
+TrafficGenMeshImpact = {}

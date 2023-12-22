@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtStatus
-animLookAtStatus = {
-    ["Active"] = 2, ---@type Enum
-    ["LimitReached"] = 4, ---@type Enum
-    ["TransitionInProgress"] = 8, ---@type Enum
-}
+---@class animLookAtStatus: Enum
+---@field ["Active"] animLookAtStatus 2
+---@field ["LimitReached"] animLookAtStatus 4
+---@field ["TransitionInProgress"] animLookAtStatus 8
+animLookAtStatus = {}

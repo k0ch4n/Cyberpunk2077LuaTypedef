@@ -1,23 +1,22 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAttackType
-gamedataAttackType = {
-    ["ChargedWhipAttack"] = 0, ---@type Enum
-    ["Direct"] = 1, ---@type Enum
-    ["Effect"] = 2, ---@type Enum
-    ["Explosion"] = 3, ---@type Enum
-    ["ForceKill"] = 4, ---@type Enum
-    ["GuardBreak"] = 5, ---@type Enum
-    ["Hack"] = 6, ---@type Enum
-    ["Melee"] = 7, ---@type Enum
-    ["PressureWave"] = 8, ---@type Enum
-    ["QuickMelee"] = 9, ---@type Enum
-    ["Ranged"] = 10, ---@type Enum
-    ["Reflect"] = 11, ---@type Enum
-    ["StrongMelee"] = 12, ---@type Enum
-    ["Thrown"] = 13, ---@type Enum
-    ["WhipAttack"] = 14, ---@type Enum
-    ["Count"] = 15, ---@type Enum
-    ["Invalid"] = 16, ---@type Enum
-}
+---@class gamedataAttackType: Enum
+---@field ["ChargedWhipAttack"] gamedataAttackType 0
+---@field ["Direct"] gamedataAttackType 1
+---@field ["Effect"] gamedataAttackType 2
+---@field ["Explosion"] gamedataAttackType 3
+---@field ["ForceKill"] gamedataAttackType 4
+---@field ["GuardBreak"] gamedataAttackType 5
+---@field ["Hack"] gamedataAttackType 6
+---@field ["Melee"] gamedataAttackType 7
+---@field ["PressureWave"] gamedataAttackType 8
+---@field ["QuickMelee"] gamedataAttackType 9
+---@field ["Ranged"] gamedataAttackType 10
+---@field ["Reflect"] gamedataAttackType 11
+---@field ["StrongMelee"] gamedataAttackType 12
+---@field ["Thrown"] gamedataAttackType 13
+---@field ["WhipAttack"] gamedataAttackType 14
+---@field ["Count"] gamedataAttackType 15
+---@field ["Invalid"] gamedataAttackType 16
+gamedataAttackType = {}

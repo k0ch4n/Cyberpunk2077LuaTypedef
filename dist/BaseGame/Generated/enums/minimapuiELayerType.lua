@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum minimapuiELayerType
-minimapuiELayerType = {
-    ["Floor"] = 0, ---@type Enum
-    ["Cover"] = 1, ---@type Enum
-    ["WallInterior"] = 2, ---@type Enum
-    ["WallExterior"] = 3, ---@type Enum
-    ["Door"] = 4, ---@type Enum
-    ["Stairs"] = 5, ---@type Enum
-    ["Road"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-}
+---@class minimapuiELayerType: Enum
+---@field ["Floor"] minimapuiELayerType 0
+---@field ["Cover"] minimapuiELayerType 1
+---@field ["WallInterior"] minimapuiELayerType 2
+---@field ["WallExterior"] minimapuiELayerType 3
+---@field ["Door"] minimapuiELayerType 4
+---@field ["Stairs"] minimapuiELayerType 5
+---@field ["Road"] minimapuiELayerType 6
+---@field ["Count"] minimapuiELayerType 7
+minimapuiELayerType = {}

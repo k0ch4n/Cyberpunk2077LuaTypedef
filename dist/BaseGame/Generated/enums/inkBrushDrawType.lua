@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkBrushDrawType
-inkBrushDrawType = {
-    ["NoDraw"] = 0, ---@type Enum
-    ["Solid"] = 1, ---@type Enum
-    ["Wire"] = 2, ---@type Enum
-}
+---@class inkBrushDrawType: Enum
+---@field ["NoDraw"] inkBrushDrawType 0
+---@field ["Solid"] inkBrushDrawType 1
+---@field ["Wire"] inkBrushDrawType 2
+inkBrushDrawType = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataComputerUIStyle
-gamedataComputerUIStyle = {
-    ["DarkBlue"] = 0, ---@type Enum
-    ["LightBlue"] = 1, ---@type Enum
-    ["Orange"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataComputerUIStyle: Enum
+---@field ["DarkBlue"] gamedataComputerUIStyle 0
+---@field ["LightBlue"] gamedataComputerUIStyle 1
+---@field ["Orange"] gamedataComputerUIStyle 2
+---@field ["Count"] gamedataComputerUIStyle 3
+---@field ["Invalid"] gamedataComputerUIStyle 4
+gamedataComputerUIStyle = {}

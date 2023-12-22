@@ -1,32 +1,31 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AimAssistSettingConfig
-AimAssistSettingConfig = {
-    ["Default"] = 0, ---@type Enum
-    ["Scanning"] = 1, ---@type Enum
-    ["LeftHandCyberwareCharge"] = 2, ---@type Enum
-    ["LeftHandCyberware"] = 3, ---@type Enum
-    ["MeleeCombat"] = 4, ---@type Enum
-    ["MeleeCombatIdle"] = 5, ---@type Enum
-    ["AimingLimbCyber"] = 6, ---@type Enum
-    ["AimingLimbCyberZoomLevel1"] = 7, ---@type Enum
-    ["AimingLimbCyberZoomLevel2"] = 8, ---@type Enum
-    ["Aiming"] = 9, ---@type Enum
-    ["QuickMelee"] = 10, ---@type Enum
-    ["VehicleCombat"] = 11, ---@type Enum
-    ["Sprinting"] = 12, ---@type Enum
-    ["LimbCyber"] = 13, ---@type Enum
-    ["Vehicle"] = 14, ---@type Enum
-    ["DriverCombat"] = 15, ---@type Enum
-    ["DriverCombatAiming"] = 16, ---@type Enum
-    ["DriverCombatTPP"] = 17, ---@type Enum
-    ["DriverCombatMissiles"] = 18, ---@type Enum
-    ["DriverCombatMissilesAiming"] = 19, ---@type Enum
-    ["DriverCombatMeleeTPP"] = 20, ---@type Enum
-    ["ZoomLevel1"] = 21, ---@type Enum
-    ["ZoomLevel2"] = 22, ---@type Enum
-    ["Exhausted"] = 23, ---@type Enum
-    ["Off"] = 24, ---@type Enum
-    ["Count"] = 25, ---@type Enum
-}
+---@class AimAssistSettingConfig: Enum
+---@field ["Default"] AimAssistSettingConfig 0
+---@field ["Scanning"] AimAssistSettingConfig 1
+---@field ["LeftHandCyberwareCharge"] AimAssistSettingConfig 2
+---@field ["LeftHandCyberware"] AimAssistSettingConfig 3
+---@field ["MeleeCombat"] AimAssistSettingConfig 4
+---@field ["MeleeCombatIdle"] AimAssistSettingConfig 5
+---@field ["AimingLimbCyber"] AimAssistSettingConfig 6
+---@field ["AimingLimbCyberZoomLevel1"] AimAssistSettingConfig 7
+---@field ["AimingLimbCyberZoomLevel2"] AimAssistSettingConfig 8
+---@field ["Aiming"] AimAssistSettingConfig 9
+---@field ["QuickMelee"] AimAssistSettingConfig 10
+---@field ["VehicleCombat"] AimAssistSettingConfig 11
+---@field ["Sprinting"] AimAssistSettingConfig 12
+---@field ["LimbCyber"] AimAssistSettingConfig 13
+---@field ["Vehicle"] AimAssistSettingConfig 14
+---@field ["DriverCombat"] AimAssistSettingConfig 15
+---@field ["DriverCombatAiming"] AimAssistSettingConfig 16
+---@field ["DriverCombatTPP"] AimAssistSettingConfig 17
+---@field ["DriverCombatMissiles"] AimAssistSettingConfig 18
+---@field ["DriverCombatMissilesAiming"] AimAssistSettingConfig 19
+---@field ["DriverCombatMeleeTPP"] AimAssistSettingConfig 20
+---@field ["ZoomLevel1"] AimAssistSettingConfig 21
+---@field ["ZoomLevel2"] AimAssistSettingConfig 22
+---@field ["Exhausted"] AimAssistSettingConfig 23
+---@field ["Off"] AimAssistSettingConfig 24
+---@field ["Count"] AimAssistSettingConfig 25
+AimAssistSettingConfig = {}

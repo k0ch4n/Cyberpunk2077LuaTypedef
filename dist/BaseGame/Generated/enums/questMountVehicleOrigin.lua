@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMountVehicleOrigin
-questMountVehicleOrigin = {
-    ["Any"] = 0, ---@type Enum
-    ["NotStolen"] = 1, ---@type Enum
-    ["Stolen"] = 2, ---@type Enum
-}
+---@class questMountVehicleOrigin: Enum
+---@field ["Any"] questMountVehicleOrigin 0
+---@field ["NotStolen"] questMountVehicleOrigin 1
+---@field ["Stolen"] questMountVehicleOrigin 2
+questMountVehicleOrigin = {}

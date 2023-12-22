@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMultiplayerHeistState
-questMultiplayerHeistState = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Failure"] = 1, ---@type Enum
-    ["Victory"] = 2, ---@type Enum
-}
+---@class questMultiplayerHeistState: Enum
+---@field ["Invalid"] questMultiplayerHeistState 0
+---@field ["Failure"] questMultiplayerHeistState 1
+---@field ["Victory"] questMultiplayerHeistState 2
+questMultiplayerHeistState = {}

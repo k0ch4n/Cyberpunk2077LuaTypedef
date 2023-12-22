@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTelemetryHitDefenseType
-gameTelemetryHitDefenseType = {
-    ["Block"] = 0, ---@type Enum
-    ["Deflect"] = 1, ---@type Enum
-}
+---@class gameTelemetryHitDefenseType: Enum
+---@field ["Block"] gameTelemetryHitDefenseType 0
+---@field ["Deflect"] gameTelemetryHitDefenseType 1
+gameTelemetryHitDefenseType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum MessageViewType
-MessageViewType = {
-    ["Sent"] = 0, ---@type Enum
-    ["Received"] = 1, ---@type Enum
-}
+---@class MessageViewType: Enum
+---@field ["Sent"] MessageViewType 0
+---@field ["Received"] MessageViewType 1
+MessageViewType = {}

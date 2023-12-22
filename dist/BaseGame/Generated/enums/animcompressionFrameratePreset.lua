@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animcompressionFrameratePreset
-animcompressionFrameratePreset = {
-    ["USE_30_HZ"] = 0, ---@type Enum
-    ["USE_15_HZ"] = 1, ---@type Enum
-    ["USE_10_HZ"] = 2, ---@type Enum
-}
+---@class animcompressionFrameratePreset: Enum
+---@field ["USE_30_HZ"] animcompressionFrameratePreset 0
+---@field ["USE_15_HZ"] animcompressionFrameratePreset 1
+---@field ["USE_10_HZ"] animcompressionFrameratePreset 2
+animcompressionFrameratePreset = {}

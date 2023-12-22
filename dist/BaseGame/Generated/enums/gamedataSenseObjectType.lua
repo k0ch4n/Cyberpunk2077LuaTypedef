@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataSenseObjectType
-gamedataSenseObjectType = {
-    ["Camera"] = 0, ---@type Enum
-    ["Deadbody"] = 1, ---@type Enum
-    ["Follower"] = 2, ---@type Enum
-    ["Npc"] = 3, ---@type Enum
-    ["Player"] = 4, ---@type Enum
-    ["Turret"] = 5, ---@type Enum
-    ["Undefined"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataSenseObjectType: Enum
+---@field ["Camera"] gamedataSenseObjectType 0
+---@field ["Deadbody"] gamedataSenseObjectType 1
+---@field ["Follower"] gamedataSenseObjectType 2
+---@field ["Npc"] gamedataSenseObjectType 3
+---@field ["Player"] gamedataSenseObjectType 4
+---@field ["Turret"] gamedataSenseObjectType 5
+---@field ["Undefined"] gamedataSenseObjectType 6
+---@field ["Count"] gamedataSenseObjectType 7
+---@field ["Invalid"] gamedataSenseObjectType 8
+gamedataSenseObjectType = {}

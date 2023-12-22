@@ -1,25 +1,24 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum UIMenuNotificationType
-UIMenuNotificationType = {
-    ["VendorNotEnoughMoney"] = 0, ---@type Enum
-    ["VNotEnoughMoney"] = 1, ---@type Enum
-    ["VendorRequirementsNotMet"] = 2, ---@type Enum
-    ["InventoryActionBlocked"] = 3, ---@type Enum
-    ["CraftingNoPerks"] = 4, ---@type Enum
-    ["CraftingNotEnoughMaterial"] = 5, ---@type Enum
-    ["UpgradingLevelToLow"] = 6, ---@type Enum
-    ["NoPerksPoints"] = 7, ---@type Enum
-    ["PerksLocked"] = 8, ---@type Enum
-    ["MaxLevelPerks"] = 9, ---@type Enum
-    ["NoAttributePoints"] = 10, ---@type Enum
-    ["InCombat"] = 11, ---@type Enum
-    ["InCombatExplicit"] = 12, ---@type Enum
-    ["CraftingQuickhack"] = 13, ---@type Enum
-    ["CraftingAmmoCap"] = 14, ---@type Enum
-    ["PlayerReqLevelToLow"] = 15, ---@type Enum
-    ["InventoryNoFreeSlot"] = 16, ---@type Enum
-    ["FaceUnequipBlocked"] = 17, ---@type Enum
-    ["TutorialUnequipBlocked"] = 18, ---@type Enum
-}
+---@class UIMenuNotificationType: Enum
+---@field ["VendorNotEnoughMoney"] UIMenuNotificationType 0
+---@field ["VNotEnoughMoney"] UIMenuNotificationType 1
+---@field ["VendorRequirementsNotMet"] UIMenuNotificationType 2
+---@field ["InventoryActionBlocked"] UIMenuNotificationType 3
+---@field ["CraftingNoPerks"] UIMenuNotificationType 4
+---@field ["CraftingNotEnoughMaterial"] UIMenuNotificationType 5
+---@field ["UpgradingLevelToLow"] UIMenuNotificationType 6
+---@field ["NoPerksPoints"] UIMenuNotificationType 7
+---@field ["PerksLocked"] UIMenuNotificationType 8
+---@field ["MaxLevelPerks"] UIMenuNotificationType 9
+---@field ["NoAttributePoints"] UIMenuNotificationType 10
+---@field ["InCombat"] UIMenuNotificationType 11
+---@field ["InCombatExplicit"] UIMenuNotificationType 12
+---@field ["CraftingQuickhack"] UIMenuNotificationType 13
+---@field ["CraftingAmmoCap"] UIMenuNotificationType 14
+---@field ["PlayerReqLevelToLow"] UIMenuNotificationType 15
+---@field ["InventoryNoFreeSlot"] UIMenuNotificationType 16
+---@field ["FaceUnequipBlocked"] UIMenuNotificationType 17
+---@field ["TutorialUnequipBlocked"] UIMenuNotificationType 18
+UIMenuNotificationType = {}

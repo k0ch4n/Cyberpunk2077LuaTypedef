@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLocoStateType
-animLocoStateType = {
-    ["LS_Pre"] = 0, ---@type Enum
-    ["LS_Loop"] = 1, ---@type Enum
-}
+---@class animLocoStateType: Enum
+---@field ["LS_Pre"] animLocoStateType 0
+---@field ["LS_Loop"] animLocoStateType 1
+animLocoStateType = {}

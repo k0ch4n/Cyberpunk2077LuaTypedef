@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorCompletionStatus
-AIbehaviorCompletionStatus = {
-    ["FAILURE"] = 0, ---@type Enum
-    ["SUCCESS"] = 1, ---@type Enum
-}
+---@class AIbehaviorCompletionStatus: Enum
+---@field ["FAILURE"] AIbehaviorCompletionStatus 0
+---@field ["SUCCESS"] AIbehaviorCompletionStatus 1
+AIbehaviorCompletionStatus = {}

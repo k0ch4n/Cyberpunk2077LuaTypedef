@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELauncherActionType
-ELauncherActionType = {
-    ["QuickAction"] = 0, ---@type Enum
-    ["ChargeAction"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class ELauncherActionType: Enum
+---@field ["QuickAction"] ELauncherActionType 0
+---@field ["ChargeAction"] ELauncherActionType 1
+---@field ["None"] ELauncherActionType 2
+ELauncherActionType = {}

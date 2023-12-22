@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questControlCrowdAction
-questControlCrowdAction = {
-    ["Disable"] = 0, ---@type Enum
-    ["Enable"] = 1, ---@type Enum
-}
+---@class questControlCrowdAction: Enum
+---@field ["Disable"] questControlCrowdAction 0
+---@field ["Enable"] questControlCrowdAction 1
+questControlCrowdAction = {}

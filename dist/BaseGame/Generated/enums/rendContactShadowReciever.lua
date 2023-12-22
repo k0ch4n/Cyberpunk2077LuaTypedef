@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendContactShadowReciever
-rendContactShadowReciever = {
-    ["CSR_None"] = 0, ---@type Enum
-    ["CSR_All"] = 3, ---@type Enum
-    ["CSR_CharacterOnly"] = 2, ---@type Enum
-}
+---@class rendContactShadowReciever: Enum
+---@field ["CSR_None"] rendContactShadowReciever 0
+---@field ["CSR_All"] rendContactShadowReciever 3
+---@field ["CSR_CharacterOnly"] rendContactShadowReciever 2
+rendContactShadowReciever = {}

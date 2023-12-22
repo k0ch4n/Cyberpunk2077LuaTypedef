@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERenderingPlane
-ERenderingPlane = {
-    ["RPl_Scene"] = 0, ---@type Enum
-    ["RPl_Background"] = 1, ---@type Enum
-    ["RPl_Weapon"] = 2, ---@type Enum
-}
+---@class ERenderingPlane: Enum
+---@field ["RPl_Scene"] ERenderingPlane 0
+---@field ["RPl_Background"] ERenderingPlane 1
+---@field ["RPl_Weapon"] ERenderingPlane 2
+ERenderingPlane = {}

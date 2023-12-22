@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETargetManagerAnimGraphState
-ETargetManagerAnimGraphState = {
-    ["MODELOOKAT"] = 0, ---@type Enum
-    ["IDLE"] = 1, ---@type Enum
-    ["JAMMED"] = 2, ---@type Enum
-}
+---@class ETargetManagerAnimGraphState: Enum
+---@field ["MODELOOKAT"] ETargetManagerAnimGraphState 0
+---@field ["IDLE"] ETargetManagerAnimGraphState 1
+---@field ["JAMMED"] ETargetManagerAnimGraphState 2
+ETargetManagerAnimGraphState = {}

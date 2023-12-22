@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animESpaceMW
-animESpaceMW = {
-    ["Model"] = 0, ---@type Enum
-    ["World"] = 1, ---@type Enum
-}
+---@class animESpaceMW: Enum
+---@field ["Model"] animESpaceMW 0
+---@field ["World"] animESpaceMW 1
+animESpaceMW = {}

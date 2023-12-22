@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMCover
-gamePSMCover = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["InCover"] = 1, ---@type Enum
-    ["Peek"] = 2, ---@type Enum
-    ["Lean"] = 3, ---@type Enum
-    ["OutOfCover"] = 4, ---@type Enum
-}
+---@class gamePSMCover: Enum
+---@field ["Any"] gamePSMCover -1
+---@field ["Default"] gamePSMCover 0
+---@field ["InCover"] gamePSMCover 1
+---@field ["Peek"] gamePSMCover 2
+---@field ["Lean"] gamePSMCover 3
+---@field ["OutOfCover"] gamePSMCover 4
+gamePSMCover = {}

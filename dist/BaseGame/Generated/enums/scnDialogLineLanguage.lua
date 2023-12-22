@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnDialogLineLanguage
-scnDialogLineLanguage = {
-    ["Origin"] = 0, ---@type Enum
-    ["Creole"] = 1, ---@type Enum
-    ["Japanese"] = 2, ---@type Enum
-    ["Arabic"] = 4, ---@type Enum
-    ["Russian"] = 5, ---@type Enum
-    ["Chinese"] = 6, ---@type Enum
-    ["Brasilian"] = 7, ---@type Enum
-    ["English"] = 8, ---@type Enum
-    ["Korean"] = 9, ---@type Enum
-    ["Swahili"] = 10, ---@type Enum
-    ["French"] = 11, ---@type Enum
-    ["Polish"] = 12, ---@type Enum
-}
+---@class scnDialogLineLanguage: Enum
+---@field ["Origin"] scnDialogLineLanguage 0
+---@field ["Creole"] scnDialogLineLanguage 1
+---@field ["Japanese"] scnDialogLineLanguage 2
+---@field ["Arabic"] scnDialogLineLanguage 4
+---@field ["Russian"] scnDialogLineLanguage 5
+---@field ["Chinese"] scnDialogLineLanguage 6
+---@field ["Brasilian"] scnDialogLineLanguage 7
+---@field ["English"] scnDialogLineLanguage 8
+---@field ["Korean"] scnDialogLineLanguage 9
+---@field ["Swahili"] scnDialogLineLanguage 10
+---@field ["French"] scnDialogLineLanguage 11
+---@field ["Polish"] scnDialogLineLanguage 12
+scnDialogLineLanguage = {}

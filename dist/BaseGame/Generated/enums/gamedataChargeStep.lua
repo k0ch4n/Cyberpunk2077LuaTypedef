@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataChargeStep
-gamedataChargeStep = {
-    ["Idle"] = 0, ---@type Enum
-    ["Charging"] = 1, ---@type Enum
-    ["Charged"] = 2, ---@type Enum
-    ["Overcharging"] = 3, ---@type Enum
-    ["Discharging"] = 4, ---@type Enum
-}
+---@class gamedataChargeStep: Enum
+---@field ["Idle"] gamedataChargeStep 0
+---@field ["Charging"] gamedataChargeStep 1
+---@field ["Charged"] gamedataChargeStep 2
+---@field ["Overcharging"] gamedataChargeStep 3
+---@field ["Discharging"] gamedataChargeStep 4
+gamedataChargeStep = {}

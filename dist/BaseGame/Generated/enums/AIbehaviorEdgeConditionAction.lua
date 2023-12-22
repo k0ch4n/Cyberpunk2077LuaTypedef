@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorEdgeConditionAction
-AIbehaviorEdgeConditionAction = {
-    ["None"] = 0, ---@type Enum
-    ["Toggle"] = 1, ---@type Enum
-    ["TurnOn"] = 2, ---@type Enum
-    ["TurnOff"] = 3, ---@type Enum
-}
+---@class AIbehaviorEdgeConditionAction: Enum
+---@field ["None"] AIbehaviorEdgeConditionAction 0
+---@field ["Toggle"] AIbehaviorEdgeConditionAction 1
+---@field ["TurnOn"] AIbehaviorEdgeConditionAction 2
+---@field ["TurnOff"] AIbehaviorEdgeConditionAction 3
+AIbehaviorEdgeConditionAction = {}

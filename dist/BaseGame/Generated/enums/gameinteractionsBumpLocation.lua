@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsBumpLocation
-gameinteractionsBumpLocation = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Front"] = 1, ---@type Enum
-    ["Back"] = 2, ---@type Enum
-}
+---@class gameinteractionsBumpLocation: Enum
+---@field ["Invalid"] gameinteractionsBumpLocation 0
+---@field ["Front"] gameinteractionsBumpLocation 1
+---@field ["Back"] gameinteractionsBumpLocation 2
+gameinteractionsBumpLocation = {}

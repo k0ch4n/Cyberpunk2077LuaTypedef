@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEResetTypeNode
-animEResetTypeNode = {
-    ["RT_Reference"] = 0, ---@type Enum
-    ["RT_Indentity"] = 1, ---@type Enum
-}
+---@class animEResetTypeNode: Enum
+---@field ["RT_Reference"] animEResetTypeNode 0
+---@field ["RT_Indentity"] animEResetTypeNode 1
+animEResetTypeNode = {}

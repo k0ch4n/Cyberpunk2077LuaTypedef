@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMDetailedBodyDisposal
-gamePSMDetailedBodyDisposal = {
-    ["Default"] = 0, ---@type Enum
-    ["Dispose"] = 1, ---@type Enum
-    ["Lethal"] = 2, ---@type Enum
-    ["NonLethal"] = 3, ---@type Enum
-}
+---@class gamePSMDetailedBodyDisposal: Enum
+---@field ["Default"] gamePSMDetailedBodyDisposal 0
+---@field ["Dispose"] gamePSMDetailedBodyDisposal 1
+---@field ["Lethal"] gamePSMDetailedBodyDisposal 2
+---@field ["NonLethal"] gamePSMDetailedBodyDisposal 3
+gamePSMDetailedBodyDisposal = {}

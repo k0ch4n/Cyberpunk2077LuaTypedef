@@ -1,73 +1,72 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStimType
-gamedataStimType = {
-    ["AimingAt"] = 0, ---@type Enum
-    ["Alarm"] = 1, ---@type Enum
-    ["AreaEffect"] = 2, ---@type Enum
-    ["AskToFollowOrder"] = 3, ---@type Enum
-    ["Attention"] = 4, ---@type Enum
-    ["AudioEnemyPing"] = 5, ---@type Enum
-    ["Bullet"] = 6, ---@type Enum
-    ["Bump"] = 7, ---@type Enum
-    ["Call"] = 8, ---@type Enum
-    ["CarAlarm"] = 9, ---@type Enum
-    ["CarryBody"] = 10, ---@type Enum
-    ["Combat"] = 11, ---@type Enum
-    ["CombatCall"] = 12, ---@type Enum
-    ["CombatHit"] = 13, ---@type Enum
-    ["CombatWhistle"] = 14, ---@type Enum
-    ["CrimeWitness"] = 15, ---@type Enum
-    ["CrowdIllegalAction"] = 16, ---@type Enum
-    ["DeadBody"] = 17, ---@type Enum
-    ["DeviceExplosion"] = 18, ---@type Enum
-    ["Distract"] = 19, ---@type Enum
-    ["DodgeVehicle"] = 20, ---@type Enum
-    ["Driving"] = 21, ---@type Enum
-    ["Dying"] = 22, ---@type Enum
-    ["EnvironmentalHazard"] = 23, ---@type Enum
-    ["Explosion"] = 24, ---@type Enum
-    ["FootStepRegular"] = 25, ---@type Enum
-    ["FootStepSprint"] = 26, ---@type Enum
-    ["GrenadeLanded"] = 27, ---@type Enum
-    ["Gunshot"] = 28, ---@type Enum
-    ["Hacked"] = 29, ---@type Enum
-    ["HijackVehicle"] = 30, ---@type Enum
-    ["IllegalAction"] = 31, ---@type Enum
-    ["IllegalActionNoCombat"] = 32, ---@type Enum
-    ["IllegalInteraction"] = 33, ---@type Enum
-    ["LandingHard"] = 34, ---@type Enum
-    ["LandingRegular"] = 35, ---@type Enum
-    ["LandingVeryHard"] = 36, ---@type Enum
-    ["MeleeAttack"] = 37, ---@type Enum
-    ["MeleeHit"] = 38, ---@type Enum
-    ["OpeningDoor"] = 39, ---@type Enum
-    ["ProjectileDistraction"] = 40, ---@type Enum
-    ["Provoke"] = 41, ---@type Enum
-    ["Recon"] = 42, ---@type Enum
-    ["ReevaluateDetectionOverwrite"] = 43, ---@type Enum
-    ["Reload"] = 44, ---@type Enum
-    ["Reprimand"] = 45, ---@type Enum
-    ["ReprimandFinalWarning"] = 46, ---@type Enum
-    ["Scream"] = 47, ---@type Enum
-    ["SecurityBreach"] = 48, ---@type Enum
-    ["SilencedGunshot"] = 49, ---@type Enum
-    ["SilentAlarm"] = 50, ---@type Enum
-    ["SoundDistraction"] = 51, ---@type Enum
-    ["SpreadFear"] = 52, ---@type Enum
-    ["StopedAiming"] = 53, ---@type Enum
-    ["Terror"] = 54, ---@type Enum
-    ["TooCloseDistance"] = 55, ---@type Enum
-    ["UndeadCall"] = 56, ---@type Enum
-    ["VehicleHit"] = 57, ---@type Enum
-    ["VehicleHorn"] = 58, ---@type Enum
-    ["VisualDistract"] = 59, ---@type Enum
-    ["WarningDistance"] = 60, ---@type Enum
-    ["WeaponDisplayed"] = 61, ---@type Enum
-    ["WeaponHolstered"] = 62, ---@type Enum
-    ["WeaponSafe"] = 63, ---@type Enum
-    ["Whistle"] = 64, ---@type Enum
-    ["Count"] = 65, ---@type Enum
-    ["Invalid"] = 66, ---@type Enum
-}
+---@class gamedataStimType: Enum
+---@field ["AimingAt"] gamedataStimType 0
+---@field ["Alarm"] gamedataStimType 1
+---@field ["AreaEffect"] gamedataStimType 2
+---@field ["AskToFollowOrder"] gamedataStimType 3
+---@field ["Attention"] gamedataStimType 4
+---@field ["AudioEnemyPing"] gamedataStimType 5
+---@field ["Bullet"] gamedataStimType 6
+---@field ["Bump"] gamedataStimType 7
+---@field ["Call"] gamedataStimType 8
+---@field ["CarAlarm"] gamedataStimType 9
+---@field ["CarryBody"] gamedataStimType 10
+---@field ["Combat"] gamedataStimType 11
+---@field ["CombatCall"] gamedataStimType 12
+---@field ["CombatHit"] gamedataStimType 13
+---@field ["CombatWhistle"] gamedataStimType 14
+---@field ["CrimeWitness"] gamedataStimType 15
+---@field ["CrowdIllegalAction"] gamedataStimType 16
+---@field ["DeadBody"] gamedataStimType 17
+---@field ["DeviceExplosion"] gamedataStimType 18
+---@field ["Distract"] gamedataStimType 19
+---@field ["DodgeVehicle"] gamedataStimType 20
+---@field ["Driving"] gamedataStimType 21
+---@field ["Dying"] gamedataStimType 22
+---@field ["EnvironmentalHazard"] gamedataStimType 23
+---@field ["Explosion"] gamedataStimType 24
+---@field ["FootStepRegular"] gamedataStimType 25
+---@field ["FootStepSprint"] gamedataStimType 26
+---@field ["GrenadeLanded"] gamedataStimType 27
+---@field ["Gunshot"] gamedataStimType 28
+---@field ["Hacked"] gamedataStimType 29
+---@field ["HijackVehicle"] gamedataStimType 30
+---@field ["IllegalAction"] gamedataStimType 31
+---@field ["IllegalActionNoCombat"] gamedataStimType 32
+---@field ["IllegalInteraction"] gamedataStimType 33
+---@field ["LandingHard"] gamedataStimType 34
+---@field ["LandingRegular"] gamedataStimType 35
+---@field ["LandingVeryHard"] gamedataStimType 36
+---@field ["MeleeAttack"] gamedataStimType 37
+---@field ["MeleeHit"] gamedataStimType 38
+---@field ["OpeningDoor"] gamedataStimType 39
+---@field ["ProjectileDistraction"] gamedataStimType 40
+---@field ["Provoke"] gamedataStimType 41
+---@field ["Recon"] gamedataStimType 42
+---@field ["ReevaluateDetectionOverwrite"] gamedataStimType 43
+---@field ["Reload"] gamedataStimType 44
+---@field ["Reprimand"] gamedataStimType 45
+---@field ["ReprimandFinalWarning"] gamedataStimType 46
+---@field ["Scream"] gamedataStimType 47
+---@field ["SecurityBreach"] gamedataStimType 48
+---@field ["SilencedGunshot"] gamedataStimType 49
+---@field ["SilentAlarm"] gamedataStimType 50
+---@field ["SoundDistraction"] gamedataStimType 51
+---@field ["SpreadFear"] gamedataStimType 52
+---@field ["StopedAiming"] gamedataStimType 53
+---@field ["Terror"] gamedataStimType 54
+---@field ["TooCloseDistance"] gamedataStimType 55
+---@field ["UndeadCall"] gamedataStimType 56
+---@field ["VehicleHit"] gamedataStimType 57
+---@field ["VehicleHorn"] gamedataStimType 58
+---@field ["VisualDistract"] gamedataStimType 59
+---@field ["WarningDistance"] gamedataStimType 60
+---@field ["WeaponDisplayed"] gamedataStimType 61
+---@field ["WeaponHolstered"] gamedataStimType 62
+---@field ["WeaponSafe"] gamedataStimType 63
+---@field ["Whistle"] gamedataStimType 64
+---@field ["Count"] gamedataStimType 65
+---@field ["Invalid"] gamedataStimType 66
+gamedataStimType = {}

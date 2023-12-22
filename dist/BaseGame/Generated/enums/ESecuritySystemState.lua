@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESecuritySystemState
-ESecuritySystemState = {
-    ["UNINITIALIZED"] = 0, ---@type Enum
-    ["SAFE"] = 1, ---@type Enum
-    ["ALERTED"] = 2, ---@type Enum
-    ["COMBAT"] = 3, ---@type Enum
-}
+---@class ESecuritySystemState: Enum
+---@field ["UNINITIALIZED"] ESecuritySystemState 0
+---@field ["SAFE"] ESecuritySystemState 1
+---@field ["ALERTED"] ESecuritySystemState 2
+---@field ["COMBAT"] ESecuritySystemState 3
+ESecuritySystemState = {}

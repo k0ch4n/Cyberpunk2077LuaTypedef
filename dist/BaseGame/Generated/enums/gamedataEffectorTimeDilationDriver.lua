@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataEffectorTimeDilationDriver
-gamedataEffectorTimeDilationDriver = {
-    ["Source"] = 0, ---@type Enum
-    ["Target"] = 1, ---@type Enum
-    ["World"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataEffectorTimeDilationDriver: Enum
+---@field ["Source"] gamedataEffectorTimeDilationDriver 0
+---@field ["Target"] gamedataEffectorTimeDilationDriver 1
+---@field ["World"] gamedataEffectorTimeDilationDriver 2
+---@field ["Count"] gamedataEffectorTimeDilationDriver 3
+---@field ["Invalid"] gamedataEffectorTimeDilationDriver 4
+gamedataEffectorTimeDilationDriver = {}

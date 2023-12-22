@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum SignShape
-SignShape = {
-    ["RECTANGLE"] = 0, ---@type Enum
-    ["ARROWLEFT"] = 1, ---@type Enum
-    ["ARROWRIGHT"] = 2, ---@type Enum
-    ["SQUARE"] = 3, ---@type Enum
-}
+---@class SignShape: Enum
+---@field ["RECTANGLE"] SignShape 0
+---@field ["ARROWLEFT"] SignShape 1
+---@field ["ARROWRIGHT"] SignShape 2
+---@field ["SQUARE"] SignShape 3
+SignShape = {}

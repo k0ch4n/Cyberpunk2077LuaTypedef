@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataUIIconCensorFlag
-gamedataUIIconCensorFlag = {
-    ["Drugs"] = 0, ---@type Enum
-    ["Gore"] = 1, ---@type Enum
-    ["Homosexuality"] = 2, ---@type Enum
-    ["None"] = 3, ---@type Enum
-    ["Nudity"] = 4, ---@type Enum
-    ["OverSexualised"] = 5, ---@type Enum
-    ["Religion"] = 6, ---@type Enum
-    ["Suggestive"] = 7, ---@type Enum
-    ["Count"] = 8, ---@type Enum
-    ["Invalid"] = 9, ---@type Enum
-}
+---@class gamedataUIIconCensorFlag: Enum
+---@field ["Drugs"] gamedataUIIconCensorFlag 0
+---@field ["Gore"] gamedataUIIconCensorFlag 1
+---@field ["Homosexuality"] gamedataUIIconCensorFlag 2
+---@field ["None"] gamedataUIIconCensorFlag 3
+---@field ["Nudity"] gamedataUIIconCensorFlag 4
+---@field ["OverSexualised"] gamedataUIIconCensorFlag 5
+---@field ["Religion"] gamedataUIIconCensorFlag 6
+---@field ["Suggestive"] gamedataUIIconCensorFlag 7
+---@field ["Count"] gamedataUIIconCensorFlag 8
+---@field ["Invalid"] gamedataUIIconCensorFlag 9
+gamedataUIIconCensorFlag = {}

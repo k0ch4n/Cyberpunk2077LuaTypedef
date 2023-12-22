@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animVectorCoordinateType
-animVectorCoordinateType = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-    ["W"] = 3, ---@type Enum
-}
+---@class animVectorCoordinateType: Enum
+---@field ["X"] animVectorCoordinateType 0
+---@field ["Y"] animVectorCoordinateType 1
+---@field ["Z"] animVectorCoordinateType 2
+---@field ["W"] animVectorCoordinateType 3
+animVectorCoordinateType = {}

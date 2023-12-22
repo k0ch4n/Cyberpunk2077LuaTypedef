@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EColorPrimary
-EColorPrimary = {
-    ["PRIM_REC709"] = 0, ---@type Enum
-    ["PRIM_DCIP3"] = 1, ---@type Enum
-    ["PRIM_BT2020"] = 2, ---@type Enum
-}
+---@class EColorPrimary: Enum
+---@field ["PRIM_REC709"] EColorPrimary 0
+---@field ["PRIM_DCIP3"] EColorPrimary 1
+---@field ["PRIM_BT2020"] EColorPrimary 2
+EColorPrimary = {}

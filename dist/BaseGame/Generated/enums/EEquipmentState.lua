@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EEquipmentState
-EEquipmentState = {
-    ["Unequipped"] = 0, ---@type Enum
-    ["Equipped"] = 1, ---@type Enum
-    ["Equipping"] = 2, ---@type Enum
-    ["Unequipping"] = 3, ---@type Enum
-    ["FirstEquip"] = 4, ---@type Enum
-}
+---@class EEquipmentState: Enum
+---@field ["Unequipped"] EEquipmentState 0
+---@field ["Equipped"] EEquipmentState 1
+---@field ["Equipping"] EEquipmentState 2
+---@field ["Unequipping"] EEquipmentState 3
+---@field ["FirstEquip"] EEquipmentState 4
+EEquipmentState = {}

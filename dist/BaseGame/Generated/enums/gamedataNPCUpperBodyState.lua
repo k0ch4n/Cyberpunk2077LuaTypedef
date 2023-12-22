@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNPCUpperBodyState
-gamedataNPCUpperBodyState = {
-    ["Aim"] = 0, ---@type Enum
-    ["Any"] = 1, ---@type Enum
-    ["Attack"] = 2, ---@type Enum
-    ["ChargedAttack"] = 3, ---@type Enum
-    ["Defend"] = 4, ---@type Enum
-    ["Equip"] = 5, ---@type Enum
-    ["Normal"] = 6, ---@type Enum
-    ["Parry"] = 7, ---@type Enum
-    ["Reload"] = 8, ---@type Enum
-    ["Shoot"] = 9, ---@type Enum
-    ["Taunt"] = 10, ---@type Enum
-    ["Count"] = 11, ---@type Enum
-    ["Invalid"] = 12, ---@type Enum
-}
+---@class gamedataNPCUpperBodyState: Enum
+---@field ["Aim"] gamedataNPCUpperBodyState 0
+---@field ["Any"] gamedataNPCUpperBodyState 1
+---@field ["Attack"] gamedataNPCUpperBodyState 2
+---@field ["ChargedAttack"] gamedataNPCUpperBodyState 3
+---@field ["Defend"] gamedataNPCUpperBodyState 4
+---@field ["Equip"] gamedataNPCUpperBodyState 5
+---@field ["Normal"] gamedataNPCUpperBodyState 6
+---@field ["Parry"] gamedataNPCUpperBodyState 7
+---@field ["Reload"] gamedataNPCUpperBodyState 8
+---@field ["Shoot"] gamedataNPCUpperBodyState 9
+---@field ["Taunt"] gamedataNPCUpperBodyState 10
+---@field ["Count"] gamedataNPCUpperBodyState 11
+---@field ["Invalid"] gamedataNPCUpperBodyState 12
+gamedataNPCUpperBodyState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HubVendorMenuItems
-HubVendorMenuItems = {
-    ["Trade"] = 0, ---@type Enum
-    ["Cyberware"] = 1, ---@type Enum
-}
+---@class HubVendorMenuItems: Enum
+---@field ["Trade"] HubVendorMenuItems 0
+---@field ["Cyberware"] HubVendorMenuItems 1
+HubVendorMenuItems = {}

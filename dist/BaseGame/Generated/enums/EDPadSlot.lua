@@ -1,24 +1,23 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDPadSlot
-EDPadSlot = {
-    ["Left"] = 0, ---@type Enum
-    ["Up"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["Down"] = 3, ---@type Enum
-    ["LeftDouble"] = 4, ---@type Enum
-    ["UpDouble"] = 5, ---@type Enum
-    ["RightDouble"] = 6, ---@type Enum
-    ["DownDouble"] = 7, ---@type Enum
-    ["WeaponsWheel"] = 8, ---@type Enum
-    ["VehicleWheel"] = 9, ---@type Enum
-    ["GadgetWheel"] = 10, ---@type Enum
-    ["InteractionWheel"] = 11, ---@type Enum
-    ["Phone"] = 12, ---@type Enum
-    ["CallVehicle"] = 13, ---@type Enum
-    ["CycleObjective"] = 14, ---@type Enum
-    ["VehicleInsideWheel"] = 15, ---@type Enum
-    ["ConsumableWheel"] = 16, ---@type Enum
-    ["PocketRadio"] = 17, ---@type Enum
-}
+---@class EDPadSlot: Enum
+---@field ["Left"] EDPadSlot 0
+---@field ["Up"] EDPadSlot 1
+---@field ["Right"] EDPadSlot 2
+---@field ["Down"] EDPadSlot 3
+---@field ["LeftDouble"] EDPadSlot 4
+---@field ["UpDouble"] EDPadSlot 5
+---@field ["RightDouble"] EDPadSlot 6
+---@field ["DownDouble"] EDPadSlot 7
+---@field ["WeaponsWheel"] EDPadSlot 8
+---@field ["VehicleWheel"] EDPadSlot 9
+---@field ["GadgetWheel"] EDPadSlot 10
+---@field ["InteractionWheel"] EDPadSlot 11
+---@field ["Phone"] EDPadSlot 12
+---@field ["CallVehicle"] EDPadSlot 13
+---@field ["CycleObjective"] EDPadSlot 14
+---@field ["VehicleInsideWheel"] EDPadSlot 15
+---@field ["ConsumableWheel"] EDPadSlot 16
+---@field ["PocketRadio"] EDPadSlot 17
+EDPadSlot = {}

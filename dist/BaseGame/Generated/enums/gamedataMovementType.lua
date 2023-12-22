@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataMovementType
-gamedataMovementType = {
-    ["Run"] = 0, ---@type Enum
-    ["Sprint"] = 1, ---@type Enum
-    ["Strafe"] = 2, ---@type Enum
-    ["Walk"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataMovementType: Enum
+---@field ["Run"] gamedataMovementType 0
+---@field ["Sprint"] gamedataMovementType 1
+---@field ["Strafe"] gamedataMovementType 2
+---@field ["Walk"] gamedataMovementType 3
+---@field ["Count"] gamedataMovementType 4
+---@field ["Invalid"] gamedataMovementType 5
+gamedataMovementType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum JournalNotificationMode
-JournalNotificationMode = {
-    ["Default"] = 0, ---@type Enum
-    ["Menu"] = 1, ---@type Enum
-    ["HUD"] = 2, ---@type Enum
-}
+---@class JournalNotificationMode: Enum
+---@field ["Default"] JournalNotificationMode 0
+---@field ["Menu"] JournalNotificationMode 1
+---@field ["HUD"] JournalNotificationMode 2
+JournalNotificationMode = {}

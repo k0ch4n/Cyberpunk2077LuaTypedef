@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleQuestWindowDestruction
-vehicleQuestWindowDestruction = {
-    ["window_f"] = 0, ---@type Enum
-    ["window_fl"] = 1, ---@type Enum
-    ["window_fr"] = 2, ---@type Enum
-    ["window_bl"] = 3, ---@type Enum
-    ["window_br"] = 4, ---@type Enum
-    ["window_b"] = 5, ---@type Enum
-}
+---@class vehicleQuestWindowDestruction: Enum
+---@field ["window_f"] vehicleQuestWindowDestruction 0
+---@field ["window_fl"] vehicleQuestWindowDestruction 1
+---@field ["window_fr"] vehicleQuestWindowDestruction 2
+---@field ["window_bl"] vehicleQuestWindowDestruction 3
+---@field ["window_br"] vehicleQuestWindowDestruction 4
+---@field ["window_b"] vehicleQuestWindowDestruction 5
+vehicleQuestWindowDestruction = {}

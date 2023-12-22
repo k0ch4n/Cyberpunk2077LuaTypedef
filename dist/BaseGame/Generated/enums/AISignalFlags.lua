@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AISignalFlags
-AISignalFlags = {
-    ["Undefined"] = 0, ---@type Enum
-    ["OverridesSelf"] = 1, ---@type Enum
-    ["InterruptsSamePriorityTask"] = 2, ---@type Enum
-    ["InterruptsForcedBehavior"] = 4, ---@type Enum
-    ["AcceptsAdditives"] = 8, ---@type Enum
-}
+---@class AISignalFlags: Enum
+---@field ["Undefined"] AISignalFlags 0
+---@field ["OverridesSelf"] AISignalFlags 1
+---@field ["InterruptsSamePriorityTask"] AISignalFlags 2
+---@field ["InterruptsForcedBehavior"] AISignalFlags 4
+---@field ["AcceptsAdditives"] AISignalFlags 8
+AISignalFlags = {}

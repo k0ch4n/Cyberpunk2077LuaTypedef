@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameBreachUITrackingChange
-gameBreachUITrackingChange = {
-    ["NoChange"] = 0, ---@type Enum
-    ["StartedNew"] = 1, ---@type Enum
-    ["StoppedOnTimeout"] = 2, ---@type Enum
-    ["StoppedOnTargetDeath"] = 3, ---@type Enum
-    ["StoppedOnDestroyed"] = 6, ---@type Enum
-    ["StoppedForced"] = 7, ---@type Enum
-    ["Hidden"] = 8, ---@type Enum
-    ["Unhidden"] = 9, ---@type Enum
-}
+---@class gameBreachUITrackingChange: Enum
+---@field ["NoChange"] gameBreachUITrackingChange 0
+---@field ["StartedNew"] gameBreachUITrackingChange 1
+---@field ["StoppedOnTimeout"] gameBreachUITrackingChange 2
+---@field ["StoppedOnTargetDeath"] gameBreachUITrackingChange 3
+---@field ["StoppedOnDestroyed"] gameBreachUITrackingChange 6
+---@field ["StoppedForced"] gameBreachUITrackingChange 7
+---@field ["Hidden"] gameBreachUITrackingChange 8
+---@field ["Unhidden"] gameBreachUITrackingChange 9
+gameBreachUITrackingChange = {}

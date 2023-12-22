@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EItemOperationType
-EItemOperationType = {
-    ["ADD"] = 0, ---@type Enum
-    ["REMOVE"] = 1, ---@type Enum
-}
+---@class EItemOperationType: Enum
+---@field ["ADD"] EItemOperationType 0
+---@field ["REMOVE"] EItemOperationType 1
+EItemOperationType = {}

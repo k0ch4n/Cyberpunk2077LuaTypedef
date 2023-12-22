@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescPrimitiveTopologyType
-PSODescPrimitiveTopologyType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Point"] = 1, ---@type Enum
-    ["Line"] = 2, ---@type Enum
-    ["Triangle"] = 3, ---@type Enum
-    ["Patch"] = 4, ---@type Enum
-}
+---@class PSODescPrimitiveTopologyType: Enum
+---@field ["Invalid"] PSODescPrimitiveTopologyType 0
+---@field ["Point"] PSODescPrimitiveTopologyType 1
+---@field ["Line"] PSODescPrimitiveTopologyType 2
+---@field ["Triangle"] PSODescPrimitiveTopologyType 3
+---@field ["Patch"] PSODescPrimitiveTopologyType 4
+PSODescPrimitiveTopologyType = {}

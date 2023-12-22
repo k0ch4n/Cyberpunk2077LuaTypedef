@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum operationsMode
-operationsMode = {
-    ["PLAYER"] = 0, ---@type Enum
-    ["FLATHEAD"] = 1, ---@type Enum
-    ["TOOLBOX"] = 2, ---@type Enum
-}
+---@class operationsMode: Enum
+---@field ["PLAYER"] operationsMode 0
+---@field ["FLATHEAD"] operationsMode 1
+---@field ["TOOLBOX"] operationsMode 2
+operationsMode = {}

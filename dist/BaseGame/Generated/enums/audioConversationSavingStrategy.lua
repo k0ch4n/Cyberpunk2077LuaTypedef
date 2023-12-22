@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioConversationSavingStrategy
-audioConversationSavingStrategy = {
-    ["Default"] = 0, ---@type Enum
-    ["Save"] = 1, ---@type Enum
-    ["DontSave"] = 2, ---@type Enum
-}
+---@class audioConversationSavingStrategy: Enum
+---@field ["Default"] audioConversationSavingStrategy 0
+---@field ["Save"] audioConversationSavingStrategy 1
+---@field ["DontSave"] audioConversationSavingStrategy 2
+audioConversationSavingStrategy = {}

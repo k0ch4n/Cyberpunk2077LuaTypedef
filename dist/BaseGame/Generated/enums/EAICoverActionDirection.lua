@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAICoverActionDirection
-EAICoverActionDirection = {
-    ["Front"] = 0, ---@type Enum
-    ["FrontRight"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["BackRight"] = 3, ---@type Enum
-    ["Back"] = 4, ---@type Enum
-    ["BackLeft"] = 5, ---@type Enum
-    ["Left"] = 6, ---@type Enum
-    ["FrontLeft"] = 7, ---@type Enum
-}
+---@class EAICoverActionDirection: Enum
+---@field ["Front"] EAICoverActionDirection 0
+---@field ["FrontRight"] EAICoverActionDirection 1
+---@field ["Right"] EAICoverActionDirection 2
+---@field ["BackRight"] EAICoverActionDirection 3
+---@field ["Back"] EAICoverActionDirection 4
+---@field ["BackLeft"] EAICoverActionDirection 5
+---@field ["Left"] EAICoverActionDirection 6
+---@field ["FrontLeft"] EAICoverActionDirection 7
+EAICoverActionDirection = {}

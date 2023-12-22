@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEMaterialZone
-gameEMaterialZone = {
-    ["Zero"] = 0, ---@type Enum
-    ["One"] = 1, ---@type Enum
-    ["Two"] = 2, ---@type Enum
-    ["Three"] = 3, ---@type Enum
-}
+---@class gameEMaterialZone: Enum
+---@field ["Zero"] gameEMaterialZone 0
+---@field ["One"] gameEMaterialZone 1
+---@field ["Two"] gameEMaterialZone 2
+---@field ["Three"] gameEMaterialZone 3
+gameEMaterialZone = {}

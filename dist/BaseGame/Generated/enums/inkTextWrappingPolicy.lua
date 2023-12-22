@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkTextWrappingPolicy
-inkTextWrappingPolicy = {
-    ["SingleLine"] = 0, ---@type Enum
-    ["MultiLine"] = 1, ---@type Enum
-    ["MultilineNoWrap"] = 2, ---@type Enum
-}
+---@class inkTextWrappingPolicy: Enum
+---@field ["SingleLine"] inkTextWrappingPolicy 0
+---@field ["MultiLine"] inkTextWrappingPolicy 1
+---@field ["MultilineNoWrap"] inkTextWrappingPolicy 2
+inkTextWrappingPolicy = {}

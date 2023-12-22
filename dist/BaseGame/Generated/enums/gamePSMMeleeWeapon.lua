@@ -1,29 +1,28 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMMeleeWeapon
-gamePSMMeleeWeapon = {
-    ["NotReady"] = 0, ---@type Enum
-    ["Equipping"] = 1, ---@type Enum
-    ["Idle"] = 2, ---@type Enum
-    ["Safe"] = 3, ---@type Enum
-    ["PublicSafe"] = 4, ---@type Enum
-    ["Parried"] = 5, ---@type Enum
-    ["Hold"] = 6, ---@type Enum
-    ["ChargedHold"] = 7, ---@type Enum
-    ["Block"] = 8, ---@type Enum
-    ["Targeting"] = 9, ---@type Enum
-    ["Deflect"] = 10, ---@type Enum
-    ["ComboAttack"] = 11, ---@type Enum
-    ["FinalAttack"] = 12, ---@type Enum
-    ["StrongAttack"] = 13, ---@type Enum
-    ["SafeAttack"] = 14, ---@type Enum
-    ["BlockAttack"] = 15, ---@type Enum
-    ["SprintAttack"] = 16, ---@type Enum
-    ["CrouchAttack"] = 17, ---@type Enum
-    ["JumpAttack"] = 18, ---@type Enum
-    ["ThrowAttack"] = 19, ---@type Enum
-    ["DeflectAttack"] = 20, ---@type Enum
-    ["EquipAttack"] = 21, ---@type Enum
-    ["Default"] = 22, ---@type Enum
-}
+---@class gamePSMMeleeWeapon: Enum
+---@field ["NotReady"] gamePSMMeleeWeapon 0
+---@field ["Equipping"] gamePSMMeleeWeapon 1
+---@field ["Idle"] gamePSMMeleeWeapon 2
+---@field ["Safe"] gamePSMMeleeWeapon 3
+---@field ["PublicSafe"] gamePSMMeleeWeapon 4
+---@field ["Parried"] gamePSMMeleeWeapon 5
+---@field ["Hold"] gamePSMMeleeWeapon 6
+---@field ["ChargedHold"] gamePSMMeleeWeapon 7
+---@field ["Block"] gamePSMMeleeWeapon 8
+---@field ["Targeting"] gamePSMMeleeWeapon 9
+---@field ["Deflect"] gamePSMMeleeWeapon 10
+---@field ["ComboAttack"] gamePSMMeleeWeapon 11
+---@field ["FinalAttack"] gamePSMMeleeWeapon 12
+---@field ["StrongAttack"] gamePSMMeleeWeapon 13
+---@field ["SafeAttack"] gamePSMMeleeWeapon 14
+---@field ["BlockAttack"] gamePSMMeleeWeapon 15
+---@field ["SprintAttack"] gamePSMMeleeWeapon 16
+---@field ["CrouchAttack"] gamePSMMeleeWeapon 17
+---@field ["JumpAttack"] gamePSMMeleeWeapon 18
+---@field ["ThrowAttack"] gamePSMMeleeWeapon 19
+---@field ["DeflectAttack"] gamePSMMeleeWeapon 20
+---@field ["EquipAttack"] gamePSMMeleeWeapon 21
+---@field ["Default"] gamePSMMeleeWeapon 22
+gamePSMMeleeWeapon = {}

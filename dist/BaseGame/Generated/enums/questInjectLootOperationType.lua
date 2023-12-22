@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questInjectLootOperationType
-questInjectLootOperationType = {
-    ["Inject"] = 0, ---@type Enum
-    ["Remove"] = 1, ---@type Enum
-    ["RemoveAll"] = 2, ---@type Enum
-}
+---@class questInjectLootOperationType: Enum
+---@field ["Inject"] questInjectLootOperationType 0
+---@field ["Remove"] questInjectLootOperationType 1
+---@field ["RemoveAll"] questInjectLootOperationType 2
+questInjectLootOperationType = {}

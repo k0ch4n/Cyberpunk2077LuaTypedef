@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIHitBodyPart
-EAIHitBodyPart = {
-    ["None"] = -1, ---@type Enum
-    ["Head"] = 1, ---@type Enum
-    ["LeftTorso"] = 2, ---@type Enum
-    ["RightTorso"] = 3, ---@type Enum
-    ["Belly"] = 4, ---@type Enum
-    ["LeftLeg"] = 5, ---@type Enum
-    ["RightLeg"] = 6, ---@type Enum
-}
+---@class EAIHitBodyPart: Enum
+---@field ["None"] EAIHitBodyPart -1
+---@field ["Head"] EAIHitBodyPart 1
+---@field ["LeftTorso"] EAIHitBodyPart 2
+---@field ["RightTorso"] EAIHitBodyPart 3
+---@field ["Belly"] EAIHitBodyPart 4
+---@field ["LeftLeg"] EAIHitBodyPart 5
+---@field ["RightLeg"] EAIHitBodyPart 6
+EAIHitBodyPart = {}

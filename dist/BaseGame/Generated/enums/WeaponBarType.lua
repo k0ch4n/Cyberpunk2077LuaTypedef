@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum WeaponBarType
-WeaponBarType = {
-    ["AttackSpeed"] = 0, ---@type Enum
-    ["DamagePerHit"] = 1, ---@type Enum
-    ["ReloadSpeed"] = 2, ---@type Enum
-    ["Range"] = 3, ---@type Enum
-    ["Handling"] = 4, ---@type Enum
-    ["Stamina"] = 5, ---@type Enum
-    ["RangedCount"] = 6, ---@type Enum
-    ["MeleeAttackSpeed"] = 7, ---@type Enum
-    ["MeleeDamagePerHit"] = 8, ---@type Enum
-    ["MeleeStamina"] = 9, ---@type Enum
-    ["ThrowableEffectiveRange"] = 10, ---@type Enum
-    ["ThrowableReturnTime"] = 11, ---@type Enum
-    ["MeleeCount"] = 12, ---@type Enum
-    ["CyberwareAttackSpeed"] = 13, ---@type Enum
-    ["CyberwareDamagePerHit"] = 14, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class WeaponBarType: Enum
+---@field ["AttackSpeed"] WeaponBarType 0
+---@field ["DamagePerHit"] WeaponBarType 1
+---@field ["ReloadSpeed"] WeaponBarType 2
+---@field ["Range"] WeaponBarType 3
+---@field ["Handling"] WeaponBarType 4
+---@field ["Stamina"] WeaponBarType 5
+---@field ["RangedCount"] WeaponBarType 6
+---@field ["MeleeAttackSpeed"] WeaponBarType 7
+---@field ["MeleeDamagePerHit"] WeaponBarType 8
+---@field ["MeleeStamina"] WeaponBarType 9
+---@field ["ThrowableEffectiveRange"] WeaponBarType 10
+---@field ["ThrowableReturnTime"] WeaponBarType 11
+---@field ["MeleeCount"] WeaponBarType 12
+---@field ["CyberwareAttackSpeed"] WeaponBarType 13
+---@field ["CyberwareDamagePerHit"] WeaponBarType 14
+---@field ["Invalid"] WeaponBarType -1
+WeaponBarType = {}

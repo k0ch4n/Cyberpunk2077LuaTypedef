@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataMappinPhase
-gamedataMappinPhase = {
-    ["CompletedPhase"] = 0, ---@type Enum
-    ["DefaultPhase"] = 1, ---@type Enum
-    ["DiscoveredPhase"] = 2, ---@type Enum
-    ["UndiscoveredPhase"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataMappinPhase: Enum
+---@field ["CompletedPhase"] gamedataMappinPhase 0
+---@field ["DefaultPhase"] gamedataMappinPhase 1
+---@field ["DiscoveredPhase"] gamedataMappinPhase 2
+---@field ["UndiscoveredPhase"] gamedataMappinPhase 3
+---@field ["Count"] gamedataMappinPhase 4
+---@field ["Invalid"] gamedataMappinPhase 5
+gamedataMappinPhase = {}

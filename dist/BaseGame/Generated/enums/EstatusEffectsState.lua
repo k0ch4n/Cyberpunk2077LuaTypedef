@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EstatusEffectsState
-EstatusEffectsState = {
-    ["Deactivated"] = 0, ---@type Enum
-    ["Activating"] = 1, ---@type Enum
-    ["Activated"] = 2, ---@type Enum
-}
+---@class EstatusEffectsState: Enum
+---@field ["Deactivated"] EstatusEffectsState 0
+---@field ["Activating"] EstatusEffectsState 1
+---@field ["Activated"] EstatusEffectsState 2
+EstatusEffectsState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Codeware_Localization_EntryType
-Codeware_Localization_EntryType = {
-    ["Interface"] = 0, ---@type Enum
-    ["Subtitle"] = 1, ---@type Enum
-}
+---@class Codeware_Localization_EntryType: Enum
+---@field ["Interface"] Codeware_Localization_EntryType 0
+---@field ["Subtitle"] Codeware_Localization_EntryType 1
+Codeware_Localization_EntryType = {}

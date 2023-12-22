@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum SAnimationBufferBitwiseCompressionPreset
-SAnimationBufferBitwiseCompressionPreset = {
-    ["ABBCP_Custom"] = 0, ---@type Enum
-    ["ABBCP_VeryHighQuality"] = 1, ---@type Enum
-    ["ABBCP_HighQuality"] = 2, ---@type Enum
-    ["ABBCP_NormalQuality"] = 3, ---@type Enum
-    ["ABBCP_LowQuality"] = 4, ---@type Enum
-    ["ABBCP_VeryLowQuality"] = 5, ---@type Enum
-    ["ABBCP_Raw"] = 6, ---@type Enum
-}
+---@class SAnimationBufferBitwiseCompressionPreset: Enum
+---@field ["ABBCP_Custom"] SAnimationBufferBitwiseCompressionPreset 0
+---@field ["ABBCP_VeryHighQuality"] SAnimationBufferBitwiseCompressionPreset 1
+---@field ["ABBCP_HighQuality"] SAnimationBufferBitwiseCompressionPreset 2
+---@field ["ABBCP_NormalQuality"] SAnimationBufferBitwiseCompressionPreset 3
+---@field ["ABBCP_LowQuality"] SAnimationBufferBitwiseCompressionPreset 4
+---@field ["ABBCP_VeryLowQuality"] SAnimationBufferBitwiseCompressionPreset 5
+---@field ["ABBCP_Raw"] SAnimationBufferBitwiseCompressionPreset 6
+SAnimationBufferBitwiseCompressionPreset = {}

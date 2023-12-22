@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiBaseMenuGameControllerPuppetGenderInfo
-gameuiBaseMenuGameControllerPuppetGenderInfo = {
-    ["Male"] = 0, ---@type Enum
-    ["Female"] = 1, ---@type Enum
-    ["ShouldBeDetermined"] = 2, ---@type Enum
-}
+---@class gameuiBaseMenuGameControllerPuppetGenderInfo: Enum
+---@field ["Male"] gameuiBaseMenuGameControllerPuppetGenderInfo 0
+---@field ["Female"] gameuiBaseMenuGameControllerPuppetGenderInfo 1
+---@field ["ShouldBeDetermined"] gameuiBaseMenuGameControllerPuppetGenderInfo 2
+gameuiBaseMenuGameControllerPuppetGenderInfo = {}

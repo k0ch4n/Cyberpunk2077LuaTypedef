@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameComparisonType
-gameComparisonType = {
-    ["EQUAL"] = 0, ---@type Enum
-    ["NOT_EQUAL"] = 1, ---@type Enum
-    ["LESS"] = 2, ---@type Enum
-    ["GREATER"] = 3, ---@type Enum
-    ["LESS_OR_EQUAL"] = 4, ---@type Enum
-    ["GREATER_OR_EQUAL"] = 5, ---@type Enum
-}
+---@class gameComparisonType: Enum
+---@field ["EQUAL"] gameComparisonType 0
+---@field ["NOT_EQUAL"] gameComparisonType 1
+---@field ["LESS"] gameComparisonType 2
+---@field ["GREATER"] gameComparisonType 3
+---@field ["LESS_OR_EQUAL"] gameComparisonType 4
+---@field ["GREATER_OR_EQUAL"] gameComparisonType 5
+gameComparisonType = {}

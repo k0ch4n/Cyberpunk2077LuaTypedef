@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameprojectileELaunchMode
-gameprojectileELaunchMode = {
-    ["Default"] = 0, ---@type Enum
-    ["FromLogic"] = 1, ---@type Enum
-    ["FromVisuals"] = 2, ---@type Enum
-}
+---@class gameprojectileELaunchMode: Enum
+---@field ["Default"] gameprojectileELaunchMode 0
+---@field ["FromLogic"] gameprojectileELaunchMode 1
+---@field ["FromVisuals"] gameprojectileELaunchMode 2
+gameprojectileELaunchMode = {}

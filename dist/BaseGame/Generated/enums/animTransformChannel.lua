@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animTransformChannel
-animTransformChannel = {
-    ["PosX"] = 0, ---@type Enum
-    ["PosY"] = 1, ---@type Enum
-    ["PosZ"] = 2, ---@type Enum
-    ["RotX"] = 3, ---@type Enum
-    ["RotY"] = 4, ---@type Enum
-    ["RotZ"] = 5, ---@type Enum
-    ["ScaleX"] = 6, ---@type Enum
-    ["ScaleY"] = 7, ---@type Enum
-    ["ScaleZ"] = 8, ---@type Enum
-}
+---@class animTransformChannel: Enum
+---@field ["PosX"] animTransformChannel 0
+---@field ["PosY"] animTransformChannel 1
+---@field ["PosZ"] animTransformChannel 2
+---@field ["RotX"] animTransformChannel 3
+---@field ["RotY"] animTransformChannel 4
+---@field ["RotZ"] animTransformChannel 5
+---@field ["ScaleX"] animTransformChannel 6
+---@field ["ScaleY"] animTransformChannel 7
+---@field ["ScaleZ"] animTransformChannel 8
+animTransformChannel = {}

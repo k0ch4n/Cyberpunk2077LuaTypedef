@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DynamicTextureDataFormat
-DynamicTextureDataFormat = {
-    ["R_Uint8"] = 0, ---@type Enum
-    ["R_Float16"] = 1, ---@type Enum
-    ["R_Float32"] = 2, ---@type Enum
-    ["RG_Float16"] = 3, ---@type Enum
-    ["RG_Float32"] = 4, ---@type Enum
-    ["RGBA_Uint8"] = 5, ---@type Enum
-    ["RGBA_Uint8_SRGB"] = 6, ---@type Enum
-    ["RGBA_Float16"] = 7, ---@type Enum
-    ["RGBA_Float32"] = 8, ---@type Enum
-}
+---@class DynamicTextureDataFormat: Enum
+---@field ["R_Uint8"] DynamicTextureDataFormat 0
+---@field ["R_Float16"] DynamicTextureDataFormat 1
+---@field ["R_Float32"] DynamicTextureDataFormat 2
+---@field ["RG_Float16"] DynamicTextureDataFormat 3
+---@field ["RG_Float32"] DynamicTextureDataFormat 4
+---@field ["RGBA_Uint8"] DynamicTextureDataFormat 5
+---@field ["RGBA_Uint8_SRGB"] DynamicTextureDataFormat 6
+---@field ["RGBA_Float16"] DynamicTextureDataFormat 7
+---@field ["RGBA_Float32"] DynamicTextureDataFormat 8
+DynamicTextureDataFormat = {}

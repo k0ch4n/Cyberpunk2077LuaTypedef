@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleTPPCameraHeight
-vehicleTPPCameraHeight = {
-    ["Low"] = 0, ---@type Enum
-    ["High"] = 1, ---@type Enum
-}
+---@class vehicleTPPCameraHeight: Enum
+---@field ["Low"] vehicleTPPCameraHeight 0
+---@field ["High"] vehicleTPPCameraHeight 1
+vehicleTPPCameraHeight = {}

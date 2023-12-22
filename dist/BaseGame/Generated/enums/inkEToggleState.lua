@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEToggleState
-inkEToggleState = {
-    ["Normal"] = 0, ---@type Enum
-    ["Press"] = 1, ---@type Enum
-    ["Hover"] = 2, ---@type Enum
-    ["Disabled"] = 3, ---@type Enum
-    ["Toggled"] = 4, ---@type Enum
-    ["ToggledPress"] = 5, ---@type Enum
-    ["ToggledHover"] = 6, ---@type Enum
-}
+---@class inkEToggleState: Enum
+---@field ["Normal"] inkEToggleState 0
+---@field ["Press"] inkEToggleState 1
+---@field ["Hover"] inkEToggleState 2
+---@field ["Disabled"] inkEToggleState 3
+---@field ["Toggled"] inkEToggleState 4
+---@field ["ToggledPress"] inkEToggleState 5
+---@field ["ToggledHover"] inkEToggleState 6
+inkEToggleState = {}

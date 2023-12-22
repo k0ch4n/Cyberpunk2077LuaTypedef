@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEntitySpawnerEventType
-gameEntitySpawnerEventType = {
-    ["Spawn"] = 2, ---@type Enum
-    ["Despawn"] = 3, ---@type Enum
-    ["Death"] = 4, ---@type Enum
-}
+---@class gameEntitySpawnerEventType: Enum
+---@field ["Spawn"] gameEntitySpawnerEventType 2
+---@field ["Despawn"] gameEntitySpawnerEventType 3
+---@field ["Death"] gameEntitySpawnerEventType 4
+gameEntitySpawnerEventType = {}

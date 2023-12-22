@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questObjectInspectEventType
-questObjectInspectEventType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Started"] = 1, ---@type Enum
-    ["Finished"] = 2, ---@type Enum
-}
+---@class questObjectInspectEventType: Enum
+---@field ["Undefined"] questObjectInspectEventType 0
+---@field ["Started"] questObjectInspectEventType 1
+---@field ["Finished"] questObjectInspectEventType 2
+questObjectInspectEventType = {}

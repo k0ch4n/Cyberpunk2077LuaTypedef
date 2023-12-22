@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PhoneDialerTabs
-PhoneDialerTabs = {
-    ["Unread"] = 0, ---@type Enum
-    ["Contacts"] = 1, ---@type Enum
-}
+---@class PhoneDialerTabs: Enum
+---@field ["Unread"] PhoneDialerTabs 0
+---@field ["Contacts"] PhoneDialerTabs 1
+PhoneDialerTabs = {}

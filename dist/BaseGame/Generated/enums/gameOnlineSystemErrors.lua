@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameOnlineSystemErrors
-gameOnlineSystemErrors = {
-    ["None"] = 0, ---@type Enum
-    ["RequestFailed"] = 1, ---@type Enum
-    ["TemporaryFailure"] = 2, ---@type Enum
-    ["NoInternetConnection"] = 3, ---@type Enum
-    ["NotSignedInGalaxy"] = 4, ---@type Enum
-    ["NotSignedInLauncher"] = 5, ---@type Enum
-    ["NotSignedInGame"] = 6, ---@type Enum
-}
+---@class gameOnlineSystemErrors: Enum
+---@field ["None"] gameOnlineSystemErrors 0
+---@field ["RequestFailed"] gameOnlineSystemErrors 1
+---@field ["TemporaryFailure"] gameOnlineSystemErrors 2
+---@field ["NoInternetConnection"] gameOnlineSystemErrors 3
+---@field ["NotSignedInGalaxy"] gameOnlineSystemErrors 4
+---@field ["NotSignedInLauncher"] gameOnlineSystemErrors 5
+---@field ["NotSignedInGame"] gameOnlineSystemErrors 6
+gameOnlineSystemErrors = {}

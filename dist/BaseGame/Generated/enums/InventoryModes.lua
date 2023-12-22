@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InventoryModes
-InventoryModes = {
-    ["Default"] = 0, ---@type Enum
-    ["Item"] = 1, ---@type Enum
-}
+---@class InventoryModes: Enum
+---@field ["Default"] InventoryModes 0
+---@field ["Item"] InventoryModes 1
+InventoryModes = {}

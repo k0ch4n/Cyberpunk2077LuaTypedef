@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescRasterizerModeCullMode
-PSODescRasterizerModeCullMode = {
-    ["CULL_None"] = 0, ---@type Enum
-    ["CULL_Front"] = 1, ---@type Enum
-    ["CULL_Back"] = 2, ---@type Enum
-}
+---@class PSODescRasterizerModeCullMode: Enum
+---@field ["CULL_None"] PSODescRasterizerModeCullMode 0
+---@field ["CULL_Front"] PSODescRasterizerModeCullMode 1
+---@field ["CULL_Back"] PSODescRasterizerModeCullMode 2
+PSODescRasterizerModeCullMode = {}

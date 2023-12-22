@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RadialHubMenuElement
-RadialHubMenuElement = {
-    ["None"] = 0, ---@type Enum
-    ["Inventory"] = 1, ---@type Enum
-    ["Map"] = 2, ---@type Enum
-    ["Character"] = 3, ---@type Enum
-    ["Journal"] = 4, ---@type Enum
-}
+---@class RadialHubMenuElement: Enum
+---@field ["None"] RadialHubMenuElement 0
+---@field ["Inventory"] RadialHubMenuElement 1
+---@field ["Map"] RadialHubMenuElement 2
+---@field ["Character"] RadialHubMenuElement 3
+---@field ["Journal"] RadialHubMenuElement 4
+RadialHubMenuElement = {}

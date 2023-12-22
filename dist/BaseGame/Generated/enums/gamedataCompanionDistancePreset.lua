@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataCompanionDistancePreset
-gamedataCompanionDistancePreset = {
-    ["Close"] = 0, ---@type Enum
-    ["Far"] = 1, ---@type Enum
-    ["Medium"] = 2, ---@type Enum
-    ["VeryFar"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataCompanionDistancePreset: Enum
+---@field ["Close"] gamedataCompanionDistancePreset 0
+---@field ["Far"] gamedataCompanionDistancePreset 1
+---@field ["Medium"] gamedataCompanionDistancePreset 2
+---@field ["VeryFar"] gamedataCompanionDistancePreset 3
+---@field ["Count"] gamedataCompanionDistancePreset 4
+---@field ["Invalid"] gamedataCompanionDistancePreset 5
+gamedataCompanionDistancePreset = {}

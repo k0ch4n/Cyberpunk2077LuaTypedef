@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EComputerAnimationState
-EComputerAnimationState = {
-    ["None"] = 0, ---@type Enum
-    ["Opened"] = 1, ---@type Enum
-    ["Closed"] = 2, ---@type Enum
-}
+---@class EComputerAnimationState: Enum
+---@field ["None"] EComputerAnimationState 0
+---@field ["Opened"] EComputerAnimationState 1
+---@field ["Closed"] EComputerAnimationState 2
+EComputerAnimationState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectObjectFilter_EntityTypeEntityTypeFilter
-gameEffectObjectFilter_EntityTypeEntityTypeFilter = {
-    ["Puppet"] = 0, ---@type Enum
-    ["Device"] = 1, ---@type Enum
-}
+---@class gameEffectObjectFilter_EntityTypeEntityTypeFilter: Enum
+---@field ["Puppet"] gameEffectObjectFilter_EntityTypeEntityTypeFilter 0
+---@field ["Device"] gameEffectObjectFilter_EntityTypeEntityTypeFilter 1
+gameEffectObjectFilter_EntityTypeEntityTypeFilter = {}

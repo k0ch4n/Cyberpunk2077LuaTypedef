@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum VisualState
-VisualState = {
-    ["OFF"] = 0, ---@type Enum
-    ["RUNNING"] = 1, ---@type Enum
-    ["MALFUNCTIONING"] = 2, ---@type Enum
-    ["ON"] = 3, ---@type Enum
-}
+---@class VisualState: Enum
+---@field ["OFF"] VisualState 0
+---@field ["RUNNING"] VisualState 1
+---@field ["MALFUNCTIONING"] VisualState 2
+---@field ["ON"] VisualState 3
+VisualState = {}

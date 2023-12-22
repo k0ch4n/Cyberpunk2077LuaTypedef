@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum grsHeistStatus
-grsHeistStatus = {
-    ["Waiting"] = 0, ---@type Enum
-    ["Starting"] = 1, ---@type Enum
-    ["Lobby"] = 2, ---@type Enum
-    ["InGame"] = 3, ---@type Enum
-    ["Ending"] = 4, ---@type Enum
-    ["Victory"] = 5, ---@type Enum
-    ["Failure"] = 6, ---@type Enum
-}
+---@class grsHeistStatus: Enum
+---@field ["Waiting"] grsHeistStatus 0
+---@field ["Starting"] grsHeistStatus 1
+---@field ["Lobby"] grsHeistStatus 2
+---@field ["InGame"] grsHeistStatus 3
+---@field ["Ending"] grsHeistStatus 4
+---@field ["Victory"] grsHeistStatus 5
+---@field ["Failure"] grsHeistStatus 6
+grsHeistStatus = {}

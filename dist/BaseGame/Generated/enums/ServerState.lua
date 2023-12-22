@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ServerState
-ServerState = {
-    ["Inactive"] = 0, ---@type Enum
-    ["Active"] = 1, ---@type Enum
-    ["Damaged"] = 2, ---@type Enum
-    ["Destroyed"] = 3, ---@type Enum
-}
+---@class ServerState: Enum
+---@field ["Inactive"] ServerState 0
+---@field ["Active"] ServerState 1
+---@field ["Damaged"] ServerState 2
+---@field ["Destroyed"] ServerState 3
+ServerState = {}

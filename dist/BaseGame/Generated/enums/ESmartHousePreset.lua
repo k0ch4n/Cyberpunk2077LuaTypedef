@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESmartHousePreset
-ESmartHousePreset = {
-    ["MorningPreset"] = 0, ---@type Enum
-    ["EveningPreset"] = 1, ---@type Enum
-    ["NightPreset"] = 2, ---@type Enum
-}
+---@class ESmartHousePreset: Enum
+---@field ["MorningPreset"] ESmartHousePreset 0
+---@field ["EveningPreset"] ESmartHousePreset 1
+---@field ["NightPreset"] ESmartHousePreset 2
+ESmartHousePreset = {}

@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeShooterAIType
-gameuiarcadeShooterAIType = {
-    ["MELEE"] = 0, ---@type Enum
-    ["RANGESHOOTER"] = 1, ---@type Enum
-    ["RANGEGRENADE"] = 2, ---@type Enum
-    ["FLYINGDRONE"] = 3, ---@type Enum
-    ["SPIDERDRONE"] = 4, ---@type Enum
-    ["POWERUPDRONE"] = 5, ---@type Enum
-    ["TRANSPORT"] = 6, ---@type Enum
-    ["VIP"] = 8, ---@type Enum
-    ["VIPPLAT"] = 9, ---@type Enum
-    ["LANDMINE"] = 12, ---@type Enum
-    ["BARREL"] = 13, ---@type Enum
-    ["NINJA"] = 14, ---@type Enum
-    ["BASILISK"] = 16, ---@type Enum
-    ["MEATHEAD"] = 15, ---@type Enum
-}
+---@class gameuiarcadeShooterAIType: Enum
+---@field ["MELEE"] gameuiarcadeShooterAIType 0
+---@field ["RANGESHOOTER"] gameuiarcadeShooterAIType 1
+---@field ["RANGEGRENADE"] gameuiarcadeShooterAIType 2
+---@field ["FLYINGDRONE"] gameuiarcadeShooterAIType 3
+---@field ["SPIDERDRONE"] gameuiarcadeShooterAIType 4
+---@field ["POWERUPDRONE"] gameuiarcadeShooterAIType 5
+---@field ["TRANSPORT"] gameuiarcadeShooterAIType 6
+---@field ["VIP"] gameuiarcadeShooterAIType 8
+---@field ["VIPPLAT"] gameuiarcadeShooterAIType 9
+---@field ["LANDMINE"] gameuiarcadeShooterAIType 12
+---@field ["BARREL"] gameuiarcadeShooterAIType 13
+---@field ["NINJA"] gameuiarcadeShooterAIType 14
+---@field ["BASILISK"] gameuiarcadeShooterAIType 16
+---@field ["MEATHEAD"] gameuiarcadeShooterAIType 15
+gameuiarcadeShooterAIType = {}

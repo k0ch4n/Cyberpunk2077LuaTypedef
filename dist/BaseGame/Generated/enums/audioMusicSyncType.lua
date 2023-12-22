@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioMusicSyncType
-audioMusicSyncType = {
-    ["Beat"] = 1, ---@type Enum
-    ["Bar"] = 0, ---@type Enum
-    ["Grid"] = 2, ---@type Enum
-    ["User"] = 3, ---@type Enum
-    ["EntryCue"] = 5, ---@type Enum
-    ["ExitCue"] = 6, ---@type Enum
-    ["Transition"] = 4, ---@type Enum
-}
+---@class audioMusicSyncType: Enum
+---@field ["Beat"] audioMusicSyncType 1
+---@field ["Bar"] audioMusicSyncType 0
+---@field ["Grid"] audioMusicSyncType 2
+---@field ["User"] audioMusicSyncType 3
+---@field ["EntryCue"] audioMusicSyncType 5
+---@field ["ExitCue"] audioMusicSyncType 6
+---@field ["Transition"] audioMusicSyncType 4
+audioMusicSyncType = {}

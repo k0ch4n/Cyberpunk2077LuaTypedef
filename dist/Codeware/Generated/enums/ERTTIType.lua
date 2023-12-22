@@ -1,23 +1,22 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERTTIType
-ERTTIType = {
-    ["Name"] = 0, ---@type Enum
-    ["Fundamental"] = 1, ---@type Enum
-    ["Class"] = 2, ---@type Enum
-    ["Array"] = 3, ---@type Enum
-    ["Simple"] = 4, ---@type Enum
-    ["Enum"] = 5, ---@type Enum
-    ["StaticArray"] = 6, ---@type Enum
-    ["NativeArray"] = 7, ---@type Enum
-    ["Pointer"] = 8, ---@type Enum
-    ["Handle"] = 9, ---@type Enum
-    ["WeakHandle"] = 10, ---@type Enum
-    ["ResourceReference"] = 11, ---@type Enum
-    ["ResourceAsyncReference"] = 12, ---@type Enum
-    ["BitField"] = 13, ---@type Enum
-    ["LegacySingleChannelCurve"] = 14, ---@type Enum
-    ["ScriptReference"] = 15, ---@type Enum
-    ["FixedArray"] = 16, ---@type Enum
-}
+---@class ERTTIType: Enum
+---@field ["Name"] ERTTIType 0
+---@field ["Fundamental"] ERTTIType 1
+---@field ["Class"] ERTTIType 2
+---@field ["Array"] ERTTIType 3
+---@field ["Simple"] ERTTIType 4
+---@field ["Enum"] ERTTIType 5
+---@field ["StaticArray"] ERTTIType 6
+---@field ["NativeArray"] ERTTIType 7
+---@field ["Pointer"] ERTTIType 8
+---@field ["Handle"] ERTTIType 9
+---@field ["WeakHandle"] ERTTIType 10
+---@field ["ResourceReference"] ERTTIType 11
+---@field ["ResourceAsyncReference"] ERTTIType 12
+---@field ["BitField"] ERTTIType 13
+---@field ["LegacySingleChannelCurve"] ERTTIType 14
+---@field ["ScriptReference"] ERTTIType 15
+---@field ["FixedArray"] ERTTIType 16
+ERTTIType = {}

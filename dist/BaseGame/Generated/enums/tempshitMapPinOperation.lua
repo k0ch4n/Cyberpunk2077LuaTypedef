@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum tempshitMapPinOperation
-tempshitMapPinOperation = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Add"] = 1, ---@type Enum
-    ["Remove"] = 2, ---@type Enum
-}
+---@class tempshitMapPinOperation: Enum
+---@field ["Undefined"] tempshitMapPinOperation 0
+---@field ["Add"] tempshitMapPinOperation 1
+---@field ["Remove"] tempshitMapPinOperation 2
+tempshitMapPinOperation = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveSecureFootingFailureType
-moveSecureFootingFailureType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Edge"] = 1, ---@type Enum
-    ["Slope"] = 2, ---@type Enum
-}
+---@class moveSecureFootingFailureType: Enum
+---@field ["Invalid"] moveSecureFootingFailureType 0
+---@field ["Edge"] moveSecureFootingFailureType 1
+---@field ["Slope"] moveSecureFootingFailureType 2
+moveSecureFootingFailureType = {}

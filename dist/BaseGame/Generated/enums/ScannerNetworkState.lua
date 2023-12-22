@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ScannerNetworkState
-ScannerNetworkState = {
-    ["NOT_CONNECTED"] = 0, ---@type Enum
-    ["NOT_BREACHED"] = 1, ---@type Enum
-    ["TIER1"] = 2, ---@type Enum
-    ["TIER2"] = 3, ---@type Enum
-    ["TIER3"] = 4, ---@type Enum
-    ["BREACHED"] = 5, ---@type Enum
-}
+---@class ScannerNetworkState: Enum
+---@field ["NOT_CONNECTED"] ScannerNetworkState 0
+---@field ["NOT_BREACHED"] ScannerNetworkState 1
+---@field ["TIER1"] ScannerNetworkState 2
+---@field ["TIER2"] ScannerNetworkState 3
+---@field ["TIER3"] ScannerNetworkState 4
+---@field ["BREACHED"] ScannerNetworkState 5
+ScannerNetworkState = {}

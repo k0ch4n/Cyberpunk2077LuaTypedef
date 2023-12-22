@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnMarkerType
-scnMarkerType = {
-    ["Local"] = 0, ---@type Enum
-    ["Global"] = 1, ---@type Enum
-    ["Entity"] = 2, ---@type Enum
-}
+---@class scnMarkerType: Enum
+---@field ["Local"] scnMarkerType 0
+---@field ["Global"] scnMarkerType 1
+---@field ["Entity"] scnMarkerType 2
+scnMarkerType = {}

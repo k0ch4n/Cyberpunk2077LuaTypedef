@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EBroadcasteingType
-EBroadcasteingType = {
-    ["Active"] = 0, ---@type Enum
-    ["SingleActive"] = 1, ---@type Enum
-    ["Direct"] = 2, ---@type Enum
-    ["Remove"] = 3, ---@type Enum
-    ["Single"] = 4, ---@type Enum
-}
+---@class EBroadcasteingType: Enum
+---@field ["Active"] EBroadcasteingType 0
+---@field ["SingleActive"] EBroadcasteingType 1
+---@field ["Direct"] EBroadcasteingType 2
+---@field ["Remove"] EBroadcasteingType 3
+---@field ["Single"] EBroadcasteingType 4
+EBroadcasteingType = {}

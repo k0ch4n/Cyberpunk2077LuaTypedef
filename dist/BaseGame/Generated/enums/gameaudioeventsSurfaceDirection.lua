@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameaudioeventsSurfaceDirection
-gameaudioeventsSurfaceDirection = {
-    ["Normal"] = 0, ---@type Enum
-    ["WallLeft"] = 1, ---@type Enum
-    ["WallRight"] = 2, ---@type Enum
-}
+---@class gameaudioeventsSurfaceDirection: Enum
+---@field ["Normal"] gameaudioeventsSurfaceDirection 0
+---@field ["WallLeft"] gameaudioeventsSurfaceDirection 1
+---@field ["WallRight"] gameaudioeventsSurfaceDirection 2
+gameaudioeventsSurfaceDirection = {}

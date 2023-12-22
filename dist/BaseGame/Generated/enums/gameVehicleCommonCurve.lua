@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameVehicleCommonCurve
-gameVehicleCommonCurve = {
-    ["RPMLimit"] = 0, ---@type Enum
-    ["ForcedBrakeForce"] = 1, ---@type Enum
-    ["COUNT"] = 2, ---@type Enum
-}
+---@class gameVehicleCommonCurve: Enum
+---@field ["RPMLimit"] gameVehicleCommonCurve 0
+---@field ["ForcedBrakeForce"] gameVehicleCommonCurve 1
+---@field ["COUNT"] gameVehicleCommonCurve 2
+gameVehicleCommonCurve = {}

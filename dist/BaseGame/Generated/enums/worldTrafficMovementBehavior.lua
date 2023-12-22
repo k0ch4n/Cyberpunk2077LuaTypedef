@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldTrafficMovementBehavior
-worldTrafficMovementBehavior = {
-    ["Pedestrian"] = 0, ---@type Enum
-    ["Car"] = 1, ---@type Enum
-}
+---@class worldTrafficMovementBehavior: Enum
+---@field ["Pedestrian"] worldTrafficMovementBehavior 0
+---@field ["Car"] worldTrafficMovementBehavior 1
+worldTrafficMovementBehavior = {}

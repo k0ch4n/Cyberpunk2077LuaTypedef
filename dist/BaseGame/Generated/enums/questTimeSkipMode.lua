@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questTimeSkipMode
-questTimeSkipMode = {
-    ["PreSkip"] = 0, ---@type Enum
-    ["PostSkip"] = 1, ---@type Enum
-}
+---@class questTimeSkipMode: Enum
+---@field ["PreSkip"] questTimeSkipMode 0
+---@field ["PostSkip"] questTimeSkipMode 1
+questTimeSkipMode = {}

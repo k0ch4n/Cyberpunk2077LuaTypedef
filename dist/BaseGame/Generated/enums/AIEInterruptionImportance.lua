@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIEInterruptionImportance
-AIEInterruptionImportance = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Casual"] = 1, ---@type Enum
-    ["Rush"] = 2, ---@type Enum
-    ["Immediate"] = 3, ---@type Enum
-    ["ForcedImmediate"] = 4, ---@type Enum
-}
+---@class AIEInterruptionImportance: Enum
+---@field ["Undefined"] AIEInterruptionImportance 0
+---@field ["Casual"] AIEInterruptionImportance 1
+---@field ["Rush"] AIEInterruptionImportance 2
+---@field ["Immediate"] AIEInterruptionImportance 3
+---@field ["ForcedImmediate"] AIEInterruptionImportance 4
+AIEInterruptionImportance = {}

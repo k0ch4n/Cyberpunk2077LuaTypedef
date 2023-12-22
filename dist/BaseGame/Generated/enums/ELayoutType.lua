@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELayoutType
-ELayoutType = {
-    ["Generic"] = 0, ---@type Enum
-    ["Militech"] = 1, ---@type Enum
-    ["Arasaka"] = 2, ---@type Enum
-    ["Zetatech"] = 3, ---@type Enum
-}
+---@class ELayoutType: Enum
+---@field ["Generic"] ELayoutType 0
+---@field ["Militech"] ELayoutType 1
+---@field ["Arasaka"] ELayoutType 2
+---@field ["Zetatech"] ELayoutType 3
+ELayoutType = {}

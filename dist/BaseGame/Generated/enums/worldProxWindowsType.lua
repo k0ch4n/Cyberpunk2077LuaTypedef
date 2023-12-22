@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxWindowsType
-worldProxWindowsType = {
-    ["SkipWindows"] = 0, ---@type Enum
-    ["PropagateWindows"] = 1, ---@type Enum
-    ["BakeLongDistantWindows"] = 2, ---@type Enum
-    ["BakeWindowsToBuffer"] = 3, ---@type Enum
-}
+---@class worldProxWindowsType: Enum
+---@field ["SkipWindows"] worldProxWindowsType 0
+---@field ["PropagateWindows"] worldProxWindowsType 1
+---@field ["BakeLongDistantWindows"] worldProxWindowsType 2
+---@field ["BakeWindowsToBuffer"] worldProxWindowsType 3
+worldProxWindowsType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inputESimplifiedInputDevice
-inputESimplifiedInputDevice = {
-    ["KBM"] = 0, ---@type Enum
-    ["PAD"] = 1, ---@type Enum
-}
+---@class inputESimplifiedInputDevice: Enum
+---@field ["KBM"] inputESimplifiedInputDevice 0
+---@field ["PAD"] inputESimplifiedInputDevice 1
+inputESimplifiedInputDevice = {}

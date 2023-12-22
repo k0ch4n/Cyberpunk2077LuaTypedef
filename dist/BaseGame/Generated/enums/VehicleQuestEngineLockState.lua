@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum VehicleQuestEngineLockState
-VehicleQuestEngineLockState = {
-    ["DontToggleIfLocked"] = 0, ---@type Enum
-    ["Lock"] = 1, ---@type Enum
-    ["Unlock"] = 2, ---@type Enum
-}
+---@class VehicleQuestEngineLockState: Enum
+---@field ["DontToggleIfLocked"] VehicleQuestEngineLockState 0
+---@field ["Lock"] VehicleQuestEngineLockState 1
+---@field ["Unlock"] VehicleQuestEngineLockState 2
+VehicleQuestEngineLockState = {}

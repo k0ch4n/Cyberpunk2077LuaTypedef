@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questCharacterHitEventType
-questCharacterHitEventType = {
-    ["Bullet"] = 0, ---@type Enum
-    ["Explosion"] = 1, ---@type Enum
-    ["Melee"] = 2, ---@type Enum
-    ["Other"] = 3, ---@type Enum
-}
+---@class questCharacterHitEventType: Enum
+---@field ["Bullet"] questCharacterHitEventType 0
+---@field ["Explosion"] questCharacterHitEventType 1
+---@field ["Melee"] questCharacterHitEventType 2
+---@field ["Other"] questCharacterHitEventType 3
+questCharacterHitEventType = {}

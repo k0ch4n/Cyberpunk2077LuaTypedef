@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsStaticCollisionShapeCategory
-physicsStaticCollisionShapeCategory = {
-    ["Interior"] = 0, ---@type Enum
-    ["Exterior"] = 1, ---@type Enum
-    ["Architecture"] = 2, ---@type Enum
-    ["Decoration"] = 3, ---@type Enum
-    ["Other"] = 4, ---@type Enum
-}
+---@class physicsStaticCollisionShapeCategory: Enum
+---@field ["Interior"] physicsStaticCollisionShapeCategory 0
+---@field ["Exterior"] physicsStaticCollisionShapeCategory 1
+---@field ["Architecture"] physicsStaticCollisionShapeCategory 2
+---@field ["Decoration"] physicsStaticCollisionShapeCategory 3
+---@field ["Other"] physicsStaticCollisionShapeCategory 4
+physicsStaticCollisionShapeCategory = {}

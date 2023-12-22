@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleGarageState
-vehicleGarageState = {
-    ["NoVehiclesAvailable"] = 0, ---@type Enum
-    ["SummonAvailable"] = 1, ---@type Enum
-    ["SummonDisabled"] = 2, ---@type Enum
-}
+---@class vehicleGarageState: Enum
+---@field ["NoVehiclesAvailable"] vehicleGarageState 0
+---@field ["SummonAvailable"] vehicleGarageState 1
+---@field ["SummonDisabled"] vehicleGarageState 2
+vehicleGarageState = {}

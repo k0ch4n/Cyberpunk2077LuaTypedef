@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum shadowsShadowCastingMode
-shadowsShadowCastingMode = {
-    ["Default"] = 0, ---@type Enum
-    ["Always"] = 1, ---@type Enum
-    ["Never"] = 2, ---@type Enum
-}
+---@class shadowsShadowCastingMode: Enum
+---@field ["Default"] shadowsShadowCastingMode 0
+---@field ["Always"] shadowsShadowCastingMode 1
+---@field ["Never"] shadowsShadowCastingMode 2
+shadowsShadowCastingMode = {}

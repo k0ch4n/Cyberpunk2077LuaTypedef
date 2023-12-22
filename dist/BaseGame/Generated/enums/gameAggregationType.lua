@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameAggregationType
-gameAggregationType = {
-    ["AND"] = 0, ---@type Enum
-    ["OR"] = 1, ---@type Enum
-}
+---@class gameAggregationType: Enum
+---@field ["AND"] gameAggregationType 0
+---@field ["OR"] gameAggregationType 1
+gameAggregationType = {}

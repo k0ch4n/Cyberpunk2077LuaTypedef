@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkMenuMode
-inkMenuMode = {
-    ["Unknown"] = 0, ---@type Enum
-    ["PauseMenu"] = 1, ---@type Enum
-    ["HubMenu"] = 2, ---@type Enum
-    ["CustomMenu"] = 3, ---@type Enum
-}
+---@class inkMenuMode: Enum
+---@field ["Unknown"] inkMenuMode 0
+---@field ["PauseMenu"] inkMenuMode 1
+---@field ["HubMenu"] inkMenuMode 2
+---@field ["CustomMenu"] inkMenuMode 3
+inkMenuMode = {}

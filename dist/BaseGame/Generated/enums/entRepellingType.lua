@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entRepellingType
-entRepellingType = {
-    ["Debris"] = 0, ---@type Enum
-    ["BigObjects"] = 1, ---@type Enum
-    ["WindImpulse"] = 2, ---@type Enum
-    ["WaterImpulse"] = 3, ---@type Enum
-}
+---@class entRepellingType: Enum
+---@field ["Debris"] entRepellingType 0
+---@field ["BigObjects"] entRepellingType 1
+---@field ["WindImpulse"] entRepellingType 2
+---@field ["WaterImpulse"] entRepellingType 3
+entRepellingType = {}

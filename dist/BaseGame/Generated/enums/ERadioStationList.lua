@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERadioStationList
-ERadioStationList = {
-    ["AGGRO_INDUSTRIAL"] = 0, ---@type Enum
-    ["ELECTRO_INDUSTRIAL"] = 1, ---@type Enum
-    ["HIP_HOP"] = 2, ---@type Enum
-    ["AGGRO_TECHNO"] = 3, ---@type Enum
-    ["DOWNTEMPO"] = 4, ---@type Enum
-    ["ATTITUDE_ROCK"] = 5, ---@type Enum
-    ["POP"] = 6, ---@type Enum
-    ["LATINO"] = 7, ---@type Enum
-    ["METAL"] = 8, ---@type Enum
-    ["MINIMAL_TECHNO"] = 9, ---@type Enum
-    ["JAZZ"] = 10, ---@type Enum
-    ["GROWL"] = 11, ---@type Enum
-    ["DARK_STAR"] = 12, ---@type Enum
-    ["IMPULSE_FM"] = 13, ---@type Enum
-}
+---@class ERadioStationList: Enum
+---@field ["AGGRO_INDUSTRIAL"] ERadioStationList 0
+---@field ["ELECTRO_INDUSTRIAL"] ERadioStationList 1
+---@field ["HIP_HOP"] ERadioStationList 2
+---@field ["AGGRO_TECHNO"] ERadioStationList 3
+---@field ["DOWNTEMPO"] ERadioStationList 4
+---@field ["ATTITUDE_ROCK"] ERadioStationList 5
+---@field ["POP"] ERadioStationList 6
+---@field ["LATINO"] ERadioStationList 7
+---@field ["METAL"] ERadioStationList 8
+---@field ["MINIMAL_TECHNO"] ERadioStationList 9
+---@field ["JAZZ"] ERadioStationList 10
+---@field ["GROWL"] ERadioStationList 11
+---@field ["DARK_STAR"] ERadioStationList 12
+---@field ["IMPULSE_FM"] ERadioStationList 13
+ERadioStationList = {}

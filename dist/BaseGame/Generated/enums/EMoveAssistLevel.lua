@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMoveAssistLevel
-EMoveAssistLevel = {
-    ["Off"] = 0, ---@type Enum
-    ["SpecialAttacks"] = 1, ---@type Enum
-    ["AllAttacks"] = 2, ---@type Enum
-}
+---@class EMoveAssistLevel: Enum
+---@field ["Off"] EMoveAssistLevel 0
+---@field ["SpecialAttacks"] EMoveAssistLevel 1
+---@field ["AllAttacks"] EMoveAssistLevel 2
+EMoveAssistLevel = {}

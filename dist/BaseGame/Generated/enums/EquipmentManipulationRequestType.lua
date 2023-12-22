@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EquipmentManipulationRequestType
-EquipmentManipulationRequestType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Equip"] = 1, ---@type Enum
-    ["Unequip"] = 2, ---@type Enum
-}
+---@class EquipmentManipulationRequestType: Enum
+---@field ["Undefined"] EquipmentManipulationRequestType 0
+---@field ["Equip"] EquipmentManipulationRequestType 1
+---@field ["Unequip"] EquipmentManipulationRequestType 2
+EquipmentManipulationRequestType = {}

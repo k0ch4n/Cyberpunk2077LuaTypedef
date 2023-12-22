@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TransmogSlots
-TransmogSlots = {
-    ["Head"] = 0, ---@type Enum
-    ["Face"] = 1, ---@type Enum
-    ["InnerChest"] = 2, ---@type Enum
-    ["OuterChest"] = 3, ---@type Enum
-    ["Legs"] = 4, ---@type Enum
-    ["Feet"] = 5, ---@type Enum
-}
+---@class TransmogSlots: Enum
+---@field ["Head"] TransmogSlots 0
+---@field ["Face"] TransmogSlots 1
+---@field ["InnerChest"] TransmogSlots 2
+---@field ["OuterChest"] TransmogSlots 3
+---@field ["Legs"] TransmogSlots 4
+---@field ["Feet"] TransmogSlots 5
+TransmogSlots = {}

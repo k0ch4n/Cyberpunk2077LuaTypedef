@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGlitchState
-EGlitchState = {
-    ["NONE"] = 0, ---@type Enum
-    ["DEFAULT"] = 1, ---@type Enum
-    ["SUBLIMINAL_MESSAGE"] = 2, ---@type Enum
-}
+---@class EGlitchState: Enum
+---@field ["NONE"] EGlitchState 0
+---@field ["DEFAULT"] EGlitchState 1
+---@field ["SUBLIMINAL_MESSAGE"] EGlitchState 2
+EGlitchState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldTrafficSplineNodeUsage
-worldTrafficSplineNodeUsage = {
-    ["Pavement"] = 0, ---@type Enum
-    ["Road"] = 1, ---@type Enum
-}
+---@class worldTrafficSplineNodeUsage: Enum
+---@field ["Pavement"] worldTrafficSplineNodeUsage 0
+---@field ["Road"] worldTrafficSplineNodeUsage 1
+worldTrafficSplineNodeUsage = {}

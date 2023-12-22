@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questVehicleCommandType
-questVehicleCommandType = {
-    ["Move On Spline"] = 0, ---@type Enum
-    ["Follow"] = 1, ---@type Enum
-    ["Move To"] = 2, ---@type Enum
-    ["Racing"] = 3, ---@type Enum
-    ["Join Traffic"] = 4, ---@type Enum
-    ["Panic"] = 5, ---@type Enum
-    ["Chase"] = 6, ---@type Enum
-}
+---@class questVehicleCommandType: Enum
+---@field ["Move On Spline"] questVehicleCommandType 0
+---@field ["Follow"] questVehicleCommandType 1
+---@field ["Move To"] questVehicleCommandType 2
+---@field ["Racing"] questVehicleCommandType 3
+---@field ["Join Traffic"] questVehicleCommandType 4
+---@field ["Panic"] questVehicleCommandType 5
+---@field ["Chase"] questVehicleCommandType 6
+questVehicleCommandType = {}

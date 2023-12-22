@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questLookAtAction
-questLookAtAction = {
-    ["Nothing"] = 0, ---@type Enum
-    ["Reset"] = 1, ---@type Enum
-    ["Set"] = 2, ---@type Enum
-}
+---@class questLookAtAction: Enum
+---@field ["Nothing"] questLookAtAction 0
+---@field ["Reset"] questLookAtAction 1
+---@field ["Set"] questLookAtAction 2
+questLookAtAction = {}

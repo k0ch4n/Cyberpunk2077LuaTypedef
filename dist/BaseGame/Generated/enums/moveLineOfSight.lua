@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveLineOfSight
-moveLineOfSight = {
-    ["None"] = 0, ---@type Enum
-    ["Keep"] = 1, ---@type Enum
-    ["Avoid"] = 2, ---@type Enum
-}
+---@class moveLineOfSight: Enum
+---@field ["None"] moveLineOfSight 0
+---@field ["Keep"] moveLineOfSight 1
+---@field ["Avoid"] moveLineOfSight 2
+moveLineOfSight = {}

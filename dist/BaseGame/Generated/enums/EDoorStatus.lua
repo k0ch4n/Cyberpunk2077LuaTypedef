@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDoorStatus
-EDoorStatus = {
-    ["SEALED"] = -2, ---@type Enum
-    ["LOCKED"] = -1, ---@type Enum
-    ["CLOSED"] = 0, ---@type Enum
-    ["OPENED"] = 1, ---@type Enum
-}
+---@class EDoorStatus: Enum
+---@field ["SEALED"] EDoorStatus -2
+---@field ["LOCKED"] EDoorStatus -1
+---@field ["CLOSED"] EDoorStatus 0
+---@field ["OPENED"] EDoorStatus 1
+EDoorStatus = {}

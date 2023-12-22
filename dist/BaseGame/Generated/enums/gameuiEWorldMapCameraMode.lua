@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiEWorldMapCameraMode
-gameuiEWorldMapCameraMode = {
-    ["TopDown"] = 0, ---@type Enum
-    ["ZoomLevels"] = 1, ---@type Enum
-    ["COUNT"] = 2, ---@type Enum
-}
+---@class gameuiEWorldMapCameraMode: Enum
+---@field ["TopDown"] gameuiEWorldMapCameraMode 0
+---@field ["ZoomLevels"] gameuiEWorldMapCameraMode 1
+---@field ["COUNT"] gameuiEWorldMapCameraMode 2
+gameuiEWorldMapCameraMode = {}

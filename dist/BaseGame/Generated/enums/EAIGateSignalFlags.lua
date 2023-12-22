@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIGateSignalFlags
-EAIGateSignalFlags = {
-    ["AIGSF_Undefined"] = 0, ---@type Enum
-    ["AIGSF_OverridesSelf"] = 1, ---@type Enum
-    ["AIGSF_InterruptsSamePriorityTask"] = 2, ---@type Enum
-    ["AIGSF_InterruptsForcedBehavior"] = 3, ---@type Enum
-    ["AIGSF_AcceptsAdditives"] = 4, ---@type Enum
-}
+---@class EAIGateSignalFlags: Enum
+---@field ["AIGSF_Undefined"] EAIGateSignalFlags 0
+---@field ["AIGSF_OverridesSelf"] EAIGateSignalFlags 1
+---@field ["AIGSF_InterruptsSamePriorityTask"] EAIGateSignalFlags 2
+---@field ["AIGSF_InterruptsForcedBehavior"] EAIGateSignalFlags 3
+---@field ["AIGSF_AcceptsAdditives"] EAIGateSignalFlags 4
+EAIGateSignalFlags = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questAudioEventPrefetchMode
-questAudioEventPrefetchMode = {
-    ["AddEventPrefetch"] = 0, ---@type Enum
-    ["RemoveEventPrefetch"] = 1, ---@type Enum
-}
+---@class questAudioEventPrefetchMode: Enum
+---@field ["AddEventPrefetch"] questAudioEventPrefetchMode 0
+---@field ["RemoveEventPrefetch"] questAudioEventPrefetchMode 1
+questAudioEventPrefetchMode = {}

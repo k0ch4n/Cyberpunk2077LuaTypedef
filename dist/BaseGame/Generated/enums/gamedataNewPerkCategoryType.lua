@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNewPerkCategoryType
-gamedataNewPerkCategoryType = {
-    ["MasterNewPerkCategory"] = 0, ---@type Enum
-    ["MilestoneNewPerkCategory"] = 1, ---@type Enum
-    ["SimpleNewPerkCategory"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataNewPerkCategoryType: Enum
+---@field ["MasterNewPerkCategory"] gamedataNewPerkCategoryType 0
+---@field ["MilestoneNewPerkCategory"] gamedataNewPerkCategoryType 1
+---@field ["SimpleNewPerkCategory"] gamedataNewPerkCategoryType 2
+---@field ["Count"] gamedataNewPerkCategoryType 3
+---@field ["Invalid"] gamedataNewPerkCategoryType 4
+gamedataNewPerkCategoryType = {}

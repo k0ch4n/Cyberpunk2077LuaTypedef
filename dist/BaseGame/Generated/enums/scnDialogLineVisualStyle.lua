@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnDialogLineVisualStyle
-scnDialogLineVisualStyle = {
-    ["regular"] = 0, ---@type Enum
-    ["overHead"] = 1, ---@type Enum
-    ["radio"] = 2, ---@type Enum
-    ["globalTV"] = 3, ---@type Enum
-    ["invisible"] = 4, ---@type Enum
-    ["innerDialog"] = 5, ---@type Enum
-    ["overHeadAlwaysVisible"] = 6, ---@type Enum
-    ["alwaysCinematicNoSpeaker"] = 7, ---@type Enum
-    ["globalTVAlwaysVisible"] = 8, ---@type Enum
-    ["narrator"] = 9, ---@type Enum
-}
+---@class scnDialogLineVisualStyle: Enum
+---@field ["regular"] scnDialogLineVisualStyle 0
+---@field ["overHead"] scnDialogLineVisualStyle 1
+---@field ["radio"] scnDialogLineVisualStyle 2
+---@field ["globalTV"] scnDialogLineVisualStyle 3
+---@field ["invisible"] scnDialogLineVisualStyle 4
+---@field ["innerDialog"] scnDialogLineVisualStyle 5
+---@field ["overHeadAlwaysVisible"] scnDialogLineVisualStyle 6
+---@field ["alwaysCinematicNoSpeaker"] scnDialogLineVisualStyle 7
+---@field ["globalTVAlwaysVisible"] scnDialogLineVisualStyle 8
+---@field ["narrator"] scnDialogLineVisualStyle 9
+scnDialogLineVisualStyle = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldCommunityRegistryItemAreaNodeType
-worldCommunityRegistryItemAreaNodeType = {
-    ["Regular"] = 0, ---@type Enum
-    ["Streamable"] = 1, ---@type Enum
-    ["Background"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-}
+---@class worldCommunityRegistryItemAreaNodeType: Enum
+---@field ["Regular"] worldCommunityRegistryItemAreaNodeType 0
+---@field ["Streamable"] worldCommunityRegistryItemAreaNodeType 1
+---@field ["Background"] worldCommunityRegistryItemAreaNodeType 2
+---@field ["Count"] worldCommunityRegistryItemAreaNodeType 3
+worldCommunityRegistryItemAreaNodeType = {}

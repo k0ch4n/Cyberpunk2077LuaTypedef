@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESecurityGateEntranceType
-ESecurityGateEntranceType = {
-    ["OnlySideA"] = 0, ---@type Enum
-    ["OnlySideB"] = 1, ---@type Enum
-    ["AnySide"] = 2, ---@type Enum
-}
+---@class ESecurityGateEntranceType: Enum
+---@field ["OnlySideA"] ESecurityGateEntranceType 0
+---@field ["OnlySideB"] ESecurityGateEntranceType 1
+---@field ["AnySide"] ESecurityGateEntranceType 2
+ESecurityGateEntranceType = {}

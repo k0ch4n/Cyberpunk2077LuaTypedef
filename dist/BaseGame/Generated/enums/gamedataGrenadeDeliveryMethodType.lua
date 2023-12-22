@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataGrenadeDeliveryMethodType
-gamedataGrenadeDeliveryMethodType = {
-    ["Homing"] = 0, ---@type Enum
-    ["Regular"] = 1, ---@type Enum
-    ["Sticky"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataGrenadeDeliveryMethodType: Enum
+---@field ["Homing"] gamedataGrenadeDeliveryMethodType 0
+---@field ["Regular"] gamedataGrenadeDeliveryMethodType 1
+---@field ["Sticky"] gamedataGrenadeDeliveryMethodType 2
+---@field ["Count"] gamedataGrenadeDeliveryMethodType 3
+---@field ["Invalid"] gamedataGrenadeDeliveryMethodType 4
+gamedataGrenadeDeliveryMethodType = {}

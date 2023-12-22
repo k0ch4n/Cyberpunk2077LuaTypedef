@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questPhaseNodeType
-questPhaseNodeType = {
-    ["Quest"] = 0, ---@type Enum
-    ["OpenWorld"] = 1, ---@type Enum
-    ["Combat"] = 2, ---@type Enum
-    ["Audio"] = 3, ---@type Enum
-}
+---@class questPhaseNodeType: Enum
+---@field ["Quest"] questPhaseNodeType 0
+---@field ["OpenWorld"] questPhaseNodeType 1
+---@field ["Combat"] questPhaseNodeType 2
+---@field ["Audio"] questPhaseNodeType 3
+questPhaseNodeType = {}

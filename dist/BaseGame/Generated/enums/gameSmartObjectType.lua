@@ -1,32 +1,31 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSmartObjectType
-gameSmartObjectType = {
-    ["Default"] = 0, ---@type Enum
-    ["LadderUp"] = 1, ---@type Enum
-    ["LadderDown"] = 2, ---@type Enum
-    ["JumpOnSameLevel"] = 3, ---@type Enum
-    ["Jump3mUp"] = 4, ---@type Enum
-    ["Jump3mDown"] = 5, ---@type Enum
-    ["Climb110cmUp"] = 6, ---@type Enum
-    ["Climb110cmDown"] = 7, ---@type Enum
-    ["Climb200cmUp"] = 8, ---@type Enum
-    ["Climb200cmDown"] = 9, ---@type Enum
-    ["Climb300cmUp"] = 10, ---@type Enum
-    ["Climb300cmDown"] = 11, ---@type Enum
-    ["Vault10cm"] = 12, ---@type Enum
-    ["Vault40cm"] = 13, ---@type Enum
-    ["Vault100cm"] = 14, ---@type Enum
-    ["ChargedJump400cmUp"] = 15, ---@type Enum
-    ["ChargedJump400cmDown"] = 16, ---@type Enum
-    ["ChargedJump600cmUp"] = 17, ---@type Enum
-    ["ChargedJump600cmDown"] = 18, ---@type Enum
-    ["ChargedJump800cmUp"] = 19, ---@type Enum
-    ["ChargedJump800cmDown"] = 20, ---@type Enum
-    ["ThrusterJumpUp"] = 21, ---@type Enum
-    ["ThrusterJumpDown"] = 22, ---@type Enum
-    ["Climb400cmDown"] = 23, ---@type Enum
-    ["Jump4mDown"] = 24, ---@type Enum
-    ["VaultJump7mDown"] = 25, ---@type Enum
-}
+---@class gameSmartObjectType: Enum
+---@field ["Default"] gameSmartObjectType 0
+---@field ["LadderUp"] gameSmartObjectType 1
+---@field ["LadderDown"] gameSmartObjectType 2
+---@field ["JumpOnSameLevel"] gameSmartObjectType 3
+---@field ["Jump3mUp"] gameSmartObjectType 4
+---@field ["Jump3mDown"] gameSmartObjectType 5
+---@field ["Climb110cmUp"] gameSmartObjectType 6
+---@field ["Climb110cmDown"] gameSmartObjectType 7
+---@field ["Climb200cmUp"] gameSmartObjectType 8
+---@field ["Climb200cmDown"] gameSmartObjectType 9
+---@field ["Climb300cmUp"] gameSmartObjectType 10
+---@field ["Climb300cmDown"] gameSmartObjectType 11
+---@field ["Vault10cm"] gameSmartObjectType 12
+---@field ["Vault40cm"] gameSmartObjectType 13
+---@field ["Vault100cm"] gameSmartObjectType 14
+---@field ["ChargedJump400cmUp"] gameSmartObjectType 15
+---@field ["ChargedJump400cmDown"] gameSmartObjectType 16
+---@field ["ChargedJump600cmUp"] gameSmartObjectType 17
+---@field ["ChargedJump600cmDown"] gameSmartObjectType 18
+---@field ["ChargedJump800cmUp"] gameSmartObjectType 19
+---@field ["ChargedJump800cmDown"] gameSmartObjectType 20
+---@field ["ThrusterJumpUp"] gameSmartObjectType 21
+---@field ["ThrusterJumpDown"] gameSmartObjectType 22
+---@field ["Climb400cmDown"] gameSmartObjectType 23
+---@field ["Jump4mDown"] gameSmartObjectType 24
+---@field ["VaultJump7mDown"] gameSmartObjectType 25
+gameSmartObjectType = {}

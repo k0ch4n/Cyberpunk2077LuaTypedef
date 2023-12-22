@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGenericNotificationPriority
-EGenericNotificationPriority = {
-    ["Default"] = 0, ---@type Enum
-    ["Low"] = 1, ---@type Enum
-    ["Medium"] = 2, ---@type Enum
-    ["Height"] = 3, ---@type Enum
-}
+---@class EGenericNotificationPriority: Enum
+---@field ["Default"] EGenericNotificationPriority 0
+---@field ["Low"] EGenericNotificationPriority 1
+---@field ["Medium"] EGenericNotificationPriority 2
+---@field ["Height"] EGenericNotificationPriority 3
+EGenericNotificationPriority = {}

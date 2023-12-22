@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAIDifficulty
-gamedataAIDifficulty = {
-    ["Easy"] = 0, ---@type Enum
-    ["Hard"] = 1, ---@type Enum
-    ["Story"] = 2, ---@type Enum
-    ["VeryHard"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataAIDifficulty: Enum
+---@field ["Easy"] gamedataAIDifficulty 0
+---@field ["Hard"] gamedataAIDifficulty 1
+---@field ["Story"] gamedataAIDifficulty 2
+---@field ["VeryHard"] gamedataAIDifficulty 3
+---@field ["Count"] gamedataAIDifficulty 4
+---@field ["Invalid"] gamedataAIDifficulty 5
+gamedataAIDifficulty = {}

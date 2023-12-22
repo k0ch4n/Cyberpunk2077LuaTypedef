@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum toolsMessageVerbosity
-toolsMessageVerbosity = {
-    ["Normal"] = 0, ---@type Enum
-    ["Verbose"] = 1, ---@type Enum
-}
+---@class toolsMessageVerbosity: Enum
+---@field ["Normal"] toolsMessageVerbosity 0
+---@field ["Verbose"] toolsMessageVerbosity 1
+toolsMessageVerbosity = {}

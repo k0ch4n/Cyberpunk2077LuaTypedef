@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questEUIMenuState
-questEUIMenuState = {
-    ["Open"] = 0, ---@type Enum
-    ["Closed"] = 1, ---@type Enum
-}
+---@class questEUIMenuState: Enum
+---@field ["Open"] questEUIMenuState 0
+---@field ["Closed"] questEUIMenuState 1
+questEUIMenuState = {}

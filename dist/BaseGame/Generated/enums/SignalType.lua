@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum SignalType
-SignalType = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["REGISTRATION"] = 1, ---@type Enum
-    ["UNREGISTRATION"] = 2, ---@type Enum
-}
+---@class SignalType: Enum
+---@field ["DEFAULT"] SignalType 0
+---@field ["REGISTRATION"] SignalType 1
+---@field ["UNREGISTRATION"] SignalType 2
+SignalType = {}

@@ -1,25 +1,24 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HubMenuItems
-HubMenuItems = {
-    ["None"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["Crafting"] = 1, ---@type Enum
-    ["Character"] = 2, ---@type Enum
-    ["Inventory"] = 3, ---@type Enum
-    ["Map"] = 4, ---@type Enum
-    ["Journal"] = 5, ---@type Enum
-    ["Phone"] = 6, ---@type Enum
-    ["Database"] = 7, ---@type Enum
-    ["Stats"] = 8, ---@type Enum
-    ["Backpack"] = 9, ---@type Enum
-    ["HubMenuItems"] = 10, ---@type Enum
-    ["Codex"] = 11, ---@type Enum
-    ["Shards"] = 12, ---@type Enum
-    ["Tarot"] = 13, ---@type Enum
-    ["Gear"] = 14, ---@type Enum
-    ["Cyberware"] = 15, ---@type Enum
-    ["VisualSets"] = 16, ---@type Enum
-    ["Count"] = 17, ---@type Enum
-}
+---@class HubMenuItems: Enum
+---@field ["None"] HubMenuItems -1
+---@field ["Default"] HubMenuItems 0
+---@field ["Crafting"] HubMenuItems 1
+---@field ["Character"] HubMenuItems 2
+---@field ["Inventory"] HubMenuItems 3
+---@field ["Map"] HubMenuItems 4
+---@field ["Journal"] HubMenuItems 5
+---@field ["Phone"] HubMenuItems 6
+---@field ["Database"] HubMenuItems 7
+---@field ["Stats"] HubMenuItems 8
+---@field ["Backpack"] HubMenuItems 9
+---@field ["HubMenuItems"] HubMenuItems 10
+---@field ["Codex"] HubMenuItems 11
+---@field ["Shards"] HubMenuItems 12
+---@field ["Tarot"] HubMenuItems 13
+---@field ["Gear"] HubMenuItems 14
+---@field ["Cyberware"] HubMenuItems 15
+---@field ["VisualSets"] HubMenuItems 16
+---@field ["Count"] HubMenuItems 17
+HubMenuItems = {}

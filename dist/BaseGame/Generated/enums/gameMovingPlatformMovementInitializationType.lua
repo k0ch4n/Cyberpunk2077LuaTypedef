@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMovingPlatformMovementInitializationType
-gameMovingPlatformMovementInitializationType = {
-    ["Time"] = 0, ---@type Enum
-    ["Speed"] = 1, ---@type Enum
-}
+---@class gameMovingPlatformMovementInitializationType: Enum
+---@field ["Time"] gameMovingPlatformMovementInitializationType 0
+---@field ["Speed"] gameMovingPlatformMovementInitializationType 1
+gameMovingPlatformMovementInitializationType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audiottsvoicesPolishMale
-audiottsvoicesPolishMale = {
-    ["Mateusz"] = 14, ---@type Enum
-    ["Pawel"] = 15, ---@type Enum
-}
+---@class audiottsvoicesPolishMale: Enum
+---@field ["Mateusz"] audiottsvoicesPolishMale 14
+---@field ["Pawel"] audiottsvoicesPolishMale 15
+audiottsvoicesPolishMale = {}

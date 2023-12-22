@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameDifficulty
-gameDifficulty = {
-    ["Easy"] = 0, ---@type Enum
-    ["Hard"] = 1, ---@type Enum
-    ["VeryHard"] = 2, ---@type Enum
-    ["Story"] = 3, ---@type Enum
-}
+---@class gameDifficulty: Enum
+---@field ["Easy"] gameDifficulty 0
+---@field ["Hard"] gameDifficulty 1
+---@field ["VeryHard"] gameDifficulty 2
+---@field ["Story"] gameDifficulty 3
+gameDifficulty = {}

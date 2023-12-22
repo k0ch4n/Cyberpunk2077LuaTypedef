@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEquipAnimationType
-gameEquipAnimationType = {
-    ["Default"] = 0, ---@type Enum
-    ["Instant"] = 1, ---@type Enum
-    ["FirstEquip"] = 2, ---@type Enum
-    ["HACK_ForceInstantEquip"] = 3, ---@type Enum
-}
+---@class gameEquipAnimationType: Enum
+---@field ["Default"] gameEquipAnimationType 0
+---@field ["Instant"] gameEquipAnimationType 1
+---@field ["FirstEquip"] gameEquipAnimationType 2
+---@field ["HACK_ForceInstantEquip"] gameEquipAnimationType 3
+gameEquipAnimationType = {}

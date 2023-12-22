@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum LibTreeEParameterType
-LibTreeEParameterType = {
-    ["PARAM_Bool"] = 0, ---@type Enum
-    ["PARAM_Int32"] = 1, ---@type Enum
-    ["PARAM_Enum"] = 2, ---@type Enum
-    ["PARAM_Float"] = 3, ---@type Enum
-    ["PARAM_CName"] = 4, ---@type Enum
-    ["PARAM_TreeRef"] = 5, ---@type Enum
-    ["PARAM_TreeRefList"] = 6, ---@type Enum
-    ["PARAM_NodeRef"] = 7, ---@type Enum
-    ["PARAM_Vector"] = 9, ---@type Enum
-}
+---@class LibTreeEParameterType: Enum
+---@field ["PARAM_Bool"] LibTreeEParameterType 0
+---@field ["PARAM_Int32"] LibTreeEParameterType 1
+---@field ["PARAM_Enum"] LibTreeEParameterType 2
+---@field ["PARAM_Float"] LibTreeEParameterType 3
+---@field ["PARAM_CName"] LibTreeEParameterType 4
+---@field ["PARAM_TreeRef"] LibTreeEParameterType 5
+---@field ["PARAM_TreeRefList"] LibTreeEParameterType 6
+---@field ["PARAM_NodeRef"] LibTreeEParameterType 7
+---@field ["PARAM_Vector"] LibTreeEParameterType 9
+LibTreeEParameterType = {}

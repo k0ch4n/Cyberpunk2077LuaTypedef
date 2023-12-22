@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameVisionModeType
-gameVisionModeType = {
-    ["Default"] = 0, ---@type Enum
-    ["Focus"] = 1, ---@type Enum
-}
+---@class gameVisionModeType: Enum
+---@field ["Default"] gameVisionModeType 0
+---@field ["Focus"] gameVisionModeType 1
+gameVisionModeType = {}

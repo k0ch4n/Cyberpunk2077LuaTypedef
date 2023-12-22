@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldNodeSocketType
-worldNodeSocketType = {
-    ["Bidirectional"] = 0, ---@type Enum
-    ["Inward"] = 1, ---@type Enum
-    ["Outward"] = 2, ---@type Enum
-    ["Disabled"] = 3, ---@type Enum
-}
+---@class worldNodeSocketType: Enum
+---@field ["Bidirectional"] worldNodeSocketType 0
+---@field ["Inward"] worldNodeSocketType 1
+---@field ["Outward"] worldNodeSocketType 2
+---@field ["Disabled"] worldNodeSocketType 3
+worldNodeSocketType = {}

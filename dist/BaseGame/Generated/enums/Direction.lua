@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Direction
-Direction = {
-    ["Next"] = 0, ---@type Enum
-    ["Previous"] = 1, ---@type Enum
-}
+---@class Direction: Enum
+---@field ["Next"] Direction 0
+---@field ["Previous"] Direction 1
+Direction = {}

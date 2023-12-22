@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Ft_TakedownStage
-Ft_TakedownStage = {
-    ["Default"] = 0, ---@type Enum
-    ["Grappling"] = 1, ---@type Enum
-    ["Grappled"] = 2, ---@type Enum
-    ["Takedown"] = 3, ---@type Enum
-    ["Finished"] = 4, ---@type Enum
-}
+---@class Ft_TakedownStage: Enum
+---@field ["Default"] Ft_TakedownStage 0
+---@field ["Grappling"] Ft_TakedownStage 1
+---@field ["Grappled"] Ft_TakedownStage 2
+---@field ["Takedown"] Ft_TakedownStage 3
+---@field ["Finished"] Ft_TakedownStage 4
+Ft_TakedownStage = {}

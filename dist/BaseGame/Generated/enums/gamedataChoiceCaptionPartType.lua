@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataChoiceCaptionPartType
-gamedataChoiceCaptionPartType = {
-    ["Blueline"] = 0, ---@type Enum
-    ["Icon"] = 1, ---@type Enum
-    ["QuickhackCost"] = 2, ---@type Enum
-    ["Tag"] = 3, ---@type Enum
-    ["Text"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataChoiceCaptionPartType: Enum
+---@field ["Blueline"] gamedataChoiceCaptionPartType 0
+---@field ["Icon"] gamedataChoiceCaptionPartType 1
+---@field ["QuickhackCost"] gamedataChoiceCaptionPartType 2
+---@field ["Tag"] gamedataChoiceCaptionPartType 3
+---@field ["Text"] gamedataChoiceCaptionPartType 4
+---@field ["Count"] gamedataChoiceCaptionPartType 5
+---@field ["Invalid"] gamedataChoiceCaptionPartType 6
+gamedataChoiceCaptionPartType = {}

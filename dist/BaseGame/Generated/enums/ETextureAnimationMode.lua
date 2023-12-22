@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETextureAnimationMode
-ETextureAnimationMode = {
-    ["TAM_Speed"] = 0, ---@type Enum
-    ["TAM_LifeTime"] = 1, ---@type Enum
-}
+---@class ETextureAnimationMode: Enum
+---@field ["TAM_Speed"] ETextureAnimationMode 0
+---@field ["TAM_LifeTime"] ETextureAnimationMode 1
+ETextureAnimationMode = {}

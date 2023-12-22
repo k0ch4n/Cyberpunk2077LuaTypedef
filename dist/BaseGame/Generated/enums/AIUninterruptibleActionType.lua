@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIUninterruptibleActionType
-AIUninterruptibleActionType = {
-    ["None"] = 0, ---@type Enum
-    ["Default"] = 1, ---@type Enum
-    ["EnteringCover"] = 2, ---@type Enum
-    ["LeavingCover"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-}
+---@class AIUninterruptibleActionType: Enum
+---@field ["None"] AIUninterruptibleActionType 0
+---@field ["Default"] AIUninterruptibleActionType 1
+---@field ["EnteringCover"] AIUninterruptibleActionType 2
+---@field ["LeavingCover"] AIUninterruptibleActionType 3
+---@field ["Count"] AIUninterruptibleActionType 4
+AIUninterruptibleActionType = {}

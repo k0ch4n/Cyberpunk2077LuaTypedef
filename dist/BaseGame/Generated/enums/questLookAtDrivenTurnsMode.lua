@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questLookAtDrivenTurnsMode
-questLookAtDrivenTurnsMode = {
-    ["Start"] = 0, ---@type Enum
-    ["Pause"] = 1, ---@type Enum
-    ["Resume"] = 2, ---@type Enum
-    ["Stop"] = 3, ---@type Enum
-    ["ForceStop"] = 4, ---@type Enum
-}
+---@class questLookAtDrivenTurnsMode: Enum
+---@field ["Start"] questLookAtDrivenTurnsMode 0
+---@field ["Pause"] questLookAtDrivenTurnsMode 1
+---@field ["Resume"] questLookAtDrivenTurnsMode 2
+---@field ["Stop"] questLookAtDrivenTurnsMode 3
+---@field ["ForceStop"] questLookAtDrivenTurnsMode 4
+questLookAtDrivenTurnsMode = {}

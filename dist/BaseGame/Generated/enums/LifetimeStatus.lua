@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum LifetimeStatus
-LifetimeStatus = {
-    ["Base"] = 0, ---@type Enum
-    ["Near"] = 1, ---@type Enum
-    ["Disengaging"] = 2, ---@type Enum
-}
+---@class LifetimeStatus: Enum
+---@field ["Base"] LifetimeStatus 0
+---@field ["Near"] LifetimeStatus 1
+---@field ["Disengaging"] LifetimeStatus 2
+LifetimeStatus = {}

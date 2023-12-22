@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnSectionInternalsActorBehaviorMode
-scnSectionInternalsActorBehaviorMode = {
-    ["OnlyIfAlive"] = 0, ---@type Enum
-    ["EvenIfDead"] = 1, ---@type Enum
-}
+---@class scnSectionInternalsActorBehaviorMode: Enum
+---@field ["OnlyIfAlive"] scnSectionInternalsActorBehaviorMode 0
+---@field ["EvenIfDead"] scnSectionInternalsActorBehaviorMode 1
+scnSectionInternalsActorBehaviorMode = {}

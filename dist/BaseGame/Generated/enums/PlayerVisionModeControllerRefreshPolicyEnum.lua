@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PlayerVisionModeControllerRefreshPolicyEnum
-PlayerVisionModeControllerRefreshPolicyEnum = {
-    ["Persistent"] = 0, ---@type Enum
-    ["Eventful"] = 1, ---@type Enum
-}
+---@class PlayerVisionModeControllerRefreshPolicyEnum: Enum
+---@field ["Persistent"] PlayerVisionModeControllerRefreshPolicyEnum 0
+---@field ["Eventful"] PlayerVisionModeControllerRefreshPolicyEnum 1
+PlayerVisionModeControllerRefreshPolicyEnum = {}

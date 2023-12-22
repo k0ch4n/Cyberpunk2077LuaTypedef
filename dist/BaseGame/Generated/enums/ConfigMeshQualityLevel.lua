@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ConfigMeshQualityLevel
-ConfigMeshQualityLevel = {
-    ["Default"] = 0, ---@type Enum
-    ["Console"] = 1, ---@type Enum
-    ["Console_XboxSeriesS"] = 2, ---@type Enum
-}
+---@class ConfigMeshQualityLevel: Enum
+---@field ["Default"] ConfigMeshQualityLevel 0
+---@field ["Console"] ConfigMeshQualityLevel 1
+---@field ["Console_XboxSeriesS"] ConfigMeshQualityLevel 2
+ConfigMeshQualityLevel = {}

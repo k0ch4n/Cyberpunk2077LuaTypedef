@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECustomFilterDPadNavigationOption
-ECustomFilterDPadNavigationOption = {
-    ["SelectNext"] = 0, ---@type Enum
-    ["SelectPrev"] = 1, ---@type Enum
-    ["Toggle"] = 2, ---@type Enum
-}
+---@class ECustomFilterDPadNavigationOption: Enum
+---@field ["SelectNext"] ECustomFilterDPadNavigationOption 0
+---@field ["SelectPrev"] ECustomFilterDPadNavigationOption 1
+---@field ["Toggle"] ECustomFilterDPadNavigationOption 2
+ECustomFilterDPadNavigationOption = {}

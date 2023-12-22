@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkSelectorChangeDirection
-inkSelectorChangeDirection = {
-    ["None"] = 0, ---@type Enum
-    ["Prior"] = 1, ---@type Enum
-    ["Next"] = 2, ---@type Enum
-}
+---@class inkSelectorChangeDirection: Enum
+---@field ["None"] inkSelectorChangeDirection 0
+---@field ["Prior"] inkSelectorChangeDirection 1
+---@field ["Next"] inkSelectorChangeDirection 2
+inkSelectorChangeDirection = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEChildOrder
-inkEChildOrder = {
-    ["Forward"] = 0, ---@type Enum
-    ["Backward"] = 1, ---@type Enum
-}
+---@class inkEChildOrder: Enum
+---@field ["Forward"] inkEChildOrder 0
+---@field ["Backward"] inkEChildOrder 1
+inkEChildOrder = {}

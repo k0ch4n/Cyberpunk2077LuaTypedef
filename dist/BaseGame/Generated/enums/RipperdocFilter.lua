@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RipperdocFilter
-RipperdocFilter = {
-    ["All"] = 0, ---@type Enum
-    ["Vendor"] = 1, ---@type Enum
-    ["Player"] = 2, ---@type Enum
-    ["Buyback"] = 3, ---@type Enum
-}
+---@class RipperdocFilter: Enum
+---@field ["All"] RipperdocFilter 0
+---@field ["Vendor"] RipperdocFilter 1
+---@field ["Player"] RipperdocFilter 2
+---@field ["Buyback"] RipperdocFilter 3
+RipperdocFilter = {}

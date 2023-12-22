@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEButtonState
-inkEButtonState = {
-    ["Normal"] = 0, ---@type Enum
-    ["Hover"] = 1, ---@type Enum
-    ["Press"] = 2, ---@type Enum
-    ["Disabled"] = 3, ---@type Enum
-}
+---@class inkEButtonState: Enum
+---@field ["Normal"] inkEButtonState 0
+---@field ["Hover"] inkEButtonState 1
+---@field ["Press"] inkEButtonState 2
+---@field ["Disabled"] inkEButtonState 3
+inkEButtonState = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entEntitySpawnPriority
-entEntitySpawnPriority = {
-    ["Background"] = 0, ---@type Enum
-    ["Normal"] = 1, ---@type Enum
-    ["Immediate"] = 2, ---@type Enum
-    ["Paramount"] = 3, ---@type Enum
-    ["Critical"] = 4, ---@type Enum
-}
+---@class entEntitySpawnPriority: Enum
+---@field ["Background"] entEntitySpawnPriority 0
+---@field ["Normal"] entEntitySpawnPriority 1
+---@field ["Immediate"] entEntitySpawnPriority 2
+---@field ["Paramount"] entEntitySpawnPriority 3
+---@field ["Critical"] entEntitySpawnPriority 4
+entEntitySpawnPriority = {}

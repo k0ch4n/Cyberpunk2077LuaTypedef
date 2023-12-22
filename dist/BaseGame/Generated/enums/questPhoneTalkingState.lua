@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questPhoneTalkingState
-questPhoneTalkingState = {
-    ["Ended"] = 0, ---@type Enum
-    ["Initializing"] = 1, ---@type Enum
-    ["Talking"] = 2, ---@type Enum
-    ["Rejected"] = 3, ---@type Enum
-}
+---@class questPhoneTalkingState: Enum
+---@field ["Ended"] questPhoneTalkingState 0
+---@field ["Initializing"] questPhoneTalkingState 1
+---@field ["Talking"] questPhoneTalkingState 2
+---@field ["Rejected"] questPhoneTalkingState 3
+questPhoneTalkingState = {}

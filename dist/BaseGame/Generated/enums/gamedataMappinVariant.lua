@@ -1,153 +1,152 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataMappinVariant
-gamedataMappinVariant = {
-    ["ActionDealDamageVariant"] = 0, ---@type Enum
-    ["ActionFastSoloVariant"] = 1, ---@type Enum
-    ["ActionGenericInteractionVariant"] = 2, ---@type Enum
-    ["ActionNetrunnerAccessPointVariant"] = 3, ---@type Enum
-    ["ActionNetrunnerVariant"] = 4, ---@type Enum
-    ["ActionScanVariant"] = 5, ---@type Enum
-    ["ActionSoloVariant"] = 6, ---@type Enum
-    ["ActionTechieVariant"] = 7, ---@type Enum
-    ["AimVariant"] = 8, ---@type Enum
-    ["AllowVariant"] = 9, ---@type Enum
-    ["ApartmentVariant"] = 10, ---@type Enum
-    ["ArrowVariant"] = 11, ---@type Enum
-    ["BackOutVariant"] = 12, ---@type Enum
-    ["BountyHuntVariant"] = 13, ---@type Enum
-    ["CallVariant"] = 14, ---@type Enum
-    ["ChangeToFriendlyVariant"] = 15, ---@type Enum
-    ["ClientInDistressVariant"] = 16, ---@type Enum
-    ["ConversationVariant"] = 17, ---@type Enum
-    ["ConvoyVariant"] = 18, ---@type Enum
-    ["CoolVariant"] = 19, ---@type Enum
-    ["CourierVariant"] = 20, ---@type Enum
-    ["CustomPositionVariant"] = 21, ---@type Enum
-    ["CyberspaceNPC"] = 22, ---@type Enum
-    ["CyberspaceObject"] = 23, ---@type Enum
-    ["DefaultInteractionVariant"] = 24, ---@type Enum
-    ["DefaultQuestVariant"] = 25, ---@type Enum
-    ["DefaultVariant"] = 26, ---@type Enum
-    ["DistractVariant"] = 27, ---@type Enum
-    ["DropboxVariant"] = 28, ---@type Enum
-    ["DynamicEventVariant"] = 29, ---@type Enum
-    ["EffectAlarmVariant"] = 30, ---@type Enum
-    ["EffectControlNetworkVariant"] = 31, ---@type Enum
-    ["EffectControlOtherDeviceVariant"] = 32, ---@type Enum
-    ["EffectControlSelfVariant"] = 33, ---@type Enum
-    ["EffectCutPowerVariant"] = 34, ---@type Enum
-    ["EffectDistractVariant"] = 35, ---@type Enum
-    ["EffectDropPointVariant"] = 36, ---@type Enum
-    ["EffectExplodeLethalVariant"] = 37, ---@type Enum
-    ["EffectExplodeNonLethalVariant"] = 38, ---@type Enum
-    ["EffectFallVariant"] = 39, ---@type Enum
-    ["EffectGrantInformationVariant"] = 40, ---@type Enum
-    ["EffectHideBodyVariant"] = 41, ---@type Enum
-    ["EffectLootVariant"] = 42, ---@type Enum
-    ["EffectOpenPathVariant"] = 43, ---@type Enum
-    ["EffectPushVariant"] = 44, ---@type Enum
-    ["EffectServicePointVariant"] = 45, ---@type Enum
-    ["EffectShootVariant"] = 46, ---@type Enum
-    ["EffectSpreadGasVariant"] = 47, ---@type Enum
-    ["EffectStoreItemsVariant"] = 48, ---@type Enum
-    ["ExclamationMarkVariant"] = 49, ---@type Enum
-    ["FailedCrossingVariant"] = 50, ---@type Enum
-    ["FastTravelVariant"] = 51, ---@type Enum
-    ["FixerVariant"] = 52, ---@type Enum
-    ["FocusClueVariant"] = 53, ---@type Enum
-    ["GPSForcedPathVariant"] = 54, ---@type Enum
-    ["GPSPortalVariant"] = 55, ---@type Enum
-    ["GangWatchVariant"] = 56, ---@type Enum
-    ["GenericRoleVariant"] = 57, ---@type Enum
-    ["GetInVariant"] = 58, ---@type Enum
-    ["GetUpVariant"] = 59, ---@type Enum
-    ["GrenadeVariant"] = 60, ---@type Enum
-    ["GunSuicideVariant"] = 61, ---@type Enum
-    ["HandVariant"] = 62, ---@type Enum
-    ["HazardWarningVariant"] = 63, ---@type Enum
-    ["HiddenStashVariant"] = 64, ---@type Enum
-    ["HitVariant"] = 65, ---@type Enum
-    ["HuntForPsychoVariant"] = 66, ---@type Enum
-    ["ImportantInteractionVariant"] = 67, ---@type Enum
-    ["InvalidVariant"] = 68, ---@type Enum
-    ["JackInVariant"] = 69, ---@type Enum
-    ["JamWeaponVariant"] = 70, ---@type Enum
-    ["LifepathCorpoVariant"] = 71, ---@type Enum
-    ["LifepathNomadVariant"] = 72, ---@type Enum
-    ["LifepathStreetKidVariant"] = 73, ---@type Enum
-    ["LootVariant"] = 74, ---@type Enum
-    ["MinorActivityVariant"] = 75, ---@type Enum
-    ["NPCVariant"] = 76, ---@type Enum
-    ["NetrunnerAccessPointVariant"] = 77, ---@type Enum
-    ["NetrunnerSoloTechieVariant"] = 78, ---@type Enum
-    ["NetrunnerSoloVariant"] = 79, ---@type Enum
-    ["NetrunnerTechieVariant"] = 80, ---@type Enum
-    ["NetrunnerVariant"] = 81, ---@type Enum
-    ["NonLethalTakedownVariant"] = 82, ---@type Enum
-    ["OffVariant"] = 83, ---@type Enum
-    ["OpenVendorVariant"] = 84, ---@type Enum
-    ["OutpostVariant"] = 85, ---@type Enum
-    ["PhoneCallVariant"] = 86, ---@type Enum
-    ["QuestGiverVariant"] = 87, ---@type Enum
-    ["QuestionMarkVariant"] = 88, ---@type Enum
-    ["QuickHackVariant"] = 89, ---@type Enum
-    ["ReflexesVariant"] = 90, ---@type Enum
-    ["ResourceVariant"] = 91, ---@type Enum
-    ["RetrievingVariant"] = 92, ---@type Enum
-    ["SOSsignalVariant"] = 93, ---@type Enum
-    ["SabotageVariant"] = 94, ---@type Enum
-    ["ServicePointBarVariant"] = 95, ---@type Enum
-    ["ServicePointClothesVariant"] = 96, ---@type Enum
-    ["ServicePointCyberwareVariant"] = 97, ---@type Enum
-    ["ServicePointDropPointVariant"] = 98, ---@type Enum
-    ["ServicePointFoodVariant"] = 99, ---@type Enum
-    ["ServicePointGunsVariant"] = 100, ---@type Enum
-    ["ServicePointJunkVariant"] = 101, ---@type Enum
-    ["ServicePointMedsVariant"] = 102, ---@type Enum
-    ["ServicePointMeleeTrainerVariant"] = 103, ---@type Enum
-    ["ServicePointNetTrainerVariant"] = 104, ---@type Enum
-    ["ServicePointProstituteVariant"] = 105, ---@type Enum
-    ["ServicePointRipperdocVariant"] = 106, ---@type Enum
-    ["ServicePointTechVariant"] = 107, ---@type Enum
-    ["SitVariant"] = 108, ---@type Enum
-    ["SmugglersDenVariant"] = 109, ---@type Enum
-    ["SoloTechieVariant"] = 110, ---@type Enum
-    ["SoloVariant"] = 111, ---@type Enum
-    ["SpeechVariant"] = 112, ---@type Enum
-    ["TakeControlVariant"] = 113, ---@type Enum
-    ["TakeDownVariant"] = 114, ---@type Enum
-    ["TarotVariant"] = 115, ---@type Enum
-    ["TechieVariant"] = 116, ---@type Enum
-    ["ThieveryVariant"] = 117, ---@type Enum
-    ["UseVariant"] = 118, ---@type Enum
-    ["VehicleVariant"] = 119, ---@type Enum
-    ["WanderingMerchantVariant"] = 120, ---@type Enum
-    ["Zzz01_CarForPurchaseVariant"] = 121, ---@type Enum
-    ["Zzz02_MotorcycleForPurchaseVariant"] = 122, ---@type Enum
-    ["Zzz03_MotorcycleVariant"] = 123, ---@type Enum
-    ["Zzz04_PreventionVehicleVariant"] = 124, ---@type Enum
-    ["Zzz05_ApartmentToPurchaseVariant"] = 125, ---@type Enum
-    ["Zzz06_NCPDGigVariant"] = 126, ---@type Enum
-    ["Zzz07_PlayerStashVariant"] = 127, ---@type Enum
-    ["Zzz08_WardrobeVariant"] = 128, ---@type Enum
-    ["Zzz09_CourierSandboxActivityVariant"] = 129, ---@type Enum
-    ["Zzz10_RemoteControlDrivingVariant"] = 130, ---@type Enum
-    ["Zzz11_RoadBlockadeVariant"] = 131, ---@type Enum
-    ["Zzz12_QuickHackQueueVariant"] = 132, ---@type Enum
-    ["Zzz12_WorldEncounterVariant"] = 133, ---@type Enum
-    ["Zzz13_DogtownGateVariant"] = 134, ---@type Enum
-    ["Zzz14_ServicePointBlackMarketVariant"] = 135, ---@type Enum
-    ["Zzz15_QuickHackDurationVariant"] = 136, ---@type Enum
-    ["Zzz16_RelicDeviceBasicVariant"] = 137, ---@type Enum
-    ["Zzz16_RelicDeviceSpecialVariant"] = 138, ---@type Enum
-    ["Zzz17_NCARTVariant"] = 139, ---@type Enum
-    ["Zzz18_RacingVariant"] = 140, ---@type Enum
-    ["CPO_PingDoorVariant"] = 141, ---@type Enum
-    ["CPO_PingGoHereVariant"] = 142, ---@type Enum
-    ["CPO_PingLootVariant"] = 143, ---@type Enum
-    ["CPO_RemotePlayerVariant"] = 144, ---@type Enum
-    ["Count"] = 145, ---@type Enum
-    ["Invalid"] = 146, ---@type Enum
-}
+---@class gamedataMappinVariant: Enum
+---@field ["ActionDealDamageVariant"] gamedataMappinVariant 0
+---@field ["ActionFastSoloVariant"] gamedataMappinVariant 1
+---@field ["ActionGenericInteractionVariant"] gamedataMappinVariant 2
+---@field ["ActionNetrunnerAccessPointVariant"] gamedataMappinVariant 3
+---@field ["ActionNetrunnerVariant"] gamedataMappinVariant 4
+---@field ["ActionScanVariant"] gamedataMappinVariant 5
+---@field ["ActionSoloVariant"] gamedataMappinVariant 6
+---@field ["ActionTechieVariant"] gamedataMappinVariant 7
+---@field ["AimVariant"] gamedataMappinVariant 8
+---@field ["AllowVariant"] gamedataMappinVariant 9
+---@field ["ApartmentVariant"] gamedataMappinVariant 10
+---@field ["ArrowVariant"] gamedataMappinVariant 11
+---@field ["BackOutVariant"] gamedataMappinVariant 12
+---@field ["BountyHuntVariant"] gamedataMappinVariant 13
+---@field ["CallVariant"] gamedataMappinVariant 14
+---@field ["ChangeToFriendlyVariant"] gamedataMappinVariant 15
+---@field ["ClientInDistressVariant"] gamedataMappinVariant 16
+---@field ["ConversationVariant"] gamedataMappinVariant 17
+---@field ["ConvoyVariant"] gamedataMappinVariant 18
+---@field ["CoolVariant"] gamedataMappinVariant 19
+---@field ["CourierVariant"] gamedataMappinVariant 20
+---@field ["CustomPositionVariant"] gamedataMappinVariant 21
+---@field ["CyberspaceNPC"] gamedataMappinVariant 22
+---@field ["CyberspaceObject"] gamedataMappinVariant 23
+---@field ["DefaultInteractionVariant"] gamedataMappinVariant 24
+---@field ["DefaultQuestVariant"] gamedataMappinVariant 25
+---@field ["DefaultVariant"] gamedataMappinVariant 26
+---@field ["DistractVariant"] gamedataMappinVariant 27
+---@field ["DropboxVariant"] gamedataMappinVariant 28
+---@field ["DynamicEventVariant"] gamedataMappinVariant 29
+---@field ["EffectAlarmVariant"] gamedataMappinVariant 30
+---@field ["EffectControlNetworkVariant"] gamedataMappinVariant 31
+---@field ["EffectControlOtherDeviceVariant"] gamedataMappinVariant 32
+---@field ["EffectControlSelfVariant"] gamedataMappinVariant 33
+---@field ["EffectCutPowerVariant"] gamedataMappinVariant 34
+---@field ["EffectDistractVariant"] gamedataMappinVariant 35
+---@field ["EffectDropPointVariant"] gamedataMappinVariant 36
+---@field ["EffectExplodeLethalVariant"] gamedataMappinVariant 37
+---@field ["EffectExplodeNonLethalVariant"] gamedataMappinVariant 38
+---@field ["EffectFallVariant"] gamedataMappinVariant 39
+---@field ["EffectGrantInformationVariant"] gamedataMappinVariant 40
+---@field ["EffectHideBodyVariant"] gamedataMappinVariant 41
+---@field ["EffectLootVariant"] gamedataMappinVariant 42
+---@field ["EffectOpenPathVariant"] gamedataMappinVariant 43
+---@field ["EffectPushVariant"] gamedataMappinVariant 44
+---@field ["EffectServicePointVariant"] gamedataMappinVariant 45
+---@field ["EffectShootVariant"] gamedataMappinVariant 46
+---@field ["EffectSpreadGasVariant"] gamedataMappinVariant 47
+---@field ["EffectStoreItemsVariant"] gamedataMappinVariant 48
+---@field ["ExclamationMarkVariant"] gamedataMappinVariant 49
+---@field ["FailedCrossingVariant"] gamedataMappinVariant 50
+---@field ["FastTravelVariant"] gamedataMappinVariant 51
+---@field ["FixerVariant"] gamedataMappinVariant 52
+---@field ["FocusClueVariant"] gamedataMappinVariant 53
+---@field ["GPSForcedPathVariant"] gamedataMappinVariant 54
+---@field ["GPSPortalVariant"] gamedataMappinVariant 55
+---@field ["GangWatchVariant"] gamedataMappinVariant 56
+---@field ["GenericRoleVariant"] gamedataMappinVariant 57
+---@field ["GetInVariant"] gamedataMappinVariant 58
+---@field ["GetUpVariant"] gamedataMappinVariant 59
+---@field ["GrenadeVariant"] gamedataMappinVariant 60
+---@field ["GunSuicideVariant"] gamedataMappinVariant 61
+---@field ["HandVariant"] gamedataMappinVariant 62
+---@field ["HazardWarningVariant"] gamedataMappinVariant 63
+---@field ["HiddenStashVariant"] gamedataMappinVariant 64
+---@field ["HitVariant"] gamedataMappinVariant 65
+---@field ["HuntForPsychoVariant"] gamedataMappinVariant 66
+---@field ["ImportantInteractionVariant"] gamedataMappinVariant 67
+---@field ["InvalidVariant"] gamedataMappinVariant 68
+---@field ["JackInVariant"] gamedataMappinVariant 69
+---@field ["JamWeaponVariant"] gamedataMappinVariant 70
+---@field ["LifepathCorpoVariant"] gamedataMappinVariant 71
+---@field ["LifepathNomadVariant"] gamedataMappinVariant 72
+---@field ["LifepathStreetKidVariant"] gamedataMappinVariant 73
+---@field ["LootVariant"] gamedataMappinVariant 74
+---@field ["MinorActivityVariant"] gamedataMappinVariant 75
+---@field ["NPCVariant"] gamedataMappinVariant 76
+---@field ["NetrunnerAccessPointVariant"] gamedataMappinVariant 77
+---@field ["NetrunnerSoloTechieVariant"] gamedataMappinVariant 78
+---@field ["NetrunnerSoloVariant"] gamedataMappinVariant 79
+---@field ["NetrunnerTechieVariant"] gamedataMappinVariant 80
+---@field ["NetrunnerVariant"] gamedataMappinVariant 81
+---@field ["NonLethalTakedownVariant"] gamedataMappinVariant 82
+---@field ["OffVariant"] gamedataMappinVariant 83
+---@field ["OpenVendorVariant"] gamedataMappinVariant 84
+---@field ["OutpostVariant"] gamedataMappinVariant 85
+---@field ["PhoneCallVariant"] gamedataMappinVariant 86
+---@field ["QuestGiverVariant"] gamedataMappinVariant 87
+---@field ["QuestionMarkVariant"] gamedataMappinVariant 88
+---@field ["QuickHackVariant"] gamedataMappinVariant 89
+---@field ["ReflexesVariant"] gamedataMappinVariant 90
+---@field ["ResourceVariant"] gamedataMappinVariant 91
+---@field ["RetrievingVariant"] gamedataMappinVariant 92
+---@field ["SOSsignalVariant"] gamedataMappinVariant 93
+---@field ["SabotageVariant"] gamedataMappinVariant 94
+---@field ["ServicePointBarVariant"] gamedataMappinVariant 95
+---@field ["ServicePointClothesVariant"] gamedataMappinVariant 96
+---@field ["ServicePointCyberwareVariant"] gamedataMappinVariant 97
+---@field ["ServicePointDropPointVariant"] gamedataMappinVariant 98
+---@field ["ServicePointFoodVariant"] gamedataMappinVariant 99
+---@field ["ServicePointGunsVariant"] gamedataMappinVariant 100
+---@field ["ServicePointJunkVariant"] gamedataMappinVariant 101
+---@field ["ServicePointMedsVariant"] gamedataMappinVariant 102
+---@field ["ServicePointMeleeTrainerVariant"] gamedataMappinVariant 103
+---@field ["ServicePointNetTrainerVariant"] gamedataMappinVariant 104
+---@field ["ServicePointProstituteVariant"] gamedataMappinVariant 105
+---@field ["ServicePointRipperdocVariant"] gamedataMappinVariant 106
+---@field ["ServicePointTechVariant"] gamedataMappinVariant 107
+---@field ["SitVariant"] gamedataMappinVariant 108
+---@field ["SmugglersDenVariant"] gamedataMappinVariant 109
+---@field ["SoloTechieVariant"] gamedataMappinVariant 110
+---@field ["SoloVariant"] gamedataMappinVariant 111
+---@field ["SpeechVariant"] gamedataMappinVariant 112
+---@field ["TakeControlVariant"] gamedataMappinVariant 113
+---@field ["TakeDownVariant"] gamedataMappinVariant 114
+---@field ["TarotVariant"] gamedataMappinVariant 115
+---@field ["TechieVariant"] gamedataMappinVariant 116
+---@field ["ThieveryVariant"] gamedataMappinVariant 117
+---@field ["UseVariant"] gamedataMappinVariant 118
+---@field ["VehicleVariant"] gamedataMappinVariant 119
+---@field ["WanderingMerchantVariant"] gamedataMappinVariant 120
+---@field ["Zzz01_CarForPurchaseVariant"] gamedataMappinVariant 121
+---@field ["Zzz02_MotorcycleForPurchaseVariant"] gamedataMappinVariant 122
+---@field ["Zzz03_MotorcycleVariant"] gamedataMappinVariant 123
+---@field ["Zzz04_PreventionVehicleVariant"] gamedataMappinVariant 124
+---@field ["Zzz05_ApartmentToPurchaseVariant"] gamedataMappinVariant 125
+---@field ["Zzz06_NCPDGigVariant"] gamedataMappinVariant 126
+---@field ["Zzz07_PlayerStashVariant"] gamedataMappinVariant 127
+---@field ["Zzz08_WardrobeVariant"] gamedataMappinVariant 128
+---@field ["Zzz09_CourierSandboxActivityVariant"] gamedataMappinVariant 129
+---@field ["Zzz10_RemoteControlDrivingVariant"] gamedataMappinVariant 130
+---@field ["Zzz11_RoadBlockadeVariant"] gamedataMappinVariant 131
+---@field ["Zzz12_QuickHackQueueVariant"] gamedataMappinVariant 132
+---@field ["Zzz12_WorldEncounterVariant"] gamedataMappinVariant 133
+---@field ["Zzz13_DogtownGateVariant"] gamedataMappinVariant 134
+---@field ["Zzz14_ServicePointBlackMarketVariant"] gamedataMappinVariant 135
+---@field ["Zzz15_QuickHackDurationVariant"] gamedataMappinVariant 136
+---@field ["Zzz16_RelicDeviceBasicVariant"] gamedataMappinVariant 137
+---@field ["Zzz16_RelicDeviceSpecialVariant"] gamedataMappinVariant 138
+---@field ["Zzz17_NCARTVariant"] gamedataMappinVariant 139
+---@field ["Zzz18_RacingVariant"] gamedataMappinVariant 140
+---@field ["CPO_PingDoorVariant"] gamedataMappinVariant 141
+---@field ["CPO_PingGoHereVariant"] gamedataMappinVariant 142
+---@field ["CPO_PingLootVariant"] gamedataMappinVariant 143
+---@field ["CPO_RemotePlayerVariant"] gamedataMappinVariant 144
+---@field ["Count"] gamedataMappinVariant 145
+---@field ["Invalid"] gamedataMappinVariant 146
+gamedataMappinVariant = {}

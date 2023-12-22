@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePlayerObstacleSystemQueryType
-gamePlayerObstacleSystemQueryType = {
-    ["Climb_Vault"] = 0, ---@type Enum
-    ["Covers"] = 1, ---@type Enum
-    ["AverageNormal"] = 2, ---@type Enum
-}
+---@class gamePlayerObstacleSystemQueryType: Enum
+---@field ["Climb_Vault"] gamePlayerObstacleSystemQueryType 0
+---@field ["Covers"] gamePlayerObstacleSystemQueryType 1
+---@field ["AverageNormal"] gamePlayerObstacleSystemQueryType 2
+gamePlayerObstacleSystemQueryType = {}

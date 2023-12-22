@@ -1,28 +1,27 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataProficiencyType
-gamedataProficiencyType = {
-    ["Assault"] = 0, ---@type Enum
-    ["Athletics"] = 1, ---@type Enum
-    ["Brawling"] = 2, ---@type Enum
-    ["ColdBlood"] = 3, ---@type Enum
-    ["CombatHacking"] = 4, ---@type Enum
-    ["CoolSkill"] = 5, ---@type Enum
-    ["Crafting"] = 6, ---@type Enum
-    ["Demolition"] = 7, ---@type Enum
-    ["Engineering"] = 8, ---@type Enum
-    ["Espionage"] = 9, ---@type Enum
-    ["Gunslinger"] = 10, ---@type Enum
-    ["Hacking"] = 11, ---@type Enum
-    ["IntelligenceSkill"] = 12, ---@type Enum
-    ["Kenjutsu"] = 13, ---@type Enum
-    ["Level"] = 14, ---@type Enum
-    ["ReflexesSkill"] = 15, ---@type Enum
-    ["Stealth"] = 16, ---@type Enum
-    ["StreetCred"] = 17, ---@type Enum
-    ["StrengthSkill"] = 18, ---@type Enum
-    ["TechnicalAbilitySkill"] = 19, ---@type Enum
-    ["Count"] = 20, ---@type Enum
-    ["Invalid"] = 21, ---@type Enum
-}
+---@class gamedataProficiencyType: Enum
+---@field ["Assault"] gamedataProficiencyType 0
+---@field ["Athletics"] gamedataProficiencyType 1
+---@field ["Brawling"] gamedataProficiencyType 2
+---@field ["ColdBlood"] gamedataProficiencyType 3
+---@field ["CombatHacking"] gamedataProficiencyType 4
+---@field ["CoolSkill"] gamedataProficiencyType 5
+---@field ["Crafting"] gamedataProficiencyType 6
+---@field ["Demolition"] gamedataProficiencyType 7
+---@field ["Engineering"] gamedataProficiencyType 8
+---@field ["Espionage"] gamedataProficiencyType 9
+---@field ["Gunslinger"] gamedataProficiencyType 10
+---@field ["Hacking"] gamedataProficiencyType 11
+---@field ["IntelligenceSkill"] gamedataProficiencyType 12
+---@field ["Kenjutsu"] gamedataProficiencyType 13
+---@field ["Level"] gamedataProficiencyType 14
+---@field ["ReflexesSkill"] gamedataProficiencyType 15
+---@field ["Stealth"] gamedataProficiencyType 16
+---@field ["StreetCred"] gamedataProficiencyType 17
+---@field ["StrengthSkill"] gamedataProficiencyType 18
+---@field ["TechnicalAbilitySkill"] gamedataProficiencyType 19
+---@field ["Count"] gamedataProficiencyType 20
+---@field ["Invalid"] gamedataProficiencyType 21
+gamedataProficiencyType = {}

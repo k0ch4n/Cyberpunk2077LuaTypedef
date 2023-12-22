@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkTextReplaceAnimationControllerWidgetTextUsage
-inkTextReplaceAnimationControllerWidgetTextUsage = {
-    ["BaseText"] = 0, ---@type Enum
-    ["TargetText"] = 1, ---@type Enum
-    ["NoUsage"] = 2, ---@type Enum
-}
+---@class inkTextReplaceAnimationControllerWidgetTextUsage: Enum
+---@field ["BaseText"] inkTextReplaceAnimationControllerWidgetTextUsage 0
+---@field ["TargetText"] inkTextReplaceAnimationControllerWidgetTextUsage 1
+---@field ["NoUsage"] inkTextReplaceAnimationControllerWidgetTextUsage 2
+inkTextReplaceAnimationControllerWidgetTextUsage = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entAnimParamSlotFunction
-entAnimParamSlotFunction = {
-    ["RenderingPlane"] = 0, ---@type Enum
-    ["Visibility"] = 1, ---@type Enum
-}
+---@class entAnimParamSlotFunction: Enum
+---@field ["RenderingPlane"] entAnimParamSlotFunction 0
+---@field ["Visibility"] entAnimParamSlotFunction 1
+entAnimParamSlotFunction = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEBlendTypeLBC
-animEBlendTypeLBC = {
-    ["Linear"] = 0, ---@type Enum
-    ["Smoothstep"] = 1, ---@type Enum
-    ["CustomCurve"] = 2, ---@type Enum
-}
+---@class animEBlendTypeLBC: Enum
+---@field ["Linear"] animEBlendTypeLBC 0
+---@field ["Smoothstep"] animEBlendTypeLBC 1
+---@field ["CustomCurve"] animEBlendTypeLBC 2
+animEBlendTypeLBC = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EColorChannel
-EColorChannel = {
-    ["COLCHANNEL_Red"] = 0, ---@type Enum
-    ["COLCHANNEL_Green"] = 1, ---@type Enum
-    ["COLCHANNEL_Blue"] = 2, ---@type Enum
-    ["COLCHANNEL_Alpha"] = 3, ---@type Enum
-}
+---@class EColorChannel: Enum
+---@field ["COLCHANNEL_Red"] EColorChannel 0
+---@field ["COLCHANNEL_Green"] EColorChannel 1
+---@field ["COLCHANNEL_Blue"] EColorChannel 2
+---@field ["COLCHANNEL_Alpha"] EColorChannel 3
+EColorChannel = {}

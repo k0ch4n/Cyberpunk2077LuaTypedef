@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEAnchor
-inkEAnchor = {
-    ["TopLeft"] = 0, ---@type Enum
-    ["TopCenter"] = 1, ---@type Enum
-    ["TopRight"] = 2, ---@type Enum
-    ["CenterLeft"] = 3, ---@type Enum
-    ["Centered"] = 4, ---@type Enum
-    ["CenterRight"] = 5, ---@type Enum
-    ["BottomLeft"] = 6, ---@type Enum
-    ["BottomCenter"] = 7, ---@type Enum
-    ["BottomRight"] = 8, ---@type Enum
-    ["TopFillHorizontaly"] = 9, ---@type Enum
-    ["CenterFillHorizontaly"] = 10, ---@type Enum
-    ["BottomFillHorizontaly"] = 11, ---@type Enum
-    ["LeftFillVerticaly"] = 12, ---@type Enum
-    ["CenterFillVerticaly"] = 13, ---@type Enum
-    ["RightFillVerticaly"] = 14, ---@type Enum
-    ["Fill"] = 15, ---@type Enum
-}
+---@class inkEAnchor: Enum
+---@field ["TopLeft"] inkEAnchor 0
+---@field ["TopCenter"] inkEAnchor 1
+---@field ["TopRight"] inkEAnchor 2
+---@field ["CenterLeft"] inkEAnchor 3
+---@field ["Centered"] inkEAnchor 4
+---@field ["CenterRight"] inkEAnchor 5
+---@field ["BottomLeft"] inkEAnchor 6
+---@field ["BottomCenter"] inkEAnchor 7
+---@field ["BottomRight"] inkEAnchor 8
+---@field ["TopFillHorizontaly"] inkEAnchor 9
+---@field ["CenterFillHorizontaly"] inkEAnchor 10
+---@field ["BottomFillHorizontaly"] inkEAnchor 11
+---@field ["LeftFillVerticaly"] inkEAnchor 12
+---@field ["CenterFillVerticaly"] inkEAnchor 13
+---@field ["RightFillVerticaly"] inkEAnchor 14
+---@field ["Fill"] inkEAnchor 15
+inkEAnchor = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAITicketStatus
-EAITicketStatus = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Evaluate"] = 1, ---@type Enum
-    ["OrderFail"] = 2, ---@type Enum
-    ["OrderDone"] = 3, ---@type Enum
-    ["OrderRevoked"] = 4, ---@type Enum
-}
+---@class EAITicketStatus: Enum
+---@field ["Invalid"] EAITicketStatus 0
+---@field ["Evaluate"] EAITicketStatus 1
+---@field ["OrderFail"] EAITicketStatus 2
+---@field ["OrderDone"] EAITicketStatus 3
+---@field ["OrderRevoked"] EAITicketStatus 4
+EAITicketStatus = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleTPPCameraDistance
-vehicleTPPCameraDistance = {
-    ["Close"] = 0, ---@type Enum
-    ["Medium"] = 1, ---@type Enum
-    ["Far"] = 2, ---@type Enum
-    ["DriverCombatClose"] = 3, ---@type Enum
-    ["DriverCombatMedium"] = 4, ---@type Enum
-    ["DriverCombatFar"] = 5, ---@type Enum
-}
+---@class vehicleTPPCameraDistance: Enum
+---@field ["Close"] vehicleTPPCameraDistance 0
+---@field ["Medium"] vehicleTPPCameraDistance 1
+---@field ["Far"] vehicleTPPCameraDistance 2
+---@field ["DriverCombatClose"] vehicleTPPCameraDistance 3
+---@field ["DriverCombatMedium"] vehicleTPPCameraDistance 4
+---@field ["DriverCombatFar"] vehicleTPPCameraDistance 5
+vehicleTPPCameraDistance = {}

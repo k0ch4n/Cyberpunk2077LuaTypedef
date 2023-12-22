@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiMappinGroupState
-gameuiMappinGroupState = {
-    ["Ungrouped"] = 0, ---@type Enum
-    ["Grouped"] = 1, ---@type Enum
-    ["GroupedCollection"] = 2, ---@type Enum
-    ["GroupedHidden"] = 3, ---@type Enum
-}
+---@class gameuiMappinGroupState: Enum
+---@field ["Ungrouped"] gameuiMappinGroupState 0
+---@field ["Grouped"] gameuiMappinGroupState 1
+---@field ["GroupedCollection"] gameuiMappinGroupState 2
+---@field ["GroupedHidden"] gameuiMappinGroupState 3
+gameuiMappinGroupState = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questJournalQuestEntry_NodeTypeNodeVersion
-questJournalQuestEntry_NodeTypeNodeVersion = {
-    ["Initial"] = 0, ---@type Enum
-    ["OptionalProperty"] = 1, ---@type Enum
-}
+---@class questJournalQuestEntry_NodeTypeNodeVersion: Enum
+---@field ["Initial"] questJournalQuestEntry_NodeTypeNodeVersion 0
+---@field ["OptionalProperty"] questJournalQuestEntry_NodeTypeNodeVersion 1
+questJournalQuestEntry_NodeTypeNodeVersion = {}

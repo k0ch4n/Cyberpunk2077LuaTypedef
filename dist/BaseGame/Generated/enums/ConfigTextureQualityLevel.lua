@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ConfigTextureQualityLevel
-ConfigTextureQualityLevel = {
-    ["Console"] = 0, ---@type Enum
-    ["ConsoleSafe"] = 1, ---@type Enum
-    ["Low"] = 2, ---@type Enum
-    ["Medium"] = 3, ---@type Enum
-    ["High"] = 4, ---@type Enum
-    ["SafeMode"] = 5, ---@type Enum
-    ["Auto"] = 6, ---@type Enum
-}
+---@class ConfigTextureQualityLevel: Enum
+---@field ["Console"] ConfigTextureQualityLevel 0
+---@field ["ConsoleSafe"] ConfigTextureQualityLevel 1
+---@field ["Low"] ConfigTextureQualityLevel 2
+---@field ["Medium"] ConfigTextureQualityLevel 3
+---@field ["High"] ConfigTextureQualityLevel 4
+---@field ["SafeMode"] ConfigTextureQualityLevel 5
+---@field ["Auto"] ConfigTextureQualityLevel 6
+ConfigTextureQualityLevel = {}

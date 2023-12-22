@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAnimNode_SetDrivenKey_InternalsEChannelType
-animAnimNode_SetDrivenKey_InternalsEChannelType = {
-    ["FloatTrack"] = 0, ---@type Enum
-    ["TransX"] = 1, ---@type Enum
-    ["TransY"] = 2, ---@type Enum
-    ["TransZ"] = 3, ---@type Enum
-    ["RotEulZ_Pitch"] = 4, ---@type Enum
-    ["RotEulX_Roll"] = 5, ---@type Enum
-    ["RotEulY_Yaw"] = 6, ---@type Enum
-    ["ScaleX"] = 7, ---@type Enum
-    ["ScaleY"] = 8, ---@type Enum
-    ["ScaleZ"] = 9, ---@type Enum
-    ["RotQuatX"] = 10, ---@type Enum
-    ["RotQuatY"] = 11, ---@type Enum
-    ["RotQuatZ"] = 12, ---@type Enum
-    ["RotQuatW"] = 13, ---@type Enum
-}
+---@class animAnimNode_SetDrivenKey_InternalsEChannelType: Enum
+---@field ["FloatTrack"] animAnimNode_SetDrivenKey_InternalsEChannelType 0
+---@field ["TransX"] animAnimNode_SetDrivenKey_InternalsEChannelType 1
+---@field ["TransY"] animAnimNode_SetDrivenKey_InternalsEChannelType 2
+---@field ["TransZ"] animAnimNode_SetDrivenKey_InternalsEChannelType 3
+---@field ["RotEulZ_Pitch"] animAnimNode_SetDrivenKey_InternalsEChannelType 4
+---@field ["RotEulX_Roll"] animAnimNode_SetDrivenKey_InternalsEChannelType 5
+---@field ["RotEulY_Yaw"] animAnimNode_SetDrivenKey_InternalsEChannelType 6
+---@field ["ScaleX"] animAnimNode_SetDrivenKey_InternalsEChannelType 7
+---@field ["ScaleY"] animAnimNode_SetDrivenKey_InternalsEChannelType 8
+---@field ["ScaleZ"] animAnimNode_SetDrivenKey_InternalsEChannelType 9
+---@field ["RotQuatX"] animAnimNode_SetDrivenKey_InternalsEChannelType 10
+---@field ["RotQuatY"] animAnimNode_SetDrivenKey_InternalsEChannelType 11
+---@field ["RotQuatZ"] animAnimNode_SetDrivenKey_InternalsEChannelType 12
+---@field ["RotQuatW"] animAnimNode_SetDrivenKey_InternalsEChannelType 13
+animAnimNode_SetDrivenKey_InternalsEChannelType = {}

@@ -1,41 +1,40 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESystemNotificationTypes
-ESystemNotificationTypes = {
-    ["DiscOperationIndicator"] = 0, ---@type Enum
-    ["GenericNotModal"] = 1, ---@type Enum
-    ["AchievmentDebug"] = 2, ---@type Enum
-    ["GenericMenuInfo"] = 3, ---@type Enum
-    ["GenericYesNo"] = 4, ---@type Enum
-    ["Generic"] = 5, ---@type Enum
-    ["ExitGame"] = 6, ---@type Enum
-    ["StartNewGame"] = 7, ---@type Enum
-    ["NoDiscSpace"] = 8, ---@type Enum
-    ["OverwriteSaveFile"] = 9, ---@type Enum
-    ["OverwriteSaveFileXbCompatWarning"] = 10, ---@type Enum
-    ["LoadSaveFileInGame"] = 11, ---@type Enum
-    ["LoadSaveFile"] = 12, ---@type Enum
-    ["DeleteSaveFile"] = 13, ---@type Enum
-    ["TransferSaveFile"] = 14, ---@type Enum
-    ["CorruptedSaveFile"] = 15, ---@type Enum
-    ["UnreachableCloudFile"] = 16, ---@type Enum
-    ["RegionMismatchSaveFile"] = 17, ---@type Enum
-    ["NoPlayerProfile"] = 18, ---@type Enum
-    ["GameSaved"] = 19, ---@type Enum
-    ["SaveFailed"] = 20, ---@type Enum
-    ["UnavailableForGuest"] = 21, ---@type Enum
-    ["EnableTelemetry"] = 22, ---@type Enum
-    ["PointOfNoReturn"] = 23, ---@type Enum
-    ["PointOfNoReturnWithReward"] = 24, ---@type Enum
-    ["PointOfNoReturnLootAdded"] = 25, ---@type Enum
-    ["GenericMenuError"] = 26, ---@type Enum
-    ["ControllerReconnected"] = 27, ---@type Enum
-    ["ControllerDisconnected"] = 28, ---@type Enum
-    ["TrialPeriodEnded"] = 29, ---@type Enum
-    ["TrialPeriodTimer"] = 30, ---@type Enum
-    ["FailedToRemoveTransferredSave"] = 31, ---@type Enum
-    ["LoadModdedSaveFile"] = 32, ---@type Enum
-    ["MAX"] = 33, ---@type Enum
-    ["FirstModalHighPriority"] = 27, ---@type Enum
-}
+---@class ESystemNotificationTypes: Enum
+---@field ["DiscOperationIndicator"] ESystemNotificationTypes 0
+---@field ["GenericNotModal"] ESystemNotificationTypes 1
+---@field ["AchievmentDebug"] ESystemNotificationTypes 2
+---@field ["GenericMenuInfo"] ESystemNotificationTypes 3
+---@field ["GenericYesNo"] ESystemNotificationTypes 4
+---@field ["Generic"] ESystemNotificationTypes 5
+---@field ["ExitGame"] ESystemNotificationTypes 6
+---@field ["StartNewGame"] ESystemNotificationTypes 7
+---@field ["NoDiscSpace"] ESystemNotificationTypes 8
+---@field ["OverwriteSaveFile"] ESystemNotificationTypes 9
+---@field ["OverwriteSaveFileXbCompatWarning"] ESystemNotificationTypes 10
+---@field ["LoadSaveFileInGame"] ESystemNotificationTypes 11
+---@field ["LoadSaveFile"] ESystemNotificationTypes 12
+---@field ["DeleteSaveFile"] ESystemNotificationTypes 13
+---@field ["TransferSaveFile"] ESystemNotificationTypes 14
+---@field ["CorruptedSaveFile"] ESystemNotificationTypes 15
+---@field ["UnreachableCloudFile"] ESystemNotificationTypes 16
+---@field ["RegionMismatchSaveFile"] ESystemNotificationTypes 17
+---@field ["NoPlayerProfile"] ESystemNotificationTypes 18
+---@field ["GameSaved"] ESystemNotificationTypes 19
+---@field ["SaveFailed"] ESystemNotificationTypes 20
+---@field ["UnavailableForGuest"] ESystemNotificationTypes 21
+---@field ["EnableTelemetry"] ESystemNotificationTypes 22
+---@field ["PointOfNoReturn"] ESystemNotificationTypes 23
+---@field ["PointOfNoReturnWithReward"] ESystemNotificationTypes 24
+---@field ["PointOfNoReturnLootAdded"] ESystemNotificationTypes 25
+---@field ["GenericMenuError"] ESystemNotificationTypes 26
+---@field ["ControllerReconnected"] ESystemNotificationTypes 27
+---@field ["ControllerDisconnected"] ESystemNotificationTypes 28
+---@field ["TrialPeriodEnded"] ESystemNotificationTypes 29
+---@field ["TrialPeriodTimer"] ESystemNotificationTypes 30
+---@field ["FailedToRemoveTransferredSave"] ESystemNotificationTypes 31
+---@field ["LoadModdedSaveFile"] ESystemNotificationTypes 32
+---@field ["MAX"] ESystemNotificationTypes 33
+---@field ["FirstModalHighPriority"] ESystemNotificationTypes 27
+ESystemNotificationTypes = {}

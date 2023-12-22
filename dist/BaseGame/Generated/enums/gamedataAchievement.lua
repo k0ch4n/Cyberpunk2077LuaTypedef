@@ -1,66 +1,65 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAchievement
-gamedataAchievement = {
-    ["AllThePresidentsMen"] = 0, ---@type Enum
-    ["Bladerunner"] = 1, ---@type Enum
-    ["BornToBeWild"] = 2, ---@type Enum
-    ["Breathtaking"] = 3, ---@type Enum
-    ["BushidoAndChill"] = 4, ---@type Enum
-    ["Cyberjunkie"] = 5, ---@type Enum
-    ["Denied"] = 6, ---@type Enum
-    ["DirtyWork"] = 7, ---@type Enum
-    ["DogtownLaw"] = 8, ---@type Enum
-    ["EasyComeEasyGo"] = 9, ---@type Enum
-    ["FollowingTheRiver"] = 10, ---@type Enum
-    ["Fortuneteller"] = 11, ---@type Enum
-    ["Gearhead"] = 12, ---@type Enum
-    ["GetMeThereScottie"] = 13, ---@type Enum
-    ["GunKata"] = 14, ---@type Enum
-    ["Gunslinger"] = 15, ---@type Enum
-    ["HandyMan"] = 16, ---@type Enum
-    ["HydraIsDead"] = 17, ---@type Enum
-    ["IAmMaxTac"] = 18, ---@type Enum
-    ["IHateSpider"] = 19, ---@type Enum
-    ["KingOfTheCups"] = 20, ---@type Enum
-    ["KingOfThePentacles"] = 21, ---@type Enum
-    ["KingOfTheSwords"] = 22, ---@type Enum
-    ["KingOfTheWands"] = 23, ---@type Enum
-    ["Kingmaker"] = 24, ---@type Enum
-    ["LikeFatherLikeSon"] = 25, ---@type Enum
-    ["LittleTokyo"] = 26, ---@type Enum
-    ["MasterRunner"] = 27, ---@type Enum
-    ["MaxPain"] = 28, ---@type Enum
-    ["MustBeTheRats"] = 29, ---@type Enum
-    ["NeverFadeAway"] = 30, ---@type Enum
-    ["NoMansLand"] = 31, ---@type Enum
-    ["NotTheMobile"] = 32, ---@type Enum
-    ["QueenOfTheHighway"] = 33, ---@type Enum
-    ["RelicMaster"] = 34, ---@type Enum
-    ["Roleplayer"] = 35, ---@type Enum
-    ["Specialist"] = 36, ---@type Enum
-    ["Temperance"] = 37, ---@type Enum
-    ["ThatIsSoHardForTheKnees"] = 38, ---@type Enum
-    ["TheDevil"] = 39, ---@type Enum
-    ["TheFool"] = 40, ---@type Enum
-    ["TheHermit"] = 41, ---@type Enum
-    ["TheHightPriestess"] = 42, ---@type Enum
-    ["TheLovers"] = 43, ---@type Enum
-    ["TheStar"] = 44, ---@type Enum
-    ["TheSun"] = 45, ---@type Enum
-    ["TheTower"] = 46, ---@type Enum
-    ["TheWheelOfFortune"] = 47, ---@type Enum
-    ["TheWorld"] = 48, ---@type Enum
-    ["ThisIsPacifica"] = 49, ---@type Enum
-    ["TradeUnion"] = 50, ---@type Enum
-    ["TrueSoldier"] = 51, ---@type Enum
-    ["TrueWarrior"] = 52, ---@type Enum
-    ["TwoHeadsOneBullet"] = 53, ---@type Enum
-    ["UnderPressure"] = 54, ---@type Enum
-    ["VForVendetta"] = 55, ---@type Enum
-    ["YipMan"] = 56, ---@type Enum
-    ["YouKnowWhoIAm"] = 57, ---@type Enum
-    ["Count"] = 58, ---@type Enum
-    ["Invalid"] = 59, ---@type Enum
-}
+---@class gamedataAchievement: Enum
+---@field ["AllThePresidentsMen"] gamedataAchievement 0
+---@field ["Bladerunner"] gamedataAchievement 1
+---@field ["BornToBeWild"] gamedataAchievement 2
+---@field ["Breathtaking"] gamedataAchievement 3
+---@field ["BushidoAndChill"] gamedataAchievement 4
+---@field ["Cyberjunkie"] gamedataAchievement 5
+---@field ["Denied"] gamedataAchievement 6
+---@field ["DirtyWork"] gamedataAchievement 7
+---@field ["DogtownLaw"] gamedataAchievement 8
+---@field ["EasyComeEasyGo"] gamedataAchievement 9
+---@field ["FollowingTheRiver"] gamedataAchievement 10
+---@field ["Fortuneteller"] gamedataAchievement 11
+---@field ["Gearhead"] gamedataAchievement 12
+---@field ["GetMeThereScottie"] gamedataAchievement 13
+---@field ["GunKata"] gamedataAchievement 14
+---@field ["Gunslinger"] gamedataAchievement 15
+---@field ["HandyMan"] gamedataAchievement 16
+---@field ["HydraIsDead"] gamedataAchievement 17
+---@field ["IAmMaxTac"] gamedataAchievement 18
+---@field ["IHateSpider"] gamedataAchievement 19
+---@field ["KingOfTheCups"] gamedataAchievement 20
+---@field ["KingOfThePentacles"] gamedataAchievement 21
+---@field ["KingOfTheSwords"] gamedataAchievement 22
+---@field ["KingOfTheWands"] gamedataAchievement 23
+---@field ["Kingmaker"] gamedataAchievement 24
+---@field ["LikeFatherLikeSon"] gamedataAchievement 25
+---@field ["LittleTokyo"] gamedataAchievement 26
+---@field ["MasterRunner"] gamedataAchievement 27
+---@field ["MaxPain"] gamedataAchievement 28
+---@field ["MustBeTheRats"] gamedataAchievement 29
+---@field ["NeverFadeAway"] gamedataAchievement 30
+---@field ["NoMansLand"] gamedataAchievement 31
+---@field ["NotTheMobile"] gamedataAchievement 32
+---@field ["QueenOfTheHighway"] gamedataAchievement 33
+---@field ["RelicMaster"] gamedataAchievement 34
+---@field ["Roleplayer"] gamedataAchievement 35
+---@field ["Specialist"] gamedataAchievement 36
+---@field ["Temperance"] gamedataAchievement 37
+---@field ["ThatIsSoHardForTheKnees"] gamedataAchievement 38
+---@field ["TheDevil"] gamedataAchievement 39
+---@field ["TheFool"] gamedataAchievement 40
+---@field ["TheHermit"] gamedataAchievement 41
+---@field ["TheHightPriestess"] gamedataAchievement 42
+---@field ["TheLovers"] gamedataAchievement 43
+---@field ["TheStar"] gamedataAchievement 44
+---@field ["TheSun"] gamedataAchievement 45
+---@field ["TheTower"] gamedataAchievement 46
+---@field ["TheWheelOfFortune"] gamedataAchievement 47
+---@field ["TheWorld"] gamedataAchievement 48
+---@field ["ThisIsPacifica"] gamedataAchievement 49
+---@field ["TradeUnion"] gamedataAchievement 50
+---@field ["TrueSoldier"] gamedataAchievement 51
+---@field ["TrueWarrior"] gamedataAchievement 52
+---@field ["TwoHeadsOneBullet"] gamedataAchievement 53
+---@field ["UnderPressure"] gamedataAchievement 54
+---@field ["VForVendetta"] gamedataAchievement 55
+---@field ["YipMan"] gamedataAchievement 56
+---@field ["YouKnowWhoIAm"] gamedataAchievement 57
+---@field ["Count"] gamedataAchievement 58
+---@field ["Invalid"] gamedataAchievement 59
+gamedataAchievement = {}

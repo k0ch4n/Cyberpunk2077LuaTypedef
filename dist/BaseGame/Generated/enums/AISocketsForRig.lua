@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AISocketsForRig
-AISocketsForRig = {
-    ["Undefined"] = 0, ---@type Enum
-    ["ManAverage"] = 1, ---@type Enum
-    ["ManBig"] = 2, ---@type Enum
-    ["ManFat"] = 3, ---@type Enum
-    ["WomanAverage"] = 4, ---@type Enum
-    ["WomanBig"] = 5, ---@type Enum
-    ["ChildMale"] = 6, ---@type Enum
-}
+---@class AISocketsForRig: Enum
+---@field ["Undefined"] AISocketsForRig 0
+---@field ["ManAverage"] AISocketsForRig 1
+---@field ["ManBig"] AISocketsForRig 2
+---@field ["ManFat"] AISocketsForRig 3
+---@field ["WomanAverage"] AISocketsForRig 4
+---@field ["WomanBig"] AISocketsForRig 5
+---@field ["ChildMale"] AISocketsForRig 6
+AISocketsForRig = {}

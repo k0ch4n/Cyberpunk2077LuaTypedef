@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questSpawnedVehicleType
-questSpawnedVehicleType = {
-    ["EntityReferenced"] = 0, ---@type Enum
-    ["AnyCar"] = 1, ---@type Enum
-    ["AnyMotorcycle"] = 2, ---@type Enum
-    ["SpecificVehicle"] = 3, ---@type Enum
-}
+---@class questSpawnedVehicleType: Enum
+---@field ["EntityReferenced"] questSpawnedVehicleType 0
+---@field ["AnyCar"] questSpawnedVehicleType 1
+---@field ["AnyMotorcycle"] questSpawnedVehicleType 2
+---@field ["SpecificVehicle"] questSpawnedVehicleType 3
+questSpawnedVehicleType = {}

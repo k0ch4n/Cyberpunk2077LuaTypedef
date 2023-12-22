@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldRainIntensity
-worldRainIntensity = {
-    ["NoRain"] = 0, ---@type Enum
-    ["LightRain"] = 1, ---@type Enum
-    ["HeavyRain"] = 2, ---@type Enum
-}
+---@class worldRainIntensity: Enum
+---@field ["NoRain"] worldRainIntensity 0
+---@field ["LightRain"] worldRainIntensity 1
+---@field ["HeavyRain"] worldRainIntensity 2
+worldRainIntensity = {}

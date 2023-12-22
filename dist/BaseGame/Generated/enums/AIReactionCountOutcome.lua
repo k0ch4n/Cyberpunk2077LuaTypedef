@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIReactionCountOutcome
-AIReactionCountOutcome = {
-    ["Failed"] = 0, ---@type Enum
-    ["Succeded"] = 1, ---@type Enum
-    ["NotFound"] = 2, ---@type Enum
-}
+---@class AIReactionCountOutcome: Enum
+---@field ["Failed"] AIReactionCountOutcome 0
+---@field ["Succeded"] AIReactionCountOutcome 1
+---@field ["NotFound"] AIReactionCountOutcome 2
+AIReactionCountOutcome = {}

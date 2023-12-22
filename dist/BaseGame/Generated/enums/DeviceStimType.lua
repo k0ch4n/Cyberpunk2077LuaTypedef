@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DeviceStimType
-DeviceStimType = {
-    ["Distract"] = 0, ---@type Enum
-    ["VisualDistract"] = 1, ---@type Enum
-    ["Explosion"] = 2, ---@type Enum
-    ["VentilationAreaEffect"] = 3, ---@type Enum
-    ["None"] = 4, ---@type Enum
-}
+---@class DeviceStimType: Enum
+---@field ["Distract"] DeviceStimType 0
+---@field ["VisualDistract"] DeviceStimType 1
+---@field ["Explosion"] DeviceStimType 2
+---@field ["VentilationAreaEffect"] DeviceStimType 3
+---@field ["None"] DeviceStimType 4
+DeviceStimType = {}

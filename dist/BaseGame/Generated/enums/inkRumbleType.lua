@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkRumbleType
-inkRumbleType = {
-    ["Fast"] = 0, ---@type Enum
-    ["Pulse"] = 1, ---@type Enum
-    ["Slow"] = 2, ---@type Enum
-}
+---@class inkRumbleType: Enum
+---@field ["Fast"] inkRumbleType 0
+---@field ["Pulse"] inkRumbleType 1
+---@field ["Slow"] inkRumbleType 2
+inkRumbleType = {}

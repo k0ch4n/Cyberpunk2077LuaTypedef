@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataLifePath
-gamedataLifePath = {
-    ["Corporate"] = 0, ---@type Enum
-    ["Nomad"] = 1, ---@type Enum
-    ["StreetKid"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataLifePath: Enum
+---@field ["Corporate"] gamedataLifePath 0
+---@field ["Nomad"] gamedataLifePath 1
+---@field ["StreetKid"] gamedataLifePath 2
+---@field ["Count"] gamedataLifePath 3
+---@field ["Invalid"] gamedataLifePath 4
+gamedataLifePath = {}

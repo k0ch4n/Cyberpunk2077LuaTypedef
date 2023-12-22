@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scneventsRidCameraPlacement
-scneventsRidCameraPlacement = {
-    ["SceneOrigin"] = 0, ---@type Enum
-    ["Actual"] = 1, ---@type Enum
-    ["Player"] = 2, ---@type Enum
-}
+---@class scneventsRidCameraPlacement: Enum
+---@field ["SceneOrigin"] scneventsRidCameraPlacement 0
+---@field ["Actual"] scneventsRidCameraPlacement 1
+---@field ["Player"] scneventsRidCameraPlacement 2
+scneventsRidCameraPlacement = {}

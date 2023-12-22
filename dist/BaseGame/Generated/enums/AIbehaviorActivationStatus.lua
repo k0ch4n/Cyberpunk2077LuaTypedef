@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorActivationStatus
-AIbehaviorActivationStatus = {
-    ["NOT_ACTIVATED"] = 0, ---@type Enum
-    ["ACTIVATING"] = 1, ---@type Enum
-    ["ACTIVATED"] = 2, ---@type Enum
-    ["DEACTIVATING"] = 3, ---@type Enum
-}
+---@class AIbehaviorActivationStatus: Enum
+---@field ["NOT_ACTIVATED"] AIbehaviorActivationStatus 0
+---@field ["ACTIVATING"] AIbehaviorActivationStatus 1
+---@field ["ACTIVATED"] AIbehaviorActivationStatus 2
+---@field ["DEACTIVATING"] AIbehaviorActivationStatus 3
+AIbehaviorActivationStatus = {}

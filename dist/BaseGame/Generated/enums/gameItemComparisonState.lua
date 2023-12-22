@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameItemComparisonState
-gameItemComparisonState = {
-    ["Default"] = 0, ---@type Enum
-    ["NoChange"] = 1, ---@type Enum
-    ["Better"] = 2, ---@type Enum
-    ["Worse"] = 3, ---@type Enum
-}
+---@class gameItemComparisonState: Enum
+---@field ["Default"] gameItemComparisonState 0
+---@field ["NoChange"] gameItemComparisonState 1
+---@field ["Better"] gameItemComparisonState 2
+---@field ["Worse"] gameItemComparisonState 3
+gameItemComparisonState = {}

@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldOffMeshConnectionType
-worldOffMeshConnectionType = {
-    ["Door"] = 0, ---@type Enum
-    ["Ladder"] = 1, ---@type Enum
-    ["Floor"] = 2, ---@type Enum
-    ["Jump"] = 3, ---@type Enum
-    ["Elevator"] = 4, ---@type Enum
-    ["Drone"] = 5, ---@type Enum
-    ["Exploration"] = 6, ---@type Enum
-    ["Custom"] = 7, ---@type Enum
-    ["Blockade"] = 8, ---@type Enum
-}
+---@class worldOffMeshConnectionType: Enum
+---@field ["Door"] worldOffMeshConnectionType 0
+---@field ["Ladder"] worldOffMeshConnectionType 1
+---@field ["Floor"] worldOffMeshConnectionType 2
+---@field ["Jump"] worldOffMeshConnectionType 3
+---@field ["Elevator"] worldOffMeshConnectionType 4
+---@field ["Drone"] worldOffMeshConnectionType 5
+---@field ["Exploration"] worldOffMeshConnectionType 6
+---@field ["Custom"] worldOffMeshConnectionType 7
+---@field ["Blockade"] worldOffMeshConnectionType 8
+worldOffMeshConnectionType = {}

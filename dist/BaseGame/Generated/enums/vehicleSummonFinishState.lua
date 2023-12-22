@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleSummonFinishState
-vehicleSummonFinishState = {
-    ["Arrived"] = 0, ---@type Enum
-}
+---@class vehicleSummonFinishState: Enum
+---@field ["Arrived"] vehicleSummonFinishState 0
+vehicleSummonFinishState = {}

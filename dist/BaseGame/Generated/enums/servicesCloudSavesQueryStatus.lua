@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum servicesCloudSavesQueryStatus
-servicesCloudSavesQueryStatus = {
-    ["NotFetched"] = 0, ---@type Enum
-    ["FetchedSuccessfully"] = 1, ---@type Enum
-    ["CloudSavesDisabled"] = 2, ---@type Enum
-    ["NotLoggedIn"] = 3, ---@type Enum
-    ["FetchFailed"] = 4, ---@type Enum
-}
+---@class servicesCloudSavesQueryStatus: Enum
+---@field ["NotFetched"] servicesCloudSavesQueryStatus 0
+---@field ["FetchedSuccessfully"] servicesCloudSavesQueryStatus 1
+---@field ["CloudSavesDisabled"] servicesCloudSavesQueryStatus 2
+---@field ["NotLoggedIn"] servicesCloudSavesQueryStatus 3
+---@field ["FetchFailed"] servicesCloudSavesQueryStatus 4
+servicesCloudSavesQueryStatus = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendResolutionMultiplier
-rendResolutionMultiplier = {
-    ["X1"] = 1, ---@type Enum
-    ["X2"] = 2, ---@type Enum
-    ["X4"] = 4, ---@type Enum
-}
+---@class rendResolutionMultiplier: Enum
+---@field ["X1"] rendResolutionMultiplier 1
+---@field ["X2"] rendResolutionMultiplier 2
+---@field ["X4"] rendResolutionMultiplier 4
+rendResolutionMultiplier = {}

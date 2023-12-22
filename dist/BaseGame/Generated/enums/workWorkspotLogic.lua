@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum workWorkspotLogic
-workWorkspotLogic = {
-    ["Allow"] = 0, ---@type Enum
-    ["Deny"] = 1, ---@type Enum
-}
+---@class workWorkspotLogic: Enum
+---@field ["Allow"] workWorkspotLogic 0
+---@field ["Deny"] workWorkspotLogic 1
+workWorkspotLogic = {}

@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPreventionHeatStage
-EPreventionHeatStage = {
-    ["Heat_0"] = 0, ---@type Enum
-    ["Heat_1"] = 1, ---@type Enum
-    ["Heat_2"] = 2, ---@type Enum
-    ["Heat_3"] = 3, ---@type Enum
-    ["Heat_4"] = 4, ---@type Enum
-    ["Heat_5"] = 5, ---@type Enum
-    ["Size"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class EPreventionHeatStage: Enum
+---@field ["Heat_0"] EPreventionHeatStage 0
+---@field ["Heat_1"] EPreventionHeatStage 1
+---@field ["Heat_2"] EPreventionHeatStage 2
+---@field ["Heat_3"] EPreventionHeatStage 3
+---@field ["Heat_4"] EPreventionHeatStage 4
+---@field ["Heat_5"] EPreventionHeatStage 5
+---@field ["Size"] EPreventionHeatStage 6
+---@field ["Invalid"] EPreventionHeatStage 7
+EPreventionHeatStage = {}

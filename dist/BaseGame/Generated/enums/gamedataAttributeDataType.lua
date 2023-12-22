@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAttributeDataType
-gamedataAttributeDataType = {
-    ["BodyAttributeData"] = 0, ---@type Enum
-    ["CoolAttributeData"] = 1, ---@type Enum
-    ["EspionageAttributeData"] = 2, ---@type Enum
-    ["IntelligenceAttributeData"] = 3, ---@type Enum
-    ["ReflexesAttributeData"] = 4, ---@type Enum
-    ["TechnicalAbilityAttributeData"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataAttributeDataType: Enum
+---@field ["BodyAttributeData"] gamedataAttributeDataType 0
+---@field ["CoolAttributeData"] gamedataAttributeDataType 1
+---@field ["EspionageAttributeData"] gamedataAttributeDataType 2
+---@field ["IntelligenceAttributeData"] gamedataAttributeDataType 3
+---@field ["ReflexesAttributeData"] gamedataAttributeDataType 4
+---@field ["TechnicalAbilityAttributeData"] gamedataAttributeDataType 5
+---@field ["Count"] gamedataAttributeDataType 6
+---@field ["Invalid"] gamedataAttributeDataType 7
+gamedataAttributeDataType = {}

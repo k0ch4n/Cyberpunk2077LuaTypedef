@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EIndustrialArmAnimations
-EIndustrialArmAnimations = {
-    ["Idle"] = 0, ---@type Enum
-    ["RepairLoop"] = 1, ---@type Enum
-    ["RepairLoop2"] = 2, ---@type Enum
-    ["RepairLoopBroken"] = 3, ---@type Enum
-    ["RepairLoopBelow"] = 4, ---@type Enum
-    ["RepairLoopBelowBroken"] = 5, ---@type Enum
-    ["CarDestroy"] = 6, ---@type Enum
-    ["Repair_below_loop_high"] = 7, ---@type Enum
-    ["Repair_below_loop_low"] = 8, ---@type Enum
-    ["Repair_below_loop_medium"] = 9, ---@type Enum
-    ["Repair_loop_high"] = 10, ---@type Enum
-    ["Repair_loop_medium"] = 11, ---@type Enum
-}
+---@class EIndustrialArmAnimations: Enum
+---@field ["Idle"] EIndustrialArmAnimations 0
+---@field ["RepairLoop"] EIndustrialArmAnimations 1
+---@field ["RepairLoop2"] EIndustrialArmAnimations 2
+---@field ["RepairLoopBroken"] EIndustrialArmAnimations 3
+---@field ["RepairLoopBelow"] EIndustrialArmAnimations 4
+---@field ["RepairLoopBelowBroken"] EIndustrialArmAnimations 5
+---@field ["CarDestroy"] EIndustrialArmAnimations 6
+---@field ["Repair_below_loop_high"] EIndustrialArmAnimations 7
+---@field ["Repair_below_loop_low"] EIndustrialArmAnimations 8
+---@field ["Repair_below_loop_medium"] EIndustrialArmAnimations 9
+---@field ["Repair_loop_high"] EIndustrialArmAnimations 10
+---@field ["Repair_loop_medium"] EIndustrialArmAnimations 11
+EIndustrialArmAnimations = {}

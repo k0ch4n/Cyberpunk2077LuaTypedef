@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveLocomotionAction
-moveLocomotionAction = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Exploration"] = 1, ---@type Enum
-    ["Idle"] = 2, ---@type Enum
-    ["IdleTurn"] = 3, ---@type Enum
-    ["Reposition"] = 4, ---@type Enum
-    ["Start"] = 5, ---@type Enum
-    ["Move"] = 6, ---@type Enum
-    ["Stop"] = 7, ---@type Enum
-}
+---@class moveLocomotionAction: Enum
+---@field ["Undefined"] moveLocomotionAction 0
+---@field ["Exploration"] moveLocomotionAction 1
+---@field ["Idle"] moveLocomotionAction 2
+---@field ["IdleTurn"] moveLocomotionAction 3
+---@field ["Reposition"] moveLocomotionAction 4
+---@field ["Start"] moveLocomotionAction 5
+---@field ["Move"] moveLocomotionAction 6
+---@field ["Stop"] moveLocomotionAction 7
+moveLocomotionAction = {}

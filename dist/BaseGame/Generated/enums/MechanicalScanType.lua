@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum MechanicalScanType
-MechanicalScanType = {
-    ["None"] = 0, ---@type Enum
-    ["Short"] = 1, ---@type Enum
-    ["Long"] = 2, ---@type Enum
-    ["Danger"] = 3, ---@type Enum
-}
+---@class MechanicalScanType: Enum
+---@field ["None"] MechanicalScanType 0
+---@field ["Short"] MechanicalScanType 1
+---@field ["Long"] MechanicalScanType 2
+---@field ["Danger"] MechanicalScanType 3
+MechanicalScanType = {}

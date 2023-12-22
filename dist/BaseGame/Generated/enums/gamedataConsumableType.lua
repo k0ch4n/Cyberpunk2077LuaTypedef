@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataConsumableType
-gamedataConsumableType = {
-    ["Drug"] = 0, ---@type Enum
-    ["Medical"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataConsumableType: Enum
+---@field ["Drug"] gamedataConsumableType 0
+---@field ["Medical"] gamedataConsumableType 1
+---@field ["Count"] gamedataConsumableType 2
+---@field ["Invalid"] gamedataConsumableType 3
+gamedataConsumableType = {}

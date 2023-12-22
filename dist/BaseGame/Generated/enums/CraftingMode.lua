@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CraftingMode
-CraftingMode = {
-    ["craft"] = 0, ---@type Enum
-    ["upgrade"] = 1, ---@type Enum
-}
+---@class CraftingMode: Enum
+---@field ["craft"] CraftingMode 0
+---@field ["upgrade"] CraftingMode 1
+CraftingMode = {}

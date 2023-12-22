@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsMaterialTagType
-physicsMaterialTagType = {
-    ["AIVisibility"] = 0, ---@type Enum
-    ["PlayerVisibility"] = 1, ---@type Enum
-    ["ProjectilePenetration"] = 2, ---@type Enum
-    ["ProjectileRicochet"] = 3, ---@type Enum
-    ["VehicleTraction"] = 4, ---@type Enum
-}
+---@class physicsMaterialTagType: Enum
+---@field ["AIVisibility"] physicsMaterialTagType 0
+---@field ["PlayerVisibility"] physicsMaterialTagType 1
+---@field ["ProjectilePenetration"] physicsMaterialTagType 2
+---@field ["ProjectileRicochet"] physicsMaterialTagType 3
+---@field ["VehicleTraction"] physicsMaterialTagType 4
+physicsMaterialTagType = {}

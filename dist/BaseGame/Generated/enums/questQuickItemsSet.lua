@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questQuickItemsSet
-questQuickItemsSet = {
-    ["Q001_Kereznikov_Heal_Phone"] = 0, ---@type Enum
-    ["Q003_All"] = 1, ---@type Enum
-}
+---@class questQuickItemsSet: Enum
+---@field ["Q001_Kereznikov_Heal_Phone"] questQuickItemsSet 0
+---@field ["Q003_All"] questQuickItemsSet 1
+questQuickItemsSet = {}

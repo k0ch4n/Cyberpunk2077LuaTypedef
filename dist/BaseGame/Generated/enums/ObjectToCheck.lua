@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ObjectToCheck
-ObjectToCheck = {
-    ["Player"] = 0, ---@type Enum
-    ["Weapon"] = 1, ---@type Enum
-}
+---@class ObjectToCheck: Enum
+---@field ["Player"] ObjectToCheck 0
+---@field ["Weapon"] ObjectToCheck 1
+ObjectToCheck = {}

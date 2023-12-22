@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMuppetInputActionType
-gameMuppetInputActionType = {
-    ["Unknown"] = 0, ---@type Enum
-    ["Impulse"] = 1, ---@type Enum
-    ["Press"] = 2, ---@type Enum
-}
+---@class gameMuppetInputActionType: Enum
+---@field ["Unknown"] gameMuppetInputActionType 0
+---@field ["Impulse"] gameMuppetInputActionType 1
+---@field ["Press"] gameMuppetInputActionType 2
+gameMuppetInputActionType = {}

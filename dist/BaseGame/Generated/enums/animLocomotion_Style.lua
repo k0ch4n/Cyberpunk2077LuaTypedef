@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLocomotion_Style
-animLocomotion_Style = {
-    ["LS_Idle"] = 0, ---@type Enum
-    ["LS_Rotation"] = 1, ---@type Enum
-    ["LS_Walk"] = 2, ---@type Enum
-    ["LS_Jog"] = 3, ---@type Enum
-    ["LS_Sprint"] = 4, ---@type Enum
-    ["LS_Any"] = 5, ---@type Enum
-}
+---@class animLocomotion_Style: Enum
+---@field ["LS_Idle"] animLocomotion_Style 0
+---@field ["LS_Rotation"] animLocomotion_Style 1
+---@field ["LS_Walk"] animLocomotion_Style 2
+---@field ["LS_Jog"] animLocomotion_Style 3
+---@field ["LS_Sprint"] animLocomotion_Style 4
+---@field ["LS_Any"] animLocomotion_Style 5
+animLocomotion_Style = {}

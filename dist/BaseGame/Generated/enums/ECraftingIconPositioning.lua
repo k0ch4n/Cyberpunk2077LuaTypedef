@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECraftingIconPositioning
-ECraftingIconPositioning = {
-    ["generic"] = 0, ---@type Enum
-    ["weaponBig"] = 1, ---@type Enum
-    ["weaponSmall"] = 2, ---@type Enum
-}
+---@class ECraftingIconPositioning: Enum
+---@field ["generic"] ECraftingIconPositioning 0
+---@field ["weaponBig"] ECraftingIconPositioning 1
+---@field ["weaponSmall"] ECraftingIconPositioning 2
+ECraftingIconPositioning = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTStatModifier
-gameTStatModifier = {
-    ["Constant"] = 0, ---@type Enum
-    ["Random"] = 1, ---@type Enum
-    ["Curve"] = 2, ---@type Enum
-    ["Combined"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gameTStatModifier: Enum
+---@field ["Constant"] gameTStatModifier 0
+---@field ["Random"] gameTStatModifier 1
+---@field ["Curve"] gameTStatModifier 2
+---@field ["Combined"] gameTStatModifier 3
+---@field ["Count"] gameTStatModifier 4
+---@field ["Invalid"] gameTStatModifier 5
+gameTStatModifier = {}

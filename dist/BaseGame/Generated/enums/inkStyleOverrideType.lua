@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkStyleOverrideType
-inkStyleOverrideType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["BigFont"] = 1, ---@type Enum
-    ["FluffReduction"] = 2, ---@type Enum
-}
+---@class inkStyleOverrideType: Enum
+---@field ["Invalid"] inkStyleOverrideType 0
+---@field ["BigFont"] inkStyleOverrideType 1
+---@field ["FluffReduction"] inkStyleOverrideType 2
+inkStyleOverrideType = {}

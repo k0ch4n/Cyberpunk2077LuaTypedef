@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questBlockAction
-questBlockAction = {
-    ["Block"] = 0, ---@type Enum
-    ["Unblock"] = 1, ---@type Enum
-    ["UnblockAll"] = 2, ---@type Enum
-}
+---@class questBlockAction: Enum
+---@field ["Block"] questBlockAction 0
+---@field ["Unblock"] questBlockAction 1
+---@field ["UnblockAll"] questBlockAction 2
+questBlockAction = {}

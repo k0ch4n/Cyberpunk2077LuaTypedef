@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InGameConfigUserSettingsSaveStatus
-InGameConfigUserSettingsSaveStatus = {
-    ["NotSaved"] = 0, ---@type Enum
-    ["InternalError"] = 1, ---@type Enum
-    ["Saved"] = 2, ---@type Enum
-}
+---@class InGameConfigUserSettingsSaveStatus: Enum
+---@field ["NotSaved"] InGameConfigUserSettingsSaveStatus 0
+---@field ["InternalError"] InGameConfigUserSettingsSaveStatus 1
+---@field ["Saved"] InGameConfigUserSettingsSaveStatus 2
+InGameConfigUserSettingsSaveStatus = {}

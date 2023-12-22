@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InGameConfigNotificationType
-InGameConfigNotificationType = {
-    ["RestartRequiredConfirmed"] = 0, ---@type Enum
-    ["RestartRequiredRejected"] = 1, ---@type Enum
-    ["ChangesApplied"] = 2, ---@type Enum
-    ["ChangesRejected"] = 3, ---@type Enum
-    ["ChangesLoadLastCheckpointApplied"] = 4, ---@type Enum
-    ["ChangesLoadLastCheckpointRejected"] = 5, ---@type Enum
-    ["Saved"] = 6, ---@type Enum
-    ["ErrorSaving"] = 7, ---@type Enum
-    ["Loaded"] = 8, ---@type Enum
-    ["LoadCanceled"] = 9, ---@type Enum
-    ["LoadInternalError"] = 10, ---@type Enum
-    ["Refresh"] = 11, ---@type Enum
-    ["LanguagePackInstalled"] = 12, ---@type Enum
-}
+---@class InGameConfigNotificationType: Enum
+---@field ["RestartRequiredConfirmed"] InGameConfigNotificationType 0
+---@field ["RestartRequiredRejected"] InGameConfigNotificationType 1
+---@field ["ChangesApplied"] InGameConfigNotificationType 2
+---@field ["ChangesRejected"] InGameConfigNotificationType 3
+---@field ["ChangesLoadLastCheckpointApplied"] InGameConfigNotificationType 4
+---@field ["ChangesLoadLastCheckpointRejected"] InGameConfigNotificationType 5
+---@field ["Saved"] InGameConfigNotificationType 6
+---@field ["ErrorSaving"] InGameConfigNotificationType 7
+---@field ["Loaded"] InGameConfigNotificationType 8
+---@field ["LoadCanceled"] InGameConfigNotificationType 9
+---@field ["LoadInternalError"] InGameConfigNotificationType 10
+---@field ["Refresh"] InGameConfigNotificationType 11
+---@field ["LanguagePackInstalled"] InGameConfigNotificationType 12
+InGameConfigNotificationType = {}

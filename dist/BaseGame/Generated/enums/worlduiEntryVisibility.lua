@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worlduiEntryVisibility
-worlduiEntryVisibility = {
-    ["TierVisibility"] = 0, ---@type Enum
-    ["ForceShow"] = 1, ---@type Enum
-    ["ForceHide"] = 2, ---@type Enum
-}
+---@class worlduiEntryVisibility: Enum
+---@field ["TierVisibility"] worlduiEntryVisibility 0
+---@field ["ForceShow"] worlduiEntryVisibility 1
+---@field ["ForceHide"] worlduiEntryVisibility 2
+worlduiEntryVisibility = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDeathType
-EDeathType = {
-    ["Ground"] = 0, ---@type Enum
-    ["Air"] = 1, ---@type Enum
-    ["Swimming"] = 2, ---@type Enum
-}
+---@class EDeathType: Enum
+---@field ["Ground"] EDeathType 0
+---@field ["Air"] EDeathType 1
+---@field ["Swimming"] EDeathType 2
+EDeathType = {}

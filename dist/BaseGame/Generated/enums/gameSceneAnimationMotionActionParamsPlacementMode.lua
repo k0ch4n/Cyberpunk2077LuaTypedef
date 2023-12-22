@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSceneAnimationMotionActionParamsPlacementMode
-gameSceneAnimationMotionActionParamsPlacementMode = {
-    ["Blend"] = 0, ---@type Enum
-    ["TeleportToStart"] = 1, ---@type Enum
-    ["PlayAtActorPosition"] = 2, ---@type Enum
-}
+---@class gameSceneAnimationMotionActionParamsPlacementMode: Enum
+---@field ["Blend"] gameSceneAnimationMotionActionParamsPlacementMode 0
+---@field ["TeleportToStart"] gameSceneAnimationMotionActionParamsPlacementMode 1
+---@field ["PlayAtActorPosition"] gameSceneAnimationMotionActionParamsPlacementMode 2
+gameSceneAnimationMotionActionParamsPlacementMode = {}

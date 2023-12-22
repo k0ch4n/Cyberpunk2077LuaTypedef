@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HighlightContext
-HighlightContext = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["OUTLINE"] = 1, ---@type Enum
-    ["FILL"] = 2, ---@type Enum
-    ["FULL"] = 3, ---@type Enum
-}
+---@class HighlightContext: Enum
+---@field ["DEFAULT"] HighlightContext 0
+---@field ["OUTLINE"] HighlightContext 1
+---@field ["FILL"] HighlightContext 2
+---@field ["FULL"] HighlightContext 3
+HighlightContext = {}

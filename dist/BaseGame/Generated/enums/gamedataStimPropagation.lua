@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStimPropagation
-gamedataStimPropagation = {
-    ["Audio"] = 0, ---@type Enum
-    ["Visual"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataStimPropagation: Enum
+---@field ["Audio"] gamedataStimPropagation 0
+---@field ["Visual"] gamedataStimPropagation 1
+---@field ["Count"] gamedataStimPropagation 2
+---@field ["Invalid"] gamedataStimPropagation 3
+gamedataStimPropagation = {}

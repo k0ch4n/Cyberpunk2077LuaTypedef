@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAILastHitReactionPlayed
-EAILastHitReactionPlayed = {
-    ["None"] = -1, ---@type Enum
-    ["Twitch"] = 0, ---@type Enum
-    ["Impact"] = 1, ---@type Enum
-    ["Stagger"] = 2, ---@type Enum
-    ["Knockdown"] = 3, ---@type Enum
-}
+---@class EAILastHitReactionPlayed: Enum
+---@field ["None"] EAILastHitReactionPlayed -1
+---@field ["Twitch"] EAILastHitReactionPlayed 0
+---@field ["Impact"] EAILastHitReactionPlayed 1
+---@field ["Stagger"] EAILastHitReactionPlayed 2
+---@field ["Knockdown"] EAILastHitReactionPlayed 3
+EAILastHitReactionPlayed = {}

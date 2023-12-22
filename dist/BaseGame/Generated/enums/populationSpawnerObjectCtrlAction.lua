@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum populationSpawnerObjectCtrlAction
-populationSpawnerObjectCtrlAction = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Activate"] = 1, ---@type Enum
-    ["Deactivate"] = 2, ---@type Enum
-    ["Reactivate"] = 3, ---@type Enum
-    ["ResetKillCount"] = 4, ---@type Enum
-    ["Spawn"] = 1, ---@type Enum
-    ["Despawn"] = 2, ---@type Enum
-    ["Respawn"] = 3, ---@type Enum
-}
+---@class populationSpawnerObjectCtrlAction: Enum
+---@field ["Undefined"] populationSpawnerObjectCtrlAction 0
+---@field ["Activate"] populationSpawnerObjectCtrlAction 1
+---@field ["Deactivate"] populationSpawnerObjectCtrlAction 2
+---@field ["Reactivate"] populationSpawnerObjectCtrlAction 3
+---@field ["ResetKillCount"] populationSpawnerObjectCtrlAction 4
+---@field ["Spawn"] populationSpawnerObjectCtrlAction 1
+---@field ["Despawn"] populationSpawnerObjectCtrlAction 2
+---@field ["Respawn"] populationSpawnerObjectCtrlAction 3
+populationSpawnerObjectCtrlAction = {}

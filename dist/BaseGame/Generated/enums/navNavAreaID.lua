@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum navNavAreaID
-navNavAreaID = {
-    ["Unwalkable"] = 0, ---@type Enum
-    ["Terrain"] = 1, ---@type Enum
-    ["Crouchable"] = 2, ---@type Enum
-    ["Regular"] = 3, ---@type Enum
-    ["Road"] = 4, ---@type Enum
-    ["Pavement"] = 5, ---@type Enum
-    ["Door"] = 10, ---@type Enum
-    ["Ladder"] = 11, ---@type Enum
-    ["Jump"] = 12, ---@type Enum
-    ["Elevator"] = 14, ---@type Enum
-    ["Stairs"] = 15, ---@type Enum
-    ["Drones"] = 16, ---@type Enum
-    ["Exploration"] = 17, ---@type Enum
-    ["CrowdWalkable"] = 5, ---@type Enum
-}
+---@class navNavAreaID: Enum
+---@field ["Unwalkable"] navNavAreaID 0
+---@field ["Terrain"] navNavAreaID 1
+---@field ["Crouchable"] navNavAreaID 2
+---@field ["Regular"] navNavAreaID 3
+---@field ["Road"] navNavAreaID 4
+---@field ["Pavement"] navNavAreaID 5
+---@field ["Door"] navNavAreaID 10
+---@field ["Ladder"] navNavAreaID 11
+---@field ["Jump"] navNavAreaID 12
+---@field ["Elevator"] navNavAreaID 14
+---@field ["Stairs"] navNavAreaID 15
+---@field ["Drones"] navNavAreaID 16
+---@field ["Exploration"] navNavAreaID 17
+---@field ["CrowdWalkable"] navNavAreaID 5
+navNavAreaID = {}

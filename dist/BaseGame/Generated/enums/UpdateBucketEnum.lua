@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum UpdateBucketEnum
-UpdateBucketEnum = {
-    ["Vehicle"] = 0, ---@type Enum
-    ["Character"] = 1, ---@type Enum
-    ["AttachedObject"] = 2, ---@type Enum
-}
+---@class UpdateBucketEnum: Enum
+---@field ["Vehicle"] UpdateBucketEnum 0
+---@field ["Character"] UpdateBucketEnum 1
+---@field ["AttachedObject"] UpdateBucketEnum 2
+UpdateBucketEnum = {}

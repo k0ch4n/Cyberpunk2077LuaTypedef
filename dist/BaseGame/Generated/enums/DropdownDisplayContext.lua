@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DropdownDisplayContext
-DropdownDisplayContext = {
-    ["NotSet"] = 0, ---@type Enum
-    ["Default"] = 1, ---@type Enum
-    ["ItemChooserWeapon"] = 2, ---@type Enum
-}
+---@class DropdownDisplayContext: Enum
+---@field ["NotSet"] DropdownDisplayContext 0
+---@field ["Default"] DropdownDisplayContext 1
+---@field ["ItemChooserWeapon"] DropdownDisplayContext 2
+DropdownDisplayContext = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GpuWrapApiVertexPackingEStreamType
-GpuWrapApiVertexPackingEStreamType = {
-    ["ST_Invalid"] = -1, ---@type Enum
-    ["ST_PerVertex"] = 0, ---@type Enum
-    ["ST_PerInstance"] = 1, ---@type Enum
-    ["ST_Max"] = 2, ---@type Enum
-}
+---@class GpuWrapApiVertexPackingEStreamType: Enum
+---@field ["ST_Invalid"] GpuWrapApiVertexPackingEStreamType -1
+---@field ["ST_PerVertex"] GpuWrapApiVertexPackingEStreamType 0
+---@field ["ST_PerInstance"] GpuWrapApiVertexPackingEStreamType 1
+---@field ["ST_Max"] GpuWrapApiVertexPackingEStreamType 2
+GpuWrapApiVertexPackingEStreamType = {}

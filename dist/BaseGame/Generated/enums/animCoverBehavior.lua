@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animCoverBehavior
-animCoverBehavior = {
-    ["Idle"] = 0, ---@type Enum
-    ["PreAction"] = 1, ---@type Enum
-    ["DoAction"] = 2, ---@type Enum
-    ["PostAction"] = 3, ---@type Enum
-}
+---@class animCoverBehavior: Enum
+---@field ["Idle"] animCoverBehavior 0
+---@field ["PreAction"] animCoverBehavior 1
+---@field ["DoAction"] animCoverBehavior 2
+---@field ["PostAction"] animCoverBehavior 3
+animCoverBehavior = {}

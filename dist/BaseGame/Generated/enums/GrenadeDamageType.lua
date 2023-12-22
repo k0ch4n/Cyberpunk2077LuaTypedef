@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GrenadeDamageType
-GrenadeDamageType = {
-    ["Normal"] = 0, ---@type Enum
-    ["DoT"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class GrenadeDamageType: Enum
+---@field ["Normal"] GrenadeDamageType 0
+---@field ["DoT"] GrenadeDamageType 1
+---@field ["None"] GrenadeDamageType 2
+GrenadeDamageType = {}

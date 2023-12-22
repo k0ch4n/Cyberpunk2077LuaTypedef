@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questEDebugViewMode
-questEDebugViewMode = {
-    ["NONE"] = 0, ---@type Enum
-    ["CLAY"] = 1, ---@type Enum
-    ["PURE_GRAY"] = 2, ---@type Enum
-    ["PURE_WHITE"] = 3, ---@type Enum
-    ["SHADOWS"] = 4, ---@type Enum
-    ["BASE_COLOR"] = 5, ---@type Enum
-    ["NORMALS"] = 6, ---@type Enum
-    ["ROUGHNESS"] = 7, ---@type Enum
-    ["METALNESS"] = 8, ---@type Enum
-    ["EMISSIVE"] = 9, ---@type Enum
-    ["MATERIAL_ID"] = 10, ---@type Enum
-    ["WIREFRAME"] = 11, ---@type Enum
-    ["OVERDRAW"] = 12, ---@type Enum
-}
+---@class questEDebugViewMode: Enum
+---@field ["NONE"] questEDebugViewMode 0
+---@field ["CLAY"] questEDebugViewMode 1
+---@field ["PURE_GRAY"] questEDebugViewMode 2
+---@field ["PURE_WHITE"] questEDebugViewMode 3
+---@field ["SHADOWS"] questEDebugViewMode 4
+---@field ["BASE_COLOR"] questEDebugViewMode 5
+---@field ["NORMALS"] questEDebugViewMode 6
+---@field ["ROUGHNESS"] questEDebugViewMode 7
+---@field ["METALNESS"] questEDebugViewMode 8
+---@field ["EMISSIVE"] questEDebugViewMode 9
+---@field ["MATERIAL_ID"] questEDebugViewMode 10
+---@field ["WIREFRAME"] questEDebugViewMode 11
+---@field ["OVERDRAW"] questEDebugViewMode 12
+questEDebugViewMode = {}

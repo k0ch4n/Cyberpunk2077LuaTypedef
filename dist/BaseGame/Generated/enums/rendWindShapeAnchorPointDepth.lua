@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendWindShapeAnchorPointDepth
-rendWindShapeAnchorPointDepth = {
-    ["AP_CENTER"] = 0, ---@type Enum
-    ["AP_FRONT"] = 1, ---@type Enum
-    ["AP_BACK"] = 2, ---@type Enum
-}
+---@class rendWindShapeAnchorPointDepth: Enum
+---@field ["AP_CENTER"] rendWindShapeAnchorPointDepth 0
+---@field ["AP_FRONT"] rendWindShapeAnchorPointDepth 1
+---@field ["AP_BACK"] rendWindShapeAnchorPointDepth 2
+rendWindShapeAnchorPointDepth = {}

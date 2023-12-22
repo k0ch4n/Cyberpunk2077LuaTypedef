@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDeviceChallengeSkill
-EDeviceChallengeSkill = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Hacking"] = 1, ---@type Enum
-    ["Engineering"] = 2, ---@type Enum
-    ["Athletics"] = 3, ---@type Enum
-}
+---@class EDeviceChallengeSkill: Enum
+---@field ["Invalid"] EDeviceChallengeSkill 0
+---@field ["Hacking"] EDeviceChallengeSkill 1
+---@field ["Engineering"] EDeviceChallengeSkill 2
+---@field ["Athletics"] EDeviceChallengeSkill 3
+EDeviceChallengeSkill = {}

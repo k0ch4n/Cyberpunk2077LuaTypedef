@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ScreenDisplayContext
-ScreenDisplayContext = {
-    ["Default"] = 0, ---@type Enum
-    ["Vendor"] = 1, ---@type Enum
-    ["Storage"] = 2, ---@type Enum
-}
+---@class ScreenDisplayContext: Enum
+---@field ["Default"] ScreenDisplayContext 0
+---@field ["Vendor"] ScreenDisplayContext 1
+---@field ["Storage"] ScreenDisplayContext 2
+ScreenDisplayContext = {}

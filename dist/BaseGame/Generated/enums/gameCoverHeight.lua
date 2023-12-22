@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameCoverHeight
-gameCoverHeight = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Low"] = 1, ---@type Enum
-    ["High"] = 2, ---@type Enum
-}
+---@class gameCoverHeight: Enum
+---@field ["Invalid"] gameCoverHeight 0
+---@field ["Low"] gameCoverHeight 1
+---@field ["High"] gameCoverHeight 2
+gameCoverHeight = {}

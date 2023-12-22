@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HUDActorType
-HUDActorType = {
-    ["UNINITIALIZED"] = 0, ---@type Enum
-    ["GAME_OBJECT"] = 1, ---@type Enum
-    ["VEHICLE"] = 2, ---@type Enum
-    ["DEVICE"] = 3, ---@type Enum
-    ["BODY_DISPOSAL_DEVICE"] = 4, ---@type Enum
-    ["PUPPET"] = 5, ---@type Enum
-    ["ITEM"] = 6, ---@type Enum
-}
+---@class HUDActorType: Enum
+---@field ["UNINITIALIZED"] HUDActorType 0
+---@field ["GAME_OBJECT"] HUDActorType 1
+---@field ["VEHICLE"] HUDActorType 2
+---@field ["DEVICE"] HUDActorType 3
+---@field ["BODY_DISPOSAL_DEVICE"] HUDActorType 4
+---@field ["PUPPET"] HUDActorType 5
+---@field ["ITEM"] HUDActorType 6
+HUDActorType = {}

@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum VendorConfirmationPopupType
-VendorConfirmationPopupType = {
-    ["Default"] = 0, ---@type Enum
-    ["ExpensiveItem"] = 1, ---@type Enum
-    ["EquippedItem"] = 2, ---@type Enum
-    ["StashEquippedItem"] = 3, ---@type Enum
-    ["BuyAndEquipCyberware"] = 4, ---@type Enum
-    ["BuyNotEquipableCyberware"] = 5, ---@type Enum
-    ["SellCyberware"] = 6, ---@type Enum
-    ["DisassembeIconic"] = 7, ---@type Enum
-}
+---@class VendorConfirmationPopupType: Enum
+---@field ["Default"] VendorConfirmationPopupType 0
+---@field ["ExpensiveItem"] VendorConfirmationPopupType 1
+---@field ["EquippedItem"] VendorConfirmationPopupType 2
+---@field ["StashEquippedItem"] VendorConfirmationPopupType 3
+---@field ["BuyAndEquipCyberware"] VendorConfirmationPopupType 4
+---@field ["BuyNotEquipableCyberware"] VendorConfirmationPopupType 5
+---@field ["SellCyberware"] VendorConfirmationPopupType 6
+---@field ["DisassembeIconic"] VendorConfirmationPopupType 7
+VendorConfirmationPopupType = {}

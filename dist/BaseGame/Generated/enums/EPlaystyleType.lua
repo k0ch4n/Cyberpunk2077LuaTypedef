@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPlaystyleType
-EPlaystyleType = {
-    ["NONE"] = -1, ---@type Enum
-    ["TECHIE"] = 0, ---@type Enum
-    ["NETRUNNER"] = 1, ---@type Enum
-    ["TECHIE_AND_NETRUNNER"] = 2, ---@type Enum
-}
+---@class EPlaystyleType: Enum
+---@field ["NONE"] EPlaystyleType -1
+---@field ["TECHIE"] EPlaystyleType 0
+---@field ["NETRUNNER"] EPlaystyleType 1
+---@field ["TECHIE_AND_NETRUNNER"] EPlaystyleType 2
+EPlaystyleType = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleSummonState
-vehicleSummonState = {
-    ["Idle"] = 0, ---@type Enum
-    ["EnRoute"] = 1, ---@type Enum
-    ["AlreadySummoned"] = 2, ---@type Enum
-    ["PathfindingFailed"] = 3, ---@type Enum
-    ["Arrived"] = 4, ---@type Enum
-}
+---@class vehicleSummonState: Enum
+---@field ["Idle"] vehicleSummonState 0
+---@field ["EnRoute"] vehicleSummonState 1
+---@field ["AlreadySummoned"] vehicleSummonState 2
+---@field ["PathfindingFailed"] vehicleSummonState 3
+---@field ["Arrived"] vehicleSummonState 4
+vehicleSummonState = {}

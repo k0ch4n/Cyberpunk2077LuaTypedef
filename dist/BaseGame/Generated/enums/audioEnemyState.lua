@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioEnemyState
-audioEnemyState = {
-    ["InCombat"] = 0, ---@type Enum
-    ["Alerted"] = 1, ---@type Enum
-    ["Afraid"] = 2, ---@type Enum
-    ["Alive"] = 3, ---@type Enum
-    ["Dead"] = 4, ---@type Enum
-}
+---@class audioEnemyState: Enum
+---@field ["InCombat"] audioEnemyState 0
+---@field ["Alerted"] audioEnemyState 1
+---@field ["Afraid"] audioEnemyState 2
+---@field ["Alive"] audioEnemyState 3
+---@field ["Dead"] audioEnemyState 4
+audioEnemyState = {}

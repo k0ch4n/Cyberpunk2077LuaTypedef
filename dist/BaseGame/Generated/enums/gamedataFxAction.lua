@@ -1,26 +1,25 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataFxAction
-gamedataFxAction = {
-    ["EnterCharge"] = 0, ---@type Enum
-    ["EnterDischarge"] = 1, ---@type Enum
-    ["EnterLowAmmo"] = 2, ---@type Enum
-    ["EnterNoAmmo"] = 3, ---@type Enum
-    ["EnterOverheat"] = 4, ---@type Enum
-    ["EnterReload"] = 5, ---@type Enum
-    ["ExitCharge"] = 6, ---@type Enum
-    ["ExitDischarge"] = 7, ---@type Enum
-    ["ExitLowAmmo"] = 8, ---@type Enum
-    ["ExitNoAmmo"] = 9, ---@type Enum
-    ["ExitOverheat"] = 10, ---@type Enum
-    ["ExitReload"] = 11, ---@type Enum
-    ["ExitShoot"] = 12, ---@type Enum
-    ["MeleeBlock"] = 13, ---@type Enum
-    ["MeleeHit"] = 14, ---@type Enum
-    ["MuzzleBrakeShoot"] = 15, ---@type Enum
-    ["Shoot"] = 16, ---@type Enum
-    ["SilencedShoot"] = 17, ---@type Enum
-    ["Count"] = 18, ---@type Enum
-    ["Invalid"] = 19, ---@type Enum
-}
+---@class gamedataFxAction: Enum
+---@field ["EnterCharge"] gamedataFxAction 0
+---@field ["EnterDischarge"] gamedataFxAction 1
+---@field ["EnterLowAmmo"] gamedataFxAction 2
+---@field ["EnterNoAmmo"] gamedataFxAction 3
+---@field ["EnterOverheat"] gamedataFxAction 4
+---@field ["EnterReload"] gamedataFxAction 5
+---@field ["ExitCharge"] gamedataFxAction 6
+---@field ["ExitDischarge"] gamedataFxAction 7
+---@field ["ExitLowAmmo"] gamedataFxAction 8
+---@field ["ExitNoAmmo"] gamedataFxAction 9
+---@field ["ExitOverheat"] gamedataFxAction 10
+---@field ["ExitReload"] gamedataFxAction 11
+---@field ["ExitShoot"] gamedataFxAction 12
+---@field ["MeleeBlock"] gamedataFxAction 13
+---@field ["MeleeHit"] gamedataFxAction 14
+---@field ["MuzzleBrakeShoot"] gamedataFxAction 15
+---@field ["Shoot"] gamedataFxAction 16
+---@field ["SilencedShoot"] gamedataFxAction 17
+---@field ["Count"] gamedataFxAction 18
+---@field ["Invalid"] gamedataFxAction 19
+gamedataFxAction = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMovingPlatformLoopType
-gameMovingPlatformLoopType = {
-    ["NoLooping"] = 0, ---@type Enum
-    ["Bounce"] = 1, ---@type Enum
-    ["Repeat"] = 2, ---@type Enum
-}
+---@class gameMovingPlatformLoopType: Enum
+---@field ["NoLooping"] gameMovingPlatformLoopType 0
+---@field ["Bounce"] gameMovingPlatformLoopType 1
+---@field ["Repeat"] gameMovingPlatformLoopType 2
+gameMovingPlatformLoopType = {}

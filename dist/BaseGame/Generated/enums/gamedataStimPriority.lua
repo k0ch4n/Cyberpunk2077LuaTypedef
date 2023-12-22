@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStimPriority
-gamedataStimPriority = {
-    ["High"] = 0, ---@type Enum
-    ["Low"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataStimPriority: Enum
+---@field ["High"] gamedataStimPriority 0
+---@field ["Low"] gamedataStimPriority 1
+---@field ["Count"] gamedataStimPriority 2
+---@field ["Invalid"] gamedataStimPriority 3
+gamedataStimPriority = {}

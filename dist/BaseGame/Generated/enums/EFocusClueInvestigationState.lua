@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFocusClueInvestigationState
-EFocusClueInvestigationState = {
-    ["NONE"] = 0, ---@type Enum
-    ["INSPECTED"] = 1, ---@type Enum
-    ["NOT_INSPECTED"] = 2, ---@type Enum
-}
+---@class EFocusClueInvestigationState: Enum
+---@field ["NONE"] EFocusClueInvestigationState 0
+---@field ["INSPECTED"] EFocusClueInvestigationState 1
+---@field ["NOT_INSPECTED"] EFocusClueInvestigationState 2
+EFocusClueInvestigationState = {}

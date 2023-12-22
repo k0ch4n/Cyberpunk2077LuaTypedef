@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFastTravelTriggerType
-EFastTravelTriggerType = {
-    ["Manual"] = 0, ---@type Enum
-    ["Auto"] = 1, ---@type Enum
-}
+---@class EFastTravelTriggerType: Enum
+---@field ["Manual"] EFastTravelTriggerType 0
+---@field ["Auto"] EFastTravelTriggerType 1
+EFastTravelTriggerType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPaymentSchedule
-EPaymentSchedule = {
-    ["WEEKLY"] = 0, ---@type Enum
-    ["MONTHLY"] = 1, ---@type Enum
-}
+---@class EPaymentSchedule: Enum
+---@field ["WEEKLY"] EPaymentSchedule 0
+---@field ["MONTHLY"] EPaymentSchedule 1
+EPaymentSchedule = {}

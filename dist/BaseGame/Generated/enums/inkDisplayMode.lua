@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkDisplayMode
-inkDisplayMode = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Basic"] = 1, ---@type Enum
-    ["BasicTranslatable"] = 2, ---@type Enum
-    ["Bold"] = 3, ---@type Enum
-    ["Header"] = 4, ---@type Enum
-    ["Single"] = 5, ---@type Enum
-}
+---@class inkDisplayMode: Enum
+---@field ["Invalid"] inkDisplayMode 0
+---@field ["Basic"] inkDisplayMode 1
+---@field ["BasicTranslatable"] inkDisplayMode 2
+---@field ["Bold"] inkDisplayMode 3
+---@field ["Header"] inkDisplayMode 4
+---@field ["Single"] inkDisplayMode 5
+inkDisplayMode = {}

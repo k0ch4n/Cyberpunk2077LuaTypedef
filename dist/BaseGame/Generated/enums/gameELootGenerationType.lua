@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameELootGenerationType
-gameELootGenerationType = {
-    ["DropChance"] = 0, ---@type Enum
-    ["NumberBased"] = 1, ---@type Enum
-    ["Weights"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-}
+---@class gameELootGenerationType: Enum
+---@field ["DropChance"] gameELootGenerationType 0
+---@field ["NumberBased"] gameELootGenerationType 1
+---@field ["Weights"] gameELootGenerationType 2
+---@field ["Count"] gameELootGenerationType 3
+gameELootGenerationType = {}

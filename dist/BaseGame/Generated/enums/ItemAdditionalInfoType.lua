@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ItemAdditionalInfoType
-ItemAdditionalInfoType = {
-    ["NONE"] = 0, ---@type Enum
-    ["PRICE"] = 1, ---@type Enum
-    ["TYPE"] = 2, ---@type Enum
-}
+---@class ItemAdditionalInfoType: Enum
+---@field ["NONE"] ItemAdditionalInfoType 0
+---@field ["PRICE"] ItemAdditionalInfoType 1
+---@field ["TYPE"] ItemAdditionalInfoType 2
+ItemAdditionalInfoType = {}

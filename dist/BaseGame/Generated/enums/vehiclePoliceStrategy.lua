@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehiclePoliceStrategy
-vehiclePoliceStrategy = {
-    ["None"] = 0, ---@type Enum
-    ["DriveTowardsPlayer"] = 1, ---@type Enum
-    ["DriveAwayFromPlayer"] = 2, ---@type Enum
-    ["PatrolNearby"] = 3, ---@type Enum
-    ["InterceptAtNextIntersection"] = 4, ---@type Enum
-    ["GetToPlayerFromAnywhere"] = 5, ---@type Enum
-    ["InitialSearch"] = 6, ---@type Enum
-    ["SearchFromAnywhere"] = 7, ---@type Enum
-    ["Count"] = 8, ---@type Enum
-}
+---@class vehiclePoliceStrategy: Enum
+---@field ["None"] vehiclePoliceStrategy 0
+---@field ["DriveTowardsPlayer"] vehiclePoliceStrategy 1
+---@field ["DriveAwayFromPlayer"] vehiclePoliceStrategy 2
+---@field ["PatrolNearby"] vehiclePoliceStrategy 3
+---@field ["InterceptAtNextIntersection"] vehiclePoliceStrategy 4
+---@field ["GetToPlayerFromAnywhere"] vehiclePoliceStrategy 5
+---@field ["InitialSearch"] vehiclePoliceStrategy 6
+---@field ["SearchFromAnywhere"] vehiclePoliceStrategy 7
+---@field ["Count"] vehiclePoliceStrategy 8
+vehiclePoliceStrategy = {}

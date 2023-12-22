@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum SignType
-SignType = {
-    ["INFORMATION"] = 0, ---@type Enum
-    ["ATTENTION"] = 1, ---@type Enum
-    ["WARNING"] = 2, ---@type Enum
-}
+---@class SignType: Enum
+---@field ["INFORMATION"] SignType 0
+---@field ["ATTENTION"] SignType 1
+---@field ["WARNING"] SignType 2
+SignType = {}

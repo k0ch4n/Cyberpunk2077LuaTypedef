@@ -1,36 +1,35 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ScannerDataType
-ScannerDataType = {
-    ["None"] = 0, ---@type Enum
-    ["Name"] = 1, ---@type Enum
-    ["Level"] = 2, ---@type Enum
-    ["Health"] = 3, ---@type Enum
-    ["Rarity"] = 4, ---@type Enum
-    ["WeaponBasic"] = 5, ---@type Enum
-    ["WeaponDetailed"] = 6, ---@type Enum
-    ["BountySystem"] = 7, ---@type Enum
-    ["Vulnerabilities"] = 8, ---@type Enum
-    ["Faction"] = 9, ---@type Enum
-    ["Attitude"] = 10, ---@type Enum
-    ["SquadInfo"] = 11, ---@type Enum
-    ["Resistances"] = 12, ---@type Enum
-    ["Abilities"] = 13, ---@type Enum
-    ["Requirements"] = 14, ---@type Enum
-    ["Description"] = 15, ---@type Enum
-    ["DeviceStatus"] = 16, ---@type Enum
-    ["NetworkStatus"] = 17, ---@type Enum
-    ["NetworkLevel"] = 18, ---@type Enum
-    ["DeviceConnections"] = 19, ---@type Enum
-    ["QuestEntry"] = 20, ---@type Enum
-    ["VehicleName"] = 21, ---@type Enum
-    ["VehicleManufacturer"] = 22, ---@type Enum
-    ["VehicleProductionYears"] = 23, ---@type Enum
-    ["VehicleDriveLayout"] = 24, ---@type Enum
-    ["VehicleHorsepower"] = 25, ---@type Enum
-    ["VehicleMass"] = 26, ---@type Enum
-    ["VehicleState"] = 27, ---@type Enum
-    ["VehicleInfo"] = 28, ---@type Enum
-    ["QuickHackDescription"] = 29, ---@type Enum
-}
+---@class ScannerDataType: Enum
+---@field ["None"] ScannerDataType 0
+---@field ["Name"] ScannerDataType 1
+---@field ["Level"] ScannerDataType 2
+---@field ["Health"] ScannerDataType 3
+---@field ["Rarity"] ScannerDataType 4
+---@field ["WeaponBasic"] ScannerDataType 5
+---@field ["WeaponDetailed"] ScannerDataType 6
+---@field ["BountySystem"] ScannerDataType 7
+---@field ["Vulnerabilities"] ScannerDataType 8
+---@field ["Faction"] ScannerDataType 9
+---@field ["Attitude"] ScannerDataType 10
+---@field ["SquadInfo"] ScannerDataType 11
+---@field ["Resistances"] ScannerDataType 12
+---@field ["Abilities"] ScannerDataType 13
+---@field ["Requirements"] ScannerDataType 14
+---@field ["Description"] ScannerDataType 15
+---@field ["DeviceStatus"] ScannerDataType 16
+---@field ["NetworkStatus"] ScannerDataType 17
+---@field ["NetworkLevel"] ScannerDataType 18
+---@field ["DeviceConnections"] ScannerDataType 19
+---@field ["QuestEntry"] ScannerDataType 20
+---@field ["VehicleName"] ScannerDataType 21
+---@field ["VehicleManufacturer"] ScannerDataType 22
+---@field ["VehicleProductionYears"] ScannerDataType 23
+---@field ["VehicleDriveLayout"] ScannerDataType 24
+---@field ["VehicleHorsepower"] ScannerDataType 25
+---@field ["VehicleMass"] ScannerDataType 26
+---@field ["VehicleState"] ScannerDataType 27
+---@field ["VehicleInfo"] ScannerDataType 28
+---@field ["QuickHackDescription"] ScannerDataType 29
+ScannerDataType = {}

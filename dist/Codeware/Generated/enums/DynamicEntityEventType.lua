@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DynamicEntityEventType
-DynamicEntityEventType = {
-    ["Created"] = 0, ---@type Enum
-    ["Deleted"] = 1, ---@type Enum
-    ["Spawned"] = 2, ---@type Enum
-    ["Despawned"] = 3, ---@type Enum
-    ["Dead"] = 4, ---@type Enum
-}
+---@class DynamicEntityEventType: Enum
+---@field ["Created"] DynamicEntityEventType 0
+---@field ["Deleted"] DynamicEntityEventType 1
+---@field ["Spawned"] DynamicEntityEventType 2
+---@field ["Despawned"] DynamicEntityEventType 3
+---@field ["Dead"] DynamicEntityEventType 4
+DynamicEntityEventType = {}

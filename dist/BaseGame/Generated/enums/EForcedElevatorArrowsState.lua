@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EForcedElevatorArrowsState
-EForcedElevatorArrowsState = {
-    ["Disabled"] = 0, ---@type Enum
-    ["ArrowsUp"] = 1, ---@type Enum
-    ["ArrowsDown"] = 2, ---@type Enum
-}
+---@class EForcedElevatorArrowsState: Enum
+---@field ["Disabled"] EForcedElevatorArrowsState 0
+---@field ["ArrowsUp"] EForcedElevatorArrowsState 1
+---@field ["ArrowsDown"] EForcedElevatorArrowsState 2
+EForcedElevatorArrowsState = {}

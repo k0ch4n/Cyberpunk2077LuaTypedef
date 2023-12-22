@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMWeaponStates
-gamePSMWeaponStates = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["NoAmmo"] = 1, ---@type Enum
-    ["Ready"] = 2, ---@type Enum
-    ["Safe"] = 3, ---@type Enum
-}
+---@class gamePSMWeaponStates: Enum
+---@field ["Any"] gamePSMWeaponStates -1
+---@field ["Default"] gamePSMWeaponStates 0
+---@field ["NoAmmo"] gamePSMWeaponStates 1
+---@field ["Ready"] gamePSMWeaponStates 2
+---@field ["Safe"] gamePSMWeaponStates 3
+gamePSMWeaponStates = {}

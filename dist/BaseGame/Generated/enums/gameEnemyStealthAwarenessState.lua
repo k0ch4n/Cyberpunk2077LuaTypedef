@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEnemyStealthAwarenessState
-gameEnemyStealthAwarenessState = {
-    ["Relaxed"] = 0, ---@type Enum
-    ["Aware"] = 1, ---@type Enum
-    ["Alerted"] = 2, ---@type Enum
-    ["Combat"] = 3, ---@type Enum
-}
+---@class gameEnemyStealthAwarenessState: Enum
+---@field ["Relaxed"] gameEnemyStealthAwarenessState 0
+---@field ["Aware"] gameEnemyStealthAwarenessState 1
+---@field ["Alerted"] gameEnemyStealthAwarenessState 2
+---@field ["Combat"] gameEnemyStealthAwarenessState 3
+gameEnemyStealthAwarenessState = {}

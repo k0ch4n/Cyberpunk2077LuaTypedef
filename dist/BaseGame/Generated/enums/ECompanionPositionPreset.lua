@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECompanionPositionPreset
-ECompanionPositionPreset = {
-    ["Behind"] = 0, ---@type Enum
-    ["InFront"] = 1, ---@type Enum
-}
+---@class ECompanionPositionPreset: Enum
+---@field ["Behind"] ECompanionPositionPreset 0
+---@field ["InFront"] ECompanionPositionPreset 1
+ECompanionPositionPreset = {}

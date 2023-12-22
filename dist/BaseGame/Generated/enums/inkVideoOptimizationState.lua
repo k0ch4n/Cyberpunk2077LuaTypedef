@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkVideoOptimizationState
-inkVideoOptimizationState = {
-    ["None"] = 0, ---@type Enum
-    ["TooManyBinks"] = 1, ---@type Enum
-    ["FullscreenBinkVisible"] = 2, ---@type Enum
-}
+---@class inkVideoOptimizationState: Enum
+---@field ["None"] inkVideoOptimizationState 0
+---@field ["TooManyBinks"] inkVideoOptimizationState 1
+---@field ["FullscreenBinkVisible"] inkVideoOptimizationState 2
+inkVideoOptimizationState = {}

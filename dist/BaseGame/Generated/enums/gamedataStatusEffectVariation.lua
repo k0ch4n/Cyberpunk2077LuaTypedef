@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStatusEffectVariation
-gamedataStatusEffectVariation = {
-    ["Bike"] = 0, ---@type Enum
-    ["Default"] = 1, ---@type Enum
-    ["Vehicle"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataStatusEffectVariation: Enum
+---@field ["Bike"] gamedataStatusEffectVariation 0
+---@field ["Default"] gamedataStatusEffectVariation 1
+---@field ["Vehicle"] gamedataStatusEffectVariation 2
+---@field ["Count"] gamedataStatusEffectVariation 3
+---@field ["Invalid"] gamedataStatusEffectVariation 4
+gamedataStatusEffectVariation = {}

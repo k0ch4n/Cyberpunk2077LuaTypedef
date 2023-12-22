@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gametargetingSystemScriptFilter
-gametargetingSystemScriptFilter = {
-    ["Melee"] = 1, ---@type Enum
-    ["Shooting"] = 2, ---@type Enum
-    ["Scanning"] = 4, ---@type Enum
-    ["QuickHack"] = 8, ---@type Enum
-    ["ShootingLimbCyber"] = 16, ---@type Enum
-    ["HeadTarget"] = 32, ---@type Enum
-    ["LegTarget"] = 64, ---@type Enum
-    ["MechanicalTarget"] = 128, ---@type Enum
-}
+---@class gametargetingSystemScriptFilter: Enum
+---@field ["Melee"] gametargetingSystemScriptFilter 1
+---@field ["Shooting"] gametargetingSystemScriptFilter 2
+---@field ["Scanning"] gametargetingSystemScriptFilter 4
+---@field ["QuickHack"] gametargetingSystemScriptFilter 8
+---@field ["ShootingLimbCyber"] gametargetingSystemScriptFilter 16
+---@field ["HeadTarget"] gametargetingSystemScriptFilter 32
+---@field ["LegTarget"] gametargetingSystemScriptFilter 64
+---@field ["MechanicalTarget"] gametargetingSystemScriptFilter 128
+gametargetingSystemScriptFilter = {}

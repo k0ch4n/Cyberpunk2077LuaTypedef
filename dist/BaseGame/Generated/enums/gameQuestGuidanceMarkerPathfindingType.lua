@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameQuestGuidanceMarkerPathfindingType
-gameQuestGuidanceMarkerPathfindingType = {
-    ["Auto"] = 0, ---@type Enum
-    ["Navmesh"] = 1, ---@type Enum
-    ["Traffic"] = 2, ---@type Enum
-}
+---@class gameQuestGuidanceMarkerPathfindingType: Enum
+---@field ["Auto"] gameQuestGuidanceMarkerPathfindingType 0
+---@field ["Navmesh"] gameQuestGuidanceMarkerPathfindingType 1
+---@field ["Traffic"] gameQuestGuidanceMarkerPathfindingType 2
+gameQuestGuidanceMarkerPathfindingType = {}

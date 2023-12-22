@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMeleeAttackType
-EMeleeAttackType = {
-    ["Combo"] = 0, ---@type Enum
-    ["Strong"] = 1, ---@type Enum
-    ["Final"] = 2, ---@type Enum
-    ["Block"] = 3, ---@type Enum
-    ["Safe"] = 4, ---@type Enum
-    ["Slide"] = 5, ---@type Enum
-    ["Crouch"] = 6, ---@type Enum
-    ["Jump"] = 7, ---@type Enum
-    ["Sprint"] = 8, ---@type Enum
-    ["Fall"] = 9, ---@type Enum
-    ["Throw"] = 10, ---@type Enum
-    ["Dodge"] = 11, ---@type Enum
-    ["Equip"] = 12, ---@type Enum
-}
+---@class EMeleeAttackType: Enum
+---@field ["Combo"] EMeleeAttackType 0
+---@field ["Strong"] EMeleeAttackType 1
+---@field ["Final"] EMeleeAttackType 2
+---@field ["Block"] EMeleeAttackType 3
+---@field ["Safe"] EMeleeAttackType 4
+---@field ["Slide"] EMeleeAttackType 5
+---@field ["Crouch"] EMeleeAttackType 6
+---@field ["Jump"] EMeleeAttackType 7
+---@field ["Sprint"] EMeleeAttackType 8
+---@field ["Fall"] EMeleeAttackType 9
+---@field ["Throw"] EMeleeAttackType 10
+---@field ["Dodge"] EMeleeAttackType 11
+---@field ["Equip"] EMeleeAttackType 12
+EMeleeAttackType = {}

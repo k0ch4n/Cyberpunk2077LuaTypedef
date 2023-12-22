@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkBrushMirrorType
-inkBrushMirrorType = {
-    ["NoMirror"] = 0, ---@type Enum
-    ["Horizontal"] = 1, ---@type Enum
-    ["Vertical"] = 2, ---@type Enum
-    ["Both"] = 3, ---@type Enum
-}
+---@class inkBrushMirrorType: Enum
+---@field ["NoMirror"] inkBrushMirrorType 0
+---@field ["Horizontal"] inkBrushMirrorType 1
+---@field ["Vertical"] inkBrushMirrorType 2
+---@field ["Both"] inkBrushMirrorType 3
+inkBrushMirrorType = {}

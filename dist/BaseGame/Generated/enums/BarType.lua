@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum BarType
-BarType = {
-    ["Armor"] = 0, ---@type Enum
-    ["CurrentCapacity"] = 1, ---@type Enum
-    ["Edgerunner"] = 2, ---@type Enum
-}
+---@class BarType: Enum
+---@field ["Armor"] BarType 0
+---@field ["CurrentCapacity"] BarType 1
+---@field ["Edgerunner"] BarType 2
+BarType = {}

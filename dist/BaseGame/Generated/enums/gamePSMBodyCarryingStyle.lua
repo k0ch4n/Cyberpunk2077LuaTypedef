@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMBodyCarryingStyle
-gamePSMBodyCarryingStyle = {
-    ["Any"] = 0, ---@type Enum
-    ["Default"] = 1, ---@type Enum
-    ["Friendly"] = 2, ---@type Enum
-    ["Strong"] = 3, ---@type Enum
-    ["WoundedSoldier"] = 4, ---@type Enum
-}
+---@class gamePSMBodyCarryingStyle: Enum
+---@field ["Any"] gamePSMBodyCarryingStyle 0
+---@field ["Default"] gamePSMBodyCarryingStyle 1
+---@field ["Friendly"] gamePSMBodyCarryingStyle 2
+---@field ["Strong"] gamePSMBodyCarryingStyle 3
+---@field ["WoundedSoldier"] gamePSMBodyCarryingStyle 4
+gamePSMBodyCarryingStyle = {}

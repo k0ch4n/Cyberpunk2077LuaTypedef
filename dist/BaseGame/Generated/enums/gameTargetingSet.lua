@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTargetingSet
-gameTargetingSet = {
-    ["Visible"] = 0, ---@type Enum
-    ["ClearlyVisible"] = 1, ---@type Enum
-    ["Frustum"] = 2, ---@type Enum
-    ["Complete"] = 3, ---@type Enum
-    ["None"] = 4, ---@type Enum
-}
+---@class gameTargetingSet: Enum
+---@field ["Visible"] gameTargetingSet 0
+---@field ["ClearlyVisible"] gameTargetingSet 1
+---@field ["Frustum"] gameTargetingSet 2
+---@field ["Complete"] gameTargetingSet 3
+---@field ["None"] gameTargetingSet 4
+gameTargetingSet = {}

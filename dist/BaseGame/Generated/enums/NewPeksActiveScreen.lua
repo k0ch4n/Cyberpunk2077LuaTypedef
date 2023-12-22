@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum NewPeksActiveScreen
-NewPeksActiveScreen = {
-    ["Categories"] = 0, ---@type Enum
-    ["Perks"] = 1, ---@type Enum
-    ["Espionage"] = 2, ---@type Enum
-    ["Skills"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class NewPeksActiveScreen: Enum
+---@field ["Categories"] NewPeksActiveScreen 0
+---@field ["Perks"] NewPeksActiveScreen 1
+---@field ["Espionage"] NewPeksActiveScreen 2
+---@field ["Skills"] NewPeksActiveScreen 3
+---@field ["Count"] NewPeksActiveScreen 4
+---@field ["Invalid"] NewPeksActiveScreen -1
+NewPeksActiveScreen = {}

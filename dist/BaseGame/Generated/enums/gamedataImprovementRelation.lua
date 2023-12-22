@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataImprovementRelation
-gamedataImprovementRelation = {
-    ["Direct"] = 0, ---@type Enum
-    ["Inverse"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataImprovementRelation: Enum
+---@field ["Direct"] gamedataImprovementRelation 0
+---@field ["Inverse"] gamedataImprovementRelation 1
+---@field ["None"] gamedataImprovementRelation 2
+---@field ["Count"] gamedataImprovementRelation 3
+---@field ["Invalid"] gamedataImprovementRelation 4
+gamedataImprovementRelation = {}

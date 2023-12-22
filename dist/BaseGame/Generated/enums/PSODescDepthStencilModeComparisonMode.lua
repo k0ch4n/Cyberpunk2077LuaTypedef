@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescDepthStencilModeComparisonMode
-PSODescDepthStencilModeComparisonMode = {
-    ["COMPARISON_Never"] = 0, ---@type Enum
-    ["COMPARISON_Less"] = 1, ---@type Enum
-    ["COMPARISON_Equal"] = 2, ---@type Enum
-    ["COMPARISON_LessEqual"] = 3, ---@type Enum
-    ["COMPARISON_Greater"] = 4, ---@type Enum
-    ["COMPARISON_NotEqual"] = 5, ---@type Enum
-    ["COMPARISON_GreaterEqual"] = 6, ---@type Enum
-    ["COMPARISON_Always"] = 7, ---@type Enum
-}
+---@class PSODescDepthStencilModeComparisonMode: Enum
+---@field ["COMPARISON_Never"] PSODescDepthStencilModeComparisonMode 0
+---@field ["COMPARISON_Less"] PSODescDepthStencilModeComparisonMode 1
+---@field ["COMPARISON_Equal"] PSODescDepthStencilModeComparisonMode 2
+---@field ["COMPARISON_LessEqual"] PSODescDepthStencilModeComparisonMode 3
+---@field ["COMPARISON_Greater"] PSODescDepthStencilModeComparisonMode 4
+---@field ["COMPARISON_NotEqual"] PSODescDepthStencilModeComparisonMode 5
+---@field ["COMPARISON_GreaterEqual"] PSODescDepthStencilModeComparisonMode 6
+---@field ["COMPARISON_Always"] PSODescDepthStencilModeComparisonMode 7
+PSODescDepthStencilModeComparisonMode = {}

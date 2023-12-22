@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textJustificationType
-textJustificationType = {
-    ["Left"] = 0, ---@type Enum
-    ["Center"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class textJustificationType: Enum
+---@field ["Left"] textJustificationType 0
+---@field ["Center"] textJustificationType 1
+---@field ["Right"] textJustificationType 2
+textJustificationType = {}

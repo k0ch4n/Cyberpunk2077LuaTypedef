@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEFootPhase
-animEFootPhase = {
-    ["RightUp"] = 0, ---@type Enum
-    ["RightForward"] = 1, ---@type Enum
-    ["LeftUp"] = 2, ---@type Enum
-    ["LeftForward"] = 3, ---@type Enum
-    ["NotConsidered"] = 4, ---@type Enum
-}
+---@class animEFootPhase: Enum
+---@field ["RightUp"] animEFootPhase 0
+---@field ["RightForward"] animEFootPhase 1
+---@field ["LeftUp"] animEFootPhase 2
+---@field ["LeftForward"] animEFootPhase 3
+---@field ["NotConsidered"] animEFootPhase 4
+animEFootPhase = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataVariableNodeVariableValueDeriveInfo
-gamedataVariableNodeVariableValueDeriveInfo = {
-    ["NotDerived"] = 0, ---@type Enum
-    ["ArrayAddition"] = 1, ---@type Enum
-}
+---@class gamedataVariableNodeVariableValueDeriveInfo: Enum
+---@field ["NotDerived"] gamedataVariableNodeVariableValueDeriveInfo 0
+---@field ["ArrayAddition"] gamedataVariableNodeVariableValueDeriveInfo 1
+gamedataVariableNodeVariableValueDeriveInfo = {}

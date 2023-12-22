@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataSpawnableObjectPriority
-gamedataSpawnableObjectPriority = {
-    ["Crowd"] = 0, ---@type Enum
-    ["Quest"] = 1, ---@type Enum
-    ["Regular"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataSpawnableObjectPriority: Enum
+---@field ["Crowd"] gamedataSpawnableObjectPriority 0
+---@field ["Quest"] gamedataSpawnableObjectPriority 1
+---@field ["Regular"] gamedataSpawnableObjectPriority 2
+---@field ["Count"] gamedataSpawnableObjectPriority 3
+---@field ["Invalid"] gamedataSpawnableObjectPriority 4
+gamedataSpawnableObjectPriority = {}

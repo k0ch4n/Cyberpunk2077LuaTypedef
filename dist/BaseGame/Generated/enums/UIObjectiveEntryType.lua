@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum UIObjectiveEntryType
-UIObjectiveEntryType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Quest"] = 1, ---@type Enum
-    ["Objective"] = 2, ---@type Enum
-    ["SubObjective"] = 3, ---@type Enum
-}
+---@class UIObjectiveEntryType: Enum
+---@field ["Invalid"] UIObjectiveEntryType 0
+---@field ["Quest"] UIObjectiveEntryType 1
+---@field ["Objective"] UIObjectiveEntryType 2
+---@field ["SubObjective"] UIObjectiveEntryType 3
+UIObjectiveEntryType = {}

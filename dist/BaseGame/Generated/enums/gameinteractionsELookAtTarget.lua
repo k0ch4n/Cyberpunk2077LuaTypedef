@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsELookAtTarget
-gameinteractionsELookAtTarget = {
-    ["Entity"] = 0, ---@type Enum
-    ["Component"] = 1, ---@type Enum
-}
+---@class gameinteractionsELookAtTarget: Enum
+---@field ["Entity"] gameinteractionsELookAtTarget 0
+---@field ["Component"] gameinteractionsELookAtTarget 1
+gameinteractionsELookAtTarget = {}

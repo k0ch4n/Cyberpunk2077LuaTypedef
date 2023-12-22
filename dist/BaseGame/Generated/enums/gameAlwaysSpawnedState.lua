@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameAlwaysSpawnedState
-gameAlwaysSpawnedState = {
-    ["default (false)"] = 0, ---@type Enum
-    ["true"] = 1, ---@type Enum
-    ["false"] = 2, ---@type Enum
-}
+---@class gameAlwaysSpawnedState: Enum
+---@field ["default (false)"] gameAlwaysSpawnedState 0
+---@field ["true"] gameAlwaysSpawnedState 1
+---@field ["false"] gameAlwaysSpawnedState 2
+gameAlwaysSpawnedState = {}

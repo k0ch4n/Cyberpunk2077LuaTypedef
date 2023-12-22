@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectAction_KillFXAction
-gameEffectAction_KillFXAction = {
-    ["Stop"] = 0, ---@type Enum
-    ["BreakLoop"] = 1, ---@type Enum
-}
+---@class gameEffectAction_KillFXAction: Enum
+---@field ["Stop"] gameEffectAction_KillFXAction 0
+---@field ["BreakLoop"] gameEffectAction_KillFXAction 1
+gameEffectAction_KillFXAction = {}

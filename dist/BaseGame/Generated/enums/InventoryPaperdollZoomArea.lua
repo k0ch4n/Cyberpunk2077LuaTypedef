@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InventoryPaperdollZoomArea
-InventoryPaperdollZoomArea = {
-    ["Default"] = 0, ---@type Enum
-    ["Weapon"] = 1, ---@type Enum
-    ["Legs"] = 2, ---@type Enum
-    ["Feet"] = 3, ---@type Enum
-    ["Cyberware"] = 4, ---@type Enum
-    ["QuickSlot"] = 5, ---@type Enum
-    ["Consumable"] = 6, ---@type Enum
-    ["Outfit"] = 7, ---@type Enum
-    ["Head"] = 8, ---@type Enum
-    ["Face"] = 9, ---@type Enum
-    ["InnerChest"] = 10, ---@type Enum
-    ["OuterChest"] = 11, ---@type Enum
-}
+---@class InventoryPaperdollZoomArea: Enum
+---@field ["Default"] InventoryPaperdollZoomArea 0
+---@field ["Weapon"] InventoryPaperdollZoomArea 1
+---@field ["Legs"] InventoryPaperdollZoomArea 2
+---@field ["Feet"] InventoryPaperdollZoomArea 3
+---@field ["Cyberware"] InventoryPaperdollZoomArea 4
+---@field ["QuickSlot"] InventoryPaperdollZoomArea 5
+---@field ["Consumable"] InventoryPaperdollZoomArea 6
+---@field ["Outfit"] InventoryPaperdollZoomArea 7
+---@field ["Head"] InventoryPaperdollZoomArea 8
+---@field ["Face"] InventoryPaperdollZoomArea 9
+---@field ["InnerChest"] InventoryPaperdollZoomArea 10
+---@field ["OuterChest"] InventoryPaperdollZoomArea 11
+InventoryPaperdollZoomArea = {}

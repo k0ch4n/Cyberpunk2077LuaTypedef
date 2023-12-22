@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECubeSourceTextureType
-ECubeSourceTextureType = {
-    ["CST_CrossHorizontal"] = 0, ---@type Enum
-    ["CST_CrossVertical"] = 1, ---@type Enum
-    ["CST_Panorama"] = 2, ---@type Enum
-}
+---@class ECubeSourceTextureType: Enum
+---@field ["CST_CrossHorizontal"] ECubeSourceTextureType 0
+---@field ["CST_CrossVertical"] ECubeSourceTextureType 1
+---@field ["CST_Panorama"] ECubeSourceTextureType 2
+ECubeSourceTextureType = {}

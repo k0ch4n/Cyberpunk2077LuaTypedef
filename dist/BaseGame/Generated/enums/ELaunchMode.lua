@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELaunchMode
-ELaunchMode = {
-    ["Primary"] = 0, ---@type Enum
-    ["Secondary"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class ELaunchMode: Enum
+---@field ["Primary"] ELaunchMode 0
+---@field ["Secondary"] ELaunchMode 1
+---@field ["None"] ELaunchMode 2
+ELaunchMode = {}

@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleCameraPerspective
-vehicleCameraPerspective = {
-    ["FPP"] = 0, ---@type Enum
-    ["TPPClose"] = 1, ---@type Enum
-    ["TPPMedium"] = 2, ---@type Enum
-    ["TPPFar"] = 3, ---@type Enum
-    ["DriverCombatClose"] = 4, ---@type Enum
-    ["DriverCombatMedium"] = 5, ---@type Enum
-    ["DriverCombatFar"] = 6, ---@type Enum
-}
+---@class vehicleCameraPerspective: Enum
+---@field ["FPP"] vehicleCameraPerspective 0
+---@field ["TPPClose"] vehicleCameraPerspective 1
+---@field ["TPPMedium"] vehicleCameraPerspective 2
+---@field ["TPPFar"] vehicleCameraPerspective 3
+---@field ["DriverCombatClose"] vehicleCameraPerspective 4
+---@field ["DriverCombatMedium"] vehicleCameraPerspective 5
+---@field ["DriverCombatFar"] vehicleCameraPerspective 6
+vehicleCameraPerspective = {}

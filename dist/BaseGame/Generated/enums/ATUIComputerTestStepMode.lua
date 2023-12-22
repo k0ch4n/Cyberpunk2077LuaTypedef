@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ATUIComputerTestStepMode
-ATUIComputerTestStepMode = {
-    ["SINGLE_ACTION"] = 0, ---@type Enum
-    ["ROLLING"] = 1, ---@type Enum
-}
+---@class ATUIComputerTestStepMode: Enum
+---@field ["SINGLE_ACTION"] ATUIComputerTestStepMode 0
+---@field ["ROLLING"] ATUIComputerTestStepMode 1
+ATUIComputerTestStepMode = {}

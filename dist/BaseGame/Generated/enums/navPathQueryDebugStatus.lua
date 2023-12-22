@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum navPathQueryDebugStatus
-navPathQueryDebugStatus = {
-    ["InvalidQuery"] = 0, ---@type Enum
-    ["Active"] = 1, ---@type Enum
-    ["WaitingForStreaming"] = 2, ---@type Enum
-    ["Completed"] = 3, ---@type Enum
-    ["NoPathPossible"] = 4, ---@type Enum
-}
+---@class navPathQueryDebugStatus: Enum
+---@field ["InvalidQuery"] navPathQueryDebugStatus 0
+---@field ["Active"] navPathQueryDebugStatus 1
+---@field ["WaitingForStreaming"] navPathQueryDebugStatus 2
+---@field ["Completed"] navPathQueryDebugStatus 3
+---@field ["NoPathPossible"] navPathQueryDebugStatus 4
+navPathQueryDebugStatus = {}

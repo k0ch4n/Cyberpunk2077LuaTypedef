@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMathOperator
-EMathOperator = {
-    ["None"] = 0, ---@type Enum
-    ["Add"] = 1, ---@type Enum
-    ["Subtract"] = 2, ---@type Enum
-    ["Multiply"] = 3, ---@type Enum
-    ["Divide"] = 4, ---@type Enum
-}
+---@class EMathOperator: Enum
+---@field ["None"] EMathOperator 0
+---@field ["Add"] EMathOperator 1
+---@field ["Subtract"] EMathOperator 2
+---@field ["Multiply"] EMathOperator 3
+---@field ["Divide"] EMathOperator 4
+EMathOperator = {}

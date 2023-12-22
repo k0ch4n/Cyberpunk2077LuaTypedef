@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectHitDataType
-gameEffectHitDataType = {
-    ["Entity"] = 0, ---@type Enum
-    ["Node"] = 1, ---@type Enum
-    ["Static"] = 2, ---@type Enum
-}
+---@class gameEffectHitDataType: Enum
+---@field ["Entity"] gameEffectHitDataType 0
+---@field ["Node"] gameEffectHitDataType 1
+---@field ["Static"] gameEffectHitDataType 2
+gameEffectHitDataType = {}

@@ -1,17 +1,16 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioFoleyActionType
-audioFoleyActionType = {
-    ["FastHeavy"] = 0, ---@type Enum
-    ["FastMedium"] = 1, ---@type Enum
-    ["FastLight"] = 2, ---@type Enum
-    ["NormalHeavy"] = 3, ---@type Enum
-    ["NormalMedium"] = 4, ---@type Enum
-    ["NormalLight"] = 5, ---@type Enum
-    ["SlowHeavy"] = 6, ---@type Enum
-    ["SlowMedium"] = 7, ---@type Enum
-    ["SlowLight"] = 8, ---@type Enum
-    ["Walk"] = 9, ---@type Enum
-    ["Run"] = 10, ---@type Enum
-}
+---@class audioFoleyActionType: Enum
+---@field ["FastHeavy"] audioFoleyActionType 0
+---@field ["FastMedium"] audioFoleyActionType 1
+---@field ["FastLight"] audioFoleyActionType 2
+---@field ["NormalHeavy"] audioFoleyActionType 3
+---@field ["NormalMedium"] audioFoleyActionType 4
+---@field ["NormalLight"] audioFoleyActionType 5
+---@field ["SlowHeavy"] audioFoleyActionType 6
+---@field ["SlowMedium"] audioFoleyActionType 7
+---@field ["SlowLight"] audioFoleyActionType 8
+---@field ["Walk"] audioFoleyActionType 9
+---@field ["Run"] audioFoleyActionType 10
+audioFoleyActionType = {}

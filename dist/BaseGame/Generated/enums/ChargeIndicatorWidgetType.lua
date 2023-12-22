@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ChargeIndicatorWidgetType
-ChargeIndicatorWidgetType = {
-    ["INVALID"] = 0, ---@type Enum
-    ["JENKINS"] = 1, ---@type Enum
-    ["TIMEBANK"] = 2, ---@type Enum
-}
+---@class ChargeIndicatorWidgetType: Enum
+---@field ["INVALID"] ChargeIndicatorWidgetType 0
+---@field ["JENKINS"] ChargeIndicatorWidgetType 1
+---@field ["TIMEBANK"] ChargeIndicatorWidgetType 2
+ChargeIndicatorWidgetType = {}

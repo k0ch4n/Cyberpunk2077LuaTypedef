@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameContactType
-gameContactType = {
-    ["Caller"] = 0, ---@type Enum
-    ["Texter"] = 1, ---@type Enum
-}
+---@class gameContactType: Enum
+---@field ["Caller"] gameContactType 0
+---@field ["Texter"] gameContactType 1
+gameContactType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EKnockdownStates
-EKnockdownStates = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Start"] = 1, ---@type Enum
-    ["FallLoop"] = 2, ---@type Enum
-    ["Land"] = 3, ---@type Enum
-    ["Recovery"] = 4, ---@type Enum
-    ["AirRecovery"] = 5, ---@type Enum
-}
+---@class EKnockdownStates: Enum
+---@field ["Invalid"] EKnockdownStates 0
+---@field ["Start"] EKnockdownStates 1
+---@field ["FallLoop"] EKnockdownStates 2
+---@field ["Land"] EKnockdownStates 3
+---@field ["Recovery"] EKnockdownStates 4
+---@field ["AirRecovery"] EKnockdownStates 5
+EKnockdownStates = {}

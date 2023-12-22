@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsELootVisualiserControlOperation
-gameinteractionsELootVisualiserControlOperation = {
-    ["Locked"] = 1, ---@type Enum
-}
+---@class gameinteractionsELootVisualiserControlOperation: Enum
+---@field ["Locked"] gameinteractionsELootVisualiserControlOperation 1
+gameinteractionsELootVisualiserControlOperation = {}

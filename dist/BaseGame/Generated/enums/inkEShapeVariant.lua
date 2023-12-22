@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEShapeVariant
-inkEShapeVariant = {
-    ["Fill"] = 0, ---@type Enum
-    ["Border"] = 1, ---@type Enum
-    ["FillAndBorder"] = 2, ---@type Enum
-}
+---@class inkEShapeVariant: Enum
+---@field ["Fill"] inkEShapeVariant 0
+---@field ["Border"] inkEShapeVariant 1
+---@field ["FillAndBorder"] inkEShapeVariant 2
+inkEShapeVariant = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameCrowdCreationDataMergeMode
-gameCrowdCreationDataMergeMode = {
-    ["Average"] = 0, ---@type Enum
-    ["Override"] = 1, ---@type Enum
-}
+---@class gameCrowdCreationDataMergeMode: Enum
+---@field ["Average"] gameCrowdCreationDataMergeMode 0
+---@field ["Override"] gameCrowdCreationDataMergeMode 1
+gameCrowdCreationDataMergeMode = {}

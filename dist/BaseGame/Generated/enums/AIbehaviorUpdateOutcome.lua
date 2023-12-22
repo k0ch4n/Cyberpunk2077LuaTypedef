@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorUpdateOutcome
-AIbehaviorUpdateOutcome = {
-    ["IN_PROGRESS"] = 0, ---@type Enum
-    ["SUCCESS"] = 1, ---@type Enum
-    ["FAILURE"] = 2, ---@type Enum
-}
+---@class AIbehaviorUpdateOutcome: Enum
+---@field ["IN_PROGRESS"] AIbehaviorUpdateOutcome 0
+---@field ["SUCCESS"] AIbehaviorUpdateOutcome 1
+---@field ["FAILURE"] AIbehaviorUpdateOutcome 2
+AIbehaviorUpdateOutcome = {}

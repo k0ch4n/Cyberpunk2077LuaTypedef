@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questTutorialScreenMode
-questTutorialScreenMode = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Fullscreen"] = 1, ---@type Enum
-    ["Popup"] = 2, ---@type Enum
-}
+---@class questTutorialScreenMode: Enum
+---@field ["Undefined"] questTutorialScreenMode 0
+---@field ["Fullscreen"] questTutorialScreenMode 1
+---@field ["Popup"] questTutorialScreenMode 2
+questTutorialScreenMode = {}

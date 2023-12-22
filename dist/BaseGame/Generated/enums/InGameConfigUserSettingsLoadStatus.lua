@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InGameConfigUserSettingsLoadStatus
-InGameConfigUserSettingsLoadStatus = {
-    ["NotLoaded"] = 0, ---@type Enum
-    ["InternalError"] = 1, ---@type Enum
-    ["FileIsMissing"] = 2, ---@type Enum
-    ["FileIsCorrupted"] = 3, ---@type Enum
-    ["Loaded"] = 4, ---@type Enum
-    ["ImportedFromOldVersion"] = 5, ---@type Enum
-}
+---@class InGameConfigUserSettingsLoadStatus: Enum
+---@field ["NotLoaded"] InGameConfigUserSettingsLoadStatus 0
+---@field ["InternalError"] InGameConfigUserSettingsLoadStatus 1
+---@field ["FileIsMissing"] InGameConfigUserSettingsLoadStatus 2
+---@field ["FileIsCorrupted"] InGameConfigUserSettingsLoadStatus 3
+---@field ["Loaded"] InGameConfigUserSettingsLoadStatus 4
+---@field ["ImportedFromOldVersion"] InGameConfigUserSettingsLoadStatus 5
+InGameConfigUserSettingsLoadStatus = {}

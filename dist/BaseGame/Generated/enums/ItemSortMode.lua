@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ItemSortMode
-ItemSortMode = {
-    ["Default"] = 0, ---@type Enum
-    ["NewItems"] = 1, ---@type Enum
-    ["NameAsc"] = 2, ---@type Enum
-    ["NameDesc"] = 3, ---@type Enum
-    ["QualityAsc"] = 4, ---@type Enum
-    ["QualityDesc"] = 5, ---@type Enum
-    ["WeightAsc"] = 6, ---@type Enum
-    ["WeightDesc"] = 7, ---@type Enum
-    ["PriceAsc"] = 8, ---@type Enum
-    ["PriceDesc"] = 9, ---@type Enum
-    ["ItemType"] = 10, ---@type Enum
-    ["DpsAsc"] = 11, ---@type Enum
-    ["DpsDesc"] = 12, ---@type Enum
-}
+---@class ItemSortMode: Enum
+---@field ["Default"] ItemSortMode 0
+---@field ["NewItems"] ItemSortMode 1
+---@field ["NameAsc"] ItemSortMode 2
+---@field ["NameDesc"] ItemSortMode 3
+---@field ["QualityAsc"] ItemSortMode 4
+---@field ["QualityDesc"] ItemSortMode 5
+---@field ["WeightAsc"] ItemSortMode 6
+---@field ["WeightDesc"] ItemSortMode 7
+---@field ["PriceAsc"] ItemSortMode 8
+---@field ["PriceDesc"] ItemSortMode 9
+---@field ["ItemType"] ItemSortMode 10
+---@field ["DpsAsc"] ItemSortMode 11
+---@field ["DpsDesc"] ItemSortMode 12
+ItemSortMode = {}

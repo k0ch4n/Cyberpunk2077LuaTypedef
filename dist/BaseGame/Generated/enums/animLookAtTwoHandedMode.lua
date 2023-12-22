@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtTwoHandedMode
-animLookAtTwoHandedMode = {
-    ["Default"] = 0, ---@type Enum
-    ["Horizontal"] = 1, ---@type Enum
-    ["ENUM_SIZE"] = 2, ---@type Enum
-}
+---@class animLookAtTwoHandedMode: Enum
+---@field ["Default"] animLookAtTwoHandedMode 0
+---@field ["Horizontal"] animLookAtTwoHandedMode 1
+---@field ["ENUM_SIZE"] animLookAtTwoHandedMode 2
+animLookAtTwoHandedMode = {}

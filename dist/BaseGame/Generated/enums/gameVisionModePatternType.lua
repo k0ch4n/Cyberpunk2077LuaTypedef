@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameVisionModePatternType
-gameVisionModePatternType = {
-    ["Default"] = 0, ---@type Enum
-    ["Netrunner"] = 1, ---@type Enum
-}
+---@class gameVisionModePatternType: Enum
+---@field ["Default"] gameVisionModePatternType 0
+---@field ["Netrunner"] gameVisionModePatternType 1
+gameVisionModePatternType = {}

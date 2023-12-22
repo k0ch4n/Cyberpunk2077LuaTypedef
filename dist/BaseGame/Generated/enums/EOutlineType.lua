@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EOutlineType
-EOutlineType = {
-    ["NONE"] = 0, ---@type Enum
-    ["GREEN"] = 1, ---@type Enum
-    ["RED"] = 2, ---@type Enum
-    ["YELLOW"] = 3, ---@type Enum
-}
+---@class EOutlineType: Enum
+---@field ["NONE"] EOutlineType 0
+---@field ["GREEN"] EOutlineType 1
+---@field ["RED"] EOutlineType 2
+---@field ["YELLOW"] EOutlineType 3
+EOutlineType = {}

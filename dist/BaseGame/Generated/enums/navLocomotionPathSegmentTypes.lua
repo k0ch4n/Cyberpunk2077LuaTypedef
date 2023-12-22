@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum navLocomotionPathSegmentTypes
-navLocomotionPathSegmentTypes = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Spline"] = 1, ---@type Enum
-    ["OffMeshLink"] = 2, ---@type Enum
-}
+---@class navLocomotionPathSegmentTypes: Enum
+---@field ["Invalid"] navLocomotionPathSegmentTypes 0
+---@field ["Spline"] navLocomotionPathSegmentTypes 1
+---@field ["OffMeshLink"] navLocomotionPathSegmentTypes 2
+navLocomotionPathSegmentTypes = {}

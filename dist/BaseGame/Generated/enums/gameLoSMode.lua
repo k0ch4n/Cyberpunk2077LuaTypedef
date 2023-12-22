@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameLoSMode
-gameLoSMode = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Keep"] = 1, ---@type Enum
-    ["Avoid"] = 2, ---@type Enum
-}
+---@class gameLoSMode: Enum
+---@field ["Invalid"] gameLoSMode 0
+---@field ["Keep"] gameLoSMode 1
+---@field ["Avoid"] gameLoSMode 2
+gameLoSMode = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatPoolDataBonusType
-gameStatPoolDataBonusType = {
-    ["None"] = 0, ---@type Enum
-    ["Persistent"] = 1, ---@type Enum
-    ["NonPersistent"] = 2, ---@type Enum
-}
+---@class gameStatPoolDataBonusType: Enum
+---@field ["None"] gameStatPoolDataBonusType 0
+---@field ["Persistent"] gameStatPoolDataBonusType 1
+---@field ["NonPersistent"] gameStatPoolDataBonusType 2
+gameStatPoolDataBonusType = {}

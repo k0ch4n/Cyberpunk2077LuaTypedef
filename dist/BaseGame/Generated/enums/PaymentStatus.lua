@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PaymentStatus
-PaymentStatus = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["IN_PROGRESS"] = 1, ---@type Enum
-    ["NO_MONEY"] = 2, ---@type Enum
-}
+---@class PaymentStatus: Enum
+---@field ["DEFAULT"] PaymentStatus 0
+---@field ["IN_PROGRESS"] PaymentStatus 1
+---@field ["NO_MONEY"] PaymentStatus 2
+PaymentStatus = {}

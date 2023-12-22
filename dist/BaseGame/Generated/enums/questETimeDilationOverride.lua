@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questETimeDilationOverride
-questETimeDilationOverride = {
-    ["None"] = 0, ---@type Enum
-    ["Ignore"] = 1, ---@type Enum
-    ["Inherit"] = 2, ---@type Enum
-}
+---@class questETimeDilationOverride: Enum
+---@field ["None"] questETimeDilationOverride 0
+---@field ["Ignore"] questETimeDilationOverride 1
+---@field ["Inherit"] questETimeDilationOverride 2
+questETimeDilationOverride = {}

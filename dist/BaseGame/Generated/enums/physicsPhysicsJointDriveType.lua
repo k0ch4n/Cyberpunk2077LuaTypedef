@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsPhysicsJointDriveType
-physicsPhysicsJointDriveType = {
-    ["AxisX"] = 0, ---@type Enum
-    ["AxisY"] = 1, ---@type Enum
-    ["AxisZ"] = 2, ---@type Enum
-    ["Swing"] = 3, ---@type Enum
-    ["Twist"] = 4, ---@type Enum
-    ["SLERP"] = 5, ---@type Enum
-}
+---@class physicsPhysicsJointDriveType: Enum
+---@field ["AxisX"] physicsPhysicsJointDriveType 0
+---@field ["AxisY"] physicsPhysicsJointDriveType 1
+---@field ["AxisZ"] physicsPhysicsJointDriveType 2
+---@field ["Swing"] physicsPhysicsJointDriveType 3
+---@field ["Twist"] physicsPhysicsJointDriveType 4
+---@field ["SLERP"] physicsPhysicsJointDriveType 5
+physicsPhysicsJointDriveType = {}

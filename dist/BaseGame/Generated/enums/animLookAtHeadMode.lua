@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtHeadMode
-animLookAtHeadMode = {
-    ["Default"] = 0, ---@type Enum
-    ["Horizontal"] = 1, ---@type Enum
-    ["ENUM_SIZE"] = 2, ---@type Enum
-}
+---@class animLookAtHeadMode: Enum
+---@field ["Default"] animLookAtHeadMode 0
+---@field ["Horizontal"] animLookAtHeadMode 1
+---@field ["ENUM_SIZE"] animLookAtHeadMode 2
+animLookAtHeadMode = {}

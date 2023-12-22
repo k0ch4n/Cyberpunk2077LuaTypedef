@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESecurityNotificationType
-ESecurityNotificationType = {
-    ["REPRIMAND_SUCCESSFUL"] = -2, ---@type Enum
-    ["DEESCALATE"] = -1, ---@type Enum
-    ["DEFAULT"] = 0, ---@type Enum
-    ["ILLEGAL_ACTION"] = 1, ---@type Enum
-    ["REPRIMAND_ESCALATE"] = 2, ---@type Enum
-    ["DEVICE_DESTROYED"] = 3, ---@type Enum
-    ["ALARM"] = 4, ---@type Enum
-    ["SECURITY_GATE"] = 5, ---@type Enum
-    ["COMBAT"] = 6, ---@type Enum
-    ["QUEST"] = 7, ---@type Enum
-}
+---@class ESecurityNotificationType: Enum
+---@field ["REPRIMAND_SUCCESSFUL"] ESecurityNotificationType -2
+---@field ["DEESCALATE"] ESecurityNotificationType -1
+---@field ["DEFAULT"] ESecurityNotificationType 0
+---@field ["ILLEGAL_ACTION"] ESecurityNotificationType 1
+---@field ["REPRIMAND_ESCALATE"] ESecurityNotificationType 2
+---@field ["DEVICE_DESTROYED"] ESecurityNotificationType 3
+---@field ["ALARM"] ESecurityNotificationType 4
+---@field ["SECURITY_GATE"] ESecurityNotificationType 5
+---@field ["COMBAT"] ESecurityNotificationType 6
+---@field ["QUEST"] ESecurityNotificationType 7
+ESecurityNotificationType = {}

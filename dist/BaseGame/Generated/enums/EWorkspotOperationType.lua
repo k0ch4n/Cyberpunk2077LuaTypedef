@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EWorkspotOperationType
-EWorkspotOperationType = {
-    ["ENTER"] = 0, ---@type Enum
-    ["LEAVE"] = 1, ---@type Enum
-}
+---@class EWorkspotOperationType: Enum
+---@field ["ENTER"] EWorkspotOperationType 0
+---@field ["LEAVE"] EWorkspotOperationType 1
+EWorkspotOperationType = {}

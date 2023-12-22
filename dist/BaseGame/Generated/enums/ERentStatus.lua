@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERentStatus
-ERentStatus = {
-    ["PAID"] = 0, ---@type Enum
-    ["OVERDUE"] = 1, ---@type Enum
-    ["EVICTED"] = 2, ---@type Enum
-}
+---@class ERentStatus: Enum
+---@field ["PAID"] ERentStatus 0
+---@field ["OVERDUE"] ERentStatus 1
+---@field ["EVICTED"] ERentStatus 2
+ERentStatus = {}

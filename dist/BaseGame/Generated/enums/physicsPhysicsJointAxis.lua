@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsPhysicsJointAxis
-physicsPhysicsJointAxis = {
-    ["AxisX"] = 0, ---@type Enum
-    ["AxisY"] = 1, ---@type Enum
-    ["AxisZ"] = 2, ---@type Enum
-    ["Twist"] = 3, ---@type Enum
-    ["Swing1"] = 4, ---@type Enum
-    ["Swing2"] = 5, ---@type Enum
-}
+---@class physicsPhysicsJointAxis: Enum
+---@field ["AxisX"] physicsPhysicsJointAxis 0
+---@field ["AxisY"] physicsPhysicsJointAxis 1
+---@field ["AxisZ"] physicsPhysicsJointAxis 2
+---@field ["Twist"] physicsPhysicsJointAxis 3
+---@field ["Swing1"] physicsPhysicsJointAxis 4
+---@field ["Swing2"] physicsPhysicsJointAxis 5
+physicsPhysicsJointAxis = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStimTargets
-gamedataStimTargets = {
-    ["All"] = 0, ---@type Enum
-    ["Puppets"] = 1, ---@type Enum
-    ["Vehicles"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataStimTargets: Enum
+---@field ["All"] gamedataStimTargets 0
+---@field ["Puppets"] gamedataStimTargets 1
+---@field ["Vehicles"] gamedataStimTargets 2
+---@field ["Count"] gamedataStimTargets 3
+---@field ["Invalid"] gamedataStimTargets 4
+gamedataStimTargets = {}

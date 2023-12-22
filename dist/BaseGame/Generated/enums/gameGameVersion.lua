@@ -1,44 +1,43 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameGameVersion
-gameGameVersion = {
-    ["CP77_Initial"] = 0, ---@type Enum
-    ["CP77_Development"] = 1, ---@type Enum
-    ["CP77_GoldMaster"] = 2, ---@type Enum
-    ["CP77_ActualGoldMaster"] = 3, ---@type Enum
-    ["CP77_AlmostPatchDay0"] = 4, ---@type Enum
-    ["CP77_PatchDay0"] = 5, ---@type Enum
-    ["CP77_PatchDay0_Hotfix1"] = 6, ---@type Enum
-    ["CP77_PatchDay0_Hotfix2"] = 7, ---@type Enum
-    ["CP77_PatchDay0_Hotfix2_V2"] = 8, ---@type Enum
-    ["CP77_PatchDay0_Hotfix3"] = 9, ---@type Enum
-    ["CP77_PatchDay0_ChristmasHotfix"] = 10, ---@type Enum
-    ["CP77_PatchDay0_Hotfix4_Internal"] = 11, ---@type Enum
-    ["CP77_Patch_1_Internal"] = 12, ---@type Enum
-    ["CP77_Patch_1_1"] = 1100, ---@type Enum
-    ["CP77_Patch_1_1_Hotfix1"] = 1110, ---@type Enum
-    ["CP77_Patch_1_1_Hotfix2"] = 1120, ---@type Enum
-    ["CP77_Patch_1_2"] = 1200, ---@type Enum
-    ["CP77_Patch_1_2_Hotfix1"] = 1210, ---@type Enum
-    ["CP77_Patch_1_2_Hotfix2"] = 1220, ---@type Enum
-    ["CP77_Patch_1_2_Hotfix3"] = 1230, ---@type Enum
-    ["CP77_Patch_1_2_Hotfix4_dlc1"] = 1240, ---@type Enum
-    ["CP77_Patch_1_3"] = 1300, ---@type Enum
-    ["CP77_Patch_1_3_Hotfix1"] = 1301, ---@type Enum
-    ["CP77_Patch_1_3_Development"] = 1399, ---@type Enum
-    ["CP77_Patch_1_4"] = 1310, ---@type Enum
-    ["CP77_Patch_1_5"] = 1500, ---@type Enum
-    ["CP77_Patch_1_5_Hotfix1"] = 1510, ---@type Enum
-    ["CP77_Patch_1_5_Actual_Hotfix1"] = 1520, ---@type Enum
-    ["CP77_Patch_1_5_Development"] = 1599, ---@type Enum
-    ["CP77_Patch_1_6"] = 1600, ---@type Enum
-    ["CP77_Patch_1_6_Hotfix1"] = 1610, ---@type Enum
-    ["CP77_Patch_1_6_Hotfix2"] = 1620, ---@type Enum
-    ["CP77_Patch_1_6_Hotfix3"] = 1630, ---@type Enum
-    ["CP77_Patch_2_0"] = 2000, ---@type Enum
-    ["CP77_Patch_2_0_Hotfix1"] = 2010, ---@type Enum
-    ["CP77_Patch_2_0_Hotfix2"] = 2020, ---@type Enum
-    ["CP77_Patch_2_1"] = 2100, ---@type Enum
-    ["Current"] = 2100, ---@type Enum
-}
+---@class gameGameVersion: Enum
+---@field ["CP77_Initial"] gameGameVersion 0
+---@field ["CP77_Development"] gameGameVersion 1
+---@field ["CP77_GoldMaster"] gameGameVersion 2
+---@field ["CP77_ActualGoldMaster"] gameGameVersion 3
+---@field ["CP77_AlmostPatchDay0"] gameGameVersion 4
+---@field ["CP77_PatchDay0"] gameGameVersion 5
+---@field ["CP77_PatchDay0_Hotfix1"] gameGameVersion 6
+---@field ["CP77_PatchDay0_Hotfix2"] gameGameVersion 7
+---@field ["CP77_PatchDay0_Hotfix2_V2"] gameGameVersion 8
+---@field ["CP77_PatchDay0_Hotfix3"] gameGameVersion 9
+---@field ["CP77_PatchDay0_ChristmasHotfix"] gameGameVersion 10
+---@field ["CP77_PatchDay0_Hotfix4_Internal"] gameGameVersion 11
+---@field ["CP77_Patch_1_Internal"] gameGameVersion 12
+---@field ["CP77_Patch_1_1"] gameGameVersion 1100
+---@field ["CP77_Patch_1_1_Hotfix1"] gameGameVersion 1110
+---@field ["CP77_Patch_1_1_Hotfix2"] gameGameVersion 1120
+---@field ["CP77_Patch_1_2"] gameGameVersion 1200
+---@field ["CP77_Patch_1_2_Hotfix1"] gameGameVersion 1210
+---@field ["CP77_Patch_1_2_Hotfix2"] gameGameVersion 1220
+---@field ["CP77_Patch_1_2_Hotfix3"] gameGameVersion 1230
+---@field ["CP77_Patch_1_2_Hotfix4_dlc1"] gameGameVersion 1240
+---@field ["CP77_Patch_1_3"] gameGameVersion 1300
+---@field ["CP77_Patch_1_3_Hotfix1"] gameGameVersion 1301
+---@field ["CP77_Patch_1_3_Development"] gameGameVersion 1399
+---@field ["CP77_Patch_1_4"] gameGameVersion 1310
+---@field ["CP77_Patch_1_5"] gameGameVersion 1500
+---@field ["CP77_Patch_1_5_Hotfix1"] gameGameVersion 1510
+---@field ["CP77_Patch_1_5_Actual_Hotfix1"] gameGameVersion 1520
+---@field ["CP77_Patch_1_5_Development"] gameGameVersion 1599
+---@field ["CP77_Patch_1_6"] gameGameVersion 1600
+---@field ["CP77_Patch_1_6_Hotfix1"] gameGameVersion 1610
+---@field ["CP77_Patch_1_6_Hotfix2"] gameGameVersion 1620
+---@field ["CP77_Patch_1_6_Hotfix3"] gameGameVersion 1630
+---@field ["CP77_Patch_2_0"] gameGameVersion 2000
+---@field ["CP77_Patch_2_0_Hotfix1"] gameGameVersion 2010
+---@field ["CP77_Patch_2_0_Hotfix2"] gameGameVersion 2020
+---@field ["CP77_Patch_2_1"] gameGameVersion 2100
+---@field ["Current"] gameGameVersion 2100
+gameGameVersion = {}

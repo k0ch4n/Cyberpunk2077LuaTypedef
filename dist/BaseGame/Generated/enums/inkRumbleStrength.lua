@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkRumbleStrength
-inkRumbleStrength = {
-    ["SuperLight"] = 0, ---@type Enum
-    ["Light"] = 1, ---@type Enum
-    ["Medium"] = 2, ---@type Enum
-    ["Heavy"] = 3, ---@type Enum
-}
+---@class inkRumbleStrength: Enum
+---@field ["SuperLight"] inkRumbleStrength 0
+---@field ["Light"] inkRumbleStrength 1
+---@field ["Medium"] inkRumbleStrength 2
+---@field ["Heavy"] inkRumbleStrength 3
+inkRumbleStrength = {}

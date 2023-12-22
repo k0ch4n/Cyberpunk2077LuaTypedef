@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Codeware_Localization_PlayerGender
-Codeware_Localization_PlayerGender = {
-    ["Female"] = 0, ---@type Enum
-    ["Male"] = 1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-}
+---@class Codeware_Localization_PlayerGender: Enum
+---@field ["Female"] Codeware_Localization_PlayerGender 0
+---@field ["Male"] Codeware_Localization_PlayerGender 1
+---@field ["Default"] Codeware_Localization_PlayerGender 0
+Codeware_Localization_PlayerGender = {}

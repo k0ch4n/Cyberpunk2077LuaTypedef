@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EWidgetPlacementType
-EWidgetPlacementType = {
-    ["DOCKED"] = 0, ---@type Enum
-    ["FLOATING"] = 1, ---@type Enum
-}
+---@class EWidgetPlacementType: Enum
+---@field ["DOCKED"] EWidgetPlacementType 0
+---@field ["FLOATING"] EWidgetPlacementType 1
+EWidgetPlacementType = {}

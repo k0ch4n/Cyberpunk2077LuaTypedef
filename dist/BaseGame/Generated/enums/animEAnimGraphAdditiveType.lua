@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEAnimGraphAdditiveType
-animEAnimGraphAdditiveType = {
-    ["AGAT_Local"] = 0, ---@type Enum
-    ["AGAT_Ref"] = 1, ---@type Enum
-}
+---@class animEAnimGraphAdditiveType: Enum
+---@field ["AGAT_Local"] animEAnimGraphAdditiveType 0
+---@field ["AGAT_Ref"] animEAnimGraphAdditiveType 1
+animEAnimGraphAdditiveType = {}

@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnDialogLineType
-scnDialogLineType = {
-    ["None"] = 0, ---@type Enum
-    ["Regular"] = 1, ---@type Enum
-    ["Holocall"] = 2, ---@type Enum
-    ["SceneComment"] = 3, ---@type Enum
-    ["OverHead"] = 4, ---@type Enum
-    ["Radio"] = 5, ---@type Enum
-    ["GlobalTV"] = 6, ---@type Enum
-    ["Invisible"] = 7, ---@type Enum
-    ["OverHeadAlwaysVisible"] = 9, ---@type Enum
-    ["OwnerlessRegular"] = 10, ---@type Enum
-    ["AlwaysCinematicNoSpeaker"] = 11, ---@type Enum
-    ["GlobalTVAlwaysVisible"] = 12, ---@type Enum
-    ["Narrator"] = 13, ---@type Enum
-}
+---@class scnDialogLineType: Enum
+---@field ["None"] scnDialogLineType 0
+---@field ["Regular"] scnDialogLineType 1
+---@field ["Holocall"] scnDialogLineType 2
+---@field ["SceneComment"] scnDialogLineType 3
+---@field ["OverHead"] scnDialogLineType 4
+---@field ["Radio"] scnDialogLineType 5
+---@field ["GlobalTV"] scnDialogLineType 6
+---@field ["Invisible"] scnDialogLineType 7
+---@field ["OverHeadAlwaysVisible"] scnDialogLineType 9
+---@field ["OwnerlessRegular"] scnDialogLineType 10
+---@field ["AlwaysCinematicNoSpeaker"] scnDialogLineType 11
+---@field ["GlobalTVAlwaysVisible"] scnDialogLineType 12
+---@field ["Narrator"] scnDialogLineType 13
+scnDialogLineType = {}

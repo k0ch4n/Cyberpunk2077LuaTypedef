@@ -1,29 +1,28 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFeatureFlag
-EFeatureFlag = {
-    ["FEATFLAG_Default"] = 0, ---@type Enum
-    ["FEATFLAG_Shadows"] = 1, ---@type Enum
-    ["FEATFLAG_HitProxies"] = 2, ---@type Enum
-    ["FEATFLAG_Selection"] = 3, ---@type Enum
-    ["FEATFLAG_Wireframe"] = 4, ---@type Enum
-    ["FEATFLAG_Overdraw"] = 10, ---@type Enum
-    ["FEATFLAG_VelocityBuffer"] = 5, ---@type Enum
-    ["FEATFLAG_DebugDraw_BlendOff"] = 6, ---@type Enum
-    ["FEATFLAG_DebugDraw_BlendOn"] = 7, ---@type Enum
-    ["FEATFLAG_DynamicDecals"] = 8, ---@type Enum
-    ["FEATFLAG_Highlights"] = 9, ---@type Enum
-    ["FEATFLAG_IndirectInstancedGrass"] = 11, ---@type Enum
-    ["FEATFLAG_DecalsOnStaticObjects"] = 12, ---@type Enum
-    ["FEATFLAG_DecalsOnDynamicObjects"] = 13, ---@type Enum
-    ["FEATFLAG_MaskParticlesInsideCar"] = 14, ---@type Enum
-    ["FEATFLAG_MaskParticlesInsideInterior"] = 15, ---@type Enum
-    ["FEATFLAG_MaskTXAA"] = 16, ---@type Enum
-    ["FEATFLAG_DistantShadows"] = 17, ---@type Enum
-    ["FEATFLAG_FloatTracks"] = 18, ---@type Enum
-    ["FEATFLAG_Rain"] = 19, ---@type Enum
-    ["FEATFLAG_NumLights"] = 20, ---@type Enum
-    ["FEATFLAG_DepthPrepass"] = 21, ---@type Enum
-    ["FEATFLAG_DecalsOnAllObjects"] = 22, ---@type Enum
-}
+---@class EFeatureFlag: Enum
+---@field ["FEATFLAG_Default"] EFeatureFlag 0
+---@field ["FEATFLAG_Shadows"] EFeatureFlag 1
+---@field ["FEATFLAG_HitProxies"] EFeatureFlag 2
+---@field ["FEATFLAG_Selection"] EFeatureFlag 3
+---@field ["FEATFLAG_Wireframe"] EFeatureFlag 4
+---@field ["FEATFLAG_Overdraw"] EFeatureFlag 10
+---@field ["FEATFLAG_VelocityBuffer"] EFeatureFlag 5
+---@field ["FEATFLAG_DebugDraw_BlendOff"] EFeatureFlag 6
+---@field ["FEATFLAG_DebugDraw_BlendOn"] EFeatureFlag 7
+---@field ["FEATFLAG_DynamicDecals"] EFeatureFlag 8
+---@field ["FEATFLAG_Highlights"] EFeatureFlag 9
+---@field ["FEATFLAG_IndirectInstancedGrass"] EFeatureFlag 11
+---@field ["FEATFLAG_DecalsOnStaticObjects"] EFeatureFlag 12
+---@field ["FEATFLAG_DecalsOnDynamicObjects"] EFeatureFlag 13
+---@field ["FEATFLAG_MaskParticlesInsideCar"] EFeatureFlag 14
+---@field ["FEATFLAG_MaskParticlesInsideInterior"] EFeatureFlag 15
+---@field ["FEATFLAG_MaskTXAA"] EFeatureFlag 16
+---@field ["FEATFLAG_DistantShadows"] EFeatureFlag 17
+---@field ["FEATFLAG_FloatTracks"] EFeatureFlag 18
+---@field ["FEATFLAG_Rain"] EFeatureFlag 19
+---@field ["FEATFLAG_NumLights"] EFeatureFlag 20
+---@field ["FEATFLAG_DepthPrepass"] EFeatureFlag 21
+---@field ["FEATFLAG_DecalsOnAllObjects"] EFeatureFlag 22
+EFeatureFlag = {}

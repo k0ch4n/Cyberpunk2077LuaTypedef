@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERenderDynamicDecalProjection
-ERenderDynamicDecalProjection = {
-    ["RDDP_Ortho"] = 0, ---@type Enum
-    ["RDDP_Sphere"] = 1, ---@type Enum
-}
+---@class ERenderDynamicDecalProjection: Enum
+---@field ["RDDP_Ortho"] ERenderDynamicDecalProjection 0
+---@field ["RDDP_Sphere"] ERenderDynamicDecalProjection 1
+ERenderDynamicDecalProjection = {}

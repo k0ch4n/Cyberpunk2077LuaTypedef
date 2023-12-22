@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedeviceRequestType
-gamedeviceRequestType = {
-    ["None"] = 0, ---@type Enum
-    ["External"] = 1, ---@type Enum
-    ["Remote"] = 2, ---@type Enum
-    ["Direct"] = 3, ---@type Enum
-    ["Internal"] = 4, ---@type Enum
-}
+---@class gamedeviceRequestType: Enum
+---@field ["None"] gamedeviceRequestType 0
+---@field ["External"] gamedeviceRequestType 1
+---@field ["Remote"] gamedeviceRequestType 2
+---@field ["Direct"] gamedeviceRequestType 3
+---@field ["Internal"] gamedeviceRequestType 4
+gamedeviceRequestType = {}

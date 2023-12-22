@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleDisabledReason
-vehicleDisabledReason = {
-    ["FrontTire"] = 0, ---@type Enum
-    ["RearTire"] = 1, ---@type Enum
-    ["Other"] = 2, ---@type Enum
-}
+---@class vehicleDisabledReason: Enum
+---@field ["FrontTire"] vehicleDisabledReason 0
+---@field ["RearTire"] vehicleDisabledReason 1
+---@field ["Other"] vehicleDisabledReason 2
+vehicleDisabledReason = {}

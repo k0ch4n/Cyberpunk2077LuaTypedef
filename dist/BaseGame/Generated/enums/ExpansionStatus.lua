@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ExpansionStatus
-ExpansionStatus = {
-    ["NotAvailable"] = 0, ---@type Enum
-    ["Available"] = 1, ---@type Enum
-    ["Owned"] = 2, ---@type Enum
-    ["Downloaded"] = 3, ---@type Enum
-    ["Downloading"] = 4, ---@type Enum
-    ["DownloadError"] = 5, ---@type Enum
-    ["Reloading"] = 6, ---@type Enum
-    ["Processing"] = 7, ---@type Enum
-    ["PreOrder"] = 8, ---@type Enum
-    ["PreOrderOwned"] = 9, ---@type Enum
-}
+---@class ExpansionStatus: Enum
+---@field ["NotAvailable"] ExpansionStatus 0
+---@field ["Available"] ExpansionStatus 1
+---@field ["Owned"] ExpansionStatus 2
+---@field ["Downloaded"] ExpansionStatus 3
+---@field ["Downloading"] ExpansionStatus 4
+---@field ["DownloadError"] ExpansionStatus 5
+---@field ["Reloading"] ExpansionStatus 6
+---@field ["Processing"] ExpansionStatus 7
+---@field ["PreOrder"] ExpansionStatus 8
+---@field ["PreOrderOwned"] ExpansionStatus 9
+ExpansionStatus = {}

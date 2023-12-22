@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HubMenuCraftingItems
-HubMenuCraftingItems = {
-    ["Crafting"] = 0, ---@type Enum
-    ["Upgrade"] = 1, ---@type Enum
-}
+---@class HubMenuCraftingItems: Enum
+---@field ["Crafting"] HubMenuCraftingItems 0
+---@field ["Upgrade"] HubMenuCraftingItems 1
+HubMenuCraftingItems = {}

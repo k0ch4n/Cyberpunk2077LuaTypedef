@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataPlayerPossesion
-gamedataPlayerPossesion = {
-    ["Default"] = 0, ---@type Enum
-    ["Johnny"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataPlayerPossesion: Enum
+---@field ["Default"] gamedataPlayerPossesion 0
+---@field ["Johnny"] gamedataPlayerPossesion 1
+---@field ["Count"] gamedataPlayerPossesion 2
+---@field ["Invalid"] gamedataPlayerPossesion 3
+gamedataPlayerPossesion = {}

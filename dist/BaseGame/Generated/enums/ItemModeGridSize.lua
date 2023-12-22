@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ItemModeGridSize
-ItemModeGridSize = {
-    ["Default"] = 0, ---@type Enum
-    ["Outfit"] = 1, ---@type Enum
-}
+---@class ItemModeGridSize: Enum
+---@field ["Default"] ItemModeGridSize 0
+---@field ["Outfit"] ItemModeGridSize 1
+ItemModeGridSize = {}

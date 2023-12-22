@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDrillMachineRewireState
-EDrillMachineRewireState = {
-    ["InsideInteractionRange"] = 0, ---@type Enum
-    ["OutsideInteractionRange"] = 1, ---@type Enum
-    ["InteractionStarted"] = 2, ---@type Enum
-    ["InteractionFinished"] = 3, ---@type Enum
-    ["RewireStarted"] = 4, ---@type Enum
-    ["RewireFinished"] = 5, ---@type Enum
-}
+---@class EDrillMachineRewireState: Enum
+---@field ["InsideInteractionRange"] EDrillMachineRewireState 0
+---@field ["OutsideInteractionRange"] EDrillMachineRewireState 1
+---@field ["InteractionStarted"] EDrillMachineRewireState 2
+---@field ["InteractionFinished"] EDrillMachineRewireState 3
+---@field ["RewireStarted"] EDrillMachineRewireState 4
+---@field ["RewireFinished"] EDrillMachineRewireState 5
+EDrillMachineRewireState = {}

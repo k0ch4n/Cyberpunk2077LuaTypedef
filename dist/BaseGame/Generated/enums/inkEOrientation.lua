@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEOrientation
-inkEOrientation = {
-    ["Horizontal"] = 0, ---@type Enum
-    ["Vertical"] = 1, ---@type Enum
-}
+---@class inkEOrientation: Enum
+---@field ["Horizontal"] inkEOrientation 0
+---@field ["Vertical"] inkEOrientation 1
+inkEOrientation = {}

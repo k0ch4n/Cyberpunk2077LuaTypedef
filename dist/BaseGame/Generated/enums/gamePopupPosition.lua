@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePopupPosition
-gamePopupPosition = {
-    ["Undefined"] = 0, ---@type Enum
-    ["UpperRight"] = 1, ---@type Enum
-    ["UpperLeft"] = 2, ---@type Enum
-    ["LowerLeft"] = 3, ---@type Enum
-    ["LowerRight"] = 4, ---@type Enum
-    ["Center"] = 5, ---@type Enum
-}
+---@class gamePopupPosition: Enum
+---@field ["Undefined"] gamePopupPosition 0
+---@field ["UpperRight"] gamePopupPosition 1
+---@field ["UpperLeft"] gamePopupPosition 2
+---@field ["LowerLeft"] gamePopupPosition 3
+---@field ["LowerRight"] gamePopupPosition 4
+---@field ["Center"] gamePopupPosition 5
+gamePopupPosition = {}

@@ -1,55 +1,54 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStatPoolType
-gamedataStatPoolType = {
-    ["AccumulatedDoT"] = 0, ---@type Enum
-    ["Adrenaline"] = 1, ---@type Enum
-    ["Aggressiveness"] = 2, ---@type Enum
-    ["Armor"] = 3, ---@type Enum
-    ["BerserkCharge"] = 4, ---@type Enum
-    ["BleedingTrigger"] = 5, ---@type Enum
-    ["BurningTrigger"] = 6, ---@type Enum
-    ["CPUPower"] = 7, ---@type Enum
-    ["CWMaskCharges"] = 8, ---@type Enum
-    ["CallReinforcementProgress"] = 9, ---@type Enum
-    ["CyberdeckOverclock"] = 10, ---@type Enum
-    ["Durability"] = 11, ---@type Enum
-    ["E3_BossWeakSpotHealth"] = 12, ---@type Enum
-    ["ElectrocutedTrigger"] = 13, ---@type Enum
-    ["Fear"] = 14, ---@type Enum
-    ["GrenadesCharges"] = 15, ---@type Enum
-    ["HealingItemsCharges"] = 16, ---@type Enum
-    ["Health"] = 17, ---@type Enum
-    ["HitShapeArmor"] = 18, ---@type Enum
-    ["JenkinsHelper"] = 19, ---@type Enum
-    ["LeftArmHealth"] = 20, ---@type Enum
-    ["LeftLegHealth"] = 21, ---@type Enum
-    ["Memory"] = 22, ---@type Enum
-    ["OpticalCamoCharges"] = 23, ---@type Enum
-    ["Overshield"] = 24, ---@type Enum
-    ["Oxygen"] = 25, ---@type Enum
-    ["PhoneCallDuration"] = 26, ---@type Enum
-    ["Poise"] = 27, ---@type Enum
-    ["PoisonTrigger"] = 28, ---@type Enum
-    ["ProjectileLauncherCharges"] = 29, ---@type Enum
-    ["QuickHackDuration"] = 30, ---@type Enum
-    ["QuickHackUpload"] = 31, ---@type Enum
-    ["ReprimandEscalation"] = 32, ---@type Enum
-    ["RightLegHealth"] = 33, ---@type Enum
-    ["SandevistanCharge"] = 34, ---@type Enum
-    ["Stamina"] = 35, ---@type Enum
-    ["StunTrigger"] = 36, ---@type Enum
-    ["ThrowRecovery"] = 37, ---@type Enum
-    ["TimeBank"] = 38, ---@type Enum
-    ["UnlockProgress"] = 39, ---@type Enum
-    ["VehicleMissileLauncherCharges"] = 40, ---@type Enum
-    ["WeakspotHealth"] = 41, ---@type Enum
-    ["WeaponCharge"] = 42, ---@type Enum
-    ["WeaponOverheat"] = 43, ---@type Enum
-    ["CPOShockedTrigger"] = 44, ---@type Enum
-    ["CPO_Armor"] = 45, ---@type Enum
-    ["CPO_NPC_Importance"] = 46, ---@type Enum
-    ["Count"] = 47, ---@type Enum
-    ["Invalid"] = 48, ---@type Enum
-}
+---@class gamedataStatPoolType: Enum
+---@field ["AccumulatedDoT"] gamedataStatPoolType 0
+---@field ["Adrenaline"] gamedataStatPoolType 1
+---@field ["Aggressiveness"] gamedataStatPoolType 2
+---@field ["Armor"] gamedataStatPoolType 3
+---@field ["BerserkCharge"] gamedataStatPoolType 4
+---@field ["BleedingTrigger"] gamedataStatPoolType 5
+---@field ["BurningTrigger"] gamedataStatPoolType 6
+---@field ["CPUPower"] gamedataStatPoolType 7
+---@field ["CWMaskCharges"] gamedataStatPoolType 8
+---@field ["CallReinforcementProgress"] gamedataStatPoolType 9
+---@field ["CyberdeckOverclock"] gamedataStatPoolType 10
+---@field ["Durability"] gamedataStatPoolType 11
+---@field ["E3_BossWeakSpotHealth"] gamedataStatPoolType 12
+---@field ["ElectrocutedTrigger"] gamedataStatPoolType 13
+---@field ["Fear"] gamedataStatPoolType 14
+---@field ["GrenadesCharges"] gamedataStatPoolType 15
+---@field ["HealingItemsCharges"] gamedataStatPoolType 16
+---@field ["Health"] gamedataStatPoolType 17
+---@field ["HitShapeArmor"] gamedataStatPoolType 18
+---@field ["JenkinsHelper"] gamedataStatPoolType 19
+---@field ["LeftArmHealth"] gamedataStatPoolType 20
+---@field ["LeftLegHealth"] gamedataStatPoolType 21
+---@field ["Memory"] gamedataStatPoolType 22
+---@field ["OpticalCamoCharges"] gamedataStatPoolType 23
+---@field ["Overshield"] gamedataStatPoolType 24
+---@field ["Oxygen"] gamedataStatPoolType 25
+---@field ["PhoneCallDuration"] gamedataStatPoolType 26
+---@field ["Poise"] gamedataStatPoolType 27
+---@field ["PoisonTrigger"] gamedataStatPoolType 28
+---@field ["ProjectileLauncherCharges"] gamedataStatPoolType 29
+---@field ["QuickHackDuration"] gamedataStatPoolType 30
+---@field ["QuickHackUpload"] gamedataStatPoolType 31
+---@field ["ReprimandEscalation"] gamedataStatPoolType 32
+---@field ["RightLegHealth"] gamedataStatPoolType 33
+---@field ["SandevistanCharge"] gamedataStatPoolType 34
+---@field ["Stamina"] gamedataStatPoolType 35
+---@field ["StunTrigger"] gamedataStatPoolType 36
+---@field ["ThrowRecovery"] gamedataStatPoolType 37
+---@field ["TimeBank"] gamedataStatPoolType 38
+---@field ["UnlockProgress"] gamedataStatPoolType 39
+---@field ["VehicleMissileLauncherCharges"] gamedataStatPoolType 40
+---@field ["WeakspotHealth"] gamedataStatPoolType 41
+---@field ["WeaponCharge"] gamedataStatPoolType 42
+---@field ["WeaponOverheat"] gamedataStatPoolType 43
+---@field ["CPOShockedTrigger"] gamedataStatPoolType 44
+---@field ["CPO_Armor"] gamedataStatPoolType 45
+---@field ["CPO_NPC_Importance"] gamedataStatPoolType 46
+---@field ["Count"] gamedataStatPoolType 47
+---@field ["Invalid"] gamedataStatPoolType 48
+gamedataStatPoolType = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESecurityAreaType
-ESecurityAreaType = {
-    ["DISABLED"] = 0, ---@type Enum
-    ["SAFE"] = 1, ---@type Enum
-    ["RESTRICTED"] = 2, ---@type Enum
-    ["DANGEROUS"] = 3, ---@type Enum
-}
+---@class ESecurityAreaType: Enum
+---@field ["DISABLED"] ESecurityAreaType 0
+---@field ["SAFE"] ESecurityAreaType 1
+---@field ["RESTRICTED"] ESecurityAreaType 2
+---@field ["DANGEROUS"] ESecurityAreaType 3
+ESecurityAreaType = {}

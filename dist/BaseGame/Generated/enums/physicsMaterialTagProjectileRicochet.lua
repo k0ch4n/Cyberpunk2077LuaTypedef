@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsMaterialTagProjectileRicochet
-physicsMaterialTagProjectileRicochet = {
-    ["Default"] = 0, ---@type Enum
-    ["Always"] = 1, ---@type Enum
-}
+---@class physicsMaterialTagProjectileRicochet: Enum
+---@field ["Default"] physicsMaterialTagProjectileRicochet 0
+---@field ["Always"] physicsMaterialTagProjectileRicochet 1
+physicsMaterialTagProjectileRicochet = {}

@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum renderDevSurfelView
-renderDevSurfelView = {
-    ["ALBEDO"] = 0, ---@type Enum
-    ["NORMAL"] = 1, ---@type Enum
-    ["SHADOWS"] = 2, ---@type Enum
-    ["CLOSEST_PROBE"] = 3, ---@type Enum
-    ["EMISSIVE"] = 4, ---@type Enum
-    ["LIGHTING"] = 5, ---@type Enum
-    ["BOUNCE"] = 6, ---@type Enum
-    ["INSIDE"] = 7, ---@type Enum
-    ["SHADOW"] = 8, ---@type Enum
-}
+---@class renderDevSurfelView: Enum
+---@field ["ALBEDO"] renderDevSurfelView 0
+---@field ["NORMAL"] renderDevSurfelView 1
+---@field ["SHADOWS"] renderDevSurfelView 2
+---@field ["CLOSEST_PROBE"] renderDevSurfelView 3
+---@field ["EMISSIVE"] renderDevSurfelView 4
+---@field ["LIGHTING"] renderDevSurfelView 5
+---@field ["BOUNCE"] renderDevSurfelView 6
+---@field ["INSIDE"] renderDevSurfelView 7
+---@field ["SHADOW"] renderDevSurfelView 8
+renderDevSurfelView = {}

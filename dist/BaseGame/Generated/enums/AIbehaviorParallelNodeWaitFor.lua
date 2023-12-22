@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorParallelNodeWaitFor
-AIbehaviorParallelNodeWaitFor = {
-    ["LeftChild"] = 0, ---@type Enum
-    ["RightChild"] = 1, ---@type Enum
-    ["AllChildren"] = 2, ---@type Enum
-    ["BothChildren"] = 2, ---@type Enum
-    ["AnyChild"] = 3, ---@type Enum
-}
+---@class AIbehaviorParallelNodeWaitFor: Enum
+---@field ["LeftChild"] AIbehaviorParallelNodeWaitFor 0
+---@field ["RightChild"] AIbehaviorParallelNodeWaitFor 1
+---@field ["AllChildren"] AIbehaviorParallelNodeWaitFor 2
+---@field ["BothChildren"] AIbehaviorParallelNodeWaitFor 2
+---@field ["AnyChild"] AIbehaviorParallelNodeWaitFor 3
+AIbehaviorParallelNodeWaitFor = {}

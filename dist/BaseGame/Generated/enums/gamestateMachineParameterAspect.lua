@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamestateMachineParameterAspect
-gamestateMachineParameterAspect = {
-    ["Temporary"] = 0, ---@type Enum
-    ["Permanent"] = 1, ---@type Enum
-    ["Conditional"] = 2, ---@type Enum
-}
+---@class gamestateMachineParameterAspect: Enum
+---@field ["Temporary"] gamestateMachineParameterAspect 0
+---@field ["Permanent"] gamestateMachineParameterAspect 1
+---@field ["Conditional"] gamestateMachineParameterAspect 2
+gamestateMachineParameterAspect = {}

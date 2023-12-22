@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeTankEnemyMovementType
-gameuiarcadeTankEnemyMovementType = {
-    ["x_axis"] = 0, ---@type Enum
-    ["x_axisL"] = 1, ---@type Enum
-    ["x_axisR"] = 2, ---@type Enum
-    ["y_axis"] = 3, ---@type Enum
-}
+---@class gameuiarcadeTankEnemyMovementType: Enum
+---@field ["x_axis"] gameuiarcadeTankEnemyMovementType 0
+---@field ["x_axisL"] gameuiarcadeTankEnemyMovementType 1
+---@field ["x_axisR"] gameuiarcadeTankEnemyMovementType 2
+---@field ["y_axis"] gameuiarcadeTankEnemyMovementType 3
+gameuiarcadeTankEnemyMovementType = {}

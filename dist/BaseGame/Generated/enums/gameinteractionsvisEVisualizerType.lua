@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsvisEVisualizerType
-gameinteractionsvisEVisualizerType = {
-    ["Device"] = 0, ---@type Enum
-    ["Dialog"] = 1, ---@type Enum
-    ["Loot"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gameinteractionsvisEVisualizerType: Enum
+---@field ["Device"] gameinteractionsvisEVisualizerType 0
+---@field ["Dialog"] gameinteractionsvisEVisualizerType 1
+---@field ["Loot"] gameinteractionsvisEVisualizerType 2
+---@field ["Invalid"] gameinteractionsvisEVisualizerType 3
+gameinteractionsvisEVisualizerType = {}

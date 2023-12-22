@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESenseLogSource
-ESenseLogSource = {
-    ["Undefined"] = 0, ---@type Enum
-    ["AddToBlacklistEvent"] = 1, ---@type Enum
-    ["RemoveFromBlacklistEvent"] = 2, ---@type Enum
-    ["SecurityAreaCrossingPerimeter"] = 3, ---@type Enum
-}
+---@class ESenseLogSource: Enum
+---@field ["Undefined"] ESenseLogSource 0
+---@field ["AddToBlacklistEvent"] ESenseLogSource 1
+---@field ["RemoveFromBlacklistEvent"] ESenseLogSource 2
+---@field ["SecurityAreaCrossingPerimeter"] ESenseLogSource 3
+ESenseLogSource = {}

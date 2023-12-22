@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEAnimGraphLogicOp
-animEAnimGraphLogicOp = {
-    ["AGLO_Or"] = 0, ---@type Enum
-    ["AGLO_And"] = 1, ---@type Enum
-}
+---@class animEAnimGraphLogicOp: Enum
+---@field ["AGLO_Or"] animEAnimGraphLogicOp 0
+---@field ["AGLO_And"] animEAnimGraphLogicOp 1
+animEAnimGraphLogicOp = {}

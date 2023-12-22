@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAIRingType
-gamedataAIRingType = {
-    ["Approach"] = 0, ---@type Enum
-    ["Close"] = 1, ---@type Enum
-    ["Default"] = 2, ---@type Enum
-    ["Defend"] = 3, ---@type Enum
-    ["Extreme"] = 4, ---@type Enum
-    ["Far"] = 5, ---@type Enum
-    ["LatestActive"] = 6, ---@type Enum
-    ["Medium"] = 7, ---@type Enum
-    ["Melee"] = 8, ---@type Enum
-    ["Support"] = 9, ---@type Enum
-    ["Undefined"] = 10, ---@type Enum
-    ["Count"] = 11, ---@type Enum
-    ["Invalid"] = 12, ---@type Enum
-}
+---@class gamedataAIRingType: Enum
+---@field ["Approach"] gamedataAIRingType 0
+---@field ["Close"] gamedataAIRingType 1
+---@field ["Default"] gamedataAIRingType 2
+---@field ["Defend"] gamedataAIRingType 3
+---@field ["Extreme"] gamedataAIRingType 4
+---@field ["Far"] gamedataAIRingType 5
+---@field ["LatestActive"] gamedataAIRingType 6
+---@field ["Medium"] gamedataAIRingType 7
+---@field ["Melee"] gamedataAIRingType 8
+---@field ["Support"] gamedataAIRingType 9
+---@field ["Undefined"] gamedataAIRingType 10
+---@field ["Count"] gamedataAIRingType 11
+---@field ["Invalid"] gamedataAIRingType 12
+gamedataAIRingType = {}

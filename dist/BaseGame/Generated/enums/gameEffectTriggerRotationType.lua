@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectTriggerRotationType
-gameEffectTriggerRotationType = {
-    ["None"] = 0, ---@type Enum
-    ["AtSpawn"] = 1, ---@type Enum
-    ["Continuous"] = 2, ---@type Enum
-}
+---@class gameEffectTriggerRotationType: Enum
+---@field ["None"] gameEffectTriggerRotationType 0
+---@field ["AtSpawn"] gameEffectTriggerRotationType 1
+---@field ["Continuous"] gameEffectTriggerRotationType 2
+gameEffectTriggerRotationType = {}

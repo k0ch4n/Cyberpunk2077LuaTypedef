@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataNPCRarity
-gamedataNPCRarity = {
-    ["Boss"] = 0, ---@type Enum
-    ["Elite"] = 1, ---@type Enum
-    ["MaxTac"] = 2, ---@type Enum
-    ["Normal"] = 3, ---@type Enum
-    ["Officer"] = 4, ---@type Enum
-    ["Rare"] = 5, ---@type Enum
-    ["Trash"] = 6, ---@type Enum
-    ["Weak"] = 7, ---@type Enum
-    ["Count"] = 8, ---@type Enum
-    ["Invalid"] = 9, ---@type Enum
-}
+---@class gamedataNPCRarity: Enum
+---@field ["Boss"] gamedataNPCRarity 0
+---@field ["Elite"] gamedataNPCRarity 1
+---@field ["MaxTac"] gamedataNPCRarity 2
+---@field ["Normal"] gamedataNPCRarity 3
+---@field ["Officer"] gamedataNPCRarity 4
+---@field ["Rare"] gamedataNPCRarity 5
+---@field ["Trash"] gamedataNPCRarity 6
+---@field ["Weak"] gamedataNPCRarity 7
+---@field ["Count"] gamedataNPCRarity 8
+---@field ["Invalid"] gamedataNPCRarity 9
+gamedataNPCRarity = {}

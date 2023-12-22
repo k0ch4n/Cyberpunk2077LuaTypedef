@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIParameterizationType
-AIParameterizationType = {
-    ["BehaviorArgument"] = 0, ---@type Enum
-    ["CustomValue"] = 1, ---@type Enum
-    ["CharacterRecord"] = 2, ---@type Enum
-    ["TweakDB"] = 3, ---@type Enum
-    ["ActionRecord"] = 4, ---@type Enum
-    ["Blackboard"] = 5, ---@type Enum
-    ["Delegate"] = 6, ---@type Enum
-}
+---@class AIParameterizationType: Enum
+---@field ["BehaviorArgument"] AIParameterizationType 0
+---@field ["CustomValue"] AIParameterizationType 1
+---@field ["CharacterRecord"] AIParameterizationType 2
+---@field ["TweakDB"] AIParameterizationType 3
+---@field ["ActionRecord"] AIParameterizationType 4
+---@field ["Blackboard"] AIParameterizationType 5
+---@field ["Delegate"] AIParameterizationType 6
+AIParameterizationType = {}

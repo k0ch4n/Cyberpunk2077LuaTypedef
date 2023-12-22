@@ -1,29 +1,28 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWorldMapFilter
-gamedataWorldMapFilter = {
-    ["ApartmentToPurchaseFilter"] = 0, ---@type Enum
-    ["AutofixerFilter"] = 1, ---@type Enum
-    ["CommonFilter"] = 2, ---@type Enum
-    ["Courier"] = 3, ---@type Enum
-    ["CustomFilter"] = 4, ---@type Enum
-    ["DogtownGateFilter"] = 5, ---@type Enum
-    ["DropPoint"] = 6, ---@type Enum
-    ["ExplorationFilter"] = 7, ---@type Enum
-    ["FastTravel"] = 8, ---@type Enum
-    ["Gigs"] = 9, ---@type Enum
-    ["NoFilter"] = 10, ---@type Enum
-    ["Outpost"] = 11, ---@type Enum
-    ["PsychoFilter"] = 12, ---@type Enum
-    ["Quest"] = 13, ---@type Enum
-    ["RelicDeviceFilter"] = 14, ---@type Enum
-    ["RipperdocFilter"] = 15, ---@type Enum
-    ["ServicePoint"] = 16, ---@type Enum
-    ["Story"] = 17, ---@type Enum
-    ["TarotFilter"] = 18, ---@type Enum
-    ["VehicleForSaleFilter"] = 19, ---@type Enum
-    ["VendorFilter"] = 20, ---@type Enum
-    ["Count"] = 21, ---@type Enum
-    ["Invalid"] = 22, ---@type Enum
-}
+---@class gamedataWorldMapFilter: Enum
+---@field ["ApartmentToPurchaseFilter"] gamedataWorldMapFilter 0
+---@field ["AutofixerFilter"] gamedataWorldMapFilter 1
+---@field ["CommonFilter"] gamedataWorldMapFilter 2
+---@field ["Courier"] gamedataWorldMapFilter 3
+---@field ["CustomFilter"] gamedataWorldMapFilter 4
+---@field ["DogtownGateFilter"] gamedataWorldMapFilter 5
+---@field ["DropPoint"] gamedataWorldMapFilter 6
+---@field ["ExplorationFilter"] gamedataWorldMapFilter 7
+---@field ["FastTravel"] gamedataWorldMapFilter 8
+---@field ["Gigs"] gamedataWorldMapFilter 9
+---@field ["NoFilter"] gamedataWorldMapFilter 10
+---@field ["Outpost"] gamedataWorldMapFilter 11
+---@field ["PsychoFilter"] gamedataWorldMapFilter 12
+---@field ["Quest"] gamedataWorldMapFilter 13
+---@field ["RelicDeviceFilter"] gamedataWorldMapFilter 14
+---@field ["RipperdocFilter"] gamedataWorldMapFilter 15
+---@field ["ServicePoint"] gamedataWorldMapFilter 16
+---@field ["Story"] gamedataWorldMapFilter 17
+---@field ["TarotFilter"] gamedataWorldMapFilter 18
+---@field ["VehicleForSaleFilter"] gamedataWorldMapFilter 19
+---@field ["VendorFilter"] gamedataWorldMapFilter 20
+---@field ["Count"] gamedataWorldMapFilter 21
+---@field ["Invalid"] gamedataWorldMapFilter 22
+gamedataWorldMapFilter = {}

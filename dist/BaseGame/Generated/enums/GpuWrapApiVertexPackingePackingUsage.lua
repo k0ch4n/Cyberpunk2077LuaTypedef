@@ -1,32 +1,31 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GpuWrapApiVertexPackingePackingUsage
-GpuWrapApiVertexPackingePackingUsage = {
-    ["PS_Invalid"] = -1, ---@type Enum
-    ["PS_SysPosition"] = 0, ---@type Enum
-    ["PS_Position"] = 1, ---@type Enum
-    ["PS_Normal"] = 2, ---@type Enum
-    ["PS_Tangent"] = 3, ---@type Enum
-    ["PS_Binormal"] = 4, ---@type Enum
-    ["PS_TexCoord"] = 5, ---@type Enum
-    ["PS_Color"] = 6, ---@type Enum
-    ["PS_SkinIndices"] = 7, ---@type Enum
-    ["PS_SkinWeights"] = 8, ---@type Enum
-    ["PS_DestructionIndices"] = 9, ---@type Enum
-    ["PS_MultilayerPaint"] = 10, ---@type Enum
-    ["PS_InstanceTransform"] = 11, ---@type Enum
-    ["PS_InstanceLODParams"] = 12, ---@type Enum
-    ["PS_InstanceSkinningData"] = 13, ---@type Enum
-    ["PS_PatchSize"] = 14, ---@type Enum
-    ["PS_PatchBias"] = 15, ---@type Enum
-    ["PS_ExtraData"] = 16, ---@type Enum
-    ["PS_VehicleDmgNormal"] = 17, ---@type Enum
-    ["PS_VehicleDmgPosition"] = 18, ---@type Enum
-    ["PS_PositionDelta"] = 19, ---@type Enum
-    ["PS_LightBlockerIntensity"] = 20, ---@type Enum
-    ["PS_BoneIndex"] = 21, ---@type Enum
-    ["PS_Padding"] = 22, ---@type Enum
-    ["PS_PatchOffset"] = 23, ---@type Enum
-    ["PS_Max"] = 24, ---@type Enum
-}
+---@class GpuWrapApiVertexPackingePackingUsage: Enum
+---@field ["PS_Invalid"] GpuWrapApiVertexPackingePackingUsage -1
+---@field ["PS_SysPosition"] GpuWrapApiVertexPackingePackingUsage 0
+---@field ["PS_Position"] GpuWrapApiVertexPackingePackingUsage 1
+---@field ["PS_Normal"] GpuWrapApiVertexPackingePackingUsage 2
+---@field ["PS_Tangent"] GpuWrapApiVertexPackingePackingUsage 3
+---@field ["PS_Binormal"] GpuWrapApiVertexPackingePackingUsage 4
+---@field ["PS_TexCoord"] GpuWrapApiVertexPackingePackingUsage 5
+---@field ["PS_Color"] GpuWrapApiVertexPackingePackingUsage 6
+---@field ["PS_SkinIndices"] GpuWrapApiVertexPackingePackingUsage 7
+---@field ["PS_SkinWeights"] GpuWrapApiVertexPackingePackingUsage 8
+---@field ["PS_DestructionIndices"] GpuWrapApiVertexPackingePackingUsage 9
+---@field ["PS_MultilayerPaint"] GpuWrapApiVertexPackingePackingUsage 10
+---@field ["PS_InstanceTransform"] GpuWrapApiVertexPackingePackingUsage 11
+---@field ["PS_InstanceLODParams"] GpuWrapApiVertexPackingePackingUsage 12
+---@field ["PS_InstanceSkinningData"] GpuWrapApiVertexPackingePackingUsage 13
+---@field ["PS_PatchSize"] GpuWrapApiVertexPackingePackingUsage 14
+---@field ["PS_PatchBias"] GpuWrapApiVertexPackingePackingUsage 15
+---@field ["PS_ExtraData"] GpuWrapApiVertexPackingePackingUsage 16
+---@field ["PS_VehicleDmgNormal"] GpuWrapApiVertexPackingePackingUsage 17
+---@field ["PS_VehicleDmgPosition"] GpuWrapApiVertexPackingePackingUsage 18
+---@field ["PS_PositionDelta"] GpuWrapApiVertexPackingePackingUsage 19
+---@field ["PS_LightBlockerIntensity"] GpuWrapApiVertexPackingePackingUsage 20
+---@field ["PS_BoneIndex"] GpuWrapApiVertexPackingePackingUsage 21
+---@field ["PS_Padding"] GpuWrapApiVertexPackingePackingUsage 22
+---@field ["PS_PatchOffset"] GpuWrapApiVertexPackingePackingUsage 23
+---@field ["PS_Max"] GpuWrapApiVertexPackingePackingUsage 24
+GpuWrapApiVertexPackingePackingUsage = {}

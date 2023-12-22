@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questJournalSizeEventType
-questJournalSizeEventType = {
-    ["Maximize"] = 0, ---@type Enum
-    ["Minimize"] = 1, ---@type Enum
-}
+---@class questJournalSizeEventType: Enum
+---@field ["Maximize"] questJournalSizeEventType 0
+---@field ["Minimize"] questJournalSizeEventType 1
+questJournalSizeEventType = {}

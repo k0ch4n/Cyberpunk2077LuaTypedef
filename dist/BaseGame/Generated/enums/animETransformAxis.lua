@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animETransformAxis
-animETransformAxis = {
-    ["X_Axis"] = 1, ---@type Enum
-    ["Y_Axis"] = 2, ---@type Enum
-    ["Z_Axis"] = 4, ---@type Enum
-}
+---@class animETransformAxis: Enum
+---@field ["X_Axis"] animETransformAxis 1
+---@field ["Y_Axis"] animETransformAxis 2
+---@field ["Z_Axis"] animETransformAxis 4
+animETransformAxis = {}

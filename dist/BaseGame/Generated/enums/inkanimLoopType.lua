@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkanimLoopType
-inkanimLoopType = {
-    ["None"] = 0, ---@type Enum
-    ["Cycle"] = 1, ---@type Enum
-    ["PingPong"] = 2, ---@type Enum
-}
+---@class inkanimLoopType: Enum
+---@field ["None"] inkanimLoopType 0
+---@field ["Cycle"] inkanimLoopType 1
+---@field ["PingPong"] inkanimLoopType 2
+inkanimLoopType = {}

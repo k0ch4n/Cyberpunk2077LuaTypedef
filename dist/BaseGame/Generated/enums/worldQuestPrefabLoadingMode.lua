@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldQuestPrefabLoadingMode
-worldQuestPrefabLoadingMode = {
-    ["Disable"] = 0, ---@type Enum
-    ["ForceLoad"] = 1, ---@type Enum
-}
+---@class worldQuestPrefabLoadingMode: Enum
+---@field ["Disable"] worldQuestPrefabLoadingMode 0
+---@field ["ForceLoad"] worldQuestPrefabLoadingMode 1
+worldQuestPrefabLoadingMode = {}

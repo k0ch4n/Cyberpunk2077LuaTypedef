@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EActionType
-EActionType = {
-    ["QuickAction"] = 0, ---@type Enum
-    ["ChargeAction"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class EActionType: Enum
+---@field ["QuickAction"] EActionType 0
+---@field ["ChargeAction"] EActionType 1
+---@field ["None"] EActionType 2
+EActionType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textOverflowPolicy
-textOverflowPolicy = {
-    ["None"] = 0, ---@type Enum
-    ["DotsEnd"] = 1, ---@type Enum
-    ["DotsEndLastLine"] = 2, ---@type Enum
-    ["AutoScroll"] = 3, ---@type Enum
-    ["PingPongScroll"] = 4, ---@type Enum
-    ["AdjustToSize"] = 5, ---@type Enum
-}
+---@class textOverflowPolicy: Enum
+---@field ["None"] textOverflowPolicy 0
+---@field ["DotsEnd"] textOverflowPolicy 1
+---@field ["DotsEndLastLine"] textOverflowPolicy 2
+---@field ["AutoScroll"] textOverflowPolicy 3
+---@field ["PingPongScroll"] textOverflowPolicy 4
+---@field ["AdjustToSize"] textOverflowPolicy 5
+textOverflowPolicy = {}

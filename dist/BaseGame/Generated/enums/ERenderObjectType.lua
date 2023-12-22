@@ -1,26 +1,25 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERenderObjectType
-ERenderObjectType = {
-    ["ROT_Static"] = 0, ---@type Enum
-    ["ROT_Terrain"] = 1, ---@type Enum
-    ["ROT_Road"] = 2, ---@type Enum
-    ["ROT_Skinned"] = 20, ---@type Enum
-    ["ROT_Character"] = 21, ---@type Enum
-    ["ROT_Foliage"] = 22, ---@type Enum
-    ["ROT_Grass"] = 23, ---@type Enum
-    ["ROT_Vehicle"] = 24, ---@type Enum
-    ["ROT_Weapon"] = 25, ---@type Enum
-    ["ROT_Particle"] = 26, ---@type Enum
-    ["ROT_Enemy"] = 27, ---@type Enum
-    ["ROT_CustomCharacter1"] = 12, ---@type Enum
-    ["ROT_CustomCharacter2"] = 13, ---@type Enum
-    ["ROT_CustomCharacter3"] = 14, ---@type Enum
-    ["ROT_Blackwall1"] = 28, ---@type Enum
-    ["ROT_Blackwall2"] = 29, ---@type Enum
-    ["ROT_MainPlayer"] = 15, ---@type Enum
-    ["ROT_NoAO"] = 16, ---@type Enum
-    ["ROT_NoLighting"] = 17, ---@type Enum
-    ["ROT_NoTXAA"] = 18, ---@type Enum
-}
+---@class ERenderObjectType: Enum
+---@field ["ROT_Static"] ERenderObjectType 0
+---@field ["ROT_Terrain"] ERenderObjectType 1
+---@field ["ROT_Road"] ERenderObjectType 2
+---@field ["ROT_Skinned"] ERenderObjectType 20
+---@field ["ROT_Character"] ERenderObjectType 21
+---@field ["ROT_Foliage"] ERenderObjectType 22
+---@field ["ROT_Grass"] ERenderObjectType 23
+---@field ["ROT_Vehicle"] ERenderObjectType 24
+---@field ["ROT_Weapon"] ERenderObjectType 25
+---@field ["ROT_Particle"] ERenderObjectType 26
+---@field ["ROT_Enemy"] ERenderObjectType 27
+---@field ["ROT_CustomCharacter1"] ERenderObjectType 12
+---@field ["ROT_CustomCharacter2"] ERenderObjectType 13
+---@field ["ROT_CustomCharacter3"] ERenderObjectType 14
+---@field ["ROT_Blackwall1"] ERenderObjectType 28
+---@field ["ROT_Blackwall2"] ERenderObjectType 29
+---@field ["ROT_MainPlayer"] ERenderObjectType 15
+---@field ["ROT_NoAO"] ERenderObjectType 16
+---@field ["ROT_NoLighting"] ERenderObjectType 17
+---@field ["ROT_NoTXAA"] ERenderObjectType 18
+ERenderObjectType = {}

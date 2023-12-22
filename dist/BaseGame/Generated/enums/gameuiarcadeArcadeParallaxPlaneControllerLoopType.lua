@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiarcadeArcadeParallaxPlaneControllerLoopType
-gameuiarcadeArcadeParallaxPlaneControllerLoopType = {
-    ["None"] = 0, ---@type Enum
-    ["Repeat"] = 1, ---@type Enum
-}
+---@class gameuiarcadeArcadeParallaxPlaneControllerLoopType: Enum
+---@field ["None"] gameuiarcadeArcadeParallaxPlaneControllerLoopType 0
+---@field ["Repeat"] gameuiarcadeArcadeParallaxPlaneControllerLoopType 1
+gameuiarcadeArcadeParallaxPlaneControllerLoopType = {}

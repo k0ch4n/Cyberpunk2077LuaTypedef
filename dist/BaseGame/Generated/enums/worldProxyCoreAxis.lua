@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxyCoreAxis
-worldProxyCoreAxis = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-}
+---@class worldProxyCoreAxis: Enum
+---@field ["X"] worldProxyCoreAxis 0
+---@field ["Y"] worldProxyCoreAxis 1
+---@field ["Z"] worldProxyCoreAxis 2
+worldProxyCoreAxis = {}

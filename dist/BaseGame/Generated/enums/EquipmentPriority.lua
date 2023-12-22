@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EquipmentPriority
-EquipmentPriority = {
-    ["Primary"] = 0, ---@type Enum
-    ["Secondary"] = 1, ---@type Enum
-    ["All"] = 2, ---@type Enum
-}
+---@class EquipmentPriority: Enum
+---@field ["Primary"] EquipmentPriority 0
+---@field ["Secondary"] EquipmentPriority 1
+---@field ["All"] EquipmentPriority 2
+EquipmentPriority = {}

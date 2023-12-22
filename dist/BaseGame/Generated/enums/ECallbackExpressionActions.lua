@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECallbackExpressionActions
-ECallbackExpressionActions = {
-    ["SetTrue"] = 0, ---@type Enum
-    ["SetFalse"] = 1, ---@type Enum
-    ["Toggle"] = 2, ---@type Enum
-}
+---@class ECallbackExpressionActions: Enum
+---@field ["SetTrue"] ECallbackExpressionActions 0
+---@field ["SetFalse"] ECallbackExpressionActions 1
+---@field ["Toggle"] ECallbackExpressionActions 2
+ECallbackExpressionActions = {}

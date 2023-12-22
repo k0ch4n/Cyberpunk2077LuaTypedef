@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkSelectionRule
-inkSelectionRule = {
-    ["Single"] = 0, ---@type Enum
-    ["Parent"] = 1, ---@type Enum
-    ["Children"] = 2, ---@type Enum
-    ["TypeBased"] = 3, ---@type Enum
-    ["NameBased"] = 4, ---@type Enum
-}
+---@class inkSelectionRule: Enum
+---@field ["Single"] inkSelectionRule 0
+---@field ["Parent"] inkSelectionRule 1
+---@field ["Children"] inkSelectionRule 2
+---@field ["TypeBased"] inkSelectionRule 3
+---@field ["NameBased"] inkSelectionRule 4
+inkSelectionRule = {}

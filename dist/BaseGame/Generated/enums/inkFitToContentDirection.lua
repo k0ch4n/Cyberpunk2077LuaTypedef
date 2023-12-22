@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkFitToContentDirection
-inkFitToContentDirection = {
-    ["None"] = 0, ---@type Enum
-    ["Horizontal"] = 2, ---@type Enum
-    ["Vertical"] = 1, ---@type Enum
-}
+---@class inkFitToContentDirection: Enum
+---@field ["None"] inkFitToContentDirection 0
+---@field ["Horizontal"] inkFitToContentDirection 2
+---@field ["Vertical"] inkFitToContentDirection 1
+inkFitToContentDirection = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CharacterScreenType
-CharacterScreenType = {
-    ["Attributes"] = 0, ---@type Enum
-    ["Perks"] = 1, ---@type Enum
-}
+---@class CharacterScreenType: Enum
+---@field ["Attributes"] CharacterScreenType 0
+---@field ["Perks"] CharacterScreenType 1
+CharacterScreenType = {}

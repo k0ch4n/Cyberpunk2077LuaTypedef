@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ArcadeMachineType
-ArcadeMachineType = {
-    ["Default"] = 0, ---@type Enum
-    ["Pachinko"] = 1, ---@type Enum
-}
+---@class ArcadeMachineType: Enum
+---@field ["Default"] ArcadeMachineType 0
+---@field ["Pachinko"] ArcadeMachineType 1
+ArcadeMachineType = {}

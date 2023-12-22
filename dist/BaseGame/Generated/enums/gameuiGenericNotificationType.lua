@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiGenericNotificationType
-gameuiGenericNotificationType = {
-    ["Generic"] = 0, ---@type Enum
-    ["QuestUpdate"] = 1, ---@type Enum
-    ["Vendor"] = 3, ---@type Enum
-    ["ZoneAlert"] = 4, ---@type Enum
-    ["VehicleAlert"] = 5, ---@type Enum
-    ["PreventionBounty"] = 6, ---@type Enum
-    ["ProgressionView"] = 7, ---@type Enum
-}
+---@class gameuiGenericNotificationType: Enum
+---@field ["Generic"] gameuiGenericNotificationType 0
+---@field ["QuestUpdate"] gameuiGenericNotificationType 1
+---@field ["Vendor"] gameuiGenericNotificationType 3
+---@field ["ZoneAlert"] gameuiGenericNotificationType 4
+---@field ["VehicleAlert"] gameuiGenericNotificationType 5
+---@field ["PreventionBounty"] gameuiGenericNotificationType 6
+---@field ["ProgressionView"] gameuiGenericNotificationType 7
+gameuiGenericNotificationType = {}

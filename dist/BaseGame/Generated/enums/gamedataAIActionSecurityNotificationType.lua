@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAIActionSecurityNotificationType
-gamedataAIActionSecurityNotificationType = {
-    ["COMBAT"] = 0, ---@type Enum
-    ["DEESCALATE"] = 1, ---@type Enum
-    ["DEFAULT"] = 2, ---@type Enum
-    ["ILLEGAL_ACTION"] = 3, ---@type Enum
-    ["REPRIMAND_ESCALATE"] = 4, ---@type Enum
-    ["REPRIMAND_SUCCESSFUL"] = 5, ---@type Enum
-    ["SECURITY_GATE"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataAIActionSecurityNotificationType: Enum
+---@field ["COMBAT"] gamedataAIActionSecurityNotificationType 0
+---@field ["DEESCALATE"] gamedataAIActionSecurityNotificationType 1
+---@field ["DEFAULT"] gamedataAIActionSecurityNotificationType 2
+---@field ["ILLEGAL_ACTION"] gamedataAIActionSecurityNotificationType 3
+---@field ["REPRIMAND_ESCALATE"] gamedataAIActionSecurityNotificationType 4
+---@field ["REPRIMAND_SUCCESSFUL"] gamedataAIActionSecurityNotificationType 5
+---@field ["SECURITY_GATE"] gamedataAIActionSecurityNotificationType 6
+---@field ["Count"] gamedataAIActionSecurityNotificationType 7
+---@field ["Invalid"] gamedataAIActionSecurityNotificationType 8
+gamedataAIActionSecurityNotificationType = {}

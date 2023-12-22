@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EInventoryDataStatDisplayType
-EInventoryDataStatDisplayType = {
-    ["CompareBar"] = 0, ---@type Enum
-    ["DisplayBar"] = 1, ---@type Enum
-    ["Value"] = 2, ---@type Enum
-}
+---@class EInventoryDataStatDisplayType: Enum
+---@field ["CompareBar"] EInventoryDataStatDisplayType 0
+---@field ["DisplayBar"] EInventoryDataStatDisplayType 1
+---@field ["Value"] EInventoryDataStatDisplayType 2
+EInventoryDataStatDisplayType = {}

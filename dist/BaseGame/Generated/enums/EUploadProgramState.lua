@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EUploadProgramState
-EUploadProgramState = {
-    ["STARTED"] = 0, ---@type Enum
-    ["COMPLETED"] = 1, ---@type Enum
-}
+---@class EUploadProgramState: Enum
+---@field ["STARTED"] EUploadProgramState 0
+---@field ["COMPLETED"] EUploadProgramState 1
+EUploadProgramState = {}

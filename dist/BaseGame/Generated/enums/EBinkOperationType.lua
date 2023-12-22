@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EBinkOperationType
-EBinkOperationType = {
-    ["PLAY"] = 0, ---@type Enum
-    ["STOP"] = 1, ---@type Enum
-    ["PAUSE"] = 2, ---@type Enum
-    ["RESUME"] = 3, ---@type Enum
-}
+---@class EBinkOperationType: Enum
+---@field ["PLAY"] EBinkOperationType 0
+---@field ["STOP"] EBinkOperationType 1
+---@field ["PAUSE"] EBinkOperationType 2
+---@field ["RESUME"] EBinkOperationType 3
+EBinkOperationType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIRole
-EAIRole = {
-    ["None"] = 0, ---@type Enum
-    ["Patrol"] = 1, ---@type Enum
-    ["Follower"] = 2, ---@type Enum
-}
+---@class EAIRole: Enum
+---@field ["None"] EAIRole 0
+---@field ["Patrol"] EAIRole 1
+---@field ["Follower"] EAIRole 2
+EAIRole = {}

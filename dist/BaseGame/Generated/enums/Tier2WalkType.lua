@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Tier2WalkType
-Tier2WalkType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Slow"] = 1, ---@type Enum
-    ["Normal"] = 2, ---@type Enum
-    ["Fast"] = 3, ---@type Enum
-}
+---@class Tier2WalkType: Enum
+---@field ["Undefined"] Tier2WalkType 0
+---@field ["Slow"] Tier2WalkType 1
+---@field ["Normal"] Tier2WalkType 2
+---@field ["Fast"] Tier2WalkType 3
+Tier2WalkType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldPrefabInteriorMapContribution
-worldPrefabInteriorMapContribution = {
-    ["Auto"] = 0, ---@type Enum
-    ["Include"] = 1, ---@type Enum
-    ["Discard"] = 2, ---@type Enum
-}
+---@class worldPrefabInteriorMapContribution: Enum
+---@field ["Auto"] worldPrefabInteriorMapContribution 0
+---@field ["Include"] worldPrefabInteriorMapContribution 1
+---@field ["Discard"] worldPrefabInteriorMapContribution 2
+worldPrefabInteriorMapContribution = {}

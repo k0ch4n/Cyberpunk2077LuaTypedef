@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameReprimandMappinAnimationState
-gameReprimandMappinAnimationState = {
-    ["None"] = 0, ---@type Enum
-    ["Normal"] = 1, ---@type Enum
-    ["Fast"] = 2, ---@type Enum
-}
+---@class gameReprimandMappinAnimationState: Enum
+---@field ["None"] gameReprimandMappinAnimationState 0
+---@field ["Normal"] gameReprimandMappinAnimationState 1
+---@field ["Fast"] gameReprimandMappinAnimationState 2
+gameReprimandMappinAnimationState = {}

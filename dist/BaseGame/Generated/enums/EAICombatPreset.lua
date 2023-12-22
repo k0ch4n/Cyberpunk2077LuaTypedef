@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAICombatPreset
-EAICombatPreset = {
-    ["None"] = 0, ---@type Enum
-    ["IsReckless"] = 1, ---@type Enum
-    ["IsAggressive"] = 2, ---@type Enum
-    ["IsBalanced"] = 3, ---@type Enum
-    ["IsDefensive"] = 4, ---@type Enum
-    ["IsCautious"] = 5, ---@type Enum
-}
+---@class EAICombatPreset: Enum
+---@field ["None"] EAICombatPreset 0
+---@field ["IsReckless"] EAICombatPreset 1
+---@field ["IsAggressive"] EAICombatPreset 2
+---@field ["IsBalanced"] EAICombatPreset 3
+---@field ["IsDefensive"] EAICombatPreset 4
+---@field ["IsCautious"] EAICombatPreset 5
+EAICombatPreset = {}

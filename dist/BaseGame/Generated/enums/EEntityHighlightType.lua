@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EEntityHighlightType
-EEntityHighlightType = {
-    ["EHE_None"] = 0, ---@type Enum
-    ["EHE_FillAndOutline"] = 1, ---@type Enum
-    ["EHE_FillOnly"] = 2, ---@type Enum
-    ["EHE_OutlineOnly"] = 3, ---@type Enum
-}
+---@class EEntityHighlightType: Enum
+---@field ["EHE_None"] EEntityHighlightType 0
+---@field ["EHE_FillAndOutline"] EEntityHighlightType 1
+---@field ["EHE_FillOnly"] EEntityHighlightType 2
+---@field ["EHE_OutlineOnly"] EEntityHighlightType 3
+EEntityHighlightType = {}

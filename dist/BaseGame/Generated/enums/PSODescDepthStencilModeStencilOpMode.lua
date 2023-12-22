@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescDepthStencilModeStencilOpMode
-PSODescDepthStencilModeStencilOpMode = {
-    ["STENCILOP_Keep"] = 0, ---@type Enum
-    ["STENCILOP_Zero"] = 1, ---@type Enum
-    ["STENCILOP_Replace"] = 2, ---@type Enum
-    ["STENCILOP_IncreaseSaturate"] = 3, ---@type Enum
-    ["STENCILOP_DecreaseSaturate"] = 4, ---@type Enum
-    ["STENCILOP_Invert"] = 5, ---@type Enum
-    ["STENCILOP_Increase"] = 6, ---@type Enum
-    ["STENCILOP_Decrease"] = 7, ---@type Enum
-}
+---@class PSODescDepthStencilModeStencilOpMode: Enum
+---@field ["STENCILOP_Keep"] PSODescDepthStencilModeStencilOpMode 0
+---@field ["STENCILOP_Zero"] PSODescDepthStencilModeStencilOpMode 1
+---@field ["STENCILOP_Replace"] PSODescDepthStencilModeStencilOpMode 2
+---@field ["STENCILOP_IncreaseSaturate"] PSODescDepthStencilModeStencilOpMode 3
+---@field ["STENCILOP_DecreaseSaturate"] PSODescDepthStencilModeStencilOpMode 4
+---@field ["STENCILOP_Invert"] PSODescDepthStencilModeStencilOpMode 5
+---@field ["STENCILOP_Increase"] PSODescDepthStencilModeStencilOpMode 6
+---@field ["STENCILOP_Decrease"] PSODescDepthStencilModeStencilOpMode 7
+PSODescDepthStencilModeStencilOpMode = {}

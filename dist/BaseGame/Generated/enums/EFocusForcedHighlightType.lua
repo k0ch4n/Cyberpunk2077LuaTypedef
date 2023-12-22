@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFocusForcedHighlightType
-EFocusForcedHighlightType = {
-    ["INTERACTION"] = 0, ---@type Enum
-    ["IMPORTANT_INTERACTION"] = 1, ---@type Enum
-    ["QUEST"] = 2, ---@type Enum
-    ["DISTRACTION"] = 3, ---@type Enum
-    ["CLUE"] = 4, ---@type Enum
-    ["NPC"] = 5, ---@type Enum
-    ["WEAKSPOT"] = 6, ---@type Enum
-    ["AOE"] = 7, ---@type Enum
-    ["ITEM"] = 8, ---@type Enum
-    ["HOSTILE"] = 9, ---@type Enum
-    ["FRIENDLY"] = 10, ---@type Enum
-    ["NEUTRAL"] = 11, ---@type Enum
-    ["HACKABLE"] = 12, ---@type Enum
-    ["ENEMY_NETRUNNER"] = 13, ---@type Enum
-    ["BACKDOOR"] = 14, ---@type Enum
-    ["INVALID"] = 15, ---@type Enum
-}
+---@class EFocusForcedHighlightType: Enum
+---@field ["INTERACTION"] EFocusForcedHighlightType 0
+---@field ["IMPORTANT_INTERACTION"] EFocusForcedHighlightType 1
+---@field ["QUEST"] EFocusForcedHighlightType 2
+---@field ["DISTRACTION"] EFocusForcedHighlightType 3
+---@field ["CLUE"] EFocusForcedHighlightType 4
+---@field ["NPC"] EFocusForcedHighlightType 5
+---@field ["WEAKSPOT"] EFocusForcedHighlightType 6
+---@field ["AOE"] EFocusForcedHighlightType 7
+---@field ["ITEM"] EFocusForcedHighlightType 8
+---@field ["HOSTILE"] EFocusForcedHighlightType 9
+---@field ["FRIENDLY"] EFocusForcedHighlightType 10
+---@field ["NEUTRAL"] EFocusForcedHighlightType 11
+---@field ["HACKABLE"] EFocusForcedHighlightType 12
+---@field ["ENEMY_NETRUNNER"] EFocusForcedHighlightType 13
+---@field ["BACKDOOR"] EFocusForcedHighlightType 14
+---@field ["INVALID"] EFocusForcedHighlightType 15
+EFocusForcedHighlightType = {}

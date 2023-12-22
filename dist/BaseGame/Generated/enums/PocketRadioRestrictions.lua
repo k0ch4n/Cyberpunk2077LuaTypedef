@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PocketRadioRestrictions
-PocketRadioRestrictions = {
-    ["SceneTier"] = 0, ---@type Enum
-    ["UpperBodyState"] = 1, ---@type Enum
-    ["QuestContentLock"] = 2, ---@type Enum
-    ["InDaClub"] = 3, ---@type Enum
-    ["BlockFastTravel"] = 4, ---@type Enum
-    ["VehicleScene"] = 5, ---@type Enum
-    ["VehicleBlockPocketRadio"] = 6, ---@type Enum
-    ["PhoneCall"] = 7, ---@type Enum
-    ["PhoneNoTexting"] = 8, ---@type Enum
-    ["PhoneNoCalling"] = 9, ---@type Enum
-    ["FastForward"] = 10, ---@type Enum
-    ["FastForwardHintActive"] = 11, ---@type Enum
-    ["PocketRadioRestrictionCount"] = 12, ---@type Enum
-}
+---@class PocketRadioRestrictions: Enum
+---@field ["SceneTier"] PocketRadioRestrictions 0
+---@field ["UpperBodyState"] PocketRadioRestrictions 1
+---@field ["QuestContentLock"] PocketRadioRestrictions 2
+---@field ["InDaClub"] PocketRadioRestrictions 3
+---@field ["BlockFastTravel"] PocketRadioRestrictions 4
+---@field ["VehicleScene"] PocketRadioRestrictions 5
+---@field ["VehicleBlockPocketRadio"] PocketRadioRestrictions 6
+---@field ["PhoneCall"] PocketRadioRestrictions 7
+---@field ["PhoneNoTexting"] PocketRadioRestrictions 8
+---@field ["PhoneNoCalling"] PocketRadioRestrictions 9
+---@field ["FastForward"] PocketRadioRestrictions 10
+---@field ["FastForwardHintActive"] PocketRadioRestrictions 11
+---@field ["PocketRadioRestrictionCount"] PocketRadioRestrictions 12
+PocketRadioRestrictions = {}

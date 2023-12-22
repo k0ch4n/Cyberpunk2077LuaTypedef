@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkanimInterpolationMode
-inkanimInterpolationMode = {
-    ["EasyIn"] = 0, ---@type Enum
-    ["EasyOut"] = 1, ---@type Enum
-    ["EasyInOut"] = 2, ---@type Enum
-    ["EasyOutIn"] = 3, ---@type Enum
-}
+---@class inkanimInterpolationMode: Enum
+---@field ["EasyIn"] inkanimInterpolationMode 0
+---@field ["EasyOut"] inkanimInterpolationMode 1
+---@field ["EasyInOut"] inkanimInterpolationMode 2
+---@field ["EasyOutIn"] inkanimInterpolationMode 3
+inkanimInterpolationMode = {}

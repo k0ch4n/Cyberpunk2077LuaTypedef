@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entMeshComponentLODMode
-entMeshComponentLODMode = {
-    ["AlwaysVisible"] = 0, ---@type Enum
-    ["Appearance"] = 1, ---@type Enum
-    ["AppearanceProxy"] = 2, ---@type Enum
-}
+---@class entMeshComponentLODMode: Enum
+---@field ["AlwaysVisible"] entMeshComponentLODMode 0
+---@field ["Appearance"] entMeshComponentLODMode 1
+---@field ["AppearanceProxy"] entMeshComponentLODMode 2
+entMeshComponentLODMode = {}

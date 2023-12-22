@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMZones
-gamePSMZones = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["Public"] = 1, ---@type Enum
-    ["Safe"] = 2, ---@type Enum
-    ["Restricted"] = 3, ---@type Enum
-    ["Dangerous"] = 4, ---@type Enum
-}
+---@class gamePSMZones: Enum
+---@field ["Any"] gamePSMZones -1
+---@field ["Default"] gamePSMZones 0
+---@field ["Public"] gamePSMZones 1
+---@field ["Safe"] gamePSMZones 2
+---@field ["Restricted"] gamePSMZones 3
+---@field ["Dangerous"] gamePSMZones 4
+gamePSMZones = {}

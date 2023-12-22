@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum IntercomStatus
-IntercomStatus = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["CALLING"] = 1, ---@type Enum
-    ["TALKING"] = 2, ---@type Enum
-    ["CALL_MISSED"] = 3, ---@type Enum
-    ["CALL_ENDED"] = 4, ---@type Enum
-}
+---@class IntercomStatus: Enum
+---@field ["DEFAULT"] IntercomStatus 0
+---@field ["CALLING"] IntercomStatus 1
+---@field ["TALKING"] IntercomStatus 2
+---@field ["CALL_MISSED"] IntercomStatus 3
+---@field ["CALL_ENDED"] IntercomStatus 4
+IntercomStatus = {}

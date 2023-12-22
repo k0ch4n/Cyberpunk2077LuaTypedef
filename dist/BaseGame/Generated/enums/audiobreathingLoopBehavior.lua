@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audiobreathingLoopBehavior
-audiobreathingLoopBehavior = {
-    ["TimedBreathing"] = 0, ---@type Enum
-    ["BreathEvery2ndStep"] = 1, ---@type Enum
-    ["BreathEveryStep"] = 2, ---@type Enum
-    ["HoldingBreath"] = 3, ---@type Enum
-}
+---@class audiobreathingLoopBehavior: Enum
+---@field ["TimedBreathing"] audiobreathingLoopBehavior 0
+---@field ["BreathEvery2ndStep"] audiobreathingLoopBehavior 1
+---@field ["BreathEveryStep"] audiobreathingLoopBehavior 2
+---@field ["HoldingBreath"] audiobreathingLoopBehavior 3
+audiobreathingLoopBehavior = {}

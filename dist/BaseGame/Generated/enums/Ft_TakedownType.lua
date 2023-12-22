@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Ft_TakedownType
-Ft_TakedownType = {
-    ["Lethal"] = 0, ---@type Enum
-    ["Nonlethal"] = 1, ---@type Enum
-    ["Breach"] = 2, ---@type Enum
-}
+---@class Ft_TakedownType: Enum
+---@field ["Lethal"] Ft_TakedownType 0
+---@field ["Nonlethal"] Ft_TakedownType 1
+---@field ["Breach"] Ft_TakedownType 2
+Ft_TakedownType = {}

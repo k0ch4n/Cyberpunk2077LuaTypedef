@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entTemplateComponentResolveMode
-entTemplateComponentResolveMode = {
-    ["AutoSelect"] = 0, ---@type Enum
-    ["Select"] = 1, ---@type Enum
-    ["Suppress"] = 2, ---@type Enum
-}
+---@class entTemplateComponentResolveMode: Enum
+---@field ["AutoSelect"] entTemplateComponentResolveMode 0
+---@field ["Select"] entTemplateComponentResolveMode 1
+---@field ["Suppress"] entTemplateComponentResolveMode 2
+entTemplateComponentResolveMode = {}

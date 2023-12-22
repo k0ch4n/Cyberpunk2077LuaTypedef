@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CodexImageType
-CodexImageType = {
-    ["Default"] = 0, ---@type Enum
-    ["Character"] = 1, ---@type Enum
-}
+---@class CodexImageType: Enum
+---@field ["Default"] CodexImageType 0
+---@field ["Character"] CodexImageType 1
+CodexImageType = {}

@@ -1,109 +1,108 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataItemType
-gamedataItemType = {
-    ["Clo_Face"] = 0, ---@type Enum
-    ["Clo_Feet"] = 1, ---@type Enum
-    ["Clo_Head"] = 2, ---@type Enum
-    ["Clo_InnerChest"] = 3, ---@type Enum
-    ["Clo_Legs"] = 4, ---@type Enum
-    ["Clo_OuterChest"] = 5, ---@type Enum
-    ["Clo_Outfit"] = 6, ---@type Enum
-    ["Con_Ammo"] = 7, ---@type Enum
-    ["Con_Edible"] = 8, ---@type Enum
-    ["Con_Inhaler"] = 9, ---@type Enum
-    ["Con_Injector"] = 10, ---@type Enum
-    ["Con_LongLasting"] = 11, ---@type Enum
-    ["Con_Skillbook"] = 12, ---@type Enum
-    ["Cyb_Ability"] = 13, ---@type Enum
-    ["Cyb_HealingAbility"] = 14, ---@type Enum
-    ["Cyb_Launcher"] = 15, ---@type Enum
-    ["Cyb_MantisBlades"] = 16, ---@type Enum
-    ["Cyb_NanoWires"] = 17, ---@type Enum
-    ["Cyb_StrongArms"] = 18, ---@type Enum
-    ["Cyberware"] = 19, ---@type Enum
-    ["CyberwareStatsShard"] = 20, ---@type Enum
-    ["CyberwareUpgradeShard"] = 21, ---@type Enum
-    ["Fla_Launcher"] = 22, ---@type Enum
-    ["Fla_Rifle"] = 23, ---@type Enum
-    ["Fla_Shock"] = 24, ---@type Enum
-    ["Fla_Support"] = 25, ---@type Enum
-    ["Gad_Grenade"] = 26, ---@type Enum
-    ["Gen_CraftingMaterial"] = 27, ---@type Enum
-    ["Gen_DataBank"] = 28, ---@type Enum
-    ["Gen_Jewellery"] = 29, ---@type Enum
-    ["Gen_Junk"] = 30, ---@type Enum
-    ["Gen_Keycard"] = 31, ---@type Enum
-    ["Gen_Misc"] = 32, ---@type Enum
-    ["Gen_MoneyShard"] = 33, ---@type Enum
-    ["Gen_Readable"] = 34, ---@type Enum
-    ["GrenadeDelivery"] = 35, ---@type Enum
-    ["Grenade_Core"] = 36, ---@type Enum
-    ["Prt_AR_SMG_LMGMod"] = 37, ---@type Enum
-    ["Prt_BladeMod"] = 38, ---@type Enum
-    ["Prt_BluntMod"] = 39, ---@type Enum
-    ["Prt_BootsFabricEnhancer"] = 40, ---@type Enum
-    ["Prt_Capacitor"] = 41, ---@type Enum
-    ["Prt_FabricEnhancer"] = 42, ---@type Enum
-    ["Prt_FaceFabricEnhancer"] = 43, ---@type Enum
-    ["Prt_Fragment"] = 44, ---@type Enum
-    ["Prt_HandgunMod"] = 45, ---@type Enum
-    ["Prt_HandgunMuzzle"] = 46, ---@type Enum
-    ["Prt_HeadFabricEnhancer"] = 47, ---@type Enum
-    ["Prt_LongScope"] = 48, ---@type Enum
-    ["Prt_Magazine"] = 49, ---@type Enum
-    ["Prt_MeleeMod"] = 50, ---@type Enum
-    ["Prt_Mod"] = 51, ---@type Enum
-    ["Prt_Muzzle"] = 52, ---@type Enum
-    ["Prt_OuterTorsoFabricEnhancer"] = 53, ---@type Enum
-    ["Prt_PantsFabricEnhancer"] = 54, ---@type Enum
-    ["Prt_PowerMod"] = 55, ---@type Enum
-    ["Prt_PowerSniperScope"] = 56, ---@type Enum
-    ["Prt_Precision_Sniper_RifleMod"] = 57, ---@type Enum
-    ["Prt_Program"] = 58, ---@type Enum
-    ["Prt_RangedMod"] = 59, ---@type Enum
-    ["Prt_Receiver"] = 60, ---@type Enum
-    ["Prt_RifleMuzzle"] = 61, ---@type Enum
-    ["Prt_Scope"] = 62, ---@type Enum
-    ["Prt_ScopeRail"] = 63, ---@type Enum
-    ["Prt_ShortScope"] = 64, ---@type Enum
-    ["Prt_ShotgunMod"] = 65, ---@type Enum
-    ["Prt_SmartMod"] = 66, ---@type Enum
-    ["Prt_Stock"] = 67, ---@type Enum
-    ["Prt_TargetingSystem"] = 68, ---@type Enum
-    ["Prt_TechMod"] = 69, ---@type Enum
-    ["Prt_TechSniperScope"] = 70, ---@type Enum
-    ["Prt_ThrowableMod"] = 71, ---@type Enum
-    ["Prt_TorsoFabricEnhancer"] = 72, ---@type Enum
-    ["VendorToken"] = 73, ---@type Enum
-    ["Wea_AssaultRifle"] = 74, ---@type Enum
-    ["Wea_Axe"] = 75, ---@type Enum
-    ["Wea_Chainsword"] = 76, ---@type Enum
-    ["Wea_Fists"] = 77, ---@type Enum
-    ["Wea_GrenadeLauncher"] = 78, ---@type Enum
-    ["Wea_Hammer"] = 79, ---@type Enum
-    ["Wea_Handgun"] = 80, ---@type Enum
-    ["Wea_HeavyMachineGun"] = 81, ---@type Enum
-    ["Wea_Katana"] = 82, ---@type Enum
-    ["Wea_Knife"] = 83, ---@type Enum
-    ["Wea_LightMachineGun"] = 84, ---@type Enum
-    ["Wea_LongBlade"] = 85, ---@type Enum
-    ["Wea_Machete"] = 86, ---@type Enum
-    ["Wea_Melee"] = 87, ---@type Enum
-    ["Wea_OneHandedClub"] = 88, ---@type Enum
-    ["Wea_PrecisionRifle"] = 89, ---@type Enum
-    ["Wea_Revolver"] = 90, ---@type Enum
-    ["Wea_Rifle"] = 91, ---@type Enum
-    ["Wea_ShortBlade"] = 92, ---@type Enum
-    ["Wea_Shotgun"] = 93, ---@type Enum
-    ["Wea_ShotgunDual"] = 94, ---@type Enum
-    ["Wea_SniperRifle"] = 95, ---@type Enum
-    ["Wea_SubmachineGun"] = 96, ---@type Enum
-    ["Wea_Sword"] = 97, ---@type Enum
-    ["Wea_TwoHandedClub"] = 98, ---@type Enum
-    ["Wea_VehicleMissileLauncher"] = 99, ---@type Enum
-    ["Wea_VehiclePowerWeapon"] = 100, ---@type Enum
-    ["Count"] = 101, ---@type Enum
-    ["Invalid"] = 102, ---@type Enum
-}
+---@class gamedataItemType: Enum
+---@field ["Clo_Face"] gamedataItemType 0
+---@field ["Clo_Feet"] gamedataItemType 1
+---@field ["Clo_Head"] gamedataItemType 2
+---@field ["Clo_InnerChest"] gamedataItemType 3
+---@field ["Clo_Legs"] gamedataItemType 4
+---@field ["Clo_OuterChest"] gamedataItemType 5
+---@field ["Clo_Outfit"] gamedataItemType 6
+---@field ["Con_Ammo"] gamedataItemType 7
+---@field ["Con_Edible"] gamedataItemType 8
+---@field ["Con_Inhaler"] gamedataItemType 9
+---@field ["Con_Injector"] gamedataItemType 10
+---@field ["Con_LongLasting"] gamedataItemType 11
+---@field ["Con_Skillbook"] gamedataItemType 12
+---@field ["Cyb_Ability"] gamedataItemType 13
+---@field ["Cyb_HealingAbility"] gamedataItemType 14
+---@field ["Cyb_Launcher"] gamedataItemType 15
+---@field ["Cyb_MantisBlades"] gamedataItemType 16
+---@field ["Cyb_NanoWires"] gamedataItemType 17
+---@field ["Cyb_StrongArms"] gamedataItemType 18
+---@field ["Cyberware"] gamedataItemType 19
+---@field ["CyberwareStatsShard"] gamedataItemType 20
+---@field ["CyberwareUpgradeShard"] gamedataItemType 21
+---@field ["Fla_Launcher"] gamedataItemType 22
+---@field ["Fla_Rifle"] gamedataItemType 23
+---@field ["Fla_Shock"] gamedataItemType 24
+---@field ["Fla_Support"] gamedataItemType 25
+---@field ["Gad_Grenade"] gamedataItemType 26
+---@field ["Gen_CraftingMaterial"] gamedataItemType 27
+---@field ["Gen_DataBank"] gamedataItemType 28
+---@field ["Gen_Jewellery"] gamedataItemType 29
+---@field ["Gen_Junk"] gamedataItemType 30
+---@field ["Gen_Keycard"] gamedataItemType 31
+---@field ["Gen_Misc"] gamedataItemType 32
+---@field ["Gen_MoneyShard"] gamedataItemType 33
+---@field ["Gen_Readable"] gamedataItemType 34
+---@field ["GrenadeDelivery"] gamedataItemType 35
+---@field ["Grenade_Core"] gamedataItemType 36
+---@field ["Prt_AR_SMG_LMGMod"] gamedataItemType 37
+---@field ["Prt_BladeMod"] gamedataItemType 38
+---@field ["Prt_BluntMod"] gamedataItemType 39
+---@field ["Prt_BootsFabricEnhancer"] gamedataItemType 40
+---@field ["Prt_Capacitor"] gamedataItemType 41
+---@field ["Prt_FabricEnhancer"] gamedataItemType 42
+---@field ["Prt_FaceFabricEnhancer"] gamedataItemType 43
+---@field ["Prt_Fragment"] gamedataItemType 44
+---@field ["Prt_HandgunMod"] gamedataItemType 45
+---@field ["Prt_HandgunMuzzle"] gamedataItemType 46
+---@field ["Prt_HeadFabricEnhancer"] gamedataItemType 47
+---@field ["Prt_LongScope"] gamedataItemType 48
+---@field ["Prt_Magazine"] gamedataItemType 49
+---@field ["Prt_MeleeMod"] gamedataItemType 50
+---@field ["Prt_Mod"] gamedataItemType 51
+---@field ["Prt_Muzzle"] gamedataItemType 52
+---@field ["Prt_OuterTorsoFabricEnhancer"] gamedataItemType 53
+---@field ["Prt_PantsFabricEnhancer"] gamedataItemType 54
+---@field ["Prt_PowerMod"] gamedataItemType 55
+---@field ["Prt_PowerSniperScope"] gamedataItemType 56
+---@field ["Prt_Precision_Sniper_RifleMod"] gamedataItemType 57
+---@field ["Prt_Program"] gamedataItemType 58
+---@field ["Prt_RangedMod"] gamedataItemType 59
+---@field ["Prt_Receiver"] gamedataItemType 60
+---@field ["Prt_RifleMuzzle"] gamedataItemType 61
+---@field ["Prt_Scope"] gamedataItemType 62
+---@field ["Prt_ScopeRail"] gamedataItemType 63
+---@field ["Prt_ShortScope"] gamedataItemType 64
+---@field ["Prt_ShotgunMod"] gamedataItemType 65
+---@field ["Prt_SmartMod"] gamedataItemType 66
+---@field ["Prt_Stock"] gamedataItemType 67
+---@field ["Prt_TargetingSystem"] gamedataItemType 68
+---@field ["Prt_TechMod"] gamedataItemType 69
+---@field ["Prt_TechSniperScope"] gamedataItemType 70
+---@field ["Prt_ThrowableMod"] gamedataItemType 71
+---@field ["Prt_TorsoFabricEnhancer"] gamedataItemType 72
+---@field ["VendorToken"] gamedataItemType 73
+---@field ["Wea_AssaultRifle"] gamedataItemType 74
+---@field ["Wea_Axe"] gamedataItemType 75
+---@field ["Wea_Chainsword"] gamedataItemType 76
+---@field ["Wea_Fists"] gamedataItemType 77
+---@field ["Wea_GrenadeLauncher"] gamedataItemType 78
+---@field ["Wea_Hammer"] gamedataItemType 79
+---@field ["Wea_Handgun"] gamedataItemType 80
+---@field ["Wea_HeavyMachineGun"] gamedataItemType 81
+---@field ["Wea_Katana"] gamedataItemType 82
+---@field ["Wea_Knife"] gamedataItemType 83
+---@field ["Wea_LightMachineGun"] gamedataItemType 84
+---@field ["Wea_LongBlade"] gamedataItemType 85
+---@field ["Wea_Machete"] gamedataItemType 86
+---@field ["Wea_Melee"] gamedataItemType 87
+---@field ["Wea_OneHandedClub"] gamedataItemType 88
+---@field ["Wea_PrecisionRifle"] gamedataItemType 89
+---@field ["Wea_Revolver"] gamedataItemType 90
+---@field ["Wea_Rifle"] gamedataItemType 91
+---@field ["Wea_ShortBlade"] gamedataItemType 92
+---@field ["Wea_Shotgun"] gamedataItemType 93
+---@field ["Wea_ShotgunDual"] gamedataItemType 94
+---@field ["Wea_SniperRifle"] gamedataItemType 95
+---@field ["Wea_SubmachineGun"] gamedataItemType 96
+---@field ["Wea_Sword"] gamedataItemType 97
+---@field ["Wea_TwoHandedClub"] gamedataItemType 98
+---@field ["Wea_VehicleMissileLauncher"] gamedataItemType 99
+---@field ["Wea_VehiclePowerWeapon"] gamedataItemType 100
+---@field ["Count"] gamedataItemType 101
+---@field ["Invalid"] gamedataItemType 102
+gamedataItemType = {}

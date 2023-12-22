@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIArgumentType
-AIArgumentType = {
-    ["Bool"] = 0, ---@type Enum
-    ["Int"] = 1, ---@type Enum
-    ["Uint64"] = 2, ---@type Enum
-    ["Enum"] = 3, ---@type Enum
-    ["Float"] = 4, ---@type Enum
-    ["CName"] = 5, ---@type Enum
-    ["TreeRef"] = 8, ---@type Enum
-    ["Vector"] = 6, ---@type Enum
-    ["Object"] = 7, ---@type Enum
-    ["NodeRef"] = 9, ---@type Enum
-    ["GlobalNodeId"] = 10, ---@type Enum
-    ["PuppetRef"] = 11, ---@type Enum
-    ["Serializable"] = 12, ---@type Enum
-    ["TweakDBID"] = 13, ---@type Enum
-}
+---@class AIArgumentType: Enum
+---@field ["Bool"] AIArgumentType 0
+---@field ["Int"] AIArgumentType 1
+---@field ["Uint64"] AIArgumentType 2
+---@field ["Enum"] AIArgumentType 3
+---@field ["Float"] AIArgumentType 4
+---@field ["CName"] AIArgumentType 5
+---@field ["TreeRef"] AIArgumentType 8
+---@field ["Vector"] AIArgumentType 6
+---@field ["Object"] AIArgumentType 7
+---@field ["NodeRef"] AIArgumentType 9
+---@field ["GlobalNodeId"] AIArgumentType 10
+---@field ["PuppetRef"] AIArgumentType 11
+---@field ["Serializable"] AIArgumentType 12
+---@field ["TweakDBID"] AIArgumentType 13
+AIArgumentType = {}

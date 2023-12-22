@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAISquadVerb
-EAISquadVerb = {
-    ["Invalid"] = 0, ---@type Enum
-    ["JoinSquad"] = 1, ---@type Enum
-    ["LeaveSquad"] = 2, ---@type Enum
-    ["OpenSquadAction"] = 3, ---@type Enum
-    ["RevokeSquadAction"] = 4, ---@type Enum
-    ["RevokeOrder"] = 5, ---@type Enum
-    ["CommitToSquadAction"] = 6, ---@type Enum
-    ["ReportDoneOnSquadAction"] = 7, ---@type Enum
-    ["ReportFailureOnSquadAction"] = 8, ---@type Enum
-    ["EvaluateTicketActivation"] = 9, ---@type Enum
-    ["EvaluateTicketDeactivation"] = 10, ---@type Enum
-    ["AcknowledgeOrder"] = 11, ---@type Enum
-}
+---@class EAISquadVerb: Enum
+---@field ["Invalid"] EAISquadVerb 0
+---@field ["JoinSquad"] EAISquadVerb 1
+---@field ["LeaveSquad"] EAISquadVerb 2
+---@field ["OpenSquadAction"] EAISquadVerb 3
+---@field ["RevokeSquadAction"] EAISquadVerb 4
+---@field ["RevokeOrder"] EAISquadVerb 5
+---@field ["CommitToSquadAction"] EAISquadVerb 6
+---@field ["ReportDoneOnSquadAction"] EAISquadVerb 7
+---@field ["ReportFailureOnSquadAction"] EAISquadVerb 8
+---@field ["EvaluateTicketActivation"] EAISquadVerb 9
+---@field ["EvaluateTicketDeactivation"] EAISquadVerb 10
+---@field ["AcknowledgeOrder"] EAISquadVerb 11
+EAISquadVerb = {}

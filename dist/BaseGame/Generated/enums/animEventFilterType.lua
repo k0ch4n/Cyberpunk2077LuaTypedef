@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEventFilterType
-animEventFilterType = {
-    ["Default"] = 0, ---@type Enum
-    ["AlwaysCollect"] = 1, ---@type Enum
-    ["Solo"] = 2, ---@type Enum
-    ["Mute"] = 3, ---@type Enum
-}
+---@class animEventFilterType: Enum
+---@field ["Default"] animEventFilterType 0
+---@field ["AlwaysCollect"] animEventFilterType 1
+---@field ["Solo"] animEventFilterType 2
+---@field ["Mute"] animEventFilterType 3
+animEventFilterType = {}

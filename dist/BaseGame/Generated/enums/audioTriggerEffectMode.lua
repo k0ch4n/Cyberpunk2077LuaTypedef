@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioTriggerEffectMode
-audioTriggerEffectMode = {
-    ["Off"] = 0, ---@type Enum
-    ["Feedback"] = 1, ---@type Enum
-    ["Weapon"] = 2, ---@type Enum
-    ["Vibration"] = 3, ---@type Enum
-}
+---@class audioTriggerEffectMode: Enum
+---@field ["Off"] audioTriggerEffectMode 0
+---@field ["Feedback"] audioTriggerEffectMode 1
+---@field ["Weapon"] audioTriggerEffectMode 2
+---@field ["Vibration"] audioTriggerEffectMode 3
+audioTriggerEffectMode = {}

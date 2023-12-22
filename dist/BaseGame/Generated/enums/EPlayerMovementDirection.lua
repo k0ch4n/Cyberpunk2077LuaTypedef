@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPlayerMovementDirection
-EPlayerMovementDirection = {
-    ["Forward"] = 0, ---@type Enum
-    ["Right"] = 1, ---@type Enum
-    ["Back"] = 2, ---@type Enum
-    ["Left"] = 3, ---@type Enum
-}
+---@class EPlayerMovementDirection: Enum
+---@field ["Forward"] EPlayerMovementDirection 0
+---@field ["Right"] EPlayerMovementDirection 1
+---@field ["Back"] EPlayerMovementDirection 2
+---@field ["Left"] EPlayerMovementDirection 3
+EPlayerMovementDirection = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EColorMappingFunction
-EColorMappingFunction = {
-    ["CMF_Linear"] = 0, ---@type Enum
-    ["CMF_sRGB"] = 1, ---@type Enum
-    ["CMF_ArriLogC"] = 2, ---@type Enum
-}
+---@class EColorMappingFunction: Enum
+---@field ["CMF_Linear"] EColorMappingFunction 0
+---@field ["CMF_sRGB"] EColorMappingFunction 1
+---@field ["CMF_ArriLogC"] EColorMappingFunction 2
+EColorMappingFunction = {}

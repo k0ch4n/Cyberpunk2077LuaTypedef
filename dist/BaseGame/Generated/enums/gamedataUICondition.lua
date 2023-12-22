@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataUICondition
-gamedataUICondition = {
-    ["InEyesSubMenu"] = 0, ---@type Enum
-    ["InHandsSubMenu"] = 1, ---@type Enum
-    ["InSubMenu"] = 2, ---@type Enum
-    ["IsIntroFinished"] = 3, ---@type Enum
-    ["IsSetEquippingSubMenu"] = 4, ---@type Enum
-    ["Visible"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataUICondition: Enum
+---@field ["InEyesSubMenu"] gamedataUICondition 0
+---@field ["InHandsSubMenu"] gamedataUICondition 1
+---@field ["InSubMenu"] gamedataUICondition 2
+---@field ["IsIntroFinished"] gamedataUICondition 3
+---@field ["IsSetEquippingSubMenu"] gamedataUICondition 4
+---@field ["Visible"] gamedataUICondition 5
+---@field ["Count"] gamedataUICondition 6
+---@field ["Invalid"] gamedataUICondition 7
+gamedataUICondition = {}

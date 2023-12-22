@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HitShape_Type
-HitShape_Type = {
-    ["Normal"] = 0, ---@type Enum
-    ["InternalWeakSpot"] = 1, ---@type Enum
-    ["ExternalWeakSpot"] = 2, ---@type Enum
-    ["ProtectionLayer"] = 3, ---@type Enum
-}
+---@class HitShape_Type: Enum
+---@field ["Normal"] HitShape_Type 0
+---@field ["InternalWeakSpot"] HitShape_Type 1
+---@field ["ExternalWeakSpot"] HitShape_Type 2
+---@field ["ProtectionLayer"] HitShape_Type 3
+HitShape_Type = {}

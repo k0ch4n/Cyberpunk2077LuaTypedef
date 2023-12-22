@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldTrafficLanePersistentFlags
-worldTrafficLanePersistentFlags = {
-    ["FromRoadSpline"] = 1, ---@type Enum
-    ["Bidirectional"] = 2, ---@type Enum
-    ["PatrolRoute"] = 4, ---@type Enum
-    ["Pavement"] = 8, ---@type Enum
-    ["Road"] = 16, ---@type Enum
-    ["Intersection"] = 32, ---@type Enum
-    ["NeverDeadEnd"] = 64, ---@type Enum
-    ["TrafficDisabled"] = 128, ---@type Enum
-    ["CrossWalk"] = 256, ---@type Enum
-    ["GPSOnly"] = 512, ---@type Enum
-    ["ShowDebug"] = 1024, ---@type Enum
-    ["Blockade"] = 2048, ---@type Enum
-    ["Yield"] = 4096, ---@type Enum
-}
+---@class worldTrafficLanePersistentFlags: Enum
+---@field ["FromRoadSpline"] worldTrafficLanePersistentFlags 1
+---@field ["Bidirectional"] worldTrafficLanePersistentFlags 2
+---@field ["PatrolRoute"] worldTrafficLanePersistentFlags 4
+---@field ["Pavement"] worldTrafficLanePersistentFlags 8
+---@field ["Road"] worldTrafficLanePersistentFlags 16
+---@field ["Intersection"] worldTrafficLanePersistentFlags 32
+---@field ["NeverDeadEnd"] worldTrafficLanePersistentFlags 64
+---@field ["TrafficDisabled"] worldTrafficLanePersistentFlags 128
+---@field ["CrossWalk"] worldTrafficLanePersistentFlags 256
+---@field ["GPSOnly"] worldTrafficLanePersistentFlags 512
+---@field ["ShowDebug"] worldTrafficLanePersistentFlags 1024
+---@field ["Blockade"] worldTrafficLanePersistentFlags 2048
+---@field ["Yield"] worldTrafficLanePersistentFlags 4096
+worldTrafficLanePersistentFlags = {}

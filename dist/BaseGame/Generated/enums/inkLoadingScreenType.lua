@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkLoadingScreenType
-inkLoadingScreenType = {
-    ["Unknown"] = 0, ---@type Enum
-    ["SplashScreen"] = 1, ---@type Enum
-    ["Initial"] = 2, ---@type Enum
-    ["FastTravel"] = 3, ---@type Enum
-}
+---@class inkLoadingScreenType: Enum
+---@field ["Unknown"] inkLoadingScreenType 0
+---@field ["SplashScreen"] inkLoadingScreenType 1
+---@field ["Initial"] inkLoadingScreenType 2
+---@field ["FastTravel"] inkLoadingScreenType 3
+inkLoadingScreenType = {}

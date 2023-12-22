@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAppliedTriangulationHackSpeed
-EAppliedTriangulationHackSpeed = {
-    ["NotAssigned"] = 0, ---@type Enum
-    ["Slow"] = 1, ---@type Enum
-    ["Normal"] = 2, ---@type Enum
-    ["Fast"] = 3, ---@type Enum
-}
+---@class EAppliedTriangulationHackSpeed: Enum
+---@field ["NotAssigned"] EAppliedTriangulationHackSpeed 0
+---@field ["Slow"] EAppliedTriangulationHackSpeed 1
+---@field ["Normal"] EAppliedTriangulationHackSpeed 2
+---@field ["Fast"] EAppliedTriangulationHackSpeed 3
+EAppliedTriangulationHackSpeed = {}

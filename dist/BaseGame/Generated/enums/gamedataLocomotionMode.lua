@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataLocomotionMode
-gamedataLocomotionMode = {
-    ["Moving"] = 0, ---@type Enum
-    ["Static"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataLocomotionMode: Enum
+---@field ["Moving"] gamedataLocomotionMode 0
+---@field ["Static"] gamedataLocomotionMode 1
+---@field ["Count"] gamedataLocomotionMode 2
+---@field ["Invalid"] gamedataLocomotionMode 3
+gamedataLocomotionMode = {}

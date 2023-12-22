@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleVehicleNetrunnerQuickhackType
-vehicleVehicleNetrunnerQuickhackType = {
-    ["ForceBrakes"] = 0, ---@type Enum
-    ["Explode"] = 1, ---@type Enum
-    ["Accelerate"] = 2, ---@type Enum
-    ["NONE"] = 3, ---@type Enum
-}
+---@class vehicleVehicleNetrunnerQuickhackType: Enum
+---@field ["ForceBrakes"] vehicleVehicleNetrunnerQuickhackType 0
+---@field ["Explode"] vehicleVehicleNetrunnerQuickhackType 1
+---@field ["Accelerate"] vehicleVehicleNetrunnerQuickhackType 2
+---@field ["NONE"] vehicleVehicleNetrunnerQuickhackType 3
+vehicleVehicleNetrunnerQuickhackType = {}

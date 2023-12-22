@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataVehicleUnlockType
-gamedataVehicleUnlockType = {
-    ["CourierMissions"] = 0, ---@type Enum
-    ["Quest"] = 1, ---@type Enum
-    ["StreetCred"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataVehicleUnlockType: Enum
+---@field ["CourierMissions"] gamedataVehicleUnlockType 0
+---@field ["Quest"] gamedataVehicleUnlockType 1
+---@field ["StreetCred"] gamedataVehicleUnlockType 2
+---@field ["Count"] gamedataVehicleUnlockType 3
+---@field ["Invalid"] gamedataVehicleUnlockType 4
+gamedataVehicleUnlockType = {}

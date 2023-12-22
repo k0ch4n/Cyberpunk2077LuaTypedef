@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum Ft_Result
-Ft_Result = {
-    ["Success"] = 0, ---@type Enum
-    ["GettingPlayerGameObjectFailed"] = 1, ---@type Enum
-    ["GetPSMBlackboardFailed"] = 2, ---@type Enum
-    ["GetStatsPoolFailed"] = 3, ---@type Enum
-    ["NoEnemyFoundInSpawner"] = 4, ---@type Enum
-    ["NoEnemyFoundInPool"] = 5, ---@type Enum
-    ["NoEntitiesFoundInSpawner"] = 6, ---@type Enum
-    ["NoEnemyTargeted"] = 7, ---@type Enum
-    ["FailedToSelectGrapple"] = 8, ---@type Enum
-    ["FailedToSelectTakedown"] = 9, ---@type Enum
-    ["TakedownWithoutGrappleAttempt"] = 10, ---@type Enum
-    ["NoInteractionAvailable"] = 11, ---@type Enum
-    ["RequestedInteractionNotAvailable"] = 12, ---@type Enum
-    ["OutOfRange"] = 13, ---@type Enum
-    ["TargetNotInEnemyPool"] = 14, ---@type Enum
-    ["DescriptorFormatError"] = 15, ---@type Enum
-}
+---@class Ft_Result: Enum
+---@field ["Success"] Ft_Result 0
+---@field ["GettingPlayerGameObjectFailed"] Ft_Result 1
+---@field ["GetPSMBlackboardFailed"] Ft_Result 2
+---@field ["GetStatsPoolFailed"] Ft_Result 3
+---@field ["NoEnemyFoundInSpawner"] Ft_Result 4
+---@field ["NoEnemyFoundInPool"] Ft_Result 5
+---@field ["NoEntitiesFoundInSpawner"] Ft_Result 6
+---@field ["NoEnemyTargeted"] Ft_Result 7
+---@field ["FailedToSelectGrapple"] Ft_Result 8
+---@field ["FailedToSelectTakedown"] Ft_Result 9
+---@field ["TakedownWithoutGrappleAttempt"] Ft_Result 10
+---@field ["NoInteractionAvailable"] Ft_Result 11
+---@field ["RequestedInteractionNotAvailable"] Ft_Result 12
+---@field ["OutOfRange"] Ft_Result 13
+---@field ["TargetNotInEnemyPool"] Ft_Result 14
+---@field ["DescriptorFormatError"] Ft_Result 15
+Ft_Result = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CustomButtonType
-CustomButtonType = {
-    ["UnlockAllVehicles"] = 0, ---@type Enum
-    ["ShowAllPoiMappins"] = 1, ---@type Enum
-    ["DiscoverAllPoiMappins"] = 2, ---@type Enum
-}
+---@class CustomButtonType: Enum
+---@field ["UnlockAllVehicles"] CustomButtonType 0
+---@field ["ShowAllPoiMappins"] CustomButtonType 1
+---@field ["DiscoverAllPoiMappins"] CustomButtonType 2
+CustomButtonType = {}

@@ -296,13 +296,12 @@ class Annotation:
         self.add_custom(f'---@field {scope} ["{name}"] {type}')
 
     def add_enum(self, name: str, options: list[dict]):
-        table = [f'["{option["name"]}"] = {option["value"]}' for option in options]
+        self.add_custom(f"---@class {name}: Enum")
 
-        separator = ","
-        type_anotation = "---@type Enum\n"
+        for option in options:
+            self.add_custom(f'---@field ["{option["name"]}"] {name} {option["value"]}')
 
-        self.add_custom(f"---@enum {name}")
-        self.add_custom(f'{name} = {{\n{"".join(f"    {f}{separator} {type_anotation}" for f in table)}}}\n')
+        self.add_custom(f"{name} = {{}}")
 
     def add_bitfields(self, name: str, bits: list[dict]):
         table = [f'    {bit["name"]} = 0x{(1 << bit["bit"]):X}' for bit in bits]

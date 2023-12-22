@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AICommandContextsType
-AICommandContextsType = {
-    ["Default"] = 0, ---@type Enum
-    ["Immediate"] = 1, ---@type Enum
-    ["Movement"] = 2, ---@type Enum
-    ["Workspot"] = 3, ---@type Enum
-    ["Aiming"] = 4, ---@type Enum
-}
+---@class AICommandContextsType: Enum
+---@field ["Default"] AICommandContextsType 0
+---@field ["Immediate"] AICommandContextsType 1
+---@field ["Movement"] AICommandContextsType 2
+---@field ["Workspot"] AICommandContextsType 3
+---@field ["Aiming"] AICommandContextsType 4
+AICommandContextsType = {}

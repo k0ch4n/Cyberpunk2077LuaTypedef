@@ -1,37 +1,36 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGameplayRole
-EGameplayRole = {
-    ["UnAssigned"] = 0, ---@type Enum
-    ["None"] = 1, ---@type Enum
-    ["Alarm"] = 2, ---@type Enum
-    ["ControlNetwork"] = 3, ---@type Enum
-    ["ControlOtherDevice"] = 4, ---@type Enum
-    ["ControlSelf"] = 5, ---@type Enum
-    ["CutPower"] = 6, ---@type Enum
-    ["Distract"] = 7, ---@type Enum
-    ["DropPoint"] = 8, ---@type Enum
-    ["ExplodeLethal"] = 9, ---@type Enum
-    ["ExplodeNoneLethal"] = 10, ---@type Enum
-    ["Fall"] = 11, ---@type Enum
-    ["FastTravel"] = 12, ---@type Enum
-    ["GrantInformation"] = 13, ---@type Enum
-    ["HazardWarning"] = 14, ---@type Enum
-    ["HideBody"] = 15, ---@type Enum
-    ["Loot"] = 16, ---@type Enum
-    ["OpenPath"] = 17, ---@type Enum
-    ["ClearPath"] = 18, ---@type Enum
-    ["Push"] = 19, ---@type Enum
-    ["ServicePoint"] = 20, ---@type Enum
-    ["Shoot"] = 21, ---@type Enum
-    ["SpreadGas"] = 22, ---@type Enum
-    ["StoreItems"] = 23, ---@type Enum
-    ["GenericRole"] = 24, ---@type Enum
-    ["ClearPathAd"] = 25, ---@type Enum
-    ["DistractVendingMachine"] = 26, ---@type Enum
-    ["NPC"] = 27, ---@type Enum
-    ["Clue"] = 28, ---@type Enum
-    ["PlayerStash"] = 29, ---@type Enum
-    ["Wardrobe"] = 30, ---@type Enum
-}
+---@class EGameplayRole: Enum
+---@field ["UnAssigned"] EGameplayRole 0
+---@field ["None"] EGameplayRole 1
+---@field ["Alarm"] EGameplayRole 2
+---@field ["ControlNetwork"] EGameplayRole 3
+---@field ["ControlOtherDevice"] EGameplayRole 4
+---@field ["ControlSelf"] EGameplayRole 5
+---@field ["CutPower"] EGameplayRole 6
+---@field ["Distract"] EGameplayRole 7
+---@field ["DropPoint"] EGameplayRole 8
+---@field ["ExplodeLethal"] EGameplayRole 9
+---@field ["ExplodeNoneLethal"] EGameplayRole 10
+---@field ["Fall"] EGameplayRole 11
+---@field ["FastTravel"] EGameplayRole 12
+---@field ["GrantInformation"] EGameplayRole 13
+---@field ["HazardWarning"] EGameplayRole 14
+---@field ["HideBody"] EGameplayRole 15
+---@field ["Loot"] EGameplayRole 16
+---@field ["OpenPath"] EGameplayRole 17
+---@field ["ClearPath"] EGameplayRole 18
+---@field ["Push"] EGameplayRole 19
+---@field ["ServicePoint"] EGameplayRole 20
+---@field ["Shoot"] EGameplayRole 21
+---@field ["SpreadGas"] EGameplayRole 22
+---@field ["StoreItems"] EGameplayRole 23
+---@field ["GenericRole"] EGameplayRole 24
+---@field ["ClearPathAd"] EGameplayRole 25
+---@field ["DistractVendingMachine"] EGameplayRole 26
+---@field ["NPC"] EGameplayRole 27
+---@field ["Clue"] EGameplayRole 28
+---@field ["PlayerStash"] EGameplayRole 29
+---@field ["Wardrobe"] EGameplayRole 30
+EGameplayRole = {}

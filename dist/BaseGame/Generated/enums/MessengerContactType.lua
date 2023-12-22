@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum MessengerContactType
-MessengerContactType = {
-    ["SingleThread"] = 0, ---@type Enum
-    ["MultiThread"] = 1, ---@type Enum
-    ["Contact"] = 2, ---@type Enum
-    ["Fake_ShowAll"] = 3, ---@type Enum
-}
+---@class MessengerContactType: Enum
+---@field ["SingleThread"] MessengerContactType 0
+---@field ["MultiThread"] MessengerContactType 1
+---@field ["Contact"] MessengerContactType 2
+---@field ["Fake_ShowAll"] MessengerContactType 3
+MessengerContactType = {}

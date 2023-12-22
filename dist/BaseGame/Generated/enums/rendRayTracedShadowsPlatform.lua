@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendRayTracedShadowsPlatform
-rendRayTracedShadowsPlatform = {
-    ["RLSP_All"] = 0, ---@type Enum
-    ["RLSP_PC"] = 1, ---@type Enum
-    ["RLSP_Consoles"] = 2, ---@type Enum
-}
+---@class rendRayTracedShadowsPlatform: Enum
+---@field ["RLSP_All"] rendRayTracedShadowsPlatform 0
+---@field ["RLSP_PC"] rendRayTracedShadowsPlatform 1
+---@field ["RLSP_Consoles"] rendRayTracedShadowsPlatform 2
+rendRayTracedShadowsPlatform = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERenderMaterialType
-ERenderMaterialType = {
-    ["RMT_Standard"] = 0, ---@type Enum
-    ["RMT_Subsurface"] = 1, ---@type Enum
-    ["RMT_Cloth"] = 2, ---@type Enum
-    ["RMT_Eye"] = 3, ---@type Enum
-    ["RMT_Hair"] = 4, ---@type Enum
-    ["RMT_Foliage"] = 5, ---@type Enum
-}
+---@class ERenderMaterialType: Enum
+---@field ["RMT_Standard"] ERenderMaterialType 0
+---@field ["RMT_Subsurface"] ERenderMaterialType 1
+---@field ["RMT_Cloth"] ERenderMaterialType 2
+---@field ["RMT_Eye"] ERenderMaterialType 3
+---@field ["RMT_Hair"] ERenderMaterialType 4
+---@field ["RMT_Foliage"] ERenderMaterialType 5
+ERenderMaterialType = {}

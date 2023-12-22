@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum StaticShaderInputLayout
-StaticShaderInputLayout = {
-    ["DebugVertexBase"] = 0, ---@type Enum
-    ["DebugVertexUV"] = 1, ---@type Enum
-    ["DebugVertexUV_Fullscreen"] = 2, ---@type Enum
-    ["NoBuffers_Fullscreen"] = 3, ---@type Enum
-    ["NoBuffers_PointList"] = 4, ---@type Enum
-}
+---@class StaticShaderInputLayout: Enum
+---@field ["DebugVertexBase"] StaticShaderInputLayout 0
+---@field ["DebugVertexUV"] StaticShaderInputLayout 1
+---@field ["DebugVertexUV_Fullscreen"] StaticShaderInputLayout 2
+---@field ["NoBuffers_Fullscreen"] StaticShaderInputLayout 3
+---@field ["NoBuffers_PointList"] StaticShaderInputLayout 4
+StaticShaderInputLayout = {}

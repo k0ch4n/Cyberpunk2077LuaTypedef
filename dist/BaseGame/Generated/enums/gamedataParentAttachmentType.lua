@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataParentAttachmentType
-gamedataParentAttachmentType = {
-    ["Animated"] = 0, ---@type Enum
-    ["Skinned"] = 1, ---@type Enum
-    ["Slot"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataParentAttachmentType: Enum
+---@field ["Animated"] gamedataParentAttachmentType 0
+---@field ["Skinned"] gamedataParentAttachmentType 1
+---@field ["Slot"] gamedataParentAttachmentType 2
+---@field ["Count"] gamedataParentAttachmentType 3
+---@field ["Invalid"] gamedataParentAttachmentType 4
+gamedataParentAttachmentType = {}

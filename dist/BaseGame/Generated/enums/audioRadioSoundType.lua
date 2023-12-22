@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioRadioSoundType
-audioRadioSoundType = {
-    ["Song"] = 0, ---@type Enum
-    ["AnnouncementScene"] = 1, ---@type Enum
-}
+---@class audioRadioSoundType: Enum
+---@field ["Song"] audioRadioSoundType 0
+---@field ["AnnouncementScene"] audioRadioSoundType 1
+audioRadioSoundType = {}

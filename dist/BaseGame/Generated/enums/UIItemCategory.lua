@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum UIItemCategory
-UIItemCategory = {
-    ["Default"] = 0, ---@type Enum
-    ["Weapon"] = 1, ---@type Enum
-    ["Clothing"] = 2, ---@type Enum
-    ["Grenade"] = 3, ---@type Enum
-    ["Cyberware"] = 4, ---@type Enum
-    ["CyberwareWeapon"] = 5, ---@type Enum
-    ["Cyberdeck"] = 6, ---@type Enum
-    ["Program"] = 7, ---@type Enum
-}
+---@class UIItemCategory: Enum
+---@field ["Default"] UIItemCategory 0
+---@field ["Weapon"] UIItemCategory 1
+---@field ["Clothing"] UIItemCategory 2
+---@field ["Grenade"] UIItemCategory 3
+---@field ["Cyberware"] UIItemCategory 4
+---@field ["CyberwareWeapon"] UIItemCategory 5
+---@field ["Cyberdeck"] UIItemCategory 6
+---@field ["Program"] UIItemCategory 7
+UIItemCategory = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum renderDevTXAADebugMode
-renderDevTXAADebugMode = {
-    ["TXAA_NoDebug"] = 0, ---@type Enum
-    ["TXAA_ShowHistoryBlendFactor"] = 1, ---@type Enum
-}
+---@class renderDevTXAADebugMode: Enum
+---@field ["TXAA_NoDebug"] renderDevTXAADebugMode 0
+---@field ["TXAA_ShowHistoryBlendFactor"] renderDevTXAADebugMode 1
+renderDevTXAADebugMode = {}

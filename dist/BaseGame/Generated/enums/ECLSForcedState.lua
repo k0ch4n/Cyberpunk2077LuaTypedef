@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECLSForcedState
-ECLSForcedState = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["ForcedON"] = 1, ---@type Enum
-    ["ForcedOFF"] = 2, ---@type Enum
-}
+---@class ECLSForcedState: Enum
+---@field ["DEFAULT"] ECLSForcedState 0
+---@field ["ForcedON"] ECLSForcedState 1
+---@field ["ForcedOFF"] ECLSForcedState 2
+ECLSForcedState = {}

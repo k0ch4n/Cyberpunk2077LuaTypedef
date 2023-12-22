@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animWeaponOwnerType
-animWeaponOwnerType = {
-    ["Player"] = 0, ---@type Enum
-    ["NPC"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class animWeaponOwnerType: Enum
+---@field ["Player"] animWeaponOwnerType 0
+---@field ["NPC"] animWeaponOwnerType 1
+---@field ["None"] animWeaponOwnerType 2
+animWeaponOwnerType = {}

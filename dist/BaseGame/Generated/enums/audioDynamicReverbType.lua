@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioDynamicReverbType
-audioDynamicReverbType = {
-    ["Dynamic"] = 0, ---@type Enum
-    ["StaticSmall"] = 1, ---@type Enum
-    ["EnvironmentSmallStaticMedium"] = 2, ---@type Enum
-    ["DynamicSource"] = 3, ---@type Enum
-}
+---@class audioDynamicReverbType: Enum
+---@field ["Dynamic"] audioDynamicReverbType 0
+---@field ["StaticSmall"] audioDynamicReverbType 1
+---@field ["EnvironmentSmallStaticMedium"] audioDynamicReverbType 2
+---@field ["DynamicSource"] audioDynamicReverbType 3
+audioDynamicReverbType = {}

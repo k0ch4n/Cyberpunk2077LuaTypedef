@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkIconResult
-inkIconResult = {
-    ["Success"] = 0, ---@type Enum
-    ["UnknownIconTweak"] = 1, ---@type Enum
-    ["AtlasResourceNotFound"] = 2, ---@type Enum
-    ["PartNotFoundInAtlas"] = 3, ---@type Enum
-}
+---@class inkIconResult: Enum
+---@field ["Success"] inkIconResult 0
+---@field ["UnknownIconTweak"] inkIconResult 1
+---@field ["AtlasResourceNotFound"] inkIconResult 2
+---@field ["PartNotFoundInAtlas"] inkIconResult 3
+inkIconResult = {}

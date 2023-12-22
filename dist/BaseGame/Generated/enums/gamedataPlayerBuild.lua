@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataPlayerBuild
-gamedataPlayerBuild = {
-    ["Cool"] = 0, ---@type Enum
-    ["Netrunner"] = 1, ---@type Enum
-    ["Reflexes"] = 2, ---@type Enum
-    ["Solo"] = 3, ---@type Enum
-    ["Techie"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataPlayerBuild: Enum
+---@field ["Cool"] gamedataPlayerBuild 0
+---@field ["Netrunner"] gamedataPlayerBuild 1
+---@field ["Reflexes"] gamedataPlayerBuild 2
+---@field ["Solo"] gamedataPlayerBuild 3
+---@field ["Techie"] gamedataPlayerBuild 4
+---@field ["Count"] gamedataPlayerBuild 5
+---@field ["Invalid"] gamedataPlayerBuild 6
+gamedataPlayerBuild = {}

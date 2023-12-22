@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataEthnicity
-gamedataEthnicity = {
-    ["African"] = 0, ---@type Enum
-    ["AfricanAmerican"] = 1, ---@type Enum
-    ["AmericanEnglish"] = 2, ---@type Enum
-    ["Arabic"] = 3, ---@type Enum
-    ["Brasilian"] = 4, ---@type Enum
-    ["BritishEnglish"] = 5, ---@type Enum
-    ["Caribbean"] = 6, ---@type Enum
-    ["Chinese"] = 7, ---@type Enum
-    ["Default"] = 8, ---@type Enum
-    ["Indian"] = 9, ---@type Enum
-    ["Japanese"] = 10, ---@type Enum
-    ["Mexican"] = 11, ---@type Enum
-    ["NativeAmerican"] = 12, ---@type Enum
-    ["Russian"] = 13, ---@type Enum
-    ["Count"] = 14, ---@type Enum
-    ["Invalid"] = 15, ---@type Enum
-}
+---@class gamedataEthnicity: Enum
+---@field ["African"] gamedataEthnicity 0
+---@field ["AfricanAmerican"] gamedataEthnicity 1
+---@field ["AmericanEnglish"] gamedataEthnicity 2
+---@field ["Arabic"] gamedataEthnicity 3
+---@field ["Brasilian"] gamedataEthnicity 4
+---@field ["BritishEnglish"] gamedataEthnicity 5
+---@field ["Caribbean"] gamedataEthnicity 6
+---@field ["Chinese"] gamedataEthnicity 7
+---@field ["Default"] gamedataEthnicity 8
+---@field ["Indian"] gamedataEthnicity 9
+---@field ["Japanese"] gamedataEthnicity 10
+---@field ["Mexican"] gamedataEthnicity 11
+---@field ["NativeAmerican"] gamedataEthnicity 12
+---@field ["Russian"] gamedataEthnicity 13
+---@field ["Count"] gamedataEthnicity 14
+---@field ["Invalid"] gamedataEthnicity 15
+gamedataEthnicity = {}

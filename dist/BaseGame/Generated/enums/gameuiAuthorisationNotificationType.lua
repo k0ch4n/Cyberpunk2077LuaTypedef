@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiAuthorisationNotificationType
-gameuiAuthorisationNotificationType = {
-    ["Unknown"] = 0, ---@type Enum
-    ["GotKeycard"] = 1, ---@type Enum
-    ["AccessGranted"] = 2, ---@type Enum
-}
+---@class gameuiAuthorisationNotificationType: Enum
+---@field ["Unknown"] gameuiAuthorisationNotificationType 0
+---@field ["GotKeycard"] gameuiAuthorisationNotificationType 1
+---@field ["AccessGranted"] gameuiAuthorisationNotificationType 2
+gameuiAuthorisationNotificationType = {}

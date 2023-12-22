@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnOffsetMode
-scnOffsetMode = {
-    ["useRealOffset"] = 0, ---@type Enum
-    ["useCustomOffset"] = 1, ---@type Enum
-}
+---@class scnOffsetMode: Enum
+---@field ["useRealOffset"] scnOffsetMode 0
+---@field ["useCustomOffset"] scnOffsetMode 1
+scnOffsetMode = {}

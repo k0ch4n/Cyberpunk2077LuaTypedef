@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSmartObjectPointType
-gameSmartObjectPointType = {
-    ["Entry"] = 0, ---@type Enum
-    ["Exit"] = 1, ---@type Enum
-    ["Action"] = 2, ---@type Enum
-}
+---@class gameSmartObjectPointType: Enum
+---@field ["Entry"] gameSmartObjectPointType 0
+---@field ["Exit"] gameSmartObjectPointType 1
+---@field ["Action"] gameSmartObjectPointType 2
+gameSmartObjectPointType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMuppetComparisonReportItemType
-gameMuppetComparisonReportItemType = {
-    ["Different"] = 0, ---@type Enum
-    ["WithinTolerance"] = 1, ---@type Enum
-    ["Equal"] = 2, ---@type Enum
-}
+---@class gameMuppetComparisonReportItemType: Enum
+---@field ["Different"] gameMuppetComparisonReportItemType 0
+---@field ["WithinTolerance"] gameMuppetComparisonReportItemType 1
+---@field ["Equal"] gameMuppetComparisonReportItemType 2
+gameMuppetComparisonReportItemType = {}

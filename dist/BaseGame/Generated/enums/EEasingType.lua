@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EEasingType
-EEasingType = {
-    ["EET_In"] = 0, ---@type Enum
-    ["EET_Out"] = 1, ---@type Enum
-    ["EET_InOut"] = 2, ---@type Enum
-}
+---@class EEasingType: Enum
+---@field ["EET_In"] EEasingType 0
+---@field ["EET_Out"] EEasingType 1
+---@field ["EET_InOut"] EEasingType 2
+EEasingType = {}

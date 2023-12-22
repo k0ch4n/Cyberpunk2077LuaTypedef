@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EHotkeyRequestType
-EHotkeyRequestType = {
-    ["Assign"] = 0, ---@type Enum
-    ["Cycle"] = 1, ---@type Enum
-    ["Restore"] = 2, ---@type Enum
-}
+---@class EHotkeyRequestType: Enum
+---@field ["Assign"] EHotkeyRequestType 0
+---@field ["Cycle"] EHotkeyRequestType 1
+---@field ["Restore"] EHotkeyRequestType 2
+EHotkeyRequestType = {}

@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMBodyCarryingLocomotion
-gamePSMBodyCarryingLocomotion = {
-    ["Default"] = 0, ---@type Enum
-    ["Jump"] = 1, ---@type Enum
-    ["Crouch"] = 2, ---@type Enum
-    ["Sprint"] = 3, ---@type Enum
-    ["Fall"] = 4, ---@type Enum
-    ["Land"] = 5, ---@type Enum
-    ["DropBody"] = 6, ---@type Enum
-}
+---@class gamePSMBodyCarryingLocomotion: Enum
+---@field ["Default"] gamePSMBodyCarryingLocomotion 0
+---@field ["Jump"] gamePSMBodyCarryingLocomotion 1
+---@field ["Crouch"] gamePSMBodyCarryingLocomotion 2
+---@field ["Sprint"] gamePSMBodyCarryingLocomotion 3
+---@field ["Fall"] gamePSMBodyCarryingLocomotion 4
+---@field ["Land"] gamePSMBodyCarryingLocomotion 5
+---@field ["DropBody"] gamePSMBodyCarryingLocomotion 6
+gamePSMBodyCarryingLocomotion = {}

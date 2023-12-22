@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleEVehicleWindowState
-vehicleEVehicleWindowState = {
-    ["Closed"] = 0, ---@type Enum
-    ["Open"] = 1, ---@type Enum
-}
+---@class vehicleEVehicleWindowState: Enum
+---@field ["Closed"] vehicleEVehicleWindowState 0
+---@field ["Open"] vehicleEVehicleWindowState 1
+vehicleEVehicleWindowState = {}

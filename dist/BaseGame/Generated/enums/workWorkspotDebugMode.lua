@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum workWorkspotDebugMode
-workWorkspotDebugMode = {
-    ["VisualLogToogle"] = 2, ---@type Enum
-    ["VisualLogOn"] = 4, ---@type Enum
-    ["VisualLogOff"] = 8, ---@type Enum
-    ["VisualStateToogle"] = 16, ---@type Enum
-    ["VisualStateOn"] = 32, ---@type Enum
-    ["VisualStateOff"] = 64, ---@type Enum
-    ["RecorderOn"] = 128, ---@type Enum
-    ["RecorderOff"] = 256, ---@type Enum
-    ["PlaybackOn"] = 512, ---@type Enum
-    ["PlaybackOff"] = 1024, ---@type Enum
-    ["Invalid"] = 4096, ---@type Enum
-    ["FunctionalTests"] = 8192, ---@type Enum
-}
+---@class workWorkspotDebugMode: Enum
+---@field ["VisualLogToogle"] workWorkspotDebugMode 2
+---@field ["VisualLogOn"] workWorkspotDebugMode 4
+---@field ["VisualLogOff"] workWorkspotDebugMode 8
+---@field ["VisualStateToogle"] workWorkspotDebugMode 16
+---@field ["VisualStateOn"] workWorkspotDebugMode 32
+---@field ["VisualStateOff"] workWorkspotDebugMode 64
+---@field ["RecorderOn"] workWorkspotDebugMode 128
+---@field ["RecorderOff"] workWorkspotDebugMode 256
+---@field ["PlaybackOn"] workWorkspotDebugMode 512
+---@field ["PlaybackOff"] workWorkspotDebugMode 1024
+---@field ["Invalid"] workWorkspotDebugMode 4096
+---@field ["FunctionalTests"] workWorkspotDebugMode 8192
+workWorkspotDebugMode = {}

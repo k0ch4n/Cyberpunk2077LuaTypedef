@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioWeaponTailEnvironment
-audioWeaponTailEnvironment = {
-    ["InteriorDefault"] = 0, ---@type Enum
-    ["InteriorWide"] = 1, ---@type Enum
-    ["ExteriorWide"] = 2, ---@type Enum
-    ["ExteriorUrbanNarrow"] = 3, ---@type Enum
-    ["ExteriorUrbanStreet"] = 4, ---@type Enum
-    ["ExteriorUrbanStreetWide"] = 5, ---@type Enum
-    ["ExteriorUrbanOpen"] = 6, ---@type Enum
-    ["ExteriorUrbanEnclosed"] = 7, ---@type Enum
-    ["ExteriorBadlandsOpen"] = 8, ---@type Enum
-    ["ExteriorBadlandsCanyon"] = 9, ---@type Enum
-}
+---@class audioWeaponTailEnvironment: Enum
+---@field ["InteriorDefault"] audioWeaponTailEnvironment 0
+---@field ["InteriorWide"] audioWeaponTailEnvironment 1
+---@field ["ExteriorWide"] audioWeaponTailEnvironment 2
+---@field ["ExteriorUrbanNarrow"] audioWeaponTailEnvironment 3
+---@field ["ExteriorUrbanStreet"] audioWeaponTailEnvironment 4
+---@field ["ExteriorUrbanStreetWide"] audioWeaponTailEnvironment 5
+---@field ["ExteriorUrbanOpen"] audioWeaponTailEnvironment 6
+---@field ["ExteriorUrbanEnclosed"] audioWeaponTailEnvironment 7
+---@field ["ExteriorBadlandsOpen"] audioWeaponTailEnvironment 8
+---@field ["ExteriorBadlandsCanyon"] audioWeaponTailEnvironment 9
+audioWeaponTailEnvironment = {}

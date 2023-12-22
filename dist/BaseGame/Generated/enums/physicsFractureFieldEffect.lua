@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsFractureFieldEffect
-physicsFractureFieldEffect = {
-    ["FE_Fracture"] = 0, ---@type Enum
-    ["FE_Erase"] = 1, ---@type Enum
-}
+---@class physicsFractureFieldEffect: Enum
+---@field ["FE_Fracture"] physicsFractureFieldEffect 0
+---@field ["FE_Erase"] physicsFractureFieldEffect 1
+physicsFractureFieldEffect = {}

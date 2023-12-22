@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum curveEInterpolationType
-curveEInterpolationType = {
-    ["EIT_Constant"] = 0, ---@type Enum
-    ["EIT_Linear"] = 1, ---@type Enum
-    ["EIT_BezierQuadratic"] = 2, ---@type Enum
-    ["EIT_BezierCubic"] = 3, ---@type Enum
-    ["EIT_Hermite"] = 4, ---@type Enum
-}
+---@class curveEInterpolationType: Enum
+---@field ["EIT_Constant"] curveEInterpolationType 0
+---@field ["EIT_Linear"] curveEInterpolationType 1
+---@field ["EIT_BezierQuadratic"] curveEInterpolationType 2
+---@field ["EIT_BezierCubic"] curveEInterpolationType 3
+---@field ["EIT_Hermite"] curveEInterpolationType 4
+curveEInterpolationType = {}

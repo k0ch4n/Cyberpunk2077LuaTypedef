@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldgeometryDescriptionQueryFlags
-worldgeometryDescriptionQueryFlags = {
-    ["DistanceVector"] = 1, ---@type Enum
-    ["CollisionNormal"] = 2, ---@type Enum
-    ["ObstacleDepth"] = 4, ---@type Enum
-    ["UpExtent"] = 8, ---@type Enum
-    ["DownExtent"] = 16, ---@type Enum
-    ["TopExtent"] = 32, ---@type Enum
-    ["TopPoint"] = 64, ---@type Enum
-    ["BehindPoint"] = 128, ---@type Enum
-}
+---@class worldgeometryDescriptionQueryFlags: Enum
+---@field ["DistanceVector"] worldgeometryDescriptionQueryFlags 1
+---@field ["CollisionNormal"] worldgeometryDescriptionQueryFlags 2
+---@field ["ObstacleDepth"] worldgeometryDescriptionQueryFlags 4
+---@field ["UpExtent"] worldgeometryDescriptionQueryFlags 8
+---@field ["DownExtent"] worldgeometryDescriptionQueryFlags 16
+---@field ["TopExtent"] worldgeometryDescriptionQueryFlags 32
+---@field ["TopPoint"] worldgeometryDescriptionQueryFlags 64
+---@field ["BehindPoint"] worldgeometryDescriptionQueryFlags 128
+worldgeometryDescriptionQueryFlags = {}

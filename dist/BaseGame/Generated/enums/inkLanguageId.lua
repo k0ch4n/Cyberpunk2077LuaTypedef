@@ -1,27 +1,26 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkLanguageId
-inkLanguageId = {
-    ["EN"] = 0, ---@type Enum
-    ["PL"] = 1, ---@type Enum
-    ["JP"] = 2, ---@type Enum
-    ["DE"] = 3, ---@type Enum
-    ["ES"] = 4, ---@type Enum
-    ["MX"] = 5, ---@type Enum
-    ["KR"] = 6, ---@type Enum
-    ["IT"] = 7, ---@type Enum
-    ["FR"] = 8, ---@type Enum
-    ["RU"] = 9, ---@type Enum
-    ["PR"] = 10, ---@type Enum
-    ["ZH_CN"] = 11, ---@type Enum
-    ["TW"] = 12, ---@type Enum
-    ["CZ"] = 13, ---@type Enum
-    ["HU"] = 14, ---@type Enum
-    ["AR"] = 15, ---@type Enum
-    ["TR"] = 16, ---@type Enum
-    ["TH"] = 17, ---@type Enum
-    ["HT"] = 18, ---@type Enum
-    ["UA"] = 20, ---@type Enum
-    ["DEBUG"] = 21, ---@type Enum
-}
+---@class inkLanguageId: Enum
+---@field ["EN"] inkLanguageId 0
+---@field ["PL"] inkLanguageId 1
+---@field ["JP"] inkLanguageId 2
+---@field ["DE"] inkLanguageId 3
+---@field ["ES"] inkLanguageId 4
+---@field ["MX"] inkLanguageId 5
+---@field ["KR"] inkLanguageId 6
+---@field ["IT"] inkLanguageId 7
+---@field ["FR"] inkLanguageId 8
+---@field ["RU"] inkLanguageId 9
+---@field ["PR"] inkLanguageId 10
+---@field ["ZH_CN"] inkLanguageId 11
+---@field ["TW"] inkLanguageId 12
+---@field ["CZ"] inkLanguageId 13
+---@field ["HU"] inkLanguageId 14
+---@field ["AR"] inkLanguageId 15
+---@field ["TR"] inkLanguageId 16
+---@field ["TH"] inkLanguageId 17
+---@field ["HT"] inkLanguageId 18
+---@field ["UA"] inkLanguageId 20
+---@field ["DEBUG"] inkLanguageId 21
+inkLanguageId = {}

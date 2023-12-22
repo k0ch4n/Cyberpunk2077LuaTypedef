@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EReprimandInstructions
-EReprimandInstructions = {
-    ["INITIATE_FIRST"] = 0, ---@type Enum
-    ["INITIATE_SUCCESSIVE"] = 1, ---@type Enum
-    ["TAKEOVER"] = 2, ---@type Enum
-    ["CONCLUDE_SUCCESSFUL"] = 3, ---@type Enum
-    ["CONCLUDE_FAILED"] = 4, ---@type Enum
-    ["RELEASE_TO_ANOTHER_ENTITY"] = 5, ---@type Enum
-}
+---@class EReprimandInstructions: Enum
+---@field ["INITIATE_FIRST"] EReprimandInstructions 0
+---@field ["INITIATE_SUCCESSIVE"] EReprimandInstructions 1
+---@field ["TAKEOVER"] EReprimandInstructions 2
+---@field ["CONCLUDE_SUCCESSFUL"] EReprimandInstructions 3
+---@field ["CONCLUDE_FAILED"] EReprimandInstructions 4
+---@field ["RELEASE_TO_ANOTHER_ENTITY"] EReprimandInstructions 5
+EReprimandInstructions = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEStatProviderDataSource
-gameEStatProviderDataSource = {
-    ["gameItemData"] = 0, ---@type Enum
-    ["InventoryItemData"] = 1, ---@type Enum
-    ["InnerItemData"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gameEStatProviderDataSource: Enum
+---@field ["gameItemData"] gameEStatProviderDataSource 0
+---@field ["InventoryItemData"] gameEStatProviderDataSource 1
+---@field ["InnerItemData"] gameEStatProviderDataSource 2
+---@field ["Invalid"] gameEStatProviderDataSource 3
+gameEStatProviderDataSource = {}

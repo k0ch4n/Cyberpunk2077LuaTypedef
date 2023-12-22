@@ -1,30 +1,29 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EBarkList
-EBarkList = {
-    ["vo_enemy_reaction_surprised_combat_start"] = 0, ---@type Enum
-    ["vo_enemy_reaction_generic_cursing"] = 1, ---@type Enum
-    ["vo_enemy_reaction_jammed_weapon"] = 2, ---@type Enum
-    ["vo_enemy_reaction_impact_hit"] = 3, ---@type Enum
-    ["vo_enemy_reaction_stagger_hit"] = 4, ---@type Enum
-    ["vo_enemy_reaction_crippled_arm"] = 5, ---@type Enum
-    ["vo_enemy_reaction_crippled_leg"] = 6, ---@type Enum
-    ["vo_enemy_reaction_death"] = 7, ---@type Enum
-    ["vo_enemy_group_call_to_combat"] = 8, ---@type Enum
-    ["vo_enemy_group_call_for_help"] = 9, ---@type Enum
-    ["vo_enemy_group_order_go_to_cover"] = 10, ---@type Enum
-    ["vo_enemy_group_order_flank_target"] = 11, ---@type Enum
-    ["vo_enemy_group_order_suppressing_fire"] = 12, ---@type Enum
-    ["vo_enemy_answer_to_order_suppressing_fire"] = 13, ---@type Enum
-    ["vo_enemy_group_notification_reloading"] = 14, ---@type Enum
-    ["vo_enemy_group_notification_squad_member_died"] = 15, ---@type Enum
-    ["vo_enemy_group_notification_grenade_nearby"] = 16, ---@type Enum
-    ["vo_enemy_group_notification_target_using_sandevistan"] = 17, ---@type Enum
-    ["vo_enemy_group_notification_target_using_kerenzikov"] = 18, ---@type Enum
-    ["vo_enemy_answer_to_notification_target_using_sandevistan"] = 19, ---@type Enum
-    ["vo_enemy_answer_to_notification_target_using_kerenzikov"] = 20, ---@type Enum
-    ["vo_enemy_group_generic_combat_question"] = 21, ---@type Enum
-    ["vo_enemy_answer_to_generic_combat_question"] = 22, ---@type Enum
-    ["vo_enemy_group_boost_combat_morale"] = 23, ---@type Enum
-}
+---@class EBarkList: Enum
+---@field ["vo_enemy_reaction_surprised_combat_start"] EBarkList 0
+---@field ["vo_enemy_reaction_generic_cursing"] EBarkList 1
+---@field ["vo_enemy_reaction_jammed_weapon"] EBarkList 2
+---@field ["vo_enemy_reaction_impact_hit"] EBarkList 3
+---@field ["vo_enemy_reaction_stagger_hit"] EBarkList 4
+---@field ["vo_enemy_reaction_crippled_arm"] EBarkList 5
+---@field ["vo_enemy_reaction_crippled_leg"] EBarkList 6
+---@field ["vo_enemy_reaction_death"] EBarkList 7
+---@field ["vo_enemy_group_call_to_combat"] EBarkList 8
+---@field ["vo_enemy_group_call_for_help"] EBarkList 9
+---@field ["vo_enemy_group_order_go_to_cover"] EBarkList 10
+---@field ["vo_enemy_group_order_flank_target"] EBarkList 11
+---@field ["vo_enemy_group_order_suppressing_fire"] EBarkList 12
+---@field ["vo_enemy_answer_to_order_suppressing_fire"] EBarkList 13
+---@field ["vo_enemy_group_notification_reloading"] EBarkList 14
+---@field ["vo_enemy_group_notification_squad_member_died"] EBarkList 15
+---@field ["vo_enemy_group_notification_grenade_nearby"] EBarkList 16
+---@field ["vo_enemy_group_notification_target_using_sandevistan"] EBarkList 17
+---@field ["vo_enemy_group_notification_target_using_kerenzikov"] EBarkList 18
+---@field ["vo_enemy_answer_to_notification_target_using_sandevistan"] EBarkList 19
+---@field ["vo_enemy_answer_to_notification_target_using_kerenzikov"] EBarkList 20
+---@field ["vo_enemy_group_generic_combat_question"] EBarkList 21
+---@field ["vo_enemy_answer_to_generic_combat_question"] EBarkList 22
+---@field ["vo_enemy_group_boost_combat_morale"] EBarkList 23
+EBarkList = {}

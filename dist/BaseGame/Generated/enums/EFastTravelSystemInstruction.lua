@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFastTravelSystemInstruction
-EFastTravelSystemInstruction = {
-    ["Forward"] = 0, ---@type Enum
-    ["Previous"] = 1, ---@type Enum
-}
+---@class EFastTravelSystemInstruction: Enum
+---@field ["Forward"] EFastTravelSystemInstruction 0
+---@field ["Previous"] EFastTravelSystemInstruction 1
+EFastTravelSystemInstruction = {}

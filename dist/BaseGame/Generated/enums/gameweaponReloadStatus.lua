@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameweaponReloadStatus
-gameweaponReloadStatus = {
-    ["Standard"] = 0, ---@type Enum
-    ["Interrupted"] = 1, ---@type Enum
-}
+---@class gameweaponReloadStatus: Enum
+---@field ["Standard"] gameweaponReloadStatus 0
+---@field ["Interrupted"] gameweaponReloadStatus 1
+gameweaponReloadStatus = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioBreathingTransitionComparator
-audioBreathingTransitionComparator = {
-    ["Less"] = 0, ---@type Enum
-    ["Equal"] = 1, ---@type Enum
-    ["Greater"] = 2, ---@type Enum
-}
+---@class audioBreathingTransitionComparator: Enum
+---@field ["Less"] audioBreathingTransitionComparator 0
+---@field ["Equal"] audioBreathingTransitionComparator 1
+---@field ["Greater"] audioBreathingTransitionComparator 2
+audioBreathingTransitionComparator = {}

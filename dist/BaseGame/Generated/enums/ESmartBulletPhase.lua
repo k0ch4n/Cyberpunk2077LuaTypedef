@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESmartBulletPhase
-ESmartBulletPhase = {
-    ["Init"] = 0, ---@type Enum
-    ["Parabolic"] = 1, ---@type Enum
-    ["Follow"] = 2, ---@type Enum
-    ["Linear"] = 3, ---@type Enum
-    ["Miss"] = 4, ---@type Enum
-}
+---@class ESmartBulletPhase: Enum
+---@field ["Init"] ESmartBulletPhase 0
+---@field ["Parabolic"] ESmartBulletPhase 1
+---@field ["Follow"] ESmartBulletPhase 2
+---@field ["Linear"] ESmartBulletPhase 3
+---@field ["Miss"] ESmartBulletPhase 4
+ESmartBulletPhase = {}

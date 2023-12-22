@@ -1,108 +1,107 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum hitFlag
-hitFlag = {
-    ["None"] = 0, ---@type Enum
-    ["IgnoreImmortalityModes"] = 1, ---@type Enum
-    ["FriendlyFire"] = 2, ---@type Enum
-    ["DisableSounds"] = 3, ---@type Enum
-    ["DisableVFX"] = 4, ---@type Enum
-    ["CannotReturnDamage"] = 5, ---@type Enum
-    ["CanParry"] = 6, ---@type Enum
-    ["CanCounter"] = 7, ---@type Enum
-    ["CanDodge"] = 8, ---@type Enum
-    ["WasBlocked"] = 9, ---@type Enum
-    ["WasDeflected"] = 10, ---@type Enum
-    ["WasDodged"] = 11, ---@type Enum
-    ["WasEvaded"] = 12, ---@type Enum
-    ["WasMitigated"] = 13, ---@type Enum
-    ["Kill"] = 14, ---@type Enum
-    ["DontShowDamageFloater"] = 15, ---@type Enum
-    ["DealNoDamage"] = 16, ---@type Enum
-    ["CannotModifyDamage"] = 17, ---@type Enum
-    ["Headshot"] = 18, ---@type Enum
-    ["CriticalHit"] = 19, ---@type Enum
-    ["FinisherTriggered"] = 20, ---@type Enum
-    ["DamageNullified"] = 21, ---@type Enum
-    ["Nonlethal"] = 22, ---@type Enum
-    ["WasKillingBlow"] = 23, ---@type Enum
-    ["ProcessDefeated"] = 24, ---@type Enum
-    ["Defeated"] = 25, ---@type Enum
-    ["SilentKillModifier"] = 26, ---@type Enum
-    ["DeterministicDamage"] = 27, ---@type Enum
-    ["WeakspotHit"] = 28, ---@type Enum
-    ["StealthHit"] = 29, ---@type Enum
-    ["DoNotTriggerFinisher"] = 30, ---@type Enum
-    ["DealtDamage"] = 31, ---@type Enum
-    ["ImmortalTarget"] = 32, ---@type Enum
-    ["CanDamageSelf"] = 33, ---@type Enum
-    ["SuccessfulAttack"] = 34, ---@type Enum
-    ["WeaponFullyCharged"] = 35, ---@type Enum
-    ["DisableNPCHitReaction"] = 36, ---@type Enum
-    ["VehicleDamage"] = 37, ---@type Enum
-    ["VehicleImpact"] = 38, ---@type Enum
-    ["VehicleImpactWithPlayer"] = 39, ---@type Enum
-    ["RagdollImpact"] = 40, ---@type Enum
-    ["IgnoreDifficulty"] = 41, ---@type Enum
-    ["QuickHack"] = 42, ---@type Enum
-    ["IgnoreVehicles"] = 43, ---@type Enum
-    ["DamageOverTime"] = 44, ---@type Enum
-    ["DotApplied"] = 45, ---@type Enum
-    ["OverridePlayerDamageWithFixedPercentage"] = 46, ---@type Enum
-    ["DeviceExplosionAttack"] = 47, ---@type Enum
-    ["NPCPassengerVehicleCollision"] = 48, ---@type Enum
-    ["PROJECT_SPECIFIC_FLAGS"] = 100000, ---@type Enum
-    ["UsedKerenzikov"] = 100001, ---@type Enum
-    ["FragmentationSplinter"] = 100002, ---@type Enum
-    ["DetonateGrenades"] = 100003, ---@type Enum
-    ["WeakExplosion"] = 100004, ---@type Enum
-    ["BulletExplosion"] = 100005, ---@type Enum
-    ["GrenadeQuickhackExplosion"] = 100006, ---@type Enum
-    ["FriendlyFireIgnored"] = 100007, ---@type Enum
-    ["ForceNoCrit"] = 100008, ---@type Enum
-    ["ReduceDamage"] = 100009, ---@type Enum
-    ["ForceDismember"] = 100010, ---@type Enum
-    ["SaburoKatana"] = 100011, ---@type Enum
-    ["SaburoTanto"] = 100012, ---@type Enum
-    ["WasBulletParried"] = 100013, ---@type Enum
-    ["WasBulletDeflected"] = 100014, ---@type Enum
-    ["WasBulletBlocked"] = 100015, ---@type Enum
-    ["HauntedCyberdeck"] = 100016, ---@type Enum
-    ["HauntedGun"] = 100017, ---@type Enum
-    ["HauntedKill"] = 100018, ---@type Enum
-    ["BreachHit"] = 100019, ---@type Enum
-    ["OnePunch"] = 100020, ---@type Enum
-    ["GrandFinale"] = 100021, ---@type Enum
-    ["BleedingDot"] = 100022, ---@type Enum
-    ["AirDropBurningDoT"] = 100023, ---@type Enum
-    ["BreachExplosion"] = 100024, ---@type Enum
-    ["RevengeActivatingHit"] = 100025, ---@type Enum
-    ["GroundSlam"] = 100026, ---@type Enum
-    ["PerfectlyCharged"] = 100027, ---@type Enum
-    ["ChainLightning"] = 100028, ---@type Enum
-    ["CWExplosion"] = 100029, ---@type Enum
-    ["RelicGoldenNumbers"] = 100030, ---@type Enum
-    ["CannotKillPlayer"] = 100031, ---@type Enum
-    ["ExplosionOverride"] = 100032, ---@type Enum
-    ["Overheat"] = 100033, ---@type Enum
-    ["HighSpeedMelee"] = 100034, ---@type Enum
-    ["PlayerWallImpact"] = 100035, ---@type Enum
-    ["Explosion"] = 100036, ---@type Enum
-    ["StunApplied"] = 100037, ---@type Enum
-    ["IgnoreStatPoolCustomLimit"] = 100038, ---@type Enum
-    ["ForceKnockdown"] = 100039, ---@type Enum
-    ["DisablePlayerHitReaction"] = 100040, ---@type Enum
-    ["ReflexesMasterPerk1"] = 100041, ---@type Enum
-    ["BodyPerksMeleeAttack"] = 100042, ---@type Enum
-    ["CriticalHitNoDamageModifier"] = 100043, ---@type Enum
-    ["Special"] = 100044, ---@type Enum
-    ["CWMalfunctionEMPExplosion"] = 100045, ---@type Enum
-    ["UltimateQuickHack"] = 100046, ---@type Enum
-    ["DamageBasedOnMissingMemoryBonus"] = 100047, ---@type Enum
-    ["ProjectileLauncherAttack"] = 100048, ---@type Enum
-    ["ForceHeadshotMult10"] = 100049, ---@type Enum
-    ["ForceHeadshotMult25"] = 100050, ---@type Enum
-    ["ForceWeakspotMult10"] = 100051, ---@type Enum
-    ["ForceWeakspotMult25"] = 100052, ---@type Enum
-}
+---@class hitFlag: Enum
+---@field ["None"] hitFlag 0
+---@field ["IgnoreImmortalityModes"] hitFlag 1
+---@field ["FriendlyFire"] hitFlag 2
+---@field ["DisableSounds"] hitFlag 3
+---@field ["DisableVFX"] hitFlag 4
+---@field ["CannotReturnDamage"] hitFlag 5
+---@field ["CanParry"] hitFlag 6
+---@field ["CanCounter"] hitFlag 7
+---@field ["CanDodge"] hitFlag 8
+---@field ["WasBlocked"] hitFlag 9
+---@field ["WasDeflected"] hitFlag 10
+---@field ["WasDodged"] hitFlag 11
+---@field ["WasEvaded"] hitFlag 12
+---@field ["WasMitigated"] hitFlag 13
+---@field ["Kill"] hitFlag 14
+---@field ["DontShowDamageFloater"] hitFlag 15
+---@field ["DealNoDamage"] hitFlag 16
+---@field ["CannotModifyDamage"] hitFlag 17
+---@field ["Headshot"] hitFlag 18
+---@field ["CriticalHit"] hitFlag 19
+---@field ["FinisherTriggered"] hitFlag 20
+---@field ["DamageNullified"] hitFlag 21
+---@field ["Nonlethal"] hitFlag 22
+---@field ["WasKillingBlow"] hitFlag 23
+---@field ["ProcessDefeated"] hitFlag 24
+---@field ["Defeated"] hitFlag 25
+---@field ["SilentKillModifier"] hitFlag 26
+---@field ["DeterministicDamage"] hitFlag 27
+---@field ["WeakspotHit"] hitFlag 28
+---@field ["StealthHit"] hitFlag 29
+---@field ["DoNotTriggerFinisher"] hitFlag 30
+---@field ["DealtDamage"] hitFlag 31
+---@field ["ImmortalTarget"] hitFlag 32
+---@field ["CanDamageSelf"] hitFlag 33
+---@field ["SuccessfulAttack"] hitFlag 34
+---@field ["WeaponFullyCharged"] hitFlag 35
+---@field ["DisableNPCHitReaction"] hitFlag 36
+---@field ["VehicleDamage"] hitFlag 37
+---@field ["VehicleImpact"] hitFlag 38
+---@field ["VehicleImpactWithPlayer"] hitFlag 39
+---@field ["RagdollImpact"] hitFlag 40
+---@field ["IgnoreDifficulty"] hitFlag 41
+---@field ["QuickHack"] hitFlag 42
+---@field ["IgnoreVehicles"] hitFlag 43
+---@field ["DamageOverTime"] hitFlag 44
+---@field ["DotApplied"] hitFlag 45
+---@field ["OverridePlayerDamageWithFixedPercentage"] hitFlag 46
+---@field ["DeviceExplosionAttack"] hitFlag 47
+---@field ["NPCPassengerVehicleCollision"] hitFlag 48
+---@field ["PROJECT_SPECIFIC_FLAGS"] hitFlag 100000
+---@field ["UsedKerenzikov"] hitFlag 100001
+---@field ["FragmentationSplinter"] hitFlag 100002
+---@field ["DetonateGrenades"] hitFlag 100003
+---@field ["WeakExplosion"] hitFlag 100004
+---@field ["BulletExplosion"] hitFlag 100005
+---@field ["GrenadeQuickhackExplosion"] hitFlag 100006
+---@field ["FriendlyFireIgnored"] hitFlag 100007
+---@field ["ForceNoCrit"] hitFlag 100008
+---@field ["ReduceDamage"] hitFlag 100009
+---@field ["ForceDismember"] hitFlag 100010
+---@field ["SaburoKatana"] hitFlag 100011
+---@field ["SaburoTanto"] hitFlag 100012
+---@field ["WasBulletParried"] hitFlag 100013
+---@field ["WasBulletDeflected"] hitFlag 100014
+---@field ["WasBulletBlocked"] hitFlag 100015
+---@field ["HauntedCyberdeck"] hitFlag 100016
+---@field ["HauntedGun"] hitFlag 100017
+---@field ["HauntedKill"] hitFlag 100018
+---@field ["BreachHit"] hitFlag 100019
+---@field ["OnePunch"] hitFlag 100020
+---@field ["GrandFinale"] hitFlag 100021
+---@field ["BleedingDot"] hitFlag 100022
+---@field ["AirDropBurningDoT"] hitFlag 100023
+---@field ["BreachExplosion"] hitFlag 100024
+---@field ["RevengeActivatingHit"] hitFlag 100025
+---@field ["GroundSlam"] hitFlag 100026
+---@field ["PerfectlyCharged"] hitFlag 100027
+---@field ["ChainLightning"] hitFlag 100028
+---@field ["CWExplosion"] hitFlag 100029
+---@field ["RelicGoldenNumbers"] hitFlag 100030
+---@field ["CannotKillPlayer"] hitFlag 100031
+---@field ["ExplosionOverride"] hitFlag 100032
+---@field ["Overheat"] hitFlag 100033
+---@field ["HighSpeedMelee"] hitFlag 100034
+---@field ["PlayerWallImpact"] hitFlag 100035
+---@field ["Explosion"] hitFlag 100036
+---@field ["StunApplied"] hitFlag 100037
+---@field ["IgnoreStatPoolCustomLimit"] hitFlag 100038
+---@field ["ForceKnockdown"] hitFlag 100039
+---@field ["DisablePlayerHitReaction"] hitFlag 100040
+---@field ["ReflexesMasterPerk1"] hitFlag 100041
+---@field ["BodyPerksMeleeAttack"] hitFlag 100042
+---@field ["CriticalHitNoDamageModifier"] hitFlag 100043
+---@field ["Special"] hitFlag 100044
+---@field ["CWMalfunctionEMPExplosion"] hitFlag 100045
+---@field ["UltimateQuickHack"] hitFlag 100046
+---@field ["DamageBasedOnMissingMemoryBonus"] hitFlag 100047
+---@field ["ProjectileLauncherAttack"] hitFlag 100048
+---@field ["ForceHeadshotMult10"] hitFlag 100049
+---@field ["ForceHeadshotMult25"] hitFlag 100050
+---@field ["ForceWeakspotMult10"] hitFlag 100051
+---@field ["ForceWeakspotMult25"] hitFlag 100052
+hitFlag = {}

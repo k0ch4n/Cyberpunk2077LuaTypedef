@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EVirtualSystem
-EVirtualSystem = {
-    ["None"] = 0, ---@type Enum
-    ["SurveillanceSystem"] = 1, ---@type Enum
-    ["DoorSystem"] = 2, ---@type Enum
-    ["MediaSystem"] = 3, ---@type Enum
-    ["SecuritySystem"] = 4, ---@type Enum
-}
+---@class EVirtualSystem: Enum
+---@field ["None"] EVirtualSystem 0
+---@field ["SurveillanceSystem"] EVirtualSystem 1
+---@field ["DoorSystem"] EVirtualSystem 2
+---@field ["MediaSystem"] EVirtualSystem 3
+---@field ["SecuritySystem"] EVirtualSystem 4
+EVirtualSystem = {}

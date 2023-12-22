@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMWhip
-gamePSMWhip = {
-    ["Default"] = 0, ---@type Enum
-    ["Charging"] = 1, ---@type Enum
-    ["Pulling"] = 2, ---@type Enum
-}
+---@class gamePSMWhip: Enum
+---@field ["Default"] gamePSMWhip 0
+---@field ["Charging"] gamePSMWhip 1
+---@field ["Pulling"] gamePSMWhip 2
+gamePSMWhip = {}

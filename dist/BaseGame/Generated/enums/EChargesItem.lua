@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EChargesItem
-EChargesItem = {
-    ["Grenade"] = 0, ---@type Enum
-    ["HealingItems"] = 1, ---@type Enum
-    ["ProjectileLauncher"] = 2, ---@type Enum
-}
+---@class EChargesItem: Enum
+---@field ["Grenade"] EChargesItem 0
+---@field ["HealingItems"] EChargesItem 1
+---@field ["ProjectileLauncher"] EChargesItem 2
+EChargesItem = {}

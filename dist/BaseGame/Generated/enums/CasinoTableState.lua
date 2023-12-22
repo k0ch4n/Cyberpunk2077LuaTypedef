@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CasinoTableState
-CasinoTableState = {
-    ["Idle"] = 0, ---@type Enum
-    ["Game"] = 1, ---@type Enum
-}
+---@class CasinoTableState: Enum
+---@field ["Idle"] CasinoTableState 0
+---@field ["Game"] CasinoTableState 1
+CasinoTableState = {}

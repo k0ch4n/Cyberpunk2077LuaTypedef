@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CoverState
-CoverState = {
-    ["Open"] = 0, ---@type Enum
-    ["Closed"] = 1, ---@type Enum
-}
+---@class CoverState: Enum
+---@field ["Open"] CoverState 0
+---@field ["Closed"] CoverState 1
+CoverState = {}

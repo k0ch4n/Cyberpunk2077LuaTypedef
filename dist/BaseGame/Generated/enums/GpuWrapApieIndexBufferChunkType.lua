@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GpuWrapApieIndexBufferChunkType
-GpuWrapApieIndexBufferChunkType = {
-    ["IBCT_IndexUInt"] = 0, ---@type Enum
-    ["IBCT_IndexUShort"] = 1, ---@type Enum
-    ["IBCT_Max"] = 2, ---@type Enum
-}
+---@class GpuWrapApieIndexBufferChunkType: Enum
+---@field ["IBCT_IndexUInt"] GpuWrapApieIndexBufferChunkType 0
+---@field ["IBCT_IndexUShort"] GpuWrapApieIndexBufferChunkType 1
+---@field ["IBCT_Max"] GpuWrapApieIndexBufferChunkType 2
+GpuWrapApieIndexBufferChunkType = {}

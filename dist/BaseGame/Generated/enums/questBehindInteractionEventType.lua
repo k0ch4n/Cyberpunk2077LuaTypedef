@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questBehindInteractionEventType
-questBehindInteractionEventType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["StartedBeingBehind"] = 1, ---@type Enum
-    ["StoppedBeingBehind"] = 2, ---@type Enum
-    ["IsBehind"] = 3, ---@type Enum
-    ["IsNotBehind"] = 4, ---@type Enum
-}
+---@class questBehindInteractionEventType: Enum
+---@field ["Undefined"] questBehindInteractionEventType 0
+---@field ["StartedBeingBehind"] questBehindInteractionEventType 1
+---@field ["StoppedBeingBehind"] questBehindInteractionEventType 2
+---@field ["IsBehind"] questBehindInteractionEventType 3
+---@field ["IsNotBehind"] questBehindInteractionEventType 4
+questBehindInteractionEventType = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EVehicleSpawnBlockSide
-EVehicleSpawnBlockSide = {
-    ["Front"] = 0, ---@type Enum
-    ["Back"] = 1, ---@type Enum
-    ["Left"] = 2, ---@type Enum
-    ["Right"] = 3, ---@type Enum
-    ["Default"] = 4, ---@type Enum
-}
+---@class EVehicleSpawnBlockSide: Enum
+---@field ["Front"] EVehicleSpawnBlockSide 0
+---@field ["Back"] EVehicleSpawnBlockSide 1
+---@field ["Left"] EVehicleSpawnBlockSide 2
+---@field ["Right"] EVehicleSpawnBlockSide 3
+---@field ["Default"] EVehicleSpawnBlockSide 4
+EVehicleSpawnBlockSide = {}

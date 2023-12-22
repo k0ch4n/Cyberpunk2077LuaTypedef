@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animMotionTag
-animMotionTag = {
-    ["MT_Invalid"] = 0, ---@type Enum
-    ["Walk"] = 1, ---@type Enum
-    ["Jog"] = 2, ---@type Enum
-    ["Sprint"] = 3, ---@type Enum
-}
+---@class animMotionTag: Enum
+---@field ["MT_Invalid"] animMotionTag 0
+---@field ["Walk"] animMotionTag 1
+---@field ["Jog"] animMotionTag 2
+---@field ["Sprint"] animMotionTag 3
+animMotionTag = {}

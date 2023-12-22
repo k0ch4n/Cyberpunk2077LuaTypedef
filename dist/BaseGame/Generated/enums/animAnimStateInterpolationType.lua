@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAnimStateInterpolationType
-animAnimStateInterpolationType = {
-    ["Linear"] = 0, ---@type Enum
-    ["EaseIn"] = 1, ---@type Enum
-    ["EaseOut"] = 2, ---@type Enum
-    ["EaseInOut"] = 3, ---@type Enum
-}
+---@class animAnimStateInterpolationType: Enum
+---@field ["Linear"] animAnimStateInterpolationType 0
+---@field ["EaseIn"] animAnimStateInterpolationType 1
+---@field ["EaseOut"] animAnimStateInterpolationType 2
+---@field ["EaseInOut"] animAnimStateInterpolationType 3
+animAnimStateInterpolationType = {}

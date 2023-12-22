@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animDyngConstraintLinkType
-animDyngConstraintLinkType = {
-    ["KeepFixedDistance"] = 0, ---@type Enum
-    ["KeepVariableDistance"] = 1, ---@type Enum
-    ["Greater"] = 2, ---@type Enum
-    ["Closer"] = 3, ---@type Enum
-}
+---@class animDyngConstraintLinkType: Enum
+---@field ["KeepFixedDistance"] animDyngConstraintLinkType 0
+---@field ["KeepVariableDistance"] animDyngConstraintLinkType 1
+---@field ["Greater"] animDyngConstraintLinkType 2
+---@field ["Closer"] animDyngConstraintLinkType 3
+animDyngConstraintLinkType = {}

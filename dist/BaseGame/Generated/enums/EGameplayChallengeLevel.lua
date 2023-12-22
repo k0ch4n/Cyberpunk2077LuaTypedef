@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGameplayChallengeLevel
-EGameplayChallengeLevel = {
-    ["NONE"] = 0, ---@type Enum
-    ["TRIVIAL"] = 1, ---@type Enum
-    ["EASY"] = 2, ---@type Enum
-    ["MEDIUM"] = 3, ---@type Enum
-    ["HARD"] = 4, ---@type Enum
-    ["IMPOSSIBLE"] = 5, ---@type Enum
-}
+---@class EGameplayChallengeLevel: Enum
+---@field ["NONE"] EGameplayChallengeLevel 0
+---@field ["TRIVIAL"] EGameplayChallengeLevel 1
+---@field ["EASY"] EGameplayChallengeLevel 2
+---@field ["MEDIUM"] EGameplayChallengeLevel 3
+---@field ["HARD"] EGameplayChallengeLevel 4
+---@field ["IMPOSSIBLE"] EGameplayChallengeLevel 5
+EGameplayChallengeLevel = {}

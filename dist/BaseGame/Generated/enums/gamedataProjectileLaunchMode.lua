@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataProjectileLaunchMode
-gamedataProjectileLaunchMode = {
-    ["Regular"] = 0, ---@type Enum
-    ["Tracking"] = 1, ---@type Enum
-    ["Count"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class gamedataProjectileLaunchMode: Enum
+---@field ["Regular"] gamedataProjectileLaunchMode 0
+---@field ["Tracking"] gamedataProjectileLaunchMode 1
+---@field ["Count"] gamedataProjectileLaunchMode 2
+---@field ["Invalid"] gamedataProjectileLaunchMode 3
+gamedataProjectileLaunchMode = {}

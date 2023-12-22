@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMReaction
-gamePSMReaction = {
-    ["Default"] = 0, ---@type Enum
-    ["Stagger"] = 1, ---@type Enum
-}
+---@class gamePSMReaction: Enum
+---@field ["Default"] gamePSMReaction 0
+---@field ["Stagger"] gamePSMReaction 1
+gamePSMReaction = {}

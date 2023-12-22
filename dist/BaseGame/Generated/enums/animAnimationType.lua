@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAnimationType
-animAnimationType = {
-    ["Normal"] = 0, ---@type Enum
-    ["AdditiveFromRefPose"] = 1, ---@type Enum
-    ["AdditiveFromFirstFrame"] = 2, ---@type Enum
-    ["Additive"] = 3, ---@type Enum
-    ["AdditiveWithoutFirstFrame"] = 4, ---@type Enum
-}
+---@class animAnimationType: Enum
+---@field ["Normal"] animAnimationType 0
+---@field ["AdditiveFromRefPose"] animAnimationType 1
+---@field ["AdditiveFromFirstFrame"] animAnimationType 2
+---@field ["Additive"] animAnimationType 3
+---@field ["AdditiveWithoutFirstFrame"] animAnimationType 4
+animAnimationType = {}

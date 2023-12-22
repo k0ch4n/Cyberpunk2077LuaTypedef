@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldNodeGroupType
-worldNodeGroupType = {
-    ["RegularGroup"] = 0, ---@type Enum
-    ["PrefabVariant"] = 1, ---@type Enum
-    ["DecorationCell"] = 2, ---@type Enum
-    ["ProxyGroup"] = 3, ---@type Enum
-}
+---@class worldNodeGroupType: Enum
+---@field ["RegularGroup"] worldNodeGroupType 0
+---@field ["PrefabVariant"] worldNodeGroupType 1
+---@field ["DecorationCell"] worldNodeGroupType 2
+---@field ["ProxyGroup"] worldNodeGroupType 3
+worldNodeGroupType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDeviceHackCategory
-gamedataDeviceHackCategory = {
-    ["ControlHack"] = 0, ---@type Enum
-    ["CovertHack"] = 1, ---@type Enum
-    ["DamageHack"] = 2, ---@type Enum
-    ["VehicleHack"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataDeviceHackCategory: Enum
+---@field ["ControlHack"] gamedataDeviceHackCategory 0
+---@field ["CovertHack"] gamedataDeviceHackCategory 1
+---@field ["DamageHack"] gamedataDeviceHackCategory 2
+---@field ["VehicleHack"] gamedataDeviceHackCategory 3
+---@field ["Count"] gamedataDeviceHackCategory 4
+---@field ["Invalid"] gamedataDeviceHackCategory 5
+gamedataDeviceHackCategory = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CasinoTableSlot
-CasinoTableSlot = {
-    ["Slot1"] = 0, ---@type Enum
-    ["Slot2"] = 1, ---@type Enum
-    ["Slot3"] = 2, ---@type Enum
-    ["Slot4"] = 3, ---@type Enum
-    ["Slot5"] = 4, ---@type Enum
-}
+---@class CasinoTableSlot: Enum
+---@field ["Slot1"] CasinoTableSlot 0
+---@field ["Slot2"] CasinoTableSlot 1
+---@field ["Slot3"] CasinoTableSlot 2
+---@field ["Slot4"] CasinoTableSlot 3
+---@field ["Slot5"] CasinoTableSlot 4
+CasinoTableSlot = {}

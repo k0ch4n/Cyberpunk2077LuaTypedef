@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEInterpolationType
-animEInterpolationType = {
-    ["Lerp"] = 0, ---@type Enum
-    ["Slerp"] = 1, ---@type Enum
-}
+---@class animEInterpolationType: Enum
+---@field ["Lerp"] animEInterpolationType 0
+---@field ["Slerp"] animEInterpolationType 1
+animEInterpolationType = {}

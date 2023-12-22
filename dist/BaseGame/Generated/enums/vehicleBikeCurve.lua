@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleBikeCurve
-vehicleBikeCurve = {
-    ["SpeedToTilt"] = 0, ---@type Enum
-    ["InputToTilt"] = 1, ---@type Enum
-    ["SpeedToTiltSpeed"] = 2, ---@type Enum
-}
+---@class vehicleBikeCurve: Enum
+---@field ["SpeedToTilt"] vehicleBikeCurve 0
+---@field ["InputToTilt"] vehicleBikeCurve 1
+---@field ["SpeedToTiltSpeed"] vehicleBikeCurve 2
+vehicleBikeCurve = {}

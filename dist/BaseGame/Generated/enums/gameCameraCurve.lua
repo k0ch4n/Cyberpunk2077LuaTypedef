@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameCameraCurve
-gameCameraCurve = {
-    ["CentricPitchOfSpeed"] = 0, ---@type Enum
-    ["CentricVerticalOffsetOfSpeed"] = 1, ---@type Enum
-    ["BoomLengthOfSpeed"] = 2, ---@type Enum
-    ["BoomLengthOfAcc"] = 3, ---@type Enum
-    ["BoomPitchOfSpeed"] = 4, ---@type Enum
-    ["BoomPitchOfGlobalVehiclePitch"] = 5, ---@type Enum
-    ["BoomYawOfTurnCoeff"] = 6, ---@type Enum
-    ["BoomYawRotateRateOfSpeed"] = 7, ---@type Enum
-    ["FOVOfSpeed"] = 8, ---@type Enum
-    ["PivotOffsetXOfTurnCoeff"] = 9, ---@type Enum
-    ["PivotOffsetZOfTurnCoeff"] = 10, ---@type Enum
-    ["COUNT"] = 11, ---@type Enum
-}
+---@class gameCameraCurve: Enum
+---@field ["CentricPitchOfSpeed"] gameCameraCurve 0
+---@field ["CentricVerticalOffsetOfSpeed"] gameCameraCurve 1
+---@field ["BoomLengthOfSpeed"] gameCameraCurve 2
+---@field ["BoomLengthOfAcc"] gameCameraCurve 3
+---@field ["BoomPitchOfSpeed"] gameCameraCurve 4
+---@field ["BoomPitchOfGlobalVehiclePitch"] gameCameraCurve 5
+---@field ["BoomYawOfTurnCoeff"] gameCameraCurve 6
+---@field ["BoomYawRotateRateOfSpeed"] gameCameraCurve 7
+---@field ["FOVOfSpeed"] gameCameraCurve 8
+---@field ["PivotOffsetXOfTurnCoeff"] gameCameraCurve 9
+---@field ["PivotOffsetZOfTurnCoeff"] gameCameraCurve 10
+---@field ["COUNT"] gameCameraCurve 11
+gameCameraCurve = {}

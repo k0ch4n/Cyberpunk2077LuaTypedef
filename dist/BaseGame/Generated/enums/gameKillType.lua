@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameKillType
-gameKillType = {
-    ["Normal"] = 0, ---@type Enum
-    ["Defeat"] = 1, ---@type Enum
-}
+---@class gameKillType: Enum
+---@field ["Normal"] gameKillType 0
+---@field ["Defeat"] gameKillType 1
+gameKillType = {}

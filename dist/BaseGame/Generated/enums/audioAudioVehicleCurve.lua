@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioAudioVehicleCurve
-audioAudioVehicleCurve = {
-    ["ThrottleInput"] = 0, ---@type Enum
-    ["RPM"] = 1, ---@type Enum
-    ["Gear"] = 2, ---@type Enum
-}
+---@class audioAudioVehicleCurve: Enum
+---@field ["ThrottleInput"] audioAudioVehicleCurve 0
+---@field ["RPM"] audioAudioVehicleCurve 1
+---@field ["Gear"] audioAudioVehicleCurve 2
+audioAudioVehicleCurve = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ClueState
-ClueState = {
-    ["active"] = 0, ---@type Enum
-    ["complete"] = 1, ---@type Enum
-}
+---@class ClueState: Enum
+---@field ["active"] ClueState 0
+---@field ["complete"] ClueState 1
+ClueState = {}

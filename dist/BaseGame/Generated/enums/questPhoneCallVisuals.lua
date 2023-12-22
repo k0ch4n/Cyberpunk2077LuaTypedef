@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questPhoneCallVisuals
-questPhoneCallVisuals = {
-    ["Default"] = 0, ---@type Enum
-    ["Somi"] = 1, ---@type Enum
-}
+---@class questPhoneCallVisuals: Enum
+---@field ["Default"] questPhoneCallVisuals 0
+---@field ["Somi"] questPhoneCallVisuals 1
+questPhoneCallVisuals = {}

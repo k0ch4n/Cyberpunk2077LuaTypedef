@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataSimpleValueNodeValueType
-gamedataSimpleValueNodeValueType = {
-    ["String"] = 0, ---@type Enum
-    ["Number"] = 1, ---@type Enum
-    ["Bool"] = 2, ---@type Enum
-    ["Ident"] = 3, ---@type Enum
-}
+---@class gamedataSimpleValueNodeValueType: Enum
+---@field ["String"] gamedataSimpleValueNodeValueType 0
+---@field ["Number"] gamedataSimpleValueNodeValueType 1
+---@field ["Bool"] gamedataSimpleValueNodeValueType 2
+---@field ["Ident"] gamedataSimpleValueNodeValueType 3
+gamedataSimpleValueNodeValueType = {}

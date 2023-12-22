@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum OpeningGateScreenState
-OpeningGateScreenState = {
-    ["Unknown"] = 0, ---@type Enum
-    ["Idle"] = 1, ---@type Enum
-    ["Loop"] = 2, ---@type Enum
-    ["Open"] = 3, ---@type Enum
-    ["Result"] = 4, ---@type Enum
-}
+---@class OpeningGateScreenState: Enum
+---@field ["Unknown"] OpeningGateScreenState 0
+---@field ["Idle"] OpeningGateScreenState 1
+---@field ["Loop"] OpeningGateScreenState 2
+---@field ["Open"] OpeningGateScreenState 3
+---@field ["Result"] OpeningGateScreenState 4
+OpeningGateScreenState = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELinkType
-ELinkType = {
-    ["NETWORK"] = 0, ---@type Enum
-    ["GRID"] = 1, ---@type Enum
-    ["FREE"] = 2, ---@type Enum
-    ["INVALID"] = 3, ---@type Enum
-}
+---@class ELinkType: Enum
+---@field ["NETWORK"] ELinkType 0
+---@field ["GRID"] ELinkType 1
+---@field ["FREE"] ELinkType 2
+---@field ["INVALID"] ELinkType 3
+ELinkType = {}

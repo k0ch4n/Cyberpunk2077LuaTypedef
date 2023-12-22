@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightSequenceStage
-ELightSequenceStage = {
-    ["NONE"] = 0, ---@type Enum
-    ["INPROGRESS"] = 1, ---@type Enum
-    ["COMPLETE"] = 2, ---@type Enum
-}
+---@class ELightSequenceStage: Enum
+---@field ["NONE"] ELightSequenceStage 0
+---@field ["INPROGRESS"] ELightSequenceStage 1
+---@field ["COMPLETE"] ELightSequenceStage 2
+ELightSequenceStage = {}

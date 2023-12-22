@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEActionFlags
-gameEActionFlags = {
-    ["NONE"] = 0, ---@type Enum
-    ["USE_ANIMATION"] = 1, ---@type Enum
-    ["USE_MOVEMENT"] = 2, ---@type Enum
-}
+---@class gameEActionFlags: Enum
+---@field ["NONE"] gameEActionFlags 0
+---@field ["USE_ANIMATION"] gameEActionFlags 1
+---@field ["USE_MOVEMENT"] gameEActionFlags 2
+gameEActionFlags = {}

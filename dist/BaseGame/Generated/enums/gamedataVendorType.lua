@@ -1,27 +1,26 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataVendorType
-gamedataVendorType = {
-    ["Armorsmith"] = 0, ---@type Enum
-    ["Clothes"] = 1, ---@type Enum
-    ["Clothing"] = 2, ---@type Enum
-    ["Cyberware"] = 3, ---@type Enum
-    ["Drinks"] = 4, ---@type Enum
-    ["DropPoint"] = 5, ---@type Enum
-    ["Food"] = 6, ---@type Enum
-    ["GrilledFood"] = 7, ---@type Enum
-    ["Gunsmith"] = 8, ---@type Enum
-    ["Junk"] = 9, ---@type Enum
-    ["Kiosk"] = 10, ---@type Enum
-    ["Market"] = 11, ---@type Enum
-    ["Medical"] = 12, ---@type Enum
-    ["PackedFood"] = 13, ---@type Enum
-    ["RipperDoc"] = 14, ---@type Enum
-    ["SkillTrainer"] = 15, ---@type Enum
-    ["Tech"] = 16, ---@type Enum
-    ["TechJunk"] = 17, ---@type Enum
-    ["VendingMachine"] = 18, ---@type Enum
-    ["Count"] = 19, ---@type Enum
-    ["Invalid"] = 20, ---@type Enum
-}
+---@class gamedataVendorType: Enum
+---@field ["Armorsmith"] gamedataVendorType 0
+---@field ["Clothes"] gamedataVendorType 1
+---@field ["Clothing"] gamedataVendorType 2
+---@field ["Cyberware"] gamedataVendorType 3
+---@field ["Drinks"] gamedataVendorType 4
+---@field ["DropPoint"] gamedataVendorType 5
+---@field ["Food"] gamedataVendorType 6
+---@field ["GrilledFood"] gamedataVendorType 7
+---@field ["Gunsmith"] gamedataVendorType 8
+---@field ["Junk"] gamedataVendorType 9
+---@field ["Kiosk"] gamedataVendorType 10
+---@field ["Market"] gamedataVendorType 11
+---@field ["Medical"] gamedataVendorType 12
+---@field ["PackedFood"] gamedataVendorType 13
+---@field ["RipperDoc"] gamedataVendorType 14
+---@field ["SkillTrainer"] gamedataVendorType 15
+---@field ["Tech"] gamedataVendorType 16
+---@field ["TechJunk"] gamedataVendorType 17
+---@field ["VendingMachine"] gamedataVendorType 18
+---@field ["Count"] gamedataVendorType 19
+---@field ["Invalid"] gamedataVendorType 20
+gamedataVendorType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsBumpType
-gameinteractionsBumpType = {
-    ["Workspot"] = 0, ---@type Enum
-    ["Crowd"] = 1, ---@type Enum
-}
+---@class gameinteractionsBumpType: Enum
+---@field ["Workspot"] gameinteractionsBumpType 0
+---@field ["Crowd"] gameinteractionsBumpType 1
+gameinteractionsBumpType = {}

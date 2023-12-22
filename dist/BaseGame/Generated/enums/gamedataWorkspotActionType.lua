@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWorkspotActionType
-gamedataWorkspotActionType = {
-    ["DeviceInvestigation"] = 0, ---@type Enum
-    ["FearHide"] = 1, ---@type Enum
-    ["LookAround"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataWorkspotActionType: Enum
+---@field ["DeviceInvestigation"] gamedataWorkspotActionType 0
+---@field ["FearHide"] gamedataWorkspotActionType 1
+---@field ["LookAround"] gamedataWorkspotActionType 2
+---@field ["Count"] gamedataWorkspotActionType 3
+---@field ["Invalid"] gamedataWorkspotActionType 4
+gamedataWorkspotActionType = {}

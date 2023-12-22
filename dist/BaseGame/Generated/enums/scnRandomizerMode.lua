@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnRandomizerMode
-scnRandomizerMode = {
-    ["Random"] = 0, ---@type Enum
-    ["IgnoreLastUsed"] = 1, ---@type Enum
-    ["IgnoreAllUsed"] = 2, ---@type Enum
-}
+---@class scnRandomizerMode: Enum
+---@field ["Random"] scnRandomizerMode 0
+---@field ["IgnoreLastUsed"] scnRandomizerMode 1
+---@field ["IgnoreAllUsed"] scnRandomizerMode 2
+scnRandomizerMode = {}

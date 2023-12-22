@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EActivationState
-EActivationState = {
-    ["NONE"] = 0, ---@type Enum
-    ["ACTIVATED"] = 1, ---@type Enum
-    ["DEACTIVATED"] = 2, ---@type Enum
-}
+---@class EActivationState: Enum
+---@field ["NONE"] EActivationState 0
+---@field ["ACTIVATED"] EActivationState 1
+---@field ["DEACTIVATED"] EActivationState 2
+EActivationState = {}

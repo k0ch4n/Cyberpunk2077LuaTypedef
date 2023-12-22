@@ -1,18 +1,17 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animHitReactionType
-animHitReactionType = {
-    ["None"] = 0, ---@type Enum
-    ["Twitch"] = 1, ---@type Enum
-    ["Impact"] = 2, ---@type Enum
-    ["Stagger"] = 3, ---@type Enum
-    ["Pain"] = 4, ---@type Enum
-    ["Knockdown"] = 5, ---@type Enum
-    ["Ragdoll"] = 6, ---@type Enum
-    ["Death"] = 7, ---@type Enum
-    ["Block"] = 8, ---@type Enum
-    ["GuardBreak"] = 9, ---@type Enum
-    ["Parry"] = 10, ---@type Enum
-    ["Bump"] = 11, ---@type Enum
-}
+---@class animHitReactionType: Enum
+---@field ["None"] animHitReactionType 0
+---@field ["Twitch"] animHitReactionType 1
+---@field ["Impact"] animHitReactionType 2
+---@field ["Stagger"] animHitReactionType 3
+---@field ["Pain"] animHitReactionType 4
+---@field ["Knockdown"] animHitReactionType 5
+---@field ["Ragdoll"] animHitReactionType 6
+---@field ["Death"] animHitReactionType 7
+---@field ["Block"] animHitReactionType 8
+---@field ["GuardBreak"] animHitReactionType 9
+---@field ["Parry"] animHitReactionType 10
+---@field ["Bump"] animHitReactionType 11
+animHitReactionType = {}

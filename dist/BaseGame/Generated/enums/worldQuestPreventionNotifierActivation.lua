@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldQuestPreventionNotifierActivation
-worldQuestPreventionNotifierActivation = {
-    ["OnFootOnly"] = 0, ---@type Enum
-    ["InVehicleOnly"] = 1, ---@type Enum
-    ["Always"] = 2, ---@type Enum
-}
+---@class worldQuestPreventionNotifierActivation: Enum
+---@field ["OnFootOnly"] worldQuestPreventionNotifierActivation 0
+---@field ["InVehicleOnly"] worldQuestPreventionNotifierActivation 1
+---@field ["Always"] worldQuestPreventionNotifierActivation 2
+worldQuestPreventionNotifierActivation = {}

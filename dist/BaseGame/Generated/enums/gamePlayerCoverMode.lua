@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePlayerCoverMode
-gamePlayerCoverMode = {
-    ["None"] = 0, ---@type Enum
-    ["Auto"] = 1, ---@type Enum
-    ["Manual"] = 2, ---@type Enum
-}
+---@class gamePlayerCoverMode: Enum
+---@field ["None"] gamePlayerCoverMode 0
+---@field ["Auto"] gamePlayerCoverMode 1
+---@field ["Manual"] gamePlayerCoverMode 2
+gamePlayerCoverMode = {}

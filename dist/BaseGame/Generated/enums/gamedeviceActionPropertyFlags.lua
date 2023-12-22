@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedeviceActionPropertyFlags
-gamedeviceActionPropertyFlags = {
-    ["None"] = 0, ---@type Enum
-    ["IsUsedByQuest"] = 1, ---@type Enum
-}
+---@class gamedeviceActionPropertyFlags: Enum
+---@field ["None"] gamedeviceActionPropertyFlags 0
+---@field ["IsUsedByQuest"] gamedeviceActionPropertyFlags 1
+gamedeviceActionPropertyFlags = {}

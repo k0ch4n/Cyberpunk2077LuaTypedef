@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameGameplayEventFlag
-gameGameplayEventFlag = {
-    ["Ai"] = 1, ---@type Enum
-    ["Trigger"] = 2, ---@type Enum
-    ["Component"] = 4, ---@type Enum
-    ["Script"] = 8, ---@type Enum
-}
+---@class gameGameplayEventFlag: Enum
+---@field ["Ai"] gameGameplayEventFlag 1
+---@field ["Trigger"] gameGameplayEventFlag 2
+---@field ["Component"] gameGameplayEventFlag 4
+---@field ["Script"] gameGameplayEventFlag 8
+gameGameplayEventFlag = {}

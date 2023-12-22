@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMathOperationType
-EMathOperationType = {
-    ["Add"] = 0, ---@type Enum
-    ["Set"] = 1, ---@type Enum
-}
+---@class EMathOperationType: Enum
+---@field ["Add"] EMathOperationType 0
+---@field ["Set"] EMathOperationType 1
+EMathOperationType = {}

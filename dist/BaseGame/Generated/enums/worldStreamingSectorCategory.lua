@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldStreamingSectorCategory
-worldStreamingSectorCategory = {
-    ["Exterior"] = 0, ---@type Enum
-    ["Interior"] = 1, ---@type Enum
-    ["Quest"] = 2, ---@type Enum
-    ["Navigation"] = 3, ---@type Enum
-    ["AlwaysLoaded"] = 4, ---@type Enum
-    ["Unknown"] = -1, ---@type Enum
-}
+---@class worldStreamingSectorCategory: Enum
+---@field ["Exterior"] worldStreamingSectorCategory 0
+---@field ["Interior"] worldStreamingSectorCategory 1
+---@field ["Quest"] worldStreamingSectorCategory 2
+---@field ["Navigation"] worldStreamingSectorCategory 3
+---@field ["AlwaysLoaded"] worldStreamingSectorCategory 4
+---@field ["Unknown"] worldStreamingSectorCategory -1
+worldStreamingSectorCategory = {}

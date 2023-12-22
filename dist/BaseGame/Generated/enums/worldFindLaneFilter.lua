@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldFindLaneFilter
-worldFindLaneFilter = {
-    ["None"] = 0, ---@type Enum
-    ["Road"] = 1, ---@type Enum
-    ["PatrolRoute"] = 2, ---@type Enum
-    ["Pavement"] = 3, ---@type Enum
-}
+---@class worldFindLaneFilter: Enum
+---@field ["None"] worldFindLaneFilter 0
+---@field ["Road"] worldFindLaneFilter 1
+---@field ["PatrolRoute"] worldFindLaneFilter 2
+---@field ["Pavement"] worldFindLaneFilter 3
+worldFindLaneFilter = {}

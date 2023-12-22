@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDevelopmentPointType
-gamedataDevelopmentPointType = {
-    ["Attribute"] = 0, ---@type Enum
-    ["Espionage"] = 1, ---@type Enum
-    ["Primary"] = 2, ---@type Enum
-    ["Secondary"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataDevelopmentPointType: Enum
+---@field ["Attribute"] gamedataDevelopmentPointType 0
+---@field ["Espionage"] gamedataDevelopmentPointType 1
+---@field ["Primary"] gamedataDevelopmentPointType 2
+---@field ["Secondary"] gamedataDevelopmentPointType 3
+---@field ["Count"] gamedataDevelopmentPointType 4
+---@field ["Invalid"] gamedataDevelopmentPointType 5
+gamedataDevelopmentPointType = {}

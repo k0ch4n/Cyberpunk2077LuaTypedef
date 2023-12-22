@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EInputAction
-EInputAction = {
-    ["IACT_None"] = 0, ---@type Enum
-    ["IACT_Press"] = 1, ---@type Enum
-    ["IACT_Release"] = 2, ---@type Enum
-    ["IACT_Axis"] = 3, ---@type Enum
-}
+---@class EInputAction: Enum
+---@field ["IACT_None"] EInputAction 0
+---@field ["IACT_Press"] EInputAction 1
+---@field ["IACT_Release"] EInputAction 2
+---@field ["IACT_Axis"] EInputAction 3
+EInputAction = {}

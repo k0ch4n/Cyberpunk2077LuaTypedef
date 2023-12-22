@@ -1,49 +1,48 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAffiliation
-gamedataAffiliation = {
-    ["AfterlifeMercs"] = 0, ---@type Enum
-    ["Aldecaldos"] = 1, ---@type Enum
-    ["Animals"] = 2, ---@type Enum
-    ["Arasaka"] = 3, ---@type Enum
-    ["Barghest"] = 4, ---@type Enum
-    ["Biotechnica"] = 5, ---@type Enum
-    ["CityCouncil"] = 6, ---@type Enum
-    ["Civilian"] = 7, ---@type Enum
-    ["Classified"] = 8, ---@type Enum
-    ["KangTao"] = 9, ---@type Enum
-    ["Maelstrom"] = 10, ---@type Enum
-    ["MaelstromAndroid"] = 11, ---@type Enum
-    ["Militech"] = 12, ---@type Enum
-    ["NCPD"] = 13, ---@type Enum
-    ["NUSA"] = 14, ---@type Enum
-    ["NetWatch"] = 15, ---@type Enum
-    ["News54"] = 16, ---@type Enum
-    ["OA"] = 17, ---@type Enum
-    ["RecordingAgency"] = 18, ---@type Enum
-    ["SSI"] = 19, ---@type Enum
-    ["Scavengers"] = 20, ---@type Enum
-    ["ScavengersAndroid"] = 21, ---@type Enum
-    ["SixthStreet"] = 22, ---@type Enum
-    ["SixthStreetAndroid"] = 23, ---@type Enum
-    ["SouthCalifornia"] = 24, ---@type Enum
-    ["TheMox"] = 25, ---@type Enum
-    ["TraumaTeam"] = 26, ---@type Enum
-    ["TygerClaws"] = 27, ---@type Enum
-    ["Unaffiliated"] = 28, ---@type Enum
-    ["UnaffiliatedCorpo"] = 29, ---@type Enum
-    ["Unknown"] = 30, ---@type Enum
-    ["Valentinos"] = 31, ---@type Enum
-    ["VoodooBoys"] = 32, ---@type Enum
-    ["Wraiths"] = 33, ---@type Enum
-    ["WraithsAndroid"] = 34, ---@type Enum
-    ["Zetatech"] = 35, ---@type Enum
-    ["corpbud"] = 36, ---@type Enum
-    ["crimson_harvest"] = 37, ---@type Enum
-    ["growl"] = 38, ---@type Enum
-    ["highriders"] = 39, ---@type Enum
-    ["private_press"] = 40, ---@type Enum
-    ["Count"] = 41, ---@type Enum
-    ["Invalid"] = 42, ---@type Enum
-}
+---@class gamedataAffiliation: Enum
+---@field ["AfterlifeMercs"] gamedataAffiliation 0
+---@field ["Aldecaldos"] gamedataAffiliation 1
+---@field ["Animals"] gamedataAffiliation 2
+---@field ["Arasaka"] gamedataAffiliation 3
+---@field ["Barghest"] gamedataAffiliation 4
+---@field ["Biotechnica"] gamedataAffiliation 5
+---@field ["CityCouncil"] gamedataAffiliation 6
+---@field ["Civilian"] gamedataAffiliation 7
+---@field ["Classified"] gamedataAffiliation 8
+---@field ["KangTao"] gamedataAffiliation 9
+---@field ["Maelstrom"] gamedataAffiliation 10
+---@field ["MaelstromAndroid"] gamedataAffiliation 11
+---@field ["Militech"] gamedataAffiliation 12
+---@field ["NCPD"] gamedataAffiliation 13
+---@field ["NUSA"] gamedataAffiliation 14
+---@field ["NetWatch"] gamedataAffiliation 15
+---@field ["News54"] gamedataAffiliation 16
+---@field ["OA"] gamedataAffiliation 17
+---@field ["RecordingAgency"] gamedataAffiliation 18
+---@field ["SSI"] gamedataAffiliation 19
+---@field ["Scavengers"] gamedataAffiliation 20
+---@field ["ScavengersAndroid"] gamedataAffiliation 21
+---@field ["SixthStreet"] gamedataAffiliation 22
+---@field ["SixthStreetAndroid"] gamedataAffiliation 23
+---@field ["SouthCalifornia"] gamedataAffiliation 24
+---@field ["TheMox"] gamedataAffiliation 25
+---@field ["TraumaTeam"] gamedataAffiliation 26
+---@field ["TygerClaws"] gamedataAffiliation 27
+---@field ["Unaffiliated"] gamedataAffiliation 28
+---@field ["UnaffiliatedCorpo"] gamedataAffiliation 29
+---@field ["Unknown"] gamedataAffiliation 30
+---@field ["Valentinos"] gamedataAffiliation 31
+---@field ["VoodooBoys"] gamedataAffiliation 32
+---@field ["Wraiths"] gamedataAffiliation 33
+---@field ["WraithsAndroid"] gamedataAffiliation 34
+---@field ["Zetatech"] gamedataAffiliation 35
+---@field ["corpbud"] gamedataAffiliation 36
+---@field ["crimson_harvest"] gamedataAffiliation 37
+---@field ["growl"] gamedataAffiliation 38
+---@field ["highriders"] gamedataAffiliation 39
+---@field ["private_press"] gamedataAffiliation 40
+---@field ["Count"] gamedataAffiliation 41
+---@field ["Invalid"] gamedataAffiliation 42
+gamedataAffiliation = {}

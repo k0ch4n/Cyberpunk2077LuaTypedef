@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ProgramEffect
-ProgramEffect = {
-    ["GrantAccess"] = 0, ---@type Enum
-    ["BlockAccess"] = 1, ---@type Enum
-    ["UnlockQuestFact"] = 2, ---@type Enum
-}
+---@class ProgramEffect: Enum
+---@field ["GrantAccess"] ProgramEffect 0
+---@field ["BlockAccess"] ProgramEffect 1
+---@field ["UnlockQuestFact"] ProgramEffect 2
+ProgramEffect = {}

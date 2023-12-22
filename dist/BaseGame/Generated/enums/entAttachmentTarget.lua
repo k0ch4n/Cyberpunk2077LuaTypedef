@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entAttachmentTarget
-entAttachmentTarget = {
-    ["Transform"] = 0, ---@type Enum
-    ["TargetPosition"] = 1, ---@type Enum
-}
+---@class entAttachmentTarget: Enum
+---@field ["Transform"] entAttachmentTarget 0
+---@field ["TargetPosition"] entAttachmentTarget 1
+entAttachmentTarget = {}

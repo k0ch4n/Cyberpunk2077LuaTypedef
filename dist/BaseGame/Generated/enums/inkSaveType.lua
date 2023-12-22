@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkSaveType
-inkSaveType = {
-    ["ManualSave"] = 0, ---@type Enum
-    ["QuickSave"] = 1, ---@type Enum
-    ["AutoSave"] = 2, ---@type Enum
-    ["PointOfNoReturn"] = 3, ---@type Enum
-    ["EndGameSave"] = 4, ---@type Enum
-}
+---@class inkSaveType: Enum
+---@field ["ManualSave"] inkSaveType 0
+---@field ["QuickSave"] inkSaveType 1
+---@field ["AutoSave"] inkSaveType 2
+---@field ["PointOfNoReturn"] inkSaveType 3
+---@field ["EndGameSave"] inkSaveType 4
+inkSaveType = {}

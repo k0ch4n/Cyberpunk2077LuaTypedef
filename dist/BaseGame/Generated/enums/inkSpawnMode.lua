@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkSpawnMode
-inkSpawnMode = {
-    ["SingleAndMultiplayer"] = 0, ---@type Enum
-    ["OnlySingleplayer"] = 1, ---@type Enum
-    ["OnlyMultiplayer"] = 2, ---@type Enum
-}
+---@class inkSpawnMode: Enum
+---@field ["SingleAndMultiplayer"] inkSpawnMode 0
+---@field ["OnlySingleplayer"] inkSpawnMode 1
+---@field ["OnlyMultiplayer"] inkSpawnMode 2
+inkSpawnMode = {}

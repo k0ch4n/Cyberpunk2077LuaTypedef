@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DamageEffectDisplayType
-DamageEffectDisplayType = {
-    ["Flat"] = 0, ---@type Enum
-    ["TargetHealth"] = 1, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class DamageEffectDisplayType: Enum
+---@field ["Flat"] DamageEffectDisplayType 0
+---@field ["TargetHealth"] DamageEffectDisplayType 1
+---@field ["Invalid"] DamageEffectDisplayType -1
+DamageEffectDisplayType = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questPhoneStatus
-questPhoneStatus = {
-    ["Available"] = 0, ---@type Enum
-    ["NotAvailable"] = 1, ---@type Enum
-    ["Busy"] = 2, ---@type Enum
-    ["Minimized"] = 3, ---@type Enum
-}
+---@class questPhoneStatus: Enum
+---@field ["Available"] questPhoneStatus 0
+---@field ["NotAvailable"] questPhoneStatus 1
+---@field ["Busy"] questPhoneStatus 2
+---@field ["Minimized"] questPhoneStatus 3
+questPhoneStatus = {}

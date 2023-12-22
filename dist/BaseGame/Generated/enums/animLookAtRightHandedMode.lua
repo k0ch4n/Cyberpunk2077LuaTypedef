@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtRightHandedMode
-animLookAtRightHandedMode = {
-    ["Default"] = 0, ---@type Enum
-    ["Horizontal"] = 1, ---@type Enum
-    ["ENUM_SIZE"] = 2, ---@type Enum
-}
+---@class animLookAtRightHandedMode: Enum
+---@field ["Default"] animLookAtRightHandedMode 0
+---@field ["Horizontal"] animLookAtRightHandedMode 1
+---@field ["ENUM_SIZE"] animLookAtRightHandedMode 2
+animLookAtRightHandedMode = {}

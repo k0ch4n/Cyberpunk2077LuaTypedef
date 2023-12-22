@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectExecutor_AnimFeatureApplyTo
-gameEffectExecutor_AnimFeatureApplyTo = {
-    ["Target"] = 0, ---@type Enum
-    ["Instigator"] = 1, ---@type Enum
-}
+---@class gameEffectExecutor_AnimFeatureApplyTo: Enum
+---@field ["Target"] gameEffectExecutor_AnimFeatureApplyTo 0
+---@field ["Instigator"] gameEffectExecutor_AnimFeatureApplyTo 1
+gameEffectExecutor_AnimFeatureApplyTo = {}

@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioAmbientGroupingVariant
-audioAmbientGroupingVariant = {
-    ["AllEntities"] = 0, ---@type Enum
-    ["IndoorEntities"] = 1, ---@type Enum
-    ["OutdoorEntities"] = 2, ---@type Enum
-    ["AllEntitiesAllDirections"] = 3, ---@type Enum
-    ["IndoorAllDirections"] = 4, ---@type Enum
-    ["OutdoorAllDirections"] = 5, ---@type Enum
-    ["SameRoomEntities"] = 6, ---@type Enum
-    ["DifferentRoomEntities"] = 7, ---@type Enum
-    ["DistanceExclusion"] = 8, ---@type Enum
-}
+---@class audioAmbientGroupingVariant: Enum
+---@field ["AllEntities"] audioAmbientGroupingVariant 0
+---@field ["IndoorEntities"] audioAmbientGroupingVariant 1
+---@field ["OutdoorEntities"] audioAmbientGroupingVariant 2
+---@field ["AllEntitiesAllDirections"] audioAmbientGroupingVariant 3
+---@field ["IndoorAllDirections"] audioAmbientGroupingVariant 4
+---@field ["OutdoorAllDirections"] audioAmbientGroupingVariant 5
+---@field ["SameRoomEntities"] audioAmbientGroupingVariant 6
+---@field ["DifferentRoomEntities"] audioAmbientGroupingVariant 7
+---@field ["DistanceExclusion"] audioAmbientGroupingVariant 8
+audioAmbientGroupingVariant = {}

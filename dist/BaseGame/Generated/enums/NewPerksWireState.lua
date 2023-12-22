@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum NewPerksWireState
-NewPerksWireState = {
-    ["Default"] = 0, ---@type Enum
-    ["Available"] = 1, ---@type Enum
-    ["Bought"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["All"] = 4, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class NewPerksWireState: Enum
+---@field ["Default"] NewPerksWireState 0
+---@field ["Available"] NewPerksWireState 1
+---@field ["Bought"] NewPerksWireState 2
+---@field ["Count"] NewPerksWireState 3
+---@field ["All"] NewPerksWireState 4
+---@field ["Invalid"] NewPerksWireState -1
+NewPerksWireState = {}

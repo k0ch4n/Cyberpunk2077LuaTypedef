@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorNaryExpressionOperators
-AIbehaviorNaryExpressionOperators = {
-    ["LogicalAnd"] = 0, ---@type Enum
-    ["LogicalOr"] = 1, ---@type Enum
-}
+---@class AIbehaviorNaryExpressionOperators: Enum
+---@field ["LogicalAnd"] AIbehaviorNaryExpressionOperators 0
+---@field ["LogicalOr"] AIbehaviorNaryExpressionOperators 1
+AIbehaviorNaryExpressionOperators = {}

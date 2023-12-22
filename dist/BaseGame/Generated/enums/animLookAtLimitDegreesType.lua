@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLookAtLimitDegreesType
-animLookAtLimitDegreesType = {
-    ["Narrow"] = 0, ---@type Enum
-    ["Normal"] = 1, ---@type Enum
-    ["Wide"] = 2, ---@type Enum
-    ["None"] = 3, ---@type Enum
-}
+---@class animLookAtLimitDegreesType: Enum
+---@field ["Narrow"] animLookAtLimitDegreesType 0
+---@field ["Normal"] animLookAtLimitDegreesType 1
+---@field ["Wide"] animLookAtLimitDegreesType 2
+---@field ["None"] animLookAtLimitDegreesType 3
+animLookAtLimitDegreesType = {}

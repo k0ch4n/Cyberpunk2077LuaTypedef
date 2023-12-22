@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ENoiseType
-ENoiseType = {
-    ["NT_Random"] = 0, ---@type Enum
-    ["NT_Simplex2D"] = 1, ---@type Enum
-    ["NT_Simplex3D"] = 2, ---@type Enum
-}
+---@class ENoiseType: Enum
+---@field ["NT_Random"] ENoiseType 0
+---@field ["NT_Simplex2D"] ENoiseType 1
+---@field ["NT_Simplex3D"] ENoiseType 2
+ENoiseType = {}

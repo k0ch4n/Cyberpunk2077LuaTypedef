@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETakedownBossName
-ETakedownBossName = {
-    ["Smasher"] = 0, ---@type Enum
-    ["Oda"] = 1, ---@type Enum
-    ["Royce"] = 2, ---@type Enum
-    ["Sasquatch"] = 3, ---@type Enum
-    ["None"] = 4, ---@type Enum
-}
+---@class ETakedownBossName: Enum
+---@field ["Smasher"] ETakedownBossName 0
+---@field ["Oda"] ETakedownBossName 1
+---@field ["Royce"] ETakedownBossName 2
+---@field ["Sasquatch"] ETakedownBossName 3
+---@field ["None"] ETakedownBossName 4
+ETakedownBossName = {}

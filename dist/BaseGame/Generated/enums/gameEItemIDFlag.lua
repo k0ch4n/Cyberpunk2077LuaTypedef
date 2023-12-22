@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEItemIDFlag
-gameEItemIDFlag = {
-    ["Preview"] = 1, ---@type Enum
-}
+---@class gameEItemIDFlag: Enum
+---@field ["Preview"] gameEItemIDFlag 1
+gameEItemIDFlag = {}

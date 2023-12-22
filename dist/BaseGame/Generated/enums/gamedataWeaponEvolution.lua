@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWeaponEvolution
-gamedataWeaponEvolution = {
-    ["Blade"] = 0, ---@type Enum
-    ["Blunt"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-    ["Power"] = 3, ---@type Enum
-    ["Smart"] = 4, ---@type Enum
-    ["Tech"] = 5, ---@type Enum
-    ["Throwable"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataWeaponEvolution: Enum
+---@field ["Blade"] gamedataWeaponEvolution 0
+---@field ["Blunt"] gamedataWeaponEvolution 1
+---@field ["None"] gamedataWeaponEvolution 2
+---@field ["Power"] gamedataWeaponEvolution 3
+---@field ["Smart"] gamedataWeaponEvolution 4
+---@field ["Tech"] gamedataWeaponEvolution 5
+---@field ["Throwable"] gamedataWeaponEvolution 6
+---@field ["Count"] gamedataWeaponEvolution 7
+---@field ["Invalid"] gamedataWeaponEvolution 8
+gamedataWeaponEvolution = {}

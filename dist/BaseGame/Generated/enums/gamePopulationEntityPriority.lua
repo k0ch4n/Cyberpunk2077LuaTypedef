@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePopulationEntityPriority
-gamePopulationEntityPriority = {
-    ["Quest"] = 0, ---@type Enum
-    ["Community"] = 1, ---@type Enum
-    ["Crowd"] = 2, ---@type Enum
-}
+---@class gamePopulationEntityPriority: Enum
+---@field ["Quest"] gamePopulationEntityPriority 0
+---@field ["Community"] gamePopulationEntityPriority 1
+---@field ["Crowd"] gamePopulationEntityPriority 2
+gamePopulationEntityPriority = {}

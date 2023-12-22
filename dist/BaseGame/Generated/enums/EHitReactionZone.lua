@@ -1,17 +1,16 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EHitReactionZone
-EHitReactionZone = {
-    ["Head"] = 0, ---@type Enum
-    ["ChestLeft"] = 1, ---@type Enum
-    ["ArmLeft"] = 2, ---@type Enum
-    ["HandLeft"] = 3, ---@type Enum
-    ["ChestRight"] = 4, ---@type Enum
-    ["ArmRight"] = 5, ---@type Enum
-    ["HandRight"] = 6, ---@type Enum
-    ["Abdomen"] = 7, ---@type Enum
-    ["LegLeft"] = 8, ---@type Enum
-    ["LegRight"] = 9, ---@type Enum
-    ["Special"] = 10, ---@type Enum
-}
+---@class EHitReactionZone: Enum
+---@field ["Head"] EHitReactionZone 0
+---@field ["ChestLeft"] EHitReactionZone 1
+---@field ["ArmLeft"] EHitReactionZone 2
+---@field ["HandLeft"] EHitReactionZone 3
+---@field ["ChestRight"] EHitReactionZone 4
+---@field ["ArmRight"] EHitReactionZone 5
+---@field ["HandRight"] EHitReactionZone 6
+---@field ["Abdomen"] EHitReactionZone 7
+---@field ["LegLeft"] EHitReactionZone 8
+---@field ["LegRight"] EHitReactionZone 9
+---@field ["Special"] EHitReactionZone 10
+EHitReactionZone = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESpaceFillMode
-ESpaceFillMode = {
-    ["JustifyLeft"] = 0, ---@type Enum
-    ["JustifyRight"] = 1, ---@type Enum
-    ["JustifyCenter"] = 2, ---@type Enum
-}
+---@class ESpaceFillMode: Enum
+---@field ["JustifyLeft"] ESpaceFillMode 0
+---@field ["JustifyRight"] ESpaceFillMode 1
+---@field ["JustifyCenter"] ESpaceFillMode 2
+ESpaceFillMode = {}

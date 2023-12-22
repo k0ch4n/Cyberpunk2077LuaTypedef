@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataTrackingMode
-gamedataTrackingMode = {
-    ["BeliefPosition"] = 0, ---@type Enum
-    ["LastKnownPosition"] = 1, ---@type Enum
-    ["RealPosition"] = 2, ---@type Enum
-    ["SharedBeliefPosition"] = 3, ---@type Enum
-    ["SharedLastKnownPosition"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataTrackingMode: Enum
+---@field ["BeliefPosition"] gamedataTrackingMode 0
+---@field ["LastKnownPosition"] gamedataTrackingMode 1
+---@field ["RealPosition"] gamedataTrackingMode 2
+---@field ["SharedBeliefPosition"] gamedataTrackingMode 3
+---@field ["SharedLastKnownPosition"] gamedataTrackingMode 4
+---@field ["Count"] gamedataTrackingMode 5
+---@field ["Invalid"] gamedataTrackingMode 6
+gamedataTrackingMode = {}

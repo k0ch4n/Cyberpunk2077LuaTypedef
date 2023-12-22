@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataItemStructure
-gamedataItemStructure = {
-    ["BlueprintStackable"] = 0, ---@type Enum
-    ["Stackable"] = 1, ---@type Enum
-    ["Unique"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataItemStructure: Enum
+---@field ["BlueprintStackable"] gamedataItemStructure 0
+---@field ["Stackable"] gamedataItemStructure 1
+---@field ["Unique"] gamedataItemStructure 2
+---@field ["Count"] gamedataItemStructure 3
+---@field ["Invalid"] gamedataItemStructure 4
+gamedataItemStructure = {}

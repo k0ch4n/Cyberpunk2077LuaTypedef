@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GameplayTier
-GameplayTier = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Tier1_FullGameplay"] = 1, ---@type Enum
-    ["Tier2_StagedGameplay"] = 2, ---@type Enum
-    ["Tier3_LimitedGameplay"] = 3, ---@type Enum
-    ["Tier4_FPPCinematic"] = 4, ---@type Enum
-    ["Tier5_Cinematic"] = 5, ---@type Enum
-}
+---@class GameplayTier: Enum
+---@field ["Undefined"] GameplayTier 0
+---@field ["Tier1_FullGameplay"] GameplayTier 1
+---@field ["Tier2_StagedGameplay"] GameplayTier 2
+---@field ["Tier3_LimitedGameplay"] GameplayTier 3
+---@field ["Tier4_FPPCinematic"] GameplayTier 4
+---@field ["Tier5_Cinematic"] GameplayTier 5
+GameplayTier = {}

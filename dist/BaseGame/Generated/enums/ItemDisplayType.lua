@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ItemDisplayType
-ItemDisplayType = {
-    ["Item"] = 0, ---@type Enum
-    ["Weapon"] = 1, ---@type Enum
-}
+---@class ItemDisplayType: Enum
+---@field ["Item"] ItemDisplayType 0
+---@field ["Weapon"] ItemDisplayType 1
+ItemDisplayType = {}

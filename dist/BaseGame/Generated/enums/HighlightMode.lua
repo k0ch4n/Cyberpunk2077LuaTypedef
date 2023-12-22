@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HighlightMode
-HighlightMode = {
-    ["Row"] = 0, ---@type Enum
-    ["Column"] = 1, ---@type Enum
-}
+---@class HighlightMode: Enum
+---@field ["Row"] HighlightMode 0
+---@field ["Column"] HighlightMode 1
+HighlightMode = {}

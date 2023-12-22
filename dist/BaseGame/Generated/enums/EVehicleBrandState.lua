@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EVehicleBrandState
-EVehicleBrandState = {
-    ["Default"] = 0, ---@type Enum
-    ["New"] = 1, ---@type Enum
-    ["Selected"] = 2, ---@type Enum
-}
+---@class EVehicleBrandState: Enum
+---@field ["Default"] EVehicleBrandState 0
+---@field ["New"] EVehicleBrandState 1
+---@field ["Selected"] EVehicleBrandState 2
+EVehicleBrandState = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CodexDataSource
-CodexDataSource = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Codex"] = 1, ---@type Enum
-    ["Onscreen"] = 2, ---@type Enum
-}
+---@class CodexDataSource: Enum
+---@field ["Undefined"] CodexDataSource 0
+---@field ["Codex"] CodexDataSource 1
+---@field ["Onscreen"] CodexDataSource 2
+CodexDataSource = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightSwitchRandomizerType
-ELightSwitchRandomizerType = {
-    ["RANDOM"] = 0, ---@type Enum
-    ["RANDOM_PROGRESSIVE"] = 1, ---@type Enum
-    ["NONE"] = 2, ---@type Enum
-}
+---@class ELightSwitchRandomizerType: Enum
+---@field ["RANDOM"] ELightSwitchRandomizerType 0
+---@field ["RANDOM_PROGRESSIVE"] ELightSwitchRandomizerType 1
+---@field ["NONE"] ELightSwitchRandomizerType 2
+ELightSwitchRandomizerType = {}

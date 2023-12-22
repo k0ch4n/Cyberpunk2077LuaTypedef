@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scneventsUIAnimActionType
-scneventsUIAnimActionType = {
-    ["Play"] = 0, ---@type Enum
-    ["Update"] = 1, ---@type Enum
-    ["Resume"] = 2, ---@type Enum
-    ["Pause"] = 3, ---@type Enum
-    ["Stop"] = 4, ---@type Enum
-}
+---@class scneventsUIAnimActionType: Enum
+---@field ["Play"] scneventsUIAnimActionType 0
+---@field ["Update"] scneventsUIAnimActionType 1
+---@field ["Resume"] scneventsUIAnimActionType 2
+---@field ["Pause"] scneventsUIAnimActionType 3
+---@field ["Stop"] scneventsUIAnimActionType 4
+scneventsUIAnimActionType = {}

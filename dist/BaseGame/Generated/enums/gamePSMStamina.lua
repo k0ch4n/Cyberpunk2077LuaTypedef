@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMStamina
-gamePSMStamina = {
-    ["Rested"] = 0, ---@type Enum
-    ["Fatigued"] = 1, ---@type Enum
-    ["Exhausted"] = 2, ---@type Enum
-}
+---@class gamePSMStamina: Enum
+---@field ["Rested"] gamePSMStamina 0
+---@field ["Fatigued"] gamePSMStamina 1
+---@field ["Exhausted"] gamePSMStamina 2
+gamePSMStamina = {}

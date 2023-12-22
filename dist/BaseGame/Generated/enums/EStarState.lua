@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EStarState
-EStarState = {
-    ["Default"] = 0, ---@type Enum
-    ["Active"] = 1, ---@type Enum
-    ["Searching"] = 2, ---@type Enum
-    ["Blinking"] = 3, ---@type Enum
-}
+---@class EStarState: Enum
+---@field ["Default"] EStarState 0
+---@field ["Active"] EStarState 1
+---@field ["Searching"] EStarState 2
+---@field ["Blinking"] EStarState 3
+EStarState = {}

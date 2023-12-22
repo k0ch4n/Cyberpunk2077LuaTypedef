@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameGodModeType
-gameGodModeType = {
-    ["Immortal"] = 1, ---@type Enum
-    ["Invulnerable"] = 0, ---@type Enum
-    ["Mortal"] = 2, ---@type Enum
-}
+---@class gameGodModeType: Enum
+---@field ["Immortal"] gameGodModeType 1
+---@field ["Invulnerable"] gameGodModeType 0
+---@field ["Mortal"] gameGodModeType 2
+gameGodModeType = {}

@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioMeleeMaterialType
-audioMeleeMaterialType = {
-    ["Hard"] = 0, ---@type Enum
-    ["Soft"] = 1, ---@type Enum
-    ["Solid"] = 2, ---@type Enum
-    ["Flesh"] = 3, ---@type Enum
-    ["Robot"] = 4, ---@type Enum
-    ["Android"] = 5, ---@type Enum
-    ["Mech"] = 6, ---@type Enum
-    ["Water"] = 7, ---@type Enum
-}
+---@class audioMeleeMaterialType: Enum
+---@field ["Hard"] audioMeleeMaterialType 0
+---@field ["Soft"] audioMeleeMaterialType 1
+---@field ["Solid"] audioMeleeMaterialType 2
+---@field ["Flesh"] audioMeleeMaterialType 3
+---@field ["Robot"] audioMeleeMaterialType 4
+---@field ["Android"] audioMeleeMaterialType 5
+---@field ["Mech"] audioMeleeMaterialType 6
+---@field ["Water"] audioMeleeMaterialType 7
+audioMeleeMaterialType = {}

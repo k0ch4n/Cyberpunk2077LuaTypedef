@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InGameConfigVarUpdatePolicy
-InGameConfigVarUpdatePolicy = {
-    ["Disabled"] = 0, ---@type Enum
-    ["Immediately"] = 1, ---@type Enum
-    ["ConfirmationRequired"] = 2, ---@type Enum
-    ["RestartRequired"] = 3, ---@type Enum
-    ["LoadLastCheckpointRequired"] = 4, ---@type Enum
-}
+---@class InGameConfigVarUpdatePolicy: Enum
+---@field ["Disabled"] InGameConfigVarUpdatePolicy 0
+---@field ["Immediately"] InGameConfigVarUpdatePolicy 1
+---@field ["ConfirmationRequired"] InGameConfigVarUpdatePolicy 2
+---@field ["RestartRequired"] InGameConfigVarUpdatePolicy 3
+---@field ["LoadLastCheckpointRequired"] InGameConfigVarUpdatePolicy 4
+InGameConfigVarUpdatePolicy = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendGIGroup
-rendGIGroup = {
-    ["GI_Group0"] = 0, ---@type Enum
-    ["GI_Group1"] = 1, ---@type Enum
-}
+---@class rendGIGroup: Enum
+---@field ["GI_Group0"] rendGIGroup 0
+---@field ["GI_Group1"] rendGIGroup 1
+rendGIGroup = {}

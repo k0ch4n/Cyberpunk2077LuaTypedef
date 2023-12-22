@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIEExecutionOutcome
-AIEExecutionOutcome = {
-    ["OUTCOME_FAILURE"] = 0, ---@type Enum
-    ["OUTCOME_SUCCESS"] = 1, ---@type Enum
-    ["OUTCOME_IN_PROGRESS"] = 2, ---@type Enum
-}
+---@class AIEExecutionOutcome: Enum
+---@field ["OUTCOME_FAILURE"] AIEExecutionOutcome 0
+---@field ["OUTCOME_SUCCESS"] AIEExecutionOutcome 1
+---@field ["OUTCOME_IN_PROGRESS"] AIEExecutionOutcome 2
+AIEExecutionOutcome = {}

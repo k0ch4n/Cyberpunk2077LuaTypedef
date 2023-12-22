@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkTextureType
-inkTextureType = {
-    ["StaticTexture"] = 0, ---@type Enum
-    ["DynamicTexture"] = 1, ---@type Enum
-    ["InvalidTexture"] = 2, ---@type Enum
-}
+---@class inkTextureType: Enum
+---@field ["StaticTexture"] inkTextureType 0
+---@field ["DynamicTexture"] inkTextureType 1
+---@field ["InvalidTexture"] inkTextureType 2
+inkTextureType = {}

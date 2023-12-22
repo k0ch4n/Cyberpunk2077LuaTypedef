@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum DerivedFilterResult
-DerivedFilterResult = {
-    ["False"] = 0, ---@type Enum
-    ["True"] = 1, ---@type Enum
-    ["Pass"] = 2, ---@type Enum
-}
+---@class DerivedFilterResult: Enum
+---@field ["False"] DerivedFilterResult 0
+---@field ["True"] DerivedFilterResult 1
+---@field ["Pass"] DerivedFilterResult 2
+DerivedFilterResult = {}

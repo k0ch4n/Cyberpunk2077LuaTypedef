@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiHitType
-gameuiHitType = {
-    ["Miss"] = 0, ---@type Enum
-    ["Glance"] = 1, ---@type Enum
-    ["Hit"] = 2, ---@type Enum
-    ["CriticalHit"] = 3, ---@type Enum
-    ["CriticalHit_x2"] = 4, ---@type Enum
-    ["Special"] = 5, ---@type Enum
-}
+---@class gameuiHitType: Enum
+---@field ["Miss"] gameuiHitType 0
+---@field ["Glance"] gameuiHitType 1
+---@field ["Hit"] gameuiHitType 2
+---@field ["CriticalHit"] gameuiHitType 3
+---@field ["CriticalHit_x2"] gameuiHitType 4
+---@field ["Special"] gameuiHitType 5
+gameuiHitType = {}

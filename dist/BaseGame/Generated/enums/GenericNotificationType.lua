@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GenericNotificationType
-GenericNotificationType = {
-    ["Generic"] = 0, ---@type Enum
-    ["JournalNotification"] = 1, ---@type Enum
-    ["LevelUpNotification"] = 2, ---@type Enum
-    ["VendorNotification"] = 3, ---@type Enum
-    ["ZoneNotification"] = 4, ---@type Enum
-    ["ProgressionNotification"] = 5, ---@type Enum
-    ["CraftingNotification"] = 6, ---@type Enum
-    ["InventoryNotification"] = 7, ---@type Enum
-    ["PhoneNotification"] = 8, ---@type Enum
-}
+---@class GenericNotificationType: Enum
+---@field ["Generic"] GenericNotificationType 0
+---@field ["JournalNotification"] GenericNotificationType 1
+---@field ["LevelUpNotification"] GenericNotificationType 2
+---@field ["VendorNotification"] GenericNotificationType 3
+---@field ["ZoneNotification"] GenericNotificationType 4
+---@field ["ProgressionNotification"] GenericNotificationType 5
+---@field ["CraftingNotification"] GenericNotificationType 6
+---@field ["InventoryNotification"] GenericNotificationType 7
+---@field ["PhoneNotification"] GenericNotificationType 8
+GenericNotificationType = {}

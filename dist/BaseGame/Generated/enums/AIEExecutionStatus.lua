@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIEExecutionStatus
-AIEExecutionStatus = {
-    ["STATUS_INVALID"] = 0, ---@type Enum
-    ["STATUS_SUCCESS"] = 1, ---@type Enum
-    ["STATUS_FAILURE"] = 2, ---@type Enum
-    ["STATUS_RUNNING"] = 3, ---@type Enum
-    ["STATUS_ABORTED"] = 4, ---@type Enum
-}
+---@class AIEExecutionStatus: Enum
+---@field ["STATUS_INVALID"] AIEExecutionStatus 0
+---@field ["STATUS_SUCCESS"] AIEExecutionStatus 1
+---@field ["STATUS_FAILURE"] AIEExecutionStatus 2
+---@field ["STATUS_RUNNING"] AIEExecutionStatus 3
+---@field ["STATUS_ABORTED"] AIEExecutionStatus 4
+AIEExecutionStatus = {}

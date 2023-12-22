@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum grsDeathmatchStatus
-grsDeathmatchStatus = {
-    ["Waiting"] = 0, ---@type Enum
-    ["AdditionalWaiting"] = 1, ---@type Enum
-    ["Starting"] = 2, ---@type Enum
-    ["InGame"] = 3, ---@type Enum
-    ["Ending"] = 4, ---@type Enum
-    ["Sumup"] = 5, ---@type Enum
-}
+---@class grsDeathmatchStatus: Enum
+---@field ["Waiting"] grsDeathmatchStatus 0
+---@field ["AdditionalWaiting"] grsDeathmatchStatus 1
+---@field ["Starting"] grsDeathmatchStatus 2
+---@field ["InGame"] grsDeathmatchStatus 3
+---@field ["Ending"] grsDeathmatchStatus 4
+---@field ["Sumup"] grsDeathmatchStatus 5
+grsDeathmatchStatus = {}

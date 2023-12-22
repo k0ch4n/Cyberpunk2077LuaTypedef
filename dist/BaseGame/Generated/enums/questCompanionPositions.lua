@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questCompanionPositions
-questCompanionPositions = {
-    ["Behind"] = 0, ---@type Enum
-    ["InFront"] = 1, ---@type Enum
-}
+---@class questCompanionPositions: Enum
+---@field ["Behind"] questCompanionPositions 0
+---@field ["InFront"] questCompanionPositions 1
+questCompanionPositions = {}

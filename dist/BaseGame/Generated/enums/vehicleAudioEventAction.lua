@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleAudioEventAction
-vehicleAudioEventAction = {
-    ["OnPlayerDriving"] = 0, ---@type Enum
-    ["OnPlayerPassenger"] = 1, ---@type Enum
-    ["OnPlayerExitVehicle"] = 4, ---@type Enum
-    ["OnPlayerEnterCombat"] = 2, ---@type Enum
-    ["OnPlayerExitCombat"] = 3, ---@type Enum
-    ["OnPlayerVehicleSummoned"] = 5, ---@type Enum
-}
+---@class vehicleAudioEventAction: Enum
+---@field ["OnPlayerDriving"] vehicleAudioEventAction 0
+---@field ["OnPlayerPassenger"] vehicleAudioEventAction 1
+---@field ["OnPlayerExitVehicle"] vehicleAudioEventAction 4
+---@field ["OnPlayerEnterCombat"] vehicleAudioEventAction 2
+---@field ["OnPlayerExitCombat"] vehicleAudioEventAction 3
+---@field ["OnPlayerVehicleSummoned"] vehicleAudioEventAction 5
+vehicleAudioEventAction = {}

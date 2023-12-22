@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ExpansionPopupType
-ExpansionPopupType = {
-    ["Default"] = 0, ---@type Enum
-    ["Features"] = 1, ---@type Enum
-    ["ThankYou"] = 2, ---@type Enum
-    ["Reloading"] = 3, ---@type Enum
-    ["PreOrder"] = 4, ---@type Enum
-}
+---@class ExpansionPopupType: Enum
+---@field ["Default"] ExpansionPopupType 0
+---@field ["Features"] ExpansionPopupType 1
+---@field ["ThankYou"] ExpansionPopupType 2
+---@field ["Reloading"] ExpansionPopupType 3
+---@field ["PreOrder"] ExpansionPopupType 4
+ExpansionPopupType = {}

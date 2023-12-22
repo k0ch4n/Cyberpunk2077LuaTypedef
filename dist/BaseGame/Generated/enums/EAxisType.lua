@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAxisType
-EAxisType = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-}
+---@class EAxisType: Enum
+---@field ["X"] EAxisType 0
+---@field ["Y"] EAxisType 1
+---@field ["Z"] EAxisType 2
+EAxisType = {}

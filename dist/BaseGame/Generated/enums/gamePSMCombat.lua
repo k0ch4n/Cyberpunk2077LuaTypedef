@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMCombat
-gamePSMCombat = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["InCombat"] = 1, ---@type Enum
-    ["OutOfCombat"] = 2, ---@type Enum
-    ["Stealth"] = 3, ---@type Enum
-}
+---@class gamePSMCombat: Enum
+---@field ["Any"] gamePSMCombat -1
+---@field ["Default"] gamePSMCombat 0
+---@field ["InCombat"] gamePSMCombat 1
+---@field ["OutOfCombat"] gamePSMCombat 2
+---@field ["Stealth"] gamePSMCombat 3
+gamePSMCombat = {}

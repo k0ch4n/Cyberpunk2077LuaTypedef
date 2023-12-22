@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsELookAtTest
-gameinteractionsELookAtTest = {
-    ["Targeting"] = 0, ---@type Enum
-    ["Interaction"] = 1, ---@type Enum
-}
+---@class gameinteractionsELookAtTest: Enum
+---@field ["Targeting"] gameinteractionsELookAtTest 0
+---@field ["Interaction"] gameinteractionsELookAtTest 1
+gameinteractionsELookAtTest = {}

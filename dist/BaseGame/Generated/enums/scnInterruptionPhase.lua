@@ -1,29 +1,28 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnInterruptionPhase
-scnInterruptionPhase = {
-    ["WaitForInterruption"] = 0, ---@type Enum
-    ["WaitForInterrupted"] = 1, ---@type Enum
-    ["Interrupted"] = 2, ---@type Enum
-    ["ClearTier"] = 3, ---@type Enum
-    ["FadeOutLines"] = 4, ---@type Enum
-    ["InterruptionVoiceset"] = 5, ---@type Enum
-    ["WaitForReturn"] = 6, ---@type Enum
-    ["InstallTalkInteraction"] = 7, ---@type Enum
-    ["WaitForTalkInteraction"] = 8, ---@type Enum
-    ["ReturnVoiceset"] = 9, ---@type Enum
-    ["ReturnAnswerVoiceset"] = 10, ---@type Enum
-    ["ShowLines"] = 11, ---@type Enum
-    ["SyncTime"] = 12, ---@type Enum
-    ["RestoreTier"] = 13, ---@type Enum
-    ["Returned"] = 14, ---@type Enum
-    ["FadeOutLookAt"] = 15, ---@type Enum
-    ["FadeInLookAt"] = 16, ---@type Enum
-    ["InterruptSignal"] = 17, ---@type Enum
-    ["PostInterruptSignalTimeDelay"] = 18, ---@type Enum
-    ["ReturnSignal"] = 19, ---@type Enum
-    ["PostReturnSignalTimeDelay"] = 20, ---@type Enum
-    ["ProcessTalkInteraction"] = 21, ---@type Enum
-    ["ClearCommands"] = 22, ---@type Enum
-}
+---@class scnInterruptionPhase: Enum
+---@field ["WaitForInterruption"] scnInterruptionPhase 0
+---@field ["WaitForInterrupted"] scnInterruptionPhase 1
+---@field ["Interrupted"] scnInterruptionPhase 2
+---@field ["ClearTier"] scnInterruptionPhase 3
+---@field ["FadeOutLines"] scnInterruptionPhase 4
+---@field ["InterruptionVoiceset"] scnInterruptionPhase 5
+---@field ["WaitForReturn"] scnInterruptionPhase 6
+---@field ["InstallTalkInteraction"] scnInterruptionPhase 7
+---@field ["WaitForTalkInteraction"] scnInterruptionPhase 8
+---@field ["ReturnVoiceset"] scnInterruptionPhase 9
+---@field ["ReturnAnswerVoiceset"] scnInterruptionPhase 10
+---@field ["ShowLines"] scnInterruptionPhase 11
+---@field ["SyncTime"] scnInterruptionPhase 12
+---@field ["RestoreTier"] scnInterruptionPhase 13
+---@field ["Returned"] scnInterruptionPhase 14
+---@field ["FadeOutLookAt"] scnInterruptionPhase 15
+---@field ["FadeInLookAt"] scnInterruptionPhase 16
+---@field ["InterruptSignal"] scnInterruptionPhase 17
+---@field ["PostInterruptSignalTimeDelay"] scnInterruptionPhase 18
+---@field ["ReturnSignal"] scnInterruptionPhase 19
+---@field ["PostReturnSignalTimeDelay"] scnInterruptionPhase 20
+---@field ["ProcessTalkInteraction"] scnInterruptionPhase 21
+---@field ["ClearCommands"] scnInterruptionPhase 22
+scnInterruptionPhase = {}

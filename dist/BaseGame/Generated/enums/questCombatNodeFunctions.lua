@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questCombatNodeFunctions
-questCombatNodeFunctions = {
-    ["CombatTarget"] = 0, ---@type Enum
-    ["ShootAt"] = 1, ---@type Enum
-    ["LookAtTarget"] = 2, ---@type Enum
-    ["ThrowGrenade"] = 3, ---@type Enum
-    ["UseCover"] = 4, ---@type Enum
-    ["SwitchWeapon"] = 5, ---@type Enum
-    ["PrimaryWeapon"] = 6, ---@type Enum
-    ["SecondaryWeapon"] = 7, ---@type Enum
-    ["RestrictMovementToArea"] = 8, ---@type Enum
-}
+---@class questCombatNodeFunctions: Enum
+---@field ["CombatTarget"] questCombatNodeFunctions 0
+---@field ["ShootAt"] questCombatNodeFunctions 1
+---@field ["LookAtTarget"] questCombatNodeFunctions 2
+---@field ["ThrowGrenade"] questCombatNodeFunctions 3
+---@field ["UseCover"] questCombatNodeFunctions 4
+---@field ["SwitchWeapon"] questCombatNodeFunctions 5
+---@field ["PrimaryWeapon"] questCombatNodeFunctions 6
+---@field ["SecondaryWeapon"] questCombatNodeFunctions 7
+---@field ["RestrictMovementToArea"] questCombatNodeFunctions 8
+questCombatNodeFunctions = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEffectObjectFilter_AxisRangeAxis
-gameEffectObjectFilter_AxisRangeAxis = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-}
+---@class gameEffectObjectFilter_AxisRangeAxis: Enum
+---@field ["X"] gameEffectObjectFilter_AxisRangeAxis 0
+---@field ["Y"] gameEffectObjectFilter_AxisRangeAxis 1
+---@field ["Z"] gameEffectObjectFilter_AxisRangeAxis 2
+gameEffectObjectFilter_AxisRangeAxis = {}

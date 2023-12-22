@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EVarDBMode
-EVarDBMode = {
-    ["Add"] = 0, ---@type Enum
-    ["Set"] = 1, ---@type Enum
-    ["Invalid"] = 2, ---@type Enum
-}
+---@class EVarDBMode: Enum
+---@field ["Add"] EVarDBMode 0
+---@field ["Set"] EVarDBMode 1
+---@field ["Invalid"] EVarDBMode 2
+EVarDBMode = {}

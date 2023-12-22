@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EExplosiveAdditionalGameEffectType
-EExplosiveAdditionalGameEffectType = {
-    ["none"] = 0, ---@type Enum
-    ["EMP"] = 1, ---@type Enum
-}
+---@class EExplosiveAdditionalGameEffectType: Enum
+---@field ["none"] EExplosiveAdditionalGameEffectType 0
+---@field ["EMP"] EExplosiveAdditionalGameEffectType 1
+EExplosiveAdditionalGameEffectType = {}

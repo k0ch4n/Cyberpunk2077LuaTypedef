@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkELayerType
-inkELayerType = {
-    ["Watermarks"] = 0, ---@type Enum
-    ["WaitingSign"] = 1, ---@type Enum
-    ["SystemNotifications"] = 2, ---@type Enum
-    ["Loading"] = 3, ---@type Enum
-    ["GameNotifications"] = 4, ---@type Enum
-    ["Menu"] = 5, ---@type Enum
-    ["Video"] = 6, ---@type Enum
-    ["HUD"] = 7, ---@type Enum
-    ["Editor"] = 8, ---@type Enum
-    ["World"] = 9, ---@type Enum
-    ["Offscreen"] = 10, ---@type Enum
-    ["Advertisements"] = 11, ---@type Enum
-    ["StreetSigns"] = 12, ---@type Enum
-    ["PhotoMode"] = 13, ---@type Enum
-    ["Debug"] = 14, ---@type Enum
-    ["MAX"] = 15, ---@type Enum
-}
+---@class inkELayerType: Enum
+---@field ["Watermarks"] inkELayerType 0
+---@field ["WaitingSign"] inkELayerType 1
+---@field ["SystemNotifications"] inkELayerType 2
+---@field ["Loading"] inkELayerType 3
+---@field ["GameNotifications"] inkELayerType 4
+---@field ["Menu"] inkELayerType 5
+---@field ["Video"] inkELayerType 6
+---@field ["HUD"] inkELayerType 7
+---@field ["Editor"] inkELayerType 8
+---@field ["World"] inkELayerType 9
+---@field ["Offscreen"] inkELayerType 10
+---@field ["Advertisements"] inkELayerType 11
+---@field ["StreetSigns"] inkELayerType 12
+---@field ["PhotoMode"] inkELayerType 13
+---@field ["Debug"] inkELayerType 14
+---@field ["MAX"] inkELayerType 15
+inkELayerType = {}

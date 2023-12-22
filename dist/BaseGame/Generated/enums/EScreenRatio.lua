@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EScreenRatio
-EScreenRatio = {
-    ["Screen_21x9"] = 0, ---@type Enum
-    ["Screen_9x21"] = 1, ---@type Enum
-    ["Screen_9x16"] = 2, ---@type Enum
-    ["Screen_3x4"] = 3, ---@type Enum
-    ["Screen_4x3"] = 4, ---@type Enum
-    ["Screen_1x1"] = 5, ---@type Enum
-}
+---@class EScreenRatio: Enum
+---@field ["Screen_21x9"] EScreenRatio 0
+---@field ["Screen_9x21"] EScreenRatio 1
+---@field ["Screen_9x16"] EScreenRatio 2
+---@field ["Screen_3x4"] EScreenRatio 3
+---@field ["Screen_4x3"] EScreenRatio 4
+---@field ["Screen_1x1"] EScreenRatio 5
+EScreenRatio = {}

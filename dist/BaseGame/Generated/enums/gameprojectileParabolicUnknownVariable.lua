@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameprojectileParabolicUnknownVariable
-gameprojectileParabolicUnknownVariable = {
-    ["TargetPoint"] = 0, ---@type Enum
-    ["VelocityValue"] = 1, ---@type Enum
-    ["Accel"] = 2, ---@type Enum
-}
+---@class gameprojectileParabolicUnknownVariable: Enum
+---@field ["TargetPoint"] gameprojectileParabolicUnknownVariable 0
+---@field ["VelocityValue"] gameprojectileParabolicUnknownVariable 1
+---@field ["Accel"] gameprojectileParabolicUnknownVariable 2
+gameprojectileParabolicUnknownVariable = {}

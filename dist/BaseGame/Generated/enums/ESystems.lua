@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESystems
-ESystems = {
-    ["NONE"] = 0, ---@type Enum
-    ["SecuritySystem"] = 1, ---@type Enum
-    ["AccessPoints"] = 2, ---@type Enum
-    ["MaintenanceSystem"] = 3, ---@type Enum
-    ["PersonnelSystem"] = 4, ---@type Enum
-    ["SurveillanceSystem"] = 5, ---@type Enum
-}
+---@class ESystems: Enum
+---@field ["NONE"] ESystems 0
+---@field ["SecuritySystem"] ESystems 1
+---@field ["AccessPoints"] ESystems 2
+---@field ["MaintenanceSystem"] ESystems 3
+---@field ["PersonnelSystem"] ESystems 4
+---@field ["SurveillanceSystem"] ESystems 5
+ESystems = {}

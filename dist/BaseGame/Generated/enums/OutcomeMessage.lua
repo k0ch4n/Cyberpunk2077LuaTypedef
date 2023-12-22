@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum OutcomeMessage
-OutcomeMessage = {
-    ["Success"] = 0, ---@type Enum
-    ["Failure"] = 1, ---@type Enum
-}
+---@class OutcomeMessage: Enum
+---@field ["Success"] OutcomeMessage 0
+---@field ["Failure"] OutcomeMessage 1
+OutcomeMessage = {}

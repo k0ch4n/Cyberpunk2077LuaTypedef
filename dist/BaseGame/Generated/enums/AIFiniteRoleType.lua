@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIFiniteRoleType
-AIFiniteRoleType = {
-    ["Patrol"] = 0, ---@type Enum
-}
+---@class AIFiniteRoleType: Enum
+---@field ["Patrol"] AIFiniteRoleType 0
+AIFiniteRoleType = {}

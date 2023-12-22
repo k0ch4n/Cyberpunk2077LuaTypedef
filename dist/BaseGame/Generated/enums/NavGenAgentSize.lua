@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum NavGenAgentSize
-NavGenAgentSize = {
-    ["Human"] = 0, ---@type Enum
-    ["Vehicle"] = 1, ---@type Enum
-    ["AgentSize_Count"] = 2, ---@type Enum
-}
+---@class NavGenAgentSize: Enum
+---@field ["Human"] NavGenAgentSize 0
+---@field ["Vehicle"] NavGenAgentSize 1
+---@field ["AgentSize_Count"] NavGenAgentSize 2
+NavGenAgentSize = {}

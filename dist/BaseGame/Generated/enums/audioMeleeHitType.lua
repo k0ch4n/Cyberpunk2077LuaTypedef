@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioMeleeHitType
-audioMeleeHitType = {
-    ["Light"] = 0, ---@type Enum
-    ["Normal"] = 1, ---@type Enum
-    ["Heavy"] = 2, ---@type Enum
-    ["Slash"] = 3, ---@type Enum
-    ["Cut"] = 4, ---@type Enum
-    ["Stab"] = 5, ---@type Enum
-    ["Finisher"] = 6, ---@type Enum
-    ["Weak"] = 7, ---@type Enum
-    ["Throw"] = 8, ---@type Enum
-}
+---@class audioMeleeHitType: Enum
+---@field ["Light"] audioMeleeHitType 0
+---@field ["Normal"] audioMeleeHitType 1
+---@field ["Heavy"] audioMeleeHitType 2
+---@field ["Slash"] audioMeleeHitType 3
+---@field ["Cut"] audioMeleeHitType 4
+---@field ["Stab"] audioMeleeHitType 5
+---@field ["Finisher"] audioMeleeHitType 6
+---@field ["Weak"] audioMeleeHitType 7
+---@field ["Throw"] audioMeleeHitType 8
+audioMeleeHitType = {}

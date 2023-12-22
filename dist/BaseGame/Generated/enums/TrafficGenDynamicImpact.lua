@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TrafficGenDynamicImpact
-TrafficGenDynamicImpact = {
-    ["Ignored"] = 0, ---@type Enum
-    ["Blocking"] = 1, ---@type Enum
-}
+---@class TrafficGenDynamicImpact: Enum
+---@field ["Ignored"] TrafficGenDynamicImpact 0
+---@field ["Blocking"] TrafficGenDynamicImpact 1
+TrafficGenDynamicImpact = {}

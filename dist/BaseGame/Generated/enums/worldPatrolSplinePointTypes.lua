@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldPatrolSplinePointTypes
-worldPatrolSplinePointTypes = {
-    ["Workspot"] = 0, ---@type Enum
-    ["LookAt"] = 1, ---@type Enum
-    ["ClearLookAt"] = 2, ---@type Enum
-}
+---@class worldPatrolSplinePointTypes: Enum
+---@field ["Workspot"] worldPatrolSplinePointTypes 0
+---@field ["LookAt"] worldPatrolSplinePointTypes 1
+---@field ["ClearLookAt"] worldPatrolSplinePointTypes 2
+worldPatrolSplinePointTypes = {}

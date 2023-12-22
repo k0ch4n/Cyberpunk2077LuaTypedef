@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EStatusEffectBehaviorType
-EStatusEffectBehaviorType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Basic"] = 1, ---@type Enum
-    ["Stoppable"] = 2, ---@type Enum
-    ["Unstoppable"] = 3, ---@type Enum
-}
+---@class EStatusEffectBehaviorType: Enum
+---@field ["Invalid"] EStatusEffectBehaviorType 0
+---@field ["Basic"] EStatusEffectBehaviorType 1
+---@field ["Stoppable"] EStatusEffectBehaviorType 2
+---@field ["Unstoppable"] EStatusEffectBehaviorType 3
+EStatusEffectBehaviorType = {}

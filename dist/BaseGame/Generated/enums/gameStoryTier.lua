@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStoryTier
-gameStoryTier = {
-    ["Gameplay"] = 0, ---@type Enum
-    ["Cinematic"] = 1, ---@type Enum
-}
+---@class gameStoryTier: Enum
+---@field ["Gameplay"] gameStoryTier 0
+---@field ["Cinematic"] gameStoryTier 1
+gameStoryTier = {}

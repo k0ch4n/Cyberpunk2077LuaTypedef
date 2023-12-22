@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnEndNodeNsType
-scnEndNodeNsType = {
-    ["Terminating"] = 0, ---@type Enum
-    ["NonTerminating"] = 1, ---@type Enum
-}
+---@class scnEndNodeNsType: Enum
+---@field ["Terminating"] scnEndNodeNsType 0
+---@field ["NonTerminating"] scnEndNodeNsType 1
+scnEndNodeNsType = {}

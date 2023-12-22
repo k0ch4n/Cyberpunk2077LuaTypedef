@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entEBindingDirection
-entEBindingDirection = {
-    ["BindToSource"] = 0, ---@type Enum
-    ["BindToDestination"] = 1, ---@type Enum
-}
+---@class entEBindingDirection: Enum
+---@field ["BindToSource"] entEBindingDirection 0
+---@field ["BindToDestination"] entEBindingDirection 1
+entEBindingDirection = {}

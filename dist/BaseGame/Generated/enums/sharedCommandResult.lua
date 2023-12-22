@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum sharedCommandResult
-sharedCommandResult = {
-    ["Success"] = 0, ---@type Enum
-    ["NeedOptions"] = 1, ---@type Enum
-    ["Fail"] = 2, ---@type Enum
-    ["Abort"] = 3, ---@type Enum
-}
+---@class sharedCommandResult: Enum
+---@field ["Success"] sharedCommandResult 0
+---@field ["NeedOptions"] sharedCommandResult 1
+---@field ["Fail"] sharedCommandResult 2
+---@field ["Abort"] sharedCommandResult 3
+sharedCommandResult = {}

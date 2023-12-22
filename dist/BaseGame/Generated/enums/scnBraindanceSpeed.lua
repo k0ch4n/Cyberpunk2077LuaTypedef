@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnBraindanceSpeed
-scnBraindanceSpeed = {
-    ["Any"] = 0, ---@type Enum
-    ["Slow"] = 1, ---@type Enum
-    ["Normal"] = 2, ---@type Enum
-    ["Fast"] = 3, ---@type Enum
-    ["VeryFast"] = 4, ---@type Enum
-}
+---@class scnBraindanceSpeed: Enum
+---@field ["Any"] scnBraindanceSpeed 0
+---@field ["Slow"] scnBraindanceSpeed 1
+---@field ["Normal"] scnBraindanceSpeed 2
+---@field ["Fast"] scnBraindanceSpeed 3
+---@field ["VeryFast"] scnBraindanceSpeed 4
+scnBraindanceSpeed = {}

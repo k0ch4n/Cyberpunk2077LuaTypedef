@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkEHorizontalAlign
-inkEHorizontalAlign = {
-    ["Fill"] = 0, ---@type Enum
-    ["Left"] = 1, ---@type Enum
-    ["Center"] = 2, ---@type Enum
-    ["Right"] = 3, ---@type Enum
-}
+---@class inkEHorizontalAlign: Enum
+---@field ["Fill"] inkEHorizontalAlign 0
+---@field ["Left"] inkEHorizontalAlign 1
+---@field ["Center"] inkEHorizontalAlign 2
+---@field ["Right"] inkEHorizontalAlign 3
+inkEHorizontalAlign = {}

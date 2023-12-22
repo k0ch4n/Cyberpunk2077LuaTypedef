@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CraftingNotificationType
-CraftingNotificationType = {
-    ["NoPerks"] = 0, ---@type Enum
-    ["NotEnoughMaterial"] = 1, ---@type Enum
-}
+---@class CraftingNotificationType: Enum
+---@field ["NoPerks"] CraftingNotificationType 0
+---@field ["NotEnoughMaterial"] CraftingNotificationType 1
+CraftingNotificationType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEAnimGraphMathInterpolation
-animEAnimGraphMathInterpolation = {
-    ["AGMI_LINEAR"] = 0, ---@type Enum
-    ["AGMI_SIN"] = 1, ---@type Enum
-    ["AGMI_BEZIER"] = 2, ---@type Enum
-}
+---@class animEAnimGraphMathInterpolation: Enum
+---@field ["AGMI_LINEAR"] animEAnimGraphMathInterpolation 0
+---@field ["AGMI_SIN"] animEAnimGraphMathInterpolation 1
+---@field ["AGMI_BEZIER"] animEAnimGraphMathInterpolation 2
+animEAnimGraphMathInterpolation = {}

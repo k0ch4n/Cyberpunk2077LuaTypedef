@@ -1,17 +1,16 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAITacticType
-gamedataAITacticType = {
-    ["Assault"] = 0, ---@type Enum
-    ["Defend"] = 1, ---@type Enum
-    ["Flank"] = 2, ---@type Enum
-    ["Medivac"] = 3, ---@type Enum
-    ["Panic"] = 4, ---@type Enum
-    ["Regroup"] = 5, ---@type Enum
-    ["Retreat"] = 6, ---@type Enum
-    ["Snipe"] = 7, ---@type Enum
-    ["Suppress"] = 8, ---@type Enum
-    ["Count"] = 9, ---@type Enum
-    ["Invalid"] = 10, ---@type Enum
-}
+---@class gamedataAITacticType: Enum
+---@field ["Assault"] gamedataAITacticType 0
+---@field ["Defend"] gamedataAITacticType 1
+---@field ["Flank"] gamedataAITacticType 2
+---@field ["Medivac"] gamedataAITacticType 3
+---@field ["Panic"] gamedataAITacticType 4
+---@field ["Regroup"] gamedataAITacticType 5
+---@field ["Retreat"] gamedataAITacticType 6
+---@field ["Snipe"] gamedataAITacticType 7
+---@field ["Suppress"] gamedataAITacticType 8
+---@field ["Count"] gamedataAITacticType 9
+---@field ["Invalid"] gamedataAITacticType 10
+gamedataAITacticType = {}

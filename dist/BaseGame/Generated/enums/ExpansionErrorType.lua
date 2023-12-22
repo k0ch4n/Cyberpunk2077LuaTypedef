@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ExpansionErrorType
-ExpansionErrorType = {
-    ["PurchaseFailed"] = 0, ---@type Enum
-    ["PurchaseDisabled"] = 1, ---@type Enum
-    ["InstallFailed"] = 2, ---@type Enum
-    ["InstallRequestFailed"] = 3, ---@type Enum
-    ["InstallDisabled"] = 4, ---@type Enum
-    ["DataInvalid"] = 5, ---@type Enum
-}
+---@class ExpansionErrorType: Enum
+---@field ["PurchaseFailed"] ExpansionErrorType 0
+---@field ["PurchaseDisabled"] ExpansionErrorType 1
+---@field ["InstallFailed"] ExpansionErrorType 2
+---@field ["InstallRequestFailed"] ExpansionErrorType 3
+---@field ["InstallDisabled"] ExpansionErrorType 4
+---@field ["DataInvalid"] ExpansionErrorType 5
+ExpansionErrorType = {}

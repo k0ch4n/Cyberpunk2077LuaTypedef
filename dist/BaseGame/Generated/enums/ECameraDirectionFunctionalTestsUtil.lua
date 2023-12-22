@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECameraDirectionFunctionalTestsUtil
-ECameraDirectionFunctionalTestsUtil = {
-    ["Up"] = 0, ---@type Enum
-    ["Down"] = 1, ---@type Enum
-    ["Left"] = 2, ---@type Enum
-    ["Right"] = 3, ---@type Enum
-}
+---@class ECameraDirectionFunctionalTestsUtil: Enum
+---@field ["Up"] ECameraDirectionFunctionalTestsUtil 0
+---@field ["Down"] ECameraDirectionFunctionalTestsUtil 1
+---@field ["Left"] ECameraDirectionFunctionalTestsUtil 2
+---@field ["Right"] ECameraDirectionFunctionalTestsUtil 3
+ECameraDirectionFunctionalTestsUtil = {}

@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameWardrobeClothingSetIndex
-gameWardrobeClothingSetIndex = {
-    ["Slot1"] = 0, ---@type Enum
-    ["Slot2"] = 1, ---@type Enum
-    ["Slot3"] = 2, ---@type Enum
-    ["Slot4"] = 3, ---@type Enum
-    ["Slot5"] = 4, ---@type Enum
-    ["Slot6"] = 5, ---@type Enum
-    ["Slot7"] = 6, ---@type Enum
-    ["COUNT"] = 7, ---@type Enum
-    ["INVALID"] = 8, ---@type Enum
-}
+---@class gameWardrobeClothingSetIndex: Enum
+---@field ["Slot1"] gameWardrobeClothingSetIndex 0
+---@field ["Slot2"] gameWardrobeClothingSetIndex 1
+---@field ["Slot3"] gameWardrobeClothingSetIndex 2
+---@field ["Slot4"] gameWardrobeClothingSetIndex 3
+---@field ["Slot5"] gameWardrobeClothingSetIndex 4
+---@field ["Slot6"] gameWardrobeClothingSetIndex 5
+---@field ["Slot7"] gameWardrobeClothingSetIndex 6
+---@field ["COUNT"] gameWardrobeClothingSetIndex 7
+---@field ["INVALID"] gameWardrobeClothingSetIndex 8
+gameWardrobeClothingSetIndex = {}

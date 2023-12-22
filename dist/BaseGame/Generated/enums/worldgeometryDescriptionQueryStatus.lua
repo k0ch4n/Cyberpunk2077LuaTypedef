@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldgeometryDescriptionQueryStatus
-worldgeometryDescriptionQueryStatus = {
-    ["OK"] = 0, ---@type Enum
-    ["NoGeometry"] = 1, ---@type Enum
-    ["UpVectorSameAsDirection"] = 2, ---@type Enum
-}
+---@class worldgeometryDescriptionQueryStatus: Enum
+---@field ["OK"] worldgeometryDescriptionQueryStatus 0
+---@field ["NoGeometry"] worldgeometryDescriptionQueryStatus 1
+---@field ["UpVectorSameAsDirection"] worldgeometryDescriptionQueryStatus 2
+worldgeometryDescriptionQueryStatus = {}

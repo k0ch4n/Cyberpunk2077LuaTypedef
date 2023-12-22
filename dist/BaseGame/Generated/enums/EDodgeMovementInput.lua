@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDodgeMovementInput
-EDodgeMovementInput = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Forward"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["Left"] = 3, ---@type Enum
-    ["Back"] = 4, ---@type Enum
-}
+---@class EDodgeMovementInput: Enum
+---@field ["Invalid"] EDodgeMovementInput 0
+---@field ["Forward"] EDodgeMovementInput 1
+---@field ["Right"] EDodgeMovementInput 2
+---@field ["Left"] EDodgeMovementInput 3
+---@field ["Back"] EDodgeMovementInput 4
+EDodgeMovementInput = {}

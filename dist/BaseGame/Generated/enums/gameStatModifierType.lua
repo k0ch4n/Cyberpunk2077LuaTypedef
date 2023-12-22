@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatModifierType
-gameStatModifierType = {
-    ["Additive"] = 0, ---@type Enum
-    ["AdditiveMultiplier"] = 1, ---@type Enum
-    ["Multiplier"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gameStatModifierType: Enum
+---@field ["Additive"] gameStatModifierType 0
+---@field ["AdditiveMultiplier"] gameStatModifierType 1
+---@field ["Multiplier"] gameStatModifierType 2
+---@field ["Count"] gameStatModifierType 3
+---@field ["Invalid"] gameStatModifierType 4
+gameStatModifierType = {}

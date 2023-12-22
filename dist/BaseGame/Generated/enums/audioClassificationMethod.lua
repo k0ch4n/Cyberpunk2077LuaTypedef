@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioClassificationMethod
-audioClassificationMethod = {
-    ["HasAnyTag"] = 0, ---@type Enum
-    ["HasAllTags"] = 1, ---@type Enum
-    ["NameEquals"] = 2, ---@type Enum
-    ["EventNameEquals"] = 3, ---@type Enum
-    ["HasAllEventTags"] = 4, ---@type Enum
-}
+---@class audioClassificationMethod: Enum
+---@field ["HasAnyTag"] audioClassificationMethod 0
+---@field ["HasAllTags"] audioClassificationMethod 1
+---@field ["NameEquals"] audioClassificationMethod 2
+---@field ["EventNameEquals"] audioClassificationMethod 3
+---@field ["HasAllEventTags"] audioClassificationMethod 4
+audioClassificationMethod = {}

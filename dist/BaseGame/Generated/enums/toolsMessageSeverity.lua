@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum toolsMessageSeverity
-toolsMessageSeverity = {
-    ["Success"] = 0, ---@type Enum
-    ["Info"] = 1, ---@type Enum
-    ["Warning"] = 2, ---@type Enum
-    ["Error"] = 3, ---@type Enum
-}
+---@class toolsMessageSeverity: Enum
+---@field ["Success"] toolsMessageSeverity 0
+---@field ["Info"] toolsMessageSeverity 1
+---@field ["Warning"] toolsMessageSeverity 2
+---@field ["Error"] toolsMessageSeverity 3
+toolsMessageSeverity = {}

@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWidgetStyle
-gamedataWidgetStyle = {
-    ["Arasaka"] = 0, ---@type Enum
-    ["DarkNet"] = 1, ---@type Enum
-    ["Konopeki"] = 2, ---@type Enum
-    ["Maelstrom"] = 3, ---@type Enum
-    ["Militech"] = 4, ---@type Enum
-    ["None"] = 5, ---@type Enum
-    ["Zetatech"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataWidgetStyle: Enum
+---@field ["Arasaka"] gamedataWidgetStyle 0
+---@field ["DarkNet"] gamedataWidgetStyle 1
+---@field ["Konopeki"] gamedataWidgetStyle 2
+---@field ["Maelstrom"] gamedataWidgetStyle 3
+---@field ["Militech"] gamedataWidgetStyle 4
+---@field ["None"] gamedataWidgetStyle 5
+---@field ["Zetatech"] gamedataWidgetStyle 6
+---@field ["Count"] gamedataWidgetStyle 7
+---@field ["Invalid"] gamedataWidgetStyle 8
+gamedataWidgetStyle = {}

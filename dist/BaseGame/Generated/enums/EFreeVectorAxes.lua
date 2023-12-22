@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFreeVectorAxes
-EFreeVectorAxes = {
-    ["FVA_One"] = 1, ---@type Enum
-    ["FVA_Two"] = 2, ---@type Enum
-    ["FVA_Three"] = 3, ---@type Enum
-    ["FVA_Four"] = 4, ---@type Enum
-}
+---@class EFreeVectorAxes: Enum
+---@field ["FVA_One"] EFreeVectorAxes 1
+---@field ["FVA_Two"] EFreeVectorAxes 2
+---@field ["FVA_Three"] EFreeVectorAxes 3
+---@field ["FVA_Four"] EFreeVectorAxes 4
+EFreeVectorAxes = {}

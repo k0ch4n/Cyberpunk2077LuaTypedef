@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsvisEVisualizerRuntimeFlags
-gameinteractionsvisEVisualizerRuntimeFlags = {
-    ["None"] = 0, ---@type Enum
-    ["Locked"] = 1, ---@type Enum
-    ["Failsafe"] = 2, ---@type Enum
-    ["Dbg_Active"] = 4, ---@type Enum
-}
+---@class gameinteractionsvisEVisualizerRuntimeFlags: Enum
+---@field ["None"] gameinteractionsvisEVisualizerRuntimeFlags 0
+---@field ["Locked"] gameinteractionsvisEVisualizerRuntimeFlags 1
+---@field ["Failsafe"] gameinteractionsvisEVisualizerRuntimeFlags 2
+---@field ["Dbg_Active"] gameinteractionsvisEVisualizerRuntimeFlags 4
+gameinteractionsvisEVisualizerRuntimeFlags = {}

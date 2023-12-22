@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ExplosiveTriggerDeviceLaserState
-ExplosiveTriggerDeviceLaserState = {
-    ["GREEN"] = 0, ---@type Enum
-    ["RED"] = 1, ---@type Enum
-    ["DISABLED"] = 2, ---@type Enum
-}
+---@class ExplosiveTriggerDeviceLaserState: Enum
+---@field ["GREEN"] ExplosiveTriggerDeviceLaserState 0
+---@field ["RED"] ExplosiveTriggerDeviceLaserState 1
+---@field ["DISABLED"] ExplosiveTriggerDeviceLaserState 2
+ExplosiveTriggerDeviceLaserState = {}

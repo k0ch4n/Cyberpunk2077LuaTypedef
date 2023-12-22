@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldgeometryaverageNormalDetectionHelperQueryStatus
-worldgeometryaverageNormalDetectionHelperQueryStatus = {
-    ["Finished"] = 0, ---@type Enum
-    ["NoGeometry"] = 1, ---@type Enum
-}
+---@class worldgeometryaverageNormalDetectionHelperQueryStatus: Enum
+---@field ["Finished"] worldgeometryaverageNormalDetectionHelperQueryStatus 0
+---@field ["NoGeometry"] worldgeometryaverageNormalDetectionHelperQueryStatus 1
+worldgeometryaverageNormalDetectionHelperQueryStatus = {}

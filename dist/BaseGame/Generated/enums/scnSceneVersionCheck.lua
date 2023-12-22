@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnSceneVersionCheck
-scnSceneVersionCheck = {
-    ["OlderOrEqual"] = 0, ---@type Enum
-    ["Equal"] = 1, ---@type Enum
-}
+---@class scnSceneVersionCheck: Enum
+---@field ["OlderOrEqual"] scnSceneVersionCheck 0
+---@field ["Equal"] scnSceneVersionCheck 1
+scnSceneVersionCheck = {}

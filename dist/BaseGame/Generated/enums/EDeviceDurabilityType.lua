@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDeviceDurabilityType
-EDeviceDurabilityType = {
-    ["INVULNERABLE"] = 0, ---@type Enum
-    ["INDESTRUCTIBLE"] = 1, ---@type Enum
-    ["DESTRUCTIBLE"] = 2, ---@type Enum
-}
+---@class EDeviceDurabilityType: Enum
+---@field ["INVULNERABLE"] EDeviceDurabilityType 0
+---@field ["INDESTRUCTIBLE"] EDeviceDurabilityType 1
+---@field ["DESTRUCTIBLE"] EDeviceDurabilityType 2
+EDeviceDurabilityType = {}

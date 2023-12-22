@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendWindShapeAnchorPointHorz
-rendWindShapeAnchorPointHorz = {
-    ["AP_CENTER"] = 0, ---@type Enum
-    ["AP_RIGHT"] = 1, ---@type Enum
-    ["AP_LEFT"] = 2, ---@type Enum
-}
+---@class rendWindShapeAnchorPointHorz: Enum
+---@field ["AP_CENTER"] rendWindShapeAnchorPointHorz 0
+---@field ["AP_RIGHT"] rendWindShapeAnchorPointHorz 1
+---@field ["AP_LEFT"] rendWindShapeAnchorPointHorz 2
+rendWindShapeAnchorPointHorz = {}

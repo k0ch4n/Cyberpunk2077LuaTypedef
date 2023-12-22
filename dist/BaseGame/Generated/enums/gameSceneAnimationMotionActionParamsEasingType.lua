@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSceneAnimationMotionActionParamsEasingType
-gameSceneAnimationMotionActionParamsEasingType = {
-    ["Linear"] = 0, ---@type Enum
-    ["SinusoidalEaseInOut"] = 1, ---@type Enum
-    ["QuadraticEaseIn"] = 2, ---@type Enum
-    ["QuadraticEaseOut"] = 3, ---@type Enum
-    ["CubicEaseInOut"] = 4, ---@type Enum
-    ["CubicEaseIn"] = 5, ---@type Enum
-    ["CubicEaseOut"] = 6, ---@type Enum
-}
+---@class gameSceneAnimationMotionActionParamsEasingType: Enum
+---@field ["Linear"] gameSceneAnimationMotionActionParamsEasingType 0
+---@field ["SinusoidalEaseInOut"] gameSceneAnimationMotionActionParamsEasingType 1
+---@field ["QuadraticEaseIn"] gameSceneAnimationMotionActionParamsEasingType 2
+---@field ["QuadraticEaseOut"] gameSceneAnimationMotionActionParamsEasingType 3
+---@field ["CubicEaseInOut"] gameSceneAnimationMotionActionParamsEasingType 4
+---@field ["CubicEaseIn"] gameSceneAnimationMotionActionParamsEasingType 5
+---@field ["CubicEaseOut"] gameSceneAnimationMotionActionParamsEasingType 6
+gameSceneAnimationMotionActionParamsEasingType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EActionInactivityReson
-EActionInactivityReson = {
-    ["Ready"] = 0, ---@type Enum
-    ["Locked"] = 1, ---@type Enum
-    ["Recompilation"] = 2, ---@type Enum
-    ["OutOfMemory"] = 3, ---@type Enum
-    ["IsQuickHacked"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class EActionInactivityReson: Enum
+---@field ["Ready"] EActionInactivityReson 0
+---@field ["Locked"] EActionInactivityReson 1
+---@field ["Recompilation"] EActionInactivityReson 2
+---@field ["OutOfMemory"] EActionInactivityReson 3
+---@field ["IsQuickHacked"] EActionInactivityReson 4
+---@field ["Invalid"] EActionInactivityReson 5
+EActionInactivityReson = {}

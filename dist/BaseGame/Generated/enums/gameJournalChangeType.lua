@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameJournalChangeType
-gameJournalChangeType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Direct"] = 1, ---@type Enum
-    ["Indirect"] = 2, ---@type Enum
-    ["IndirectDependent"] = 3, ---@type Enum
-}
+---@class gameJournalChangeType: Enum
+---@field ["Undefined"] gameJournalChangeType 0
+---@field ["Direct"] gameJournalChangeType 1
+---@field ["Indirect"] gameJournalChangeType 2
+---@field ["IndirectDependent"] gameJournalChangeType 3
+gameJournalChangeType = {}

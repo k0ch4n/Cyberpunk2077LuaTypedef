@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum coverLeanDirection
-coverLeanDirection = {
-    ["Top"] = 0, ---@type Enum
-    ["Left"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class coverLeanDirection: Enum
+---@field ["Top"] coverLeanDirection 0
+---@field ["Left"] coverLeanDirection 1
+---@field ["Right"] coverLeanDirection 2
+coverLeanDirection = {}

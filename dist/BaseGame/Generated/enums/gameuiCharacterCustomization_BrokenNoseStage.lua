@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiCharacterCustomization_BrokenNoseStage
-gameuiCharacterCustomization_BrokenNoseStage = {
-    ["CCBN_Disabled"] = 0, ---@type Enum
-    ["CCBN_Stage1"] = 1, ---@type Enum
-    ["CCBN_Stage2"] = 2, ---@type Enum
-    ["CCBN_FinalScene"] = 3, ---@type Enum
-}
+---@class gameuiCharacterCustomization_BrokenNoseStage: Enum
+---@field ["CCBN_Disabled"] gameuiCharacterCustomization_BrokenNoseStage 0
+---@field ["CCBN_Stage1"] gameuiCharacterCustomization_BrokenNoseStage 1
+---@field ["CCBN_Stage2"] gameuiCharacterCustomization_BrokenNoseStage 2
+---@field ["CCBN_FinalScene"] gameuiCharacterCustomization_BrokenNoseStage 3
+gameuiCharacterCustomization_BrokenNoseStage = {}

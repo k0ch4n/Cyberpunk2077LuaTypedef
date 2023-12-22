@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightType
-ELightType = {
-    ["LT_Point"] = 0, ---@type Enum
-    ["LT_Spot"] = 1, ---@type Enum
-    ["LT_Area"] = 2, ---@type Enum
-}
+---@class ELightType: Enum
+---@field ["LT_Point"] ELightType 0
+---@field ["LT_Spot"] ELightType 1
+---@field ["LT_Area"] ELightType 2
+ELightType = {}

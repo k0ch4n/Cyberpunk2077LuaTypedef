@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questUseWorkspotTier
-questUseWorkspotTier = {
-    ["Tier3"] = 0, ---@type Enum
-    ["Tier4"] = 1, ---@type Enum
-}
+---@class questUseWorkspotTier: Enum
+---@field ["Tier3"] questUseWorkspotTier 0
+---@field ["Tier4"] questUseWorkspotTier 1
+questUseWorkspotTier = {}

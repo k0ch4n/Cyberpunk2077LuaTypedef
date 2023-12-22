@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMaterialPriority
-EMaterialPriority = {
-    ["EMP_Normal"] = 0, ---@type Enum
-    ["EMP_Front"] = 1, ---@type Enum
-}
+---@class EMaterialPriority: Enum
+---@field ["EMP_Normal"] EMaterialPriority 0
+---@field ["EMP_Front"] EMaterialPriority 1
+EMaterialPriority = {}

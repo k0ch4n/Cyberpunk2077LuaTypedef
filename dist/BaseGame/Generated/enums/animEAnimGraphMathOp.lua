@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEAnimGraphMathOp
-animEAnimGraphMathOp = {
-    ["AGMO_Add"] = 0, ---@type Enum
-    ["AGMO_Subtract"] = 1, ---@type Enum
-    ["AGMO_Multiply"] = 2, ---@type Enum
-    ["AGMO_Divide"] = 3, ---@type Enum
-    ["AGMO_SafeDivide"] = 4, ---@type Enum
-    ["AGMO_ATan"] = 5, ---@type Enum
-    ["AGMO_AngleDiff"] = 6, ---@type Enum
-    ["AGMO_Length"] = 7, ---@type Enum
-    ["AGMO_Abs"] = 8, ---@type Enum
-}
+---@class animEAnimGraphMathOp: Enum
+---@field ["AGMO_Add"] animEAnimGraphMathOp 0
+---@field ["AGMO_Subtract"] animEAnimGraphMathOp 1
+---@field ["AGMO_Multiply"] animEAnimGraphMathOp 2
+---@field ["AGMO_Divide"] animEAnimGraphMathOp 3
+---@field ["AGMO_SafeDivide"] animEAnimGraphMathOp 4
+---@field ["AGMO_ATan"] animEAnimGraphMathOp 5
+---@field ["AGMO_AngleDiff"] animEAnimGraphMathOp 6
+---@field ["AGMO_Length"] animEAnimGraphMathOp 7
+---@field ["AGMO_Abs"] animEAnimGraphMathOp 8
+animEAnimGraphMathOp = {}

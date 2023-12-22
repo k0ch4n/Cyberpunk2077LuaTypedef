@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameTelemetryMilestoneType
-gameTelemetryMilestoneType = {
-    ["StartFact"] = 0, ---@type Enum
-    ["ImportantFact"] = 1, ---@type Enum
-    ["Reward"] = 2, ---@type Enum
-    ["EndFact"] = 4, ---@type Enum
-    ["EndReward"] = 3, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gameTelemetryMilestoneType: Enum
+---@field ["StartFact"] gameTelemetryMilestoneType 0
+---@field ["ImportantFact"] gameTelemetryMilestoneType 1
+---@field ["Reward"] gameTelemetryMilestoneType 2
+---@field ["EndFact"] gameTelemetryMilestoneType 4
+---@field ["EndReward"] gameTelemetryMilestoneType 3
+---@field ["Invalid"] gameTelemetryMilestoneType 5
+gameTelemetryMilestoneType = {}

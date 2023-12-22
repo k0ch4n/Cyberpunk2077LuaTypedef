@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPreventionHackLoopState
-EPreventionHackLoopState = {
-    ["IDLE"] = 0, ---@type Enum
-    ["INTRO_RADIO"] = 1, ---@type Enum
-    ["HACK_LOOP"] = 2, ---@type Enum
-}
+---@class EPreventionHackLoopState: Enum
+---@field ["IDLE"] EPreventionHackLoopState 0
+---@field ["INTRO_RADIO"] EPreventionHackLoopState 1
+---@field ["HACK_LOOP"] EPreventionHackLoopState 2
+EPreventionHackLoopState = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEActionStatus
-gameEActionStatus = {
-    ["STATUS_INVALID"] = 0, ---@type Enum
-    ["STATUS_BOUND"] = 1, ---@type Enum
-    ["STATUS_READY"] = 2, ---@type Enum
-    ["STATUS_PROGRESS"] = 3, ---@type Enum
-    ["STATUS_COMPLETE"] = 4, ---@type Enum
-    ["STATUS_FAILURE"] = 5, ---@type Enum
-}
+---@class gameEActionStatus: Enum
+---@field ["STATUS_INVALID"] gameEActionStatus 0
+---@field ["STATUS_BOUND"] gameEActionStatus 1
+---@field ["STATUS_READY"] gameEActionStatus 2
+---@field ["STATUS_PROGRESS"] gameEActionStatus 3
+---@field ["STATUS_COMPLETE"] gameEActionStatus 4
+---@field ["STATUS_FAILURE"] gameEActionStatus 5
+gameEActionStatus = {}

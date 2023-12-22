@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EMissileRainPhase
-EMissileRainPhase = {
-    ["Init"] = 0, ---@type Enum
-    ["Phase1"] = 1, ---@type Enum
-    ["Phase2"] = 2, ---@type Enum
-}
+---@class EMissileRainPhase: Enum
+---@field ["Init"] EMissileRainPhase 0
+---@field ["Phase1"] EMissileRainPhase 1
+---@field ["Phase2"] EMissileRainPhase 2
+EMissileRainPhase = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataStatusEffectAIBehaviorType
-gamedataStatusEffectAIBehaviorType = {
-    ["Basic"] = 0, ---@type Enum
-    ["None"] = 1, ---@type Enum
-    ["Stoppable"] = 2, ---@type Enum
-    ["Unstoppable"] = 3, ---@type Enum
-    ["Count"] = 4, ---@type Enum
-    ["Invalid"] = 5, ---@type Enum
-}
+---@class gamedataStatusEffectAIBehaviorType: Enum
+---@field ["Basic"] gamedataStatusEffectAIBehaviorType 0
+---@field ["None"] gamedataStatusEffectAIBehaviorType 1
+---@field ["Stoppable"] gamedataStatusEffectAIBehaviorType 2
+---@field ["Unstoppable"] gamedataStatusEffectAIBehaviorType 3
+---@field ["Count"] gamedataStatusEffectAIBehaviorType 4
+---@field ["Invalid"] gamedataStatusEffectAIBehaviorType 5
+gamedataStatusEffectAIBehaviorType = {}

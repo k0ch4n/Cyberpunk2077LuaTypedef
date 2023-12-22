@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum aimTypeEnum
-aimTypeEnum = {
-    ["AimIn"] = 0, ---@type Enum
-    ["AimOut"] = 1, ---@type Enum
-    ["Invalid"] = 2, ---@type Enum
-}
+---@class aimTypeEnum: Enum
+---@field ["AimIn"] aimTypeEnum 0
+---@field ["AimOut"] aimTypeEnum 1
+---@field ["Invalid"] aimTypeEnum 2
+aimTypeEnum = {}

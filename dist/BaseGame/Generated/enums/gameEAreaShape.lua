@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEAreaShape
-gameEAreaShape = {
-    ["NONE"] = 0, ---@type Enum
-    ["SPHERE"] = 1, ---@type Enum
-    ["CUBE"] = 2, ---@type Enum
-    ["COUNT"] = 3, ---@type Enum
-}
+---@class gameEAreaShape: Enum
+---@field ["NONE"] gameEAreaShape 0
+---@field ["SPHERE"] gameEAreaShape 1
+---@field ["CUBE"] gameEAreaShape 2
+---@field ["COUNT"] gameEAreaShape 3
+gameEAreaShape = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questRandomizerMode
-questRandomizerMode = {
-    ["Random"] = 0, ---@type Enum
-    ["IgnoreLastUsed"] = 1, ---@type Enum
-    ["IgnoreAllUsed"] = 2, ---@type Enum
-}
+---@class questRandomizerMode: Enum
+---@field ["Random"] questRandomizerMode 0
+---@field ["IgnoreLastUsed"] questRandomizerMode 1
+---@field ["IgnoreAllUsed"] questRandomizerMode 2
+questRandomizerMode = {}

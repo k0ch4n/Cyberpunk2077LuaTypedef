@@ -1,23 +1,22 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animCoverAction
-animCoverAction = {
-    ["NoAction"] = 0, ---@type Enum
-    ["LeanLeft"] = 1, ---@type Enum
-    ["LeanRight"] = 2, ---@type Enum
-    ["StepOutLeft"] = 3, ---@type Enum
-    ["StepOutRight"] = 4, ---@type Enum
-    ["LeanOver"] = 5, ---@type Enum
-    ["StepUp"] = 6, ---@type Enum
-    ["EnterCover"] = 7, ---@type Enum
-    ["SlideTo"] = 8, ---@type Enum
-    ["Vault"] = 9, ---@type Enum
-    ["LeaveCover"] = 10, ---@type Enum
-    ["BlindfireLeft"] = 11, ---@type Enum
-    ["BlindfireRight"] = 12, ---@type Enum
-    ["BlindfireOver"] = 13, ---@type Enum
-    ["OverheadStepOutLeft"] = 14, ---@type Enum
-    ["OverheadStepOutRight"] = 15, ---@type Enum
-    ["OverheadStepUp"] = 16, ---@type Enum
-}
+---@class animCoverAction: Enum
+---@field ["NoAction"] animCoverAction 0
+---@field ["LeanLeft"] animCoverAction 1
+---@field ["LeanRight"] animCoverAction 2
+---@field ["StepOutLeft"] animCoverAction 3
+---@field ["StepOutRight"] animCoverAction 4
+---@field ["LeanOver"] animCoverAction 5
+---@field ["StepUp"] animCoverAction 6
+---@field ["EnterCover"] animCoverAction 7
+---@field ["SlideTo"] animCoverAction 8
+---@field ["Vault"] animCoverAction 9
+---@field ["LeaveCover"] animCoverAction 10
+---@field ["BlindfireLeft"] animCoverAction 11
+---@field ["BlindfireRight"] animCoverAction 12
+---@field ["BlindfireOver"] animCoverAction 13
+---@field ["OverheadStepOutLeft"] animCoverAction 14
+---@field ["OverheadStepOutRight"] animCoverAction 15
+---@field ["OverheadStepUp"] animCoverAction 16
+animCoverAction = {}

@@ -1,17 +1,16 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMCrosshairStates
-gamePSMCrosshairStates = {
-    ["Default"] = 0, ---@type Enum
-    ["Safe"] = 1, ---@type Enum
-    ["Scanning"] = 2, ---@type Enum
-    ["GrenadeCharging"] = 3, ---@type Enum
-    ["Aim"] = 4, ---@type Enum
-    ["Reload"] = 5, ---@type Enum
-    ["ReloadDriverCombatMountedWeapons"] = 6, ---@type Enum
-    ["Sprint"] = 7, ---@type Enum
-    ["HipFire"] = 8, ---@type Enum
-    ["LeftHandCyberware"] = 9, ---@type Enum
-    ["QuickHack"] = 10, ---@type Enum
-}
+---@class gamePSMCrosshairStates: Enum
+---@field ["Default"] gamePSMCrosshairStates 0
+---@field ["Safe"] gamePSMCrosshairStates 1
+---@field ["Scanning"] gamePSMCrosshairStates 2
+---@field ["GrenadeCharging"] gamePSMCrosshairStates 3
+---@field ["Aim"] gamePSMCrosshairStates 4
+---@field ["Reload"] gamePSMCrosshairStates 5
+---@field ["ReloadDriverCombatMountedWeapons"] gamePSMCrosshairStates 6
+---@field ["Sprint"] gamePSMCrosshairStates 7
+---@field ["HipFire"] gamePSMCrosshairStates 8
+---@field ["LeftHandCyberware"] gamePSMCrosshairStates 9
+---@field ["QuickHack"] gamePSMCrosshairStates 10
+gamePSMCrosshairStates = {}

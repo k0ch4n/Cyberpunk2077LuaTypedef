@@ -1,36 +1,35 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataArchetypeType
-gamedataArchetypeType = {
-    ["AndroidMeleeT1"] = 0, ---@type Enum
-    ["AndroidMeleeT2"] = 1, ---@type Enum
-    ["AndroidRangedT2"] = 2, ---@type Enum
-    ["FastMeleeT2"] = 3, ---@type Enum
-    ["FastMeleeT3"] = 4, ---@type Enum
-    ["FastRangedT2"] = 5, ---@type Enum
-    ["FastRangedT3"] = 6, ---@type Enum
-    ["FastShotgunnerT2"] = 7, ---@type Enum
-    ["FastShotgunnerT3"] = 8, ---@type Enum
-    ["FastSniperT3"] = 9, ---@type Enum
-    ["FriendlyGenericRangedT3"] = 10, ---@type Enum
-    ["GenericMeleeT1"] = 11, ---@type Enum
-    ["GenericMeleeT2"] = 12, ---@type Enum
-    ["GenericRangedT1"] = 13, ---@type Enum
-    ["GenericRangedT2"] = 14, ---@type Enum
-    ["GenericRangedT3"] = 15, ---@type Enum
-    ["HeavyMeleeT2"] = 16, ---@type Enum
-    ["HeavyMeleeT3"] = 17, ---@type Enum
-    ["HeavyRangedT2"] = 18, ---@type Enum
-    ["HeavyRangedT3"] = 19, ---@type Enum
-    ["NetrunnerT1"] = 20, ---@type Enum
-    ["NetrunnerT2"] = 21, ---@type Enum
-    ["NetrunnerT3"] = 22, ---@type Enum
-    ["ShotgunnerT2"] = 23, ---@type Enum
-    ["ShotgunnerT3"] = 24, ---@type Enum
-    ["SniperT2"] = 25, ---@type Enum
-    ["TechieT2"] = 26, ---@type Enum
-    ["TechieT3"] = 27, ---@type Enum
-    ["Count"] = 28, ---@type Enum
-    ["Invalid"] = 29, ---@type Enum
-}
+---@class gamedataArchetypeType: Enum
+---@field ["AndroidMeleeT1"] gamedataArchetypeType 0
+---@field ["AndroidMeleeT2"] gamedataArchetypeType 1
+---@field ["AndroidRangedT2"] gamedataArchetypeType 2
+---@field ["FastMeleeT2"] gamedataArchetypeType 3
+---@field ["FastMeleeT3"] gamedataArchetypeType 4
+---@field ["FastRangedT2"] gamedataArchetypeType 5
+---@field ["FastRangedT3"] gamedataArchetypeType 6
+---@field ["FastShotgunnerT2"] gamedataArchetypeType 7
+---@field ["FastShotgunnerT3"] gamedataArchetypeType 8
+---@field ["FastSniperT3"] gamedataArchetypeType 9
+---@field ["FriendlyGenericRangedT3"] gamedataArchetypeType 10
+---@field ["GenericMeleeT1"] gamedataArchetypeType 11
+---@field ["GenericMeleeT2"] gamedataArchetypeType 12
+---@field ["GenericRangedT1"] gamedataArchetypeType 13
+---@field ["GenericRangedT2"] gamedataArchetypeType 14
+---@field ["GenericRangedT3"] gamedataArchetypeType 15
+---@field ["HeavyMeleeT2"] gamedataArchetypeType 16
+---@field ["HeavyMeleeT3"] gamedataArchetypeType 17
+---@field ["HeavyRangedT2"] gamedataArchetypeType 18
+---@field ["HeavyRangedT3"] gamedataArchetypeType 19
+---@field ["NetrunnerT1"] gamedataArchetypeType 20
+---@field ["NetrunnerT2"] gamedataArchetypeType 21
+---@field ["NetrunnerT3"] gamedataArchetypeType 22
+---@field ["ShotgunnerT2"] gamedataArchetypeType 23
+---@field ["ShotgunnerT3"] gamedataArchetypeType 24
+---@field ["SniperT2"] gamedataArchetypeType 25
+---@field ["TechieT2"] gamedataArchetypeType 26
+---@field ["TechieT3"] gamedataArchetypeType 27
+---@field ["Count"] gamedataArchetypeType 28
+---@field ["Invalid"] gamedataArchetypeType 29
+gamedataArchetypeType = {}

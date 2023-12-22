@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnPlaySpeed
-scnPlaySpeed = {
-    ["Pause"] = 0, ---@type Enum
-    ["Slow"] = 1, ---@type Enum
-    ["Normal"] = 2, ---@type Enum
-    ["Fast"] = 3, ---@type Enum
-    ["VeryFast"] = 4, ---@type Enum
-}
+---@class scnPlaySpeed: Enum
+---@field ["Pause"] scnPlaySpeed 0
+---@field ["Slow"] scnPlaySpeed 1
+---@field ["Normal"] scnPlaySpeed 2
+---@field ["Fast"] scnPlaySpeed 3
+---@field ["VeryFast"] scnPlaySpeed 4
+scnPlaySpeed = {}

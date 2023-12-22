@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum WorldMapTooltipType
-WorldMapTooltipType = {
-    ["Default"] = 0, ---@type Enum
-    ["Police"] = 1, ---@type Enum
-}
+---@class WorldMapTooltipType: Enum
+---@field ["Default"] WorldMapTooltipType 0
+---@field ["Police"] WorldMapTooltipType 1
+WorldMapTooltipType = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questCustomStyle
-questCustomStyle = {
-    ["PlacidePhone"] = 0, ---@type Enum
-    ["VideoCallInterupt"] = 1, ---@type Enum
-}
+---@class questCustomStyle: Enum
+---@field ["PlacidePhone"] questCustomStyle 0
+---@field ["VideoCallInterupt"] questCustomStyle 1
+questCustomStyle = {}

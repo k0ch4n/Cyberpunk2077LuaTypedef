@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EWidgetState
-EWidgetState = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["ON"] = 1, ---@type Enum
-    ["OFF"] = 2, ---@type Enum
-    ["INACTIVE"] = 3, ---@type Enum
-    ["ALLOWED"] = 4, ---@type Enum
-    ["LOCKED"] = 5, ---@type Enum
-    ["SEALED"] = 6, ---@type Enum
-}
+---@class EWidgetState: Enum
+---@field ["DEFAULT"] EWidgetState 0
+---@field ["ON"] EWidgetState 1
+---@field ["OFF"] EWidgetState 2
+---@field ["INACTIVE"] EWidgetState 3
+---@field ["ALLOWED"] EWidgetState 4
+---@field ["LOCKED"] EWidgetState 5
+---@field ["SEALED"] EWidgetState 6
+EWidgetState = {}

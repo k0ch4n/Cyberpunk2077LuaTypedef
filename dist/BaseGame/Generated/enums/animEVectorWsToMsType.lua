@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEVectorWsToMsType
-animEVectorWsToMsType = {
-    ["Position"] = 0, ---@type Enum
-    ["Direction"] = 1, ---@type Enum
-}
+---@class animEVectorWsToMsType: Enum
+---@field ["Position"] animEVectorWsToMsType 0
+---@field ["Direction"] animEVectorWsToMsType 1
+animEVectorWsToMsType = {}

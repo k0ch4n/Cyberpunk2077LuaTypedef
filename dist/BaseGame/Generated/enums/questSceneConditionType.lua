@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questSceneConditionType
-questSceneConditionType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["IsInside"] = 1, ---@type Enum
-    ["IsOutside"] = 2, ---@type Enum
-    ["Entered"] = 3, ---@type Enum
-    ["Exited"] = 4, ---@type Enum
-}
+---@class questSceneConditionType: Enum
+---@field ["Undefined"] questSceneConditionType 0
+---@field ["IsInside"] questSceneConditionType 1
+---@field ["IsOutside"] questSceneConditionType 2
+---@field ["Entered"] questSceneConditionType 3
+---@field ["Exited"] questSceneConditionType 4
+questSceneConditionType = {}

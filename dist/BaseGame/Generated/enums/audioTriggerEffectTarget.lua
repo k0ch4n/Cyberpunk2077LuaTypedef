@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioTriggerEffectTarget
-audioTriggerEffectTarget = {
-    ["L2"] = 0, ---@type Enum
-    ["R2"] = 1, ---@type Enum
-    ["Both"] = 2, ---@type Enum
-}
+---@class audioTriggerEffectTarget: Enum
+---@field ["L2"] audioTriggerEffectTarget 0
+---@field ["R2"] audioTriggerEffectTarget 1
+---@field ["Both"] audioTriggerEffectTarget 2
+audioTriggerEffectTarget = {}

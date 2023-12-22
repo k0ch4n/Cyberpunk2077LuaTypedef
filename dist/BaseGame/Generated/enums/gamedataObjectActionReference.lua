@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataObjectActionReference
-gamedataObjectActionReference = {
-    ["Instigator"] = 0, ---@type Enum
-    ["Source"] = 1, ---@type Enum
-    ["Target"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataObjectActionReference: Enum
+---@field ["Instigator"] gamedataObjectActionReference 0
+---@field ["Source"] gamedataObjectActionReference 1
+---@field ["Target"] gamedataObjectActionReference 2
+---@field ["Count"] gamedataObjectActionReference 3
+---@field ["Invalid"] gamedataObjectActionReference 4
+gamedataObjectActionReference = {}

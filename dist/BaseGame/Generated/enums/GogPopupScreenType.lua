@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum GogPopupScreenType
-GogPopupScreenType = {
-    ["Default"] = 0, ---@type Enum
-    ["Rewards"] = 1, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class GogPopupScreenType: Enum
+---@field ["Default"] GogPopupScreenType 0
+---@field ["Rewards"] GogPopupScreenType 1
+---@field ["Invalid"] GogPopupScreenType -1
+GogPopupScreenType = {}

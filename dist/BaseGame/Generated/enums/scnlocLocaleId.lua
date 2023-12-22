@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnlocLocaleId
-scnlocLocaleId = {
-    ["db_db"] = 0, ---@type Enum
-    ["pl_pl"] = 1, ---@type Enum
-    ["en_us"] = 2, ---@type Enum
-}
+---@class scnlocLocaleId: Enum
+---@field ["db_db"] scnlocLocaleId 0
+---@field ["pl_pl"] scnlocLocaleId 1
+---@field ["en_us"] scnlocLocaleId 2
+scnlocLocaleId = {}

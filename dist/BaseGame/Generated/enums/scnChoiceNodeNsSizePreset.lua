@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnChoiceNodeNsSizePreset
-scnChoiceNodeNsSizePreset = {
-    ["small"] = 0, ---@type Enum
-    ["normal"] = 1, ---@type Enum
-    ["big"] = 2, ---@type Enum
-    ["Dialogue"] = 3, ---@type Enum
-    ["Interaction"] = 4, ---@type Enum
-    ["Dialogue360"] = 5, ---@type Enum
-}
+---@class scnChoiceNodeNsSizePreset: Enum
+---@field ["small"] scnChoiceNodeNsSizePreset 0
+---@field ["normal"] scnChoiceNodeNsSizePreset 1
+---@field ["big"] scnChoiceNodeNsSizePreset 2
+---@field ["Dialogue"] scnChoiceNodeNsSizePreset 3
+---@field ["Interaction"] scnChoiceNodeNsSizePreset 4
+---@field ["Dialogue360"] scnChoiceNodeNsSizePreset 5
+scnChoiceNodeNsSizePreset = {}

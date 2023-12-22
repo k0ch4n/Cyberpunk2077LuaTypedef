@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAISquadRing
-EAISquadRing = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Melee"] = 1, ---@type Enum
-    ["Close"] = 2, ---@type Enum
-    ["Medium"] = 3, ---@type Enum
-    ["Far"] = 4, ---@type Enum
-    ["Extreme"] = 5, ---@type Enum
-}
+---@class EAISquadRing: Enum
+---@field ["Invalid"] EAISquadRing 0
+---@field ["Melee"] EAISquadRing 1
+---@field ["Close"] EAISquadRing 2
+---@field ["Medium"] EAISquadRing 3
+---@field ["Far"] EAISquadRing 4
+---@field ["Extreme"] EAISquadRing 5
+EAISquadRing = {}

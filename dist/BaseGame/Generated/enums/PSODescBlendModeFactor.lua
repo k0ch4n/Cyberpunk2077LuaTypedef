@@ -1,22 +1,21 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescBlendModeFactor
-PSODescBlendModeFactor = {
-    ["FAC_Zero"] = 0, ---@type Enum
-    ["FAC_One"] = 1, ---@type Enum
-    ["FAC_SrcColor"] = 2, ---@type Enum
-    ["FAC_InvSrcColor"] = 3, ---@type Enum
-    ["FAC_SrcAlpha"] = 4, ---@type Enum
-    ["FAC_InvSrcAlpha"] = 5, ---@type Enum
-    ["FAC_DestColor"] = 6, ---@type Enum
-    ["FAC_InvDestColor"] = 7, ---@type Enum
-    ["FAC_DestAlpha"] = 8, ---@type Enum
-    ["FAC_InvDestAlpha"] = 9, ---@type Enum
-    ["FAC_BlendFactor"] = 10, ---@type Enum
-    ["FAC_InvBlendFactor"] = 11, ---@type Enum
-    ["FAC_Src1Color"] = 12, ---@type Enum
-    ["FAC_InvSrc1Color"] = 13, ---@type Enum
-    ["FAC_Src1Alpha"] = 14, ---@type Enum
-    ["FAC_InvSrc1Alpha"] = 15, ---@type Enum
-}
+---@class PSODescBlendModeFactor: Enum
+---@field ["FAC_Zero"] PSODescBlendModeFactor 0
+---@field ["FAC_One"] PSODescBlendModeFactor 1
+---@field ["FAC_SrcColor"] PSODescBlendModeFactor 2
+---@field ["FAC_InvSrcColor"] PSODescBlendModeFactor 3
+---@field ["FAC_SrcAlpha"] PSODescBlendModeFactor 4
+---@field ["FAC_InvSrcAlpha"] PSODescBlendModeFactor 5
+---@field ["FAC_DestColor"] PSODescBlendModeFactor 6
+---@field ["FAC_InvDestColor"] PSODescBlendModeFactor 7
+---@field ["FAC_DestAlpha"] PSODescBlendModeFactor 8
+---@field ["FAC_InvDestAlpha"] PSODescBlendModeFactor 9
+---@field ["FAC_BlendFactor"] PSODescBlendModeFactor 10
+---@field ["FAC_InvBlendFactor"] PSODescBlendModeFactor 11
+---@field ["FAC_Src1Color"] PSODescBlendModeFactor 12
+---@field ["FAC_InvSrc1Color"] PSODescBlendModeFactor 13
+---@field ["FAC_Src1Alpha"] PSODescBlendModeFactor 14
+---@field ["FAC_InvSrc1Alpha"] PSODescBlendModeFactor 15
+PSODescBlendModeFactor = {}

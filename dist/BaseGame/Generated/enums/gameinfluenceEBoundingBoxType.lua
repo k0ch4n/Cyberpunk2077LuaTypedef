@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinfluenceEBoundingBoxType
-gameinfluenceEBoundingBoxType = {
-    ["Colider"] = 0, ---@type Enum
-    ["Custom"] = 1, ---@type Enum
-}
+---@class gameinfluenceEBoundingBoxType: Enum
+---@field ["Colider"] gameinfluenceEBoundingBoxType 0
+---@field ["Custom"] gameinfluenceEBoundingBoxType 1
+gameinfluenceEBoundingBoxType = {}

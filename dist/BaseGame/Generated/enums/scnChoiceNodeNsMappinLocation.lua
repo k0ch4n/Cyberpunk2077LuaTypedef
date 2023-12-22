@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnChoiceNodeNsMappinLocation
-scnChoiceNodeNsMappinLocation = {
-    ["None"] = 0, ---@type Enum
-    ["Interaction"] = 1, ---@type Enum
-    ["Nameplate"] = 2, ---@type Enum
-    ["ObjectDefault"] = 4, ---@type Enum
-}
+---@class scnChoiceNodeNsMappinLocation: Enum
+---@field ["None"] scnChoiceNodeNsMappinLocation 0
+---@field ["Interaction"] scnChoiceNodeNsMappinLocation 1
+---@field ["Nameplate"] scnChoiceNodeNsMappinLocation 2
+---@field ["ObjectDefault"] scnChoiceNodeNsMappinLocation 4
+scnChoiceNodeNsMappinLocation = {}

@@ -1,124 +1,123 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataPerkArea
-gamedataPerkArea = {
-    ["Assault_Area_01"] = 0, ---@type Enum
-    ["Assault_Area_02"] = 1, ---@type Enum
-    ["Assault_Area_03"] = 2, ---@type Enum
-    ["Assault_Area_04"] = 3, ---@type Enum
-    ["Assault_Area_05"] = 4, ---@type Enum
-    ["Assault_Area_06"] = 5, ---@type Enum
-    ["Assault_Area_07"] = 6, ---@type Enum
-    ["Assault_Area_08"] = 7, ---@type Enum
-    ["Assault_Area_09"] = 8, ---@type Enum
-    ["Assault_Area_10"] = 9, ---@type Enum
-    ["Athletics_Area_01"] = 10, ---@type Enum
-    ["Athletics_Area_02"] = 11, ---@type Enum
-    ["Athletics_Area_03"] = 12, ---@type Enum
-    ["Athletics_Area_04"] = 13, ---@type Enum
-    ["Athletics_Area_05"] = 14, ---@type Enum
-    ["Athletics_Area_06"] = 15, ---@type Enum
-    ["Athletics_Area_07"] = 16, ---@type Enum
-    ["Athletics_Area_08"] = 17, ---@type Enum
-    ["Athletics_Area_09"] = 18, ---@type Enum
-    ["Athletics_Area_10"] = 19, ---@type Enum
-    ["Brawling_Area_01"] = 20, ---@type Enum
-    ["Brawling_Area_02"] = 21, ---@type Enum
-    ["Brawling_Area_03"] = 22, ---@type Enum
-    ["Brawling_Area_04"] = 23, ---@type Enum
-    ["Brawling_Area_05"] = 24, ---@type Enum
-    ["Brawling_Area_06"] = 25, ---@type Enum
-    ["Brawling_Area_07"] = 26, ---@type Enum
-    ["Brawling_Area_08"] = 27, ---@type Enum
-    ["ColdBlood_Area_01"] = 28, ---@type Enum
-    ["ColdBlood_Area_02"] = 29, ---@type Enum
-    ["ColdBlood_Area_03"] = 30, ---@type Enum
-    ["ColdBlood_Area_04"] = 31, ---@type Enum
-    ["ColdBlood_Area_05"] = 32, ---@type Enum
-    ["ColdBlood_Area_06"] = 33, ---@type Enum
-    ["ColdBlood_Area_07"] = 34, ---@type Enum
-    ["ColdBlood_Area_08"] = 35, ---@type Enum
-    ["ColdBlood_Area_09"] = 36, ---@type Enum
-    ["ColdBlood_Area_10"] = 37, ---@type Enum
-    ["CombatHacking_Area_01"] = 38, ---@type Enum
-    ["CombatHacking_Area_02"] = 39, ---@type Enum
-    ["CombatHacking_Area_03"] = 40, ---@type Enum
-    ["CombatHacking_Area_04"] = 41, ---@type Enum
-    ["CombatHacking_Area_05"] = 42, ---@type Enum
-    ["CombatHacking_Area_06"] = 43, ---@type Enum
-    ["CombatHacking_Area_07"] = 44, ---@type Enum
-    ["CombatHacking_Area_08"] = 45, ---@type Enum
-    ["CombatHacking_Area_09"] = 46, ---@type Enum
-    ["CombatHacking_Area_10"] = 47, ---@type Enum
-    ["Crafting_Area_01"] = 48, ---@type Enum
-    ["Crafting_Area_02"] = 49, ---@type Enum
-    ["Crafting_Area_03"] = 50, ---@type Enum
-    ["Crafting_Area_04"] = 51, ---@type Enum
-    ["Crafting_Area_05"] = 52, ---@type Enum
-    ["Crafting_Area_06"] = 53, ---@type Enum
-    ["Crafting_Area_07"] = 54, ---@type Enum
-    ["Crafting_Area_08"] = 55, ---@type Enum
-    ["Crafting_Area_09"] = 56, ---@type Enum
-    ["Crafting_Area_10"] = 57, ---@type Enum
-    ["Demolition_Area_01"] = 58, ---@type Enum
-    ["Demolition_Area_02"] = 59, ---@type Enum
-    ["Demolition_Area_03"] = 60, ---@type Enum
-    ["Demolition_Area_04"] = 61, ---@type Enum
-    ["Demolition_Area_05"] = 62, ---@type Enum
-    ["Demolition_Area_06"] = 63, ---@type Enum
-    ["Demolition_Area_07"] = 64, ---@type Enum
-    ["Demolition_Area_08"] = 65, ---@type Enum
-    ["Demolition_Area_09"] = 66, ---@type Enum
-    ["Demolition_Area_10"] = 67, ---@type Enum
-    ["Engineering_Area_01"] = 68, ---@type Enum
-    ["Engineering_Area_02"] = 69, ---@type Enum
-    ["Engineering_Area_03"] = 70, ---@type Enum
-    ["Engineering_Area_04"] = 71, ---@type Enum
-    ["Engineering_Area_05"] = 72, ---@type Enum
-    ["Engineering_Area_06"] = 73, ---@type Enum
-    ["Engineering_Area_07"] = 74, ---@type Enum
-    ["Engineering_Area_08"] = 75, ---@type Enum
-    ["Engineering_Area_09"] = 76, ---@type Enum
-    ["Engineering_Area_10"] = 77, ---@type Enum
-    ["Gunslinger_Area_01"] = 78, ---@type Enum
-    ["Gunslinger_Area_02"] = 79, ---@type Enum
-    ["Gunslinger_Area_03"] = 80, ---@type Enum
-    ["Gunslinger_Area_04"] = 81, ---@type Enum
-    ["Gunslinger_Area_05"] = 82, ---@type Enum
-    ["Gunslinger_Area_06"] = 83, ---@type Enum
-    ["Gunslinger_Area_07"] = 84, ---@type Enum
-    ["Gunslinger_Area_08"] = 85, ---@type Enum
-    ["Gunslinger_Area_09"] = 86, ---@type Enum
-    ["Gunslinger_Area_10"] = 87, ---@type Enum
-    ["Hacking_Area_01"] = 88, ---@type Enum
-    ["Hacking_Area_02"] = 89, ---@type Enum
-    ["Hacking_Area_03"] = 90, ---@type Enum
-    ["Hacking_Area_04"] = 91, ---@type Enum
-    ["Hacking_Area_05"] = 92, ---@type Enum
-    ["Hacking_Area_06"] = 93, ---@type Enum
-    ["Hacking_Area_07"] = 94, ---@type Enum
-    ["Hacking_Area_08"] = 95, ---@type Enum
-    ["Hacking_Area_09"] = 96, ---@type Enum
-    ["Hacking_Area_10"] = 97, ---@type Enum
-    ["Kenjutsu_Area_01"] = 98, ---@type Enum
-    ["Kenjutsu_Area_02"] = 99, ---@type Enum
-    ["Kenjutsu_Area_03"] = 100, ---@type Enum
-    ["Kenjutsu_Area_04"] = 101, ---@type Enum
-    ["Kenjutsu_Area_05"] = 102, ---@type Enum
-    ["Kenjutsu_Area_06"] = 103, ---@type Enum
-    ["Kenjutsu_Area_07"] = 104, ---@type Enum
-    ["Kenjutsu_Area_08"] = 105, ---@type Enum
-    ["Stealth_Area_01"] = 106, ---@type Enum
-    ["Stealth_Area_02"] = 107, ---@type Enum
-    ["Stealth_Area_03"] = 108, ---@type Enum
-    ["Stealth_Area_04"] = 109, ---@type Enum
-    ["Stealth_Area_05"] = 110, ---@type Enum
-    ["Stealth_Area_06"] = 111, ---@type Enum
-    ["Stealth_Area_07"] = 112, ---@type Enum
-    ["Stealth_Area_08"] = 113, ---@type Enum
-    ["Stealth_Area_09"] = 114, ---@type Enum
-    ["Stealth_Area_10"] = 115, ---@type Enum
-    ["Count"] = 116, ---@type Enum
-    ["Invalid"] = 117, ---@type Enum
-}
+---@class gamedataPerkArea: Enum
+---@field ["Assault_Area_01"] gamedataPerkArea 0
+---@field ["Assault_Area_02"] gamedataPerkArea 1
+---@field ["Assault_Area_03"] gamedataPerkArea 2
+---@field ["Assault_Area_04"] gamedataPerkArea 3
+---@field ["Assault_Area_05"] gamedataPerkArea 4
+---@field ["Assault_Area_06"] gamedataPerkArea 5
+---@field ["Assault_Area_07"] gamedataPerkArea 6
+---@field ["Assault_Area_08"] gamedataPerkArea 7
+---@field ["Assault_Area_09"] gamedataPerkArea 8
+---@field ["Assault_Area_10"] gamedataPerkArea 9
+---@field ["Athletics_Area_01"] gamedataPerkArea 10
+---@field ["Athletics_Area_02"] gamedataPerkArea 11
+---@field ["Athletics_Area_03"] gamedataPerkArea 12
+---@field ["Athletics_Area_04"] gamedataPerkArea 13
+---@field ["Athletics_Area_05"] gamedataPerkArea 14
+---@field ["Athletics_Area_06"] gamedataPerkArea 15
+---@field ["Athletics_Area_07"] gamedataPerkArea 16
+---@field ["Athletics_Area_08"] gamedataPerkArea 17
+---@field ["Athletics_Area_09"] gamedataPerkArea 18
+---@field ["Athletics_Area_10"] gamedataPerkArea 19
+---@field ["Brawling_Area_01"] gamedataPerkArea 20
+---@field ["Brawling_Area_02"] gamedataPerkArea 21
+---@field ["Brawling_Area_03"] gamedataPerkArea 22
+---@field ["Brawling_Area_04"] gamedataPerkArea 23
+---@field ["Brawling_Area_05"] gamedataPerkArea 24
+---@field ["Brawling_Area_06"] gamedataPerkArea 25
+---@field ["Brawling_Area_07"] gamedataPerkArea 26
+---@field ["Brawling_Area_08"] gamedataPerkArea 27
+---@field ["ColdBlood_Area_01"] gamedataPerkArea 28
+---@field ["ColdBlood_Area_02"] gamedataPerkArea 29
+---@field ["ColdBlood_Area_03"] gamedataPerkArea 30
+---@field ["ColdBlood_Area_04"] gamedataPerkArea 31
+---@field ["ColdBlood_Area_05"] gamedataPerkArea 32
+---@field ["ColdBlood_Area_06"] gamedataPerkArea 33
+---@field ["ColdBlood_Area_07"] gamedataPerkArea 34
+---@field ["ColdBlood_Area_08"] gamedataPerkArea 35
+---@field ["ColdBlood_Area_09"] gamedataPerkArea 36
+---@field ["ColdBlood_Area_10"] gamedataPerkArea 37
+---@field ["CombatHacking_Area_01"] gamedataPerkArea 38
+---@field ["CombatHacking_Area_02"] gamedataPerkArea 39
+---@field ["CombatHacking_Area_03"] gamedataPerkArea 40
+---@field ["CombatHacking_Area_04"] gamedataPerkArea 41
+---@field ["CombatHacking_Area_05"] gamedataPerkArea 42
+---@field ["CombatHacking_Area_06"] gamedataPerkArea 43
+---@field ["CombatHacking_Area_07"] gamedataPerkArea 44
+---@field ["CombatHacking_Area_08"] gamedataPerkArea 45
+---@field ["CombatHacking_Area_09"] gamedataPerkArea 46
+---@field ["CombatHacking_Area_10"] gamedataPerkArea 47
+---@field ["Crafting_Area_01"] gamedataPerkArea 48
+---@field ["Crafting_Area_02"] gamedataPerkArea 49
+---@field ["Crafting_Area_03"] gamedataPerkArea 50
+---@field ["Crafting_Area_04"] gamedataPerkArea 51
+---@field ["Crafting_Area_05"] gamedataPerkArea 52
+---@field ["Crafting_Area_06"] gamedataPerkArea 53
+---@field ["Crafting_Area_07"] gamedataPerkArea 54
+---@field ["Crafting_Area_08"] gamedataPerkArea 55
+---@field ["Crafting_Area_09"] gamedataPerkArea 56
+---@field ["Crafting_Area_10"] gamedataPerkArea 57
+---@field ["Demolition_Area_01"] gamedataPerkArea 58
+---@field ["Demolition_Area_02"] gamedataPerkArea 59
+---@field ["Demolition_Area_03"] gamedataPerkArea 60
+---@field ["Demolition_Area_04"] gamedataPerkArea 61
+---@field ["Demolition_Area_05"] gamedataPerkArea 62
+---@field ["Demolition_Area_06"] gamedataPerkArea 63
+---@field ["Demolition_Area_07"] gamedataPerkArea 64
+---@field ["Demolition_Area_08"] gamedataPerkArea 65
+---@field ["Demolition_Area_09"] gamedataPerkArea 66
+---@field ["Demolition_Area_10"] gamedataPerkArea 67
+---@field ["Engineering_Area_01"] gamedataPerkArea 68
+---@field ["Engineering_Area_02"] gamedataPerkArea 69
+---@field ["Engineering_Area_03"] gamedataPerkArea 70
+---@field ["Engineering_Area_04"] gamedataPerkArea 71
+---@field ["Engineering_Area_05"] gamedataPerkArea 72
+---@field ["Engineering_Area_06"] gamedataPerkArea 73
+---@field ["Engineering_Area_07"] gamedataPerkArea 74
+---@field ["Engineering_Area_08"] gamedataPerkArea 75
+---@field ["Engineering_Area_09"] gamedataPerkArea 76
+---@field ["Engineering_Area_10"] gamedataPerkArea 77
+---@field ["Gunslinger_Area_01"] gamedataPerkArea 78
+---@field ["Gunslinger_Area_02"] gamedataPerkArea 79
+---@field ["Gunslinger_Area_03"] gamedataPerkArea 80
+---@field ["Gunslinger_Area_04"] gamedataPerkArea 81
+---@field ["Gunslinger_Area_05"] gamedataPerkArea 82
+---@field ["Gunslinger_Area_06"] gamedataPerkArea 83
+---@field ["Gunslinger_Area_07"] gamedataPerkArea 84
+---@field ["Gunslinger_Area_08"] gamedataPerkArea 85
+---@field ["Gunslinger_Area_09"] gamedataPerkArea 86
+---@field ["Gunslinger_Area_10"] gamedataPerkArea 87
+---@field ["Hacking_Area_01"] gamedataPerkArea 88
+---@field ["Hacking_Area_02"] gamedataPerkArea 89
+---@field ["Hacking_Area_03"] gamedataPerkArea 90
+---@field ["Hacking_Area_04"] gamedataPerkArea 91
+---@field ["Hacking_Area_05"] gamedataPerkArea 92
+---@field ["Hacking_Area_06"] gamedataPerkArea 93
+---@field ["Hacking_Area_07"] gamedataPerkArea 94
+---@field ["Hacking_Area_08"] gamedataPerkArea 95
+---@field ["Hacking_Area_09"] gamedataPerkArea 96
+---@field ["Hacking_Area_10"] gamedataPerkArea 97
+---@field ["Kenjutsu_Area_01"] gamedataPerkArea 98
+---@field ["Kenjutsu_Area_02"] gamedataPerkArea 99
+---@field ["Kenjutsu_Area_03"] gamedataPerkArea 100
+---@field ["Kenjutsu_Area_04"] gamedataPerkArea 101
+---@field ["Kenjutsu_Area_05"] gamedataPerkArea 102
+---@field ["Kenjutsu_Area_06"] gamedataPerkArea 103
+---@field ["Kenjutsu_Area_07"] gamedataPerkArea 104
+---@field ["Kenjutsu_Area_08"] gamedataPerkArea 105
+---@field ["Stealth_Area_01"] gamedataPerkArea 106
+---@field ["Stealth_Area_02"] gamedataPerkArea 107
+---@field ["Stealth_Area_03"] gamedataPerkArea 108
+---@field ["Stealth_Area_04"] gamedataPerkArea 109
+---@field ["Stealth_Area_05"] gamedataPerkArea 110
+---@field ["Stealth_Area_06"] gamedataPerkArea 111
+---@field ["Stealth_Area_07"] gamedataPerkArea 112
+---@field ["Stealth_Area_08"] gamedataPerkArea 113
+---@field ["Stealth_Area_09"] gamedataPerkArea 114
+---@field ["Stealth_Area_10"] gamedataPerkArea 115
+---@field ["Count"] gamedataPerkArea 116
+---@field ["Invalid"] gamedataPerkArea 117
+gamedataPerkArea = {}

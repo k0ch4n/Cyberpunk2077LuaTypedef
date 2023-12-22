@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMVehicle
-gamePSMVehicle = {
-    ["Any"] = -1, ---@type Enum
-    ["Default"] = 0, ---@type Enum
-    ["Driving"] = 1, ---@type Enum
-    ["Combat"] = 2, ---@type Enum
-    ["Passenger"] = 3, ---@type Enum
-    ["Transition"] = 4, ---@type Enum
-    ["Turret"] = 5, ---@type Enum
-    ["DriverCombat"] = 6, ---@type Enum
-    ["Scene"] = 7, ---@type Enum
-}
+---@class gamePSMVehicle: Enum
+---@field ["Any"] gamePSMVehicle -1
+---@field ["Default"] gamePSMVehicle 0
+---@field ["Driving"] gamePSMVehicle 1
+---@field ["Combat"] gamePSMVehicle 2
+---@field ["Passenger"] gamePSMVehicle 3
+---@field ["Transition"] gamePSMVehicle 4
+---@field ["Turret"] gamePSMVehicle 5
+---@field ["DriverCombat"] gamePSMVehicle 6
+---@field ["Scene"] gamePSMVehicle 7
+gamePSMVehicle = {}

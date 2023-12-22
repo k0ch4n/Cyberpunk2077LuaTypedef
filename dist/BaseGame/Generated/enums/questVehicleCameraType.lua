@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questVehicleCameraType
-questVehicleCameraType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["PuppetFPP"] = 1, ---@type Enum
-    ["TPP"] = 2, ---@type Enum
-    ["DriverFPP"] = 3, ---@type Enum
-    ["FPP"] = 1, ---@type Enum
-}
+---@class questVehicleCameraType: Enum
+---@field ["Undefined"] questVehicleCameraType 0
+---@field ["PuppetFPP"] questVehicleCameraType 1
+---@field ["TPP"] questVehicleCameraType 2
+---@field ["DriverFPP"] questVehicleCameraType 3
+---@field ["FPP"] questVehicleCameraType 1
+questVehicleCameraType = {}

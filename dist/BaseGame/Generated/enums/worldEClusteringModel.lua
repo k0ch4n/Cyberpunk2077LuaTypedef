@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldEClusteringModel
-worldEClusteringModel = {
-    ["HierarchicalGrid"] = 0, ---@type Enum
-    ["AlwaysLoaded"] = 1, ---@type Enum
-    ["Discard"] = 2, ---@type Enum
-}
+---@class worldEClusteringModel: Enum
+---@field ["HierarchicalGrid"] worldEClusteringModel 0
+---@field ["AlwaysLoaded"] worldEClusteringModel 1
+---@field ["Discard"] worldEClusteringModel 2
+worldEClusteringModel = {}

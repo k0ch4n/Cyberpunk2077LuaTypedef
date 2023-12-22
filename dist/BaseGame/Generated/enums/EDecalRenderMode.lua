@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDecalRenderMode
-EDecalRenderMode = {
-    ["DRM_AllStatic"] = 0, ---@type Enum
-    ["DRM_ObjectType"] = 1, ---@type Enum
-    ["DRM_AllDynamic"] = 2, ---@type Enum
-    ["DRM_All"] = 3, ---@type Enum
-}
+---@class EDecalRenderMode: Enum
+---@field ["DRM_AllStatic"] EDecalRenderMode 0
+---@field ["DRM_ObjectType"] EDecalRenderMode 1
+---@field ["DRM_AllDynamic"] EDecalRenderMode 2
+---@field ["DRM_All"] EDecalRenderMode 3
+EDecalRenderMode = {}

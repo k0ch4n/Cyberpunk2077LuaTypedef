@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldRotatingMeshNodeAxis
-worldRotatingMeshNodeAxis = {
-    ["X"] = 0, ---@type Enum
-    ["Y"] = 1, ---@type Enum
-    ["Z"] = 2, ---@type Enum
-}
+---@class worldRotatingMeshNodeAxis: Enum
+---@field ["X"] worldRotatingMeshNodeAxis 0
+---@field ["Y"] worldRotatingMeshNodeAxis 1
+---@field ["Z"] worldRotatingMeshNodeAxis 2
+worldRotatingMeshNodeAxis = {}

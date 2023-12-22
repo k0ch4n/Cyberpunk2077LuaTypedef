@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum QuestListSortType
-QuestListSortType = {
-    ["Updated"] = 0, ---@type Enum
-    ["Distance"] = 1, ---@type Enum
-    ["Size"] = 2, ---@type Enum
-}
+---@class QuestListSortType: Enum
+---@field ["Updated"] QuestListSortType 0
+---@field ["Distance"] QuestListSortType 1
+---@field ["Size"] QuestListSortType 2
+QuestListSortType = {}

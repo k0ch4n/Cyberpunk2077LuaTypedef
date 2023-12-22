@@ -1,35 +1,34 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsPhysicalSystemOwner
-physicsPhysicalSystemOwner = {
-    ["Unknown"] = 0, ---@type Enum
-    ["BakedDestructionNode"] = 1, ---@type Enum
-    ["ClothMeshNode"] = 2, ---@type Enum
-    ["CollisionAreaNode"] = 3, ---@type Enum
-    ["DecorationMeshNode"] = 4, ---@type Enum
-    ["DynamicMeshNode"] = 5, ---@type Enum
-    ["InstancedDestructibleNode"] = 6, ---@type Enum
-    ["PhysicalDestructionNode"] = 7, ---@type Enum
-    ["PhysicalTriggerNode"] = 8, ---@type Enum
-    ["StaticMeshNode"] = 9, ---@type Enum
-    ["TerrainCollisionNode"] = 10, ---@type Enum
-    ["WaterPatchNode"] = 11, ---@type Enum
-    ["WorldCollisionNode"] = 12, ---@type Enum
-    ["BakedDestructionComponent"] = 13, ---@type Enum
-    ["ClothComponent"] = 14, ---@type Enum
-    ["ColliderComponent"] = 15, ---@type Enum
-    ["PhysicalDestructionComponent"] = 16, ---@type Enum
-    ["PhysicalMeshComponent"] = 17, ---@type Enum
-    ["PhysicalSkinnedMeshComponent"] = 18, ---@type Enum
-    ["PhysicalTriggerComponent"] = 19, ---@type Enum
-    ["SimpleColliderComponent"] = 20, ---@type Enum
-    ["SkinnedClothComponent"] = 21, ---@type Enum
-    ["StateMachineComponent"] = 22, ---@type Enum
-    ["VehicleChassisComponent"] = 23, ---@type Enum
-    ["PhysicalParticleSystem"] = 24, ---@type Enum
-    ["PhotoModeSystem"] = 25, ---@type Enum
-    ["RagdollBinder"] = 26, ---@type Enum
-    ["FoliageDestruction"] = 27, ---@type Enum
-    ["EntityProxy"] = 28, ---@type Enum
-}
+---@class physicsPhysicalSystemOwner: Enum
+---@field ["Unknown"] physicsPhysicalSystemOwner 0
+---@field ["BakedDestructionNode"] physicsPhysicalSystemOwner 1
+---@field ["ClothMeshNode"] physicsPhysicalSystemOwner 2
+---@field ["CollisionAreaNode"] physicsPhysicalSystemOwner 3
+---@field ["DecorationMeshNode"] physicsPhysicalSystemOwner 4
+---@field ["DynamicMeshNode"] physicsPhysicalSystemOwner 5
+---@field ["InstancedDestructibleNode"] physicsPhysicalSystemOwner 6
+---@field ["PhysicalDestructionNode"] physicsPhysicalSystemOwner 7
+---@field ["PhysicalTriggerNode"] physicsPhysicalSystemOwner 8
+---@field ["StaticMeshNode"] physicsPhysicalSystemOwner 9
+---@field ["TerrainCollisionNode"] physicsPhysicalSystemOwner 10
+---@field ["WaterPatchNode"] physicsPhysicalSystemOwner 11
+---@field ["WorldCollisionNode"] physicsPhysicalSystemOwner 12
+---@field ["BakedDestructionComponent"] physicsPhysicalSystemOwner 13
+---@field ["ClothComponent"] physicsPhysicalSystemOwner 14
+---@field ["ColliderComponent"] physicsPhysicalSystemOwner 15
+---@field ["PhysicalDestructionComponent"] physicsPhysicalSystemOwner 16
+---@field ["PhysicalMeshComponent"] physicsPhysicalSystemOwner 17
+---@field ["PhysicalSkinnedMeshComponent"] physicsPhysicalSystemOwner 18
+---@field ["PhysicalTriggerComponent"] physicsPhysicalSystemOwner 19
+---@field ["SimpleColliderComponent"] physicsPhysicalSystemOwner 20
+---@field ["SkinnedClothComponent"] physicsPhysicalSystemOwner 21
+---@field ["StateMachineComponent"] physicsPhysicalSystemOwner 22
+---@field ["VehicleChassisComponent"] physicsPhysicalSystemOwner 23
+---@field ["PhysicalParticleSystem"] physicsPhysicalSystemOwner 24
+---@field ["PhotoModeSystem"] physicsPhysicalSystemOwner 25
+---@field ["RagdollBinder"] physicsPhysicalSystemOwner 26
+---@field ["FoliageDestruction"] physicsPhysicalSystemOwner 27
+---@field ["EntityProxy"] physicsPhysicalSystemOwner 28
+physicsPhysicalSystemOwner = {}

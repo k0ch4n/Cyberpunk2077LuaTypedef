@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameJournalEntryState
-gameJournalEntryState = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Inactive"] = 1, ---@type Enum
-    ["Active"] = 2, ---@type Enum
-    ["Succeeded"] = 3, ---@type Enum
-    ["Failed"] = 4, ---@type Enum
-}
+---@class gameJournalEntryState: Enum
+---@field ["Undefined"] gameJournalEntryState 0
+---@field ["Inactive"] gameJournalEntryState 1
+---@field ["Active"] gameJournalEntryState 2
+---@field ["Succeeded"] gameJournalEntryState 3
+---@field ["Failed"] gameJournalEntryState 4
+gameJournalEntryState = {}

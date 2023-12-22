@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questSetDestructionStateAction
-questSetDestructionStateAction = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Trigger"] = 1, ---@type Enum
-}
+---@class questSetDestructionStateAction: Enum
+---@field ["Undefined"] questSetDestructionStateAction 0
+---@field ["Trigger"] questSetDestructionStateAction 1
+questSetDestructionStateAction = {}

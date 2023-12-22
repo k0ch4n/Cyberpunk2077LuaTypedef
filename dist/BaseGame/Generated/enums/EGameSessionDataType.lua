@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EGameSessionDataType
-EGameSessionDataType = {
-    ["NONE"] = 0, ---@type Enum
-    ["CameraDeadBody"] = 1, ---@type Enum
-    ["CameraTagLimit"] = 2, ---@type Enum
-}
+---@class EGameSessionDataType: Enum
+---@field ["NONE"] EGameSessionDataType 0
+---@field ["CameraDeadBody"] EGameSessionDataType 1
+---@field ["CameraTagLimit"] EGameSessionDataType 2
+EGameSessionDataType = {}

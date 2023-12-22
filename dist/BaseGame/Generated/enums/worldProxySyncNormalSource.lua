@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxySyncNormalSource
-worldProxySyncNormalSource = {
-    ["From_Groups"] = 0, ---@type Enum
-    ["From_Face_Average"] = 1, ---@type Enum
-}
+---@class worldProxySyncNormalSource: Enum
+---@field ["From_Groups"] worldProxySyncNormalSource 0
+---@field ["From_Face_Average"] worldProxySyncNormalSource 1
+worldProxySyncNormalSource = {}

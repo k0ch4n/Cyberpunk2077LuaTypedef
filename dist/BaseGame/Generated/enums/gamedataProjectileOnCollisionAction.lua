@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataProjectileOnCollisionAction
-gamedataProjectileOnCollisionAction = {
-    ["Bounce"] = 0, ---@type Enum
-    ["Pierce"] = 1, ---@type Enum
-    ["Stop"] = 2, ---@type Enum
-    ["StopAndStick"] = 3, ---@type Enum
-    ["StopAndStickPerpendicular"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataProjectileOnCollisionAction: Enum
+---@field ["Bounce"] gamedataProjectileOnCollisionAction 0
+---@field ["Pierce"] gamedataProjectileOnCollisionAction 1
+---@field ["Stop"] gamedataProjectileOnCollisionAction 2
+---@field ["StopAndStick"] gamedataProjectileOnCollisionAction 3
+---@field ["StopAndStickPerpendicular"] gamedataProjectileOnCollisionAction 4
+---@field ["Count"] gamedataProjectileOnCollisionAction 5
+---@field ["Invalid"] gamedataProjectileOnCollisionAction 6
+gamedataProjectileOnCollisionAction = {}

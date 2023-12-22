@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMFallStates
-gamePSMFallStates = {
-    ["Default"] = 0, ---@type Enum
-    ["RegularFall"] = 1, ---@type Enum
-    ["SafeFall"] = 2, ---@type Enum
-    ["FastFall"] = 3, ---@type Enum
-    ["VeryFastFall"] = 4, ---@type Enum
-    ["DeathFall"] = 5, ---@type Enum
-}
+---@class gamePSMFallStates: Enum
+---@field ["Default"] gamePSMFallStates 0
+---@field ["RegularFall"] gamePSMFallStates 1
+---@field ["SafeFall"] gamePSMFallStates 2
+---@field ["FastFall"] gamePSMFallStates 3
+---@field ["VeryFastFall"] gamePSMFallStates 4
+---@field ["DeathFall"] gamePSMFallStates 5
+gamePSMFallStates = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDeviceChallengeAttribute
-EDeviceChallengeAttribute = {
-    ["Invalid"] = 0, ---@type Enum
-    ["Strength"] = 1, ---@type Enum
-    ["Reflexes"] = 2, ---@type Enum
-    ["Intelligence"] = 3, ---@type Enum
-    ["TechnicalAbility"] = 4, ---@type Enum
-    ["Cool"] = 5, ---@type Enum
-}
+---@class EDeviceChallengeAttribute: Enum
+---@field ["Invalid"] EDeviceChallengeAttribute 0
+---@field ["Strength"] EDeviceChallengeAttribute 1
+---@field ["Reflexes"] EDeviceChallengeAttribute 2
+---@field ["Intelligence"] EDeviceChallengeAttribute 3
+---@field ["TechnicalAbility"] EDeviceChallengeAttribute 4
+---@field ["Cool"] EDeviceChallengeAttribute 5
+EDeviceChallengeAttribute = {}

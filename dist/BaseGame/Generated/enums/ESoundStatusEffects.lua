@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESoundStatusEffects
-ESoundStatusEffects = {
-    ["NONE"] = 0, ---@type Enum
-    ["DEAFENED"] = 1, ---@type Enum
-    ["SUPRESS_NOISE"] = 2, ---@type Enum
-}
+---@class ESoundStatusEffects: Enum
+---@field ["NONE"] ESoundStatusEffects 0
+---@field ["DEAFENED"] ESoundStatusEffects 1
+---@field ["SUPRESS_NOISE"] ESoundStatusEffects 2
+ESoundStatusEffects = {}

@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum workLogicalOperation
-workLogicalOperation = {
-    ["AND"] = 0, ---@type Enum
-    ["OR"] = 1, ---@type Enum
-}
+---@class workLogicalOperation: Enum
+---@field ["AND"] workLogicalOperation 0
+---@field ["OR"] workLogicalOperation 1
+workLogicalOperation = {}

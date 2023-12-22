@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EConclusionQuestState
-EConclusionQuestState = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Active"] = 1, ---@type Enum
-    ["Inactive"] = 2, ---@type Enum
-    ["Shown"] = 3, ---@type Enum
-}
+---@class EConclusionQuestState: Enum
+---@field ["Undefined"] EConclusionQuestState 0
+---@field ["Active"] EConclusionQuestState 1
+---@field ["Inactive"] EConclusionQuestState 2
+---@field ["Shown"] EConclusionQuestState 3
+EConclusionQuestState = {}

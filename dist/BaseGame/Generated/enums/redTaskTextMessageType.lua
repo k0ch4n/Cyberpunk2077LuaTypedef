@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum redTaskTextMessageType
-redTaskTextMessageType = {
-    ["Info"] = 0, ---@type Enum
-    ["Error"] = 1, ---@type Enum
-}
+---@class redTaskTextMessageType: Enum
+---@field ["Info"] redTaskTextMessageType 0
+---@field ["Error"] redTaskTextMessageType 1
+redTaskTextMessageType = {}

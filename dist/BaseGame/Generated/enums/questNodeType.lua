@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questNodeType
-questNodeType = {
-    ["Equip"] = 0, ---@type Enum
-    ["Unequip"] = 1, ---@type Enum
-}
+---@class questNodeType: Enum
+---@field ["Equip"] questNodeType 0
+---@field ["Unequip"] questNodeType 1
+questNodeType = {}

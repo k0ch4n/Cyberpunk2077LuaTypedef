@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiActivePhoneElement
-gameuiActivePhoneElement = {
-    ["Call"] = 1, ---@type Enum
-    ["IncomingCall"] = 2, ---@type Enum
-    ["Contacts"] = 4, ---@type Enum
-    ["SmsMessenger"] = 8, ---@type Enum
-    ["Notifications"] = 16, ---@type Enum
-    ["InVehicle"] = 32, ---@type Enum
-    ["None"] = 64, ---@type Enum
-}
+---@class gameuiActivePhoneElement: Enum
+---@field ["Call"] gameuiActivePhoneElement 1
+---@field ["IncomingCall"] gameuiActivePhoneElement 2
+---@field ["Contacts"] gameuiActivePhoneElement 4
+---@field ["SmsMessenger"] gameuiActivePhoneElement 8
+---@field ["Notifications"] gameuiActivePhoneElement 16
+---@field ["InVehicle"] gameuiActivePhoneElement 32
+---@field ["None"] gameuiActivePhoneElement 64
+gameuiActivePhoneElement = {}

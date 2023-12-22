@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EHudAvatarMode
-EHudAvatarMode = {
-    ["Connecting"] = 0, ---@type Enum
-    ["Disconnecting"] = 1, ---@type Enum
-    ["Holocall"] = 2, ---@type Enum
-    ["Audiocall"] = 3, ---@type Enum
-}
+---@class EHudAvatarMode: Enum
+---@field ["Connecting"] EHudAvatarMode 0
+---@field ["Disconnecting"] EHudAvatarMode 1
+---@field ["Holocall"] EHudAvatarMode 2
+---@field ["Audiocall"] EHudAvatarMode 3
+EHudAvatarMode = {}

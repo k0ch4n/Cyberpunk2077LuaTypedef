@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questScanningState
-questScanningState = {
-    ["NotScanned"] = 0, ---@type Enum
-    ["Scanned"] = 1, ---@type Enum
-}
+---@class questScanningState: Enum
+---@field ["NotScanned"] questScanningState 0
+---@field ["Scanned"] questScanningState 1
+questScanningState = {}

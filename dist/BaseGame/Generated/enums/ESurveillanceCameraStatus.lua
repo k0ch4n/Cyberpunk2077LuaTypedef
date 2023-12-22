@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ESurveillanceCameraStatus
-ESurveillanceCameraStatus = {
-    ["THREAT"] = -1, ---@type Enum
-    ["STREAMING"] = 0, ---@type Enum
-    ["WORKING"] = 1, ---@type Enum
-}
+---@class ESurveillanceCameraStatus: Enum
+---@field ["THREAT"] ESurveillanceCameraStatus -1
+---@field ["STREAMING"] ESurveillanceCameraStatus 0
+---@field ["WORKING"] ESurveillanceCameraStatus 1
+ESurveillanceCameraStatus = {}

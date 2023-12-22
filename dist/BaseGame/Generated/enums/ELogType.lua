@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELogType
-ELogType = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["WARNING"] = 1, ---@type Enum
-    ["ERROR"] = 2, ---@type Enum
-}
+---@class ELogType: Enum
+---@field ["DEFAULT"] ELogType 0
+---@field ["WARNING"] ELogType 1
+---@field ["ERROR"] ELogType 2
+ELogType = {}

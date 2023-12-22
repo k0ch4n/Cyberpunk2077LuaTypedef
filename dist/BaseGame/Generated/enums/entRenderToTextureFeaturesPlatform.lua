@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entRenderToTextureFeaturesPlatform
-entRenderToTextureFeaturesPlatform = {
-    ["RTFP_All"] = 0, ---@type Enum
-    ["RTFP_PC"] = 1, ---@type Enum
-    ["RTFP_PC_PS5_XSX"] = 2, ---@type Enum
-    ["RTFP_Consoles"] = 3, ---@type Enum
-    ["RTFP_None"] = 4, ---@type Enum
-}
+---@class entRenderToTextureFeaturesPlatform: Enum
+---@field ["RTFP_All"] entRenderToTextureFeaturesPlatform 0
+---@field ["RTFP_PC"] entRenderToTextureFeaturesPlatform 1
+---@field ["RTFP_PC_PS5_XSX"] entRenderToTextureFeaturesPlatform 2
+---@field ["RTFP_Consoles"] entRenderToTextureFeaturesPlatform 3
+---@field ["RTFP_None"] entRenderToTextureFeaturesPlatform 4
+entRenderToTextureFeaturesPlatform = {}

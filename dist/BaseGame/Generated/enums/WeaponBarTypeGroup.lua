@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum WeaponBarTypeGroup
-WeaponBarTypeGroup = {
-    ["AttackSpeed"] = 0, ---@type Enum
-    ["DamagePerHit"] = 1, ---@type Enum
-    ["Range"] = 2, ---@type Enum
-    ["ReloadSpeed"] = 3, ---@type Enum
-    ["Stamina"] = 4, ---@type Enum
-    ["Handling"] = 5, ---@type Enum
-    ["ReturnTime"] = 6, ---@type Enum
-    ["Invalid"] = -1, ---@type Enum
-}
+---@class WeaponBarTypeGroup: Enum
+---@field ["AttackSpeed"] WeaponBarTypeGroup 0
+---@field ["DamagePerHit"] WeaponBarTypeGroup 1
+---@field ["Range"] WeaponBarTypeGroup 2
+---@field ["ReloadSpeed"] WeaponBarTypeGroup 3
+---@field ["Stamina"] WeaponBarTypeGroup 4
+---@field ["Handling"] WeaponBarTypeGroup 5
+---@field ["ReturnTime"] WeaponBarTypeGroup 6
+---@field ["Invalid"] WeaponBarTypeGroup -1
+WeaponBarTypeGroup = {}

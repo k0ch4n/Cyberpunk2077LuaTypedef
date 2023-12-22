@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum locHolocallActorMode
-locHolocallActorMode = {
-    ["Default"] = 0, ---@type Enum
-    ["ActorUsesHolocall"] = 1, ---@type Enum
-    ["ActorDoesntUseHolocall"] = 2, ---@type Enum
-}
+---@class locHolocallActorMode: Enum
+---@field ["Default"] locHolocallActorMode 0
+---@field ["ActorUsesHolocall"] locHolocallActorMode 1
+---@field ["ActorDoesntUseHolocall"] locHolocallActorMode 2
+locHolocallActorMode = {}

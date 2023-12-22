@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EFilterType
-EFilterType = {
-    ["ALLOW_NONE"] = 0, ---@type Enum
-    ["ALLOW_COMBAT_ONLY"] = 1, ---@type Enum
-    ["ALLOW_ALL"] = 2, ---@type Enum
-}
+---@class EFilterType: Enum
+---@field ["ALLOW_NONE"] EFilterType 0
+---@field ["ALLOW_COMBAT_ONLY"] EFilterType 1
+---@field ["ALLOW_ALL"] EFilterType 2
+EFilterType = {}

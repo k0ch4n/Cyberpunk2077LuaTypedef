@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxyGroupingNormals
-worldProxyGroupingNormals = {
-    ["Around_Core_Axis"] = 0, ---@type Enum
-    ["Around_All_Axes"] = 1, ---@type Enum
-}
+---@class worldProxyGroupingNormals: Enum
+---@field ["Around_Core_Axis"] worldProxyGroupingNormals 0
+---@field ["Around_All_Axes"] worldProxyGroupingNormals 1
+worldProxyGroupingNormals = {}

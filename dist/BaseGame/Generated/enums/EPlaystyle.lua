@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPlaystyle
-EPlaystyle = {
-    ["NETRUNNER"] = 0, ---@type Enum
-    ["SOLO"] = 1, ---@type Enum
-    ["TECHIE"] = 2, ---@type Enum
-}
+---@class EPlaystyle: Enum
+---@field ["NETRUNNER"] EPlaystyle 0
+---@field ["SOLO"] EPlaystyle 1
+---@field ["TECHIE"] EPlaystyle 2
+EPlaystyle = {}

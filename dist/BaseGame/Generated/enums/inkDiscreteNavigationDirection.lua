@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkDiscreteNavigationDirection
-inkDiscreteNavigationDirection = {
-    ["Up"] = 0, ---@type Enum
-    ["Right"] = 1, ---@type Enum
-    ["Down"] = 2, ---@type Enum
-    ["Left"] = 3, ---@type Enum
-}
+---@class inkDiscreteNavigationDirection: Enum
+---@field ["Up"] inkDiscreteNavigationDirection 0
+---@field ["Right"] inkDiscreteNavigationDirection 1
+---@field ["Down"] inkDiscreteNavigationDirection 2
+---@field ["Left"] inkDiscreteNavigationDirection 3
+inkDiscreteNavigationDirection = {}

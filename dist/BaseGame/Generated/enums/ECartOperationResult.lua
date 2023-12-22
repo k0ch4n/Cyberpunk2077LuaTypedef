@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECartOperationResult
-ECartOperationResult = {
-    ["Success"] = 0, ---@type Enum
-    ["NoItems"] = 1, ---@type Enum
-    ["AllItems"] = 2, ---@type Enum
-    ["WontSell"] = 3, ---@type Enum
-    ["WontBuy"] = 4, ---@type Enum
-    ["QuestItem"] = 5, ---@type Enum
-    ["NotInCart"] = 6, ---@type Enum
-}
+---@class ECartOperationResult: Enum
+---@field ["Success"] ECartOperationResult 0
+---@field ["NoItems"] ECartOperationResult 1
+---@field ["AllItems"] ECartOperationResult 2
+---@field ["WontSell"] ECartOperationResult 3
+---@field ["WontBuy"] ECartOperationResult 4
+---@field ["QuestItem"] ECartOperationResult 5
+---@field ["NotInCart"] ECartOperationResult 6
+ECartOperationResult = {}

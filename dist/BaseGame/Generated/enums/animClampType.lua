@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animClampType
-animClampType = {
-    ["None"] = 0, ---@type Enum
-    ["Clamp"] = 1, ---@type Enum
-    ["WrappedClamp"] = 2, ---@type Enum
-}
+---@class animClampType: Enum
+---@field ["None"] animClampType 0
+---@field ["Clamp"] animClampType 1
+---@field ["WrappedClamp"] animClampType 2
+animClampType = {}

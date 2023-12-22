@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textTextFlowDirection
-textTextFlowDirection = {
-    ["Auto"] = 0, ---@type Enum
-    ["LeftToRight"] = 1, ---@type Enum
-    ["RightToLeft"] = 2, ---@type Enum
-}
+---@class textTextFlowDirection: Enum
+---@field ["Auto"] textTextFlowDirection 0
+---@field ["LeftToRight"] textTextFlowDirection 1
+---@field ["RightToLeft"] textTextFlowDirection 2
+textTextFlowDirection = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsSimulationType
-physicsSimulationType = {
-    ["Static"] = 0, ---@type Enum
-    ["Dynamic"] = 1, ---@type Enum
-    ["Kinematic"] = 2, ---@type Enum
-    ["Invalid"] = 3, ---@type Enum
-}
+---@class physicsSimulationType: Enum
+---@field ["Static"] physicsSimulationType 0
+---@field ["Dynamic"] physicsSimulationType 1
+---@field ["Kinematic"] physicsSimulationType 2
+---@field ["Invalid"] physicsSimulationType 3
+physicsSimulationType = {}

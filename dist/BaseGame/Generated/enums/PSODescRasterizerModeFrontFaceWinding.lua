@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PSODescRasterizerModeFrontFaceWinding
-PSODescRasterizerModeFrontFaceWinding = {
-    ["FRONTFACE_CCW"] = 0, ---@type Enum
-    ["FRONTFACE_CW"] = 1, ---@type Enum
-}
+---@class PSODescRasterizerModeFrontFaceWinding: Enum
+---@field ["FRONTFACE_CCW"] PSODescRasterizerModeFrontFaceWinding 0
+---@field ["FRONTFACE_CW"] PSODescRasterizerModeFrontFaceWinding 1
+PSODescRasterizerModeFrontFaceWinding = {}

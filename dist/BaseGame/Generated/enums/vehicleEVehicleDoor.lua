@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleEVehicleDoor
-vehicleEVehicleDoor = {
-    ["seat_front_left"] = 0, ---@type Enum
-    ["seat_front_right"] = 1, ---@type Enum
-    ["seat_back_left"] = 2, ---@type Enum
-    ["seat_back_right"] = 3, ---@type Enum
-    ["trunk"] = 4, ---@type Enum
-    ["hood"] = 5, ---@type Enum
-    ["count"] = 6, ---@type Enum
-    ["invalid"] = 7, ---@type Enum
-}
+---@class vehicleEVehicleDoor: Enum
+---@field ["seat_front_left"] vehicleEVehicleDoor 0
+---@field ["seat_front_right"] vehicleEVehicleDoor 1
+---@field ["seat_back_left"] vehicleEVehicleDoor 2
+---@field ["seat_back_right"] vehicleEVehicleDoor 3
+---@field ["trunk"] vehicleEVehicleDoor 4
+---@field ["hood"] vehicleEVehicleDoor 5
+---@field ["count"] vehicleEVehicleDoor 6
+---@field ["invalid"] vehicleEVehicleDoor 7
+vehicleEVehicleDoor = {}

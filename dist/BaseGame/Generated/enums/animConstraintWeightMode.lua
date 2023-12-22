@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animConstraintWeightMode
-animConstraintWeightMode = {
-    ["Static"] = 0, ---@type Enum
-    ["FloatTrack"] = 1, ---@type Enum
-}
+---@class animConstraintWeightMode: Enum
+---@field ["Static"] animConstraintWeightMode 0
+---@field ["FloatTrack"] animConstraintWeightMode 1
+animConstraintWeightMode = {}

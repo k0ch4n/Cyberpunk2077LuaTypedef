@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAISmartCompositeType
-gamedataAISmartCompositeType = {
-    ["Selector"] = 0, ---@type Enum
-    ["SelectorWithMemory"] = 1, ---@type Enum
-    ["SelectorWithSmartMemory"] = 2, ---@type Enum
-    ["Sequence"] = 3, ---@type Enum
-    ["SequenceWithMemory"] = 4, ---@type Enum
-    ["SequenceWithSmartMemory"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataAISmartCompositeType: Enum
+---@field ["Selector"] gamedataAISmartCompositeType 0
+---@field ["SelectorWithMemory"] gamedataAISmartCompositeType 1
+---@field ["SelectorWithSmartMemory"] gamedataAISmartCompositeType 2
+---@field ["Sequence"] gamedataAISmartCompositeType 3
+---@field ["SequenceWithMemory"] gamedataAISmartCompositeType 4
+---@field ["SequenceWithSmartMemory"] gamedataAISmartCompositeType 5
+---@field ["Count"] gamedataAISmartCompositeType 6
+---@field ["Invalid"] gamedataAISmartCompositeType 7
+gamedataAISmartCompositeType = {}

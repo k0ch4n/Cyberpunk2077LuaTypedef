@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PackageStatus
-PackageStatus = {
-    ["UNINITIALIZED"] = 0, ---@type Enum
-    ["ON_HOLD"] = 1, ---@type Enum
-    ["FOR_IMMEDIATE_TRIGGER"] = 2, ---@type Enum
-    ["TRIGGERED"] = 3, ---@type Enum
-}
+---@class PackageStatus: Enum
+---@field ["UNINITIALIZED"] PackageStatus 0
+---@field ["ON_HOLD"] PackageStatus 1
+---@field ["FOR_IMMEDIATE_TRIGGER"] PackageStatus 2
+---@field ["TRIGGERED"] PackageStatus 3
+PackageStatus = {}

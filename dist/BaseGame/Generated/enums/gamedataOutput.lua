@@ -1,32 +1,31 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataOutput
-gamedataOutput = {
-    ["AskToFollowOrder"] = 0, ---@type Enum
-    ["AskToHolster"] = 1, ---@type Enum
-    ["BackOff"] = 2, ---@type Enum
-    ["BodyInvestigate"] = 3, ---@type Enum
-    ["Bump"] = 4, ---@type Enum
-    ["CallGuard"] = 5, ---@type Enum
-    ["CallPolice"] = 6, ---@type Enum
-    ["DeviceInvestigate"] = 7, ---@type Enum
-    ["Dodge"] = 8, ---@type Enum
-    ["DodgeToSide"] = 9, ---@type Enum
-    ["FearInPlace"] = 10, ---@type Enum
-    ["Flee"] = 11, ---@type Enum
-    ["Ignore"] = 12, ---@type Enum
-    ["Intruder"] = 13, ---@type Enum
-    ["Investigate"] = 14, ---@type Enum
-    ["LookAt"] = 15, ---@type Enum
-    ["Panic"] = 16, ---@type Enum
-    ["PlayerCall"] = 17, ---@type Enum
-    ["ProjectileInvestigate"] = 18, ---@type Enum
-    ["Reprimand"] = 19, ---@type Enum
-    ["SquadCall"] = 20, ---@type Enum
-    ["Surrender"] = 21, ---@type Enum
-    ["TurnAt"] = 22, ---@type Enum
-    ["WalkAway"] = 23, ---@type Enum
-    ["Count"] = 24, ---@type Enum
-    ["Invalid"] = 25, ---@type Enum
-}
+---@class gamedataOutput: Enum
+---@field ["AskToFollowOrder"] gamedataOutput 0
+---@field ["AskToHolster"] gamedataOutput 1
+---@field ["BackOff"] gamedataOutput 2
+---@field ["BodyInvestigate"] gamedataOutput 3
+---@field ["Bump"] gamedataOutput 4
+---@field ["CallGuard"] gamedataOutput 5
+---@field ["CallPolice"] gamedataOutput 6
+---@field ["DeviceInvestigate"] gamedataOutput 7
+---@field ["Dodge"] gamedataOutput 8
+---@field ["DodgeToSide"] gamedataOutput 9
+---@field ["FearInPlace"] gamedataOutput 10
+---@field ["Flee"] gamedataOutput 11
+---@field ["Ignore"] gamedataOutput 12
+---@field ["Intruder"] gamedataOutput 13
+---@field ["Investigate"] gamedataOutput 14
+---@field ["LookAt"] gamedataOutput 15
+---@field ["Panic"] gamedataOutput 16
+---@field ["PlayerCall"] gamedataOutput 17
+---@field ["ProjectileInvestigate"] gamedataOutput 18
+---@field ["Reprimand"] gamedataOutput 19
+---@field ["SquadCall"] gamedataOutput 20
+---@field ["Surrender"] gamedataOutput 21
+---@field ["TurnAt"] gamedataOutput 22
+---@field ["WalkAway"] gamedataOutput 23
+---@field ["Count"] gamedataOutput 24
+---@field ["Invalid"] gamedataOutput 25
+gamedataOutput = {}

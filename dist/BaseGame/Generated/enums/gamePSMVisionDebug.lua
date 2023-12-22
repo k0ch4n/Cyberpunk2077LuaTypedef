@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMVisionDebug
-gamePSMVisionDebug = {
-    ["Default"] = 0, ---@type Enum
-    ["VisionToggle"] = 1, ---@type Enum
-}
+---@class gamePSMVisionDebug: Enum
+---@field ["Default"] gamePSMVisionDebug 0
+---@field ["VisionToggle"] gamePSMVisionDebug 1
+gamePSMVisionDebug = {}

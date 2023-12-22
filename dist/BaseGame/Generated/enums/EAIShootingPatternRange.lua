@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIShootingPatternRange
-EAIShootingPatternRange = {
-    ["Close"] = 0, ---@type Enum
-    ["Medium"] = 1, ---@type Enum
-    ["Long"] = 2, ---@type Enum
-    ["Undefined"] = 3, ---@type Enum
-}
+---@class EAIShootingPatternRange: Enum
+---@field ["Close"] EAIShootingPatternRange 0
+---@field ["Medium"] EAIShootingPatternRange 1
+---@field ["Long"] EAIShootingPatternRange 2
+---@field ["Undefined"] EAIShootingPatternRange 3
+EAIShootingPatternRange = {}

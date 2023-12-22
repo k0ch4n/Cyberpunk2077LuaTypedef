@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEStatFlags
-gameEStatFlags = {
-    ["Bool"] = 1, ---@type Enum
-    ["EquipOnPlayer"] = 2, ---@type Enum
-    ["EquipOnNPC"] = 4, ---@type Enum
-    ["ExcludeRootCombination"] = 8, ---@type Enum
-}
+---@class gameEStatFlags: Enum
+---@field ["Bool"] gameEStatFlags 1
+---@field ["EquipOnPlayer"] gameEStatFlags 2
+---@field ["EquipOnNPC"] gameEStatFlags 4
+---@field ["ExcludeRootCombination"] gameEStatFlags 8
+gameEStatFlags = {}

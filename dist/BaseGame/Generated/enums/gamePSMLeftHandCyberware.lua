@@ -1,19 +1,18 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePSMLeftHandCyberware
-gamePSMLeftHandCyberware = {
-    ["Default"] = 0, ---@type Enum
-    ["Safe"] = 1, ---@type Enum
-    ["EquipRequest"] = 2, ---@type Enum
-    ["Idle"] = 3, ---@type Enum
-    ["Equipped"] = 4, ---@type Enum
-    ["Charge"] = 5, ---@type Enum
-    ["Loop"] = 6, ---@type Enum
-    ["Catch"] = 7, ---@type Enum
-    ["QuickAction"] = 8, ---@type Enum
-    ["ChargeAction"] = 9, ---@type Enum
-    ["CatchAction"] = 10, ---@type Enum
-    ["StartUnequip"] = 11, ---@type Enum
-    ["Unequip"] = 12, ---@type Enum
-}
+---@class gamePSMLeftHandCyberware: Enum
+---@field ["Default"] gamePSMLeftHandCyberware 0
+---@field ["Safe"] gamePSMLeftHandCyberware 1
+---@field ["EquipRequest"] gamePSMLeftHandCyberware 2
+---@field ["Idle"] gamePSMLeftHandCyberware 3
+---@field ["Equipped"] gamePSMLeftHandCyberware 4
+---@field ["Charge"] gamePSMLeftHandCyberware 5
+---@field ["Loop"] gamePSMLeftHandCyberware 6
+---@field ["Catch"] gamePSMLeftHandCyberware 7
+---@field ["QuickAction"] gamePSMLeftHandCyberware 8
+---@field ["ChargeAction"] gamePSMLeftHandCyberware 9
+---@field ["CatchAction"] gamePSMLeftHandCyberware 10
+---@field ["StartUnequip"] gamePSMLeftHandCyberware 11
+---@field ["Unequip"] gamePSMLeftHandCyberware 12
+gamePSMLeftHandCyberware = {}

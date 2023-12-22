@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ELightState
-ELightState = {
-    ["Reset"] = 0, ---@type Enum
-    ["DefaultColor"] = 1, ---@type Enum
-    ["Police"] = 2, ---@type Enum
-    ["VehicleHealth_Low"] = 3, ---@type Enum
-    ["VehicleHealth_VeryLow"] = 4, ---@type Enum
-    ["Quest"] = 5, ---@type Enum
-}
+---@class ELightState: Enum
+---@field ["Reset"] ELightState 0
+---@field ["DefaultColor"] ELightState 1
+---@field ["Police"] ELightState 2
+---@field ["VehicleHealth_Low"] ELightState 3
+---@field ["VehicleHealth_VeryLow"] ELightState 4
+---@field ["Quest"] ELightState 5
+ELightState = {}

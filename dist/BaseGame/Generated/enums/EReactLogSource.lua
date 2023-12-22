@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EReactLogSource
-EReactLogSource = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Detected"] = 1, ---@type Enum
-    ["StimEvent"] = 2, ---@type Enum
-    ["BehaviorCombatCheck"] = 3, ---@type Enum
-    ["BehaviorCombatTrigger"] = 4, ---@type Enum
-}
+---@class EReactLogSource: Enum
+---@field ["Undefined"] EReactLogSource 0
+---@field ["Detected"] EReactLogSource 1
+---@field ["StimEvent"] EReactLogSource 2
+---@field ["BehaviorCombatCheck"] EReactLogSource 3
+---@field ["BehaviorCombatTrigger"] EReactLogSource 4
+EReactLogSource = {}

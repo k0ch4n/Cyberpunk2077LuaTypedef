@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameDynamicVehicleType
-gameDynamicVehicleType = {
-    ["None"] = 0, ---@type Enum
-    ["Car"] = 1, ---@type Enum
-    ["AV"] = 2, ---@type Enum
-    ["RoadBlockade"] = 3, ---@type Enum
-    ["RoadBlockadeWithAV"] = 4, ---@type Enum
-}
+---@class gameDynamicVehicleType: Enum
+---@field ["None"] gameDynamicVehicleType 0
+---@field ["Car"] gameDynamicVehicleType 1
+---@field ["AV"] gameDynamicVehicleType 2
+---@field ["RoadBlockade"] gameDynamicVehicleType 3
+---@field ["RoadBlockadeWithAV"] gameDynamicVehicleType 4
+gameDynamicVehicleType = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questPhoneCallPhase
-questPhoneCallPhase = {
-    ["Undefined"] = 0, ---@type Enum
-    ["IncomingCall"] = 1, ---@type Enum
-    ["StartCall"] = 2, ---@type Enum
-    ["EndCall"] = 3, ---@type Enum
-}
+---@class questPhoneCallPhase: Enum
+---@field ["Undefined"] questPhoneCallPhase 0
+---@field ["IncomingCall"] questPhoneCallPhase 1
+---@field ["StartCall"] questPhoneCallPhase 2
+---@field ["EndCall"] questPhoneCallPhase 3
+questPhoneCallPhase = {}

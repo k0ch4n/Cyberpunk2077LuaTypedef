@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsEGroupType
-gameinteractionsEGroupType = {
-    ["EGT_default"] = 0, ---@type Enum
-    ["EGT_noInput"] = 1, ---@type Enum
-    ["EGT_hint"] = 2, ---@type Enum
-}
+---@class gameinteractionsEGroupType: Enum
+---@field ["EGT_default"] gameinteractionsEGroupType 0
+---@field ["EGT_noInput"] gameinteractionsEGroupType 1
+---@field ["EGT_hint"] gameinteractionsEGroupType 2
+gameinteractionsEGroupType = {}

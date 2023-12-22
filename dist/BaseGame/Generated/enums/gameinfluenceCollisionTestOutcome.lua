@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinfluenceCollisionTestOutcome
-gameinfluenceCollisionTestOutcome = {
-    ["NoCell"] = 0, ---@type Enum
-    ["Empty"] = 1, ---@type Enum
-    ["Full"] = 2, ---@type Enum
-}
+---@class gameinfluenceCollisionTestOutcome: Enum
+---@field ["NoCell"] gameinfluenceCollisionTestOutcome 0
+---@field ["Empty"] gameinfluenceCollisionTestOutcome 1
+---@field ["Full"] gameinfluenceCollisionTestOutcome 2
+gameinfluenceCollisionTestOutcome = {}

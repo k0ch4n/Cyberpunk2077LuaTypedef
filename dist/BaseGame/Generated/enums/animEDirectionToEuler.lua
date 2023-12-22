@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animEDirectionToEuler
-animEDirectionToEuler = {
-    ["Pitch"] = 0, ---@type Enum
-    ["Yaw"] = 1, ---@type Enum
-    ["Roll"] = 2, ---@type Enum
-}
+---@class animEDirectionToEuler: Enum
+---@field ["Pitch"] animEDirectionToEuler 0
+---@field ["Yaw"] animEDirectionToEuler 1
+---@field ["Roll"] animEDirectionToEuler 2
+animEDirectionToEuler = {}

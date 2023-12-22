@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inputContextType
-inputContextType = {
-    ["Action"] = 0, ---@type Enum
-    ["RPG"] = 1, ---@type Enum
-}
+---@class inputContextType: Enum
+---@field ["Action"] inputContextType 0
+---@field ["RPG"] inputContextType 1
+inputContextType = {}

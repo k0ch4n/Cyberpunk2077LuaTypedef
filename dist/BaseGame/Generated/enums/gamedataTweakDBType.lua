@@ -1,20 +1,19 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataTweakDBType
-gamedataTweakDBType = {
-    ["Invalid"] = 0, ---@type Enum
-    ["ForeignKey"] = 1, ---@type Enum
-    ["Int"] = 2, ---@type Enum
-    ["Float"] = 3, ---@type Enum
-    ["Bool"] = 4, ---@type Enum
-    ["String"] = 5, ---@type Enum
-    ["CName"] = 6, ---@type Enum
-    ["ResRef"] = 7, ---@type Enum
-    ["LocKey"] = 8, ---@type Enum
-    ["Color"] = 9, ---@type Enum
-    ["Vector2"] = 10, ---@type Enum
-    ["Vector3"] = 11, ---@type Enum
-    ["EulerAngles"] = 12, ---@type Enum
-    ["Quaternion"] = 13, ---@type Enum
-}
+---@class gamedataTweakDBType: Enum
+---@field ["Invalid"] gamedataTweakDBType 0
+---@field ["ForeignKey"] gamedataTweakDBType 1
+---@field ["Int"] gamedataTweakDBType 2
+---@field ["Float"] gamedataTweakDBType 3
+---@field ["Bool"] gamedataTweakDBType 4
+---@field ["String"] gamedataTweakDBType 5
+---@field ["CName"] gamedataTweakDBType 6
+---@field ["ResRef"] gamedataTweakDBType 7
+---@field ["LocKey"] gamedataTweakDBType 8
+---@field ["Color"] gamedataTweakDBType 9
+---@field ["Vector2"] gamedataTweakDBType 10
+---@field ["Vector3"] gamedataTweakDBType 11
+---@field ["EulerAngles"] gamedataTweakDBType 12
+---@field ["Quaternion"] gamedataTweakDBType 13
+gamedataTweakDBType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldObjectTagExt
-worldObjectTagExt = {
-    ["None"] = 1701736270, ---@type Enum
-    ["Default"] = 1634100548, ---@type Enum
-    ["NonClimbable"] = 1651262286, ---@type Enum
-}
+---@class worldObjectTagExt: Enum
+---@field ["None"] worldObjectTagExt 1701736270
+---@field ["Default"] worldObjectTagExt 1634100548
+---@field ["NonClimbable"] worldObjectTagExt 1651262286
+worldObjectTagExt = {}

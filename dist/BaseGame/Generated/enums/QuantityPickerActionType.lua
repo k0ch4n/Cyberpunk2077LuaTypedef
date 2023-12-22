@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum QuantityPickerActionType
-QuantityPickerActionType = {
-    ["Buy"] = 0, ---@type Enum
-    ["Sell"] = 1, ---@type Enum
-    ["TransferToStorage"] = 2, ---@type Enum
-    ["TransferToPlayer"] = 3, ---@type Enum
-    ["Drop"] = 4, ---@type Enum
-    ["Disassembly"] = 5, ---@type Enum
-    ["Craft"] = 6, ---@type Enum
-}
+---@class QuantityPickerActionType: Enum
+---@field ["Buy"] QuantityPickerActionType 0
+---@field ["Sell"] QuantityPickerActionType 1
+---@field ["TransferToStorage"] QuantityPickerActionType 2
+---@field ["TransferToPlayer"] QuantityPickerActionType 3
+---@field ["Drop"] QuantityPickerActionType 4
+---@field ["Disassembly"] QuantityPickerActionType 5
+---@field ["Craft"] QuantityPickerActionType 6
+QuantityPickerActionType = {}

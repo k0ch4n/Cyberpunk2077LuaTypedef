@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIThreatPersistenceStatus
-AIThreatPersistenceStatus = {
-    ["ThreatNotFound"] = 0, ---@type Enum
-    ["Persistent"] = 1, ---@type Enum
-    ["NotPersistent"] = 2, ---@type Enum
-}
+---@class AIThreatPersistenceStatus: Enum
+---@field ["ThreatNotFound"] AIThreatPersistenceStatus 0
+---@field ["Persistent"] AIThreatPersistenceStatus 1
+---@field ["NotPersistent"] AIThreatPersistenceStatus 2
+AIThreatPersistenceStatus = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkanimInterpolationDirection
-inkanimInterpolationDirection = {
-    ["To"] = 0, ---@type Enum
-    ["From"] = 1, ---@type Enum
-    ["FromTo"] = 2, ---@type Enum
-}
+---@class inkanimInterpolationDirection: Enum
+---@field ["To"] inkanimInterpolationDirection 0
+---@field ["From"] inkanimInterpolationDirection 1
+---@field ["FromTo"] inkanimInterpolationDirection 2
+inkanimInterpolationDirection = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameJournalNotifyOption
-gameJournalNotifyOption = {
-    ["Undefined"] = 0, ---@type Enum
-    ["DoNotNotify"] = 1, ---@type Enum
-    ["Notify"] = 2, ---@type Enum
-}
+---@class gameJournalNotifyOption: Enum
+---@field ["Undefined"] gameJournalNotifyOption 0
+---@field ["DoNotNotify"] gameJournalNotifyOption 1
+---@field ["Notify"] gameJournalNotifyOption 2
+gameJournalNotifyOption = {}

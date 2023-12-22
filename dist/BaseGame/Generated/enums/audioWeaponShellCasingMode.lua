@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioWeaponShellCasingMode
-audioWeaponShellCasingMode = {
-    ["none"] = 0, ---@type Enum
-    ["onShoot"] = 1, ---@type Enum
-    ["onReload"] = 2, ---@type Enum
-}
+---@class audioWeaponShellCasingMode: Enum
+---@field ["none"] audioWeaponShellCasingMode 0
+---@field ["onShoot"] audioWeaponShellCasingMode 1
+---@field ["onReload"] audioWeaponShellCasingMode 2
+audioWeaponShellCasingMode = {}

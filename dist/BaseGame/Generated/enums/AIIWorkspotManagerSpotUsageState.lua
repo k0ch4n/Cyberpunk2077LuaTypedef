@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIIWorkspotManagerSpotUsageState
-AIIWorkspotManagerSpotUsageState = {
-    ["Reserved"] = 0, ---@type Enum
-    ["Occupied"] = 1, ---@type Enum
-    ["None"] = 2, ---@type Enum
-}
+---@class AIIWorkspotManagerSpotUsageState: Enum
+---@field ["Reserved"] AIIWorkspotManagerSpotUsageState 0
+---@field ["Occupied"] AIIWorkspotManagerSpotUsageState 1
+---@field ["None"] AIIWorkspotManagerSpotUsageState 2
+AIIWorkspotManagerSpotUsageState = {}

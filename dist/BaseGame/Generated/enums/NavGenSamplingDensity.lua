@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum NavGenSamplingDensity
-NavGenSamplingDensity = {
-    ["None"] = 0, ---@type Enum
-    ["Sparse"] = 1, ---@type Enum
-    ["Dense"] = 2, ---@type Enum
-    ["Very dense"] = 3, ---@type Enum
-}
+---@class NavGenSamplingDensity: Enum
+---@field ["None"] NavGenSamplingDensity 0
+---@field ["Sparse"] NavGenSamplingDensity 1
+---@field ["Dense"] NavGenSamplingDensity 2
+---@field ["Very dense"] NavGenSamplingDensity 3
+NavGenSamplingDensity = {}

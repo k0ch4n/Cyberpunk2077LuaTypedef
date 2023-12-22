@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataItemCategory
-gamedataItemCategory = {
-    ["Clothing"] = 0, ---@type Enum
-    ["Consumable"] = 1, ---@type Enum
-    ["Cyberware"] = 2, ---@type Enum
-    ["Gadget"] = 3, ---@type Enum
-    ["General"] = 4, ---@type Enum
-    ["Part"] = 5, ---@type Enum
-    ["Weapon"] = 6, ---@type Enum
-    ["WeaponMod"] = 7, ---@type Enum
-    ["Count"] = 8, ---@type Enum
-    ["Invalid"] = 9, ---@type Enum
-}
+---@class gamedataItemCategory: Enum
+---@field ["Clothing"] gamedataItemCategory 0
+---@field ["Consumable"] gamedataItemCategory 1
+---@field ["Cyberware"] gamedataItemCategory 2
+---@field ["Gadget"] gamedataItemCategory 3
+---@field ["General"] gamedataItemCategory 4
+---@field ["Part"] gamedataItemCategory 5
+---@field ["Weapon"] gamedataItemCategory 6
+---@field ["WeaponMod"] gamedataItemCategory 7
+---@field ["Count"] gamedataItemCategory 8
+---@field ["Invalid"] gamedataItemCategory 9
+gamedataItemCategory = {}

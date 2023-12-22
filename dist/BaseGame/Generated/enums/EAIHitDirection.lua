@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIHitDirection
-EAIHitDirection = {
-    ["None"] = -1, ---@type Enum
-    ["Left"] = 0, ---@type Enum
-    ["Back"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-    ["Front"] = 3, ---@type Enum
-}
+---@class EAIHitDirection: Enum
+---@field ["None"] EAIHitDirection -1
+---@field ["Left"] EAIHitDirection 0
+---@field ["Back"] EAIHitDirection 1
+---@field ["Right"] EAIHitDirection 2
+---@field ["Front"] EAIHitDirection 3
+EAIHitDirection = {}

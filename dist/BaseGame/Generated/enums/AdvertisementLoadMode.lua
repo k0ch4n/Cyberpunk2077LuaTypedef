@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AdvertisementLoadMode
-AdvertisementLoadMode = {
-    ["TweakDB"] = 0, ---@type Enum
-    ["Override"] = 1, ---@type Enum
-}
+---@class AdvertisementLoadMode: Enum
+---@field ["TweakDB"] AdvertisementLoadMode 0
+---@field ["Override"] AdvertisementLoadMode 1
+AdvertisementLoadMode = {}

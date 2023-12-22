@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EquipmentManipulationRequestSlot
-EquipmentManipulationRequestSlot = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Right"] = 1, ---@type Enum
-    ["Left"] = 2, ---@type Enum
-    ["Both"] = 3, ---@type Enum
-}
+---@class EquipmentManipulationRequestSlot: Enum
+---@field ["Undefined"] EquipmentManipulationRequestSlot 0
+---@field ["Right"] EquipmentManipulationRequestSlot 1
+---@field ["Left"] EquipmentManipulationRequestSlot 2
+---@field ["Both"] EquipmentManipulationRequestSlot 3
+EquipmentManipulationRequestSlot = {}

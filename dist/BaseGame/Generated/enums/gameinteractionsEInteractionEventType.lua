@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinteractionsEInteractionEventType
-gameinteractionsEInteractionEventType = {
-    ["EIET_activate"] = 0, ---@type Enum
-    ["EIET_deactivate"] = 1, ---@type Enum
-}
+---@class gameinteractionsEInteractionEventType: Enum
+---@field ["EIET_activate"] gameinteractionsEInteractionEventType 0
+---@field ["EIET_deactivate"] gameinteractionsEInteractionEventType 1
+gameinteractionsEInteractionEventType = {}

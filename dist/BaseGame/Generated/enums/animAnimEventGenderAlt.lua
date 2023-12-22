@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animAnimEventGenderAlt
-animAnimEventGenderAlt = {
-    ["None"] = 0, ---@type Enum
-    ["Female"] = 1, ---@type Enum
-    ["Male"] = 2, ---@type Enum
-}
+---@class animAnimEventGenderAlt: Enum
+---@field ["None"] animAnimEventGenderAlt 0
+---@field ["Female"] animAnimEventGenderAlt 1
+---@field ["Male"] animAnimEventGenderAlt 2
+animAnimEventGenderAlt = {}

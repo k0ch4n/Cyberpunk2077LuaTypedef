@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendPostFx_ScanningState
-rendPostFx_ScanningState = {
-    ["Off"] = 0, ---@type Enum
-    ["Scanning"] = 2, ---@type Enum
-    ["Cancelled"] = 3, ---@type Enum
-    ["Complete"] = 4, ---@type Enum
-}
+---@class rendPostFx_ScanningState: Enum
+---@field ["Off"] rendPostFx_ScanningState 0
+---@field ["Scanning"] rendPostFx_ScanningState 2
+---@field ["Cancelled"] rendPostFx_ScanningState 3
+---@field ["Complete"] rendPostFx_ScanningState 4
+rendPostFx_ScanningState = {}

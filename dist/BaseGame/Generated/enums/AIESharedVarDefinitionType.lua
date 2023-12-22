@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIESharedVarDefinitionType
-AIESharedVarDefinitionType = {
-    ["SVInt"] = 0, ---@type Enum
-    ["SVFloat"] = 1, ---@type Enum
-    ["SVBool"] = 2, ---@type Enum
-    ["SVName"] = 3, ---@type Enum
-    ["SVTarget"] = 4, ---@type Enum
-    ["SVPosition"] = 5, ---@type Enum
-    ["SVNodeInstance"] = 6, ---@type Enum
-    ["SVGlobalNodeRef"] = 7, ---@type Enum
-}
+---@class AIESharedVarDefinitionType: Enum
+---@field ["SVInt"] AIESharedVarDefinitionType 0
+---@field ["SVFloat"] AIESharedVarDefinitionType 1
+---@field ["SVBool"] AIESharedVarDefinitionType 2
+---@field ["SVName"] AIESharedVarDefinitionType 3
+---@field ["SVTarget"] AIESharedVarDefinitionType 4
+---@field ["SVPosition"] AIESharedVarDefinitionType 5
+---@field ["SVNodeInstance"] AIESharedVarDefinitionType 6
+---@field ["SVGlobalNodeRef"] AIESharedVarDefinitionType 7
+AIESharedVarDefinitionType = {}

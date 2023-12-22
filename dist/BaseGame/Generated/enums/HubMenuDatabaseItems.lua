@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum HubMenuDatabaseItems
-HubMenuDatabaseItems = {
-    ["Codex"] = 0, ---@type Enum
-    ["Tarot"] = 1, ---@type Enum
-    ["Shards"] = 2, ---@type Enum
-}
+---@class HubMenuDatabaseItems: Enum
+---@field ["Codex"] HubMenuDatabaseItems 0
+---@field ["Tarot"] HubMenuDatabaseItems 1
+---@field ["Shards"] HubMenuDatabaseItems 2
+HubMenuDatabaseItems = {}

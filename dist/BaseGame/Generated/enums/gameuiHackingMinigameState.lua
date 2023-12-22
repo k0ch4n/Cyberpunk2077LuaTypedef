@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiHackingMinigameState
-gameuiHackingMinigameState = {
-    ["Unknown"] = 0, ---@type Enum
-    ["InProgress"] = 1, ---@type Enum
-    ["Succeeded"] = 2, ---@type Enum
-    ["Failed"] = 3, ---@type Enum
-}
+---@class gameuiHackingMinigameState: Enum
+---@field ["Unknown"] gameuiHackingMinigameState 0
+---@field ["InProgress"] gameuiHackingMinigameState 1
+---@field ["Succeeded"] gameuiHackingMinigameState 2
+---@field ["Failed"] gameuiHackingMinigameState 3
+gameuiHackingMinigameState = {}

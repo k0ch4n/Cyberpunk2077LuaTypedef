@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPriority
-EPriority = {
-    ["VeryLow"] = 0, ---@type Enum
-    ["Low"] = 1, ---@type Enum
-    ["Medium"] = 2, ---@type Enum
-    ["High"] = 3, ---@type Enum
-    ["VeryHigh"] = 4, ---@type Enum
-    ["Absolute"] = 5, ---@type Enum
-}
+---@class EPriority: Enum
+---@field ["VeryLow"] EPriority 0
+---@field ["Low"] EPriority 1
+---@field ["Medium"] EPriority 2
+---@field ["High"] EPriority 3
+---@field ["VeryHigh"] EPriority 4
+---@field ["Absolute"] EPriority 5
+EPriority = {}

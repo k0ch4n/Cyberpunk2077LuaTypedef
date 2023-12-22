@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum FTNpcMountingState
-FTNpcMountingState = {
-    ["Mounted"] = 0, ---@type Enum
-    ["Unmounted"] = 1, ---@type Enum
-}
+---@class FTNpcMountingState: Enum
+---@field ["Mounted"] FTNpcMountingState 0
+---@field ["Unmounted"] FTNpcMountingState 1
+FTNpcMountingState = {}

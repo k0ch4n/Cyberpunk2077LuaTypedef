@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECookingPlatform
-ECookingPlatform = {
-    ["PLATFORM_None"] = 0, ---@type Enum
-    ["PLATFORM_PC"] = 1, ---@type Enum
-    ["PLATFORM_XboxOne"] = 2, ---@type Enum
-    ["PLATFORM_PS4"] = 3, ---@type Enum
-    ["PLATFORM_PS5"] = 4, ---@type Enum
-    ["PLATFORM_XSX"] = 5, ---@type Enum
-    ["PLATFORM_WindowsServer"] = 6, ---@type Enum
-    ["PLATFORM_LinuxServer"] = 7, ---@type Enum
-    ["PLATFORM_GGP"] = 8, ---@type Enum
-}
+---@class ECookingPlatform: Enum
+---@field ["PLATFORM_None"] ECookingPlatform 0
+---@field ["PLATFORM_PC"] ECookingPlatform 1
+---@field ["PLATFORM_XboxOne"] ECookingPlatform 2
+---@field ["PLATFORM_PS4"] ECookingPlatform 3
+---@field ["PLATFORM_PS5"] ECookingPlatform 4
+---@field ["PLATFORM_XSX"] ECookingPlatform 5
+---@field ["PLATFORM_WindowsServer"] ECookingPlatform 6
+---@field ["PLATFORM_LinuxServer"] ECookingPlatform 7
+---@field ["PLATFORM_GGP"] ECookingPlatform 8
+ECookingPlatform = {}

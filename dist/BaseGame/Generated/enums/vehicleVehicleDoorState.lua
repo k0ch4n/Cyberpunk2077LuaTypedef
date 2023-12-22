@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleVehicleDoorState
-vehicleVehicleDoorState = {
-    ["Closed"] = 0, ---@type Enum
-    ["Open"] = 1, ---@type Enum
-    ["Detached"] = 2, ---@type Enum
-}
+---@class vehicleVehicleDoorState: Enum
+---@field ["Closed"] vehicleVehicleDoorState 0
+---@field ["Open"] vehicleVehicleDoorState 1
+---@field ["Detached"] vehicleVehicleDoorState 2
+vehicleVehicleDoorState = {}

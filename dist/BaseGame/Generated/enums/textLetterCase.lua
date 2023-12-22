@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum textLetterCase
-textLetterCase = {
-    ["OriginalCase"] = 0, ---@type Enum
-    ["UpperCase"] = 1, ---@type Enum
-    ["LowerCase"] = 2, ---@type Enum
-}
+---@class textLetterCase: Enum
+---@field ["OriginalCase"] textLetterCase 0
+---@field ["UpperCase"] textLetterCase 1
+---@field ["LowerCase"] textLetterCase 2
+textLetterCase = {}

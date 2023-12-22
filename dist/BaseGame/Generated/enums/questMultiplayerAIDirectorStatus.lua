@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMultiplayerAIDirectorStatus
-questMultiplayerAIDirectorStatus = {
-    ["Enabled"] = 0, ---@type Enum
-    ["Disabled"] = 1, ---@type Enum
-}
+---@class questMultiplayerAIDirectorStatus: Enum
+---@field ["Enabled"] questMultiplayerAIDirectorStatus 0
+---@field ["Disabled"] questMultiplayerAIDirectorStatus 1
+questMultiplayerAIDirectorStatus = {}

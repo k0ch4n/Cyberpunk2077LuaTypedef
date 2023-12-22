@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnRootMotionAnimPlacementMode
-scnRootMotionAnimPlacementMode = {
-    ["Blend"] = 0, ---@type Enum
-    ["TeleportToStart"] = 1, ---@type Enum
-    ["PlayAtActorPosition"] = 2, ---@type Enum
-}
+---@class scnRootMotionAnimPlacementMode: Enum
+---@field ["Blend"] scnRootMotionAnimPlacementMode 0
+---@field ["TeleportToStart"] scnRootMotionAnimPlacementMode 1
+---@field ["PlayAtActorPosition"] scnRootMotionAnimPlacementMode 2
+scnRootMotionAnimPlacementMode = {}

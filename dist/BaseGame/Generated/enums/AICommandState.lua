@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AICommandState
-AICommandState = {
-    ["NotExecuting"] = 0, ---@type Enum
-    ["Enqueued"] = 1, ---@type Enum
-    ["Executing"] = 2, ---@type Enum
-    ["Cancelled"] = 3, ---@type Enum
-    ["Interrupted"] = 4, ---@type Enum
-    ["Success"] = 5, ---@type Enum
-    ["Failure"] = 6, ---@type Enum
-}
+---@class AICommandState: Enum
+---@field ["NotExecuting"] AICommandState 0
+---@field ["Enqueued"] AICommandState 1
+---@field ["Executing"] AICommandState 2
+---@field ["Cancelled"] AICommandState 3
+---@field ["Interrupted"] AICommandState 4
+---@field ["Success"] AICommandState 5
+---@field ["Failure"] AICommandState 6
+AICommandState = {}

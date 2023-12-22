@@ -1,16 +1,15 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataObjectActionType
-gamedataObjectActionType = {
-    ["DeviceQuickHack"] = 0, ---@type Enum
-    ["Direct"] = 1, ---@type Enum
-    ["Item"] = 2, ---@type Enum
-    ["MinigameUpload"] = 3, ---@type Enum
-    ["Payment"] = 4, ---@type Enum
-    ["PuppetQuickHack"] = 5, ---@type Enum
-    ["Remote"] = 6, ---@type Enum
-    ["VehicleQuickHack"] = 7, ---@type Enum
-    ["Count"] = 8, ---@type Enum
-    ["Invalid"] = 9, ---@type Enum
-}
+---@class gamedataObjectActionType: Enum
+---@field ["DeviceQuickHack"] gamedataObjectActionType 0
+---@field ["Direct"] gamedataObjectActionType 1
+---@field ["Item"] gamedataObjectActionType 2
+---@field ["MinigameUpload"] gamedataObjectActionType 3
+---@field ["Payment"] gamedataObjectActionType 4
+---@field ["PuppetQuickHack"] gamedataObjectActionType 5
+---@field ["Remote"] gamedataObjectActionType 6
+---@field ["VehicleQuickHack"] gamedataObjectActionType 7
+---@field ["Count"] gamedataObjectActionType 8
+---@field ["Invalid"] gamedataObjectActionType 9
+gamedataObjectActionType = {}

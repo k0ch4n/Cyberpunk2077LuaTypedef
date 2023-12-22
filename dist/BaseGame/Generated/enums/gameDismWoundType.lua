@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameDismWoundType
-gameDismWoundType = {
-    ["CLEAN"] = 1, ---@type Enum
-    ["COARSE"] = 2, ---@type Enum
-    ["HOLE"] = 64, ---@type Enum
-}
+---@class gameDismWoundType: Enum
+---@field ["CLEAN"] gameDismWoundType 1
+---@field ["COARSE"] gameDismWoundType 2
+---@field ["HOLE"] gameDismWoundType 64
+gameDismWoundType = {}

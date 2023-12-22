@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum AIbehaviorMovementPolicyTaskFunctions
-AIbehaviorMovementPolicyTaskFunctions = {
-    ["SetMovementType"] = 0, ---@type Enum
-    ["SetTargetObject"] = 1, ---@type Enum
-    ["UseFollowSlots"] = 2, ---@type Enum
-    ["SetLocalTargetOffset"] = 3, ---@type Enum
-    ["SetIgnoreNavigation"] = 4, ---@type Enum
-    ["SetStrafingTarget"] = 5, ---@type Enum
-}
+---@class AIbehaviorMovementPolicyTaskFunctions: Enum
+---@field ["SetMovementType"] AIbehaviorMovementPolicyTaskFunctions 0
+---@field ["SetTargetObject"] AIbehaviorMovementPolicyTaskFunctions 1
+---@field ["UseFollowSlots"] AIbehaviorMovementPolicyTaskFunctions 2
+---@field ["SetLocalTargetOffset"] AIbehaviorMovementPolicyTaskFunctions 3
+---@field ["SetIgnoreNavigation"] AIbehaviorMovementPolicyTaskFunctions 4
+---@field ["SetStrafingTarget"] AIbehaviorMovementPolicyTaskFunctions 5
+AIbehaviorMovementPolicyTaskFunctions = {}

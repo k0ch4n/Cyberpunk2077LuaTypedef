@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataPerkUtility
-gamedataPerkUtility = {
-    ["ActiveUtility"] = 0, ---@type Enum
-    ["PassiveUtility"] = 1, ---@type Enum
-    ["TriggeredUtility"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class gamedataPerkUtility: Enum
+---@field ["ActiveUtility"] gamedataPerkUtility 0
+---@field ["PassiveUtility"] gamedataPerkUtility 1
+---@field ["TriggeredUtility"] gamedataPerkUtility 2
+---@field ["Count"] gamedataPerkUtility 3
+---@field ["Invalid"] gamedataPerkUtility 4
+gamedataPerkUtility = {}

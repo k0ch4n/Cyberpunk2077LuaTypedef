@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioVoCpoCharacter
-audioVoCpoCharacter = {
-    ["None"] = 0, ---@type Enum
-    ["Solo"] = 1, ---@type Enum
-    ["Assassin"] = 2, ---@type Enum
-    ["Techie"] = 3, ---@type Enum
-    ["Netrunner"] = 4, ---@type Enum
-}
+---@class audioVoCpoCharacter: Enum
+---@field ["None"] audioVoCpoCharacter 0
+---@field ["Solo"] audioVoCpoCharacter 1
+---@field ["Assassin"] audioVoCpoCharacter 2
+---@field ["Techie"] audioVoCpoCharacter 3
+---@field ["Netrunner"] audioVoCpoCharacter 4
+audioVoCpoCharacter = {}

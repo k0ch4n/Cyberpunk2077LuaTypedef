@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum moveLineOfSightPointPreference
-moveLineOfSightPointPreference = {
-    ["None"] = 0, ---@type Enum
-    ["ClosestToOwner"] = 1, ---@type Enum
-    ["ClosestToTarget"] = 2, ---@type Enum
-    ["FurthestFromTarget"] = 3, ---@type Enum
-}
+---@class moveLineOfSightPointPreference: Enum
+---@field ["None"] moveLineOfSightPointPreference 0
+---@field ["ClosestToOwner"] moveLineOfSightPointPreference 1
+---@field ["ClosestToTarget"] moveLineOfSightPointPreference 2
+---@field ["FurthestFromTarget"] moveLineOfSightPointPreference 3
+moveLineOfSightPointPreference = {}

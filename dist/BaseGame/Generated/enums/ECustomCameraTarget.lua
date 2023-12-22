@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ECustomCameraTarget
-ECustomCameraTarget = {
-    ["ECCTV_All"] = 0, ---@type Enum
-    ["ECCTV_OnlyOffscreen"] = 1, ---@type Enum
-    ["ECCTV_OnlyOnscreen"] = 2, ---@type Enum
-}
+---@class ECustomCameraTarget: Enum
+---@field ["ECCTV_All"] ECustomCameraTarget 0
+---@field ["ECCTV_OnlyOffscreen"] ECustomCameraTarget 1
+---@field ["ECCTV_OnlyOnscreen"] ECustomCameraTarget 2
+ECustomCameraTarget = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameScanningState
-gameScanningState = {
-    ["Default"] = 0, ---@type Enum
-    ["Started"] = 1, ---@type Enum
-    ["Stopped"] = 2, ---@type Enum
-    ["Complete"] = 3, ---@type Enum
-    ["ShallowComplete"] = 4, ---@type Enum
-    ["Reset"] = 5, ---@type Enum
-}
+---@class gameScanningState: Enum
+---@field ["Default"] gameScanningState 0
+---@field ["Started"] gameScanningState 1
+---@field ["Stopped"] gameScanningState 2
+---@field ["Complete"] gameScanningState 3
+---@field ["ShallowComplete"] gameScanningState 4
+---@field ["Reset"] gameScanningState 5
+gameScanningState = {}

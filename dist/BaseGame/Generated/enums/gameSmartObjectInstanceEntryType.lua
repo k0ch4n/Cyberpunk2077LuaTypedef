@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameSmartObjectInstanceEntryType
-gameSmartObjectInstanceEntryType = {
-    ["UseEntryAnimation"] = 0, ---@type Enum
-    ["UseLocomotion"] = 1, ---@type Enum
-}
+---@class gameSmartObjectInstanceEntryType: Enum
+---@field ["UseEntryAnimation"] gameSmartObjectInstanceEntryType 0
+---@field ["UseLocomotion"] gameSmartObjectInstanceEntryType 1
+gameSmartObjectInstanceEntryType = {}

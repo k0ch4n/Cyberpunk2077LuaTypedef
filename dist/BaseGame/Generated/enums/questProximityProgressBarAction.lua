@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questProximityProgressBarAction
-questProximityProgressBarAction = {
-    ["Activated"] = 0, ---@type Enum
-    ["Inactivated"] = 1, ---@type Enum
-    ["Completed"] = 2, ---@type Enum
-    ["WentOutOfRange"] = 3, ---@type Enum
-}
+---@class questProximityProgressBarAction: Enum
+---@field ["Activated"] questProximityProgressBarAction 0
+---@field ["Inactivated"] questProximityProgressBarAction 1
+---@field ["Completed"] questProximityProgressBarAction 2
+---@field ["WentOutOfRange"] questProximityProgressBarAction 3
+questProximityProgressBarAction = {}

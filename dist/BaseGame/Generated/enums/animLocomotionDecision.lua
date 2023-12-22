@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLocomotionDecision
-animLocomotionDecision = {
-    ["LD_None"] = 0, ---@type Enum
-    ["LD_Stop"] = 1, ---@type Enum
-    ["LD_MoveTo"] = 2, ---@type Enum
-    ["LD_Move"] = 3, ---@type Enum
-}
+---@class animLocomotionDecision: Enum
+---@field ["LD_None"] animLocomotionDecision 0
+---@field ["LD_Stop"] animLocomotionDecision 1
+---@field ["LD_MoveTo"] animLocomotionDecision 2
+---@field ["LD_Move"] animLocomotionDecision 3
+animLocomotionDecision = {}

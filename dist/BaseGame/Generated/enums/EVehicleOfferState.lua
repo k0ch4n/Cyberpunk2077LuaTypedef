@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EVehicleOfferState
-EVehicleOfferState = {
-    ["Default"] = 0, ---@type Enum
-    ["New"] = 1, ---@type Enum
-    ["Owned"] = 2, ---@type Enum
-    ["Locked"] = 3, ---@type Enum
-}
+---@class EVehicleOfferState: Enum
+---@field ["Default"] EVehicleOfferState 0
+---@field ["New"] EVehicleOfferState 1
+---@field ["Owned"] EVehicleOfferState 2
+---@field ["Locked"] EVehicleOfferState 3
+EVehicleOfferState = {}

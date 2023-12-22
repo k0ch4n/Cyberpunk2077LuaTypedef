@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDataNodeType
-gamedataDataNodeType = {
-    ["File"] = 0, ---@type Enum
-    ["Group"] = 1, ---@type Enum
-    ["Variable"] = 2, ---@type Enum
-    ["Value"] = 3, ---@type Enum
-    ["SimpleValue"] = 4, ---@type Enum
-    ["ComplexValue"] = 5, ---@type Enum
-}
+---@class gamedataDataNodeType: Enum
+---@field ["File"] gamedataDataNodeType 0
+---@field ["Group"] gamedataDataNodeType 1
+---@field ["Variable"] gamedataDataNodeType 2
+---@field ["Value"] gamedataDataNodeType 3
+---@field ["SimpleValue"] gamedataDataNodeType 4
+---@field ["ComplexValue"] gamedataDataNodeType 5
+gamedataDataNodeType = {}

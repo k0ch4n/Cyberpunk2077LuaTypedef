@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entVisibilityParamSource
-entVisibilityParamSource = {
-    ["PhantomEntitySystem"] = 7, ---@type Enum
-}
+---@class entVisibilityParamSource: Enum
+---@field ["PhantomEntitySystem"] entVisibilityParamSource 7
+entVisibilityParamSource = {}

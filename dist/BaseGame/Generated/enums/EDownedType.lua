@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDownedType
-EDownedType = {
-    ["Killed"] = 0, ---@type Enum
-    ["Finished"] = 1, ---@type Enum
-    ["Defeated"] = 2, ---@type Enum
-    ["Unconscious"] = 3, ---@type Enum
-}
+---@class EDownedType: Enum
+---@field ["Killed"] EDownedType 0
+---@field ["Finished"] EDownedType 1
+---@field ["Defeated"] EDownedType 2
+---@field ["Unconscious"] EDownedType 3
+EDownedType = {}

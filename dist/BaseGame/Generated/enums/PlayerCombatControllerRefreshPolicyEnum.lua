@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum PlayerCombatControllerRefreshPolicyEnum
-PlayerCombatControllerRefreshPolicyEnum = {
-    ["Persistent"] = 0, ---@type Enum
-    ["Eventful"] = 1, ---@type Enum
-}
+---@class PlayerCombatControllerRefreshPolicyEnum: Enum
+---@field ["Persistent"] PlayerCombatControllerRefreshPolicyEnum 0
+---@field ["Eventful"] PlayerCombatControllerRefreshPolicyEnum 1
+PlayerCombatControllerRefreshPolicyEnum = {}

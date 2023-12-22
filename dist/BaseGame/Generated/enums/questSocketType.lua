@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questSocketType
-questSocketType = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Input"] = 1, ---@type Enum
-    ["Output"] = 2, ---@type Enum
-    ["CutSource"] = 3, ---@type Enum
-    ["CutDestination"] = 4, ---@type Enum
-}
+---@class questSocketType: Enum
+---@field ["Undefined"] questSocketType 0
+---@field ["Input"] questSocketType 1
+---@field ["Output"] questSocketType 2
+---@field ["CutSource"] questSocketType 3
+---@field ["CutDestination"] questSocketType 4
+questSocketType = {}

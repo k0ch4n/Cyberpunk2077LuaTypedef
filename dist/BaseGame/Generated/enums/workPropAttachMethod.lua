@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum workPropAttachMethod
-workPropAttachMethod = {
-    ["BonePosition"] = 0, ---@type Enum
-    ["RelativePosition"] = 1, ---@type Enum
-    ["Custom"] = 2, ---@type Enum
-}
+---@class workPropAttachMethod: Enum
+---@field ["BonePosition"] workPropAttachMethod 0
+---@field ["RelativePosition"] workPropAttachMethod 1
+---@field ["Custom"] workPropAttachMethod 2
+workPropAttachMethod = {}

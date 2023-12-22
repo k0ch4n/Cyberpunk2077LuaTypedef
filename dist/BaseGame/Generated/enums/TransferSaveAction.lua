@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum TransferSaveAction
-TransferSaveAction = {
-    ["Export"] = 0, ---@type Enum
-    ["Import"] = 1, ---@type Enum
-}
+---@class TransferSaveAction: Enum
+---@field ["Export"] TransferSaveAction 0
+---@field ["Import"] TransferSaveAction 1
+TransferSaveAction = {}

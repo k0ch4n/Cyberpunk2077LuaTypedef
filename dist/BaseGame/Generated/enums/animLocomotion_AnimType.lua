@@ -1,109 +1,108 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum animLocomotion_AnimType
-animLocomotion_AnimType = {
-    ["None"] = 0, ---@type Enum
-    ["idle_stand"] = 1, ---@type Enum
-    ["idle_to_idle_0"] = 2, ---@type Enum
-    ["idle_to_idle_090"] = 3, ---@type Enum
-    ["idle_to_idle_270"] = 4, ---@type Enum
-    ["idle_to_idle_180_l"] = 5, ---@type Enum
-    ["idle_to_idle_180_r"] = 6, ---@type Enum
-    ["walk_0"] = 7, ---@type Enum
-    ["walk_left"] = 8, ---@type Enum
-    ["walk_right"] = 9, ---@type Enum
-    ["jog_0"] = 10, ---@type Enum
-    ["jog_left"] = 11, ---@type Enum
-    ["jog_right"] = 12, ---@type Enum
-    ["sprint_0"] = 13, ---@type Enum
-    ["sprint_left"] = 14, ---@type Enum
-    ["sprint_right"] = 15, ---@type Enum
-    ["idle_to_walk_0"] = 16, ---@type Enum
-    ["idle_to_jog_0"] = 17, ---@type Enum
-    ["idle_to_sprint_0"] = 18, ---@type Enum
-    ["walk_to_idle_0"] = 19, ---@type Enum
-    ["jog_to_idle_0"] = 20, ---@type Enum
-    ["sprint_to_idle_0"] = 21, ---@type Enum
-    ["walk_to_idle_0_l_hard"] = 22, ---@type Enum
-    ["walk_to_idle_0_r_hard"] = 23, ---@type Enum
-    ["jog_to_idle_0_l_hard"] = 24, ---@type Enum
-    ["jog_to_idle_0_r_hard"] = 25, ---@type Enum
-    ["sprint_to_idle_0_l_hard"] = 26, ---@type Enum
-    ["sprint_to_idle_0_r_hard"] = 27, ---@type Enum
-    ["walk_to_jog_0"] = 28, ---@type Enum
-    ["walk_to_sprint_0"] = 29, ---@type Enum
-    ["jog_to_walk_0"] = 30, ---@type Enum
-    ["jog_to_sprint_0"] = 31, ---@type Enum
-    ["sprint_to_walk_0"] = 32, ---@type Enum
-    ["sprint_to_jog_0"] = 33, ---@type Enum
-    ["idle_turn_to_walk_090"] = 34, ---@type Enum
-    ["idle_turn_to_walk_180_l"] = 35, ---@type Enum
-    ["idle_turn_to_walk_180_r"] = 36, ---@type Enum
-    ["idle_turn_to_walk_270"] = 37, ---@type Enum
-    ["idle_turn_to_jog_090"] = 38, ---@type Enum
-    ["idle_turn_to_jog_180_l"] = 39, ---@type Enum
-    ["idle_turn_to_jog_180_r"] = 40, ---@type Enum
-    ["idle_turn_to_jog_270"] = 41, ---@type Enum
-    ["idle_turn_to_sprint_090"] = 42, ---@type Enum
-    ["idle_turn_to_sprint_180_l"] = 43, ---@type Enum
-    ["idle_turn_to_sprint_180_r"] = 44, ---@type Enum
-    ["idle_turn_to_sprint_270"] = 45, ---@type Enum
-    ["walk_180"] = 46, ---@type Enum
-    ["jog_180"] = 47, ---@type Enum
-    ["walk_0_to_walk_180_l"] = 48, ---@type Enum
-    ["walk_0_to_walk_180_r"] = 49, ---@type Enum
-    ["walk_180_to_walk_0_l"] = 50, ---@type Enum
-    ["walk_180_to_walk_0_r"] = 51, ---@type Enum
-    ["idle_to_walk_180"] = 52, ---@type Enum
-    ["idle_to_jog_180"] = 53, ---@type Enum
-    ["walk_to_idle_180"] = 54, ---@type Enum
-    ["jog_to_idle_180"] = 55, ---@type Enum
-    ["jog_0_to_jog_180_l"] = 56, ---@type Enum
-    ["jog_0_to_jog_180_r"] = 57, ---@type Enum
-    ["jog_180_to_jog_0_l"] = 58, ---@type Enum
-    ["jog_180_to_jog_0_r"] = 59, ---@type Enum
-    ["jog_to_sprint_180"] = 60, ---@type Enum
-    ["walk_to_jog_180"] = 61, ---@type Enum
-    ["jog_to_walk_180"] = 62, ---@type Enum
-    ["idle_to_walk_090"] = 63, ---@type Enum
-    ["idle_to_walk_270"] = 64, ---@type Enum
-    ["walk_090"] = 65, ---@type Enum
-    ["walk_270"] = 66, ---@type Enum
-    ["walk_to_idle_090"] = 67, ---@type Enum
-    ["walk_to_idle_270"] = 68, ---@type Enum
-    ["walk_0_to_walk_090"] = 69, ---@type Enum
-    ["walk_0_to_walk_270"] = 70, ---@type Enum
-    ["walk_180_to_walk_090"] = 71, ---@type Enum
-    ["walk_180_to_walk_270"] = 72, ---@type Enum
-    ["walk_090_to_walk_0"] = 73, ---@type Enum
-    ["walk_270_to_walk_0"] = 74, ---@type Enum
-    ["walk_090_to_walk_180"] = 75, ---@type Enum
-    ["walk_270_to_walk_180"] = 76, ---@type Enum
-    ["walk_090_to_walk_270_l"] = 77, ---@type Enum
-    ["walk_090_to_walk_270_r"] = 78, ---@type Enum
-    ["walk_270_to_walk_090_l"] = 79, ---@type Enum
-    ["walk_270_to_walk_090_r"] = 80, ---@type Enum
-    ["walk_0_down_stairs"] = 81, ---@type Enum
-    ["walk_0_up_stairs"] = 82, ---@type Enum
-    ["walk_0_down_slope"] = 83, ---@type Enum
-    ["walk_0_up_slope"] = 84, ---@type Enum
-    ["jog_0_down_stairs"] = 85, ---@type Enum
-    ["jog_0_up_stairs"] = 86, ---@type Enum
-    ["jog_0_down_slope"] = 87, ---@type Enum
-    ["jog_0_up_slope"] = 88, ---@type Enum
-    ["sprint_0_down_stairs"] = 89, ---@type Enum
-    ["sprint_0_up_stairs"] = 90, ---@type Enum
-    ["sprint_0_down_slope"] = 91, ---@type Enum
-    ["sprint_0_up_slope"] = 92, ---@type Enum
-    ["walk_090_up_stairs"] = 93, ---@type Enum
-    ["walk_090_down_stairs"] = 94, ---@type Enum
-    ["walk_270_up_stairs"] = 95, ---@type Enum
-    ["walk_270_down_stairs"] = 96, ---@type Enum
-    ["walk_180_up_stairs"] = 97, ---@type Enum
-    ["walk_180_down_stairs"] = 98, ---@type Enum
-    ["idle_step_single_0"] = 99, ---@type Enum
-    ["idle_step_single_090"] = 100, ---@type Enum
-    ["idle_step_single_180"] = 101, ---@type Enum
-    ["idle_step_single_270"] = 102, ---@type Enum
-}
+---@class animLocomotion_AnimType: Enum
+---@field ["None"] animLocomotion_AnimType 0
+---@field ["idle_stand"] animLocomotion_AnimType 1
+---@field ["idle_to_idle_0"] animLocomotion_AnimType 2
+---@field ["idle_to_idle_090"] animLocomotion_AnimType 3
+---@field ["idle_to_idle_270"] animLocomotion_AnimType 4
+---@field ["idle_to_idle_180_l"] animLocomotion_AnimType 5
+---@field ["idle_to_idle_180_r"] animLocomotion_AnimType 6
+---@field ["walk_0"] animLocomotion_AnimType 7
+---@field ["walk_left"] animLocomotion_AnimType 8
+---@field ["walk_right"] animLocomotion_AnimType 9
+---@field ["jog_0"] animLocomotion_AnimType 10
+---@field ["jog_left"] animLocomotion_AnimType 11
+---@field ["jog_right"] animLocomotion_AnimType 12
+---@field ["sprint_0"] animLocomotion_AnimType 13
+---@field ["sprint_left"] animLocomotion_AnimType 14
+---@field ["sprint_right"] animLocomotion_AnimType 15
+---@field ["idle_to_walk_0"] animLocomotion_AnimType 16
+---@field ["idle_to_jog_0"] animLocomotion_AnimType 17
+---@field ["idle_to_sprint_0"] animLocomotion_AnimType 18
+---@field ["walk_to_idle_0"] animLocomotion_AnimType 19
+---@field ["jog_to_idle_0"] animLocomotion_AnimType 20
+---@field ["sprint_to_idle_0"] animLocomotion_AnimType 21
+---@field ["walk_to_idle_0_l_hard"] animLocomotion_AnimType 22
+---@field ["walk_to_idle_0_r_hard"] animLocomotion_AnimType 23
+---@field ["jog_to_idle_0_l_hard"] animLocomotion_AnimType 24
+---@field ["jog_to_idle_0_r_hard"] animLocomotion_AnimType 25
+---@field ["sprint_to_idle_0_l_hard"] animLocomotion_AnimType 26
+---@field ["sprint_to_idle_0_r_hard"] animLocomotion_AnimType 27
+---@field ["walk_to_jog_0"] animLocomotion_AnimType 28
+---@field ["walk_to_sprint_0"] animLocomotion_AnimType 29
+---@field ["jog_to_walk_0"] animLocomotion_AnimType 30
+---@field ["jog_to_sprint_0"] animLocomotion_AnimType 31
+---@field ["sprint_to_walk_0"] animLocomotion_AnimType 32
+---@field ["sprint_to_jog_0"] animLocomotion_AnimType 33
+---@field ["idle_turn_to_walk_090"] animLocomotion_AnimType 34
+---@field ["idle_turn_to_walk_180_l"] animLocomotion_AnimType 35
+---@field ["idle_turn_to_walk_180_r"] animLocomotion_AnimType 36
+---@field ["idle_turn_to_walk_270"] animLocomotion_AnimType 37
+---@field ["idle_turn_to_jog_090"] animLocomotion_AnimType 38
+---@field ["idle_turn_to_jog_180_l"] animLocomotion_AnimType 39
+---@field ["idle_turn_to_jog_180_r"] animLocomotion_AnimType 40
+---@field ["idle_turn_to_jog_270"] animLocomotion_AnimType 41
+---@field ["idle_turn_to_sprint_090"] animLocomotion_AnimType 42
+---@field ["idle_turn_to_sprint_180_l"] animLocomotion_AnimType 43
+---@field ["idle_turn_to_sprint_180_r"] animLocomotion_AnimType 44
+---@field ["idle_turn_to_sprint_270"] animLocomotion_AnimType 45
+---@field ["walk_180"] animLocomotion_AnimType 46
+---@field ["jog_180"] animLocomotion_AnimType 47
+---@field ["walk_0_to_walk_180_l"] animLocomotion_AnimType 48
+---@field ["walk_0_to_walk_180_r"] animLocomotion_AnimType 49
+---@field ["walk_180_to_walk_0_l"] animLocomotion_AnimType 50
+---@field ["walk_180_to_walk_0_r"] animLocomotion_AnimType 51
+---@field ["idle_to_walk_180"] animLocomotion_AnimType 52
+---@field ["idle_to_jog_180"] animLocomotion_AnimType 53
+---@field ["walk_to_idle_180"] animLocomotion_AnimType 54
+---@field ["jog_to_idle_180"] animLocomotion_AnimType 55
+---@field ["jog_0_to_jog_180_l"] animLocomotion_AnimType 56
+---@field ["jog_0_to_jog_180_r"] animLocomotion_AnimType 57
+---@field ["jog_180_to_jog_0_l"] animLocomotion_AnimType 58
+---@field ["jog_180_to_jog_0_r"] animLocomotion_AnimType 59
+---@field ["jog_to_sprint_180"] animLocomotion_AnimType 60
+---@field ["walk_to_jog_180"] animLocomotion_AnimType 61
+---@field ["jog_to_walk_180"] animLocomotion_AnimType 62
+---@field ["idle_to_walk_090"] animLocomotion_AnimType 63
+---@field ["idle_to_walk_270"] animLocomotion_AnimType 64
+---@field ["walk_090"] animLocomotion_AnimType 65
+---@field ["walk_270"] animLocomotion_AnimType 66
+---@field ["walk_to_idle_090"] animLocomotion_AnimType 67
+---@field ["walk_to_idle_270"] animLocomotion_AnimType 68
+---@field ["walk_0_to_walk_090"] animLocomotion_AnimType 69
+---@field ["walk_0_to_walk_270"] animLocomotion_AnimType 70
+---@field ["walk_180_to_walk_090"] animLocomotion_AnimType 71
+---@field ["walk_180_to_walk_270"] animLocomotion_AnimType 72
+---@field ["walk_090_to_walk_0"] animLocomotion_AnimType 73
+---@field ["walk_270_to_walk_0"] animLocomotion_AnimType 74
+---@field ["walk_090_to_walk_180"] animLocomotion_AnimType 75
+---@field ["walk_270_to_walk_180"] animLocomotion_AnimType 76
+---@field ["walk_090_to_walk_270_l"] animLocomotion_AnimType 77
+---@field ["walk_090_to_walk_270_r"] animLocomotion_AnimType 78
+---@field ["walk_270_to_walk_090_l"] animLocomotion_AnimType 79
+---@field ["walk_270_to_walk_090_r"] animLocomotion_AnimType 80
+---@field ["walk_0_down_stairs"] animLocomotion_AnimType 81
+---@field ["walk_0_up_stairs"] animLocomotion_AnimType 82
+---@field ["walk_0_down_slope"] animLocomotion_AnimType 83
+---@field ["walk_0_up_slope"] animLocomotion_AnimType 84
+---@field ["jog_0_down_stairs"] animLocomotion_AnimType 85
+---@field ["jog_0_up_stairs"] animLocomotion_AnimType 86
+---@field ["jog_0_down_slope"] animLocomotion_AnimType 87
+---@field ["jog_0_up_slope"] animLocomotion_AnimType 88
+---@field ["sprint_0_down_stairs"] animLocomotion_AnimType 89
+---@field ["sprint_0_up_stairs"] animLocomotion_AnimType 90
+---@field ["sprint_0_down_slope"] animLocomotion_AnimType 91
+---@field ["sprint_0_up_slope"] animLocomotion_AnimType 92
+---@field ["walk_090_up_stairs"] animLocomotion_AnimType 93
+---@field ["walk_090_down_stairs"] animLocomotion_AnimType 94
+---@field ["walk_270_up_stairs"] animLocomotion_AnimType 95
+---@field ["walk_270_down_stairs"] animLocomotion_AnimType 96
+---@field ["walk_180_up_stairs"] animLocomotion_AnimType 97
+---@field ["walk_180_down_stairs"] animLocomotion_AnimType 98
+---@field ["idle_step_single_0"] animLocomotion_AnimType 99
+---@field ["idle_step_single_090"] animLocomotion_AnimType 100
+---@field ["idle_step_single_180"] animLocomotion_AnimType 101
+---@field ["idle_step_single_270"] animLocomotion_AnimType 102
+animLocomotion_AnimType = {}

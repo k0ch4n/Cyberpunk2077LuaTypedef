@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EPingType
-EPingType = {
-    ["DIRECT"] = 0, ---@type Enum
-    ["SPACE"] = 1, ---@type Enum
-}
+---@class EPingType: Enum
+---@field ["DIRECT"] EPingType 0
+---@field ["SPACE"] EPingType 1
+EPingType = {}

@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ETVChannel
-ETVChannel = {
-    ["CH1"] = 0, ---@type Enum
-    ["CH2"] = 1, ---@type Enum
-    ["CH3"] = 2, ---@type Enum
-    ["CH4"] = 3, ---@type Enum
-    ["CH5"] = 4, ---@type Enum
-    ["INVALID"] = 5, ---@type Enum
-}
+---@class ETVChannel: Enum
+---@field ["CH1"] ETVChannel 0
+---@field ["CH2"] ETVChannel 1
+---@field ["CH3"] ETVChannel 2
+---@field ["CH4"] ETVChannel 3
+---@field ["CH5"] ETVChannel 4
+---@field ["INVALID"] ETVChannel 5
+ETVChannel = {}

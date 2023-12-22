@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gametargetingSystemETargetFilterStatus
-gametargetingSystemETargetFilterStatus = {
-    ["Stop"] = 0, ---@type Enum
-    ["Continue"] = 1, ---@type Enum
-}
+---@class gametargetingSystemETargetFilterStatus: Enum
+---@field ["Stop"] gametargetingSystemETargetFilterStatus 0
+---@field ["Continue"] gametargetingSystemETargetFilterStatus 1
+gametargetingSystemETargetFilterStatus = {}

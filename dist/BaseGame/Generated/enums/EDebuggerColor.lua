@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EDebuggerColor
-EDebuggerColor = {
-    ["RED"] = 0, ---@type Enum
-    ["YELLOW"] = 1, ---@type Enum
-}
+---@class EDebuggerColor: Enum
+---@field ["RED"] EDebuggerColor 0
+---@field ["YELLOW"] EDebuggerColor 1
+EDebuggerColor = {}

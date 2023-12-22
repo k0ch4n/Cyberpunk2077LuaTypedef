@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum rendGIVolume
-rendGIVolume = {
-    ["GI_Exterior"] = 0, ---@type Enum
-    ["GI_Interior1"] = 1, ---@type Enum
-    ["GI_Interior2"] = 2, ---@type Enum
-    ["GI_Interior3"] = 3, ---@type Enum
-    ["GI_Interior4"] = 4, ---@type Enum
-}
+---@class rendGIVolume: Enum
+---@field ["GI_Exterior"] rendGIVolume 0
+---@field ["GI_Interior1"] rendGIVolume 1
+---@field ["GI_Interior2"] rendGIVolume 2
+---@field ["GI_Interior3"] rendGIVolume 3
+---@field ["GI_Interior4"] rendGIVolume 4
+rendGIVolume = {}

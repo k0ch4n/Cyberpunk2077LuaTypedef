@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ERenderingMode
-ERenderingMode = {
-    ["RM_HitProxies"] = 2, ---@type Enum
-    ["RM_Shaded"] = 0, ---@type Enum
-    ["RM_Shaded_NoAmbient"] = 1, ---@type Enum
-    ["RM_GBufferOnly"] = 3, ---@type Enum
-    ["RM_SafeMode"] = 4, ---@type Enum
-    ["RM_OverlayOnly"] = 5, ---@type Enum
-}
+---@class ERenderingMode: Enum
+---@field ["RM_HitProxies"] ERenderingMode 2
+---@field ["RM_Shaded"] ERenderingMode 0
+---@field ["RM_Shaded_NoAmbient"] ERenderingMode 1
+---@field ["RM_GBufferOnly"] ERenderingMode 3
+---@field ["RM_SafeMode"] ERenderingMode 4
+---@field ["RM_OverlayOnly"] ERenderingMode 5
+ERenderingMode = {}

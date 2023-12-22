@@ -1,14 +1,13 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataAIComparison
-gamedataAIComparison = {
-    ["Equal"] = 0, ---@type Enum
-    ["Greater"] = 1, ---@type Enum
-    ["GreaterOrEqual"] = 2, ---@type Enum
-    ["Less"] = 3, ---@type Enum
-    ["LessOrEqual"] = 4, ---@type Enum
-    ["NotEqual"] = 5, ---@type Enum
-    ["Count"] = 6, ---@type Enum
-    ["Invalid"] = 7, ---@type Enum
-}
+---@class gamedataAIComparison: Enum
+---@field ["Equal"] gamedataAIComparison 0
+---@field ["Greater"] gamedataAIComparison 1
+---@field ["GreaterOrEqual"] gamedataAIComparison 2
+---@field ["Less"] gamedataAIComparison 3
+---@field ["LessOrEqual"] gamedataAIComparison 4
+---@field ["NotEqual"] gamedataAIComparison 5
+---@field ["Count"] gamedataAIComparison 6
+---@field ["Invalid"] gamedataAIComparison 7
+gamedataAIComparison = {}

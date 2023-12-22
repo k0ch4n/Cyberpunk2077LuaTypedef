@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum senseEShapeType
-senseEShapeType = {
-    ["INVALID"] = -1, ---@type Enum
-    ["BOX"] = 0, ---@type Enum
-    ["SPHERE"] = 1, ---@type Enum
-    ["CONE"] = 2, ---@type Enum
-    ["ANGLE_RANGE"] = 3, ---@type Enum
-}
+---@class senseEShapeType: Enum
+---@field ["INVALID"] senseEShapeType -1
+---@field ["BOX"] senseEShapeType 0
+---@field ["SPHERE"] senseEShapeType 1
+---@field ["CONE"] senseEShapeType 2
+---@field ["ANGLE_RANGE"] senseEShapeType 3
+senseEShapeType = {}

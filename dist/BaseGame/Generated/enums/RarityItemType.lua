@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RarityItemType
-RarityItemType = {
-    ["Item"] = 0, ---@type Enum
-    ["Cyberdeck"] = 1, ---@type Enum
-    ["Program"] = 2, ---@type Enum
-    ["Count"] = 3, ---@type Enum
-    ["Invalid"] = 4, ---@type Enum
-}
+---@class RarityItemType: Enum
+---@field ["Item"] RarityItemType 0
+---@field ["Cyberdeck"] RarityItemType 1
+---@field ["Program"] RarityItemType 2
+---@field ["Count"] RarityItemType 3
+---@field ["Invalid"] RarityItemType 4
+RarityItemType = {}

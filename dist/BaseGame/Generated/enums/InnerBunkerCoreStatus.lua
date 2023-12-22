@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InnerBunkerCoreStatus
-InnerBunkerCoreStatus = {
-    ["Online"] = 0, ---@type Enum
-    ["Offline"] = 1, ---@type Enum
-    ["Unresponsive"] = 2, ---@type Enum
-}
+---@class InnerBunkerCoreStatus: Enum
+---@field ["Online"] InnerBunkerCoreStatus 0
+---@field ["Offline"] InnerBunkerCoreStatus 1
+---@field ["Unresponsive"] InnerBunkerCoreStatus 2
+InnerBunkerCoreStatus = {}

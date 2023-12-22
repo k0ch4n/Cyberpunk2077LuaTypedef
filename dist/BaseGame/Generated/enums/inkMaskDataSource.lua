@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum inkMaskDataSource
-inkMaskDataSource = {
-    ["TextureAtlas"] = 0, ---@type Enum
-    ["DynamicTexture"] = 1, ---@type Enum
-}
+---@class inkMaskDataSource: Enum
+---@field ["TextureAtlas"] inkMaskDataSource 0
+---@field ["DynamicTexture"] inkMaskDataSource 1
+inkMaskDataSource = {}

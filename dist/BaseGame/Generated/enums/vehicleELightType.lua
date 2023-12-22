@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleELightType
-vehicleELightType = {
-    ["Head"] = 1, ---@type Enum
-    ["Brake"] = 2, ---@type Enum
-    ["LeftBlinker"] = 4, ---@type Enum
-    ["RightBlinker"] = 8, ---@type Enum
-    ["Reverse"] = 16, ---@type Enum
-    ["Interior"] = 32, ---@type Enum
-    ["Utility"] = 64, ---@type Enum
-    ["Default"] = 47, ---@type Enum
-    ["Blinkers"] = 12, ---@type Enum
-}
+---@class vehicleELightType: Enum
+---@field ["Head"] vehicleELightType 1
+---@field ["Brake"] vehicleELightType 2
+---@field ["LeftBlinker"] vehicleELightType 4
+---@field ["RightBlinker"] vehicleELightType 8
+---@field ["Reverse"] vehicleELightType 16
+---@field ["Interior"] vehicleELightType 32
+---@field ["Utility"] vehicleELightType 64
+---@field ["Default"] vehicleELightType 47
+---@field ["Blinkers"] vehicleELightType 12
+vehicleELightType = {}

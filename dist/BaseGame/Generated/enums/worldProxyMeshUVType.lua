@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxyMeshUVType
-worldProxyMeshUVType = {
-    ["UvUseExisting"] = 0, ---@type Enum
-    ["UvGenerateNew"] = 1, ---@type Enum
-}
+---@class worldProxyMeshUVType: Enum
+---@field ["UvUseExisting"] worldProxyMeshUVType 0
+---@field ["UvGenerateNew"] worldProxyMeshUVType 1
+worldProxyMeshUVType = {}

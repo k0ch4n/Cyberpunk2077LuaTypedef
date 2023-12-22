@@ -1,7 +1,6 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameEEquipmentManagerState
-gameEEquipmentManagerState = {
-    ["InfiniteAmmo"] = 1, ---@type Enum
-}
+---@class gameEEquipmentManagerState: Enum
+---@field ["InfiniteAmmo"] gameEEquipmentManagerState 1
+gameEEquipmentManagerState = {}

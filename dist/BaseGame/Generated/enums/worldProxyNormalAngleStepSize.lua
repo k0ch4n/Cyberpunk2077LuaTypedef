@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum worldProxyNormalAngleStepSize
-worldProxyNormalAngleStepSize = {
-    ["STEP_90"] = 0, ---@type Enum
-    ["STEP_45"] = 1, ---@type Enum
-    ["STEP_15"] = 2, ---@type Enum
-    ["STEP_5"] = 3, ---@type Enum
-}
+---@class worldProxyNormalAngleStepSize: Enum
+---@field ["STEP_90"] worldProxyNormalAngleStepSize 0
+---@field ["STEP_45"] worldProxyNormalAngleStepSize 1
+---@field ["STEP_15"] worldProxyNormalAngleStepSize 2
+---@field ["STEP_5"] worldProxyNormalAngleStepSize 3
+worldProxyNormalAngleStepSize = {}

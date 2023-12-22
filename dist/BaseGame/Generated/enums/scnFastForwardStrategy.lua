@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnFastForwardStrategy
-scnFastForwardStrategy = {
-    ["automatic"] = 0, ---@type Enum
-    ["allow_fully"] = 1, ---@type Enum
-    ["block_on_start"] = 2, ---@type Enum
-    ["block_on_end"] = 3, ---@type Enum
-    ["block_on_start_and_end"] = 4, ---@type Enum
-    ["block_fully"] = 5, ---@type Enum
-    ["block_on_end_if_activator_matched"] = 6, ---@type Enum
-}
+---@class scnFastForwardStrategy: Enum
+---@field ["automatic"] scnFastForwardStrategy 0
+---@field ["allow_fully"] scnFastForwardStrategy 1
+---@field ["block_on_start"] scnFastForwardStrategy 2
+---@field ["block_on_end"] scnFastForwardStrategy 3
+---@field ["block_on_start_and_end"] scnFastForwardStrategy 4
+---@field ["block_fully"] scnFastForwardStrategy 5
+---@field ["block_on_end_if_activator_matched"] scnFastForwardStrategy 6
+scnFastForwardStrategy = {}

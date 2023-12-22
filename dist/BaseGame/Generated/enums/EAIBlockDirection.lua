@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EAIBlockDirection
-EAIBlockDirection = {
-    ["Undefined"] = 0, ---@type Enum
-    ["Center"] = 1, ---@type Enum
-    ["Left"] = 2, ---@type Enum
-    ["Right"] = 3, ---@type Enum
-}
+---@class EAIBlockDirection: Enum
+---@field ["Undefined"] EAIBlockDirection 0
+---@field ["Center"] EAIBlockDirection 1
+---@field ["Left"] EAIBlockDirection 2
+---@field ["Right"] EAIBlockDirection 3
+EAIBlockDirection = {}

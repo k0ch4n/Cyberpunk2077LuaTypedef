@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ButtonStatus
-ButtonStatus = {
-    ["DEFAULT"] = 0, ---@type Enum
-    ["PROCESSING"] = 1, ---@type Enum
-    ["DISABLED"] = 2, ---@type Enum
-}
+---@class ButtonStatus: Enum
+---@field ["DEFAULT"] ButtonStatus 0
+---@field ["PROCESSING"] ButtonStatus 1
+---@field ["DISABLED"] ButtonStatus 2
+ButtonStatus = {}

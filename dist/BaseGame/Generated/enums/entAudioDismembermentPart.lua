@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum entAudioDismembermentPart
-entAudioDismembermentPart = {
-    ["Head"] = 0, ---@type Enum
-    ["Leg"] = 1, ---@type Enum
-    ["Arm"] = 2, ---@type Enum
-}
+---@class entAudioDismembermentPart: Enum
+---@field ["Head"] entAudioDismembermentPart 0
+---@field ["Leg"] entAudioDismembermentPart 1
+---@field ["Arm"] entAudioDismembermentPart 2
+entAudioDismembermentPart = {}

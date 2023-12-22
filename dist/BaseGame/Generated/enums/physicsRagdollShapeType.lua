@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum physicsRagdollShapeType
-physicsRagdollShapeType = {
-    ["CAPSULE"] = 0, ---@type Enum
-    ["BOX"] = 1, ---@type Enum
-    ["SPHERE"] = 2, ---@type Enum
-}
+---@class physicsRagdollShapeType: Enum
+---@field ["CAPSULE"] physicsRagdollShapeType 0
+---@field ["BOX"] physicsRagdollShapeType 1
+---@field ["SPHERE"] physicsRagdollShapeType 2
+physicsRagdollShapeType = {}

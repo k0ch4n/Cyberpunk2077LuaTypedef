@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameinfluenceTestLineResult
-gameinfluenceTestLineResult = {
-    ["Fail"] = 0, ---@type Enum
-    ["Success"] = 1, ---@type Enum
-    ["Unknown"] = 2, ---@type Enum
-}
+---@class gameinfluenceTestLineResult: Enum
+---@field ["Fail"] gameinfluenceTestLineResult 0
+---@field ["Success"] gameinfluenceTestLineResult 1
+---@field ["Unknown"] gameinfluenceTestLineResult 2
+gameinfluenceTestLineResult = {}

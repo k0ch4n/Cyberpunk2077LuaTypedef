@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnBraindancePerspective
-scnBraindancePerspective = {
-    ["FirstPerson"] = 0, ---@type Enum
-    ["ThirdPerson"] = 1, ---@type Enum
-}
+---@class scnBraindancePerspective: Enum
+---@field ["FirstPerson"] scnBraindancePerspective 0
+---@field ["ThirdPerson"] scnBraindancePerspective 1
+scnBraindancePerspective = {}

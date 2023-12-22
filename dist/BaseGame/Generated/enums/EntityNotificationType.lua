@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EntityNotificationType
-EntityNotificationType = {
-    ["DoNotNotifyEntity"] = 0, ---@type Enum
-    ["SendThisEventToEntity"] = 1, ---@type Enum
-    ["SendPSChangedEventToEntity"] = 2, ---@type Enum
-}
+---@class EntityNotificationType: Enum
+---@field ["DoNotNotifyEntity"] EntityNotificationType 0
+---@field ["SendThisEventToEntity"] EntityNotificationType 1
+---@field ["SendPSChangedEventToEntity"] EntityNotificationType 2
+EntityNotificationType = {}

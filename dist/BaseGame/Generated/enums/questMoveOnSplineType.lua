@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questMoveOnSplineType
-questMoveOnSplineType = {
-    ["Simple"] = 0, ---@type Enum
-    ["Anim"] = 1, ---@type Enum
-    ["WithCompanion"] = 2, ---@type Enum
-}
+---@class questMoveOnSplineType: Enum
+---@field ["Simple"] questMoveOnSplineType 0
+---@field ["Anim"] questMoveOnSplineType 1
+---@field ["WithCompanion"] questMoveOnSplineType 2
+questMoveOnSplineType = {}

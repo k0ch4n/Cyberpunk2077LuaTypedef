@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameStatIDType
-gameStatIDType = {
-    ["EntityID"] = 0, ---@type Enum
-    ["ItemID"] = 1, ---@type Enum
-    ["Invalid"] = 2, ---@type Enum
-}
+---@class gameStatIDType: Enum
+---@field ["EntityID"] gameStatIDType 0
+---@field ["ItemID"] gameStatIDType 1
+---@field ["Invalid"] gameStatIDType 2
+gameStatIDType = {}

@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum questJournalAlignmentEventType
-questJournalAlignmentEventType = {
-    ["Left"] = 0, ---@type Enum
-    ["Center"] = 1, ---@type Enum
-    ["Right"] = 2, ---@type Enum
-}
+---@class questJournalAlignmentEventType: Enum
+---@field ["Left"] questJournalAlignmentEventType 0
+---@field ["Center"] questJournalAlignmentEventType 1
+---@field ["Right"] questJournalAlignmentEventType 2
+questJournalAlignmentEventType = {}

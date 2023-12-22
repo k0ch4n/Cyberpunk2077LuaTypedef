@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RequestType
-RequestType = {
-    ["INSTANTLY_TRIGGER"] = 0, ---@type Enum
-    ["MANUALLY_TRIGGERED"] = 1, ---@type Enum
-}
+---@class RequestType: Enum
+---@field ["INSTANTLY_TRIGGER"] RequestType 0
+---@field ["MANUALLY_TRIGGERED"] RequestType 1
+RequestType = {}

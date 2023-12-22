@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum CurrencyNotificationAnimState
-CurrencyNotificationAnimState = {
-    ["Inactive"] = 0, ---@type Enum
-    ["Intro"] = 1, ---@type Enum
-    ["Active"] = 2, ---@type Enum
-    ["Outro"] = 3, ---@type Enum
-}
+---@class CurrencyNotificationAnimState: Enum
+---@field ["Inactive"] CurrencyNotificationAnimState 0
+---@field ["Intro"] CurrencyNotificationAnimState 1
+---@field ["Active"] CurrencyNotificationAnimState 2
+---@field ["Outro"] CurrencyNotificationAnimState 3
+CurrencyNotificationAnimState = {}

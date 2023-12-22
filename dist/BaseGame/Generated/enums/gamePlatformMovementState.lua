@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamePlatformMovementState
-gamePlatformMovementState = {
-    ["Stopped"] = 0, ---@type Enum
-    ["Paused"] = 1, ---@type Enum
-    ["MovingUp"] = 2, ---@type Enum
-    ["MovingDown"] = 3, ---@type Enum
-}
+---@class gamePlatformMovementState: Enum
+---@field ["Stopped"] gamePlatformMovementState 0
+---@field ["Paused"] gamePlatformMovementState 1
+---@field ["MovingUp"] gamePlatformMovementState 2
+---@field ["MovingDown"] gamePlatformMovementState 3
+gamePlatformMovementState = {}

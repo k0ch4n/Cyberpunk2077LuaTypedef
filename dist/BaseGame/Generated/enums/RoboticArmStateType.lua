@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum RoboticArmStateType
-RoboticArmStateType = {
-    ["Idle"] = 0, ---@type Enum
-    ["Work"] = 1, ---@type Enum
-    ["Distract"] = 2, ---@type Enum
-}
+---@class RoboticArmStateType: Enum
+---@field ["Idle"] RoboticArmStateType 0
+---@field ["Work"] RoboticArmStateType 1
+---@field ["Distract"] RoboticArmStateType 2
+RoboticArmStateType = {}

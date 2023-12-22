@@ -1,6 +1,5 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnEventType
-scnEventType = {
-}
+---@class scnEventType: Enum
+scnEventType = {}

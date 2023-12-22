@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EProgressBarContext
-EProgressBarContext = {
-    ["QuickHack"] = 0, ---@type Enum
-    ["PhoneCall"] = 1, ---@type Enum
-}
+---@class EProgressBarContext: Enum
+---@field ["QuickHack"] EProgressBarContext 0
+---@field ["PhoneCall"] EProgressBarContext 1
+EProgressBarContext = {}

@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioReflectionVariant
-audioReflectionVariant = {
-    ["WorldSpaceFixedDrections"] = 0, ---@type Enum
-    ["LocalSpaceFixedDirections"] = 1, ---@type Enum
-    ["FindingMaximumFaceAlignemnt"] = 2, ---@type Enum
-    ["LocalSpaceSideDirections"] = 3, ---@type Enum
-    ["FindingMaximumFaceAligment2Sides"] = 4, ---@type Enum
-}
+---@class audioReflectionVariant: Enum
+---@field ["WorldSpaceFixedDrections"] audioReflectionVariant 0
+---@field ["LocalSpaceFixedDirections"] audioReflectionVariant 1
+---@field ["FindingMaximumFaceAlignemnt"] audioReflectionVariant 2
+---@field ["LocalSpaceSideDirections"] audioReflectionVariant 3
+---@field ["FindingMaximumFaceAligment2Sides"] audioReflectionVariant 4
+audioReflectionVariant = {}

@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum audioWeaponShellCasingDirection
-audioWeaponShellCasingDirection = {
-    ["rightFront"] = 0, ---@type Enum
-    ["rightBack"] = 1, ---@type Enum
-    ["leftFront"] = 2, ---@type Enum
-    ["leftBack"] = 3, ---@type Enum
-}
+---@class audioWeaponShellCasingDirection: Enum
+---@field ["rightFront"] audioWeaponShellCasingDirection 0
+---@field ["rightBack"] audioWeaponShellCasingDirection 1
+---@field ["leftFront"] audioWeaponShellCasingDirection 2
+---@field ["leftBack"] audioWeaponShellCasingDirection 3
+audioWeaponShellCasingDirection = {}

@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum ItemLabelType
-ItemLabelType = {
-    ["New"] = 0, ---@type Enum
-    ["Quest"] = 1, ---@type Enum
-    ["Money"] = 2, ---@type Enum
-    ["Equipped"] = 3, ---@type Enum
-    ["Owned"] = 4, ---@type Enum
-    ["Buyback"] = 5, ---@type Enum
-    ["DLCNew"] = 6, ---@type Enum
-}
+---@class ItemLabelType: Enum
+---@field ["New"] ItemLabelType 0
+---@field ["Quest"] ItemLabelType 1
+---@field ["Money"] ItemLabelType 2
+---@field ["Equipped"] ItemLabelType 3
+---@field ["Owned"] ItemLabelType 4
+---@field ["Buyback"] ItemLabelType 5
+---@field ["DLCNew"] ItemLabelType 6
+ItemLabelType = {}

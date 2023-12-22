@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameuiDamageDigitsStickingMode
-gameuiDamageDigitsStickingMode = {
-    ["None"] = 0, ---@type Enum
-    ["Individual"] = 1, ---@type Enum
-    ["Accumulated"] = 2, ---@type Enum
-    ["Both"] = 3, ---@type Enum
-}
+---@class gameuiDamageDigitsStickingMode: Enum
+---@field ["None"] gameuiDamageDigitsStickingMode 0
+---@field ["Individual"] gameuiDamageDigitsStickingMode 1
+---@field ["Accumulated"] gameuiDamageDigitsStickingMode 2
+---@field ["Both"] gameuiDamageDigitsStickingMode 3
+gameuiDamageDigitsStickingMode = {}

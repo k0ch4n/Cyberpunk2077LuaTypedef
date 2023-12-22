@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum senseTracingFreq
-senseTracingFreq = {
-    ["Never"] = 0, ---@type Enum
-    ["Lowest"] = 1, ---@type Enum
-    ["Low"] = 2, ---@type Enum
-    ["Medium"] = 3, ---@type Enum
-    ["High"] = 4, ---@type Enum
-    ["Highest"] = 5, ---@type Enum
-}
+---@class senseTracingFreq: Enum
+---@field ["Never"] senseTracingFreq 0
+---@field ["Lowest"] senseTracingFreq 1
+---@field ["Low"] senseTracingFreq 2
+---@field ["Medium"] senseTracingFreq 3
+---@field ["High"] senseTracingFreq 4
+---@field ["Highest"] senseTracingFreq 5
+senseTracingFreq = {}

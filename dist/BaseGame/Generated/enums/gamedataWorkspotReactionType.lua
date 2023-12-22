@@ -1,15 +1,14 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataWorkspotReactionType
-gamedataWorkspotReactionType = {
-    ["Anger"] = 0, ---@type Enum
-    ["BumpLeftBack"] = 1, ---@type Enum
-    ["BumpLeftFront"] = 2, ---@type Enum
-    ["BumpRightBack"] = 3, ---@type Enum
-    ["BumpRightFront"] = 4, ---@type Enum
-    ["Curious"] = 5, ---@type Enum
-    ["Fear"] = 6, ---@type Enum
-    ["Count"] = 7, ---@type Enum
-    ["Invalid"] = 8, ---@type Enum
-}
+---@class gamedataWorkspotReactionType: Enum
+---@field ["Anger"] gamedataWorkspotReactionType 0
+---@field ["BumpLeftBack"] gamedataWorkspotReactionType 1
+---@field ["BumpLeftFront"] gamedataWorkspotReactionType 2
+---@field ["BumpRightBack"] gamedataWorkspotReactionType 3
+---@field ["BumpRightFront"] gamedataWorkspotReactionType 4
+---@field ["Curious"] gamedataWorkspotReactionType 5
+---@field ["Fear"] gamedataWorkspotReactionType 6
+---@field ["Count"] gamedataWorkspotReactionType 7
+---@field ["Invalid"] gamedataWorkspotReactionType 8
+gamedataWorkspotReactionType = {}

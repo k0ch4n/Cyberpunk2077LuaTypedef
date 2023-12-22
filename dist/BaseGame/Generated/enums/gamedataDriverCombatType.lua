@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gamedataDriverCombatType
-gamedataDriverCombatType = {
-    ["CrystalDome"] = 0, ---@type Enum
-    ["Disabled"] = 1, ---@type Enum
-    ["Doors"] = 2, ---@type Enum
-    ["MountedWeapons"] = 3, ---@type Enum
-    ["Standard"] = 4, ---@type Enum
-    ["Count"] = 5, ---@type Enum
-    ["Invalid"] = 6, ---@type Enum
-}
+---@class gamedataDriverCombatType: Enum
+---@field ["CrystalDome"] gamedataDriverCombatType 0
+---@field ["Disabled"] gamedataDriverCombatType 1
+---@field ["Doors"] gamedataDriverCombatType 2
+---@field ["MountedWeapons"] gamedataDriverCombatType 3
+---@field ["Standard"] gamedataDriverCombatType 4
+---@field ["Count"] gamedataDriverCombatType 5
+---@field ["Invalid"] gamedataDriverCombatType 6
+gamedataDriverCombatType = {}

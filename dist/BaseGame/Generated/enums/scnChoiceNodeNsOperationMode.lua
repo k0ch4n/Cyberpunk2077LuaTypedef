@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnChoiceNodeNsOperationMode
-scnChoiceNodeNsOperationMode = {
-    ["attachToActor"] = 0, ---@type Enum
-    ["attachToProp"] = 1, ---@type Enum
-    ["attachToGameObject"] = 2, ---@type Enum
-    ["attachToScreen"] = 3, ---@type Enum
-    ["attachToWorld"] = 4, ---@type Enum
-}
+---@class scnChoiceNodeNsOperationMode: Enum
+---@field ["attachToActor"] scnChoiceNodeNsOperationMode 0
+---@field ["attachToProp"] scnChoiceNodeNsOperationMode 1
+---@field ["attachToGameObject"] scnChoiceNodeNsOperationMode 2
+---@field ["attachToScreen"] scnChoiceNodeNsOperationMode 3
+---@field ["attachToWorld"] scnChoiceNodeNsOperationMode 4
+scnChoiceNodeNsOperationMode = {}

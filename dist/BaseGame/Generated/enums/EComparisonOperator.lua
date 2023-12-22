@@ -1,12 +1,11 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EComparisonOperator
-EComparisonOperator = {
-    ["Equal"] = 0, ---@type Enum
-    ["NotEqual"] = 1, ---@type Enum
-    ["More"] = 2, ---@type Enum
-    ["MoreOrEqual"] = 3, ---@type Enum
-    ["Less"] = 4, ---@type Enum
-    ["LessOrEqual"] = 5, ---@type Enum
-}
+---@class EComparisonOperator: Enum
+---@field ["Equal"] EComparisonOperator 0
+---@field ["NotEqual"] EComparisonOperator 1
+---@field ["More"] EComparisonOperator 2
+---@field ["MoreOrEqual"] EComparisonOperator 3
+---@field ["Less"] EComparisonOperator 4
+---@field ["LessOrEqual"] EComparisonOperator 5
+EComparisonOperator = {}

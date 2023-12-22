@@ -1,9 +1,8 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleAIPathTrafficDeletionMode
-vehicleAIPathTrafficDeletionMode = {
-    ["INSTANT"] = 0, ---@type Enum
-    ["OUT_OF_VIEW"] = 1, ---@type Enum
-    ["DEFERRED"] = 2, ---@type Enum
-}
+---@class vehicleAIPathTrafficDeletionMode: Enum
+---@field ["INSTANT"] vehicleAIPathTrafficDeletionMode 0
+---@field ["OUT_OF_VIEW"] vehicleAIPathTrafficDeletionMode 1
+---@field ["DEFERRED"] vehicleAIPathTrafficDeletionMode 2
+vehicleAIPathTrafficDeletionMode = {}

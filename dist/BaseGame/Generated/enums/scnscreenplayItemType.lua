@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum scnscreenplayItemType
-scnscreenplayItemType = {
-    ["invalid"] = 0, ---@type Enum
-    ["dialogLine"] = 1, ---@type Enum
-    ["choiceOption"] = 2, ---@type Enum
-    ["standaloneComment"] = 3, ---@type Enum
-}
+---@class scnscreenplayItemType: Enum
+---@field ["invalid"] scnscreenplayItemType 0
+---@field ["dialogLine"] scnscreenplayItemType 1
+---@field ["choiceOption"] scnscreenplayItemType 2
+---@field ["standaloneComment"] scnscreenplayItemType 3
+scnscreenplayItemType = {}

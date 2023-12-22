@@ -1,8 +1,7 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum gameMessageSender
-gameMessageSender = {
-    ["NPC"] = 0, ---@type Enum
-    ["Player"] = 1, ---@type Enum
-}
+---@class gameMessageSender: Enum
+---@field ["NPC"] gameMessageSender 0
+---@field ["Player"] gameMessageSender 1
+gameMessageSender = {}

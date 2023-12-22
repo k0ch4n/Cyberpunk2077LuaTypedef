@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum InGameConfigChangeReason
-InGameConfigChangeReason = {
-    ["Invalid"] = -1, ---@type Enum
-    ["Accepted"] = 0, ---@type Enum
-    ["Rejected"] = 1, ---@type Enum
-    ["NeedsConfirmation"] = 2, ---@type Enum
-    ["NeedsRestart"] = 3, ---@type Enum
-}
+---@class InGameConfigChangeReason: Enum
+---@field ["Invalid"] InGameConfigChangeReason -1
+---@field ["Accepted"] InGameConfigChangeReason 0
+---@field ["Rejected"] InGameConfigChangeReason 1
+---@field ["NeedsConfirmation"] InGameConfigChangeReason 2
+---@field ["NeedsRestart"] InGameConfigChangeReason 3
+InGameConfigChangeReason = {}

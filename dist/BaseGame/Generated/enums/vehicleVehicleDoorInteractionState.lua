@@ -1,11 +1,10 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum vehicleVehicleDoorInteractionState
-vehicleVehicleDoorInteractionState = {
-    ["Available"] = 0, ---@type Enum
-    ["Locked"] = 1, ---@type Enum
-    ["Disabled"] = 2, ---@type Enum
-    ["QuestLocked"] = 3, ---@type Enum
-    ["Reserved"] = 4, ---@type Enum
-}
+---@class vehicleVehicleDoorInteractionState: Enum
+---@field ["Available"] vehicleVehicleDoorInteractionState 0
+---@field ["Locked"] vehicleVehicleDoorInteractionState 1
+---@field ["Disabled"] vehicleVehicleDoorInteractionState 2
+---@field ["QuestLocked"] vehicleVehicleDoorInteractionState 3
+---@field ["Reserved"] vehicleVehicleDoorInteractionState 4
+vehicleVehicleDoorInteractionState = {}

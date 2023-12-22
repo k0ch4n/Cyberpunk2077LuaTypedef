@@ -1,10 +1,9 @@
 ---@meta _
 ---@diagnostic disable
 
----@enum EHudPhoneVisibility
-EHudPhoneVisibility = {
-    ["Invisible"] = 0, ---@type Enum
-    ["Showing"] = 1, ---@type Enum
-    ["Visible"] = 2, ---@type Enum
-    ["Hiding"] = 3, ---@type Enum
-}
+---@class EHudPhoneVisibility: Enum
+---@field ["Invisible"] EHudPhoneVisibility 0
+---@field ["Showing"] EHudPhoneVisibility 1
+---@field ["Visible"] EHudPhoneVisibility 2
+---@field ["Hiding"] EHudPhoneVisibility 3
+EHudPhoneVisibility = {}
