@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkESizeRule: Enum
----@field Fixed 0
----@field Stretch 1
+---@field Fixed Enum 0
+---@field Stretch Enum 1
 inkESizeRule = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMovementPolicyTaskFunctions: Enum
----@field SetMovementType 0
----@field SetTargetObject 1
----@field UseFollowSlots 2
----@field SetLocalTargetOffset 3
----@field SetIgnoreNavigation 4
----@field SetStrafingTarget 5
+---@field SetMovementType Enum 0
+---@field SetTargetObject Enum 1
+---@field UseFollowSlots Enum 2
+---@field SetLocalTargetOffset Enum 3
+---@field SetIgnoreNavigation Enum 4
+---@field SetStrafingTarget Enum 5
 AIbehaviorMovementPolicyTaskFunctions = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsChoiceLookAtType: Enum
----@field Root 0
----@field Slot 1
----@field Orb 2
+---@field Root Enum 0
+---@field Slot Enum 1
+---@field Orb Enum 2
 gameinteractionsChoiceLookAtType = {}

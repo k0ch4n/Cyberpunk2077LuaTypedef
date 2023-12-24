@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entragdollActivationRequestType: Enum
----@field Default 0
----@field Animated 1
----@field Forced 2
+---@field Default Enum 0
+---@field Animated Enum 1
+---@field Forced Enum 2
 entragdollActivationRequestType = {}

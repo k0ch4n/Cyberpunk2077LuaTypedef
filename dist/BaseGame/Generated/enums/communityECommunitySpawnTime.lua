@@ -2,32 +2,32 @@
 ---@diagnostic disable
 
 ---@class communityECommunitySpawnTime: Enum
----@field Morning 0
----@field Day 1
----@field Evening 2
----@field Night 3
----@field Midnight 4
----@field ["1:00"] 5
----@field ["2:00"] 6
----@field ["3:00"] 7
----@field ["4:00"] 8
----@field ["5:00"] 9
----@field ["6:00"] 10
----@field ["7:00"] 11
----@field ["8:00"] 12
----@field ["9:00"] 13
----@field ["10:00"] 14
----@field ["11:00"] 15
----@field ["12:00 - Noon"] 16
----@field ["13:00"] 17
----@field ["14:00"] 18
----@field ["15:00"] 19
----@field ["16:00"] 20
----@field ["17:00"] 21
----@field ["18:00"] 22
----@field ["19:00"] 23
----@field ["20:00"] 24
----@field ["21:00"] 25
----@field ["22:00"] 26
----@field ["23:00"] 27
+---@field Morning Enum 0
+---@field Day Enum 1
+---@field Evening Enum 2
+---@field Night Enum 3
+---@field Midnight Enum 4
+---@field ["1:00"] Enum 5
+---@field ["2:00"] Enum 6
+---@field ["3:00"] Enum 7
+---@field ["4:00"] Enum 8
+---@field ["5:00"] Enum 9
+---@field ["6:00"] Enum 10
+---@field ["7:00"] Enum 11
+---@field ["8:00"] Enum 12
+---@field ["9:00"] Enum 13
+---@field ["10:00"] Enum 14
+---@field ["11:00"] Enum 15
+---@field ["12:00 - Noon"] Enum 16
+---@field ["13:00"] Enum 17
+---@field ["14:00"] Enum 18
+---@field ["15:00"] Enum 19
+---@field ["16:00"] Enum 20
+---@field ["17:00"] Enum 21
+---@field ["18:00"] Enum 22
+---@field ["19:00"] Enum 23
+---@field ["20:00"] Enum 24
+---@field ["21:00"] Enum 25
+---@field ["22:00"] Enum 26
+---@field ["23:00"] Enum 27
 communityECommunitySpawnTime = {}

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class EMeleeAttackType: Enum
----@field Combo 0
----@field Strong 1
----@field Final 2
----@field Block 3
----@field Safe 4
----@field Slide 5
----@field Crouch 6
----@field Jump 7
----@field Sprint 8
----@field Fall 9
----@field Throw 10
----@field Dodge 11
----@field Equip 12
+---@field Combo Enum 0
+---@field Strong Enum 1
+---@field Final Enum 2
+---@field Block Enum 3
+---@field Safe Enum 4
+---@field Slide Enum 5
+---@field Crouch Enum 6
+---@field Jump Enum 7
+---@field Sprint Enum 8
+---@field Fall Enum 9
+---@field Throw Enum 10
+---@field Dodge Enum 11
+---@field Equip Enum 12
 EMeleeAttackType = {}

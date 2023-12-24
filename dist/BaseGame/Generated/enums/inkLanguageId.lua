@@ -2,25 +2,25 @@
 ---@diagnostic disable
 
 ---@class inkLanguageId: Enum
----@field EN 0
----@field PL 1
----@field JP 2
----@field DE 3
----@field ES 4
----@field MX 5
----@field KR 6
----@field IT 7
----@field FR 8
----@field RU 9
----@field PR 10
----@field ZH_CN 11
----@field TW 12
----@field CZ 13
----@field HU 14
----@field AR 15
----@field TR 16
----@field TH 17
----@field HT 18
----@field UA 20
----@field DEBUG 21
+---@field EN Enum 0
+---@field PL Enum 1
+---@field JP Enum 2
+---@field DE Enum 3
+---@field ES Enum 4
+---@field MX Enum 5
+---@field KR Enum 6
+---@field IT Enum 7
+---@field FR Enum 8
+---@field RU Enum 9
+---@field PR Enum 10
+---@field ZH_CN Enum 11
+---@field TW Enum 12
+---@field CZ Enum 13
+---@field HU Enum 14
+---@field AR Enum 15
+---@field TR Enum 16
+---@field TH Enum 17
+---@field HT Enum 18
+---@field UA Enum 20
+---@field DEBUG Enum 21
 inkLanguageId = {}

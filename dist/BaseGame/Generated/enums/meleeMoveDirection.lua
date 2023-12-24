@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class meleeMoveDirection: Enum
----@field Forward 0
----@field Right 1
----@field Back 2
----@field Left 3
+---@field Forward Enum 0
+---@field Right Enum 1
+---@field Back Enum 2
+---@field Left Enum 3
 meleeMoveDirection = {}

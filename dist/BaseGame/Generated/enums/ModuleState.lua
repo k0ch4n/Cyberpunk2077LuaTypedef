@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ModuleState: Enum
----@field DISABLED 0
----@field HIDDEN 1
----@field ASLEEP 2
----@field MALFUNCTIONING 3
----@field ON 4
+---@field DISABLED Enum 0
+---@field HIDDEN Enum 1
+---@field ASLEEP Enum 2
+---@field MALFUNCTIONING Enum 3
+---@field ON Enum 4
 ModuleState = {}

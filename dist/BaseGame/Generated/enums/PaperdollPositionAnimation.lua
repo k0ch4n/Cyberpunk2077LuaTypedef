@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class PaperdollPositionAnimation: Enum
----@field Center 0
----@field Left 1
----@field Right 2
----@field LeftFullBody 3
+---@field Center Enum 0
+---@field Left Enum 1
+---@field Right Enum 2
+---@field LeftFullBody Enum 3
 PaperdollPositionAnimation = {}

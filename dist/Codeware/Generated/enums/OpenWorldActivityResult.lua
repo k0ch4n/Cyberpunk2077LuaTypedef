@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class OpenWorldActivityResult: Enum
----@field OK 0
----@field Invalid 1
----@field NotFound 2
----@field Undiscovered 3
----@field Unfinished 4
----@field StillSpawned 5
+---@field OK Enum 0
+---@field Invalid Enum 1
+---@field NotFound Enum 2
+---@field Undiscovered Enum 3
+---@field Unfinished Enum 4
+---@field StillSpawned Enum 5
 OpenWorldActivityResult = {}

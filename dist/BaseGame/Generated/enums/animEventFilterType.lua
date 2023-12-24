@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animEventFilterType: Enum
----@field Default 0
----@field AlwaysCollect 1
----@field Solo 2
----@field Mute 3
+---@field Default Enum 0
+---@field AlwaysCollect Enum 1
+---@field Solo Enum 2
+---@field Mute Enum 3
 animEventFilterType = {}

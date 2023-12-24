@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnRandomizerMode: Enum
----@field Random 0
----@field IgnoreLastUsed 1
----@field IgnoreAllUsed 2
+---@field Random Enum 0
+---@field IgnoreLastUsed Enum 1
+---@field IgnoreAllUsed Enum 2
 scnRandomizerMode = {}

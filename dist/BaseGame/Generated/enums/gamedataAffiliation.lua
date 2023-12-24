@@ -2,47 +2,47 @@
 ---@diagnostic disable
 
 ---@class gamedataAffiliation: Enum
----@field AfterlifeMercs 0
----@field Aldecaldos 1
----@field Animals 2
----@field Arasaka 3
----@field Barghest 4
----@field Biotechnica 5
----@field CityCouncil 6
----@field Civilian 7
----@field Classified 8
----@field KangTao 9
----@field Maelstrom 10
----@field MaelstromAndroid 11
----@field Militech 12
----@field NCPD 13
----@field NUSA 14
----@field NetWatch 15
----@field News54 16
----@field OA 17
----@field RecordingAgency 18
----@field SSI 19
----@field Scavengers 20
----@field ScavengersAndroid 21
----@field SixthStreet 22
----@field SixthStreetAndroid 23
----@field SouthCalifornia 24
----@field TheMox 25
----@field TraumaTeam 26
----@field TygerClaws 27
----@field Unaffiliated 28
----@field UnaffiliatedCorpo 29
----@field Unknown 30
----@field Valentinos 31
----@field VoodooBoys 32
----@field Wraiths 33
----@field WraithsAndroid 34
----@field Zetatech 35
----@field corpbud 36
----@field crimson_harvest 37
----@field growl 38
----@field highriders 39
----@field private_press 40
----@field Count 41
----@field Invalid 42
+---@field AfterlifeMercs Enum 0
+---@field Aldecaldos Enum 1
+---@field Animals Enum 2
+---@field Arasaka Enum 3
+---@field Barghest Enum 4
+---@field Biotechnica Enum 5
+---@field CityCouncil Enum 6
+---@field Civilian Enum 7
+---@field Classified Enum 8
+---@field KangTao Enum 9
+---@field Maelstrom Enum 10
+---@field MaelstromAndroid Enum 11
+---@field Militech Enum 12
+---@field NCPD Enum 13
+---@field NUSA Enum 14
+---@field NetWatch Enum 15
+---@field News54 Enum 16
+---@field OA Enum 17
+---@field RecordingAgency Enum 18
+---@field SSI Enum 19
+---@field Scavengers Enum 20
+---@field ScavengersAndroid Enum 21
+---@field SixthStreet Enum 22
+---@field SixthStreetAndroid Enum 23
+---@field SouthCalifornia Enum 24
+---@field TheMox Enum 25
+---@field TraumaTeam Enum 26
+---@field TygerClaws Enum 27
+---@field Unaffiliated Enum 28
+---@field UnaffiliatedCorpo Enum 29
+---@field Unknown Enum 30
+---@field Valentinos Enum 31
+---@field VoodooBoys Enum 32
+---@field Wraiths Enum 33
+---@field WraithsAndroid Enum 34
+---@field Zetatech Enum 35
+---@field corpbud Enum 36
+---@field crimson_harvest Enum 37
+---@field growl Enum 38
+---@field highriders Enum 39
+---@field private_press Enum 40
+---@field Count Enum 41
+---@field Invalid Enum 42
 gamedataAffiliation = {}

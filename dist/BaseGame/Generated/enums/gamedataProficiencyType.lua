@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataProficiencyType: Enum
----@field Assault 0
----@field Athletics 1
----@field Brawling 2
----@field ColdBlood 3
----@field CombatHacking 4
----@field CoolSkill 5
----@field Crafting 6
----@field Demolition 7
----@field Engineering 8
----@field Espionage 9
----@field Gunslinger 10
----@field Hacking 11
----@field IntelligenceSkill 12
----@field Kenjutsu 13
----@field Level 14
----@field ReflexesSkill 15
----@field Stealth 16
----@field StreetCred 17
----@field StrengthSkill 18
----@field TechnicalAbilitySkill 19
----@field Count 20
----@field Invalid 21
+---@field Assault Enum 0
+---@field Athletics Enum 1
+---@field Brawling Enum 2
+---@field ColdBlood Enum 3
+---@field CombatHacking Enum 4
+---@field CoolSkill Enum 5
+---@field Crafting Enum 6
+---@field Demolition Enum 7
+---@field Engineering Enum 8
+---@field Espionage Enum 9
+---@field Gunslinger Enum 10
+---@field Hacking Enum 11
+---@field IntelligenceSkill Enum 12
+---@field Kenjutsu Enum 13
+---@field Level Enum 14
+---@field ReflexesSkill Enum 15
+---@field Stealth Enum 16
+---@field StreetCred Enum 17
+---@field StrengthSkill Enum 18
+---@field TechnicalAbilitySkill Enum 19
+---@field Count Enum 20
+---@field Invalid Enum 21
 gamedataProficiencyType = {}

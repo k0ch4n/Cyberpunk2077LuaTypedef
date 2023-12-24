@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ERadialMode: Enum
----@field ApplyOnlyActiveSlot 0
----@field ApplyActiveSlotAndConsumables 1
+---@field ApplyOnlyActiveSlot Enum 0
+---@field ApplyActiveSlotAndConsumables Enum 1
 ERadialMode = {}

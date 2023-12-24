@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class InventoryModes: Enum
----@field Default 0
----@field Item 1
+---@field Default Enum 0
+---@field Item Enum 1
 InventoryModes = {}

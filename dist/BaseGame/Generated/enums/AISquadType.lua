@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AISquadType: Enum
----@field Community 0
----@field Combat 4
----@field Follower 6
----@field Unknown 7
+---@field Community Enum 0
+---@field Combat Enum 4
+---@field Follower Enum 6
+---@field Unknown Enum 7
 AISquadType = {}

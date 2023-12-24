@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class DronePose: Enum
----@field Relaxed 0
----@field Combat 1
+---@field Relaxed Enum 0
+---@field Combat Enum 1
 DronePose = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audiottsvoicesPolishMale: Enum
----@field Mateusz 14
----@field Pawel 15
+---@field Mateusz Enum 14
+---@field Pawel Enum 15
 audiottsvoicesPolishMale = {}

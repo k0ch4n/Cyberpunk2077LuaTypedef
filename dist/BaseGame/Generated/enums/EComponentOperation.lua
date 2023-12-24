@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EComponentOperation: Enum
----@field Enable 0
----@field Disable 1
+---@field Enable Enum 0
+---@field Disable Enum 1
 EComponentOperation = {}

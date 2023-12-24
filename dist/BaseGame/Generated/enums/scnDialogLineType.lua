@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class scnDialogLineType: Enum
----@field None 0
----@field Regular 1
----@field Holocall 2
----@field SceneComment 3
----@field OverHead 4
----@field Radio 5
----@field GlobalTV 6
----@field Invisible 7
----@field OverHeadAlwaysVisible 9
----@field OwnerlessRegular 10
----@field AlwaysCinematicNoSpeaker 11
----@field GlobalTVAlwaysVisible 12
----@field Narrator 13
+---@field None Enum 0
+---@field Regular Enum 1
+---@field Holocall Enum 2
+---@field SceneComment Enum 3
+---@field OverHead Enum 4
+---@field Radio Enum 5
+---@field GlobalTV Enum 6
+---@field Invisible Enum 7
+---@field OverHeadAlwaysVisible Enum 9
+---@field OwnerlessRegular Enum 10
+---@field AlwaysCinematicNoSpeaker Enum 11
+---@field GlobalTVAlwaysVisible Enum 12
+---@field Narrator Enum 13
 scnDialogLineType = {}

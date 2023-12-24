@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class ESecurityTurretType: Enum
----@field SIMPLE 0
+---@field SIMPLE Enum 0
 ESecurityTurretType = {}

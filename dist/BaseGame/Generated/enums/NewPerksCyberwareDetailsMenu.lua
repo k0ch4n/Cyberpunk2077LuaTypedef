@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class NewPerksCyberwareDetailsMenu: Enum
----@field MantisBlades 0
----@field GorillaArms 1
----@field ProjectileLauncher 2
----@field Monowire 3
----@field COUNT 4
+---@field MantisBlades Enum 0
+---@field GorillaArms Enum 1
+---@field ProjectileLauncher Enum 2
+---@field Monowire Enum 3
+---@field COUNT Enum 4
 NewPerksCyberwareDetailsMenu = {}

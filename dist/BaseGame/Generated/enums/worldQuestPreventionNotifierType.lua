@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldQuestPreventionNotifierType: Enum
----@field Deescalation 0
----@field Clear 1
+---@field Deescalation Enum 0
+---@field Clear Enum 1
 worldQuestPreventionNotifierType = {}

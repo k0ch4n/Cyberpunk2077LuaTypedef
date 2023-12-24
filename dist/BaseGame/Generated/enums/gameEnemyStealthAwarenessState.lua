@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEnemyStealthAwarenessState: Enum
----@field Relaxed 0
----@field Aware 1
----@field Alerted 2
----@field Combat 3
+---@field Relaxed Enum 0
+---@field Aware Enum 1
+---@field Alerted Enum 2
+---@field Combat Enum 3
 gameEnemyStealthAwarenessState = {}

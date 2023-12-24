@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialTagVisibility: Enum
----@field None 0
----@field SemiTransparent 1
----@field Transparent 2
----@field Ignore 3
+---@field None Enum 0
+---@field SemiTransparent Enum 1
+---@field Transparent Enum 2
+---@field Ignore Enum 3
 physicsMaterialTagVisibility = {}

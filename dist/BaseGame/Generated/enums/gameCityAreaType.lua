@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameCityAreaType: Enum
----@field Undefined 0
----@field PublicZone 1
----@field SafeZone 2
----@field RestrictedZone 3
----@field DangerousZone 4
+---@field Undefined Enum 0
+---@field PublicZone Enum 1
+---@field SafeZone Enum 2
+---@field RestrictedZone Enum 3
+---@field DangerousZone Enum 4
 gameCityAreaType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animCoverBehavior: Enum
----@field Idle 0
----@field PreAction 1
----@field DoAction 2
----@field PostAction 3
+---@field Idle Enum 0
+---@field PreAction Enum 1
+---@field DoAction Enum 2
+---@field PostAction Enum 3
 animCoverBehavior = {}

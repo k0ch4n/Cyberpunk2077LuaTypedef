@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataMinigameTrapType: Enum
----@field Both 0
----@field Device 1
----@field NPC 2
----@field Count 3
----@field Invalid 4
+---@field Both Enum 0
+---@field Device Enum 1
+---@field NPC Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataMinigameTrapType = {}

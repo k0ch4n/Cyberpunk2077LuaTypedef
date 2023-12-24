@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ESoundStatusEffects: Enum
----@field NONE 0
----@field DEAFENED 1
----@field SUPRESS_NOISE 2
+---@field NONE Enum 0
+---@field DEAFENED Enum 1
+---@field SUPRESS_NOISE Enum 2
 ESoundStatusEffects = {}

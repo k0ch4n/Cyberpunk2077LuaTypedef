@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePlayerCoverMode: Enum
----@field None 0
----@field Auto 1
----@field Manual 2
+---@field None Enum 0
+---@field Auto Enum 1
+---@field Manual Enum 2
 gamePlayerCoverMode = {}

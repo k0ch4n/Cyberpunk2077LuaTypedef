@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EPriority: Enum
----@field VeryLow 0
----@field Low 1
----@field Medium 2
----@field High 3
----@field VeryHigh 4
----@field Absolute 5
+---@field VeryLow Enum 0
+---@field Low Enum 1
+---@field Medium Enum 2
+---@field High Enum 3
+---@field VeryHigh Enum 4
+---@field Absolute Enum 5
 EPriority = {}

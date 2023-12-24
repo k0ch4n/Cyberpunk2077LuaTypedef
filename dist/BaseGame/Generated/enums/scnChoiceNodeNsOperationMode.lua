@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsOperationMode: Enum
----@field attachToActor 0
----@field attachToProp 1
----@field attachToGameObject 2
----@field attachToScreen 3
----@field attachToWorld 4
+---@field attachToActor Enum 0
+---@field attachToProp Enum 1
+---@field attachToGameObject Enum 2
+---@field attachToScreen Enum 3
+---@field attachToWorld Enum 4
 scnChoiceNodeNsOperationMode = {}

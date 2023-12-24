@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalBriefingContentType: Enum
----@field MapLocation 0
----@field VideoContent 1
----@field Paperdoll 2
+---@field MapLocation Enum 0
+---@field VideoContent Enum 1
+---@field Paperdoll Enum 2
 gameJournalBriefingContentType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterLevelType: Enum
----@field HORIZONTAL 0
----@field VERTICALUP 1
----@field VERTICALDOWN 2
+---@field HORIZONTAL Enum 0
+---@field VERTICALUP Enum 1
+---@field VERTICALDOWN Enum 2
 gameuiarcadeShooterLevelType = {}

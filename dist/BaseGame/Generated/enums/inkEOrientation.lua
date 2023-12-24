@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkEOrientation: Enum
----@field Horizontal 0
----@field Vertical 1
+---@field Horizontal Enum 0
+---@field Vertical Enum 1
 inkEOrientation = {}

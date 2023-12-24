@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class RequestType: Enum
----@field INSTANTLY_TRIGGER 0
----@field MANUALLY_TRIGGERED 1
+---@field INSTANTLY_TRIGGER Enum 0
+---@field MANUALLY_TRIGGERED Enum 1
 RequestType = {}

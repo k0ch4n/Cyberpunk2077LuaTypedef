@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EVehicleSpawnBlockSide: Enum
----@field Front 0
----@field Back 1
----@field Left 2
----@field Right 3
----@field Default 4
+---@field Front Enum 0
+---@field Back Enum 1
+---@field Left Enum 2
+---@field Right Enum 3
+---@field Default Enum 4
 EVehicleSpawnBlockSide = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class CustomWeaponWheelSlot: Enum
----@field FreeHands 0
----@field Fists 1
+---@field FreeHands Enum 0
+---@field Fists Enum 1
 CustomWeaponWheelSlot = {}

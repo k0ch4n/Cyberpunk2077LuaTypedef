@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class ETelemetryData: Enum
----@field MeleeAttacksMade 0
----@field RangedAttacksMade 1
----@field BluelinesSelected 2
----@field MeleeKills 3
----@field RangedKills 4
----@field QuickHacksMade 5
----@field LegendaryItemsCrafted 6
+---@field MeleeAttacksMade Enum 0
+---@field RangedAttacksMade Enum 1
+---@field BluelinesSelected Enum 2
+---@field MeleeKills Enum 3
+---@field RangedKills Enum 4
+---@field QuickHacksMade Enum 5
+---@field LegendaryItemsCrafted Enum 6
 ETelemetryData = {}

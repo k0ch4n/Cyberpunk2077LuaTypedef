@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class senseAdditionalTraceType: Enum
----@field Knee 0
----@field Hip 1
----@field Chest 2
+---@field Knee Enum 0
+---@field Hip Enum 1
+---@field Chest Enum 2
 senseAdditionalTraceType = {}

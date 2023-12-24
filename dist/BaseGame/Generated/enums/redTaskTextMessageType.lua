@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class redTaskTextMessageType: Enum
----@field Info 0
----@field Error 1
+---@field Info Enum 0
+---@field Error Enum 1
 redTaskTextMessageType = {}

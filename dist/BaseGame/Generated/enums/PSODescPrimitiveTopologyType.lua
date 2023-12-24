@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class PSODescPrimitiveTopologyType: Enum
----@field Invalid 0
----@field Point 1
----@field Line 2
----@field Triangle 3
----@field Patch 4
+---@field Invalid Enum 0
+---@field Point Enum 1
+---@field Line Enum 2
+---@field Triangle Enum 3
+---@field Patch Enum 4
 PSODescPrimitiveTopologyType = {}

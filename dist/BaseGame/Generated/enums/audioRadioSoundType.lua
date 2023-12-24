@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audioRadioSoundType: Enum
----@field Song 0
----@field AnnouncementScene 1
+---@field Song Enum 0
+---@field AnnouncementScene Enum 1
 audioRadioSoundType = {}

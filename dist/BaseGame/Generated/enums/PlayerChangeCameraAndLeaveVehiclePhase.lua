@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class PlayerChangeCameraAndLeaveVehiclePhase: Enum
----@field ToggleCamera 0
----@field ExitVehicle 1
----@field Done 2
+---@field ToggleCamera Enum 0
+---@field ExitVehicle Enum 1
+---@field Done Enum 2
 PlayerChangeCameraAndLeaveVehiclePhase = {}

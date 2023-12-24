@@ -2,106 +2,106 @@
 ---@diagnostic disable
 
 ---@class hitFlag: Enum
----@field None 0
----@field IgnoreImmortalityModes 1
----@field FriendlyFire 2
----@field DisableSounds 3
----@field DisableVFX 4
----@field CannotReturnDamage 5
----@field CanParry 6
----@field CanCounter 7
----@field CanDodge 8
----@field WasBlocked 9
----@field WasDeflected 10
----@field WasDodged 11
----@field WasEvaded 12
----@field WasMitigated 13
----@field Kill 14
----@field DontShowDamageFloater 15
----@field DealNoDamage 16
----@field CannotModifyDamage 17
----@field Headshot 18
----@field CriticalHit 19
----@field FinisherTriggered 20
----@field DamageNullified 21
----@field Nonlethal 22
----@field WasKillingBlow 23
----@field ProcessDefeated 24
----@field Defeated 25
----@field SilentKillModifier 26
----@field DeterministicDamage 27
----@field WeakspotHit 28
----@field StealthHit 29
----@field DoNotTriggerFinisher 30
----@field DealtDamage 31
----@field ImmortalTarget 32
----@field CanDamageSelf 33
----@field SuccessfulAttack 34
----@field WeaponFullyCharged 35
----@field DisableNPCHitReaction 36
----@field VehicleDamage 37
----@field VehicleImpact 38
----@field VehicleImpactWithPlayer 39
----@field RagdollImpact 40
----@field IgnoreDifficulty 41
----@field QuickHack 42
----@field IgnoreVehicles 43
----@field DamageOverTime 44
----@field DotApplied 45
----@field OverridePlayerDamageWithFixedPercentage 46
----@field DeviceExplosionAttack 47
----@field NPCPassengerVehicleCollision 48
----@field PROJECT_SPECIFIC_FLAGS 100000
----@field UsedKerenzikov 100001
----@field FragmentationSplinter 100002
----@field DetonateGrenades 100003
----@field WeakExplosion 100004
----@field BulletExplosion 100005
----@field GrenadeQuickhackExplosion 100006
----@field FriendlyFireIgnored 100007
----@field ForceNoCrit 100008
----@field ReduceDamage 100009
----@field ForceDismember 100010
----@field SaburoKatana 100011
----@field SaburoTanto 100012
----@field WasBulletParried 100013
----@field WasBulletDeflected 100014
----@field WasBulletBlocked 100015
----@field HauntedCyberdeck 100016
----@field HauntedGun 100017
----@field HauntedKill 100018
----@field BreachHit 100019
----@field OnePunch 100020
----@field GrandFinale 100021
----@field BleedingDot 100022
----@field AirDropBurningDoT 100023
----@field BreachExplosion 100024
----@field RevengeActivatingHit 100025
----@field GroundSlam 100026
----@field PerfectlyCharged 100027
----@field ChainLightning 100028
----@field CWExplosion 100029
----@field RelicGoldenNumbers 100030
----@field CannotKillPlayer 100031
----@field ExplosionOverride 100032
----@field Overheat 100033
----@field HighSpeedMelee 100034
----@field PlayerWallImpact 100035
----@field Explosion 100036
----@field StunApplied 100037
----@field IgnoreStatPoolCustomLimit 100038
----@field ForceKnockdown 100039
----@field DisablePlayerHitReaction 100040
----@field ReflexesMasterPerk1 100041
----@field BodyPerksMeleeAttack 100042
----@field CriticalHitNoDamageModifier 100043
----@field Special 100044
----@field CWMalfunctionEMPExplosion 100045
----@field UltimateQuickHack 100046
----@field DamageBasedOnMissingMemoryBonus 100047
----@field ProjectileLauncherAttack 100048
----@field ForceHeadshotMult10 100049
----@field ForceHeadshotMult25 100050
----@field ForceWeakspotMult10 100051
----@field ForceWeakspotMult25 100052
+---@field None Enum 0
+---@field IgnoreImmortalityModes Enum 1
+---@field FriendlyFire Enum 2
+---@field DisableSounds Enum 3
+---@field DisableVFX Enum 4
+---@field CannotReturnDamage Enum 5
+---@field CanParry Enum 6
+---@field CanCounter Enum 7
+---@field CanDodge Enum 8
+---@field WasBlocked Enum 9
+---@field WasDeflected Enum 10
+---@field WasDodged Enum 11
+---@field WasEvaded Enum 12
+---@field WasMitigated Enum 13
+---@field Kill Enum 14
+---@field DontShowDamageFloater Enum 15
+---@field DealNoDamage Enum 16
+---@field CannotModifyDamage Enum 17
+---@field Headshot Enum 18
+---@field CriticalHit Enum 19
+---@field FinisherTriggered Enum 20
+---@field DamageNullified Enum 21
+---@field Nonlethal Enum 22
+---@field WasKillingBlow Enum 23
+---@field ProcessDefeated Enum 24
+---@field Defeated Enum 25
+---@field SilentKillModifier Enum 26
+---@field DeterministicDamage Enum 27
+---@field WeakspotHit Enum 28
+---@field StealthHit Enum 29
+---@field DoNotTriggerFinisher Enum 30
+---@field DealtDamage Enum 31
+---@field ImmortalTarget Enum 32
+---@field CanDamageSelf Enum 33
+---@field SuccessfulAttack Enum 34
+---@field WeaponFullyCharged Enum 35
+---@field DisableNPCHitReaction Enum 36
+---@field VehicleDamage Enum 37
+---@field VehicleImpact Enum 38
+---@field VehicleImpactWithPlayer Enum 39
+---@field RagdollImpact Enum 40
+---@field IgnoreDifficulty Enum 41
+---@field QuickHack Enum 42
+---@field IgnoreVehicles Enum 43
+---@field DamageOverTime Enum 44
+---@field DotApplied Enum 45
+---@field OverridePlayerDamageWithFixedPercentage Enum 46
+---@field DeviceExplosionAttack Enum 47
+---@field NPCPassengerVehicleCollision Enum 48
+---@field PROJECT_SPECIFIC_FLAGS Enum 100000
+---@field UsedKerenzikov Enum 100001
+---@field FragmentationSplinter Enum 100002
+---@field DetonateGrenades Enum 100003
+---@field WeakExplosion Enum 100004
+---@field BulletExplosion Enum 100005
+---@field GrenadeQuickhackExplosion Enum 100006
+---@field FriendlyFireIgnored Enum 100007
+---@field ForceNoCrit Enum 100008
+---@field ReduceDamage Enum 100009
+---@field ForceDismember Enum 100010
+---@field SaburoKatana Enum 100011
+---@field SaburoTanto Enum 100012
+---@field WasBulletParried Enum 100013
+---@field WasBulletDeflected Enum 100014
+---@field WasBulletBlocked Enum 100015
+---@field HauntedCyberdeck Enum 100016
+---@field HauntedGun Enum 100017
+---@field HauntedKill Enum 100018
+---@field BreachHit Enum 100019
+---@field OnePunch Enum 100020
+---@field GrandFinale Enum 100021
+---@field BleedingDot Enum 100022
+---@field AirDropBurningDoT Enum 100023
+---@field BreachExplosion Enum 100024
+---@field RevengeActivatingHit Enum 100025
+---@field GroundSlam Enum 100026
+---@field PerfectlyCharged Enum 100027
+---@field ChainLightning Enum 100028
+---@field CWExplosion Enum 100029
+---@field RelicGoldenNumbers Enum 100030
+---@field CannotKillPlayer Enum 100031
+---@field ExplosionOverride Enum 100032
+---@field Overheat Enum 100033
+---@field HighSpeedMelee Enum 100034
+---@field PlayerWallImpact Enum 100035
+---@field Explosion Enum 100036
+---@field StunApplied Enum 100037
+---@field IgnoreStatPoolCustomLimit Enum 100038
+---@field ForceKnockdown Enum 100039
+---@field DisablePlayerHitReaction Enum 100040
+---@field ReflexesMasterPerk1 Enum 100041
+---@field BodyPerksMeleeAttack Enum 100042
+---@field CriticalHitNoDamageModifier Enum 100043
+---@field Special Enum 100044
+---@field CWMalfunctionEMPExplosion Enum 100045
+---@field UltimateQuickHack Enum 100046
+---@field DamageBasedOnMissingMemoryBonus Enum 100047
+---@field ProjectileLauncherAttack Enum 100048
+---@field ForceHeadshotMult10 Enum 100049
+---@field ForceHeadshotMult25 Enum 100050
+---@field ForceWeakspotMult10 Enum 100051
+---@field ForceWeakspotMult25 Enum 100052
 hitFlag = {}

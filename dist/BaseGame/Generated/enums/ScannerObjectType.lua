@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ScannerObjectType: Enum
----@field INVALID 0
----@field PUPPET 1
----@field VEHICLE 2
----@field DEVICE 3
----@field GENERIC 4
+---@field INVALID Enum 0
+---@field PUPPET Enum 1
+---@field VEHICLE Enum 2
+---@field DEVICE Enum 3
+---@field GENERIC Enum 4
 ScannerObjectType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsBumpIntensity: Enum
----@field Invalid 0
----@field Light 1
----@field Medium 2
----@field Heavy 3
----@field Strafe 4
+---@field Invalid Enum 0
+---@field Light Enum 1
+---@field Medium Enum 2
+---@field Heavy Enum 3
+---@field Strafe Enum 4
 gameinteractionsBumpIntensity = {}

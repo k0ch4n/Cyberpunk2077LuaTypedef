@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gamedataPingType: Enum
----@field Device 0
----@field Door 1
----@field Elevator 2
----@field Junction 3
----@field Location 4
----@field Loot 5
----@field Trap 6
----@field Count 7
----@field Invalid 8
+---@field Device Enum 0
+---@field Door Enum 1
+---@field Elevator Enum 2
+---@field Junction Enum 3
+---@field Location Enum 4
+---@field Loot Enum 5
+---@field Trap Enum 6
+---@field Count Enum 7
+---@field Invalid Enum 8
 gamedataPingType = {}

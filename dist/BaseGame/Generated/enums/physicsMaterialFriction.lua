@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialFriction: Enum
----@field Enabled 0
----@field DisabledStrong 1
----@field Disabled 2
+---@field Enabled Enum 0
+---@field DisabledStrong Enum 1
+---@field Disabled Enum 2
 physicsMaterialFriction = {}

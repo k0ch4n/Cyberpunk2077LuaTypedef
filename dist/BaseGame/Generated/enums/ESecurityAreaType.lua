@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ESecurityAreaType: Enum
----@field DISABLED 0
----@field SAFE 1
----@field RESTRICTED 2
----@field DANGEROUS 3
+---@field DISABLED Enum 0
+---@field SAFE Enum 1
+---@field RESTRICTED Enum 2
+---@field DANGEROUS Enum 3
 ESecurityAreaType = {}

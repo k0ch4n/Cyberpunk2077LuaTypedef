@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioWeaponShellCasingType: Enum
----@field standard 0
----@field large 1
----@field cartridge 2
+---@field standard Enum 0
+---@field large Enum 1
+---@field cartridge Enum 2
 audioWeaponShellCasingType = {}

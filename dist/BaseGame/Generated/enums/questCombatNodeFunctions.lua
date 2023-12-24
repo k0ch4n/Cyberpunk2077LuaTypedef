@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class questCombatNodeFunctions: Enum
----@field CombatTarget 0
----@field ShootAt 1
----@field LookAtTarget 2
----@field ThrowGrenade 3
----@field UseCover 4
----@field SwitchWeapon 5
----@field PrimaryWeapon 6
----@field SecondaryWeapon 7
----@field RestrictMovementToArea 8
+---@field CombatTarget Enum 0
+---@field ShootAt Enum 1
+---@field LookAtTarget Enum 2
+---@field ThrowGrenade Enum 3
+---@field UseCover Enum 4
+---@field SwitchWeapon Enum 5
+---@field PrimaryWeapon Enum 6
+---@field SecondaryWeapon Enum 7
+---@field RestrictMovementToArea Enum 8
 questCombatNodeFunctions = {}

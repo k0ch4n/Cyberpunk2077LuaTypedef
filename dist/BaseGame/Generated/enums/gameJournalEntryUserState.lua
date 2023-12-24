@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameJournalEntryUserState: Enum
----@field Undefined 0
----@field Inactive 1
----@field Active 2
----@field Succeeded 3
----@field Failed 4
----@field Read 5
----@field Open 6
+---@field Undefined Enum 0
+---@field Inactive Enum 1
+---@field Active Enum 2
+---@field Succeeded Enum 3
+---@field Failed Enum 4
+---@field Read Enum 5
+---@field Open Enum 6
 gameJournalEntryUserState = {}

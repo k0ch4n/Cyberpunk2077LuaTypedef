@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkanimPropertyType: Enum
----@field Size 0
----@field Color 1
----@field Margin 2
----@field Padding 3
----@field Transparency 4
----@field Rotation 5
+---@field Size Enum 0
+---@field Color Enum 1
+---@field Margin Enum 2
+---@field Padding Enum 3
+---@field Transparency Enum 4
+---@field Rotation Enum 5
 inkanimPropertyType = {}

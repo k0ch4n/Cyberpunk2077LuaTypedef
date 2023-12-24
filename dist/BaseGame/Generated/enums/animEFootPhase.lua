@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animEFootPhase: Enum
----@field RightUp 0
----@field RightForward 1
----@field LeftUp 2
----@field LeftForward 3
----@field NotConsidered 4
+---@field RightUp Enum 0
+---@field RightForward Enum 1
+---@field LeftUp Enum 2
+---@field LeftForward Enum 3
+---@field NotConsidered Enum 4
 animEFootPhase = {}

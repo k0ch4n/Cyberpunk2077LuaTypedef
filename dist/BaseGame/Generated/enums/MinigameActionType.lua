@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class MinigameActionType: Enum
----@field Device 0
----@field NPC 1
----@field Both 2
----@field AccessPoint 3
+---@field Device Enum 0
+---@field NPC Enum 1
+---@field Both Enum 2
+---@field AccessPoint Enum 3
 MinigameActionType = {}

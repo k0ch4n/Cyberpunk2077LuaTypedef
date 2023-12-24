@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameJournalNotifyOption: Enum
----@field Undefined 0
----@field DoNotNotify 1
----@field Notify 2
+---@field Undefined Enum 0
+---@field DoNotNotify Enum 1
+---@field Notify Enum 2
 gameJournalNotifyOption = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataSpawnableObjectPriority: Enum
----@field Crowd 0
----@field Quest 1
----@field Regular 2
----@field Count 3
----@field Invalid 4
+---@field Crowd Enum 0
+---@field Quest Enum 1
+---@field Regular Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataSpawnableObjectPriority = {}

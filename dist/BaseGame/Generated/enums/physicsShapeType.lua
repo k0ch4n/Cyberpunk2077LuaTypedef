@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class physicsShapeType: Enum
----@field Box 0
----@field Sphere 1
----@field Capsule 2
----@field ConvexMesh 3
----@field TriangleMesh 4
----@field Invalid 6
+---@field Box Enum 0
+---@field Sphere Enum 1
+---@field Capsule Enum 2
+---@field ConvexMesh Enum 3
+---@field TriangleMesh Enum 4
+---@field Invalid Enum 6
 physicsShapeType = {}

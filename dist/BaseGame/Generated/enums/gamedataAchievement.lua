@@ -2,64 +2,64 @@
 ---@diagnostic disable
 
 ---@class gamedataAchievement: Enum
----@field AllThePresidentsMen 0
----@field Bladerunner 1
----@field BornToBeWild 2
----@field Breathtaking 3
----@field BushidoAndChill 4
----@field Cyberjunkie 5
----@field Denied 6
----@field DirtyWork 7
----@field DogtownLaw 8
----@field EasyComeEasyGo 9
----@field FollowingTheRiver 10
----@field Fortuneteller 11
----@field Gearhead 12
----@field GetMeThereScottie 13
----@field GunKata 14
----@field Gunslinger 15
----@field HandyMan 16
----@field HydraIsDead 17
----@field IAmMaxTac 18
----@field IHateSpider 19
----@field KingOfTheCups 20
----@field KingOfThePentacles 21
----@field KingOfTheSwords 22
----@field KingOfTheWands 23
----@field Kingmaker 24
----@field LikeFatherLikeSon 25
----@field LittleTokyo 26
----@field MasterRunner 27
----@field MaxPain 28
----@field MustBeTheRats 29
----@field NeverFadeAway 30
----@field NoMansLand 31
----@field NotTheMobile 32
----@field QueenOfTheHighway 33
----@field RelicMaster 34
----@field Roleplayer 35
----@field Specialist 36
----@field Temperance 37
----@field ThatIsSoHardForTheKnees 38
----@field TheDevil 39
----@field TheFool 40
----@field TheHermit 41
----@field TheHightPriestess 42
----@field TheLovers 43
----@field TheStar 44
----@field TheSun 45
----@field TheTower 46
----@field TheWheelOfFortune 47
----@field TheWorld 48
----@field ThisIsPacifica 49
----@field TradeUnion 50
----@field TrueSoldier 51
----@field TrueWarrior 52
----@field TwoHeadsOneBullet 53
----@field UnderPressure 54
----@field VForVendetta 55
----@field YipMan 56
----@field YouKnowWhoIAm 57
----@field Count 58
----@field Invalid 59
+---@field AllThePresidentsMen Enum 0
+---@field Bladerunner Enum 1
+---@field BornToBeWild Enum 2
+---@field Breathtaking Enum 3
+---@field BushidoAndChill Enum 4
+---@field Cyberjunkie Enum 5
+---@field Denied Enum 6
+---@field DirtyWork Enum 7
+---@field DogtownLaw Enum 8
+---@field EasyComeEasyGo Enum 9
+---@field FollowingTheRiver Enum 10
+---@field Fortuneteller Enum 11
+---@field Gearhead Enum 12
+---@field GetMeThereScottie Enum 13
+---@field GunKata Enum 14
+---@field Gunslinger Enum 15
+---@field HandyMan Enum 16
+---@field HydraIsDead Enum 17
+---@field IAmMaxTac Enum 18
+---@field IHateSpider Enum 19
+---@field KingOfTheCups Enum 20
+---@field KingOfThePentacles Enum 21
+---@field KingOfTheSwords Enum 22
+---@field KingOfTheWands Enum 23
+---@field Kingmaker Enum 24
+---@field LikeFatherLikeSon Enum 25
+---@field LittleTokyo Enum 26
+---@field MasterRunner Enum 27
+---@field MaxPain Enum 28
+---@field MustBeTheRats Enum 29
+---@field NeverFadeAway Enum 30
+---@field NoMansLand Enum 31
+---@field NotTheMobile Enum 32
+---@field QueenOfTheHighway Enum 33
+---@field RelicMaster Enum 34
+---@field Roleplayer Enum 35
+---@field Specialist Enum 36
+---@field Temperance Enum 37
+---@field ThatIsSoHardForTheKnees Enum 38
+---@field TheDevil Enum 39
+---@field TheFool Enum 40
+---@field TheHermit Enum 41
+---@field TheHightPriestess Enum 42
+---@field TheLovers Enum 43
+---@field TheStar Enum 44
+---@field TheSun Enum 45
+---@field TheTower Enum 46
+---@field TheWheelOfFortune Enum 47
+---@field TheWorld Enum 48
+---@field ThisIsPacifica Enum 49
+---@field TradeUnion Enum 50
+---@field TrueSoldier Enum 51
+---@field TrueWarrior Enum 52
+---@field TwoHeadsOneBullet Enum 53
+---@field UnderPressure Enum 54
+---@field VForVendetta Enum 55
+---@field YipMan Enum 56
+---@field YouKnowWhoIAm Enum 57
+---@field Count Enum 58
+---@field Invalid Enum 59
 gamedataAchievement = {}

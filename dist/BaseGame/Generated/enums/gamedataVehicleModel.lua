@@ -2,31 +2,31 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleModel: Enum
----@field Aerondight 0
----@field Alvarado 1
----@field Basilisk 2
----@field Bratsk 3
----@field Colby 4
----@field Columbus 5
----@field Cortes 6
----@field Deleon 7
----@field Emperor 8
----@field Galena 9
----@field GalenaNomad 10
----@field Hearse 11
----@field Hozuki 12
----@field Kusanagi 13
----@field Mackinaw 14
----@field Maimai 15
----@field Merrimac 16
----@field Octant 17
----@field Riptide 18
----@field Shion 19
----@field Supron 20
----@field Thrax 21
----@field Turbo 22
----@field Type66 23
----@field Zeya 24
----@field Count 25
----@field Invalid 26
+---@field Aerondight Enum 0
+---@field Alvarado Enum 1
+---@field Basilisk Enum 2
+---@field Bratsk Enum 3
+---@field Colby Enum 4
+---@field Columbus Enum 5
+---@field Cortes Enum 6
+---@field Deleon Enum 7
+---@field Emperor Enum 8
+---@field Galena Enum 9
+---@field GalenaNomad Enum 10
+---@field Hearse Enum 11
+---@field Hozuki Enum 12
+---@field Kusanagi Enum 13
+---@field Mackinaw Enum 14
+---@field Maimai Enum 15
+---@field Merrimac Enum 16
+---@field Octant Enum 17
+---@field Riptide Enum 18
+---@field Shion Enum 19
+---@field Supron Enum 20
+---@field Thrax Enum 21
+---@field Turbo Enum 22
+---@field Type66 Enum 23
+---@field Zeya Enum 24
+---@field Count Enum 25
+---@field Invalid Enum 26
 gamedataVehicleModel = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEVectorWsToMsType: Enum
----@field Position 0
----@field Direction 1
+---@field Position Enum 0
+---@field Direction Enum 1
 animEVectorWsToMsType = {}

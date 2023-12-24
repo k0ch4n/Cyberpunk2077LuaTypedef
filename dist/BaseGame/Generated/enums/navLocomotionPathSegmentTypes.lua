@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class navLocomotionPathSegmentTypes: Enum
----@field Invalid 0
----@field Spline 1
----@field OffMeshLink 2
+---@field Invalid Enum 0
+---@field Spline Enum 1
+---@field OffMeshLink Enum 2
 navLocomotionPathSegmentTypes = {}

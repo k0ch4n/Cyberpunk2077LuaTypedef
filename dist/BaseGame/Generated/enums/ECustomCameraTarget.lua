@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ECustomCameraTarget: Enum
----@field ECCTV_All 0
----@field ECCTV_OnlyOffscreen 1
----@field ECCTV_OnlyOnscreen 2
+---@field ECCTV_All Enum 0
+---@field ECCTV_OnlyOffscreen Enum 1
+---@field ECCTV_OnlyOnscreen Enum 2
 ECustomCameraTarget = {}

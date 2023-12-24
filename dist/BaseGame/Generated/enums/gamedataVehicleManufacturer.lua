@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataVehicleManufacturer: Enum
----@field Arch 0
----@field Archer 1
----@field Aurochs 2
----@field Brennan 3
----@field Chevillon 4
----@field Delamain 5
----@field Herrera 6
----@field Kaukaz 7
----@field Mahir 8
----@field Makigai 9
----@field Militech 10
----@field Mizutani 11
----@field Porsche 12
----@field Quadra 13
----@field Rayfield 14
----@field Seamurai 15
----@field Thorton 16
----@field Villefort 17
----@field Yaiba 18
----@field Zetatech 19
----@field Count 20
----@field Invalid 21
+---@field Arch Enum 0
+---@field Archer Enum 1
+---@field Aurochs Enum 2
+---@field Brennan Enum 3
+---@field Chevillon Enum 4
+---@field Delamain Enum 5
+---@field Herrera Enum 6
+---@field Kaukaz Enum 7
+---@field Mahir Enum 8
+---@field Makigai Enum 9
+---@field Militech Enum 10
+---@field Mizutani Enum 11
+---@field Porsche Enum 12
+---@field Quadra Enum 13
+---@field Rayfield Enum 14
+---@field Seamurai Enum 15
+---@field Thorton Enum 16
+---@field Villefort Enum 17
+---@field Yaiba Enum 18
+---@field Zetatech Enum 19
+---@field Count Enum 20
+---@field Invalid Enum 21
 gamedataVehicleManufacturer = {}

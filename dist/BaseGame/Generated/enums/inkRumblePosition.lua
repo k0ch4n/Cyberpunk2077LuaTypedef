@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkRumblePosition: Enum
----@field Both 0
----@field Left 1
----@field Right 2
+---@field Both Enum 0
+---@field Left Enum 1
+---@field Right Enum 2
 inkRumblePosition = {}

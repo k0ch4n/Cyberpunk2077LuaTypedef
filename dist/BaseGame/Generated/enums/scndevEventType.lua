@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scndevEventType: Enum
----@field NodeFailed 1
----@field DebugMessage 0
----@field NodeProgressSet 2
+---@field NodeFailed Enum 1
+---@field DebugMessage Enum 0
+---@field NodeProgressSet Enum 2
 scndevEventType = {}

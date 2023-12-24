@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audiottsvoicesPolishFemale: Enum
----@field Iwona 16
----@field Paulina 17
+---@field Iwona Enum 16
+---@field Paulina Enum 17
 audiottsvoicesPolishFemale = {}

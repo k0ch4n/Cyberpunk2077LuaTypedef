@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questStorage: Enum
----@field Slow 0
----@field Fast 1
+---@field Slow Enum 0
+---@field Fast Enum 1
 questStorage = {}

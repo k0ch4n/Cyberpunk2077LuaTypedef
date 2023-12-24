@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vehicleAudioEventAction: Enum
----@field OnPlayerDriving 0
----@field OnPlayerPassenger 1
----@field OnPlayerExitVehicle 4
----@field OnPlayerEnterCombat 2
----@field OnPlayerExitCombat 3
----@field OnPlayerVehicleSummoned 5
+---@field OnPlayerDriving Enum 0
+---@field OnPlayerPassenger Enum 1
+---@field OnPlayerExitVehicle Enum 4
+---@field OnPlayerEnterCombat Enum 2
+---@field OnPlayerExitCombat Enum 3
+---@field OnPlayerVehicleSummoned Enum 5
 vehicleAudioEventAction = {}

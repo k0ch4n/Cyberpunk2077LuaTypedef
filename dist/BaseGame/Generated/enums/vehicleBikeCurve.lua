@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleBikeCurve: Enum
----@field SpeedToTilt 0
----@field InputToTilt 1
----@field SpeedToTiltSpeed 2
+---@field SpeedToTilt Enum 0
+---@field InputToTilt Enum 1
+---@field SpeedToTiltSpeed Enum 2
 vehicleBikeCurve = {}

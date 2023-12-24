@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamePSMLandingState: Enum
----@field Default 0
----@field RegularLand 1
----@field HardLand 2
----@field VeryHardLand 3
----@field DeathLand 4
----@field SuperheroLand 5
----@field SuperheroLandRecovery 6
+---@field Default Enum 0
+---@field RegularLand Enum 1
+---@field HardLand Enum 2
+---@field VeryHardLand Enum 3
+---@field DeathLand Enum 4
+---@field SuperheroLand Enum 5
+---@field SuperheroLandRecovery Enum 6
 gamePSMLandingState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class rendEPathTracingLightUsage: Enum
----@field PTLU_Everywhere 0
----@field PTLU_OnlyInPathTracing 1
----@field PTLU_ExcludeFromPathTracing 2
+---@field PTLU_Everywhere Enum 0
+---@field PTLU_OnlyInPathTracing Enum 1
+---@field PTLU_ExcludeFromPathTracing Enum 2
 rendEPathTracingLightUsage = {}

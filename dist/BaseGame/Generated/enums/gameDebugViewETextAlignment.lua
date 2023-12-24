@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameDebugViewETextAlignment: Enum
----@field Left -1
----@field Center 0
----@field Right 1
+---@field Left Enum -1
+---@field Center Enum 0
+---@field Right Enum 1
 gameDebugViewETextAlignment = {}

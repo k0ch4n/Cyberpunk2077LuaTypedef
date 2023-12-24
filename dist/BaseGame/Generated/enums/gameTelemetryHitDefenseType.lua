@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameTelemetryHitDefenseType: Enum
----@field Block 0
----@field Deflect 1
+---@field Block Enum 0
+---@field Deflect Enum 1
 gameTelemetryHitDefenseType = {}

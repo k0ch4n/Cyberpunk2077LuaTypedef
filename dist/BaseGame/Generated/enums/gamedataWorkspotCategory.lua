@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamedataWorkspotCategory: Enum
----@field Any 0
----@field Eating 1
----@field Nervous 2
----@field Sitting 3
----@field Sleeping 4
----@field Smoking 5
----@field Count 6
----@field Invalid 7
+---@field Any Enum 0
+---@field Eating Enum 1
+---@field Nervous Enum 2
+---@field Sitting Enum 3
+---@field Sleeping Enum 4
+---@field Smoking Enum 5
+---@field Count Enum 6
+---@field Invalid Enum 7
 gamedataWorkspotCategory = {}

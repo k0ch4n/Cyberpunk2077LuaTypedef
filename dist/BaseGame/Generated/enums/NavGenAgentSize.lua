@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class NavGenAgentSize: Enum
----@field Human 0
----@field Vehicle 1
----@field AgentSize_Count 2
+---@field Human Enum 0
+---@field Vehicle Enum 1
+---@field AgentSize_Count Enum 2
 NavGenAgentSize = {}

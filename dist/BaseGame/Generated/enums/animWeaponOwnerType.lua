@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animWeaponOwnerType: Enum
----@field Player 0
----@field NPC 1
----@field None 2
+---@field Player Enum 0
+---@field NPC Enum 1
+---@field None Enum 2
 animWeaponOwnerType = {}

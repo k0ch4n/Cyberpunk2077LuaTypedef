@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameeventsDeathDirection: Enum
----@field Undefined 0
----@field Left 1
----@field Backward 2
----@field Right 3
----@field Forward 4
+---@field Undefined Enum 0
+---@field Left Enum 1
+---@field Backward Enum 2
+---@field Right Enum 3
+---@field Forward Enum 4
 gameeventsDeathDirection = {}

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class populationSpawnerObjectCtrlAction: Enum
----@field Undefined 0
----@field Activate 1
----@field Deactivate 2
----@field Reactivate 3
----@field ResetKillCount 4
----@field Spawn 1
----@field Despawn 2
----@field Respawn 3
+---@field Undefined Enum 0
+---@field Activate Enum 1
+---@field Deactivate Enum 2
+---@field Reactivate Enum 3
+---@field ResetKillCount Enum 4
+---@field Spawn Enum 1
+---@field Despawn Enum 2
+---@field Respawn Enum 3
 populationSpawnerObjectCtrlAction = {}

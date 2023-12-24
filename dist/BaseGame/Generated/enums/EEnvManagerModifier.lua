@@ -2,89 +2,89 @@
 ---@diagnostic disable
 
 ---@class EEnvManagerModifier: Enum
----@field EMM_None 0
----@field EMM_WireframeSolid 1
----@field EMM_WireframeSeethrough 2
----@field EMM_Overdraw 3
----@field EMM_OverdrawSeethrough 4
----@field EMM_ParticleOverdraw 5
----@field EMM_ParticleNumLights 6
----@field EMM_DecalOverdraw 7
----@field EMM_LightOverdraw 8
----@field EMM_SceneReferredColor 9
----@field EMM_DisplayReferredColor 10
----@field EMM_GlobalIllumination 11
----@field EMM_SurfaceMaterialID 12
----@field EMM_SurfaceObjectID 13
----@field EMM_SurfaceBaseColor 14
----@field EMM_SurfaceAlbedo 15
----@field EMM_SurfaceSpecularity 16
----@field EMM_SurfaceMetalness 17
----@field EMM_SurfaceRoughness 18
----@field EMM_SurfaceEmissive 19
----@field EMM_SurfaceTranslucency 20
----@field EMM_SurfaceNormalsWorldSpace 21
----@field EMM_SurfaceNormalsViewSpace 22
----@field EMM_SurfaceHairDirection 23
----@field EMM_SurfaceHairID 24
----@field EMM_SurfaceLightBlockerIntensity 25
----@field EMM_GBuffer0A 26
----@field EMM_GBuffer1RGB 27
----@field EMM_GBuffer1A 28
----@field EMM_ConeAODir 29
----@field EMM_ConeAOAngle 30
----@field EMM_VelocityBuffer 31
----@field EMM_Depth 32
----@field EMM_UvDensity 33
----@field EMM_ToneMappingLuminance 34
----@field EMM_ToneMappingThresholds 35
----@field EMM_LuminanceSpotMeter 36
----@field EMM_IlluminanceMeter 37
----@field EMM_DiffuseLight 38
----@field EMM_SpecularLight 39
----@field EMM_ClayView 40
----@field EMM_PureGreyscaleView 41
----@field EMM_PureWhiteView 42
----@field EMM_PureReflectionView 43
----@field EMM_PureGreyReflectionView 44
----@field EMM_Cascades 45
----@field EMM_MaskShadow 46
----@field EMM_MaskSSAO 47
----@field EMM_MaskTXAA 48
----@field EMM_MaskDistortion 49
----@field EMM_MaskInvalidation 50
----@field EMM_MaskReactivityFSR2 51
----@field EMM_SurfaceCacheID 52
----@field EMM_SurfaceCacheResolution 53
----@field EMM_LightChannels 54
----@field EMM_DebugHitProxies 55
----@field EMM_DebugShadowsMode 56
----@field EMM_RayTracingDebug 57
----@field EMM_SSRResults 58
----@field EMM_SSRFade 59
----@field EMM_DepthOfFieldCoC 60
----@field EMM_MultilayeredMode 61
----@field EMM_MultilayeredProxy 62
----@field EMM_MultilayeredUniqueMasks 63
----@field EMM_MultilayeredMaskWeight 64
----@field EMM_LocalShadowsVariance 65
----@field EMM_LocalShadowsRangesOverlapDynamicsOnly 66
----@field EMM_LocalShadowsRangesOverlapStaticsOnly 67
----@field EMM_LODColoring 68
----@field EMM_TodvisRuntimePreview 69
----@field EMM_TodvisBakePreview 70
----@field EMM_RainMask 71
----@field EMM_VolFogDensity 72
----@field EMM_PBRValidationBaseColor 73
----@field EMM_PBRValidationMetalness 74
----@field EMM_GreyPlayMode 75
----@field EMM_RTXDIDiffuseRaw 76
----@field EMM_RTXDISpecularRaw 77
----@field EMM_RTXDIDiffuseDenoised 78
----@field EMM_RTXDISpecularDenoised 79
----@field EMM_RTXDIBRDFFactor 80
----@field EMM_IndirectDiffuseRaw 81
----@field EMM_IndirectSpecularRaw 82
----@field EMM_IndirectDiffuseDenoised 83
----@field EMM_IndirectSpecularDenoised 84
+---@field EMM_None Enum 0
+---@field EMM_WireframeSolid Enum 1
+---@field EMM_WireframeSeethrough Enum 2
+---@field EMM_Overdraw Enum 3
+---@field EMM_OverdrawSeethrough Enum 4
+---@field EMM_ParticleOverdraw Enum 5
+---@field EMM_ParticleNumLights Enum 6
+---@field EMM_DecalOverdraw Enum 7
+---@field EMM_LightOverdraw Enum 8
+---@field EMM_SceneReferredColor Enum 9
+---@field EMM_DisplayReferredColor Enum 10
+---@field EMM_GlobalIllumination Enum 11
+---@field EMM_SurfaceMaterialID Enum 12
+---@field EMM_SurfaceObjectID Enum 13
+---@field EMM_SurfaceBaseColor Enum 14
+---@field EMM_SurfaceAlbedo Enum 15
+---@field EMM_SurfaceSpecularity Enum 16
+---@field EMM_SurfaceMetalness Enum 17
+---@field EMM_SurfaceRoughness Enum 18
+---@field EMM_SurfaceEmissive Enum 19
+---@field EMM_SurfaceTranslucency Enum 20
+---@field EMM_SurfaceNormalsWorldSpace Enum 21
+---@field EMM_SurfaceNormalsViewSpace Enum 22
+---@field EMM_SurfaceHairDirection Enum 23
+---@field EMM_SurfaceHairID Enum 24
+---@field EMM_SurfaceLightBlockerIntensity Enum 25
+---@field EMM_GBuffer0A Enum 26
+---@field EMM_GBuffer1RGB Enum 27
+---@field EMM_GBuffer1A Enum 28
+---@field EMM_ConeAODir Enum 29
+---@field EMM_ConeAOAngle Enum 30
+---@field EMM_VelocityBuffer Enum 31
+---@field EMM_Depth Enum 32
+---@field EMM_UvDensity Enum 33
+---@field EMM_ToneMappingLuminance Enum 34
+---@field EMM_ToneMappingThresholds Enum 35
+---@field EMM_LuminanceSpotMeter Enum 36
+---@field EMM_IlluminanceMeter Enum 37
+---@field EMM_DiffuseLight Enum 38
+---@field EMM_SpecularLight Enum 39
+---@field EMM_ClayView Enum 40
+---@field EMM_PureGreyscaleView Enum 41
+---@field EMM_PureWhiteView Enum 42
+---@field EMM_PureReflectionView Enum 43
+---@field EMM_PureGreyReflectionView Enum 44
+---@field EMM_Cascades Enum 45
+---@field EMM_MaskShadow Enum 46
+---@field EMM_MaskSSAO Enum 47
+---@field EMM_MaskTXAA Enum 48
+---@field EMM_MaskDistortion Enum 49
+---@field EMM_MaskInvalidation Enum 50
+---@field EMM_MaskReactivityFSR2 Enum 51
+---@field EMM_SurfaceCacheID Enum 52
+---@field EMM_SurfaceCacheResolution Enum 53
+---@field EMM_LightChannels Enum 54
+---@field EMM_DebugHitProxies Enum 55
+---@field EMM_DebugShadowsMode Enum 56
+---@field EMM_RayTracingDebug Enum 57
+---@field EMM_SSRResults Enum 58
+---@field EMM_SSRFade Enum 59
+---@field EMM_DepthOfFieldCoC Enum 60
+---@field EMM_MultilayeredMode Enum 61
+---@field EMM_MultilayeredProxy Enum 62
+---@field EMM_MultilayeredUniqueMasks Enum 63
+---@field EMM_MultilayeredMaskWeight Enum 64
+---@field EMM_LocalShadowsVariance Enum 65
+---@field EMM_LocalShadowsRangesOverlapDynamicsOnly Enum 66
+---@field EMM_LocalShadowsRangesOverlapStaticsOnly Enum 67
+---@field EMM_LODColoring Enum 68
+---@field EMM_TodvisRuntimePreview Enum 69
+---@field EMM_TodvisBakePreview Enum 70
+---@field EMM_RainMask Enum 71
+---@field EMM_VolFogDensity Enum 72
+---@field EMM_PBRValidationBaseColor Enum 73
+---@field EMM_PBRValidationMetalness Enum 74
+---@field EMM_GreyPlayMode Enum 75
+---@field EMM_RTXDIDiffuseRaw Enum 76
+---@field EMM_RTXDISpecularRaw Enum 77
+---@field EMM_RTXDIDiffuseDenoised Enum 78
+---@field EMM_RTXDISpecularDenoised Enum 79
+---@field EMM_RTXDIBRDFFactor Enum 80
+---@field EMM_IndirectDiffuseRaw Enum 81
+---@field EMM_IndirectSpecularRaw Enum 82
+---@field EMM_IndirectDiffuseDenoised Enum 83
+---@field EMM_IndirectSpecularDenoised Enum 84
 EEnvManagerModifier = {}

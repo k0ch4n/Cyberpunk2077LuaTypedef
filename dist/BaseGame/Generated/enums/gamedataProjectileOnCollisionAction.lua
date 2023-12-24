@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamedataProjectileOnCollisionAction: Enum
----@field Bounce 0
----@field Pierce 1
----@field Stop 2
----@field StopAndStick 3
----@field StopAndStickPerpendicular 4
----@field Count 5
----@field Invalid 6
+---@field Bounce Enum 0
+---@field Pierce Enum 1
+---@field Stop Enum 2
+---@field StopAndStick Enum 3
+---@field StopAndStickPerpendicular Enum 4
+---@field Count Enum 5
+---@field Invalid Enum 6
 gamedataProjectileOnCollisionAction = {}

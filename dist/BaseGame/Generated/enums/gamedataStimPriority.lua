@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataStimPriority: Enum
----@field High 0
----@field Low 1
----@field Count 2
----@field Invalid 3
+---@field High Enum 0
+---@field Low Enum 1
+---@field Count Enum 2
+---@field Invalid Enum 3
 gamedataStimPriority = {}

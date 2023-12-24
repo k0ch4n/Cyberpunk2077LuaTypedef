@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeShooterAIType: Enum
----@field MELEE 0
----@field RANGESHOOTER 1
----@field RANGEGRENADE 2
----@field FLYINGDRONE 3
----@field SPIDERDRONE 4
----@field POWERUPDRONE 5
----@field TRANSPORT 6
----@field VIP 8
----@field VIPPLAT 9
----@field LANDMINE 12
----@field BARREL 13
----@field NINJA 14
----@field BASILISK 16
----@field MEATHEAD 15
+---@field MELEE Enum 0
+---@field RANGESHOOTER Enum 1
+---@field RANGEGRENADE Enum 2
+---@field FLYINGDRONE Enum 3
+---@field SPIDERDRONE Enum 4
+---@field POWERUPDRONE Enum 5
+---@field TRANSPORT Enum 6
+---@field VIP Enum 8
+---@field VIPPLAT Enum 9
+---@field LANDMINE Enum 12
+---@field BARREL Enum 13
+---@field NINJA Enum 14
+---@field BASILISK Enum 16
+---@field MEATHEAD Enum 15
 gameuiarcadeShooterAIType = {}

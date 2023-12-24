@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiBaseMenuGameControllerPuppetGenderInfo: Enum
----@field Male 0
----@field Female 1
----@field ShouldBeDetermined 2
+---@field Male Enum 0
+---@field Female Enum 1
+---@field ShouldBeDetermined Enum 2
 gameuiBaseMenuGameControllerPuppetGenderInfo = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropdownDisplayContext: Enum
----@field NotSet 0
----@field Default 1
----@field ItemChooserWeapon 2
+---@field NotSet Enum 0
+---@field Default Enum 1
+---@field ItemChooserWeapon Enum 2
 DropdownDisplayContext = {}

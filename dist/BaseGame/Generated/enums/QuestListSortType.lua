@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class QuestListSortType: Enum
----@field Updated 0
----@field Distance 1
----@field Size 2
+---@field Updated Enum 0
+---@field Distance Enum 1
+---@field Size Enum 2
 QuestListSortType = {}

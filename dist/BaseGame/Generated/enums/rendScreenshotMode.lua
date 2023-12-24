@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class rendScreenshotMode: Enum
----@field NONE 0
----@field NORMAL 1
----@field NORMAL_MULTISAMPLE 2
----@field LAYERED 4
----@field HIGH_RESOLUTION 5
----@field HIGH_RESOLUTION_LAYERED 6
+---@field NONE Enum 0
+---@field NORMAL Enum 1
+---@field NORMAL_MULTISAMPLE Enum 2
+---@field LAYERED Enum 4
+---@field HIGH_RESOLUTION Enum 5
+---@field HIGH_RESOLUTION_LAYERED Enum 6
 rendScreenshotMode = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EArgumentType: Enum
----@field Object 0
----@field CoverID 1
----@field Vector4 2
+---@field Object Enum 0
+---@field CoverID Enum 1
+---@field Vector4 Enum 2
 EArgumentType = {}

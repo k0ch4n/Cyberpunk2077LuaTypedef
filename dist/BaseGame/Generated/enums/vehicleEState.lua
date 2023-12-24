@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class vehicleEState: Enum
----@field Default 1
----@field On 2
----@field Disabled 3
----@field Destroyed 4
+---@field Default Enum 1
+---@field On Enum 2
+---@field Disabled Enum 3
+---@field Destroyed Enum 4
 vehicleEState = {}

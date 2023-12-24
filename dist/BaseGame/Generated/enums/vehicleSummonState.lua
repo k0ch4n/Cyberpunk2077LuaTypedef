@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleSummonState: Enum
----@field Idle 0
----@field EnRoute 1
----@field AlreadySummoned 2
----@field PathfindingFailed 3
----@field Arrived 4
+---@field Idle Enum 0
+---@field EnRoute Enum 1
+---@field AlreadySummoned Enum 2
+---@field PathfindingFailed Enum 3
+---@field Arrived Enum 4
 vehicleSummonState = {}

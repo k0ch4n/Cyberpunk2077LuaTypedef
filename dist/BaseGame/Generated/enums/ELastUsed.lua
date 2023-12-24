@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ELastUsed: Enum
----@field Weapon 0
----@field Melee 1
----@field Ranged 2
----@field Heavy 3
+---@field Weapon Enum 0
+---@field Melee Enum 1
+---@field Ranged Enum 2
+---@field Heavy Enum 3
 ELastUsed = {}

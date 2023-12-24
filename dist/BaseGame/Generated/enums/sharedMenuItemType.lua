@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class sharedMenuItemType: Enum
----@field Action 0
----@field Checked 1
----@field Group 2
----@field Separator 3
+---@field Action Enum 0
+---@field Checked Enum 1
+---@field Group Enum 2
+---@field Separator Enum 3
 sharedMenuItemType = {}

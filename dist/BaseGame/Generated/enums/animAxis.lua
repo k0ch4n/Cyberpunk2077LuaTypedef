@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animAxis: Enum
----@field X 0
----@field Y 1
----@field Z 2
----@field NegativeX 3
----@field NegativeY 4
----@field NegativeZ 5
+---@field X Enum 0
+---@field Y Enum 1
+---@field Z Enum 2
+---@field NegativeX Enum 3
+---@field NegativeY Enum 4
+---@field NegativeZ Enum 5
 animAxis = {}

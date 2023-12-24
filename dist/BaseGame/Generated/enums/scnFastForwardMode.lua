@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnFastForwardMode: Enum
----@field Default 0
----@field GameplayReview 1
+---@field Default Enum 0
+---@field GameplayReview Enum 1
 scnFastForwardMode = {}

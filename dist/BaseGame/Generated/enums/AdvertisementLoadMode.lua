@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AdvertisementLoadMode: Enum
----@field TweakDB 0
----@field Override 1
+---@field TweakDB Enum 0
+---@field Override Enum 1
 AdvertisementLoadMode = {}

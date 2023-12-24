@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questDrillingState: Enum
----@field Undefined 0
----@field Started 1
----@field Finished 2
+---@field Undefined Enum 0
+---@field Started Enum 1
+---@field Finished Enum 2
 questDrillingState = {}

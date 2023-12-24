@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questControlCrowdAction: Enum
----@field Disable 0
----@field Enable 1
+---@field Disable Enum 0
+---@field Enable Enum 1
 questControlCrowdAction = {}

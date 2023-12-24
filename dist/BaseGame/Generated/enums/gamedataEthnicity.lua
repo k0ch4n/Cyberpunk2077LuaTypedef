@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class gamedataEthnicity: Enum
----@field African 0
----@field AfricanAmerican 1
----@field AmericanEnglish 2
----@field Arabic 3
----@field Brasilian 4
----@field BritishEnglish 5
----@field Caribbean 6
----@field Chinese 7
----@field Default 8
----@field Indian 9
----@field Japanese 10
----@field Mexican 11
----@field NativeAmerican 12
----@field Russian 13
----@field Count 14
----@field Invalid 15
+---@field African Enum 0
+---@field AfricanAmerican Enum 1
+---@field AmericanEnglish Enum 2
+---@field Arabic Enum 3
+---@field Brasilian Enum 4
+---@field BritishEnglish Enum 5
+---@field Caribbean Enum 6
+---@field Chinese Enum 7
+---@field Default Enum 8
+---@field Indian Enum 9
+---@field Japanese Enum 10
+---@field Mexican Enum 11
+---@field NativeAmerican Enum 12
+---@field Russian Enum 13
+---@field Count Enum 14
+---@field Invalid Enum 15
 gamedataEthnicity = {}

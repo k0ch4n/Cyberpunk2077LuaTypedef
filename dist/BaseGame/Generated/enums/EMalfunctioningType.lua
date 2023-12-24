@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EMalfunctioningType: Enum
----@field NONE 0
----@field LOUD_ANNOUNCEMENT 1
----@field HALF_OPENING 2
----@field GLITCHING 3
+---@field NONE Enum 0
+---@field LOUD_ANNOUNCEMENT Enum 1
+---@field HALF_OPENING Enum 2
+---@field GLITCHING Enum 3
 EMalfunctioningType = {}

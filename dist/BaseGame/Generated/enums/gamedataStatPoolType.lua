@@ -2,53 +2,53 @@
 ---@diagnostic disable
 
 ---@class gamedataStatPoolType: Enum
----@field AccumulatedDoT 0
----@field Adrenaline 1
----@field Aggressiveness 2
----@field Armor 3
----@field BerserkCharge 4
----@field BleedingTrigger 5
----@field BurningTrigger 6
----@field CPUPower 7
----@field CWMaskCharges 8
----@field CallReinforcementProgress 9
----@field CyberdeckOverclock 10
----@field Durability 11
----@field E3_BossWeakSpotHealth 12
----@field ElectrocutedTrigger 13
----@field Fear 14
----@field GrenadesCharges 15
----@field HealingItemsCharges 16
----@field Health 17
----@field HitShapeArmor 18
----@field JenkinsHelper 19
----@field LeftArmHealth 20
----@field LeftLegHealth 21
----@field Memory 22
----@field OpticalCamoCharges 23
----@field Overshield 24
----@field Oxygen 25
----@field PhoneCallDuration 26
----@field Poise 27
----@field PoisonTrigger 28
----@field ProjectileLauncherCharges 29
----@field QuickHackDuration 30
----@field QuickHackUpload 31
----@field ReprimandEscalation 32
----@field RightLegHealth 33
----@field SandevistanCharge 34
----@field Stamina 35
----@field StunTrigger 36
----@field ThrowRecovery 37
----@field TimeBank 38
----@field UnlockProgress 39
----@field VehicleMissileLauncherCharges 40
----@field WeakspotHealth 41
----@field WeaponCharge 42
----@field WeaponOverheat 43
----@field CPOShockedTrigger 44
----@field CPO_Armor 45
----@field CPO_NPC_Importance 46
----@field Count 47
----@field Invalid 48
+---@field AccumulatedDoT Enum 0
+---@field Adrenaline Enum 1
+---@field Aggressiveness Enum 2
+---@field Armor Enum 3
+---@field BerserkCharge Enum 4
+---@field BleedingTrigger Enum 5
+---@field BurningTrigger Enum 6
+---@field CPUPower Enum 7
+---@field CWMaskCharges Enum 8
+---@field CallReinforcementProgress Enum 9
+---@field CyberdeckOverclock Enum 10
+---@field Durability Enum 11
+---@field E3_BossWeakSpotHealth Enum 12
+---@field ElectrocutedTrigger Enum 13
+---@field Fear Enum 14
+---@field GrenadesCharges Enum 15
+---@field HealingItemsCharges Enum 16
+---@field Health Enum 17
+---@field HitShapeArmor Enum 18
+---@field JenkinsHelper Enum 19
+---@field LeftArmHealth Enum 20
+---@field LeftLegHealth Enum 21
+---@field Memory Enum 22
+---@field OpticalCamoCharges Enum 23
+---@field Overshield Enum 24
+---@field Oxygen Enum 25
+---@field PhoneCallDuration Enum 26
+---@field Poise Enum 27
+---@field PoisonTrigger Enum 28
+---@field ProjectileLauncherCharges Enum 29
+---@field QuickHackDuration Enum 30
+---@field QuickHackUpload Enum 31
+---@field ReprimandEscalation Enum 32
+---@field RightLegHealth Enum 33
+---@field SandevistanCharge Enum 34
+---@field Stamina Enum 35
+---@field StunTrigger Enum 36
+---@field ThrowRecovery Enum 37
+---@field TimeBank Enum 38
+---@field UnlockProgress Enum 39
+---@field VehicleMissileLauncherCharges Enum 40
+---@field WeakspotHealth Enum 41
+---@field WeaponCharge Enum 42
+---@field WeaponOverheat Enum 43
+---@field CPOShockedTrigger Enum 44
+---@field CPO_Armor Enum 45
+---@field CPO_NPC_Importance Enum 46
+---@field Count Enum 47
+---@field Invalid Enum 48
 gamedataStatPoolType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnDistractedConditionTarget: Enum
----@field Anyone 0
----@field Speaker 1
----@field SpeakerOrAddressee 2
+---@field Anyone Enum 0
+---@field Speaker Enum 1
+---@field SpeakerOrAddressee Enum 2
 scnDistractedConditionTarget = {}

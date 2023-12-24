@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class telemetryLevelGainReason: Enum
----@field Ignore 0
----@field Gameplay 1
----@field IsDebug 2
+---@field Ignore Enum 0
+---@field Gameplay Enum 1
+---@field IsDebug Enum 2
 telemetryLevelGainReason = {}

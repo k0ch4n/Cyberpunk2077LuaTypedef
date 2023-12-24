@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class visWorldOccluderType: Enum
----@field Default 0
----@field None 1
----@field Detail 2
----@field MinorInterior 3
----@field MajorInterior 4
----@field Exterior 5
+---@field Default Enum 0
+---@field None Enum 1
+---@field Detail Enum 2
+---@field MinorInterior Enum 3
+---@field MajorInterior Enum 4
+---@field Exterior Enum 5
 visWorldOccluderType = {}

@@ -2,33 +2,33 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicalSystemOwner: Enum
----@field Unknown 0
----@field BakedDestructionNode 1
----@field ClothMeshNode 2
----@field CollisionAreaNode 3
----@field DecorationMeshNode 4
----@field DynamicMeshNode 5
----@field InstancedDestructibleNode 6
----@field PhysicalDestructionNode 7
----@field PhysicalTriggerNode 8
----@field StaticMeshNode 9
----@field TerrainCollisionNode 10
----@field WaterPatchNode 11
----@field WorldCollisionNode 12
----@field BakedDestructionComponent 13
----@field ClothComponent 14
----@field ColliderComponent 15
----@field PhysicalDestructionComponent 16
----@field PhysicalMeshComponent 17
----@field PhysicalSkinnedMeshComponent 18
----@field PhysicalTriggerComponent 19
----@field SimpleColliderComponent 20
----@field SkinnedClothComponent 21
----@field StateMachineComponent 22
----@field VehicleChassisComponent 23
----@field PhysicalParticleSystem 24
----@field PhotoModeSystem 25
----@field RagdollBinder 26
----@field FoliageDestruction 27
----@field EntityProxy 28
+---@field Unknown Enum 0
+---@field BakedDestructionNode Enum 1
+---@field ClothMeshNode Enum 2
+---@field CollisionAreaNode Enum 3
+---@field DecorationMeshNode Enum 4
+---@field DynamicMeshNode Enum 5
+---@field InstancedDestructibleNode Enum 6
+---@field PhysicalDestructionNode Enum 7
+---@field PhysicalTriggerNode Enum 8
+---@field StaticMeshNode Enum 9
+---@field TerrainCollisionNode Enum 10
+---@field WaterPatchNode Enum 11
+---@field WorldCollisionNode Enum 12
+---@field BakedDestructionComponent Enum 13
+---@field ClothComponent Enum 14
+---@field ColliderComponent Enum 15
+---@field PhysicalDestructionComponent Enum 16
+---@field PhysicalMeshComponent Enum 17
+---@field PhysicalSkinnedMeshComponent Enum 18
+---@field PhysicalTriggerComponent Enum 19
+---@field SimpleColliderComponent Enum 20
+---@field SkinnedClothComponent Enum 21
+---@field StateMachineComponent Enum 22
+---@field VehicleChassisComponent Enum 23
+---@field PhysicalParticleSystem Enum 24
+---@field PhotoModeSystem Enum 25
+---@field RagdollBinder Enum 26
+---@field FoliageDestruction Enum 27
+---@field EntityProxy Enum 28
 physicsPhysicalSystemOwner = {}

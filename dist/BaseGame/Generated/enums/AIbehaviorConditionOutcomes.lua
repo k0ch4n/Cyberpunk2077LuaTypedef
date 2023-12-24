@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorConditionOutcomes: Enum
----@field True 0
----@field False 1
----@field Failure 2
+---@field True Enum 0
+---@field False Enum 1
+---@field Failure Enum 2
 AIbehaviorConditionOutcomes = {}

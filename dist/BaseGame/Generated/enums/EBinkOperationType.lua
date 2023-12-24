@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EBinkOperationType: Enum
----@field PLAY 0
----@field STOP 1
----@field PAUSE 2
----@field RESUME 3
+---@field PLAY Enum 0
+---@field STOP Enum 1
+---@field PAUSE Enum 2
+---@field RESUME Enum 3
 EBinkOperationType = {}

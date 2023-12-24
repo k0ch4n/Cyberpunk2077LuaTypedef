@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class scnDialogLineLanguage: Enum
----@field Origin 0
----@field Creole 1
----@field Japanese 2
----@field Arabic 4
----@field Russian 5
----@field Chinese 6
----@field Brasilian 7
----@field English 8
----@field Korean 9
----@field Swahili 10
----@field French 11
----@field Polish 12
+---@field Origin Enum 0
+---@field Creole Enum 1
+---@field Japanese Enum 2
+---@field Arabic Enum 4
+---@field Russian Enum 5
+---@field Chinese Enum 6
+---@field Brasilian Enum 7
+---@field English Enum 8
+---@field Korean Enum 9
+---@field Swahili Enum 10
+---@field French Enum 11
+---@field Polish Enum 12
 scnDialogLineLanguage = {}

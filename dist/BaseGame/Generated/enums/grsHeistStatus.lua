@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class grsHeistStatus: Enum
----@field Waiting 0
----@field Starting 1
----@field Lobby 2
----@field InGame 3
----@field Ending 4
----@field Victory 5
----@field Failure 6
+---@field Waiting Enum 0
+---@field Starting Enum 1
+---@field Lobby Enum 2
+---@field InGame Enum 3
+---@field Ending Enum 4
+---@field Victory Enum 5
+---@field Failure Enum 6
 grsHeistStatus = {}

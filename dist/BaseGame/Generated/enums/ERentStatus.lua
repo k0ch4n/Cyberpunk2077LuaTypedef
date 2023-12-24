@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ERentStatus: Enum
----@field PAID 0
----@field OVERDUE 1
----@field EVICTED 2
+---@field PAID Enum 0
+---@field OVERDUE Enum 1
+---@field EVICTED Enum 2
 ERentStatus = {}

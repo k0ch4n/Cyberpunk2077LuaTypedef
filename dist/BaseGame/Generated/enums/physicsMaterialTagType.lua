@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsMaterialTagType: Enum
----@field AIVisibility 0
----@field PlayerVisibility 1
----@field ProjectilePenetration 2
----@field ProjectileRicochet 3
----@field VehicleTraction 4
+---@field AIVisibility Enum 0
+---@field PlayerVisibility Enum 1
+---@field ProjectilePenetration Enum 2
+---@field ProjectileRicochet Enum 3
+---@field VehicleTraction Enum 4
 physicsMaterialTagType = {}

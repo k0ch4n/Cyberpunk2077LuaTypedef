@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class questTriggerConditionType: Enum
----@field Undefined 0
----@field Entered 1
----@field Exited 2
----@field IsInside 3
----@field IsOutside 4
----@field AllInsideMP 5
----@field AllOutsideMP 6
+---@field Undefined Enum 0
+---@field Entered Enum 1
+---@field Exited Enum 2
+---@field IsInside Enum 3
+---@field IsOutside Enum 4
+---@field AllInsideMP Enum 5
+---@field AllOutsideMP Enum 6
 questTriggerConditionType = {}

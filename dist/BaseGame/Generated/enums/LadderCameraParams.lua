@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class LadderCameraParams: Enum
----@field None 0
----@field Enter 1
----@field Default 2
----@field CameraReset 3
----@field Exit 4
+---@field None Enum 0
+---@field Enter Enum 1
+---@field Default Enum 2
+---@field CameraReset Enum 3
+---@field Exit Enum 4
 LadderCameraParams = {}

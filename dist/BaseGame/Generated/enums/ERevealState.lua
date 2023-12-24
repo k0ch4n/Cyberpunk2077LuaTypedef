@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ERevealState: Enum
----@field STARTED 0
----@field CONTINUE 1
----@field STOPPED 2
+---@field STARTED Enum 0
+---@field CONTINUE Enum 1
+---@field STOPPED Enum 2
 ERevealState = {}

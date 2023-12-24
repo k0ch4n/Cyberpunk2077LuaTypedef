@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class entEntitySpawnPriority: Enum
----@field Background 0
----@field Normal 1
----@field Immediate 2
----@field Paramount 3
----@field Critical 4
+---@field Background Enum 0
+---@field Normal Enum 1
+---@field Immediate Enum 2
+---@field Paramount Enum 3
+---@field Critical Enum 4
 entEntitySpawnPriority = {}

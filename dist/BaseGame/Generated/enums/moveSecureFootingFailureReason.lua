@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class moveSecureFootingFailureReason: Enum
----@field Invalid 0
----@field Filter 1
----@field SimulationType 2
----@field Ground 3
+---@field Invalid Enum 0
+---@field Filter Enum 1
+---@field SimulationType Enum 2
+---@field Ground Enum 3
 moveSecureFootingFailureReason = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questElevator_ManageNPCAttachment_NodeTypeParamsAction: Enum
----@field Attach 0
----@field Detach 1
+---@field Attach Enum 0
+---@field Detach Enum 1
 questElevator_ManageNPCAttachment_NodeTypeParamsAction = {}

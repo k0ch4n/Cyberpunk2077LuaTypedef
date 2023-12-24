@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameCrowdCreationDataMergeMode: Enum
----@field Average 0
----@field Override 1
+---@field Average Enum 0
+---@field Override Enum 1
 gameCrowdCreationDataMergeMode = {}

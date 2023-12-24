@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class audioESoundCurveType: Enum
----@field Log3 0
----@field Sine 1
----@field InversedSCurve 3
----@field Linear 4
----@field SCurve 5
----@field Exp1 6
----@field ReciprocalOfSineCurve 7
----@field Exp3 8
+---@field Log3 Enum 0
+---@field Sine Enum 1
+---@field InversedSCurve Enum 3
+---@field Linear Enum 4
+---@field SCurve Enum 5
+---@field Exp1 Enum 6
+---@field ReciprocalOfSineCurve Enum 7
+---@field Exp3 Enum 8
 audioESoundCurveType = {}

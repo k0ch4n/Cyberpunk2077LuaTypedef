@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameAppearanceSource: Enum
----@field EntityResource 0
----@field PopulationSpawner 1
----@field CommunityEntry 2
----@field CommunityAppearancePicker 3
----@field TweakDBRecord 4
----@field VisualTag 5
----@field Invalid 7
+---@field EntityResource Enum 0
+---@field PopulationSpawner Enum 1
+---@field CommunityEntry Enum 2
+---@field CommunityAppearancePicker Enum 3
+---@field TweakDBRecord Enum 4
+---@field VisualTag Enum 5
+---@field Invalid Enum 7
 gameAppearanceSource = {}

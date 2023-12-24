@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class AimAssistSettingConfig: Enum
----@field Default 0
----@field Scanning 1
----@field LeftHandCyberwareCharge 2
----@field LeftHandCyberware 3
----@field MeleeCombat 4
----@field MeleeCombatIdle 5
----@field AimingLimbCyber 6
----@field AimingLimbCyberZoomLevel1 7
----@field AimingLimbCyberZoomLevel2 8
----@field Aiming 9
----@field QuickMelee 10
----@field VehicleCombat 11
----@field Sprinting 12
----@field LimbCyber 13
----@field Vehicle 14
----@field DriverCombat 15
----@field DriverCombatAiming 16
----@field DriverCombatTPP 17
----@field DriverCombatMissiles 18
----@field DriverCombatMissilesAiming 19
----@field DriverCombatMeleeTPP 20
----@field ZoomLevel1 21
----@field ZoomLevel2 22
----@field Exhausted 23
----@field Off 24
----@field Count 25
+---@field Default Enum 0
+---@field Scanning Enum 1
+---@field LeftHandCyberwareCharge Enum 2
+---@field LeftHandCyberware Enum 3
+---@field MeleeCombat Enum 4
+---@field MeleeCombatIdle Enum 5
+---@field AimingLimbCyber Enum 6
+---@field AimingLimbCyberZoomLevel1 Enum 7
+---@field AimingLimbCyberZoomLevel2 Enum 8
+---@field Aiming Enum 9
+---@field QuickMelee Enum 10
+---@field VehicleCombat Enum 11
+---@field Sprinting Enum 12
+---@field LimbCyber Enum 13
+---@field Vehicle Enum 14
+---@field DriverCombat Enum 15
+---@field DriverCombatAiming Enum 16
+---@field DriverCombatTPP Enum 17
+---@field DriverCombatMissiles Enum 18
+---@field DriverCombatMissilesAiming Enum 19
+---@field DriverCombatMeleeTPP Enum 20
+---@field ZoomLevel1 Enum 21
+---@field ZoomLevel2 Enum 22
+---@field Exhausted Enum 23
+---@field Off Enum 24
+---@field Count Enum 25
 AimAssistSettingConfig = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldTrafficSplineNodeUsage: Enum
----@field Pavement 0
----@field Road 1
+---@field Pavement Enum 0
+---@field Road Enum 1
 worldTrafficSplineNodeUsage = {}

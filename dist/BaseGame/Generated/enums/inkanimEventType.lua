@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkanimEventType: Enum
----@field OnLoaded 0
----@field OnStart 1
----@field OnFinish 2
----@field OnPause 3
----@field OnResume 4
----@field OnStartLoop 5
----@field OnEndLoop 6
+---@field OnLoaded Enum 0
+---@field OnStart Enum 1
+---@field OnFinish Enum 2
+---@field OnPause Enum 3
+---@field OnResume Enum 4
+---@field OnStartLoop Enum 5
+---@field OnEndLoop Enum 6
 inkanimEventType = {}

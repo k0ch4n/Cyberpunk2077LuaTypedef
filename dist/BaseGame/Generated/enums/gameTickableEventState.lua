@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameTickableEventState: Enum
----@field Idle 0
----@field FirstTick 1
----@field NormalTick 2
----@field LastTick 3
----@field Canceled 4
+---@field Idle Enum 0
+---@field FirstTick Enum 1
+---@field NormalTick Enum 2
+---@field LastTick Enum 3
+---@field Canceled Enum 4
 gameTickableEventState = {}

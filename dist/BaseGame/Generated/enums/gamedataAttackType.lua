@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class gamedataAttackType: Enum
----@field ChargedWhipAttack 0
----@field Direct 1
----@field Effect 2
----@field Explosion 3
----@field ForceKill 4
----@field GuardBreak 5
----@field Hack 6
----@field Melee 7
----@field PressureWave 8
----@field QuickMelee 9
----@field Ranged 10
----@field Reflect 11
----@field StrongMelee 12
----@field Thrown 13
----@field WhipAttack 14
----@field Count 15
----@field Invalid 16
+---@field ChargedWhipAttack Enum 0
+---@field Direct Enum 1
+---@field Effect Enum 2
+---@field Explosion Enum 3
+---@field ForceKill Enum 4
+---@field GuardBreak Enum 5
+---@field Hack Enum 6
+---@field Melee Enum 7
+---@field PressureWave Enum 8
+---@field QuickMelee Enum 9
+---@field Ranged Enum 10
+---@field Reflect Enum 11
+---@field StrongMelee Enum 12
+---@field Thrown Enum 13
+---@field WhipAttack Enum 14
+---@field Count Enum 15
+---@field Invalid Enum 16
 gamedataAttackType = {}

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamedataChoiceCaptionPartType: Enum
----@field Blueline 0
----@field Icon 1
----@field QuickhackCost 2
----@field Tag 3
----@field Text 4
----@field Count 5
----@field Invalid 6
+---@field Blueline Enum 0
+---@field Icon Enum 1
+---@field QuickhackCost Enum 2
+---@field Tag Enum 3
+---@field Text Enum 4
+---@field Count Enum 5
+---@field Invalid Enum 6
 gamedataChoiceCaptionPartType = {}

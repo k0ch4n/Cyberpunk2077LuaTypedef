@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPlatform: Enum
----@field PC 0
----@field Console 1
----@field LastGenConsole 2
----@field CurrGenConsole 3
+---@field PC Enum 0
+---@field Console Enum 1
+---@field LastGenConsole Enum 2
+---@field CurrGenConsole Enum 3
 questPlatform = {}

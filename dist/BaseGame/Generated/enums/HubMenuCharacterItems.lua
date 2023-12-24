@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class HubMenuCharacterItems: Enum
----@field Skills 0
----@field Stats 1
+---@field Skills Enum 0
+---@field Stats Enum 1
 HubMenuCharacterItems = {}

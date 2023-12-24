@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class physicsFractureFieldValueType: Enum
----@field FFVT_Impulse 0
----@field FFVT_Velocity 1
+---@field FFVT_Impulse Enum 0
+---@field FFVT_Velocity Enum 1
 physicsFractureFieldValueType = {}

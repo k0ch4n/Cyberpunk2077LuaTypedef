@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataConsumableType: Enum
----@field Drug 0
----@field Medical 1
----@field Count 2
----@field Invalid 3
+---@field Drug Enum 0
+---@field Medical Enum 1
+---@field Count Enum 2
+---@field Invalid Enum 3
 gamedataConsumableType = {}

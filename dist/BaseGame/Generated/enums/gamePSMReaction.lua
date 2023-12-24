@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamePSMReaction: Enum
----@field Default 0
----@field Stagger 1
+---@field Default Enum 0
+---@field Stagger Enum 1
 gamePSMReaction = {}

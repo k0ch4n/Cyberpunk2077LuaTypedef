@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gameCombinedStatOperation: Enum
----@field Addition 0
----@field Subtraction 1
----@field Multiplication 2
----@field Division 3
----@field Modulo 4
----@field Invert 5
----@field ComplementMultiplication 6
----@field Count 7
----@field Invalid 8
+---@field Addition Enum 0
+---@field Subtraction Enum 1
+---@field Multiplication Enum 2
+---@field Division Enum 3
+---@field Modulo Enum 4
+---@field Invert Enum 5
+---@field ComplementMultiplication Enum 6
+---@field Count Enum 7
+---@field Invalid Enum 8
 gameCombinedStatOperation = {}

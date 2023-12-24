@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnBraindancePerspective: Enum
----@field FirstPerson 0
----@field ThirdPerson 1
+---@field FirstPerson Enum 0
+---@field ThirdPerson Enum 1
 scnBraindancePerspective = {}

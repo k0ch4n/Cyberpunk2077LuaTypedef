@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMountVehicleType: Enum
----@field Any 0
----@field Car 1
----@field Motorcycle 2
+---@field Any Enum 0
+---@field Car Enum 1
+---@field Motorcycle Enum 2
 questMountVehicleType = {}

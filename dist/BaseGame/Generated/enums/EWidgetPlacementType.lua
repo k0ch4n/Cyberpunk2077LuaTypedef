@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EWidgetPlacementType: Enum
----@field DOCKED 0
----@field FLOATING 1
+---@field DOCKED Enum 0
+---@field FLOATING Enum 1
 EWidgetPlacementType = {}

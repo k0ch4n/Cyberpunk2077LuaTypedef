@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CyberwareScreenType: Enum
----@field Invalid 0
----@field Ripperdoc 1
----@field Inventory 2
+---@field Invalid Enum 0
+---@field Ripperdoc Enum 1
+---@field Inventory Enum 2
 CyberwareScreenType = {}

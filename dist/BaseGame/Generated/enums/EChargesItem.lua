@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EChargesItem: Enum
----@field Grenade 0
----@field HealingItems 1
----@field ProjectileLauncher 2
+---@field Grenade Enum 0
+---@field HealingItems Enum 1
+---@field ProjectileLauncher Enum 2
 EChargesItem = {}

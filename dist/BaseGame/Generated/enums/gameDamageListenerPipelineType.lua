@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDamageListenerPipelineType: Enum
----@field None 0
----@field Damage 1
----@field ProjectedDamage 2
----@field All 4294967295
+---@field None Enum 0
+---@field Damage Enum 1
+---@field ProjectedDamage Enum 2
+---@field All Enum 4294967295
 gameDamageListenerPipelineType = {}

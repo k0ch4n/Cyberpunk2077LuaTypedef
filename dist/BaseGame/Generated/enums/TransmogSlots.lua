@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class TransmogSlots: Enum
----@field Head 0
----@field Face 1
----@field InnerChest 2
----@field OuterChest 3
----@field Legs 4
----@field Feet 5
+---@field Head Enum 0
+---@field Face Enum 1
+---@field InnerChest Enum 2
+---@field OuterChest Enum 3
+---@field Legs Enum 4
+---@field Feet Enum 5
 TransmogSlots = {}

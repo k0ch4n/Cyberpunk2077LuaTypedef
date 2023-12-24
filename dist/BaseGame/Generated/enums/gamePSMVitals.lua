@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePSMVitals: Enum
----@field Alive 0
----@field Dead 1
----@field Resurrecting 2
+---@field Alive Enum 0
+---@field Dead Enum 1
+---@field Resurrecting Enum 2
 gamePSMVitals = {}

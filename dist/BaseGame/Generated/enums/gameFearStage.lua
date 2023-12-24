@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameFearStage: Enum
----@field Relaxed 0
----@field Stressed 1
----@field Alarmed 2
----@field Panic 3
+---@field Relaxed Enum 0
+---@field Stressed Enum 1
+---@field Alarmed Enum 2
+---@field Panic Enum 3
 gameFearStage = {}

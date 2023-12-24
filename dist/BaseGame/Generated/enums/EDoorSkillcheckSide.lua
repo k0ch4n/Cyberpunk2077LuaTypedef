@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EDoorSkillcheckSide: Enum
----@field BOTH 0
----@field ONE 1
----@field TWO 2
+---@field BOTH Enum 0
+---@field ONE Enum 1
+---@field TWO Enum 2
 EDoorSkillcheckSide = {}

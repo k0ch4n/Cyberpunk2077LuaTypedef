@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gamedataAttackSubtype: Enum
----@field BlockAttack 0
----@field BodySlamAttack 1
----@field ComboAttack 2
----@field CrouchAttack 3
----@field DeflectAttack 4
----@field EquipAttack 5
----@field FinalAttack 6
----@field JumpAttack 7
----@field SafeAttack 8
----@field SprintAttack 9
----@field SpyTreeMeleewareAttack 10
----@field ThrowAttack 11
----@field Count 12
----@field Invalid 13
+---@field BlockAttack Enum 0
+---@field BodySlamAttack Enum 1
+---@field ComboAttack Enum 2
+---@field CrouchAttack Enum 3
+---@field DeflectAttack Enum 4
+---@field EquipAttack Enum 5
+---@field FinalAttack Enum 6
+---@field JumpAttack Enum 7
+---@field SafeAttack Enum 8
+---@field SprintAttack Enum 9
+---@field SpyTreeMeleewareAttack Enum 10
+---@field ThrowAttack Enum 11
+---@field Count Enum 12
+---@field Invalid Enum 13
 gamedataAttackSubtype = {}

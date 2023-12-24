@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldProxWindowsType: Enum
----@field SkipWindows 0
----@field PropagateWindows 1
----@field BakeLongDistantWindows 2
----@field BakeWindowsToBuffer 3
+---@field SkipWindows Enum 0
+---@field PropagateWindows Enum 1
+---@field BakeLongDistantWindows Enum 2
+---@field BakeWindowsToBuffer Enum 3
 worldProxWindowsType = {}

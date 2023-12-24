@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AIParameterizationType: Enum
----@field BehaviorArgument 0
----@field CustomValue 1
----@field CharacterRecord 2
----@field TweakDB 3
----@field ActionRecord 4
----@field Blackboard 5
----@field Delegate 6
+---@field BehaviorArgument Enum 0
+---@field CustomValue Enum 1
+---@field CharacterRecord Enum 2
+---@field TweakDB Enum 3
+---@field ActionRecord Enum 4
+---@field Blackboard Enum 5
+---@field Delegate Enum 6
 AIParameterizationType = {}

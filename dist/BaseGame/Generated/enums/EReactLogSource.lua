@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EReactLogSource: Enum
----@field Undefined 0
----@field Detected 1
----@field StimEvent 2
----@field BehaviorCombatCheck 3
----@field BehaviorCombatTrigger 4
+---@field Undefined Enum 0
+---@field Detected Enum 1
+---@field StimEvent Enum 2
+---@field BehaviorCombatCheck Enum 3
+---@field BehaviorCombatTrigger Enum 4
 EReactLogSource = {}

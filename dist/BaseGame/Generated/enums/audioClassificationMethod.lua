@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioClassificationMethod: Enum
----@field HasAnyTag 0
----@field HasAllTags 1
----@field NameEquals 2
----@field EventNameEquals 3
----@field HasAllEventTags 4
+---@field HasAnyTag Enum 0
+---@field HasAllTags Enum 1
+---@field NameEquals Enum 2
+---@field EventNameEquals Enum 3
+---@field HasAllEventTags Enum 4
 audioClassificationMethod = {}

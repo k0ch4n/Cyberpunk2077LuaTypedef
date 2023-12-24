@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataGroupNodeGroupVariableDeriveInfo: Enum
----@field FullyDerived 0
----@field TypeDerived 1
----@field ValueChanged 2
----@field NotDerived 3
+---@field FullyDerived Enum 0
+---@field TypeDerived Enum 1
+---@field ValueChanged Enum 2
+---@field NotDerived Enum 3
 gamedataGroupNodeGroupVariableDeriveInfo = {}

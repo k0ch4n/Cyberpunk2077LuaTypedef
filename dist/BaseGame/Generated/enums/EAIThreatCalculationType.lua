@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EAIThreatCalculationType: Enum
----@field Regular 0
----@field Boss 1
----@field Madness 2
+---@field Regular Enum 0
+---@field Boss Enum 1
+---@field Madness Enum 2
 EAIThreatCalculationType = {}

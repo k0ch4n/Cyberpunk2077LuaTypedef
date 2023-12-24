@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEContinuousMode: Enum
----@field None 0
----@field Start 1
----@field Stop 2
+---@field None Enum 0
+---@field Start Enum 1
+---@field Stop Enum 2
 gameEContinuousMode = {}

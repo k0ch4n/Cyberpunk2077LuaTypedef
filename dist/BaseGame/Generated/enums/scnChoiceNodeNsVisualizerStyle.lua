@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsVisualizerStyle: Enum
----@field onScreen 0
----@field inWorld 1
+---@field onScreen Enum 0
+---@field inWorld Enum 1
 scnChoiceNodeNsVisualizerStyle = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleQuestUIEnable: Enum
----@field Gameplay 0
----@field ForceEnable 1
----@field ForceDisable 2
+---@field Gameplay Enum 0
+---@field ForceEnable Enum 1
+---@field ForceDisable Enum 2
 vehicleQuestUIEnable = {}

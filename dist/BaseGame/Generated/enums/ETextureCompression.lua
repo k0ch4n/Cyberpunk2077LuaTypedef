@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class ETextureCompression: Enum
----@field TCM_None 0
----@field TCM_DXTNoAlpha 1
----@field TCM_DXTAlpha 2
----@field TCM_RGBE 3
----@field TCM_Normalmap 4
----@field TCM_Normals_DEPRECATED 5
----@field TCM_NormalsHigh_DEPRECATED 6
----@field TCM_NormalsGloss_DEPRECATED 7
----@field TCM_TileMap 8
----@field TCM_DXTAlphaLinear 9
----@field TCM_QualityR 10
----@field TCM_QualityRG 11
----@field TCM_QualityColor 12
----@field TCM_HalfHDR_Unsigned 13
----@field TCM_HalfHDR_Signed 14
----@field TCM_Max 15
----@field TCM_Normals 5
----@field TCM_NormalsHigh 6
----@field TCM_NormalsGloss 7
----@field TCM_HalfHDR 13
+---@field TCM_None Enum 0
+---@field TCM_DXTNoAlpha Enum 1
+---@field TCM_DXTAlpha Enum 2
+---@field TCM_RGBE Enum 3
+---@field TCM_Normalmap Enum 4
+---@field TCM_Normals_DEPRECATED Enum 5
+---@field TCM_NormalsHigh_DEPRECATED Enum 6
+---@field TCM_NormalsGloss_DEPRECATED Enum 7
+---@field TCM_TileMap Enum 8
+---@field TCM_DXTAlphaLinear Enum 9
+---@field TCM_QualityR Enum 10
+---@field TCM_QualityRG Enum 11
+---@field TCM_QualityColor Enum 12
+---@field TCM_HalfHDR_Unsigned Enum 13
+---@field TCM_HalfHDR_Signed Enum 14
+---@field TCM_Max Enum 15
+---@field TCM_Normals Enum 5
+---@field TCM_NormalsHigh Enum 6
+---@field TCM_NormalsGloss Enum 7
+---@field TCM_HalfHDR Enum 13
 ETextureCompression = {}

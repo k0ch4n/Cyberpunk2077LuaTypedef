@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class toolsMessageVerbosity: Enum
----@field Normal 0
----@field Verbose 1
+---@field Normal Enum 0
+---@field Verbose Enum 1
 toolsMessageVerbosity = {}

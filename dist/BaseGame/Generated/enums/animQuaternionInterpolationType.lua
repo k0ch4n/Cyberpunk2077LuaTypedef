@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animQuaternionInterpolationType: Enum
----@field Linear 0
----@field Spherical 1
+---@field Linear Enum 0
+---@field Spherical Enum 1
 animQuaternionInterpolationType = {}

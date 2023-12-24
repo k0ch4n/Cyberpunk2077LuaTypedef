@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EDeviceDurabilityState: Enum
----@field NOMINAL 0
----@field MALFUNCTIONING 1
----@field BROKEN 2
----@field DESTROYED 3
+---@field NOMINAL Enum 0
+---@field MALFUNCTIONING Enum 1
+---@field BROKEN Enum 2
+---@field DESTROYED Enum 3
 EDeviceDurabilityState = {}

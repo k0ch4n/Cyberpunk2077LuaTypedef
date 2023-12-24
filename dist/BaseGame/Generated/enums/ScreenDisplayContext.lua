@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ScreenDisplayContext: Enum
----@field Default 0
----@field Vendor 1
----@field Storage 2
+---@field Default Enum 0
+---@field Vendor Enum 1
+---@field Storage Enum 2
 ScreenDisplayContext = {}

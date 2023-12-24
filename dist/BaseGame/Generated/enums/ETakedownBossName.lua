@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ETakedownBossName: Enum
----@field Smasher 0
----@field Oda 1
----@field Royce 2
----@field Sasquatch 3
----@field None 4
+---@field Smasher Enum 0
+---@field Oda Enum 1
+---@field Royce Enum 2
+---@field Sasquatch Enum 3
+---@field None Enum 4
 ETakedownBossName = {}

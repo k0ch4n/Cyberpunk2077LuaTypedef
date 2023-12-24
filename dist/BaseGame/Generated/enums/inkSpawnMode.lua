@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkSpawnMode: Enum
----@field SingleAndMultiplayer 0
----@field OnlySingleplayer 1
----@field OnlyMultiplayer 2
+---@field SingleAndMultiplayer Enum 0
+---@field OnlySingleplayer Enum 1
+---@field OnlyMultiplayer Enum 2
 inkSpawnMode = {}

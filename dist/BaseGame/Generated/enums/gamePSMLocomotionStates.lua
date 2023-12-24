@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class gamePSMLocomotionStates: Enum
----@field Any -1
----@field Default 0
----@field Crouch 1
----@field Sprint 2
----@field Kereznikov 3
----@field Jump 5
----@field Vault 6
----@field Dodge 7
----@field DodgeAir 8
----@field Workspot 9
----@field Slide 10
----@field SlideFall 11
----@field CrouchSprint 12
----@field CrouchDodge 13
+---@field Any Enum -1
+---@field Default Enum 0
+---@field Crouch Enum 1
+---@field Sprint Enum 2
+---@field Kereznikov Enum 3
+---@field Jump Enum 5
+---@field Vault Enum 6
+---@field Dodge Enum 7
+---@field DodgeAir Enum 8
+---@field Workspot Enum 9
+---@field Slide Enum 10
+---@field SlideFall Enum 11
+---@field CrouchSprint Enum 12
+---@field CrouchDodge Enum 13
 gamePSMLocomotionStates = {}

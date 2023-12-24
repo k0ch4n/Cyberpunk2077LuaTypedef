@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class AIArgumentType: Enum
----@field Bool 0
----@field Int 1
----@field Uint64 2
----@field Enum 3
----@field Float 4
----@field CName 5
----@field TreeRef 8
----@field Vector 6
----@field Object 7
----@field NodeRef 9
----@field GlobalNodeId 10
----@field PuppetRef 11
----@field Serializable 12
----@field TweakDBID 13
+---@field Bool Enum 0
+---@field Int Enum 1
+---@field Uint64 Enum 2
+---@field Enum Enum 3
+---@field Float Enum 4
+---@field CName Enum 5
+---@field TreeRef Enum 8
+---@field Vector Enum 6
+---@field Object Enum 7
+---@field NodeRef Enum 9
+---@field GlobalNodeId Enum 10
+---@field PuppetRef Enum 11
+---@field Serializable Enum 12
+---@field TweakDBID Enum 13
 AIArgumentType = {}

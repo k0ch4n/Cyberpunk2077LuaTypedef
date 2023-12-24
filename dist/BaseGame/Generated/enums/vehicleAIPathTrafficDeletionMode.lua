@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class vehicleAIPathTrafficDeletionMode: Enum
----@field INSTANT 0
----@field OUT_OF_VIEW 1
----@field DEFERRED 2
+---@field INSTANT Enum 0
+---@field OUT_OF_VIEW Enum 1
+---@field DEFERRED Enum 2
 vehicleAIPathTrafficDeletionMode = {}

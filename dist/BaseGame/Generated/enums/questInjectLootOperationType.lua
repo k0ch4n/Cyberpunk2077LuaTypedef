@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questInjectLootOperationType: Enum
----@field Inject 0
----@field Remove 1
----@field RemoveAll 2
+---@field Inject Enum 0
+---@field Remove Enum 1
+---@field RemoveAll Enum 2
 questInjectLootOperationType = {}

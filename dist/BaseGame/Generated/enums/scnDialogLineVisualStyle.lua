@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class scnDialogLineVisualStyle: Enum
----@field regular 0
----@field overHead 1
----@field radio 2
----@field globalTV 3
----@field invisible 4
----@field innerDialog 5
----@field overHeadAlwaysVisible 6
----@field alwaysCinematicNoSpeaker 7
----@field globalTVAlwaysVisible 8
----@field narrator 9
+---@field regular Enum 0
+---@field overHead Enum 1
+---@field radio Enum 2
+---@field globalTV Enum 3
+---@field invisible Enum 4
+---@field innerDialog Enum 5
+---@field overHeadAlwaysVisible Enum 6
+---@field alwaysCinematicNoSpeaker Enum 7
+---@field globalTVAlwaysVisible Enum 8
+---@field narrator Enum 9
 scnDialogLineVisualStyle = {}

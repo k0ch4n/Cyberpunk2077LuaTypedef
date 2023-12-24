@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldTrafficSpotDirection: Enum
----@field Forward 0
----@field Backward 1
----@field Both 2
+---@field Forward Enum 0
+---@field Backward Enum 1
+---@field Both Enum 2
 worldTrafficSpotDirection = {}

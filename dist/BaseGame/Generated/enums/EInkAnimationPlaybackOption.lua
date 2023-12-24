@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class EInkAnimationPlaybackOption: Enum
----@field PLAY 0
----@field STOP 1
----@field PAUSE 2
----@field RESUME 3
----@field CONTINUE 4
----@field GO_TO_START 5
----@field GO_TO_END 6
+---@field PLAY Enum 0
+---@field STOP Enum 1
+---@field PAUSE Enum 2
+---@field RESUME Enum 3
+---@field CONTINUE Enum 4
+---@field GO_TO_START Enum 5
+---@field GO_TO_END Enum 6
 EInkAnimationPlaybackOption = {}

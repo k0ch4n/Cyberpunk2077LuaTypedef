@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class CurrencyNotificationAnimState: Enum
----@field Inactive 0
----@field Intro 1
----@field Active 2
----@field Outro 3
+---@field Inactive Enum 0
+---@field Intro Enum 1
+---@field Active Enum 2
+---@field Outro Enum 3
 CurrencyNotificationAnimState = {}

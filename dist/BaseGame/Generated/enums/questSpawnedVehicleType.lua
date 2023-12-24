@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questSpawnedVehicleType: Enum
----@field EntityReferenced 0
----@field AnyCar 1
----@field AnyMotorcycle 2
----@field SpecificVehicle 3
+---@field EntityReferenced Enum 0
+---@field AnyCar Enum 1
+---@field AnyMotorcycle Enum 2
+---@field SpecificVehicle Enum 3
 questSpawnedVehicleType = {}

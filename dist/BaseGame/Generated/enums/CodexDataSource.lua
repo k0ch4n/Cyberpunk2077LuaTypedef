@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class CodexDataSource: Enum
----@field Undefined 0
----@field Codex 1
----@field Onscreen 2
+---@field Undefined Enum 0
+---@field Codex Enum 1
+---@field Onscreen Enum 2
 CodexDataSource = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioVoCpoCharacter: Enum
----@field None 0
----@field Solo 1
----@field Assassin 2
----@field Techie 3
----@field Netrunner 4
+---@field None Enum 0
+---@field Solo Enum 1
+---@field Assassin Enum 2
+---@field Techie Enum 3
+---@field Netrunner Enum 4
 audioVoCpoCharacter = {}

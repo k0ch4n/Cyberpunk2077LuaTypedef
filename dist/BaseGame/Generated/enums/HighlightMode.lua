@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class HighlightMode: Enum
----@field Row 0
----@field Column 1
+---@field Row Enum 0
+---@field Column Enum 1
 HighlightMode = {}

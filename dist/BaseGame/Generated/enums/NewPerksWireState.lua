@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class NewPerksWireState: Enum
----@field Default 0
----@field Available 1
----@field Bought 2
----@field Count 3
----@field All 4
----@field Invalid -1
+---@field Default Enum 0
+---@field Available Enum 1
+---@field Bought Enum 2
+---@field Count Enum 3
+---@field All Enum 4
+---@field Invalid Enum -1
 NewPerksWireState = {}

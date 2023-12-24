@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsELootChoiceType: Enum
----@field Available 0
----@field Unavailable 1
----@field Invisible 2
+---@field Available Enum 0
+---@field Unavailable Enum 1
+---@field Invisible Enum 2
 gameinteractionsELootChoiceType = {}

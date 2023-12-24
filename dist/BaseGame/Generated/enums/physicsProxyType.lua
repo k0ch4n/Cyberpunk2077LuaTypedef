@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class physicsProxyType: Enum
----@field Invalid 0
----@field PhysicalSystem 1
----@field CharacterController 2
----@field Destruction 3
----@field ParticleSystem 4
----@field Trigger 5
----@field Cloth 6
----@field WorldCollision 7
----@field Terrain 8
----@field SimpleCollider 9
----@field AggregateSystem 10
----@field CharacterObstacle 11
----@field Ragdoll 12
----@field FoliageDestruction 13
+---@field Invalid Enum 0
+---@field PhysicalSystem Enum 1
+---@field CharacterController Enum 2
+---@field Destruction Enum 3
+---@field ParticleSystem Enum 4
+---@field Trigger Enum 5
+---@field Cloth Enum 6
+---@field WorldCollision Enum 7
+---@field Terrain Enum 8
+---@field SimpleCollider Enum 9
+---@field AggregateSystem Enum 10
+---@field CharacterObstacle Enum 11
+---@field Ragdoll Enum 12
+---@field FoliageDestruction Enum 13
 physicsProxyType = {}

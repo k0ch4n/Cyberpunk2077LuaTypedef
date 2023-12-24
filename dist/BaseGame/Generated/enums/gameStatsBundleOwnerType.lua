@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gameStatsBundleOwnerType: Enum
----@field None 0
----@field Cleared 1
----@field UniqueItem 2
----@field StackableItem 3
----@field InnerItem 4
----@field Entity 5
----@field Stub 6
----@field Reinitialized 7
----@field Count 8
----@field Invalid 9
+---@field None Enum 0
+---@field Cleared Enum 1
+---@field UniqueItem Enum 2
+---@field StackableItem Enum 3
+---@field InnerItem Enum 4
+---@field Entity Enum 5
+---@field Stub Enum 6
+---@field Reinitialized Enum 7
+---@field Count Enum 8
+---@field Invalid Enum 9
 gameStatsBundleOwnerType = {}

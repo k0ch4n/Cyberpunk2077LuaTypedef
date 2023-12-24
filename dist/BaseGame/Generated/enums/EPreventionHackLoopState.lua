@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EPreventionHackLoopState: Enum
----@field IDLE 0
----@field INTRO_RADIO 1
----@field HACK_LOOP 2
+---@field IDLE Enum 0
+---@field INTRO_RADIO Enum 1
+---@field HACK_LOOP Enum 2
 EPreventionHackLoopState = {}

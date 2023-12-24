@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class UIItemCategory: Enum
----@field Default 0
----@field Weapon 1
----@field Clothing 2
----@field Grenade 3
----@field Cyberware 4
----@field CyberwareWeapon 5
----@field Cyberdeck 6
----@field Program 7
+---@field Default Enum 0
+---@field Weapon Enum 1
+---@field Clothing Enum 2
+---@field Grenade Enum 3
+---@field Cyberware Enum 4
+---@field CyberwareWeapon Enum 5
+---@field Cyberdeck Enum 6
+---@field Program Enum 7
 UIItemCategory = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointDriveType: Enum
----@field AxisX 0
----@field AxisY 1
----@field AxisZ 2
----@field Swing 3
----@field Twist 4
----@field SLERP 5
+---@field AxisX Enum 0
+---@field AxisY Enum 1
+---@field AxisZ Enum 2
+---@field Swing Enum 3
+---@field Twist Enum 4
+---@field SLERP Enum 5
 physicsPhysicsJointDriveType = {}

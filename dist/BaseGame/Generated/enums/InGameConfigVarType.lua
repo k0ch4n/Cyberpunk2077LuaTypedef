@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class InGameConfigVarType: Enum
----@field Bool 0
----@field Int 1
----@field Float 2
----@field Name 3
----@field IntList 4
----@field FloatList 5
----@field StringList 6
----@field NameList 7
+---@field Bool Enum 0
+---@field Int Enum 1
+---@field Float Enum 2
+---@field Name Enum 3
+---@field IntList Enum 4
+---@field FloatList Enum 5
+---@field StringList Enum 6
+---@field NameList Enum 7
 InGameConfigVarType = {}

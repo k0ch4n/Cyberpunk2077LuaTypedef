@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class ECarryState: Enum
----@field None 0
----@field Pickup 1
----@field Carry 2
----@field Drop 3
----@field Release 4
----@field Dispose 5
----@field Jump 6
----@field Aim 7
----@field Throw 8
+---@field None Enum 0
+---@field Pickup Enum 1
+---@field Carry Enum 2
+---@field Drop Enum 3
+---@field Release Enum 4
+---@field Dispose Enum 5
+---@field Jump Enum 6
+---@field Aim Enum 7
+---@field Throw Enum 8
 ECarryState = {}

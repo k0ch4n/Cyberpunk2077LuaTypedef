@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class AICommandContextsType: Enum
----@field Default 0
----@field Immediate 1
----@field Movement 2
----@field Workspot 3
----@field Aiming 4
+---@field Default Enum 0
+---@field Immediate Enum 1
+---@field Movement Enum 2
+---@field Workspot Enum 3
+---@field Aiming Enum 4
 AICommandContextsType = {}

@@ -2,37 +2,37 @@
 ---@diagnostic disable
 
 ---@class GpuWrapApiVertexPackingePackingType: Enum
----@field PT_Invalid -1
----@field PT_Float1 0
----@field PT_Float2 1
----@field PT_Float3 2
----@field PT_Float4 3
----@field PT_Float16_2 4
----@field PT_Float16_4 5
----@field PT_UShort1 6
----@field PT_UShort2 7
----@field PT_UShort4 8
----@field PT_UShort4N 9
----@field PT_Short1 10
----@field PT_Short2 11
----@field PT_Short4 12
----@field PT_Short4N 13
----@field PT_UInt1 14
----@field PT_UInt2 15
----@field PT_UInt3 16
----@field PT_UInt4 17
----@field PT_Int1 18
----@field PT_Int2 19
----@field PT_Int3 20
----@field PT_Int4 21
----@field PT_Color 22
----@field PT_UByte1 23
----@field PT_UByte1F 24
----@field PT_UByte4 25
----@field PT_UByte4N 26
----@field PT_Byte4N 27
----@field PT_Dec4 28
----@field PT_Index16 29
----@field PT_Index32 30
----@field PT_Max 31
+---@field PT_Invalid Enum -1
+---@field PT_Float1 Enum 0
+---@field PT_Float2 Enum 1
+---@field PT_Float3 Enum 2
+---@field PT_Float4 Enum 3
+---@field PT_Float16_2 Enum 4
+---@field PT_Float16_4 Enum 5
+---@field PT_UShort1 Enum 6
+---@field PT_UShort2 Enum 7
+---@field PT_UShort4 Enum 8
+---@field PT_UShort4N Enum 9
+---@field PT_Short1 Enum 10
+---@field PT_Short2 Enum 11
+---@field PT_Short4 Enum 12
+---@field PT_Short4N Enum 13
+---@field PT_UInt1 Enum 14
+---@field PT_UInt2 Enum 15
+---@field PT_UInt3 Enum 16
+---@field PT_UInt4 Enum 17
+---@field PT_Int1 Enum 18
+---@field PT_Int2 Enum 19
+---@field PT_Int3 Enum 20
+---@field PT_Int4 Enum 21
+---@field PT_Color Enum 22
+---@field PT_UByte1 Enum 23
+---@field PT_UByte1F Enum 24
+---@field PT_UByte4 Enum 25
+---@field PT_UByte4N Enum 26
+---@field PT_Byte4N Enum 27
+---@field PT_Dec4 Enum 28
+---@field PT_Index16 Enum 29
+---@field PT_Index32 Enum 30
+---@field PT_Max Enum 31
 GpuWrapApiVertexPackingePackingType = {}

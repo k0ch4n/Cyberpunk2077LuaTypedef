@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questLocationAction: Enum
----@field Entered 0
----@field Exited 1
+---@field Entered Enum 0
+---@field Exited Enum 1
 questLocationAction = {}

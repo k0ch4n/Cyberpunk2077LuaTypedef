@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamedataItemCategory: Enum
----@field Clothing 0
----@field Consumable 1
----@field Cyberware 2
----@field Gadget 3
----@field General 4
----@field Part 5
----@field Weapon 6
----@field WeaponMod 7
----@field Count 8
----@field Invalid 9
+---@field Clothing Enum 0
+---@field Consumable Enum 1
+---@field Cyberware Enum 2
+---@field Gadget Enum 3
+---@field General Enum 4
+---@field Part Enum 5
+---@field Weapon Enum 6
+---@field WeaponMod Enum 7
+---@field Count Enum 8
+---@field Invalid Enum 9
 gamedataItemCategory = {}

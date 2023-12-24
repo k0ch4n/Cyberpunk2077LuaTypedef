@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ECLSForcedState: Enum
----@field DEFAULT 0
----@field ForcedON 1
----@field ForcedOFF 2
+---@field DEFAULT Enum 0
+---@field ForcedON Enum 1
+---@field ForcedOFF Enum 2
 ECLSForcedState = {}

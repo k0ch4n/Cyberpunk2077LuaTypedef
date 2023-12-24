@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELightType: Enum
----@field LT_Point 0
----@field LT_Spot 1
----@field LT_Area 2
+---@field LT_Point Enum 0
+---@field LT_Spot Enum 1
+---@field LT_Area Enum 2
 ELightType = {}

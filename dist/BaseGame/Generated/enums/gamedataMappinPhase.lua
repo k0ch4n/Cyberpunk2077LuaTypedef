@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataMappinPhase: Enum
----@field CompletedPhase 0
----@field DefaultPhase 1
----@field DiscoveredPhase 2
----@field UndiscoveredPhase 3
----@field Count 4
----@field Invalid 5
+---@field CompletedPhase Enum 0
+---@field DefaultPhase Enum 1
+---@field DiscoveredPhase Enum 2
+---@field UndiscoveredPhase Enum 3
+---@field Count Enum 4
+---@field Invalid Enum 5
 gamedataMappinPhase = {}

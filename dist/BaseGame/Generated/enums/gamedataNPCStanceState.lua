@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gamedataNPCStanceState: Enum
----@field Any 0
----@field Cover 1
----@field Crouch 2
----@field Stand 3
----@field Swim 4
----@field Vehicle 5
----@field VehicleWindow 6
----@field Count 7
----@field Invalid 8
+---@field Any Enum 0
+---@field Cover Enum 1
+---@field Crouch Enum 2
+---@field Stand Enum 3
+---@field Swim Enum 4
+---@field Vehicle Enum 5
+---@field VehicleWindow Enum 6
+---@field Count Enum 7
+---@field Invalid Enum 8
 gamedataNPCStanceState = {}

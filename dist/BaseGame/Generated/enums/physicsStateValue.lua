@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class physicsStateValue: Enum
----@field Position 1
----@field Rotation 2
----@field Transform 3
----@field LinearVelocity 4
----@field AngularVelocity 5
----@field LinearSpeed 6
----@field TouchesGround 10
----@field TouchesWalls 11
----@field ImpulseAccumulator 12
----@field IsSleeping 13
----@field Mass 16
----@field Volume 18
----@field IsSimulated 20
----@field IsKinematic 21
----@field TimeDeltaOverride 27
----@field SimulationFilter 32
----@field Radius 30
+---@field Position Enum 1
+---@field Rotation Enum 2
+---@field Transform Enum 3
+---@field LinearVelocity Enum 4
+---@field AngularVelocity Enum 5
+---@field LinearSpeed Enum 6
+---@field TouchesGround Enum 10
+---@field TouchesWalls Enum 11
+---@field ImpulseAccumulator Enum 12
+---@field IsSleeping Enum 13
+---@field Mass Enum 16
+---@field Volume Enum 18
+---@field IsSimulated Enum 20
+---@field IsKinematic Enum 21
+---@field TimeDeltaOverride Enum 27
+---@field SimulationFilter Enum 32
+---@field Radius Enum 30
 physicsStateValue = {}

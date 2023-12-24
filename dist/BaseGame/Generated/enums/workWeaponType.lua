@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class workWeaponType: Enum
----@field Any 0
----@field Ranged 1
----@field OneHandedRanged 2
----@field AssaultRifle 3
----@field Hammer 8
----@field Handgun 9
----@field HeavyMachineGun 10
----@field Katana 11
----@field Knife 12
----@field LightMachineGun 13
----@field LongBlade 14
----@field Melee 16
----@field OneHandedClub 17
----@field PrecisionRifle 18
----@field Revolver 19
----@field Rifle 20
----@field ShortBlade 21
----@field Shotgun 22
----@field ShotgunDual 23
----@field SniperRifle 24
----@field SubmachineGun 25
----@field TwoHandedClub 27
+---@field Any Enum 0
+---@field Ranged Enum 1
+---@field OneHandedRanged Enum 2
+---@field AssaultRifle Enum 3
+---@field Hammer Enum 8
+---@field Handgun Enum 9
+---@field HeavyMachineGun Enum 10
+---@field Katana Enum 11
+---@field Knife Enum 12
+---@field LightMachineGun Enum 13
+---@field LongBlade Enum 14
+---@field Melee Enum 16
+---@field OneHandedClub Enum 17
+---@field PrecisionRifle Enum 18
+---@field Revolver Enum 19
+---@field Rifle Enum 20
+---@field ShortBlade Enum 21
+---@field Shotgun Enum 22
+---@field ShotgunDual Enum 23
+---@field SniperRifle Enum 24
+---@field SubmachineGun Enum 25
+---@field TwoHandedClub Enum 27
 workWeaponType = {}

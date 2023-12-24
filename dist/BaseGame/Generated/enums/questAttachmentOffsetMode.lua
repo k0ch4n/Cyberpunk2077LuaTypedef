@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questAttachmentOffsetMode: Enum
----@field UseRealOffset 0
----@field UseCustomOffset 1
+---@field UseRealOffset Enum 0
+---@field UseCustomOffset Enum 1
 questAttachmentOffsetMode = {}

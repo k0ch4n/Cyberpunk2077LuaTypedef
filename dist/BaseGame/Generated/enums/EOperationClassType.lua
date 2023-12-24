@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class EOperationClassType: Enum
----@field Local 0
----@field BaseState 1
----@field DoorState 2
----@field BaseAction 3
----@field CustomActions 4
----@field TriggerVolume 5
----@field Hit 6
----@field InteractionArea 7
----@field Senses 8
----@field FocusMode 9
+---@field Local Enum 0
+---@field BaseState Enum 1
+---@field DoorState Enum 2
+---@field BaseAction Enum 3
+---@field CustomActions Enum 4
+---@field TriggerVolume Enum 5
+---@field Hit Enum 6
+---@field InteractionArea Enum 7
+---@field Senses Enum 8
+---@field FocusMode Enum 9
 EOperationClassType = {}

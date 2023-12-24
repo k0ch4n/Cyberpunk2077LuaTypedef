@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkEEndCapStyle: Enum
----@field BUTT 0
----@field SQUARE 1
----@field ROUND 2
----@field JOINED 3
+---@field BUTT Enum 0
+---@field SQUARE Enum 1
+---@field ROUND Enum 2
+---@field JOINED Enum 3
 inkEEndCapStyle = {}

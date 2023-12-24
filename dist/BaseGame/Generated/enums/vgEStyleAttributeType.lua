@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vgEStyleAttributeType: Enum
----@field FillColor 0
----@field StrokeColor 1
----@field StrokeSize 2
----@field StrokeMiterLimit 3
----@field FontFamily 4
----@field FontSize 5
+---@field FillColor Enum 0
+---@field StrokeColor Enum 1
+---@field StrokeSize Enum 2
+---@field StrokeMiterLimit Enum 3
+---@field FontFamily Enum 4
+---@field FontSize Enum 5
 vgEStyleAttributeType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveSecureFootingFailureType: Enum
----@field Invalid 0
----@field Edge 1
----@field Slope 2
+---@field Invalid Enum 0
+---@field Edge Enum 1
+---@field Slope Enum 2
 moveSecureFootingFailureType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsBumpSide: Enum
----@field Invalid 0
----@field Left 1
----@field Right 2
+---@field Invalid Enum 0
+---@field Left Enum 1
+---@field Right Enum 2
 gameinteractionsBumpSide = {}

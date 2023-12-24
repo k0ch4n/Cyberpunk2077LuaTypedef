@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterruptReturnLinesBehavior: Enum
----@field Default 0
----@field Vehicle 1
----@field Holocall 2
+---@field Default Enum 0
+---@field Vehicle Enum 1
+---@field Holocall Enum 2
 scnInterruptReturnLinesBehavior = {}

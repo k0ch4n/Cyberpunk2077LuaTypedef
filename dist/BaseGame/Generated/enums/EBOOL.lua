@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EBOOL: Enum
----@field UNINITIALZED 0
----@field FALSE 1
----@field TRUE 2
+---@field UNINITIALZED Enum 0
+---@field FALSE Enum 1
+---@field TRUE Enum 2
 EBOOL = {}

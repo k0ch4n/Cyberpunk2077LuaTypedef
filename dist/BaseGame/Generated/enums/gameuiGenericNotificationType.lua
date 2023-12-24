@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameuiGenericNotificationType: Enum
----@field Generic 0
----@field QuestUpdate 1
----@field Vendor 3
----@field ZoneAlert 4
----@field VehicleAlert 5
----@field PreventionBounty 6
----@field ProgressionView 7
+---@field Generic Enum 0
+---@field QuestUpdate Enum 1
+---@field Vendor Enum 3
+---@field ZoneAlert Enum 4
+---@field VehicleAlert Enum 5
+---@field PreventionBounty Enum 6
+---@field ProgressionView Enum 7
 gameuiGenericNotificationType = {}

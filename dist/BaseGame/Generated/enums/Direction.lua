@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class Direction: Enum
----@field Next 0
----@field Previous 1
+---@field Next Enum 0
+---@field Previous Enum 1
 Direction = {}

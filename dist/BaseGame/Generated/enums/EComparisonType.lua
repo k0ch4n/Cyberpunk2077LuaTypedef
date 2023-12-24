@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class EComparisonType: Enum
----@field Greater 0
----@field GreaterOrEqual 1
----@field Equal 2
----@field NotEqual 3
----@field Less 4
----@field LessOrEqual 5
+---@field Greater Enum 0
+---@field GreaterOrEqual Enum 1
+---@field Equal Enum 2
+---@field NotEqual Enum 3
+---@field Less Enum 4
+---@field LessOrEqual Enum 5
 EComparisonType = {}

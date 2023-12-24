@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameGlobalTierSubtype: Enum
----@field Quest 0
----@field Supervisor 1
+---@field Quest Enum 0
+---@field Supervisor Enum 1
 gameGlobalTierSubtype = {}

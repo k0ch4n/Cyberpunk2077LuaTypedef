@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataUINameplateDisplayType: Enum
----@field AfterScan 0
----@field Always 1
----@field Default 2
----@field Never 3
----@field Count 4
----@field Invalid 5
+---@field AfterScan Enum 0
+---@field Always Enum 1
+---@field Default Enum 2
+---@field Never Enum 3
+---@field Count Enum 4
+---@field Invalid Enum 5
 gamedataUINameplateDisplayType = {}

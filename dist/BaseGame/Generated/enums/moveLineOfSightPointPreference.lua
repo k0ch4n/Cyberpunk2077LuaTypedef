@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class moveLineOfSightPointPreference: Enum
----@field None 0
----@field ClosestToOwner 1
----@field ClosestToTarget 2
----@field FurthestFromTarget 3
+---@field None Enum 0
+---@field ClosestToOwner Enum 1
+---@field ClosestToTarget Enum 2
+---@field FurthestFromTarget Enum 3
 moveLineOfSightPointPreference = {}

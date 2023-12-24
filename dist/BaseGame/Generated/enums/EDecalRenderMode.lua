@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EDecalRenderMode: Enum
----@field DRM_AllStatic 0
----@field DRM_ObjectType 1
----@field DRM_AllDynamic 2
----@field DRM_All 3
+---@field DRM_AllStatic Enum 0
+---@field DRM_ObjectType Enum 1
+---@field DRM_AllDynamic Enum 2
+---@field DRM_All Enum 3
 EDecalRenderMode = {}

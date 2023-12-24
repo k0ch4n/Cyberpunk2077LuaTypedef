@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ESensorDeviceWakeState: Enum
----@field NONE -1
----@field CLOSED 0
----@field WAKEN 1
----@field OPEN 2
+---@field NONE Enum -1
+---@field CLOSED Enum 0
+---@field WAKEN Enum 1
+---@field OPEN Enum 2
 ESensorDeviceWakeState = {}

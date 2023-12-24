@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EGameSessionDataType: Enum
----@field NONE 0
----@field CameraDeadBody 1
----@field CameraTagLimit 2
+---@field NONE Enum 0
+---@field CameraDeadBody Enum 1
+---@field CameraTagLimit Enum 2
 EGameSessionDataType = {}

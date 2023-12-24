@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropdownItemDirection: Enum
----@field None 0
----@field Down 1
----@field Up 2
+---@field None Enum 0
+---@field Down Enum 1
+---@field Up Enum 2
 DropdownItemDirection = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioMaterialHardnessOverride: Enum
----@field None 0
----@field SetAsSoft 1
----@field SetAsSolid 2
----@field SetAsHard 3
+---@field None Enum 0
+---@field SetAsSoft Enum 1
+---@field SetAsSolid Enum 2
+---@field SetAsHard Enum 3
 audioMaterialHardnessOverride = {}

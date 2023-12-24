@@ -2,20 +2,20 @@
 ---@diagnostic disable
 
 ---@class Ft_Result: Enum
----@field Success 0
----@field GettingPlayerGameObjectFailed 1
----@field GetPSMBlackboardFailed 2
----@field GetStatsPoolFailed 3
----@field NoEnemyFoundInSpawner 4
----@field NoEnemyFoundInPool 5
----@field NoEntitiesFoundInSpawner 6
----@field NoEnemyTargeted 7
----@field FailedToSelectGrapple 8
----@field FailedToSelectTakedown 9
----@field TakedownWithoutGrappleAttempt 10
----@field NoInteractionAvailable 11
----@field RequestedInteractionNotAvailable 12
----@field OutOfRange 13
----@field TargetNotInEnemyPool 14
----@field DescriptorFormatError 15
+---@field Success Enum 0
+---@field GettingPlayerGameObjectFailed Enum 1
+---@field GetPSMBlackboardFailed Enum 2
+---@field GetStatsPoolFailed Enum 3
+---@field NoEnemyFoundInSpawner Enum 4
+---@field NoEnemyFoundInPool Enum 5
+---@field NoEntitiesFoundInSpawner Enum 6
+---@field NoEnemyTargeted Enum 7
+---@field FailedToSelectGrapple Enum 8
+---@field FailedToSelectTakedown Enum 9
+---@field TakedownWithoutGrappleAttempt Enum 10
+---@field NoInteractionAvailable Enum 11
+---@field RequestedInteractionNotAvailable Enum 12
+---@field OutOfRange Enum 13
+---@field TargetNotInEnemyPool Enum 14
+---@field DescriptorFormatError Enum 15
 Ft_Result = {}

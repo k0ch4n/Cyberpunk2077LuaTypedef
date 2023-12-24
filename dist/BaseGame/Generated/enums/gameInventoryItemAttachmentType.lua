@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameInventoryItemAttachmentType: Enum
----@field Generic 0
----@field Dedicated 1
+---@field Generic Enum 0
+---@field Dedicated Enum 1
 gameInventoryItemAttachmentType = {}

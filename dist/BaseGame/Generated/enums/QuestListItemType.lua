@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class QuestListItemType: Enum
----@field MainQuest 0
----@field SideQuest 1
----@field Gig 2
----@field Cyberpsycho 3
----@field NCPDQuest 4
----@field Apartment 5
----@field Courier 6
----@field Finished 7
----@field Count 8
----@field All 9
----@field Invalid -1
+---@field MainQuest Enum 0
+---@field SideQuest Enum 1
+---@field Gig Enum 2
+---@field Cyberpsycho Enum 3
+---@field NCPDQuest Enum 4
+---@field Apartment Enum 5
+---@field Courier Enum 6
+---@field Finished Enum 7
+---@field Count Enum 8
+---@field All Enum 9
+---@field Invalid Enum -1
 QuestListItemType = {}

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class EAICoverActionDirection: Enum
----@field Front 0
----@field FrontRight 1
----@field Right 2
----@field BackRight 3
----@field Back 4
----@field BackLeft 5
----@field Left 6
----@field FrontLeft 7
+---@field Front Enum 0
+---@field FrontRight Enum 1
+---@field Right Enum 2
+---@field BackRight Enum 3
+---@field Back Enum 4
+---@field BackLeft Enum 5
+---@field Left Enum 6
+---@field FrontLeft Enum 7
 EAICoverActionDirection = {}

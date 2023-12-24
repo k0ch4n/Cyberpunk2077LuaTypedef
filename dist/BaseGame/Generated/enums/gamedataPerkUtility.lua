@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataPerkUtility: Enum
----@field ActiveUtility 0
----@field PassiveUtility 1
----@field TriggeredUtility 2
----@field Count 3
----@field Invalid 4
+---@field ActiveUtility Enum 0
+---@field PassiveUtility Enum 1
+---@field TriggeredUtility Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataPerkUtility = {}

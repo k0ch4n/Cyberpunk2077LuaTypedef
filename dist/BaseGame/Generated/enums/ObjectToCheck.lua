@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ObjectToCheck: Enum
----@field Player 0
----@field Weapon 1
+---@field Player Enum 0
+---@field Weapon Enum 1
 ObjectToCheck = {}

@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePSMCover: Enum
----@field Any -1
----@field Default 0
----@field InCover 1
----@field Peek 2
----@field Lean 3
----@field OutOfCover 4
+---@field Any Enum -1
+---@field Default Enum 0
+---@field InCover Enum 1
+---@field Peek Enum 2
+---@field Lean Enum 3
+---@field OutOfCover Enum 4
 gamePSMCover = {}

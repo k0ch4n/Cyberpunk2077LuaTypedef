@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EInventoryComboBoxMode: Enum
----@field FromInventory 0
----@field FromEquipment 1
----@field CustomizeFromEquipment 2
----@field CustomizeFromInventory 3
----@field CustomizeCyberware 4
+---@field FromInventory Enum 0
+---@field FromEquipment Enum 1
+---@field CustomizeFromEquipment Enum 2
+---@field CustomizeFromInventory Enum 3
+---@field CustomizeCyberware Enum 4
 EInventoryComboBoxMode = {}

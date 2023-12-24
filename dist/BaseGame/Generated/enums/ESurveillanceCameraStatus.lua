@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ESurveillanceCameraStatus: Enum
----@field THREAT -1
----@field STREAMING 0
----@field WORKING 1
+---@field THREAT Enum -1
+---@field STREAMING Enum 0
+---@field WORKING Enum 1
 ESurveillanceCameraStatus = {}

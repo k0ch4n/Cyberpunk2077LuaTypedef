@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DropPointPackageStatus: Enum
----@field NOT_ACTIVE 0
----@field ACTIVE 1
----@field COLLECTED 2
+---@field NOT_ACTIVE Enum 0
+---@field ACTIVE Enum 1
+---@field COLLECTED Enum 2
 DropPointPackageStatus = {}

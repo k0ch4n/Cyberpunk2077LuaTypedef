@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questNodeType: Enum
----@field Equip 0
----@field Unequip 1
+---@field Equip Enum 0
+---@field Unequip Enum 1
 questNodeType = {}

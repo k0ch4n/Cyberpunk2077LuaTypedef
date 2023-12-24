@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questUIGameContextRequestType: Enum
----@field Push 0
----@field Pop 1
----@field Reset 2
+---@field Push Enum 0
+---@field Pop Enum 1
+---@field Reset Enum 2
 questUIGameContextRequestType = {}

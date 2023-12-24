@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EOutlineType: Enum
----@field NONE 0
----@field GREEN 1
----@field RED 2
----@field YELLOW 3
+---@field NONE Enum 0
+---@field GREEN Enum 1
+---@field RED Enum 2
+---@field YELLOW Enum 3
 EOutlineType = {}

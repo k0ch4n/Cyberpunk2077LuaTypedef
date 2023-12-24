@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class workWorkspotLogic: Enum
----@field Allow 0
----@field Deny 1
+---@field Allow Enum 0
+---@field Deny Enum 1
 workWorkspotLogic = {}

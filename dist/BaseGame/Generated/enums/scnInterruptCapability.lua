@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnInterruptCapability: Enum
----@field None 0
----@field Interruptable 1
----@field NotInterruptable 2
+---@field None Enum 0
+---@field Interruptable Enum 1
+---@field NotInterruptable Enum 2
 scnInterruptCapability = {}

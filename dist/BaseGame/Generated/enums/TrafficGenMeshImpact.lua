@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class TrafficGenMeshImpact: Enum
----@field UseNavigation 0
----@field ForceIgnored 1
----@field ForceBlocking 2
+---@field UseNavigation Enum 0
+---@field ForceIgnored Enum 1
+---@field ForceBlocking Enum 2
 TrafficGenMeshImpact = {}

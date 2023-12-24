@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class QuantityPickerActionType: Enum
----@field Buy 0
----@field Sell 1
----@field TransferToStorage 2
----@field TransferToPlayer 3
----@field Drop 4
----@field Disassembly 5
----@field Craft 6
+---@field Buy Enum 0
+---@field Sell Enum 1
+---@field TransferToStorage Enum 2
+---@field TransferToPlayer Enum 3
+---@field Drop Enum 4
+---@field Disassembly Enum 5
+---@field Craft Enum 6
 QuantityPickerActionType = {}

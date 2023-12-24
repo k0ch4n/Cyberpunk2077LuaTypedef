@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class EMaterialModifier: Enum
----@field EMATMOD_HitProxy 0
----@field EMATMOD_WindData 1
----@field EMATMOD_ParticleParams 2
----@field EMATMOD_RemoteCamera 3
----@field EMATMOD_Mirror 4
----@field EMATMOD_CustomStructBuffer 5
----@field EMATMOD_MotionMatrix 7
----@field EMATMOD_ColorAndTexture 8
----@field EMATMOD_MaterialParams 9
----@field EMATMOD_Eye 10
----@field EMATMOD_Skin 11
----@field EMATMOD_Dismemberment 13
----@field EMATMOD_Garments 14
----@field EMATMOD_ShadowsDebugParams 15
----@field EMATMOD_MultilayeredDebug 16
----@field EMATMOD_ParallaxParams 17
----@field EMATMOD_HighlightsParams 18
----@field EMATMOD_DebugColoring 19
----@field EMATMOD_DrawBufferMask 20
----@field EMATMOD_AutoSpawnData 21
----@field EMATMOD_DestructionRegions 22
----@field EMATMOD_VehicleParams 12
----@field EMATMOD_EffectParams 6
----@field EMATMOD_FloatTracks 23
----@field EMATMOD_AutoHideDistance 24
----@field EMATMOD_Rain 25
----@field EMATMOD_PlanarReflections 26
----@field EMATMOD_WaterSim 27
----@field EMATMOD_TransparencyClipParams 28
----@field EMATMOD_FlatTireParams 29
----@field EMATMOD_MAX 30
+---@field EMATMOD_HitProxy Enum 0
+---@field EMATMOD_WindData Enum 1
+---@field EMATMOD_ParticleParams Enum 2
+---@field EMATMOD_RemoteCamera Enum 3
+---@field EMATMOD_Mirror Enum 4
+---@field EMATMOD_CustomStructBuffer Enum 5
+---@field EMATMOD_MotionMatrix Enum 7
+---@field EMATMOD_ColorAndTexture Enum 8
+---@field EMATMOD_MaterialParams Enum 9
+---@field EMATMOD_Eye Enum 10
+---@field EMATMOD_Skin Enum 11
+---@field EMATMOD_Dismemberment Enum 13
+---@field EMATMOD_Garments Enum 14
+---@field EMATMOD_ShadowsDebugParams Enum 15
+---@field EMATMOD_MultilayeredDebug Enum 16
+---@field EMATMOD_ParallaxParams Enum 17
+---@field EMATMOD_HighlightsParams Enum 18
+---@field EMATMOD_DebugColoring Enum 19
+---@field EMATMOD_DrawBufferMask Enum 20
+---@field EMATMOD_AutoSpawnData Enum 21
+---@field EMATMOD_DestructionRegions Enum 22
+---@field EMATMOD_VehicleParams Enum 12
+---@field EMATMOD_EffectParams Enum 6
+---@field EMATMOD_FloatTracks Enum 23
+---@field EMATMOD_AutoHideDistance Enum 24
+---@field EMATMOD_Rain Enum 25
+---@field EMATMOD_PlanarReflections Enum 26
+---@field EMATMOD_WaterSim Enum 27
+---@field EMATMOD_TransparencyClipParams Enum 28
+---@field EMATMOD_FlatTireParams Enum 29
+---@field EMATMOD_MAX Enum 30
 EMaterialModifier = {}

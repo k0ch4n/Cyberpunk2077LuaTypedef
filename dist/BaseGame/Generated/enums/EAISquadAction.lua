@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class EAISquadAction: Enum
----@field Invalid 0
----@field Shoot 1
----@field Charge 2
----@field TakeCover 3
----@field Search 4
----@field Reprimand 5
----@field Investigate 6
----@field Melee 7
----@field Taunt 8
----@field Defend 9
----@field Takedown 10
----@field Peek 11
----@field GrenadeThrow 12
----@field Dash 13
----@field Sync 14
----@field BattleCry 15
----@field CallOff 16
----@field BackUp 17
----@field RangedStrafe 18
----@field Quickhack 19
----@field GroupReaction 20
----@field Crouch 21
+---@field Invalid Enum 0
+---@field Shoot Enum 1
+---@field Charge Enum 2
+---@field TakeCover Enum 3
+---@field Search Enum 4
+---@field Reprimand Enum 5
+---@field Investigate Enum 6
+---@field Melee Enum 7
+---@field Taunt Enum 8
+---@field Defend Enum 9
+---@field Takedown Enum 10
+---@field Peek Enum 11
+---@field GrenadeThrow Enum 12
+---@field Dash Enum 13
+---@field Sync Enum 14
+---@field BattleCry Enum 15
+---@field CallOff Enum 16
+---@field BackUp Enum 17
+---@field RangedStrafe Enum 18
+---@field Quickhack Enum 19
+---@field GroupReaction Enum 20
+---@field Crouch Enum 21
 EAISquadAction = {}

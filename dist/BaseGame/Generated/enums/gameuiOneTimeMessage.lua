@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameuiOneTimeMessage: Enum
----@field XboxCompatibilityLimitation 0
+---@field XboxCompatibilityLimitation Enum 0
 gameuiOneTimeMessage = {}

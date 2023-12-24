@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class audioAudioEventFlags: Enum
----@field NoEventFlags 0
----@field SloMoOnly 1
----@field Music 2
----@field Unique 4
----@field Metadata 8
+---@field NoEventFlags Enum 0
+---@field SloMoOnly Enum 1
+---@field Music Enum 2
+---@field Unique Enum 4
+---@field Metadata Enum 8
 audioAudioEventFlags = {}

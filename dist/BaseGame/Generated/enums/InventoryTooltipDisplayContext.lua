@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class InventoryTooltipDisplayContext: Enum
----@field Default 0
----@field Attachment 1
----@field Crafting 2
----@field Upgrading 3
----@field HUD 4
----@field Vendor 5
+---@field Default Enum 0
+---@field Attachment Enum 1
+---@field Crafting Enum 2
+---@field Upgrading Enum 3
+---@field HUD Enum 4
+---@field Vendor Enum 5
 InventoryTooltipDisplayContext = {}

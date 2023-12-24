@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class gamedataNPCUpperBodyState: Enum
----@field Aim 0
----@field Any 1
----@field Attack 2
----@field ChargedAttack 3
----@field Defend 4
----@field Equip 5
----@field Normal 6
----@field Parry 7
----@field Reload 8
----@field Shoot 9
----@field Taunt 10
----@field Count 11
----@field Invalid 12
+---@field Aim Enum 0
+---@field Any Enum 1
+---@field Attack Enum 2
+---@field ChargedAttack Enum 3
+---@field Defend Enum 4
+---@field Equip Enum 5
+---@field Normal Enum 6
+---@field Parry Enum 7
+---@field Reload Enum 8
+---@field Shoot Enum 9
+---@field Taunt Enum 10
+---@field Count Enum 11
+---@field Invalid Enum 12
 gamedataNPCUpperBodyState = {}

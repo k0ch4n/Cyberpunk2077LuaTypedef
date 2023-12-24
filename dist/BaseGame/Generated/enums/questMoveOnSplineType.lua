@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMoveOnSplineType: Enum
----@field Simple 0
----@field Anim 1
----@field WithCompanion 2
+---@field Simple Enum 0
+---@field Anim Enum 1
+---@field WithCompanion Enum 2
 questMoveOnSplineType = {}

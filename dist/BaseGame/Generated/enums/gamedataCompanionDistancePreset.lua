@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataCompanionDistancePreset: Enum
----@field Close 0
----@field Far 1
----@field Medium 2
----@field VeryFar 3
----@field Count 4
----@field Invalid 5
+---@field Close Enum 0
+---@field Far Enum 1
+---@field Medium Enum 2
+---@field VeryFar Enum 3
+---@field Count Enum 4
+---@field Invalid Enum 5
 gamedataCompanionDistancePreset = {}

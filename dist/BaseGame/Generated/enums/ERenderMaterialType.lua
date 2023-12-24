@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ERenderMaterialType: Enum
----@field RMT_Standard 0
----@field RMT_Subsurface 1
----@field RMT_Cloth 2
----@field RMT_Eye 3
----@field RMT_Hair 4
----@field RMT_Foliage 5
+---@field RMT_Standard Enum 0
+---@field RMT_Subsurface Enum 1
+---@field RMT_Cloth Enum 2
+---@field RMT_Eye Enum 3
+---@field RMT_Hair Enum 4
+---@field RMT_Foliage Enum 5
 ERenderMaterialType = {}

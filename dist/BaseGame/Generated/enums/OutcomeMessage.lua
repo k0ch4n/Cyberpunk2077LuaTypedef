@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class OutcomeMessage: Enum
----@field Success 0
----@field Failure 1
+---@field Success Enum 0
+---@field Failure Enum 1
 OutcomeMessage = {}

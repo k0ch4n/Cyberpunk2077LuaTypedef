@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animAnimationType: Enum
----@field Normal 0
----@field AdditiveFromRefPose 1
----@field AdditiveFromFirstFrame 2
----@field Additive 3
----@field AdditiveWithoutFirstFrame 4
+---@field Normal Enum 0
+---@field AdditiveFromRefPose Enum 1
+---@field AdditiveFromFirstFrame Enum 2
+---@field Additive Enum 3
+---@field AdditiveWithoutFirstFrame Enum 4
 animAnimationType = {}

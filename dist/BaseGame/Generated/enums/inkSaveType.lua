@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class inkSaveType: Enum
----@field ManualSave 0
----@field QuickSave 1
----@field AutoSave 2
----@field PointOfNoReturn 3
----@field EndGameSave 4
+---@field ManualSave Enum 0
+---@field QuickSave Enum 1
+---@field AutoSave Enum 2
+---@field PointOfNoReturn Enum 3
+---@field EndGameSave Enum 4
 inkSaveType = {}

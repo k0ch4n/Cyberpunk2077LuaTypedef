@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textTextShapingMethod: Enum
----@field Auto 0
----@field KerningOnly 1
----@field FullShaping 2
+---@field Auto Enum 0
+---@field KerningOnly Enum 1
+---@field FullShaping Enum 2
 textTextShapingMethod = {}

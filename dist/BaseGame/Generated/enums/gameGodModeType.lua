@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameGodModeType: Enum
----@field Immortal 1
----@field Invulnerable 0
----@field Mortal 2
+---@field Immortal Enum 1
+---@field Invulnerable Enum 0
+---@field Mortal Enum 2
 gameGodModeType = {}

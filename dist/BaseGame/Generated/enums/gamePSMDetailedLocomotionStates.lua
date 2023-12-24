@@ -2,36 +2,36 @@
 ---@diagnostic disable
 
 ---@class gamePSMDetailedLocomotionStates: Enum
----@field NotInBaseLocomotion 0
----@field Stand 1
----@field AimWalk 2
----@field Crouch 3
----@field Sprint 4
----@field Slide 5
----@field SlideFall 6
----@field Dodge 7
----@field Climb 8
----@field Vault 9
----@field Ladder 10
----@field LadderSprint 11
----@field LadderSlide 12
----@field LadderJump 13
----@field Fall 14
----@field AirThrusters 15
----@field AirHover 16
----@field SuperheroFall 17
----@field Jump 18
----@field DoubleJump 19
----@field ChargeJump 20
----@field HoverJump 21
----@field DodgeAir 22
----@field RegularLand 23
----@field HardLand 24
----@field VeryHardLand 25
----@field DeathLand 26
----@field SuperheroLand 27
----@field SuperheroLandRecovery 28
----@field Knockdown 29
----@field CrouchSprint 30
----@field Felled 31
+---@field NotInBaseLocomotion Enum 0
+---@field Stand Enum 1
+---@field AimWalk Enum 2
+---@field Crouch Enum 3
+---@field Sprint Enum 4
+---@field Slide Enum 5
+---@field SlideFall Enum 6
+---@field Dodge Enum 7
+---@field Climb Enum 8
+---@field Vault Enum 9
+---@field Ladder Enum 10
+---@field LadderSprint Enum 11
+---@field LadderSlide Enum 12
+---@field LadderJump Enum 13
+---@field Fall Enum 14
+---@field AirThrusters Enum 15
+---@field AirHover Enum 16
+---@field SuperheroFall Enum 17
+---@field Jump Enum 18
+---@field DoubleJump Enum 19
+---@field ChargeJump Enum 20
+---@field HoverJump Enum 21
+---@field DodgeAir Enum 22
+---@field RegularLand Enum 23
+---@field HardLand Enum 24
+---@field VeryHardLand Enum 25
+---@field DeathLand Enum 26
+---@field SuperheroLand Enum 27
+---@field SuperheroLandRecovery Enum 28
+---@field Knockdown Enum 29
+---@field CrouchSprint Enum 30
+---@field Felled Enum 31
 gamePSMDetailedLocomotionStates = {}

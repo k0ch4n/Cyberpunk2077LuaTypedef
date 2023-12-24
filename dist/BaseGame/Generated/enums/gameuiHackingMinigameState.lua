@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiHackingMinigameState: Enum
----@field Unknown 0
----@field InProgress 1
----@field Succeeded 2
----@field Failed 3
+---@field Unknown Enum 0
+---@field InProgress Enum 1
+---@field Succeeded Enum 2
+---@field Failed Enum 3
 gameuiHackingMinigameState = {}

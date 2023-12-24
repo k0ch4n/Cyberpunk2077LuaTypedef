@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerAIDirectorFunction: Enum
----@field SetStatus 0
----@field SetCurrentPath 1
----@field OverrideScheduleEntry 2
----@field SetCurrentShedule 3
+---@field SetStatus Enum 0
+---@field SetCurrentPath Enum 1
+---@field OverrideScheduleEntry Enum 2
+---@field SetCurrentShedule Enum 3
 questMultiplayerAIDirectorFunction = {}

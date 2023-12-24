@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointAxis: Enum
----@field AxisX 0
----@field AxisY 1
----@field AxisZ 2
----@field Twist 3
----@field Swing1 4
----@field Swing2 5
+---@field AxisX Enum 0
+---@field AxisY Enum 1
+---@field AxisZ Enum 2
+---@field Twist Enum 3
+---@field Swing1 Enum 4
+---@field Swing2 Enum 5
 physicsPhysicsJointAxis = {}

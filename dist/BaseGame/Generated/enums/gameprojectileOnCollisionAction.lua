@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameprojectileOnCollisionAction: Enum
----@field None 0
----@field Stop 1
----@field Bounce 2
----@field StopAndStick 3
----@field StopAndStickPerpendicular 4
----@field Pierce 5
+---@field None Enum 0
+---@field Stop Enum 1
+---@field Bounce Enum 2
+---@field StopAndStick Enum 3
+---@field StopAndStickPerpendicular Enum 4
+---@field Pierce Enum 5
 gameprojectileOnCollisionAction = {}

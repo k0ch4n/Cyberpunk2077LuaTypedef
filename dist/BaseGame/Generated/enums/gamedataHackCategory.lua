@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamedataHackCategory: Enum
----@field BreachingHack 0
----@field ControlHack 1
----@field CovertHack 2
----@field DamageHack 3
----@field DeviceHack 4
----@field NotAHack 5
----@field UltimateHack 6
----@field VehicleHack 7
----@field Count 8
----@field Invalid 9
+---@field BreachingHack Enum 0
+---@field ControlHack Enum 1
+---@field CovertHack Enum 2
+---@field DamageHack Enum 3
+---@field DeviceHack Enum 4
+---@field NotAHack Enum 5
+---@field UltimateHack Enum 6
+---@field VehicleHack Enum 7
+---@field Count Enum 8
+---@field Invalid Enum 9
 gamedataHackCategory = {}

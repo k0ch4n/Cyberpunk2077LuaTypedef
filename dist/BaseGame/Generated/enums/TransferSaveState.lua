@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class TransferSaveState: Enum
----@field ExportConfirmation 0
----@field ExportSpinner 1
----@field ExportSuccess 2
----@field ExportFailed 3
----@field ImportSpinner 4
----@field ImportLoading 5
----@field ImportNoSave 6
----@field ImportFailed 7
----@field ImportNotEnoughSpace 8
+---@field ExportConfirmation Enum 0
+---@field ExportSpinner Enum 1
+---@field ExportSuccess Enum 2
+---@field ExportFailed Enum 3
+---@field ImportSpinner Enum 4
+---@field ImportLoading Enum 5
+---@field ImportNoSave Enum 6
+---@field ImportFailed Enum 7
+---@field ImportNotEnoughSpace Enum 8
 TransferSaveState = {}

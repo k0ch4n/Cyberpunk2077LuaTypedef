@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questProximityProgressBarAction: Enum
----@field Activated 0
----@field Inactivated 1
----@field Completed 2
----@field WentOutOfRange 3
+---@field Activated Enum 0
+---@field Inactivated Enum 1
+---@field Completed Enum 2
+---@field WentOutOfRange Enum 3
 questProximityProgressBarAction = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameBinkVideoAction: Enum
----@field Undefined 0
----@field Start 1
----@field Stop 2
+---@field Undefined Enum 0
+---@field Start Enum 1
+---@field Stop Enum 2
 gameBinkVideoAction = {}

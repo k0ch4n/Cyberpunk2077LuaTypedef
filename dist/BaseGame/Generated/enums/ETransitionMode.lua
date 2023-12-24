@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ETransitionMode: Enum
----@field GENTLE 0
----@field FORCED 1
+---@field GENTLE Enum 0
+---@field FORCED Enum 1
 ETransitionMode = {}

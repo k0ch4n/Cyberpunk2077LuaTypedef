@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animFacialEmotionTransitionType: Enum
----@field Natural 0
----@field Fast 1
----@field Blend 2
----@field Instant 3
----@field Custom 4
+---@field Natural Enum 0
+---@field Fast Enum 1
+---@field Blend Enum 2
+---@field Instant Enum 3
+---@field Custom Enum 4
 animFacialEmotionTransitionType = {}

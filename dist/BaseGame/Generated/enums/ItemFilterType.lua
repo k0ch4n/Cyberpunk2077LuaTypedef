@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class ItemFilterType: Enum
----@field All 0
----@field Weapons 1
----@field Clothes 2
----@field Consumables 3
----@field Cyberware 4
----@field Attachments 5
----@field Quest 6
----@field Buyback 7
----@field LightWeapons 8
----@field HeavyWeapons 9
----@field MeleeWeapons 10
----@field Hacks 11
+---@field All Enum 0
+---@field Weapons Enum 1
+---@field Clothes Enum 2
+---@field Consumables Enum 3
+---@field Cyberware Enum 4
+---@field Attachments Enum 5
+---@field Quest Enum 6
+---@field Buyback Enum 7
+---@field LightWeapons Enum 8
+---@field HeavyWeapons Enum 9
+---@field MeleeWeapons Enum 10
+---@field Hacks Enum 11
 ItemFilterType = {}

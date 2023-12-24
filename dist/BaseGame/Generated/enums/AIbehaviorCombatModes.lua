@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCombatModes: Enum
----@field Default 0
----@field LowFPS 1
----@field Background 2
+---@field Default Enum 0
+---@field LowFPS Enum 1
+---@field Background Enum 2
 AIbehaviorCombatModes = {}

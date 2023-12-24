@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMuppetInputActionType: Enum
----@field Unknown 0
----@field Impulse 1
----@field Press 2
+---@field Unknown Enum 0
+---@field Impulse Enum 1
+---@field Press Enum 2
 gameMuppetInputActionType = {}

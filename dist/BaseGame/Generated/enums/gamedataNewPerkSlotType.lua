@@ -2,69 +2,69 @@
 ---@diagnostic disable
 
 ---@class gamedataNewPerkSlotType: Enum
----@field Central_Milestone_1 0
----@field Central_Milestone_2 1
----@field Central_Milestone_3 2
----@field Central_Perk_1_1 3
----@field Central_Perk_1_2 4
----@field Central_Perk_1_3 5
----@field Central_Perk_1_4 6
----@field Central_Perk_2_1 7
----@field Central_Perk_2_2 8
----@field Central_Perk_2_3 9
----@field Central_Perk_2_4 10
----@field Central_Perk_3_1 11
----@field Central_Perk_3_2 12
----@field Central_Perk_3_3 13
----@field Central_Perk_3_4 14
----@field Espionage_Main_Perk_1 15
----@field Espionage_Main_Perk_1_Side_1 16
----@field Espionage_Main_Perk_1_Side_2 17
----@field Espionage_Main_Perk_1_Side_3 18
----@field Espionage_Main_Perk_1_Side_4 19
----@field Espionage_Main_Perk_2 20
----@field Espionage_Main_Perk_2_Side_1 21
----@field Espionage_Main_Perk_3 22
----@field Espionage_Main_Perk_3_Side_1 23
----@field Inbetween_Left_2 24
----@field Inbetween_Left_3 25
----@field Inbetween_Right_2 26
----@field Inbetween_Right_3 27
----@field Left_Milestone_1 28
----@field Left_Milestone_2 29
----@field Left_Milestone_3 30
----@field Left_Perk_1_1 31
----@field Left_Perk_1_2 32
----@field Left_Perk_1_3 33
----@field Left_Perk_1_4 34
----@field Left_Perk_2_1 35
----@field Left_Perk_2_2 36
----@field Left_Perk_2_3 37
----@field Left_Perk_2_4 38
----@field Left_Perk_3_1 39
----@field Left_Perk_3_2 40
----@field Left_Perk_3_3 41
----@field Left_Perk_3_4 42
----@field Master_Perk_1 43
----@field Master_Perk_2 44
----@field Master_Perk_3 45
----@field Master_Perk_4 46
----@field Master_Perk_5 47
----@field Right_Milestone_1 48
----@field Right_Milestone_2 49
----@field Right_Milestone_3 50
----@field Right_Perk_1_1 51
----@field Right_Perk_1_2 52
----@field Right_Perk_1_3 53
----@field Right_Perk_1_4 54
----@field Right_Perk_2_1 55
----@field Right_Perk_2_2 56
----@field Right_Perk_2_3 57
----@field Right_Perk_2_4 58
----@field Right_Perk_3_1 59
----@field Right_Perk_3_2 60
----@field Right_Perk_3_3 61
----@field Right_Perk_3_4 62
----@field Count 63
----@field Invalid 64
+---@field Central_Milestone_1 Enum 0
+---@field Central_Milestone_2 Enum 1
+---@field Central_Milestone_3 Enum 2
+---@field Central_Perk_1_1 Enum 3
+---@field Central_Perk_1_2 Enum 4
+---@field Central_Perk_1_3 Enum 5
+---@field Central_Perk_1_4 Enum 6
+---@field Central_Perk_2_1 Enum 7
+---@field Central_Perk_2_2 Enum 8
+---@field Central_Perk_2_3 Enum 9
+---@field Central_Perk_2_4 Enum 10
+---@field Central_Perk_3_1 Enum 11
+---@field Central_Perk_3_2 Enum 12
+---@field Central_Perk_3_3 Enum 13
+---@field Central_Perk_3_4 Enum 14
+---@field Espionage_Main_Perk_1 Enum 15
+---@field Espionage_Main_Perk_1_Side_1 Enum 16
+---@field Espionage_Main_Perk_1_Side_2 Enum 17
+---@field Espionage_Main_Perk_1_Side_3 Enum 18
+---@field Espionage_Main_Perk_1_Side_4 Enum 19
+---@field Espionage_Main_Perk_2 Enum 20
+---@field Espionage_Main_Perk_2_Side_1 Enum 21
+---@field Espionage_Main_Perk_3 Enum 22
+---@field Espionage_Main_Perk_3_Side_1 Enum 23
+---@field Inbetween_Left_2 Enum 24
+---@field Inbetween_Left_3 Enum 25
+---@field Inbetween_Right_2 Enum 26
+---@field Inbetween_Right_3 Enum 27
+---@field Left_Milestone_1 Enum 28
+---@field Left_Milestone_2 Enum 29
+---@field Left_Milestone_3 Enum 30
+---@field Left_Perk_1_1 Enum 31
+---@field Left_Perk_1_2 Enum 32
+---@field Left_Perk_1_3 Enum 33
+---@field Left_Perk_1_4 Enum 34
+---@field Left_Perk_2_1 Enum 35
+---@field Left_Perk_2_2 Enum 36
+---@field Left_Perk_2_3 Enum 37
+---@field Left_Perk_2_4 Enum 38
+---@field Left_Perk_3_1 Enum 39
+---@field Left_Perk_3_2 Enum 40
+---@field Left_Perk_3_3 Enum 41
+---@field Left_Perk_3_4 Enum 42
+---@field Master_Perk_1 Enum 43
+---@field Master_Perk_2 Enum 44
+---@field Master_Perk_3 Enum 45
+---@field Master_Perk_4 Enum 46
+---@field Master_Perk_5 Enum 47
+---@field Right_Milestone_1 Enum 48
+---@field Right_Milestone_2 Enum 49
+---@field Right_Milestone_3 Enum 50
+---@field Right_Perk_1_1 Enum 51
+---@field Right_Perk_1_2 Enum 52
+---@field Right_Perk_1_3 Enum 53
+---@field Right_Perk_1_4 Enum 54
+---@field Right_Perk_2_1 Enum 55
+---@field Right_Perk_2_2 Enum 56
+---@field Right_Perk_2_3 Enum 57
+---@field Right_Perk_2_4 Enum 58
+---@field Right_Perk_3_1 Enum 59
+---@field Right_Perk_3_2 Enum 60
+---@field Right_Perk_3_3 Enum 61
+---@field Right_Perk_3_4 Enum 62
+---@field Count Enum 63
+---@field Invalid Enum 64
 gamedataNewPerkSlotType = {}

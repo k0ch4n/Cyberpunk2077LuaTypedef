@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EAITicketStatus: Enum
----@field Invalid 0
----@field Evaluate 1
----@field OrderFail 2
----@field OrderDone 3
----@field OrderRevoked 4
+---@field Invalid Enum 0
+---@field Evaluate Enum 1
+---@field OrderFail Enum 2
+---@field OrderDone Enum 3
+---@field OrderRevoked Enum 4
 EAITicketStatus = {}

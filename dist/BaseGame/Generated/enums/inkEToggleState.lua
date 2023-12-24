@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class inkEToggleState: Enum
----@field Normal 0
----@field Press 1
----@field Hover 2
----@field Disabled 3
----@field Toggled 4
----@field ToggledPress 5
----@field ToggledHover 6
+---@field Normal Enum 0
+---@field Press Enum 1
+---@field Hover Enum 2
+---@field Disabled Enum 3
+---@field Toggled Enum 4
+---@field ToggledPress Enum 5
+---@field ToggledHover Enum 6
 inkEToggleState = {}

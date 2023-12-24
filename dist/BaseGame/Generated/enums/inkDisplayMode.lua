@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkDisplayMode: Enum
----@field Invalid 0
----@field Basic 1
----@field BasicTranslatable 2
----@field Bold 3
----@field Header 4
----@field Single 5
+---@field Invalid Enum 0
+---@field Basic Enum 1
+---@field BasicTranslatable Enum 2
+---@field Bold Enum 3
+---@field Header Enum 4
+---@field Single Enum 5
 inkDisplayMode = {}

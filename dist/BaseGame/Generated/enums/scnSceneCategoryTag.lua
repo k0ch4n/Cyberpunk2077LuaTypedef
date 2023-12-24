@@ -2,18 +2,18 @@
 ---@diagnostic disable
 
 ---@class scnSceneCategoryTag: Enum
----@field voiceset 0
----@field mainQuests 1
----@field sideQuests 2
----@field minorQuests 3
----@field otherQuests 4
----@field dialoguesQuests 5
----@field streetOpenWorld 6
----@field vendorsOpenWorld 7
----@field dancefloorsOpenWorld 8
----@field cityOpenWorld 9
----@field chatsOpenWorld 10
----@field otherOpenWorld 11
----@field holocalls 12
----@field other 13
+---@field voiceset Enum 0
+---@field mainQuests Enum 1
+---@field sideQuests Enum 2
+---@field minorQuests Enum 3
+---@field otherQuests Enum 4
+---@field dialoguesQuests Enum 5
+---@field streetOpenWorld Enum 6
+---@field vendorsOpenWorld Enum 7
+---@field dancefloorsOpenWorld Enum 8
+---@field cityOpenWorld Enum 9
+---@field chatsOpenWorld Enum 10
+---@field otherOpenWorld Enum 11
+---@field holocalls Enum 12
+---@field other Enum 13
 scnSceneCategoryTag = {}

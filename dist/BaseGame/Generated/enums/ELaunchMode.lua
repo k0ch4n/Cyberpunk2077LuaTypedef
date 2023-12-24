@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELaunchMode: Enum
----@field Primary 0
----@field Secondary 1
----@field None 2
+---@field Primary Enum 0
+---@field Secondary Enum 1
+---@field None Enum 2
 ELaunchMode = {}

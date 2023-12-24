@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entRenderToTextureMode: Enum
----@field Shaded 0
----@field GBufferOnly 1
+---@field Shaded Enum 0
+---@field GBufferOnly Enum 1
 entRenderToTextureMode = {}

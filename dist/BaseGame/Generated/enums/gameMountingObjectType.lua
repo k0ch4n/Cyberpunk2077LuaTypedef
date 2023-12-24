@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameMountingObjectType: Enum
----@field Invalid -1
----@field Object 0
----@field Vehicle 1
----@field Puppet 2
----@field Platform 3
+---@field Invalid Enum -1
+---@field Object Enum 0
+---@field Vehicle Enum 1
+---@field Puppet Enum 2
+---@field Platform Enum 3
 gameMountingObjectType = {}

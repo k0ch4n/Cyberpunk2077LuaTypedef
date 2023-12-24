@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animEBlendTracksMode: Enum
----@field AGBT_BasePose 0
----@field AGBT_Interpolate 1
----@field AGBT_Add 2
+---@field AGBT_BasePose Enum 0
+---@field AGBT_Interpolate Enum 1
+---@field AGBT_Add Enum 2
 animEBlendTracksMode = {}

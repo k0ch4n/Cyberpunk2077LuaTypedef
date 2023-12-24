@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEquipmentSetType: Enum
----@field Offensive 0
----@field Defensive 1
----@field Cyberware 2
+---@field Offensive Enum 0
+---@field Defensive Enum 1
+---@field Cyberware Enum 2
 gameEquipmentSetType = {}

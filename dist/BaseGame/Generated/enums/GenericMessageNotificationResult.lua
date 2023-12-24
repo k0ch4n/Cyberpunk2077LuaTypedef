@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class GenericMessageNotificationResult: Enum
----@field Cancel 0
----@field Confirm 1
----@field OK 2
----@field Yes 3
----@field No 4
+---@field Cancel Enum 0
+---@field Confirm Enum 1
+---@field OK Enum 2
+---@field Yes Enum 3
+---@field No Enum 4
 GenericMessageNotificationResult = {}

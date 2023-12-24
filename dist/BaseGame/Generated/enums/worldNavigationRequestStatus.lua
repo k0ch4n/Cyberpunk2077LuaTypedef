@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldNavigationRequestStatus: Enum
----@field OK 0
----@field InvalidStartingPosition 1
----@field InvalidEndPosition 2
----@field OtherError 3
+---@field OK Enum 0
+---@field InvalidStartingPosition Enum 1
+---@field InvalidEndPosition Enum 2
+---@field OtherError Enum 3
 worldNavigationRequestStatus = {}

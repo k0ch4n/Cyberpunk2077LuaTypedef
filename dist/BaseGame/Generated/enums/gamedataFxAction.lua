@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class gamedataFxAction: Enum
----@field EnterCharge 0
----@field EnterDischarge 1
----@field EnterLowAmmo 2
----@field EnterNoAmmo 3
----@field EnterOverheat 4
----@field EnterReload 5
----@field ExitCharge 6
----@field ExitDischarge 7
----@field ExitLowAmmo 8
----@field ExitNoAmmo 9
----@field ExitOverheat 10
----@field ExitReload 11
----@field ExitShoot 12
----@field MeleeBlock 13
----@field MeleeHit 14
----@field MuzzleBrakeShoot 15
----@field Shoot 16
----@field SilencedShoot 17
----@field Count 18
----@field Invalid 19
+---@field EnterCharge Enum 0
+---@field EnterDischarge Enum 1
+---@field EnterLowAmmo Enum 2
+---@field EnterNoAmmo Enum 3
+---@field EnterOverheat Enum 4
+---@field EnterReload Enum 5
+---@field ExitCharge Enum 6
+---@field ExitDischarge Enum 7
+---@field ExitLowAmmo Enum 8
+---@field ExitNoAmmo Enum 9
+---@field ExitOverheat Enum 10
+---@field ExitReload Enum 11
+---@field ExitShoot Enum 12
+---@field MeleeBlock Enum 13
+---@field MeleeHit Enum 14
+---@field MuzzleBrakeShoot Enum 15
+---@field Shoot Enum 16
+---@field SilencedShoot Enum 17
+---@field Count Enum 18
+---@field Invalid Enum 19
 gamedataFxAction = {}

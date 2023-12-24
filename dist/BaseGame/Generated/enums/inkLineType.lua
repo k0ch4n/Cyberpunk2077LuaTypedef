@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkLineType: Enum
----@field RegularPatternSpacing 0
----@field LoosePatternSpacing 1
+---@field RegularPatternSpacing Enum 0
+---@field LoosePatternSpacing Enum 1
 inkLineType = {}

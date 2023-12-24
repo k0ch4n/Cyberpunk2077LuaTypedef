@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EDepthCollisionEffect: Enum
----@field DCE_Bounce 1
----@field DCE_Glide 2
----@field DCE_Kill 4
+---@field DCE_Bounce Enum 1
+---@field DCE_Glide Enum 2
+---@field DCE_Kill Enum 4
 EDepthCollisionEffect = {}

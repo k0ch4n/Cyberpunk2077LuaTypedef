@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class rendEStreamingObserverMode: Enum
----@field Point 0
----@field Box 1
+---@field Point Enum 0
+---@field Box Enum 1
 rendEStreamingObserverMode = {}

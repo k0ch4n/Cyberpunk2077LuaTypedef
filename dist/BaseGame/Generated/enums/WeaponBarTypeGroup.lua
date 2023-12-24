@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class WeaponBarTypeGroup: Enum
----@field AttackSpeed 0
----@field DamagePerHit 1
----@field Range 2
----@field ReloadSpeed 3
----@field Stamina 4
----@field Handling 5
----@field ReturnTime 6
----@field Invalid -1
+---@field AttackSpeed Enum 0
+---@field DamagePerHit Enum 1
+---@field Range Enum 2
+---@field ReloadSpeed Enum 3
+---@field Stamina Enum 4
+---@field Handling Enum 5
+---@field ReturnTime Enum 6
+---@field Invalid Enum -1
 WeaponBarTypeGroup = {}

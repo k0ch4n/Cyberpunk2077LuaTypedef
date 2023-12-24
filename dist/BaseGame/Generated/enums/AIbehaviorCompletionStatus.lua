@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorCompletionStatus: Enum
----@field FAILURE 0
----@field SUCCESS 1
+---@field FAILURE Enum 0
+---@field SUCCESS Enum 1
 AIbehaviorCompletionStatus = {}

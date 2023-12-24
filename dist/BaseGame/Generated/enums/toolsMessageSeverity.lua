@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class toolsMessageSeverity: Enum
----@field Success 0
----@field Info 1
----@field Warning 2
----@field Error 3
+---@field Success Enum 0
+---@field Info Enum 1
+---@field Warning Enum 2
+---@field Error Enum 3
 toolsMessageSeverity = {}

@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class questEDebugViewMode: Enum
----@field NONE 0
----@field CLAY 1
----@field PURE_GRAY 2
----@field PURE_WHITE 3
----@field SHADOWS 4
----@field BASE_COLOR 5
----@field NORMALS 6
----@field ROUGHNESS 7
----@field METALNESS 8
----@field EMISSIVE 9
----@field MATERIAL_ID 10
----@field WIREFRAME 11
----@field OVERDRAW 12
+---@field NONE Enum 0
+---@field CLAY Enum 1
+---@field PURE_GRAY Enum 2
+---@field PURE_WHITE Enum 3
+---@field SHADOWS Enum 4
+---@field BASE_COLOR Enum 5
+---@field NORMALS Enum 6
+---@field ROUGHNESS Enum 7
+---@field METALNESS Enum 8
+---@field EMISSIVE Enum 9
+---@field MATERIAL_ID Enum 10
+---@field WIREFRAME Enum 11
+---@field OVERDRAW Enum 12
 questEDebugViewMode = {}

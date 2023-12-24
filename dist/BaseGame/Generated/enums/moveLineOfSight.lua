@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class moveLineOfSight: Enum
----@field None 0
----@field Keep 1
----@field Avoid 2
+---@field None Enum 0
+---@field Keep Enum 1
+---@field Avoid Enum 2
 moveLineOfSight = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameCoverHeight: Enum
----@field Invalid 0
----@field Low 1
----@field High 2
+---@field Invalid Enum 0
+---@field Low Enum 1
+---@field High Enum 2
 gameCoverHeight = {}

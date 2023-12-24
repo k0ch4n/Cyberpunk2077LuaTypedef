@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EAIRole: Enum
----@field None 0
----@field Patrol 1
----@field Follower 2
+---@field None Enum 0
+---@field Patrol Enum 1
+---@field Follower Enum 2
 EAIRole = {}

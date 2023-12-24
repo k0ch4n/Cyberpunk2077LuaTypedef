@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkMenuMode: Enum
----@field Unknown 0
----@field PauseMenu 1
----@field HubMenu 2
----@field CustomMenu 3
+---@field Unknown Enum 0
+---@field PauseMenu Enum 1
+---@field HubMenu Enum 2
+---@field CustomMenu Enum 3
 inkMenuMode = {}

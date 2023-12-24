@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class LaserTargettingState: Enum
----@field Start 0
----@field Update 1
----@field End 2
+---@field Start Enum 0
+---@field Update Enum 1
+---@field End Enum 2
 LaserTargettingState = {}

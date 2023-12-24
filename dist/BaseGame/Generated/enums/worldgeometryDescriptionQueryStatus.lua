@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldgeometryDescriptionQueryStatus: Enum
----@field OK 0
----@field NoGeometry 1
----@field UpVectorSameAsDirection 2
+---@field OK Enum 0
+---@field NoGeometry Enum 1
+---@field UpVectorSameAsDirection Enum 2
 worldgeometryDescriptionQueryStatus = {}

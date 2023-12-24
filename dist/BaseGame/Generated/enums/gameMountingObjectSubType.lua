@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMountingObjectSubType: Enum
----@field Invalid -1
----@field Car 0
----@field Bike 1
+---@field Invalid Enum -1
+---@field Car Enum 0
+---@field Bike Enum 1
 gameMountingObjectSubType = {}

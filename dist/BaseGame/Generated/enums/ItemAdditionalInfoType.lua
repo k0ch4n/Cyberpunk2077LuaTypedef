@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ItemAdditionalInfoType: Enum
----@field NONE 0
----@field PRICE 1
----@field TYPE 2
+---@field NONE Enum 0
+---@field PRICE Enum 1
+---@field TYPE Enum 2
 ItemAdditionalInfoType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ETweakAINodeType: Enum
----@field Action 0
----@field Selector 1
----@field Sequence 2
+---@field Action Enum 0
+---@field Selector Enum 1
+---@field Sequence Enum 2
 ETweakAINodeType = {}

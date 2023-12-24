@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ETauntType: Enum
----@field Normal 0
----@field Melee 1
----@field Ranged 2
+---@field Normal Enum 0
+---@field Melee Enum 1
+---@field Ranged Enum 2
 ETauntType = {}

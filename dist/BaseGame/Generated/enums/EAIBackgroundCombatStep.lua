@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EAIBackgroundCombatStep: Enum
----@field ChangeCover 0
----@field ChangeTarget 1
+---@field ChangeCover Enum 0
+---@field ChangeTarget Enum 1
 EAIBackgroundCombatStep = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animAnimStateInterpolationType: Enum
----@field Linear 0
----@field EaseIn 1
----@field EaseOut 2
----@field EaseInOut 3
+---@field Linear Enum 0
+---@field EaseIn Enum 1
+---@field EaseOut Enum 2
+---@field EaseInOut Enum 3
 animAnimStateInterpolationType = {}

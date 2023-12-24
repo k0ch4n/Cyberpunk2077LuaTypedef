@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class UIInventoryItemWeaponBarsType: Enum
----@field Ranged 0
----@field Melee 1
----@field Throwable 2
----@field CyberwareWeapon 3
----@field CyberwareRangedWeapon 4
+---@field Ranged Enum 0
+---@field Melee Enum 1
+---@field Throwable Enum 2
+---@field CyberwareWeapon Enum 3
+---@field CyberwareRangedWeapon Enum 4
 UIInventoryItemWeaponBarsType = {}

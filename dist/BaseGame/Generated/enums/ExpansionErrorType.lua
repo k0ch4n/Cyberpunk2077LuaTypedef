@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ExpansionErrorType: Enum
----@field PurchaseFailed 0
----@field PurchaseDisabled 1
----@field InstallFailed 2
----@field InstallRequestFailed 3
----@field InstallDisabled 4
----@field DataInvalid 5
+---@field PurchaseFailed Enum 0
+---@field PurchaseDisabled Enum 1
+---@field InstallFailed Enum 2
+---@field InstallRequestFailed Enum 3
+---@field InstallDisabled Enum 4
+---@field DataInvalid Enum 5
 ExpansionErrorType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EInitReactionAnim: Enum
----@field Shock 0
----@field Fear 1
----@field Curious 2
----@field Call 3
+---@field Shock Enum 0
+---@field Fear Enum 1
+---@field Curious Enum 2
+---@field Call Enum 3
 EInitReactionAnim = {}

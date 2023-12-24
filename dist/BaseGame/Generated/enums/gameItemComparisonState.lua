@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameItemComparisonState: Enum
----@field Default 0
----@field NoChange 1
----@field Better 2
----@field Worse 3
+---@field Default Enum 0
+---@field NoChange Enum 1
+---@field Better Enum 2
+---@field Worse Enum 3
 gameItemComparisonState = {}

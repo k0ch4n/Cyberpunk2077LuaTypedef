@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELauncherActionType: Enum
----@field QuickAction 0
----@field ChargeAction 1
----@field None 2
+---@field QuickAction Enum 0
+---@field ChargeAction Enum 1
+---@field None Enum 2
 ELauncherActionType = {}

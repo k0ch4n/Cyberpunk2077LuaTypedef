@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class moveExplorationType: Enum
----@field None 0
----@field Ladder 1
----@field Jump 2
----@field Climb 3
----@field Vault 4
----@field ChargedJump 5
----@field ThrusterJump 6
+---@field None Enum 0
+---@field Ladder Enum 1
+---@field Jump Enum 2
+---@field Climb Enum 3
+---@field Vault Enum 4
+---@field ChargedJump Enum 5
+---@field ThrusterJump Enum 6
 moveExplorationType = {}

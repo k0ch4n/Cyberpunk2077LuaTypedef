@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkEButtonState: Enum
----@field Normal 0
----@field Hover 1
----@field Press 2
----@field Disabled 3
+---@field Normal Enum 0
+---@field Hover Enum 1
+---@field Press Enum 2
+---@field Disabled Enum 3
 inkEButtonState = {}

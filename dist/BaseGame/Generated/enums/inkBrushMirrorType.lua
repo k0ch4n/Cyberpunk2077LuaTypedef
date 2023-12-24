@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkBrushMirrorType: Enum
----@field NoMirror 0
----@field Horizontal 1
----@field Vertical 2
----@field Both 3
+---@field NoMirror Enum 0
+---@field Horizontal Enum 1
+---@field Vertical Enum 2
+---@field Both Enum 3
 inkBrushMirrorType = {}

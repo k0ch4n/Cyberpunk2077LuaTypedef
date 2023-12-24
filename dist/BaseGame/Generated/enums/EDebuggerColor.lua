@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EDebuggerColor: Enum
----@field RED 0
----@field YELLOW 1
+---@field RED Enum 0
+---@field YELLOW Enum 1
 EDebuggerColor = {}

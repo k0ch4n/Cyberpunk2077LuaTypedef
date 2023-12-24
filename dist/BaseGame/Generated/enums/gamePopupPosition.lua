@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePopupPosition: Enum
----@field Undefined 0
----@field UpperRight 1
----@field UpperLeft 2
----@field LowerLeft 3
----@field LowerRight 4
----@field Center 5
+---@field Undefined Enum 0
+---@field UpperRight Enum 1
+---@field UpperLeft Enum 2
+---@field LowerLeft Enum 3
+---@field LowerRight Enum 4
+---@field Center Enum 5
 gamePopupPosition = {}

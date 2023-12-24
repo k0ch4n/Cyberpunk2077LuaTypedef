@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EquipmentManipulationRequestType: Enum
----@field Undefined 0
----@field Equip 1
----@field Unequip 2
+---@field Undefined Enum 0
+---@field Equip Enum 1
+---@field Unequip Enum 2
 EquipmentManipulationRequestType = {}

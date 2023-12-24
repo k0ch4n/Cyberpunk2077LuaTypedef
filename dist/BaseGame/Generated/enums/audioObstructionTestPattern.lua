@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class audioObstructionTestPattern: Enum
----@field Direct 0
----@field Cone 1
+---@field Direct Enum 0
+---@field Cone Enum 1
 audioObstructionTestPattern = {}

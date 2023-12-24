@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameJournalCallbackOption: Enum
----@field DoNotFire 0
----@field Fire 1
+---@field DoNotFire Enum 0
+---@field Fire Enum 1
 gameJournalCallbackOption = {}

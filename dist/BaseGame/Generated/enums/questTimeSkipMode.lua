@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questTimeSkipMode: Enum
----@field PreSkip 0
----@field PostSkip 1
+---@field PreSkip Enum 0
+---@field PostSkip Enum 1
 questTimeSkipMode = {}

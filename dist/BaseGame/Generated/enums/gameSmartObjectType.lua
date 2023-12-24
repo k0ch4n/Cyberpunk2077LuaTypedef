@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class gameSmartObjectType: Enum
----@field Default 0
----@field LadderUp 1
----@field LadderDown 2
----@field JumpOnSameLevel 3
----@field Jump3mUp 4
----@field Jump3mDown 5
----@field Climb110cmUp 6
----@field Climb110cmDown 7
----@field Climb200cmUp 8
----@field Climb200cmDown 9
----@field Climb300cmUp 10
----@field Climb300cmDown 11
----@field Vault10cm 12
----@field Vault40cm 13
----@field Vault100cm 14
----@field ChargedJump400cmUp 15
----@field ChargedJump400cmDown 16
----@field ChargedJump600cmUp 17
----@field ChargedJump600cmDown 18
----@field ChargedJump800cmUp 19
----@field ChargedJump800cmDown 20
----@field ThrusterJumpUp 21
----@field ThrusterJumpDown 22
----@field Climb400cmDown 23
----@field Jump4mDown 24
----@field VaultJump7mDown 25
+---@field Default Enum 0
+---@field LadderUp Enum 1
+---@field LadderDown Enum 2
+---@field JumpOnSameLevel Enum 3
+---@field Jump3mUp Enum 4
+---@field Jump3mDown Enum 5
+---@field Climb110cmUp Enum 6
+---@field Climb110cmDown Enum 7
+---@field Climb200cmUp Enum 8
+---@field Climb200cmDown Enum 9
+---@field Climb300cmUp Enum 10
+---@field Climb300cmDown Enum 11
+---@field Vault10cm Enum 12
+---@field Vault40cm Enum 13
+---@field Vault100cm Enum 14
+---@field ChargedJump400cmUp Enum 15
+---@field ChargedJump400cmDown Enum 16
+---@field ChargedJump600cmUp Enum 17
+---@field ChargedJump600cmDown Enum 18
+---@field ChargedJump800cmUp Enum 19
+---@field ChargedJump800cmDown Enum 20
+---@field ThrusterJumpUp Enum 21
+---@field ThrusterJumpDown Enum 22
+---@field Climb400cmDown Enum 23
+---@field Jump4mDown Enum 24
+---@field VaultJump7mDown Enum 25
 gameSmartObjectType = {}

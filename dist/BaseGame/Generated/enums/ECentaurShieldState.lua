@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ECentaurShieldState: Enum
----@field Inactive 0
----@field Activating 1
----@field Active 2
----@field Destroyed 3
----@field Hacked 4
+---@field Inactive Enum 0
+---@field Activating Enum 1
+---@field Active Enum 2
+---@field Destroyed Enum 3
+---@field Hacked Enum 4
 ECentaurShieldState = {}

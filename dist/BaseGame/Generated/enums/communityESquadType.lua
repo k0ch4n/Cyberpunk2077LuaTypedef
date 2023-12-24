@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class communityESquadType: Enum
----@field Global 0
----@field Community 1
----@field Security 2
----@field Unknown 3
+---@field Global Enum 0
+---@field Community Enum 1
+---@field Security Enum 2
+---@field Unknown Enum 3
 communityESquadType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questSocketType: Enum
----@field Undefined 0
----@field Input 1
----@field Output 2
----@field CutSource 3
----@field CutDestination 4
+---@field Undefined Enum 0
+---@field Input Enum 1
+---@field Output Enum 2
+---@field CutSource Enum 3
+---@field CutDestination Enum 4
 questSocketType = {}

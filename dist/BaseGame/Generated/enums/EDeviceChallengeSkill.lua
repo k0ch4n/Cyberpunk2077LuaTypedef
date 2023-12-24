@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EDeviceChallengeSkill: Enum
----@field Invalid 0
----@field Hacking 1
----@field Engineering 2
----@field Athletics 3
+---@field Invalid Enum 0
+---@field Hacking Enum 1
+---@field Engineering Enum 2
+---@field Athletics Enum 3
 EDeviceChallengeSkill = {}

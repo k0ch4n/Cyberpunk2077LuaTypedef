@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class gamedataAIRingType: Enum
----@field Approach 0
----@field Close 1
----@field Default 2
----@field Defend 3
----@field Extreme 4
----@field Far 5
----@field LatestActive 6
----@field Medium 7
----@field Melee 8
----@field Support 9
----@field Undefined 10
----@field Count 11
----@field Invalid 12
+---@field Approach Enum 0
+---@field Close Enum 1
+---@field Default Enum 2
+---@field Defend Enum 3
+---@field Extreme Enum 4
+---@field Far Enum 5
+---@field LatestActive Enum 6
+---@field Medium Enum 7
+---@field Melee Enum 8
+---@field Support Enum 9
+---@field Undefined Enum 10
+---@field Count Enum 11
+---@field Invalid Enum 12
 gamedataAIRingType = {}

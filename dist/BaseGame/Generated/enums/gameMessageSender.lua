@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameMessageSender: Enum
----@field NPC 0
----@field Player 1
+---@field NPC Enum 0
+---@field Player Enum 1
 gameMessageSender = {}

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIFiniteRoleType: Enum
----@field Patrol 0
+---@field Patrol Enum 0
 AIFiniteRoleType = {}

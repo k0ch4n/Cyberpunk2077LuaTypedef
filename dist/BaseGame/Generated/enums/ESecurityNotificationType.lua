@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class ESecurityNotificationType: Enum
----@field REPRIMAND_SUCCESSFUL -2
----@field DEESCALATE -1
----@field DEFAULT 0
----@field ILLEGAL_ACTION 1
----@field REPRIMAND_ESCALATE 2
----@field DEVICE_DESTROYED 3
----@field ALARM 4
----@field SECURITY_GATE 5
----@field COMBAT 6
----@field QUEST 7
+---@field REPRIMAND_SUCCESSFUL Enum -2
+---@field DEESCALATE Enum -1
+---@field DEFAULT Enum 0
+---@field ILLEGAL_ACTION Enum 1
+---@field REPRIMAND_ESCALATE Enum 2
+---@field DEVICE_DESTROYED Enum 3
+---@field ALARM Enum 4
+---@field SECURITY_GATE Enum 5
+---@field COMBAT Enum 6
+---@field QUEST Enum 7
 ESecurityNotificationType = {}

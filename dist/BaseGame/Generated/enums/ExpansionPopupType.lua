@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ExpansionPopupType: Enum
----@field Default 0
----@field Features 1
----@field ThankYou 2
----@field Reloading 3
----@field PreOrder 4
+---@field Default Enum 0
+---@field Features Enum 1
+---@field ThankYou Enum 2
+---@field Reloading Enum 3
+---@field PreOrder Enum 4
 ExpansionPopupType = {}

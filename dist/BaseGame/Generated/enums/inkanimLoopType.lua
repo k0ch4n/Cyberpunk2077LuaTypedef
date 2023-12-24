@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkanimLoopType: Enum
----@field None 0
----@field Cycle 1
----@field PingPong 2
+---@field None Enum 0
+---@field Cycle Enum 1
+---@field PingPong Enum 2
 inkanimLoopType = {}

@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class EAISquadTactic: Enum
----@field Invalid 0
----@field Flanking 1
----@field Assault 2
----@field Snipe 3
----@field Regroup 4
----@field Retreat 5
----@field Defend 6
----@field Suppress 7
----@field Medivac 8
----@field Panic 9
+---@field Invalid Enum 0
+---@field Flanking Enum 1
+---@field Assault Enum 2
+---@field Snipe Enum 3
+---@field Regroup Enum 4
+---@field Retreat Enum 5
+---@field Defend Enum 6
+---@field Suppress Enum 7
+---@field Medivac Enum 8
+---@field Panic Enum 9
 EAISquadTactic = {}

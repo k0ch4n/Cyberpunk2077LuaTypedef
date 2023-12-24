@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class questQuestContentType: Enum
----@field EP1_MainQuest 0
----@field EP1_SideQuest 1
----@field EP1_Minor 2
----@field Fixer 3
----@field MainQuest 4
----@field SideQuest_MainPath 5
----@field SideQuest_Romance 6
----@field SideQuest_Standalone 7
----@field MinorQuestAndSts 8
+---@field EP1_MainQuest Enum 0
+---@field EP1_SideQuest Enum 1
+---@field EP1_Minor Enum 2
+---@field Fixer Enum 3
+---@field MainQuest Enum 4
+---@field SideQuest_MainPath Enum 5
+---@field SideQuest_Romance Enum 6
+---@field SideQuest_Standalone Enum 7
+---@field MinorQuestAndSts Enum 8
 questQuestContentType = {}

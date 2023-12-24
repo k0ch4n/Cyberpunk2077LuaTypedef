@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class scnAnimNameType: Enum
----@field direct 0
----@field reference 1
----@field container 2
----@field dynamic 3
+---@field direct Enum 0
+---@field reference Enum 1
+---@field container Enum 2
+---@field dynamic Enum 3
 scnAnimNameType = {}

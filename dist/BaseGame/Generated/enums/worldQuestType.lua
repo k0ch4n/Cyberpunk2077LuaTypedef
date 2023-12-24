@@ -2,27 +2,27 @@
 ---@diagnostic disable
 
 ---@class worldQuestType: Enum
----@field MainQuest 0
----@field SideQuest 1
----@field StreetStory 2
----@field MinorActivities 3
----@field MiniWorldStories 4
----@field CyberJunkie 5
----@field Courier 6
----@field CourierQuestGiver 7
----@field StuntChallenges 8
----@field StuntChallengesQuestGiver 9
----@field AirDrop 10
----@field BlackMarket 11
----@field Food 12
----@field TechStore 13
----@field Clothing 14
----@field Medpoint 15
----@field WeaponShop 16
----@field Ripperdoc 17
----@field CyberwareShop 18
----@field MeleeWeaponVendor 19
----@field Netrunner 20
----@field Outpost 21
----@field GangWatch 22
+---@field MainQuest Enum 0
+---@field SideQuest Enum 1
+---@field StreetStory Enum 2
+---@field MinorActivities Enum 3
+---@field MiniWorldStories Enum 4
+---@field CyberJunkie Enum 5
+---@field Courier Enum 6
+---@field CourierQuestGiver Enum 7
+---@field StuntChallenges Enum 8
+---@field StuntChallengesQuestGiver Enum 9
+---@field AirDrop Enum 10
+---@field BlackMarket Enum 11
+---@field Food Enum 12
+---@field TechStore Enum 13
+---@field Clothing Enum 14
+---@field Medpoint Enum 15
+---@field WeaponShop Enum 16
+---@field Ripperdoc Enum 17
+---@field CyberwareShop Enum 18
+---@field MeleeWeaponVendor Enum 19
+---@field Netrunner Enum 20
+---@field Outpost Enum 21
+---@field GangWatch Enum 22
 worldQuestType = {}

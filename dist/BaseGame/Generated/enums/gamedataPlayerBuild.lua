@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gamedataPlayerBuild: Enum
----@field Cool 0
----@field Netrunner 1
----@field Reflexes 2
----@field Solo 3
----@field Techie 4
----@field Count 5
----@field Invalid 6
+---@field Cool Enum 0
+---@field Netrunner Enum 1
+---@field Reflexes Enum 2
+---@field Solo Enum 3
+---@field Techie Enum 4
+---@field Count Enum 5
+---@field Invalid Enum 6
 gamedataPlayerBuild = {}

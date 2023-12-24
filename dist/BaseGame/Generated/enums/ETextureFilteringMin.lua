@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class ETextureFilteringMin: Enum
----@field TFMin_Point 0
----@field TFMin_Linear 1
----@field TFMin_Anisotropic 2
----@field TFMin_AnisotropicLow 3
+---@field TFMin_Point Enum 0
+---@field TFMin_Linear Enum 1
+---@field TFMin_Anisotropic Enum 2
+---@field TFMin_AnisotropicLow Enum 3
 ETextureFilteringMin = {}

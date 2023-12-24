@@ -2,24 +2,24 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemSearchFilterMaskValue: Enum
----@field Obj_Player 1
----@field Obj_Puppet 2
----@field Obj_Sensor 4
----@field Obj_Device 8
----@field Obj_Other 16
----@field Att_Friendly 32
----@field Att_Hostile 64
----@field Att_Neutral 128
----@field Sp_AimAssistEnabled 256
----@field Sp_Aggressive 512
----@field St_Alive 2048
----@field St_Dead 4096
----@field St_NotDefeated 8192
----@field St_Defeated 16384
----@field St_Conscious 32768
----@field St_Unconscious 65536
----@field St_TurnedOn 131072
----@field St_TurnedOff 262144
----@field St_QuickHackable 524288
----@field St_AliveAndActive 174080
+---@field Obj_Player Enum 1
+---@field Obj_Puppet Enum 2
+---@field Obj_Sensor Enum 4
+---@field Obj_Device Enum 8
+---@field Obj_Other Enum 16
+---@field Att_Friendly Enum 32
+---@field Att_Hostile Enum 64
+---@field Att_Neutral Enum 128
+---@field Sp_AimAssistEnabled Enum 256
+---@field Sp_Aggressive Enum 512
+---@field St_Alive Enum 2048
+---@field St_Dead Enum 4096
+---@field St_NotDefeated Enum 8192
+---@field St_Defeated Enum 16384
+---@field St_Conscious Enum 32768
+---@field St_Unconscious Enum 65536
+---@field St_TurnedOn Enum 131072
+---@field St_TurnedOff Enum 262144
+---@field St_QuickHackable Enum 524288
+---@field St_AliveAndActive Enum 174080
 gametargetingSystemSearchFilterMaskValue = {}

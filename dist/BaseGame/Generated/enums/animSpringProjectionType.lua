@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animSpringProjectionType: Enum
----@field Disabled 0
----@field ShortestPath 1
+---@field Disabled Enum 0
+---@field ShortestPath Enum 1
 animSpringProjectionType = {}

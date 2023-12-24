@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class gameuiChoiceIndicatorType: Enum
----@field Default 0
----@field Speech 1
----@field Call 2
----@field Arrow 3
----@field Hand 4
----@field Loot 5
----@field Quest 6
----@field FastTravel 7
----@field Solo 9
----@field Netrunner 10
----@field Techie 12
+---@field Default Enum 0
+---@field Speech Enum 1
+---@field Call Enum 2
+---@field Arrow Enum 3
+---@field Hand Enum 4
+---@field Loot Enum 5
+---@field Quest Enum 6
+---@field FastTravel Enum 7
+---@field Solo Enum 9
+---@field Netrunner Enum 10
+---@field Techie Enum 12
 gameuiChoiceIndicatorType = {}

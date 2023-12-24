@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ContactsSortMethod: Enum
----@field ByTime 0
----@field ByName 1
+---@field ByTime Enum 0
+---@field ByName Enum 1
 ContactsSortMethod = {}

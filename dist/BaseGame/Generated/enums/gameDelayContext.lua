@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameDelayContext: Enum
----@field Standard_TD 1
----@field Standard_ND 2
----@field Quest_TD 4
----@field SpawnManager_ND 8
+---@field Standard_TD Enum 1
+---@field Standard_ND Enum 2
+---@field Quest_TD Enum 4
+---@field SpawnManager_ND Enum 8
 gameDelayContext = {}

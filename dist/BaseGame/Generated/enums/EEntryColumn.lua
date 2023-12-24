@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EEntryColumn: Enum
----@field left 0
----@field right 1
+---@field left Enum 0
+---@field right Enum 1
 EEntryColumn = {}

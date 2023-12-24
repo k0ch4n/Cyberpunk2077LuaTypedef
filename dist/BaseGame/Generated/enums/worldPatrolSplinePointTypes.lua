@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPatrolSplinePointTypes: Enum
----@field Workspot 0
----@field LookAt 1
----@field ClearLookAt 2
+---@field Workspot Enum 0
+---@field LookAt Enum 1
+---@field ClearLookAt Enum 2
 worldPatrolSplinePointTypes = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class MessageHash: Enum
----@field Invalid 0
----@field Fake -1
+---@field Invalid Enum 0
+---@field Fake Enum -1
 MessageHash = {}

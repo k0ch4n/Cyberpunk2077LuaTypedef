@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class worldProxyMeshOutputType: Enum
----@field RayScan 0
----@field SurfaceReconstruction 1
----@field LegacyFromVoxels 2
----@field FromCustomMesh 3
----@field FromBoxes 4
----@field FromCollision 5
----@field FromConvexHull 6
----@field BoundsCombine 7
----@field BlobCrowd 8
----@field ReduceTarps 9
----@field KeepCurrent 127
+---@field RayScan Enum 0
+---@field SurfaceReconstruction Enum 1
+---@field LegacyFromVoxels Enum 2
+---@field FromCustomMesh Enum 3
+---@field FromBoxes Enum 4
+---@field FromCollision Enum 5
+---@field FromConvexHull Enum 6
+---@field BoundsCombine Enum 7
+---@field BlobCrowd Enum 8
+---@field ReduceTarps Enum 9
+---@field KeepCurrent Enum 127
 worldProxyMeshOutputType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorUpdateOutcome: Enum
----@field IN_PROGRESS 0
----@field SUCCESS 1
----@field FAILURE 2
+---@field IN_PROGRESS Enum 0
+---@field SUCCESS Enum 1
+---@field FAILURE Enum 2
 AIbehaviorUpdateOutcome = {}

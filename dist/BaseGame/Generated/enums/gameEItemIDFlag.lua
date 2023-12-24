@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameEItemIDFlag: Enum
----@field Preview 1
+---@field Preview Enum 1
 gameEItemIDFlag = {}

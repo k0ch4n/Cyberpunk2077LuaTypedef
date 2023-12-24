@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldNodeSocketType: Enum
----@field Bidirectional 0
----@field Inward 1
----@field Outward 2
----@field Disabled 3
+---@field Bidirectional Enum 0
+---@field Inward Enum 1
+---@field Outward Enum 2
+---@field Disabled Enum 3
 worldNodeSocketType = {}

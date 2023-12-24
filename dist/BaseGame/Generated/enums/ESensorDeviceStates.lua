@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class ESensorDeviceStates: Enum
----@field NONE 0
----@field IDLE 1
----@field IDLEFORCED 2
----@field TARGETLOCK 3
----@field TARGETLOSE 4
----@field TARGETRECEIVED 5
----@field REPRIMAND 6
----@field JAMMER 7
+---@field NONE Enum 0
+---@field IDLE Enum 1
+---@field IDLEFORCED Enum 2
+---@field TARGETLOCK Enum 3
+---@field TARGETLOSE Enum 4
+---@field TARGETRECEIVED Enum 5
+---@field REPRIMAND Enum 6
+---@field JAMMER Enum 7
 ESensorDeviceStates = {}

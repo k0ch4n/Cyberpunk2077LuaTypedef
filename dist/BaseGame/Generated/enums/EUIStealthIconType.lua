@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EUIStealthIconType: Enum
----@field Invalid 0
----@field HostileHuman 1
----@field Camera 2
----@field Turret 3
----@field Drone 4
+---@field Invalid Enum 0
+---@field HostileHuman Enum 1
+---@field Camera Enum 2
+---@field Turret Enum 3
+---@field Drone Enum 4
 EUIStealthIconType = {}

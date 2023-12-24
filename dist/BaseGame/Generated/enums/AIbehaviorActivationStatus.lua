@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorActivationStatus: Enum
----@field NOT_ACTIVATED 0
----@field ACTIVATING 1
----@field ACTIVATED 2
----@field DEACTIVATING 3
+---@field NOT_ACTIVATED Enum 0
+---@field ACTIVATING Enum 1
+---@field ACTIVATED Enum 2
+---@field DEACTIVATING Enum 3
 AIbehaviorActivationStatus = {}

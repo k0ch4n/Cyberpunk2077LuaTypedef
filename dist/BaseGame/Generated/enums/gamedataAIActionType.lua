@@ -2,26 +2,26 @@
 ---@diagnostic disable
 
 ---@class gamedataAIActionType: Enum
----@field BackUp 0
----@field BattleCry 1
----@field Block 2
----@field CallOff 3
----@field Charge 4
----@field Crouch 5
----@field Dash 6
----@field GrenadeThrow 7
----@field GroupReaction 8
----@field Investigate 9
----@field Melee 10
----@field Peek 11
----@field Quickhack 12
----@field Reprimand 13
----@field Search 14
----@field Shoot 15
----@field Sync 16
----@field TakeCover 17
----@field Takedown 18
----@field Taunt 19
----@field Count 20
----@field Invalid 21
+---@field BackUp Enum 0
+---@field BattleCry Enum 1
+---@field Block Enum 2
+---@field CallOff Enum 3
+---@field Charge Enum 4
+---@field Crouch Enum 5
+---@field Dash Enum 6
+---@field GrenadeThrow Enum 7
+---@field GroupReaction Enum 8
+---@field Investigate Enum 9
+---@field Melee Enum 10
+---@field Peek Enum 11
+---@field Quickhack Enum 12
+---@field Reprimand Enum 13
+---@field Search Enum 14
+---@field Shoot Enum 15
+---@field Sync Enum 16
+---@field TakeCover Enum 17
+---@field Takedown Enum 18
+---@field Taunt Enum 19
+---@field Count Enum 20
+---@field Invalid Enum 21
 gamedataAIActionType = {}

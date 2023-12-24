@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gameOnlineSystemStatus: Enum
----@field Uninitialized 0
----@field GeneratingCPID 1
----@field CheckingRegistrationStatus 2
----@field RegistrationPending 3
----@field Registered 4
----@field Error 5
+---@field Uninitialized Enum 0
+---@field GeneratingCPID Enum 1
+---@field CheckingRegistrationStatus Enum 2
+---@field RegistrationPending Enum 3
+---@field Registered Enum 4
+---@field Error Enum 5
 gameOnlineSystemStatus = {}

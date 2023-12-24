@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class audiobreathingEventTag: Enum
----@field Walk 0
----@field Jog 1
----@field Run 2
----@field Sneak 3
----@field Cloth 4
----@field FootStepRegular 5
----@field FootStepSprint 6
----@field LandingRegular 7
----@field LandingHard 8
----@field LandingVeryHard 9
----@field Climb 10
----@field Jump 11
----@field Player 12
----@field Stop 13
----@field Drop_Body 14
----@field Pick_Up_Body 15
----@field Standing_Event 16
+---@field Walk Enum 0
+---@field Jog Enum 1
+---@field Run Enum 2
+---@field Sneak Enum 3
+---@field Cloth Enum 4
+---@field FootStepRegular Enum 5
+---@field FootStepSprint Enum 6
+---@field LandingRegular Enum 7
+---@field LandingHard Enum 8
+---@field LandingVeryHard Enum 9
+---@field Climb Enum 10
+---@field Jump Enum 11
+---@field Player Enum 12
+---@field Stop Enum 13
+---@field Drop_Body Enum 14
+---@field Pick_Up_Body Enum 15
+---@field Standing_Event Enum 16
 audiobreathingEventTag = {}

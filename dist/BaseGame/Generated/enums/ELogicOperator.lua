@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ELogicOperator: Enum
----@field OR 0
----@field AND 1
+---@field OR Enum 0
+---@field AND Enum 1
 ELogicOperator = {}

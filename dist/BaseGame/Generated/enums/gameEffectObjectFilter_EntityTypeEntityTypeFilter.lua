@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_EntityTypeEntityTypeFilter: Enum
----@field Puppet 0
----@field Device 1
+---@field Puppet Enum 0
+---@field Device Enum 1
 gameEffectObjectFilter_EntityTypeEntityTypeFilter = {}

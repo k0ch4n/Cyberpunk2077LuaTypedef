@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EExplosiveAdditionalGameEffectType: Enum
----@field none 0
----@field EMP 1
+---@field none Enum 0
+---@field EMP Enum 1
 EExplosiveAdditionalGameEffectType = {}

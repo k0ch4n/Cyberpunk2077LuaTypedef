@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamePSMUpperBodyStates: Enum
----@field Any -1
----@field Default 0
----@field SwitchItems 1
----@field SwitchCyberware 2
----@field Reload 3
----@field Aim 6
----@field TemporaryUnequip 4
----@field ForceEmptyHands 5
+---@field Any Enum -1
+---@field Default Enum 0
+---@field SwitchItems Enum 1
+---@field SwitchCyberware Enum 2
+---@field Reload Enum 3
+---@field Aim Enum 6
+---@field TemporaryUnequip Enum 4
+---@field ForceEmptyHands Enum 5
 gamePSMUpperBodyStates = {}

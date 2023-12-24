@@ -2,151 +2,151 @@
 ---@diagnostic disable
 
 ---@class gamedataMappinVariant: Enum
----@field ActionDealDamageVariant 0
----@field ActionFastSoloVariant 1
----@field ActionGenericInteractionVariant 2
----@field ActionNetrunnerAccessPointVariant 3
----@field ActionNetrunnerVariant 4
----@field ActionScanVariant 5
----@field ActionSoloVariant 6
----@field ActionTechieVariant 7
----@field AimVariant 8
----@field AllowVariant 9
----@field ApartmentVariant 10
----@field ArrowVariant 11
----@field BackOutVariant 12
----@field BountyHuntVariant 13
----@field CallVariant 14
----@field ChangeToFriendlyVariant 15
----@field ClientInDistressVariant 16
----@field ConversationVariant 17
----@field ConvoyVariant 18
----@field CoolVariant 19
----@field CourierVariant 20
----@field CustomPositionVariant 21
----@field CyberspaceNPC 22
----@field CyberspaceObject 23
----@field DefaultInteractionVariant 24
----@field DefaultQuestVariant 25
----@field DefaultVariant 26
----@field DistractVariant 27
----@field DropboxVariant 28
----@field DynamicEventVariant 29
----@field EffectAlarmVariant 30
----@field EffectControlNetworkVariant 31
----@field EffectControlOtherDeviceVariant 32
----@field EffectControlSelfVariant 33
----@field EffectCutPowerVariant 34
----@field EffectDistractVariant 35
----@field EffectDropPointVariant 36
----@field EffectExplodeLethalVariant 37
----@field EffectExplodeNonLethalVariant 38
----@field EffectFallVariant 39
----@field EffectGrantInformationVariant 40
----@field EffectHideBodyVariant 41
----@field EffectLootVariant 42
----@field EffectOpenPathVariant 43
----@field EffectPushVariant 44
----@field EffectServicePointVariant 45
----@field EffectShootVariant 46
----@field EffectSpreadGasVariant 47
----@field EffectStoreItemsVariant 48
----@field ExclamationMarkVariant 49
----@field FailedCrossingVariant 50
----@field FastTravelVariant 51
----@field FixerVariant 52
----@field FocusClueVariant 53
----@field GPSForcedPathVariant 54
----@field GPSPortalVariant 55
----@field GangWatchVariant 56
----@field GenericRoleVariant 57
----@field GetInVariant 58
----@field GetUpVariant 59
----@field GrenadeVariant 60
----@field GunSuicideVariant 61
----@field HandVariant 62
----@field HazardWarningVariant 63
----@field HiddenStashVariant 64
----@field HitVariant 65
----@field HuntForPsychoVariant 66
----@field ImportantInteractionVariant 67
----@field InvalidVariant 68
----@field JackInVariant 69
----@field JamWeaponVariant 70
----@field LifepathCorpoVariant 71
----@field LifepathNomadVariant 72
----@field LifepathStreetKidVariant 73
----@field LootVariant 74
----@field MinorActivityVariant 75
----@field NPCVariant 76
----@field NetrunnerAccessPointVariant 77
----@field NetrunnerSoloTechieVariant 78
----@field NetrunnerSoloVariant 79
----@field NetrunnerTechieVariant 80
----@field NetrunnerVariant 81
----@field NonLethalTakedownVariant 82
----@field OffVariant 83
----@field OpenVendorVariant 84
----@field OutpostVariant 85
----@field PhoneCallVariant 86
----@field QuestGiverVariant 87
----@field QuestionMarkVariant 88
----@field QuickHackVariant 89
----@field ReflexesVariant 90
----@field ResourceVariant 91
----@field RetrievingVariant 92
----@field SOSsignalVariant 93
----@field SabotageVariant 94
----@field ServicePointBarVariant 95
----@field ServicePointClothesVariant 96
----@field ServicePointCyberwareVariant 97
----@field ServicePointDropPointVariant 98
----@field ServicePointFoodVariant 99
----@field ServicePointGunsVariant 100
----@field ServicePointJunkVariant 101
----@field ServicePointMedsVariant 102
----@field ServicePointMeleeTrainerVariant 103
----@field ServicePointNetTrainerVariant 104
----@field ServicePointProstituteVariant 105
----@field ServicePointRipperdocVariant 106
----@field ServicePointTechVariant 107
----@field SitVariant 108
----@field SmugglersDenVariant 109
----@field SoloTechieVariant 110
----@field SoloVariant 111
----@field SpeechVariant 112
----@field TakeControlVariant 113
----@field TakeDownVariant 114
----@field TarotVariant 115
----@field TechieVariant 116
----@field ThieveryVariant 117
----@field UseVariant 118
----@field VehicleVariant 119
----@field WanderingMerchantVariant 120
----@field Zzz01_CarForPurchaseVariant 121
----@field Zzz02_MotorcycleForPurchaseVariant 122
----@field Zzz03_MotorcycleVariant 123
----@field Zzz04_PreventionVehicleVariant 124
----@field Zzz05_ApartmentToPurchaseVariant 125
----@field Zzz06_NCPDGigVariant 126
----@field Zzz07_PlayerStashVariant 127
----@field Zzz08_WardrobeVariant 128
----@field Zzz09_CourierSandboxActivityVariant 129
----@field Zzz10_RemoteControlDrivingVariant 130
----@field Zzz11_RoadBlockadeVariant 131
----@field Zzz12_QuickHackQueueVariant 132
----@field Zzz12_WorldEncounterVariant 133
----@field Zzz13_DogtownGateVariant 134
----@field Zzz14_ServicePointBlackMarketVariant 135
----@field Zzz15_QuickHackDurationVariant 136
----@field Zzz16_RelicDeviceBasicVariant 137
----@field Zzz16_RelicDeviceSpecialVariant 138
----@field Zzz17_NCARTVariant 139
----@field Zzz18_RacingVariant 140
----@field CPO_PingDoorVariant 141
----@field CPO_PingGoHereVariant 142
----@field CPO_PingLootVariant 143
----@field CPO_RemotePlayerVariant 144
----@field Count 145
----@field Invalid 146
+---@field ActionDealDamageVariant Enum 0
+---@field ActionFastSoloVariant Enum 1
+---@field ActionGenericInteractionVariant Enum 2
+---@field ActionNetrunnerAccessPointVariant Enum 3
+---@field ActionNetrunnerVariant Enum 4
+---@field ActionScanVariant Enum 5
+---@field ActionSoloVariant Enum 6
+---@field ActionTechieVariant Enum 7
+---@field AimVariant Enum 8
+---@field AllowVariant Enum 9
+---@field ApartmentVariant Enum 10
+---@field ArrowVariant Enum 11
+---@field BackOutVariant Enum 12
+---@field BountyHuntVariant Enum 13
+---@field CallVariant Enum 14
+---@field ChangeToFriendlyVariant Enum 15
+---@field ClientInDistressVariant Enum 16
+---@field ConversationVariant Enum 17
+---@field ConvoyVariant Enum 18
+---@field CoolVariant Enum 19
+---@field CourierVariant Enum 20
+---@field CustomPositionVariant Enum 21
+---@field CyberspaceNPC Enum 22
+---@field CyberspaceObject Enum 23
+---@field DefaultInteractionVariant Enum 24
+---@field DefaultQuestVariant Enum 25
+---@field DefaultVariant Enum 26
+---@field DistractVariant Enum 27
+---@field DropboxVariant Enum 28
+---@field DynamicEventVariant Enum 29
+---@field EffectAlarmVariant Enum 30
+---@field EffectControlNetworkVariant Enum 31
+---@field EffectControlOtherDeviceVariant Enum 32
+---@field EffectControlSelfVariant Enum 33
+---@field EffectCutPowerVariant Enum 34
+---@field EffectDistractVariant Enum 35
+---@field EffectDropPointVariant Enum 36
+---@field EffectExplodeLethalVariant Enum 37
+---@field EffectExplodeNonLethalVariant Enum 38
+---@field EffectFallVariant Enum 39
+---@field EffectGrantInformationVariant Enum 40
+---@field EffectHideBodyVariant Enum 41
+---@field EffectLootVariant Enum 42
+---@field EffectOpenPathVariant Enum 43
+---@field EffectPushVariant Enum 44
+---@field EffectServicePointVariant Enum 45
+---@field EffectShootVariant Enum 46
+---@field EffectSpreadGasVariant Enum 47
+---@field EffectStoreItemsVariant Enum 48
+---@field ExclamationMarkVariant Enum 49
+---@field FailedCrossingVariant Enum 50
+---@field FastTravelVariant Enum 51
+---@field FixerVariant Enum 52
+---@field FocusClueVariant Enum 53
+---@field GPSForcedPathVariant Enum 54
+---@field GPSPortalVariant Enum 55
+---@field GangWatchVariant Enum 56
+---@field GenericRoleVariant Enum 57
+---@field GetInVariant Enum 58
+---@field GetUpVariant Enum 59
+---@field GrenadeVariant Enum 60
+---@field GunSuicideVariant Enum 61
+---@field HandVariant Enum 62
+---@field HazardWarningVariant Enum 63
+---@field HiddenStashVariant Enum 64
+---@field HitVariant Enum 65
+---@field HuntForPsychoVariant Enum 66
+---@field ImportantInteractionVariant Enum 67
+---@field InvalidVariant Enum 68
+---@field JackInVariant Enum 69
+---@field JamWeaponVariant Enum 70
+---@field LifepathCorpoVariant Enum 71
+---@field LifepathNomadVariant Enum 72
+---@field LifepathStreetKidVariant Enum 73
+---@field LootVariant Enum 74
+---@field MinorActivityVariant Enum 75
+---@field NPCVariant Enum 76
+---@field NetrunnerAccessPointVariant Enum 77
+---@field NetrunnerSoloTechieVariant Enum 78
+---@field NetrunnerSoloVariant Enum 79
+---@field NetrunnerTechieVariant Enum 80
+---@field NetrunnerVariant Enum 81
+---@field NonLethalTakedownVariant Enum 82
+---@field OffVariant Enum 83
+---@field OpenVendorVariant Enum 84
+---@field OutpostVariant Enum 85
+---@field PhoneCallVariant Enum 86
+---@field QuestGiverVariant Enum 87
+---@field QuestionMarkVariant Enum 88
+---@field QuickHackVariant Enum 89
+---@field ReflexesVariant Enum 90
+---@field ResourceVariant Enum 91
+---@field RetrievingVariant Enum 92
+---@field SOSsignalVariant Enum 93
+---@field SabotageVariant Enum 94
+---@field ServicePointBarVariant Enum 95
+---@field ServicePointClothesVariant Enum 96
+---@field ServicePointCyberwareVariant Enum 97
+---@field ServicePointDropPointVariant Enum 98
+---@field ServicePointFoodVariant Enum 99
+---@field ServicePointGunsVariant Enum 100
+---@field ServicePointJunkVariant Enum 101
+---@field ServicePointMedsVariant Enum 102
+---@field ServicePointMeleeTrainerVariant Enum 103
+---@field ServicePointNetTrainerVariant Enum 104
+---@field ServicePointProstituteVariant Enum 105
+---@field ServicePointRipperdocVariant Enum 106
+---@field ServicePointTechVariant Enum 107
+---@field SitVariant Enum 108
+---@field SmugglersDenVariant Enum 109
+---@field SoloTechieVariant Enum 110
+---@field SoloVariant Enum 111
+---@field SpeechVariant Enum 112
+---@field TakeControlVariant Enum 113
+---@field TakeDownVariant Enum 114
+---@field TarotVariant Enum 115
+---@field TechieVariant Enum 116
+---@field ThieveryVariant Enum 117
+---@field UseVariant Enum 118
+---@field VehicleVariant Enum 119
+---@field WanderingMerchantVariant Enum 120
+---@field Zzz01_CarForPurchaseVariant Enum 121
+---@field Zzz02_MotorcycleForPurchaseVariant Enum 122
+---@field Zzz03_MotorcycleVariant Enum 123
+---@field Zzz04_PreventionVehicleVariant Enum 124
+---@field Zzz05_ApartmentToPurchaseVariant Enum 125
+---@field Zzz06_NCPDGigVariant Enum 126
+---@field Zzz07_PlayerStashVariant Enum 127
+---@field Zzz08_WardrobeVariant Enum 128
+---@field Zzz09_CourierSandboxActivityVariant Enum 129
+---@field Zzz10_RemoteControlDrivingVariant Enum 130
+---@field Zzz11_RoadBlockadeVariant Enum 131
+---@field Zzz12_QuickHackQueueVariant Enum 132
+---@field Zzz12_WorldEncounterVariant Enum 133
+---@field Zzz13_DogtownGateVariant Enum 134
+---@field Zzz14_ServicePointBlackMarketVariant Enum 135
+---@field Zzz15_QuickHackDurationVariant Enum 136
+---@field Zzz16_RelicDeviceBasicVariant Enum 137
+---@field Zzz16_RelicDeviceSpecialVariant Enum 138
+---@field Zzz17_NCARTVariant Enum 139
+---@field Zzz18_RacingVariant Enum 140
+---@field CPO_PingDoorVariant Enum 141
+---@field CPO_PingGoHereVariant Enum 142
+---@field CPO_PingLootVariant Enum 143
+---@field CPO_RemotePlayerVariant Enum 144
+---@field Count Enum 145
+---@field Invalid Enum 146
 gamedataMappinVariant = {}

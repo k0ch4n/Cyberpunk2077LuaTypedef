@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ETextureFilteringMip: Enum
----@field TFMip_None 0
----@field TFMip_Point 1
----@field TFMip_Linear 2
+---@field TFMip_None Enum 0
+---@field TFMip_Point Enum 1
+---@field TFMip_Linear Enum 2
 ETextureFilteringMip = {}

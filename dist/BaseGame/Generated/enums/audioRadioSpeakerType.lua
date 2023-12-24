@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class audioRadioSpeakerType: Enum
----@field Stanley 0
----@field MaximumMike 1
----@field PoliceDispatch 2
----@field Kurtz 3
----@field Ash 4
----@field None 5
+---@field Stanley Enum 0
+---@field MaximumMike Enum 1
+---@field PoliceDispatch Enum 2
+---@field Kurtz Enum 3
+---@field Ash Enum 4
+---@field None Enum 5
 audioRadioSpeakerType = {}

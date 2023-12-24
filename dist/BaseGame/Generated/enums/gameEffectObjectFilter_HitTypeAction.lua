@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameEffectObjectFilter_HitTypeAction: Enum
----@field Accept 0
----@field Reject 1
+---@field Accept Enum 0
+---@field Reject Enum 1
 gameEffectObjectFilter_HitTypeAction = {}

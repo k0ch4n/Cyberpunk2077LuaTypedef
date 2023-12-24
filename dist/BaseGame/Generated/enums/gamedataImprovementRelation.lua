@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataImprovementRelation: Enum
----@field Direct 0
----@field Inverse 1
----@field None 2
----@field Count 3
----@field Invalid 4
+---@field Direct Enum 0
+---@field Inverse Enum 1
+---@field None Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataImprovementRelation = {}

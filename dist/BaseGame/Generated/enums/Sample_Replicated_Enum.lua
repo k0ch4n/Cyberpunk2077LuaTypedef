@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class Sample_Replicated_Enum: Enum
----@field One 0
----@field Two 1
----@field Three 2
+---@field One Enum 0
+---@field Two Enum 1
+---@field Three Enum 2
 Sample_Replicated_Enum = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorNaryExpressionOperators: Enum
----@field LogicalAnd 0
----@field LogicalOr 1
+---@field LogicalAnd Enum 0
+---@field LogicalOr Enum 1
 AIbehaviorNaryExpressionOperators = {}

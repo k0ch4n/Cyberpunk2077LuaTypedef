@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class animFloatTrackOperationType: Enum
----@field Override 0
----@field Multiply 1
----@field Add 2
----@field Subtract 3
----@field SubtractSwapped 4
----@field WeightComplement 5
+---@field Override Enum 0
+---@field Multiply Enum 1
+---@field Add Enum 2
+---@field Subtract Enum 3
+---@field SubtractSwapped Enum 4
+---@field WeightComplement Enum 5
 animFloatTrackOperationType = {}

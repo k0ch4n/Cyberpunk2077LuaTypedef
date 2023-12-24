@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animESpaceMW: Enum
----@field Model 0
----@field World 1
+---@field Model Enum 0
+---@field World Enum 1
 animESpaceMW = {}

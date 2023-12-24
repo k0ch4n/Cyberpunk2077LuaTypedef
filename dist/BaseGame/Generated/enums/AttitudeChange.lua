@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AttitudeChange: Enum
----@field DONT_CHANGE 0
----@field FRIENDLY 1
----@field NEUTRAL 2
----@field HOSTILE 3
+---@field DONT_CHANGE Enum 0
+---@field FRIENDLY Enum 1
+---@field NEUTRAL Enum 2
+---@field HOSTILE Enum 3
 AttitudeChange = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformMovementInitializationType: Enum
----@field Time 0
----@field Speed 1
+---@field Time Enum 0
+---@field Speed Enum 1
 gameMovingPlatformMovementInitializationType = {}

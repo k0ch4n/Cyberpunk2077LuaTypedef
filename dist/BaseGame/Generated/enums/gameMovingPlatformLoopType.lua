@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameMovingPlatformLoopType: Enum
----@field NoLooping 0
----@field Bounce 1
----@field Repeat 2
+---@field NoLooping Enum 0
+---@field Bounce Enum 1
+---@field Repeat Enum 2
 gameMovingPlatformLoopType = {}

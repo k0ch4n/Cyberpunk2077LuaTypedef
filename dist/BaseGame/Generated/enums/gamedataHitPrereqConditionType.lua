@@ -2,42 +2,42 @@
 ---@diagnostic disable
 
 ---@class gamedataHitPrereqConditionType: Enum
----@field AgentMoving 0
----@field AmmoState 1
----@field AttackSubType 2
----@field AttackTag 3
----@field AttackType 4
----@field BodyPart 5
----@field ConsecutiveHits 6
----@field DamageOverTimeType 7
----@field DamageType 8
----@field DismembermentTriggered 9
----@field DistanceCovered 10
----@field EffectNamePresent 11
----@field HitFlag 12
----@field HitIsQuickhackPresentInQueue 13
----@field InstigatorType 14
----@field ReactionPreset 15
----@field SameTarget 16
----@field SelfHit 17
----@field SourceType 18
----@field Stat 19
----@field StatComparison 20
----@field StatPool 21
----@field StatPoolComparison 22
----@field StatusEffectPresent 23
----@field TargetBreachCanGetKilledByDamage 24
----@field TargetCanGetKilledByDamage 25
----@field TargetIsCrowd 26
----@field TargetKilled 27
----@field TargetNPCRarity 28
----@field TargetNPCType 29
----@field TargetType 30
----@field TriggerMode 31
----@field WeaponEvolution 32
----@field WeaponItemType 33
----@field WeaponType 34
----@field WoundedTriggered 35
----@field Count 36
----@field Invalid 37
+---@field AgentMoving Enum 0
+---@field AmmoState Enum 1
+---@field AttackSubType Enum 2
+---@field AttackTag Enum 3
+---@field AttackType Enum 4
+---@field BodyPart Enum 5
+---@field ConsecutiveHits Enum 6
+---@field DamageOverTimeType Enum 7
+---@field DamageType Enum 8
+---@field DismembermentTriggered Enum 9
+---@field DistanceCovered Enum 10
+---@field EffectNamePresent Enum 11
+---@field HitFlag Enum 12
+---@field HitIsQuickhackPresentInQueue Enum 13
+---@field InstigatorType Enum 14
+---@field ReactionPreset Enum 15
+---@field SameTarget Enum 16
+---@field SelfHit Enum 17
+---@field SourceType Enum 18
+---@field Stat Enum 19
+---@field StatComparison Enum 20
+---@field StatPool Enum 21
+---@field StatPoolComparison Enum 22
+---@field StatusEffectPresent Enum 23
+---@field TargetBreachCanGetKilledByDamage Enum 24
+---@field TargetCanGetKilledByDamage Enum 25
+---@field TargetIsCrowd Enum 26
+---@field TargetKilled Enum 27
+---@field TargetNPCRarity Enum 28
+---@field TargetNPCType Enum 29
+---@field TargetType Enum 30
+---@field TriggerMode Enum 31
+---@field WeaponEvolution Enum 32
+---@field WeaponItemType Enum 33
+---@field WeaponType Enum 34
+---@field WoundedTriggered Enum 35
+---@field Count Enum 36
+---@field Invalid Enum 37
 gamedataHitPrereqConditionType = {}

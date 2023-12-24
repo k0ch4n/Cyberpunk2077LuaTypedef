@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class locHolocallActorMode: Enum
----@field Default 0
----@field ActorUsesHolocall 1
----@field ActorDoesntUseHolocall 2
+---@field Default Enum 0
+---@field ActorUsesHolocall Enum 1
+---@field ActorDoesntUseHolocall Enum 2
 locHolocallActorMode = {}

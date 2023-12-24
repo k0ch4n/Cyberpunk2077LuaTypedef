@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ExtraEffect: Enum
----@field AccuracyVirus 0
----@field PeernoidVirus 1
----@field None 2
+---@field AccuracyVirus Enum 0
+---@field PeernoidVirus Enum 1
+---@field None Enum 2
 ExtraEffect = {}

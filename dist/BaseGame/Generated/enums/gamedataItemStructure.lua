@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataItemStructure: Enum
----@field BlueprintStackable 0
----@field Stackable 1
----@field Unique 2
----@field Count 3
----@field Invalid 4
+---@field BlueprintStackable Enum 0
+---@field Stackable Enum 1
+---@field Unique Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataItemStructure = {}

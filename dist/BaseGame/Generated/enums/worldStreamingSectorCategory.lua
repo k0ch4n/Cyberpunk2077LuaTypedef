@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class worldStreamingSectorCategory: Enum
----@field Exterior 0
----@field Interior 1
----@field Quest 2
----@field Navigation 3
----@field AlwaysLoaded 4
----@field Unknown -1
+---@field Exterior Enum 0
+---@field Interior Enum 1
+---@field Quest Enum 2
+---@field Navigation Enum 3
+---@field AlwaysLoaded Enum 4
+---@field Unknown Enum -1
 worldStreamingSectorCategory = {}

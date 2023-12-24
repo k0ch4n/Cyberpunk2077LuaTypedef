@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataPlayerPossesion: Enum
----@field Default 0
----@field Johnny 1
----@field Count 2
----@field Invalid 3
+---@field Default Enum 0
+---@field Johnny Enum 1
+---@field Count Enum 2
+---@field Invalid Enum 3
 gamedataPlayerPossesion = {}

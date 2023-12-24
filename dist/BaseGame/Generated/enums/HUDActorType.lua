@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class HUDActorType: Enum
----@field UNINITIALIZED 0
----@field GAME_OBJECT 1
----@field VEHICLE 2
----@field DEVICE 3
----@field BODY_DISPOSAL_DEVICE 4
----@field PUPPET 5
----@field ITEM 6
+---@field UNINITIALIZED Enum 0
+---@field GAME_OBJECT Enum 1
+---@field VEHICLE Enum 2
+---@field DEVICE Enum 3
+---@field BODY_DISPOSAL_DEVICE Enum 4
+---@field PUPPET Enum 5
+---@field ITEM Enum 6
 HUDActorType = {}

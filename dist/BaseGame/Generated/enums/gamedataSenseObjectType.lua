@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class gamedataSenseObjectType: Enum
----@field Camera 0
----@field Deadbody 1
----@field Follower 2
----@field Npc 3
----@field Player 4
----@field Turret 5
----@field Undefined 6
----@field Count 7
----@field Invalid 8
+---@field Camera Enum 0
+---@field Deadbody Enum 1
+---@field Follower Enum 2
+---@field Npc Enum 3
+---@field Player Enum 4
+---@field Turret Enum 5
+---@field Undefined Enum 6
+---@field Count Enum 7
+---@field Invalid Enum 8
 gamedataSenseObjectType = {}

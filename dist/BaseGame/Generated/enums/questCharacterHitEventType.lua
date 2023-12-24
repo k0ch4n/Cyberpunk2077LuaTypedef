@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questCharacterHitEventType: Enum
----@field Bullet 0
----@field Explosion 1
----@field Melee 2
----@field Other 3
+---@field Bullet Enum 0
+---@field Explosion Enum 1
+---@field Melee Enum 2
+---@field Other Enum 3
 questCharacterHitEventType = {}

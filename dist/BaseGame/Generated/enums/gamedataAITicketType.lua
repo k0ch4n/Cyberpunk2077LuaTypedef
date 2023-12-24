@@ -2,65 +2,65 @@
 ---@diagnostic disable
 
 ---@class gamedataAITicketType: Enum
----@field AndroidMelee 0
----@field BackUp 1
----@field BattleCry 2
----@field Block 3
----@field CallOff 4
----@field CatchUp 5
----@field CatchUpToMeleePlayerOnHard 6
----@field CatchUpToMeleePlayerOnVeryHard 7
----@field Charge 8
----@field CloseRing 9
----@field CloseRing1stFilter 10
----@field CloseRing2ndFilter 11
----@field Crouch 12
----@field DefaultRing 13
----@field Dodge 14
----@field Equip 15
----@field EquipMelee 16
----@field ExtremeRing 17
----@field ExtremeRing1stFilter 18
----@field ExtremeRing2ndFilter 19
----@field FarRing 20
----@field FarRing1stFilter 21
----@field FarRing2ndFilter 22
----@field GoToCover 23
----@field GrenadeThrow 24
----@field GrenadeThrow_Hard 25
----@field GrenadeThrow_VeryHard 26
----@field GroupReaction 27
----@field Investigate 28
----@field MediumRing 29
----@field MediumRing1stFilter 30
----@field MediumRing2ndFilter 31
----@field Melee 32
----@field MeleeApproach 33
----@field MeleeRing 34
----@field MeleeRing1stFilter 35
----@field MeleeRing2ndFilter 36
----@field MeleeSupport 37
----@field OpticalCamo_Hard 38
----@field OpticalCamo_VeryHard 39
----@field Peek 40
----@field QuickMelee 41
----@field Quickhack 42
----@field Quickhack_Hard 43
----@field Quickhack_VeryHard 44
----@field Reload 45
----@field Reprimand 46
----@field Search 47
----@field Shoot 48
----@field SimpleCombat 49
----@field SimpleCombatMovement 50
----@field SmokeGrenadeThrow 51
----@field Strafe 52
----@field StrafeEvade 53
----@field Sync 54
----@field TakeCover 55
----@field Takedown 56
----@field Taunt 57
----@field TauntBackground 58
----@field Count 59
----@field Invalid 60
+---@field AndroidMelee Enum 0
+---@field BackUp Enum 1
+---@field BattleCry Enum 2
+---@field Block Enum 3
+---@field CallOff Enum 4
+---@field CatchUp Enum 5
+---@field CatchUpToMeleePlayerOnHard Enum 6
+---@field CatchUpToMeleePlayerOnVeryHard Enum 7
+---@field Charge Enum 8
+---@field CloseRing Enum 9
+---@field CloseRing1stFilter Enum 10
+---@field CloseRing2ndFilter Enum 11
+---@field Crouch Enum 12
+---@field DefaultRing Enum 13
+---@field Dodge Enum 14
+---@field Equip Enum 15
+---@field EquipMelee Enum 16
+---@field ExtremeRing Enum 17
+---@field ExtremeRing1stFilter Enum 18
+---@field ExtremeRing2ndFilter Enum 19
+---@field FarRing Enum 20
+---@field FarRing1stFilter Enum 21
+---@field FarRing2ndFilter Enum 22
+---@field GoToCover Enum 23
+---@field GrenadeThrow Enum 24
+---@field GrenadeThrow_Hard Enum 25
+---@field GrenadeThrow_VeryHard Enum 26
+---@field GroupReaction Enum 27
+---@field Investigate Enum 28
+---@field MediumRing Enum 29
+---@field MediumRing1stFilter Enum 30
+---@field MediumRing2ndFilter Enum 31
+---@field Melee Enum 32
+---@field MeleeApproach Enum 33
+---@field MeleeRing Enum 34
+---@field MeleeRing1stFilter Enum 35
+---@field MeleeRing2ndFilter Enum 36
+---@field MeleeSupport Enum 37
+---@field OpticalCamo_Hard Enum 38
+---@field OpticalCamo_VeryHard Enum 39
+---@field Peek Enum 40
+---@field QuickMelee Enum 41
+---@field Quickhack Enum 42
+---@field Quickhack_Hard Enum 43
+---@field Quickhack_VeryHard Enum 44
+---@field Reload Enum 45
+---@field Reprimand Enum 46
+---@field Search Enum 47
+---@field Shoot Enum 48
+---@field SimpleCombat Enum 49
+---@field SimpleCombatMovement Enum 50
+---@field SmokeGrenadeThrow Enum 51
+---@field Strafe Enum 52
+---@field StrafeEvade Enum 53
+---@field Sync Enum 54
+---@field TakeCover Enum 55
+---@field Takedown Enum 56
+---@field Taunt Enum 57
+---@field TauntBackground Enum 58
+---@field Count Enum 59
+---@field Invalid Enum 60
 gamedataAITicketType = {}

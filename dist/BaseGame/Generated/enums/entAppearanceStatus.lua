@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entAppearanceStatus: Enum
----@field None 0
----@field Proxy 1
----@field Appearance 2
+---@field None Enum 0
+---@field Proxy Enum 1
+---@field Appearance Enum 2
 entAppearanceStatus = {}

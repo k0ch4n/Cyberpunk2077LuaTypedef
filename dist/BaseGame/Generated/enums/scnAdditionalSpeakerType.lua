@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnAdditionalSpeakerType: Enum
----@field Normal 0
----@field Holocall 1
+---@field Normal Enum 0
+---@field Holocall Enum 1
 scnAdditionalSpeakerType = {}

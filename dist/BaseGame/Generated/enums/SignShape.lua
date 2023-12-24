@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class SignShape: Enum
----@field RECTANGLE 0
----@field ARROWLEFT 1
----@field ARROWRIGHT 2
----@field SQUARE 3
+---@field RECTANGLE Enum 0
+---@field ARROWLEFT Enum 1
+---@field ARROWRIGHT Enum 2
+---@field SQUARE Enum 3
 SignShape = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEResetTypeNode: Enum
----@field RT_Reference 0
----@field RT_Indentity 1
+---@field RT_Reference Enum 0
+---@field RT_Indentity Enum 1
 animEResetTypeNode = {}

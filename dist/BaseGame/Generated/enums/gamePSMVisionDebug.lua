@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamePSMVisionDebug: Enum
----@field Default 0
----@field VisionToggle 1
+---@field Default Enum 0
+---@field VisionToggle Enum 1
 gamePSMVisionDebug = {}

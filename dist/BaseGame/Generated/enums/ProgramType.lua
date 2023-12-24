@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ProgramType: Enum
----@field BasicAccess 0
----@field ExtraPlayerProgram 1
----@field ExtraServerProgram 2
----@field EnemyProgram 3
----@field EnemyLockNetwork 4
+---@field BasicAccess Enum 0
+---@field ExtraPlayerProgram Enum 1
+---@field ExtraServerProgram Enum 2
+---@field EnemyProgram Enum 3
+---@field EnemyLockNetwork Enum 4
 ProgramType = {}

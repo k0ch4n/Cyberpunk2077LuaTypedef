@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questGameplayRestrictionAction: Enum
----@field AddRestriction 0
----@field RemoveRestriction 1
----@field RemoveAllRestrictions 2
+---@field AddRestriction Enum 0
+---@field RemoveRestriction Enum 1
+---@field RemoveAllRestrictions Enum 2
 questGameplayRestrictionAction = {}

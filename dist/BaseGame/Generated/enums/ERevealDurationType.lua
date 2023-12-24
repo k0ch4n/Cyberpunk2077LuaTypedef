@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ERevealDurationType: Enum
----@field TEMPORARY 0
----@field PERMANENT 1
+---@field TEMPORARY Enum 0
+---@field PERMANENT Enum 1
 ERevealDurationType = {}

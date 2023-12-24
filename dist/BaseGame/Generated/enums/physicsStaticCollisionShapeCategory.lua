@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class physicsStaticCollisionShapeCategory: Enum
----@field Interior 0
----@field Exterior 1
----@field Architecture 2
----@field Decoration 3
----@field Other 4
+---@field Interior Enum 0
+---@field Exterior Enum 1
+---@field Architecture Enum 2
+---@field Decoration Enum 3
+---@field Other Enum 4
 physicsStaticCollisionShapeCategory = {}

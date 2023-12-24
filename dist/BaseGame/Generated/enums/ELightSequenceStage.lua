@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ELightSequenceStage: Enum
----@field NONE 0
----@field INPROGRESS 1
----@field COMPLETE 2
+---@field NONE Enum 0
+---@field INPROGRESS Enum 1
+---@field COMPLETE Enum 2
 ELightSequenceStage = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataObjectActionReference: Enum
----@field Instigator 0
----@field Source 1
----@field Target 2
----@field Count 3
----@field Invalid 4
+---@field Instigator Enum 0
+---@field Source Enum 1
+---@field Target Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataObjectActionReference = {}

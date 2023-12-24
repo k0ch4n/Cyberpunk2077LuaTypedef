@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class questLogicalOperation: Enum
----@field AND 0
----@field OR 1
----@field XOR 2
----@field NAND 3
----@field NOR 4
----@field NXOR 5
+---@field AND Enum 0
+---@field OR Enum 1
+---@field XOR Enum 2
+---@field NAND Enum 3
+---@field NOR Enum 4
+---@field NXOR Enum 5
 questLogicalOperation = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entEBindingDirection: Enum
----@field BindToSource 0
----@field BindToDestination 1
+---@field BindToSource Enum 0
+---@field BindToDestination Enum 1
 entEBindingDirection = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnSceneVersionCheck: Enum
----@field OlderOrEqual 0
----@field Equal 1
+---@field OlderOrEqual Enum 0
+---@field Equal Enum 1
 scnSceneVersionCheck = {}

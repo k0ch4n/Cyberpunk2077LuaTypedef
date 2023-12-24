@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gamePSMBodyCarrying: Enum
----@field Any -1
----@field Default 0
----@field PickUp 1
----@field Carry 2
----@field Dispose 3
----@field Drop 4
----@field Aim 5
----@field Throw 6
+---@field Any Enum -1
+---@field Default Enum 0
+---@field PickUp Enum 1
+---@field Carry Enum 2
+---@field Dispose Enum 3
+---@field Drop Enum 4
+---@field Aim Enum 5
+---@field Throw Enum 6
 gamePSMBodyCarrying = {}

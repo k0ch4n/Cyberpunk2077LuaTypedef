@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnChoiceNodeNsTimedAction: Enum
----@field appear 0
----@field disappear 1
----@field disappearFading 2
+---@field appear Enum 0
+---@field disappear Enum 1
+---@field disappearFading Enum 2
 scnChoiceNodeNsTimedAction = {}

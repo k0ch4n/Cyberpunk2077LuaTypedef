@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class HitShape_Type: Enum
----@field Normal 0
----@field InternalWeakSpot 1
----@field ExternalWeakSpot 2
----@field ProtectionLayer 3
+---@field Normal Enum 0
+---@field InternalWeakSpot Enum 1
+---@field ExternalWeakSpot Enum 2
+---@field ProtectionLayer Enum 3
 HitShape_Type = {}

@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class AISocketsForRig: Enum
----@field Undefined 0
----@field ManAverage 1
----@field ManBig 2
----@field ManFat 3
----@field WomanAverage 4
----@field WomanBig 5
----@field ChildMale 6
+---@field Undefined Enum 0
+---@field ManAverage Enum 1
+---@field ManBig Enum 2
+---@field ManFat Enum 3
+---@field WomanAverage Enum 4
+---@field WomanBig Enum 5
+---@field ChildMale Enum 6
 AISocketsForRig = {}

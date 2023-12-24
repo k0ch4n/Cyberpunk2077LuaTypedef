@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkSelectorChangeDirection: Enum
----@field None 0
----@field Prior 1
----@field Next 2
+---@field None Enum 0
+---@field Prior Enum 1
+---@field Next Enum 2
 inkSelectorChangeDirection = {}

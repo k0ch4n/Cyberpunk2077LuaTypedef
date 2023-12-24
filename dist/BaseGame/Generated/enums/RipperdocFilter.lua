@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class RipperdocFilter: Enum
----@field All 0
----@field Vendor 1
----@field Player 2
----@field Buyback 3
+---@field All Enum 0
+---@field Vendor Enum 1
+---@field Player Enum 2
+---@field Buyback Enum 3
 RipperdocFilter = {}

@@ -2,15 +2,15 @@
 ---@diagnostic disable
 
 ---@class ETextureRawFormat: Enum
----@field TRF_Invalid 0
----@field TRF_TrueColor 1
----@field TRF_DeepColor 2
----@field TRF_Grayscale 3
----@field TRF_HDRFloat 4
----@field TRF_HDRHalf 5
----@field TRF_HDRFloatGrayscale 6
----@field TRF_Grayscale_Font 7
----@field TRF_R8G8 8
----@field TRF_R32UI 9
----@field TRF_AlphaGrayscale 0
+---@field TRF_Invalid Enum 0
+---@field TRF_TrueColor Enum 1
+---@field TRF_DeepColor Enum 2
+---@field TRF_Grayscale Enum 3
+---@field TRF_HDRFloat Enum 4
+---@field TRF_HDRHalf Enum 5
+---@field TRF_HDRFloatGrayscale Enum 6
+---@field TRF_Grayscale_Font Enum 7
+---@field TRF_R8G8 Enum 8
+---@field TRF_R32UI Enum 9
+---@field TRF_AlphaGrayscale Enum 0
 ETextureRawFormat = {}

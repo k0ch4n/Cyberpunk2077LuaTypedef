@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class EWorldMapView: Enum
----@field Map 0
+---@field Map Enum 0
 EWorldMapView = {}

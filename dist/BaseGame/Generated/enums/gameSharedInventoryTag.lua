@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameSharedInventoryTag: Enum
----@field None 0
----@field PlayerStash 1000000
+---@field None Enum 0
+---@field PlayerStash Enum 1000000
 gameSharedInventoryTag = {}

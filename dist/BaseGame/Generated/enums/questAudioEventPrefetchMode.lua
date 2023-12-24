@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questAudioEventPrefetchMode: Enum
----@field AddEventPrefetch 0
----@field RemoveEventPrefetch 1
+---@field AddEventPrefetch Enum 0
+---@field RemoveEventPrefetch Enum 1
 questAudioEventPrefetchMode = {}

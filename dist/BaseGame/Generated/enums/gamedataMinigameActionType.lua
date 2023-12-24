@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataMinigameActionType: Enum
----@field AccessPoint 0
----@field Both 1
----@field Device 2
----@field NPC 3
----@field Count 4
----@field Invalid 5
+---@field AccessPoint Enum 0
+---@field Both Enum 1
+---@field Device Enum 2
+---@field NPC Enum 3
+---@field Count Enum 4
+---@field Invalid Enum 5
 gamedataMinigameActionType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameEAreaShape: Enum
----@field NONE 0
----@field SPHERE 1
----@field CUBE 2
----@field COUNT 3
+---@field NONE Enum 0
+---@field SPHERE Enum 1
+---@field CUBE Enum 2
+---@field COUNT Enum 3
 gameEAreaShape = {}

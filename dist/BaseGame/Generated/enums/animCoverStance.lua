@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class animCoverStance: Enum
----@field None 0
----@field LowLeft 1
----@field HighLeft 2
----@field LowRight 3
----@field HighRight 4
+---@field None Enum 0
+---@field LowLeft Enum 1
+---@field HighLeft Enum 2
+---@field LowRight Enum 3
+---@field HighRight Enum 4
 animCoverStance = {}

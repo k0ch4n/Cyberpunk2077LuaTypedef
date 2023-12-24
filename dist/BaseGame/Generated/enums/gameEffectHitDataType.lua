@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEffectHitDataType: Enum
----@field Entity 0
----@field Node 1
----@field Static 2
+---@field Entity Enum 0
+---@field Node Enum 1
+---@field Static Enum 2
 gameEffectHitDataType = {}

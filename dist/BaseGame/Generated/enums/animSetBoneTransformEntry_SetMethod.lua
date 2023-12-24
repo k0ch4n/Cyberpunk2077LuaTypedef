@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animSetBoneTransformEntry_SetMethod: Enum
----@field NoSnapping 0
----@field WholeTransform 1
----@field TranslationOnly 2
----@field RotationOnly 3
+---@field NoSnapping Enum 0
+---@field WholeTransform Enum 1
+---@field TranslationOnly Enum 2
+---@field RotationOnly Enum 3
 animSetBoneTransformEntry_SetMethod = {}

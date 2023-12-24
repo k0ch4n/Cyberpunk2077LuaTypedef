@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePSMStamina: Enum
----@field Rested 0
----@field Fatigued 1
----@field Exhausted 2
+---@field Rested Enum 0
+---@field Fatigued Enum 1
+---@field Exhausted Enum 2
 gamePSMStamina = {}

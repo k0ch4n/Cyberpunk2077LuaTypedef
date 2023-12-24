@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPhoneCallPhase: Enum
----@field Undefined 0
----@field IncomingCall 1
----@field StartCall 2
----@field EndCall 3
+---@field Undefined Enum 0
+---@field IncomingCall Enum 1
+---@field StartCall Enum 2
+---@field EndCall Enum 3
 questPhoneCallPhase = {}

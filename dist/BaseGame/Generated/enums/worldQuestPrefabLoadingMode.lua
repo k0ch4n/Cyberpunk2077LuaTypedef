@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldQuestPrefabLoadingMode: Enum
----@field Disable 0
----@field ForceLoad 1
+---@field Disable Enum 0
+---@field ForceLoad Enum 1
 worldQuestPrefabLoadingMode = {}

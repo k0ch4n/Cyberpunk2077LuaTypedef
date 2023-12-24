@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ConfigMeshQualityLevel: Enum
----@field Default 0
----@field Console 1
----@field Console_XboxSeriesS 2
+---@field Default Enum 0
+---@field Console Enum 1
+---@field Console_XboxSeriesS Enum 2
 ConfigMeshQualityLevel = {}

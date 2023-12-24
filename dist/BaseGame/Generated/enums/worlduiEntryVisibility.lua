@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worlduiEntryVisibility: Enum
----@field TierVisibility 0
----@field ForceShow 1
----@field ForceHide 2
+---@field TierVisibility Enum 0
+---@field ForceShow Enum 1
+---@field ForceHide Enum 2
 worlduiEntryVisibility = {}

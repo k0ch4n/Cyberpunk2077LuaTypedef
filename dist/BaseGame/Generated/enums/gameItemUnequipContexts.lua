@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gameItemUnequipContexts: Enum
----@field AllWeapons 0
----@field HeadClothing 1
----@field FaceClothing 2
----@field OuterChestClothing 3
----@field InnerChestClothing 4
----@field LegClothing 5
----@field FootClothing 6
----@field AllClothing 7
----@field RightHandWeapon 8
----@field LeftHandWeapon 9
----@field AllQuestItems 10
----@field AllItems 11
+---@field AllWeapons Enum 0
+---@field HeadClothing Enum 1
+---@field FaceClothing Enum 2
+---@field OuterChestClothing Enum 3
+---@field InnerChestClothing Enum 4
+---@field LegClothing Enum 5
+---@field FootClothing Enum 6
+---@field AllClothing Enum 7
+---@field RightHandWeapon Enum 8
+---@field LeftHandWeapon Enum 9
+---@field AllQuestItems Enum 10
+---@field AllItems Enum 11
 gameItemUnequipContexts = {}

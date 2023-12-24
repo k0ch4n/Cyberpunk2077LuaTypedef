@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameELootGenerationType: Enum
----@field DropChance 0
----@field NumberBased 1
----@field Weights 2
----@field Count 3
+---@field DropChance Enum 0
+---@field NumberBased Enum 1
+---@field Weights Enum 2
+---@field Count Enum 3
 gameELootGenerationType = {}

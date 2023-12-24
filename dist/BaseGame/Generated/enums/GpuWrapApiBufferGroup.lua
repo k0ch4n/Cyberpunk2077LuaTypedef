@@ -2,39 +2,39 @@
 ---@diagnostic disable
 
 ---@class GpuWrapApiBufferGroup: Enum
----@field System 0
----@field MeshResource 1
----@field MeshCustom 2
----@field AutoSpawner 3
----@field Debug 4
----@field DPL 5
----@field Weather 6
----@field ReflectionProbe 7
----@field Skinning 8
----@field Lights 9
----@field Video 10
----@field Particles 11
----@field GIManagerLitProbes 12
----@field GIManagerLookup 13
----@field GIManagerInterpolation 14
----@field GIManagerLitBricks 15
----@field GIManagerLights 16
----@field GIManagerEnvVolume 17
----@field GIProxyBrick 18
----@field GIProxySurfel 19
----@field GIProxyProbes 20
----@field GIProxyFactors 21
----@field GIProxyAcceleration 22
----@field Raytracing 23
----@field RaytracingUpload 24
----@field RaytracingAS 25
----@field RaytracingOMM 26
----@field Decals 27
----@field Instances 28
----@field Materials 29
----@field Multilayer 30
----@field FrameResources 31
----@field Misc 32
----@field MorphTargets 33
----@field MAX 34
+---@field System Enum 0
+---@field MeshResource Enum 1
+---@field MeshCustom Enum 2
+---@field AutoSpawner Enum 3
+---@field Debug Enum 4
+---@field DPL Enum 5
+---@field Weather Enum 6
+---@field ReflectionProbe Enum 7
+---@field Skinning Enum 8
+---@field Lights Enum 9
+---@field Video Enum 10
+---@field Particles Enum 11
+---@field GIManagerLitProbes Enum 12
+---@field GIManagerLookup Enum 13
+---@field GIManagerInterpolation Enum 14
+---@field GIManagerLitBricks Enum 15
+---@field GIManagerLights Enum 16
+---@field GIManagerEnvVolume Enum 17
+---@field GIProxyBrick Enum 18
+---@field GIProxySurfel Enum 19
+---@field GIProxyProbes Enum 20
+---@field GIProxyFactors Enum 21
+---@field GIProxyAcceleration Enum 22
+---@field Raytracing Enum 23
+---@field RaytracingUpload Enum 24
+---@field RaytracingAS Enum 25
+---@field RaytracingOMM Enum 26
+---@field Decals Enum 27
+---@field Instances Enum 28
+---@field Materials Enum 29
+---@field Multilayer Enum 30
+---@field FrameResources Enum 31
+---@field Misc Enum 32
+---@field MorphTargets Enum 33
+---@field MAX Enum 34
 GpuWrapApiBufferGroup = {}

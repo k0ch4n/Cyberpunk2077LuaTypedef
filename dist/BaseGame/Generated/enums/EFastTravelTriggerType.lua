@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EFastTravelTriggerType: Enum
----@field Manual 0
----@field Auto 1
+---@field Manual Enum 0
+---@field Auto Enum 1
 EFastTravelTriggerType = {}

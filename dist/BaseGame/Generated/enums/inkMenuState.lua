@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkMenuState: Enum
----@field Enabled 0
----@field Disabled 1
+---@field Enabled Enum 0
+---@field Disabled Enum 1
 inkMenuState = {}

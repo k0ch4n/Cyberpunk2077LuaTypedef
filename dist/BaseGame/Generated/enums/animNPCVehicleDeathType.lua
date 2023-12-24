@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animNPCVehicleDeathType: Enum
----@field Default 0
----@field Relaxed 1
----@field Combat 2
----@field Ragdoll 3
+---@field Default Enum 0
+---@field Relaxed Enum 1
+---@field Combat Enum 2
+---@field Ragdoll Enum 3
 animNPCVehicleDeathType = {}

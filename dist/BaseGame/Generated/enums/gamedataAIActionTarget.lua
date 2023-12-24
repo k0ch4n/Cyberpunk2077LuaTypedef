@@ -2,55 +2,55 @@
 ---@diagnostic disable
 
 ---@class gamedataAIActionTarget: Enum
----@field AssignedVehicle 0
----@field CombatTarget 1
----@field CommandCover 2
----@field CommandMovementDestination 3
----@field ConsideredCover 4
----@field CurrentCover 5
----@field CurrentNetrunnerProxy 6
----@field CustomWorldPosition 7
----@field DesiredCover 8
----@field FriendlyTarget 9
----@field FurthestNavigableSquadmate 10
----@field FurthestSquadmate 11
----@field FurthestThreat 12
----@field HostileOfficer 13
----@field In_LastKnownPosition 14
----@field MountedVehicle 15
----@field MovementDestination 16
----@field NearestDefeatedSquadmate 17
----@field NearestNavigableSquadmate 18
----@field NearestSquadmate 19
----@field NearestThreat 20
----@field NetrunnerProxy 21
----@field ObjectOfInterest 22
----@field Out_LastChasePosition 23
----@field Out_SearchPosition 24
----@field Owner 25
----@field Player 26
----@field PointOfInterest 27
----@field RingBackDestination 28
----@field RingBackLeftDestination 29
----@field RingBackRightDestination 30
----@field RingFrontDestination 31
----@field RingFrontLeftDestination 32
----@field RingFrontRightDestination 33
----@field RingLeftDestination 34
----@field RingRightDestination 35
----@field SelectedCover 36
----@field SpawnPosition 37
----@field SquadOfficer 38
----@field StimSource 39
----@field StimTarget 40
----@field TargetDevice 41
----@field TargetItem 42
----@field TeleportPosition 43
----@field TopFriendly 44
----@field TopThreat 45
----@field VisibleFurthestThreat 46
----@field VisibleNearestThreat 47
----@field VisibleTopThreat 48
----@field Count 49
----@field Invalid 50
+---@field AssignedVehicle Enum 0
+---@field CombatTarget Enum 1
+---@field CommandCover Enum 2
+---@field CommandMovementDestination Enum 3
+---@field ConsideredCover Enum 4
+---@field CurrentCover Enum 5
+---@field CurrentNetrunnerProxy Enum 6
+---@field CustomWorldPosition Enum 7
+---@field DesiredCover Enum 8
+---@field FriendlyTarget Enum 9
+---@field FurthestNavigableSquadmate Enum 10
+---@field FurthestSquadmate Enum 11
+---@field FurthestThreat Enum 12
+---@field HostileOfficer Enum 13
+---@field In_LastKnownPosition Enum 14
+---@field MountedVehicle Enum 15
+---@field MovementDestination Enum 16
+---@field NearestDefeatedSquadmate Enum 17
+---@field NearestNavigableSquadmate Enum 18
+---@field NearestSquadmate Enum 19
+---@field NearestThreat Enum 20
+---@field NetrunnerProxy Enum 21
+---@field ObjectOfInterest Enum 22
+---@field Out_LastChasePosition Enum 23
+---@field Out_SearchPosition Enum 24
+---@field Owner Enum 25
+---@field Player Enum 26
+---@field PointOfInterest Enum 27
+---@field RingBackDestination Enum 28
+---@field RingBackLeftDestination Enum 29
+---@field RingBackRightDestination Enum 30
+---@field RingFrontDestination Enum 31
+---@field RingFrontLeftDestination Enum 32
+---@field RingFrontRightDestination Enum 33
+---@field RingLeftDestination Enum 34
+---@field RingRightDestination Enum 35
+---@field SelectedCover Enum 36
+---@field SpawnPosition Enum 37
+---@field SquadOfficer Enum 38
+---@field StimSource Enum 39
+---@field StimTarget Enum 40
+---@field TargetDevice Enum 41
+---@field TargetItem Enum 42
+---@field TeleportPosition Enum 43
+---@field TopFriendly Enum 44
+---@field TopThreat Enum 45
+---@field VisibleFurthestThreat Enum 46
+---@field VisibleNearestThreat Enum 47
+---@field VisibleTopThreat Enum 48
+---@field Count Enum 49
+---@field Invalid Enum 50
 gamedataAIActionTarget = {}

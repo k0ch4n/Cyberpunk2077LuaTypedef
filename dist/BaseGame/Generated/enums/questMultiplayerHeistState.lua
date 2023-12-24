@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class questMultiplayerHeistState: Enum
----@field Invalid 0
----@field Failure 1
----@field Victory 2
+---@field Invalid Enum 0
+---@field Failure Enum 1
+---@field Victory Enum 2
 questMultiplayerHeistState = {}

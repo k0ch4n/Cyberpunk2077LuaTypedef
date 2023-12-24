@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class InGameConfigChangeReason: Enum
----@field Invalid -1
----@field Accepted 0
----@field Rejected 1
----@field NeedsConfirmation 2
----@field NeedsRestart 3
+---@field Invalid Enum -1
+---@field Accepted Enum 0
+---@field Rejected Enum 1
+---@field NeedsConfirmation Enum 2
+---@field NeedsRestart Enum 3
 InGameConfigChangeReason = {}

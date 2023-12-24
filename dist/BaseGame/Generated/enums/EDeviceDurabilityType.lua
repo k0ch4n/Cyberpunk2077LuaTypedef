@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EDeviceDurabilityType: Enum
----@field INVULNERABLE 0
----@field INDESTRUCTIBLE 1
----@field DESTRUCTIBLE 2
+---@field INVULNERABLE Enum 0
+---@field INDESTRUCTIBLE Enum 1
+---@field DESTRUCTIBLE Enum 2
 EDeviceDurabilityType = {}

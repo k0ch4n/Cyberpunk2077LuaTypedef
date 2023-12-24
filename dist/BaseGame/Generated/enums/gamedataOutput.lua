@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class gamedataOutput: Enum
----@field AskToFollowOrder 0
----@field AskToHolster 1
----@field BackOff 2
----@field BodyInvestigate 3
----@field Bump 4
----@field CallGuard 5
----@field CallPolice 6
----@field DeviceInvestigate 7
----@field Dodge 8
----@field DodgeToSide 9
----@field FearInPlace 10
----@field Flee 11
----@field Ignore 12
----@field Intruder 13
----@field Investigate 14
----@field LookAt 15
----@field Panic 16
----@field PlayerCall 17
----@field ProjectileInvestigate 18
----@field Reprimand 19
----@field SquadCall 20
----@field Surrender 21
----@field TurnAt 22
----@field WalkAway 23
----@field Count 24
----@field Invalid 25
+---@field AskToFollowOrder Enum 0
+---@field AskToHolster Enum 1
+---@field BackOff Enum 2
+---@field BodyInvestigate Enum 3
+---@field Bump Enum 4
+---@field CallGuard Enum 5
+---@field CallPolice Enum 6
+---@field DeviceInvestigate Enum 7
+---@field Dodge Enum 8
+---@field DodgeToSide Enum 9
+---@field FearInPlace Enum 10
+---@field Flee Enum 11
+---@field Ignore Enum 12
+---@field Intruder Enum 13
+---@field Investigate Enum 14
+---@field LookAt Enum 15
+---@field Panic Enum 16
+---@field PlayerCall Enum 17
+---@field ProjectileInvestigate Enum 18
+---@field Reprimand Enum 19
+---@field SquadCall Enum 20
+---@field Surrender Enum 21
+---@field TurnAt Enum 22
+---@field WalkAway Enum 23
+---@field Count Enum 24
+---@field Invalid Enum 25
 gamedataOutput = {}

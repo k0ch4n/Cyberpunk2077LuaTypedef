@@ -2,19 +2,19 @@
 ---@diagnostic disable
 
 ---@class QuickSlotActionType: Enum
----@field Undefined 0
----@field SelectItem 1
----@field HideWeapon 2
----@field OpenPhone 3
----@field SummonCar 4
----@field SummonBike 5
----@field ToggleRadio 6
----@field SelectRadioStation 7
----@field TurnOffRadio 8
----@field CycleTrackedQuest 9
----@field SummonVehicle 10
----@field SetActiveVehicle 11
----@field QuickHack 12
----@field ToggleSummonMode 13
----@field EquipFists 14
+---@field Undefined Enum 0
+---@field SelectItem Enum 1
+---@field HideWeapon Enum 2
+---@field OpenPhone Enum 3
+---@field SummonCar Enum 4
+---@field SummonBike Enum 5
+---@field ToggleRadio Enum 6
+---@field SelectRadioStation Enum 7
+---@field TurnOffRadio Enum 8
+---@field CycleTrackedQuest Enum 9
+---@field SummonVehicle Enum 10
+---@field SetActiveVehicle Enum 11
+---@field QuickHack Enum 12
+---@field ToggleSummonMode Enum 13
+---@field EquipFists Enum 14
 QuickSlotActionType = {}

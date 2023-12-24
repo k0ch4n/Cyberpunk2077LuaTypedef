@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class tempshitMapPinOperation: Enum
----@field Undefined 0
----@field Add 1
----@field Remove 2
+---@field Undefined Enum 0
+---@field Add Enum 1
+---@field Remove Enum 2
 tempshitMapPinOperation = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioVoGruntInterruptMode: Enum
----@field DontInterrupt 0
----@field PlayOnlyOnInterrupt 1
----@field CanInterrupt 2
+---@field DontInterrupt Enum 0
+---@field PlayOnlyOnInterrupt Enum 1
+---@field CanInterrupt Enum 2
 audioVoGruntInterruptMode = {}

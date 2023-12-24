@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiMappinGroupState: Enum
----@field Ungrouped 0
----@field Grouped 1
----@field GroupedCollection 2
----@field GroupedHidden 3
+---@field Ungrouped Enum 0
+---@field Grouped Enum 1
+---@field GroupedCollection Enum 2
+---@field GroupedHidden Enum 3
 gameuiMappinGroupState = {}

@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class worldPrefabType: Enum
----@field Regular 0
----@field Area 1
----@field Generated 2
----@field Decoration 3
----@field Quest 4
----@field Road 5
----@field Building 6
----@field Terrain 7
+---@field Regular Enum 0
+---@field Area Enum 1
+---@field Generated Enum 2
+---@field Decoration Enum 3
+---@field Quest Enum 4
+---@field Road Enum 5
+---@field Building Enum 6
+---@field Terrain Enum 7
 worldPrefabType = {}

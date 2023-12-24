@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class WeaponType: Enum
----@field Ranged 0
----@field Melee 1
----@field Count 2
----@field Invalid -1
+---@field Ranged Enum 0
+---@field Melee Enum 1
+---@field Count Enum 2
+---@field Invalid Enum -1
 WeaponType = {}

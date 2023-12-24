@@ -2,1016 +2,1016 @@
 ---@diagnostic disable
 
 ---@class gamedataStatType_1300DEPRECATED: Enum
----@field Acceleration 0
----@field Accuracy 1
----@field Adrenaline 2
----@field AimFOV 3
----@field AimInTime 4
----@field AimOffset 5
----@field AimOutTime 6
----@field AllowMovementInput 7
----@field AllowRotation 8
----@field Armor 9
----@field Assault 10
----@field AssaultMastery 11
----@field AssaultTrait01Stat 12
----@field Athletics 13
----@field AthleticsMastery 14
----@field AthleticsTrait01Stat 15
----@field AttackPenetration 16
----@field AttackSpeed 17
----@field AttackSpeedPercent 18
----@field AttacksNumber 19
----@field AttacksPerSecond 20
----@field AttacksPerSecondBase 21
----@field AudioLocomotionStimRangeMultiplier 22
----@field AudioStimRangeMultiplier 23
----@field AutoReveal 24
----@field AutocraftDuration 25
----@field AutomaticReplenishment 26
----@field AutomaticUploadPerk 27
----@field BaseChargeTime 28
----@field BaseDamage 29
----@field BaseDamageMax 30
----@field BaseDamageMin 31
----@field BerserkArmorBonus 32
----@field BerserkCooldownBase 33
----@field BerserkCooldownReduction 34
----@field BerserkDurationBase 35
----@field BerserkHealthRegenBonus 36
----@field BerserkMeleeDamageBonus 37
----@field BerserkRecoilReduction 38
----@field BerserkResistancesBonus 39
----@field BerserkShockwaveDamage 40
----@field BerserkShockwaveRangeBonus 41
----@field BerserkSwayReduction 42
----@field BleedingApplicationRate 43
----@field BleedingImmunity 44
----@field BlindImmunity 45
----@field BlindResistance 46
----@field BlockFactor 47
----@field BlockLocomotionWhenLeaningOutOfCover 48
----@field BlockReduction 49
----@field BonusChargeDamage 50
----@field BonusDPS 51
----@field BonusDamageAgainstElites 52
----@field BonusDamageAgainstMechanicals 53
----@field BonusDamageAgainstRares 54
----@field BonusQuickHackDamage 55
----@field BonusRicochetDamage 56
----@field Brake 57
----@field BrakeDot 58
----@field Brawling 59
----@field BrawlingMastery 60
----@field BrawlingTrait01Stat 61
----@field BufferSize 62
----@field BulletMagnetismDefaultAngle 63
----@field BulletMagnetismHighVelocityAngle 64
----@field BulletPseudoPierceHitVFxChance 65
----@field BulletSurroundingHitVFxChance 66
----@field BurningApplicationRate 67
----@field BurningImmunity 68
----@field BurningRegenStamina 69
----@field CPUPower 70
----@field CallReinforcement 71
----@field CameraShutdownExtension 72
----@field CanAerialTakedown 73
----@field CanAimWhileDodging 74
----@field CanAskToFollowOrder 75
----@field CanAskToHolsterWeapon 76
----@field CanAutomaticallyDisassembleJunk 77
----@field CanAutomaticallyRestoreKnives 78
----@field CanBleedingCriticallyHit 79
----@field CanBleedingSlowTarget 80
----@field CanBlindQuickHack 81
----@field CanBlock 82
----@field CanBreatheUnderwater 83
----@field CanBuffCamoQuickHack 84
----@field CanBuffMechanicalsOnTakeControl 85
----@field CanBuffSturdinessQuickHack 86
----@field CanBurningCriticallyHit 87
----@field CanCallDrones 88
----@field CanCallReinforcements 89
----@field CanCatchUp 90
----@field CanCatchUpDistance 91
----@field CanCharge 92
----@field CanChargedShoot 93
----@field CanCloseCombat 94
----@field CanCommsCallInQuickHack 95
----@field CanCommsCallOutQuickHack 96
----@field CanCommsNoiseQuickHack 97
----@field CanControlFullyChargedWeapon 98
----@field CanCraftEpicItems 99
----@field CanCraftFromInventory 100
----@field CanCraftLegendaryItems 101
----@field CanCraftRareItems 102
----@field CanCraftTechAmmunition 103
----@field CanCrouch 104
----@field CanCyberwareMalfunctionQuickHack 105
----@field CanDash 106
----@field CanDataMineQuickHack 107
----@field CanDealFullDamageToArmored 108
----@field CanDeathQuickHack 109
----@field CanDisassemble 110
----@field CanDisassembleConsumables 111
----@field CanDisassembleGadgets 112
----@field CanDropWeapon 113
----@field CanElectrocuteNullifyStats 114
----@field CanElectrocuteRoot 115
----@field CanExitWSOnSoundStimuli 116
----@field CanExplodeQuickHack 117
----@field CanFastTravelWhileEncumbered 118
----@field CanFullyChargeWeapon 119
----@field CanGrab 120
----@field CanGrappleAndroids 121
----@field CanGrappleSilently 122
----@field CanGrenadeLaunch 123
----@field CanGrenadeQuickHack 124
----@field CanGrenadesCriticallyHit 125
----@field CanGrenadesDealExternalDamage 126
----@field CanGuardBreak 127
----@field CanHeartattackQuickHack 128
----@field CanIgnoreArmorDamageReduction 129
----@field CanIgnoreStamina 130
----@field CanInstallTechMods 131
----@field CanJamWeaponQuickHack 132
----@field CanJump 133
----@field CanLandSilently 134
----@field CanLegendaryCraftedWeaponsBeBoosted 135
----@field CanLocomotionMalfunctionQuickHack 136
----@field CanMadnessQuickHack 137
----@field CanMalfunctionQuickHack 138
----@field CanMeleeBerserk 139
----@field CanMeleeDash 140
----@field CanMeleeInfinitelyCombo 141
----@field CanMeleeLeap 142
----@field CanMeleeLeapTakedown 143
----@field CanOverchargeWeapon 144
----@field CanOverheatQuickHack 145
----@field CanOverloadQuickHack 146
----@field CanOverrideAttitudeQuickHack 147
----@field CanOverrideAuthorizationQuickHack 148
----@field CanParry 149
----@field CanPickUpBodyAfterTakedown 150
----@field CanPickUpWeapon 151
----@field CanPingQuickHack 152
----@field CanPlayerBoostConsumables 153
----@field CanPlayerBoostGrenades 154
----@field CanPoisonLowerArmor 155
----@field CanPoisonSlow 156
----@field CanPreciseShoot 157
----@field CanPushBack 158
----@field CanPushFromGrapple 159
----@field CanQuickHackCriticallyHit 160
----@field CanQuickMeleeStagger 161
----@field CanQuickhack 162
----@field CanQuickhackHealPuppet 163
----@field CanQuickhackTransferBetweenEnemies 164
----@field CanRegenInCombat 165
----@field CanRemoveModsFromClothing 166
----@field CanRemoveModsFromWeapons 167
----@field CanResurrectAllies 168
----@field CanRetrieveModsFromDisassemble 169
----@field CanRunSilently 170
----@field CanSandevistanSprintHarass 171
----@field CanScrapPartsFromMechanicals 172
----@field CanSeeGrenadeRadius 173
----@field CanSeeRicochetVisuals 174
----@field CanSeeThroughWalls 175
----@field CanShareThreatsWithPlayer 176
----@field CanShootWhileCarryingBody 177
----@field CanShootWhileDodging 178
----@field CanShootWhileGrappling 179
----@field CanShootWhileMoving 180
----@field CanShootWhileVaulting 181
----@field CanSilentKill 182
----@field CanSmartShoot 183
----@field CanSprint 184
----@field CanSprintHarass 185
----@field CanSprintWhileCarryingBody 186
----@field CanSuicideQuickHack 187
----@field CanSwitchWeapon 188
----@field CanTakeControlQuickHack 189
----@field CanTakedownLethally 190
----@field CanTakedownSilently 191
----@field CanTaunt 192
----@field CanThrowWeapon 193
----@field CanUpgradeFromInventory 194
----@field CanUpgradeToLegendaryQuality 195
----@field CanUseAntiStun 196
----@field CanUseBiohazardGrenades 197
----@field CanUseCloseRing 198
----@field CanUseCombatStims 199
----@field CanUseConsumables 200
----@field CanUseCoolingSystem 201
----@field CanUseCovers 202
----@field CanUseCuttingGrenades 203
----@field CanUseEMPGrenades 204
----@field CanUseExtremeRing 205
----@field CanUseFarRing 206
----@field CanUseFlashbangGrenades 207
----@field CanUseFragGrenades 208
----@field CanUseGrenades 209
----@field CanUseHolographicCamo 210
----@field CanUseIncendiaryGrenades 211
----@field CanUseLeftHand 212
----@field CanUseLegs 213
----@field CanUseMantisBlades 214
----@field CanUseMediumRing 215
----@field CanUseMeleeRing 216
----@field CanUseOpticalCamo 217
----@field CanUsePainInhibitors 218
----@field CanUsePersonalSoundSilencer 219
----@field CanUseProjectileLauncher 220
----@field CanUseReconGrenades 221
----@field CanUseRetractableShield 222
----@field CanUseRightHand 223
----@field CanUseShootingSpots 224
----@field CanUseStaticCamo 225
----@field CanUseStrongArms 226
----@field CanUseTakedowns 227
----@field CanUseTerrainCamo 228
----@field CanUseZoom 229
----@field CanWalkSilently 230
----@field CanWallStick 231
----@field CanWeaponBlock 232
----@field CanWeaponBlockAttack 233
----@field CanWeaponComboAttack 234
----@field CanWeaponCriticallyHit 235
----@field CanWeaponCrouchAttack 236
----@field CanWeaponDash 237
----@field CanWeaponDeflect 238
----@field CanWeaponIgnoreArmor 239
----@field CanWeaponInfinitlyCombo 240
----@field CanWeaponJumpAttack 241
----@field CanWeaponLeap 242
----@field CanWeaponMalfunctionQuickHack 243
----@field CanWeaponReload 244
----@field CanWeaponReloadWhileInactive 245
----@field CanWeaponReloadWhileSliding 246
----@field CanWeaponReloadWhileSprinting 247
----@field CanWeaponReloadWhileVaulting 248
----@field CanWeaponSafeAttack 249
----@field CanWeaponShoot 250
----@field CanWeaponShootWhileSliding 251
----@field CanWeaponShootWhileSprinting 252
----@field CanWeaponShootWhileVaulting 253
----@field CanWeaponSnapToLimbs 254
----@field CanWeaponSprintAttack 255
----@field CanWeaponStrongAttack 256
----@field CanWeaponTriggerHeadshot 257
----@field CannotBeDetectedWhileSubmerged 258
----@field CannotBeHealed 259
----@field CannotSprintHarass 260
----@field CarryCapacity 261
----@field CausingPanicReducesUltimateHacksCost 262
----@field Charge 263
----@field ChargeDischargeTime 264
----@field ChargeFullMultiplier 265
----@field ChargeMaxTimeInChargedState 266
----@field ChargeMultiplier 267
----@field ChargeReadyPercentage 268
----@field ChargeShouldFireWhenReady 269
----@field ChargeTime 270
----@field ChemicalDamage 271
----@field ChemicalDamageMax 272
----@field ChemicalDamageMin 273
----@field ChemicalDamagePercent 274
----@field ChemicalResistance 275
----@field ClimbSpeedModifier 276
----@field ClipTimesCycle 277
----@field ClipTimesCycleBase 278
----@field ClipTimesCyclePlusReload 279
----@field ClipTimesCyclePlusReloadBase 280
----@field CloudComputingTraps 281
----@field ColdBlood 282
----@field ColdBloodBuffBonus 283
----@field ColdBloodMastery 284
----@field ColdBloodMaxDuration 285
----@field ColdBloodMaxStacks 286
----@field ColdBloodTrait01 287
----@field CombatHacking 288
----@field CombatHackingMastery 289
----@field CommsNoiseJamOnQuickhack 290
----@field Cool 291
----@field Crafting 292
----@field CraftingBonusArmorValue 293
----@field CraftingBonusConsumableDuration 294
----@field CraftingBonusGrenadeDamage 295
----@field CraftingBonusWeaponDamage 296
----@field CraftingCostReduction 297
----@field CraftingItemLevelBoost 298
----@field CraftingMastery 299
----@field CraftingMaterialDropChance 300
----@field CraftingMaterialRandomGrantChance 301
----@field CraftingMaterialRetrieveChance 302
----@field CraftingTrait01 303
----@field CritChance 304
----@field CritChanceTimeCritDamage 305
----@field CritDPSBonus 306
----@field CritDamage 307
----@field CyberwareCooldownReduction 308
----@field CycleTime 309
----@field CycleTimeAimBlockDuration 310
----@field CycleTimeAimBlockStart 311
----@field CycleTimeBase 312
----@field CycleTimeBonus 313
----@field CycleTimeShootingMult 314
----@field CycleTimeShootingMultPeriod 315
----@field CycleTime_Burst 316
----@field CycleTime_BurstMaxCharge 317
----@field CycleTime_BurstSecondary 318
----@field CycleTriggerModeTime 319
----@field DPS 320
----@field DamageFalloffDisabled 321
----@field DamageHackSpread 322
----@field DamagePerHit 323
----@field DamageReductionDamageOverTime 324
----@field DamageReductionExplosion 325
----@field DashAttackStaminaCostReduction 326
----@field DataLeakTraps 327
----@field DealsChemicalDamage 328
----@field DealsElectricDamage 329
----@field DealsPhysicalDamage 330
----@field DealsThermalDamage 331
----@field Deceleration 332
----@field DefeatedHeadDamageThreshold 333
----@field DefeatedLArmDamageThreshold 334
----@field DefeatedLLegDamageThreshold 335
----@field DefeatedRArmDamageThreshold 336
----@field DefeatedRLegDamageThreshold 337
----@field DefeatingEnemiesReduceHacksCost 338
----@field Demolition 339
----@field DemolitionMastery 340
----@field DemolitionTrait01Stat 341
----@field Detection 342
----@field DeviceMemoryCostReduction 343
----@field DisableCyberwareOnBurning 344
----@field DisassemblingIngredientsDoubleBonus 345
----@field DisassemblingMaterialQualityObtainChance 346
----@field DismHeadDamageThreshold 347
----@field DismLArmDamageThreshold 348
----@field DismLLegDamageThreshold 349
----@field DismRArmDamageThreshold 350
----@field DismRLegDamageThreshold 351
----@field DoNotCheckFriendlyFireMadnessPassive 352
----@field DummyResistanceStat 353
----@field Durability 354
----@field DurationBonusBleeding 355
----@field DurationBonusBurning 356
----@field DurationBonusElectrified 357
----@field DurationBonusPoisoned 358
----@field DurationBonusQuickhack 359
----@field DurationBonusStun 360
----@field EMPImmunity 361
----@field EffectiveDPS 362
----@field EffectiveDamagePerHit 363
----@field EffectiveDamagePerHitMax 364
----@field EffectiveDamagePerHitMin 365
----@field EffectiveDamagePerHitTimesAttacksPerSecond 366
----@field EffectiveRange 367
----@field ElectricDamage 368
----@field ElectricDamageMax 369
----@field ElectricDamageMin 370
----@field ElectricDamagePercent 371
----@field ElectricResistance 372
----@field ElectrocuteImmunity 373
----@field ElectrocutedApplicationRate 374
----@field ElementalDamagePerHit 375
----@field ElementalResistanceMultiplier 376
----@field EmptyReloadTime 377
----@field Engineering 378
----@field EngineeringMastery 379
----@field EngineeringTrait01 380
----@field EquipActionDuration_Corpo 381
----@field EquipActionDuration_Gang 382
----@field EquipAnimationDuration_Corpo 383
----@field EquipAnimationDuration_Gang 384
----@field EquipDuration 385
----@field EquipDuration_First 386
----@field EquipItemTime_Corpo 387
----@field EquipItemTime_Gang 388
----@field Evasion 389
----@field ExplosionKillsRecudeUltimateHacksCost 390
----@field FFInputLock 391
----@field FallDamageReduction 392
----@field FearOnQuickHackKill 393
----@field FullAutoOnFullCharge 394
----@field Gunslinger 395
----@field GunslingerMastery 396
----@field GunslingerTrait01Stat 397
----@field HackedEnemiesGetDamagedByFriendlyFire 398
----@field HackedEnemyArmorReduction 399
----@field Hacking 400
----@field HackingMastery 401
----@field HackingPenetration 402
----@field HackingResistance 403
----@field HackingResistanceUltimate 404
----@field HasAdditionalSplinterSlot 405
----@field HasAheadTargeting 406
----@field HasAirHover 407
----@field HasAirThrusters 408
----@field HasAutoReloader 409
----@field HasAutomaticReplenishment 410
----@field HasAutomaticTagging 411
----@field HasBerserk 412
----@field HasBleedImmunity 413
----@field HasBlindImmunity 414
----@field HasBoostedCortex 415
----@field HasBurningBuffs 416
----@field HasCameraLinking 417
----@field HasChargeJump 418
----@field HasCritImmunity 419
----@field HasCyberdeck 420
----@field HasCybereye 421
----@field HasDodge 422
----@field HasDodgeAir 423
----@field HasDoubleJump 424
----@field HasElectricCoating 425
----@field HasElectroPlating 426
----@field HasExtendedHitReactionImmunity 427
----@field HasFireproofSkin 428
----@field HasGPS 429
----@field HasGlowingTattoos 430
----@field HasGraphiteTissue 431
----@field HasHackingInteractions 432
----@field HasHealingReapplication 433
----@field HasHealthMonitorBomb 434
----@field HasHostileHackImmunity 435
----@field HasICELevelBooster 436
----@field HasInfravision 437
----@field HasJuiceInjector 438
----@field HasKerenzikov 439
----@field HasKerenzikovSlide 440
----@field HasKers 441
----@field HasLinkToBountySystem 442
----@field HasLoweringPerception 443
----@field HasMadnessLvl4Passive 444
----@field HasMajorQuickhackResistance 445
----@field HasMechanicalControl 446
----@field HasMeleeImmunity 447
----@field HasMeleeTargeting 448
----@field HasMetabolicEnhancer 449
----@field HasPoisonHeal 450
----@field HasPoisonImmunity 451
----@field HasPowerGrip 452
----@field HasQuickhackResistance 453
----@field HasRemoteBotAccessPointBreach 454
----@field HasSandevistan 455
----@field HasSandevistanTier1 456
----@field HasSandevistanTier2 457
----@field HasSandevistanTier3 458
----@field HasSecondHeart 459
----@field HasSelfHealingSkin 460
----@field HasSmartLink 461
----@field HasSpiderBotControl 462
----@field HasStunImmunity 463
----@field HasSubdermalArmor 464
----@field HasSuperheroFall 465
----@field HasThermovision 466
----@field HasTimedImmunity 467
----@field HasToxicCleanser 468
----@field HasWallRunSkill 469
----@field HeadshotDamageMultiplier 470
----@field HeadshotImmunity 471
----@field Health 472
----@field HealthInCombatRegenDelayOnChange 473
----@field HealthInCombatRegenEnabled 474
----@field HealthInCombatRegenEndThreshold 475
----@field HealthInCombatRegenRate 476
----@field HealthInCombatRegenRateAdd 477
----@field HealthInCombatRegenRateBase 478
----@field HealthInCombatRegenRateMult 479
----@field HealthInCombatRegenStartThreshold 480
----@field HealthInCombatStartDelay 481
----@field HealthMonitorCooldownDuration 482
----@field HealthOutOfCombatRegenDelayOnChange 483
----@field HealthOutOfCombatRegenEnabled 484
----@field HealthOutOfCombatRegenEndThreshold 485
----@field HealthOutOfCombatRegenRate 486
----@field HealthOutOfCombatRegenRateAdd 487
----@field HealthOutOfCombatRegenRateBase 488
----@field HealthOutOfCombatRegenRateMult 489
----@field HealthOutOfCombatRegenStartThreshold 490
----@field Hearing 491
----@field HeavyAttacksNumber 492
----@field HighlightAccessPoint 493
----@field HitDismembermentFactor 494
----@field HitReactionDamageHealthFactor 495
----@field HitReactionFactor 496
----@field HitTimerAfterDefeated 497
----@field HitTimerAfterImpact 498
----@field HitTimerAfterImpactMelee 499
----@field HitTimerAfterKnockdown 500
----@field HitTimerAfterPain 501
----@field HitTimerAfterStagger 502
----@field HitTimerAfterStaggerMelee 503
----@field HitWoundsFactor 504
----@field HoldDuration 505
----@field HoldEnterDuration 506
----@field HoldTimeoutDuration 507
----@field HolographicSkinCooldownDuration 508
----@field HolographicSkinDuration 509
----@field IconicItemUpgraded 510
----@field ImpactDamageThreshold 511
----@field ImpactDamageThresholdImpulse 512
----@field ImpactDamageThresholdInCover 513
----@field Intelligence 514
----@field IsAggressive 515
----@field IsBalanced 516
----@field IsBlocking 517
----@field IsCautious 518
----@field IsDefensive 519
----@field IsDeflecting 520
----@field IsDodgeStaminaFree 521
----@field IsDodging 522
----@field IsFastMeleeArchetype 523
----@field IsFastRangedArchetype 524
----@field IsGenericMeleeArchetype 525
----@field IsGenericRangedArchetype 526
----@field IsHeavyRangedArchetype 527
----@field IsInvulnerable 528
----@field IsItemBroken 529
----@field IsItemCracked 530
----@field IsItemCrafted 531
----@field IsItemIconic 532
----@field IsItemUpgraded 533
----@field IsManBig 534
----@field IsManMassive 535
----@field IsMechanical 536
----@field IsNetrunnerArchetype 537
----@field IsNotSlowedDuringADS 538
----@field IsNotSlowedDuringBlock 539
----@field IsNotSlowedDuringReload 540
----@field IsReckless 541
----@field IsShotgunnerArchetype 542
----@field IsSniperArchetype 543
----@field IsSprintStaminaFree 544
----@field IsStrongMeleeArchetype 545
----@field IsTechieArchetype 546
----@field IsTier1Archetype 547
----@field IsTier2Archetype 548
----@field IsTier3Archetype 549
----@field IsTier4Archetype 550
----@field IsWeakspot 551
----@field IsWeaponLethal 552
----@field ItemArmor 553
----@field ItemLevel 554
----@field ItemRequiresElectroPlating 555
----@field ItemRequiresPowerGrip 556
----@field ItemRequiresSmartLink 557
----@field JumpHeight 558
----@field Kenjutsu 559
----@field KenjutsuMastery 560
----@field KenjutsuTrait01Stat 561
----@field KnockdownDamageThreshold 562
----@field KnockdownDamageThresholdImpulse 563
----@field KnockdownDamageThresholdInCover 564
----@field KnockdownImmunity 565
----@field KnockdownImpulse 566
----@field Level 567
----@field LimbHealth 568
----@field LinearDirectionUpdateMax 569
----@field LinearDirectionUpdateMaxADS 570
----@field LinearDirectionUpdateMin 571
----@field LinearDirectionUpdateMinADS 572
----@field LowerActiveCooldownOnDefeat 573
----@field LowerHackingResistanceOnHack 574
----@field MagazineCapacity 575
----@field MagazineCapacityBase 576
----@field MagazineCapacityBonus 577
----@field MaxDuration 578
----@field MaxPercentDamageTakenPerHit 579
----@field MaxSpeed 580
----@field MaxStacks 581
----@field MaxStacksBonusBleeding 582
----@field MaxStacksBonusBurning 583
----@field MaximumRange 584
----@field MechanicalsBuffDPSBonus 585
----@field MeleeAttackDuration 586
----@field Memory 587
----@field MemoryCostModifier 588
----@field MemoryCostReduction 589
----@field MemoryInCombatRegenDelayOnChange 590
----@field MemoryInCombatRegenEnabled 591
----@field MemoryInCombatRegenEndThreshold 592
----@field MemoryInCombatRegenRate 593
----@field MemoryInCombatRegenRateAdd 594
----@field MemoryInCombatRegenRateBase 595
----@field MemoryInCombatRegenRateMult 596
----@field MemoryInCombatRegenStartThreshold 597
----@field MemoryInCombatStartDelay 598
----@field MemoryOutOfCombatRegenDelayOnChange 599
----@field MemoryOutOfCombatRegenEnabled 600
----@field MemoryOutOfCombatRegenEndThreshold 601
----@field MemoryOutOfCombatRegenRate 602
----@field MemoryOutOfCombatRegenRateAdd 603
----@field MemoryOutOfCombatRegenRateBase 604
----@field MemoryOutOfCombatRegenRateMult 605
----@field MemoryOutOfCombatRegenStartThreshold 606
----@field MemoryOutOfCombatStartDelay 607
----@field MemoryTrackerCooldownDuration 608
----@field MemoryWipeImmunity 609
----@field MinSpeed 610
----@field MinigameBufferExtension 611
----@field MinigameMaterialsEarned 612
----@field MinigameMemoryRegenPerk 613
----@field MinigameMoneyMultiplier 614
----@field MinigameNextInstanceBufferExtensionPerk 615
----@field MinigameShardChanceMultiplier 616
----@field MinigameTimeLimitExtension 617
----@field MinigameTrapsPossibilityChance 618
----@field NPCAnimationTime 619
----@field NPCCorpoEquipItemDuration 620
----@field NPCCorpoUnequipItemDuration 621
----@field NPCDamage 622
----@field NPCEquipItemDuration 623
----@field NPCGangEquipItemDuration 624
----@field NPCGangUnequipItemDuration 625
----@field NPCLoopDuration 626
----@field NPCRecoverDuration 627
----@field NPCStartupDuration 628
----@field NPCUnequipItemDuration 629
----@field NPCUploadTime 630
----@field NoJam 631
----@field NumShotsInBurst 632
----@field NumShotsInBurstMaxCharge 633
----@field NumShotsInBurstSecondary 634
----@field NumShotsToFire 635
----@field NumberIgnoredTraps 636
----@field Overheat 637
----@field Oxygen 638
----@field PartArmor 639
----@field PenetrationHealth 640
----@field PersonalityAggressive 641
----@field PersonalityCuriosity 642
----@field PersonalityDisgust 643
----@field PersonalityFear 644
----@field PersonalityFunny 645
----@field PersonalityJoy 646
----@field PersonalitySad 647
----@field PersonalityShock 648
----@field PersonalitySurprise 649
----@field PhoneCallDuration 650
----@field PhysicalDamage 651
----@field PhysicalDamageMax 652
----@field PhysicalDamageMin 653
----@field PhysicalDamagePercent 654
----@field PhysicalImpulse 655
----@field PhysicalResistance 656
----@field PoisonImmunity 657
----@field PoisonRegenHealth 658
----@field PoisonedApplicationRate 659
----@field PowerLevel 660
----@field PreFireTime 661
----@field PrefersCovers 662
----@field PrefersShootingSpots 663
----@field Price 664
----@field ProjectilesPerShot 665
----@field ProjectilesPerShotBase 666
----@field ProjectilesPerShotBonus 667
----@field Quality 668
----@field Quantity 669
----@field QuickHackDuration 670
----@field QuickHackDurationExtension 671
----@field QuickHackImmunity 672
----@field QuickHackResistancesMod 673
----@field QuickHackSpreadDistance 674
----@field QuickHackSpreadNumber 675
----@field QuickHackSuddenDeathChance 676
----@field QuickHackUpload 677
----@field QuickhackExtraDamageMultiplier 678
----@field QuickhackShield 679
----@field QuickhacksCooldownReduction 680
----@field RandomCurveInput 681
----@field Range 682
----@field Recoil 683
----@field RecoilAllowSway 684
----@field RecoilAlternateDir 685
----@field RecoilAlternateDirADS 686
----@field RecoilAngle 687
----@field RecoilAngleADS 688
----@field RecoilAnimation 689
----@field RecoilChargeMult 690
----@field RecoilChargeMultADS 691
----@field RecoilCycleSize 692
----@field RecoilCycleSizeADS 693
----@field RecoilCycleTime 694
----@field RecoilCycleTimeADS 695
----@field RecoilDelay 696
----@field RecoilDir 697
----@field RecoilDirADS 698
----@field RecoilDirPlanCycleRandDir 699
----@field RecoilDirPlanCycleRandDirADS 700
----@field RecoilDirPlanCycleRandRangeDir 701
----@field RecoilDirPlanCycleRandRangeDirADS 702
----@field RecoilDirPlanSequence 703
----@field RecoilDirPlanSequenceADS 704
----@field RecoilDriftRandomRangeMax 705
----@field RecoilDriftRandomRangeMin 706
----@field RecoilEnableCycleX 707
----@field RecoilEnableCycleXADS 708
----@field RecoilEnableCycleY 709
----@field RecoilEnableCycleYADS 710
----@field RecoilEnableLinearX 711
----@field RecoilEnableLinearXADS 712
----@field RecoilEnableLinearY 713
----@field RecoilEnableLinearYADS 714
----@field RecoilEnableScaleX 715
----@field RecoilEnableScaleXADS 716
----@field RecoilEnableScaleY 717
----@field RecoilEnableScaleYADS 718
----@field RecoilFullChargeMult 719
----@field RecoilFullChargeMultADS 720
----@field RecoilHoldDuration 721
----@field RecoilHoldDurationADS 722
----@field RecoilKickMax 723
----@field RecoilKickMaxADS 724
----@field RecoilKickMin 725
----@field RecoilKickMinADS 726
----@field RecoilMagForFullDrift 727
----@field RecoilMaxLength 728
----@field RecoilMaxLengthADS 729
----@field RecoilRecoveryMinSpeed 730
----@field RecoilRecoveryMinSpeedADS 731
----@field RecoilRecoverySpeed 732
----@field RecoilRecoverySpeedADS 733
----@field RecoilRecoveryTime 734
----@field RecoilRecoveryTimeADS 735
----@field RecoilScaleMax 736
----@field RecoilScaleMaxADS 737
----@field RecoilScaleTime 738
----@field RecoilScaleTimeADS 739
----@field RecoilSpeed 740
----@field RecoilSpeedADS 741
----@field RecoilTime 742
----@field RecoilTimeADS 743
----@field RecoilUseDifferentStatsInADS 744
----@field Reflexes 745
----@field RefreshesPingOnQuickhack 746
----@field RegenerateHPMinigamePerk 747
----@field ReloadAmount 748
----@field ReloadEndTime 749
----@field ReloadTime 750
----@field ReloadTimeBase 751
----@field ReloadTimeBonus 752
----@field RemoveAllStacksWhenDurationEnds 753
----@field RemoveColdBloodStacksOneByOne 754
----@field RemoveSprintOnQuickhack 755
----@field ReprimandEscalation 756
----@field RestoreMemoryOnDefeat 757
----@field RevealNetrunnerWhenHacked 758
----@field RicochetChance 759
----@field RicochetCount 760
----@field RicochetMaxAngle 761
----@field RicochetMinAngle 762
----@field RicochetTargetSearchAngle 763
----@field SandevistanDashShoot 764
----@field ScanDepth 765
----@field ScanTimeReduction 766
----@field ScopeFOV 767
----@field ScopeOffset 768
----@field ScrapItemChance 769
----@field SharedCacheTraps 770
----@field ShootingOffsetAI 771
----@field ShortCircuitOnCriticalHit 772
----@field ShorterChains 773
----@field ShotDelay 774
----@field SlideWhenLeaningOutOfCover 775
----@field SmartGunAddSpiralTrajectory 776
----@field SmartGunAdsLockingAnglePitch 777
----@field SmartGunAdsLockingAngleYaw 778
----@field SmartGunAdsMaxLockedTargets 779
----@field SmartGunAdsTagLockAnglePitch 780
----@field SmartGunAdsTagLockAngleYaw 781
----@field SmartGunAdsTargetableAnglePitch 782
----@field SmartGunAdsTargetableAngleYaw 783
----@field SmartGunAdsTimeToLock 784
----@field SmartGunAdsTimeToUnlock 785
----@field SmartGunEvenDistributionPeriod 786
----@field SmartGunHipLockingAnglePitch 787
----@field SmartGunHipLockingAngleYaw 788
----@field SmartGunHipMaxLockedTargets 789
----@field SmartGunHipTagLockAnglePitch 790
----@field SmartGunHipTagLockAngleYaw 791
----@field SmartGunHipTargetableAnglePitch 792
----@field SmartGunHipTargetableAngleYaw 793
----@field SmartGunHipTimeToLock 794
----@field SmartGunHipTimeToUnlock 795
----@field SmartGunHitProbability 796
----@field SmartGunHitProbabilityMultiplier 797
----@field SmartGunMissDelay 798
----@field SmartGunMissRadius 799
----@field SmartGunNPCApplySpreadAtHitplane 800
----@field SmartGunNPCLockOnTime 801
----@field SmartGunNPCLockTimeout 802
----@field SmartGunNPCLockingAnglePitch 803
----@field SmartGunNPCLockingAngleYaw 804
----@field SmartGunNPCProjectileStartingOrientationAngleOffset 805
----@field SmartGunNPCProjectileVelocity 806
----@field SmartGunNPCShootProjectilesOnlyStraight 807
----@field SmartGunNPCSpreadMultiplier 808
----@field SmartGunNPCTrajectoryCurvatureMultiplier 809
----@field SmartGunPlayerProjectileVelocity 810
----@field SmartGunProjectileVelocityVariance 811
----@field SmartGunSpiralCycleTimeMax 812
----@field SmartGunSpiralCycleTimeMin 813
----@field SmartGunSpiralRadius 814
----@field SmartGunSpiralRampDistanceEnd 815
----@field SmartGunSpiralRampDistanceStart 816
----@field SmartGunSpiralRandomizeDirection 817
----@field SmartGunSpreadMultiplier 818
----@field SmartGunStartingAccuracy 819
----@field SmartGunTargetAcquisitionRange 820
----@field SmartGunTimeToMaxAccuracy 821
----@field SmartGunTimeToRemoveOccludedTarget 822
----@field SmartGunTrackAllBodyparts 823
----@field SmartGunTrackHeadComponents 824
----@field SmartGunTrackLegComponents 825
----@field SmartGunTrackMechanicalComponents 826
----@field SmartGunTrackMultipleEntitiesInADS 827
----@field SmartGunUseEvenDistributionTargeting 828
----@field SmartGunUseTagLockTargeting 829
----@field SmartGunUseTimeBasedAccuracy 830
----@field SmartTargetingDisruptionProbability 831
----@field SpecialDamage 832
----@field SpeedBoost 833
----@field SpeedBoostMaxSpeed 834
----@field Spread 835
----@field SpreadAdsChangePerShot 836
----@field SpreadAdsChargeMult 837
----@field SpreadAdsDefaultX 838
----@field SpreadAdsDefaultY 839
----@field SpreadAdsFastSpeedMax 840
----@field SpreadAdsFastSpeedMaxAdd 841
----@field SpreadAdsFastSpeedMin 842
----@field SpreadAdsFastSpeedMinAdd 843
----@field SpreadAdsFullChargeMult 844
----@field SpreadAdsMaxX 845
----@field SpreadAdsMaxY 846
----@field SpreadAdsMinX 847
----@field SpreadAdsMinY 848
----@field SpreadAnimation 849
----@field SpreadChangePerShot 850
----@field SpreadChargeMult 851
----@field SpreadCrouchDefaultMult 852
----@field SpreadCrouchMaxMult 853
----@field SpreadDefaultX 854
----@field SpreadDefaultY 855
----@field SpreadEvenDistributionJitterSize 856
----@field SpreadEvenDistributionRowCount 857
----@field SpreadFastSpeedMax 858
----@field SpreadFastSpeedMaxAdd 859
----@field SpreadFastSpeedMin 860
----@field SpreadFastSpeedMinAdd 861
----@field SpreadFullChargeMult 862
----@field SpreadMaxAI 863
----@field SpreadMaxX 864
----@field SpreadMaxY 865
----@field SpreadMinX 866
----@field SpreadMinY 867
----@field SpreadRandomizeOriginPoint 868
----@field SpreadResetSpeed 869
----@field SpreadResetTimeThreshold 870
----@field SpreadUseCircularSpread 871
----@field SpreadUseEvenDistribution 872
----@field SpreadUseInAds 873
----@field SpreadZeroOnFirstShot 874
----@field StaggerDamageThreshold 875
----@field StaggerDamageThresholdImpulse 876
----@field StaggerDamageThresholdInCover 877
----@field Stamina 878
----@field StaminaCostReduction 879
----@field StaminaCostToBlock 880
----@field StaminaDamage 881
----@field StaminaRegenDelayOnChange 882
----@field StaminaRegenEnabled 883
----@field StaminaRegenEndThrehold 884
----@field StaminaRegenRate 885
----@field StaminaRegenRateAdd 886
----@field StaminaRegenRateBase 887
----@field StaminaRegenRateMult 888
----@field StaminaRegenStartDelay 889
----@field StaminaRegenStartThreshold 890
----@field StaminaSprintDecayRate 891
----@field StatModifierGroupLimit 892
----@field Stealth 893
----@field StealthHacksCostReduction 894
----@field StealthHitDamageMultiplier 895
----@field StealthMastery 896
----@field StealthTrait01Stat 897
----@field StealthWeakspotDamageMultiplier 898
----@field StreetCred 899
----@field Strength 900
----@field StunImmunity 901
----@field Sway 902
----@field SwayCenterMaximumAngleOffset 903
----@field SwayCurvatureMaximumFactor 904
----@field SwayCurvatureMinimumFactor 905
----@field SwayInitialOffsetRandomFactor 906
----@field SwayResetOnAimStart 907
----@field SwaySideBottomAngleLimit 908
----@field SwaySideMaximumAngleDistance 909
----@field SwaySideMinimumAngleDistance 910
----@field SwaySideStepChangeMaximumFactor 911
----@field SwaySideStepChangeMinimumFactor 912
----@field SwaySideTopAngleLimit 913
----@field SwayStartBlendTime 914
----@field SwayStartDelay 915
----@field SwayTraversalTime 916
----@field SystemCollapseImmunity 917
----@field TBHsBaseCoefficient 918
----@field TBHsBaseSourceMultiplierCoefficient 919
----@field TBHsCoverTraceLoSIncreaseSpeed 920
----@field TBHsMinimumLineOfSightTime 921
----@field TBHsSensesTraceLoSIncreaseSpeed 922
----@field TBHsVisibilityCooldown 923
----@field TechBaseChargeThreshold 924
----@field TechMaxChargeThreshold 925
----@field TechOverChargeThreshold 926
----@field TechPierceChargeLevel 927
----@field TechPierceEnabled 928
----@field TechnicalAbility 929
----@field ThermalDamage 930
----@field ThermalDamageMax 931
----@field ThermalDamageMin 932
----@field ThermalDamagePercent 933
----@field ThermalResistance 934
----@field ThreeOrMoreProgramsCooldownRedPerk 935
----@field ThreeOrMoreProgramsMemoryRegPerk 936
----@field TimeDilationGenericDuration 937
----@field TimeDilationGenericTimeScale 938
----@field TimeDilationKerenzikovDuration 939
----@field TimeDilationKerenzikovPlayerTimeScale 940
----@field TimeDilationKerenzikovTimeScale 941
----@field TimeDilationOnDodgesCooldownDuration 942
----@field TimeDilationOnDodgesDuration 943
----@field TimeDilationOnDodgesTimeScale 944
----@field TimeDilationOnHealthDropCooldownDuration 945
----@field TimeDilationOnHealthDropDuration 946
----@field TimeDilationOnHealthDropTimeScale 947
----@field TimeDilationSandevistanCooldownBase 948
----@field TimeDilationSandevistanCooldownReduction 949
----@field TimeDilationSandevistanDuration 950
----@field TimeDilationSandevistanTimeScale 951
----@field TimeDilationWhenEnteringCombatCooldownDuration 952
----@field TimeDilationWhenEnteringCombatDuration 953
----@field TimeDilationWhenEnteringCombatTimeScale 954
----@field TranquilizerImmunity 955
----@field TriggerDismembermentChance 956
----@field TriggerWoundedChance 957
----@field TurretFriendlyExtension 958
----@field TurretShutdownExtension 959
----@field UltimateHackSpread 960
----@field UltimateHacksCostReduction 961
----@field UltimateMemoryCostReduction 962
----@field UnconsciousImmunity 963
----@field UnequipAnimationDuration_Corpo 964
----@field UnequipAnimationDuration_Gang 965
----@field UnequipDuration 966
----@field UnequipDuration_Corpo 967
----@field UnequipDuration_Gang 968
----@field UnequipItemTime_Corpo 969
----@field UnequipItemTime_Gang 970
----@field UnlockProgress 971
----@field UpgradingCostReduction 972
----@field UpgradingMaterialDropChance 973
----@field UpgradingMaterialRandomGrantChance 974
----@field UpgradingMaterialRetrieveChance 975
----@field UploadQuickHackMod 976
----@field Visibility 977
----@field VisualStimRangeMultiplier 978
----@field VulnerabilityExtension 979
----@field WallRunHorSpeedToEnterMin 980
----@field WallRunStrafeAngleMax 981
----@field WallRunTimeMax 982
----@field WallRunVertSpeedToEnterMax 983
----@field WasItemUpgraded 984
----@field WasQuickHacked 985
----@field WeakspotDamageMultiplier 986
----@field WeaponHasAutoloader 987
----@field WeaponNoise 988
----@field WeaponPosAdsX 989
----@field WeaponPosAdsY 990
----@field WeaponPosAdsZ 991
----@field WeaponPosX 992
----@field WeaponPosY 993
----@field WeaponPosZ 994
----@field WeaponRotAdsX 995
----@field WeaponRotAdsY 996
----@field WeaponRotAdsZ 997
----@field WeaponRotX 998
----@field WeaponRotY 999
----@field WeaponRotZ 1000
----@field Weight 1001
----@field WoundHeadDamageThreshold 1002
----@field WoundLArmDamageThreshold 1003
----@field WoundLLegDamageThreshold 1004
----@field WoundRArmDamageThreshold 1005
----@field WoundRLegDamageThreshold 1006
----@field ZoomLevel 1007
----@field CPO_Armor 1008
----@field CPO_NPC_Importance 1009
----@field Count 1010
----@field Invalid 1011
+---@field Acceleration Enum 0
+---@field Accuracy Enum 1
+---@field Adrenaline Enum 2
+---@field AimFOV Enum 3
+---@field AimInTime Enum 4
+---@field AimOffset Enum 5
+---@field AimOutTime Enum 6
+---@field AllowMovementInput Enum 7
+---@field AllowRotation Enum 8
+---@field Armor Enum 9
+---@field Assault Enum 10
+---@field AssaultMastery Enum 11
+---@field AssaultTrait01Stat Enum 12
+---@field Athletics Enum 13
+---@field AthleticsMastery Enum 14
+---@field AthleticsTrait01Stat Enum 15
+---@field AttackPenetration Enum 16
+---@field AttackSpeed Enum 17
+---@field AttackSpeedPercent Enum 18
+---@field AttacksNumber Enum 19
+---@field AttacksPerSecond Enum 20
+---@field AttacksPerSecondBase Enum 21
+---@field AudioLocomotionStimRangeMultiplier Enum 22
+---@field AudioStimRangeMultiplier Enum 23
+---@field AutoReveal Enum 24
+---@field AutocraftDuration Enum 25
+---@field AutomaticReplenishment Enum 26
+---@field AutomaticUploadPerk Enum 27
+---@field BaseChargeTime Enum 28
+---@field BaseDamage Enum 29
+---@field BaseDamageMax Enum 30
+---@field BaseDamageMin Enum 31
+---@field BerserkArmorBonus Enum 32
+---@field BerserkCooldownBase Enum 33
+---@field BerserkCooldownReduction Enum 34
+---@field BerserkDurationBase Enum 35
+---@field BerserkHealthRegenBonus Enum 36
+---@field BerserkMeleeDamageBonus Enum 37
+---@field BerserkRecoilReduction Enum 38
+---@field BerserkResistancesBonus Enum 39
+---@field BerserkShockwaveDamage Enum 40
+---@field BerserkShockwaveRangeBonus Enum 41
+---@field BerserkSwayReduction Enum 42
+---@field BleedingApplicationRate Enum 43
+---@field BleedingImmunity Enum 44
+---@field BlindImmunity Enum 45
+---@field BlindResistance Enum 46
+---@field BlockFactor Enum 47
+---@field BlockLocomotionWhenLeaningOutOfCover Enum 48
+---@field BlockReduction Enum 49
+---@field BonusChargeDamage Enum 50
+---@field BonusDPS Enum 51
+---@field BonusDamageAgainstElites Enum 52
+---@field BonusDamageAgainstMechanicals Enum 53
+---@field BonusDamageAgainstRares Enum 54
+---@field BonusQuickHackDamage Enum 55
+---@field BonusRicochetDamage Enum 56
+---@field Brake Enum 57
+---@field BrakeDot Enum 58
+---@field Brawling Enum 59
+---@field BrawlingMastery Enum 60
+---@field BrawlingTrait01Stat Enum 61
+---@field BufferSize Enum 62
+---@field BulletMagnetismDefaultAngle Enum 63
+---@field BulletMagnetismHighVelocityAngle Enum 64
+---@field BulletPseudoPierceHitVFxChance Enum 65
+---@field BulletSurroundingHitVFxChance Enum 66
+---@field BurningApplicationRate Enum 67
+---@field BurningImmunity Enum 68
+---@field BurningRegenStamina Enum 69
+---@field CPUPower Enum 70
+---@field CallReinforcement Enum 71
+---@field CameraShutdownExtension Enum 72
+---@field CanAerialTakedown Enum 73
+---@field CanAimWhileDodging Enum 74
+---@field CanAskToFollowOrder Enum 75
+---@field CanAskToHolsterWeapon Enum 76
+---@field CanAutomaticallyDisassembleJunk Enum 77
+---@field CanAutomaticallyRestoreKnives Enum 78
+---@field CanBleedingCriticallyHit Enum 79
+---@field CanBleedingSlowTarget Enum 80
+---@field CanBlindQuickHack Enum 81
+---@field CanBlock Enum 82
+---@field CanBreatheUnderwater Enum 83
+---@field CanBuffCamoQuickHack Enum 84
+---@field CanBuffMechanicalsOnTakeControl Enum 85
+---@field CanBuffSturdinessQuickHack Enum 86
+---@field CanBurningCriticallyHit Enum 87
+---@field CanCallDrones Enum 88
+---@field CanCallReinforcements Enum 89
+---@field CanCatchUp Enum 90
+---@field CanCatchUpDistance Enum 91
+---@field CanCharge Enum 92
+---@field CanChargedShoot Enum 93
+---@field CanCloseCombat Enum 94
+---@field CanCommsCallInQuickHack Enum 95
+---@field CanCommsCallOutQuickHack Enum 96
+---@field CanCommsNoiseQuickHack Enum 97
+---@field CanControlFullyChargedWeapon Enum 98
+---@field CanCraftEpicItems Enum 99
+---@field CanCraftFromInventory Enum 100
+---@field CanCraftLegendaryItems Enum 101
+---@field CanCraftRareItems Enum 102
+---@field CanCraftTechAmmunition Enum 103
+---@field CanCrouch Enum 104
+---@field CanCyberwareMalfunctionQuickHack Enum 105
+---@field CanDash Enum 106
+---@field CanDataMineQuickHack Enum 107
+---@field CanDealFullDamageToArmored Enum 108
+---@field CanDeathQuickHack Enum 109
+---@field CanDisassemble Enum 110
+---@field CanDisassembleConsumables Enum 111
+---@field CanDisassembleGadgets Enum 112
+---@field CanDropWeapon Enum 113
+---@field CanElectrocuteNullifyStats Enum 114
+---@field CanElectrocuteRoot Enum 115
+---@field CanExitWSOnSoundStimuli Enum 116
+---@field CanExplodeQuickHack Enum 117
+---@field CanFastTravelWhileEncumbered Enum 118
+---@field CanFullyChargeWeapon Enum 119
+---@field CanGrab Enum 120
+---@field CanGrappleAndroids Enum 121
+---@field CanGrappleSilently Enum 122
+---@field CanGrenadeLaunch Enum 123
+---@field CanGrenadeQuickHack Enum 124
+---@field CanGrenadesCriticallyHit Enum 125
+---@field CanGrenadesDealExternalDamage Enum 126
+---@field CanGuardBreak Enum 127
+---@field CanHeartattackQuickHack Enum 128
+---@field CanIgnoreArmorDamageReduction Enum 129
+---@field CanIgnoreStamina Enum 130
+---@field CanInstallTechMods Enum 131
+---@field CanJamWeaponQuickHack Enum 132
+---@field CanJump Enum 133
+---@field CanLandSilently Enum 134
+---@field CanLegendaryCraftedWeaponsBeBoosted Enum 135
+---@field CanLocomotionMalfunctionQuickHack Enum 136
+---@field CanMadnessQuickHack Enum 137
+---@field CanMalfunctionQuickHack Enum 138
+---@field CanMeleeBerserk Enum 139
+---@field CanMeleeDash Enum 140
+---@field CanMeleeInfinitelyCombo Enum 141
+---@field CanMeleeLeap Enum 142
+---@field CanMeleeLeapTakedown Enum 143
+---@field CanOverchargeWeapon Enum 144
+---@field CanOverheatQuickHack Enum 145
+---@field CanOverloadQuickHack Enum 146
+---@field CanOverrideAttitudeQuickHack Enum 147
+---@field CanOverrideAuthorizationQuickHack Enum 148
+---@field CanParry Enum 149
+---@field CanPickUpBodyAfterTakedown Enum 150
+---@field CanPickUpWeapon Enum 151
+---@field CanPingQuickHack Enum 152
+---@field CanPlayerBoostConsumables Enum 153
+---@field CanPlayerBoostGrenades Enum 154
+---@field CanPoisonLowerArmor Enum 155
+---@field CanPoisonSlow Enum 156
+---@field CanPreciseShoot Enum 157
+---@field CanPushBack Enum 158
+---@field CanPushFromGrapple Enum 159
+---@field CanQuickHackCriticallyHit Enum 160
+---@field CanQuickMeleeStagger Enum 161
+---@field CanQuickhack Enum 162
+---@field CanQuickhackHealPuppet Enum 163
+---@field CanQuickhackTransferBetweenEnemies Enum 164
+---@field CanRegenInCombat Enum 165
+---@field CanRemoveModsFromClothing Enum 166
+---@field CanRemoveModsFromWeapons Enum 167
+---@field CanResurrectAllies Enum 168
+---@field CanRetrieveModsFromDisassemble Enum 169
+---@field CanRunSilently Enum 170
+---@field CanSandevistanSprintHarass Enum 171
+---@field CanScrapPartsFromMechanicals Enum 172
+---@field CanSeeGrenadeRadius Enum 173
+---@field CanSeeRicochetVisuals Enum 174
+---@field CanSeeThroughWalls Enum 175
+---@field CanShareThreatsWithPlayer Enum 176
+---@field CanShootWhileCarryingBody Enum 177
+---@field CanShootWhileDodging Enum 178
+---@field CanShootWhileGrappling Enum 179
+---@field CanShootWhileMoving Enum 180
+---@field CanShootWhileVaulting Enum 181
+---@field CanSilentKill Enum 182
+---@field CanSmartShoot Enum 183
+---@field CanSprint Enum 184
+---@field CanSprintHarass Enum 185
+---@field CanSprintWhileCarryingBody Enum 186
+---@field CanSuicideQuickHack Enum 187
+---@field CanSwitchWeapon Enum 188
+---@field CanTakeControlQuickHack Enum 189
+---@field CanTakedownLethally Enum 190
+---@field CanTakedownSilently Enum 191
+---@field CanTaunt Enum 192
+---@field CanThrowWeapon Enum 193
+---@field CanUpgradeFromInventory Enum 194
+---@field CanUpgradeToLegendaryQuality Enum 195
+---@field CanUseAntiStun Enum 196
+---@field CanUseBiohazardGrenades Enum 197
+---@field CanUseCloseRing Enum 198
+---@field CanUseCombatStims Enum 199
+---@field CanUseConsumables Enum 200
+---@field CanUseCoolingSystem Enum 201
+---@field CanUseCovers Enum 202
+---@field CanUseCuttingGrenades Enum 203
+---@field CanUseEMPGrenades Enum 204
+---@field CanUseExtremeRing Enum 205
+---@field CanUseFarRing Enum 206
+---@field CanUseFlashbangGrenades Enum 207
+---@field CanUseFragGrenades Enum 208
+---@field CanUseGrenades Enum 209
+---@field CanUseHolographicCamo Enum 210
+---@field CanUseIncendiaryGrenades Enum 211
+---@field CanUseLeftHand Enum 212
+---@field CanUseLegs Enum 213
+---@field CanUseMantisBlades Enum 214
+---@field CanUseMediumRing Enum 215
+---@field CanUseMeleeRing Enum 216
+---@field CanUseOpticalCamo Enum 217
+---@field CanUsePainInhibitors Enum 218
+---@field CanUsePersonalSoundSilencer Enum 219
+---@field CanUseProjectileLauncher Enum 220
+---@field CanUseReconGrenades Enum 221
+---@field CanUseRetractableShield Enum 222
+---@field CanUseRightHand Enum 223
+---@field CanUseShootingSpots Enum 224
+---@field CanUseStaticCamo Enum 225
+---@field CanUseStrongArms Enum 226
+---@field CanUseTakedowns Enum 227
+---@field CanUseTerrainCamo Enum 228
+---@field CanUseZoom Enum 229
+---@field CanWalkSilently Enum 230
+---@field CanWallStick Enum 231
+---@field CanWeaponBlock Enum 232
+---@field CanWeaponBlockAttack Enum 233
+---@field CanWeaponComboAttack Enum 234
+---@field CanWeaponCriticallyHit Enum 235
+---@field CanWeaponCrouchAttack Enum 236
+---@field CanWeaponDash Enum 237
+---@field CanWeaponDeflect Enum 238
+---@field CanWeaponIgnoreArmor Enum 239
+---@field CanWeaponInfinitlyCombo Enum 240
+---@field CanWeaponJumpAttack Enum 241
+---@field CanWeaponLeap Enum 242
+---@field CanWeaponMalfunctionQuickHack Enum 243
+---@field CanWeaponReload Enum 244
+---@field CanWeaponReloadWhileInactive Enum 245
+---@field CanWeaponReloadWhileSliding Enum 246
+---@field CanWeaponReloadWhileSprinting Enum 247
+---@field CanWeaponReloadWhileVaulting Enum 248
+---@field CanWeaponSafeAttack Enum 249
+---@field CanWeaponShoot Enum 250
+---@field CanWeaponShootWhileSliding Enum 251
+---@field CanWeaponShootWhileSprinting Enum 252
+---@field CanWeaponShootWhileVaulting Enum 253
+---@field CanWeaponSnapToLimbs Enum 254
+---@field CanWeaponSprintAttack Enum 255
+---@field CanWeaponStrongAttack Enum 256
+---@field CanWeaponTriggerHeadshot Enum 257
+---@field CannotBeDetectedWhileSubmerged Enum 258
+---@field CannotBeHealed Enum 259
+---@field CannotSprintHarass Enum 260
+---@field CarryCapacity Enum 261
+---@field CausingPanicReducesUltimateHacksCost Enum 262
+---@field Charge Enum 263
+---@field ChargeDischargeTime Enum 264
+---@field ChargeFullMultiplier Enum 265
+---@field ChargeMaxTimeInChargedState Enum 266
+---@field ChargeMultiplier Enum 267
+---@field ChargeReadyPercentage Enum 268
+---@field ChargeShouldFireWhenReady Enum 269
+---@field ChargeTime Enum 270
+---@field ChemicalDamage Enum 271
+---@field ChemicalDamageMax Enum 272
+---@field ChemicalDamageMin Enum 273
+---@field ChemicalDamagePercent Enum 274
+---@field ChemicalResistance Enum 275
+---@field ClimbSpeedModifier Enum 276
+---@field ClipTimesCycle Enum 277
+---@field ClipTimesCycleBase Enum 278
+---@field ClipTimesCyclePlusReload Enum 279
+---@field ClipTimesCyclePlusReloadBase Enum 280
+---@field CloudComputingTraps Enum 281
+---@field ColdBlood Enum 282
+---@field ColdBloodBuffBonus Enum 283
+---@field ColdBloodMastery Enum 284
+---@field ColdBloodMaxDuration Enum 285
+---@field ColdBloodMaxStacks Enum 286
+---@field ColdBloodTrait01 Enum 287
+---@field CombatHacking Enum 288
+---@field CombatHackingMastery Enum 289
+---@field CommsNoiseJamOnQuickhack Enum 290
+---@field Cool Enum 291
+---@field Crafting Enum 292
+---@field CraftingBonusArmorValue Enum 293
+---@field CraftingBonusConsumableDuration Enum 294
+---@field CraftingBonusGrenadeDamage Enum 295
+---@field CraftingBonusWeaponDamage Enum 296
+---@field CraftingCostReduction Enum 297
+---@field CraftingItemLevelBoost Enum 298
+---@field CraftingMastery Enum 299
+---@field CraftingMaterialDropChance Enum 300
+---@field CraftingMaterialRandomGrantChance Enum 301
+---@field CraftingMaterialRetrieveChance Enum 302
+---@field CraftingTrait01 Enum 303
+---@field CritChance Enum 304
+---@field CritChanceTimeCritDamage Enum 305
+---@field CritDPSBonus Enum 306
+---@field CritDamage Enum 307
+---@field CyberwareCooldownReduction Enum 308
+---@field CycleTime Enum 309
+---@field CycleTimeAimBlockDuration Enum 310
+---@field CycleTimeAimBlockStart Enum 311
+---@field CycleTimeBase Enum 312
+---@field CycleTimeBonus Enum 313
+---@field CycleTimeShootingMult Enum 314
+---@field CycleTimeShootingMultPeriod Enum 315
+---@field CycleTime_Burst Enum 316
+---@field CycleTime_BurstMaxCharge Enum 317
+---@field CycleTime_BurstSecondary Enum 318
+---@field CycleTriggerModeTime Enum 319
+---@field DPS Enum 320
+---@field DamageFalloffDisabled Enum 321
+---@field DamageHackSpread Enum 322
+---@field DamagePerHit Enum 323
+---@field DamageReductionDamageOverTime Enum 324
+---@field DamageReductionExplosion Enum 325
+---@field DashAttackStaminaCostReduction Enum 326
+---@field DataLeakTraps Enum 327
+---@field DealsChemicalDamage Enum 328
+---@field DealsElectricDamage Enum 329
+---@field DealsPhysicalDamage Enum 330
+---@field DealsThermalDamage Enum 331
+---@field Deceleration Enum 332
+---@field DefeatedHeadDamageThreshold Enum 333
+---@field DefeatedLArmDamageThreshold Enum 334
+---@field DefeatedLLegDamageThreshold Enum 335
+---@field DefeatedRArmDamageThreshold Enum 336
+---@field DefeatedRLegDamageThreshold Enum 337
+---@field DefeatingEnemiesReduceHacksCost Enum 338
+---@field Demolition Enum 339
+---@field DemolitionMastery Enum 340
+---@field DemolitionTrait01Stat Enum 341
+---@field Detection Enum 342
+---@field DeviceMemoryCostReduction Enum 343
+---@field DisableCyberwareOnBurning Enum 344
+---@field DisassemblingIngredientsDoubleBonus Enum 345
+---@field DisassemblingMaterialQualityObtainChance Enum 346
+---@field DismHeadDamageThreshold Enum 347
+---@field DismLArmDamageThreshold Enum 348
+---@field DismLLegDamageThreshold Enum 349
+---@field DismRArmDamageThreshold Enum 350
+---@field DismRLegDamageThreshold Enum 351
+---@field DoNotCheckFriendlyFireMadnessPassive Enum 352
+---@field DummyResistanceStat Enum 353
+---@field Durability Enum 354
+---@field DurationBonusBleeding Enum 355
+---@field DurationBonusBurning Enum 356
+---@field DurationBonusElectrified Enum 357
+---@field DurationBonusPoisoned Enum 358
+---@field DurationBonusQuickhack Enum 359
+---@field DurationBonusStun Enum 360
+---@field EMPImmunity Enum 361
+---@field EffectiveDPS Enum 362
+---@field EffectiveDamagePerHit Enum 363
+---@field EffectiveDamagePerHitMax Enum 364
+---@field EffectiveDamagePerHitMin Enum 365
+---@field EffectiveDamagePerHitTimesAttacksPerSecond Enum 366
+---@field EffectiveRange Enum 367
+---@field ElectricDamage Enum 368
+---@field ElectricDamageMax Enum 369
+---@field ElectricDamageMin Enum 370
+---@field ElectricDamagePercent Enum 371
+---@field ElectricResistance Enum 372
+---@field ElectrocuteImmunity Enum 373
+---@field ElectrocutedApplicationRate Enum 374
+---@field ElementalDamagePerHit Enum 375
+---@field ElementalResistanceMultiplier Enum 376
+---@field EmptyReloadTime Enum 377
+---@field Engineering Enum 378
+---@field EngineeringMastery Enum 379
+---@field EngineeringTrait01 Enum 380
+---@field EquipActionDuration_Corpo Enum 381
+---@field EquipActionDuration_Gang Enum 382
+---@field EquipAnimationDuration_Corpo Enum 383
+---@field EquipAnimationDuration_Gang Enum 384
+---@field EquipDuration Enum 385
+---@field EquipDuration_First Enum 386
+---@field EquipItemTime_Corpo Enum 387
+---@field EquipItemTime_Gang Enum 388
+---@field Evasion Enum 389
+---@field ExplosionKillsRecudeUltimateHacksCost Enum 390
+---@field FFInputLock Enum 391
+---@field FallDamageReduction Enum 392
+---@field FearOnQuickHackKill Enum 393
+---@field FullAutoOnFullCharge Enum 394
+---@field Gunslinger Enum 395
+---@field GunslingerMastery Enum 396
+---@field GunslingerTrait01Stat Enum 397
+---@field HackedEnemiesGetDamagedByFriendlyFire Enum 398
+---@field HackedEnemyArmorReduction Enum 399
+---@field Hacking Enum 400
+---@field HackingMastery Enum 401
+---@field HackingPenetration Enum 402
+---@field HackingResistance Enum 403
+---@field HackingResistanceUltimate Enum 404
+---@field HasAdditionalSplinterSlot Enum 405
+---@field HasAheadTargeting Enum 406
+---@field HasAirHover Enum 407
+---@field HasAirThrusters Enum 408
+---@field HasAutoReloader Enum 409
+---@field HasAutomaticReplenishment Enum 410
+---@field HasAutomaticTagging Enum 411
+---@field HasBerserk Enum 412
+---@field HasBleedImmunity Enum 413
+---@field HasBlindImmunity Enum 414
+---@field HasBoostedCortex Enum 415
+---@field HasBurningBuffs Enum 416
+---@field HasCameraLinking Enum 417
+---@field HasChargeJump Enum 418
+---@field HasCritImmunity Enum 419
+---@field HasCyberdeck Enum 420
+---@field HasCybereye Enum 421
+---@field HasDodge Enum 422
+---@field HasDodgeAir Enum 423
+---@field HasDoubleJump Enum 424
+---@field HasElectricCoating Enum 425
+---@field HasElectroPlating Enum 426
+---@field HasExtendedHitReactionImmunity Enum 427
+---@field HasFireproofSkin Enum 428
+---@field HasGPS Enum 429
+---@field HasGlowingTattoos Enum 430
+---@field HasGraphiteTissue Enum 431
+---@field HasHackingInteractions Enum 432
+---@field HasHealingReapplication Enum 433
+---@field HasHealthMonitorBomb Enum 434
+---@field HasHostileHackImmunity Enum 435
+---@field HasICELevelBooster Enum 436
+---@field HasInfravision Enum 437
+---@field HasJuiceInjector Enum 438
+---@field HasKerenzikov Enum 439
+---@field HasKerenzikovSlide Enum 440
+---@field HasKers Enum 441
+---@field HasLinkToBountySystem Enum 442
+---@field HasLoweringPerception Enum 443
+---@field HasMadnessLvl4Passive Enum 444
+---@field HasMajorQuickhackResistance Enum 445
+---@field HasMechanicalControl Enum 446
+---@field HasMeleeImmunity Enum 447
+---@field HasMeleeTargeting Enum 448
+---@field HasMetabolicEnhancer Enum 449
+---@field HasPoisonHeal Enum 450
+---@field HasPoisonImmunity Enum 451
+---@field HasPowerGrip Enum 452
+---@field HasQuickhackResistance Enum 453
+---@field HasRemoteBotAccessPointBreach Enum 454
+---@field HasSandevistan Enum 455
+---@field HasSandevistanTier1 Enum 456
+---@field HasSandevistanTier2 Enum 457
+---@field HasSandevistanTier3 Enum 458
+---@field HasSecondHeart Enum 459
+---@field HasSelfHealingSkin Enum 460
+---@field HasSmartLink Enum 461
+---@field HasSpiderBotControl Enum 462
+---@field HasStunImmunity Enum 463
+---@field HasSubdermalArmor Enum 464
+---@field HasSuperheroFall Enum 465
+---@field HasThermovision Enum 466
+---@field HasTimedImmunity Enum 467
+---@field HasToxicCleanser Enum 468
+---@field HasWallRunSkill Enum 469
+---@field HeadshotDamageMultiplier Enum 470
+---@field HeadshotImmunity Enum 471
+---@field Health Enum 472
+---@field HealthInCombatRegenDelayOnChange Enum 473
+---@field HealthInCombatRegenEnabled Enum 474
+---@field HealthInCombatRegenEndThreshold Enum 475
+---@field HealthInCombatRegenRate Enum 476
+---@field HealthInCombatRegenRateAdd Enum 477
+---@field HealthInCombatRegenRateBase Enum 478
+---@field HealthInCombatRegenRateMult Enum 479
+---@field HealthInCombatRegenStartThreshold Enum 480
+---@field HealthInCombatStartDelay Enum 481
+---@field HealthMonitorCooldownDuration Enum 482
+---@field HealthOutOfCombatRegenDelayOnChange Enum 483
+---@field HealthOutOfCombatRegenEnabled Enum 484
+---@field HealthOutOfCombatRegenEndThreshold Enum 485
+---@field HealthOutOfCombatRegenRate Enum 486
+---@field HealthOutOfCombatRegenRateAdd Enum 487
+---@field HealthOutOfCombatRegenRateBase Enum 488
+---@field HealthOutOfCombatRegenRateMult Enum 489
+---@field HealthOutOfCombatRegenStartThreshold Enum 490
+---@field Hearing Enum 491
+---@field HeavyAttacksNumber Enum 492
+---@field HighlightAccessPoint Enum 493
+---@field HitDismembermentFactor Enum 494
+---@field HitReactionDamageHealthFactor Enum 495
+---@field HitReactionFactor Enum 496
+---@field HitTimerAfterDefeated Enum 497
+---@field HitTimerAfterImpact Enum 498
+---@field HitTimerAfterImpactMelee Enum 499
+---@field HitTimerAfterKnockdown Enum 500
+---@field HitTimerAfterPain Enum 501
+---@field HitTimerAfterStagger Enum 502
+---@field HitTimerAfterStaggerMelee Enum 503
+---@field HitWoundsFactor Enum 504
+---@field HoldDuration Enum 505
+---@field HoldEnterDuration Enum 506
+---@field HoldTimeoutDuration Enum 507
+---@field HolographicSkinCooldownDuration Enum 508
+---@field HolographicSkinDuration Enum 509
+---@field IconicItemUpgraded Enum 510
+---@field ImpactDamageThreshold Enum 511
+---@field ImpactDamageThresholdImpulse Enum 512
+---@field ImpactDamageThresholdInCover Enum 513
+---@field Intelligence Enum 514
+---@field IsAggressive Enum 515
+---@field IsBalanced Enum 516
+---@field IsBlocking Enum 517
+---@field IsCautious Enum 518
+---@field IsDefensive Enum 519
+---@field IsDeflecting Enum 520
+---@field IsDodgeStaminaFree Enum 521
+---@field IsDodging Enum 522
+---@field IsFastMeleeArchetype Enum 523
+---@field IsFastRangedArchetype Enum 524
+---@field IsGenericMeleeArchetype Enum 525
+---@field IsGenericRangedArchetype Enum 526
+---@field IsHeavyRangedArchetype Enum 527
+---@field IsInvulnerable Enum 528
+---@field IsItemBroken Enum 529
+---@field IsItemCracked Enum 530
+---@field IsItemCrafted Enum 531
+---@field IsItemIconic Enum 532
+---@field IsItemUpgraded Enum 533
+---@field IsManBig Enum 534
+---@field IsManMassive Enum 535
+---@field IsMechanical Enum 536
+---@field IsNetrunnerArchetype Enum 537
+---@field IsNotSlowedDuringADS Enum 538
+---@field IsNotSlowedDuringBlock Enum 539
+---@field IsNotSlowedDuringReload Enum 540
+---@field IsReckless Enum 541
+---@field IsShotgunnerArchetype Enum 542
+---@field IsSniperArchetype Enum 543
+---@field IsSprintStaminaFree Enum 544
+---@field IsStrongMeleeArchetype Enum 545
+---@field IsTechieArchetype Enum 546
+---@field IsTier1Archetype Enum 547
+---@field IsTier2Archetype Enum 548
+---@field IsTier3Archetype Enum 549
+---@field IsTier4Archetype Enum 550
+---@field IsWeakspot Enum 551
+---@field IsWeaponLethal Enum 552
+---@field ItemArmor Enum 553
+---@field ItemLevel Enum 554
+---@field ItemRequiresElectroPlating Enum 555
+---@field ItemRequiresPowerGrip Enum 556
+---@field ItemRequiresSmartLink Enum 557
+---@field JumpHeight Enum 558
+---@field Kenjutsu Enum 559
+---@field KenjutsuMastery Enum 560
+---@field KenjutsuTrait01Stat Enum 561
+---@field KnockdownDamageThreshold Enum 562
+---@field KnockdownDamageThresholdImpulse Enum 563
+---@field KnockdownDamageThresholdInCover Enum 564
+---@field KnockdownImmunity Enum 565
+---@field KnockdownImpulse Enum 566
+---@field Level Enum 567
+---@field LimbHealth Enum 568
+---@field LinearDirectionUpdateMax Enum 569
+---@field LinearDirectionUpdateMaxADS Enum 570
+---@field LinearDirectionUpdateMin Enum 571
+---@field LinearDirectionUpdateMinADS Enum 572
+---@field LowerActiveCooldownOnDefeat Enum 573
+---@field LowerHackingResistanceOnHack Enum 574
+---@field MagazineCapacity Enum 575
+---@field MagazineCapacityBase Enum 576
+---@field MagazineCapacityBonus Enum 577
+---@field MaxDuration Enum 578
+---@field MaxPercentDamageTakenPerHit Enum 579
+---@field MaxSpeed Enum 580
+---@field MaxStacks Enum 581
+---@field MaxStacksBonusBleeding Enum 582
+---@field MaxStacksBonusBurning Enum 583
+---@field MaximumRange Enum 584
+---@field MechanicalsBuffDPSBonus Enum 585
+---@field MeleeAttackDuration Enum 586
+---@field Memory Enum 587
+---@field MemoryCostModifier Enum 588
+---@field MemoryCostReduction Enum 589
+---@field MemoryInCombatRegenDelayOnChange Enum 590
+---@field MemoryInCombatRegenEnabled Enum 591
+---@field MemoryInCombatRegenEndThreshold Enum 592
+---@field MemoryInCombatRegenRate Enum 593
+---@field MemoryInCombatRegenRateAdd Enum 594
+---@field MemoryInCombatRegenRateBase Enum 595
+---@field MemoryInCombatRegenRateMult Enum 596
+---@field MemoryInCombatRegenStartThreshold Enum 597
+---@field MemoryInCombatStartDelay Enum 598
+---@field MemoryOutOfCombatRegenDelayOnChange Enum 599
+---@field MemoryOutOfCombatRegenEnabled Enum 600
+---@field MemoryOutOfCombatRegenEndThreshold Enum 601
+---@field MemoryOutOfCombatRegenRate Enum 602
+---@field MemoryOutOfCombatRegenRateAdd Enum 603
+---@field MemoryOutOfCombatRegenRateBase Enum 604
+---@field MemoryOutOfCombatRegenRateMult Enum 605
+---@field MemoryOutOfCombatRegenStartThreshold Enum 606
+---@field MemoryOutOfCombatStartDelay Enum 607
+---@field MemoryTrackerCooldownDuration Enum 608
+---@field MemoryWipeImmunity Enum 609
+---@field MinSpeed Enum 610
+---@field MinigameBufferExtension Enum 611
+---@field MinigameMaterialsEarned Enum 612
+---@field MinigameMemoryRegenPerk Enum 613
+---@field MinigameMoneyMultiplier Enum 614
+---@field MinigameNextInstanceBufferExtensionPerk Enum 615
+---@field MinigameShardChanceMultiplier Enum 616
+---@field MinigameTimeLimitExtension Enum 617
+---@field MinigameTrapsPossibilityChance Enum 618
+---@field NPCAnimationTime Enum 619
+---@field NPCCorpoEquipItemDuration Enum 620
+---@field NPCCorpoUnequipItemDuration Enum 621
+---@field NPCDamage Enum 622
+---@field NPCEquipItemDuration Enum 623
+---@field NPCGangEquipItemDuration Enum 624
+---@field NPCGangUnequipItemDuration Enum 625
+---@field NPCLoopDuration Enum 626
+---@field NPCRecoverDuration Enum 627
+---@field NPCStartupDuration Enum 628
+---@field NPCUnequipItemDuration Enum 629
+---@field NPCUploadTime Enum 630
+---@field NoJam Enum 631
+---@field NumShotsInBurst Enum 632
+---@field NumShotsInBurstMaxCharge Enum 633
+---@field NumShotsInBurstSecondary Enum 634
+---@field NumShotsToFire Enum 635
+---@field NumberIgnoredTraps Enum 636
+---@field Overheat Enum 637
+---@field Oxygen Enum 638
+---@field PartArmor Enum 639
+---@field PenetrationHealth Enum 640
+---@field PersonalityAggressive Enum 641
+---@field PersonalityCuriosity Enum 642
+---@field PersonalityDisgust Enum 643
+---@field PersonalityFear Enum 644
+---@field PersonalityFunny Enum 645
+---@field PersonalityJoy Enum 646
+---@field PersonalitySad Enum 647
+---@field PersonalityShock Enum 648
+---@field PersonalitySurprise Enum 649
+---@field PhoneCallDuration Enum 650
+---@field PhysicalDamage Enum 651
+---@field PhysicalDamageMax Enum 652
+---@field PhysicalDamageMin Enum 653
+---@field PhysicalDamagePercent Enum 654
+---@field PhysicalImpulse Enum 655
+---@field PhysicalResistance Enum 656
+---@field PoisonImmunity Enum 657
+---@field PoisonRegenHealth Enum 658
+---@field PoisonedApplicationRate Enum 659
+---@field PowerLevel Enum 660
+---@field PreFireTime Enum 661
+---@field PrefersCovers Enum 662
+---@field PrefersShootingSpots Enum 663
+---@field Price Enum 664
+---@field ProjectilesPerShot Enum 665
+---@field ProjectilesPerShotBase Enum 666
+---@field ProjectilesPerShotBonus Enum 667
+---@field Quality Enum 668
+---@field Quantity Enum 669
+---@field QuickHackDuration Enum 670
+---@field QuickHackDurationExtension Enum 671
+---@field QuickHackImmunity Enum 672
+---@field QuickHackResistancesMod Enum 673
+---@field QuickHackSpreadDistance Enum 674
+---@field QuickHackSpreadNumber Enum 675
+---@field QuickHackSuddenDeathChance Enum 676
+---@field QuickHackUpload Enum 677
+---@field QuickhackExtraDamageMultiplier Enum 678
+---@field QuickhackShield Enum 679
+---@field QuickhacksCooldownReduction Enum 680
+---@field RandomCurveInput Enum 681
+---@field Range Enum 682
+---@field Recoil Enum 683
+---@field RecoilAllowSway Enum 684
+---@field RecoilAlternateDir Enum 685
+---@field RecoilAlternateDirADS Enum 686
+---@field RecoilAngle Enum 687
+---@field RecoilAngleADS Enum 688
+---@field RecoilAnimation Enum 689
+---@field RecoilChargeMult Enum 690
+---@field RecoilChargeMultADS Enum 691
+---@field RecoilCycleSize Enum 692
+---@field RecoilCycleSizeADS Enum 693
+---@field RecoilCycleTime Enum 694
+---@field RecoilCycleTimeADS Enum 695
+---@field RecoilDelay Enum 696
+---@field RecoilDir Enum 697
+---@field RecoilDirADS Enum 698
+---@field RecoilDirPlanCycleRandDir Enum 699
+---@field RecoilDirPlanCycleRandDirADS Enum 700
+---@field RecoilDirPlanCycleRandRangeDir Enum 701
+---@field RecoilDirPlanCycleRandRangeDirADS Enum 702
+---@field RecoilDirPlanSequence Enum 703
+---@field RecoilDirPlanSequenceADS Enum 704
+---@field RecoilDriftRandomRangeMax Enum 705
+---@field RecoilDriftRandomRangeMin Enum 706
+---@field RecoilEnableCycleX Enum 707
+---@field RecoilEnableCycleXADS Enum 708
+---@field RecoilEnableCycleY Enum 709
+---@field RecoilEnableCycleYADS Enum 710
+---@field RecoilEnableLinearX Enum 711
+---@field RecoilEnableLinearXADS Enum 712
+---@field RecoilEnableLinearY Enum 713
+---@field RecoilEnableLinearYADS Enum 714
+---@field RecoilEnableScaleX Enum 715
+---@field RecoilEnableScaleXADS Enum 716
+---@field RecoilEnableScaleY Enum 717
+---@field RecoilEnableScaleYADS Enum 718
+---@field RecoilFullChargeMult Enum 719
+---@field RecoilFullChargeMultADS Enum 720
+---@field RecoilHoldDuration Enum 721
+---@field RecoilHoldDurationADS Enum 722
+---@field RecoilKickMax Enum 723
+---@field RecoilKickMaxADS Enum 724
+---@field RecoilKickMin Enum 725
+---@field RecoilKickMinADS Enum 726
+---@field RecoilMagForFullDrift Enum 727
+---@field RecoilMaxLength Enum 728
+---@field RecoilMaxLengthADS Enum 729
+---@field RecoilRecoveryMinSpeed Enum 730
+---@field RecoilRecoveryMinSpeedADS Enum 731
+---@field RecoilRecoverySpeed Enum 732
+---@field RecoilRecoverySpeedADS Enum 733
+---@field RecoilRecoveryTime Enum 734
+---@field RecoilRecoveryTimeADS Enum 735
+---@field RecoilScaleMax Enum 736
+---@field RecoilScaleMaxADS Enum 737
+---@field RecoilScaleTime Enum 738
+---@field RecoilScaleTimeADS Enum 739
+---@field RecoilSpeed Enum 740
+---@field RecoilSpeedADS Enum 741
+---@field RecoilTime Enum 742
+---@field RecoilTimeADS Enum 743
+---@field RecoilUseDifferentStatsInADS Enum 744
+---@field Reflexes Enum 745
+---@field RefreshesPingOnQuickhack Enum 746
+---@field RegenerateHPMinigamePerk Enum 747
+---@field ReloadAmount Enum 748
+---@field ReloadEndTime Enum 749
+---@field ReloadTime Enum 750
+---@field ReloadTimeBase Enum 751
+---@field ReloadTimeBonus Enum 752
+---@field RemoveAllStacksWhenDurationEnds Enum 753
+---@field RemoveColdBloodStacksOneByOne Enum 754
+---@field RemoveSprintOnQuickhack Enum 755
+---@field ReprimandEscalation Enum 756
+---@field RestoreMemoryOnDefeat Enum 757
+---@field RevealNetrunnerWhenHacked Enum 758
+---@field RicochetChance Enum 759
+---@field RicochetCount Enum 760
+---@field RicochetMaxAngle Enum 761
+---@field RicochetMinAngle Enum 762
+---@field RicochetTargetSearchAngle Enum 763
+---@field SandevistanDashShoot Enum 764
+---@field ScanDepth Enum 765
+---@field ScanTimeReduction Enum 766
+---@field ScopeFOV Enum 767
+---@field ScopeOffset Enum 768
+---@field ScrapItemChance Enum 769
+---@field SharedCacheTraps Enum 770
+---@field ShootingOffsetAI Enum 771
+---@field ShortCircuitOnCriticalHit Enum 772
+---@field ShorterChains Enum 773
+---@field ShotDelay Enum 774
+---@field SlideWhenLeaningOutOfCover Enum 775
+---@field SmartGunAddSpiralTrajectory Enum 776
+---@field SmartGunAdsLockingAnglePitch Enum 777
+---@field SmartGunAdsLockingAngleYaw Enum 778
+---@field SmartGunAdsMaxLockedTargets Enum 779
+---@field SmartGunAdsTagLockAnglePitch Enum 780
+---@field SmartGunAdsTagLockAngleYaw Enum 781
+---@field SmartGunAdsTargetableAnglePitch Enum 782
+---@field SmartGunAdsTargetableAngleYaw Enum 783
+---@field SmartGunAdsTimeToLock Enum 784
+---@field SmartGunAdsTimeToUnlock Enum 785
+---@field SmartGunEvenDistributionPeriod Enum 786
+---@field SmartGunHipLockingAnglePitch Enum 787
+---@field SmartGunHipLockingAngleYaw Enum 788
+---@field SmartGunHipMaxLockedTargets Enum 789
+---@field SmartGunHipTagLockAnglePitch Enum 790
+---@field SmartGunHipTagLockAngleYaw Enum 791
+---@field SmartGunHipTargetableAnglePitch Enum 792
+---@field SmartGunHipTargetableAngleYaw Enum 793
+---@field SmartGunHipTimeToLock Enum 794
+---@field SmartGunHipTimeToUnlock Enum 795
+---@field SmartGunHitProbability Enum 796
+---@field SmartGunHitProbabilityMultiplier Enum 797
+---@field SmartGunMissDelay Enum 798
+---@field SmartGunMissRadius Enum 799
+---@field SmartGunNPCApplySpreadAtHitplane Enum 800
+---@field SmartGunNPCLockOnTime Enum 801
+---@field SmartGunNPCLockTimeout Enum 802
+---@field SmartGunNPCLockingAnglePitch Enum 803
+---@field SmartGunNPCLockingAngleYaw Enum 804
+---@field SmartGunNPCProjectileStartingOrientationAngleOffset Enum 805
+---@field SmartGunNPCProjectileVelocity Enum 806
+---@field SmartGunNPCShootProjectilesOnlyStraight Enum 807
+---@field SmartGunNPCSpreadMultiplier Enum 808
+---@field SmartGunNPCTrajectoryCurvatureMultiplier Enum 809
+---@field SmartGunPlayerProjectileVelocity Enum 810
+---@field SmartGunProjectileVelocityVariance Enum 811
+---@field SmartGunSpiralCycleTimeMax Enum 812
+---@field SmartGunSpiralCycleTimeMin Enum 813
+---@field SmartGunSpiralRadius Enum 814
+---@field SmartGunSpiralRampDistanceEnd Enum 815
+---@field SmartGunSpiralRampDistanceStart Enum 816
+---@field SmartGunSpiralRandomizeDirection Enum 817
+---@field SmartGunSpreadMultiplier Enum 818
+---@field SmartGunStartingAccuracy Enum 819
+---@field SmartGunTargetAcquisitionRange Enum 820
+---@field SmartGunTimeToMaxAccuracy Enum 821
+---@field SmartGunTimeToRemoveOccludedTarget Enum 822
+---@field SmartGunTrackAllBodyparts Enum 823
+---@field SmartGunTrackHeadComponents Enum 824
+---@field SmartGunTrackLegComponents Enum 825
+---@field SmartGunTrackMechanicalComponents Enum 826
+---@field SmartGunTrackMultipleEntitiesInADS Enum 827
+---@field SmartGunUseEvenDistributionTargeting Enum 828
+---@field SmartGunUseTagLockTargeting Enum 829
+---@field SmartGunUseTimeBasedAccuracy Enum 830
+---@field SmartTargetingDisruptionProbability Enum 831
+---@field SpecialDamage Enum 832
+---@field SpeedBoost Enum 833
+---@field SpeedBoostMaxSpeed Enum 834
+---@field Spread Enum 835
+---@field SpreadAdsChangePerShot Enum 836
+---@field SpreadAdsChargeMult Enum 837
+---@field SpreadAdsDefaultX Enum 838
+---@field SpreadAdsDefaultY Enum 839
+---@field SpreadAdsFastSpeedMax Enum 840
+---@field SpreadAdsFastSpeedMaxAdd Enum 841
+---@field SpreadAdsFastSpeedMin Enum 842
+---@field SpreadAdsFastSpeedMinAdd Enum 843
+---@field SpreadAdsFullChargeMult Enum 844
+---@field SpreadAdsMaxX Enum 845
+---@field SpreadAdsMaxY Enum 846
+---@field SpreadAdsMinX Enum 847
+---@field SpreadAdsMinY Enum 848
+---@field SpreadAnimation Enum 849
+---@field SpreadChangePerShot Enum 850
+---@field SpreadChargeMult Enum 851
+---@field SpreadCrouchDefaultMult Enum 852
+---@field SpreadCrouchMaxMult Enum 853
+---@field SpreadDefaultX Enum 854
+---@field SpreadDefaultY Enum 855
+---@field SpreadEvenDistributionJitterSize Enum 856
+---@field SpreadEvenDistributionRowCount Enum 857
+---@field SpreadFastSpeedMax Enum 858
+---@field SpreadFastSpeedMaxAdd Enum 859
+---@field SpreadFastSpeedMin Enum 860
+---@field SpreadFastSpeedMinAdd Enum 861
+---@field SpreadFullChargeMult Enum 862
+---@field SpreadMaxAI Enum 863
+---@field SpreadMaxX Enum 864
+---@field SpreadMaxY Enum 865
+---@field SpreadMinX Enum 866
+---@field SpreadMinY Enum 867
+---@field SpreadRandomizeOriginPoint Enum 868
+---@field SpreadResetSpeed Enum 869
+---@field SpreadResetTimeThreshold Enum 870
+---@field SpreadUseCircularSpread Enum 871
+---@field SpreadUseEvenDistribution Enum 872
+---@field SpreadUseInAds Enum 873
+---@field SpreadZeroOnFirstShot Enum 874
+---@field StaggerDamageThreshold Enum 875
+---@field StaggerDamageThresholdImpulse Enum 876
+---@field StaggerDamageThresholdInCover Enum 877
+---@field Stamina Enum 878
+---@field StaminaCostReduction Enum 879
+---@field StaminaCostToBlock Enum 880
+---@field StaminaDamage Enum 881
+---@field StaminaRegenDelayOnChange Enum 882
+---@field StaminaRegenEnabled Enum 883
+---@field StaminaRegenEndThrehold Enum 884
+---@field StaminaRegenRate Enum 885
+---@field StaminaRegenRateAdd Enum 886
+---@field StaminaRegenRateBase Enum 887
+---@field StaminaRegenRateMult Enum 888
+---@field StaminaRegenStartDelay Enum 889
+---@field StaminaRegenStartThreshold Enum 890
+---@field StaminaSprintDecayRate Enum 891
+---@field StatModifierGroupLimit Enum 892
+---@field Stealth Enum 893
+---@field StealthHacksCostReduction Enum 894
+---@field StealthHitDamageMultiplier Enum 895
+---@field StealthMastery Enum 896
+---@field StealthTrait01Stat Enum 897
+---@field StealthWeakspotDamageMultiplier Enum 898
+---@field StreetCred Enum 899
+---@field Strength Enum 900
+---@field StunImmunity Enum 901
+---@field Sway Enum 902
+---@field SwayCenterMaximumAngleOffset Enum 903
+---@field SwayCurvatureMaximumFactor Enum 904
+---@field SwayCurvatureMinimumFactor Enum 905
+---@field SwayInitialOffsetRandomFactor Enum 906
+---@field SwayResetOnAimStart Enum 907
+---@field SwaySideBottomAngleLimit Enum 908
+---@field SwaySideMaximumAngleDistance Enum 909
+---@field SwaySideMinimumAngleDistance Enum 910
+---@field SwaySideStepChangeMaximumFactor Enum 911
+---@field SwaySideStepChangeMinimumFactor Enum 912
+---@field SwaySideTopAngleLimit Enum 913
+---@field SwayStartBlendTime Enum 914
+---@field SwayStartDelay Enum 915
+---@field SwayTraversalTime Enum 916
+---@field SystemCollapseImmunity Enum 917
+---@field TBHsBaseCoefficient Enum 918
+---@field TBHsBaseSourceMultiplierCoefficient Enum 919
+---@field TBHsCoverTraceLoSIncreaseSpeed Enum 920
+---@field TBHsMinimumLineOfSightTime Enum 921
+---@field TBHsSensesTraceLoSIncreaseSpeed Enum 922
+---@field TBHsVisibilityCooldown Enum 923
+---@field TechBaseChargeThreshold Enum 924
+---@field TechMaxChargeThreshold Enum 925
+---@field TechOverChargeThreshold Enum 926
+---@field TechPierceChargeLevel Enum 927
+---@field TechPierceEnabled Enum 928
+---@field TechnicalAbility Enum 929
+---@field ThermalDamage Enum 930
+---@field ThermalDamageMax Enum 931
+---@field ThermalDamageMin Enum 932
+---@field ThermalDamagePercent Enum 933
+---@field ThermalResistance Enum 934
+---@field ThreeOrMoreProgramsCooldownRedPerk Enum 935
+---@field ThreeOrMoreProgramsMemoryRegPerk Enum 936
+---@field TimeDilationGenericDuration Enum 937
+---@field TimeDilationGenericTimeScale Enum 938
+---@field TimeDilationKerenzikovDuration Enum 939
+---@field TimeDilationKerenzikovPlayerTimeScale Enum 940
+---@field TimeDilationKerenzikovTimeScale Enum 941
+---@field TimeDilationOnDodgesCooldownDuration Enum 942
+---@field TimeDilationOnDodgesDuration Enum 943
+---@field TimeDilationOnDodgesTimeScale Enum 944
+---@field TimeDilationOnHealthDropCooldownDuration Enum 945
+---@field TimeDilationOnHealthDropDuration Enum 946
+---@field TimeDilationOnHealthDropTimeScale Enum 947
+---@field TimeDilationSandevistanCooldownBase Enum 948
+---@field TimeDilationSandevistanCooldownReduction Enum 949
+---@field TimeDilationSandevistanDuration Enum 950
+---@field TimeDilationSandevistanTimeScale Enum 951
+---@field TimeDilationWhenEnteringCombatCooldownDuration Enum 952
+---@field TimeDilationWhenEnteringCombatDuration Enum 953
+---@field TimeDilationWhenEnteringCombatTimeScale Enum 954
+---@field TranquilizerImmunity Enum 955
+---@field TriggerDismembermentChance Enum 956
+---@field TriggerWoundedChance Enum 957
+---@field TurretFriendlyExtension Enum 958
+---@field TurretShutdownExtension Enum 959
+---@field UltimateHackSpread Enum 960
+---@field UltimateHacksCostReduction Enum 961
+---@field UltimateMemoryCostReduction Enum 962
+---@field UnconsciousImmunity Enum 963
+---@field UnequipAnimationDuration_Corpo Enum 964
+---@field UnequipAnimationDuration_Gang Enum 965
+---@field UnequipDuration Enum 966
+---@field UnequipDuration_Corpo Enum 967
+---@field UnequipDuration_Gang Enum 968
+---@field UnequipItemTime_Corpo Enum 969
+---@field UnequipItemTime_Gang Enum 970
+---@field UnlockProgress Enum 971
+---@field UpgradingCostReduction Enum 972
+---@field UpgradingMaterialDropChance Enum 973
+---@field UpgradingMaterialRandomGrantChance Enum 974
+---@field UpgradingMaterialRetrieveChance Enum 975
+---@field UploadQuickHackMod Enum 976
+---@field Visibility Enum 977
+---@field VisualStimRangeMultiplier Enum 978
+---@field VulnerabilityExtension Enum 979
+---@field WallRunHorSpeedToEnterMin Enum 980
+---@field WallRunStrafeAngleMax Enum 981
+---@field WallRunTimeMax Enum 982
+---@field WallRunVertSpeedToEnterMax Enum 983
+---@field WasItemUpgraded Enum 984
+---@field WasQuickHacked Enum 985
+---@field WeakspotDamageMultiplier Enum 986
+---@field WeaponHasAutoloader Enum 987
+---@field WeaponNoise Enum 988
+---@field WeaponPosAdsX Enum 989
+---@field WeaponPosAdsY Enum 990
+---@field WeaponPosAdsZ Enum 991
+---@field WeaponPosX Enum 992
+---@field WeaponPosY Enum 993
+---@field WeaponPosZ Enum 994
+---@field WeaponRotAdsX Enum 995
+---@field WeaponRotAdsY Enum 996
+---@field WeaponRotAdsZ Enum 997
+---@field WeaponRotX Enum 998
+---@field WeaponRotY Enum 999
+---@field WeaponRotZ Enum 1000
+---@field Weight Enum 1001
+---@field WoundHeadDamageThreshold Enum 1002
+---@field WoundLArmDamageThreshold Enum 1003
+---@field WoundLLegDamageThreshold Enum 1004
+---@field WoundRArmDamageThreshold Enum 1005
+---@field WoundRLegDamageThreshold Enum 1006
+---@field ZoomLevel Enum 1007
+---@field CPO_Armor Enum 1008
+---@field CPO_NPC_Importance Enum 1009
+---@field Count Enum 1010
+---@field Invalid Enum 1011
 gamedataStatType_1300DEPRECATED = {}

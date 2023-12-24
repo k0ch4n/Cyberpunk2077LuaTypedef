@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceEBoundingBoxType: Enum
----@field Colider 0
----@field Custom 1
+---@field Colider Enum 0
+---@field Custom Enum 1
 gameinfluenceEBoundingBoxType = {}

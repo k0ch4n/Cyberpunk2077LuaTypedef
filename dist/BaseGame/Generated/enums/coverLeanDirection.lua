@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class coverLeanDirection: Enum
----@field Top 0
----@field Left 1
----@field Right 2
+---@field Top Enum 0
+---@field Left Enum 1
+---@field Right Enum 2
 coverLeanDirection = {}

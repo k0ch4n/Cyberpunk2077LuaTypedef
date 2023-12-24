@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class inkFocusCause: Enum
----@field Mouse 0
----@field Navigation 1
----@field SetDirectly 2
----@field Cleared 3
----@field OtherWidgetLostFocus 4
----@field WindowActivate 5
+---@field Mouse Enum 0
+---@field Navigation Enum 1
+---@field SetDirectly Enum 2
+---@field Cleared Enum 3
+---@field OtherWidgetLostFocus Enum 4
+---@field WindowActivate Enum 5
 inkFocusCause = {}

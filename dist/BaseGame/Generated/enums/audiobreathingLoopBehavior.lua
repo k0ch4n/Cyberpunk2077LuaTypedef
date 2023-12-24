@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audiobreathingLoopBehavior: Enum
----@field TimedBreathing 0
----@field BreathEvery2ndStep 1
----@field BreathEveryStep 2
----@field HoldingBreath 3
+---@field TimedBreathing Enum 0
+---@field BreathEvery2ndStep Enum 1
+---@field BreathEveryStep Enum 2
+---@field HoldingBreath Enum 3
 audiobreathingLoopBehavior = {}

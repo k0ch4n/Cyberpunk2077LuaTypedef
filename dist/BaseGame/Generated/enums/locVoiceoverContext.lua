@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class locVoiceoverContext: Enum
----@field Vo_Context_Quest 0
----@field Vo_Context_Community 1
----@field Vo_Context_Combat 2
----@field Vo_Context_Minor_Activity 3
----@field Default_Vo_Context 5
+---@field Vo_Context_Quest Enum 0
+---@field Vo_Context_Community Enum 1
+---@field Vo_Context_Combat Enum 2
+---@field Vo_Context_Minor_Activity Enum 3
+---@field Default_Vo_Context Enum 5
 locVoiceoverContext = {}

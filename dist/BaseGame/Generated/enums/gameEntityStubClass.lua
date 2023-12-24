@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEntityStubClass: Enum
----@field Other 0
----@field Puppet 1
----@field Vehicle 2
+---@field Other Enum 0
+---@field Puppet Enum 1
+---@field Vehicle Enum 2
 gameEntityStubClass = {}

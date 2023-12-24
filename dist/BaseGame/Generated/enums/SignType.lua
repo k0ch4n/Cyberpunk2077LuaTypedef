@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class SignType: Enum
----@field INFORMATION 0
----@field ATTENTION 1
----@field WARNING 2
+---@field INFORMATION Enum 0
+---@field ATTENTION Enum 1
+---@field WARNING Enum 2
 SignType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkVideoOptimizationState: Enum
----@field None 0
----@field TooManyBinks 1
----@field FullscreenBinkVisible 2
+---@field None Enum 0
+---@field TooManyBinks Enum 1
+---@field FullscreenBinkVisible Enum 2
 inkVideoOptimizationState = {}

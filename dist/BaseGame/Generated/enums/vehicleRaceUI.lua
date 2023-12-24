@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class vehicleRaceUI: Enum
----@field PreRaceSetup 0
----@field CountdownStart 1
----@field RaceStart 2
----@field RaceEnd 3
----@field Disable 4
+---@field PreRaceSetup Enum 0
+---@field CountdownStart Enum 1
+---@field RaceStart Enum 2
+---@field RaceEnd Enum 3
+---@field Disable Enum 4
 vehicleRaceUI = {}

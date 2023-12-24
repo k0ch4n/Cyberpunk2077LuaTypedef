@@ -2,234 +2,234 @@
 ---@diagnostic disable
 
 ---@class gamedataPerkType: Enum
----@field Assault_Area_01_Perk_1 0
----@field Assault_Area_01_Perk_2 1
----@field Assault_Area_02_Perk_1 2
----@field Assault_Area_02_Perk_2 3
----@field Assault_Area_03_Perk_1 4
----@field Assault_Area_03_Perk_2 5
----@field Assault_Area_04_Perk_1 6
----@field Assault_Area_04_Perk_2 7
----@field Assault_Area_05_Perk_1 8
----@field Assault_Area_05_Perk_2 9
----@field Assault_Area_06_Perk_1 10
----@field Assault_Area_06_Perk_2 11
----@field Assault_Area_07_Perk_1 12
----@field Assault_Area_07_Perk_2 13
----@field Assault_Area_08_Perk_1 14
----@field Assault_Area_08_Perk_2 15
----@field Assault_Area_09_Perk_1 16
----@field Assault_Area_09_Perk_2 17
----@field Assault_Area_10_Perk_1 18
----@field Athletics_Area_01_Perk_1 19
----@field Athletics_Area_01_Perk_2 20
----@field Athletics_Area_02_Perk_1 21
----@field Athletics_Area_02_Perk_2 22
----@field Athletics_Area_03_Perk_1 23
----@field Athletics_Area_03_Perk_2 24
----@field Athletics_Area_04_Perk_1 25
----@field Athletics_Area_04_Perk_2 26
----@field Athletics_Area_05_Perk_1 27
----@field Athletics_Area_05_Perk_2 28
----@field Athletics_Area_05_Perk_3 29
----@field Athletics_Area_06_Perk_1 30
----@field Athletics_Area_06_Perk_2 31
----@field Athletics_Area_06_Perk_3 32
----@field Athletics_Area_07_Perk_1 33
----@field Athletics_Area_07_Perk_2 34
----@field Athletics_Area_08_Perk_1 35
----@field Athletics_Area_08_Perk_2 36
----@field Athletics_Area_09_Perk_1 37
----@field Athletics_Area_10_Perk_1 38
----@field Athletics_Area_10_Perk_2 39
----@field Brawling_Area_01_Perk_1 40
----@field Brawling_Area_01_Perk_2 41
----@field Brawling_Area_02_Perk_1 42
----@field Brawling_Area_02_Perk_2 43
----@field Brawling_Area_03_Perk_1 44
----@field Brawling_Area_03_Perk_2 45
----@field Brawling_Area_04_Perk_1 46
----@field Brawling_Area_04_Perk_2 47
----@field Brawling_Area_05_Perk_1 48
----@field Brawling_Area_05_Perk_2 49
----@field Brawling_Area_06_Perk_1 50
----@field Brawling_Area_06_Perk_2 51
----@field Brawling_Area_07_Perk_1 52
----@field Brawling_Area_07_Perk_2 53
----@field Brawling_Area_08_Perk_1 54
----@field Brawling_Area_08_Perk_2 55
----@field ColdBlood_Area_01_Perk_1 56
----@field ColdBlood_Area_02_Perk_1 57
----@field ColdBlood_Area_02_Perk_2 58
----@field ColdBlood_Area_03_Perk_1 59
----@field ColdBlood_Area_03_Perk_2 60
----@field ColdBlood_Area_04_Perk_1 61
----@field ColdBlood_Area_04_Perk_2 62
----@field ColdBlood_Area_05_Perk_1 63
----@field ColdBlood_Area_05_Perk_2 64
----@field ColdBlood_Area_06_Perk_1 65
----@field ColdBlood_Area_06_Perk_2 66
----@field ColdBlood_Area_06_Perk_3 67
----@field ColdBlood_Area_07_Perk_1 68
----@field ColdBlood_Area_07_Perk_2 69
----@field ColdBlood_Area_08_Perk_1 70
----@field ColdBlood_Area_08_Perk_2 71
----@field ColdBlood_Area_09_Perk_1 72
----@field ColdBlood_Area_10_Perk_1 73
----@field CombatHacking_Area_01_Perk_1 74
----@field CombatHacking_Area_01_Perk_2 75
----@field CombatHacking_Area_02_Perk_1 76
----@field CombatHacking_Area_02_Perk_2 77
----@field CombatHacking_Area_02_Perk_3 78
----@field CombatHacking_Area_03_Perk_1 79
----@field CombatHacking_Area_03_Perk_2 80
----@field CombatHacking_Area_04_Perk_1 81
----@field CombatHacking_Area_05_Perk_1 82
----@field CombatHacking_Area_06_Perk_1 83
----@field CombatHacking_Area_06_Perk_2 84
----@field CombatHacking_Area_06_Perk_3 85
----@field CombatHacking_Area_07_Perk_1 86
----@field CombatHacking_Area_08_Perk_1 87
----@field CombatHacking_Area_08_Perk_2 88
----@field CombatHacking_Area_09_Perk_1 89
----@field CombatHacking_Area_10_Perk_1 90
----@field CombatHacking_Area_10_Perk_2 91
----@field Crafting_Area_01_Perk_1 92
----@field Crafting_Area_01_Perk_2 93
----@field Crafting_Area_02_Perk_1 94
----@field Crafting_Area_02_Perk_2 95
----@field Crafting_Area_03_Perk_1 96
----@field Crafting_Area_04_Perk_1 97
----@field Crafting_Area_04_Perk_2 98
----@field Crafting_Area_05_Perk_1 99
----@field Crafting_Area_05_Perk_2 100
----@field Crafting_Area_06_Perk_1 101
----@field Crafting_Area_06_Perk_2 102
----@field Crafting_Area_06_Perk_3 103
----@field Crafting_Area_07_Perk_1 104
----@field Crafting_Area_07_Perk_2 105
----@field Crafting_Area_08_Perk_1 106
----@field Crafting_Area_08_Perk_2 107
----@field Crafting_Area_09_Perk_1 108
----@field Crafting_Area_10_Perk_1 109
----@field Demolition_Area_01_Perk_1 110
----@field Demolition_Area_02_Perk_1 111
----@field Demolition_Area_02_Perk_2 112
----@field Demolition_Area_03_Perk_1 113
----@field Demolition_Area_03_Perk_2 114
----@field Demolition_Area_04_Perk_1 115
----@field Demolition_Area_04_Perk_2 116
----@field Demolition_Area_05_Perk_1 117
----@field Demolition_Area_05_Perk_2 118
----@field Demolition_Area_06_Perk_1 119
----@field Demolition_Area_06_Perk_2 120
----@field Demolition_Area_07_Perk_1 121
----@field Demolition_Area_07_Perk_2 122
----@field Demolition_Area_08_Perk_1 123
----@field Demolition_Area_08_Perk_2 124
----@field Demolition_Area_09_Perk_1 125
----@field Demolition_Area_09_Perk_2 126
----@field Demolition_Area_10_Perk_1 127
----@field Demolition_Area_10_Perk_2 128
----@field Engineering_Area_01_Perk_1 129
----@field Engineering_Area_01_Perk_2 130
----@field Engineering_Area_02_Perk_1 131
----@field Engineering_Area_02_Perk_2 132
----@field Engineering_Area_03_Perk_1 133
----@field Engineering_Area_04_Perk_1 134
----@field Engineering_Area_04_Perk_2 135
----@field Engineering_Area_04_Perk_3 136
----@field Engineering_Area_05_Perk_1 137
----@field Engineering_Area_05_Perk_2 138
----@field Engineering_Area_06_Perk_1 139
----@field Engineering_Area_06_Perk_2 140
----@field Engineering_Area_07_Perk_1 141
----@field Engineering_Area_07_Perk_2 142
----@field Engineering_Area_07_Perk_3 143
----@field Engineering_Area_08_Perk_1 144
----@field Engineering_Area_08_Perk_2 145
----@field Engineering_Area_09_Perk_1 146
----@field Engineering_Area_10_Perk_1 147
----@field Engineering_Area_10_Perk_2 148
----@field Gunslinger_Area_01_Perk_1 149
----@field Gunslinger_Area_01_Perk_2 150
----@field Gunslinger_Area_02_Perk_1 151
----@field Gunslinger_Area_02_Perk_2 152
----@field Gunslinger_Area_03_Perk_1 153
----@field Gunslinger_Area_03_Perk_2 154
----@field Gunslinger_Area_04_Perk_1 155
----@field Gunslinger_Area_04_Perk_2 156
----@field Gunslinger_Area_04_Perk_3 157
----@field Gunslinger_Area_05_Perk_1 158
----@field Gunslinger_Area_05_Perk_2 159
----@field Gunslinger_Area_06_Perk_1 160
----@field Gunslinger_Area_06_Perk_2 161
----@field Gunslinger_Area_07_Perk_1 162
----@field Gunslinger_Area_07_Perk_2 163
----@field Gunslinger_Area_08_Perk_1 164
----@field Gunslinger_Area_08_Perk_2 165
----@field Gunslinger_Area_09_Perk_1 166
----@field Gunslinger_Area_10_Perk_1 167
----@field Hacking_Area_01_Perk_1 168
----@field Hacking_Area_01_Perk_2 169
----@field Hacking_Area_02_Perk_1 170
----@field Hacking_Area_02_Perk_2 171
----@field Hacking_Area_03_Perk_1 172
----@field Hacking_Area_03_Perk_2 173
----@field Hacking_Area_04_Perk_1 174
----@field Hacking_Area_04_Perk_2 175
----@field Hacking_Area_05_Perk_1 176
----@field Hacking_Area_06_Perk_1 177
----@field Hacking_Area_06_Perk_2 178
----@field Hacking_Area_07_Perk_1 179
----@field Hacking_Area_07_Perk_2 180
----@field Hacking_Area_08_Perk_1 181
----@field Hacking_Area_08_Perk_2 182
----@field Hacking_Area_09_Perk_1 183
----@field Hacking_Area_09_Perk_2 184
----@field Hacking_Area_10_Perk_1 185
----@field Hacking_Area_10_Perk_2 186
----@field Kenjutsu_Area_01_Perk_1 187
----@field Kenjutsu_Area_01_Perk_2 188
----@field Kenjutsu_Area_02_Perk_1 189
----@field Kenjutsu_Area_02_Perk_2 190
----@field Kenjutsu_Area_03_Perk_1 191
----@field Kenjutsu_Area_03_Perk_2 192
----@field Kenjutsu_Area_04_Perk_1 193
----@field Kenjutsu_Area_04_Perk_2 194
----@field Kenjutsu_Area_05_Perk_1 195
----@field Kenjutsu_Area_05_Perk_2 196
----@field Kenjutsu_Area_06_Perk_1 197
----@field Kenjutsu_Area_06_Perk_2 198
----@field Kenjutsu_Area_07_Perk_1 199
----@field Kenjutsu_Area_07_Perk_2 200
----@field Kenjutsu_Area_08_Perk_1 201
----@field Kenjutsu_Area_08_Perk_2 202
----@field Stealth_Area_01_Perk_1 203
----@field Stealth_Area_01_Perk_2 204
----@field Stealth_Area_02_Perk_1 205
----@field Stealth_Area_02_Perk_2 206
----@field Stealth_Area_02_Perk_3 207
----@field Stealth_Area_03_Perk_1 208
----@field Stealth_Area_03_Perk_2 209
----@field Stealth_Area_03_Perk_3 210
----@field Stealth_Area_04_Perk_1 211
----@field Stealth_Area_04_Perk_2 212
----@field Stealth_Area_05_Perk_1 213
----@field Stealth_Area_05_Perk_2 214
----@field Stealth_Area_05_Perk_3 215
----@field Stealth_Area_06_Perk_1 216
----@field Stealth_Area_06_Perk_2 217
----@field Stealth_Area_07_Perk_1 218
----@field Stealth_Area_07_Perk_2 219
----@field Stealth_Area_07_Perk_3 220
----@field Stealth_Area_08_Perk_1 221
----@field Stealth_Area_08_Perk_2 222
----@field Stealth_Area_08_Perk_3 223
----@field Stealth_Area_09_Perk_1 224
----@field Stealth_Area_09_Perk_2 225
----@field Stealth_Area_09_Perk_3 226
----@field Stealth_Area_10_Perk_1 227
----@field Count 228
----@field Invalid 229
+---@field Assault_Area_01_Perk_1 Enum 0
+---@field Assault_Area_01_Perk_2 Enum 1
+---@field Assault_Area_02_Perk_1 Enum 2
+---@field Assault_Area_02_Perk_2 Enum 3
+---@field Assault_Area_03_Perk_1 Enum 4
+---@field Assault_Area_03_Perk_2 Enum 5
+---@field Assault_Area_04_Perk_1 Enum 6
+---@field Assault_Area_04_Perk_2 Enum 7
+---@field Assault_Area_05_Perk_1 Enum 8
+---@field Assault_Area_05_Perk_2 Enum 9
+---@field Assault_Area_06_Perk_1 Enum 10
+---@field Assault_Area_06_Perk_2 Enum 11
+---@field Assault_Area_07_Perk_1 Enum 12
+---@field Assault_Area_07_Perk_2 Enum 13
+---@field Assault_Area_08_Perk_1 Enum 14
+---@field Assault_Area_08_Perk_2 Enum 15
+---@field Assault_Area_09_Perk_1 Enum 16
+---@field Assault_Area_09_Perk_2 Enum 17
+---@field Assault_Area_10_Perk_1 Enum 18
+---@field Athletics_Area_01_Perk_1 Enum 19
+---@field Athletics_Area_01_Perk_2 Enum 20
+---@field Athletics_Area_02_Perk_1 Enum 21
+---@field Athletics_Area_02_Perk_2 Enum 22
+---@field Athletics_Area_03_Perk_1 Enum 23
+---@field Athletics_Area_03_Perk_2 Enum 24
+---@field Athletics_Area_04_Perk_1 Enum 25
+---@field Athletics_Area_04_Perk_2 Enum 26
+---@field Athletics_Area_05_Perk_1 Enum 27
+---@field Athletics_Area_05_Perk_2 Enum 28
+---@field Athletics_Area_05_Perk_3 Enum 29
+---@field Athletics_Area_06_Perk_1 Enum 30
+---@field Athletics_Area_06_Perk_2 Enum 31
+---@field Athletics_Area_06_Perk_3 Enum 32
+---@field Athletics_Area_07_Perk_1 Enum 33
+---@field Athletics_Area_07_Perk_2 Enum 34
+---@field Athletics_Area_08_Perk_1 Enum 35
+---@field Athletics_Area_08_Perk_2 Enum 36
+---@field Athletics_Area_09_Perk_1 Enum 37
+---@field Athletics_Area_10_Perk_1 Enum 38
+---@field Athletics_Area_10_Perk_2 Enum 39
+---@field Brawling_Area_01_Perk_1 Enum 40
+---@field Brawling_Area_01_Perk_2 Enum 41
+---@field Brawling_Area_02_Perk_1 Enum 42
+---@field Brawling_Area_02_Perk_2 Enum 43
+---@field Brawling_Area_03_Perk_1 Enum 44
+---@field Brawling_Area_03_Perk_2 Enum 45
+---@field Brawling_Area_04_Perk_1 Enum 46
+---@field Brawling_Area_04_Perk_2 Enum 47
+---@field Brawling_Area_05_Perk_1 Enum 48
+---@field Brawling_Area_05_Perk_2 Enum 49
+---@field Brawling_Area_06_Perk_1 Enum 50
+---@field Brawling_Area_06_Perk_2 Enum 51
+---@field Brawling_Area_07_Perk_1 Enum 52
+---@field Brawling_Area_07_Perk_2 Enum 53
+---@field Brawling_Area_08_Perk_1 Enum 54
+---@field Brawling_Area_08_Perk_2 Enum 55
+---@field ColdBlood_Area_01_Perk_1 Enum 56
+---@field ColdBlood_Area_02_Perk_1 Enum 57
+---@field ColdBlood_Area_02_Perk_2 Enum 58
+---@field ColdBlood_Area_03_Perk_1 Enum 59
+---@field ColdBlood_Area_03_Perk_2 Enum 60
+---@field ColdBlood_Area_04_Perk_1 Enum 61
+---@field ColdBlood_Area_04_Perk_2 Enum 62
+---@field ColdBlood_Area_05_Perk_1 Enum 63
+---@field ColdBlood_Area_05_Perk_2 Enum 64
+---@field ColdBlood_Area_06_Perk_1 Enum 65
+---@field ColdBlood_Area_06_Perk_2 Enum 66
+---@field ColdBlood_Area_06_Perk_3 Enum 67
+---@field ColdBlood_Area_07_Perk_1 Enum 68
+---@field ColdBlood_Area_07_Perk_2 Enum 69
+---@field ColdBlood_Area_08_Perk_1 Enum 70
+---@field ColdBlood_Area_08_Perk_2 Enum 71
+---@field ColdBlood_Area_09_Perk_1 Enum 72
+---@field ColdBlood_Area_10_Perk_1 Enum 73
+---@field CombatHacking_Area_01_Perk_1 Enum 74
+---@field CombatHacking_Area_01_Perk_2 Enum 75
+---@field CombatHacking_Area_02_Perk_1 Enum 76
+---@field CombatHacking_Area_02_Perk_2 Enum 77
+---@field CombatHacking_Area_02_Perk_3 Enum 78
+---@field CombatHacking_Area_03_Perk_1 Enum 79
+---@field CombatHacking_Area_03_Perk_2 Enum 80
+---@field CombatHacking_Area_04_Perk_1 Enum 81
+---@field CombatHacking_Area_05_Perk_1 Enum 82
+---@field CombatHacking_Area_06_Perk_1 Enum 83
+---@field CombatHacking_Area_06_Perk_2 Enum 84
+---@field CombatHacking_Area_06_Perk_3 Enum 85
+---@field CombatHacking_Area_07_Perk_1 Enum 86
+---@field CombatHacking_Area_08_Perk_1 Enum 87
+---@field CombatHacking_Area_08_Perk_2 Enum 88
+---@field CombatHacking_Area_09_Perk_1 Enum 89
+---@field CombatHacking_Area_10_Perk_1 Enum 90
+---@field CombatHacking_Area_10_Perk_2 Enum 91
+---@field Crafting_Area_01_Perk_1 Enum 92
+---@field Crafting_Area_01_Perk_2 Enum 93
+---@field Crafting_Area_02_Perk_1 Enum 94
+---@field Crafting_Area_02_Perk_2 Enum 95
+---@field Crafting_Area_03_Perk_1 Enum 96
+---@field Crafting_Area_04_Perk_1 Enum 97
+---@field Crafting_Area_04_Perk_2 Enum 98
+---@field Crafting_Area_05_Perk_1 Enum 99
+---@field Crafting_Area_05_Perk_2 Enum 100
+---@field Crafting_Area_06_Perk_1 Enum 101
+---@field Crafting_Area_06_Perk_2 Enum 102
+---@field Crafting_Area_06_Perk_3 Enum 103
+---@field Crafting_Area_07_Perk_1 Enum 104
+---@field Crafting_Area_07_Perk_2 Enum 105
+---@field Crafting_Area_08_Perk_1 Enum 106
+---@field Crafting_Area_08_Perk_2 Enum 107
+---@field Crafting_Area_09_Perk_1 Enum 108
+---@field Crafting_Area_10_Perk_1 Enum 109
+---@field Demolition_Area_01_Perk_1 Enum 110
+---@field Demolition_Area_02_Perk_1 Enum 111
+---@field Demolition_Area_02_Perk_2 Enum 112
+---@field Demolition_Area_03_Perk_1 Enum 113
+---@field Demolition_Area_03_Perk_2 Enum 114
+---@field Demolition_Area_04_Perk_1 Enum 115
+---@field Demolition_Area_04_Perk_2 Enum 116
+---@field Demolition_Area_05_Perk_1 Enum 117
+---@field Demolition_Area_05_Perk_2 Enum 118
+---@field Demolition_Area_06_Perk_1 Enum 119
+---@field Demolition_Area_06_Perk_2 Enum 120
+---@field Demolition_Area_07_Perk_1 Enum 121
+---@field Demolition_Area_07_Perk_2 Enum 122
+---@field Demolition_Area_08_Perk_1 Enum 123
+---@field Demolition_Area_08_Perk_2 Enum 124
+---@field Demolition_Area_09_Perk_1 Enum 125
+---@field Demolition_Area_09_Perk_2 Enum 126
+---@field Demolition_Area_10_Perk_1 Enum 127
+---@field Demolition_Area_10_Perk_2 Enum 128
+---@field Engineering_Area_01_Perk_1 Enum 129
+---@field Engineering_Area_01_Perk_2 Enum 130
+---@field Engineering_Area_02_Perk_1 Enum 131
+---@field Engineering_Area_02_Perk_2 Enum 132
+---@field Engineering_Area_03_Perk_1 Enum 133
+---@field Engineering_Area_04_Perk_1 Enum 134
+---@field Engineering_Area_04_Perk_2 Enum 135
+---@field Engineering_Area_04_Perk_3 Enum 136
+---@field Engineering_Area_05_Perk_1 Enum 137
+---@field Engineering_Area_05_Perk_2 Enum 138
+---@field Engineering_Area_06_Perk_1 Enum 139
+---@field Engineering_Area_06_Perk_2 Enum 140
+---@field Engineering_Area_07_Perk_1 Enum 141
+---@field Engineering_Area_07_Perk_2 Enum 142
+---@field Engineering_Area_07_Perk_3 Enum 143
+---@field Engineering_Area_08_Perk_1 Enum 144
+---@field Engineering_Area_08_Perk_2 Enum 145
+---@field Engineering_Area_09_Perk_1 Enum 146
+---@field Engineering_Area_10_Perk_1 Enum 147
+---@field Engineering_Area_10_Perk_2 Enum 148
+---@field Gunslinger_Area_01_Perk_1 Enum 149
+---@field Gunslinger_Area_01_Perk_2 Enum 150
+---@field Gunslinger_Area_02_Perk_1 Enum 151
+---@field Gunslinger_Area_02_Perk_2 Enum 152
+---@field Gunslinger_Area_03_Perk_1 Enum 153
+---@field Gunslinger_Area_03_Perk_2 Enum 154
+---@field Gunslinger_Area_04_Perk_1 Enum 155
+---@field Gunslinger_Area_04_Perk_2 Enum 156
+---@field Gunslinger_Area_04_Perk_3 Enum 157
+---@field Gunslinger_Area_05_Perk_1 Enum 158
+---@field Gunslinger_Area_05_Perk_2 Enum 159
+---@field Gunslinger_Area_06_Perk_1 Enum 160
+---@field Gunslinger_Area_06_Perk_2 Enum 161
+---@field Gunslinger_Area_07_Perk_1 Enum 162
+---@field Gunslinger_Area_07_Perk_2 Enum 163
+---@field Gunslinger_Area_08_Perk_1 Enum 164
+---@field Gunslinger_Area_08_Perk_2 Enum 165
+---@field Gunslinger_Area_09_Perk_1 Enum 166
+---@field Gunslinger_Area_10_Perk_1 Enum 167
+---@field Hacking_Area_01_Perk_1 Enum 168
+---@field Hacking_Area_01_Perk_2 Enum 169
+---@field Hacking_Area_02_Perk_1 Enum 170
+---@field Hacking_Area_02_Perk_2 Enum 171
+---@field Hacking_Area_03_Perk_1 Enum 172
+---@field Hacking_Area_03_Perk_2 Enum 173
+---@field Hacking_Area_04_Perk_1 Enum 174
+---@field Hacking_Area_04_Perk_2 Enum 175
+---@field Hacking_Area_05_Perk_1 Enum 176
+---@field Hacking_Area_06_Perk_1 Enum 177
+---@field Hacking_Area_06_Perk_2 Enum 178
+---@field Hacking_Area_07_Perk_1 Enum 179
+---@field Hacking_Area_07_Perk_2 Enum 180
+---@field Hacking_Area_08_Perk_1 Enum 181
+---@field Hacking_Area_08_Perk_2 Enum 182
+---@field Hacking_Area_09_Perk_1 Enum 183
+---@field Hacking_Area_09_Perk_2 Enum 184
+---@field Hacking_Area_10_Perk_1 Enum 185
+---@field Hacking_Area_10_Perk_2 Enum 186
+---@field Kenjutsu_Area_01_Perk_1 Enum 187
+---@field Kenjutsu_Area_01_Perk_2 Enum 188
+---@field Kenjutsu_Area_02_Perk_1 Enum 189
+---@field Kenjutsu_Area_02_Perk_2 Enum 190
+---@field Kenjutsu_Area_03_Perk_1 Enum 191
+---@field Kenjutsu_Area_03_Perk_2 Enum 192
+---@field Kenjutsu_Area_04_Perk_1 Enum 193
+---@field Kenjutsu_Area_04_Perk_2 Enum 194
+---@field Kenjutsu_Area_05_Perk_1 Enum 195
+---@field Kenjutsu_Area_05_Perk_2 Enum 196
+---@field Kenjutsu_Area_06_Perk_1 Enum 197
+---@field Kenjutsu_Area_06_Perk_2 Enum 198
+---@field Kenjutsu_Area_07_Perk_1 Enum 199
+---@field Kenjutsu_Area_07_Perk_2 Enum 200
+---@field Kenjutsu_Area_08_Perk_1 Enum 201
+---@field Kenjutsu_Area_08_Perk_2 Enum 202
+---@field Stealth_Area_01_Perk_1 Enum 203
+---@field Stealth_Area_01_Perk_2 Enum 204
+---@field Stealth_Area_02_Perk_1 Enum 205
+---@field Stealth_Area_02_Perk_2 Enum 206
+---@field Stealth_Area_02_Perk_3 Enum 207
+---@field Stealth_Area_03_Perk_1 Enum 208
+---@field Stealth_Area_03_Perk_2 Enum 209
+---@field Stealth_Area_03_Perk_3 Enum 210
+---@field Stealth_Area_04_Perk_1 Enum 211
+---@field Stealth_Area_04_Perk_2 Enum 212
+---@field Stealth_Area_05_Perk_1 Enum 213
+---@field Stealth_Area_05_Perk_2 Enum 214
+---@field Stealth_Area_05_Perk_3 Enum 215
+---@field Stealth_Area_06_Perk_1 Enum 216
+---@field Stealth_Area_06_Perk_2 Enum 217
+---@field Stealth_Area_07_Perk_1 Enum 218
+---@field Stealth_Area_07_Perk_2 Enum 219
+---@field Stealth_Area_07_Perk_3 Enum 220
+---@field Stealth_Area_08_Perk_1 Enum 221
+---@field Stealth_Area_08_Perk_2 Enum 222
+---@field Stealth_Area_08_Perk_3 Enum 223
+---@field Stealth_Area_09_Perk_1 Enum 224
+---@field Stealth_Area_09_Perk_2 Enum 225
+---@field Stealth_Area_09_Perk_3 Enum 226
+---@field Stealth_Area_10_Perk_1 Enum 227
+---@field Count Enum 228
+---@field Invalid Enum 229
 gamedataPerkType = {}

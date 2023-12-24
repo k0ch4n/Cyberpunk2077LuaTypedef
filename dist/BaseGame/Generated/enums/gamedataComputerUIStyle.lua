@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataComputerUIStyle: Enum
----@field DarkBlue 0
----@field LightBlue 1
----@field Orange 2
----@field Count 3
----@field Invalid 4
+---@field DarkBlue Enum 0
+---@field LightBlue Enum 1
+---@field Orange Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataComputerUIStyle = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class senseEShapeType: Enum
----@field INVALID -1
----@field BOX 0
----@field SPHERE 1
----@field CONE 2
----@field ANGLE_RANGE 3
+---@field INVALID Enum -1
+---@field BOX Enum 0
+---@field SPHERE Enum 1
+---@field CONE Enum 2
+---@field ANGLE_RANGE Enum 3
 senseEShapeType = {}

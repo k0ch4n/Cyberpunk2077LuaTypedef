@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vehicleExitDirection: Enum
----@field NoDirection -1
----@field Left 0
----@field Right 1
----@field Front 2
----@field Back 3
----@field Top 4
+---@field NoDirection Enum -1
+---@field Left Enum 0
+---@field Right Enum 1
+---@field Front Enum 2
+---@field Back Enum 3
+---@field Top Enum 4
 vehicleExitDirection = {}

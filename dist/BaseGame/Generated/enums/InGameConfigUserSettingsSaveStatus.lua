@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class InGameConfigUserSettingsSaveStatus: Enum
----@field NotSaved 0
----@field InternalError 1
----@field Saved 2
+---@field NotSaved Enum 0
+---@field InternalError Enum 1
+---@field Saved Enum 2
 InGameConfigUserSettingsSaveStatus = {}

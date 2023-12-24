@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemETargetFilterStatus: Enum
----@field Stop 0
----@field Continue 1
+---@field Stop Enum 0
+---@field Continue Enum 1
 gametargetingSystemETargetFilterStatus = {}

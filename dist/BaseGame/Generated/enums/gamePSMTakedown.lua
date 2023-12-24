@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamePSMTakedown: Enum
----@field Any -1
----@field Default 0
----@field EnteringGrapple 1
----@field Grapple 2
----@field Leap 3
----@field Takedown 4
+---@field Any Enum -1
+---@field Default Enum 0
+---@field EnteringGrapple Enum 1
+---@field Grapple Enum 2
+---@field Leap Enum 3
+---@field Takedown Enum 4
 gamePSMTakedown = {}

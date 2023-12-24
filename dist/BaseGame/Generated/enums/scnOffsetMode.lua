@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnOffsetMode: Enum
----@field useRealOffset 0
----@field useCustomOffset 1
+---@field useRealOffset Enum 0
+---@field useCustomOffset Enum 1
 scnOffsetMode = {}

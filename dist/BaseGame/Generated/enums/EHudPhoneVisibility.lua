@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EHudPhoneVisibility: Enum
----@field Invisible 0
----@field Showing 1
----@field Visible 2
----@field Hiding 3
+---@field Invisible Enum 0
+---@field Showing Enum 1
+---@field Visible Enum 2
+---@field Hiding Enum 3
 EHudPhoneVisibility = {}

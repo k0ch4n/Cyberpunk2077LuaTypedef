@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class audioWeaponTailEnvironment: Enum
----@field InteriorDefault 0
----@field InteriorWide 1
----@field ExteriorWide 2
----@field ExteriorUrbanNarrow 3
----@field ExteriorUrbanStreet 4
----@field ExteriorUrbanStreetWide 5
----@field ExteriorUrbanOpen 6
----@field ExteriorUrbanEnclosed 7
----@field ExteriorBadlandsOpen 8
----@field ExteriorBadlandsCanyon 9
+---@field InteriorDefault Enum 0
+---@field InteriorWide Enum 1
+---@field ExteriorWide Enum 2
+---@field ExteriorUrbanNarrow Enum 3
+---@field ExteriorUrbanStreet Enum 4
+---@field ExteriorUrbanStreetWide Enum 5
+---@field ExteriorUrbanOpen Enum 6
+---@field ExteriorUrbanEnclosed Enum 7
+---@field ExteriorBadlandsOpen Enum 8
+---@field ExteriorBadlandsCanyon Enum 9
 audioWeaponTailEnvironment = {}

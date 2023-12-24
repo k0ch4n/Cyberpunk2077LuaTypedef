@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameStatPoolDataValueChangeMode: Enum
----@field Normal 0
----@field IncreasingOnly 1
----@field DecreasingOnly 2
----@field NonZero 3
+---@field Normal Enum 0
+---@field IncreasingOnly Enum 1
+---@field DecreasingOnly Enum 2
+---@field NonZero Enum 3
 gameStatPoolDataValueChangeMode = {}

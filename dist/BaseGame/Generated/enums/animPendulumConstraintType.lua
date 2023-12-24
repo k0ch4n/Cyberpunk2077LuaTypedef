@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPendulumConstraintType: Enum
----@field Cone 0
----@field HingePlane 1
----@field HalfCone 2
+---@field Cone Enum 0
+---@field HingePlane Enum 1
+---@field HalfCone Enum 2
 animPendulumConstraintType = {}

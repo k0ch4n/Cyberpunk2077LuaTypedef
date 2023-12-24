@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAllowedTo: Enum
----@field UNDEFINED 0
----@field TRESSPASSING 1
----@field ILLEGAL_ACTIONS 2
----@field COMBAT 3
+---@field UNDEFINED Enum 0
+---@field TRESSPASSING Enum 1
+---@field ILLEGAL_ACTIONS Enum 2
+---@field COMBAT Enum 3
 EAllowedTo = {}

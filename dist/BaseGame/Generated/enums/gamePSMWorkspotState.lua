@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamePSMWorkspotState: Enum
----@field Default 0
----@field Workspot 1
+---@field Default Enum 0
+---@field Workspot Enum 1
 gamePSMWorkspotState = {}

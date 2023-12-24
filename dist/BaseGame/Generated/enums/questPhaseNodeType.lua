@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questPhaseNodeType: Enum
----@field Quest 0
----@field OpenWorld 1
----@field Combat 2
----@field Audio 3
+---@field Quest Enum 0
+---@field OpenWorld Enum 1
+---@field Combat Enum 2
+---@field Audio Enum 3
 questPhaseNodeType = {}

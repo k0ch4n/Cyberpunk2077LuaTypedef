@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class GIGIOverrideType: Enum
----@field Default 0
----@field Override_True 1
----@field Override_False 2
+---@field Default Enum 0
+---@field Override_True Enum 1
+---@field Override_False Enum 2
 GIGIOverrideType = {}

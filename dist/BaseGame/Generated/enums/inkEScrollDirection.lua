@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkEScrollDirection: Enum
----@field Vertical 0
----@field Horizontal 1
+---@field Vertical Enum 0
+---@field Horizontal Enum 1
 inkEScrollDirection = {}

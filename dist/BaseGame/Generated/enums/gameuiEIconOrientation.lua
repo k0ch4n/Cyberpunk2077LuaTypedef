@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameuiEIconOrientation: Enum
----@field Upright 0
----@field Entity 1
+---@field Upright Enum 0
+---@field Entity Enum 1
 gameuiEIconOrientation = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEAnimGraphLogicOp: Enum
----@field AGLO_Or 0
----@field AGLO_And 1
+---@field AGLO_Or Enum 0
+---@field AGLO_And Enum 1
 animEAnimGraphLogicOp = {}

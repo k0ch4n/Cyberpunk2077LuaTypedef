@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EVisionBlockerType: Enum
----@field Smoke 0
----@field OpticalCamo 1
----@field OpticalCamoLegendary 2
----@field Undefined 32
+---@field Smoke Enum 0
+---@field OpticalCamo Enum 1
+---@field OpticalCamoLegendary Enum 2
+---@field Undefined Enum 32
 EVisionBlockerType = {}

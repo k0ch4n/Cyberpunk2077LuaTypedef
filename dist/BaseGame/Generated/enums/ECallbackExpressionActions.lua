@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ECallbackExpressionActions: Enum
----@field SetTrue 0
----@field SetFalse 1
----@field Toggle 2
+---@field SetTrue Enum 0
+---@field SetFalse Enum 1
+---@field Toggle Enum 2
 ECallbackExpressionActions = {}

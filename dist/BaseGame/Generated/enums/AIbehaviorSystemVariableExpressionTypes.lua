@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorSystemVariableExpressionTypes: Enum
----@field IsFPSLow 0
+---@field IsFPSLow Enum 0
 AIbehaviorSystemVariableExpressionTypes = {}

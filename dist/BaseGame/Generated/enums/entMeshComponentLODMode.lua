@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class entMeshComponentLODMode: Enum
----@field AlwaysVisible 0
----@field Appearance 1
----@field AppearanceProxy 2
+---@field AlwaysVisible Enum 0
+---@field Appearance Enum 1
+---@field AppearanceProxy Enum 2
 entMeshComponentLODMode = {}

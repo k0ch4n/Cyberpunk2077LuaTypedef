@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkWidgetResourceVersion: Enum
----@field Default 0
----@field BrushToAtlas 1
+---@field Default Enum 0
+---@field BrushToAtlas Enum 1
 inkWidgetResourceVersion = {}

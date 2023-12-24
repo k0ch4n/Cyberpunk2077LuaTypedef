@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animCoverState: Enum
----@field LowCover 1
----@field HighCover 2
+---@field LowCover Enum 1
+---@field HighCover Enum 2
 animCoverState = {}

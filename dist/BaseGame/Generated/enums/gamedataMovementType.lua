@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class gamedataMovementType: Enum
----@field Run 0
----@field Sprint 1
----@field Strafe 2
----@field Walk 3
----@field Count 4
----@field Invalid 5
+---@field Run Enum 0
+---@field Sprint Enum 1
+---@field Strafe Enum 2
+---@field Walk Enum 3
+---@field Count Enum 4
+---@field Invalid Enum 5
 gamedataMovementType = {}

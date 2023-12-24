@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class inkEHorizontalAlign: Enum
----@field Fill 0
----@field Left 1
----@field Center 2
----@field Right 3
+---@field Fill Enum 0
+---@field Left Enum 1
+---@field Center Enum 2
+---@field Right Enum 3
 inkEHorizontalAlign = {}

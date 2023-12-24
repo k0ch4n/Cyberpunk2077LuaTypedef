@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioWeaponShellCasingDirection: Enum
----@field rightFront 0
----@field rightBack 1
----@field leftFront 2
----@field leftBack 3
+---@field rightFront Enum 0
+---@field rightBack Enum 1
+---@field leftFront Enum 2
+---@field leftBack Enum 3
 audioWeaponShellCasingDirection = {}

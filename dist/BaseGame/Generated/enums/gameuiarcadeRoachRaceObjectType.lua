@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeRoachRaceObjectType: Enum
----@field BoostObject_Apple 0
----@field BoostObject_Carrot 1
----@field Obstacle 2
+---@field BoostObject_Apple Enum 0
+---@field BoostObject_Carrot Enum 1
+---@field Obstacle Enum 2
 gameuiarcadeRoachRaceObjectType = {}

@@ -2,5 +2,5 @@
 ---@diagnostic disable
 
 ---@class gameinteractionsELootVisualiserControlOperation: Enum
----@field Locked 1
+---@field Locked Enum 1
 gameinteractionsELootVisualiserControlOperation = {}

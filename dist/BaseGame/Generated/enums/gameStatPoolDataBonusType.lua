@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameStatPoolDataBonusType: Enum
----@field None 0
----@field Persistent 1
----@field NonPersistent 2
+---@field None Enum 0
+---@field Persistent Enum 1
+---@field NonPersistent Enum 2
 gameStatPoolDataBonusType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnBraindanceLayer: Enum
----@field Visual 0
----@field Audio 1
----@field Thermal 2
+---@field Visual Enum 0
+---@field Audio Enum 1
+---@field Thermal Enum 2
 scnBraindanceLayer = {}

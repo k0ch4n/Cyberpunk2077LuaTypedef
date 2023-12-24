@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamedeviceActionPropertyFlags: Enum
----@field None 0
----@field IsUsedByQuest 1
+---@field None Enum 0
+---@field IsUsedByQuest Enum 1
 gamedeviceActionPropertyFlags = {}

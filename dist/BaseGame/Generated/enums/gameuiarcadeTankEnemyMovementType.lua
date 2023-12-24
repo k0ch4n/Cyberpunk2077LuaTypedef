@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gameuiarcadeTankEnemyMovementType: Enum
----@field x_axis 0
----@field x_axisL 1
----@field x_axisR 2
----@field y_axis 3
+---@field x_axis Enum 0
+---@field x_axisL Enum 1
+---@field x_axisR Enum 2
+---@field y_axis Enum 3
 gameuiarcadeTankEnemyMovementType = {}

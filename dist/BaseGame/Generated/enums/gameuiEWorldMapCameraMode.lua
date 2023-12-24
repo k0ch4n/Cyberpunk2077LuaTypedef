@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiEWorldMapCameraMode: Enum
----@field TopDown 0
----@field ZoomLevels 1
----@field COUNT 2
+---@field TopDown Enum 0
+---@field ZoomLevels Enum 1
+---@field COUNT Enum 2
 gameuiEWorldMapCameraMode = {}

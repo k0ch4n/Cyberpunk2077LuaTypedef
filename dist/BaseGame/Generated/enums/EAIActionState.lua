@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAIActionState: Enum
----@field Inactive 0
----@field Startup 1
----@field Loop 2
----@field Recover 3
+---@field Inactive Enum 0
+---@field Startup Enum 1
+---@field Loop Enum 2
+---@field Recover Enum 3
 EAIActionState = {}

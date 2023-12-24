@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class SlotType: Enum
----@field DEFAULT 0
----@field HOLSTER 1
----@field WEAPON 2
----@field COMBAT_CYBERWARE 3
----@field TOOLTIP 4
----@field MISC 5
+---@field DEFAULT Enum 0
+---@field HOLSTER Enum 1
+---@field WEAPON Enum 2
+---@field COMBAT_CYBERWARE Enum 3
+---@field TOOLTIP Enum 4
+---@field MISC Enum 5
 SlotType = {}

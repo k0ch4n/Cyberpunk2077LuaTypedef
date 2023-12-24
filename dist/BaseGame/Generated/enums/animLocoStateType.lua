@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animLocoStateType: Enum
----@field LS_Pre 0
----@field LS_Loop 1
+---@field LS_Pre Enum 0
+---@field LS_Loop Enum 1
 animLocoStateType = {}

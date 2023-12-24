@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animEBlendFromPoseMode: Enum
----@field BFPM_AlwaysOnActivation 0
----@field BFPM_RequestedByTag 1
+---@field BFPM_AlwaysOnActivation Enum 0
+---@field BFPM_RequestedByTag Enum 1
 animEBlendFromPoseMode = {}

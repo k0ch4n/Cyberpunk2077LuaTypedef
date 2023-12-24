@@ -2,35 +2,35 @@
 ---@diagnostic disable
 
 ---@class EGameplayRole: Enum
----@field UnAssigned 0
----@field None 1
----@field Alarm 2
----@field ControlNetwork 3
----@field ControlOtherDevice 4
----@field ControlSelf 5
----@field CutPower 6
----@field Distract 7
----@field DropPoint 8
----@field ExplodeLethal 9
----@field ExplodeNoneLethal 10
----@field Fall 11
----@field FastTravel 12
----@field GrantInformation 13
----@field HazardWarning 14
----@field HideBody 15
----@field Loot 16
----@field OpenPath 17
----@field ClearPath 18
----@field Push 19
----@field ServicePoint 20
----@field Shoot 21
----@field SpreadGas 22
----@field StoreItems 23
----@field GenericRole 24
----@field ClearPathAd 25
----@field DistractVendingMachine 26
----@field NPC 27
----@field Clue 28
----@field PlayerStash 29
----@field Wardrobe 30
+---@field UnAssigned Enum 0
+---@field None Enum 1
+---@field Alarm Enum 2
+---@field ControlNetwork Enum 3
+---@field ControlOtherDevice Enum 4
+---@field ControlSelf Enum 5
+---@field CutPower Enum 6
+---@field Distract Enum 7
+---@field DropPoint Enum 8
+---@field ExplodeLethal Enum 9
+---@field ExplodeNoneLethal Enum 10
+---@field Fall Enum 11
+---@field FastTravel Enum 12
+---@field GrantInformation Enum 13
+---@field HazardWarning Enum 14
+---@field HideBody Enum 15
+---@field Loot Enum 16
+---@field OpenPath Enum 17
+---@field ClearPath Enum 18
+---@field Push Enum 19
+---@field ServicePoint Enum 20
+---@field Shoot Enum 21
+---@field SpreadGas Enum 22
+---@field StoreItems Enum 23
+---@field GenericRole Enum 24
+---@field ClearPathAd Enum 25
+---@field DistractVendingMachine Enum 26
+---@field NPC Enum 27
+---@field Clue Enum 28
+---@field PlayerStash Enum 29
+---@field Wardrobe Enum 30
 EGameplayRole = {}

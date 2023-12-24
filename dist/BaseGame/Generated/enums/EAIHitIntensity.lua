@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EAIHitIntensity: Enum
----@field None -1
----@field Light 0
----@field Medium 1
----@field Heavy 2
----@field Explosion 3
+---@field None Enum -1
+---@field Light Enum 0
+---@field Medium Enum 1
+---@field Heavy Enum 2
+---@field Explosion Enum 3
 EAIHitIntensity = {}

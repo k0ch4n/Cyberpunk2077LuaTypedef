@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class GenericNotificationType: Enum
----@field Generic 0
----@field JournalNotification 1
----@field LevelUpNotification 2
----@field VendorNotification 3
----@field ZoneNotification 4
----@field ProgressionNotification 5
----@field CraftingNotification 6
----@field InventoryNotification 7
----@field PhoneNotification 8
+---@field Generic Enum 0
+---@field JournalNotification Enum 1
+---@field LevelUpNotification Enum 2
+---@field VendorNotification Enum 3
+---@field ZoneNotification Enum 4
+---@field ProgressionNotification Enum 5
+---@field CraftingNotification Enum 6
+---@field InventoryNotification Enum 7
+---@field PhoneNotification Enum 8
 GenericNotificationType = {}

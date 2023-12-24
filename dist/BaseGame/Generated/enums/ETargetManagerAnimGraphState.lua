@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ETargetManagerAnimGraphState: Enum
----@field MODELOOKAT 0
----@field IDLE 1
----@field JAMMED 2
+---@field MODELOOKAT Enum 0
+---@field IDLE Enum 1
+---@field JAMMED Enum 2
 ETargetManagerAnimGraphState = {}

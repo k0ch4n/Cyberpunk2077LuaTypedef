@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class ELightState: Enum
----@field Reset 0
----@field DefaultColor 1
----@field Police 2
----@field VehicleHealth_Low 3
----@field VehicleHealth_VeryLow 4
----@field Quest 5
+---@field Reset Enum 0
+---@field DefaultColor Enum 1
+---@field Police Enum 2
+---@field VehicleHealth_Low Enum 3
+---@field VehicleHealth_VeryLow Enum 4
+---@field Quest Enum 5
 ELightState = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class DamageEffectDisplayType: Enum
----@field Flat 0
----@field TargetHealth 1
----@field Invalid -1
+---@field Flat Enum 0
+---@field TargetHealth Enum 1
+---@field Invalid Enum -1
 DamageEffectDisplayType = {}

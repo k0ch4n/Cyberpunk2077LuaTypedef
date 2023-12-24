@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class vehicleTPPCameraDistance: Enum
----@field Close 0
----@field Medium 1
----@field Far 2
----@field DriverCombatClose 3
----@field DriverCombatMedium 4
----@field DriverCombatFar 5
+---@field Close Enum 0
+---@field Medium Enum 1
+---@field Far Enum 2
+---@field DriverCombatClose Enum 3
+---@field DriverCombatMedium Enum 4
+---@field DriverCombatFar Enum 5
 vehicleTPPCameraDistance = {}

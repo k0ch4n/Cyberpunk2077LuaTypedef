@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class animLookAtLimitDistanceType: Enum
----@field Short 0
----@field Normal 1
----@field Long 2
----@field None 3
+---@field Short Enum 0
+---@field Normal Enum 1
+---@field Long Enum 2
+---@field None Enum 3
 animLookAtLimitDistanceType = {}

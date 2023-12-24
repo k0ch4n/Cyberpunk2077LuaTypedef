@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class gametargetingSystemScriptFilter: Enum
----@field Melee 1
----@field Shooting 2
----@field Scanning 4
----@field QuickHack 8
----@field ShootingLimbCyber 16
----@field HeadTarget 32
----@field LegTarget 64
----@field MechanicalTarget 128
+---@field Melee Enum 1
+---@field Shooting Enum 2
+---@field Scanning Enum 4
+---@field QuickHack Enum 8
+---@field ShootingLimbCyber Enum 16
+---@field HeadTarget Enum 32
+---@field LegTarget Enum 64
+---@field MechanicalTarget Enum 128
 gametargetingSystemScriptFilter = {}

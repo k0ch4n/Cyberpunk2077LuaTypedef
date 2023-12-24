@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class scnPropOwnershipTransferOptionsType: Enum
----@field TransferToWorkspotSystem_Automatic 0
----@field TransferToWorkspotSystem_Custom 1
----@field DisposeAfterScene 2
+---@field TransferToWorkspotSystem_Automatic Enum 0
+---@field TransferToWorkspotSystem_Custom Enum 1
+---@field DisposeAfterScene Enum 2
 scnPropOwnershipTransferOptionsType = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class servicesCloudSavesQueryStatus: Enum
----@field NotFetched 0
----@field FetchedSuccessfully 1
----@field CloudSavesDisabled 2
----@field NotLoggedIn 3
----@field FetchFailed 4
+---@field NotFetched Enum 0
+---@field FetchedSuccessfully Enum 1
+---@field CloudSavesDisabled Enum 2
+---@field NotLoggedIn Enum 3
+---@field FetchFailed Enum 4
 servicesCloudSavesQueryStatus = {}

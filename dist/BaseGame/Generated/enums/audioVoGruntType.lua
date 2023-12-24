@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class audioVoGruntType: Enum
----@field None -1
----@field PainShort 23
----@field PainLong 0
----@field AgroShort 1
----@field AgroLong 2
----@field Effort 25
----@field LongFall 3
----@field Death 4
----@field SilentDeath 5
----@field Grapple 6
----@field GrappleMovement 7
----@field EnvironmentalKnockdown 8
----@field Bump 9
----@field Curious 10
----@field Fear 11
----@field Jump 12
----@field EffortLong 13
----@field DeathShort 14
----@field Greet 15
----@field LaughHard 16
----@field LaughSoft 17
----@field Phone 18
----@field BraindanceExcited 19
----@field BraindanceFearful 20
----@field BraindanceNeutral 21
----@field BraindanceSexual 22
+---@field None Enum -1
+---@field PainShort Enum 23
+---@field PainLong Enum 0
+---@field AgroShort Enum 1
+---@field AgroLong Enum 2
+---@field Effort Enum 25
+---@field LongFall Enum 3
+---@field Death Enum 4
+---@field SilentDeath Enum 5
+---@field Grapple Enum 6
+---@field GrappleMovement Enum 7
+---@field EnvironmentalKnockdown Enum 8
+---@field Bump Enum 9
+---@field Curious Enum 10
+---@field Fear Enum 11
+---@field Jump Enum 12
+---@field EffortLong Enum 13
+---@field DeathShort Enum 14
+---@field Greet Enum 15
+---@field LaughHard Enum 16
+---@field LaughSoft Enum 17
+---@field Phone Enum 18
+---@field BraindanceExcited Enum 19
+---@field BraindanceFearful Enum 20
+---@field BraindanceNeutral Enum 21
+---@field BraindanceSexual Enum 22
 audioVoGruntType = {}

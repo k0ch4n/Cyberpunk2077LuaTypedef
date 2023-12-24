@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ESecurityTurretStatus: Enum
----@field THREAT -1
----@field SHOOTING 0
----@field WORKING 1
----@field SCANING 2
----@field DAMAGED 3
+---@field THREAT Enum -1
+---@field SHOOTING Enum 0
+---@field WORKING Enum 1
+---@field SCANING Enum 2
+---@field DAMAGED Enum 3
 ESecurityTurretStatus = {}

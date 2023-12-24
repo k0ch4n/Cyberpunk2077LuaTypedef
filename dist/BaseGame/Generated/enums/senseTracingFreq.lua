@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class senseTracingFreq: Enum
----@field Never 0
----@field Lowest 1
----@field Low 2
----@field Medium 3
----@field High 4
----@field Highest 5
+---@field Never Enum 0
+---@field Lowest Enum 1
+---@field Low Enum 2
+---@field Medium Enum 3
+---@field High Enum 4
+---@field Highest Enum 5
 senseTracingFreq = {}

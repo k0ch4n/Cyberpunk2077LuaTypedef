@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class PhoneScreenType: Enum
----@field Unread 0
----@field Contacts 1
+---@field Unread Enum 0
+---@field Contacts Enum 1
 PhoneScreenType = {}

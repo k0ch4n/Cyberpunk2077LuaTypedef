@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorEdgeConditionAction: Enum
----@field None 0
----@field Toggle 1
----@field TurnOn 2
----@field TurnOff 3
+---@field None Enum 0
+---@field Toggle Enum 1
+---@field TurnOn Enum 2
+---@field TurnOff Enum 3
 AIbehaviorEdgeConditionAction = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameweaponReloadStatus: Enum
----@field Standard 0
----@field Interrupted 1
+---@field Standard Enum 0
+---@field Interrupted Enum 1
 gameweaponReloadStatus = {}

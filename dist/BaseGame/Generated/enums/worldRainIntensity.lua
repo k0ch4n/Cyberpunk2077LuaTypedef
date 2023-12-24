@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldRainIntensity: Enum
----@field NoRain 0
----@field LightRain 1
----@field HeavyRain 2
+---@field NoRain Enum 0
+---@field LightRain Enum 1
+---@field HeavyRain Enum 2
 worldRainIntensity = {}

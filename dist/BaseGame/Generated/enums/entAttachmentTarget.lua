@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entAttachmentTarget: Enum
----@field Transform 0
----@field TargetPosition 1
+---@field Transform Enum 0
+---@field TargetPosition Enum 1
 entAttachmentTarget = {}

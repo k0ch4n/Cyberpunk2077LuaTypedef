@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class VisualState: Enum
----@field OFF 0
----@field RUNNING 1
----@field MALFUNCTIONING 2
----@field ON 3
+---@field OFF Enum 0
+---@field RUNNING Enum 1
+---@field MALFUNCTIONING Enum 2
+---@field ON Enum 3
 VisualState = {}

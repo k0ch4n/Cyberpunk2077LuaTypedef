@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiTutorialHiddenReason: Enum
----@field None 0
----@field DefaultHiddenReason 1
----@field InPhotomode 2
+---@field None Enum 0
+---@field DefaultHiddenReason Enum 1
+---@field InPhotomode Enum 2
 gameuiTutorialHiddenReason = {}

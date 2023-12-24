@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ScannerDetailTab: Enum
----@field Data 0
----@field Hacking 1
+---@field Data Enum 0
+---@field Hacking Enum 1
 ScannerDetailTab = {}

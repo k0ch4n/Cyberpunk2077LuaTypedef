@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EMappinVisualState: Enum
----@field Default 0
----@field Available 1
----@field Unavailable 2
----@field Inactive 3
----@field None 4
+---@field Default Enum 0
+---@field Available Enum 1
+---@field Unavailable Enum 2
+---@field Inactive Enum 3
+---@field None Enum 4
 EMappinVisualState = {}

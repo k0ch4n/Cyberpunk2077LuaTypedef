@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class questVehicleCameraPerspective: Enum
----@field FPP 1
----@field TPP 0
+---@field FPP Enum 1
+---@field TPP Enum 0
 questVehicleCameraPerspective = {}

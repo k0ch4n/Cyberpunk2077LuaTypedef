@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldEClusteringModel: Enum
----@field HierarchicalGrid 0
----@field AlwaysLoaded 1
----@field Discard 2
+---@field HierarchicalGrid Enum 0
+---@field AlwaysLoaded Enum 1
+---@field Discard Enum 2
 worldEClusteringModel = {}

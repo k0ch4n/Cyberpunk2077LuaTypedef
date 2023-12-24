@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class textTextFlowDirection: Enum
----@field Auto 0
----@field LeftToRight 1
----@field RightToLeft 2
+---@field Auto Enum 0
+---@field LeftToRight Enum 1
+---@field RightToLeft Enum 2
 textTextFlowDirection = {}

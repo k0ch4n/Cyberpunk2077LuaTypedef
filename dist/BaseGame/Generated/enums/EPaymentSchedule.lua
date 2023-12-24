@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EPaymentSchedule: Enum
----@field WEEKLY 0
----@field MONTHLY 1
+---@field WEEKLY Enum 0
+---@field MONTHLY Enum 1
 EPaymentSchedule = {}

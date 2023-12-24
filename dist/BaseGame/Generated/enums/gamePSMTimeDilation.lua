@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamePSMTimeDilation: Enum
----@field Any -1
----@field Default 0
----@field Sandevistan 1
+---@field Any Enum -1
+---@field Default Enum 0
+---@field Sandevistan Enum 1
 gamePSMTimeDilation = {}

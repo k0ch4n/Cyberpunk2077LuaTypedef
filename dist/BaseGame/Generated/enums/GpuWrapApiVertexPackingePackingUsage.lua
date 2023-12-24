@@ -2,30 +2,30 @@
 ---@diagnostic disable
 
 ---@class GpuWrapApiVertexPackingePackingUsage: Enum
----@field PS_Invalid -1
----@field PS_SysPosition 0
----@field PS_Position 1
----@field PS_Normal 2
----@field PS_Tangent 3
----@field PS_Binormal 4
----@field PS_TexCoord 5
----@field PS_Color 6
----@field PS_SkinIndices 7
----@field PS_SkinWeights 8
----@field PS_DestructionIndices 9
----@field PS_MultilayerPaint 10
----@field PS_InstanceTransform 11
----@field PS_InstanceLODParams 12
----@field PS_InstanceSkinningData 13
----@field PS_PatchSize 14
----@field PS_PatchBias 15
----@field PS_ExtraData 16
----@field PS_VehicleDmgNormal 17
----@field PS_VehicleDmgPosition 18
----@field PS_PositionDelta 19
----@field PS_LightBlockerIntensity 20
----@field PS_BoneIndex 21
----@field PS_Padding 22
----@field PS_PatchOffset 23
----@field PS_Max 24
+---@field PS_Invalid Enum -1
+---@field PS_SysPosition Enum 0
+---@field PS_Position Enum 1
+---@field PS_Normal Enum 2
+---@field PS_Tangent Enum 3
+---@field PS_Binormal Enum 4
+---@field PS_TexCoord Enum 5
+---@field PS_Color Enum 6
+---@field PS_SkinIndices Enum 7
+---@field PS_SkinWeights Enum 8
+---@field PS_DestructionIndices Enum 9
+---@field PS_MultilayerPaint Enum 10
+---@field PS_InstanceTransform Enum 11
+---@field PS_InstanceLODParams Enum 12
+---@field PS_InstanceSkinningData Enum 13
+---@field PS_PatchSize Enum 14
+---@field PS_PatchBias Enum 15
+---@field PS_ExtraData Enum 16
+---@field PS_VehicleDmgNormal Enum 17
+---@field PS_VehicleDmgPosition Enum 18
+---@field PS_PositionDelta Enum 19
+---@field PS_LightBlockerIntensity Enum 20
+---@field PS_BoneIndex Enum 21
+---@field PS_Padding Enum 22
+---@field PS_PatchOffset Enum 23
+---@field PS_Max Enum 24
 GpuWrapApiVertexPackingePackingUsage = {}

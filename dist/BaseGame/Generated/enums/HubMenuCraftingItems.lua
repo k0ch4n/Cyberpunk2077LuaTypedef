@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class HubMenuCraftingItems: Enum
----@field Crafting 0
----@field Upgrade 1
+---@field Crafting Enum 0
+---@field Upgrade Enum 1
 HubMenuCraftingItems = {}

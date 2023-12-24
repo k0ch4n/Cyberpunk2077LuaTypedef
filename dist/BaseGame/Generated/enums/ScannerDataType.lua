@@ -2,34 +2,34 @@
 ---@diagnostic disable
 
 ---@class ScannerDataType: Enum
----@field None 0
----@field Name 1
----@field Level 2
----@field Health 3
----@field Rarity 4
----@field WeaponBasic 5
----@field WeaponDetailed 6
----@field BountySystem 7
----@field Vulnerabilities 8
----@field Faction 9
----@field Attitude 10
----@field SquadInfo 11
----@field Resistances 12
----@field Abilities 13
----@field Requirements 14
----@field Description 15
----@field DeviceStatus 16
----@field NetworkStatus 17
----@field NetworkLevel 18
----@field DeviceConnections 19
----@field QuestEntry 20
----@field VehicleName 21
----@field VehicleManufacturer 22
----@field VehicleProductionYears 23
----@field VehicleDriveLayout 24
----@field VehicleHorsepower 25
----@field VehicleMass 26
----@field VehicleState 27
----@field VehicleInfo 28
----@field QuickHackDescription 29
+---@field None Enum 0
+---@field Name Enum 1
+---@field Level Enum 2
+---@field Health Enum 3
+---@field Rarity Enum 4
+---@field WeaponBasic Enum 5
+---@field WeaponDetailed Enum 6
+---@field BountySystem Enum 7
+---@field Vulnerabilities Enum 8
+---@field Faction Enum 9
+---@field Attitude Enum 10
+---@field SquadInfo Enum 11
+---@field Resistances Enum 12
+---@field Abilities Enum 13
+---@field Requirements Enum 14
+---@field Description Enum 15
+---@field DeviceStatus Enum 16
+---@field NetworkStatus Enum 17
+---@field NetworkLevel Enum 18
+---@field DeviceConnections Enum 19
+---@field QuestEntry Enum 20
+---@field VehicleName Enum 21
+---@field VehicleManufacturer Enum 22
+---@field VehicleProductionYears Enum 23
+---@field VehicleDriveLayout Enum 24
+---@field VehicleHorsepower Enum 25
+---@field VehicleMass Enum 26
+---@field VehicleState Enum 27
+---@field VehicleInfo Enum 28
+---@field QuickHackDescription Enum 29
 ScannerDataType = {}

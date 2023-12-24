@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class animConstraintWeightMode: Enum
----@field Static 0
----@field FloatTrack 1
+---@field Static Enum 0
+---@field FloatTrack Enum 1
 animConstraintWeightMode = {}

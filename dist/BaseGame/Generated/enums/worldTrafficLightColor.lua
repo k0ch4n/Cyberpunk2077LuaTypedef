@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class worldTrafficLightColor: Enum
----@field GREEN 0
----@field RED 1
----@field YELLOW 2
----@field INVALID 3
+---@field GREEN Enum 0
+---@field RED Enum 1
+---@field YELLOW Enum 2
+---@field INVALID Enum 3
 worldTrafficLightColor = {}

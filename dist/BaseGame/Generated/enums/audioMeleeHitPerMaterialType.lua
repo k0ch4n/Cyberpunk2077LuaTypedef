@@ -2,121 +2,121 @@
 ---@diagnostic disable
 
 ---@class audioMeleeHitPerMaterialType: Enum
----@field Light 0
----@field Light_Hard 1
----@field Light_Soft 2
----@field Light_Solid 3
----@field Light_Flesh 4
----@field Light_Flesh_Head 5
----@field Light_Robot 6
----@field Light_Robot_Head 7
----@field Light_Android 8
----@field Light_Android_Head 9
----@field Light_Mech 10
----@field Light_Mech_Head 11
----@field Light_Water 12
----@field Normal 13
----@field Normal_Hard 14
----@field Normal_Soft 15
----@field Normal_Solid 16
----@field Normal_Flesh 17
----@field Normal_Flesh_Head 18
----@field Normal_Robot 19
----@field Normal_Robot_Head 20
----@field Normal_Android 21
----@field Normal_Android_Head 22
----@field Normal_Mech 23
----@field Normal_Mech_Head 24
----@field Normal_Water 25
----@field Heavy 26
----@field Heavy_Hard 27
----@field Heavy_Soft 28
----@field Heavy_Solid 29
----@field Heavy_Flesh 30
----@field Heavy_Flesh_Head 31
----@field Heavy_Robot 32
----@field Heavy_Robot_Head 33
----@field Heavy_Android 34
----@field Heavy_Android_Head 35
----@field Heavy_Mech 36
----@field Heavy_Mech_Head 37
----@field Heavy_Water 38
----@field Slash 39
----@field Slash_Hard 40
----@field Slash_Soft 41
----@field Slash_Solid 42
----@field Slash_Flesh 43
----@field Slash_Flesh_Head 44
----@field Slash_Robot 45
----@field Slash_Robot_Head 46
----@field Slash_Android 47
----@field Slash_Android_Head 48
----@field Slash_Mech 49
----@field Slash_Mech_Head 50
----@field Slash_Water 51
----@field Cut 52
----@field Cut_Hard 53
----@field Cut_Soft 54
----@field Cut_Solid 55
----@field Cut_Flesh 56
----@field Cut_Flesh_Head 57
----@field Cut_Robot 58
----@field Cut_Robot_Head 59
----@field Cut_Android 60
----@field Cut_Android_Head 61
----@field Cut_Mech 62
----@field Cut_Mech_Head 63
----@field Cut_Water 64
----@field Stab 65
----@field Stab_Hard 66
----@field Stab_Soft 67
----@field Stab_Solid 68
----@field Stab_Flesh 69
----@field Stab_Flesh_Head 70
----@field Stab_Robot 71
----@field Stab_Robot_Head 72
----@field Stab_Android 73
----@field Stab_Android_Head 74
----@field Stab_Mech 75
----@field Stab_Mech_Head 76
----@field Stab_Water 77
----@field Finisher 78
----@field Finisher_Hard 79
----@field Finisher_Soft 80
----@field Finisher_Solid 81
----@field Finisher_Flesh 82
----@field Finisher_Flesh_Head 83
----@field Finisher_Robot 84
----@field Finisher_Robot_Head 85
----@field Finisher_Android 86
----@field Finisher_Android_Head 87
----@field Finisher_Mech 88
----@field Finisher_Mech_Head 89
----@field Finisher_Water 90
----@field Weak 91
----@field Weak_Hard 92
----@field Weak_Soft 93
----@field Weak_Solid 94
----@field Weak_Flesh 95
----@field Weak_Flesh_Head 96
----@field Weak_Robot 97
----@field Weak_Robot_Head 98
----@field Weak_Android 99
----@field Weak_Android_Head 100
----@field Weak_Mech 101
----@field Weak_Mech_Head 102
----@field Weak_Water 103
----@field Throw 104
----@field Throw_Hard 105
----@field Throw_Soft 106
----@field Throw_Solid 107
----@field Throw_Flesh 108
----@field Throw_Flesh_Head 109
----@field Throw_Robot 110
----@field Throw_Robot_Head 111
----@field Throw_Android 112
----@field Throw_Android_Head 113
----@field Throw_Mech 114
----@field Throw_Mech_Head 115
----@field Throw_Water 116
+---@field Light Enum 0
+---@field Light_Hard Enum 1
+---@field Light_Soft Enum 2
+---@field Light_Solid Enum 3
+---@field Light_Flesh Enum 4
+---@field Light_Flesh_Head Enum 5
+---@field Light_Robot Enum 6
+---@field Light_Robot_Head Enum 7
+---@field Light_Android Enum 8
+---@field Light_Android_Head Enum 9
+---@field Light_Mech Enum 10
+---@field Light_Mech_Head Enum 11
+---@field Light_Water Enum 12
+---@field Normal Enum 13
+---@field Normal_Hard Enum 14
+---@field Normal_Soft Enum 15
+---@field Normal_Solid Enum 16
+---@field Normal_Flesh Enum 17
+---@field Normal_Flesh_Head Enum 18
+---@field Normal_Robot Enum 19
+---@field Normal_Robot_Head Enum 20
+---@field Normal_Android Enum 21
+---@field Normal_Android_Head Enum 22
+---@field Normal_Mech Enum 23
+---@field Normal_Mech_Head Enum 24
+---@field Normal_Water Enum 25
+---@field Heavy Enum 26
+---@field Heavy_Hard Enum 27
+---@field Heavy_Soft Enum 28
+---@field Heavy_Solid Enum 29
+---@field Heavy_Flesh Enum 30
+---@field Heavy_Flesh_Head Enum 31
+---@field Heavy_Robot Enum 32
+---@field Heavy_Robot_Head Enum 33
+---@field Heavy_Android Enum 34
+---@field Heavy_Android_Head Enum 35
+---@field Heavy_Mech Enum 36
+---@field Heavy_Mech_Head Enum 37
+---@field Heavy_Water Enum 38
+---@field Slash Enum 39
+---@field Slash_Hard Enum 40
+---@field Slash_Soft Enum 41
+---@field Slash_Solid Enum 42
+---@field Slash_Flesh Enum 43
+---@field Slash_Flesh_Head Enum 44
+---@field Slash_Robot Enum 45
+---@field Slash_Robot_Head Enum 46
+---@field Slash_Android Enum 47
+---@field Slash_Android_Head Enum 48
+---@field Slash_Mech Enum 49
+---@field Slash_Mech_Head Enum 50
+---@field Slash_Water Enum 51
+---@field Cut Enum 52
+---@field Cut_Hard Enum 53
+---@field Cut_Soft Enum 54
+---@field Cut_Solid Enum 55
+---@field Cut_Flesh Enum 56
+---@field Cut_Flesh_Head Enum 57
+---@field Cut_Robot Enum 58
+---@field Cut_Robot_Head Enum 59
+---@field Cut_Android Enum 60
+---@field Cut_Android_Head Enum 61
+---@field Cut_Mech Enum 62
+---@field Cut_Mech_Head Enum 63
+---@field Cut_Water Enum 64
+---@field Stab Enum 65
+---@field Stab_Hard Enum 66
+---@field Stab_Soft Enum 67
+---@field Stab_Solid Enum 68
+---@field Stab_Flesh Enum 69
+---@field Stab_Flesh_Head Enum 70
+---@field Stab_Robot Enum 71
+---@field Stab_Robot_Head Enum 72
+---@field Stab_Android Enum 73
+---@field Stab_Android_Head Enum 74
+---@field Stab_Mech Enum 75
+---@field Stab_Mech_Head Enum 76
+---@field Stab_Water Enum 77
+---@field Finisher Enum 78
+---@field Finisher_Hard Enum 79
+---@field Finisher_Soft Enum 80
+---@field Finisher_Solid Enum 81
+---@field Finisher_Flesh Enum 82
+---@field Finisher_Flesh_Head Enum 83
+---@field Finisher_Robot Enum 84
+---@field Finisher_Robot_Head Enum 85
+---@field Finisher_Android Enum 86
+---@field Finisher_Android_Head Enum 87
+---@field Finisher_Mech Enum 88
+---@field Finisher_Mech_Head Enum 89
+---@field Finisher_Water Enum 90
+---@field Weak Enum 91
+---@field Weak_Hard Enum 92
+---@field Weak_Soft Enum 93
+---@field Weak_Solid Enum 94
+---@field Weak_Flesh Enum 95
+---@field Weak_Flesh_Head Enum 96
+---@field Weak_Robot Enum 97
+---@field Weak_Robot_Head Enum 98
+---@field Weak_Android Enum 99
+---@field Weak_Android_Head Enum 100
+---@field Weak_Mech Enum 101
+---@field Weak_Mech_Head Enum 102
+---@field Weak_Water Enum 103
+---@field Throw Enum 104
+---@field Throw_Hard Enum 105
+---@field Throw_Soft Enum 106
+---@field Throw_Solid Enum 107
+---@field Throw_Flesh Enum 108
+---@field Throw_Flesh_Head Enum 109
+---@field Throw_Robot Enum 110
+---@field Throw_Robot_Head Enum 111
+---@field Throw_Android Enum 112
+---@field Throw_Android_Head Enum 113
+---@field Throw_Mech Enum 114
+---@field Throw_Mech_Head Enum 115
+---@field Throw_Water Enum 116
 audioMeleeHitPerMaterialType = {}

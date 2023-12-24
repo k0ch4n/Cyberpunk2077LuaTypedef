@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inputESimplifiedInputDevice: Enum
----@field KBM 0
----@field PAD 1
+---@field KBM Enum 0
+---@field PAD Enum 1
 inputESimplifiedInputDevice = {}

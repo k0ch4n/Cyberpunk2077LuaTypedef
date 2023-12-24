@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EVirtualSystem: Enum
----@field None 0
----@field SurveillanceSystem 1
----@field DoorSystem 2
----@field MediaSystem 3
----@field SecuritySystem 4
+---@field None Enum 0
+---@field SurveillanceSystem Enum 1
+---@field DoorSystem Enum 2
+---@field MediaSystem Enum 3
+---@field SecuritySystem Enum 4
 EVirtualSystem = {}

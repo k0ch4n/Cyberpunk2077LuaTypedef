@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EMaterialShaderTarget: Enum
----@field MSH_Invalid 0
----@field MSH_VertexShader 1
----@field MSH_PixelShader 2
----@field MSH_MAX 3
+---@field MSH_Invalid Enum 0
+---@field MSH_VertexShader Enum 1
+---@field MSH_PixelShader Enum 2
+---@field MSH_MAX Enum 3
 EMaterialShaderTarget = {}

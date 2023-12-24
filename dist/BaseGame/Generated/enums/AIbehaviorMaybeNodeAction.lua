@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorMaybeNodeAction: Enum
----@field Succeed 0
----@field Fail 1
----@field RepeatChild 2
+---@field Succeed Enum 0
+---@field Fail Enum 1
+---@field RepeatChild Enum 2
 AIbehaviorMaybeNodeAction = {}

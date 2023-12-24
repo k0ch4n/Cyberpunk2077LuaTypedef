@@ -2,10 +2,10 @@
 ---@diagnostic disable
 
 ---@class textOverflowPolicy: Enum
----@field None 0
----@field DotsEnd 1
----@field DotsEndLastLine 2
----@field AutoScroll 3
----@field PingPongScroll 4
----@field AdjustToSize 5
+---@field None Enum 0
+---@field DotsEnd Enum 1
+---@field DotsEndLastLine Enum 2
+---@field AutoScroll Enum 3
+---@field PingPongScroll Enum 4
+---@field AdjustToSize Enum 5
 textOverflowPolicy = {}

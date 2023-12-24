@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ATUIComputerTestStepMode: Enum
----@field SINGLE_ACTION 0
----@field ROLLING 1
+---@field SINGLE_ACTION Enum 0
+---@field ROLLING Enum 1
 ATUIComputerTestStepMode = {}

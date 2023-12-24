@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class genLevelRandomizerDataSource: Enum
----@field Entries 0
----@field Markers 1
+---@field Entries Enum 0
+---@field Markers Enum 1
 genLevelRandomizerDataSource = {}

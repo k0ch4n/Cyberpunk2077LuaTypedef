@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class ENetworkRelation: Enum
----@field MASTER 0
----@field SLAVE 1
----@field NONE 2
+---@field MASTER Enum 0
+---@field SLAVE Enum 1
+---@field NONE Enum 2
 ENetworkRelation = {}

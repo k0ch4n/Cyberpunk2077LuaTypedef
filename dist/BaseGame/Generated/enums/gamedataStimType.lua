@@ -2,71 +2,71 @@
 ---@diagnostic disable
 
 ---@class gamedataStimType: Enum
----@field AimingAt 0
----@field Alarm 1
----@field AreaEffect 2
----@field AskToFollowOrder 3
----@field Attention 4
----@field AudioEnemyPing 5
----@field Bullet 6
----@field Bump 7
----@field Call 8
----@field CarAlarm 9
----@field CarryBody 10
----@field Combat 11
----@field CombatCall 12
----@field CombatHit 13
----@field CombatWhistle 14
----@field CrimeWitness 15
----@field CrowdIllegalAction 16
----@field DeadBody 17
----@field DeviceExplosion 18
----@field Distract 19
----@field DodgeVehicle 20
----@field Driving 21
----@field Dying 22
----@field EnvironmentalHazard 23
----@field Explosion 24
----@field FootStepRegular 25
----@field FootStepSprint 26
----@field GrenadeLanded 27
----@field Gunshot 28
----@field Hacked 29
----@field HijackVehicle 30
----@field IllegalAction 31
----@field IllegalActionNoCombat 32
----@field IllegalInteraction 33
----@field LandingHard 34
----@field LandingRegular 35
----@field LandingVeryHard 36
----@field MeleeAttack 37
----@field MeleeHit 38
----@field OpeningDoor 39
----@field ProjectileDistraction 40
----@field Provoke 41
----@field Recon 42
----@field ReevaluateDetectionOverwrite 43
----@field Reload 44
----@field Reprimand 45
----@field ReprimandFinalWarning 46
----@field Scream 47
----@field SecurityBreach 48
----@field SilencedGunshot 49
----@field SilentAlarm 50
----@field SoundDistraction 51
----@field SpreadFear 52
----@field StopedAiming 53
----@field Terror 54
----@field TooCloseDistance 55
----@field UndeadCall 56
----@field VehicleHit 57
----@field VehicleHorn 58
----@field VisualDistract 59
----@field WarningDistance 60
----@field WeaponDisplayed 61
----@field WeaponHolstered 62
----@field WeaponSafe 63
----@field Whistle 64
----@field Count 65
----@field Invalid 66
+---@field AimingAt Enum 0
+---@field Alarm Enum 1
+---@field AreaEffect Enum 2
+---@field AskToFollowOrder Enum 3
+---@field Attention Enum 4
+---@field AudioEnemyPing Enum 5
+---@field Bullet Enum 6
+---@field Bump Enum 7
+---@field Call Enum 8
+---@field CarAlarm Enum 9
+---@field CarryBody Enum 10
+---@field Combat Enum 11
+---@field CombatCall Enum 12
+---@field CombatHit Enum 13
+---@field CombatWhistle Enum 14
+---@field CrimeWitness Enum 15
+---@field CrowdIllegalAction Enum 16
+---@field DeadBody Enum 17
+---@field DeviceExplosion Enum 18
+---@field Distract Enum 19
+---@field DodgeVehicle Enum 20
+---@field Driving Enum 21
+---@field Dying Enum 22
+---@field EnvironmentalHazard Enum 23
+---@field Explosion Enum 24
+---@field FootStepRegular Enum 25
+---@field FootStepSprint Enum 26
+---@field GrenadeLanded Enum 27
+---@field Gunshot Enum 28
+---@field Hacked Enum 29
+---@field HijackVehicle Enum 30
+---@field IllegalAction Enum 31
+---@field IllegalActionNoCombat Enum 32
+---@field IllegalInteraction Enum 33
+---@field LandingHard Enum 34
+---@field LandingRegular Enum 35
+---@field LandingVeryHard Enum 36
+---@field MeleeAttack Enum 37
+---@field MeleeHit Enum 38
+---@field OpeningDoor Enum 39
+---@field ProjectileDistraction Enum 40
+---@field Provoke Enum 41
+---@field Recon Enum 42
+---@field ReevaluateDetectionOverwrite Enum 43
+---@field Reload Enum 44
+---@field Reprimand Enum 45
+---@field ReprimandFinalWarning Enum 46
+---@field Scream Enum 47
+---@field SecurityBreach Enum 48
+---@field SilencedGunshot Enum 49
+---@field SilentAlarm Enum 50
+---@field SoundDistraction Enum 51
+---@field SpreadFear Enum 52
+---@field StopedAiming Enum 53
+---@field Terror Enum 54
+---@field TooCloseDistance Enum 55
+---@field UndeadCall Enum 56
+---@field VehicleHit Enum 57
+---@field VehicleHorn Enum 58
+---@field VisualDistract Enum 59
+---@field WarningDistance Enum 60
+---@field WeaponDisplayed Enum 61
+---@field WeaponHolstered Enum 62
+---@field WeaponSafe Enum 63
+---@field Whistle Enum 64
+---@field Count Enum 65
+---@field Invalid Enum 66
 gamedataStimType = {}

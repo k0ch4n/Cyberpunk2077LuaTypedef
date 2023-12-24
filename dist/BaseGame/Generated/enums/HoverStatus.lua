@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class HoverStatus: Enum
----@field DEFAULT 0
----@field HOVER 1
+---@field DEFAULT Enum 0
+---@field HOVER Enum 1
 HoverStatus = {}

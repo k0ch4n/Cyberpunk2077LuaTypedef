@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AICombatSpaceSize: Enum
----@field Undefined 0
----@field Narrow 1
----@field Medium 2
----@field Huge 3
+---@field Undefined Enum 0
+---@field Narrow Enum 1
+---@field Medium Enum 2
+---@field Huge Enum 3
 AICombatSpaceSize = {}

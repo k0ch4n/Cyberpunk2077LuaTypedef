@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAnimationType: Enum
----@field REGULAR 0
----@field TRANSFORM 1
----@field TRANSFORM_TWO_SIDES 2
----@field NONE 3
+---@field REGULAR Enum 0
+---@field TRANSFORM Enum 1
+---@field TRANSFORM_TWO_SIDES Enum 2
+---@field NONE Enum 3
 EAnimationType = {}

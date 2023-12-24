@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class scnBraindanceSpeed: Enum
----@field Any 0
----@field Slow 1
----@field Normal 2
----@field Fast 3
----@field VeryFast 4
+---@field Any Enum 0
+---@field Slow Enum 1
+---@field Normal Enum 2
+---@field Fast Enum 3
+---@field VeryFast Enum 4
 scnBraindanceSpeed = {}

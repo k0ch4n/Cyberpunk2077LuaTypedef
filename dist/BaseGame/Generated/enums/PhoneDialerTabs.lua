@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class PhoneDialerTabs: Enum
----@field Unread 0
----@field Contacts 1
+---@field Unread Enum 0
+---@field Contacts Enum 1
 PhoneDialerTabs = {}

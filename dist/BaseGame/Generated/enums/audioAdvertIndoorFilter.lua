@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioAdvertIndoorFilter: Enum
----@field Always 0
----@field OnlyIndoor 1
----@field OnlyOutdoor 2
+---@field Always Enum 0
+---@field OnlyIndoor Enum 1
+---@field OnlyOutdoor Enum 2
 audioAdvertIndoorFilter = {}

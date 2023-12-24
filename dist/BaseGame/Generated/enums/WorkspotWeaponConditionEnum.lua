@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class WorkspotWeaponConditionEnum: Enum
----@field None 0
----@field Any 1
----@field Ranged 2
----@field OneHandedRanged 3
----@field Melee 4
----@field MeleeCyberware 5
----@field LMG 6
----@field HMG 7
+---@field None Enum 0
+---@field Any Enum 1
+---@field Ranged Enum 2
+---@field OneHandedRanged Enum 3
+---@field Melee Enum 4
+---@field MeleeCyberware Enum 5
+---@field LMG Enum 6
+---@field HMG Enum 7
 WorkspotWeaponConditionEnum = {}

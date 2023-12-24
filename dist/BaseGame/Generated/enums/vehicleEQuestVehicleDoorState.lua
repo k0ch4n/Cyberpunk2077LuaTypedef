@@ -2,21 +2,21 @@
 ---@diagnostic disable
 
 ---@class vehicleEQuestVehicleDoorState: Enum
----@field ForceOpen 0
----@field ForceClose 1
----@field OpenAll 2
----@field CloseAll 3
----@field ForceLock 4
----@field ForceUnlock 5
----@field LockAll 6
----@field EnableInteraction 7
----@field DisableInteraction 8
----@field DisableAllInteractions 9
----@field ResetInteractions 10
----@field ResetVehicle 11
----@field OpenAllRegular 12
----@field QuestLock 13
----@field QuestLockAll 14
----@field Count 15
----@field Invalid 16
+---@field ForceOpen Enum 0
+---@field ForceClose Enum 1
+---@field OpenAll Enum 2
+---@field CloseAll Enum 3
+---@field ForceLock Enum 4
+---@field ForceUnlock Enum 5
+---@field LockAll Enum 6
+---@field EnableInteraction Enum 7
+---@field DisableInteraction Enum 8
+---@field DisableAllInteractions Enum 9
+---@field ResetInteractions Enum 10
+---@field ResetVehicle Enum 11
+---@field OpenAllRegular Enum 12
+---@field QuestLock Enum 13
+---@field QuestLockAll Enum 14
+---@field Count Enum 15
+---@field Invalid Enum 16
 vehicleEQuestVehicleDoorState = {}

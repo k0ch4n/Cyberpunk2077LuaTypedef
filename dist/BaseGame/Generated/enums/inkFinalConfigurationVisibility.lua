@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class inkFinalConfigurationVisibility: Enum
----@field VisibleOnlyInFinal 0
----@field HiddenOnlyInFinal 1
+---@field VisibleOnlyInFinal Enum 0
+---@field HiddenOnlyInFinal Enum 1
 inkFinalConfigurationVisibility = {}

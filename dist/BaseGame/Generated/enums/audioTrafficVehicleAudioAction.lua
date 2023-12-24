@@ -2,17 +2,17 @@
 ---@diagnostic disable
 
 ---@class audioTrafficVehicleAudioAction: Enum
----@field StartEngine 0
----@field StopEngine 1
----@field StartWheel 2
----@field StopWheel 3
----@field StartRainLoop 4
----@field StopRainLoop 5
----@field Horn 6
----@field HornForced 7
----@field DisableAbilityToPlayRadio 8
----@field StartBrakeLoop 9
----@field EndBrakeLoop 10
----@field ApplyBrake 11
----@field ReleaseBrake 12
+---@field StartEngine Enum 0
+---@field StopEngine Enum 1
+---@field StartWheel Enum 2
+---@field StopWheel Enum 3
+---@field StartRainLoop Enum 4
+---@field StopRainLoop Enum 5
+---@field Horn Enum 6
+---@field HornForced Enum 7
+---@field DisableAbilityToPlayRadio Enum 8
+---@field StartBrakeLoop Enum 9
+---@field EndBrakeLoop Enum 10
+---@field ApplyBrake Enum 11
+---@field ReleaseBrake Enum 12
 audioTrafficVehicleAudioAction = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameScriptTaskExecutionStage: Enum
----@field Any 0
----@field PostPhysics 1
+---@field Any Enum 0
+---@field PostPhysics Enum 1
 gameScriptTaskExecutionStage = {}

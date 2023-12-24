@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class EntityNotificationType: Enum
----@field DoNotNotifyEntity 0
----@field SendThisEventToEntity 1
----@field SendPSChangedEventToEntity 2
+---@field DoNotNotifyEntity Enum 0
+---@field SendThisEventToEntity Enum 1
+---@field SendPSChangedEventToEntity Enum 2
 EntityNotificationType = {}

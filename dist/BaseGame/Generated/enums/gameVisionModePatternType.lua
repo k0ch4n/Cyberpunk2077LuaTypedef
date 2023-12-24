@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameVisionModePatternType: Enum
----@field Default 0
----@field Netrunner 1
+---@field Default Enum 0
+---@field Netrunner Enum 1
 gameVisionModePatternType = {}

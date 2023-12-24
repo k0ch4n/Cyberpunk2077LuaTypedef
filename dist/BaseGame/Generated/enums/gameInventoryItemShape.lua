@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gameInventoryItemShape: Enum
----@field SingleSlot 0
----@field DoubleSlot 1
+---@field SingleSlot Enum 0
+---@field DoubleSlot Enum 1
 gameInventoryItemShape = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameEActionFlags: Enum
----@field NONE 0
----@field USE_ANIMATION 1
----@field USE_MOVEMENT 2
+---@field NONE Enum 0
+---@field USE_ANIMATION Enum 1
+---@field USE_MOVEMENT Enum 2
 gameEActionFlags = {}

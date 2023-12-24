@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class EWoundedBodyPart: Enum
----@field Invalid 0
----@field WoundedLeftArm 1
----@field WoundedRightArm 2
----@field WoundedLeftLeg 3
----@field WoundedRightLeg 4
----@field DismemberedLeftArm 5
----@field DismemberedRightArm 6
----@field DismemberedLeftLeg 7
----@field DismemberedRightLeg 8
----@field DismemberedBothLegs 9
+---@field Invalid Enum 0
+---@field WoundedLeftArm Enum 1
+---@field WoundedRightArm Enum 2
+---@field WoundedLeftLeg Enum 3
+---@field WoundedRightLeg Enum 4
+---@field DismemberedLeftArm Enum 5
+---@field DismemberedRightArm Enum 6
+---@field DismemberedLeftLeg Enum 7
+---@field DismemberedRightLeg Enum 8
+---@field DismemberedBothLegs Enum 9
 EWoundedBodyPart = {}

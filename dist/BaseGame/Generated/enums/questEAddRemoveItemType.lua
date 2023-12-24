@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class questEAddRemoveItemType: Enum
----@field AddItem 0
----@field RemoveByItemID 1
----@field RemoveByTag 2
----@field RemoveAll 3
+---@field AddItem Enum 0
+---@field RemoveByItemID Enum 1
+---@field RemoveByTag Enum 2
+---@field RemoveAll Enum 3
 questEAddRemoveItemType = {}

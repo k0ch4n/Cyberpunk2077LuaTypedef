@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class gamedataVariableNodeVariableValueDeriveInfo: Enum
----@field NotDerived 0
----@field ArrayAddition 1
+---@field NotDerived Enum 0
+---@field ArrayAddition Enum 1
 gamedataVariableNodeVariableValueDeriveInfo = {}

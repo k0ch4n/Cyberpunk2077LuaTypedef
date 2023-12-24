@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameinfluenceTestLineResult: Enum
----@field Fail 0
----@field Success 1
----@field Unknown 2
+---@field Fail Enum 0
+---@field Success Enum 1
+---@field Unknown Enum 2
 gameinfluenceTestLineResult = {}

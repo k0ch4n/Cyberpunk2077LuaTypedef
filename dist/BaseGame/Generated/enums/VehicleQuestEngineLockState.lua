@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class VehicleQuestEngineLockState: Enum
----@field DontToggleIfLocked 0
----@field Lock 1
----@field Unlock 2
+---@field DontToggleIfLocked Enum 0
+---@field Lock Enum 1
+---@field Unlock Enum 2
 VehicleQuestEngineLockState = {}

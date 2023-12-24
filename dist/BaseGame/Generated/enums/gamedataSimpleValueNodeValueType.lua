@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataSimpleValueNodeValueType: Enum
----@field String 0
----@field Number 1
----@field Bool 2
----@field Ident 3
+---@field String Enum 0
+---@field Number Enum 1
+---@field Bool Enum 2
+---@field Ident Enum 3
 gamedataSimpleValueNodeValueType = {}

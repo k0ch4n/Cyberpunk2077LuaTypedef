@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataStimPropagation: Enum
----@field Audio 0
----@field Visual 1
----@field Count 2
----@field Invalid 3
+---@field Audio Enum 0
+---@field Visual Enum 1
+---@field Count Enum 2
+---@field Invalid Enum 3
 gamedataStimPropagation = {}

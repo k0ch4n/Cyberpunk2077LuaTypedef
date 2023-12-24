@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gamedataGender: Enum
----@field Default 0
----@field Female 1
----@field Male 2
----@field Count 3
----@field Invalid 4
+---@field Default Enum 0
+---@field Female Enum 1
+---@field Male Enum 2
+---@field Count Enum 3
+---@field Invalid Enum 4
 gamedataGender = {}

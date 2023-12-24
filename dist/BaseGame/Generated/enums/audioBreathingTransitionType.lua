@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class audioBreathingTransitionType: Enum
----@field PlayerSpeed 0
----@field Event 1
----@field AllEventTags 2
----@field AnyEventTag 3
+---@field PlayerSpeed Enum 0
+---@field Event Enum 1
+---@field AllEventTags Enum 2
+---@field AnyEventTag Enum 3
 audioBreathingTransitionType = {}

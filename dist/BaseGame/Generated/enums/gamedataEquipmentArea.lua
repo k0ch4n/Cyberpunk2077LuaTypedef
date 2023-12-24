@@ -2,50 +2,50 @@
 ---@diagnostic disable
 
 ---@class gamedataEquipmentArea: Enum
----@field AbilityCW 0
----@field ArmsCW 1
----@field BaseFists 2
----@field BotCPU 3
----@field BotChassisModule 4
----@field BotMainModule 5
----@field BotSoftware 6
----@field CardiovascularSystemCW 7
----@field Consumable 8
----@field CyberwareWheel 9
----@field EyesCW 10
----@field Face 11
----@field FaceCW 12
----@field Feet 13
----@field FrontalCortexCW 14
----@field Gadget 15
----@field HandsCW 16
----@field Head 17
----@field ImmuneSystemCW 18
----@field InnerChest 19
----@field IntegumentarySystemCW 20
----@field LeftArm 21
----@field Legs 22
----@field LegsCW 23
----@field MusculoskeletalSystemCW 24
----@field NervousSystemCW 25
----@field OuterChest 26
----@field Outfit 27
----@field PersonalLink 28
----@field PlayerTattoo 29
----@field Quest 30
----@field QuickSlot 31
----@field QuickWheel 32
----@field RightArm 33
----@field SilverhandArm 34
----@field Splinter 35
----@field SystemReplacementCW 36
----@field UnderwearBottom 37
----@field UnderwearTop 38
----@field VDefaultHandgun 39
----@field Weapon 40
----@field WeaponHeavy 41
----@field WeaponLeft 42
----@field WeaponWheel 43
----@field Count 44
----@field Invalid 45
+---@field AbilityCW Enum 0
+---@field ArmsCW Enum 1
+---@field BaseFists Enum 2
+---@field BotCPU Enum 3
+---@field BotChassisModule Enum 4
+---@field BotMainModule Enum 5
+---@field BotSoftware Enum 6
+---@field CardiovascularSystemCW Enum 7
+---@field Consumable Enum 8
+---@field CyberwareWheel Enum 9
+---@field EyesCW Enum 10
+---@field Face Enum 11
+---@field FaceCW Enum 12
+---@field Feet Enum 13
+---@field FrontalCortexCW Enum 14
+---@field Gadget Enum 15
+---@field HandsCW Enum 16
+---@field Head Enum 17
+---@field ImmuneSystemCW Enum 18
+---@field InnerChest Enum 19
+---@field IntegumentarySystemCW Enum 20
+---@field LeftArm Enum 21
+---@field Legs Enum 22
+---@field LegsCW Enum 23
+---@field MusculoskeletalSystemCW Enum 24
+---@field NervousSystemCW Enum 25
+---@field OuterChest Enum 26
+---@field Outfit Enum 27
+---@field PersonalLink Enum 28
+---@field PlayerTattoo Enum 29
+---@field Quest Enum 30
+---@field QuickSlot Enum 31
+---@field QuickWheel Enum 32
+---@field RightArm Enum 33
+---@field SilverhandArm Enum 34
+---@field Splinter Enum 35
+---@field SystemReplacementCW Enum 36
+---@field UnderwearBottom Enum 37
+---@field UnderwearTop Enum 38
+---@field VDefaultHandgun Enum 39
+---@field Weapon Enum 40
+---@field WeaponHeavy Enum 41
+---@field WeaponLeft Enum 42
+---@field WeaponWheel Enum 43
+---@field Count Enum 44
+---@field Invalid Enum 45
 gamedataEquipmentArea = {}

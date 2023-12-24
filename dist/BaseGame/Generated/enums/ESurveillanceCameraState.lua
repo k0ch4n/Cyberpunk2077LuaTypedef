@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class ESurveillanceCameraState: Enum
----@field Off 0
----@field Active 1
+---@field Off Enum 0
+---@field Active Enum 1
 ESurveillanceCameraState = {}

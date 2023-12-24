@@ -2,34 +2,34 @@
 ---@diagnostic disable
 
 ---@class physicsQueryUseCase: Enum
----@field Default 0
----@field ActionAnimation 1
----@field AI 2
----@field AnimationComponent 3
----@field Audio 4
----@field AudioHedgehog 5
----@field Components 6
----@field Debug 7
----@field Gameplay 8
----@field GeomDescription 9
----@field LineOfSightTests 10
----@field MoveZAlignment 11
----@field Navigation 12
----@field Nodes 13
----@field PuppetBlackboardUpdater 14
----@field Ragdoll 15
----@field Scripts 16
----@field TargetingSystem 17
----@field VehicleAI 18
----@field VehicleAIColliders 19
----@field Vehicles 20
----@field VehicleChassis 21
----@field VehiclesCrowd 22
----@field VehicleWheel 23
----@field VehicleStreamingHack 24
----@field VehicleWater 25
----@field VisibilityResolver 26
----@field WorldUI 27
----@field GameEffects 28
----@field GameProjectiles 29
+---@field Default Enum 0
+---@field ActionAnimation Enum 1
+---@field AI Enum 2
+---@field AnimationComponent Enum 3
+---@field Audio Enum 4
+---@field AudioHedgehog Enum 5
+---@field Components Enum 6
+---@field Debug Enum 7
+---@field Gameplay Enum 8
+---@field GeomDescription Enum 9
+---@field LineOfSightTests Enum 10
+---@field MoveZAlignment Enum 11
+---@field Navigation Enum 12
+---@field Nodes Enum 13
+---@field PuppetBlackboardUpdater Enum 14
+---@field Ragdoll Enum 15
+---@field Scripts Enum 16
+---@field TargetingSystem Enum 17
+---@field VehicleAI Enum 18
+---@field VehicleAIColliders Enum 19
+---@field Vehicles Enum 20
+---@field VehicleChassis Enum 21
+---@field VehiclesCrowd Enum 22
+---@field VehicleWheel Enum 23
+---@field VehicleStreamingHack Enum 24
+---@field VehicleWater Enum 25
+---@field VisibilityResolver Enum 26
+---@field WorldUI Enum 27
+---@field GameEffects Enum 28
+---@field GameProjectiles Enum 29
 physicsQueryUseCase = {}

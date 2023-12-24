@@ -2,11 +2,11 @@
 ---@diagnostic disable
 
 ---@class gameEffectTriggerPositioningType: Enum
----@field PlayerRoot 0
----@field CameraRoot 1
----@field AtSpawn 2
----@field XYCameraZPlayer 3
----@field XYPlayerZCamera 4
----@field XYCameraZTerrain 5
----@field XYPlayerZTerrain 6
+---@field PlayerRoot Enum 0
+---@field CameraRoot Enum 1
+---@field AtSpawn Enum 2
+---@field XYCameraZPlayer Enum 3
+---@field XYPlayerZCamera Enum 4
+---@field XYCameraZTerrain Enum 5
+---@field XYPlayerZTerrain Enum 6
 gameEffectTriggerPositioningType = {}

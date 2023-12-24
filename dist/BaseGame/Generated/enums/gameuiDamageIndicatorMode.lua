@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gameuiDamageIndicatorMode: Enum
----@field Off 0
----@field DamageOnly 1
----@field On 2
+---@field Off Enum 0
+---@field DamageOnly Enum 1
+---@field On Enum 2
 gameuiDamageIndicatorMode = {}

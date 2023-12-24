@@ -299,7 +299,7 @@ class Annotation:
         self.add_custom(f"---@class {name}: Enum")
 
         for option in options:
-            self.add_custom(f'---@field {option["name"]} {option["value"]}')
+            self.add_custom(f'---@field {option["name"]} Enum {option["value"]}')
 
         self.add_custom(f"{name} = {{}}")
 

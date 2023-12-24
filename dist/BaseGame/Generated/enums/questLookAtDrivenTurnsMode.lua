@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class questLookAtDrivenTurnsMode: Enum
----@field Start 0
----@field Pause 1
----@field Resume 2
----@field Stop 3
----@field ForceStop 4
+---@field Start Enum 0
+---@field Pause Enum 1
+---@field Resume Enum 2
+---@field Stop Enum 3
+---@field ForceStop Enum 4
 questLookAtDrivenTurnsMode = {}

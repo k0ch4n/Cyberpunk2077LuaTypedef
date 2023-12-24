@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entEntityUserComponentResolutionMode: Enum
----@field Select 0
----@field Suppress 1
+---@field Select Enum 0
+---@field Suppress Enum 1
 entEntityUserComponentResolutionMode = {}

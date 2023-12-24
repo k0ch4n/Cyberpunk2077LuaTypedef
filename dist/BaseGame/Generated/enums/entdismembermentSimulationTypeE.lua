@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class entdismembermentSimulationTypeE: Enum
----@field NONE 0
----@field DANGLE 128
+---@field NONE Enum 0
+---@field DANGLE Enum 128
 entdismembermentSimulationTypeE = {}

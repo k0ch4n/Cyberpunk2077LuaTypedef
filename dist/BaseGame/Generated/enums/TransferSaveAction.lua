@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class TransferSaveAction: Enum
----@field Export 0
----@field Import 1
+---@field Export Enum 0
+---@field Import Enum 1
 TransferSaveAction = {}

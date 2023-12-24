@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnSectionInternalsActorBehaviorMode: Enum
----@field OnlyIfAlive 0
----@field EvenIfDead 1
+---@field OnlyIfAlive Enum 0
+---@field EvenIfDead Enum 1
 scnSectionInternalsActorBehaviorMode = {}

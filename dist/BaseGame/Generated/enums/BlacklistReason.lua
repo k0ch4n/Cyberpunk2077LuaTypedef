@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class BlacklistReason: Enum
----@field UNINITIALIZED 0
----@field TRESPASSING 1
----@field REPRIMAND 2
----@field COMBAT 3
+---@field UNINITIALIZED Enum 0
+---@field TRESPASSING Enum 1
+---@field REPRIMAND Enum 2
+---@field COMBAT Enum 3
 BlacklistReason = {}

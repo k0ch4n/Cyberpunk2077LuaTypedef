@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class ActiveMode: Enum
----@field UNINITIALIZED 0
----@field CLEAR 1
----@field SEMI 2
----@field COMBAT 3
----@field FOCUS 4
+---@field UNINITIALIZED Enum 0
+---@field CLEAR Enum 1
+---@field SEMI Enum 2
+---@field COMBAT Enum 3
+---@field FOCUS Enum 4
 ActiveMode = {}

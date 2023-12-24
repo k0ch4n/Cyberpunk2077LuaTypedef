@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EAppliedTriangulationHackSpeed: Enum
----@field NotAssigned 0
----@field Slow 1
----@field Normal 2
----@field Fast 3
+---@field NotAssigned Enum 0
+---@field Slow Enum 1
+---@field Normal Enum 2
+---@field Fast Enum 3
 EAppliedTriangulationHackSpeed = {}

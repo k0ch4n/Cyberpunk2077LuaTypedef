@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class animPositionProjectionType: Enum
----@field Disabled 0
----@field ShortestPath 1
----@field Directional 2
+---@field Disabled Enum 0
+---@field ShortestPath Enum 1
+---@field Directional Enum 2
 animPositionProjectionType = {}

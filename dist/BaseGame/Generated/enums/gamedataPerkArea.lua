@@ -2,122 +2,122 @@
 ---@diagnostic disable
 
 ---@class gamedataPerkArea: Enum
----@field Assault_Area_01 0
----@field Assault_Area_02 1
----@field Assault_Area_03 2
----@field Assault_Area_04 3
----@field Assault_Area_05 4
----@field Assault_Area_06 5
----@field Assault_Area_07 6
----@field Assault_Area_08 7
----@field Assault_Area_09 8
----@field Assault_Area_10 9
----@field Athletics_Area_01 10
----@field Athletics_Area_02 11
----@field Athletics_Area_03 12
----@field Athletics_Area_04 13
----@field Athletics_Area_05 14
----@field Athletics_Area_06 15
----@field Athletics_Area_07 16
----@field Athletics_Area_08 17
----@field Athletics_Area_09 18
----@field Athletics_Area_10 19
----@field Brawling_Area_01 20
----@field Brawling_Area_02 21
----@field Brawling_Area_03 22
----@field Brawling_Area_04 23
----@field Brawling_Area_05 24
----@field Brawling_Area_06 25
----@field Brawling_Area_07 26
----@field Brawling_Area_08 27
----@field ColdBlood_Area_01 28
----@field ColdBlood_Area_02 29
----@field ColdBlood_Area_03 30
----@field ColdBlood_Area_04 31
----@field ColdBlood_Area_05 32
----@field ColdBlood_Area_06 33
----@field ColdBlood_Area_07 34
----@field ColdBlood_Area_08 35
----@field ColdBlood_Area_09 36
----@field ColdBlood_Area_10 37
----@field CombatHacking_Area_01 38
----@field CombatHacking_Area_02 39
----@field CombatHacking_Area_03 40
----@field CombatHacking_Area_04 41
----@field CombatHacking_Area_05 42
----@field CombatHacking_Area_06 43
----@field CombatHacking_Area_07 44
----@field CombatHacking_Area_08 45
----@field CombatHacking_Area_09 46
----@field CombatHacking_Area_10 47
----@field Crafting_Area_01 48
----@field Crafting_Area_02 49
----@field Crafting_Area_03 50
----@field Crafting_Area_04 51
----@field Crafting_Area_05 52
----@field Crafting_Area_06 53
----@field Crafting_Area_07 54
----@field Crafting_Area_08 55
----@field Crafting_Area_09 56
----@field Crafting_Area_10 57
----@field Demolition_Area_01 58
----@field Demolition_Area_02 59
----@field Demolition_Area_03 60
----@field Demolition_Area_04 61
----@field Demolition_Area_05 62
----@field Demolition_Area_06 63
----@field Demolition_Area_07 64
----@field Demolition_Area_08 65
----@field Demolition_Area_09 66
----@field Demolition_Area_10 67
----@field Engineering_Area_01 68
----@field Engineering_Area_02 69
----@field Engineering_Area_03 70
----@field Engineering_Area_04 71
----@field Engineering_Area_05 72
----@field Engineering_Area_06 73
----@field Engineering_Area_07 74
----@field Engineering_Area_08 75
----@field Engineering_Area_09 76
----@field Engineering_Area_10 77
----@field Gunslinger_Area_01 78
----@field Gunslinger_Area_02 79
----@field Gunslinger_Area_03 80
----@field Gunslinger_Area_04 81
----@field Gunslinger_Area_05 82
----@field Gunslinger_Area_06 83
----@field Gunslinger_Area_07 84
----@field Gunslinger_Area_08 85
----@field Gunslinger_Area_09 86
----@field Gunslinger_Area_10 87
----@field Hacking_Area_01 88
----@field Hacking_Area_02 89
----@field Hacking_Area_03 90
----@field Hacking_Area_04 91
----@field Hacking_Area_05 92
----@field Hacking_Area_06 93
----@field Hacking_Area_07 94
----@field Hacking_Area_08 95
----@field Hacking_Area_09 96
----@field Hacking_Area_10 97
----@field Kenjutsu_Area_01 98
----@field Kenjutsu_Area_02 99
----@field Kenjutsu_Area_03 100
----@field Kenjutsu_Area_04 101
----@field Kenjutsu_Area_05 102
----@field Kenjutsu_Area_06 103
----@field Kenjutsu_Area_07 104
----@field Kenjutsu_Area_08 105
----@field Stealth_Area_01 106
----@field Stealth_Area_02 107
----@field Stealth_Area_03 108
----@field Stealth_Area_04 109
----@field Stealth_Area_05 110
----@field Stealth_Area_06 111
----@field Stealth_Area_07 112
----@field Stealth_Area_08 113
----@field Stealth_Area_09 114
----@field Stealth_Area_10 115
----@field Count 116
----@field Invalid 117
+---@field Assault_Area_01 Enum 0
+---@field Assault_Area_02 Enum 1
+---@field Assault_Area_03 Enum 2
+---@field Assault_Area_04 Enum 3
+---@field Assault_Area_05 Enum 4
+---@field Assault_Area_06 Enum 5
+---@field Assault_Area_07 Enum 6
+---@field Assault_Area_08 Enum 7
+---@field Assault_Area_09 Enum 8
+---@field Assault_Area_10 Enum 9
+---@field Athletics_Area_01 Enum 10
+---@field Athletics_Area_02 Enum 11
+---@field Athletics_Area_03 Enum 12
+---@field Athletics_Area_04 Enum 13
+---@field Athletics_Area_05 Enum 14
+---@field Athletics_Area_06 Enum 15
+---@field Athletics_Area_07 Enum 16
+---@field Athletics_Area_08 Enum 17
+---@field Athletics_Area_09 Enum 18
+---@field Athletics_Area_10 Enum 19
+---@field Brawling_Area_01 Enum 20
+---@field Brawling_Area_02 Enum 21
+---@field Brawling_Area_03 Enum 22
+---@field Brawling_Area_04 Enum 23
+---@field Brawling_Area_05 Enum 24
+---@field Brawling_Area_06 Enum 25
+---@field Brawling_Area_07 Enum 26
+---@field Brawling_Area_08 Enum 27
+---@field ColdBlood_Area_01 Enum 28
+---@field ColdBlood_Area_02 Enum 29
+---@field ColdBlood_Area_03 Enum 30
+---@field ColdBlood_Area_04 Enum 31
+---@field ColdBlood_Area_05 Enum 32
+---@field ColdBlood_Area_06 Enum 33
+---@field ColdBlood_Area_07 Enum 34
+---@field ColdBlood_Area_08 Enum 35
+---@field ColdBlood_Area_09 Enum 36
+---@field ColdBlood_Area_10 Enum 37
+---@field CombatHacking_Area_01 Enum 38
+---@field CombatHacking_Area_02 Enum 39
+---@field CombatHacking_Area_03 Enum 40
+---@field CombatHacking_Area_04 Enum 41
+---@field CombatHacking_Area_05 Enum 42
+---@field CombatHacking_Area_06 Enum 43
+---@field CombatHacking_Area_07 Enum 44
+---@field CombatHacking_Area_08 Enum 45
+---@field CombatHacking_Area_09 Enum 46
+---@field CombatHacking_Area_10 Enum 47
+---@field Crafting_Area_01 Enum 48
+---@field Crafting_Area_02 Enum 49
+---@field Crafting_Area_03 Enum 50
+---@field Crafting_Area_04 Enum 51
+---@field Crafting_Area_05 Enum 52
+---@field Crafting_Area_06 Enum 53
+---@field Crafting_Area_07 Enum 54
+---@field Crafting_Area_08 Enum 55
+---@field Crafting_Area_09 Enum 56
+---@field Crafting_Area_10 Enum 57
+---@field Demolition_Area_01 Enum 58
+---@field Demolition_Area_02 Enum 59
+---@field Demolition_Area_03 Enum 60
+---@field Demolition_Area_04 Enum 61
+---@field Demolition_Area_05 Enum 62
+---@field Demolition_Area_06 Enum 63
+---@field Demolition_Area_07 Enum 64
+---@field Demolition_Area_08 Enum 65
+---@field Demolition_Area_09 Enum 66
+---@field Demolition_Area_10 Enum 67
+---@field Engineering_Area_01 Enum 68
+---@field Engineering_Area_02 Enum 69
+---@field Engineering_Area_03 Enum 70
+---@field Engineering_Area_04 Enum 71
+---@field Engineering_Area_05 Enum 72
+---@field Engineering_Area_06 Enum 73
+---@field Engineering_Area_07 Enum 74
+---@field Engineering_Area_08 Enum 75
+---@field Engineering_Area_09 Enum 76
+---@field Engineering_Area_10 Enum 77
+---@field Gunslinger_Area_01 Enum 78
+---@field Gunslinger_Area_02 Enum 79
+---@field Gunslinger_Area_03 Enum 80
+---@field Gunslinger_Area_04 Enum 81
+---@field Gunslinger_Area_05 Enum 82
+---@field Gunslinger_Area_06 Enum 83
+---@field Gunslinger_Area_07 Enum 84
+---@field Gunslinger_Area_08 Enum 85
+---@field Gunslinger_Area_09 Enum 86
+---@field Gunslinger_Area_10 Enum 87
+---@field Hacking_Area_01 Enum 88
+---@field Hacking_Area_02 Enum 89
+---@field Hacking_Area_03 Enum 90
+---@field Hacking_Area_04 Enum 91
+---@field Hacking_Area_05 Enum 92
+---@field Hacking_Area_06 Enum 93
+---@field Hacking_Area_07 Enum 94
+---@field Hacking_Area_08 Enum 95
+---@field Hacking_Area_09 Enum 96
+---@field Hacking_Area_10 Enum 97
+---@field Kenjutsu_Area_01 Enum 98
+---@field Kenjutsu_Area_02 Enum 99
+---@field Kenjutsu_Area_03 Enum 100
+---@field Kenjutsu_Area_04 Enum 101
+---@field Kenjutsu_Area_05 Enum 102
+---@field Kenjutsu_Area_06 Enum 103
+---@field Kenjutsu_Area_07 Enum 104
+---@field Kenjutsu_Area_08 Enum 105
+---@field Stealth_Area_01 Enum 106
+---@field Stealth_Area_02 Enum 107
+---@field Stealth_Area_03 Enum 108
+---@field Stealth_Area_04 Enum 109
+---@field Stealth_Area_05 Enum 110
+---@field Stealth_Area_06 Enum 111
+---@field Stealth_Area_07 Enum 112
+---@field Stealth_Area_08 Enum 113
+---@field Stealth_Area_09 Enum 114
+---@field Stealth_Area_10 Enum 115
+---@field Count Enum 116
+---@field Invalid Enum 117
 gamedataPerkArea = {}

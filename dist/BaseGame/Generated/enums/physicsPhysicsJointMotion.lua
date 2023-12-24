@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class physicsPhysicsJointMotion: Enum
----@field Locked 0
----@field Limited 1
----@field Free 2
+---@field Locked Enum 0
+---@field Limited Enum 1
+---@field Free Enum 2
 physicsPhysicsJointMotion = {}

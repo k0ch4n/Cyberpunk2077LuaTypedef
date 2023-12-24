@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class AIForcedBehaviourPriority: Enum
----@field AboveIdle 0
----@field AboveCombat 1
----@field AboveCriticalState 2
----@field AboveDeath 3
+---@field AboveIdle Enum 0
+---@field AboveCombat Enum 1
+---@field AboveCriticalState Enum 2
+---@field AboveDeath Enum 3
 AIForcedBehaviourPriority = {}

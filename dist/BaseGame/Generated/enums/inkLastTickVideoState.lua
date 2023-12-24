@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkLastTickVideoState: Enum
----@field NotDrawn 0
----@field Drawn 1
----@field Paused 2
+---@field NotDrawn Enum 0
+---@field Drawn Enum 1
+---@field Paused Enum 2
 inkLastTickVideoState = {}

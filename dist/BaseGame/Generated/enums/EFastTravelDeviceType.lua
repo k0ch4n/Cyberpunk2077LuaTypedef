@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EFastTravelDeviceType: Enum
----@field DataTerm 0
----@field SubwayGate 1
+---@field DataTerm Enum 0
+---@field SubwayGate Enum 1
 EFastTravelDeviceType = {}

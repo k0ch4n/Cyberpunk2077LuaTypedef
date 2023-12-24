@@ -2,13 +2,13 @@
 ---@diagnostic disable
 
 ---@class vehiclePoliceStrategy: Enum
----@field None 0
----@field DriveTowardsPlayer 1
----@field DriveAwayFromPlayer 2
----@field PatrolNearby 3
----@field InterceptAtNextIntersection 4
----@field GetToPlayerFromAnywhere 5
----@field InitialSearch 6
----@field SearchFromAnywhere 7
----@field Count 8
+---@field None Enum 0
+---@field DriveTowardsPlayer Enum 1
+---@field DriveAwayFromPlayer Enum 2
+---@field PatrolNearby Enum 3
+---@field InterceptAtNextIntersection Enum 4
+---@field GetToPlayerFromAnywhere Enum 5
+---@field InitialSearch Enum 6
+---@field SearchFromAnywhere Enum 7
+---@field Count Enum 8
 vehiclePoliceStrategy = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class gamestateMachineParameterAspect: Enum
----@field Temporary 0
----@field Permanent 1
----@field Conditional 2
+---@field Temporary Enum 0
+---@field Permanent Enum 1
+---@field Conditional Enum 2
 gamestateMachineParameterAspect = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EGenericNotificationPriority: Enum
----@field Default 0
----@field Low 1
----@field Medium 2
----@field Height 3
+---@field Default Enum 0
+---@field Low Enum 1
+---@field Medium Enum 2
+---@field Height Enum 3
 EGenericNotificationPriority = {}

@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class moveMovementType: Enum
----@field Walk 0
----@field Run 1
----@field Sprint 2
----@field Strafe 3
----@field Stand 4
+---@field Walk Enum 0
+---@field Run Enum 1
+---@field Sprint Enum 2
+---@field Strafe Enum 3
+---@field Stand Enum 4
 moveMovementType = {}

@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class UIObjectiveEntryType: Enum
----@field Invalid 0
----@field Quest 1
----@field Objective 2
----@field SubObjective 3
+---@field Invalid Enum 0
+---@field Quest Enum 1
+---@field Objective Enum 2
+---@field SubObjective Enum 3
 UIObjectiveEntryType = {}

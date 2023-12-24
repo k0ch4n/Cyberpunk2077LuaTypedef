@@ -2,14 +2,14 @@
 ---@diagnostic disable
 
 ---@class gamedataObjectActionType: Enum
----@field DeviceQuickHack 0
----@field Direct 1
----@field Item 2
----@field MinigameUpload 3
----@field Payment 4
----@field PuppetQuickHack 5
----@field Remote 6
----@field VehicleQuickHack 7
----@field Count 8
----@field Invalid 9
+---@field DeviceQuickHack Enum 0
+---@field Direct Enum 1
+---@field Item Enum 2
+---@field MinigameUpload Enum 3
+---@field Payment Enum 4
+---@field PuppetQuickHack Enum 5
+---@field Remote Enum 6
+---@field VehicleQuickHack Enum 7
+---@field Count Enum 8
+---@field Invalid Enum 9
 gamedataObjectActionType = {}

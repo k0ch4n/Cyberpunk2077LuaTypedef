@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class audioWeaponShellCasingMode: Enum
----@field none 0
----@field onShoot 1
----@field onReload 2
+---@field none Enum 0
+---@field onShoot Enum 1
+---@field onReload Enum 2
 audioWeaponShellCasingMode = {}

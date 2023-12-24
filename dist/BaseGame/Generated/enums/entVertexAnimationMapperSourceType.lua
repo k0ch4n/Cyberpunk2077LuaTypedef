@@ -2,12 +2,12 @@
 ---@diagnostic disable
 
 ---@class entVertexAnimationMapperSourceType: Enum
----@field FloatTrack 0
----@field TranslationX 1
----@field TranslationY 2
----@field TranslationZ 3
----@field RotationQuatX 4
----@field RotationQuatY 5
----@field RotationQuatZ 6
----@field RotationQuatW 7
+---@field FloatTrack Enum 0
+---@field TranslationX Enum 1
+---@field TranslationY Enum 2
+---@field TranslationZ Enum 3
+---@field RotationQuatX Enum 4
+---@field RotationQuatY Enum 5
+---@field RotationQuatZ Enum 6
+---@field RotationQuatW Enum 7
 entVertexAnimationMapperSourceType = {}

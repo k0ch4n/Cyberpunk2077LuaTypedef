@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class EDeviceStatus: Enum
----@field DISABLED -2
----@field UNPOWERED -1
----@field OFF 0
----@field ON 1
----@field INVALID 2
+---@field DISABLED Enum -2
+---@field UNPOWERED Enum -1
+---@field OFF Enum 0
+---@field ON Enum 1
+---@field INVALID Enum 2
 EDeviceStatus = {}

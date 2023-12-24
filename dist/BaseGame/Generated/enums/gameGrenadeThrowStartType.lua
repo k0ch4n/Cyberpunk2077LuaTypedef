@@ -2,9 +2,9 @@
 ---@diagnostic disable
 
 ---@class gameGrenadeThrowStartType: Enum
----@field Invalid 0
----@field LeftSide 1
----@field RightSide 2
----@field Top 3
----@field Count 4
+---@field Invalid Enum 0
+---@field LeftSide Enum 1
+---@field RightSide Enum 2
+---@field Top Enum 3
+---@field Count Enum 4
 gameGrenadeThrowStartType = {}

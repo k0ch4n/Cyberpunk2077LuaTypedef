@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class gamedataWeaponManufacturer: Enum
----@field Corporation 0
----@field Street 1
----@field Count 2
----@field Invalid 3
+---@field Corporation Enum 0
+---@field Street Enum 1
+---@field Count Enum 2
+---@field Invalid Enum 3
 gamedataWeaponManufacturer = {}

@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class worldStreamingTestCheckpointType: Enum
----@field BeginMove 0
----@field EndMove 1
+---@field BeginMove Enum 0
+---@field EndMove Enum 1
 worldStreamingTestCheckpointType = {}

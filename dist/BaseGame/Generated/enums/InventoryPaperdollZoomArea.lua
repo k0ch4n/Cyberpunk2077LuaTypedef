@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class InventoryPaperdollZoomArea: Enum
----@field Default 0
----@field Weapon 1
----@field Legs 2
----@field Feet 3
----@field Cyberware 4
----@field QuickSlot 5
----@field Consumable 6
----@field Outfit 7
----@field Head 8
----@field Face 9
----@field InnerChest 10
----@field OuterChest 11
+---@field Default Enum 0
+---@field Weapon Enum 1
+---@field Legs Enum 2
+---@field Feet Enum 3
+---@field Cyberware Enum 4
+---@field QuickSlot Enum 5
+---@field Consumable Enum 6
+---@field Outfit Enum 7
+---@field Head Enum 8
+---@field Face Enum 9
+---@field InnerChest Enum 10
+---@field OuterChest Enum 11
 InventoryPaperdollZoomArea = {}

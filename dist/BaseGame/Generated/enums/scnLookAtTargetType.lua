@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class scnLookAtTargetType: Enum
----@field Actor 0
----@field Prop 1
+---@field Actor Enum 0
+---@field Prop Enum 1
 scnLookAtTargetType = {}

@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class inkEJointStyle: Enum
----@field MITER 0
----@field BEVEL 1
----@field ROUND 2
+---@field MITER Enum 0
+---@field BEVEL Enum 1
+---@field ROUND Enum 2
 inkEJointStyle = {}

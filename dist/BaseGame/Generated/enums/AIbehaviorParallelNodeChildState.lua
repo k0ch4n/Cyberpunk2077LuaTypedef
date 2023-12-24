@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class AIbehaviorParallelNodeChildState: Enum
----@field Inactive 0
----@field Active 1
----@field Completed 2
+---@field Inactive Enum 0
+---@field Active Enum 1
+---@field Completed Enum 2
 AIbehaviorParallelNodeChildState = {}

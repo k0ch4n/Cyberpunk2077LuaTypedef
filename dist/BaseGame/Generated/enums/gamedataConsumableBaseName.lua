@@ -2,16 +2,16 @@
 ---@diagnostic disable
 
 ---@class gamedataConsumableBaseName: Enum
----@field Alcohol 0
----@field BonesMcCoy70 1
----@field CarryCapacityBooster 2
----@field Drinkable 3
----@field Edible 4
----@field FirstAidWhiff 5
----@field HealthBooster 6
----@field MemoryBooster 7
----@field OxyBooster 8
----@field StaminaBooster 9
----@field Count 10
----@field Invalid 11
+---@field Alcohol Enum 0
+---@field BonesMcCoy70 Enum 1
+---@field CarryCapacityBooster Enum 2
+---@field Drinkable Enum 3
+---@field Edible Enum 4
+---@field FirstAidWhiff Enum 5
+---@field HealthBooster Enum 6
+---@field MemoryBooster Enum 7
+---@field OxyBooster Enum 8
+---@field StaminaBooster Enum 9
+---@field Count Enum 10
+---@field Invalid Enum 11
 gamedataConsumableBaseName = {}

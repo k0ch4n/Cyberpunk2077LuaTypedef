@@ -2,6 +2,6 @@
 ---@diagnostic disable
 
 ---@class EMaterialPriority: Enum
----@field EMP_Normal 0
----@field EMP_Front 1
+---@field EMP_Normal Enum 0
+---@field EMP_Front Enum 1
 EMaterialPriority = {}

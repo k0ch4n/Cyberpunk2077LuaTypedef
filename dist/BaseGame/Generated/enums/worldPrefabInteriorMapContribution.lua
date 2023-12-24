@@ -2,7 +2,7 @@
 ---@diagnostic disable
 
 ---@class worldPrefabInteriorMapContribution: Enum
----@field Auto 0
----@field Include 1
----@field Discard 2
+---@field Auto Enum 0
+---@field Include Enum 1
+---@field Discard Enum 2
 worldPrefabInteriorMapContribution = {}

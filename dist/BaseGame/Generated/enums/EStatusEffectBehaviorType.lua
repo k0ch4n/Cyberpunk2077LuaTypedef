@@ -2,8 +2,8 @@
 ---@diagnostic disable
 
 ---@class EStatusEffectBehaviorType: Enum
----@field Invalid 0
----@field Basic 1
----@field Stoppable 2
----@field Unstoppable 3
+---@field Invalid Enum 0
+---@field Basic Enum 1
+---@field Stoppable Enum 2
+---@field Unstoppable Enum 3
 EStatusEffectBehaviorType = {}
